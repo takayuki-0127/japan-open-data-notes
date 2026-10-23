@@ -1,0 +1,11 @@
+stat,value
+corr_jp2025_fo2025,-0.112
+corr_foshare2019_total2025,0.626
+corr_logfo2025_foshare2019,0.095
+jp2025_metro_median,102.084
+jp2025_other_median,98.150
+fo2025_metro_median,141.240
+fo2025_other_median,133.528
+n_pref_jp2025_ge100,18.000
+n_pref_fo2025_ge100,39.000
+n_pref_total2025_ge100,28.000
