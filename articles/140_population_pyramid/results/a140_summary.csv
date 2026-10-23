@@ -1,0 +1,14 @@
+,value
+last_year_base_widest,1953
+first_year_0_4_lt_40_44,1981
+stays_after,True
+first_year_65_gt_0_14,1997
+first_year_65_ge_2x_0_14,2014
+median_age_1920,22.2
+median_age_1950,22.3
+median_age_2024,50.1
+y1920,"{'s0_14': np.float64(36.5), 's65': np.float64(5.3), 'modal': 0, 'widest5': 0, 'base_ratio': np.float64(1.0)}"
+y1950,"{'s0_14': np.float64(35.4), 's65': np.float64(4.9), 'modal': 1, 'widest5': 0, 'base_ratio': np.float64(1.0)}"
+y1975,"{'s0_14': np.float64(24.3), 's65': np.float64(7.9), 'modal': 26, 'widest5': 25, 'base_ratio': np.float64(0.93)}"
+y2000,"{'s0_14': np.float64(14.6), 's65': np.float64(17.4), 'modal': 51, 'widest5': 50, 'base_ratio': np.float64(0.57)}"
+y2024,"{'s0_14': np.float64(11.2), 's65': np.float64(29.3), 'modal': 51, 'widest5': 50, 'base_ratio': np.float64(0.4)}"
