@@ -16,7 +16,7 @@
 | 095 | [就業者は13年で550万人増えた。増えたのは女性と65歳以上で、人口が減る分を「働く人の割合」が912万人押し上げた](articles/095_employment_growth) | 就業者の増加を「人口」と「働く人の割合」に要因分解 |
 | 137 | [市区町村の歳出の4割は福祉（民生費）。12年で1.5倍になり、伸びが大きかったのは子どもと障害者福祉など](articles/137_welfare_spending) | e-Stat の CSV から必要な行を抜き出して表を作るところからコード化 |
 
-## 記事の一覧（158本）
+## 記事の一覧（163本）
 | # | 記事のタイトル | フォルダ |
 |---|---|---|
 | 000 | 女性の労働力率は何で決まる？ 全国1,739市区町村の公開データで調べてみた | [000_women_labor](articles/000_women_labor) |
@@ -177,6 +177,11 @@
 | 163 | 調剤医療費の伸び、この5年は半分が薬局の技術料、4割が注射薬。内服薬は日数が3割伸びても1日の値段が2割下がった | [163_dispensing_costs](articles/163_dispensing_costs) |
 | 164 | 学習塾の受講生は2018年から1割減。それでも売上はトレンド通りに伸び、支えたのは1人当たりの受講料だった | [164_juku_sales](articles/164_juku_sales) |
 | 165 | 人口あたりの看護師は高知が最多で埼玉の2.1倍。上位10県はすべて中国・四国・九州だった | [165_nurses_by_pref](articles/165_nurses_by_pref) |
+| 166 | 国内線の座席利用率は8月が最も高く、1月と4月が低い。季節の差は15ポイントで、2025年は年平均80%を超えた | [166_air_load_factor_season](articles/166_air_load_factor_season) |
+| 167 | 医療費の中で割合が最も伸びた病気はがんなどの新生物で13.1%から15.0%に。循環器は20.8%から18.2%に下がった | [167_medical_cost_by_disease](articles/167_medical_cost_by_disease) |
+| 168 | 産業廃棄物は年3.7億t。電気・水道業、農業、建設業がそれぞれ2割強で、種類では汚泥が42%を占めていた | [168_industrial_waste_by_industry](articles/168_industrial_waste_by_industry) |
+| 169 | 外国人労働者は10年で2.4倍。製造業は1位のまま割合が31%から25%に下がり、医療・福祉は8.4倍、建設業は5.0倍になった | [169_foreign_workers_by_industry](articles/169_foreign_workers_by_industry) |
+| 170 | 日本企業の海外現地法人は2021年度にASEANが中国を上回った。中国の現地法人で働く人は9年で4割減った | [170_overseas_affiliates_region](articles/170_overseas_affiliates_region) |
 
 ## 共通の方針
 - データは e-Stat などの公開データだけを使い、出典は各フォルダの README に書いています（政府標準利用規約 第2.0版などに沿って「〇〇をもとに作成者が加工して作成」）
