@@ -1,0 +1,18 @@
+general: amp 16.56 amp; strength_season=0.89 | 1:+4.72 2:+3.52 3:+0.48 4:-1.87 5:+0.06 6:+0.68 7:+1.22 8:+0.22 9:+0.33 10:+0.39 11:+2.11 12:-11.84
+ltc: amp 1.35 amp; strength_season=0.51 | 1:+0.64 2:+0.84 3:+0.39 4:+0.15 5:-0.26 6:-0.22 7:+0.03 8:+0.08 9:-0.49 10:-0.51 11:-0.40 12:-0.25
+psych: amp 0.89 amp; strength_season=0.71 | 1:-0.14 2:-0.05 3:-0.38 4:-0.17 5:-0.16 6:+0.23 7:+0.51 8:+0.46 9:+0.28 10:+0.04 11:-0.21 12:-0.36
+total: amp 9.88 amp; strength_season=0.89 | 1:+2.86 2:+2.36 3:+0.27 4:-1.10 5:+0.02 6:+0.25 7:+0.90 8:+0.22 9:+0.02 10:+0.19 11:+1.05 12:-7.02
+general detr off-day mean -1.35 vs weekday 1.60 (Dec excluded); offday diff by month mean -2.90
+weekday table:
+   mean  count
+月  0.94     35
+火  1.67     35
+水  2.11     35
+木  2.08     35
+金  1.18     34
+土 -1.14     34
+日 -1.55     34
+weekday-ends only: Jan-Feb 4.55, Apr-Jun 0.05, Jul-Aug 1.45
+general annual: 2004:79.4, 2010:76.6, 2019:76.5, 2020:71.3, 2021:69.8, 2022:69.0, 2025:74.7
+general Dec minus Nov mean: -13.58; Jan minus Dec mean 16.11
+total Dec minus Nov mean: -7.87; Jan minus Dec mean 9.89
