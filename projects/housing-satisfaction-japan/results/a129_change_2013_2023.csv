@@ -1,0 +1,701 @@
+項目,group,item2013,item2023,不満率2013,不満率2023,変化（ポイント）
+治安,居住環境,"<bound method IndexOpsMixin.item of answer
+year             2013
+group            居住環境
+item      ④治安、犯罪発生の防止
+まあ満足          27059.0
+不明              996.0
+多少不満          16699.0
+満足             5050.0
+非常に不満          2494.0
+回答計           51302.0
+不満率          0.374118
+非常に不満率       0.048614
+Name: 20, dtype: object>","<bound method IndexOpsMixin.item of answer
+year          2023
+group         居住環境
+item           ⑧治安
+まあ満足       33489.0
+不明          2559.0
+多少不満        8126.0
+満足         10237.0
+非常に不満       1255.0
+回答計        53107.0
+不満率       0.176643
+非常に不満率    0.023632
+Name: 91, dtype: object>",0.3741,0.1766,-19.7475
+換気,住宅,"<bound method IndexOpsMixin.item of answer
+year          2013
+group           住宅
+item         ⑬換気性能
+まあ満足       25911.0
+不明          1211.0
+多少不満       15416.0
+満足          6426.0
+非常に不満       3335.0
+回答計        51088.0
+不満率       0.367033
+非常に不満率     0.06528
+Name: 12, dtype: object>","<bound method IndexOpsMixin.item of answer
+year                     2023
+group                      住宅
+item      ⑥換気のよさ（臭いや煙などが残らない）
+まあ満足                  28324.0
+不明                     2446.0
+多少不満                  11442.0
+満足                    11300.0
+非常に不満                  2152.0
+回答計                   53218.0
+不満率                   0.25544
+非常に不満率               0.040437
+Name: 71, dtype: object>",0.367,0.2554,-11.1593
+高齢者への配慮,住宅,"<bound method IndexOpsMixin.item of answer
+year            2013
+group             住宅
+item      ⑫高齢者などへの配慮
+まあ満足         17786.0
+不明            1275.0
+多少不満         20859.0
+満足            5251.0
+非常に不満         7127.0
+回答計          51023.0
+不満率         0.548498
+非常に不満率      0.139682
+Name: 11, dtype: object>","<bound method IndexOpsMixin.item of answer
+year                  2023
+group                   住宅
+item      ⑫高齢者への配慮（段差がない等）
+まあ満足               21774.0
+不明                  2860.0
+多少不満               18802.0
+満足                  6861.0
+非常に不満               5368.0
+回答計                52805.0
+不満率               0.457722
+非常に不満率            0.101657
+Name: 77, dtype: object>",0.5485,0.4577,-9.0776
+地震への安全性,住宅,"<bound method IndexOpsMixin.item of answer
+year             2013
+group              住宅
+item      ④地震時の住宅の安全性
+まあ満足          19829.0
+不明              813.0
+多少不満          18319.0
+満足             6230.0
+非常に不満          7106.0
+回答計           51484.0
+不満率          0.493843
+非常に不満率       0.138023
+Name: 3, dtype: object>","<bound method IndexOpsMixin.item of answer
+year            2023
+group             住宅
+item      ⑭地震に対する安全性
+まあ満足         24426.0
+不明            2865.0
+多少不満         15839.0
+満足            7000.0
+非常に不満         5535.0
+回答計          52800.0
+不満率         0.404811
+非常に不満率       0.10483
+Name: 79, dtype: object>",0.4938,0.4048,-8.9032
+外部の騒音への遮音,住宅,"<bound method IndexOpsMixin.item of answer
+year                 2013
+group                  住宅
+item      ⑮外部からの騒音に対する遮音性
+まあ満足              22815.0
+不明                 1118.0
+多少不満              15903.0
+満足                 7617.0
+非常に不満              4845.0
+回答計               51180.0
+不満率              0.405393
+非常に不満率           0.094666
+Name: 14, dtype: object>","<bound method IndexOpsMixin.item of answer
+year                   2023
+group                    住宅
+item      ⑧外部からの騒音などに対する遮音性
+まあ満足                24414.0
+不明                   2421.0
+多少不満                13304.0
+満足                  11906.0
+非常に不満                3622.0
+回答計                 53246.0
+不満率                0.317883
+非常に不満率             0.068024
+Name: 73, dtype: object>",0.4054,0.3179,-8.751
+延焼のしにくさ,居住環境,"<bound method IndexOpsMixin.item of answer
+year           2013
+group          居住環境
+item      ③火災の延焼の防止
+まあ満足        22657.0
+不明           1069.0
+多少不満        18208.0
+満足           5976.0
+非常に不満        4387.0
+回答計         51228.0
+不満率        0.441067
+非常に不満率     0.085637
+Name: 19, dtype: object>","<bound method IndexOpsMixin.item of answer
+year               2023
+group              居住環境
+item      ⑫周辺からの延焼のしにくさ
+まあ満足            26013.0
+不明               3133.0
+多少不満            15914.0
+満足               7124.0
+非常に不満            3481.0
+回答計             52532.0
+不満率            0.369204
+非常に不満率         0.066264
+Name: 95, dtype: object>",0.4411,0.3692,-7.1864
+火災への安全性,住宅,"<bound method IndexOpsMixin.item of answer
+year            2013
+group             住宅
+item      ⑥火災に対する安全性
+まあ満足         25007.0
+不明             844.0
+多少不満         16699.0
+満足            5943.0
+非常に不満         3805.0
+回答計          51454.0
+不満率         0.398492
+非常に不満率       0.07395
+Name: 5, dtype: object>","<bound method IndexOpsMixin.item of answer
+year            2023
+group             住宅
+item      ⑯火災に対する安全性
+まあ満足         28605.0
+不明            2840.0
+多少不満         14277.0
+満足            6773.0
+非常に不満         3170.0
+回答計          52825.0
+不満率         0.330279
+非常に不満率      0.060009
+Name: 81, dtype: object>",0.3985,0.3303,-6.8213
+上下階・隣戸の音への遮音,住宅,"<bound method IndexOpsMixin.item of answer
+year                      2013
+group                       住宅
+item      ⑯上下階や隣戸の生活音などに対する遮音性
+まあ満足                   23903.0
+不明                      1162.0
+多少不満                   14142.0
+満足                      8822.0
+非常に不満                   4269.0
+回答計                    51136.0
+不満率                    0.36004
+非常に不満率                0.083483
+Name: 15, dtype: object>","<bound method IndexOpsMixin.item of answer
+year                          2023
+group                           住宅
+item      ⑨上下階や隣戸・隣室からの騒音などに対する遮音性
+まあ満足                       24594.0
+不明                          2532.0
+多少不満                       12127.0
+満足                         12927.0
+非常に不満                       3485.0
+回答計                        53133.0
+不満率                       0.293829
+非常に不満率                     0.06559
+Name: 74, dtype: object>",0.36,0.2938,-6.6211
+自然とのふれあい,居住環境,"<bound method IndexOpsMixin.item of answer
+year                  2013
+group                 居住環境
+item      ⑩緑、水辺などの自然とのふれあい
+まあ満足               26628.0
+不明                  1282.0
+多少不満               12201.0
+満足                  9593.0
+非常に不満               2593.0
+回答計                51015.0
+不満率               0.289993
+非常に不満率            0.050828
+Name: 26, dtype: object>","<bound method IndexOpsMixin.item of answer
+year                 2023
+group                居住環境
+item      ⑮公園や緑、水辺などの自然環境
+まあ満足              29024.0
+不明                 2962.0
+多少不満              10201.0
+満足                11850.0
+非常に不満              1629.0
+回答計               52704.0
+不満率              0.224461
+非常に不満率           0.030908
+Name: 98, dtype: object>",0.29,0.2245,-6.5532
+収納,住宅,"<bound method IndexOpsMixin.item of answer
+year              2013
+group               住宅
+item      ②収納の多さ、使いやすさ
+まあ満足           20846.0
+不明               733.0
+多少不満           17250.0
+満足              9569.0
+非常に不満           3899.0
+回答計            51564.0
+不満率            0.41015
+非常に不満率        0.075615
+Name: 1, dtype: object>","<bound method IndexOpsMixin.item of answer
+year             2023
+group              住宅
+item      ②収納の多さ、使い勝手
+まあ満足          23189.0
+不明             2419.0
+多少不満          15587.0
+満足            11610.0
+非常に不満          2859.0
+回答計           53245.0
+不満率          0.346436
+非常に不満率       0.053695
+Name: 67, dtype: object>",0.4102,0.3464,-6.3714
+いたみの少なさ,住宅,"<bound method IndexOpsMixin.item of answer
+year             2013
+group              住宅
+item      ⑧住宅のいたみの少なさ
+まあ満足          21610.0
+不明              787.0
+多少不満          17605.0
+満足             6269.0
+非常に不満          6026.0
+回答計           51510.0
+不満率          0.458765
+非常に不満率       0.116987
+Name: 7, dtype: object>","<bound method IndexOpsMixin.item of answer
+year          2023
+group           住宅
+item      ④いたみの少なさ
+まあ満足       23436.0
+不明          2470.0
+多少不満       16690.0
+満足          8637.0
+非常に不満       4433.0
+回答計        53196.0
+不満率       0.397079
+非常に不満率    0.083333
+Name: 69, dtype: object>",0.4588,0.3971,-6.1687
+維持管理のしやすさ,住宅,"<bound method IndexOpsMixin.item of answer
+year               2013
+group                住宅
+item      ⑨住宅の維持管理のしやすさ
+まあ満足            27010.0
+不明                873.0
+多少不満            14954.0
+満足               6101.0
+非常に不満            3360.0
+回答計             51425.0
+不満率             0.35613
+非常に不満率         0.065338
+Name: 8, dtype: object>","<bound method IndexOpsMixin.item of answer
+year            2023
+group             住宅
+item      ⑤維持管理のしやすさ
+まあ満足         28744.0
+不明            2546.0
+多少不満         13109.0
+満足            8673.0
+非常に不満         2594.0
+回答計          53120.0
+不満率         0.295614
+非常に不満率      0.048833
+Name: 70, dtype: object>",0.3561,0.2956,-6.0517
+空間のゆとり,居住環境,"<bound method IndexOpsMixin.item of answer
+year                         2013
+group                        居住環境
+item      ⑧敷地の広さや日当たり、風通しなど空間のゆとり
+まあ満足                      24935.0
+不明                          811.0
+多少不満                      12748.0
+満足                        10706.0
+非常に不満                      3097.0
+回答計                       51486.0
+不満率                      0.307754
+非常に不満率                   0.060152
+Name: 24, dtype: object>","<bound method IndexOpsMixin.item of answer
+year                                2023
+group                               居住環境
+item      ⑭敷地の広さや、日当たり・風通しなどを確保できる空間のゆとり
+まあ満足                             26515.0
+不明                                2814.0
+多少不満                             10782.0
+満足                               13241.0
+非常に不満                             2313.0
+回答計                              52851.0
+不満率                             0.247772
+非常に不満率                          0.043765
+Name: 97, dtype: object>",0.3078,0.2478,-5.9982
+省エネ性（光熱費）,住宅,"<bound method IndexOpsMixin.item of answer
+year                2013
+group                 住宅
+item      ⑪冷暖房などの省エネルギー性
+まあ満足             21280.0
+不明                1205.0
+多少不満             18851.0
+満足                5376.0
+非常に不満             5587.0
+回答計              51094.0
+不満率             0.478295
+非常に不満率          0.109347
+Name: 10, dtype: object>","<bound method IndexOpsMixin.item of answer
+year                    2023
+group                     住宅
+item      ⑪エネルギー消費性能（光熱費の節約）
+まあ満足                 24998.0
+不明                    2973.0
+多少不満                 18059.0
+満足                    5607.0
+非常に不満                 4027.0
+回答計                  52691.0
+不満率                 0.419161
+非常に不満率              0.076427
+Name: 76, dtype: object>",0.4783,0.4192,-5.9134
+台所・トイレ・浴室（水回り）,住宅,"<bound method IndexOpsMixin.item of answer
+year                       2013
+group                        住宅
+item      ③台所、トイレ、浴室などの使いやすさ、広さ
+まあ満足                    22836.0
+不明                        746.0
+多少不満                    13774.0
+満足                      11962.0
+非常に不満                    2981.0
+回答計                     51553.0
+不満率                    0.325005
+非常に不満率                 0.057824
+Name: 2, dtype: object>","<bound method IndexOpsMixin.item of answer
+year              2023
+group               住宅
+item      ③水回りの広さ、使い勝手
+まあ満足           26126.0
+不明              2499.0
+多少不満           12048.0
+満足             12807.0
+非常に不満           2185.0
+回答計            53166.0
+不満率           0.267709
+非常に不満率        0.041098
+Name: 68, dtype: object>",0.325,0.2677,-5.7297
+防犯性,住宅,"<bound method IndexOpsMixin.item of answer
+year          2013
+group           住宅
+item       ⑦住宅の防犯性
+まあ満足       24163.0
+不明           810.0
+多少不満       18051.0
+満足          5668.0
+非常に不満       3606.0
+回答計        51488.0
+不満率       0.420622
+非常に不満率    0.070036
+Name: 6, dtype: object>","<bound method IndexOpsMixin.item of answer
+year          2023
+group           住宅
+item          ⑰防犯性
+まあ満足       26808.0
+不明          2770.0
+多少不満       15995.0
+満足          6734.0
+非常に不満       3357.0
+回答計        52894.0
+不満率       0.365864
+非常に不満率    0.063467
+Name: 82, dtype: object>",0.4206,0.3659,-5.4758
+通勤・通学の利便,居住環境,"<bound method IndexOpsMixin.item of answer
+year             2013
+group            居住環境
+item      ⑫通勤、通学などの利便
+まあ満足          25324.0
+不明             1656.0
+多少不満          11801.0
+満足            10148.0
+非常に不満          3369.0
+回答計           50642.0
+不満率          0.299554
+非常に不満率       0.066526
+Name: 28, dtype: object>","<bound method IndexOpsMixin.item of answer
+year           2023
+group          居住環境
+item      ①通勤・通学の利便
+まあ満足        24941.0
+不明           3816.0
+多少不満         9934.0
+満足          14177.0
+非常に不満        2797.0
+回答計         51849.0
+不満率         0.24554
+非常に不満率     0.053945
+Name: 84, dtype: object>",0.2996,0.2455,-5.4014
+バリアフリー（敷地・まわり）,居住環境,"<bound method IndexOpsMixin.item of answer
+year                    2013
+group                   居住環境
+item      ⑦敷地やまわりのバリアフリー化の状況
+まあ満足                 21324.0
+不明                    1144.0
+多少不満                 21358.0
+満足                    3676.0
+非常に不満                 4795.0
+回答計                  51153.0
+不満率                  0.51127
+非常に不満率              0.093738
+Name: 23, dtype: object>","<bound method IndexOpsMixin.item of answer
+year                    2023
+group                   居住環境
+item      ⑰敷地やまわりのバリアフリー化の状況
+まあ満足                 23899.0
+不明                    3230.0
+多少不満                 20358.0
+満足                    4471.0
+非常に不満                 3708.0
+回答計                  52436.0
+不満率                 0.458959
+非常に不満率              0.070715
+Name: 100, dtype: object>",0.5113,0.459,-5.2311
+まちなみ・景観,居住環境,"<bound method IndexOpsMixin.item of answer
+year          2013
+group         居住環境
+item      ⑪まちなみ、景観
+まあ満足       29334.0
+不明          1354.0
+多少不満       12766.0
+満足          6795.0
+非常に不満       2050.0
+回答計        50945.0
+不満率       0.290823
+非常に不満率    0.040239
+Name: 27, dtype: object>","<bound method IndexOpsMixin.item of answer
+year          2023
+group         居住環境
+item      ⑯まちなみ・景観
+まあ満足       30986.0
+不明          3013.0
+多少不満       11068.0
+満足          9017.0
+非常に不満       1581.0
+回答計        52652.0
+不満率       0.240238
+非常に不満率    0.030027
+Name: 99, dtype: object>",0.2908,0.2402,-5.0586
+広さや間取り,住宅,"<bound method IndexOpsMixin.item of answer
+year            2013
+group             住宅
+item      ①住宅の広さや間取り
+まあ満足         23841.0
+不明             660.0
+多少不満         11995.0
+満足           13792.0
+非常に不満         2010.0
+回答計          51638.0
+不満率         0.271215
+非常に不満率      0.038925
+Name: 0, dtype: object>","<bound method IndexOpsMixin.item of answer
+year          2023
+group           住宅
+item       ①広さや間取り
+まあ満足       25442.0
+不明          2373.0
+多少不満       10459.0
+満足         15918.0
+非常に不満       1473.0
+回答計        53292.0
+不満率       0.223899
+非常に不満率     0.02764
+Name: 66, dtype: object>",0.2712,0.2239,-4.7316
+騒音・大気汚染,居住環境,"<bound method IndexOpsMixin.item of answer
+year                2013
+group               居住環境
+item      ⑤騒音、大気汚染などの少なさ
+まあ満足             26457.0
+不明                 904.0
+多少不満             13184.0
+満足                8750.0
+非常に不満             3002.0
+回答計              51393.0
+不満率             0.314946
+非常に不満率          0.058413
+Name: 21, dtype: object>","<bound method IndexOpsMixin.item of answer
+year              2023
+group             居住環境
+item      ⑬騒音・大気汚染の少なさ
+まあ満足           28931.0
+不明              2936.0
+多少不満           11555.0
+満足              9648.0
+非常に不満           2594.0
+回答計            52728.0
+不満率           0.268339
+非常に不満率        0.049196
+Name: 96, dtype: object>",0.3149,0.2683,-4.6606
+居室の採光,住宅,"<bound method IndexOpsMixin.item of answer
+year                2013
+group                 住宅
+item      ⑭居間など、主な居住室の採光
+まあ満足             24877.0
+不明                1139.0
+多少不満             10889.0
+満足               12377.0
+非常に不満             3015.0
+回答計              51158.0
+不満率             0.271785
+非常に不満率          0.058935
+Name: 13, dtype: object>","<bound method IndexOpsMixin.item of answer
+year                2023
+group                 住宅
+item      ⑦居間など主たる居住室の採光
+まあ満足             24668.0
+不明                2464.0
+多少不満              9756.0
+満足               16438.0
+非常に不満             2339.0
+回答計              53201.0
+不満率             0.227345
+非常に不満率          0.043965
+Name: 72, dtype: object>",0.2718,0.2273,-4.444
+歩行時の安全性,居住環境,"<bound method IndexOpsMixin.item of answer
+year                 2013
+group                居住環境
+item      ⑥まわりの道路の歩行時の安全性
+まあ満足              24579.0
+不明                  848.0
+多少不満              16642.0
+満足                 6300.0
+非常に不満              3930.0
+回答計               51451.0
+不満率              0.399837
+非常に不満率           0.076383
+Name: 22, dtype: object>","<bound method IndexOpsMixin.item of answer
+year             2023
+group            居住環境
+item      ⑨道路の歩行時の安全性
+まあ満足          26927.0
+不明             2469.0
+多少不満          15596.0
+満足             7074.0
+非常に不満          3599.0
+回答計           53196.0
+不満率          0.360835
+非常に不満率       0.067655
+Name: 92, dtype: object>",0.3998,0.3608,-3.9001
+親・子との距離,居住環境,"<bound method IndexOpsMixin.item of answer
+year                   2013
+group                  居住環境
+item      ⑯親、子、親せきなどの住宅との距離
+まあ満足                27743.0
+不明                   1891.0
+多少不満                12130.0
+満足                   6857.0
+非常に不満                3677.0
+回答計                 50407.0
+不満率                0.313587
+非常に不満率             0.072946
+Name: 32, dtype: object>","<bound method IndexOpsMixin.item of answer
+year              2023
+group             居住環境
+item      ⑥親・子・親せきとの距離
+まあ満足           30009.0
+不明              2872.0
+多少不満           11416.0
+満足              8259.0
+非常に不満           3110.0
+回答計            52794.0
+不満率           0.275145
+非常に不満率        0.058908
+Name: 89, dtype: object>",0.3136,0.2751,-3.8442
+災害時の避難,居住環境,"<bound method IndexOpsMixin.item of answer
+year              2013
+group             居住環境
+item      ①災害時の避難のしやすさ
+まあ満足           27403.0
+不明               921.0
+多少不満           14948.0
+満足              6318.0
+非常に不満           2708.0
+回答計            51377.0
+不満率           0.343656
+非常に不満率        0.052708
+Name: 17, dtype: object>","<bound method IndexOpsMixin.item of answer
+year              2023
+group             居住環境
+item      ⑩災害時の避難のしやすさ
+まあ満足           29460.0
+不明              2964.0
+多少不満           14274.0
+満足              6483.0
+非常に不満           2485.0
+回答計            52702.0
+不満率           0.317996
+非常に不満率        0.047152
+Name: 93, dtype: object>",0.3437,0.318,-2.566
+近隣との関わり,居住環境,"<bound method IndexOpsMixin.item of answer
+year                     2013
+group                    居住環境
+item      ⑰近隣の人たちやコミュニティとの関わり
+まあ満足                  31799.0
+不明                     1488.0
+多少不満                  11100.0
+満足                     5910.0
+非常に不満                  2002.0
+回答計                   50811.0
+不満率                  0.257858
+非常に不満率               0.039401
+Name: 33, dtype: object>","<bound method IndexOpsMixin.item of answer
+year                   2023
+group                  居住環境
+item      ⑦近隣の人やコミュニティとの関わり
+まあ満足                34076.0
+不明                   2571.0
+多少不満                10656.0
+満足                   6434.0
+非常に不満                1928.0
+回答計                 53094.0
+不満率                0.237014
+非常に不満率             0.036313
+Name: 90, dtype: object>",0.2579,0.237,-2.0844
+断熱性,住宅,"<bound method IndexOpsMixin.item of answer
+year             2013
+group              住宅
+item      ⑩住宅の断熱性や気密性
+まあ満足          21045.0
+不明             1142.0
+多少不満          17002.0
+満足             7073.0
+非常に不満          6036.0
+回答計           51156.0
+不満率          0.450348
+非常に不満率       0.117992
+Name: 9, dtype: object>","<bound method IndexOpsMixin.item of answer
+year          2023
+group           住宅
+item          ⑩断熱性
+まあ満足       21875.0
+不明          2877.0
+多少不満       17150.0
+満足          8060.0
+非常に不満       5703.0
+回答計        52788.0
+不満率        0.43292
+非常に不満率    0.108036
+Name: 75, dtype: object>",0.4503,0.4329,-1.7428
+プライバシー,住宅,"<bound method IndexOpsMixin.item of answer
+year                 2013
+group                  住宅
+item      ⑰外部からのプライバシーの確保
+まあ満足              28836.0
+不明                 1103.0
+多少不満              10962.0
+満足                 9473.0
+非常に不満              1925.0
+回答計               51196.0
+不満率              0.251719
+非常に不満率           0.037601
+Name: 16, dtype: object>","<bound method IndexOpsMixin.item of answer
+year           2023
+group            住宅
+item      ⑱プライバシー確保
+まあ満足        30505.0
+不明           2844.0
+多少不満        11036.0
+満足           9270.0
+非常に不満        2011.0
+回答計         52822.0
+不満率        0.246999
+非常に不満率     0.038071
+Name: 83, dtype: object>",0.2517,0.247,-0.472
