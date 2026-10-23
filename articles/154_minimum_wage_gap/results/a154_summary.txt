@@ -1,0 +1,17 @@
+2002: mean 638.6 max 708(東京) min 604(n=1) ratio 1.172 gap 104 cv 4.72 gini 2.61 wavg 663.0
+2006: mean 646.4 max 719(東京) min 610(n=4) ratio 1.179 gap 109 cv 4.89 gini 2.71 wavg 673.0
+2009: mean 673.9 max 791(東京) min 629(n=4) ratio 1.258 gap 162 cv 6.33 gini 3.41 wavg 713.0
+2014: mean 726.3 max 888(東京) min 677(n=7) ratio 1.312 gap 211 cv 7.27 gini 3.77 wavg 780.0
+2016: mean 765.9 max 932(東京) min 714(n=2) ratio 1.305 gap 218 cv 7.18 gini 3.73 wavg 823.0
+2019: mean 842.4 max 1013(東京) min 790(n=15) ratio 1.282 gap 223 cv 6.77 gini 3.52 wavg 901.0
+2022: mean 903.4 max 1072(東京) min 853(n=10) ratio 1.257 gap 219 cv 6.19 gini 3.20 wavg 961.0
+2023: mean 945.3 max 1113(東京) min 893(n=1) ratio 1.246 gap 220 cv 5.81 gini 2.98 wavg 1004.0
+2024: mean 998.4 max 1163(東京) min 951(n=1) ratio 1.223 gap 212 cv 5.28 gini 2.67 wavg 1055.0
+2025: mean 1067.1 max 1226(東京) min 1023(n=3) ratio 1.198 gap 203 cv 4.60 gini 2.26 wavg 1121.0
+2026: mean 1125.2 max 1280(東京) min 1085(n=1) ratio 1.180 gap 195 cv 4.20 gini 2.04 wavg 1177.0
+ratio max year 2014 1.312; gap max year 2018 224
+r(log w2016, up16_26) -0.95; r(log w2002, up02_16) 0.71
+up16_26 top: 徳島 54.0%, 大分 53.3%, 佐賀 53.1%, 熊本 52.7%, 鳥取 52.5%
+up16_26 bottom: 東京 37.3%, 神奈川 37.5%, 大阪 39.4%, 愛知 41.4%, 埼玉 41.5%
+2026 >=1100: 29 ; 2026 min list: 宮崎
+2025 eff after 2025-12-31: 6 ; 2026 eff in Nov/Dec: 10
