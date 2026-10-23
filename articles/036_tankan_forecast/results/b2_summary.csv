@@ -1,0 +1,11 @@
+,value
+period,1990Q1–2026Q3
+n_quarters,147
+large_mfg_bias,-0.17687074829931973
+large_mfg_mae,4.6938775510204085
+large_mfg_mae_naive,5.829931972789115
+small_nonmfg_bias,3.877551020408163
+large_mfg_last_fcst_q,2026Q4
+large_mfg_last_fcst,21.0
+large_mfg_last_actual_q,2026Q3
+large_mfg_last_actual,24.0
