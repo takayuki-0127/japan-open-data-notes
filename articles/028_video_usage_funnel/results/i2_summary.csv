@@ -1,0 +1,17 @@
+,value
+national,61.3
+n_min,377.0
+n_max,989.0
+n_median,772.0
+sd_obs,3.498
+sd_expected_sampling,1.799
+outside_95,24.0
+outside_998,10.0
+b_old,-0.546
+p_old,0.007
+r2_old,0.284
+b_old_m2,-0.379
+b_inc_m2,2.319
+p_inc_m2,0.295
+r2_m2,0.366
+corr_video_game,0.393
