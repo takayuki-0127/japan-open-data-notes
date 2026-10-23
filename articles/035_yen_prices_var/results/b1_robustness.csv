@@ -1,0 +1,10 @@
+﻿order,lag,fx_to_cgpi_12,cc_to_cgpi_12
+imp_cc → usdjpy → imp_yen → cgpi,2,0.03,0.503
+imp_cc → usdjpy → imp_yen → cgpi,6,0.039,0.567
+imp_cc → usdjpy → imp_yen → cgpi,12,0.046,0.76
+usdjpy → imp_cc → imp_yen → cgpi,2,0.074,0.497
+usdjpy → imp_cc → imp_yen → cgpi,6,0.094,0.559
+usdjpy → imp_cc → imp_yen → cgpi,12,0.113,0.751
+usdjpy → imp_cc → cgpi,2,0.072,0.491
+usdjpy → imp_cc → cgpi,6,0.086,0.55
+usdjpy → imp_cc → cgpi,12,0.076,0.78
