@@ -16,7 +16,7 @@
 | 095 | [就業者は13年で550万人増えた。増えたのは女性と65歳以上で、人口が減る分を「働く人の割合」が912万人押し上げた](articles/095_employment_growth) | 就業者の増加を「人口」と「働く人の割合」に要因分解 |
 | 137 | [市区町村の歳出の4割は福祉（民生費）。12年で1.5倍になり、伸びが大きかったのは子どもと障害者福祉など](articles/137_welfare_spending) | e-Stat の CSV から必要な行を抜き出して表を作るところからコード化 |
 
-## 記事の一覧（163本）
+## 記事の一覧（168本）
 | # | 記事のタイトル | フォルダ |
 |---|---|---|
 | 000 | 女性の労働力率は何で決まる？ 全国1,739市区町村の公開データで調べてみた | [000_women_labor](articles/000_women_labor) |
@@ -182,6 +182,11 @@
 | 168 | 産業廃棄物は年3.7億t。電気・水道業、農業、建設業がそれぞれ2割強で、種類では汚泥が42%を占めていた | [168_industrial_waste_by_industry](articles/168_industrial_waste_by_industry) |
 | 169 | 外国人労働者は10年で2.4倍。製造業は1位のまま割合が31%から25%に下がり、医療・福祉は8.4倍、建設業は5.0倍になった | [169_foreign_workers_by_industry](articles/169_foreign_workers_by_industry) |
 | 170 | 日本企業の海外現地法人は2021年度にASEANが中国を上回った。中国の現地法人で働く人は9年で4割減った | [170_overseas_affiliates_region](articles/170_overseas_affiliates_region) |
+| 171 | 道路の交通量は2015→2021年度で5.6%減。高速道路は延びたのに1区間あたり11%減、大型車の割合は上がった | [171_road_traffic_change](articles/171_road_traffic_change) |
+| 172 | 理容所はピークから25%減、美容所は60年で3.1倍。銭湯は84%減、クリーニングは58%減だった | [172_barber_beauty_salons](articles/172_barber_beauty_salons) |
+| 173 | 家庭の光熱費の内訳で52都市を分けると3タイプ。灯油型の4都市は光熱費が都市ガス型の1.5倍だった | [173_household_energy_types](articles/173_household_energy_types) |
+| 174 | 「3年で3割辞める」大卒は28年中27年で30%以上。高卒は50%から37%に下がり、1年目に辞める割合は減っていた | [174_three_year_turnover](articles/174_three_year_turnover) |
+| 175 | ゴルフ場の利用者は2000年比95でコロナ前並み。ボウリング場は34まで減ったが、それでも2019年までの減り方の延長よりは多かった | [175_golf_bowling_users](articles/175_golf_bowling_users) |
 
 ## 共通の方針
 - データは e-Stat などの公開データだけを使い、出典は各フォルダの README に書いています（政府標準利用規約 第2.0版などに沿って「〇〇をもとに作成者が加工して作成」）
