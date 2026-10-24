@@ -23,7 +23,7 @@
 |---|---|---|---|
 | F01 | 最低賃金の引き上げは、雇用を減らしたのか？ 47都道府県・18年のデータで比べると、減った形跡は見えなかった | 差の差・イベントスタディ・プラセボ・並べ替え検定・wild cluster bootstrap | [F01_minimum_wage_did](articles/F01_minimum_wage_did) |
 
-## 記事の一覧（196本）
+## 記事の一覧（197本）
 | # | 記事のタイトル | フォルダ |
 |---|---|---|
 | 000 | 女性の労働力率は何で決まる？ 全国1,739市区町村の公開データで調べてみた | [000_women_labor](articles/000_women_labor) |
@@ -221,6 +221,7 @@
 | 200 | 勤務間インターバル制度の導入は1,000人以上の企業で20%、30〜99人は6%。7年で差は4ポイントから14ポイントに広がった | [200_work_interval](articles/200_work_interval) |
 | 201 | サービス業の売上は人数にほぼ比例。人が10倍の事業所は売上11.4倍、ただ葬儀や結婚式場は大きいほど1人あたりが下がる | [201_service_sales_scale](articles/201_service_sales_scale) |
 | 202 | 分譲マンションの年収倍率は2024年度調査まで5倍台、2025年度は6.57倍に。購入資金は1年で37.7%増えた | [202_condo_income_ratio](articles/202_condo_income_ratio) |
+| 203 | 埼玉県の観光客の3分の1は越谷市。上位5市で6割を占め、この割合は15年ほぼ変わらない | [203_saitama_tourism_concentration](articles/203_saitama_tourism_concentration) |
 | 205 | 図書館で1人が借りる本は年4.78冊。滋賀県は7.30冊、青森県と秋田県は2.74冊で2.7倍の差 | [205_library_loans](articles/205_library_loans) |
 
 ## 共通の方針
