@@ -12,7 +12,7 @@ def fig1():
     w = df.pivot(index="year", columns="pref", values="mw_fy")
     for p in w.columns:
         ax[0].plot(w.index, w[p], color=LIGHT, lw=0.8, alpha=0.7)
-    for grp, c, lab in [(1, ORANGE, "bite 上位半分（24県）"), (0, BLUE, "bite 下位半分（23県）")]:
+    for grp, c, lab in [(1, ORANGE, "bite 上位半分（23県）"), (0, BLUE, "bite 下位半分（24県）")]:
         ax[0].plot(w.index, w[b.index[b.high_bite == grp]].mean(axis=1), color=c, lw=2.4, label=lab)
     ax[0].axvline(2015.5, color=GRAY, ls=":", lw=1)
     ax[0].set_title("地域別最低賃金（円）：2グループの平均はほぼ重なる"); ax[0].legend(frameon=False, loc="upper left")

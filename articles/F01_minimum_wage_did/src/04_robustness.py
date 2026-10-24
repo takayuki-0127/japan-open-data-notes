@@ -49,7 +49,7 @@ def main():
     obs = {y: did(pre, y, 2016)["delta"] for y in ["emp_rate", "unemp_rate"]}
     perm = []
     for i in range(2000):
-        hi = set(rng.choice(prefs, 23, replace=False))
+        hi = set(rng.choice(prefs, int(pre.drop_duplicates("pref").high_bite.sum()), replace=False))  # 実際と同じ23県
         d = pre.assign(fake=pre.pref.isin(hi).astype(int))
         perm.append({"rep": i, **{y: did(d, y, 2016, "fake")["delta"] for y in obs}})
     pm = pd.DataFrame(perm); pm.round(5).to_csv(RES / "permutation.csv", index=False)
