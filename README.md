@@ -16,7 +16,7 @@
 | 095 | [就業者は13年で550万人増えた。増えたのは女性と65歳以上で、人口が減る分を「働く人の割合」が912万人押し上げた](articles/095_employment_growth) | 就業者の増加を「人口」と「働く人の割合」に要因分解 |
 | 137 | [市区町村の歳出の4割は福祉（民生費）。12年で1.5倍になり、伸びが大きかったのは子どもと障害者福祉など](articles/137_welfare_spending) | e-Stat の CSV から必要な行を抜き出して表を作るところからコード化 |
 
-## 記事の一覧（179本）
+## 記事の一覧（184本）
 | # | 記事のタイトル | フォルダ |
 |---|---|---|
 | 000 | 女性の労働力率は何で決まる？ 全国1,739市区町村の公開データで調べてみた | [000_women_labor](articles/000_women_labor) |
@@ -192,6 +192,11 @@
 | 178 | 産業廃棄物の再生利用率は2008年度から52〜55%で横ばい。汚泥を除けば9割近く、紙くずやばいじんは13年で10ポイント以上伸びた | [178_industrial_waste_recycling](articles/178_industrial_waste_recycling) |
 | 179 | 外国人労働者の半分が技能実習の県もある。宮崎・青森・高知は全国の2.5倍で、東京は0.28倍だった | [179_technical_intern_specialization](articles/179_technical_intern_specialization) |
 | 180 | 日本の輸出先、米国の割合は30年で27%から18%台に。中国は5%から17%になり、インドとベトナムが上位10か国に入った | [180_export_destination_ranking](articles/180_export_destination_ranking) |
+| 181 | 鉄道の定期外はコロナ前を超えたのに、定期は2019年度の87%のまま。5年で約19億人分が戻っていなかった | [181_rail_commuter_recovery](articles/181_rail_commuter_recovery) |
+| 182 | 人口あたりの病床数、最多の高知は神奈川の3倍。上位15のうち14が中国・四国・九州。差は療養と精神の病床で大きかった | [182_hospital_beds_west_east](articles/182_hospital_beds_west_east) |
+| 183 | 日本の温室効果ガスは2013年度から25%減。減った量の37%は産業部門で、鉄鋼だけで16%。業務と家庭も4割近くを占めた | [183_ghg_sector_contribution](articles/183_ghg_sector_contribution) |
+| 184 | 大卒の3年以内離職率、5人未満の事業所は58%、1,000人以上は24%。規模が10倍になるごとに約12ポイント下がり、差は20年縮まっていない | [184_turnover_by_firm_size](articles/184_turnover_by_firm_size) |
+| 185 | 売上100億円以上の企業は全体の0.46%なのに、売上の7割を占める。上位1%では約77%、約8割の企業の売上は合わせて3% | [185_sales_concentration](articles/185_sales_concentration) |
 
 ## 共通の方針
 - データは e-Stat などの公開データだけを使い、出典は各フォルダの README に書いています（政府標準利用規約 第2.0版などに沿って「〇〇をもとに作成者が加工して作成」）
