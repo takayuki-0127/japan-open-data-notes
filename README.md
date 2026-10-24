@@ -16,7 +16,7 @@
 | 095 | [就業者は13年で550万人増えた。増えたのは女性と65歳以上で、人口が減る分を「働く人の割合」が912万人押し上げた](articles/095_employment_growth) | 就業者の増加を「人口」と「働く人の割合」に要因分解 |
 | 137 | [市区町村の歳出の4割は福祉（民生費）。12年で1.5倍になり、伸びが大きかったのは子どもと障害者福祉など](articles/137_welfare_spending) | e-Stat の CSV から必要な行を抜き出して表を作るところからコード化 |
 
-## 記事の一覧（168本）
+## 記事の一覧（179本）
 | # | 記事のタイトル | フォルダ |
 |---|---|---|
 | 000 | 女性の労働力率は何で決まる？ 全国1,739市区町村の公開データで調べてみた | [000_women_labor](articles/000_women_labor) |
@@ -187,6 +187,11 @@
 | 173 | 家庭の光熱費の内訳で52都市を分けると3タイプ。灯油型の4都市は光熱費が都市ガス型の1.5倍だった | [173_household_energy_types](articles/173_household_energy_types) |
 | 174 | 「3年で3割辞める」大卒は28年中27年で30%以上。高卒は50%から37%に下がり、1年目に辞める割合は減っていた | [174_three_year_turnover](articles/174_three_year_turnover) |
 | 175 | ゴルフ場の利用者は2000年比95でコロナ前並み。ボウリング場は34まで減ったが、それでも2019年までの減り方の延長よりは多かった | [175_golf_bowling_users](articles/175_golf_bowling_users) |
+| 176 | コンテナの港ランキングは15年でほとんど動かなかった。上位10港は2012年から同じ顔ぶれで、2024年の量は2019年より7%少ない | [176_container_ports](articles/176_container_ports) |
+| 177 | 入院する人の割合の県差は、年齢をそろえても2.2倍残る。上位12県のうち10県が九州・四国・山口だった | [177_treatment_rate_age_adjusted](articles/177_treatment_rate_age_adjusted) |
+| 178 | 産業廃棄物の再生利用率は2008年度から52〜55%で横ばい。汚泥を除けば9割近く、紙くずやばいじんは13年で10ポイント以上伸びた | [178_industrial_waste_recycling](articles/178_industrial_waste_recycling) |
+| 179 | 外国人労働者の半分が技能実習の県もある。宮崎・青森・高知は全国の2.5倍で、東京は0.28倍だった | [179_technical_intern_specialization](articles/179_technical_intern_specialization) |
+| 180 | 日本の輸出先、米国の割合は30年で27%から18%台に。中国は5%から17%になり、インドとベトナムが上位10か国に入った | [180_export_destination_ranking](articles/180_export_destination_ranking) |
 
 ## 共通の方針
 - データは e-Stat などの公開データだけを使い、出典は各フォルダの README に書いています（政府標準利用規約 第2.0版などに沿って「〇〇をもとに作成者が加工して作成」）
