@@ -1,0 +1,9 @@
+outcome,treat,pre_F,pre_p
+emp_rate,上位半分ダミー,8.3416,0.3034
+emp_rate,bite 1標準偏差,8.3536,0.3024
+unemp_rate,上位半分ダミー,8.4919,0.2912
+unemp_rate,bite 1標準偏差,7.9192,0.3398
+openings_rate,上位半分ダミー,2.566,0.922
+openings_rate,bite 1標準偏差,10.3612,0.169
+log_emp,上位半分ダミー,11.6989,0.1109
+log_emp,bite 1標準偏差,12.5362,0.0842
