@@ -14,6 +14,7 @@
 | F01 | 最低賃金の引き上げは、雇用を減らしたのか？ 47都道府県・18年のデータで比べると、減った形跡は見えなかった | 差の差・イベントスタディ・プラセボ・並べ替え検定・wild cluster bootstrap | [F01_minimum_wage_did](articles/F01_minimum_wage_did) |
 | F02 | コロナがなかったら、赤ちゃんは何人多かったのか？ 2010年代の傾向から「なかった場合」を作ると、はっきり減ったのは2021年1月前後だけだった | 時系列の反実仮想（SARIMA・ETS・Prophet、シミュレーションによる予測区間）・バックテスト・婚姻経由の回帰 | [F02_births_counterfactual](articles/F02_births_counterfactual) |
 | F03 | 地価を決めているのは何か？ 全国2.6万地点を機械学習で読むと、効いていたのは駅までの距離より「周りの駅にどれだけ人がいるか」だった | LightGBM・ランダムCVと空間ブロックCV（20km四方・都道府県）・SHAP・部分依存・残差の地図 | [F03_land_price_ml](articles/F03_land_price_ml) |
+| F04 | Go To トラベルは宿泊をどれだけ増やしたのか？ ベイズで「なかった場合」を作ると、上乗せは前提しだいで4,400万〜9,000万人泊と2倍ちがった | ベイズ構造時系列（CausalImpact型、PyMC）・差の差（東京の途中参加）・合成コントロール・プラセボ | [F04_goto_causalimpact](articles/F04_goto_causalimpact) |
 
 ## まず見てほしい記事
 | # | 記事 | 見どころ |
