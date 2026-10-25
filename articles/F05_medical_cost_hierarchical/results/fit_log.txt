@@ -1,0 +1,24 @@
+NUTS[nutpie]: [mu, g_raw, sigma_pref, sigma_muni, sigma_noise, a_dev, b_dev]
+null {'sigma_pref': 7.783, 'sigma_muni': 6.326, 'sigma_noise': 2.842, 'pref_share': 0.599, 'pref_share_lo': 0.502, 'pref_share_hi': 0.698, 'rhat_max': 1.009, 'ess_min': 253.914, 'n_obs': 5672, 'n_muni': 1895} 20s
+NUTS[nutpie]: [mu, g_raw, sigma_pref, sigma_muni, sigma_noise, beta_pref, beta_muni, a_dev, b_dev]
+full {'sigma_pref': 4.937, 'sigma_muni': 6.165, 'sigma_noise': 2.846, 'pref_share': 0.389, 'pref_share_lo': 0.294, 'pref_share_hi': 0.501, 'rhat_max': 1.01, 'ess_min': 237.791, 'n_obs': 5672, 'n_muni': 1895} 35s
+Sampling: [y]
+NUTS[nutpie]: [mu, g_raw, sigma_pref, sigma_muni, sigma_noise, a_dev, b_dev]
+null_idx_in {'sigma_pref': 16.418, 'sigma_muni': 10.735, 'sigma_noise': 6.079, 'pref_share': 0.697, 'pref_share_lo': 0.611, 'pref_share_hi': 0.779, 'rhat_max': 1.012, 'ess_min': 215.008, 'n_obs': 5672, 'n_muni': 1895} 16s
+NUTS[nutpie]: [mu, g_raw, sigma_pref, sigma_muni, sigma_noise, a_dev, b_dev]
+null_idx_out {'sigma_pref': 4.546, 'sigma_muni': 7.178, 'sigma_noise': 2.498, 'pref_share': 0.286, 'pref_share_lo': 0.203, 'pref_share_hi': 0.395, 'rhat_max': 1.019, 'ess_min': 126.092, 'n_obs': 5672, 'n_muni': 1895} 15s
+NUTS[nutpie]: [mu, g_raw, sigma_pref, sigma_muni, sigma_noise, a_dev, b_dev]
+null_idx_dental {'sigma_pref': 10.509, 'sigma_muni': 10.955, 'sigma_noise': 2.815, 'pref_share': 0.477, 'pref_share_lo': 0.38, 'pref_share_hi': 0.58, 'rhat_max': 1.021, 'ess_min': 57.681, 'n_obs': 5672, 'n_muni': 1895} 17s
+NUTS[nutpie]: [mu, g_raw, sigma_pref, sigma_muni, sigma_noise, a_dev, b_dev]
+prior_halfcauchy {'sigma_pref': 7.716, 'sigma_muni': 6.321, 'sigma_noise': 2.842, 'pref_share': 0.594, 'pref_share_lo': 0.491, 'pref_share_hi': 0.704, 'rhat_max': 1.007, 'ess_min': 200.115, 'n_obs': 5672, 'n_muni': 1895} 16s
+NUTS[nutpie]: [mu, g_raw, sigma_pref, sigma_muni, sigma_noise, a_dev, b_dev]
+prior_exponential {'sigma_pref': 7.727, 'sigma_muni': 6.322, 'sigma_noise': 2.842, 'pref_share': 0.595, 'pref_share_lo': 0.497, 'pref_share_hi': 0.694, 'rhat_max': 1.012, 'ess_min': 201.153, 'n_obs': 5672, 'n_muni': 1895} 16s
+NUTS[nutpie]: [mu, sigma_pref, sigma_muni, sigma_noise, a_dev, b_dev]
+year2023_only {'sigma_pref': 7.914, 'sigma_muni': 4.503, 'sigma_noise': 4.273, 'pref_share': 0.751, 'pref_share_lo': 0.671, 'pref_share_hi': 0.827, 'rhat_max': 1.003, 'ess_min': 537.297, 'n_obs': 1888, 'n_muni': 1888} 8s
+NUTS[nutpie]: [mu, sigma_pref, sigma_muni, sigma_noise, a_dev, b_dev]
+year2021_only {'sigma_pref': 7.812, 'sigma_muni': 4.451, 'sigma_noise': 4.471, 'pref_share': 0.751, 'pref_share_lo': 0.664, 'pref_share_hi': 0.83, 'rhat_max': 1.008, 'ess_min': 449.726, 'n_obs': 1892, 'n_muni': 1892} 8s
+NUTS[nutpie]: [mu, g_raw, sigma_pref, sigma_muni, sigma_noise, a_dev, b_dev]
+homoscedastic {'sigma_pref': 7.634, 'sigma_muni': 7.536, 'sigma_noise': 4.399, 'pref_share': 0.504, 'pref_share_lo': 0.402, 'pref_share_hi': 0.611, 'rhat_max': 1.003, 'ess_min': 727.154, 'n_obs': 5672, 'n_muni': 1895} 12s
+NUTS[nutpie]: [mu, g_raw, sigma_pref, sigma_muni, sigma_noise, a_dev, b_dev]
+kouki {'sigma_pref': 10.552, 'sigma_muni': 8.208, 'sigma_noise': 2.351, 'pref_share': 0.619, 'pref_share_lo': 0.52, 'pref_share_hi': 0.714, 'rhat_max': 1.023, 'ess_min': 84.201, 'n_obs': 5672, 'n_muni': 1895} 16s
+mixedlm {'note': 'ぶれを人口で調整しない（等分散）', 'var_pref': 55.807362360399, 'var_muni': 56.7354780469922, 'pref_share': 0.4958766115941559, 'resid_var': 19.341798827300032}
