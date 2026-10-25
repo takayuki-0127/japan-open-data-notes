@@ -15,6 +15,7 @@
 | F02 | コロナがなかったら、赤ちゃんは何人多かったのか？ 2010年代の傾向から「なかった場合」を作ると、はっきり減ったのは2021年1月前後だけだった | 時系列の反実仮想（SARIMA・ETS・Prophet、シミュレーションによる予測区間）・バックテスト・婚姻経由の回帰 | [F02_births_counterfactual](articles/F02_births_counterfactual) |
 | F03 | 地価を決めているのは何か？ 全国2.6万地点を機械学習で読むと、効いていたのは駅までの距離より「周りの駅にどれだけ人がいるか」だった | LightGBM・ランダムCVと空間ブロックCV（20km四方・都道府県）・SHAP・部分依存・残差の地図 | [F03_land_price_ml](articles/F03_land_price_ml) |
 | F04 | Go To トラベルは宿泊をどれだけ増やしたのか？ ベイズで「なかった場合」を作ると、上乗せは前提しだいで4,400万〜9,000万人泊と2倍ちがった | ベイズ構造時系列（CausalImpact型、PyMC）・差の差（東京の途中参加）・合成コントロール・プラセボ | [F04_goto_causalimpact](articles/F04_goto_causalimpact) |
+| F05 | 医療費の地域差は「県」と「市町村」のどちらで決まるか？ 階層ベイズモデルで分けると、6割が県の差。入院は県、外来は市町村で差がつく | 階層ベイズモデル（PyMC）・分散の分解・部分プーリング・事後予測チェック | [F05_medical_cost_hierarchical](articles/F05_medical_cost_hierarchical) |
 
 ## まず見てほしい記事
 | # | 記事 | 見どころ |
