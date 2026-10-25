@@ -64,7 +64,7 @@ python 04_図.py
 
 ## ファイル
 
-- `data/indicators.csv`：62指標（市区町村×指標）、`data/z.csv`：標準化した値、`data/pcs.csv`：主成分得点
+- `data/indicators.csv`：62指標（市区町村×指標）。標準化した値 `data/z.csv` と主成分得点 `data/pcs.csv` は `03a` を実行すると作られます
 - `results/clusters.csv`：各市区町村のタイプ・安定性・シルエット・UMAP座標
 - `results/profile_z.csv`・`profile_median.csv`：タイプのプロフィール、`k_selection.csv`・`k_stability.csv`：組の数の検討、`robustness_ari.csv`：頑健性
 - `figures/`：負荷量・組の数・UMAP・プロフィール・地図・頑健性
