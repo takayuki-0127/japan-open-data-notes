@@ -1,0 +1,8 @@
+pandas>=2.2
+numpy>=1.26
+pymc>=5.16
+arviz>=0.18
+h5netcdf
+h5py
+statsmodels>=0.14
+matplotlib>=3.8
