@@ -1,0 +1,23 @@
+{
+ "tokyo_share": {
+  "1990": {
+   "to_tokyo_area_share": 0.30447969532632574,
+   "total": 3168335
+  },
+  "2000": {
+   "to_tokyo_area_share": 0.2914338248255551,
+   "total": 2813464
+  },
+  "2010": {
+   "to_tokyo_area_share": 0.31356988194360136,
+   "total": 2332392
+  },
+  "2025": {
+   "to_tokyo_area_share": 0.32912515169692325,
+   "total": 2148329
+  }
+ },
+ "commute_total_flow": 9308005.0,
+ "n_municipalities": 251,
+ "rule10_n_cores": 160
+}
