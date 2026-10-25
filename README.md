@@ -24,7 +24,7 @@
 | F01 | 最低賃金の引き上げは、雇用を減らしたのか？ 47都道府県・18年のデータで比べると、減った形跡は見えなかった | 差の差・イベントスタディ・プラセボ・並べ替え検定・wild cluster bootstrap | [F01_minimum_wage_did](articles/F01_minimum_wage_did) |
 | F02 | コロナがなかったら、赤ちゃんは何人多かったのか？ 2010年代の傾向から「なかった場合」を作ると、はっきり減ったのは2021年1月前後だけだった | 時系列の反実仮想（SARIMA・ETS・Prophet、シミュレーションによる予測区間）・バックテスト・婚姻経由の回帰 | [F02_births_counterfactual](articles/F02_births_counterfactual) |
 
-## 記事の一覧（215本）
+## 記事の一覧（219本）
 | # | 記事のタイトル | フォルダ |
 |---|---|---|
 | 000 | 女性の労働力率は何で決まる？ 全国1,739市区町村の公開データで調べてみた | [000_women_labor](articles/000_women_labor) |
@@ -242,6 +242,10 @@
 | 220 | 養豚は1戸2.4頭から2,811頭に。2,000頭以上の経営が頭数の8割を持つが、ジニ係数はむしろ下がった | [220_livestock_scale](articles/220_livestock_scale) |
 | 221 | 理想の子ども数と実際の差は、広がっていなかった。縮んだのは、理想が2.67人から2.25人に下がったから | [221_ideal_vs_actual_children](articles/221_ideal_vs_actual_children) |
 | 222 | 労災でいちばん多いのは転倒で、16年で1.6倍に。60歳以上では死傷の4割が転倒だった | [222_falls_elderly_workers](articles/222_falls_elderly_workers) |
+| 223 | ネットで買う品目の順位は、10年でほとんど入れ替わらなかった。大きく上がったのは出前で、21位から13位に | [223_online_shopping_rank](articles/223_online_shopping_rank) |
+| 224 | 研究開発にお金をかける業種ほど、生産性は高い。でも同じ業種の中で研究開発を増やした年に、生産性が上がったわけではなかった | [224_rd_productivity](articles/224_rd_productivity) |
+| 225 | 建設工事の受注は、3月にふつうの月の2倍入る。年度末の山をつくっているのは公共工事より民間の非製造業だった | [225_construction_orders_fiscal_yearend](articles/225_construction_orders_fiscal_yearend) |
+| 226 | 円安が大きかった国の訪日客ほど、円で見た支出が増えた。国と年の違いを除くと、円安1%で支出は0.89%増えていた | [226_fx_inbound_spending](articles/226_fx_inbound_spending) |
 
 ## 共通の方針
 - データは e-Stat などの公開データだけを使い、出典は各フォルダの README に書いています（政府標準利用規約 第2.0版などに沿って「〇〇をもとに作成者が加工して作成」）
