@@ -1,0 +1,7 @@
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+umap-learn>=0.5
+hdbscan>=0.8
+geopandas>=0.14
+matplotlib>=3.8
