@@ -23,6 +23,7 @@
 | F10 | 人の流れで見ると、日本はいくつの「圏」に分かれるか？ 引っ越しをネットワーク分析すると4つに分かれ、30年で入れ替わったのは2県だけだった | ネットワーク分析（PageRank・Leiden 法のコミュニティ検出・解像度の比較・ARI／NMI での一致）・1都3県の通勤ネットワーク | [F10_mobility_network](articles/F10_mobility_network) |
 | F11 | 消費増税の「駆け込み」と「反動」はどれだけだったか？ 2014年と2019年をイベントスタディで比べると、2019年は反動が小さく、軽減税率の食料は落ち込まなかった | イベントスタディ（季節・傾きの反実仮想）・偽の増税月によるプラセボ・軽減税率の差の差の差 | [F11_tax_hike_event](articles/F11_tax_hike_event) |
 | F12 | 公的統計を毎月自動で更新するには？ e-Stat→DuckDB→dbtで「くらしの指標」を作ると、実質賃金は公表値と680か月すべて一致し、壊れたデータはテストで止まった | データパイプライン（e-Stat ファイル→DuckDB→dbt、テスト20本・差分チェック・再試行）・Streamlit・GitHub Actions の例 | [F12_stats_pipeline](articles/F12_stats_pipeline) |
+| F13 | 失業率を来月まで予測できるか？ 4つのモデルを21年分のローリング予測で比べると、1か月先は「前月の値」に勝てず、3か月先は求人の情報で誤差が15%減った | ローリング予測（ARIMA・SARIMAX・ElasticNet・LightGBM）・ナイーブとの比較・Diebold–Mariano 検定・公表タイミングを守った特徴量・SHAP | [F13_unemployment_forecast](articles/F13_unemployment_forecast) |
 
 ## まず見てほしい記事
 | # | 記事 | 見どころ |
