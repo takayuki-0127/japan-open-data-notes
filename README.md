@@ -25,6 +25,7 @@
 | F12 | 公的統計を毎月自動で更新するには？ e-Stat→DuckDB→dbtで「くらしの指標」を作ると、実質賃金は公表値と680か月すべて一致し、壊れたデータはテストで止まった | データパイプライン（e-Stat ファイル→DuckDB→dbt、テスト20本・差分チェック・再試行）・Streamlit・GitHub Actions の例 | [F12_stats_pipeline](articles/F12_stats_pipeline) |
 | F13 | 失業率を来月まで予測できるか？ 4つのモデルを21年分のローリング予測で比べると、1か月先は「前月の値」に勝てず、3か月先は求人の情報で誤差が15%減った | ローリング予測（ARIMA・SARIMAX・ElasticNet・LightGBM）・ナイーブとの比較・Diebold–Mariano 検定・公表タイミングを守った特徴量・SHAP | [F13_unemployment_forecast](articles/F13_unemployment_forecast) |
 | F14 | コンパクトシティの計画を作った市町村で、中心部の人口密度は保てたのか？ 似た市町村と組にして比べると、2015→20年の5年では差は見えなかった | 傾向スコアマッチング・差の差・作成時期ごとの推定（Callaway–Sant'Anna 型）・IPW・二重頑健 | [F14_compact_city_psm_did](articles/F14_compact_city_psm_did) |
+| F15 | 県境をまたぐと最低賃金が違う。隣どうしの町で雇用は違ったか？ 724組を境界で比べると差は見えず、そもそも見分けられる設計ではなかった | 境界不連続デザイン（県境をはさんで接する市区町村ペア・ペア固定効果）・製造業との三重差・並べ替え検定・検出力 | [F15_border_minwage](articles/F15_border_minwage) |
 
 ## まず見てほしい記事
 | # | 記事 | 見どころ |
