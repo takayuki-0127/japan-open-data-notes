@@ -1,0 +1,30 @@
+# 例：GitHub Actions で毎月自動更新する場合のワークフロー（このリポジトリでは有効にしていない）
+# 使うときは .github/workflows/ に置く。API キーは使わないのでシークレットは不要
+name: update-kurashi-stats
+on:
+  schedule:
+    - cron: "17 3 26 * *"   # 毎月26日 12:17（JST）。主な月次統計が出そろったあと
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: articles/F12_stats_pipeline
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt
+      - name: run pipeline (fetch → DuckDB → dbt build → figures)
+        run: python src/run_pipeline.py
+      - name: commit updated results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results figures
+          git diff --cached --quiet || git commit -m "data: monthly update"
+          git push
+      # 失敗したときは GitHub の通知（メール）で分かる。dbt のテストが落ちると run_pipeline.py が 1 を返して止まる
