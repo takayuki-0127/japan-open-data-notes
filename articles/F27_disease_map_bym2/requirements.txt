@@ -1,0 +1,7 @@
+numpy
+pandas
+scipy
+matplotlib
+pymc>=5.10
+nutpie
+arviz
