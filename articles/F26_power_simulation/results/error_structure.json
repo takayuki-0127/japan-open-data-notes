@@ -1,0 +1,41 @@
+{
+ "emp_rate|2008-2019": {
+  "resid_sd": 0.6716,
+  "ar1": 0.603,
+  "ar1_pref_median": 0.669,
+  "cross_corr_mean": -0.016,
+  "n_pref": 47,
+  "n_year": 12
+ },
+ "emp_rate|2008-2025": {
+  "resid_sd": 0.7265,
+  "ar1": 0.658,
+  "ar1_pref_median": 0.733,
+  "cross_corr_mean": -0.016,
+  "n_pref": 47,
+  "n_year": 18
+ },
+ "unemp_rate|2008-2019": {
+  "resid_sd": 0.2702,
+  "ar1": 0.556,
+  "ar1_pref_median": 0.385,
+  "cross_corr_mean": -0.003,
+  "n_pref": 47,
+  "n_year": 12
+ },
+ "unemp_rate|2008-2025": {
+  "resid_sd": 0.2785,
+  "ar1": 0.62,
+  "ar1_pref_median": 0.539,
+  "cross_corr_mean": -0.006,
+  "n_pref": 47,
+  "n_year": 18
+ },
+ "f14": {
+  "n": 635,
+  "n_treat": 297,
+  "sd_2020": 7.328,
+  "sd_2015": 4.125,
+  "corr_2015_2020": 0.081
+ }
+}

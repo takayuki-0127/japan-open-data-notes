@@ -1,0 +1,41 @@
+outcome,k,se,fpr
+emp_rate,2,OLS（普通の標準誤差）,0.328
+emp_rate,2,HC1（不均一分散に頑健）,0.428
+emp_rate,2,県クラスター,0.31
+emp_rate,2,wild cluster bootstrap,0.0
+emp_rate,3,OLS（普通の標準誤差）,0.334
+emp_rate,3,HC1（不均一分散に頑健）,0.414
+emp_rate,3,県クラスター,0.192
+emp_rate,3,wild cluster bootstrap,0.01
+emp_rate,5,OLS（普通の標準誤差）,0.328
+emp_rate,5,HC1（不均一分散に頑健）,0.356
+emp_rate,5,県クラスター,0.112
+emp_rate,5,wild cluster bootstrap,0.072
+emp_rate,10,OLS（普通の標準誤差）,0.326
+emp_rate,10,HC1（不均一分散に頑健）,0.336
+emp_rate,10,県クラスター,0.052
+emp_rate,10,wild cluster bootstrap,0.046
+emp_rate,23,OLS（普通の標準誤差）,0.298
+emp_rate,23,HC1（不均一分散に頑健）,0.3
+emp_rate,23,県クラスター,0.04
+emp_rate,23,wild cluster bootstrap,0.05
+unemp_rate,2,OLS（普通の標準誤差）,0.316
+unemp_rate,2,HC1（不均一分散に頑健）,0.42
+unemp_rate,2,県クラスター,0.242
+unemp_rate,2,wild cluster bootstrap,0.0
+unemp_rate,3,OLS（普通の標準誤差）,0.344
+unemp_rate,3,HC1（不均一分散に頑健）,0.438
+unemp_rate,3,県クラスター,0.184
+unemp_rate,3,wild cluster bootstrap,0.008
+unemp_rate,5,OLS（普通の標準誤差）,0.358
+unemp_rate,5,HC1（不均一分散に頑健）,0.394
+unemp_rate,5,県クラスター,0.098
+unemp_rate,5,wild cluster bootstrap,0.072
+unemp_rate,10,OLS（普通の標準誤差）,0.33
+unemp_rate,10,HC1（不均一分散に頑健）,0.344
+unemp_rate,10,県クラスター,0.07
+unemp_rate,10,wild cluster bootstrap,0.076
+unemp_rate,23,OLS（普通の標準誤差）,0.378
+unemp_rate,23,HC1（不均一分散に頑健）,0.376
+unemp_rate,23,県クラスター,0.032
+unemp_rate,23,wild cluster bootstrap,0.042
