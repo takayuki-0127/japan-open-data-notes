@@ -1,0 +1,21 @@
+version: 2
+models:
+  - name: mart_indicators_monthly
+    description: 物価・雇用・賃金をそろえた月次の指標テーブル（ダッシュボードの元データ）
+    columns:
+      - name: month
+        description: 対象月（月初の日付）
+        tests: [unique, not_null]
+      - name: cpi_all_yoy
+        description: 総合指数の前年同月比（%）。指数から計算
+        tests:
+          - value_between:
+              arguments: {min_value: -10, max_value: 30}
+      - name: unemp_rate_sa
+        description: 完全失業率（季節調整値、%）
+      - name: jobs_ratio_sa
+        description: 有効求人倍率（季節調整値、倍）
+      - name: real_wage_total_yoy
+        description: 実質賃金（現金給与総額）の前年同月比（%、公表値）
+      - name: real_wage_total_idx_rebuilt
+        description: 名目賃金指数 ÷ 持家の帰属家賃を除く総合 × 100（自分で作り直した実質賃金指数）
