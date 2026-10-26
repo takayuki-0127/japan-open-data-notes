@@ -1,0 +1,62 @@
+[0m00:54:32  Running with dbt=1.12.6
+[0m00:54:32  Registered adapter: duckdb=1.11.0
+[0m00:54:33  Found 20 data tests, 5 models, 4 sources, 501 macros
+[0m00:54:33  
+[0m00:54:33  Concurrency: 2 threads (target='local')
+[0m00:54:33  
+[0m00:54:33  1 of 25 START sql view model main.stg_cpi ...................................... [RUN]
+[0m00:54:33  2 of 25 START sql view model main.stg_jobs ..................................... [RUN]
+[0m00:54:34  2 of 25 OK created sql view model main.stg_jobs ................................ [[32mOK[0m in 0.53s]
+[0m00:54:34  1 of 25 OK created sql view model main.stg_cpi ................................. [[32mOK[0m in 0.53s]
+[0m00:54:34  3 of 25 START sql view model main.stg_lfs ...................................... [RUN]
+[0m00:54:34  4 of 25 START sql view model main.stg_wage ..................................... [RUN]
+[0m00:54:34  3 of 25 OK created sql view model main.stg_lfs ................................. [[32mOK[0m in 0.09s]
+[0m00:54:34  4 of 25 OK created sql view model main.stg_wage ................................ [[32mOK[0m in 0.09s]
+[0m00:54:34  5 of 25 START test assert_raw_no_duplicates .................................... [RUN]
+[0m00:54:34  6 of 25 START test not_null_stg_jobs_month ..................................... [RUN]
+[0m00:54:34  5 of 25 PASS assert_raw_no_duplicates .......................................... [[32mPASS[0m in 0.18s]
+[0m00:54:34  7 of 25 START test unique_stg_jobs_month ....................................... [RUN]
+[0m00:54:34  6 of 25 PASS not_null_stg_jobs_month ........................................... [[32mPASS[0m in 0.18s]
+[0m00:54:34  8 of 25 START test value_between_stg_jobs_jobs_ratio_sa__3__0_1 ................ [RUN]
+[0m00:54:34  7 of 25 PASS unique_stg_jobs_month ............................................. [[32mPASS[0m in 0.09s]
+[0m00:54:34  9 of 25 START test not_null_stg_cpi_cpi_all .................................... [RUN]
+[0m00:54:34  8 of 25 PASS value_between_stg_jobs_jobs_ratio_sa__3__0_1 ...................... [[32mPASS[0m in 0.08s]
+[0m00:54:34  10 of 25 START test not_null_stg_cpi_month ..................................... [RUN]
+[0m00:54:34  9 of 25 PASS not_null_stg_cpi_cpi_all .......................................... [[32mPASS[0m in 0.05s]
+[0m00:54:34  11 of 25 START test unique_stg_cpi_month ....................................... [RUN]
+[0m00:54:34  10 of 25 PASS not_null_stg_cpi_month ........................................... [[32mPASS[0m in 0.05s]
+[0m00:54:34  12 of 25 START test value_between_stg_cpi_cpi_all__200__10 ..................... [RUN]
+[0m00:54:34  11 of 25 PASS unique_stg_cpi_month ............................................. [[32mPASS[0m in 0.06s]
+[0m00:54:34  13 of 25 START test not_null_stg_lfs_month ..................................... [RUN]
+[0m00:54:34  12 of 25 PASS value_between_stg_cpi_cpi_all__200__10 ........................... [[32mPASS[0m in 0.07s]
+[0m00:54:34  14 of 25 START test not_null_stg_lfs_unemp_rate_sa ............................. [RUN]
+[0m00:54:34  13 of 25 PASS not_null_stg_lfs_month ........................................... [[32mPASS[0m in 0.07s]
+[0m00:54:34  15 of 25 START test unique_stg_lfs_month ....................................... [RUN]
+[0m00:54:34  14 of 25 PASS not_null_stg_lfs_unemp_rate_sa ................................... [[32mPASS[0m in 0.06s]
+[0m00:54:34  16 of 25 START test value_between_stg_lfs_unemp_rate_sa__15__0 ................. [RUN]
+[0m00:54:34  15 of 25 PASS unique_stg_lfs_month ............................................. [[32mPASS[0m in 0.06s]
+[0m00:54:34  17 of 25 START test not_null_stg_wage_month .................................... [RUN]
+[0m00:54:34  16 of 25 PASS value_between_stg_lfs_unemp_rate_sa__15__0 ....................... [[32mPASS[0m in 0.05s]
+[0m00:54:34  18 of 25 START test unique_stg_wage_month ...................................... [RUN]
+[0m00:54:34  17 of 25 PASS not_null_stg_wage_month .......................................... [[32mPASS[0m in 0.06s]
+[0m00:54:34  19 of 25 START test value_between_stg_wage_real_wage_total_yoy__20___20 ........ [RUN]
+[0m00:54:35  18 of 25 PASS unique_stg_wage_month ............................................ [[32mPASS[0m in 0.06s]
+[0m00:54:35  19 of 25 PASS value_between_stg_wage_real_wage_total_yoy__20___20 .............. [[32mPASS[0m in 0.04s]
+[0m00:54:35  20 of 25 START sql table model main.mart_indicators_monthly .................... [RUN]
+[0m00:54:35  20 of 25 OK created sql table model main.mart_indicators_monthly ............... [[32mOK[0m in 0.21s]
+[0m00:54:35  21 of 25 START test assert_latest_month_is_recent .............................. [RUN]
+[0m00:54:35  22 of 25 START test assert_real_wage_rebuilt_matches ........................... [RUN]
+[0m00:54:35  22 of 25 PASS assert_real_wage_rebuilt_matches ................................. [[32mPASS[0m in 0.04s]
+[0m00:54:35  23 of 25 START test not_null_mart_indicators_monthly_month ..................... [RUN]
+[0m00:54:35  21 of 25 PASS assert_latest_month_is_recent .................................... [[32mPASS[0m in 0.06s]
+[0m00:54:35  24 of 25 START test unique_mart_indicators_monthly_month ....................... [RUN]
+[0m00:54:35  23 of 25 PASS not_null_mart_indicators_monthly_month ........................... [[32mPASS[0m in 0.17s]
+[0m00:54:35  25 of 25 START test value_between_mart_indicators_monthly_cpi_all_yoy__30___10 . [RUN]
+[0m00:54:35  24 of 25 PASS unique_mart_indicators_monthly_month ............................. [[32mPASS[0m in 0.17s]
+[0m00:54:35  25 of 25 PASS value_between_mart_indicators_monthly_cpi_all_yoy__30___10 ....... [[32mPASS[0m in 0.03s]
+[0m00:54:35  
+[0m00:54:35  Finished running 1 table model, 20 data tests, 4 view models in 0 hours 0 minutes and 1.96 seconds (1.96s).
+[0m00:54:35  
+[0m00:54:35  [32mCompleted successfully[0m
+[0m00:54:35  
+[0m00:54:35  Done. PASS=25 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=25

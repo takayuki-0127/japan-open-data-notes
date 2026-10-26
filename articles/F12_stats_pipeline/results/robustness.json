@@ -1,0 +1,43 @@
+{
+ "retry_success": {
+  "tries": 3,
+  "waits_sec": [
+   1.0,
+   2.0
+  ],
+  "bytes": 5000
+ },
+ "retry_all_fail": {
+  "raised": "failed after 5 tries: e-Stat down (simulated)",
+  "fallback": "キャッシュ（前回の data/raw）で続行。--strict なら失敗で止める"
+ },
+ "diff": {
+  "file": "diff_load2_vs_1.csv",
+  "by_table_status": {
+   "raw_cpi:new": 12,
+   "raw_jobs:new": 2,
+   "raw_lfs:new": 4,
+   "raw_wage:new": 8
+  }
+ },
+ "diff_latest_rerun": {
+  "file": "diff_load3_vs_2.csv",
+  "changed_rows": 0
+ },
+ "bad_data": {
+  "returncode": 1,
+  "failed_tests": [
+   "assert_raw_no_duplicates",
+   "not_null_stg_cpi_cpi_all",
+   "value_between_stg_lfs_unemp_rate_sa__15__0"
+  ],
+  "skipped": [
+   "mart_indicators_monthly",
+   "assert_real_wage_rebuilt_matches",
+   "assert_latest_month_is_recent",
+   "not_null_mart_indicators_monthly_month",
+   "unique_mart_indicators_monthly_month",
+   "value_between_mart_indicators_monthly_cpi_all_yoy__30___10"
+  ]
+ }
+}

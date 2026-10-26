@@ -1,0 +1,156 @@
+{
+ "returncode": 0,
+ "seconds": 5.9,
+ "results": [
+  {
+   "name": "stg_jobs",
+   "type": "model",
+   "status": "success",
+   "sec": 0.53
+  },
+  {
+   "name": "stg_cpi",
+   "type": "model",
+   "status": "success",
+   "sec": 0.53
+  },
+  {
+   "name": "stg_lfs",
+   "type": "model",
+   "status": "success",
+   "sec": 0.09
+  },
+  {
+   "name": "stg_wage",
+   "type": "model",
+   "status": "success",
+   "sec": 0.09
+  },
+  {
+   "name": "assert_raw_no_duplicates",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.18
+  },
+  {
+   "name": "not_null_stg_jobs_month",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.18
+  },
+  {
+   "name": "unique_stg_jobs_month",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.09
+  },
+  {
+   "name": "value_between_stg_jobs_jobs_ratio_sa__3__0_1",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.08
+  },
+  {
+   "name": "not_null_stg_cpi_cpi_all",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.05
+  },
+  {
+   "name": "not_null_stg_cpi_month",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.05
+  },
+  {
+   "name": "unique_stg_cpi_month",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.06
+  },
+  {
+   "name": "value_between_stg_cpi_cpi_all__200__10",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.07
+  },
+  {
+   "name": "not_null_stg_lfs_month",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.07
+  },
+  {
+   "name": "not_null_stg_lfs_unemp_rate_sa",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.06
+  },
+  {
+   "name": "unique_stg_lfs_month",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.06
+  },
+  {
+   "name": "value_between_stg_lfs_unemp_rate_sa__15__0",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.05
+  },
+  {
+   "name": "not_null_stg_wage_month",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.06
+  },
+  {
+   "name": "unique_stg_wage_month",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.06
+  },
+  {
+   "name": "value_between_stg_wage_real_wage_total_yoy__20___20",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.04
+  },
+  {
+   "name": "mart_indicators_monthly",
+   "type": "model",
+   "status": "success",
+   "sec": 0.21
+  },
+  {
+   "name": "assert_real_wage_rebuilt_matches",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.04
+  },
+  {
+   "name": "assert_latest_month_is_recent",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.06
+  },
+  {
+   "name": "not_null_mart_indicators_monthly_month",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.17
+  },
+  {
+   "name": "unique_mart_indicators_monthly_month",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.17
+  },
+  {
+   "name": "value_between_mart_indicators_monthly_cpi_all_yoy__30___10",
+   "type": "test",
+   "status": "pass",
+   "sec": 0.03
+  }
+ ]
+}

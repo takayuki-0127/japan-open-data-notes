@@ -1,0 +1,5 @@
+run at 2026-10-26 00:54:11 UTC
+01 取得                        OK    0.2s  {"fetched_at": "2026-10-26T00:45:27.568Z", "mode": "bundle", "cpi": {"file": "cpi.csv", "bytes": 287948, "sha2
+02 DuckDB へ取り込み・差分           OK   18.9s  {"load_id": 3, "raw_cpi": {"rows": 4086, "last_month": "2026-09-01"}, "raw_lfs": {"rows": 3536, "last_month": 
+03 dbt build（加工とテスト）         OK    9.9s  0 5.9 20 tests passed
+04 図と CSV                    OK    2.5s  figures ok 681 rows 2026-09-01

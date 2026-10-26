@@ -1,0 +1,24 @@
+{
+ "fetched_at": "2026-10-26T00:45:27.568Z",
+ "mode": "bundle",
+ "cpi": {
+  "file": "cpi.csv",
+  "bytes": 287948,
+  "sha256": "c4f5c6f81963c3e5"
+ },
+ "lfs": {
+  "file": "lfs.xlsx",
+  "bytes": 283543,
+  "sha256": "99534a44e4157858"
+ },
+ "jobs": {
+  "file": "jobs.xlsx",
+  "bytes": 67458,
+  "sha256": "60f4eca94740daab"
+ },
+ "wage": {
+  "file": "wage.csv",
+  "bytes": 150755,
+  "sha256": "c30af1b80ab3e73a"
+ }
+}

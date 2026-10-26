@@ -1,0 +1,13 @@
+load_id,as_of,tbl,n_rows,last_month
+1,2026-07,raw_cpi,4074,2026-07-01
+1,2026-07,raw_jobs,1526,2026-07-01
+1,2026-07,raw_lfs,3532,2026-07-01
+1,2026-07,raw_wage,5384,2026-07-01
+2,latest,raw_cpi,4086,2026-09-01
+2,latest,raw_jobs,1528,2026-08-01
+2,latest,raw_lfs,3536,2026-08-01
+2,latest,raw_wage,5392,2026-08-01
+3,latest,raw_cpi,4086,2026-09-01
+3,latest,raw_jobs,1528,2026-08-01
+3,latest,raw_lfs,3536,2026-08-01
+3,latest,raw_wage,5392,2026-08-01
