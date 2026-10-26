@@ -1,0 +1,13 @@
+name: kurashi_stats
+version: "1.0"
+profile: kurashi_stats
+model-paths: ["models"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+target-path: "target"
+models:
+  kurashi_stats:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

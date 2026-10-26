@@ -1,0 +1,7 @@
+kurashi_stats:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: ../data/stats.duckdb
+      threads: 2
