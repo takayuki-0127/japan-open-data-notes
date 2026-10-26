@@ -1,0 +1,14 @@
+version: 2
+sources:
+  - name: raw
+    schema: main
+    description: 02_load_duckdb.py が e-Stat のファイルから作る縦持ちの生データ
+    tables:
+      - name: raw_cpi
+        description: 消費者物価指数 2020年基準（全国・月次、2020年=100）
+      - name: raw_lfs
+        description: 労働力調査 主要項目（季節調整値）
+      - name: raw_jobs
+        description: 一般職業紹介状況 有効求人倍率（パートを含む一般）
+      - name: raw_wage
+        description: 毎月勤労統計調査 指数と前年同月比（調査産業計・5人以上・就業形態計）
