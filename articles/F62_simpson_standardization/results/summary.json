@@ -1,0 +1,113 @@
+{
+ "national": [
+  {
+   "sex": "計",
+   "crude2010": 9.582,
+   "crude2020": 11.466,
+   "std2010": 9.582,
+   "std2020": 8.413,
+   "age_groups_fell": 19,
+   "n_groups": 19,
+   "rate_effect": -1.306,
+   "composition_effect": 3.189
+  },
+  {
+   "sex": "男",
+   "crude2010": 10.328,
+   "crude2020": 11.978,
+   "std2010": 10.328,
+   "std2020": 8.763,
+   "age_groups_fell": 19,
+   "n_groups": 19,
+   "rate_effect": -1.777,
+   "composition_effect": 3.427
+  },
+  {
+   "sex": "女",
+   "crude2010": 8.875,
+   "crude2020": 10.982,
+   "std2010": 8.875,
+   "std2020": 7.88,
+   "age_groups_fell": 19,
+   "n_groups": 19,
+   "rate_effect": -1.13,
+   "composition_effect": 3.236
+  }
+ ],
+ "national3": [
+  {
+   "year": 2010,
+   "crude": 9.582,
+   "std2010": 9.582,
+   "old": 23.024
+  },
+  {
+   "year": 2015,
+   "crude": 10.45,
+   "std2010": 8.915,
+   "old": 26.648
+  },
+  {
+   "year": 2020,
+   "crude": 11.466,
+   "std2010": 8.413,
+   "old": 28.559
+  }
+ ],
+ "pref2020": {
+  "rho_crude_direct": 0.33094357076780756,
+  "rho_crude_old": 0.9712072155411656,
+  "rho_direct_smr": 0.9958371877890841,
+  "crude_range": [
+   9.049949501750941,
+   16.904458294022337
+  ],
+  "direct_range": [
+   10.562696344127083,
+   12.991431374389261
+  ],
+  "crude_ratio": 1.8679063668534,
+  "direct_ratio": 1.2299351369323959,
+  "median_rank_move": 10.0,
+  "n_move10": 25,
+  "n_move20": 11,
+  "pairs": 1081,
+  "reversed_pairs": 415
+ },
+ "simpson_pairs_2020": {
+  "all19_lower_but_crude_higher": 7,
+  "ge17": 46,
+  "ge15": 101,
+  "all_65plus_lower_but_crude_higher": 173,
+  "ordered_pairs": 2162
+ },
+ "robust_10yr_rho_vs_5yr": 0.991096207215541,
+ "robust_summary": {
+  "rho_crude_direct_range": [
+   -0.13667900092506938,
+   0.5641766882516189
+  ],
+  "rho_vs_nationalstd_min": 0.8174144310823311,
+  "reversed_pairs_range": [
+   329,
+   587
+  ]
+ },
+ "wage": {
+  "男": {
+   "rho": 0.9961840888066605,
+   "max_rank_move": 3.0,
+   "median_rank_move": 1.0
+  },
+  "女": {
+   "rho": 0.9946808510638299,
+   "max_rank_move": 4.0,
+   "median_rank_move": 0.0
+  },
+  "gender_gap": {
+   "crude": 0.26047686790079017,
+   "std_female_ages": 0.24277129077931126,
+   "std_male_ages": 0.25296629424690165
+  }
+ }
+}
