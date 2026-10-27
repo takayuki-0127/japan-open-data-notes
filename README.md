@@ -34,6 +34,7 @@
 | F21 | 公的統計の「いつもと違う動き」を自動で見つけられるか？ 98系列を異常検知にかけると、14の出来事のうち13を見つけたが、印の半分は年表にない動きだった | 異常検知（STL 残差の頑健 z スコア・Isolation Forest・PELT による変化点検出）・出来事の年表との答え合わせ・閾値のトレードオフ | [F21_anomaly_detection](articles/F21_anomaly_detection) |
 | F22 | 明日の電力需要はどこまで当てられるか？ 東京エリアを6年半分予測すると、LightGBMの誤差は2.2%で「1週間前の同じ時刻」の4分の1。外れやすいのは猛暑より「お盆」だった | 時系列の交差検証（年度ごとの拡張ウィンドウ）・ベースライン比較・LightGBM・線形回帰・誤差分析・SHAP・気温の予報誤差のシミュレーション | [F22_power_demand_forecast](articles/F22_power_demand_forecast) |
 | F23 | 救急車をどこに置けば、到着が早くなるか？ 福井市の人口と道路で21か所を選び直すと、平均距離は2割縮むが、遠い地区の「5分以内」は減った | 数理最適化（p-median・最大カバー、整数計画・HiGHS）・道路距離（OSRM）・直線距離との比較・重みと候補地の感度 | [F23_ambulance_location](articles/F23_ambulance_location) |
+| F25 | 経済白書41年分をAIの「文埋め込み」で読むと、政府の関心はどう移ったか？ 主役は貿易→金融→雇用・賃金と入れ替わり、2000年代は毎年話題が変わっていた | 文埋め込み（ruri-v3-30m）・KMeans と c-TF-IDF でテーマ分け・UMAP・年度間のコサイン類似度・意味検索・単語ベース（TF-IDF＋SVD）との比較 | [F25_whitepaper_embeddings](articles/F25_whitepaper_embeddings) |
 | F26 | 政策の効果を見つけるには、何県・何年のデータが要るのか？ 都道府県パネルで1,000回シミュレーションすると、就業率で見つかるのは0.7ポイント以上。これまでの「差は見えなかった」の多くは、見分けられない設計だった | 検出力シミュレーション（差の差のモンテカルロ、実データにでたらめな処置）・最小検出効果・標準誤差の比較（OLS・HC1・クラスター・wild cluster bootstrap）・TWFE と Callaway–Sant'Anna | [F26_power_simulation](articles/F26_power_simulation) |
 | F27 | 市区町村の死亡率の地図は、小さな町ほどぶれる。隣の町の情報を借りる空間ベイズ（BYM2）で描き直すと、地域差の9割以上は「隣と共通の差」だった | 空間ベイズ（BYM2・ICAR、PyMC）・ファネルプロット・公表のベイズ推定値との比較・事前分布／隣接／死因の頑健性 | [F27_disease_map_bym2](articles/F27_disease_map_bym2) |
 
