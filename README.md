@@ -37,6 +37,7 @@
 | F25 | 経済白書41年分をAIの「文埋め込み」で読むと、政府の関心はどう移ったか？ 主役は貿易→金融→雇用・賃金と入れ替わり、2000年代は毎年話題が変わっていた | 文埋め込み（ruri-v3-30m）・KMeans と c-TF-IDF でテーマ分け・UMAP・年度間のコサイン類似度・意味検索・単語ベース（TF-IDF＋SVD）との比較 | [F25_whitepaper_embeddings](articles/F25_whitepaper_embeddings) |
 | F26 | 政策の効果を見つけるには、何県・何年のデータが要るのか？ 都道府県パネルで1,000回シミュレーションすると、就業率で見つかるのは0.7ポイント以上。これまでの「差は見えなかった」の多くは、見分けられない設計だった | 検出力シミュレーション（差の差のモンテカルロ、実データにでたらめな処置）・最小検出効果・標準誤差の比較（OLS・HC1・クラスター・wild cluster bootstrap）・TWFE と Callaway–Sant'Anna | [F26_power_simulation](articles/F26_power_simulation) |
 | F27 | 市区町村の死亡率の地図は、小さな町ほどぶれる。隣の町の情報を借りる空間ベイズ（BYM2）で描き直すと、地域差の9割以上は「隣と共通の差」だった | 空間ベイズ（BYM2・ICAR、PyMC）・ファネルプロット・公表のベイズ推定値との比較・事前分布／隣接／死因の頑健性 | [F27_disease_map_bym2](articles/F27_disease_map_bym2) |
+| F28 | 法人は何年続くのか？ 150万法人の登記を生存分析で追うと、10年で1割が閉鎖。合同会社は株式会社より1.5倍閉鎖しやすく、その差は2〜3年目がいちばん大きかった | 生存分析（Kaplan–Meier・Cox 比例ハザード・Schoenfeld 残差・期間別ハザード比） | [F28_corporate_survival](articles/F28_corporate_survival) |
 
 ## まず見てほしい記事
 | # | 記事 | 見どころ |
