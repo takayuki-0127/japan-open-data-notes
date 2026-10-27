@@ -1,0 +1,25 @@
+{
+ "A_病床は中間": {
+  "n_valid": 8,
+  "minimal": [
+   [
+    "did",
+    "income",
+    "univ_grad",
+    "aged65"
+   ]
+  ]
+ },
+ "B_病床は共通原因": {
+  "n_valid": 8,
+  "minimal": [
+   [
+    "did",
+    "income",
+    "univ_grad",
+    "aged65",
+    "beds"
+   ]
+  ]
+ }
+}
