@@ -1,0 +1,27 @@
+{
+ "n": 1734,
+ "n_missing": 619,
+ "share_missing": 0.357,
+ "logit_pseudoR2_pop_only": 0.915,
+ "logit_pseudoR2_all": 0.931,
+ "logit_pseudoR2_y_only": 0.006,
+ "pop_range_observed": [
+  3585.0,
+  3724844.0
+ ],
+ "pop_range_missing": [
+  178.0,
+  15184.0
+ ],
+ "n_obs_under_15k": 47,
+ "imputed_mean_owner": 81.89,
+ "observed_mean_owner": 73.16,
+ "imputed_share_over100": 0.0556,
+ "truth_full_owner_per10": -6.604,
+ "interaction_owner_x_logpop_per10": [
+  2.355,
+  0.47
+ ],
+ "owner_coef_big_half": -11.344,
+ "owner_coef_small_half": -4.745
+}
