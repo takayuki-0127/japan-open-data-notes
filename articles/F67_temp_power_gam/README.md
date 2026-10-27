@@ -14,7 +14,7 @@ note の看板記事 F67 のコード・データ・図です。
 | 関西エリアの1時間ごとの需要 | 2024年4月〜2026年9月 | 関西電力送配電「エリア需給実績」 |
 | 東京・大阪の日ごとの気温・湿度 | 同上 | 気象庁「過去の気象データ」 |
 
-- 新しくは取得していません。F22（[articles/F22_power_demand_forecast](../F22_power_demand_forecast)）で整えた表（`data/raw/hourly_tokyo.csv`・`hourly_kansai.csv`）をそのまま使っています。
+- 新しくは取得していません。F22（[articles/F22_power_demand_forecast](../F22_power_demand_forecast)）で整えた表（`data/raw/hourly_tokyo.csv.gz`・`hourly_kansai.csv.gz`、容量のため gzip で圧縮）をそのまま使っています。
 - 1時間ごとの需要を日ごとの合計（GWh）にしました（東京 3,834日、関西 912日）。
 
 ## 手法
@@ -70,7 +70,7 @@ python 04_図.py
 
 ## ファイル
 
-- `data/raw/`：F22 の1時間ごとの表（東京・関西）
+- `data/raw/`：F22 の1時間ごとの表（東京・関西、gzip 圧縮）
 - `data/daily_tokyo.csv`・`daily_kansai.csv`：日ごとの表
 - `results/summary.csv`：本体・期間別・地域別・頑健性の要約
 - `results/marginal_main.csv`・`marginal_by_period.csv`・`marginal_tokyo24.csv`・`marginal_kansai.csv`：気温ごとの変化率と区間
