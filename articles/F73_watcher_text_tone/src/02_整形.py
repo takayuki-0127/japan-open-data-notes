@@ -10,6 +10,8 @@ from common import WATCHER_JSON, COMMENTS, RAW, DATA, MARK
 d = json.load(gzip.open(WATCHER_JSON, "rt", encoding="utf-8"))
 cols = ["ym", "kind", "region", "field", "mark", "industry", "reason", "text"]
 c = pd.DataFrame(d["rows"], columns=cols)
+# 月・種類の順に並べる（同じ月の中はファイルの順のまま）。集め直したときも id が同じになるように
+c = c.sort_values(["ym", "kind"], kind="stable").reset_index(drop=True)
 # 先行き（saki）は「判断の理由」の欄に文章が入り、追加説明の欄は空。現状（gen）は理由の欄が「来客数の動き」などの分類
 c.loc[c.kind == "saki", "text"] = c.loc[c.kind == "saki", "reason"]
 c.loc[c.kind == "saki", "reason"] = ""

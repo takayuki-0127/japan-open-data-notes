@@ -15,6 +15,8 @@
     const c4 = hs.find(h => /watcher4\.csv$/i.test(h)), c5 = hs.find(h => /watcher5\.csv$/i.test(h));
     csv.push([u, c4 || '', c5 || '', '']); await sleep(150);
   }
+  // ほとんどの月は Shift_JIS だが、UTF-8 の月（2025年10月・2026年4月の先行きなど）もあるので、UTF-8 で読めればそちらを使う
+  const dec = b => { try { return new TextDecoder('utf-8', { fatal: true }).decode(b); } catch (e) { return new TextDecoder('shift_jis').decode(b); } };
   const rows = [];
   const parse = (t, ym, kind) => {
     const wb = XLSX.read(t, { type: 'string', raw: true });
@@ -34,7 +36,7 @@
     const mm = u.match(/keizai3\/(\d{4})\/(\d{2})(\d{2})watcher/); let y = +mm[1], mo = +mm[2] - 1; if (mo === 0) { mo = 12; y -= 1; }
     const ym = y + '-' + String(mo).padStart(2, '0');   // 公表月の前月が調査月
     for (const [cu, k] of [[c4, 'gen'], [c5, 'saki']]) {
-      parse(new TextDecoder('shift_jis').decode(await (await fetch(cu)).arrayBuffer()), ym, k); await sleep(120);
+      parse(dec(await (await fetch(cu)).arrayBuffer()), ym, k); await sleep(120);
     }
   }
   // DI：原数値（watcher2-1 現状・watcher2-4 先行き の全国合計）と季節調整値（watcher5 の分野別）
