@@ -1,0 +1,8 @@
+main 54288 241s
+start2014 54288 354s
+japanese 54288 492s
+foreign 54288 303s
+arima 20880 812s
+snaive 54288 4s
+post 27144 101s
+covid 4176 7s
