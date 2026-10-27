@@ -1,0 +1,16 @@
+method,pred_quintile,coverage
+split,1（安い）,0.8709
+split,2,0.9194
+split,3,0.9380
+split,4,0.9333
+split,5（高い）,0.8868
+norm,1（安い）,0.8570
+norm,2,0.8613
+norm,3,0.8625
+norm,4,0.8672
+norm,5（高い）,0.8821
+cqr,1（安い）,0.9104
+cqr,2,0.9239
+cqr,3,0.9270
+cqr,4,0.9006
+cqr,5（高い）,0.8729
