@@ -1,0 +1,44 @@
+{
+ "n_seasons": 12,
+ "M1_R_median": 1.199,
+ "M1_R_range": [
+  1.101,
+  1.304
+ ],
+ "M3_R_median": 1.356,
+ "M3_R_range": [
+  1.16,
+  1.714
+ ],
+ "rt_growth_max_median": 1.327,
+ "rt_growth_max_range": [
+  1.115,
+  1.405
+ ],
+ "corr_M1R_rtmax": 0.71,
+ "M1_peak_ratio_median": 0.843,
+ "M3_peak_ratio_median": 0.997,
+ "M1_rmse_median": 0.403,
+ "M3_rmse_median": 0.157,
+ "aic_M3_better_all": true,
+ "h_M2": [
+  0.73,
+  1.11,
+  1.5
+ ],
+ "h_M3": [
+  0.59,
+  0.87,
+  1.29
+ ],
+ "final_size_M1": [
+  0.178,
+  0.312,
+  0.427
+ ],
+ "pref_R_quantiles": [
+  1.163,
+  1.221,
+  1.292
+ ]
+}
