@@ -1,0 +1,149 @@
+setting,n,lags,cause,effect,lingam_B0,lingam_lag,granger_p,pc,order
+主設定（前年比・1995-2026）,380,2,fx,imp,0.0,-0.015,0.0482,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,imp,fx,0.0,0.0,0.6135,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,fx,cpi,0.0,0.043,0.0024,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,imp,cpi,0.306,-0.248,0.0,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,cpi,imp,0.0,-0.037,0.0,→,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,imp,wage,0.158,0.0,0.0469,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,wage,imp,0.0,0.0,0.0091,→,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,imp,unemp,-0.095,0.0,0.1077,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,fx,wage,0.0,0.096,0.0928,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,cpi,wage,0.0,0.18,0.0031,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,wage,cpi,0.0,0.0,0.2243,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,unemp,wage,0.0,0.0,0.2424,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,wage,unemp,0.0,0.0,0.0455,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,cpi,rate,0.0,0.0,0.0341,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,rate,cpi,0.0,0.0,0.6704,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,rate,fx,0.0,0.0,0.2536,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,fx,rate,0.0,0.0,0.8384,,fx > imp > wage > rate > cpi > unemp
+主設定（前年比・1995-2026）,380,2,unemp,cpi,0.0,0.0,0.7199,,fx > imp > wage > rate > cpi > unemp
+期間 1995-2012,216,2,fx,imp,0.0,-0.037,0.014,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,imp,fx,0.0,0.0,0.0151,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,fx,cpi,0.0,0.0,0.2283,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,imp,cpi,0.0,0.059,0.0,—,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,cpi,imp,0.222,-0.254,0.0006,—,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,imp,wage,0.0,0.315,0.0017,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,wage,imp,0.033,0.0,0.0219,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,imp,unemp,0.0,-0.138,0.0005,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,fx,wage,0.0,0.191,0.0117,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,cpi,wage,0.0,0.0,0.6427,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,wage,cpi,0.0,0.0,0.1125,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,unemp,wage,0.0,0.0,0.5262,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,wage,unemp,0.0,0.0,0.1051,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,cpi,rate,0.0,0.0,0.5008,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,rate,cpi,0.0,0.0,0.227,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,rate,fx,0.0,0.0,0.1245,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,fx,rate,0.0,0.0,0.9337,,wage > fx > rate > cpi > unemp > imp
+期間 1995-2012,216,2,unemp,cpi,0.0,0.0,0.0804,,wage > fx > rate > cpi > unemp > imp
+期間 2013-2026,164,1,fx,imp,0.0,-0.041,0.0105,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,imp,fx,0.067,0.0,0.0743,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,fx,cpi,0.0,0.046,0.0027,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,imp,cpi,0.054,0.0,0.0169,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,cpi,imp,0.0,-0.104,0.0,→,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,imp,wage,0.135,0.0,0.1306,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,wage,imp,0.0,0.0,0.1202,→,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,imp,unemp,0.0,0.0,0.0708,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,fx,wage,0.0,0.0,0.7203,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,cpi,wage,0.273,0.0,0.02,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,wage,cpi,0.0,0.0,0.0306,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,unemp,wage,0.0,0.0,0.364,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,wage,unemp,0.0,0.0,0.1011,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,cpi,rate,0.0,0.0,0.5508,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,rate,cpi,0.0,0.0,0.3415,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,rate,fx,0.253,-0.259,0.4905,—,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,fx,rate,0.0,0.0,0.8306,—,rate > imp > unemp > fx > cpi > wage
+期間 2013-2026,164,1,unemp,cpi,0.0,0.0,0.4639,,rate > imp > unemp > fx > cpi > wage
+期間 2013-2021（2022年の物価高の前）,108,1,fx,imp,0.0,0.0,0.0305,,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,imp,fx,0.0,0.074,0.0139,,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,fx,cpi,0.0,0.079,0.1545,,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,imp,cpi,0.526,-0.451,0.0182,,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,cpi,imp,0.0,-0.085,0.0002,→,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,imp,wage,1.126,-0.866,0.0824,,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,wage,imp,0.0,0.0,0.4424,→,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,imp,unemp,0.0,0.0,0.0488,,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,fx,wage,0.0,0.0,0.4541,,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,cpi,wage,0.0,0.0,0.584,,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,wage,cpi,0.0,0.0,0.1657,,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,unemp,wage,0.0,-0.203,0.043,,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,wage,unemp,0.0,0.0,0.1954,,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,cpi,rate,0.0,0.0,0.6544,,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,rate,cpi,0.0,0.0,0.9626,,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,rate,fx,0.176,-0.161,0.8298,—,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,fx,rate,0.0,0.0,0.8633,—,imp > rate > wage > fx > cpi > unemp
+期間 2013-2021（2022年の物価高の前）,108,1,unemp,cpi,0.0,-0.08,0.0315,,imp > rate > wage > fx > cpi > unemp
+失業率を除く,380,2,fx,imp,0.0,0.0,0.0314,,imp > fx > wage > rate > cpi
+失業率を除く,380,2,imp,fx,0.0,0.0,0.7495,,imp > fx > wage > rate > cpi
+失業率を除く,380,2,fx,cpi,0.0,0.043,0.0017,,imp > fx > wage > rate > cpi
+失業率を除く,380,2,imp,cpi,0.306,-0.248,0.0,,imp > fx > wage > rate > cpi
+失業率を除く,380,2,cpi,imp,0.0,-0.041,0.0,→,imp > fx > wage > rate > cpi
+失業率を除く,380,2,imp,wage,0.158,0.0,0.0248,,imp > fx > wage > rate > cpi
+失業率を除く,380,2,wage,imp,0.0,0.0,0.0147,→,imp > fx > wage > rate > cpi
+失業率を除く,380,2,fx,wage,0.0,0.096,0.0618,,imp > fx > wage > rate > cpi
+失業率を除く,380,2,cpi,wage,0.0,0.18,0.0034,,imp > fx > wage > rate > cpi
+失業率を除く,380,2,wage,cpi,0.0,0.0,0.1924,,imp > fx > wage > rate > cpi
+失業率を除く,380,2,cpi,rate,0.0,0.0,0.0401,,imp > fx > wage > rate > cpi
+失業率を除く,380,2,rate,cpi,0.0,0.0,0.6938,,imp > fx > wage > rate > cpi
+失業率を除く,380,2,rate,fx,0.0,0.0,0.3153,,imp > fx > wage > rate > cpi
+失業率を除く,380,2,fx,rate,0.0,0.0,0.8997,,imp > fx > wage > rate > cpi
+金利を除く,380,2,fx,imp,0.0,0.0,0.0335,,fx > imp > wage > cpi > unemp
+金利を除く,380,2,imp,fx,0.0,0.0,0.6622,,fx > imp > wage > cpi > unemp
+金利を除く,380,2,fx,cpi,0.0,0.043,0.0014,,fx > imp > wage > cpi > unemp
+金利を除く,380,2,imp,cpi,0.306,-0.248,0.0,,fx > imp > wage > cpi > unemp
+金利を除く,380,2,cpi,imp,0.0,-0.027,0.0014,→,fx > imp > wage > cpi > unemp
+金利を除く,380,2,imp,wage,0.557,-0.434,0.0265,,fx > imp > wage > cpi > unemp
+金利を除く,380,2,wage,imp,0.0,0.0,0.0778,→,fx > imp > wage > cpi > unemp
+金利を除く,380,2,imp,unemp,-0.095,0.0,0.0285,,fx > imp > wage > cpi > unemp
+金利を除く,380,2,fx,wage,0.0,0.094,0.1212,,fx > imp > wage > cpi > unemp
+金利を除く,380,2,cpi,wage,0.0,0.199,0.0008,,fx > imp > wage > cpi > unemp
+金利を除く,380,2,wage,cpi,0.0,0.0,0.191,,fx > imp > wage > cpi > unemp
+金利を除く,380,2,unemp,wage,0.0,-0.083,0.2173,,fx > imp > wage > cpi > unemp
+金利を除く,380,2,wage,unemp,0.0,0.0,0.0628,,fx > imp > wage > cpi > unemp
+金利を除く,380,2,unemp,cpi,0.0,0.0,0.7453,,fx > imp > wage > cpi > unemp
+賃金を所定内に,380,2,fx,imp,0.0,-0.021,0.0418,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,imp,fx,0.0,0.0,0.5624,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,fx,cpi,0.0,0.04,0.002,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,imp,cpi,0.299,-0.246,0.0,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,cpi,imp,0.0,-0.059,0.0,→,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,imp,wage,0.0,0.0,0.005,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,wage,imp,0.0,0.039,0.0031,→,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,imp,unemp,-0.095,0.0,0.1545,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,fx,wage,0.0,0.0,0.2936,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,cpi,wage,0.0,0.0,0.7269,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,wage,cpi,0.0,0.017,0.0444,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,unemp,wage,0.0,0.0,0.4438,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,wage,unemp,0.0,0.0,0.1154,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,cpi,rate,0.0,0.0,0.0418,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,rate,cpi,0.0,0.0,0.7421,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,rate,fx,0.0,0.0,0.2243,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,fx,rate,0.0,0.0,0.8183,,fx > rate > imp > cpi > wage > unemp
+賃金を所定内に,380,2,unemp,cpi,0.0,0.0,0.7178,,fx > rate > imp > cpi > wage > unemp
+輸入物価を円ベースに（為替を除く）,380,2,imp,cpi,0.152,-0.095,0.0,—,imp > wage > rate > cpi > unemp
+輸入物価を円ベースに（為替を除く）,380,2,cpi,imp,0.0,-0.032,0.0,—,imp > wage > rate > cpi > unemp
+輸入物価を円ベースに（為替を除く）,380,2,imp,wage,0.167,0.0,0.0129,,imp > wage > rate > cpi > unemp
+輸入物価を円ベースに（為替を除く）,380,2,wage,imp,0.0,0.0,0.0106,,imp > wage > rate > cpi > unemp
+輸入物価を円ベースに（為替を除く）,380,2,imp,unemp,0.0,0.0,0.2674,,imp > wage > rate > cpi > unemp
+輸入物価を円ベースに（為替を除く）,380,2,cpi,wage,0.0,0.181,0.0025,,imp > wage > rate > cpi > unemp
+輸入物価を円ベースに（為替を除く）,380,2,wage,cpi,0.0,0.0,0.1932,,imp > wage > rate > cpi > unemp
+輸入物価を円ベースに（為替を除く）,380,2,unemp,wage,0.0,0.0,0.2781,,imp > wage > rate > cpi > unemp
+輸入物価を円ベースに（為替を除く）,380,2,wage,unemp,0.0,0.0,0.0316,,imp > wage > rate > cpi > unemp
+輸入物価を円ベースに（為替を除く）,380,2,cpi,rate,0.0,0.0,0.0273,,imp > wage > rate > cpi > unemp
+輸入物価を円ベースに（為替を除く）,380,2,rate,cpi,0.0,0.0,0.7416,,imp > wage > rate > cpi > unemp
+輸入物価を円ベースに（為替を除く）,380,2,unemp,cpi,0.0,0.0,0.8119,,imp > wage > rate > cpi > unemp
+前月比（季節調整）,380,1,fx,imp,0.0,0.0,0.636,,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,imp,fx,0.0,0.0,0.4416,,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,fx,cpi,0.0,0.109,0.0543,,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,imp,cpi,0.193,0.0,0.0033,—,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,cpi,imp,0.0,0.0,0.9328,—,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,imp,wage,0.0,0.0,0.5245,,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,wage,imp,0.0,0.0,0.5622,,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,imp,unemp,0.0,0.0,0.0146,,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,fx,wage,0.0,0.0,0.1272,,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,cpi,wage,0.0,0.0,0.1064,,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,wage,cpi,0.0,0.0,0.1422,,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,unemp,wage,0.0,0.0,0.3216,,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,wage,unemp,0.0,0.0,0.055,,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,cpi,rate,0.0,0.0,0.0572,,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,rate,cpi,0.0,0.0,0.6849,,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,rate,fx,0.0,0.0,0.3831,—,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,fx,rate,0.0,0.0,0.8048,—,imp > cpi > fx > wage > rate > unemp
+前月比（季節調整）,380,1,unemp,cpi,0.0,0.0,0.8069,,imp > cpi > fx > wage > rate > unemp

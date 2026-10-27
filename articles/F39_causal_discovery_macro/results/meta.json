@@ -1,0 +1,1 @@
+{"lags_main": 2, "n_main": 380, "order_main": ["fx", "imp", "wage", "rate", "cpi", "unemp"], "th_B0": 0.05, "th_lag": 0.1, "n_boot": 200}
