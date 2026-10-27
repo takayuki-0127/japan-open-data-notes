@@ -1,0 +1,420 @@
+{
+ "national_peak": {
+  "2012/13": {
+   "sw": 21,
+   "per_mean": 34.23
+  },
+  "2013/14": {
+   "sw": 21,
+   "per_mean": 31.62
+  },
+  "2014/15": {
+   "sw": 20,
+   "per_mean": 43.81
+  },
+  "2015/16": {
+   "sw": 25,
+   "per_mean": 36.94
+  },
+  "2016/17": {
+   "sw": 20,
+   "per_mean": 36.81
+  },
+  "2017/18": {
+   "sw": 21,
+   "per_mean": 52.28
+  },
+  "2018/19": {
+   "sw": 20,
+   "per_mean": 53.41
+  },
+  "2019/20": {
+   "sw": 16,
+   "per_mean": 22.89
+  },
+  "2020/21": {
+   "sw": 22,
+   "per_mean": 0.03
+  },
+  "2021/22": {
+   "sw": 49,
+   "per_mean": 0.03
+  },
+  "2022/23": {
+   "sw": 22,
+   "per_mean": 13.18
+  },
+  "2023/24": {
+   "sw": 13,
+   "per_mean": 34.87
+  },
+  "2024/25": {
+   "sw": 16,
+   "per_mean": 61.13
+  },
+  "2025/26": {
+   "sw": 11,
+   "per_mean": 48.11
+  },
+  "2026/27": {
+   "sw": 5,
+   "per_mean": 11.06
+  }
+ },
+ "order": {
+  "spearman_mean": 0.204,
+  "spearman_min": -0.193,
+  "spearman_max": 0.559,
+  "kendall_W": 0.277,
+  "kendall_W_p": 0.001,
+  "kendall_W_null95": 0.151
+ },
+ "mean_rel_early5": {
+  "47": -7.25,
+  "1": -1.88,
+  "41": -1.38,
+  "15": -1.25,
+  "11": -1.12
+ },
+ "mean_rel_late5": {
+  "26": 1.0,
+  "31": 1.38,
+  "39": 1.38,
+  "36": 1.38,
+  "32": 1.88
+ },
+ "onset_span": {
+  "2012/13": {
+   "first": 4.0,
+   "median": 15.0,
+   "last": 17.0,
+   "p10_p90": 4.0
+  },
+  "2013/14": {
+   "first": 11.0,
+   "median": 15.0,
+   "last": 18.0,
+   "p10_p90": 5.0
+  },
+  "2014/15": {
+   "first": 10.0,
+   "median": 13.0,
+   "last": 15.0,
+   "p10_p90": 3.0
+  },
+  "2015/16": {
+   "first": 4.0,
+   "median": 18.0,
+   "last": 20.0,
+   "p10_p90": 2.799999999999997
+  },
+  "2016/17": {
+   "first": 4.0,
+   "median": 10.0,
+   "last": 15.0,
+   "p10_p90": 5.0
+  },
+  "2017/18": {
+   "first": 4.0,
+   "median": 11.0,
+   "last": 14.0,
+   "p10_p90": 5.0
+  },
+  "2018/19": {
+   "first": 4.0,
+   "median": 13.0,
+   "last": 15.0,
+   "p10_p90": 2.3999999999999986
+  },
+  "2019/20": {
+   "first": 4.0,
+   "median": 10.0,
+   "last": 12.0,
+   "p10_p90": 8.0
+  }
+ },
+ "moran_onset": {
+  "2012/13": {
+   "I": 0.04,
+   "p": 0.254
+  },
+  "2013/14": {
+   "I": 0.191,
+   "p": 0.03
+  },
+  "2014/15": {
+   "I": 0.053,
+   "p": 0.229
+  },
+  "2015/16": {
+   "I": 0.027,
+   "p": 0.224
+  },
+  "2016/17": {
+   "I": 0.196,
+   "p": 0.018
+  },
+  "2017/18": {
+   "I": -0.017,
+   "p": 0.443
+  },
+  "2018/19": {
+   "I": 0.224,
+   "p": 0.019
+  },
+  "2019/20": {
+   "I": 0.334,
+   "p": 0.002
+  },
+  "2022/23": {
+   "I": 0.285,
+   "p": 0.004
+  },
+  "2023/24": {
+   "I": -0.034,
+   "p": 0.945
+  },
+  "2024/25": {
+   "I": 0.231,
+   "p": 0.014
+  },
+  "2025/26": {
+   "I": 0.251,
+   "p": 0.016
+  }
+ },
+ "moran_mean_rel": {
+  "I": 0.225,
+  "p": 0.006
+ },
+ "onset_correlates": {
+  "logpop": [
+   -0.414,
+   0.004
+  ],
+  "tokyo_share": [
+   -0.458,
+   0.001
+  ],
+  "lat": [
+   -0.14,
+   0.346
+  ]
+ },
+ "onset_correlates_ex_okinawa": {
+  "logpop": [
+   -0.431,
+   0.003
+  ],
+  "tokyo_share": [
+   -0.448,
+   0.002
+  ],
+  "lat": [
+   -0.217,
+   0.148
+  ]
+ },
+ "st_ar": {
+  "own:y1": [
+   0.966,
+   0.907,
+   1.025
+  ],
+  "own:y2": [
+   -0.136,
+   -0.188,
+   -0.084
+  ],
+  "adj:y1": [
+   0.944,
+   0.881,
+   1.008
+  ],
+  "adj:y2": [
+   -0.145,
+   -0.197,
+   -0.094
+  ],
+  "adj:w_adj": [
+   0.091,
+   0.061,
+   0.122
+  ],
+  "mig:y1": [
+   0.94,
+   0.874,
+   1.006
+  ],
+  "mig:y2": [
+   -0.145,
+   -0.197,
+   -0.092
+  ],
+  "mig:w_mig": [
+   0.257,
+   0.158,
+   0.355
+  ],
+  "adj_mig:y1": [
+   0.938,
+   0.872,
+   1.003
+  ],
+  "adj_mig:y2": [
+   -0.147,
+   -0.199,
+   -0.094
+  ],
+  "adj_mig:w_adj": [
+   0.04,
+   0.012,
+   0.069
+  ],
+  "adj_mig:w_mig": [
+   0.185,
+   0.058,
+   0.313
+  ],
+  "dist:y1": [
+   0.939,
+   0.873,
+   1.005
+  ],
+  "dist:y2": [
+   -0.145,
+   -0.197,
+   -0.093
+  ],
+  "dist:w_dist": [
+   0.133,
+   0.082,
+   0.185
+  ]
+ },
+ "forecast": {
+  "own": {
+   "rmse_growth": 0.3503,
+   "rmse_all": 0.2187,
+   "growth_vs_own_pct": 0.0
+  },
+  "own_adj": {
+   "rmse_growth": 0.3491,
+   "rmse_all": 0.2182,
+   "growth_vs_own_pct": -0.34
+  },
+  "own_mig": {
+   "rmse_growth": 0.3432,
+   "rmse_all": 0.2151,
+   "growth_vs_own_pct": -2.03
+  },
+  "own_adj_mig": {
+   "rmse_growth": 0.3432,
+   "rmse_all": 0.2152,
+   "growth_vs_own_pct": -2.03
+  }
+ },
+ "robustness": [
+  {
+   "setting": "開始の閾値 0.5",
+   "spearman_mean": 0.226,
+   "moran_mean": 0.077,
+   "b_adj": NaN,
+   "b_mig": NaN,
+   "b_adj_lo": NaN,
+   "b_mig_lo": NaN,
+   "b_adj_hi": NaN
+  },
+  {
+   "setting": "開始の閾値 2.0",
+   "spearman_mean": 0.155,
+   "moran_mean": 0.211,
+   "b_adj": NaN,
+   "b_mig": NaN,
+   "b_adj_lo": NaN,
+   "b_mig_lo": NaN,
+   "b_adj_hi": NaN
+  },
+  {
+   "setting": "沖縄を除く",
+   "spearman_mean": 0.153,
+   "moran_mean": 0.178,
+   "b_adj": NaN,
+   "b_mig": NaN,
+   "b_adj_lo": NaN,
+   "b_mig_lo": NaN,
+   "b_adj_hi": NaN
+  },
+  {
+   "setting": "Moran's I を移動の重みで",
+   "spearman_mean": NaN,
+   "moran_mean": 0.07,
+   "b_adj": NaN,
+   "b_mig": NaN,
+   "b_adj_lo": NaN,
+   "b_mig_lo": NaN,
+   "b_adj_hi": NaN
+  },
+  {
+   "setting": "Moran's I を距離の重みで",
+   "spearman_mean": NaN,
+   "moran_mean": 0.119,
+   "b_adj": NaN,
+   "b_mig": NaN,
+   "b_adj_lo": NaN,
+   "b_mig_lo": NaN,
+   "b_adj_hi": NaN
+  },
+  {
+   "setting": "時空間AR 沖縄を除く",
+   "spearman_mean": NaN,
+   "moran_mean": NaN,
+   "b_adj": 0.033,
+   "b_mig": 0.251,
+   "b_adj_lo": 0.003,
+   "b_mig_lo": 0.17,
+   "b_adj_hi": NaN
+  },
+  {
+   "setting": "時空間AR コロナ後（2022/23・2023/24・2024/25・2025/26）",
+   "spearman_mean": NaN,
+   "moran_mean": NaN,
+   "b_adj": 0.029,
+   "b_mig": 0.188,
+   "b_adj_lo": -0.001,
+   "b_mig_lo": 0.081,
+   "b_adj_hi": NaN
+  },
+  {
+   "setting": "開始の順番 コロナ後どうし",
+   "spearman_mean": 0.178,
+   "moran_mean": NaN,
+   "b_adj": NaN,
+   "b_mig": NaN,
+   "b_adj_lo": NaN,
+   "b_mig_lo": NaN,
+   "b_adj_hi": NaN
+  },
+  {
+   "setting": "開始の順番 コロナ前の平均とコロナ後",
+   "spearman_mean": 0.275,
+   "moran_mean": NaN,
+   "b_adj": NaN,
+   "b_mig": NaN,
+   "b_adj_lo": NaN,
+   "b_mig_lo": NaN,
+   "b_adj_hi": NaN
+  },
+  {
+   "setting": "偽の隣接（県をでたらめに入れ替え、20回）",
+   "spearman_mean": NaN,
+   "moran_mean": NaN,
+   "b_adj": -0.001,
+   "b_mig": NaN,
+   "b_adj_lo": -0.039,
+   "b_mig_lo": NaN,
+   "b_adj_hi": 0.024
+  }
+ ],
+ "n_obs_main": 18800
+}
