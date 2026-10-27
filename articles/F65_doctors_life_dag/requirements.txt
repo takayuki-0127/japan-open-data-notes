@@ -1,0 +1,5 @@
+numpy
+pandas
+matplotlib
+statsmodels
+networkx>=3.3
