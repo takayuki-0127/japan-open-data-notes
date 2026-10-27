@@ -1,0 +1,41 @@
+query,rank,year,heading,sim,url
+物価,1,1989,1. 今回景気上昇局面の特徴,0.91,https://www5.cao.go.jp/keizai3/keizaiwp/wp-je89/wp-je89-00501.html
+物価,2,2017,第1節 今次景気回復局面の特徴,0.908,https://www5.cao.go.jp/j-j/wp/wp-je17/h01-01.html
+物価,3,2008,1 原油・原材料価格高騰、円高の影響,0.907,https://www5.cao.go.jp/j-j/wp/wp-je08/08b01030.html
+物価,4,2018,第2節 景気回復の進展と経済再生に向けた進捗,0.905,https://www5.cao.go.jp/j-j/wp/wp-je18/h01-02.html
+物価,5,2025,第1節 個人消費の回復に向けて,0.903,https://www5.cao.go.jp/j-j/wp/wp-je25/h02-01.html
+デフレ,1,2023,第2節 物価の基調的な動向と財政・金融政策,0.95,https://www5.cao.go.jp/j-j/wp/wp-je23/h01-02.html
+デフレ,2,2023,おわりに,0.942,https://www5.cao.go.jp/j-j/wp/wp-je23/h04_00.html
+デフレ,3,2023,第3節 本章のまとめ,0.941,https://www5.cao.go.jp/j-j/wp/wp-je23/h01-03.html
+デフレ,4,2013,むすび,0.94,https://www5.cao.go.jp/j-j/wp/wp-je13/h04.html
+デフレ,5,2024,第2節 デフレに後戻りしない経済構造の構築,0.938,https://www5.cao.go.jp/j-j/wp/wp-je24/h01-02.html
+賃金,1,2014,第2節 好循環を支える所得・賃金の動向,0.91,https://www5.cao.go.jp/j-j/wp/wp-je14/h02-02.html
+賃金,2,2016,第3節 財政・金融政策の動向,0.91,https://www5.cao.go.jp/j-j/wp/wp-je16/h01-03.html
+賃金,3,2017,第3節 働き方改革が国民生活に与える影響,0.909,https://www5.cao.go.jp/j-j/wp/wp-je17/h02-03.html
+賃金,4,2014,第4節 まとめ,0.903,https://www5.cao.go.jp/j-j/wp/wp-je14/h02-04.html
+賃金,5,2016,第1節 景気の現状と好循環の確立に向けた課題,0.902,https://www5.cao.go.jp/j-j/wp/wp-je16/h01-01.html
+少子化・人口減少,1,2003,1 高齢化・人口減少の進行,0.932,https://www5.cao.go.jp/j-j/wp/wp-je03/03-00301.html
+少子化・人口減少,2,2023,第2節 少子化と家計経済,0.927,https://www5.cao.go.jp/j-j/wp/wp-je23/h02-02.html
+少子化・人口減少,3,2003,1 これまでの日本の経済成長の姿,0.926,https://www5.cao.go.jp/j-j/wp/wp-je03/03-00302.html
+少子化・人口減少,4,2005,第１節 人口動態の変化とその経済的意味,0.924,https://www5.cao.go.jp/j-j/wp/wp-je05/05-00301.html
+少子化・人口減少,5,2005,むすび,0.915,https://www5.cao.go.jp/j-j/wp/wp-je05/05-00400.html
+財政赤字,1,2012,第2節 財政の現状と変動要因,0.913,https://www5.cao.go.jp/j-j/wp/wp-je12/h03_02.html
+財政赤字,2,2014,第3節 経済成長と財政健全化,0.904,https://www5.cao.go.jp/j-j/wp/wp-je14/h01-03.html
+財政赤字,3,1996,1. 景気を下支えした財政政策,0.903,https://www5.cao.go.jp/keizai3/keizaiwp/wp-je96/wp-je96-00107.html
+財政赤字,4,2002,第1章 景気回復力の展望,0.901,https://www5.cao.go.jp/j-j/wp/wp-je02/wp-je02-00103.html
+財政赤字,5,2001,第３章 我が国財政の総合的把握,0.901,https://www5.cao.go.jp/j-j/wp/wp-je01/wp-je01-00301.html
+不良債権,1,2003,1 不良債権処理の重要性,0.927,https://www5.cao.go.jp/j-j/wp/wp-je03/03-00202.html
+不良債権,2,1996,1. 不良債権問題の経緯と現状,0.917,https://www5.cao.go.jp/keizai3/keizaiwp/wp-je96/wp-je96-00109.html
+不良債権,3,2005,1 集中調整期間の概観,0.908,https://www5.cao.go.jp/j-j/wp/wp-je05/05-00103.html
+不良債権,4,2001,第２章 不良債権問題と日本経済の実力,0.908,https://www5.cao.go.jp/j-j/wp/wp-je01/wp-je01-00201.html
+不良債権,5,1997,1. 企業のバランスシートの現状,0.907,https://www5.cao.go.jp/keizai3/keizaiwp/wp-je97/wp-je97-00106.html
+デジタル・AI,1,2018,第1節 第4次産業革命の社会実装,0.882,https://www5.cao.go.jp/j-j/wp/wp-je18/h03-01.html
+デジタル・AI,2,2021,第2節 今後の成長に向けた課題,0.878,https://www5.cao.go.jp/j-j/wp/wp-je21/h02-02.html
+デジタル・AI,3,2017,第3章 技術革新への対応とその影響,0.877,https://www5.cao.go.jp/j-j/wp/wp-je17/h03-00.html
+デジタル・AI,4,2017,第2節 技術革新が経済社会・国民生活に与える影響,0.869,https://www5.cao.go.jp/j-j/wp/wp-je17/h03-02.html
+デジタル・AI,5,2018,第2節 人生100年時代の人材育成,0.869,https://www5.cao.go.jp/j-j/wp/wp-je18/h02-02.html
+環境・脱炭素,1,2022,第2節 脱炭素化政策の推進に向けた課題,0.909,https://www5.cao.go.jp/j-j/wp/wp-je22/h03-02.html
+環境・脱炭素,2,2010,第2節 環境問題への対応を通じた生産性向上と雇用創出,0.9,https://www5.cao.go.jp/j-j/wp/wp-je10/10b03020.html
+環境・脱炭素,3,2021,第2節 今後の成長に向けた課題,0.899,https://www5.cao.go.jp/j-j/wp/wp-je21/h02-02.html
+環境・脱炭素,4,1990,1. 経済協力を通じた成果配分,0.896,https://www5.cao.go.jp/keizai3/keizaiwp/wp-je90/wp-je90-00304.html
+環境・脱炭素,5,1991,1 湾岸危機と世界の石油需給,0.892,https://www5.cao.go.jp/keizai3/keizaiwp/wp-je91/wp-je91-00405.html
