@@ -5,8 +5,13 @@ import urllib.request
 from common import RAW
 
 BASE = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/main/articles/F22_power_demand_forecast/data/"
+import gzip, shutil
 for name in ["hourly_tokyo.csv", "hourly_kansai.csv"]:
-    p = RAW / name
+    p = RAW / (name + ".gz")  # このフォルダには gzip で圧縮して置いている
     if not p.exists():
-        urllib.request.urlretrieve(BASE + name, p)
-    print(name, p.stat().st_size)
+        tmp = RAW / name
+        urllib.request.urlretrieve(BASE + name, tmp)
+        with open(tmp, "rb") as fi, gzip.open(p, "wb") as fo:
+            shutil.copyfileobj(fi, fo)
+        tmp.unlink()
+    print(p.name, p.stat().st_size)

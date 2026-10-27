@@ -5,7 +5,7 @@ from common import RAW, DATA
 
 
 def daily(name):
-    h = pd.read_csv(RAW / name, parse_dates=["ts", "date"])
+    h = pd.read_csv(RAW / name, parse_dates=["ts", "date"])  # .csv.gz
     g = h.groupby("date").agg(demand_gwh=("demand", lambda s: s.sum() / 1000), n=("demand", "size"),
                               peak_mw=("demand", "max"),
                               temp_mean=("temp_mean", "first"), temp_max=("temp_max", "first"),
@@ -29,7 +29,7 @@ def daily(name):
 
 
 if __name__ == "__main__":
-    for src, out in [("hourly_tokyo.csv", "daily_tokyo.csv"), ("hourly_kansai.csv", "daily_kansai.csv")]:
+    for src, out in [("hourly_tokyo.csv.gz", "daily_tokyo.csv"), ("hourly_kansai.csv.gz", "daily_kansai.csv")]:
         d = daily(src)
         d.to_csv(DATA / out, index=False)
         print(out, len(d), d.date.min().date(), d.date.max().date(), round(d.demand_gwh.mean(), 1))

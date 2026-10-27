@@ -190,7 +190,7 @@ if __name__ == "__main__":
     cv.to_csv(RES / "cv_compare.csv", index=False)
 
     # 時刻別
-    bh = by_hour(DATA / "raw" / "hourly_tokyo.csv")
+    bh = by_hour(DATA / "raw" / "hourly_tokyo.csv.gz")
     bh.to_csv(RES / "by_hour.csv", index=False)
 
     pd.set_option("display.width", 250)
