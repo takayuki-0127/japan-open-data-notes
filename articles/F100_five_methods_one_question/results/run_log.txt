@@ -1,0 +1,213 @@
+q1_level|マッチング|pref=False|all: -0.0111 [-0.0290, +0.0068] n=1610 (6s)
+q1_level|DML（RF）|pref=False|all: -0.0026 [-0.0084, +0.0032] n=1610 (23s)
+q1_level|DML（LightGBM）|pref=False|all: -0.0039 [-0.0092, +0.0013] n=1610 (6s)
+q1_level|DML（Lasso）|pref=False|all: +0.0032 [-0.0030, +0.0094] n=1610 (4s)
+ML_Error
+q1_level|空間誤差モデル|pref=False|all: -0.0057 [-0.0096, -0.0019] n=1610 (4s)
+ML_Lag
+q1_level|空間ラグモデル（直接効果）|pref=False|all: -0.0038 [-0.0077, +0.0000] n=1610 (3s)
+q1_level|回帰|pref=False|pop1man: +0.0014 [-0.0060, +0.0087] n=1250 (0s)
+q1_level|マッチング|pref=False|pop1man: +0.0130 [-0.0108, +0.0368] n=1250 (4s)
+q1_level|DML（RF）|pref=False|pop1man: -0.0010 [-0.0097, +0.0076] n=1250 (18s)
+q1_level|DML（LightGBM）|pref=False|pop1man: -0.0056 [-0.0136, +0.0024] n=1250 (6s)
+q1_level|DML（Lasso）|pref=False|pop1man: -0.0044 [-0.0195, +0.0106] n=1250 (5s)
+ML_Error
+q1_level|空間誤差モデル|pref=False|pop1man: -0.0082 [-0.0140, -0.0024] n=1250 (2s)
+ML_Lag
+q1_level|空間ラグモデル（直接効果）|pref=False|pop1man: -0.0064 [-0.0120, -0.0009] n=1250 (2s)
+q1_change|回帰|pref=True|all: -0.0043 [-0.0081, -0.0005] n=1606 (0s)
+q1_change|固定効果|pref=True|all: +0.0007 [-0.0034, +0.0048] n=1606 (0s)
+q1_change|マッチング|pref=True|all: -0.0002 [-0.0096, +0.0093] n=1606 (8s)
+q1_change|DML（RF）|pref=True|all: -0.0012 [-0.0053, +0.0028] n=1606 (32s)
+q1_change|DML（LightGBM）|pref=True|all: -0.0011 [-0.0049, +0.0028] n=1606 (9s)
+q1_change|DML（Lasso）|pref=True|all: -0.0028 [-0.0067, +0.0011] n=1606 (7s)
+ML_Error
+q1_change|空間誤差モデル|pref=True|all: -0.0043 [-0.0076, -0.0009] n=1606 (2s)
+ML_Lag
+q1_change|空間ラグモデル（直接効果）|pref=True|all: -0.0043 [-0.0077, -0.0009] n=1606 (2s)
+q1_change|回帰|pref=True|pop1man: +0.0000 [-0.0063, +0.0064] n=1247 (0s)
+q1_change|固定効果|pref=True|pop1man: +0.0065 [-0.0000, +0.0130] n=1247 (0s)
+q1_change|マッチング|pref=True|pop1man: +0.0028 [-0.0113, +0.0169] n=1247 (5s)
+q1_change|DML（RF）|pref=True|pop1man: +0.0049 [-0.0019, +0.0117] n=1247 (25s)
+q1_change|DML（LightGBM）|pref=True|pop1man: +0.0030 [-0.0030, +0.0089] n=1247 (8s)
+q1_change|DML（Lasso）|pref=True|pop1man: +0.0039 [-0.0026, +0.0104] n=1247 (9s)
+ML_Error
+q1_change|空間誤差モデル|pref=True|pop1man: -0.0001 [-0.0051, +0.0050] n=1247 (2s)
+ML_Lag
+q1_change|空間ラグモデル（直接効果）|pref=True|pop1man: +0.0001 [-0.0049, +0.0051] n=1247 (1s)
+q1_change|回帰|pref=False|all: -0.0027 [-0.0067, +0.0013] n=1606 (0s)
+q1_change|固定効果|pref=False|all: -0.0007 [-0.0053, +0.0038] n=1606 (0s)
+q1_change|マッチング|pref=False|all: +0.0026 [-0.0079, +0.0130] n=1606 (6s)
+q1_change|DML（RF）|pref=False|all: -0.0012 [-0.0053, +0.0028] n=1606 (29s)
+q1_change|DML（LightGBM）|pref=False|all: -0.0013 [-0.0053, +0.0026] n=1606 (8s)
+q1_change|DML（Lasso）|pref=False|all: -0.0043 [-0.0092, +0.0006] n=1606 (5s)
+ML_Error
+q1_change|空間誤差モデル|pref=False|all: -0.0032 [-0.0068, +0.0004] n=1606 (3s)
+ML_Lag
+q1_change|空間ラグモデル（直接効果）|pref=False|all: -0.0028 [-0.0065, +0.0008] n=1606 (3s)
+q1_change|回帰|pref=False|pop1man: +0.0032 [-0.0033, +0.0097] n=1247 (0s)
+q1_change|固定効果|pref=False|pop1man: +0.0063 [-0.0004, +0.0130] n=1247 (0s)
+q1_change|マッチング|pref=False|pop1man: +0.0078 [-0.0060, +0.0215] n=1247 (7s)
+q1_change|DML（RF）|pref=False|pop1man: +0.0046 [-0.0022, +0.0115] n=1247 (22s)
+q1_change|DML（LightGBM）|pref=False|pop1man: +0.0015 [-0.0048, +0.0077] n=1247 (7s)
+q1_change|DML（Lasso）|pref=False|pop1man: +0.0031 [-0.0036, +0.0098] n=1247 (5s)
+ML_Error
+q1_change|空間誤差モデル|pref=False|pop1man: +0.0022 [-0.0031, +0.0075] n=1247 (2s)
+ML_Lag
+q1_change|空間ラグモデル（直接効果）|pref=False|pop1man: +0.0028 [-0.0025, +0.0082] n=1247 (1s)
+q2_level|回帰|pref=True|all: +0.1718 [+0.0668, +0.2767] n=1611 (0s)
+q2_level|マッチング|pref=True|all: +0.0464 [-0.4124, +0.5052] n=1611 (6s)
+q2_level|DML（RF）|pref=True|all: +0.1667 [+0.0413, +0.2920] n=1611 (23s)
+q2_level|DML（LightGBM）|pref=True|all: +0.1388 [+0.0350, +0.2427] n=1611 (7s)
+q2_level|DML（Lasso）|pref=True|all: +0.1947 [+0.0914, +0.2981] n=1611 (6s)
+ML_Error
+q2_level|空間誤差モデル|pref=True|all: +0.1749 [+0.1088, +0.2410] n=1611 (4s)
+ML_Lag
+q2_level|空間ラグモデル（直接効果）|pref=True|all: +0.1686 [+0.0982, +0.2390] n=1611 (3s)
+q2_level|回帰|pref=True|pop1man: +0.0872 [-0.0277, +0.2021] n=1250 (0s)
+q2_level|マッチング|pref=True|pop1man: +0.4800 [-0.4652, +1.4253] n=1250 (5s)
+q2_level|DML（RF）|pref=True|pop1man: +0.2126 [+0.0728, +0.3524] n=1250 (19s)
+q2_level|DML（LightGBM）|pref=True|pop1man: +0.0814 [-0.0430, +0.2059] n=1250 (7s)
+q2_level|DML（Lasso）|pref=True|pop1man: +0.0928 [-0.0358, +0.2214] n=1250 (6s)
+ML_Error
+q2_level|空間誤差モデル|pref=True|pop1man: +0.0818 [-0.0096, +0.1733] n=1250 (2s)
+ML_Lag
+q2_level|空間ラグモデル（直接効果）|pref=True|pop1man: +0.0649 [-0.0278, +0.1577] n=1250 (1s)
+q2_level|回帰|pref=False|all: +0.2994 [+0.1921, +0.4068] n=1611 (0s)
+q2_level|マッチング|pref=False|all: +0.0382 [-0.3123, +0.3887] n=1611 (6s)
+q2_level|DML（RF）|pref=False|all: +0.1742 [+0.0483, +0.3000] n=1611 (20s)
+q2_level|DML（LightGBM）|pref=False|all: +0.1272 [+0.0174, +0.2371] n=1611 (6s)
+q2_level|DML（Lasso）|pref=False|all: +0.2940 [+0.1882, +0.3998] n=1611 (3s)
+ML_Error
+q2_level|空間誤差モデル|pref=False|all: +0.2230 [+0.1583, +0.2877] n=1611 (3s)
+ML_Lag
+q2_level|空間ラグモデル（直接効果）|pref=False|all: +0.2483 [+0.1798, +0.3169] n=1611 (3s)
+q2_level|回帰|pref=False|pop1man: +0.2744 [+0.1566, +0.3923] n=1250 (0s)
+q2_level|マッチング|pref=False|pop1man: +0.6709 [+0.2422, +1.0997] n=1250 (4s)
+q2_level|DML（RF）|pref=False|pop1man: +0.2180 [+0.0767, +0.3594] n=1250 (17s)
+q2_level|DML（LightGBM）|pref=False|pop1man: +0.0755 [-0.0480, +0.1989] n=1250 (6s)
+q2_level|DML（Lasso）|pref=False|pop1man: +0.1793 [-0.0509, +0.4094] n=1250 (3s)
+ML_Error
+q2_level|空間誤差モデル|pref=False|pop1man: +0.1159 [+0.0271, +0.2048] n=1250 (2s)
+ML_Lag
+q2_level|空間ラグモデル（直接効果）|pref=False|pop1man: +0.1846 [+0.0961, +0.2732] n=1250 (1s)
+q2_change|回帰|pref=True|all: +0.0425 [-0.0167, +0.1018] n=1611 (0s)
+q2_change|固定効果|pref=True|all: +0.0594 [-0.0060, +0.1248] n=1611 (0s)
+q2_change|マッチング|pref=True|all: +0.0503 [-0.1430, +0.2437] n=1611 (7s)
+q2_change|DML（RF）|pref=True|all: +0.0634 [-0.0010, +0.1278] n=1611 (31s)
+q2_change|DML（LightGBM）|pref=True|all: +0.0607 [-0.0014, +0.1227] n=1611 (8s)
+q2_change|DML（Lasso）|pref=True|all: +0.0387 [-0.0169, +0.0944] n=1611 (7s)
+ML_Error
+q2_change|空間誤差モデル|pref=True|all: +0.0440 [-0.0054, +0.0933] n=1611 (4s)
+ML_Lag
+q2_change|空間ラグモデル（直接効果）|pref=True|all: +0.0426 [-0.0068, +0.0920] n=1611 (2s)
+q2_change|回帰|pref=True|pop1man: +0.0490 [-0.0248, +0.1227] n=1250 (0s)
+q2_change|固定効果|pref=True|pop1man: +0.0379 [-0.0419, +0.1178] n=1250 (0s)
+q2_change|マッチング|pref=True|pop1man: +0.1505 [-0.0981, +0.3991] n=1250 (6s)
+q2_change|DML（RF）|pref=True|pop1man: +0.0193 [-0.0559, +0.0946] n=1250 (25s)
+q2_change|DML（LightGBM）|pref=True|pop1man: +0.0031 [-0.0723, +0.0785] n=1250 (8s)
+q2_change|DML（Lasso）|pref=True|pop1man: +0.0532 [-0.0148, +0.1213] n=1250 (8s)
+ML_Error
+q2_change|空間誤差モデル|pref=True|pop1man: +0.0488 [-0.0150, +0.1125] n=1250 (1s)
+ML_Lag
+q2_change|空間ラグモデル（直接効果）|pref=True|pop1man: +0.0528 [-0.0110, +0.1166] n=1250 (1s)
+q2_change|回帰|pref=False|all: +0.0537 [-0.0036, +0.1109] n=1611 (0s)
+q2_change|固定効果|pref=False|all: +0.0575 [-0.0052, +0.1201] n=1611 (0s)
+q2_change|マッチング|pref=False|all: +0.0661 [-0.0802, +0.2125] n=1611 (7s)
+q2_change|DML（RF）|pref=False|all: +0.0540 [-0.0106, +0.1185] n=1611 (29s)
+q2_change|DML（LightGBM）|pref=False|all: +0.0521 [-0.0106, +0.1147] n=1611 (8s)
+q2_change|DML（Lasso）|pref=False|all: +0.0455 [-0.0103, +0.1014] n=1611 (4s)
+ML_Error
+q2_change|空間誤差モデル|pref=False|all: +0.0562 [+0.0063, +0.1061] n=1611 (4s)
+ML_Lag
+q2_change|空間ラグモデル（直接効果）|pref=False|all: +0.0535 [+0.0033, +0.1037] n=1611 (3s)
+q2_change|回帰|pref=False|pop1man: +0.0612 [-0.0110, +0.1335] n=1250 (0s)
+q2_change|固定効果|pref=False|pop1man: +0.0468 [-0.0338, +0.1275] n=1250 (0s)
+q2_change|マッチング|pref=False|pop1man: +0.0139 [-0.1753, +0.2032] n=1250 (6s)
+q2_change|DML（RF）|pref=False|pop1man: +0.0219 [-0.0521, +0.0959] n=1250 (23s)
+q2_change|DML（LightGBM）|pref=False|pop1man: +0.0069 [-0.0686, +0.0825] n=1250 (7s)
+q2_change|DML（Lasso）|pref=False|pop1man: +0.0603 [-0.0097, +0.1303] n=1250 (4s)
+ML_Error
+q2_change|空間誤差モデル|pref=False|pop1man: +0.0481 [-0.0162, +0.1124] n=1250 (2s)
+ML_Lag
+q2_change|空間ラグモデル（直接効果）|pref=False|pop1man: +0.0573 [-0.0077, +0.1223] n=1250 (1s)
+rob|q1_level|dml_rf_rep10: -0.0033 [-0.0085, +0.0020] n=1610 (76s)
+rob|q1_level|match13: -0.0104 [-0.0311, +0.0104] n=1610 (7s)
+rob|q1_level|match_nocal: -0.0155 [-0.0401, +0.0091] n=1610 (7s)
+ML_Error
+rob|q1_level|sem_knn6: -0.0088 [-0.0124, -0.0051] n=1610 (3s)
+rob|q1_level|nobig|回帰: -0.0090 [-0.0131, -0.0049] n=1572 (0s)
+rob|q1_level|nobig|マッチング: -0.0180 [-0.0391, +0.0032] n=1572 (6s)
+rob|q1_level|nobig|DML（RF）: -0.0036 [-0.0090, +0.0019] n=1572 (22s)
+ML_Error
+rob|q1_level|nobig|空間誤差モデル: -0.0088 [-0.0125, -0.0052] n=1572 (3s)
+rob|q1_level|fac|回帰: -0.0022 [-0.0039, -0.0006] n=1610 (0s)
+rob|q1_level|fac|マッチング: -0.0118 [-0.0224, -0.0011] n=1610 (6s)
+rob|q1_level|fac|DML（RF）: -0.0031 [-0.0051, -0.0010] n=1610 (25s)
+ML_Error
+rob|q1_level|fac|空間誤差モデル: -0.0022 [-0.0038, -0.0006] n=1610 (3s)
+rob|q1_change|dml_rf_rep10: -0.0015 [-0.0055, +0.0026] n=1606 (102s)
+rob|q1_change|match13: -0.0003 [-0.0084, +0.0078] n=1606 (6s)
+rob|q1_change|match_nocal: -0.0007 [-0.0103, +0.0088] n=1606 (7s)
+ML_Error
+rob|q1_change|sem_knn6: -0.0042 [-0.0076, -0.0009] n=1606 (3s)
+rob|q1_change|nobig|回帰: -0.0045 [-0.0083, -0.0006] n=1568 (0s)
+rob|q1_change|nobig|マッチング: -0.0033 [-0.0117, +0.0052] n=1568 (7s)
+rob|q1_change|nobig|DML（RF）: -0.0014 [-0.0054, +0.0026] n=1568 (29s)
+ML_Error
+rob|q1_change|nobig|空間誤差モデル: -0.0044 [-0.0078, -0.0010] n=1568 (2s)
+rob|q1_change|nobig|固定効果: +0.0006 [-0.0035, +0.0048] n=1568 (0s)
+rob|q1_change|fac|回帰: -0.0015 [-0.0035, +0.0005] n=1606 (0s)
+rob|q1_change|fac|マッチング: +0.0016 [-0.0030, +0.0063] n=1606 (7s)
+rob|q1_change|fac|DML（RF）: -0.0008 [-0.0029, +0.0013] n=1606 (33s)
+ML_Error
+rob|q1_change|fac|空間誤差モデル: -0.0015 [-0.0032, +0.0003] n=1606 (3s)
+rob|q1_change|fac|固定効果: -0.0002 [-0.0034, +0.0030] n=1606 (0s)
+steps|q1_level|条件なし: +0.0154 [+0.0106, +0.0201] n=1610 (0s)
+steps|q1_level|人口・密度: +0.0121 [+0.0071, +0.0171] n=1610 (0s)
+steps|q1_level|＋年齢・世帯: +0.0099 [+0.0058, +0.0141] n=1610 (0s)
+steps|q1_level|＋産業・通勤・所得: +0.0079 [+0.0035, +0.0123] n=1610 (0s)
+steps|q1_level|＋財政・学歴・雇用: +0.0014 [-0.0043, +0.0072] n=1610 (0s)
+steps|q1_level|＋県: -0.0090 [-0.0130, -0.0049] n=1610 (0s)
+ML_Error
+steps|q1_level|＋空間（誤差）: -0.0088 [-0.0124, -0.0051] n=1610 (3s)
+steps|q1_change|条件なし: -0.0010 [-0.0055, +0.0034] n=1606 (0s)
+steps|q1_change|人口・密度: -0.0005 [-0.0049, +0.0039] n=1606 (0s)
+steps|q1_change|＋年齢・世帯: -0.0013 [-0.0053, +0.0028] n=1606 (0s)
+steps|q1_change|＋産業・通勤・所得: -0.0016 [-0.0056, +0.0025] n=1606 (0s)
+steps|q1_change|＋財政・学歴・雇用: -0.0015 [-0.0056, +0.0026] n=1606 (0s)
+steps|q1_change|＋前の出生率・在所児: -0.0027 [-0.0067, +0.0013] n=1606 (0s)
+steps|q1_change|＋県: -0.0043 [-0.0081, -0.0005] n=1606 (0s)
+ML_Error
+steps|q1_change|＋空間（誤差）: -0.0043 [-0.0076, -0.0009] n=1606 (2s)
+     q  design         method    coef      lo      hi
+0   q1   level             回帰 -0.0090 -0.0130 -0.0049
+1   q1   level          マッチング -0.0156 -0.0375  0.0064
+2   q1   level        DML（RF） -0.0033 -0.0086  0.0020
+3   q1   level  DML（LightGBM） -0.0037 -0.0085  0.0010
+4   q1   level     DML（Lasso） -0.0066 -0.0104 -0.0028
+5   q1   level        空間誤差モデル -0.0088 -0.0124 -0.0051
+6   q1   level  空間ラグモデル（直接効果） -0.0089 -0.0125 -0.0053
+28  q1  change             回帰 -0.0043 -0.0081 -0.0005
+29  q1  change           固定効果  0.0007 -0.0034  0.0048
+30  q1  change          マッチング -0.0002 -0.0096  0.0093
+31  q1  change        DML（RF） -0.0012 -0.0053  0.0028
+32  q1  change  DML（LightGBM） -0.0011 -0.0049  0.0028
+33  q1  change     DML（Lasso） -0.0028 -0.0067  0.0011
+34  q1  change        空間誤差モデル -0.0043 -0.0076 -0.0009
+35  q1  change  空間ラグモデル（直接効果） -0.0043 -0.0077 -0.0009
+60  q2   level             回帰  0.1718  0.0668  0.2767
+61  q2   level          マッチング  0.0464 -0.4124  0.5052
+62  q2   level        DML（RF）  0.1667  0.0413  0.2920
+63  q2   level  DML（LightGBM）  0.1388  0.0350  0.2427
+64  q2   level     DML（Lasso）  0.1947  0.0914  0.2981
+65  q2   level        空間誤差モデル  0.1749  0.1088  0.2410
+66  q2   level  空間ラグモデル（直接効果）  0.1686  0.0982  0.2390
+88  q2  change             回帰  0.0425 -0.0167  0.1018
+89  q2  change           固定効果  0.0594 -0.0060  0.1248
+90  q2  change          マッチング  0.0503 -0.1430  0.2437
+91  q2  change        DML（RF）  0.0634 -0.0010  0.1278
+92  q2  change  DML（LightGBM）  0.0607 -0.0014  0.1227
+93  q2  change     DML（Lasso）  0.0387 -0.0169  0.0944
+94  q2  change        空間誤差モデル  0.0440 -0.0054  0.0933
+95  q2  change  空間ラグモデル（直接効果）  0.0426 -0.0068  0.0920
