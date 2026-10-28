@@ -1,0 +1,8 @@
+numpy
+pandas
+scikit-learn
+lightgbm>=4.0
+optuna>=4.0
+torch
+scipy
+matplotlib
