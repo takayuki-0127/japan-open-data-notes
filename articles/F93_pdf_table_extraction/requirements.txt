@@ -1,0 +1,11 @@
+pandas==2.3.3
+numpy==2.5.3
+matplotlib==3.11.2
+pdfplumber==0.11.10
+camelot-py==1.0.9
+pypdfium2==5.13.0
+opencv-python-headless==5.0.0.93
+tabula-py==2.10.0
+pymupdf==2.0
+pypdf==5.9.0
+# 別途：Java（tabula 用）、Tesseract 5.3（OCR 用、英語 eng と tessdata_fast の日本語 jpn）
