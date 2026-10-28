@@ -1,0 +1,61 @@
+{
+ "kind_heterogeneity": {
+  "LR": 791.1479269010015,
+  "df": 94,
+  "p": 9.76879861258035e-111,
+  "llc_tau": 0.12728112434702377,
+  "llc_mean": 1.4858179744333477,
+  "llc_range_80": [
+   1.2621819834979104,
+   1.7490782486302785
+  ],
+  "oth_tau": 0.2812913736250501,
+  "oth_mean": 1.677583471421178,
+  "oth_range_80": [
+   1.1698216761006863,
+   2.4057395764508853
+  ]
+ },
+ "simulation": [
+  {
+   "true_theta": 0.0,
+   "theta_mean": 9.273096394342264e-06,
+   "theta_q10": 8.315287191035679e-07,
+   "theta_q90": 8.315287191035679e-07,
+   "reject": 0.0,
+   "cover_naive": 0.94,
+   "cover_robust": 0.79,
+   "cover_frailty": 0.94
+  },
+  {
+   "true_theta": 0.01,
+   "theta_mean": 0.009936444171001283,
+   "theta_q10": 0.006684098632252277,
+   "theta_q90": 0.013794625135438303,
+   "reject": 1.0,
+   "cover_naive": 0.2,
+   "cover_robust": 0.34,
+   "cover_frailty": 0.98
+  },
+  {
+   "true_theta": 0.027,
+   "theta_mean": 0.026786636603324303,
+   "theta_q10": 0.020346949292300992,
+   "theta_q90": 0.035173758987476926,
+   "reject": 1.0,
+   "cover_naive": 0.08,
+   "cover_robust": 0.27,
+   "cover_frailty": 0.97
+  },
+  {
+   "true_theta": 0.05,
+   "theta_mean": 0.05023027589886731,
+   "theta_q10": 0.03731799614586278,
+   "theta_q90": 0.0635877093418915,
+   "reject": 1.0,
+   "cover_naive": 0.07,
+   "cover_robust": 0.29,
+   "cover_frailty": 0.96
+  }
+ ]
+}
