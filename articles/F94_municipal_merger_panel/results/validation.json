@@ -1,0 +1,37 @@
+{
+ "old_units": 3252,
+ "old_units_by_type": {
+  "muni": 3217,
+  "ward23": 23,
+  "seirei": 12
+ },
+ "pref_total_max_abs_diff": 0.0,
+ "events": 700,
+ "events_by_kind": {
+  "新設合併": 460,
+  "編入合併": 203,
+  "市制・町制": 22,
+  "政令市移行": 8,
+  "コード変更": 6,
+  "分割編入": 1
+ },
+ "new_units": 1741,
+ "new_units_in_ssds2020": 1741,
+ "ssds2020_units": 1741,
+ "ssds_units_without_old": [],
+ "old_units_not_in_ssds": [],
+ "pop2000_total": 126925843,
+ "ratio_ssds2005_to_agg2000_median": 0.973745011552195,
+ "ratio_outside_0p8_1p2": 9,
+ "unchanged_units_2000": 1152,
+ "merged_old_units": 2100,
+ "splits": {
+  "19341": [
+   "19201",
+   "19430"
+  ]
+ },
+ "zero_pop_2000": [
+  "三宅村"
+ ]
+}
