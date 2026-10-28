@@ -1,0 +1,116 @@
+main random 1473
+main_random_0
+main_random_1
+main_random_2
+main_block_0
+main_block_1
+main_block_2
+knn6_random
+knn6_block
+layers1_random
+layers1_block
+layers3_random
+layers3_block
+aged_random
+aged_block
+kanto_adjacent_random
+kanto_adjacent_block
+kanto_knn6_random
+kanto_knn6_block
+kanto_commute_top6_random
+kanto_commute_top6_block
+kanto_commute_1pct_random
+kanto_commute_1pct_block
+            tag target         graph  scheme  layers    model    rmse  rmse_sd      r2   r2_sd  reps
+0    graph_knn6    tfr          knn6   block       2      gcn  0.1783   0.0137  0.2368  0.0774     2
+1    graph_knn6    tfr          knn6   block       2  lgbm_nx  0.1654   0.0128  0.3428  0.0676     2
+2    graph_knn6    tfr          knn6   block       2  lgbm_ny  0.2060   0.0011 -0.0202  0.0645     2
+3    graph_knn6    tfr          knn6   block       2     sage  0.1524   0.0092  0.4424  0.0385     2
+4    graph_knn6    tfr          knn6  random       2      gcn  0.1231   0.0004  0.6132  0.0027     2
+5    graph_knn6    tfr          knn6  random       2  lgbm_nx  0.1187   0.0006  0.6407  0.0036     2
+6    graph_knn6    tfr          knn6  random       2  lgbm_ny  0.0985   0.0002  0.7522  0.0008     2
+7    graph_knn6    tfr          knn6  random       2     sage  0.1066   0.0011  0.7098  0.0059     2
+8         kanto    tfr      adjacent   block       2      gcn  0.1608   0.0362 -0.7020  0.7858     4
+9         kanto    tfr      adjacent   block       2     lgbm  0.0974   0.0002  0.3985  0.0028     4
+10        kanto    tfr      adjacent   block       2  lgbm_nx  0.1002   0.0008  0.3633  0.0098     4
+11        kanto    tfr      adjacent   block       2  lgbm_ny  0.1032   0.0004  0.3241  0.0048     4
+12        kanto    tfr      adjacent   block       2      mlp  0.1011   0.0052  0.3507  0.0656     4
+13        kanto    tfr      adjacent   block       2     sage  0.1161   0.0070  0.1434  0.1032     4
+14        kanto    tfr      adjacent  random       2      gcn  0.1143   0.0028  0.1570  0.0413     4
+15        kanto    tfr      adjacent  random       2     lgbm  0.0953   0.0024  0.4135  0.0314     4
+16        kanto    tfr      adjacent  random       2  lgbm_nx  0.0936   0.0027  0.4347  0.0344     4
+17        kanto    tfr      adjacent  random       2  lgbm_ny  0.0931   0.0029  0.4406  0.0370     4
+18        kanto    tfr      adjacent  random       2      mlp  0.0951   0.0037  0.4165  0.0477     4
+19        kanto    tfr      adjacent  random       2     sage  0.0975   0.0022  0.3869  0.0256     4
+20        kanto    tfr  commute_1pct   block       2      gcn  0.2094   0.0784 -2.0724  2.1624     4
+21        kanto    tfr  commute_1pct   block       2     lgbm  0.0974   0.0002  0.3985  0.0028     4
+22        kanto    tfr  commute_1pct   block       2  lgbm_nx  0.1004   0.0004  0.3604  0.0051     4
+23        kanto    tfr  commute_1pct   block       2  lgbm_ny  0.1011   0.0005  0.3521  0.0059     4
+24        kanto    tfr  commute_1pct   block       2      mlp  0.1011   0.0052  0.3507  0.0656     4
+25        kanto    tfr  commute_1pct   block       2     sage  0.0993   0.0041  0.3739  0.0519     4
+26        kanto    tfr  commute_1pct  random       2      gcn  0.1811   0.0845 -1.4640  2.3330     4
+27        kanto    tfr  commute_1pct  random       2     lgbm  0.0953   0.0024  0.4135  0.0314     4
+28        kanto    tfr  commute_1pct  random       2  lgbm_nx  0.0965   0.0017  0.3992  0.0234     4
+29        kanto    tfr  commute_1pct  random       2  lgbm_ny  0.0967   0.0017  0.3970  0.0237     4
+30        kanto    tfr  commute_1pct  random       2      mlp  0.0951   0.0037  0.4165  0.0477     4
+31        kanto    tfr  commute_1pct  random       2     sage  0.0894   0.0019  0.4844  0.0198     4
+32        kanto    tfr  commute_top6   block       2      gcn  0.1367   0.0063 -0.1875  0.1099     4
+33        kanto    tfr  commute_top6   block       2     lgbm  0.0974   0.0002  0.3985  0.0028     4
+34        kanto    tfr  commute_top6   block       2  lgbm_nx  0.1019   0.0005  0.3416  0.0064     4
+35        kanto    tfr  commute_top6   block       2  lgbm_ny  0.1021   0.0003  0.3389  0.0045     4
+36        kanto    tfr  commute_top6   block       2      mlp  0.1011   0.0052  0.3507  0.0656     4
+37        kanto    tfr  commute_top6   block       2     sage  0.1040   0.0030  0.3136  0.0403     4
+38        kanto    tfr  commute_top6  random       2      gcn  0.1166   0.0024  0.1230  0.0328     4
+39        kanto    tfr  commute_top6  random       2     lgbm  0.0953   0.0024  0.4135  0.0314     4
+40        kanto    tfr  commute_top6  random       2  lgbm_nx  0.0948   0.0025  0.4205  0.0318     4
+41        kanto    tfr  commute_top6  random       2  lgbm_ny  0.0952   0.0026  0.4150  0.0337     4
+42        kanto    tfr  commute_top6  random       2      mlp  0.0951   0.0037  0.4165  0.0477     4
+43        kanto    tfr  commute_top6  random       2     sage  0.0909   0.0027  0.4667  0.0313     4
+44        kanto    tfr          knn6   block       2      gcn  0.1387   0.0194 -0.2378  0.3364     4
+45        kanto    tfr          knn6   block       2     lgbm  0.0974   0.0002  0.3985  0.0028     4
+46        kanto    tfr          knn6   block       2  lgbm_nx  0.0973   0.0003  0.3992  0.0041     4
+47        kanto    tfr          knn6   block       2  lgbm_ny  0.0991   0.0013  0.3774  0.0168     4
+48        kanto    tfr          knn6   block       2      mlp  0.1011   0.0052  0.3507  0.0656     4
+49        kanto    tfr          knn6   block       2     sage  0.1053   0.0069  0.2942  0.0915     4
+50        kanto    tfr          knn6  random       2      gcn  0.1138   0.0025  0.1637  0.0393     4
+51        kanto    tfr          knn6  random       2     lgbm  0.0953   0.0024  0.4135  0.0314     4
+52        kanto    tfr          knn6  random       2  lgbm_nx  0.0950   0.0023  0.4177  0.0301     4
+53        kanto    tfr          knn6  random       2  lgbm_ny  0.0951   0.0018  0.4164  0.0237     4
+54        kanto    tfr          knn6  random       2      mlp  0.0951   0.0037  0.4165  0.0477     4
+55        kanto    tfr          knn6  random       2     sage  0.0940   0.0043  0.4297  0.0544     4
+56      layers1    tfr      adjacent   block       1      gcn  0.1684   0.0080  0.3196  0.0294     2
+57      layers1    tfr      adjacent   block       1     sage  0.1644   0.0108  0.3513  0.0512     2
+58      layers1    tfr      adjacent  random       1      gcn  0.1522   0.0009  0.4093  0.0069     2
+59      layers1    tfr      adjacent  random       1     sage  0.1446   0.0008  0.4664  0.0057     2
+60      layers3    tfr      adjacent   block       3      gcn  0.1724   0.0181  0.2859  0.1125     2
+61      layers3    tfr      adjacent   block       3     sage  0.1513   0.0089  0.4507  0.0363     2
+62      layers3    tfr      adjacent  random       3      gcn  0.1227   0.0018  0.6160  0.0115     2
+63      layers3    tfr      adjacent  random       3     sage  0.1025   0.0007  0.7320  0.0039     2
+64         main    tfr      adjacent   block       2      gcn  0.1727   0.0145  0.2761  0.0954     3
+65         main    tfr      adjacent   block       2     lgbm  0.1674   0.0059  0.3212  0.0238     3
+66         main    tfr      adjacent   block       2  lgbm_nx  0.1589   0.0087  0.3884  0.0431     3
+67         main    tfr      adjacent   block       2  lgbm_ny  0.1950   0.0131  0.0773  0.0962     3
+68         main    tfr      adjacent   block       2      mlp  0.1567   0.0068  0.4052  0.0299     3
+69         main    tfr      adjacent   block       2    ridge  0.1678   0.0038  0.3178  0.0040     3
+70         main    tfr      adjacent   block       2     sage  0.1519   0.0189  0.4383  0.1183     3
+71         main    tfr      adjacent  random       2      gcn  0.1263   0.0015  0.5930  0.0095     3
+72         main    tfr      adjacent  random       2     lgbm  0.1403   0.0011  0.4973  0.0082     3
+73         main    tfr      adjacent  random       2  lgbm_nx  0.1233   0.0012  0.6119  0.0076     3
+74         main    tfr      adjacent  random       2  lgbm_ny  0.1014   0.0011  0.7376  0.0056     3
+75         main    tfr      adjacent  random       2      mlp  0.1359   0.0010  0.5286  0.0071     3
+76         main    tfr      adjacent  random       2    ridge  0.1563   0.0009  0.3764  0.0074     3
+77         main    tfr      adjacent  random       2     sage  0.1130   0.0009  0.6739  0.0054     3
+78  target_aged   aged      adjacent   block       2      gcn  4.7532   0.0772  0.6562  0.0040     2
+79  target_aged   aged      adjacent   block       2     lgbm  2.6923   0.0279  0.8896  0.0046     2
+80  target_aged   aged      adjacent   block       2  lgbm_nx  2.6830   0.0057  0.8904  0.0027     2
+81  target_aged   aged      adjacent   block       2  lgbm_ny  3.2925   0.0234  0.8350  0.0058     2
+82  target_aged   aged      adjacent   block       2      mlp  2.7574   0.0360  0.8842  0.0054     2
+83  target_aged   aged      adjacent   block       2    ridge  2.8334   0.0396  0.8778  0.0060     2
+84  target_aged   aged      adjacent   block       2     sage  2.8904   0.0135  0.8728  0.0038     2
+85  target_aged   aged      adjacent  random       2      gcn  4.4506   0.0171  0.6924  0.0026     2
+86  target_aged   aged      adjacent  random       2     lgbm  2.4043   0.0177  0.9102  0.0014     2
+87  target_aged   aged      adjacent  random       2  lgbm_nx  2.2876   0.0166  0.9187  0.0011     2
+88  target_aged   aged      adjacent  random       2  lgbm_ny  2.2611   0.0160  0.9206  0.0011     2
+89  target_aged   aged      adjacent  random       2      mlp  2.4660   0.0158  0.9056  0.0013     2
+90  target_aged   aged      adjacent  random       2    ridge  2.6833   0.0040  0.8882  0.0004     2
+91  target_aged   aged      adjacent  random       2     sage  2.2940   0.0076  0.9183  0.0006     2
