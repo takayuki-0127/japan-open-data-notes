@@ -1,0 +1,319 @@
+{
+ "rate_per_10k": 612.107505783132,
+ "p_notrans": 0.12697832964948602,
+ "teams_per_100k": 4.349889056020147,
+ "fit": {
+  "lognorm_mu": 3.739732373829177,
+  "lognorm_sigma": 0.37389791673989975,
+  "lognorm_mean": 45.13383558393812,
+  "lognorm_median": 42.08672514856354,
+  "gamma_k": 7.424849043903323,
+  "gamma_theta": 6.105613866295068,
+  "gamma_mean": 45.3332612776038,
+  "published_mean": 44.6,
+  "bin_share_obs": [
+   0.0001,
+   0.0142,
+   0.1736,
+   0.6493,
+   0.1543,
+   0.0086
+  ],
+  "bin_share_lognorm": [
+   0.0001,
+   0.0232,
+   0.1593,
+   0.6459,
+   0.1689,
+   0.0025
+  ]
+ },
+ "factor": {
+  "hour_peak": 1.5652254071842169,
+  "hour_low": 0.4030383627421493,
+  "month_peak": 1.1578854379353716,
+  "month_low": 0.9081028661454865,
+  "weekday_max": 1.0711204941969688,
+  "weekday_min": 0.9640878008079415,
+  "combined_max": 1.9412470550591345,
+  "share_time_above_1_5": 0.10528883684621392
+ },
+ "S_base_min": 60.20654979412778,
+ "pref": {
+  "per_team_per_day_min": 1.4176094820287846,
+  "per_team_per_day_med": 2.781609195402299,
+  "per_team_per_day_max": 8.68843228474376,
+  "util_min": 0.05927039990860675,
+  "util_med": 0.11629936981305015,
+  "util_max": 0.3632642576280088,
+  "teams_per_100k_min": 2.108329682931433,
+  "teams_per_100k_max": 10.579235493782091,
+  "corr_teamsper100k_vs_util": -0.8500191531310604
+ },
+ "seed_spread_c4": {
+  "mean": 0.013287226549525164,
+  "min": 0.012590664243495916,
+  "max": 0.014487072696686103
+ },
+ "seed_spread_c5": {
+  "mean": 0.0025376605216614464,
+  "min": 0.0021612063460877255,
+  "max": 0.0029583381004527403
+ },
+ "grid_100k": {
+  "1": {
+   "util": 0.69924,
+   "psa": 0.79217,
+   "stationary": 0.69924,
+   "per_year_psa": 4848.94408
+  },
+  "2": {
+   "util": 0.34962,
+   "psa": 0.25122,
+   "stationary": 0.18114,
+   "per_year_psa": 1537.75123
+  },
+  "3": {
+   "util": 0.23308,
+   "psa": 0.06494,
+   "stationary": 0.03682,
+   "per_year_psa": 397.47254
+  },
+  "4": {
+   "util": 0.17481,
+   "psa": 0.01424,
+   "stationary": 0.006,
+   "per_year_psa": 87.18276
+  },
+  "5": {
+   "util": 0.13985,
+   "psa": 0.00268,
+   "stationary": 0.0008,
+   "per_year_psa": 16.43507
+  },
+  "6": {
+   "util": 0.11654,
+   "psa": 0.00044,
+   "stationary": 9e-05,
+   "per_year_psa": 2.70437
+  },
+  "7": {
+   "util": 0.09989,
+   "psa": 6e-05,
+   "stationary": 1e-05,
+   "per_year_psa": 0.39438
+  },
+  "8": {
+   "util": 0.08741,
+   "psa": 1e-05,
+   "stationary": 0.0,
+   "per_year_psa": 0.05166
+  },
+  "9": {
+   "util": 0.07769,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.00615
+  },
+  "10": {
+   "util": 0.06992,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.00067
+  },
+  "11": {
+   "util": 0.06357,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 7e-05
+  },
+  "12": {
+   "util": 0.05827,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 1e-05
+  },
+  "13": {
+   "util": 0.05379,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.0
+  },
+  "14": {
+   "util": 0.04995,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.0
+  },
+  "15": {
+   "util": 0.04662,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.0
+  },
+  "16": {
+   "util": 0.0437,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.0
+  },
+  "17": {
+   "util": 0.04113,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.0
+  },
+  "18": {
+   "util": 0.03885,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.0
+  },
+  "19": {
+   "util": 0.0368,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.0
+  },
+  "20": {
+   "util": 0.03496,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.0
+  },
+  "21": {
+   "util": 0.0333,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.0
+  },
+  "22": {
+   "util": 0.03178,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.0
+  },
+  "23": {
+   "util": 0.0304,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.0
+  },
+  "24": {
+   "util": 0.02914,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.0
+  },
+  "25": {
+   "util": 0.02797,
+   "psa": 0.0,
+   "stationary": 0.0,
+   "per_year_psa": 0.0
+  }
+ },
+ "eq_100k": [
+  {
+   "c": 3,
+   "p_base": 0.06494,
+   "p_minus1": 0.25122,
+   "p_plus1": 0.01424,
+   "p_plus10min": 0.09439,
+   "p_2019_hosp": 0.05366,
+   "p_2022_hosp": 0.07112,
+   "dS_equiv_minus1team": 47.21806
+  },
+  {
+   "c": 4,
+   "p_base": 0.01424,
+   "p_minus1": 0.06494,
+   "p_plus1": 0.00268,
+   "p_plus10min": 0.02357,
+   "p_2019_hosp": 0.01101,
+   "p_2022_hosp": 0.0161,
+   "dS_equiv_minus1team": 36.91184
+  },
+  {
+   "c": 5,
+   "p_base": 0.00268,
+   "p_minus1": 0.01424,
+   "p_plus1": 0.00044,
+   "p_plus10min": 0.0051,
+   "p_2019_hosp": 0.00194,
+   "p_2022_hosp": 0.00314,
+   "dS_equiv_minus1team": 30.49989
+  }
+ ],
+ "trend": [
+  {
+   "year": 2015,
+   "per_team_per_day": 3.2725,
+   "util_R10": 0.1081,
+   "util_R20": 0.1286,
+   "util_R30": 0.1492
+  },
+  {
+   "year": 2016,
+   "per_team_per_day": 3.3426,
+   "util_R10": 0.1102,
+   "util_R20": 0.1312,
+   "util_R30": 0.1522
+  },
+  {
+   "year": 2017,
+   "per_team_per_day": 3.3805,
+   "util_R10": 0.1114,
+   "util_R20": 0.1326,
+   "util_R30": 0.1539
+  },
+  {
+   "year": 2018,
+   "per_team_per_day": 3.4942,
+   "util_R10": 0.1155,
+   "util_R20": 0.1374,
+   "util_R30": 0.1593
+  },
+  {
+   "year": 2019,
+   "per_team_per_day": 3.4882,
+   "util_R10": 0.1152,
+   "util_R20": 0.137,
+   "util_R30": 0.1588
+  },
+  {
+   "year": 2020,
+   "per_team_per_day": 3.0845,
+   "util_R10": 0.1036,
+   "util_R20": 0.1227,
+   "util_R30": 0.1419
+  },
+  {
+   "year": 2021,
+   "per_team_per_day": 3.2004,
+   "util_R10": 0.1116,
+   "util_R20": 0.1313,
+   "util_R30": 0.151
+  },
+  {
+   "year": 2022,
+   "per_team_per_day": 3.7175,
+   "util_R10": 0.1378,
+   "util_R20": 0.16,
+   "util_R30": 0.1822
+  },
+  {
+   "year": 2023,
+   "per_team_per_day": 3.9051,
+   "util_R10": 0.1417,
+   "util_R20": 0.1653,
+   "util_R30": 0.1889
+  },
+  {
+   "year": 2024,
+   "per_team_per_day": 3.9051,
+   "util_R10": 0.1399,
+   "util_R20": 0.1636,
+   "util_R30": 0.1874
+  }
+ ]
+}
