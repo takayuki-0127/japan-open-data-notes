@@ -1,0 +1,447 @@
+{
+ "地価": {
+  "accuracy": {
+   "rmse": 0.25277765803682817,
+   "n_train": 20487,
+   "n_test": 5078,
+   "median_abs_pct": 13.816992075510425
+  },
+  "compare": {
+   "SHAP×並べ替え重要度": {
+    "spearman": 0.941,
+    "kendall": 0.83,
+    "top5_overlap": 4
+   },
+   "SHAP×部分依存（PDP）": {
+    "spearman": 0.742,
+    "kendall": 0.609,
+    "top5_overlap": 3
+   },
+   "SHAP×ALE": {
+    "spearman": 0.701,
+    "kendall": 0.586,
+    "top5_overlap": 4
+   },
+   "並べ替え重要度×部分依存（PDP）": {
+    "spearman": 0.814,
+    "kendall": 0.687,
+    "top5_overlap": 3
+   },
+   "並べ替え重要度×ALE": {
+    "spearman": 0.798,
+    "kendall": 0.664,
+    "top5_overlap": 4
+   },
+   "部分依存（PDP）×ALE": {
+    "spearman": 0.951,
+    "kendall": 0.839,
+    "top5_overlap": 4
+   }
+  },
+  "top5": {
+   "SHAP": [
+    "log_pass_3km",
+    "log_pass_10km",
+    "log_pass_1km",
+    "lat",
+    "planning_area"
+   ],
+   "並べ替え重要度": [
+    "log_pass_3km",
+    "log_pass_10km",
+    "lat",
+    "log_pass_1km",
+    "muni_pop_change"
+   ],
+   "部分依存（PDP）": [
+    "log_pass_3km",
+    "log_pass_10km",
+    "lat",
+    "frontage_ratio",
+    "use_district"
+   ],
+   "ALE": [
+    "log_pass_3km",
+    "log_pass_10km",
+    "lat",
+    "log_pass_1km",
+    "frontage_ratio"
+   ]
+  },
+  "drop": {
+   "keep": "log_pass_3km",
+   "dropped": [
+    "log_pass_1km",
+    "log_pass_10km",
+    "log_pass_nearest",
+    "log_muni_density"
+   ],
+   "rmse_after": 0.2746861421955725,
+   "keep_share_before": {
+    "SHAP": 0.3119,
+    "並べ替え重要度": 0.3502,
+    "部分依存（PDP）": 0.2088,
+    "ALE": 0.1448
+   },
+   "group_share_before": {
+    "SHAP": 0.5486,
+    "並べ替え重要度": 0.6087,
+    "部分依存（PDP）": 0.4126,
+    "ALE": 0.388
+   },
+   "keep_share_after": {
+    "SHAP": 0.3637,
+    "並べ替え重要度": 0.4542,
+    "部分依存（PDP）": 0.258,
+    "ALE": 0.2134
+   },
+   "keep_ratio_after_before": {
+    "SHAP": 1.14,
+    "並べ替え重要度": 1.3,
+    "部分依存（PDP）": 1.24,
+    "ALE": 1.43
+   }
+  },
+  "group_perm": {
+   "乗降客数（4つ）": {
+    "group": 1.0459,
+    "sum_individual": 0.8227,
+    "max_individual": 0.496
+   },
+   "駅までの距離（2つ）": {
+    "group": 0.0545,
+    "sum_individual": 0.0401,
+    "max_individual": 0.0303
+   },
+   "市区町村の人口（3つ）": {
+    "group": 0.1081,
+    "sum_individual": 0.116,
+    "max_individual": 0.0527
+   },
+   "容積率・建ぺい率": {
+    "group": 0.0518,
+    "sum_individual": 0.0491,
+    "max_individual": 0.046
+   },
+   "緯度・経度": {
+    "group": 0.1228,
+    "sum_individual": 0.1346,
+    "max_individual": 0.0887
+   }
+  },
+  "unrealistic": {
+   "perm_far_below_coverage": 0.0069,
+   "original_far_below_coverage": 0.0
+  },
+  "robust": [
+   {
+    "setting": "葉の数15・学習率0.1・別の乱数",
+    "method": "SHAP",
+    "spearman_vs_base": 0.983,
+    "top5_overlap": 4
+   },
+   {
+    "setting": "葉の数15・学習率0.1・別の乱数",
+    "method": "並べ替え重要度",
+    "spearman_vs_base": 0.988,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "葉の数15・学習率0.1・別の乱数",
+    "method": "部分依存（PDP）",
+    "spearman_vs_base": 0.939,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "葉の数15・学習率0.1・別の乱数",
+    "method": "ALE",
+    "spearman_vs_base": 0.941,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "葉の数15・学習率0.1・別の乱数",
+    "method": "手法どうし（平均）",
+    "spearman_vs_base": 0.856,
+    "top5_overlap": NaN
+   },
+   {
+    "setting": "ランダムフォレスト型（LightGBM rf）",
+    "method": "SHAP",
+    "spearman_vs_base": 0.805,
+    "top5_overlap": 4
+   },
+   {
+    "setting": "ランダムフォレスト型（LightGBM rf）",
+    "method": "並べ替え重要度",
+    "spearman_vs_base": 0.795,
+    "top5_overlap": 3
+   },
+   {
+    "setting": "ランダムフォレスト型（LightGBM rf）",
+    "method": "部分依存（PDP）",
+    "spearman_vs_base": 0.657,
+    "top5_overlap": 2
+   },
+   {
+    "setting": "ランダムフォレスト型（LightGBM rf）",
+    "method": "ALE",
+    "spearman_vs_base": 0.673,
+    "top5_overlap": 3
+   },
+   {
+    "setting": "ランダムフォレスト型（LightGBM rf）",
+    "method": "手法どうし（平均）",
+    "spearman_vs_base": 0.969,
+    "top5_overlap": NaN
+   },
+   {
+    "setting": "SHAP の点数1000",
+    "method": "SHAP",
+    "spearman_vs_base": 0.999,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "並べ替え20回",
+    "method": "並べ替え重要度",
+    "spearman_vs_base": 0.998,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "並べ替えを学習データで",
+    "method": "並べ替え重要度",
+    "spearman_vs_base": 0.983,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "PDP の点数1000・区切り10",
+    "method": "部分依存（PDP）",
+    "spearman_vs_base": 0.98,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "ALE の点数1000・区切り10",
+    "method": "ALE",
+    "spearman_vs_base": 0.966,
+    "top5_overlap": 5
+   }
+  ]
+ },
+ "電力需要": {
+  "accuracy": {
+   "rmse": 1026.4774125865074,
+   "n_train": 61176,
+   "n_test": 20000,
+   "mape": 2.259220185927695
+  },
+  "compare": {
+   "SHAP×並べ替え重要度": {
+    "spearman": 0.843,
+    "kendall": 0.739,
+    "top5_overlap": 5
+   },
+   "SHAP×部分依存（PDP）": {
+    "spearman": 0.801,
+    "kendall": 0.692,
+    "top5_overlap": 4
+   },
+   "SHAP×ALE": {
+    "spearman": 0.788,
+    "kendall": 0.652,
+    "top5_overlap": 4
+   },
+   "並べ替え重要度×部分依存（PDP）": {
+    "spearman": 0.896,
+    "kendall": 0.747,
+    "top5_overlap": 4
+   },
+   "並べ替え重要度×ALE": {
+    "spearman": 0.889,
+    "kendall": 0.739,
+    "top5_overlap": 4
+   },
+   "部分依存（PDP）×ALE": {
+    "spearman": 0.986,
+    "kendall": 0.929,
+    "top5_overlap": 5
+   }
+  },
+  "top5": {
+   "SHAP": [
+    "lag24",
+    "lag168",
+    "hour",
+    "daytype",
+    "temp_max"
+   ],
+   "並べ替え重要度": [
+    "lag24",
+    "hour",
+    "daytype",
+    "temp_max",
+    "lag168"
+   ],
+   "部分依存（PDP）": [
+    "lag24",
+    "hour",
+    "lag168",
+    "daytype",
+    "temp_mean"
+   ],
+   "ALE": [
+    "lag24",
+    "hour",
+    "temp_mean",
+    "lag168",
+    "daytype"
+   ]
+  },
+  "drop": {
+   "keep": "temp_mean",
+   "dropped": [
+    "temp_max",
+    "temp_min",
+    "cdd",
+    "hdd",
+    "cdd_max"
+   ],
+   "rmse_after": 1059.0451672666068,
+   "keep_share_before": {
+    "SHAP": 0.0503,
+    "並べ替え重要度": 0.0601,
+    "部分依存（PDP）": 0.0595,
+    "ALE": 0.089
+   },
+   "group_share_before": {
+    "SHAP": 0.1506,
+    "並べ替え重要度": 0.1515,
+    "部分依存（PDP）": 0.1558,
+    "ALE": 0.206
+   },
+   "keep_share_after": {
+    "SHAP": 0.1353,
+    "並べ替え重要度": 0.207,
+    "部分依存（PDP）": 0.146,
+    "ALE": 0.1693
+   },
+   "keep_ratio_after_before": {
+    "SHAP": 2.67,
+    "並べ替え重要度": 3.67,
+    "部分依存（PDP）": 2.46,
+    "ALE": 1.87
+   }
+  },
+  "group_perm": {
+   "気温（6つ）": {
+    "group": 2338.0783,
+    "sum_individual": 1548.3779,
+    "max_individual": 667.8773
+   },
+   "過去の需要（3つ）": {
+    "group": 5380.3122,
+    "sum_individual": 4886.1308,
+    "max_individual": 4043.0855
+   },
+   "季節（3つ）": {
+    "group": 202.0924,
+    "sum_individual": 189.1606,
+    "max_individual": 148.6484
+   }
+  },
+  "unrealistic": {
+   "perm_out_of_range": 0.6894,
+   "pdp_grid_out_of_range": 0.7129
+  },
+  "robust": [
+   {
+    "setting": "葉の数15・学習率0.1・別の乱数",
+    "method": "SHAP",
+    "spearman_vs_base": 0.982,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "葉の数15・学習率0.1・別の乱数",
+    "method": "並べ替え重要度",
+    "spearman_vs_base": 0.973,
+    "top5_overlap": 4
+   },
+   {
+    "setting": "葉の数15・学習率0.1・別の乱数",
+    "method": "部分依存（PDP）",
+    "spearman_vs_base": 0.973,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "葉の数15・学習率0.1・別の乱数",
+    "method": "ALE",
+    "spearman_vs_base": 0.977,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "葉の数15・学習率0.1・別の乱数",
+    "method": "手法どうし（平均）",
+    "spearman_vs_base": 0.843,
+    "top5_overlap": NaN
+   },
+   {
+    "setting": "ランダムフォレスト型（LightGBM rf）",
+    "method": "SHAP",
+    "spearman_vs_base": 0.741,
+    "top5_overlap": 4
+   },
+   {
+    "setting": "ランダムフォレスト型（LightGBM rf）",
+    "method": "並べ替え重要度",
+    "spearman_vs_base": 0.849,
+    "top5_overlap": 3
+   },
+   {
+    "setting": "ランダムフォレスト型（LightGBM rf）",
+    "method": "部分依存（PDP）",
+    "spearman_vs_base": 0.795,
+    "top5_overlap": 4
+   },
+   {
+    "setting": "ランダムフォレスト型（LightGBM rf）",
+    "method": "ALE",
+    "spearman_vs_base": 0.793,
+    "top5_overlap": 4
+   },
+   {
+    "setting": "ランダムフォレスト型（LightGBM rf）",
+    "method": "手法どうし（平均）",
+    "spearman_vs_base": 0.959,
+    "top5_overlap": NaN
+   },
+   {
+    "setting": "SHAP の点数1000",
+    "method": "SHAP",
+    "spearman_vs_base": 0.997,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "並べ替え20回",
+    "method": "並べ替え重要度",
+    "spearman_vs_base": 0.999,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "並べ替えを学習データで",
+    "method": "並べ替え重要度",
+    "spearman_vs_base": 0.939,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "PDP の点数1000・区切り10",
+    "method": "部分依存（PDP）",
+    "spearman_vs_base": 0.992,
+    "top5_overlap": 5
+   },
+   {
+    "setting": "ALE の点数1000・区切り10",
+    "method": "ALE",
+    "spearman_vs_base": 0.986,
+    "top5_overlap": 5
+   }
+  ]
+ }
+}
