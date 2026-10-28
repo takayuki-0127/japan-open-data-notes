@@ -1,0 +1,183 @@
+{
+ "emp_main": {
+  "k": 3,
+  "fe": -0.02698,
+  "fe_se": 0.09957,
+  "fe_lo": -0.22214,
+  "fe_hi": 0.16818,
+  "Q": 0.34193,
+  "Q_p": 0.84285,
+  "I2": 0.0,
+  "tau2_dl": 0.0,
+  "tau2_reml": 1e-05,
+  "re_dl": -0.02698,
+  "re_dl_se": 0.09957,
+  "re_dl_lo": -0.22214,
+  "re_dl_hi": 0.16818,
+  "re_dl_hk_lo": -0.45541,
+  "re_dl_hk_hi": 0.40145,
+  "re_reml": -0.02698,
+  "re_reml_se": 0.09959,
+  "re_reml_lo": -0.22218,
+  "re_reml_hi": 0.16822,
+  "re_reml_hk_lo": -0.45549,
+  "re_reml_hk_hi": 0.40153,
+  "mde80_fe": 0.2788,
+  "weights_fe": [
+   0.73794,
+   0.01166,
+   0.2504
+  ]
+ },
+ "emp_main_inputs": [
+  {
+   "study": "F01",
+   "spec": "基本（2008–2019）",
+   "est": -0.00141,
+   "se": 0.11591,
+   "lo": -0.2286,
+   "hi": 0.22578
+  },
+  {
+   "study": "F15",
+   "spec": "全産業",
+   "est": 0.25729,
+   "se": 0.92214,
+   "lo": -1.55011,
+   "hi": 2.06468
+  },
+  {
+   "study": "F17",
+   "spec": "因果フォレストの平均効果（2010–25年）",
+   "est": -0.11557,
+   "se": 0.19899,
+   "lo": -0.50558,
+   "hi": 0.27444
+  }
+ ],
+ "power_fe": {
+  "-0.1": 0.17113,
+  "-0.2": 0.51941,
+  "-0.3": 0.8538
+ },
+ "overlap_ref_band": true,
+ "spec_curve": {
+  "n": 180,
+  "fe_min": -0.20626,
+  "fe_max": 0.0664,
+  "fe_median": -0.06059,
+  "share_fe_ci_below0": 0.2,
+  "share_fe_ci_above0": 0.0,
+  "share_re_hk_excl0": 0.0,
+  "share_I2_ge50": 0.27778,
+  "mde80_min": 0.16534,
+  "mde80_max": 0.36575
+ },
+ "unemp_main": {
+  "k": 2,
+  "fe": 0.277,
+  "fe_se": 0.21012,
+  "fe_lo": -0.13484,
+  "fe_hi": 0.68885,
+  "Q": 0.07372,
+  "Q_p": 0.786,
+  "I2": 0.0,
+  "tau2_dl": 0.0,
+  "tau2_reml": 1e-05,
+  "re_dl": 0.277,
+  "re_dl_se": 0.21012,
+  "re_dl_lo": -0.13484,
+  "re_dl_hi": 0.68885,
+  "re_dl_hk_lo": -2.39287,
+  "re_dl_hk_hi": 2.94688,
+  "re_reml": 0.27701,
+  "re_reml_se": 0.21013,
+  "re_reml_lo": -0.13486,
+  "re_reml_hi": 0.68887,
+  "re_reml_hk_lo": -2.39301,
+  "re_reml_hk_hi": 2.94702,
+  "mde80_fe": 0.58835,
+  "weights_fe": [
+   0.81796,
+   0.18204
+  ]
+ },
+ "unemp_inputs": [
+  {
+   "study": "F01",
+   "spec": "基本（2008–2019）",
+   "est": 0.25009,
+   "se": 0.23233,
+   "lo": -0.20528,
+   "hi": 0.70546
+  },
+  {
+   "study": "F17",
+   "spec": "因果フォレストの平均効果（失業率）",
+   "est": 0.39794,
+   "se": 0.49249,
+   "lo": -0.56733,
+   "hi": 1.36321
+  }
+ ],
+ "f01_first_stage": [
+  {
+   "period": "2015→2019",
+   "group": "bite上位半分",
+   "mw_growth_pct": 11.7551
+  },
+  {
+   "period": "2015→2019",
+   "group": "bite下位半分",
+   "mw_growth_pct": 11.8709
+  },
+  {
+   "period": "2015→2019",
+   "group": "相関（bite と上昇率）",
+   "mw_growth_pct": -0.2893
+  },
+  {
+   "period": "2019→2025",
+   "group": "bite上位半分",
+   "mw_growth_pct": 21.4149
+  },
+  {
+   "period": "2019→2025",
+   "group": "bite下位半分",
+   "mw_growth_pct": 21.0866
+  },
+  {
+   "period": "2019→2025",
+   "group": "相関（bite と上昇率）",
+   "mw_growth_pct": -0.0559
+  },
+  {
+   "period": "2015→2025",
+   "group": "bite上位半分",
+   "mw_growth_pct": 33.1699
+  },
+  {
+   "period": "2015→2025",
+   "group": "bite下位半分",
+   "mw_growth_pct": 32.9575
+  },
+  {
+   "period": "2015→2025",
+   "group": "相関（bite と上昇率）",
+   "mw_growth_pct": -0.0985
+  }
+ ],
+ "constants": {
+  "emp_rate_mean_2008_19": 57.31103,
+  "emp_rate_mean_2008_25": 58.3375,
+  "bite_2015": 0.73016,
+  "f17_unit_pct_of_mw": 1.36956
+ },
+ "egger_all_specs": {
+  "n": 17,
+  "intercept": 1.14139,
+  "intercept_se": 0.37537,
+  "intercept_p": 0.00826,
+  "note": "推定値は互いに独立でないため参考値"
+ }
+}
