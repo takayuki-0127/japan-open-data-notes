@@ -1,0 +1,23 @@
+{
+ "計": {
+  "shoteinai": 340.6,
+  "kimatte": 370.5,
+  "workers": 28923710.0,
+  "tenure": 12.7,
+  "age": 44.4
+ },
+ "男": {
+  "shoteinai": 373.4,
+  "kimatte": 410.0,
+  "workers": 18069970.0,
+  "tenure": 14.2,
+  "age": 45.2
+ },
+ "女": {
+  "shoteinai": 285.9,
+  "kimatte": 304.7,
+  "workers": 10853740.0,
+  "tenure": 10.4,
+  "age": 43.2
+ }
+}
