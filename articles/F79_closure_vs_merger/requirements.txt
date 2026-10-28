@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+lifelines
+pyarrow
+statsmodels
