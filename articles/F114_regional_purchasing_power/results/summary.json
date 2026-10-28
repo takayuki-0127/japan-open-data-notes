@@ -1,0 +1,393 @@
+{
+ "rebuild": {
+  "year": 2019.0,
+  "mae_national_w": 0.071,
+  "mae_own_w": 0.17,
+  "max_national_w": 0.353
+ },
+ "main_2024": {
+  "sd_nom": 0.1075,
+  "sd_real": 0.1013,
+  "shrink": 0.0577,
+  "beta": 0.0669,
+  "maxmin_nom": 1.7805,
+  "maxmin_real": 1.7028,
+  "rho": 0.986,
+  "shrink_ci": [
+   -0.022,
+   0.096
+  ],
+  "beta_ci": [
+   -0.007,
+   0.104
+  ]
+ },
+ "main_2024_ex_rent": {
+  "sd_nom": 0.1075,
+  "sd_real": 0.105,
+  "shrink": 0.0228,
+  "beta": 0.0304,
+  "maxmin_nom": 1.7805,
+  "maxmin_real": 1.7414,
+  "rho": 0.9875
+ },
+ "tokyo_2024": {
+  "nom_ratio": 1.58,
+  "real_ratio": 1.504,
+  "real_xr_ratio": 1.54,
+  "price": 104.0,
+  "price_xr": 102.2,
+  "housing": 127.2
+ },
+ "area_2024": {
+  "名古屋圏・大阪圏": {
+   "n": 7.0,
+   "nom_rel": 1.007,
+   "price": 98.864,
+   "real_rel": 1.021,
+   "price_xr": 99.052,
+   "real_xr_rel": 1.018
+  },
+  "地方圏": {
+   "n": 36.0,
+   "nom_rel": 0.87,
+   "price": 98.783,
+   "real_rel": 0.883,
+   "price_xr": 99.419,
+   "real_xr_rel": 0.877
+  },
+  "東京圏": {
+   "n": 4.0,
+   "nom_rel": 1.185,
+   "price": 102.648,
+   "real_rel": 1.155,
+   "price_xr": 101.685,
+   "real_xr_rel": 1.166
+  }
+ },
+ "rank_2024": {
+  "moved5": 1,
+  "moved10": 0,
+  "max_move": 8,
+  "median_move": 1.0,
+  "tokyo_rank_nom": 1,
+  "tokyo_rank_real": 1,
+  "tokyo_rank_xr": 1
+ },
+ "elasticity_note": "所得（対数）に対する地域差指数（対数）の傾き＝beta",
+ "by_year": [
+  {
+   "sd_nom": 0.102,
+   "sd_real": 0.092,
+   "shrink": 0.092,
+   "beta": 0.101,
+   "maxmin_nom": 1.615,
+   "maxmin_real": 1.528,
+   "rho": 0.992,
+   "year": 2013,
+   "price": "総合",
+   "tokyo_nom": 1.445,
+   "tokyo_real": 1.357
+  },
+  {
+   "sd_nom": 0.102,
+   "sd_real": 0.097,
+   "shrink": 0.051,
+   "beta": 0.057,
+   "maxmin_nom": 1.615,
+   "maxmin_real": 1.569,
+   "rho": 0.994,
+   "year": 2013,
+   "price": "家賃を除く総合",
+   "tokyo_nom": 1.445,
+   "tokyo_real": 1.392
+  },
+  {
+   "sd_nom": 0.103,
+   "sd_real": 0.096,
+   "shrink": 0.072,
+   "beta": 0.081,
+   "maxmin_nom": 1.662,
+   "maxmin_real": 1.579,
+   "rho": 0.989,
+   "year": 2015,
+   "price": "総合",
+   "tokyo_nom": 1.468,
+   "tokyo_real": 1.4
+  },
+  {
+   "sd_nom": 0.103,
+   "sd_real": 0.1,
+   "shrink": 0.033,
+   "beta": 0.039,
+   "maxmin_nom": 1.662,
+   "maxmin_real": 1.618,
+   "rho": 0.991,
+   "year": 2015,
+   "price": "家賃を除く総合",
+   "tokyo_nom": 1.468,
+   "tokyo_real": 1.436
+  },
+  {
+   "sd_nom": 0.102,
+   "sd_real": 0.094,
+   "shrink": 0.077,
+   "beta": 0.088,
+   "maxmin_nom": 1.69,
+   "maxmin_real": 1.593,
+   "rho": 0.987,
+   "year": 2017,
+   "price": "総合",
+   "tokyo_nom": 1.498,
+   "tokyo_real": 1.416
+  },
+  {
+   "sd_nom": 0.102,
+   "sd_real": 0.098,
+   "shrink": 0.039,
+   "beta": 0.048,
+   "maxmin_nom": 1.69,
+   "maxmin_real": 1.631,
+   "rho": 0.988,
+   "year": 2017,
+   "price": "家賃を除く総合",
+   "tokyo_nom": 1.498,
+   "tokyo_real": 1.45
+  },
+  {
+   "sd_nom": 0.104,
+   "sd_real": 0.095,
+   "shrink": 0.084,
+   "beta": 0.093,
+   "maxmin_nom": 1.709,
+   "maxmin_real": 1.59,
+   "rho": 0.991,
+   "year": 2020,
+   "price": "総合",
+   "tokyo_nom": 1.513,
+   "tokyo_real": 1.422
+  },
+  {
+   "sd_nom": 0.104,
+   "sd_real": 0.099,
+   "shrink": 0.049,
+   "beta": 0.055,
+   "maxmin_nom": 1.709,
+   "maxmin_real": 1.624,
+   "rho": 0.991,
+   "year": 2020,
+   "price": "家賃を除く総合",
+   "tokyo_nom": 1.513,
+   "tokyo_real": 1.454
+  },
+  {
+   "sd_nom": 0.107,
+   "sd_real": 0.101,
+   "shrink": 0.058,
+   "beta": 0.067,
+   "maxmin_nom": 1.781,
+   "maxmin_real": 1.703,
+   "rho": 0.986,
+   "year": 2024,
+   "price": "総合",
+   "tokyo_nom": 1.58,
+   "tokyo_real": 1.504
+  },
+  {
+   "sd_nom": 0.107,
+   "sd_real": 0.105,
+   "shrink": 0.023,
+   "beta": 0.03,
+   "maxmin_nom": 1.781,
+   "maxmin_real": 1.741,
+   "rho": 0.988,
+   "year": 2024,
+   "price": "家賃を除く総合",
+   "tokyo_nom": 1.58,
+   "tokyo_real": 1.54
+  }
+ ],
+ "kenmin": {
+  "shrink_range": [
+   0.033,
+   0.064
+  ],
+  "beta_range": [
+   0.038,
+   0.07
+  ],
+  "tokyo_nom_range": [
+   1.853,
+   2.064
+  ],
+  "tokyo_real_range": [
+   1.745,
+   1.954
+  ]
+ },
+ "household": [
+  {
+   "type": "公式のウエイト（全国）",
+   "housing_share": 0.072,
+   "shrink": 0.06,
+   "beta": 0.069,
+   "price_tokyo": 104.02,
+   "price_sd": 1.599,
+   "price_min": 96.291,
+   "price_max": 104.02,
+   "tokyo_real": 1.505
+  },
+  {
+   "type": "総世帯（平均）",
+   "housing_share": 0.088,
+   "shrink": 0.068,
+   "beta": 0.078,
+   "price_tokyo": 104.435,
+   "price_sd": 1.688,
+   "price_min": 96.203,
+   "price_max": 104.435,
+   "tokyo_real": 1.495
+  },
+  {
+   "type": "持家（総世帯）",
+   "housing_share": 0.047,
+   "shrink": 0.05,
+   "beta": 0.059,
+   "price_tokyo": 103.377,
+   "price_sd": 1.498,
+   "price_min": 96.41,
+   "price_max": 103.377,
+   "tokyo_real": 1.516
+  },
+  {
+   "type": "民営借家（総世帯）",
+   "housing_share": 0.269,
+   "shrink": 0.136,
+   "beta": 0.161,
+   "price_tokyo": 109.013,
+   "price_sd": 2.875,
+   "price_min": 93.77,
+   "price_max": 109.013,
+   "tokyo_real": 1.409
+  },
+  {
+   "type": "単身（平均）",
+   "housing_share": 0.152,
+   "shrink": 0.087,
+   "beta": 0.101,
+   "price_tokyo": 106.199,
+   "price_sd": 2.065,
+   "price_min": 95.791,
+   "price_max": 106.199,
+   "tokyo_real": 1.464
+  },
+  {
+   "type": "単身・民営借家",
+   "housing_share": 0.3,
+   "shrink": 0.143,
+   "beta": 0.174,
+   "price_tokyo": 109.928,
+   "price_sd": 3.12,
+   "price_min": 93.306,
+   "price_max": 109.928,
+   "tokyo_real": 1.392
+  },
+  {
+   "type": "勤労者・民営借家",
+   "housing_share": 0.266,
+   "shrink": 0.137,
+   "beta": 0.163,
+   "price_tokyo": 108.966,
+   "price_sd": 2.866,
+   "price_min": 93.81,
+   "price_max": 108.966,
+   "tokyo_real": 1.409
+  }
+ ],
+ "weighted_2020": {
+  "sd_nom": 0.145,
+  "sd_real": 0.1257,
+  "shrink": 0.1337,
+  "beta": 0.1395,
+  "maxmin_nom": 1.7086,
+  "maxmin_real": 1.59,
+  "rho": 0.9907
+ },
+ "unweighted_2020": {
+  "sd_nom": 0.1036,
+  "sd_real": 0.0949,
+  "shrink": 0.084,
+  "beta": 0.0926,
+  "maxmin_nom": 1.7086,
+  "maxmin_real": 1.59,
+  "rho": 0.9907
+ },
+ "city_2020": {
+  "sd_nom": 0.1042,
+  "sd_real": 0.0935,
+  "shrink": 0.1024,
+  "beta": 0.1122,
+  "maxmin_nom": 1.7543,
+  "maxmin_real": 1.6202,
+  "rho": 0.9892,
+  "n": 52
+ },
+ "trend": {
+  "sd_total_2013": 1.664,
+  "sd_total_2025": 1.615,
+  "sd_xr_2013": 1.241,
+  "sd_xr_2025": 1.387,
+  "tokyo_2013": 105.2,
+  "tokyo_2025": 104.2
+ },
+ "variance_share_2024": {
+  "食料": 0.281,
+  "住居": 0.27,
+  "光熱・水道": 0.031,
+  "家具・家事用品": 0.02,
+  "被服及び履物": 0.032,
+  "保健医療": 0.022,
+  "交通・通信": 0.076,
+  "教育": 0.073,
+  "教養娯楽": 0.142,
+  "諸雑費": 0.053
+ },
+ "beta_housing_part": 0.0371,
+ "sweep": [
+  {
+   "housing_share": 0.0,
+   "shrink": 0.028,
+   "beta": 0.035,
+   "tokyo_price": 102.226,
+   "tokyo_real": 1.546
+  },
+  {
+   "housing_share": 0.1,
+   "shrink": 0.072,
+   "beta": 0.082,
+   "tokyo_price": 104.723,
+   "tokyo_real": 1.491
+  },
+  {
+   "housing_share": 0.2,
+   "shrink": 0.112,
+   "beta": 0.13,
+   "tokyo_price": 107.221,
+   "tokyo_real": 1.444
+  },
+  {
+   "housing_share": 0.3,
+   "shrink": 0.147,
+   "beta": 0.177,
+   "tokyo_price": 109.718,
+   "tokyo_real": 1.397
+  },
+  {
+   "housing_share": 0.4,
+   "shrink": 0.176,
+   "beta": 0.223,
+   "tokyo_price": 112.216,
+   "tokyo_real": 1.348
+  }
+ ]
+}
