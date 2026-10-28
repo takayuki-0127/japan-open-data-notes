@@ -1,0 +1,12 @@
+{
+ "land": {
+  "train": 15116,
+  "valid": 5249,
+  "test": 5200
+ },
+ "power": {
+  "train": 2190,
+  "valid": 731,
+  "test": 913
+ }
+}
