@@ -1,0 +1,15 @@
+{
+ "pdfplumber_文字": 3.7,
+ "pdfplumber_表（罫線）": 5.2,
+ "pdfplumber_表（文字の並び）": 6.8,
+ "PyMuPDF_表": 14.0,
+ "PyMuPDF_文字": 0.3,
+ "camelot_lattice": 53.0,
+ "camelot_stream": 24.3,
+ "tabula_lattice": 44.7,
+ "tabula_stream": 53.2,
+ "OCR英語_300dpi": 134.2,
+ "OCR英語_150dpi": 112.6,
+ "OCR日本語_300dpi": 251.0,
+ "OCR日本語_150dpi": 204.2
+}
