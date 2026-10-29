@@ -1,0 +1,2 @@
+NUTS[nutpie]: [s_lev, s_obs, l0, z_l, s_slp, d0, z_s, g_raw]
+rhat 1.0016723076751468 BSTS 1-5月の中央値 267315.60161894106 SARIMA 261226.22001108027
