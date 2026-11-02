@@ -1,0 +1,30 @@
+{
+ "n_articles": 118,
+ "n_change": 401,
+ "n_cannot": 568,
+ "unlabeled_change": 0.344,
+ "unlabeled_cannot": 0.289,
+ "per_article": {
+  "change": {
+   "all": 3.4,
+   "early": 2.84,
+   "late": 3.93
+  },
+  "cannot": {
+   "all": 4.81,
+   "early": 4.36,
+   "late": 5.25
+  }
+ },
+ "top_change": {
+  "分析・頑健性を追加": 0.602,
+  "データが取れない・代用": 0.466,
+  "期間・時点を絞った／つないだ": 0.449
+ },
+ "top_cannot": {
+  "期間・ほかの場面への一般化": 0.61,
+  "因果・交絡": 0.576,
+  "定義・測定のずれ": 0.534
+ },
+ "robustness_min_spearman": -0.252
+}

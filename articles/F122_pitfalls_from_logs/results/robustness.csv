@@ -1,0 +1,11 @@
+kind,check,spearman,top1_same,top1
+cannot,項目の割合,0.821,False,定義・測定のずれ
+cannot,厳しい辞書,-0.252,False,前提・設定への依存
+cannot,単一ラベル,0.679,False,因果・交絡
+cannot,前半F01-60,0.964,False,因果・交絡
+cannot,後半F61-120,0.679,True,期間・ほかの場面への一般化
+change,項目の割合,0.943,True,分析・頑健性を追加
+change,厳しい辞書,0.371,True,分析・頑健性を追加
+change,単一ラベル,0.943,False,データが取れない・代用
+change,前半F01-60,0.6,False,期間・時点を絞った／つないだ
+change,後半F61-120,0.943,True,分析・頑健性を追加
