@@ -1,0 +1,461 @@
+{
+ "n_articles": 123,
+ "n_judged": 113,
+ "level_counts": {
+  "0": 35,
+  "1": 55,
+  "2": 23
+ },
+ "level_share": {
+  "0": 0.31,
+  "1": 0.487,
+  "2": 0.204
+ },
+ "checks_median": 7.0,
+ "checks_iqr": [
+  5.0,
+  10.0
+ ],
+ "types_median": 5.0,
+ "type_effect": [
+  {
+   "type": "変数・調整",
+   "ran": 54,
+   "ran_share": 0.478,
+   "moved": 13,
+   "moved_among_ran": 11,
+   "hit_rate": 0.204,
+   "hit_ci": [
+    0.103,
+    0.323
+   ],
+   "moved_lv2": 4,
+   "moved_among_ran_lv2": 2,
+   "hit_rate_lv2": 0.037
+  },
+  {
+   "type": "モデル・推定法",
+   "ran": 56,
+   "ran_share": 0.496,
+   "moved": 12,
+   "moved_among_ran": 10,
+   "hit_rate": 0.179,
+   "hit_ci": [
+    0.083,
+    0.281
+   ],
+   "moved_lv2": 4,
+   "moved_among_ran_lv2": 4,
+   "hit_rate_lv2": 0.071
+  },
+  {
+   "type": "期間・時期",
+   "ran": 73,
+   "ran_share": 0.646,
+   "moved": 15,
+   "moved_among_ran": 13,
+   "hit_rate": 0.178,
+   "hit_ci": [
+    0.093,
+    0.272
+   ],
+   "moved_lv2": 4,
+   "moved_among_ran_lv2": 3,
+   "hit_rate_lv2": 0.041
+  },
+  {
+   "type": "検証の分け方",
+   "ran": 13,
+   "ran_share": 0.115,
+   "moved": 2,
+   "moved_among_ran": 2,
+   "hit_rate": 0.154,
+   "hit_ci": [
+    0.0,
+    0.375
+   ],
+   "moved_lv2": 1,
+   "moved_among_ran_lv2": 1,
+   "hit_rate_lv2": 0.077
+  },
+  {
+   "type": "プラセボ・並べ替え",
+   "ran": 13,
+   "ran_share": 0.115,
+   "moved": 2,
+   "moved_among_ran": 2,
+   "hit_rate": 0.154,
+   "hit_ci": [
+    0.0,
+    0.375
+   ],
+   "moved_lv2": 2,
+   "moved_among_ran_lv2": 2,
+   "hit_rate_lv2": 0.154
+  },
+  {
+   "type": "設定値・パラメータ",
+   "ran": 78,
+   "ran_share": 0.69,
+   "moved": 13,
+   "moved_among_ran": 10,
+   "hit_rate": 0.128,
+   "hit_ci": [
+    0.063,
+    0.208
+   ],
+   "moved_lv2": 1,
+   "moved_among_ran_lv2": 1,
+   "hit_rate_lv2": 0.013
+  },
+  {
+   "type": "定義・指標",
+   "ran": 87,
+   "ran_share": 0.77,
+   "moved": 11,
+   "moved_among_ran": 11,
+   "hit_rate": 0.126,
+   "hit_ci": [
+    0.061,
+    0.198
+   ],
+   "moved_lv2": 5,
+   "moved_among_ran_lv2": 5,
+   "hit_rate_lv2": 0.057
+  },
+  {
+   "type": "対象を絞る・除く",
+   "ran": 91,
+   "ran_share": 0.805,
+   "moved": 8,
+   "moved_among_ran": 8,
+   "hit_rate": 0.088,
+   "hit_ci": [
+    0.033,
+    0.152
+   ],
+   "moved_lv2": 1,
+   "moved_among_ran_lv2": 1,
+   "hit_rate_lv2": 0.011
+  },
+  {
+   "type": "データ源・集計単位",
+   "ran": 50,
+   "ran_share": 0.442,
+   "moved": 2,
+   "moved_among_ran": 2,
+   "hit_rate": 0.04,
+   "hit_ci": [
+    0.0,
+    0.102
+   ],
+   "moved_lv2": 1,
+   "moved_among_ran_lv2": 1,
+   "hit_rate_lv2": 0.02
+  }
+ ],
+ "level_ci": {
+  "0": [
+   0.221,
+   0.389
+  ],
+  "1": [
+   0.398,
+   0.584
+  ],
+  "2": [
+   0.133,
+   0.283
+  ]
+ },
+ "by_f125_outcome": {
+  "N": {
+   "0": 6,
+   "1": 4,
+   "2": 4
+  },
+  "U": {
+   "0": 4,
+   "1": 10,
+   "2": 10
+  },
+  "Y": {
+   "0": 23,
+   "1": 38,
+   "2": 9
+  }
+ },
+ "fisher_clear_vs_lv2": {
+  "table": [
+   [
+    9,
+    61
+   ],
+   [
+    14,
+    24
+   ]
+  ],
+  "p": 0.006
+ },
+ "by_article_type": {
+  "D": {
+   "0": 17,
+   "1": 26,
+   "2": 6
+  },
+  "E": {
+   "0": 8,
+   "1": 17,
+   "2": 11
+  },
+  "P": {
+   "0": 8,
+   "1": 9,
+   "2": 6
+  }
+ },
+ "by_family": [
+  {
+   "family": "その他",
+   "n": 6,
+   "lv2": 0.167,
+   "lv1p": 0.833
+  },
+  {
+   "family": "テキスト・AI",
+   "n": 4,
+   "lv2": 0.0,
+   "lv1p": 0.75
+  },
+  {
+   "family": "ベイズ・階層",
+   "n": 8,
+   "lv2": 0.25,
+   "lv1p": 0.75
+  },
+  {
+   "family": "因果推論",
+   "n": 22,
+   "lv2": 0.227,
+   "lv1p": 0.727
+  },
+  {
+   "family": "時系列・予測",
+   "n": 21,
+   "lv2": 0.333,
+   "lv1p": 0.762
+  },
+  {
+   "family": "機械学習",
+   "n": 5,
+   "lv2": 0.4,
+   "lv1p": 1.0
+  },
+  {
+   "family": "生存・人口",
+   "n": 8,
+   "lv2": 0.0,
+   "lv1p": 0.375
+  },
+  {
+   "family": "空間",
+   "n": 10,
+   "lv2": 0.1,
+   "lv1p": 0.5
+  },
+  {
+   "family": "経済・最適化モデル",
+   "n": 12,
+   "lv2": 0.25,
+   "lv1p": 0.75
+  },
+  {
+   "family": "統計の作法・集計",
+   "n": 12,
+   "lv2": 0.167,
+   "lv1p": 0.583
+  }
+ ],
+ "by_band": [
+  {
+   "band": "F01〜40",
+   "n": 38,
+   "checks": 7.0,
+   "types": 5.0,
+   "judged": 33,
+   "lv2": 11,
+   "lv1": 17,
+   "lv0": 5
+  },
+  {
+   "band": "F41〜80",
+   "n": 40,
+   "checks": 7.0,
+   "types": 4.0,
+   "judged": 37,
+   "lv2": 5,
+   "lv1": 16,
+   "lv0": 16
+  },
+  {
+   "band": "F81〜125",
+   "n": 45,
+   "checks": 8.0,
+   "types": 5.0,
+   "judged": 43,
+   "lv2": 7,
+   "lv1": 22,
+   "lv0": 14
+  }
+ ],
+ "checks_trend_spearman": [
+  0.159,
+  0.0797
+ ],
+ "checks_by_level": {
+  "0.0": 7.0,
+  "1.0": 7.0,
+  "2.0": 8.0
+ },
+ "types_by_level": {
+  "0.0": 5.0,
+  "1.0": 5.0,
+  "2.0": 4.0
+ },
+ "kruskal_checks_level_p": 0.501,
+ "auto_vs_hand": [
+  {
+   "mode": "main",
+   "n": 111,
+   "exact": 0.477,
+   "kappa": 0.214,
+   "lv2_agree": 0.694,
+   "auto_lv2_share": 0.369
+  },
+  {
+   "mode": "text",
+   "n": 92,
+   "exact": 0.446,
+   "kappa": 0.175,
+   "lv2_agree": 0.707,
+   "auto_lv2_share": 0.304
+  },
+  {
+   "mode": "strict",
+   "n": 111,
+   "exact": 0.45,
+   "kappa": 0.15,
+   "lv2_agree": 0.739,
+   "auto_lv2_share": 0.252
+  }
+ ],
+ "robustness": [
+  {
+   "check": "基本（1以上・使ったかは全部の種類で判定）",
+   "top3": "変数・調整・モデル・推定法・期間・時期",
+   "spearman": 1.0,
+   "period": 0.178,
+   "definition": 0.126,
+   "variables": 0.204,
+   "model": 0.179,
+   "sample": 0.088,
+   "rank_sample": 8,
+   "rank_datasrc": 9
+  },
+  {
+   "check": "結論が変わった（2）だけ",
+   "top3": "プラセボ・並べ替え・検証の分け方・モデル・推定法",
+   "spearman": 0.44,
+   "period": 0.041,
+   "definition": 0.057,
+   "variables": 0.037,
+   "model": 0.071,
+   "sample": 0.011,
+   "rank_sample": 9,
+   "rank_datasrc": 7
+  },
+  {
+   "check": "使ったかを主な種類だけで判定",
+   "top3": "モデル・推定法・変数・調整・検証の分け方",
+   "spearman": 0.92,
+   "period": 0.178,
+   "definition": 0.122,
+   "variables": 0.227,
+   "model": 0.257,
+   "sample": 0.099,
+   "rank_sample": 9,
+   "rank_datasrc": 8
+  },
+  {
+   "check": "まとめ記事 F118〜F125 を除く",
+   "top3": "変数・調整・モデル・推定法・期間・時期",
+   "spearman": 0.98,
+   "period": 0.191,
+   "definition": 0.087,
+   "variables": 0.208,
+   "model": 0.196,
+   "sample": 0.096,
+   "rank_sample": 7,
+   "rank_datasrc": 9
+  },
+  {
+   "check": "前半 F01〜F62",
+   "top3": "変数・調整・プラセボ・並べ替え・期間・時期",
+   "spearman": 0.69,
+   "period": 0.243,
+   "definition": 0.079,
+   "variables": 0.276,
+   "model": 0.179,
+   "sample": 0.116,
+   "rank_sample": 6,
+   "rank_datasrc": 8
+  },
+  {
+   "check": "後半 F63〜F125",
+   "top3": "検証の分け方・モデル・推定法・定義・指標",
+   "spearman": 0.42,
+   "period": 0.111,
+   "definition": 0.163,
+   "variables": 0.12,
+   "model": 0.179,
+   "sample": 0.062,
+   "rank_sample": 7,
+   "rank_datasrc": 8
+  },
+  {
+   "check": "項目10件あたりで数える",
+   "top3": "変数・調整・検証の分け方・プラセボ・並べ替え",
+   "spearman": 0.86,
+   "period": 0.8152173913043479,
+   "definition": 0.5092592592592592,
+   "variables": 1.3131313131313131,
+   "model": 0.96,
+   "sample": 0.3252032520325204,
+   "rank_sample": 8,
+   "rank_datasrc": 9
+  }
+ ],
+ "movers_lv1p": {
+  "期間・時期": 15,
+  "変数・調整": 13,
+  "設定値・パラメータ": 13,
+  "モデル・推定法": 12,
+  "定義・指標": 11,
+  "対象を絞る・除く": 8,
+  "プラセボ・並べ替え": 2,
+  "データ源・集計単位": 2,
+  "検証の分け方": 2
+ },
+ "movers_lv2": {
+  "定義・指標": 5,
+  "変数・調整": 4,
+  "モデル・推定法": 4,
+  "期間・時期": 4,
+  "プラセボ・並べ替え": 2,
+  "対象を絞る・除く": 1,
+  "設定値・パラメータ": 1,
+  "データ源・集計単位": 1,
+  "検証の分け方": 1
+ }
+}
