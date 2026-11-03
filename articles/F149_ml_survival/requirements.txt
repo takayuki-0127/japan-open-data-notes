@@ -1,0 +1,8 @@
+pandas
+numpy
+scipy
+matplotlib
+pyarrow
+scikit-learn==1.9.1
+scikit-survival==0.28.0
+xgboost==3.4.1
