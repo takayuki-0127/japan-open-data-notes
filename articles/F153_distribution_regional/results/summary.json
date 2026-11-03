@@ -1,0 +1,296 @@
+{
+ "frechet_2023": {
+  "frechet_var": 3345.3384,
+  "frechet_sd": 57.8389,
+  "loc": 0.6621,
+  "scale": 0.3038,
+  "shape": 0.0341
+ },
+ "w2_to_nat_2023": {
+  "median": 51.7422850226789,
+  "min": 13.48612443994627,
+  "max": 150.2842661769691,
+  "share_loc_median": 0.5224708641820399,
+  "share_scale_median": 0.40773668274465785,
+  "share_shape_median": 0.0363384877950679,
+  "n_loc_majority": 25,
+  "n_scale_or_shape_majority": 22
+ },
+ "spread": {
+  "p10": {
+   "sd": 16.7,
+   "cv": 0.129
+  },
+  "p25": {
+   "sd": 27.2,
+   "cv": 0.122
+  },
+  "p50": {
+   "sd": 42.2,
+   "cv": 0.112
+  },
+  "p75": {
+   "sd": 62.5,
+   "cv": 0.103
+  },
+  "p90": {
+   "sd": 84.4,
+   "cv": 0.097
+  }
+ },
+ "rank_corr_with_mean": {
+  "p10": 0.937,
+  "p25": 0.98,
+  "p50": 0.992,
+  "p75": 0.997,
+  "p90": 0.989,
+  "sd_vs_mean": 0.926,
+  "p10_vs_p90": 0.904
+ },
+ "silhouette": {
+  "2": 0.469,
+  "3": 0.465,
+  "4": 0.392,
+  "5": 0.419,
+  "6": 0.419
+ },
+ "ari_full_vs_mean_only": 0.416,
+ "ari_full_vs_mean_sd": 0.134,
+ "cluster_profiles": [
+  {
+   "cluster": 1,
+   "n": 24,
+   "p10": 117.62,
+   "p25": 202.0,
+   "p50": 344.45,
+   "p75": 556.49,
+   "p90": 814.29,
+   "ratio_90_10": 6.92,
+   "blocks": "{\"九州・沖縄\": 8, \"中国・四国\": 8, \"北海道・東北\": 5, \"近畿\": 3}"
+  },
+  {
+   "cluster": 2,
+   "n": 22,
+   "p10": 141.76,
+   "p25": 243.87,
+   "p50": 410.16,
+   "p75": 648.81,
+   "p90": 924.19,
+   "ratio_90_10": 6.52,
+   "blocks": "{\"中部\": 9, \"関東\": 6, \"近畿\": 4, \"北海道・東北\": 2, \"中国・四国\": 1}"
+  },
+  {
+   "cluster": 3,
+   "n": 1,
+   "p10": 153.93,
+   "p25": 272.78,
+   "p50": 460.78,
+   "p75": 766.57,
+   "p90": 1171.9,
+   "ratio_90_10": 7.61,
+   "blocks": "{\"関東\": 1}"
+  }
+ ],
+ "cluster_between_share": 0.708,
+ "ari_k3_vs_k2": 0.959,
+ "ari_k3_vs_k4": 0.736,
+ "ari_k3_vs_k5": 0.532,
+ "dfl_2023": {
+  "size": {
+   "frechet_var": 3370.8,
+   "explained": -0.008,
+   "loc": 0.63,
+   "scale": 0.341,
+   "shape": 0.029
+  },
+  "tenure": {
+   "frechet_var": 3537.0,
+   "explained": -0.057,
+   "loc": 0.64,
+   "scale": 0.328,
+   "shape": 0.031
+  },
+  "cell": {
+   "frechet_var": 3380.8,
+   "explained": -0.011,
+   "loc": 0.614,
+   "scale": 0.352,
+   "shape": 0.034
+  },
+  "cell_loc_reduction": 0.063,
+  "cell_scale_reduction": -0.171,
+  "cell_shape_reduction": 0.001
+ },
+ "dfl_mean_shift": {
+  "corr_with_one_person": 0.954,
+  "corr_shift_with_mean": -0.488,
+  "shift_min": -47.0,
+  "shift_max": 45.3
+ },
+ "ari_cluster_vs_composition_adjusted": 0.619,
+ "frechet_regression": {
+  "one_person": {
+   "r2_w": 0.024,
+   "r2_p10": 0.034,
+   "r2_p50": 0.048,
+   "r2_p90": 0.001
+  },
+  "owner": {
+   "r2_w": 0.013,
+   "r2_p10": 0.005,
+   "r2_p50": 0.016,
+   "r2_p90": 0.0
+  },
+  "both": {
+   "r2_w": 0.027,
+   "r2_p10": 0.06,
+   "r2_p50": 0.06,
+   "r2_p90": 0.001
+  },
+  "mean_size": {
+   "r2_w": 0.038,
+   "r2_p10": 0.059,
+   "r2_p50": 0.106,
+   "r2_p90": 0.007
+  },
+  "all3": {
+   "r2_w": 0.13,
+   "r2_p10": 0.077,
+   "r2_p50": 0.167,
+   "r2_p90": 0.113
+  },
+  "loo_w2_model": 51.18,
+  "loo_w2_barycenter": 46.76
+ },
+ "covariate_corr": {
+  "one_person": {
+   "one_person": 1.0,
+   "owner": -0.848,
+   "mean_size": -0.932
+  },
+  "owner": {
+   "one_person": -0.848,
+   "owner": 1.0,
+   "mean_size": 0.692
+  },
+  "mean_size": {
+   "one_person": -0.932,
+   "owner": 0.692,
+   "mean_size": 1.0
+  }
+ },
+ "log_frechet_2023": {
+  "frechet_var": 0.0123,
+  "frechet_sd": 0.1109,
+  "loc": 0.9294,
+  "scale": 0.0478,
+  "shape": 0.0228
+ },
+ "multiplicative": {
+  "k_min": 0.75,
+  "k_max": 1.242,
+  "resid_share_of_w2sq": 0.069,
+  "w2_resid_median": 16.1,
+  "w2_nat_median": 51.7
+ },
+ "change_2018_2023": {
+  "frechet_var_2018": 2959.3,
+  "frechet_var_2023_10cls": 3343.3,
+  "shares_2018": {
+   "loc": 0.713,
+   "scale": 0.252,
+   "shape": 0.035
+  },
+  "shares_2023_10cls": {
+   "loc": 0.662,
+   "scale": 0.304,
+   "shape": 0.034
+  },
+  "national": {
+   "w2": 24.0,
+   "dmean": 18.7,
+   "dp10": 3.2,
+   "dp50": 15.0,
+   "dp90": 35.1
+  },
+  "pref_dp10_median": 2.3,
+  "pref_dp50_median": 8.8,
+  "pref_dp90_median": 22.2,
+  "n_dp90_gt_dp10": 43,
+  "corr_dmean_initial_mean": -0.132,
+  "ari_cluster_2018_2023": 0.375,
+  "log_frechet_var_2018": 0.01385,
+  "log_frechet_var_2023": 0.01236,
+  "cv_p50_2018": 0.1144,
+  "cv_p50_2023": 0.1116
+ },
+ "robustness": {
+  "基本（単調スプライン＋パレート、万円）": {
+   "loc": 0.662,
+   "scale": 0.304,
+   "shape": 0.034,
+   "ari_vs_base": 1.0,
+   "between_share": 0.708
+  },
+  "階級内一様": {
+   "loc": 0.66,
+   "scale": 0.293,
+   "shape": 0.047,
+   "ari_vs_base": 0.411,
+   "between_share": 0.705
+  },
+  "上の裾を2,000〜3,000万円の一様": {
+   "loc": 0.669,
+   "scale": 0.296,
+   "shape": 0.035,
+   "ari_vs_base": 1.0,
+   "between_share": 0.699
+  },
+  "対数（log(収入＋10万円)）": {
+   "loc": 0.929,
+   "scale": 0.048,
+   "shape": 0.023,
+   "ari_vs_base": 0.253,
+   "between_share": 0.802
+  },
+  "等価（世帯人員の平方根で割る）": {
+   "loc": 0.733,
+   "scale": 0.247,
+   "shape": 0.02,
+   "ari_vs_base": 0.453,
+   "between_share": 0.758
+  },
+  "10階級にそろえる": {
+   "loc": 0.662,
+   "scale": 0.304,
+   "shape": 0.034,
+   "ari_vs_base": 1.0,
+   "between_share": 0.708
+  },
+  "不詳を一番下の階級（100万円未満）へ": {
+   "loc": 0.626,
+   "scale": 0.338,
+   "shape": 0.036,
+   "ari_vs_base": 0.179,
+   "between_share": 0.725
+  },
+  "不詳を700〜1,000万円の階級へ": {
+   "loc": 0.686,
+   "scale": 0.25,
+   "shape": 0.063,
+   "ari_vs_base": 0.366,
+   "between_share": 0.698
+  },
+  "等価_frechet_var": 1400.4,
+  "相対のばらつき（フレシェ標準偏差÷平均）": {
+   "base": 0.1274,
+   "equivalized": 0.1221
+  }
+ },
+ "robustness_2018": {
+  "loc": 0.713,
+  "scale": 0.252,
+  "shape": 0.035
+ },
+ "dfl_2018_cell_explained": 0.081
+}
