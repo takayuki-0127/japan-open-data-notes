@@ -1,0 +1,4 @@
+article,file,text
+F12_stats_pipeline,README,- 設計では e-Stat API（appId が必要）を使う予定でしたが、**API キーなしで取れる e-Stat の「ファイル」の公開 URL**（`file-download?statInfId=…`）に変えました。シークレットが要らないので、GitHub Actions で動かすときも鍵の管理がいりません
+F12_stats_pipeline,src/01_fetch.py,- API キー（appId）は使わない。e-Stat の「ファイル」の公開URL（file-download）から取る
+F96_estat_semantic_search,src/01_取得.md,e-Stat の統計表の一覧を取る API（getStatsList）にはアプリケーションIDの登録が要るので、この記事ではサイトの「統計データを探す → ファイル」の一覧ページ（データセット表示、1ページ50件）をブラウザでたどった。

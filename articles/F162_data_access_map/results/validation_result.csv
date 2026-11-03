@@ -1,0 +1,41 @@
+article,owner,exp_new,exp_route,note,labeler,n_lines,new,route,route_hard,any_API,any_表ファイル,any_一括ファイル,any_Webページの表,any_画面操作,any_PDF,any_手で転記,via_estat,F,num,ok,err
+F111_shop_abm,社人研,F,*,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,3,False,表ファイル,表ファイル,False,True,False,False,False,False,False,False,True,111,True,
+F25_whitepaper_embeddings,内閣府,T,Webページの表,HTML の本文ページをコードでたどった（Webページ）,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,10,True,画面操作,画面操作,False,False,False,False,True,False,False,False,True,25,False,経路の違い
+196_female_principals,文部科学省,T,表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,3,True,表ファイル,表ファイル,False,True,False,False,False,False,False,True,False,196,True,
+F07_turnover_survival,総務省統計局,*,*,020 と同じファイル。新規か再利用か本文からは決められない,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,3,True,表ファイル,表ファイル,False,True,False,False,False,False,False,True,True,7,True,
+F128_rent_distance,総務省統計局,T,表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,5,True,表ファイル,画面操作,False,True,True,False,True,False,False,True,True,128,True,
+213_condo_aging,国土交通省,T,ページURLのみ|表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,1,True,ページURLのみ,ページURLのみ,False,False,False,False,False,False,False,True,False,213,True,
+134_photochemical_oxidant,環境省,T,PDF,PDF（ファイル名に .pdf）,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,2,True,ページURLのみ,ページURLのみ,False,False,False,False,False,False,False,False,False,134,False,経路の違い
+165_nurses_by_pref,厚生労働省,T,表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,2,True,表ファイル,手で転記,False,True,False,False,False,False,True,False,False,165,True,
+F100_five_methods_one_question,厚生労働省,F,*,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,3,False,一括ファイル,一括ファイル,False,False,True,False,False,False,False,True,True,100,True,
+192_disability_employment_size,厚生労働省,T,PDF,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,2,True,PDF,PDF,False,False,False,False,False,True,False,False,False,192,True,
+113_fish_catch,農林水産省,T,表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,1,True,表ファイル,表ファイル,False,True,False,False,False,False,False,True,False,113,True,
+F53_boj_statement_tone,日本銀行,T,PDF|API,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,8,True,API,PDF,True,False,False,False,True,True,False,False,True,53,True,
+F62_simpson_standardization,社人研,F,*,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,3,False,表ファイル,表ファイル,False,True,False,False,False,False,False,False,True,62,True,
+F130_care_certification_shrinkage,厚生労働省,T,表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,4,True,表ファイル,画面操作,False,True,False,False,True,False,False,True,True,130,True,
+F50_gdp_revisions,内閣府,T,表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,10,True,表ファイル,画面操作,False,True,False,False,True,False,False,False,True,50,True,
+F57_flu_sir,感染症の機関,F,*,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,4,False,ページURLのみ,ページURLのみ,False,False,False,False,False,False,False,False,True,57,True,
+F113_price_index_formulas,総務省統計局,T,表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,6,True,表ファイル,画面操作,False,True,False,False,True,False,False,True,True,113,True,
+F14_compact_city_psm_did,総務省統計局,T,表ファイル,統計局の分は SSDSE の CSV。同じ行の国土数値情報の ZIP が混ざった,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,3,True,一括ファイル,一括ファイル,False,False,True,False,False,False,False,False,True,14,False,経路の違い
+F150_dynamic_seasonality,厚生労働省,F,*,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,3,False,記録なし,記録なし,False,False,False,False,False,False,False,True,True,150,True,
+F19_small_area_fh,厚生労働省,T,表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,2,True,表ファイル,表ファイル,False,True,False,False,False,False,False,True,True,19,True,
+040_data_breaks,国土交通省,T,一括ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,2,True,一括ファイル,一括ファイル,False,False,True,False,False,False,False,False,False,40,True,
+F117_nonresponse_weighting,総務省（統計局以外）,T,PDF,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,2,True,PDF,PDF,False,False,False,False,False,True,False,False,True,117,True,
+F03_land_price_ml,国土交通省,T,一括ファイル,地価公示は国土数値情報の ZIP。同じ行の e-Stat が混ざった,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,9,True,表ファイル,一括ファイル,False,True,True,False,False,False,False,True,True,3,False,経路の違い
+215_medical_cost_aging,厚生労働省,T,表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,1,True,表ファイル,表ファイル,False,True,False,False,False,False,False,True,False,215,True,
+F43_local_projections,内閣府,F,*,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,3,False,記録なし,記録なし,False,False,False,False,False,False,False,False,True,43,True,
+F93_pdf_table_extraction,厚生労働省,T,PDF,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,5,True,PDF,PDF,False,False,False,False,False,True,False,False,True,93,True,
+F23_ambulance_location,総務省統計局,T,画面操作|一括ファイル,e-Stat 統計地理情報システムのメッシュ（画面から）,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,3,True,記録なし,記録なし,False,False,False,False,False,False,False,True,True,23,False,経路の違い
+F106_shared_frailty,国税庁,F,*,F28・F79 と同じ（再利用）,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,6,True,表ファイル,一括ファイル,False,True,True,False,False,False,False,False,True,106,False,再利用を新規と判定
+F77_migration_markov,総務省統計局,F,*,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,10,False,表ファイル,表ファイル,False,True,False,False,False,False,False,False,True,77,True,
+067_food_poisoning_trend,厚生労働省,T,ページURLのみ,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,1,True,ページURLのみ,ページURLのみ,False,False,False,False,False,False,False,False,False,67,True,
+F150_dynamic_seasonality,電力会社,F,*,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,3,False,記録なし,記録なし,False,False,False,False,False,False,False,False,True,150,True,
+057_wbgt_heatstroke,総務省統計局,T,表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,2,True,表ファイル,表ファイル,False,True,False,False,False,False,False,False,False,57,True,
+F94_municipal_merger_panel,総務省統計局,T,表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,6,True,表ファイル,Webページの表,False,True,False,True,False,False,False,True,True,94,True,
+144_housing_price_seasonality,国土交通省,T,表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,2,True,表ファイル,表ファイル,False,True,False,False,False,False,False,False,False,144,True,
+016_doctors,総務省（統計局以外）,T,記録なし,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,4,True,記録なし,記録なし,False,False,False,False,False,False,False,False,False,16,True,
+168_industrial_waste_by_industry,環境省,T,ページURLのみ,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,1,True,ページURLのみ,ページURLのみ,False,False,False,False,False,False,False,False,False,168,True,
+F65_doctors_life_dag,厚生労働省,*,*,本文からは新規か再利用か決められない,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,6,False,表ファイル,表ファイル,False,True,False,False,False,False,False,True,True,65,True,
+077_infectious_peaks,感染症の機関,T,表ファイル,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,5,True,表ファイル,表ファイル,False,True,False,False,False,False,False,False,False,77,True,
+F43_local_projections,経済産業省,F,*,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,3,False,記録なし,記録なし,False,False,False,False,False,False,False,False,True,43,True,
+F123_spatial_block_cv_review,気象庁,F,*,,手作業（作成者が本文の行を読んで判定。分類規則を決め終えたあとに抜き出した40組）,3,False,記録なし,記録なし,False,False,False,False,False,False,False,False,True,123,True,

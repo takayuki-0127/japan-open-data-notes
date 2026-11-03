@@ -1,0 +1,10 @@
+article,owner,route
+035_yen_prices_var,日本銀行,API
+036_tankan_forecast,日本銀行,API
+051_household_assets,日本銀行,API
+052_household_flows,日本銀行,API
+F09_diet_text,国立国会図書館,API
+F133_export_gravity,国際機関・海外,API
+F43_local_projections,日本銀行,API
+F48_gasoline_elasticity,日本銀行,API
+F53_boj_statement_tone,日本銀行,API
