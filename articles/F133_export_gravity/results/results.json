@@ -1,0 +1,383 @@
+{
+ "n_countries": 194,
+ "n_obs": 4788,
+ "share_zero": 0.024,
+ "M1_pooled": {
+  "lgdp": {
+   "b": 0.7998,
+   "lo": 0.5912,
+   "hi": 1.0083
+  },
+  "ldist": {
+   "b": -0.8693,
+   "lo": -1.2279,
+   "hi": -0.5108
+  },
+  "landlocked": {
+   "b": -1.0368,
+   "lo": -1.5943,
+   "hi": -0.4793
+  },
+  "epa": {
+   "b": 0.511,
+   "lo": 0.017,
+   "hi": 1.0049
+  },
+  "r2_level": 0.761,
+  "r2_log_pos": 0.769
+ },
+ "fit_gdp_only": {
+  "r2_level": 0.761,
+  "r2_log_pos": 0.685
+ },
+ "fit_dist_only": {
+  "r2_level": 0.202,
+  "r2_log_pos": 0.107
+ },
+ "fit_gdp_dist": {
+  "r2_level": 0.763,
+  "r2_log_pos": 0.732
+ },
+ "M1_region": {
+  "lgdp": {
+   "b": 0.6658,
+   "lo": 0.5431,
+   "hi": 0.7885
+  },
+  "ldist": {
+   "b": -0.4484,
+   "lo": -0.7648,
+   "hi": -0.1321
+  },
+  "epa": {
+   "b": 0.1737,
+   "lo": -0.2048,
+   "hi": 0.5523
+  },
+  "r2_level": 0.91,
+  "r2_log_pos": 0.791
+ },
+ "M3_countryFE": {
+  "lgdp": {
+   "b": 0.5577,
+   "lo": 0.419,
+   "hi": 0.6964
+  },
+  "epa": {
+   "b": 0.0524,
+   "lo": -0.0314,
+   "hi": 0.1362
+  }
+ },
+ "M3_countryFE_exUSA": {
+  "lgdp": {
+   "b": 0.5179,
+   "lo": 0.3949,
+   "hi": 0.6408
+  },
+  "epa": {
+   "b": 0.0553,
+   "lo": -0.0458,
+   "hi": 0.1565
+  }
+ },
+ "top_share_2024": 0.696,
+ "robust": [
+  {
+   "name": "基本：PPML（ゼロを含む、2000〜2024年）",
+   "ldist_b": -0.8693,
+   "ldist_lo": -1.2279,
+   "ldist_hi": -0.5108,
+   "lgdp_b": 0.7998,
+   "lgdp_lo": 0.5912,
+   "lgdp_hi": 1.0083,
+   "note": ""
+  },
+  {
+   "name": "PPML（ゼロを除く）",
+   "ldist_b": -0.8674,
+   "ldist_lo": -1.2256,
+   "ldist_hi": -0.5093,
+   "lgdp_b": 0.798,
+   "lgdp_lo": 0.5894,
+   "lgdp_hi": 1.0067,
+   "note": ""
+  },
+  {
+   "name": "対数の OLS（ゼロを除く）",
+   "ldist_b": -1.3332,
+   "ldist_lo": -1.7059,
+   "ldist_hi": -0.9606,
+   "lgdp_b": 0.8781,
+   "lgdp_lo": 0.7943,
+   "lgdp_hi": 0.9619,
+   "note": ""
+  },
+  {
+   "name": "対数の OLS（ln(1+百万ドル)、ゼロを含む）",
+   "ldist_b": -1.3948,
+   "ldist_lo": -1.7744,
+   "ldist_hi": -1.0153,
+   "lgdp_b": 0.846,
+   "lgdp_lo": 0.7629,
+   "lgdp_hi": 0.929,
+   "note": ""
+  },
+  {
+   "name": "期間 2000〜2009年",
+   "ldist_b": -0.9325,
+   "ldist_lo": -1.2218,
+   "ldist_hi": -0.6432,
+   "lgdp_b": 0.8638,
+   "lgdp_lo": 0.6636,
+   "lgdp_hi": 1.0639,
+   "note": ""
+  },
+  {
+   "name": "期間 2010〜2019年",
+   "ldist_b": -0.8667,
+   "ldist_lo": -1.2757,
+   "ldist_hi": -0.4577,
+   "lgdp_b": 0.811,
+   "lgdp_lo": 0.5839,
+   "lgdp_hi": 1.0381,
+   "note": ""
+  },
+  {
+   "name": "期間 2020〜2024年",
+   "ldist_b": -0.8005,
+   "ldist_lo": -1.2123,
+   "ldist_hi": -0.3887,
+   "lgdp_b": 0.7524,
+   "lgdp_lo": 0.5552,
+   "lgdp_hi": 0.9496,
+   "note": ""
+  },
+  {
+   "name": "輸出額の上位50か国に絞る",
+   "ldist_b": -0.8,
+   "ldist_lo": -1.1633,
+   "ldist_hi": -0.4368,
+   "lgdp_b": 0.6909,
+   "lgdp_lo": 0.4021,
+   "lgdp_hi": 0.9797,
+   "note": ""
+  },
+  {
+   "name": "GDP を世界銀行の値にする",
+   "ldist_b": -0.8062,
+   "ldist_lo": -1.1258,
+   "ldist_hi": -0.4867,
+   "lgdp_b": 0.8273,
+   "lgdp_lo": 0.6297,
+   "lgdp_hi": 1.0249,
+   "note": ""
+  },
+  {
+   "name": "米国と中国を除く",
+   "ldist_b": -1.1816,
+   "ldist_lo": -1.5311,
+   "ldist_hi": -0.8321,
+   "lgdp_b": 0.6306,
+   "lgdp_lo": 0.5119,
+   "lgdp_hi": 0.7492,
+   "note": ""
+  },
+  {
+   "name": "1人あたり GDP を加える",
+   "ldist_b": -0.9165,
+   "ldist_lo": -1.2237,
+   "ldist_hi": -0.6092,
+   "lgdp_b": 0.7915,
+   "lgdp_lo": 0.6144,
+   "lgdp_hi": 0.9685,
+   "note": ""
+  },
+  {
+   "name": "地域の固定効果を加える",
+   "ldist_b": -0.4484,
+   "ldist_lo": -0.7648,
+   "ldist_hi": -0.1321,
+   "lgdp_b": 0.6658,
+   "lgdp_lo": 0.5431,
+   "lgdp_hi": 0.7885,
+   "note": ""
+  },
+  {
+   "name": "EPA の変数を除く",
+   "ldist_b": -0.8449,
+   "ldist_lo": -1.2046,
+   "ldist_hi": -0.4852,
+   "lgdp_b": 0.7928,
+   "lgdp_lo": 0.5866,
+   "lgdp_hi": 0.999,
+   "note": ""
+  }
+ ],
+ "by_commodity": [
+  {
+   "cmd": "27",
+   "name": "鉱物性燃料（27類）",
+   "years": "2000-2024",
+   "n": 4788,
+   "share_zero": 0.443,
+   "lgdp": 0.5807,
+   "lgdp_lo": 0.3988,
+   "lgdp_hi": 0.7627,
+   "ldist": -1.39,
+   "ldist_lo": -1.806,
+   "ldist_hi": -0.9739,
+   "epa": 1.4285,
+   "epa_lo": 0.4376,
+   "epa_hi": 2.4194,
+   "r2_level": 0.393,
+   "r2_log_pos": 0.402
+  },
+  {
+   "cmd": "29",
+   "name": "有機化学品（29類）",
+   "years": "2000-2024",
+   "n": 4788,
+   "share_zero": 0.373,
+   "lgdp": 0.8915,
+   "lgdp_lo": 0.7111,
+   "lgdp_hi": 1.0719,
+   "ldist": -1.3625,
+   "ldist_lo": -1.6041,
+   "ldist_hi": -1.1209,
+   "epa": 0.3205,
+   "epa_lo": -0.2064,
+   "epa_hi": 0.8473,
+   "r2_level": 0.886,
+   "r2_log_pos": 0.685
+  },
+  {
+   "cmd": "39",
+   "name": "プラスチック（39類）",
+   "years": "2000-2024",
+   "n": 4788,
+   "share_zero": 0.184,
+   "lgdp": 0.7213,
+   "lgdp_lo": 0.5312,
+   "lgdp_hi": 0.9114,
+   "ldist": -1.542,
+   "ldist_lo": -1.9008,
+   "ldist_hi": -1.1833,
+   "epa": 0.6587,
+   "epa_lo": 0.1198,
+   "epa_hi": 1.1976,
+   "r2_level": 0.859,
+   "r2_log_pos": 0.74
+  },
+  {
+   "cmd": "72",
+   "name": "鉄鋼（72類）",
+   "years": "2000-2024",
+   "n": 4788,
+   "share_zero": 0.365,
+   "lgdp": 0.5544,
+   "lgdp_lo": 0.4464,
+   "lgdp_hi": 0.6623,
+   "ldist": -1.6991,
+   "ldist_lo": -1.9039,
+   "ldist_hi": -1.4943,
+   "epa": 1.2945,
+   "epa_lo": 0.7277,
+   "epa_hi": 1.8613,
+   "r2_level": 0.77,
+   "r2_log_pos": 0.428
+  },
+  {
+   "cmd": "84",
+   "name": "機械（84類）",
+   "years": "2000-2024",
+   "n": 4788,
+   "share_zero": 0.032,
+   "lgdp": 0.9021,
+   "lgdp_lo": 0.7226,
+   "lgdp_hi": 1.0817,
+   "ldist": -0.8334,
+   "ldist_lo": -1.155,
+   "ldist_hi": -0.5117,
+   "epa": 0.6489,
+   "epa_lo": 0.1449,
+   "epa_hi": 1.1529,
+   "r2_level": 0.803,
+   "r2_log_pos": 0.804
+  },
+  {
+   "cmd": "85",
+   "name": "電気機器（85類）",
+   "years": "2000-2024",
+   "n": 4788,
+   "share_zero": 0.049,
+   "lgdp": 0.7702,
+   "lgdp_lo": 0.5149,
+   "lgdp_hi": 1.0255,
+   "ldist": -1.1727,
+   "ldist_lo": -1.6009,
+   "ldist_hi": -0.7446,
+   "epa": 0.6802,
+   "epa_lo": -0.0996,
+   "epa_hi": 1.46,
+   "r2_level": 0.693,
+   "r2_log_pos": 0.771
+  },
+  {
+   "cmd": "87",
+   "name": "自動車・部品（87類）",
+   "years": "2000-2024",
+   "n": 4788,
+   "share_zero": 0.031,
+   "lgdp": 0.9421,
+   "lgdp_lo": 0.7914,
+   "lgdp_hi": 1.0927,
+   "ldist": 0.1387,
+   "ldist_lo": -0.1784,
+   "ldist_hi": 0.4557,
+   "epa": 0.2095,
+   "epa_lo": -0.183,
+   "epa_hi": 0.602,
+   "r2_level": 0.879,
+   "r2_log_pos": 0.661
+  },
+  {
+   "cmd": "90",
+   "name": "光学・精密機器（90類）",
+   "years": "2000-2024",
+   "n": 4788,
+   "share_zero": 0.066,
+   "lgdp": 0.9235,
+   "lgdp_lo": 0.7345,
+   "lgdp_hi": 1.1125,
+   "ldist": -1.0287,
+   "ldist_lo": -1.3379,
+   "ldist_hi": -0.7195,
+   "epa": 0.5081,
+   "epa_lo": 0.0317,
+   "epa_hi": 0.9845,
+   "r2_level": 0.828,
+   "r2_log_pos": 0.812
+  },
+  {
+   "cmd": "TOTAL",
+   "name": "総額",
+   "years": "2000-2024",
+   "n": 4788,
+   "share_zero": 0.024,
+   "lgdp": 0.7998,
+   "lgdp_lo": 0.5912,
+   "lgdp_hi": 1.0083,
+   "ldist": -0.8693,
+   "ldist_lo": -1.2279,
+   "ldist_hi": -0.5108,
+   "epa": 0.511,
+   "epa_lo": 0.017,
+   "epa_hi": 1.0049,
+   "r2_level": 0.761,
+   "r2_log_pos": 0.769
+  }
+ ],
+ "dist_by_year_first5": -0.872,
+ "dist_by_year_last5": -0.882
+}
