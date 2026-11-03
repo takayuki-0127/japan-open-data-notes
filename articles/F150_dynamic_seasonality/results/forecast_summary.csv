@@ -1,0 +1,10 @@
+series,model,mae_pct,shape_mae_pct
+births,fixed,2.64,1.67
+births,seasonal_naive,4.03,1.85
+births,time_varying,2.44,1.6
+inbound,fixed,10.47,6.41
+inbound,seasonal_naive,22.94,7.96
+inbound,time_varying,10.25,6.31
+power,fixed,3.52,3.37
+power,seasonal_naive,3.48,3.17
+power,time_varying,3.48,3.07
