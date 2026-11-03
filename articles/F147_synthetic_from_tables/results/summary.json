@@ -1,0 +1,288 @@
+{
+ "infos": {
+  "主（2022・所得6区分）": {
+   "chow_liu_edges": [
+    [
+     "sex",
+     "inc"
+    ],
+    [
+     "age",
+     "inc"
+    ],
+    [
+     "emp",
+     "inc"
+    ],
+    [
+     "emp",
+     "side"
+    ],
+    [
+     "inc",
+     "hours"
+    ]
+   ],
+   "bn_parents": {
+    "sex": [
+     "age",
+     "inc"
+    ],
+    "age": [
+     "emp",
+     "inc"
+    ],
+    "emp": [
+     "inc",
+     "hours"
+    ],
+    "inc": [
+     "hours"
+    ],
+    "hours": [],
+    "side": [
+     "emp",
+     "hours"
+    ]
+   },
+   "N": 633494
+  },
+  "2017年": {
+   "chow_liu_edges": [
+    [
+     "sex",
+     "inc"
+    ],
+    [
+     "age",
+     "inc"
+    ],
+    [
+     "emp",
+     "inc"
+    ],
+    [
+     "emp",
+     "side"
+    ],
+    [
+     "inc",
+     "hours"
+    ]
+   ],
+   "bn_parents": {
+    "sex": [
+     "age",
+     "inc"
+    ],
+    "age": [
+     "emp",
+     "inc"
+    ],
+    "emp": [
+     "inc",
+     "hours"
+    ],
+    "inc": [
+     "hours"
+    ],
+    "hours": [],
+    "side": [
+     "age",
+     "emp"
+    ]
+   },
+   "N": 623386
+  },
+  "所得16区分": {
+   "chow_liu_edges": [
+    [
+     "sex",
+     "inc"
+    ],
+    [
+     "age",
+     "inc"
+    ],
+    [
+     "emp",
+     "inc"
+    ],
+    [
+     "emp",
+     "side"
+    ],
+    [
+     "inc",
+     "hours"
+    ]
+   ],
+   "bn_parents": {
+    "sex": [
+     "age",
+     "inc"
+    ],
+    "age": [
+     "emp",
+     "inc"
+    ],
+    "emp": [
+     "inc",
+     "hours"
+    ],
+    "inc": [
+     "hours"
+    ],
+    "hours": [],
+    "side": [
+     "emp",
+     "hours"
+    ]
+   },
+   "N": 633494
+  },
+  "標本1/10（N÷10）": {
+   "chow_liu_edges": [
+    [
+     "sex",
+     "inc"
+    ],
+    [
+     "age",
+     "inc"
+    ],
+    [
+     "emp",
+     "inc"
+    ],
+    [
+     "emp",
+     "side"
+    ],
+    [
+     "inc",
+     "hours"
+    ]
+   ],
+   "bn_parents": {
+    "sex": [
+     "age",
+     "inc"
+    ],
+    "age": [
+     "emp",
+     "inc"
+    ],
+    "emp": [
+     "inc",
+     "hours"
+    ],
+    "inc": [
+     "hours"
+    ],
+    "hours": [],
+    "side": [
+     "emp",
+     "hours"
+    ]
+   },
+   "N": 63349
+  },
+  "BN の構造を AIC で選ぶ": {
+   "chow_liu_edges": [
+    [
+     "sex",
+     "inc"
+    ],
+    [
+     "age",
+     "inc"
+    ],
+    [
+     "emp",
+     "inc"
+    ],
+    [
+     "emp",
+     "side"
+    ],
+    [
+     "inc",
+     "hours"
+    ]
+   ],
+   "bn_parents": {
+    "sex": [
+     "age",
+     "inc"
+    ],
+    "age": [
+     "emp",
+     "inc"
+    ],
+    "emp": [
+     "inc",
+     "hours"
+    ],
+    "inc": [
+     "hours"
+    ],
+    "hours": [],
+    "side": [
+     "emp",
+     "hours"
+    ]
+   },
+   "N": 633494
+  },
+  "周辺表を1千人単位に丸める": {
+   "chow_liu_edges": [
+    [
+     "sex",
+     "inc"
+    ],
+    [
+     "age",
+     "inc"
+    ],
+    [
+     "emp",
+     "inc"
+    ],
+    [
+     "emp",
+     "side"
+    ],
+    [
+     "inc",
+     "hours"
+    ]
+   ],
+   "bn_parents": {
+    "sex": [
+     "age",
+     "inc"
+    ],
+    "age": [
+     "emp",
+     "inc"
+    ],
+    "emp": [
+     "inc",
+     "side"
+    ],
+    "inc": [],
+    "hours": [
+     "emp",
+     "inc"
+    ],
+    "side": [
+     "inc"
+    ]
+   },
+   "N": 633494
+  }
+ },
+ "R_main": 20,
+ "seed": 147
+}
