@@ -1,0 +1,290 @@
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:84: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x['res_g'] = smf.ols('g ~ ' + ctrl, x).fit().resid; x['res_rain'] = smf.ols('d_rain1 ~ ' + ctrl, x).fit().resid
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:84: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x['res_g'] = smf.ols('g ~ ' + ctrl, x).fit().resid; x['res_rain'] = smf.ols('d_rain1 ~ ' + ctrl, x).fit().resid
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:84: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x['res_g'] = smf.ols('g ~ ' + ctrl, x).fit().resid; x['res_rain'] = smf.ols('d_rain1 ~ ' + ctrl, x).fit().resid
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:84: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x['res_g'] = smf.ols('g ~ ' + ctrl, x).fit().resid; x['res_rain'] = smf.ols('d_rain1 ~ ' + ctrl, x).fit().resid
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:84: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x['res_g'] = smf.ols('g ~ ' + ctrl, x).fit().resid; x['res_rain'] = smf.ols('d_rain1 ~ ' + ctrl, x).fit().resid
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:84: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x['res_g'] = smf.ols('g ~ ' + ctrl, x).fit().resid; x['res_rain'] = smf.ols('d_rain1 ~ ' + ctrl, x).fit().resid
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:84: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x['res_g'] = smf.ols('g ~ ' + ctrl, x).fit().resid; x['res_rain'] = smf.ols('d_rain1 ~ ' + ctrl, x).fit().resid
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:84: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x['res_g'] = smf.ols('g ~ ' + ctrl, x).fit().resid; x['res_rain'] = smf.ols('d_rain1 ~ ' + ctrl, x).fit().resid
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:84: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x['res_g'] = smf.ols('g ~ ' + ctrl, x).fit().resid; x['res_rain'] = smf.ols('d_rain1 ~ ' + ctrl, x).fit().resid
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:84: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x['res_g'] = smf.ols('g ~ ' + ctrl, x).fit().resid; x['res_rain'] = smf.ols('d_rain1 ~ ' + ctrl, x).fit().resid
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:84: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x['res_g'] = smf.ols('g ~ ' + ctrl, x).fit().resid; x['res_rain'] = smf.ols('d_rain1 ~ ' + ctrl, x).fit().resid
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:84: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x['res_g'] = smf.ols('g ~ ' + ctrl, x).fit().resid; x['res_rain'] = smf.ols('d_rain1 ~ ' + ctrl, x).fit().resid
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:100: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f'g ~ d_rain1_off + d_rain1_wd + d_tmean + d_t2 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:100: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f'g ~ d_rain1_off + d_rain1_wd + d_tmean + d_t2 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:100: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f'g ~ d_rain1_off + d_rain1_wd + d_tmean + d_t2 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:100: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f'g ~ d_rain1_off + d_rain1_wd + d_tmean + d_t2 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:100: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f'g ~ d_rain1_off + d_rain1_wd + d_tmean + d_t2 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:100: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f'g ~ d_rain1_off + d_rain1_wd + d_tmean + d_t2 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:109: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f'g ~ rs_梅雨 + rs_夏 + rs_冬 + rs_春秋 + d_tmean + d_t2 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:109: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f'g ~ rs_梅雨 + rs_夏 + rs_冬 + rs_春秋 + d_tmean + d_t2 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:109: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f'g ~ rs_梅雨 + rs_夏 + rs_冬 + rs_春秋 + d_tmean + d_t2 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:109: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f'g ~ rs_梅雨 + rs_夏 + rs_冬 + rs_春秋 + d_tmean + d_t2 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:109: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f'g ~ rs_梅雨 + rs_夏 + rs_冬 + rs_春秋 + d_tmean + d_t2 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:109: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f'g ~ rs_梅雨 + rs_夏 + rs_冬 + rs_春秋 + d_tmean + d_t2 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:124: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x = base[~base.covid]; rr = smf.ols(f'g ~ d_rain1 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:124: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x = base[~base.covid]; rr = smf.ols(f'g ~ d_rain1 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:124: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x = base[~base.covid]; rr = smf.ols(f'g ~ d_rain1 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:124: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x = base[~base.covid]; rr = smf.ols(f'g ~ d_rain1 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:124: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x = base[~base.covid]; rr = smf.ols(f'g ~ d_rain1 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:67: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  r = smf.ols(f, x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+/mnt/attach/outputs/mono/articles/F135_rain_retail/src/03_分析.py:124: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  x = base[~base.covid]; rr = smf.ols(f'g ~ d_rain1 + d_off + d_ndays + {TAXF}', x).fit(cov_type='HAC', cov_kwds={'maxlags': 12})
+== main
+        系列     係数     下限     上限      p    n
+0      百貨店 -0.097 -0.203  0.010  0.075  112
+1     スーパー -0.051 -0.094 -0.007  0.023  112
+2     コンビニ -0.039 -0.141  0.063  0.456  112
+3  ドラッグストア -0.221 -0.308 -0.134  0.000  100
+4  ホームセンター -0.419 -0.555 -0.283  0.000  100
+5  家電大型専門店 -0.075 -0.421  0.270  0.669  100
+== items
+             系列     係数     下限     上限      p    n
+0       百貨店・衣料品 -0.103 -0.233  0.026  0.117  112
+1     百貨店・身の回り品  0.027 -0.185  0.239  0.800  112
+2      百貨店・飲食料品 -0.058 -0.112 -0.003  0.037  112
+3      スーパー・衣料品 -0.174 -0.311 -0.037  0.013  112
+4     スーパー・飲食料品 -0.022 -0.065  0.021  0.316  112
+5     スーパー・家庭用品 -0.071 -0.229  0.087  0.377  112
+6  コンビニ・FF・日配食品 -0.143 -0.336  0.050  0.145  112
+7     コンビニ・加工食品 -0.154 -0.280 -0.029  0.016  112
+8      コンビニ・非食品  0.201 -0.181  0.583  0.302  112
+== offwd
+         系列     係数     下限     上限      p    n   雨の曜日
+0       百貨店 -0.314 -0.554 -0.074  0.010  112  土日祝の雨
+1       百貨店 -0.013 -0.132  0.107  0.837  112   平日の雨
+2      スーパー -0.044 -0.118  0.030  0.241  112  土日祝の雨
+3      スーパー -0.053 -0.106 -0.000  0.050  112   平日の雨
+4      コンビニ -0.081 -0.287  0.126  0.443  112  土日祝の雨
+5      コンビニ -0.022 -0.133  0.088  0.689  112   平日の雨
+6   ドラッグストア -0.285 -0.452 -0.119  0.001  100  土日祝の雨
+7   ドラッグストア -0.196 -0.300 -0.091  0.000  100   平日の雨
+8   ホームセンター -0.550 -0.842 -0.258  0.000  100  土日祝の雨
+9   ホームセンター -0.368 -0.505 -0.232  0.000  100   平日の雨
+10  家電大型専門店 -0.032 -0.926  0.862  0.944  100  土日祝の雨
+11  家電大型専門店 -0.092 -0.372  0.188  0.520  100   平日の雨
+== season
+         系列     係数     下限     上限      p    n  季節
+0       百貨店 -0.020 -0.375  0.335  0.911  112  梅雨
+1       百貨店 -0.247 -0.425 -0.069  0.007  112   夏
+2       百貨店 -0.000 -0.268  0.267  0.998  112   冬
+3       百貨店 -0.091 -0.278  0.095  0.335  112  春秋
+4      スーパー -0.166 -0.322 -0.011  0.036  112  梅雨
+5      スーパー -0.005 -0.086  0.075  0.899  112   夏
+6      スーパー -0.018 -0.162  0.127  0.813  112   冬
+7      スーパー -0.044 -0.110  0.022  0.190  112  春秋
+8      コンビニ -0.107 -0.365  0.152  0.418  112  梅雨
+9      コンビニ  0.177  0.010  0.343  0.038  112   夏
+10     コンビニ -0.061 -0.203  0.081  0.400  112   冬
+11     コンビニ -0.105 -0.294  0.083  0.274  112  春秋
+12  ドラッグストア -0.090 -0.361  0.180  0.513  100  梅雨
+13  ドラッグストア -0.264 -0.611  0.083  0.136  100   夏
+14  ドラッグストア -0.407 -0.665 -0.149  0.002  100   冬
+15  ドラッグストア -0.174 -0.317 -0.031  0.017  100  春秋
+16  ホームセンター -0.596 -0.966 -0.226  0.002  100  梅雨
+17  ホームセンター -0.102 -0.442  0.237  0.555  100   夏
+18  ホームセンター -0.047 -0.284  0.189  0.694  100   冬
+19  ホームセンター -0.628 -0.866 -0.390  0.000  100  春秋
+20  家電大型専門店 -0.263 -1.320  0.795  0.627  100  梅雨
+21  家電大型専門店  0.533 -0.536  1.603  0.328  100   夏
+22  家電大型専門店  0.557 -0.378  1.492  0.243  100   冬
+23  家電大型専門店 -0.497 -1.091  0.097  0.101  100  春秋
+== rob
+         系列     係数     下限     上限      p    n            条件
+0       百貨店 -0.097 -0.203  0.010  0.075  112  基本（1mm以上の日数）
+1       百貨店 -0.079 -0.260  0.103  0.397  112     10mm以上の日数
+2       百貨店 -0.190 -0.756  0.376  0.511  112     月の降水量（対数）
+3       百貨店 -0.160 -0.485  0.166  0.336  152      コロナ期を含める
+4       百貨店 -0.078 -0.205  0.049  0.228   88       2016年以降
+5       百貨店 -0.041 -0.124  0.041  0.326  112      三大都市の雨だけ
+6       百貨店 -0.090 -0.163 -0.017  0.016  112       気温を入れない
+7      スーパー -0.051 -0.094 -0.007  0.023  112  基本（1mm以上の日数）
+8      スーパー -0.055 -0.138  0.029  0.199  112     10mm以上の日数
+9      スーパー -0.115 -0.388  0.159  0.412  112     月の降水量（対数）
+10     スーパー -0.028 -0.073  0.016  0.216  152      コロナ期を含める
+11     スーパー -0.049 -0.102  0.004  0.068   88       2016年以降
+12     スーパー -0.050 -0.099 -0.000  0.048  112      三大都市の雨だけ
+13     スーパー -0.083 -0.142 -0.024  0.006  112       気温を入れない
+14     コンビニ -0.039 -0.141  0.063  0.456  112  基本（1mm以上の日数）
+15     コンビニ -0.098 -0.301  0.106  0.348  112     10mm以上の日数
+16     コンビニ -0.222 -0.704  0.261  0.368  112     月の降水量（対数）
+17     コンビニ -0.062 -0.174  0.050  0.277  152      コロナ期を含める
+18     コンビニ -0.049 -0.164  0.066  0.404   88       2016年以降
+19     コンビニ -0.025 -0.108  0.058  0.559  112      三大都市の雨だけ
+20     コンビニ -0.060 -0.174  0.053  0.298  112       気温を入れない
+21  ドラッグストア -0.221 -0.308 -0.134  0.000  100  基本（1mm以上の日数）
+22  ドラッグストア -0.249 -0.349 -0.149  0.000  100     10mm以上の日数
+23  ドラッグストア -0.911 -1.283 -0.539  0.000  100     月の降水量（対数）
+24  ドラッグストア -0.136 -0.275  0.003  0.055  140      コロナ期を含める
+25  ドラッグストア -0.203 -0.299 -0.108  0.000   88       2016年以降
+26  ドラッグストア -0.157 -0.240 -0.074  0.000  100      三大都市の雨だけ
+27  ドラッグストア -0.239 -0.331 -0.147  0.000  100       気温を入れない
+28  ホームセンター -0.419 -0.555 -0.283  0.000  100  基本（1mm以上の日数）
+29  ホームセンター -0.455 -0.627 -0.284  0.000  100     10mm以上の日数
+30  ホームセンター -1.187 -1.828 -0.547  0.000  100     月の降水量（対数）
+31  ホームセンター -0.376 -0.576 -0.176  0.000  140      コロナ期を含める
+32  ホームセンター -0.464 -0.596 -0.332  0.000   88       2016年以降
+33  ホームセンター -0.289 -0.374 -0.204  0.000  100      三大都市の雨だけ
+34  ホームセンター -0.468 -0.614 -0.321  0.000  100       気温を入れない
+35  家電大型専門店 -0.075 -0.421  0.270  0.669  100  基本（1mm以上の日数）
+36  家電大型専門店  0.052 -0.326  0.430  0.787  100     10mm以上の日数
+37  家電大型専門店  0.242 -0.941  1.424  0.689  100     月の降水量（対数）
+38  家電大型専門店 -0.101 -0.500  0.298  0.620  140      コロナ期を含める
+39  家電大型専門店 -0.150 -0.511  0.211  0.415   88       2016年以降
+40  家電大型専門店 -0.085 -0.310  0.141  0.462  100      三大都市の雨だけ
+41  家電大型専門店 -0.181 -0.535  0.172  0.315  100       気温を入れない
+== panel
+         系列     係数     下限     上限      p     n            条件  地域数
+0      コンビニ  0.007 -0.022  0.036  0.629  1322            基本    9
+1      コンビニ  0.006 -0.029  0.041  0.739   967       コロナ期を除く    9
+2      コンビニ  0.002 -0.038  0.041  0.924  1322     10mm以上の日数    9
+3      コンビニ  0.006 -0.031  0.043  0.739  1170         沖縄を除く    8
+4      コンビニ  0.007 -0.010  0.024  0.402  1322  地域でクラスター（参考）    9
+5      コンビニ  0.025 -0.037  0.087  0.422  1322         土日祝の雨    9
+6      コンビニ -0.001 -0.035  0.033  0.949  1322          平日の雨    9
+7   ドラッグストア -0.086 -0.198  0.026  0.134  1260            基本    9
+8   ドラッグストア -0.044 -0.162  0.073  0.462   900       コロナ期を除く    9
+9   ドラッグストア -0.136 -0.280  0.009  0.065  1260     10mm以上の日数    9
+10  ドラッグストア -0.064 -0.132  0.004  0.066  1120         沖縄を除く    8
+11  ドラッグストア -0.086 -0.163 -0.009  0.029  1260  地域でクラスター（参考）    9
+12  ドラッグストア -0.027 -0.195  0.142  0.755  1260         土日祝の雨    9
+13  ドラッグストア -0.113 -0.256  0.029  0.120  1260          平日の雨    9
+14  ホームセンター -0.149 -0.226 -0.071  0.000   980            基本    7
+15  ホームセンター -0.130 -0.219 -0.041  0.004   700       コロナ期を除く    7
+16  ホームセンター -0.170 -0.275 -0.066  0.001   980     10mm以上の日数    7
+17  ホームセンター -0.149 -0.226 -0.071  0.000   980         沖縄を除く    7
+18  ホームセンター -0.149 -0.284 -0.013  0.031   980  地域でクラスター（参考）    7
+19  ホームセンター -0.197 -0.344 -0.051  0.008   980         土日祝の雨    7
+20  ホームセンター -0.122 -0.208 -0.036  0.005   980          平日の雨    7
+21  家電大型専門店  0.017 -0.092  0.126  0.760  1260            基本    9
+22  家電大型専門店  0.054 -0.056  0.164  0.333   900       コロナ期を除く    9
+23  家電大型専門店  0.024 -0.121  0.169  0.747  1260     10mm以上の日数    9
+24  家電大型専門店 -0.018 -0.121  0.085  0.730  1120         沖縄を除く    8
+25  家電大型専門店  0.017 -0.066  0.100  0.688  1260  地域でクラスター（参考）    9
+26  家電大型専門店  0.123 -0.081  0.328  0.237  1260         土日祝の雨    9
+27  家電大型専門店 -0.032 -0.174  0.110  0.655  1260          平日の雨    9
+{'sd_d_rain1_nat': 2.5623528175263637, 'sd_d_rain1_station': 4.351456737467668, 'mean_rain1_nat': 9.08641975308642, 'corr_rain1_ptot': 0.6609525456273406, 'corr_rain1_tmean': -0.1947148315102595}
