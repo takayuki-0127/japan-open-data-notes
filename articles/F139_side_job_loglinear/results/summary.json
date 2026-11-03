@@ -1,0 +1,248 @@
+{
+ "rate_2017": 0.04131905137888719,
+ "rate_2022": 0.04989004221010492,
+ "best_pair_2017": "age×emp",
+ "best_pair_2022": "age×emp",
+ "change": {
+  "total_pt": 0.8570990831217727,
+  "within_pt": 0.9572582182102228,
+  "composition_pt": -0.10015913508844984
+ },
+ "pooled_year_OR": 1.2559620941004148,
+ "models": [
+  {
+   "year": 2017,
+   "model": "M0 切片だけ",
+   "deviance": 13035.469136880287,
+   "df_resid": 332,
+   "aic": 168586.89128777676,
+   "dev_explained": 0.0,
+   "dissimilarity": 0.024019246133632342
+  },
+  {
+   "year": 2017,
+   "model": "M1 sexだけ",
+   "deviance": 12958.736744981838,
+   "df_resid": 331,
+   "aic": 168512.1588958783,
+   "dev_explained": 0.00588643117426102,
+   "dissimilarity": 0.02366858768096306
+  },
+  {
+   "year": 2017,
+   "model": "M1 ageだけ",
+   "deviance": 10714.013670852184,
+   "df_resid": 326,
+   "aic": 166277.4358217487,
+   "dev_explained": 0.17808760403261448,
+   "dissimilarity": 0.021184737053213117
+  },
+  {
+   "year": 2017,
+   "model": "M1 empだけ",
+   "deviance": 4147.162792209083,
+   "df_resid": 329,
+   "aic": 159704.58494310558,
+   "dev_explained": 0.6818555014275763,
+   "dissimilarity": 0.011271168050797357
+  },
+  {
+   "year": 2017,
+   "model": "M1 inc6だけ",
+   "deviance": 8841.347093304015,
+   "df_resid": 327,
+   "aic": 164402.7692442005,
+   "dev_explained": 0.3217469198488724,
+   "dissimilarity": 0.01728845137507065
+  },
+  {
+   "year": 2017,
+   "model": "M2 4属性の主効果",
+   "deviance": 2882.8792209656594,
+   "df_resid": 317,
+   "aic": 158464.30137186212,
+   "dev_explained": 0.7788434623492496,
+   "dissimilarity": 0.008996329375461472
+  },
+  {
+   "year": 2017,
+   "model": "M3 主効果＋sex×age",
+   "deviance": 2718.1250021037654,
+   "df_resid": 311,
+   "aic": 158311.54715300023,
+   "dev_explained": 0.7914823798390519,
+   "dissimilarity": 0.008746948948890537
+  },
+  {
+   "year": 2017,
+   "model": "M3 主効果＋sex×emp",
+   "deviance": 2847.4303528049463,
+   "df_resid": 314,
+   "aic": 158434.8525037014,
+   "dev_explained": 0.7815628787191922,
+   "dissimilarity": 0.008919973440448124
+  },
+  {
+   "year": 2017,
+   "model": "M3 主効果＋sex×inc6",
+   "deviance": 2758.783474247373,
+   "df_resid": 312,
+   "aic": 158350.20562514383,
+   "dev_explained": 0.7883633150998646,
+   "dissimilarity": 0.008753214330406081
+  },
+  {
+   "year": 2017,
+   "model": "M3 主効果＋age×emp",
+   "deviance": 1719.8691115818706,
+   "df_resid": 299,
+   "aic": 157337.29126247833,
+   "dev_explained": 0.8680623540647285,
+   "dissimilarity": 0.006848685239192198
+  },
+  {
+   "year": 2017,
+   "model": "M3 主効果＋age×inc6",
+   "deviance": 2025.4510719434224,
+   "df_resid": 287,
+   "aic": 157666.8732228399,
+   "dev_explained": 0.844620009400892,
+   "dissimilarity": 0.00724396002050741
+  },
+  {
+   "year": 2017,
+   "model": "M3 主効果＋emp×inc6",
+   "deviance": 2676.971192318023,
+   "df_resid": 302,
+   "aic": 158288.39334321447,
+   "dev_explained": 0.7946394437969043,
+   "dissimilarity": 0.008591394918628304
+  },
+  {
+   "year": 2017,
+   "model": "M4 主効果＋2属性の組み合わせすべて",
+   "deviance": 821.1493001732883,
+   "df_resid": 240,
+   "aic": 156556.57145106976,
+   "dev_explained": 0.9370065402671185,
+   "dissimilarity": 0.003992739502927362
+  },
+  {
+   "year": 2022,
+   "model": "M0 切片だけ",
+   "deviance": 13676.784109890517,
+   "df_resid": 332,
+   "aic": 195814.1801424753,
+   "dev_explained": 0.0,
+   "dissimilarity": 0.02766783158966058
+  },
+  {
+   "year": 2022,
+   "model": "M1 sexだけ",
+   "deviance": 13464.849220498965,
+   "df_resid": 331,
+   "aic": 195604.2452530837,
+   "dev_explained": 0.015495959261233705,
+   "dissimilarity": 0.0268427249640557
+  },
+  {
+   "year": 2022,
+   "model": "M1 ageだけ",
+   "deviance": 11278.31841361364,
+   "df_resid": 326,
+   "aic": 193427.7144461984,
+   "dev_explained": 0.17536766516204638,
+   "dissimilarity": 0.0237388873228039
+  },
+  {
+   "year": 2022,
+   "model": "M1 empだけ",
+   "deviance": 3914.943074067917,
+   "df_resid": 329,
+   "aic": 186058.3391066527,
+   "dev_explained": 0.7137526597910702,
+   "dissimilarity": 0.012344002183681682
+  },
+  {
+   "year": 2022,
+   "model": "M1 inc6だけ",
+   "deviance": 7696.560256418068,
+   "df_resid": 327,
+   "aic": 189843.9562890028,
+   "dev_explained": 0.4372536559342034,
+   "dissimilarity": 0.017073305437022696
+  },
+  {
+   "year": 2022,
+   "model": "M2 4属性の主効果",
+   "deviance": 2880.6999667312234,
+   "df_resid": 317,
+   "aic": 185048.09599931596,
+   "dev_explained": 0.7893730029233983,
+   "dissimilarity": 0.009966430153631746
+  },
+  {
+   "year": 2022,
+   "model": "M3 主効果＋sex×age",
+   "deviance": 2685.306142843484,
+   "df_resid": 311,
+   "aic": 184864.70217542825,
+   "dev_explained": 0.8036595356578324,
+   "dissimilarity": 0.00941965037917155
+  },
+  {
+   "year": 2022,
+   "model": "M3 主効果＋sex×emp",
+   "deviance": 2833.137080404972,
+   "df_resid": 314,
+   "aic": 185006.53311298974,
+   "dev_explained": 0.792850639621038,
+   "dissimilarity": 0.009884251103390071
+  },
+  {
+   "year": 2022,
+   "model": "M3 主効果＋sex×inc6",
+   "deviance": 2783.598877063613,
+   "df_resid": 312,
+   "aic": 184960.99490964835,
+   "dev_explained": 0.7964727047895256,
+   "dissimilarity": 0.00979397318757893
+  },
+  {
+   "year": 2022,
+   "model": "M3 主効果＋age×emp",
+   "deviance": 2038.9593738727613,
+   "df_resid": 299,
+   "aic": 184242.35540645753,
+   "dev_explained": 0.850918216044789,
+   "dissimilarity": 0.008046014583224981
+  },
+  {
+   "year": 2022,
+   "model": "M3 主効果＋age×inc6",
+   "deviance": 2061.2794371801874,
+   "df_resid": 287,
+   "aic": 184288.67546976492,
+   "dev_explained": 0.849286248827343,
+   "dissimilarity": 0.008045064485992322
+  },
+  {
+   "year": 2022,
+   "model": "M3 主効果＋emp×inc6",
+   "deviance": 2634.8309306474366,
+   "df_resid": 302,
+   "aic": 184832.22696323218,
+   "dev_explained": 0.8073501117311613,
+   "dissimilarity": 0.009607836617314066
+  },
+  {
+   "year": 2022,
+   "model": "M4 主効果＋2属性の組み合わせすべて",
+   "deviance": 959.0850468410526,
+   "df_resid": 240,
+   "aic": 183280.4810794258,
+   "dev_explained": 0.9298749589717161,
+   "dissimilarity": 0.004938441074494357
+  }
+ ]
+}
