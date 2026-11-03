@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+lightgbm==4.7.0
+shap==0.54.1
+matplotlib
+scipy
