@@ -1,0 +1,770 @@
+{
+ "screening_base": {
+  "n_units": 1654,
+  "national_rate": 16.77988585101692,
+  "top50_small_share_true": 0.46,
+  "funnel_out_share_true": 0.7684401451027811,
+  "size_corr_true": -0.35860663342802257,
+  "small_share_all": 0.12394195888754535,
+  "median_y_small": 70.0,
+  "median_n_small": 281.0
+ },
+ "screening_median": [
+  {
+   "eps": 0.01,
+   "mae_all": 5.3151,
+   "mae_500人未満": 29.8055,
+   "mae_500〜2,000人": 12.4309,
+   "mae_2,000〜1万人": 3.3648,
+   "mae_1万人以上": 0.6628,
+   "spearman": 0.4672,
+   "top50_overlap": 0.14,
+   "top50_small_share": 0.7,
+   "national_err_pt": 0.1543,
+   "funnel_kappa": 0.3857,
+   "funnel_out_share": 0.8531,
+   "size_corr": -0.1203,
+   "pref_sum_err_pt": 0.5581,
+   "bias_500人未満": 12.4873
+  },
+  {
+   "eps": 0.03,
+   "mae_all": 1.8027,
+   "mae_500人未満": 16.9021,
+   "mae_500〜2,000人": 4.4792,
+   "mae_2,000〜1万人": 1.1195,
+   "mae_1万人以上": 0.2242,
+   "spearman": 0.7368,
+   "top50_overlap": 0.24,
+   "top50_small_share": 0.84,
+   "national_err_pt": 0.0266,
+   "funnel_kappa": 0.6137,
+   "funnel_out_share": 0.8138,
+   "size_corr": -0.2261,
+   "pref_sum_err_pt": 0.1996,
+   "bias_500人未満": 6.306
+  },
+  {
+   "eps": 0.1,
+   "mae_all": 0.5354,
+   "mae_500人未満": 5.8505,
+   "mae_500〜2,000人": 1.356,
+   "mae_2,000〜1万人": 0.3347,
+   "mae_1万人以上": 0.0667,
+   "spearman": 0.9232,
+   "top50_overlap": 0.55,
+   "top50_small_share": 0.66,
+   "national_err_pt": 0.0073,
+   "funnel_kappa": 0.8359,
+   "funnel_out_share": 0.783,
+   "size_corr": -0.3136,
+   "pref_sum_err_pt": 0.0621,
+   "bias_500人未満": 1.316
+  },
+  {
+   "eps": 0.3,
+   "mae_all": 0.1804,
+   "mae_500人未満": 1.9506,
+   "mae_500〜2,000人": 0.454,
+   "mae_2,000〜1万人": 0.1127,
+   "mae_1万人以上": 0.0225,
+   "spearman": 0.9824,
+   "top50_overlap": 0.82,
+   "top50_small_share": 0.52,
+   "national_err_pt": 0.0025,
+   "funnel_kappa": 0.9394,
+   "funnel_out_share": 0.7709,
+   "size_corr": -0.3478,
+   "pref_sum_err_pt": 0.0204,
+   "bias_500人未満": 0.2374
+  },
+  {
+   "eps": 1.0,
+   "mae_all": 0.0539,
+   "mae_500人未満": 0.6049,
+   "mae_500〜2,000人": 0.1371,
+   "mae_2,000〜1万人": 0.0346,
+   "mae_1万人以上": 0.0068,
+   "spearman": 0.9978,
+   "top50_overlap": 0.94,
+   "top50_small_share": 0.46,
+   "national_err_pt": 0.0007,
+   "funnel_kappa": 0.9806,
+   "funnel_out_share": 0.7678,
+   "size_corr": -0.3564,
+   "pref_sum_err_pt": 0.0062,
+   "bias_500人未満": -0.0281
+  },
+  {
+   "eps": 3.0,
+   "mae_all": 0.0121,
+   "mae_500人未満": 0.2018,
+   "mae_500〜2,000人": 0.0438,
+   "mae_2,000〜1万人": 0.01,
+   "mae_1万人以上": 0.0015,
+   "spearman": 0.9997,
+   "top50_overlap": 0.98,
+   "top50_small_share": 0.46,
+   "national_err_pt": 0.0003,
+   "funnel_kappa": 0.9942,
+   "funnel_out_share": 0.7684,
+   "size_corr": -0.3584,
+   "pref_sum_err_pt": 0.0021,
+   "bias_500人未満": 0.0078
+  },
+  {
+   "eps": 10.0,
+   "mae_all": 0.0,
+   "mae_500人未満": 0.0,
+   "mae_500〜2,000人": 0.0,
+   "mae_2,000〜1万人": 0.0,
+   "mae_1万人以上": 0.0,
+   "spearman": 1.0,
+   "top50_overlap": 1.0,
+   "top50_small_share": 0.46,
+   "national_err_pt": 0.0001,
+   "funnel_kappa": 0.999,
+   "funnel_out_share": 0.7684,
+   "size_corr": -0.3586,
+   "pref_sum_err_pt": 0.0006,
+   "bias_500人未満": 0.0024
+  }
+ ],
+ "pref_direct": [
+  {
+   "eps": 0.01,
+   "pref_direct_err_pt": 0.08207
+  },
+  {
+   "eps": 0.03,
+   "pref_direct_err_pt": 0.02864
+  },
+  {
+   "eps": 0.1,
+   "pref_direct_err_pt": 0.00862
+  },
+  {
+   "eps": 0.3,
+   "pref_direct_err_pt": 0.0028
+  },
+  {
+   "eps": 1.0,
+   "pref_direct_err_pt": 0.00086
+  },
+  {
+   "eps": 3.0,
+   "pref_direct_err_pt": 0.00019
+  },
+  {
+   "eps": 10.0,
+   "pref_direct_err_pt": 0.0
+  }
+ ],
+ "suppression": [
+  {
+   "k": 10,
+   "hidden_units": 8,
+   "hidden_share": 0.0048,
+   "hidden_small_share": 0.0244,
+   "top50_overlap": 1.0,
+   "top50_small_share": 0.46,
+   "size_corr": -0.3677,
+   "national_err_pt": 0.0136,
+   "pref_err_pt": 0.0
+  },
+  {
+   "k": 20,
+   "hidden_units": 18,
+   "hidden_share": 0.0109,
+   "hidden_small_share": 0.0732,
+   "top50_overlap": 1.0,
+   "top50_small_share": 0.46,
+   "size_corr": -0.3699,
+   "national_err_pt": 0.0137,
+   "pref_err_pt": 0.0
+  },
+  {
+   "k": 50,
+   "hidden_units": 78,
+   "hidden_share": 0.0472,
+   "hidden_small_share": 0.3415,
+   "top50_overlap": 0.9,
+   "top50_small_share": 0.36,
+   "size_corr": -0.3977,
+   "national_err_pt": 0.0225,
+   "pref_err_pt": 0.0005
+  },
+  {
+   "k": 100,
+   "hidden_units": 183,
+   "hidden_share": 0.1106,
+   "hidden_small_share": 0.7171,
+   "top50_overlap": 0.78,
+   "top50_small_share": 0.3,
+   "size_corr": -0.4146,
+   "national_err_pt": 0.0282,
+   "pref_err_pt": 0.015
+  }
+ ],
+ "smr_base": {
+  "all": {
+   "n_units": 1887,
+   "median_O": 1922.0,
+   "share_O_lt30": 0.0037095919448860626
+  },
+  "stroke": {
+   "n_units": 1815,
+   "median_O": 158.0,
+   "share_O_lt30": 0.09586776859504133
+  }
+ },
+ "smr_median": [
+  {
+   "cause": "all",
+   "eps": 0.01,
+   "mae_smr": 0.0332,
+   "spearman": 0.5989,
+   "top50_overlap": 0.2
+  },
+  {
+   "cause": "all",
+   "eps": 0.03,
+   "mae_smr": 0.011,
+   "spearman": 0.8331,
+   "top50_overlap": 0.45
+  },
+  {
+   "cause": "all",
+   "eps": 0.1,
+   "mae_smr": 0.0033,
+   "spearman": 0.9594,
+   "top50_overlap": 0.8
+  },
+  {
+   "cause": "all",
+   "eps": 0.3,
+   "mae_smr": 0.0011,
+   "spearman": 0.9925,
+   "top50_overlap": 0.92
+  },
+  {
+   "cause": "all",
+   "eps": 1.0,
+   "mae_smr": 0.0002,
+   "spearman": 0.999,
+   "top50_overlap": 0.98
+  },
+  {
+   "cause": "all",
+   "eps": 3.0,
+   "mae_smr": 0.0,
+   "spearman": 0.9999,
+   "top50_overlap": 1.0
+  },
+  {
+   "cause": "all",
+   "eps": 10.0,
+   "mae_smr": 0.0,
+   "spearman": 1.0,
+   "top50_overlap": 1.0
+  },
+  {
+   "cause": "stroke",
+   "eps": 0.01,
+   "mae_smr": 0.4092,
+   "spearman": 0.247,
+   "top50_overlap": 0.1
+  },
+  {
+   "cause": "stroke",
+   "eps": 0.03,
+   "mae_smr": 0.1377,
+   "spearman": 0.5018,
+   "top50_overlap": 0.16
+  },
+  {
+   "cause": "stroke",
+   "eps": 0.1,
+   "mae_smr": 0.0413,
+   "spearman": 0.7954,
+   "top50_overlap": 0.44
+  },
+  {
+   "cause": "stroke",
+   "eps": 0.3,
+   "mae_smr": 0.0137,
+   "spearman": 0.948,
+   "top50_overlap": 0.8
+  },
+  {
+   "cause": "stroke",
+   "eps": 1.0,
+   "mae_smr": 0.0026,
+   "spearman": 0.993,
+   "top50_overlap": 0.94
+  },
+  {
+   "cause": "stroke",
+   "eps": 3.0,
+   "mae_smr": 0.0,
+   "spearman": 0.9991,
+   "top50_overlap": 0.98
+  },
+  {
+   "cause": "stroke",
+   "eps": 10.0,
+   "mae_smr": 0.0,
+   "spearman": 1.0,
+   "top50_overlap": 1.0
+  }
+ ],
+ "smr_stroke_already_missing": 72,
+ "reg_true": {
+  "coef": {
+   "young_f": 0.05707856667765105,
+   "income": -0.07101846186426485,
+   "commute_out": -0.05985060140465585,
+   "nursery": -0.003483159065333336,
+   "tertiary": -0.029000562041540744,
+   "density": 0.024365596679876627
+  },
+  "se": {
+   "young_f": 0.007385811395258865,
+   "income": 0.006144913766725853,
+   "commute_out": 0.005605202869691578,
+   "nursery": 0.005026795950483761,
+   "tertiary": 0.0057494391820119345,
+   "density": 0.008338265577526151
+  },
+  "r2": 0.14601784133258378,
+  "n": 1841,
+  "min_pop": 169.0,
+  "median_pop": 27282.0,
+  "min_young_f_count": 24.0
+ },
+ "reg_median": [
+  {
+   "eps": 0.01,
+   "r2": 0.1201,
+   "b_young_f": 0.0097,
+   "b_income": -0.053,
+   "b_commute_out": -0.0565,
+   "b_nursery": -0.0163,
+   "b_tertiary": -0.0296,
+   "b_density": 0.0464
+  },
+  {
+   "eps": 0.03,
+   "r2": 0.1244,
+   "b_young_f": 0.0185,
+   "b_income": -0.0563,
+   "b_commute_out": -0.0573,
+   "b_nursery": -0.0141,
+   "b_tertiary": -0.03,
+   "b_density": 0.0434
+  },
+  {
+   "eps": 0.1,
+   "r2": 0.1384,
+   "b_young_f": 0.0439,
+   "b_income": -0.0656,
+   "b_commute_out": -0.0589,
+   "b_nursery": -0.0072,
+   "b_tertiary": -0.0294,
+   "b_density": 0.0314
+  },
+  {
+   "eps": 0.3,
+   "r2": 0.1445,
+   "b_young_f": 0.0546,
+   "b_income": -0.0701,
+   "b_commute_out": -0.0597,
+   "b_nursery": -0.0042,
+   "b_tertiary": -0.0291,
+   "b_density": 0.0256
+  },
+  {
+   "eps": 1.0,
+   "r2": 0.1459,
+   "b_young_f": 0.0569,
+   "b_income": -0.0709,
+   "b_commute_out": -0.0598,
+   "b_nursery": -0.0035,
+   "b_tertiary": -0.029,
+   "b_density": 0.0244
+  },
+  {
+   "eps": 3.0,
+   "r2": 0.146,
+   "b_young_f": 0.057,
+   "b_income": -0.071,
+   "b_commute_out": -0.0598,
+   "b_nursery": -0.0035,
+   "b_tertiary": -0.029,
+   "b_density": 0.0244
+  },
+  {
+   "eps": 10.0,
+   "r2": 0.146,
+   "b_young_f": 0.0571,
+   "b_income": -0.071,
+   "b_commute_out": -0.0599,
+   "b_nursery": -0.0035,
+   "b_tertiary": -0.029,
+   "b_density": 0.0244
+  }
+ ],
+ "reg_lo": [
+  {
+   "eps": 0.01,
+   "r2": 0.1167,
+   "b_young_f": 0.0021,
+   "b_income": -0.0545,
+   "b_commute_out": -0.0576,
+   "b_nursery": -0.0178,
+   "b_tertiary": -0.031,
+   "b_density": 0.0424
+  },
+  {
+   "eps": 0.03,
+   "r2": 0.1193,
+   "b_young_f": 0.0068,
+   "b_income": -0.0599,
+   "b_commute_out": -0.0586,
+   "b_nursery": -0.0162,
+   "b_tertiary": -0.0312,
+   "b_density": 0.0378
+  },
+  {
+   "eps": 0.1,
+   "r2": 0.128,
+   "b_young_f": 0.0283,
+   "b_income": -0.0687,
+   "b_commute_out": -0.0601,
+   "b_nursery": -0.0115,
+   "b_tertiary": -0.0309,
+   "b_density": 0.0261
+  },
+  {
+   "eps": 0.3,
+   "r2": 0.1397,
+   "b_young_f": 0.0485,
+   "b_income": -0.0715,
+   "b_commute_out": -0.0602,
+   "b_nursery": -0.0062,
+   "b_tertiary": -0.0297,
+   "b_density": 0.023
+  },
+  {
+   "eps": 1.0,
+   "r2": 0.1447,
+   "b_young_f": 0.0554,
+   "b_income": -0.0714,
+   "b_commute_out": -0.0601,
+   "b_nursery": -0.004,
+   "b_tertiary": -0.0292,
+   "b_density": 0.0235
+  },
+  {
+   "eps": 3.0,
+   "r2": 0.1455,
+   "b_young_f": 0.0565,
+   "b_income": -0.0711,
+   "b_commute_out": -0.0599,
+   "b_nursery": -0.0037,
+   "b_tertiary": -0.0291,
+   "b_density": 0.0241
+  },
+  {
+   "eps": 10.0,
+   "r2": 0.1458,
+   "b_young_f": 0.0568,
+   "b_income": -0.0711,
+   "b_commute_out": -0.0599,
+   "b_nursery": -0.0035,
+   "b_tertiary": -0.029,
+   "b_density": 0.0243
+  }
+ ],
+ "reg_hi": [
+  {
+   "eps": 0.01,
+   "r2": 0.1242,
+   "b_young_f": 0.0163,
+   "b_income": -0.0509,
+   "b_commute_out": -0.0549,
+   "b_nursery": -0.0144,
+   "b_tertiary": -0.0278,
+   "b_density": 0.0494
+  },
+  {
+   "eps": 0.03,
+   "r2": 0.1328,
+   "b_young_f": 0.029,
+   "b_income": -0.0535,
+   "b_commute_out": -0.0564,
+   "b_nursery": -0.0103,
+   "b_tertiary": -0.0286,
+   "b_density": 0.0478
+  },
+  {
+   "eps": 0.1,
+   "r2": 0.146,
+   "b_young_f": 0.0544,
+   "b_income": -0.0604,
+   "b_commute_out": -0.0576,
+   "b_nursery": -0.0032,
+   "b_tertiary": -0.0278,
+   "b_density": 0.0381
+  },
+  {
+   "eps": 0.3,
+   "r2": 0.1483,
+   "b_young_f": 0.059,
+   "b_income": -0.0681,
+   "b_commute_out": -0.059,
+   "b_nursery": -0.0024,
+   "b_tertiary": -0.0282,
+   "b_density": 0.0292
+  },
+  {
+   "eps": 1.0,
+   "r2": 0.1474,
+   "b_young_f": 0.0586,
+   "b_income": -0.0705,
+   "b_commute_out": -0.0597,
+   "b_nursery": -0.0029,
+   "b_tertiary": -0.0287,
+   "b_density": 0.0254
+  },
+  {
+   "eps": 3.0,
+   "r2": 0.1464,
+   "b_young_f": 0.0575,
+   "b_income": -0.0708,
+   "b_commute_out": -0.0598,
+   "b_nursery": -0.0033,
+   "b_tertiary": -0.0289,
+   "b_density": 0.0247
+  },
+  {
+   "eps": 10.0,
+   "r2": 0.1462,
+   "b_young_f": 0.0573,
+   "b_income": -0.071,
+   "b_commute_out": -0.0598,
+   "b_nursery": -0.0034,
+   "b_tertiary": -0.029,
+   "b_density": 0.0245
+  }
+ ],
+ "robustness": [
+  {
+   "check": "基本（ラプラス・切り上げあり・予算半々・2023年度・大腸）",
+   "eps": 0.1,
+   "mae_all": 0.5354,
+   "mae_500人未満": 5.8505,
+   "spearman": 0.9232,
+   "top50_overlap": 0.55,
+   "top50_small_share": 0.66,
+   "funnel_kappa": 0.8359,
+   "bias_500人未満": 1.316
+  },
+  {
+   "check": "基本（ラプラス・切り上げあり・予算半々・2023年度・大腸）",
+   "eps": 1.0,
+   "mae_all": 0.0539,
+   "mae_500人未満": 0.6049,
+   "spearman": 0.9978,
+   "top50_overlap": 0.94,
+   "top50_small_share": 0.46,
+   "funnel_kappa": 0.9806,
+   "bias_500人未満": -0.0281
+  },
+  {
+   "check": "離散ラプラス（整数のノイズ）",
+   "eps": 0.1,
+   "mae_all": 0.5401,
+   "mae_500人未満": 5.9456,
+   "spearman": 0.9216,
+   "top50_overlap": 0.56,
+   "top50_small_share": 0.66,
+   "funnel_kappa": 0.8332,
+   "bias_500人未満": 1.3684
+  },
+  {
+   "check": "離散ラプラス（整数のノイズ）",
+   "eps": 1.0,
+   "mae_all": 0.0511,
+   "mae_500人未満": 0.5747,
+   "spearman": 0.9979,
+   "top50_overlap": 0.94,
+   "top50_small_share": 0.46,
+   "funnel_kappa": 0.9816,
+   "bias_500人未満": -0.0054
+  },
+  {
+   "check": "後処理なし（0未満もそのまま）",
+   "eps": 0.1,
+   "mae_all": 0.5429,
+   "mae_500人未満": 5.8819,
+   "spearman": NaN,
+   "top50_overlap": NaN,
+   "top50_small_share": NaN,
+   "funnel_kappa": NaN,
+   "bias_500人未満": 1.1635
+  },
+  {
+   "check": "後処理なし（0未満もそのまま）",
+   "eps": 1.0,
+   "mae_all": 0.0541,
+   "mae_500人未満": 0.5992,
+   "spearman": NaN,
+   "top50_overlap": NaN,
+   "top50_small_share": NaN,
+   "funnel_kappa": NaN,
+   "bias_500人未満": 0.0117
+  },
+  {
+   "check": "予算を受診者に3/4",
+   "eps": 0.1,
+   "mae_all": 0.4414,
+   "mae_500人未満": 5.2117,
+   "spearman": 0.9439,
+   "top50_overlap": 0.54,
+   "top50_small_share": 0.68,
+   "funnel_kappa": 0.8673,
+   "bias_500人未満": 2.5792
+  },
+  {
+   "check": "予算を受診者に3/4",
+   "eps": 1.0,
+   "mae_all": 0.0446,
+   "mae_500人未満": 0.5319,
+   "spearman": 0.9988,
+   "top50_overlap": 0.94,
+   "top50_small_share": 0.46,
+   "funnel_kappa": 0.9854,
+   "bias_500人未満": 0.0513
+  },
+  {
+   "check": "対象者数は公表とみなす（受診者だけにノイズ）",
+   "eps": 0.1,
+   "mae_all": 0.2527,
+   "mae_500人未満": 2.6987,
+   "spearman": 0.9697,
+   "top50_overlap": 0.76,
+   "top50_small_share": 0.54,
+   "funnel_kappa": 0.9127,
+   "bias_500人未満": 0.0759
+  },
+  {
+   "check": "対象者数は公表とみなす（受診者だけにノイズ）",
+   "eps": 1.0,
+   "mae_all": 0.0147,
+   "mae_500人未満": 0.271,
+   "spearman": 0.9995,
+   "top50_overlap": 0.98,
+   "top50_small_share": 0.46,
+   "funnel_kappa": 0.9913,
+   "bias_500人未満": -0.0083
+  },
+  {
+   "check": "2021年度",
+   "eps": 0.1,
+   "mae_all": 0.4778,
+   "mae_500人未満": 5.6841,
+   "spearman": 0.934,
+   "top50_overlap": 0.64,
+   "top50_small_share": 0.54,
+   "funnel_kappa": 0.8412,
+   "bias_500人未満": 1.4732
+  },
+  {
+   "check": "2021年度",
+   "eps": 1.0,
+   "mae_all": 0.0483,
+   "mae_500人未満": 0.5739,
+   "spearman": 0.9985,
+   "top50_overlap": 0.94,
+   "top50_small_share": 0.38,
+   "funnel_kappa": 0.9815,
+   "bias_500人未満": 0.0277
+  },
+  {
+   "check": "2022年度",
+   "eps": 0.1,
+   "mae_all": 0.5095,
+   "mae_500人未満": 5.7007,
+   "spearman": 0.9298,
+   "top50_overlap": 0.64,
+   "top50_small_share": 0.62,
+   "funnel_kappa": 0.8424,
+   "bias_500人未満": 1.2911
+  },
+  {
+   "check": "2022年度",
+   "eps": 1.0,
+   "mae_all": 0.0513,
+   "mae_500人未満": 0.593,
+   "spearman": 0.9984,
+   "top50_overlap": 0.94,
+   "top50_small_share": 0.5,
+   "funnel_kappa": 0.9822,
+   "bias_500人未満": -0.0064
+  },
+  {
+   "check": "2024年度",
+   "eps": 0.1,
+   "mae_all": 0.5648,
+   "mae_500人未満": 5.9213,
+   "spearman": 0.9163,
+   "top50_overlap": 0.58,
+   "top50_small_share": 0.66,
+   "funnel_kappa": 0.8202,
+   "bias_500人未満": 1.2973
+  },
+  {
+   "check": "2024年度",
+   "eps": 1.0,
+   "mae_all": 0.0561,
+   "mae_500人未満": 0.6039,
+   "spearman": 0.9976,
+   "top50_overlap": 0.93,
+   "top50_small_share": 0.46,
+   "funnel_kappa": 0.9835,
+   "bias_500人未満": 0.0143
+  },
+  {
+   "check": "肺がん検診",
+   "eps": 0.1,
+   "mae_all": 0.5271,
+   "mae_500人未満": 5.8782,
+   "spearman": 0.9458,
+   "top50_overlap": 0.6,
+   "top50_small_share": 0.66,
+   "funnel_kappa": 0.8629,
+   "bias_500人未満": 1.1524
+  },
+  {
+   "check": "肺がん検診",
+   "eps": 1.0,
+   "mae_all": 0.0527,
+   "mae_500人未満": 0.5805,
+   "spearman": 0.9988,
+   "top50_overlap": 0.94,
+   "top50_small_share": 0.5,
+   "funnel_kappa": 0.9862,
+   "bias_500人未満": 0.0418
+  }
+ ],
+ "expected_abs_noise_count": {
+  "0.01": 200.0,
+  "0.03": 66.66666666666667,
+  "0.1": 20.0,
+  "0.3": 6.666666666666667,
+  "1.0": 2.0,
+  "3.0": 0.6666666666666666,
+  "10.0": 0.2
+ }
+}
