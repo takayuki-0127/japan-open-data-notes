@@ -1,0 +1,36 @@
+{
+ "gap": {
+  "gap_teiki_thousand": 3140082,
+  "gap_teikigai_thousand": 738221,
+  "teiki_share": 0.81,
+  "teiki_share_of_cf": 0.585,
+  "gap_by_segment_share": {
+   "JR在来線": 0.332,
+   "新幹線": 0.006,
+   "大手民鉄": 0.432,
+   "中小・公営": 0.23
+  },
+  "gap_kanto_kinki_share": 0.876,
+  "kanto_kinki_share_of_cf": 0.852
+ },
+ "validation_2019": {
+  "全国（計）": {
+   "mape": 1.25,
+   "bias": 0.14
+  },
+  "全国（定期）": {
+   "mape": 1.63,
+   "bias": 0.3
+  },
+  "全国（定期外）": {
+   "mape": 1.29,
+   "bias": -0.06
+  },
+  "新幹線": {
+   "mape": 1.88,
+   "bias": -0.64
+  }
+ },
+ "last_month": "2026-06",
+ "last12": "2025-07〜2026-06"
+}
