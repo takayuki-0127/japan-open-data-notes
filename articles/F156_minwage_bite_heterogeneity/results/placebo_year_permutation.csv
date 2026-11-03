@@ -1,0 +1,10 @@
+outcome,mod,t_obs,p_perm,t_perm_sd
+wage,low_wage,1.3496,0.1567,0.8708
+wage,bite,-0.3204,0.6567,0.652
+wage,low_mw,2.6265,0.01,0.9851
+emp,low_wage,-0.9698,0.3967,1.0224
+emp,bite,-2.5833,0.0633,1.4227
+emp,low_mw,-0.1705,0.89,0.9914
+unemp,low_wage,2.5594,0.0367,1.4389
+unemp,bite,2.4414,0.0833,1.3499
+unemp,low_mw,2.3853,0.1733,1.6546
