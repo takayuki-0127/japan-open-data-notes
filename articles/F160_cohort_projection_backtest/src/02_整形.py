@@ -5,7 +5,7 @@
   pop_units.csv  : code, src, year, sex, a0..a18
        src = act（実績：2010・2015・2020は各推計の基準人口、2025は国勢調査の不詳補完値）、
              ipss13 / ipss18 / ipss23（社人研の推計値）
-  surv_units.csv : code, vintage, period, sex, r0..r17（社人研の生残率）
+  surv_units.csv.gz : code, vintage, period, sex, r0..r17（社人研の生残率）
   units.csv      : code, pref, muni, kind
 """
 import gzip
@@ -138,7 +138,7 @@ pop = pop[pop.code.isin(common)].sort_values(["code", "src", "year", "sex"])
 surv = surv[surv.code.isin(common)].sort_values(["code", "vintage", "period", "sex"])
 info = info[info.code.isin(common)].sort_values("code")
 pop.to_csv(DATA / "pop_units.csv", index=False, float_format="%.6g")
-surv.to_csv(DATA / "surv_units.csv", index=False, float_format="%.6g")
+surv.to_csv(DATA / "surv_units.csv.gz", index=False, float_format="%.6g")
 info.to_csv(DATA / "units.csv", index=False)
 print("単位数:", len(common), "| pop行:", len(pop), "| surv行:", len(surv))
 print(pop.groupby(["src", "year"]).code.nunique().to_string())

@@ -10,7 +10,7 @@ from common import DATA, RES, NA, F1549, F2044
 
 rng = np.random.default_rng(160)
 pop = pd.read_csv(DATA / "pop_units.csv")
-surv = pd.read_csv(DATA / "surv_units.csv")
+surv = pd.read_csv(DATA / "surv_units.csv.gz")
 info = pd.read_csv(DATA / "units.csv").set_index("code")
 codes = np.array(sorted(info.index))
 U = len(codes)
