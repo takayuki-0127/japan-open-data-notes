@@ -1,0 +1,32 @@
+{
+ "births2030_below600k": {
+  "truth": 0.596,
+  "point": 1.0,
+  "interval_normal": 0.5767166567598662,
+  "fan": 0.586477217766743,
+  "dots20": 0.6,
+  "hop20_example": 0.75,
+  "p025": 421800.91015625,
+  "p50": 577817.59375,
+  "p975": 871178.7890625,
+  "hop20_within5pt": 0.337
+ },
+ "power": {
+  "method": "conf_0.95",
+  "level": 0.95,
+  "days": 2374,
+  "exceed_rate": 0.05012636899747262,
+  "months": 78,
+  "share_months_ge1": 0.5128205128205128,
+  "share_months_ge1_indep": 0.7899214903552682,
+  "share_months_ge3": 0.28205128205128205,
+  "share_months_ge3_indep": 0.19350639534297623,
+  "max_in_month": 11,
+  "p_exceed_next_given_exceed": 0.17647058823529413,
+  "longest_run": 5,
+  "share_exceed_in_runs_ge2": 0.29411764705882354,
+  "exceed_rate_その他": 0.01682085786375105,
+  "exceed_rate_冬（12〜2月）": 0.09611829944547134,
+  "exceed_rate_夏（7〜9月）": 0.07298136645962733
+ }
+}
