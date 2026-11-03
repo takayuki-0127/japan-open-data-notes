@@ -1,0 +1,9 @@
+,value
+n,1740.0
+k,5.0
+silhouette_k,0.155
+silhouette_best_k,2.0
+silhouette_best,0.265
+ari_seed_min,0.847
+ari_seed_median,0.949
+pca_var_explained,0.607
