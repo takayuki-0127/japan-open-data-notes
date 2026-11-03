@@ -1,0 +1,966 @@
+{
+ "national_fits": [
+  {
+   "series": "res_cnt_new",
+   "model": "Bass",
+   "K_ratio": 1.815,
+   "K_at_bound": false,
+   "aic": 2008.267,
+   "rmse_pct": 2.942,
+   "t10": 2014.552,
+   "t50": 2025.849,
+   "t90": 2056.146
+  },
+  {
+   "series": "res_cnt_new",
+   "model": "ロジスティック",
+   "K_ratio": 1.091,
+   "K_at_bound": false,
+   "aic": 2055.177,
+   "rmse_pct": 3.829,
+   "t10": 2012.5,
+   "t50": 2019.8,
+   "t90": 2027.987
+  },
+  {
+   "series": "res_cnt_new",
+   "model": "ゴンペルツ",
+   "K_ratio": 1.311,
+   "K_at_bound": false,
+   "aic": 2020.399,
+   "rmse_pct": 3.149,
+   "t10": 2013.006,
+   "t50": 2021.321,
+   "t90": 2034.369
+  },
+  {
+   "series": "big_kw_new",
+   "model": "Bass",
+   "K_ratio": 1.043,
+   "K_at_bound": false,
+   "aic": 2546.841,
+   "rmse_pct": 2.633,
+   "t10": 2013.794,
+   "t50": 2017.801,
+   "t90": 2023.899
+  },
+  {
+   "series": "big_kw_new",
+   "model": "ロジスティック",
+   "K_ratio": 1.002,
+   "K_at_bound": false,
+   "aic": 2652.458,
+   "rmse_pct": 4.765,
+   "t10": 2013.188,
+   "t50": 2017.841,
+   "t90": 2022.494
+  },
+  {
+   "series": "big_kw_new",
+   "model": "ゴンペルツ",
+   "K_ratio": 1.019,
+   "K_at_bound": false,
+   "aic": 2561.787,
+   "rmse_pct": 2.863,
+   "t10": 2013.888,
+   "t50": 2017.576,
+   "t90": 2023.361
+  },
+  {
+   "series": "wind_kw_new",
+   "model": "Bass",
+   "K_ratio": 5.66,
+   "K_at_bound": false,
+   "aic": 2053.878,
+   "rmse_pct": 1.966,
+   "t10": 2023.287,
+   "t50": 2034.27,
+   "t90": 2045.827
+  },
+  {
+   "series": "wind_kw_new",
+   "model": "ロジスティック",
+   "K_ratio": 1.557,
+   "K_at_bound": false,
+   "aic": 2107.765,
+   "rmse_pct": 2.661,
+   "t10": 2018.081,
+   "t50": 2024.92,
+   "t90": 2031.76
+  },
+  {
+   "series": "wind_kw_new",
+   "model": "ゴンペルツ",
+   "K_ratio": 4.981,
+   "K_at_bound": false,
+   "aic": 2079.34,
+   "rmse_pct": 2.268,
+   "t10": 2022.549,
+   "t50": 2036.041,
+   "t90": 2057.212
+  }
+ ],
+ "pref_fit_summary": {
+  "res_cnt_new": {
+   "Bass": {
+    "n": 47,
+    "K_at_bound": 2,
+    "median_rmse_pct": 2.84,
+    "t50_median": 2023.7,
+    "t50_iqr": [
+     2021.48,
+     2027.14
+    ],
+    "dur10_90_median": 34.32,
+    "K_ratio_median": 1.65
+   },
+   "ロジスティック": {
+    "n": 47,
+    "K_at_bound": 1,
+    "median_rmse_pct": 3.77,
+    "t50_median": 2019.59,
+    "t50_iqr": [
+     2018.87,
+     2020.3
+    ],
+    "dur10_90_median": 15.07,
+    "K_ratio_median": 1.07
+   },
+   "ゴンペルツ": {
+    "n": 47,
+    "K_at_bound": 1,
+    "median_rmse_pct": 2.99,
+    "t50_median": 2020.88,
+    "t50_iqr": [
+     2019.87,
+     2022.27
+    ],
+    "dur10_90_median": 20.36,
+    "K_ratio_median": 1.27
+   },
+   "AIC最小のモデル": {
+    "Bass": 27,
+    "ゴンペルツ": 19,
+    "ロジスティック": 1
+   }
+  },
+  "big_kw_new": {
+   "Bass": {
+    "n": 47,
+    "K_at_bound": 0,
+    "median_rmse_pct": 3.26,
+    "t50_median": 2017.29,
+    "t50_iqr": [
+     2016.68,
+     2018.27
+    ],
+    "dur10_90_median": 8.53,
+    "K_ratio_median": 1.01
+   },
+   "ロジスティック": {
+    "n": 47,
+    "K_at_bound": 0,
+    "median_rmse_pct": 5.11,
+    "t50_median": 2017.35,
+    "t50_iqr": [
+     2016.79,
+     2017.97
+    ],
+    "dur10_90_median": 8.17,
+    "K_ratio_median": 1.0
+   },
+   "ゴンペルツ": {
+    "n": 47,
+    "K_at_bound": 0,
+    "median_rmse_pct": 3.18,
+    "t50_median": 2017.18,
+    "t50_iqr": [
+     2016.63,
+     2017.92
+    ],
+    "dur10_90_median": 8.31,
+    "K_ratio_median": 1.0
+   },
+   "AIC最小のモデル": {
+    "Bass": 25,
+    "ゴンペルツ": 22
+   }
+  },
+  "wind_kw_new": {
+   "Bass": {
+    "n": 38,
+    "K_at_bound": 3,
+    "median_rmse_pct": 9.67,
+    "t50_median": 2020.98,
+    "t50_iqr": [
+     2018.55,
+     2024.57
+    ],
+    "dur10_90_median": 4.85,
+    "K_ratio_median": 1.03
+   },
+   "ロジスティック": {
+    "n": 38,
+    "K_at_bound": 5,
+    "median_rmse_pct": 8.7,
+    "t50_median": 2021.02,
+    "t50_iqr": [
+     2018.56,
+     2025.79
+    ],
+    "dur10_90_median": 3.75,
+    "K_ratio_median": 1.01
+   },
+   "ゴンペルツ": {
+    "n": 38,
+    "K_at_bound": 7,
+    "median_rmse_pct": 9.64,
+    "t50_median": 2021.3,
+    "t50_iqr": [
+     2018.64,
+     2031.18
+    ],
+    "dur10_90_median": 7.32,
+    "K_ratio_median": 1.11
+   },
+   "AIC最小のモデル": {
+    "ロジスティック": 23,
+    "ゴンペルツ": 10,
+    "Bass": 5
+   }
+  }
+ },
+ "validation_mape_2026_03": [
+  {
+   "series": "big_kw_new",
+   "model": "Bass",
+   "median_ape": 4.853,
+   "share_under": 0.851
+  },
+  {
+   "series": "big_kw_new",
+   "model": "ゴンペルツ",
+   "median_ape": 5.821,
+   "share_under": 0.872
+  },
+  {
+   "series": "big_kw_new",
+   "model": "ロジスティック",
+   "median_ape": 5.358,
+   "share_under": 0.979
+  },
+  {
+   "series": "big_kw_new",
+   "model": "直線（直近2年の伸び）",
+   "median_ape": 10.004,
+   "share_under": 0.085
+  },
+  {
+   "series": "res_cnt_new",
+   "model": "Bass",
+   "median_ape": 17.742,
+   "share_under": 1.0
+  },
+  {
+   "series": "res_cnt_new",
+   "model": "ゴンペルツ",
+   "median_ape": 20.93,
+   "share_under": 1.0
+  },
+  {
+   "series": "res_cnt_new",
+   "model": "ロジスティック",
+   "median_ape": 24.002,
+   "share_under": 1.0
+  },
+  {
+   "series": "res_cnt_new",
+   "model": "直線（直近2年の伸び）",
+   "median_ape": 2.574,
+   "share_under": 0.894
+  },
+  {
+   "series": "wind_kw_new",
+   "model": "Bass",
+   "median_ape": 31.712,
+   "share_under": 0.556
+  },
+  {
+   "series": "wind_kw_new",
+   "model": "ゴンペルツ",
+   "median_ape": 39.671,
+   "share_under": 0.472
+  },
+  {
+   "series": "wind_kw_new",
+   "model": "ロジスティック",
+   "median_ape": 19.068,
+   "share_under": 0.583
+  },
+  {
+   "series": "wind_kw_new",
+   "model": "直線（直近2年の伸び）",
+   "median_ape": 26.535,
+   "share_under": 0.528
+  }
+ ],
+ "spearman": {
+  "res_per1000det": {
+   "sunshine_h": {
+    "rho": 0.566,
+    "p": 0.0,
+    "n": 47
+   },
+   "detached_share": {
+    "rho": -0.127,
+    "p": 0.3938,
+    "n": 47
+   },
+   "inc_pc": {
+    "rho": 0.192,
+    "p": 0.1962,
+    "n": 47
+   },
+   "res_mig_per1000det": {
+    "rho": 0.758,
+    "p": 0.0,
+    "n": 47
+   }
+  },
+  "res_pace": {
+   "sunshine_h": {
+    "rho": 0.594,
+    "p": 0.0,
+    "n": 47
+   },
+   "detached_share": {
+    "rho": -0.179,
+    "p": 0.2289,
+    "n": 47
+   },
+   "inc_pc": {
+    "rho": 0.271,
+    "p": 0.065,
+    "n": 47
+   },
+   "res_mig_per1000det": {
+    "rho": 0.728,
+    "p": 0.0,
+    "n": 47
+   }
+  },
+  "res_per1000det_2017": {
+   "sunshine_h": {
+    "rho": 0.496,
+    "p": 0.0004,
+    "n": 47
+   },
+   "detached_share": {
+    "rho": -0.047,
+    "p": 0.7534,
+    "n": 47
+   },
+   "inc_pc": {
+    "rho": 0.107,
+    "p": 0.4752,
+    "n": 47
+   },
+   "res_mig_per1000det": {
+    "rho": 0.745,
+    "p": 0.0,
+    "n": 47
+   }
+  },
+  "t50obs_res": {
+   "sunshine_h": {
+    "rho": -0.032,
+    "p": 0.8308,
+    "n": 47
+   },
+   "detached_share": {
+    "rho": -0.161,
+    "p": 0.2808,
+    "n": 47
+   },
+   "inc_pc": {
+    "rho": 0.232,
+    "p": 0.1161,
+    "n": 47
+   },
+   "res_mig_per1000det": {
+    "rho": -0.295,
+    "p": 0.044,
+    "n": 47
+   }
+  },
+  "big_kw_per_km2": {
+   "sunshine_h": {
+    "rho": 0.585,
+    "p": 0.0,
+    "n": 47
+   },
+   "detached_share": {
+    "rho": -0.118,
+    "p": 0.4311,
+    "n": 47
+   },
+   "inc_pc": {
+    "rho": 0.182,
+    "p": 0.2196,
+    "n": 47
+   },
+   "res_mig_per1000det": {
+    "rho": 0.527,
+    "p": 0.0001,
+    "n": 47
+   }
+  },
+  "t50obs_big": {
+   "sunshine_h": {
+    "rho": -0.146,
+    "p": 0.3265,
+    "n": 47
+   },
+   "detached_share": {
+    "rho": 0.448,
+    "p": 0.0016,
+    "n": 47
+   },
+   "inc_pc": {
+    "rho": -0.073,
+    "p": 0.6271,
+    "n": 47
+   },
+   "res_mig_per1000det": {
+    "rho": -0.141,
+    "p": 0.3454,
+    "n": 47
+   }
+  },
+  "big_share_by2017": {
+   "sunshine_h": {
+    "rho": 0.166,
+    "p": 0.264,
+    "n": 47
+   },
+   "detached_share": {
+    "rho": -0.452,
+    "p": 0.0014,
+    "n": 47
+   },
+   "inc_pc": {
+    "rho": 0.071,
+    "p": 0.6337,
+    "n": 47
+   },
+   "res_mig_per1000det": {
+    "rho": 0.164,
+    "p": 0.2694,
+    "n": 47
+   }
+  },
+  "t50obs_res_kw": {
+   "sunshine_h": {
+    "rho": -0.032,
+    "p": 0.8308,
+    "n": 47
+   }
+  },
+  "t50obs_reskw": {
+   "sunshine_h": {
+    "rho": 0.015,
+    "p": 0.9195,
+    "n": 47
+   },
+   "detached_share": {
+    "rho": -0.098,
+    "p": 0.513,
+    "n": 47
+   },
+   "inc_pc": {
+    "rho": 0.263,
+    "p": 0.0736,
+    "n": 47
+   }
+  }
+ },
+ "region": [
+  {
+   "region": "北海道",
+   "res_per1000det": 32.035,
+   "res_per1000det_2017": 13.427,
+   "big_kw_per_km2": 91.141,
+   "big_share_by2017": 0.5,
+   "wind_share": 0.249,
+   "wind_share_2017": 0.085,
+   "t50obs_res_med": 2019.348,
+   "t50obs_big_med": 2017.505,
+   "t50obs_wind_med": 2023.946,
+   "sunshine": 1848.546,
+   "n": 1.0
+  },
+  {
+   "region": "東北",
+   "res_per1000det": 76.645,
+   "res_per1000det_2017": 35.306,
+   "big_kw_per_km2": 394.251,
+   "big_share_by2017": 0.299,
+   "wind_share": 0.484,
+   "wind_share_2017": 0.417,
+   "t50obs_res_med": 2018.491,
+   "t50obs_big_med": 2018.517,
+   "t50obs_wind_med": 2022.689,
+   "sunshine": 1781.413,
+   "n": 6.0
+  },
+  {
+   "region": "関東",
+   "res_per1000det": 90.41,
+   "res_per1000det_2017": 35.153,
+   "big_kw_per_km2": 782.029,
+   "big_share_by2017": 0.512,
+   "wind_share": 0.016,
+   "wind_share_2017": 0.029,
+   "t50obs_res_med": 2019.165,
+   "t50obs_big_med": 2017.051,
+   "t50obs_wind_med": 2025.856,
+   "sunshine": 2148.837,
+   "n": 7.0
+  },
+  {
+   "region": "中部",
+   "res_per1000det": 99.7,
+   "res_per1000det_2017": 40.391,
+   "big_kw_per_km2": 413.101,
+   "big_share_by2017": 0.581,
+   "wind_share": 0.033,
+   "wind_share_2017": 0.107,
+   "t50obs_res_med": 2019.17,
+   "t50obs_big_med": 2016.691,
+   "t50obs_wind_med": 2018.375,
+   "sunshine": 2017.688,
+   "n": 9.0
+  },
+  {
+   "region": "近畿",
+   "res_per1000det": 82.922,
+   "res_per1000det_2017": 35.487,
+   "big_kw_per_km2": 776.519,
+   "big_share_by2017": 0.535,
+   "wind_share": 0.053,
+   "wind_share_2017": 0.176,
+   "t50obs_res_med": 2018.897,
+   "t50obs_big_med": 2016.867,
+   "t50obs_wind_med": 2021.333,
+   "sunshine": 2076.921,
+   "n": 7.0
+  },
+  {
+   "region": "中国",
+   "res_per1000det": 96.2,
+   "res_per1000det_2017": 39.36,
+   "big_kw_per_km2": 675.988,
+   "big_share_by2017": 0.447,
+   "wind_share": 0.022,
+   "wind_share_2017": 0.061,
+   "t50obs_res_med": 2019.123,
+   "t50obs_big_med": 2017.707,
+   "t50obs_wind_med": 2025.861,
+   "sunshine": 1949.366,
+   "n": 5.0
+  },
+  {
+   "region": "四国",
+   "res_per1000det": 88.139,
+   "res_per1000det_2017": 35.771,
+   "big_kw_per_km2": 556.657,
+   "big_share_by2017": 0.62,
+   "wind_share": 0.035,
+   "wind_share_2017": 0.036,
+   "t50obs_res_med": 2019.079,
+   "t50obs_big_med": 2016.341,
+   "t50obs_wind_med": 2019.018,
+   "sunshine": 2147.594,
+   "n": 4.0
+  },
+  {
+   "region": "九州・沖縄",
+   "res_per1000det": 103.444,
+   "res_per1000det_2017": 44.445,
+   "big_kw_per_km2": 625.085,
+   "big_share_by2017": 0.583,
+   "wind_share": 0.109,
+   "wind_share_2017": 0.089,
+   "t50obs_res_med": 2018.467,
+   "t50obs_big_med": 2016.315,
+   "t50obs_wind_med": 2021.681,
+   "sunshine": 1981.649,
+   "n": 8.0
+  }
+ ],
+ "top5_share": {
+  "res_cnt_new": 0.301,
+  "big_kw_new": 0.267,
+  "wind_kw_new": 0.703
+ },
+ "top5_share_2017": {
+  "res_cnt_new": 0.279,
+  "big_kw_new": 0.257,
+  "wind_kw_new": 0.666
+ },
+ "gini": {
+  "res_cnt_new": 0.413,
+  "big_kw_new": 0.299,
+  "wind_kw_new": 0.704
+ },
+ "national_levels": {
+  "2014-04": {
+   "res_cnt_new": 509435.0,
+   "big_kw_new": 7357995.0,
+   "wind_kw_new": 105697.0,
+   "res_cnt_mig": 1199380.0
+  },
+  "2017-03": {
+   "res_cnt_new": 1046038.0,
+   "big_kw_new": 28753291.0,
+   "wind_kw_new": 788628.0,
+   "res_cnt_mig": 1198782.0
+  },
+  "2017-06": {
+   "res_cnt_new": 1073841.0,
+   "big_kw_new": 30463530.0,
+   "wind_kw_new": 794002.0,
+   "res_cnt_mig": 1198576.0
+  },
+  "2020-03": {
+   "res_cnt_new": 1477974.0,
+   "big_kw_new": 43294823.0,
+   "wind_kw_new": 1603872.0,
+   "res_cnt_mig": 1198142.0
+  },
+  "2023-03": {
+   "res_cnt_new": 1963100.0,
+   "big_kw_new": 55537094.0,
+   "wind_kw_new": 2623172.0,
+   "res_cnt_mig": 1197403.0
+  },
+  "2026-03": {
+   "res_cnt_new": 2610053.0,
+   "big_kw_new": 60100701.0,
+   "wind_kw_new": 5046092.0,
+   "res_cnt_mig": 1196298.0
+  }
+ },
+ "national_annual_adds_FY": {
+  "2014-03": {
+   "res_cnt_new": 288118.0,
+   "big_kw_new": 5735436.0,
+   "wind_kw_new": 46928.0
+  },
+  "2015-03": {
+   "res_cnt_new": 206921.0,
+   "big_kw_new": 8571460.0,
+   "wind_kw_new": 221130.0
+  },
+  "2016-03": {
+   "res_cnt_new": 178721.0,
+   "big_kw_new": 8305559.0,
+   "wind_kw_new": 148230.0
+  },
+  "2017-03": {
+   "res_cnt_new": 161273.0,
+   "big_kw_new": 5436791.0,
+   "wind_kw_new": 309710.0
+  },
+  "2018-03": {
+   "res_cnt_new": 133173.0,
+   "big_kw_new": 4772300.0,
+   "wind_kw_new": 175336.0
+  },
+  "2019-03": {
+   "res_cnt_new": 146633.0,
+   "big_kw_new": 4900593.0,
+   "wind_kw_new": 171543.0
+  },
+  "2020-03": {
+   "res_cnt_new": 152130.0,
+   "big_kw_new": 4868639.0,
+   "wind_kw_new": 468364.0
+  },
+  "2021-03": {
+   "res_cnt_new": 141818.0,
+   "big_kw_new": 4981965.0,
+   "wind_kw_new": 366291.0
+  },
+  "2022-03": {
+   "res_cnt_new": 153101.0,
+   "big_kw_new": 3724721.0,
+   "wind_kw_new": 298165.0
+  },
+  "2023-03": {
+   "res_cnt_new": 190207.0,
+   "big_kw_new": 3535586.0,
+   "wind_kw_new": 354844.0
+  },
+  "2024-03": {
+   "res_cnt_new": 197442.0,
+   "big_kw_new": 2056681.0,
+   "wind_kw_new": 1083108.0
+  },
+  "2025-03": {
+   "res_cnt_new": 225602.0,
+   "big_kw_new": 1674462.0,
+   "wind_kw_new": 444932.0
+  },
+  "2026-03": {
+   "res_cnt_new": 223909.0,
+   "big_kw_new": 832463.0,
+   "wind_kw_new": 894880.0
+  }
+ },
+ "robust_shape_rank_corr": {
+  "res_cnt_new": {
+   "Bass×ロジスティック": 0.716,
+   "Bass×ゴンペルツ": 0.715,
+   "ロジスティック×ゴンペルツ": 0.994,
+   "観測t50×Bass t50": 0.823
+  },
+  "big_kw_new": {
+   "Bass×ロジスティック": 0.973,
+   "Bass×ゴンペルツ": 0.97,
+   "ロジスティック×ゴンペルツ": 0.992,
+   "観測t50×Bass t50": 0.963
+  },
+  "wind_kw_new": {
+   "Bass×ロジスティック": 0.957,
+   "Bass×ゴンペルツ": 0.957,
+   "ロジスティック×ゴンペルツ": 0.991,
+   "観測t50×Bass t50": 0.893
+  },
+  "res_kw_vs_cnt_t50obs": 0.869
+ },
+ "robust_period_2017on_logistic": {
+  "res_cnt_new": {
+   "national": [
+    {
+     "series": "res_cnt_new",
+     "pref": "全国",
+     "K_ratio": 4.945,
+     "K_at_bound": false,
+     "t50": 2038.286
+    }
+   ],
+   "K_at_bound": 7,
+   "t50_median": 2028.63
+  },
+  "big_kw_new": {
+   "national": [
+    {
+     "series": "big_kw_new",
+     "pref": "全国",
+     "K_ratio": 1.076,
+     "K_at_bound": false,
+     "t50": 2018.026
+    }
+   ],
+   "K_at_bound": 0,
+   "t50_median": 2017.39
+  },
+  "wind_kw_new": {
+   "national": [
+    {
+     "series": "wind_kw_new",
+     "pref": "全国",
+     "K_ratio": 3.601,
+     "K_at_bound": false,
+     "t50": 2030.469
+    }
+   ],
+   "K_at_bound": 7,
+   "t50_median": 2021.69
+  }
+ },
+ "bootstrap_ci_spearman_sunshine": {
+  "res_per1000det": [
+   0.273,
+   0.771
+  ],
+  "res_pace": [
+   0.324,
+   0.785
+  ],
+  "big_kw_per_km2": [
+   0.332,
+   0.781
+  ],
+  "t50obs_big": [
+   -0.406,
+   0.144
+  ]
+ },
+ "ols_res_per1000det": {
+  "coef": {
+   "const": -0.0,
+   "sunshine_h": 0.695,
+   "detached_share": 0.039,
+   "inc_pc": -0.067
+  },
+  "ci": [
+   [
+    -0.218,
+    0.218
+   ],
+   [
+    0.486,
+    0.905
+   ],
+   [
+    -0.201,
+    0.279
+   ],
+   [
+    -0.228,
+    0.094
+   ]
+  ],
+  "r2": 0.454
+ },
+ "ols_res_pace": {
+  "coef": {
+   "const": 0.0,
+   "sunshine_h": 0.668,
+   "detached_share": -0.013,
+   "inc_pc": 0.038
+  },
+  "ci": [
+   [
+    -0.216,
+    0.216
+   ],
+   [
+    0.461,
+    0.875
+   ],
+   [
+    -0.258,
+    0.232
+   ],
+   [
+    -0.132,
+    0.207
+   ]
+  ],
+  "r2": 0.466
+ },
+ "robustness_rank_corr": {
+  "res_cnt_new": {
+   "Bass×ロジスティック": 0.716,
+   "Bass×ゴンペルツ": 0.715,
+   "ロジスティック×ゴンペルツ": 0.994,
+   "観測t50×Bass t50": 0.823
+  },
+  "big_kw_new": {
+   "Bass×ロジスティック": 0.973,
+   "Bass×ゴンペルツ": 0.97,
+   "ロジスティック×ゴンペルツ": 0.992,
+   "観測t50×Bass t50": 0.963
+  },
+  "wind_kw_new": {
+   "Bass×ロジスティック": 0.957,
+   "Bass×ゴンペルツ": 0.957,
+   "ロジスティック×ゴンペルツ": 0.991,
+   "観測t50×Bass t50": 0.893
+  },
+  "res_kw_vs_cnt_t50obs": 0.869
+ },
+ "data_points": [
+  "2012-12",
+  "2013-01",
+  "2013-02",
+  "2013-03",
+  "2013-04",
+  "2013-05",
+  "2013-06",
+  "2013-07",
+  "2013-08",
+  "2013-09",
+  "2013-10",
+  "2013-11",
+  "2013-12",
+  "2014-01",
+  "2014-02",
+  "2014-03",
+  "2014-04",
+  "2014-05",
+  "2014-06",
+  "2014-07",
+  "2014-08",
+  "2014-09",
+  "2014-10",
+  "2014-11",
+  "2014-12",
+  "2015-01",
+  "2015-02",
+  "2015-03",
+  "2015-04",
+  "2015-05",
+  "2015-06",
+  "2015-07",
+  "2015-08",
+  "2015-09",
+  "2015-10",
+  "2015-11",
+  "2015-12",
+  "2016-01",
+  "2016-02",
+  "2016-03",
+  "2016-04",
+  "2016-05",
+  "2016-06",
+  "2016-07",
+  "2016-08",
+  "2016-09",
+  "2016-10",
+  "2016-11",
+  "2016-12",
+  "2017-01",
+  "2017-02",
+  "2017-03",
+  "2017-06",
+  "2017-09",
+  "2017-12",
+  "2018-03",
+  "2018-06",
+  "2018-09",
+  "2018-12",
+  "2019-03",
+  "2019-06",
+  "2019-09",
+  "2019-12",
+  "2020-03",
+  "2020-06",
+  "2020-09",
+  "2020-12",
+  "2021-03",
+  "2021-06",
+  "2021-09",
+  "2021-12",
+  "2022-03",
+  "2022-06",
+  "2022-09",
+  "2022-12",
+  "2023-03",
+  "2023-06",
+  "2023-09",
+  "2023-12",
+  "2024-03",
+  "2024-06",
+  "2024-09",
+  "2024-12",
+  "2025-03",
+  "2025-06",
+  "2025-09",
+  "2025-12",
+  "2026-03"
+ ]
+}
