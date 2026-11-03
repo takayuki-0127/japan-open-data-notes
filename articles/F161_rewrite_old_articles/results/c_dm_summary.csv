@@ -1,0 +1,17 @@
+﻿period,rival,better,sig_better,worse_sig
+2015〜2019年が予測先,ets,12,8,0
+2015〜2019年が予測先,naive_last,11,3,0
+2015〜2019年が予測先,snaive,12,12,0
+2015〜2019年が予測先,snaive_drift,11,2,0
+2022年以降が予測先,ets,1,0,0
+2022年以降が予測先,naive_last,11,9,0
+2022年以降が予測先,snaive,5,1,0
+2022年以降が予測先,snaive_drift,12,9,0
+すべて,ets,12,0,0
+すべて,naive_last,12,5,0
+すべて,snaive,12,7,0
+すべて,snaive_drift,12,4,0
+コロナ期を除く（元と同じ）,ets,12,0,0
+コロナ期を除く（元と同じ）,naive_last,12,9,0
+コロナ期を除く（元と同じ）,snaive,12,7,0
+コロナ期を除く（元と同じ）,snaive_drift,12,5,0
