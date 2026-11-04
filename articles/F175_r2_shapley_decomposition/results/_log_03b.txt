@@ -1,0 +1,36 @@
+[     0s] 地価：学習2,000地点
+[    10s]   refit lgbm 16/127
+[    21s]   refit lgbm 32/127
+[    30s]   refit lgbm 48/127
+[    42s]   refit lgbm 64/127
+[    52s]   refit lgbm 80/127
+[    63s]   refit lgbm 96/127
+[    73s]   refit lgbm 112/127
+[    87s] 地価：SAGE n=1000 K=32
+[   149s] 地価：SAGE n=4000 K=32
+[   423s] 地価：SAGE n=2000 K=8
+[   482s] 地価：SAGE n=2000 K=64
+[   744s] 地価：ランダムフォレスト型
+[   849s] 地価：評価地点の選び方（乱数7）
+[   863s]   refit lgbm 16/127
+[   880s]   refit lgbm 32/127
+[   896s]   refit lgbm 48/127
+[   913s]   refit lgbm 64/127
+[   929s]   refit lgbm 80/127
+[   947s]   refit lgbm 96/127
+[   964s]   refit lgbm 112/127
+[   984s] 電力：学習を直近2年に
+[   997s]   refit lgbm 16/127
+[  1015s]   refit lgbm 32/127
+[  1029s]   refit lgbm 48/127
+[  1049s]   refit lgbm 64/127
+[  1064s]   refit lgbm 80/127
+[  1082s]   refit lgbm 96/127
+[  1096s]   refit lgbm 112/127
+[  1118s] 電力：SAGE n=1000 K=32
+[  1142s] 電力：SAGE n=4000 K=32
+[  1236s] 電力：SAGE n=2000 K=8
+[  1249s] 電力：SAGE n=2000 K=64
+[  1343s] 電力：ランダムフォレスト型
+[  1394s] 終了
+DONE
