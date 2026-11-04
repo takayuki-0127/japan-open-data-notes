@@ -1,0 +1,446 @@
+{
+ "national_peak_year": 2006,
+ "national_peak_rate": 1.112,
+ "national_2026": [
+  1.001,
+  61839584.0,
+  61747140.0
+ ],
+ "national_decomp_pct_per_year": {
+  "1976-1996": {
+   "dlog_rate": 3.545,
+   "dlog_cars": 4.962,
+   "dlog_hh": 1.414
+  },
+  "1997-2006": {
+   "dlog_rate": 1.062,
+   "dlog_cars": 2.375,
+   "dlog_hh": 1.309
+  },
+  "2007-2013": {
+   "dlog_rate": -0.378,
+   "dlog_cars": 0.564,
+   "dlog_hh": 0.944
+  },
+  "2014-2026": {
+   "dlog_rate": -0.606,
+   "dlog_cars": 0.347,
+   "dlog_hh": 0.947
+  },
+  "2014-2026_ex2014": {
+   "dlog_rate": -0.548,
+   "dlog_cars": 0.278,
+   "dlog_hh": 0.821
+  }
+ },
+ "national_hinge_1990_2026": {
+  "tau": 2001,
+  "pre": 0.027590207090207073,
+  "post": -0.004154867834867907,
+  "dbic": 123.2859419375151
+ },
+ "national_hinge_1990_2026_shift2014": {
+  "tau": 2001,
+  "pre": 0.02761223740941196,
+  "post": -0.004210587596056803,
+  "dbic": 107.58965667051609
+ },
+ "national_cars_growth_pct": {
+  "2005": 1.795,
+  "2006": 1.43,
+  "2007": 0.723,
+  "2008": 0.072,
+  "2009": 0.233,
+  "2010": 0.393,
+  "2011": 0.434,
+  "2012": 1.023,
+  "2013": 1.073,
+  "2014": 1.171,
+  "2015": 0.78,
+  "2016": 0.524,
+  "2017": 0.697,
+  "2018": 0.549,
+  "2019": 0.307,
+  "2020": 0.067,
+  "2021": 0.192,
+  "2022": -0.072,
+  "2023": 0.138,
+  "2024": 0.03,
+  "2025": 0.113,
+  "2026": 0.012
+ },
+ "national_cars_peak_year": 2026,
+ "pref_peak_rate_year_hist": {
+  "2005": 10,
+  "2006": 11,
+  "2007": 2,
+  "2012": 1,
+  "2013": 2,
+  "2015": 3,
+  "2017": 2,
+  "2018": 9,
+  "2019": 3,
+  "2020": 1,
+  "2021": 2,
+  "2026": 1
+ },
+ "pref_hinge_tau_hist": {
+  "2007": 1,
+  "2009": 2,
+  "2010": 5,
+  "2015": 1,
+  "2017": 6,
+  "2018": 12,
+  "2019": 13,
+  "2020": 4,
+  "2021": 2,
+  "2022": 1
+ },
+ "pref_peak_cars_year_hist": {
+  "2006": 1,
+  "2018": 1,
+  "2019": 9,
+  "2021": 14,
+  "2023": 1,
+  "2025": 4,
+  "2026": 17
+ },
+ "pref_peak_cars_pc_year_hist": {
+  "2013": 1,
+  "2014": 1,
+  "2024": 45
+ },
+ "n_rate_2026_below_2005": 33,
+ "n_cars_2026_above_2016": 38,
+ "n_cars_pc_2024_above_2013": 45,
+ "median_peak_rate_year": 2012.0,
+ "median_hinge_tau": 2018.0,
+ "hinge_dbic_gt6": 38,
+ "decomp_16_26_median_pct": {
+  "dlog_rate_16_26": -3.96,
+  "dlog_cars_16_26": 1.76,
+  "dlog_hh_16_26": 5.94
+ },
+ "share_of_decline_from_hh_median": 1.3503654942993504,
+ "spearman": {
+  "peak_rate_year~log_density": {
+   "rho": -0.582,
+   "p_perm": 0.0,
+   "loo_min": -0.666,
+   "loo_max": -0.559,
+   "ex_big3": -0.506
+  },
+  "peak_rate_year~log_rail": {
+   "rho": -0.805,
+   "p_perm": 0.0,
+   "loo_min": -0.836,
+   "loo_max": -0.795,
+   "ex_big3": -0.771
+  },
+  "peak_rate_year~share65": {
+   "rho": 0.744,
+   "p_perm": 0.0,
+   "loo_min": 0.73,
+   "loo_max": 0.833,
+   "ex_big3": 0.712
+  },
+  "hinge_tau~log_density": {
+   "rho": -0.202,
+   "p_perm": 0.1648,
+   "loo_min": -0.277,
+   "loo_max": -0.154,
+   "ex_big3": -0.055
+  },
+  "hinge_tau~log_rail": {
+   "rho": -0.447,
+   "p_perm": 0.0016,
+   "loo_min": -0.512,
+   "loo_max": -0.416,
+   "ex_big3": -0.342
+  },
+  "hinge_tau~share65": {
+   "rho": 0.357,
+   "p_perm": 0.017,
+   "loo_min": 0.325,
+   "loo_max": 0.443,
+   "ex_big3": 0.272
+  },
+  "peak_cars_year~log_density": {
+   "rho": 0.382,
+   "p_perm": 0.0092,
+   "loo_min": 0.345,
+   "loo_max": 0.478,
+   "ex_big3": 0.433
+  },
+  "peak_cars_year~log_rail": {
+   "rho": 0.258,
+   "p_perm": 0.0778,
+   "loo_min": 0.219,
+   "loo_max": 0.345,
+   "ex_big3": 0.286
+  },
+  "peak_cars_year~share65": {
+   "rho": -0.517,
+   "p_perm": 0.0004,
+   "loo_min": -0.623,
+   "loo_max": -0.489,
+   "ex_big3": -0.59
+  },
+  "dlog_rate_16_26~log_density": {
+   "rho": -0.546,
+   "p_perm": 0.0002,
+   "loo_min": -0.591,
+   "loo_max": -0.516,
+   "ex_big3": -0.448
+  },
+  "dlog_rate_16_26~log_rail": {
+   "rho": -0.718,
+   "p_perm": 0.0,
+   "loo_min": -0.747,
+   "loo_max": -0.7,
+   "ex_big3": -0.658
+  },
+  "dlog_rate_16_26~share65": {
+   "rho": 0.731,
+   "p_perm": 0.0,
+   "loo_min": 0.713,
+   "loo_max": 0.818,
+   "ex_big3": 0.685
+  },
+  "dlog_cars_16_26~log_density": {
+   "rho": 0.425,
+   "p_perm": 0.0018,
+   "loo_min": 0.388,
+   "loo_max": 0.482,
+   "ex_big3": 0.511
+  },
+  "dlog_cars_16_26~log_rail": {
+   "rho": 0.279,
+   "p_perm": 0.0566,
+   "loo_min": 0.236,
+   "loo_max": 0.337,
+   "ex_big3": 0.353
+  },
+  "dlog_cars_16_26~share65": {
+   "rho": -0.604,
+   "p_perm": 0.0,
+   "loo_min": -0.654,
+   "loo_max": -0.577,
+   "ex_big3": -0.702
+  },
+  "dlog_hh_16_26~log_density": {
+   "rho": 0.668,
+   "p_perm": 0.0,
+   "loo_min": 0.648,
+   "loo_max": 0.69,
+   "ex_big3": 0.611
+  },
+  "dlog_hh_16_26~log_rail": {
+   "rho": 0.628,
+   "p_perm": 0.0,
+   "loo_min": 0.609,
+   "loo_max": 0.708,
+   "ex_big3": 0.573
+  },
+  "dlog_hh_16_26~share65": {
+   "rho": -0.912,
+   "p_perm": 0.0,
+   "loo_min": -0.926,
+   "loo_max": -0.906,
+   "ex_big3": -0.898
+  },
+  "dlog_cpc_13_24~log_density": {
+   "rho": -0.715,
+   "p_perm": 0.0,
+   "loo_min": -0.778,
+   "loo_max": -0.696,
+   "ex_big3": -0.653
+  },
+  "dlog_cpc_13_24~log_rail": {
+   "rho": -0.884,
+   "p_perm": 0.0,
+   "loo_min": -0.906,
+   "loo_max": -0.877,
+   "ex_big3": -0.86
+  },
+  "dlog_cpc_13_24~share65": {
+   "rho": 0.776,
+   "p_perm": 0.0,
+   "loo_min": 0.761,
+   "loo_max": 0.889,
+   "ex_big3": 0.742
+  },
+  "rate2026~log_density": {
+   "rho": -0.514,
+   "p_perm": 0.0002,
+   "loo_min": -0.578,
+   "loo_max": -0.481,
+   "ex_big3": -0.407
+  },
+  "rate2026~log_rail": {
+   "rho": -0.521,
+   "p_perm": 0.0,
+   "loo_min": -0.549,
+   "loo_max": -0.489,
+   "ex_big3": -0.416
+  },
+  "rate2026~share65": {
+   "rho": 0.287,
+   "p_perm": 0.0578,
+   "loo_min": 0.239,
+   "loo_max": 0.322,
+   "ex_big3": 0.144
+  }
+ },
+ "ols": {
+  "dlog_rate_16_26": {
+   "log_density": [
+    0.0051,
+    0.0106,
+    0.6318
+   ],
+   "log_rail": [
+    -0.0182,
+    0.014,
+    0.1943
+   ],
+   "share65": [
+    0.0121,
+    0.0132,
+    0.358
+   ],
+   "r2": 0.599
+  },
+  "dlog_cars_16_26": {
+   "log_density": [
+    -0.0034,
+    0.0041,
+    0.4134
+   ],
+   "log_rail": [
+    -0.0205,
+    0.0102,
+    0.0439
+   ],
+   "share65": [
+    -0.0337,
+    0.0109,
+    0.002
+   ],
+   "r2": 0.69
+  },
+  "dlog_hh_16_26": {
+   "log_density": [
+    -0.0086,
+    0.0096,
+    0.3702
+   ],
+   "log_rail": [
+    -0.0022,
+    0.0077,
+    0.7797
+   ],
+   "share65": [
+    -0.046,
+    0.0043,
+    0.0
+   ],
+   "r2": 0.848
+  }
+ },
+ "ols_rail_density_only": {
+  "dlog_rate_16_26": {
+   "log_density": [
+    -0.0021,
+    0.0081,
+    0.7916
+   ],
+   "log_rail": [
+    -0.0213,
+    0.0076,
+    0.0052
+   ],
+   "r2": 0.55
+  },
+  "dlog_cars_16_26": {
+   "log_density": [
+    0.0167,
+    0.0139,
+    0.2298
+   ],
+   "log_rail": [
+    -0.0118,
+    0.0142,
+    0.4037
+   ],
+   "r2": 0.134
+  }
+ },
+ "by_density_tercile": [
+  {
+   "dens_g": "低",
+   "n": 16,
+   "peak_rate_year": 2018.0,
+   "hinge_tau": 2018.5,
+   "peak_cars_year": 2021.0,
+   "dlog_rate": -0.0223,
+   "dlog_cars": 0.0009,
+   "dlog_hh": 0.0275,
+   "dlog_cpc": 0.1307,
+   "rate2026": 1.372,
+   "cars_rising": 9
+  },
+  {
+   "dens_g": "中",
+   "n": 15,
+   "peak_rate_year": 2012.0,
+   "hinge_tau": 2019.0,
+   "peak_cars_year": 2021.0,
+   "dlog_rate": -0.0341,
+   "dlog_cars": 0.0199,
+   "dlog_hh": 0.0602,
+   "dlog_cpc": 0.1138,
+   "rate2026": 1.333,
+   "cars_rising": 14
+  },
+  {
+   "dens_g": "高",
+   "n": 16,
+   "peak_rate_year": 2005.5,
+   "hinge_tau": 2016.5,
+   "peak_cars_year": 2025.5,
+   "dlog_rate": -0.066,
+   "dlog_cars": 0.0197,
+   "dlog_hh": 0.0987,
+   "dlog_cpc": 0.0708,
+   "rate2026": 1.0415,
+   "cars_rising": 15
+  }
+ ],
+ "kei_peak_year_hist": {
+  "2015": 8,
+  "2016": 2,
+  "2018": 3,
+  "2019": 1,
+  "2024": 2,
+  "2025": 31
+ },
+ "kei_n_rising_2015_2025": 34,
+ "kei_slope_vs_density": {
+  "rho": 0.103,
+  "p_perm": 0.4848,
+  "loo_min": 0.058,
+  "loo_max": 0.172,
+  "ex_big3": 0.156
+ },
+ "kei_slope_median_by_dens": {
+  "低": 0.0051,
+  "中": 0.011,
+  "高": 0.0098
+ },
+ "kei_march_2006_2013_n_rising": 47,
+ "agree_peak_vs_hinge_within2": 20,
+ "agree_hinge_vs_shift_within2": 43,
+ "agree_hinge_vs_2010start_within2": 32,
+ "rho_peak_rate_vs_hinge": 0.553
+}
