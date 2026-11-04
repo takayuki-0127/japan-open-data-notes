@@ -1,0 +1,16 @@
+folder,steps_from,n_steps,install_ok,install_sec,install_err,steps_ok,first_fail_step,first_fail_cat,fail_cats,net_fail_fetch_only,run_sec,timed_out,log
+F13_unemployment_forecast,README,5,1,0.0,,5,,,,0,128.2,0,logs/F13_unemployment_forecast.log
+F35_business_cycle_markov,README,5,1,0.0,,5,,,,0,181.9,0,logs/F35_business_cycle_markov.log
+F43_local_projections,README,4,1,0.0,,3,python 01_取得.py,ネットワーク,ネットワーク,1,36.4,0,logs/F43_local_projections.log
+F44_structural_breaks,README,4,1,0.0,,3,python 01_取得.py,ネットワーク,ネットワーク,1,24.5,0,logs/F44_structural_breaks.log
+F51_childcare_mediation,README,3,1,0.0,,3,,,,0,345.9,0,logs/F51_childcare_mediation.log
+F60_regression_to_mean,README,4,1,0.0,,4,,,,0,5.5,0,logs/F60_regression_to_mean.log
+F65_doctors_life_dag,README,4,1,0.0,,4,,,,0,5.7,0,logs/F65_doctors_life_dag.log
+F69_data_quality,README,4,1,0.0,,4,,,,0,9.3,0,logs/F69_data_quality.log
+F74_temperature_kriging,README,5,1,0.0,,4,python src/01_取得.py,ネットワーク,ネットワーク,1,69.1,0,logs/F74_temperature_kriging.log
+F77_migration_markov,README,4,1,0.0,,2,python 01_取得.py,ファイルが見つからない,ファイルが見つからない;ファイルが見つからない,0,3.9,0,logs/F77_migration_markov.log
+F113_price_index_formulas,README,3,1,0.0,,3,,,,0,21.0,0,logs/F113_price_index_formulas.log
+F118_childcare_fertility_synthesis,README,3,1,0.0,,3,,,,0,4.5,0,logs/F118_childcare_fertility_synthesis.log
+F127_vacant_houses_decomposition,README,3,1,0.0,,3,,,,0,2.8,0,logs/F127_vacant_houses_decomposition.log
+F143_fish_catch_decline,README,3,1,0.0,,3,,,,0,8.8,0,logs/F143_fish_catch_decline.log
+F147_synthetic_from_tables,README,3,1,0.0,,3,,,,0,47.5,0,logs/F147_synthetic_from_tables.log
