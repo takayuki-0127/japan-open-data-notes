@@ -1,0 +1,14 @@
+pair,r_2015_2020,spearman,same_sign
+pop_total,0.9625,0.946,0.9574
+pop_total_oct,0.9665,0.9554,0.9574
+pop_japanese,0.8225,0.8461,0.9787
+pop_foreign,0.6382,0.6945,1
+households,0.9773,0.969,1
+households_oct,0.9783,0.9698,1
+pop15,0.6195,0.6459,1
+employed,0.8821,0.7775,0.9787
+unemp_rate,0.6329,0.6633,1
+emp_rate_known,0.4542,0.4741,0.6596
+emp_rate_all15,0.8795,0.7524,0.9574
+muni_pop,0.8225,0.858,0.9195
+muni_hh,0.8783,0.9155,0.9774
