@@ -1,0 +1,1180 @@
+{
+ "subsidy_by_year": {
+  "2023": {
+   "yen": 27660,
+   "yen_per_kwh_avg": 5.617
+  },
+  "2024": {
+   "yen": 12573,
+   "yen_per_kwh_avg": 2.682
+  },
+  "2025": {
+   "yen": 5900,
+   "yen_per_kwh_avg": 1.214
+  }
+ },
+ "subsidy_flat_profile": {
+  "2023": 27290,
+  "2024": 11639,
+  "2025": 5142
+ },
+ "national_2021_2025": [
+  {
+   "base": 2021,
+   "year": 2025,
+   "kind": "記録どおり",
+   "d_spend": 34818.0,
+   "price_eff": 31169.0619,
+   "qty_eff": 3648.9381,
+   "p_change": 0.2484,
+   "q_change": 0.0263
+  },
+  {
+   "base": 2021,
+   "year": 2025,
+   "kind": "補助を足し戻す",
+   "d_spend": 40717.9197,
+   "price_eff": 36998.7334,
+   "qty_eff": 3719.1863,
+   "p_change": 0.2948,
+   "q_change": 0.0263
+  }
+ ],
+ "national_2021_2023": [
+  {
+   "base": 2021,
+   "year": 2023,
+   "kind": "記録どおり",
+   "d_spend": 23376.0,
+   "price_eff": 18051.4149,
+   "qty_eff": 5324.5851,
+   "p_change": 0.1429,
+   "q_change": 0.0402
+  },
+  {
+   "base": 2021,
+   "year": 2023,
+   "kind": "補助を足し戻す",
+   "d_spend": 51035.5773,
+   "price_eff": 45210.6049,
+   "qty_eff": 5824.9724,
+   "p_change": 0.3577,
+   "q_change": 0.0402
+  }
+ ],
+ "national_2019_2025": [
+  {
+   "base": 2019,
+   "year": 2025,
+   "kind": "記録どおり",
+   "d_spend": 28717.0,
+   "price_eff": 24692.6971,
+   "qty_eff": 4024.3029,
+   "p_change": 0.1874,
+   "q_change": 0.0284
+  },
+  {
+   "base": 2019,
+   "year": 2025,
+   "kind": "補助を足し戻す",
+   "d_spend": 34616.9197,
+   "price_eff": 30515.7408,
+   "qty_eff": 4101.1789,
+   "p_change": 0.2315,
+   "q_change": 0.0284
+  }
+ ],
+ "national_levels": [
+  {
+   "year": 2015,
+   "elec": 132715.0,
+   "kwh": 5023.89,
+   "yen_per_kwh": 26.417,
+   "elec_nosub": 132715.0,
+   "p_nosub": 26.417
+  },
+  {
+   "year": 2016,
+   "elec": 121196.0,
+   "kwh": 4959.729,
+   "yen_per_kwh": 24.436,
+   "elec_nosub": 121196.0,
+   "p_nosub": 24.436
+  },
+  {
+   "year": 2017,
+   "elec": 123739.0,
+   "kwh": 4972.462,
+   "yen_per_kwh": 24.885,
+   "elec_nosub": 123739.0,
+   "p_nosub": 24.885
+  },
+  {
+   "year": 2018,
+   "elec": 129175.0,
+   "kwh": 4906.756,
+   "yen_per_kwh": 26.326,
+   "elec_nosub": 129175.0,
+   "p_nosub": 26.326
+  },
+  {
+   "year": 2019,
+   "elec": 129905.0,
+   "kwh": 4724.679,
+   "yen_per_kwh": 27.495,
+   "elec_nosub": 129905.0,
+   "p_nosub": 27.495
+  },
+  {
+   "year": 2020,
+   "elec": 128050.0,
+   "kwh": 4821.763,
+   "yen_per_kwh": 26.557,
+   "elec_nosub": 128050.0,
+   "p_nosub": 26.557
+  },
+  {
+   "year": 2021,
+   "elec": 123804.0,
+   "kwh": 4734.214,
+   "yen_per_kwh": 26.151,
+   "elec_nosub": 123804.0,
+   "p_nosub": 26.151
+  },
+  {
+   "year": 2022,
+   "elec": 152138.0,
+   "kwh": 4795.743,
+   "yen_per_kwh": 31.724,
+   "elec_nosub": 152138.0,
+   "p_nosub": 31.724
+  },
+  {
+   "year": 2023,
+   "elec": 147180.0,
+   "kwh": 4924.446,
+   "yen_per_kwh": 29.888,
+   "elec_nosub": 174839.577,
+   "p_nosub": 35.504
+  },
+  {
+   "year": 2024,
+   "elec": 144092.0,
+   "kwh": 4686.984,
+   "yen_per_kwh": 30.743,
+   "elec_nosub": 156664.7,
+   "p_nosub": 33.425
+  },
+  {
+   "year": 2025,
+   "elec": 158622.0,
+   "kwh": 4858.782,
+   "yen_per_kwh": 32.646,
+   "elec_nosub": 164521.92,
+   "p_nosub": 33.861
+  }
+ ],
+ "monthly_mean_vs2021": {
+  "2022": {
+   "d_ln_spend": 0.2066,
+   "d_ln_price": 0.1822,
+   "d_ln_qty": 0.0244
+  },
+  "2023": {
+   "d_ln_spend": 0.149,
+   "d_ln_price": 0.0414,
+   "d_ln_qty": 0.1076
+  },
+  "2024": {
+   "d_ln_spend": 0.155,
+   "d_ln_price": 0.1132,
+   "d_ln_qty": 0.0418
+  },
+  "2025": {
+   "d_ln_spend": 0.2472,
+   "d_ln_price": 0.1661,
+   "d_ln_qty": 0.0812
+  },
+  "2026": {
+   "d_ln_spend": 0.1634,
+   "d_ln_price": 0.1639,
+   "d_ln_qty": -0.0006
+  }
+ },
+ "cpi_elec": {
+  "2021avg": 100.0,
+  "peak": [
+   "2023-01",
+   131.0
+  ],
+  "latest": [
+   "2026-09",
+   109.3
+  ]
+ },
+ "corr_dlog_cpi_vs_unitprice": 0.937,
+ "groups_2021_2025": [
+  {
+   "tab": "age",
+   "label": "29歳以下",
+   "elec0": 90574.0,
+   "elec1": 113508.0,
+   "d_yen": 22934.0,
+   "d_pct": 0.2532,
+   "price_eff": 25542.5093,
+   "qty_eff": -2608.5093,
+   "p0": 26.0054,
+   "p1": 33.4377,
+   "p_change": 0.2858,
+   "q_change": -0.0253,
+   "share0": 0.0318,
+   "share1": 0.0358,
+   "d_share_pt": 0.3975,
+   "cons_change": 0.114
+  },
+  {
+   "tab": "age",
+   "label": "30〜39歳",
+   "elec0": 106846.0,
+   "elec1": 141174.0,
+   "d_yen": 34328.0,
+   "d_pct": 0.3213,
+   "price_eff": 26128.5169,
+   "qty_eff": 8199.4831,
+   "p0": 26.2114,
+   "p1": 32.403,
+   "p_change": 0.2362,
+   "q_change": 0.0688,
+   "share0": 0.0337,
+   "share1": 0.0387,
+   "d_share_pt": 0.5035,
+   "cons_change": 0.1494
+  },
+  {
+   "tab": "age",
+   "label": "40〜49歳",
+   "elec0": 125885.0,
+   "elec1": 156361.0,
+   "d_yen": 30476.0,
+   "d_pct": 0.2421,
+   "price_eff": 31753.831,
+   "qty_eff": -1277.831,
+   "p0": 25.7477,
+   "p1": 32.2731,
+   "p_change": 0.2534,
+   "q_change": -0.009,
+   "share0": 0.0334,
+   "share1": 0.0374,
+   "d_share_pt": 0.3936,
+   "cons_change": 0.1113
+  },
+  {
+   "tab": "age",
+   "label": "50〜59歳",
+   "elec0": 132702.0,
+   "elec1": 164014.0,
+   "d_yen": 31312.0,
+   "d_pct": 0.236,
+   "price_eff": 36127.9046,
+   "qty_eff": -4815.9046,
+   "p0": 25.3492,
+   "p1": 32.3682,
+   "p_change": 0.2769,
+   "q_change": -0.0321,
+   "share0": 0.0323,
+   "share1": 0.0372,
+   "d_share_pt": 0.4834,
+   "cons_change": 0.0752
+  },
+  {
+   "tab": "age",
+   "label": "60〜69歳",
+   "elec0": 131850.0,
+   "elec1": 166039.0,
+   "d_yen": 34189.0,
+   "d_pct": 0.2593,
+   "price_eff": 32878.5765,
+   "qty_eff": 1310.4235,
+   "p0": 26.4539,
+   "p1": 33.0204,
+   "p_change": 0.2482,
+   "q_change": 0.0089,
+   "share0": 0.0381,
+   "share1": 0.0423,
+   "d_share_pt": 0.4152,
+   "cons_change": 0.1356
+  },
+  {
+   "tab": "age",
+   "label": "70歳以上",
+   "elec0": 119024.0,
+   "elec1": 158766.0,
+   "d_yen": 39742.0,
+   "d_pct": 0.3339,
+   "price_eff": 28482.9757,
+   "qty_eff": 11259.0243,
+   "p0": 26.6863,
+   "p1": 32.8068,
+   "p_change": 0.2293,
+   "q_change": 0.085,
+   "share0": 0.0438,
+   "share1": 0.0501,
+   "d_share_pt": 0.6239,
+   "cons_change": 0.1676
+  },
+  {
+   "tab": "age",
+   "label": "平均",
+   "elec0": 123804.0,
+   "elec1": 158622.0,
+   "d_yen": 34818.0,
+   "d_pct": 0.2812,
+   "price_eff": 31169.0619,
+   "qty_eff": 3648.9381,
+   "p0": 26.1509,
+   "p1": 32.6465,
+   "p_change": 0.2484,
+   "q_change": 0.0263,
+   "share0": 0.037,
+   "share1": 0.0421,
+   "d_share_pt": 0.5122,
+   "cons_change": 0.1254
+  },
+  {
+   "tab": "city",
+   "label": "大都市",
+   "elec0": 115866.0,
+   "elec1": 146103.0,
+   "d_yen": 30237.0,
+   "d_pct": 0.261,
+   "price_eff": 30502.6384,
+   "qty_eff": -265.6384,
+   "p0": 26.3511,
+   "p1": 33.2956,
+   "p_change": 0.2635,
+   "q_change": -0.002,
+   "share0": 0.0329,
+   "share1": 0.0372,
+   "d_share_pt": 0.4307,
+   "cons_change": 0.115
+  },
+  {
+   "tab": "city",
+   "label": "中都市",
+   "elec0": 121502.0,
+   "elec1": 156078.0,
+   "d_yen": 34576.0,
+   "d_pct": 0.2846,
+   "price_eff": 29967.1568,
+   "qty_eff": 4608.8432,
+   "p0": 26.284,
+   "p1": 32.6552,
+   "p_change": 0.2424,
+   "q_change": 0.0339,
+   "share0": 0.0353,
+   "share1": 0.0415,
+   "d_share_pt": 0.6162,
+   "cons_change": 0.0938
+  },
+  {
+   "tab": "city",
+   "label": "小都市A",
+   "elec0": 130031.0,
+   "elec1": 162519.0,
+   "d_yen": 32488.0,
+   "d_pct": 0.2498,
+   "price_eff": 33486.6937,
+   "qty_eff": -998.6937,
+   "p0": 25.6819,
+   "p1": 32.3193,
+   "p_change": 0.2584,
+   "q_change": -0.0068,
+   "share0": 0.0405,
+   "share1": 0.0439,
+   "d_share_pt": 0.3321,
+   "cons_change": 0.1552
+  },
+  {
+   "tab": "city",
+   "label": "小都市B・町村",
+   "elec0": 133082.0,
+   "elec1": 180796.0,
+   "d_yen": 47714.0,
+   "d_pct": 0.3585,
+   "price_eff": 31052.3681,
+   "qty_eff": 16661.6319,
+   "p0": 26.3335,
+   "p1": 32.1448,
+   "p_change": 0.2207,
+   "q_change": 0.1129,
+   "share0": 0.0433,
+   "share1": 0.0504,
+   "d_share_pt": 0.7097,
+   "cons_change": 0.1672
+  },
+  {
+   "tab": "city",
+   "label": "全国",
+   "elec0": 123804.0,
+   "elec1": 158622.0,
+   "d_yen": 34818.0,
+   "d_pct": 0.2812,
+   "price_eff": 31169.0619,
+   "qty_eff": 3648.9381,
+   "p0": 26.1509,
+   "p1": 32.6465,
+   "p_change": 0.2484,
+   "q_change": 0.0263,
+   "share0": 0.037,
+   "share1": 0.0421,
+   "d_share_pt": 0.5122,
+   "cons_change": 0.1254
+  },
+  {
+   "tab": "q5",
+   "label": "第Ⅰ五分位",
+   "elec0": 108160.0,
+   "elec1": 142075.0,
+   "d_yen": 33915.0,
+   "d_pct": 0.3136,
+   "price_eff": 24067.1332,
+   "qty_eff": 9847.8668,
+   "p0": 26.9678,
+   "p1": 32.7267,
+   "p_change": 0.2135,
+   "q_change": 0.0824,
+   "share0": 0.048,
+   "share1": 0.0553,
+   "d_share_pt": 0.7248,
+   "cons_change": 0.1414
+  },
+  {
+   "tab": "q5",
+   "label": "第Ⅱ五分位",
+   "elec0": 119189.0,
+   "elec1": 155235.0,
+   "d_yen": 36046.0,
+   "d_pct": 0.3024,
+   "price_eff": 29745.9305,
+   "qty_eff": 6300.0695,
+   "p0": 26.3339,
+   "p1": 32.7501,
+   "p_change": 0.2436,
+   "q_change": 0.0473,
+   "share0": 0.0422,
+   "share1": 0.0485,
+   "d_share_pt": 0.6365,
+   "cons_change": 0.1316
+  },
+  {
+   "tab": "q5",
+   "label": "第Ⅲ五分位",
+   "elec0": 122075.0,
+   "elec1": 158612.0,
+   "d_yen": 36537.0,
+   "d_pct": 0.2993,
+   "price_eff": 29380.6846,
+   "qty_eff": 7156.3154,
+   "p0": 26.4541,
+   "p1": 32.6535,
+   "p_change": 0.2343,
+   "q_change": 0.0526,
+   "share0": 0.0389,
+   "share1": 0.0446,
+   "d_share_pt": 0.5734,
+   "cons_change": 0.1323
+  },
+  {
+   "tab": "q5",
+   "label": "第Ⅳ五分位",
+   "elec0": 128099.0,
+   "elec1": 158244.0,
+   "d_yen": 30145.0,
+   "d_pct": 0.2353,
+   "price_eff": 35625.7121,
+   "qty_eff": -5480.7121,
+   "p0": 25.2817,
+   "p1": 32.4545,
+   "p_change": 0.2837,
+   "q_change": -0.0377,
+   "share0": 0.0354,
+   "share1": 0.0393,
+   "d_share_pt": 0.3884,
+   "cons_change": 0.1131
+  },
+  {
+   "tab": "q5",
+   "label": "第Ⅴ五分位",
+   "elec0": 141497.0,
+   "elec1": 178943.0,
+   "d_yen": 37446.0,
+   "d_pct": 0.2646,
+   "price_eff": 36671.6818,
+   "qty_eff": 774.3182,
+   "p0": 25.9493,
+   "p1": 32.6576,
+   "p_change": 0.2585,
+   "q_change": 0.0049,
+   "share0": 0.0289,
+   "share1": 0.0326,
+   "d_share_pt": 0.3757,
+   "cons_change": 0.119
+  },
+  {
+   "tab": "q5",
+   "label": "平均",
+   "elec0": 123804.0,
+   "elec1": 158622.0,
+   "d_yen": 34818.0,
+   "d_pct": 0.2812,
+   "price_eff": 31169.0619,
+   "qty_eff": 3648.9381,
+   "p0": 26.1509,
+   "p1": 32.6465,
+   "p_change": 0.2484,
+   "q_change": 0.0263,
+   "share0": 0.037,
+   "share1": 0.0421,
+   "d_share_pt": 0.5122,
+   "cons_change": 0.1254
+  },
+  {
+   "tab": "reg",
+   "label": "中国",
+   "elec0": 138960.0,
+   "elec1": 177445.0,
+   "d_yen": 38485.0,
+   "d_pct": 0.277,
+   "price_eff": 33087.0183,
+   "qty_eff": 5397.9817,
+   "p0": 25.672,
+   "p1": 31.6768,
+   "p_change": 0.2339,
+   "q_change": 0.0349,
+   "share0": 0.0432,
+   "share1": 0.0502,
+   "d_share_pt": 0.7044,
+   "cons_change": 0.0978
+  },
+  {
+   "tab": "reg",
+   "label": "北陸",
+   "elec0": 164137.0,
+   "elec1": 209409.0,
+   "d_yen": 45272.0,
+   "d_pct": 0.2758,
+   "price_eff": 45805.6729,
+   "qty_eff": -533.6729,
+   "p0": 25.0885,
+   "p1": 32.1004,
+   "p_change": 0.2795,
+   "q_change": -0.0029,
+   "share0": 0.0465,
+   "share1": 0.0528,
+   "d_share_pt": 0.6335,
+   "cons_change": 0.1228
+  },
+  {
+   "tab": "reg",
+   "label": "北海道",
+   "elec0": 136284.0,
+   "elec1": 163005.0,
+   "d_yen": 26721.0,
+   "d_pct": 0.1961,
+   "price_eff": 35114.8005,
+   "qty_eff": -8393.8005,
+   "p0": 29.6081,
+   "p1": 37.4621,
+   "p_change": 0.2653,
+   "q_change": -0.0547,
+   "share0": 0.0438,
+   "share1": 0.0462,
+   "d_share_pt": 0.2358,
+   "cons_change": 0.135
+  },
+  {
+   "tab": "reg",
+   "label": "関東",
+   "elec0": 112832.0,
+   "elec1": 152589.0,
+   "d_yen": 39757.0,
+   "d_pct": 0.3524,
+   "price_eff": 34436.6627,
+   "qty_eff": 5320.3373,
+   "p0": 26.6146,
+   "p1": 34.5675,
+   "p_change": 0.2988,
+   "q_change": 0.0412,
+   "share0": 0.0316,
+   "share1": 0.0376,
+   "d_share_pt": 0.5984,
+   "cons_change": 0.1373
+  },
+  {
+   "tab": "reg",
+   "label": "近畿",
+   "elec0": 119673.0,
+   "elec1": 147406.0,
+   "d_yen": 27733.0,
+   "d_pct": 0.2317,
+   "price_eff": 20385.8376,
+   "qty_eff": 7347.1624,
+   "p0": 25.9251,
+   "p1": 30.2175,
+   "p_change": 0.1656,
+   "q_change": 0.0568,
+   "share0": 0.037,
+   "share1": 0.0404,
+   "d_share_pt": 0.3378,
+   "cons_change": 0.1287
+  },
+  {
+   "tab": "reg",
+   "label": "九州",
+   "elec0": 126455.0,
+   "elec1": 141138.0,
+   "d_yen": 14683.0,
+   "d_pct": 0.1161,
+   "price_eff": 21009.7603,
+   "qty_eff": -6326.7603,
+   "p0": 25.0563,
+   "p1": 29.3212,
+   "p_change": 0.1702,
+   "q_change": -0.0462,
+   "share0": 0.0404,
+   "share1": 0.0418,
+   "d_share_pt": 0.1355,
+   "cons_change": 0.0799
+  },
+  {
+   "tab": "reg",
+   "label": "沖縄",
+   "elec0": 122792.0,
+   "elec1": 150403.0,
+   "d_yen": 27611.0,
+   "d_pct": 0.2249,
+   "price_eff": 27891.032,
+   "qty_eff": -280.032,
+   "p0": 28.6872,
+   "p1": 35.2102,
+   "p_change": 0.2274,
+   "q_change": -0.0021,
+   "share0": 0.0458,
+   "share1": 0.0532,
+   "d_share_pt": 0.7411,
+   "cons_change": 0.0541
+  },
+  {
+   "tab": "reg",
+   "label": "四国",
+   "elec0": 141384.0,
+   "elec1": 170305.0,
+   "d_yen": 28921.0,
+   "d_pct": 0.2046,
+   "price_eff": 26063.4309,
+   "qty_eff": 2857.5691,
+   "p0": 26.0574,
+   "p1": 30.8157,
+   "p_change": 0.1826,
+   "q_change": 0.0186,
+   "share0": 0.0466,
+   "share1": 0.0496,
+   "d_share_pt": 0.2959,
+   "cons_change": 0.1327
+  },
+  {
+   "tab": "reg",
+   "label": "東北",
+   "elec0": 135170.0,
+   "elec1": 196559.0,
+   "d_yen": 61389.0,
+   "d_pct": 0.4542,
+   "price_eff": 35540.1009,
+   "qty_eff": 25848.8991,
+   "p0": 26.8584,
+   "p1": 33.3597,
+   "p_change": 0.2421,
+   "q_change": 0.1708,
+   "share0": 0.0442,
+   "share1": 0.0548,
+   "d_share_pt": 1.057,
+   "cons_change": 0.1736
+  },
+  {
+   "tab": "reg",
+   "label": "東海",
+   "elec0": 125532.0,
+   "elec1": 157846.0,
+   "d_yen": 32314.0,
+   "d_pct": 0.2574,
+   "price_eff": 35770.1431,
+   "qty_eff": -3456.1431,
+   "p0": 25.1823,
+   "p1": 32.45,
+   "p_change": 0.2886,
+   "q_change": -0.0242,
+   "share0": 0.0369,
+   "share1": 0.0421,
+   "d_share_pt": 0.523,
+   "cons_change": 0.1013
+  }
+ ],
+ "unitprice_range": {
+  "q5": {
+   "2021": [
+    25.28,
+    26.97
+   ],
+   "2025": [
+    32.45,
+    32.75
+   ]
+  },
+  "age": {
+   "2021": [
+    25.35,
+    26.69
+   ],
+   "2025": [
+    32.27,
+    33.44
+   ]
+  },
+  "city": {
+   "2021": [
+    25.68,
+    26.35
+   ],
+   "2025": [
+    32.14,
+    33.3
+   ]
+  },
+  "reg": {
+   "2021": [
+    25.06,
+    29.61
+   ],
+   "2025": [
+    29.32,
+    37.46
+   ]
+  }
+ },
+ "robustness": [
+  {
+   "tab": "q5",
+   "period": "2021→2025",
+   "kind": "記録どおり",
+   "top_share_rise": "第Ⅰ五分位",
+   "max_d_share_pt": 0.725,
+   "min_d_share_pt": 0.376,
+   "top_yen": "第Ⅴ五分位",
+   "low_yen": "第Ⅳ五分位",
+   "price_share_median": 0.825
+  },
+  {
+   "tab": "q5",
+   "period": "2021→2025",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "第Ⅰ五分位",
+   "max_d_share_pt": 0.93,
+   "min_d_share_pt": 0.497,
+   "top_yen": "第Ⅴ五分位",
+   "low_yen": "第Ⅳ五分位",
+   "price_share_median": 0.846
+  },
+  {
+   "tab": "q5",
+   "period": "2021→2023",
+   "kind": "記録どおり",
+   "top_share_rise": "第Ⅲ五分位",
+   "max_d_share_pt": 0.569,
+   "min_d_share_pt": 0.418,
+   "top_yen": "第Ⅲ五分位",
+   "low_yen": "第Ⅰ五分位",
+   "price_share_median": 0.749
+  },
+  {
+   "tab": "q5",
+   "period": "2021→2023",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "第Ⅰ五分位",
+   "max_d_share_pt": 1.46,
+   "min_d_share_pt": 1.028,
+   "top_yen": "第Ⅲ五分位",
+   "low_yen": "第Ⅰ五分位",
+   "price_share_median": 0.877
+  },
+  {
+   "tab": "q5",
+   "period": "2020→2025",
+   "kind": "記録どおり",
+   "top_share_rise": "第Ⅰ五分位",
+   "max_d_share_pt": 0.686,
+   "min_d_share_pt": 0.091,
+   "top_yen": "第Ⅰ五分位",
+   "low_yen": "第Ⅳ五分位",
+   "price_share_median": 0.961
+  },
+  {
+   "tab": "q5",
+   "period": "2020→2025",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "第Ⅰ五分位",
+   "max_d_share_pt": 0.891,
+   "min_d_share_pt": 0.213,
+   "top_yen": "第Ⅱ五分位",
+   "low_yen": "第Ⅳ五分位",
+   "price_share_median": 0.967
+  },
+  {
+   "tab": "q5",
+   "period": "2021→2024",
+   "kind": "記録どおり",
+   "top_share_rise": "第Ⅱ五分位",
+   "max_d_share_pt": 0.426,
+   "min_d_share_pt": 0.181,
+   "top_yen": "第Ⅱ五分位",
+   "low_yen": "第Ⅴ五分位",
+   "price_share_median": 0.933
+  },
+  {
+   "tab": "q5",
+   "period": "2021→2024",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "第Ⅱ五分位",
+   "max_d_share_pt": 0.83,
+   "min_d_share_pt": 0.448,
+   "top_yen": "第Ⅱ五分位",
+   "low_yen": "第Ⅰ五分位",
+   "price_share_median": 0.956
+  },
+  {
+   "tab": "age",
+   "period": "2021→2025",
+   "kind": "記録どおり",
+   "top_share_rise": "70歳以上",
+   "max_d_share_pt": 0.624,
+   "min_d_share_pt": 0.394,
+   "top_yen": "70歳以上",
+   "low_yen": "29歳以下",
+   "price_share_median": 1.002
+  },
+  {
+   "tab": "age",
+   "period": "2021→2025",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "70歳以上",
+   "max_d_share_pt": 0.809,
+   "min_d_share_pt": 0.527,
+   "top_yen": "70歳以上",
+   "low_yen": "29歳以下",
+   "price_share_median": 1.001
+  },
+  {
+   "tab": "age",
+   "period": "2021→2023",
+   "kind": "記録どおり",
+   "top_share_rise": "30〜39歳",
+   "max_d_share_pt": 0.726,
+   "min_d_share_pt": 0.399,
+   "top_yen": "30〜39歳",
+   "low_yen": "29歳以下",
+   "price_share_median": 0.823
+  },
+  {
+   "tab": "age",
+   "period": "2021→2023",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "30〜39歳",
+   "max_d_share_pt": 1.484,
+   "min_d_share_pt": 1.11,
+   "top_yen": "30〜39歳",
+   "low_yen": "29歳以下",
+   "price_share_median": 0.913
+  },
+  {
+   "tab": "age",
+   "period": "2020→2025",
+   "kind": "記録どおり",
+   "top_share_rise": "29歳以下",
+   "max_d_share_pt": 0.544,
+   "min_d_share_pt": 0.227,
+   "top_yen": "70歳以上",
+   "low_yen": "29歳以下",
+   "price_share_median": 0.977
+  },
+  {
+   "tab": "age",
+   "period": "2020→2025",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "70歳以上",
+   "max_d_share_pt": 0.702,
+   "min_d_share_pt": 0.368,
+   "top_yen": "70歳以上",
+   "low_yen": "29歳以下",
+   "price_share_median": 0.98
+  },
+  {
+   "tab": "age",
+   "period": "2021→2024",
+   "kind": "記録どおり",
+   "top_share_rise": "29歳以下",
+   "max_d_share_pt": 0.432,
+   "min_d_share_pt": 0.239,
+   "top_yen": "29歳以下",
+   "low_yen": "50〜59歳",
+   "price_share_median": 0.947
+  },
+  {
+   "tab": "age",
+   "period": "2021→2024",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "30〜39歳",
+   "max_d_share_pt": 0.754,
+   "min_d_share_pt": 0.542,
+   "top_yen": "29歳以下",
+   "low_yen": "50〜59歳",
+   "price_share_median": 0.963
+  },
+  {
+   "tab": "city",
+   "period": "2021→2025",
+   "kind": "記録どおり",
+   "top_share_rise": "小都市B・町村",
+   "max_d_share_pt": 0.71,
+   "min_d_share_pt": 0.332,
+   "top_yen": "小都市B・町村",
+   "low_yen": "大都市",
+   "price_share_median": 0.938
+  },
+  {
+   "tab": "city",
+   "period": "2021→2025",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "小都市B・町村",
+   "max_d_share_pt": 0.9,
+   "min_d_share_pt": 0.497,
+   "top_yen": "小都市B・町村",
+   "low_yen": "大都市",
+   "price_share_median": 0.946
+  },
+  {
+   "tab": "city",
+   "period": "2021→2023",
+   "kind": "記録どおり",
+   "top_share_rise": "小都市B・町村",
+   "max_d_share_pt": 0.781,
+   "min_d_share_pt": 0.246,
+   "top_yen": "小都市B・町村",
+   "low_yen": "小都市A",
+   "price_share_median": 0.823
+  },
+  {
+   "tab": "city",
+   "period": "2021→2023",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "小都市B・町村",
+   "max_d_share_pt": 1.769,
+   "min_d_share_pt": 1.017,
+   "top_yen": "小都市B・町村",
+   "low_yen": "大都市",
+   "price_share_median": 0.908
+  },
+  {
+   "tab": "city",
+   "period": "2020→2025",
+   "kind": "記録どおり",
+   "top_share_rise": "小都市B・町村",
+   "max_d_share_pt": 0.602,
+   "min_d_share_pt": 0.267,
+   "top_yen": "小都市B・町村",
+   "low_yen": "大都市",
+   "price_share_median": 1.0
+  },
+  {
+   "tab": "city",
+   "period": "2020→2025",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "小都市B・町村",
+   "max_d_share_pt": 0.793,
+   "min_d_share_pt": 0.403,
+   "top_yen": "小都市B・町村",
+   "low_yen": "大都市",
+   "price_share_median": 1.0
+  },
+  {
+   "tab": "city",
+   "period": "2021→2024",
+   "kind": "記録どおり",
+   "top_share_rise": "小都市B・町村",
+   "max_d_share_pt": 0.42,
+   "min_d_share_pt": 0.156,
+   "top_yen": "小都市B・町村",
+   "low_yen": "大都市",
+   "price_share_median": 1.095
+  },
+  {
+   "tab": "city",
+   "period": "2021→2024",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "小都市B・町村",
+   "max_d_share_pt": 0.842,
+   "min_d_share_pt": 0.451,
+   "top_yen": "小都市B・町村",
+   "low_yen": "大都市",
+   "price_share_median": 1.058
+  },
+  {
+   "tab": "reg",
+   "period": "2021→2025",
+   "kind": "記録どおり",
+   "top_share_rise": "東北",
+   "max_d_share_pt": 1.057,
+   "min_d_share_pt": 0.136,
+   "top_yen": "東北",
+   "low_yen": "九州",
+   "price_share_median": 0.956
+  },
+  {
+   "tab": "reg",
+   "period": "2021→2025",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "東北",
+   "max_d_share_pt": 1.256,
+   "min_d_share_pt": 0.309,
+   "top_yen": "東北",
+   "low_yen": "九州",
+   "price_share_median": 0.963
+  },
+  {
+   "tab": "reg",
+   "period": "2021→2023",
+   "kind": "記録どおり",
+   "top_share_rise": "東北",
+   "max_d_share_pt": 0.959,
+   "min_d_share_pt": -0.157,
+   "top_yen": "東北",
+   "low_yen": "九州",
+   "price_share_median": 0.779
+  },
+  {
+   "tab": "reg",
+   "period": "2021→2023",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "東北",
+   "max_d_share_pt": 1.941,
+   "min_d_share_pt": 0.703,
+   "top_yen": "東北",
+   "low_yen": "九州",
+   "price_share_median": 0.902
+  },
+  {
+   "tab": "reg",
+   "period": "2020→2025",
+   "kind": "記録どおり",
+   "top_share_rise": "東北",
+   "max_d_share_pt": 0.857,
+   "min_d_share_pt": 0.036,
+   "top_yen": "東北",
+   "low_yen": "北海道",
+   "price_share_median": 1.0
+  },
+  {
+   "tab": "reg",
+   "period": "2020→2025",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "東北",
+   "max_d_share_pt": 1.057,
+   "min_d_share_pt": 0.186,
+   "top_yen": "東北",
+   "low_yen": "北海道",
+   "price_share_median": 1.0
+  },
+  {
+   "tab": "reg",
+   "period": "2021→2024",
+   "kind": "記録どおり",
+   "top_share_rise": "沖縄",
+   "max_d_share_pt": 0.642,
+   "min_d_share_pt": -0.263,
+   "top_yen": "東北",
+   "low_yen": "九州",
+   "price_share_median": 0.988
+  },
+  {
+   "tab": "reg",
+   "period": "2021→2024",
+   "kind": "補助を足し戻す",
+   "top_share_rise": "沖縄",
+   "max_d_share_pt": 1.052,
+   "min_d_share_pt": 0.111,
+   "top_yen": "東北",
+   "low_yen": "九州",
+   "price_share_median": 1.143
+  }
+ ],
+ "q1_vs_q5": {
+  "2020→2025": {
+   "Q1_d_share_pt": 0.686,
+   "Q5_d_share_pt": 0.091,
+   "Q1_d_yen": 33710,
+   "Q5_d_yen": 28989,
+   "Q1_share1": 5.53,
+   "Q5_share1": 3.26
+  },
+  "2021→2023": {
+   "Q1_d_share_pt": 0.449,
+   "Q5_d_share_pt": 0.418,
+   "Q1_d_yen": 18269,
+   "Q5_d_yen": 23802,
+   "Q1_share1": 5.25,
+   "Q5_share1": 3.31
+  },
+  "2021→2024": {
+   "Q1_d_share_pt": 0.306,
+   "Q5_d_share_pt": 0.181,
+   "Q1_d_yen": 17503,
+   "Q5_d_yen": 17150,
+   "Q1_share1": 5.11,
+   "Q5_share1": 3.07
+  },
+  "2021→2025": {
+   "Q1_d_share_pt": 0.725,
+   "Q5_d_share_pt": 0.376,
+   "Q1_d_yen": 33915,
+   "Q5_d_yen": 37446,
+   "Q1_share1": 5.53,
+   "Q5_share1": 3.26
+  }
+ },
+ "household_types": {
+  "二人以上の世帯": {
+   "2021": 123804.0,
+   "2025": 158622.0,
+   "d_pct": 0.2812,
+   "share2021": 3.7,
+   "share2025": 4.21
+  },
+  "単身世帯": {
+   "2021": 65790.0,
+   "2025": 88040.0,
+   "d_pct": 0.3382,
+   "share2021": 3.54,
+   "share2025": 4.24
+  },
+  "総世帯": {
+   "2021": 103274.0,
+   "2025": 131540.0,
+   "d_pct": 0.2737,
+   "share2021": 3.66,
+   "share2025": 4.22
+  }
+ },
+ "real_2021_2025": {
+  "nominal_pct": 0.2812,
+  "real_pct": 0.142,
+  "cpi_total_pct": 0.122
+ }
+}
