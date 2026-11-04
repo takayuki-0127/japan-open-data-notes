@@ -1,0 +1,130 @@
+{
+ "N": 1740,
+ "H5_bounds": [
+  {
+   "前回人口の最小": 0,
+   "前回人口の最大": 4422,
+   "件数": 233
+  },
+  {
+   "前回人口の最小": 4462,
+   "前回人口の最大": 14878,
+   "件数": 427
+  },
+  {
+   "前回人口の最小": 14891,
+   "前回人口の最大": 42858,
+   "件数": 465
+  },
+  {
+   "前回人口の最小": 42935,
+   "前回人口の最大": 133411,
+   "件数": 406
+  },
+  {
+   "前回人口の最小": 134141,
+   "前回人口の最大": 3724844,
+   "件数": 209
+  }
+ ],
+ "main_eff": {
+  "equal": {
+   "households": 2.69,
+   "employees": 2.21,
+   "elderly": 2.875,
+   "births": 2.737,
+   "farms": 1.297,
+   "aging_mean": 1.457
+  },
+  "neyman_oracle": {
+   "households": 14.022,
+   "employees": 6.98,
+   "elderly": 12.978,
+   "births": 12.564,
+   "farms": 1.895,
+   "aging_mean": 1.63
+  },
+  "neyman_pop": {
+   "households": 14.129,
+   "employees": 4.45,
+   "elderly": 12.723,
+   "births": 12.363,
+   "farms": 0.441,
+   "aging_mean": 0.191
+  },
+  "neyman_prior": {
+   "households": 14.022,
+   "employees": 6.945,
+   "elderly": 12.978,
+   "births": 12.564,
+   "farms": 1.894,
+   "aging_mean": 1.622
+  },
+  "prop": {
+   "households": 1.558,
+   "employees": 1.381,
+   "elderly": 1.675,
+   "births": 1.594,
+   "farms": 1.254,
+   "aging_mean": 1.546
+  },
+  "srs": {
+   "households": 1.0,
+   "employees": 1.0,
+   "elderly": 1.0,
+   "births": 1.0,
+   "farms": 1.0,
+   "aging_mean": 1.0
+  }
+ },
+ "main_cv": {
+  "equal": {
+   "households": 16.913,
+   "employees": 21.371,
+   "elderly": 13.412,
+   "births": 16.668,
+   "farms": 10.662,
+   "aging_mean": 1.835
+  },
+  "neyman_oracle": {
+   "households": 7.407,
+   "employees": 12.025,
+   "elderly": 6.313,
+   "births": 7.779,
+   "farms": 8.819,
+   "aging_mean": 1.735
+  },
+  "neyman_pop": {
+   "households": 7.379,
+   "employees": 15.06,
+   "elderly": 6.375,
+   "births": 7.842,
+   "farms": 18.288,
+   "aging_mean": 5.07
+  },
+  "neyman_prior": {
+   "households": 7.407,
+   "employees": 12.055,
+   "elderly": 6.313,
+   "births": 7.779,
+   "farms": 8.821,
+   "aging_mean": 1.74
+  },
+  "prop": {
+   "households": 22.222,
+   "employees": 27.039,
+   "elderly": 17.573,
+   "births": 21.844,
+   "farms": 10.842,
+   "aging_mean": 1.782
+  },
+  "srs": {
+   "households": 27.737,
+   "employees": 31.769,
+   "elderly": 22.741,
+   "births": 27.575,
+   "farms": 12.14,
+   "aging_mean": 2.215
+  }
+ }
+}
