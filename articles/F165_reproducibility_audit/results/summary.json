@@ -1,0 +1,140 @@
+{
+ "population": 379,
+ "flagship": 160,
+ "regular": 219,
+ "sample": 40,
+ "estimates": {
+  "数字が一致（1e-3以内）": {
+   "unweighted": 0.825,
+   "weighted": 0.853,
+   "se": 0.044,
+   "lo": 0.766,
+   "hi": 0.939,
+   "看板": {
+    "n": 20,
+    "share": 0.65,
+    "weighted": 0.651,
+    "se": 0.104
+   },
+   "通常": {
+    "n": 20,
+    "share": 1.0,
+    "weighted": 1.0,
+    "se": 0.0
+   }
+  },
+  "そのまま再現": {
+   "unweighted": 0.725,
+   "weighted": 0.769,
+   "se": 0.044,
+   "lo": 0.683,
+   "hi": 0.856,
+   "看板": {
+    "n": 20,
+    "share": 0.45,
+    "weighted": 0.454,
+    "se": 0.105
+   },
+   "通常": {
+    "n": 20,
+    "share": 1.0,
+    "weighted": 1.0,
+    "se": 0.0
+   }
+  },
+  "数字がずれた": {
+   "unweighted": 0.175,
+   "weighted": 0.147,
+   "se": 0.044,
+   "lo": 0.061,
+   "hi": 0.234,
+   "看板": {
+    "n": 20,
+    "share": 0.35,
+    "weighted": 0.349,
+    "se": 0.104
+   },
+   "通常": {
+    "n": 20,
+    "share": 0.0,
+    "weighted": 0.0,
+    "se": 0.0
+   }
+  }
+ },
+ "data_mb_total": 866.5,
+ "run_sec_total_clean": 2153.3,
+ "run_sec_median_clean": 8.2,
+ "mismatch_files": [
+  {
+   "folder": "F35_business_cycle_markov",
+   "file": "realtime_turning_points.csv",
+   "level": "ずれ"
+  },
+  {
+   "folder": "F35_business_cycle_markov",
+   "file": "realtime_probs.csv",
+   "level": "ずれ"
+  },
+  {
+   "folder": "F35_business_cycle_markov",
+   "file": "probs_main.csv",
+   "level": "1e-2以内"
+  },
+  {
+   "folder": "F51_childcare_mediation",
+   "file": "results.json",
+   "level": "1e-2以内"
+  },
+  {
+   "folder": "F69_data_quality",
+   "file": "rulebook_summary.csv",
+   "level": "ずれ"
+  },
+  {
+   "folder": "F69_data_quality",
+   "file": "robustness.csv",
+   "level": "ずれ"
+  },
+  {
+   "folder": "F69_data_quality",
+   "file": "t1_population_jumps_3x.csv",
+   "level": "形が違う"
+  },
+  {
+   "folder": "F74_temperature_kriging",
+   "file": "robustness.csv",
+   "level": "ずれ"
+  },
+  {
+   "folder": "F74_temperature_kriging",
+   "file": "rmse_excluding_fuji.csv",
+   "level": "形が違う"
+  },
+  {
+   "folder": "F113_price_index_formulas",
+   "file": "items_2005_2024.csv",
+   "level": "ずれ"
+  },
+  {
+   "folder": "F147_synthetic_from_tables",
+   "file": "method_comparison.csv",
+   "level": "ずれ"
+  },
+  {
+   "folder": "F155_multiverse",
+   "file": "B2_specifications_lfpr.csv",
+   "level": "ずれ"
+  },
+  {
+   "folder": "F155_multiverse",
+   "file": "B_specifications.csv",
+   "level": "ずれ"
+  },
+  {
+   "folder": "F155_multiverse",
+   "file": "results.json",
+   "level": "1e-2以内"
+  }
+ ]
+}

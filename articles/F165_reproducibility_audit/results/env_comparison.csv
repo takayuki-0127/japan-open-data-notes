@@ -1,0 +1,16 @@
+folder,steps_A,match_A,steps_B,match_B
+F13_unemployment_forecast,全部動いた,True,全部動いた,True
+F35_business_cycle_markov,全部動いた,False,全部動いた,False
+F43_local_projections,取得だけ通信で止まった,True,取得だけ通信で止まった,True
+F44_structural_breaks,取得だけ通信で止まった,True,取得だけ通信で止まった,True
+F51_childcare_mediation,全部動いた,False,全部動いた,False
+F60_regression_to_mean,全部動いた,True,全部動いた,True
+F65_doctors_life_dag,全部動いた,True,全部動いた,True
+F69_data_quality,全部動いた,False,全部動いた,True
+F74_temperature_kriging,取得だけ通信で止まった,False,取得だけ通信で止まった,False
+F77_migration_markov,途中で止まった手順がある,True,途中で止まった手順がある,True
+F113_price_index_formulas,全部動いた,False,全部動いた,True
+F118_childcare_fertility_synthesis,全部動いた,True,全部動いた,True
+F127_vacant_houses_decomposition,全部動いた,True,全部動いた,True
+F143_fish_catch_decline,全部動いた,True,全部動いた,True
+F147_synthetic_from_tables,全部動いた,False,全部動いた,True
