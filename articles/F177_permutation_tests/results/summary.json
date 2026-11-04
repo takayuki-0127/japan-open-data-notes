@@ -1,0 +1,139 @@
+{
+ "ex1": {
+  "n_u": 15,
+  "n_r": 15,
+  "diff": 0.48505117800685693,
+  "p_welch": 0.04921022879536912,
+  "p_student": 0.049094369723468145,
+  "p_mw": 0.029496474672880277,
+  "p_perm": {
+   "mean": 0.04982950170498295,
+   "t": 0.04982950170498295,
+   "median": 0.06054697265136743,
+   "trim": 0.05174741262936853,
+   "rank": 0.02980970190298097
+  },
+  "loo_share_welch_below_005": 0.36666666666666664,
+  "loo_share_perm_below_005": 0.3333333333333333,
+  "loo_p_range": [
+   0.01799910004499775,
+   0.09194540272986351
+  ],
+  "conv": [
+   {
+    "B": 100,
+    "p_min": 0.0297029702970297,
+    "p_median": 0.04950495049504951,
+    "p_max": 0.10891089108910891,
+    "share_below_005": 0.55
+   },
+   {
+    "B": 1000,
+    "p_min": 0.04295704295704296,
+    "p_median": 0.049450549450549455,
+    "p_max": 0.059940059940059943,
+    "share_below_005": 0.55
+   },
+   {
+    "B": 10000,
+    "p_min": 0.044295570442955706,
+    "p_median": 0.04944505549445055,
+    "p_max": 0.052394760523947606,
+    "share_below_005": 0.8
+   },
+   {
+    "B": 100000,
+    "p_min": 0.04785952140478595,
+    "p_median": 0.04868451315486845,
+    "p_max": 0.04991950080499195,
+    "share_below_005": 1.0
+   }
+  ]
+ },
+ "ex2": {
+  "n_east": 17,
+  "n_sig": {
+   "p_welch": 19,
+   "p_student": 20,
+   "p_mannwhitney": 21,
+   "p_perm_mean": 21,
+   "p_perm_t": 19,
+   "p_contig_mean": 4
+  },
+  "disagree_welch_vs_perm_mean": 2,
+  "disagree_list": [
+   {
+    "name": "公立小学校費（児童１人当たり）(都道府県・市町村財政合計)",
+    "p_welch": 0.0611,
+    "p_perm_mean": 0.0325,
+    "max_abs_z": 2.4452
+   },
+   {
+    "name": "住宅の敷地面積（１住宅当たり）",
+    "p_welch": 0.0626,
+    "p_perm_mean": 0.0343,
+    "max_abs_z": 2.3299
+   }
+  ],
+  "spearman_welch_perm_mean": 0.9925652119303328,
+  "median_ratio_perm_over_welch": 0.9780333674827141,
+  "median_ratio_hi_outlier": 0.9364772557602061,
+  "n_hi_outlier": 15,
+  "median_ratio_lo_outlier": 0.9823213119437162,
+  "corr_logratio_maxz": -0.13024902490249024,
+  "sig_welch_and_contig": 4,
+  "sig_welch_but_not_contig": 15
+ },
+ "ex3": [
+  {
+   "event": "E1",
+   "name": "熊本地震",
+   "n_treated": 2,
+   "n_donors": 36,
+   "effect_0_5": 0.0105,
+   "effect_pct": 1.0556,
+   "p_t_months": 0.8636,
+   "p_t_onesample": 0.8627,
+   "p_time_placebo": 0.9,
+   "n_time_placebo": 19,
+   "p_pref_placebo": 0.7931,
+   "n_pref_placebo": 2000,
+   "min_possible_p_pref": 0.0005,
+   "lag1_autocorr_pre": 0.7797
+  },
+  {
+   "event": "E2",
+   "name": "平成30年7月豪雨",
+   "n_treated": 3,
+   "n_donors": 34,
+   "effect_0_5": -0.0593,
+   "effect_pct": -5.7592,
+   "p_t_months": 0.0336,
+   "p_t_onesample": 0.0348,
+   "p_time_placebo": 0.05,
+   "n_time_placebo": 19,
+   "p_pref_placebo": 0.1829,
+   "n_pref_placebo": 2000,
+   "min_possible_p_pref": 0.0005,
+   "lag1_autocorr_pre": 0.6417
+  },
+  {
+   "event": "E3",
+   "name": "北海道胆振東部地震",
+   "n_treated": 1,
+   "n_donors": 41,
+   "effect_0_5": -0.0737,
+   "effect_pct": -7.1024,
+   "p_t_months": 0.1859,
+   "p_t_onesample": 0.1853,
+   "p_time_placebo": 0.05,
+   "n_time_placebo": 19,
+   "p_pref_placebo": 0.2857,
+   "n_pref_placebo": 41,
+   "min_possible_p_pref": 0.0238,
+   "lag1_autocorr_pre": 0.6897
+  }
+ ],
+ "simulation_reps": 2000,
+ "simulation_B": 999
+}
