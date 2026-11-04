@@ -1,0 +1,600 @@
+{
+ "weekday_index_pooled": {
+  "月": 110.5,
+  "火": 120.0,
+  "水": 115.8,
+  "木": 111.4,
+  "金": 111.5,
+  "土": 78.4,
+  "日": 67.2,
+  "祝日": 71.9,
+  "年末年始": 66.5
+ },
+ "weekday_index_range": {
+  "月": [
+   108.5,
+   113.2
+  ],
+  "火": [
+   117.0,
+   122.5
+  ],
+  "水": [
+   113.6,
+   119.2
+  ],
+  "木": [
+   108.9,
+   115.3
+  ],
+  "金": [
+   110.3,
+   113.3
+  ],
+  "土": [
+   73.9,
+   81.5
+  ],
+  "日": [
+   62.1,
+   70.9
+  ],
+  "祝日": [
+   65.1,
+   79.2
+  ],
+  "年末年始": [
+   61.6,
+   69.6
+  ]
+ },
+ "sun_vs_weekday_pct": -40.6,
+ "sat_vs_weekday_pct": -30.8,
+ "hol_vs_weekday_pct": -36.2,
+ "ny_vs_weekday_pct": -41.4,
+ "reg_vs_tue_pct": {
+  "月": [
+   -7.7,
+   -8.4,
+   -6.9
+  ],
+  "水": [
+   -3.6,
+   -4.4,
+   -2.8
+  ],
+  "木": [
+   -7.2,
+   -8.0,
+   -6.4
+  ],
+  "金": [
+   -7.1,
+   -7.9,
+   -6.4
+  ],
+  "土": [
+   -34.7,
+   -35.1,
+   -34.2
+  ],
+  "日": [
+   -44.0,
+   -44.4,
+   -43.5
+  ],
+  "祝日": [
+   -40.5,
+   -41.4,
+   -39.6
+  ],
+  "年末年始": [
+   -44.4,
+   -46.4,
+   -42.4
+  ]
+ },
+ "reg_r2": 0.947,
+ "weekend_gap_share_pct": {
+  "2018": 12.0,
+  "2019": 12.4,
+  "2020": 13.0,
+  "2021": 13.1,
+  "2022": 14.0,
+  "2023": 14.6,
+  "2024": 15.6,
+  "2025": 16.7
+ },
+ "place_share_pct": {
+  "その他": 0.03,
+  "助産所": 0.49,
+  "病院": 54.32,
+  "自宅": 0.12,
+  "診療所": 45.04
+ },
+ "place_index_vs_weekday": {
+  "病院": {
+   "月": 96.2,
+   "火": 105.5,
+   "水": 102.2,
+   "木": 99.0,
+   "金": 96.7,
+   "土": 60.2,
+   "日": 54.5,
+   "祝日": 59.0,
+   "年末年始": 53.2
+  },
+  "診療所": {
+   "月": 98.2,
+   "火": 105.2,
+   "水": 100.7,
+   "木": 96.2,
+   "金": 99.6,
+   "土": 80.2,
+   "日": 65.1,
+   "祝日": 69.5,
+   "年末年始": 65.2
+  },
+  "助産所": {
+   "月": 99.3,
+   "火": 100.4,
+   "水": 98.6,
+   "木": 101.3,
+   "金": 100.4,
+   "土": 96.7,
+   "日": 98.0,
+   "祝日": 97.7,
+   "年末年始": 89.4
+  },
+  "自宅": {
+   "月": 101.5,
+   "火": 99.7,
+   "水": 104.3,
+   "木": 97.3,
+   "金": 97.3,
+   "土": 96.3,
+   "日": 93.6,
+   "祝日": 96.8,
+   "年末年始": 94.3
+  }
+ },
+ "home_sun_index_by_year": [
+  87.1,
+  100.0,
+  104.0,
+  105.3,
+  92.4,
+  85.4,
+  80.4,
+  90.1
+ ],
+ "home_sun_ratio_perm": {
+  "obs": 0.936,
+  "p_two_sided": 0.075
+ },
+ "share_9to16_pct": {
+  "総数": {
+   "平日": 55.6,
+   "日曜・祝日": 39.6
+  },
+  "病院": {
+   "平日": 58.7,
+   "日曜・祝日": 39.2
+  },
+  "診療所": {
+   "平日": 52.0,
+   "日曜・祝日": 40.2
+  },
+  "助産所": {
+   "平日": 31.1,
+   "日曜・祝日": 30.8
+  },
+  "自宅": {
+   "平日": 26.2,
+   "日曜・祝日": 28.1
+  }
+ },
+ "weekday_minus_sunday_per_day": 966.0,
+ "weekday_minus_sunday_share_9to16_pct": 80.1,
+ "night_0to6_ratio_sun_vs_wk": 0.931,
+ "season_sel": [
+  {
+   "kind": "births",
+   "year": 1947,
+   "R": 0.033,
+   "mean_doy": 6.8,
+   "mean_date": "1月7日",
+   "R_raw": 0.0289,
+   "mean_doy_raw": 363.1,
+   "max_min_ratio": 1.58,
+   "peak_month": 1,
+   "low_month": 12
+  },
+  {
+   "kind": "births",
+   "year": 1960,
+   "R": 0.057,
+   "mean_doy": 46.8,
+   "mean_date": "2月16日",
+   "R_raw": 0.0538,
+   "mean_doy_raw": 46.0,
+   "max_min_ratio": 1.398,
+   "peak_month": 1,
+   "low_month": 6
+  },
+  {
+   "kind": "births",
+   "year": 1975,
+   "R": 0.0142,
+   "mean_doy": 98.3,
+   "mean_date": "4月9日",
+   "R_raw": 0.0109,
+   "mean_doy_raw": 123.1,
+   "max_min_ratio": 1.147,
+   "peak_month": 2,
+   "low_month": 11
+  },
+  {
+   "kind": "births",
+   "year": 1990,
+   "R": 0.0072,
+   "mean_doy": 171.9,
+   "mean_date": "6月21日",
+   "R_raw": 0.0114,
+   "mean_doy_raw": 198.9,
+   "max_min_ratio": 1.072,
+   "peak_month": 7,
+   "low_month": 11
+  },
+  {
+   "kind": "births",
+   "year": 2005,
+   "R": 0.0032,
+   "mean_doy": 271.5,
+   "mean_date": "9月29日",
+   "R_raw": 0.0086,
+   "mean_doy_raw": 247.4,
+   "max_min_ratio": 1.104,
+   "peak_month": 9,
+   "low_month": 11
+  },
+  {
+   "kind": "births",
+   "year": 2019,
+   "R": 0.0109,
+   "mean_doy": 219.9,
+   "mean_date": "8月8日",
+   "R_raw": 0.0166,
+   "mean_doy_raw": 224.5,
+   "max_min_ratio": 1.101,
+   "peak_month": 9,
+   "low_month": 3
+  },
+  {
+   "kind": "births",
+   "year": 2024,
+   "R": 0.0204,
+   "mean_doy": 225.9,
+   "mean_date": "8月14日",
+   "R_raw": 0.0235,
+   "mean_doy_raw": 227.8,
+   "max_min_ratio": 1.179,
+   "peak_month": 7,
+   "low_month": 3
+  },
+  {
+   "kind": "births",
+   "year": 2025,
+   "R": 0.0234,
+   "mean_doy": 231.7,
+   "mean_date": "8月20日",
+   "R_raw": 0.0291,
+   "mean_doy_raw": 232.2,
+   "max_min_ratio": 1.202,
+   "peak_month": 7,
+   "low_month": 3
+  },
+  {
+   "kind": "deaths",
+   "year": 1947,
+   "R": 0.0897,
+   "mean_doy": 68.0,
+   "mean_date": "3月9日",
+   "R_raw": 0.0827,
+   "mean_doy_raw": 69.6,
+   "max_min_ratio": 1.647,
+   "peak_month": 2,
+   "low_month": 10
+  },
+  {
+   "kind": "deaths",
+   "year": 1960,
+   "R": 0.1095,
+   "mean_doy": 49.5,
+   "mean_date": "2月19日",
+   "R_raw": 0.1064,
+   "mean_doy_raw": 49.1,
+   "max_min_ratio": 1.509,
+   "peak_month": 4,
+   "low_month": 7
+  },
+  {
+   "kind": "deaths",
+   "year": 1975,
+   "R": 0.0845,
+   "mean_doy": 38.9,
+   "mean_date": "2月8日",
+   "R_raw": 0.078,
+   "mean_doy_raw": 37.7,
+   "max_min_ratio": 1.441,
+   "peak_month": 2,
+   "low_month": 9
+  },
+  {
+   "kind": "deaths",
+   "year": 1990,
+   "R": 0.0696,
+   "mean_doy": 28.1,
+   "mean_date": "1月29日",
+   "R_raw": 0.064,
+   "mean_doy_raw": 25.7,
+   "max_min_ratio": 1.391,
+   "peak_month": 1,
+   "low_month": 9
+  },
+  {
+   "kind": "deaths",
+   "year": 2005,
+   "R": 0.0819,
+   "mean_doy": 34.3,
+   "mean_date": "2月4日",
+   "R_raw": 0.0761,
+   "mean_doy_raw": 32.8,
+   "max_min_ratio": 1.344,
+   "peak_month": 3,
+   "low_month": 7
+  },
+  {
+   "kind": "deaths",
+   "year": 2019,
+   "R": 0.0616,
+   "mean_doy": 16.9,
+   "mean_date": "1月17日",
+   "R_raw": 0.0568,
+   "mean_doy_raw": 13.3,
+   "max_min_ratio": 1.34,
+   "peak_month": 1,
+   "low_month": 6
+  },
+  {
+   "kind": "deaths",
+   "year": 2024,
+   "R": 0.0562,
+   "mean_doy": 13.2,
+   "mean_date": "1月14日",
+   "R_raw": 0.054,
+   "mean_doy_raw": 10.8,
+   "max_min_ratio": 1.303,
+   "peak_month": 12,
+   "low_month": 6
+  },
+  {
+   "kind": "deaths",
+   "year": 2025,
+   "R": 0.0846,
+   "mean_doy": 24.5,
+   "mean_date": "1月25日",
+   "R_raw": 0.0793,
+   "mean_doy_raw": 22.3,
+   "max_min_ratio": 1.489,
+   "peak_month": 1,
+   "low_month": 7
+  }
+ ],
+ "season_eras": {
+  "births": {
+   "1947-1965": {
+    "R_mean": 0.0506,
+    "R_range": [
+     0.0215,
+     0.0731
+    ],
+    "n_years": 5,
+    "peak_months": {
+     "1": 4,
+     "2": 1
+    }
+   },
+   "1970-1995": {
+    "R_mean": 0.013,
+    "R_range": [
+     0.0072,
+     0.021
+    ],
+    "n_years": 6,
+    "peak_months": {
+     "7": 3,
+     "1": 1,
+     "2": 1,
+     "9": 1
+    }
+   },
+   "2000-2019": {
+    "R_mean": 0.0098,
+    "R_range": [
+     0.0032,
+     0.0226
+    ],
+    "n_years": 20,
+    "peak_months": {
+     "9": 17,
+     "7": 1,
+     "10": 1,
+     "8": 1
+    }
+   },
+   "2020-2025": {
+    "R_mean": 0.0213,
+    "R_range": [
+     0.0141,
+     0.0295
+    ],
+    "n_years": 6,
+    "peak_months": {
+     "9": 3,
+     "7": 2,
+     "8": 1
+    }
+   }
+  },
+  "deaths": {
+   "1947-1965": {
+    "R_mean": 0.0979,
+    "R_range": [
+     0.0784,
+     0.1276
+    ],
+    "n_years": 5,
+    "peak_months": {
+     "1": 2,
+     "2": 1,
+     "4": 1,
+     "3": 1
+    }
+   },
+   "1970-1995": {
+    "R_mean": 0.0836,
+    "R_range": [
+     0.0678,
+     0.1066
+    ],
+    "n_years": 6,
+    "peak_months": {
+     "1": 3,
+     "2": 2,
+     "12": 1
+    }
+   },
+   "2000-2019": {
+    "R_mean": 0.0666,
+    "R_range": [
+     0.0483,
+     0.0819
+    ],
+    "n_years": 16,
+    "peak_months": {
+     "1": 13,
+     "3": 2,
+     "2": 1
+    }
+   },
+   "2020-2025": {
+    "R_mean": 0.0628,
+    "R_range": [
+     0.0491,
+     0.0846
+    ],
+    "n_years": 6,
+    "peak_months": {
+     "12": 3,
+     "1": 3
+    }
+   }
+  }
+ },
+ "season_daily_vs_monthly": [
+  {
+   "year": 2018,
+   "R_daily": 0.0127,
+   "mean_daily": "8月9日",
+   "R_daily_wdadj": 0.0082,
+   "mean_daily_wdadj": "9月3日",
+   "R_monthly": 0.0079,
+   "mean_monthly": "8月1日"
+  },
+  {
+   "year": 2019,
+   "R_daily": 0.0156,
+   "mean_daily": "8月11日",
+   "R_daily_wdadj": 0.0106,
+   "mean_daily_wdadj": "8月9日",
+   "R_monthly": 0.0109,
+   "mean_monthly": "8月8日"
+  },
+  {
+   "year": 2020,
+   "R_daily": 0.0196,
+   "mean_daily": "7月25日",
+   "R_daily_wdadj": 0.0135,
+   "mean_daily_wdadj": "7月29日",
+   "R_monthly": 0.0171,
+   "mean_monthly": "7月21日"
+  },
+  {
+   "year": 2021,
+   "R_daily": 0.0355,
+   "mean_daily": "8月8日",
+   "R_daily_wdadj": 0.0319,
+   "mean_daily_wdadj": "8月10日",
+   "R_monthly": 0.0295,
+   "mean_monthly": "8月5日"
+  },
+  {
+   "year": 2022,
+   "R_daily": 0.0293,
+   "mean_daily": "9月6日",
+   "R_daily_wdadj": 0.0267,
+   "mean_daily_wdadj": "9月14日",
+   "R_monthly": 0.0232,
+   "mean_monthly": "9月9日"
+  },
+  {
+   "year": 2023,
+   "R_daily": 0.0196,
+   "mean_daily": "8月11日",
+   "R_daily_wdadj": 0.0157,
+   "mean_daily_wdadj": "8月19日",
+   "R_monthly": 0.0141,
+   "mean_monthly": "8月5日"
+  },
+  {
+   "year": 2024,
+   "R_daily": 0.0227,
+   "mean_daily": "8月16日",
+   "R_daily_wdadj": 0.0184,
+   "mean_daily_wdadj": "8月26日",
+   "R_monthly": 0.0204,
+   "mean_monthly": "8月14日"
+  },
+  {
+   "year": 2025,
+   "R_daily": 0.0282,
+   "mean_daily": "8月19日",
+   "R_daily_wdadj": 0.0228,
+   "mean_daily_wdadj": "9月1日",
+   "R_monthly": 0.0234,
+   "mean_monthly": "8月20日"
+  }
+ ],
+ "weekday_circle_R": {
+  "総数": 0.1098,
+  "病院": 0.1359,
+  "診療所": 0.0796,
+  "助産所": 0.0068,
+  "自宅": 0.0186
+ },
+ "compare_scale": {
+  "season_R_monthly_mean": 0.0183,
+  "weekday_R_total": 0.1098
+ },
+ "season_perm": {
+  "births": {
+   "obs_mean": 0.0156,
+   "perm_p95": 0.0217
+  },
+  "deaths": {
+   "obs_mean": 0.0638,
+   "perm_p95": 0.0484
+  }
+ }
+}
