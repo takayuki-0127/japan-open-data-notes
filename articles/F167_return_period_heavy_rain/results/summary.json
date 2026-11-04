@@ -1,0 +1,195 @@
+{
+ "full": {
+  "stations": 28,
+  "xi_median": 0.11783877991709046,
+  "xi_pos_share": 0.9642857142857143,
+  "ci_width_ratio_median": 0.4738588376021035,
+  "record_rp_median": 179.08570613028175,
+  "record_rp_over100": 22,
+  "records_after_1961": 12,
+  "rl100_mle_lmom_diff_median_pct": -1.357063147188159
+ },
+ "main": {
+  "stations": 25,
+  "station_years": 1620,
+  "observed": 18,
+  "naive_expected": 16.2,
+  "stationary_expected": 23.7,
+  "p_vs_naive": 0.7188830709093101,
+  "p_vs_stationary": 0.28218596419505315,
+  "stations_with_exceed": 13,
+  "max_exceed_station": 2
+ },
+ "reverse": {
+  "stations": 25,
+  "observed": 18,
+  "naive_expected": 14.96,
+  "stationary_expected": 21.59,
+  "p_vs_stationary": 0.5190002773559544
+ },
+ "loo": {
+  "ratio_min": 0.7050011015642211,
+  "ratio_max": 0.7940008822232024
+ },
+ "no_tokyo": {
+  "observed": 18,
+  "stationary_expected": 22.745
+ },
+ "windows": {
+  "stations_all4": 25,
+  "rl100_ratio_median": 0.9980068673027269,
+  "rl100_ratio_up_share": 0.48,
+  "rl100_ratio_q": [
+   0.8694245788018189,
+   1.3751418135919204
+  ],
+  "rl100_ratio_lmom_median": 1.0598993206167788,
+  "rl10_ratio_median": 1.1347818272846064,
+  "median_ratio_median": 1.1284170375079465,
+  "sign_test_p": 1.0
+ },
+ "regional": [
+  {
+   "window": "1901-1930",
+   "n": 782,
+   "growth100": 2.425,
+   "lo": 2.26,
+   "hi": 2.616,
+   "exceed_share_over_2x_median": 0.031
+  },
+  {
+   "window": "1931-1960",
+   "n": 820,
+   "growth100": 2.773,
+   "lo": 2.566,
+   "hi": 2.994,
+   "exceed_share_over_2x_median": 0.048
+  },
+  {
+   "window": "1961-1990",
+   "n": 840,
+   "growth100": 2.564,
+   "lo": 2.344,
+   "hi": 2.782,
+   "exceed_share_over_2x_median": 0.035
+  },
+  {
+   "window": "1991-2020",
+   "n": 834,
+   "growth100": 2.706,
+   "lo": 2.439,
+   "hi": 2.988,
+   "exceed_share_over_2x_median": 0.047
+  }
+ ],
+ "exceed_by_decade": {
+  "1960": 3,
+  "1970": 1,
+  "1980": 3,
+  "1990": 3,
+  "2000": 3,
+  "2010": 4,
+  "2020": 1
+ },
+ "robustness": [
+  {
+   "setting": "主分析 1901-60→1961-2025 最尤",
+   "stations": 25,
+   "station_years": 1620,
+   "observed": 18,
+   "naive_expected": 16.2,
+   "stationary_expected": 23.7,
+   "ratio_obs_stationary": 0.76,
+   "p_vs_stationary": 0.282,
+   "p_vs_naive": 0.719
+  },
+  {
+   "setting": "推定法 L積率",
+   "stations": 25,
+   "station_years": 1620,
+   "observed": 18,
+   "naive_expected": 16.2,
+   "stationary_expected": 23.89,
+   "ratio_obs_stationary": 0.75,
+   "p_vs_stationary": 0.266,
+   "p_vs_naive": 0.719
+  },
+  {
+   "setting": "区切り 1901-50→1951-2025",
+   "stations": 25,
+   "station_years": 1870,
+   "observed": 28,
+   "naive_expected": 18.7,
+   "stationary_expected": 30.44,
+   "ratio_obs_stationary": 0.92,
+   "p_vs_stationary": 0.745,
+   "p_vs_naive": 0.053
+  },
+  {
+   "setting": "区切り 1901-70→1971-2025",
+   "stations": 25,
+   "station_years": 1370,
+   "observed": 14,
+   "naive_expected": 13.7,
+   "stationary_expected": 19.83,
+   "ratio_obs_stationary": 0.71,
+   "p_vs_stationary": 0.223,
+   "p_vs_naive": 1.0
+  },
+  {
+   "setting": "学習30年 1931-60→1961-2025",
+   "stations": 26,
+   "station_years": 1685,
+   "observed": 22,
+   "naive_expected": 16.85,
+   "stationary_expected": 35.48,
+   "ratio_obs_stationary": 0.62,
+   "p_vs_stationary": 0.021,
+   "p_vs_naive": 0.261
+  },
+  {
+   "setting": "学習30年 1961-90→1991-2025",
+   "stations": 28,
+   "station_years": 973,
+   "observed": 30,
+   "naive_expected": 9.73,
+   "stationary_expected": 18.88,
+   "ratio_obs_stationary": 1.59,
+   "p_vs_stationary": 0.022,
+   "p_vs_naive": 0.0
+  },
+  {
+   "setting": "学習90年 1901-90→1991-2025",
+   "stations": 25,
+   "station_years": 870,
+   "observed": 13,
+   "naive_expected": 8.7,
+   "stationary_expected": 11.5,
+   "ratio_obs_stationary": 1.13,
+   "p_vs_stationary": 0.734,
+   "p_vs_naive": 0.207
+  },
+  {
+   "setting": "50年に1度 1901-60→1961-2025",
+   "stations": 25,
+   "station_years": 1620,
+   "observed": 38,
+   "naive_expected": 32.4,
+   "stationary_expected": 41.66,
+   "ratio_obs_stationary": 0.91,
+   "p_vs_stationary": 0.639,
+   "p_vs_naive": 0.367
+  },
+  {
+   "setting": "20年に1度 1901-60→1961-2025",
+   "stations": 25,
+   "station_years": 1620,
+   "observed": 108,
+   "naive_expected": 81.0,
+   "stationary_expected": 92.62,
+   "ratio_obs_stationary": 1.17,
+   "p_vs_stationary": 0.127,
+   "p_vs_naive": 0.005
+  }
+ ]
+}

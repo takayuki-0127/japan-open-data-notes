@@ -1,0 +1,70 @@
+{
+ "stations": [
+  "名古屋",
+  "大阪",
+  "新潟",
+  "札幌",
+  "東京",
+  "福岡",
+  "高知",
+  "鹿児島"
+ ],
+ "annual_table_agree_min": 1.0,
+ "rl100_relative_to_gev1y_median": {
+  "gev_半年": 1.058,
+  "gev_1年": 1.0,
+  "gev_2年": 0.971,
+  "gpd_上位10%": 0.954,
+  "gpd_上位5%": 0.964,
+  "gpd_上位2.5%": 0.971
+ },
+ "rl100_relative_range": [
+  0.8832513749679417,
+  1.2977950882048797
+ ],
+ "split": [
+  {
+   "method": "GEV 1年",
+   "observed": 8,
+   "years": 520,
+   "naive_expected": 5.2,
+   "stationary_expected_gev1y": 7.78
+  },
+  {
+   "method": "GEV 2年",
+   "observed": 12,
+   "years": 520,
+   "naive_expected": 5.2,
+   "stationary_expected_gev1y": 7.78
+  },
+  {
+   "method": "GEV 半年",
+   "observed": 8,
+   "years": 520,
+   "naive_expected": 5.2,
+   "stationary_expected_gev1y": 7.78
+  },
+  {
+   "method": "GPD 上位10%",
+   "observed": 12,
+   "years": 520,
+   "naive_expected": 5.2,
+   "stationary_expected_gev1y": 7.78
+  },
+  {
+   "method": "GPD 上位2.5%",
+   "observed": 13,
+   "years": 520,
+   "naive_expected": 5.2,
+   "stationary_expected_gev1y": 7.78
+  },
+  {
+   "method": "GPD 上位5%",
+   "observed": 13,
+   "years": 520,
+   "naive_expected": 5.2,
+   "stationary_expected_gev1y": 7.78
+  }
+ ],
+ "stationary_expected_8": 7.784999999999999
+}
