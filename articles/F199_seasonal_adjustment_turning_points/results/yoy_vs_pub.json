@@ -1,0 +1,14 @@
+{
+ "n": 42,
+ "median": -1.0,
+ "mean": -2.5238095238095237,
+ "earlier": 22,
+ "later": 6,
+ "same": 14,
+ "sign_p": 0.0037191659212112427,
+ "peak_median": -2.0,
+ "trough_median": 0.0,
+ "ma12_vs_pub_median": 2.0,
+ "ma12_vs_pub_n": 47,
+ "ma12_vs_pub_mae": 3.3404255319148937
+}
