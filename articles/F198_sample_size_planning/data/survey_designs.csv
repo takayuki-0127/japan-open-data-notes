@@ -1,0 +1,6 @@
+statistic,frequency,psu,psu_count,households,persons_or_units,unit_label,frame_total,frame_label,source_page
+労働力調査,毎月,国勢調査調査区,2900,40000,100000,15歳以上の世帯員,,,https://www.stat.go.jp/data/roudou/outline.html
+家計調査（二人以上の世帯）,毎月,市町村→単位区,168,8076,,,,,https://www.stat.go.jp/data/kakei/1.html
+社会生活基本調査（2021年）,5年ごと,国勢調査調査区,7600,91000,190000,10歳以上の世帯員,,,https://www.stat.go.jp/data/shakai/2021/gaiyou.html
+就業構造基本調査（2022年）,5年ごと,国勢調査調査区,34000,540000,1080000,15歳以上の世帯員,,,https://www.stat.go.jp/data/shugyou/2022/gaiyou.html
+個人企業経済調査,毎年（一部四半期）,企業,,,40000,個人企業,1700000,全国の個人企業,https://www.stat.go.jp/data/kojinke/gaiyou_new.html
