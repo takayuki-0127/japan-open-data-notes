@@ -1,0 +1,6 @@
+pandas==2.3.3
+numpy==2.5.3
+scipy==1.18.1
+statsmodels==0.15.0
+matplotlib==3.11.2
+# X-13ARIMA-SEATS（x13as, Version 1.1 Build 62）をパスに置くか、環境変数 X13PATH で指定する
