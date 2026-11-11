@@ -13,9 +13,9 @@ FILES = {
     "mhlw_kani_2024.xlsx": ("https://www.mhlw.go.jp/toukei/saikin/hw/life/life24/xls/life24-12.xlsx", "d204453fe1f0301149c01bdae48c4ff5"),
     # 日本版死亡データベース（JMD）の年齢別死亡率。F86 で取得・整形したものを写した
     # （F86_lee_carter_e0/data/mx_long.csv、取得元は F86 の README）
-    "jmd_mx_long_from_F86.csv": (None, None),
-    "ipss_e0_from_F86.csv": (None, None),
-    "zaisei_kensho_r6_assumptions.csv": (None, None),
+    "jmd_mx_long_from_F86.csv": (None, "cc1ccb6f2f7f8248495221ca80ef72ec"),
+    "ipss_e0_from_F86.csv": (None, "40fd854dedf71dbc71aeead09ff23dd2"),
+    "zaisei_kensho_r6_assumptions.csv": (None, "bf83079cefc0e05ea71fd3dd2458c425"),
 }
 
 def md5(p):

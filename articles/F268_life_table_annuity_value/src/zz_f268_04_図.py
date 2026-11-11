@@ -78,7 +78,7 @@ for i, s in enumerate(SEXES):
 ax.axhline(0, color="black", lw=.8)
 ax.set_xticks(x); ax.set_xticklabels(labels, fontsize=9)
 ax.set_ylabel("65歳の年金現価の変化（％）"); ax.grid(axis="y", alpha=.3); ax.legend()
-ax.set_title("生命表の5年の更新と、割引率の小さな変更の比べ（割引率は2014年の表で計算）")
+ax.set_title("生命表の5年の更新と、割引率の変更の比べ（割引率は2014年の表で計算）")
 fig.text(0.01, 0.01, SRC, fontsize=7, color="gray")
 fig.tight_layout(rect=(0, 0.03, 1, 1)); fig.savefig(FIG / "f268_4_rate_vs_table.png"); plt.close(fig)
 

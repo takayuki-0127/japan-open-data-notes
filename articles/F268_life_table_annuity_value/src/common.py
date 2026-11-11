@@ -46,11 +46,11 @@ def survival_from(q, start, open_m=None, tail="const", horizon=60):
       tail="cut"  ：最後の年齢で打ち切る（以降の生存は0）
       tail="grow" ：最後の年齢の q から、死亡率 m を年10%ずつ上げて延ばす"""
     q = np.asarray(q, dtype=float)
-    last = len(q) - 1
+    last = len(q) - 1   # q のある最後の年齢（JMD は99歳、簡易生命表は104歳）
     qs = []
     for t in range(horizon):
         age = start + t
-        if age < last:
+        if age <= last:   # レビューで直した：以前は age < last で、最後の年齢に開いた階級の死亡率を使っていた
             qs.append(q[age])
         else:
             if tail == "cut":
@@ -59,7 +59,7 @@ def survival_from(q, start, open_m=None, tail="const", horizon=60):
                 m = open_m
                 qs.append(1 - np.exp(-m))
             elif tail == "grow":
-                m = open_m * (1.10 ** (age - last))
+                m = open_m * (1.10 ** (age - last - 1))
                 qs.append(1 - np.exp(-m))
     qs = np.array(qs)
     p = np.empty(horizon)

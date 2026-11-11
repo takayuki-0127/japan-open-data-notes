@@ -59,7 +59,8 @@ for s in SEXES:
     t = a65[a65.sex == s].set_index("year")[col]
     geo = (t[2019] / t[1990]) ** (5 / 29) - 1
     win = d5[(d5.sex == s) & (d5.start >= 1990) & (d5.end <= 2019)][dcol]
-    hist[s] = {"geo_per5": geo, "mean_windows": float(win.mean()), "min_windows": float(win.min()),
+    geo10 = (t[2019] / t[2009]) ** (5 / 10) - 1
+    hist[s] = {"geo_per5": geo, "geo_per5_2009_2019": geo10, "mean_windows": float(win.mean()), "min_windows": float(win.min()),
                "max_windows": float(win.max()), "n_windows": int(len(win))}
 
 
