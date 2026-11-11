@@ -1,0 +1,110 @@
+{
+ "readmes": 501,
+ "commit": "996936a",
+ "matched_lines": 363,
+ "any_trouble_articles": 176,
+ "any_trouble_pct": 35.1,
+ "by_category": {
+  "PDFや資料からの手での転記": {
+   "articles": 9,
+   "share_pct": 1.8,
+   "precision_pct": 78.0,
+   "articles_adj": 7.0
+  },
+  "市町村合併・境界の変更": {
+   "articles": 10,
+   "share_pct": 2.0,
+   "precision_pct": 80.0,
+   "articles_adj": 8.0
+  },
+  "暦年と年度・時点のずれ": {
+   "articles": 10,
+   "share_pct": 2.0,
+   "precision_pct": 80.0,
+   "articles_adj": 8.0
+  },
+  "丸め・桁": {
+   "articles": 14,
+   "share_pct": 2.8,
+   "precision_pct": 70.0,
+   "articles_adj": 10.0
+  },
+  "改訂（速報と確報・遡及）": {
+   "articles": 19,
+   "share_pct": 3.8,
+   "precision_pct": 70.0,
+   "articles_adj": 13.0
+  },
+  "取れない・代わりのデータ": {
+   "articles": 35,
+   "share_pct": 7.0,
+   "precision_pct": 80.0,
+   "articles_adj": 28.0
+  },
+  "欠測・秘匿・非公表": {
+   "articles": 59,
+   "share_pct": 11.8,
+   "precision_pct": 70.0,
+   "articles_adj": 41.0
+  },
+  "定義・分類・数え方の変更": {
+   "articles": 70,
+   "share_pct": 14.0,
+   "precision_pct": 80.0,
+   "articles_adj": 56.0
+  }
+ },
+ "by_group": {
+  "000–099": {
+   "n": 92,
+   "any_pct": 29.3,
+   "mean_cat": 0.32,
+   "mean_chars": 3072.0
+  },
+  "100–226": {
+   "n": 127,
+   "any_pct": 33.1,
+   "mean_cat": 0.39,
+   "mean_chars": 2078.0
+  },
+  "F01–F99": {
+   "n": 97,
+   "any_pct": 30.9,
+   "mean_cat": 0.38,
+   "mean_chars": 4022.0
+  },
+  "F100–F199": {
+   "n": 100,
+   "any_pct": 44.0,
+   "mean_cat": 0.56,
+   "mean_chars": 4776.0
+  },
+  "F200–F255": {
+   "n": 36,
+   "any_pct": 19.4,
+   "mean_cat": 0.36,
+   "mean_chars": 5262.0
+  },
+  "F256–F295（精選）": {
+   "n": 40,
+   "any_pct": 60.0,
+   "mean_cat": 0.98,
+   "mean_chars": 7256.0
+  },
+  "227–・T（1000本計画）": {
+   "n": 9,
+   "any_pct": 22.2,
+   "mean_cat": 0.22,
+   "mean_chars": 2447.0
+  }
+ },
+ "cat_per_10k_chars": {
+  "000–099": 0.98,
+  "100–226": 1.86,
+  "F01–F99": 0.95,
+  "F100–F199": 1.21,
+  "F200–F255": 0.67,
+  "F256–F295（精選）": 1.36,
+  "227–・T（1000本計画）": 0.75
+ }
+}
