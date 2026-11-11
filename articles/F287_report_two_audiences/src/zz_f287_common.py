@@ -99,7 +99,7 @@ def yoy(series_now, series_prev):
     return (series_now / series_prev - 1) * 100
 
 
-def month_view(g, m, bands):
+def month_view(g, m, bands, rule="rel"):
     """月 m の数字をまとめる（レポートに載せる値）。bands は偶然の幅（前年比の pt、90%の半幅）。"""
     m = pd.Period(m, "M")
     py = str(m - 12); pm = str(m - 1); ms = str(m); nx = str(m + 1)
@@ -120,7 +120,7 @@ def month_view(g, m, bands):
         x = g["dept"].loc[(d, ms)]; xp = g["dept"].loc[(d, py)]
         gy = yoy(x.sales, xp.sales); gpr = x.gp / x.sales * 100; gprp = xp.gp / xp.sales * 100
         dep[d] = dict(sales=x.sales, yoy=gy, gpr=gpr, gpr_d=gpr - gprp,
-                      out=bool(abs(gy - v["co_sales_yoy"]) > bands["dept_sales"] or abs(gpr - gprp) > bands["dept_gpr"]))
+                      out=bool(abs(gy - (v["co_sales_yoy"] if rule == "rel" else 0)) > bands["dept_sales"] or abs(gpr - gprp) > bands["dept_gpr"]))
     v["dept"] = dep
     # 店
     sto = {}
@@ -132,7 +132,7 @@ def month_view(g, m, bands):
         wdy = yoy(g["sd"].loc[(s, wd, ms)].sales, g["sd"].loc[(s, wd, py)].sales)
         sto[s] = dict(sales=x.sales, yoy=sy, cust_yoy=cy, ticket_yoy=yoy(x.sales / x.cust, xp.sales / xp.cust),
                       lp=lp, worst=wd, worst_yoy=wdy, size=g["size"][s],
-                      out=bool(abs(cy - v["co_cust_yoy"]) > bands["store_cust"] or abs(sy - v["co_sales_yoy"]) > bands["store_sales"]))
+                      out=bool(abs(cy - (v["co_cust_yoy"] if rule == "rel" else 0)) > bands["store_cust"] or abs(sy - (v["co_sales_yoy"] if rule == "rel" else 0)) > bands["store_sales"]))
     # 同じ規模の中での順位（売上前年比）
     for sz in ["L", "M", "S"]:
         mem = [s for s in sto if sto[s]["size"] == sz]
@@ -164,7 +164,7 @@ def decisions(v):
     items = []
     for d in od:
         items.append(f"{d}部門の粗利率（前年差{f1(v['dept'][d]['gpr_d'])}pt）の原因を仕入れ担当が確認し、来月の会議で値付けの見直し案を出す")
-    for s in outs[:3]:
+    for s in outs:
         items.append(f"{s}の客数（前年比{f1(v['store'][s]['cust_yoy'])}%）について、店長と地域の担当が理由を確認する")
     if not items:
         items.append("幅の外の動きはなく、今月決めることはない")
@@ -180,10 +180,23 @@ def todo(v, s):
     return "大きな動きはない。人時売上高を同じ規模の店の平均に近づけるよう、シフトの組み方を続ける"
 
 
-def report_C(v, m):
+def worst_word(x):
+    """前年比がマイナスなら「いちばん落ちた部門」、プラスなら「いちばん伸びが小さい部門」。"""
+    return "いちばん落ちた部門" if x["worst_yoy"] < 0 else "いちばん伸びが小さい部門"
+
+
+def report_C(v, m, summary_first=False):
     """共通版：全社→部門→店→店×部門→見通し→対応→前月の結果。すべての数字を同じ形で並べる。"""
     B = []
     B.append(blk("全社", f"# みどり堂（架空） 月次レポート {m}（共通版）", heading=True))
+    if summary_first:
+        # 要約を先に置く共通版（レビュー後に足した比べる相手）：経営の問いの答えになる行を冒頭にまとめる
+        od0 = [d for d in DEPTS if v["dept"][d]["out"]]
+        os0 = [s for s in v["store"] if v["store"][s]["out"]]
+        B.append(blk("要約", "## 要約", heading=True))
+        B.append(blk("要約", f"偶然の幅の外の部門：{'、'.join(od0) if od0 else 'なし'}。偶然の幅の外の店：{'、'.join(os0) if os0 else 'なし'}。", ["out_depts", "out_stores"]))
+        B.append(blk("要約", "決めること：" + "。".join(decisions(v)) + "。", ["decisions"]))
+        B.append(blk("要約", f"来月の売上は約{v['next_sales']:.0f}百万円の見込み。先月決めた確認は、担当から報告を受けた。", ["next_month", "last_action"]))
     B.append(blk("全社", "## 1. 全社", heading=True))
     B.append(blk("全社", f"売上は{v['co_sales']:.1f}百万円で、前年同月比{f1(v['co_sales_yoy'])}%、計画比{f1(v['co_sales_plan'])}%。", ["co_sales_plan"]))
     B.append(blk("全社", f"客数は前年同月比{f1(v['co_cust_yoy'])}%、客単価は{f1(v['co_ticket_yoy'])}%。", ["co_factor"]))
@@ -193,7 +206,8 @@ def report_C(v, m):
         x = v["dept"][d]
         B.append(blk("部門", f"{d}：売上{x['sales']:.1f}百万円、前年比{f1(x['yoy'])}%、粗利率{x['gpr']:.1f}%（前年差{f1(x['gpr_d'])}pt）、判定は{'幅の外' if x['out'] else '幅の中'}。"))
     od = [d for d in DEPTS if v["dept"][d]["out"]]
-    B.append(blk("部門", f"偶然の幅の外の部門：{'、'.join(od) if od else 'なし'}。", ["out_depts"]))
+    if not summary_first:
+        B.append(blk("部門", f"偶然の幅の外の部門：{'、'.join(od) if od else 'なし'}。", ["out_depts"]))
     B.append(blk("店", "## 3. 店別（規模ごと）", heading=True))
     for sz in ["L", "M", "S"]:
         for s, x in v["store"].items():
@@ -202,18 +216,22 @@ def report_C(v, m):
             B.append(blk("店", f"{s}（規模{sz}）：売上{x['sales']:.1f}百万円、前年比{f1(x['yoy'])}%、客数{f1(x['cust_yoy'])}%、客単価{f1(x['ticket_yoy'])}%、人時売上高{x['lp']:,.0f}円、規模内{x['rank']}位/{x['nsize']}店、判定は{'幅の外' if x['out'] else '幅の中'}。",
                          [f"{s}:sales_yoy", f"{s}:cust_yoy", f"{s}:labor_prod", f"{s}:peer_rank", f"{s}:outside"]))
     os_ = [s for s in v["store"] if v["store"][s]["out"]]
-    B.append(blk("店", f"偶然の幅の外の店：{'、'.join(os_) if os_ else 'なし'}。", ["out_stores"]))
+    if not summary_first:
+        B.append(blk("店", f"偶然の幅の外の店：{'、'.join(os_) if os_ else 'なし'}。", ["out_stores"]))
     B.append(blk("店×部門", "## 4. 店×部門の前年比", heading=True))
     for s, x in v["store"].items():
-        B.append(blk("店×部門", f"{s}：いちばん落ちた部門は{x['worst']}（前年比{f1(x['worst_yoy'])}%）。", [f"{s}:worst_dept"]))
-    B.append(blk("見通し", "## 5. 来月の見通し", heading=True))
-    B.append(blk("見通し", f"来月の売上は、前年同月×直近3か月の前年比で約{v['next_sales']:.0f}百万円の見込み。", ["next_month"]))
+        B.append(blk("店×部門", f"{s}：{worst_word(x)}は{x['worst']}（前年比{f1(x['worst_yoy'])}%）。", [f"{s}:worst_dept"]))
+    if not summary_first:
+        B.append(blk("見通し", "## 5. 来月の見通し", heading=True))
+        B.append(blk("見通し", f"来月の売上は、前年同月×直近3か月の前年比で約{v['next_sales']:.0f}百万円の見込み。", ["next_month"]))
     B.append(blk("対応", "## 6. 対応すること", heading=True))
-    B.append(blk("対応", "全社：" + "。".join(decisions(v)) + "。", ["decisions"]))
+    if not summary_first:
+        B.append(blk("対応", "全社：" + "。".join(decisions(v)) + "。", ["decisions"]))
     for s in v["store"]:
         B.append(blk("対応", f"{s}：{todo(v, s)}。", [f"{s}:todo"]))
     B.append(blk("前月", "## 7. 先月の対応の結果", heading=True))
-    B.append(blk("前月", "全社：先月決めた確認は、担当から報告を受けた。", ["last_action"]))
+    if not summary_first:
+        B.append(blk("前月", "全社：先月決めた確認は、担当から報告を受けた。", ["last_action"]))
     for s in v["store"]:
         B.append(blk("前月", f"{s}：先月やったことの結果は、今月の数字（上の表）で確認。", [f"{s}:last_result"]))
     return B
@@ -251,7 +269,7 @@ def report_S(v, m, s):
     B.append(blk("自店", f"売上は前年比{f1(x['yoy'])}%（客数{f1(x['cust_yoy'])}%・客単価{f1(x['ticket_yoy'])}%）。判定は{'偶然の幅の外' if x['out'] else '偶然の幅の中'}。",
                  [f"{s}:sales_yoy", f"{s}:cust_yoy", f"{s}:outside"]))
     B.append(blk("自店", f"人時売上高は{x['lp']:,.0f}円。同じ規模の{x['nsize']}店の中で売上前年比は{x['rank']}位。", [f"{s}:labor_prod", f"{s}:peer_rank"]))
-    B.append(blk("自店", f"いちばん落ちた部門は{x['worst']}（前年比{f1(x['worst_yoy'])}%）。", [f"{s}:worst_dept"]))
+    B.append(blk("自店", f"{worst_word(x)}は{x['worst']}（前年比{f1(x['worst_yoy'])}%）。", [f"{s}:worst_dept"]))
     B.append(blk("やる", "## 今月やること", heading=True))
     B.append(blk("やる", todo(v, s) + "。", [f"{s}:todo"]))
     B.append(blk("前月", "## 先月やったことの結果", heading=True))

@@ -12,22 +12,26 @@ os.makedirs(OUT, exist_ok=True); os.makedirs(REP, exist_ok=True)
 BANDS = json.load(open(os.path.join(OUT, "bands.json")))
 
 
-def measure(df, n, caps=(1000, 1500, 2500), save=False):
+def measure(df, n, caps=(1000, 1500, 2500), save=False, rule="rel"):
     g = kpis(df)
     b = BANDS[str(n)]
     rows = []
     for m in FY25:
-        v = month_view(g, m, b)
-        C = report_C(v, str(m)); E = report_E(v, str(m))
+        v = month_view(g, m, b, rule)
+        C = report_C(v, str(m)); E = report_E(v, str(m)); C2 = report_C(v, str(m), summary_first=True)
         if save and str(m) == "2025-10":
             open(os.path.join(REP, "C_共通版_2025-10.md"), "w").write(text_of(C))
             open(os.path.join(REP, "E_経営向け_2025-10.md"), "w").write(text_of(E))
+            open(os.path.join(REP, "C2_要約を先に置いた共通版_2025-10.md"), "w").write(text_of(C2))
             for s in ["S01", "S07"]:
                 open(os.path.join(REP, f"S_現場向け_{s}_2025-10.md"), "w").write(text_of(report_S(v, str(m), s)))
         for mode in ["linear", "jump"]:
             rows.append(dict(month=str(m), reader="経営", report="C", mode=mode, cost=read_cost(C, Q_EXEC, mode),
                              noise=noise_share(C, Q_EXEC), total=sum(x["chars"] for x in C),
                              **{f"ans{c}": answered_within(C, Q_EXEC, c) for c in caps}))
+            rows.append(dict(month=str(m), reader="経営", report="C2", mode=mode, cost=read_cost(C2, Q_EXEC, mode),
+                             noise=noise_share(C2, Q_EXEC), total=sum(x["chars"] for x in C2),
+                             **{f"ans{c}": answered_within(C2, Q_EXEC, c) for c in caps}))
             rows.append(dict(month=str(m), reader="経営", report="E", mode=mode, cost=read_cost(E, Q_EXEC, mode),
                              noise=noise_share(E, Q_EXEC), total=sum(x["chars"] for x in E),
                              **{f"ans{c}": answered_within(E, Q_EXEC, c) for c in caps}))
@@ -36,6 +40,9 @@ def measure(df, n, caps=(1000, 1500, 2500), save=False):
                 rows.append(dict(month=str(m), reader="店長", store=s, report="C", mode=mode, cost=read_cost(C, Q, mode),
                                  noise=noise_share(C, Q), total=sum(x["chars"] for x in C),
                                  **{f"ans{c}": answered_within(C, Q, c) for c in caps}))
+                rows.append(dict(month=str(m), reader="店長", store=s, report="C2", mode=mode, cost=read_cost(C2, Q, mode),
+                                 noise=noise_share(C2, Q), total=sum(x["chars"] for x in C2),
+                                 **{f"ans{c}": answered_within(C2, Q, c) for c in caps}))
                 rows.append(dict(month=str(m), reader="店長", store=s, report="S", mode=mode, cost=read_cost(S, Q, mode),
                                  noise=noise_share(S, Q), total=sum(x["chars"] for x in S),
                                  **{f"ans{c}": answered_within(S, Q, c) for c in caps}))
@@ -105,6 +112,12 @@ if __name__ == "__main__":
     res["jump_exec_ratio"] = res["jump_exec_cost_median"]["C"] / res["jump_exec_cost_median"]["E"]
     res["jump_store_cost_median"] = jm[jm.reader == "店長"].dropna(subset=["cost"]).groupby("report").cost.median().to_dict()
     res["jump_store_ratio"] = res["jump_store_cost_median"]["C"] / res["jump_store_cost_median"]["S"]
+    res["exec_ratio_C2_over_E"] = res["exec_cost_median"]["C2"] / res["exec_cost_median"]["E"]
+    res["store_ratio_C2_over_S"] = res["store_cost_median"]["C2"] / res["store_cost_median"]["S"]
+    res["jump_exec_ratio_C2"] = res["jump_exec_cost_median"]["C2"] / res["jump_exec_cost_median"]["E"]
+    Mp = measure(df, 12, rule="plain"); lp = Mp[(Mp["mode"] == "linear") & (Mp.reader == "経営")].groupby("report").cost.median()
+    res["exec_ratio_plain_rule"] = float(lp["C"] / lp["E"]); res["exec_cost_median_plain_rule"] = lp.to_dict()
+    res["rounding_store_only_months"] = int(R["store_mil"].sum())
     res["rounding_months_any"] = int(R["any"].sum()); res["rounding_months_lr"] = int(R["lr_any"].sum())
     res["rounding_by_table"] = {k: int(R[k].sum()) for k in ["dept_oku", "store_mil", "share_pct"]}
     # 仮説の判定

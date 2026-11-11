@@ -19,17 +19,18 @@ C1, C2, C3 = "#4C72B0", "#DD8452", "#55A868"
 
 # 図1 読む量
 fig, axs = plt.subplots(1, 2, figsize=(9, 4))
-for ax, reader, reps, cols in [(axs[0], "経営", ["C", "E"], [C1, C2]), (axs[1], "店長", ["C", "S"], [C1, C3])]:
+NAME = {"C": "共通版", "C2": "要約を先に\n置いた共通版", "E": "経営向け", "S": "現場向け"}
+for ax, reader, reps, cols in [(axs[0], "経営", ["C", "C2", "E"], [C1, "#8172B3", C2]), (axs[1], "店長", ["C", "C2", "S"], [C1, "#8172B3", C3])]:
     for i, mode in enumerate(["linear", "jump"]):
         d = M[(M.reader == reader) & (M["mode"] == mode)].dropna(subset=["cost"]).groupby("report").cost.median()
         for j, r in enumerate(reps):
             ax.bar(j * 3 + i, d[r], color=cols[j], alpha=1 if i == 0 else 0.5)
             ax.text(j * 3 + i, d[r], f"{d[r]:,.0f}", ha="center", va="bottom", fontsize=8)
-    ax.set_xticks([0.5, 3.5]); ax.set_xticklabels([f"{r}（{'共通版' if r == 'C' else '経営向け' if r == 'E' else '現場向け'}）" for r in reps])
+    ax.set_xticks([0.5, 3.5, 6.5]); ax.set_xticklabels([f"{r}\n{NAME[r]}" for r in reps], fontsize=8)
     ax.set_title(f"{reader}の8問に答えるまでに読む文字数（中央値）", fontsize=10, loc="left")
     ax.set_ylabel("文字数")
 axs[0].text(0.98, 0.95, "濃い：上から順に読む\n薄い：見出しから飛ぶ", transform=axs[0].transAxes, va="top", ha="right", fontsize=8)
-fig.suptitle(f"共通版では、経営は約{main['exec_cost_ratio_C_over_E']:.0f}倍、店長は約{main['store_cost_ratio_C_over_S']:.0f}倍の文字を読む", fontsize=12)
+fig.suptitle(f"店の表の後ろに要約を置く共通版では、経営は約{main['exec_cost_ratio_C_over_E']:.0f}倍。要約を先に置けば約{main['exec_ratio_C2_over_E']:.1f}倍", fontsize=11)
 fig.tight_layout(); fig.savefig(os.path.join(F, "fig1_read_cost.png"), dpi=150); plt.close()
 
 # 図2 切ったときに答えられる問い
@@ -95,15 +96,16 @@ fig.suptitle(f"別々に丸めると、12か月中{main['rounding_months_any']}�
 fig.tight_layout(); fig.savefig(os.path.join(F, "fig5_rounding.png"), dpi=150); plt.close()
 
 # 図6 問い直し
-h = rr["reask"]["hit_rate"]; nf = rr["reask"]["null_flag_rate"]
+h = rr["reask"]["hit_rate"]; nf = rr["reask"]["null_flag_rate"]; nd = rr["reask"]["null_dept_rate"]
 fig, ax = plt.subplots(figsize=(8, 3.8))
 lab = list(h.keys()); val = [h[k] * 100 for k in lab]
 ax.barh(lab[::-1], val[::-1], color=[C2 if v > 50 else "#999999" for v in val[::-1]])
 ax.axvline(nf * 100, color="gray", ls=":", lw=1)
-ax.text(nf * 100 + 1, 3.45, f"点線：動きのない店が幅の外になる割合 {nf*100:.0f}%", fontsize=8, color="gray")
+ax.axvline(nd * 100, color="gray", ls="--", lw=1)
+ax.text(0.98, 0.04, f"点線：動きのない店が幅の外になる割合 {nf*100:.0f}%\n破線：動きのない部門が幅の外になる割合 {nd*100:.0f}%", transform=ax.transAxes, ha="right", va="bottom", fontsize=8, color="dimgray")
 for i, v in enumerate(val[::-1]):
     ax.text(v + 1, i, f"{v:.0f}%", va="center", fontsize=8)
-ax.set_xlim(0, 110); ax.set_xlabel("動きの後の月のうち、経営向けの「幅の外」に出た割合（%、乱数の種20通り）")
+ax.set_xlim(0, 115); ax.set_xlabel("動きの後の月のうち、経営向けの「幅の外」に出た割合（%、乱数の種20通り）")
 ax.set_title("入れておいた本当の動きは、経営向けの例外の欄に出たか", fontsize=10, loc="left")
 fig.tight_layout(); fig.savefig(os.path.join(F, "fig6_reask.png"), dpi=150); plt.close()
 print("ok")

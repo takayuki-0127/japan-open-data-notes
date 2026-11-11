@@ -61,7 +61,7 @@ for sd in range(20):
     s_drop, m_drop, _ = ev["cust_drop"]; s_cafe, m_cafe, _ = ev["cafe_up"]; d_mg, m_mg, _ = ev["zakka_margin"]
     hit = {"客数の落ち込み": [], "雑貨の粗利率": [], "カフェの伸び（店）": [], "カフェの伸び（部門）": []}
     first = {"客数の落ち込み": None, "雑貨の粗利率": None}
-    null_flags = []
+    null_flags = []; null_dept = []
     for m in FY25:
         v = month_view(g, m, BANDS["12"])
         outs = {s for s in v["store"] if v["store"][s]["out"]}
@@ -79,8 +79,10 @@ for sd in range(20):
             hit["カフェの伸び（部門）"].append("カフェ" in od)
         # 動きを入れていない店（落ち込み・カフェの店以外）の判定＝空振り
         null_flags += [s in outs for s in v["store"] if s not in (s_drop, s_cafe)]
+        null_dept += [d in od for d in ["文具", "書籍"]]  # 動きを入れていない部門
     rq.append(dict(seed=seed, **{f"hit_{k}": float(np.mean(x)) for k, x in hit.items()},
-                   **{f"lag_{k}": x for k, x in first.items()}, null_flag_rate=float(np.mean(null_flags))))
+                   **{f"lag_{k}": x for k, x in first.items()}, null_flag_rate=float(np.mean(null_flags)),
+                   null_dept_rate=float(np.mean(null_dept))))
 rq = pd.DataFrame(rq); rq.to_csv(os.path.join(OUT, "D_reask_seeds.csv"), index=False)
 res = dict(by_nstores=rows, rounding_seeds=dict(any_median=float(rd["any"].median()), any_min=int(rd["any"].min()),
                                                 any_max=int(rd["any"].max()), share_ge30=float((rd["any"] >= 4).mean()),
@@ -89,7 +91,11 @@ res = dict(by_nstores=rows, rounding_seeds=dict(any_median=float(rd["any"].media
            reask=dict(hit_rate={c[4:]: float(rq[c].mean()) for c in rq.columns if c.startswith("hit_")},
                       lag_median={c[4:]: float(rq[c].median()) for c in rq.columns if c.startswith("lag_")},
                       lag_max={c[4:]: float(rq[c].max()) for c in rq.columns if c.startswith("lag_")},
-                      null_flag_rate=float(rq.null_flag_rate.mean())))
+                      hit_range={c[4:]: [float(rq[c].min()), float(rq[c].max())] for c in rq.columns if c.startswith("hit_")},
+                      null_flag_rate=float(rq.null_flag_rate.mean()),
+                      null_flag_range=[float(rq.null_flag_rate.min()), float(rq.null_flag_rate.max())],
+                      null_dept_rate=float(rq.null_dept_rate.mean()),
+                      null_dept_range=[float(rq.null_dept_rate.min()), float(rq.null_dept_rate.max())]))
 pd.DataFrame(rows).to_csv(os.path.join(OUT, "E_robust_nstores.csv"), index=False)
 json.dump(res, open(os.path.join(OUT, "robust_reask.json"), "w"), ensure_ascii=False, indent=1, default=float)
 print(json.dumps(res, ensure_ascii=False, indent=1, default=float))
