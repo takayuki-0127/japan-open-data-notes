@@ -1,0 +1,8 @@
+{
+ "sql_rows": 2804,
+ "py_rows": 2804,
+ "sql_breaks": 4,
+ "py_breaks": 4,
+ "max_abs_diff_dlq": 1.1102230246251565e-16,
+ "max_abs_diff_breakeven": 5.329070518200751e-15
+}
