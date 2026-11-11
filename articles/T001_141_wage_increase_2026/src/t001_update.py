@@ -39,25 +39,31 @@ out = {
     "order_monotone_years_since_2013": {str(y): bool(mono[y]) for y in range(2013, 2027)},
     "order_strict_years_since_2013": int(strict.loc[2013:].sum()),
     "order_monotone_share_1975_2012": round(float(mono.loc[1975:2012].mean()), 3),
+    # レビューで追加：同じ値を許す（≥）並びと、厳密な（>）並びの年の一覧
+    "order_weak_years_all": [int(y) for y in mono.index[mono]],
+    "order_strict_years_all": [int(y) for y in strict.index[strict]],
+    "order_weak_count_1975_2012": [int(mono.loc[1975:2012].sum()), int(mono.loc[1975:2012].size)],
+    "order_weak_count_2013_2022": [int(mono.loc[2013:2022].sum()), int(mono.loc[2013:2022].size)],
+    "years_gap_eq_0.7": [int(y) for y in gap.index[gap.round(2) == 0.7]],
 }
 (RES / "t001_main.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 print(json.dumps(out, ensure_ascii=False, indent=1))
 
-# 図4 元記事との比較：差の推移（2013〜2026年）、元記事の最終年（2025年）と新しい年（2026年）
+# 記事の図1 元記事との比較：差の推移（2013〜2026年）、元記事の最終年（2025年）と新しい年（2026年）
 fig, ax = plt.subplots(figsize=(8.6, 4.0))
 g = gap.loc[2013:]
-colors = [ORANGE if y == 2026 else (GRAY if y == 2025 else LIGHT) for y in g.index]
+colors = [ORANGE if y == 2026 else (GRAY if y == 2025 else "#d9d8d4") for y in g.index]
 ax.bar(g.index, g.values, color=colors, width=0.7)
 for y, v in g.items():
     ax.text(y, v + 0.03, f"{v:.1f}", ha="center", fontsize=9, color=INK)
 ax.axhline(1.0, color=INK, lw=0.8, ls="--"); ax.text(2012.6, 1.03, "「続いた」の基準 1.0", fontsize=8.5, color=INK)
 ax.axhline(0.5, color=GRAY, lw=0.8, ls=":"); ax.text(2012.6, 0.53, "「止まった」の境 0.5", fontsize=8.5, color=GRAY)
 ax.set_ylabel("改定率の差（ポイント）"); ax.set_xticks(list(g.index)); ax.tick_params(axis="x", labelsize=8.5)
-ax.set_title("5,000人以上と100〜299人の改定率の差：元記事（〜2025年、灰）と2026年（橙）", loc="left", fontsize=12)
+ax.set_title("5,000人以上と100〜299人の改定率の差：元記事の最終年2025年（濃い灰）と2026年（橙）", loc="left", fontsize=12)
 fig.text(0.0, -0.03, SOURCE + "（2026年は令和8年調査の第2表）", fontsize=7.5, color=GRAY)
 fig.savefig(FIG / "t001_compare.png"); plt.close(fig)
 
-# 図5 4区分の改定率：2025年→2026年
+# 記事の図2 4区分の改定率：2025年→2026年
 fig, ax = plt.subplots(figsize=(7.2, 4.2))
 cols = {"5,000人以上": ORANGE, "1,000～4,999人": "#f3a77f", "300～999人": LIGHT, "100～299人": BLUE}
 for s, c in cols.items():

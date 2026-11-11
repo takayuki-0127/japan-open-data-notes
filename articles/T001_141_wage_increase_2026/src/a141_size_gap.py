@@ -49,23 +49,23 @@ f6 = t6[t6.year.isin([2019, 2022, 2023, 2024, 2025, 2026])].set_index(["size", "
     ["業績", "世間相場", "労働力の確保・定着", "消費者物価", "雇用の維持"]].sort_index()
 f6.to_csv(RES / "a141_factor_recent.csv")
 
-# 図1 規模別の改定率
+# 参考図 t001_rate.png 規模別の改定率（記事では使わない）  # T001: 図の番号を記事に合わせた
 fig, ax = plt.subplots(figsize=(8.6, 4.4))
 cols = {"5,000人以上": ORANGE, "1,000～4,999人": "#f3a77f", "300～999人": LIGHT, "100～299人": BLUE}
 for s, c in cols.items():
     ax.plot(rate.index, rate[s], color=c, lw=2 if s in ("5,000人以上", "100～299人") else 1.2, label=s)
-ax.set_xlim(1974, 2027)  # T001; ax.set_ylabel("1人平均賃金の改定率（％）")
+ax.set_xlim(1974, 2027); ax.set_ylabel("1人平均賃金の改定率（％）")  # T001
 ax.set_title("企業規模別 1人平均賃金の改定率（1975〜2026年）", loc="left")  # T001
 ax.legend(frameon=False, ncol=4, fontsize=9, loc="upper right", bbox_to_anchor=(1, 1.02))
 ax2 = fig.add_axes([0.5, 0.5, 0.33, 0.27])
 for s, c in cols.items():
     ax2.plot(rate.loc[2015:].index, rate.loc[2015:, s], color=c, lw=1.6, marker="o", ms=2.5)
-ax2.set_title("2015〜2026年", fontsize=9)  # T001; ax2.tick_params(labelsize=8)
+ax2.set_title("2015〜2026年", fontsize=9); ax2.tick_params(labelsize=8)  # T001
 for sp in ("top", "right"): ax2.spines[sp].set_visible(False)
 fig.text(0.0, -0.02, SOURCE + "（単純平均は1979年まで、1980年以降は加重平均）", fontsize=7.5, color=GRAY)
 fig.savefig(FIG / "t001_rate.png"); plt.close(fig)
 
-# 図2 差（5,000人以上 − 100〜299人）
+# 記事の図3 t001_gap.png 差（5,000人以上 − 100〜299人）
 fig, ax = plt.subplots(figsize=(8.6, 4.0))
 g = gap.rate_gap_pt
 ax.bar(g.index, g.where(g > 0, 0), color=ORANGE, width=0.8, label="5,000人以上のほうが高い")
@@ -77,7 +77,7 @@ ax.legend(frameon=False, fontsize=9, loc="upper left")
 fig.text(0.0, -0.03, SOURCE, fontsize=7.5, color=GRAY)
 fig.savefig(FIG / "t001_gap.png"); plt.close(fig)
 
-# 図3 引き上げた企業の割合
+# 記事の図4 t001_raised.png 引き上げた企業の割合
 fig, ax = plt.subplots(figsize=(8.6, 4.0))
 r2 = raised.loc[1999:]
 for s, c in cols.items():
