@@ -1,0 +1,11 @@
+{
+ "readmes": 512,
+ "lines": 311,
+ "articles": 162,
+ "exclusion_lines": 248,
+ "manual_sample": {
+  "対象外（手順の説明・結果なし）": 17,
+  "動いた": 7,
+  "変わらなかった": 6
+ }
+}
