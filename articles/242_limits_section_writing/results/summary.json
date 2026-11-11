@@ -1,0 +1,92 @@
+{
+ "readmes": 501,
+ "commit": "996936a",
+ "flagship_limits_items": 1562,
+ "review_articles": 40,
+ "review_items": 382,
+ "review_items_per_article_median": 9.0,
+ "limits_by_group": {
+  "F01–F99": {
+   "n": 97,
+   "has": 96.9,
+   "per": 4.69,
+   "items": 455,
+   "chars": 55.0,
+   "suisoku": 3.7,
+   "number": 43.1,
+   "next": 9.7
+  },
+  "F100–F199": {
+   "n": 100,
+   "has": 100.0,
+   "per": 6.15,
+   "items": 615,
+   "chars": 61.0,
+   "suisoku": 7.3,
+   "number": 52.2,
+   "next": 12.4
+  },
+  "F200–F255": {
+   "n": 36,
+   "has": 100.0,
+   "per": 5.89,
+   "items": 212,
+   "chars": 60.0,
+   "suisoku": 10.8,
+   "number": 52.4,
+   "next": 11.8
+  },
+  "F256–F295（精選）": {
+   "n": 40,
+   "has": 100.0,
+   "per": 7.0,
+   "items": 280,
+   "chars": 63.0,
+   "suisoku": 20.0,
+   "number": 61.8,
+   "next": 12.1
+  }
+ },
+ "review_categories": {
+  "因果の言い方を直した": {
+   "items_pct": 0.8,
+   "articles": 3,
+   "articles_pct": 7.5
+  },
+  "事後の分析だと明記": {
+   "items_pct": 4.7,
+   "articles": 12,
+   "articles_pct": 30.0
+  },
+  "数字・計算の誤り": {
+   "items_pct": 5.8,
+   "articles": 19,
+   "articles_pct": 47.5
+  },
+  "言い過ぎ・一般化を弱めた": {
+   "items_pct": 9.7,
+   "articles": 26,
+   "articles_pct": 65.0
+  },
+  "図・表示を直した": {
+   "items_pct": 14.9,
+   "articles": 31,
+   "articles_pct": 77.5
+  },
+  "（推測）を足した": {
+   "items_pct": 15.2,
+   "articles": 34,
+   "articles_pct": 85.0
+  },
+  "定義・前提・範囲を書いた": {
+   "items_pct": 17.3,
+   "articles": 29,
+   "articles_pct": 72.5
+  },
+  "計画（PLAN）との対応": {
+   "items_pct": 24.6,
+   "articles": 38,
+   "articles_pct": 95.0
+  }
+ }
+}
