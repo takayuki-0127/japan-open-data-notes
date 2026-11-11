@@ -72,7 +72,7 @@ for yi, s in zip(y, SEGS):
     a, b = D.loc[s, "r_2010_12"] * 100, D.loc[s, "r_2011_06"] * 100
     col = "#4a7ab5" if abs(b - a) <= 10 else "#c0504d"
     ax.plot([a, b], [yi, yi], color=col, lw=2); ax.scatter([a], [yi], color="#999", zorder=3); ax.scatter([b], [yi], color=col, zorder=3)
-    ax.text(max(a, b) + 1.5, yi, f"{b - a:+.0f}pt", va="center", fontsize=9, color=col)
+    ax.text(max(a, b) + 1.5, yi, f"{b - a:+.1f}pt", va="center", fontsize=9, color=col)
 ax.set_yticks(y, lab1); ax.set_xlim(10, 100); ax.set_xlabel("次の6か月にもう一度買った割合（%）  灰：2010年12月時点 → 色：2011年6月時点")
 ax.set_title("区分ごとの割合は時点で動いた（±10pt を超えたのは赤の4区分）")
 save(fig, "f279_5_stability.png")
