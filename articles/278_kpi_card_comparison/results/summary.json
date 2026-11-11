@@ -1,0 +1,26 @@
+{
+ "cells": 240,
+ "kpis": 10,
+ "months": 24,
+ "rates": {
+  "mom_vs_yoy": 0.4,
+  "mom_vs_target": 0.4,
+  "yoy_vs_target": 0.31666666666666665
+ },
+ "mom_vs_yoy_strong_season": 0.5,
+ "mom_vs_yoy_weak_season": 0.30000000000000004,
+ "n_strong": 5,
+ "n_weak": 5,
+ "yoy_good_target_bad": 76,
+ "yoy_bad_target_good": 0,
+ "sql_matches_pandas": true,
+ "corr_season_vs_mom_yoy": 0.7610065976911128,
+ "example": {
+  "kpi": "来店客数",
+  "ym": "2025-10",
+  "value": 57.903,
+  "prev_month": 55.781,
+  "prev_year": 58.158,
+  "target": 59.321
+ }
+}
