@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A/B テストの人数と日数の計算</title>
+<style>
+:root{--bg:#fafaf7;--fg:#222;--mut:#666;--acc:#c0392b;--line:#ddd}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Noto Sans CJK JP","Hiragino Sans",sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:20px 16px}
+h1{font-size:20px;margin:0 0 4px}p.note{color:var(--mut);font-size:12px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:300px 1fr;gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px}
+label{display:block;font-size:13px;margin:10px 0 4px}input,select{width:100%;padding:6px;font-size:14px;box-sizing:border-box}
+.big{font-size:30px;font-weight:700;color:var(--acc)}.kpi{display:flex;gap:18px;flex-wrap:wrap}.kpi div{min-width:150px}
+.kpi small{display:block;color:var(--mut);font-size:12px}
+table{border-collapse:collapse;width:100%;font-size:13px;margin-top:8px}th,td{border-bottom:1px solid var(--line);padding:5px 6px;text-align:right}th:first-child,td:first-child{text-align:left}
+td.ok{background:#eaf5ea}td.ng{background:#fbeaea}
+@media(max-width:700px){.grid{grid-template-columns:1fr}}
+</style></head><body><div class="wrap">
+<h1>A/B テストは、何人・何日集めれば「差」が分かるか</h1>
+<p class="note">架空の社内向けツールの例（F236）。割合の指標（購入率など）の差を、両側検定で調べるときの目安。数字は正規近似の式で、シミュレーションで確かめた範囲で使えます。</p>
+<div class="grid">
+<div class="card">
+<label>いまの割合（基準、%）<input id="p" type="number" value="5" step="0.1" min="0.1" max="95"></label>
+<label>見つけたい差（相対、%）<input id="l" type="number" value="10" step="1" min="1" max="200"></label>
+<label>1日の訪問者数（2群の合計）<input id="t" type="number" value="5000" step="500" min="100"></label>
+<label>検出力<select id="pw"><option value="0.8" selected>80%</option><option value="0.9">90%</option></select></label>
+<label>有意水準（両側）<select id="a"><option value="0.05" selected>5%</option><option value="0.01">1%</option></select></label>
+</div>
+<div class="card">
+<div class="kpi">
+<div><small>1群に必要な人数</small><span class="big" id="n">-</span></div>
+<div><small>必要な日数（週単位に切り上げ）</small><span class="big" id="d">-</span></div>
+<div><small>4週間で見つけられる最小の差</small><span class="big" id="m">-</span></div>
+</div>
+<p class="note" id="msg"></p>
+<table id="tb"></table>
+<p class="note">表：基準の割合を固定して、見つけたい差と1日の訪問者数ごとの日数。緑は4週間以内、赤は8週間を超える。週単位にするのは曜日の偏りをならすため。</p>
+</div></div></div>
+<script>
+function ncdfinv(q){/* Acklam */const a=[-39.6968302866538,220.946098424521,-275.928510446969,138.357751867269,-30.6647980661472,2.50662827745924],b=[-54.4760987982241,161.585836858041,-155.698979859887,66.8013118877197,-13.2806815528857],c=[-0.00778489400243029,-0.322396458041136,-2.40075827716184,-2.54973253934373,4.37466414146497,2.93816398269878],d=[0.00778469570904146,0.32246712907004,2.445134137143,3.75440866190742];const pl=0.02425;let x;if(q<pl){const r=Math.sqrt(-2*Math.log(q));x=(((((c[0]*r+c[1])*r+c[2])*r+c[3])*r+c[4])*r+c[5])/((((d[0]*r+d[1])*r+d[2])*r+d[3])*r+1)}else if(q<=1-pl){const r=q-0.5,s=r*r;x=(((((a[0]*s+a[1])*s+a[2])*s+a[3])*s+a[4])*s+a[5])*r/(((((b[0]*s+b[1])*s+b[2])*s+b[3])*s+b[4])*s+1)}else{const r=Math.sqrt(-2*Math.log(1-q));x=-(((((c[0]*r+c[1])*r+c[2])*r+c[3])*r+c[4])*r+c[5])/((((d[0]*r+d[1])*r+d[2])*r+d[3])*r+1)}return x}
+function nprop(p1,rel,al,pw){const p2=p1*(1+rel),d=Math.abs(p2-p1),za=ncdfinv(1-al/2),zb=ncdfinv(pw),pb=(p1+p2)/2;return Math.ceil(Math.pow(za*Math.sqrt(2*pb*(1-pb))+zb*Math.sqrt(p1*(1-p1)+p2*(1-p2)),2)/(d*d))}
+function weeks(n,t){return Math.max(1,Math.ceil(Math.ceil(2*n/t)/7))}
+function mde(p,n,al,pw){let lo=1e-4,hi=5;for(let i=0;i<60;i++){const m=(lo+hi)/2;if(nprop(p,m,al,pw)>n)lo=m;else hi=m}return hi}
+const fmt=x=>x.toLocaleString('ja-JP');
+function upd(){const p=+document.getElementById('p').value/100,l=+document.getElementById('l').value/100,t=+document.getElementById('t').value,pw=+document.getElementById('pw').value,al=+document.getElementById('a').value;
+const n=nprop(p,l,al,pw),w=weeks(n,t);document.getElementById('n').textContent=fmt(n)+'人';document.getElementById('d').textContent=(7*w)+'日';
+document.getElementById('m').textContent='+'+(100*mde(p,t*28/2,al,pw)).toFixed(1)+'%';
+document.getElementById('msg').textContent=`基準 ${(100*p).toFixed(1)}% を ${(100*p*(1+l)).toFixed(2)}% にする差を、${Math.round(pw*100)}% の確率で見つけるには、2群合計で ${fmt(2*n)} 人。1日 ${fmt(t)} 人なら ${7*w} 日。`;
+const L=[0.02,0.05,0.1,0.2,0.3],T=[1000,5000,20000,100000];let h='<tr><th>差＼1日の訪問者</th>'+T.map(x=>'<th>'+fmt(x)+'人</th>').join('')+'</tr>';
+for(const ll of L){h+='<tr><td>+'+(ll*100)+'%</td>';for(const tt of T){const ww=weeks(nprop(p,ll,al,pw),tt),dd=7*ww;h+=`<td class="${dd<=28?'ok':dd>56?'ng':''}">${dd>365?'1年超':dd+'日'}</td>`}h+='</tr>'}
+document.getElementById('tb').innerHTML=h}
+['p','l','t','pw','a'].forEach(id=>document.getElementById(id).addEventListener('input',upd));upd();
+</script></body></html>
