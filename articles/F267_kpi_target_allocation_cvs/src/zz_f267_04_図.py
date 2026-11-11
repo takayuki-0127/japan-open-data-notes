@@ -63,7 +63,7 @@ fig, ax = plt.subplots(figsize=(10, 4.6)); x = np.arange(len(rules)); w = .26
 for k, (col, c, lab) in enumerate([("hit_s", "black", "売上の目標"), ("hit_c", C1, "客数の目標"), ("hit_p", C2, "客単価の目標")]):
     vals = [S.loc[r, col] * 100 for r, _ in rules]
     bb = ax.bar(x + (k - 1) * w, vals, w, color=c, label=lab)
-    for r_, v in zip(bb, vals): ax.annotate(f"{v:.0f}", (r_.get_x() + r_.get_width() / 2, v), xytext=(0, 2), textcoords="offset points", ha="center", fontsize=8.5)
+    for r_, v in zip(bb, vals): ax.annotate(f"{int(v + 0.5)}", (r_.get_x() + r_.get_width() / 2, v), xytext=(0, 2), textcoords="offset points", ha="center", fontsize=8.5)
 ax.set_xticks(x); ax.set_xticklabels([l for _, l in rules]); ax.set_ylim(0, 100)
 ax.set_ylabel("目標に届いた年の割合（%）"); ax.set_title("売上の目標を客数と客単価に割り付けると、どれだけ届いたか（2010〜2025年の16年）")
 ax.legend(frameon=False, ncol=3, loc="upper right"); ax.grid(axis="y", alpha=.3)
@@ -88,7 +88,7 @@ fig.tight_layout(rect=(0, .04, 1, 1)); fig.savefig(FIG / "f267_5_monthly_vs_annu
 y = pd.read_csv(RES / "reask_price_vs_cpi_annual.csv")
 for c_ in ["lp", "lc", "ls", "cpi_食料工業製品"]: y[c_] = y[c_] * 100
 fig, ax = plt.subplots(figsize=(10, 4.6))
-ax.plot(y.year, y["cpi_食料工業製品"], color=C3, lw=2.2, marker="o", ms=4, label="消費者物価：食料工業製品")
+ax.plot(y.year, y["cpi_食料工業製品"], color=C3, lw=2.2, marker="o", ms=4, label="消費者物価：食料工業製品（加工食品）")
 ax.plot(y.year, y.lp, color=C2, lw=2.2, marker="o", ms=4, label="コンビニ既存店の客単価")
 ax.plot(y.year, y.lc, color=C1, lw=1.6, marker="o", ms=3, ls="--", label="コンビニ既存店の客数")
 ax.axhline(0, color=GR, lw=.8); ax.axvspan(2019.5, 2022.5, color=GR, alpha=.12)
