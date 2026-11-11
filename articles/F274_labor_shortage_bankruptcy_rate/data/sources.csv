@@ -1,0 +1,110 @@
+series,year,value,source,url,note
+tdb_jinte,2016,72,TDB 人手不足倒産の動向調査（2025年）2026-01-08 件数推移の図,https://www.tdb.co.jp/report/economic/20260108-laborshortage-br2025/,負債1000万円以上・法的整理
+tdb_jinte,2017,98,TDB 人手不足倒産の動向調査（2025年）2026-01-08 件数推移の図,https://www.tdb.co.jp/report/economic/20260108-laborshortage-br2025/,負債1000万円以上・法的整理
+tdb_jinte,2018,159,TDB 人手不足倒産の動向調査（2025年）2026-01-08 件数推移の図,https://www.tdb.co.jp/report/economic/20260108-laborshortage-br2025/,負債1000万円以上・法的整理
+tdb_jinte,2019,192,TDB 人手不足倒産の動向調査（2025年）2026-01-08 件数推移の図,https://www.tdb.co.jp/report/economic/20260108-laborshortage-br2025/,負債1000万円以上・法的整理
+tdb_jinte,2020,157,TDB 人手不足倒産の動向調査（2025年）2026-01-08 件数推移の図,https://www.tdb.co.jp/report/economic/20260108-laborshortage-br2025/,負債1000万円以上・法的整理
+tdb_jinte,2021,111,TDB 人手不足倒産の動向調査（2025年）2026-01-08 件数推移の図,https://www.tdb.co.jp/report/economic/20260108-laborshortage-br2025/,負債1000万円以上・法的整理
+tdb_jinte,2022,140,TDB 人手不足倒産の動向調査（2025年）2026-01-08 件数推移の図,https://www.tdb.co.jp/report/economic/20260108-laborshortage-br2025/,負債1000万円以上・法的整理
+tdb_jinte,2023,260,TDB 人手不足倒産の動向調査（2025年）2026-01-08 件数推移の図,https://www.tdb.co.jp/report/economic/20260108-laborshortage-br2025/,負債1000万円以上・法的整理
+tdb_jinte,2024,342,TDB 人手不足倒産の動向調査（2025年）2026-01-08 件数推移の図,https://www.tdb.co.jp/report/economic/20260108-laborshortage-br2025/,負債1000万円以上・法的整理
+tdb_jinte,2025,427,TDB 人手不足倒産の動向調査（2025年）2026-01-08 件数推移の図,https://www.tdb.co.jp/report/economic/20260108-laborshortage-br2025/,負債1000万円以上・法的整理
+tdb_jinte_vintage2020,2019,185,TDB 2019年の人手不足倒産（2020-01-09発表、報道）,https://www.itmedia.co.jp/business/spv/2001/10/news082.html,同じ年の当時の公表値
+tdb_jinte_vintage2020,2018,153,TDB 2019年の人手不足倒産（2020-01-09発表、報道）,https://www.itmedia.co.jp/business/spv/2001/10/news082.html,185件が前年比20.9%増から逆算（185/1.209=153.0）
+tdb_total,2012,11129,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tdb_total,2013,10332,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tdb_total,2014,9180,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tdb_total,2015,8517,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tdb_total,2016,8164,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tdb_total,2017,8376,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tdb_total,2018,8063,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tdb_total,2019,8354,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tdb_total,2020,7809,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tdb_total,2021,6015,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tdb_total,2022,6376,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tdb_total,2023,8497,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tdb_total,2024,9901,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tdb_total,2025,10261,TDB 全国企業倒産集計2025年報（倒産動向データ編）倒産件数の推移,https://www.tdb.co.jp/report/bankruptcy/aggregation/20260113-bankruptcy2025/,負債1000万円以上・法的整理
+tsr_total,2014,9731,TSR 2014年の全国企業倒産（全国企業倒産状況）,https://www.tsr-net.co.jp/news/status/detail/1196522_1610.html,負債1000万円以上
+tsr_total,2015,8812,TSR 2015年の全国企業倒産（全国企業倒産状況）,https://www.tsr-net.co.jp/news/status/detail/1196523_1610.html,負債1000万円以上
+tsr_total,2016,8446,TSR 2016年の全国企業倒産（全国企業倒産状況）,https://www.tsr-net.co.jp/news/status/detail/1196524_1610.html,負債1000万円以上
+tsr_total,2017,8405,TSR 2017年の全国企業倒産（全国企業倒産状況）,https://www.tsr-net.co.jp/news/status/detail/1196525_1610.html,負債1000万円以上
+tsr_total,2018,8235,TSR 2018年の全国企業倒産（全国企業倒産状況）,https://www.tsr-net.co.jp/news/status/detail/1196526_1610.html,負債1000万円以上
+tsr_total,2019,8383,TSR 2019年の全国企業倒産（全国企業倒産状況）,https://www.tsr-net.co.jp/news/status/detail/1196527_1610.html,負債1000万円以上
+tsr_total,2020,7773,TSR 2020年の全国企業倒産（全国企業倒産状況）,https://www.tsr-net.co.jp/news/status/detail/1196528_1610.html,負債1000万円以上
+tsr_total,2021,6030,TSR 2021年の全国企業倒産（全国企業倒産状況）,https://www.tsr-net.co.jp/news/status/detail/1196529_1610.html,負債1000万円以上
+tsr_total,2022,6428,TSR 2022年の全国企業倒産（全国企業倒産状況）,https://www.tsr-net.co.jp/news/status/detail/1197238_1610.html,負債1000万円以上
+tsr_total,2023,8690,TSR 2023年の全国企業倒産（全国企業倒産状況）,https://www.tsr-net.co.jp/news/status/detail/1198286_1610.html,負債1000万円以上
+tsr_total,2024,10006,"TSR 2024年の負債1,000万円未満倒産（全体1万542件−1,000万円未満536件）",https://www.tsr-net.co.jp/data/detail/1200858_1527.html,差し引きで算出
+tsr_total,2025,10300,"TSR 2025年の負債1,000万円未満倒産（全体1万827件−1,000万円未満527件）",https://www.tsr-net.co.jp/data/detail/1202297_1527.html,差し引きで算出
+tsr_kyujinnan,2016,17,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1188966_1527.html,2017年の記事の前年値
+tsr_taishoku,2016,17,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1188966_1527.html,2017年の記事の前年値
+tsr_jinkenhi,2016,23,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1188966_1527.html,2017年の記事の前年値
+tsr_kyujinnan,2017,35,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1188966_1527.html,
+tsr_taishoku,2017,18,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1188966_1527.html,
+tsr_jinkenhi,2017,15,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1188966_1527.html,
+tsr_kyujinnan,2018,59,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1189685_1527.html,"2019年の記事の前年比から逆算（78/1.322, 44/1.833, 34/1.307）"
+tsr_taishoku,2018,24,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1189685_1527.html,"2019年の記事の前年比から逆算（78/1.322, 44/1.833, 34/1.307）"
+tsr_jinkenhi,2018,26,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1189685_1527.html,"2019年の記事の前年比から逆算（78/1.322, 44/1.833, 34/1.307）"
+tsr_kyujinnan,2019,78,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1189685_1527.html,
+tsr_taishoku,2019,44,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1189685_1527.html,
+tsr_jinkenhi,2019,34,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1189685_1527.html,
+tsr_kyujinnan,2022,27,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1198293_1527.html,"2023年の記事の前年比から逆算（58/2.148, 41/1.464）、人件費高騰は記事の前年値7件"
+tsr_taishoku,2022,28,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1198293_1527.html,"2023年の記事の前年比から逆算（58/2.148, 41/1.464）、人件費高騰は記事の前年値7件"
+tsr_jinkenhi,2022,7,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1198293_1527.html,"2023年の記事の前年比から逆算（58/2.148, 41/1.464）、人件費高騰は記事の前年値7件"
+tsr_kyujinnan,2023,58,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1198293_1527.html,
+tsr_taishoku,2023,41,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1198293_1527.html,
+tsr_jinkenhi,2023,59,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1198293_1527.html,
+tsr_kyujinnan,2024,114,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1200923_1527.html,
+tsr_taishoku,2024,71,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1200923_1527.html,
+tsr_jinkenhi,2024,104,TSR 人手不足関連倒産,https://www.tsr-net.co.jp/data/detail/1200923_1527.html,
+tsr_kyujinnan,2025,135,TSR 人手不足関連倒産,https://webtan.impress.co.jp/n/2026/01/15/52005,求人難は合計397−退職110−人件費152で算出
+tsr_taishoku,2025,110,TSR 人手不足関連倒産,https://webtan.impress.co.jp/n/2026/01/15/52005,求人難は合計397−退職110−人件費152で算出
+tsr_jinkenhi,2025,152,TSR 人手不足関連倒産,https://webtan.impress.co.jp/n/2026/01/15/52005,求人難は合計397−退職110−人件費152で算出
+tsr_3f_jan_nov,2020,91,TSR 2023年1-11月の記事（2020年1-11月）,https://www.tsr-net.co.jp/data/detail/1198185_1527.html,年の値は公表を見つけられず
+tsr_3f_jan_nov,2021,53,TSR 2023年1-11月の記事（2021年1-11月）,https://www.tsr-net.co.jp/data/detail/1198185_1527.html,年の値は公表を見つけられず
+tsr_koukeisha,2016,269,TSR 後継者難倒産,https://www.tsr-net.co.jp/data/detail/1188966_1527.html,
+tsr_koukeisha,2017,249,TSR 後継者難倒産,https://www.tsr-net.co.jp/data/detail/1188966_1527.html,
+tsr_koukeisha,2018,278,TSR 後継者難倒産,https://www.tsr-net.co.jp/data/detail/1189685_1527.html,270件が前年比2.8%減から逆算（277.8）
+tsr_koukeisha,2019,270,TSR 後継者難倒産,https://www.tsr-net.co.jp/data/detail/1189685_1527.html,
+tsr_koukeisha,2020,372,TSR 後継者難倒産,https://www.tsr-net.co.jp/data/detail/1191099_1527.html,2021年の記事の前年値（381/1.024）。2021-01発表時は370件
+tsr_koukeisha,2021,381,TSR 後継者難倒産,https://www.tsr-net.co.jp/data/detail/1191099_1527.html,
+tsr_koukeisha,2022,422,TSR 後継者難倒産,https://www.tsr-net.co.jp/data/detail/1197310_1527.html,
+tsr_koukeisha,2023,430,TSR 後継者難倒産,https://www.tsr-net.co.jp/data/detail/1200503_1527.html,2024年の記事の『最多の2023年（430件）』
+tsr_koukeisha,2024,462,TSR 後継者難倒産,https://www.tsr-net.co.jp/data/detail/1200868_1527.html,
+tsr_koukeisha,2025,454,TSR 後継者難倒産,https://www.logi-today.com/900157,TSR 2026-01-14発表の報道
+tsr_koukeisha_vintage2021,2020,370,TSR 2020年の後継者難倒産（2021-01-13発表）,https://www.tsr-net.co.jp/data/detail/1190392_1527.html,当時の公表値
+tsr_3f_fy,2019,160,TSR 人手不足関連倒産（年度）,https://www.tsr-net.co.jp/data/detail/1197551_1527.html,年度＝4月〜翌3月
+tsr_3f_fy,2020,74,TSR 人手不足関連倒産（年度）,https://www.tsr-net.co.jp/data/detail/1197551_1527.html,年度＝4月〜翌3月
+tsr_3f_fy,2021,52,TSR 人手不足関連倒産（年度）,https://www.tsr-net.co.jp/data/detail/1197551_1527.html,年度＝4月〜翌3月
+tsr_3f_fy,2022,79,TSR 人手不足関連倒産（年度）,https://www.tsr-net.co.jp/data/detail/1197551_1527.html,年度＝4月〜翌3月
+tsr_3f_fy,2023,192,TSR 人手不足関連倒産（年度）,https://www.tsr-net.co.jp/data/detail/1201150_1527.html,年度＝4月〜翌3月
+tsr_3f_fy,2024,309,TSR 人手不足関連倒産（年度）,https://www.tsr-net.co.jp/data/detail/1201258_1527.html,年度＝4月〜翌3月
+tsr_3f_fy,2025,442,TSR 人手不足関連倒産（年度）,https://www.tsr-net.co.jp/data/detail/1202729_1527.html,年度＝4月〜翌3月
+nta_hojin_fy,2014,2616485,国税庁 会社標本調査 令和6年度分 第1表 資本金階級別法人数の累年比較,https://www.nta.go.jp/publication/statistics/kokuzeicho/kaishahyohon2024/pdf/kekka.pdf,年度＝その年4月〜翌3月に終わる事業年度
+nta_hojin_fy,2015,2641848,国税庁 会社標本調査 令和6年度分 第1表 資本金階級別法人数の累年比較,https://www.nta.go.jp/publication/statistics/kokuzeicho/kaishahyohon2024/pdf/kekka.pdf,年度＝その年4月〜翌3月に終わる事業年度
+nta_hojin_fy,2016,2672033,国税庁 会社標本調査 令和6年度分 第1表 資本金階級別法人数の累年比較,https://www.nta.go.jp/publication/statistics/kokuzeicho/kaishahyohon2024/pdf/kekka.pdf,年度＝その年4月〜翌3月に終わる事業年度
+nta_hojin_fy,2017,2706627,国税庁 会社標本調査 令和6年度分 第1表 資本金階級別法人数の累年比較,https://www.nta.go.jp/publication/statistics/kokuzeicho/kaishahyohon2024/pdf/kekka.pdf,年度＝その年4月〜翌3月に終わる事業年度
+nta_hojin_fy,2018,2738549,国税庁 会社標本調査 令和6年度分 第1表 資本金階級別法人数の累年比較,https://www.nta.go.jp/publication/statistics/kokuzeicho/kaishahyohon2024/pdf/kekka.pdf,年度＝その年4月〜翌3月に終わる事業年度
+nta_hojin_fy,2019,2758420,国税庁 会社標本調査 令和6年度分 第1表 資本金階級別法人数の累年比較,https://www.nta.go.jp/publication/statistics/kokuzeicho/kaishahyohon2024/pdf/kekka.pdf,年度＝その年4月〜翌3月に終わる事業年度
+nta_hojin_fy,2020,2804371,国税庁 会社標本調査 令和6年度分 第1表 資本金階級別法人数の累年比較,https://www.nta.go.jp/publication/statistics/kokuzeicho/kaishahyohon2024/pdf/kekka.pdf,年度＝その年4月〜翌3月に終わる事業年度
+nta_hojin_fy,2021,2864386,国税庁 会社標本調査 令和6年度分 第1表 資本金階級別法人数の累年比較,https://www.nta.go.jp/publication/statistics/kokuzeicho/kaishahyohon2024/pdf/kekka.pdf,年度＝その年4月〜翌3月に終わる事業年度
+nta_hojin_fy,2022,2914253,国税庁 会社標本調査 令和6年度分 第1表 資本金階級別法人数の累年比較,https://www.nta.go.jp/publication/statistics/kokuzeicho/kaishahyohon2024/pdf/kekka.pdf,年度＝その年4月〜翌3月に終わる事業年度
+nta_hojin_fy,2023,2956717,国税庁 会社標本調査 令和6年度分 第1表 資本金階級別法人数の累年比較,https://www.nta.go.jp/publication/statistics/kokuzeicho/kaishahyohon2024/pdf/kekka.pdf,年度＝その年4月〜翌3月に終わる事業年度
+nta_hojin_fy,2024,2999680,国税庁 会社標本調査 令和6年度分 第1表 資本金階級別法人数の累年比較,https://www.nta.go.jp/publication/statistics/kokuzeicho/kaishahyohon2024/pdf/kekka.pdf,年度＝その年4月〜翌3月に終わる事業年度
+kigyo_census,2014,3820000,中小企業庁 中小企業・小規模事業者の数（経済センサス）全規模合計,https://www.chusho.meti.go.jp/koukai/chousa/chu_kigyocnt/2023/231213chukigyocnt.html,万者単位の公表値
+kigyo_census,2016,3589000,中小企業庁 中小企業・小規模事業者の数（経済センサス）全規模合計,https://www.chusho.meti.go.jp/koukai/chousa/chu_kigyocnt/2023/231213chukigyocnt.html,万者単位の公表値
+kigyo_census,2021,3375000,中小企業庁 中小企業・小規模事業者の数（経済センサス）全規模合計,https://www.chusho.meti.go.jp/koukai/chousa/chu_kigyocnt/2023/231213chukigyocnt.html,万者単位の公表値
+yuko_kyujin,2013,0.93,JILPT 早わかり グラフでみる長期労働統計 g0301（厚生労働省 一般職業紹介状況）,https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0301.xlsx,年平均・パートを含む
+yuko_kyujin,2014,1.09,JILPT 早わかり グラフでみる長期労働統計 g0301（厚生労働省 一般職業紹介状況）,https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0301.xlsx,年平均・パートを含む
+yuko_kyujin,2015,1.2,JILPT 早わかり グラフでみる長期労働統計 g0301（厚生労働省 一般職業紹介状況）,https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0301.xlsx,年平均・パートを含む
+yuko_kyujin,2016,1.36,JILPT 早わかり グラフでみる長期労働統計 g0301（厚生労働省 一般職業紹介状況）,https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0301.xlsx,年平均・パートを含む
+yuko_kyujin,2017,1.5,JILPT 早わかり グラフでみる長期労働統計 g0301（厚生労働省 一般職業紹介状況）,https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0301.xlsx,年平均・パートを含む
+yuko_kyujin,2018,1.61,JILPT 早わかり グラフでみる長期労働統計 g0301（厚生労働省 一般職業紹介状況）,https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0301.xlsx,年平均・パートを含む
+yuko_kyujin,2019,1.6,JILPT 早わかり グラフでみる長期労働統計 g0301（厚生労働省 一般職業紹介状況）,https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0301.xlsx,年平均・パートを含む
+yuko_kyujin,2020,1.18,JILPT 早わかり グラフでみる長期労働統計 g0301（厚生労働省 一般職業紹介状況）,https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0301.xlsx,年平均・パートを含む
+yuko_kyujin,2021,1.13,JILPT 早わかり グラフでみる長期労働統計 g0301（厚生労働省 一般職業紹介状況）,https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0301.xlsx,年平均・パートを含む
+yuko_kyujin,2022,1.28,JILPT 早わかり グラフでみる長期労働統計 g0301（厚生労働省 一般職業紹介状況）,https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0301.xlsx,年平均・パートを含む
+yuko_kyujin,2023,1.31,JILPT 早わかり グラフでみる長期労働統計 g0301（厚生労働省 一般職業紹介状況）,https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0301.xlsx,年平均・パートを含む
+yuko_kyujin,2024,1.25,JILPT 早わかり グラフでみる長期労働統計 g0301（厚生労働省 一般職業紹介状況）,https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0301.xlsx,年平均・パートを含む
+yuko_kyujin,2025,1.22,JILPT 早わかり グラフでみる長期労働統計 g0301（厚生労働省 一般職業紹介状況）,https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0301.xlsx,年平均・パートを含む
