@@ -16,7 +16,7 @@ T = pd.read_csv(os.path.join(ROOT, 'results', 'B_target_year_errors.csv'))
 L = pd.read_csv(os.path.join(ROOT, 'results', 'C_latest_errors.csv'))
 RA = pd.read_csv(os.path.join(ROOT, 'results', 'D_reask_gdp_intensity.csv'))
 COL = {1998: '#8c564b', 2001: '#9467bd', 2004: '#e377c2', 2008: '#d62728', 2010: '#ff7f0e', 2015: '#1f77b4', 2021: '#2ca02c', 2025: '#17becf'}
-MAIN = {'demand': 'demand_fy', 'generation': 'gen_owid_cal_twh'}
+MAIN = {'demand': 'demand_fy', 'generation': 'gen_owid_cal_twh', 'generation_utility': 'gen_utility_fy'}
 def save(fig, name):
     fig.tight_layout(); fig.savefig(os.path.join(FIG, name), metadata={'Software': None}); plt.close(fig)
 def ratio(r):
@@ -54,17 +54,17 @@ for v in sorted(D.vintage.unique()): ax.scatter([], [], color=COL[v], label=str(
 ax.axhline(0, color='black', lw=0.8); ax.set_xlabel('先の長さ（比べる年 − 基準年、年）'); ax.set_ylabel('ずれ（%）')
 ax.set_title('図3　先の年ほどずれは大きい（小さい点＝途中の年、大きい点＝最新か目標年）'); ax.legend(title='公表年', fontsize=8, ncol=2, frameon=False); ax.grid(alpha=0.3)
 save(fig, 'fig3_horizon.png')
-# 図4：高いケースと低いケース（目標年の1年／前後3年平均）
+# 図4：高いケースと低いケース（電気事業用の系列そのまま／2010年度をつないだ系列）
 import json as _j
 M = _j.load(open(os.path.join(ROOT, 'results', 'main.json')))
 fig, axs = plt.subplots(1, 2, figsize=(9.5, 4.2), sharey=True)
-for ax, (key, ttl) in zip(axs, [('H', '目標年の1年'), ('R2', '目標年の前後3年平均')]):
-    rows = M['H']['H3']['rows'] if key == 'H' else M['robust']['R2_avg3_at_target']['H3']['rows']
+for ax, (key, ttl) in zip(axs, [('H', '電気事業用の系列そのまま'), ('R7', '2010年度を総発電の伸びでつないだ系列')]):
+    rows = M['H']['H3']['rows'] if key == 'H' else M['robust']['R7_hyp']['H3']['rows']
     x = np.arange(len(rows)); ax.bar(x - 0.2, [r['high_abs'] for r in rows], 0.4, color='#d62728', label='高いケース')
     ax.bar(x + 0.2, [r['low_abs'] for r in rows], 0.4, color='#1f77b4', label='低いケース（省エネ・対策を多く見込む）')
     ax.set_xticks(x); ax.set_xticklabels([str(r['vintage']) for r in rows]); ax.set_title(ttl)
 axs[0].set_ylabel('ずれの大きさ（絶対値、%）'); axs[0].legend(fontsize=8, frameon=False)
-fig.suptitle('図4　低いケースが近いかは、比べ方で入れ替わる（2004年の見通し）')
+fig.suptitle('図4　低いケースが近いかは、2010年度の実績の扱いで入れ替わる（2004年の見通し）')
 save(fig, 'fig4_high_vs_low.png')
 # 図5：問い直し GDP と原単位
 fig, ax = plt.subplots(figsize=(9, 4.8))
@@ -73,7 +73,7 @@ y = np.arange(len(r)); ax.barh(y, r.err_gdp, color='#ff7f0e', label='GDPの前�
 ax.barh(y, r.err_intensity, left=np.where(r.err_intensity * r.err_gdp > 0, r.err_gdp, 0), color='#1f77b4', label='GDPあたりの電力（原単位）のずれ')
 ax.scatter(r.err_total, y, color='black', zorder=3, s=18, label='合計のずれ')
 ax.set_yticks(y); ax.set_yticklabels(r.lab, fontsize=8); ax.invert_yaxis(); ax.axvline(0, color='black', lw=0.8)
-ax.set_xlabel('log差×100（＋は見通しが多すぎ）'); ax.set_title('図5　ずれの大半はGDPの前提から。原単位（省エネ）のずれは向きがまちまち'); ax.legend(fontsize=8, frameon=False, loc='lower right')
+ax.set_xlabel('log差×100（＋は見通しが多すぎ）'); ax.set_title('図5　前提の分かる5本すべてでGDPの前提が実績より高かった（事後の分解）'); ax.legend(fontsize=8, frameon=False, loc='lower right')
 save(fig, 'fig5_reask_gdp_intensity.png')
 # 図6：最近の見通し（2010・2015・2021・2025）と2024年度までの実績
 fig, ax = plt.subplots(figsize=(9, 4.8))
