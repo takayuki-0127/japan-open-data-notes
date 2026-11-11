@@ -37,7 +37,7 @@ for k, (lo, hi) in {"2003-2006": (2003, 2006), "2007-2015": (2007, 2015), "2016-
     ax.hlines(per[k], lo - 0.4, hi + 0.4, color="k", lw=2)
     ax.text((lo + hi) / 2, per[k] + 0.12, f"平均 {per[k]:+.1f}", ha="center", fontsize=9)
 ax.axhline(0, color="k", lw=0.6); ax.set_ylabel("ポイント（引上げ率 − 第4表）"); ax.set_xlabel("年度")
-ax.set_title("第4表との差は、時期を追うごとに大きくなった"); ax.set_xticks(range(2003, 2027, 2))
+ax.set_title("2007年からは、第4表との差が開いたまま（2007年以降の区切りは結果を見た後に置いた）", fontsize=10); ax.set_xticks(range(2003, 2027, 2))
 save(fig, "fig2_gap_by_period.png")
 
 # 図3 5つの指標での当てはめと、1年ずつ抜いた予測、前年と同じ
