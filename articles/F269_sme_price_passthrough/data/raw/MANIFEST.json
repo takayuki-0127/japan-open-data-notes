@@ -1,0 +1,45 @@
+{
+ "followup": {
+  "202109": {
+   "url": "https://www.chusho.meti.go.jp/keiei/torihiki/follow-up/dl/202109/result_01.pdf",
+   "pdf_md5": "510c9251307e45f16451c3d0e4df0cc0",
+   "pdf_bytes": 1406931,
+   "txt_md5": "6d218e6600aad93fa79a1c64401e2f6e"
+  },
+  "202309": {
+   "url": "https://www.chusho.meti.go.jp/keiei/torihiki/follow-up/dl/202309/result_01.pdf",
+   "pdf_md5": "ff5ebcf4389a5584afd63de7931fcf34",
+   "pdf_bytes": 2269252,
+   "txt_md5": "a6123198c5be09f66a5033971c9d1ca1"
+  },
+  "202409": {
+   "url": "https://www.chusho.meti.go.jp/keiei/torihiki/follow-up/dl/202409/result_01.pdf",
+   "pdf_md5": "1e9bab6e7b82c91bc55f228fa672b3ea",
+   "pdf_bytes": 3511829,
+   "txt_md5": "6fc949b059ba7581bf2af51a2d823151"
+  },
+  "202503": {
+   "url": "https://www.chusho.meti.go.jp/keiei/torihiki/follow-up/dl/202503/result_01.pdf",
+   "pdf_md5": "7d5889cc6cb9454558273ea5f5343e31",
+   "pdf_bytes": 2696148,
+   "txt_md5": "cb7af29afcded3d73561e90ae163adc2"
+  },
+  "202509": {
+   "url": "https://www.chusho.meti.go.jp/keiei/torihiki/follow-up/dl/202509/result_01.pdf",
+   "pdf_md5": "02eb07303e2081579d65b434138b6901",
+   "pdf_bytes": 2509089,
+   "txt_md5": "9a0cf58be195bc5b4cdb67a94cde9211"
+  },
+  "202603": {
+   "url": "https://www.chusho.meti.go.jp/keiei/torihiki/follow-up/dl/202603/result_01.pdf",
+   "pdf_md5": "6233efe56efda47dd236260e5b241b68",
+   "pdf_bytes": 1691575,
+   "txt_md5": "12e88432078e2d71ab972c6d2689d39f"
+  }
+ },
+ "tankan": {
+  "file": "boj_tankan_prices.json",
+  "md5": "55c1835407ae47d692da3e56dfd28c9c",
+  "api": "https://www.stat-search.boj.or.jp/api/v1/getDataCode?format=json&lang=jp&db=CO&startDate=201001&endDate=202604&code=TK99F{0,1,2}00061{4,5}GCQ0{0,1,2,3}000"
+ }
+}
