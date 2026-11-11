@@ -201,6 +201,15 @@ if __name__ == "__main__":
         "false_alarm_per_series_year": fa[METH].round(4).to_dict(orient="index"),
         "stale_clean_share_by_src": clean.groupby("src")["R_stale"].mean().round(4).to_dict(),
         "E5_same_value_share": det[det.err == "E5"].groupby("src")["same"].mean().round(4).to_dict(),
+        # レビューで足した：E5 を、入れた月の値が前月と違った月だけで数えた見つかる割合
+        "E5_rate_changed_months_R(停止なし)∪M2": det[(det.err == "E5") & ~det.same].groupby("src")["R(停止なし)∪M2"].mean().round(4).to_dict(),
+        # レビューで足した：H4 の基準の割合（汚れのない月のうち、もともと出来事の月の割合）と、鳴った月の割合との比
+        "H4_base_event_share_clean": clean.groupby("src")["event"].mean().round(4).to_dict(),
+        "H4_base_event_share_clean_all": round(float(clean["event"].mean()), 4),
+        "H4_lift_by_src": (h4_by["mean"] / clean.groupby("src")["event"].mean()).round(3).to_dict(),
+        "H4_lift_all": round(float(h4_share / clean["event"].mean()), 3),
+        "H4_noncovid_S2": {"flag_event_share": round(float(clean[(clean.src == "S2") & ~clean.covid & clean.M2]["event"].mean()), 4),
+                            "base_event_share": round(float(clean[(clean.src == "S2") & ~clean.covid]["event"].mean()), 4)},
     }
     json.dump(res, open(OUT / "main.json", "w"), ensure_ascii=False, indent=1)
     print(json.dumps({k: v for k, v in res.items() if k.startswith("H")}, ensure_ascii=False, indent=1))

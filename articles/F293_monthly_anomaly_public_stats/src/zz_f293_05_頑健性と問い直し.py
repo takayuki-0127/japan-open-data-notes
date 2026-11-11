@@ -66,6 +66,24 @@ for lab, (cl, de) in store.items():
                "H5比": round(float(cov / oth), 2) if np.isfinite(cov) and oth > 0 else None})
 pd.DataFrame(hj).to_csv(OUT / "C_hypotheses_by_condition.csv", index=False)
 
+# レビューで足した：誤報をそろえる条件の中身（系列ごとのしきい値と、実際の鳴る回数、S1 の汚れごとの見つかる割合）
+# 注意：このしきい値は評価する期間全体（その月より後の月とコロナの月を含む）の分位点から決めているので、先読みがある
+df_all = pd.read_csv(BASE / "data" / "series_long.csv")
+thr = []
+for (src, sid), g in df_all.groupby(["src", "sid"]):
+    g = g.sort_values("ym"); x = g["x"].to_numpy(float)
+    P = a.parts(x); ok = np.isfinite(P["pred2"]) & np.isfinite(P["sc2"]) & np.isfinite(P["sc3"])
+    zs = np.abs((P["y"][ok] - P["pred2"][ok]) / P["sc2"][ok])
+    thr.append({"src": src, "sid": sid, "しきい値z": float(np.quantile(zs, 1 - 0.5 / 12))})
+thr = pd.DataFrame(thr)
+clm, dem = store["誤報を年0.5回にそろえる"]
+thr = thr.merge((clm.groupby(["src", "sid"])["M2"].mean() * 12).rename("鳴る回数_年").reset_index(), on=["src", "sid"])
+thr[thr.src != "S2"].to_csv(OUT / "C_matched_thresholds_S1S3.csv", index=False, float_format="%.4f")
+md = dem.groupby(["src", "err"])[["R∪M2", "R(停止なし)∪M2", "M2"]].mean().reset_index()
+md.to_csv(OUT / "C_matched_detection.csv", index=False, float_format="%.4f")
+matched_info = {"しきい値z_中央値": thr.groupby("src")["しきい値z"].median().round(3).to_dict(),
+                "実際の鳴る回数_年": (clm.groupby("src")["M2"].mean() * 12).round(3).to_dict()}
+
 # ---------- 問い直し ----------
 c = c0
 s2 = c[c.src == "S2"].copy()
@@ -115,6 +133,19 @@ reask = {"S2出来事以外の鳴り": int(len(nf)), "うち4月・10月の割�
          "出来事以外の鳴りの内訳": echo, "全部の鳴りの内訳": echo_all,
          "はじめの1回だけ数えた誤報_年": first_only_rate, "はじめの1回だけ_出来事以外_年": first_only_ne,
          **fix}
+# レビューで足した：出来事のカレンダーを計画の言葉どおりに当てた場合（携帯電話機を外し、酒の語を計画の例に限る）
+rules0 = a.ITEM_RULES
+a.ITEM_RULES = [(("通信料（携帯",), r[1]) if "携帯電話" in r[0] else
+                ((("ビール", "発泡酒", "清酒", "ワイン", "チューハイ"), r[1]) if "酒" in r[0] else r) for r in rules0]
+cs = c0.copy()
+evs = {(s_, i_): a.event_months(s_, i_) for s_, i_ in cs[["src", "sid"]].drop_duplicates().itertuples(index=False)}
+cs["event2"] = [ym in evs[(s_, i_)] for s_, i_, ym in cs[["src", "sid", "ym"]].itertuples(index=False)]
+a.ITEM_RULES = rules0
+strict = {"出来事の割合_鳴った月": cs.loc[cs.M2].groupby("src")["event2"].mean().round(4).to_dict(),
+          "出来事の割合_鳴った月_全体": round(float(cs.loc[cs.M2, "event2"].mean()), 4),
+          "出来事の割合_汚れのない月": cs.groupby("src")["event2"].mean().round(4).to_dict()}
+reask["レビュー_誤報そろえ"] = matched_info
+reask["レビュー_計画どおりのカレンダー"] = strict
 json.dump(reask, open(OUT / "D_reask.json", "w"), ensure_ascii=False, indent=1, default=float)
 print(R.round(3).to_string())
 print(pd.DataFrame(hj).to_string())
