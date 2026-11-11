@@ -1,0 +1,205 @@
+{
+ "real_2024_2025": {
+  "C1_hash": true,
+  "C2_shape": false,
+  "C3_schema": false,
+  "C4_keys": false,
+  "C5_values": true,
+  "n_changed_cells": 290,
+  "n_lost_rows": 0,
+  "n_overlap_cells": 56353
+ },
+ "real_2025_2026": {
+  "C1_hash": true,
+  "C2_shape": false,
+  "C3_schema": false,
+  "C4_keys": false,
+  "C5_values": false,
+  "n_changed_cells": 0,
+  "n_lost_rows": 0,
+  "n_overlap_cells": 56353
+ },
+ "first_col_header": {
+  "2024": "SSDSE-B-2024",
+  "2025": "SSDSE-B-2025",
+  "2026": "SSDSE-B-2026"
+ },
+ "real_2024_2025_by_item": [
+  {
+   "item": "F3101",
+   "name": "新規求職申込件数（一般）",
+   "cells": 103,
+   "max_abs_rel": 0.0006311959306427584,
+   "years": "2019,2020,2021"
+  },
+  {
+   "item": "F3102",
+   "name": "月間有効求職者数（一般）",
+   "cells": 107,
+   "max_abs_rel": 0.0004073969108686626,
+   "years": "2019,2020,2021"
+  },
+  {
+   "item": "F3103",
+   "name": "月間有効求人数（一般）",
+   "cells": 72,
+   "max_abs_rel": 0.0002033333551971772,
+   "years": "2019,2020,2021"
+  },
+  {
+   "item": "F3104",
+   "name": "充足数（一般）",
+   "cells": 4,
+   "max_abs_rel": 0.00025435584382549337,
+   "years": "2019,2021"
+  },
+  {
+   "item": "F3105",
+   "name": "就職件数（一般）",
+   "cells": 4,
+   "max_abs_rel": 0.00025756600128779006,
+   "years": "2019,2021"
+  }
+ ],
+ "real_2024_2025_by_year": {
+  "2019": 79,
+  "2020": 94,
+  "2021": 117
+ },
+ "real_2024_2025_max_abs_diff": 300.0,
+ "roundtrip_identical": true,
+ "scenarios": [
+  {
+   "場面": "本物 2024年版→2025年版",
+   "C1_hash": true,
+   "C2_shape": false,
+   "C3_schema": false,
+   "C4_keys": false,
+   "C5_values": true,
+   "変わったセル": 290,
+   "消えた行": 0
+  },
+  {
+   "場面": "本物 2025年版→2026年版",
+   "C1_hash": true,
+   "C2_shape": false,
+   "C3_schema": false,
+   "C4_keys": false,
+   "C5_values": false,
+   "変わったセル": 0,
+   "消えた行": 0
+  },
+  {
+   "場面": "S0 同じ中身をもう一度取る",
+   "C1_hash": false,
+   "C2_shape": false,
+   "C3_schema": false,
+   "C4_keys": false,
+   "C5_values": false,
+   "変わったセル": 0,
+   "消えた行": 0
+  },
+  {
+   "場面": "S1 文字コードだけ変わる",
+   "C1_hash": true,
+   "C2_shape": false,
+   "C3_schema": false,
+   "C4_keys": false,
+   "C5_values": false,
+   "変わったセル": 0,
+   "消えた行": 0
+  },
+  {
+   "場面": "S2 過去の1セルだけ直る",
+   "C1_hash": true,
+   "C2_shape": false,
+   "C3_schema": false,
+   "C4_keys": false,
+   "C5_values": true,
+   "変わったセル": 1,
+   "消えた行": 0
+  },
+  {
+   "場面": "S3 1列の単位が変わる",
+   "C1_hash": true,
+   "C2_shape": false,
+   "C3_schema": false,
+   "C4_keys": false,
+   "C5_values": true,
+   "変わったセル": 564,
+   "消えた行": 0
+  },
+  {
+   "場面": "S4 列の並びが入れ替わる",
+   "C1_hash": true,
+   "C2_shape": false,
+   "C3_schema": true,
+   "C4_keys": false,
+   "C5_values": false,
+   "変わったセル": 0,
+   "消えた行": 0
+  },
+  {
+   "場面": "S5 1行が抜ける",
+   "C1_hash": true,
+   "C2_shape": true,
+   "C3_schema": false,
+   "C4_keys": true,
+   "C5_values": true,
+   "変わったセル": 0,
+   "消えた行": 1
+  },
+  {
+   "場面": "S6 項目名だけ変わる",
+   "C1_hash": true,
+   "C2_shape": false,
+   "C3_schema": true,
+   "C4_keys": false,
+   "C5_values": false,
+   "変わったセル": 0,
+   "消えた行": 0
+  },
+  {
+   "場面": "S7 値だけ隣の列とずれる",
+   "C1_hash": true,
+   "C2_shape": false,
+   "C3_schema": false,
+   "C4_keys": false,
+   "C5_values": true,
+   "変わったセル": 1128,
+   "消えた行": 0
+  }
+ ],
+ "accuracy": {
+  "C1_hash": {
+   "見つけた": 5,
+   "中身が変わった場面": 5,
+   "空振り": 4,
+   "変わっていない場面": 5
+  },
+  "C2_shape": {
+   "見つけた": 1,
+   "中身が変わった場面": 5,
+   "空振り": 0,
+   "変わっていない場面": 5
+  },
+  "C3_schema": {
+   "見つけた": 0,
+   "中身が変わった場面": 5,
+   "空振り": 2,
+   "変わっていない場面": 5
+  },
+  "C4_keys": {
+   "見つけた": 1,
+   "中身が変わった場面": 5,
+   "空振り": 0,
+   "変わっていない場面": 5
+  },
+  "C5_values": {
+   "見つけた": 5,
+   "中身が変わった場面": 5,
+   "空振り": 0,
+   "変わっていない場面": 5
+  }
+ }
+}

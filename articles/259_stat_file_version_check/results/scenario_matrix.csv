@@ -1,0 +1,11 @@
+場面,C1_hash,C2_shape,C3_schema,C4_keys,C5_values,変わったセル,消えた行
+本物 2024年版→2025年版,True,False,False,False,True,290,0
+本物 2025年版→2026年版,True,False,False,False,False,0,0
+S0 同じ中身をもう一度取る,False,False,False,False,False,0,0
+S1 文字コードだけ変わる,True,False,False,False,False,0,0
+S2 過去の1セルだけ直る,True,False,False,False,True,1,0
+S3 1列の単位が変わる,True,False,False,False,True,564,0
+S4 列の並びが入れ替わる,True,False,True,False,False,0,0
+S5 1行が抜ける,True,True,False,True,True,0,1
+S6 項目名だけ変わる,True,False,True,False,False,0,0
+S7 値だけ隣の列とずれる,True,False,False,False,True,1128,0
