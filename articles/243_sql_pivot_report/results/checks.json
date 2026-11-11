@@ -1,0 +1,44 @@
+{
+ "long_rows": 912,
+ "wide_rows": 12,
+ "wide_cols": 6,
+ "casewhen_vs_duckdb_pivot_maxdiff": 0,
+ "casewhen_vs_pandas_maxdiff": 0,
+ "rows_per_year": [
+  72
+ ],
+ "scenarios": [
+  {
+   "case": "そのまま",
+   "total_long": 567920174,
+   "total_cols": 567920174,
+   "dup_keys": 0
+  },
+  {
+   "case": "列にない業態が増えた",
+   "total_long": 569252297,
+   "total_cols": 567920174,
+   "dup_keys": 0,
+   "casewhen_cols": 6,
+   "duckdb_pivot_cols": 7,
+   "n_rows_2025_casewhen": 84
+  },
+  {
+   "case": "同じ月の行が2回入った",
+   "total_long": 569024274,
+   "total_cols": 569024274,
+   "dup_keys": 1,
+   "conveni_2025_correct": 13321234,
+   "conveni_2025_with_dup": 14425334,
+   "dup_row_value": 1104100
+  },
+  {
+   "case": "横長を縦に戻した（UNPIVOT）",
+   "wide_cells": 156,
+   "null_cells": 4,
+   "unpivot_rows": 152,
+   "unpivot_include_nulls_rows": 156,
+   "long_rows_conveni": 152
+  }
+ ]
+}

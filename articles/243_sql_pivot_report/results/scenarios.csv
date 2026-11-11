@@ -1,0 +1,5 @@
+case,total_long,total_cols,dup_keys,casewhen_cols,duckdb_pivot_cols,n_rows_2025_casewhen,conveni_2025_correct,conveni_2025_with_dup,dup_row_value,wide_cells,null_cells,unpivot_rows,unpivot_include_nulls_rows,long_rows_conveni
+そのまま,567920174.0,567920174.0,0.0,,,,,,,,,,,
+列にない業態が増えた,569252297.0,567920174.0,0.0,6.0,7.0,84.0,,,,,,,,
+同じ月の行が2回入った,569024274.0,569024274.0,1.0,,,,13321234.0,14425334.0,1104100.0,,,,,
+横長を縦に戻した（UNPIVOT）,,,,,,,,,,156.0,4.0,152.0,156.0,152.0
