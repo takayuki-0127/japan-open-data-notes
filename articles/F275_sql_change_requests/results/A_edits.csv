@@ -1,0 +1,25 @@
+style,cr,files,lines,touched,total_lines
+S1,CR1,8,12,R1.sql R2.sql R3.sql R4.sql R5.sql R6.sql R7.sql R8.sql,248
+S1,CR2,2,2,R4.sql R7.sql,248
+S1,CR3,8,30,R1.sql R2.sql R3.sql R4.sql R5.sql R6.sql R7.sql R8.sql,248
+S1,CR4,8,24,R1.sql R2.sql R3.sql R4.sql R5.sql R6.sql R7.sql R8.sql,248
+S1,CR5,8,52,R1.sql R2.sql R3.sql R4.sql R5.sql R6.sql R7.sql R8.sql,298
+S1,CR6,8,26,R1.sql R2.sql R3.sql R4.sql R5.sql R6.sql R7.sql R8.sql,248
+S1,CR7,2,12,R3.sql R6.sql,244
+S1,CR8,2,4,R5.sql R7.sql,250
+S2,CR1,8,8,R1.sql R2.sql R3.sql R4.sql R5.sql R6.sql R7.sql R8.sql,270
+S2,CR2,2,2,R4.sql R7.sql,270
+S2,CR3,8,8,R1.sql R2.sql R3.sql R4.sql R5.sql R6.sql R7.sql R8.sql,270
+S2,CR4,8,8,R1.sql R2.sql R3.sql R4.sql R5.sql R6.sql R7.sql R8.sql,270
+S2,CR5,8,16,R1.sql R2.sql R3.sql R4.sql R5.sql R6.sql R7.sql R8.sql,286
+S2,CR6,8,8,R1.sql R2.sql R3.sql R4.sql R5.sql R6.sql R7.sql R8.sql,270
+S2,CR7,2,6,R3.sql R6.sql,268
+S2,CR8,2,4,R5.sql R7.sql,272
+S3,CR1,1,1,V_net.sql,114
+S3,CR2,1,1,V_comp_store.sql,114
+S3,CR3,1,1,V_mon.sql,114
+S3,CR4,1,1,V_line_ok.sql,114
+S3,CR5,1,3,V_line_ok.sql,116
+S3,CR6,1,1,V_line_ok.sql,114
+S3,CR7,1,3,V_dept_grp.sql,113
+S3,CR8,1,2,V_cust.sql,115

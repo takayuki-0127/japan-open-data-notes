@@ -1,0 +1,1009 @@
+style,cr,kind,missed,T1,T2,T12,T3,T4,max_rel_pct,max_pt,n_wrong,wrong,seed,engine,tol,reps,fixture
+S1,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.5492762962501726,0.0,1,R1,2751,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.0395974580626732,0.0,1,R2,2751,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.8737517060464175,0.0,1,R3,2751,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.5796079803531943,0.47387873161501837,1,R4,2751,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.5492762962501726,0.0,1,R5,2751,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,3.7325514041553682,0.0,1,R6,2751,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.5492762962501726,0.47387873161501837,1,R7,2751,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R8,True,False,True,False,False,2.595219836400818,0.0,1,R8,2751,duckdb,exact,8,boundary
+S1,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.7325514041553682,0.47387873161501837,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S1,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,10.286621363094579,7.283313089785226,1,R4,2751,duckdb,exact,8,boundary
+S1,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,7.283313089785226,1,R7,2751,duckdb,exact,8,boundary
+S1,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,2,R4 R7,2751,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,40.77744943298266,0.0,1,R1,2751,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,56.11597460195509,0.0,1,R2,2751,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,56.34241066247241,0.0,1,R3,2751,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,113.45972712863745,64.43884515024202,1,R4,2751,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.41329905866996,0.0,1,R5,2751,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,73.3098417275922,0.0,1,R6,2751,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,99.41329905866996,64.43884515024202,1,R7,2751,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,126.81612134596385,0.0,1,R8,2751,duckdb,exact,8,boundary
+S1,CR3,全部直し忘れ,ALL,False,False,False,True,True,126.81612134596385,64.43884515024202,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.890034216068436,0.0,1,R1,2751,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.809556836414632,0.0,1,R2,2751,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,15.191060778434224,0.0,1,R3,2751,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.994479190788109,0.025870316993525933,1,R4,2751,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.890034216068436,0.0,1,R5,2751,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,21.343254402810423,0.0,1,R6,2751,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.890034216068406,0.025870316993525933,1,R7,2751,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,11.22622175434456,0.0,1,R8,2751,duckdb,exact,8,boundary
+S1,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.343254402810423,0.025870316993525933,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1869547602922528,0.0,1,R1,2751,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,13.204871708251313,0.0,1,R2,2751,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,1.862283668390359,0.0,1,R3,2751,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.295497234951961,0.2833129178352989,1,R4,2751,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.256740914419695,0.0,1,R5,2751,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,20.717905810842748,0.0,1,R6,2751,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.256740914419695,0.2833129178352989,1,R7,2751,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,3.016634834416148,0.0,1,R8,2751,duckdb,exact,8,boundary
+S1,CR5,全部直し忘れ,ALL,False,False,False,True,True,20.717905810842748,0.2833129178352989,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.2545275492379493,0.0,1,R1,2751,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.4024935369475977,0.0,1,R2,2751,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.352149350707276,0.0,1,R3,2751,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.3206824563562771,0.29828373143244713,1,R4,2751,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.2545275492379493,0.0,1,R5,2751,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,5.740548371459271,0.0,1,R6,2751,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.2545275492379493,0.29828373143244713,1,R7,2751,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.2433033543208034,0.0,1,R8,2751,duckdb,exact,8,boundary
+S1,CR6,全部直し忘れ,ALL,False,False,False,True,True,5.740548371459271,0.29828373143244713,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S1,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.05257090538345,0.0,1,R3,2751,duckdb,exact,8,boundary
+S1,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,150.52957422614944,0.0,1,R6,2751,duckdb,exact,8,boundary
+S1,CR7,全部直し忘れ,ALL,False,False,False,False,True,150.52957422614944,0.0,2,R3 R6,2751,duckdb,exact,8,boundary
+S1,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.8980565494983512,0.0,1,R5,2751,duckdb,exact,8,boundary
+S1,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.8980565494983512,0.0,1,R7,2751,duckdb,exact,8,boundary
+S1,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8980565494983512,0.0,2,R5 R7,2751,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.5492762962501726,0.0,1,R1,2751,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.0395974580626732,0.0,1,R2,2751,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.8737517060464175,0.0,1,R3,2751,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.5796079803531943,0.47387873161501837,1,R4,2751,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.5492762962501726,0.0,1,R5,2751,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,3.7325514041553682,0.0,1,R6,2751,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.5492762962501726,0.47387873161501837,1,R7,2751,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R8,True,False,True,False,False,2.595219836400818,0.0,1,R8,2751,duckdb,exact,8,boundary
+S2,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.7325514041553682,0.47387873161501837,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S2,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,10.286621363094579,7.283313089785226,1,R4,2751,duckdb,exact,8,boundary
+S2,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,7.283313089785226,1,R7,2751,duckdb,exact,8,boundary
+S2,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,2,R4 R7,2751,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,40.77744943298266,0.0,1,R1,2751,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,56.11597460195509,0.0,1,R2,2751,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,56.34241066247241,0.0,1,R3,2751,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,113.45972712863745,64.43884515024202,1,R4,2751,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.41329905866996,0.0,1,R5,2751,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,73.3098417275922,0.0,1,R6,2751,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,99.41329905866996,64.43884515024202,1,R7,2751,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,126.81612134596385,0.0,1,R8,2751,duckdb,exact,8,boundary
+S2,CR3,全部直し忘れ,ALL,False,False,False,True,True,126.81612134596385,64.43884515024202,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.890034216068695,0.0,1,R1,2751,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.809556836414632,0.0,1,R2,2751,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,15.191060778433743,0.0,1,R3,2751,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.99447919078811,0.02587031699357034,1,R4,2751,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.89003421606889,0.0,1,R5,2751,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,21.343254402810423,0.0,1,R6,2751,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.890034216068479,0.025870316993548137,1,R7,2751,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,11.226221754344534,0.0,1,R8,2751,duckdb,exact,8,boundary
+S2,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.343254402810423,0.02587031699357034,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1869547602922528,0.0,1,R1,2751,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,13.204871708251313,0.0,1,R2,2751,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,1.862283668390359,0.0,1,R3,2751,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.295497234951961,0.2833129178352989,1,R4,2751,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.256740914419695,0.0,1,R5,2751,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,20.717905810842748,0.0,1,R6,2751,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.256740914419695,0.2833129178352989,1,R7,2751,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,3.016634834416148,0.0,1,R8,2751,duckdb,exact,8,boundary
+S2,CR5,全部直し忘れ,ALL,False,False,False,True,True,20.717905810842748,0.2833129178352989,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.2545275492379493,0.0,1,R1,2751,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.4024935369475977,0.0,1,R2,2751,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.352149350707276,0.0,1,R3,2751,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.3206824563562771,0.29828373143244713,1,R4,2751,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.2545275492379493,0.0,1,R5,2751,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,5.740548371459271,0.0,1,R6,2751,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.2545275492379493,0.29828373143244713,1,R7,2751,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.2433033543208034,0.0,1,R8,2751,duckdb,exact,8,boundary
+S2,CR6,全部直し忘れ,ALL,False,False,False,True,True,5.740548371459271,0.29828373143244713,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S2,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.05257090538345,0.0,1,R3,2751,duckdb,exact,8,boundary
+S2,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,150.52957422614944,0.0,1,R6,2751,duckdb,exact,8,boundary
+S2,CR7,全部直し忘れ,ALL,False,False,False,False,True,150.52957422614944,0.0,2,R3 R6,2751,duckdb,exact,8,boundary
+S2,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.8980565494983512,0.0,1,R5,2751,duckdb,exact,8,boundary
+S2,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.8980565494983512,0.0,1,R7,2751,duckdb,exact,8,boundary
+S2,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8980565494983512,0.0,2,R5 R7,2751,duckdb,exact,8,boundary
+S3,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.7325514041553682,0.47387873161501837,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S3,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,2,R4 R7,2751,duckdb,exact,8,boundary
+S3,CR3,全部直し忘れ,ALL,False,False,False,True,True,126.81612134596385,64.43884515024202,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S3,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.343254402810423,0.025870316993525933,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S3,CR5,全部直し忘れ,ALL,False,False,False,True,True,20.717905810842748,0.2833129178352989,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S3,CR6,全部直し忘れ,ALL,False,False,False,True,True,5.740548371459271,0.29828373143244713,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,boundary
+S3,CR7,全部直し忘れ,ALL,False,False,False,False,True,150.52957422614944,0.0,2,R3 R6,2751,duckdb,exact,8,boundary
+S3,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8980565494983512,0.0,2,R5 R7,2751,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R1,False,False,False,True,True,0.5492762962501726,0.0,1,R1,2751,duckdb,0.5%,8,boundary
+S1,CR1,1つだけ直し忘れ,R2,False,False,False,False,True,1.0395974580626732,0.0,1,R2,2751,duckdb,0.5%,8,boundary
+S1,CR1,1つだけ直し忘れ,R3,False,False,False,False,True,0.8737517060464175,0.0,1,R3,2751,duckdb,0.5%,8,boundary
+S1,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.5796079803531943,0.47387873161501837,1,R4,2751,duckdb,0.5%,8,boundary
+S1,CR1,1つだけ直し忘れ,R5,False,False,False,False,True,0.5492762962501726,0.0,1,R5,2751,duckdb,0.5%,8,boundary
+S1,CR1,1つだけ直し忘れ,R6,False,False,False,False,True,3.7325514041553682,0.0,1,R6,2751,duckdb,0.5%,8,boundary
+S1,CR1,1つだけ直し忘れ,R7,False,False,False,False,True,0.5492762962501726,0.47387873161501837,1,R7,2751,duckdb,0.5%,8,boundary
+S1,CR1,1つだけ直し忘れ,R8,False,False,False,False,False,2.595219836400818,0.0,1,R8,2751,duckdb,0.5%,8,boundary
+S1,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.7325514041553682,0.47387873161501837,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S1,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,10.286621363094579,7.283313089785226,1,R4,2751,duckdb,0.5%,8,boundary
+S1,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,7.283313089785226,1,R7,2751,duckdb,0.5%,8,boundary
+S1,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,2,R4 R7,2751,duckdb,0.5%,8,boundary
+S1,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,40.77744943298266,0.0,1,R1,2751,duckdb,0.5%,8,boundary
+S1,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,56.11597460195509,0.0,1,R2,2751,duckdb,0.5%,8,boundary
+S1,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,56.34241066247241,0.0,1,R3,2751,duckdb,0.5%,8,boundary
+S1,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,113.45972712863745,64.43884515024202,1,R4,2751,duckdb,0.5%,8,boundary
+S1,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.41329905866996,0.0,1,R5,2751,duckdb,0.5%,8,boundary
+S1,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,73.3098417275922,0.0,1,R6,2751,duckdb,0.5%,8,boundary
+S1,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,99.41329905866996,64.43884515024202,1,R7,2751,duckdb,0.5%,8,boundary
+S1,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,126.81612134596385,0.0,1,R8,2751,duckdb,0.5%,8,boundary
+S1,CR3,全部直し忘れ,ALL,False,False,False,True,True,126.81612134596385,64.43884515024202,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S1,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.890034216068436,0.0,1,R1,2751,duckdb,0.5%,8,boundary
+S1,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.809556836414632,0.0,1,R2,2751,duckdb,0.5%,8,boundary
+S1,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,15.191060778434224,0.0,1,R3,2751,duckdb,0.5%,8,boundary
+S1,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.994479190788109,0.025870316993525933,1,R4,2751,duckdb,0.5%,8,boundary
+S1,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.890034216068436,0.0,1,R5,2751,duckdb,0.5%,8,boundary
+S1,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,21.343254402810423,0.0,1,R6,2751,duckdb,0.5%,8,boundary
+S1,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.890034216068406,0.025870316993525933,1,R7,2751,duckdb,0.5%,8,boundary
+S1,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,11.22622175434456,0.0,1,R8,2751,duckdb,0.5%,8,boundary
+S1,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.343254402810423,0.025870316993525933,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S1,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1869547602922528,0.0,1,R1,2751,duckdb,0.5%,8,boundary
+S1,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,13.204871708251313,0.0,1,R2,2751,duckdb,0.5%,8,boundary
+S1,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,1.862283668390359,0.0,1,R3,2751,duckdb,0.5%,8,boundary
+S1,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.295497234951961,0.2833129178352989,1,R4,2751,duckdb,0.5%,8,boundary
+S1,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.256740914419695,0.0,1,R5,2751,duckdb,0.5%,8,boundary
+S1,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,20.717905810842748,0.0,1,R6,2751,duckdb,0.5%,8,boundary
+S1,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.256740914419695,0.2833129178352989,1,R7,2751,duckdb,0.5%,8,boundary
+S1,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,3.016634834416148,0.0,1,R8,2751,duckdb,0.5%,8,boundary
+S1,CR5,全部直し忘れ,ALL,False,False,False,True,True,20.717905810842748,0.2833129178352989,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S1,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.2545275492379493,0.0,1,R1,2751,duckdb,0.5%,8,boundary
+S1,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.4024935369475977,0.0,1,R2,2751,duckdb,0.5%,8,boundary
+S1,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.352149350707276,0.0,1,R3,2751,duckdb,0.5%,8,boundary
+S1,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.3206824563562771,0.29828373143244713,1,R4,2751,duckdb,0.5%,8,boundary
+S1,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.2545275492379493,0.0,1,R5,2751,duckdb,0.5%,8,boundary
+S1,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,5.740548371459271,0.0,1,R6,2751,duckdb,0.5%,8,boundary
+S1,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.2545275492379493,0.29828373143244713,1,R7,2751,duckdb,0.5%,8,boundary
+S1,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.2433033543208034,0.0,1,R8,2751,duckdb,0.5%,8,boundary
+S1,CR6,全部直し忘れ,ALL,False,False,False,True,True,5.740548371459271,0.29828373143244713,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S1,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.05257090538345,0.0,1,R3,2751,duckdb,0.5%,8,boundary
+S1,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,150.52957422614944,0.0,1,R6,2751,duckdb,0.5%,8,boundary
+S1,CR7,全部直し忘れ,ALL,False,False,False,False,True,150.52957422614944,0.0,2,R3 R6,2751,duckdb,0.5%,8,boundary
+S1,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.8980565494983512,0.0,1,R5,2751,duckdb,0.5%,8,boundary
+S1,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.8980565494983512,0.0,1,R7,2751,duckdb,0.5%,8,boundary
+S1,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8980565494983512,0.0,2,R5 R7,2751,duckdb,0.5%,8,boundary
+S2,CR1,1つだけ直し忘れ,R1,False,False,False,True,True,0.5492762962501726,0.0,1,R1,2751,duckdb,0.5%,8,boundary
+S2,CR1,1つだけ直し忘れ,R2,False,False,False,False,True,1.0395974580626732,0.0,1,R2,2751,duckdb,0.5%,8,boundary
+S2,CR1,1つだけ直し忘れ,R3,False,False,False,False,True,0.8737517060464175,0.0,1,R3,2751,duckdb,0.5%,8,boundary
+S2,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.5796079803531943,0.47387873161501837,1,R4,2751,duckdb,0.5%,8,boundary
+S2,CR1,1つだけ直し忘れ,R5,False,False,False,False,True,0.5492762962501726,0.0,1,R5,2751,duckdb,0.5%,8,boundary
+S2,CR1,1つだけ直し忘れ,R6,False,False,False,False,True,3.7325514041553682,0.0,1,R6,2751,duckdb,0.5%,8,boundary
+S2,CR1,1つだけ直し忘れ,R7,False,False,False,False,True,0.5492762962501726,0.47387873161501837,1,R7,2751,duckdb,0.5%,8,boundary
+S2,CR1,1つだけ直し忘れ,R8,False,False,False,False,False,2.595219836400818,0.0,1,R8,2751,duckdb,0.5%,8,boundary
+S2,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.7325514041553682,0.47387873161501837,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S2,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,10.286621363094579,7.283313089785226,1,R4,2751,duckdb,0.5%,8,boundary
+S2,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,7.283313089785226,1,R7,2751,duckdb,0.5%,8,boundary
+S2,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,2,R4 R7,2751,duckdb,0.5%,8,boundary
+S2,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,40.77744943298266,0.0,1,R1,2751,duckdb,0.5%,8,boundary
+S2,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,56.11597460195509,0.0,1,R2,2751,duckdb,0.5%,8,boundary
+S2,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,56.34241066247241,0.0,1,R3,2751,duckdb,0.5%,8,boundary
+S2,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,113.45972712863745,64.43884515024202,1,R4,2751,duckdb,0.5%,8,boundary
+S2,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.41329905866996,0.0,1,R5,2751,duckdb,0.5%,8,boundary
+S2,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,73.3098417275922,0.0,1,R6,2751,duckdb,0.5%,8,boundary
+S2,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,99.41329905866996,64.43884515024202,1,R7,2751,duckdb,0.5%,8,boundary
+S2,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,126.81612134596385,0.0,1,R8,2751,duckdb,0.5%,8,boundary
+S2,CR3,全部直し忘れ,ALL,False,False,False,True,True,126.81612134596385,64.43884515024202,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S2,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.890034216068695,0.0,1,R1,2751,duckdb,0.5%,8,boundary
+S2,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.809556836414632,0.0,1,R2,2751,duckdb,0.5%,8,boundary
+S2,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,15.191060778433743,0.0,1,R3,2751,duckdb,0.5%,8,boundary
+S2,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.99447919078811,0.02587031699357034,1,R4,2751,duckdb,0.5%,8,boundary
+S2,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.89003421606889,0.0,1,R5,2751,duckdb,0.5%,8,boundary
+S2,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,21.343254402810423,0.0,1,R6,2751,duckdb,0.5%,8,boundary
+S2,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.890034216068479,0.025870316993548137,1,R7,2751,duckdb,0.5%,8,boundary
+S2,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,11.226221754344534,0.0,1,R8,2751,duckdb,0.5%,8,boundary
+S2,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.343254402810423,0.02587031699357034,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S2,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1869547602922528,0.0,1,R1,2751,duckdb,0.5%,8,boundary
+S2,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,13.204871708251313,0.0,1,R2,2751,duckdb,0.5%,8,boundary
+S2,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,1.862283668390359,0.0,1,R3,2751,duckdb,0.5%,8,boundary
+S2,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.295497234951961,0.2833129178352989,1,R4,2751,duckdb,0.5%,8,boundary
+S2,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.256740914419695,0.0,1,R5,2751,duckdb,0.5%,8,boundary
+S2,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,20.717905810842748,0.0,1,R6,2751,duckdb,0.5%,8,boundary
+S2,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.256740914419695,0.2833129178352989,1,R7,2751,duckdb,0.5%,8,boundary
+S2,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,3.016634834416148,0.0,1,R8,2751,duckdb,0.5%,8,boundary
+S2,CR5,全部直し忘れ,ALL,False,False,False,True,True,20.717905810842748,0.2833129178352989,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S2,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.2545275492379493,0.0,1,R1,2751,duckdb,0.5%,8,boundary
+S2,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.4024935369475977,0.0,1,R2,2751,duckdb,0.5%,8,boundary
+S2,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.352149350707276,0.0,1,R3,2751,duckdb,0.5%,8,boundary
+S2,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.3206824563562771,0.29828373143244713,1,R4,2751,duckdb,0.5%,8,boundary
+S2,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.2545275492379493,0.0,1,R5,2751,duckdb,0.5%,8,boundary
+S2,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,5.740548371459271,0.0,1,R6,2751,duckdb,0.5%,8,boundary
+S2,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.2545275492379493,0.29828373143244713,1,R7,2751,duckdb,0.5%,8,boundary
+S2,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.2433033543208034,0.0,1,R8,2751,duckdb,0.5%,8,boundary
+S2,CR6,全部直し忘れ,ALL,False,False,False,True,True,5.740548371459271,0.29828373143244713,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S2,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.05257090538345,0.0,1,R3,2751,duckdb,0.5%,8,boundary
+S2,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,150.52957422614944,0.0,1,R6,2751,duckdb,0.5%,8,boundary
+S2,CR7,全部直し忘れ,ALL,False,False,False,False,True,150.52957422614944,0.0,2,R3 R6,2751,duckdb,0.5%,8,boundary
+S2,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.8980565494983512,0.0,1,R5,2751,duckdb,0.5%,8,boundary
+S2,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.8980565494983512,0.0,1,R7,2751,duckdb,0.5%,8,boundary
+S2,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8980565494983512,0.0,2,R5 R7,2751,duckdb,0.5%,8,boundary
+S3,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.7325514041553682,0.47387873161501837,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S3,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,2,R4 R7,2751,duckdb,0.5%,8,boundary
+S3,CR3,全部直し忘れ,ALL,False,False,False,True,True,126.81612134596385,64.43884515024202,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S3,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.343254402810423,0.025870316993525933,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S3,CR5,全部直し忘れ,ALL,False,False,False,True,True,20.717905810842748,0.2833129178352989,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S3,CR6,全部直し忘れ,ALL,False,False,False,True,True,5.740548371459271,0.29828373143244713,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,0.5%,8,boundary
+S3,CR7,全部直し忘れ,ALL,False,False,False,False,True,150.52957422614944,0.0,2,R3 R6,2751,duckdb,0.5%,8,boundary
+S3,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8980565494983512,0.0,2,R5 R7,2751,duckdb,0.5%,8,boundary
+S1,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.5492762962501726,0.0,1,R1,2751,duckdb,exact,5,boundary
+S1,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.0395974580626732,0.0,1,R2,2751,duckdb,exact,5,boundary
+S1,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.8737517060464175,0.0,1,R3,2751,duckdb,exact,5,boundary
+S1,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.5796079803531943,0.47387873161501837,1,R4,2751,duckdb,exact,5,boundary
+S1,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.5492762962501726,0.0,1,R5,2751,duckdb,exact,5,boundary
+S1,CR1,全部直し忘れ,ALL,False,False,False,True,True,1.0395974580626732,0.47387873161501837,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S1,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,10.286621363094579,7.283313089785226,1,R4,2751,duckdb,exact,5,boundary
+S1,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,1,R4,2751,duckdb,exact,5,boundary
+S1,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,40.77744943298266,0.0,1,R1,2751,duckdb,exact,5,boundary
+S1,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,56.11597460195509,0.0,1,R2,2751,duckdb,exact,5,boundary
+S1,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,56.34241066247241,0.0,1,R3,2751,duckdb,exact,5,boundary
+S1,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,113.45972712863745,64.43884515024202,1,R4,2751,duckdb,exact,5,boundary
+S1,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.41329905866996,0.0,1,R5,2751,duckdb,exact,5,boundary
+S1,CR3,全部直し忘れ,ALL,False,False,False,True,True,113.45972712863745,64.43884515024202,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S1,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.890034216068436,0.0,1,R1,2751,duckdb,exact,5,boundary
+S1,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.809556836414632,0.0,1,R2,2751,duckdb,exact,5,boundary
+S1,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,15.191060778434224,0.0,1,R3,2751,duckdb,exact,5,boundary
+S1,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.994479190788109,0.025870316993525933,1,R4,2751,duckdb,exact,5,boundary
+S1,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.890034216068436,0.0,1,R5,2751,duckdb,exact,5,boundary
+S1,CR4,全部直し忘れ,ALL,False,False,False,True,True,15.191060778434224,0.025870316993525933,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S1,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1869547602922528,0.0,1,R1,2751,duckdb,exact,5,boundary
+S1,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,13.204871708251313,0.0,1,R2,2751,duckdb,exact,5,boundary
+S1,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,1.862283668390359,0.0,1,R3,2751,duckdb,exact,5,boundary
+S1,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.295497234951961,0.2833129178352989,1,R4,2751,duckdb,exact,5,boundary
+S1,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.256740914419695,0.0,1,R5,2751,duckdb,exact,5,boundary
+S1,CR5,全部直し忘れ,ALL,False,False,False,True,True,13.204871708251313,0.2833129178352989,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S1,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.2545275492379493,0.0,1,R1,2751,duckdb,exact,5,boundary
+S1,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.4024935369475977,0.0,1,R2,2751,duckdb,exact,5,boundary
+S1,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.352149350707276,0.0,1,R3,2751,duckdb,exact,5,boundary
+S1,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.3206824563562771,0.29828373143244713,1,R4,2751,duckdb,exact,5,boundary
+S1,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.2545275492379493,0.0,1,R5,2751,duckdb,exact,5,boundary
+S1,CR6,全部直し忘れ,ALL,False,False,False,True,True,2.4024935369475977,0.29828373143244713,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S1,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.05257090538345,0.0,1,R3,2751,duckdb,exact,5,boundary
+S1,CR7,全部直し忘れ,ALL,False,False,False,False,True,107.05257090538345,0.0,1,R3,2751,duckdb,exact,5,boundary
+S1,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.8980565494983512,0.0,1,R5,2751,duckdb,exact,5,boundary
+S1,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8980565494983512,0.0,1,R5,2751,duckdb,exact,5,boundary
+S2,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.5492762962501726,0.0,1,R1,2751,duckdb,exact,5,boundary
+S2,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.0395974580626732,0.0,1,R2,2751,duckdb,exact,5,boundary
+S2,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.8737517060464175,0.0,1,R3,2751,duckdb,exact,5,boundary
+S2,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.5796079803531943,0.47387873161501837,1,R4,2751,duckdb,exact,5,boundary
+S2,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.5492762962501726,0.0,1,R5,2751,duckdb,exact,5,boundary
+S2,CR1,全部直し忘れ,ALL,False,False,False,True,True,1.0395974580626732,0.47387873161501837,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S2,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,10.286621363094579,7.283313089785226,1,R4,2751,duckdb,exact,5,boundary
+S2,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,1,R4,2751,duckdb,exact,5,boundary
+S2,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,40.77744943298266,0.0,1,R1,2751,duckdb,exact,5,boundary
+S2,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,56.11597460195509,0.0,1,R2,2751,duckdb,exact,5,boundary
+S2,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,56.34241066247241,0.0,1,R3,2751,duckdb,exact,5,boundary
+S2,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,113.45972712863745,64.43884515024202,1,R4,2751,duckdb,exact,5,boundary
+S2,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.41329905866996,0.0,1,R5,2751,duckdb,exact,5,boundary
+S2,CR3,全部直し忘れ,ALL,False,False,False,True,True,113.45972712863745,64.43884515024202,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S2,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.890034216068695,0.0,1,R1,2751,duckdb,exact,5,boundary
+S2,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.809556836414632,0.0,1,R2,2751,duckdb,exact,5,boundary
+S2,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,15.191060778433743,0.0,1,R3,2751,duckdb,exact,5,boundary
+S2,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.99447919078811,0.02587031699357034,1,R4,2751,duckdb,exact,5,boundary
+S2,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.89003421606889,0.0,1,R5,2751,duckdb,exact,5,boundary
+S2,CR4,全部直し忘れ,ALL,False,False,False,True,True,15.191060778433743,0.02587031699357034,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S2,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1869547602922528,0.0,1,R1,2751,duckdb,exact,5,boundary
+S2,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,13.204871708251313,0.0,1,R2,2751,duckdb,exact,5,boundary
+S2,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,1.862283668390359,0.0,1,R3,2751,duckdb,exact,5,boundary
+S2,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.295497234951961,0.2833129178352989,1,R4,2751,duckdb,exact,5,boundary
+S2,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.256740914419695,0.0,1,R5,2751,duckdb,exact,5,boundary
+S2,CR5,全部直し忘れ,ALL,False,False,False,True,True,13.204871708251313,0.2833129178352989,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S2,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.2545275492379493,0.0,1,R1,2751,duckdb,exact,5,boundary
+S2,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.4024935369475977,0.0,1,R2,2751,duckdb,exact,5,boundary
+S2,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.352149350707276,0.0,1,R3,2751,duckdb,exact,5,boundary
+S2,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.3206824563562771,0.29828373143244713,1,R4,2751,duckdb,exact,5,boundary
+S2,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.2545275492379493,0.0,1,R5,2751,duckdb,exact,5,boundary
+S2,CR6,全部直し忘れ,ALL,False,False,False,True,True,2.4024935369475977,0.29828373143244713,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S2,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.05257090538345,0.0,1,R3,2751,duckdb,exact,5,boundary
+S2,CR7,全部直し忘れ,ALL,False,False,False,False,True,107.05257090538345,0.0,1,R3,2751,duckdb,exact,5,boundary
+S2,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.8980565494983512,0.0,1,R5,2751,duckdb,exact,5,boundary
+S2,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8980565494983512,0.0,1,R5,2751,duckdb,exact,5,boundary
+S3,CR1,全部直し忘れ,ALL,False,False,False,True,True,1.0395974580626732,0.47387873161501837,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S3,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,1,R4,2751,duckdb,exact,5,boundary
+S3,CR3,全部直し忘れ,ALL,False,False,False,True,True,113.45972712863745,64.43884515024202,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S3,CR4,全部直し忘れ,ALL,False,False,False,True,True,15.19106077843324,0.025870316993525933,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S3,CR5,全部直し忘れ,ALL,False,False,False,True,True,13.204871708251313,0.2833129178352989,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S3,CR6,全部直し忘れ,ALL,False,False,False,True,True,2.4024935369475977,0.29828373143244713,5,R1 R2 R3 R4 R5,2751,duckdb,exact,5,boundary
+S3,CR7,全部直し忘れ,ALL,False,False,False,False,True,107.05257090538345,0.0,1,R3,2751,duckdb,exact,5,boundary
+S3,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8980565494983512,0.0,1,R5,2751,duckdb,exact,5,boundary
+S1,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.5492762962501726,0.0,1,R1,2751,duckdb,exact,8,plain
+S1,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.0395974580626732,0.0,1,R2,2751,duckdb,exact,8,plain
+S1,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.8737517060464175,0.0,1,R3,2751,duckdb,exact,8,plain
+S1,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.5796079803531943,0.47387873161501837,1,R4,2751,duckdb,exact,8,plain
+S1,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.5492762962501726,0.0,1,R5,2751,duckdb,exact,8,plain
+S1,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,3.7325514041553682,0.0,1,R6,2751,duckdb,exact,8,plain
+S1,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.5492762962501726,0.47387873161501837,1,R7,2751,duckdb,exact,8,plain
+S1,CR1,1つだけ直し忘れ,R8,True,False,True,False,False,2.595219836400818,0.0,1,R8,2751,duckdb,exact,8,plain
+S1,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.7325514041553682,0.47387873161501837,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S1,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,10.286621363094579,7.283313089785226,1,R4,2751,duckdb,exact,8,plain
+S1,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,7.283313089785226,1,R7,2751,duckdb,exact,8,plain
+S1,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,2,R4 R7,2751,duckdb,exact,8,plain
+S1,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,40.77744943298266,0.0,1,R1,2751,duckdb,exact,8,plain
+S1,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,56.11597460195509,0.0,1,R2,2751,duckdb,exact,8,plain
+S1,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,56.34241066247241,0.0,1,R3,2751,duckdb,exact,8,plain
+S1,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,113.45972712863745,64.43884515024202,1,R4,2751,duckdb,exact,8,plain
+S1,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.41329905866996,0.0,1,R5,2751,duckdb,exact,8,plain
+S1,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,73.3098417275922,0.0,1,R6,2751,duckdb,exact,8,plain
+S1,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,99.41329905866996,64.43884515024202,1,R7,2751,duckdb,exact,8,plain
+S1,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,126.81612134596385,0.0,1,R8,2751,duckdb,exact,8,plain
+S1,CR3,全部直し忘れ,ALL,False,False,False,True,True,126.81612134596385,64.43884515024202,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S1,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.890034216068436,0.0,1,R1,2751,duckdb,exact,8,plain
+S1,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.809556836414632,0.0,1,R2,2751,duckdb,exact,8,plain
+S1,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,15.191060778434224,0.0,1,R3,2751,duckdb,exact,8,plain
+S1,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.994479190788109,0.025870316993525933,1,R4,2751,duckdb,exact,8,plain
+S1,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.890034216068436,0.0,1,R5,2751,duckdb,exact,8,plain
+S1,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,21.343254402810423,0.0,1,R6,2751,duckdb,exact,8,plain
+S1,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.890034216068406,0.025870316993525933,1,R7,2751,duckdb,exact,8,plain
+S1,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,11.22622175434456,0.0,1,R8,2751,duckdb,exact,8,plain
+S1,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.343254402810423,0.025870316993525933,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S1,CR5,1つだけ直し忘れ,R1,True,False,True,False,False,1.1869547602922528,0.0,1,R1,2751,duckdb,exact,8,plain
+S1,CR5,1つだけ直し忘れ,R2,True,False,True,False,False,13.204871708251313,0.0,1,R2,2751,duckdb,exact,8,plain
+S1,CR5,1つだけ直し忘れ,R3,True,False,True,False,False,1.862283668390359,0.0,1,R3,2751,duckdb,exact,8,plain
+S1,CR5,1つだけ直し忘れ,R4,False,False,False,False,False,1.295497234951961,0.2833129178352989,1,R4,2751,duckdb,exact,8,plain
+S1,CR5,1つだけ直し忘れ,R5,True,False,True,False,False,1.256740914419695,0.0,1,R5,2751,duckdb,exact,8,plain
+S1,CR5,1つだけ直し忘れ,R6,True,False,True,False,False,20.717905810842748,0.0,1,R6,2751,duckdb,exact,8,plain
+S1,CR5,1つだけ直し忘れ,R7,True,False,True,False,False,1.256740914419695,0.2833129178352989,1,R7,2751,duckdb,exact,8,plain
+S1,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,3.016634834416148,0.0,1,R8,2751,duckdb,exact,8,plain
+S1,CR5,全部直し忘れ,ALL,False,False,False,False,False,20.717905810842748,0.2833129178352989,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S1,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.2545275492379493,0.0,1,R1,2751,duckdb,exact,8,plain
+S1,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.4024935369475977,0.0,1,R2,2751,duckdb,exact,8,plain
+S1,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.352149350707276,0.0,1,R3,2751,duckdb,exact,8,plain
+S1,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.3206824563562771,0.29828373143244713,1,R4,2751,duckdb,exact,8,plain
+S1,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.2545275492379493,0.0,1,R5,2751,duckdb,exact,8,plain
+S1,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,5.740548371459271,0.0,1,R6,2751,duckdb,exact,8,plain
+S1,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.2545275492379493,0.29828373143244713,1,R7,2751,duckdb,exact,8,plain
+S1,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.2433033543208034,0.0,1,R8,2751,duckdb,exact,8,plain
+S1,CR6,全部直し忘れ,ALL,False,False,False,True,True,5.740548371459271,0.29828373143244713,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S1,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.05257090538345,0.0,1,R3,2751,duckdb,exact,8,plain
+S1,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,150.52957422614944,0.0,1,R6,2751,duckdb,exact,8,plain
+S1,CR7,全部直し忘れ,ALL,False,False,False,False,True,150.52957422614944,0.0,2,R3 R6,2751,duckdb,exact,8,plain
+S1,CR8,1つだけ直し忘れ,R5,False,False,False,False,False,0.8980565494983512,0.0,1,R5,2751,duckdb,exact,8,plain
+S1,CR8,1つだけ直し忘れ,R7,False,False,False,False,False,0.8980565494983512,0.0,1,R7,2751,duckdb,exact,8,plain
+S1,CR8,全部直し忘れ,ALL,False,False,False,False,False,0.8980565494983512,0.0,2,R5 R7,2751,duckdb,exact,8,plain
+S2,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.5492762962501726,0.0,1,R1,2751,duckdb,exact,8,plain
+S2,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.0395974580626732,0.0,1,R2,2751,duckdb,exact,8,plain
+S2,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.8737517060464175,0.0,1,R3,2751,duckdb,exact,8,plain
+S2,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.5796079803531943,0.47387873161501837,1,R4,2751,duckdb,exact,8,plain
+S2,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.5492762962501726,0.0,1,R5,2751,duckdb,exact,8,plain
+S2,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,3.7325514041553682,0.0,1,R6,2751,duckdb,exact,8,plain
+S2,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.5492762962501726,0.47387873161501837,1,R7,2751,duckdb,exact,8,plain
+S2,CR1,1つだけ直し忘れ,R8,True,False,True,False,False,2.595219836400818,0.0,1,R8,2751,duckdb,exact,8,plain
+S2,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.7325514041553682,0.47387873161501837,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S2,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,10.286621363094579,7.283313089785226,1,R4,2751,duckdb,exact,8,plain
+S2,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,7.283313089785226,1,R7,2751,duckdb,exact,8,plain
+S2,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,2,R4 R7,2751,duckdb,exact,8,plain
+S2,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,40.77744943298266,0.0,1,R1,2751,duckdb,exact,8,plain
+S2,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,56.11597460195509,0.0,1,R2,2751,duckdb,exact,8,plain
+S2,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,56.34241066247241,0.0,1,R3,2751,duckdb,exact,8,plain
+S2,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,113.45972712863745,64.43884515024202,1,R4,2751,duckdb,exact,8,plain
+S2,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.41329905866996,0.0,1,R5,2751,duckdb,exact,8,plain
+S2,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,73.3098417275922,0.0,1,R6,2751,duckdb,exact,8,plain
+S2,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,99.41329905866996,64.43884515024202,1,R7,2751,duckdb,exact,8,plain
+S2,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,126.81612134596385,0.0,1,R8,2751,duckdb,exact,8,plain
+S2,CR3,全部直し忘れ,ALL,False,False,False,True,True,126.81612134596385,64.43884515024202,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S2,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.890034216068695,0.0,1,R1,2751,duckdb,exact,8,plain
+S2,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.809556836414632,0.0,1,R2,2751,duckdb,exact,8,plain
+S2,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,15.191060778433743,0.0,1,R3,2751,duckdb,exact,8,plain
+S2,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.99447919078811,0.02587031699357034,1,R4,2751,duckdb,exact,8,plain
+S2,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.89003421606889,0.0,1,R5,2751,duckdb,exact,8,plain
+S2,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,21.343254402810423,0.0,1,R6,2751,duckdb,exact,8,plain
+S2,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.890034216068479,0.025870316993548137,1,R7,2751,duckdb,exact,8,plain
+S2,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,11.226221754344534,0.0,1,R8,2751,duckdb,exact,8,plain
+S2,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.343254402810423,0.02587031699357034,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S2,CR5,1つだけ直し忘れ,R1,True,False,True,False,False,1.1869547602922528,0.0,1,R1,2751,duckdb,exact,8,plain
+S2,CR5,1つだけ直し忘れ,R2,True,False,True,False,False,13.204871708251313,0.0,1,R2,2751,duckdb,exact,8,plain
+S2,CR5,1つだけ直し忘れ,R3,True,False,True,False,False,1.862283668390359,0.0,1,R3,2751,duckdb,exact,8,plain
+S2,CR5,1つだけ直し忘れ,R4,False,False,False,False,False,1.295497234951961,0.2833129178352989,1,R4,2751,duckdb,exact,8,plain
+S2,CR5,1つだけ直し忘れ,R5,True,False,True,False,False,1.256740914419695,0.0,1,R5,2751,duckdb,exact,8,plain
+S2,CR5,1つだけ直し忘れ,R6,True,False,True,False,False,20.717905810842748,0.0,1,R6,2751,duckdb,exact,8,plain
+S2,CR5,1つだけ直し忘れ,R7,True,False,True,False,False,1.256740914419695,0.2833129178352989,1,R7,2751,duckdb,exact,8,plain
+S2,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,3.016634834416148,0.0,1,R8,2751,duckdb,exact,8,plain
+S2,CR5,全部直し忘れ,ALL,False,False,False,False,False,20.717905810842748,0.2833129178352989,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S2,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.2545275492379493,0.0,1,R1,2751,duckdb,exact,8,plain
+S2,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.4024935369475977,0.0,1,R2,2751,duckdb,exact,8,plain
+S2,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.352149350707276,0.0,1,R3,2751,duckdb,exact,8,plain
+S2,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.3206824563562771,0.29828373143244713,1,R4,2751,duckdb,exact,8,plain
+S2,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.2545275492379493,0.0,1,R5,2751,duckdb,exact,8,plain
+S2,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,5.740548371459271,0.0,1,R6,2751,duckdb,exact,8,plain
+S2,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.2545275492379493,0.29828373143244713,1,R7,2751,duckdb,exact,8,plain
+S2,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.2433033543208034,0.0,1,R8,2751,duckdb,exact,8,plain
+S2,CR6,全部直し忘れ,ALL,False,False,False,True,True,5.740548371459271,0.29828373143244713,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S2,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.05257090538345,0.0,1,R3,2751,duckdb,exact,8,plain
+S2,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,150.52957422614944,0.0,1,R6,2751,duckdb,exact,8,plain
+S2,CR7,全部直し忘れ,ALL,False,False,False,False,True,150.52957422614944,0.0,2,R3 R6,2751,duckdb,exact,8,plain
+S2,CR8,1つだけ直し忘れ,R5,False,False,False,False,False,0.8980565494983512,0.0,1,R5,2751,duckdb,exact,8,plain
+S2,CR8,1つだけ直し忘れ,R7,False,False,False,False,False,0.8980565494983512,0.0,1,R7,2751,duckdb,exact,8,plain
+S2,CR8,全部直し忘れ,ALL,False,False,False,False,False,0.8980565494983512,0.0,2,R5 R7,2751,duckdb,exact,8,plain
+S3,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.7325514041553682,0.47387873161501837,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S3,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,2,R4 R7,2751,duckdb,exact,8,plain
+S3,CR3,全部直し忘れ,ALL,False,False,False,True,True,126.81612134596385,64.43884515024202,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S3,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.343254402810423,0.025870316993525933,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S3,CR5,全部直し忘れ,ALL,False,False,False,False,False,20.717905810842748,0.2833129178352989,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S3,CR6,全部直し忘れ,ALL,False,False,False,True,True,5.740548371459271,0.29828373143244713,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,duckdb,exact,8,plain
+S3,CR7,全部直し忘れ,ALL,False,False,False,False,True,150.52957422614944,0.0,2,R3 R6,2751,duckdb,exact,8,plain
+S3,CR8,全部直し忘れ,ALL,False,False,False,False,False,0.8980565494983512,0.0,2,R5 R7,2751,duckdb,exact,8,plain
+S1,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.5492762962501726,0.0,1,R1,2751,sqlite,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.0395974580626732,0.0,1,R2,2751,sqlite,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.8737517060464175,0.0,1,R3,2751,sqlite,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.5796079803531943,0.47387873161501837,1,R4,2751,sqlite,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.5492762962501726,0.0,1,R5,2751,sqlite,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,3.7325514041553682,0.0,1,R6,2751,sqlite,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.5492762962501726,0.47387873161501837,1,R7,2751,sqlite,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R8,True,False,True,False,False,2.595219836400818,0.0,1,R8,2751,sqlite,exact,8,boundary
+S1,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.7325514041553682,0.47387873161501837,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S1,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,10.286621363094579,7.283313089785226,1,R4,2751,sqlite,exact,8,boundary
+S1,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,7.283313089785226,1,R7,2751,sqlite,exact,8,boundary
+S1,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,2,R4 R7,2751,sqlite,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,40.77744943298266,0.0,1,R1,2751,sqlite,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,56.11597460195509,0.0,1,R2,2751,sqlite,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,56.34241066247241,0.0,1,R3,2751,sqlite,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,113.45972712863745,64.43884515024202,1,R4,2751,sqlite,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.41329905866996,0.0,1,R5,2751,sqlite,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,73.3098417275922,0.0,1,R6,2751,sqlite,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,99.41329905866996,64.43884515024202,1,R7,2751,sqlite,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,126.81612134596385,0.0,1,R8,2751,sqlite,exact,8,boundary
+S1,CR3,全部直し忘れ,ALL,False,False,False,True,True,126.81612134596385,64.43884515024202,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.890034216068793,0.0,1,R1,2751,sqlite,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.80955683641474,0.0,1,R2,2751,sqlite,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,15.191060778433876,0.0,1,R3,2751,sqlite,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.994479190788175,0.025870316993592546,1,R4,2751,sqlite,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.890034216068793,0.0,1,R5,2751,sqlite,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,21.34325440281039,0.0,1,R6,2751,sqlite,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.890034216068793,0.025870316993592546,1,R7,2751,sqlite,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,11.22622175434456,0.0,1,R8,2751,sqlite,exact,8,boundary
+S1,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.34325440281039,0.025870316993592546,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1869547602922528,0.0,1,R1,2751,sqlite,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,13.204871708251313,0.0,1,R2,2751,sqlite,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,1.862283668390359,0.0,1,R3,2751,sqlite,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.295497234951961,0.2833129178352989,1,R4,2751,sqlite,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.256740914419695,0.0,1,R5,2751,sqlite,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,20.717905810842748,0.0,1,R6,2751,sqlite,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.256740914419695,0.2833129178352989,1,R7,2751,sqlite,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,3.016634834416148,0.0,1,R8,2751,sqlite,exact,8,boundary
+S1,CR5,全部直し忘れ,ALL,False,False,False,True,True,20.717905810842748,0.2833129178352989,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.2545275492379493,0.0,1,R1,2751,sqlite,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.4024935369475977,0.0,1,R2,2751,sqlite,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.352149350707276,0.0,1,R3,2751,sqlite,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.3206824563562771,0.29828373143244713,1,R4,2751,sqlite,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.2545275492379493,0.0,1,R5,2751,sqlite,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,5.740548371459271,0.0,1,R6,2751,sqlite,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.2545275492379493,0.29828373143244713,1,R7,2751,sqlite,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.2433033543208034,0.0,1,R8,2751,sqlite,exact,8,boundary
+S1,CR6,全部直し忘れ,ALL,False,False,False,True,True,5.740548371459271,0.29828373143244713,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S1,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.05257090538345,0.0,1,R3,2751,sqlite,exact,8,boundary
+S1,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,150.52957422614944,0.0,1,R6,2751,sqlite,exact,8,boundary
+S1,CR7,全部直し忘れ,ALL,False,False,False,False,True,150.52957422614944,0.0,2,R3 R6,2751,sqlite,exact,8,boundary
+S1,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.8980565494983512,0.0,1,R5,2751,sqlite,exact,8,boundary
+S1,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.8980565494983512,0.0,1,R7,2751,sqlite,exact,8,boundary
+S1,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8980565494983512,0.0,2,R5 R7,2751,sqlite,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.5492762962501726,0.0,1,R1,2751,sqlite,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.0395974580626732,0.0,1,R2,2751,sqlite,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.8737517060464175,0.0,1,R3,2751,sqlite,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.5796079803531943,0.47387873161501837,1,R4,2751,sqlite,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.5492762962501726,0.0,1,R5,2751,sqlite,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,3.7325514041553682,0.0,1,R6,2751,sqlite,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.5492762962501726,0.47387873161501837,1,R7,2751,sqlite,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R8,True,False,True,False,False,2.595219836400818,0.0,1,R8,2751,sqlite,exact,8,boundary
+S2,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.7325514041553682,0.47387873161501837,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S2,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,10.286621363094579,7.283313089785226,1,R4,2751,sqlite,exact,8,boundary
+S2,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,7.283313089785226,1,R7,2751,sqlite,exact,8,boundary
+S2,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,2,R4 R7,2751,sqlite,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,40.77744943298266,0.0,1,R1,2751,sqlite,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,56.11597460195509,0.0,1,R2,2751,sqlite,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,56.34241066247241,0.0,1,R3,2751,sqlite,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,113.45972712863745,64.43884515024202,1,R4,2751,sqlite,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.41329905866996,0.0,1,R5,2751,sqlite,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,73.3098417275922,0.0,1,R6,2751,sqlite,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,99.41329905866996,64.43884515024202,1,R7,2751,sqlite,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,126.81612134596385,0.0,1,R8,2751,sqlite,exact,8,boundary
+S2,CR3,全部直し忘れ,ALL,False,False,False,True,True,126.81612134596385,64.43884515024202,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.890034216068793,0.0,1,R1,2751,sqlite,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.80955683641474,0.0,1,R2,2751,sqlite,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,15.191060778433876,0.0,1,R3,2751,sqlite,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.99447919078819,0.025870316993592546,1,R4,2751,sqlite,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.890034216068793,0.0,1,R5,2751,sqlite,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,21.34325440281039,0.0,1,R6,2751,sqlite,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.890034216068793,0.025870316993592546,1,R7,2751,sqlite,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,11.22622175434456,0.0,1,R8,2751,sqlite,exact,8,boundary
+S2,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.34325440281039,0.025870316993592546,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1869547602922528,0.0,1,R1,2751,sqlite,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,13.204871708251313,0.0,1,R2,2751,sqlite,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,1.862283668390359,0.0,1,R3,2751,sqlite,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.295497234951961,0.2833129178352989,1,R4,2751,sqlite,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.256740914419695,0.0,1,R5,2751,sqlite,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,20.717905810842748,0.0,1,R6,2751,sqlite,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.256740914419695,0.2833129178352989,1,R7,2751,sqlite,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,3.016634834416148,0.0,1,R8,2751,sqlite,exact,8,boundary
+S2,CR5,全部直し忘れ,ALL,False,False,False,True,True,20.717905810842748,0.2833129178352989,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.2545275492379493,0.0,1,R1,2751,sqlite,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.4024935369475977,0.0,1,R2,2751,sqlite,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.352149350707276,0.0,1,R3,2751,sqlite,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.3206824563562771,0.29828373143244713,1,R4,2751,sqlite,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.2545275492379493,0.0,1,R5,2751,sqlite,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,5.740548371459271,0.0,1,R6,2751,sqlite,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.2545275492379493,0.29828373143244713,1,R7,2751,sqlite,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.2433033543208034,0.0,1,R8,2751,sqlite,exact,8,boundary
+S2,CR6,全部直し忘れ,ALL,False,False,False,True,True,5.740548371459271,0.29828373143244713,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S2,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.05257090538345,0.0,1,R3,2751,sqlite,exact,8,boundary
+S2,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,150.52957422614944,0.0,1,R6,2751,sqlite,exact,8,boundary
+S2,CR7,全部直し忘れ,ALL,False,False,False,False,True,150.52957422614944,0.0,2,R3 R6,2751,sqlite,exact,8,boundary
+S2,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.8980565494983512,0.0,1,R5,2751,sqlite,exact,8,boundary
+S2,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.8980565494983512,0.0,1,R7,2751,sqlite,exact,8,boundary
+S2,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8980565494983512,0.0,2,R5 R7,2751,sqlite,exact,8,boundary
+S3,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.7325514041553682,0.47387873161501837,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S3,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.286621363094579,7.283313089785226,2,R4 R7,2751,sqlite,exact,8,boundary
+S3,CR3,全部直し忘れ,ALL,False,False,False,True,True,126.81612134596385,64.43884515024202,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S3,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.34325440281039,0.025870316993592546,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S3,CR5,全部直し忘れ,ALL,False,False,False,True,True,20.717905810842748,0.2833129178352989,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S3,CR6,全部直し忘れ,ALL,False,False,False,True,True,5.740548371459271,0.29828373143244713,8,R1 R2 R3 R4 R5 R6 R7 R8,2751,sqlite,exact,8,boundary
+S3,CR7,全部直し忘れ,ALL,False,False,False,False,True,150.52957422614944,0.0,2,R3 R6,2751,sqlite,exact,8,boundary
+S3,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8980565494983512,0.0,2,R5 R7,2751,sqlite,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.3872241980659799,0.0,1,R1,2752,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,0.9754254031018301,0.0,1,R2,2752,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.8795399670774452,0.0,1,R3,2752,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.42042317576349064,0.4496183333921988,1,R4,2752,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.4693456911219164,0.0,1,R5,2752,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,3.915439998366501,0.0,1,R6,2752,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.4693456911219164,0.4496183333921988,1,R7,2752,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R8,True,False,True,False,True,2.8854483088931087,0.0,1,R8,2752,duckdb,exact,8,boundary
+S1,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.915439998366501,0.4496183333921988,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S1,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,9.968110050082391,7.175478814187553,1,R4,2752,duckdb,exact,8,boundary
+S1,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,7.175478814187553,1,R7,2752,duckdb,exact,8,boundary
+S1,CR2,全部直し忘れ,ALL,False,False,False,False,True,9.968110050082391,7.175478814187553,2,R4 R7,2752,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,39.86492475578072,0.0,1,R1,2752,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,51.606777414896065,0.0,1,R2,2752,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,57.84890277625162,0.0,1,R3,2752,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,113.83379576880634,65.35154092068956,1,R4,2752,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,97.34991179745455,0.0,1,R5,2752,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,90.64847306220007,0.0,1,R6,2752,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,97.34991179745455,65.35154092068956,1,R7,2752,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,128.30782212221698,0.0,1,R8,2752,duckdb,exact,8,boundary
+S1,CR3,全部直し忘れ,ALL,False,False,False,True,True,128.30782212221698,65.35154092068956,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.8489945284321,0.0,1,R1,2752,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.294801135591328,0.0,1,R2,2752,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,14.78011486904113,0.0,1,R3,2752,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,10.000888952839194,0.0184978357104848,1,R4,2752,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.848994528432026,0.0,1,R5,2752,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,20.910294483755088,0.0,1,R6,2752,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.848994528432861,0.018497835710507005,1,R7,2752,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,11.168193165185063,0.0,1,R8,2752,duckdb,exact,8,boundary
+S1,CR4,全部直し忘れ,ALL,False,False,False,True,True,20.910294483755088,0.018497835710507005,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1359069842205374,0.0,1,R1,2752,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,12.63696519945348,0.0,1,R2,2752,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,1.9010367830256918,0.0,1,R3,2752,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.2341390812649538,0.23593882719048498,1,R4,2752,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.161846461365482,0.0,1,R5,2752,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,21.14903421116082,0.0,1,R6,2752,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.161846461365482,0.23593882719048498,1,R7,2752,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,1.9436927424695105,0.0,1,R8,2752,duckdb,exact,8,boundary
+S1,CR5,全部直し忘れ,ALL,False,False,False,True,True,21.14903421116082,0.23593882719048498,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.4437147643767783,0.0,1,R1,2752,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,3.015537928278615,0.0,1,R2,2752,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.8104428558192014,0.0,1,R3,2752,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.406305206797789,0.3346195587335177,1,R4,2752,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.4437147643767783,0.0,1,R5,2752,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,6.697339702621089,0.0,1,R6,2752,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.4437147643767783,0.3346195587335177,1,R7,2752,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.0475561426684283,0.0,1,R8,2752,duckdb,exact,8,boundary
+S1,CR6,全部直し忘れ,ALL,False,False,False,True,True,6.697339702621089,0.3346195587335177,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S1,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.4500410794264,0.0,1,R3,2752,duckdb,exact,8,boundary
+S1,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,153.33069109392605,0.0,1,R6,2752,duckdb,exact,8,boundary
+S1,CR7,全部直し忘れ,ALL,False,False,False,False,True,153.33069109392605,0.0,2,R3 R6,2752,duckdb,exact,8,boundary
+S1,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.8035630859314169,0.0,1,R5,2752,duckdb,exact,8,boundary
+S1,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.8035630859314169,0.0,1,R7,2752,duckdb,exact,8,boundary
+S1,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8035630859314169,0.0,2,R5 R7,2752,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.3872241980659799,0.0,1,R1,2752,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,0.9754254031018301,0.0,1,R2,2752,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.8795399670774452,0.0,1,R3,2752,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.42042317576349064,0.4496183333921988,1,R4,2752,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.4693456911219164,0.0,1,R5,2752,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,3.915439998366501,0.0,1,R6,2752,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.4693456911219164,0.4496183333921988,1,R7,2752,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R8,True,False,True,False,True,2.8854483088931087,0.0,1,R8,2752,duckdb,exact,8,boundary
+S2,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.915439998366501,0.4496183333921988,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S2,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,9.968110050082391,7.175478814187553,1,R4,2752,duckdb,exact,8,boundary
+S2,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,7.175478814187553,1,R7,2752,duckdb,exact,8,boundary
+S2,CR2,全部直し忘れ,ALL,False,False,False,False,True,9.968110050082391,7.175478814187553,2,R4 R7,2752,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,39.86492475578072,0.0,1,R1,2752,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,51.606777414896065,0.0,1,R2,2752,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,57.84890277625162,0.0,1,R3,2752,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,113.83379576880634,65.35154092068956,1,R4,2752,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,97.34991179745455,0.0,1,R5,2752,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,90.64847306220007,0.0,1,R6,2752,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,97.34991179745455,65.35154092068956,1,R7,2752,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,128.30782212221698,0.0,1,R8,2752,duckdb,exact,8,boundary
+S2,CR3,全部直し忘れ,ALL,False,False,False,True,True,128.30782212221698,65.35154092068956,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.848994528432861,0.0,1,R1,2752,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.294801135591328,0.0,1,R2,2752,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,14.780114869040533,0.0,1,R3,2752,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,10.00088895283918,0.018497835710507005,1,R4,2752,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.84899452843238,0.0,1,R5,2752,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,20.91029448375509,0.0,1,R6,2752,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.848994528432119,0.018497835710507005,1,R7,2752,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,11.16819316518496,0.0,1,R8,2752,duckdb,exact,8,boundary
+S2,CR4,全部直し忘れ,ALL,False,False,False,True,True,20.91029448375509,0.018497835710507005,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1359069842205374,0.0,1,R1,2752,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,12.63696519945348,0.0,1,R2,2752,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,1.9010367830256918,0.0,1,R3,2752,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.2341390812649538,0.23593882719048498,1,R4,2752,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.161846461365482,0.0,1,R5,2752,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,21.14903421116082,0.0,1,R6,2752,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.161846461365482,0.23593882719048498,1,R7,2752,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,1.9436927424695105,0.0,1,R8,2752,duckdb,exact,8,boundary
+S2,CR5,全部直し忘れ,ALL,False,False,False,True,True,21.14903421116082,0.23593882719048498,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.4437147643767783,0.0,1,R1,2752,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,3.015537928278615,0.0,1,R2,2752,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.8104428558192014,0.0,1,R3,2752,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.406305206797789,0.3346195587335177,1,R4,2752,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.4437147643767783,0.0,1,R5,2752,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,6.697339702621089,0.0,1,R6,2752,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.4437147643767783,0.3346195587335177,1,R7,2752,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.0475561426684283,0.0,1,R8,2752,duckdb,exact,8,boundary
+S2,CR6,全部直し忘れ,ALL,False,False,False,True,True,6.697339702621089,0.3346195587335177,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S2,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.4500410794264,0.0,1,R3,2752,duckdb,exact,8,boundary
+S2,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,153.33069109392605,0.0,1,R6,2752,duckdb,exact,8,boundary
+S2,CR7,全部直し忘れ,ALL,False,False,False,False,True,153.33069109392605,0.0,2,R3 R6,2752,duckdb,exact,8,boundary
+S2,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.8035630859314169,0.0,1,R5,2752,duckdb,exact,8,boundary
+S2,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.8035630859314169,0.0,1,R7,2752,duckdb,exact,8,boundary
+S2,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8035630859314169,0.0,2,R5 R7,2752,duckdb,exact,8,boundary
+S3,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.915439998366501,0.4496183333921988,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S3,CR2,全部直し忘れ,ALL,False,False,False,False,True,9.968110050082391,7.175478814187553,2,R4 R7,2752,duckdb,exact,8,boundary
+S3,CR3,全部直し忘れ,ALL,False,False,False,True,True,128.30782212221698,65.35154092068956,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S3,CR4,全部直し忘れ,ALL,False,False,False,True,True,20.910294483755088,0.018497835710507005,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S3,CR5,全部直し忘れ,ALL,False,False,False,True,True,21.14903421116082,0.23593882719048498,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S3,CR6,全部直し忘れ,ALL,False,False,False,True,True,6.697339702621089,0.3346195587335177,8,R1 R2 R3 R4 R5 R6 R7 R8,2752,duckdb,exact,8,boundary
+S3,CR7,全部直し忘れ,ALL,False,False,False,False,True,153.33069109392605,0.0,2,R3 R6,2752,duckdb,exact,8,boundary
+S3,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8035630859314169,0.0,2,R5 R7,2752,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.4402961490377112,0.0,1,R1,2753,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.3859305808505413,0.0,1,R2,2753,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.9354693770320113,0.0,1,R3,2753,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.43245074662055855,0.46938337609980785,1,R4,2753,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.4402961490377112,0.0,1,R5,2753,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,3.671681762701061,0.0,1,R6,2753,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.4402961490377112,0.46938337609980785,1,R7,2753,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R8,True,False,True,False,False,3.9268955297604347,0.0,1,R8,2753,duckdb,exact,8,boundary
+S1,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.9268955297604347,0.46938337609980785,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S1,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,9.212659227540367,5.711392320364728,1,R4,2753,duckdb,exact,8,boundary
+S1,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,5.711392320364728,1,R7,2753,duckdb,exact,8,boundary
+S1,CR2,全部直し忘れ,ALL,False,False,False,False,True,9.212659227540367,5.711392320364728,2,R4 R7,2753,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,39.50628400013861,0.0,1,R1,2753,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,57.394831519844516,0.0,1,R2,2753,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,55.62938778943528,0.0,1,R3,2753,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,115.7528214437877,66.10143329959416,1,R4,2753,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.673975111963,0.0,1,R5,2753,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,83.48877593725388,0.0,1,R6,2753,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,99.673975111963,66.10143329959416,1,R7,2753,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,150.91352785941342,0.0,1,R8,2753,duckdb,exact,8,boundary
+S1,CR3,全部直し忘れ,ALL,False,False,False,True,True,150.91352785941342,66.10143329959416,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.833071682580117,0.0,1,R1,2753,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,14.122662008454459,0.0,1,R2,2753,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,14.852304899234154,0.0,1,R3,2753,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,10.06285962093248,0.043584261895435183,1,R4,2753,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.833071682580178,0.0,1,R5,2753,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,21.973983797697937,0.0,1,R6,2753,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.833071682580117,0.043584261895435183,1,R7,2753,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,13.2968096699833,0.0,1,R8,2753,duckdb,exact,8,boundary
+S1,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.973983797697937,0.043584261895435183,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1889961205834256,0.0,1,R1,2753,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,13.22758184149061,0.0,1,R2,2753,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,2.079667520923965,0.0,1,R3,2753,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.2975130348018613,0.49458234825883185,1,R4,2753,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.1889961205834256,0.0,1,R5,2753,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,23.13630117027911,0.0,1,R6,2753,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.1889961205834256,0.49458234825883185,1,R7,2753,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,2.695148678628682,0.0,1,R8,2753,duckdb,exact,8,boundary
+S1,CR5,全部直し忘れ,ALL,False,False,False,True,True,23.13630117027911,0.49458234825883185,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.3252348356404937,0.0,1,R1,2753,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.4963270732445833,0.0,1,R2,2753,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.025063422414653,0.0,1,R3,2753,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.2300951424862805,0.26039740238607,1,R4,2753,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.3252348356404937,0.0,1,R5,2753,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,7.743317404446734,0.0,1,R6,2753,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.3252348356404937,0.26039740238607,1,R7,2753,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,1.9829326395425722,0.0,1,R8,2753,duckdb,exact,8,boundary
+S1,CR6,全部直し忘れ,ALL,False,False,False,True,True,7.743317404446734,0.26039740238607,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S1,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.25511829167841,0.0,1,R3,2753,duckdb,exact,8,boundary
+S1,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,147.57057856399643,0.0,1,R6,2753,duckdb,exact,8,boundary
+S1,CR7,全部直し忘れ,ALL,False,False,False,False,True,147.57057856399643,0.0,2,R3 R6,2753,duckdb,exact,8,boundary
+S1,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.7676824416046436,0.0,1,R5,2753,duckdb,exact,8,boundary
+S1,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.7676824416046436,0.0,1,R7,2753,duckdb,exact,8,boundary
+S1,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.7676824416046436,0.0,2,R5 R7,2753,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.4402961490377112,0.0,1,R1,2753,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.3859305808505413,0.0,1,R2,2753,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.9354693770320113,0.0,1,R3,2753,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.43245074662055855,0.46938337609980785,1,R4,2753,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.4402961490377112,0.0,1,R5,2753,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,3.671681762701061,0.0,1,R6,2753,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.4402961490377112,0.46938337609980785,1,R7,2753,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R8,True,False,True,False,False,3.9268955297604347,0.0,1,R8,2753,duckdb,exact,8,boundary
+S2,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.9268955297604347,0.46938337609980785,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S2,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,9.212659227540367,5.711392320364728,1,R4,2753,duckdb,exact,8,boundary
+S2,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,5.711392320364728,1,R7,2753,duckdb,exact,8,boundary
+S2,CR2,全部直し忘れ,ALL,False,False,False,False,True,9.212659227540367,5.711392320364728,2,R4 R7,2753,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,39.50628400013861,0.0,1,R1,2753,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,57.394831519844516,0.0,1,R2,2753,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,55.62938778943528,0.0,1,R3,2753,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,115.7528214437877,66.10143329959416,1,R4,2753,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.673975111963,0.0,1,R5,2753,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,83.48877593725388,0.0,1,R6,2753,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,99.673975111963,66.10143329959416,1,R7,2753,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,150.91352785941342,0.0,1,R8,2753,duckdb,exact,8,boundary
+S2,CR3,全部直し忘れ,ALL,False,False,False,True,True,150.91352785941342,66.10143329959416,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.83307168258051,0.0,1,R1,2753,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,14.122662008454459,0.0,1,R2,2753,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,14.852304899233399,0.0,1,R3,2753,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,10.0628596209325,0.043584261895435183,1,R4,2753,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.833071682580147,0.0,1,R5,2753,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,21.973983797697937,0.0,1,R6,2753,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.833071682580451,0.04358426189547959,1,R7,2753,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,13.296809669983222,0.0,1,R8,2753,duckdb,exact,8,boundary
+S2,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.973983797697937,0.04358426189547959,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1889961205834256,0.0,1,R1,2753,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,13.22758184149061,0.0,1,R2,2753,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,2.079667520923965,0.0,1,R3,2753,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.2975130348018613,0.49458234825883185,1,R4,2753,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.1889961205834256,0.0,1,R5,2753,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,23.13630117027911,0.0,1,R6,2753,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.1889961205834256,0.49458234825883185,1,R7,2753,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,2.695148678628682,0.0,1,R8,2753,duckdb,exact,8,boundary
+S2,CR5,全部直し忘れ,ALL,False,False,False,True,True,23.13630117027911,0.49458234825883185,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.3252348356404937,0.0,1,R1,2753,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.4963270732445833,0.0,1,R2,2753,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.025063422414653,0.0,1,R3,2753,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.2300951424862805,0.26039740238607,1,R4,2753,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.3252348356404937,0.0,1,R5,2753,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,7.743317404446734,0.0,1,R6,2753,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.3252348356404937,0.26039740238607,1,R7,2753,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,1.9829326395425722,0.0,1,R8,2753,duckdb,exact,8,boundary
+S2,CR6,全部直し忘れ,ALL,False,False,False,True,True,7.743317404446734,0.26039740238607,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S2,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,107.25511829167841,0.0,1,R3,2753,duckdb,exact,8,boundary
+S2,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,147.57057856399643,0.0,1,R6,2753,duckdb,exact,8,boundary
+S2,CR7,全部直し忘れ,ALL,False,False,False,False,True,147.57057856399643,0.0,2,R3 R6,2753,duckdb,exact,8,boundary
+S2,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.7676824416046436,0.0,1,R5,2753,duckdb,exact,8,boundary
+S2,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.7676824416046436,0.0,1,R7,2753,duckdb,exact,8,boundary
+S2,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.7676824416046436,0.0,2,R5 R7,2753,duckdb,exact,8,boundary
+S3,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.9268955297604347,0.46938337609980785,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S3,CR2,全部直し忘れ,ALL,False,False,False,False,True,9.212659227540367,5.711392320364728,2,R4 R7,2753,duckdb,exact,8,boundary
+S3,CR3,全部直し忘れ,ALL,False,False,False,True,True,150.91352785941342,66.10143329959416,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S3,CR4,全部直し忘れ,ALL,False,False,False,True,True,21.973983797697937,0.043584261895435183,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S3,CR5,全部直し忘れ,ALL,False,False,False,True,True,23.13630117027911,0.49458234825883185,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S3,CR6,全部直し忘れ,ALL,False,False,False,True,True,7.743317404446734,0.26039740238607,8,R1 R2 R3 R4 R5 R6 R7 R8,2753,duckdb,exact,8,boundary
+S3,CR7,全部直し忘れ,ALL,False,False,False,False,True,147.57057856399643,0.0,2,R3 R6,2753,duckdb,exact,8,boundary
+S3,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.7676824416046436,0.0,2,R5 R7,2753,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.2899198346562041,0.0,1,R1,2754,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.2159658327367813,0.0,1,R2,2754,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.7010065575837172,0.0,1,R3,2754,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.28043874045417777,0.4354197858303266,1,R4,2754,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.2899198346562041,0.0,1,R5,2754,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,3.6168955364691793,0.0,1,R6,2754,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.2899198346562041,0.4354197858303266,1,R7,2754,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R8,True,False,True,False,False,2.651485968213508,0.0,1,R8,2754,duckdb,exact,8,boundary
+S1,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.6168955364691793,0.4354197858303266,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S1,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,9.087243298373407,5.5593545231309545,1,R4,2754,duckdb,exact,8,boundary
+S1,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,5.5593545231309545,1,R7,2754,duckdb,exact,8,boundary
+S1,CR2,全部直し忘れ,ALL,False,False,False,False,True,9.087243298373407,5.5593545231309545,2,R4 R7,2754,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,40.697917015004705,0.0,1,R1,2754,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,55.23713275060141,0.0,1,R2,2754,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,59.162964788980396,0.0,1,R3,2754,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,116.7899086665126,65.52566807075752,1,R4,2754,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.45693564431085,0.0,1,R5,2754,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,80.96998615920437,0.0,1,R6,2754,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,99.45693564431085,65.52566807075752,1,R7,2754,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,119.23118873796574,0.0,1,R8,2754,duckdb,exact,8,boundary
+S1,CR3,全部直し忘れ,ALL,False,False,False,True,True,119.23118873796574,65.52566807075752,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.824040334463891,0.0,1,R1,2754,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.706320021699964,0.0,1,R2,2754,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,14.93491340070549,0.0,1,R3,2754,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.788779461298331,0.03622288536411222,1,R4,2754,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.824040334463891,0.0,1,R5,2754,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,20.966361939473384,0.0,1,R6,2754,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.824040334463891,0.03622288536409002,1,R7,2754,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,10.621915378746849,0.0,1,R8,2754,duckdb,exact,8,boundary
+S1,CR4,全部直し忘れ,ALL,False,False,False,True,True,20.966361939473384,0.03622288536411222,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1817471231697174,0.0,1,R1,2754,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,13.146936745263105,0.0,1,R2,2754,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,2.0077949545971063,0.0,1,R3,2754,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.288322423283545,0.49878002877296046,1,R4,2754,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.1817471231697174,0.0,1,R5,2754,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,22.336718869892806,0.0,1,R6,2754,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.1817471231697174,0.49878002877296046,1,R7,2754,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,2.7446860525811547,0.0,1,R8,2754,duckdb,exact,8,boundary
+S1,CR5,全部直し忘れ,ALL,False,False,False,True,True,22.336718869892806,0.49878002877296046,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.3501258698384184,0.0,1,R1,2754,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.8186192834339407,0.0,1,R2,2754,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.4194002878631657,0.0,1,R3,2754,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.280526707407941,0.27156582653048433,1,R4,2754,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.3501258698384184,0.0,1,R5,2754,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,6.772346517948133,0.0,1,R6,2754,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.3501258698384184,0.27156582653048433,1,R7,2754,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.321866915447574,0.0,1,R8,2754,duckdb,exact,8,boundary
+S1,CR6,全部直し忘れ,ALL,False,False,False,True,True,6.772346517948133,0.27156582653048433,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S1,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,105.51874574041153,0.0,1,R3,2754,duckdb,exact,8,boundary
+S1,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,158.027332981962,0.0,1,R6,2754,duckdb,exact,8,boundary
+S1,CR7,全部直し忘れ,ALL,False,False,False,False,True,158.027332981962,0.0,2,R3 R6,2754,duckdb,exact,8,boundary
+S1,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.8612619359670474,0.0,1,R5,2754,duckdb,exact,8,boundary
+S1,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.8612619359670474,0.0,1,R7,2754,duckdb,exact,8,boundary
+S1,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8612619359670474,0.0,2,R5 R7,2754,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.2899198346562041,0.0,1,R1,2754,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.2159658327367813,0.0,1,R2,2754,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.7010065575837172,0.0,1,R3,2754,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.28043874045417777,0.4354197858303266,1,R4,2754,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.2899198346562041,0.0,1,R5,2754,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,3.6168955364691793,0.0,1,R6,2754,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.2899198346562041,0.4354197858303266,1,R7,2754,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R8,True,False,True,False,False,2.651485968213508,0.0,1,R8,2754,duckdb,exact,8,boundary
+S2,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.6168955364691793,0.4354197858303266,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S2,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,9.087243298373407,5.5593545231309545,1,R4,2754,duckdb,exact,8,boundary
+S2,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,5.5593545231309545,1,R7,2754,duckdb,exact,8,boundary
+S2,CR2,全部直し忘れ,ALL,False,False,False,False,True,9.087243298373407,5.5593545231309545,2,R4 R7,2754,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,40.697917015004705,0.0,1,R1,2754,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,55.23713275060141,0.0,1,R2,2754,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,59.162964788980396,0.0,1,R3,2754,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,116.7899086665126,65.52566807075752,1,R4,2754,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,99.45693564431085,0.0,1,R5,2754,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,80.96998615920437,0.0,1,R6,2754,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,99.45693564431085,65.52566807075752,1,R7,2754,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,119.23118873796574,0.0,1,R8,2754,duckdb,exact,8,boundary
+S2,CR3,全部直し忘れ,ALL,False,False,False,True,True,119.23118873796574,65.52566807075752,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.824040334463731,0.0,1,R1,2754,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,13.706320021699966,0.0,1,R2,2754,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,14.934913400705508,0.0,1,R3,2754,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.788779461298331,0.03622288536409002,1,R4,2754,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.824040334464335,0.0,1,R5,2754,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,20.966361939473384,0.0,1,R6,2754,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.824040334464037,0.03622288536409002,1,R7,2754,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,10.621915378746772,0.0,1,R8,2754,duckdb,exact,8,boundary
+S2,CR4,全部直し忘れ,ALL,False,False,False,True,True,20.966361939473384,0.03622288536409002,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.1817471231697174,0.0,1,R1,2754,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,13.146936745263105,0.0,1,R2,2754,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,2.0077949545971063,0.0,1,R3,2754,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.288322423283545,0.49878002877296046,1,R4,2754,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.1817471231697174,0.0,1,R5,2754,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,22.336718869892806,0.0,1,R6,2754,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.1817471231697174,0.49878002877296046,1,R7,2754,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,2.7446860525811547,0.0,1,R8,2754,duckdb,exact,8,boundary
+S2,CR5,全部直し忘れ,ALL,False,False,False,True,True,22.336718869892806,0.49878002877296046,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.3501258698384184,0.0,1,R1,2754,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.8186192834339407,0.0,1,R2,2754,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.4194002878631657,0.0,1,R3,2754,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.280526707407941,0.27156582653048433,1,R4,2754,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.3501258698384184,0.0,1,R5,2754,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,6.772346517948133,0.0,1,R6,2754,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.3501258698384184,0.27156582653048433,1,R7,2754,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.321866915447574,0.0,1,R8,2754,duckdb,exact,8,boundary
+S2,CR6,全部直し忘れ,ALL,False,False,False,True,True,6.772346517948133,0.27156582653048433,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S2,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,105.51874574041153,0.0,1,R3,2754,duckdb,exact,8,boundary
+S2,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,158.027332981962,0.0,1,R6,2754,duckdb,exact,8,boundary
+S2,CR7,全部直し忘れ,ALL,False,False,False,False,True,158.027332981962,0.0,2,R3 R6,2754,duckdb,exact,8,boundary
+S2,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.8612619359670474,0.0,1,R5,2754,duckdb,exact,8,boundary
+S2,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.8612619359670474,0.0,1,R7,2754,duckdb,exact,8,boundary
+S2,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8612619359670474,0.0,2,R5 R7,2754,duckdb,exact,8,boundary
+S3,CR1,全部直し忘れ,ALL,False,False,False,True,True,3.6168955364691793,0.4354197858303266,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S3,CR2,全部直し忘れ,ALL,False,False,False,False,True,9.087243298373407,5.5593545231309545,2,R4 R7,2754,duckdb,exact,8,boundary
+S3,CR3,全部直し忘れ,ALL,False,False,False,True,True,119.23118873796574,65.52566807075752,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S3,CR4,全部直し忘れ,ALL,False,False,False,True,True,20.966361939473384,0.03622288536411222,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S3,CR5,全部直し忘れ,ALL,False,False,False,True,True,22.336718869892806,0.49878002877296046,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S3,CR6,全部直し忘れ,ALL,False,False,False,True,True,6.772346517948133,0.27156582653048433,8,R1 R2 R3 R4 R5 R6 R7 R8,2754,duckdb,exact,8,boundary
+S3,CR7,全部直し忘れ,ALL,False,False,False,False,True,158.027332981962,0.0,2,R3 R6,2754,duckdb,exact,8,boundary
+S3,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.8612619359670474,0.0,2,R5 R7,2754,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.4391837317129742,0.0,1,R1,2755,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.2847155267259585,0.0,1,R2,2755,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.8526251527264508,0.0,1,R3,2755,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.4648470987289434,0.5525121955013312,1,R4,2755,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.4391837317129742,0.0,1,R5,2755,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,5.345796151477143,0.0,1,R6,2755,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.4391837317129742,0.5525121955013312,1,R7,2755,duckdb,exact,8,boundary
+S1,CR1,1つだけ直し忘れ,R8,True,False,True,False,True,3.246364308442288,0.0,1,R8,2755,duckdb,exact,8,boundary
+S1,CR1,全部直し忘れ,ALL,False,False,False,True,True,5.345796151477143,0.5525121955013312,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S1,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,10.93320244359664,7.649624641667696,1,R4,2755,duckdb,exact,8,boundary
+S1,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,7.649624641667696,1,R7,2755,duckdb,exact,8,boundary
+S1,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.93320244359664,7.649624641667696,2,R4 R7,2755,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,41.23303060834224,0.0,1,R1,2755,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,64.0279356219417,0.0,1,R2,2755,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,57.301678429472524,0.0,1,R3,2755,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,118.39816186705396,65.11447081920878,1,R4,2755,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,98.37087112609795,0.0,1,R5,2755,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,85.8727395922309,0.0,1,R6,2755,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,98.37087112609795,65.11447081920878,1,R7,2755,duckdb,exact,8,boundary
+S1,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,124.64627302189551,0.0,1,R8,2755,duckdb,exact,8,boundary
+S1,CR3,全部直し忘れ,ALL,False,False,False,True,True,124.64627302189551,65.11447081920878,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.84691097772741,0.0,1,R1,2755,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,14.02293394812667,0.0,1,R2,2755,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,14.825393333700667,0.0,1,R3,2755,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.928259152834077,0.031204687070007786,1,R4,2755,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.84691097772741,0.0,1,R5,2755,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,20.077139236253377,0.0,1,R6,2755,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.84691097772741,0.031204687069996684,1,R7,2755,duckdb,exact,8,boundary
+S1,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,11.545538258927444,0.0,1,R8,2755,duckdb,exact,8,boundary
+S1,CR4,全部直し忘れ,ALL,False,False,False,True,True,20.077139236253377,0.031204687070007786,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.0501997011402329,0.0,1,R1,2755,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,11.683471675185093,0.0,1,R2,2755,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,1.7940911561145647,0.0,1,R3,2755,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.1441519429612121,0.3726696752549663,1,R4,2755,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.109561347145387,0.0,1,R5,2755,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,19.959264111774534,0.0,1,R6,2755,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.109561347145387,0.3726696752549663,1,R7,2755,duckdb,exact,8,boundary
+S1,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,3.014818129178291,0.0,1,R8,2755,duckdb,exact,8,boundary
+S1,CR5,全部直し忘れ,ALL,False,False,False,True,True,19.959264111774534,0.3726696752549663,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.3227831106632864,0.0,1,R1,2755,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.684738907134152,0.0,1,R2,2755,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.7918396524209923,0.0,1,R3,2755,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.39000595765186,0.32725681587273403,1,R4,2755,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.3227831106632864,0.0,1,R5,2755,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,7.752815143898103,0.0,1,R6,2755,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.3227831106632864,0.32725681587273403,1,R7,2755,duckdb,exact,8,boundary
+S1,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.3819266186614954,0.0,1,R8,2755,duckdb,exact,8,boundary
+S1,CR6,全部直し忘れ,ALL,False,False,False,True,True,7.752815143898103,0.32725681587273403,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S1,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,108.08314481910514,0.0,1,R3,2755,duckdb,exact,8,boundary
+S1,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,154.0675695359427,0.0,1,R6,2755,duckdb,exact,8,boundary
+S1,CR7,全部直し忘れ,ALL,False,False,False,False,True,154.0675695359427,0.0,2,R3 R6,2755,duckdb,exact,8,boundary
+S1,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.7498359733808229,0.0,1,R5,2755,duckdb,exact,8,boundary
+S1,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.7498359733808229,0.0,1,R7,2755,duckdb,exact,8,boundary
+S1,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.7498359733808229,0.0,2,R5 R7,2755,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R1,True,False,True,True,True,0.4391837317129742,0.0,1,R1,2755,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R2,True,False,True,False,True,1.2847155267259585,0.0,1,R2,2755,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R3,True,False,True,False,True,0.8526251527264508,0.0,1,R3,2755,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R4,False,False,False,False,True,0.4648470987289434,0.5525121955013312,1,R4,2755,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R5,True,False,True,False,True,0.4391837317129742,0.0,1,R5,2755,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R6,True,False,True,False,True,5.345796151477143,0.0,1,R6,2755,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R7,True,False,True,False,True,0.4391837317129742,0.5525121955013312,1,R7,2755,duckdb,exact,8,boundary
+S2,CR1,1つだけ直し忘れ,R8,True,False,True,False,True,3.246364308442288,0.0,1,R8,2755,duckdb,exact,8,boundary
+S2,CR1,全部直し忘れ,ALL,False,False,False,True,True,5.345796151477143,0.5525121955013312,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S2,CR2,1つだけ直し忘れ,R4,False,False,False,False,True,10.93320244359664,7.649624641667696,1,R4,2755,duckdb,exact,8,boundary
+S2,CR2,1つだけ直し忘れ,R7,False,False,False,False,True,0.0,7.649624641667696,1,R7,2755,duckdb,exact,8,boundary
+S2,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.93320244359664,7.649624641667696,2,R4 R7,2755,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R1,True,True,True,True,True,41.23303060834224,0.0,1,R1,2755,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R2,True,False,True,False,True,64.0279356219417,0.0,1,R2,2755,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R3,True,False,True,False,True,57.301678429472524,0.0,1,R3,2755,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R4,False,True,True,False,True,118.39816186705396,65.11447081920878,1,R4,2755,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R5,True,False,True,False,True,98.37087112609795,0.0,1,R5,2755,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R6,True,False,True,False,True,85.8727395922309,0.0,1,R6,2755,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R7,True,False,True,False,True,98.37087112609795,65.11447081920878,1,R7,2755,duckdb,exact,8,boundary
+S2,CR3,1つだけ直し忘れ,R8,True,False,True,False,True,124.64627302189551,0.0,1,R8,2755,duckdb,exact,8,boundary
+S2,CR3,全部直し忘れ,ALL,False,False,False,True,True,124.64627302189551,65.11447081920878,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R1,True,False,True,True,True,9.846910977727791,0.0,1,R1,2755,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R2,True,False,True,False,True,14.02293394812667,0.0,1,R2,2755,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R3,True,False,True,False,True,14.825393333700488,0.0,1,R3,2755,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R4,False,True,True,False,True,9.928259152834109,0.03120468707002999,1,R4,2755,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R5,True,False,True,False,True,9.846910977727351,0.0,1,R5,2755,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R6,True,False,True,False,True,20.077139236253377,0.0,1,R6,2755,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R7,True,False,True,False,True,9.846910977727267,0.031204687069963377,1,R7,2755,duckdb,exact,8,boundary
+S2,CR4,1つだけ直し忘れ,R8,True,False,True,False,True,11.545538258927392,0.0,1,R8,2755,duckdb,exact,8,boundary
+S2,CR4,全部直し忘れ,ALL,False,False,False,True,True,20.077139236253377,0.03120468707002999,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R1,True,False,True,True,True,1.0501997011402329,0.0,1,R1,2755,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R2,True,False,True,False,True,11.683471675185093,0.0,1,R2,2755,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R3,True,False,True,False,True,1.7940911561145647,0.0,1,R3,2755,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R4,False,False,False,False,True,1.1441519429612121,0.3726696752549663,1,R4,2755,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R5,True,False,True,False,True,1.109561347145387,0.0,1,R5,2755,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R6,True,False,True,False,True,19.959264111774534,0.0,1,R6,2755,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R7,True,False,True,False,True,1.109561347145387,0.3726696752549663,1,R7,2755,duckdb,exact,8,boundary
+S2,CR5,1つだけ直し忘れ,R8,True,False,True,False,False,3.014818129178291,0.0,1,R8,2755,duckdb,exact,8,boundary
+S2,CR5,全部直し忘れ,ALL,False,False,False,True,True,19.959264111774534,0.3726696752549663,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R1,True,False,True,True,True,1.3227831106632864,0.0,1,R1,2755,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R2,True,False,True,False,True,2.684738907134152,0.0,1,R2,2755,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R3,True,False,True,False,True,2.7918396524209923,0.0,1,R3,2755,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R4,False,False,False,False,True,1.39000595765186,0.32725681587273403,1,R4,2755,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R5,True,False,True,False,True,1.3227831106632864,0.0,1,R5,2755,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R6,True,False,True,False,True,7.752815143898103,0.0,1,R6,2755,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R7,True,False,True,False,True,1.3227831106632864,0.32725681587273403,1,R7,2755,duckdb,exact,8,boundary
+S2,CR6,1つだけ直し忘れ,R8,True,False,True,False,False,2.3819266186614954,0.0,1,R8,2755,duckdb,exact,8,boundary
+S2,CR6,全部直し忘れ,ALL,False,False,False,True,True,7.752815143898103,0.32725681587273403,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S2,CR7,1つだけ直し忘れ,R3,False,False,False,False,True,108.08314481910514,0.0,1,R3,2755,duckdb,exact,8,boundary
+S2,CR7,1つだけ直し忘れ,R6,False,False,False,False,True,154.0675695359427,0.0,1,R6,2755,duckdb,exact,8,boundary
+S2,CR7,全部直し忘れ,ALL,False,False,False,False,True,154.0675695359427,0.0,2,R3 R6,2755,duckdb,exact,8,boundary
+S2,CR8,1つだけ直し忘れ,R5,False,False,False,False,True,0.7498359733808229,0.0,1,R5,2755,duckdb,exact,8,boundary
+S2,CR8,1つだけ直し忘れ,R7,False,False,False,False,True,0.7498359733808229,0.0,1,R7,2755,duckdb,exact,8,boundary
+S2,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.7498359733808229,0.0,2,R5 R7,2755,duckdb,exact,8,boundary
+S3,CR1,全部直し忘れ,ALL,False,False,False,True,True,5.345796151477143,0.5525121955013312,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S3,CR2,全部直し忘れ,ALL,False,False,False,False,True,10.93320244359664,7.649624641667696,2,R4 R7,2755,duckdb,exact,8,boundary
+S3,CR3,全部直し忘れ,ALL,False,False,False,True,True,124.64627302189551,65.11447081920878,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S3,CR4,全部直し忘れ,ALL,False,False,False,True,True,20.077139236253377,0.03120468707002999,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S3,CR5,全部直し忘れ,ALL,False,False,False,True,True,19.959264111774534,0.3726696752549663,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S3,CR6,全部直し忘れ,ALL,False,False,False,True,True,7.752815143898103,0.32725681587273403,8,R1 R2 R3 R4 R5 R6 R7 R8,2755,duckdb,exact,8,boundary
+S3,CR7,全部直し忘れ,ALL,False,False,False,False,True,154.0675695359427,0.0,2,R3 R6,2755,duckdb,exact,8,boundary
+S3,CR8,全部直し忘れ,ALL,False,False,False,False,True,0.7498359733808229,0.0,2,R5 R7,2755,duckdb,exact,8,boundary
