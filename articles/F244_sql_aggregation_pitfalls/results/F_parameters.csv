@@ -1,0 +1,9 @@
+param,value,bug,total_err_pct,T1_catches
+p_split,0.0,B1,0.0,False
+p_split,0.05,B1,4.954929057566426,True
+p_split,0.12,B1,12.074958674573843,True
+p_split,0.3,B1,29.750835612746783,True
+p_coupon,0.1,B3,-90.48349990283856,True
+p_coupon,0.3,B3,-70.76096262338119,True
+p_coupon,0.6,B3,-41.097146344390765,True
+p_coupon,0.9,B3,-10.276974923572368,True
