@@ -1,0 +1,5 @@
+step,n_rows,n_orders
+orders only,11963,11963
++ order_lines,35718,11963
++ customer_addresses,38469,11963
++ stores,33854,10494

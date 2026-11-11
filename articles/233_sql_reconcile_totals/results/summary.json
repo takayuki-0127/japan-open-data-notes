@@ -1,0 +1,133 @@
+{
+ "report_before":106684077.5199999958,
+ "ledger":110953664.0,
+ "report_after":110953664.0,
+ "gap_before":-4269586.4800000042,
+ "gap_before_pct":-3.8480806546,
+ "after_minus_ledger":0.0,
+ "steps":[
+  {
+   "step":"直す前",
+   "total":106684077.5199999958,
+   "gap_to_ledger":-4269586.4800000004,
+   "change":null
+  },
+  {
+   "step":"① 住所の重複（結合で行が増える）",
+   "total":98885150.2800000012,
+   "gap_to_ledger":-12068513.7200000007,
+   "change":-7798927.2400000002
+  },
+  {
+   "step":"② 期間の端（31日の0時以降が落ちる）",
+   "total":101933566.2399999946,
+   "gap_to_ledger":-9020097.7599999998,
+   "change":3048415.96
+  },
+  {
+   "step":"③ 取消の注文が入っている",
+   "total":97922923.1599999964,
+   "gap_to_ledger":-13030740.8399999999,
+   "change":-4010643.0800000001
+  },
+  {
+   "step":"④ 店が NULL の注文が落ちる",
+   "total":110960861.0799999982,
+   "gap_to_ledger":7197.08,
+   "change":13037937.9199999999
+  },
+  {
+   "step":"⑤ 税の丸め（行ごと→注文ごと）",
+   "total":110953664.0,
+   "gap_to_ledger":0.0,
+   "change":-7197.08
+  }
+ ],
+ "order_dependence":{
+  "住所の重複":{
+   "min":-8804335.0,
+   "max":-7532666.0,
+   "shapley_mean":-8149162.0
+  },
+  "期間の端":{
+   "min":2962352.0,
+   "max":3632725.0,
+   "shapley_mean":3285626.0
+  },
+  "取消":{
+   "min":-4982617.0,
+   "max":-3924536.0,
+   "shapley_mean":-4436495.0
+  },
+  "店NULL":{
+   "min":12663451.0,
+   "max":14525663.0,
+   "shapley_mean":13576659.0
+  },
+  "丸め":{
+   "min":-8052.0,
+   "max":-6124.0,
+   "shapley_mean":-7042.0
+  }
+ },
+ "c1_counts":[
+  {
+   "step":"orders only",
+   "n_rows":11963,
+   "n_orders":11963
+  },
+  {
+   "step":"+ order_lines",
+   "n_rows":35718,
+   "n_orders":11963
+  },
+  {
+   "step":"+ customer_addresses",
+   "n_rows":38469,
+   "n_orders":11963
+  },
+  {
+   "step":"+ stores",
+   "n_rows":33854,
+   "n_orders":10494
+  }
+ ],
+ "c2_dupkeys":[
+  {
+   "n_addr":1,
+   "n_customers":5541
+  },
+  {
+   "n_addr":2,
+   "n_customers":459
+  }
+ ],
+ "c3_range":[
+  {
+   "first_at":"2026-03-01 00:01:16",
+   "last_at":"2026-03-30 23:59:38"
+  }
+ ],
+ "c4_status":[
+  {
+   "status":"取消",
+   "n_orders":491,
+   "net":4275278.0
+  },
+  {
+   "status":"完了",
+   "n_orders":11860,
+   "net":101517498.0
+  }
+ ],
+ "c5_nullkey":[
+  {
+   "store":"NULL（ネット）",
+   "n_orders":1445
+  },
+  {
+   "store":"店あり",
+   "n_orders":10415
+  }
+ ]
+}
