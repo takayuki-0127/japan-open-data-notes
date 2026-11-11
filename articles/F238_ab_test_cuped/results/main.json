@@ -1,0 +1,539 @@
+{
+ "A_n": 1729,
+ "A": {
+  "birth_rate": {
+   "naive": {
+    "rho": 0.834,
+    "var_ratio": 1.0,
+    "type1": 0.046,
+    "power_full": 0.769,
+    "power_half": 0.293,
+    "delta_pct": 5.07
+   },
+   "diff": {
+    "rho": 0.834,
+    "var_ratio": 0.41,
+    "type1": 0.0465,
+    "power_full": 0.99,
+    "power_half": 0.571,
+    "delta_pct": 5.07
+   },
+   "cuped": {
+    "rho": 0.834,
+    "var_ratio": 0.316,
+    "type1": 0.048,
+    "power_full": 0.999,
+    "power_half": 0.663,
+    "delta_pct": 5.07
+   },
+   "regadj": {
+    "rho": 0.834,
+    "var_ratio": 0.316,
+    "type1": 0.049,
+    "power_full": 0.999,
+    "power_half": 0.663,
+    "delta_pct": 5.07
+   },
+   "strat": {
+    "rho": 0.834,
+    "var_ratio": 0.36,
+    "type1": 0.0485,
+    "power_full": 0.994,
+    "power_half": 0.606,
+    "delta_pct": 5.07
+   }
+  },
+  "log_emp_ratio": {
+   "naive": {
+    "rho": 0.972,
+    "var_ratio": 1.0,
+    "type1": 0.0488,
+    "power_full": 0.782,
+    "power_half": 0.278,
+    "delta_pct": -4.34
+   },
+   "diff": {
+    "rho": 0.972,
+    "var_ratio": 0.057,
+    "type1": 0.0517,
+    "power_full": 1.0,
+    "power_half": 1.0,
+    "delta_pct": -4.34
+   },
+   "cuped": {
+    "rho": 0.972,
+    "var_ratio": 0.055,
+    "type1": 0.0495,
+    "power_full": 1.0,
+    "power_half": 1.0,
+    "delta_pct": -4.34
+   },
+   "regadj": {
+    "rho": 0.972,
+    "var_ratio": 0.055,
+    "type1": 0.0498,
+    "power_full": 1.0,
+    "power_half": 1.0,
+    "delta_pct": -4.34
+   },
+   "strat": {
+    "rho": 0.972,
+    "var_ratio": 0.341,
+    "type1": 0.047,
+    "power_full": 0.998,
+    "power_half": 0.639,
+    "delta_pct": -4.34
+   }
+  },
+  "aging": {
+   "naive": {
+    "rho": 0.982,
+    "var_ratio": 1.0,
+    "type1": 0.0525,
+    "power_full": 0.8,
+    "power_half": 0.307,
+    "delta_pct": 3.09
+   },
+   "diff": {
+    "rho": 0.982,
+    "var_ratio": 0.04,
+    "type1": 0.047,
+    "power_full": 1.0,
+    "power_half": 1.0,
+    "delta_pct": 3.09
+   },
+   "cuped": {
+    "rho": 0.982,
+    "var_ratio": 0.035,
+    "type1": 0.0473,
+    "power_full": 1.0,
+    "power_half": 1.0,
+    "delta_pct": 3.09
+   },
+   "regadj": {
+    "rho": 0.982,
+    "var_ratio": 0.035,
+    "type1": 0.0475,
+    "power_full": 1.0,
+    "power_half": 1.0,
+    "delta_pct": 3.09
+   },
+   "strat": {
+    "rho": 0.982,
+    "var_ratio": 0.121,
+    "type1": 0.0512,
+    "power_full": 1.0,
+    "power_half": 0.985,
+    "delta_pct": 3.09
+   }
+  },
+  "births": {
+   "naive": {
+    "rho": 0.999,
+    "var_ratio": 1.0,
+    "type1": 0.0467,
+    "power_full": 0.776,
+    "power_half": 0.276,
+    "delta_pct": 37.68
+   },
+   "diff": {
+    "rho": 0.999,
+    "var_ratio": 0.027,
+    "type1": 0.0483,
+    "power_full": 1.0,
+    "power_half": 1.0,
+    "delta_pct": 37.68
+   },
+   "cuped": {
+    "rho": 0.999,
+    "var_ratio": 0.002,
+    "type1": 0.0493,
+    "power_full": 1.0,
+    "power_half": 1.0,
+    "delta_pct": 37.68
+   },
+   "regadj": {
+    "rho": 0.999,
+    "var_ratio": 0.002,
+    "type1": 0.0635,
+    "power_full": 1.0,
+    "power_half": 1.0,
+    "delta_pct": 37.68
+   },
+   "strat": {
+    "rho": 0.999,
+    "var_ratio": 0.741,
+    "type1": 0.0508,
+    "power_full": 0.901,
+    "power_half": 0.368,
+    "delta_pct": 37.68
+   }
+  }
+ },
+ "A_robust": {
+  "all:birth_rate:naive": {
+   "rho": 0.212,
+   "var_ratio": 1.0,
+   "type1": 0.053
+  },
+  "all:birth_rate:diff": {
+   "rho": 0.212,
+   "var_ratio": 113.671,
+   "type1": 0.0
+  },
+  "all:birth_rate:cuped": {
+   "rho": 0.212,
+   "var_ratio": 0.964,
+   "type1": 0.054
+  },
+  "all:birth_rate:regadj": {
+   "rho": 0.212,
+   "var_ratio": 13.297,
+   "type1": 0.517
+  },
+  "all:birth_rate:strat": {
+   "rho": 0.212,
+   "var_ratio": 0.368,
+   "type1": 0.05
+  },
+  "all:emp_ratio:naive": {
+   "rho": 0.81,
+   "var_ratio": 1.0,
+   "type1": 0.005
+  },
+  "all:emp_ratio:diff": {
+   "rho": 0.81,
+   "var_ratio": 0.501,
+   "type1": 0.0
+  },
+  "all:emp_ratio:cuped": {
+   "rho": 0.81,
+   "var_ratio": 0.336,
+   "type1": 0.004
+  },
+  "all:emp_ratio:regadj": {
+   "rho": 0.81,
+   "var_ratio": 0.407,
+   "type1": 0.401
+  },
+  "all:emp_ratio:strat": {
+   "rho": 0.81,
+   "var_ratio": 0.942,
+   "type1": 0.002
+  },
+  "main:emp_ratio:naive": {
+   "rho": 0.996,
+   "var_ratio": 1.0,
+   "type1": 0.006
+  },
+  "main:emp_ratio:diff": {
+   "rho": 0.996,
+   "var_ratio": 0.008,
+   "type1": 0.051
+  },
+  "main:emp_ratio:cuped": {
+   "rho": 0.996,
+   "var_ratio": 0.008,
+   "type1": 0.043
+  },
+  "main:emp_ratio:regadj": {
+   "rho": 0.996,
+   "var_ratio": 0.011,
+   "type1": 0.107
+  },
+  "main:emp_ratio:strat": {
+   "rho": 0.996,
+   "var_ratio": 0.936,
+   "type1": 0.003
+  }
+ },
+ "B_pre": {
+  "purchase_revenue:1w": {
+   "rho": 0.076,
+   "var_ratio": 0.994
+  },
+  "purchase_revenue:2w": {
+   "rho": 0.099,
+   "var_ratio": 0.99
+  },
+  "purchase_revenue:4w": {
+   "rho": 0.131,
+   "var_ratio": 0.983
+  },
+  "purchase_revenue:8w": {
+   "rho": 0.173,
+   "var_ratio": 0.97
+  },
+  "purchase_revenue:13w": {
+   "rho": 0.199,
+   "var_ratio": 0.961
+  },
+  "purchase_revenue:26w": {
+   "rho": 0.236,
+   "var_ratio": 0.944
+  },
+  "purchase_count:1w": {
+   "rho": 0.141,
+   "var_ratio": 0.98
+  },
+  "purchase_count:2w": {
+   "rho": 0.192,
+   "var_ratio": 0.963
+  },
+  "purchase_count:4w": {
+   "rho": 0.25,
+   "var_ratio": 0.938
+  },
+  "purchase_count:8w": {
+   "rho": 0.305,
+   "var_ratio": 0.907
+  },
+  "purchase_count:13w": {
+   "rho": 0.34,
+   "var_ratio": 0.884
+  },
+  "purchase_count:26w": {
+   "rho": 0.381,
+   "var_ratio": 0.855
+  },
+  "visits:1w": {
+   "rho": 0.73,
+   "var_ratio": 0.467
+  },
+  "visits:2w": {
+   "rho": 0.8,
+   "var_ratio": 0.36
+  },
+  "visits:4w": {
+   "rho": 0.843,
+   "var_ratio": 0.289
+  },
+  "visits:8w": {
+   "rho": 0.867,
+   "var_ratio": 0.248
+  },
+  "visits:13w": {
+   "rho": 0.878,
+   "var_ratio": 0.23
+  },
+  "visits:26w": {
+   "rho": 0.886,
+   "var_ratio": 0.216
+  }
+ },
+ "B_meta": {
+  "purchase_revenue": {
+   "mean": 419.219,
+   "cv": 5.48,
+   "share_zero": 0.928
+  },
+  "purchase_count": {
+   "mean": 0.084,
+   "cv": 3.84,
+   "share_zero": 0.927
+  },
+  "visits": {
+   "mean": 6.011,
+   "cv": 0.91,
+   "share_zero": 0.089
+  }
+ },
+ "B_revenue": {
+  "vr_cuped_raw": 0.9827,
+  "vr_multi": 0.9607,
+  "vr_wins_only": 0.4385,
+  "rho_wins": 0.1771,
+  "vr_wins_cuped": 0.4247
+ },
+ "B_new": {
+  "0.0": {
+   "var_ratio": 0.289,
+   "approx": 0.289
+  },
+  "0.2": {
+   "var_ratio": 0.432,
+   "approx": 0.431
+  },
+  "0.4": {
+   "var_ratio": 0.576,
+   "approx": 0.574
+  },
+  "0.6": {
+   "var_ratio": 0.716,
+   "approx": 0.716
+  },
+  "0.8": {
+   "var_ratio": 0.858,
+   "approx": 0.858
+  }
+ },
+ "B_days": [
+  {
+   "s": "visits",
+   "mde": 0.02,
+   "method": "素の差",
+   "vr": 1.0,
+   "n": 32503,
+   "days": 14
+  },
+  {
+   "s": "visits",
+   "mde": 0.02,
+   "method": "CUPED（前4週）",
+   "vr": 0.289,
+   "n": 9405,
+   "days": 4
+  },
+  {
+   "s": "visits",
+   "mde": 0.02,
+   "method": "CUPED（前13週）",
+   "vr": 0.23,
+   "n": 7464,
+   "days": 3
+  },
+  {
+   "s": "visits",
+   "mde": 0.05,
+   "method": "素の差",
+   "vr": 1.0,
+   "n": 5200,
+   "days": 3
+  },
+  {
+   "s": "visits",
+   "mde": 0.05,
+   "method": "CUPED（前4週）",
+   "vr": 0.289,
+   "n": 1504,
+   "days": 1
+  },
+  {
+   "s": "visits",
+   "mde": 0.05,
+   "method": "CUPED（前13週）",
+   "vr": 0.23,
+   "n": 1194,
+   "days": 1
+  },
+  {
+   "s": "purchase_revenue",
+   "mde": 0.05,
+   "method": "素の差",
+   "vr": 1.0,
+   "n": 188405,
+   "days": 76
+  },
+  {
+   "s": "purchase_revenue",
+   "mde": 0.05,
+   "method": "CUPED（前4週）",
+   "vr": 0.983,
+   "n": 185147,
+   "days": 75
+  },
+  {
+   "s": "purchase_revenue",
+   "mde": 0.05,
+   "method": "CUPED（前13週）",
+   "vr": 0.961,
+   "n": 180975,
+   "days": 73
+  },
+  {
+   "s": "purchase_revenue",
+   "mde": 0.05,
+   "method": "ウィンザー化＋CUPED（前4週）",
+   "vr": 0.425,
+   "n": 80024,
+   "days": 33
+  },
+  {
+   "s": "purchase_revenue",
+   "mde": 0.1,
+   "method": "素の差",
+   "vr": 1.0,
+   "n": 47101,
+   "days": 19
+  },
+  {
+   "s": "purchase_revenue",
+   "mde": 0.1,
+   "method": "CUPED（前4週）",
+   "vr": 0.983,
+   "n": 46286,
+   "days": 19
+  },
+  {
+   "s": "purchase_revenue",
+   "mde": 0.1,
+   "method": "CUPED（前13週）",
+   "vr": 0.961,
+   "n": 45243,
+   "days": 19
+  },
+  {
+   "s": "purchase_revenue",
+   "mde": 0.1,
+   "method": "ウィンザー化＋CUPED（前4週）",
+   "vr": 0.425,
+   "n": 20006,
+   "days": 9
+  }
+ ],
+ "B_finite": {
+  "n_per_arm": 3000,
+  "reps": 2000,
+  "effect": 0.03,
+  "type1": {
+   "naive": 0.0475,
+   "diff": 0.0565,
+   "cuped": 0.0455,
+   "regadj": 0.0455
+  },
+  "power": {
+   "naive": 0.2405,
+   "diff": 0.2205,
+   "cuped": 0.648,
+   "regadj": 0.649
+  }
+ },
+ "B_theta": {
+  "theta_hist": 0.444,
+  "theta_in": 0.4541,
+  "vr_hist": 0.2845,
+  "vr_in": 0.2841
+ },
+ "B_sample": {
+  "naive": {
+   "est": 0.2873,
+   "se": 0.1474,
+   "z": 1.95
+  },
+  "diff": {
+   "est": 0.05,
+   "se": 0.1702,
+   "z": 0.29
+  },
+  "cuped": {
+   "est": 0.1799,
+   "se": 0.078,
+   "z": 2.31
+  },
+  "regadj": {
+   "est": 0.1799,
+   "se": 0.078,
+   "z": 2.31
+  }
+ },
+ "C_mean_ratio": {
+  "naive": 1.007,
+  "cuped_pre": 1.01,
+  "cuped_during": 0.409
+ },
+ "C_median_ratio": {
+  "naive": 0.978,
+  "cuped_pre": 0.979,
+  "cuped_during": 0.386
+ }
+}
