@@ -4,7 +4,7 @@
   events.csv     2012〜2025年度に協会が調査した事故ごとの件数・保険金（千円）
   top10.csv      協会「過去の主な風水災等」上位10事故（億円・件）
   deflator.csv   年度別 物価（建設工事費デフレーター住宅総合・建設総合、CPI総合・持家の帰属家賃を除く総合、2020年度=100）
-  dwellings.csv  住宅数（住宅・土地統計調査、全国、各10月1日）
+  dwellings.csv  住宅数と世帯数（住宅・土地統計調査、全国、各10月1日）
 """
 import csv, json, re, subprocess, pathlib, io
 import pandas as pd, openpyxl, pdfplumber
@@ -113,7 +113,10 @@ i0 = yrs.index("1958")
 nat = [r for r in rows if r[1].strip() == "全国"]
 years = [int(x) for x in yrs[i0:i0 + 14]]
 vals = [next((int(r[i0 + j]) for r in nat if r[i0 + j].strip().isdigit()), None) for j in range(14)]
-dw = pd.DataFrame(dict(year=years, dwellings=vals))
+# 世帯数は同じ表の右側（住宅数の14列の次から14列）。空き家の割合の変化を除いた分母として頑健性に使う
+hh = [next((int(r[i0 + 14 + j]) for r in nat if r[i0 + 14 + j].strip().isdigit()), None) for j in range(14)]
+assert yrs[i0 + 14] == "1958", yrs[i0 + 14]
+dw = pd.DataFrame(dict(year=years, dwellings=vals, households=hh))
 dw = dw[dw.year >= 1973]
 dw.to_csv(OUT / "dwellings.csv", index=False)
 print(dw.to_string())

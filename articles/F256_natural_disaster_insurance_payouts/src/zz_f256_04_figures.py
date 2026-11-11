@@ -87,7 +87,7 @@ ax.text(2001.5, 19700, "1991〜2012年度：22年で3件", ha="center", fontsize
 ax.text(2019.6, 19700, "2013〜2025年度：13年で5件", ha="center", fontsize=10.5)
 ax.set_xlim(1990, 2026.5); ax.set_ylim(0, 20500)
 ax.set_ylabel("実質保険金／住宅1戸（円）")
-ax.set_title("大きな事故の数は増えたが、件数が少なく偶然と区別できない（片側 p=0.13）", loc="left", fontsize=12.5)
+ax.set_title("大きな事故は3件→5件と多いが、件数が少なく偶然と区別できない（片側 p=0.13）", loc="left", fontsize=12.5)
 save(fig, "fig3_big_events_timeline.png")
 
 # 図4 2012〜2025年度：年度合計（住宅1戸あたり実質）
@@ -125,8 +125,8 @@ ax.set_title("1件あたりの重さを決めるのは時代より災害の種�
 save(fig, "fig5_frequency_vs_severity.png")
 
 # 図6 頑健性
-r6 = rob.iloc[:7].copy()
-names = ["基準", "建設総合デフレーター", "CPI総合", "CPI（帰属家賃除く）", "割り引かない", "住宅数を階段で", "火災・新種だけ"]
+r6 = rob.iloc[:8].copy()
+names = ["基準", "建設総合デフレーター", "CPI総合", "CPI（帰属家賃除く）", "割り引かない", "住宅数を階段で", "世帯数で割る", "火災・新種だけ"]
 names2 = names + ["自動車だけ", "14年間の上位1事故を除く", "上位2事故を除く", "名目100億円以上の事故だけ"]
 fig, ax = plt.subplots(1, 2, figsize=(11.5, 5.2))
 yy = np.arange(len(r6))[::-1]
@@ -136,7 +136,7 @@ for v, y_ in zip(r6.top10_new_over_old_max, yy): ax[0].text(v + 0.02, y_ + 0.18,
 ax[0].set_yticks(yy, names); ax[0].set_xlim(0.8, 1.45); ax[0].set_ylim(-0.6, len(r6) - 0.4)
 ax[0].set_title("最大の事故どうし（2018台風21号÷1991台風19号）", loc="left", fontsize=11)
 y2 = np.arange(len(rob))[::-1]
-cc = [C[1]] * 7 + [C[3]] * (len(rob) - 7)
+cc = [C[1]] * 8 + [C[3]] * (len(rob) - 8)
 ax[1].scatter(rob.halves_ratio, y2, s=70, color=cc, zorder=3)
 ax[1].axvline(1, color=INK2, lw=1)
 for v, y_ in zip(rob.halves_ratio, y2): ax[1].text(v + 0.02, y_ + 0.18, f"{v:.2f}", fontsize=9)

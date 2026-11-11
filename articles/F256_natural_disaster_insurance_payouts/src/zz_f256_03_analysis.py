@@ -22,12 +22,18 @@ dw = pd.read_csv(P / "dwellings.csv")
 T_SURVEY = dw.year.values + 0.75  # 調査は各年10月1日
 D_SURVEY = dw.dwellings.values.astype(float)
 SLOPE_LAST = (D_SURVEY[-1] - D_SURVEY[-2]) / 5.0
+H_SURVEY = dw.households.values.astype(float)  # 頑健性：住宅数の代わりに世帯数（空き家を除いた分母）
+H_SLOPE = (H_SURVEY[-1] - H_SURVEY[-2]) / 5.0
 
 def tdate(ym):
     y, m = int(ym[:4]), int(ym[5:7])
     return y + (m - 0.5) / 12
 
 def dwell(t, how="linear"):
+    if how == "households":
+        if t > T_SURVEY[-1]:
+            return H_SURVEY[-1] + H_SLOPE * (t - T_SURVEY[-1])
+        return float(np.interp(t, T_SURVEY, H_SURVEY))
     if how == "step":  # 直前の調査値のまま
         i = np.searchsorted(T_SURVEY, t, side="right") - 1
         return D_SURVEY[max(i, 0)]
@@ -68,10 +74,10 @@ nat["fire_share"] = (nat.fire_k + nat.misc_k + nat.marine_k) / nat.all_k
 nat.to_csv(R / "events_adjusted.csv", index=False)
 
 FY = range(2012, 2026)
-def annual(df, col="real_yen", ncol="all_n"):
+def annual(df, col="real_yen", ncol="all_n", how="linear"):
     g = df.groupby("fy").agg(n_events=("file", "size"), claims=(ncol, "sum"), real_yen=(col, "sum"), dwell=("dwell", "mean"))
     g = g.reindex(FY).fillna({"n_events": 0, "claims": 0, "real_yen": 0})
-    g["dwell"] = [dwell(f + 0.5) for f in g.index]
+    g["dwell"] = [dwell(f + 0.5, how) for f in g.index]  # 年度の真ん中（10月1日ごろ）の分母
     g["yen_per_dwelling"] = g.real_yen / g.dwell
     g["claims_per_1000"] = g.claims / g.dwell * 1000
     g["real_man_per_claim"] = g.real_yen / g.claims.replace(0, np.nan) / 1e4
@@ -113,6 +119,10 @@ summ["price_1991_to_2018"] = round(float(d18 / d91), 3)
 summ["price_1991_to_2025"] = round(float(pr.loc[2025, "defl_house"] / d91), 3)
 summ["cpi_1991_to_2025"] = round(float(pr.loc[2025, "cpi_all"] / pr.loc[1991, "cpi_all"]), 3)
 summ["dwell_1991_to_2018"] = round(dwell(2018.7) / dwell(1991.7), 3)
+summ["hh_1991_to_2018"] = round(dwell(2018.7, "households") / dwell(1991.7, "households"), 3)
+# PLAN の H3：年度合計を「件数（住宅1,000戸あたり）」と「1件あたり実質」に分けた前後比と傾向
+summ["H3_freq_halves_ratio"] = summ["annual_halves_claims"][2]
+summ["H3_sev_halves_ratio"] = summ["annual_halves_sev"][2]
 
 # 災害の種類別 1件あたり
 sev = nat.groupby("peril").agg(events=("file", "size"), claims=("all_n", "sum"), real_oku=("real_oku", "sum"),
@@ -145,7 +155,7 @@ def ann_stats(deflator="defl_house", how="linear", drop_top=0, scope="all", thre
     if thresh: d = d[d.all_k * 1e3 >= thresh * 1e8]
     d["real_yen"], d["dwell"] = adjust(d, "amt", "fy", "event_ym", deflator, how)
     if drop_top: d = d.drop(d.nlargest(drop_top, "real_yen").index)
-    g = annual(d)
+    g = annual(d, how=how)
     tau, p = ktau(g.yen_per_dwelling)
     a, b, ratio = halves(g.yen_per_dwelling)
     return tau, p, a, b, ratio
@@ -155,7 +165,8 @@ variants = [("基準（住宅総合デフレーター・直線補間・全種目
             ("物価：CPI総合", dict(deflator="cpi_all")),
             ("物価：CPI（持家の帰属家賃を除く総合）", dict(deflator="cpi_ex_rent")),
             ("物価：割り引かない（名目）", dict(deflator="none")),
-            ("住宅数：直前の調査値のまま（階段）", dict(how="step"))]
+            ("住宅数：直前の調査値のまま（階段）", dict(how="step")),
+            ("分母：住宅数の代わりに世帯数（空き家を除く）", dict(how="households"))]
 for lab, kw in variants:
     er = era_ratio(**kw); an = ann_stats(**kw)
     rows.append(dict(variant=lab, top10_new_over_old_mean=er[0], top10_new_over_old_max=er[1], mireille_rank_real_pd=er[2],
@@ -208,7 +219,7 @@ def big_events(deflator="defl_house", how="linear"):
 
 be = {}
 for lab, kw in [("住宅総合デフレーター", {}), ("建設総合デフレーター", dict(deflator="defl_const")), ("CPI総合", dict(deflator="cpi_all")),
-                ("割り引かない", dict(deflator="none")), ("住宅数を階段で", dict(how="step"))]:
+                ("割り引かない", dict(deflator="none")), ("住宅数を階段で", dict(how="step")), ("世帯数で割る", dict(how="households"))]:
     be[lab] = big_events(**kw)
     print(lab, be[lab])
 summ["big_events"] = be
