@@ -1,0 +1,126 @@
+{
+ "S1": {
+  "n": 2000,
+  "share_true_ge_mwe": 0.1965,
+  "share_true_le0": 0.709,
+  "A": {
+   "ship_rate": 0.151,
+   "harm_among_ship": 0.09602649006622517,
+   "below_mwe_among_ship": 0.1423841059602649,
+   "gain_per_test_pt": 0.03279813267784563,
+   "missed_worthwhile": 0.067,
+   "worthwhile_found": 0.6590330788804071
+  },
+  "B": {
+   "ship_rate": 0.1985,
+   "harm_among_ship": 0.10327455919395466,
+   "below_mwe_among_ship": 0.16624685138539042,
+   "gain_per_test_pt": 0.04108423430399671,
+   "missed_worthwhile": 0.031,
+   "worthwhile_found": 0.8422391857506362
+  },
+  "Aeq": {
+   "ship_rate": 0.169,
+   "harm_among_ship": 0.07100591715976332,
+   "below_mwe_among_ship": 0.11538461538461539,
+   "gain_per_test_pt": 0.037537360246393675,
+   "missed_worthwhile": 0.047,
+   "worthwhile_found": 0.7608142493638677
+  },
+  "n_eq": 164600,
+  "B_split": {
+   "採用": {
+    "n": 302,
+    "true_ge_mwe": 0.8576158940397351,
+    "true_le0": 0.09602649006622517
+   },
+   "見送り": {
+    "n": 406,
+    "true_ge_mwe": 0.0024630541871921183,
+    "true_le0": 0.9778325123152709
+   },
+   "保留": {
+    "n": 1292,
+    "true_ge_mwe": 0.10294117647058823,
+    "true_le0": 0.7678018575851393
+   }
+  },
+  "B_first_look": {
+   "保留": 1292,
+   "見送り": 406,
+   "採用": 302
+  },
+  "B_extra_sample": 0.646,
+  "nonsig": {
+   "n": 1698,
+   "true_ge_mwe": 0.07891637220259129,
+   "hi_ge_mwe": 0.7608951707891637,
+   "true_ge_mwe_and_hi_ge": 0.07832744405182568,
+   "hi_lt_mwe": 0.23910482921083628,
+   "true_ge_mwe_given_hi_lt": 0.0024630541871921183
+  },
+  "half_width_pt": 0.1912224523241101
+ },
+ "S2": {
+  "n": 2000,
+  "share_true_ge_mwe": 0.3535,
+  "share_true_le0": 0.5515,
+  "A": {
+   "ship_rate": 0.247,
+   "harm_among_ship": 0.0465587044534413,
+   "below_mwe_among_ship": 0.08502024291497975,
+   "gain_per_test_pt": 0.05746320566829211,
+   "missed_worthwhile": 0.1275,
+   "worthwhile_found": 0.6393210749646393
+  },
+  "B": {
+   "ship_rate": 0.3455,
+   "harm_among_ship": 0.04486251808972504,
+   "below_mwe_among_ship": 0.09117221418234443,
+   "gain_per_test_pt": 0.07738674982817152,
+   "missed_worthwhile": 0.0395,
+   "worthwhile_found": 0.8882602545968883
+  },
+  "Aeq": {
+   "ship_rate": 0.2975,
+   "harm_among_ship": 0.03529411764705882,
+   "below_mwe_among_ship": 0.05378151260504202,
+   "gain_per_test_pt": 0.07005859485382246,
+   "missed_worthwhile": 0.072,
+   "worthwhile_found": 0.7963224893917963
+  },
+  "n_eq": 152250,
+  "B_split": {
+   "採用": {
+    "n": 494,
+    "true_ge_mwe": 0.9149797570850202,
+    "true_le0": 0.0465587044534413
+   },
+   "見送り": {
+    "n": 461,
+    "true_ge_mwe": 0.004338394793926247,
+    "true_le0": 0.9522776572668112
+   },
+   "保留": {
+    "n": 1045,
+    "true_ge_mwe": 0.24210526315789474,
+    "true_le0": 0.6133971291866028
+   }
+  },
+  "B_first_look": {
+   "保留": 1045,
+   "採用": 494,
+   "見送り": 461
+  },
+  "B_extra_sample": 0.5225,
+  "nonsig": {
+   "n": 1506,
+   "true_ge_mwe": 0.1693227091633466,
+   "hi_ge_mwe": 0.6938911022576362,
+   "true_ge_mwe_and_hi_ge": 0.16799468791500663,
+   "hi_lt_mwe": 0.3061088977423639,
+   "true_ge_mwe_given_hi_lt": 0.004338394793926247
+  },
+  "half_width_pt": 0.19147351715868002
+ }
+}
