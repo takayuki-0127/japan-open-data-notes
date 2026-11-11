@@ -101,8 +101,9 @@ rows = [('主（2013→2023、LMDI）', m['share_age'], m['share_p_in_within']),
         ('R1 終わり2019年度', rob['R1_end2019']['share_age'], rob['R1_end2019']['share_p_in_within']),
         ('R2 2時点シャープレイ', rob['R2_shapley']['share_age'], rob['R2_shapley']['share_p_in_within']),
         ('R3 10歳階級', rob['R3_10yr']['share_age'], rob['R3_10yr']['share_p_in_within']),
-        ('R4b 始め2011年度', rob['R4b_start2011']['share_age'], rob['R4b_start2011']['share_p_in_within'])]
-fig, axs = plt.subplots(1, 2, figsize=(10, 3.6), sharey=True)
+        ('R4b 始め2011年度', rob['R4b_start2011']['share_age'], rob['R4b_start2011']['share_p_in_within']),
+        ('R7 終わり2022年度', rob['R7_end2022']['share_age'], rob['R7_end2022']['share_p_in_within'])]
+fig, axs = plt.subplots(1, 2, figsize=(10, 4.0), sharey=True)
 yy = np.arange(len(rows))[::-1]
 axs[0].scatter([r[1] * 100 for r in rows], yy, color=COL['age'], zorder=3)
 lo, md, hi = rob['R6_rounding']['share_age']

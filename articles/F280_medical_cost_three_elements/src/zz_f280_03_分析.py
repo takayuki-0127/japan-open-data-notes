@@ -197,6 +197,10 @@ def main():
     rob['R1_end2019']['H4_gap'] = pc19 - float(rev[(rev.fy >= 2014) & (rev.fy <= 2019)].revision_pct.sum())
     sh = shapley_two_point(d, 2013, 2023); rob['R2_shapley'] = summarize(sh, d, 2013, 2023)
     d10 = to10(d); s, _ = run_all(d10, 2013, 2023); rob['R3_10yr'] = s
+    s, _ = run_all(d, 2013, 2022); rob['R7_end2022'] = s
+    pc22, _ = divisia_p(d, 2013, 2022)
+    rob['R7_end2022']['H4_gap'] = pc22 - float(rev[(rev.fy >= 2014) & (rev.fy <= 2022)].revision_pct.sum())
+    rob['R7_end2022']['per_case_gap'] = reask(d, rev, 2013, 2022)['per_case_gap']
     s, _ = run_all(d, 2011, 2023); rob['R4b_start2011'] = s
     pc11, _ = divisia_p(d, 2011, 2023)
     rob['R4b_start2011']['H4_gap'] = pc11 - float(rev[(rev.fy >= 2012) & (rev.fy <= 2023)].revision_pct.sum())
