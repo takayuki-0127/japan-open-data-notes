@@ -1,0 +1,87 @@
+"""テストの途中経過を見るダッシュボード（静的な HTML 1枚）と、その画面の画像（図6）を作る。
+架空のECサイト「みどりモール」の社内向けを想定した例。データはシミュレーション。"""
+import json, os
+import pandas as pd
+B = pd.read_csv("results/C_bounds_4looks.csv")[["day", "obf"]]
+D = {k: pd.read_csv(f"data/example_test_{k}_daily.csv").to_dict(orient="records") for k in ["H0", "H1"]}
+P = json.load(open("data/params.json"))
+html = r"""<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A/B テストの途中経過（みどりモール・架空）</title>
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--ink:#1a202c;--sub:#4a5568;--blue:#2b6cb0;--red:#c53030;--green:#2f855a;--orange:#dd6b20;--line:#e2e8f0}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans CJK JP","Hiragino Sans","Meiryo",sans-serif}
+header{padding:14px 24px;background:#1a365d;color:#fff;display:flex;justify-content:space-between;align-items:center}
+header h1{font-size:18px;margin:0} header .tag{font-size:12px;opacity:.8}
+main{padding:16px 24px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.kpi .l{font-size:12px;color:var(--sub)} .kpi .v{font-size:24px;font-weight:700;margin-top:4px} .kpi .s{font-size:11px;color:var(--sub)}
+.wide{grid-column:span 2} .full{grid-column:span 4}
+.btns button{margin-right:6px;padding:4px 10px;border:1px solid var(--line);background:#fff;border-radius:4px;cursor:pointer}
+.btns button.on{background:#1a365d;color:#fff}
+.decision{font-size:16px;font-weight:700;padding:10px;border-radius:6px}
+.ok{background:#f0fff4;color:var(--green)} .wait{background:#fffaf0;color:var(--orange)} .ng{background:#fff5f5;color:var(--red)}
+table{border-collapse:collapse;width:100%;font-size:12px} td,th{border-bottom:1px solid var(--line);padding:3px 6px;text-align:right} th{color:var(--sub);font-weight:400}
+.note{font-size:11px;color:var(--sub);line-height:1.6}
+svg text{font-family:inherit}
+</style></head><body>
+<header><h1>A/B テストの途中経過：商品ページの新デザイン</h1><div class="tag">みどりモール（架空のECサイト）・社内向け・データはシミュレーション</div></header>
+<main>
+<div class="card full btns">表示する例：<button id="bH0">例1：本当は差がない</button><button id="bH1">例2：本当に +10% の差がある</button>
+<span class="note">　判定のルール：4・7・11・14日目だけ O'Brien-Fleming の境界で判定（誤検出5%）。毎日の数字は「見るだけ」。</span></div>
+<div class="card kpi"><div class="l">経過日数</div><div class="v" id="kDay"></div><div class="s">予定 14日（1日 5,000人）</div></div>
+<div class="card kpi"><div class="l">購入率（いま → 新）</div><div class="v" id="kRate"></div><div class="s" id="kN"></div></div>
+<div class="card kpi"><div class="l">差（相対）と95%区間</div><div class="v" id="kLift"></div><div class="s" id="kCI"></div></div>
+<div class="card kpi"><div class="l">いつ見てもよい p 値（mSPRT）</div><div class="v" id="kP"></div><div class="s">0.05 を下回れば止めてよい</div></div>
+<div class="card full"><div class="decision" id="dec"></div></div>
+<div class="card wide"><div style="font-size:13px;margin-bottom:4px">累積の z と、止める境界</div><svg id="cz" width="100%" viewBox="0 0 560 260"></svg>
+<div class="note">赤の点線（±1.96）は毎日判定してはいけない線。青の▼が決めた日の境界。</div></div>
+<div class="card wide"><div style="font-size:13px;margin-bottom:4px">日ごとの数字</div><table id="tb"></table></div>
+</main>
+<script>
+const D=__D__, B=__B__, TAU=__TAU__;
+const bmap={}; B.forEach(r=>bmap[r.day]=r.obf);
+function calc(rows){let nA=0,cA=0,nB=0,cB=0,pmin=1,out=[];
+ for(let d=1;d<=14;d++){const a=rows.find(r=>r.day==d&&r.arm=='A'),b=rows.find(r=>r.day==d&&r.arm=='B');
+  nA+=a.visitors;cA+=a.conversions;nB+=b.visitors;cB+=b.conversions;
+  const pa=cA/nA,pb=cB/nB,pp=(cA+cB)/(nA+nB),z=(pb-pa)/Math.sqrt(pp*(1-pp)*(1/nA+1/nB));
+  const V=pa*(1-pa)/nA+pb*(1-pb)/nB,th=pb-pa,t2=TAU*TAU;
+  const L=Math.sqrt(V/(V+t2))*Math.exp(th*th*t2/(2*V*(V+t2))); pmin=Math.min(pmin,Math.min(1,1/L));
+  const se=Math.sqrt(V)/pa;
+  out.push({d,nA,cA,nB,cB,pa,pb,z,lift:pb/pa-1,lo:pb/pa-1-1.96*se,hi:pb/pa-1+1.96*se,p:pmin,b:bmap[d]});}
+ return out;}
+function pct(x,k=1){return (x*100).toFixed(k)+'%'}
+function draw(key){document.getElementById('bH0').className=key=='H0'?'on':'';document.getElementById('bH1').className=key=='H1'?'on':'';
+ const o=calc(D[key]),L=o[o.length-1];
+ let stop=null;o.forEach(r=>{if(stop===null&&r.b&&Math.abs(r.z)>=r.b)stop=r});
+ let naive=null;o.forEach(r=>{if(naive===null&&Math.abs(r.z)>=1.96)naive=r});
+ const show=stop||L;
+ kDay.textContent=show.d+'日目';kRate.textContent=pct(show.pa,2)+' → '+pct(show.pb,2);kN.textContent='各群 '+show.nA.toLocaleString()+'人';
+ kLift.textContent=(show.lift>=0?'+':'')+pct(show.lift);kCI.textContent='95%区間 '+pct(show.lo)+' 〜 '+pct(show.hi)+'（決めた日の判定とは別）';
+ kP.textContent=show.p.toFixed(3);
+ const dec=document.getElementById('dec');
+ if(stop){dec.className='decision ok';dec.textContent=stop.d+'日目の判定で境界（|z|≥'+stop.b.toFixed(2)+'）を越えた → 新デザインを採用してよい。止めたときの差は大きめに出やすいので、効果の見込みは区間の下側も見ておく。';}
+ else{dec.className='decision wait';dec.textContent='14日目まで、決めた日の境界を越えなかった → 「差があるとは言えない」で終了。'+(naive?'（毎日1.96で判定していたら、'+naive.d+'日目に「有意」と誤って止めていた）':'');}
+ // chart
+ const W=560,H=260,x0=40,y0=20,w=500,h=200,ymin=-4,ymax=4;const X=d=>x0+(d-0.5)/14*w,Y=v=>y0+(ymax-Math.max(ymin,Math.min(ymax,v)))/(ymax-ymin)*h;
+ let s='';for(let v=-4;v<=4;v+=2){s+=`<line x1="${x0}" x2="${x0+w}" y1="${Y(v)}" y2="${Y(v)}" stroke="#edf2f7"/><text x="${x0-6}" y="${Y(v)+4}" font-size="10" text-anchor="end" fill="#4a5568">${v}</text>`}
+ [1.96,-1.96].forEach(v=>s+=`<line x1="${x0}" x2="${x0+w}" y1="${Y(v)}" y2="${Y(v)}" stroke="#c53030" stroke-dasharray="4 3"/>`);
+ B.forEach(r=>{s+=`<text x="${X(r.day)}" y="${Y(r.obf)}" font-size="13" text-anchor="middle" fill="#2b6cb0">▼</text><text x="${X(r.day)}" y="${Y(-r.obf)+10}" font-size="13" text-anchor="middle" fill="#2b6cb0">▲</text>`});
+ s+=`<polyline fill="none" stroke="#1a202c" stroke-width="2" points="${o.map(r=>X(r.d)+','+Y(r.z)).join(' ')}"/>`;
+ o.forEach(r=>{s+=`<circle cx="${X(r.d)}" cy="${Y(r.z)}" r="3" fill="${r.b?'#2b6cb0':'#1a202c'}"/><text x="${X(r.d)}" y="${y0+h+14}" font-size="10" text-anchor="middle" fill="#4a5568">${r.d}</text>`});
+ s+=`<text x="${x0+w/2}" y="${H-4}" font-size="10" text-anchor="middle" fill="#4a5568">経過日数</text>`;
+ cz.innerHTML=s;
+ let t='<tr><th>日</th><th>いま</th><th>新</th><th>差</th><th>z</th><th>判定日の境界</th><th>mSPRT p</th></tr>';
+ o.forEach(r=>{t+=`<tr${r.b?' style="background:#ebf8ff"':''}><td>${r.d}</td><td>${pct(r.pa,2)}</td><td>${pct(r.pb,2)}</td><td>${(r.lift>=0?'+':'')+pct(r.lift)}</td><td>${r.z.toFixed(2)}</td><td>${r.b?r.b.toFixed(2):''}</td><td>${r.p.toFixed(3)}</td></tr>`});
+ tb.innerHTML=t;}
+bH0.onclick=()=>draw('H0');bH1.onclick=()=>draw('H1');draw('H1');
+</script></body></html>"""
+html = html.replace("__D__", json.dumps(D)).replace("__B__", json.dumps(B.to_dict(orient="records"))).replace("__TAU__", str(P["base"] * P["lift"]))
+os.makedirs("dashboard", exist_ok=True)
+open("dashboard/index.html", "w", encoding="utf-8").write(html)
+from playwright.sync_api import sync_playwright
+with sync_playwright() as p:
+    b = p.chromium.launch(); pg = b.new_page(viewport={"width": 1280, "height": 760}, device_scale_factor=1.5)
+    pg.goto("file://" + os.path.abspath("dashboard/index.html")); pg.wait_for_timeout(500)
+    pg.click("#bH0"); pg.wait_for_timeout(300)
+    pg.screenshot(path="figures/f237_06_dashboard.png", full_page=True); b.close()
+print("ok")
