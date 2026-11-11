@@ -1,0 +1,201 @@
+{
+ "splice_overlap_max_abs_diff": {
+  "1000000000": 0.0,
+  "1105000000": 0.0,
+  "1106000000": 0.0,
+  "1106200000": 0.0
+ },
+ "ep_start": "1998-01",
+ "ep_end": "2026-09",
+ "level": {
+  "ep": {
+   "1998": 45.1,
+   "2000": 65.6,
+   "2007": 101.8,
+   "2019": 98.7,
+   "2025": 106.2
+  },
+  "ict": {
+   "1998": 279.1,
+   "2007": 277.0,
+   "2019": 120.8,
+   "2025": 81.5
+  },
+  "total": {
+   "1998": 112.4,
+   "2007": 128.9,
+   "2019": 111.9,
+   "2025": 100.9
+  }
+ },
+ "yoy_sd_all": {
+  "ep": 16.3,
+  "total": 8.1,
+  "ratio": 2.01
+ },
+ "lead_corr_ep_t_vs_total_t_plus_L": {
+  "-6": 0.03,
+  "-5": 0.146,
+  "-4": 0.276,
+  "-3": 0.418,
+  "-2": 0.559,
+  "-1": 0.679,
+  "0": 0.761,
+  "1": 0.77,
+  "2": 0.739,
+  "3": 0.686,
+  "4": 0.622,
+  "5": 0.547,
+  "6": 0.465
+ },
+ "turning_points": [
+  [
+   "2000-11",
+   "山"
+  ],
+  [
+   "2001-10",
+   "谷"
+  ],
+  [
+   "2007-11",
+   "山"
+  ],
+  [
+   "2009-02",
+   "谷"
+  ],
+  [
+   "2010-05",
+   "山"
+  ],
+  [
+   "2012-08",
+   "谷"
+  ],
+  [
+   "2015-05",
+   "山"
+  ],
+  [
+   "2016-04",
+   "谷"
+  ],
+  [
+   "2018-06",
+   "山"
+  ],
+  [
+   "2020-06",
+   "谷"
+  ],
+  [
+   "2021-06",
+   "山"
+  ],
+  [
+   "2023-04",
+   "谷"
+  ]
+ ],
+ "falls": [
+  {
+   "peak": "2000-11",
+   "trough": "2001-10",
+   "months": 11,
+   "ep_fall_pct": -34.0,
+   "total_fall_pct_same_months": -12.1,
+   "total_min_in_window_pct": -12.1
+  },
+  {
+   "peak": "2007-11",
+   "trough": "2009-02",
+   "months": 15,
+   "ep_fall_pct": -53.9,
+   "total_fall_pct_same_months": -33.7,
+   "total_min_in_window_pct": -33.7
+  },
+  {
+   "peak": "2010-05",
+   "trough": "2012-08",
+   "months": 27,
+   "ep_fall_pct": -22.1,
+   "total_fall_pct_same_months": -3.9,
+   "total_min_in_window_pct": -14.2
+  },
+  {
+   "peak": "2015-05",
+   "trough": "2016-04",
+   "months": 11,
+   "ep_fall_pct": -7.5,
+   "total_fall_pct_same_months": -0.2,
+   "total_min_in_window_pct": -1.0
+  },
+  {
+   "peak": "2018-06",
+   "trough": "2020-06",
+   "months": 24,
+   "ep_fall_pct": -14.2,
+   "total_fall_pct_same_months": -21.8,
+   "total_min_in_window_pct": -23.4
+  },
+  {
+   "peak": "2021-06",
+   "trough": "2023-04",
+   "months": 22,
+   "ep_fall_pct": -16.1,
+   "total_fall_pct_same_months": -3.5,
+   "total_min_in_window_pct": -9.4
+  }
+ ],
+ "corr_by_period": [
+  {
+   "from": "1999-01",
+   "to": "2007-12",
+   "corr_total": 0.88,
+   "corr_ict": 0.56,
+   "sd_ep": 16.7,
+   "sd_total": 4.9
+  },
+  {
+   "from": "2008-01",
+   "to": "2015-12",
+   "corr_total": 0.86,
+   "corr_ict": 0.69,
+   "sd_ep": 21.8,
+   "sd_total": 12.5
+  },
+  {
+   "from": "2016-01",
+   "to": "2026-09",
+   "corr_total": 0.33,
+   "corr_ict": -0.16,
+   "sd_ep": 7.9,
+   "sd_total": 5.7
+  }
+ ],
+ "robust_3ma_corr_total": [
+  0.9,
+  0.88,
+  0.33
+ ],
+ "robust_3ma_corr_ict": [
+  0.58,
+  0.73,
+  -0.25
+ ],
+ "robust_cut": {
+  "2014-01": {
+   "corr_total": 0.31,
+   "corr_ict": -0.22
+  },
+  "2018-01": {
+   "corr_total": 0.31,
+   "corr_ict": -0.2
+  },
+  "2016_excl_covid": {
+   "corr_total": 0.24,
+   "corr_ict": -0.31
+  }
+ }
+}
