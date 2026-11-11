@@ -22,7 +22,7 @@ fig, ax = plt.subplots(figsize=(8, 4.2))
 ax.plot(ys, [m["ict_inv_share"][str(y)] * 100 for y in ys], color=C1, lw=2, label="ICT（情報機器・通信機器・ソフトウェア）")
 ax.plot(ys, [m["sw_inv_share"][str(y)] * 100 for y in ys], color=C2, lw=2, label="うちソフトウェア")
 ax.set_ylabel("名目投資に占める割合（%）"); ax.set_ylim(0, None)
-ax.set_title("図1 投資の中のICTの割合（市場経済の92部門の合計）")
+ax.set_title(f"図1 投資の中のICTの割合（市場経済の{res['n_sectors']}部門の合計）")
 ax.legend(frameon=False); fig.tight_layout(); fig.savefig(FIG / "fig1_ict_investment_share.png"); plt.close(fig)
 
 # 図2：水準（2015年）
@@ -75,9 +75,11 @@ re = res["reask"]; yrs = [1995, 2007, 2015, 2019]
 fig, ax = plt.subplots(figsize=(8, 4.4))
 ax.plot(yrs, [re[str(y)]["nonict_depth_vs_LP"] for y in yrs], "o-", color=CG, label="ICT以外の資本の多さ と 労働生産性")
 ax.plot(yrs, [re[str(y)]["ict_depth_vs_LP"] for y in yrs], "o-", color=C1, label="ICT資本の多さ と 労働生産性")
-ax.plot(yrs, [re[str(y)]["ict_vs_LP_partial_nonict"] for y in yrs], "o--", color=C2, label="ICT資本の多さ と 労働生産性（ICT以外の資本の多さをそろえた偏相関）")
-ax.axhline(0, color="k", lw=.8); ax.set_ylim(-0.2, 1); ax.set_ylabel("順位相関")
-ax.set_title("図6 問い直し：ICTの分だけで見た結びつきは、年を追って強くなった")
+pc = [re[str(y)]["ict_vs_LP_partial_nonict"] for y in yrs]
+ax.errorbar(yrs, [v["rho"] for v in pc], yerr=[[v["rho"] - v["lo"] for v in pc], [v["hi"] - v["rho"] for v in pc]],
+            fmt="o--", color=C2, capsize=4, label="ICT資本の多さ と 労働生産性（ICT以外の資本の多さをそろえた偏相関、線は95%区間）")
+ax.axhline(0, color="k", lw=.8); ax.set_ylim(-0.3, 1); ax.set_ylabel("順位相関")
+ax.set_title(f"図6 問い直し：ICT以外の資本をそろえても残る結びつき（{res['n_sectors']}産業）")
 ax.legend(frameon=False, fontsize=9, loc="upper left"); fig.tight_layout(); fig.savefig(FIG / "fig6_reask.png"); plt.close(fig)
 
 # 図6：H4 前半のICT投資比率 と 後半の労働生産性の伸び

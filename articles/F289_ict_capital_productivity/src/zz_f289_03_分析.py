@@ -39,18 +39,26 @@ def growth(var, a, b, codes):
     return pd.Series(g, index=codes)
 
 def mean_of(var, a, b, codes):
+    # 期間内のすべての年に値があるときだけ平均する（欠けた年を飛ばして平均しない）
     s = P[var].unstack()
-    return s.loc[codes, [y for y in range(a + 1, b + 1)]].mean(axis=1)
+    return s.loc[codes, [y for y in range(a + 1, b + 1)]].mean(axis=1, skipna=False)
 
 def ratio_of(num, den, a, b, codes):
     s1 = P[num].unstack().loc[codes, list(range(a, b + 1))].sum(axis=1)
     s2 = P[den].unstack().loc[codes, list(range(a, b + 1))].sum(axis=1)
     return s1 / s2
 
-codes_all = sorted(d["code"].unique())
+# 比べる産業をひとつに固定する（レビュー後の修正）：
+# 1994〜2020年の全年で労働生産性が正の値で求まり、1995〜2020年の全年で TFPva がある産業だけ。
+# 外れるのは石炭製品（code 24：付加価値が負の年が多く、TFPva は 2009〜2016年だけ）。
+_lp = P["LP"].unstack(); _t = P["TFPva"].unstack()
+_ok = (_lp.loc[:, 1994:2020] > 0).all(axis=1) & _t.loc[:, 1995:2019].notna().all(axis=1)
+codes_all = sorted(int(c) for c in _ok.index[_ok])
+codes_dropped = sorted(int(c) for c in _ok.index[~_ok])
 codes_noprod = [c for c in codes_all if c not in ICT_PROD]
 PER = {"前半": (1995, 2007), "後半": (2007, 2019)}
-res = {"n_sectors": len(codes_all), "codes": {int(c): names[c] for c in codes_all}}
+res = {"n_sectors": len(codes_all), "codes": {int(c): names[c] for c in codes_all},
+       "dropped": {int(c): names[c] for c in codes_dropped}}
 rows = []
 
 def block(tag, codes, kind="ict", periods=PER, level_year=2015):
@@ -118,7 +126,7 @@ for pn, (a, b) in PER.items():
     R6[f"H3_{pn}"] = pear(gd.values, mean_of("TFPva", a, b, codes_all).values)
 res["R6_pearson"] = R6
 # 記述：マクロの ICT 投資比率、ICT資本の深さの伸び
-tot = d.groupby("year")[["inv_nom_ict", "inv_nom_sw", "inv_nom_all", "stk_real_ict", "MH", "V"]].sum()
+tot = d[d["code"].isin(codes_all)].groupby("year")[["inv_nom_ict", "inv_nom_sw", "inv_nom_all", "stk_real_ict", "MH", "V"]].sum()
 res["macro"] = {
     "ict_inv_share": {int(y): round(float(v), 4) for y, v in (tot["inv_nom_ict"] / tot["inv_nom_all"]).items() if np.isfinite(v)},
     "sw_inv_share": {int(y): round(float(v), 4) for y, v in (tot["inv_nom_sw"] / tot["inv_nom_all"]).items() if np.isfinite(v)},
@@ -149,7 +157,16 @@ def partial_spearman(x, y, z):
     rx, ry, rz = [stats.rankdata(v[m]) for v in (x, y, z)]
     ex = rx - np.polyval(np.polyfit(rz, rx, 1), rz)
     ey = ry - np.polyval(np.polyfit(rz, ry, 1), rz)
-    return float(stats.pearsonr(ex, ey)[0]), int(m.sum())
+    r = float(stats.pearsonr(ex, ey)[0])
+    X, Y, Z = x[m], y[m], z[m]; n = len(X); bs = []
+    for _ in range(B):
+        i = rng.integers(0, n, n)
+        a1, a2, a3 = [stats.rankdata(v[i]) for v in (X, Y, Z)]
+        e1 = a1 - np.polyval(np.polyfit(a3, a1, 1), a3)
+        e2 = a2 - np.polyval(np.polyfit(a3, a2, 1), a3)
+        bs.append(stats.pearsonr(e1, e2)[0])
+    lo, hi = np.nanpercentile(bs, [2.5, 97.5])
+    return {"rho": round(r, 3), "lo": round(float(lo), 3), "hi": round(float(hi), 3), "n": int(n)}
 re = {}
 for yr in [1995, 2007, 2015, 2019]:
     idx = [(c, yr) for c in codes_all]
@@ -157,10 +174,10 @@ for yr in [1995, 2007, 2015, 2019]:
     ict = np.log(P["depth_ict"].reindex(idx).values)
     nonict = np.log(((P["stk_real_all"] - P["stk_real_ict"]) * 1e6 / (P["MH"] * 1e3)).reindex(idx).values)
     share = (P["stk_real_ict"] / P["stk_real_all"]).reindex(idx).values
-    r_p, n = partial_spearman(ict, lp, nonict)
+    r_p = partial_spearman(ict, lp, nonict)
     re[yr] = {"ict_depth_vs_LP": spear(ict, lp, boot=False)["rho"],
               "nonict_depth_vs_LP": spear(nonict, lp, boot=False)["rho"],
-              "ict_vs_LP_partial_nonict": round(r_p, 3),
+              "ict_vs_LP_partial_nonict": r_p,
               "ict_share_of_capital_vs_LP": spear(share, lp, boot=(yr == 2015))}
 # 伸び：ICT の割合（資本の中身）を増やした産業は伸びたか
 for pn, (a, b) in PER.items():
