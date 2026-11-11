@@ -1,0 +1,22 @@
+id,T1 照合,T2 粒度（キーの重複）,T3 NULL,T4 期間・キーの網羅,T5 小さなデータで答え合わせ,T6 値の範囲・型,T7 エンジン間の一致
+A1,True,False,False,False,True,False,False
+A2,True,False,False,False,True,False,False
+A3,True,False,False,False,True,False,False
+A4,,False,False,False,True,True,True
+A5,True,False,False,False,True,False,False
+A6,,False,False,True,True,False,False
+B1,True,False,False,False,False,False,False
+B2,True,False,False,False,False,False,False
+B3,True,False,False,False,False,False,False
+B4,,False,False,False,False,False,False
+B5,,False,False,False,True,False,False
+B6,,False,False,False,True,False,False
+B7,,False,False,False,True,False,False
+B8,False,False,False,True,True,False,False
+B9,True,False,False,False,True,False,False
+B10,,True,False,False,True,False,False
+B11,,False,False,True,True,False,False
+B12,,False,False,False,True,True,True
+B13,,False,False,False,True,False,False
+B14,True,False,False,False,False,False,False
+B15,True,False,False,False,False,False,False
