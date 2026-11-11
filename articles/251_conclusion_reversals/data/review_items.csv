@@ -1,0 +1,383 @@
+article,touch,text,結果を限る条件を書いていなかった,1つの月・年・単位に頼っていた,比べる基準・偶然の幅,幅・不確かさを出していなかった,定義・測り方・分け方の違い,期間・起点の選び方,計算・コードの誤り,言葉の強さ・因果
+F256_natural_disaster_insurance_payouts,False,"**［中］住宅数の分母に空き家が入る**：空き家の割合は上がってきた。同じ表の世帯数で割る頑健性を加えた（1991→2018年の伸び1.357倍、最大の事故どうし1.18倍、足切り4,959円、3件対5件・p=0.13 は同じ）。言えないことにも追加。結論は変わらない（1.09〜1.33倍の幅の中）。適用の途中で、年度合計の分母が補間の選択を無視していたバグに気づき直した（階段の前後比 0.68→0.67）。",False,False,True,True,False,False,True,False
+F256_natural_disaster_insurance_payouts,True,**［中］「台風は1件あたり50万〜130万円」は誤り**：実際は56万〜197万円で、130万円超が4事故。「多くは50万〜130万円」に直し、範囲と件数を書いた。,False,False,False,False,False,False,True,False
+F256_natural_disaster_insurance_payouts,True,**［中］タイトルと図3の題が「増えた」と言い切っている**：「3件→5件と多いが、偶然と区別できない」に直し、タイトルも短くした。,False,False,True,False,False,False,False,True
+F256_natural_disaster_insurance_payouts,False,**［中］「増えても減ってもいません」は言い過ぎ**：「増加・減少の傾向は見えません（p=0.83、14点）」に直した。,False,False,False,False,False,False,False,True
+F256_natural_disaster_insurance_payouts,False,**［低〜中］PLAN の H3 と反証の条件2の結果が書かれていない**：年度合計の件数と1件あたりの前後比・τ を本文と「計画とのずれ」に書いた。上位10事故の1件あたりの比較（1.34倍）を主な結果にしない理由も書いた。,True,False,False,False,False,False,False,False
+F256_natural_disaster_insurance_payouts,False,**［低］始まりを1991年にした理由**：上位10表のいちばん古い事故に合わせて表を見てから決めたこと、動かすと件数も足切りも変わることを書いた。,False,True,False,False,False,False,False,False
+F256_natural_disaster_insurance_payouts,False,**［低］台風と大雨の分け方が事故名でばらばら**：2023年の「梅雨前線による大雨及び台風2号」を台風に入れ、台風に伴う大雨は台風にそろえた（大雨241万円・11事故、台風108万円・17事故、τ は +0.03・−0.20 に更新）。言えないことに1行追加。,False,True,False,False,True,False,False,False
+F256_natural_disaster_insurance_payouts,True,**［低］しくみの説明に根拠がない**：「風で屋根などが広く壊れる」「浸水で1件が重い」を「〜と考えられます（推測）」に、図2の「災害の強さと関係なく押し上げている」を弱めた。,False,False,False,False,False,False,False,True
+F256_natural_disaster_insurance_payouts,False,**［低］2025年度の住宅数は延ばした値、デフレーターは暫定値**：本文の2に書いた。,False,False,False,False,False,False,False,False
+F256_natural_disaster_insurance_payouts,False,**［低］計画前に上位10表を見ていたこと、PLAN の「6つ」は実際は7つ**：「計画とのずれ」に開示した（PLAN.md 自体は書き換えていない）。,False,False,False,False,False,False,False,False
+F256_natural_disaster_insurance_payouts,False,**［低］1事故だけの年度が4つ（2012・2014・2016・2025年度）**：言えないことに追加。,False,True,False,False,False,False,False,False
+F256_natural_disaster_insurance_payouts,False,**［低］コミットの順序**：PLAN a82a4ee が分析より前で、本体はすべて main に入っていることを「計画とのずれ」に書いた。2014年2月の大雪の件数の差（4件）を言えないことに書き、2018年7月豪雨の発生月は上位10表の6月にそろえた。,False,False,False,False,False,False,False,False
+F257_wage_spillover_whitepaper,False,1 | H1 の「2010〜19年」は実際は2011〜19年（2010年は産業が11で `len(g)<14` で落ちる） | 本文・表・`results/h1_breadth_periods.csv` の列名を「2011-19（2010年は産業分類が足りず除外）」に。計画からのずれに追加,False,True,False,False,False,False,True,False
+F257_wage_spillover_whitepaper,True,2 | パートの「追いついた」は2022年を基準にしたときだけ | 「2024〜25年は小規模が上回り、比は2017年ごろの水準に戻った」に弱め、基準年しだいであることを明記,True,False,True,False,False,True,False,True
+F257_wage_spillover_whitepaper,False,3 | 「最低賃金に引っ張られながら」は因果の言い方 | 「ほぼ同じ向き・大きさで動きながら」に。言えないことに、時系列の相関で向きは不明・16年・HC1 は系列相関を直さないことを追加。Newey-West の区間も出した,False,False,False,True,False,False,False,True
+F257_wage_spillover_whitepaper,False,4 | 一般の比が「むしろ開いた」は強すぎる（±1ポイントの振れと段差の範囲） | 「縮んでいない（2025年はやや下がった）」に,False,False,False,False,False,False,False,True
+F257_wage_spillover_whitepaper,False,5 | 2025年度の最低賃金は11月〜3月発効の県が多く、暦年の値が高めの可能性 | 県ごとの発効日は確かめられなかったので、2025暦年を2024年度の額だけで置く下限の計算を追加（傾き1.05、+31%、1.32倍、+12.5%）。言えないことに追加。結論は変わらない,False,False,False,False,False,False,False,False
+F257_wage_spillover_whitepaper,False,6 | 「16産業のうち2〜3」 | 「平均2.4産業（年により1〜5）」に,False,False,False,False,False,False,False,False
+F257_wage_spillover_whitepaper,False,7 | 鉱業の+19.0%の書き方 | 「対象が小さい（約1.2万人）ので振れが大きい可能性（推測）」に,False,False,False,False,False,False,False,False
+F257_wage_spillover_whitepaper,False,8 | 再問いの「きれいに並ぶ」 | 規模の4点は3節と同じデータで独立の裏づけでないこと、平均への回帰の可能性（推測）、3産業を除く決め方は後から決めたことを1文で追加,False,True,False,False,True,False,False,False
+F257_wage_spillover_whitepaper,False,9 | 2節の見出し「伸びが小さかった産業」 | 「+2%に届かなかった産業」に,False,False,False,False,False,False,False,False
+F257_wage_spillover_whitepaper,False,10 | 白書の文言を「」で引いていた | 原文の文言と頁を確かめられなかったので「」を外し、要約として書いた,False,False,False,False,False,False,False,False
+F257_wage_spillover_whitepaper,False,11 | 計画のコミットが結果より先か | 履歴で確認：plan 845d7f4（05:29 UTC）→ 結果 2bd3928〜90b4a58（05:37〜05:39 UTC）。冒頭にハッシュを記載,False,False,False,False,False,False,False,False
+F258_real_wage_deflator_streak,True,1 | 中 | H2 が逆になった説明が不正確。2023年1〜4月は公表と同じ物価でもマイナスで、違いは2023年5月（公表+0.3%、コアコア−0.1%）だけ。終わりもコアコアが1か月早い（2024年5月はコアコアで+0.3%） | 結果と本文3節を、「2023年5月の1か月が1〜4月と6月以降をつないだ。4か月の差は−0.1%の境目の1か月で決まる」に書き直した,False,True,False,False,False,False,False,False
+F258_real_wage_deflator_streak,False,2 | 中 | 「物価より賃金の選び方のほうが長さを動かす」は公表と同じ物価だけからの一般化 | 「公表と同じ物価では（12対30が12対16より大きい）」に限定。賃金を替えたときの延び方を物価ごとに（+18・+16・+13・+10・+6・+3か月）、物価による幅が総額9〜16か月からきまって支給する給与15〜30か月に広がること（2つの選び方は絡み合う）を追加。`reask.json` に `wage_switch_gain`・`deflator_spread`,True,False,False,True,False,False,True,False
+F258_real_wage_deflator_streak,True,3 | 中 | 連続は改訂後の値で数えたもので、報道の26か月とずれる | タイトル・冒頭・結論の1点目に「いまの長期時系列（改訂後の値）で数えた場合」を明記し、結論に26か月とのずれ（理由は推測）を1行追加,True,False,False,False,False,False,False,False
+F258_real_wage_deflator_streak,False,4 | 中 | 4節の賞与・0付近の説明は解釈を事実として書いている | 「〜と考えられる（推測）」にし、件数（賞与の月9/35、ほかの月40/105）を添えた,False,False,False,False,False,False,False,False
+F258_real_wage_deflator_streak,False,5 | 低〜中 | 「名目の伸びのうち賞与などの分」は伸び率の差で、寄与度ではない | 本文・図5の凡例・CSV の列名（`伸びの差_総額−きまって`）を「総額の伸びときまって支給する給与の伸びの差」に,False,False,False,False,False,False,True,False
+F258_real_wage_deflator_streak,True,6 | 低 | 49か月は0を別の向きとして数えている | 定義を本文に書き、プラスとマイナスの両方がある月40か月（29%）、マイナスと0以上44か月（31%）を併記。`main.json` の `flip_def`、`flip_months.csv` に列を追加。H3 の判定は変わらない,False,False,False,False,True,False,True,False
+F258_real_wage_deflator_streak,False,7 | 低 | 0.0%の月の扱いが書かれていない | 「0.0%はマイナスに数えず、連続はそこで切れる（例：2022年6月）」を手法と本文に,False,False,False,False,False,False,False,False
+F258_real_wage_deflator_streak,True,8 | 低 | 「当初の予想どおりの向き」は事後の分析 | 「（結果を見た後の分析。H2 の判定は外れのまま）」を追加,False,False,False,False,False,False,False,False
+F258_real_wage_deflator_streak,False,9 | 低 | 「エネルギーの補助で」は原因の断定 | 「電気・ガス代の負担軽減策が始まった時期に」と、時期の言い方に,False,False,False,False,False,True,False,True
+F258_real_wage_deflator_streak,False,10 | 確認 | 計画が結果より先か、図の URL、再現手順 | 履歴で確認：plan fb6a15e（2026-11-11 05:53 UTC）→ 結果 1ecae61〜8183c7b（05:59〜06:01 UTC）。note の図はコミット指定の raw URL で表示されることを確認。再現手順を python3 に,False,False,False,False,False,False,False,False
+F259_forecast_error_inventory_cost,True,【高】「√ が足りない理由は偏り（相関ではない）」は支えられていない。h1-h2 の相関（0.01）しか見ていなかった。h2-h3 0.40・h4-h5 0.44 とプラスで、偏りを除いた倍率も5か月で 2.62（√5＝2.24）。SARIMA の 1.72（3か月）だけを示すのは都合のよい切り取り（4・5か月は 2.48・3.60）。→ 理由を「偏りと月どうしの相関の両方」に改め、タイトル・結論・本文・計画とのずれ・考察を直した。,False,True,False,False,False,False,False,False
+F259_forecast_error_inventory_cost,True,【高】H1 の判定の単位を計画からすり替えていた（計画は「欠品なしの割合」、最初の版はシミュレーションを使わない「覆えた割合」）。→ 月ごと（ルートの式 89.4%・89.6%、外れ）と2か月の周期ごと（78.8%・79.2%、当たり）の両方を示し、「どの決め方も90%に届かない」を「数え方で変わる」に改めた。,False,False,False,False,True,False,False,False
+F259_forecast_error_inventory_cost,True,【中】「SARIMA はお金では真ん中」は誤り。分位点では5モデル中4位（真ん中は ETS）、順位は決め方で変わる（ルートの式3位・なし2位）。→ タイトル・結論・本文を直した。,False,False,False,False,True,False,True,False
+F259_forecast_error_inventory_cost,False,【中】確かめていない説明に（推測）がない：偏りが安定、α=p/(p+2h)（後から考えた。最良の倍率の四分位 0.5〜1.4、L=2 で −0.2、L=0 は悪化）、偏りの一部は物価。→ （推測）を付け、季節ナイーブの起点ごとのばらつきを示した。,True,False,False,False,False,True,False,False
+F259_forecast_error_inventory_cost,False,【中】H3 の比べ方の偏り（5モデルと3つの決め方の最大−最小、外れ値の影響）。→ 本文に書き、ルートの式と分位点だけ・LightGBM 除きの 2.4 対 5.2 を加えた。,False,True,False,False,True,False,False,False
+F259_forecast_error_inventory_cost,False,【低】H2 の24組は独立でなく、差の不確かさがない。ピンボール損失もほぼ同じで、費用は合計の外れから直接決まる。→ ブートストラップ区間と業態ごとの差、限界の文を加えた。,False,False,False,True,False,False,False,False
+F259_forecast_error_inventory_cost,False,【低】「6業態まとめて」の 83〜87% はルートの式と分位点が混ざっていた（分位点だけなら 86〜87%）。費用は「ほぼ同じ」でなく +2前後の悪化。→ 直した。,False,False,False,False,True,False,False,False
+F259_forecast_error_inventory_cost,False,【低】1.5 の差は L=2 の値、44% は L=0〜3 の120組。→ 書き分けた。,False,False,False,False,False,False,False,False
+F259_forecast_error_inventory_cost,False,【低】図1の1か月の倍率は 0.74 で、2か月以下では √ が多め。計画の分母は標準偏差、実装は RMSE。→ 本文と計画とのずれに書いた。,False,True,True,False,False,False,False,False
+F259_forecast_error_inventory_cost,False,【低】考察を「√ で割り引いてよいのは、偏りがなく、月ごとの外れが互いに無関係なときだけ」に直した。,False,False,False,False,False,False,False,False
+F259_forecast_error_inventory_cost,False,【低】バックオーダーの p は残った不足分に毎月かかることを手法に書いた。,False,False,False,False,False,False,False,False
+F260_loss_distribution_return_level,False,**データ A は35事故ではなく34事故**：記事・図1の凡例・README（データ・手法）・src のコメントを34事故に直した。PLAN の「35事故」は書き換えず、計画からのずれに誤記と書いた。計算は元から34事故で行っており、数字は変わらない。,False,False,False,False,False,False,False,False
+F260_loss_distribution_return_level,True,**「15倍」はパレートしだい**：タイトルと結論1に「平均が無限大になるパレートを除いても2.1倍」を入れた。,False,True,False,False,False,False,False,False
+F260_loss_distribution_return_level,True,**問い直しの「本当の分布」は裾の重い2つだけ**：対数正規と GPD を選んだ理由（実務でよく使う形と極値の標準の形で、100年に1度が4つの上側）を書き、「軽い分布なら幅は狭くなる可能性（推測）」を加えた。タイトルの終わりを「裾の重い分布を仮定すると」に変えた。,True,False,False,True,False,False,False,False
+F260_loss_distribution_return_level,False,**B の GPD の100年に1度（1.37兆円）が記録の最大（1.41兆円）を下回る**：記事の5と README の頑健性に書いた。,False,False,False,False,False,False,False,False
+F260_loss_distribution_return_level,False,**「差の大部分は足切りから」の分け方は限定的**：同じ足切りの A は5事故で、すべて B の8事故に含まれ、分け方も一方向なので「目安」とした。「8件で裾の形を決めているため」を推測とした。,False,False,False,False,True,False,False,False
+F260_loss_distribution_return_level,False,**ブートストラップは記録の最大を超えられない**：裾の重い分布では区間はむしろ狭めの目安（推測）と書いた。,False,False,False,True,False,False,False,False
+F260_loss_distribution_return_level,False,**「いちばん合うワイブル」→「AIC が最も小さいワイブル」**。AICc では基準で指数が最小になり、指数の H3 は3.1倍で支持のまま、と頑健性に加えた（作成者が計算し直した）。,False,False,True,False,False,False,True,False
+F260_loss_distribution_return_level,False,**言えないこと**：2025年度が途中までの可能性（最後の事故が2025年8月、λ が変わりうる）と、データ B の前提を記事にも加えた。,True,False,False,False,False,False,False,False
+F260_loss_distribution_return_level,False,**実装の変更**（ワイブルの尺度を対数で持つ、対数正規の尤度を式で書く）を記事の「計画からのずれ」にも書いた。,False,False,False,False,False,False,False,False
+F261_potential_growth_methods,True,1 | 「FY2025 の幅は過去26年でいちばん狭い」は、BK が FY2023 以降出ないため比べる手法の数が違うことによる | タイトルと結論から外した。手法をそろえると2番目（BK を除く）、6番目（BK・Hamilton を除く）、端点なので暫定、と書いた,False,True,False,True,False,False,False,False
+F261_potential_growth_methods,False,2 | 書き換わりとその後の成長の相関 0.73 は、両側のフィルターの仕組みでほぼ出る | ランダムウォークで確かめ（中央値 0.71、90% 0.49〜0.83）、発見ではなく仕組みの大きさの確認と書き直した,False,False,False,False,False,False,False,False
+F261_potential_growth_methods,False,3 | UC の形が計画（ローカル線形トレンド）と違い、ほぼ直線になっている | 計画からのずれに書き、ローカル線形トレンドの値（FY2025 0.87）を頑健性に加えた。UC の最大 8.1 と16四半期に（推測）の注意,False,False,False,False,False,False,False,False
+F261_potential_growth_methods,False,4 | 「どの条件でも直近の値のずれは 0.5〜0.7」は λ の2条件でしか計算していない | 「λ を変えると 0.49〜0.72（他の条件では計算していない）」に直した,True,False,False,False,False,True,False,False
+F261_potential_growth_methods,True,5 | 「落ち着くまで2年ほど」は HP だけ、改定を除いた値 | タイトル・結論・本文を「HP フィルターでは約2年（改定を除いた疑似リアルタイム）」にし、CF 2.5年・UC 4年・Hamilton は落ち着かないことを並べた,False,True,False,False,False,False,False,False
+F261_potential_growth_methods,False,6 | H3 の 0.27 は絶対値の平均で、向きを含めた平均は 0.07。割合は要素ごとの絶対値の合計に対するもの | そう書き分け、内閣府の小数1桁の丸めの影響（推測）を足した,False,False,False,False,False,False,False,False
+F261_potential_growth_methods,False,7 | 手法の数の書き方がばらばら | 「統計の手法6つ（FY2025 は BK を除く5つ）」にそろえた,False,True,False,False,False,False,False,False
+F261_potential_growth_methods,False,8 | 幅に、使う情報の違いと標準的でない手法の両方が入る | 言えないことに足した,False,False,False,True,False,False,False,False
+F261_potential_growth_methods,False,9 | 「0.50」は 0.496 | 直した,False,False,False,False,False,False,False,False
+F261_potential_growth_methods,False,10 | 77回の理由 | 2020Q1 は2次速報が訂正版しかないことを書いた,False,False,False,False,False,False,False,False
+F261_potential_growth_methods,False,11 | FY2025 の差が 0.28 と 0.27 の2通り | 数え方の違い（4期平均でならす／前期比年率の年度平均）を書いた,False,False,False,False,True,False,False,False
+F261_potential_growth_methods,False,12 | 細かい点（26年度、2011年度は東日本大震災も、白書・日銀の「0%台」の出典） | 直した。白書・日銀の言い回しの引用はやめ、2026年4-6月期の公表値（内閣府 0.6%、日銀 0.8%前後）に置き換えた,False,True,False,False,False,False,False,False
+F262_births_record_low_decomposition,True,【中】「最少は2023年から3年（合計特殊出生率が2005年の水準を下回った年と同じ）」は誤り：計算した合計特殊出生率は2005年1.270・2022年1.251で、合計特殊出生率で見ると2022年から4年。括弧の説明を消し、「合計特殊出生率で見ると2022年から4年。どの年齢の並びでそろえるかで境目の2022年が入れ替わる」と書いた（results/main.json の reask に record_tfr_calc を追加）。,False,False,False,False,False,False,True,False
+F262_births_record_low_decomposition,True,【中】「直近の3年」は差が小さい：2022年は73.82万人、2005年は73.68万人で差0.19%（表4-7 の率では0.14%）。題名・結論・§6を「最少は2023年から（2022年はほぼ並ぶ）」に弱め、差を本文に書いた。図6の題と注も直した。,False,False,False,False,False,True,False,True
+F262_births_record_low_decomposition,False,【低】「2015年の85.0万人が最も多く」を「2005年以降では」に限定した。,True,False,False,False,False,False,False,False
+F262_births_record_low_decomposition,False,【低】合計特殊出生率の2005年は、公表値1.26と計算値1.27が混ざっていたので、本文と README を公表値（1.26→1.45）にそろえた。,False,False,False,False,True,False,False,False
+F262_births_record_low_decomposition,False,【低】分母の切り替わりは2024→2025年だけ（2015〜2024年は2020年国勢調査に合わせた人口推計でひと続き）と直し、2025年が不詳補完値（参考表）であることを書いた。,False,False,True,False,False,False,False,False
+F262_births_record_low_decomposition,False,【低】2005年の計算値と公表値のずれの理由は確かめていないので（推測）とした。,False,False,False,False,False,False,False,False
+F262_births_record_low_decomposition,False,【低】「第2次ベビーブーム世代が…」は解釈なので（推測）とし、年齢別の女性の数の変化（30〜34歳 473万→353万人、40〜44歳 395万→476万人）を添えた。,False,False,False,False,False,False,False,False
+F262_births_record_low_decomposition,True,【低】計画では「2004年以前を逆算」としていたが、実際は1999年以前だったことを「計画からのずれ」に足した。,False,False,False,False,False,False,False,False
+F263_control_choice_nationwide_policy,True,【高】生鮮食品を除いた比較の読み違い：1.12倍は「M1〜M3 の幅が M4〜M6 の1.12倍」で、M4〜M6 のほうがわずかに狭い。本文と結論を「生鮮を除くとわずかに狭くなるが、基準1.5倍に届かず H1 は外れのまま」と直し、結論に「生鮮を含む基本の条件では」と加えた。,True,True,True,True,False,False,False,False
+F263_control_choice_nationwide_policy,False,【中】H3 は「基本の条件でのみ支持」ではなく6条件中4つで支持（単純平均は −0.299 で境目）。直した。,True,False,False,False,False,False,False,False
+F263_control_choice_nationwide_policy,False,【中】条件を変えた推定の範囲は前12か月の M6（+3.86）を含めると +0.6〜+3.9。直した。,True,False,False,False,False,False,False,False
+F263_control_choice_nationwide_policy,False,【中】非課税の対照が同じ時期に動いていた（+0.34、火災・地震保険料・傷害保険料・介護料・診療代）ことと、軽減税率の群も +0.46 動いたことを書いた。4品目を除くと M5 は +1.65。,False,True,False,False,False,True,False,False
+F263_control_choice_nationwide_policy,True,【中】不足の分け方は方法で変わる（M2 −0.80 のうちエネルギー −0.47、M1 −0.16 のうち −0.20）。題名から「不足は一部の品目から」を外し、本文を「前年同月比の差で分けると」とした。経過措置・外国パック旅行の非課税部分などの別の説明を（推測）で加え、エネルギーの品目にプロパンガスを加えた。,False,False,False,False,True,False,False,False
+F263_control_choice_nationwide_policy,False,【中】プラセボの期間を直したことで M3 が「幅の外」から「幅の中」に変わったこと（誤った期間では ±0.46、H1 0.40倍）を書いた。,False,False,False,True,False,True,False,False
+F263_control_choice_nationwide_policy,False,【中】合成対照の当てはまり（RMSE 0.010 対 標準偏差 0.42、23品目）と月ごとの差（+1.09・+1.28・+1.78）を書き、ぴったり合うことは信頼の証拠にならないとした。,False,False,False,False,False,False,False,False
+F263_control_choice_nationwide_policy,False,【低】「エネルギー・生鮮を除く」を「エネルギーを除く」に改名した。,False,True,False,False,False,False,False,False
+F263_control_choice_nationwide_policy,False,【低】M3 は全部転嫁とも合わず（−1.12 が帯の下限 −0.66 より下）、M4 はどちらとも区別できないこと、帯が0を中心にしていないことを書き、幅を ± ではなく5〜95%点で示した。,False,False,True,True,False,False,False,False
+F263_control_choice_nationwide_policy,False,【低】単位をそろえた（題名は「約〜%」、本文は100×対数で、目安は 1.83（%で +1.85%））。PLAN の H3 が % だったことをずれに書いた（1.85 でも −0.20 で判定は同じ）。,False,False,False,False,True,False,False,False
+F263_control_choice_nationwide_policy,False,【低】ピザ（配達）の区分、PTA会費、使っていない学童保育料、h=12 を足したこと、プラセボ期間のたばこ税の引き上げを書いた。,False,False,False,False,False,True,False,False
+F263_control_choice_nationwide_policy,False,【低】考察の最後の（推測）を「分からないので確かめたい」に直した。,False,False,False,False,False,False,False,False
+F264_auto_accident_rate_aging,True,【高】保険との相関 0.77 は2020年の1年にほぼ頼っていた（2020年を除くと 0.45、向きの一致は14年中10年）。「向きはよく合う」を消し、H4 の判定を「基準は超えたが頑健でない」に変えた。頑健さの数字は results/main.json の insurance.robust に追加。任意保険の 0.87 も2020年を除くと 0.62 と書いた。,False,True,True,False,False,False,False,False
+F264_auto_accident_rate_aging,True,【中】投影の答え合わせで、人身事故は見込み +0.3%・実際 −0.3% と向きが逆だったことを明記。残り方の期間（2009→2019）が確かめる期間と重なることも書いた。,True,False,False,False,False,True,False,False
+F264_auto_accident_rate_aging,True,【中】H2 は、基準が想定外の符号（全事故が負）で働かないため「判定不能」に変更（コードと main.json も変更）。,False,False,True,False,False,False,True,False
+F264_auto_accident_rate_aging,False,【中】考察の「構成が高リスクの側に寄っていれば、年齢ごとの見直しの余地は小さくなる」を、「年齢ごとの率の改善ほどには全体の頻度（平均の保険料）は下がらない」に書き直した。,False,False,False,False,False,False,False,False
+F264_auto_accident_rate_aging,False,【中】考察の「保険金の大きい事故」は調べていないので（推測）を付けた。,True,False,False,False,False,False,False,False
+F264_auto_accident_rate_aging,False,【中】自賠責の契約台数は年度内に結んだ契約の数（2〜3年契約を含む）で台・年ではないこと、2008〜2009年度の振れ、警察は暦年・保険は年度であることを本文と「言えないこと」に書いた。,False,False,False,False,False,False,False,False
+F264_auto_accident_rate_aging,False,【低】「変化の −1.0%／+12.5%」を「下げ幅の1.0%分をさらに押し下げ／12.5%分を押し戻し」と言葉で書いた。,False,False,False,True,False,False,False,False
+F264_auto_accident_rate_aging,False,【低】「2009〜2025年の平均で」を「2009年と2025年の平均で」に直した。,False,False,False,False,False,False,False,False
+F264_auto_accident_rate_aging,False,【低】年齢ごとの倍率の初出に「免許保有者当たりで、走る距離の違いは入っていない」を足した。,False,False,False,False,False,False,False,False
+F264_auto_accident_rate_aging,False,"【低】件数は15歳以下を除いた値であること（表の合計 698,129 → 264,348）を書いた。",False,True,False,False,False,False,False,False
+F264_auto_accident_rate_aging,False,【低】2023年7月からの特定小型原付の扱いを「言えないこと」に書いた（影響は小さいとみる、推測）。,False,False,False,False,False,False,False,False
+F264_auto_accident_rate_aging,False,【低】コロナ期の除外が計画（2020・2021年）とコード（2020〜2022年の変化）で違うことを「計画からのずれ」に書いた。,False,True,False,False,False,True,True,False
+F264_auto_accident_rate_aging,False,【低】「10歳刻み」を「おおむね10歳刻み（16〜24歳、75歳以上はまとめた）」に直した（コードの区分名も変更）。,False,False,False,False,False,False,True,False
+F265_policy_targets_pace,True,【高】幅に使った外れの個数を明記（男性育休 2020年時点6個・いま15個、有給23/32/35個、女性42個）。男性育休の2020年時点の幅は「6個の外れの範囲で、80%の幅とは言いにくい」と書き、H2 の男性育休の判定がこの前提によることを明記。図4の個数は何年先も合わせた数であると明記。,True,False,False,True,False,False,False,False
+F265_policy_targets_pace,True,【高】「届く確率100%」を「過去の外れ15個のすべてで届く」に変え、M3 の幅の下端が予測より上になることを明記。結論を「直近5点で延ばすと届く計算。10点では届かず、2022年度までで延ばすとどれも届かない」に変更。,True,False,False,True,False,True,False,False
+F265_policy_targets_pace,True,【中】頑健性の誤り2つを訂正（30%を超えるのは3点と5点のロジット、ロジットは84.7〜92.5%）。,False,False,False,False,False,False,True,False
+F265_policy_targets_pace,True,【中】題名に「直近5点の直線で延ばすと」を追加。,False,False,False,False,False,True,False,False
+F265_policy_targets_pace,False,【中】倍率の話に「各2件だけ」「分母が小さいと倍率が大きく振れる」「結果が分かる中で」「男性育休13%は僅差」「4件は同じ系列」を追加。,False,False,True,False,False,False,False,False
+F265_policy_targets_pace,False,【中】有給2025年の未公表を、2026-11-11に厚生労働省のページで確認（令和8年調査は未公表）と明記。,True,False,False,False,False,False,False,False
+F265_policy_targets_pace,False,【中】3指標まとめた外れを使った箇所（男性育休 M3）と、まとめなかった箇所（有給2015年以降の2028年）を開示。,False,False,False,False,False,False,False,False
+F265_policy_targets_pace,False,【中】推測と事実を分けた（直線で延ばすと小さく見積もる、外れが上振ればかりの理由、すべてで届くを確率と読む危うさ、制度変更と伸びの時期）。,False,False,False,False,False,True,False,False
+F265_policy_targets_pace,False,【低】図4は全期間の外れで、2020年時点の幅は2020年5月までに答えが出たものだけ、と明記。,True,False,False,True,False,True,False,False
+F265_policy_targets_pace,False,【低】平成23年度の3県除外、2008年の約1ポイントの段差、育休取得率の定義、過労死等防止大綱の「2028年」の意味を確かめていないことを追記。,False,True,False,False,True,False,False,False
+F265_policy_targets_pace,False,【低】有給2024年の66.9%を、2020年時点で同じ2024年を予測した幅（52.8〜64.5%）と比べ直した。,False,False,False,True,False,False,False,False
+F266_rice_price_stages,True,1（高） | 「円では増え、率では縮んだ」は1か月（2025年11月）の倍率 1.61 によるもので、2025年の平均は 1.79倍で2015〜23年と同じ | 本文・結論・考察を「率はほぼ保たれ、円が増えた」に直し、月ごとの幅（2025年3〜8月 1.90〜2.02倍、2026年9月 2.05倍）を書いた。図4の題も直した,False,True,False,True,False,False,False,False
+F266_rice_price_stages,True,2（中） | 「3分の2」は山の月の値で、月ごとに 43〜82% と動く | 題と結論に「店頭の山の月で」と付け、月ごとの幅と最新月（37%）を本文に入れた,True,True,False,True,False,False,False,False
+F266_rice_price_stages,True,3（中） | 上に乗る分の定義（同じ月／1か月遅れ）が題と結論で混ざっていた | 主な定義を同じ月にそろえ、1か月遅れの数字は問い直しの節でだけ使い定義を明記。題の数字は同じ月の2026年1〜9月の平均 369円に,True,True,False,False,True,False,False,False
+F266_rice_price_stages,False,4（中） | 「戻り切っていない」は名目の比較でコストの上昇を無視 | 消費者物価（総合）でならした値（208円 対 298円、差は約90円）を足し、コストの上昇の説明を推測として書いた,False,False,False,False,False,False,False,False
+F266_rice_price_stages,False,5（中） | 「2024年の夏から…1年で2倍を超えた」は不正確 | 「2025年3月以降は2023年の平均の2倍を超えた」に直した,False,True,False,False,False,False,False,False
+F266_rice_price_stages,False,6（中） | 相対取引価格には運賃・玄米の袋代が入っている。銘柄・地域の違いも上に乗る分に入る | 「卸から先の運賃・精米後の袋」と書き、銘柄・地域の違い（新潟コシヒカリでは倍率 1.79→1.55）を書いた,False,False,False,False,False,False,False,False
+F266_rice_price_stages,False,7（中） | 題が長く、上の問題を含む | 128字に縮め、1〜3を反映,False,False,False,False,False,False,False,False
+F266_rice_price_stages,False,8（低） | 2024年夏の説明が一つだけで出典もない | 歩留まりの低下・買いだめも推測として並べ、スポット取引の値段は確かめていないと明記,True,False,False,False,False,False,False,False
+F266_rice_price_stages,False,9（低） | 回帰の期間、下りの 2.02、上り・下りの2点比較 | 期間（2010年10月〜）を書き、2.02 は外れ値の影響の可能性（推測）、2点比較は区切りで変わると書いた,False,True,False,False,False,True,False,False
+F266_rice_price_stages,False,10（低） | 同じ月の上に乗る分の最大は2025年7月（509円） | 「春」を「春〜夏」に直し、最大の月を書いた,False,False,False,False,False,False,False,False
+F266_rice_price_stages,False,11（低） | 表のつなぎ方・旧形式の月の割り当て・PLAN の期間・消費税の率 | データの表と計画からのずれに書き足した,False,False,False,False,False,True,False,False
+F267_kpi_target_allocation_cvs,True,1 高 | 「客単価が売上とそろう」は達成率だけ。年ごとには逆の年が多い | 判定が逆の年を追加（傾向の比：客単価 8/16・客数 2/16、等分：5・6）。考察を「傾向から出発しても届く年はそろわない」に直し、題名を「達成率で2年分ずれ、届いた年も売上とは食い違った」に変更,False,False,False,False,False,False,False,False
+F267_kpi_target_allocation_cvs,False,2 中 | 2011年の伸びを震災で説明していた | 2011年は客単価 +4.5%、1〜2月から +4% 超。2010年10月のたばこ税（推測）、9月の駆け込み（客単価 +10.6%）、10月の反動（売上 −5.9%）を記載,False,True,False,False,False,False,False,False
+F267_kpi_target_allocation_cvs,True,3 中 | たばこ税・消費税・taspo・統合を扱っていない | 言えないことに追加。頑健性に「税とたばこの時期も除く」（客数 48〜50%）を追加し、H1 は「外れになる条件がある」と判定を直した。前半から除くと客数 47%・相関 +0.36,True,True,False,False,False,True,False,False
+F267_kpi_target_allocation_cvs,True,4 中 | 「コロナ期に上がった客単価が下がった分」は誤り（2022〜2025年は下がっていない） | 「伸びが鈍った分（推測）」に修正,False,False,False,False,False,True,True,False
+F267_kpi_target_allocation_cvs,True,5 中 | 物価との相関 −0.18 は2020〜21年が主で、物価がほぼ動いていない期間 | 「月ごとの相関からはほとんど何も言えない」とし、税・たばこを除いた値（+0.06）を記載。結論は24%対7%の差に置き、たばこの値上げの分も（推測）で記載,False,True,False,False,False,True,False,False
+F267_kpi_target_allocation_cvs,False,6 低 | H4 の理由の説明が不正確 | 「2016年以降の客単価の目標（+0.3〜+3.0%）が実際の伸びとほぼ同じ高さに置かれ、月の値が上下を行き来するため（推測）」に修正,False,False,False,False,False,False,False,False
+F267_kpi_target_allocation_cvs,False,7 低 | まとめ買いの説明に推測の印がない | （推測）を付けた,True,False,False,False,False,False,False,False
+F267_kpi_target_allocation_cvs,False,8 低 | 62.5% の丸め | 63% にそろえた（図4の表示も）,False,False,False,False,False,False,False,False
+F267_kpi_target_allocation_cvs,False,9 低 | 物価の系列の名前 | 「食料工業製品（加工食品）」にそろえた（図6も）,False,False,False,False,False,False,False,False
+F267_kpi_target_allocation_cvs,True,10 低 | 傾向の比が不安定な年 | 2023年（合計 +0.05%）と2010〜2011年の符号の食い違いを、言えないことと記事に記載,False,True,False,False,False,False,True,False
+F268_life_table_annuity_value,True,1 | 2019→2024年の下げを「伸びの止まり」と言い切っている。2020年は死亡率最低の年、2021〜23年は超過死亡（新型コロナなど）。R3 の3年平均も超過死亡の年だけで、一時的か鈍化かを分けられない | 結論・言えないこと・頑健性を弱め、（推測）とした,False,False,False,False,False,True,False,True
+F268_life_table_annuity_value,True,2 | H5 の比べる相手に1990〜2000年代の大きな改善が入る。直近10年は男2.2%・女1.3% | 結論と5章に直近10年を足し、「4割前後」→「3.5〜4割（男42%・女36%）」,False,False,True,False,False,True,False,False
+F268_life_table_annuity_value,False,3 | 「実務では改善を見込む生命表を使うことが多い」に出典がない | 言い切らない書き方に直した,False,False,False,False,False,False,False,True
+F268_life_table_annuity_value,False,4 | 割引率の変更（1回）と生命表の更新（5年の積み重ね）は性質が違う。「小さな見直し」は価値判断 | 性質の違いを書き、言い方と図4の題を直した,False,False,False,False,False,False,False,False
+F268_life_table_annuity_value,True,5 | survival_from が `age < last` で、最後の各歳（JMD 99歳・簡易生命表104歳）に開いた階級の死亡率を使っていた（問い直しのコーホートは q99 を使っていて食い違い） | `age <= last` に直し、全部を計算し直した。水準の変化は割引率1.7%で0.07%以内、5年の変化は0.03ポイント以内、判定は不変。記事・README の数字は直した後のもの,False,False,False,False,False,False,True,False
+F268_life_table_annuity_value,False,6 | 計画からの小さなずれ（1960年から計算、H5 の平均の取り方、30年→29年）が書かれていない | 計画からのずれに追記し、本文を「1990〜2019年」「29年」に,False,False,False,False,False,False,False,False
+F268_life_table_annuity_value,True,7 | 題名の「6〜10%低かった」に条件がない | 「（1985〜90年に65歳の人）」を足した,True,False,False,False,False,False,False,False
+F268_life_table_annuity_value,False,8 | 01 が簡易生命表3つしかハッシュを確かめていない | JMD・社人研・財政検証の csv にも md5 を付けた,True,False,False,False,False,False,False,False
+F269_sme_price_passthrough,False,価格交渉の平均点の定義（−10〜10点、「コストが上がらず交渉不要」も10点）を本文・図4の軸に正しく書いた。定義の違いが相関に影響しうることを「言えないこと」に足した。,False,False,False,False,True,False,False,False
+F269_sme_price_passthrough,False,変化どうしの相関 0.14 に95%区間（−0.24〜0.47）と点の変化の標準偏差 0.43 を足し、「上がったとは言えない」を「確かめられなかった」に直した。同じ回の4つの相関に p を足し、独立な4つの確かめではないことを書いた。,False,False,False,True,False,False,False,False
+F269_sme_price_passthrough,False,追いつきの傾き −0.18 は期間が短く、測定の誤差で0に寄りやすいので、同じ期間の操作変数（−0.28）・単純な回帰（−0.29）と並べて −0.28〜−0.18 程度とした。,False,False,False,False,False,True,False,False
+F269_sme_price_passthrough,True,"回ごとの回答数の増加（回答企業数 3.6万→7.0万社、段階の表の n 33,377→76,339）を書き、「追いついた」を「散らばりが縮んだ（回答数の増加の影響は分けられない）」に弱めた。",False,False,False,False,False,False,False,True
+F269_sme_price_passthrough,False,結果を見てから足した指標（四分位範囲・上下10%除く・最も低い1業種を除く・H2 の除外）と、計画にあってやっていないこと（回答数での重み、区間の下限・上限）を「計画からのずれ」に書いた。,False,True,False,True,False,False,False,False
+F269_sme_price_passthrough,False,最大−最小が組の数で大きくなりやすいこと、業種ごとの回答数が分からないことを書いた。,False,False,False,False,False,False,False,False
+F269_sme_price_passthrough,False,短観の中小企業の範囲（資本金2千万〜1億円）、差の変化が四半期の振れの範囲であること（p=0.19）を書き、推測の言い方を「値上げしたと答える企業の割合の差」に直した。,False,False,False,False,False,False,False,False
+F269_sme_price_passthrough,False,公開のコードと結果の中で特定の業種が分かるキー名を、「最も低い1業種」を表す名前に変えた。,False,False,False,False,False,False,True,False
+F269_sme_price_passthrough,False,PDF をリポジトリから外す .gitignore を足した。30業種と27業種の違い、原材料費と労務費の差のいちばん小さい回（2025年9月の5.0）を書いた。,False,False,False,False,False,False,False,False
+F270_inbound_record_per_capita,False,構成の分解の差が組み立てた値で、公表値の差（+7.03・−1.76・+0.19万円）と違う | 本文・図5に両方を並べ、組み立てた値のずれ（2019年 +1.54%、2024年 +0.42%、2025年 +0.11%）を書いた,False,False,False,False,False,False,False,False
+F270_inbound_record_per_capita,True,「構成の変化はわずかにマイナス」 | 「ほぼゼロ（符号は重みの取り方で0〜−0.60万円）」に改め、クルーズ客の影響の可能性を（推測）で書いた,False,False,False,False,False,False,False,False
+F270_inbound_record_per_capita,True,「構成の変化がなければ前年を下回っていた」を事実として書いている | 「この分け方では〜計算になる（目安）」に弱め、中国の分（−0.60万円）を明記。一般客の人数での重み付けは、国籍別の旅行消費額が手元の Excel にないため行っていないと書いた,True,False,False,False,True,False,False,True
+F270_inbound_record_per_capita,True,「ドルで見ると最も低い」は実質だけ | 題名・結論・本文を「ドルに直して米国の物価でも割ると」「実質のドルでは」に直し、名目は2017年より多いことを書いた,False,False,False,False,False,False,False,False
+F270_inbound_record_per_capita,False,2018年の調査の変更の説明がない／ドルの比較が切れ目をまたぐ | 変更の中身（クルーズ調査の分離、集計表の注で確認）を書き、同じ方式の2018〜2019年の最大と比べた値（−16.5%）を頑健性に加えた,False,False,False,False,False,False,False,False
+F270_inbound_record_per_capita,False,「15年の中で」 | 「比べられる12年の中で」に直し、2022年を入れると3番目と書いた,False,False,False,False,False,False,False,False
+F270_inbound_record_per_capita,True,図3の判定期間 | 訪日客数は2003年以降で判定と明記,True,False,False,False,False,True,False,False
+F270_inbound_record_per_capita,False,H4 の数え方 | 1人あたりは2011年から数えていること、2022年を入れると3/9 になることを書いた,False,True,False,False,True,False,False,False
+F270_inbound_record_per_capita,False,問い直しが2つ | 計画からのずれに書いた,False,False,False,False,False,False,False,False
+F270_inbound_record_per_capita,False,2025年の米国の物価は11か月の平均 | 言えないことに書いた,False,True,False,False,False,False,False,False
+F270_inbound_record_per_capita,False,「アジアの国・地域では大きく下回る」 | 5つの国・地域を名指しし、シンガポール・マレーシアの値も書いた,False,False,False,False,False,False,False,False
+F270_inbound_record_per_capita,False,考察の（推測）の使い方 | 「まだ確かめていない」に直した,False,False,False,False,False,False,False,False
+F270_inbound_record_per_capita,False,泊数 +7.7% | +7.65% に直した,False,False,False,False,False,False,False,False
+F271_dashboard_answer_cost,True,【高】「約40分の1」は、時間が問いごとにほぼ一定で8つの塊になるため、中央値の比が塊の間の値になったもので、計算の仮定にも左右される → 題・結論・本文を「数十分の1（仮定しだいで約1/14〜1/40）」にし、問いごとの比（中央値0.054、幾何平均0.032、Q6除く0.069）を先に書いた。計算1回＝5.55秒の定義を手法に書いた（`results/main.json` の per_question_ratio_d3_d1・ratio_by_calc）。,True,True,False,False,True,False,True,False
+F271_dashboard_answer_cost,False,【高】05 の「計算を暗算」が、もとの M を残したまま M×3 を足していた（実際は M×4）→ M×2 を足す形に直し（D1 27.95秒、比0.030）、「計算＝M だけ」「計算＝0」を頑健性に足した。,False,False,False,False,False,False,False,False
+F271_dashboard_answer_cost,False,【中】「時間の7割は計算」は平均で、その9割は Q6 から → 「平均では」「Q6 の帯の計算が大半」と書き、Q6 を除いた割合（D1 58%、D2 71%）を足した。,False,True,False,False,False,False,False,False
+F271_dashboard_answer_cost,True,【中】冒頭の「開かれるかどうかは手間で決まる」を（仮定）とし、結論の前に「人ではなく操作を数えた見積もり」と書いた。,True,False,False,False,False,False,False,False
+F271_dashboard_answer_cost,False,【中】H4 は誤差の仮定でほぼ決まる → σ=1.5% が仮定であること、横方向の誤差を入れていない（楽観的）ことを書き、「線の太さに埋もれる」は（推測）にした。,True,False,False,False,False,False,False,False
+F271_dashboard_answer_cost,False,【中】探す数はタグの付け方に依存 → 手法にタグの付け方を書き、言えないことに足した。,True,False,False,False,False,False,False,False
+F271_dashboard_answer_cost,False,【低】X4 の読み方が画面で違うことを結果に書いた。,False,False,False,False,False,False,False,False
+F271_dashboard_answer_cost,False,【低】D4 の「邪魔にならない」を、このモデルでは最初の画面の下は数えないため、と書き直した。,False,False,False,False,False,False,False,False
+F271_dashboard_answer_cost,False,【低】D1 のカードが計画の6枚ではなく7枚であることを計画からのずれに足した。,False,False,False,False,False,False,False,False
+F271_dashboard_answer_cost,False,【低】「位置で判断することも多いはず」を（推測）にした（note の本文）。,False,False,False,False,False,False,False,False
+F271_dashboard_answer_cost,False,"【低】5,760件の内訳を書き、H5 の比を1.54にそろえた。",False,False,False,False,False,False,False,False
+F272_fire_insurance_rate_vs_risk,True,【高】補正した傾き 0.44 に幅を付けた（折半の幅 0.32〜0.71、再標本化 0.19〜1.14、逆回帰の上限 0.95、6年分で 0.35）。「補正しても1より小さいことは変わらない」を削除し、「約38年」を「数十年（約19〜81年）」に、タイトルの「2倍ほど強まる」を「強まるが、幅は大きい」に弱めた,True,True,False,True,False,False,False,True
+F272_fire_insurance_rate_vs_risk,False,【高】H4 の料率に保険期間の構成が入り、比べた期間が2022年10月の見直しをまたぐことを書き、見直し前で終わる窓（−0.02、0.02）を足した,False,False,False,False,False,True,False,False
+F272_fire_insurance_rate_vs_risk,False,【中】「料率」の定義を最初に書き、「料率の差は保険金の差の2割しか映していない」（弾力性の読み違い）を「保険金が2倍でも保険料は約15%高い」に直した,False,False,False,False,True,False,False,False
+F272_fire_insurance_rate_vs_risk,False,【中】「見え方の半分ほどは揺れから」を「観測された傾きは揺れで小さく出ている可能性がある（推測、幅は大きい）」に直した,False,False,False,True,False,False,False,False
+F272_fire_insurance_rate_vs_risk,False,【中】0.46 → 0.68 が対数のピアソン相関であることを明記した,True,False,False,False,False,False,False,False
+F272_fire_insurance_rate_vs_risk,True,【中】支払が年度で分かれ、1つの台風が2年度にまたがりうること、それが H3 の確かめを弱めること（推測）を書いた,False,True,False,False,False,False,False,True
+F272_fire_insurance_rate_vs_risk,False,【低】料率の変化を比で −15.7%〜+16.4% と書いた,False,False,False,False,False,False,False,False
+F272_fire_insurance_rate_vs_risk,False,【低】重みづけの傾きの再標本化の区間（−0.00〜0.45）と、前半の区間が0を含むことを書いた,False,False,False,True,False,False,False,False
+F272_fire_insurance_rate_vs_risk,False,【低】付帯費用の注記は2024年度版（2023年度の統計）からと直し、保険料が異動・解約を加減していない総額であることを書いた,False,False,False,False,False,False,False,False
+F272_fire_insurance_rate_vs_risk,False,【低】頑健性2の期間が計画と違うことをずれに書いた,False,False,False,False,False,True,False,False
+F272_fire_insurance_rate_vs_risk,False,【低】図2（fig1）の点の大きさをそろえ、保険料の大きさで都道府県が分からないようにした,False,False,False,False,False,False,False,False
+F273_regional_dispersion_lodging,True,1 | 計画の前に割合を見ていたので、H1・H4・H5（割合）は確かめとして弱い | 判定表と記事の「計画からのずれ」に注記,False,False,False,False,False,False,False,False
+F273_regional_dispersion_lodging,True,2 | H3「さらに一部に集まる向き」は言いすぎ（差0.9pt＜揺れ2.6pt、2014年とほぼ同じ） | 「集中が強まったとは言えない」に弱め、「一部に」は増加の7割の物差しに限定,True,False,False,False,False,False,False,True
+F273_regional_dispersion_lodging,True,3 | 2017年の山は有利な比べる相手 | 題名・結論に2019年（37.3%）を追加、2017年は構成が違う（推測）と追記,False,False,True,False,False,False,False,False
+F273_regional_dispersion_lodging,False,4 | 日本人の低下は2019年まで、2022年以降は戻り | 期間を分けて記述,False,False,False,False,False,True,False,False
+F273_regional_dispersion_lodging,False,5 | 「伸びが少しでも鈍ると」 | 「年12%を下回ると」に（要る割合41.0%となる全体の伸びは年12.0%）,False,False,False,False,False,False,False,False
+F273_regional_dispersion_lodging,True,"6 | 増加の分け方は順番で変わる | 逆順（+2,163万・−416万）を併記、割合の分はどちらもマイナス",False,False,False,False,True,False,False,False
+F273_regional_dispersion_lodging,False,"7 | 「7割」の分母 | 差し引き1,747万に対して70%、増えた道県の合計1,818万に対して67%と明記",True,False,True,False,False,False,False,False
+F273_regional_dispersion_lodging,False,8 | ジニの水準に都道府県の大きさの差が入る | 日本人の0.447を目安として用語に追記,False,False,False,False,False,False,False,False
+F273_regional_dispersion_lodging,False,9 | 「増え方の差が大きくなっています」は比較がない | 「0.70〜2.69倍」と範囲で記述,False,False,False,False,False,False,False,False
+F273_regional_dispersion_lodging,False,10 | コードから都道府県は特定できる | 書き方を訂正,False,False,False,False,False,False,True,False
+F273_regional_dispersion_lodging,False,11 | 考察の「レポート業務」 | 「数字を報告するとき」に変更,False,False,False,False,False,False,False,False
+F273_regional_dispersion_lodging,False,12 | 2030年の目標の出典 | 観光ビジョン（2016年）と、今の値を確認した「令和6年度 政策チェックアップ評価書」業績指標65を明記,True,False,False,False,False,False,False,False
+F274_labor_shortage_bankruptcy_rate,True,1 | 【高】H4：4点の直線（求人倍率1.36〜1.61）を1.22まで延ばした「予測0.2件」は、2020年−0.4件・2021年−1.2件と負の件数を予測する比べ方で、ほぼ必ず支持になる | 結論・見出しから「0.2件のはず／14.0件」を外し、「求人倍率は1.60→1.22と下がったのに7.0→14.0件に増えた」だけにした。判定に「弱い証拠」と添え、図5の直線を当てはめた範囲だけに引き、2016〜19年は両方がそろって上がっていただけかもしれないことを書いた,False,True,False,False,False,False,False,False
+F274_labor_shortage_bankruptcy_rate,True,2 | 【中】数え方の変更による伸びの向きが逆 | 「2.0倍（4要因）から2.5倍（3要因）へと大きく見える」に直した,False,False,False,False,True,False,False,False
+F274_labor_shortage_bankruptcy_rate,False,"3 | 【中】倒産全体が「2年続けて1万件超」は TSR だけ（TDB の2024年は9,901件） | 「東京商工リサーチの集計では2024年から2年続けて1万件超（帝国データバンクは2025年に1万件超）」にした",False,False,False,False,False,False,False,False
+F274_labor_shortage_bankruptcy_rate,False,"4 | 【中】分子は個人事業主や会社以外の法人を含み、分母は会社だけ | 言えないことに追加。TDB 年報で2025年の倒産全体のうち個人事業主は1,826件と確認した。個人を含む企業数で割っても2.40倍と添えた",False,False,True,False,False,False,False,False
+F274_labor_shortage_bankruptcy_rate,False,5 | 【中】「採れない→払えない」は2019年を基準にしたときの読み方 | 「2019年と比べると」と明記し、2016年の割合（人件費高騰40%・求人難30%）と2025÷2016（求人難6.97・退職5.68・人件費高騰5.80倍）を足した。図6に2016年との比較を加えた。増加分の数字は TSR の3要因と明記した,True,False,True,False,False,False,False,False
+F274_labor_shortage_bankruptcy_rate,False,6 | 【中】「求人倍率では説明できない」は因果的 | 「求人倍率の動きとは連動していなかった（関連を見ただけで因果は扱っていない）」にし、2020年の減少はコロナの需要の落ち込みと重なることを書いた,False,False,False,False,False,True,False,True
+F274_labor_shortage_bankruptcy_rate,False,7 | 【低】2.40倍に推測の印がない | 2022年以降の企業数は延ばした値（推測）と添えた,False,False,False,False,False,False,False,False
+F274_labor_shortage_bankruptcy_rate,False,8 | 【低】数え方を変えた時期の書き方が2か所で違う | 「2019年分の発表までは4要因、遅くとも2023年分からは3要因（その間は確認できていない）」にそろえた,False,False,False,False,True,True,False,False
+F274_labor_shortage_bankruptcy_rate,False,9 | 【低】結果を見た後に足したものの一覧が足りない | 頑健性5と TSR の4要因の割合（1.63倍）を加えた,False,False,False,False,False,False,False,False
+F274_labor_shortage_bankruptcy_rate,True,10 | 【低】題名が長く、0.2件のような主張を含む | 題名を短くし（約115字）、TDB と TSR の数字を書き分け、人件費の主張を外した,False,False,False,False,False,False,False,False
+F275_sql_change_requests,True,1 | 答え合わせの95%は、8つの変更依頼を知って入れた境目のケースと、正しい答えの計算が直してある前提に依存 | 結論と言えないことに「事前に知らない変更では境目なしの74%が近い可能性（推測）」「正しい答えの計算の手間と直し忘れは測っていない」を追加。図4の題を変更,True,False,False,False,False,False,False,False
+F275_sql_change_requests,True,2 | 「照合では1つも見つからなかった」の n と性質 | 4種であること、構造から決まること、コピペ型でも同じ誤りを全ファイルに写せば同じこと、S1 の見逃しも本題と同じ場所であることを追記。題名に「4種」,False,True,False,False,False,False,True,False
+F275_sql_change_requests,False,3 | 「照合」の定義 | 用語で T1＋T2 と定義、T1 だけなら76%、相対誤差1e-9で比べたことを追記,False,False,False,False,True,False,False,False
+F275_sql_change_requests,False,4 | T-SQL の構文解析は弱い確かめ | 「互換の保証ではない」と書き換え、0で割ったときの違いを追記,False,False,False,False,False,False,False,False
+F275_sql_change_requests,False,5 | 変異はファイル単位だけ、行数は整形に依存 | 言えないことに追記,False,False,False,False,True,False,False,False
+F275_sql_change_requests,False,6 | S2 は S1 と同じ結果 | 重なりを除くと54通りで T4 は51通り（94.4%）と注記,False,True,False,False,False,False,False,False
+F275_sql_change_requests,False,7 | 許容0.5%で CR1 の7個はすべて許容内 | 「多く」を「すべて」に直し、月の合計のずれが最大0.49%であることを書いた（自分で計算）,False,False,False,False,False,False,False,False
+F275_sql_change_requests,False,8 | すり抜け9個目（CR2 の R7）が本文にない | 3章に追記,False,False,False,False,False,False,False,False
+F275_sql_change_requests,False,"9 | 1,824比較の範囲 | 種ごとの範囲を明記",True,False,False,False,False,False,False,False
+F275_sql_change_requests,False,10 | 推測の印、R8 の見逃しの原因 | 「よくある書き方」「目で見ても気づきにくい」に（推測）、5章に R8 の見逃しの原因を追記,False,False,False,False,False,False,False,False
+F275_sql_change_requests,False,11 | CR8 の言い方 | 「日ごとの会員の人数（会員 ID がないレシートは1枚を1人）」に,False,False,False,False,False,False,False,False
+F276_earthquake_insurance_after_quakes,True,1 | 題名・冒頭は「加入率」だが数字は付帯率（流れ） | 題名を「付帯率」に変え、付帯率（流れ）と世帯加入率（たまり）の違いと、世帯加入率での山の中央値 1.5 を書いた,False,False,False,False,False,False,False,False
+F276_earthquake_insurance_after_quakes,False,2 | 2011年は遠い県も +4.9 と大きく上がった | 言えないことに、2011年の6組は小さめに出ている可能性（推測）を書いた,False,True,False,False,False,False,False,False
+F276_earthquake_insurance_after_quakes,False,3 | U0 の中央値の書き方 | 全20組で 0.2、1〜3月の地震を除くと 0.8（10組）、2011年の5年後は実質約4年と書いた,False,True,False,False,False,False,False,False
+F276_earthquake_insurance_after_quakes,False,4 | 問い直しが強すぎる | p 値（0.13・0.09、区切りは後付けで 0.045）を書き、「偶然と区別できない」とし、天井と平均への回帰の両方がありうる（推測）とした。図6の題も直した,True,False,True,False,False,False,False,True
+F276_earthquake_insurance_after_quakes,True,5 | 隣/被災の比は条件で 0.21〜0.34 | 本文に幅を書き、題名を「約2〜3割」にした,True,False,False,True,False,False,False,False
+F276_earthquake_insurance_after_quakes,False,6 | R3 に2008年の岩手が残る／2008年の対照に2011年の被災県 | 岩手も除くと 1.11 と書き、言えないことに足した,False,True,False,False,False,False,False,False
+F276_earthquake_insurance_after_quakes,False,7 | 月の細部（山の窓0〜3か月、半減期なし2組、青森は7か月） | ずれと5章に書いた,False,False,False,False,False,False,False,False
+F276_earthquake_insurance_after_quakes,True,8 | 結論の3つ目（偶然の幅）と6つ目（問い直し）は後付け | 結論にそう書き、偶然だけなら約1組と添えた,True,False,True,True,False,False,False,False
+F276_earthquake_insurance_after_quakes,False,9 | R1 は18組 | 頑健性の表に書いた,False,False,False,False,False,False,False,False
+F277_minimum_wage_council_indicators,True,1 | 結論4「2023年度以降は15〜19%」は誤り（2023年度は8.5%） | 「2024年度以降は18〜19%（2023年度は8.5%）」に,False,False,False,False,False,False,True,False
+F277_minimum_wage_council_indicators,True,2 | タイトル・結論6の言い切りが強い（2021年を除くと p=0.07） | 「映している可能性がある」に。寄与を 0.75〜0.9ポイントに。結論6を「結果を見た後に加えた問い」と明記,True,True,False,False,False,False,False,True
+F277_minimum_wage_council_indicators,False,3 | 第4表だけの式の LOO の誤差（0.98）が書かれていない | 本文・図3・図5に追加。指標を足すと予測の誤差が大きくなったことを明記,True,False,False,False,False,False,False,False
+F277_minimum_wage_council_indicators,False,4 | 考察の式は試していない | 事後に計算（LOO 0.88、前年の係数 0.03）し、事後の結果と明記。考察を第4表だけの式と前年と同じを基準にする形に直した,True,False,True,False,False,False,False,False
+F277_minimum_wage_council_indicators,False,5 | 頑健性で「前年と同じ」を全年の値と比べていた | 条件ごとに同じ年で計算し直し（R2：0.76・0.82・0.97、2021も除くと 0.78・0.77・0.74）、図5を作り直した。全年の 1.14 は 2020・2021年度でほぼ決まることを明記,True,True,False,False,False,False,True,False
+F277_minimum_wage_council_indicators,False,6 | 時期の区切り（2007〜15・2016〜19・2021〜26）は事後 | 本文と計画からのずれに明記,True,False,False,False,False,True,False,False
+F277_minimum_wage_council_indicators,True,7 | 第4表だけの式の H3 比較は事後 | 本文に明記、H3 の判定は変わらない,True,False,False,False,False,False,False,False
+F277_minimum_wage_council_indicators,False,8 | 春季賃上げは確定値 | 言えないことに追加（推測）,False,False,False,False,False,False,False,False
+F277_minimum_wage_council_indicators,False,9 | 1章の「1.0〜2.4%」 | 「1.4〜2.4%（2011年度だけ0.96%）」に,False,True,False,False,False,False,False,False
+F277_minimum_wage_council_indicators,False,10 | 法改正と政府方針の出典 | 最低賃金法の一部を改正する法律（平成19年法律第129号）、ニッポン一億総活躍プラン（2016年6月閣議決定）を追加,False,False,False,False,False,False,False,False
+F277_minimum_wage_council_indicators,False,11 | 物価の系列も事前に見ていた可能性 | 本文・計画からのずれに追記（PLAN は書き換えない）,False,False,False,False,False,False,False,False
+F277_minimum_wage_council_indicators,False,12 | 2021年の「0.6%」 | 3指標の式の当てはめ値（2021年を含めた当てはめ）と明記,True,True,False,False,False,False,False,False
+F278_vacant_record_stock_vs_rate,False,1 | 2018年の総数の標準誤差率を2023年の値で代用したことが本文になく、頑健性も0%（z が上がる側）しかない | 本文に代用を明記。0.2%・0.4%・0.6% で z を計算し（2.46・2.21・1.92）、約0.57%以上で z < 1.96 になることを本文・頑健性に追加（推測：2023年0.09%からみて起こりにくい）,True,False,False,True,False,False,False,False
+F278_vacant_record_stock_vs_rate,True,2 | 「誤差を超えて／誤差の約2.5倍」があいまい | 「標準誤差の約2.5倍（95%の幅±0.18ポイントの外）」に統一。「誤差だけでは説明できない」は「標本誤差だけでは説明しにくい（調査のやり方の違いによるずれは別）」に弱めた,False,False,False,True,False,False,False,True
+F278_vacant_record_stock_vs_rate,True,3 | H1・H3 は計画前に値を見て置いた仮説 | 記事の判定の横にも「確かめとしては弱い」と明記,True,False,False,False,False,False,False,False
+F278_vacant_record_stock_vs_rate,False,4 | 問い直しは全国では「住宅が増えたか」とほぼ同じ | 本文と README に一文追加,False,False,False,False,False,False,False,False
+F278_vacant_record_stock_vs_rate,False,5 | 「864万戸」は分解の合計（863万戸）と両端の差（864万戸）が約1万戸ずれる | 「約863万戸」とし、沖縄の扱いのずれを注記。47%は変わらない,False,False,False,False,False,False,False,False
+F278_vacant_record_stock_vs_rate,False,6 | 記述のための集計が計画にないことが書かれていない | 計画からのずれに追加,False,False,False,False,False,False,False,False
+F278_vacant_record_stock_vs_rate,True,7 | 題名が長い | 問いと「7割は住宅が増えた分」「数も率も13回続けて記録」に絞り、率と標本誤差の話は冒頭の段落へ移した,False,False,False,False,False,False,False,False
+F279_rfm_segment_transitions,False,季節の影響を小さく書いていた（中） | 月ごとの購入顧客数（9〜11月が山、12〜2月が谷）と、全体の割合が2011年4月の時点から段のように上がったことを事実として書き、H4 は季節と完全に重なると明記。理由は（推測）のまま,True,True,False,False,False,False,False,False
+F279_rfm_segment_transitions,True,H3 に幅がない（中） | 顧客単位の再標本化（7時点まとめて300回）で差 −2.43pt、95%の幅 −3.9〜−1.3pt。判定は「支持（点推定で）」とし、「向きは確かだが3pt未満とは言い切れない」と追記,False,False,False,True,True,False,False,True
+F279_rfm_segment_transitions,False,42%は過去の期間を6か月にした値（低） | 「点の付け方や過去の期間を変えると42〜69%」に直した,True,False,False,False,False,True,False,False
+F279_rfm_segment_transitions,False,丸めの不一致（低） | 図5を小数1桁にし、本文も新規 +12.5、常連 +10.1 とそろえた,False,False,False,False,False,False,False,False
+F279_rfm_segment_transitions,False,人数の少ない区分の揺れ（低） | 新規・失えない・見込みは標本の揺れだけで ±10〜15pt 動きうると追記,False,False,False,False,False,False,False,False
+F279_rfm_segment_transitions,False,"重複の内訳（低） | 2つのシートの重なり 22,202 行、シート内の重複 12,133 行と明記",True,False,False,False,False,False,False,False
+F279_rfm_segment_transitions,False,"顧客 ID のない行（低） | 243,007 行（約23%）を除いたと明記",True,True,False,False,False,False,False,False
+F279_rfm_segment_transitions,False,頑健性の数え方（低） | 「計画の6つの確かめ（結果の期間は3か月・12か月の2通り）」にそろえた,False,False,False,False,True,True,False,False
+F279_rfm_segment_transitions,False,図4の縦軸（低） | 縦軸が60%から始まることを図の説明に書いた,False,False,False,False,False,False,False,False
+F280_medical_cost_three_elements,True,2023年度の推計方法の変化を「言えないこと」に書き、R7（終わり2022年度）を足した：年齢構成 53.1%、1日当たり 347%、入院日数 −9.2千円、改定との差 +28.5ポイント、1件当たりの差 +18.1ポイント。判定は変わらない。,False,False,False,False,False,False,False,False
+F280_medical_cost_three_elements,False,1日当たり医療費は値段×1日の医療の中身なので、改定との差を「中身の変化のうち改定で説明できない分」と書き、記事の「1日の値段」という言い方をやめた。,False,False,False,False,False,False,False,False
+F280_medical_cost_three_elements,True,「約11ポイントは日数の減りの言い換え」は上限なので、「最大で約11ポイント（推測）」に弱め、長期処方の仕組みも書いた。,False,False,False,False,False,False,False,True
+F280_medical_cost_three_elements,False,2020年度の1日当たりの伸び（+4.7）に、受診する人の構成の変化と一時的な加算の可能性を（推測）で書いた。,False,False,False,False,False,False,False,False
+F280_medical_cost_three_elements,False,記事の「入院している日の医療は濃くなった」に（推測）を付けた。,True,False,False,False,False,False,False,False
+F280_medical_cost_three_elements,False,公表の要因分解からの 47% の計算式と、目安であることを書いた。,False,False,False,False,False,False,False,False
+F280_medical_cost_three_elements,False,人口の表の読み取りの直しを、記事の「計画からのずれ」にも書いた。,False,False,False,False,False,False,False,False
+F280_medical_cost_three_elements,True,受診率は人数ではなく件数なので、題名を「年齢・人数・単価」から「年齢・回数・日数・1日当たり」に直し、副題を短くした。,False,False,False,False,False,False,False,False
+F281_food_self_sufficiency_target_gap,True,**H4（高）**：届いた割合（実績÷目標）と目標の高さ（目標÷基準）の両方に目標が入るため、順位相関 −0.57 はほぼ割合の作り方から出る（伸びが無関係でも −0.57、95% の幅 −0.71〜−0.41）。目標の高さと実際の伸び（実績÷基準）の順位相関 +0.01（p = 0.91）を主にし、「目標を高くしても生産が伸びたわけではない。その分、高い目標ほど届かない」に書き直した。「p < 0.001」は取り下げ、H4 の判定に注記を付けた。図4 も実際の伸びに替え、軸の目盛りを読みやすくした。,True,False,True,True,False,False,False,False
+F281_food_self_sufficiency_target_gap,True,**H2（高）**：判定は分母（160kcal か 210kcal か）と大豆の直しという事後の2つの選択に左右されるので、「判定保留／弱い支持」とした。210kcal なら畜産物＋魚介類 40% で外れ。,False,False,True,False,False,False,False,False
+F281_food_self_sufficiency_target_gap,True,**米（中）**：米の割合は 8〜24% と幅があり、2025年度の在庫の積み増しによる分が大きいことをタイトル・結論に入れた。自給率 95% は主に在庫の積み増しによるもの（推測）と書き直した。,False,False,False,True,False,False,False,False
+F281_food_self_sufficiency_target_gap,False,**飼料の分（中）**：46kcal は一律の近似であることを「言えないこと」に足し、R3 での飼料の分（45kcal）を載せた。,False,False,False,False,False,False,False,False
+F281_food_self_sufficiency_target_gap,False,**計画からのずれ（中）**：H4 の品目で飼料作物を魚介類に替えたことと、R6 が事後であることを足した。飼料作物を足した結果を参考に載せた。,False,False,False,False,False,False,False,False
+F281_food_self_sufficiency_target_gap,False,**問い直しの近似（低〜中）**：1965〜2023年度の国産熱量がすべて近似であることを書き、丸めの幅（95% で最大 ±2.3 ポイント）を計算した。結論は変わらない。,False,False,False,True,False,False,False,False
+F281_food_self_sufficiency_target_gap,False,"**細かい点（低）**：実績の範囲を「37〜41%」に（2008年度 41%）、37.1% の初出に「概算、830÷2,237kcal から計算」と添えた、生産量の例に牛肉 96% を足した。",False,False,False,False,False,False,False,False
+F282_yen_exports_quantity_price,True,1 | 第3章「2020年まではほぼ重なっていた」は誤り | 2016〜2020年はほぼ重なる（2020年は基準年）、2010〜12年は円ベースが12〜18ポイント下、2015年は8ポイント上、と直した,False,False,True,False,False,True,True,False
+F282_yen_exports_quantity_price,True,2 | 「品目構成など」26%は毎年積み上がる統計のずれ | 17年中16年プラス・年平均+2.2%を本文に書き、結論を「統計の差（構成・品質・作り方）」に,False,False,False,False,False,False,False,False
+F282_yen_exports_quantity_price,False,3 | 2012〜15年「値下げしても数量は増えず」が因果に読める | 生産の海外移転・中国や新興国の減速を（推測）で第7章と言えないことに追加,False,False,False,False,False,False,False,True
+F282_yen_exports_quantity_price,True,4 | H4 の −0.3 は恣意的、重なりで実質の標本が少ない、12か月超の遅れを見ていない | 3点を書き、「強い負の相関は見られなかった」に弱めた,False,False,False,False,False,False,False,True
+F282_yen_exports_quantity_price,False,5 | H1b は事前登録なのに全体が事後扱い | 数量（H1b、事前登録・支持）と契約通貨・類別（事後）を分けて書いた,False,False,False,False,False,False,False,False
+F282_yen_exports_quantity_price,True,6 | H1 の判定を弱い確かめの注記のそばに | 第1章に並べた,False,False,False,False,False,False,False,False
+F282_yen_exports_quantity_price,False,7 | 起点2019年と2026年の項目に事後の表示 | その場に「結果を見てから追加」と書いた,False,False,False,False,False,True,False,False
+F282_yen_exports_quantity_price,False,8 | R4 の EU と2010〜2019年が計画になかった | 計画からのずれに追加,False,False,False,False,False,False,False,False
+F282_yen_exports_quantity_price,False,9 | 金属の「半分近く」 | 対数の差で55%なので「半分強（55%）」に,False,False,False,False,False,False,False,False
+F282_yen_exports_quantity_price,False,10 | R3「ほぼ同じ」 | 「近い値（ユーロ・人民元などは考えていない近似）」に,False,False,False,False,False,False,False,False
+F283_price_hike_front_loading,False,高 | 「たばこは減りが残らない」は直線のトレンドに頼っている | 「直線のトレンドを除いた後では減りが見えなかった」に限定し、トレンドなしの S と、消費税・分類改定の段差の不自然な値を「言えないこと」に書いた。題も直した,True,True,False,False,False,False,False,False
+F283_price_hike_front_loading,True,高 | k ≥ 0 のパルスは値上げ後の水準と比べた値 | 値上げ前の水準と比べた値の表を足し、図2を差し替えた。R＋3S で数えると H2 は 4/6 になることを並べ、計画の判定（3/6）は残した,False,False,False,False,False,False,False,False
+F283_price_hike_front_loading,False,中 | 前年比の比べる前年の月が、ほかの出来事の月だった | 比べる月を明記し、H5 の4件のうち2件（ワイン）がこの影響を受けることを書いた,True,False,False,False,False,False,False,False
+F283_price_hike_front_loading,False,中 | 2022年10月を除いた偶然の幅を本文でも使う | 19個の幅（F の上端 0.11）を並べ、たばこ2021年・発泡酒・ビール風2023年がそれを超えることを書いた,False,True,True,True,False,False,False,False
+F283_price_hike_front_loading,True,中 | ワイン2020年が「幅を大きく超える」は言いすぎ | ワインだけの幅（−0.49〜+0.39）をやや上回る程度、に弱めた,False,False,False,True,False,False,False,True
+F283_price_hike_front_loading,False,中 | R2 のたばこは計画行列の階数が足りなかった | 2021年6〜7月を残す窓に直し、全条件・全品目で階数を確かめた,True,True,False,False,False,False,False,False
+F283_price_hike_front_loading,False,低 | 「−6%〜+15%」は対数の値で、上端は名目 | −6.2%〜+12.1%（名目の R3 では最大 +16.8%）に直した,False,False,False,False,False,False,False,False
+F283_price_hike_front_loading,False,低 | 弾力性「約 −2」の測り方 | −2.3（式の段差で割る）と −2.0（前月比で割る）を書き分けた,False,False,False,False,True,False,False,False
+F283_price_hike_front_loading,True,低 | H2 がたばこだけで成り立つこと | 判定の欄に書いた,False,False,False,False,False,False,False,False
+F284_heavy_rain_vs_fire_rates,True,1 | H2 と問い直しの期間が合っていない（2014年の改定は2012年度より前の変化を取り込んだ） | 2014年を除く（5.4倍、支持）と起点2003年（1.56倍、外れ）を頑健性に足し、判定の横に「期間しだい」と書いた,False,True,False,False,False,True,False,False
+F284_heavy_rain_vs_fire_rates,True,2 | 参考純率は保険金額あたりの率なので、修理費の分解は単位が混ざる | §6・言えないことに書き、題名と結論の「大半は修理費と同じ大きさ」を外した（推測と明記）,True,False,False,False,True,False,False,False
+F284_heavy_rain_vs_fire_rates,False,3 | 「大雨の約6倍」は料率が大雨に過剰に反応したように読める | 「大雨の回数の伸びだけでは説明できない大きさ（約6倍）」にし、料率は全補償の平均と書いた,False,False,False,False,False,False,False,False
+F284_heavy_rain_vs_fire_rates,False,4 | 2014〜2019年の改定は最長10年の契約にも使われた | 改定の時期で分けた遅れ（約5.7年、+5.8%）を足した。レビューの値（約6.7年、+6.9%）はすべて10年の半分にした場合と同じで、頑健性の表にある,True,False,False,False,False,True,False,False
+F284_heavy_rain_vs_fire_rates,True,5 | 2021年の基データの末年度（届出の0.14年前）の置き方 | 1年前にずらした場合（約4.4年、+4.5%、判定同じ）を足した。レビューの値（4.55年・+4.7%）とは小数で違う,True,True,False,False,False,False,False,False
+F284_heavy_rain_vs_fire_rates,False,6 | H3 の区間 | 95%区間 −0.30〜0.70 を足し、強い連動は否定できないと書いた,False,False,False,True,False,False,False,False
+F284_heavy_rain_vs_fire_rates,True,7 | 結論の「残り わずか」 | 「残り −7〜+14%」にした,False,False,False,False,False,False,False,False
+F284_heavy_rain_vs_fire_rates,False,8 | 料率の散らばり | 2023年の改定率の例（+6.3%〜+23.9%）と2019年の築浅割引を言えないことに足した,False,False,False,False,False,False,False,False
+F284_heavy_rain_vs_fire_rates,False,9 | 図3の時点 | 料率は届出の時点、大雨と修理費はデータの年に置いたと書いた,False,False,False,False,False,False,False,False
+F285_power_demand_outlook_accuracy,True,2001・2004 の見通しは電気事業用の発電電力量なのに、自家発込みの総発電と比べていた → 電気事業者計と比べる形に変え、H1・H3 の判定と結論を書き直した。2008 の定義の注、2010年度の集計の変化（推測）の注を足した。,False,False,False,False,True,False,False,False
+F285_power_demand_outlook_accuracy,False,問い直しの「14通りすべてで GDP の前提が高い」→「前提の分かる5本すべてで」に直し、原単位のマイナスを 11/14 → 10/14 に直した。結果を見てから足したものと明記した。,True,False,False,False,True,False,False,False
+F285_power_demand_outlook_accuracy,False,2021 の GDP の前提を、2020年度の落ち込みを実績として置き、2020年度からの伸びで計算し直した（+6.3 → +0.2）。,True,False,False,False,False,False,True,False
+F285_power_demand_outlook_accuracy,True,GDP の定義の違い（OWID の暦年・購買力平価と、年度の実質）で 2021 の符号が変わりうること、前提の期間の一部が公表時に実績だったことを書いた。,True,False,False,False,True,True,False,False
+F285_power_demand_outlook_accuracy,False,2008 の見通しの道筋のずれを年ごとに出し、リーマン・ショック後の低い成長に触れた。,False,False,False,False,False,False,False,False
+F285_power_demand_outlook_accuracy,False,先の長さとずれの関係は作りから大きくなることを書き、1年あたりの相関を併記した。,False,True,False,False,False,False,False,False
+F285_power_demand_outlook_accuracy,False,「前後3年の平均」→「前後1年を含む3年の平均」。,False,True,False,False,False,False,False,False
+F285_power_demand_outlook_accuracy,True,2015 の結論を「実績が道筋より12〜22%下（見通しが+13〜+28%多すぎ）」と書いた。,False,False,False,False,False,False,False,False
+F285_power_demand_outlook_accuracy,False,1998 の「電力需要」の定義を確かめていないことを書いた。,False,False,False,False,True,False,False,False
+F286_household_saving_items,True,題名：2020年起点の13%ではなく流れを除いた約3ポイントを先に置き、「値上がりした品目ほど減り」（結果を見た後の集計）と「安い物への切り替えにも表れた」（残差）の言い切りをやめた。,False,True,False,False,False,True,False,True
+F286_household_saving_items,True,問い直し：品目数と品目の再抽出の95%の幅を足し、ビールを除いた値、物価指数で値上がりを決めた版を並べた。「寄る傾向が見えたが、幅は大きい」に弱めた。標本の誤差が入っていないことを書いた。,False,True,False,True,False,False,False,True
+F286_household_saving_items,False,「切り替え」を「平均価格と物価指数の差（残差）」に改め、量目についての書き方を直し、手で対応した13品目と、名前の一致だけで向きが変わることを本文に書いた。,False,False,False,False,False,False,False,False
+F286_household_saving_items,False,コロナの反動を、同じ系列の比較（2020→2024年 −13.0%）で「4割ほど」「1.6倍ほど」に直した。R3 と問い直しの −7.3% / −8.0% の違いを書いた。,False,False,False,False,False,True,False,False
+F286_household_saving_items,False,電気代・ガソリンに起点の年の注意、H1 の例を電気代・ガソリン・民営家賃に、％と対数ポイントの表し方、食料の群の品目数、五分位Ⅰの −2.2% と185品目、量の寄与の上位の注意、流れの仮定、計画からのずれ、図の番号と表にない大分類（約15%）。,True,False,False,False,False,True,False,False
+F287_report_two_audiences,True,1 | H1 はほぼ作りから決まる | 要約を先に置いた共通版（C2）を足した。経営の読む量は E の0.93倍。結論を「店の表の後ろに要約を置く共通版では」に限った,True,False,False,False,False,False,False,False
+F287_report_two_audiences,False,2 | レポートの作りが計画と違う | 計画からのずれに、E の並びと C に足した節を書いた,False,False,False,False,False,False,False,False
+F287_report_two_audiences,True,3 | 最初の幅の基準での H1 | 3.47倍で判定は変わらないと書いた,False,False,True,True,False,False,False,False
+F287_report_two_audiences,False,4 | カフェの比べ方 | 店は店の空振り16%と、部門は部門の空振り14%と比べ、2つに分けて書いた。図6に部門の空振りの線を足した,False,True,False,False,False,False,False,False
+F287_report_two_audiences,False,5 | 種ごとの幅 | 客数 67〜100%、カフェ（店）0〜64%、カフェ（部門）18〜73%、空振り（店）10〜20%・（部門）0〜29% を書いた,False,True,False,True,False,False,False,False
+F287_report_two_audiences,False,6 | 「先月の結果」の答え | 定型の文で、読む量を決めていることを言えないことに書いた,False,False,False,False,False,False,False,False
+F287_report_two_audiences,False,7 | PLAN の日付 | コミット時刻（2026-11-11 23:35）に合わせて日付を直し、直したことを PLAN にも書いた,False,False,False,False,False,False,False,False
+F287_report_two_audiences,False,8 | 計画どおりの H3 | 店の合計だけなら4/12（33%）と並べ、「構成比は100%にならない」と書き分けた,False,False,False,False,False,False,False,False
+F287_report_two_audiences,False,9 | 最大剰余法の0 | 作りから決まると書いた。丸めの単位の確かめでは最大剰余法を計算していないと書いた,False,False,False,False,True,False,False,False
+F287_report_two_audiences,True,10 | タイトル | 「読む計算になった」に変え、「要約を店の表の後ろに置いた共通版では」と限った,False,False,False,False,False,False,False,False
+F287_report_two_audiences,False,11 | 店の名前で検索する読み方 | 言えないことに書いた,False,False,False,False,False,False,False,False
+F287_report_two_audiences,False,12 | 細かい文 | 「どちらが正しいのか聞きたくなる」に（推測）、「読みやすさ」を「答えが残るか」に、S08（64%）を足した,False,False,False,False,False,False,False,False
+F287_report_two_audiences,False,13 | 問い直しの書き方 | 「候補を変えた問い」と書いた,False,False,False,False,False,False,False,False
+F287_report_two_audiences,False,14 | レポートの文の不具合 | 「いちばん落ちた部門」を伸びがプラスなら「いちばん伸びが小さい部門」に、決めることの店の上限（3店）を外した。流し直して数字を更新（読む量の比は5.8倍→5.5倍など）,False,True,False,False,False,False,False,False
+F287_report_two_audiences,False,15 | 別の架空の会社 | F275 のみどりマート（架空）とは別の会社と書いた,False,False,False,False,False,False,False,False
+F287_report_two_audiences,False,16 | `__pycache__`・「要らない数字」の定義 | リポジトリに `__pycache__` は入れていない（確認済み）。記事に定義を書いた,False,False,False,False,True,False,True,False
+F288_tail_heaviness_sample_size,True,1（高） | 対数正規・ワイブルを「本当は裾が軽い」と書いていた | 「理論上 ξ=0（平均も分散も有限）だが指数よりは重い」にそろえ、H2 を「件数が限られると GPD 型と見分けられず、判定が誤解を招く」と書き直した。対数正規の ξ→0 が非常に遅いこと（R4 0.52→0.44）を足し、タイトルも直した,False,False,False,False,False,False,False,False
+F288_tail_heaviness_sample_size,False,2（中） | ξ<−1 で最尤推定が存在せず、下限に張り付いた回（10件19.2%、15件4.5%）が AIC 選択と問い直しを汚す | 割合と扱いを手法・言えないことに書き、張り付いた回を除いた H3・問い直しの値を足した（`gpd_bound` 列、`excl_bound`）,False,True,False,False,False,False,True,False
+F288_tail_heaviness_sample_size,False,3（中） | 「100件から」「500件ほど」は格子の都合 | 「50件で7割、100件で9割（補間で約70件）」「200件でほぼ届き、確実に収まるのは500件」に直した,False,False,False,False,False,False,False,False
+F288_tail_heaviness_sample_size,False,4（中） | 「15件では分布の種類はほとんど当たらない」は GPD のときだけ | 「本当が GPD でも1割しか GPD と当たらない」に直し、他の分布は5〜6割当たると書いた,False,False,False,False,False,False,False,False
+F288_tail_heaviness_sample_size,False,5（低） | モンテカルロ誤差がない | 主な値に標準誤差を付けた（`mc_se`）,True,False,False,True,False,False,True,False
+F288_tail_heaviness_sample_size,False,6（低） | 問い直しの書き方 | GPD ξ=0.2 を本文の列挙に足し、「3倍以内（σ=1.0 を含めると6倍）」にそろえ、F260 との条件の違いを書いた,True,False,False,False,False,False,False,False
+F288_tail_heaviness_sample_size,True,7（低） | ξ=0 は境界ではなく内側の点 | 片側の符号つき尤度比検定と書き直し（臨界値2.706は同じ）、Self & Liang の引用を外した,False,False,False,False,False,False,False,False
+F288_tail_heaviness_sample_size,False,8（低） | PWM は作りの上で ξ̂<1 | H4 の頑健性に数えないと明記した,True,False,False,False,False,False,False,False
+F288_tail_heaviness_sample_size,False,9（低） | 細かい点 | H1 の範囲を水準ごとに分け、平均二乗誤差は E_table に載せたと書いた,False,False,False,False,False,False,False,False
+F289_ict_capital_productivity,False,[高] 石炭製品（code 24）：付加価値が負の年が27年中18年、TFPva は2009〜2016年だけ。平均で欠けた年を飛ばしていたため、H3 後半と H4 の TFP 版にだけ入り（92部門）、労働生産性の比較（91部門）と組がずれていた。すべての比較を同じ91部門にそろえ、平均は期間の全年に値があるときだけにした。H3 後半は −0.22 → **−0.19**（p=0.065）、ピアソンは −0.37 → −0.22、H3 は **外れ → 支持**。H1 は 0.71 → 0.72、図・表も作り直した,False,True,False,False,False,True,False,False
+F289_ict_capital_productivity,True,[高] 題名・まとめの「2007年以降はむしろ逆向き」は言い過ぎ（直す前でも区間の上端が 0.00）。「TFPの伸びとは結びつきが見えなかった」に改めた,False,False,False,True,False,False,False,True
+F289_ict_capital_productivity,False,[中] TFP を「ICTの分を除いた生産性」と書いていたのを、「資本と労働の寄与を除いた生産性」に直し、通常の見返りを超える上乗せを見ていること（相関0≠効果なし）を足した,False,True,False,False,False,False,False,False
+F289_ict_capital_productivity,False,[中] TFP がマイナス寄りに出る理由を「作り方から来る」としていたのを、測り誤差と Jカーブ（推測）に直し、ICT の取り分が小さく効き方は限られることを足した,False,False,False,False,False,False,False,False
+F289_ict_capital_productivity,True,[中] 「H3 の後半はどの条件でもマイナス」は誤り（R3 の TFP はプラス）。順位相関の条件に絞って書き直し、R3 の TFP を載せた,True,False,False,False,False,False,True,False
+F289_ict_capital_productivity,False,[中] 問い直しの偏相関に95%区間と n を足し、91部門にそろえた。強くなった理由の説明は（推測）とした,False,True,False,True,False,False,False,False
+F289_ict_capital_productivity,False,[低] 白書の出典を令和元年版 第1部第1章第2節と明記し、言い回しを引用符から外した（note 本文）。計画1つ→3つの分析をずれに足した。R5 の H4（+0.05）を note 本文にも載せた,True,True,False,False,False,False,False,False
+F290_survey_weighting_limits,False,H3 の「2ポイント以上」が頑健性のすべての条件で成り立つように読めた。係数0.5倍で +1.40（届かない）、回答率40%で +2.02（境目、重み付けで +1.98→+2.02 と広がる）を明記。,True,False,False,False,False,False,False,False
+F290_survey_weighting_limits,False,係数を c 倍すると副業の δ も c 倍になることを明記（係数2倍の S3 はオッズ4倍、0.5倍は約1.41倍）。,True,False,False,False,False,False,False,False
+F290_survey_weighting_limits,False,問い直しの「1.2倍で偏りが区間の半幅を超える」は言い過ぎだった（0.721 対 0.707、差は平均の誤差 約0.021 より小さい）。「ほぼ同じ」に改め、区間の当たり 46% を中心に書き直し。偏り0でも当たりが 93〜94% になること（Kish の標準誤差 0.339 ＜ 実際のぶれ 0.358）を追記。図6の題も直した。,False,False,False,True,False,False,False,True
+F290_survey_weighting_limits,False,"母集団の範囲（表の総数 6,706万人、内訳を持つ 6,430万人、就業時間4区分の 6,335万人）、役員・自営業主などを引き算で作り負の255行を0にしたこと、0人の 2,297セル（7,168中）を外したことを明記。",True,False,False,False,False,False,False,False
+F290_survey_weighting_limits,False,M1 で偏りが広がる理由に、S1 の重みなしの偏り（−0.26）を根拠として足し、推測であることを明記。,True,False,False,False,False,False,False,False
+F290_survey_weighting_limits,False,「8つの条件」の中身（R1〜R5、所得の区切りを含む）と、R5 が M1 に影響しないことを明記。,True,False,False,False,False,False,False,False
+F290_survey_weighting_limits,False,H2 の境目に、200回の基本条件では 91.5% で支持になることを追記。,True,False,False,False,False,False,False,False
+F290_survey_weighting_limits,False,所得の確かめの目安（0.020）が重みなしの無作為抽出から作ったもので、設計効果約1.21の M2h にはやや厳しめであることを追記。,False,False,False,False,False,False,False,False
+F290_survey_weighting_limits,False,requirements.txt の版を、再実行に使った版に固定。,False,False,False,False,False,False,False,False
+F291_mortality_improvement_slowdown,True,問い直しの読み方：r5 は「その世代の改善」でなく「5年上の世代と比べた同じ年齢での低下」。2009→2019年の65〜69歳は1945〜49年生まれを端に含まず、世代だけなら男1.46%・女1.49%ほどになるはずで実際（0.98%・0.85%）と合わないため、10年の鈍りとのつながりを（推測）とし、題名から世代の部分を外した。,False,False,False,False,False,False,False,False
+F291_mortality_improvement_slowdown,True,式の比較：調整済み R² は参考程度と明記（5年の差の重なり、APC なし）。両端の生まれ年を除いた結果を足し、結論を男に限った（女は0.520対0.507で同じくらい）。,True,True,False,False,False,False,False,False
+F291_mortality_improvement_slowdown,False,90歳以上のデータの性質（曝露の推計方法〔推測〕、死亡数の98%が小数、ならしなし）を「言えないこと」に足し、H4・H3 の95歳以上がこれに乗ることを明記。,True,False,False,False,False,False,False,False
+F291_mortality_improvement_slowdown,False,R2 が計画（補間）と違う直線の傾きだったことを「ずれ」に開示し、2011年を含む直線（男の65〜69歳 1.56、除くと1.35）・補間の直線を足した。,False,True,False,False,False,False,False,False
+F291_mortality_improvement_slowdown,True,H3 の基準直線は2011年を含むことを注記し、除いた場合（0.0〜0.9ポイント、判定は変わらず）を足した。,True,True,True,False,False,False,False,False
+F291_mortality_improvement_slowdown,False,R3 で80〜94歳も小さくなること（男 3.3〜5.6ポイント）を明記。,True,False,False,False,False,False,False,False
+F291_mortality_improvement_slowdown,True,4章の見出し、H4 の「0.75%以下」、題名・結論の「1〜1.6%」、地図の「女は3%前後・男は2%前後（2000年代は男にとって高い時期だった可能性〔推測〕）」、H1 の判定を1つの文に、5章の「女は70〜90代」。,False,True,False,False,False,True,False,False
+F293_monthly_anomaly_public_stats,False,H4：汚れのない月のうち出来事の月の基準の割合（25.7%・29.5%・34.7%）を足し、CPI の37%前後は偶然の1.23倍で、偶然に近いと書いた。,False,False,True,False,False,False,False,False
+F293_monthly_anomaly_public_stats,False,家計調査では M1 のほうが M2 より多く見つけるが、鳴りも4.4倍多いことを足した。,False,False,False,False,False,False,False,False
+F293_monthly_anomaly_public_stats,False,「誤報を年0.5回にそろえる」条件に先読みがあること、実際の回数（0.59・0.53・0.53）を書いた。その中身を results に出した。,True,False,False,False,False,False,False,False
+F293_monthly_anomaly_public_stats,True,汚れのない月の鳴りには本物の動きも入るので、「誤報」と言い切らないようにした。下限1%で出来事の月の鳴りが多く消えること（36%→21.5%）を足した。,False,False,False,False,False,False,False,True
+F293_monthly_anomaly_public_stats,False,数字の丸め（6.7倍、90.1%、97.3%）、CPI の E5 で入れた月の26.3%がもともと前月と同じ値だったこと、カレンダーの当て方のずれ、S1 の内訳が41回だけの事後の内訳であること、H1 が確認の仮説であることを書いた。,False,False,True,False,False,False,False,False
+F294_care_cost_2040_assumptions,True,「総合事業はこの統計の外」は誤り。同じ統計の統計表５（令和元年度版は統計表４）に総合事業の受給者数が載っている。「この記事で使った費用額・受給者数の表には入らない」に直し、受給者を足し戻す確認を足した（src/zz_f294_05_再質問.py、results/reask_addback_sogo.csv）。,False,False,False,False,False,False,True,False
+F294_care_cost_2040_assumptions,False,政府見通しとの比較の「過去の実績の伸びなら17〜18兆円」を「年0.5〜1.1%なら16.5〜18.0兆円」に直した（計算し直した値）。,False,False,False,False,False,False,True,False
+F294_care_cost_2040_assumptions,True,「受給率の下がりの約6割は介護予防の側の減り」は、数え方の違う量の比べなので「約6割が介護予防の側の減りと重なる（近似）」に弱めた。,False,False,False,False,True,False,False,True
+F294_care_cost_2040_assumptions,False,「制度の切り替えの影響が入っている」を「入っていると考えられる（推測）」にした。最近の物価・賃金の動きについての文にも（推測）を付けた。,True,False,False,False,False,False,False,False
+F294_care_cost_2040_assumptions,False,「いちばん効くのは1人当たりの伸び」に「年0〜2%の幅を置くと」の条件を付けた。政府見通しとの対応は「本記事の計算では年2.0%の伸びに相当」と書き直した。,True,False,False,True,False,False,False,False
+F294_care_cost_2040_assumptions,False,1人当たりの伸びの年0.5%と年0.6%が、別の定義（費用額÷65歳以上の受給者／統計の受給者1人当たり費用額）であることを明記した。,True,False,False,False,True,False,False,False
+F294_care_cost_2040_assumptions,False,死亡の仮定の効果を「伸び」ではなく「2040年の受給者数が中位より」と書き直し、「90歳前後」を「90歳代」にした。,True,False,False,False,False,False,False,False
+F294_care_cost_2040_assumptions,False,計画からのずれに「傾向の半分を本体に入れた（27→36通り）」「H5 は現状投影と比べた」を足した。,False,False,False,False,False,False,False,False
+F294_care_cost_2040_assumptions,False,言えないことに、受給者数÷受給率で戻した2025年の人口が推計人口より高い年齢で少ないこと（results/implied_vs_ipss_2025.csv）を足した。,False,False,False,False,False,False,False,False
+F295_solvency_diversification_copula,True,「相関を変えても順番は同じ」は ρ=0.10 で成り立たない（t・グンベル・クレイトンがほぼ並ぶ）ので、「ガウスが最大」と「仮説の判定は変わらない」に絞った。,False,False,False,False,False,False,False,False
+F295_solvency_diversification_copula,True,「式に入れる相関はデータの相関からは決まらない」は順位相関についてだけ正しい。ピアソン相関は逆算した相関と同じ順に並ぶことを書き、README の「ピアソンも差は小さい」を直した。,False,False,False,False,False,False,False,False
+F295_solvency_diversification_copula,False,H1 では式にコピュラの ρ を入れていた。損失のピアソン相関（0.14）を入れると式は 40.2% でガウス（41.5%）に近いことを計算して足し、外れの一部は仮説の立て方によると書いた。,False,False,False,False,False,False,False,False
+F295_solvency_diversification_copula,False,VaR の分散効果がマイナスになりうる条件と、独立で 54.9%（式は 50%）になる理由（周辺分布の歪み）を足した。,True,False,False,False,False,False,False,False
+F295_solvency_diversification_copula,False,TVaR の誤差、周辺分布を作り直したときのぶれ（±0.4pt ほど）、問い直しの種の違い（52000）を書いた。H5 の書き方を数字にした。,False,False,False,False,False,False,False,False
+T001_141_wage_increase_2026,False,「3年続けて規模の順」「ここ数年の特徴」が言い過ぎだった：同じ値を許すと過去にも続いた時期がある。定義を「厳密に大きい順」に決め、厳密な並びが3年続いたのは1975年以降で初めて、と書き直した,False,False,False,False,True,True,False,True
+T001_141_wage_increase_2026,False,`src/a141_size_gap.py` で `# T001` のコメントが `ax.set_ylabel(...)` と `ax2.tick_params(...)` を飲み込んでいた：コードの後ろにコメントを移し、t001_rate.png の縦軸の名前と小さい図の目盛りを直した。空のフォルダでの再実行もバイト単位で一致,False,False,False,False,True,False,True,False
+T001_141_wage_increase_2026,False,1979年までは単純平均で1975年とは直接比べられないことを書いた。1976〜2022年の最大を「2000年・2002年の0.7」にした,False,False,False,False,False,False,False,False
+T001_141_wage_increase_2026,False,"PLAN の頑健性（1,000人以上 − 100〜299人）を計算できなかった理由を「計画からのずれ」に書いた。率の予想は2つとも当たったことを書いた。PLAN のコミット（78622dc）がデータのコミットより前であることを確かめた",False,False,False,False,False,False,False,False
+T001_141_wage_increase_2026,False,図1の2013〜2024年を淡い灰にし、題を「2025年（濃い灰）と2026年（橙）」に直した。図の番号を記事・README・コードのコメントでそろえた,False,False,False,False,False,False,True,False
+T001_141_wage_increase_2026,False,「理由を挙げる」を「最も重視した要素に挙げる」に、1章に「縮んだのは確かだが、1.0未満かどうかは丸めの範囲」と書いた,False,False,False,False,False,False,False,False

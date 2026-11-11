@@ -1,0 +1,160 @@
+article,hyp,judge,cell
+F257_wage_spillover_whitepaper,H1 広さ,支持,支持（外れの基準に当たらない）
+F257_wage_spillover_whitepaper,H2 追いつき（一般）,支持,支持（追いついていない）
+F257_wage_spillover_whitepaper,H2 追いつき（パート時給）,外れ,外れの基準に当たる（2024〜25年の伸びは小規模が上）
+F257_wage_spillover_whitepaper,H2 企業規模,支持,支持（差は広がった）
+F257_wage_spillover_whitepaper,H3 パート,支持,支持（ただし下の頑健性を参照）
+F258_real_wage_deflator_streak,H1 公表の物価の最長 ＞ 総合の最長,支持,支持（ただし差は1か月）
+F258_real_wage_deflator_streak,H2 コアコアの2022〜24年の連続は公表より3か月以上短,外れ,外れ（向きが逆）
+F258_real_wage_deflator_streak,H3 物価で向きが分かれる月が1割以上,支持,支持（どの数え方でも）
+F260_loss_distribution_return_level,H1 分布で大きく変わる,支持,支持
+F260_loss_distribution_return_level,H2 データで見分けられない,支持,支持
+F260_loss_distribution_return_level,H3 同じ分布でも幅が広い,支持,支持
+F260_loss_distribution_return_level,H4 長いデータで変わる,支持,支持（同じ足切りで比べると −16%・−4%）
+F261_potential_growth_methods,H1 FY2025 の手法の間の幅,支持,支持（境目）
+F261_potential_growth_methods,H2 GDP ギャップの符号が割れる四半期,支持,支持
+F261_potential_growth_methods,H3 CAO と BOJ の差の半分以上は TFP,外れ,外れ
+F261_potential_growth_methods,H4 直近の値のずれ（HP）,支持,支持
+F262_births_record_low_decomposition,H1：2015→2025 の減少のうち、人口の効果は半分に届,支持,支持
+F262_births_record_low_decomposition,H2：2005→2015 は、出生率の効果がプラス,支持,支持
+F262_births_record_low_decomposition,H3：2016〜2025年の半分以上の年で、率の効果が人口の,支持,支持（ぎりぎり）
+F262_births_record_low_decomposition,H4：2015→2025 の人口の効果のうち、年齢の並び方が,外れ,**外れ**
+F264_auto_accident_rate_aging,H1 年齢構成の効果は押し上げ・変化の2割未満,その他（数値だけ等）,押し下げ（−5.5、変化の −1.0%）。大きさは2割未満だが向きが逆
+F264_auto_accident_rate_aging,H2 死亡事故では年齢構成の効果の割合が全事故の2倍以上,その他（数値だけ等）,全事故の割合が負（−1.0%）になり、「2倍以上」の比較は正の値なら何でも通ってしまう（基準が想定外の符号で働かない）。中身は、死亡事故は押し上げ（+12.5%
+F264_auto_accident_rate_aging,H3 すべての年齢層で率が下がった,その他（数値だけ等）,人身・死亡とも15区分すべてで下がった
+F264_auto_accident_rate_aging,H4 自賠責の頻度と警察の率の変化率の相関 0.7 以上,その他（数値だけ等）,0.77（2010〜2023年、14年）。2020年だけを除くと 0.45（1年ずつ抜くと、ほかの年では 0.74〜0.86）、順位相関は 0.51（2020年
+F266_rice_price_stages,H1 店頭の上がり幅の 70% 以上は元の米の値段の上がり幅,外れ,**外れ**
+F266_rice_price_stages,H2 店頭は元の米の値段より1か月以上遅れて動く,支持,**支持**（ただし9月の切り替えを除くと山は低く平ら：下の頑健性）
+F266_rice_price_stages,H3 山では倍率が 2015〜2023年の平均より低い,支持,**支持**（ただし1.61倍は9月の段差の直後の1か月の値。2025年の平均は 1.79倍で平均と同じ、2025年3〜8月は 1.90〜2.02倍）
+F266_rice_price_stages,H4 上がり率は 産地→卸 ≥ 卸・精米 ≥ 店頭,外れ,**外れ**（卸・精米と店頭はほぼ同じで、わずかに店頭が上）
+F267_kpi_target_allocation_cvs,H1 売上の揺れは客数の寄与が半分超（月次、2006〜202,支持,基本の期間では支持。コロナを除くと 52%、さらに税・たばこの時期を除くと 48〜50% で、外れになる条件がある
+F267_kpi_target_allocation_cvs,H2 客数と客単価は負の相関,支持,支持（コロナを除くと +0.04、前半 +0.21 で外れ）
+F267_kpi_target_allocation_cvs,H3 等分は一方が売上と20pt以上ずれ、傾向の比なら両方1,外れ,外れ。達成率が近くても、売上と判定が逆の年は傾向の比で客単価 8/16年・客数 2/16年（等分 5年・6年）
+F267_kpi_target_allocation_cvs,H4 月の判定が年の判定と3割以上食い違う,その他（数値だけ等）,客単価（傾向の比）だけ支持、ほかは外れ
+F268_life_table_annuity_value,H1 2014→2019年に男女とも+2%以上,外れ,**外れ**（女が届かない）
+F268_life_table_annuity_value,H2 2019→2024年は2014→2019年の半分に届か,支持,支持
+F268_life_table_annuity_value,H3 2014→2019年の変化の60%以上が75歳以上から,支持,支持
+F268_life_table_annuity_value,H4 割引率0.5ポイント下げの方が大きい,支持,支持
+F268_life_table_annuity_value,H5 中位の見通しの5年あたりの伸びは1990〜2019年の,支持,支持
+F269_sme_price_passthrough,H1 取引段階,支持,支持
+F269_sme_price_passthrough,H2 価格交渉,一部・保留,判定できない
+F269_sme_price_passthrough,H3 コストの種類,支持,支持
+F269_sme_price_passthrough,H4 どの属性の差が大きいか,支持,支持（両端の業種しだい）
+F269_sme_price_passthrough,H5 短観での確かめ,外れ,外れ
+F270_inbound_record_per_capita,H1 実質の円でも2025年が最多,外れ,**外れ**
+F270_inbound_record_per_capita,H2 実質のドルでは2011〜2019年の最大を15%以上下,支持,支持（同じ方式の期間だけだと基準をわずかに超える程度）
+F270_inbound_record_per_capita,H3 2019→2025年の増加のうち構成の変化は4分の1未,支持,支持
+F270_inbound_record_per_capita,H4 訪日客が最多の年のうち、実質の円も最多だった年は半分未,支持,支持（あと1年で外れ）
+F270_inbound_record_per_capita,H4 の数え方,その他（数値だけ等）,1人あたりは2011年から数えていること、2022年を入れると3/9 になることを書いた
+F271_dashboard_answer_cost,H1 時間,支持,支持
+F271_dashboard_answer_cost,H2 最初の画面,支持,支持
+F271_dashboard_answer_cost,H3 スマートフォン,支持,支持（条件しだい）
+F271_dashboard_answer_cost,H4 読み違い,外れ,外れ
+F271_dashboard_answer_cost,H5 想定外の問い,支持,支持
+F272_fire_insurance_rate_vs_risk,H1,外れ,外れ
+F272_fire_insurance_rate_vs_risk,H2,支持,支持
+F272_fire_insurance_rate_vs_risk,H3,外れ,外れ
+F272_fire_insurance_rate_vs_risk,H4,外れ,外れ
+F273_regional_dispersion_lodging,H1 2025年の地方部の割合はコロナ前の山（2017年）を,支持,支持
+F273_regional_dispersion_lodging,H2 2023→2025年にジニ係数は地方部の割合と同じ向き,支持,支持
+F273_regional_dispersion_lodging,H3 地方部39道県の上位5の割合は2019年より2025年,支持,基準の上では支持。差は年ごとの揺れ（SD 2.6pt）より小さく、2014年とほぼ同じ水準で、集中が強まったとは言えない
+F273_regional_dispersion_lodging,H4 日本人の地方部の割合は2011→2025年に3ポイント,支持,支持
+F273_regional_dispersion_lodging,H5 2024→25年の伸びは地方部が上、2025年の割合は,支持,支持
+F274_labor_shortage_bankruptcy_rate,H1 会社の数でそろえても増えた,支持,支持
+F274_labor_shortage_bankruptcy_rate,H2 倒産全体に占める割合も増えた,支持,支持
+F274_labor_shortage_bankruptcy_rate,H3 後継者難を含めると「過去最多」の伸びは小さい,外れ,外れ
+F274_labor_shortage_bankruptcy_rate,H4 求人倍率の動きと連動しない,支持,支持（ただし4点の直線を範囲外へ延ばした検定なので弱い証拠）
+F275_sql_change_requests,H1 直すファイル数の中央値：S1 が S3 の3倍以上,支持,支持（構造からほぼ決まる）
+F275_sql_change_requests,H2 S2 の直すファイル数は S1 の0.8倍以上,支持,支持
+F275_sql_change_requests,H3 S1 の1つだけ直し忘れのうち、T1＋T2 で見つかる,外れ,外れ
+F275_sql_change_requests,H4 T4 は全様式の直し忘れの90%以上を見つける,支持,支持
+F276_earthquake_insurance_after_quakes,H1 山は過半数の組で+3ポイント以上,外れ,外れ（ぎりぎり）
+F276_earthquake_insurance_after_quakes,H2 上がった分は残る,支持,支持
+F276_earthquake_insurance_after_quakes,H3 隣の県にも広がる,外れ,外れ（ぎりぎり）
+F276_earthquake_insurance_after_quakes,H4 月の新契約の山は短い,外れ,外れ（山が小さい）
+F277_minimum_wage_council_indicators,H1 第4表だけでは足りなくなった,支持,支持
+F277_minimum_wage_council_indicators,H2 指標を全部使えば説明できる,支持,支持
+F277_minimum_wage_council_indicators,H3 2016年以降は指標で説明できない上乗せ,外れ,外れ
+F277_minimum_wage_council_indicators,H4 2020年は指標から大きく下にずれた,支持,支持
+F278_vacant_record_stock_vs_rate,H1 2018→2023年の増加の半分以上は住宅が増えた分,支持,支持（答えのおおよそを知って置いた仮説）
+F278_vacant_record_stock_vs_rate,H2 数は13回すべて記録、率の記録は10回以下,外れ,**外れ**（率も毎回更新）
+F278_vacant_record_stock_vs_rate,H3 2018→2023年の率の上昇は誤差の2倍を超える,支持,支持（答えのおおよそを知って置いた仮説）
+F278_vacant_record_stock_vs_rate,H4 2023年に数が記録の県は、率が記録の県より10以上多,支持,支持（ぎりぎり）
+F278_vacant_record_stock_vs_rate,H5 その他の空き家の率の上昇が全体より大きい,支持,支持
+F279_rfm_segment_transitions,H1 最優良に残る顧客は60%未満,支持,支持（境目。3時点は60%超）
+F279_rfm_segment_transitions,H2 もう一度買う割合は R の点で単調に上がる,支持,支持
+F279_rfm_segment_transitions,H3 RFM 合計点と購入額だけの捕捉率の差は3ポイント未満,支持,支持（RFM のほうが低い向き）
+F279_rfm_segment_transitions,H4 区分ごとの割合は ±10pt 以内（2010-12 対,外れ,外れ
+F279_rfm_segment_transitions,H3 に幅がない（中）,その他（数値だけ等）,顧客単位の再標本化（7時点まとめて300回）で差 −2.43pt、95%の幅 −3.9〜−1.3pt。判定は「支持（点推定で）」とし、「向きは確かだが3pt未満
+F280_medical_cost_three_elements,H1 年齢構成の寄与は40%以上,支持,支持
+F280_medical_cost_three_elements,H2 年齢ごとの変化の中で1日当たりの寄与は100%超,支持,支持
+F280_medical_cost_three_elements,H3 入院の1件当たり日数の寄与はマイナス,支持,支持
+F280_medical_cost_three_elements,H4 1日当たりの伸びは改定の累積を10ポイント以上上回る,支持,支持
+F282_yen_exports_quantity_price,H1 2020→2025年の数量の分は4分の1未満（事前に値,支持,支持
+F282_yen_exports_quantity_price,H1b 2012→2015年の数量の分は3分の1未満,支持,支持
+F282_yen_exports_quantity_price,H2 円ベースの上昇のうち為替の分が半分以上,支持,支持
+F282_yen_exports_quantity_price,H3 契約通貨ベースも5%以上上昇,支持,支持
+F282_yen_exports_quantity_price,H4 円安と数量の伸びの相関は −0.3 より強くならない,支持,支持（強い負の相関は見られない。−0.3 は目安、前年比の重なりで実質の標本は十数個程度、12か月超の遅れは未検討）
+F282_yen_exports_quantity_price,H5 7類別すべてで為替の分がプラス、契約通貨ベースは5つ以,支持,支持
+F283_price_hike_front_loading,H1 駆け込み,支持,支持
+F283_price_hike_front_loading,H2 反動,支持,支持（基準ちょうど。たばこだけで成り立つ）
+F283_price_hike_front_loading,H3 定着,外れ,外れ
+F283_price_hike_front_loading,H4 入れ替わり,支持,支持
+F283_price_hike_front_loading,H5 前年比の読み違い,支持,支持
+F284_heavy_rain_vs_fire_rates,H1 大雨は増えている,支持,支持（PLAN 前に値を見て置いた仮説なので、確かめとしては弱い）
+F284_heavy_rain_vs_fire_rates,H2 料率は大雨より大きく上がった,支持,支持（21通り中17通り）。ただし比べる期間しだい：2014年を除くと5.4倍で支持、起点を2003年にすると1.56倍で外れ
+F284_heavy_rain_vs_fire_rates,H3 支払保険金と大雨の回数は弱い連動,支持,支持（区間が広く、強い連動は否定できない）
+F284_heavy_rain_vs_fire_rates,H4 遅れによるずれ < 1回の改定,支持,支持（保険期間を改定の時期で分けると +5.8% でほぼ同じ大きさ、遅れを約9年とみると +9.6% で外れ）
+F284_heavy_rain_vs_fire_rates,H4 の遅れ,その他（数値だけ等）,約2.2年で +2.2%、約5.7年（保険期間の上限を改定の時期で10年・5年に分ける）で +5.8%、約6.7年（すべて10年の半分）で +6.9%、約9.2
+F284_heavy_rain_vs_fire_rates,H3 の区間,その他（数値だけ等）,順位相関 0.27 の95%区間（フィッシャーの z）−0.30〜0.70
+F285_power_demand_outlook_accuracy,H1 目標年が来た4本の高いケースのうち3本以上で+5%以上,支持,主では支持。ただし2010年度をつなぐと2001・2004 が +4.0%・+3.2% になり外れ。頑健でない
+F285_power_demand_outlook_accuracy,H2 先の長さと｜ずれ｜の順位相関 0.3 以上,支持,支持（ただし下の注意）
+F285_power_demand_outlook_accuracy,H3 低いケースのほうが近い（2001・2004・2008 ,支持,主では支持。2010年度をつなぐと2004 で入れ替わり外れ（図4）
+F285_power_demand_outlook_accuracy,H4 2024年時点で 2015 は+5%以上、2021 は,支持,支持（ただし事前に値をおおよそ見ていた）
+F286_household_saving_items,H1 全体の量の重みつき平均 ≤ −3%、かつ物価指数が10,外れ,外れ（2つめの条件を満たさない）
+F286_household_saving_items,H2 価格の差の重みつき平均 ≤ −2%,外れ,外れ
+F286_household_saving_items,H3 量の減りの寄与の上位10品目が半分以上,外れ,外れ
+F286_household_saving_items,H4 量が約10%以上減った品目の半分以上は、2015→20,支持,支持
+F286_household_saving_items,H5 収入五分位Ⅰの量の減りがⅤより3ポイント以上大きい,外れ,外れ
+F287_report_two_audiences,H1,支持,支持（ほぼ作りから決まる）
+F287_report_two_audiences,H2,外れ,外れ
+F287_report_two_audiences,H3,支持,支持（店の合計だけでは基準ぎりぎり）
+F287_report_two_audiences,H4,支持,支持（E は作りから決まる）
+F288_tail_heaviness_sample_size,H1 ξ=0.4、n=50 の検出力は80%に届かない,支持,支持
+F288_tail_heaviness_sample_size,H2 対数正規 σ=1.5、n=100 で「重い」が50%以,支持,支持
+F288_tail_heaviness_sample_size,H3 n=30 で GPD ξ=0.4・対数正規 σ=1.5,外れ,**外れ**
+F288_tail_heaviness_sample_size,H4 n=15、ξ=0.5 で推定 ξ≥1 が10%以上,外れ,**外れ**
+F288_tail_heaviness_sample_size,H5 ξ=0.4 で推定の5〜95%を±0.15に収めるには,支持,支持
+F289_ict_capital_productivity,H1 水準,支持,支持
+F289_ict_capital_productivity,H2 伸び,支持,支持（基準の上では。ただし両方とも区間が0をまたぎ、弱い）
+F289_ict_capital_productivity,H3 TFP,支持,支持（後半は基準の境目に近い）
+F289_ict_capital_productivity,H4 白書の指標,支持,支持（＝結びつきは弱い）
+F290_survey_weighting_limits,H1 S2 で男女×年齢は偏りの半分未満しか減らさない,支持,支持
+F290_survey_weighting_limits,H2 S2 で5項目のレーキングは偏りの90%以上を消す,外れ,外れ（境目。500回の誤差を考えると90%と区別できない）
+F290_survey_weighting_limits,H3 S3 で M3 の偏りは2ポイント以上・区間の当たりは,支持,支持（基本の条件。頑健性では係数0.5倍で +1.40 と2ポイントに届かず、回答率40%では +2.02 で境目）
+F290_survey_weighting_limits,H4 S3 で所得を確かめに残すと、所得のずれはぶれの範囲な,外れ,外れ
+F290_survey_weighting_limits,H5 S2 で M3 の設計効果は1.3以上,外れ,外れ
+F291_mortality_improvement_slowdown,H1 鈍りは広い,その他（数値だけ等）,区間の端の年でだけ支持。ほかの2つの測り方（5年の窓・直線の傾き）では男2〜4・女6で外れ
+F291_mortality_improvement_slowdown,H2 鈍りの中心は高齢,外れ,外れ
+F291_mortality_improvement_slowdown,H3 コロナ期は傾向と別の上振れ,外れ,外れ（95歳以上で届かない）
+F291_mortality_improvement_slowdown,H4 いちばん高い年齢では改善がほぼ止まった,その他（数値だけ等）,区間の端の年でだけ支持。5年の窓・直線では90〜94歳の女が1.15・1.14、男が1.05で外れ。95〜99歳はどの測り方でも0.75以下（最大は5年の窓の男
+F291_mortality_improvement_slowdown,H3 の基準直線から2011年を除く,その他（数値だけ等）,75歳以上の上振れは0.0〜0.9ポイント動く（男の75〜79歳 19.7→18.8%）。判定は外れのまま（results/G_review_h3_no2011
+F292_quake_damage_population,H1 規模だけで2050年の合計が15%以上減る,支持,支持
+F292_quake_damage_population,H2 津波では、年齢が規模の減りの1/3以上を打ち消す,支持,支持
+F292_quake_damage_population,H3 差し引きの減りは15%未満,支持,主表では支持。ただし96表中56表で15%以上減る（R1）、重みを半分にすると −17.6%（R2b）
+F292_quake_damage_population,H4 2012年想定（約32.3万）→2025年想定（約29,支持,支持（計画どおりの規模＋年齢で判定。2012年想定も同じ年齢補正係数を平成22年国勢調査で使っていたことを手法資料で確認。2025年想定の都府県・原因の内訳で近
+F293_monthly_anomaly_public_stats,H1 大きな汚れ（E1〜E4）は R∪M2 で3つとも99%,支持,支持（10倍・0などはふだんの揺れよりはるかに大きいので、ほぼ作りから決まる確認の仮説）
+F293_monthly_anomaly_public_stats,H2 +15% の見つかる割合は家計調査が消費者物価より30,支持,支持
+F293_monthly_anomaly_public_stats,H3 CPI では「前月と同じ値」が汚れのない月にも10%以,支持,支持
+F293_monthly_anomaly_public_stats,H4 M2 が鳴った月の50%以上が出来事の月,外れ,外れ
+F293_monthly_anomaly_public_stats,H5 コロナの期間の鳴る割合がそれ以外の3倍以上,外れ,外れ
+F294_care_cost_2040_assumptions,H1 人口だけで+20%以上,支持,当たり
+F294_care_cost_2040_assumptions,H2 2014→25の伸びの半分以上が人口,支持,当たり
+F294_care_cost_2040_assumptions,H3 シナリオの幅1.5倍以上,支持,当たり
+F294_care_cost_2040_assumptions,H4 死亡の仮定は±5%以内,支持,当たり
+F294_care_cost_2040_assumptions,H5 政府見通しは「人口＋年1%」より高い,支持,当たり（倍率で比較。下の「計画からのずれ」）
+F295_solvency_diversification_copula,H1 ガウスの分散効果は式と ±5pt 以内,外れ,**外れ**（式のほうが分散効果を小さく見る）。ただし式にはコピュラの ρ=0.25 を入れた。損失で測るピアソン相関（0.14）を入れると式は 40.2% で
+F295_solvency_diversification_copula,H2 t はガウスより相対で 1/3 以上小さい,外れ,**外れ**
+F295_solvency_diversification_copula,H3 グンベル・裏返しクレイトンはガウスより小さい,支持,支持
+F295_solvency_diversification_copula,H4 TVaR だとガウスと t の差が大きい,支持,支持
+F295_solvency_diversification_copula,H5 自然災害の ξ を上げると、独立の分散効果は小さい,支持,支持（VaRでは−2.7ptと小幅、TVaRでは−12.4pt）
