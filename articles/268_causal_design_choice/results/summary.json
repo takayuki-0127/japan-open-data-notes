@@ -1,0 +1,65 @@
+{
+ "readmes_dedup": 463,
+ "articles_any_method": 37,
+ "articles_2plus_methods": 8,
+ "by_method": {
+  "差の差": {
+   "articles": 22,
+   "main": 13,
+   "placebo": 12,
+   "pre": 10,
+   "zero": 10,
+   "either": 17,
+   "main_either": 13
+  },
+  "イベントスタディ": {
+   "articles": 4,
+   "main": 3,
+   "placebo": 3,
+   "pre": 2,
+   "zero": 1,
+   "either": 3,
+   "main_either": 3
+  },
+  "合成コントロール": {
+   "articles": 9,
+   "main": 7,
+   "placebo": 8,
+   "pre": 4,
+   "zero": 3,
+   "either": 8,
+   "main_either": 7
+  },
+  "回帰不連続": {
+   "articles": 2,
+   "main": 2,
+   "placebo": 2,
+   "pre": 1,
+   "zero": 1,
+   "either": 2,
+   "main_either": 2
+  },
+  "操作変数": {
+   "articles": 6,
+   "main": 4,
+   "placebo": 1,
+   "pre": 3,
+   "zero": 2,
+   "either": 3,
+   "main_either": 3
+  },
+  "中断時系列・ベイズ構造時系列": {
+   "articles": 4,
+   "main": 3,
+   "placebo": 3,
+   "pre": 2,
+   "zero": 2,
+   "either": 3,
+   "main_either": 2
+  }
+ },
+ "main_articles": 23,
+ "main_with_check": 21,
+ "share_with_check": 70.3,
+ "share_zero_phrase": 43.2
+}
