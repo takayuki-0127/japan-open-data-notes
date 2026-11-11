@@ -98,7 +98,7 @@ for k in ["独立", "ガウス", "t", "グンベル", "裏返しクレイトン"
     ax.plot(rhos, ys, "o-", color=COL[k], label=LAB[k])
 ax.plot(rhos, [formula_db(np.full(4, 100), equicorr(r)) * 100 for r in rhos], "k--", label="相関の表の式")
 ax.set_xlabel("相関 ρ（すべての組み合わせ）"); ax.set_ylabel("分散効果（VaR99.5、%）")
-ax.set_title("相関を変えても、順番は同じ"); ax.legend(frameon=False, fontsize=9)
+ax.set_title("どの相関でもガウスが最大（ρ=0.10 では t・グンベル・クレイトンがほぼ並ぶ）", fontsize=10); ax.legend(frameon=False, fontsize=9)
 ax = axs[1]
 nus = [3, 4, 6, 10, 30]
 ys = [B[(B.check == "R4_nu") & (B.value.astype(str) == str(n)) & (B.kind == "t")].db_var.iloc[0] * 100 if n != 4 else A["res"]["t"]["db_var"] * 100 for n in nus]
@@ -138,7 +138,7 @@ for i in range(len(ks)):
 ax.axhline(0, color="k", lw=0.8)
 ax.set_xticks(x); ax.set_xticklabels([LAB[k] for k in ks])
 ax.set_ylabel("相関"); ax.set_ylim(-0.12, 0.5)
-ax.set_title("6. もう一度問う：式に入れるべき相関は、データの相関からは決まらない")
+ax.set_title("6. もう一度問う：式に入れるべき相関は、順位相関からは決まらない（ピアソンは向きは合うが足りない）", fontsize=11)
 ax.legend(frameon=False, fontsize=9, loc="upper left")
 save(fig, "f295_6_reask.png")
 print("figures done")
