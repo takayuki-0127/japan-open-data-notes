@@ -1,0 +1,39 @@
+{
+ "pdf": {
+  "f292_saidai_01.pdf": {
+   "md5": "f2e357036a1bd7fca1a52c79a19ede4e",
+   "url": "https://www.bousai.go.jp/jishin/nankai/taisaku_wg_02/pdf/saidai_01.pdf"
+  },
+  "f292_saidai_02.pdf": {
+   "md5": "25193c8970c2339e219c8136e3363faf",
+   "url": "https://www.bousai.go.jp/jishin/nankai/taisaku_wg_02/pdf/saidai_02.pdf"
+  },
+  "f292_sanko_gaiyo.pdf": {
+   "md5": "c5bbab77512e58a35109f28110914715",
+   "url": "https://www.bousai.go.jp/jishin/nankai/taisaku_wg_02/pdf/sanko_gaiyo.pdf"
+  }
+ },
+ "pop_source": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp（2018・2013年推計も同サイト）",
+ "raw": {
+  "f292_pop.csv": {
+   "md5": "a59aca13b1dd8103950bc434ae7c0200",
+   "bytes": 68149
+  },
+  "f292_s2_words.csv": {
+   "md5": "9cc8c19c5a7d32d73ad4177a68f99c73",
+   "bytes": 1128114
+  },
+  "f292_saidai_01.txt": {
+   "md5": "3d4baf703137cf882b3e4776169522ba",
+   "bytes": 235832
+  },
+  "f292_saidai_02.txt": {
+   "md5": "00e57dd0aff207abc9b5b3f0956e2afa",
+   "bytes": 2029436
+  },
+  "f292_sanko_gaiyo.txt": {
+   "md5": "7dc9b4df9ae28bf6df3607038aba41ce",
+   "bytes": 292716
+  }
+ }
+}
