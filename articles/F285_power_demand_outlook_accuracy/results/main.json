@@ -1,7 +1,7 @@
 {
  "H": {
   "H1": {
-   "n_over5": 2,
+   "n_over5": 4,
    "of": 4,
    "rows": [
     {
@@ -14,13 +14,13 @@
      "vintage": 2001,
      "case": "基準ケース",
      "target_year": 2010,
-     "err_pct": 4.19
+     "err_pct": 8.99
     },
     {
      "vintage": 2004,
      "case": "レファレンスケース",
      "target_year": 2010,
-     "err_pct": 3.25
+     "err_pct": 8.1
     },
     {
      "vintage": 2008,
@@ -29,14 +29,14 @@
      "err_pct": 47.3
     }
    ],
-   "verdict": "外れ"
+   "verdict": "支持"
   },
   "H2": {
-   "rho_all": 0.701513492082101,
-   "p_all": 1.6581783518288256e-34,
-   "n_all": 224,
-   "rho_latest": 0.8271128152380625,
-   "p_latest": 1.2552263741906838e-05,
+   "rho_all": 0.7121399915889647,
+   "p_all": 3.458785611445514e-35,
+   "n_all": 219,
+   "rho_latest": 0.7630782747035028,
+   "p_latest": 0.00014454881948694503,
    "n_latest": 19,
    "verdict": "支持"
   },
@@ -44,15 +44,15 @@
    "rows": [
     {
      "vintage": 2001,
-     "low_abs": 0.9306280244731242,
-     "high_abs": 4.109259069048198,
+     "low_abs": 5.74501889249193,
+     "high_abs": 8.605786832609498,
      "low_closer": true
     },
     {
      "vintage": 2004,
-     "low_abs": 4.743921514074391,
-     "high_abs": 3.2015372539365434,
-     "low_closer": false
+     "low_abs": 0.6379243077991602,
+     "high_abs": 7.788837199009004,
+     "low_closer": true
     },
     {
      "vintage": 2008,
@@ -61,7 +61,7 @@
      "low_closer": true
     }
    ],
-   "verdict": "外れ"
+   "verdict": "支持"
   },
   "H4": {
    "e2015": [
@@ -90,13 +90,13 @@
       "vintage": 2001,
       "case": "基準ケース",
       "target_year": 2010,
-      "err_pct": 1.82
+      "err_pct": 4.19
      },
      {
       "vintage": 2004,
       "case": "レファレンスケース",
       "target_year": 2010,
-      "err_pct": 0.9
+      "err_pct": 3.25
      },
      {
       "vintage": 2008,
@@ -108,11 +108,11 @@
     "verdict": "外れ"
    },
    "H2": {
-    "rho_all": 0.6907552939366205,
-    "p_all": 4.240012359679795e-33,
+    "rho_all": 0.6772737045064883,
+    "p_all": 2.027224035711199e-31,
     "n_all": 224,
-    "rho_latest": 0.8502363993199866,
-    "p_latest": 4.025120438789946e-06,
+    "rho_latest": 0.8600194541238778,
+    "p_latest": 2.3472522632215297e-06,
     "n_latest": 19,
     "verdict": "支持"
    },
@@ -120,14 +120,14 @@
     "rows": [
      {
       "vintage": 2001,
-      "low_abs": 1.3706048811372662,
-      "high_abs": 1.8080261634378079,
+      "low_abs": 0.9306280244731242,
+      "high_abs": 4.109259069048198,
       "low_closer": true
      },
      {
       "vintage": 2004,
-      "low_abs": 7.045154419684782,
-      "high_abs": 0.900304348326153,
+      "low_abs": 4.743921514074391,
+      "high_abs": 3.2015372539365434,
       "low_closer": false
      },
      {
@@ -165,13 +165,13 @@
       "vintage": 2001,
       "case": "基準ケース",
       "target_year": 2010,
-      "err_pct": 7.09
+      "err_pct": 8.56
      },
      {
       "vintage": 2004,
       "case": "レファレンスケース",
       "target_year": 2010,
-      "err_pct": 6.13
+      "err_pct": 7.68
      },
      {
       "vintage": 2008,
@@ -183,11 +183,11 @@
     "verdict": "支持"
    },
    "H2": {
-    "rho_all": 0.7038912427439856,
-    "p_all": 7.942421624591137e-35,
-    "n_all": 224,
-    "rho_latest": 0.7755294353630005,
-    "p_latest": 9.566680562156936e-05,
+    "rho_all": 0.7132123139583982,
+    "p_all": 2.465608243884925e-35,
+    "n_all": 219,
+    "rho_latest": 0.7461802709513272,
+    "p_latest": 0.00024376562765538774,
     "n_latest": 19,
     "verdict": "支持"
    },
@@ -195,14 +195,14 @@
     "rows": [
      {
       "vintage": 2001,
-      "low_abs": 3.674289961610487,
-      "high_abs": 6.852921006185561,
+      "low_abs": 5.356294615990401,
+      "high_abs": 8.217062556107969,
       "low_closer": true
      },
      {
       "vintage": 2004,
-      "low_abs": 2.000259576937028,
-      "high_abs": 5.945199191073907,
+      "low_abs": 0.2492000312976308,
+      "high_abs": 7.400112922507475,
       "low_closer": true
      },
      {
@@ -226,42 +226,28 @@
    }
   },
   "R3_per_year": {
-   "spearman_horizon_vs_abs_per_year": 0.5256168535545105,
+   "spearman_horizon_vs_abs_per_year": 0.4998251636169797,
    "per_year": [
     {
-     "vintage": 1998,
-     "case": "BAU（新たな対策なし）",
+     "vintage": 2004,
+     "case": "現行対策推進ケース",
      "target_year": 2010,
-     "horizon": 13,
-     "err_per_year": 1.07
+     "horizon": 10,
+     "err_per_year": 0.28
     },
     {
      "vintage": 2004,
      "case": "レファレンスケース",
      "target_year": 2010,
      "horizon": 10,
-     "err_per_year": 0.32
+     "err_per_year": 0.78
     },
     {
-     "vintage": 2001,
-     "case": "目標ケース",
+     "vintage": 1998,
+     "case": "BAU（新たな対策なし）",
      "target_year": 2010,
-     "horizon": 10,
-     "err_per_year": 0.09
-    },
-    {
-     "vintage": 2004,
-     "case": "追加対策ケース",
-     "target_year": 2010,
-     "horizon": 10,
-     "err_per_year": -0.47
-    },
-    {
-     "vintage": 2001,
-     "case": "基準ケース",
-     "target_year": 2010,
-     "horizon": 10,
-     "err_per_year": 0.41
+     "horizon": 13,
+     "err_per_year": 1.07
     },
     {
      "vintage": 1998,
@@ -271,11 +257,32 @@
      "err_per_year": 0.18
     },
     {
-     "vintage": 2004,
-     "case": "現行対策推進ケース",
+     "vintage": 2001,
+     "case": "基準ケース",
      "target_year": 2010,
      "horizon": 10,
-     "err_per_year": -0.24
+     "err_per_year": 0.86
+    },
+    {
+     "vintage": 2001,
+     "case": "目標ケース",
+     "target_year": 2010,
+     "horizon": 10,
+     "err_per_year": 0.57
+    },
+    {
+     "vintage": 2004,
+     "case": "追加対策ケース",
+     "target_year": 2010,
+     "horizon": 10,
+     "err_per_year": 0.06
+    },
+    {
+     "vintage": 2008,
+     "case": "現状固定ケース",
+     "target_year": 2020,
+     "horizon": 15,
+     "err_per_year": 2.58
     },
     {
      "vintage": 2008,
@@ -294,23 +301,9 @@
     {
      "vintage": 2008,
      "case": "現状固定ケース",
-     "target_year": 2020,
-     "horizon": 15,
-     "err_per_year": 2.58
-    },
-    {
-     "vintage": 2008,
-     "case": "現状固定ケース",
      "target_year": 2030,
      "horizon": 19,
      "err_per_year": 2.14
-    },
-    {
-     "vintage": 2008,
-     "case": "最大導入ケース",
-     "target_year": 2030,
-     "horizon": 19,
-     "err_per_year": 0.26
     },
     {
      "vintage": 2008,
@@ -320,18 +313,25 @@
      "err_per_year": 1.31
     },
     {
-     "vintage": 2015,
-     "case": "対策前",
-     "target_year": 2030,
-     "horizon": 11,
-     "err_per_year": 2.22
-    },
-    {
      "vintage": 2010,
      "case": "計画（2030年推計）",
      "target_year": 2030,
      "horizon": 17,
      "err_per_year": 0.83
+    },
+    {
+     "vintage": 2008,
+     "case": "最大導入ケース",
+     "target_year": 2030,
+     "horizon": 19,
+     "err_per_year": 0.26
+    },
+    {
+     "vintage": 2015,
+     "case": "対策前",
+     "target_year": 2030,
+     "horizon": 11,
+     "err_per_year": 2.22
     },
     {
      "vintage": 2015,
@@ -364,10 +364,393 @@
    ]
   },
   "R4_excl_2010plan": {
-   "H2_rho": 0.694752793958636
+   "H2_rho": 0.7080580201905459
+  },
+  "R5_utility_to_2009": [
+   {
+    "vintage": 2001,
+    "case": "基準ケース",
+    "case_rank": "high",
+    "year": 2009,
+    "proj_growth_pct": 7.56,
+    "act_growth_pct": 0.37,
+    "err_pct": 7.16
+   },
+   {
+    "vintage": 2001,
+    "case": "目標ケース",
+    "case_rank": "low",
+    "year": 2009,
+    "proj_growth_pct": 4.86,
+    "act_growth_pct": 0.37,
+    "err_pct": 4.47
+   },
+   {
+    "vintage": 2004,
+    "case": "レファレンスケース",
+    "case_rank": "high",
+    "year": 2009,
+    "proj_growth_pct": 6.78,
+    "act_growth_pct": 0.37,
+    "err_pct": 6.39
+   },
+   {
+    "vintage": 2004,
+    "case": "現行対策推進ケース",
+    "case_rank": "mid",
+    "year": 2009,
+    "proj_growth_pct": 2.11,
+    "act_growth_pct": 0.37,
+    "err_pct": 1.74
+   },
+   {
+    "vintage": 2004,
+    "case": "追加対策ケース",
+    "case_rank": "low",
+    "year": 2009,
+    "proj_growth_pct": 0.2,
+    "act_growth_pct": 0.37,
+    "err_pct": -0.16
+   }
+  ],
+  "R6_utility_sales": [
+   {
+    "vintage": 2001,
+    "case": "基準ケース",
+    "case_rank": "high",
+    "year": 2010,
+    "proj_growth_pct": 9.54,
+    "act_growth_pct": 8.17,
+    "err_pct": 1.26
+   },
+   {
+    "vintage": 2001,
+    "case": "目標ケース",
+    "case_rank": "low",
+    "year": 2010,
+    "proj_growth_pct": 6.11,
+    "act_growth_pct": 8.17,
+    "err_pct": -1.91
+   },
+   {
+    "vintage": 2004,
+    "case": "レファレンスケース",
+    "case_rank": "high",
+    "year": 2010,
+    "proj_growth_pct": 8.55,
+    "act_growth_pct": 8.17,
+    "err_pct": 0.34
+   },
+   {
+    "vintage": 2004,
+    "case": "現行対策推進ケース",
+    "case_rank": "mid",
+    "year": 2010,
+    "proj_growth_pct": 2.65,
+    "act_growth_pct": 8.17,
+    "err_pct": -5.11
+   },
+   {
+    "vintage": 2004,
+    "case": "追加対策ケース",
+    "case_rank": "low",
+    "year": 2010,
+    "proj_growth_pct": 0.26,
+    "act_growth_pct": 8.17,
+    "err_pct": -7.32
+   }
+  ],
+  "R7_utility_splice2010": [
+   {
+    "vintage": 2001,
+    "case": "基準ケース",
+    "case_rank": "high",
+    "year": 2010,
+    "proj_growth_pct": 8.54,
+    "act_growth_pct": 4.36,
+    "err_pct": 4.0
+   },
+   {
+    "vintage": 2001,
+    "case": "目標ケース",
+    "case_rank": "low",
+    "year": 2010,
+    "proj_growth_pct": 5.48,
+    "act_growth_pct": 4.36,
+    "err_pct": 1.07
+   },
+   {
+    "vintage": 2004,
+    "case": "レファレンスケース",
+    "case_rank": "high",
+    "year": 2010,
+    "proj_growth_pct": 7.66,
+    "act_growth_pct": 4.36,
+    "err_pct": 3.16
+   },
+   {
+    "vintage": 2004,
+    "case": "現行対策推進ケース",
+    "case_rank": "mid",
+    "year": 2010,
+    "proj_growth_pct": 2.38,
+    "act_growth_pct": 4.36,
+    "err_pct": -1.9
+   },
+   {
+    "vintage": 2004,
+    "case": "追加対策ケース",
+    "case_rank": "low",
+    "year": 2010,
+    "proj_growth_pct": 0.23,
+    "act_growth_pct": 4.36,
+    "err_pct": -3.96
+   }
+  ],
+  "R7_hyp": {
+   "H1": {
+    "n_over5": 2,
+    "of": 4,
+    "rows": [
+     {
+      "vintage": 1998,
+      "case": "BAU（新たな対策なし）",
+      "target_year": 2010,
+      "err_pct": 14.9
+     },
+     {
+      "vintage": 2001,
+      "case": "基準ケース",
+      "target_year": 2010,
+      "err_pct": 4.0
+     },
+     {
+      "vintage": 2004,
+      "case": "レファレンスケース",
+      "target_year": 2010,
+      "err_pct": 3.16
+     },
+     {
+      "vintage": 2008,
+      "case": "現状固定ケース",
+      "target_year": 2020,
+      "err_pct": 47.3
+     }
+    ],
+    "verdict": "外れ"
+   },
+   "H2": {
+    "rho_all": 0.7068184558581138,
+    "p_all": 1.8137904022073458e-34,
+    "n_all": 219,
+    "rho_latest": 0.8368958700419533,
+    "p_latest": 7.92505802061911e-06,
+    "n_latest": 19,
+    "verdict": "支持"
+   },
+   "H3": {
+    "rows": [
+     {
+      "vintage": 2001,
+      "low_abs": 1.0644688599955778,
+      "high_abs": 3.9252368001131464,
+      "low_closer": true
+     },
+     {
+      "vintage": 2004,
+      "low_abs": 4.042625724697191,
+      "high_abs": 3.1082871665126524,
+      "low_closer": false
+     },
+     {
+      "vintage": 2008,
+      "low_abs": 15.20672598576864,
+      "high_abs": 38.72770242266845,
+      "low_closer": true
+     }
+    ],
+    "verdict": "外れ"
+   },
+   "H4": {
+    "e2015": [
+     27.61,
+     13.42
+    ],
+    "e2021": [
+     1.93
+    ],
+    "verdict": "支持"
+   }
+  },
+  "path_2008": [
+   {
+    "case": "現状固定ケース",
+    "year": 2008,
+    "err_pct": 2.53
+   },
+   {
+    "case": "現状固定ケース",
+    "year": 2009,
+    "err_pct": 10.81
+   },
+   {
+    "case": "現状固定ケース",
+    "year": 2010,
+    "err_pct": 8.62
+   },
+   {
+    "case": "現状固定ケース",
+    "year": 2011,
+    "err_pct": 15.68
+   },
+   {
+    "case": "現状固定ケース",
+    "year": 2012,
+    "err_pct": 17.38
+   },
+   {
+    "case": "現状固定ケース",
+    "year": 2015,
+    "err_pct": 32.75
+   },
+   {
+    "case": "現状固定ケース",
+    "year": 2019,
+    "err_pct": 39.78
+   },
+   {
+    "case": "現状固定ケース",
+    "year": 2020,
+    "err_pct": 47.3
+   },
+   {
+    "case": "努力継続ケース",
+    "year": 2008,
+    "err_pct": -0.28
+   },
+   {
+    "case": "努力継続ケース",
+    "year": 2009,
+    "err_pct": 6.78
+   },
+   {
+    "case": "努力継続ケース",
+    "year": 2010,
+    "err_pct": 3.71
+   },
+   {
+    "case": "努力継続ケース",
+    "year": 2011,
+    "err_pct": 9.43
+   },
+   {
+    "case": "努力継続ケース",
+    "year": 2012,
+    "err_pct": 10.01
+   },
+   {
+    "case": "努力継続ケース",
+    "year": 2015,
+    "err_pct": 21.01
+   },
+   {
+    "case": "努力継続ケース",
+    "year": 2019,
+    "err_pct": 22.78
+   },
+   {
+    "case": "努力継続ケース",
+    "year": 2020,
+    "err_pct": 28.19
+   },
+   {
+    "case": "最大導入ケース",
+    "year": 2008,
+    "err_pct": -2.19
+   },
+   {
+    "case": "最大導入ケース",
+    "year": 2009,
+    "err_pct": 4.08
+   },
+   {
+    "case": "最大導入ケース",
+    "year": 2010,
+    "err_pct": 0.43
+   },
+   {
+    "case": "最大導入ケース",
+    "year": 2011,
+    "err_pct": 5.29
+   },
+   {
+    "case": "最大導入ケース",
+    "year": 2012,
+    "err_pct": 5.18
+   },
+   {
+    "case": "最大導入ケース",
+    "year": 2015,
+    "err_pct": 13.48
+   },
+   {
+    "case": "最大導入ケース",
+    "year": 2019,
+    "err_pct": 12.23
+   },
+   {
+    "case": "最大導入ケース",
+    "year": 2020,
+    "err_pct": 16.42
+   }
+  ],
+  "path_2008_fy2010_by_series": [
+   {
+    "case": "現状固定ケース",
+    "series": "gen_utility_fy",
+    "err_pct": 14.94
+   },
+   {
+    "case": "現状固定ケース",
+    "series": "gen_owid_cal_twh",
+    "err_pct": 8.62
+   },
+   {
+    "case": "努力継続ケース",
+    "series": "gen_utility_fy",
+    "err_pct": 9.74
+   },
+   {
+    "case": "努力継続ケース",
+    "series": "gen_owid_cal_twh",
+    "err_pct": 3.71
+   },
+   {
+    "case": "最大導入ケース",
+    "series": "gen_utility_fy",
+    "err_pct": 6.27
+   },
+   {
+    "case": "最大導入ケース",
+    "series": "gen_owid_cal_twh",
+    "err_pct": 0.43
+   }
+  ]
+ },
+ "n_path_points": 219,
+ "reask_counts": {
+  "n_rows": 14,
+  "n_vintages": 5,
+  "gdp_positive_vintages": 5,
+  "intensity_negative_rows": 10,
+  "gdp_err_by_vintage": {
+   "1998": 21.27,
+   "2004": 11.94,
+   "2008": 25.33,
+   "2015": 11.9,
+   "2021": 0.23
   }
  },
- "n_path_points": 224,
  "target": [
   {
    "vintage": 1998,
@@ -392,45 +775,45 @@
    "case": "基準ケース",
    "target_year": 2010,
    "horizon": 10,
-   "proj_growth_pct": 9.54,
-   "act_growth_pct": 5.13,
-   "err_pct": 4.19
+   "proj_growth_pct": 8.54,
+   "act_growth_pct": -0.41,
+   "err_pct": 8.99
   },
   {
    "vintage": 2001,
    "case": "目標ケース",
    "target_year": 2010,
    "horizon": 10,
-   "proj_growth_pct": 6.11,
-   "act_growth_pct": 5.13,
-   "err_pct": 0.93
+   "proj_growth_pct": 5.48,
+   "act_growth_pct": -0.41,
+   "err_pct": 5.91
   },
   {
    "vintage": 2004,
    "case": "レファレンスケース",
    "target_year": 2010,
    "horizon": 10,
-   "proj_growth_pct": 8.55,
-   "act_growth_pct": 5.13,
-   "err_pct": 3.25
+   "proj_growth_pct": 7.66,
+   "act_growth_pct": -0.41,
+   "err_pct": 8.1
   },
   {
    "vintage": 2004,
    "case": "現行対策推進ケース",
    "target_year": 2010,
    "horizon": 10,
-   "proj_growth_pct": 2.65,
-   "act_growth_pct": 5.13,
-   "err_pct": -2.36
+   "proj_growth_pct": 2.38,
+   "act_growth_pct": -0.41,
+   "err_pct": 2.8
   },
   {
    "vintage": 2004,
    "case": "追加対策ケース",
    "target_year": 2010,
    "horizon": 10,
-   "proj_growth_pct": 0.26,
-   "act_growth_pct": 5.13,
-   "err_pct": -4.63
+   "proj_growth_pct": 0.23,
+   "act_growth_pct": -0.41,
+   "err_pct": 0.64
   },
   {
    "vintage": 2008,
@@ -462,6 +845,26 @@
  ],
  "latest": [
   {
+   "vintage": 2004,
+   "case": "現行対策推進ケース",
+   "target_year": 2010,
+   "year": 2010,
+   "horizon": 10,
+   "proj_growth_pct": 2.38,
+   "act_growth_pct": -0.41,
+   "err_pct": 2.8
+  },
+  {
+   "vintage": 2004,
+   "case": "レファレンスケース",
+   "target_year": 2010,
+   "year": 2010,
+   "horizon": 10,
+   "proj_growth_pct": 7.66,
+   "act_growth_pct": -0.41,
+   "err_pct": 8.1
+  },
+  {
    "vintage": 1998,
    "case": "BAU（新たな対策なし）",
    "target_year": 2010,
@@ -470,46 +873,6 @@
    "proj_growth_pct": 31.02,
    "act_growth_pct": 14.03,
    "err_pct": 14.9
-  },
-  {
-   "vintage": 2004,
-   "case": "レファレンスケース",
-   "target_year": 2010,
-   "year": 2010,
-   "horizon": 10,
-   "proj_growth_pct": 8.55,
-   "act_growth_pct": 5.13,
-   "err_pct": 3.25
-  },
-  {
-   "vintage": 2001,
-   "case": "目標ケース",
-   "target_year": 2010,
-   "year": 2010,
-   "horizon": 10,
-   "proj_growth_pct": 6.11,
-   "act_growth_pct": 5.13,
-   "err_pct": 0.93
-  },
-  {
-   "vintage": 2004,
-   "case": "追加対策ケース",
-   "target_year": 2010,
-   "year": 2010,
-   "horizon": 10,
-   "proj_growth_pct": 0.26,
-   "act_growth_pct": 5.13,
-   "err_pct": -4.63
-  },
-  {
-   "vintage": 2001,
-   "case": "基準ケース",
-   "target_year": 2010,
-   "year": 2010,
-   "horizon": 10,
-   "proj_growth_pct": 9.54,
-   "act_growth_pct": 5.13,
-   "err_pct": 4.19
   },
   {
    "vintage": 1998,
@@ -522,14 +885,44 @@
    "err_pct": 2.41
   },
   {
-   "vintage": 2004,
-   "case": "現行対策推進ケース",
+   "vintage": 2001,
+   "case": "基準ケース",
    "target_year": 2010,
    "year": 2010,
    "horizon": 10,
-   "proj_growth_pct": 2.65,
-   "act_growth_pct": 5.13,
-   "err_pct": -2.36
+   "proj_growth_pct": 8.54,
+   "act_growth_pct": -0.41,
+   "err_pct": 8.99
+  },
+  {
+   "vintage": 2001,
+   "case": "目標ケース",
+   "target_year": 2010,
+   "year": 2010,
+   "horizon": 10,
+   "proj_growth_pct": 5.48,
+   "act_growth_pct": -0.41,
+   "err_pct": 5.91
+  },
+  {
+   "vintage": 2004,
+   "case": "追加対策ケース",
+   "target_year": 2010,
+   "year": 2010,
+   "horizon": 10,
+   "proj_growth_pct": 0.23,
+   "act_growth_pct": -0.41,
+   "err_pct": 0.64
+  },
+  {
+   "vintage": 2008,
+   "case": "現状固定ケース",
+   "target_year": 2020,
+   "year": 2020,
+   "horizon": 15,
+   "proj_growth_pct": 29.15,
+   "act_growth_pct": -12.32,
+   "err_pct": 47.3
   },
   {
    "vintage": 2008,
@@ -554,32 +947,12 @@
   {
    "vintage": 2008,
    "case": "現状固定ケース",
-   "target_year": 2020,
-   "year": 2020,
-   "horizon": 15,
-   "proj_growth_pct": 29.15,
-   "act_growth_pct": -12.32,
-   "err_pct": 47.3
-  },
-  {
-   "vintage": 2008,
-   "case": "現状固定ケース",
    "target_year": 2030,
    "year": 2024,
    "horizon": 19,
    "proj_growth_pct": 32.42,
    "act_growth_pct": -11.85,
    "err_pct": 50.22
-  },
-  {
-   "vintage": 2008,
-   "case": "最大導入ケース",
-   "target_year": 2030,
-   "year": 2024,
-   "horizon": 19,
-   "proj_growth_pct": -7.32,
-   "act_growth_pct": -11.85,
-   "err_pct": 5.14
   },
   {
    "vintage": 2008,
@@ -592,16 +965,6 @@
    "err_pct": 28.25
   },
   {
-   "vintage": 2015,
-   "case": "対策前",
-   "target_year": 2030,
-   "year": 2024,
-   "horizon": 11,
-   "proj_growth_pct": 13.58,
-   "act_growth_pct": -10.99,
-   "err_pct": 27.61
-  },
-  {
    "vintage": 2010,
    "case": "計画（2030年推計）",
    "target_year": 2030,
@@ -610,6 +973,26 @@
    "proj_growth_pct": -0.75,
    "act_growth_pct": -13.87,
    "err_pct": 15.23
+  },
+  {
+   "vintage": 2008,
+   "case": "最大導入ケース",
+   "target_year": 2030,
+   "year": 2024,
+   "horizon": 19,
+   "proj_growth_pct": -7.32,
+   "act_growth_pct": -11.85,
+   "err_pct": 5.14
+  },
+  {
+   "vintage": 2015,
+   "case": "対策前",
+   "target_year": 2030,
+   "year": 2024,
+   "horizon": 11,
+   "proj_growth_pct": 13.58,
+   "act_growth_pct": -10.99,
+   "err_pct": 27.61
   },
   {
    "vintage": 2015,
@@ -658,6 +1041,7 @@
    "case": "BAU（新たな対策なし）",
    "case_rank": "high",
    "base_year": 1997,
+   "anchor_year": 1997,
    "year": 2010,
    "horizon": 13,
    "err_total": 13.89,
@@ -673,6 +1057,7 @@
    "case": "対策ケース",
    "case_rank": "low",
    "base_year": 1997,
+   "anchor_year": 1997,
    "year": 2010,
    "horizon": 13,
    "err_total": 2.38,
@@ -688,51 +1073,55 @@
    "case": "レファレンスケース",
    "case_rank": "high",
    "base_year": 2000,
+   "anchor_year": 2001,
    "year": 2010,
    "horizon": 10,
-   "err_total": 3.2,
-   "err_gdp": 13.57,
-   "err_intensity": -10.37,
-   "proj_gdp_growth": 21.9,
-   "act_gdp_growth": 6.43,
-   "proj_intensity": -10.95,
-   "act_intensity": -1.22
+   "err_total": 7.79,
+   "err_gdp": 11.94,
+   "err_intensity": -4.15,
+   "proj_gdp_growth": 19.51,
+   "act_gdp_growth": 6.06,
+   "proj_intensity": -9.92,
+   "act_intensity": -6.1
   },
   {
    "vintage": 2004,
    "case": "現行対策推進ケース",
    "case_rank": "mid",
    "base_year": 2000,
+   "anchor_year": 2001,
    "year": 2010,
    "horizon": 10,
-   "err_total": -2.38,
-   "err_gdp": 13.57,
-   "err_intensity": -15.96,
-   "proj_gdp_growth": 21.9,
-   "act_gdp_growth": 6.43,
-   "proj_intensity": -15.79,
-   "act_intensity": -1.22
+   "err_total": 2.76,
+   "err_gdp": 11.94,
+   "err_intensity": -9.17,
+   "proj_gdp_growth": 19.51,
+   "act_gdp_growth": 6.06,
+   "proj_intensity": -14.33,
+   "act_intensity": -6.1
   },
   {
    "vintage": 2004,
    "case": "追加対策ケース",
    "case_rank": "low",
    "base_year": 2000,
+   "anchor_year": 2001,
    "year": 2010,
    "horizon": 10,
-   "err_total": -4.74,
-   "err_gdp": 13.57,
-   "err_intensity": -18.32,
-   "proj_gdp_growth": 21.9,
-   "act_gdp_growth": 6.43,
-   "proj_intensity": -17.76,
-   "act_intensity": -1.22
+   "err_total": 0.64,
+   "err_gdp": 11.94,
+   "err_intensity": -11.3,
+   "proj_gdp_growth": 19.51,
+   "act_gdp_growth": 6.06,
+   "proj_intensity": -16.13,
+   "act_intensity": -6.1
   },
   {
    "vintage": 2008,
    "case": "現状固定ケース",
    "case_rank": "high",
    "base_year": 2005,
+   "anchor_year": 2005,
    "year": 2020,
    "horizon": 15,
    "err_total": 38.73,
@@ -748,6 +1137,7 @@
    "case": "努力継続ケース",
    "case_rank": "mid",
    "base_year": 2005,
+   "anchor_year": 2005,
    "year": 2020,
    "horizon": 15,
    "err_total": 24.84,
@@ -763,6 +1153,7 @@
    "case": "最大導入ケース",
    "case_rank": "low",
    "base_year": 2005,
+   "anchor_year": 2005,
    "year": 2020,
    "horizon": 15,
    "err_total": 15.21,
@@ -778,6 +1169,7 @@
    "case": "現状固定ケース",
    "case_rank": "high",
    "base_year": 2005,
+   "anchor_year": 2005,
    "year": 2022,
    "horizon": 17,
    "err_total": 35.39,
@@ -793,6 +1185,7 @@
    "case": "努力継続ケース",
    "case_rank": "mid",
    "base_year": 2005,
+   "anchor_year": 2005,
    "year": 2022,
    "horizon": 17,
    "err_total": 21.24,
@@ -808,6 +1201,7 @@
    "case": "最大導入ケース",
    "case_rank": "low",
    "base_year": 2005,
+   "anchor_year": 2005,
    "year": 2022,
    "horizon": 17,
    "err_total": 3.46,
@@ -823,6 +1217,7 @@
    "case": "対策前",
    "case_rank": "high",
    "base_year": 2013,
+   "anchor_year": 2013,
    "year": 2022,
    "horizon": 9,
    "err_total": 19.69,
@@ -838,6 +1233,7 @@
    "case": "省エネ対策後",
    "case_rank": "low",
    "base_year": 2013,
+   "anchor_year": 2013,
    "year": 2022,
    "horizon": 9,
    "err_total": 10.04,
@@ -853,14 +1249,15 @@
    "case": "見通し",
    "case_rank": "mid",
    "base_year": 2019,
+   "anchor_year": 2019,
    "year": 2022,
    "horizon": 3,
    "err_total": 0.82,
-   "err_gdp": 6.28,
-   "err_intensity": -5.47,
-   "proj_gdp_growth": 5.19,
+   "err_gdp": 0.23,
+   "err_intensity": 0.59,
+   "proj_gdp_growth": -1.0,
    "act_gdp_growth": -1.22,
-   "proj_intensity": -6.75,
+   "proj_intensity": -0.92,
    "act_intensity": -1.51
   }
  ]
