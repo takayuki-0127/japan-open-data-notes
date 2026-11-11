@@ -110,11 +110,11 @@ for yr in RA["record_actual_2006_2025"]:
 for yr in RA["record_std_women2025"]:
     ax.plot(yr, s.births_at_2025_women[yr] / 1e4, "v", color=CF, ms=8, mec="white")
 ax.axhline(s.births_at_2025_women[2005] / 1e4, color=CF, lw=.8, ls=":")
-ax.text(2005.3, s.births_at_2025_women[2005] / 1e4 - 2.2, "2005年の水準（2022年まではこれが最低）", color=CF, fontsize=9)
+ax.text(2005.3, s.births_at_2025_women[2005] / 1e4 - 2.2, "2005年の水準（2022年はほぼ同じ、差0.2%）", color=CF, fontsize=9)
 ax.text(2016.3, 99.5, "率が2015年のままでも、女性の数の減少だけで\n毎年それまでの最少（2014年の100.4万人）を下回る", color=CN, fontsize=9)
 ax.set_xticks(range(2005, 2026, 5))
 ax.set_ylabel("出生数（万人）"); ax.set_xlim(2004.5, 2025.8); ax.set_ylim(60, 118)
-ax.set_title("▼は「それまでで最少」の年。率だけで見ると最少は2023年から", loc="left", fontsize=12)
+ax.set_title("▼は「それまでで最少」の年。率だけで見ると最少は2023年から（2022年はほぼ並ぶ）", loc="left", fontsize=12)
 ax.legend(frameon=False, loc="upper right", fontsize=9, bbox_to_anchor=(1, 1.02))
 save(fig, "fig6_reask_record_lows.png")
 print(sorted(p.name for p in F.glob("*.png")))

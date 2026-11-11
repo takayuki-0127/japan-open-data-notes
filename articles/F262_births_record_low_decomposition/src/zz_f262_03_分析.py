@@ -156,7 +156,15 @@ s_std15 = pd.Series({y: np.nansum(bi.loc[y, AG].values / Wl.loc[y, AG].values * 
 rec_std15 = record_years(s_std15)
 cf = std.set_index("year").births_at_2015_rates
 rec_cf = [int(y) for y in range(2016, 2026) if cf[y] < min(act[act.index < 2016].min(), cf[(cf.index >= 2016) & (cf.index < y)].min() if y > 2016 else np.inf)]
-reask = {"record_actual_2006_2025": rec_actual, "record_std_women2025": rec_std25, "record_std_women2015": rec_std15,
+# 合計特殊出生率（計算値、年齢を同じ重みで足す）で見た「それまでで最少」の年、2022年と2005年の差（独立レビューで追加）
+s_tfr = std.set_index("year").tfr_calc
+rec_tfr = record_years(s_tfr)
+ri_tfr = (ri[AG].sum(axis=1) * 5 / 1000)  # 表4-7 の率（小数1桁）から
+s_std25_ri = pd.Series({y: (ri.loc[y, AG].values / 1000 * W25).sum() for y in ri.index})
+reask = {"record_actual_2006_2025": rec_actual, "record_tfr_calc": rec_tfr,
+         "tfr_calc_2005": s_tfr[2005], "tfr_calc_2022": s_tfr[2022], "tfr_ipss_rates_2005": ri_tfr[2005], "tfr_ipss_rates_2022": ri_tfr[2022],
+         "gap_std25_2022_vs_2005_pct": (s_std25[2022] / s_std25[2005] - 1) * 100,
+         "gap_std25_2022_vs_2005_pct_ipss_rates": (s_std25_ri[2022] / s_std25_ri[2005] - 1) * 100, "record_std_women2025": rec_std25, "record_std_women2015": rec_std15,
          "record_if_rates_2015": rec_cf,
          "std25_2005": s_std25[2005], "std25_2015": s_std25[2015], "std25_2022": s_std25[2022], "std25_2023": s_std25[2023], "std25_2025": s_std25[2025],
          "cf_2016": cf[2016], "cf_2025": cf[2025], "min_actual_before_2016": act[act.index < 2016].min(),
