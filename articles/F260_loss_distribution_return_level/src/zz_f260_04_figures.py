@@ -36,7 +36,7 @@ CASE_B = [c for c in fits.case.unique() if c.startswith("B：")][0]
 # 図1 データ：事故ごとの損害（2025年度の建設費・住宅数に直した額）
 fig, ax = plt.subplots(figsize=(10, 5.4))
 yrs = A.event_ym.str[:4].astype(int) + (A.event_ym.str[5:7].astype(int) - .5) / 12
-ax.scatter(yrs, A.loss_2025_oku, s=36, color=C["指数"], label="協会が個別に調べた35事故（2012〜2025年度）", zorder=3)
+ax.scatter(yrs, A.loss_2025_oku, s=36, color=C["指数"], label="協会が個別に調べた34事故（2012〜2025年度）", zorder=3)
 old = B[B.fy < 2012]; yo = old.event_ym.str[:4].astype(int) + (old.event_ym.str[5:7].astype(int) - .5) / 12
 ax.scatter(yo, old.loss_2025_oku, s=48, color=C["GPD"], marker="D", label="上位10表の2011年度以前の大事故（1991・1999・2004年）", zorder=3)
 ax.set_yscale("log")
