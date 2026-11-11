@@ -1,0 +1,13 @@
+month,dept_oku,store_mil,share_pct,any,lr_any,dept_gap,store_gap,share_gap
+2025-04,False,False,False,False,False,0.0,0.0,0.0
+2025-05,False,False,True,True,False,0.0,0.0,1.0
+2025-06,True,False,False,True,False,0.1,0.0,0.0
+2025-07,True,False,False,True,False,-0.1,0.0,0.0
+2025-08,True,False,True,True,False,0.1,0.0,1.0
+2025-09,False,True,True,True,False,0.0,1.0,1.0
+2025-10,True,True,False,True,False,0.1,1.0,0.0
+2025-11,False,True,True,True,False,0.0,1.0,-1.0
+2025-12,False,False,False,False,False,0.0,0.0,0.0
+2026-01,False,False,False,False,False,0.0,0.0,0.0
+2026-02,False,False,False,False,False,0.0,0.0,0.0
+2026-03,True,True,False,True,False,-0.1,1.0,0.0
