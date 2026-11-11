@@ -1,0 +1,26 @@
+{
+ "freshness_full": [
+  "2025-12-29",
+  "4",
+  "OK"
+ ],
+ "freshness_missing_last_week": [
+  "2025-12-22",
+  "0",
+  "WAIT"
+ ],
+ "parts": [
+  "multipart/alternative",
+  "text/plain",
+  "multipart/related",
+  "text/html",
+  "image/png"
+ ],
+ "size_kb": 15.1,
+ "cid_refs_resolved": true,
+ "numbers_text_equal_html": true,
+ "n_numbers": 13,
+ "style_tags": 0,
+ "inline_style_attrs": 28,
+ "subject": "[週次KPI] 2025-12-29 の週：ネット注文（千件） 4週平均比 -4.7%"
+}

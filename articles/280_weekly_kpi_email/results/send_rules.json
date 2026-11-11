@@ -1,0 +1,107 @@
+{
+ "weeks": 52,
+ "late_weeks": 1,
+ "one_year": {
+  "A：毎週7:00に送る": {
+   "stale_weeks": 2,
+   "median_send": 7.0,
+   "mean_send": 7.0,
+   "gave_up": 0
+  },
+  "B：毎週9:00に送る": {
+   "stale_weeks": 1,
+   "median_send": 9.0,
+   "mean_send": 9.0,
+   "gave_up": 0
+  },
+  "C：7:00に確認、そろうまで30分おき": {
+   "stale_weeks": 0,
+   "median_send": 7.0,
+   "mean_send": 7.0576923076923075,
+   "gave_up": 0
+  }
+ },
+ "sensitivity": [
+  {
+   "late_rate": 0.05,
+   "rule": "A：毎週7:00に送る",
+   "stale_share": 0.09479807692307693,
+   "median_send": 7.0,
+   "mean_send": 7.0,
+   "p90_send": 7.0,
+   "gave_up_share": 0.0
+  },
+  {
+   "late_rate": 0.05,
+   "rule": "B：毎週9:00に送る",
+   "stale_share": 0.030721153846153846,
+   "median_send": 9.0,
+   "mean_send": 9.0,
+   "p90_send": 9.0,
+   "gave_up_share": 0.0
+  },
+  {
+   "late_rate": 0.05,
+   "rule": "C：7:00に確認、そろうまで30分おき",
+   "stale_share": 0.0,
+   "median_send": 7.0,
+   "mean_send": 7.157879807692308,
+   "p90_send": 7.0,
+   "gave_up_share": 8.653846153846153e-05
+  },
+  {
+   "late_rate": 0.1,
+   "rule": "A：毎週7:00に送る",
+   "stale_share": 0.143375,
+   "median_send": 7.0,
+   "mean_send": 7.0,
+   "p90_send": 7.0,
+   "gave_up_share": 0.0
+  },
+  {
+   "late_rate": 0.1,
+   "rule": "B：毎週9:00に送る",
+   "stale_share": 0.06244230769230769,
+   "median_send": 9.0,
+   "mean_send": 9.0,
+   "p90_send": 9.0,
+   "gave_up_share": 0.0
+  },
+  {
+   "late_rate": 0.1,
+   "rule": "C：7:00に確認、そろうまで30分おき",
+   "stale_share": 0.0,
+   "median_send": 7.0,
+   "mean_send": 7.296350961538462,
+   "p90_send": 7.5,
+   "gave_up_share": 0.00011538461538461538
+  },
+  {
+   "late_rate": 0.2,
+   "rule": "A：毎週7:00に送る",
+   "stale_share": 0.23698076923076922,
+   "median_send": 7.0,
+   "mean_send": 7.0,
+   "p90_send": 7.0,
+   "gave_up_share": 0.0
+  },
+  {
+   "late_rate": 0.2,
+   "rule": "B：毎週9:00に送る",
+   "stale_share": 0.122875,
+   "median_send": 9.0,
+   "mean_send": 9.0,
+   "p90_send": 9.0,
+   "gave_up_share": 0.0
+  },
+  {
+   "late_rate": 0.2,
+   "rule": "C：7:00に確認、そろうまで30分おき",
+   "stale_share": 0.0,
+   "median_send": 7.0,
+   "mean_send": 7.563341346153846,
+   "p90_send": 9.5,
+   "gave_up_share": 0.0002884615384615385
+  }
+ ]
+}
