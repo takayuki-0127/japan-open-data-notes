@@ -1,9 +1,14 @@
 """03 分析：2025年想定の都府県別・原因別の死者数を、人口の規模と年齢構成だけ変えて 2050 年まで動かす。
 - 規模：各原因 × P_p(t)/P_p(2020)（社人研2023中位。2020年は国勢調査の実績）
-  建物倒壊・急傾斜地・火災・ブロック塀等の死者は「建物1棟当たり滞留人口」に比例する式なので、建物被害を固定すれば人口に比例する（手法資料）。
+  手法資料（sanko_gaiyo pp.28–29 ほか）では、人口の大きさに比例するのは 建物倒壊（建物1棟当たり滞留人口）、津波、
+  火災 b（倒壊・焼失家屋内の救出困難者）・c（焼失人口＝焼失率×滞留人口）。
+  急傾斜地（0.098×全壊棟数×0.7×滞留人口比率）と 火災 a（0.055×出火件数×屋内滞留人口比率）は「比率」なので人口の大きさは消える。
+  表は 火災 を a/b/c に分けていないため、主の計算は全原因を人口に比例させる近似とし、
+  感度として 急傾斜地と火災（全部）を固定した場合も出す（S1。火災 b・c まで固定するので、影響の上限側）。
 - 年齢：津波の死者だけ × C_p(t)/C_p(2015)。C＝Σ年齢区分比率×重み（0.34, 0.62, 1.79, 2.81）。
   想定は 2015 年国勢調査の市区町村別比率で補正係数を作っている。ここでは都道府県の比率で近似する。
 - 分解：対数平均（LMDI）で、変化を「規模」と「年齢」に分ける。
+- H4：計画どおり「人口の規模＋年齢」で説明できる割合が半分未満かで判定（規模だけの割合も併記）。
 都道府県の個別の値は出さない（集計だけ）。
 """
 import sys, json, pathlib
@@ -87,6 +92,14 @@ M["H2"] = M["H2_tsunami_offset_share"] >= 1 / 3
 M["H3_net_pct"] = pct(s50["both"], s50["base"])
 M["H3"] = M["H3_net_pct"] > -15
 M["age_offset_share_total"] = round(-s50["eff_age"] / s50["eff_size"], 3)
+# S1（レビューで追加）：急傾斜地と火災を人口に比例させず固定した場合
+fix = ["急傾斜地", "火災"]
+fx = sum(r50[c]["base"] for c in fix)
+s1_size = sum(r50[c]["size_only"] for c in CAUSES if c not in fix) + fx
+s1_both = sum(r50[c]["both"] for c in CAUSES if c not in fix) + fx
+M["S1_fix_slope_fire"] = {"size_pct": pct(s1_size, s50["base"]), "net_pct": pct(s1_both, s50["base"]),
+                          "diff_size_pt": round(pct(s1_size, s50["base"]) - M["H1_size_only_pct"], 2),
+                          "diff_net_pt": round(pct(s1_both, s50["base"]) - M["H3_net_pct"], 2)}
 # 被災の大きい 40 都府県の人口そのもの（参考：集計）
 pp = d[d.table == MAIN].groupby("pref").deaths.sum()
 pw = pp[pp > 0].index
@@ -114,7 +127,8 @@ obs = (298000 - 323000)
 M["H4"] = dict(published_2012=323000, published_2025=298000, observed_change=obs,
                demographic_change_size=round(base - d2012_size), demographic_change_size_age=round(base - d2012_both),
                share_size=round((base - d2012_size) / obs, 3), share_size_age=round((base - d2012_both) / obs, 3))
-M["H4"]["H4"] = abs(M["H4"]["share_size"]) < 0.5 and abs(M["H4"]["share_size_age"]) < 0.5
+M["H4"]["H4_as_planned_size_age"] = abs(M["H4"]["share_size_age"]) < 0.5  # 計画の判定（規模＋年齢）
+M["H4"]["H4_size_only"] = abs(M["H4"]["share_size"]) < 0.5  # 参考：規模だけ
 
 # 頑健性
 rob = []
@@ -171,7 +185,7 @@ M["reask"]["main_high_table"] = hitab
 M["reask"]["main_high_table_2050_net_pct"] = pct(s_hi["both"], s_hi["base"])
 json.dump(M, open(res / "main.json", "w"), ensure_ascii=False, indent=1)
 print(json.dumps({k: M[k] for k in ["main_table", "main_meta", "H1_size_only_pct", "H2_tsunami_offset_share",
-                                     "H3_net_pct", "age_offset_share_total", "H4", "R1", "reask",
+                                     "H3_net_pct", "age_offset_share_total", "S1_fix_slope_fire", "H4", "R1", "reask",
                                      "age_drift_2015_2020_pct", "affected_65p_share",
                                      "affected_pop_change_2050_pct_unweighted"]}, ensure_ascii=False, indent=0))
 print(pd.DataFrame(R).to_string())

@@ -31,7 +31,7 @@ def save(fig, name):
 
 # 図1 主表の推移
 fig, ax = plt.subplots(figsize=(8, 4.8))
-ax.plot(A.year, A.base / 1e4, color=GRAY, ls=":", label="想定のまま（約29.7万人：原因の足し上げ）")
+ax.plot(A.year, A.base / 1e4, color=GRAY, ls=":", label="想定のまま（原因の足し上げ 296,840人）")
 ax.plot(A.year, A.size_only / 1e4, "o-", color=BLUE, ms=4, label="人口の規模だけ変える")
 ax.plot(A.year, A.both / 1e4, "o-", color=ORANGE, ms=4, label="規模＋年齢構成（津波の補正係数）")
 for y, col in [("size_only", BLUE), ("both", ORANGE)]:
@@ -96,7 +96,7 @@ save(fig, "fig4_robustness.png")
 h = M["H4"]
 fig, ax = plt.subplots(figsize=(8, 3.6))
 vals = [h["observed_change"], h["demographic_change_size"], h["demographic_change_size_age"]]
-labs = ["公表値の差\n（約32.3万→約29.8万）", "人口の規模だけ\n（2010→2020年）", "規模＋年齢\n（推測：2012年に年齢補正があった場合）"]
+labs = ["公表値の差\n（約32.3万→約29.8万）", "人口の規模だけ\n（2010→2020年）", "規模＋年齢\n（2012年想定も同じ年齢補正：計画の比較）"]
 ax.barh(range(3), np.array(vals) / 1e4, color=[GRAY, BLUE, ORANGE], height=0.55)
 for i, v in enumerate(vals):
     ax.text(v / 1e4 - 0.05, i, f"{v / 1e4:.1f}万人", ha="right", va="center", fontsize=9)
