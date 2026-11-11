@@ -96,7 +96,8 @@ def _gpd_prof(Y, theta):
 
 
 def fit_gpd(Y):
-    """GPD の最尤推定（θ=ξ/σ の格子探索＋細かい格子）。指数（θ→0）も候補に入れる。"""
+    """GPD の最尤推定（θ=ξ/σ の格子探索＋細かい格子）。指数（θ→0）も候補に入れる。
+    ξ<−1 では尤度が上に有界でなく最尤推定が存在しないため、θ の下限を −0.999/最大値 に置いた。下限に張り付いた回は at_bound=True。"""
     ymax = Y.max(1)
     tg = np.concatenate([-np.logspace(np.log10(0.999), -4, 120), np.logspace(-4, 6, 280)])
     best_ll = np.full(Y.shape[0], -np.inf)
@@ -119,11 +120,13 @@ def fit_gpd(Y):
         best_ll = np.where(upd, ll, best_ll)
         best_t = np.where(upd, t, best_t)
     ll, xi = _gpd_prof(Y, best_t / ymax)
+    at_bound = best_t <= tg[0] + 1e-12  # θ が下限（−0.999/最大値）に張り付いた＝ξ<−1 で最尤推定が存在しない側
     llexp = fit_exp(Y)
     use_exp = llexp >= ll
     ll = np.where(use_exp, llexp, ll)
     xi = np.where(use_exp, 0.0, xi)
-    return ll, xi
+    at_bound = at_bound & ~use_exp
+    return ll, xi, at_bound
 
 
 def pwm_xi(Y):
@@ -142,7 +145,7 @@ def fit_all(Y):
     le = fit_exp(Y)
     lw, kw = fit_weib(Y)
     ll_ = fit_lnorm(Y)
-    lg, xi = fit_gpd(Y)
+    lg, xi, bnd = fit_gpd(Y)
     aic = np.vstack([2 * 1 - 2 * le, 2 * 2 - 2 * lw, 2 * 2 - 2 * ll_, 2 * 2 - 2 * lg]).T
     bic = np.vstack([np.log(n) * 1 - 2 * le, np.log(n) * 2 - 2 * lw, np.log(n) * 2 - 2 * ll_, np.log(n) * 2 - 2 * lg]).T
     names = np.array(["exp", "weib", "lnorm", "gpd"])
@@ -150,5 +153,6 @@ def fit_all(Y):
     return {
         "xi_mle": xi, "xi_pwm": pwm_xi(Y), "lr": lr, "weib_k": kw,
         "pick_aic": names[aic.argmin(1)], "pick_bic": names[bic.argmin(1)],
+        "gpd_bound": bnd,
         "aic_exp": aic[:, 0], "aic_weib": aic[:, 1], "aic_lnorm": aic[:, 2], "aic_gpd": aic[:, 3],
     }
