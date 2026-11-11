@@ -302,7 +302,7 @@
 | 095 | [就業者は13年で550万人増えた。増えたのは女性と65歳以上で、人口が減る分を「働く人の割合」が912万人押し上げた](articles/095_employment_growth) | 就業者の増加を「人口」と「働く人の割合」に要因分解 |
 | 137 | [市区町村の歳出の4割は福祉（民生費）。12年で1.5倍になり、伸びが大きかったのは子どもと障害者福祉など](articles/137_welfare_spending) | e-Stat の CSV から必要な行を抜き出して表を作るところからコード化 |
 
-## 記事の一覧（223本）
+## 記事の一覧（224本）
 | # | 記事のタイトル | フォルダ |
 |---|---|---|
 | 000 | 女性の労働力率は何で決まる？ 全国1,739市区町村の公開データで調べてみた | [000_women_labor](articles/000_women_labor) |
@@ -525,6 +525,7 @@
 | 225 | 建設工事の受注は、3月にふつうの月の2倍入る。年度末の山をつくっているのは公共工事より民間の非製造業だった | [225_construction_orders_fiscal_yearend](articles/225_construction_orders_fiscal_yearend) |
 | 226 | 円安が大きかった国の訪日客ほど、円で見た支出が増えた。国と年の違いを除くと、円安1%で支出は0.89%増えていた | [226_fx_inbound_spending](articles/226_fx_inbound_spending) |
 | 227 | コーヒーにかけるお金は10年で1.7倍。家で淹れる量は2019年とほぼ同じで、増えたのは豆の値段と喫茶店だった | [227_coffee_home_vs_cafe](articles/227_coffee_home_vs_cafe) |
+| 228 | 外食は2019年より15%多いが、物価を除くと5%少ない。戻っていないのは70歳以上と50代の世帯で、喫茶代はどの年齢でも2019年を超えた | [228_eating_out_recovery_by_age](articles/228_eating_out_recovery_by_age) |
 | 232 | 前年同月比と12か月移動平均は、SQL のウィンドウ関数だけで出せる。ただし月が1つ抜けると、LAG は12か月分の前年同月比を黙ってずらす | [232_sql_window_yoy_moving_avg](articles/232_sql_window_yoy_moving_avg) |
 | 233 | 集計の合計が会計の数字と合わないとき、SQL のどこから疑うか。架空の注文データで5つの原因を1つずつ直すと、差はぴったり0になった。直す前の差が小さく見えたのは、原因どうしが打ち消し合っていたから | [233_sql_reconcile_totals](articles/233_sql_reconcile_totals) |
 | 234 | 前月比の増減を、客数と客単価にどう分けるか。コンビニの21年分で試すと、前月比の動きの4割は「月の日数」の違いだった。分け方の順番で答えは数%動く | [234_mom_change_decomposition](articles/234_mom_change_decomposition) |
