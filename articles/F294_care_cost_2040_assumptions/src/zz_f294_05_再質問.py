@@ -25,3 +25,28 @@ for y0, y1 in [(2014, 2019), (2019, 2025), (2014, 2025)]:
 df = pd.DataFrame(out)
 df.to_csv(R / "reask_yobo_kaigo.csv", index=False, float_format="%.4f")
 print(df.T.to_string())
+
+# レビュー後に追加：総合事業の受給者を足し戻す確認（各年11月審査分、月の受給者数、千人）
+# 総合事業サービス受給者数は同じ統計の別表（kyufu19 統計表４、kyufu25 統計表５）。2014年度は総合事業の開始前。
+# 注意: 総合事業には要介護認定を受けていない「事業対象者」も入り、介護予防と総合事業の両方を使う人は二重に数える。
+RAW = ROOT / "data" / "raw"
+def nov_total(f, sh):
+    d = pd.read_excel(RAW / f, sheet_name=sh, header=None)
+    for i in range(6):
+        cols = [j for j, c in enumerate(d.iloc[i].astype(str)) if c.strip() == "11月"]
+        if cols:
+            j = cols[0]
+            for k in range(i + 1, i + 4):
+                if "総" in "".join(d.iloc[k, :3].astype(str)):
+                    return float(d.iloc[k, j])
+    raise ValueError(f + sh)
+t3 = pd.read_excel(RAW / "kyufu14_09.xls", sheet_name="表３", header=None)
+assert str(t3.iloc[3, 7]).strip() == "11月" and "介護予防サービス総数" in str(t3.iloc[4, 0])
+ab = pd.DataFrame([
+    {"年": 2014, "介護予防": float(t3.iloc[4, 7]), "総合事業": 0.0},
+    {"年": 2019, "介護予防": nov_total("kyufu19_09.xlsx", "統計表１"), "総合事業": nov_total("kyufu19_09.xlsx", "統計表４")},
+    {"年": 2025, "介護予防": nov_total("kyufu25_09.xlsx", "統計表１"), "総合事業": nov_total("kyufu25_09.xlsx", "統計表５")},
+])
+ab["合計（重複あり）"] = ab["介護予防"] + ab["総合事業"]
+ab.to_csv(R / "reask_addback_sogo.csv", index=False, float_format="%.1f")
+print(ab.to_string())

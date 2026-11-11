@@ -133,6 +133,11 @@ rr = pd.DataFrame({"2014": r[2014], "2019": r[2019], "2025": r[2025],
                    "年率2019→25": np.exp(np.log(r[2025] / r[2019]) / 6) - 1,
                    "人口比2040/2025_中位": popratio("中位")}).reset_index()
 rr.to_csv(R / "rates_by_age.csv", index=False, float_format="%.4f")
+# レビュー後に追加：受給者数÷受給率で戻した2025年の人口と、IPSS中位の2025年人口の比
+p25 = pop[(pop.variant == "中位") & (pop.year == 2025)].set_index(["sex", "age"]).pop_k
+cmp25 = pd.DataFrame({"受給者÷受給率": imp[2025], "IPSS中位2025": p25})
+cmp25["比-1"] = cmp25["受給者÷受給率"] / cmp25["IPSS中位2025"] - 1
+cmp25.reset_index().to_csv(R / "implied_vs_ipss_2025.csv", index=False, float_format="%.4f")
 out = {"費用2025_兆円": C25, "仮説": H, "頑健性_受給者指数": rob, "R5": R5, "政府見通しとの比較": govcmp,
        "実績2019→25年率_費用額": act_19_25, "バックテスト": bt.to_dict(orient="records"),
        "シナリオ幅_兆円": [float(sc["費用2040_兆円"].min()), float(sc["費用2040_兆円"].max())],
