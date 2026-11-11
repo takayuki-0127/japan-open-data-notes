@@ -59,6 +59,12 @@
  "H3_net_pct": -11.1,
  "H3": true,
  "age_offset_share_total": 0.581,
+ "S1_fix_slope_fire": {
+  "size_pct": -23.74,
+  "net_pct": -10.37,
+  "diff_size_pt": 0.73,
+  "diff_net_pt": 0.73
+ },
  "affected_pop_change_2050_pct_unweighted": -14.64,
  "affected_65p_share": {
   "2020": 27.8,
@@ -74,7 +80,8 @@
   "demographic_change_size_age": -1387,
   "share_size": 0.599,
   "share_size_age": 0.055,
-  "H4": false
+  "H4_as_planned_size_age": true,
+  "H4_size_only": false
  },
  "R1": {
   "net_pct_min": -21.67,
