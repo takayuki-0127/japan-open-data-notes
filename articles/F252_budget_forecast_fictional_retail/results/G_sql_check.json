@@ -1,0 +1,6 @@
+{
+ "budget_rollup_max_rel_diff": 0.0,
+ "backtest_mape_max_abs_diff_pt": 5.773159728050814e-15,
+ "rows_backtest": 36400,
+ "groups": 25
+}

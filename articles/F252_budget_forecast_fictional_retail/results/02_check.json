@@ -1,0 +1,21 @@
+{
+ "seed0_max_abs_diff_vs_gen": 0.0,
+ "seed1_max_abs_diff_vs_gen": 0.0,
+ "mart_rows_matched": 1062,
+ "mart_rows": 1062,
+ "mart_max_rel_diff_sales": 7.784010769285032e-08,
+ "mart_max_rel_diff_op": 0.0006663934659146704,
+ "ext_months": [
+  "2026-04",
+  "2026-05",
+  "2026-06",
+  "2026-07",
+  "2026-08"
+ ],
+ "ext_stores": 22,
+ "industry_range": [
+  "2014-01",
+  "2026-08",
+  152
+ ]
+}
