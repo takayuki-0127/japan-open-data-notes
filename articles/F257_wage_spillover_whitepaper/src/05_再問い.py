@@ -12,6 +12,7 @@ g = s[s["種別"].str.startswith("伸び率") & (s.就業形態 == "2")]
 mw = pd.read_csv(RAW / "mw_national.csv").set_index("fiscal_year")["mw_weighted_avg_yen"]
 mwcy = {y: 0.75 * mw[y - 1] + 0.25 * mw[y] for y in range(2008, 2026)}
 mw_growth = (mwcy[2025] / mwcy[2022] - 1) * 100
+mw_growth_low = (mw[2024] / mwcy[2022] - 1) * 100  # 2025暦年を2024年度の額で置いた下限
 rows = []
 # 産業（公表の前年比をつないだ伸び）
 for c in IND16:
@@ -37,7 +38,7 @@ low = ind[ind.bite_2022 <= ind.bite_2022.median()]; high = ind[ind.bite_2022 > i
 # 外れ値（鉱業など雇用が小さい産業）を除いた頑健性：パート労働者数が少ない下位3産業を除く
 big = ind.sort_values("part_workers_2025").iloc[3:]
 r2, p2 = stats.spearmanr(big.bite_2022, big.growth_22_25)
-out = {"mw_growth_22_25": mw_growth, "n_ind": len(ind), "spearman": r, "spearman_p": p, "pearson": pr, "pearson_p": pp,
+out = {"mw_growth_22_25": mw_growth, "mw_growth_22_25_lowerbound": mw_growth_low, "n_ind": len(ind), "spearman": r, "spearman_p": p, "pearson": pr, "pearson_p": pp,
        "spearman_excl_small3": r2, "spearman_excl_small3_p": p2, "excluded": ind.sort_values("part_workers_2025").iloc[:3].名前.tolist(),
        "growth_low_bite_median": low.growth_22_25.median(), "growth_high_bite_median": high.growth_22_25.median(),
        "size_rows": df[df.区分 == "規模"].round(3).to_dict(orient="records")}

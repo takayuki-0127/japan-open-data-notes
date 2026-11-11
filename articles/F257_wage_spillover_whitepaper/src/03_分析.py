@@ -26,7 +26,7 @@ br.to_csv(RES / "h1_breadth_by_year.csv", index=False)
 def per(df, a, b, col): return df[(df.年 >= a) & (df.年 <= b)][col].mean()
 h1 = []
 for col in ["share_ge1", "share_ge2", "share_ge3", "wshare_ge2", "hshare_ge2", "share_pos", "median_yoy"]:
-    h1.append({"指標": col, "2015-19": per(br, 2015, 2019, col), "2010-19": per(br, 2010, 2019, col),
+    h1.append({"指標": col, "2015-19": per(br, 2015, 2019, col), "2011-19（2010年は産業分類が足りず除外）": per(br, 2011, 2019, col),
                "2022-23": per(br, 2022, 2023, col), "2024-25": per(br, 2024, 2025, col), "2025": per(br, 2025, 2025, col)})
 h1 = pd.DataFrame(h1); h1.to_csv(RES / "h1_breadth_periods.csv", index=False)
 out["h1"] = h1.round(2).to_dict(orient="records")
@@ -86,11 +86,12 @@ pt["mw_yoy"] = pt["mw_cy"].pct_change() * 100
 pt["mw_yoy_fy"] = pd.Series({y: (mw[y] / mw[y - 1] - 1) * 100 for y in range(2008, 2026)})
 pt["mw_yoy_lag"] = pt["mw_yoy_fy"].shift(1)
 pt.to_csv(RES / "h3_part_mw.csv")
-def reg(df, x):
-    d = df.dropna(subset=["yoy_hourly", x])
-    m = sm.OLS(d["yoy_hourly"], sm.add_constant(d[x])).fit(cov_type="HC1")
+def reg(df, x, y="yoy_hourly"):
+    d = df.dropna(subset=[y, x])
+    m = sm.OLS(d[y], sm.add_constant(d[x])).fit(cov_type="HC1")
+    hac = sm.OLS(d[y], sm.add_constant(d[x])).fit(cov_type="HAC", cov_kwds={"maxlags": 2})
     ci = m.conf_int().loc[x].tolist()
-    return {"n": int(m.nobs), "b": m.params[x], "ci": ci, "a": m.params["const"], "r2": m.rsquared}
+    return {"n": int(m.nobs), "b": m.params[x], "ci": ci, "ci_hac2": hac.conf_int().loc[x].tolist(), "a": m.params["const"], "r2": m.rsquared}
 h3 = {}
 base = pt.loc[2010:2025]
 h3["main_cy_2010_25"] = reg(base, "mw_yoy")
@@ -99,6 +100,13 @@ h3["fy_same_year"] = reg(base, "mw_yoy_fy")
 h3["fy_lag1"] = reg(base, "mw_yoy_lag")
 h3["since2015"] = reg(pt.loc[2015:2025], "mw_yoy")
 cum = lambda s, a, b: (s.loc[b] / s.loc[a] - 1) * 100
+# 感度：2025年度の最低賃金は11月〜翌3月に発効した県が多い。2025暦年を2024年度の額だけで置いた下限
+mw_low = pt["mw_cy"].copy(); mw_low.loc[2025] = mw[2024]
+pt["mw_yoy_low2025"] = mw_low.pct_change() * 100
+h3["mw2025_lowerbound"] = reg(pt.loc[2010:2025], "mw_yoy_low2025")
+h3["mw2025_lowerbound_cy_value"] = float(mw[2024]); h3["mw2025_cy_value"] = float(pt.loc[2025, "mw_cy"])
+h3["ratio_part_to_mw_2025_lowerbound"] = float(pt.loc[2025, "lvl_hourly"] / mw[2024])
+h3["cum_2016_25_mw_cy_lowerbound"] = (mw[2024] / pt.loc[2016, "mw_cy"] - 1) * 100
 h3["cum_2016_25_part_hourly_lvl"] = cum(pt.lvl_hourly, 2016, 2025)
 h3["cum_2016_25_mw_cy"] = cum(pt.mw_cy, 2016, 2025)
 h3["part_hourly_lvl"] = pt.lvl_hourly.loc[[2016, 2019, 2022, 2025]].round(0).to_dict()
