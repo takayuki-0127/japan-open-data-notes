@@ -1,0 +1,116 @@
+{
+ "range_all_methods": {
+  "cols": [
+   "CAO",
+   "BOJ",
+   "HP1600",
+   "BK",
+   "CF",
+   "HAM",
+   "UC",
+   "LIN"
+  ],
+  "fy2025": 0.513,
+  "rank_narrowest_of_26": 1,
+  "median": 1.301,
+  "min": [
+   2025,
+   0.513
+  ],
+  "n_methods_by_fy_min": 7
+ },
+ "range_excl_BK": {
+  "cols": [
+   "CAO",
+   "BOJ",
+   "HP1600",
+   "CF",
+   "HAM",
+   "UC",
+   "LIN"
+  ],
+  "fy2025": 0.513,
+  "rank_narrowest_of_26": 2,
+  "median": 1.301,
+  "min": [
+   2016,
+   0.409
+  ],
+  "n_methods_by_fy_min": 7
+ },
+ "range_excl_BK_HAM": {
+  "cols": [
+   "CAO",
+   "BOJ",
+   "HP1600",
+   "CF",
+   "UC",
+   "LIN"
+  ],
+  "fy2025": 0.486,
+  "rank_narrowest_of_26": 6,
+  "median": 0.764,
+  "min": [
+   2001,
+   0.229
+  ],
+  "n_methods_by_fy_min": 6
+ },
+ "n_methods_fy2025_vs_fy2022": [
+  7,
+  8
+ ],
+ "revision_future_corr": {
+  "actual_hp": 0.727,
+  "rw_drift_sims": 200,
+  "rw_median": 0.709,
+  "rw_p05": 0.49,
+  "rw_p95": 0.834,
+  "share_rw_ge_actual": 0.43,
+  "note": "ドリフト＝実際の平均成長、ばらつき＝コロナ期（2020Q2〜Q4）を除いた実際の四半期成長の標準偏差、長さ・対象の時点は実データと同じ"
+ },
+ "uc": {
+  "smooth_trend_params": {
+   "sigma2.irregular": 7.27160727655196e-07,
+   "sigma2.trend": 4.1153442549373556e-09,
+   "sigma2.ar": 0.00015077662848728178,
+   "ar.L1": 0.7296250556949178,
+   "ar.L2": -0.029599120477688923
+  },
+  "smooth_trend_pg_fy2000_2025_min_max": [
+   0.641,
+   0.825
+  ],
+  "llt_params": {
+   "sigma2.irregular": 2.3948989199873245e-09,
+   "sigma2.level": 0.00012048518080564679,
+   "sigma2.trend": 3.719698006008721e-12,
+   "sigma2.ar": 1.5833331876478006e-05,
+   "ar.L1": 0.31876267400749136,
+   "ar.L2": 0.6263067132958478
+  },
+  "llt_fy2025": 0.873,
+  "range_fy2025_with_llt": 0.513
+ },
+ "cao_boj_fy2025": {
+  "cao_rolling4_fy_mean": 0.506,
+  "cao_quarterly_fy_mean": 0.525,
+  "boj_fy_mean": 0.793,
+  "diff_rolling": 0.287,
+  "diff_quarterly": 0.268
+ },
+ "h4_releases": {
+  "stage2_in_range_all": 78,
+  "reissue": [
+   "qe201_2r"
+  ],
+  "reissue_refs": [
+   "2020Q1"
+  ],
+  "used": 77,
+  "quarters_in_range": 78,
+  "quarters_without_nonreissue_2nd": [
+   "2020Q1"
+  ]
+ }
+}
