@@ -61,7 +61,7 @@ ax = axs[1]
 ax.scatter(t['avg1523_ratio'], y, color='#9a9890', label='2015〜2023年の平均', zorder=3); ax.scatter(t['peak_ratio'], y, color=BLUE, label='店頭の山の月', zorder=3)
 for yy, a_, b_ in zip(y, t['avg1523_ratio'], t['peak_ratio']): ax.plot([a_, b_], [yy, yy], color='#c9c7bf', lw=1.5, zorder=2)
 ax.set_yticks(y); ax.set_yticklabels([]); ax.set_xlabel('倍率（店頭 ÷ 元の米の値段）'); ax.legend(frameon=False, fontsize=8.5, loc='upper center', bbox_to_anchor=(.5, -.14), ncol=2)
-fig.suptitle('条件を変えて確かめる：上に乗る分の円は増え、倍率は縮んだ', x=.01, ha='left', fontsize=12)
+fig.suptitle('条件を変えて確かめる：店頭の山の月（2025年11月）の値。どの条件でも元の米の分は7割に届かない', x=.01, ha='left', fontsize=12)
 save(fig, 'fig4_robustness.png')
 # 図5 問い直し：上に乗る分（店頭 t − 元の米 t−1）は戻ったか
 z = pd.read_csv(os.path.join(R, 'reask_margin_l1.csv'), index_col=0, parse_dates=True).loc['2015':]
