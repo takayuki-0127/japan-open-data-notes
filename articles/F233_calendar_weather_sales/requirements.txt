@@ -1,0 +1,7 @@
+pandas>=2.0
+numpy>=1.26
+statsmodels>=0.14
+matplotlib>=3.8
+jpholiday>=0.1.10
+duckdb>=1.0
+playwright>=1.40
