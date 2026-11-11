@@ -63,10 +63,10 @@ yrs = [i for i, t in enumerate(sg.index) if t.month == 1]; ax.set_xticks(yrs); a
 ax.set_title(f"実質賃金の向き（赤＝マイナス、青＝プラス）。▼は物価によって向きが分かれた月（{int(dis.sum())}／{len(dis)}か月）", fontsize=10.5)
 save(fig, "fig4_sign_map.png")
 
-# 図5 再問い：2022〜2024年、総額ときまって支給する給与の実質と、特別給与の寄与
+# 図5 再問い：2022〜2024年、総額ときまって支給する給与の実質と、両者の名目の伸びの差
 t = pd.read_csv(RES / "reask_bonus_2022_2024.csv", parse_dates=[0], index_col=0)
 fig, ax = plt.subplots(figsize=(10, 4.8))
-ax.bar(t.index, t["特別給与の寄与"], width=20, color="#fee08b", label="名目の伸びのうち、賞与など（総額−きまって）")
+ax.bar(t.index, t["伸びの差_総額−きまって"], width=20, color="#fee08b", label="総額の伸びと、きまって支給する給与の伸びの差（名目）")
 ax.plot(t.index, t["実質_総額"], color="#2c7fb8", marker="o", ms=3, label="実質（現金給与総額）")
 ax.plot(t.index, t["実質_きまって"], color="#d95f02", marker="o", ms=3, label="実質（きまって支給する給与）")
 for d in t.index[t["総額だけ0以上"]]:

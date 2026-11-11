@@ -75,7 +75,14 @@ res["flip_months"] = int(dis.sum()); res["months"] = int(len(dis)); res["flip_sh
 flip = dis[dis]
 res["flip_by_calmonth"] = flip.groupby(flip.index.month).size().reindex(range(1, 13), fill_value=0).tolist()
 res["flip_by_year"] = flip.groupby(flip.index.year).size().to_dict()
-pd.DataFrame({"flip": dis}).to_csv(RES / "flip_months.csv")
+# 向きの数え方を3通り：マイナス・0・プラスの3区分（本文の主な数え方）／プラスとマイナスの両方がある月（0は数えない）／マイナスと0以上に分かれる月
+strict = (sg > 0).any(axis=1) & (sg < 0).any(axis=1)
+negnn = (sg < 0).any(axis=1) & (sg >= 0).any(axis=1)
+bonus = sg.index.month.isin([6, 7, 12])
+res["flip_def"] = {"three_way": int(dis.sum()), "strict_plus_minus": int(strict.sum()), "neg_vs_nonneg": int(negnn.sum()),
+                   "bonus_months": int(bonus.sum()), "three_way_bonus": int(dis[bonus].sum()), "three_way_other": int(dis[~bonus].sum()),
+                   "strict_bonus": int(strict[bonus].sum()), "strict_other": int(strict[~bonus].sum())}
+pd.DataFrame({"flip": dis, "flip_strict": strict, "flip_neg_vs_nonneg": negnn}).to_csv(RES / "flip_months.csv")
 
 # 公表の実質と、公表と同じ物価で作った値の照合
 r0 = real(m["n_pub_total"], m["p_0163"]).round(1)
