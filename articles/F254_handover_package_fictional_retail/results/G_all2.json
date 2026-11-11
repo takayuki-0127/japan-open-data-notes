@@ -1,0 +1,40 @@
+{
+ "base_report": {
+  "target": "report",
+  "sec_total": 173.8,
+  "steps": 8,
+  "failed": 0,
+  "cpu_total": 170.4,
+  "verify": [
+   "[基準] 88 ファイルの md5 を ./handover/expected/manifest.json に書いた（target=report）",
+   "[照合] 基準と：数字のファイル 88 のうち 同じ 88、違う 0、作られなかった 0",
+   "[照合] 元のファイルと：数字 同じ 69（うち丸めの差 3・gz の中身 8）、近い 1、違う 0、元に無い 18",
+   "[照合] 一覧：<作業フォルダ>/base_report/verify.csv"
+  ]
+ },
+ "base_all": {
+  "target": "all",
+  "sec_total": 558.8,
+  "steps": 35,
+  "failed": 0,
+  "cpu_total": 527.9,
+  "verify": [
+   "[基準] 195 ファイルの md5 を ./handover/expected/manifest.json に書いた（target=all）",
+   "[照合] 基準と：数字のファイル 195 のうち 同じ 195、違う 0、作られなかった 0",
+   "[照合] 元のファイルと：数字 同じ 146（うち丸めの差 6・gz の中身 10）、近い 2、違う 1、元に無い 46",
+   "[照合] 一覧：<作業フォルダ>/base_all/verify.csv"
+  ]
+ },
+ "all2": {
+  "target": "all",
+  "sec_total": 557.3,
+  "steps": 35,
+  "failed": 0,
+  "cpu_total": 537.5,
+  "verify": [
+   "[照合] 基準と：数字のファイル 195 のうち 同じ 195、違う 0、作られなかった 0",
+   "[照合] 元のファイルと：数字 同じ 146（うち丸めの差 6・gz の中身 10）、近い 2、違う 1、元に無い 46",
+   "[照合] 一覧：<作業フォルダ>/all2/verify.csv"
+  ]
+ }
+}

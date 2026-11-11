@@ -1,0 +1,53 @@
+{
+ "rc": 1,
+ "sec": 169.1,
+ "versions": "3.1.1 2.5.4 2.0.0 1.18.1 3.11.2",
+ "baseline_files": 88,
+ "same_as_baseline": 56,
+ "diff_from_baseline": 32,
+ "vs_published": {
+  "同じ": 68,
+  "元に無い": 18,
+  "近い": 2
+ },
+ "diff_files": [
+  "results/A_kpi_tree_fy2024_fy2025.csv",
+  "results/A_op_bridge_existing.csv",
+  "results/B_yoy_all_vs_existing_12m.csv",
+  "results/B_yoy_all_vs_existing_13m.csv",
+  "results/B_yoy_all_vs_existing_24m.csv",
+  "results/C_noise_by_grain.csv",
+  "results/D_calendar_adjust.csv",
+  "results/E_kpi_scorecard.csv",
+  "results/main.json",
+  "mart/store_month.csv",
+  "results/A_run1_waste_range.csv",
+  "results/C_sql_vs_pandas.csv",
+  "data/in/C_noise_by_grain.csv",
+  "data/in/D_calendar_adjust.csv",
+  "data/in/store_month.csv",
+  "data/versions/store_month_d1.csv",
+  "data/versions/store_month_d10.csv",
+  "data/versions/store_month_d3.csv",
+  "data/versions/store_month_d5.csv",
+  "reports/report_202504.json",
+  "reports/report_202505.json",
+  "reports/report_202506.json",
+  "reports/report_202507.json",
+  "reports/report_202508.json",
+  "reports/report_202509.json",
+  "reports/report_202510.json",
+  "reports/report_202511.json",
+  "reports/report_202512.json",
+  "reports/report_202601.json",
+  "reports/report_202602.json",
+  "reports/report_202603.json",
+  "results/A_noise_widths.csv"
+ ],
+ "tail": [
+  "   NG： F248 data/versions/store_month_d3.csv 違う",
+  "   NG： F248 data/versions/store_month_d5.csv 違う",
+  "   NG： F248 reports/report_202504.json 違う",
+  "[照合] 一覧：<作業フォルダ>/latest_work/verify.csv"
+ ]
+}
