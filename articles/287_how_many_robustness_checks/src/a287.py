@@ -155,3 +155,14 @@ ax.set_xlabel("していたチェックの数 k"); ax.set_ylabel("動かした�
 ax.set_ylim(0, 105); ax.legend(fontsize=8.5, loc="lower right")
 ax.set_title("チェックを k 個に減らしていたら、結論を動かした種類に当たったか", fontsize=11.5)
 fig.tight_layout(); fig.savefig(os.path.join(OUT, "figures", "a287_curve.png"), dpi=150); plt.close(fig)
+
+# 図3：k ごとの表（ランダム／種類を1つずつ／結論が変わった記事）
+T = curve[curve.k <= 8]
+cell = [[f"{int(r.k)}個", f"{r.rand_moved*100:.0f}%", f"{r.type_moved*100:.0f}%", f"{r.rand_changed*100:.0f}%"] for r in T.itertuples()]
+fig, ax = plt.subplots(figsize=(8.4, 3.9)); ax.axis("off")
+tb = ax.table(cellText=cell, colLabels=["チェックの数", f"ランダムに選ぶ（{len(mv)}本）", "種類を1つずつ選ぶ", f"ランダム・結論が変わった{len(mv2)}本"], loc="center", cellLoc="center")
+tb.auto_set_font_size(False); tb.set_fontsize(10); tb.scale(1, 1.55)
+for (r, c), cl in tb.get_celld().items():
+    if r == 0: cl.set_facecolor("#e8eef6"); cl.set_text_props(weight="bold")
+ax.set_title("動かした種類のチェックを含んでいた割合（記事ごとの確率の平均）", fontsize=11)
+fig.tight_layout(); fig.savefig(os.path.join(OUT, "figures", "a287_table.png"), dpi=150); plt.close(fig)
