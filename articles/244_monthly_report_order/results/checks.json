@@ -1,0 +1,28 @@
+{
+ "months": 12,
+ "top_differs_amount_vs_rate": 7,
+ "rate_top_counts": {
+  "その他": 6,
+  "家電": 4,
+  "衣料": 2
+ },
+ "amount_top_counts": {
+  "家電": 6,
+  "食品": 3,
+  "その他": 1,
+  "日用品": 1,
+  "衣料": 1
+ },
+ "top2_share_median_pct": 66.35,
+ "top2_share_min_pct": 55.7,
+ "top2_share_max_pct": 85.3,
+ "months_offset_over_2": 4,
+ "dept_sales_share_2025": {
+  "その他": 4.4,
+  "家電": 9.1,
+  "日用品": 20.6,
+  "衣料": 13.0,
+  "食品": 52.8
+ },
+ "sum_check_maxdiff": 0.0
+}
