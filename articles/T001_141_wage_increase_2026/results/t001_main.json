@@ -61,5 +61,43 @@
   "2026": true
  },
  "order_strict_years_since_2013": 4,
- "order_monotone_share_1975_2012": 0.263
+ "order_monotone_share_1975_2012": 0.263,
+ "order_weak_years_all": [
+  1998,
+  1999,
+  2000,
+  2002,
+  2003,
+  2004,
+  2009,
+  2010,
+  2011,
+  2012,
+  2015,
+  2018,
+  2019,
+  2020,
+  2024,
+  2025,
+  2026
+ ],
+ "order_strict_years_all": [
+  2002,
+  2015,
+  2024,
+  2025,
+  2026
+ ],
+ "order_weak_count_1975_2012": [
+  10,
+  38
+ ],
+ "order_weak_count_2013_2022": [
+  4,
+  10
+ ],
+ "years_gap_eq_0.7": [
+  2000,
+  2002
+ ]
 }
