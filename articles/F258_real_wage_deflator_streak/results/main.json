@@ -121,6 +121,16 @@
   "2024": 3,
   "2025": 11
  },
+ "flip_def": {
+  "three_way": 49,
+  "strict_plus_minus": 40,
+  "neg_vs_nonneg": 44,
+  "bonus_months": 35,
+  "three_way_bonus": 9,
+  "three_way_other": 40,
+  "strict_bonus": 6,
+  "strict_other": 34
+ },
  "pub_longest": {
   "len": 12,
   "start": "2023-06",
