@@ -1,0 +1,6 @@
+filing_date,avg_change_pct,data_end_fy,data_end_basis,source_pdf,pdf_md5,mult,filing,data_end,gap_yr
+2014-06-25,3.5,2012,stated in 2018-05 notice (前回の改定は2012年度までの保険統計データを基に算出),https://www.giroj.or.jp/ratemaking/fire/pdf/201406_announcement.pdf,179affcce3751c63a7be1cfea22522be,1.035,2014-06-25,2013-03-31,1.2347707049965777
+2018-05-21,5.5,2016,stated in 2019-10 notice (2016年度までの保険統計データに基づき),https://www.giroj.or.jp/ratemaking/fire/pdf/201805_announcement.pdf,9a32ad871777fdb81d48f244d2e20a31,1.055,2018-05-21,2017-03-31,1.1389459274469542
+2019-10-07,4.9,2018,stated in 2021-05 notice (2018年度までの保険統計に基づき),https://www.giroj.or.jp/ratemaking/fire/pdf/201910_announcement.pdf,c8532a852023b614c5e86c7911f5152b,1.049,2019-10-07,2019-03-31,0.5201916495550992
+2021-05-21,10.9,2020,inferred (notice cites FY2019-2020 events; not stated),https://www.giroj.or.jp/ratemaking/fire/pdf/202105_announcement.pdf,3ead27d7ba038254e1baa016b81bdb6a,1.109,2021-05-21,2021-03-31,0.13963039014373715
+2023-06-21,13.0,2022,inferred (notice cites 2021-2022 events; not stated),https://www.giroj.or.jp/ratemaking/fire/pdf/202306_announcement.pdf,5fe271dff1d3b39f4b224a1ab1a91d6e,1.13,2023-06-21,2023-03-31,0.2245037645448323
