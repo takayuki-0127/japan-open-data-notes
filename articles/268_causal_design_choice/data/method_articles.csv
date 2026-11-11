@@ -1,0 +1,48 @@
+article,group,method,title,placebo,pre,main,zero
+021_prefcapital_food,000–099,合成コントロール,021 福島市の桃は全国の6倍、高知市のかつおは4.5倍：家計調査で「その街らしい食卓」と似た街を探した,True,True,False,True
+F01_minimum_wage_did,F01–F99,差の差,F01 最低賃金の引き上げは、雇用を減らしたのか？（差の差・イベントスタディ）,True,True,True,False
+F01_minimum_wage_did,F01–F99,イベントスタディ,F01 最低賃金の引き上げは、雇用を減らしたのか？（差の差・イベントスタディ）,True,True,True,False
+F04_goto_causalimpact,F01–F99,差の差,F04 Go To トラベルは宿泊をどれだけ増やしたか？（ベイズ構造時系列・差の差・合成コントロール）,True,True,True,False
+F04_goto_causalimpact,F01–F99,合成コントロール,F04 Go To トラベルは宿泊をどれだけ増やしたか？（ベイズ構造時系列・差の差・合成コントロール）,True,True,True,False
+F04_goto_causalimpact,F01–F99,中断時系列・ベイズ構造時系列,F04 Go To トラベルは宿泊をどれだけ増やしたか？（ベイズ構造時系列・差の差・合成コントロール）,True,True,True,False
+F104_gp_power_temperature,F100–F199,差の差,F104 気温と電力需要の関係を、ガウス過程の時系列で読むと？（ガウス過程回帰・予測の不確実性）,False,False,False,True
+F108_prediction_fairness,F100–F199,差の差,F108 予測モデルは、地域によって外れ方が偏っていないか？（グループ別の誤差・較正・区間と、偏りの補正）,False,False,False,True
+F11_tax_hike_event,F01–F99,イベントスタディ,F11 消費増税の駆け込みと反動はどれだけだったか？（イベントスタディ）,True,False,True,False
+F120_census2025_update,F100–F199,差の差,F120 2025年国勢調査で、記事の結論は変わったか？（公表済みの集計でこれまでの記事を更新する）,False,True,True,True
+F121_minwage_methods_review,F100–F199,差の差,F121 「最低賃金と雇用」に、記事はどう答えたか？（手法ごとのまとめ直し）,False,False,False,True
+F124_data_lineage_network,F100–F199,差の差,F124 同じデータを何本の記事で使い回したか？ 118本の看板記事のデータの系譜（二部グラフ・ネットワーク）,False,False,False,False
+F145_waste_fee_did,F100–F199,差の差,F145 ごみの量は、有料化のあとに減ったのか？ 段階的な差の差（Callaway–Sant'Anna 型）,False,True,True,True
+F14_compact_city_psm_did,F01–F99,差の差,F14 コンパクトシティ計画は人口密度を保てたか？（傾向スコアマッチング＋差の差）,False,True,True,True
+F155_multiverse,F100–F199,差の差,F155 分析の手順を変えると、答えはどこまで変わるか？ マルチバース分析,True,True,False,False
+F161_rewrite_old_articles,F100–F199,差の差,F161 同じデータで記事を書き直すと、結論はどれだけ変わるか？ 初期の3本を今の手順で作り直す,True,False,False,True
+F17_minwage_causal_forest,F01–F99,差の差,F17 最低賃金の影響が大きかったのはどんな県か？（因果フォレスト）,True,False,False,True
+F184_air_shinkansen_did,F100–F199,差の差,F184 空の便は、新幹線の開業でどれだけ減ったのか？（路線別の差の差）,True,True,True,False
+F200_method_data_network,F200–F255,差の差,F200 200本の看板記事で使ったデータと手法は、どうつながっているか？ 197本の README を記事×手法×データのネットワークにする,True,False,False,False
+F201_minimum_wage_series_part1,F200–F255,差の差,F201 最低賃金と働き方（前編）：誰に届き、推定の方法で答えはどこまで変わるか,True,False,True,False
+F201_minimum_wage_series_part1,F200–F255,合成コントロール,F201 最低賃金と働き方（前編）：誰に届き、推定の方法で答えはどこまで変わるか,True,False,True,False
+F234_price_elasticity_practice,F200–F255,操作変数,F234 価格を1%上げると、買われる量は何%減るのか？ ― 値付けの判断に使う価格弾力性,False,True,True,True
+F238_ab_test_cuped,F200–F255,差の差,F238 前の期間のデータを使うと、テストはどれだけ早く終わるか（CUPED）,False,True,True,False
+F240_campaign_effect_no_control,F200–F255,合成コントロール,F240 キャンペーンの効果を、比べる相手がないときにどう測るか（合成対照・中断時系列・ベイズ構造時系列・プラセボ）,True,True,True,False
+F240_campaign_effect_no_control,F200–F255,中断時系列・ベイズ構造時系列,F240 キャンペーンの効果を、比べる相手がないときにどう測るか（合成対照・中断時系列・ベイズ構造時系列・プラセボ）,True,True,True,False
+F251_promo_effect_fictional_retail,F200–F255,差の差,F251 販促の効果を測る（業務の再現：架空の会社で）,True,False,True,False
+F251_promo_effect_fictional_retail,F200–F255,合成コントロール,F251 販促の効果を測る（業務の再現：架空の会社で）,True,False,True,False
+F255_year_review_fictional_retail,F200–F255,合成コントロール,F255 1年の分析業務を振り返る ― 架空のスーパー「サンプルマート（架空）」の9本を、数字で点検する,False,False,False,False
+F263_control_choice_nationwide_policy,F256–F295（精選）,差の差,F263 比べる相手がないとき、何を対照にするか？（全国一斉の消費税率引き上げで、6つの対照を比べる）,True,False,True,True
+F263_control_choice_nationwide_policy,F256–F295（精選）,合成コントロール,F263 比べる相手がないとき、何を対照にするか？（全国一斉の消費税率引き上げで、6つの対照を比べる）,True,False,True,True
+F263_control_choice_nationwide_policy,F256–F295（精選）,中断時系列・ベイズ構造時系列,F263 比べる相手がないとき、何を対照にするか？（全国一斉の消費税率引き上げで、6つの対照を比べる）,True,False,False,True
+F269_sme_price_passthrough,F256–F295（精選）,操作変数,F269 中小企業白書の「価格転嫁できた企業」は、どんな企業か？,False,False,False,False
+F26_power_simulation,F01–F99,差の差,F26 政策の効果を見つけるには、何年・何県のデータが要るのか？（検出力シミュレーション）,False,True,True,False
+F29_shinkansen_sdid,F01–F99,差の差,F29 北陸新幹線の金沢延伸で、石川県の宿泊客はどれだけ増えたか？（Synthetic DID・Augmented SCM）,True,True,True,False
+F29_shinkansen_sdid,F01–F99,合成コントロール,F29 北陸新幹線の金沢延伸で、石川県の宿泊客はどれだけ増えたか？（Synthetic DID・Augmented SCM）,True,True,True,False
+F31_retirement_rdd,F01–F99,回帰不連続,F31 60歳・65歳で、働く人はどれだけ減るのか？（回帰不連続）,True,True,True,False
+F33_migration_gravity,F01–F99,イベントスタディ,F33 人の移動は距離でどれだけ減るのか？ 都道府県間の引っ越しを重力モデルで読む,False,False,False,True
+F46_bartik_iv,F01–F99,操作変数,F46 産業構成で決まる「雇用ショック」は、人を動かしたか？ シフトシェア（バーティク）操作変数,True,True,True,False
+F48_gasoline_elasticity,F01–F99,操作変数,F48 ガソリンが10%上がると、買う量は何%減るか？（需要の価格弾力性）,False,True,True,False
+F55_births_bsts,F01–F99,中断時系列・ベイズ構造時系列,F55 ベイズで出生数を予測すると、予測の幅はどう変わるか？（ベイズ構造時系列）,False,False,True,True
+F71_income_convergence,F01–F99,操作変数,F71 都道府県の所得の差は、縮まっているのか？（β収束・σ収束・動学パネル GMM）,False,False,True,False
+F78_industry_portfolio,F01–F99,操作変数,F78 産業がばらけている町は、不景気に強いのか？ 産業ポートフォリオと雇用の落ち方,False,False,False,True
+F88_mobile_fee_rdit,F01–F99,回帰不連続,F88 携帯料金の値下げは、物価をどれだけ下げたか？（時間の回帰不連続・寄与度）,True,False,True,True
+F89_minwage_meta,F01–F99,差の差,F89 最低賃金の効果、これまでの推定をまとめると？ 3本の記事のメタ分析,False,False,False,False
+F95_shinkansen_spillover,F01–F99,差の差,F95 新幹線の効果は、隣の県にもこぼれたのか？（空間的な波及を入れた差の差・F29 との比較）,True,False,True,True
+F95_shinkansen_spillover,F01–F99,合成コントロール,F95 新幹線の効果は、隣の県にもこぼれたのか？（空間的な波及を入れた差の差・F29 との比較）,True,False,True,True
+F98_disaster_lodging_recovery,F01–F99,イベントスタディ,F98 大きな災害のあと、宿泊客はどれくらいで戻るのか？（複数の事例のイベントスタディ）,True,True,True,False
