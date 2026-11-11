@@ -1,0 +1,58 @@
+{
+ "commit": "996936a",
+ "folders": 501,
+ "folders_with_plots": 492,
+ "totals": {
+  "plot_files": 497,
+  "bar": 674,
+  "barh": 529,
+  "line": 1847,
+  "ylim": 707,
+  "ylim_zero": 349,
+  "ylim_neg": 137,
+  "ylim_pos": 171,
+  "ylim_var": 50
+ },
+ "bar_files_with_positive_ylim_flags": 117,
+ "checked_candidates": 28,
+ "checked_by_class": {
+  "下端を切った縦の棒": 17,
+  "100や1などを基準にした棒": 4,
+  "コードだけでは判断できない": 3,
+  "対数目盛": 2,
+  "二軸のもう一方の軸": 2
+ },
+ "articles_with_cut_bars": [
+  "039_station_recovery",
+  "177_treatment_rate_age_adjusted",
+  "F104_gp_power_temperature",
+  "F108_prediction_fairness",
+  "F136_rail_covid_recovery",
+  "F158_land_price_update",
+  "F198_sample_size_planning",
+  "F244_sql_aggregation_pitfalls",
+  "F281_food_self_sufficiency_target_gap",
+  "F37_conformal_land_price",
+  "F45_population_projection",
+  "F60_regression_to_mean",
+  "F75_gp_land_price",
+  "F81_commute_gps",
+  "F92_power_quantile_forecast"
+ ],
+ "example_coffee_227": {
+  "2019_g": 2515.0,
+  "2025_g": 2481.0,
+  "change_pct": -1.35,
+  "cut_lower": 2400,
+  "lie_factor_cut": 21.9,
+  "height_ratio_cut": 0.704
+ },
+ "example_sql_F244": {
+  "bad_mil": 63.27,
+  "good_mil": 64.89,
+  "gap_pct": -2.5,
+  "cut_lower": 55,
+  "lie_factor_cut": 6.6,
+  "height_ratio_cut": 0.836
+ }
+}
