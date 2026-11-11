@@ -1,0 +1,68 @@
+{
+ "period": "2018-02..2026-10",
+ "mfg_excl_covid": {
+  "n": 90.0,
+  "mean": -2.83,
+  "median": -2.55,
+  "sd": 1.95,
+  "mae": 2.92,
+  "share_within2": 35.56,
+  "share_negative": 94.44
+ },
+ "mfg_all": {
+  "n": 105.0,
+  "mean": -2.84,
+  "median": -2.5,
+  "sd": 2.05,
+  "mae": 2.92,
+  "share_within2": 36.19,
+  "share_negative": 95.24
+ },
+ "n_ind_negative_mean": 13,
+ "n_ind": 13,
+ "ind_most_negative": "生産用機械工業",
+ "ind_least": "鉄鋼業",
+ "mfg_direction_same_sign_pct": 50.0,
+ "mfg_dir_n": 90,
+ "mfg_mae_fc_mom": 3.04,
+ "mfg_corr_fc_act_mom": 0.74,
+ "mfg_share_fc_positive": 90.0,
+ "mfg_share_act_positive": 41.1,
+ "mfg_same_sign_when_fc_negative": 100.0,
+ "mfg_n_fc_negative": 8,
+ "mfg_mae_naive_mom": 2.2,
+ "adjust": {
+  "n": 66,
+  "mae_raw": 3.17,
+  "mae_adj": 1.72,
+  "mae_naive_same_as_last_month": 2.3,
+  "mean_raw": -3.07,
+  "mean_adj": -0.21
+ },
+ "mfg_years": {
+  "2018": -2.35,
+  "2019": -2.19,
+  "2020": -3.01,
+  "2021": -3.16,
+  "2022": -4.66,
+  "2023": -3.07,
+  "2024": -2.43,
+  "2025": -2.56,
+  "2026": -1.96
+ },
+ "median_by_ind": {
+  "鉄鋼業": -0.25,
+  "非鉄金属工業": -1.6,
+  "金属製品工業": -2.7,
+  "生産用機械工業": -6.2,
+  "汎用・業務用機械工業": -2.6,
+  "電子部品・デバイス工業": -1.7,
+  "電気機械工業": -4.35,
+  "情報通信機械工業": -1.5,
+  "輸送機械工業": -1.4,
+  "化学工業": -2.1,
+  "石油製品工業": -2.2,
+  "パルプ・紙・紙加工品工業": -1.8,
+  "その他": -1.3
+ }
+}
