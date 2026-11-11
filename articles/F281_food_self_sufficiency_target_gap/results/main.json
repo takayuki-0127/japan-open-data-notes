@@ -1,0 +1,244 @@
+{
+ "H1": {
+  "N_target": 1040.0,
+  "S_target": 2313.0,
+  "N_actual": 830.0,
+  "S_actual": 2237.4,
+  "ssr_target": 44.96325118893213,
+  "ssr_actual": 37.096630016984,
+  "gap_pt": -7.866621171948124,
+  "numerator_pt": -9.232506185090461,
+  "denominator_pt": 1.3658850131423408,
+  "order_num_first": {
+   "num": -9.385894341646555,
+   "den": 1.5192731696984325
+  },
+  "order_den_first": {
+   "num": -9.07911802853437,
+   "den": 1.212496856586249
+  },
+  "verdict": "支持",
+  "R1_2yr": {
+   "numerator_pt": -8.606654657872452,
+   "denominator_pt": 1.2766134390656276,
+   "gap_pt": -7.3300412188068265
+  }
+ },
+ "H2": {
+  "N_t_rec": 987.5996474479298,
+  "S_t_rec": 2296.8065414037064,
+  "N_plan": 1040.0,
+  "S_plan": 2313.0,
+  "feed_actual": 24.0,
+  "shortfall_pos_sum": 160.44243468141002,
+  "share_livestock_fish": 0.5179513761241751,
+  "share_rice": 0.24006572685881591,
+  "share_livestock": 0.3059214928182948,
+  "share_fish": 0.21202988330588027,
+  "livestock_shortfall_kcal": 49.0827891291387,
+  "livestock_from_production": 3.0496734774832146,
+  "livestock_from_feed": 46.033115651655486,
+  "verdict": "支持",
+  "ssr_if_all_items_on_plan": 42.99881725538594,
+  "ssr_if_production_on_plan_consumption_actual": 41.64919939644264
+ },
+ "H3": {
+  "gaps": {
+   "H12": -6.0,
+   "H17": -6.0,
+   "H22": -13.0,
+   "H27": -7.9
+  },
+  "num_share": {
+   "H12": 1.263,
+   "H17": 1.184,
+   "H22": NaN,
+   "H27": 1.174
+  },
+  "all_gap_ge5": true,
+  "num_ge80": true,
+  "verdict": "支持",
+  "avg3": {
+   "H12": {
+    "gap_pt": -5.0,
+    "num_share": 1.319
+   },
+   "H17": {
+    "gap_pt": -6.0,
+    "num_share": 1.171
+   },
+   "H22": {
+    "gap_pt": -12.67,
+    "num_share": null
+   },
+   "H27": {
+    "gap_pt": -7.33,
+    "num_share": 1.214
+   }
+  }
+ },
+ "H4": {
+  "spearman": -0.5730465885550706,
+  "p_one_sided": 4.999750012499375e-05,
+  "n": 56,
+  "verdict": "支持",
+  "reached_share": 0.21428571428571427,
+  "reached_by_plan": {
+   "H12": 0.143,
+   "H17": 0.214,
+   "H22": 0.214,
+   "H27": 0.286
+  },
+  "median_achieve_by_plan": {
+   "H12": 0.776,
+   "H17": 0.828,
+   "H22": 0.811,
+   "H27": 0.942
+  },
+  "ambitious_items": [
+   {
+    "plan": "H12",
+    "item": "小麦",
+    "ambition": 1.404,
+    "achieve": 0.714
+   },
+   {
+    "plan": "H12",
+    "item": "大麦・はだか麦",
+    "ambition": 1.842,
+    "achieve": 0.46
+   },
+   {
+    "plan": "H12",
+    "item": "大豆",
+    "ambition": 1.667,
+    "achieve": 0.892
+   },
+   {
+    "plan": "H12",
+    "item": "生乳",
+    "ambition": 1.151,
+    "achieve": 0.768
+   },
+   {
+    "plan": "H12",
+    "item": "牛肉",
+    "ambition": 1.189,
+    "achieve": 0.813
+   },
+   {
+    "plan": "H17",
+    "item": "大麦・はだか麦",
+    "ambition": 1.75,
+    "achieve": 0.506
+   },
+   {
+    "plan": "H17",
+    "item": "大豆",
+    "ambition": 1.174,
+    "achieve": 0.9
+   },
+   {
+    "plan": "H17",
+    "item": "野菜",
+    "ambition": 1.106,
+    "achieve": 0.834
+   },
+   {
+    "plan": "H17",
+    "item": "生乳",
+    "ambition": 1.105,
+    "achieve": 0.798
+   },
+   {
+    "plan": "H17",
+    "item": "牛肉",
+    "ambition": 1.196,
+    "achieve": 0.779
+   },
+   {
+    "plan": "H17",
+    "item": "魚介類",
+    "ambition": 1.286,
+    "achieve": 0.597
+   },
+   {
+    "plan": "H22",
+    "item": "米",
+    "ambition": 1.105,
+    "achieve": 0.835
+   },
+   {
+    "plan": "H22",
+    "item": "小麦",
+    "ambition": 2.045,
+    "achieve": 0.527
+   },
+   {
+    "plan": "H22",
+    "item": "大麦・はだか麦",
+    "ambition": 1.591,
+    "achieve": 0.631
+   },
+   {
+    "plan": "H22",
+    "item": "大豆",
+    "ambition": 2.308,
+    "achieve": 0.365
+   },
+   {
+    "plan": "H22",
+    "item": "魚介類",
+    "ambition": 1.129,
+    "achieve": 0.664
+   },
+   {
+    "plan": "H27",
+    "item": "小麦",
+    "ambition": 1.173,
+    "achieve": 1.085
+   },
+   {
+    "plan": "H27",
+    "item": "大麦・はだか麦",
+    "ambition": 1.222,
+    "achieve": 1.041
+   },
+   {
+    "plan": "H27",
+    "item": "大豆",
+    "ambition": 1.6,
+    "achieve": 0.816
+   },
+   {
+    "plan": "H27",
+    "item": "野菜",
+    "ambition": 1.167,
+    "achieve": 0.713
+   },
+   {
+    "plan": "H27",
+    "item": "魚介類",
+    "ambition": 1.2,
+    "achieve": 0.62
+   }
+  ]
+ },
+ "H5": {
+  "gaps": {
+   "H12": -10.0,
+   "H17": -7.0,
+   "H22": -13.0,
+   "H27": -16.0
+  },
+  "verdict": "外れ"
+ },
+ "S_total_by_target_year": {
+  "2010": 2446.6,
+  "2015": 2415.8,
+  "2020": 2270.0,
+  "2023": 2197.1,
+  "2024": 2248.1,
+  "2025": 2237.4
+ }
+}

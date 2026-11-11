@@ -1,0 +1,41 @@
+{
+ "N_chg5_all": {
+  "n": 56,
+  "max": 7.2348400982426675,
+  "argmax_fy": 1998,
+  "median": -5.49284503673853,
+  "share_positive": 0.07142857142857142
+ },
+ "N_chg5_since1990": {
+  "n": 36,
+  "max": 7.2348400982426675,
+  "argmax_fy": 1998,
+  "median": -6.06559489213061,
+  "share_positive": 0.027777777777777776
+ },
+ "S_chg5_min_all": -9.30443756449949,
+ "S_chg5_min_fy": 2023,
+ "need": {
+  "R2": {
+   "N_target": 1031.0,
+   "S_target": 2314.0,
+   "N_change_needed_pct": 24.21686746987952,
+   "S_change_planned_pct": 3.423616697952969,
+   "per_year_N_pct": 4.4326057846881595,
+   "S_needed_if_N_flat": 1844.4444444444443,
+   "S_change_if_N_flat_pct": -17.563044406702232
+  },
+  "R7": {
+   "N_target": 975.0,
+   "S_target": 2190.0,
+   "N_change_needed_pct": 17.469879518072283,
+   "S_change_planned_pct": -2.1185304371145075,
+   "per_year_N_pct": 3.272646053592987,
+   "S_needed_if_N_flat": 1844.4444444444443,
+   "S_change_if_N_flat_pct": -17.563044406702232
+  }
+ },
+ "n_windows_reaching_R7": 0,
+ "n_windows_reaching_R2": 0,
+ "note": "N は自給率（整数）×総供給熱量の近似。2019年度から総供給熱量の推計方法が変わった（訪日客などの分を除く）。"
+}
