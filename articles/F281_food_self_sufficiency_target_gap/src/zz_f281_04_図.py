@@ -89,19 +89,29 @@ ax.legend(frameon=False)
 ax.set_title("図3 品目ごとの国産熱量：2015年計画から組み立てた値と実績（縦軸は対数）", loc="left", fontsize=11)
 save(fig, "f281_3_items_kcal.png")
 
-# 図4：目標の高さと届いた割合
-fig, ax = plt.subplots(figsize=(8.5, 5.5))
+# 図4：目標の高さと実際の伸び（レビュー対応で、届いた割合から実際の伸びに替えた）
+G = pd.read_csv(RES / "G_h4_growth.csv")
+rv = json.loads((RES / "G_review.json").read_text())["H4_growth"]
+fig, ax = plt.subplots(figsize=(8.5, 5.8))
 for pl, mk in zip(["H12", "H17", "H22", "H27"], ["o", "s", "^", "D"]):
-    sub = C[C.plan == pl]
-    ax.scatter(sub.ambition, sub.achieve, marker=mk, s=40, alpha=0.8, label=f"{NAME[pl]}（目標{int(plans.loc[pl,'target_fy'])}年度）")
-for _, rr in C[C.ambition > 1.5].iterrows():
-    ax.annotate(rr["item"], (rr.ambition, rr.achieve), xytext=(3, 3), textcoords="offset points", fontsize=7.5, color="#444")
-ax.axhline(1, color=GRAY, lw=1); ax.axvline(1, color=GRAY, lw=0.8, ls=":")
-ax.set_xscale("log")
+    sub = G[G.plan == pl]
+    ax.scatter(sub.ambition, sub.growth, marker=mk, s=40, alpha=0.8, label=f"{NAME[pl]}（目標{int(plans.loc[pl,'target_fy'])}年度）")
+for _, rr in G[G.ambition > 1.5].iterrows():
+    ax.annotate(rr["item"], (rr.ambition, rr.growth), xytext=(3, 3), textcoords="offset points", fontsize=7.5, color="#444")
+lim = [0.6, 2.5]
+ax.plot(lim, lim, color=GRAY, lw=1, ls="--", label="目標どおり（線より下は届かなかった）")
+ax.axhline(1, color=GRAY, lw=0.8, ls=":")
+ax.set_xscale("log"); ax.set_yscale("log")
+tk = [0.6, 0.8, 1, 1.2, 1.5, 2, 2.5]
+for f_ in (ax.set_xticks, ax.set_yticks):
+    f_(tk)
+ax.set_xticklabels([f"{v:g}" for v in tk]); ax.set_yticklabels([f"{v:g}" for v in tk])
+ax.minorticks_off()
+ax.set_xlim(*lim); ax.set_ylim(0.45, 2.5)
 ax.set_xlabel("目標の高さ（生産努力目標 ÷ 基準年度の生産量、対数）")
-ax.set_ylabel("届いた割合（目標年度の生産量 ÷ 目標）")
-ax.legend(frameon=False, fontsize=8, loc="upper right")
-ax.set_title(f"図4 高い目標ほど届いていない（順位相関 {main['H4']['spearman']:.2f}、56組のうち届いたのは{int(round(main['H4']['reached_share']*56))}組）", loc="left", fontsize=10.5)
+ax.set_ylabel("実際の伸び（目標年度の生産量 ÷ 基準年度、対数）")
+ax.legend(frameon=False, fontsize=8, loc="upper left")
+ax.set_title(f"図4 目標を高くしても生産は伸びていない（順位相関 {rv['spearman_ambition_growth']:+.2f}）：その分、高い目標ほど届かない", loc="left", fontsize=10.5)
 save(fig, "f281_4_ambition_vs_achievement.png")
 
 # 図5：飼料自給率

@@ -289,3 +289,12 @@ print(B.round(2).to_string())
 print(C.round(3).to_string())
 print(D.to_string())
 print(E.round(3).to_string())
+
+# ---------------- レビュー対応：R3（一律の扱い）での畜産物の不足の内訳 ----------------
+A_u, _, _ = decompose(it_u, Na, Sa, Nt, St)
+it_u_nofeed, _ = h27_items(feed_mode="uniform", feed_target=feed_a)
+u_total = float(A_u.loc[LIVE, "shortfall_kcal"].sum())
+u_prod = float((it_u_nofeed.loc[LIVE, "N_t"] - it_u_nofeed.loc[LIVE, "N_a"]).sum())
+(RES / "G_r3_feed.json").write_text(json.dumps({"livestock_shortfall_kcal": u_total, "from_production": u_prod, "from_feed": u_total - u_prod,
+                                                "base_livestock_shortfall_kcal": live_short_total, "base_from_feed": live_short_total - live_short_prod},
+                                               ensure_ascii=False, indent=1))

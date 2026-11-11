@@ -12,6 +12,8 @@ data/raw に置いた。ここでは置いたファイルがそろっている�
   https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040422{798,801,805,806,807,808,876,877}&fileKind=1 → estat/e*.csv
   （798 国内生産量、801 国内消費仕向量、805 供給純食料、806 1人1年当たり供給純食料、807 1人1日当たり供給純食料、
     808 1人1日当たり供給熱量、876 品目別自給率の推移、877 総合自給率等の推移）
+- 飼料作物の収穫量（TDN、レビュー対応の参考）：農林水産省「飼料をめぐる情勢（データ版）」令和8年10月
+  https://www.maff.go.jp/j/chikusan/sinko/lin/l_siryo/attach/pdf/index-1609.pdf → 該当行を feed_crop_harvest_excerpt.txt に置いた
 - 基本計画（数値は手で data/plans*.csv・h27_consumption.csv に書き写し、該当箇所のテキストを plan_excerpts/ に置いた）
   - 平成12年：https://www.maff.go.jp/j/keikaku/k_aratana/pdf/12_keikaku.pdf
   - 平成17年：国立国会図書館 WARP（https://warp.da.ndl.go.jp/20191114/20191101040845/http://www.maff.go.jp/j/keikaku/k_aratana/pdf/20050325_honbun.pdf）
@@ -23,7 +25,7 @@ data/raw に置いた。ここでは置いたファイルがそろっている�
 import hashlib, json, pathlib
 
 RAW = pathlib.Path(__file__).resolve().parents[1] / "data" / "raw"
-need = ["fbs_r7.xlsx", "zk_012-7.xls", "maff_r7_jikyuritsu_item_table.txt"] + [f"estat/e{i}.csv" for i in [798, 801, 805, 806, 807, 808, 876, 877]]
+need = ["fbs_r7.xlsx", "zk_012-7.xls", "maff_r7_jikyuritsu_item_table.txt", "feed_crop_harvest_excerpt.txt"] + [f"estat/e{i}.csv" for i in [798, 801, 805, 806, 807, 808, 876, 877]]
 man = {}
 for f in need + sorted(str(p.relative_to(RAW)) for p in (RAW / "plan_excerpts").glob("*.txt")):
     p = RAW / f
