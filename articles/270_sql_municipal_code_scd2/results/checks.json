@@ -1,0 +1,88 @@
+{
+ "ward_events": 4,
+ "ward_rows": [
+  {
+   "eff_date": "2005-04-01",
+   "old_code": "26381",
+   "new_code": "26108"
+  },
+  {
+   "eff_date": "2005-04-25",
+   "old_code": "34324",
+   "new_code": "34108"
+  },
+  {
+   "eff_date": "2006-03-31",
+   "old_code": "22382",
+   "new_code": "22103"
+  },
+  {
+   "eff_date": "2008-11-01",
+   "old_code": "22383",
+   "new_code": "22103"
+  }
+ ],
+ "same_day_chains": 6,
+ "n_events": 700,
+ "n_event_rows": 2007,
+ "scd2_rows": 3928,
+ "codes": 3568,
+ "codes_multi_version": 313,
+ "version_overlaps": 0,
+ "crosswalk": {
+  "rows": 3252,
+  "n_old": 3252,
+  "n_now": 1741,
+  "now_not_in_2020": 0,
+  "pop2000_rolled": 126925843,
+  "pop2000_total": 126925843,
+  "agree_with_F94": 3252,
+  "f94_rows": 3252,
+  "steps": {
+   "0": 1429,
+   "1": 1770,
+   "2": 53
+  }
+ },
+ "as_of_vs_published": {
+  "2006-03-31": {
+   "sql": 1821,
+   "published": 1821
+  },
+  "2010-03-31": {
+   "sql": 1727,
+   "published": 1727
+  },
+  "2014-04-05": {
+   "sql": 1718,
+   "published": 1718
+  },
+  "2018-10-01": {
+   "sql": 1718,
+   "published": 1718
+  }
+ },
+ "naive_join": {
+  "gone": {
+   "n": 1823,
+   "pop_share": 0.2017
+  },
+  "grew": {
+   "n": 294,
+   "pop_share": 0.2408
+  },
+  "same": {
+   "n": 1135,
+   "pop_share": 0.5575
+  }
+ },
+ "grew": {
+  "n": 294,
+  "naive_median": 0.14571572509096098,
+  "right_median": -0.13018343518310577,
+  "naive_up_right_down": 178,
+  "naive_up": 216,
+  "right_up": 38
+ },
+ "same_change_median": -0.14904835390946503
+}
