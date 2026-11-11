@@ -24,7 +24,7 @@ def group(codes, eq=False):
 
 def sets(excl_energy_fresh=False, c8_nofresh=False):
     T = it.index[(it.tax == '標準')]
-    if excl_energy_fresh:
+    if excl_energy_fresh:   # 標準税率に生鮮食品はないので、実際にはエネルギーだけを除く
         T = it.index[(it.tax == '標準') & ~it.energy & ~it.fresh]
     C8 = it.index[(it.tax == '軽減')]
     if c8_nofresh:
@@ -100,7 +100,7 @@ def band(df):
 if __name__ == '__main__':
     allr = [run('main', 24)]
     allr += [run('P12', 12, hs=(3,)), run('P36', 36, hs=(3,))]
-    allr += [run('エネルギー・生鮮を除くT', 24, hs=(3,), efr=True), run('軽減の対照から生鮮を除く', 24, hs=(3,), c8nf=True),
+    allr += [run('エネルギーを除くT', 24, hs=(3,), efr=True), run('軽減の対照から生鮮を除く', 24, hs=(3,), c8nf=True),
              run('単純平均', 24, hs=(3,), eq=True)]
     df = pd.concat(allr, ignore_index=True)
     df.to_csv(os.path.join(R, 'A_all_estimates.csv.gz'), index=False, compression='gzip')

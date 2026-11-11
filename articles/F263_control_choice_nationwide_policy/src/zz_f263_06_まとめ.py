@@ -6,7 +6,7 @@ FULL = 100 * np.log(110 / 108)
 M = ['M1 前後比較', 'M2 前年同月比の差', 'M3 中断時系列', 'M4 軽減税率の品目と差の差', 'M5 非課税の品目と差の差', 'M6 合成対照']
 def hw(v, kind, h=3): return bd[(bd.variant == v) & (bd.kind == kind) & (bd.h == h)].set_index('method').half90.loc[M]
 out = {}
-for v in ['main', 'P12', 'P36', 'エネルギー・生鮮を除くT', '軽減の対照から生鮮を除く', '単純平均']:
+for v in ['main', 'P12', 'P36', 'エネルギーを除くT', '軽減の対照から生鮮を除く', '単純平均']:
     calm = hw(v, '落ち着いた期間'); turb = hw(v, '荒れた期間')
     rr = real[(real.variant == v) & (real.h == 3)].set_index('method').loc[M]
     own, ctl = calm.iloc[:3].mean(), calm.iloc[3:].mean()

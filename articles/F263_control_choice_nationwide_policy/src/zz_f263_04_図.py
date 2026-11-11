@@ -45,10 +45,10 @@ for i, m in enumerate(M):
     ax.plot(r.loc[m, 'est'], yy[i], 'o', color=ORANGE, ms=9)
     ax.text(r.loc[m, 'est'] + .08, yy[i] + .18, f"{r.loc[m, 'est']:+.2f}", fontsize=10, color=ORANGE)
 ax.axvline(0, color=INK2, lw=.8); ax.axvline(100 * np.log(110 / 108), color=INK2, lw=1, ls='--')
-ax.text(100 * np.log(110 / 108) + .05, yy[-1] - .55, '全部転嫁の目安 +1.85%', fontsize=9, color=INK2)
+ax.text(100 * np.log(110 / 108) + .05, yy[-1] - .55, '全部転嫁の目安 1.83\n（%で+1.85%）', fontsize=9, color=INK2)
 ax.set_yticks(yy); ax.set_yticklabels(SH); ax.set_ylim(-.9, len(M) - .4)
 ax.set_xlabel('標準税率の品目の値段の上がり方（2019年10〜12月、対照との差、100×対数）')
-ax.set_title('対照の置き方で +0.7〜+1.6 に分かれた（帯＝何もない月の90%の幅）', fontsize=12, loc='left')
+ax.set_title('対照の置き方で +0.7〜+1.6 に分かれた（帯＝何もない月の5〜95%点）', fontsize=12, loc='left')
 save(fig, 'fig2_estimates_by_control.png')
 
 # 図3 偶然の幅：落ち着いた期間と荒れた期間
@@ -59,15 +59,15 @@ ax.bar(xx + .2, b['荒れた期間'], .38, color=ORANGE, label='荒れた期間�
 for i, m in enumerate(M):
     ax.text(i - .2, b.loc[m, '落ち着いた期間'] + .04, f"{b.loc[m, '落ち着いた期間']:.2f}", ha='center', fontsize=9)
     ax.text(i + .2, b.loc[m, '荒れた期間'] + .04, f"{b.loc[m, '荒れた期間']:.2f}", ha='center', fontsize=9)
-ax.axhline(100 * np.log(110 / 108), color=INK2, lw=1, ls='--'); ax.text(5.45, 1.88, '+1.85', fontsize=9, color=INK2)
+ax.axhline(100 * np.log(110 / 108), color=INK2, lw=1, ls='--'); ax.text(5.45, 1.88, '1.83', fontsize=9, color=INK2)
 ax.set_xticks(xx); ax.set_xticklabels([s.replace(' ', '\n', 1) for s in SH], fontsize=9)
 ax.set_ylabel('何もない月に出る数字の90%の幅の半分（ポイント）'); ax.legend(fontsize=9, frameon=False, loc='upper left')
 ax.set_title('何もない月でも、これだけの「効果」が出る（3か月平均）', fontsize=12, loc='left')
 save(fig, 'fig3_placebo_bands.png')
 
 # 図4 頑健性
-V = ['main', 'P36', 'エネルギー・生鮮を除くT', '軽減の対照から生鮮を除く', '単純平均']
-VL = ['基本（前24か月）', '前36か月', '標準税率からエネルギー・生鮮を除く', '軽減税率の対照から生鮮を除く', '品目の単純平均']
+V = ['main', 'P36', 'エネルギーを除くT', '軽減の対照から生鮮を除く', '単純平均']
+VL = ['基本（前24か月）', '前36か月', '標準税率からエネルギーを除く', '軽減税率の対照から生鮮を除く', '品目の単純平均']
 cols = [INK2, BLUE, ORANGE, GREEN, PINK]
 fig, ax = plt.subplots(figsize=(9, 4.8))
 for j, (v, lab, c) in enumerate(zip(V, VL, cols)):
@@ -75,7 +75,7 @@ for j, (v, lab, c) in enumerate(zip(V, VL, cols)):
     ax.scatter(rr.est.values, yy + (2 - j) * .13, color=c, s=30, label=lab, zorder=3)
 ax.axvline(100 * np.log(110 / 108), color=INK2, lw=1, ls='--'); ax.axvline(0, color=INK2, lw=.8)
 ax.set_yticks(yy); ax.set_yticklabels(SH); ax.legend(fontsize=8.5, frameon=False, loc='upper left', bbox_to_anchor=(1.01, 1.0))
-ax.set_xlabel('2019年10〜12月の推定（100×対数）'); ax.set_title('条件を変えると、推定は +0.6〜+2.6 の間で動く', fontsize=12, loc='left')
+ax.set_xlabel('2019年10〜12月の推定（100×対数）'); ax.set_title('条件を変えると、推定は +0.6〜+2.6 の間で動く（前12か月を除く）', fontsize=12, loc='left')
 save(fig, 'fig4_robustness.png')
 
 # 図5 問い直し：品目ごと
@@ -85,7 +85,7 @@ fig, axs = plt.subplots(1, 2, figsize=(10.5, 4.6), gridspec_kw={'width_ratios': 
 ax = axs[0]; bins = np.arange(-6, 8.01, .5)
 ax.hist(d1.est.clip(-6, 8), bins=bins, color=BLUE, alpha=.85)
 ax.axvline(100 * np.log(110 / 108), color=ORANGE, lw=1.4, ls='--'); ax.axvline(0, color=INK2, lw=.8)
-ax.text(100 * np.log(110 / 108) + .15, ax.get_ylim()[1] * .9, '全部転嫁 +1.85', color=ORANGE, fontsize=9)
+ax.text(100 * np.log(110 / 108) + .15, ax.get_ylim()[1] * .9, '全部転嫁 1.83', color=ORANGE, fontsize=9)
 ax.set_xlabel('品目ごとの推定（M2 前年同月比の差、100×対数）'); ax.set_ylabel('品目の数（335品目）')
 ax.set_title('品目ごとに見ると、真ん中は全部転嫁の近く', fontsize=11, loc='left')
 ax = axs[1]
