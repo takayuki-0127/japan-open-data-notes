@@ -1,0 +1,24 @@
+{
+ "stores": 9,
+ "cells_checked": 64,
+ "mismatches": 0,
+ "mismatch_list": [],
+ "formula_cells": 26,
+ "formula_cells_without_cached_value": 26,
+ "grand_total_k": 405361,
+ "trap1_fixed_range_total_k": 357429,
+ "trap1_missing_k": 47932,
+ "trap1_missing_store": "S09",
+ "trap1_missing_share": 0.11824521845959528,
+ "trap2_text_total_k": 178941,
+ "trap2_missing_k": 226420,
+ "trap2_missing_share": 0.5585638480268206,
+ "food_total_k": 226420,
+ "manual_steps_model": {
+  "CSV を開く・店で絞り込む（店ごと）": 18,
+  "部門の合計を出す（店×部門）": 45,
+  "ひな形に貼る（店×部門＋前月）": 54,
+  "対象月・店名を書く": 10
+ },
+ "manual_steps_total": 127
+}
