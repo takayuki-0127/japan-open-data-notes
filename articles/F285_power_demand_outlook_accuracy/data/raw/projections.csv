@@ -1,12 +1,12 @@
 vintage,published,name,metric,base_year,base_value,target_year,target_value,case,case_rank,growth_rate,source_url,note
-1998,1998-06,電気事業審議会 長期電力需給見通し（中間報告）,demand,1997,,2010,,BAU（新たな対策なし）,high,0.021,https://atomica.jaea.go.jp/data/detail/dat_detail_01-09-05-13.html,1997→2010年度の電力需要の年率で示されている
+1998,1998-06,電気事業審議会 長期電力需給見通し（中間報告）,demand,1997,,2010,,BAU（新たな対策なし）,high,0.021,https://atomica.jaea.go.jp/data/detail/dat_detail_01-09-05-13.html,1997→2010年度の電力需要の年率で示されている。電気事業用か自家発込みかは確かめていない
 1998,1998-06,電気事業審議会 長期電力需給見通し（中間報告）,demand,1997,,2010,,対策ケース,low,0.012,https://atomica.jaea.go.jp/data/detail/dat_detail_01-09-05-13.html,同上
-2001,2001-07,長期エネルギー需給見通し,generation,2000,9396,2010,10292,基準ケース,high,,https://atomica.jaea.go.jp/data/detail/dat_detail_01-04-01-14.html,発電電力量（電気事業用）
-2001,2001-07,長期エネルギー需給見通し,generation,2000,9396,2010,9970,目標ケース,low,,https://atomica.jaea.go.jp/data/detail/dat_detail_01-04-01-14.html,同上（約9970）
-2004,2004-09,2030年のエネルギー需給展望（中間とりまとめ）,generation,2000,9396,2010,10199,レファレンスケース,high,,https://www.rieti.go.jp/jp/events/bbl/bbl040902_s.pdf,発電電力量（電気事業用）。ケース名は表の並びから対応づけ
-2004,2004-09,2030年のエネルギー需給展望（中間とりまとめ）,generation,2000,9396,2010,9645,現行対策推進ケース,mid,,https://www.rieti.go.jp/jp/events/bbl/bbl040902_s.pdf,同上
-2004,2004-09,2030年のエネルギー需給展望（中間とりまとめ）,generation,2000,9396,2010,9420,追加対策ケース,low,,https://www.rieti.go.jp/jp/events/bbl/bbl040902_s.pdf,同上
-2008,2008-05,長期エネルギー需給見通し,generation,2005,9845,2020,12715,現状固定ケース,high,,https://www.aec.go.jp/kaigi/teirei/2009/siryo04/1-3_haifu.pdf,発電電力量。ケース名は合計の大小から対応づけ
+2001,2001-07,長期エネルギー需給見通し,generation_utility,2000,9396,2010,10292,基準ケース,high,,https://atomica.jaea.go.jp/data/detail/dat_detail_01-04-01-14.html,発電電力量（電気事業用）
+2001,2001-07,長期エネルギー需給見通し,generation_utility,2000,9396,2010,9970,目標ケース,low,,https://atomica.jaea.go.jp/data/detail/dat_detail_01-04-01-14.html,同上（約9970）
+2004,2004-09,2030年のエネルギー需給展望（中間とりまとめ）,generation_utility,2000,9396,2010,10199,レファレンスケース,high,,https://www.rieti.go.jp/jp/events/bbl/bbl040902_s.pdf,発電電力量（電気事業用）。ケース名は表の並びから対応づけ
+2004,2004-09,2030年のエネルギー需給展望（中間とりまとめ）,generation_utility,2000,9396,2010,9645,現行対策推進ケース,mid,,https://www.rieti.go.jp/jp/events/bbl/bbl040902_s.pdf,同上
+2004,2004-09,2030年のエネルギー需給展望（中間とりまとめ）,generation_utility,2000,9396,2010,9420,追加対策ケース,low,,https://www.rieti.go.jp/jp/events/bbl/bbl040902_s.pdf,同上
+2008,2008-05,長期エネルギー需給見通し,generation,2005,9845,2020,12715,現状固定ケース,high,,https://www.aec.go.jp/kaigi/teirei/2009/siryo04/1-3_haifu.pdf,発電電力量。ケース名は合計の大小から対応づけ。基準年の値9845は電事連の電気事業者計（2005年度9691）に近く、電気事業用の定義とみられる（推測）
 2008,2008-05,長期エネルギー需給見通し,generation,2005,9845,2020,11066,努力継続ケース,mid,,https://www.aec.go.jp/kaigi/teirei/2009/siryo04/1-3_haifu.pdf,同上
 2008,2008-05,長期エネルギー需給見通し,generation,2005,9845,2020,10050,最大導入ケース,low,,https://www.aec.go.jp/kaigi/teirei/2009/siryo04/1-3_haifu.pdf,同上
 2008,2008-05,長期エネルギー需給見通し,generation,2005,9845,2030,14245,現状固定ケース,high,,https://www.aec.go.jp/kaigi/teirei/2009/siryo04/1-3_haifu.pdf,同上

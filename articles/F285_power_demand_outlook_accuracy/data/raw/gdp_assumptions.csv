@@ -6,4 +6,5 @@ vintage,from_year,to_year,real_gdp_growth,source_url,note
 2008,2010,2020,0.019,https://www.aec.go.jp/kaigi/teirei/2009/siryo04/1-3_haifu.pdf,2010〜2020年 1.9%
 2008,2020,2030,0.012,https://www.aec.go.jp/kaigi/teirei/2009/siryo04/1-3_haifu.pdf,2020〜2030年 1.2%
 2015,2013,2030,0.017,https://www.meti.go.jp/shingikai/enecho/shigen_nenryo/pdf/033_s03_00.pdf,H27策定時 2030年度実質GDP 711兆円（年1.7%程度）
-2021,2019,2030,0.017,https://www.meti.go.jp/shingikai/enecho/shigen_nenryo/pdf/033_s03_00.pdf,2030年度実質GDP 660兆円・2020年度以降の平均成長率 約1.7%
+2021,2019,2020,actual,https://www.meti.go.jp/shingikai/enecho/shigen_nenryo/pdf/033_s03_00.pdf,2020年度の落ち込みは公表時に実績として分かっていたので実績を使う
+2021,2020,2030,0.017,https://www.meti.go.jp/shingikai/enecho/shigen_nenryo/pdf/033_s03_00.pdf,2030年度実質GDP 660兆円・2020年度以降の平均成長率 約1.7%
