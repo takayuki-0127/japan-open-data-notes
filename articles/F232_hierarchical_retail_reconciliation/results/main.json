@@ -1,0 +1,8 @@
+{
+ "lambda_mean": 0.3366892724223472,
+ "gap_total_vs_types_mean_pct": 1.8360546516003073,
+ "gap_total_vs_types_h12_p95": 3.912569788915488,
+ "n_origins_main": 39,
+ "n_series": 60,
+ "n_leaves": 48
+}
