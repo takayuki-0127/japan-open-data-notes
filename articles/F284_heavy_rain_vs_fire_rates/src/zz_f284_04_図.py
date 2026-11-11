@@ -55,7 +55,7 @@ ax.plot(roll.loc[2012:].index, 100 * roll.loc[2012:] / r12, color=C1, lw=2, labe
 dh = defl["defl_house"]; ax.plot(dh.loc[2012:2025].index, 100 * dh.loc[2012:2025] / dh.loc[2012], color=C4, lw=2, ls="--", label="修理費（建設工事費デフレーター 住宅総合）")
 for _, r in rev.iterrows():
     d = pd.Timestamp(r["filing_date"]); ax.annotate(f"+{r['avg_change_pct']}%", (d.year + (d.month - 1) / 12, 92), ha="center", color=C2, fontsize=9)
-ax.set_ylim(88, 150); ax.set_ylabel("2012年＝100"); ax.set_title("料率は大雨の回数よりずっと大きく上がり、修理費の上がり方に近い"); ax.legend(frameon=False, loc="upper left", fontsize=9.5)
+ax.set_ylim(88, 150); ax.set_ylabel("2012年＝100"); ax.set_title("料率は大雨の回数の伸びより大きく上がった（料率は届出の時点、ほかはデータの年）", fontsize=10.5); ax.legend(frameon=False, loc="upper left", fontsize=9.5)
 fig.tight_layout(); fig.savefig(F / "f284_3_rate_vs_hazard_cost.png"); plt.close(fig)
 # 図4：年度の支払保険金（火災保険、実質）と大雨回数
 fig, ax = plt.subplots(figsize=(9, 4.8))
@@ -93,6 +93,6 @@ for part, c, nm in (("hazard_share", C1, "大雨の回数"), ("repair_share", C4
 for i, k in enumerate(keys):
     ax.text(109, i, f"残り {100*d[k]['other_share']:+.0f}%", va="center", fontsize=9)
 ax.set_yticks(yy); ax.set_yticklabels([lab[k] + "で測る" for k in keys]); ax.invert_yaxis(); ax.set_xlim(-10, 128)
-ax.set_xlabel(f"料率の累計 +{M['H2']['cum_pct']:.0f}% のうちの割合（対数で分けた、%）"); ax.set_title("問い直し：料率の上げ幅の大半は修理費の上がり方で説明がつく"); ax.legend(frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.2), ncol=3, fontsize=9)
+ax.set_xlabel(f"料率の累計 +{M['H2']['cum_pct']:.0f}% のうちの割合（対数で分けた、%）"); ax.set_title("問い直し：料率の累計を機械的に分けた割合（単位の違いに注意）"); ax.legend(frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.2), ncol=3, fontsize=9)
 fig.tight_layout(); fig.savefig(F / "f284_6_decomposition.png"); plt.close(fig)
 print(sorted(p.name for p in F.glob("*.png")))

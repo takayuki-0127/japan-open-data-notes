@@ -100,6 +100,15 @@ h4 = {k: {"L": v, "gap_pct": 100 * (math.exp(g * v) - 1), "gap_pct_hi": 100 * (m
 M["H4"] = {"g_pct": t50["pct_per_yr"], "gap_yr_mean": float(rev["gap_yr"].mean()), "gap_yr_each": rev["gap_yr"].round(2).tolist(),
            "lags": h4, "mean_rev_pct": float(rev["avg_change_pct"].mean()),
            "support": bool(h4["main(gap+1+2.5)"]["gap_pct"] < rev["avg_change_pct"].mean())}
+# レビュー後の追加（1）：契約期間を改定の時期で分けた遅れ（2014・2018・2019年は最長10年、2021・2023年は最長5年）
+rev["half_term"] = np.where(rev["filing"].dt.year <= 2019, 5.0, 2.5)
+L_w = float((rev["gap_yr"] + 1.0 + rev["half_term"]).mean())
+# レビュー後の追加（2）：2021年の改定の基データの末年度を1年前（2019年度）にずらす
+gap_alt = rev["gap_yr"].copy(); gap_alt[rev["filing_date"] == "2021-05-21"] += 1.0
+L_alt = float(gap_alt.mean() + 1.0 + 2.5); L_alt_w = float((gap_alt + 1.0 + rev["half_term"]).mean())
+M["H4_review"] = {"L_term_by_period": L_w, "gap_pct_term_by_period": 100 * (math.exp(g * L_w) - 1),
+                  "L_2021_shift": L_alt, "gap_pct_2021_shift": 100 * (math.exp(g * L_alt) - 1),
+                  "L_both": L_alt_w, "gap_pct_both": 100 * (math.exp(g * L_alt_w) - 1)}
 # 頑健性：しきい値ごとの g でのずれ
 M["H4_by_series"] = {r["series"]: 100 * (math.exp(math.log(1 + r["pois_pct"] / 100) * L_main) - 1) for _, r in rob.iterrows()}
 
@@ -113,6 +122,21 @@ for c in ("amdhour50mm", "amdday200mm", "amd3hour100mm"):
                  "other_share": 1 - (math.log(hz) + math.log(dh)) / lt, "hazard_ratio": hz, "repair_ratio": dh}
 M["reask"] = {"defl_house_2012": float(defl.loc[2012, "defl_house"]), "defl_house_2022": float(defl.loc[2022, "defl_house"]),
               "repair_ratio": dh, "decomp": decomp}
+# レビュー後の追加（3）：期間をそろえた比べ方（H2 と問い直し）
+def variant(cum_v, hz, dh_v):
+    lt = math.log(cum_v)
+    return {"rate_pct": 100 * (cum_v - 1), "haz_pct": 100 * (hz - 1), "ratio": (cum_v - 1) / (hz - 1), "h2_support": bool((cum_v - 1) >= 2 * (hz - 1)),
+            "repair_pct": 100 * (dh_v - 1), "hazard_share": math.log(hz) / lt, "repair_share": math.log(dh_v) / lt, "other_share": 1 - (math.log(hz) + math.log(dh_v)) / lt}
+cum_ex14 = float(rev["mult"].iloc[1:].prod())
+haz03 = win_mean("amdhour50mm", 2022, 10) / win_mean("amdhour50mm", 2003, 10)
+dh03 = defl.loc[2022, "defl_house"] / defl.loc[2003, "defl_house"]
+M["period_variants"] = {"base_2012_2022": variant(cum, haz[("amdhour50mm", 10)], dh),
+                        "drop_2014": variant(cum_ex14, haz[("amdhour50mm", 10)], dh),
+                        "start_2003": variant(cum, haz03, dh03),
+                        "mean10_1994_2003": win_mean("amdhour50mm", 2003, 10), "defl_2003": float(defl.loc[2003, "defl_house"])}
+# H3 の95%区間（フィッシャーの z 変換）
+z = math.atanh(r_main); se = 1 / math.sqrt(len(dfp) - 3)
+M["H3"]["ci95"] = [math.tanh(z - 1.96 * se), math.tanh(z + 1.96 * se)]
 # 実際の保険料（保険金額あたり）と保険金（F272、2017〜2024年度）
 rn = res_nat
 M["residential"] = {"prem_per_1000_2017": float(rn.loc[2017, "prem_per_mil"]), "prem_per_1000_2022": float(rn.loc[2022, "prem_per_mil"]),
@@ -124,4 +148,4 @@ rev.to_csv(OUT / "D_revisions.csv", index=False)
 (OUT / "main.json").write_text(json.dumps(M, ensure_ascii=False, indent=1, default=float) + "\n")
 print(json.dumps({k: M[k] for k in ("H1", "H2", "H3", "H4", "reask", "residential")}, ensure_ascii=False, indent=1, default=float)[:6000])
 print(rob[["series", "pois_pct", "pois_lo", "pois_hi", "ols_pct", "ratio10", "pois_ex0411_pct"]].round(2))
-print(M["H2_robust"]); print(M["H4_by_series"])
+print(M["H2_robust"]); print(M["H4_by_series"]); print(json.dumps({k: M[k] for k in ("H4_review", "period_variants")}, ensure_ascii=False, indent=1)); print(M["H3"]["ci95"])
