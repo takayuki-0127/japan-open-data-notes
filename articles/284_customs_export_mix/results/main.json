@@ -1,0 +1,53 @@
+{
+ "2015": {
+  "total_cho": 75.613928862,
+  "offices_all": 142,
+  "offices_big": 56,
+  "big_share_of_exports": 0.9754395038725027,
+  "top10_share": 0.7001808848158777,
+  "national_hhi3": 0.13676582897665027,
+  "median_office_hhi3": 0.30989678576578594,
+  "wmean_office_hhi3": 0.2777623472310855,
+  "n_top5_over_half": 18,
+  "exports_share_offices_top5_over_half": 0.14602275049285082,
+  "n_hhi_over_025": 32
+ },
+ "2025": {
+  "total_cho": 110.400454682,
+  "offices_all": 134,
+  "offices_big": 56,
+  "big_share_of_exports": 0.9813470727096949,
+  "top10_share": 0.7585371521903131,
+  "national_hhi3": 0.12415204872396002,
+  "median_office_hhi3": 0.2554810465204115,
+  "wmean_office_hhi3": 0.25478019828597176,
+  "n_top5_over_half": 17,
+  "exports_share_offices_top5_over_half": 0.11771420604591819,
+  "n_hhi_over_025": 29
+ },
+ "top5_item_counts_over_half": {
+  "船舶類": 5,
+  "自動車": 5,
+  "鉄鋼のフラットロール製品": 3,
+  "管及び管用継手": 2,
+  "原動機": 1,
+  "半導体等製造装置": 1
+ },
+ "by_kind_2025": {
+  "港など": {
+   "n": 51,
+   "median_hhi3": 0.261,
+   "exports_oku": 790903.984
+  },
+  "空港": {
+   "n": 5,
+   "median_hhi3": 0.219,
+   "exports_oku": 292507.646
+  }
+ },
+ "change_2015_2025": {
+  "n_offices": 49,
+  "n_hhi_down": 25,
+  "median_change": -0.000230599564870565
+ }
+}
