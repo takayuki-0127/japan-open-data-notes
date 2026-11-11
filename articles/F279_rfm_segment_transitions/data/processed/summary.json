@@ -1,0 +1,10 @@
+{
+ "rows_raw":1067371,
+ "dup_rows":34335,
+ "rows_with_customer":797815,
+ "invoices":44870,
+ "cancel_invoices":7901,
+ "customers":5939,
+ "first":"2009-12-01 07:45",
+ "last":"2011-12-09 12:50"
+}
