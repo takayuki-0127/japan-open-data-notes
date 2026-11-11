@@ -11,7 +11,7 @@ AGES = ["16～19歳", "20～24歳", "25～29歳", "30～34歳", "35～39歳", "4
 GROUPS = {
     "表の15区分": {a: a for a in AGES},
     "65歳以上をまとめる": {a: (a if AGES.index(a) < 10 else "65歳以上") for a in AGES},
-    "10歳刻み": {a: ["16～24歳", "16～24歳", "25～34歳", "25～34歳", "35～44歳", "35～44歳", "45～54歳",
+    "おおむね10歳刻み": {a: ["16～24歳", "16～24歳", "25～34歳", "25～34歳", "35～44歳", "35～44歳", "45～54歳",
                      "45～54歳", "55～64歳", "55～64歳", "65～74歳", "65～74歳", "75歳以上", "75歳以上", "75歳以上"][i]
                  for i, a in enumerate(AGES)},
 }
@@ -120,13 +120,28 @@ k = out["all_kit_2009_2025"]["mid"]; f = out["fatal_kit_2009_2025"]["mid"]
 H = {}
 H["H1"] = dict(mix=k["mix"], total=k["total"], share=k["mix_share_abs"],
                verdict="支持" if (k["mix"] > 0 and k["mix_share_abs"] < 0.2) else "外れ")
+# 全事故の割合が負になると「2倍以上」の比較は正の値なら何でも通ってしまうので、その場合は判定しない（独立レビューで修正）
 H["H2"] = dict(all_share=k["mix_share_abs"], fatal_share=f["mix_share_abs"], ratio=f["mix_share_abs"] / k["mix_share_abs"],
-               verdict="支持" if f["mix_share_abs"] >= 2 * k["mix_share_abs"] else "外れ")
+               verdict=("判定不能（基準が想定外の符号で働かない。死亡は押し上げ、全事故は押し下げ）" if k["mix_share_abs"] <= 0
+                        else ("支持" if f["mix_share_abs"] >= 2 * k["mix_share_abs"] else "外れ")))
 up = [r["g"] for r in out["all_age_rate_change"] if r["pct"] > 0]
 upf = [r["g"] for r in out["fatal_age_rate_change"] if r["pct"] > 0]
 H["H3"] = dict(rose_all=up, rose_fatal=upf, verdict="支持" if not up else "外れ")
 ji = out["insurance"]["jibai_vs_police"]
-H["H4"] = dict(r=ji["r"], n=ji["n"], verdict=("判定せず" if ji["n"] < 6 else ("支持" if ji["r"] >= 0.7 else "外れ")))
+# 頑健さ：2020年を除く・順位相関・向きの一致・1年ずつ抜く（独立レビューで追加）
+x = chg.loc[2010:2023, ["police", "jibai"]].dropna()
+loo = {int(y): float(x.drop(y).corr().iloc[0, 1]) for y in x.index}
+nn6 = chg.loc[2018:2023, ["police", "nini"]].dropna()
+out["insurance"]["robust"] = dict(
+    r_ex2020=float(x.drop(2020).corr().iloc[0, 1]), spearman_all=float(x.corr("spearman").iloc[0, 1]),
+    spearman_ex2020=float(x.drop(2020).corr("spearman").iloc[0, 1]),
+    sign_agree=int((np.sign(x.police) == np.sign(x.jibai)).sum()), n=len(x),
+    sign_disagree_years=[int(y) for y in x.index[np.sign(x.police) != np.sign(x.jibai)]],
+    leave_one_out=loo, nini_r_ex2020=float(nn6.drop(2020).corr().iloc[0, 1]))
+rb = out["insurance"]["robust"]
+H["H4"] = dict(r=ji["r"], n=ji["n"], r_ex2020=rb["r_ex2020"],
+               verdict=("判定せず" if ji["n"] < 6 else (("基準は超えたが頑健でない（2020年を除くと r=%.2f）" % rb["r_ex2020"]) if (ji["r"] >= 0.7 and rb["r_ex2020"] < 0.7)
+                        else ("支持" if ji["r"] >= 0.7 else "外れ"))))
 out["hypotheses"] = H
 json.dump(out, open(RES / "main.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1, default=float)
 
