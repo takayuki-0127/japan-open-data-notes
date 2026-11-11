@@ -61,7 +61,7 @@ xs = np.array([Y[y]["yuko_kyujin"] for y in yrs]); zs = np.array(s("tdb_jinte_pe
 cols = ["#1f5fa8" if y <= 2019 else ("#999999" if y <= 2022 else "#d1495b") for y in yrs]
 ax.scatter(xs, zs, c=cols, s=45, zorder=3)
 for y, a, b in zip(yrs, xs, zs): ax.annotate(str(y), (a, b), textcoords="offset points", xytext=(5, 4), fontsize=9)
-h = R["H4"]; xx = np.linspace(1.1, 1.65, 10); ax.plot(xx, h["intercept"] + h["slope"] * xx, color="#1f5fa8", lw=1, ls="--", label="2016〜2019年の当てはめ")
+h = R["H4"]; xx = np.linspace(1.36, 1.61, 10); ax.plot(xx, h["intercept"] + h["slope"] * xx, color="#1f5fa8", lw=1, ls="--", label="2016〜2019年の当てはめ（その範囲だけ）")
 ax.set_xlabel("有効求人倍率（年平均）"); ax.set_ylabel("人手不足倒産（法人10万社あたり、帝国データバンク）"); ax.legend(frameon=False, fontsize=9)
 ax.set_title("図5 求人倍率と人手不足倒産（青＝2016〜19年、灰＝2020〜22年、赤＝2023〜25年）", fontsize=10)
 save(fig, "f274_5_jobratio.png")
@@ -72,10 +72,12 @@ for k, lab, c in (("tsr_kyujinnan", "求人難", "#e07b00"), ("tsr_taishoku", "�
     v = np.array([R["reask"]["share"][str(y)][k] * 100 for y in ys]); a1.bar(x, v, bottom=bot, color=c, label=lab, width=0.65); bot += v
 a1.set_xticks(x, [str(y)[2:] for y in ys]); a1.set_ylabel("3要因の中の割合（%）"); a1.legend(frameon=False, fontsize=8.5, loc="upper center", ncol=3); a1.set_ylim(0, 118); a1.set_yticks([0, 20, 40, 60, 80, 100])
 a1.set_title("3要因の中の割合（年は下2桁）", fontsize=10)
-g = R["reask"]["per_hojin_ratio_2025_2019"]; labs = ["求人難", "従業員退職", "人件費高騰"]; vals = [g["tsr_kyujinnan"], g["tsr_taishoku"], g["tsr_jinkenhi"]]
-a2.barh(labs, vals, color=["#e07b00", "#f2b366", "#b34700"]); a2.axvline(1, color="#999999", lw=0.8)
-for i, v in enumerate(vals): a2.text(v + 0.05, i, f"{v:.1f}倍", va="center", fontsize=9)
-a2.set_xlim(0, 4.8); a2.set_title("法人10万社あたり 2025年÷2019年", fontsize=10)
-fig.suptitle("図6 もう一度問う：増えたのは「採れない」倒産か、「払えない」倒産か（東京商工リサーチ）", fontsize=10.5)
+g = R["reask"]["per_hojin_ratio_2025_2019"]; g16 = R["reask"]["per_hojin_ratio_2025_2016"]; labs = ["求人難", "従業員退職", "人件費高騰"]; ks = ["tsr_kyujinnan", "tsr_taishoku", "tsr_jinkenhi"]
+yy = np.arange(3); a2.barh(yy + 0.2, [g[k] for k in ks], height=0.38, color="#b34700", label="2025年÷2019年"); a2.barh(yy - 0.2, [g16[k] for k in ks], height=0.38, color="#bbbbbb", label="2025年÷2016年")
+a2.set_yticks(yy, labs); a2.axvline(1, color="#999999", lw=0.8)
+for i, k in enumerate(ks):
+    a2.text(g[k] + 0.08, i + 0.2, f"{g[k]:.1f}倍", va="center", fontsize=9); a2.text(g16[k] + 0.08, i - 0.2, f"{g16[k]:.1f}倍", va="center", fontsize=9)
+a2.set_xlim(0, 9.5); a2.set_ylim(-0.7, 3.1); a2.legend(frameon=False, fontsize=8.5, loc="upper right", ncol=1); a2.set_title("法人10万社あたりの倍率（比べる年で順番が変わる）", fontsize=10)
+fig.suptitle("図6 もう一度問う：増えたのは「採れない」倒産か、「払えない」倒産か（東京商工リサーチの3要因）", fontsize=10.5)
 save(fig, "f274_6_reask.png")
 print("ok")

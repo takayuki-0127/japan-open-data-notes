@@ -48,7 +48,7 @@ a, b, r = fit([2016, 2017, 2018, 2019])
 pred = {y: a + b * Y[y]["yuko_kyujin"] for y in yrs if Y[y]["tdb_jinte"] is not None}
 res = {y: Y[y]["tdb_jinte_per10man_hojin"] - pred[y] for y in pred}
 R["H4"] = {"fit_years": "2016-2019", "intercept": a, "slope": b, "r": r, "pred": {str(y): pred[y] for y in pred}, "actual": {str(y): Y[y]["tdb_jinte_per10man_hojin"] for y in pred},
-           "resid": {str(y): res[y] for y in pred}, "verdict": "支持" if all(res[y] > 0 for y in (2023, 2024, 2025)) else "外れ"}
+           "resid": {str(y): res[y] for y in pred}, "x_range_fit": [1.36, 1.61], "note": "4点の直線を当てはめの範囲（1.36〜1.61）の外へ延ばした予測。2020・2021年は負の件数を予測するので弱い証拠", "verdict": "支持" if all(res[y] > 0 for y in (2023, 2024, 2025)) else "外れ"}
 # 頑健性
 rb = {}
 rb["R1_kigyo_denominator"] = {"tdb_ratio": ratio(g("tdb_jinte_per10man_kigyo")), "tsr3_ratio": ratio(g("tsr_3f_per10man_kigyo")), "tsr4_ratio": ratio(g("tsr_4f_per10man_kigyo"))}
@@ -75,7 +75,8 @@ for y in (2016, 2017, 2018, 2019, 2022, 2023, 2024, 2025):
     t = P[y]["tsr_3f"]; comp[str(y)] = {k: P[y][k] / t for k in ("tsr_kyujinnan", "tsr_taishoku", "tsr_jinkenhi")}
 growth = {k: (P[2025][k] / P[2025]["hojin"]) / (P[2019][k] / P[2019]["hojin"]) for k in ("tsr_kyujinnan", "tsr_taishoku", "tsr_jinkenhi")}
 contrib = {k: (P[2025][k] - P[2019][k]) / (P[2025]["tsr_3f"] - P[2019]["tsr_3f"]) for k in ("tsr_kyujinnan", "tsr_taishoku", "tsr_jinkenhi")}
-R["reask"] = {"share": comp, "per_hojin_ratio_2025_2019": growth, "contrib_to_increase": contrib, "yuko_2019": P[2019]["yuko_kyujin"], "yuko_2025": P[2025]["yuko_kyujin"]}
+growth16 = {k: (P[2025][k] / P[2025]["hojin"]) / (P[2016][k] / P[2016]["hojin"]) for k in ("tsr_kyujinnan", "tsr_taishoku", "tsr_jinkenhi")}
+R["reask"] = {"share": comp, "per_hojin_ratio_2025_2019": growth, "per_hojin_ratio_2025_2016": growth16, "contrib_to_increase": contrib, "yuko_2019": P[2019]["yuko_kyujin"], "yuko_2025": P[2025]["yuko_kyujin"]}
 json.dump(R, open(H + "results/main.json", "w"), ensure_ascii=False, indent=1, default=float)
 print(json.dumps({k: R[k] for k in ("count_ratio_2025_2019", "H1", "H2", "H3")}, ensure_ascii=False, indent=0, default=float))
 print("H4", R["H4"]["verdict"], round(a, 3), round(b, 3), round(r, 3), {k: round(v, 3) for k, v in R["H4"]["resid"].items()})
