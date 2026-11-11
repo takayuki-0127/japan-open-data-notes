@@ -1,0 +1,282 @@
+{
+ "episodes": [
+  {
+   "episode": "アベノミクスの円安",
+   "y0": 2012,
+   "y1": 2015,
+   "cat": "総平均",
+   "dFX": 0.2477,
+   "dPcc": -0.0939,
+   "cut_share": 0.3792,
+   "Pcc_ratio": 0.9103,
+   "quantity_ratio": 0.9804,
+   "usdjpy0": 79.7892,
+   "usdjpy1": 121.0217
+  },
+  {
+   "episode": "アベノミクスの円安",
+   "y0": 2012,
+   "y1": 2015,
+   "cat": "はん用・生産用・業務用機器",
+   "dFX": 0.1449,
+   "dPcc": 0.003,
+   "cut_share": -0.0207,
+   "Pcc_ratio": 1.003,
+   "quantity_ratio": NaN,
+   "usdjpy0": 79.7892,
+   "usdjpy1": 121.0217
+  },
+  {
+   "episode": "アベノミクスの円安",
+   "y0": 2012,
+   "y1": 2015,
+   "cat": "電気・電子機器",
+   "dFX": 0.2401,
+   "dPcc": -0.0791,
+   "cut_share": 0.3296,
+   "Pcc_ratio": 0.9239,
+   "quantity_ratio": NaN,
+   "usdjpy0": 79.7892,
+   "usdjpy1": 121.0217
+  },
+  {
+   "episode": "アベノミクスの円安",
+   "y0": 2012,
+   "y1": 2015,
+   "cat": "輸送用機器",
+   "dFX": 0.2564,
+   "dPcc": -0.0276,
+   "cut_share": 0.1075,
+   "Pcc_ratio": 0.9728,
+   "quantity_ratio": NaN,
+   "usdjpy0": 79.7892,
+   "usdjpy1": 121.0217
+  },
+  {
+   "episode": "アベノミクスの円安",
+   "y0": 2012,
+   "y1": 2015,
+   "cat": "化学製品",
+   "dFX": 0.292,
+   "dPcc": -0.1589,
+   "cut_share": 0.5444,
+   "Pcc_ratio": 0.8531,
+   "quantity_ratio": NaN,
+   "usdjpy0": 79.7892,
+   "usdjpy1": 121.0217
+  },
+  {
+   "episode": "アベノミクスの円安",
+   "y0": 2012,
+   "y1": 2015,
+   "cat": "金属・同製品",
+   "dFX": 0.332,
+   "dPcc": -0.2322,
+   "cut_share": 0.6992,
+   "Pcc_ratio": 0.7928,
+   "quantity_ratio": NaN,
+   "usdjpy0": 79.7892,
+   "usdjpy1": 121.0217
+  },
+  {
+   "episode": "2021年からの円安",
+   "y0": 2020,
+   "y1": 2025,
+   "cat": "総平均",
+   "dFX": 0.2107,
+   "dPcc": 0.1182,
+   "cut_share": -0.5611,
+   "Pcc_ratio": 1.1255,
+   "quantity_ratio": 1.027,
+   "usdjpy0": 106.7808,
+   "usdjpy1": 149.6475
+  },
+  {
+   "episode": "2021年からの円安",
+   "y0": 2020,
+   "y1": 2025,
+   "cat": "はん用・生産用・業務用機器",
+   "dFX": 0.1346,
+   "dPcc": 0.1068,
+   "cut_share": -0.7928,
+   "Pcc_ratio": 1.1127,
+   "quantity_ratio": NaN,
+   "usdjpy0": 106.7808,
+   "usdjpy1": 149.6475
+  },
+  {
+   "episode": "2021年からの円安",
+   "y0": 2020,
+   "y1": 2025,
+   "cat": "電気・電子機器",
+   "dFX": 0.2012,
+   "dPcc": 0.0305,
+   "cut_share": -0.1517,
+   "Pcc_ratio": 1.031,
+   "quantity_ratio": NaN,
+   "usdjpy0": 106.7808,
+   "usdjpy1": 149.6475
+  },
+  {
+   "episode": "2021年からの円安",
+   "y0": 2020,
+   "y1": 2025,
+   "cat": "輸送用機器",
+   "dFX": 0.2211,
+   "dPcc": 0.0669,
+   "cut_share": -0.3024,
+   "Pcc_ratio": 1.0692,
+   "quantity_ratio": NaN,
+   "usdjpy0": 106.7808,
+   "usdjpy1": 149.6475
+  },
+  {
+   "episode": "2021年からの円安",
+   "y0": 2020,
+   "y1": 2025,
+   "cat": "化学製品",
+   "dFX": 0.2322,
+   "dPcc": 0.1453,
+   "cut_share": -0.6258,
+   "Pcc_ratio": 1.1564,
+   "quantity_ratio": NaN,
+   "usdjpy0": 106.7808,
+   "usdjpy1": 149.6475
+  },
+  {
+   "episode": "2021年からの円安",
+   "y0": 2020,
+   "y1": 2025,
+   "cat": "金属・同製品",
+   "dFX": 0.2774,
+   "dPcc": 0.3381,
+   "cut_share": -1.2187,
+   "Pcc_ratio": 1.4023,
+   "quantity_ratio": NaN,
+   "usdjpy0": 106.7808,
+   "usdjpy1": 149.6475
+  },
+  {
+   "episode": "2021〜2024年（円安が最も進んだ期間）",
+   "y0": 2021,
+   "y1": 2024,
+   "cat": "総平均",
+   "dFX": 0.1949,
+   "dPcc": 0.0624,
+   "cut_share": -0.3205,
+   "Pcc_ratio": 1.0644,
+   "quantity_ratio": 0.9295,
+   "usdjpy0": 109.7817,
+   "usdjpy1": 151.4983
+  },
+  {
+   "episode": "2021〜2024年（円安が最も進んだ期間）",
+   "y0": 2021,
+   "y1": 2024,
+   "cat": "はん用・生産用・業務用機器",
+   "dFX": 0.12,
+   "dPcc": 0.0864,
+   "cut_share": -0.7197,
+   "Pcc_ratio": 1.0902,
+   "quantity_ratio": NaN,
+   "usdjpy0": 109.7817,
+   "usdjpy1": 151.4983
+  },
+  {
+   "episode": "2021〜2024年（円安が最も進んだ期間）",
+   "y0": 2021,
+   "y1": 2024,
+   "cat": "電気・電子機器",
+   "dFX": 0.1888,
+   "dPcc": 0.0534,
+   "cut_share": -0.2827,
+   "Pcc_ratio": 1.0548,
+   "quantity_ratio": NaN,
+   "usdjpy0": 109.7817,
+   "usdjpy1": 151.4983
+  },
+  {
+   "episode": "2021〜2024年（円安が最も進んだ期間）",
+   "y0": 2021,
+   "y1": 2024,
+   "cat": "輸送用機器",
+   "dFX": 0.1999,
+   "dPcc": 0.0729,
+   "cut_share": -0.3644,
+   "Pcc_ratio": 1.0756,
+   "quantity_ratio": NaN,
+   "usdjpy0": 109.7817,
+   "usdjpy1": 151.4983
+  },
+  {
+   "episode": "2021〜2024年（円安が最も進んだ期間）",
+   "y0": 2021,
+   "y1": 2024,
+   "cat": "化学製品",
+   "dFX": 0.2199,
+   "dPcc": 0.0279,
+   "cut_share": -0.1271,
+   "Pcc_ratio": 1.0283,
+   "quantity_ratio": NaN,
+   "usdjpy0": 109.7817,
+   "usdjpy1": 151.4983
+  },
+  {
+   "episode": "2021〜2024年（円安が最も進んだ期間）",
+   "y0": 2021,
+   "y1": 2024,
+   "cat": "金属・同製品",
+   "dFX": 0.2573,
+   "dPcc": 0.0083,
+   "cut_share": -0.0323,
+   "Pcc_ratio": 1.0083,
+   "quantity_ratio": NaN,
+   "usdjpy0": 109.7817,
+   "usdjpy1": 151.4983
+  }
+ ],
+ "yen_weak_years": [
+  {
+   "year": 2013,
+   "dFX": 0.1282,
+   "dPcc": -0.0183,
+   "cut_share": 0.1425
+  },
+  {
+   "year": 2014,
+   "dFX": 0.0496,
+   "dPcc": -0.0182,
+   "cut_share": 0.3675
+  },
+  {
+   "year": 2015,
+   "dFX": 0.0699,
+   "dPcc": -0.0574,
+   "cut_share": 0.8215
+  },
+  {
+   "year": 2022,
+   "dFX": 0.1047,
+   "dPcc": 0.0458,
+   "cut_share": -0.4374
+  },
+  {
+   "year": 2023,
+   "dFX": 0.0414,
+   "dPcc": -0.0021,
+   "cut_share": 0.051
+  },
+  {
+   "year": 2024,
+   "dFX": 0.0487,
+   "dPcc": 0.0188,
+   "cut_share": -0.3847
+  },
+  {
+   "year": 2026,
+   "dFX": 0.0585,
+   "dPcc": 0.0851,
+   "cut_share": -1.4533
+  }
+ ]
+}
