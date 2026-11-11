@@ -1,0 +1,20 @@
+vintage,published,name,metric,base_year,base_value,target_year,target_value,case,case_rank,growth_rate,source_url,note
+1998,1998-06,電気事業審議会 長期電力需給見通し（中間報告）,demand,1997,,2010,,BAU（新たな対策なし）,high,0.021,https://atomica.jaea.go.jp/data/detail/dat_detail_01-09-05-13.html,1997→2010年度の電力需要の年率で示されている
+1998,1998-06,電気事業審議会 長期電力需給見通し（中間報告）,demand,1997,,2010,,対策ケース,low,0.012,https://atomica.jaea.go.jp/data/detail/dat_detail_01-09-05-13.html,同上
+2001,2001-07,長期エネルギー需給見通し,generation,2000,9396,2010,10292,基準ケース,high,,https://atomica.jaea.go.jp/data/detail/dat_detail_01-04-01-14.html,発電電力量（電気事業用）
+2001,2001-07,長期エネルギー需給見通し,generation,2000,9396,2010,9970,目標ケース,low,,https://atomica.jaea.go.jp/data/detail/dat_detail_01-04-01-14.html,同上（約9970）
+2004,2004-09,2030年のエネルギー需給展望（中間とりまとめ）,generation,2000,9396,2010,10199,レファレンスケース,high,,https://www.rieti.go.jp/jp/events/bbl/bbl040902_s.pdf,発電電力量（電気事業用）。ケース名は表の並びから対応づけ
+2004,2004-09,2030年のエネルギー需給展望（中間とりまとめ）,generation,2000,9396,2010,9645,現行対策推進ケース,mid,,https://www.rieti.go.jp/jp/events/bbl/bbl040902_s.pdf,同上
+2004,2004-09,2030年のエネルギー需給展望（中間とりまとめ）,generation,2000,9396,2010,9420,追加対策ケース,low,,https://www.rieti.go.jp/jp/events/bbl/bbl040902_s.pdf,同上
+2008,2008-05,長期エネルギー需給見通し,generation,2005,9845,2020,12715,現状固定ケース,high,,https://www.aec.go.jp/kaigi/teirei/2009/siryo04/1-3_haifu.pdf,発電電力量。ケース名は合計の大小から対応づけ
+2008,2008-05,長期エネルギー需給見通し,generation,2005,9845,2020,11066,努力継続ケース,mid,,https://www.aec.go.jp/kaigi/teirei/2009/siryo04/1-3_haifu.pdf,同上
+2008,2008-05,長期エネルギー需給見通し,generation,2005,9845,2020,10050,最大導入ケース,low,,https://www.aec.go.jp/kaigi/teirei/2009/siryo04/1-3_haifu.pdf,同上
+2008,2008-05,長期エネルギー需給見通し,generation,2005,9845,2030,14245,現状固定ケース,high,,https://www.aec.go.jp/kaigi/teirei/2009/siryo04/1-3_haifu.pdf,同上
+2008,2008-05,長期エネルギー需給見通し,generation,2005,9845,2030,11569,努力継続ケース,mid,,https://www.aec.go.jp/kaigi/teirei/2009/siryo04/1-3_haifu.pdf,同上
+2008,2008-05,長期エネルギー需給見通し,generation,2005,9845,2030,8908,最大導入ケース,low,,https://www.aec.go.jp/kaigi/teirei/2009/siryo04/1-3_haifu.pdf,同上
+2010,2010-06,エネルギー基本計画（第3次）,generation,2007,10305,2030,10200,計画（2030年推計）,mid,,https://www.env.go.jp/council/content/i_05/900423642.pdf,総発電電力量。別の資料では約1.2兆kWhとの表記もあり、出所の数字に食い違い
+2015,2015-07,長期エネルギー需給見通し,demand,2013,9666,2030,11769,対策前,high,,https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/mitoshi/007/pdf/007_06.pdf,電力需要。基準年は関連資料の2013年度実績（図では967×10億kWh）
+2015,2015-07,長期エネルギー需給見通し,demand,2013,9666,2030,9808,省エネ対策後,low,,https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/mitoshi/007/pdf/007_06.pdf,電力需要（見通しの値）
+2021,2021-10,2030年度におけるエネルギー需給の見通し（第6次エネルギー基本計画）,demand,2019,9273,2030,8640,見通し,mid,,https://www.meti.go.jp/shingikai/enecho/shigen_nenryo/pdf/033_s03_00.pdf,電力需要（程度）。基準年2019年度実績は資料の図から読んだ値
+2025,2025-02,2040年度におけるエネルギー需給の見通し（第7次エネルギー基本計画）,generation,2023,9877,2040,11000,見通し（下限）,low,,https://www.kyushu.meti.go.jp/seisaku/energy/oshirase/251223_1_3.pdf,発電電力量 1.1〜1.2兆kWh程度
+2025,2025-02,2040年度におけるエネルギー需給の見通し（第7次エネルギー基本計画）,generation,2023,9877,2040,12000,見通し（上限）,high,,https://www.kyushu.meti.go.jp/seisaku/energy/oshirase/251223_1_3.pdf,同上
