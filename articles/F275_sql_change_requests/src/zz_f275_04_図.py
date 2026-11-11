@@ -118,7 +118,7 @@ ax.set_yticks(ys); ax.set_yticklabels([r[0] for r in rows]); ax.invert_yaxis()
 ax.axvline(70, color="gray", ls=":", lw=1); ax.axvline(90, color="gray", ls="--", lw=1)
 ax.set_xlim(0, 112); ax.set_xlabel("S1 の直し忘れの変異のうち、見つかった割合（%）")
 ax.legend(fontsize=9, frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.1), ncol=2)
-ax.set_title("条件を変えても：照合は一部をすり抜け、答え合わせはほぼ全部を見つける", fontsize=12)
+ax.set_title("境目のケースを入れた答え合わせは、条件を変えてもほぼ全部を見つける（照合は一部をすり抜ける）", fontsize=11)
 save(fig, "fig4_robustness.png")
 
 # 図5 問い直し：共通の定義に誤りを入れると
