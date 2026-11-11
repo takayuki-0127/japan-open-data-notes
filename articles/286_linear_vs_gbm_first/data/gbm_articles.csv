@@ -1,0 +1,32 @@
+article,group,title,linear_too
+059_fatal_accidents,000–099,059 交通事故29万件で「死亡事故になりやすい条件」を調べた。単独事故・歩行者・深夜・カーブで高かった,True
+F03_land_price_ml,F01–F99,F03 地価を決めているのは何か？ 全国2.6万地点を機械学習で読む,True
+F100_five_methods_one_question,F100–F199,F100 同じ問いを5つの手法で分析すると、答えはそろうのか？,True
+F107_gcn_municipal,F100–F199,F107 市区町村のつながり（隣接・通勤）を使うと、予測は良くなるか？ グラフニューラルネットワークとふつうの機械学習の比較,True
+F108_prediction_fairness,F100–F199,F108 予測モデルは、地域によって外れ方が偏っていないか？（グループ別の誤差・較正・区間と、偏りの補正）,True
+F109_active_learning_land_price,F100–F199,F109 どのデータを集めれば、予測は早く良くなるか？ 地価公示で能動学習をシミュレーションする,True
+F110_hyperparam_bayesopt,F100–F199,F110 予測モデルの設定は、どう選ぶのが効率的か？ ベイズ最適化とグリッド・ランダム探索を比べる,False
+F119_forecast_scorecard,F100–F199,F119 予測した記事は、その後どれだけ当たったか？（予測の答え合わせ）,True
+F123_spatial_block_cv_review,F100–F199,F123 「場所で分けて確かめる」と、記事の結論は変わったか？（空間ブロック交差検証の横並び）,True
+F13_unemployment_forecast,F01–F99,F13 失業率を来月まで予測できるか？ 複数モデルの予測精度を比べる,True
+F144_water_tariff_density,F100–F199,F144 水道料金の差は、人口密度と水源でどこまで説明できるか,True
+F149_ml_survival,F100–F199,F149 生存分析を機械学習でやると、何が良くなるのか？ ランダムサバイバルフォレスト・勾配ブースティングと Cox の比較,True
+F154_uncertainty_viz,F100–F199,F154 推定の「不確かさ」を図でどう見せるとよいか？ 区間・ファン図・ドットプロット・HOP と読み違いの例,False
+F157_power_forecast_operation,F100–F199,F157 電力需要の予測を、1年通して運用したらどうなるか？（再学習のタイミングと、外れ方の推移）,True
+F158_land_price_update,F100–F199,F158 地価の予測を、毎年の公示で更新していくとどうなるか？,True
+F16_childcare_dml,F01–F99,F16 保育所に通う子どもが増えた市区町村で、女性は働きに出たのか？（ダブル機械学習）,True
+F175_r2_shapley_decomposition,F100–F199,F175 予測モデルの精度は、どの特徴量の「おかげ」なのか？ R² の Shapley 分解（学び直し・SAGE・LMG）,True
+F17_minwage_causal_forest,F01–F99,F17 最低賃金の影響が大きかったのはどんな県か？（因果フォレスト）,False
+F200_method_data_network,F200–F255,F200 200本の看板記事で使ったデータと手法は、どうつながっているか？ 197本の README を記事×手法×データのネットワークにする,False
+F205_power_forecast_practice_part1,F200–F255,F205 電力需要の予測を実務で回す（前編）：作る前に決めること・外れの値段・作り直す時,True
+F206_power_forecast_practice_part2,F200–F255,F206 電力需要の予測を実務で回す（後編）：エリアと合計のそろえ方・見せ方・1年の見張り,True
+F207_landprice_series_part1,F200–F255,F207 地価はどこで上がり、駅ができると何が起きるのか？（前編）,False
+F208_landprice_series_part2,F200–F255,F208 マンションの値段は地価とどう動き、地価の予測はどこで外れ続けるのか？（後編・シリーズD）,True
+F22_power_demand_forecast,F01–F99,F22 明日の電力需要を当てる：予測コンペ形式でモデルを競わせる,True
+F231_sales_forecast_horizon,F200–F255,F231 売上の予測は、何か月先まで役に立つのか？,False
+F259_forecast_error_inventory_cost,F256–F295（精選）,F259 需要予測の外れは、在庫と欠品のどちらに効かせるべきか？,False
+F37_conformal_land_price,F01–F99,F37 地価の予測に「この範囲に9割入る」を付ける（コンフォーマル予測）,False
+F74_temperature_kriging,F01–F99,F74 観測点のない場所の気温を、どこまで当てられるか？（クリギング・IDW・回帰クリギング・LightGBM）,True
+F75_gp_land_price,F01–F99,F75 地価の地図を「なめらかに」描くと、どこまで当たるか？（ガウス過程回帰・回帰クリギング・空間ブロック CV）,True
+F91_interpretation_methods,F01–F99,F91 機械学習の「何が効いているか」は、手法で答えが変わるか？ SHAP・並べ替え重要度・PDP・ALE の比較,True
+F92_power_quantile_forecast,F01–F99,F92 電力需要の「上振れ」はどこまで見込めばよいか？ 分位点予測とカバー率,False
