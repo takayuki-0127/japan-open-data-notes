@@ -1,0 +1,269 @@
+[
+ {
+  "article": "F246_kpi_definitions_fictional_retail",
+  "steps": [
+   {
+    "script": "src/01_取得.py",
+    "rc": 0,
+    "sec": 0.0,
+    "cpu": 0.0,
+    "err": ""
+   },
+   {
+    "script": "src/02_整形.py",
+    "rc": 0,
+    "sec": 4.2,
+    "cpu": 4.1,
+    "err": ""
+   },
+   {
+    "script": "src/03_分析.py",
+    "rc": 0,
+    "sec": 106.6,
+    "cpu": 104.4,
+    "err": ""
+   },
+   {
+    "script": "src/04_図.py",
+    "rc": 0,
+    "sec": 2.4,
+    "cpu": 2.3,
+    "err": ""
+   },
+   {
+    "script": "src/05_SQL検算.py",
+    "rc": 0,
+    "sec": 0.6,
+    "cpu": 0.6,
+    "err": ""
+   },
+   {
+    "script": "src/06_KPIシート.py",
+    "rc": 1,
+    "sec": 0.9,
+    "cpu": 0.8,
+    "err": "╚════════════════════════════════════════════════════════════╝"
+   }
+  ],
+  "sec": 114.7
+ },
+ {
+  "article": "F247_data_mart_fictional_retail",
+  "steps": [
+   {
+    "script": "src/01_取得.py",
+    "rc": 0,
+    "sec": 1.5,
+    "cpu": 0.1,
+    "err": ""
+   },
+   {
+    "script": "src/02_整形.py",
+    "rc": 1,
+    "sec": 4.7,
+    "cpu": 4.7,
+    "err": "OSError: Cannot save file into a non-existent directory: '<作業フォルダ>/repoB1/articles/F247_data_mart_fictional_retail/results'"
+   },
+   {
+    "script": "src/03_整える.py",
+    "rc": 0,
+    "sec": 5.4,
+    "cpu": 5.2,
+    "err": ""
+   },
+   {
+    "script": "src/04_分析.py",
+    "rc": 0,
+    "sec": 76.0,
+    "cpu": 74.3,
+    "err": ""
+   },
+   {
+    "script": "src/05_図.py",
+    "rc": 1,
+    "sec": 1.0,
+    "cpu": 1.0,
+    "err": "FileNotFoundError: [Errno 2] No such file or directory: '<作業フォルダ>/repoB1/articles/F247_data_mart_fictional_retail/results/issue_log.csv'"
+   }
+  ],
+  "sec": 88.6
+ },
+ {
+  "article": "F248_monthly_report_template_fictional_retail",
+  "steps": [
+   {
+    "script": "src/01_取得.py",
+    "rc": 0,
+    "sec": 0.5,
+    "cpu": 0.5,
+    "err": ""
+   },
+   {
+    "script": "src/02_整形.py",
+    "rc": 0,
+    "sec": 3.0,
+    "cpu": 2.9,
+    "err": ""
+   },
+   {
+    "script": "src/03_レポート.py",
+    "rc": 0,
+    "sec": 18.5,
+    "cpu": 18.1,
+    "err": ""
+   },
+   {
+    "script": "src/04_分析.py",
+    "rc": 0,
+    "sec": 53.8,
+    "cpu": 52.8,
+    "err": ""
+   },
+   {
+    "script": "src/05_図.py",
+    "rc": 1,
+    "sec": 1.4,
+    "cpu": 1.4,
+    "err": "╚════════════════════════════════════════════════════════════╝"
+   }
+  ],
+  "sec": 77.1
+ },
+ {
+  "article": "F249_powerbi_dashboard_fictional_retail",
+  "steps": [
+   {
+    "script": "src/01_取得.py",
+    "rc": 0,
+    "sec": 0.1,
+    "cpu": 0.1,
+    "err": ""
+   },
+   {
+    "script": "src/02_整形.py",
+    "rc": 1,
+    "sec": 3.5,
+    "cpu": 3.5,
+    "err": "OSError: Cannot save file into a non-existent directory: '<作業フォルダ>/repoB1/articles/F249_powerbi_dashboard_fictional_retail/results'"
+   },
+   {
+    "script": "src/03_分析.py",
+    "rc": 0,
+    "sec": 40.8,
+    "cpu": 39.2,
+    "err": ""
+   },
+   {
+    "script": "src/05_PowerBIパッケージ.py",
+    "rc": 0,
+    "sec": 0.5,
+    "cpu": 0.4,
+    "err": ""
+   },
+   {
+    "script": "src/04_図.py",
+    "rc": 1,
+    "sec": 0.8,
+    "cpu": 0.8,
+    "err": "FileNotFoundError: [Errno 2] No such file or directory: '<作業フォルダ>/repoB1/articles/F249_powerbi_dashboard_fictional_retail/dashboard/dashboard.html'"
+   }
+  ],
+  "sec": 45.6
+ },
+ {
+  "article": "F250_sales_drop_explanation_fictional_retail",
+  "steps": [
+   {
+    "script": "src/01_取得.py",
+    "rc": 0,
+    "sec": 2.1,
+    "cpu": 0.1,
+    "err": ""
+   },
+   {
+    "script": "src/02_整形.py",
+    "rc": 0,
+    "sec": 0.6,
+    "cpu": 0.6,
+    "err": ""
+   },
+   {
+    "script": "src/03_分析.py",
+    "rc": 0,
+    "sec": 37.8,
+    "cpu": 36.3,
+    "err": ""
+   },
+   {
+    "script": "src/04_報告.py",
+    "rc": 0,
+    "sec": 0.3,
+    "cpu": 0.3,
+    "err": ""
+   },
+   {
+    "script": "src/05_図.py",
+    "rc": 1,
+    "sec": 2.4,
+    "cpu": 2.4,
+    "err": "╚════════════════════════════════════════════════════════════╝"
+   },
+   {
+    "script": "src/06_SQL照合.py",
+    "rc": 0,
+    "sec": 0.5,
+    "cpu": 0.5,
+    "err": ""
+   }
+  ],
+  "sec": 43.8
+ },
+ {
+  "article": "F251_promo_effect_fictional_retail",
+  "steps": [
+   {
+    "script": "src/01_取得.py",
+    "rc": 0,
+    "sec": 1.6,
+    "cpu": 0.1,
+    "err": ""
+   },
+   {
+    "script": "src/02_整形.py",
+    "rc": 0,
+    "sec": 0.4,
+    "cpu": 0.4,
+    "err": ""
+   },
+   {
+    "script": "src/03_分析.py",
+    "rc": 0,
+    "sec": 17.5,
+    "cpu": 17.3,
+    "err": ""
+   },
+   {
+    "script": "src/04_報告.py",
+    "rc": 0,
+    "sec": 0.4,
+    "cpu": 0.4,
+    "err": ""
+   },
+   {
+    "script": "src/05_図.py",
+    "rc": 1,
+    "sec": 1.9,
+    "cpu": 1.9,
+    "err": "╚════════════════════════════════════════════════════════════╝"
+   },
+   {
+    "script": "src/06_SQL照合.py",
+    "rc": 0,
+    "sec": 0.4,
+    "cpu": 0.4,
+    "err": ""
+   }
+  ],
+  "sec": 22.2
+ }
+]

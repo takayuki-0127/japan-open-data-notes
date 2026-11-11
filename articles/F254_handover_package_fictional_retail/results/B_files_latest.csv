@@ -1,0 +1,215 @@
+﻿回,ファイル,種類,結果
+F246,data/dim_category.csv,数字,同じ
+F246,data/dim_date.csv,数字,同じ
+F246,data/dim_store.csv,数字,同じ
+F246,data/fact_ec_day.csv,数字,同じ
+F246,data/fact_member_month.csv,数字,同じ
+F246,data/fact_store_day.csv.gz,数字,同じ（中身）
+F246,data/fact_store_day_category.csv.gz,数字,同じ（中身）
+F246,data/raw/calendar_daily.csv.gz,数字,同じ
+F246,data/raw/kakei_items.csv,数字,同じ
+F246,data/raw/sales_monthly_6types.csv,数字,同じ
+F246,docs/company_spec.md,数字,同じ
+F246,docs/kpi_definitions.md,数字,同じ
+F246,figures/fig1_kpi_tree.png,見た目,違う
+F246,figures/fig2_op_bridge.png,見た目,違う
+F246,figures/fig3_all_vs_existing.png,見た目,違う
+F246,figures/fig4_noise_by_grain.png,見た目,違う
+F246,figures/fig5_definitions.png,見た目,違う
+F246,figures/fig6_kpi_sheet.png,見た目,作られなかった
+F246,results/A_kpi_tree_fy2024_fy2025.csv,数字,同じ（丸めの差 0 セル）
+F246,results/A_op_bridge_existing.csv,数字,同じ（丸めの差 0 セル）
+F246,results/B_yoy_all_vs_existing_12m.csv,数字,同じ（丸めの差 0 セル）
+F246,results/B_yoy_all_vs_existing_13m.csv,数字,同じ（丸めの差 0 セル）
+F246,results/B_yoy_all_vs_existing_24m.csv,数字,同じ（丸めの差 0 セル）
+F246,results/C_noise_by_grain.csv,数字,同じ（丸めの差 0 セル）
+F246,results/D_calendar_adjust.csv,数字,同じ（丸めの差 0 セル）
+F246,results/D_receipts_vs_members_by_area.csv,数字,同じ
+F246,results/E_kpi_scorecard.csv,数字,同じ（丸めの差 0 セル）
+F246,results/E_sql_check.csv,数字,同じ（丸めの差 2 セル）
+F246,results/E_sql_kpi_monthly.csv,数字,同じ（丸めの差 0 セル）
+F246,results/F_kpi_sheet.csv,数字,同じ
+F246,results/main.json,数字,近い（相対 4.0e-12）
+F246,sheet/kpi_sheet.html,見た目,同じ
+F246,sql/kpi_monthly.sql,数字,同じ
+F247,data/raw_synth/acct_store_month.csv,数字,同じ
+F247,data/raw_synth/hr_attendance.csv.gz,数字,同じ（中身）
+F247,data/raw_synth/map_dept.csv,数字,同じ
+F247,data/raw_synth/map_store_hr.csv,数字,同じ
+F247,data/raw_synth/map_store_pos.csv,数字,同じ
+F247,data/raw_synth/pos_dept_day.csv.gz,数字,同じ（中身）
+F247,data/raw_synth/pos_store_day.csv.gz,数字,同じ（中身）
+F247,data/raw_synth/waste_register.csv.gz,数字,同じ（中身）
+F247,docs/data_dictionary.md,数字,同じ
+F247,figures/fig1_pipeline.png,見た目,違う
+F247,figures/fig2_issues.png,見た目,作られなかった
+F247,figures/fig3_test_matrix.png,見た目,作られなかった
+F247,figures/fig4_kpi_distortion.png,見た目,作られなかった
+F247,figures/fig5_close_day.png,見た目,作られなかった
+F247,figures/fig6_mart_model.png,見た目,作られなかった
+F247,mart/dim_category.csv,数字,同じ
+F247,mart/dim_date.csv,数字,同じ
+F247,mart/dim_store.csv,数字,同じ
+F247,mart/dim_store_code_history.csv,数字,同じ
+F247,mart/fact_ec_day.csv,数字,同じ
+F247,mart/fact_member_month.csv,数字,同じ
+F247,mart/fact_store_day.csv.gz,数字,同じ（中身）
+F247,mart/fact_store_day_category.csv.gz,数字,同じ（中身）
+F247,mart/store_month.csv,数字,同じ（丸めの差 14 セル）
+F247,results/A_run1_unmapped_codes.csv,数字,同じ
+F247,results/A_run1_waste_range.csv,数字,同じ（丸めの差 0 セル）
+F247,results/A_tests.json,数字,同じ
+F247,results/A_tests_run1_run2.csv,数字,同じ
+F247,results/B_scenario_kpi.csv,数字,同じ
+F247,results/C_scenario_tests.csv,数字,同じ
+F247,results/C_sql_vs_pandas.csv,数字,同じ（丸めの差 1 セル）
+F247,results/D_close_day_revision.csv,数字,同じ
+F247,results/D_close_day_summary.csv,数字,同じ
+F247,results/E_hr_impute_methods.csv,数字,同じ
+F247,results/E_seeds_rates.csv,数字,同じ
+F247,results/E_seeds_rates_summary.csv,数字,同じ
+F247,results/E_sql_tests_seeds.csv,数字,同じ
+F247,results/issue_log.csv,数字,作られなかった
+F247,results/main.json,数字,同じ
+F247,sql/10_staging.sql,数字,同じ
+F247,sql/20_mart.sql,数字,同じ
+F247,sql/30_tests.sql,数字,同じ
+F247,sql/ref_fix_store_code.csv,数字,同じ
+F247,sql/ref_fix_waste_unit.csv,数字,同じ
+F248,data/in/C_noise_by_grain.csv,数字,同じ（丸めの差 0 セル）
+F248,data/in/D_calendar_adjust.csv,数字,同じ（丸めの差 0 セル）
+F248,data/in/acct_store_month.csv,数字,同じ
+F248,data/in/dim_date.csv,数字,同じ
+F248,data/in/dim_store.csv,数字,同じ
+F248,data/in/fact_member_month.csv,数字,同じ
+F248,data/in/market_super_monthly.csv,数字,同じ
+F248,data/in/store_month.csv,数字,同じ（丸めの差 14 セル）
+F248,data/plan_fy2025.csv,数字,同じ
+F248,data/versions/store_month_d1.csv,数字,同じ（丸めの差 0 セル）
+F248,data/versions/store_month_d10.csv,数字,同じ（丸めの差 0 セル）
+F248,data/versions/store_month_d3.csv,数字,同じ（丸めの差 0 セル）
+F248,data/versions/store_month_d5.csv,数字,同じ（丸めの差 0 セル）
+F248,docs/report_rules.md,数字,同じ
+F248,figures/fig1_template.png,見た目,違う
+F248,figures/fig2_sample_report.png,見た目,作られなかった
+F248,figures/fig3_store_rule.png,見た目,作られなかった
+F248,figures/fig4_company_judgment.png,見た目,作られなかった
+F248,figures/fig5_versions.png,見た目,作られなかった
+F248,figures/fig6_twelve_months.png,見た目,作られなかった
+F248,reports/report_202504_v2.md,数字,同じ
+F248,reports/report_202505_v2.md,数字,同じ
+F248,reports/report_202506_v2.md,数字,同じ
+F248,reports/report_202507_v2.md,数字,同じ
+F248,reports/report_202508_v2.md,数字,同じ
+F248,reports/report_202509_v2.md,数字,同じ
+F248,reports/report_202510_v2.md,数字,同じ
+F248,reports/report_202511_v2.md,数字,同じ
+F248,reports/report_202512.json,数字,近い（相対 6.0e-05）
+F248,reports/report_202512_v1.html,見た目,違う
+F248,reports/report_202512_v1.pdf,見た目,作られなかった
+F248,reports/report_202512_v2.html,見た目,違う
+F248,reports/report_202512_v2.md,数字,同じ
+F248,reports/report_202512_v2.pdf,見た目,作られなかった
+F248,reports/report_202601_v2.md,数字,同じ
+F248,reports/report_202602_v2.md,数字,同じ
+F248,reports/report_202603_v2.md,数字,同じ
+F248,results/A_noise_widths.csv,数字,同じ（丸めの差 0 セル）
+F248,results/A_noise_widths_vs_F246.csv,数字,同じ（丸めの差 0 セル）
+F248,results/B_reports_fy2025.csv,数字,同じ
+F248,results/B_store_rule_seeds.csv,数字,同じ
+F248,results/B_store_rule_summary.csv,数字,同じ（丸めの差 0 セル）
+F248,results/C_company_judgment_seeds.csv,数字,同じ
+F248,results/C_company_judgment_summary.csv,数字,同じ
+F248,results/D_close_day_summary.csv,数字,同じ
+F248,results/D_close_day_versions.csv,数字,同じ
+F248,results/E_sql_vs_pandas.csv,数字,違う
+F248,results/F_plan_assumption.csv,数字,同じ
+F248,results/main.json,数字,近い（相対 3.3e-15）
+F248,sql/monthly_report_kpi.sql,数字,同じ
+F249,dashboard/dashboard.html,見た目,作られなかった
+F249,figures/fig1_design.png,見た目,作られなかった
+F249,figures/fig2_dashboard_exec.png,見た目,作られなかった
+F249,figures/fig3_noise_flags.png,見た目,作られなかった
+F249,figures/fig4_dashboard_store_drill.png,見た目,作られなかった
+F249,figures/fig5_powerbi_package.png,見た目,作られなかった
+F249,figures/fig6_checks.png,見た目,作られなかった
+F249,powerbi/build_steps.md,数字,手書き（掃除で消えた）
+F249,powerbi/data/dim_category.csv,数字,同じ
+F249,powerbi/data/dim_date.csv,数字,同じ
+F249,powerbi/data/dim_store.csv,数字,同じ
+F249,powerbi/data/fact_member_month.csv,数字,同じ
+F249,powerbi/data/fact_store_day.csv.gz,数字,同じ（中身）
+F249,powerbi/data/fact_store_day_category.csv.gz,数字,同じ（中身）
+F249,powerbi/data/fact_store_month.csv,数字,同じ
+F249,powerbi/data/ref_noise_band.csv,数字,同じ（丸めの差 0 セル）
+F249,powerbi/data/sec_user_area.csv,数字,同じ
+F249,powerbi/expected_values.csv,数字,同じ（丸めの差 0 セル）
+F249,powerbi/layout_spec.md,数字,手書き（掃除で消えた）
+F249,powerbi/measures.dax,数字,同じ
+F249,powerbi/measures.md,数字,同じ
+F249,powerbi/powerquery.m,数字,同じ
+F249,powerbi/rls.md,数字,手書き（掃除で消えた）
+F249,powerbi/theme.json,数字,同じ
+F249,results/A_day_weight.csv,数字,作られなかった
+F249,results/B_check_sql_vs_pandas.csv,数字,同じ（丸めの差 668 セル）
+F249,results/B_sql_measures.csv,数字,同じ
+F249,results/C_band_flags_fy2025.csv,数字,同じ（丸めの差 0 セル）
+F249,results/D_noise_flags_20seeds.csv,数字,同じ（丸めの差 0 セル）
+F249,results/E_bands_company_area.csv,数字,同じ（丸めの差 0 セル）
+F249,results/F_layout_checks.csv,数字,作られなかった
+F249,results/F_layout_checks_before_mobile_fix.csv,数字,作られなかった
+F249,results/G_dashboard_data.json,数字,近い（相対 7.6e-13）
+F249,results/H_package_counts.json,数字,同じ
+F249,results/expected_values.csv,数字,同じ（丸めの差 0 セル）
+F249,results/main.json,数字,近い（相対 5.9e-01）
+F249,results/screenshot_p1_phone.png,見た目,作られなかった
+F249,results/screenshot_p3_category.png,見た目,作られなかった
+F249,sql/expected_measures.sql,数字,同じ
+F250,figures/fig1_monthly_yoy_band.png,見た目,違う
+F250,figures/fig2_waterfall_202603.png,見た目,違う
+F250,figures/fig3_area_month_vs_year.png,見た目,違う
+F250,figures/fig4_category_store_band.png,見た目,違う
+F250,figures/fig5_down_months_same_template.png,見た目,違う
+F250,figures/fig6_onepage_report.png,見た目,作られなかった
+F250,reports/report_202603_first_draft.md,数字,同じ
+F250,reports/report_202603_onepage.html,見た目,同じ
+F250,reports/report_202603_onepage.md,数字,同じ
+F250,results/02_check.json,数字,同じ
+F250,results/A_monthly_decomposition_seed0.csv,数字,同じ
+F250,results/B_noise_band90_halfwidth.csv,数字,同じ（丸めの差 0 セル）
+F250,results/B_seed_mean.csv,数字,同じ（丸めの差 0 セル）
+F250,results/B_seeds_decomposition.csv,数字,違う
+F250,results/B_seeds_fy2025_area.csv,数字,同じ
+F250,results/C_target_items_vs_band.csv,数字,同じ（丸めの差 0 セル）
+F250,results/D_calendar_coefficients_FY2022-24.csv,数字,同じ
+F250,results/D_order_sequential.csv,数字,同じ
+F250,results/E_down_months.csv,数字,同じ（丸めの差 0 セル）
+F250,results/F_industry_yoy.csv,数字,同じ
+F250,results/G_report_numbers.json,数字,同じ
+F250,results/H_sql_check.json,数字,近い（相対 9.7e-05）
+F250,results/H_sql_existing_yoy.csv,数字,同じ
+F250,results/main.json,数字,近い（相対 7.0e-14）
+F250,sql/10_existing_store_yoy.sql,数字,同じ
+F251,figures/fig1_weekly_index.png,見た目,違う
+F251,figures/fig2_event_study.png,見た目,違う
+F251,figures/fig3_synthetic_control_gap.png,見た目,違う
+F251,figures/fig4_estimates_vs_truth.png,見た目,違う
+F251,figures/fig5_money.png,見た目,違う
+F251,figures/fig6_onepage_report.png,見た目,作られなかった
+F251,reports/promo_effect_report.html,見た目,同じ
+F251,reports/promo_effect_report.md,数字,同じ
+F251,results/02_truth_seed0.json,数字,同じ
+F251,results/A_estimates_seed0.csv,数字,違う
+F251,results/A_event_study_seed0.csv,数字,同じ
+F251,results/A_sc_gap_seed0.csv,数字,違う
+F251,results/A_selection_yoy.csv,数字,同じ
+F251,results/A_store_week_seed0.csv.gz,数字,同じ
+F251,results/A_weekly_index_seed0.csv,数字,同じ
+F251,results/B_placebo_space.csv,数字,違う
+F251,results/B_placebo_time.csv,数字,違う
+F251,results/C_error_summary.csv,数字,違う
+F251,results/C_money_error.csv,数字,違う
+F251,results/C_seeds.csv,数字,違う
+F251,results/D_sql_check.json,数字,近い（相対 6.9e-05）
+F251,results/main.json,数字,近い（相対 1.5e-08）
+F251,sql/10_promo_simple_estimates.sql,数字,同じ

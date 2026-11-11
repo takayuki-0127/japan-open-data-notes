@@ -1,0 +1,5 @@
+﻿回,ファイル,行,書き方,コード
+F246,03_分析.py,52,暦の月の差（開店月を1か月目と数える）,ok_open = age >= months
+F247,03_整える.py,233,暦の月の差（開店月を1か月目と数える）,"sm[""is_existing""] = ((age >= 13) & (cd.isna().values | (cd.values >= mend.values))).astype(int)"
+F248,03_レポート.py,105,暦の月の差（開店月を1か月目と数える）,"sm[""is_existing""] = ((age >= 13) & (pd.isna(cd) | (cd >= mend))).astype(int)"
+F250,02_整形.py,35,日付で13か月後（開店日から数える）,ok = (s.open_date + pd.DateOffset(months=13) <= start) and (pd.isna(s.close_date) or s.close_date >= end)

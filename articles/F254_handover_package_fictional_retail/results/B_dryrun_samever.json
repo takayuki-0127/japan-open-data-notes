@@ -1,0 +1,357 @@
+[
+ {
+  "article": "F246_kpi_definitions_fictional_retail",
+  "steps": [
+   {
+    "script": "src/01_取得.py",
+    "rc": 0,
+    "sec": 0.1,
+    "cpu": 0.0,
+    "err": ""
+   },
+   {
+    "script": "src/02_整形.py",
+    "rc": 0,
+    "sec": 9.2,
+    "cpu": 4.5,
+    "err": ""
+   },
+   {
+    "script": "src/03_分析.py",
+    "rc": 0,
+    "sec": 265.9,
+    "cpu": 147.1,
+    "err": ""
+   },
+   {
+    "script": "src/04_図.py",
+    "rc": 0,
+    "sec": 4.0,
+    "cpu": 2.6,
+    "err": ""
+   },
+   {
+    "script": "src/05_SQL検算.py",
+    "rc": 0,
+    "sec": 1.2,
+    "cpu": 0.8,
+    "err": ""
+   },
+   {
+    "script": "src/06_KPIシート.py",
+    "rc": 0,
+    "sec": 1.8,
+    "cpu": 1.0,
+    "err": ""
+   }
+  ],
+  "sec": 282.1,
+  "git": {
+   "同じ": 38,
+   "違う": [
+    "articles/F246_kpi_definitions_fictional_retail/data/fact_store_day.csv.gz",
+    "articles/F246_kpi_definitions_fictional_retail/data/fact_store_day_category.csv.gz",
+    "articles/F246_kpi_definitions_fictional_retail/results/E_sql_kpi_monthly.csv"
+   ],
+   "作られなかった": [],
+   "新しく増えた": 0,
+   "tracked": 41
+  }
+ },
+ {
+  "article": "F247_data_mart_fictional_retail",
+  "steps": [
+   {
+    "script": "src/01_取得.py",
+    "rc": 0,
+    "sec": 1.9,
+    "cpu": 0.1,
+    "err": ""
+   },
+   {
+    "script": "src/02_整形.py",
+    "rc": 1,
+    "sec": 8.7,
+    "cpu": 5.6,
+    "err": "OSError: Cannot save file into a non-existent directory: '<作業フォルダ>/repo/articles/F247_data_mart_fictional_retail/results'"
+   },
+   {
+    "script": "src/03_整える.py",
+    "rc": 0,
+    "sec": 10.5,
+    "cpu": 6.7,
+    "err": ""
+   },
+   {
+    "script": "src/04_分析.py",
+    "rc": 0,
+    "sec": 277.8,
+    "cpu": 153.2,
+    "err": ""
+   },
+   {
+    "script": "src/05_図.py",
+    "rc": 1,
+    "sec": 2.2,
+    "cpu": 1.1,
+    "err": "FileNotFoundError: [Errno 2] No such file or directory: '<作業フォルダ>/repo/articles/F247_data_mart_fictional_retail/results/issue_log.csv'"
+   }
+  ],
+  "sec": 301.1,
+  "git": {
+   "同じ": 37,
+   "違う": [
+    "articles/F247_data_mart_fictional_retail/data/raw_synth/hr_attendance.csv.gz",
+    "articles/F247_data_mart_fictional_retail/data/raw_synth/pos_dept_day.csv.gz",
+    "articles/F247_data_mart_fictional_retail/data/raw_synth/pos_store_day.csv.gz",
+    "articles/F247_data_mart_fictional_retail/data/raw_synth/waste_register.csv.gz",
+    "articles/F247_data_mart_fictional_retail/mart/fact_store_day.csv.gz",
+    "articles/F247_data_mart_fictional_retail/mart/fact_store_day_category.csv.gz",
+    "articles/F247_data_mart_fictional_retail/mart/store_month.csv",
+    "articles/F247_data_mart_fictional_retail/results/A_run1_waste_range.csv"
+   ],
+   "作られなかった": [
+    "articles/F247_data_mart_fictional_retail/figures/fig2_issues.png",
+    "articles/F247_data_mart_fictional_retail/figures/fig3_test_matrix.png",
+    "articles/F247_data_mart_fictional_retail/figures/fig4_kpi_distortion.png",
+    "articles/F247_data_mart_fictional_retail/figures/fig5_close_day.png",
+    "articles/F247_data_mart_fictional_retail/figures/fig6_mart_model.png",
+    "articles/F247_data_mart_fictional_retail/results/issue_log.csv"
+   ],
+   "新しく増えた": 7,
+   "tracked": 51
+  }
+ },
+ {
+  "article": "F248_monthly_report_template_fictional_retail",
+  "steps": [
+   {
+    "script": "src/01_取得.py",
+    "rc": 0,
+    "sec": 0.8,
+    "cpu": 0.4,
+    "err": ""
+   },
+   {
+    "script": "src/02_整形.py",
+    "rc": 0,
+    "sec": 7.5,
+    "cpu": 3.7,
+    "err": ""
+   },
+   {
+    "script": "src/03_レポート.py",
+    "rc": 0,
+    "sec": 44.5,
+    "cpu": 21.8,
+    "err": ""
+   },
+   {
+    "script": "src/04_分析.py",
+    "rc": 0,
+    "sec": 83.5,
+    "cpu": 41.3,
+    "err": ""
+   },
+   {
+    "script": "src/05_図.py",
+    "rc": 0,
+    "sec": 7.3,
+    "cpu": 3.5,
+    "err": ""
+   }
+  ],
+  "sec": 143.6,
+  "git": {
+   "同じ": 52,
+   "違う": [
+    "articles/F248_monthly_report_template_fictional_retail/data/in/store_month.csv",
+    "articles/F248_monthly_report_template_fictional_retail/reports/report_202512.json",
+    "articles/F248_monthly_report_template_fictional_retail/reports/report_202512_v1.pdf",
+    "articles/F248_monthly_report_template_fictional_retail/reports/report_202512_v2.pdf",
+    "articles/F248_monthly_report_template_fictional_retail/results/E_sql_vs_pandas.csv"
+   ],
+   "作られなかった": [],
+   "新しく増えた": 33,
+   "tracked": 57
+  }
+ },
+ {
+  "article": "F249_powerbi_dashboard_fictional_retail",
+  "steps": [
+   {
+    "script": "src/01_取得.py",
+    "rc": 0,
+    "sec": 0.2,
+    "cpu": 0.1,
+    "err": ""
+   },
+   {
+    "script": "src/02_整形.py",
+    "rc": 1,
+    "sec": 7.9,
+    "cpu": 3.9,
+    "err": "OSError: Cannot save file into a non-existent directory: '<作業フォルダ>/repo/articles/F249_powerbi_dashboard_fictional_retail/results'"
+   },
+   {
+    "script": "src/03_分析.py",
+    "rc": 0,
+    "sec": 93.1,
+    "cpu": 52.3,
+    "err": ""
+   },
+   {
+    "script": "src/05_PowerBIパッケージ.py",
+    "rc": 0,
+    "sec": 0.8,
+    "cpu": 0.5,
+    "err": ""
+   },
+   {
+    "script": "src/04_図.py",
+    "rc": 1,
+    "sec": 1.3,
+    "cpu": 0.8,
+    "err": "FileNotFoundError: [Errno 2] No such file or directory: '<作業フォルダ>/repo/articles/F249_powerbi_dashboard_fictional_retail/dashboard/dashboard.html'"
+   }
+  ],
+  "sec": 103.3,
+  "git": {
+   "同じ": 29,
+   "違う": [
+    "articles/F249_powerbi_dashboard_fictional_retail/powerbi/data/fact_store_day.csv.gz",
+    "articles/F249_powerbi_dashboard_fictional_retail/powerbi/data/fact_store_day_category.csv.gz",
+    "articles/F249_powerbi_dashboard_fictional_retail/results/main.json"
+   ],
+   "作られなかった": [
+    "articles/F249_powerbi_dashboard_fictional_retail/dashboard/dashboard.html",
+    "articles/F249_powerbi_dashboard_fictional_retail/figures/fig1_design.png",
+    "articles/F249_powerbi_dashboard_fictional_retail/figures/fig2_dashboard_exec.png",
+    "articles/F249_powerbi_dashboard_fictional_retail/figures/fig3_noise_flags.png",
+    "articles/F249_powerbi_dashboard_fictional_retail/figures/fig4_dashboard_store_drill.png",
+    "articles/F249_powerbi_dashboard_fictional_retail/figures/fig5_powerbi_package.png",
+    "articles/F249_powerbi_dashboard_fictional_retail/figures/fig6_checks.png",
+    "articles/F249_powerbi_dashboard_fictional_retail/powerbi/build_steps.md",
+    "articles/F249_powerbi_dashboard_fictional_retail/powerbi/layout_spec.md",
+    "articles/F249_powerbi_dashboard_fictional_retail/powerbi/rls.md",
+    "articles/F249_powerbi_dashboard_fictional_retail/results/A_day_weight.csv",
+    "articles/F249_powerbi_dashboard_fictional_retail/results/F_layout_checks.csv",
+    "articles/F249_powerbi_dashboard_fictional_retail/results/F_layout_checks_before_mobile_fix.csv",
+    "articles/F249_powerbi_dashboard_fictional_retail/results/screenshot_p1_phone.png",
+    "articles/F249_powerbi_dashboard_fictional_retail/results/screenshot_p3_category.png"
+   ],
+   "新しく増えた": 11,
+   "tracked": 47
+  }
+ },
+ {
+  "article": "F250_sales_drop_explanation_fictional_retail",
+  "steps": [
+   {
+    "script": "src/01_取得.py",
+    "rc": 0,
+    "sec": 2.4,
+    "cpu": 0.1,
+    "err": ""
+   },
+   {
+    "script": "src/02_整形.py",
+    "rc": 0,
+    "sec": 2.6,
+    "cpu": 1.6,
+    "err": ""
+   },
+   {
+    "script": "src/03_分析.py",
+    "rc": 0,
+    "sec": 92.6,
+    "cpu": 58.9,
+    "err": ""
+   },
+   {
+    "script": "src/04_報告.py",
+    "rc": 0,
+    "sec": 0.6,
+    "cpu": 0.5,
+    "err": ""
+   },
+   {
+    "script": "src/05_図.py",
+    "rc": 0,
+    "sec": 4.7,
+    "cpu": 2.6,
+    "err": ""
+   },
+   {
+    "script": "src/06_SQL照合.py",
+    "rc": 0,
+    "sec": 1.1,
+    "cpu": 0.6,
+    "err": ""
+   }
+  ],
+  "sec": 103.9,
+  "git": {
+   "同じ": 33,
+   "違う": [],
+   "作られなかった": [],
+   "新しく増えた": 10,
+   "tracked": 33
+  }
+ },
+ {
+  "article": "F251_promo_effect_fictional_retail",
+  "steps": [
+   {
+    "script": "src/01_取得.py",
+    "rc": 0,
+    "sec": 1.8,
+    "cpu": 0.2,
+    "err": ""
+   },
+   {
+    "script": "src/02_整形.py",
+    "rc": 0,
+    "sec": 0.9,
+    "cpu": 0.6,
+    "err": ""
+   },
+   {
+    "script": "src/03_分析.py",
+    "rc": 0,
+    "sec": 36.9,
+    "cpu": 27.5,
+    "err": ""
+   },
+   {
+    "script": "src/04_報告.py",
+    "rc": 0,
+    "sec": 0.5,
+    "cpu": 0.5,
+    "err": ""
+   },
+   {
+    "script": "src/05_図.py",
+    "rc": 0,
+    "sec": 3.0,
+    "cpu": 2.4,
+    "err": ""
+   },
+   {
+    "script": "src/06_SQL照合.py",
+    "rc": 0,
+    "sec": 0.6,
+    "cpu": 0.6,
+    "err": ""
+   }
+  ],
+  "sec": 43.7,
+  "git": {
+   "同じ": 31,
+   "違う": [],
+   "作られなかった": [],
+   "新しく増えた": 10,
+   "tracked": 31
+  }
+ }
+]

@@ -1,0 +1,19 @@
+{
+ "articles": 6,
+ "steps_total": 33,
+ "scripts": 33,
+ "lines": 5275,
+ "network_articles": 5,
+ "browser_articles": 5,
+ "pinned_requirements": 0,
+ "floor_requirements": 30,
+ "hidden_prereq_code_only": 1,
+ "sibling_no_fallback": {
+  "F248": "02_整形.py 03_レポート.py"
+ },
+ "existing_rule_copies": 4,
+ "existing_rule_kinds": {
+  "暦の月の差（開店月を1か月目と数える）": 3,
+  "日付で13か月後（開店日から数える）": 1
+ }
+}
