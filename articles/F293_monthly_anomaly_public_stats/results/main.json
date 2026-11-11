@@ -102,5 +102,26 @@
   "S1": 0.0,
   "S2": 0.2629,
   "S3": 0.0018
+ },
+ "E5_rate_changed_months_R(停止なし)∪M2": {
+  "S1": 0.2542,
+  "S2": 0.0632,
+  "S3": 0.1052
+ },
+ "H4_base_event_share_clean": {
+  "S1": 0.2574,
+  "S2": 0.2947,
+  "S3": 0.3475
+ },
+ "H4_base_event_share_clean_all": 0.2953,
+ "H4_lift_by_src": {
+  "S1": 3.411,
+  "S2": 1.227,
+  "S3": 1.919
+ },
+ "H4_lift_all": 1.253,
+ "H4_noncovid_S2": {
+  "flag_event_share": 0.1743,
+  "base_event_share": 0.106
  }
 }
