@@ -73,9 +73,17 @@ for nm, ch in [("R1 K=0.2秒", dict(K=0.2)), ("R1 K=0.5秒", dict(K=0.5)), ("R1 
                ("R1 読む0.2秒", dict(R=0.2)), ("R1 読む0.6秒", dict(R=0.6)), ("R1 比べる0.5秒", dict(C=0.5))]:
     rob.append(summ(nm, sel(), sel(qs=XQ), {**BASE, **ch}, sel("sp")))
 # 計算を暗算（1回＝M×3）にする：計算の K を 0 にして M を足す
+# 計算1回の時間を変える（基本は K×15＋M＝5.55秒。足し算は値1つあたり K×7）
+# 初めの版は K を0にしたうえで M に CALC×3 を足していたため、もとの M と合わせて M×4 になっていた（レビューで直した）
 def mental(df):
-    df = df.copy(); df["K"] = 0; df["M"] = df.M + df.CALC * 3; return df
+    df = df.copy(); df["K"] = 0; df["M"] = df.M + df.CALC * 2; return df  # 計算1回＝M×3
+def calc_m(df):
+    df = df.copy(); df["K"] = 0; return df  # 計算1回＝M のみ
+def calc_0(df):
+    df = df.copy(); df["K"] = 0; df["M"] = df.M - df.CALC; return df  # 計算に時間がかからない
 rob.append(summ("R1 計算を暗算（M×3）", mental(sel()), mental(sel(qs=XQ)), BASE, mental(sel("sp"))))
+rob.append(summ("R1 計算＝M のみ", calc_m(sel()), calc_m(sel(qs=XQ)), BASE, calc_m(sel("sp"))))
+rob.append(summ("R1 計算＝0", calc_0(sel()), calc_0(sel(qs=XQ)), BASE, calc_0(sel("sp"))))
 for vp in ["pc_s", "pc_l"]:
     rob.append(summ(f"R2 画面 {vp}", sel(vp), sel(vp, qs=XQ)))
 rob.append(summ("R3 コロナの時期（パソコン）", sel(per="covid"), sel(per="covid", qs=XQ), BASE, sel("sp", per="covid")))
@@ -109,6 +117,17 @@ out["reask"] = dict(decomp=dd.to_dict(orient="records"),
                     median_sec_pc_without_calc_compare=nocalc.groupby("design").sec.median().round(2).to_dict(),
                     share_tasks_needing_calc=sel().assign(c=lambda d: d.CALC > 0).groupby("design").c.mean().round(3).to_dict(),
                     share_tasks_needing_fallback=t[(t.vp == "pc") & (t.period == "main")].groupby(["design", t.q.isin(XQ)]).FB.apply(lambda s: (s > 0).mean()).round(3).to_dict().__repr__())
+# ---- レビューで足した：問いごとの比（中央値の比は、問いごとにほぼ一定の時間の「8つの塊」の間の値になるため）
+pq = sel().groupby(["q", "design"]).sec.median().unstack()
+rr = (pq["d3"] / pq["d1"])
+out["per_question_ratio_d3_d1"] = dict(by_q=rr.round(4).to_dict(), median=round(rr.median(), 4), geomean=round(float(np.exp(np.log(rr).mean())), 4),
+    geomean_excl_Q6=round(float(np.exp(np.log(rr.drop("Q6")).mean())), 4), d1_q_sorted=pq["d1"].sort_values().round(2).to_dict())
+def ratio_med(df): m = df.groupby("design").sec.median(); return round(m["d3"] / m["d1"], 4)
+out["ratio_by_calc"] = dict(base=ratio_med(sel()), calc_M3=ratio_med(mental(sel()).assign(sec=lambda d: tsec(d))),
+    calc_M=ratio_med(calc_m(sel()).assign(sec=lambda d: tsec(d))), calc_0=ratio_med(calc_0(sel()).assign(sec=lambda d: tsec(d))))
+dq = decomp(sel()[sel().q != "Q6"]).groupby(sel()[sel().q != "Q6"].design).mean()
+out["calc_share_excl_Q6"] = (dq["計算"] / dq.sum(axis=1)).round(3).to_dict()
+out["q6_share_of_d1_mean"] = round(float(decomp(sel()[(sel().q == "Q6") & (sel().design == "d1")]).sum().sum() / decomp(sel()[sel().design == "d1"]).sum().sum()), 3)
 # ---- 問い直し：D3 に「水準」の部分を足した D4 で、想定外の問いの不利と想定内の問いの速さはどう変わるか（結果を見てから足した）
 rq = {}
 for vp in ["pc", "sp"]:
