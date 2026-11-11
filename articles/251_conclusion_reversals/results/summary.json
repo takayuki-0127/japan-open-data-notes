@@ -1,0 +1,18 @@
+{
+ "hyp_rows": 159,
+ "hyp_articles": 35,
+ "judge_counts": {
+  "支持": 107,
+  "外れ": 39,
+  "一部・保留": 1,
+  "その他（数値だけ等）": 12
+ },
+ "articles_with_any_miss": 25,
+ "review_articles": 40,
+ "review_items": 382,
+ "touch_items": 105,
+ "touch_articles": 38,
+ "touch_no_cause": 23,
+ "touch_reversed_words": 14,
+ "touch_weakened_words": 28
+}
