@@ -1,0 +1,387 @@
+{
+ "H1": {
+  "fy2025": {
+   "CAO": 0.506,
+   "BOJ": 0.794,
+   "HP1600": 0.841,
+   "CF": 0.993,
+   "HAM": 0.48,
+   "UC": 0.641,
+   "LIN": 0.614
+  },
+  "range": 0.513,
+  "max": [
+   "CF",
+   0.993
+  ],
+  "min": [
+   "HAM",
+   0.48
+  ],
+  "range_official_only": 0.287,
+  "range_stat_only": 0.513,
+  "verdict": "支持",
+  "range_by_fy": {
+   "2000": 1.976,
+   "2001": 0.893,
+   "2002": 1.279,
+   "2003": 1.693,
+   "2004": 1.66,
+   "2005": 0.895,
+   "2006": 0.905,
+   "2007": 1.975,
+   "2008": 2.433,
+   "2009": 1.451,
+   "2010": 2.551,
+   "2011": 3.652,
+   "2012": 1.009,
+   "2013": 1.545,
+   "2014": 1.324,
+   "2015": 1.137,
+   "2016": 0.636,
+   "2017": 1.184,
+   "2018": 0.871,
+   "2019": 1.251,
+   "2020": 1.847,
+   "2021": 1.194,
+   "2022": 4.069,
+   "2023": 1.842,
+   "2024": 0.984,
+   "2025": 0.513
+  },
+  "range_fy_median_2000_2025": 1.301,
+  "range_fy_min_2000_2025": [
+   2025,
+   0.513
+  ],
+  "range_fy_max_2000_2025": [
+   2022,
+   4.069
+  ],
+  "posthoc_range_excl_HAM": 0.486,
+  "posthoc_sd_fy_2000_2025": {
+   "CAO": 0.279,
+   "BOJ": 0.386,
+   "HP1600": 0.492,
+   "BK": 0.652,
+   "CF": 0.903,
+   "HAM": 1.41,
+   "UC": 0.061,
+   "LIN": 0.113
+  }
+ },
+ "H2": {
+  "split_share_all_methods": 0.594,
+  "n_quarters": 106,
+  "split_share_cao_vs_boj": 0.217,
+  "verdict": "支持",
+  "gap_corr": {
+   "CAO": {
+    "CAO": 1.0,
+    "BOJ": 0.838,
+    "HP1600": 0.952,
+    "BK": 0.886,
+    "CF": 0.712,
+    "HAM": 0.823,
+    "UC": 0.924,
+    "LIN": 0.931
+   },
+   "BOJ": {
+    "CAO": 0.838,
+    "BOJ": 1.0,
+    "HP1600": 0.711,
+    "BK": 0.713,
+    "CF": 0.547,
+    "HAM": 0.764,
+    "UC": 0.691,
+    "LIN": 0.74
+   },
+   "HP1600": {
+    "CAO": 0.952,
+    "BOJ": 0.711,
+    "HP1600": 1.0,
+    "BK": 0.92,
+    "CF": 0.832,
+    "HAM": 0.808,
+    "UC": 0.924,
+    "LIN": 0.921
+   },
+   "BK": {
+    "CAO": 0.886,
+    "BOJ": 0.713,
+    "HP1600": 0.92,
+    "BK": 1.0,
+    "CF": 0.924,
+    "HAM": 0.763,
+    "UC": 0.862,
+    "LIN": 0.859
+   },
+   "CF": {
+    "CAO": 0.712,
+    "BOJ": 0.547,
+    "HP1600": 0.832,
+    "BK": 0.924,
+    "CF": 1.0,
+    "HAM": 0.647,
+    "UC": 0.661,
+    "LIN": 0.661
+   },
+   "HAM": {
+    "CAO": 0.823,
+    "BOJ": 0.764,
+    "HP1600": 0.808,
+    "BK": 0.763,
+    "CF": 0.647,
+    "HAM": 1.0,
+    "UC": 0.773,
+    "LIN": 0.801
+   },
+   "UC": {
+    "CAO": 0.924,
+    "BOJ": 0.691,
+    "HP1600": 0.924,
+    "BK": 0.862,
+    "CF": 0.661,
+    "HAM": 0.773,
+    "UC": 1.0,
+    "LIN": 0.993
+   },
+   "LIN": {
+    "CAO": 0.931,
+    "BOJ": 0.74,
+    "HP1600": 0.921,
+    "BK": 0.859,
+    "CF": 0.661,
+    "HAM": 0.801,
+    "UC": 0.993,
+    "LIN": 1.0
+   }
+  },
+  "gap_2026Q2": {
+   "CAO": 0.7,
+   "BOJ": 0.55,
+   "HP1600": 0.266,
+   "BK": NaN,
+   "CF": -0.274,
+   "HAM": 2.274,
+   "UC": 0.258,
+   "LIN": 0.587
+  },
+  "gap_sd_2000_2026": {
+   "CAO": 1.84,
+   "BOJ": 1.365,
+   "HP1600": 1.613,
+   "BK": 1.543,
+   "CF": 1.395,
+   "HAM": 2.75,
+   "UC": 2.106,
+   "LIN": 2.103
+  },
+  "posthoc": {
+   "split_share_excl_HAM": 0.585,
+   "split_share_excl_HAM_CF": 0.453,
+   "clear_split_share_all": 0.349,
+   "clear_split_share_excl_HAM": 0.292
+  }
+ },
+ "H3": {
+  "mean_diff_cao_minus_boj": {
+   "pg": 0.073,
+   "tfp": 0.003,
+   "capital": 0.03,
+   "hours": 0.026,
+   "employed": 0.038
+  },
+  "mean_abs_diff": {
+   "pg": 0.269,
+   "tfp": 0.167,
+   "capital": 0.085,
+   "hours": 0.149,
+   "employed": 0.073
+  },
+  "abs_share": {
+   "tfp": 0.353,
+   "capital": 0.179,
+   "hours": 0.315,
+   "employed": 0.153
+  },
+  "verdict": "外れ",
+  "by_fy": {
+   "2010": {
+    "pg": 0.515,
+    "tfp": 0.042,
+    "capital": 0.229,
+    "hours": 0.225,
+    "employed": -0.008
+   },
+   "2011": {
+    "pg": 0.63,
+    "tfp": -0.042,
+    "capital": 0.374,
+    "hours": 0.326,
+    "employed": 0.021
+   },
+   "2012": {
+    "pg": 0.293,
+    "tfp": -0.093,
+    "capital": -0.014,
+    "hours": 0.304,
+    "employed": 0.095
+   },
+   "2013": {
+    "pg": 0.267,
+    "tfp": -0.112,
+    "capital": 0.063,
+    "hours": 0.219,
+    "employed": 0.072
+   },
+   "2014": {
+    "pg": 0.083,
+    "tfp": -0.074,
+    "capital": -0.047,
+    "hours": 0.138,
+    "employed": 0.066
+   },
+   "2015": {
+    "pg": -0.126,
+    "tfp": -0.032,
+    "capital": -0.095,
+    "hours": -0.027,
+    "employed": 0.029
+   },
+   "2016": {
+    "pg": -0.164,
+    "tfp": 0.077,
+    "capital": -0.009,
+    "hours": -0.16,
+    "employed": 0.003
+   },
+   "2017": {
+    "pg": -0.226,
+    "tfp": 0.192,
+    "capital": -0.03,
+    "hours": -0.291,
+    "employed": -0.072
+   },
+   "2018": {
+    "pg": -0.04,
+    "tfp": 0.304,
+    "capital": -0.093,
+    "hours": -0.107,
+    "employed": -0.144
+   },
+   "2019": {
+    "pg": 0.29,
+    "tfp": 0.355,
+    "capital": -0.12,
+    "hours": 0.131,
+    "employed": -0.051
+   },
+   "2020": {
+    "pg": 0.48,
+    "tfp": 0.292,
+    "capital": 0.02,
+    "hours": 0.03,
+    "employed": 0.113
+   },
+   "2021": {
+    "pg": 0.182,
+    "tfp": 0.093,
+    "capital": 0.105,
+    "hours": -0.143,
+    "employed": 0.203
+   },
+   "2022": {
+    "pg": -0.13,
+    "tfp": -0.108,
+    "capital": 0.036,
+    "hours": -0.105,
+    "employed": 0.146
+   },
+   "2023": {
+    "pg": -0.294,
+    "tfp": -0.248,
+    "capital": -0.031,
+    "hours": -0.084,
+    "employed": 0.068
+   },
+   "2024": {
+    "pg": -0.32,
+    "tfp": -0.279,
+    "capital": 0.024,
+    "hours": -0.067,
+    "employed": 0.025
+   },
+   "2025": {
+    "pg": -0.269,
+    "tfp": -0.33,
+    "capital": 0.063,
+    "hours": 0.03,
+    "employed": 0.043
+   }
+  },
+  "cao_fy2025": {
+   "pg": 0.525,
+   "tfp": 0.4,
+   "capital": 0.2,
+   "hours": -0.3,
+   "employed": 0.3
+  },
+  "boj_fy2025": {
+   "pg": 0.794,
+   "tfp": 0.73,
+   "capital": 0.137,
+   "hours": -0.33,
+   "employed": 0.256
+  },
+  "cao_sum_check_max_abs": 0.1,
+  "boj_sum_check_max_abs": 0.001
+ },
+ "H4": {
+  "by_method": {
+   "CF": {
+    "n": 77,
+    "mad_pseudo_vs_final": 0.575,
+    "mad_real_vs_final": 0.733,
+    "mad_revision_only": 0.387,
+    "mean_pseudo_minus_final": 0.149,
+    "mean_real_minus_final": 0.136,
+    "share_abs_gt_0.5_real": 0.597,
+    "max_abs_real": 2.344
+   },
+   "HAM": {
+    "n": 77,
+    "mad_pseudo_vs_final": 0.514,
+    "mad_real_vs_final": 0.571,
+    "mad_revision_only": 0.564,
+    "mean_pseudo_minus_final": 0.059,
+    "mean_real_minus_final": 0.106,
+    "share_abs_gt_0.5_real": 0.429,
+    "max_abs_real": 3.223
+   },
+   "HP1600": {
+    "n": 77,
+    "mad_pseudo_vs_final": 0.68,
+    "mad_real_vs_final": 0.809,
+    "mad_revision_only": 0.289,
+    "mean_pseudo_minus_final": 0.055,
+    "mean_real_minus_final": 0.047,
+    "share_abs_gt_0.5_real": 0.675,
+    "max_abs_real": 2.256
+   },
+   "UC": {
+    "n": 77,
+    "mad_pseudo_vs_final": 0.595,
+    "mad_real_vs_final": 0.675,
+    "mad_revision_only": 0.478,
+    "mean_pseudo_minus_final": -0.223,
+    "mean_real_minus_final": 0.001,
+    "share_abs_gt_0.5_real": 0.351,
+    "max_abs_real": 8.101
+   }
+  },
+  "verdict": "支持",
+  "note": "対象は2次速報の公表回、対象四半期 2004Q1〜2023Q2。最新のデータも公表回の前期比（小数1桁）から作り、丸めをそろえた",
+  "rounding_check_mad_hp": 0.0078
+ }
+}
