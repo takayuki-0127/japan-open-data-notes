@@ -1,0 +1,321 @@
+{
+ "annual_tau_pd": [
+  -0.055,
+  0.83
+ ],
+ "annual_halves_pd": [
+  5968.0,
+  4059.2,
+  0.68
+ ],
+ "annual_median_pd": [
+  3144.7,
+  2126.9
+ ],
+ "annual_tau_claims": [
+  -0.121,
+  0.591
+ ],
+ "annual_tau_sev": [
+  0.143,
+  0.518
+ ],
+ "annual_halves_claims": [
+  5.7,
+  3.3,
+  0.59
+ ],
+ "annual_halves_sev": [
+  107.2,
+  124.1,
+  1.16
+ ],
+ "top2_share_of_14y": 0.381,
+ "top3_share_of_14y": 0.487,
+ "total_real_oku_14y": 43837,
+ "top10_era": {
+  "1991〜2004年": {
+   "n": 3,
+   "mean_yen_pd": 10344,
+   "max_yen_pd": 15301,
+   "mean_claims_1000": 9.2,
+   "mean_real_man_claim": 113.5
+  },
+  "2014年以降": {
+   "n": 7,
+   "mean_yen_pd": 7287,
+   "max_yen_pd": 17446,
+   "mean_claims_1000": 5.9,
+   "mean_real_man_claim": 152.6
+  }
+ },
+ "mireille": {
+  "real_oku": 6778.0,
+  "yen_per_dwelling": 15301.0,
+  "claims_per_1000": 13.7,
+  "real_man_per_claim": 111.6,
+  "rank_real_pd": 2.0
+ },
+ "jebi": {
+  "real_oku": 10884.8,
+  "yen_per_dwelling": 17445.7,
+  "claims_per_1000": 13.7,
+  "real_man_per_claim": 127.0,
+  "rank_real_pd": 1.0
+ },
+ "hagibis": {
+  "real_oku": 5814.4,
+  "yen_per_dwelling": 9235.4,
+  "claims_per_1000": 4.7,
+  "real_man_per_claim": 197.0,
+  "rank_real_pd": 3.0
+ },
+ "price_1991_to_2018": 1.171,
+ "price_1991_to_2025": 1.463,
+ "cpi_1991_to_2025": 1.208,
+ "dwell_1991_to_2018": 1.409,
+ "sev_by_peril": {
+  "大雨": 225.0,
+  "突風": 147.7,
+  "台風": 108.0,
+  "雪": 100.0,
+  "ひょう": 76.2,
+  "低気圧・強風": 60.6
+ },
+ "tau_sev_events_台風": [
+  0.017,
+  0.928,
+  16
+ ],
+ "tau_sev_events_大雨": [
+  -0.242,
+  0.311,
+  12
+ ],
+ "robustness": [
+  {
+   "variant": "基準（住宅総合デフレーター・直線補間・全種目）",
+   "top10_new_over_old_mean": 0.7,
+   "top10_new_over_old_max": 1.14,
+   "mireille_rank_real_pd": 2,
+   "annual_tau": -0.055,
+   "annual_p": 0.83,
+   "fy12_18_mean_yen_pd": 5968.0,
+   "fy19_25_mean_yen_pd": 4059.2,
+   "halves_ratio": 0.68
+  },
+  {
+   "variant": "物価：建設総合デフレーター",
+   "top10_new_over_old_mean": 0.69,
+   "top10_new_over_old_max": 1.12,
+   "mireille_rank_real_pd": 2,
+   "annual_tau": -0.055,
+   "annual_p": 0.83,
+   "fy12_18_mean_yen_pd": 5998.3,
+   "fy19_25_mean_yen_pd": 4083.0,
+   "halves_ratio": 0.68
+  },
+  {
+   "variant": "物価：CPI総合",
+   "top10_new_over_old_mean": 0.78,
+   "top10_new_over_old_max": 1.25,
+   "mireille_rank_real_pd": 2,
+   "annual_tau": -0.055,
+   "annual_p": 0.83,
+   "fy12_18_mean_yen_pd": 5790.1,
+   "fy19_25_mean_yen_pd": 4156.8,
+   "halves_ratio": 0.72
+  },
+  {
+   "variant": "物価：CPI（持家の帰属家賃を除く総合）",
+   "top10_new_over_old_mean": 0.78,
+   "top10_new_over_old_max": 1.25,
+   "mireille_rank_real_pd": 2,
+   "annual_tau": -0.055,
+   "annual_p": 0.83,
+   "fy12_18_mean_yen_pd": 5807.6,
+   "fy19_25_mean_yen_pd": 4143.2,
+   "halves_ratio": 0.71
+  },
+  {
+   "variant": "物価：割り引かない（名目）",
+   "top10_new_over_old_mean": 0.82,
+   "top10_new_over_old_max": 1.33,
+   "mireille_rank_real_pd": 2,
+   "annual_tau": -0.055,
+   "annual_p": 0.83,
+   "fy12_18_mean_yen_pd": 5711.8,
+   "fy19_25_mean_yen_pd": 4241.7,
+   "halves_ratio": 0.74
+  },
+  {
+   "variant": "住宅数：直前の調査値のまま（階段）",
+   "top10_new_over_old_mean": 0.69,
+   "top10_new_over_old_max": 1.11,
+   "mireille_rank_real_pd": 2,
+   "annual_tau": -0.055,
+   "annual_p": 0.83,
+   "fy12_18_mean_yen_pd": 5968.0,
+   "fy19_25_mean_yen_pd": 4059.2,
+   "halves_ratio": 0.68
+  },
+  {
+   "variant": "範囲：火災・新種だけ（自動車・海上を除く）",
+   "top10_new_over_old_mean": 0.7,
+   "top10_new_over_old_max": 1.09,
+   "mireille_rank_real_pd": 2,
+   "annual_tau": -0.121,
+   "annual_p": 0.591,
+   "fy12_18_mean_yen_pd": 5377.2,
+   "fy19_25_mean_yen_pd": 3489.3,
+   "halves_ratio": 0.65
+  },
+  {
+   "variant": "範囲：自動車（車両）だけ",
+   "annual_tau": 0.253,
+   "annual_p": 0.233,
+   "fy12_18_mean_yen_pd": 465.7,
+   "fy19_25_mean_yen_pd": 569.9,
+   "halves_ratio": 1.22
+  },
+  {
+   "variant": "大きな事故を抜く：14年間の上位1事故を除く",
+   "annual_tau": -0.033,
+   "annual_p": 0.914,
+   "fy12_18_mean_yen_pd": 3472.8,
+   "fy19_25_mean_yen_pd": 4059.2,
+   "halves_ratio": 1.17
+  },
+  {
+   "variant": "大きな事故を抜く：14年間の上位2事故を除く",
+   "annual_tau": -0.055,
+   "annual_p": 0.83,
+   "fy12_18_mean_yen_pd": 3472.8,
+   "fy19_25_mean_yen_pd": 2736.6,
+   "halves_ratio": 0.79
+  },
+  {
+   "variant": "足切り：名目100億円以上の事故だけ",
+   "annual_tau": -0.055,
+   "annual_p": 0.83,
+   "fy12_18_mean_yen_pd": 5900.8,
+   "fy19_25_mean_yen_pd": 4039.5,
+   "halves_ratio": 0.68
+  }
+ ],
+ "big_events": {
+  "住宅総合デフレーター": [
+   4456,
+   3,
+   5,
+   0.136,
+   0.385,
+   0.133,
+   [
+    "平成30年台風21号",
+    "平成3年台風19号",
+    "令和元年台風19号",
+    "平成16年台風18号",
+    "令和元年台風15号",
+    "平成11年台風18号",
+    "平成26年2月雪害",
+    "平成30年台風24号"
+   ]
+  ],
+  "建設総合デフレーター": [
+   4537,
+   3,
+   5,
+   0.136,
+   0.385,
+   0.133,
+   [
+    "平成30年台風21号",
+    "平成3年台風19号",
+    "令和元年台風19号",
+    "平成16年台風18号",
+    "平成11年台風18号",
+    "令和元年台風15号",
+    "平成26年2月雪害",
+    "平成30年台風24号"
+   ]
+  ],
+  "CPI総合": [
+   4010,
+   3,
+   5,
+   0.136,
+   0.385,
+   0.133,
+   [
+    "平成30年台風21号",
+    "平成3年台風19号",
+    "令和元年台風19号",
+    "平成16年台風18号",
+    "令和元年台風15号",
+    "平成11年台風18号",
+    "平成26年2月雪害",
+    "平成30年台風24号"
+   ]
+  ],
+  "割り引かない": [
+   3734,
+   3,
+   5,
+   0.136,
+   0.385,
+   0.133,
+   [
+    "平成30年台風21号",
+    "平成3年台風19号",
+    "令和元年台風19号",
+    "令和元年台風15号",
+    "平成16年台風18号",
+    "平成11年台風18号",
+    "平成26年2月雪害",
+    "平成30年台風24号"
+   ]
+  ],
+  "住宅数を階段で": [
+   4664,
+   3,
+   5,
+   0.136,
+   0.385,
+   0.133,
+   [
+    "平成30年台風21号",
+    "平成3年台風19号",
+    "令和元年台風19号",
+    "平成16年台風18号",
+    "令和元年台風15号",
+    "平成11年台風18号",
+    "平成26年2月雪害",
+    "平成30年台風24号"
+   ]
+  ]
+ },
+ "big_events_x1.5": [
+  6684,
+  3,
+  3,
+  [
+   "平成30年台風21号",
+   "令和元年台風19号",
+   "平成3年台風19号",
+   "令和元年台風15号",
+   "平成16年台風18号",
+   "平成11年台風18号"
+  ]
+ ],
+ "big_events_x2.0": [
+  8911,
+  1,
+  2,
+  [
+   "平成30年台風21号",
+   "令和元年台風19号",
+   "平成3年台風19号"
+  ]
+ ]
+}
