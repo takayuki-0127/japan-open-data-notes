@@ -1,0 +1,149 @@
+{
+ "main_table": 15,
+ "main_meta": {
+  "地震動": "陸側",
+  "津波ケース": "①",
+  "季節時刻": "冬・深夜",
+  "風速": "風速8m/s",
+  "避難": "低"
+ },
+ "main_printed_total": 298000,
+ "main_2050": {
+  "base": 296840,
+  "size_only": 224197,
+  "both": 263885,
+  "eff_size": -78616,
+  "eff_age": 45661
+ },
+ "main_2050_by_cause": {
+  "建物倒壊": {
+   "base": 73450,
+   "size_only": 55894,
+   "both": 55894,
+   "eff_size": -17556,
+   "eff_age": 0
+  },
+  "津波": {
+   "base": 214010,
+   "size_only": 161092,
+   "both": 200780,
+   "eff_size": -58892,
+   "eff_age": 45661
+  },
+  "急傾斜地": {
+   "base": 590,
+   "size_only": 435,
+   "both": 435,
+   "eff_size": -155,
+   "eff_age": 0
+  },
+  "火災": {
+   "base": 8780,
+   "size_only": 6769,
+   "both": 6769,
+   "eff_size": -2011,
+   "eff_age": 0
+  },
+  "ブロック塀等": {
+   "base": 10,
+   "size_only": 8,
+   "both": 8,
+   "eff_size": -2,
+   "eff_age": 0
+  }
+ },
+ "H1_size_only_pct": -24.47,
+ "H1": true,
+ "H2_tsunami_offset_share": 0.775,
+ "H2": true,
+ "H3_net_pct": -11.1,
+ "H3": true,
+ "age_offset_share_total": 0.581,
+ "affected_pop_change_2050_pct_unweighted": -14.64,
+ "affected_65p_share": {
+  "2020": 27.8,
+  "2050": 36.1,
+  "2015": 26.1
+ },
+ "age_drift_2015_2020_pct": 3.37,
+ "H4": {
+  "published_2012": 323000,
+  "published_2025": 298000,
+  "observed_change": -25000,
+  "demographic_change_size": -14972,
+  "demographic_change_size_age": -1387,
+  "share_size": 0.599,
+  "share_size_age": 0.055,
+  "H4": false
+ },
+ "R1": {
+  "net_pct_min": -21.67,
+  "net_pct_max": -8.06,
+  "size_pct_min": -29.24,
+  "size_pct_max": -23.65,
+  "corr_tsunami_share_net": 0.853,
+  "n_net_le_-15": 56,
+  "n": 96
+ },
+ "robust": [
+  {
+   "case": "主（重み 0.34/0.62/1.79/2.81・2023推計・年齢基準2015）",
+   "size_pct": -24.47,
+   "net_pct": -11.1,
+   "offset": 0.581
+  },
+  {
+   "case": "R2a 65歳以上を一つに（2.30）",
+   "size_pct": -24.47,
+   "net_pct": -14.02,
+   "offset": 0.462
+  },
+  {
+   "case": "R2b 重みの強さを半分",
+   "size_pct": -24.47,
+   "net_pct": -17.57,
+   "offset": 0.312
+  },
+  {
+   "case": "R3 比較用：2023推計で2045年",
+   "size_pct": -20.25,
+   "net_pct": -8.0,
+   "offset": 0.632
+  },
+  {
+   "case": "R3 2018推計で2045年",
+   "size_pct": -20.19,
+   "net_pct": -8.29,
+   "offset": 0.616
+  },
+  {
+   "case": "R4 年齢の基準を2020年に",
+   "size_pct": -24.47,
+   "net_pct": -14.12,
+   "offset": 0.458
+  },
+  {
+   "case": "R5 主表で死者1,000人以上の都府県だけ（17）",
+   "size_pct": -24.51,
+   "net_pct": -11.02,
+   "offset": 0.585
+  }
+ ],
+ "reask": {
+  "main_evac_pct": -40.44,
+  "main_demog_pct": -11.1,
+  "evac_pct_range": [
+   -80.1,
+   -40.4
+  ],
+  "demog_pct_range_low_tables": [
+   -16.5,
+   -8.1
+  ],
+  "n_pairs": 48,
+  "n_evac_larger": 48,
+  "note": "事後に決めた比較",
+  "main_high_table": 14,
+  "main_high_table_2050_net_pct": -13.84
+ }
+}
