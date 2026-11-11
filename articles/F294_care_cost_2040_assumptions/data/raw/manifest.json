@@ -1,0 +1,44 @@
+[
+ {
+  "file": "kyufu14_09.xls",
+  "url": "https://www.mhlw.go.jp/toukei/saikin/hw/kaigo/kyufu/14/dl/09.xls",
+  "bytes": 1876480,
+  "md5": "4994cae4165bc9ec2d6b41f3196d2240"
+ },
+ {
+  "file": "kyufu19_09.xlsx",
+  "url": "https://www.mhlw.go.jp/toukei/saikin/hw/kaigo/kyufu/19/dl/09.xlsx",
+  "bytes": 207680,
+  "md5": "11c2d5aa20f727174b7120f27b313ec9"
+ },
+ {
+  "file": "kyufu24_09.xlsx",
+  "url": "https://www.mhlw.go.jp/toukei/saikin/hw/kaigo/kyufu/24/dl/09.xlsx",
+  "bytes": 557584,
+  "md5": "aa0f253d797fda4394e8a664f4e3ccd3"
+ },
+ {
+  "file": "kyufu25_09.xlsx",
+  "url": "https://www.mhlw.go.jp/toukei/saikin/hw/kaigo/kyufu/25/dl/09.xlsx",
+  "bytes": 224169,
+  "md5": "959673955780e30c4be7b5c946d6519d"
+ },
+ {
+  "file": "ipss_1-9A.xlsx",
+  "url": "https://www.ipss.go.jp/pp-zenkoku/j/zenkoku2023/db_zenkoku2023/s_tables/1-9a.xlsx",
+  "bytes": 46862,
+  "md5": "e1611b3a56c25c09311218256557ce0e"
+ },
+ {
+  "file": "ipss_4-9A.xlsx",
+  "url": "https://www.ipss.go.jp/pp-zenkoku/j/zenkoku2023/db_zenkoku2023/s_tables/4-9A.xlsx",
+  "bytes": 46637,
+  "md5": "63ae4e05e85202d2568011b934128f71"
+ },
+ {
+  "file": "ipss_7-9A.xlsx",
+  "url": "https://www.ipss.go.jp/pp-zenkoku/j/zenkoku2023/db_zenkoku2023/s_tables/7-9A.xlsx",
+  "bytes": 46747,
+  "md5": "dc0712caf6fae8e3bcaf44deee6e202a"
+ }
+]
