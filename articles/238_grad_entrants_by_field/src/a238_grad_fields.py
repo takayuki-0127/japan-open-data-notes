@@ -23,7 +23,7 @@ def main():
     S = {}
     for c in ["修士", "博士"]:
         p = d[d.課程 == c].pivot(index="year", columns="分類", values="計")
-        p.to_csv(RES / f"a238_{c}_entrants.csv")
+        p.to_csv(RES / f"a238_{ {'修士': 'master', '博士': 'doctor'}[c]}_entrants.csv")
         ch = (p.loc[2025] - p.loc[2000]).drop("計")
         S[c] = {"total": [int(p.loc[2000, "計"]), int(p.loc[2025, "計"])], "peak": [int(p["計"].idxmax()), int(p["計"].max())],
                 "min": [int(p["計"].idxmin()), int(p["計"].min())],
