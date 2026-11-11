@@ -1,0 +1,29 @@
+S1 done
+S2 done
+S3 done
+robust done
+{
+ "H1": {
+  "removed_share_M1": -0.45718561993372875,
+  "supported": true
+ },
+ "H2": {
+  "removed_share_M3": 0.8969700072981877,
+  "supported": false
+ },
+ "H3": {
+  "bias_pt": 2.9557189798890477,
+  "coverage": 0.0,
+  "supported": true
+ },
+ "H4": {
+  "tvd_inc_M2h": 0.028294376008579956,
+  "noise95_inc": 0.020222990272994068,
+  "bias_pt_M2h": 2.962164885582165,
+  "supported": false
+ },
+ "H5": {
+  "deff_M3": 1.2257090713500676,
+  "supported": false
+ }
+}
