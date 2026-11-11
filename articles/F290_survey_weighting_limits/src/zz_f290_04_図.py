@@ -100,6 +100,6 @@ ax[0].set_xlabel("副業ありの人の答えやすさ（オッズ比）"); ax[0
 ax[0].set_title("(a) 偏り", fontsize=10)
 ax[1].plot(h3.odds_ratio, h3.coverage * 100, "o-", color=C4); ax[1].axhline(95, ls="--", color="k", lw=0.8)
 ax[1].set_xlabel("副業ありの人の答えやすさ（オッズ比）"); ax[1].set_ylabel("95%区間が本当の値を含む割合（%）"); ax[1].set_title("(b) 区間の当たり方（5項目でレーキング）", fontsize=10)
-fig.suptitle("図6 問い直し：答えやすさが1.2倍で、補正後の偏りが区間の半幅を超える", fontsize=12)
+fig.suptitle("図6 問い直し：答えやすさが1.2倍で、補正後の区間の当たりは半分を下回る", fontsize=12)
 fig.tight_layout(); fig.savefig(FIG / "fig6_tipping_point.png", dpi=150); plt.close()
 print("figures ok")
