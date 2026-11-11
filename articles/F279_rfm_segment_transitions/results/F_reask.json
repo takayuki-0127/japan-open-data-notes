@@ -1,0 +1,68 @@
+{
+ "overall_rate": {
+  "2010-12-01": 0.4807782466010314,
+  "2011-01-01": 0.4760103994327582,
+  "2011-02-01": 0.48100070804814726,
+  "2011-03-01": 0.48503274087932646,
+  "2011-04-01": 0.502539242843952,
+  "2011-05-01": 0.5339335180055401,
+  "2011-06-01": 0.5691562932226832
+ },
+ "spearman_vs_first": [
+  1.0,
+  0.927,
+  0.964,
+  0.927,
+  0.891,
+  0.806,
+  0.83
+ ],
+ "spearman_adjacent_min": 0.7939393939393938,
+ "rate_diff_first_last": {
+  "Champions": 0.0898,
+  "Loyal": 0.1013,
+  "Potential loyalist": 0.1201,
+  "New": 0.125,
+  "Promising": 0.1873,
+  "Need attention": 0.0506,
+  "About to sleep": 0.0562,
+  "At risk": 0.0484,
+  "Can't lose": -0.0382,
+  "Hibernating": 0.0898
+ },
+ "lift_first": {
+  "Champions": 1.672,
+  "Loyal": 1.164,
+  "Potential loyalist": 0.778,
+  "New": 0.737,
+  "Promising": 0.661,
+  "Need attention": 0.724,
+  "About to sleep": 0.576,
+  "At risk": 0.873,
+  "Can't lose": 1.261,
+  "Hibernating": 0.44
+ },
+ "lift_last": {
+  "Champions": 1.57,
+  "Loyal": 1.162,
+  "Potential loyalist": 0.868,
+  "New": 0.842,
+  "Promising": 0.887,
+  "Need attention": 0.701,
+  "About to sleep": 0.586,
+  "At risk": 0.822,
+  "Can't lose": 0.998,
+  "Hibernating": 0.529
+ },
+ "lift_within_0p15": 8,
+ "rate_within_10pt": 6,
+ "nov_in_outcome": {
+  "2010-12-01": false,
+  "2011-01-01": false,
+  "2011-02-01": false,
+  "2011-03-01": false,
+  "2011-04-01": false,
+  "2011-05-01": false,
+  "2011-06-01": true
+ }
+}
