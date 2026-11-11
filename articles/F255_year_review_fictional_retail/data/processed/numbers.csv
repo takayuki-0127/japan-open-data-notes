@@ -1,0 +1,64 @@
+id,回,項目,値,単位,ファイル,場所
+N246_store_day_sales,F246,偶然の幅（95%）1店・日・売上の前年比,20.092800647425054,±%,results/C_noise_by_grain.csv,1店/日/売上
+N246_store_month_sales,F246,偶然の幅（95%）1店・月・売上の前年比,6.378920300457871,±%,results/C_noise_by_grain.csv,1店/月/売上
+N246_company_month_sales,F246,偶然の幅（95%）全社・月・売上の前年比,1.3302371413321483,±%,results/C_noise_by_grain.csv,全社/月/売上
+N246_store_month_op,F246,偶然の幅（95%）1店・月・営業利益の前年比,205.0094814782573,±%,results/C_noise_by_grain.csv,1店/月/営業利益
+N246_company_month_op,F246,偶然の幅（95%）全社・月・営業利益の前年比,11.54300092762447,±%,results/C_noise_by_grain.csv,全社/月/営業利益
+K246_exist_sales,F246,既存店売上の前年比 FY2025,2.9133294646269903,%,results/main.json,A_tree/売上/既存店_変化率
+K246_exist_op,F246,既存店営業利益の前年比 FY2025,-3.197244824323453,%,results/main.json,A_tree/営業利益/既存店_変化率
+D247_naive_allsales,F247,素朴に整えた全店売上の正解とのずれ,97.49233178856824,%,results/main.json,B/すべて素朴に（上の手当てをどれもしない）/全店売上_FY2025_正解とのずれ
+D247_naive_opyoy,F247,素朴に整えた既存店営業利益の前年比の正解とのずれ,8.433199810819126,pt,results/main.json,B/すべて素朴に（上の手当てをどれもしない）/既存店営業利益の前年比_正解とのずれ
+D247_ok_allsales,F247,正しく整えた全店売上の正解とのずれ,0.0,%,results/main.json,B/正しく整えたもの/全店売上_FY2025_正解とのずれ
+R248_top5_true,F248,店の例外：前年比の上下5店のうち本当に差がある割合,6.458333333333334,%,results/main.json,B/売上の前年比の上下5店（順位）/本当に差がある割合
+R248_rule_true,F248,店の例外：採用した選び方（3σ か 3か月1σ）のうち本当に差がある割合,78.45429119641342,%,results/main.json,B/採用：今月 3σ か 3か月続けて 1σ/本当に差がある割合
+R248_rule_found,F248,店の例外：採用した選び方で本当の差を見つけた割合,63.06547619047619,%,results/main.json,B/採用：今月 3σ か 3か月続けて 1σ/見つけた割合
+R248_raw_moved,F248,全社KPI：前年比のままの「流れが変わった」（1か月あたり）,3.3541666666666665,件,results/main.json,C/前年比そのまま/流れが変わった
+R248_raw_explain,F248,全社KPI：前年比のまま、ツリーでまとめた後に説明すること（1か月あたり）,1.2125,件,results/main.json,C/前年比そのまま/説明すること（ツリーでまとめた後）
+R248_mkt_explain,F248,全社KPI：市場との差＋ツリーで説明すること（1か月あたり）,0.8625,件,results/main.json,C/採用：市場との差（客数・既存店売上）/説明すること（ツリーでまとめた後）
+R248_close5_noflag,F248,速報5日締め：予告がなければ確定で変わって見える判定（12か月計）,15.0,件,results/main.json,D/5/予告がない場合_合計
+R248_close5_after,F248,速報5日締め：保留と「境目」の後、予告なしで変わった判定,0.0,件,results/main.json,D/5/予告なし_合計
+N248_company_month_sales,F248,偶然の幅（95%）全社・月・売上（全店）の前年比,1.423643086452226,±%,results/A_noise_widths.csv,K10/width_1.96
+N248_store_month_sales,F248,偶然の幅（95%）1店・月・売上の前年比,6.540129069023696,±%,results/A_noise_widths.csv,S_sales/width_1.96
+V249_fixed_false,F249,店×月：決めた線（±3pt）で差のない郊外の店に色がつく割合,36.54761904761904,%,results/D_noise_flags_20seeds.csv,売上の前年比の全社との差/店×月/決めた線（売上3pt・廃棄率0.1pt）/郊外
+V249_band_false,F249,店×月：偶然の幅で差のない郊外の店に色がつく割合,5.11904761904761,%,results/D_noise_flags_20seeds.csv,売上の前年比の全社との差/店×月/偶然の幅（1.96σ）/郊外
+V249_band_month_hit,F249,店×月：偶然の幅で地方の店（差あり）に正しい色がつく割合,8.974358974358971,%,results/D_noise_flags_20seeds.csv,売上の前年比の全社との差/店×月/偶然の幅（1.96σ）/地方
+V249_band_12m_hit,F249,店×12か月：偶然の幅で地方の店（差あり）に正しい色がつく割合,60.71428571428571,%,results/D_noise_flags_20seeds.csv,売上の前年比の全社との差/店×12か月/偶然の幅（1.96σ）/地方
+N249_company_month_sales,F249,偶然の幅（95%）全社・月・売上の前年比,1.3492287302277823,±%,results/E_bands_company_area.csv,全社/月/売上
+N249_store_month_sales,F249,偶然の幅（95%）店×月・売上の全社との差,6.4227108657069305,±%,results/D_noise_flags_20seeds.csv,売上の前年比の全社との差/店×月/偶然の幅
+E250_sales_yoy,F250,2026年3月 既存店売上の前年比,-1.1343256375923927,%,results/main.json,target_values/sales_yoy
+E250_calendar,F250,2026年3月 暦（曜日の並び）の寄与,-0.8915737588769294,pt,results/main.json,target_values/c_calendar
+E250_receipts_adj,F250,2026年3月 暦を除いた客数の寄与,-3.0509465650063854,pt,results/main.json,target_values/c_receipts_adj
+E250_chance_items,F250,31項目のうち偶然だけで幅の外に出る数（平均）,3.1,項目,results/main.json,robustness/chance_beyond_band_per_seed/mean
+N250_company_month_sales90,F250,偶然の幅（90%）全社・2026年3月・売上の前年比,1.1238948759003706,±%,results/main.json,target_band90_half/sales_yoy
+N250_store_month_sales90,F250,偶然の幅（90%）1店・月・売上の前年比（店の中央値）,5.224409784074211,±%,results/main.json,store_band90_half_median
+P251_bias_前年比,F251,販促：前年比の偏り（弱い店を選んだとき、20通りの平均）,3.622469209180288,pt,results/main.json,error_summary/weak_eff|M2_前年比/bias
+P251_neg_前年比,F251,販促：前年比で黒字の販促が赤字に見えた数（20通り中）,0.0,通り,results/main.json,money_error/M2_前年比/net_neg
+P251_rbias_前年比,F251,販促：前年比の偏り（店を無作為に選んだとき）,4.560805290138531,pt,results/main.json,error_summary/random_eff|M2_前年比/bias
+P251_bias_前年比の差,F251,販促：前年比の差の偏り（弱い店を選んだとき、20通りの平均）,-1.4624074300215706,pt,results/main.json,error_summary/weak_eff|M3_前年比の差/bias
+P251_neg_前年比の差,F251,販促：前年比の差で黒字の販促が赤字に見えた数（20通り中）,7.0,通り,results/main.json,money_error/M3_前年比の差/net_neg
+P251_rbias_前年比の差,F251,販促：前年比の差の偏り（店を無作為に選んだとき）,-0.2038731478887612,pt,results/main.json,error_summary/random_eff|M3_前年比の差/bias
+P251_bias_差の差,F251,販促：差の差の偏り（弱い店を選んだとき、20通りの平均）,-0.6390206482169314,pt,results/main.json,error_summary/weak_eff|M4_DiD/bias
+P251_neg_差の差,F251,販促：差の差で黒字の販促が赤字に見えた数（20通り中）,1.0,通り,results/main.json,money_error/M4_DiD/net_neg
+P251_rbias_差の差,F251,販促：差の差の偏り（店を無作為に選んだとき）,-0.39298163233569827,pt,results/main.json,error_summary/random_eff|M4_DiD/bias
+P251_bias_合成対照,F251,販促：合成対照の偏り（弱い店を選んだとき、20通りの平均）,-0.28535805733960085,pt,results/main.json,error_summary/weak_eff|M6_合成対照/bias
+P251_neg_合成対照,F251,販促：合成対照で黒字の販促が赤字に見えた数（20通り中）,1.0,通り,results/main.json,money_error/M6_合成対照/net_neg
+P251_rbias_合成対照,F251,販促：合成対照の偏り（店を無作為に選んだとき）,-0.47682556694285344,pt,results/main.json,error_summary/random_eff|M6_合成対照/bias
+P251_truth_net,F251,販促：答えの差し引き,8230647.2166000195,円,results/main.json,truth/net
+F252_cov_ets,F252,予算：ETS の80%区間に実際が入った割合（自社の過去260回）,19.6,%,results/main.json,C_coverage/①モデルの区間/ETS
+F252_cov_sarima,F252,予算：SARIMA の80%区間に実際が入った割合（自社の過去260回）,57.3,%,results/main.json,C_coverage/①モデルの区間/SARIMA
+F252_cov_borrow,F252,予算：業界の外れ＋自社の揺れの80%幅に実際が入った割合（自社の過去260回）,82.7,%,results/main.json,C_coverage/③業界の外れ＋自社の揺れ/季節ナイーブ＋伸び
+F252_check_diff,F252,予算の答え合わせ：2026年4〜8月の売上累計の予算との差,-2.6569685590107417,%,results/main.json,E_check/cum5_diff_pct
+F252_check_lo,F252,予算の答え合わせ：見直しの線（下）,-1.888153737736109,%,results/main.json,E_check/range5_pct/0
+F252_check_hi,F252,予算の答え合わせ：見直しの線（上）,1.9244910881494048,%,results/main.json,E_check/range5_pct/1
+F252_ind_before,F252,業界（スーパー）の前年比：2026年3月までの12か月,4.132305158786909,%,results/main.json,E_check/industry_yoy_12m_to_2026-03
+F252_ind_after,F252,業界（スーパー）の前年比：2026年4〜8月,1.3590812065071622,%,results/main.json,E_check/industry_yoy_apr_aug_2026
+F252_op_diff,F252,予算の答え合わせ：営業利益（4〜8月）の予算との差,-22.384883752693852,%,results/main.json,E_check/op5_diff_pct
+F252_check_季節ナイーブ,F252,予算の答え合わせ：季節ナイーブで作っていた場合の差,-0.05969455106212829,%,results/main.json,E_check/by_model_diff_pct/季節ナイーブ
+F252_check_ETS,F252,予算の答え合わせ：ETSで作っていた場合の差,-1.2742144412439593,%,results/main.json,E_check/by_model_diff_pct/ETS
+F252_check_SARIMA,F252,予算の答え合わせ：SARIMAで作っていた場合の差,-1.5188763542437034,%,results/main.json,E_check/by_model_diff_pct/SARIMA
+Q253_detect,F253,"品質チェック8つで見つけた汚れの割合（4,800個）",97.9375,%,results/summary.json,detect_overall
+Q253_fixed,F253,決めた範囲だけのチェックで見つけた割合,48.95833333333333,%,results/summary.json,fixed_range_overall
+Q253_clean_fa,F253,汚れのない月の誤報（1か月あたり店×日）,0.32083333333333336,件,results/summary.json,clean_store_days_per_month
+Q253_partial,F253,見つけにくかった汚れ：途中までしか入らない,81.67,%,results/summary.json,detect_by_type/欠測：途中までしか入らない
+Q253_x13,F253,売上・客数・点数がそろって1.3倍になる汚れを見つけた割合,1.5752006212787988,%,results/summary.json,detect_x13_T15_abc
+Q253_fa_a_only,F253,参照を前の8週だけにしたときの誤報（売上・客数・点数、1か月）,6.23125,件,results/summary.json,pos3_fa_T15/a
