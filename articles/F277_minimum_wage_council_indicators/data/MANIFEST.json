@@ -1,0 +1,9 @@
+{
+ "boj_tankan_sme.json": "382798e4ba29fbddcdbf37115023a306",
+ "cpi_ex_imputed_rent_monthly.csv": "564f037742adfe8a80b3308b65cfee04",
+ "jil_mw_weighted_avg.csv": "9a5a9a1a94c5bfcefeb14c13484da485",
+ "jil_springwage.csv": "59974d5c325c6c00729adb617e80ac8f",
+ "mw_add_on_over_meyasu_2016_2025.csv": "2fc0871b52c8e40107db28562ac4b46e",
+ "t4_rate.csv": "2e3dff5745b6a5e5c36087f107031516",
+ "_boj_api": "https://www.stat-search.boj.or.jp/api/v1/getDataCode?format=json&lang=jp&db=CO&startDate=200201&endDate=202604&code=TK99F0000601GCQ03000,TK99F0000608GCQ03000"
+}
