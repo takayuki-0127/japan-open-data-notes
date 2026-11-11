@@ -1,0 +1,115 @@
+{
+ "H4_growth": {
+  "spearman_ambition_growth": 0.014394710956526894,
+  "p_two_sided": 0.9148042597870106,
+  "n": 56,
+  "null_for_achieve": {
+   "observed": -0.5730465885550706,
+   "null_mean": -0.5677608671037911,
+   "null_q025": -0.7123008509829052,
+   "null_q975": -0.40507316411289873,
+   "p_one_sided_le_observed": 0.48772561371931406
+  },
+  "median_growth_ambition_le1": 0.9750972762645914,
+  "median_growth_ambition_ge11": 0.923469387755102,
+  "n_ambition_le1": 17,
+  "n_ambition_ge11": 21
+ },
+ "H4_growth_robustness": {
+  "R1 3年度平均": {
+   "spearman": 0.03437594068903922,
+   "p_two_sided": 0.8022395520895821,
+   "n": 56
+  },
+  "R5 魚介類を除く": {
+   "spearman": 0.07321141530349311,
+   "p_two_sided": 0.6172765446910617,
+   "n": 52
+  },
+  "R5 牛肉・豚肉を除く": {
+   "spearman": 0.058273605226778644,
+   "p_two_sided": 0.6918616276744651,
+   "n": 48
+  },
+  "R5 2010年計画を除く": {
+   "spearman": 0.06229204768529608,
+   "p_two_sided": 0.6890621875624875,
+   "n": 42
+  }
+ },
+ "H4_with_feed_crop_reference": {
+  "rows": [
+   {
+    "plan": "H12",
+    "item": "飼料作物",
+    "base": 394,
+    "target": 508,
+    "actual": 362.5,
+    "target_fy": 2010,
+    "ambition": 1.289,
+    "achieve": 0.714,
+    "growth": 0.92
+   },
+   {
+    "plan": "H17",
+    "item": "飼料作物",
+    "base": 352,
+    "target": 524,
+    "actual": 380.3,
+    "target_fy": 2015,
+    "ambition": 1.489,
+    "achieve": 0.726,
+    "growth": 1.08
+   },
+   {
+    "plan": "H22",
+    "item": "飼料作物",
+    "base": 435,
+    "target": 527,
+    "actual": 361.7,
+    "target_fy": 2020,
+    "ambition": 1.211,
+    "achieve": 0.686,
+    "growth": 0.831
+   },
+   {
+    "plan": "H27",
+    "item": "飼料作物",
+    "base": 350,
+    "target": 501,
+    "actual": 344.6,
+    "target_fy": 2025,
+    "ambition": 1.431,
+    "achieve": 0.688,
+    "growth": 0.985
+   }
+  ],
+  "spearman_ambition_achieve": -0.6054461430367967,
+  "spearman_ambition_growth": 0.04731614521708913,
+  "p_two_sided": 0.7264547090581883,
+  "n": 60,
+  "reached": 12
+ },
+ "H2_denominator_total": {
+  "total_shortfall_kcal": 209.99999999999994,
+  "share_livestock_fish": 0.3957208563426162,
+  "share_rice": 0.1834129985751943,
+  "share_livestock": 0.23372756728161292,
+  "share_fish": 0.1619932890610033
+ },
+ "R3_feed": {
+  "livestock_shortfall_kcal": 47.3700793781813,
+  "from_production": 2.022047626908786,
+  "from_feed": 45.348031751272515,
+  "base_livestock_shortfall_kcal": 49.0827891291387,
+  "base_from_feed": 46.033115651655486
+ },
+ "reask_rounding": {
+  "n_windows": 56,
+  "median_abs_q975_dev_pt": 1.6943077276469698,
+  "max_abs_q975_dev_pt": 2.3485799931026725,
+  "max_window_q975": 9.394298206135547,
+  "share_sims_any_window_ge_17_5": 0.0,
+  "note": "1965〜2023年度の国産熱量は、自給率（整数）×総供給熱量の近似（2024・2025年度だけ公表値）"
+ }
+}
