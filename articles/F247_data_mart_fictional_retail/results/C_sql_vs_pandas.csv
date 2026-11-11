@@ -1,0 +1,4 @@
+﻿table,rows_sql,rows_pd,only_one_side,max_abs_diff
+mart_fact_store_day,32325,32325,0,2.3283064365386963e-10
+mart_fact_store_day_dept,226275,226275,0,0.0
+mart_store_month,1062,1062,0,3.725290298461914e-09
