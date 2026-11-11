@@ -91,24 +91,28 @@
    "2024-09": {
     "n": 30,
     "pearson": 0.352,
+    "p": 0.056,
     "spearman": 0.276,
     "slope_pt_per_point": 4.274
    },
    "2025-03": {
     "n": 30,
     "pearson": 0.712,
+    "p": 0.0,
     "spearman": 0.752,
     "slope_pt_per_point": 8.892
    },
    "2025-09": {
     "n": 30,
     "pearson": 0.66,
+    "p": 0.0,
     "spearman": 0.584,
     "slope_pt_per_point": 8.493
    },
    "2026-03": {
     "n": 32,
     "pearson": 0.631,
+    "p": 0.0,
     "spearman": 0.638,
     "slope_pt_per_point": 9.387
    }
@@ -118,9 +122,14 @@
    "pearson": 0.135,
    "spearman": 0.14,
    "slope_pt_per_point": 1.403,
-   "p": 0.476
+   "p": 0.476,
+   "pearson_ci95": [
+    -0.237,
+    0.472
+   ],
+   "sd_score_change": 0.434
   },
-  "robust_2026-03_excl_new_and_truck": {
+  "robust_2026-03_excl_new_and_lowest": {
    "n": 29,
    "pearson": 0.496,
    "slope": 7.029
@@ -210,12 +219,14 @@
    "ratio_iqr_to_tier": 0.786,
    "common_industries_n": 27,
    "ratio_range_common": 3.237,
-   "ratio_range_excl_truck": 2.649
+   "ratio_range_excl_lowest": 2.649
   }
  },
  "H5": {
   "全産業": {
    "mean_sme_minus_large_since2021": -12.391,
+   "quarterly_sd_since2021": 1.588,
+   "welch_p_early_vs_late": 0.194,
    "early_2021_22": -11.75,
    "late_2025_26": -12.857,
    "pre_2010_19": -14.075,
@@ -280,6 +291,8 @@
   },
   "製造業": {
    "mean_sme_minus_large_since2021": -13.043,
+   "quarterly_sd_since2021": 1.364,
+   "welch_p_early_vs_late": 0.264,
    "early_2021_22": -12.5,
    "late_2025_26": -13.429,
    "pre_2010_19": -15.6,
@@ -344,6 +357,8 @@
   },
   "非製造業": {
    "mean_sme_minus_large_since2021": -12.696,
+   "quarterly_sd_since2021": 2.42,
+   "welch_p_early_vs_late": 0.359,
    "early_2021_22": -13.5,
    "late_2025_26": -12.286,
    "pre_2010_19": -14.275,
@@ -440,6 +455,33 @@
    "beta_p": 0.056,
    "beta_r": -0.373
   },
+  "same_period_2023-09_to_2026-03": {
+   "ols_slope": -0.288,
+   "ols_p": 0.013,
+   "iv_slope_inst_2023-03": -0.284
+  },
   "mean_abs_round_change": 3.748
+ },
+ "response_counts": {
+  "2023-09": {
+   "responding_firms": 36102,
+   "tier_table_n": null
+  },
+  "2024-09": {
+   "responding_firms": 51282,
+   "tier_table_n": 33377
+  },
+  "2025-03": {
+   "responding_firms": 65725,
+   "tier_table_n": 64299
+  },
+  "2025-09": {
+   "responding_firms": 69988,
+   "tier_table_n": 53799
+  },
+  "2026-03": {
+   "responding_firms": 69625,
+   "tier_table_n": 76339
+  }
  }
 }
