@@ -1,0 +1,63 @@
+article,line,予測・重要度は因果ではない,ほかの理由で同時に動いた可能性,集計・記述にとどまる,地域の関係を個人に当てはめない,手法の前提に頼る
+000_women_labor,1. **因果は言えない**：観察データの横断分析なので、「保育所を増やせば働く女性が増える」のか「働く女性が多いから保育所が増えた」のかを区別できない,False,False,False,False,False
+001_income_municipal,1. **因果は言えない**：所得の高い人が街を選んで住む（逆の向き）可能性があり、「大卒を増やせば所得が上がる」とは言えない,False,True,False,False,False
+008_migration_income,- 観察データの横断分析なので、因果は言えない。「条件をそろえると消える」は「その条件で説明できる」という意味で、「関係がない」の証明ではない,False,False,False,False,False
+021_prefcapital_food,- どれも都道府県（または県庁所在市）単位の関係で、個人には当てはめられない。因果も言えない,False,False,False,True,False
+027_video_viewers_age,- どれも集計表からの記述で、因果ではありません,False,False,True,False,False
+055_temperature_records,- 短時間強雨の回数は、年による変動が大きく、50年分のデータで推定しています。気温との関係は相関で、因果を示すものではありません,False,False,False,False,False
+113_fish_catch,- 海面水温との相関は、因果関係を示すものではありません。両方とも上がっている系列どうしは、関係がなくても水準の相関が高くなります,False,True,False,False,False
+224_rd_productivity,- 相関や回帰の係数は因果ではありません。生産性が高く利益の出る業種が研究開発にお金を回している、という逆向きの関係もありえます,False,True,False,False,False
+242_limits_section_writing,- 見直しで直したこと：40本・382項目（1本あたり中央値9）。項目に占める割合は、計画（PLAN）との対応 25%（38本）、定義・前提・範囲を書いた 17%（29本）、（推測）を足した 15%（34本）、図・表示 15%（31本）、言い過ぎ・一般化を弱めた 10%（26本）、数字・計算の誤り 6%（19本）、事後の分析だと明記 5%（12本）、因果の言い方 1%（3本）,False,False,False,False,True
+F03_land_price_ml,- SHAP・部分依存はモデルの予測への寄与で、因果効果ではありません,True,False,False,False,False
+F05_medical_cost_hierarchical,- 病床数との関係は県単位の相関で、病床を減らせば医療費が下がるという因果は言えない,False,False,False,False,False
+F101_price_wage_cointegration,- 2013年以降の「物価がずれを埋める」は、因果（賃金が上がると物価が上がる）を示していない。消費税・エネルギー価格・補助金など、賃金と関係のない物価の動きが重なっている。,False,False,False,False,False
+F104_gp_power_temperature,- 気温と需要の関係は因果の大きさそのものではありません。また、成分の分け方で1℃あたりの大きさが変わり（3.3%と4.4%）、どちらが正しいかはこのデータでは決められません。,False,False,False,False,False
+F107_gcn_municipal,- 予測の当たり方を比べただけで、どの指標が出生率を上げる・下げるという因果は言えない。特定の市区町村の良し悪しを示すものでもない,True,False,False,False,False
+F117_nonresponse_weighting,- 回収率の年ごとの数字は資料によって出し方が違い（1996・2003年は論文の本文、2019・2024・2025年は回収客体数÷調査客体数で計算）、年によっては簡易調査と大規模調査の違いもある。回収率と構成のずれの関係を、因果として言うことはできない。,False,False,False,False,False
+F118_childcare_fertility_synthesis,- **どの比べ方が正しいかは決められない**。どれも観察データで、見えない交絡（若い共働き世帯の転入、待機児童対策の時期のずれなど）は残る。どの推定も「保育所を増やすと出生率がこれだけ変わる」という因果の値ではない,False,True,False,False,False
+F122_pitfalls_from_logs,看板記事 F122。これまでに作った看板記事 F01〜F120（F24・F30 を除く118本）の README と作業ログから、「設計から変えたこと」401項目と「言えないこと」568項目を1行ずつ取り出し、キーワードの辞書でカテゴリに分けて数えた。手法の系統（因果推論・時系列・空間など）ごとに、どこでつまずきやすかったかを並べる。自分の作業の振り返りで、新しいデータは取っていない。,False,False,False,False,False
+F122_pitfalls_from_logs,| 因果・交絡 | 58% |,False,True,False,False,False
+F122_pitfalls_from_logs,- 因果推論（25本）：「集計単位・個人には当てはまらない」64%（全体 52%）、設計の変更では「粒度・単位を変えた」48%（全体 31%）,False,False,True,True,False
+F125_null_results_review,- 記事の選び方（どの問いを取り上げたか）自体が結果に影響しています。たとえば因果推論の記事は「効いたのか？」を問うので、見えなかった場合も記事になります。,False,False,False,False,False
+F128_rent_distance,- 「距離が家賃を決める」という因果の話ではありません。都心からの距離・駅の近さ・人口密度・所得は互いに強く結びついていて、どれがどれだけ家賃を決めているかは分けきれません。,False,False,False,False,False
+F12_stats_pipeline,- ダッシュボードは数字の記述で、物価・賃金・雇用のあいだの因果は言えない,False,False,True,False,False
+F133_export_gravity,- EPA の係数は、どの国と EPA を結ぶかが貿易の多さで決まる面があるため、因果の効果とは言えません。国の中の変化で見ると、効果ははっきりしませんでした。,False,False,False,False,False
+F134_renewable_diffusion,- 日照との関係は県単位の相関で、日照が導入を増やした（因果）とまでは言えない。補助金・電力会社の接続条件・屋根の向きなど、入れていない要因がある,False,True,False,False,False
+F139_side_job_loglinear,- 因果ではない。「非正規だから副業をする」のか、「副業をしたいから非正規を選ぶ」のかは分からない。,False,False,False,False,False
+F13_unemployment_forecast,- 予測が当たることと、失業の仕組みを理解したことは別。重要度は「予測に使われた」ことを示すだけで、因果ではない。,True,False,False,False,False
+F144_water_tariff_density,- 回帰は関連を示すだけで、密度を上げれば料金が下がるという因果は言えない,False,False,False,False,False
+F151_pref_hierarchical_dfm,- 県どうしの動きの因果（どの県が先に動くか）は見ていない。,False,False,False,False,False
+F155_multiverse,- 問いA・B とも、因果効果を示すものではありません。前提（並行トレンド、条件付きの独立性）は、元の記事 F01・F100 と同じです。,False,False,False,False,True
+F158_land_price_update,- 重要度（SHAP）は「モデルが何を手がかりにしたか」で、地価を動かした原因ではありません。人口増減率の効きが強まったことは、人口が増える市区町村ほど地価が上がりやすくなったことと整合しますが、因果は言えません。,True,False,False,False,False
+F164_figures_and_reads,- 因果は言えない。図の枚数は、記事の型・字数・タイトルの長さ・公開時期・ハッシュタグと一緒に動いていて、分けられない。,False,False,False,False,False
+F170_compositional_industry_shares,- 産業構成が地方税を「増やす」という因果は言えない。人口規模・都市か地方か・企業の本社の場所など、ほかの違いを入れていない。,False,False,False,False,False
+F179_imputation_by_estimand,7. 回帰係数は1時点の地域の比較です。第3次産業の割合が地方税を決めるという因果は言えません。特定の市区町村の評価もしていません。,False,True,False,False,False
+F181_housing_starts_rates_population,- 「金利が着工を決めた」という因果は言えない。金利は景気とともに動き、景気そのものが着工を動かす。VAR の分解は、並べ順や変数の選び方の仮定の上の数字である,False,False,True,False,True
+F195_night_lights_gdp,- **光と生産の因果**：光は生産の結果でも原因でもなく、人口・建物・道路の明るさをまとめて測っている。この分析は「光で生産の大きさを当てられるか」で、光を増やすと生産が増えるとは言えない。,False,False,False,False,False
+F19_small_area_fh,- 受診率の違いの原因は分からない。人口密度などとの関係は「条件をそろえた関連」で、因果ではない,False,False,False,False,False
+F203_births_marriage_series_part1,- **因果ではない**：分解は「どちらの数字が動いたか」の会計で、なぜ結婚が減ったか、なぜ夫婦の出生率が上がったかは示さない。,False,False,True,False,False
+F207_landprice_series_part1,- **駅の効き方は因果ではない**：回帰の係数も LightGBM の差も、「駅に近い地点は高い」という関係で、駅を動かしたときの効果ではない,False,False,False,False,False
+F208_landprice_series_part2,- **連動は因果ではない**：「地価が上がるとマンションが上がる」のか、その逆か、両方を動かす別の要因かは分けられない。地価公示は年1回の鑑定評価で、取引価格より遅れて動く可能性がある（推測）,False,True,False,False,False
+F234_price_elasticity_practice,- **因果とは言い切れない。** 前年差＋年の効果でも、値上げの年に需要が別の理由で変わった分（流行・健康志向・品質の変化）は残る。操作変数で切り分けようとしたが、1段目が弱く（F 4.8〜10.2）、使えなかった。,False,True,False,False,True
+F241_customer_churn_survival,- 解約の理由は分からない。Cox のハザード比は関連であって、「光回線をやめさせれば解約が減る」という因果ではない（光回線の人ほど料金が高い・競合が多いなどが混ざる）,False,False,False,False,False
+F243_kpi_tree_decomposition,- 寄与の分け方に「正解」はない。シャープレイ値は順番の平均を取るという約束で、因果の大きさを示すものではない。,True,False,False,False,False
+F246_kpi_definitions_fictional_retail,- 「店で動かせるか」と KPI の選び方は筆者の判断。相関は因果ではない。,False,False,False,False,False
+F257_wage_spillover_whitepaper,- **因果は分からない**。大企業の賃上げが中小に「波及した」のか、同じ人手不足と物価高で同時に上がったのかは、この集計では分けられない。,False,True,True,False,False
+F262_births_record_low_decomposition,- **因果ではなく会計の分け方**：「女性の数の効果」は、率を固定したときの機械的な計算。女性の数が減ると率が変わる、といった関係は入っていない。,False,False,True,False,False
+F264_auto_accident_rate_aging,- 集計の分け方の話で、因果（高齢化が事故を増やした・減らした）を示すものではない。年齢ごとの率が下がった理由（車の安全装置、道路、取り締まりなど）も分けていない。,False,False,True,False,False
+F267_kpi_target_allocation_cvs,- 目標の立て方の話で、施策の因果は扱っていない。,False,False,False,False,False
+F269_sme_price_passthrough,- 交渉の点と転嫁率の相関は業種の単位のもので、交渉したから転嫁できたという因果ではない。,False,False,False,False,False
+F274_labor_shortage_bankruptcy_rate,- 人手不足が倒産を増やしたという因果は扱っていない。政策の評価もしていない。,False,False,False,False,False
+F277_minimum_wage_council_indicators,- 問い直しの係数は因果の大きさではない,False,False,False,False,False
+F27_disease_map_bym2,1. 死亡率の地域差の原因は分かりません。共変量の係数も関連で、因果ではありません。,False,False,False,False,False
+F282_yen_exports_quantity_price,- 因果は言えない（世界の物価、半導体・自動車の供給制約、中国の景気などが同時に動いている。2012〜2015年も生産の海外移転や中国・新興国の減速があった（推測））。,False,True,False,False,False
+F286_household_saving_items,- 因果（値上がりが量を減らした）は言えない。需要の流れ、健康志向、世帯の構成の変化（高齢化・世帯人員の減少）も入る。,False,False,False,False,False
+F289_ict_capital_productivity,- 相関は因果ではありません。生産性が高く利益の出る産業ほどICTに投資できる、という逆の向きもありえます,False,True,False,False,False
+F31_retirement_rdd,- 段差の理由（定年・継続雇用の終わり・年金の支給開始・本人の希望）は分けられない。60歳から65歳への移り方は制度改正の時期と合っているが、因果の大きさを制度ごとに切り分けたものではない,False,False,False,False,False
+F32_income_quantile,- 横断の観察データなので、因果は言えない（大卒の割合が上がれば所得が上がる、という意味ではない）,False,False,False,False,False
+F41_missing_data_mi,3. 1時点の地域の比較なので、持ち家率が子どもの数を決めるという因果は言えません,False,False,False,False,False
+F51_childcare_mediation,- **因果の経路は証明できない**：媒介分析は「処置と媒介、媒介と結果のあいだに見えない交絡がない」という強い前提に立っています。感度分析のとおり、この前提が少し崩れるだけで間接効果は消えます,False,True,False,False,True
+F53_boj_statement_tone,- 公表文の景気判断と金利・株価の関係は、因果を調べたものではない,False,False,False,False,False
+F67_temp_power_gam,- 気温と需要の関係は、因果の大きさそのものではありません。暑い日は日射が強い、休みの人が多いなど、気温と一緒に動く要因も含みます。,False,False,False,False,False
+F85_io_network,- Ghosh モデル（供給ショック）は、買い手が投入を減らさざるをえないという強い仮定に立っていて、因果の推定ではありません。,False,False,False,False,True
+F94_municipal_merger_panel,- 傾きは「人口の小さい町ほど減りやすい」という記述的な関係で、因果ではない,False,False,True,False,False
