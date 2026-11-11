@@ -1,0 +1,8 @@
+{
+ "life_rows": 72,
+ "life_maxdiff": 9.155859855003445e-10,
+ "cohort_rows_py": 90,
+ "cohort_rows_sql": 90,
+ "cohort_matched": 90,
+ "cohort_maxdiff": 3.0429526676201135e-08
+}
