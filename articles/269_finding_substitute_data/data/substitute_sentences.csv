@@ -1,0 +1,219 @@
+article,group,sentence,別の統計・別の表に切り替えた,単位を粗くした（日→月、市→県など）,近い指標で見立てた,延ばした・推計した（推測）,期間・範囲を変えた,手で写した・PDF から起こした
+020_unemployment_sarima,000–099,"- SARIMA の次数は (p,1,q)(P,1,Q)12 を p,q∈{0,1,2}・P,Q∈{0,1} で探し、**2014年12月までのデータの AIC** で決めた（評価に使う期間を見ないため）。",False,False,False,False,True,False
+021_prefcapital_food,000–099,- S9：0の市区町村は対数がとれないので除いた（情報通信業は334、図書館は390市区町村が0）。,False,False,False,False,False,False
+065_earthquake_bvalue,000–099,海の遠い所では小さな地震を数えきれていないため、下限を低くすると b値が小さく出る。,False,False,False,False,False,False
+065_earthquake_bvalue,000–099,海の遠い所の小さな地震は数えきれていないため、日本周辺をまとめると、Mc を低くしたときの b値は小さく出ます。,False,True,False,False,False,False
+065_earthquake_bvalue,000–099,本震直後は地震が重なって数えきれないため、c値にはその影響が含まれます,False,False,False,False,False,False
+067_food_poisoning_trend,000–099,腸炎ビブリオやサルモネラは激減し、代わりにアニサキスが増え、ノロウイルスは2025年に戻ってきた」の分析コード・データ・図です。,False,False,False,False,False,False
+081_foreign_residents_growth,000–099,- 2020年12月末〜2023年6月末の都道府県別・国籍別の表は取得していないため、図の線が途切れています,True,True,False,False,False,False
+083_waste_recycling,000–099,- 2005〜2006年度のファイル（h17・h18）には市区町村別のごみ処理概要がないので、使っていません,True,False,False,False,False,False
+083_waste_recycling,000–099,- 家庭ごみの有料化の有無は「ごみ処理体制」の表にあり、今回は取得していないので分析していません,False,False,False,False,False,False
+085_food_price_quantity,000–099,外食・調理食品・菓子などには購入数量がないので入っていません。,False,False,False,False,False,False
+085_food_price_quantity,000–099,エネルギーは電気代・プロパンガス・灯油・ガソリンだけで、都市ガスと水道は購入数量がないので入っていません,False,False,False,False,False,False
+091_housing_floor_area,000–099,- 階数（中高層かどうか）は今回使った時系列表にないので、分析していません,False,False,False,False,False,False
+101_food_balance,100–226,公表値は品目ごとの「国産供給熱量」を積み上げて計算していますが、ここでは品目別自給率（重量ベース）×供給熱量で代わりにしています。,False,False,False,False,False,False
+103_daily_steps,100–226,2012・2013・2016年は睡眠時間の表がないため使っていません,False,False,False,False,False,False
+103_daily_steps,100–226,- 朝食欠食率の年次推移表は2017年分までしか取得していないため、2018年以降は分析していません。,False,True,False,False,True,False
+105_price_city_gap,100–226,subst は代替銘柄の印（a)～z)）がある行（2019年以前の表のみ） |,False,False,False,False,True,False
+105_price_city_gap,100–226,- 2020年以降の表には代替銘柄の印がないため、代替銘柄の扱いは年によってそろっていません,False,False,False,False,True,False
+117_public_assistance_households,100–226,表からは理由が分からないので、年度の比較には12か月の平均を使いました,False,True,False,False,False,False
+119_vacancy_rate,100–226,- 世帯数そのものは市区町村の表に入れていないので、「居住世帯のある住宅」の増減を住む世帯の増減の代わりに使いました。,True,False,False,False,False,False
+126_side_jobs,100–226,ロジスティック回帰は、集計表の人数を重みにした「グループ化データ」の当てはめで、標準誤差や検定は意味を持たないため、オッズ比だけを示しています,False,False,False,False,False,False
+126_side_jobs,100–226,- 本業の職業別の「有業者の総数」はこのリポジトリに入れた表にないため、職業別の副業者比率は計算していません。,True,False,False,False,False,False
+134_photochemical_oxidant,100–226,この数字は図だけで表がないため、CSV には入れていない,False,False,False,False,False,False
+146_clinic_specialties,100–226,- 診療科別の開設・廃止の表は公表されていないので、どの科で開設が多いかは、施設数の増減から見ています,True,False,False,False,False,False
+148_teacher_age,100–226,1995年度以前は5歳刻みの表しかないため使っていません。,False,False,False,False,True,False
+148_teacher_age,100–226,- 2022年度の表は59歳までの各歳しかないため、60歳以上は「総数 − 59歳以下の合計」で求めました,False,False,False,False,False,False
+150_yellow_sand,100–226,1977/02/24 と 2010/03/21 は地点数11に対して地点名が10しか載っていなかったため、載っていない那覇を加えています。,False,False,False,False,False,False
+151_farm_decline,100–226,- 市区町村別の2025年の表はまだ公表されていないため、都道府県別で見ています,True,True,False,False,False,False
+159_medical_cost_by_age,100–226,- 男女別の総数は2013年度以降の表に行がないため、CSVには2008年度のみ入っています（分析には使っていません）,True,False,False,False,True,False
+173_household_energy_types,100–226,1都市あたりの調査世帯は多くないので、1年の値は振れやすい,False,True,False,False,False,False
+174_three_year_turnover,100–226,- 中卒は人数が少ないので図に入れていない,False,False,False,False,False,False
+183_ghg_sector_contribution,100–226,| A183 | 2013年度からの排出量の減少は、どの部門がけん引したか | エネルギー起源CO2の5部門（電気・熱配分後）＋非エネルギー起源CO2＋CH4・N2O・代替フロン等の11区分で、2013→2024年度の増減と、減少全体に占める割合（寄与度）を計算。,False,False,False,False,True,False
+186_truck_commercial_share,100–226,- 2010年度に調査方法が変わり、2010・2011年度は年報に連続した値がないため、系列の間はつないでいない。,False,False,False,False,False,False
+190_yellow_sand_stations,100–226,- 1977/02/24 と 2010/03/21 は地点数11に対して地点名が10しか載っていなかったため、載っていない那覇を加えた（150と同じ補正）。,False,False,False,False,False,False
+191_vegetable_concentration,100–226,調査していない県の分はシェアに入らないため、HHIと上位県の割合は全国の収穫量を分母にした下限に近い値になる（調査県の合計が全国に占める割合は品目により2024年産で81〜99%、2014年産で69〜100%）,False,True,True,False,False,False
+202_condo_income_ratio,100–226,調べた世帯の数は限られ、特に二次取得は少ないため値が振れやすい,False,False,False,False,False,False
+212_labor_share_cycle,100–226,- 四半期別調査には「付加価値」の項目がないため、年次別調査の定義（人件費＋支払利息等＋動産・不動産賃借料＋租税公課＋営業純益）とは違う近似で、水準は年次の労働分配率と一致しない,False,True,True,False,False,False
+213_condo_aging,100–226,- 完成年次別の「世帯主の年齢」の表は公表されていないため、住人の年齢は管理組合の役員の年代で代わりに見ています。,True,True,False,False,False,False
+214_lodging_seasonality,100–226,- 当初は「共通基準による観光入込客統計」の期別データを使う予定でしたが、2022年は23／46都道府県、2023年は4〜8都道府県しか集計されていないため、47都道府県がそろう宿泊旅行統計に替えました。,False,True,False,False,False,False
+216_care_levels,100–226,年齢別の被保険者数がないため、年齢別の認定率は計算していません,True,False,False,False,False,False
+222_falls_elderly_workers,100–226,2011年は表の形が違い読み取れなかったため欠けています,False,False,False,False,False,False
+225_construction_orders_fiscal_yearend,100–226,全体の受注動態統計は2021年の見直し後の月次（2022年4月〜）しか時系列表になく、長い期間がとれないため、大手50社を使いました,False,True,False,False,True,False
+235_adult_learners_grad_school,227–・T（1000本計画）,学部の表には社会人の数がないので、25歳以上・30歳以上の入学者の数で近づけました。,False,False,False,False,False,False
+235_adult_learners_grad_school,227–・T（1000本計画）,2015年度より前は同じ年齢別の表がないため、学部は2015年度からにした,True,False,False,False,True,False
+239_vocational_school_fields,227–・T（1000本計画）,- 商業や情報、ビジネスの学科と、2020〜2023年度の商業実務の増減には、外国人の留学生の増減が関わっているとみられるが、この表には国籍の内訳がないので確かめていない（推測）,False,False,False,False,False,False
+241_public_data_troubles,227–・T（1000本計画）,このシリーズの記事501本の README に書き残した「困ったこと」（定義の変更・秘匿・転記・取れないデータなど）を、言葉で拾って数えたフォルダです。,False,False,False,False,False,True
+241_public_data_troubles,227–・T（1000本計画）,| 取れない・代わりのデータ | 35 | 7.0% | 8/10 |,False,False,False,False,False,False
+243_sql_pivot_report,227–・T（1000本計画）,「0」と「まだ公表されていない」を区別したいときは、戻す前に空のセルを数えておく,False,False,False,False,False,False
+247_lodging_holidays_weekday,227–・T（1000本計画）,宿泊旅行統計調査は月の値しかないので、曜日ごとの宿泊は分かりません。,False,True,False,False,False,False
+260_schema_validation_injected,227–・T（1000本計画）,| K2 数字の代わりに記号 | 100% | 100% | 100% | 100% |,False,False,False,False,False,False
+260_schema_validation_injected,227–・T（1000本計画）,- 男女の入れ替え（K9）は合計が変わらないので L4 の「総数＝男＋女」では見つからない。,False,False,False,False,False,False
+261_data_dictionary_ssdse,227–・T（1000本計画）,時点（年度か暦年か、何月何日現在か）は、資料から項目ごとには読み取れなかったので数えていない,False,False,False,False,False,False
+F01_minimum_wage_did,F01–F99,5. 県別の若者・パートの就業率は今回のデータにないため、影響を受けやすい層だけを見る分析はできていません。,True,False,False,False,False,False
+F01_minimum_wage_did,F01–F99,- 若年・パート別の異質性は、県別モデル推計値に年齢・雇用形態の内訳がないため、bite の3分位 × 期間の異質性に置き換えました。,True,False,False,False,True,False
+F01_minimum_wage_did,F01–F99,- 「代わりの結果指標」は有効求人倍率と有効求人数（職業安定業務統計）を使いました。,False,False,False,False,False,False
+F05_medical_cost_hierarchical,F01–F99,- 国保の加入者数は市区町村別に公表されていないため、年ごとのぶれの大きさは人口で代用した,True,False,False,False,False,False
+F05_medical_cost_hierarchical,F01–F99,- 国保の加入者数の代わりに人口を使っているので、加入者の割合が違う町ではぶれの大きさの見積もりがずれる,True,False,False,False,False,False
+F102_fx_threshold_passthrough,F100–F199,| 状態で分けた局所射影（設計の代替案） | h か月後までの累積の変化を、当月のドル円の変化 ×（大きな円安の局面か、それ以外か）に回帰（当月の輸入物価〔契約通貨〕、4変数の1か月前の値、局面ダミーを入れる。,False,True,False,False,False,False
+F110_hyperparam_bayesopt,F100–F199,- 乱数の数（電力5、地価3）が少ないので、方法どうしの差の区間は出していません。,False,False,False,False,False,False
+F112_ambulance_queueing,F100–F199,公表されていない値（引継ぎ後に次の出動ができるまでの時間など）は仮定で置き、結果は必ず仮定を変えて並べています。,False,False,False,False,False,False
+F112_ambulance_queueing,F100–F199,- 答えを最も大きく動かすのは、公表されていない R（引継ぎ後に次の出動ができるまでの時間）でした。,False,False,False,False,False,False
+F113_price_index_formulas,F100–F199,家賃や都市ガス、外食・調理食品・菓子類などは数量がないため入らない。,False,False,False,False,False,False
+F115_grouped_income_distribution,F100–F199,**答えが分かっている分布でのシミュレーション**：ジニ係数や上位1%には公表値がないので、答えの分かる分布を2つ作って試した。,False,False,False,False,False,False
+F115_grouped_income_distribution,F100–F199,- 「階級の中央の値」は平均や五分位の平均は当たるが、分位点は階級の中央にしかならないので、下から20%の値が7.2%ずれた。,False,False,False,False,False,False
+F115_grouped_income_distribution,F100–F199,"階級の度数には2,000万円より上の形の情報がないので、上位1%は仮定で決まる。",False,False,False,False,False,False
+F115_grouped_income_distribution,F100–F199,上位10%・1%の割合やジニ係数は、公表値がないので実データでは確かめられない。,False,False,False,False,False,False
+F117_nonresponse_weighting,F100–F199,- 所得票には「世帯人員×世帯主の年齢×所得」の表がないので、レーキングと42セルの事後層化では「同じ所得階級の中では、世帯人員と世帯主の年齢は独立」と仮定して3次元の表を作った（仮定）。,False,False,False,False,False,False
+F117_nonresponse_weighting,F100–F199,- **階級の中の仮定**：階級の中を一様とする代わりに階級の中央の値を使うと、中央値は重み付けなしで475万円、世帯人員の重み付けで425万円（階級の中央の値にしかならない）。,True,False,False,False,False,False
+F118_childcare_fertility_synthesis,F100–F199,保育所数は条件の1つで、保育所の効果は推定していないので対象外 |,False,False,False,False,False,False
+F119_forecast_scorecard,F100–F199,| F13・F18・F55（年間）・F86（2026年） | 失業率・GDP・出生数の年間・平均寿命 | まだ出ていない | 一覧（`results/pending_forecasts.csv`） |,False,False,False,False,False,False
+F119_forecast_scorecard,F100–F199,4. **まだ出ていない予測**：値と、答えが出る時期を一覧にする,False,False,False,False,False,False
+F120_census2025_update,F100–F199,就業状態・通勤・小地域の集計はまだ公表されていないので、F31・F10・F81・F06 は更新していない。,False,False,False,False,False,False
+F120_census2025_update,F100–F199,| F31・F10・F81・F06 | 必要な集計がまだ公表されていないので未更新 |,False,False,False,False,False,False
+F122_pitfalls_from_logs,F100–F199,### 1. 設計から変えたこと：いちばん多いのは「頑健性の確認を足した」、次が「データが取れず代用した」,False,False,False,False,False,False
+F122_pitfalls_from_logs,F100–F199,| データが取れない・代用 | 47% |,False,False,False,False,False,False
+F122_pitfalls_from_logs,F100–F199,半分近くの記事で、設計書に書いたデータがそのままでは取れず、代わりのデータや代わりの粒度に切り替えていた。,True,False,False,False,False,False
+F122_pitfalls_from_logs,F100–F199,| 1項目1カテゴリにする | 相関 0.94、1位が「データが取れない・代用」に変わる | 相関 0.68 |,False,False,False,False,False,False
+F123_spatial_block_cv_review,F100–F199,- 気温の「LightGBM（特徴量だけ）」は標高しか使えず位置の情報がないため（R² がマイナス）、図からは外しました（表 `results/cv_summary.csv` には残しています）,False,False,False,False,False,False
+F126_heatstroke_dlnm,F100–F199,暑い日は続けて来るので、当日の気温が前後の日の暑さも代わりに表してしまうためです。,False,False,False,False,False,False
+F128_rent_distance,F100–F199,設計では物件ごとのヘドニック回帰を考えていましたが、公的な統計では物件ごとの家賃が手に入らないため、集計表に切り替えました。,True,False,False,False,False,False
+F129_prescription_age_adjust,F100–F199,- 直接法は、県×年齢の表がないため使えませんでした。,False,False,False,False,False,False
+F130_care_certification_shrinkage,F100–F199,- 被保険者数の年齢の帯が3つしかないので、85歳以上の中の年齢の違いは調整できていません。,False,False,False,False,False,False
+F132_farm_size_transitions,F100–F199,6. **集計だけで遷移を推定したら**：設計の代替案（規模別の数の推移だけで行う）の確かめとして、都道府県別の規模別の数（前回）と継続経営体の規模別の数（今回）だけから、遷移確率を制約つき最小二乗で推定し、実際の相関表と比べました。,True,True,False,False,False,False
+F132_farm_size_transitions,F100–F199,やめた数と大きくなった数の比は0.8〜1.2倍で、ほぼ同じ数でした（50〜100haは上が100ha以上しかないため2.2倍）。,False,False,False,False,False,False
+F138_telework_decomposition,F100–F199,| 産業の代わりに職業（12区分） | 17% | 20% | 0.93 |,False,False,False,False,False,False
+F139_side_job_loglinear,F100–F199,設計の代替案「2属性ずつのクロス表」で比べると（粗いオッズ比）、女性と高齢層が多く見えるが、これは雇用形態と所得の構成の違いによるもので、組み合わせて見ると消える。,False,True,False,False,False,False
+F13_unemployment_forecast,F01–F99,| まだ公表されていない T+1 月の求人・景気の値を使う（リーク） | 0.85 | 0.91 |,False,True,False,False,False,False
+F141_ip_regional_concentration,F100–F199,- 技術分野（IPC など）× 都道府県の表は公表されていないため、「分野」は特許・実用新案・意匠・商標の4つの権利で代わりにした。,False,True,False,False,False,False
+F144_water_tariff_density,F100–F199,- 料金は家庭用10m³（口径13mm）の1点だけで、20m³や用途別の料金体系の違いは見ていない（年鑑の個表に20m³の料金がないため）,True,False,False,False,False,False
+F148_dormancy_multistate,F100–F199,復活の前の閉鎖の日はデータにないので、復活はすべて登記官による閉鎖の状態から戻ったと仮定（頑健性で、閉鎖したすべての状態から戻る仮定も試す） |,False,False,False,False,False,False
+F148_dormancy_multistate,F100–F199,- 登記が残っている制度開始時からの株式会社の71%、有限会社の89%は、法人番号の指定のあと商号も所在地も変えていない（役員の変更などはこのデータに出ないので、休眠しているという意味ではない）。,False,False,False,False,False,False
+F148_dormancy_multistate,F100–F199,合併も登記官による閉鎖も少ないので、無視しても数字はほとんど変わらない。,False,False,False,False,False,False
+F148_dormancy_multistate,F100–F199,休眠会社のみなし解散の登記は法人番号のデータに出ないので、登記官による閉鎖を「休眠や解散のまま放っておかれた道の終わり」として見ている。,False,False,True,False,False,False
+F148_dormancy_multistate,F100–F199,復活のあとに所在地の変更などがあった法人は数えられないので、復活の数は下限。,False,False,False,False,False,False
+F14_compact_city_psm_did,F01–F99,共変量は計画前（2010年以前）の DID 人口・DID 人口密度・2005→10年の DID 密度と DID 人口の変化・DID の数、市町村の総人口（2020年、規模の代わり） |,False,False,False,False,True,False
+F14_compact_city_psm_did,F01–F99,** 市町村の総人口は2020年の値を規模の代わりに使っています。,True,True,False,False,False,False
+F153_distribution_regional,F100–F199,- 階級の中の分布は分からないので、分位関数は推定である。,False,False,False,False,False,False
+F153_distribution_regional,F100–F199,- 都道府県の数字は標本調査の推定値で、誤差の幅は公表されていない,False,True,False,False,False,False
+F156_minwage_bite_heterogeneity,F100–F199,- 「分位点」は、平均時給で県を3つに分けた比較にしました（県の時給の分布の分位点は、年ごとのデータがないため使っていません）。,False,False,False,False,False,False
+F157_power_forecast_operation,F100–F199,- 気温は実測値で代用しており、実際の運用（前日の予報を使う）より良く出ている。,True,False,False,False,False,False
+F159_births_nowcast,F100–F199,| E 速報＋概数＋モデル | D の補正を入れた月次の系列に A と同じモデルを当て直し、まだ出ていない月を予測して足す |,False,True,False,False,False,False
+F159_births_nowcast,F100–F199,過去の年数が少ないため。,False,False,False,False,False,False
+F164_figures_and_reads,F100–F199,** 閲覧数は書き手の管理画面にしか出ず、公開ページには出ないため（設計書の「公開ページの数字だけ」に従った）。,False,False,False,False,False,False
+F166_benford_public_stats,F100–F199,10 未満の整数には第2桁がないので、第2桁と先頭2桁は 10 以上の値だけで数えた。,False,False,False,False,False,False
+F16_childcare_dml,F01–F99,- 処置は「定員」ではなく「在所児数」（市区町村別の定員は公表されていない）。,True,False,False,False,False,False
+F170_compositional_industry_shares,F100–F199,- 代替案の確認：国勢調査2020年の第1〜3次産業就業者数。,False,False,False,False,False,False
+F170_compositional_industry_shares,F100–F199,原発事故の避難指示区域）は、1人あたりの値が作れないので除いた。,False,False,False,False,False,False
+F172_birth_death_calendar,F100–F199,ただし、このデータには分娩の方法がないため、確かめられません。,False,False,False,False,False,False
+F172_birth_death_calendar,F100–F199,- **死亡の曜日**：日別・曜日別の死亡の統計表が公表されていないため、亡くなる日の曜日の偏りは分析していません。,True,False,False,False,False,False
+F179_imputation_by_estimand,F100–F199,そのため、そろったデータを母集団として、あとから欠かしています（設計書の代替案「欠測を人工的に作ってシミュレーションだけで行う」）。,False,False,False,False,False,False
+F179_imputation_by_estimand,F100–F199,欠けるかどうかが値そのものに依存すると、手元のデータからはその分を取り戻せないためです。,False,False,False,False,False,False
+F17_minwage_causal_forest,F01–F99,- 結果は短時間労働者の雇用ではなく、就業率の前年差です（県別の短時間労働者の雇用の年次データが F01 にないため）。,True,True,False,False,False,False
+F181_housing_starts_rates_population,F100–F199,- 人口の代わりに世帯数を使っていない。,True,False,False,False,False,False
+F186_electricity_bill_household_burden,F100–F199,- 単身世帯は購入数量がないため、単価と使用量に分けていない。,False,False,False,False,False,False
+F188_occupational_injury_by_industry,F100–F199,データの取得は `src/01_取得.md` を参照（この作業環境からは e-Stat などに直接つながらないため、ブラウザで Excel を読み、主な列を CSV にした）。,False,False,False,False,False,False
+F188_occupational_injury_by_industry,F100–F199,雇用者数は役員を含む値で代用しているため、死傷者数の近似は少し大きめです。,True,False,True,False,False,False
+F189_time_use_composition,F100–F199,2021年の重みは2020年10月1日の値で代用,True,False,False,False,False,False
+F189_time_use_composition,F100–F199,- 高齢化の分け方は、10歳以上の年齢10区分での近似で、2021年の重みは2020年の人口で代用している,True,False,True,False,False,False
+F18_nowcast_dfm,F01–F99,- 1か月目末では AR と差がない（その四半期の月次データがまだほとんど出ていないため）。,False,True,False,False,False,False
+F18_nowcast_dfm,F01–F99,GDP の消費やサービスの動きを直接表す月次の系列が少ないため,False,True,False,False,False,False
+F190_excess_deaths_temperature,F100–F199,- **期待値の作り方**：人口や年齢構成は直接入れず、時間のトレンドで代わりにしています。,False,False,False,False,False,False
+F194_museum_covid_recovery,F100–F199,施設が博物館と類似施設の間で移った分を分けられないため、この2つの差は区分の見直しを含む,False,False,False,False,False,False
+F196_stratified_sampling_allocation,F100–F199,ネイマン配分に必要な「層ごとのばらつき」を前回の調査の値で代用しても、うまくいくか。,True,False,False,False,False,False
+F196_stratified_sampling_allocation,F100–F199,- **前回の値で代用しても、本当の値を使ったときとほぼ同じ**だった（世帯数 14.02 と 14.02、従業者数 6.95 と 6.98）。,True,False,False,False,False,False
+F196_stratified_sampling_allocation,F100–F199,- **母集団は市区町村の集計値の代わり**で、市区町村の大きさが非常に偏っている（最大の市は中央値の約160倍）という日本の市区町村の形に強く依存している。,False,False,False,False,False,False
+F197_cluster_sampling_deff,F100–F199,市区町村を母集団の代わりにして、「地区（クラスター）をまとめて選ぶ」抽出で、同じ数を調べても誤差がどれだけ大きくなるか（設計効果、DEFF）と、その原因になる「同じ地区の中の似かより」（級内相関、ICC）を測った。,False,True,False,False,False,False
+F199_seasonal_adjustment_turning_points,F100–F199,景気動向指数（CI）は季節調整前の値が公表されていないので、調整し直す比較には使っていません。,False,False,False,False,False,False
+F199_seasonal_adjustment_turning_points,F100–F199,自分で回した X-13 には祝日の調整を入れていないので、「公表値と半分しか一致しない」のうち、どこまでが方法の違いでどこまでが設定の違いかは分けられません。,False,False,False,False,False,False
+F19_small_area_fh,F01–F99,そこで設計の代替案どおり、市区町村ごとに対象者数と受診者数がそろう「大腸がん検診（国保の被保険者）」に切り替えた,True,False,False,False,False,False
+F200_method_data_network,F200–F255,"- 見出し「## 手法」（ない記事は「## 方法」）、「## データ」「## 出典」の本文と題名を `data/readme_sections.json` に保存した（F118 は手法の節がないため、題名と冒頭1,500字を使った）",False,False,False,False,False,False
+F203_births_marriage_series_part1,F200–F255,"うち福島県の8町村と熊本県の1村は出生率が公表されていない（1,732）。",False,False,False,False,False,False
+F204_births_marriage_series_part2,F200–F255,- 2017年は、同じ形の年の表が取れなかったので欠けている,False,False,False,False,False,False
+F209_prices_household_series_part1,F200–F255,家計調査には持家の帰属家賃がないので、区分別の物価は「持家の帰属家賃を除く総合」に相当する。,True,False,False,False,False,False
+F20_tfr_spatial_regression,F01–F99,政令市の区は区の値がないので市の値（129区域）,False,False,False,False,False,False
+F20_tfr_spatial_regression,F01–F99,- 政令市の区の所得は市の値で代用している,True,False,False,False,False,False
+F233_calendar_weather_sales,F200–F255,- 2026年11月以降の補正表はカレンダーだけで、天気は入っていません（先の天気は分からないため）。,False,False,False,False,True,False
+F236_ab_test_sample_size,F200–F255,- **金額の分布は所得の形を借りた近似**：1人あたりの購入額の分布そのものは公開されていない。,False,False,True,False,False,False
+F242_kpi_anomaly_alerts,F200–F255,異常の「正解」が分かっていないと良し悪しを測れないので、**架空の通販会社「あおばマート」（架空）**の毎日の注文数をシミュレーションで作り、わざと異常を入れた。,False,False,False,False,False,False
+F244_sql_aggregation_pitfalls,F200–F255,2. **主のエンジンを DuckDB にする**（`results/C_catch_matrix_duckdb.csv`）：整数の割り算の2つ（A4・B12）は DuckDB では誤りにならないため、T5 が見つけるのは19個に減る。,False,False,False,False,False,False
+F246_kpi_definitions_fictional_retail,F200–F255,**2025・2026年は統計がないので年+4%と置いた（仮定）**,False,False,False,False,False,False
+F250_sales_drop_explanation_fictional_retail,F200–F255,実務では設定（本当の値）が分からないので、過去の月のばらつきや、店を入れ替えた計算で代わりに測ることになる。,False,True,False,False,False,False
+F253_monthly_data_quality_checks_fictional_retail,F200–F255,参照のどれかがたまたま近い値だと鳴らないため。,False,False,True,False,False,False
+F253_monthly_data_quality_checks_fictional_retail,F200–F255,台風・停電・競合の開店・大きな販促など、本当のできごとで動く日は合成データに入っていないので、実務では B がもっと鳴る（推測）。,False,False,False,False,False,False
+F256_natural_disaster_insurance_payouts,F256–F295（精選）,平均の比較（0.70倍）は選び方の偏りを含むので主な結果にせず、代わりに「取りこぼしのない足切り」で大きな事故を数えた（計画にない追加）。,False,False,False,False,False,False
+F256_natural_disaster_insurance_payouts,F256–F295（精選）,反証の条件2（1件あたり実質が増えていなければ「重さは変わらず、件数が増えた」と書く）は、件数も増えていないので当てはまらず、「どちらにも傾向はない」と書いた。,False,False,False,False,False,False
+F256_natural_disaster_insurance_payouts,F256–F295（精選）,画像で作られていて文字が取れないPDF（2021_01・2021_02）と、合計行のない1県だけの表（2014_w02、広島土砂災害）、新種の欄がない表（2016_w02、糸魚川の大火・分析から除く）は、PDFを目で読んで 02 に書いた。,False,False,False,False,False,True
+F257_wage_spillover_whitepaper,F256–F295（精選）,HC1 の標準誤差は系列相関を直さないので、区間が狭く出ている可能性がある（推測。,False,False,False,False,False,False
+F258_real_wage_deflator_streak,F256–F295（精選）,持家の帰属家賃（持ち家に住む人が自分に払っているとみなす家賃）は実際には支払わないので除く、という公表の考え方には理由がある。,False,False,False,False,False,False
+F261_potential_growth_methods,F256–F295（精選）,統計の手法6つのうち BK は両端が出ないので FY2025 は5つ）。,False,False,False,False,False,False
+F261_potential_growth_methods,F256–F295（精選）,FY2025 の 0.51 は、そのまま並べるといちばん狭いが、BK が FY2023 以降出ないため比べる手法の数が違う。,False,False,False,False,True,False
+F261_potential_growth_methods,F256–F295（精選）,- 公表元のサイトはこの環境から直接は取れないため、ブラウザのページ内で xlsx・CSV を読み、必要な列だけを CSV にした（`src/01_取得.py` に取得元と確認の手順）。,False,False,False,False,False,False
+F261_potential_growth_methods,F256–F295（精選）,| 1 | 「FY2025 の幅は過去26年でいちばん狭い」は、BK が FY2023 以降出ないため比べる手法の数が違うことによる | タイトルと結論から外した。,False,False,False,False,True,False
+F262_births_record_low_decomposition,F256–F295（精選）,45〜49歳は率が0.0（小数1桁）になる年があって逆算できないので、長い期間だけ15〜44歳で計算した。,False,False,False,False,True,False
+F262_births_record_low_decomposition,F256–F295（精選）,- 「女性の人口を逆算」の頑健性は、2025年の年齢別出生率（小数1桁）を人口統計資料集でまだ得られないため、2015→2024で行った。,False,False,False,False,False,False
+F262_births_record_low_decomposition,F256–F295（精選）,6. 【低】2005年の計算値と公表値のずれの理由は確かめていないので（推測）とした。,False,False,False,False,False,False
+F263_control_choice_nationwide_policy,F256–F295（精選）,- 前12か月では M3（係数13個）が計算できないため「計算せず」とした。,False,False,False,False,False,False
+F264_auto_accident_rate_aging,F256–F295（精選）,主の比較を自賠責に変え、任意保険は2017〜2023年度だけ補助に使った（2016年度は契約台数が他の年より約500万台少なく、数え方が合わないため除いた）。,False,False,False,False,False,False
+F265_policy_targets_pace,F256–F295（精選）,- 週60時間以上の雇用者の割合（目標5%）、第1子出産前後の継続就業率（70%）、6歳未満の子をもつ夫の家事・育児時間などは、毎年の長い系列をこの回では取れなかった（5年ごとの調査のものもある）ので扱っていない。,False,False,False,False,False,False
+F268_life_table_annuity_value,F256–F295（精選）,- H5 の見通しの作り方：計画は「2045年・2070年の平均寿命に合わせる」だったが、高位・低位は2045年の仮定値を持っていないため、2045年までの動きの割合を中位と同じと置いた（中位は計画どおり両方に合わせた）。,False,False,False,False,True,False
+F269_sme_price_passthrough,F256–F295（精選）,3. H2：交渉の有無別の転嫁率は公表されていないので判定できない。,True,False,False,False,False,False
+F269_sme_price_passthrough,F256–F295（精選）,| H2 価格交渉 | 交渉ありの企業の転嫁率が20pt以上高い | 交渉の有無別の転嫁率は公表されていない。,True,False,False,False,False,False
+F269_sme_price_passthrough,F256–F295（精選）,- **H2**：交渉の有無別の転嫁率は公表されていなかったので「判定できない」とし、代わりに業種の単位での相関を見た（結果を見てから決めた代わりの見方）。,True,False,False,False,False,False
+F269_sme_price_passthrough,F256–F295（精選）,- **期間**：計画は2021年9月〜だったが、2021年9月の結果は業種別の転嫁率の表の形が違い、2022年の回は中小企業庁のページから国立国会図書館のアーカイブへのリンクになっていて今回は取っていないので、比べられる2023年3月〜2026年3月（7回）にした。,True,True,False,False,True,False
+F269_sme_price_passthrough,F256–F295（精選）,- **頑健性3（「コスト上昇なし」を分母に含めるか）**：取引段階・業種の表に「価格転嫁不要」の割合がないので行っていない。,False,False,False,False,False,False
+F269_sme_price_passthrough,F256–F295（精選）,- 計画にあった「回答数で重みをつけた標準偏差」は、業種ごとの回答数が公表されていないので計算していない。,False,False,False,False,False,False
+F269_sme_price_passthrough,F256–F295（精選）,属性どうしの関係（業種×段階など）は公表されていないので分けられない。,False,False,False,False,False,False
+F269_sme_price_passthrough,F256–F295（精選）,- 業種ごとの回答数は公表されていない。,False,False,False,False,False,False
+F270_inbound_record_per_capita,F256–F295（精選）,台湾はこの物価のデータがないので M4 から外した。,False,False,False,False,False,False
+F270_inbound_record_per_capita,F256–F295（精選）,- 頑健性の「サービスの物価」は、使った長期時系列に「サービス」の系列がないので、外食・交通・教養娯楽サービス（宿泊料を含む）の平均に替えた。,False,False,False,False,False,False
+F270_inbound_record_per_capita,F256–F295（精選）,一般客の人数での重み付けは、国籍別の旅行消費額が手元の Excel にないため行っていないと書いた |,True,False,False,False,False,False
+F271_dashboard_answer_cost,F256–F295（精選）,このモデルでは最初の画面の下にある要素は探す数に入らないため）、想定外の4問を11.25秒に縮めた。,False,False,False,False,False,False
+F271_dashboard_answer_cost,F256–F295（精選）,- **D4（D3＋水準）**：主な8問は中央値0.85秒・最初の画面100%のまま（足した部分は下にあり、最初の画面の探す手間が増えないため）。,False,False,False,False,False,False
+F271_dashboard_answer_cost,F256–F295（精選）,表の中のセルを1つずつ探すと数百になり、見出しから行と列を探す実際の読み方と合わないため。,False,False,False,False,False,False
+F271_dashboard_answer_cost,F256–F295（精選）,8. 【低】D4 の「邪魔にならない」を、このモデルでは最初の画面の下は数えないため、と書き直した。,False,False,False,False,False,False
+F273_regional_dispersion_lodging,F256–F295（精選）,- R3 の人口は SSDSE-B-2026（統計センター、人口推計をもとにした年度の総人口、2012〜2023年度）を使い、2024・2025年は2023年度の人口で代用した（計画では「人口推計」）,True,False,False,False,False,False
+F274_labor_shortage_bankruptcy_rate,F256–F295（精選）,- 2025年の法人数はまだ公表されていないので、2023→2024年度の伸び（+1.45%）で延ばした（推測）。,False,False,False,True,False,False
+F274_labor_shortage_bankruptcy_rate,F256–F295（精選）,- TSR の4要因の合計は、2020・2021年の3要因の年の値がないため、その2年を空けた。,False,True,False,False,False,False
+F275_sql_change_requests,F256–F295（精選）,テスト店の除外（CR5）と客数の数え方（CR8）の直し忘れは1つも見つからなかった（ふつうのデータにはテスト店も、同じ会員の同じ日の2回の来店もほとんど入らないため）,False,False,False,False,False,False
+F276_earthquake_insurance_after_quakes,F256–F295（精選）,長期の火災保険は数年おきにしか更新されないので、上乗せが数年かけて広がったのはそのためかもしれない（推測）,False,False,False,False,False,False
+F278_vacant_record_stock_vs_rate,F256–F295（精選）,2018年の総数の標準誤差率（読み取れなかった値）を 0.2%・0.4%・0.6% と大きく置くと z は 2.46・2.21・1.92 で、約0.57%以上なら z < 1.96。,False,False,False,False,False,False
+F278_vacant_record_stock_vs_rate,F256–F295（精選）,| 1 | 2018年の総数の標準誤差率を2023年の値で代用したことが本文になく、頑健性も0%（z が上がる側）しかない | 本文に代用を明記。,True,True,False,False,False,False
+F280_medical_cost_three_elements,F256–F295（精選）,- 計画の R5（重みを医療費の構成から逆算した人数にする）は、年齢別の加入者数が資料にないため行わなかった。,True,False,False,False,False,False
+F281_food_self_sufficiency_target_gap,F256–F295（精選）,- 頑健性 R5 は、計画では「2020年計画を除く」としたが、2020年計画は目標年度が来ておらず H4 に入っていないので、代わりに2010年計画（小麦・大豆の目標が2倍以上で外れ値に近い）を除いた。,False,False,True,False,False,False
+F281_food_self_sufficiency_target_gap,F256–F295（精選）,- H4 の品目は、計画では14品目に飼料作物を入れていたが、分析では飼料作物の代わりに魚介類を入れた（累年表に飼料作物の生産量がないため）。,False,False,False,False,False,False
+F283_price_hike_front_loading,F256–F295（精選）,- 量の代わりに、支出金額 ÷ 物価指数（実質の支出）を使った。,True,False,False,False,False,False
+F283_price_hike_front_loading,F256–F295（精選）,- 家計調査の品目の月の値は、この表では2015年1月からしかないので、期間は2015年1月〜2026年9月（141か月）。,False,True,False,False,True,False
+F283_price_hike_front_loading,F256–F295（精選）,- 2026年10月にも酒税の改正（ビール系の税の一本化）があったが、2026年10月の家計調査はまだ公表されていない（2026年11月時点）。,False,True,False,False,False,False
+F285_power_demand_outlook_accuracy,F256–F295（精選）,- 総合エネルギー統計の Excel（時系列表）はブラウザから取れなかったため、PDF の概要の表から転記した。,True,False,False,False,False,True
+F285_power_demand_outlook_accuracy,F256–F295（精選）,この系列は2001年度からなので、基準年（2000年度）の代わりに2001年度を起点にし、見通しの伸びも同じ年数分（道筋の上で）に直した。,False,False,False,False,True,False
+F287_report_two_audiences,F256–F295（精選）,- **H3 の測り方**：計画では「経営向け（億円）と現場向け（百万円）を別々に丸める」としたが、単位が違うと分解能の差で必ず合わないので、同じ単位の中の「部分の合計と全体」で数えた。,False,False,False,False,False,False
+F288_tail_heaviness_sample_size,F256–F295（精選）,ξ<−1 では尤度が上に有界でなく最尤推定が存在しないため、θ の下限を −0.999/最大値 に置いた。,False,False,False,False,False,False
+F290_survey_weighting_limits,F256–F295（精選）,"- 6変数の組み合わせ 7,168セルのうち 2,297セルは0人で、母集団から外した（0人のセルは招待されないので結果は変わらない）。",False,False,False,False,False,False
+F291_mortality_improvement_slowdown,F256–F295（精選）,- 若い年齢（40歳未満）は死亡数が少なく、コロナ期の上振れの理由も分けられないので、記事では扱わない（数字は results にある）。,False,False,False,False,False,False
+F292_quake_damage_population,F256–F295（精選）,表では火災が a/b/c に分かれていないため、**全原因を人口に比例させる近似**にしました。,False,False,True,False,False,False
+F295_solvency_diversification_copula,F256–F295（精選）,- 組ごとに違う相関の表（R2）では、グンベル・裏返しクレイトンは1つの τ しか持てないので計算していない（独立・ガウス・t のみ）。,False,False,False,False,False,False
+F31_retirement_rdd,F01–F99,2000・2005年の表には不詳の列がないため、総数 −（労働力人口＋非労働力人口）を不詳とした,False,False,False,False,False,False
+F41_missing_data_mi,F01–F99,- 回帰で1回埋めると、係数は完全ケースとまったく同じでした（結果を使わない回帰で埋めた値は、持ち家率の係数について新しい情報を足さないため）,False,False,False,False,False,False
+F41_missing_data_mi,F01–F99,1. 値がない町の本当の持ち家率はわからないので、実データでどちらの答えが正しいかは決められません。,False,False,False,False,False,False
+F42_seasonal_adjustment,F01–F99,- **有効求人倍率**：公表元の細かい設定は確認していないので、標準的な設定（対数、ARIMA 自動、外れ値自動）で比べた参考値です。,False,False,False,False,False,False
+F42_seasonal_adjustment,F01–F99,公表のやり方（年に1度）は、毎月の数字が翌年まで動かない代わりに、あとで直される幅は大きくなります。,False,True,False,False,True,False
+F42_seasonal_adjustment,F01–F99,- 公表元の細かい設定（外れ値の指定、ARIMA の次数、労働力調査の計算期間の始まり、有効求人倍率の設定）は分からないので、完全には一致しません。,False,False,False,False,True,False
+F49_life_expectancy_decomposition,F01–F99,都道府県別生命表には死因別の「死亡確率」はあるが、年齢×死因の死亡率がないため,True,True,False,False,False,False
+F50_gdp_revisions,F01–F99,- 公表日の情報は使っていないので、「何日後に何ポイント直されたか」は分かりません。,False,False,False,False,False,False
+F54_heckman_women_wage,F01–F99,男性は働いている割合が9割前後で県による差が小さく、除外制約の F 値が2〜3しかないため、補正は推定できない（区間が非常に広い）。,False,False,False,False,False,False
+F63_yoy_vs_mom,F01–F99,景気動向指数は原数値がないので、前年比も季節調整済みの値から作りました。,False,False,False,False,False,False
+F69_data_quality,F01–F99,公的統計の表には、数字の代わりに「-」「…」などの記号が入っているセルがある。,False,False,False,False,False,False
+F81_commute_gps,F01–F99,| 6 | **設計の代替案**：処置を3区分にして多項ロジットの傾向スコアで重み付け |,False,False,False,False,False,False
+F83_productivity_shift_share,F01–F99,- 代替案の法人企業統計は使わず、設計どおり国民経済計算だけで行いました,False,False,False,False,False,False
+F84_oaxaca_gender_wage,F01–F99,- F54 のデータ（都道府県×年齢）は勤続・産業・規模がないため、今回は全国の表を新たに取得した。,False,True,False,False,False,False
+F85_io_network,F01–F99,- 産業連関表の係数は固定で、価格の変化や代わりの仕入れ先への切り替えを入れていません。,False,False,False,False,False,False
+F89_minwage_meta,F01–F99,- F01 の主な比較（差の差）は換算できないので、同じ記事の log(最低賃金) の固定効果を F01 の代表にした。,False,False,False,False,False,False
+F90_midas_nowcast,F01–F99,| ブリッジ方程式（代替案） | 足りない月を月次の AR(2) で埋めて四半期平均にし、GDP に回帰 → 20系列の平均 |,False,True,False,False,False,False
+F93_pdf_table_extraction,F01–F99,足し算は並べ替えに弱く、T3 の規模別の率は分母（規模別の就職者数）が表にないので検算できない。,True,False,False,False,False,False
+F94_municipal_merger_panel,F01–F99,今の自治体の単位で比べたいなら A、旧町村の地域ごとの変化を知りたいなら旧市町村の単位のデータ（小地域集計など）が必要で、D の割り戻しはその代わりにならない（割り戻しの仮定が結果を決めてしまう）,False,False,False,False,False,False
+F97_sampling_error_yoy,F01–F99,相関は公表されていないため ρ = 0・0.25・0.5 で幅を見た。,False,False,False,False,False,False
+F98_disaster_lodging_recovery,F01–F99,- 東日本大震災（2011年3月）は、表が2011年1月からで事前の期間がとれないので扱っていない,False,False,False,False,True,False
+F99_food_self_sufficiency_lp,F01–F99,この環境のスクリプトからは政府のサイトに直接つながらないため、ブラウザ（e-Stat のページ内）でファイルを読み、`data/raw/f99_raw1.json`・`f99_raw2.json` にまとめました。,False,True,False,False,False,False
+T001_141_wage_increase_2026,227–・T（1000本計画）,"1,000人以上の改定率は、5,000人以上と1,000〜4,999人を労働者数で重み付けしないと作れず、時系列表と令和8年の表には規模別の労働者数（重み）がないため計算できなかった。",True,False,False,False,False,False
+T001_141_wage_increase_2026,227–・T（1000本計画）,e-Stat に令和8年の時系列表がまだ出ていないため（2026-11-12 時点） |,False,False,False,False,False,False
