@@ -1,0 +1,18 @@
+{
+ "H0": {
+  "rows": 14,
+  "max_abs_diff_z": 4.440892098500626e-16,
+  "naive_match": true,
+  "seq_match": true,
+  "naive_first_day": 3,
+  "seq_first_day": null
+ },
+ "H1": {
+  "rows": 14,
+  "max_abs_diff_z": 4.440892098500626e-16,
+  "naive_match": true,
+  "seq_match": true,
+  "naive_first_day": 2,
+  "seq_first_day": 11
+ }
+}

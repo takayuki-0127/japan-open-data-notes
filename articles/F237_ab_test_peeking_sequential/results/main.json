@@ -1,0 +1,433 @@
+{
+ "A": {
+  "最後に1回": 0.0481,
+  "2回（7・14日目）": 0.0815,
+  "4回（週の半分ごと）": 0.1216,
+  "7回（2日ごと）": 0.1651,
+  "14回（毎日）": 0.2193,
+  "336回（1時間ごと）": 0.4602,
+  "28回（毎日・28日）": 0.2777,
+  "672回（1時間ごと・28日）": 0.5033
+ },
+ "A_firstday_hist": {
+  "1": 1042,
+  "2": 663,
+  "3": 498,
+  "4": 369,
+  "5": 310,
+  "6": 252,
+  "7": 240,
+  "8": 204,
+  "9": 158,
+  "10": 159,
+  "11": 154,
+  "12": 129,
+  "13": 111,
+  "14": 97
+ },
+ "bounds": {
+  "obf4": [
+   3.667,
+   2.775,
+   2.243,
+   2.047
+  ],
+  "pocock4": [
+   2.323,
+   2.385,
+   2.34,
+   2.358
+  ],
+  "obf14": [
+   7.333,
+   5.186,
+   4.236,
+   3.692,
+   3.309,
+   3.027,
+   2.833,
+   2.679,
+   2.543,
+   2.442,
+   2.347,
+   2.27,
+   2.202,
+   2.144
+  ],
+  "pocock14": [
+   2.763,
+   2.71,
+   2.687,
+   2.65,
+   2.622,
+   2.595,
+   2.591,
+   2.565,
+   2.55,
+   2.546,
+   2.529,
+   2.518,
+   2.514,
+   2.495
+  ]
+ },
+ "C": [
+  {
+   "method": "固定（14日目に1回）",
+   "fpr": 0.0482,
+   "fpr_se": 0.0015,
+   "power": 0.846,
+   "mean_days_H1": 14.0,
+   "median_stop_day_H1": 14.0,
+   "mean_days_H0": 14.0,
+   "exaggeration_median": 1.0676,
+   "exaggeration_mean": 1.1046,
+   "wrong_sign": 0.0
+  },
+  {
+   "method": "毎日見て1.96で止める",
+   "fpr": 0.2194,
+   "fpr_se": 0.0029,
+   "power": 0.907,
+   "mean_days_H1": 6.17,
+   "median_stop_day_H1": 5.0,
+   "mean_days_H0": 11.9755,
+   "exaggeration_median": 1.3427,
+   "exaggeration_mean": 1.6437,
+   "wrong_sign": 0.0046
+  },
+  {
+   "method": "4回・O'Brien-Fleming",
+   "fpr": 0.05,
+   "fpr_se": 0.0015,
+   "power": 0.8374,
+   "mean_days_H1": 10.975,
+   "median_stop_day_H1": 11.0,
+   "mean_days_H0": 13.8958,
+   "exaggeration_median": 1.1349,
+   "exaggeration_mean": 1.2344,
+   "wrong_sign": 0.0
+  },
+  {
+   "method": "4回・Pocock",
+   "fpr": 0.0513,
+   "fpr_se": 0.0016,
+   "power": 0.7778,
+   "mean_days_H1": 9.6559,
+   "median_stop_day_H1": 7.0,
+   "mean_days_H0": 13.6768,
+   "exaggeration_median": 1.2746,
+   "exaggeration_mean": 1.3809,
+   "wrong_sign": 0.0001
+  },
+  {
+   "method": "毎日・O'Brien-Fleming",
+   "fpr": 0.0491,
+   "fpr_se": 0.0015,
+   "power": 0.8286,
+   "mean_days_H1": 10.022,
+   "median_stop_day_H1": 9.0,
+   "mean_days_H0": 13.8428,
+   "exaggeration_median": 1.1851,
+   "exaggeration_mean": 1.284,
+   "wrong_sign": 0.0
+  },
+  {
+   "method": "mSPRT（1時間ごと・14日まで）",
+   "fpr": 0.0185,
+   "fpr_se": 0.001,
+   "power": 0.5982,
+   "mean_days_H1": 10.3732,
+   "median_stop_day_H1": 7.9167,
+   "mean_days_H0": 13.8593,
+   "exaggeration_median": 1.4167,
+   "exaggeration_mean": 1.6306,
+   "wrong_sign": 0.0
+  },
+  {
+   "method": "mSPRT（1時間ごと・28日まで）",
+   "fpr": 0.0248,
+   "fpr_se": 0.0011,
+   "power": 0.923,
+   "mean_days_H1": 13.2231,
+   "median_stop_day_H1": 10.9167,
+   "mean_days_H0": 27.5506,
+   "exaggeration_median": 1.1842,
+   "exaggeration_mean": 1.369,
+   "wrong_sign": 0.0
+  }
+ ],
+ "stop_day_dist_H1": {
+  "固定（14日目に1回）": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 16921,
+   "no_stop": 3079
+  },
+  "毎日見て1.96で止める": {
+   "1": 2463,
+   "2": 2371,
+   "3": 2167,
+   "4": 1910,
+   "5": 1665,
+   "6": 1436,
+   "7": 1259,
+   "8": 1058,
+   "9": 966,
+   "10": 782,
+   "11": 686,
+   "12": 544,
+   "13": 455,
+   "14": 377,
+   "no_stop": 1861
+  },
+  "4回・O'Brien-Fleming": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 352,
+   "5": 0,
+   "6": 0,
+   "7": 4640,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 8167,
+   "12": 0,
+   "13": 0,
+   "14": 3590,
+   "no_stop": 3251
+  },
+  "mSPRT（1時間ごと・28日まで）": {
+   "1": 15,
+   "2": 248,
+   "3": 610,
+   "4": 874,
+   "5": 1004,
+   "6": 1125,
+   "7": 1098,
+   "8": 1111,
+   "9": 1147,
+   "10": 1069,
+   "11": 1043,
+   "12": 899,
+   "13": 895,
+   "14": 825,
+   "15": 793,
+   "16": 724,
+   "17": 687,
+   "18": 641,
+   "19": 547,
+   "20": 485,
+   "21": 444,
+   "22": 430,
+   "23": 384,
+   "24": 309,
+   "25": 298,
+   "26": 302,
+   "27": 232,
+   "28": 222,
+   "no_stop": 1539
+  }
+ },
+ "D": [
+  {
+   "tau": 0.0025,
+   "tau_rel": 0.05,
+   "fpr": 0.0135,
+   "power": 0.9073,
+   "mean_days_H1": 15.4908,
+   "exaggeration_median": 1.1314
+  },
+  {
+   "tau": 0.005,
+   "tau_rel": 0.1,
+   "fpr": 0.0271,
+   "power": 0.9149,
+   "mean_days_H1": 13.3629,
+   "exaggeration_median": 1.1804
+  },
+  {
+   "tau": 0.01,
+   "tau_rel": 0.2,
+   "fpr": 0.0347,
+   "power": 0.8931,
+   "mean_days_H1": 13.4633,
+   "exaggeration_median": 1.2165
+  },
+  {
+   "tau": 0.02,
+   "tau_rel": 0.4,
+   "fpr": 0.0345,
+   "power": 0.8566,
+   "mean_days_H1": 14.6296,
+   "exaggeration_median": 1.2346
+  }
+ ],
+ "bounds_actual_days": [
+  3.269,
+  2.45,
+  2.183,
+  2.078
+ ],
+ "E": [
+  {
+   "check": "基準2%",
+   "method": "毎日見て1.96",
+   "fpr": 0.2201,
+   "power": 0.6149,
+   "mean_days_H1": 9.1781
+  },
+  {
+   "check": "基準2%",
+   "method": "4回・OBF",
+   "fpr": 0.0512,
+   "power": 0.4351,
+   "mean_days_H1": 12.8806
+  },
+  {
+   "check": "基準2%",
+   "method": "mSPRT28",
+   "fpr": 0.0183,
+   "power": 0.4578,
+   "mean_days_H1": 22.7958
+  },
+  {
+   "check": "基準20%",
+   "method": "毎日見て1.96",
+   "fpr": 0.2184,
+   "power": 1.0,
+   "mean_days_H1": 2.0514
+  },
+  {
+   "check": "基準20%",
+   "method": "4回・OBF",
+   "fpr": 0.0488,
+   "power": 1.0,
+   "mean_days_H1": 5.8704
+  },
+  {
+   "check": "基準20%",
+   "method": "mSPRT28",
+   "fpr": 0.0326,
+   "power": 1.0,
+   "mean_days_H1": 2.9448
+  },
+  {
+   "check": "曜日のパターンあり",
+   "method": "毎日見て1.96",
+   "fpr": 0.222,
+   "power": 0.9102,
+   "mean_days_H1": 6.3406
+  },
+  {
+   "check": "曜日のパターンあり",
+   "method": "4回・OBF",
+   "fpr": 0.0523,
+   "power": 0.8377,
+   "mean_days_H1": 11.0298
+  },
+  {
+   "check": "曜日のパターンあり",
+   "method": "mSPRT28",
+   "fpr": 0.024,
+   "power": 0.9247,
+   "mean_days_H1": 13.4788
+  },
+  {
+   "check": "曜日のパターンあり",
+   "method": "固定14日",
+   "fpr": 0.0499,
+   "power": 0.8476,
+   "mean_days_H1": 14.0
+  },
+  {
+   "check": "乱数21",
+   "method": "毎日見て1.96",
+   "fpr": 0.2313,
+   "power": NaN,
+   "mean_days_H1": NaN
+  },
+  {
+   "check": "乱数21",
+   "method": "4回・OBF",
+   "fpr": 0.0514,
+   "power": NaN,
+   "mean_days_H1": NaN
+  },
+  {
+   "check": "乱数22",
+   "method": "毎日見て1.96",
+   "fpr": 0.2222,
+   "power": NaN,
+   "mean_days_H1": NaN
+  },
+  {
+   "check": "乱数22",
+   "method": "4回・OBF",
+   "fpr": 0.0491,
+   "power": NaN,
+   "mean_days_H1": NaN
+  },
+  {
+   "check": "乱数23",
+   "method": "毎日見て1.96",
+   "fpr": 0.2223,
+   "power": NaN,
+   "mean_days_H1": NaN
+  },
+  {
+   "check": "乱数23",
+   "method": "4回・OBF",
+   "fpr": 0.0477,
+   "power": NaN,
+   "mean_days_H1": NaN
+  },
+  {
+   "check": "見る日のずれ",
+   "method": "予定外の日・境界を計算し直す",
+   "fpr": 0.0502,
+   "power": NaN,
+   "mean_days_H1": NaN
+  },
+  {
+   "check": "見る日のずれ",
+   "method": "予定外の日・予定の境界のまま",
+   "fpr": 0.0468,
+   "power": NaN,
+   "mean_days_H1": NaN
+  },
+  {
+   "check": "見る日のずれ",
+   "method": "予定の4回に加えて毎日1.96で見る",
+   "fpr": 0.2041,
+   "power": NaN,
+   "mean_days_H1": NaN
+  },
+  {
+   "check": "片側検定",
+   "method": "片側・最後に1回",
+   "fpr": 0.0538,
+   "power": NaN,
+   "mean_days_H1": NaN
+  },
+  {
+   "check": "片側検定",
+   "method": "片側・毎日",
+   "fpr": 0.1957,
+   "power": NaN,
+   "mean_days_H1": NaN
+  }
+ ]
+}
