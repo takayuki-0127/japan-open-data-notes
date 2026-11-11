@@ -1,0 +1,532 @@
+######## CR1 返品を元の売上日に計上
+--- S2/R1.sql
++++ S2/R1.sql (CR1)
+@@ -9,7 +9,7 @@
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+   FROM line_ok o
+   UNION ALL
+-  SELECT r.return_date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
++  SELECT o.date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
+   FROM returns_line r
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+--- S2/R2.sql
++++ S2/R2.sql (CR1)
+@@ -9,7 +9,7 @@
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+   FROM line_ok o
+   UNION ALL
+-  SELECT r.return_date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
++  SELECT o.date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
+   FROM returns_line r
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+--- S2/R3.sql
++++ S2/R3.sql (CR1)
+@@ -9,7 +9,7 @@
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+   FROM line_ok o
+   UNION ALL
+-  SELECT r.return_date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
++  SELECT o.date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
+   FROM returns_line r
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+--- S2/R4.sql
++++ S2/R4.sql (CR1)
+@@ -9,7 +9,7 @@
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+   FROM line_ok o
+   UNION ALL
+-  SELECT r.return_date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
++  SELECT o.date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
+   FROM returns_line r
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+--- S2/R5.sql
++++ S2/R5.sql (CR1)
+@@ -9,7 +9,7 @@
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+   FROM line_ok o
+   UNION ALL
+-  SELECT r.return_date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
++  SELECT o.date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
+   FROM returns_line r
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+--- S2/R6.sql
++++ S2/R6.sql (CR1)
+@@ -9,7 +9,7 @@
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+   FROM line_ok o
+   UNION ALL
+-  SELECT r.return_date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
++  SELECT o.date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
+   FROM returns_line r
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+--- S2/R7.sql
++++ S2/R7.sql (CR1)
+@@ -9,7 +9,7 @@
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+   FROM line_ok o
+   UNION ALL
+-  SELECT r.return_date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
++  SELECT o.date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
+   FROM returns_line r
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+--- S2/R8.sql
++++ S2/R8.sql (CR1)
+@@ -9,7 +9,7 @@
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+   FROM line_ok o
+   UNION ALL
+-  SELECT r.return_date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
++  SELECT o.date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
+   FROM returns_line r
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+######## CR2 既存店を12か月以上に
+--- S2/R4.sql
++++ S2/R4.sql (CR2)
+@@ -22,7 +22,7 @@
+   FROM store s
+   JOIN mon om ON om.date_key = s.open_date_key
+   CROSS JOIN (SELECT DISTINCT mi FROM mon) m
+-  WHERE om.mi <= m.mi - 13
++  WHERE om.mi <= m.mi - 12
+ )
+ SELECT a.ym, SUM(a.sales) AS comp_sales, SUM(b.sales) AS comp_sales_ly,
+        SUM(a.sales) * 1.0 / SUM(b.sales) - 1 AS yoy
+--- S2/R7.sql
++++ S2/R7.sql (CR2)
+@@ -22,7 +22,7 @@
+   FROM store s
+   JOIN mon om ON om.date_key = s.open_date_key
+   CROSS JOIN (SELECT DISTINCT mi FROM mon) m
+-  WHERE om.mi <= m.mi - 13
++  WHERE om.mi <= m.mi - 12
+ ),
+ cust AS (
+   SELECT r.date_key, r.store_id,
+######## CR3 月を21日締めの会計月に
+--- S2/R1.sql
++++ S2/R1.sql (CR3)
+@@ -14,7 +14,7 @@
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+ mon AS (
+-  SELECT c.date_key, c.cal_ym AS ym, c.cal_mi AS mi
++  SELECT c.date_key, c.fis_ym AS ym, c.fis_mi AS mi
+   FROM calendar c
+ )
+ SELECT m.ym, SUM(n.amt) AS sales
+--- S2/R2.sql
++++ S2/R2.sql (CR3)
+@@ -14,7 +14,7 @@
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+ mon AS (
+-  SELECT c.date_key, c.cal_ym AS ym, c.cal_mi AS mi
++  SELECT c.date_key, c.fis_ym AS ym, c.fis_mi AS mi
+   FROM calendar c
+ )
+ SELECT m.ym, n.store_id, SUM(n.amt) AS sales
+--- S2/R3.sql
++++ S2/R3.sql (CR3)
+@@ -14,7 +14,7 @@
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+ mon AS (
+-  SELECT c.date_key, c.cal_ym AS ym, c.cal_mi AS mi
++  SELECT c.date_key, c.fis_ym AS ym, c.fis_mi AS mi
+   FROM calendar c
+ ),
+ dept_grp AS (
+--- S2/R4.sql
++++ S2/R4.sql (CR3)
+@@ -14,7 +14,7 @@
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+ mon AS (
+-  SELECT c.date_key, c.cal_ym AS ym, c.cal_mi AS mi
++  SELECT c.date_key, c.fis_ym AS ym, c.fis_mi AS mi
+   FROM calendar c
+ ),
+ comp_store AS (
+--- S2/R5.sql
++++ S2/R5.sql (CR3)
+@@ -14,7 +14,7 @@
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+ mon AS (
+-  SELECT c.date_key, c.cal_ym AS ym, c.cal_mi AS mi
++  SELECT c.date_key, c.fis_ym AS ym, c.fis_mi AS mi
+   FROM calendar c
+ ),
+ cust AS (
+--- S2/R6.sql
++++ S2/R6.sql (CR3)
+@@ -14,7 +14,7 @@
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+ mon AS (
+-  SELECT c.date_key, c.cal_ym AS ym, c.cal_mi AS mi
++  SELECT c.date_key, c.fis_ym AS ym, c.fis_mi AS mi
+   FROM calendar c
+ ),
+ dept_grp AS (
+--- S2/R7.sql
++++ S2/R7.sql (CR3)
+@@ -14,7 +14,7 @@
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+ mon AS (
+-  SELECT c.date_key, c.cal_ym AS ym, c.cal_mi AS mi
++  SELECT c.date_key, c.fis_ym AS ym, c.fis_mi AS mi
+   FROM calendar c
+ ),
+ comp_store AS (
+--- S2/R8.sql
++++ S2/R8.sql (CR3)
+@@ -14,7 +14,7 @@
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no
+ ),
+ mon AS (
+-  SELECT c.date_key, c.cal_ym AS ym, c.cal_mi AS mi
++  SELECT c.date_key, c.fis_ym AS ym, c.fis_mi AS mi
+   FROM calendar c
+ )
+ SELECT n.d AS date_key, SUM(n.amt) AS sales
+######## CR4 税込み→税抜き
+--- S2/R1.sql
++++ S2/R1.sql (CR4)
+@@ -1,7 +1,7 @@
+ -- R1 全社の月次売上
+ WITH line_ok AS (
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+-         1.0 AS amt_factor
++         100.0 / (100 + l.tax_pct) AS amt_factor
+   FROM sales_line l
+   WHERE l.status <> 'cancel'
+ ),
+--- S2/R2.sql
++++ S2/R2.sql (CR4)
+@@ -1,7 +1,7 @@
+ -- R2 店舗別の月次売上
+ WITH line_ok AS (
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+-         1.0 AS amt_factor
++         100.0 / (100 + l.tax_pct) AS amt_factor
+   FROM sales_line l
+   WHERE l.status <> 'cancel'
+ ),
+--- S2/R3.sql
++++ S2/R3.sql (CR4)
+@@ -1,7 +1,7 @@
+ -- R3 部門グループ別の月次売上
+ WITH line_ok AS (
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+-         1.0 AS amt_factor
++         100.0 / (100 + l.tax_pct) AS amt_factor
+   FROM sales_line l
+   WHERE l.status <> 'cancel'
+ ),
+--- S2/R4.sql
++++ S2/R4.sql (CR4)
+@@ -1,7 +1,7 @@
+ -- R4 既存店の前年比
+ WITH line_ok AS (
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+-         1.0 AS amt_factor
++         100.0 / (100 + l.tax_pct) AS amt_factor
+   FROM sales_line l
+   WHERE l.status <> 'cancel'
+ ),
+--- S2/R5.sql
++++ S2/R5.sql (CR4)
+@@ -1,7 +1,7 @@
+ -- R5 客数と客単価
+ WITH line_ok AS (
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+-         1.0 AS amt_factor
++         100.0 / (100 + l.tax_pct) AS amt_factor
+   FROM sales_line l
+   WHERE l.status <> 'cancel'
+ ),
+--- S2/R6.sql
++++ S2/R6.sql (CR4)
+@@ -1,7 +1,7 @@
+ -- R6 店舗×部門グループの月次売上
+ WITH line_ok AS (
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+-         1.0 AS amt_factor
++         100.0 / (100 + l.tax_pct) AS amt_factor
+   FROM sales_line l
+   WHERE l.status <> 'cancel'
+ ),
+--- S2/R7.sql
++++ S2/R7.sql (CR4)
+@@ -1,7 +1,7 @@
+ -- R7 KPI のまとめ
+ WITH line_ok AS (
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+-         1.0 AS amt_factor
++         100.0 / (100 + l.tax_pct) AS amt_factor
+   FROM sales_line l
+   WHERE l.status <> 'cancel'
+ ),
+--- S2/R8.sql
++++ S2/R8.sql (CR4)
+@@ -1,7 +1,7 @@
+ -- R8 直近月の日別売上
+ WITH line_ok AS (
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+-         1.0 AS amt_factor
++         100.0 / (100 + l.tax_pct) AS amt_factor
+   FROM sales_line l
+   WHERE l.status <> 'cancel'
+ ),
+######## CR5 テスト店を除外
+--- S2/R1.sql
++++ S2/R1.sql (CR5)
+@@ -3,7 +3,9 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
++  JOIN store s ON s.store_id = l.store_id
+   WHERE l.status <> 'cancel'
++    AND s.is_test = 0
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R2.sql
++++ S2/R2.sql (CR5)
+@@ -3,7 +3,9 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
++  JOIN store s ON s.store_id = l.store_id
+   WHERE l.status <> 'cancel'
++    AND s.is_test = 0
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R3.sql
++++ S2/R3.sql (CR5)
+@@ -3,7 +3,9 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
++  JOIN store s ON s.store_id = l.store_id
+   WHERE l.status <> 'cancel'
++    AND s.is_test = 0
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R4.sql
++++ S2/R4.sql (CR5)
+@@ -3,7 +3,9 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
++  JOIN store s ON s.store_id = l.store_id
+   WHERE l.status <> 'cancel'
++    AND s.is_test = 0
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R5.sql
++++ S2/R5.sql (CR5)
+@@ -3,7 +3,9 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
++  JOIN store s ON s.store_id = l.store_id
+   WHERE l.status <> 'cancel'
++    AND s.is_test = 0
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R6.sql
++++ S2/R6.sql (CR5)
+@@ -3,7 +3,9 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
++  JOIN store s ON s.store_id = l.store_id
+   WHERE l.status <> 'cancel'
++    AND s.is_test = 0
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R7.sql
++++ S2/R7.sql (CR5)
+@@ -3,7 +3,9 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
++  JOIN store s ON s.store_id = l.store_id
+   WHERE l.status <> 'cancel'
++    AND s.is_test = 0
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R8.sql
++++ S2/R8.sql (CR5)
+@@ -3,7 +3,9 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
++  JOIN store s ON s.store_id = l.store_id
+   WHERE l.status <> 'cancel'
++    AND s.is_test = 0
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+######## CR6 除外に void を追加
+--- S2/R1.sql
++++ S2/R1.sql (CR6)
+@@ -3,7 +3,7 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
+-  WHERE l.status <> 'cancel'
++  WHERE l.status NOT IN ('cancel', 'void')
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R2.sql
++++ S2/R2.sql (CR6)
+@@ -3,7 +3,7 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
+-  WHERE l.status <> 'cancel'
++  WHERE l.status NOT IN ('cancel', 'void')
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R3.sql
++++ S2/R3.sql (CR6)
+@@ -3,7 +3,7 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
+-  WHERE l.status <> 'cancel'
++  WHERE l.status NOT IN ('cancel', 'void')
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R4.sql
++++ S2/R4.sql (CR6)
+@@ -3,7 +3,7 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
+-  WHERE l.status <> 'cancel'
++  WHERE l.status NOT IN ('cancel', 'void')
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R5.sql
++++ S2/R5.sql (CR6)
+@@ -3,7 +3,7 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
+-  WHERE l.status <> 'cancel'
++  WHERE l.status NOT IN ('cancel', 'void')
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R6.sql
++++ S2/R6.sql (CR6)
+@@ -3,7 +3,7 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
+-  WHERE l.status <> 'cancel'
++  WHERE l.status NOT IN ('cancel', 'void')
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R7.sql
++++ S2/R7.sql (CR6)
+@@ -3,7 +3,7 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
+-  WHERE l.status <> 'cancel'
++  WHERE l.status NOT IN ('cancel', 'void')
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+--- S2/R8.sql
++++ S2/R8.sql (CR6)
+@@ -3,7 +3,7 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
+-  WHERE l.status <> 'cancel'
++  WHERE l.status NOT IN ('cancel', 'void')
+ ),
+ net AS (
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+######## CR7 部門のまとめ方の変更
+--- S2/R3.sql
++++ S2/R3.sql (CR7)
+@@ -20,10 +20,9 @@
+ dept_grp AS (
+   SELECT d.dept_id,
+          CASE
+-           WHEN d.dept_id IN (1, 2) THEN '生鮮'
++           WHEN d.dept_id IN (1, 2, 5) THEN '生鮮・日配'
+            WHEN d.dept_id IN (3, 4) THEN '加工食品'
+-           WHEN d.dept_id IN (5) THEN '日配'
+-           WHEN d.dept_id IN (6, 7) THEN '日用品'
++           WHEN d.dept_id IN (6, 7, 8) THEN '日用品'
+            ELSE 'その他'
+          END AS grp
+   FROM dept d
+--- S2/R6.sql
++++ S2/R6.sql (CR7)
+@@ -20,10 +20,9 @@
+ dept_grp AS (
+   SELECT d.dept_id,
+          CASE
+-           WHEN d.dept_id IN (1, 2) THEN '生鮮'
++           WHEN d.dept_id IN (1, 2, 5) THEN '生鮮・日配'
+            WHEN d.dept_id IN (3, 4) THEN '加工食品'
+-           WHEN d.dept_id IN (5) THEN '日配'
+-           WHEN d.dept_id IN (6, 7) THEN '日用品'
++           WHEN d.dept_id IN (6, 7, 8) THEN '日用品'
+            ELSE 'その他'
+          END AS grp
+   FROM dept d
+######## CR8 客数を会員の延べ人数に
+--- S2/R5.sql
++++ S2/R5.sql (CR8)
+@@ -19,7 +19,8 @@
+ ),
+ cust AS (
+   SELECT r.date_key, r.store_id,
+-         r.receipt_id AS cust_key
++         CASE WHEN r.member_id IS NULL THEN -r.receipt_id
++                ELSE CAST(r.member_id AS BIGINT) * 100000000 + r.date_key END AS cust_key
+   FROM receipt r
+   WHERE EXISTS (SELECT 1 FROM line_ok o WHERE o.receipt_id = r.receipt_id)
+ )
+--- S2/R7.sql
++++ S2/R7.sql (CR8)
+@@ -26,7 +26,8 @@
+ ),
+ cust AS (
+   SELECT r.date_key, r.store_id,
+-         r.receipt_id AS cust_key
++         CASE WHEN r.member_id IS NULL THEN -r.receipt_id
++                ELSE CAST(r.member_id AS BIGINT) * 100000000 + r.date_key END AS cust_key
+   FROM receipt r
+   WHERE EXISTS (SELECT 1 FROM line_ok o WHERE o.receipt_id = r.receipt_id)
+ )

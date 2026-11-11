@@ -1,0 +1,1083 @@
+######## CR1 返品を元の売上日に計上
+--- S1/R1.sql
++++ S1/R1.sql (CR1)
+@@ -5,7 +5,7 @@
+     FROM sales_line l
+     WHERE l.status <> 'cancel'
+     UNION ALL
+-    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++    SELECT l.date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+     WHERE l.status <> 'cancel'
+--- S1/R2.sql
++++ S1/R2.sql (CR1)
+@@ -5,7 +5,7 @@
+     FROM sales_line l
+     WHERE l.status <> 'cancel'
+     UNION ALL
+-    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++    SELECT l.date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+     WHERE l.status <> 'cancel'
+--- S1/R3.sql
++++ S1/R3.sql (CR1)
+@@ -13,7 +13,7 @@
+     FROM sales_line l
+     WHERE l.status <> 'cancel'
+     UNION ALL
+-    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++    SELECT l.date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+     WHERE l.status <> 'cancel'
+--- S1/R4.sql
++++ S1/R4.sql (CR1)
+@@ -8,7 +8,7 @@
+         FROM sales_line l
+         WHERE l.status <> 'cancel'
+         UNION ALL
+-        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++        SELECT l.date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+         WHERE l.status <> 'cancel'
+@@ -23,7 +23,7 @@
+         FROM sales_line l
+         WHERE l.status <> 'cancel'
+         UNION ALL
+-        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++        SELECT l.date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+         WHERE l.status <> 'cancel'
+--- S1/R5.sql
++++ S1/R5.sql (CR1)
+@@ -7,7 +7,7 @@
+         FROM sales_line l
+         WHERE l.status <> 'cancel'
+         UNION ALL
+-        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++        SELECT l.date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+         WHERE l.status <> 'cancel'
+--- S1/R6.sql
++++ S1/R6.sql (CR1)
+@@ -13,7 +13,7 @@
+     FROM sales_line l
+     WHERE l.status <> 'cancel'
+     UNION ALL
+-    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++    SELECT l.date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+     WHERE l.status <> 'cancel'
+--- S1/R7.sql
++++ S1/R7.sql (CR1)
+@@ -7,7 +7,7 @@
+         FROM sales_line l
+         WHERE l.status <> 'cancel'
+         UNION ALL
+-        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++        SELECT l.date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+         WHERE l.status <> 'cancel'
+@@ -32,7 +32,7 @@
+           FROM sales_line l
+           WHERE l.status <> 'cancel'
+           UNION ALL
+-          SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++          SELECT l.date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+           FROM returns_line r
+           JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+           WHERE l.status <> 'cancel'
+@@ -47,7 +47,7 @@
+           FROM sales_line l
+           WHERE l.status <> 'cancel'
+           UNION ALL
+-          SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++          SELECT l.date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+           FROM returns_line r
+           JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+           WHERE l.status <> 'cancel'
+--- S1/R8.sql
++++ S1/R8.sql (CR1)
+@@ -5,7 +5,7 @@
+     FROM sales_line l
+     WHERE l.status <> 'cancel'
+     UNION ALL
+-    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++    SELECT l.date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+     WHERE l.status <> 'cancel'
+@@ -18,7 +18,7 @@
+         FROM sales_line l
+         WHERE l.status <> 'cancel'
+         UNION ALL
+-        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++        SELECT l.date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+         WHERE l.status <> 'cancel'
+######## CR2 既存店を12か月以上に
+--- S1/R4.sql
++++ S1/R4.sql (CR2)
+@@ -33,6 +33,6 @@
+ ) b ON b.store_id = a.store_id AND b.mi = a.mi - 12
+ JOIN store cs ON cs.store_id = a.store_id
+ JOIN calendar oc ON oc.date_key = cs.open_date_key
+-WHERE oc.cal_mi <= a.mi - 13
++WHERE oc.cal_mi <= a.mi - 12
+ GROUP BY a.ym
+ ORDER BY a.ym;
+--- S1/R7.sql
++++ S1/R7.sql (CR2)
+@@ -57,7 +57,7 @@
+   ) b ON b.store_id = a.store_id AND b.mi = a.mi - 12
+   JOIN store cs ON cs.store_id = a.store_id
+   JOIN calendar oc ON oc.date_key = cs.open_date_key
+-  WHERE oc.cal_mi <= a.mi - 13
++  WHERE oc.cal_mi <= a.mi - 12
+   GROUP BY a.ym
+ ) q ON q.ym = s.ym
+ ORDER BY s.ym;
+######## CR3 月を21日締めの会計月に
+--- S1/R1.sql
++++ S1/R1.sql (CR3)
+@@ -1,5 +1,5 @@
+ -- R1 全社の月次売上
+-SELECT c.cal_ym AS ym, SUM(x.amt) AS sales
++SELECT c.fis_ym AS ym, SUM(x.amt) AS sales
+ FROM (
+     SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+     FROM sales_line l
+@@ -11,5 +11,5 @@
+     WHERE l.status <> 'cancel'
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+-GROUP BY c.cal_ym
+-ORDER BY c.cal_ym;
++GROUP BY c.fis_ym
++ORDER BY c.fis_ym;
+--- S1/R2.sql
++++ S1/R2.sql (CR3)
+@@ -1,5 +1,5 @@
+ -- R2 店舗別の月次売上
+-SELECT c.cal_ym AS ym, x.store_id, SUM(x.amt) AS sales
++SELECT c.fis_ym AS ym, x.store_id, SUM(x.amt) AS sales
+ FROM (
+     SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+     FROM sales_line l
+@@ -11,5 +11,5 @@
+     WHERE l.status <> 'cancel'
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+-GROUP BY c.cal_ym, x.store_id
+-ORDER BY c.cal_ym, x.store_id;
++GROUP BY c.fis_ym, x.store_id
++ORDER BY c.fis_ym, x.store_id;
+--- S1/R3.sql
++++ S1/R3.sql (CR3)
+@@ -1,5 +1,5 @@
+ -- R3 部門グループ別の月次売上
+-SELECT c.cal_ym AS ym,
++SELECT c.fis_ym AS ym,
+        CASE
+          WHEN i.dept_id IN (1, 2) THEN '生鮮'
+          WHEN i.dept_id IN (3, 4) THEN '加工食品'
+@@ -20,7 +20,7 @@
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+ JOIN item i ON i.item_id = x.item_id
+-GROUP BY c.cal_ym,
++GROUP BY c.fis_ym,
+        CASE
+          WHEN i.dept_id IN (1, 2) THEN '生鮮'
+          WHEN i.dept_id IN (3, 4) THEN '加工食品'
+--- S1/R4.sql
++++ S1/R4.sql (CR3)
+@@ -2,7 +2,7 @@
+ SELECT a.ym, SUM(a.sales) AS comp_sales, SUM(b.sales) AS comp_sales_ly,
+        SUM(a.sales) * 1.0 / SUM(b.sales) - 1 AS yoy
+ FROM (
+-    SELECT c.cal_ym AS ym, c.cal_mi AS mi, x.store_id, SUM(x.amt) AS sales
++    SELECT c.fis_ym AS ym, c.fis_mi AS mi, x.store_id, SUM(x.amt) AS sales
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
+@@ -14,10 +14,10 @@
+         WHERE l.status <> 'cancel'
+     ) x
+     JOIN calendar c ON c.date_key = x.d
+-    GROUP BY c.cal_ym, c.cal_mi, x.store_id
++    GROUP BY c.fis_ym, c.fis_mi, x.store_id
+ ) a
+ JOIN (
+-    SELECT c.cal_ym AS ym, c.cal_mi AS mi, x.store_id, SUM(x.amt) AS sales
++    SELECT c.fis_ym AS ym, c.fis_mi AS mi, x.store_id, SUM(x.amt) AS sales
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
+@@ -29,10 +29,10 @@
+         WHERE l.status <> 'cancel'
+     ) x
+     JOIN calendar c ON c.date_key = x.d
+-    GROUP BY c.cal_ym, c.cal_mi, x.store_id
++    GROUP BY c.fis_ym, c.fis_mi, x.store_id
+ ) b ON b.store_id = a.store_id AND b.mi = a.mi - 12
+ JOIN store cs ON cs.store_id = a.store_id
+ JOIN calendar oc ON oc.date_key = cs.open_date_key
+-WHERE oc.cal_mi <= a.mi - 13
++WHERE oc.fis_mi <= a.mi - 13
+ GROUP BY a.ym
+ ORDER BY a.ym;
+--- S1/R5.sql
++++ S1/R5.sql (CR3)
+@@ -1,7 +1,7 @@
+ -- R5 客数と客単価
+ SELECT s.ym, s.sales, k.customers, s.sales * 1.0 / k.customers AS ticket
+ FROM (
+-    SELECT c.cal_ym AS ym, SUM(x.amt) AS sales
++    SELECT c.fis_ym AS ym, SUM(x.amt) AS sales
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
+@@ -13,14 +13,14 @@
+         WHERE l.status <> 'cancel'
+     ) x
+     JOIN calendar c ON c.date_key = x.d
+-    GROUP BY c.cal_ym
++    GROUP BY c.fis_ym
+ ) s
+ JOIN (
+-    SELECT c.cal_ym AS ym, COUNT(DISTINCT rc.receipt_id) AS customers
++    SELECT c.fis_ym AS ym, COUNT(DISTINCT rc.receipt_id) AS customers
+     FROM receipt rc
+     JOIN calendar c ON c.date_key = rc.date_key
+     WHERE EXISTS (SELECT 1 FROM sales_line l
+                   WHERE l.receipt_id = rc.receipt_id AND l.status <> 'cancel')
+-    GROUP BY c.cal_ym
++    GROUP BY c.fis_ym
+ ) k ON k.ym = s.ym
+ ORDER BY s.ym;
+--- S1/R6.sql
++++ S1/R6.sql (CR3)
+@@ -1,5 +1,5 @@
+ -- R6 店舗×部門グループの月次売上
+-SELECT c.cal_ym AS ym, x.store_id,
++SELECT c.fis_ym AS ym, x.store_id,
+        CASE
+          WHEN i.dept_id IN (1, 2) THEN '生鮮'
+          WHEN i.dept_id IN (3, 4) THEN '加工食品'
+@@ -20,7 +20,7 @@
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+ JOIN item i ON i.item_id = x.item_id
+-GROUP BY c.cal_ym, x.store_id,
++GROUP BY c.fis_ym, x.store_id,
+        CASE
+          WHEN i.dept_id IN (1, 2) THEN '生鮮'
+          WHEN i.dept_id IN (3, 4) THEN '加工食品'
+--- S1/R7.sql
++++ S1/R7.sql (CR3)
+@@ -1,7 +1,7 @@
+ -- R7 KPI のまとめ
+ SELECT s.ym, s.sales, k.customers, s.sales * 1.0 / k.customers AS ticket, q.yoy AS comp_yoy
+ FROM (
+-    SELECT c.cal_ym AS ym, SUM(x.amt) AS sales
++    SELECT c.fis_ym AS ym, SUM(x.amt) AS sales
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
+@@ -13,20 +13,20 @@
+         WHERE l.status <> 'cancel'
+     ) x
+     JOIN calendar c ON c.date_key = x.d
+-    GROUP BY c.cal_ym
++    GROUP BY c.fis_ym
+ ) s
+ JOIN (
+-    SELECT c.cal_ym AS ym, COUNT(DISTINCT rc.receipt_id) AS customers
++    SELECT c.fis_ym AS ym, COUNT(DISTINCT rc.receipt_id) AS customers
+     FROM receipt rc
+     JOIN calendar c ON c.date_key = rc.date_key
+     WHERE EXISTS (SELECT 1 FROM sales_line l
+                   WHERE l.receipt_id = rc.receipt_id AND l.status <> 'cancel')
+-    GROUP BY c.cal_ym
++    GROUP BY c.fis_ym
+ ) k ON k.ym = s.ym
+ LEFT JOIN (
+   SELECT a.ym, SUM(a.sales) * 1.0 / SUM(b.sales) - 1 AS yoy
+   FROM (
+-      SELECT c.cal_ym AS ym, c.cal_mi AS mi, x.store_id, SUM(x.amt) AS sales
++      SELECT c.fis_ym AS ym, c.fis_mi AS mi, x.store_id, SUM(x.amt) AS sales
+       FROM (
+           SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+           FROM sales_line l
+@@ -38,10 +38,10 @@
+           WHERE l.status <> 'cancel'
+       ) x
+       JOIN calendar c ON c.date_key = x.d
+-      GROUP BY c.cal_ym, c.cal_mi, x.store_id
++      GROUP BY c.fis_ym, c.fis_mi, x.store_id
+   ) a
+   JOIN (
+-      SELECT c.cal_ym AS ym, c.cal_mi AS mi, x.store_id, SUM(x.amt) AS sales
++      SELECT c.fis_ym AS ym, c.fis_mi AS mi, x.store_id, SUM(x.amt) AS sales
+       FROM (
+           SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+           FROM sales_line l
+@@ -53,11 +53,11 @@
+           WHERE l.status <> 'cancel'
+       ) x
+       JOIN calendar c ON c.date_key = x.d
+-      GROUP BY c.cal_ym, c.cal_mi, x.store_id
++      GROUP BY c.fis_ym, c.fis_mi, x.store_id
+   ) b ON b.store_id = a.store_id AND b.mi = a.mi - 12
+   JOIN store cs ON cs.store_id = a.store_id
+   JOIN calendar oc ON oc.date_key = cs.open_date_key
+-  WHERE oc.cal_mi <= a.mi - 13
++  WHERE oc.fis_mi <= a.mi - 13
+   GROUP BY a.ym
+ ) q ON q.ym = s.ym
+ ORDER BY s.ym;
+--- S1/R8.sql
++++ S1/R8.sql (CR3)
+@@ -11,8 +11,8 @@
+     WHERE l.status <> 'cancel'
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+-WHERE c.cal_ym = (
+-    SELECT MAX(c2.cal_ym)
++WHERE c.fis_ym = (
++    SELECT MAX(c2.fis_ym)
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
+######## CR4 税込み→税抜き
+--- S1/R1.sql
++++ S1/R1.sql (CR4)
+@@ -1,11 +1,11 @@
+ -- R1 全社の月次売上
+ SELECT c.cal_ym AS ym, SUM(x.amt) AS sales
+ FROM (
+-    SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
++    SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+     FROM sales_line l
+     WHERE l.status <> 'cancel'
+     UNION ALL
+-    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+     WHERE l.status <> 'cancel'
+--- S1/R2.sql
++++ S1/R2.sql (CR4)
+@@ -1,11 +1,11 @@
+ -- R2 店舗別の月次売上
+ SELECT c.cal_ym AS ym, x.store_id, SUM(x.amt) AS sales
+ FROM (
+-    SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
++    SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+     FROM sales_line l
+     WHERE l.status <> 'cancel'
+     UNION ALL
+-    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+     WHERE l.status <> 'cancel'
+--- S1/R3.sql
++++ S1/R3.sql (CR4)
+@@ -9,11 +9,11 @@
+        END AS grp,
+        SUM(x.amt) AS sales
+ FROM (
+-    SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
++    SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+     FROM sales_line l
+     WHERE l.status <> 'cancel'
+     UNION ALL
+-    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+     WHERE l.status <> 'cancel'
+--- S1/R4.sql
++++ S1/R4.sql (CR4)
+@@ -4,11 +4,11 @@
+ FROM (
+     SELECT c.cal_ym AS ym, c.cal_mi AS mi, x.store_id, SUM(x.amt) AS sales
+     FROM (
+-        SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
++        SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+         FROM sales_line l
+         WHERE l.status <> 'cancel'
+         UNION ALL
+-        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+         WHERE l.status <> 'cancel'
+@@ -19,11 +19,11 @@
+ JOIN (
+     SELECT c.cal_ym AS ym, c.cal_mi AS mi, x.store_id, SUM(x.amt) AS sales
+     FROM (
+-        SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
++        SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+         FROM sales_line l
+         WHERE l.status <> 'cancel'
+         UNION ALL
+-        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+         WHERE l.status <> 'cancel'
+--- S1/R5.sql
++++ S1/R5.sql (CR4)
+@@ -3,11 +3,11 @@
+ FROM (
+     SELECT c.cal_ym AS ym, SUM(x.amt) AS sales
+     FROM (
+-        SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
++        SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+         FROM sales_line l
+         WHERE l.status <> 'cancel'
+         UNION ALL
+-        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+         WHERE l.status <> 'cancel'
+--- S1/R6.sql
++++ S1/R6.sql (CR4)
+@@ -9,11 +9,11 @@
+        END AS grp,
+        SUM(x.amt) AS sales
+ FROM (
+-    SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
++    SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+     FROM sales_line l
+     WHERE l.status <> 'cancel'
+     UNION ALL
+-    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+     WHERE l.status <> 'cancel'
+--- S1/R7.sql
++++ S1/R7.sql (CR4)
+@@ -3,11 +3,11 @@
+ FROM (
+     SELECT c.cal_ym AS ym, SUM(x.amt) AS sales
+     FROM (
+-        SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
++        SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+         FROM sales_line l
+         WHERE l.status <> 'cancel'
+         UNION ALL
+-        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+         WHERE l.status <> 'cancel'
+@@ -28,11 +28,11 @@
+   FROM (
+       SELECT c.cal_ym AS ym, c.cal_mi AS mi, x.store_id, SUM(x.amt) AS sales
+       FROM (
+-          SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
++          SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+           FROM sales_line l
+           WHERE l.status <> 'cancel'
+           UNION ALL
+-          SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++          SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+           FROM returns_line r
+           JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+           WHERE l.status <> 'cancel'
+@@ -43,11 +43,11 @@
+   JOIN (
+       SELECT c.cal_ym AS ym, c.cal_mi AS mi, x.store_id, SUM(x.amt) AS sales
+       FROM (
+-          SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
++          SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+           FROM sales_line l
+           WHERE l.status <> 'cancel'
+           UNION ALL
+-          SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++          SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+           FROM returns_line r
+           JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+           WHERE l.status <> 'cancel'
+--- S1/R8.sql
++++ S1/R8.sql (CR4)
+@@ -1,11 +1,11 @@
+ -- R8 直近月の日別売上
+ SELECT x.d AS date_key, SUM(x.amt) AS sales
+ FROM (
+-    SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
++    SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+     FROM sales_line l
+     WHERE l.status <> 'cancel'
+     UNION ALL
+-    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++    SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+     WHERE l.status <> 'cancel'
+@@ -14,11 +14,11 @@
+ WHERE c.cal_ym = (
+     SELECT MAX(c2.cal_ym)
+     FROM (
+-        SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
++        SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+         FROM sales_line l
+         WHERE l.status <> 'cancel'
+         UNION ALL
+-        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
++        SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl * 100.0 / (100 + l.tax_pct) AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+         WHERE l.status <> 'cancel'
+######## CR5 テスト店を除外
+--- S1/R1.sql
++++ S1/R1.sql (CR5)
+@@ -3,12 +3,16 @@
+ FROM (
+     SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+     FROM sales_line l
++    JOIN store s ON s.store_id = l.store_id
+     WHERE l.status <> 'cancel'
++      AND s.is_test = 0
+     UNION ALL
+     SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
++    JOIN store s ON s.store_id = l.store_id
+     WHERE l.status <> 'cancel'
++      AND s.is_test = 0
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+ GROUP BY c.cal_ym
+--- S1/R2.sql
++++ S1/R2.sql (CR5)
+@@ -3,12 +3,16 @@
+ FROM (
+     SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+     FROM sales_line l
++    JOIN store s ON s.store_id = l.store_id
+     WHERE l.status <> 'cancel'
++      AND s.is_test = 0
+     UNION ALL
+     SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
++    JOIN store s ON s.store_id = l.store_id
+     WHERE l.status <> 'cancel'
++      AND s.is_test = 0
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+ GROUP BY c.cal_ym, x.store_id
+--- S1/R3.sql
++++ S1/R3.sql (CR5)
+@@ -11,12 +11,16 @@
+ FROM (
+     SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+     FROM sales_line l
++    JOIN store s ON s.store_id = l.store_id
+     WHERE l.status <> 'cancel'
++      AND s.is_test = 0
+     UNION ALL
+     SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
++    JOIN store s ON s.store_id = l.store_id
+     WHERE l.status <> 'cancel'
++      AND s.is_test = 0
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+ JOIN item i ON i.item_id = x.item_id
+--- S1/R4.sql
++++ S1/R4.sql (CR5)
+@@ -6,12 +6,16 @@
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
++        JOIN store s ON s.store_id = l.store_id
+         WHERE l.status <> 'cancel'
++          AND s.is_test = 0
+         UNION ALL
+         SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
++        JOIN store s ON s.store_id = l.store_id
+         WHERE l.status <> 'cancel'
++          AND s.is_test = 0
+     ) x
+     JOIN calendar c ON c.date_key = x.d
+     GROUP BY c.cal_ym, c.cal_mi, x.store_id
+@@ -21,12 +25,16 @@
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
++        JOIN store s ON s.store_id = l.store_id
+         WHERE l.status <> 'cancel'
++          AND s.is_test = 0
+         UNION ALL
+         SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
++        JOIN store s ON s.store_id = l.store_id
+         WHERE l.status <> 'cancel'
++          AND s.is_test = 0
+     ) x
+     JOIN calendar c ON c.date_key = x.d
+     GROUP BY c.cal_ym, c.cal_mi, x.store_id
+--- S1/R5.sql
++++ S1/R5.sql (CR5)
+@@ -5,12 +5,16 @@
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
++        JOIN store s ON s.store_id = l.store_id
+         WHERE l.status <> 'cancel'
++          AND s.is_test = 0
+         UNION ALL
+         SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
++        JOIN store s ON s.store_id = l.store_id
+         WHERE l.status <> 'cancel'
++          AND s.is_test = 0
+     ) x
+     JOIN calendar c ON c.date_key = x.d
+     GROUP BY c.cal_ym
+@@ -20,7 +24,8 @@
+     FROM receipt rc
+     JOIN calendar c ON c.date_key = rc.date_key
+     WHERE EXISTS (SELECT 1 FROM sales_line l
+-                  WHERE l.receipt_id = rc.receipt_id AND l.status <> 'cancel')
++                   JOIN store s ON s.store_id = l.store_id
++                  WHERE l.receipt_id = rc.receipt_id AND l.status <> 'cancel' AND s.is_test = 0)
+     GROUP BY c.cal_ym
+ ) k ON k.ym = s.ym
+ ORDER BY s.ym;
+--- S1/R6.sql
++++ S1/R6.sql (CR5)
+@@ -11,12 +11,16 @@
+ FROM (
+     SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+     FROM sales_line l
++    JOIN store s ON s.store_id = l.store_id
+     WHERE l.status <> 'cancel'
++      AND s.is_test = 0
+     UNION ALL
+     SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
++    JOIN store s ON s.store_id = l.store_id
+     WHERE l.status <> 'cancel'
++      AND s.is_test = 0
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+ JOIN item i ON i.item_id = x.item_id
+--- S1/R7.sql
++++ S1/R7.sql (CR5)
+@@ -5,12 +5,16 @@
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
++        JOIN store s ON s.store_id = l.store_id
+         WHERE l.status <> 'cancel'
++          AND s.is_test = 0
+         UNION ALL
+         SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
++        JOIN store s ON s.store_id = l.store_id
+         WHERE l.status <> 'cancel'
++          AND s.is_test = 0
+     ) x
+     JOIN calendar c ON c.date_key = x.d
+     GROUP BY c.cal_ym
+@@ -20,7 +24,8 @@
+     FROM receipt rc
+     JOIN calendar c ON c.date_key = rc.date_key
+     WHERE EXISTS (SELECT 1 FROM sales_line l
+-                  WHERE l.receipt_id = rc.receipt_id AND l.status <> 'cancel')
++                   JOIN store s ON s.store_id = l.store_id
++                  WHERE l.receipt_id = rc.receipt_id AND l.status <> 'cancel' AND s.is_test = 0)
+     GROUP BY c.cal_ym
+ ) k ON k.ym = s.ym
+ LEFT JOIN (
+@@ -30,12 +35,16 @@
+       FROM (
+           SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+           FROM sales_line l
++          JOIN store s ON s.store_id = l.store_id
+           WHERE l.status <> 'cancel'
++            AND s.is_test = 0
+           UNION ALL
+           SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+           FROM returns_line r
+           JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
++          JOIN store s ON s.store_id = l.store_id
+           WHERE l.status <> 'cancel'
++            AND s.is_test = 0
+       ) x
+       JOIN calendar c ON c.date_key = x.d
+       GROUP BY c.cal_ym, c.cal_mi, x.store_id
+@@ -45,12 +54,16 @@
+       FROM (
+           SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+           FROM sales_line l
++          JOIN store s ON s.store_id = l.store_id
+           WHERE l.status <> 'cancel'
++            AND s.is_test = 0
+           UNION ALL
+           SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+           FROM returns_line r
+           JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
++          JOIN store s ON s.store_id = l.store_id
+           WHERE l.status <> 'cancel'
++            AND s.is_test = 0
+       ) x
+       JOIN calendar c ON c.date_key = x.d
+       GROUP BY c.cal_ym, c.cal_mi, x.store_id
+--- S1/R8.sql
++++ S1/R8.sql (CR5)
+@@ -3,12 +3,16 @@
+ FROM (
+     SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+     FROM sales_line l
++    JOIN store s ON s.store_id = l.store_id
+     WHERE l.status <> 'cancel'
++      AND s.is_test = 0
+     UNION ALL
+     SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
++    JOIN store s ON s.store_id = l.store_id
+     WHERE l.status <> 'cancel'
++      AND s.is_test = 0
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+ WHERE c.cal_ym = (
+@@ -16,12 +20,16 @@
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
++        JOIN store s ON s.store_id = l.store_id
+         WHERE l.status <> 'cancel'
++          AND s.is_test = 0
+         UNION ALL
+         SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
++        JOIN store s ON s.store_id = l.store_id
+         WHERE l.status <> 'cancel'
++          AND s.is_test = 0
+     ) x2
+     JOIN calendar c2 ON c2.date_key = x2.d
+ )
+######## CR6 除外に void を追加
+--- S1/R1.sql
++++ S1/R1.sql (CR6)
+@@ -3,12 +3,12 @@
+ FROM (
+     SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+     FROM sales_line l
+-    WHERE l.status <> 'cancel'
++    WHERE l.status NOT IN ('cancel', 'void')
+     UNION ALL
+     SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+-    WHERE l.status <> 'cancel'
++    WHERE l.status NOT IN ('cancel', 'void')
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+ GROUP BY c.cal_ym
+--- S1/R2.sql
++++ S1/R2.sql (CR6)
+@@ -3,12 +3,12 @@
+ FROM (
+     SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+     FROM sales_line l
+-    WHERE l.status <> 'cancel'
++    WHERE l.status NOT IN ('cancel', 'void')
+     UNION ALL
+     SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+-    WHERE l.status <> 'cancel'
++    WHERE l.status NOT IN ('cancel', 'void')
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+ GROUP BY c.cal_ym, x.store_id
+--- S1/R3.sql
++++ S1/R3.sql (CR6)
+@@ -11,12 +11,12 @@
+ FROM (
+     SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+     FROM sales_line l
+-    WHERE l.status <> 'cancel'
++    WHERE l.status NOT IN ('cancel', 'void')
+     UNION ALL
+     SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+-    WHERE l.status <> 'cancel'
++    WHERE l.status NOT IN ('cancel', 'void')
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+ JOIN item i ON i.item_id = x.item_id
+--- S1/R4.sql
++++ S1/R4.sql (CR6)
+@@ -6,12 +6,12 @@
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
+-        WHERE l.status <> 'cancel'
++        WHERE l.status NOT IN ('cancel', 'void')
+         UNION ALL
+         SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+-        WHERE l.status <> 'cancel'
++        WHERE l.status NOT IN ('cancel', 'void')
+     ) x
+     JOIN calendar c ON c.date_key = x.d
+     GROUP BY c.cal_ym, c.cal_mi, x.store_id
+@@ -21,12 +21,12 @@
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
+-        WHERE l.status <> 'cancel'
++        WHERE l.status NOT IN ('cancel', 'void')
+         UNION ALL
+         SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+-        WHERE l.status <> 'cancel'
++        WHERE l.status NOT IN ('cancel', 'void')
+     ) x
+     JOIN calendar c ON c.date_key = x.d
+     GROUP BY c.cal_ym, c.cal_mi, x.store_id
+--- S1/R5.sql
++++ S1/R5.sql (CR6)
+@@ -5,12 +5,12 @@
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
+-        WHERE l.status <> 'cancel'
++        WHERE l.status NOT IN ('cancel', 'void')
+         UNION ALL
+         SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+-        WHERE l.status <> 'cancel'
++        WHERE l.status NOT IN ('cancel', 'void')
+     ) x
+     JOIN calendar c ON c.date_key = x.d
+     GROUP BY c.cal_ym
+@@ -20,7 +20,7 @@
+     FROM receipt rc
+     JOIN calendar c ON c.date_key = rc.date_key
+     WHERE EXISTS (SELECT 1 FROM sales_line l
+-                  WHERE l.receipt_id = rc.receipt_id AND l.status <> 'cancel')
++                  WHERE l.receipt_id = rc.receipt_id AND l.status NOT IN ('cancel', 'void'))
+     GROUP BY c.cal_ym
+ ) k ON k.ym = s.ym
+ ORDER BY s.ym;
+--- S1/R6.sql
++++ S1/R6.sql (CR6)
+@@ -11,12 +11,12 @@
+ FROM (
+     SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+     FROM sales_line l
+-    WHERE l.status <> 'cancel'
++    WHERE l.status NOT IN ('cancel', 'void')
+     UNION ALL
+     SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+-    WHERE l.status <> 'cancel'
++    WHERE l.status NOT IN ('cancel', 'void')
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+ JOIN item i ON i.item_id = x.item_id
+--- S1/R7.sql
++++ S1/R7.sql (CR6)
+@@ -5,12 +5,12 @@
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
+-        WHERE l.status <> 'cancel'
++        WHERE l.status NOT IN ('cancel', 'void')
+         UNION ALL
+         SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+-        WHERE l.status <> 'cancel'
++        WHERE l.status NOT IN ('cancel', 'void')
+     ) x
+     JOIN calendar c ON c.date_key = x.d
+     GROUP BY c.cal_ym
+@@ -20,7 +20,7 @@
+     FROM receipt rc
+     JOIN calendar c ON c.date_key = rc.date_key
+     WHERE EXISTS (SELECT 1 FROM sales_line l
+-                  WHERE l.receipt_id = rc.receipt_id AND l.status <> 'cancel')
++                  WHERE l.receipt_id = rc.receipt_id AND l.status NOT IN ('cancel', 'void'))
+     GROUP BY c.cal_ym
+ ) k ON k.ym = s.ym
+ LEFT JOIN (
+@@ -30,12 +30,12 @@
+       FROM (
+           SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+           FROM sales_line l
+-          WHERE l.status <> 'cancel'
++          WHERE l.status NOT IN ('cancel', 'void')
+           UNION ALL
+           SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+           FROM returns_line r
+           JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+-          WHERE l.status <> 'cancel'
++          WHERE l.status NOT IN ('cancel', 'void')
+       ) x
+       JOIN calendar c ON c.date_key = x.d
+       GROUP BY c.cal_ym, c.cal_mi, x.store_id
+@@ -45,12 +45,12 @@
+       FROM (
+           SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+           FROM sales_line l
+-          WHERE l.status <> 'cancel'
++          WHERE l.status NOT IN ('cancel', 'void')
+           UNION ALL
+           SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+           FROM returns_line r
+           JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+-          WHERE l.status <> 'cancel'
++          WHERE l.status NOT IN ('cancel', 'void')
+       ) x
+       JOIN calendar c ON c.date_key = x.d
+       GROUP BY c.cal_ym, c.cal_mi, x.store_id
+--- S1/R8.sql
++++ S1/R8.sql (CR6)
+@@ -3,12 +3,12 @@
+ FROM (
+     SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+     FROM sales_line l
+-    WHERE l.status <> 'cancel'
++    WHERE l.status NOT IN ('cancel', 'void')
+     UNION ALL
+     SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+     FROM returns_line r
+     JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+-    WHERE l.status <> 'cancel'
++    WHERE l.status NOT IN ('cancel', 'void')
+ ) x
+ JOIN calendar c ON c.date_key = x.d
+ WHERE c.cal_ym = (
+@@ -16,12 +16,12 @@
+     FROM (
+         SELECT l.date_key AS d, l.store_id, l.item_id, l.amount_incl AS amt
+         FROM sales_line l
+-        WHERE l.status <> 'cancel'
++        WHERE l.status NOT IN ('cancel', 'void')
+         UNION ALL
+         SELECT r.return_date_key AS d, l.store_id, l.item_id, -r.amount_incl AS amt
+         FROM returns_line r
+         JOIN sales_line l ON l.receipt_id = r.receipt_id AND l.line_no = r.line_no
+-        WHERE l.status <> 'cancel'
++        WHERE l.status NOT IN ('cancel', 'void')
+     ) x2
+     JOIN calendar c2 ON c2.date_key = x2.d
+ )
+######## CR7 部門のまとめ方の変更
+--- S1/R3.sql
++++ S1/R3.sql (CR7)
+@@ -1,10 +1,9 @@
+ -- R3 部門グループ別の月次売上
+ SELECT c.cal_ym AS ym,
+        CASE
+-         WHEN i.dept_id IN (1, 2) THEN '生鮮'
++         WHEN i.dept_id IN (1, 2, 5) THEN '生鮮・日配'
+          WHEN i.dept_id IN (3, 4) THEN '加工食品'
+-         WHEN i.dept_id IN (5) THEN '日配'
+-         WHEN i.dept_id IN (6, 7) THEN '日用品'
++         WHEN i.dept_id IN (6, 7, 8) THEN '日用品'
+          ELSE 'その他'
+        END AS grp,
+        SUM(x.amt) AS sales
+@@ -22,10 +21,9 @@
+ JOIN item i ON i.item_id = x.item_id
+ GROUP BY c.cal_ym,
+        CASE
+-         WHEN i.dept_id IN (1, 2) THEN '生鮮'
++         WHEN i.dept_id IN (1, 2, 5) THEN '生鮮・日配'
+          WHEN i.dept_id IN (3, 4) THEN '加工食品'
+-         WHEN i.dept_id IN (5) THEN '日配'
+-         WHEN i.dept_id IN (6, 7) THEN '日用品'
++         WHEN i.dept_id IN (6, 7, 8) THEN '日用品'
+          ELSE 'その他'
+        END
+ ORDER BY 1, 2;
+--- S1/R6.sql
++++ S1/R6.sql (CR7)
+@@ -1,10 +1,9 @@
+ -- R6 店舗×部門グループの月次売上
+ SELECT c.cal_ym AS ym, x.store_id,
+        CASE
+-         WHEN i.dept_id IN (1, 2) THEN '生鮮'
++         WHEN i.dept_id IN (1, 2, 5) THEN '生鮮・日配'
+          WHEN i.dept_id IN (3, 4) THEN '加工食品'
+-         WHEN i.dept_id IN (5) THEN '日配'
+-         WHEN i.dept_id IN (6, 7) THEN '日用品'
++         WHEN i.dept_id IN (6, 7, 8) THEN '日用品'
+          ELSE 'その他'
+        END AS grp,
+        SUM(x.amt) AS sales
+@@ -22,10 +21,9 @@
+ JOIN item i ON i.item_id = x.item_id
+ GROUP BY c.cal_ym, x.store_id,
+        CASE
+-         WHEN i.dept_id IN (1, 2) THEN '生鮮'
++         WHEN i.dept_id IN (1, 2, 5) THEN '生鮮・日配'
+          WHEN i.dept_id IN (3, 4) THEN '加工食品'
+-         WHEN i.dept_id IN (5) THEN '日配'
+-         WHEN i.dept_id IN (6, 7) THEN '日用品'
++         WHEN i.dept_id IN (6, 7, 8) THEN '日用品'
+          ELSE 'その他'
+        END
+ ORDER BY 1, 2, 3;
+######## CR8 客数を会員の延べ人数に
+--- S1/R5.sql
++++ S1/R5.sql (CR8)
+@@ -16,7 +16,8 @@
+     GROUP BY c.cal_ym
+ ) s
+ JOIN (
+-    SELECT c.cal_ym AS ym, COUNT(DISTINCT rc.receipt_id) AS customers
++    SELECT c.cal_ym AS ym, COUNT(DISTINCT CASE WHEN rc.member_id IS NULL THEN -rc.receipt_id
++                                 ELSE CAST(rc.member_id AS BIGINT) * 100000000 + rc.date_key END) AS customers
+     FROM receipt rc
+     JOIN calendar c ON c.date_key = rc.date_key
+     WHERE EXISTS (SELECT 1 FROM sales_line l
+--- S1/R7.sql
++++ S1/R7.sql (CR8)
+@@ -16,7 +16,8 @@
+     GROUP BY c.cal_ym
+ ) s
+ JOIN (
+-    SELECT c.cal_ym AS ym, COUNT(DISTINCT rc.receipt_id) AS customers
++    SELECT c.cal_ym AS ym, COUNT(DISTINCT CASE WHEN rc.member_id IS NULL THEN -rc.receipt_id
++                                 ELSE CAST(rc.member_id AS BIGINT) * 100000000 + rc.date_key END) AS customers
+     FROM receipt rc
+     JOIN calendar c ON c.date_key = rc.date_key
+     WHERE EXISTS (SELECT 1 FROM sales_line l

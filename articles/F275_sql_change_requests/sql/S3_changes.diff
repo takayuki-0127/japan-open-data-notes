@@ -1,0 +1,85 @@
+######## CR1 返品を元の売上日に計上
+--- S3/V_net.sql
++++ S3/V_net.sql (CR1)
+@@ -2,6 +2,6 @@
+   SELECT o.date_key AS d, o.store_id, o.item_id, o.amount_incl * o.amt_factor AS amt
+   FROM line_ok o
+   UNION ALL
+-  SELECT r.return_date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
++  SELECT o.date_key AS d, o.store_id, o.item_id, -r.amount_incl * o.amt_factor AS amt
+   FROM returns_line r
+   JOIN line_ok o ON o.receipt_id = r.receipt_id AND o.line_no = r.line_no;
+######## CR2 既存店を12か月以上に
+--- S3/V_comp_store.sql
++++ S3/V_comp_store.sql (CR2)
+@@ -3,4 +3,4 @@
+   FROM store s
+   JOIN mon om ON om.date_key = s.open_date_key
+   CROSS JOIN (SELECT DISTINCT mi FROM mon) m
+-  WHERE om.mi <= m.mi - 13;
++  WHERE om.mi <= m.mi - 12;
+######## CR3 月を21日締めの会計月に
+--- S3/V_mon.sql
++++ S3/V_mon.sql (CR3)
+@@ -1,3 +1,3 @@
+ CREATE VIEW mon AS
+-  SELECT c.date_key, c.cal_ym AS ym, c.cal_mi AS mi
++  SELECT c.date_key, c.fis_ym AS ym, c.fis_mi AS mi
+   FROM calendar c;
+######## CR4 税込み→税抜き
+--- S3/V_line_ok.sql
++++ S3/V_line_ok.sql (CR4)
+@@ -1,5 +1,5 @@
+ CREATE VIEW line_ok AS
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+-         1.0 AS amt_factor
++         100.0 / (100 + l.tax_pct) AS amt_factor
+   FROM sales_line l
+   WHERE l.status <> 'cancel';
+######## CR5 テスト店を除外
+--- S3/V_line_ok.sql
++++ S3/V_line_ok.sql (CR5)
+@@ -2,4 +2,6 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
+-  WHERE l.status <> 'cancel';
++  JOIN store s ON s.store_id = l.store_id
++  WHERE l.status <> 'cancel'
++    AND s.is_test = 0;
+######## CR6 除外に void を追加
+--- S3/V_line_ok.sql
++++ S3/V_line_ok.sql (CR6)
+@@ -2,4 +2,4 @@
+   SELECT l.receipt_id, l.line_no, l.date_key, l.store_id, l.item_id, l.amount_incl,
+          1.0 AS amt_factor
+   FROM sales_line l
+-  WHERE l.status <> 'cancel';
++  WHERE l.status NOT IN ('cancel', 'void');
+######## CR7 部門のまとめ方の変更
+--- S3/V_dept_grp.sql
++++ S3/V_dept_grp.sql (CR7)
+@@ -1,10 +1,9 @@
+ CREATE VIEW dept_grp AS
+   SELECT d.dept_id,
+          CASE
+-           WHEN d.dept_id IN (1, 2) THEN '生鮮'
++           WHEN d.dept_id IN (1, 2, 5) THEN '生鮮・日配'
+            WHEN d.dept_id IN (3, 4) THEN '加工食品'
+-           WHEN d.dept_id IN (5) THEN '日配'
+-           WHEN d.dept_id IN (6, 7) THEN '日用品'
++           WHEN d.dept_id IN (6, 7, 8) THEN '日用品'
+            ELSE 'その他'
+          END AS grp
+   FROM dept d;
+######## CR8 客数を会員の延べ人数に
+--- S3/V_cust.sql
++++ S3/V_cust.sql (CR8)
+@@ -1,5 +1,6 @@
+ CREATE VIEW cust AS
+   SELECT r.date_key, r.store_id,
+-         r.receipt_id AS cust_key
++         CASE WHEN r.member_id IS NULL THEN -r.receipt_id
++                ELSE CAST(r.member_id AS BIGINT) * 100000000 + r.date_key END AS cust_key
+   FROM receipt r
+   WHERE EXISTS (SELECT 1 FROM line_ok o WHERE o.receipt_id = r.receipt_id);
