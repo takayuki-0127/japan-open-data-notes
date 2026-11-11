@@ -1,0 +1,72 @@
+{
+ "gbm_articles": 31,
+ "gbm_with_linear": 22,
+ "cases": 19,
+ "case_articles": 10,
+ "winner_counts": {
+  "勾配ブースティング": 11,
+  "ほぼ同じ": 4,
+  "線形": 4
+ },
+ "winner_articles_gbm": [
+  "F03",
+  "F119",
+  "F123",
+  "F158",
+  "F22",
+  "F75"
+ ],
+ "winner_articles_linear_or_tie": [
+  "F123",
+  "F13",
+  "F144",
+  "F149",
+  "F74"
+ ],
+ "ratio_min": 0.392,
+ "ratio_max": 1.187,
+ "pairs": [
+  {
+   "article": "F03",
+   "task": "地価（全国の地点）",
+   "block": "20km四方ブロック",
+   "ratio_random": 0.464,
+   "ratio_block": 0.623
+  },
+  {
+   "article": "F03",
+   "task": "地価（全国の地点）",
+   "block": "都道府県ブロック",
+   "ratio_random": 0.464,
+   "ratio_block": 0.789
+  },
+  {
+   "article": "F75",
+   "task": "地価（首都圏）",
+   "block": "20km ブロック",
+   "ratio_random": 0.392,
+   "ratio_block": 0.604
+  },
+  {
+   "article": "F123",
+   "task": "地価（同じ条件でやり直し）",
+   "block": "都道府県ブロック",
+   "ratio_random": 0.522,
+   "ratio_block": 0.781
+  },
+  {
+   "article": "F123",
+   "task": "出生率（市区町村）",
+   "block": "都道府県ブロック",
+   "ratio_random": 0.887,
+   "ratio_block": 1.018
+  },
+  {
+   "article": "F74",
+   "task": "気温（アメダスの地点）",
+   "block": "予報区ごと",
+   "ratio_random": 1.014,
+   "ratio_block": 1.187
+  }
+ ]
+}
