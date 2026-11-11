@@ -62,7 +62,7 @@ d = m[m["round"] == "2026-03"]
 a1.scatter(d.score, d.total, color=C[0], s=28)
 b = np.polyfit(d.score, d.total, 1); xs = np.linspace(d.score.min(), d.score.max(), 10); a1.plot(xs, np.polyval(b, xs), color=C[1])
 h = main["H2"]["industry_level"]["2026-03"]
-a1.set_xlabel("価格交渉の平均点（発注企業の業種ごと、10点満点）"); a1.set_ylabel("転嫁率（%）")
+a1.set_xlabel("価格交渉の平均点（発注企業の業種ごと、−10〜10点）"); a1.set_ylabel("転嫁率（%）")
 a1.set_title(f"図4 左：2026年3月の業種（相関 {h['pearson']:.2f}）", fontsize=11)
 a = m[m["round"] == "2024-09"].set_index("industry"); bb = m[m["round"] == "2026-03"].set_index("industry"); ci = a.index.intersection(bb.index)
 dx, dy = bb.loc[ci, "score"] - a.loc[ci, "score"], bb.loc[ci, "total"] - a.loc[ci, "total"]

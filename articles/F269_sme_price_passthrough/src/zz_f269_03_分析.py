@@ -46,7 +46,7 @@ h2 = {"verdict": "判定できない（交渉の有無別の転嫁率は公表�
 for rd in rounds_n:
     d = m[m["round"] == rd]
     sl = stats.linregress(d.score, d.total)
-    h2["industry_level"][rd] = {"n": int(len(d)), "pearson": r2(sl.rvalue), "spearman": r2(stats.spearmanr(d.score, d.total)[0]),
+    h2["industry_level"][rd] = {"n": int(len(d)), "pearson": r2(sl.rvalue), "p": r2(sl.pvalue), "spearman": r2(stats.spearmanr(d.score, d.total)[0]),
                                 "slope_pt_per_point": r2(sl.slope)}
 # 業種ごとの変化どうし（業種の固定的な違いを除く）
 a = m[m["round"] == "2024-09"].set_index("industry"); b = m[m["round"] == "2026-03"].set_index("industry")
@@ -54,10 +54,14 @@ cm = a.index.intersection(b.index)
 dsc, dtt = (b.loc[cm, "score"] - a.loc[cm, "score"]), (b.loc[cm, "total"] - a.loc[cm, "total"])
 sl = stats.linregress(dsc, dtt)
 h2["within_change_2024-09_2026-03"] = {"n": int(len(cm)), "pearson": r2(sl.rvalue), "spearman": r2(stats.spearmanr(dsc, dtt)[0]),
-                                       "slope_pt_per_point": r2(sl.slope), "p": r2(sl.pvalue)}
-# 頑健性：新しく加わった業種・トラック運送を除く
-d = m[(m["round"] == "2026-03") & (~m.industry.isin(["警備", "ビルメンテナンス", "トラック運送"]))]
-h2["robust_2026-03_excl_new_and_truck"] = {"n": int(len(d)), "pearson": r2(stats.pearsonr(d.score, d.total)[0]),
+                                       "slope_pt_per_point": r2(sl.slope), "p": r2(sl.pvalue),
+                                       "pearson_ci95": [r2(np.tanh(np.arctanh(sl.rvalue) - 1.96 / np.sqrt(len(cm) - 3))), r2(np.tanh(np.arctanh(sl.rvalue) + 1.96 / np.sqrt(len(cm) - 3)))],
+                                       "sd_score_change": r2(dsc.std(ddof=1))}
+# 頑健性（結果を見てから足した）：新しく加わった業種と、転嫁率が最も低い1業種を除く
+d0 = m[m["round"] == "2026-03"]
+lowest = d0.loc[d0.total.idxmin(), "industry"]
+d = d0[~d0.industry.isin(["警備", "ビルメンテナンス", lowest])]
+h2["robust_2026-03_excl_new_and_lowest"] = {"n": int(len(d)), "pearson": r2(stats.pearsonr(d.score, d.total)[0]),
                                            "slope": r2(stats.linregress(d.score, d.total).slope)}
 m.to_csv(os.path.join(R, "C_industry_negotiation_passthrough.csv"), index=False)
 out["H2"] = h2
@@ -79,13 +83,14 @@ last = "2026-03"
 ratio = h4[last]["range"] / gap[last]
 common = set.intersection(*[set(ind[ind["round"] == rd].industry) for rd in ind["round"].unique()]) - {"全体"}
 dc = ind[(ind["round"] == last) & ind.industry.isin(common)].total
-dnt = ind[(ind["round"] == last) & ~ind.industry.isin(["全体", "トラック運送"])].total
+dl = ind[(ind["round"] == last) & (ind.industry != "全体")]
+dnt = dl[dl.total > dl.total.min()].total  # 転嫁率が最も低い1業種を除く
 out["H4"] = {"by_round": h4, "tier_gap_last": r2(gap[last]), "ratio_range_to_tier": r2(ratio),
              "verdict": "支持" if ratio >= 2 else "外れ",
              "robust": {"ratio_p90p10_to_tier": r2(h4[last]["p90_p10"] / gap[last]),
                         "ratio_iqr_to_tier": r2(h4[last]["iqr"] / gap[last]),
                         "common_industries_n": len(common), "ratio_range_common": r2((dc.max() - dc.min()) / gap[last]),
-                        "ratio_range_excl_truck": r2((dnt.max() - dnt.min()) / gap[last])}}
+                        "ratio_range_excl_lowest": r2((dnt.max() - dnt.min()) / gap[last])}}
 
 # ---- H5 短観（販売価格DI − 仕入価格DI）
 t = tk.pivot_table(index=["year", "q", "size", "industry"], columns="item", values="di").reset_index()
@@ -98,7 +103,9 @@ def h5(indus):
     yr = w.groupby(level=0).mean()
     since = w.loc[2021:]
     early, late = w.loc[2021:2022, "sme_minus_large"].mean(), w.loc[2025:2026, "sme_minus_large"].mean()
+    e, l = w.loc[2021:2022, "sme_minus_large"], w.loc[2025:2026, "sme_minus_large"]
     return {"mean_sme_minus_large_since2021": r2(since.sme_minus_large.mean()),
+            "quarterly_sd_since2021": r2(since.sme_minus_large.std(ddof=1)), "welch_p_early_vs_late": r2(stats.ttest_ind(e, l, equal_var=False).pvalue),
             "early_2021_22": r2(early), "late_2025_26": r2(late),
             "pre_2010_19": r2(w.loc[2010:2019, "sme_minus_large"].mean()),
             "by_year": {int(k): r2(v) for k, v in yr.sme_minus_large.items()},
@@ -130,9 +137,27 @@ cw.to_csv(os.path.join(R, "E_industry_wide.csv"))
 # 平均への回帰を避ける確かめ：2023年3月の値で、重ならない期間（2023年9月→2026年3月）の上昇を説明する
 b3 = stats.linregress(x0, cw["2026-03"] - cw["2023-09"])
 out["reask"]["nonoverlap_2023-03_level_vs_2023-09_to_2026-03"] = {"beta_slope": r2(b3.slope), "beta_p": r2(b3.pvalue), "beta_r": r2(b3.rvalue)}
+# 同じ期間（2023年9月→2026年3月）での比較：OLS と、2023年3月の値を操作変数にした推定（測定誤差による0への偏りを避ける）
+x1s = cw["2023-09"]; y = cw["2026-03"] - x1s
+ols = stats.linregress(x1s, y)
+zc = x0 - x0.mean()
+iv = float(np.sum(zc * (y - y.mean())) / np.sum(zc * (x1s - x1s.mean())))
+out["reask"]["same_period_2023-09_to_2026-03"] = {"ols_slope": r2(ols.slope), "ols_p": r2(ols.pvalue), "iv_slope_inst_2023-03": r2(iv)}
 # 置き換え：平均への回帰の目安（同じ業種の1回あたりの揺れ）
 dd = cw.diff(axis=1).iloc[:, 1:]
 out["reask"]["mean_abs_round_change"] = r2(dd.abs().stack().mean())
+
+# 回答数（レビューで足した）：回答企業数と取引段階の表の n
+import re, unicodedata
+TX = os.path.join(BASE, "data", "raw", "txt")
+nn = {}
+for rr, lab_ in [("202309", "2023-09"), ("202409", "2024-09"), ("202503", "2025-03"), ("202509", "2025-09"), ("202603", "2026-03")]:
+    t_ = unicodedata.normalize("NFKC", open(os.path.join(TX, f"fu_{rr}.txt"), encoding="utf-8").read())
+    firms = re.findall(r"回答企業数[::]?\s*([\d,]+)社", t_)
+    tn = [re.findall(r"n=([\d,]+)", p_) for p_ in t_.split("\f") if "1次請け" in p_ and "4次請け以上" in p_]
+    nn[lab_] = {"responding_firms": int(firms[0].replace(",", "")) if firms else None,
+                "tier_table_n": int(tn[0][0].replace(",", "")) if tn and tn[0] else None}
+out["response_counts"] = nn
 
 json.dump(out, open(os.path.join(R, "main.json"), "w"), ensure_ascii=False, indent=1)
 print(json.dumps({k: out[k] for k in ["H1", "H3", "H4"]}, ensure_ascii=False, indent=1)[:3000])
