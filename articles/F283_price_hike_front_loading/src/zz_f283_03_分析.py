@@ -39,6 +39,8 @@ def design(ym, events, trend="lin", win=(-2, 2), covid=True, steps_only=False, s
     X["trend"] = tt
     if trend == "quad":
         X["trend2"] = tt ** 2
+    if trend == "none":  # レビュー後に追加：トレンドなし
+        X = X.drop(columns=["trend"])
     mon = np.array([v % 100 for v in ym])
     for m in range(2, 13):
         X[f"m{m}"] = (mon == m).astype(float)
@@ -173,7 +175,10 @@ def run_variant(**kw):
 
 covid_drop = [y * 100 + m for y in (2020, 2021) for m in range(1, 13)
               if 202003 <= y * 100 + m <= 202109 and not (202008 <= y * 100 + m <= 202012)
-              and not (202108 <= y * 100 + m <= 202112)]  # 出来事の窓（2020年10月・2021年10月の前後2か月）は残す
+              and not (202106 <= y * 100 + m <= 202112)]
+# 出来事の窓（2020年10月・2021年10月の前後2か月）は残す。
+# レビュー後：2021年6〜7月も残す（2020年10月の窓と2021年10月の窓の間に月が1つもないと、
+# たばこの2つの段差とパルスが式の上で区別できなくなるため）
 variants = {
     "R1_2次トレンド": dict(trend="quad"),
     "R2_コロナ期を除く": dict(drop=covid_drop, covid=False),
@@ -194,6 +199,40 @@ for k, kw in variants.items():
                 and v.set_index("event").S["B2"] > 0 and v.set_index("event").S["A2"] < 0),
         events={r.event: dict(F=round(r.F, 4), R=round(r.R, 4), S=round(r.S, 4)) for r in v.itertuples()},
     )
+
+# ---------- レビュー後の確かめ（独立レビューの指摘を受けて追加） ----------
+rv = {"rank": {}, "items": {}, "events": {}}
+for k, kw in [("main", {})] + list(variants.items()):
+    for item in ITEMS:
+        d = panel[(panel.item == item) & (panel.ym >= kw.get("start", 201501))].reset_index(drop=True)
+        if kw.get("drop") is not None:
+            d = d[~d.ym.isin(kw["drop"])].reset_index(drop=True)
+        X = design(d.ym.values, EV[item] + [CTAX], kw.get("trend", "lin"), kw.get("win", (-2, 2)),
+                   kw.get("covid", True), False, kw.get("start", 201501))
+        rv["rank"][f"{k}|{item}"] = [int(np.linalg.matrix_rank(X.values)), int(X.shape[1])]
+for item in ITEMS:
+    m, _ = fit(item)
+    mt, _ = fit(item, trend="none")
+    rv["items"][item] = dict(trend_per_year=float(m.params["trend"]), step_CT=float(m.params["step_CT"]),
+                             rev2025=float(m.params.get("rev2025", np.nan)),
+                             kakeibo2018=float(m.params.get("kakeibo2018", np.nan)))
+    for e_ym, name, kind in EV[item]:
+        p = m.params
+        S = float(p[f"step_{name}"])
+        R = sum(float(p[f"p_{name}_{k}"]) for k in range(0, 3))
+        F = sum(float(p[f"p_{name}_{k}"]) for k in (-2, -1))
+        rv["events"][name] = dict(
+            S_notrend=float(mt.params[f"step_{name}"]),
+            pre_based_pct={k: float((np.exp(p[f"p_{name}_{k}"] + S) - 1) * 100) for k in range(0, 3)},
+            R_plus_3S=R + 3 * S, F=F)
+upx = [n for n, v in rv["events"].items() if res.set_index("event").kind[n] == "up" and v["F"] > 0]
+rv["H2_alt_R3S"] = dict(count=int(sum(rv["events"][n]["R_plus_3S"] <= -0.5 * rv["events"][n]["F"] for n in upx)),
+                        of=len(upx))
+def yoy_base(e_ym):
+    t = idx(e_ym) - 12
+    return (t // 12) * 100 + t % 12 + 1
+rv["yoy_base_month"] = {r.event: int(yoy_base(r.ym)) for r in res.itertuples()}
+(OUT / "review_checks.json").write_text(json.dumps(rv, ensure_ascii=False, indent=1), encoding="utf-8")
 
 # ---------- 問い直し（結果を見た後に追加） ----------
 # 偽の出来事のうち、2022年10月のビール・発泡酒で大きな駆け込みと反動が出た。

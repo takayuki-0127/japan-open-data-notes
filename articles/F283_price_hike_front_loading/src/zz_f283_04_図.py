@@ -65,13 +65,14 @@ fig, ax = plt.subplots(figsize=(9.5, 4.8))
 ks = [-2, -1, 0, 1, 2]
 wbar = 0.11
 for i, r in up.iterrows():
-    vals = [(np.exp(r[f"p{k}"]) - 1) * 100 for k in ks]
+    # レビュー後：値上げの月以降は段差 S も足し、値上げ前の水準と比べた差にする
+    vals = [(np.exp(r[f"p{k}"] + (r.S if k >= 0 else 0.0)) - 1) * 100 for k in ks]
     ax.bar(np.arange(5) + (i - 3) * wbar, vals, width=wbar, label=NAMES[r.event])
 ax.axhline(0, color="k", lw=0.6)
 ax.set_xticks(range(5))
 ax.set_xticklabels(["2か月前", "前の月", "値上げの月", "1か月後", "2か月後"])
-ax.set_ylabel("ふだんの月との差（%）")
-ax.set_title("値上げの前後の月の、ふだんとの差（季節・トレンド・ほかの出来事を除いた値）", fontsize=10, loc="left")
+ax.set_ylabel("値上げ前の水準との差（%）")
+ax.set_title("値上げ前の水準と比べた、前後の月の差（季節・トレンド・ほかの出来事を除いた値）", fontsize=10, loc="left")
 ax.legend(fontsize=8, ncol=2)
 save(fig, "fig2_event_pulses.png")
 
