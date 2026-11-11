@@ -98,6 +98,6 @@ for _, r in E.iterrows():
     ax.text(r.base + .6, r.peak, f"{r.event[1:5]}{r.pref}", fontsize=8)
 ax.axhline(0, color="k", lw=.5)
 ax.set_xlabel("地震の前の年度の付帯率（%）"); ax.set_ylabel("山の上乗せ（ポイント）")
-ax.set_title(f"前の付帯率が低い県ほど上がり幅は大きい傾向（順位相関 {R['reask']['spearman']:.2f}）", fontsize=12)
+ax.set_title(f"前の付帯率が低い県ほど上がる傾向（順位相関 {R['reask']['spearman']:.2f}、p≈0.13）。19組では偶然と区別できない", fontsize=11)
 fig.tight_layout(); fig.savefig(FIG / "f276_6_base_vs_peak.png"); plt.close(fig)
 print("ok", sorted(p.name for p in FIG.glob("*.png")))
