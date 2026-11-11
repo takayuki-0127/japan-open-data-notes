@@ -1,0 +1,95 @@
+{
+ "rows": 6900,
+ "people": 6000,
+ "true_dups": 900,
+ "closure_matches_networkx": {
+  "g4": true,
+  "g5": true
+ },
+ "same_name_birth_diff_person_pairs": 40,
+ "rules": [
+  {
+   "rule": "R1 完全一致",
+   "groups": 6771,
+   "removed": 129,
+   "correct": 129,
+   "wrong_merge": 0,
+   "missed": 771,
+   "found_pct_by_type": {
+    "そのまま二重": 55.1,
+    "名前の空白": 0.0,
+    "電話の書き方": 0.0,
+    "メールの大文字": 0.0,
+    "電話が変わった": 0.0,
+    "姓が変わった": 0.0
+   }
+  },
+  {
+   "rule": "R2 名前＋生年月日",
+   "groups": 6019,
+   "removed": 881,
+   "correct": 839,
+   "wrong_merge": 42,
+   "missed": 61,
+   "found_pct_by_type": {
+    "そのまま二重": 100.0,
+    "名前の空白": 100.0,
+    "電話の書き方": 100.0,
+    "メールの大文字": 100.0,
+    "電話が変わった": 100.0,
+    "姓が変わった": 0.0
+   }
+  },
+  {
+   "rule": "R3 ＋電話",
+   "groups": 6378,
+   "removed": 522,
+   "correct": 522,
+   "wrong_merge": 0,
+   "missed": 378,
+   "found_pct_by_type": {
+    "そのまま二重": 65.8,
+    "名前の空白": 71.0,
+    "電話の書き方": 77.6,
+    "メールの大文字": 73.6,
+    "電話が変わった": 0.0,
+    "姓が変わった": 0.0
+   }
+  },
+  {
+   "rule": "R4 ＋（電話 または メール）",
+   "groups": 6099,
+   "removed": 801,
+   "correct": 801,
+   "wrong_merge": 0,
+   "missed": 99,
+   "found_pct_by_type": {
+    "そのまま二重": 95.3,
+    "名前の空白": 97.3,
+    "電話の書き方": 93.7,
+    "メールの大文字": 100.0,
+    "電話が変わった": 88.2,
+    "姓が変わった": 0.0
+   }
+  },
+  {
+   "rule": "R5 R4＋（生年月日＋メール）",
+   "groups": 6044,
+   "removed": 856,
+   "correct": 856,
+   "wrong_merge": 0,
+   "missed": 44,
+   "found_pct_by_type": {
+    "そのまま二重": 95.3,
+    "名前の空白": 97.3,
+    "電話の書き方": 93.7,
+    "メールの大文字": 100.0,
+    "電話が変わった": 88.2,
+    "姓が変わった": 93.2
+   }
+  }
+ ],
+ "kept_rows_R5": 6044,
+ "tel_lost_if_keep_latest_only": 224,
+ "tel_null_after_fill": 31
+}
