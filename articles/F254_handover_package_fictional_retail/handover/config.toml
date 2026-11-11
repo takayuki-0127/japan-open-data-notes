@@ -1,0 +1,17 @@
+# run_all.py が読む設定。ここにあるのは「どこの、どの版を作り直すか」だけ。
+# 分析の決めごと（既存店の月数・締めの日・乱数の種など）は各回のコードの中にあり、ここでは変えられない。
+# 一覧と場所は docs/decisions.md。
+
+[source]
+repo = "https://github.com/takayuki-0127/japan-open-data-notes.git"
+# このコミットの F246〜F251 を使う（F251 を入れた時点。2026-11-11）。
+# 各回の README や数字が後で直っても、ここを変えない限り、作り直す結果は変わらない。
+commit = "e5e9800c2473c7120d8c39dfb5ba21111c931241"
+# --target report（ふつう）で使う回
+articles = ["F246_kpi_definitions_fictional_retail",
+            "F247_data_mart_fictional_retail",
+            "F248_monthly_report_template_fictional_retail"]
+# --target all のときに足す回
+extra_articles = ["F249_powerbi_dashboard_fictional_retail",
+                  "F250_sales_drop_explanation_fictional_retail",
+                  "F251_promo_effect_fictional_retail"]

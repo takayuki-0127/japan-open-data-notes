@@ -1,0 +1,6 @@
+# --target all で、図の一部（HTML を画像にする）と PDF を作るときだけ要る。
+# 入れたあと Chromium を入れる：python -m playwright install chromium
+playwright==1.56.0
+greenlet==3.5.6
+pyee==13.0.1
+typing_extensions==4.16.0
