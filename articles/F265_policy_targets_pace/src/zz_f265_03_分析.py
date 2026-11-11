@@ -187,6 +187,17 @@ RQ = pd.DataFrame(rows); RQ.to_csv(res / "E_reask_required_pace.csv", index=Fals
 print(RQ.to_string())
 out["reask"] = RQ.to_dict(orient="records")
 
+# ---------- 7. レビュー後の追加：2020年時点の有給 2024年の幅（実績 66.9% と同じ年で比べる） ----------
+rows = []
+yrs, vals = series("paid_leave", until=VINTAGE_2020)
+for meth in ["M1", "M2", "M3"]:
+    pred = fit_predict(yrs, vals, 2024, meth); h = int(2024 - yrs[-1])
+    e = backtest_errors("paid_leave", meth, known_by=VINTAGE_2020).query("h==@h").err
+    lo, hi, pr = interval(pred, e, 70)
+    rows.append({"method": meth, "year": 2024, "h": h, "pred": round(pred, 2), "lo80": round(lo, 2), "hi80": round(hi, 2), "n_err": len(e),
+                 "actual": float(S[(S.indicator == "paid_leave") & (S.year == 2024)].value.iloc[0])})
+pd.DataFrame(rows).to_csv(res / "F_ref_paid2024_vintage2020.csv", index=False)
+
 out["vintage2020"] = V20.to_dict(orient="records")
 out["now"] = NOWDF.to_dict(orient="records")
 (res / "main.json").write_text(json.dumps(out, ensure_ascii=False, indent=1, default=float))
