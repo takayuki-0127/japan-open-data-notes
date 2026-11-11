@@ -1,0 +1,39 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>前年同月比のカレンダー・天気補正（F233）</title>
+<style>
+:root{--ink:#1a202c;--sub:#4a5568;--line:#e2e8f0;--blue:#2b6cb0;--org:#dd6b20;--grn:#38a169;--bg:#fff}
+body{margin:0;font-family:"Noto Sans CJK JP","Noto Sans JP",sans-serif;color:var(--ink);background:var(--bg)}
+header{padding:14px 20px;border-bottom:1px solid var(--line)}h1{font-size:18px;margin:0}p.note{font-size:12px;color:var(--sub);margin:4px 0 0}
+main{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:14px 20px}
+.card{border:1px solid var(--line);border-radius:8px;padding:12px}.card h2{font-size:14px;margin:0 0 8px}
+.kpis{display:flex;gap:10px}.kpi{flex:1;border:1px solid var(--line);border-radius:6px;padding:8px}.kpi b{font-size:20px;display:block}.kpi span{font-size:11px;color:var(--sub)}
+select{font-size:14px;padding:4px}table{border-collapse:collapse;width:100%;font-size:12px}td,th{border-bottom:1px solid var(--line);padding:3px 6px;text-align:right}th:first-child,td:first-child{text-align:left}
+.pos{color:var(--blue)}.neg{color:#c53030}.wide{grid-column:1/3}svg text{font-size:10px;fill:#4a5568}
+@media(max-width:800px){main{grid-template-columns:1fr}.wide{grid-column:auto}}
+</style></head><body>
+<header><h1>前年同月比を「カレンダーと天気の分」だけ補正する（公開データの見本）</h1>
+<p class="note">経済産業省「商業動態統計」と気象庁の値から推定した係数で計算。企業の実データではありません。業態：<select id="g"></select></p></header>
+<main>
+<section class="card wide"><h2>前年同月比（そのまま）と、カレンダー・天気を引いた値</h2><div class="kpis" id="kpis"></div><svg id="ch" viewBox="0 0 900 260" width="100%"></svg></section>
+<section class="card"><h2>この先の月：カレンダーだけで前年同月比が何ポイント動くか</h2><table id="fut"></table></section>
+<section class="card"><h2>係数（休み1日・雨の日1日あたり）</h2><table id="coef"></table>
+<p class="note">読み方：前年同月比を販促や施策の評価に使う前に、左の表の「カレンダー寄与」を引いて比べる。</p></section>
+</main>
+<script>
+/*DATA*/
+const G=[...new Set(DATA.hist.map(r=>r.業態))];const sel=document.getElementById('g');G.forEach(g=>{const o=document.createElement('option');o.textContent=g;sel.appendChild(o)});sel.value='スーパー';
+const NM={d_n_sat:'平日→土曜 1日',d_n_sun:'平日→日曜 1日',d_n_hol_wd:'平日→平日の祝日 1日',d_n_renkyu:'連休の日 +1日',d_n_days:'月の日数 +1日（うるう年）',d_temp_summer:'夏の気温 +1℃',d_temp_winter:'冬の気温 +1℃',d_temp_other:'春秋の気温 +1℃',d_rain1:'雨の日 +1日'};
+const f=v=>(v>0?'+':'')+v.toFixed(1);const cl=v=>v>0.05?'pos':v<-0.05?'neg':'';
+function draw(){const g=sel.value;const h=DATA.hist.filter(r=>r.業態==g);const W=900,H=260,L=40,Rr=10,T=10,Bt=30;
+const ys=h.flatMap(r=>[r.y,r.調整後,r.カレンダー寄与,r.天気寄与]);const mn=Math.min(...ys)-0.5,mx=Math.max(...ys)+0.5;
+const X=i=>L+(W-L-Rr)*i/(h.length-1),Y=v=>T+(H-T-Bt)*(mx-v)/(mx-mn);let s='';
+for(let t=Math.ceil(mn);t<=mx;t++){s+=`<line x1="${L}" x2="${W-Rr}" y1="${Y(t)}" y2="${Y(t)}" stroke="${t==0?'#999':'#eee'}"/><text x="${L-4}" y="${Y(t)+3}" text-anchor="end">${t}</text>`}
+const bw=(W-L-Rr)/h.length*0.35;h.forEach((r,i)=>{const x=X(i);[['カレンダー寄与','#2b6cb0',-bw],['天気寄与','#dd6b20',0]].forEach(([k,c,o])=>{const v=r[k];s+=`<rect x="${x+o}" y="${Math.min(Y(0),Y(v))}" width="${bw}" height="${Math.abs(Y(v)-Y(0))}" fill="${c}" opacity="0.75"/>`});if(i%3==0)s+=`<text x="${x}" y="${H-12}" text-anchor="middle">${r.ym}</text>`});
+const line=(k,c,d)=>`<polyline fill="none" stroke="${c}" stroke-width="1.8" ${d?'stroke-dasharray="5 3"':''} points="${h.map((r,i)=>X(i)+','+Y(r[k])).join(' ')}"/>`;
+s+=line('y','#1a202c')+line('調整後','#38a169',1);s+=`<text x="${L+5}" y="${T+10}">黒：そのまま　緑の破線：補正後　青：カレンダーの寄与　橙：天気の寄与（%ポイント）</text>`;document.getElementById('ch').innerHTML=s;
+const last=h[h.length-1];const sd=a=>{const m=a.reduce((x,y)=>x+y,0)/a.length;return Math.sqrt(a.reduce((x,y)=>x+(y-m)**2,0)/(a.length-1))};
+document.getElementById('kpis').innerHTML=`<div class="kpi"><span>${last.ym} 前年同月比（そのまま）</span><b>${f(last.y)}%</b></div><div class="kpi"><span>うちカレンダー＋天気の分</span><b class="${cl(last.カレンダー寄与+last.天気寄与)}">${f(last.カレンダー寄与+last.天気寄与)}</b></div><div class="kpi"><span>補正後</span><b>${f(last.調整後)}%</b></div><div class="kpi"><span>揺れ（標準偏差）そのまま→補正後（推定に使った月を含む）</span><b>${sd(h.map(r=>r.y)).toFixed(1)}→${sd(h.map(r=>r.調整後)).toFixed(1)}</b></div>`;
+const fu=DATA.fut.filter(r=>r.業態==g);document.getElementById('fut').innerHTML='<tr><th>月</th><th>土曜</th><th>日曜</th><th>平日の祝日</th><th>連休の日</th><th>カレンダー寄与</th></tr>'+fu.map(r=>`<tr><td>${r.ym}</td><td>${f(r.d_n_sat)}</td><td>${f(r.d_n_sun)}</td><td>${f(r.d_n_hol_wd)}</td><td>${f(r.d_n_renkyu)}</td><td class="${cl(r.カレンダー寄与)}"><b>${f(r.カレンダー寄与)}</b></td></tr>`).join('');
+const co=DATA.coef.filter(r=>r.業態==g);document.getElementById('coef').innerHTML='<tr><th>変化</th><th>係数</th><th>95%区間</th></tr>'+co.map(r=>`<tr><td>${NM[r.変数]||r.変数}</td><td class="${cl(r.係数)}">${f(r.係数)}</td><td>${f(r.lo)} 〜 ${f(r.hi)}</td></tr>`).join('');}
+sel.onchange=draw;draw();
+</script></body></html>
