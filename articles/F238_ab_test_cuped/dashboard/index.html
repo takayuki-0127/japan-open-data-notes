@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CUPED テスト期間の計算（例）</title>
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--ink:#222;--sub:#666;--a:#1f6feb;--b:#d9480f;--line:#ddd}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans CJK JP","Hiragino Sans","Yu Gothic",sans-serif}
+header{padding:16px 20px;border-bottom:1px solid var(--line);background:var(--card)}
+h1{font-size:18px;margin:0}.note{font-size:12px;color:var(--sub);margin-top:4px}
+main{display:grid;grid-template-columns:300px 1fr;gap:16px;padding:16px 20px;max-width:1100px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px}
+label{display:block;font-size:13px;margin:10px 0 2px}input{width:100%;box-sizing:border-box;padding:6px;font-size:14px}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.k{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px}
+.k .t{font-size:12px;color:var(--sub)}.k .v{font-size:26px;font-weight:700;margin-top:4px}.k .s{font-size:12px;color:var(--sub)}
+canvas{width:100%;height:280px}.legend{font-size:12px;color:var(--sub)}
+@media(max-width:760px){main{grid-template-columns:1fr}.kpis{grid-template-columns:1fr}}
+</style></head><body>
+<header><h1>前の期間のデータで、テストは何日短くなるか（CUPED の計算・例）</h1>
+<div class="note">架空のサービスの社内向けツールの例です。両側5%・検出力80%、2群に半分ずつ割り当てる前提。調整後の分散 ≒ 1 −（前の期間のデータがある人の割合）×ρ² の近似。</div></header>
+<main>
+<div class="card">
+<label>1日の訪問者数（2群の合計）</label><input id="traffic" type="number" value="5000">
+<label>指標の平均（1人あたり）</label><input id="mean" type="number" value="6.0" step="0.1">
+<label>指標の変動係数（標準偏差÷平均）</label><input id="cv" type="number" value="0.91" step="0.01">
+<label>見つけたい差（%）</label><input id="mde" type="number" value="2" step="0.5">
+<label>前の期間の値との相関 ρ</label><input id="rho" type="number" value="0.84" step="0.01" min="0" max="0.99">
+<label>前の期間のデータがある人の割合（%）</label><input id="share" type="number" value="100" step="5" min="0" max="100">
+<div class="note" style="margin-top:12px">例：訪問回数（前4週）ρ≈0.84、まれな購入の金額（前4週）ρ≈0.13（記事 F238 のシミュレーション）。</div>
+</div>
+<div>
+<div class="kpis">
+<div class="k"><div class="t">素の差で必要な日数</div><div class="v" id="d0">-</div><div class="s" id="n0"></div></div>
+<div class="k"><div class="t">CUPED で必要な日数</div><div class="v" id="d1" style="color:var(--a)">-</div><div class="s" id="n1"></div></div>
+<div class="k"><div class="t">短くなる割合</div><div class="v" id="red" style="color:var(--b)">-</div><div class="s" id="vr"></div></div>
+</div>
+<div class="card" style="margin-top:12px"><div class="legend">相関 ρ ごとの必要日数（灰：素の差、青：CUPED、点：いまの入力）</div><canvas id="cv1" width="760" height="280"></canvas></div>
+</div></main>
+<script>
+const Z=1.959964,Z80=0.841621;
+function nArm(m,cv,mde,vr){const d=mde/100*m,s=cv*m;return 2*(Z+Z80)**2*s*s*vr/(d*d)}
+function calc(){
+ const g=id=>parseFloat(document.getElementById(id).value);
+ const T=g('traffic'),m=g('mean'),cv=g('cv'),mde=g('mde'),rho=Math.min(g('rho'),0.99),sh=g('share')/100;
+ const vr=1-sh*rho*rho,n0=nArm(m,cv,mde,1),n1=nArm(m,cv,mde,vr);
+ const d0=Math.ceil(2*n0/T),d1=Math.ceil(2*n1/T);
+ document.getElementById('d0').textContent=d0+'日';document.getElementById('n0').textContent='1群 '+Math.ceil(n0).toLocaleString()+'人';
+ document.getElementById('d1').textContent=d1+'日';document.getElementById('n1').textContent='1群 '+Math.ceil(n1).toLocaleString()+'人';
+ document.getElementById('red').textContent=Math.round((1-vr)*100)+'%';document.getElementById('vr').textContent='分散の比 '+vr.toFixed(2);
+ const c=document.getElementById('cv1'),x=c.getContext('2d'),W=c.width,H=c.height,L=50,B=30;x.clearRect(0,0,W,H);
+ const ymax=d0*1.1||1;x.strokeStyle='#ddd';x.fillStyle='#666';x.font='12px sans-serif';
+ for(let i=0;i<=4;i++){const yy=H-B-(H-B-10)*i/4;x.beginPath();x.moveTo(L,yy);x.lineTo(W-10,yy);x.stroke();x.fillText(Math.round(ymax*i/4)+'日',4,yy+4)}
+ for(let i=0;i<=5;i++){const xx=L+(W-L-10)*i/5;x.fillText((i/5).toFixed(1),xx-8,H-10)}
+ const px=r=>L+(W-L-10)*r,py=v=>H-B-(H-B-10)*v/ymax;
+ x.strokeStyle='#999';x.beginPath();x.moveTo(px(0),py(d0));x.lineTo(px(0.99),py(d0));x.stroke();
+ x.strokeStyle='#1f6feb';x.lineWidth=2;x.beginPath();for(let r=0;r<=0.99;r+=0.01){const v=Math.ceil(2*nArm(m,cv,mde,1-sh*r*r)/T);r==0?x.moveTo(px(r),py(v)):x.lineTo(px(r),py(v))}x.stroke();x.lineWidth=1;
+ x.fillStyle='#d9480f';x.beginPath();x.arc(px(rho),py(d1),5,0,7);x.fill();
+}
+document.querySelectorAll('input').forEach(e=>e.addEventListener('input',calc));calc();
+</script></body></html>
