@@ -1,0 +1,244 @@
+{
+ "arrival_record_years": [
+  2013,
+  2014,
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2024,
+  2025
+ ],
+ "per_capita_record_years": {
+  "pc_nom": [
+   2013,
+   2014,
+   2015,
+   2023,
+   2024,
+   2025
+  ],
+  "pc_real": [
+   2013,
+   2014,
+   2015,
+   2023,
+   2024
+  ],
+  "pc_real_core": [
+   2013,
+   2014,
+   2015,
+   2023,
+   2024
+  ],
+  "pc_real_travel": [
+   2013,
+   2014,
+   2015,
+   2023,
+   2024
+  ],
+  "pc_usd_nom": [],
+  "pc_usd_real": [],
+  "pc_exc": [
+   2013,
+   2014,
+   2015,
+   2023,
+   2024,
+   2025
+  ],
+  "pc_exc_real": [
+   2013,
+   2014,
+   2015,
+   2023,
+   2024
+  ],
+  "pc_real_per_night": [
+   2012,
+   2013,
+   2014,
+   2015,
+   2019,
+   2023,
+   2024
+  ]
+ },
+ "H1": {
+  "real_2025": 204406.293143,
+  "prev_max": 209111.186975,
+  "prev_max_year": 2024,
+  "ratio": 0.977501,
+  "supported": false
+ },
+ "H2": {
+  "usd_real_2025": 1229.799351,
+  "pre_max": 1889.100515,
+  "pre_max_year": 2011,
+  "gap": -0.349003,
+  "supported": true
+ },
+ "H4": {
+  "arrival_records": [
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2024,
+   2025
+  ],
+  "both": [
+   2013,
+   2014,
+   2015,
+   2024
+  ],
+  "share": 0.444444,
+  "supported": true
+ },
+ "H3": {
+  "avg": {
+   "y0": 2019,
+   "y1": 2025,
+   "weight": "avg",
+   "P0": 160965.790244,
+   "P1": 229032.025009,
+   "official0": 158531.4605,
+   "official1": 228781.7436,
+   "change": 68066.234765,
+   "within": 71054.214503,
+   "mix": -2987.979738,
+   "mix_share": 0.043898
+  },
+  "mix_share_range": [
+   0.0001,
+   0.087696
+  ],
+  "supported": true
+ },
+ "M4": {
+  "n": 13,
+  "local_real_above_premax": 2,
+  "jpy_real_above_premax": 12,
+  "local_real_median": -0.120121
+ },
+ "robust": {
+  "pc_real": {
+   "v2025": 204406.293143,
+   "prev_max": 209111.186975,
+   "prev_year": 2024,
+   "ratio": 0.977501
+  },
+  "pc_real_core": {
+   "v2025": 205677.385819,
+   "prev_max": 210225.456522,
+   "prev_year": 2024,
+   "ratio": 0.978366
+  },
+  "pc_real_travel": {
+   "v2025": 202019.719923,
+   "prev_max": 205104.016054,
+   "prev_year": 2024,
+   "ratio": 0.984962
+  },
+  "pc_exc": {
+   "v2025": 209623.2107,
+   "prev_max": 203460.9833,
+   "prev_year": 2024,
+   "ratio": 1.030287
+  },
+  "pc_exc_real": {
+   "v2025": 187288.997722,
+   "prev_max": 187550.510816,
+   "prev_year": 2024,
+   "ratio": 0.998606
+  },
+  "pc_nom": {
+   "v2025": 228781.7436,
+   "prev_max": 226850.7163,
+   "prev_year": 2024,
+   "ratio": 1.008512
+  },
+  "pc_usd_nom": {
+   "v2025": 1529.610785,
+   "prev_max": 1641.463074,
+   "prev_year": 2011,
+   "ratio": 0.931858
+  },
+  "pc_usd_real": {
+   "v2025": 1229.799351,
+   "prev_max": 1889.100515,
+   "prev_year": 2011,
+   "ratio": 0.650997
+  },
+  "segments_real_max_year": {
+   "2011-2017": 2015,
+   "2018-2023": 2023,
+   "2024-2025": 2024
+  },
+  "with_2022": {
+   "nom_max_year": 2022,
+   "real_max_year": 2022
+  },
+  "usd_real_max_year": 2011
+ },
+ "reask": {
+  "table": [
+   {
+    "y0": 2024,
+    "y1": 2025,
+    "pc_nom_chg": 0.008512,
+    "nights_chg": 0.059092,
+    "per_night_nom_chg": -0.047757,
+    "per_night_real_chg": -0.077039,
+    "share_from_nights": 6.77321
+   },
+   {
+    "y0": 2019,
+    "y1": 2025,
+    "pc_nom_chg": 0.443131,
+    "nights_chg": 0.07648,
+    "per_night_nom_chg": 0.340603,
+    "per_night_real_chg": 0.197969,
+    "share_from_nights": 0.200908
+   },
+   {
+    "y0": 2015,
+    "y1": 2025,
+    "pc_nom_chg": 0.298661,
+    "nights_chg": -0.070708,
+    "per_night_nom_chg": 0.397473,
+    "per_night_real_chg": 0.226418,
+    "share_from_nights": -0.280606
+   },
+   {
+    "y0": 2019,
+    "y1": 2024,
+    "pc_nom_chg": 0.430951,
+    "nights_chg": 0.016418,
+    "per_night_nom_chg": 0.407838,
+    "per_night_real_chg": 0.297963,
+    "share_from_nights": 0.045444
+   },
+   {
+    "y0": 2023,
+    "y1": 2024,
+    "pc_nom_chg": 0.066207,
+    "nights_chg": -0.11341,
+    "per_night_nom_chg": 0.202594,
+    "per_night_real_chg": 0.170539,
+    "share_from_nights": -1.877667
+   }
+  ],
+  "per_night_real_record_2025": false,
+  "nat_per_night_down": 12,
+  "nat_n": 20,
+  "nat_nights_up": 12
+ }
+}
