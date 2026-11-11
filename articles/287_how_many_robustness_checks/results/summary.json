@@ -1,0 +1,181 @@
+{
+ "readmes": 480,
+ "with_section": 293,
+ "by_group": [
+  {
+   "group": "000–099",
+   "articles": NaN,
+   "q1": NaN,
+   "median": NaN,
+   "q3": NaN,
+   "readmes": 40,
+   "share_with_section": 0.0,
+   "share_3plus": NaN
+  },
+  {
+   "group": "100–226",
+   "articles": NaN,
+   "q1": NaN,
+   "median": NaN,
+   "q3": NaN,
+   "readmes": 114,
+   "share_with_section": 0.0,
+   "share_3plus": NaN
+  },
+  {
+   "group": "F01–F99",
+   "articles": 89.0,
+   "q1": 6.0,
+   "median": 8.0,
+   "q3": 10.0,
+   "readmes": 97,
+   "share_with_section": 0.918,
+   "share_3plus": 1.0
+  },
+  {
+   "group": "F100–F199",
+   "articles": 99.0,
+   "q1": 6.0,
+   "median": 8.0,
+   "q3": 11.0,
+   "readmes": 100,
+   "share_with_section": 0.99,
+   "share_3plus": 1.0
+  },
+  {
+   "group": "F200–F255",
+   "articles": 36.0,
+   "q1": 5.0,
+   "median": 6.0,
+   "q3": 7.0,
+   "readmes": 36,
+   "share_with_section": 1.0,
+   "share_3plus": 1.0
+  },
+  {
+   "group": "F256–F295（精選）",
+   "articles": 40.0,
+   "q1": 6.0,
+   "median": 8.0,
+   "q3": 9.25,
+   "readmes": 40,
+   "share_with_section": 1.0,
+   "share_3plus": 0.975
+  },
+  {
+   "group": "227–・T（1000本計画）",
+   "articles": 29.0,
+   "q1": 3.0,
+   "median": 4.0,
+   "q3": 4.0,
+   "readmes": 53,
+   "share_with_section": 0.547,
+   "share_3plus": 1.0
+  }
+ ],
+ "f163_judged": 113,
+ "moved_all": 78,
+ "changed_all": 23,
+ "moved": 75,
+ "changed": 22,
+ "moved_no_items_of_mover_type": 7,
+ "moved_n_median": 8.0,
+ "moved_ntype_median": 2.0,
+ "curve": [
+  {
+   "k": 1,
+   "rand_moved": 0.309,
+   "type_moved": 0.177,
+   "rand_changed": 0.289
+  },
+  {
+   "k": 2,
+   "rand_moved": 0.518,
+   "type_moved": 0.353,
+   "rand_changed": 0.476
+  },
+  {
+   "k": 3,
+   "rand_moved": 0.66,
+   "type_moved": 0.53,
+   "rand_changed": 0.607
+  },
+  {
+   "k": 4,
+   "rand_moved": 0.751,
+   "type_moved": 0.684,
+   "rand_changed": 0.705
+  },
+  {
+   "k": 5,
+   "rand_moved": 0.812,
+   "type_moved": 0.802,
+   "rand_changed": 0.783
+  },
+  {
+   "k": 6,
+   "rand_moved": 0.851,
+   "type_moved": 0.872,
+   "rand_changed": 0.83
+  },
+  {
+   "k": 7,
+   "rand_moved": 0.875,
+   "type_moved": 0.902,
+   "rand_changed": 0.845
+  },
+  {
+   "k": 8,
+   "rand_moved": 0.891,
+   "type_moved": 0.907,
+   "rand_changed": 0.854
+  },
+  {
+   "k": 9,
+   "rand_moved": 0.903,
+   "type_moved": 0.907,
+   "rand_changed": 0.862
+  },
+  {
+   "k": 10,
+   "rand_moved": 0.906,
+   "type_moved": 0.907,
+   "rand_changed": 0.863
+  },
+  {
+   "k": 11,
+   "rand_moved": 0.907,
+   "type_moved": 0.907,
+   "rand_changed": 0.863
+  },
+  {
+   "k": 12,
+   "rand_moved": 0.907,
+   "type_moved": 0.907,
+   "rand_changed": 0.864
+  },
+  {
+   "k": 13,
+   "rand_moved": 0.907,
+   "type_moved": 0.907,
+   "rand_changed": 0.864
+  },
+  {
+   "k": 14,
+   "rand_moved": 0.907,
+   "type_moved": 0.907,
+   "rand_changed": 0.864
+  },
+  {
+   "k": 15,
+   "rand_moved": 0.907,
+   "type_moved": 0.907,
+   "rand_changed": 0.864
+  }
+ ],
+ "n_by_level_median": {
+  "0": 7.0,
+  "1": 7.0,
+  "2": 9.0
+ }
+}
