@@ -97,6 +97,24 @@ res["H3"] = dict(z_count=main.z_dV, z_rate=main.z_dr, dr_pt=main.dr_pt, se_dr_pt
                  z_rate_range=[float(C[C.item == "vacant"].z_dr.min()), float(C[C.item == "vacant"].z_dr.max())],
                  verdict="支持" if main.z_dr >= 1.96 else "外れ")
 
+
+# C2. 2018年の総数の標準誤差率（読み取れない）を変えたときの z（2023年は0.09%、相関0）
+v0, v1 = inc.loc[2018].vacant, inc.loc[2023].vacant; s0, s1 = inc.loc[2018].stock, inc.loc[2023].stock
+r0, r1 = v0 / s0, v1 / s1
+
+
+def z_for(cv18):
+    se0 = r0 * math.sqrt(0.0057**2 + (cv18 / 100) ** 2); se1 = r1 * math.sqrt(0.0035**2 + 0.0009**2)
+    return (r1 - r0) / math.sqrt(se0**2 + se1**2)
+
+
+sens = {f"{c:.2f}": z_for(c) for c in [0.0, 0.09, 0.2, 0.4, 0.6, 0.8]}
+lo, hi = 0.09, 2.0
+for _ in range(60):
+    mid = (lo + hi) / 2
+    lo, hi = (mid, hi) if z_for(mid) >= 1.96 else (lo, mid)
+res["h3_cvS2018_sensitivity"] = dict(z=sens, breakeven_cv_pct=lo)
+
 # D. 都道府県：2023年の記録（それより前のすべての回と比べる）
 D = []
 for c, g in pref.groupby("code"):
