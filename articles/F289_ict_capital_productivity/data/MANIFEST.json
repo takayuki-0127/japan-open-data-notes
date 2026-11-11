@@ -1,0 +1,17 @@
+{
+ "jip2023_2.xlsx": {
+  "md5": "430aaf3dfca4ad7a589825c3c5cf1764",
+  "ok": true,
+  "url": "https://www.rieti.go.jp/jp/database/JIP2023/data/jip2023_2.xlsx"
+ },
+ "jip2023_4.xlsx": {
+  "md5": "3517b51ff6e859a8e7bf2ddef30db345",
+  "ok": true,
+  "url": "https://www.rieti.go.jp/jp/database/JIP2023/data/jip2023_4.xlsx"
+ },
+ "jip2023_3-8.xlsx": {
+  "md5": "eef5d7716db69ae6e0d3e7a61f3d684d",
+  "ok": true,
+  "url": "https://www.rieti.go.jp/jp/database/JIP2023/data/jip2023_3-8.xlsx"
+ }
+}
