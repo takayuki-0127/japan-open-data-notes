@@ -1,0 +1,4 @@
+pandas==2.3.3
+numpy==2.5.3
+matplotlib==3.11.2
+playwright==1.56.0   # 図6（報告の HTML を画像にする）だけ
