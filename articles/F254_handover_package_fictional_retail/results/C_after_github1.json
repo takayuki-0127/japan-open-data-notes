@@ -1,0 +1,118 @@
+{
+ "mode": "github",
+ "commands": [
+  {
+   "cmd": "git clone --filter=blob:none --sparse https://github.com/takayuki-0127/japan-open-data-notes.git",
+   "rc": 0,
+   "sec": 1.2,
+   "tail": "Cloning into 'japan-open-data-notes'..."
+  },
+  {
+   "cmd": "cd japan-open-data-notes",
+   "rc": 0,
+   "sec": 0.0,
+   "tail": ""
+  },
+  {
+   "cmd": "git sparse-checkout set articles/F254_handover_package_fictional_retail",
+   "rc": 0,
+   "sec": 0.4,
+   "tail": ""
+  },
+  {
+   "cmd": "cd articles/F254_handover_package_fictional_retail/handover",
+   "rc": 0,
+   "sec": 0.0,
+   "tail": ""
+  },
+  {
+   "cmd": "python3 -m venv .venv",
+   "rc": 0,
+   "sec": 2.3,
+   "tail": ""
+  },
+  {
+   "cmd": ".venv/bin/python -m pip install -r requirements.lock",
+   "rc": 0,
+   "sec": 17.1,
+   "tail": "Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)\nUsing cached contourpy-1.4.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (384 kB)\nUsing cached cycler-0.12.1-py3-none-any.whl (8.3 kB)\nUsing cached fonttools-4.65.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.4 MB)\nUsing cached kiwisolver-1.5.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.5 MB)\nUsing cached packaging-26.3-py3-none-any.whl (129 kB)\nUsing cached pillow-12.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)\nUsing cached pyparsing-3.3.2-py3-none-any.whl (122 kB)\nInstalling collected packages: pytz, tzdata, six, pyparsing, pillow, packaging, numpy, kiwisolver, fonttools, duckdb, cycler, scipy, python-dateutil, contourpy, pandas, matplotlib\n\nSuccessfully installed contourpy-1.4.0 cycler-0.12.1 duckdb-1.5.6 fonttools-4.65.0 kiwisolver-1.5.1 matplotlib-3.11.2 numpy-2.5.3 packaging-26.3 pandas-2.3.3 pillow-12.3.0 pyparsing-3.3.2 python-dateutil-2.9.0.post0 pytz-2026.5 scipy-1.18.1 six-1.17.0 tzdata-2026.5\n\n[notice] A new release of pip is available: 26.2.1 -> 26.3\n[notice] To update, run: <作業フォルダ>/after_github/japan-open-data-notes/articles/F254_handover_package_fictional_retail/handover/.venv/bin/python -m pip install --upgrade pip"
+  },
+  {
+   "cmd": ".venv/bin/python run_all.py",
+   "rc": 0,
+   "sec": 169.1,
+   "tail": "[準備] https://github.com/takayuki-0127/japan-open-data-notes.git を取得（sparse）\n[準備] コミット e5e9800、回：F246, F247, F248\n[OK] F246_02_整形                4.2 秒  合成データ（seed 0）を data/ に\n[OK] F246_03_分析              126.1 秒  偶然の幅・曜日の効果（20通りの作り直し）\n[OK] F247_prefill              0.0 秒  F246 の作り直したデータを F247 の正解に写す\n[OK] F247_02_整形                5.1 秒  現場から届くファイル（汚れ入り）を合成\n[OK] F247_03_整える               5.7 秒  SQL で staging→mart→テスト\n[OK] F248_01_取得                0.4 秒  F246・F247 の成果物を data/in/ に写す\n[OK] F248_02_整形                3.4 秒  計画と、締めの日ごとの店×月\n[OK] F248_03_レポート             20.4 秒  12か月×速報・確定の月次レポート\n[照合] 基準と：数字のファイル 88 のうち 同じ 88、違う 0、作られなかった 0\n[照合] 元のファイルと：数字 同じ 69（うち丸めの差 3・gz の中身 8）、近い 1、違う 0、元に無い 18\n[照合] 一覧：<作業フォルダ>/after_github/japan-open-data-notes/articles/F254_handover_package_fictional_retail/handover/work/verify.csv"
+  },
+  {
+   "cmd": ".venv/bin/python tests/test_rules.py",
+   "rc": 0,
+   "sec": 1.6,
+   "tail": "実際の24店×48か月＝1152：判定が割れたのは 0\n境目の4店×48か月＝192：判定が割れたのは 1\n store_id      ym  設定書  F246  F247  F248  F250\n       91 2025-11    0     1     1     1     0\n結果： OK（docs/decisions.md の D1 のとおり）"
+  }
+ ],
+ "sec_total": 191.7,
+ "run_log": {
+  "commit": "e5e9800c2473c7120d8c39dfb5ba21111c931241",
+  "target": "report",
+  "python": "3.13.16",
+  "steps": [
+   {
+    "step": "F246_02_整形",
+    "what": "合成データ（seed 0）を data/ に",
+    "rc": 0,
+    "sec": 4.2,
+    "cpu": 4.2
+   },
+   {
+    "step": "F246_03_分析",
+    "what": "偶然の幅・曜日の効果（20通りの作り直し）",
+    "rc": 0,
+    "sec": 126.1,
+    "cpu": 124.9
+   },
+   {
+    "step": "F247_prefill",
+    "what": "F246 の作り直したデータを F247 の正解に写す",
+    "rc": 0,
+    "sec": 0.0,
+    "cpu": 0.0
+   },
+   {
+    "step": "F247_02_整形",
+    "what": "現場から届くファイル（汚れ入り）を合成",
+    "rc": 0,
+    "sec": 5.1,
+    "cpu": 5.1
+   },
+   {
+    "step": "F247_03_整える",
+    "what": "SQL で staging→mart→テスト",
+    "rc": 0,
+    "sec": 5.7,
+    "cpu": 5.6
+   },
+   {
+    "step": "F248_01_取得",
+    "what": "F246・F247 の成果物を data/in/ に写す",
+    "rc": 0,
+    "sec": 0.4,
+    "cpu": 0.3
+   },
+   {
+    "step": "F248_02_整形",
+    "what": "計画と、締めの日ごとの店×月",
+    "rc": 0,
+    "sec": 3.4,
+    "cpu": 3.4
+   },
+   {
+    "step": "F248_03_レポート",
+    "what": "12か月×速報・確定の月次レポート",
+    "rc": 0,
+    "sec": 20.4,
+    "cpu": 20.3
+   }
+  ],
+  "sec_total": 165.3
+ }
+}
