@@ -1,0 +1,164 @@
+{
+ "index_2019eq100": {
+  "2020": {
+   "s0_9": 68.5,
+   "s10_29": 58.6,
+   "s30_99": 53.8,
+   "s100": 45.5,
+   "total": 55.7
+  },
+  "2021": {
+   "s0_9": 62.0,
+   "s10_29": 60.7,
+   "s30_99": 51.3,
+   "s100": 40.5,
+   "total": 53.3
+  },
+  "2022": {
+   "s0_9": 77.2,
+   "s10_29": 83.7,
+   "s30_99": 73.2,
+   "s100": 67.3,
+   "total": 75.6
+  },
+  "2023": {
+   "s0_9": 123.8,
+   "s10_29": 106.7,
+   "s30_99": 98.0,
+   "s100": 93.2,
+   "total": 103.6
+  },
+  "2024": {
+   "s0_9": 124.3,
+   "s10_29": 116.9,
+   "s30_99": 105.5,
+   "s100": 99.8,
+   "total": 110.6
+  },
+  "2025": {
+   "s0_9": 112.9,
+   "s10_29": 118.8,
+   "s30_99": 108.1,
+   "s100": 103.3,
+   "total": 110.9
+  }
+ },
+ "guests_index_2025": {
+  "s0_9": 107.6,
+  "s10_29": 110.3,
+  "s30_99": 103.1,
+  "s100": 97.1,
+  "total": 104.6
+ },
+ "first_year_over_2019": {
+  "s0_9": 2023,
+  "s10_29": 2023,
+  "s30_99": 2024,
+  "s100": 2025,
+  "total": 2023
+ },
+ "occupancy_2019": {
+  "s0_9": 37.0,
+  "s10_29": 69.8,
+  "s30_99": 72.3,
+  "s100": 75.6,
+  "total": 62.7
+ },
+ "occupancy_2025": {
+  "s0_9": 35.6,
+  "s10_29": 70.4,
+  "s30_99": 71.5,
+  "s100": 70.8,
+  "total": 61.6
+ },
+ "decomposition": [
+  {
+   "size": "s0_9",
+   "nights_2019": 94941610,
+   "nights_2025": 107227250,
+   "change_pct": 12.9,
+   "facilities_2019": 45047,
+   "facilities_2025": 58637,
+   "facilities_pct": 30.2,
+   "per_facility_pct": -13.2,
+   "log_total": 0.1217,
+   "log_facilities": 0.2636,
+   "log_per_facility": -0.142
+  },
+  {
+   "size": "s10_29",
+   "nights_2019": 177489310,
+   "nights_2025": 210893810,
+   "change_pct": 18.8,
+   "facilities_2019": 7897,
+   "facilities_2025": 8262,
+   "facilities_pct": 4.6,
+   "per_facility_pct": 13.6,
+   "log_total": 0.1724,
+   "log_facilities": 0.0452,
+   "log_per_facility": 0.1273
+  },
+  {
+   "size": "s30_99",
+   "nights_2019": 186502130,
+   "nights_2025": 201521330,
+   "change_pct": 8.1,
+   "facilities_2019": 4469,
+   "facilities_2025": 4584,
+   "facilities_pct": 2.6,
+   "per_facility_pct": 5.3,
+   "log_total": 0.0775,
+   "log_facilities": 0.0255,
+   "log_per_facility": 0.052
+  },
+  {
+   "size": "s100",
+   "nights_2019": 136988430,
+   "nights_2025": 141463080,
+   "change_pct": 3.3,
+   "facilities_2019": 1078,
+   "facilities_2025": 1087,
+   "facilities_pct": 0.8,
+   "per_facility_pct": 2.4,
+   "log_total": 0.0321,
+   "log_facilities": 0.0082,
+   "log_per_facility": 0.0239
+  },
+  {
+   "size": "total",
+   "nights_2019": 595921480,
+   "nights_2025": 661105480,
+   "change_pct": 10.9,
+   "facilities_2019": 58491,
+   "facilities_2025": 72570,
+   "facilities_pct": 24.1,
+   "per_facility_pct": -10.6,
+   "log_total": 0.1038,
+   "log_facilities": 0.2157,
+   "log_per_facility": -0.1119
+  }
+ ],
+ "months_2025_where_100plus_is_lowest_of_4": 11,
+ "monthly_2025_vs_2019_range": {
+  "s0_9": [
+   98.9,
+   126.6
+  ],
+  "s10_29": [
+   111.3,
+   124.7
+  ],
+  "s30_99": [
+   101.5,
+   116.1
+  ],
+  "s100": [
+   99.4,
+   111.6
+  ],
+  "total": [
+   104.3,
+   119.3
+  ]
+ }
+}
