@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サンプルマート（架空）ダッシュボード</title>
+<style>
+:root{
+  --bg:#ffffff; --panel:#f7f7f5; --ink:#0b0b0b; --sub:#52514e; --muted:#8a8984; --line:#e3e2de;
+  --good:#2a78d6; --good-bg:#e8f1fc; --bad:#eb6834; --bad-bg:#fdeee6; --neu:#5b4fc4; --neu-bg:#efedfb; --in:#a3a29d; --in-bg:#f0f0ee;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);color:var(--ink);font-family:"Noto Sans CJK JP","Noto Sans JP","Hiragino Sans","Yu Gothic UI",sans-serif;}
+body{overflow-x:hidden}
+#wrap{width:100%;}
+.canvas{width:1280px;height:720px;position:relative;transform-origin:0 0;background:var(--bg)}
+.page{display:none;position:absolute;inset:0;padding:14px 18px}
+.page.on{display:block}
+header{display:flex;justify-content:space-between;align-items:flex-end;height:46px;border-bottom:1px solid var(--line);padding-bottom:6px}
+header h1{font-size:19px;font-weight:700;letter-spacing:.01em}
+header .sub{font-size:11.5px;color:var(--sub);margin-top:3px}
+.tabs{display:flex;gap:4px;margin-left:18px}
+.tabs a{font-size:12px;color:var(--sub);text-decoration:none;padding:3px 10px;border:1px solid var(--line);border-radius:12px;background:#fff}
+.tabs a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.legend{display:flex;gap:10px;font-size:10.5px;color:var(--sub);align-items:center}
+.sw{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:3px;vertical-align:-1px}
+.row{display:flex;gap:10px;margin-top:10px}
+.card{background:var(--panel);border-radius:8px;padding:9px 11px;position:relative;overflow:hidden}
+.card h3{font-size:11.5px;font-weight:600;color:var(--sub);white-space:nowrap}
+.kgi{width:268px;height:172px;border-left:5px solid var(--ink)}
+.kgi .v{font-size:38px;font-weight:700;margin-top:6px;line-height:1}
+.kgi .lv{font-size:12px;color:var(--sub);margin-top:6px}
+.kpi{flex:1;height:172px;min-width:0}
+.kpi .v{font-size:25px;font-weight:700;margin-top:7px;line-height:1;white-space:nowrap}
+.kpi .lv{font-size:10.5px;color:var(--sub);margin-top:5px;white-space:nowrap}
+.chip{display:inline-block;font-size:10.5px;padding:2px 7px;border-radius:10px;margin-top:8px;font-weight:600;white-space:nowrap}
+.chip.good{background:var(--good-bg);color:var(--good)} .chip.bad{background:var(--bad-bg);color:var(--bad)}
+.chip.neu{background:var(--neu-bg);color:var(--neu)} .chip.in{background:var(--in-bg);color:var(--sub)}
+.band{font-size:10px;color:var(--muted);margin-top:5px;white-space:nowrap}
+.mon{font-size:10.5px;color:var(--sub);margin-top:6px;border-top:1px solid var(--line);padding-top:5px;white-space:nowrap}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:3px;vertical-align:0}
+.tier{position:absolute;top:8px;right:9px;font-size:9.5px;color:var(--muted)}
+.panel{background:var(--panel);border-radius:8px;padding:9px 12px}
+.panel h3{font-size:12px;font-weight:600;color:var(--ink)}
+.panel .note{font-size:10px;color:var(--muted);margin-top:2px}
+table{border-collapse:collapse;width:100%;font-size:11.5px;margin-top:6px}
+th{font-weight:600;color:var(--sub);font-size:10.5px;text-align:right;padding:3px 6px;border-bottom:1px solid var(--line)}
+th:first-child,td:first-child{text-align:left}
+td{padding:4px 6px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+td.good{color:var(--good);font-weight:700} td.bad{color:var(--bad);font-weight:700} td.neu{color:var(--neu);font-weight:700} td.in{color:var(--sub)}
+.foot{position:absolute;left:18px;right:18px;bottom:8px;font-size:9.5px;color:var(--muted);display:flex;justify-content:space-between}
+svg text{font-family:inherit}
+/* スマートフォン：縦に並べる（Power BI のモバイルレイアウトにあたる） */
+@media (max-width: 700px){
+  .canvas{width:100%;height:auto;transform:none!important}
+  .page{position:static;padding:10px 12px 40px}
+  header{flex-direction:column;align-items:flex-start;height:auto;gap:6px}
+  .legend{flex-wrap:wrap}
+  .row{flex-wrap:wrap}
+  .kgi{width:100%;height:auto}
+  .kpi{flex:1 1 calc(50% - 5px);height:auto;min-width:0}
+  .panel{width:100%!important;height:auto!important}
+  .panel svg{width:100%;height:auto}
+  .foot{position:static;flex-direction:column;margin-top:10px}
+  .hide-m{display:none}
+  .chartpanel svg{display:none}
+  .chartpanel::after{content:"図は横長の画面で表示します（スマートフォンではカードと表だけ）";display:block;font-size:12px;color:var(--sub);margin-top:6px}
+}
+</style>
+</head>
+<body>
+<div id="wrap"><div class="canvas" id="cv"></div></div>
+<script>
+const D = __DATA__;
+const C = {good:"#2a78d6", bad:"#eb6834", neu:"#5b4fc4", in:"#a3a29d", ink:"#0b0b0b", sub:"#52514e", muted:"#8a8984", line:"#e3e2de", panel:"#f7f7f5"};
+const pct = (v, d=1) => (v>=0?"+":"−") + Math.abs(v*100).toFixed(d) + "%";
+const pt = (v, d=2) => (v>=0?"+":"−") + Math.abs(v*100).toFixed(d) + "pt";
+const fmt = (v, u, d) => u==="pt" ? pt(v, d ?? 2) : pct(v, d ?? 1);
+const oku = v => (v/1e8).toFixed(2) + "億円";
+// 偶然の幅で判定：幅の外なら「良い／悪い／物価」、内なら灰色
+function judge(v, band, good){ if (Math.abs(v) <= band) return "in"; if (good===0) return "neu"; return (v>0) === (good>0) ? "good" : "bad"; }
+const label = {good:"幅の外・良い", bad:"幅の外・悪い", neu:"幅の外（物価）", in:"偶然の幅の内"};
+function el(tag, attrs={}, html=""){ const e=document.createElement(tag); for(const k in attrs) e.setAttribute(k, attrs[k]); e.innerHTML=html; return e; }
+function svg(w, h, inner){ return `<svg viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img">${inner}</svg>`; }
+
+function header(title, sub, p){
+  const tabs = [["1","経営"],["2","地域・店"],["3","部門"]].map(([k,t])=>`<a href="?p=${k}" class="${k==p?'on':''}" data-p="${k}">${t}</a>`).join("");
+  return `<header><div><div style="display:flex;align-items:baseline"><h1>${title}</h1><nav class="tabs">${tabs}</nav></div>
+  <div class="sub">${sub}</div></div>
+  <div class="legend"><span><i class="sw" style="background:${C.good}"></i>幅の外・良い</span><span><i class="sw" style="background:${C.bad}"></i>幅の外・悪い</span>
+  <span><i class="sw" style="background:${C.neu}"></i>幅の外（物価）</span><span><i class="sw" style="background:${C.in}"></i>偶然の幅の内</span></div></header>`;
+}
+const foot = `<div class="foot"><span>サンプルマート（架空）・合成データ。会社も数字も実在しません。既存店＝月初で開店13か月以上かつ月末まで営業。</span><span>偶然の幅＝本当の変化がなくても出る前年比のぶれ（±1.96σ、乱数の種20通り）</span></div>`;
+
+// ---------- 1. 経営 ----------
+function page1(){
+  const k = D.kgi, F = D.fy, M = D.m;
+  let h = header("サンプルマート（架空） 経営ダッシュボード", `${D.asof}｜既存店の前年比（同じ店どうし）｜大きい数字は FY2025（12か月）、下の段は3月`, 1);
+  const j = judge(k.fy, k.band_fy, 1), jm = judge(k.m, k.band_m, 1);
+  h += `<div class="row"><div class="card kgi" data-test="kgi"><h3>営業利益（KGI・既存店）</h3><div class="v" style="color:${C[j]}">${pct(k.fy)}</div>
+  <div class="lv">FY2025 ${oku(k.lv_fy)}（前年 ${oku(k.lv_fy0)}）</div><span class="chip ${j}">${label[j]}</span>
+  <div class="band">偶然の幅 ±${(k.band_fy*100).toFixed(1)}%（全社・12か月）</div>
+  <div class="mon"><i class="dot" style="background:${C[jm]}"></i>3月 ${pct(k.m)}（幅 ±${(k.band_m*100).toFixed(1)}%）</div></div>`;
+  for (const c of D.cards){
+    const jj = judge(c.fy, c.band_fy, c.good), jm2 = judge(c.m, c.band_m, c.good);
+    h += `<div class="card kpi" data-test="kpi"><h3>${c.name}</h3><div class="v" style="color:${C[jj]}">${fmt(c.fy, c.unit)}</div>
+    <div class="lv">${c.lv}</div><span class="chip ${jj}">${label[jj]}</span><div class="band">幅 ±${fmt(c.band_fy, c.unit).slice(1)}</div>
+    <div class="mon"><i class="dot" style="background:${C[jm2]}"></i>3月 ${fmt(c.m, c.unit)}</div></div>`;
+  }
+  h += `</div><div class="row">`;
+  // 推移
+  const T = D.trend, W=600, H=250, L=44, R=10, TOP=16, B=28;
+  const ys = T.map(t=>t.adj).concat(T.map(t=>t.raw)); const ymax = Math.max(0.05, ...ys)+0.005, ymin = Math.min(-0.02, ...ys)-0.005;
+  const X = i => L + i*(W-L-R)/(T.length-1), Y = v => TOP + (ymax-v)/(ymax-ymin)*(H-TOP-B);
+  let s = `<rect x="${L}" y="${Y(D.band_cm)}" width="${W-L-R}" height="${Y(-D.band_cm)-Y(D.band_cm)}" fill="#ebebe8"/>`;
+  for (let v=-0.02; v<=ymax; v+=0.02){ s += `<line x1="${L}" x2="${W-R}" y1="${Y(v)}" y2="${Y(v)}" stroke="${C.line}"/><text x="${L-6}" y="${Y(v)+4}" font-size="10" fill="${C.sub}" text-anchor="end">${(v*100).toFixed(0)}%</text>`; }
+  s += `<line x1="${L}" x2="${W-R}" y1="${Y(0)}" y2="${Y(0)}" stroke="${C.muted}"/>`;
+  s += `<polyline fill="none" stroke="${C.muted}" stroke-width="1.2" stroke-dasharray="3 3" points="${T.map((t,i)=>X(i)+","+Y(t.raw)).join(" ")}"/>`;
+  s += `<polyline fill="none" stroke="${C.ink}" stroke-width="1.8" points="${T.map((t,i)=>X(i)+","+Y(t.adj)).join(" ")}"/>`;
+  T.forEach((t,i)=>{ const jj = judge(t.adj, D.band_cm, 1); s += `<circle cx="${X(i)}" cy="${Y(t.adj)}" r="3.4" fill="${C[jj]}"/>`;
+    if (t.ym.endsWith("-04") || t.ym.endsWith("-10")) s += `<text x="${X(i)}" y="${H-10}" font-size="10" fill="${C.sub}" text-anchor="middle">${t.ym.slice(0,4)}/${+t.ym.slice(5)}</text>`; });
+  s += `<text x="${L+6}" y="${Y(-D.band_cm)-5}" font-size="9.5" fill="${C.sub}">灰色の帯＝偶然の幅 ±${(D.band_cm*100).toFixed(1)}%（全社・月）</text>`;
+  h += `<div class="panel chartpanel" style="width:620px;height:300px"><h3>既存店売上の前年比（月）― 実線：曜日・祝日の並びを補正、点線：補正前</h3>
+  <div class="note">点の色は偶然の幅との比べ。物価の上がり（一品単価 +4%）を含む。</div>${svg(W,H,s)}</div>`;
+  // 営業利益の前年差の分け方
+  const Bg = D.bridge, BW=560, BH=250, bl=10, bb=40, bt=18;
+  const steps = [["前年", Bg.op0, "base"], ["売上の伸び", Bg.sales, "d"], ["粗利率（廃棄前）", Bg.margin, "d"], ["廃棄", Bg.waste, "d"], ["人件費", Bg.labor, "d"], ["その他経費", Bg.other, "d"], ["当年", Bg.op1, "base"]];
+  let run = 0, lo = 0, hi = Bg.op0 + Bg.sales + 0.5e8;
+  const bw = (BW-bl*2)/steps.length, Yb = v => bt + (hi - v)/(hi-lo)*(BH-bt-bb);
+  let s2 = "";
+  steps.forEach(([n,v,t],i)=>{ const x = bl + i*bw + 8, w = bw-16; let y0, y1, col;
+    if (t==="base"){ y0=0; y1=v; run=v; col=C.ink; } else { y0=run; y1=run+v; run=y1; col = Math.abs(v)<0.02e8 ? C.in : (v>0?C.good:C.bad); }
+    s2 += `<rect x="${x}" y="${Yb(Math.max(y0,y1))}" width="${w}" height="${Math.max(1,Math.abs(Yb(y0)-Yb(y1)))}" fill="${col}" rx="2"/>`;
+    s2 += `<text x="${x+w/2}" y="${Yb(Math.max(y0,y1))-5}" font-size="11" font-weight="700" fill="${C.ink}" text-anchor="middle">${t==="base"?(v/1e8).toFixed(2):((v>=0?"+":"−")+Math.abs(v/1e8).toFixed(2))}</text>`;
+    const nm = n.length>5 ? [n.slice(0,n.indexOf("（")>0?n.indexOf("（"):5), n.indexOf("（")>0?n.slice(n.indexOf("（")):n.slice(5)] : [n,""];
+    s2 += `<text x="${x+w/2}" y="${BH-bb+16}" font-size="10.5" fill="${C.sub}" text-anchor="middle">${nm[0]}</text><text x="${x+w/2}" y="${BH-bb+29}" font-size="9.5" fill="${C.muted}" text-anchor="middle">${nm[1]}</text>`; });
+  s2 += `<line x1="${bl}" x2="${BW-bl}" y1="${Yb(0)}" y2="${Yb(0)}" stroke="${C.muted}"/>`;
+  h += `<div class="panel chartpanel" style="flex:1;height:300px"><h3>営業利益（既存店）の前年差はどこから来たか（FY2025、億円）</h3>
+  <div class="note">売上は伸びたが、廃棄・人件費・その他経費の増加がそれを上回った。下の「地域」から店のページへ。</div>${svg(BW,BH,s2)}</div></div>`;
+  // 地域
+  h += `<div class="row"><div class="panel" style="width:100%;height:150px" data-test="area"><h3>地域ごと（FY2025、既存店の前年比）― 色は地域・12か月の偶然の幅で判定</h3><table><tr><th>地域</th>`;
+  const AC = D.area_cols; h += AC.map(c=>`<th>${c.name}<span style="color:${C.muted};font-weight:400">（幅 ±${fmt(c.band,c.unit).slice(1)}）</span></th>`).join("") + `<th class="hide-m">店のページ</th></tr>`;
+  for (const a of D.areas){ h += `<tr><td>${a.area}</td>` + AC.map(c=>{const v=a[c.key], jj=judge(v,c.band,c.good); return `<td class="${jj}">${fmt(v,c.unit)}</td>`;}).join("") + `<td class="hide-m" style="color:${C.good}">→ 地域・店</td></tr>`; }
+  h += `</table></div></div>` + foot;
+  return h;
+}
+
+// ---------- 2. 地域・店 ----------
+function page2(){
+  let h = header("サンプルマート（架空） 地域・店", `FY2025（12か月）の既存店｜色は 1店・12か月の偶然の幅で判定｜店の営業利益は幅 ±${(D.band_store.op*100).toFixed(0)}% と大きいので並べない`, 2);
+  const S = D.stores, W=700, rowH=19.2, top=30, L=150;
+  const cols = [["売上の前年比（全社との差）", "dev", D.band_store.sales, 1, -0.06, 0.14, "pt"], ["廃棄率の前年差", "waste", D.band_store.waste, -1, -0.004, 0.010, "pt"], ["人時粗利の前年比", "lhgp", D.band_store.lhgp, 1, -0.06, 0.14, "%"]];
+  const cw = (W - L - 10)/cols.length;
+  let s = "";
+  cols.forEach(([n,key,band,good,lo,hi,u],ci)=>{ const x0 = L + ci*cw + 6, x1 = x0 + cw - 18, X = v => x0 + (Math.min(hi,Math.max(lo,v))-lo)/(hi-lo)*(x1-x0);
+    s += `<text x="${(x0+x1)/2}" y="12" font-size="10.5" font-weight="600" fill="${C.sub}" text-anchor="middle">${n}</text>`;
+    s += `<rect x="${X(-band)}" y="${top-6}" width="${X(band)-X(-band)}" height="${S.length*rowH+4}" fill="#ebebe8"/>`;
+    s += `<line x1="${X(0)}" x2="${X(0)}" y1="${top-6}" y2="${top+S.length*rowH}" stroke="${C.muted}"/>`;
+    S.forEach((r,i)=>{ const y = top + i*rowH + rowH/2 - 4, v = r[key]; if (v===null) return;
+      const jj = r.full ? judge(v, band, good) : "in";
+      s += `<line x1="${X(0)}" x2="${X(v)}" y1="${y}" y2="${y}" stroke="${C[jj]}" stroke-width="2"/>`;
+      s += r.full ? `<circle cx="${X(v)}" cy="${y}" r="4.2" fill="${C[jj]}"/>` : `<circle cx="${X(v)}" cy="${y}" r="4" fill="#fff" stroke="${C.sub}" stroke-width="1.3"/>`;
+      if (r.id===D.focus.id) s += `<text x="${x1+16}" y="${y+4}" text-anchor="end" font-size="9.5" fill="${C.ink}">${u==="pt"?pt(v,key==="waste"?2:1):pct(v)}</text>`; });
+    s += `<text x="${X(0)}" y="${top+S.length*rowH+14}" font-size="9.5" fill="${C.muted}" text-anchor="middle">幅 ±${(band*100).toFixed(band<0.01?2:1)}${u==="pt"?"pt":"%"}</text>`; });
+  let prev = "";
+  S.forEach((r,i)=>{ const y = top + i*rowH + rowH/2;
+    if (r.area!==prev){ s += `<line x1="0" x2="${W}" y1="${top+i*rowH-2}" y2="${top+i*rowH-2}" stroke="${C.line}"/>`; prev = r.area; }
+    s += `<text x="4" y="${y}" font-size="10.5" fill="${r.id===D.focus.id?C.ink:C.sub}" font-weight="${r.id===D.focus.id?700:400}">${r.label}${r.full?"":"（"+r.n+"か月）"}</text>`; });
+  h += `<div class="row"><div class="panel chartpanel" style="width:720px;height:620px" data-test="stores"><h3>店ごと（灰色の帯＝偶然の幅。白い点は12か月そろわない店で、判定しない）</h3>${svg(W,560,s)}</div>`;
+  // 店の詳細
+  const f = D.focus; const tr = f.trend, TW=470, TH=190, L2=44, R2=8, T2=14, B2=26;
+  const vals = tr.map(t=>t.waste); const ymax = Math.max(0.012, ...vals)+0.001, ymin = Math.min(-0.004, ...vals)-0.001;
+  const X2 = i => L2 + i*(TW-L2-R2)/(tr.length-1), Y2 = v => T2 + (ymax-v)/(ymax-ymin)*(TH-T2-B2);
+  let s3 = `<rect x="${L2}" y="${Y2(D.band_store_m.waste)}" width="${TW-L2-R2}" height="${Y2(-D.band_store_m.waste)-Y2(D.band_store_m.waste)}" fill="#ebebe8"/>`;
+  for (let v=-0.004; v<=ymax; v+=0.004) s3 += `<line x1="${L2}" x2="${TW-R2}" y1="${Y2(v)}" y2="${Y2(v)}" stroke="${C.line}"/><text x="${L2-5}" y="${Y2(v)+4}" font-size="9.5" fill="${C.sub}" text-anchor="end">${(v*100).toFixed(1)}</text>`;
+  s3 += `<polyline fill="none" stroke="${C.ink}" stroke-width="1.6" points="${tr.map((t,i)=>X2(i)+","+Y2(t.waste)).join(" ")}"/>`;
+  tr.forEach((t,i)=>{ const jj = judge(t.waste, D.band_store_m.waste, -1); s3 += `<circle cx="${X2(i)}" cy="${Y2(t.waste)}" r="3.2" fill="${C[jj]}"/>`;
+    if (t.ym.endsWith("-04") || t.ym.endsWith("-10")) s3 += `<text x="${X2(i)}" y="${TH-8}" font-size="9.5" fill="${C.sub}" text-anchor="middle">${t.ym.slice(0,4)}/${+t.ym.slice(5)}</text>`; });
+  s3 += `<text x="${TW-R2}" y="${T2-3}" font-size="9" fill="${C.sub}" text-anchor="end">pt。灰色＝1店・月の偶然の幅 ±${(D.band_store_m.waste*100).toFixed(2)}pt</text>`;
+  h += `<div style="flex:1;display:flex;flex-direction:column;gap:10px"><div class="panel chartpanel" style="height:250px"><h3>ドリルスルー：${f.label} ― 廃棄率の前年差（月）</h3>${svg(TW,TH,s3)}</div>`;
+  h += `<div class="panel" style="height:360px"><h3>${f.label} の KPI ツリー（FY2025、既存店の前年比）</h3><table><tr><th>KPI</th><th>この店</th><th>全社</th><th>幅（1店・12か月）</th></tr>`;
+  for (const r of f.tree){ const jj = r.band===null ? "in" : judge(r.v, r.band, r.good); h += `<tr><td>${r.name}</td><td class="${jj}">${fmt(r.v,r.unit)}</td><td class="in">${fmt(r.co,r.unit)}</td><td class="in">${r.band===null?"―":"±"+fmt(r.band,r.unit).slice(1)}</td></tr>`; }
+  h += `</table><div class="note" style="margin-top:8px;line-height:1.5">${f.note}</div></div></div></div>` + foot;
+  return h;
+}
+
+// ---------- 3. 部門 ----------
+function page3(){
+  let h = header("サンプルマート（架空） 部門", "FY2024 → FY2025、既存店｜部門の偶然の幅はまだ測っていないので、色は向きだけ（灰色の濃さは使わない）", 3);
+  const K = D.cats, W=1220, H=520, L=60, top=40, gw = (W-L)/2;
+  let s = "";
+  [["廃棄率（%）","waste0","waste1"],["粗利率（廃棄後、%）","gpm0","gpm1"]].forEach(([n,a,b],gi)=>{ const x0 = L + gi*gw, maxv = Math.max(...K.map(k=>Math.max(k[a],k[b])))*1.15;
+    s += `<text x="${x0}" y="20" font-size="12.5" font-weight="700" fill="${C.ink}">${n}</text>`;
+    const bh = (H-top-30)/K.length;
+    K.forEach((k,i)=>{ const y = top + i*bh, Xs = v => x0 + 70 + v/maxv*(gw-150);
+      s += `<text x="${x0+62}" y="${y+bh/2+4}" font-size="11.5" fill="${C.sub}" text-anchor="end">${k.name}</text>`;
+      s += `<rect x="${x0+70}" y="${y+6}" width="${Xs(k[a])-x0-70}" height="${bh/2-8}" fill="#cfcec9" rx="2"/>`;
+      const up = k[b]-k[a], col = Math.abs(up) < 0.0005 ? C.in : ((gi===0) === (up>0) ? C.bad : C.good);
+      s += `<rect x="${x0+70}" y="${y+bh/2}" width="${Xs(k[b])-x0-70}" height="${bh/2-8}" fill="${col}" rx="2"/>`;
+      s += `<text x="${Xs(k[b])+6}" y="${y+bh/2+10}" font-size="11" fill="${C.ink}">${(k[b]*100).toFixed(2)}（${pt(up)}）</text>`; }); });
+  s += `<text x="${L}" y="${H-4}" font-size="10.5" fill="${C.sub}">上の灰色の棒＝FY2024、下の色の棒＝FY2025（廃棄率は上がると橙、粗利率は下がると橙）</text>`;
+  h += `<div class="row"><div class="panel chartpanel" style="width:100%;height:610px">${svg(W,H+20,s)}<div class="note">廃棄の上がり方は地方の店でそろって大きい（地域・店のページ）。部門の差は、次の回で部門×店の偶然の幅を測ってから色の判定に使う。</div></div></div>` + foot;
+  return h;
+}
+
+const cv = document.getElementById("cv");
+[page1, page2, page3].forEach((f,i)=>{ const p = el("section", {class:"page", id:"p"+(i+1)}); p.innerHTML = f(); cv.appendChild(p); });
+function show(p){ document.querySelectorAll(".page").forEach(e=>e.classList.toggle("on", e.id==="p"+p)); }
+const q = new URLSearchParams(location.search).get("p") || "1"; show(q);
+document.querySelectorAll(".tabs a").forEach(a=>a.addEventListener("click", e=>{ e.preventDefault(); show(a.dataset.p); try{history.replaceState(null,"","?p="+a.dataset.p);}catch(_){} }));
+function fit(){ if (window.innerWidth <= 700){ cv.style.transform="none"; document.getElementById("wrap").style.height="auto"; return; }
+  const s = Math.min(window.innerWidth/1280, window.innerHeight/720); cv.style.transform = `scale(${s})`; document.getElementById("wrap").style.height = (720*s)+"px"; }
+fit(); window.addEventListener("resize", fit);
+</script>
+</body>
+</html>
