@@ -61,7 +61,7 @@ for i, (lab, ys) in enumerate(rows):
         ax.scatter(y, -i, s=150, marker="s", color=(C1 if i == 0 else C2) if hit else "#eeeeee", edgecolor="#bbb")
 ax.set_yticks([-i for i in range(len(rows))]); ax.set_yticklabels([r[0] for r in rows], fontsize=9)
 ax.set_xticks(MAIN[1:]); ax.tick_params(axis="x", labelsize=8); ax.grid(False)
-ax.set_title("色つき＝それまでの年（2011年〜、2020〜2022年を除く）より大きかった年", fontsize=10)
+ax.set_title("色つき＝それまでの年より大きかった年（1人あたりは2011年以降・2020〜2022年を除く、訪日客数は2003年以降で判定）", fontsize=9.5)
 save(fig, "f270_3_record_years.png")
 
 # 図4：国・地域別、2025年は2011〜2019年の最大と比べて何％か（実質の円 と 実質の現地通貨）
@@ -83,11 +83,12 @@ w = [dec[(dec.y0 == a) & (dec.y1 == b)].within.iloc[0] / 1e4 for a, b in order]
 m = [dec[(dec.y0 == a) & (dec.y1 == b)].mix.iloc[0] / 1e4 for a, b in order]
 ax.bar(x - 0.2, w, width=0.38, color=C1, label="国・地域の中で1人あたりが変わった分")
 ax.bar(x + 0.2, m, width=0.38, color="#f4a261", label="来る国・地域の構成が変わった分")
-for i in range(len(order)):
-    ax.annotate(f"{w[i]+m[i]:+.2f}", (x[i], max(w[i], m[i], 0) + 0.2), ha="center", fontsize=8)
+pub = M["robust"]["published_diff"]
+for i, (a, b) in enumerate(order):
+    ax.annotate(f"{w[i]+m[i]:+.2f}\n（公表値 {pub[f'{a}-{b}']/1e4:+.2f}）", (x[i], max(w[i], m[i], 0) + 0.15), ha="center", fontsize=7.5)
 ax.axhline(0, color="#333", lw=0.8); ax.set_xticks(x); ax.set_xticklabels([f"{a}→{b}" for a, b in order], fontsize=9)
-ax.set_ylabel("1人あたり支出の変化（万円、名目）"); ax.legend(fontsize=8, frameon=False)
-ax.set_title("2019→2025年の増加はほぼ国・地域の中の増加。2024→2025年の小さな増加は構成の変化から", fontsize=10.5)
+ax.set_ylabel("1人あたり支出の変化（万円、名目、組み立てた値）"); ax.set_ylim(-2.8, 9.0); ax.legend(fontsize=8, frameon=False)
+ax.set_title("国籍別の値から組み立てた1人あたりの分解。2019→2025年はほぼ国・地域の中の増加、構成の変化はほぼゼロ", fontsize=10)
 save(fig, "f270_5_mix_decomposition.png")
 
 # 図6：問い直し（2024→2025年、泊数と1泊あたり）

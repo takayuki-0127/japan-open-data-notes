@@ -147,6 +147,20 @@ rob["segments_real_max_year"] = {k: int(s.loc[v, "pc_real"].idxmax()) for k, v i
 rob["with_2022"] = dict(nom_max_year=int(s.pc_nom.idxmax()), real_max_year=int(s.pc_real.idxmax()))
 # 実質ドルで1人あたりがいちばん大きい年
 rob["usd_real_max_year"] = int(s.loc[MAIN, "pc_usd_real"].idxmax())
+# レビュー後に追加：調査の方式ごとの実質ドル、比べられる年での順位、2022年を入れた場合
+rob["usd_real_vs_2018_19_max"] = s.loc[2025, "pc_usd_real"] / s.loc[[2018, 2019], "pc_usd_real"].max() - 1
+rob["usd_real_vs_2011_17_max"] = s.loc[2025, "pc_usd_real"] / s.loc[[y for y in YRS if y <= 2017], "pc_usd_real"].max() - 1
+rob["n_years_compared"] = len(MAIN)
+rob["real_rank_2025_main"] = int(s.loc[MAIN, "pc_real"].rank(ascending=False)[2025])
+rob["real_rank_2025_with_2022"] = int(s.pc_real.rank(ascending=False)[2025])
+rob["usd_real_rank_2025_from_top_main"] = int(s.loc[MAIN, "pc_usd_real"].rank(ascending=False)[2025])
+rec22 = [y for y in YRS if y != YRS[0] and s.loc[y, "pc_real"] > s.loc[[x for x in YRS if x < y], "pc_real"].max()]
+rob["H4_with_2022"] = dict(per_capita_real_records=rec22, both=[y for y in arr_rec if y in rec22], share=len([y for y in arr_rec if y in rec22]) / len(arr_rec))
+# 組み立てた全国籍の値と公表値のずれ、公表値での差
+rob["recon_gap"] = {int(y): float(dec[(dec.y0 == y) & (dec.weight == "avg")].P0.iloc[0] / s.loc[y, "pc_nom"] - 1) for y in [2019, 2024]}
+rob["recon_gap"][2025] = float(dec[(dec.y1 == 2025) & (dec.weight == "avg")].P1.iloc[0] / s.loc[2025, "pc_nom"] - 1)
+rob["published_diff"] = {f"{a}-{b}": float(s.loc[b, "pc_nom"] - s.loc[a, "pc_nom"]) for a, b in [(2019, 2025), (2015, 2019), (2024, 2025), (2015, 2025), (2011, 2019), (2019, 2024)]}
+rob["us_cpi_2025_months"] = 11  # FRED の CPIAUCSL は2025年10月が欠け（11か月の平均）
 OUT["robust"] = rob
 
 # ---- 問い直し（結果を見た後に追加）：1人あたりの増減は「1泊あたり」と「泊数」のどちらから来たか ----
