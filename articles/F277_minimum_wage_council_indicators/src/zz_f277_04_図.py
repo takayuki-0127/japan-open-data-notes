@@ -45,9 +45,15 @@ fig, ax = plt.subplots(figsize=(9, 4.8))
 ax.plot(P.year, P.y, "-o", color="k", label="実際の引上げ率")
 ax.plot(P.year, P.fit_m2, "--", color=C1, label=f"5つの指標で当てはめ（決定係数 {J['M2']['r2']:.2f}）")
 ax.plot(P.year, P.y - P.loo_res_m2, ":", marker="x", color=C1, label=f"その年を抜いて予測（誤差 {J['M2']['loo_rmse']:.2f}ポイント）")
+import statsmodels.api as sm
+loo1 = []
+for i in P.index:
+    m = sm.OLS(P.drop(i)["y"], sm.add_constant(P.drop(i)[["t4"]])).fit()
+    loo1.append(float(m.predict(sm.add_constant(P.loc[[i], ["t4"]], has_constant="add")).iloc[0]))
+ax.plot(P.year, loo1, ":", marker=".", color=C2, label=f"第4表だけで、その年を抜いて予測（誤差 {J['M1']['loo_rmse']:.2f}ポイント）")
 ax.plot(P.year, P.y_prev, "-", color=C3, alpha=0.7, label=f"前年と同じ（誤差 {J['naive_prev']['rmse']:.2f}ポイント）")
 ax.set_ylabel("%"); ax.set_xlabel("年度"); ax.legend(fontsize=8.5, loc="upper left")
-ax.set_title("指標で当てはまっても、予測の誤差は「前年と同じ」とほぼ同じ"); ax.set_xticks(range(2003, 2027, 2))
+ax.set_title("指標を5つに増やすと当てはまりは上がるが、予測の誤差は第4表だけより大きい"); ax.set_xticks(range(2003, 2027, 2))
 save(fig, "fig3_fit_loo_naive.png")
 
 # 図4 2003〜2015で当てはめて2016〜2026を予測
@@ -64,22 +70,30 @@ ax.set_ylabel("%（9%より上は数字で表示）"); ax.set_xlabel("年度"); 
 ax.set_title("2015年までの関係は、春季賃上げが跳ねた2023年以降には延ばせない"); ax.set_xticks(range(2003, 2027, 2))
 save(fig, "fig4_out_of_sample.png")
 
-# 図5 頑健性
-rb = J["robust"]
-rows = [("基本（前年10月〜当年6月の物価）", J["M2"]["r2"], J["M2"]["loo_rmse"], J["H1"]["mean_gap_2007_2026"]),
-        ("R1 物価を前年の暦年に", rb["R1_cpi_calendar"]["r2"], rb["R1_cpi_calendar"]["loo_rmse"], J["H1"]["mean_gap_2007_2026"]),
-        ("R2 2009・2020年を除く", rb["R2_excl_2020_2009"]["r2"], rb["R2_excl_2020_2009"]["loo_rmse"], rb["R2_excl_2020_2009"]["h1_gap_2007_2026"]),
-        ("R4 円で（誤差は右の注）", rb["R4_yen"]["r2"], np.nan, np.nan)]
-fig, axs = plt.subplots(1, 2, figsize=(10, 3.8))
-lab = [r[0] for r in rows][::-1]
-axs[0].barh(lab, [r[1] for r in rows][::-1], color=C1); axs[0].axvline(0.7, color="k", ls="--", lw=1)
-axs[0].set_title("決定係数（基準0.7）"); axs[0].set_xlim(0, 1)
-axs[1].barh(lab, [r[2] for r in rows][::-1], color=C2); axs[1].axvline(J["naive_prev"]["rmse"], color="k", ls="--", lw=1)
-axs[1].set_title("1年ずつ抜いた予測の誤差（破線＝前年と同じ）"); axs[1].set_yticklabels([])
+# 図5 頑健性（同じ年どうしで比べる）
+R = json.load(open(os.path.join(HERE, "..", "results", "review_checks.json"), encoding="utf-8"))
+rb = J["robust"]; sy = R["same_years_compare"]
+fig, axs = plt.subplots(1, 2, figsize=(11, 4.2), gridspec_kw={"width_ratios": [1, 1.5]})
+lab = ["基本", "R1 物価を前年の暦年に", "R2 2009・2020年度を除く", "R4 円で"]
+r2 = [J["M2"]["r2"], rb["R1_cpi_calendar"]["r2"], rb["R2_excl_2020_2009"]["r2"], rb["R4_yen"]["r2"]]
+axs[0].barh(lab[::-1], r2[::-1], color=C1); axs[0].axvline(0.7, color="k", ls="--", lw=1)
+axs[0].set_title("5つの指標の決定係数（破線＝基準0.7）", fontsize=10); axs[0].set_xlim(0, 1)
+conds = [("基本（2004〜26年度）", sy["base_2004_2026"]["five_loo"], sy["base_2004_2026"]["t4_only_loo"], sy["base_2004_2026"]["naive"]),
+         ("R1 物価を暦年に（同じ年）", sy["base_2004_2026"]["five_cal_loo"], sy["base_2004_2026"]["t4_only_loo"], sy["base_2004_2026"]["naive"]),
+         ("R2 2009・2020を除く", sy["excl_2009_2020"]["five_loo"], sy["excl_2009_2020"]["t4_only_loo"], sy["excl_2009_2020"]["naive"]),
+         ("R2 さらに2021も除く", sy["excl_2009_2020_2021"]["five_loo"], sy["excl_2009_2020_2021"]["t4_only_loo"], sy["excl_2009_2020_2021"]["naive"])]
+yy = np.arange(len(conds))[::-1]; h = 0.26
+axs[1].barh(yy + h, [c[1] for c in conds], h, color=C1, label="5つの指標")
+axs[1].barh(yy, [c[2] for c in conds], h, color=C2, label="第4表だけ")
+axs[1].barh(yy - h, [c[3] for c in conds], h, color=C3, label="前年と同じ")
+for k, c in zip(yy, conds):
+    for dy, v in ((h, c[1]), (0, c[2]), (-h, c[3])): axs[1].text(v + 0.01, k + dy, f"{v:.2f}", va="center", fontsize=8)
+axs[1].set_yticks(yy); axs[1].set_yticklabels([c[0] for c in conds]); axs[1].set_xlim(0, 1.35)
+axs[1].set_title("同じ年で比べた、1年ずつ抜いた予測の誤差（ポイント）", fontsize=10); axs[1].legend(fontsize=8, loc="lower right")
+fig.text(0.99, 0.01, f"R4（円、{R['yen_same_years']['n']}年）：5指標 {R['yen_same_years']['five_loo']:.1f}円、前年と同じ {R['yen_same_years']['naive']:.1f}円", fontsize=8, ha="right")
 for ax in axs: ax.tick_params(labelsize=8.5)
-axs[1].text(0.03, 0.12, f"R4（円）：誤差 {rb['R4_yen']['loo_rmse_yen']:.1f}円\n前年と同じ {rb['R4_yen']['naive_prev_rmse_yen']:.1f}円", fontsize=8.5, va="center", transform=axs[1].transAxes)
-fig.suptitle("条件を変えても、当てはまりは高く、予測の誤差は1ポイント前後", fontsize=11)
-save(fig, "fig5_robustness.png")
+fig.suptitle("どの指標が先を読めるかは、どの年を入れるかで入れ替わる", fontsize=11)
+fig.tight_layout(rect=(0, 0.04, 1, 1)); fig.savefig(os.path.join(FIG, "fig5_robustness.png"), dpi=150); plt.close(fig)
 
 # 図6 問い直し：第4表と前年の最低賃金の引上げ
 fig, ax = plt.subplots(figsize=(8, 5))
