@@ -134,3 +134,50 @@ rq["split_half_r_C_excl_top2"] = float(np.median(rs6)); rq["reliability_C_6yr_ex
 R["reask"] = rq
 json.dump(R, open(B / "results" / "main.json", "w"), ensure_ascii=False, indent=1)
 print("reask", json.dumps(rq, ensure_ascii=False, indent=1))
+
+# 独立レビューを受けて足した確かめ（結果のあと）
+rv = {}
+# (1) 補正した傾きの幅：折半の相関の幅・都道府県の再標本化・逆回帰の上限・6年分での補正
+def rel_from(r): return 2 * r / (1 + r)
+def yrs08(r):
+    r1 = r / (4 - 3 * r); return 0.8 * (1 - r1) / (r1 * 0.2)
+rlo, rhi = min(rs), max(rs)
+rv["corrected_slope_split_range"] = [float(R["main"]["slope_b"] / rel_from(rhi)), float(R["main"]["slope_b"] / rel_from(rlo))]
+rv["years_for_0_8_split_range"] = [float(yrs08(rhi)), float(yrs08(rlo))]
+# 都道府県の再標本化（300回）：毎回、傾きと信頼性（35通りの折半の中央値）を計算し直す
+yrp = m.groupby(["pref", "fy"])[["prem", "claim", "amt"]].sum()
+halves = [h for h in itertools.combinations(yrs, 4) if 2017 in h]
+def lvl(ix, years):
+    g = yrp.loc[(ix, list(years)), :].groupby(level="pref").sum().reindex(ix)
+    return np.log(g.prem / g.amt), np.log(g.claim / g.amt)
+cs = []
+for b in range(300):
+    ix = list(rng.choice(PREF, len(PREF), replace=True))
+    ixu = sorted(set(ix))
+    lr, lc = lvl(ixu, yrs); lr = lr.loc[ix].values; lc = lc.loc[ix].values
+    bb = np.polyfit(lc, lr, 1)[0]
+    rr = []
+    for h in halves:
+        _, ca = lvl(ixu, h); _, cb = lvl(ixu, [y for y in yrs if y not in h])
+        rr.append(np.corrcoef(ca.loc[ix].values, cb.loc[ix].values)[0, 1])
+    cs.append(bb / rel_from(np.median(rr)))
+rv["corrected_slope_boot95"] = [float(np.percentile(cs, 2.5)), float(np.percentile(cs, 97.5))]
+lr, lc = np.log(lv.R.values), np.log(lv.C.values)
+rv["reverse_regression_upper"] = float(np.var(lr, ddof=1) / np.cov(lr, lc)[0, 1])
+rv["corrected_slope_6yr"] = float(rob["drop_top2_national_years"]["slope_b"] / rq["reliability_C_6yr_excl_top2"])
+# (2) 料率の水準には保険期間の構成が入る：全国の R（1,000円あたり）
+rv["national_R"] = {int(k): v["R"] for k, v in R["national_by_fy"].items()}
+# H4 を 2022年10月の長期契約の見直しより前で終わる窓で確かめる
+def rel_lvl(sub):
+    g = sub.groupby("pref")[["prem", "amt"]].sum().loc[PREF]; return (g.prem / g.amt) / (sub.prem.sum() / sub.amt.sum())
+for nm, Lt2 in [("2020_2021", [2020, 2021]), ("2020_2022", [2020, 2021, 2022])]:
+    dR2 = np.log(rel_lvl(m[m.fy.isin(Lt2)]) / rel_lvl(m[m.fy.isin(E)]))
+    rv["H4_window_" + nm] = dict(spearman=float(stats.spearmanr(lvE.L, dR2).statistic), p=float(stats.spearmanr(lvE.L, dR2).pvalue),
+                                 spearman_C_over_Rlate=float(stats.spearmanr(lvE.C / levels(m[m.fy.isin(Lt2)]).R, dR2).statistic))
+# (7) 料率の全国比の変化を比で
+rv["dR_ratio_range"] = [float(np.exp(dR.min()) - 1), float(np.exp(dR.max()) - 1)]
+# 6年の補正値の材料
+rv["slope_6yr"] = float(rob["drop_top2_national_years"]["slope_b"]); rv["reliability_6yr"] = rq["reliability_C_6yr_excl_top2"]
+R["review"] = rv
+json.dump(R, open(B / "results" / "main.json", "w"), ensure_ascii=False, indent=1)
+print("review", json.dumps(rv, ensure_ascii=False, indent=1))
