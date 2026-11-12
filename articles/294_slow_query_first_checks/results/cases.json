@@ -1,0 +1,138 @@
+[
+ {
+  "case": "1 索引がない",
+  "why": "絞り込む列に索引がないと、100万行を全部読む",
+  "before": {
+   "plan": "SCAN orders",
+   "kilo_steps": 3000,
+   "ms": 32.42,
+   "result": [
+    [
+     10,
+     39743
+    ]
+   ]
+  },
+  "after": {
+   "plan": "SEARCH orders USING INDEX ix_cust (customer_id=?)",
+   "kilo_steps": 0,
+   "ms": 0.01,
+   "result": [
+    [
+     10,
+     39743
+    ]
+   ]
+  },
+  "step_ratio": 3000.0,
+  "time_ratio": 3242.0
+ },
+ {
+  "case": "2 列に関数をかけている",
+  "why": "列を関数で包むと、索引があっても使えない（範囲の条件に書き直す）",
+  "before": {
+   "plan": "SCAN orders",
+   "kilo_steps": 4084,
+   "ms": 175.33,
+   "result": [
+    [
+     28099,
+     100117966
+    ]
+   ]
+  },
+  "after": {
+   "plan": "SEARCH orders USING INDEX ix_date (order_date>? AND order_date<?)",
+   "kilo_steps": 168,
+   "ms": 29.24,
+   "result": [
+    [
+     28099,
+     100117966
+    ]
+   ]
+  },
+  "step_ratio": 24.3,
+  "time_ratio": 6.0
+ },
+ {
+  "case": "3 複合索引の列の順番",
+  "why": "（日付, 店）の順だと期間内を全部なめる。等号の列を先にすると狭く読める",
+  "before": {
+   "plan": "SEARCH orders USING INDEX ix_date_store (order_date>? AND order_date<?)",
+   "kilo_steps": 828,
+   "ms": 9.39,
+   "result": [
+    [
+     816,
+     2783349
+    ]
+   ]
+  },
+  "after": {
+   "plan": "SEARCH orders USING INDEX ix_store_date (store_id=? AND order_date>? AND order_date<?)",
+   "kilo_steps": 4,
+   "ms": 0.99,
+   "result": [
+    [
+     816,
+     2783349
+    ]
+   ]
+  },
+  "step_ratio": 207.0,
+  "time_ratio": 9.5
+ },
+ {
+  "case": "4 索引だけで答えられない",
+  "why": "索引に金額がないと、1行ずつ本体を読みに行く。金額も索引に含めると索引だけで済む",
+  "before": {
+   "plan": "SEARCH orders USING INDEX ix_store_date (store_id>? AND store_id<?)",
+   "kilo_steps": 499,
+   "ms": 115.86,
+   "result": [
+    [
+     357493058
+    ]
+   ]
+  },
+  "after": {
+   "plan": "SEARCH orders USING COVERING INDEX ix_store_amt (store_id>? AND store_id<?)",
+   "kilo_steps": 399,
+   "ms": 3.32,
+   "result": [
+    [
+     357493058
+    ]
+   ]
+  },
+  "step_ratio": 1.3,
+  "time_ratio": 34.9
+ },
+ {
+  "case": "5 ほとんどの行が当てはまる",
+  "why": "9割の行が当てはまる条件では、索引をたどるより全部読むほうが速い",
+  "before": {
+   "plan": "SEARCH orders USING INDEX ix_status (status=?)",
+   "kilo_steps": 4499,
+   "ms": 79.12,
+   "result": [
+    [
+     3215120012
+    ]
+   ]
+  },
+  "after": {
+   "plan": "SCAN orders",
+   "kilo_steps": 4799,
+   "ms": 52.18,
+   "result": [
+    [
+     3215120012
+    ]
+   ]
+  },
+  "step_ratio": 0.9,
+  "time_ratio": 1.5
+ }
+]

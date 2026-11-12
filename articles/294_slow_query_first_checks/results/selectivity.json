@@ -1,0 +1,74 @@
+[
+ {
+  "pct": 1,
+  "index_ms": 7.34,
+  "scan_ms": 32.91,
+  "index_ksteps": 49,
+  "scan_ksteps": 3019,
+  "auto_plan": "SEARCH orders USING INDEX ix_bucket (bucket<?)"
+ },
+ {
+  "pct": 2,
+  "index_ms": 14.67,
+  "scan_ms": 32.45,
+  "index_ksteps": 99,
+  "scan_ksteps": 3039,
+  "auto_plan": "SEARCH orders USING INDEX ix_bucket (bucket<?)"
+ },
+ {
+  "pct": 5,
+  "index_ms": 36.63,
+  "scan_ms": 34.24,
+  "index_ksteps": 249,
+  "scan_ksteps": 3099,
+  "auto_plan": "SEARCH orders USING INDEX ix_bucket (bucket<?)"
+ },
+ {
+  "pct": 10,
+  "index_ms": 71.05,
+  "scan_ms": 35.75,
+  "index_ksteps": 498,
+  "scan_ksteps": 3199,
+  "auto_plan": "SEARCH orders USING INDEX ix_bucket (bucket<?)"
+ },
+ {
+  "pct": 20,
+  "index_ms": 148.55,
+  "scan_ms": 37.68,
+  "index_ksteps": 997,
+  "scan_ksteps": 3399,
+  "auto_plan": "SEARCH orders USING INDEX ix_bucket (bucket<?)"
+ },
+ {
+  "pct": 30,
+  "index_ms": 215.03,
+  "scan_ms": 40.24,
+  "index_ksteps": 1499,
+  "scan_ksteps": 3599,
+  "auto_plan": "SEARCH orders USING INDEX ix_bucket (bucket<?)"
+ },
+ {
+  "pct": 50,
+  "index_ms": 354.22,
+  "scan_ms": 47.98,
+  "index_ksteps": 2496,
+  "scan_ksteps": 3998,
+  "auto_plan": "SEARCH orders USING INDEX ix_bucket (bucket<?)"
+ },
+ {
+  "pct": 70,
+  "index_ms": 493.48,
+  "scan_ms": 44.02,
+  "index_ksteps": 3498,
+  "scan_ksteps": 4399,
+  "auto_plan": "SEARCH orders USING INDEX ix_bucket (bucket<?)"
+ },
+ {
+  "pct": 100,
+  "index_ms": 674.64,
+  "scan_ms": 47.28,
+  "index_ksteps": 5000,
+  "scan_ksteps": 5000,
+  "auto_plan": "SEARCH orders USING INDEX ix_bucket (bucket<?)"
+ }
+]
