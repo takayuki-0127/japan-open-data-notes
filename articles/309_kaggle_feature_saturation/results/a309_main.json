@@ -1,0 +1,104 @@
+{
+ "first_step_share_private": 0.957,
+ "first_step_share_public": 0.955,
+ "fold_diffs": [
+  {
+   "experiment": "擬似ラベル（v11）",
+   "max": 0.00016,
+   "mean": 5.8e-05,
+   "min": -4e-05,
+   "model": "lgb",
+   "n_up": 3,
+   "sd": 9.2e-05
+  },
+  {
+   "experiment": "擬似ラベル（v11）",
+   "max": 0.00018,
+   "mean": 7.8e-05,
+   "min": 1e-05,
+   "model": "cat",
+   "n_up": 5,
+   "sd": 6.6e-05
+  },
+  {
+   "experiment": "特徴量3つ（v15）",
+   "max": 0.00011,
+   "mean": 4.2e-05,
+   "min": -2e-05,
+   "model": "lgb",
+   "n_up": 4,
+   "sd": 5.9e-05
+  },
+  {
+   "experiment": "特徴量3つ（v15）",
+   "max": 9e-05,
+   "mean": 8e-06,
+   "min": -0.00011,
+   "model": "cat",
+   "n_up": 2,
+   "sd": 7.9e-05
+  }
+ ],
+ "steps": [
+  {
+   "d_cv": 0.00252,
+   "d_private": 0.00223,
+   "d_public": 0.00253,
+   "note": "甘い CV どうし",
+   "step": "v1→v3",
+   "what": "路線の集計・TE・teacher・評価×背景"
+  },
+  {
+   "d_cv": -1e-05,
+   "d_private": 0.0,
+   "d_public": -3e-05,
+   "note": "甘い CV どうし",
+   "step": "v3→v4",
+   "what": "TE のキーを2つ追加（＋XGBoost）"
+  },
+  {
+   "d_cv": -8e-05,
+   "d_private": null,
+   "d_public": null,
+   "note": "甘い CV どうし・未提出",
+   "step": "v3→v5",
+   "what": "評価の期待値との差（補助タスク・8項目）"
+  },
+  {
+   "d_cv": 3e-05,
+   "d_private": null,
+   "d_public": null,
+   "note": "正直な CV どうし・未提出",
+   "step": "v11なし→v15",
+   "what": "特徴量3つ（全体での集計・teacher の差・件数）"
+  },
+  {
+   "d_cv": null,
+   "d_private": 2e-05,
+   "d_public": -3e-05,
+   "note": "refit どうし",
+   "step": "v12→v18",
+   "what": "同じ3つを入れて全データで学び直し"
+  }
+ ],
+ "teacher_auc": {
+  "catboost": 0.95486,
+  "lightgbm": 0.95435
+ },
+ "threshold": 5e-05,
+ "total_gain": {
+  "private": 0.00233,
+  "public": 0.00265
+ },
+ "xgb_fold_auc": {
+  "range": 0.0019,
+  "sd": 0.0007,
+  "values": [
+   0.96093,
+   0.9595,
+   0.9614,
+   0.96077,
+   0.96062
+  ]
+ }
+}
