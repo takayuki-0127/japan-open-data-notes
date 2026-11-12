@@ -1,0 +1,130 @@
+{
+ "mean": {
+  "churn_rate": 0.1404,
+  "base_cv": 0.6881,
+  "base_prod": 0.6828,
+  "future_cv": 0.9695,
+  "future_prod": 0.5802,
+  "future_rank": 1.0,
+  "future_imp": 0.4644,
+  "agg_cv": 0.7234,
+  "agg_prod": 0.6629,
+  "agg_rank": 1.6,
+  "agg_imp": 0.0991,
+  "agg_cv_proper": 0.6503,
+  "scale_cv_leak": 0.6961,
+  "scale_cv_proper": 0.6961,
+  "scale_prod": 0.6914,
+  "rep": 2.0
+ },
+ "sd": {
+  "churn_rate": 0.0023,
+  "base_cv": 0.0056,
+  "base_prod": 0.0036,
+  "future_cv": 0.0011,
+  "future_prod": 0.0072,
+  "future_rank": 0.0,
+  "future_imp": 0.0042,
+  "agg_cv": 0.0036,
+  "agg_prod": 0.0062,
+  "agg_rank": 0.5477,
+  "agg_imp": 0.0112,
+  "agg_cv_proper": 0.007,
+  "scale_cv_leak": 0.0041,
+  "scale_cv_proper": 0.0041,
+  "scale_prod": 0.0041,
+  "rep": 1.5811
+ },
+ "strength": [
+  {
+   "kind": "あとの時点の情報",
+   "strength": "10%の行",
+   "x": 0.1,
+   "cv": 0.7156,
+   "prod": 0.6856,
+   "base_prod": 0.6857,
+   "rank": 1.3333,
+   "cv_proper": NaN
+  },
+  {
+   "kind": "あとの時点の情報",
+   "strength": "25%の行",
+   "x": 0.25,
+   "cv": 0.7634,
+   "prod": 0.6846,
+   "base_prod": 0.6857,
+   "rank": 1.0,
+   "cv_proper": NaN
+  },
+  {
+   "kind": "あとの時点の情報",
+   "strength": "50%の行",
+   "x": 0.5,
+   "cv": 0.8418,
+   "prod": 0.6794,
+   "base_prod": 0.6857,
+   "rank": 1.0,
+   "cv_proper": NaN
+  },
+  {
+   "kind": "あとの時点の情報",
+   "strength": "100%の行",
+   "x": 1.0,
+   "cv": 0.9679,
+   "prod": 0.5828,
+   "base_prod": 0.6857,
+   "rank": 1.0,
+   "cv_proper": NaN
+  },
+  {
+   "kind": "答えから作った集計値",
+   "strength": "窓口2000（1窓口10人）",
+   "x": 10.0,
+   "cv": 0.8081,
+   "prod": 0.5949,
+   "base_prod": 0.6894,
+   "rank": 1.0,
+   "cv_proper": 0.5794
+  },
+  {
+   "kind": "答えから作った集計値",
+   "strength": "窓口500（1窓口40人）",
+   "x": 40.0,
+   "cv": 0.718,
+   "prod": 0.6614,
+   "base_prod": 0.6879,
+   "rank": 1.0,
+   "cv_proper": 0.6497
+  },
+  {
+   "kind": "答えから作った集計値",
+   "strength": "窓口100（1窓口200人）",
+   "x": 200.0,
+   "cv": 0.7025,
+   "prod": 0.6917,
+   "base_prod": 0.6859,
+   "rank": 2.6667,
+   "cv_proper": 0.6902
+  },
+  {
+   "kind": "答えから作った集計値",
+   "strength": "窓口20（1窓口1000人）",
+   "x": 1000.0,
+   "cv": 0.6949,
+   "prod": 0.6925,
+   "base_prod": 0.6815,
+   "rank": 3.3333,
+   "cv_proper": 0.6942
+  }
+ ],
+ "select_before_split": {
+  "cv_leak": 0.6166,
+  "cv_proper": 0.5034,
+  "prod": 0.5044
+ },
+ "select_before_split_sd": {
+  "cv_leak": 0.0076,
+  "cv_proper": 0.0158,
+  "prod": 0.0172
+ }
+}
