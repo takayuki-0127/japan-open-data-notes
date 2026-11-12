@@ -1,0 +1,223 @@
+{
+ "seed": 453,
+ "n": 50000,
+ "digits_distribution": {
+  "2": 48,
+  "3": 4735,
+  "4": 29085,
+  "5": 15496,
+  "6": 635,
+  "7": 1
+ },
+ "order": [
+  {
+   "column": "伝票番号（1〜50,000、桁をそろえていない）",
+   "pair_reversed_pct": 25.3,
+   "moved_pct": 100.0,
+   "median_shift": 8221,
+   "max_shift": 49791,
+   "rank_corr": 0.334
+  },
+  {
+   "column": "伝票番号（6桁にゼロ埋め）",
+   "pair_reversed_pct": 0.0,
+   "moved_pct": 0.0,
+   "median_shift": 0,
+   "max_shift": 0,
+   "rank_corr": 1.0
+  },
+  {
+   "column": "枝番（1〜15）",
+   "pair_reversed_pct": 45.7,
+   "moved_pct": 93.3,
+   "median_shift": 20128,
+   "max_shift": 26518,
+   "rank_corr": -0.195
+  },
+  {
+   "column": "金額（2桁〜7桁）",
+   "pair_reversed_pct": 41.4,
+   "moved_pct": 100.0,
+   "median_shift": 13232,
+   "max_shift": 49733,
+   "rank_corr": 0.002
+  }
+ ],
+ "maxmin": {
+  "customers": 2000,
+  "max_wrong_pct": 94.1,
+  "min_wrong_pct": 95.9,
+  "max_text_over_true_median_when_wrong": 0.103,
+  "all_max_text": "9999",
+  "all_max_num": 1405993,
+  "all_min_text": "100",
+  "all_min_num": 16
+ },
+ "between": [
+  {
+   "range": "1,000〜5,000円",
+   "digits": "4桁〜4桁",
+   "true": 18725,
+   "text_result": 34822,
+   "missed": 0,
+   "extra": 16097,
+   "missed_pct": 0.0,
+   "extra_pct_of_result": 46.2
+  },
+  {
+   "range": "5,000〜20,000円",
+   "digits": "4桁〜5桁",
+   "true": 18517,
+   "text_result": 0,
+   "missed": 18517,
+   "extra": 0,
+   "missed_pct": 100.0,
+   "extra_pct_of_result": 0.0
+  },
+  {
+   "range": "10,000〜99,999円",
+   "digits": "5桁〜5桁",
+   "true": 15496,
+   "text_result": 49989,
+   "missed": 0,
+   "extra": 34493,
+   "missed_pct": 0.0,
+   "extra_pct_of_result": 69.0
+  },
+  {
+   "range": "800〜12,000円",
+   "digits": "3桁〜5桁",
+   "true": 32852,
+   "text_result": 0,
+   "missed": 32852,
+   "extra": 0,
+   "missed_pct": 100.0,
+   "extra_pct_of_result": 0.0
+  },
+  {
+   "range": "30,000〜100,000円",
+   "digits": "5桁〜6桁",
+   "true": 4221,
+   "text_result": 0,
+   "missed": 4221,
+   "extra": 0,
+   "missed_pct": 100.0,
+   "extra_pct_of_result": 0.0
+  },
+  {
+   "range": "99〜1,000円",
+   "digits": "2桁〜4桁",
+   "true": 4747,
+   "text_result": 0,
+   "missed": 4747,
+   "extra": 0,
+   "missed_pct": 100.0,
+   "extra_pct_of_result": 0.0
+  }
+ ],
+ "mix": [
+  {
+   "mix": "4桁だけ（1,000〜9,999）",
+   "pair_reversed_pct": 0.0,
+   "moved_pct": 0.0,
+   "max_wrong_pct": 0.0,
+   "rank_corr": 1.0
+  },
+  {
+   "mix": "3〜4桁（100〜9,999）",
+   "pair_reversed_pct": 24.9,
+   "moved_pct": 99.8,
+   "max_wrong_pct": 48.1,
+   "rank_corr": 0.508
+  },
+  {
+   "mix": "3〜5桁（100〜99,999）",
+   "pair_reversed_pct": 33.6,
+   "moved_pct": 99.9,
+   "max_wrong_pct": 69.5,
+   "rank_corr": 0.324
+  },
+  {
+   "mix": "1〜5桁（1〜99,999）",
+   "pair_reversed_pct": 38.0,
+   "moved_pct": 94.2,
+   "max_wrong_pct": 78.6,
+   "rank_corr": 0.264
+  },
+  {
+   "mix": "1〜7桁（1〜9,999,999）",
+   "pair_reversed_pct": 41.1,
+   "moved_pct": 95.9,
+   "max_wrong_pct": 85.8,
+   "rank_corr": 0.202
+  }
+ ],
+ "fixes": [
+  {
+   "data": "整数だけ（元の金額）",
+   "method": "ゼロ埋め（7桁）して文字で比べる",
+   "pair_reversed_pct": 0.0,
+   "not_converted": 0,
+   "silently_changed": 0
+  },
+  {
+   "data": "整数だけ（元の金額）",
+   "method": "整数に直す（CAST AS BIGINT）",
+   "pair_reversed_pct": 0.0,
+   "not_converted": 0,
+   "silently_changed": 0
+  },
+  {
+   "data": "負の数・カンマ入り・小数が1,000件ずつ混ざる",
+   "method": "ゼロ埋め（9桁）して文字で比べる",
+   "pair_reversed_pct": 3.3,
+   "not_converted": 0,
+   "silently_changed": 0
+  },
+  {
+   "data": "負の数・カンマ入り・小数が1,000件ずつ混ざる",
+   "method": "整数に直す（TRY_CAST AS BIGINT）",
+   "pair_reversed_pct": NaN,
+   "not_converted": 912,
+   "silently_changed": 1000
+  },
+  {
+   "data": "負の数・カンマ入り・小数が1,000件ずつ混ざる",
+   "method": "小数に直す（TRY_CAST AS DOUBLE）",
+   "pair_reversed_pct": NaN,
+   "not_converted": 912,
+   "silently_changed": 0
+  },
+  {
+   "data": "負の数・カンマ入り・小数が1,000件ずつ混ざる",
+   "method": "カンマを取ってから小数に直す",
+   "pair_reversed_pct": NaN,
+   "not_converted": 0,
+   "silently_changed": 0
+  }
+ ],
+ "top10_text": [
+  "9999",
+  "9999",
+  "99978",
+  "9997",
+  "9997",
+  "99961",
+  "9996",
+  "9992",
+  "999",
+  "999"
+ ],
+ "top10_num": [
+  "1405993",
+  "962204",
+  "898433",
+  "729895",
+  "729177",
+  "711967",
+  "666193",
+  "606704",
+  "573434",
+  "571199"
+ ]
+}
