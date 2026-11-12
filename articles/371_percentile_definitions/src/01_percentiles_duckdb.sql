@@ -1,0 +1,6 @@
+-- 371：DuckDB で動かした書き方（集約関数として書ける）
+SELECT PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY x) AS median_cont,
+       PERCENTILE_DISC(0.5) WITHIN GROUP (ORDER BY x) AS median_disc,
+       PERCENTILE_CONT(0.9) WITHIN GROUP (ORDER BY x) AS p90_cont,
+       PERCENTILE_DISC(0.9) WITHIN GROUP (ORDER BY x) AS p90_disc
+FROM t;
