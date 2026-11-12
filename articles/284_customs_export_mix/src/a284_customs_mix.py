@@ -16,8 +16,11 @@ CUS = pd.read_csv(DATA / "customs_names.csv", dtype=str).set_index("Custom")["cu
 MIN = 1e8  # 千円 → 1,000億円
 
 
+AIRPORT_WORDS = ("空港", "航空", "羽田", "千歳")  # 羽田税関支署・千歳税関支署は空港の税関
+
+
 def kind(name):
-    return "空港" if ("空港" in name or "航空" in name) else "港など"
+    return "空港" if any(w in name for w in AIRPORT_WORDS) else "港など"
 
 
 def table(y):
