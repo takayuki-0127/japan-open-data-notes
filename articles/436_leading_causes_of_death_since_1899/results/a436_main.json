@@ -1,0 +1,245 @@
+{
+ "years": [
+  1899,
+  2024
+ ],
+ "top_runs": [
+  {
+   "cause": "stroke",
+   "start": 1899,
+   "end": 1899
+  },
+  {
+   "cause": "tuberculosis",
+   "start": 1900,
+   "end": 1917
+  },
+  {
+   "cause": "pneumonia",
+   "start": 1918,
+   "end": 1920
+  },
+  {
+   "cause": "tuberculosis",
+   "start": 1921,
+   "end": 1922
+  },
+  {
+   "cause": "pneumonia",
+   "start": 1923,
+   "end": 1925
+  },
+  {
+   "cause": "tuberculosis",
+   "start": 1926,
+   "end": 1926
+  },
+  {
+   "cause": "pneumonia",
+   "start": 1927,
+   "end": 1928
+  },
+  {
+   "cause": "tuberculosis",
+   "start": 1929,
+   "end": 1930
+  },
+  {
+   "cause": "pneumonia",
+   "start": 1931,
+   "end": 1931
+  },
+  {
+   "cause": "tuberculosis",
+   "start": 1932,
+   "end": 1950
+  },
+  {
+   "cause": "stroke",
+   "start": 1951,
+   "end": 1980
+  },
+  {
+   "cause": "cancer",
+   "start": 1981,
+   "end": 2024
+  }
+ ],
+ "crossings": {
+  "stroke_over_tuberculosis": 1951,
+  "cancer_over_tuberculosis": 1953,
+  "cancer_over_stroke": 1981,
+  "heart_over_stroke": 1997,
+  "pneumonia_over_stroke": null
+ },
+ "tuberculosis": {
+  "peak_year": 1918,
+  "peak_rate": 257.1,
+  "half_year": 1951,
+  "tenth_year": 1963,
+  "hundredth_year": 1994,
+  "rate_1947": 187.2,
+  "rate_1950": 146.4,
+  "rate_1955": 52.3,
+  "rate_1960": 34.2,
+  "rate_2024": 1.2,
+  "deaths_peak_year": 1943,
+  "deaths_peak": 171473,
+  "deaths_2025": 1474,
+  "years_peak_to_tenth": 45,
+  "years_1947_to_tenth_of_1947": 20
+ },
+ "rates": {
+  "1899": {
+   "tuberculosis": 155.7,
+   "pneumonia": 99.8,
+   "stroke": 170.5,
+   "cancer": 44.7,
+   "heart": 48.6
+  },
+  "1918": {
+   "tuberculosis": 257.1,
+   "pneumonia": 375.5,
+   "stroke": 157.6,
+   "cancer": 73.6,
+   "heart": 81.8
+  },
+  "1935": {
+   "tuberculosis": 190.8,
+   "pneumonia": 151.7,
+   "stroke": 165.4,
+   "cancer": 72.3,
+   "heart": 57.6
+  },
+  "1950": {
+   "tuberculosis": 146.4,
+   "pneumonia": 65.1,
+   "stroke": 127.1,
+   "cancer": 77.4,
+   "heart": 64.2
+  },
+  "1951": {
+   "tuberculosis": 110.3,
+   "pneumonia": 59.8,
+   "stroke": 125.2,
+   "cancer": 78.5,
+   "heart": 63.6
+  },
+  "1960": {
+   "tuberculosis": 34.2,
+   "pneumonia": 40.2,
+   "stroke": 160.7,
+   "cancer": 100.4,
+   "heart": 73.2
+  },
+  "1980": {
+   "tuberculosis": 5.5,
+   "pneumonia": 28.4,
+   "stroke": 139.5,
+   "cancer": 139.1,
+   "heart": 106.2
+  },
+  "1981": {
+   "tuberculosis": 4.9,
+   "pneumonia": 28.7,
+   "stroke": 134.3,
+   "cancer": 142.0,
+   "heart": 107.5
+  },
+  "1985": {
+   "tuberculosis": 3.9,
+   "pneumonia": 37.5,
+   "stroke": 112.2,
+   "cancer": 156.1,
+   "heart": 117.3
+  },
+  "2000": {
+   "tuberculosis": 2.1,
+   "pneumonia": 69.2,
+   "stroke": 105.5,
+   "cancer": 235.2,
+   "heart": 116.8
+  },
+  "2011": {
+   "tuberculosis": 1.7,
+   "pneumonia": 98.9,
+   "stroke": 98.2,
+   "cancer": 283.2,
+   "heart": 154.5
+  },
+  "2024": {
+   "tuberculosis": 1.2,
+   "pneumonia": 66.6,
+   "stroke": 85.5,
+   "cancer": 319.3,
+   "heart": 188.2
+  }
+ },
+ "share_of_all_deaths_2024": {
+  "tuberculosis": 0.0009106889467776437,
+  "pneumonia": 0.04994213200878547,
+  "stroke": 0.0640478441837374,
+  "cancer": 0.23926514503126367,
+  "heart": 0.141018501561626
+ },
+ "share_of_all_deaths_1950": {
+  "tuberculosis": 0.13456981951118163,
+  "pneumonia": 0.05986345090377024,
+  "stroke": 0.11684252870006498,
+  "cancer": 0.0712009159266021,
+  "heart": 0.05898819285736388
+ },
+ "age_fixed": {
+  "tuberculosis": {
+   "crude_1950": 146.34401129564964,
+   "crude_2024": 1.2157865751521162,
+   "fixed_2024": 0.08092524677429128,
+   "fixed_peak_year": 1950,
+   "fixed_peak": 146.3440112956496,
+   "share65_1950": 0.044206428084470256,
+   "share65_2024": 0.9705882352941176
+  },
+  "pneumonia": {
+   "crude_1950": 65.10695974288949,
+   "crude_2024": 66.66701652311549,
+   "fixed_2024": 4.491285778041101,
+   "fixed_peak_year": 1950,
+   "fixed_peak": 65.1069597428895,
+   "share65_1950": 0.17633483494572041,
+   "share65_2024": 0.9752769184712105
+  },
+  "stroke": {
+   "crude_1950": 127.06218681378547,
+   "crude_2024": 85.4992345675032,
+   "fixed_2024": 9.959150969174903,
+   "fixed_peak_year": 1960,
+   "fixed_peak": 135.5962614539554,
+   "share65_1950": 0.6356782018050063,
+   "share65_2024": 0.9131343980391775
+  },
+  "cancer": {
+   "crude_1950": 77.43501858498155,
+   "crude_2024": 319.4100852141259,
+   "fixed_2024": 50.9870135201468,
+   "fixed_peak_year": 1965,
+   "fixed_peak": 89.3152334374475,
+   "share65_1950": 0.3631480906550761,
+   "share65_2024": 0.8858667777502961
+  },
+  "heart": {
+   "crude_1950": 64.14773675576103,
+   "crude_2024": 188.23486335058638,
+   "fixed_2024": 18.577524026176206,
+   "fixed_peak_year": 1950,
+   "fixed_peak": 64.14773675576103,
+   "share65_1950": 0.4426601206760859,
+   "share65_2024": 0.9325749375980208
+  }
+ },
+ "pop_share_65plus": {
+  "1950": 0.04939371115913006,
+  "1980": 0.09121734687824154,
+  "2024": 0.29958746915988194
+ },
+ "max_abs_diff_crude_vs_published": 0.18140443816122342
+}
