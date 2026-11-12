@@ -1,0 +1,112 @@
+{
+ "rows_all": 744,
+ "rows_bekkei": 16,
+ "rows_main": 728,
+ "items": 582,
+ "subtotal_rows_main": 146,
+ "max_depth": 5,
+ "naive_ratio_all": 9.602,
+ "naive_ratio_without_bekkei": 4.79,
+ "bekkei_sum_ratio": 4.813,
+ "rules": [
+  {
+   "rule": "名前に「計」「総合」がある行",
+   "data": "—",
+   "found": 2,
+   "missed": 144,
+   "false_alarm": 3,
+   "detect_pct": 1.4,
+   "sum_ratio_after": 3.786
+  },
+  {
+   "rule": "親＝子の和（子は2つ以上）",
+   "data": "丸めなし",
+   "found": 124,
+   "missed": 22,
+   "false_alarm": 0,
+   "detect_pct": 84.9,
+   "sum_ratio_after": 3.081
+  },
+  {
+   "rule": "親＝子の和（子が1つでもよい）",
+   "data": "丸めなし",
+   "found": 108,
+   "missed": 38,
+   "false_alarm": 29,
+   "detect_pct": 74.0,
+   "sum_ratio_after": 2.98
+  },
+  {
+   "rule": "親＝子の和（子が1つでもよい、差0）",
+   "data": "整数に丸めた表",
+   "found": 55,
+   "missed": 91,
+   "false_alarm": 54,
+   "detect_pct": 37.7,
+   "sum_ratio_after": 4.095
+  },
+  {
+   "rule": "親＝子の和（子が1つでもよい、差は子の数×0.5まで）",
+   "data": "整数に丸めた表",
+   "found": 91,
+   "missed": 55,
+   "false_alarm": 80,
+   "detect_pct": 62.3,
+   "sum_ratio_after": 3.08
+  },
+  {
+   "rule": "親＝子の和（子が1つでもよい、差0）",
+   "data": "小数1桁に丸めた表",
+   "found": 64,
+   "missed": 82,
+   "false_alarm": 30,
+   "detect_pct": 43.8,
+   "sum_ratio_after": 3.735
+  },
+  {
+   "rule": "親＝子の和（子が1つでもよい、差は子の数×0.05まで）",
+   "data": "小数1桁に丸めた表",
+   "found": 103,
+   "missed": 43,
+   "false_alarm": 33,
+   "detect_pct": 70.5,
+   "sum_ratio_after": 3.028
+  }
+ ],
+ "rounding": [
+  {
+   "rounding": "1万分比の整数",
+   "subtotal_rows": 146,
+   "broken": 62,
+   "broken_pct": 42.5
+  },
+  {
+   "rounding": "1万分比の小数1桁",
+   "subtotal_rows": 146,
+   "broken": 60,
+   "broken_pct": 41.1
+  }
+ ],
+ "rows_rounded_to_zero": 0,
+ "single_child_subtotals": 12,
+ "times_counted": [
+  {
+   "times_counted": 4,
+   "items": 133,
+   "weight": 916816023.0,
+   "weight_share": 0.28736740521195864
+  },
+  {
+   "times_counted": 5,
+   "items": 362,
+   "weight": 2027836895.0,
+   "weight_share": 0.6356065034753706
+  },
+  {
+   "times_counted": 6,
+   "items": 87,
+   "weight": 245743788.0,
+   "weight_share": 0.07702609131267076
+  }
+ ]
+}
