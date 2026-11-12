@@ -1,0 +1,75 @@
+{
+ "articles": 639,
+ "py_files": 2200,
+ "external_libraries": 62,
+ "used_once": 22,
+ "used_in_10plus": 12,
+ "top10": {
+  "matplotlib": 639,
+  "pandas": 637,
+  "numpy": 621,
+  "statsmodels": 197,
+  "scipy": 144,
+  "duckdb": 58,
+  "openpyxl": 51,
+  "scikit-learn": 50,
+  "requests": 45,
+  "lightgbm": 24
+ },
+ "ext_median": 4.0,
+ "ext_max": 10,
+ "ext_3_or_less": 219,
+ "req_lines": 2968,
+ "spec_share": {
+  "== で固定": 0.0977,
+  ">= で下限": 0.372,
+  "なし": 0.5303
+ },
+ "style_all": {
+  "一部だけ": 70,
+  "全部 == で固定": 57,
+  "全部に版の指定あり": 206,
+  "版の指定なし": 306
+ },
+ "articles_imported_not_listed": 15,
+ "articles_listed_not_imported": 232,
+ "top_missing": {
+  "scipy": 8,
+  "numpy": 3,
+  "samplemart": 1,
+  "pytensor": 1,
+  "causallearn": 1,
+  "camelot": 1,
+  "pillow": 1,
+  "tabula": 1
+ },
+ "top_extra": {
+  "openpyxl": 99,
+  "xlrd": 74,
+  "statsmodels": 52,
+  "scipy": 40,
+  "scikit-learn": 21,
+  "pyarrow": 9,
+  "lxml": 9,
+  "playwright": 6
+ },
+ "stdlib_top": {
+  "pathlib": 566,
+  "json": 414,
+  "warnings": 373,
+  "logging": 335,
+  "re": 280,
+  "sys": 129,
+  "os": 104,
+  "csv": 99,
+  "io": 92,
+  "glob": 84
+ },
+ "local_top": {
+  "common": 516,
+  "extract": 5,
+  "feat": 5,
+  "gakko_parse": 5,
+  "kakei_parse": 5
+ }
+}

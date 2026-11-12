@@ -1,0 +1,640 @@
+folder,imported_not_listed,listed_not_imported,missing,extra
+000_women_labor,0,2,,jupyter xlrd
+001_income_municipal,0,0,,
+008_migration_income,0,3,,openpyxl scikit-learn xlrd
+009_births_income,0,3,,openpyxl scikit-learn xlrd
+010_foreign_residents_income,0,3,,openpyxl scikit-learn xlrd
+011_income_ranking,1,3,scipy,openpyxl scikit-learn xlrd
+012_tokyo23_income,0,3,,openpyxl scikit-learn xlrd
+013_daynight_income,0,3,,openpyxl scikit-learn xlrd
+014_furusato_balance,0,3,,openpyxl scikit-learn xlrd
+015_fiscal_strength,0,3,,openpyxl scikit-learn xlrd
+016_doctors,0,3,,openpyxl scikit-learn xlrd
+019_municipal_clusters,0,2,,openpyxl xlrd
+020_unemployment_sarima,0,1,,openpyxl
+021_prefcapital_food,0,1,,statsmodels
+022_nursery_birthrate_fe,0,1,,scipy
+023_games_music_aging,0,1,,scipy
+024_furusato_concentration,0,3,,openpyxl scikit-learn xlrd
+025_inbound_recovery,0,2,,scipy statsmodels
+026_migration_landprice_fe,0,1,,scipy
+027_video_viewers_age,0,2,,statsmodels xlrd
+028_video_usage_funnel,0,1,,xlrd
+029_covid_tokyo_synth,0,1,,statsmodels
+030_commute_sleep,0,1,,scipy
+031_alcohol_ca,0,2,,scipy statsmodels
+032_scaling_law,0,1,,scipy
+033_university_convergence,0,1,,scipy
+034_telework,0,1,,xlrd
+035_yen_prices_var,0,0,,
+036_tankan_forecast,0,0,,
+037_tokyo_condo_hedonic,0,0,,
+038_condo_age_station,0,0,,
+039_station_recovery,0,0,,
+040_data_breaks,0,1,,statsmodels
+041_landprice_bubble,0,1,,statsmodels
+042_landprice_polarization,0,0,,
+043_population_2050,0,2,,openpyxl scikit-learn
+044_population_rf,0,1,,openpyxl
+045_wage_curve,0,1,,openpyxl
+046_wage_shiftshare,0,1,,openpyxl
+047_excess_deaths,0,0,,
+048_place_of_death,0,1,,statsmodels
+049_university_scurve,0,1,,openpyxl
+050_school_closures,0,2,,openpyxl scipy
+051_household_assets,0,1,,statsmodels
+052_household_flows,0,0,,
+053_tokyo_foreign_segregation,0,0,,
+054_tokyo_foreign_growth,0,0,,
+055_temperature_records,0,0,,
+056_heavy_rain,0,0,,
+057_wbgt_heatstroke,0,1,,openpyxl
+058_heatstroke_season,0,2,,openpyxl patsy
+059_fatal_accidents,1,1,scipy,openpyxl
+060_accidents_change,0,3,,openpyxl scikit-learn statsmodels
+061_house_price_index,0,0,,
+062_contract_vs_transaction,0,0,,
+063_home_care_entry_exit,0,1,,scikit-learn
+064_home_care_access,0,0,,
+065_earthquake_bvalue,0,1,,scipy
+066_aftershock_omori,0,0,,
+067_food_poisoning_trend,0,2,,openpyxl xlrd
+068_food_poisoning_size,1,2,scipy,openpyxl xlrd
+069_typhoon_counts,0,0,,
+070_typhoon_latitude,0,1,,scipy
+071_clinic_hours,0,1,,scikit-learn
+072_pharmacy_distance,0,1,,statsmodels
+073_prtr_decline,0,0,,
+074_prtr_concentration,0,0,,
+075_sakura_autumn_leaves,0,0,,
+076_phenology_animals,0,0,,
+077_infectious_peaks,0,2,,scipy statsmodels
+078_infectious_onset,0,1,,statsmodels
+079_migration_tokyo,0,3,,openpyxl statsmodels xlrd
+080_migration_gravity,0,2,,openpyxl xlrd
+081_foreign_residents_growth,0,0,,
+082_foreign_residents_where,0,0,,
+083_waste_recycling,0,0,,
+084_waste_cost,0,0,,
+085_food_price_quantity,0,3,,openpyxl statsmodels xlrd
+086_engel_income,0,3,,openpyxl statsmodels xlrd
+087_real_wage,0,1,,statsmodels
+088_bonus_volatility,0,0,,
+089_job_openings_occupation,0,2,,statsmodels xlrd
+090_job_openings_pref,0,1,,xlrd
+091_housing_floor_area,0,2,,openpyxl statsmodels
+092_wooden_nonresidential,0,1,,openpyxl
+093_eyesight,0,0,,
+094_height,0,1,,statsmodels
+095_employment_growth,0,2,,statsmodels xlrd
+096_nonregular_share,0,2,,statsmodels xlrd
+097_drugstore,0,3,,openpyxl statsmodels xlrd
+098_retail_recovery,0,2,,openpyxl xlrd
+099_sea_level,1,0,scipy,
+100_sea_temperature,1,0,scipy,
+101_food_balance,0,3,,openpyxl statsmodels xlrd
+102_food_self_sufficiency,0,3,,openpyxl statsmodels xlrd
+103_daily_steps,0,2,,openpyxl xlrd
+104_sleep_breakfast,0,2,,openpyxl xlrd
+105_price_city_gap,0,3,,openpyxl statsmodels xlrd
+106_price_increase_sync,0,3,,openpyxl statsmodels xlrd
+107_inbound_regional,0,2,,openpyxl xlrd
+108_accommodation_recovery,0,2,,openpyxl xlrd
+109_immigration_airports,0,4,,openpyxl scikit-learn statsmodels xlrd
+110_immigration_seasons,0,2,,openpyxl xlrd
+111_rice_yield_summer,0,1,,openpyxl
+112_rice_area,0,2,,openpyxl statsmodels
+113_fish_catch,0,2,,openpyxl xlrd
+114_yellowtail_north,0,3,,openpyxl ruptures xlrd
+115_bear_capture,0,2,,openpyxl xlrd
+116_deer_boar_capture,0,2,,openpyxl xlrd
+117_public_assistance_households,0,3,,openpyxl statsmodels xlrd
+118_public_assistance_applications,0,2,,openpyxl xlrd
+119_vacancy_rate,0,0,,
+120_vacant_rental_unused,0,0,,
+121_child_fitness,0,3,,openpyxl statsmodels xlrd
+122_elderly_fitness,0,2,,openpyxl xlrd
+123_turnover_rates,0,2,,openpyxl xlrd
+124_turnover_reasons,0,2,,openpyxl xlrd
+125_daytime_population,0,0,,
+126_side_jobs,0,0,,
+127_regional_prices,0,0,,
+128_product_concentration,0,0,,
+129_housing_satisfaction,0,0,,
+130_tourism_daytrip,0,0,,
+131_inpatient_age,0,0,,
+132_ltc_benefits,0,1,,xlrd
+133_school_expenses,0,0,,
+134_photochemical_oxidant,0,0,,
+135_tornado,0,1,,scipy
+136_tea,0,0,,
+137_welfare_spending,0,0,,
+138_crime,0,0,,
+139_researchers,0,0,,
+140_population_pyramid,0,0,,
+141_wage_increase,0,0,,
+142_durable_goods,0,0,,
+143_retained_earnings,0,2,,openpyxl xlrd
+144_housing_price_seasonality,0,1,,openpyxl
+145_inbound_spending,0,0,,
+146_clinic_specialties,0,0,,
+147_home_vs_day_care,0,0,,
+148_teacher_age,0,0,,
+149_lake_water_quality,0,0,,
+150_yellow_sand,0,0,,
+151_farm_decline,0,0,,
+152_smartphone_age,0,0,,
+153_first_marriage_age,0,0,,
+154_minimum_wage_gap,0,0,,
+155_bed_occupancy_season,0,0,,
+156_ec_sales_by_industry,0,1,,statsmodels
+157_drugs_by_sex_age,0,1,,statsmodels
+158_service_recovery,0,1,,statsmodels
+159_medical_cost_by_age,0,1,,statsmodels
+160_daytrip_share,0,1,,statsmodels
+161_health_checkup_rate,0,0,,
+162_working_carers,0,0,,
+163_dispensing_costs,0,0,,
+164_juku_sales,0,0,,
+165_nurses_by_pref,0,0,,
+166_air_load_factor_season,0,0,,
+167_medical_cost_by_disease,0,0,,
+168_industrial_waste_by_industry,0,0,,
+169_foreign_workers_by_industry,0,0,,
+170_overseas_affiliates_region,0,0,,
+171_road_traffic_change,0,0,,
+172_barber_beauty_salons,0,0,,
+173_household_energy_types,0,0,,
+174_three_year_turnover,0,0,,
+175_golf_bowling_users,0,0,,
+176_container_ports,0,1,,statsmodels
+177_treatment_rate_age_adjusted,0,1,,statsmodels
+178_industrial_waste_recycling,0,1,,statsmodels
+179_technical_intern_specialization,0,1,,statsmodels
+180_export_destination_ranking,0,1,,statsmodels
+181_rail_commuter_recovery,0,0,,
+182_hospital_beds_west_east,0,0,,
+183_ghg_sector_contribution,0,0,,
+184_turnover_by_firm_size,0,0,,
+185_sales_concentration,1,0,scipy,
+186_truck_commercial_share,0,0,,
+187_outpatient_recovery_pref,0,0,,
+188_juku_cost_by_grade,0,0,,
+189_household_co2_region,0,0,,
+190_yellow_sand_stations,0,0,,
+191_vegetable_concentration,0,0,,
+192_disability_employment_size,0,0,,
+193_municipal_earning_industry,0,0,,
+194_city_size_car_share,0,0,,
+195_hospital_bed_size,0,0,,
+196_female_principals,0,0,,
+197_noise_complaints,0,0,,
+198_sunshine_rank,0,0,,
+199_fishing_ports,0,0,,
+200_work_interval,0,0,,
+201_service_sales_scale,0,0,,
+202_condo_income_ratio,0,0,,
+203_saitama_tourism_concentration,0,0,,
+204_health_checkup_hba1c,0,0,,
+205_library_loans,0,0,,
+206_food_loss,0,0,,
+207_uv_index,0,0,,
+208_milk_products,0,0,,
+209_pref_rank_turnover,0,0,,
+210_strikes,0,0,,
+211_regional_price_ex_rent,0,0,,
+212_labor_share_cycle,0,0,,
+213_condo_aging,0,0,,
+214_lodging_seasonality,0,0,,
+215_medical_cost_aging,0,0,,
+216_care_levels,0,0,,
+217_school_lunch_kitchens,0,0,,
+218_food_loss_2030,0,0,,
+219_baiu_end_trend,0,0,,
+220_livestock_scale,0,0,,
+221_ideal_vs_actual_children,0,0,,
+222_falls_elderly_workers,0,0,,
+223_online_shopping_rank,0,0,,
+224_rd_productivity,0,1,,scipy
+225_construction_orders_fiscal_yearend,0,0,,
+226_fx_inbound_spending,0,1,,scipy
+227_coffee_home_vs_cafe,0,2,,openpyxl xlrd
+228_eating_out_recovery_by_age,0,2,,openpyxl xlrd
+229_sweets_nominal_vs_real,0,2,,openpyxl xlrd
+230_alcohol_mix_shift,0,2,,openpyxl xlrd
+231_bread_vs_rice,0,2,,openpyxl xlrd
+232_sql_window_yoy_moving_avg,0,0,,
+233_sql_reconcile_totals,0,0,,
+234_mom_change_decomposition,0,0,,
+235_adult_learners_grad_school,0,2,,openpyxl xlrd
+236_women_in_stem_faculties,0,2,,openpyxl xlrd
+237_junior_college_decline,0,2,,openpyxl xlrd
+238_grad_entrants_by_field,0,2,,openpyxl xlrd
+239_vocational_school_fields,0,2,,openpyxl xlrd
+240_axis_zero_baseline_review,0,0,,
+241_public_data_troubles,0,0,,
+242_limits_section_writing,0,0,,
+243_sql_pivot_report,0,0,,
+244_monthly_report_order,0,0,,
+245_sql_dedup_customers,0,0,,
+246_lodging_recovery_by_size,0,2,,jpholiday statsmodels
+247_lodging_holidays_weekday,0,0,,
+248_lodging_seasonality_purpose,0,2,,jpholiday statsmodels
+249_lodging_guests_per_facility,0,2,,jpholiday statsmodels
+250_lodging_nights_per_stay,0,2,,jpholiday statsmodels
+251_conclusion_reversals,0,0,,
+252_outlier_handling,0,0,,
+253_p_value_line,1,0,numpy,
+254_rice_yield_volatility,0,0,,
+255_vegetable_area_by_item,0,1,,statsmodels
+256_fish_vs_meat_crossover,0,1,,statsmodels
+257_oil_consumption_plateau,0,1,,statsmodels
+258_wheat_yield_growth,0,0,,
+259_stat_file_version_check,0,1,,openpyxl
+260_schema_validation_injected,0,1,,openpyxl
+261_data_dictionary_ssdse,0,1,,openpyxl
+262_first_hot_day_trend,0,1,,lxml
+263_first_snow_cover_trend,0,1,,lxml
+264_diurnal_temperature_range,0,1,,lxml
+265_wet_days_rain_intensity,0,1,,lxml
+266_first_frost_day_trend,0,1,,lxml
+267_correlation_not_causation,0,0,,
+268_causal_design_choice,0,0,,
+269_finding_substitute_data,0,0,,
+270_sql_municipal_code_scd2,0,0,,
+271_ab_test_reporting,0,1,,scipy
+272_seasonal_adjust_monthly,0,0,,
+273_electronic_parts_cycle,0,0,,
+274_seasonal_amplitude_by_industry,0,0,,
+275_capacity_utilization_by_industry,0,0,,
+276_export_vs_domestic_shipments,0,0,,
+277_production_forecast_accuracy,0,0,,
+278_kpi_card_comparison,0,0,,
+279_excel_report_automation,0,0,,
+280_weekly_kpi_email,0,0,,
+281_import_price_quantity_yen,0,0,,
+282_import_source_concentration,0,0,,
+283_food_exports_by_item,0,0,,
+284_customs_export_mix,0,0,,
+285_import_pareto_items,0,0,,
+286_linear_vs_gbm_first,0,0,,
+287_how_many_robustness_checks,0,0,,
+288_writing_lessons_record,0,0,,
+289_marriage_registration_month,0,0,,
+290_first_birth_mother_age_spread,0,0,,
+291_father_mother_age_gap,0,0,,
+292_birth_weight_trend,0,0,,
+293_multiple_births_trend,0,0,,
+294_slow_query_first_checks,0,1,,pandas
+295_stored_procedure_params,0,0,,
+296_forecast_error_control_chart,0,0,,
+297_owner_rate_by_age,0,0,,
+298_floor_space_per_person,0,0,,
+299_old_owned_houses,0,0,,
+300_rent_per_tatami,0,0,,
+301_sql_monthly_csv_load,0,0,,
+302_single_html_dashboard,0,0,,
+303_e2e_tests_for_data_pipeline,0,0,,
+304_double_glazing_spread,0,0,,
+305_dax_calculate_filter_context,0,0,,
+306_gas_sheet_aggregation,0,0,,
+307_inquiry_text_classification,0,0,,
+308_kaggle_final_two_selection,0,1,,numpy
+309_kaggle_feature_saturation,0,1,,scipy
+310_kaggle_ensemble_size,0,1,,scipy
+311_sql_join_fanout,0,0,,
+312_sql_null_aggregation,0,0,,
+313_sql_month_end_boundary,0,0,,
+314_sql_policy_exposure,0,0,,
+315_sql_earned_premium,0,0,,
+316_chain_ladder_when_it_fails,0,0,,
+317_chain_ladder_vs_bf,0,0,,
+318_reserve_interval_coverage,0,0,,
+319_credibility_small_groups,0,0,,
+320_no_claim_years_predict,0,0,,
+321_title_numbers_check,0,0,,
+322_months_until_stale,0,0,,
+323_commits_after_publish,0,0,,
+324_sentence_length_trend,1,0,numpy,
+325_code_reuse_duplicates,1,0,numpy,
+326_migration_reconciliation,0,0,,
+327_rounding_csharp_sql_excel,0,1,,duckdb
+328_round_then_sum_order,0,0,,
+329_float_money_sum,0,0,,
+330_idempotent_load,0,0,,
+331_layer_price_tail_estimate,0,0,,
+332_truncated_censored_loss_fit,0,0,,
+333_aggregate_loss_tail_quantile,0,0,,
+334_one_way_vs_glm_rating,0,1,,scipy
+335_rating_cells_granularity,0,1,,scipy
+336_life_expectancy_since_meiji,0,0,,
+337_hinoeuma_1966_births,0,1,,openpyxl
+338_excess_deaths_1918_1920,0,1,,openpyxl
+339_leaving_agriculture,0,1,,xlrd
+340_high_school_enrollment,0,1,,xlrd
+341_month_close_completeness,0,0,,
+342_restate_and_reproduce_reports,0,0,,
+343_loss_ratio_accident_vs_calendar,0,0,,
+344_active_customer_definitions,0,0,,
+345_average_of_averages,0,1,,duckdb
+346_loss_ratio_stability_by_size,0,1,,scipy
+347_poisson_vs_negbin_reserve,0,0,,
+348_mortality_graduation_small_group,0,1,,scipy
+349_ae_ratio_stability,0,0,,
+350_ibnr_count_reporting_delay,0,0,,
+351_source_citation_elements,0,0,,
+352_term_first_use_gloss,0,0,,
+353_conclusion_sentence_endings,0,0,,
+354_regional_ranking_tables,0,0,,
+355_readme_sections_coverage,0,0,,
+356_weekday_mix_yoy,0,0,,
+357_week_definitions,0,0,,
+358_missing_zero_days,0,0,,
+359_running_total_ties,0,0,,
+360_top3_with_ties,0,0,,
+361_forecast_metric_ranking,0,1,,scipy
+362_shuffled_cv_time_series,0,1,,scipy
+363_intermittent_demand_methods,0,1,,scipy
+364_regression_to_mean_store_action,0,0,,
+365_matching_unmeasured_confounder,0,1,,scipy
+366_holidays_long_weekends,0,2,,openpyxl xlrd
+367_household_size_100_years,0,1,,xlrd
+368_export_leaders_since_1962,0,1,,openpyxl
+369_coal_to_oil_energy_shift,0,0,,
+370_employee_share_80_percent,0,0,,
+371_percentile_definitions,1,0,scipy,
+372_csv_excel_roundtrip,0,1,,duckdb
+F01_minimum_wage_did,0,0,,
+F02_births_counterfactual,0,0,,
+F03_land_price_ml,0,0,,
+F04_goto_causalimpact,0,1,,nutpie
+F05_medical_cost_hierarchical,0,2,,h5netcdf h5py
+F06_aging_spatial,0,1,,shapely
+F07_turnover_survival,0,1,,openpyxl
+F08_municipal_segments,0,0,,
+F09_diet_text,0,1,,unidic-lite
+F100_five_methods_one_question,0,0,,
+F101_price_wage_cointegration,0,0,,
+F102_fx_threshold_passthrough,0,0,,
+F103_long_memory,0,1,,patsy
+F104_gp_power_temperature,0,1,,patsy
+F105_interval_censoring,0,2,,pyarrow scikit-learn
+F106_shared_frailty,0,1,,pyarrow
+F107_gcn_municipal,0,0,,
+F108_prediction_fairness,0,0,,
+F109_active_learning_land_price,0,0,,
+F10_mobility_network,0,0,,
+F110_hyperparam_bayesopt,0,3,,scikit-learn scipy torch
+F111_shop_abm,0,0,,
+F112_ambulance_queueing,0,0,,
+F113_price_index_formulas,0,0,,
+F114_regional_purchasing_power,0,0,,
+F115_grouped_income_distribution,0,0,,
+F116_composite_index_weights,0,0,,
+F117_nonresponse_weighting,0,0,,
+F118_childcare_fertility_synthesis,0,0,,
+F119_forecast_scorecard,0,4,,lightgbm pymc scikit-learn statsmodels
+F11_tax_hike_event,0,0,,
+F120_census2025_update,0,0,,
+F121_minwage_methods_review,0,0,,
+F122_pitfalls_from_logs,0,0,,
+F123_spatial_block_cv_review,0,0,,
+F124_data_lineage_network,0,0,,
+F125_null_results_review,0,0,,
+F126_heatstroke_dlnm,0,2,,lxml openpyxl
+F127_vacant_houses_decomposition,0,0,,
+F128_rent_distance,0,0,,
+F129_prescription_age_adjust,0,0,,
+F12_stats_pipeline,0,2,,dbt-core dbt-duckdb
+F130_care_certification_shrinkage,0,0,,
+F131_univ_youth_migration,0,0,,
+F132_farm_size_transitions,0,0,,
+F133_export_gravity,0,1,,scipy
+F134_renewable_diffusion,0,1,,python
+F135_rain_retail,0,0,,
+F136_rail_covid_recovery,0,0,,
+F137_postal_decay,0,0,,
+F138_telework_decomposition,0,1,,statsmodels
+F139_side_job_loglinear,0,0,,
+F13_unemployment_forecast,0,0,,
+F140_foreign_residents_concentration,0,0,,
+F141_ip_regional_concentration,0,0,,
+F142_forest_age_harvest,0,2,,openpyxl xlrd
+F143_fish_catch_decline,0,0,,
+F144_water_tariff_density,0,0,,
+F145_waste_fee_did,0,1,,python
+F146_dp_noise_vs_suppression,0,0,,
+F147_synthetic_from_tables,0,0,,
+F148_dormancy_multistate,0,1,,pyarrow
+F149_ml_survival,0,2,,pyarrow scipy
+F14_compact_city_psm_did,0,0,,
+F150_dynamic_seasonality,0,0,,
+F151_pref_hierarchical_dfm,0,0,,
+F152_revision_news_noise,0,0,,
+F153_distribution_regional,0,0,,
+F154_uncertainty_viz,0,1,,pillow
+F155_multiverse,0,0,,
+F156_minwage_bite_heterogeneity,0,0,,
+F157_power_forecast_operation,0,0,,
+F158_land_price_update,0,1,,scipy
+F159_births_nowcast,0,0,,
+F15_border_minwage,0,0,,
+F160_cohort_projection_backtest,0,2,,openpyxl xlrd
+F161_rewrite_old_articles,0,1,,openpyxl
+F162_data_access_map,0,0,,
+F163_robustness_checks_review,0,0,,
+F164_figures_and_reads,0,0,,
+F165_reproducibility_audit,0,1,,scipy
+F166_benford_public_stats,0,0,,
+F167_return_period_heavy_rain,0,0,,
+F168_extreme_heat_trend,0,1,,lxml
+F169_yen_stock_copula,0,1,,statsmodels
+F16_childcare_dml,0,0,,
+F170_compositional_industry_shares,0,0,,
+F171_pyramid_shape_fda,0,1,,openpyxl
+F172_birth_death_calendar,0,1,,scipy
+F173_income_distribution_wasserstein,0,0,,
+F174_business_cycle_hmm_multiseries,0,0,,
+F175_r2_shapley_decomposition,0,3,,requests scikit-learn scipy
+F176_whitepaper_readability,0,2,,pyarrow unidic-lite
+F177_permutation_tests,0,0,,
+F178_regression_influence,0,0,,
+F179_imputation_by_estimand,0,0,,
+F17_minwage_causal_forest,0,0,,
+F180_measurement_agreement,0,0,,
+F181_housing_starts_rates_population,0,0,,
+F182_condo_depreciation_curve,0,0,,
+F183_car_ownership_change_points,0,0,,
+F184_air_shinkansen_did,0,0,,
+F185_parcels_online_shopping,0,0,,
+F186_electricity_bill_household_burden,0,0,,
+F187_height_plateau_changepoint,0,0,,
+F188_occupational_injury_by_industry,0,0,,
+F189_time_use_composition,0,0,,
+F18_nowcast_dfm,0,0,,
+F190_excess_deaths_temperature,0,1,,lxml
+F191_money_base_lending,0,0,,
+F192_jgb_yield_curve_pca,0,0,,
+F193_internet_traffic_decomposition,0,0,,
+F194_museum_covid_recovery,0,0,,
+F195_night_lights_gdp,0,0,,
+F196_stratified_sampling_allocation,0,1,,scipy
+F197_cluster_sampling_deff,0,1,,scipy
+F198_sample_size_planning,0,0,,
+F199_seasonal_adjustment_turning_points,0,0,,
+F19_small_area_fh,0,0,,
+F200_method_data_network,0,0,,
+F201_minimum_wage_series_part1,0,0,,
+F202_minimum_wage_series_part2,0,1,,scipy
+F203_births_marriage_series_part1,0,1,,openpyxl
+F204_births_marriage_series_part2,0,1,,openpyxl
+F205_power_forecast_practice_part1,0,0,,
+F206_power_forecast_practice_part2,0,1,,scipy
+F207_landprice_series_part1,0,1,,scikit-learn
+F208_landprice_series_part2,0,0,,
+F209_prices_household_series_part1,0,0,,
+F20_tfr_spatial_regression,0,0,,
+F210_prices_household_series_part2,0,0,,
+F21_anomaly_detection,0,0,,
+F22_power_demand_forecast,0,1,,lxml
+F231_sales_forecast_horizon,0,1,,playwright
+F232_hierarchical_retail_reconciliation,0,0,,
+F233_calendar_weather_sales,0,1,,playwright
+F234_price_elasticity_practice,0,0,,
+F235_inventory_newsvendor,0,1,,statsmodels
+F236_ab_test_sample_size,0,0,,
+F237_ab_test_peeking_sequential,0,0,,
+F238_ab_test_cuped,0,0,,
+F239_marketing_mix_model,0,0,,
+F23_ambulance_location,0,1,,highspy
+F240_campaign_effect_no_control,0,0,,
+F241_customer_churn_survival,0,1,,playwright
+F242_kpi_anomaly_alerts,0,1,,playwright
+F243_kpi_tree_decomposition,0,1,,playwright
+F244_sql_aggregation_pitfalls,0,1,,jpholiday
+F245_one_hour_request,0,0,,
+F246_kpi_definitions_fictional_retail,0,0,,
+F247_data_mart_fictional_retail,0,0,,
+F248_monthly_report_template_fictional_retail,0,0,,
+F249_powerbi_dashboard_fictional_retail,0,0,,
+F250_sales_drop_explanation_fictional_retail,0,0,,
+F251_promo_effect_fictional_retail,0,0,,
+F252_budget_forecast_fictional_retail,0,0,,
+F253_monthly_data_quality_checks_fictional_retail,0,0,,
+F254_handover_package_fictional_retail,1,0,samplemart,
+F255_year_review_fictional_retail,0,1,,numpy
+F256_natural_disaster_insurance_payouts,0,0,,
+F257_wage_spillover_whitepaper,0,0,,
+F258_real_wage_deflator_streak,0,0,,
+F259_forecast_error_inventory_cost,0,1,,playwright
+F25_whitepaper_embeddings,0,5,,pyarrow sentencepiece torch transformers unidic-lite
+F260_loss_distribution_return_level,0,0,,
+F261_potential_growth_methods,0,1,,scipy
+F262_births_record_low_decomposition,0,1,,openpyxl
+F263_control_choice_nationwide_policy,0,0,,
+F264_auto_accident_rate_aging,0,0,,
+F265_policy_targets_pace,0,0,,
+F266_rice_price_stages,0,2,,openpyxl xlrd
+F267_kpi_target_allocation_cvs,0,0,,
+F268_life_table_annuity_value,0,2,,openpyxl xlrd
+F269_sme_price_passthrough,0,0,,
+F26_power_simulation,0,0,,
+F270_inbound_record_per_capita,0,0,,
+F271_dashboard_answer_cost,0,0,,
+F272_fire_insurance_rate_vs_risk,0,0,,
+F273_regional_dispersion_lodging,0,0,,
+F274_labor_shortage_bankruptcy_rate,0,0,,
+F275_sql_change_requests,0,0,,
+F276_earthquake_insurance_after_quakes,0,0,,
+F277_minimum_wage_council_indicators,0,0,,
+F278_vacant_record_stock_vs_rate,0,0,,
+F279_rfm_segment_transitions,0,1,,openpyxl
+F27_disease_map_bym2,1,1,pytensor,nutpie
+F280_medical_cost_three_elements,0,0,,
+F281_food_self_sufficiency_target_gap,0,0,,
+F282_yen_exports_quantity_price,0,0,,
+F283_price_hike_front_loading,0,0,,
+F284_heavy_rain_vs_fire_rates,0,0,,
+F285_power_demand_outlook_accuracy,0,1,,xlrd
+F286_household_saving_items,0,0,,
+F287_report_two_audiences,0,1,,pillow
+F288_tail_heaviness_sample_size,0,0,,
+F289_ict_capital_productivity,0,0,,
+F28_corporate_survival,0,1,,pyarrow
+F290_survey_weighting_limits,0,0,,
+F291_mortality_improvement_slowdown,0,3,,openpyxl scipy xlrd
+F292_quake_damage_population,0,0,,
+F293_monthly_anomaly_public_stats,0,1,,tabulate
+F294_care_cost_2040_assumptions,0,2,,openpyxl xlrd
+F295_solvency_diversification_copula,0,0,,
+F29_shinkansen_sdid,0,0,,
+F31_retirement_rdd,0,0,,
+F32_income_quantile,0,0,,
+F33_migration_gravity,0,0,,
+F34_municipal_efficiency,0,0,,
+F35_business_cycle_markov,0,0,,
+F36_hierarchical_forecast,0,0,,
+F37_conformal_land_price,0,0,,
+F38_input_output_tourism,0,2,,openpyxl xlrd
+F39_causal_discovery_macro,1,1,causallearn,causal-learn
+F40_inequality_decomposition,0,0,,
+F41_missing_data_mi,0,0,,
+F42_seasonal_adjustment,0,0,,
+F43_local_projections,0,0,,
+F44_structural_breaks,1,0,scipy,
+F45_population_projection,0,2,,openpyxl xlrd
+F46_bartik_iv,0,0,,
+F47_food_nmf,0,2,,openpyxl xlrd
+F48_gasoline_elasticity,0,2,,openpyxl scipy
+F49_life_expectancy_decomposition,0,0,,
+F50_gdp_revisions,0,0,,
+F51_childcare_mediation,0,0,,
+F52_influenza_spread,0,0,,
+F53_boj_statement_tone,0,1,,torch
+F54_heckman_women_wage,0,0,,
+F55_births_bsts,0,1,,nutpie
+F56_repeat_sales_index,0,0,,
+F57_flu_sir,0,0,,
+F58_tfr_age_tempo,0,1,,openpyxl
+F59_test_rank_stability,0,0,,
+F60_regression_to_mean,0,0,,
+F61_funnel_eb_rankings,0,0,,
+F62_simpson_standardization,0,1,,openpyxl
+F63_yoy_vs_mom,0,0,,
+F64_engel_decomposition,0,0,,
+F65_doctors_life_dag,0,0,,
+F66_series_breaks,0,1,,openpyxl
+F67_temp_power_gam,0,0,,
+F68_inbound_seasonality_clusters,0,0,,
+F69_data_quality,0,0,,
+F70_chart_honesty,0,0,,
+F71_income_convergence,0,2,,openpyxl xlrd
+F72_inflation_expectations_cp,0,0,,
+F73_watcher_text_tone,0,1,,pyarrow
+F74_temperature_kriging,0,0,,
+F75_gp_land_price,0,0,,
+F76_income_mobility_markov,0,0,,
+F77_migration_markov,0,0,,
+F78_industry_portfolio,0,0,,
+F79_closure_vs_merger,0,1,,pyarrow
+F80_multiple_comparisons,0,0,,
+F81_commute_gps,0,0,,
+F82_income_wall_bunching,0,1,,openpyxl
+F83_productivity_shift_share,0,0,,
+F84_oaxaca_gender_wage,0,0,,
+F85_io_network,0,1,,openpyxl
+F86_lee_carter_e0,0,1,,openpyxl
+F87_marriage_apc,0,1,,openpyxl
+F88_mobile_fee_rdit,0,0,,
+F89_minwage_meta,0,0,,
+F90_midas_nowcast,0,0,,
+F91_interpretation_methods,0,2,,requests scikit-learn
+F92_power_quantile_forecast,0,0,,
+F93_pdf_table_extraction,3,4,camelot pillow tabula,camelot-py opencv-python-headless pypdfium2 tabula-py
+F94_municipal_merger_panel,0,0,,
+F95_shinkansen_spillover,0,0,,
+F96_estat_semantic_search,0,4,,sentencepiece torch transformers unidic-lite
+F97_sampling_error_yoy,0,0,,
+F98_disaster_lodging_recovery,0,0,,
+F99_food_self_sufficiency_lp,0,0,,
+T001_141_wage_increase_2026,0,0,,
