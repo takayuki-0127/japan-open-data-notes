@@ -1,0 +1,54 @@
+{
+ "figures": 2520,
+ "articles": 637,
+ "per_article_median": 3.0,
+ "kinds": {
+  "tables_or_diagrams": 90,
+  "grid_images": 75,
+  "horizontal_bars": 434,
+  "axis_figures": 2355
+ },
+ "share_all": {
+  "title": 0.9766,
+  "legend": 0.621,
+  "source": 0.5016,
+  "xlabel": 0.521,
+  "ylabel": 0.6488,
+  "any_label": 0.869
+ },
+ "share_axis": {
+  "題名": 0.9775,
+  "数の軸の名前": 0.8297,
+  "軸の名前に単位": 0.7427,
+  "凡例": 0.6603,
+  "出典": 0.504
+ },
+ "unit_given_any_label": 0.8075,
+ "name_and_unit": 0.6794,
+ "name_unit_source": 0.3529,
+ "source_by_group": {
+  "000–099": 0.9511,
+  "100–226": 0.9763,
+  "F01–99": 0.2996,
+  "F100–199": 0.2583,
+  "F200–255": 0.0699,
+  "精選": 0.1801,
+  "1000本計画": 0.6787
+ },
+ "source_articles": {
+  "どの図にもなし": 239,
+  "一部の図だけ": 39,
+  "全部の図に出典": 359
+ },
+ "source_via_helper": 0.7758,
+ "source_via_savefig": 0.3615,
+ "helper_share_by_group": {
+  "000–099": 0.0639,
+  "100–226": 0.6579,
+  "F01–99": 0.229,
+  "F100–199": 0.1018,
+  "F200–255": 0.2043,
+  "精選": 0.4787,
+  "1000本計画": 0.6199
+ }
+}
