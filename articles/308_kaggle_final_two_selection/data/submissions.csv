@@ -1,0 +1,24 @@
+version,kind,group,cv,cv_type,public,private,note
+v1,fold,baseline,0.95868,sweet,0.95817,0.95936,LightGBM 単体・32特徴量
+v2,fold,model,0.9588,sweet,0.95809,0.95928,3モデル＋元データを行で追加
+v3,fold,feature,0.96120,sweet,0.96070,0.96159,路線の集計・TE・元データ teacher・評価×背景の組み合わせ
+v4,fold,model,0.96119,sweet,0.96067,0.96159,v3＋XGBoost＋TEキー2つ
+v5,fold,feature,0.96112,sweet,,,v3＋評価の期待値（未提出）
+v6,fold,cv,0.96132,sweet,0.96063,0.96159,v3 を10分割
+v7,fold,model,0.96134,sweet,0.96062,0.96160,v6＋NN
+v8,fold,model,0.96135,sweet,0.96062,0.96159,NN seed 3つ＋stacking
+v9,fold,model,0.96141,sweet,0.96063,0.96160,seed 2つ平均＋NN
+v10,fold,cv,0.96108,honest,0.96060,0.96154,正直なCV（lgb・cat・NN）
+v11,fold,pseudo,0.96108,honest,0.96062,0.96151,v10＋擬似ラベル
+v13,fold,blend,0.96111,honest,0.96061,0.96153,lgb・cat・NN を OOF でブレンド
+v12,refit,refit,0.96103,honest_fold_equiv,0.96075,0.96165,全データで学び直し
+v14,refit,pseudo,0.96108,honest_fold_equiv,0.96075,0.96161,v12＋擬似ラベル
+v15,fold,feature,0.96106,honest,,,特徴量3つ（不採用・未提出）
+v16,refit,refit,,none,0.96075,0.96167,学習率半分・木を倍・seed 4
+v17,refit,blend,,none,0.96077,0.96166,refit 3本の順位平均
+v18,refit,feature,0.96106,honest_fold_equiv,0.96072,0.96167,v15 の特徴量で refit
+v17b,refit,blend,,none,0.96078,0.96169,refit 4本の順位平均
+v20,refit,blend,0.96111,honest_fold_equiv,0.96075,0.96168,refit 平均×0.85＋NN×0.15
+v22,refit,blend,0.96104,honest_fold_equiv,0.96082,0.96168,refit 平均×0.85＋XGBoost×0.15
+v25,refit,blend,0.96107,honest_fold_equiv,0.96078,0.96169,OOF で決めた比率（lgb .20 cat .50 xgb .15 nn .15）
+v25s,refit,single,0.96094,honest_fold_equiv,0.96066,0.96163,CatBoost の refit だけ
