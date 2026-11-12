@@ -1,0 +1,74 @@
+{
+ "orders": 20000,
+ "items": 44627,
+ "coupons": 16060,
+ "share_orders_with_coupon": 0.40235,
+ "items_per_order": 2.23135,
+ "truth": {
+  "items_amount": 166502000,
+  "coupons": 4408300,
+  "shipping": 5086400,
+  "order_total": 167180100
+ },
+ "methods": [
+  {
+   "method": "①明細ごとの行\n（注文の項目はくり返す）",
+   "rows": 44627,
+   "items_amount_err_pct": 0.0,
+   "coupons_err_pct": null,
+   "shipping_err_pct": 34.3101211073,
+   "order_total_err_pct": 230.5676871829,
+   "rows_per_order": 2.23135
+  },
+  {
+   "method": "②明細とクーポンを\n順に explode",
+   "rows": 62401,
+   "items_amount_err_pct": 39.7127842308,
+   "coupons_err_pct": 121.83154504,
+   "shipping_err_pct": 88.7110726644,
+   "order_total_err_pct": 355.4014622554,
+   "rows_per_order": 3.12005
+  },
+  {
+   "method": "③SQLで明細・クーポンを\nそれぞれ横に結合",
+   "rows": 62401,
+   "items_amount_err_pct": 39.7127842308,
+   "coupons_err_pct": 121.83154504,
+   "shipping_err_pct": 88.7110726644,
+   "order_total_err_pct": 355.4014622554,
+   "rows_per_order": 3.12005
+  },
+  {
+   "method": "④同じSELECTで2つを\nUNNEST（DuckDB）",
+   "rows": 48863,
+   "items_amount_err_pct": 0.0,
+   "coupons_err_pct": 0.0,
+   "shipping_err_pct": 66.5765570934,
+   "order_total_err_pct": 240.7446280987,
+   "rows_per_order": 2.44315
+  },
+  {
+   "method": "⑤明細を行に、クーポンは\n注文ごとの合計を列に",
+   "rows": 44627,
+   "items_amount_err_pct": 0.0,
+   "coupons_err_pct": 121.83154504,
+   "shipping_err_pct": 34.3101211073,
+   "order_total_err_pct": 230.5676871829,
+   "rows_per_order": 2.23135
+  },
+  {
+   "method": "⑥表を3つに分けて\nそれぞれで合計",
+   "rows": 80687,
+   "items_amount_err_pct": 0.0,
+   "coupons_err_pct": 0.0,
+   "shipping_err_pct": 0.0,
+   "order_total_err_pct": 0.0,
+   "rows_per_order": 4.03435
+  }
+ ],
+ "six_tables": {
+  "orders": 20000,
+  "items": 44627,
+  "coupons": 16060
+ }
+}
