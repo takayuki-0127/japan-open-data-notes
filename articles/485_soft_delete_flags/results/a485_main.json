@@ -1,0 +1,93 @@
+{
+ "customers": 20000,
+ "customer_rows": 24430,
+ "customers_with_history": 2951,
+ "orders": 300000,
+ "deleted_orders": 12894,
+ "deleted_customers": 1033,
+ "by_way": [
+  {
+   "way": "正しい（削除を除き、注文日の版とつなぐ）",
+   "orders": 272184,
+   "amount": 2445118530.0,
+   "customers": 18967,
+   "orders_pct": 0.0,
+   "amount_pct": 0.0,
+   "customers_pct": 0.0
+  },
+  {
+   "way": "注文の削除フラグを見落とす",
+   "orders": 284397,
+   "amount": 2555673130.0,
+   "customers": 18967,
+   "orders_pct": 4.487,
+   "amount_pct": 4.521,
+   "customers_pct": 0.0
+  },
+  {
+   "way": "顧客の削除フラグを見落とす",
+   "orders": 287106,
+   "amount": 2582075470.0,
+   "customers": 20000,
+   "orders_pct": 5.482,
+   "amount_pct": 5.601,
+   "customers_pct": 5.446
+  },
+  {
+   "way": "両方の削除フラグを見落とす",
+   "orders": 300000,
+   "amount": 2698617400.0,
+   "customers": 20000,
+   "orders_pct": 10.22,
+   "amount_pct": 10.368,
+   "customers_pct": 5.446
+  },
+  {
+   "way": "履歴の期間を見ずにつなぐ（削除は除く）",
+   "orders": 332735,
+   "amount": 2988246490.0,
+   "customers": 18967,
+   "orders_pct": 22.246,
+   "amount_pct": 22.213,
+   "customers_pct": 0.0
+  },
+  {
+   "way": "削除も履歴も見落とす",
+   "orders": 367246,
+   "amount": 3301346570.0,
+   "customers": 20000,
+   "orders_pct": 34.926,
+   "amount_pct": 35.018,
+   "customers_pct": 5.446
+  },
+  {
+   "way": "注文表だけで数える（注文の削除は除く）",
+   "orders": 287106,
+   "amount": 2582075470.0,
+   "customers": 20000,
+   "orders_pct": 5.482,
+   "amount_pct": 5.601,
+   "customers_pct": 5.446
+  }
+ ],
+ "monthly_over_pct": {
+  "min": 8.866419856741036,
+  "max": 24.354140691766357,
+  "median": 9.829284133371964
+ },
+ "march_2025": {
+  "over_pct": 24.354140691766357,
+  "yoy_ok": -9.177052915276873,
+  "yoy_all": 2.2625896093530162
+ },
+ "segment": {
+  "注文日の区分": {
+   "一般": 1917952570.0,
+   "法人": 527165960.0
+  },
+  "今の区分": {
+   "一般": 1881125460.0,
+   "法人": 563993070.0
+  }
+ }
+}
