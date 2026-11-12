@@ -1,0 +1,626 @@
+{
+ "qx_summary": [
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "lin",
+   "mean_abs": 1.31,
+   "max_abs": 4.65
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "loglin",
+   "mean_abs": 0.58,
+   "max_abs": 2.46
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "spline",
+   "mean_abs": 0.96,
+   "max_abs": 3.14
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "step",
+   "mean_abs": 12.19,
+   "max_abs": 36.87
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "lin",
+   "mean_abs": 4.71,
+   "max_abs": 14.87
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "loglin",
+   "mean_abs": 2.48,
+   "max_abs": 8.44
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "spline",
+   "mean_abs": 4.37,
+   "max_abs": 13.53
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "step",
+   "mean_abs": 27.37,
+   "max_abs": 104.86
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "lin",
+   "mean_abs": 1.14,
+   "max_abs": 3.36
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "loglin",
+   "mean_abs": 0.61,
+   "max_abs": 2.25
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "spline",
+   "mean_abs": 0.96,
+   "max_abs": 3.16
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "step",
+   "mean_abs": 11.7,
+   "max_abs": 28.69
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "lin",
+   "mean_abs": 3.35,
+   "max_abs": 10.44
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "loglin",
+   "mean_abs": 1.2,
+   "max_abs": 4.1
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "spline",
+   "mean_abs": 3.3,
+   "max_abs": 9.47
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "step",
+   "mean_abs": 25.15,
+   "max_abs": 75.47
+  }
+ ],
+ "ann65": {
+  "男_5_step_0.0": -1.1173,
+  "男_5_step_0.01": -1.0281,
+  "男_5_step_0.02": -0.9477,
+  "男_5_lin_0.0": 0.0186,
+  "男_5_lin_0.01": 0.0183,
+  "男_5_lin_0.02": 0.0178,
+  "男_5_loglin_0.0": -0.0007,
+  "男_5_loglin_0.01": 0.0004,
+  "男_5_loglin_0.02": 0.0012,
+  "男_5_spline_0.0": -0.0135,
+  "男_5_spline_0.01": -0.0121,
+  "男_5_spline_0.02": -0.0109,
+  "男_10_step_0.0": -3.3101,
+  "男_10_step_0.01": -2.9634,
+  "男_10_step_0.02": -2.6489,
+  "男_10_lin_0.0": 0.0364,
+  "男_10_lin_0.01": 0.0454,
+  "男_10_lin_0.02": 0.0526,
+  "男_10_loglin_0.0": -0.049,
+  "男_10_loglin_0.01": -0.0395,
+  "男_10_loglin_0.02": -0.0308,
+  "男_10_spline_0.0": -0.2927,
+  "男_10_spline_0.01": -0.2553,
+  "男_10_spline_0.02": -0.2219,
+  "女_5_step_0.0": -1.0738,
+  "女_5_step_0.01": -0.9602,
+  "女_5_step_0.02": -0.8584,
+  "女_5_lin_0.0": 0.0064,
+  "女_5_lin_0.01": 0.0101,
+  "女_5_lin_0.02": 0.0127,
+  "女_5_loglin_0.0": -0.0115,
+  "女_5_loglin_0.01": -0.0074,
+  "女_5_loglin_0.02": -0.0042,
+  "女_5_spline_0.0": -0.0156,
+  "女_5_spline_0.01": -0.0134,
+  "女_5_spline_0.02": -0.0115,
+  "女_10_step_0.0": -3.8376,
+  "女_10_step_0.01": -3.4147,
+  "女_10_step_0.02": -3.0306,
+  "女_10_lin_0.0": -0.1792,
+  "女_10_lin_0.01": -0.1382,
+  "女_10_lin_0.02": -0.1037,
+  "女_10_loglin_0.0": -0.1847,
+  "女_10_loglin_0.01": -0.1587,
+  "女_10_loglin_0.02": -0.136,
+  "女_10_spline_0.0": -0.5347,
+  "女_10_spline_0.01": -0.47,
+  "女_10_spline_0.02": -0.4121
+ },
+ "ann_true65": {
+  "男_0.0": 19.9701,
+  "男_0.01": 17.9021,
+  "男_0.02": 16.1611,
+  "女_0.0": 24.8782,
+  "女_0.01": 21.8766,
+  "女_0.02": 19.4047
+ },
+ "max_abs_ann_err": {
+  "男_5_step": 4.5785,
+  "男_5_lin": 0.3218,
+  "男_5_loglin": 0.1542,
+  "男_5_spline": 0.1244,
+  "男_10_step": 18.033,
+  "男_10_lin": 1.1401,
+  "男_10_loglin": 0.5361,
+  "男_10_spline": 1.24,
+  "女_5_step": 4.3535,
+  "女_5_lin": 0.11,
+  "女_5_loglin": 0.0723,
+  "女_5_spline": 0.0509,
+  "女_10_step": 17.0215,
+  "女_10_lin": 2.2993,
+  "女_10_loglin": 0.9071,
+  "女_10_spline": 2.1688
+ },
+ "life_exp": [
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "step",
+   "start": 0,
+   "true": 81.089,
+   "rebuilt": 80.873,
+   "diff_years": -0.215
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "step",
+   "start": 65,
+   "true": 19.47,
+   "rebuilt": 19.247,
+   "diff_years": -0.223
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "step",
+   "start": 75,
+   "true": 12.085,
+   "rebuilt": 11.858,
+   "diff_years": -0.226
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "lin",
+   "start": 0,
+   "true": 81.089,
+   "rebuilt": 81.095,
+   "diff_years": 0.006
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "lin",
+   "start": 65,
+   "true": 19.47,
+   "rebuilt": 19.474,
+   "diff_years": 0.004
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "lin",
+   "start": 75,
+   "true": 12.085,
+   "rebuilt": 12.089,
+   "diff_years": 0.004
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "loglin",
+   "start": 0,
+   "true": 81.089,
+   "rebuilt": 81.091,
+   "diff_years": 0.002
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "loglin",
+   "start": 65,
+   "true": 19.47,
+   "rebuilt": 19.47,
+   "diff_years": -0.0
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "loglin",
+   "start": 75,
+   "true": 12.085,
+   "rebuilt": 12.085,
+   "diff_years": 0.0
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "spline",
+   "start": 0,
+   "true": 81.089,
+   "rebuilt": 81.088,
+   "diff_years": -0.0
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "spline",
+   "start": 65,
+   "true": 19.47,
+   "rebuilt": 19.467,
+   "diff_years": -0.003
+  },
+  {
+   "sex": "男",
+   "width": 5,
+   "method": "spline",
+   "start": 75,
+   "true": 12.085,
+   "rebuilt": 12.083,
+   "diff_years": -0.002
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "step",
+   "start": 0,
+   "true": 81.089,
+   "rebuilt": 80.207,
+   "diff_years": -0.881
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "step",
+   "start": 65,
+   "true": 19.47,
+   "rebuilt": 18.809,
+   "diff_years": -0.661
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "step",
+   "start": 75,
+   "true": 12.085,
+   "rebuilt": 11.595,
+   "diff_years": -0.49
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "lin",
+   "start": 0,
+   "true": 81.089,
+   "rebuilt": 81.121,
+   "diff_years": 0.033
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "lin",
+   "start": 65,
+   "true": 19.47,
+   "rebuilt": 19.477,
+   "diff_years": 0.007
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "lin",
+   "start": 75,
+   "true": 12.085,
+   "rebuilt": 12.034,
+   "diff_years": -0.051
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "loglin",
+   "start": 0,
+   "true": 81.089,
+   "rebuilt": 81.087,
+   "diff_years": -0.001
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "loglin",
+   "start": 65,
+   "true": 19.47,
+   "rebuilt": 19.46,
+   "diff_years": -0.01
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "loglin",
+   "start": 75,
+   "true": 12.085,
+   "rebuilt": 12.045,
+   "diff_years": -0.039
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "spline",
+   "start": 0,
+   "true": 81.089,
+   "rebuilt": 81.027,
+   "diff_years": -0.061
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "spline",
+   "start": 65,
+   "true": 19.47,
+   "rebuilt": 19.412,
+   "diff_years": -0.058
+  },
+  {
+   "sex": "男",
+   "width": 10,
+   "method": "spline",
+   "start": 75,
+   "true": 12.085,
+   "rebuilt": 12.009,
+   "diff_years": -0.076
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "step",
+   "start": 0,
+   "true": 87.123,
+   "rebuilt": 86.866,
+   "diff_years": -0.257
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "step",
+   "start": 65,
+   "true": 24.378,
+   "rebuilt": 24.111,
+   "diff_years": -0.267
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "step",
+   "start": 75,
+   "true": 15.75,
+   "rebuilt": 15.478,
+   "diff_years": -0.272
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "lin",
+   "start": 0,
+   "true": 87.123,
+   "rebuilt": 87.127,
+   "diff_years": 0.004
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "lin",
+   "start": 65,
+   "true": 24.378,
+   "rebuilt": 24.38,
+   "diff_years": 0.002
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "lin",
+   "start": 75,
+   "true": 15.75,
+   "rebuilt": 15.751,
+   "diff_years": 0.001
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "loglin",
+   "start": 0,
+   "true": 87.123,
+   "rebuilt": 87.123,
+   "diff_years": -0.0
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "loglin",
+   "start": 65,
+   "true": 24.378,
+   "rebuilt": 24.375,
+   "diff_years": -0.003
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "loglin",
+   "start": 75,
+   "true": 15.75,
+   "rebuilt": 15.747,
+   "diff_years": -0.003
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "spline",
+   "start": 0,
+   "true": 87.123,
+   "rebuilt": 87.121,
+   "diff_years": -0.001
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "spline",
+   "start": 65,
+   "true": 24.378,
+   "rebuilt": 24.374,
+   "diff_years": -0.004
+  },
+  {
+   "sex": "女",
+   "width": 5,
+   "method": "spline",
+   "start": 75,
+   "true": 15.75,
+   "rebuilt": 15.746,
+   "diff_years": -0.004
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "step",
+   "start": 0,
+   "true": 87.123,
+   "rebuilt": 86.094,
+   "diff_years": -1.029
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "step",
+   "start": 65,
+   "true": 24.378,
+   "rebuilt": 23.423,
+   "diff_years": -0.955
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "step",
+   "start": 75,
+   "true": 15.75,
+   "rebuilt": 14.938,
+   "diff_years": -0.812
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "lin",
+   "start": 0,
+   "true": 87.123,
+   "rebuilt": 87.113,
+   "diff_years": -0.01
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "lin",
+   "start": 65,
+   "true": 24.378,
+   "rebuilt": 24.334,
+   "diff_years": -0.045
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "lin",
+   "start": 75,
+   "true": 15.75,
+   "rebuilt": 15.654,
+   "diff_years": -0.096
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "loglin",
+   "start": 0,
+   "true": 87.123,
+   "rebuilt": 87.095,
+   "diff_years": -0.028
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "loglin",
+   "start": 65,
+   "true": 24.378,
+   "rebuilt": 24.332,
+   "diff_years": -0.046
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "loglin",
+   "start": 75,
+   "true": 15.75,
+   "rebuilt": 15.694,
+   "diff_years": -0.057
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "spline",
+   "start": 0,
+   "true": 87.123,
+   "rebuilt": 87.005,
+   "diff_years": -0.118
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "spline",
+   "start": 65,
+   "true": 24.378,
+   "rebuilt": 24.245,
+   "diff_years": -0.133
+  },
+  {
+   "sex": "女",
+   "width": 10,
+   "method": "spline",
+   "start": 75,
+   "true": 15.75,
+   "rebuilt": 15.623,
+   "diff_years": -0.127
+  }
+ ]
+}
