@@ -35,14 +35,14 @@
  },
  "by_kind_2025": {
   "港など": {
-   "n": 51,
-   "median_hhi3": 0.261,
-   "exports_oku": 790903.984
+   "n": 50,
+   "median_hhi3": 0.255,
+   "exports_oku": 786394.299
   },
   "空港": {
-   "n": 5,
-   "median_hhi3": 0.219,
-   "exports_oku": 292507.646
+   "n": 6,
+   "median_hhi3": 0.255,
+   "exports_oku": 297017.331
   }
  },
  "change_2015_2025": {
