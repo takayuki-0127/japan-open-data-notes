@@ -1,0 +1,119 @@
+{
+ "n": 3000,
+ "n_train": 2400,
+ "n_test": 600,
+ "kind_share": {
+  "plain": 0.678,
+  "two": 0.1,
+  "short": 0.089,
+  "cross": 0.083,
+  "vague": 0.05
+ },
+ "label_noise_share": 0.037,
+ "typo_share": 0.15,
+ "acc_model": 0.9267,
+ "acc_rule": 0.605,
+ "acc_rule_full_vocab": 0.9067,
+ "rule_no_hit_share": 0.28,
+ "acc_majority": 0.2617,
+ "acc_model_clean_labels": 0.945,
+ "by_category": {
+  "請求・支払い": 0.949,
+  "ログイン・アカウント": 0.952,
+  "配送": 0.978,
+  "返品・交換": 0.896,
+  "使い方": 0.865,
+  "解約": 0.871
+ },
+ "by_kind": {
+  "cross": {
+   "n": 52,
+   "model": 1.0,
+   "rule": 1.0
+  },
+  "plain": {
+   "n": 384,
+   "model": 1.0,
+   "rule": 0.576
+  },
+  "short": {
+   "n": 59,
+   "model": 1.0,
+   "rule": 0.847
+  },
+  "two": {
+   "n": 73,
+   "model": 0.726,
+   "rule": 0.548
+  },
+  "vague": {
+   "n": 32,
+   "model": 0.25,
+   "rule": 0.0
+  }
+ },
+ "top_confusions": [
+  {
+   "true": "解約",
+   "pred": "請求・支払い",
+   "n": 6
+  },
+  {
+   "true": "使い方",
+   "pred": "請求・支払い",
+   "n": 4
+  },
+  {
+   "true": "返品・交換",
+   "pred": "請求・支払い",
+   "n": 3
+  },
+  {
+   "true": "請求・支払い",
+   "pred": "使い方",
+   "n": 3
+  },
+  {
+   "true": "使い方",
+   "pred": "返品・交換",
+   "n": 3
+  }
+ ],
+ "errors": 44,
+ "learning_curve": {
+  "30": 0.427,
+  "60": 0.605,
+  "120": 0.763,
+  "240": 0.848,
+  "480": 0.897,
+  "960": 0.915,
+  "1500": 0.924,
+  "2400": 0.927
+ },
+ "threshold": {
+  "0.0": {
+   "auto_share": 1.0,
+   "auto_acc": 0.927
+  },
+  "0.5": {
+   "auto_share": 0.942,
+   "auto_acc": 0.966
+  },
+  "0.6": {
+   "auto_share": 0.913,
+   "auto_acc": 0.985
+  },
+  "0.7": {
+   "auto_share": 0.877,
+   "auto_acc": 0.992
+  },
+  "0.8": {
+   "auto_share": 0.832,
+   "auto_acc": 0.996
+  },
+  "0.9": {
+   "auto_share": 0.702,
+   "auto_acc": 1.0
+  }
+ }
+}
