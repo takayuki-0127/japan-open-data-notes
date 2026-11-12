@@ -1,0 +1,373 @@
+{
+ "years": [
+  1953,
+  2023
+ ],
+ "resid_max_abs_pct": {
+  "old": 0.04,
+  "mid": 0.01,
+  "new": 0.01
+ },
+ "overlap_1990_2000_share_diff_pt": {
+  "coal": {
+   "mean_diff": 0.23,
+   "max_abs": 0.43
+  },
+  "oil": {
+   "mean_diff": 0.73,
+   "max_abs": 1.1
+  },
+  "gas": {
+   "mean_diff": -0.2,
+   "max_abs": 0.38
+  },
+  "hydro": {
+   "mean_diff": 0.29,
+   "max_abs": 0.39
+  },
+  "nuclear": {
+   "mean_diff": 0.37,
+   "max_abs": 0.74
+  },
+  "other": {
+   "mean_diff": -1.42,
+   "max_abs": 1.49
+  }
+ },
+ "share": {
+  "1953": {
+   "coal": 47.3,
+   "oil": 15.3,
+   "gas": 0.2,
+   "hydro": 29.3,
+   "nuclear": 0.0,
+   "other": 7.9,
+   "fossil": 62.8
+  },
+  "1955": {
+   "coal": 48.3,
+   "oil": 16.7,
+   "gas": 0.4,
+   "hydro": 27.1,
+   "nuclear": 0.0,
+   "other": 7.6,
+   "fossil": 65.3
+  },
+  "1960": {
+   "coal": 44.2,
+   "oil": 33.3,
+   "gas": 1.0,
+   "hydro": 16.6,
+   "nuclear": 0.0,
+   "other": 4.9,
+   "fossil": 78.5
+  },
+  "1961": {
+   "coal": 41.3,
+   "oil": 36.4,
+   "gas": 1.3,
+   "hydro": 16.7,
+   "nuclear": 0.0,
+   "other": 4.3,
+   "fossil": 79.0
+  },
+  "1962": {
+   "coal": 36.5,
+   "oil": 43.7,
+   "gas": 1.6,
+   "hydro": 14.2,
+   "nuclear": 0.0,
+   "other": 4.0,
+   "fossil": 81.8
+  },
+  "1965": {
+   "coal": 29.3,
+   "oil": 55.9,
+   "gas": 1.3,
+   "hydro": 11.8,
+   "nuclear": 0.0,
+   "other": 1.7,
+   "fossil": 86.5
+  },
+  "1970": {
+   "coal": 21.3,
+   "oil": 69.9,
+   "gas": 1.3,
+   "hydro": 6.0,
+   "nuclear": 0.4,
+   "other": 1.1,
+   "fossil": 92.5
+  },
+  "1973": {
+   "coal": 16.9,
+   "oil": 75.4,
+   "gas": 1.6,
+   "hydro": 4.4,
+   "nuclear": 0.6,
+   "other": 1.0,
+   "fossil": 94.0
+  },
+  "1975": {
+   "coal": 17.4,
+   "oil": 71.6,
+   "gas": 2.7,
+   "hydro": 5.6,
+   "nuclear": 1.6,
+   "other": 1.0,
+   "fossil": 91.7
+  },
+  "1979": {
+   "coal": 14.2,
+   "oil": 70.1,
+   "gas": 5.6,
+   "hydro": 4.9,
+   "nuclear": 4.1,
+   "other": 1.1,
+   "fossil": 89.9
+  },
+  "1980": {
+   "coal": 17.6,
+   "oil": 64.7,
+   "gas": 6.4,
+   "hydro": 5.4,
+   "nuclear": 4.9,
+   "other": 1.1,
+   "fossil": 88.6
+  },
+  "1985": {
+   "coal": 19.6,
+   "oil": 55.4,
+   "gas": 9.7,
+   "hydro": 4.9,
+   "nuclear": 9.1,
+   "other": 1.3,
+   "fossil": 84.7
+  },
+  "1990": {
+   "coal": 16.8,
+   "oil": 55.9,
+   "gas": 10.7,
+   "hydro": 4.1,
+   "nuclear": 9.6,
+   "other": 2.9,
+   "fossil": 83.4
+  },
+  "1995": {
+   "coal": 16.5,
+   "oil": 53.6,
+   "gas": 11.5,
+   "hydro": 3.4,
+   "nuclear": 12.2,
+   "other": 2.8,
+   "fossil": 81.6
+  },
+  "2000": {
+   "coal": 18.5,
+   "oil": 49.1,
+   "gas": 13.8,
+   "hydro": 3.3,
+   "nuclear": 12.6,
+   "other": 2.7,
+   "fossil": 81.4
+  },
+  "2005": {
+   "coal": 20.8,
+   "oil": 46.8,
+   "gas": 14.8,
+   "hydro": 2.9,
+   "nuclear": 11.6,
+   "other": 2.9,
+   "fossil": 82.5
+  },
+  "2010": {
+   "coal": 22.5,
+   "oil": 39.8,
+   "gas": 19.2,
+   "hydro": 3.2,
+   "nuclear": 11.1,
+   "other": 4.3,
+   "fossil": 81.4
+  },
+  "2011": {
+   "coal": 21.9,
+   "oil": 42.8,
+   "gas": 23.3,
+   "hydro": 3.4,
+   "nuclear": 4.1,
+   "other": 4.5,
+   "fossil": 88.0
+  },
+  "2012": {
+   "coal": 23.3,
+   "oil": 44.1,
+   "gas": 24.5,
+   "hydro": 3.1,
+   "nuclear": 0.7,
+   "other": 4.3,
+   "fossil": 91.9
+  },
+  "2013": {
+   "coal": 25.1,
+   "oil": 42.7,
+   "gas": 24.2,
+   "hydro": 3.2,
+   "nuclear": 0.4,
+   "other": 4.3,
+   "fossil": 92.1
+  },
+  "2014": {
+   "coal": 25.5,
+   "oil": 41.4,
+   "gas": 25.2,
+   "hydro": 3.4,
+   "nuclear": 0.0,
+   "other": 4.4,
+   "fossil": 92.2
+  },
+  "2015": {
+   "coal": 25.9,
+   "oil": 41.0,
+   "gas": 24.3,
+   "hydro": 3.6,
+   "nuclear": 0.4,
+   "other": 4.9,
+   "fossil": 91.1
+  },
+  "2020": {
+   "coal": 24.6,
+   "oil": 36.4,
+   "gas": 23.8,
+   "hydro": 3.7,
+   "nuclear": 1.8,
+   "other": 9.7,
+   "fossil": 84.8
+  },
+  "2023": {
+   "coal": 24.4,
+   "oil": 35.7,
+   "gas": 20.6,
+   "hydro": 3.7,
+   "nuclear": 4.1,
+   "other": 11.4,
+   "fossil": 80.7
+  }
+ },
+ "oil_over_coal": [
+  1962
+ ],
+ "oil_over_50": 1964,
+ "oil_below_50_after_peak": 2000,
+ "oil_below_40": 2010,
+ "coal_below_30": 1965,
+ "coal_below_20": 1971,
+ "peak": {
+  "coal": {
+   "fy": 1956,
+   "share": 48.3
+  },
+  "oil": {
+   "fy": 1973,
+   "share": 75.4
+  },
+  "gas": {
+   "fy": 2014,
+   "share": 25.2
+  },
+  "hydro": {
+   "fy": 1954,
+   "share": 29.3
+  },
+  "nuclear": {
+   "fy": 1998,
+   "share": 13.6
+  },
+  "other": {
+   "fy": 2023,
+   "share": 11.4
+  },
+  "fossil": {
+   "fy": 1973,
+   "share": 94.0
+  }
+ },
+ "min": {
+  "coal": {
+   "fy": 1978,
+   "share": 13.3
+  },
+  "oil_after_1973": {
+   "fy": 2023,
+   "share": 35.7
+  },
+  "fossil_after_1973": {
+   "fy": 1998,
+   "share": 80.0
+  },
+  "nuclear_after_2011": {
+   "fy": 2014,
+   "share": 0.0
+  }
+ },
+ "oil_1973_to_1985_pt": -20.1,
+ "replaced_1973_1985": {
+  "coal": 2.7,
+  "oil": -20.1,
+  "gas": 8.1,
+  "hydro": 0.5,
+  "nuclear": 8.5,
+  "other": 0.3
+ },
+ "oil_per_year_1953_1973": 3.01,
+ "oil_per_year_1973_1985": -1.67,
+ "oil_per_year_1985_2010": -0.62,
+ "coal_over_gas_last": {
+  "coal_2023": 24.4,
+  "gas_2023": 20.6
+ },
+ "gas_over_coal": [
+  2011
+ ],
+ "coal_over_gas": [
+  2013
+ ],
+ "total_pj": {
+  "1953": 2548.0,
+  "1973": 15002.0,
+  "1990": 19695.0,
+  "2000": 22740.0,
+  "2010": 22157.0,
+  "2023": 17575.0
+ },
+ "total_peak": {
+  "fy": 2004,
+  "pj": 22997.0
+ },
+ "total_x_1953_1973": 5.9,
+ "oil_pj_x_1953_1973": 29.1,
+ "coal_pj_x_1953_1973": 2.1,
+ "oil_pj": {
+  "1953": 389.0,
+  "1961": 1643.0,
+  "1973": 11319.0,
+  "1985": 9122.0,
+  "1996": 11766.0,
+  "2010": 8819.0,
+  "2023": 6273.0
+ },
+ "oil_pj_peak": {
+  "fy": 1995,
+  "pj": 11809.0
+ },
+ "coal_pj": {
+  "1953": 1206.0,
+  "1961": 1863.0,
+  "1973": 2531.0,
+  "1985": 3223.0,
+  "2010": 4981.0,
+  "2023": 4288.0
+ },
+ "coal_pj_peak": {
+  "fy": 2013,
+  "pj": 5276.0
+ }
+}
