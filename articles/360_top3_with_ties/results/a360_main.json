@@ -1,0 +1,106 @@
+{
+ "base": {
+  "stores": 300,
+  "products": 40,
+  "tie_at_cut_pct": 11.666666666666666,
+  "rank_more_than3_pct": 11.666666666666666,
+  "rank_max": 5,
+  "rank_total_rows": 938,
+  "dense_more_than3_pct": 24.0,
+  "dense_max": 7,
+  "dense_mean": 3.31,
+  "dense_total_rows": 993,
+  "row_number_total_rows": 900
+ },
+ "row_number_runs": {
+  "runs": 20,
+  "unstable_stores_pct": 11.666666666666666,
+  "unstable_equals_tie_at_cut": true,
+  "unstable_among_tie_at_cut_pct": 100.0,
+  "max_variants_per_store": 3,
+  "tiebreak_unstable_stores": 0,
+  "products_count_changes": 12,
+  "max_spread_stores": 10,
+  "max_spread_product_min": 94,
+  "max_spread_product_max": 104
+ },
+ "distribution": [
+  {
+   "返った件数": "3件",
+   "ROW_NUMBER": 300,
+   "RANK（TOP 3 WITH TIES と同じ）": 265,
+   "DENSE_RANK": 228
+  },
+  {
+   "返った件数": "4件",
+   "ROW_NUMBER": 0,
+   "RANK（TOP 3 WITH TIES と同じ）": 32,
+   "DENSE_RANK": 56
+  },
+  {
+   "返った件数": "5件",
+   "ROW_NUMBER": 0,
+   "RANK（TOP 3 WITH TIES と同じ）": 3,
+   "DENSE_RANK": 12
+  },
+  {
+   "返った件数": "6件以上",
+   "ROW_NUMBER": 0,
+   "RANK（TOP 3 WITH TIES と同じ）": 0,
+   "DENSE_RANK": 4
+  }
+ ],
+ "sweep": [
+  {
+   "mean_units": 3,
+   "tie_at_cut_units": 31.867,
+   "rank_rows": 3.448,
+   "dense_rows": 4.101,
+   "tie_at_cut_amount": 2.2
+  },
+  {
+   "mean_units": 6,
+   "tie_at_cut_units": 19.2,
+   "rank_rows": 3.237,
+   "dense_rows": 3.433,
+   "tie_at_cut_amount": 0.667
+  },
+  {
+   "mean_units": 12,
+   "tie_at_cut_units": 11.533,
+   "rank_rows": 3.123,
+   "dense_rows": 3.219,
+   "tie_at_cut_amount": 0.733
+  },
+  {
+   "mean_units": 25,
+   "tie_at_cut_units": 5.933,
+   "rank_rows": 3.062,
+   "dense_rows": 3.097,
+   "tie_at_cut_amount": 0.467
+  },
+  {
+   "mean_units": 50,
+   "tie_at_cut_units": 3.533,
+   "rank_rows": 3.036,
+   "dense_rows": 3.053,
+   "tie_at_cut_amount": 0.267
+  },
+  {
+   "mean_units": 100,
+   "tie_at_cut_units": 2.0,
+   "rank_rows": 3.021,
+   "dense_rows": 3.026,
+   "tie_at_cut_amount": 0.067
+  },
+  {
+   "mean_units": 300,
+   "tie_at_cut_units": 0.667,
+   "rank_rows": 3.007,
+   "dense_rows": 3.008,
+   "tie_at_cut_amount": 0.067
+  }
+ ],
+ "tie_in_top3_pct": 14.000000000000002,
+ "example_store": 79
+}
