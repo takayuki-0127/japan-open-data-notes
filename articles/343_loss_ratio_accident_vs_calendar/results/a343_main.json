@@ -1,0 +1,193 @@
+{
+ "pattern": [
+  0.4,
+  0.3,
+  0.15,
+  0.1,
+  0.05
+ ],
+ "true_lr": 0.6,
+ "n_claims_s1": 147821,
+ "phase": {
+  "伸びる": {
+   "lr_calendar": 0.5446,
+   "lr_accident": 0.6024,
+   "diff_pt": -5.7844
+  },
+  "横ばい": {
+   "lr_calendar": 0.5883,
+   "lr_accident": 0.5967,
+   "diff_pt": -0.8472
+  },
+  "縮む": {
+   "lr_calendar": 0.6686,
+   "lr_accident": 0.6018,
+   "diff_pt": 6.6863
+  }
+ },
+ "sweep": [
+  {
+   "growth": -0.2,
+   "theory_calendar_lr": 0.7961,
+   "sim_mean": 0.7906,
+   "sim_sd": 0.0227,
+   "diff_pt_theory": 19.6055,
+   "diff_pt_sim": 19.0622
+  },
+  {
+   "growth": -0.1,
+   "theory_calendar_lr": 0.6791,
+   "sim_mean": 0.6833,
+   "sim_sd": 0.0105,
+   "diff_pt_theory": 7.914,
+   "diff_pt_sim": 8.3341
+  },
+  {
+   "growth": -0.05,
+   "theory_calendar_lr": 0.636,
+   "sim_mean": 0.6363,
+   "sim_sd": 0.0056,
+   "diff_pt_theory": 3.601,
+   "diff_pt_sim": 3.6297
+  },
+  {
+   "growth": 0.0,
+   "theory_calendar_lr": 0.6,
+   "sim_mean": 0.5995,
+   "sim_sd": 0.0056,
+   "diff_pt_theory": 0.0,
+   "diff_pt_sim": -0.0492
+  },
+  {
+   "growth": 0.05,
+   "theory_calendar_lr": 0.5696,
+   "sim_mean": 0.5706,
+   "sim_sd": 0.0039,
+   "diff_pt_theory": -3.0427,
+   "diff_pt_sim": -2.9368
+  },
+  {
+   "growth": 0.1,
+   "theory_calendar_lr": 0.5436,
+   "sim_mean": 0.5443,
+   "sim_sd": 0.0023,
+   "diff_pt_theory": -5.6414,
+   "diff_pt_sim": -5.5679
+  },
+  {
+   "growth": 0.2,
+   "theory_calendar_lr": 0.5017,
+   "sim_mean": 0.5015,
+   "sim_sd": 0.0019,
+   "diff_pt_theory": -9.831,
+   "diff_pt_sim": -9.8491
+  },
+  {
+   "growth": 0.3,
+   "theory_calendar_lr": 0.4695,
+   "sim_mean": 0.4696,
+   "sim_sd": 0.0008,
+   "diff_pt_theory": -13.047,
+   "diff_pt_sim": -13.0403
+  }
+ ],
+ "shock_mean": {
+  "2014": {
+   "lr_calendar": 0.6001,
+   "lr_accident": 0.6009,
+   "theory_calendar": 0.6
+  },
+  "2015": {
+   "lr_calendar": 0.6,
+   "lr_accident": 0.5989,
+   "theory_calendar": 0.6
+  },
+  "2016": {
+   "lr_calendar": 0.5998,
+   "lr_accident": 0.5993,
+   "theory_calendar": 0.6
+  },
+  "2017": {
+   "lr_calendar": 0.5991,
+   "lr_accident": 0.5993,
+   "theory_calendar": 0.6
+  },
+  "2018": {
+   "lr_calendar": 0.6402,
+   "lr_accident": 0.7012,
+   "theory_calendar": 0.64
+  },
+  "2019": {
+   "lr_calendar": 0.6693,
+   "lr_accident": 0.6981,
+   "theory_calendar": 0.67
+  },
+  "2020": {
+   "lr_calendar": 0.6851,
+   "lr_accident": 0.7007,
+   "theory_calendar": 0.685
+  },
+  "2021": {
+   "lr_calendar": 0.6946,
+   "lr_accident": 0.6986,
+   "theory_calendar": 0.695
+  },
+  "2022": {
+   "lr_calendar": 0.6991,
+   "lr_accident": 0.6992,
+   "theory_calendar": 0.7
+  },
+  "2023": {
+   "lr_calendar": 0.6989,
+   "lr_accident": 0.6991,
+   "theory_calendar": 0.7
+  },
+  "2024": {
+   "lr_calendar": 0.6999,
+   "lr_accident": 0.7005,
+   "theory_calendar": 0.7
+  },
+  "2025": {
+   "lr_calendar": 0.7,
+   "lr_accident": 0.7012,
+   "theory_calendar": 0.7
+  }
+ },
+ "shock_share_of_rise": {
+  "2018": 0.402,
+  "2019": 0.693,
+  "2020": 0.851,
+  "2021": 0.946,
+  "2022": 0.991
+ },
+ "immature_accident_year": {
+  "2021": {
+   "final": 0.6102,
+   "to_date": 0.6102
+  },
+  "2022": {
+   "final": 0.5699,
+   "to_date": 0.5413
+  },
+  "2023": {
+   "final": 0.5874,
+   "to_date": 0.4987
+  },
+  "2024": {
+   "final": 0.596,
+   "to_date": 0.4178
+  },
+  "2025": {
+   "final": 0.6037,
+   "to_date": 0.2411
+  }
+ },
+ "s1_calendar_minmax_2014_2025": [
+  0.5405,
+  0.679
+ ],
+ "s1_accident_minmax_2014_2025": [
+  0.5699,
+  0.6331
+ ]
+}
