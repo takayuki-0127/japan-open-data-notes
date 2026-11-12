@@ -1,0 +1,223 @@
+{
+ "seed": 454,
+ "n_tx": 20000,
+ "n_rows": 500,
+ "reps": 20,
+ "base_config": {
+  "n_tx": 20000,
+  "n_rows": 500,
+  "rate": 50.0,
+  "mean_dur": 0.05,
+  "skew": 1.0
+ },
+ "base": [
+  {
+   "method": "読んでから書く",
+   "lost": 1428.75,
+   "lost_pct": 7.142,
+   "overlapped_pct": 7.108,
+   "wrong_rows": 54.0,
+   "wrong_rows_pct": 10.8,
+   "abs_error_sum": 682.5,
+   "retries": 0.0,
+   "retries_per_tx": 0.0,
+   "lost_pct_min": 6.71,
+   "lost_pct_max": 7.44
+  },
+  {
+   "method": "1文の UPDATE で足し引きする",
+   "lost": 0.0,
+   "lost_pct": 0.0,
+   "overlapped_pct": 7.108,
+   "wrong_rows": 0.0,
+   "wrong_rows_pct": 0.0,
+   "abs_error_sum": 0.0,
+   "retries": 0.0,
+   "retries_per_tx": 0.0,
+   "lost_pct_min": 0.0,
+   "lost_pct_max": 0.0
+  },
+  {
+   "method": "版番号を確かめてから書く",
+   "lost": 0.0,
+   "lost_pct": 0.0,
+   "overlapped_pct": 9.487,
+   "wrong_rows": 0.0,
+   "wrong_rows_pct": 0.0,
+   "abs_error_sum": 0.0,
+   "retries": 1897.3,
+   "retries_per_tx": 0.095,
+   "lost_pct_min": 0.0,
+   "lost_pct_max": 0.0
+  }
+ ],
+ "by_concurrency": [
+  {
+   "in_flight": 0.1,
+   "rate_per_sec": 2,
+   "lost_pct": 0.374,
+   "wrong_rows_pct": 2.38,
+   "abs_error_sum": 115.05,
+   "retries_per_tx": 0.004
+  },
+  {
+   "in_flight": 0.5,
+   "rate_per_sec": 10,
+   "lost_pct": 1.712,
+   "wrong_rows_pct": 5.01,
+   "abs_error_sum": 279.3,
+   "retries_per_tx": 0.018
+  },
+  {
+   "in_flight": 1.0,
+   "rate_per_sec": 20,
+   "lost_pct": 3.254,
+   "wrong_rows_pct": 7.0,
+   "abs_error_sum": 435.95,
+   "retries_per_tx": 0.037
+  },
+  {
+   "in_flight": 2.5,
+   "rate_per_sec": 50,
+   "lost_pct": 7.142,
+   "wrong_rows_pct": 10.8,
+   "abs_error_sum": 682.5,
+   "retries_per_tx": 0.095
+  },
+  {
+   "in_flight": 5.0,
+   "rate_per_sec": 100,
+   "lost_pct": 11.966,
+   "wrong_rows_pct": 15.16,
+   "abs_error_sum": 949.5,
+   "retries_per_tx": 0.199
+  },
+  {
+   "in_flight": 10.0,
+   "rate_per_sec": 200,
+   "lost_pct": 18.579,
+   "wrong_rows_pct": 21.12,
+   "abs_error_sum": 1419.55,
+   "retries_per_tx": 0.427
+  },
+  {
+   "in_flight": 20.0,
+   "rate_per_sec": 400,
+   "lost_pct": 26.609,
+   "wrong_rows_pct": 28.46,
+   "abs_error_sum": 1952.3,
+   "retries_per_tx": 0.923
+  }
+ ],
+ "by_duration": [
+  {
+   "mean_dur_sec": 0.005,
+   "in_flight": 0.25,
+   "lost_pct": 0.897,
+   "wrong_rows_pct": 3.59,
+   "retries_per_tx": 0.009
+  },
+  {
+   "mean_dur_sec": 0.02,
+   "in_flight": 1.0,
+   "lost_pct": 3.254,
+   "wrong_rows_pct": 7.0,
+   "retries_per_tx": 0.037
+  },
+  {
+   "mean_dur_sec": 0.05,
+   "in_flight": 2.5,
+   "lost_pct": 7.142,
+   "wrong_rows_pct": 10.8,
+   "retries_per_tx": 0.095
+  },
+  {
+   "mean_dur_sec": 0.2,
+   "in_flight": 10.0,
+   "lost_pct": 18.579,
+   "wrong_rows_pct": 21.12,
+   "retries_per_tx": 0.427
+  },
+  {
+   "mean_dur_sec": 1.0,
+   "in_flight": 50.0,
+   "lost_pct": 38.567,
+   "wrong_rows_pct": 41.29,
+   "retries_per_tx": 2.45
+  }
+ ],
+ "by_rows_and_skew": [
+  {
+   "rows": 50,
+   "spread": "どの行も同じ",
+   "lost_pct": 4.757,
+   "wrong_rows_pct": 98.4
+  },
+  {
+   "rows": 50,
+   "spread": "一部の行に集まる",
+   "lost_pct": 14.619,
+   "wrong_rows_pct": 88.3
+  },
+  {
+   "rows": 500,
+   "spread": "どの行も同じ",
+   "lost_pct": 0.5,
+   "wrong_rows_pct": 17.91
+  },
+  {
+   "rows": 500,
+   "spread": "一部の行に集まる",
+   "lost_pct": 7.142,
+   "wrong_rows_pct": 10.8
+  },
+  {
+   "rows": 5000,
+   "spread": "どの行も同じ",
+   "lost_pct": 0.056,
+   "wrong_rows_pct": 0.225
+  },
+  {
+   "rows": 5000,
+   "spread": "一部の行に集まる",
+   "lost_pct": 4.225,
+   "wrong_rows_pct": 0.855
+  },
+  {
+   "rows": 50000,
+   "spread": "どの行も同じ",
+   "lost_pct": 0.007,
+   "wrong_rows_pct": 0.0
+  },
+  {
+   "rows": 50000,
+   "spread": "一部の行に集まる",
+   "lost_pct": 2.798,
+   "wrong_rows_pct": 0.095
+  }
+ ],
+ "sqlite_demo": [
+  {
+   "item_id": 1,
+   "method": "読んでから書く",
+   "expected_qty": 92,
+   "actual_qty": 95,
+   "note": "A の −3 が消えた"
+  },
+  {
+   "item_id": 2,
+   "method": "1文の UPDATE で足し引きする",
+   "expected_qty": 92,
+   "actual_qty": 92,
+   "note": ""
+  },
+  {
+   "item_id": 3,
+   "method": "版番号を確かめてから書く",
+   "expected_qty": 92,
+   "actual_qty": 92,
+   "note": "B の1回目は 0 行（版が変わっていた）。読み直して 1 行"
+  }
+ ],
+ "sqlite_version": "3.45.1"
+}

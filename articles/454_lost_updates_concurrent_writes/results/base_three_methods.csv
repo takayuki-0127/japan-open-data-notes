@@ -1,0 +1,4 @@
+method,lost,lost_pct,overlapped_pct,wrong_rows,wrong_rows_pct,abs_error_sum,retries,retries_per_tx,lost_pct_min,lost_pct_max
+読んでから書く,1428.75,7.142,7.108,54.0,10.8,682.5,0.0,0.0,6.71,7.44
+1文の UPDATE で足し引きする,0.0,0.0,7.108,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+版番号を確かめてから書く,0.0,0.0,9.487,0.0,0.0,0.0,1897.3,0.095,0.0,0.0
