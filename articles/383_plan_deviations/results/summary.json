@@ -1,0 +1,57 @@
+{
+ "articles": 40,
+ "deviation_items": 236,
+ "items_median": 6.0,
+ "items_min": 3,
+ "items_max": 9,
+ "planned_checks": 195,
+ "planned_checks_median": 5.0,
+ "readme_robust_items_median": 9.0,
+ "not_as_planned": 47,
+ "not_as_planned_share_of_items": 0.1992,
+ "articles_with_not_as_planned": 26,
+ "reason": {
+  "データ": 25,
+  "意味": 15,
+  "計算": 4,
+  "理由なし": 3
+ },
+ "outcome": {
+  "代えた": 32,
+  "やめた": 10,
+  "一部だけ": 5
+ },
+ "target": {
+  "頑健性": 16,
+  "データ": 11,
+  "比べ方": 7,
+  "期間・単位": 7,
+  "手法": 3,
+  "指標": 2,
+  "判定の基準": 1
+ },
+ "robustness_not_as_planned": 16,
+ "robustness_share_of_planned": 0.0821,
+ "robustness_outcome": {
+  "代えた": 11,
+  "やめた": 3,
+  "一部だけ": 2
+ },
+ "robustness_reason": {
+  "データ": 7,
+  "意味": 7,
+  "理由なし": 1,
+  "計算": 1
+ },
+ "robustness_articles": 14,
+ "words": {
+  "計画になかったものを足した": 77,
+  "計画と違う形に変えた": 62,
+  "計画が決めていなかった": 18,
+  "誤りを直した": 17,
+  "仮説の判定を書いた": 7,
+  "先に見ていたものを書いた": 14,
+  "どの言葉もない": 73
+ },
+ "prior_look_articles": 14
+}
