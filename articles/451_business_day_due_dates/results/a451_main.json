@@ -1,0 +1,122 @@
+{
+ "seed": 451,
+ "n": 60000,
+ "k": 5,
+ "period": [
+  "2019-01-01",
+  "2025-12-31"
+ ],
+ "weekday_offdays_truth_2019_2025": 131,
+ "missing_offdays": {
+  "truth": 0,
+  "weekend": 131,
+  "no_ny": 26,
+  "named": 18,
+  "oldrule": 10,
+  "stale": 14,
+  "copied": 6
+ },
+ "extra_offdays": {
+  "truth": 0,
+  "weekend": 0,
+  "no_ny": 0,
+  "named": 0,
+  "oldrule": 6,
+  "stale": 0,
+  "copied": 8
+ },
+ "summary": [
+  {
+   "key": "weekend",
+   "method": "土日だけ除く",
+   "scope": "全期間",
+   "n": 60000,
+   "diff": 15147,
+   "diff_pct": 25.24,
+   "early": 15147,
+   "late": 0,
+   "gap1": 8187,
+   "gap2": 759,
+   "gap3": 3109,
+   "gap4plus": 3092,
+   "max_gap": 10
+  },
+  {
+   "key": "no_ny",
+   "method": "土日と祝日（年末年始を入れない）",
+   "scope": "全期間",
+   "n": 60000,
+   "diff": 1909,
+   "diff_pct": 3.18,
+   "early": 1909,
+   "late": 0,
+   "gap1": 248,
+   "gap2": 304,
+   "gap3": 224,
+   "gap4plus": 1133,
+   "max_gap": 7
+  },
+  {
+   "key": "named",
+   "method": "振替休日・国民の休日を入れ忘れる",
+   "scope": "全期間",
+   "n": 60000,
+   "diff": 2936,
+   "diff_pct": 4.89,
+   "early": 2936,
+   "late": 0,
+   "gap1": 1937,
+   "gap2": 0,
+   "gap3": 751,
+   "gap4plus": 248,
+   "max_gap": 7
+  },
+  {
+   "key": "oldrule",
+   "method": "法律が変わる前の一覧のまま",
+   "scope": "2019〜2021年の受付",
+   "n": 25592,
+   "diff": 1457,
+   "diff_pct": 5.69,
+   "early": 892,
+   "late": 565,
+   "gap1": 855,
+   "gap2": 176,
+   "gap3": 227,
+   "gap4plus": 199,
+   "max_gap": 7
+  },
+  {
+   "key": "stale",
+   "method": "一覧を1年更新し忘れる（2025年分なし）",
+   "scope": "2025年の受付",
+   "n": 8757,
+   "diff": 2146,
+   "diff_pct": 24.51,
+   "early": 2146,
+   "late": 0,
+   "gap1": 1430,
+   "gap2": 64,
+   "gap3": 529,
+   "gap4plus": 123,
+   "max_gap": 5
+  },
+  {
+   "key": "copied",
+   "method": "前の年の月日を写す（2025年分）",
+   "scope": "2025年の受付",
+   "n": 8757,
+   "diff": 1690,
+   "diff_pct": 19.3,
+   "early": 652,
+   "late": 1038,
+   "gap1": 1149,
+   "gap2": 43,
+   "gap3": 498,
+   "gap4plus": 0,
+   "max_gap": 3
+  }
+ ],
+ "weekend_receipts_pct": 9.1,
+ "sql_matches": true
+}
