@@ -1,0 +1,4 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+# SQLite は Python 標準の sqlite3 を使う
