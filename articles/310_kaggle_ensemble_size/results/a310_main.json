@@ -1,0 +1,105 @@
+{
+ "cv_steps": [
+  {
+   "cv": 0.96094,
+   "gain": null,
+   "n": 1
+  },
+  {
+   "cv": 0.96103,
+   "gain": 9e-05,
+   "n": 2
+  },
+  {
+   "cv": 0.96104,
+   "gain": 1e-05,
+   "n": 3
+  },
+  {
+   "cv": 0.96107,
+   "gain": 3e-05,
+   "n": 4
+  }
+ ],
+ "cv_total_gain": 0.00013,
+ "early_three_models": {
+  "cv": 0.00012,
+  "private": -8e-05,
+  "public": -8e-05
+ },
+ "nested_minus_plain": -1e-05,
+ "nn_added": {
+  "cv_weight015": "+0.00003〜0.00004（v13 の記録）",
+  "private": -1e-05,
+  "public": -3e-05
+ },
+ "private_single_to_best": 6e-05,
+ "public_single_to_best": 0.00016,
+ "rank_corr": {
+  "refit どうし（v12–v14）": 0.99808,
+  "refit どうし（v12–v16）": 0.99938,
+  "refit どうし（v14–v16）": 0.99835,
+  "refit 平均と NN": 0.9765,
+  "refit 平均と XGBoost": 0.9928,
+  "v18 と他の refit（上限）": 0.9979,
+  "v18 と他の refit（下限）": 0.9968
+ },
+ "refit_steps": [
+  {
+   "private": 0.96163,
+   "public": 0.96066,
+   "version": "v25s",
+   "what": "CatBoost だけ（4回分の平均）"
+  },
+  {
+   "private": 0.96165,
+   "public": 0.96075,
+   "version": "v12",
+   "what": "LightGBM＋CatBoost・1回分"
+  },
+  {
+   "private": 0.96166,
+   "public": 0.96077,
+   "version": "v17",
+   "what": "同じ2種類・3回分の平均"
+  },
+  {
+   "private": 0.96169,
+   "public": 0.96078,
+   "version": "v17b",
+   "what": "同じ2種類・4回分の平均"
+  },
+  {
+   "private": 0.96168,
+   "public": 0.96082,
+   "version": "v22",
+   "what": "＋XGBoost 0.15"
+  },
+  {
+   "private": 0.96168,
+   "public": 0.96075,
+   "version": "v20",
+   "what": "＋NN 0.15"
+  },
+  {
+   "private": 0.96169,
+   "public": 0.96078,
+   "version": "v25",
+   "what": "4種類を CV の比率で"
+  }
+ ],
+ "share_second_model": 0.692,
+ "single_cv": {
+  "cat": 0.96094,
+  "lgb": 0.96068,
+  "nn": 0.96022,
+  "xgb": 0.96064
+ },
+ "stack_lgb_minus_blend": -4e-05,
+ "stack_lr_minus_blend": 1e-05,
+ "xgb_added": {
+  "cv": 1e-05,
+  "private": -1e-05,
+  "public": 4e-05
+ }
+}
