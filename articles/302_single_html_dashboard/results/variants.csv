@@ -1,0 +1,10 @@
+file,mode,bytes,zip_bytes,runs,drawn,median_ms,min_ms,max_ms,message,kpi_2019ratio
+v1_cdn.html,file・ネットあり,10951,5579,15,15,142.5,135.6,368.8,,110.9%
+v1_cdn.html,file・ネットなし,10951,5579,15,0,,,,読み込めませんでした：Uncaught ReferenceError: Chart is not defined,110.9%
+v2_inline.html,file・ネットあり,216278,75624,15,15,67.0,55.5,87.4,,110.9%
+v2_inline.html,file・ネットなし,216278,75624,15,15,61.6,51.4,77.7,,110.9%
+v3_svg.html,file・ネットあり,11276,5723,15,15,9.3,7.7,12.0,,110.9%
+v3_svg.html,file・ネットなし,11276,5723,15,15,12.2,8.8,17.5,,110.9%
+v4_fetch.html,file・ネットあり,216428,71449,15,0,,,,データを読み込めませんでした：Failed to fetch,-
+v4_fetch.html,file・ネットなし,216428,71449,15,0,,,,データを読み込めませんでした：Failed to fetch,-
+v4_fetch.html,手元のサーバー,216428,71449,15,15,78.9,63.2,91.2,,110.9%
