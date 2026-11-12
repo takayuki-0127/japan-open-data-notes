@@ -1,0 +1,199 @@
+{
+ "n_store": 100,
+ "n_pick": 20,
+ "reps": 2000,
+ "base": {
+  "before": 89.55,
+  "after": 100.35,
+  "change_pct": 12.07,
+  "change_p10": 9.98,
+  "change_p90": 14.37,
+  "sig_before_after": 100.0,
+  "did_points": 13.46,
+  "sig_did": 100.0
+ },
+ "randomized": {
+  "diff_points": -0.09,
+  "sig_two_sided": 5.55,
+  "treated_change_pct": 8.21,
+  "control_change_pct": 8.3
+ },
+ "true_effect_3pct_looks_like": 15.44,
+ "by_selection_months": [
+  {
+   "months_used": 1,
+   "before": 89.55,
+   "after": 100.35,
+   "change_pct": 12.07,
+   "change_p10": 9.98,
+   "change_p90": 14.37,
+   "sig_before_after": 100.0,
+   "did_points": 13.46,
+   "sig_did": 100.0
+  },
+  {
+   "months_used": 2,
+   "before": 92.58,
+   "after": 100.34,
+   "change_pct": 8.4,
+   "change_p10": 6.56,
+   "change_p90": 10.22,
+   "sig_before_after": 100.0,
+   "did_points": 9.65,
+   "sig_did": 100.0
+  },
+  {
+   "months_used": 3,
+   "before": 94.0,
+   "after": 100.36,
+   "change_pct": 6.77,
+   "change_p10": 5.07,
+   "change_p90": 8.49,
+   "sig_before_after": 100.0,
+   "did_points": 7.91,
+   "sig_did": 100.0
+  },
+  {
+   "months_used": 6,
+   "before": 95.82,
+   "after": 100.38,
+   "change_pct": 4.75,
+   "change_p10": 3.3,
+   "change_p90": 6.32,
+   "sig_before_after": 97.35,
+   "did_points": 5.66,
+   "sig_did": 99.45
+  },
+  {
+   "months_used": 12,
+   "before": 97.13,
+   "after": 100.37,
+   "change_pct": 3.33,
+   "change_p10": 1.9,
+   "change_p90": 4.69,
+   "sig_before_after": 82.35,
+   "did_points": 4.01,
+   "sig_did": 92.25
+  }
+ ],
+ "by_number_picked": [
+  {
+   "n_pick": 5,
+   "before": 85.12,
+   "change_pct": 17.83
+  },
+  {
+   "n_pick": 10,
+   "before": 87.11,
+   "change_pct": 15.22
+  },
+  {
+   "n_pick": 20,
+   "before": 89.55,
+   "change_pct": 12.07
+  },
+  {
+   "n_pick": 50,
+   "before": 93.96,
+   "change_pct": 6.81
+  }
+ ],
+ "by_persistence": [
+  {
+   "rho": 0.0,
+   "months_used": 1,
+   "before": 85.63,
+   "after": 100.63,
+   "change_pct": 17.56,
+   "change_p10": 14.29,
+   "change_p90": 21.02,
+   "sig_before_after": 100.0,
+   "did_points": 18.79,
+   "sig_did": 100.0
+  },
+  {
+   "rho": 0.0,
+   "months_used": 3,
+   "before": 91.77,
+   "after": 100.67,
+   "change_pct": 9.72,
+   "change_p10": 7.32,
+   "change_p90": 12.21,
+   "sig_before_after": 99.9,
+   "did_points": 11.15,
+   "sig_did": 100.0
+  },
+  {
+   "rho": 0.5,
+   "months_used": 1,
+   "before": 85.65,
+   "after": 98.32,
+   "change_pct": 14.82,
+   "change_p10": 11.53,
+   "change_p90": 18.07,
+   "sig_before_after": 100.0,
+   "did_points": 15.83,
+   "sig_did": 100.0
+  },
+  {
+   "rho": 0.5,
+   "months_used": 3,
+   "before": 90.15,
+   "after": 98.71,
+   "change_pct": 9.51,
+   "change_p10": 6.82,
+   "change_p90": 12.16,
+   "sig_before_after": 99.55,
+   "did_points": 10.7,
+   "sig_did": 99.95
+  },
+  {
+   "rho": 0.8,
+   "months_used": 1,
+   "before": 85.66,
+   "after": 95.55,
+   "change_pct": 11.57,
+   "change_p10": 8.53,
+   "change_p90": 14.67,
+   "sig_before_after": 99.85,
+   "did_points": 12.42,
+   "sig_did": 100.0
+  },
+  {
+   "rho": 0.8,
+   "months_used": 3,
+   "before": 89.05,
+   "after": 95.29,
+   "change_pct": 7.01,
+   "change_p10": 4.47,
+   "change_p90": 9.52,
+   "sig_before_after": 94.3,
+   "did_points": 7.83,
+   "sig_did": 97.6
+  },
+  {
+   "rho": 0.95,
+   "months_used": 1,
+   "before": 85.62,
+   "after": 93.7,
+   "change_pct": 9.46,
+   "change_p10": 6.81,
+   "change_p90": 12.2,
+   "sig_before_after": 99.25,
+   "did_points": 10.09,
+   "sig_did": 99.9
+  },
+  {
+   "rho": 0.95,
+   "months_used": 3,
+   "before": 88.47,
+   "after": 92.47,
+   "change_pct": 4.53,
+   "change_p10": 2.37,
+   "change_p90": 6.76,
+   "sig_before_after": 76.35,
+   "did_points": 4.99,
+   "sig_did": 86.3
+  }
+ ]
+}
