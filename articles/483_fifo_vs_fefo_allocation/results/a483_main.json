@@ -1,0 +1,422 @@
+{
+ "items": 30,
+ "reps": 3,
+ "days_counted": 730,
+ "by_var": [
+  {
+   "var": 0,
+   "rule": "FEFO",
+   "waste": 91898,
+   "short": 3523,
+   "short_days": 200,
+   "sold": 1969437,
+   "demand": 1972960,
+   "waste_per_1000": 46.579,
+   "short_per_1000": 1.786,
+   "waste_yen_per_item_year": 102108.889,
+   "lost_yen_per_item_year": 5871.667
+  },
+  {
+   "var": 0,
+   "rule": "FIFO",
+   "waste": 91898,
+   "short": 3523,
+   "short_days": 200,
+   "sold": 1969437,
+   "demand": 1972960,
+   "waste_per_1000": 46.579,
+   "short_per_1000": 1.786,
+   "waste_yen_per_item_year": 102108.889,
+   "lost_yen_per_item_year": 5871.667
+  },
+  {
+   "var": 0,
+   "rule": "LIFO",
+   "waste": 649334,
+   "short": 46195,
+   "short_days": 2393,
+   "sold": 1926765,
+   "demand": 1972960,
+   "waste_per_1000": 329.117,
+   "short_per_1000": 23.414,
+   "waste_yen_per_item_year": 721482.222,
+   "lost_yen_per_item_year": 76991.667
+  },
+  {
+   "var": 1,
+   "rule": "FEFO",
+   "waste": 128458,
+   "short": 6039,
+   "short_days": 351,
+   "sold": 1966921,
+   "demand": 1972960,
+   "waste_per_1000": 65.109,
+   "short_per_1000": 3.061,
+   "waste_yen_per_item_year": 142731.111,
+   "lost_yen_per_item_year": 10065.0
+  },
+  {
+   "var": 1,
+   "rule": "FIFO",
+   "waste": 128458,
+   "short": 6039,
+   "short_days": 351,
+   "sold": 1966921,
+   "demand": 1972960,
+   "waste_per_1000": 65.109,
+   "short_per_1000": 3.061,
+   "waste_yen_per_item_year": 142731.111,
+   "lost_yen_per_item_year": 10065.0
+  },
+  {
+   "var": 1,
+   "rule": "LIFO",
+   "waste": 589134,
+   "short": 65733,
+   "short_days": 3200,
+   "sold": 1907227,
+   "demand": 1972960,
+   "waste_per_1000": 298.604,
+   "short_per_1000": 33.317,
+   "waste_yen_per_item_year": 654593.333,
+   "lost_yen_per_item_year": 109555.0
+  },
+  {
+   "var": 2,
+   "rule": "FEFO",
+   "waste": 181805,
+   "short": 12302,
+   "short_days": 702,
+   "sold": 1960658,
+   "demand": 1972960,
+   "waste_per_1000": 92.148,
+   "short_per_1000": 6.235,
+   "waste_yen_per_item_year": 202005.556,
+   "lost_yen_per_item_year": 20503.333
+  },
+  {
+   "var": 2,
+   "rule": "FIFO",
+   "waste": 193351,
+   "short": 13585,
+   "short_days": 775,
+   "sold": 1959375,
+   "demand": 1972960,
+   "waste_per_1000": 98.0,
+   "short_per_1000": 6.886,
+   "waste_yen_per_item_year": 214834.444,
+   "lost_yen_per_item_year": 22641.667
+  },
+  {
+   "var": 2,
+   "rule": "LIFO",
+   "waste": 594096,
+   "short": 83163,
+   "short_days": 3754,
+   "sold": 1889797,
+   "demand": 1972960,
+   "waste_per_1000": 301.119,
+   "short_per_1000": 42.151,
+   "waste_yen_per_item_year": 660106.667,
+   "lost_yen_per_item_year": 138605.0
+  },
+  {
+   "var": 3,
+   "rule": "FEFO",
+   "waste": 238273,
+   "short": 17249,
+   "short_days": 982,
+   "sold": 1955711,
+   "demand": 1972960,
+   "waste_per_1000": 120.769,
+   "short_per_1000": 8.743,
+   "waste_yen_per_item_year": 264747.778,
+   "lost_yen_per_item_year": 28748.333
+  },
+  {
+   "var": 3,
+   "rule": "FIFO",
+   "waste": 290423,
+   "short": 21850,
+   "short_days": 1205,
+   "sold": 1951110,
+   "demand": 1972960,
+   "waste_per_1000": 147.202,
+   "short_per_1000": 11.075,
+   "waste_yen_per_item_year": 322692.222,
+   "lost_yen_per_item_year": 36416.667
+  },
+  {
+   "var": 3,
+   "rule": "LIFO",
+   "waste": 628188,
+   "short": 91009,
+   "short_days": 4122,
+   "sold": 1881951,
+   "demand": 1972960,
+   "waste_per_1000": 318.399,
+   "short_per_1000": 46.128,
+   "waste_yen_per_item_year": 697986.667,
+   "lost_yen_per_item_year": 151681.667
+  },
+  {
+   "var": 4,
+   "rule": "FEFO",
+   "waste": 286248,
+   "short": 27710,
+   "short_days": 1363,
+   "sold": 1945250,
+   "demand": 1972960,
+   "waste_per_1000": 145.086,
+   "short_per_1000": 14.045,
+   "waste_yen_per_item_year": 318053.333,
+   "lost_yen_per_item_year": 46183.333
+  },
+  {
+   "var": 4,
+   "rule": "FIFO",
+   "waste": 388789,
+   "short": 43758,
+   "short_days": 2018,
+   "sold": 1929202,
+   "demand": 1972960,
+   "waste_per_1000": 197.059,
+   "short_per_1000": 22.179,
+   "waste_yen_per_item_year": 431987.778,
+   "lost_yen_per_item_year": 72930.0
+  },
+  {
+   "var": 4,
+   "rule": "LIFO",
+   "waste": 629184,
+   "short": 98021,
+   "short_days": 4344,
+   "sold": 1874939,
+   "demand": 1972960,
+   "waste_per_1000": 318.904,
+   "short_per_1000": 49.682,
+   "waste_yen_per_item_year": 699093.333,
+   "lost_yen_per_item_year": 163368.333
+  },
+  {
+   "var": 6,
+   "rule": "FEFO",
+   "waste": 437615,
+   "short": 81676,
+   "short_days": 3218,
+   "sold": 1891284,
+   "demand": 1972960,
+   "waste_per_1000": 221.806,
+   "short_per_1000": 41.398,
+   "waste_yen_per_item_year": 486238.889,
+   "lost_yen_per_item_year": 136126.667
+  },
+  {
+   "var": 6,
+   "rule": "FIFO",
+   "waste": 612305,
+   "short": 143838,
+   "short_days": 5296,
+   "sold": 1829122,
+   "demand": 1972960,
+   "waste_per_1000": 310.348,
+   "short_per_1000": 72.905,
+   "waste_yen_per_item_year": 680338.889,
+   "lost_yen_per_item_year": 239730.0
+  },
+  {
+   "var": 6,
+   "rule": "LIFO",
+   "waste": 744074,
+   "short": 163900,
+   "short_days": 6323,
+   "sold": 1809060,
+   "demand": 1972960,
+   "waste_per_1000": 377.136,
+   "short_per_1000": 83.073,
+   "waste_yen_per_item_year": 826748.889,
+   "lost_yen_per_item_year": 273166.667
+  }
+ ],
+ "var3": {
+  "FIFO": {
+   "waste": 290423,
+   "short": 21850,
+   "short_days": 1205,
+   "waste_per_1000": 147.20166653150596,
+   "short_per_1000": 11.074730354391372
+  },
+  "FEFO": {
+   "waste": 238273,
+   "short": 17249,
+   "short_days": 982,
+   "waste_per_1000": 120.76930094882815,
+   "short_per_1000": 8.742701321871705
+  },
+  "LIFO": {
+   "waste": 628188,
+   "short": 91009,
+   "short_days": 4122,
+   "waste_per_1000": 318.3987511150758,
+   "short_per_1000": 46.128152623469305
+  }
+ },
+ "var0_same": true,
+ "by_speed_var3": [
+  {
+   "speed": "遅い（〜15個/日）",
+   "rule": "FEFO",
+   "waste": 44569,
+   "short": 2982,
+   "demand": 243106,
+   "waste_per_1000": 183.332,
+   "short_per_1000": 12.266
+  },
+  {
+   "speed": "遅い（〜15個/日）",
+   "rule": "FIFO",
+   "waste": 51052,
+   "short": 3729,
+   "demand": 243106,
+   "waste_per_1000": 209.999,
+   "short_per_1000": 15.339
+  },
+  {
+   "speed": "遅い（〜15個/日）",
+   "rule": "LIFO",
+   "waste": 95228,
+   "short": 12571,
+   "demand": 243106,
+   "waste_per_1000": 391.714,
+   "short_per_1000": 51.71
+  },
+  {
+   "speed": "中（15〜40）",
+   "rule": "FEFO",
+   "waste": 70246,
+   "short": 4530,
+   "demand": 564067,
+   "waste_per_1000": 124.535,
+   "short_per_1000": 8.031
+  },
+  {
+   "speed": "中（15〜40）",
+   "rule": "FIFO",
+   "waste": 85035,
+   "short": 6097,
+   "demand": 564067,
+   "waste_per_1000": 150.753,
+   "short_per_1000": 10.809
+  },
+  {
+   "speed": "中（15〜40）",
+   "rule": "LIFO",
+   "waste": 184921,
+   "short": 27197,
+   "demand": 564067,
+   "waste_per_1000": 327.835,
+   "short_per_1000": 48.216
+  },
+  {
+   "speed": "速い（40〜）",
+   "rule": "FEFO",
+   "waste": 123458,
+   "short": 9737,
+   "demand": 1165787,
+   "waste_per_1000": 105.901,
+   "short_per_1000": 8.352
+  },
+  {
+   "speed": "速い（40〜）",
+   "rule": "FIFO",
+   "waste": 154336,
+   "short": 12024,
+   "demand": 1165787,
+   "waste_per_1000": 132.388,
+   "short_per_1000": 10.314
+  },
+  {
+   "speed": "速い（40〜）",
+   "rule": "LIFO",
+   "waste": 348039,
+   "short": 51241,
+   "demand": 1165787,
+   "waste_per_1000": 298.544,
+   "short_per_1000": 43.954
+  }
+ ],
+ "tradeoff": [
+  {
+   "cover": 0.8,
+   "rule": "FIFO",
+   "waste_per_1000": 85.804,
+   "short_per_1000": 18.794
+  },
+  {
+   "cover": 0.8,
+   "rule": "FEFO",
+   "waste_per_1000": 67.256,
+   "short_per_1000": 17.063
+  },
+  {
+   "cover": 1.2,
+   "rule": "FIFO",
+   "waste_per_1000": 113.772,
+   "short_per_1000": 14.135
+  },
+  {
+   "cover": 1.2,
+   "rule": "FEFO",
+   "waste_per_1000": 90.774,
+   "short_per_1000": 11.973
+  },
+  {
+   "cover": 1.6,
+   "rule": "FIFO",
+   "waste_per_1000": 145.42,
+   "short_per_1000": 11.235
+  },
+  {
+   "cover": 1.6,
+   "rule": "FEFO",
+   "waste_per_1000": 118.765,
+   "short_per_1000": 9.448
+  },
+  {
+   "cover": 2.0,
+   "rule": "FIFO",
+   "waste_per_1000": 180.018,
+   "short_per_1000": 9.59
+  },
+  {
+   "cover": 2.0,
+   "rule": "FEFO",
+   "waste_per_1000": 150.633,
+   "short_per_1000": 7.591
+  },
+  {
+   "cover": 2.5,
+   "rule": "FIFO",
+   "waste_per_1000": 225.689,
+   "short_per_1000": 7.811
+  },
+  {
+   "cover": 2.5,
+   "rule": "FEFO",
+   "waste_per_1000": 194.791,
+   "short_per_1000": 6.402
+  },
+  {
+   "cover": 3.0,
+   "rule": "FIFO",
+   "waste_per_1000": 273.724,
+   "short_per_1000": 6.417
+  },
+  {
+   "cover": 3.0,
+   "rule": "FEFO",
+   "waste_per_1000": 242.3,
+   "short_per_1000": 5.635
+  }
+ ]
+}
