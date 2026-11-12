@@ -1,0 +1,19 @@
+bug,kind,T1 関数ごと,T2 出力の形,T3 合計の照合,T4 通し（手で作った24行）,T5 通し（本番に似せた500行）,T4'（順は問わない）
+店コードをそろえない,不具合,True,False,False,True,True,True
+店コードの空白だけ取る,不具合,True,False,False,True,True,True
+重複を取らない,不具合,True,False,True,True,False,True
+重複で古い行を残す,不具合,True,False,True,True,False,True
+取消を除かない,不具合,True,False,True,True,True,True
+取消を大文字だけで判定,不具合,False,False,True,True,True,True
+金額の空を0にする,不具合,True,False,True,True,True,True
+税を全部の行にかける,不具合,True,False,True,True,True,True
+税込みの行にも税をかける（逆）,不具合,True,False,True,True,True,True
+行ごとに四捨五入,不具合,False,False,True,True,True,True
+月を UTC で決める,不具合,False,False,False,True,True,True
+月末の日を前の月に入れない（23時以降を翌月へ）,不具合,False,False,False,True,False,True
+店マスタの重複を取らない,不具合,False,False,True,True,True,True
+マスタにない店を落とす,不具合,False,False,True,True,True,True
+地域が空のまま集計,不具合,False,False,True,True,True,True
+顧客を延べで数える,不具合,False,False,False,True,True,True
+（無害）列の順を変える,無害,False,False,False,True,True,False
+（無害）行の順を変える,無害,False,False,False,True,True,False

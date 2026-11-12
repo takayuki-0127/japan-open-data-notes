@@ -1,0 +1,75 @@
+{
+ "T1 関数ごと": {
+  "caught": 8,
+  "of": 16,
+  "false_alarm_on_harmless": 0
+ },
+ "T2 出力の形": {
+  "caught": 0,
+  "of": 16,
+  "false_alarm_on_harmless": 0
+ },
+ "T3 合計の照合": {
+  "caught": 11,
+  "of": 16,
+  "false_alarm_on_harmless": 0
+ },
+ "T4 通し（手で作った24行）": {
+  "caught": 16,
+  "of": 16,
+  "false_alarm_on_harmless": 2
+ },
+ "T5 通し（本番に似せた500行）": {
+  "caught": 13,
+  "of": 16,
+  "false_alarm_on_harmless": 2
+ },
+ "T4'（順は問わない）": {
+  "caught": 16,
+  "of": 16,
+  "false_alarm_on_harmless": 0
+ },
+ "T2+T3": {
+  "caught": 11,
+  "of": 16
+ },
+ "T1+T2+T3": {
+  "caught": 13,
+  "of": 16
+ },
+ "T4_only": [
+  "月を UTC で決める",
+  "月末の日を前の月に入れない（23時以降を翌月へ）",
+  "顧客を延べで数える"
+ ],
+ "missed_by_T4": [],
+ "T5_by_rows": {
+  "50": {
+   "mean": 6.07,
+   "min": 4,
+   "max": 8
+  },
+  "200": {
+   "mean": 9.87,
+   "min": 6,
+   "max": 13
+  },
+  "500": {
+   "mean": 12.3,
+   "min": 9,
+   "max": 15
+  },
+  "2000": {
+   "mean": 15.47,
+   "min": 13,
+   "max": 16
+  },
+  "10000": {
+   "mean": 16.0,
+   "min": 16,
+   "max": 16
+  }
+ },
+ "n_orders": 20200,
+ "golden_rows": 24
+}
