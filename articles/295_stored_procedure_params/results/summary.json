@@ -1,0 +1,30 @@
+{
+ "文字列をつなぐ": {
+  "requests": 1000,
+  "bad_inputs": 153,
+  "silent_wrong": 83,
+  "stopped": 70,
+  "valid_correct": 847,
+  "valid": 847
+ },
+ "プロシージャ": {
+  "requests": 1000,
+  "bad_inputs": 153,
+  "silent_wrong": 0,
+  "stopped": 153,
+  "valid_correct": 847,
+  "valid": 847
+ },
+ "injection_sales_ratio_median": 0.04996181759761285,
+ "example": {
+  "right": [
+   135,
+   461475
+  ],
+  "injected": [
+   11350,
+   40776820
+  ],
+  "ratio": 88.4
+ }
+}
