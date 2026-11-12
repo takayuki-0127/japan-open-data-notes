@@ -1,0 +1,6 @@
+method,same_as_sql,fetched,dup_rows,missed_stable,stale_rows,new_missed,source_at_end,stable,count_diff
+何行目から（古い順）,True,4997,0,44,44,0,4997,4906,0
+何行目から（新しい順）,True,4997,57,11,45,91,4997,4906,0
+キーの続きから（古い順）,True,5047,0,0,46,0,5001,4905,46
+キーの続きから（新しい順）,True,4951,0,0,45,91,4997,4906,-46
+開始時点で固定（古い順）,True,4951,0,0,45,91,4997,4906,-46
