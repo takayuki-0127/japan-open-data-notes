@@ -1,0 +1,99 @@
+{
+ "rows": 10000,
+ "rows_before_1900_03_01": 200,
+ "rows_1900_01_01": 120,
+ "methods_1900": [
+  {
+   "method": "①1899/12/30 起点（pandas の origin='1899-12-30' など）",
+   "wrong_rows": 200,
+   "wrong_share": 0.02,
+   "wrong_main": 0,
+   "wrong_early": 200,
+   "shift_main": [
+    0
+   ],
+   "shift_early": [
+    -1
+   ]
+  },
+  {
+   "method": "②1899/12/31 起点（1 = 1900/1/1 をそのまま足す）",
+   "wrong_rows": 9800,
+   "wrong_share": 0.98,
+   "wrong_main": 9800,
+   "wrong_early": 0,
+   "shift_main": [
+    1
+   ],
+   "shift_early": [
+    0
+   ]
+  },
+  {
+   "method": "③1900/1/1 起点（s 日後と読む）",
+   "wrong_rows": 10000,
+   "wrong_share": 1.0,
+   "wrong_main": 9800,
+   "wrong_early": 200,
+   "shift_main": [
+    2
+   ],
+   "shift_early": [
+    1
+   ]
+  },
+  {
+   "method": "④UNIX 時刻に直す（(s−25569)×86400 秒）",
+   "wrong_rows": 200,
+   "wrong_share": 0.02,
+   "wrong_main": 0,
+   "wrong_early": 200,
+   "shift_main": [
+    0
+   ],
+   "shift_early": [
+    -1
+   ]
+  },
+  {
+   "method": "⑤openpyxl の from_excel（2/29 の扱いを含む）",
+   "wrong_rows": 0,
+   "wrong_share": 0.0,
+   "wrong_main": 0,
+   "wrong_early": 0,
+   "shift_main": [
+    0
+   ],
+   "shift_early": [
+    0
+   ]
+  }
+ ],
+ "serial_60": {
+  "openpyxl": "1900-02-28 00:00:00",
+  "origin_1899_12_30": "1900-02-28 00:00:00",
+  "origin_1899_12_31": "1900-03-01 00:00:00"
+ },
+ "mix_1904": {
+  "read_1904_as_1900_shift_days": [
+   -1462
+  ],
+  "read_1900_as_1904_shift_days": [
+   1462
+  ],
+  "share_wrong_1904_as_1900": 1.0,
+  "combined_rows_from_1904": 2038,
+  "combined_main_rows_from_1904": 1984,
+  "combined_wrong_rows": 2184,
+  "combined_wrong_main_rows": 1984
+ },
+ "time_fraction": {
+  "rows": 20000,
+  "rows_2359": 2000,
+  "floor_wrong": 0,
+  "round_day_wrong": 10963,
+  "round_minute_wrong": 959,
+  "round_day_wrong_share": 0.54815,
+  "share_after_noon": 0.54815
+ }
+}
