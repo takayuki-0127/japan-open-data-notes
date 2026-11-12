@@ -1,0 +1,13 @@
+id,dax,correct,naive,note,naive_b,sql_value,sql_matches,naive_wrong,naive_b_wrong,sql
+M01,SUM ( Sales[amount] ),7494660.0,7494660.0,何も変えない,7494660.0,7494660.0,True,False,False,"SELECT COALESCE(SUM(amount),0) FROM f WHERE year=2025 AND region='関東' AND category='日用品'"
+M02,"CALCULATE ( [売上], Product[category] = ""食品"" )",11961720.0,0.0,同じ列：行の「日用品」を「食品」に入れ替える,11961720.0,11961720.0,True,True,False,"SELECT COALESCE(SUM(amount),0) FROM f WHERE year=2025 AND region='関東' AND category='食品'"
+M03,"CALCULATE ( [売上], KEEPFILTERS ( Product[category] = ""食品"" ) )",0.0,0.0,KEEPFILTERS：重ねる（日用品かつ食品＝空）,11961720.0,0.0,True,False,True,"SELECT COALESCE(SUM(amount),0) FROM f WHERE year=2025 AND region='関東' AND category='日用品' AND category='食品'"
+M04,"CALCULATE ( [売上], Store[region] = ""関西"" )",4145340.0,0.0,同じ列：スライサーの「関東」を「関西」に入れ替える,4145340.0,4145340.0,True,True,False,"SELECT COALESCE(SUM(amount),0) FROM f WHERE year=2025 AND region='関西' AND category='日用品'"
+M05,"CALCULATE ( [売上], 'Date'[year] = 2024 )",7615220.0,0.0,同じ列：スライサーの2025年を2024年に入れ替える,7615220.0,7615220.0,True,True,False,"SELECT COALESCE(SUM(amount),0) FROM f WHERE year=2024 AND region='関東' AND category='日用品'"
+M06,"CALCULATE ( [売上], ALL ( Product[category] ) )",39674570.0,7494660.0,行の絞り込みを外す（全カテゴリ）,39674570.0,39674570.0,True,True,False,"SELECT COALESCE(SUM(amount),0) FROM f WHERE year=2025 AND region='関東'"
+M07,"DIVIDE ( [売上], CALCULATE ( [売上], ALL ( Product[category] ) ) )",0.1889,1.0,構成比の分母,0.1889,0.1889,True,True,False,"SELECT ROUND(SUM(CASE WHEN category='日用品' THEN amount END)*1.0/SUM(amount),4) FROM f WHERE year=2025 AND region='関東'"
+M08,"CALCULATE ( [売上], ALL ( Sales ) )",133504750.0,7494660.0,スライサーも含めて全部外す,133504750.0,133504750.0,True,True,False,SELECT SUM(amount) FROM f
+M09,"CALCULATE ( [売上], FILTER ( Sales, Sales[amount] > 20000 ) )",984020.0,984020.0,表の FILTER：いまの絞り込みの中で絞る,34990100.0,984020.0,True,False,True,"SELECT COALESCE(SUM(amount),0) FROM f WHERE year=2025 AND region='関東' AND category='日用品' AND amount>20000"
+M10,"CALCULATE ( [売上], Store[region] = ""関西"" )　※スライサーが店（S02）のとき",0.0,0.0,違う列：店の絞り込みは残るので、関東の店かつ関西＝空,4145340.0,0.0,True,False,True,"SELECT COALESCE(SUM(amount),0) FROM f WHERE year=2025 AND store='S02' AND region='関西' AND category='日用品'"
+M11,"AVERAGEX ( Store, [売上] )",1249110.0,1249110.0,メジャー参照：行ごとに絞られて店の平均になる,1249110.0,1249110.0,True,False,False,"SELECT CAST(ROUND(AVG(s)) AS BIGINT) FROM (SELECT store, SUM(amount) s FROM f WHERE year=2025 AND region='関東' AND category='日用品' GROUP BY store)"
+M12,"AVERAGEX ( Store, SUM ( Sales[amount] ) )",7494660.0,1249110.0,SUM を直接書く：行ごとに絞られず、全店の合計のまま,7494660.0,7494660.0,True,True,False,"SELECT COALESCE(SUM(amount),0) FROM f WHERE year=2025 AND region='関東' AND category='日用品'"
