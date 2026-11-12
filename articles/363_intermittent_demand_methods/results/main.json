@@ -1,0 +1,533 @@
+{
+ "n_sku": 400,
+ "eval_days": 365,
+ "lead_time": 5,
+ "accuracy": [
+  {
+   "p": 0.05,
+   "method": "移動平均（56日）",
+   "bias_pct": 1.33,
+   "mae_pct": 51.88,
+   "bias_after_sale_pct": 35.67,
+   "bias_other_days_pct": -0.48
+  },
+  {
+   "p": 0.05,
+   "method": "指数平滑",
+   "bias_pct": 1.08,
+   "mae_pct": 85.8,
+   "bias_after_sale_pct": 192.41,
+   "bias_other_days_pct": -9.05
+  },
+  {
+   "p": 0.05,
+   "method": "クロストン法",
+   "bias_pct": 6.44,
+   "mae_pct": 20.39,
+   "bias_after_sale_pct": 6.26,
+   "bias_other_days_pct": 6.44
+  },
+  {
+   "p": 0.05,
+   "method": "SBA（クロストン法の補正）",
+   "bias_pct": 1.11,
+   "mae_pct": 19.35,
+   "bias_after_sale_pct": 0.95,
+   "bias_other_days_pct": 1.12
+  },
+  {
+   "p": 0.05,
+   "method": "TSB（売れる確率を毎日見直す）",
+   "bias_pct": 0.7,
+   "mae_pct": 56.56,
+   "bias_after_sale_pct": 95.75,
+   "bias_other_days_pct": -4.33
+  },
+  {
+   "p": 0.1,
+   "method": "移動平均（56日）",
+   "bias_pct": 0.25,
+   "mae_pct": 36.24,
+   "bias_after_sale_pct": 16.6,
+   "bias_other_days_pct": -1.57
+  },
+  {
+   "p": 0.1,
+   "method": "指数平滑",
+   "bias_pct": 0.33,
+   "mae_pct": 61.1,
+   "bias_after_sale_pct": 91.21,
+   "bias_other_days_pct": -9.76
+  },
+  {
+   "p": 0.1,
+   "method": "クロストン法",
+   "bias_pct": 4.94,
+   "mae_pct": 20.49,
+   "bias_after_sale_pct": 5.1,
+   "bias_other_days_pct": 4.92
+  },
+  {
+   "p": 0.1,
+   "method": "SBA（クロストン法の補正）",
+   "bias_pct": -0.31,
+   "mae_pct": 19.6,
+   "bias_after_sale_pct": -0.16,
+   "bias_other_days_pct": -0.32
+  },
+  {
+   "p": 0.1,
+   "method": "TSB（売れる確率を毎日見直す）",
+   "bias_pct": 0.33,
+   "mae_pct": 39.87,
+   "bias_after_sale_pct": 45.98,
+   "bias_other_days_pct": -4.74
+  },
+  {
+   "p": 0.2,
+   "method": "移動平均（56日）",
+   "bias_pct": -0.17,
+   "mae_pct": 24.27,
+   "bias_after_sale_pct": 6.92,
+   "bias_other_days_pct": -1.94
+  },
+  {
+   "p": 0.2,
+   "method": "指数平滑",
+   "bias_pct": -0.23,
+   "mae_pct": 41.32,
+   "bias_after_sale_pct": 39.86,
+   "bias_other_days_pct": -10.26
+  },
+  {
+   "p": 0.2,
+   "method": "クロストン法",
+   "bias_pct": 4.03,
+   "mae_pct": 19.0,
+   "bias_after_sale_pct": 4.11,
+   "bias_other_days_pct": 4.01
+  },
+  {
+   "p": 0.2,
+   "method": "SBA（クロストン法の補正）",
+   "bias_pct": -1.17,
+   "mae_pct": 18.33,
+   "bias_after_sale_pct": -1.09,
+   "bias_other_days_pct": -1.19
+  },
+  {
+   "p": 0.2,
+   "method": "TSB（売れる確率を毎日見直す）",
+   "bias_pct": -0.16,
+   "mae_pct": 27.15,
+   "bias_after_sale_pct": 19.93,
+   "bias_other_days_pct": -5.19
+  },
+  {
+   "p": 0.4,
+   "method": "移動平均（56日）",
+   "bias_pct": -0.82,
+   "mae_pct": 15.44,
+   "bias_after_sale_pct": 1.84,
+   "bias_other_days_pct": -2.59
+  },
+  {
+   "p": 0.4,
+   "method": "指数平滑",
+   "bias_pct": -0.9,
+   "mae_pct": 26.44,
+   "bias_after_sale_pct": 14.19,
+   "bias_other_days_pct": -10.86
+  },
+  {
+   "p": 0.4,
+   "method": "クロストン法",
+   "bias_pct": 2.29,
+   "mae_pct": 16.8,
+   "bias_after_sale_pct": 2.27,
+   "bias_other_days_pct": 2.3
+  },
+  {
+   "p": 0.4,
+   "method": "SBA（クロストン法の補正）",
+   "bias_pct": -2.82,
+   "mae_pct": 16.39,
+   "bias_after_sale_pct": -2.85,
+   "bias_other_days_pct": -2.81
+  },
+  {
+   "p": 0.4,
+   "method": "TSB（売れる確率を毎日見直す）",
+   "bias_pct": -0.84,
+   "mae_pct": 18.01,
+   "bias_after_sale_pct": 6.68,
+   "bias_other_days_pct": -5.8
+  }
+ ],
+ "inventory": [
+  {
+   "stockout_per_100_demand_days": 49.884,
+   "fill_rate": 62.872,
+   "avg_inventory": 2.344,
+   "inventory_days": 15.494,
+   "p": 0.05,
+   "method": "移動平均（56日）"
+  },
+  {
+   "stockout_per_100_demand_days": 18.485,
+   "fill_rate": 86.61,
+   "avg_inventory": 5.258,
+   "inventory_days": 34.749,
+   "p": 0.05,
+   "method": "指数平滑"
+  },
+  {
+   "stockout_per_100_demand_days": 58.316,
+   "fill_rate": 57.231,
+   "avg_inventory": 1.882,
+   "inventory_days": 12.441,
+   "p": 0.05,
+   "method": "クロストン法"
+  },
+  {
+   "stockout_per_100_demand_days": 60.482,
+   "fill_rate": 55.566,
+   "avg_inventory": 1.803,
+   "inventory_days": 11.918,
+   "p": 0.05,
+   "method": "SBA（クロストン法の補正）"
+  },
+  {
+   "stockout_per_100_demand_days": 33.333,
+   "fill_rate": 75.959,
+   "avg_inventory": 3.275,
+   "inventory_days": 21.646,
+   "p": 0.05,
+   "method": "TSB（売れる確率を毎日見直す）"
+  },
+  {
+   "stockout_per_100_demand_days": 67.089,
+   "fill_rate": 50.292,
+   "avg_inventory": 1.546,
+   "inventory_days": 10.22,
+   "p": 0.05,
+   "method": "本当の需要を知っている場合"
+  },
+  {
+   "stockout_per_100_demand_days": 34.099,
+   "fill_rate": 74.3,
+   "avg_inventory": 3.36,
+   "inventory_days": 11.176,
+   "p": 0.1,
+   "method": "移動平均（56日）"
+  },
+  {
+   "stockout_per_100_demand_days": 14.364,
+   "fill_rate": 89.186,
+   "avg_inventory": 6.25,
+   "inventory_days": 20.793,
+   "p": 0.1,
+   "method": "指数平滑"
+  },
+  {
+   "stockout_per_100_demand_days": 35.979,
+   "fill_rate": 72.79,
+   "avg_inventory": 2.98,
+   "inventory_days": 9.913,
+   "p": 0.1,
+   "method": "クロストン法"
+  },
+  {
+   "stockout_per_100_demand_days": 38.339,
+   "fill_rate": 70.972,
+   "avg_inventory": 2.818,
+   "inventory_days": 9.375,
+   "p": 0.1,
+   "method": "SBA（クロストン法の補正）"
+  },
+  {
+   "stockout_per_100_demand_days": 23.604,
+   "fill_rate": 82.234,
+   "avg_inventory": 4.267,
+   "inventory_days": 14.196,
+   "p": 0.1,
+   "method": "TSB（売れる確率を毎日見直す）"
+  },
+  {
+   "stockout_per_100_demand_days": 37.845,
+   "fill_rate": 71.341,
+   "avg_inventory": 2.721,
+   "inventory_days": 9.053,
+   "p": 0.1,
+   "method": "本当の需要を知っている場合"
+  },
+  {
+   "stockout_per_100_demand_days": 19.108,
+   "fill_rate": 85.313,
+   "avg_inventory": 5.157,
+   "inventory_days": 8.628,
+   "p": 0.2,
+   "method": "移動平均（56日）"
+  },
+  {
+   "stockout_per_100_demand_days": 9.857,
+   "fill_rate": 92.5,
+   "avg_inventory": 7.957,
+   "inventory_days": 13.312,
+   "p": 0.2,
+   "method": "指数平滑"
+  },
+  {
+   "stockout_per_100_demand_days": 19.108,
+   "fill_rate": 85.454,
+   "avg_inventory": 4.97,
+   "inventory_days": 8.315,
+   "p": 0.2,
+   "method": "クロストン法"
+  },
+  {
+   "stockout_per_100_demand_days": 21.065,
+   "fill_rate": 83.811,
+   "avg_inventory": 4.65,
+   "inventory_days": 7.779,
+   "p": 0.2,
+   "method": "SBA（クロストン法の補正）"
+  },
+  {
+   "stockout_per_100_demand_days": 14.596,
+   "fill_rate": 89.048,
+   "avg_inventory": 6.042,
+   "inventory_days": 10.108,
+   "p": 0.2,
+   "method": "TSB（売れる確率を毎日見直す）"
+  },
+  {
+   "stockout_per_100_demand_days": 16.802,
+   "fill_rate": 87.476,
+   "avg_inventory": 4.883,
+   "inventory_days": 8.17,
+   "p": 0.2,
+   "method": "本当の需要を知っている場合"
+  },
+  {
+   "stockout_per_100_demand_days": 6.985,
+   "fill_rate": 94.852,
+   "avg_inventory": 8.441,
+   "inventory_days": 7.097,
+   "p": 0.4,
+   "method": "移動平均（56日）"
+  },
+  {
+   "stockout_per_100_demand_days": 5.032,
+   "fill_rate": 96.123,
+   "avg_inventory": 10.874,
+   "inventory_days": 9.143,
+   "p": 0.4,
+   "method": "指数平滑"
+  },
+  {
+   "stockout_per_100_demand_days": 7.009,
+   "fill_rate": 94.755,
+   "avg_inventory": 8.639,
+   "inventory_days": 7.263,
+   "p": 0.4,
+   "method": "クロストン法"
+  },
+  {
+   "stockout_per_100_demand_days": 8.463,
+   "fill_rate": 93.583,
+   "avg_inventory": 7.97,
+   "inventory_days": 6.701,
+   "p": 0.4,
+   "method": "SBA（クロストン法の補正）"
+  },
+  {
+   "stockout_per_100_demand_days": 5.953,
+   "fill_rate": 95.546,
+   "avg_inventory": 9.224,
+   "inventory_days": 7.756,
+   "p": 0.4,
+   "method": "TSB（売れる確率を毎日見直す）"
+  },
+  {
+   "stockout_per_100_demand_days": 4.989,
+   "fill_rate": 96.451,
+   "avg_inventory": 8.164,
+   "inventory_days": 6.865,
+   "p": 0.4,
+   "method": "本当の需要を知っている場合"
+  }
+ ],
+ "obsolescence": [
+  {
+   "method": "移動平均（56日）",
+   "ratio_day30": 5.11,
+   "ratio_day60": 1.11,
+   "ratio_day120": 1.12,
+   "ratio_day229": 1.01,
+   "target_stock_last_100_days": 1.39
+  },
+  {
+   "method": "指数平滑",
+   "ratio_day30": 1.39,
+   "ratio_day60": 1.35,
+   "ratio_day120": 1.07,
+   "ratio_day229": 0.96,
+   "target_stock_last_100_days": 1.49
+  },
+  {
+   "method": "クロストン法",
+   "ratio_day30": 9.29,
+   "ratio_day60": 7.48,
+   "ratio_day120": 4.94,
+   "ratio_day229": 2.88,
+   "target_stock_last_100_days": 3.08
+  },
+  {
+   "method": "SBA（クロストン法の補正）",
+   "ratio_day30": 8.82,
+   "ratio_day60": 7.11,
+   "ratio_day120": 4.69,
+   "ratio_day229": 2.74,
+   "target_stock_last_100_days": 2.96
+  },
+  {
+   "method": "TSB（売れる確率を毎日見直す）",
+   "ratio_day30": 2.9,
+   "ratio_day60": 1.56,
+   "ratio_day120": 1.06,
+   "ratio_day229": 0.98,
+   "target_stock_last_100_days": 1.4
+  },
+  {
+   "method": "本当の需要を知っている場合",
+   "ratio_day30": 1.0,
+   "ratio_day60": 1.0,
+   "ratio_day120": 1.0,
+   "ratio_day229": 1.0,
+   "target_stock_last_100_days": 1.0
+  }
+ ],
+ "fill_at_same_inventory": [
+  {
+   "p": 0.05,
+   "method": "移動平均（56日）",
+   "inventory_days": 12.44,
+   "fill_rate": 54.9
+  },
+  {
+   "p": 0.05,
+   "method": "指数平滑",
+   "inventory_days": 12.44,
+   "fill_rate": 53.6
+  },
+  {
+   "p": 0.05,
+   "method": "クロストン法",
+   "inventory_days": 12.44,
+   "fill_rate": 57.2
+  },
+  {
+   "p": 0.05,
+   "method": "SBA（クロストン法の補正）",
+   "inventory_days": 12.44,
+   "fill_rate": 57.0
+  },
+  {
+   "p": 0.05,
+   "method": "TSB（売れる確率を毎日見直す）",
+   "inventory_days": 12.44,
+   "fill_rate": 55.8
+  },
+  {
+   "p": 0.1,
+   "method": "移動平均（56日）",
+   "inventory_days": 9.91,
+   "fill_rate": 70.1
+  },
+  {
+   "p": 0.1,
+   "method": "指数平滑",
+   "inventory_days": 9.91,
+   "fill_rate": 69.3
+  },
+  {
+   "p": 0.1,
+   "method": "クロストン法",
+   "inventory_days": 9.91,
+   "fill_rate": 72.8
+  },
+  {
+   "p": 0.1,
+   "method": "SBA（クロストン法の補正）",
+   "inventory_days": 9.91,
+   "fill_rate": 72.4
+  },
+  {
+   "p": 0.1,
+   "method": "TSB（売れる確率を毎日見直す）",
+   "inventory_days": 9.91,
+   "fill_rate": 71.2
+  },
+  {
+   "p": 0.2,
+   "method": "移動平均（56日）",
+   "inventory_days": 8.31,
+   "fill_rate": 84.1
+  },
+  {
+   "p": 0.2,
+   "method": "指数平滑",
+   "inventory_days": 8.31,
+   "fill_rate": 81.7
+  },
+  {
+   "p": 0.2,
+   "method": "クロストン法",
+   "inventory_days": 8.31,
+   "fill_rate": 85.5
+  },
+  {
+   "p": 0.2,
+   "method": "SBA（クロストン法の補正）",
+   "inventory_days": 8.31,
+   "fill_rate": 84.9
+  },
+  {
+   "p": 0.2,
+   "method": "TSB（売れる確率を毎日見直す）",
+   "inventory_days": 8.31,
+   "fill_rate": 83.8
+  },
+  {
+   "p": 0.4,
+   "method": "移動平均（56日）",
+   "inventory_days": 7.26,
+   "fill_rate": 95.0
+  },
+  {
+   "p": 0.4,
+   "method": "指数平滑",
+   "inventory_days": 7.26,
+   "fill_rate": 92.1
+  },
+  {
+   "p": 0.4,
+   "method": "クロストン法",
+   "inventory_days": 7.26,
+   "fill_rate": 94.8
+  },
+  {
+   "p": 0.4,
+   "method": "SBA（クロストン法の補正）",
+   "inventory_days": 7.26,
+   "fill_rate": 94.1
+  },
+  {
+   "p": 0.4,
+   "method": "TSB（売れる確率を毎日見直す）",
+   "inventory_days": 7.26,
+   "fill_rate": 94.2
+  }
+ ]
+}
