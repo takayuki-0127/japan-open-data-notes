@@ -1,0 +1,3 @@
+-- よくある「文字列をつないで作る」形（呼び出し側のコードで組み立てる）。比べるための悪い例
+-- sql = "SELECT COUNT(*), SUM(amount) FROM orders WHERE store_code = '" + store + "'"
+--     + " AND order_date BETWEEN '" + date_from + "' AND '" + date_to + "' AND status = '完了'"
