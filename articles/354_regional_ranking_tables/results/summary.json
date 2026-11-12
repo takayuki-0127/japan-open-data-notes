@@ -1,0 +1,60 @@
+{
+ "manuscripts": 614,
+ "regional": 229,
+ "units": {
+  "都道府県": 132,
+  "市区町村": 97,
+  "全国・その他": 385
+ },
+ "share_regional": {
+  "順位の言葉がある": 0.4803,
+  "題名に順位の言葉": 0.1135,
+  "名前つきの「高い・多い」の文": 0.393,
+  "名前つきの「低い・少ない」の文": 0.2271,
+  "図の説明に順位・並べた順": 0.048,
+  "順位の表（3行以上）": 0.0
+ },
+ "counts": {
+  "rank_word": 110,
+  "title_rank_word": 26,
+  "top_named": 90,
+  "bottom_named": 52,
+  "fig_caption": 11,
+  "rank_table_manuscript": 0
+ },
+ "readme": {
+  "readmes": 542,
+  "rank_rows_5plus": 0,
+  "rank_rows_any": 5,
+  "rank_header": 1
+ },
+ "bottom_sentences": 90,
+ "bottom_sentences_by_category": {
+  "評価を含む指標で名指し": 14,
+  "どちらとも言える": 18,
+  "中立の指標": 33,
+  "名指しなし・順位づけでない": 25
+ },
+ "bottom_articles_by_category": {
+  "評価を含む指標で名指し": 9,
+  "どちらとも言える": 15,
+  "中立の指標": 23,
+  "名指しなし・順位づけでない": 18
+ },
+ "flagged_articles_by_group": {
+  "000–099": 6,
+  "100–226": 3,
+  "F01–F99": 0,
+  "F100–F199": 0,
+  "F200–F255": 0,
+  "F256–F295（精選）": 0,
+  "227–・T（1000本計画）": 0
+ },
+ "top_sample": {
+  "read": 50,
+  "flagged": 0,
+  "either": 1
+ },
+ "title_bottom_named": 2,
+ "title_top_named": 17
+}
