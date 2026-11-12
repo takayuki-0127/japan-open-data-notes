@@ -1,0 +1,69 @@
+{
+ "articles": 639,
+ "files_all": 13656,
+ "MB_all": 1601.1,
+ "data_files": 2999,
+ "data_MB": 1076.2,
+ "data_share": 0.6722,
+ "articles_with_data": 601,
+ "files_median": 3.0,
+ "MB_median": 0.397,
+ "MB_mean": 1.684,
+ "MB_p90": 4.95,
+ "MB_max": 51.5,
+ "top10pct_share": 0.575,
+ "limits": {
+  "over_10MB": 0,
+  "from_8MB": 15,
+  "from_5MB": 41,
+  "from_1MB": 269,
+  "under_100KB": 1935
+ },
+ "largest": [
+  [
+   "F06_aging_spatial",
+   "data/units.gpkg",
+   9.76
+  ],
+  [
+   "F50_gdp_revisions",
+   "data/raw/f50_qe_releases.json",
+   8.86
+  ],
+  [
+   "F37_conformal_land_price",
+   "data/features.csv",
+   8.84
+  ],
+  [
+   "F75_gp_land_price",
+   "data/raw/F03_features.csv",
+   8.84
+  ],
+  [
+   "F109_active_learning_land_price",
+   "data/features.csv",
+   8.84
+  ]
+ ],
+ "csv_share_files": 0.6619,
+ "csv_share_bytes": 0.4821,
+ "excel_files": 458,
+ "excel_share_bytes": 0.1802,
+ "same_content_groups": 440,
+ "same_content_extra_MB": 346.9,
+ "same_content_share_of_data": 0.3224,
+ "articles_with_copied_file": 337,
+ "csv_counted": 1588,
+ "csv_in_data": 1985,
+ "rows_median": 260.0,
+ "rows_p90": 5825.699999999995,
+ "rows_max": 244684,
+ "rows_bins": {
+  "100行以下": 628,
+  "101〜1,000行": 514,
+  "1,001〜1万行": 344,
+  "1万〜10万行": 98,
+  "10万行超": 4
+ }
+}
