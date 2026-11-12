@@ -1,0 +1,17 @@
+ファイル,読み方,エラーの扱い,状態,読めた行数,行数が同じ,見出しが同じ,列の数が変わった行,中身が変わった行,中身が変わった行の割合,キーが元と同じ行の割合,置き換え文字のある行,文字化けによく出る字のある行,変わった行：customer_id,変わった行：name,変わった行：company,変わった行：address,変わった行：memo,検査：行数,検査：見出しの名前,検査：キーの突き合わせ,検査：列の数,検査：置き換え文字を探す,検査：文字化けの字を探す,検査：想定外の字を探す,検査：氏名に漢字・かながあるか,想定外の字のある行,氏名に漢字・かながない行,検査：元のバイト列に戻るか,止まるまでに読めた行の割合,止まった行
+cp932,cp932,strict,通る,20000.0,True,True,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,False,False,False,False,False,False,0.0,0.0,False,,
+utf-8,utf-8,strict,通る,20000.0,True,True,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,False,False,False,False,False,False,0.0,0.0,False,,
+utf-8-sig,utf-8-sig,strict,通る,20000.0,True,True,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False,False,False,False,False,False,False,0.0,0.0,False,,
+cp932,utf-8,strict,止まる,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,1.0
+cp932,utf-8,ignore,通る,20000.0,True,True,0.0,20000.0,100.0,100.0,0.0,0.0,0.0,20000.0,20000.0,20000.0,13919.0,False,False,False,False,False,False,True,True,20000.0,20000.0,True,,
+cp932,utf-8,replace,通る,20000.0,True,True,0.0,20000.0,100.0,100.0,20000.0,0.0,0.0,20000.0,20000.0,20000.0,13919.0,False,False,False,False,True,False,True,True,20000.0,20000.0,True,,
+utf-8,cp932,strict,止まる,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,1.0
+utf-8,cp932,ignore,通る,20000.0,True,True,0.0,20000.0,100.0,100.0,0.0,20000.0,0.0,20000.0,20000.0,20000.0,13919.0,False,False,False,False,False,True,True,False,20000.0,0.0,True,,
+utf-8,cp932,replace,通る,20000.0,True,True,0.0,20000.0,100.0,100.0,19167.0,20000.0,0.0,20000.0,20000.0,20000.0,13919.0,False,False,False,False,True,True,True,False,20000.0,0.0,True,,
+cp932,shift_jis,strict,止まる,,,,,,,,,,,,,,,,,,,,,,,,,,0.01,2.0
+cp932,shift_jis,ignore,通る,20000.0,True,True,0.0,5955.0,29.78,100.0,0.0,0.0,0.0,854.0,2853.0,992.0,2009.0,False,False,False,False,False,False,False,False,0.0,0.0,True,,
+cp932,shift_jis,replace,通る,20000.0,True,True,0.0,5955.0,29.78,100.0,4381.0,0.0,0.0,854.0,2853.0,992.0,2009.0,False,False,False,False,True,False,True,False,4381.0,0.0,True,,
+utf-8-sig,utf-8,strict,通る,20000.0,True,False,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,True,False,False,False,False,False,False,0.0,0.0,False,,
+utf-8-sig,cp932,ignore,通る,20000.0,True,False,0.0,20000.0,100.0,100.0,0.0,20000.0,0.0,20000.0,20000.0,20000.0,13919.0,False,True,False,False,False,True,True,False,20000.0,0.0,True,,
+utf-8,latin-1,strict,通る,20000.0,True,True,0.0,20000.0,100.0,100.0,0.0,0.0,0.0,20000.0,20000.0,20000.0,13919.0,False,False,False,False,False,False,True,True,20000.0,20000.0,False,,
+cp932,latin-1,strict,通る,20000.0,True,True,0.0,20000.0,100.0,100.0,0.0,0.0,0.0,20000.0,20000.0,20000.0,13919.0,False,False,False,False,False,False,True,True,20000.0,20000.0,False,,

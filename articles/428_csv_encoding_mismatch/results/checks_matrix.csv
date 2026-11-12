@@ -1,0 +1,8 @@
+,検査：行数,検査：見出しの名前,検査：キーの突き合わせ,検査：列の数,検査：置き換え文字を探す,検査：文字化けの字を探す,検査：想定外の字を探す,検査：氏名に漢字・かながあるか,検査：元のバイト列に戻るか
+cp932→utf-8（ignore）,False,False,False,False,False,False,True,True,True
+cp932→utf-8（replace）,False,False,False,False,True,False,True,True,True
+utf-8→cp932（ignore）,False,False,False,False,False,True,True,False,True
+utf-8→cp932（replace）,False,False,False,False,True,True,True,False,True
+cp932→shift_jis（ignore）,False,False,False,False,False,False,False,False,True
+utf-8-sig→utf-8（strict）,False,True,False,False,False,False,False,False,False
+utf-8→latin-1（strict）,False,False,False,False,False,False,True,True,False
