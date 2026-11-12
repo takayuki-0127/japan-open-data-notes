@@ -1,0 +1,26 @@
+{
+ "readmes": 542,
+ "public": 464,
+ "share_section": {
+  "stat_name": 1.0,
+  "publisher": 1.0,
+  "url": 0.7155,
+  "terms": 0.8728,
+  "period": 0.2802,
+  "table_id": 0.0948,
+  "fetch_date": 0.0129
+ },
+ "share_anywhere": {
+  "table_id": 0.472,
+  "fetch_date": 0.1013
+ },
+ "three_in_section": 0,
+ "three_anywhere": 27,
+ "n_any": {
+  "1": 225,
+  "2": 212,
+  "3": 27
+ },
+ "url_estat_list": 0.3103,
+ "no_section": 6
+}
