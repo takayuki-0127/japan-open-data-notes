@@ -1,0 +1,215 @@
+{
+ "n_tables": 20,
+ "n_deps": 23,
+ "levels": 5,
+ "trials": 1000,
+ "summary": [
+  {
+   "case": "正しい順に1つずつ",
+   "any_stale": 0.0,
+   "stale_mean": 0.0,
+   "stale_mean_when_any": 0.0,
+   "stale_max": 0,
+   "lag_max": 0,
+   "lag2_share": 0.0,
+   "reports_stale": 0.0,
+   "found_finish": null,
+   "found_start": null,
+   "found_date": null,
+   "elapsed": 245.97
+  },
+  {
+   "case": "となりの2枚が入れ替わる",
+   "any_stale": 57.7,
+   "stale_mean": 2.06,
+   "stale_mean_when_any": 3.56,
+   "stale_max": 7,
+   "lag_max": 1,
+   "lag2_share": 0.0,
+   "reports_stale": 1.53,
+   "found_finish": 100.0,
+   "found_start": 100.0,
+   "found_date": 100.0,
+   "elapsed": null
+  },
+  {
+   "case": "はなれた2枚が入れ替わる",
+   "any_stale": 91.5,
+   "stale_mean": 4.64,
+   "stale_mean_when_any": 5.07,
+   "stale_max": 12,
+   "lag_max": 2,
+   "lag2_share": 20.9,
+   "reports_stale": 3.34,
+   "found_finish": 100.0,
+   "found_start": 100.0,
+   "found_date": 100.0,
+   "elapsed": null
+  },
+  {
+   "case": "でたらめな順",
+   "any_stale": 100.0,
+   "stale_mean": 12.06,
+   "stale_mean_when_any": 12.06,
+   "stale_max": 15,
+   "lag_max": 4,
+   "lag2_share": 99.8,
+   "reports_stale": 6.81,
+   "found_finish": 100.0,
+   "found_start": 100.0,
+   "found_date": 100.0,
+   "elapsed": null
+  },
+  {
+   "case": "並行（開始時刻を決め打ち、余裕なし）",
+   "any_stale": 100.0,
+   "stale_mean": 12.06,
+   "stale_mean_when_any": 12.06,
+   "stale_max": 15,
+   "lag_max": 4,
+   "lag2_share": 96.8,
+   "reports_stale": 6.62,
+   "found_finish": 0.0,
+   "found_start": 100.0,
+   "found_date": 100.0,
+   "elapsed": null
+  },
+  {
+   "case": "並行（余裕3割）",
+   "any_stale": 87.4,
+   "stale_mean": 6.32,
+   "stale_mean_when_any": 7.23,
+   "stale_max": 15,
+   "lag_max": 4,
+   "lag2_share": 33.1,
+   "reports_stale": 4.2,
+   "found_finish": 1.14,
+   "found_start": 100.0,
+   "found_date": 100.0,
+   "elapsed": null
+  },
+  {
+   "case": "並行（余裕6割）",
+   "any_stale": 32.3,
+   "stale_mean": 1.58,
+   "stale_mean_when_any": 4.88,
+   "stale_max": 13,
+   "lag_max": 3,
+   "lag2_share": 1.9,
+   "reports_stale": 1.16,
+   "found_finish": 1.55,
+   "found_start": 100.0,
+   "found_date": 100.0,
+   "elapsed": null
+  },
+  {
+   "case": "並行（上流のできあがりを待つ）",
+   "any_stale": 0.0,
+   "stale_mean": 0.0,
+   "stale_mean_when_any": 0.0,
+   "stale_max": 0,
+   "lag_max": 0,
+   "lag2_share": 0.0,
+   "reports_stale": 0.0,
+   "found_finish": null,
+   "found_start": null,
+   "found_date": null,
+   "elapsed": 65.5
+  }
+ ],
+ "adjacent": {
+  "n": 19,
+  "with_dependency": 11,
+  "stale_when_dep": [
+   {
+    "swapped": "s1⇄m1",
+    "stale": 7
+   },
+   {
+    "swapped": "m1⇄r1",
+    "stale": 1
+   },
+   {
+    "swapped": "s2⇄m2",
+    "stale": 6
+   },
+   {
+    "swapped": "m7⇄r2",
+    "stale": 2
+   },
+   {
+    "swapped": "s3⇄m4",
+    "stale": 6
+   },
+   {
+    "swapped": "s4⇄m5",
+    "stale": 6
+   },
+   {
+    "swapped": "m5⇄m8",
+    "stale": 5
+   },
+   {
+    "swapped": "m8⇄r4",
+    "stale": 2
+   },
+   {
+    "swapped": "r4⇄r7",
+    "stale": 1
+   },
+   {
+    "swapped": "s5⇄m6",
+    "stale": 2
+   },
+   {
+    "swapped": "m6⇄r5",
+    "stale": 1
+   }
+  ],
+  "found_finish_when_dep": 11
+ },
+ "late": {
+  "by_mult": {
+   "1.5": {
+    "cases_with_stale": 13,
+    "mean_stale": 3.05,
+    "max_stale": 8,
+    "found_finish": 0
+   },
+   "2.0": {
+    "cases_with_stale": 13,
+    "mean_stale": 3.05,
+    "max_stale": 8,
+    "found_finish": 7
+   },
+   "3.0": {
+    "cases_with_stale": 15,
+    "mean_stale": 3.15,
+    "max_stale": 8,
+    "found_finish": 13
+   }
+  }
+ },
+ "downstream": {
+  "s1": 8,
+  "s2": 7,
+  "s3": 7,
+  "s4": 6,
+  "s5": 2,
+  "m1": 6,
+  "m2": 5,
+  "m3": 1,
+  "m4": 5,
+  "m5": 5,
+  "m6": 1,
+  "m7": 4,
+  "m8": 4,
+  "r1": 0,
+  "r2": 1,
+  "r3": 0,
+  "r4": 1,
+  "r5": 0,
+  "r6": 0,
+  "r7": 0
+ }
+}
