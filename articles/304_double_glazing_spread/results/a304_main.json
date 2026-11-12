@@ -1,0 +1,437 @@
+{
+ "national": {
+  "総数": {
+   "2003": {
+    "win_all_pct": 8.17,
+    "win_some_pct": 9.82,
+    "win_any_pct": 18.0,
+    "win_none_pct": 79.8,
+    "win_any_pct_answered": 18.4,
+    "win_all_pct_answered": 8.36,
+    "pv_pct": 0.59,
+    "solar_heat_pct": 6.59,
+    "win_all_man": 383.0,
+    "win_any_man": 843.3,
+    "total_man": 4686.3,
+    "unknown_pct": 2.2
+   },
+   "2008": {
+    "win_all_pct": 10.6,
+    "win_some_pct": 10.45,
+    "win_any_pct": 21.05,
+    "win_none_pct": 75.9,
+    "win_any_pct_answered": 21.71,
+    "win_all_pct_answered": 10.93,
+    "pv_pct": 1.05,
+    "solar_heat_pct": 5.29,
+    "win_all_man": 525.5,
+    "win_any_man": 1044.1,
+    "total_man": 4959.8,
+    "unknown_pct": 3.05
+   },
+   "2013": {
+    "win_all_pct": 12.83,
+    "win_some_pct": 12.42,
+    "win_any_pct": 25.24,
+    "win_none_pct": 72.03,
+    "win_any_pct_answered": 25.95,
+    "win_all_pct_answered": 13.19,
+    "pv_pct": 3.01,
+    "solar_heat_pct": 4.23,
+    "win_all_man": 668.3,
+    "win_any_man": 1315.3,
+    "total_man": 5210.2,
+    "unknown_pct": 2.72
+   },
+   "2018": {
+    "win_all_pct": 14.72,
+    "win_some_pct": 14.25,
+    "win_any_pct": 28.97,
+    "win_none_pct": 67.77,
+    "win_any_pct_answered": 29.95,
+    "win_all_pct_answered": 15.22,
+    "pv_pct": 4.08,
+    "solar_heat_pct": 3.48,
+    "win_all_man": 789.3,
+    "win_any_man": 1553.2,
+    "total_man": 5361.6,
+    "unknown_pct": 3.26
+   },
+   "2023": {
+    "win_all_pct": 16.78,
+    "win_some_pct": 15.13,
+    "win_any_pct": 31.91,
+    "win_none_pct": 63.91,
+    "win_any_pct_answered": 33.3,
+    "win_all_pct_answered": 17.51,
+    "pv_pct": 4.85,
+    "solar_heat_pct": 3.04,
+    "win_all_man": 933.8,
+    "win_any_man": 1776.2,
+    "total_man": 5566.5,
+    "unknown_pct": 4.18
+   }
+  },
+  "持ち家": {
+   "2003": {
+    "win_all_pct": 9.73,
+    "win_some_pct": 13.34,
+    "win_any_pct": 23.07,
+    "win_none_pct": 76.93,
+    "win_any_pct_answered": 23.07,
+    "win_all_pct_answered": 9.73,
+    "pv_pct": 0.9,
+    "solar_heat_pct": 10.38,
+    "win_all_man": 278.9,
+    "win_any_man": 661.3,
+    "total_man": 2866.6,
+    "unknown_pct": -0.0
+   },
+   "2008": {
+    "win_all_pct": 13.32,
+    "win_some_pct": 14.32,
+    "win_any_pct": 27.63,
+    "win_none_pct": 72.37,
+    "win_any_pct_answered": 27.63,
+    "win_all_pct_answered": 13.32,
+    "pv_pct": 1.63,
+    "solar_heat_pct": 8.3,
+    "win_all_man": 403.7,
+    "win_any_man": 837.8,
+    "total_man": 3031.6,
+    "unknown_pct": 0.0
+   },
+   "2013": {
+    "win_all_pct": 16.53,
+    "win_some_pct": 17.02,
+    "win_any_pct": 33.55,
+    "win_none_pct": 66.45,
+    "win_any_pct_answered": 33.55,
+    "win_all_pct_answered": 16.53,
+    "pv_pct": 4.6,
+    "solar_heat_pct": 6.6,
+    "win_all_man": 531.6,
+    "win_any_man": 1079.1,
+    "total_man": 3216.6,
+    "unknown_pct": 0.0
+   },
+   "2018": {
+    "win_all_pct": 19.01,
+    "win_some_pct": 19.33,
+    "win_any_pct": 38.34,
+    "win_none_pct": 61.66,
+    "win_any_pct_answered": 38.34,
+    "win_all_pct_answered": 19.01,
+    "pv_pct": 6.28,
+    "solar_heat_pct": 5.46,
+    "win_all_man": 623.5,
+    "win_any_man": 1257.7,
+    "total_man": 3280.2,
+    "unknown_pct": -0.0
+   },
+   "2023": {
+    "win_all_pct": 21.99,
+    "win_some_pct": 20.67,
+    "win_any_pct": 42.66,
+    "win_none_pct": 57.34,
+    "win_any_pct_answered": 42.66,
+    "win_all_pct_answered": 21.99,
+    "pv_pct": 7.48,
+    "solar_heat_pct": 4.77,
+    "win_all_man": 744.9,
+    "win_any_man": 1445.2,
+    "total_man": 3387.6,
+    "unknown_pct": -0.0
+   }
+  },
+  "借家": {
+   "2003": {
+    "win_all_pct": 6.07,
+    "win_some_pct": 4.54,
+    "win_any_pct": 10.61,
+    "win_none_pct": 89.39,
+    "win_any_pct_answered": 10.61,
+    "win_all_pct_answered": 6.07,
+    "pv_pct": 0.11,
+    "solar_heat_pct": 0.65,
+    "win_all_man": 104.1,
+    "win_any_man": 182.1,
+    "total_man": 1716.6,
+    "unknown_pct": 0.0
+   },
+   "2008": {
+    "win_all_pct": 6.86,
+    "win_some_pct": 4.75,
+    "win_any_pct": 11.61,
+    "win_none_pct": 88.39,
+    "win_any_pct_answered": 11.61,
+    "win_all_pct_answered": 6.86,
+    "pv_pct": 0.14,
+    "solar_heat_pct": 0.6,
+    "win_all_man": 121.8,
+    "win_any_man": 206.3,
+    "total_man": 1777.0,
+    "unknown_pct": 0.0
+   },
+   "2013": {
+    "win_all_pct": 7.39,
+    "win_some_pct": 5.37,
+    "win_any_pct": 12.76,
+    "win_none_pct": 87.24,
+    "win_any_pct_answered": 12.76,
+    "win_all_pct_answered": 7.39,
+    "pv_pct": 0.49,
+    "solar_heat_pct": 0.42,
+    "win_all_man": 136.8,
+    "win_any_man": 236.2,
+    "total_man": 1851.9,
+    "unknown_pct": -0.0
+   },
+   "2018": {
+    "win_all_pct": 8.69,
+    "win_some_pct": 6.81,
+    "win_any_pct": 15.5,
+    "win_none_pct": 84.5,
+    "win_any_pct_answered": 15.5,
+    "win_all_pct_answered": 8.69,
+    "pv_pct": 0.68,
+    "solar_heat_pct": 0.4,
+    "win_all_man": 165.7,
+    "win_any_man": 295.5,
+    "total_man": 1906.5,
+    "unknown_pct": 0.0
+   },
+   "2023": {
+    "win_all_pct": 9.71,
+    "win_some_pct": 7.3,
+    "win_any_pct": 17.0,
+    "win_none_pct": 83.0,
+    "win_any_pct_answered": 17.0,
+    "win_all_pct_answered": 9.71,
+    "pv_pct": 0.85,
+    "solar_heat_pct": 0.4,
+    "win_all_man": 188.9,
+    "win_any_man": 330.9,
+    "total_man": 1946.2,
+    "unknown_pct": -0.0
+   }
+  }
+ },
+ "check_published_all_windows": {
+  "2003": [
+   8.2,
+   8.2
+  ],
+  "2008": [
+   10.6,
+   10.6
+  ],
+  "2013": [
+   12.8,
+   12.8
+  ],
+  "2018": [
+   14.7,
+   14.7
+  ],
+  "2023": [
+   16.8,
+   16.8
+  ]
+ },
+ "step_pt_win_any": {
+  "2003-2008": 3.05,
+  "2008-2013": 4.19,
+  "2013-2018": 3.73,
+  "2018-2023": 2.94
+ },
+ "step_pt_win_all": {
+  "2003-2008": 2.43,
+  "2008-2013": 2.23,
+  "2013-2018": 1.89,
+  "2018-2023": 2.06
+ },
+ "increase_2003_2023_man": {
+  "総数": 932.8,
+  "持ち家": 784.0,
+  "借家": 148.9
+ },
+ "increase_share_owner_pct": 84.0,
+ "shift_share_2003_2023": {
+  "total_pt": 14.9,
+  "within_pt": 14.72,
+  "mix_pt": 0.18,
+  "owner_share_y0": 62.5,
+  "owner_share_y1": 63.5
+ },
+ "prefecture_spread_win_any_pct": {
+  "2003": {
+   "min": 6.9,
+   "q25": 10.1,
+   "median": 12.0,
+   "q75": 19.1,
+   "max": 83.1
+  },
+  "2008": {
+   "min": 5.7,
+   "q25": 12.5,
+   "median": 15.7,
+   "q75": 25.2,
+   "max": 83.0
+  },
+  "2013": {
+   "min": 5.8,
+   "q25": 16.9,
+   "median": 21.5,
+   "q75": 31.7,
+   "max": 83.3
+  },
+  "2018": {
+   "min": 6.9,
+   "q25": 20.9,
+   "median": 26.1,
+   "q75": 36.6,
+   "max": 79.6
+  },
+  "2023": {
+   "min": 7.9,
+   "q25": 25.2,
+   "median": 29.7,
+   "q75": 40.2,
+   "max": 78.0
+  }
+ },
+ "block_win_any_pct": {
+  "中国・四国": {
+   "2003": 10.9,
+   "2008": 14.4,
+   "2013": 19.4,
+   "2018": 23.2,
+   "2023": 27.8
+  },
+  "中部": {
+   "2003": 19.6,
+   "2008": 24.1,
+   "2013": 29.6,
+   "2018": 33.8,
+   "2023": 37.4
+  },
+  "九州・沖縄": {
+   "2003": 8.3,
+   "2008": 10.1,
+   "2013": 13.2,
+   "2018": 17.3,
+   "2023": 21.4
+  },
+  "北海道・東北": {
+   "2003": 57.7,
+   "2008": 60.6,
+   "2013": 63.2,
+   "2018": 63.2,
+   "2023": 64.1
+  },
+  "近畿": {
+   "2003": 11.6,
+   "2008": 13.6,
+   "2013": 17.3,
+   "2018": 21.9,
+   "2023": 24.5
+  },
+  "関東": {
+   "2003": 12.2,
+   "2008": 15.9,
+   "2013": 20.9,
+   "2018": 25.0,
+   "2023": 28.1
+  }
+ },
+ "block_win_all_pct": {
+  "中国・四国": {
+   "2003": 3.3,
+   "2008": 5.7,
+   "2013": 8.1,
+   "2018": 10.0,
+   "2023": 12.7
+  },
+  "中部": {
+   "2003": 6.6,
+   "2008": 10.1,
+   "2013": 13.1,
+   "2018": 15.2,
+   "2023": 17.9
+  },
+  "九州・沖縄": {
+   "2003": 2.7,
+   "2008": 4.1,
+   "2013": 5.8,
+   "2018": 7.9,
+   "2023": 10.4
+  },
+  "北海道・東北": {
+   "2003": 36.8,
+   "2008": 39.8,
+   "2013": 40.9,
+   "2018": 40.7,
+   "2023": 41.8
+  },
+  "近畿": {
+   "2003": 3.6,
+   "2008": 5.2,
+   "2013": 7.1,
+   "2018": 9.4,
+   "2023": 11.1
+  },
+  "関東": {
+   "2003": 4.7,
+   "2008": 7.4,
+   "2013": 10.4,
+   "2018": 12.5,
+   "2023": 14.8
+  }
+ },
+ "corr_level2003_vs_gain": -0.475,
+ "gain_pt_quantiles": {
+  "0.0": -5.1,
+  "0.25": 13.6,
+  "0.5": 17.6,
+  "0.75": 19.2,
+  "1.0": 23.6
+ },
+ "n_pref_over_50pct": {
+  "2003": 4,
+  "2008": 4,
+  "2013": 5,
+  "2018": 7,
+  "2023": 8
+ },
+ "n_pref_under_20pct": {
+  "2003": 36,
+  "2008": 30,
+  "2013": 19,
+  "2018": 8,
+  "2023": 3
+ },
+ "robust": {
+  "win_any_pct_answered": {
+   "2003": 18.4,
+   "2008": 21.71,
+   "2013": 25.95,
+   "2018": 29.95,
+   "2023": 33.3
+  },
+  "win_all_pct": {
+   "2003": 8.17,
+   "2008": 10.6,
+   "2013": 12.83,
+   "2018": 14.72,
+   "2023": 16.78
+  },
+  "unknown_pct": {
+   "2003": 2.2,
+   "2008": 3.05,
+   "2013": 2.72,
+   "2018": 3.26,
+   "2023": 4.18
+  }
+ }
+}
