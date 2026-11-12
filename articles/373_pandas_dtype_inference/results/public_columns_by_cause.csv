@@ -1,0 +1,11 @@
+ファイル,列がずれる,数字で読めた,欠測などの記号,見出し・注の行が混ざる,読み込みがエラー
+01_cpi_regional_difference_2024.csv,0,3,9,0,0
+02_vegetable_leaf.csv,0,0,0,78,0
+03_food_balance_14.csv,0,0,0,65,0
+04_wheat_zenkoku.csv,0,0,0,4,0
+05_vital_deliveries_cp932.csv,0,0,0,0,22
+06_housing_t19.csv,61,0,0,0,0
+07_vital_cause_by_year.csv,0,0,0,0,33
+08_living_conditions_s01.csv,0,0,0,0,7
+09_income_distribution_t02.csv,0,0,0,0,39
+10_ssdse_b_2026.csv,0,0,0,0,110
