@@ -1,0 +1,4 @@
+days_ahead_known,window_days,mean_abs_revision_pct,p90_abs_revision_pct,max_abs_revision_pct,sign_flip_share
+0,4,3.445,5.492,9.559,46.841
+1,5,2.193,3.866,6.476,45.503
+2,6,1.058,2.012,3.633,42.559

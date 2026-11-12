@@ -1,0 +1,464 @@
+{
+ "n": 500,
+ "days": 420,
+ "slope": 0.1,
+ "sd": 3.0,
+ "main": [
+  {
+   "method": "そのまま（前の週の同じ曜日と比べる）",
+   "slope": 0.1,
+   "sd": 3.0,
+   "median_delay": 7.0,
+   "p90_delay": 18.0,
+   "sustained_delay": null,
+   "sustained_share": 0.2,
+   "false_per_year_before": 16.49,
+   "false_per_year_no_turn": 16.97
+  },
+  {
+   "method": "後ろ7日",
+   "slope": 0.1,
+   "sd": 3.0,
+   "median_delay": 7.0,
+   "p90_delay": 13.0,
+   "sustained_delay": 79.0,
+   "sustained_share": 81.0,
+   "false_per_year_before": 17.23,
+   "false_per_year_no_turn": 17.16
+  },
+  {
+   "method": "後ろ14日",
+   "slope": 0.1,
+   "sd": 3.0,
+   "median_delay": 11.0,
+   "p90_delay": 18.0,
+   "sustained_delay": 20.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 9.0,
+   "false_per_year_no_turn": 8.81
+  },
+  {
+   "method": "後ろ28日",
+   "slope": 0.1,
+   "sd": 3.0,
+   "median_delay": 18.0,
+   "p90_delay": 25.0,
+   "sustained_delay": 24.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 1.7,
+   "false_per_year_no_turn": 1.67
+  },
+  {
+   "method": "後ろ56日",
+   "slope": 0.1,
+   "sd": 3.0,
+   "median_delay": 32.0,
+   "p90_delay": 39.0,
+   "sustained_delay": 38.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 0.01,
+   "false_per_year_no_turn": 0.0
+  },
+  {
+   "method": "中心7日（3日あとに確定）",
+   "slope": 0.1,
+   "sd": 3.0,
+   "median_delay": 8.0,
+   "p90_delay": 14.0,
+   "sustained_delay": 79.0,
+   "sustained_share": 81.0,
+   "false_per_year_before": 17.21,
+   "false_per_year_no_turn": 17.01
+  }
+ ],
+ "window": [
+  {
+   "window": 3,
+   "median_delay": 5.0,
+   "p90_delay": 11.0,
+   "sustained_delay": null,
+   "false_per_year_no_turn": 23.8
+  },
+  {
+   "window": 5,
+   "median_delay": 6.0,
+   "p90_delay": 12.0,
+   "sustained_delay": 106.5,
+   "false_per_year_no_turn": 19.58
+  },
+  {
+   "window": 7,
+   "median_delay": 7.0,
+   "p90_delay": 13.0,
+   "sustained_delay": 79.0,
+   "false_per_year_no_turn": 17.16
+  },
+  {
+   "window": 10,
+   "median_delay": 9.0,
+   "p90_delay": 15.0,
+   "sustained_delay": 32.0,
+   "false_per_year_no_turn": 12.09
+  },
+  {
+   "window": 14,
+   "median_delay": 11.0,
+   "p90_delay": 18.0,
+   "sustained_delay": 20.0,
+   "false_per_year_no_turn": 8.81
+  },
+  {
+   "window": 21,
+   "median_delay": 15.0,
+   "p90_delay": 22.0,
+   "sustained_delay": 20.0,
+   "false_per_year_no_turn": 4.39
+  },
+  {
+   "window": 28,
+   "median_delay": 18.0,
+   "p90_delay": 25.0,
+   "sustained_delay": 24.0,
+   "false_per_year_no_turn": 1.67
+  },
+  {
+   "window": 42,
+   "median_delay": 25.0,
+   "p90_delay": 33.0,
+   "sustained_delay": 31.0,
+   "false_per_year_no_turn": 0.1
+  },
+  {
+   "window": 56,
+   "median_delay": 32.0,
+   "p90_delay": 39.0,
+   "sustained_delay": 38.0,
+   "false_per_year_no_turn": 0.0
+  },
+  {
+   "window": 84,
+   "median_delay": 46.0,
+   "p90_delay": 54.0,
+   "sustained_delay": 52.0,
+   "false_per_year_no_turn": 0.0
+  }
+ ],
+ "run": [
+  {
+   "window": 7,
+   "run": 1,
+   "median_delay": 3.0,
+   "false_per_year_no_turn": 34.99
+  },
+  {
+   "window": 28,
+   "run": 1,
+   "median_delay": 13.0,
+   "false_per_year_no_turn": 5.79
+  },
+  {
+   "window": 7,
+   "run": 2,
+   "median_delay": 5.0,
+   "false_per_year_no_turn": 23.12
+  },
+  {
+   "window": 28,
+   "run": 2,
+   "median_delay": 16.0,
+   "false_per_year_no_turn": 2.96
+  },
+  {
+   "window": 7,
+   "run": 3,
+   "median_delay": 7.0,
+   "false_per_year_no_turn": 17.16
+  },
+  {
+   "window": 28,
+   "run": 3,
+   "median_delay": 18.0,
+   "false_per_year_no_turn": 1.67
+  },
+  {
+   "window": 7,
+   "run": 5,
+   "median_delay": 10.0,
+   "false_per_year_no_turn": 10.46
+  },
+  {
+   "window": 28,
+   "run": 5,
+   "median_delay": 22.0,
+   "false_per_year_no_turn": 0.64
+  },
+  {
+   "window": 7,
+   "run": 7,
+   "median_delay": 14.0,
+   "false_per_year_no_turn": 6.06
+  },
+  {
+   "window": 28,
+   "run": 7,
+   "median_delay": 25.0,
+   "false_per_year_no_turn": 0.2
+  },
+  {
+   "window": 7,
+   "run": 10,
+   "median_delay": 26.0,
+   "false_per_year_no_turn": 0.86
+  },
+  {
+   "window": 28,
+   "run": 10,
+   "median_delay": 30.0,
+   "false_per_year_no_turn": 0.02
+  }
+ ],
+ "revision": [
+  {
+   "days_ahead_known": 0,
+   "window_days": 4,
+   "mean_abs_revision_pct": 3.445,
+   "p90_abs_revision_pct": 5.492,
+   "max_abs_revision_pct": 9.559,
+   "sign_flip_share": 46.841
+  },
+  {
+   "days_ahead_known": 1,
+   "window_days": 5,
+   "mean_abs_revision_pct": 2.193,
+   "p90_abs_revision_pct": 3.866,
+   "max_abs_revision_pct": 6.476,
+   "sign_flip_share": 45.503
+  },
+  {
+   "days_ahead_known": 2,
+   "window_days": 6,
+   "mean_abs_revision_pct": 1.058,
+   "p90_abs_revision_pct": 2.012,
+   "max_abs_revision_pct": 3.633,
+   "sign_flip_share": 42.559
+  }
+ ],
+ "ripple": [
+  {
+   "window": 5,
+   "ripple_pct": 6.986
+  },
+  {
+   "window": 7,
+   "ripple_pct": 0.0
+  },
+  {
+   "window": 10,
+   "ripple_pct": 3.996
+  },
+  {
+   "window": 14,
+   "ripple_pct": 0.0
+  }
+ ],
+ "sweep": [
+  {
+   "method": "後ろ7日",
+   "slope": 0.05,
+   "sd": 1.5,
+   "median_delay": 7.0,
+   "p90_delay": 13.0,
+   "sustained_delay": 79.0,
+   "sustained_share": 81.0,
+   "false_per_year_before": 17.23,
+   "false_per_year_no_turn": 17.16
+  },
+  {
+   "method": "後ろ28日",
+   "slope": 0.05,
+   "sd": 1.5,
+   "median_delay": 18.0,
+   "p90_delay": 25.0,
+   "sustained_delay": 24.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 1.7,
+   "false_per_year_no_turn": 1.67
+  },
+  {
+   "method": "後ろ7日",
+   "slope": 0.05,
+   "sd": 3.0,
+   "median_delay": 6.0,
+   "p90_delay": 13.0,
+   "sustained_delay": NaN,
+   "sustained_share": 42.6,
+   "false_per_year_before": 20.59,
+   "false_per_year_no_turn": 20.51
+  },
+  {
+   "method": "後ろ28日",
+   "slope": 0.05,
+   "sd": 3.0,
+   "median_delay": 13.0,
+   "p90_delay": 25.0,
+   "sustained_delay": 32.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 8.98,
+   "false_per_year_no_turn": 8.98
+  },
+  {
+   "method": "後ろ7日",
+   "slope": 0.05,
+   "sd": 6.0,
+   "median_delay": 5.0,
+   "p90_delay": 13.0,
+   "sustained_delay": NaN,
+   "sustained_share": 26.4,
+   "false_per_year_before": 21.98,
+   "false_per_year_no_turn": 21.96
+  },
+  {
+   "method": "後ろ28日",
+   "slope": 0.05,
+   "sd": 6.0,
+   "median_delay": 9.0,
+   "p90_delay": 24.1,
+   "sustained_delay": 44.0,
+   "sustained_share": 98.8,
+   "false_per_year_before": 14.65,
+   "false_per_year_no_turn": 14.54
+  },
+  {
+   "method": "後ろ7日",
+   "slope": 0.1,
+   "sd": 1.5,
+   "median_delay": 8.0,
+   "p90_delay": 13.0,
+   "sustained_delay": 26.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 9.8,
+   "false_per_year_no_turn": 9.71
+  },
+  {
+   "method": "後ろ28日",
+   "slope": 0.1,
+   "sd": 1.5,
+   "median_delay": 19.0,
+   "p90_delay": 24.0,
+   "sustained_delay": 20.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 0.0,
+   "false_per_year_no_turn": 0.01
+  },
+  {
+   "method": "後ろ7日",
+   "slope": 0.1,
+   "sd": 3.0,
+   "median_delay": 7.0,
+   "p90_delay": 13.0,
+   "sustained_delay": 79.0,
+   "sustained_share": 81.0,
+   "false_per_year_before": 17.23,
+   "false_per_year_no_turn": 17.16
+  },
+  {
+   "method": "後ろ28日",
+   "slope": 0.1,
+   "sd": 3.0,
+   "median_delay": 18.0,
+   "p90_delay": 25.0,
+   "sustained_delay": 24.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 1.7,
+   "false_per_year_no_turn": 1.67
+  },
+  {
+   "method": "後ろ7日",
+   "slope": 0.1,
+   "sd": 6.0,
+   "median_delay": 6.0,
+   "p90_delay": 13.0,
+   "sustained_delay": NaN,
+   "sustained_share": 42.6,
+   "false_per_year_before": 20.59,
+   "false_per_year_no_turn": 20.51
+  },
+  {
+   "method": "後ろ28日",
+   "slope": 0.1,
+   "sd": 6.0,
+   "median_delay": 13.0,
+   "p90_delay": 25.0,
+   "sustained_delay": 32.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 8.98,
+   "false_per_year_no_turn": 8.98
+  },
+  {
+   "method": "後ろ7日",
+   "slope": 0.2,
+   "sd": 1.5,
+   "median_delay": 9.0,
+   "p90_delay": 12.0,
+   "sustained_delay": 10.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 1.67,
+   "false_per_year_no_turn": 1.42
+  },
+  {
+   "method": "後ろ28日",
+   "slope": 0.2,
+   "sd": 1.5,
+   "median_delay": 19.0,
+   "p90_delay": 22.0,
+   "sustained_delay": 20.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 0.0,
+   "false_per_year_no_turn": 0.0
+  },
+  {
+   "method": "後ろ7日",
+   "slope": 0.2,
+   "sd": 3.0,
+   "median_delay": 8.0,
+   "p90_delay": 13.0,
+   "sustained_delay": 26.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 9.8,
+   "false_per_year_no_turn": 9.71
+  },
+  {
+   "method": "後ろ28日",
+   "slope": 0.2,
+   "sd": 3.0,
+   "median_delay": 19.0,
+   "p90_delay": 24.0,
+   "sustained_delay": 20.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 0.0,
+   "false_per_year_no_turn": 0.01
+  },
+  {
+   "method": "後ろ7日",
+   "slope": 0.2,
+   "sd": 6.0,
+   "median_delay": 7.0,
+   "p90_delay": 13.0,
+   "sustained_delay": 79.0,
+   "sustained_share": 81.0,
+   "false_per_year_before": 17.23,
+   "false_per_year_no_turn": 17.16
+  },
+  {
+   "method": "後ろ28日",
+   "slope": 0.2,
+   "sd": 6.0,
+   "median_delay": 18.0,
+   "p90_delay": 25.0,
+   "sustained_delay": 24.0,
+   "sustained_share": 100.0,
+   "false_per_year_before": 1.7,
+   "false_per_year_no_turn": 1.67
+  }
+ ]
+}
