@@ -1,0 +1,9 @@
+line,記事
+frommatplotlibimportfont_manager,456
+forfinfont_manager.findSystemFonts():,434
+font_manager.fontManager.addfont(f),416
+"logging.getLogger(""matplotlib.font_manager"").setLevel(logging.ERROR)",278
+"plt.rcParams.update({""font.family"":[""NotoSansCJKJP"",""IPAexGothic"",""YuGothic"",""Meiryo"",""sans-serif""],",263
+"plt.rcParams[""font.family""]=""NotoSansCJKJP""",92
+frommatplotlibimportfont_managerasfm,54
+"plt.rcParams[""font.family""]=[""NotoSansCJKJP""]",42

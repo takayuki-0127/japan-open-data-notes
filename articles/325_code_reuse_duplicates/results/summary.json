@@ -1,0 +1,153 @@
+{
+ "folders": 577,
+ "py_files": 2050,
+ "lines": 177694,
+ "functions": 5065,
+ "functions_big": 4622,
+ "exact_groups": 400,
+ "exact_functions": 1312,
+ "exact_share": 0.284,
+ "exact_max_folders": 78,
+ "exact_top": [
+  [
+   "save",
+   78
+  ],
+  [
+   "note",
+   36
+  ],
+  [
+   "save",
+   18
+  ],
+  [
+   "save",
+   14
+  ],
+  [
+   "section",
+   12
+  ],
+  [
+   "readmes",
+   12
+  ],
+  [
+   "group_of",
+   12
+  ],
+  [
+   "items",
+   12
+  ]
+ ],
+ "near_pairs": 1826,
+ "families": 401,
+ "families_rewritten": 32,
+ "families_rewritten_versions_median": 2.0,
+ "shared_functions": 1354,
+ "shared_share": 0.293,
+ "rewritten_functions": 218,
+ "rewritten_share": 0.047,
+ "fam_top": [
+  [
+   "save",
+   99,
+   6
+  ],
+  [
+   "note",
+   36,
+   1
+  ],
+  [
+   "setup_font",
+   23,
+   5
+  ],
+  [
+   "save",
+   18,
+   1
+  ],
+  [
+   "section",
+   12,
+   1
+  ],
+  [
+   "group_of",
+   12,
+   1
+  ],
+  [
+   "readmes",
+   12,
+   1
+  ],
+  [
+   "tsql_to_duckdb",
+   12,
+   4
+  ],
+  [
+   "items",
+   12,
+   1
+  ],
+  [
+   "load_extra",
+   11,
+   1
+  ]
+ ],
+ "lines_in_functions": 49528,
+ "dup_lines_exact": 7839,
+ "dup_lines_shared": 8272,
+ "dup_lines_shared_share": 0.167,
+ "common_py_files": 453,
+ "common_py_versions": 313,
+ "common_py_top_version_folders": 15,
+ "common_py_used_once": 247,
+ "identical_files_groups": 81,
+ "threshold": 0.8,
+ "min_tokens": 30,
+ "idioms": {
+  "日本語フォントの設定": {
+   "folders": 577,
+   "variants": 75,
+   "top_variant_folders": 456
+  },
+  "図の保存（savefig）": {
+   "folders": 577,
+   "variants": 1710,
+   "top_variant_folders": 126
+  },
+  "結果を JSON に書く": {
+   "folders": 287,
+   "variants": 298,
+   "top_variant_folders": 17
+  },
+  "乱数の種を決める": {
+   "folders": 235,
+   "variants": 217,
+   "top_variant_folders": 81
+  },
+  "文字コードを指定して CSV を読む": {
+   "folders": 62,
+   "variants": 46,
+   "top_variant_folders": 10
+  },
+  "出力フォルダを作る": {
+   "folders": 40,
+   "variants": 55,
+   "top_variant_folders": 11
+  }
+ },
+ "robust_shared_share": {
+  "しきい値0.7": 0.303,
+  "しきい値0.9": 0.286,
+  "60トークン以上の関数だけ": 0.251
+ }
+}
