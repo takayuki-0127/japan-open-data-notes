@@ -1,0 +1,56 @@
+{
+ "period": [
+  "2026-10-23 15:02",
+  "2026-11-12 11:33"
+ ],
+ "commits_total": 4049,
+ "default_message_share": 0.717,
+ "root_readme_commits": 364,
+ "folder_commits": 3467,
+ "folders": 577,
+ "commits_per_folder_median": 5.0,
+ "files_added": 11575,
+ "files_modified": 259,
+ "fix_commits": 148,
+ "fix_share_of_commits": 0.0427,
+ "folders_with_fix": 69,
+ "folders_with_fix_share": 0.12,
+ "fix_within_1h": 121,
+ "fix_within_6h": 147,
+ "fix_after_1day": 1,
+ "fix_after_1day_detail": [
+  {
+   "folder": "F09_diet_text",
+   "days": 3.5
+  }
+ ],
+ "fix_files_by_kind": {
+  "README": 67,
+  "PLAN": 1,
+  "src": 18,
+  "results": 71,
+  "data": 13,
+  "figures": 87,
+  "other": 2
+ },
+ "fix_commits_by_kind": {
+  "README": 67,
+  "PLAN": 1,
+  "src": 11,
+  "results": 27,
+  "data": 9,
+  "figures": 34,
+  "other": 2
+ },
+ "fix_readme_only": 64,
+ "fix_readme_only_share": 0.432,
+ "late_add_commits": 11,
+ "late_add_folders": 6,
+ "folders_with_second_burst": 13,
+ "span_hours_median": 0.04,
+ "span_hours_p90": 0.2,
+ "span_hours_max": 84.7,
+ "note_published_with_folder": 34,
+ "note_published_any_commit_after": 0,
+ "note_published_fix_after": 0
+}
