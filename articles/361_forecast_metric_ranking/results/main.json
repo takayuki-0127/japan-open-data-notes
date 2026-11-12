@@ -1,0 +1,248 @@
+{
+ "n_items": 500,
+ "test_days": 56,
+ "disagreement": [
+  {
+   "group": "よく売れる",
+   "n": 250,
+   "mape_defined": 250,
+   "MAPE≠MAE": 11.2,
+   "MAPE≠RMSE": 10.4,
+   "MAE≠RMSE": 13.6,
+   "MAE≠MASE": 0.0,
+   "MAPE≠MASE": 11.2,
+   "RMSE≠MASE": 13.6,
+   "4つとも同じ": 82.8
+  },
+  {
+   "group": "たまに売れる",
+   "n": 250,
+   "mape_defined": 250,
+   "MAPE≠MAE": 55.2,
+   "MAPE≠RMSE": 60.0,
+   "MAE≠RMSE": 61.2,
+   "MAE≠MASE": 0.0,
+   "MAPE≠MASE": 55.2,
+   "RMSE≠MASE": 61.2,
+   "4つとも同じ": 24.0
+  },
+  {
+   "group": "全体",
+   "n": 500,
+   "mape_defined": 500,
+   "MAPE≠MAE": 33.2,
+   "MAPE≠RMSE": 35.2,
+   "MAE≠RMSE": 37.4,
+   "MAE≠MASE": 0.0,
+   "MAPE≠MASE": 33.2,
+   "RMSE≠MASE": 37.4,
+   "4つとも同じ": 53.4
+  }
+ ],
+ "wins": [
+  {
+   "group": "よく売れる",
+   "metric": "MAPE",
+   "model": "前日の値",
+   "share": 0.0
+  },
+  {
+   "group": "よく売れる",
+   "metric": "MAPE",
+   "model": "7日前の値",
+   "share": 2.4
+  },
+  {
+   "group": "よく売れる",
+   "metric": "MAPE",
+   "model": "直近28日の平均",
+   "share": 8.8
+  },
+  {
+   "group": "よく売れる",
+   "metric": "MAPE",
+   "model": "指数平滑",
+   "share": 2.4
+  },
+  {
+   "group": "よく売れる",
+   "metric": "MAPE",
+   "model": "同じ曜日の平均",
+   "share": 86.4
+  },
+  {
+   "group": "よく売れる",
+   "metric": "MAE",
+   "model": "前日の値",
+   "share": 0.0
+  },
+  {
+   "group": "よく売れる",
+   "metric": "MAE",
+   "model": "7日前の値",
+   "share": 0.8
+  },
+  {
+   "group": "よく売れる",
+   "metric": "MAE",
+   "model": "直近28日の平均",
+   "share": 12.0
+  },
+  {
+   "group": "よく売れる",
+   "metric": "MAE",
+   "model": "指数平滑",
+   "share": 4.0
+  },
+  {
+   "group": "よく売れる",
+   "metric": "MAE",
+   "model": "同じ曜日の平均",
+   "share": 83.2
+  },
+  {
+   "group": "よく売れる",
+   "metric": "RMSE",
+   "model": "前日の値",
+   "share": 0.0
+  },
+  {
+   "group": "よく売れる",
+   "metric": "RMSE",
+   "model": "7日前の値",
+   "share": 0.0
+  },
+  {
+   "group": "よく売れる",
+   "metric": "RMSE",
+   "model": "直近28日の平均",
+   "share": 14.4
+  },
+  {
+   "group": "よく売れる",
+   "metric": "RMSE",
+   "model": "指数平滑",
+   "share": 1.2
+  },
+  {
+   "group": "よく売れる",
+   "metric": "RMSE",
+   "model": "同じ曜日の平均",
+   "share": 84.4
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "MAPE",
+   "model": "前日の値",
+   "share": 7.6
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "MAPE",
+   "model": "7日前の値",
+   "share": 4.8
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "MAPE",
+   "model": "直近28日の平均",
+   "share": 45.6
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "MAPE",
+   "model": "指数平滑",
+   "share": 18.0
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "MAPE",
+   "model": "同じ曜日の平均",
+   "share": 24.0
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "MAE",
+   "model": "前日の値",
+   "share": 12.8
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "MAE",
+   "model": "7日前の値",
+   "share": 11.2
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "MAE",
+   "model": "直近28日の平均",
+   "share": 29.2
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "MAE",
+   "model": "指数平滑",
+   "share": 16.8
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "MAE",
+   "model": "同じ曜日の平均",
+   "share": 30.0
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "RMSE",
+   "model": "前日の値",
+   "share": 0.0
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "RMSE",
+   "model": "7日前の値",
+   "share": 0.0
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "RMSE",
+   "model": "直近28日の平均",
+   "share": 80.4
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "RMSE",
+   "model": "指数平滑",
+   "share": 6.4
+  },
+  {
+   "group": "たまに売れる",
+   "metric": "RMSE",
+   "model": "同じ曜日の平均",
+   "share": 13.2
+  }
+ ],
+ "zero_share_slow_median": 67.9,
+ "slow_any_zero_day": 100.0,
+ "slow_half_or_more_zero": 79.6,
+ "slow_all_zero": 0.0,
+ "fast_any_zero_day": 0.4,
+ "slow_mape_winner_bias_ratio": 0.9,
+ "slow_mae_winner_bias_ratio": -2.3,
+ "slow_mape_winner_underforecast": 40.0,
+ "slow_mae_winner_underforecast": 54.0,
+ "slow_mape_over_100": 6.5,
+ "slow_best_mape_over_100": 0.4,
+ "slow_zero_forecast_beats_all_mae": 82.0,
+ "aggregate_choice": {
+  "MAPEの平均": "同じ曜日の平均",
+  "MAPEの中央値": "同じ曜日の平均",
+  "MAEの平均": "同じ曜日の平均",
+  "MAEの中央値": "同じ曜日の平均",
+  "RMSEの平均": "同じ曜日の平均",
+  "RMSEの中央値": "同じ曜日の平均",
+  "MASEの平均": "同じ曜日の平均",
+  "MASEの中央値": "同じ曜日の平均"
+ },
+ "rmse_top10pct_share": 41.9,
+ "mape_slow_share_of_sum": 56.7
+}
