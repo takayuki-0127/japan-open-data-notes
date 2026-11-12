@@ -1,0 +1,251 @@
+{
+ "settings": {
+  "seed": 335,
+  "reps": 300,
+  "levels": [
+   "全体で1つ",
+   "8地方",
+   "40地区",
+   "200地域"
+  ],
+  "sd": {
+   "region": 0.15,
+   "district": 0.1,
+   "area": 0.07
+  },
+  "base": 0.06,
+  "years": 3,
+  "sizes": [
+   20000,
+   100000,
+   500000,
+   2500000
+  ]
+ },
+ "best_plain": {
+  "20000": "40地区",
+  "100000": "40地区",
+  "500000": "200地域",
+  "2500000": "200地域"
+ },
+ "table": [
+  {
+   "total": 20000,
+   "cells": "全体で1つ",
+   "avg_per_area": 100.0,
+   "vs_true": 18.876,
+   "vs_next": 44.09,
+   "small": 19.097,
+   "large": 18.693
+  },
+  {
+   "total": 20000,
+   "cells": "8地方",
+   "avg_per_area": 100.0,
+   "vs_true": 12.21,
+   "vs_next": 41.94,
+   "small": 13.165,
+   "large": 11.734
+  },
+  {
+   "total": 20000,
+   "cells": "40地区",
+   "avg_per_area": 100.0,
+   "vs_true": 12.106,
+   "vs_next": 41.931,
+   "small": 15.074,
+   "large": 10.688
+  },
+  {
+   "total": 20000,
+   "cells": "200地域",
+   "avg_per_area": 100.0,
+   "vs_true": 23.802,
+   "vs_next": 46.574,
+   "small": 53.738,
+   "large": 15.079
+  },
+  {
+   "total": 20000,
+   "cells": "200地域を上の区分に寄せる",
+   "avg_per_area": 100.0,
+   "vs_true": 10.106,
+   "vs_next": 41.386,
+   "small": 11.616,
+   "large": 9.352
+  },
+  {
+   "total": 100000,
+   "cells": "全体で1つ",
+   "avg_per_area": 500.0,
+   "vs_true": 19.763,
+   "vs_next": 26.138,
+   "small": 19.714,
+   "large": 19.599
+  },
+  {
+   "total": 100000,
+   "cells": "8地方",
+   "avg_per_area": 500.0,
+   "vs_true": 11.449,
+   "vs_next": 21.314,
+   "small": 12.177,
+   "large": 10.923
+  },
+  {
+   "total": 100000,
+   "cells": "40地区",
+   "avg_per_area": 500.0,
+   "vs_true": 7.397,
+   "vs_next": 19.495,
+   "small": 9.776,
+   "large": 6.332
+  },
+  {
+   "total": 100000,
+   "cells": "200地域",
+   "avg_per_area": 500.0,
+   "vs_true": 10.614,
+   "vs_next": 20.83,
+   "small": 24.568,
+   "large": 6.657
+  },
+  {
+   "total": 100000,
+   "cells": "200地域を上の区分に寄せる",
+   "avg_per_area": 500.0,
+   "vs_true": 6.686,
+   "vs_next": 19.236,
+   "small": 9.031,
+   "large": 5.614
+  },
+  {
+   "total": 500000,
+   "cells": "全体で1つ",
+   "avg_per_area": 2500.0,
+   "vs_true": 19.145,
+   "vs_next": 19.863,
+   "small": 19.263,
+   "large": 18.962
+  },
+  {
+   "total": 500000,
+   "cells": "8地方",
+   "avg_per_area": 2500.0,
+   "vs_true": 11.165,
+   "vs_next": 13.669,
+   "small": 12.282,
+   "large": 10.627
+  },
+  {
+   "total": 500000,
+   "cells": "40地区",
+   "avg_per_area": 2500.0,
+   "vs_true": 5.983,
+   "vs_next": 10.07,
+   "small": 8.182,
+   "large": 5.012
+  },
+  {
+   "total": 500000,
+   "cells": "200地域",
+   "avg_per_area": 2500.0,
+   "vs_true": 4.722,
+   "vs_next": 9.319,
+   "small": 10.864,
+   "large": 2.971
+  },
+  {
+   "total": 500000,
+   "cells": "200地域を上の区分に寄せる",
+   "avg_per_area": 2500.0,
+   "vs_true": 3.946,
+   "vs_next": 8.996,
+   "small": 6.963,
+   "large": 2.825
+  },
+  {
+   "total": 2500000,
+   "cells": "全体で1つ",
+   "avg_per_area": 12500.0,
+   "vs_true": 19.206,
+   "vs_next": 18.579,
+   "small": 19.216,
+   "large": 19.015
+  },
+  {
+   "total": 2500000,
+   "cells": "8地方",
+   "avg_per_area": 12500.0,
+   "vs_true": 11.278,
+   "vs_next": 11.7,
+   "small": 12.153,
+   "large": 10.758
+  },
+  {
+   "total": 2500000,
+   "cells": "40地区",
+   "avg_per_area": 12500.0,
+   "vs_true": 5.732,
+   "vs_next": 6.791,
+   "small": 7.717,
+   "large": 4.779
+  },
+  {
+   "total": 2500000,
+   "cells": "200地域",
+   "avg_per_area": 12500.0,
+   "vs_true": 2.11,
+   "vs_next": 4.154,
+   "small": 4.839,
+   "large": 1.348
+  },
+  {
+   "total": 2500000,
+   "cells": "200地域を上の区分に寄せる",
+   "avg_per_area": 12500.0,
+   "vs_true": 2.032,
+   "vs_next": 4.131,
+   "small": 4.341,
+   "large": 1.329
+  }
+ ],
+ "swing": [
+  {
+   "size": "〜100件",
+   "median": 48.43,
+   "p90": 127.18,
+   "n": 8335
+  },
+  {
+   "size": "100〜300",
+   "median": 28.0,
+   "p90": 71.43,
+   "n": 24536
+  },
+  {
+   "size": "300〜1,000",
+   "median": 16.36,
+   "p90": 41.61,
+   "n": 40469
+  },
+  {
+   "size": "1,000〜3,000",
+   "median": 9.45,
+   "p90": 24.0,
+   "n": 31081
+  },
+  {
+   "size": "3,000〜1万",
+   "median": 5.68,
+   "p90": 14.33,
+   "n": 13764
+  },
+  {
+   "size": "1万件〜",
+   "median": 3.07,
+   "p90": 8.19,
+   "n": 1815
+  }
+ ]
+}
