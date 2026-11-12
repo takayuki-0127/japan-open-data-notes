@@ -1,0 +1,51 @@
+{
+ "members": 20000,
+ "share_cal": {
+  "ブロンズ": 0.6497,
+  "シルバー": 0.26815,
+  "ゴールド": 0.08215
+ },
+ "share_roll_dec": {
+  "ブロンズ": 0.64615,
+  "シルバー": 0.26665,
+  "ゴールド": 0.0872
+ },
+ "differ_mean": 0.11027083333333333,
+ "differ_min": 0.0,
+ "differ_max": 0.18505,
+ "differ_dec": 0.18505,
+ "roll_higher_dec": 0.0968,
+ "roll_lower_dec": 0.08825,
+ "ever_differ_2025": 0.2605,
+ "changes_ge1_share_active": 0.26458788278909146,
+ "changes_ge2_share_active": 0.12416840180793255,
+ "changes_mean_active": 0.47737545071352394,
+ "gold_cal": 1643,
+ "gold_roll_dec": 1744,
+ "sweep_trend": [
+  {
+   "trend_sd": 0.0,
+   "differ_mean": 0.10971875,
+   "differ_dec": 0.180375,
+   "changes_ge1_active": 0.2680005097489486
+  },
+  {
+   "trend_sd": 0.15,
+   "differ_mean": 0.11466666666666667,
+   "differ_dec": 0.191375,
+   "changes_ge1_active": 0.2776790248857288
+  },
+  {
+   "trend_sd": 0.35,
+   "differ_mean": 0.11615625,
+   "differ_dec": 0.193125,
+   "changes_ge1_active": 0.27794754265342503
+  },
+  {
+   "trend_sd": 0.6,
+   "differ_mean": 0.11740625,
+   "differ_dec": 0.205125,
+   "changes_ge1_active": 0.280728569608967
+  }
+ ]
+}
