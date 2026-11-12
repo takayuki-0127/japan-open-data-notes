@@ -1,0 +1,32 @@
+{
+ "+10% 作り直さない": {
+  "weekly_abs_error_after_break_pct": 10.0,
+  "first8_weeks_pct": 9.98,
+  "refits_per_run": 0.0
+ },
+ "+10% 13週ごと": {
+  "weekly_abs_error_after_break_pct": 3.77,
+  "first8_weeks_pct": 9.98,
+  "refits_per_run": 6.0
+ },
+ "+10% 鳴ったら": {
+  "weekly_abs_error_after_break_pct": 3.12,
+  "first8_weeks_pct": 6.64,
+  "refits_per_run": 4.4
+ },
+ "+0% 作り直さない": {
+  "weekly_abs_error_after_break_pct": 2.46,
+  "first8_weeks_pct": 2.45,
+  "refits_per_run": 0.0
+ },
+ "+0% 13週ごと": {
+  "weekly_abs_error_after_break_pct": 2.57,
+  "first8_weeks_pct": 2.45,
+  "refits_per_run": 6.0
+ },
+ "+0% 鳴ったら": {
+  "weekly_abs_error_after_break_pct": 2.52,
+  "first8_weeks_pct": 2.45,
+  "refits_per_run": 1.2
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "main": {
+  "+0%": {
+   "R1 3σを1回": {
+    "false_alarms_per_year": 0.36,
+    "share_years_with_alarm": 0.318
+   },
+   "R2 2σを3週中2回": {
+    "false_alarms_per_year": 0.42,
+    "share_years_with_alarm": 0.258
+   },
+   "R3 1σを4週続けて": {
+    "false_alarms_per_year": 0.15,
+    "share_years_with_alarm": 0.15
+   },
+   "R1〜R3のどれか": {
+    "false_alarms_per_year": 0.86,
+    "share_years_with_alarm": 0.471
+   },
+   "CUSUM（k=0.5, h=4）": {
+    "false_alarms_per_year": 0.71,
+    "share_years_with_alarm": 0.552
+   }
+  },
+  "+5%": {
+   "R1 3σを1回": {
+    "median_delay_weeks": 7.0,
+    "p90_delay_weeks": 28.0,
+    "detected_within_8w": 0.566
+   },
+   "R2 2σを3週中2回": {
+    "median_delay_weeks": 6.0,
+    "p90_delay_weeks": 19.299999999999955,
+    "detected_within_8w": 0.659
+   },
+   "R3 1σを4週続けて": {
+    "median_delay_weeks": 7.0,
+    "p90_delay_weeks": 21.0,
+    "detected_within_8w": 0.585
+   },
+   "R1〜R3のどれか": {
+    "median_delay_weeks": 4.0,
+    "p90_delay_weeks": 11.0,
+    "detected_within_8w": 0.84
+   },
+   "CUSUM（k=0.5, h=4）": {
+    "median_delay_weeks": 4.0,
+    "p90_delay_weeks": 7.0,
+    "detected_within_8w": 0.943
+   }
+  },
+  "+10%": {
+   "R1 3σを1回": {
+    "median_delay_weeks": 1.0,
+    "p90_delay_weeks": 4.0,
+    "detected_within_8w": 0.988
+   },
+   "R2 2σを3週中2回": {
+    "median_delay_weeks": 2.0,
+    "p90_delay_weeks": 3.0,
+    "detected_within_8w": 0.995
+   },
+   "R3 1σを4週続けて": {
+    "median_delay_weeks": 4.0,
+    "p90_delay_weeks": 4.0,
+    "detected_within_8w": 0.997
+   },
+   "R1〜R3のどれか": {
+    "median_delay_weeks": 1.0,
+    "p90_delay_weeks": 3.0,
+    "detected_within_8w": 1.0
+   },
+   "CUSUM（k=0.5, h=4）": {
+    "median_delay_weeks": 2.0,
+    "p90_delay_weeks": 3.0,
+    "detected_within_8w": 1.0
+   }
+  },
+  "+20%": {
+   "R1 3σを1回": {
+    "median_delay_weeks": 1.0,
+    "p90_delay_weeks": 1.0,
+    "detected_within_8w": 1.0
+   },
+   "R2 2σを3週中2回": {
+    "median_delay_weeks": 2.0,
+    "p90_delay_weeks": 2.0,
+    "detected_within_8w": 1.0
+   },
+   "R3 1σを4週続けて": {
+    "median_delay_weeks": 4.0,
+    "p90_delay_weeks": 4.0,
+    "detected_within_8w": 1.0
+   },
+   "R1〜R3のどれか": {
+    "median_delay_weeks": 1.0,
+    "p90_delay_weeks": 1.0,
+    "detected_within_8w": 1.0
+   },
+   "CUSUM（k=0.5, h=4）": {
+    "median_delay_weeks": 1.0,
+    "p90_delay_weeks": 1.0,
+    "detected_within_8w": 1.0
+   }
+  },
+  "-10%": {
+   "R1 3σを1回": {
+    "median_delay_weeks": 1.0,
+    "p90_delay_weeks": 3.0,
+    "detected_within_8w": 0.986
+   },
+   "R2 2σを3週中2回": {
+    "median_delay_weeks": 2.0,
+    "p90_delay_weeks": 3.0,
+    "detected_within_8w": 1.0
+   },
+   "R3 1σを4週続けて": {
+    "median_delay_weeks": 4.0,
+    "p90_delay_weeks": 4.0,
+    "detected_within_8w": 0.999
+   },
+   "R1〜R3のどれか": {
+    "median_delay_weeks": 1.0,
+    "p90_delay_weeks": 2.0,
+    "detected_within_8w": 1.0
+   },
+   "CUSUM（k=0.5, h=4）": {
+    "median_delay_weeks": 2.0,
+    "p90_delay_weeks": 3.0,
+    "detected_within_8w": 1.0
+   }
+  }
+ },
+ "annual5": {
+  "+0%": {
+   "R1 3σを1回": {
+    "false_alarms_per_year": 4.56,
+    "share_years_with_alarm": 0.935
+   },
+   "R2 2σを3週中2回": {
+    "false_alarms_per_year": 14.68,
+    "share_years_with_alarm": 0.998
+   },
+   "R3 1σを4週続けて": {
+    "false_alarms_per_year": 16.52,
+    "share_years_with_alarm": 1.0
+   },
+   "R1〜R3のどれか": {
+    "false_alarms_per_year": 21.01,
+    "share_years_with_alarm": 1.0
+   },
+   "CUSUM（k=0.5, h=4）": {
+    "false_alarms_per_year": 9.65,
+    "share_years_with_alarm": 1.0
+   }
+  },
+  "+10%": {
+   "R1 3σを1回": {
+    "median_delay_weeks": 25.0,
+    "p90_delay_weeks": 32.0,
+    "detected_within_8w": 0.273
+   },
+   "R2 2σを3週中2回": {
+    "median_delay_weeks": 24.0,
+    "p90_delay_weeks": 30.0,
+    "detected_within_8w": 0.339
+   },
+   "R3 1σを4週続けて": {
+    "median_delay_weeks": 25.0,
+    "p90_delay_weeks": 30.0,
+    "detected_within_8w": 0.271
+   },
+   "R1〜R3のどれか": {
+    "median_delay_weeks": 7.0,
+    "p90_delay_weeks": 27.0,
+    "detected_within_8w": 0.518
+   },
+   "CUSUM（k=0.5, h=4）": {
+    "median_delay_weeks": 5.0,
+    "p90_delay_weeks": 24.0,
+    "detected_within_8w": 0.704
+   }
+  }
+ }
+}

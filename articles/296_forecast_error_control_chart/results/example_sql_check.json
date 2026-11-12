@@ -1,0 +1,7 @@
+{
+ "weeks": 156,
+ "max_abs_diff_bias": 0.0,
+ "max_abs_diff_z": 2.220446049250313e-16,
+ "first_r1_week": 82,
+ "first_r3_week": 83
+}
