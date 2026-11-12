@@ -1,0 +1,116 @@
+{
+ "sql_check_A": "22159 grants match",
+ "sql_check_B": "21686 grants match",
+ "members": 3000,
+ "purchases": 216146,
+ "annual": [
+  {
+   "year": 2024,
+   "rule": "A",
+   "granted": 2990666,
+   "used": 2825906,
+   "expired": 145502,
+   "expire_rate": 4.87
+  },
+  {
+   "year": 2024,
+   "rule": "B",
+   "granted": 2990666,
+   "used": 2832110,
+   "expired": 124647,
+   "expire_rate": 4.17
+  },
+  {
+   "year": 2024,
+   "rule": "C",
+   "granted": 2990666,
+   "used": 2866222,
+   "expired": 15543,
+   "expire_rate": 0.52
+  },
+  {
+   "year": 2025,
+   "rule": "A",
+   "granted": 2967099,
+   "used": 2819464,
+   "expired": 163184,
+   "expire_rate": 5.5
+  },
+  {
+   "year": 2025,
+   "rule": "B",
+   "granted": 2967099,
+   "used": 2828288,
+   "expired": 155057,
+   "expire_rate": 5.23
+  },
+  {
+   "year": 2025,
+   "rule": "C",
+   "granted": 2967099,
+   "used": 2908950,
+   "expired": 21400,
+   "expire_rate": 0.72
+  },
+  {
+   "year": 2026,
+   "rule": "A",
+   "granted": 2981028,
+   "used": 2834906,
+   "expired": 150825,
+   "expire_rate": 5.06
+  },
+  {
+   "year": 2026,
+   "rule": "B",
+   "granted": 2981028,
+   "used": 2842042,
+   "expired": 145848,
+   "expire_rate": 4.89
+  },
+  {
+   "year": 2026,
+   "rule": "C",
+   "granted": 2981028,
+   "used": 2951562,
+   "expired": 25695,
+   "expire_rate": 0.86
+  }
+ ],
+ "expired_total_2024_2026": {
+  "A": 459511,
+  "B": 425552,
+  "C": 62638
+ },
+ "monthly_diff_B_minus_A": {
+  "mean_abs": 1746.861111111111,
+  "max_abs": 12270,
+  "mean_abs_pct_of_A": 13.87467750448314
+ },
+ "days_with_expiry": {
+  "A": 1095,
+  "B": 35
+ },
+ "max_one_day_share_of_month": {
+  "A": 7.537924146512011,
+  "B": 100.0
+ },
+ "balance_2026_12": {
+  "A": 632269,
+  "B": 644064,
+  "C": 782684
+ },
+ "steady_2025_2026": {
+  "expired": {
+   "A": 314009,
+   "B": 300905,
+   "C": 47095
+  },
+  "granted": 5948127,
+  "monthly_diff_mean_abs": 1361.9166666666667,
+  "monthly_diff_mean_abs_pct_of_A": 10.484534319686544,
+  "monthly_diff_max_abs": 3060,
+  "months_B_higher": 8,
+  "months_A_higher": 16
+ }
+}
