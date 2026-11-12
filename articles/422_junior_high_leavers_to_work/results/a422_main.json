@@ -1,0 +1,358 @@
+{
+ "years": [
+  1950,
+  2025
+ ],
+ "y1950": {
+  "rate": 45.2,
+  "rate_m": 46.2,
+  "rate_f": 44.1,
+  "grads": 1588227.0,
+  "workers_est": 717878.6,
+  "hs_rate": 44.9
+ },
+ "y1952": {
+  "rate": 47.5,
+  "rate_m": 47.9,
+  "rate_f": 47.0,
+  "grads": 1682239.0,
+  "workers_est": 799063.5,
+  "hs_rate": 49.6
+ },
+ "y1955": {
+  "rate": 42.0,
+  "rate_m": 43.0,
+  "rate_f": 40.9,
+  "grads": 1663184.0,
+  "workers_est": 698537.3,
+  "hs_rate": 47.6
+ },
+ "y1960": {
+  "rate": 38.6,
+  "rate_m": 39.7,
+  "rate_f": 37.5,
+  "grads": 1770483.0,
+  "workers_est": 683406.4,
+  "hs_rate": 61.3
+ },
+ "y1963": {
+  "rate": 30.7,
+  "rate_m": 31.2,
+  "rate_f": 30.1,
+  "grads": 2491231.0,
+  "workers_est": 764807.9,
+  "hs_rate": 63.4
+ },
+ "y1965": {
+  "rate": 26.5,
+  "rate_m": 26.9,
+  "rate_f": 26.0,
+  "grads": 2359558.0,
+  "workers_est": 625282.9,
+  "hs_rate": 60.4
+ },
+ "y1970": {
+  "rate": 16.3,
+  "rate_m": 16.5,
+  "rate_f": 16.1,
+  "grads": 1667064.0,
+  "workers_est": 271731.4,
+  "hs_rate": 58.2
+ },
+ "y1975": {
+  "rate": 5.9,
+  "rate_m": 5.9,
+  "rate_f": 5.9,
+  "grads": 1580495.0,
+  "workers_est": 93249.2,
+  "hs_rate": 44.6
+ },
+ "y1980": {
+  "rate": 3.9,
+  "rate_m": 4.5,
+  "rate_f": 3.2,
+  "grads": 1723025.0,
+  "workers_est": 67198.0,
+  "hs_rate": 42.9
+ },
+ "y1990": {
+  "rate": 2.8,
+  "rate_m": 3.7,
+  "rate_f": 1.8,
+  "grads": 1981503.0,
+  "workers_est": 55482.1,
+  "hs_rate": 35.2
+ },
+ "y2000": {
+  "rate": 1.0,
+  "rate_m": 1.5,
+  "rate_f": 0.5,
+  "grads": 1464760.0,
+  "workers_est": 14647.6,
+  "hs_rate": 18.6
+ },
+ "y2010": {
+  "rate": 0.4,
+  "rate_m": 0.6,
+  "rate_f": 0.2,
+  "grads": 1227736.0,
+  "workers_est": 4910.9,
+  "hs_rate": 15.8
+ },
+ "y2020": {
+  "rate": 0.2,
+  "rate_m": 0.3,
+  "rate_f": 0.1,
+  "grads": 1087468.0,
+  "workers_est": 2174.9,
+  "hs_rate": 18.0
+ },
+ "y2025": {
+  "rate": 0.2,
+  "rate_m": 0.3,
+  "rate_f": 0.1,
+  "grads": 1055218.0,
+  "workers_est": 2110.4,
+  "hs_rate": 13.7
+ },
+ "rate_peak": {
+  "year": 1952,
+  "rate": 47.5
+ },
+ "number_peak": {
+  "year": 1957,
+  "workers_est": 865000,
+  "grads": 1997931,
+  "rate": 43.3
+ },
+ "grads_peak": {
+  "year": 1963,
+  "grads": 2491231
+ },
+ "thresholds": {
+  "40": {
+   "rate": {
+    "first_below": 1959,
+    "last_at_or_above": 1958
+   },
+   "rate_m": {
+    "first_below": 1960,
+    "last_at_or_above": 1959
+   },
+   "rate_f": {
+    "first_below": 1953,
+    "last_at_or_above": 1957
+   }
+  },
+  "30": {
+   "rate": {
+    "first_below": 1964,
+    "last_at_or_above": 1963
+   },
+   "rate_m": {
+    "first_below": 1964,
+    "last_at_or_above": 1963
+   },
+   "rate_f": {
+    "first_below": 1964,
+    "last_at_or_above": 1963
+   }
+  },
+  "20": {
+   "rate": {
+    "first_below": 1969,
+    "last_at_or_above": 1968
+   },
+   "rate_m": {
+    "first_below": 1969,
+    "last_at_or_above": 1968
+   },
+   "rate_f": {
+    "first_below": 1969,
+    "last_at_or_above": 1968
+   }
+  },
+  "10": {
+   "rate": {
+    "first_below": 1973,
+    "last_at_or_above": 1972
+   },
+   "rate_m": {
+    "first_below": 1973,
+    "last_at_or_above": 1972
+   },
+   "rate_f": {
+    "first_below": 1973,
+    "last_at_or_above": 1972
+   }
+  },
+  "5": {
+   "rate": {
+    "first_below": 1977,
+    "last_at_or_above": 1976
+   },
+   "rate_m": {
+    "first_below": 1978,
+    "last_at_or_above": 1977
+   },
+   "rate_f": {
+    "first_below": 1977,
+    "last_at_or_above": 1976
+   }
+  },
+  "3": {
+   "rate": {
+    "first_below": 1989,
+    "last_at_or_above": 1988
+   },
+   "rate_m": {
+    "first_below": 1993,
+    "last_at_or_above": 1992
+   },
+   "rate_f": {
+    "first_below": 1985,
+    "last_at_or_above": 1984
+   }
+  },
+  "2": {
+   "rate": {
+    "first_below": 1994,
+    "last_at_or_above": 1993
+   },
+   "rate_m": {
+    "first_below": 1998,
+    "last_at_or_above": 1997
+   },
+   "rate_f": {
+    "first_below": 1989,
+    "last_at_or_above": 1988
+   }
+  },
+  "1": {
+   "rate": {
+    "first_below": 2002,
+    "last_at_or_above": 2001
+   },
+   "rate_m": {
+    "first_below": 2008,
+    "last_at_or_above": 2007
+   },
+   "rate_f": {
+    "first_below": 1995,
+    "last_at_or_above": 1994
+   }
+  },
+  "0.5": {
+   "rate": {
+    "first_below": 2010,
+    "last_at_or_above": 2009
+   },
+   "rate_m": {
+    "first_below": 2017,
+    "last_at_or_above": 2016
+   },
+   "rate_f": {
+    "first_below": 2003,
+    "last_at_or_above": 2002
+   }
+  }
+ },
+ "by_decade": [
+  {
+   "from": 1950,
+   "to": 1960,
+   "rate_from": 45.2,
+   "rate_to": 38.6,
+   "pt": -6.6,
+   "workers_from": 718000,
+   "workers_to": 683400
+  },
+  {
+   "from": 1960,
+   "to": 1970,
+   "rate_from": 38.6,
+   "rate_to": 16.3,
+   "pt": -22.3,
+   "workers_from": 683000,
+   "workers_to": 271700
+  },
+  {
+   "from": 1970,
+   "to": 1980,
+   "rate_from": 16.3,
+   "rate_to": 3.9,
+   "pt": -12.4,
+   "workers_from": 272000,
+   "workers_to": 67200
+  },
+  {
+   "from": 1980,
+   "to": 1990,
+   "rate_from": 3.9,
+   "rate_to": 2.8,
+   "pt": -1.1,
+   "workers_from": 67000,
+   "workers_to": 55500
+  },
+  {
+   "from": 1990,
+   "to": 2000,
+   "rate_from": 2.8,
+   "rate_to": 1.0,
+   "pt": -1.8,
+   "workers_from": 55000,
+   "workers_to": 14600
+  },
+  {
+   "from": 2000,
+   "to": 2010,
+   "rate_from": 1.0,
+   "rate_to": 0.4,
+   "pt": -0.6,
+   "workers_from": 15000,
+   "workers_to": 4900
+  },
+  {
+   "from": 2010,
+   "to": 2020,
+   "rate_from": 0.4,
+   "rate_to": 0.2,
+   "pt": -0.2,
+   "workers_from": 5000,
+   "workers_to": 2200
+  },
+  {
+   "from": 2020,
+   "to": 2025,
+   "rate_from": 0.2,
+   "rate_to": 0.2,
+   "pt": 0.0,
+   "workers_from": 2000,
+   "workers_to": 2100
+  }
+ ],
+ "largest_1y_drop": {
+  "year": 1953,
+  "pt": -5.8
+ },
+ "drop_1960_1970_per_year": -2.23,
+ "decomp_1963_1975": {
+  "change": -672000,
+  "from_grads": -167000,
+  "from_rate": -505000
+ },
+ "sex_gap_max": {
+  "year": 1953,
+  "pt": 4.2
+ },
+ "female_higher_years": [
+  1972
+ ],
+ "max_diff_incl_gimu": 0.1,
+ "hs_workers_exceed_jhs_year": 1961,
+ "hs_peak": {
+  "year": 1968,
+  "n": 943000
+ },
+ "cum_workers_1950_1975_est": 14210000
+}
