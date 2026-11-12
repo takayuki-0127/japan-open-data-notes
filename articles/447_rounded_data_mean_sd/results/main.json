@@ -1,0 +1,286 @@
+{
+ "n": 20000,
+ "rep": 200,
+ "sd_bias_pct": {
+  "山が真ん中（正規分布）": {
+   "0.25": 0.26,
+   "0.5": 1.03,
+   "1.0": 4.06,
+   "1.5": 9.01,
+   "2.0": 15.42,
+   "3.0": 28.01
+  },
+  "右に裾が長い（対数正規）": {
+   "0.25": 0.31,
+   "0.5": 1.26,
+   "1.0": 1.02,
+   "1.5": -3.2,
+   "2.0": -9.47,
+   "3.0": -23.02
+  },
+  "0の近くがいちばん多い（指数分布）": {
+   "0.25": -0.26,
+   "0.5": -1.03,
+   "1.0": -4.06,
+   "1.5": -8.75,
+   "2.0": -14.9,
+   "3.0": -29.54
+  }
+ },
+ "sd_bias_sheppard_pct": {
+  "山が真ん中（正規分布）": {
+   "0.25": -0.0,
+   "0.5": -0.0,
+   "1.0": -0.02,
+   "1.5": 0.04,
+   "2.0": -0.05,
+   "3.0": -6.7
+  },
+  "右に裾が長い（対数正規）": {
+   "0.25": 0.05,
+   "0.5": 0.22,
+   "1.0": -3.21,
+   "1.5": -13.39,
+   "2.0": -30.36,
+   "3.0": -100.0
+  },
+  "0の近くがいちばん多い（指数分布）": {
+   "0.25": -0.52,
+   "0.5": -2.09,
+   "1.0": -8.5,
+   "1.5": -19.66,
+   "2.0": -37.49,
+   "3.0": -100.0
+  }
+ },
+ "mean_bias_pct": {
+  "山が真ん中（正規分布）": {
+   "0.25": 0.0,
+   "0.5": -0.0,
+   "1.0": -0.0,
+   "1.5": 0.01,
+   "2.0": 0.0,
+   "3.0": 0.2
+  },
+  "右に裾が長い（対数正規）": {
+   "0.25": -0.05,
+   "0.5": -0.35,
+   "1.0": 1.45,
+   "1.5": 9.1,
+   "2.0": 21.78,
+   "3.0": 56.4
+  },
+  "0の近くがいちばん多い（指数分布）": {
+   "0.25": 0.52,
+   "0.5": 2.08,
+   "1.0": 8.19,
+   "1.5": 18.03,
+   "2.0": 31.32,
+   "3.0": 65.66
+  }
+ },
+ "examples": [
+  {
+   "data": "年齢（平均45歳・標準偏差12歳）",
+   "width": 1,
+   "unit": "歳",
+   "mean_raw": 44.99,
+   "mean_grouped": 45.0,
+   "sd_raw": 12.01,
+   "sd_grouped": 12.01,
+   "sd_sheppard": 12.01,
+   "mean_bias_pct": 0.0,
+   "sd_bias_pct": 0.03,
+   "sd_sheppard_bias_pct": -0.0
+  },
+  {
+   "data": "年齢（平均45歳・標準偏差12歳）",
+   "width": 5,
+   "unit": "歳",
+   "mean_raw": 45.0,
+   "mean_grouped": 45.0,
+   "sd_raw": 12.0,
+   "sd_grouped": 12.08,
+   "sd_sheppard": 12.0,
+   "mean_bias_pct": 0.0,
+   "sd_bias_pct": 0.73,
+   "sd_sheppard_bias_pct": 0.0
+  },
+  {
+   "data": "年齢（平均45歳・標準偏差12歳）",
+   "width": 10,
+   "unit": "歳",
+   "mean_raw": 44.99,
+   "mean_grouped": 45.0,
+   "sd_raw": 12.0,
+   "sd_grouped": 12.34,
+   "sd_sheppard": 12.0,
+   "mean_bias_pct": 0.0,
+   "sd_bias_pct": 2.83,
+   "sd_sheppard_bias_pct": -0.02
+  },
+  {
+   "data": "年齢（平均45歳・標準偏差12歳）",
+   "width": 20,
+   "unit": "歳",
+   "mean_raw": 45.01,
+   "mean_grouped": 45.01,
+   "sd_raw": 12.0,
+   "sd_grouped": 13.32,
+   "sd_sheppard": 12.0,
+   "mean_bias_pct": 0.01,
+   "sd_bias_pct": 10.97,
+   "sd_sheppard_bias_pct": 0.0
+  },
+  {
+   "data": "金額（中央値3,000円・右に裾が長い）",
+   "width": 100,
+   "unit": "円",
+   "mean_raw": 4130.86,
+   "mean_grouped": 4130.89,
+   "sd_raw": 3908.72,
+   "sd_grouped": 3908.82,
+   "sd_sheppard": 3908.71,
+   "mean_bias_pct": 0.0,
+   "sd_bias_pct": 0.0,
+   "sd_sheppard_bias_pct": -0.0
+  },
+  {
+   "data": "金額（中央値3,000円・右に裾が長い）",
+   "width": 1000,
+   "unit": "円",
+   "mean_raw": 4130.73,
+   "mean_grouped": 4128.23,
+   "sd_raw": 3913.99,
+   "sd_grouped": 3927.11,
+   "sd_sheppard": 3916.48,
+   "mean_bias_pct": -0.06,
+   "sd_bias_pct": 0.34,
+   "sd_sheppard_bias_pct": 0.06
+  },
+  {
+   "data": "金額（中央値3,000円・右に裾が長い）",
+   "width": 5000,
+   "unit": "円",
+   "mean_raw": 4128.58,
+   "mean_grouped": 4334.2,
+   "sd_raw": 3903.48,
+   "sd_grouped": 3866.66,
+   "sd_sheppard": 3587.06,
+   "mean_bias_pct": 4.98,
+   "sd_bias_pct": -0.94,
+   "sd_sheppard_bias_pct": -8.11
+  },
+  {
+   "data": "金額（中央値3,000円・右に裾が長い）",
+   "width": 10000,
+   "unit": "円",
+   "mean_raw": 4135.13,
+   "mean_grouped": 5783.36,
+   "sd_raw": 3914.66,
+   "sd_grouped": 3245.56,
+   "sd_sheppard": 1472.64,
+   "mean_bias_pct": 39.86,
+   "sd_bias_pct": -17.09,
+   "sd_sheppard_bias_pct": -62.38
+  },
+  {
+   "data": "金額（平均2,000円・0の近くが多い）",
+   "width": 100,
+   "unit": "円",
+   "mean_raw": 2001.95,
+   "mean_grouped": 2002.37,
+   "sd_raw": 1999.77,
+   "sd_grouped": 1999.56,
+   "sd_sheppard": 1999.35,
+   "mean_bias_pct": 0.02,
+   "sd_bias_pct": -0.01,
+   "sd_sheppard_bias_pct": -0.02
+  },
+  {
+   "data": "金額（平均2,000円・0の近くが多い）",
+   "width": 1000,
+   "unit": "円",
+   "mean_raw": 1999.48,
+   "mean_grouped": 2040.67,
+   "sd_raw": 1999.83,
+   "sd_grouped": 1979.02,
+   "sd_sheppard": 1957.85,
+   "mean_bias_pct": 2.06,
+   "sd_bias_pct": -1.04,
+   "sd_sheppard_bias_pct": -2.1
+  },
+  {
+   "data": "金額（平均2,000円・0の近くが多い）",
+   "width": 5000,
+   "unit": "円",
+   "mean_raw": 2000.76,
+   "mean_grouped": 2948.2,
+   "sd_raw": 2001.73,
+   "sd_grouped": 1562.6,
+   "sd_sheppard": 595.88,
+   "mean_bias_pct": 47.35,
+   "sd_bias_pct": -21.94,
+   "sd_sheppard_bias_pct": -70.23
+  },
+  {
+   "data": "金額（平均2,000円・0の近くが多い）",
+   "width": 10000,
+   "unit": "円",
+   "mean_raw": 2000.09,
+   "mean_grouped": 5068.35,
+   "sd_raw": 2000.66,
+   "sd_grouped": 828.55,
+   "sd_sheppard": 0.0,
+   "mean_bias_pct": 153.41,
+   "sd_bias_pct": -58.59,
+   "sd_sheppard_bias_pct": -100.0
+  }
+ ],
+ "representative_value": {
+  "mean_exact_age": 45.008,
+  "mean_completed_age": 44.509,
+  "mean_class_plus2": 44.509,
+  "mean_class_plus2_5": 45.009
+ },
+ "open_top": [
+  {
+   "shape": "右に裾が長い（対数正規）",
+   "mean_bias_same_width_pct": -5.13,
+   "mean_bias_1_5x_pct": 0.46,
+   "sd_bias_same_width_pct": -23.37,
+   "sd_bias_1_5x_pct": -3.96,
+   "true_top_mean_over_cut": 1.46
+  },
+  {
+   "shape": "0の近くがいちばん多い（指数分布）",
+   "mean_bias_same_width_pct": -1.02,
+   "mean_bias_1_5x_pct": 4.36,
+   "sd_bias_same_width_pct": -12.49,
+   "sd_bias_1_5x_pct": 4.98,
+   "true_top_mean_over_cut": 1.31
+  }
+ ],
+ "sample_size": [
+  {
+   "n": 50,
+   "sd_sampling_cv_pct": 10.23,
+   "rounding_bias_pct": 0.77
+  },
+  {
+   "n": 200,
+   "sd_sampling_cv_pct": 5.06,
+   "rounding_bias_pct": 0.72
+  },
+  {
+   "n": 1000,
+   "sd_sampling_cv_pct": 2.31,
+   "rounding_bias_pct": 0.71
+  },
+  {
+   "n": 10000,
+   "sd_sampling_cv_pct": 0.7,
+   "rounding_bias_pct": 0.72
+  }
+ ]
+}

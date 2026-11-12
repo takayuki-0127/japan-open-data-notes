@@ -1,0 +1,3 @@
+shape,mean_bias_same_width_pct,mean_bias_1_5x_pct,sd_bias_same_width_pct,sd_bias_1_5x_pct,true_top_mean_over_cut
+右に裾が長い（対数正規）,-5.135,0.464,-23.368,-3.961,1.456
+0の近くがいちばん多い（指数分布）,-1.019,4.364,-12.492,4.984,1.31
