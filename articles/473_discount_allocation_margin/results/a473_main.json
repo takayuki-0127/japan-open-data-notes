@@ -1,0 +1,165 @@
+{
+ "n_orders": 60000,
+ "n_lines": 168128,
+ "sales": 195021110,
+ "discount_total": 16788279,
+ "discount_share_of_sales": 0.08608441927132914,
+ "orders_with_discount": 0.49575,
+ "multi_line_discount_orders": 0.41228333333333333,
+ "sql_check": "DuckDB の結果が pandas と一致（いちばん高い明細は全行一致、四捨五入は .5 ちょうどの行を除いて一致）",
+ "sql_round_half_rows": 0,
+ "n_products": 320,
+ "neg_products": {
+  "金額の割合": 19,
+  "数量の割合": 71,
+  "いちばん高い明細に寄せる": 8,
+  "割り振らない（別の行）": 0
+ },
+ "sign_differs_among_3": 63,
+ "sign_differs_any_of_4": 71,
+ "rate_diff_vs_amount__数量の割合": {
+  "median_abs_pt": 3.779278918334156,
+  "p90_abs_pt": 15.357496777182684,
+  "max_abs_pt": 86.58778800655216,
+  "over_5pt": 122
+ },
+ "rate_diff_vs_amount__いちばん高い明細に寄せる": {
+  "median_abs_pt": 2.509472868346714,
+  "p90_abs_pt": 4.864397070255987,
+  "max_abs_pt": 7.6043316517602655,
+  "over_5pt": 29
+ },
+ "rate_diff_vs_amount__割り振らない（別の行）": {
+  "median_abs_pt": 6.823656170447806,
+  "p90_abs_pt": 8.88398260481154,
+  "max_abs_pt": 11.049825054015008,
+  "over_5pt": 273
+ },
+ "dept_rate_pct": {
+  "金額の割合": {
+   "食品": 14.4,
+   "日用品": 4.2,
+   "飲料": 9.3,
+   "化粧品": 40.2,
+   "衣料": 45.2,
+   "家電小物": 22.2,
+   "文具": 32.2,
+   "ギフト": 29.9
+  },
+  "数量の割合": {
+   "食品": 11.0,
+   "日用品": -1.8,
+   "飲料": -3.8,
+   "化粧品": 42.9,
+   "衣料": 48.2,
+   "家電小物": 26.3,
+   "文具": 27.8,
+   "ギフト": 33.4
+  },
+  "いちばん高い明細に寄せる": {
+   "食品": 16.4,
+   "日用品": 7.1,
+   "飲料": 13.5,
+   "化粧品": 38.9,
+   "衣料": 43.3,
+   "家電小物": 19.8,
+   "文具": 34.1,
+   "ギフト": 28.1
+  },
+  "割り振らない（別の行）": {
+   "食品": 21.7,
+   "日用品": 12.4,
+   "飲料": 17.5,
+   "化粧品": 45.3,
+   "衣料": 50.0,
+   "家電小物": 28.6,
+   "文具": 38.0,
+   "ギフト": 35.8
+  }
+ },
+ "dept_range_pt": {
+  "食品": 5.4,
+  "日用品": 8.9,
+  "飲料": 17.3,
+  "化粧品": 4.0,
+  "衣料": 5.0,
+  "家電小物": 6.5,
+  "文具": 6.4,
+  "ギフト": 5.3
+ },
+ "dept_rank_change": 4,
+ "total_gp": {
+  "金額の割合": 45877040,
+  "数量の割合": 45877040,
+  "いちばん高い明細に寄せる": 45877040,
+  "割り振らない（別の行）": 62665319
+ },
+ "total_gp_no_alloc_minus_discount": 45877040,
+ "lines_negative_net": {
+  "金額の割合": 0,
+  "数量の割合": 3357,
+  "いちばん高い明細に寄せる": 767,
+  "割り振らない（別の行）": 0
+ },
+ "lines_below_cost": {
+  "金額の割合": 0.14393795203654358,
+  "数量の割合": 0.25896935668062426,
+  "いちばん高い明細に寄せる": 0.06994670727065093,
+  "割り振らない（別の行）": 0.0
+ },
+ "rounding": {
+  "四捨五入": {
+   "orders_not_matching_pct": 18.228273659438564,
+   "total_gap_yen": 36,
+   "max_gap_yen": 2
+  },
+  "切り捨て": {
+   "orders_not_matching_pct": 65.6311985207598,
+   "total_gap_yen": -36101,
+   "max_gap_yen": 5
+  },
+  "切り上げ": {
+   "orders_not_matching_pct": 65.6311985207598,
+   "total_gap_yen": 36293,
+   "max_gap_yen": 5
+  },
+  "切り捨てて余りを戻す": {
+   "orders_not_matching_pct": 0.0,
+   "total_gap_yen": 0,
+   "max_gap_yen": 0
+  }
+ },
+ "round_mismatch_among_multi_line_pct": 21.9185834984032,
+ "sweep": [
+  {
+   "scene": "値引きが少ない",
+   "discount_share_pct": 5.56,
+   "neg_amount": 5.8,
+   "neg_qty": 29.8,
+   "neg_top": 0.8,
+   "rate_diff_median_pt": 2.91,
+   "rate_diff_p90_pt": 9.41,
+   "sign_differs": 29.4
+  },
+  {
+   "scene": "基本",
+   "discount_share_pct": 8.51,
+   "neg_amount": 16.4,
+   "neg_qty": 72.0,
+   "neg_top": 7.2,
+   "rate_diff_median_pt": 3.96,
+   "rate_diff_p90_pt": 18.03,
+   "sign_differs": 66.0
+  },
+  {
+   "scene": "値引きが多い",
+   "discount_share_pct": 13.19,
+   "neg_amount": 60.2,
+   "neg_qty": 123.8,
+   "neg_top": 28.4,
+   "rate_diff_median_pt": 5.98,
+   "rate_diff_p90_pt": 35.11,
+   "sign_differs": 100.4
+  }
+ ]
+}
