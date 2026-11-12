@@ -1,0 +1,41 @@
+{
+ "n_tx": 47787,
+ "n_events": 51215,
+ "today": "2026-03-31",
+ "share_corrected": 0.0489,
+ "share_cancelled": 0.0158,
+ "months_exact": {
+  "A_overwrite": 0,
+  "B_update_log": 0,
+  "C_asof": 12,
+  "Bplus_with_insert_time_and_deletes": 12
+ },
+ "months_within_0.1pct": {
+  "A_overwrite": 0,
+  "B_update_log": 1,
+  "C_asof": 12
+ },
+ "abs_diff_pct_mean": {
+  "A_overwrite": 1.108,
+  "B_update_log": 0.839,
+  "C_asof": 0.0
+ },
+ "abs_diff_pct_max": {
+  "A_overwrite": 2.704,
+  "B_update_log": 1.542,
+  "C_asof": 0.0
+ },
+ "net_move_pct_mean": 1.108,
+ "gross_moved_pct_mean": 2.793,
+ "moved_rows_mean": {
+  "late": 56.25,
+  "cancel": 18.833333333333332,
+  "corr": 85.33333333333333
+ },
+ "moved_amt_share": {
+  "late": 0.595,
+  "cancel": 0.229,
+  "corr": 0.176
+ },
+ "rows_C_over_A": 1.089
+}
