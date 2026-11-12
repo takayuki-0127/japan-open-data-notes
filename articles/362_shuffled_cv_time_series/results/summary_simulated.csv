@@ -1,0 +1,4 @@
+setting,shuffled,time_ordered,future,shuffled_over_future,time_over_future,shuffled_below_future,time_below_future,shuffled_less_than_half,time_less_than_half
+日付の特徴量＋勾配ブースティング,7.57,17.62,16.04,0.48,1.06,100.0,40.0,54.0,4.0
+日付の特徴量＋線形回帰,12.99,16.48,15.56,0.84,1.09,70.0,44.0,16.0,4.0
+28日以上前の実績＋勾配ブースティング,14.43,18.22,16.41,0.9,1.1,68.0,28.0,2.0,2.0

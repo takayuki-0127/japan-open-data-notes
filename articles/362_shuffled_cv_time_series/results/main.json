@@ -1,0 +1,178 @@
+{
+ "n_series": 50,
+ "train_days": 1095,
+ "future_days": 182,
+ "summary": [
+  {
+   "setting": "日付の特徴量＋勾配ブースティング",
+   "shuffled": 7.57,
+   "time_ordered": 17.62,
+   "future": 16.04,
+   "shuffled_over_future": 0.48,
+   "time_over_future": 1.06,
+   "shuffled_below_future": 100.0,
+   "time_below_future": 40.0,
+   "shuffled_less_than_half": 54.0,
+   "time_less_than_half": 4.0
+  },
+  {
+   "setting": "日付の特徴量＋線形回帰",
+   "shuffled": 12.99,
+   "time_ordered": 16.48,
+   "future": 15.56,
+   "shuffled_over_future": 0.84,
+   "time_over_future": 1.09,
+   "shuffled_below_future": 70.0,
+   "time_below_future": 44.0,
+   "shuffled_less_than_half": 16.0,
+   "time_less_than_half": 4.0
+  },
+  {
+   "setting": "28日以上前の実績＋勾配ブースティング",
+   "shuffled": 14.43,
+   "time_ordered": 18.22,
+   "future": 16.41,
+   "shuffled_over_future": 0.9,
+   "time_over_future": 1.1,
+   "shuffled_below_future": 68.0,
+   "time_below_future": 28.0,
+   "shuffled_less_than_half": 2.0,
+   "time_less_than_half": 2.0
+  }
+ ],
+ "sweep": [
+  {
+   "case": "続くずれなし",
+   "shuffled": 7.0,
+   "time_ordered": 7.77,
+   "future": 7.53,
+   "shuffled_over_future": 0.93,
+   "time_over_future": 1.02
+  },
+  {
+   "case": "弱い（0.5）",
+   "shuffled": 6.9,
+   "time_ordered": 8.41,
+   "future": 8.21,
+   "shuffled_over_future": 0.84,
+   "time_over_future": 1.08
+  },
+  {
+   "case": "強い（0.9）",
+   "shuffled": 7.57,
+   "time_ordered": 15.02,
+   "future": 16.27,
+   "shuffled_over_future": 0.47,
+   "time_over_future": 0.95
+  },
+  {
+   "case": "強い＋水準が動く",
+   "shuffled": 7.51,
+   "time_ordered": 19.36,
+   "future": 15.88,
+   "shuffled_over_future": 0.48,
+   "time_over_future": 1.16
+  }
+ ],
+ "real": [
+  {
+   "gyotai": "コンビニ",
+   "model": "勾配ブースティング",
+   "months": 152,
+   "shuffled": 4.48,
+   "time_ordered": 5.35,
+   "future": 5.44
+  },
+  {
+   "gyotai": "コンビニ",
+   "model": "線形回帰",
+   "months": 152,
+   "shuffled": 2.91,
+   "time_ordered": 5.43,
+   "future": 1.92
+  },
+  {
+   "gyotai": "スーパー",
+   "model": "勾配ブースティング",
+   "months": 152,
+   "shuffled": 4.78,
+   "time_ordered": 7.3,
+   "future": 6.5
+  },
+  {
+   "gyotai": "スーパー",
+   "model": "線形回帰",
+   "months": 152,
+   "shuffled": 3.85,
+   "time_ordered": 6.85,
+   "future": 3.86
+  },
+  {
+   "gyotai": "ドラッグストア",
+   "model": "勾配ブースティング",
+   "months": 152,
+   "shuffled": 4.7,
+   "time_ordered": 9.02,
+   "future": 9.93
+  },
+  {
+   "gyotai": "ドラッグストア",
+   "model": "線形回帰",
+   "months": 152,
+   "shuffled": 2.63,
+   "time_ordered": 4.12,
+   "future": 1.49
+  },
+  {
+   "gyotai": "ホームセンター",
+   "model": "勾配ブースティング",
+   "months": 152,
+   "shuffled": 8.73,
+   "time_ordered": 8.56,
+   "future": 8.79
+  },
+  {
+   "gyotai": "ホームセンター",
+   "model": "線形回帰",
+   "months": 152,
+   "shuffled": 3.16,
+   "time_ordered": 3.86,
+   "future": 2.4
+  },
+  {
+   "gyotai": "家電大型専門店",
+   "model": "勾配ブースティング",
+   "months": 152,
+   "shuffled": 12.24,
+   "time_ordered": 11.19,
+   "future": 9.8
+  },
+  {
+   "gyotai": "家電大型専門店",
+   "model": "線形回帰",
+   "months": 152,
+   "shuffled": 5.55,
+   "time_ordered": 6.22,
+   "future": 4.27
+  },
+  {
+   "gyotai": "百貨店",
+   "model": "勾配ブースティング",
+   "months": 152,
+   "shuffled": 14.11,
+   "time_ordered": 27.32,
+   "future": 8.12
+  },
+  {
+   "gyotai": "百貨店",
+   "model": "線形回帰",
+   "months": 152,
+   "shuffled": 11.94,
+   "time_ordered": 23.61,
+   "future": 18.13
+  }
+ ],
+ "real_gbm_shuffled_below_future": 4,
+ "real_gbm_median_ratio_shuffled": 0.91,
+ "real_gbm_median_ratio_time": 1.05
+}
