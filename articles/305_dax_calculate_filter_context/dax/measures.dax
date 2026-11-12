@@ -1,0 +1,25 @@
+// 実行していない（Power BI がないため未検証）。[売上] = SUM ( Sales[amount] )
+// M01：何も変えない
+M01 = SUM ( Sales[amount] )
+// M02：同じ列：行の「日用品」を「食品」に入れ替える
+M02 = CALCULATE ( [売上], Product[category] = "食品" )
+// M03：KEEPFILTERS：重ねる（日用品かつ食品＝空）
+M03 = CALCULATE ( [売上], KEEPFILTERS ( Product[category] = "食品" ) )
+// M04：同じ列：スライサーの「関東」を「関西」に入れ替える
+M04 = CALCULATE ( [売上], Store[region] = "関西" )
+// M05：同じ列：スライサーの2025年を2024年に入れ替える
+M05 = CALCULATE ( [売上], 'Date'[year] = 2024 )
+// M06：行の絞り込みを外す（全カテゴリ）
+M06 = CALCULATE ( [売上], ALL ( Product[category] ) )
+// M07：構成比の分母
+M07 = DIVIDE ( [売上], CALCULATE ( [売上], ALL ( Product[category] ) ) )
+// M08：スライサーも含めて全部外す
+M08 = CALCULATE ( [売上], ALL ( Sales ) )
+// M09：表の FILTER：いまの絞り込みの中で絞る
+M09 = CALCULATE ( [売上], FILTER ( Sales, Sales[amount] > 20000 ) )
+// M10：違う列：店の絞り込みは残るので、関東の店かつ関西＝空
+M10 = CALCULATE ( [売上], Store[region] = "関西" )
+// M11：メジャー参照：行ごとに絞られて店の平均になる
+M11 = AVERAGEX ( Store, [売上] )
+// M12：SUM を直接書く：行ごとに絞られず、全店の合計のまま
+M12 = AVERAGEX ( Store, SUM ( Sales[amount] ) )
