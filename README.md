@@ -427,7 +427,7 @@
 | 127 | 物価が高い県は13年ずっと東京都。ただ家賃を除くと、2023年から北海道が1位になった | [127_regional_prices](articles/127_regional_prices) |
 | 128 | ピアノは静岡県が100%、眼鏡枠は福井県が92%。1県に生産が集中する製造品は全体の1割 | [128_product_concentration](articles/128_product_concentration) |
 | 129 | 住まいの不満、多いのは断熱・地震・高齢者への配慮。治安への不満は10年で半分に、断熱はほぼ変わらず | [129_housing_satisfaction](articles/129_housing_satisfaction) |
-| 130 | 日本人観光客の日帰りは埼玉98%、和歌山51%。人数では9割が日帰りでも、お金では半分ほど | [130_tourism_daytrip](articles/130_tourism_daytrip) |
+| 130 | 日本人観光客の日帰りは埼玉99%、和歌山51%。人数では9割が日帰りでも、お金では半分ほど | [130_tourism_daytrip](articles/130_tourism_daytrip) |
 | 131 | 入院患者の平均年齢は60年で36歳から73歳に。4人に3人が65歳以上、それでも年齢ごとの入院は半分に | [131_inpatient_age](articles/131_inpatient_age) |
 | 132 | 高齢者1人あたりの介護給付費は全国31.2万円。大阪府37.6万円、栃木県26.4万円で、差の3分の1は年齢構成で説明できた | [132_ltc_benefits](articles/132_ltc_benefits) |
 | 133 | 私立小学校の学習費は公立の4.8倍。差の大部分は授業料や入学金で、公立中学生は塾代のほうが多かった | [133_school_expenses](articles/133_school_expenses) |
@@ -443,7 +443,7 @@
 | 143 | 内部留保は17年で2.2倍の555兆円。現預金の増加はその半分で、大企業では株式などの投資が増えていた | [143_retained_earnings](articles/143_retained_earnings) |
 | 144 | 住宅の価格指数は3月に高く12月に低い。季節の差は2.8%で、取引件数も3月に25〜38%増えていた | [144_housing_price_seasonality](articles/144_housing_price_seasonality) |
 | 145 | 訪日客の支出は「買物」から「宿泊」へ。中国は買物の割合が51%→37%、欧米は宿泊に4割以上を使っていた | [145_inbound_spending](articles/145_inbound_spending) |
-| 146 | 診療所は15年で6%増。腎臓内科・糖尿病内科・美容外科を掲げる所は2倍に、小児科と外科は2割減っていた | [146_clinic_specialties](articles/146_clinic_specialties) |
+| 146 | 診療所は15年で6%増。腎臓内科・糖尿病内科・美容外科を掲げる所は2倍以上に、小児科と外科は2割減っていた | [146_clinic_specialties](articles/146_clinic_specialties) |
 | 147 | 通所介護は2015年度まで訪問介護の2倍の速さで増えた。コロナ後は逆転し、訪問介護のほうが伸びていた | [147_home_vs_day_care](articles/147_home_vs_day_care) |
 | 148 | 小学校の先生の年齢構成は、「ふたコブ」からどう変わったか？ | [148_teacher_age](articles/148_teacher_age) |
 | 149 | 川や海に比べて、湖だけ環境基準の達成率が低いのはなぜか？ | [149_lake_water_quality](articles/149_lake_water_quality) |
@@ -469,7 +469,7 @@
 | 169 | 外国人労働者は10年で2.4倍。製造業は1位のまま割合が31%から25%に下がり、医療・福祉は8.4倍、建設業は5.0倍になった | [169_foreign_workers_by_industry](articles/169_foreign_workers_by_industry) |
 | 170 | 日本企業の海外現地法人は2021年度にASEANが中国を上回った。中国の現地法人で働く人は9年で4割減った | [170_overseas_affiliates_region](articles/170_overseas_affiliates_region) |
 | 171 | 道路の交通量は2015→2021年度で5.6%減。高速道路は延びたのに1区間あたり11%減、大型車の割合は上がった | [171_road_traffic_change](articles/171_road_traffic_change) |
-| 172 | 理容所はピークから25%減、美容所は60年で3.1倍。銭湯は84%減、クリーニングは58%減だった | [172_barber_beauty_salons](articles/172_barber_beauty_salons) |
+| 172 | 理容所はピークから26%減、美容所は60年で3.1倍。銭湯は84%減、クリーニングは58%減だった | [172_barber_beauty_salons](articles/172_barber_beauty_salons) |
 | 173 | 家庭の光熱費の内訳で52都市を分けると3タイプ。灯油型の4都市は光熱費が都市ガス型の1.5倍だった | [173_household_energy_types](articles/173_household_energy_types) |
 | 174 | 「3年で3割辞める」大卒は28年中27年で30%以上。高卒は50%から37%に下がり、1年目に辞める割合は減っていた | [174_three_year_turnover](articles/174_three_year_turnover) |
 | 175 | ゴルフ場の利用者は2000年比95でコロナ前並み。ボウリング場は34まで減ったが、それでも2019年までの減り方の延長よりは多かった | [175_golf_bowling_users](articles/175_golf_bowling_users) |
@@ -559,11 +559,11 @@
 | 259 | 統計表を毎年取り直すとき、何で「変わった」を見つけるか。SSDSE-B の版を比べると、重なる年の290セルが黙って変わっていた。空振りなしで見つけたのは、値を1セルずつ照合する点検だけだった | [259_stat_file_version_check](articles/259_stat_file_version_check) |
 | 260 | 取り込む前のチェックは、壊れたファイルをどこまで止めるか。公的統計の表に10種類の壊れを200回ずつ入れると、型とキーで5種類は全部止まり、桁ずれは94%止まった。1つの値が5%ずれる壊れは、4段すべてでも21%しか止まらなかった | [260_schema_validation_injected](articles/260_schema_validation_injected) |
 | 261 | データ辞書（列の説明書）は、何を書くと役に立つのか。SSDSE-B の109項目で作ると、CSV だけでは単位が全部分からず、37項目には「1か月分か」「県全体か」などの問いが残っていた | [261_data_dictionary_ssdse](articles/261_data_dictionary_ssdse) |
-| 262 | 真夏日になる最初の日は、90年で11日早くなった。10地点の平均で10年に1.9日のペースで、1961年以降は10年に3.5日。最後の真夏日は7日遅くなり、真夏日の季節は前と後ろの両方に広がった | [262_first_hot_day_trend](articles/262_first_hot_day_trend) |
-| 263 | 初めて雪が積もる日は、90年で4日ほど遅くなった。9地点のうち8地点で遅くなったが、春に雪が消える日のほうが早まり方は大きく、雪が積もっている日数は5〜14日減った | [263_first_snow_cover_trend](articles/263_first_snow_cover_trend) |
+| 262 | 真夏日になる最初の日は、1931〜60年と1996〜2025年の平均を比べると11日早くなった。10地点の平均で10年に1.9日のペースで、1961年以降は10年に3.5日。最後の真夏日は7日遅くなり、真夏日の季節は前と後ろの両方に広がった | [262_first_hot_day_trend](articles/262_first_hot_day_trend) |
+| 263 | 初めて雪が積もる日は、1931〜60年と1995〜2024年の平均を比べると4日ほど遅くなった。9地点のうち8地点で遅くなったが、春に雪が消える日のほうが早まり方は大きく、雪が積もっている日数は5〜14日減った | [263_first_snow_cover_trend](articles/263_first_snow_cover_trend) |
 | 264 | 1日の気温差は、95年で0.5℃縮んだ。夜の最低気温が昼の最高気温より速く上がったからだが、1990年代からは最高気温の上がり方が速く、差は広がる向きに変わっていた | [264_diurnal_temperature_range](articles/264_diurnal_temperature_range) |
-| 265 | 雨の降る日は90年で4%減り、降った日の雨量は4%増えた。13地点すべてで同じ向きで、年の降水量はほとんど変わらず、1日50mm以上の大雨の日は2割増えた | [265_wet_days_rain_intensity](articles/265_wet_days_rain_intensity) |
-| 266 | 最低気温が0℃を下回る最初の日は、90年で9日遅くなった。春の最後の日は13日早まり、冬日のない期間は平均で3週間あまり延びた。東京では最初の日が1か月遅くなっていた | [266_first_frost_day_trend](articles/266_first_frost_day_trend) |
+| 265 | 雨の降る日は、1931〜60年と1996〜2025年の平均を比べると4%減り、降った日の雨量は4%増えた。13地点すべてで同じ向きで、年の降水量はほとんど変わらず、1日50mm以上の大雨の日は2割増えた | [265_wet_days_rain_intensity](articles/265_wet_days_rain_intensity) |
+| 266 | 最低気温が0℃を下回る最初の日は、1931〜60年と1995〜2024年の平均を比べると9日遅くなった。春の最後の日は13日早まり、冬日のない期間は平均で3週間あまり延びた。東京では最初の日が1か月遅くなっていた | [266_first_frost_day_trend](articles/266_first_frost_day_trend) |
 | 267 | 相関を因果だと思いかけたとき、どう止めたか？ 条件をそろえる前と後を並べた10本では、5本で関係が消えるか向きが逆になった。「因果ではない」と注意に書いた60本の半分は、何が混ざっているかまで書いていなかった | [267_correlation_not_causation](articles/267_correlation_not_causation) |
 | 268 | 差の差・回帰不連続・合成コントロールを、どう選んできたか？ 主な手法として使った23本を並べると、選び方は「比べる相手がいるか」「1つの地域だけか」「始まった年がずれるか」「境目があるか」でほぼ決まっていた。23本のうち21本は、効果がないはずの所で試すか、始まる前の差を確かめていた | [268_causal_design_choice](articles/268_causal_design_choice) |
 | 269 | 「データが取れない」とき、どう代わりを探したか？ 463本の README で代わりの記録がある記事は3割、精選の記事では7割。多かったのは別の統計・別の表への切り替えと、単位を粗くすることで、9本の実例のうち8本では、代わりを使った分だけ言えないことが増えていた | [269_finding_substitute_data](articles/269_finding_substitute_data) |
