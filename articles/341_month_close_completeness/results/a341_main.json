@@ -1,0 +1,114 @@
+{
+ "n_tx": 411596,
+ "months": 36,
+ "final_mean_man": 20507.622741666666,
+ "completeness": {
+  "0": {
+   "median": 0.8314,
+   "min": 0.7709,
+   "max": 0.8662,
+   "within1pct": 0,
+   "within01pct": 0
+  },
+  "1": {
+   "median": 0.8856,
+   "min": 0.816,
+   "max": 0.9216,
+   "within1pct": 0,
+   "within01pct": 0
+  },
+  "3": {
+   "median": 0.9385,
+   "min": 0.8603,
+   "max": 0.9721,
+   "within1pct": 0,
+   "within01pct": 0
+  },
+  "5": {
+   "median": 0.972,
+   "min": 0.895,
+   "max": 0.9982,
+   "within1pct": 1,
+   "within01pct": 0
+  },
+  "10": {
+   "median": 0.9973,
+   "min": 0.9553,
+   "max": 1.0115,
+   "within1pct": 28,
+   "within01pct": 0
+  },
+  "15": {
+   "median": 1.0009,
+   "min": 0.9823,
+   "max": 1.0063,
+   "within1pct": 33,
+   "within01pct": 6
+  },
+  "20": {
+   "median": 1.0014,
+   "min": 0.9906,
+   "max": 1.0045,
+   "within1pct": 36,
+   "within01pct": 5
+  }
+ },
+ "estimate_mae": {
+  "0": {
+   "raw_mae": 0.17995,
+   "est_all_mae": 0.02753,
+   "est_cat_mae": 0.02879,
+   "raw_max": 0.22373,
+   "est_all_max": 0.06202,
+   "est_cat_max": 0.06615
+  },
+  "1": {
+   "raw_mae": 0.12492,
+   "est_all_mae": 0.02813,
+   "est_cat_mae": 0.02926,
+   "raw_max": 0.18403,
+   "est_all_max": 0.06917,
+   "est_cat_max": 0.07372
+  },
+  "3": {
+   "raw_mae": 0.07132,
+   "est_all_mae": 0.02368,
+   "est_cat_mae": 0.02486,
+   "raw_max": 0.13968,
+   "est_all_max": 0.07701,
+   "est_cat_max": 0.07956
+  },
+  "5": {
+   "raw_mae": 0.03771,
+   "est_all_mae": 0.02167,
+   "est_cat_mae": 0.02256,
+   "raw_max": 0.10503,
+   "est_all_max": 0.07347,
+   "est_cat_max": 0.07451
+  },
+  "10": {
+   "raw_mae": 0.00911,
+   "est_all_mae": 0.00924,
+   "est_cat_mae": 0.00927,
+   "raw_max": 0.04474,
+   "est_all_max": 0.03913,
+   "est_cat_max": 0.03853
+  }
+ },
+ "est_cat_mae_normal_months": {
+  "0": 0.02798,
+  "1": 0.02775,
+  "3": 0.02645,
+  "5": 0.02354,
+  "10": 0.00956
+ },
+ "est_cat_mae_big_invoice_months": {
+  "0": 0.03442,
+  "1": 0.03987,
+  "3": 0.0137,
+  "5": 0.0157,
+  "10": 0.00728
+ },
+ "first_day_all_within_1pct": 20,
+ "first_day_all_within_01pct": 60
+}
