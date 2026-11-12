@@ -1,0 +1,64 @@
+{
+ "files": 26,
+ "runs_per_design": 29,
+ "keys_expected": 150,
+ "A": {
+  "steps_with_mismatch": 24,
+  "steps": 25,
+  "max_mismatch_keys": 144,
+  "final_wrong_keys": 144,
+  "sum_2024_pct_diff": 116.089,
+  "sum_2025_pct_diff": 128.337,
+  "rows_in_table_since_2023_12": 324
+ },
+ "B": {
+  "steps_with_mismatch": 15,
+  "steps": 25,
+  "max_mismatch_keys": 6,
+  "final_wrong_keys": 6,
+  "sum_2024_pct_diff": -0.002,
+  "sum_2025_pct_diff": 0.0,
+  "rows_in_table_since_2023_12": 335
+ },
+ "C": {
+  "steps_with_mismatch": 15,
+  "steps": 25,
+  "max_mismatch_keys": 6,
+  "final_wrong_keys": 6,
+  "sum_2024_pct_diff": -0.002,
+  "sum_2025_pct_diff": 0.0,
+  "rows_in_table_since_2023_12": 150,
+  "reject_rows": 1,
+  "log_rows": 26,
+  "rows_skipped_old": 0,
+  "skipped_same_file": 2
+ },
+ "D": {
+  "steps_with_mismatch": 0,
+  "steps": 25,
+  "max_mismatch_keys": 0,
+  "final_wrong_keys": 0,
+  "sum_2024_pct_diff": 0.0,
+  "sum_2025_pct_diff": 0.0,
+  "rows_in_table_since_2023_12": 150,
+  "reject_rows": 1,
+  "log_rows": 26,
+  "rows_skipped_old": 6,
+  "skipped_same_file": 2
+ },
+ "B_without_view": {
+  "final_wrong_keys": 144,
+  "sum_2024_pct_diff": 130.587,
+  "sum_2025_pct_diff": 128.337
+ },
+ "sep2024_wrong_final": {
+  "C": 6,
+  "D": 0
+ },
+ "dup_check": {
+  "A": 144,
+  "B": 144,
+  "C": 0,
+  "D": 0
+ }
+}
