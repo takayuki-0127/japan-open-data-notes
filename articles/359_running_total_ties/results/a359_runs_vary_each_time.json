@@ -1,0 +1,36 @@
+{
+ "rows_date_only": {
+  "runs": 20,
+  "rows_value_changes_between_runs_pct": 57.867896464070135,
+  "rows_value_changes_on_multi_days_pct": 100.0,
+  "wrong_vs_unique_pct_mean": 36.51825414938576,
+  "wrong_vs_unique_pct_min": 36.18406037759607,
+  "wrong_vs_unique_pct_max": 36.76643030841997,
+  "same_select_equals_unique_pct": 100.0,
+  "alone_sorted_input_equals_unique_pct": 100.0,
+  "negative_accounts_min": 765,
+  "negative_accounts_max": 784
+ },
+ "neg_runs": [
+  775,
+  775,
+  772,
+  774,
+  770,
+  765,
+  779,
+  776,
+  770,
+  773,
+  784,
+  775,
+  778,
+  765,
+  780,
+  779,
+  778,
+  782,
+  776,
+  775
+ ]
+}
