@@ -1,0 +1,307 @@
+{
+ "all": {
+  "総数": {
+   "1918": {
+    "actual": 1493162,
+    "expected": 1153307,
+    "excess": 339855,
+    "excess_pct": 29.5
+   },
+   "1919": {
+    "actual": 1281965,
+    "expected": 1157187,
+    "excess": 124778,
+    "excess_pct": 10.8
+   },
+   "1920": {
+    "actual": 1422096,
+    "expected": 1174351,
+    "excess": 247745,
+    "excess_pct": 21.1
+   },
+   "total_excess": 712378,
+   "resid_sd_pct": 5.2
+  },
+  "男": {
+   "1918": {
+    "actual": 753392,
+    "expected": 586719,
+    "excess": 166673,
+    "excess_pct": 28.4
+   },
+   "1919": {
+    "actual": 648984,
+    "expected": 589326,
+    "excess": 59658,
+    "excess_pct": 10.1
+   },
+   "1920": {
+    "actual": 720655,
+    "expected": 598171,
+    "excess": 122484,
+    "excess_pct": 20.5
+   },
+   "total_excess": 348815,
+   "resid_sd_pct": 5.2
+  },
+  "女": {
+   "1918": {
+    "actual": 739770,
+    "expected": 566574,
+    "excess": 173196,
+    "excess_pct": 30.6
+   },
+   "1919": {
+    "actual": 632981,
+    "expected": 567839,
+    "excess": 65142,
+    "excess_pct": 11.5
+   },
+   "1920": {
+    "actual": 701441,
+    "expected": 576141,
+    "excess": 125300,
+    "excess_pct": 21.7
+   },
+   "total_excess": 363638,
+   "resid_sd_pct": 5.2
+  }
+ },
+ "population_1918_man": 5474,
+ "excess_per_1000_pop": 13.0,
+ "by_cause": {
+  "肺炎": {
+   "1918": {
+    "actual": 205533,
+    "expected": 96558,
+    "excess": 108975,
+    "excess_pct": 112.9
+   },
+   "1919": {
+    "actual": 151063,
+    "expected": 99111,
+    "excess": 51952,
+    "excess_pct": 52.4
+   },
+   "1920": {
+    "actual": 175674,
+    "expected": 102857,
+    "excess": 72817,
+    "excess_pct": 70.8
+   },
+   "total_excess": 233744,
+   "resid_sd_pct": 7.6
+  },
+  "結核": {
+   "1918": {
+    "actual": 140747,
+    "expected": 116975,
+    "excess": 23772,
+    "excess_pct": 20.3
+   },
+   "1919": {
+    "actual": 132565,
+    "expected": 116395,
+    "excess": 16170,
+    "excess_pct": 13.9
+   },
+   "1920": {
+    "actual": 125165,
+    "expected": 117138,
+    "excess": 8027,
+    "excess_pct": 6.9
+   },
+   "total_excess": 47969,
+   "resid_sd_pct": 3.9
+  },
+  "心疾患（高血圧性を除く）": {
+   "1918": {
+    "actual": 44760,
+    "expected": 35500,
+    "excess": 9260,
+    "excess_pct": 26.1
+   },
+   "1919": {
+    "actual": 34426,
+    "expected": 35748,
+    "excess": -1322,
+    "excess_pct": -3.7
+   },
+   "1920": {
+    "actual": 35540,
+    "expected": 36454,
+    "excess": -914,
+    "excess_pct": -2.5
+   },
+   "total_excess": 7024,
+   "resid_sd_pct": 4.6
+  },
+  "脳血管疾患": {
+   "1918": {
+    "actual": 86262,
+    "expected": 80142,
+    "excess": 6120,
+    "excess_pct": 7.6
+   },
+   "1919": {
+    "actual": 84382,
+    "expected": 81993,
+    "excess": 2389,
+    "excess_pct": 2.9
+   },
+   "1920": {
+    "actual": 88186,
+    "expected": 84773,
+    "excess": 3413,
+    "excess_pct": 4.0
+   },
+   "total_excess": 11922,
+   "resid_sd_pct": 4.2
+  },
+  "老衰": {
+   "1918": {
+    "actual": 82073,
+    "expected": 66126,
+    "excess": 15947,
+    "excess_pct": 24.1
+   },
+   "1919": {
+    "actual": 69431,
+    "expected": 66648,
+    "excess": 2783,
+    "excess_pct": 4.2
+   },
+   "1920": {
+    "actual": 73468,
+    "expected": 67989,
+    "excess": 5479,
+    "excess_pct": 8.1
+   },
+   "total_excess": 24209,
+   "resid_sd_pct": 6.8
+  },
+  "悪性新生物": {
+   "1918": {
+    "actual": 40281,
+    "expected": 38650,
+    "excess": 1631,
+    "excess_pct": 4.2
+   },
+   "1919": {
+    "actual": 39438,
+    "expected": 38915,
+    "excess": 523,
+    "excess_pct": 1.3
+   },
+   "1920": {
+    "actual": 40648,
+    "expected": 39684,
+    "excess": 964,
+    "excess_pct": 2.4
+   },
+   "total_excess": 3118,
+   "resid_sd_pct": 2.4
+  }
+ },
+ "other_causes_excess": 384392,
+ "pneumonia_share_pct": 32.8,
+ "robust": {
+  "1908-1930": 740571,
+  "1912-1925": 646633,
+  "1905-1927": 711385,
+  "mean_1913_17": 673795
+ },
+ "near_years_baseline": {
+  "1918": 267987,
+  "1919": 50177,
+  "1920": 169500,
+  "total_excess": 487664,
+  "pneumonia_excess": 214767,
+  "infant_excess": 28029
+ },
+ "infant": {
+  "1918": {
+   "imr": 188.6,
+   "expected_imr": 157.3,
+   "excess": 56160
+  },
+  "1919": {
+   "imr": 170.5,
+   "expected_imr": 156.4,
+   "excess": 25062
+  },
+  "1920": {
+   "imr": 165.7,
+   "expected_imr": 155.6,
+   "excess": 20541
+  },
+  "total_excess": 101763
+ },
+ "infant_share_of_excess_pct": 14.3,
+ "infant_share_of_usual_deaths_pct": 26.1,
+ "monthly_1920": {
+  "1": {
+   "deaths": 186756,
+   "ratio_to_1915_25": 1.79
+  },
+  "2": {
+   "deaths": 159912,
+   "ratio_to_1915_25": 1.47
+  },
+  "3": {
+   "deaths": 140204,
+   "ratio_to_1915_25": 1.29
+  },
+  "4": {
+   "deaths": 111432,
+   "ratio_to_1915_25": 1.24
+  },
+  "5": {
+   "deaths": 97118,
+   "ratio_to_1915_25": 1.1
+  },
+  "6": {
+   "deaths": 89331,
+   "ratio_to_1915_25": 1.03
+  },
+  "7": {
+   "deaths": 110118,
+   "ratio_to_1915_25": 1.08
+  },
+  "8": {
+   "deaths": 123895,
+   "ratio_to_1915_25": 1.21
+  },
+  "9": {
+   "deaths": 114026,
+   "ratio_to_1915_25": 1.2
+  },
+  "10": {
+   "deaths": 99757,
+   "ratio_to_1915_25": 1.08
+  },
+  "11": {
+   "deaths": 88844,
+   "ratio_to_1915_25": 1.05
+  },
+  "12": {
+   "deaths": 100661,
+   "ratio_to_1915_25": 1.07
+  }
+ },
+ "monthly_1920_excess_vs_1915_25": {
+  "1": 82616,
+  "2": 51328,
+  "3": 31927,
+  "4": 21724,
+  "5": 9133,
+  "6": 2782,
+  "7": 8326,
+  "8": 21684,
+  "9": 19352,
+  "10": 7129,
+  "11": 3868,
+  "12": 6246
+ },
+ "jan_mar_1920_excess": 165871
+}
