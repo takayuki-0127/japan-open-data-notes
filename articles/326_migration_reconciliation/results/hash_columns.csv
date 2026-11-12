@@ -1,0 +1,11 @@
+ミス,ハッシュが違った列
+M1 行の欠け（取引の0.1%）,tx.account_id、tx.tx_at、tx.amount、tx.memo
+M2 行の重複（取引50行）,tx.account_id、tx.tx_at、tx.amount、tx.memo
+M3 端数の切り捨て（銭）,tx.amount
+M4 符号の逆転（手数料300行）,tx.amount
+M5 文字の切り詰め（名前12文字）,customer.name
+M6 文字の置き換え（旧字体・ハイフン）,customer.name、customer.address
+M7 日時のずれ（9時間）,tx.tx_at
+M8 NULL が 0・空文字に,customer.email、account.credit_limit
+M9 ひも付けのずれ（口座30組）,account.customer_id
+M10 相殺する入れ違い（100組）,tx.amount
