@@ -1,0 +1,98 @@
+{
+ "all_refit_pairs": {
+  "max": 0.96169,
+  "min": 0.96163,
+  "n": 45,
+  "share_best": 0.378
+ },
+ "best_private": 0.96169,
+ "best_private_versions": [
+  "v17b",
+  "v25"
+ ],
+ "blend_minus_single": {
+  "cv": 0.00013,
+  "private": 6e-05,
+  "public": 0.00012
+ },
+ "cv_vs_private_refit": {
+  "n": 7,
+  "spearman": 0.288
+ },
+ "gap_max": 0.00119,
+ "gap_mean": 0.00095,
+ "gap_min": 0.00086,
+ "n_refit": 10,
+ "n_submissions": 21,
+ "n_top": 19,
+ "n_versions": 23,
+ "refit_minus_fold_private": 9e-05,
+ "refit_minus_fold_public": 0.00012,
+ "refit_private_range": 8e-05,
+ "refit_public_range": 0.00016,
+ "rules": [
+  {
+   "each": [
+    0.96169,
+    0.96163
+   ],
+   "final": 0.96169,
+   "pair": [
+    "v25",
+    "v25s"
+   ],
+   "rule": "CV で選ぶ（記録に書いた2本）"
+  },
+  {
+   "each": [
+    0.96168,
+    0.96169
+   ],
+   "final": 0.96169,
+   "pair": [
+    "v22",
+    "v25"
+   ],
+   "rule": "Public の上位2本（同点は v25）"
+  },
+  {
+   "each": [
+    0.96168,
+    0.96169
+   ],
+   "final": 0.96169,
+   "pair": [
+    "v22",
+    "v17b"
+   ],
+   "rule": "Public の上位2本（同点は v17b）"
+  },
+  {
+   "each": [
+    0.96168,
+    0.9616
+   ],
+   "final": 0.96168,
+   "pair": [
+    "v22",
+    "v9"
+   ],
+   "rule": "10/19 朝の案（Public 最良＋甘い CV 最良）"
+  },
+  {
+   "each": [
+    0.9616,
+    0.96159
+   ],
+   "final": 0.9616,
+   "pair": [
+    "v9",
+    "v3"
+   ],
+   "rule": "fold 版だけの時点の案（v9＋v3）"
+  }
+ ],
+ "spearman_all": 0.911,
+ "spearman_refit": 0.652,
+ "spearman_top19": 0.879
+}
