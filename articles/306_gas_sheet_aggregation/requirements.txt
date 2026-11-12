@@ -1,0 +1,4 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+# Node.js 18 以上（test/ の実行に使う）
