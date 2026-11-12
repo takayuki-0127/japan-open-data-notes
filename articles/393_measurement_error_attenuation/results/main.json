@@ -1,0 +1,530 @@
+{
+ "seed": 393,
+ "attenuation": [
+  {
+   "rho": 0.0,
+   "reliability": 1.0,
+   "b_w": 1.001,
+   "b_w_theory": 1.0,
+   "b_z": 0.501,
+   "b_z_theory": 0.5,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.0,
+   "reliability": 0.9,
+   "b_w": 0.9,
+   "b_w_theory": 0.9,
+   "b_z": 0.5,
+   "b_z_theory": 0.5,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.0,
+   "reliability": 0.8,
+   "b_w": 0.8,
+   "b_w_theory": 0.8,
+   "b_z": 0.501,
+   "b_z_theory": 0.5,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.0,
+   "reliability": 0.7,
+   "b_w": 0.699,
+   "b_w_theory": 0.7,
+   "b_z": 0.501,
+   "b_z_theory": 0.5,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.0,
+   "reliability": 0.6,
+   "b_w": 0.6,
+   "b_w_theory": 0.6,
+   "b_z": 0.5,
+   "b_z_theory": 0.5,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.0,
+   "reliability": 0.5,
+   "b_w": 0.499,
+   "b_w_theory": 0.5,
+   "b_z": 0.5,
+   "b_z_theory": 0.5,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.3,
+   "reliability": 1.0,
+   "b_w": 0.999,
+   "b_w_theory": 1.0,
+   "b_z": 0.501,
+   "b_z_theory": 0.5,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.3,
+   "reliability": 0.9,
+   "b_w": 0.89,
+   "b_w_theory": 0.891,
+   "b_z": 0.533,
+   "b_z_theory": 0.533,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.3,
+   "reliability": 0.8,
+   "b_w": 0.784,
+   "b_w_theory": 0.784,
+   "b_z": 0.565,
+   "b_z_theory": 0.565,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.3,
+   "reliability": 0.7,
+   "b_w": 0.679,
+   "b_w_theory": 0.68,
+   "b_z": 0.595,
+   "b_z_theory": 0.596,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.3,
+   "reliability": 0.6,
+   "b_w": 0.577,
+   "b_w_theory": 0.577,
+   "b_z": 0.628,
+   "b_z_theory": 0.627,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.3,
+   "reliability": 0.5,
+   "b_w": 0.475,
+   "b_w_theory": 0.476,
+   "b_z": 0.657,
+   "b_z_theory": 0.657,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.6,
+   "reliability": 1.0,
+   "b_w": 1.0,
+   "b_w_theory": 1.0,
+   "b_z": 0.501,
+   "b_z_theory": 0.5,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.6,
+   "reliability": 0.9,
+   "b_w": 0.852,
+   "b_w_theory": 0.852,
+   "b_z": 0.589,
+   "b_z_theory": 0.589,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.6,
+   "reliability": 0.8,
+   "b_w": 0.72,
+   "b_w_theory": 0.719,
+   "b_z": 0.666,
+   "b_z_theory": 0.669,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.6,
+   "reliability": 0.7,
+   "b_w": 0.6,
+   "b_w_theory": 0.599,
+   "b_z": 0.739,
+   "b_z_theory": 0.741,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.6,
+   "reliability": 0.6,
+   "b_w": 0.49,
+   "b_w_theory": 0.49,
+   "b_z": 0.807,
+   "b_z_theory": 0.806,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.6,
+   "reliability": 0.5,
+   "b_w": 0.389,
+   "b_w_theory": 0.39,
+   "b_z": 0.868,
+   "b_z_theory": 0.866,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.8,
+   "reliability": 1.0,
+   "b_w": 0.999,
+   "b_w_theory": 1.0,
+   "b_z": 0.501,
+   "b_z_theory": 0.5,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.8,
+   "reliability": 0.9,
+   "b_w": 0.765,
+   "b_w_theory": 0.764,
+   "b_z": 0.688,
+   "b_z_theory": 0.689,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.8,
+   "reliability": 0.8,
+   "b_w": 0.591,
+   "b_w_theory": 0.59,
+   "b_z": 0.828,
+   "b_z_theory": 0.828,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.8,
+   "reliability": 0.7,
+   "b_w": 0.458,
+   "b_w_theory": 0.457,
+   "b_z": 0.934,
+   "b_z_theory": 0.935,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.8,
+   "reliability": 0.6,
+   "b_w": 0.35,
+   "b_w_theory": 0.351,
+   "b_z": 1.02,
+   "b_z_theory": 1.019,
+   "true_b_z": 0.5
+  },
+  {
+   "rho": 0.8,
+   "reliability": 0.5,
+   "b_w": 0.265,
+   "b_w_theory": 0.265,
+   "b_z": 1.087,
+   "b_z_theory": 1.088,
+   "true_b_z": 0.5
+  }
+ ],
+ "spurious": [
+  {
+   "reliability": 1.0,
+   "n": 100,
+   "rho": 0.6,
+   "z_significant_pct": 5.1,
+   "b_z_mean": -0.0,
+   "b_z_theory": 0.0
+  },
+  {
+   "reliability": 1.0,
+   "n": 300,
+   "rho": 0.6,
+   "z_significant_pct": 4.85,
+   "b_z_mean": -0.0,
+   "b_z_theory": 0.0
+  },
+  {
+   "reliability": 1.0,
+   "n": 1000,
+   "rho": 0.6,
+   "z_significant_pct": 5.6,
+   "b_z_mean": 0.0,
+   "b_z_theory": 0.0
+  },
+  {
+   "reliability": 1.0,
+   "n": 3000,
+   "rho": 0.6,
+   "z_significant_pct": 4.65,
+   "b_z_mean": -0.0,
+   "b_z_theory": 0.0
+  },
+  {
+   "reliability": 0.9,
+   "n": 100,
+   "rho": 0.6,
+   "z_significant_pct": 10.45,
+   "b_z_mean": 0.09,
+   "b_z_theory": 0.09
+  },
+  {
+   "reliability": 0.9,
+   "n": 300,
+   "rho": 0.6,
+   "z_significant_pct": 22.2,
+   "b_z_mean": 0.09,
+   "b_z_theory": 0.09
+  },
+  {
+   "reliability": 0.9,
+   "n": 1000,
+   "rho": 0.6,
+   "z_significant_pct": 58.65,
+   "b_z_mean": 0.09,
+   "b_z_theory": 0.09
+  },
+  {
+   "reliability": 0.9,
+   "n": 3000,
+   "rho": 0.6,
+   "z_significant_pct": 97.2,
+   "b_z_mean": 0.09,
+   "b_z_theory": 0.09
+  },
+  {
+   "reliability": 0.7,
+   "n": 100,
+   "rho": 0.6,
+   "z_significant_pct": 44.7,
+   "b_z_mean": 0.24,
+   "b_z_theory": 0.24
+  },
+  {
+   "reliability": 0.7,
+   "n": 300,
+   "rho": 0.6,
+   "z_significant_pct": 88.5,
+   "b_z_mean": 0.24,
+   "b_z_theory": 0.24
+  },
+  {
+   "reliability": 0.7,
+   "n": 1000,
+   "rho": 0.6,
+   "z_significant_pct": 100.0,
+   "b_z_mean": 0.24,
+   "b_z_theory": 0.24
+  },
+  {
+   "reliability": 0.7,
+   "n": 3000,
+   "rho": 0.6,
+   "z_significant_pct": 100.0,
+   "b_z_mean": 0.24,
+   "b_z_theory": 0.24
+  },
+  {
+   "reliability": 0.5,
+   "n": 100,
+   "rho": 0.6,
+   "z_significant_pct": 75.6,
+   "b_z_mean": 0.36,
+   "b_z_theory": 0.37
+  },
+  {
+   "reliability": 0.5,
+   "n": 300,
+   "rho": 0.6,
+   "z_significant_pct": 99.8,
+   "b_z_mean": 0.37,
+   "b_z_theory": 0.37
+  },
+  {
+   "reliability": 0.5,
+   "n": 1000,
+   "rho": 0.6,
+   "z_significant_pct": 100.0,
+   "b_z_mean": 0.36,
+   "b_z_theory": 0.37
+  },
+  {
+   "reliability": 0.5,
+   "n": 3000,
+   "rho": 0.6,
+   "z_significant_pct": 100.0,
+   "b_z_mean": 0.37,
+   "b_z_theory": 0.37
+  }
+ ],
+ "correction": [
+  {
+   "reliability": 0.7,
+   "n": 200,
+   "method": "そのまま（1回の測定）",
+   "mean": 0.7,
+   "bias_pct": -30.022,
+   "sd": 0.068,
+   "rmse": 0.308,
+   "naive_ci_cover_pct": 0.65
+  },
+  {
+   "reliability": 0.7,
+   "n": 200,
+   "method": "2回の測定の平均",
+   "mean": 0.824,
+   "bias_pct": -17.614,
+   "sd": 0.07,
+   "rmse": 0.189,
+   "naive_ci_cover_pct": NaN
+  },
+  {
+   "reliability": 0.7,
+   "n": 200,
+   "method": "信頼性で割る",
+   "mean": 1.004,
+   "bias_pct": 0.42,
+   "sd": 0.099,
+   "rmse": 0.099,
+   "naive_ci_cover_pct": NaN
+  },
+  {
+   "reliability": 0.7,
+   "n": 200,
+   "method": "2回目の測定を道具に使う",
+   "mean": 1.005,
+   "bias_pct": 0.539,
+   "sd": 0.102,
+   "rmse": 0.103,
+   "naive_ci_cover_pct": NaN
+  },
+  {
+   "reliability": 0.7,
+   "n": 1000,
+   "method": "そのまま（1回の測定）",
+   "mean": 0.702,
+   "bias_pct": -29.801,
+   "sd": 0.03,
+   "rmse": 0.3,
+   "naive_ci_cover_pct": 0.0
+  },
+  {
+   "reliability": 0.7,
+   "n": 1000,
+   "method": "2回の測定の平均",
+   "mean": 0.825,
+   "bias_pct": -17.461,
+   "sd": 0.031,
+   "rmse": 0.177,
+   "naive_ci_cover_pct": NaN
+  },
+  {
+   "reliability": 0.7,
+   "n": 1000,
+   "method": "信頼性で割る",
+   "mean": 1.003,
+   "bias_pct": 0.299,
+   "sd": 0.045,
+   "rmse": 0.045,
+   "naive_ci_cover_pct": NaN
+  },
+  {
+   "reliability": 0.7,
+   "n": 1000,
+   "method": "2回目の測定を道具に使う",
+   "mean": 1.002,
+   "bias_pct": 0.227,
+   "sd": 0.045,
+   "rmse": 0.045,
+   "naive_ci_cover_pct": NaN
+  },
+  {
+   "reliability": 0.5,
+   "n": 200,
+   "method": "そのまま（1回の測定）",
+   "mean": 0.5,
+   "bias_pct": -49.961,
+   "sd": 0.062,
+   "rmse": 0.503,
+   "naive_ci_cover_pct": 0.0
+  },
+  {
+   "reliability": 0.5,
+   "n": 200,
+   "method": "2回の測定の平均",
+   "mean": 0.668,
+   "bias_pct": -33.236,
+   "sd": 0.067,
+   "rmse": 0.339,
+   "naive_ci_cover_pct": NaN
+  },
+  {
+   "reliability": 0.5,
+   "n": 200,
+   "method": "信頼性で割る",
+   "mean": 1.014,
+   "bias_pct": 1.368,
+   "sd": 0.143,
+   "rmse": 0.144,
+   "naive_ci_cover_pct": NaN
+  },
+  {
+   "reliability": 0.5,
+   "n": 200,
+   "method": "2回目の測定を道具に使う",
+   "mean": 1.013,
+   "bias_pct": 1.251,
+   "sd": 0.148,
+   "rmse": 0.149,
+   "naive_ci_cover_pct": NaN
+  },
+  {
+   "reliability": 0.5,
+   "n": 1000,
+   "method": "そのまま（1回の測定）",
+   "mean": 0.5,
+   "bias_pct": -50.005,
+   "sd": 0.027,
+   "rmse": 0.501,
+   "naive_ci_cover_pct": 0.0
+  },
+  {
+   "reliability": 0.5,
+   "n": 1000,
+   "method": "2回の測定の平均",
+   "mean": 0.668,
+   "bias_pct": -33.229,
+   "sd": 0.029,
+   "rmse": 0.334,
+   "naive_ci_cover_pct": NaN
+  },
+  {
+   "reliability": 0.5,
+   "n": 1000,
+   "method": "信頼性で割る",
+   "mean": 1.002,
+   "bias_pct": 0.204,
+   "sd": 0.059,
+   "rmse": 0.059,
+   "naive_ci_cover_pct": NaN
+  },
+  {
+   "reliability": 0.5,
+   "n": 1000,
+   "method": "2回目の測定を道具に使う",
+   "mean": 1.004,
+   "bias_pct": 0.436,
+   "sd": 0.062,
+   "rmse": 0.062,
+   "naive_ci_cover_pct": NaN
+  }
+ ],
+ "error_in_y": [
+  {
+   "y_error_sd": 0.0,
+   "b_mean": 0.999,
+   "se_mean": 0.0317
+  },
+  {
+   "y_error_sd": 1.0,
+   "b_mean": 1.0001,
+   "se_mean": 0.0448
+  },
+  {
+   "y_error_sd": 2.0,
+   "b_mean": 1.0015,
+   "se_mean": 0.0708
+  }
+ ]
+}
