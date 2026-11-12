@@ -1,0 +1,8 @@
+pair,rank_corr
+refit どうし（v12–v16）,0.99938
+refit どうし（v12–v14）,0.99808
+refit どうし（v14–v16）,0.99835
+v18 と他の refit（下限）,0.9968
+v18 と他の refit（上限）,0.9979
+refit 平均と XGBoost,0.9928
+refit 平均と NN,0.9765

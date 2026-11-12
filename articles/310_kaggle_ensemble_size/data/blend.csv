@@ -1,0 +1,8 @@
+step,models,cv,source
+1,CatBoost だけ,0.96094,v25
+2,＋LightGBM（0.35/0.65）,0.96103,v23
+3,＋XGBoost（0.25/0.60/0.15）,0.96104,v23
+4,＋NN（0.20/0.50/0.15/0.15）,0.96107,v25
+4n,4本・入れ子CV,0.96106,v25
+S1,4本・stacking（ロジスティック回帰）,0.96108,stacking
+S2,4本・stacking（LightGBM 葉7）,0.96103,stacking
