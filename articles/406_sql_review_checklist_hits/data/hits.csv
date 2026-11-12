@@ -1,0 +1,285 @@
+記事,ファイル,行番号,観点,該当行,補足,直前のコメント
+233_sql_reconcile_totals,sql/01_report_before.sql,7,C05,WHERE o.ordered_at BETWEEN '2026-03-01' AND '2026-03-31';,,
+233_sql_reconcile_totals,sql/03_checks.sql,4,C05,FROM dbo.orders AS o WHERE o.ordered_at BETWEEN '2026-03-01' AND '2026-03-31',,-- name: c1_counts  ①件数：注文の数と行の数を、結合の前後で数える
+233_sql_reconcile_totals,sql/03_checks.sql,8,C05,WHERE o.ordered_at BETWEEN '2026-03-01' AND '2026-03-31',,
+233_sql_reconcile_totals,sql/03_checks.sql,13,C05,WHERE o.ordered_at BETWEEN '2026-03-01' AND '2026-03-31',,
+233_sql_reconcile_totals,sql/03_checks.sql,19,C05,WHERE o.ordered_at BETWEEN '2026-03-01' AND '2026-03-31';,,
+233_sql_reconcile_totals,sql/03_checks.sql,27,C05,FROM dbo.orders WHERE ordered_at BETWEEN '2026-03-01' AND '2026-03-31';,,-- name: c3_range  ③期間の端：抽出した注文の最初と最後の時刻
+243_sql_pivot_report,sql/04_wide_pivot_dynamic_tsql.sql,4,C09,FROM (SELECT DISTINCT gyotai FROM dbo.sales_monthly) AS g;,,-- 04 列（業態）を表から読んで PIVOT を組み立てる動的 SQL（T-SQL）。SQL Server 専用のため未検証
+245_sql_dedup_customers,sql/03_rules.sql,5,C01,"SELECT *,",,-- R4・R5 の「または」は、MIN をキーごとに2回かけて、つながった行を同じ番号にそろえる（2回で足りるかは結果で確かめる）
+245_sql_dedup_customers,sql/03_rules.sql,13,C01,"SELECT *, MIN(g3) OVER (PARTITION BY name_n, birth, email_n) AS g4b FROM r",,
+245_sql_dedup_customers,sql/03_rules.sql,15,C01,"SELECT *, MIN(g4b) OVER (PARTITION BY g3) AS g4,                                      -- R4 名前＋生年月日＋（電話 または メール）",,
+245_sql_dedup_customers,sql/03_rules.sql,18,C01,"SELECT *, MIN(g5a) OVER (PARTITION BY g4) AS g5b FROM t",,
+245_sql_dedup_customers,sql/04_keep_latest.sql,4,C01,"SELECT g.*, c.name, c.birth, c.email,",,-- 新しい行を残すが、新しい行で空の電話は、同じグループの古い行から埋める
+270_sql_municipal_code_scd2,sql/00_ward_to_city.sql,8,C04,AND x.new_code NOT IN (SELECT code FROM dbo.seirei_cities),,
+270_sql_municipal_code_scd2,sql/02_scd2.sql,4,C10,UNION,,-- 02 期間つきのマスタ（SCD2）を作る（T-SQL）。1行＝あるコードの、ある期間の姿（版）
+270_sql_municipal_code_scd2,sql/03_as_of.sql,3,C05,SUM(CASE WHEN m.code BETWEEN '13101' AND '13123' THEN 1 ELSE 0 END) AS n_ward23  -- 東京23区,,-- 03 ある日に有効だったコードの数（T-SQL）。@d の日に valid_from <= @d <= valid_to の版を数える
+270_sql_municipal_code_scd2,sql/03_as_of.sql,5,C05,JOIN dbo.muni_scd2 m ON d.as_of BETWEEN m.valid_from AND m.valid_to,,-- 03 ある日に有効だったコードの数（T-SQL）。@d の日に valid_from <= @d <= valid_to の版を数える
+270_sql_municipal_code_scd2,sql/05_checks.sql,6,C09,FROM (SELECT DISTINCT code_now FROM dbo.crosswalk) c,,
+296_forecast_error_control_chart,sql/01_weekly_error_chart_duckdb.sql,9,C05,"SELECT AVG(bias) AS mu, stddev_samp(bias) AS sd FROM err WHERE week_start BETWEEN DATE '2024-01-01' AND DATE '2024-06-24'",,
+296_forecast_error_control_chart,sql/01_weekly_error_chart_duckdb.sql,7,C06,"SELECT week_start, CAST(actual - forecast AS DOUBLE) / forecast AS bias FROM wk",列・変数｜守りなし,
+296_forecast_error_control_chart,sql/01_weekly_error_chart_duckdb.sql,11,C06,"SELECT e.week_start, e.bias, (e.bias - l.mu) / l.sd AS z,",列・変数｜守りなし,
+296_forecast_error_control_chart,sql/01_weekly_error_chart_duckdb.sql,12,C06,"CASE WHEN ABS((e.bias - l.mu) / l.sd) > 3 THEN 1 ELSE 0 END AS r1_3sigma,",列・変数｜守りなし,
+296_forecast_error_control_chart,sql/01_weekly_error_chart_duckdb.sql,13,C06,CASE WHEN SUM(CASE WHEN (e.bias - l.mu) / l.sd > 1 THEN 1 ELSE 0 END),列・変数｜守りなし,
+296_forecast_error_control_chart,sql/01_weekly_error_chart_tsql.sql,9,C05,"SELECT AVG(bias) AS mu, STDEV(bias) AS sd FROM err WHERE week_start BETWEEN '2024-01-01' AND '2024-06-24'",,
+296_forecast_error_control_chart,sql/01_weekly_error_chart_tsql.sql,7,C06,"SELECT week_start, CAST(actual - forecast AS FLOAT) / forecast AS bias FROM wk",列・変数｜守りなし,
+296_forecast_error_control_chart,sql/01_weekly_error_chart_tsql.sql,11,C06,"SELECT e.week_start, e.bias, (e.bias - l.mu) / l.sd AS z,",列・変数｜守りなし,
+296_forecast_error_control_chart,sql/01_weekly_error_chart_tsql.sql,12,C06,"CASE WHEN ABS((e.bias - l.mu) / l.sd) > 3 THEN 1 ELSE 0 END AS r1_3sigma,",列・変数｜守りなし,
+296_forecast_error_control_chart,sql/01_weekly_error_chart_tsql.sql,13,C06,CASE WHEN SUM(CASE WHEN (e.bias - l.mu) / l.sd > 1 THEN 1 ELSE 0 END),列・変数｜守りなし,
+305_dax_calculate_filter_context,sql/measures.sql,14,C06,"SELECT ROUND(SUM(CASE WHEN category='日用品' THEN amount END)*1.0/SUM(amount),4) FROM f WHERE year=2025 AND region='関東';",集計した値（SUM など）｜守りなし,-- M07
+312_sql_null_aggregation,sql/fixed.sql,22,C06,SELECT CAST(SUM(2026 - c.birth_year) AS FLOAT) / COUNT(c.birth_year) AS v FROM dbo.customers AS c;,件数（COUNT）｜守りなし,-- name: Q07_顧客1人あたりの平均年齢（合計÷人数）
+312_sql_null_aggregation,sql/naive.sql,13,C04,WHERE c.customer_id NOT IN (SELECT o.customer_id FROM dbo.orders AS o);,,-- name: Q04_一度も注文していない顧客の数（NOT IN）
+312_sql_null_aggregation,sql/naive.sql,22,C06,SELECT CAST(SUM(2026 - c.birth_year) AS FLOAT) / COUNT(*) AS v FROM dbo.customers AS c;,件数（COUNT）｜守りなし,-- name: Q07_顧客1人あたりの平均年齢（合計÷人数）
+313_sql_month_end_boundary,sql/month_filters.sql,25,C05,WHERE CAST(ts_jst AS DATE) BETWEEN '{M0}' AND '{ML}';,,-- name: W6_日付に直してから BETWEEN
+315_sql_earned_premium,sql/earned.sql,9,C06,"/ CAST(DATEDIFF(day, p.start_date, p.end_date) AS FLOAT)) AS earned",列・変数｜守りなし,
+315_sql_earned_premium,sql/earned.sql,17,C05,"JOIN dbo.policies AS p ON DATEDIFF(month, p.start_date, m.month_start) BETWEEN 0 AND 11",,-- name: 12分の1（始期の月から12か月）
+315_sql_earned_premium,sql/earned.sql,24,C05,"JOIN dbo.policies AS p ON DATEDIFF(month, p.start_date, m.month_start) BETWEEN 0 AND 12",,-- name: 24分の1（始期の月と13か月目は半分）
+326_migration_reconciliation,sql/01_reconcile_tsql.sql,24,C01,"SELECT o.*, n.*",,-- C5 抜き取り：旧システムから300行のキーを引き、全列を比べる
+330_idempotent_load,sql/01_idempotent_load_tsql.sql,10,C09,DELETE FROM sales WHERE sales_date IN (SELECT DISTINCT sales_date FROM stg);,,-- B その日の分を洗い替え（1つのトランザクション）
+341_month_close_completeness,src/01_completeness_tsql.sql,9,C06,SUM(CASE WHEN t.lag <= k.k THEN t.amt ELSE 0 END) * 1.0 / MAX(f.final)  AS ratio,集計した値（SUM など）｜守りなし,
+341_month_close_completeness,src/01_completeness_tsql.sql,16,C06,"SELECT cat, SUM(CASE WHEN lag <= @k THEN amt ELSE 0 END) * 1.0 / SUM(amt) AS r",集計した値（SUM など）｜守りなし,-- 見込みで補う：過去12か月の「k日目の割合」を区分ごとに出し、今月の入っている分を割り戻して足す
+341_month_close_completeness,src/01_completeness_tsql.sql,20,C06,SELECT SUM(cur.cum / past.r) AS estimate FROM cur JOIN past ON past.cat = cur.cat;,列・変数｜守りなし,
+342_restate_and_reproduce_reports,src/01_asof_tsql.sql,13,C07,"SELECT id, old, ROW_NUMBER() OVER (PARTITION BY id ORDER BY changed_at) AS rn",,--    登録した時刻と、取り消した行は残っていないので、遅れて登録された行と取消は戻せない
+343_loss_ratio_accident_vs_calendar,src/01_two_loss_ratios_tsql.sql,5,C06,"SELECT p.year, SUM(y.paid) / MAX(p.earned_premium) AS lr_calendar",集計した値（SUM など）｜守りなし,-- 1) 支払った年で数える
+343_loss_ratio_accident_vs_calendar,src/01_two_loss_ratios_tsql.sql,12,C06,"SUM(CASE WHEN y.pay_year <= @asof THEN y.paid ELSE 0 END) / MAX(p.earned_premium) AS lr_accident_to_date,",集計した値（SUM など）｜守りなし,-- 2) 事故が起きた年で数える（@asof 年までに払った分と、払い終わった分）
+343_loss_ratio_accident_vs_calendar,src/01_two_loss_ratios_tsql.sql,13,C06,SUM(y.paid) / MAX(p.earned_premium)                                               AS lr_accident,集計した値（SUM など）｜守りなし,-- 2) 事故が起きた年で数える（@asof 年までに払った分と、払い終わった分）
+356_weekday_mix_yoy,src/01_adjusted_yoy_duckdb.sql,12,C06,"(sales / LAG(sales, 12) OVER (ORDER BY ym) - 1) * 100 AS yoy_raw,",前の期の値（LAG）｜守りなし,
+356_weekday_mix_yoy,src/01_adjusted_yoy_duckdb.sql,13,C06,"((sales / wsum) / (LAG(sales, 12) OVER (ORDER BY ym) / LAG(wsum, 12) OVER (ORDER BY ym)) - 1) * 100 AS yoy_adj",列・変数｜守りなし,
+356_weekday_mix_yoy,src/01_adjusted_yoy_duckdb.sql,13,C06,"((sales / wsum) / (LAG(sales, 12) OVER (ORDER BY ym) / LAG(wsum, 12) OVER (ORDER BY ym)) - 1) * 100 AS yoy_adj",式（かっこ）｜守りなし,
+356_weekday_mix_yoy,src/01_adjusted_yoy_duckdb.sql,13,C06,"((sales / wsum) / (LAG(sales, 12) OVER (ORDER BY ym) / LAG(wsum, 12) OVER (ORDER BY ym)) - 1) * 100 AS yoy_adj",前の期の値（LAG）｜守りなし,
+356_weekday_mix_yoy,src/01_adjusted_yoy_tsql.sql,13,C06,"(sales / LAG(sales, 12) OVER (ORDER BY ym) - 1) * 100 AS yoy_raw,",前の期の値（LAG）｜守りなし,
+356_weekday_mix_yoy,src/01_adjusted_yoy_tsql.sql,14,C06,"((sales / wsum) / (LAG(sales, 12) OVER (ORDER BY ym) / LAG(wsum, 12) OVER (ORDER BY ym)) - 1) * 100 AS yoy_adj",列・変数｜守りなし,
+356_weekday_mix_yoy,src/01_adjusted_yoy_tsql.sql,14,C06,"((sales / wsum) / (LAG(sales, 12) OVER (ORDER BY ym) / LAG(wsum, 12) OVER (ORDER BY ym)) - 1) * 100 AS yoy_adj",式（かっこ）｜守りなし,
+356_weekday_mix_yoy,src/01_adjusted_yoy_tsql.sql,14,C06,"((sales / wsum) / (LAG(sales, 12) OVER (ORDER BY ym) / LAG(wsum, 12) OVER (ORDER BY ym)) - 1) * 100 AS yoy_adj",前の期の値（LAG）｜守りなし,
+358_missing_zero_days,src/01_avg_daily_duckdb.sql,7,C09,FROM (SELECT DISTINCT store_id FROM store_days) AS st,,
+358_missing_zero_days,src/01_avg_daily_duckdb.sql,8,C09,CROSS JOIN (SELECT DISTINCT d FROM store_days) AS c,,
+360_top3_with_ties,src/01_top3_duckdb.sql,5,C07,"ROW_NUMBER() OVER (PARTITION BY store_id ORDER BY units DESC)             AS rn,       -- 同点の順は決まっていない",,"-- store_sales(store_id, product_id, units, amount)"
+360_top3_with_ties,src/01_top3_tsql.sql,6,C01,"FROM (SELECT *, ROW_NUMBER() OVER (PARTITION BY store_id ORDER BY units DESC) AS rn",,-- ① ROW_NUMBER：必ず3件。同点のどれが入るかは決まっていない
+360_top3_with_ties,src/01_top3_tsql.sql,6,C07,"FROM (SELECT *, ROW_NUMBER() OVER (PARTITION BY store_id ORDER BY units DESC) AS rn",,-- ① ROW_NUMBER：必ず3件。同点のどれが入るかは決まっていない
+360_top3_with_ties,src/01_top3_tsql.sql,12,C01,"FROM (SELECT *, RANK() OVER (PARTITION BY store_id ORDER BY units DESC) AS rk",,-- ② RANK：3位に同点があれば全部返す（TOP (3) WITH TIES と同じ件数になる）
+360_top3_with_ties,src/01_top3_tsql.sql,18,C09,FROM (SELECT DISTINCT store_id FROM store_sales) AS s,,-- ②' 店ごとに TOP (3) WITH TIES
+360_top3_with_ties,src/01_top3_tsql.sql,25,C01,"FROM (SELECT *, DENSE_RANK() OVER (PARTITION BY store_id ORDER BY units DESC) AS dr",,-- ③ DENSE_RANK：販売数の「上位3つの値」に入る商品を全部返す
+360_top3_with_ties,src/01_top3_tsql.sql,31,C01,"FROM (SELECT *, ROW_NUMBER() OVER (PARTITION BY store_id ORDER BY units DESC, product_id) AS rn",,-- ④ 必ず3件で、毎回同じ顔ぶれにする：同点のときの決まりを ORDER BY に書く
+360_top3_with_ties,src/02_row_number_only_duckdb.sql,4,C07,ROW_NUMBER() OVER (PARTITION BY store_id ORDER BY units DESC) AS rn,,-- ROW_NUMBER だけを単独で実行する版（同点の順を決めていない）
+371_percentile_definitions,src/01_percentiles_tsql.sql,5,C09,SELECT DISTINCT,,-- SQL Server ではどちらもウィンドウ関数なので OVER () が要る。DISTINCT で1行にまとめる
+388_cohort_retention_censoring,src/01_cohort_tsql.sql,4,C07,"WITH k AS (SELECT TOP (23) ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS k FROM sys.all_objects),",,"-- members(会員ID, 登録月, 登録日, 退会日)：退会日は、まだ退会していなければ NULL"
+402_summary_table_drift,src/sql_update_and_check.sql,16,C09,SELECT DISTINCT sale_date INTO #touched FROM sales_raw,,-- C' は、削除の記録（sales_deleted_log）の日も足す
+F12_stats_pipeline,dbt/macros/test_value_between.sql,3,C01,select * from {{ model }},,-- 値の範囲チェック：範囲外の行があれば失敗
+F12_stats_pipeline,dbt/models/marts/mart_indicators_monthly.sql,3,C01,"select *,",,-- くらしの指標（1か月1行）。物価の前年同月比と、実質賃金の作り直しを入れる
+F12_stats_pipeline,dbt/models/marts/mart_indicators_monthly.sql,4,C06,"round(100 * (cpi_all / lag(cpi_all, 12) over (order by month) - 1), 1)             as cpi_all_yoy,",前の期の値（LAG）｜守りなし,-- くらしの指標（1か月1行）。物価の前年同月比と、実質賃金の作り直しを入れる
+F12_stats_pipeline,dbt/models/marts/mart_indicators_monthly.sql,5,C06,"round(100 * (cpi_core / lag(cpi_core, 12) over (order by month) - 1), 1)           as cpi_core_yoy,",前の期の値（LAG）｜守りなし,-- くらしの指標（1か月1行）。物価の前年同月比と、実質賃金の作り直しを入れる
+F12_stats_pipeline,dbt/models/marts/mart_indicators_monthly.sql,6,C06,"round(100 * (cpi_core_core / lag(cpi_core_core, 12) over (order by month) - 1), 1) as cpi_core_core_yoy,",前の期の値（LAG）｜守りなし,
+F12_stats_pipeline,dbt/models/marts/mart_indicators_monthly.sql,7,C06,"round(100 * (cpi_ex_rent / lag(cpi_ex_rent, 12) over (order by month) - 1), 1)     as cpi_ex_rent_yoy,",前の期の値（LAG）｜守りなし,
+F12_stats_pipeline,dbt/models/marts/mart_indicators_monthly.sql,8,C06,"round(100 * (cpi_energy / lag(cpi_energy, 12) over (order by month) - 1), 1)       as cpi_energy_yoy,",前の期の値（LAG）｜守りなし,
+F12_stats_pipeline,dbt/models/marts/mart_indicators_monthly.sql,9,C06,"round(100 * (cpi_food / lag(cpi_food, 12) over (order by month) - 1), 1)           as cpi_food_yoy",前の期の値（LAG）｜守りなし,
+F12_stats_pipeline,dbt/models/marts/mart_indicators_monthly.sql,21,C06,"round(100 * w.wage_total_idx / c.cpi_ex_rent, 1) as real_wage_total_idx_rebuilt,",列・変数｜守りなし,-- 実質賃金を自分で作り直す：名目賃金指数 ÷ 持家の帰属家賃を除く総合 × 100
+F231_sales_forecast_horizon,src/05_集計.sql,11,C06,"AVG(ABS(予測 / 実績 - 1.0)) * 100 AS mape_pct,",列・変数｜守りなし,-- 1) 予測の地平×モデルの MAPE（コロナ期 2020-03〜2021-12 の月は採点しない）
+F231_sales_forecast_horizon,src/05_集計.sql,20,C06,"SELECT モデル, h, AVG(ABS(予測 / 実績 - 1.0)) * 100 AS mape_pct",列・変数｜守りなし,-- 2) 季節ナイーブ（去年の同じ月をそのまま使う）と比べた改善の割合（スキル）
+F231_sales_forecast_horizon,src/05_集計.sql,26,C06,1.0 - a.mape_pct / b.mape_pct AS skill,列・変数｜守りなし,
+F231_sales_forecast_horizon,src/05_集計.sql,33,C06,"SELECT 業態, COUNT(*) AS n, SUM(ABS(予測 / 実績 - 1.0)) AS sum_ape",列・変数｜守りなし,-- 3) 検算：1行ずつの外れの合計を、業態ごとに数えて全体と一致するか
+F232_hierarchical_retail_reconciliation,sql/02_coherence_check.sql,12,C06,"MAX(ABS(c.children_total - p.forecast) / p.forecast * 100.0) AS max_gap_pct,",列・変数｜守りあり,
+F232_hierarchical_retail_reconciliation,sql/02_coherence_check.sql,13,C06,AVG(ABS(c.children_total - p.forecast) / p.forecast * 100.0) AS mean_gap_pct,列・変数｜守りあり,
+F232_hierarchical_retail_reconciliation,sql/03_accuracy_by_level.sql,14,C06,"ROUND((m.mape / b.mape - 1.0) * 100.0, 2) AS vs_base_pct,",列・変数｜守りなし,
+F233_calendar_weather_sales,sql/01_calendar_and_adjust_sqlserver.sql,32,C01,"SELECT d.*, CASE WHEN r.is_off = 1 AND r.run_len >= 3 THEN 1 ELSE 0 END AS is_renkyu",,
+F233_calendar_weather_sales,sql/01_calendar_and_adjust_sqlserver.sql,26,C07,ROW_NUMBER() OVER (ORDER BY dt),,-- 2) 3日以上続く休み（連休）の印：休みの日のかたまりごとに長さを数える（ギャップと島）
+F233_calendar_weather_sales,sql/01_calendar_and_adjust_sqlserver.sql,27,C07,- ROW_NUMBER() OVER (PARTITION BY is_off ORDER BY dt) AS grp,,-- 2) 3日以上続く休み（連休）の印：休みの日のかたまりごとに長さを数える（ギャップと島）
+F233_calendar_weather_sales,sql/01_calendar_and_adjust_sqlserver.sql,72,C06,"ELSE 100 * LOG(s.値 / LAG(s.値, 12) OVER (PARTITION BY s.業態 ORDER BY s.ym)) END AS yoy",前の期の値（LAG）｜守りあり,
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,3,C01,CREATE TABLE sales_monthly AS SELECT * FROM read_csv_auto('sql/sales_monthly.csv');,,-- 01_calendar_and_adjust_sqlserver.sql と同じ計算を DuckDB で行い、Python の結果と照合する
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,4,C01,CREATE TABLE calendar_coef AS SELECT * FROM read_csv_auto('sql/calendar_coef.csv');,,-- 01_calendar_and_adjust_sqlserver.sql と同じ計算を DuckDB で行い、Python の結果と照合する
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,13,C01,"SELECT d.*, CASE WHEN r.is_off = 1 AND r.run_len >= 3 THEN 1 ELSE 0 END AS is_renkyu FROM dim_day d JOIN r ON r.dt = d.dt;",,
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,11,C07,"WITH g AS (SELECT dt, is_off, ROW_NUMBER() OVER (ORDER BY dt) - ROW_NUMBER() OVER (PARTITION BY is_off ORDER BY dt) AS grp FROM dim_day),",,
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,11,C07,"WITH g AS (SELECT dt, is_off, ROW_NUMBER() OVER (ORDER BY dt) - ROW_NUMBER() OVER (PARTITION BY is_off ORDER BY dt) AS grp FROM dim_day),",,
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,20,C01,COPY (SELECT * FROM dim_month ORDER BY ym) TO 'results/H_sql_dim_month.csv' (HEADER);,,
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,22,C01,"WITH m AS (SELECT *, LAG(n_days,12) OVER (ORDER BY ym) p_days, LAG(n_sat,12) OVER (ORDER BY ym) p_sat, LAG(n_sun,12) OVER (ORDER BY ym) p_sun,",,
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,28,C06,"yoy AS (SELECT ym, 業態, CASE WHEN 指標='既存店' THEN 100*ln(値/100.0) ELSE 100*ln(値/LAG(値,12) OVER (PARTITION BY 業態 ORDER BY ym)) END yoy FROM sales_monthly)",前の期の値（LAG）｜守りあり,
+F234_price_elasticity_practice,sql/01_前年差と区分変更の判定_tsql.sql,22,C06,prev_exp * 1.0 / SUM(prev_exp) OVER (PARTITION BY year) AS w,集計した値（SUM など）｜守りあり,
+F234_price_elasticity_practice,sql/02_値上げの分かれ目_tsql.sql,5,C06,LOG(margin / (margin + price_up)) / LOG(1 + price_up) AS breakeven_elasticity,式（かっこ）｜守りなし,-- F234：値上げで利益が減り始める弾力性（分かれ目）。粗利率 m・値上げ幅 x の組み合わせ（T-SQL）
+F234_price_elasticity_practice,sql/02_値上げの分かれ目_tsql.sql,5,C06,LOG(margin / (margin + price_up)) / LOG(1 + price_up) AS breakeven_elasticity,列・変数｜守りなし,-- F234：値上げで利益が減り始める弾力性（分かれ目）。粗利率 m・値上げ幅 x の組み合わせ（T-SQL）
+F235_inventory_newsvendor,src/04_在庫の判断.sql,26,C06,AVG(9.0 * CASE WHEN t.実績 > t.発注 THEN (t.実績 - t.発注) / t.実績 * 100 ELSE 0 END,列・変数｜守りなし,
+F235_inventory_newsvendor,src/04_在庫の判断.sql,27,C06,"+ CASE WHEN t.発注 > t.実績 THEN (t.発注 - t.実績) / t.実績 * 100 ELSE 0 END) AS 損,",列・変数｜守りなし,
+F235_inventory_newsvendor,src/04_在庫の判断.sql,12,C09,"SELECT DISTINCT モデル, 業態,",,-- 1) 2017〜2019年の外れ（実績÷予測）の90%点を、業態×モデルごとに求める（＝発注の倍率）
+F236_ab_test_sample_size,src/04_集計.sql,8,C06,"CAST(SUM(converted) AS FLOAT) / COUNT(*) AS rate,",件数（COUNT）｜守りなし,
+F236_ab_test_sample_size,src/04_集計.sql,13,C06,SELECT CAST(SUM(conv) AS FLOAT) / SUM(n) AS p_pool FROM by_arm,集計した値（SUM など）｜守りなし,
+F236_ab_test_sample_size,src/04_集計.sql,17,C06,"(b.rate - a.rate) / a.rate                        AS rel_lift,",列・変数｜守りなし,
+F236_ab_test_sample_size,src/04_集計.sql,18,C06,"(b.rate - a.rate) / SQRT(p.p_pool * (1 - p.p_pool) * (1.0 / a.n + 1.0 / b.n)) AS z_stat,",列・変数｜守りなし,
+F236_ab_test_sample_size,src/04_集計.sql,18,C06,"(b.rate - a.rate) / SQRT(p.p_pool * (1 - p.p_pool) * (1.0 / a.n + 1.0 / b.n)) AS z_stat,",列・変数｜守りなし,
+F236_ab_test_sample_size,src/04_集計.sql,18,C06,"(b.rate - a.rate) / SQRT(p.p_pool * (1 - p.p_pool) * (1.0 / a.n + 1.0 / b.n)) AS z_stat,",列・変数｜守りなし,
+F236_ab_test_sample_size,src/04_集計.sql,19,C06,b.mean_spend / a.mean_spend - 1                   AS rel_lift_spend,列・変数｜守りなし,
+F237_ab_test_peeking_sequential,sql/01_日ごとの累積とzと止める判定_tsql.sql,21,C06,"CAST(w.cA AS FLOAT) / w.nA AS pA,",列・変数｜守りあり,
+F237_ab_test_peeking_sequential,sql/01_日ごとの累積とzと止める判定_tsql.sql,22,C06,"CAST(w.cB AS FLOAT) / w.nB AS pB,",列・変数｜守りあり,
+F237_ab_test_peeking_sequential,sql/01_日ごとの累積とzと止める判定_tsql.sql,23,C06,(CAST(w.cB AS FLOAT) / w.nB - CAST(w.cA AS FLOAT) / w.nA),列・変数｜守りあり,
+F237_ab_test_peeking_sequential,sql/01_日ごとの累積とzと止める判定_tsql.sql,23,C06,(CAST(w.cB AS FLOAT) / w.nB - CAST(w.cA AS FLOAT) / w.nA),列・変数｜守りあり,
+F237_ab_test_peeking_sequential,sql/01_日ごとの累積とzと止める判定_tsql.sql,24,C06,/ SQRT( (CAST(w.cA + w.cB AS FLOAT) / (w.nA + w.nB)) * (1 - CAST(w.cA + w.cB AS FLOAT) / (w.nA + w.nB)),列・変数｜守りあり,
+F237_ab_test_peeking_sequential,sql/01_日ごとの累積とzと止める判定_tsql.sql,24,C06,/ SQRT( (CAST(w.cA + w.cB AS FLOAT) / (w.nA + w.nB)) * (1 - CAST(w.cA + w.cB AS FLOAT) / (w.nA + w.nB)),式（かっこ）｜守りあり,
+F237_ab_test_peeking_sequential,sql/01_日ごとの累積とzと止める判定_tsql.sql,24,C06,/ SQRT( (CAST(w.cA + w.cB AS FLOAT) / (w.nA + w.nB)) * (1 - CAST(w.cA + w.cB AS FLOAT) / (w.nA + w.nB)),式（かっこ）｜守りあり,
+F237_ab_test_peeking_sequential,sql/01_日ごとの累積とzと止める判定_tsql.sql,25,C06,* (1.0 / w.nA + 1.0 / w.nB) ) AS z,列・変数｜守りあり,
+F237_ab_test_peeking_sequential,sql/01_日ごとの累積とzと止める判定_tsql.sql,25,C06,* (1.0 / w.nA + 1.0 / w.nB) ) AS z,列・変数｜守りあり,
+F238_ab_test_cuped,src/04_CUPED.sql,14,C06,SELECT SUM((b.y - m.my) * (b.x - m.mx)) / SUM((b.x - m.mx) * (b.x - m.mx)) AS theta,集計した値（SUM など）｜守りなし,
+F238_ab_test_cuped,src/04_CUPED.sql,29,C06,"(syy - n * mean_y * mean_y) / (n - 1) AS var_y,",式（かっこ）｜守りなし,
+F238_ab_test_cuped,src/04_CUPED.sql,30,C06,(saa - n * mean_ya * mean_ya) / (n - 1) AS var_ya,式（かっこ）｜守りなし,
+F238_ab_test_cuped,src/04_CUPED.sql,35,C06,"SQRT(b.var_y / b.n + a.var_y / a.n) AS se,",列・変数｜守りなし,
+F238_ab_test_cuped,src/04_CUPED.sql,35,C06,"SQRT(b.var_y / b.n + a.var_y / a.n) AS se,",列・変数｜守りなし,
+F238_ab_test_cuped,src/04_CUPED.sql,36,C06,(b.mean_y - a.mean_y) / SQRT(b.var_y / b.n + a.var_y / a.n) AS z,列・変数｜守りなし,
+F238_ab_test_cuped,src/04_CUPED.sql,36,C06,(b.mean_y - a.mean_y) / SQRT(b.var_y / b.n + a.var_y / a.n) AS z,列・変数｜守りなし,
+F238_ab_test_cuped,src/04_CUPED.sql,36,C06,(b.mean_y - a.mean_y) / SQRT(b.var_y / b.n + a.var_y / a.n) AS z,列・変数｜守りなし,
+F238_ab_test_cuped,src/04_CUPED.sql,41,C06,"SQRT(b.var_ya / b.n + a.var_ya / a.n),",列・変数｜守りなし,
+F238_ab_test_cuped,src/04_CUPED.sql,41,C06,"SQRT(b.var_ya / b.n + a.var_ya / a.n),",列・変数｜守りなし,
+F238_ab_test_cuped,src/04_CUPED.sql,42,C06,(b.mean_ya - a.mean_ya) / SQRT(b.var_ya / b.n + a.var_ya / a.n),列・変数｜守りなし,
+F238_ab_test_cuped,src/04_CUPED.sql,42,C06,(b.mean_ya - a.mean_ya) / SQRT(b.var_ya / b.n + a.var_ya / a.n),列・変数｜守りなし,
+F238_ab_test_cuped,src/04_CUPED.sql,42,C06,(b.mean_ya - a.mean_ya) / SQRT(b.var_ya / b.n + a.var_ya / a.n),列・変数｜守りなし,
+F240_campaign_effect_no_control,src/04_前年比とベースライン.sql,22,C06,o1.y * (t.y / t1.y)          AS baseline,列・変数｜守りなし,-- 前年同月 × ほかの県の前年比 ＝ 「万博がなければ」の素朴な見込み
+F240_campaign_effect_no_control,src/04_前年比とベースライン.sql,31,C06,"osaka_now / osaka_prev - 1.0       AS osaka_yoy,",列・変数｜守りなし,
+F240_campaign_effect_no_control,src/04_前年比とベースライン.sql,32,C06,"others_now / others_prev - 1.0     AS others_yoy,",列・変数｜守りなし,
+F240_campaign_effect_no_control,src/04_前年比とベースライン.sql,33,C06,"osaka_now / baseline - 1.0         AS eff_vs_baseline,",列・変数｜守りなし,
+F240_campaign_effect_no_control,src/04_前年比とベースライン.sql,39,C06,"SUM(osaka_now) / SUM(osaka_prev) - 1.0,",集計した値（SUM など）｜守りなし,
+F240_campaign_effect_no_control,src/04_前年比とベースライン.sql,40,C06,"SUM(others_now) / SUM(others_prev) - 1.0,",集計した値（SUM など）｜守りなし,
+F240_campaign_effect_no_control,src/04_前年比とベースライン.sql,41,C06,"SUM(osaka_now) / SUM(baseline) - 1.0,",集計した値（SUM など）｜守りなし,
+F241_customer_churn_survival,sql/01_life_table.sql,12,C06,"SELECT month, at_risk, events, CAST(events AS FLOAT) / at_risk AS hazard",列・変数｜守りなし,
+F241_customer_churn_survival,sql/01_life_table.sql,4,C09,SELECT DISTINCT duration AS month FROM telco WHERE duration BETWEEN 1 AND 72,,"-- telco(customerID, duration, event)：duration は在籍月数、event は 1=解約"
+F241_customer_churn_survival,sql/02_cohort_retention.sql,15,C06,"SELECT c.kind_j, c.cohort, c.y AS year, b.n, 1.0 - CAST(c.closed_n AS FLOAT) / b.n AS retention",列・変数｜守りなし,
+F243_kpi_tree_decomposition,sql/decomp_tsql.sql,19,C06,"q0 / SUM(q0) OVER (PARTITION BY grp) AS s0,",集計した値（SUM など）｜守りなし,
+F243_kpi_tree_decomposition,sql/decomp_tsql.sql,20,C06,q1 / SUM(q1) OVER (PARTITION BY grp) AS s1,集計した値（SUM など）｜守りなし,
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,22,C06,"SELECT ym, (s - s12) * 100 / s12 FROM (SELECT r.ym, r.sales AS s, LAG(r.sales,12) OVER (ORDER BY r.ym) AS s12 FROM retail r JOIN item_dim d ON r.gyotai=d.gyotai",列・変数｜守りあり,-- A4 [bad] 整数の割り算：スーパーの前年同月比（%）
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,25,C06,"SELECT ym, CAST(s - s12 AS DOUBLE) * 100 / s12 FROM (SELECT r.ym, r.sales AS s, LAG(r.sales,12) OVER (ORDER BY r.ym) AS s12 FROM retail r JOIN item_dim d ON r.g",列・変数｜守りあり,-- A4 [good] 整数の割り算：スーパーの前年同月比（%）
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,64,C04,"SELECT 'all', COUNT(*) FROM customers c WHERE c.customer_id NOT IN (SELECT referrer_id FROM customers);",,-- B5 [bad] NULL：だれも紹介していない顧客の数（NOT IN と NULL）
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,88,C05,"SELECT 'dec', SUM(i.qty*i.unit_price) FROM orders o JOIN order_items i ON i.order_id=o.order_id WHERE o.status='paid' AND strftime(CAST(o.ts_utc AS TIMESTAMP) +",,-- B9 [bad] 日付・時間帯：12月の売上（BETWEEN '12-01' AND '12-31' で時刻つきの列を絞る）
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,94,C09,"SELECT customer_id, date_diff('day', DATE '2025-01-01', CAST(lastd AS DATE)) FROM (SELECT DISTINCT o.customer_id, substr(LAST_VALUE(strftime(CAST(o.ts_utc AS TI",,-- B10 [bad] ウィンドウ関数：顧客ごとの最後の注文日（LAST_VALUE の既定の範囲）
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,97,C09,"SELECT customer_id, date_diff('day', DATE '2025-01-01', CAST(lastd AS DATE)) FROM (SELECT DISTINCT o.customer_id, substr(LAST_VALUE(strftime(CAST(o.ts_utc AS TI",,-- B10 [good] ウィンドウ関数：顧客ごとの最後の注文日（LAST_VALUE の既定の範囲）
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,106,C06,"SELECT s.d, COALESCE(n,0) / s.sessions FROM sessions s LEFT JOIN (SELECT substr(strftime(CAST(o.ts_utc AS TIMESTAMP) + INTERVAL 9 HOUR, '%Y-%m-%d %H:%M:%S'),1,1",列・変数｜守りなし,-- B12 [bad] 整数の割り算：日次の購入率（注文数 ÷ 訪問数）
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,109,C06,"SELECT s.d, CAST(COALESCE(n,0) AS DOUBLE) / s.sessions FROM sessions s LEFT JOIN (SELECT substr(strftime(CAST(o.ts_utc AS TIMESTAMP) + INTERVAL 9 HOUR, '%Y-%m-%",列・変数｜守りなし,-- B12 [good] 整数の割り算：日次の購入率（注文数 ÷ 訪問数）
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,112,C06,"SELECT substr(s.d,1,7), AVG(CAST(COALESCE(n,0) AS DOUBLE) / s.sessions) FROM sessions s LEFT JOIN (SELECT substr(strftime(CAST(o.ts_utc AS TIMESTAMP) + INTERVAL",列・変数｜守りなし,-- B13 [bad] 定義のずれ：月次の購入率（日ごとの率の平均）
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,115,C06,"SELECT substr(s.d,1,7), SUM(CAST(COALESCE(n,0) AS DOUBLE)) / SUM(s.sessions) FROM sessions s LEFT JOIN (SELECT substr(strftime(CAST(o.ts_utc AS TIMESTAMP) + INT",集計した値（SUM など）｜守りなし,-- B13 [good] 定義のずれ：月次の購入率（日ごとの率の平均）
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,22,C06,"SELECT ym, (s - s12) * 100 / s12 FROM (SELECT r.ym, r.sales AS s, LAG(r.sales,12) OVER (ORDER BY r.ym) AS s12 FROM retail r JOIN item_dim d ON r.gyotai=d.gyotai",列・変数｜守りあり,-- A4 [bad] 整数の割り算：スーパーの前年同月比（%）
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,25,C06,"SELECT ym, CAST(s - s12 AS REAL) * 100 / s12 FROM (SELECT r.ym, r.sales AS s, LAG(r.sales,12) OVER (ORDER BY r.ym) AS s12 FROM retail r JOIN item_dim d ON r.gyo",列・変数｜守りあり,-- A4 [good] 整数の割り算：スーパーの前年同月比（%）
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,64,C04,"SELECT 'all', COUNT(*) FROM customers c WHERE c.customer_id NOT IN (SELECT referrer_id FROM customers);",,-- B5 [bad] NULL：だれも紹介していない顧客の数（NOT IN と NULL）
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,88,C05,"SELECT 'dec', SUM(i.qty*i.unit_price) FROM orders o JOIN order_items i ON i.order_id=o.order_id WHERE o.status='paid' AND datetime(o.ts_utc, '+9 hours') BETWEEN",,-- B9 [bad] 日付・時間帯：12月の売上（BETWEEN '12-01' AND '12-31' で時刻つきの列を絞る）
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,94,C09,"SELECT customer_id, CAST(julianday(lastd) - julianday('2025-01-01') AS INTEGER) FROM (SELECT DISTINCT o.customer_id, substr(LAST_VALUE(datetime(o.ts_utc, '+9 ho",,-- B10 [bad] ウィンドウ関数：顧客ごとの最後の注文日（LAST_VALUE の既定の範囲）
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,97,C09,"SELECT customer_id, CAST(julianday(lastd) - julianday('2025-01-01') AS INTEGER) FROM (SELECT DISTINCT o.customer_id, substr(LAST_VALUE(datetime(o.ts_utc, '+9 ho",,-- B10 [good] ウィンドウ関数：顧客ごとの最後の注文日（LAST_VALUE の既定の範囲）
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,106,C06,"SELECT s.d, COALESCE(n,0) / s.sessions FROM sessions s LEFT JOIN (SELECT substr(datetime(o.ts_utc, '+9 hours'),1,10) AS d, COUNT(*) AS n FROM orders o WHERE o.s",列・変数｜守りなし,-- B12 [bad] 整数の割り算：日次の購入率（注文数 ÷ 訪問数）
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,109,C06,"SELECT s.d, CAST(COALESCE(n,0) AS REAL) / s.sessions FROM sessions s LEFT JOIN (SELECT substr(datetime(o.ts_utc, '+9 hours'),1,10) AS d, COUNT(*) AS n FROM orde",列・変数｜守りなし,-- B12 [good] 整数の割り算：日次の購入率（注文数 ÷ 訪問数）
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,112,C06,"SELECT substr(s.d,1,7), AVG(CAST(COALESCE(n,0) AS REAL) / s.sessions) FROM sessions s LEFT JOIN (SELECT substr(datetime(o.ts_utc, '+9 hours'),1,10) AS d, COUNT(",列・変数｜守りなし,-- B13 [bad] 定義のずれ：月次の購入率（日ごとの率の平均）
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,115,C06,"SELECT substr(s.d,1,7), SUM(CAST(COALESCE(n,0) AS REAL)) / SUM(s.sessions) FROM sessions s LEFT JOIN (SELECT substr(datetime(o.ts_utc, '+9 hours'),1,10) AS d, C",集計した値（SUM など）｜守りなし,-- B13 [good] 定義のずれ：月次の購入率（日ごとの率の平均）
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,24,C06,"SELECT ym, (s - s12) * 100 / s12 FROM (SELECT r.ym, r.sales AS s, LAG(r.sales,12) OVER (ORDER BY r.ym) AS s12 FROM retail r JOIN item_dim d ON r.gyotai=d.gyotai",列・変数｜守りあり,-- A4 [bad] 整数の割り算：スーパーの前年同月比（%）
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,27,C06,"SELECT ym, CAST(s - s12 AS float) * 100 / s12 FROM (SELECT r.ym, r.sales AS s, LAG(r.sales,12) OVER (ORDER BY r.ym) AS s12 FROM retail r JOIN item_dim d ON r.gy",列・変数｜守りあり,-- A4 [good] 整数の割り算：スーパーの前年同月比（%）
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,66,C04,"SELECT 'all', COUNT(*) FROM customers c WHERE c.customer_id NOT IN (SELECT referrer_id FROM customers);",,-- B5 [bad] NULL：だれも紹介していない顧客の数（NOT IN と NULL）
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,90,C05,"SELECT 'dec', SUM(i.qty*i.unit_price) FROM orders o JOIN order_items i ON i.order_id=o.order_id WHERE o.status='paid' AND CONVERT(varchar(19), DATEADD(hour, 9, ",,-- B9 [bad] 日付・時間帯：12月の売上（BETWEEN '12-01' AND '12-31' で時刻つきの列を絞る）
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,96,C09,"SELECT customer_id, DATEDIFF(day, '2025-01-01', CAST(lastd AS date)) FROM (SELECT DISTINCT o.customer_id, SUBSTRING(LAST_VALUE(CONVERT(varchar(19), DATEADD(hour",,-- B10 [bad] ウィンドウ関数：顧客ごとの最後の注文日（LAST_VALUE の既定の範囲）
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,99,C09,"SELECT customer_id, DATEDIFF(day, '2025-01-01', CAST(lastd AS date)) FROM (SELECT DISTINCT o.customer_id, SUBSTRING(LAST_VALUE(CONVERT(varchar(19), DATEADD(hour",,-- B10 [good] ウィンドウ関数：顧客ごとの最後の注文日（LAST_VALUE の既定の範囲）
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,108,C06,"SELECT s.d, COALESCE(n,0) / s.sessions FROM sessions s LEFT JOIN (SELECT SUBSTRING(CONVERT(varchar(19), DATEADD(hour, 9, CAST(o.ts_utc AS datetime2)), 120),1,10",列・変数｜守りなし,-- B12 [bad] 整数の割り算：日次の購入率（注文数 ÷ 訪問数）
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,111,C06,"SELECT s.d, CAST(COALESCE(n,0) AS float) / s.sessions FROM sessions s LEFT JOIN (SELECT SUBSTRING(CONVERT(varchar(19), DATEADD(hour, 9, CAST(o.ts_utc AS datetim",列・変数｜守りなし,-- B12 [good] 整数の割り算：日次の購入率（注文数 ÷ 訪問数）
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,114,C06,"SELECT SUBSTRING(s.d,1,7), AVG(CAST(COALESCE(n,0) AS float) / s.sessions) FROM sessions s LEFT JOIN (SELECT SUBSTRING(CONVERT(varchar(19), DATEADD(hour, 9, CAST",列・変数｜守りなし,-- B13 [bad] 定義のずれ：月次の購入率（日ごとの率の平均）
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,117,C06,"SELECT SUBSTRING(s.d,1,7), SUM(CAST(COALESCE(n,0) AS float)) / SUM(s.sessions) FROM sessions s LEFT JOIN (SELECT SUBSTRING(CONVERT(varchar(19), DATEADD(hour, 9,",集計した値（SUM など）｜守りなし,-- B13 [good] 定義のずれ：月次の購入率（日ごとの率の平均）
+F245_one_hour_request,src/05_sql_check.sql,9,C06,100.0 * SUM(CASE WHEN ym = '2026-08' THEN 値 END) / SUM(CASE WHEN ym = '2025-08' THEN 値 END) - 100 AS yoy,集計した値（SUM など）｜守りなし,
+F245_one_hour_request,src/05_sql_check.sql,20,C06,"SELECT 品目, 100.0 * (a - b) / SUM(b) OVER () AS contrib_pt FROM it ORDER BY contrib_pt;",集計した値（SUM など）｜守りなし,
+F246_kpi_definitions_fictional_retail,sql/kpi_monthly.sql,39,C01,"SELECT sm.*, m.month_no",,
+F247_data_mart_fictional_retail,sql/10_staging.sql,20,C01,SELECT p.*,,-- POS 店×日：締めの時点までに届いた行 → 再送を除く（同じ店コード×営業日の最新の送信だけ）→ 有効期間で店番に置き換え
+F247_data_mart_fictional_retail,sql/10_staging.sql,25,C01,"SELECT a.*,",,
+F247_data_mart_fictional_retail,sql/10_staging.sql,35,C05,"ON c.pos_code = r.""店コード"" AND r.""営業日"" BETWEEN c.valid_from AND c.valid_to",,
+F247_data_mart_fictional_retail,sql/10_staging.sql,26,C07,"ROW_NUMBER() OVER (PARTITION BY a.""店コード"", a.""営業日"" ORDER BY a.""送信日時"" DESC) AS rn,",,
+F247_data_mart_fictional_retail,sql/10_staging.sql,43,C05,"ON c.pos_code = p.""店コード"" AND p.""営業日"" BETWEEN c.valid_from AND c.valid_to",,
+F247_data_mart_fictional_retail,sql/10_staging.sql,54,C01,"SELECT d.* FROM raw_pos_dept_day AS d WHERE d.""送信日時"" <= (SELECT cutoff FROM run_param)",,-- POS 店×日×部門
+F247_data_mart_fictional_retail,sql/10_staging.sql,57,C01,"SELECT a.*, ROW_NUMBER() OVER (PARTITION BY a.""店コード"", a.""営業日"", a.""部門コード"" ORDER BY a.""送信日時"" DESC) AS rn",,
+F247_data_mart_fictional_retail,sql/10_staging.sql,63,C05,"JOIN stg_store_code AS c ON c.pos_code = r.""店コード"" AND r.""営業日"" BETWEEN c.valid_from AND c.valid_to AND c.action = 'map'",,
+F247_data_mart_fictional_retail,sql/10_staging.sql,64,C05,"JOIN stg_dept_code  AS k ON k.dept_code = r.""部門コード"" AND r.""営業日"" BETWEEN k.valid_from AND k.valid_to",,
+F247_data_mart_fictional_retail,sql/10_staging.sql,57,C07,"SELECT a.*, ROW_NUMBER() OVER (PARTITION BY a.""店コード"", a.""営業日"", a.""部門コード"" ORDER BY a.""送信日時"" DESC) AS rn",,
+F247_data_mart_fictional_retail,sql/10_staging.sql,73,C05,"JOIN stg_store_code AS c ON c.pos_code = w.""店コード"" AND w.""登録日"" BETWEEN c.valid_from AND c.valid_to AND c.action = 'map'",,
+F247_data_mart_fictional_retail,sql/10_staging.sql,74,C05,"JOIN stg_dept_code  AS k ON k.dept_code = w.""部門コード"" AND w.""登録日"" BETWEEN k.valid_from AND k.valid_to",,
+F247_data_mart_fictional_retail,sql/10_staging.sql,75,C05,"LEFT JOIN ref_fix_waste_unit AS f ON f.""店番"" = c.store_id AND w.""登録日"" BETWEEN f.""開始"" AND f.""終了"";",,
+F247_data_mart_fictional_retail,sql/10_staging.sql,91,C06,"SELECT store_id, ym, SUM(labor_cost) * 1.0 / SUM(labor_hours) AS wage",集計した値（SUM など）｜守りあり,
+F247_data_mart_fictional_retail,sql/20_mart.sql,58,C01,"SELECT m.*, a.""その他経費"" AS other_cost,",,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,28,C06,"(ac.op / ap.op - 1) * 100                                   AS K00,  -- 営業利益（全店）",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,29,C06,"(ac.s / ap.s - 1) * 100                                     AS K10,  -- 売上（全店）",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,30,C06,"(a.s / b.s - 1) * 100                                       AS K01,  -- 既存店売上",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,31,C06,"(a.r / b.r - 1) * 100                                       AS K02,  -- 客数",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,32,C06,"((a.i / a.r) / (b.i / b.r) - 1) * 100                       AS K03,  -- 買上点数（1回）",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,32,C06,"((a.i / a.r) / (b.i / b.r) - 1) * 100                       AS K03,  -- 買上点数（1回）",式（かっこ）｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,32,C06,"((a.i / a.r) / (b.i / b.r) - 1) * 100                       AS K03,  -- 買上点数（1回）",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,33,C06,"((a.s / a.i) / (b.s / b.i) - 1) * 100                       AS K04,  -- 一品単価",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,33,C06,"((a.s / a.i) / (b.s / b.i) - 1) * 100                       AS K04,  -- 一品単価",式（かっこ）｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,33,C06,"((a.s / a.i) / (b.s / b.i) - 1) * 100                       AS K04,  -- 一品単価",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,34,C06,"((mc.mr / mc.am) / (mp.mr / mp.am) - 1) * 100               AS K05,  -- 来店頻度（会員）",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,34,C06,"((mc.mr / mc.am) / (mp.mr / mp.am) - 1) * 100               AS K05,  -- 来店頻度（会員）",式（かっこ）｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,34,C06,"((mc.mr / mc.am) / (mp.mr / mp.am) - 1) * 100               AS K05,  -- 来店頻度（会員）",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,35,C06,"(a.g / a.s - b.g / b.s) * 100                               AS K06,  -- 粗利率（廃棄後）",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,35,C06,"(a.g / a.s - b.g / b.s) * 100                               AS K06,  -- 粗利率（廃棄後）",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,36,C06,"(a.w / a.s - b.w / b.s) * 100                               AS K07,  -- 廃棄率",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,36,C06,"(a.w / a.s - b.w / b.s) * 100                               AS K07,  -- 廃棄率",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,37,C06,"((a.g / a.h) / (b.g / b.h) - 1) * 100                       AS K08,  -- 人時粗利",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,37,C06,"((a.g / a.h) / (b.g / b.h) - 1) * 100                       AS K08,  -- 人時粗利",式（かっこ）｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,37,C06,"((a.g / a.h) / (b.g / b.h) - 1) * 100                       AS K08,  -- 人時粗利",列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,38,C06,(a.l / a.s - b.l / b.s) * 100                               AS K09   -- 人件費率,列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,38,C06,(a.l / a.s - b.l / b.s) * 100                               AS K09   -- 人件費率,列・変数｜守りなし,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,19,C09,"FROM (SELECT DISTINCT ym, store_id FROM cur) c JOIN fact_member_month f ON f.store_id = c.store_id AND f.ym = c.ym GROUP BY c.ym),",,
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,21,C09,"FROM (SELECT DISTINCT ym, store_id FROM cur) c JOIN fact_member_month f",,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,15,C01,"SELECT sd.*, fm.other_cost AS oc, fm.is_existing, mem.active_members AS am, mem.member_receipts AS mr,",,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,43,C06,"SELECT p.期間, SUM(w1.w) / SUM(w0.w) - 1 AS eff",集計した値（SUM など）｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,49,C06,"q.s1 AS ""既存店売上"", q.s0 AS ""既存店売上_前年"", q.s1 / q.s0 - 1 AS ""既存店売上_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,50,C06,"k.eff AS ""曜日の並びの効果"", (q.s1 / q.s0) / (1 + k.eff) - 1 AS ""既存店売上_前年比_曜日補正"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,51,C06,"q.r1 / q.r0 - 1 AS ""既存店客数_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,52,C06,"q.i1 / q.r1 AS ""既存店買上点数"", (q.i1 / q.r1) / (q.i0 / q.r0) - 1 AS ""既存店買上点数_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,52,C06,"q.i1 / q.r1 AS ""既存店買上点数"", (q.i1 / q.r1) / (q.i0 / q.r0) - 1 AS ""既存店買上点数_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,52,C06,"q.i1 / q.r1 AS ""既存店買上点数"", (q.i1 / q.r1) / (q.i0 / q.r0) - 1 AS ""既存店買上点数_前年比"",",式（かっこ）｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,52,C06,"q.i1 / q.r1 AS ""既存店買上点数"", (q.i1 / q.r1) / (q.i0 / q.r0) - 1 AS ""既存店買上点数_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,53,C06,"q.s1 / q.i1 AS ""既存店一品単価"", (q.s1 / q.i1) / (q.s0 / q.i0) - 1 AS ""既存店一品単価_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,53,C06,"q.s1 / q.i1 AS ""既存店一品単価"", (q.s1 / q.i1) / (q.s0 / q.i0) - 1 AS ""既存店一品単価_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,53,C06,"q.s1 / q.i1 AS ""既存店一品単価"", (q.s1 / q.i1) / (q.s0 / q.i0) - 1 AS ""既存店一品単価_前年比"",",式（かっこ）｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,53,C06,"q.s1 / q.i1 AS ""既存店一品単価"", (q.s1 / q.i1) / (q.s0 / q.i0) - 1 AS ""既存店一品単価_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,54,C06,"q.g1 / q.s1 AS ""既存店粗利率_廃棄後"", q.g1 / q.s1 - q.g0 / q.s0 AS ""既存店粗利率_廃棄後_前年差"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,54,C06,"q.g1 / q.s1 AS ""既存店粗利率_廃棄後"", q.g1 / q.s1 - q.g0 / q.s0 AS ""既存店粗利率_廃棄後_前年差"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,54,C06,"q.g1 / q.s1 AS ""既存店粗利率_廃棄後"", q.g1 / q.s1 - q.g0 / q.s0 AS ""既存店粗利率_廃棄後_前年差"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,55,C06,"q.w1 / q.s1 AS ""既存店廃棄率"", q.w1 / q.s1 - q.w0 / q.s0 AS ""既存店廃棄率_前年差"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,55,C06,"q.w1 / q.s1 AS ""既存店廃棄率"", q.w1 / q.s1 - q.w0 / q.s0 AS ""既存店廃棄率_前年差"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,55,C06,"q.w1 / q.s1 AS ""既存店廃棄率"", q.w1 / q.s1 - q.w0 / q.s0 AS ""既存店廃棄率_前年差"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,56,C06,"q.g1 / q.h1 AS ""既存店人時粗利"", (q.g1 / q.h1) / (q.g0 / q.h0) - 1 AS ""既存店人時粗利_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,56,C06,"q.g1 / q.h1 AS ""既存店人時粗利"", (q.g1 / q.h1) / (q.g0 / q.h0) - 1 AS ""既存店人時粗利_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,56,C06,"q.g1 / q.h1 AS ""既存店人時粗利"", (q.g1 / q.h1) / (q.g0 / q.h0) - 1 AS ""既存店人時粗利_前年比"",",式（かっこ）｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,56,C06,"q.g1 / q.h1 AS ""既存店人時粗利"", (q.g1 / q.h1) / (q.g0 / q.h0) - 1 AS ""既存店人時粗利_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,57,C06,"q.c1 / q.s1 AS ""既存店人件費率"", q.c1 / q.s1 - q.c0 / q.s0 AS ""既存店人件費率_前年差"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,57,C06,"q.c1 / q.s1 AS ""既存店人件費率"", q.c1 / q.s1 - q.c0 / q.s0 AS ""既存店人件費率_前年差"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,57,C06,"q.c1 / q.s1 AS ""既存店人件費率"", q.c1 / q.s1 - q.c0 / q.s0 AS ""既存店人件費率_前年差"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,59,C06,"(q.g1 - q.c1 - q.o1) / (q.g0 - q.c0 - q.o0) - 1 AS ""既存店営業利益_前年比"",",式（かっこ）｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,60,C06,"q.m1 / q.a1 AS ""来店頻度_会員"", (q.m1 / q.a1) / (q.m0 / q.a0) - 1 AS ""来店頻度_会員_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,60,C06,"q.m1 / q.a1 AS ""来店頻度_会員"", (q.m1 / q.a1) / (q.m0 / q.a0) - 1 AS ""来店頻度_会員_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,60,C06,"q.m1 / q.a1 AS ""来店頻度_会員"", (q.m1 / q.a1) / (q.m0 / q.a0) - 1 AS ""来店頻度_会員_前年比"",",式（かっこ）｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,60,C06,"q.m1 / q.a1 AS ""来店頻度_会員"", (q.m1 / q.a1) / (q.m0 / q.a0) - 1 AS ""来店頻度_会員_前年比"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,61,C06,"(q.s1 - q.s0) * (q.b0 / q.s0) AS ""橋_売上の伸び"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,62,C06,"q.s1 * (q.b1 / q.s1 - q.b0 / q.s0) AS ""橋_廃棄前の粗利率"",",列・変数｜守りなし,
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,62,C06,"q.s1 * (q.b1 / q.s1 - q.b0 / q.s0) AS ""橋_廃棄前の粗利率"",",列・変数｜守りなし,
+F250_sales_drop_explanation_fictional_retail,sql/10_existing_store_yoy.sql,30,C06,"s1 / s0 - 1 AS sales_yoy,",列・変数｜守りなし,
+F250_sales_drop_explanation_fictional_retail,sql/10_existing_store_yoy.sql,31,C06,"r1 / r0 - 1 AS receipts_yoy,",列・変数｜守りなし,
+F250_sales_drop_explanation_fictional_retail,sql/10_existing_store_yoy.sql,32,C06,"(i1 / r1) / (i0 / r0) - 1 AS items_per_receipt_yoy,",列・変数｜守りなし,
+F250_sales_drop_explanation_fictional_retail,sql/10_existing_store_yoy.sql,32,C06,"(i1 / r1) / (i0 / r0) - 1 AS items_per_receipt_yoy,",式（かっこ）｜守りなし,
+F250_sales_drop_explanation_fictional_retail,sql/10_existing_store_yoy.sql,32,C06,"(i1 / r1) / (i0 / r0) - 1 AS items_per_receipt_yoy,",列・変数｜守りなし,
+F250_sales_drop_explanation_fictional_retail,sql/10_existing_store_yoy.sql,33,C06,(s1 / i1) / (s0 / i0) - 1 AS unit_price_yoy,列・変数｜守りなし,
+F250_sales_drop_explanation_fictional_retail,sql/10_existing_store_yoy.sql,33,C06,(s1 / i1) / (s0 / i0) - 1 AS unit_price_yoy,式（かっこ）｜守りなし,
+F250_sales_drop_explanation_fictional_retail,sql/10_existing_store_yoy.sql,33,C06,(s1 / i1) / (s0 / i0) - 1 AS unit_price_yoy,列・変数｜守りなし,
+F250_sales_drop_explanation_fictional_retail,sql/10_existing_store_yoy.sql,9,C09,"SELECT DISTINCT ym, CAST(ym || '-01' AS DATE) AS m_start,",,
+F251_promo_effect_fictional_retail,sql/10_promo_simple_estimates.sql,15,C06,"EXP(LN(t.promo / t.before8)) - 1                                   AS m1_before_after,",列・変数｜守りなし,
+F251_promo_effect_fictional_retail,sql/10_promo_simple_estimates.sql,16,C06,"EXP(LN(t.promo / t.lastyear)) - 1                                  AS m2_yoy,",列・変数｜守りなし,
+F251_promo_effect_fictional_retail,sql/10_promo_simple_estimates.sql,17,C06,EXP(LN(t.promo / t.lastyear) - LN(c.promo / c.lastyear)) - 1       AS m3_yoy_diff,列・変数｜守りなし,
+F251_promo_effect_fictional_retail,sql/10_promo_simple_estimates.sql,17,C06,EXP(LN(t.promo / t.lastyear) - LN(c.promo / c.lastyear)) - 1       AS m3_yoy_diff,列・変数｜守りなし,
+F252_budget_forecast_fictional_retail,sql/20_backtest_mape.sql,8,C06,100.0 * AVG(ABS(fc / act - 1.0)) AS mape_pct,列・変数｜守りなし,
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,40,C08,"UNION ALL SELECT h.store_id, h.biz_date, h.receipts, h.items, ROUND(h.sales, 0) FROM hist h, param p",,-- Q05 ほかの日と同じ値（その月と、前の7日）
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,13,C09,"SELECT 'Q02', e.store_id, e.biz_date, '行' FROM expected e LEFT JOIN (SELECT DISTINCT store_id, biz_date FROM cur) c",,-- Q02 行の欠け（営業しているはずの日に行がない）と、営業日の外の行
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,16,C09,"SELECT DISTINCT 'Q02', c.store_id, c.biz_date, '営業日の外の行' FROM cur c LEFT JOIN expected e",,-- Q02 行の欠け（営業しているはずの日に行がない）と、営業日の外の行
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,38,C09,"SELECT 'Q05', a.store_id, a.biz_date, '客数・点数・売上' FROM (SELECT DISTINCT store_id, biz_date, receipts, items, ROUND(sales, 0) AS s FROM cur WHERE sales > 0) a",,-- Q05 ほかの日と同じ値（その月と、前の7日）
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,47,C09,"FROM (SELECT DISTINCT ON (store_id, biz_date) store_id, biz_date, sales FROM cur) c",,-- Q08 部門の合計と店の売上
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,56,C08,"FROM hist h, param p WHERE h.biz_date >= p.m0 - INTERVAL 56 DAY AND h.biz_date < p.m0 GROUP BY h.store_id, DAYOFWEEK(h.biz_date);",,-- Q06（参照 a だけ）：月初の前の8週の、同じ曜日の中央値と比べる
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,65,C06,) c WHERE v > 0 AND r > 0 AND ABS(LN(v / r)) > LN(t);,列・変数｜守りあり,
+F259_forecast_error_inventory_cost,sql/f259_check.sql,15,C05,"MAX(CASE WHEN d.""月番号"" BETWEEN 24242 AND 24263 THEN 1 ELSE 0 END) AS covid",,-- (2) L+R か月の合計の外れ（実績の合計 − 予測の合計）の RMSE を、1か月先の RMSE で割った倍率
+F259_forecast_error_inventory_cost,sql/f259_check.sql,24,C06,"SELECT a.""業態"", a.""モデル"", a.H, a.rmse / b.rmse AS ""RMSE倍""",列・変数｜守りなし,
+F275_sql_change_requests,sql/S1/R4.sql,3,C06,SUM(a.sales) * 1.0 / SUM(b.sales) - 1 AS yoy,集計した値（SUM など）｜守りなし,-- R4 既存店の前年比
+F275_sql_change_requests,sql/S1/R5.sql,2,C06,"SELECT s.ym, s.sales, k.customers, s.sales * 1.0 / k.customers AS ticket",列・変数｜守りなし,-- R5 客数と客単価
+F275_sql_change_requests,sql/S1/R7.sql,2,C06,"SELECT s.ym, s.sales, k.customers, s.sales * 1.0 / k.customers AS ticket, q.yoy AS comp_yoy",列・変数｜守りなし,-- R7 KPI のまとめ
+F275_sql_change_requests,sql/S1/R7.sql,27,C06,"SELECT a.ym, SUM(a.sales) * 1.0 / SUM(b.sales) - 1 AS yoy",集計した値（SUM など）｜守りなし,
+F275_sql_change_requests,sql/S2/R4.sql,28,C06,SUM(a.sales) * 1.0 / SUM(b.sales) - 1 AS yoy,集計した値（SUM など）｜守りなし,
+F275_sql_change_requests,sql/S2/R4.sql,24,C09,CROSS JOIN (SELECT DISTINCT mi FROM mon) m,,
+F275_sql_change_requests,sql/S2/R5.sql,26,C06,"SELECT s.ym, s.sales, c.customers, s.sales * 1.0 / c.customers AS ticket",列・変数｜守りなし,
+F275_sql_change_requests,sql/S2/R7.sql,33,C06,"SELECT s.ym, s.sales, c.customers, s.sales * 1.0 / c.customers AS ticket, k.yoy AS comp_yoy",列・変数｜守りなし,
+F275_sql_change_requests,sql/S2/R7.sql,38,C06,"SELECT a.ym, SUM(a.sales) * 1.0 / SUM(b.sales) - 1 AS yoy",集計した値（SUM など）｜守りなし,
+F275_sql_change_requests,sql/S2/R7.sql,24,C09,CROSS JOIN (SELECT DISTINCT mi FROM mon) m,,
+F275_sql_change_requests,sql/S3/R4.sql,3,C06,SUM(a.sales) * 1.0 / SUM(b.sales) - 1 AS yoy,集計した値（SUM など）｜守りなし,-- R4 既存店の前年比
+F275_sql_change_requests,sql/S3/R5.sql,2,C06,"SELECT s.ym, s.sales, c.customers, s.sales * 1.0 / c.customers AS ticket",列・変数｜守りなし,-- R5 客数と客単価
+F275_sql_change_requests,sql/S3/R7.sql,2,C06,"SELECT s.ym, s.sales, c.customers, s.sales * 1.0 / c.customers AS ticket, k.yoy AS comp_yoy",列・変数｜守りなし,-- R7 KPI のまとめ
+F275_sql_change_requests,sql/S3/R7.sql,7,C06,"SELECT a.ym, SUM(a.sales) * 1.0 / SUM(b.sales) - 1 AS yoy",集計した値（SUM など）｜守りなし,
+F275_sql_change_requests,sql/S3/V_comp_store.sql,5,C09,CROSS JOIN (SELECT DISTINCT mi FROM mon) m,,

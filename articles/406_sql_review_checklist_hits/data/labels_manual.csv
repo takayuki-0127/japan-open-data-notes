@@ -1,0 +1,95 @@
+記事,ファイル,行番号,観点,分類,理由
+233_sql_reconcile_totals,sql/01_report_before.sql,7,C05,わざと書いた悪い例,直す前のレポートの条件と、それを調べる照合（同じ条件で数える）
+233_sql_reconcile_totals,sql/03_checks.sql,4,C05,わざと書いた悪い例,直す前のレポートの条件と、それを調べる照合（同じ条件で数える）
+233_sql_reconcile_totals,sql/03_checks.sql,8,C05,わざと書いた悪い例,直す前のレポートの条件と、それを調べる照合（同じ条件で数える）
+233_sql_reconcile_totals,sql/03_checks.sql,13,C05,わざと書いた悪い例,直す前のレポートの条件と、それを調べる照合（同じ条件で数える）
+233_sql_reconcile_totals,sql/03_checks.sql,19,C05,わざと書いた悪い例,直す前のレポートの条件と、それを調べる照合（同じ条件で数える）
+233_sql_reconcile_totals,sql/03_checks.sql,27,C05,わざと書いた悪い例,直す前のレポートの条件と、それを調べる照合（同じ条件で数える）
+243_sql_pivot_report,sql/04_wide_pivot_dynamic_tsql.sql,4,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+245_sql_dedup_customers,sql/03_rules.sql,5,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+245_sql_dedup_customers,sql/03_rules.sql,13,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+245_sql_dedup_customers,sql/03_rules.sql,15,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+245_sql_dedup_customers,sql/03_rules.sql,18,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+245_sql_dedup_customers,sql/04_keep_latest.sql,4,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+270_sql_municipal_code_scd2,sql/00_ward_to_city.sql,8,C04,問題なし,サブクエリの列は、NULL にならないコードの列
+270_sql_municipal_code_scd2,sql/02_scd2.sql,4,C10,問題なし,同じ日の重なりを1つにまとめる意図の UNION
+270_sql_municipal_code_scd2,sql/03_as_of.sql,3,C05,誤検出,日付ではない値（コード・月数・月の番号）の BETWEEN
+270_sql_municipal_code_scd2,sql/03_as_of.sql,5,C05,問題なし,日付型の列（時刻なし）で、両端を含める意図の期間
+270_sql_municipal_code_scd2,sql/05_checks.sql,6,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+296_forecast_error_control_chart,sql/01_weekly_error_chart_duckdb.sql,9,C05,問題なし,日付型の列（時刻なし）で、両端を含める意図の期間
+296_forecast_error_control_chart,sql/01_weekly_error_chart_tsql.sql,9,C05,問題なし,日付型の列（時刻なし）で、両端を含める意図の期間
+312_sql_null_aggregation,sql/naive.sql,13,C04,わざと書いた悪い例,NULL の落とし穴を見せる記事の、直す前の SQL
+313_sql_month_end_boundary,sql/month_filters.sql,25,C05,問題なし,時刻つきの列を DATE に直してから比べている
+315_sql_earned_premium,sql/earned.sql,17,C05,誤検出,日付ではない値（コード・月数・月の番号）の BETWEEN
+315_sql_earned_premium,sql/earned.sql,24,C05,誤検出,日付ではない値（コード・月数・月の番号）の BETWEEN
+326_migration_reconciliation,sql/01_reconcile_tsql.sql,24,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+330_idempotent_load,sql/01_idempotent_load_tsql.sql,10,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+342_restate_and_reproduce_reports,src/01_asof_tsql.sql,13,C07,直す候補,並べる列（時刻）に同じ値があると、番号が決まらない。キーをもう1つ足す
+358_missing_zero_days,src/01_avg_daily_duckdb.sql,7,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+358_missing_zero_days,src/01_avg_daily_duckdb.sql,8,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+360_top3_with_ties,src/01_top3_duckdb.sql,5,C07,わざと書いた悪い例,同点で番号が変わることを見せる記事の例
+360_top3_with_ties,src/01_top3_tsql.sql,6,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+360_top3_with_ties,src/01_top3_tsql.sql,6,C07,わざと書いた悪い例,同点で番号が変わることを見せる記事の例
+360_top3_with_ties,src/01_top3_tsql.sql,12,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+360_top3_with_ties,src/01_top3_tsql.sql,18,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+360_top3_with_ties,src/01_top3_tsql.sql,25,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+360_top3_with_ties,src/01_top3_tsql.sql,31,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+360_top3_with_ties,src/02_row_number_only_duckdb.sql,4,C07,わざと書いた悪い例,同点で番号が変わることを見せる記事の例
+371_percentile_definitions,src/01_percentiles_tsql.sql,5,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+388_cohort_retention_censoring,src/01_cohort_tsql.sql,4,C07,問題なし,連番を作るだけ（並びは使わない）
+402_summary_table_drift,src/sql_update_and_check.sql,16,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+F12_stats_pipeline,dbt/macros/test_value_between.sql,3,C01,問題なし,dbt のテストと、同じ文の中の CTE からの SELECT *
+F12_stats_pipeline,dbt/models/marts/mart_indicators_monthly.sql,3,C01,問題なし,dbt のテストと、同じ文の中の CTE からの SELECT *
+F233_calendar_weather_sales,sql/01_calendar_and_adjust_sqlserver.sql,32,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+F233_calendar_weather_sales,sql/01_calendar_and_adjust_sqlserver.sql,26,C07,問題なし,並べる列（日付）に同じ値がない
+F233_calendar_weather_sales,sql/01_calendar_and_adjust_sqlserver.sql,27,C07,問題なし,並べる列（日付）に同じ値がない
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,3,C01,直す候補,取り込み・書き出しで列を書いていない。列が増えると、そのまま流れる
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,4,C01,直す候補,取り込み・書き出しで列を書いていない。列が増えると、そのまま流れる
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,13,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,11,C07,問題なし,並べる列（日付）に同じ値がない
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,11,C07,問題なし,並べる列（日付）に同じ値がない
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,20,C01,直す候補,取り込み・書き出しで列を書いていない。列が増えると、そのまま流れる
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,22,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+F235_inventory_newsvendor,src/04_在庫の判断.sql,12,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+F241_customer_churn_survival,sql/01_life_table.sql,4,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,64,C04,わざと書いた悪い例,落とし穴を見せる記事の [bad] の例
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,88,C05,わざと書いた悪い例,落とし穴を見せる記事の [bad] の例
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,94,C09,わざと書いた悪い例,落とし穴を見せる記事の [bad] の例
+F244_sql_aggregation_pitfalls,sql/queries_duckdb.sql,97,C09,問題なし,同じ記事の [good] の例
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,64,C04,わざと書いた悪い例,落とし穴を見せる記事の [bad] の例
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,88,C05,わざと書いた悪い例,落とし穴を見せる記事の [bad] の例
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,94,C09,わざと書いた悪い例,落とし穴を見せる記事の [bad] の例
+F244_sql_aggregation_pitfalls,sql/queries_sqlite.sql,97,C09,問題なし,同じ記事の [good] の例
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,66,C04,わざと書いた悪い例,落とし穴を見せる記事の [bad] の例
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,90,C05,わざと書いた悪い例,落とし穴を見せる記事の [bad] の例
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,96,C09,わざと書いた悪い例,落とし穴を見せる記事の [bad] の例
+F244_sql_aggregation_pitfalls,sql/queries_sqlserver.sql,99,C09,問題なし,同じ記事の [good] の例
+F246_kpi_definitions_fictional_retail,sql/kpi_monthly.sql,39,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+F247_data_mart_fictional_retail,sql/10_staging.sql,20,C01,直す候補,元の表の列を全部そのまま受けている。列が増えると、下流の表に流れる
+F247_data_mart_fictional_retail,sql/10_staging.sql,25,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+F247_data_mart_fictional_retail,sql/10_staging.sql,35,C05,問題なし,日付型の列（時刻なし）で、両端を含める意図の期間
+F247_data_mart_fictional_retail,sql/10_staging.sql,26,C07,直す候補,並べる列（時刻）に同じ値があると、番号が決まらない。キーをもう1つ足す
+F247_data_mart_fictional_retail,sql/10_staging.sql,43,C05,問題なし,日付型の列（時刻なし）で、両端を含める意図の期間
+F247_data_mart_fictional_retail,sql/10_staging.sql,54,C01,直す候補,元の表の列を全部そのまま受けている。列が増えると、下流の表に流れる
+F247_data_mart_fictional_retail,sql/10_staging.sql,57,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+F247_data_mart_fictional_retail,sql/10_staging.sql,63,C05,問題なし,日付型の列（時刻なし）で、両端を含める意図の期間
+F247_data_mart_fictional_retail,sql/10_staging.sql,64,C05,問題なし,日付型の列（時刻なし）で、両端を含める意図の期間
+F247_data_mart_fictional_retail,sql/10_staging.sql,57,C07,直す候補,並べる列（時刻）に同じ値があると、番号が決まらない。キーをもう1つ足す
+F247_data_mart_fictional_retail,sql/10_staging.sql,73,C05,問題なし,日付型の列（時刻なし）で、両端を含める意図の期間
+F247_data_mart_fictional_retail,sql/10_staging.sql,74,C05,問題なし,日付型の列（時刻なし）で、両端を含める意図の期間
+F247_data_mart_fictional_retail,sql/10_staging.sql,75,C05,問題なし,日付型の列（時刻なし）で、両端を含める意図の期間
+F247_data_mart_fictional_retail,sql/20_mart.sql,58,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,19,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+F248_monthly_report_template_fictional_retail,sql/monthly_report_kpi.sql,21,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+F249_powerbi_dashboard_fictional_retail,sql/expected_measures.sql,15,C01,問題なし,同じ文の中で作った表（CTE・サブクエリ）からの SELECT *。列は手前で決まっている
+F250_sales_drop_explanation_fictional_retail,sql/10_existing_store_yoy.sql,9,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,40,C08,直す候補,1行だけの表とのカンマ結合。CROSS JOIN と書けば意図が伝わる（結果は同じ）
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,13,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,16,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,38,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,47,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,56,C08,直す候補,1行だけの表とのカンマ結合。CROSS JOIN と書けば意図が伝わる（結果は同じ）
+F259_forecast_error_inventory_cost,sql/f259_check.sql,15,C05,誤検出,日付ではない値（コード・月数・月の番号）の BETWEEN
+F275_sql_change_requests,sql/S2/R4.sql,24,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+F275_sql_change_requests,sql/S2/R7.sql,24,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
+F275_sql_change_requests,sql/S3/V_comp_store.sql,5,C09,問題なし,キーの一覧を作るための DISTINCT、または T-SQL の PERCENTILE_CONT … OVER と組む書き方
