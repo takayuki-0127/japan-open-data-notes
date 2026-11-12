@@ -1,0 +1,57 @@
+{
+ "lodging": {
+  "2025": {
+   "official": 61.6,
+   "simple_mean_of_4": 62.08,
+   "weighted_by_facilities": 42.36
+  },
+  "simple_minus_official_range": [
+   -0.25,
+   1.57
+  ],
+  "facility_minus_official_range": [
+   -19.94,
+   -7.45
+  ],
+  "change_2019_2025": {
+   "official": -1.1,
+   "simple_mean_of_4": -1.6,
+   "weighted_by_facilities": -2.48
+  },
+  "small_share_of_facilities_2025": 0.808
+ },
+ "meti": {
+  "months": 140,
+  "from": "2015-01-01",
+  "to": "2026-08-01",
+  "diff_pt_mean": 0.17,
+  "diff_pt_abs_mean": 0.946,
+  "diff_pt_min": -3.87,
+  "diff_pt_max": 19.96,
+  "months_abs_diff_over_1pt": 31,
+  "months_sign_differs": 8,
+  "worst_month": "2021-04-01",
+  "worst": {
+   "total_yoy": 9.06,
+   "mean_of_6_yoy": 29.02,
+   "diff_pt": 19.96
+  }
+ },
+ "fictional": {
+  "sigma0_rho0": -0.0,
+  "sigma1.2_rho0": 0.427,
+  "sigma0.6_rho0.6": -8.43,
+  "sigma1.2_rho0.6": -15.65,
+  "sigma1.2_rho-0.6": 19.34,
+  "sigma1.5_rho0.6": -18.85,
+  "sigma0_rho0.6": -0.0,
+  "top10pct_share_sigma1.2": 45.7
+ },
+ "rate_example": {
+  "runs": 2000,
+  "direction_flips": 293,
+  "mean_change_store_avg_pt": 0.983,
+  "mean_change_total_pt": 0.619,
+  "level_gap_pt": 2.66
+ }
+}
