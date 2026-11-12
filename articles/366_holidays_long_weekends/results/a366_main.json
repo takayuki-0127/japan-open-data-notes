@@ -1,0 +1,251 @@
+{
+ "range": [
+  1955,
+  2026
+ ],
+ "check_rule_vs_csv": {
+  "csv_kyujitsu": 115,
+  "rule_kyujitsu": 115,
+  "only_csv": [],
+  "only_rule": []
+ },
+ "named_steps": [
+  {
+   "year": 1955,
+   "named": 9
+  },
+  {
+   "year": 1966,
+   "named": 11
+  },
+  {
+   "year": 1967,
+   "named": 12
+  },
+  {
+   "year": 1989,
+   "named": 13
+  },
+  {
+   "year": 1996,
+   "named": 14
+  },
+  {
+   "year": 2007,
+   "named": 15
+  },
+  {
+   "year": 2016,
+   "named": 16
+  },
+  {
+   "year": 2019,
+   "named": 15
+  },
+  {
+   "year": 2020,
+   "named": 16
+  }
+ ],
+ "y1955": {
+  "year": 1955,
+  "named": 9,
+  "furikae": 0,
+  "kokumin": 0,
+  "special": 0,
+  "named_on_sat": 3,
+  "named_on_sun": 0,
+  "weekday_off": 6,
+  "run3": 2,
+  "run3_days": 6,
+  "run4plus": 0,
+  "run2_sun_only": 4,
+  "total": 9
+ },
+ "y2025": {
+  "year": 2025,
+  "named": 16,
+  "furikae": 3,
+  "kokumin": 0,
+  "special": 0,
+  "named_on_sat": 1,
+  "named_on_sun": 3,
+  "weekday_off": 15,
+  "run3": 9,
+  "run3_days": 28,
+  "run4plus": 1,
+  "run2_sun_only": 9,
+  "total": 19
+ },
+ "total_min": {
+  "n": 9,
+  "years": [
+   1955,
+   1956,
+   1957,
+   1958,
+   1960
+  ]
+ },
+ "total_max": {
+  "n": 22,
+  "years": [
+   2019
+  ]
+ },
+ "furikae_total_1973_2026": 95,
+ "kokumin_total": 20,
+ "special_days": {
+  "1959-04-10": "結婚の儀",
+  "1989-02-24": "大喪の礼",
+  "1990-11-12": "即位礼正殿の儀",
+  "1993-06-09": "結婚の儀",
+  "2019-05-01": "休日（祝日扱い）",
+  "2019-10-22": "休日（祝日扱い）"
+ },
+ "run3_mean": {
+  "1955-1972": 3.0,
+  "1973-1999": 5.296296296296297,
+  "1990-1999": 5.8,
+  "2000-2002": 8.666666666666666,
+  "2003-2019": 8.470588235294118,
+  "2003-2026": 8.5
+ },
+ "run3_max": {
+  "n": 12,
+  "years": [
+   2024
+  ]
+ },
+ "run3_min_since2003": {
+  "n": 5,
+  "years": [
+   2004
+  ]
+ },
+ "run3_min_1990s": {
+  "n": 3,
+  "max": 9
+ },
+ "run2_sun_only_mean": {
+  "1955-1972": 2.5555555555555554,
+  "1973-1999": 5.444444444444445,
+  "2003-2026": 8.333333333333334
+ },
+ "happy_monday": {
+  "years": 22,
+  "run3_actual_mean": 8.636363636363637,
+  "run3_fixed_mean": 6.409090909090909,
+  "run3_actual_min_max": [
+   5,
+   12
+  ],
+  "run3_fixed_min_max": [
+   2,
+   10
+  ],
+  "weekday_off_actual_mean": 14.045454545454545,
+  "weekday_off_fixed_mean": 13.363636363636363,
+  "weekday_off_actual_sd": 1.60898818367526,
+  "weekday_off_fixed_sd": 1.4937887931959075,
+  "total_actual_mean": 17.363636363636363,
+  "total_fixed_mean": 17.818181818181817
+ },
+ "named_on_sat_share": {
+  "1955-2026": 0.12701829924650163,
+  "2003-2026": 0.09836065573770492,
+  "1955-1999": 0.1401151631477927
+ },
+ "named_on_sun_share": {
+  "1955-1999": 0.14587332053742802,
+  "2003-2026": 0.11202185792349727
+ },
+ "weekday_off_mean": {
+  "1955-1965": 6.363636363636363,
+  "1986-1999": 12.071428571428571,
+  "2016-2026": 14.818181818181818
+ },
+ "weekday_off_min_max_2016_2026": [
+  12,
+  17
+ ],
+ "by_period": [
+  {
+   "period": "1955〜1965",
+   "years": 11,
+   "named": 9.0,
+   "total": 9.09,
+   "weekday_off": 6.36,
+   "run3": 2.45,
+   "run2_sun_only": 2.09,
+   "named_on_sat": 1.18,
+   "named_on_sun": 1.55
+  },
+  {
+   "period": "1966〜1972",
+   "years": 7,
+   "named": 11.86,
+   "total": 11.86,
+   "weekday_off": 8.57,
+   "run3": 3.86,
+   "run2_sun_only": 3.29,
+   "named_on_sat": 1.71,
+   "named_on_sun": 1.57
+  },
+  {
+   "period": "1973〜1985",
+   "years": 13,
+   "named": 12.0,
+   "total": 13.69,
+   "weekday_off": 10.08,
+   "run3": 4.92,
+   "run2_sun_only": 5.31,
+   "named_on_sat": 1.85,
+   "named_on_sun": 1.77
+  },
+  {
+   "period": "1986〜1999",
+   "years": 14,
+   "named": 13.07,
+   "total": 15.71,
+   "weekday_off": 12.07,
+   "run3": 5.64,
+   "run2_sun_only": 5.57,
+   "named_on_sat": 1.71,
+   "named_on_sun": 1.79
+  },
+  {
+   "period": "2000〜2002",
+   "years": 3,
+   "named": 14.0,
+   "total": 17.33,
+   "weekday_off": 11.67,
+   "run3": 8.67,
+   "run2_sun_only": 9.67,
+   "named_on_sat": 3.0,
+   "named_on_sun": 2.33
+  },
+  {
+   "period": "2003〜2015",
+   "years": 13,
+   "named": 14.69,
+   "total": 16.54,
+   "weekday_off": 13.62,
+   "run3": 8.15,
+   "run2_sun_only": 8.0,
+   "named_on_sat": 1.46,
+   "named_on_sun": 1.46
+  },
+  {
+   "period": "2016〜2026",
+   "years": 11,
+   "named": 15.91,
+   "total": 18.36,
+   "weekday_off": 14.82,
+   "run3": 8.91,
+   "run2_sun_only": 8.73,
+   "named_on_sat": 1.55,
+   "named_on_sun": 2.0
+  }
+ ]
+}
