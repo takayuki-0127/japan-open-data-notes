@@ -1,0 +1,412 @@
+{
+ "tests": [
+  {
+   "name": "前後の空白を取る",
+   "ok": true
+  },
+  {
+   "name": "全角の英数字を半角にそろえる",
+   "ok": true
+  },
+  {
+   "name": "人数：数字",
+   "ok": true
+  },
+  {
+   "name": "人数：全角",
+   "ok": true
+  },
+  {
+   "name": "人数：「3名」",
+   "ok": true
+  },
+  {
+   "name": "人数：空欄は1",
+   "ok": true
+  },
+  {
+   "name": "人数：「未定」は読めない",
+   "ok": true
+  },
+  {
+   "name": "人数：0 や 100 は読めない扱い",
+   "ok": true
+  },
+  {
+   "name": "取消の書き方のゆれ",
+   "ok": true
+  },
+  {
+   "name": "空欄は取消ではない",
+   "ok": true
+  },
+  {
+   "name": "空行は飛ばす",
+   "ok": true
+  },
+  {
+   "name": "二重申込は新しい行だけ",
+   "ok": true
+  },
+  {
+   "name": "取消のあとの申込し直しは数える",
+   "ok": true
+  },
+  {
+   "name": "申込のあとの取消は数えない",
+   "ok": true
+  },
+  {
+   "name": "同じ人でもコースが違えば別",
+   "ok": true
+  },
+  {
+   "name": "一覧にないコースは確認が要る行へ",
+   "ok": true
+  },
+  {
+   "name": "人数が読めない行は確認が要る行へ",
+   "ok": true
+  },
+  {
+   "name": "メールが空欄の行は確認が要る行へ",
+   "ok": true
+  }
+ ],
+ "mock": {
+  "summary_rows": 6,
+  "review_rows": 40,
+  "header": [
+   "コース",
+   "申込件数",
+   "人数"
+  ]
+ },
+ "scenarios": {
+  "all": {
+   "summary": {
+    "Excel入門": {
+     "applications": 151,
+     "people": 232
+    },
+    "SQL入門": {
+     "applications": 107,
+     "people": 168
+    },
+    "Python入門": {
+     "applications": 127,
+     "people": 190
+    },
+    "統計入門": {
+     "applications": 69,
+     "people": 100
+    },
+    "BI入門": {
+     "applications": 66,
+     "people": 103
+    }
+   },
+   "review": 40
+  },
+  "blank_row": {
+   "summary": {
+    "Excel入門": {
+     "applications": 176,
+     "people": 288
+    },
+    "SQL入門": {
+     "applications": 126,
+     "people": 188
+    },
+    "Python入門": {
+     "applications": 143,
+     "people": 219
+    },
+    "統計入門": {
+     "applications": 78,
+     "people": 120
+    },
+    "BI入門": {
+     "applications": 77,
+     "people": 123
+    }
+   },
+   "review": 0
+  },
+  "cancel": {
+   "summary": {
+    "Excel入門": {
+     "applications": 166,
+     "people": 273
+    },
+    "SQL入門": {
+     "applications": 115,
+     "people": 171
+    },
+    "Python入門": {
+     "applications": 135,
+     "people": 205
+    },
+    "統計入門": {
+     "applications": 74,
+     "people": 113
+    },
+    "BI入門": {
+     "applications": 70,
+     "people": 112
+    }
+   },
+   "review": 0
+  },
+  "cancel_word": {
+   "summary": {
+    "Excel入門": {
+     "applications": 166,
+     "people": 271
+    },
+    "SQL入門": {
+     "applications": 118,
+     "people": 177
+    },
+    "Python入門": {
+     "applications": 131,
+     "people": 203
+    },
+    "統計入門": {
+     "applications": 74,
+     "people": 113
+    },
+    "BI入門": {
+     "applications": 71,
+     "people": 114
+    }
+   },
+   "review": 0
+  },
+  "clean": {
+   "summary": {
+    "Excel入門": {
+     "applications": 176,
+     "people": 288
+    },
+    "SQL入門": {
+     "applications": 126,
+     "people": 188
+    },
+    "Python入門": {
+     "applications": 143,
+     "people": 219
+    },
+    "統計入門": {
+     "applications": 78,
+     "people": 120
+    },
+    "BI入門": {
+     "applications": 77,
+     "people": 123
+    }
+   },
+   "review": 0
+  },
+  "count_blank": {
+   "summary": {
+    "Excel入門": {
+     "applications": 176,
+     "people": 283
+    },
+    "SQL入門": {
+     "applications": 126,
+     "people": 183
+    },
+    "Python入門": {
+     "applications": 143,
+     "people": 212
+    },
+    "統計入門": {
+     "applications": 78,
+     "people": 115
+    },
+    "BI入門": {
+     "applications": 77,
+     "people": 121
+    }
+   },
+   "review": 0
+  },
+  "count_text": {
+   "summary": {
+    "Excel入門": {
+     "applications": 176,
+     "people": 288
+    },
+    "SQL入門": {
+     "applications": 126,
+     "people": 188
+    },
+    "Python入門": {
+     "applications": 143,
+     "people": 219
+    },
+    "統計入門": {
+     "applications": 78,
+     "people": 120
+    },
+    "BI入門": {
+     "applications": 77,
+     "people": 123
+    }
+   },
+   "review": 0
+  },
+  "count_unknown": {
+   "summary": {
+    "Excel入門": {
+     "applications": 160,
+     "people": 253
+    },
+    "SQL入門": {
+     "applications": 117,
+     "people": 176
+    },
+    "Python入門": {
+     "applications": 137,
+     "people": 211
+    },
+    "統計入門": {
+     "applications": 70,
+     "people": 108
+    },
+    "BI入門": {
+     "applications": 76,
+     "people": 120
+    }
+   },
+   "review": 40
+  },
+  "dup": {
+   "summary": {
+    "Excel入門": {
+     "applications": 176,
+     "people": 288
+    },
+    "SQL入門": {
+     "applications": 126,
+     "people": 200
+    },
+    "Python入門": {
+     "applications": 143,
+     "people": 221
+    },
+    "統計入門": {
+     "applications": 78,
+     "people": 121
+    },
+    "BI入門": {
+     "applications": 77,
+     "people": 122
+    }
+   },
+   "review": 0
+  },
+  "other_mail": {
+   "summary": {
+    "Excel入門": {
+     "applications": 187,
+     "people": 303
+    },
+    "SQL入門": {
+     "applications": 135,
+     "people": 201
+    },
+    "Python入門": {
+     "applications": 153,
+     "people": 234
+    },
+    "統計入門": {
+     "applications": 85,
+     "people": 130
+    },
+    "BI入門": {
+     "applications": 80,
+     "people": 129
+    }
+   },
+   "review": 0
+  },
+  "reapply": {
+   "summary": {
+    "Excel入門": {
+     "applications": 176,
+     "people": 288
+    },
+    "SQL入門": {
+     "applications": 126,
+     "people": 188
+    },
+    "Python入門": {
+     "applications": 143,
+     "people": 219
+    },
+    "統計入門": {
+     "applications": 78,
+     "people": 120
+    },
+    "BI入門": {
+     "applications": 77,
+     "people": 123
+    }
+   },
+   "review": 0
+  },
+  "space": {
+   "summary": {
+    "Excel入門": {
+     "applications": 176,
+     "people": 288
+    },
+    "SQL入門": {
+     "applications": 126,
+     "people": 188
+    },
+    "Python入門": {
+     "applications": 143,
+     "people": 219
+    },
+    "統計入門": {
+     "applications": 78,
+     "people": 120
+    },
+    "BI入門": {
+     "applications": 77,
+     "people": 123
+    }
+   },
+   "review": 0
+  },
+  "zenkaku": {
+   "summary": {
+    "Excel入門": {
+     "applications": 176,
+     "people": 288
+    },
+    "SQL入門": {
+     "applications": 126,
+     "people": 188
+    },
+    "Python入門": {
+     "applications": 143,
+     "people": 219
+    },
+    "統計入門": {
+     "applications": 78,
+     "people": 120
+    },
+    "BI入門": {
+     "applications": 77,
+     "people": 123
+    }
+   },
+   "review": 0
+  }
+ }
+}

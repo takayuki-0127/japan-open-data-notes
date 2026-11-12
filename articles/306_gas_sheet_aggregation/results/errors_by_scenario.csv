@@ -1,0 +1,14 @@
+scenario,label,truth_app,truth_people,formula_app_err,formula_people_err,script_app_err,script_people_err,script_review_rows
+clean,ゆれなし,600,938,0,0,0,0,0
+space,コース名の前後に空白,600,938,40,49,0,0,0
+zenkaku,コース名の全角・半角のゆれ,600,938,35,53,0,0,0
+count_text,人数が文字（「２」「3名」）,600,938,0,54,0,0,0
+count_blank,人数が空欄（1人とみなす決まり）,600,914,0,40,0,0,0
+dup,同じメールで二重申込,600,952,40,62,0,0,0
+cancel,取消の行（「取消」）,560,874,0,0,0,0,0
+cancel_word,取消の書き方のゆれ（「キャンセル」など）,560,878,40,60,0,0,0
+reapply,取消のあとに申込し直し,600,938,0,0,0,0,0
+blank_row,空行,600,938,0,0,0,0,0
+count_unknown,人数が「未定」,600,938,0,70,40,70,40
+other_mail,別のメールで二重申込,600,938,40,59,40,59,0
+all,11種類ぜんぶ,520,804,45,85,12,33,40

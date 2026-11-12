@@ -1,0 +1,40 @@
+{
+ "tests_passed": 18,
+ "tests_total": 18,
+ "mock": {
+  "summary_rows": 6,
+  "review_rows": 40,
+  "header": [
+   "コース",
+   "申込件数",
+   "人数"
+  ]
+ },
+ "edge_types": 11,
+ "formula_handles": 3,
+ "script_handles": 9,
+ "script_not_handled": [
+  "人数が「未定」",
+  "別のメールで二重申込"
+ ],
+ "formula_handled": [
+  "取消の行（「取消」）",
+  "取消のあとに申込し直し",
+  "空行"
+ ],
+ "all": {
+  "truth_app": 520,
+  "truth_people": 804,
+  "formula_app_err": 45,
+  "formula_people_err": 85,
+  "script_app_err": 12,
+  "script_people_err": 33,
+  "script_review_rows": 40
+ },
+ "all_totals": {
+  "formula_app": 565,
+  "formula_people": 719,
+  "script_app": 520,
+  "script_people": 793
+ }
+}
