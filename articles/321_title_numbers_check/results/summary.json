@@ -1,0 +1,32 @@
+{
+ "articles": 552,
+ "tokens": 2231,
+ "per_article_median": 4.0,
+ "exact_readme": 1810,
+ "exact_results_only": 53,
+ "rounded": 275,
+ "year_span": 38,
+ "manual": 55,
+ "manual_breakdown": {
+  "丸め・表記の違い": 24,
+  "計算すると出る": 15,
+  "幅のある言い回し": 7,
+  "切り捨てになっている": 4,
+  "期間の言い方が粗い": 4,
+  "粗い言い換え": 1
+ },
+ "to_review": 9,
+ "to_review_articles": [
+  "130",
+  "146",
+  "172",
+  "262",
+  "263",
+  "265",
+  "266",
+  "F132",
+  "F291"
+ ],
+ "share_auto": 0.9753,
+ "articles_all_auto": 0.9112
+}
