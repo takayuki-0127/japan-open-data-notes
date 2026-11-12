@@ -1,0 +1,113 @@
+{
+ "articles": 639,
+ "readmes_read": 574,
+ "pairs": 707,
+ "mentions": 1869,
+ "by_form": {
+  "link": 68,
+  "F": 1764,
+  "T": 2,
+  "num": 35
+ },
+ "citing": 253,
+ "citing_share": 0.4408,
+ "out_median_if_any": 2.0,
+ "out_max": 27,
+ "cited": 244,
+ "cited_share": 0.3818,
+ "never_cited": 395,
+ "isolated_read": 237,
+ "isolated_read_share": 0.4129,
+ "top5_share_of_pairs": 0.1089,
+ "top20_share_of_pairs": 0.2829,
+ "to_flagship": 0.9448,
+ "from_1000": 0.2306,
+ "backward_share_same_series": 0.9673,
+ "mutual_pairs": 13,
+ "largest_component": 316,
+ "components_2plus": 11,
+ "most_cited": [
+  [
+   "F01",
+   17
+  ],
+  [
+   "F03",
+   16
+  ],
+  [
+   "F22",
+   16
+  ],
+  [
+   "F209",
+   14
+  ],
+  [
+   "F12",
+   14
+  ],
+  [
+   "F231",
+   13
+  ],
+  [
+   "F18",
+   13
+  ],
+  [
+   "F246",
+   10
+  ],
+  [
+   "F13",
+   9
+  ],
+  [
+   "F247",
+   9
+  ]
+ ],
+ "most_citing": [
+  [
+   "F124",
+   27
+  ],
+  [
+   "F165",
+   16
+  ],
+  [
+   "F200",
+   15
+  ],
+  [
+   "253",
+   14
+  ],
+  [
+   "F163",
+   14
+  ],
+  [
+   "268",
+   12
+  ],
+  [
+   "F210",
+   11
+  ],
+  [
+   "322",
+   11
+  ],
+  [
+   "286",
+   10
+  ],
+  [
+   "F255",
+   9
+  ]
+ ]
+}
