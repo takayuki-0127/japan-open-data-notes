@@ -1,0 +1,11 @@
+記事,ファイル,行番号,観点,該当行,理由,いまのデータで結果が変わるか
+342_restate_and_reproduce_reports,src/01_asof_tsql.sql,13,C07,"SELECT id, old, ROW_NUMBER() OVER (PARTITION BY id ORDER BY changed_at) AS rn",並べる列（時刻）に同じ値があると、番号が決まらない。キーをもう1つ足す,確かめていない
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,3,C01,CREATE TABLE sales_monthly AS SELECT * FROM read_csv_auto('sql/sales_monthly.csv');,取り込み・書き出しで列を書いていない。列が増えると、そのまま流れる,変わらない（書き方だけ）
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,4,C01,CREATE TABLE calendar_coef AS SELECT * FROM read_csv_auto('sql/calendar_coef.csv');,取り込み・書き出しで列を書いていない。列が増えると、そのまま流れる,変わらない（書き方だけ）
+F233_calendar_weather_sales,sql/02_calendar_and_adjust_duckdb.sql,20,C01,COPY (SELECT * FROM dim_month ORDER BY ym) TO 'results/H_sql_dim_month.csv' (HEADER);,取り込み・書き出しで列を書いていない。列が増えると、そのまま流れる,変わらない（書き方だけ）
+F247_data_mart_fictional_retail,sql/10_staging.sql,20,C01,SELECT p.*,元の表の列を全部そのまま受けている。列が増えると、下流の表に流れる,変わらない（書き方だけ）
+F247_data_mart_fictional_retail,sql/10_staging.sql,26,C07,"ROW_NUMBER() OVER (PARTITION BY a.""店コード"", a.""営業日"" ORDER BY a.""送信日時"" DESC) AS rn,",並べる列（時刻）に同じ値があると、番号が決まらない。キーをもう1つ足す,変わらない（同じ時刻の行が0組）
+F247_data_mart_fictional_retail,sql/10_staging.sql,54,C01,"SELECT d.* FROM raw_pos_dept_day AS d WHERE d.""送信日時"" <= (SELECT cutoff FROM run_param)",元の表の列を全部そのまま受けている。列が増えると、下流の表に流れる,変わらない（書き方だけ）
+F247_data_mart_fictional_retail,sql/10_staging.sql,57,C07,"SELECT a.*, ROW_NUMBER() OVER (PARTITION BY a.""店コード"", a.""営業日"", a.""部門コード"" ORDER BY a.""送信日時"" DESC) AS rn",並べる列（時刻）に同じ値があると、番号が決まらない。キーをもう1つ足す,変わらない（同じ時刻の行が0組）
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,40,C08,"UNION ALL SELECT h.store_id, h.biz_date, h.receipts, h.items, ROUND(h.sales, 0) FROM hist h, param p",1行だけの表とのカンマ結合。CROSS JOIN と書けば意図が伝わる（結果は同じ）,変わらない（書き方だけ）
+F253_monthly_data_quality_checks_fictional_retail,sql/dq_checks.sql,56,C08,"FROM hist h, param p WHERE h.biz_date >= p.m0 - INTERVAL 56 DAY AND h.biz_date < p.m0 GROUP BY h.store_id, DAYOFWEEK(h.biz_date);",1行だけの表とのカンマ結合。CROSS JOIN と書けば意図が伝わる（結果は同じ）,変わらない（書き方だけ）
