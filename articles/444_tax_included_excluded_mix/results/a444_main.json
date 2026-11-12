@@ -1,0 +1,252 @@
+{
+ "n": 20000,
+ "true_total": 114743160,
+ "main": {
+  "n": 20000,
+  "null_rows": 6012,
+  "asis_pct": 3.8545713748863175,
+  "flag_pct": 1.126856711981783,
+  "guess_pct": 0.7161298329242394,
+  "guess_acc": 77.3286759813706,
+  "miss_incl": 1363,
+  "false_incl": 0,
+  "exact_rows_flag": 86.535,
+  "exact_rows_guess": 93.185,
+  "back_exact": 100.0
+ },
+ "main_step50": {
+  "n": 20000,
+  "null_rows": 6012,
+  "asis_pct": 3.8545713748863175,
+  "flag_pct": 1.126856711981783,
+  "guess_pct": 0.27678338299206295,
+  "guess_acc": 90.58549567531603,
+  "miss_incl": 477,
+  "false_incl": 89,
+  "exact_rows_flag": 86.535,
+  "exact_rows_guess": 97.17,
+  "back_exact": 100.0
+ },
+ "guess_acc_pre_oct": 82.97730307076101,
+ "guess_acc_post_oct": 71.71750663129973,
+ "incl_amounts_multiple_of_10_pct": 50.959417732686376,
+ "impossible_as_incl_pct": {
+  "8": 7.407,
+  "10": 9.091000000000001
+ },
+ "pre_oct": {
+  "asis": 3.5246104920819477,
+  "flag": 1.007854708374789,
+  "guess": 0.4599555736906291
+ },
+ "post_oct": {
+  "asis": 4.190223281743211,
+  "flag": 1.2479112112030233,
+  "guess": 0.976722476114622
+ },
+ "month_range_asis": [
+  3.4202738403007915,
+  4.4547050749287775
+ ],
+ "sep_oct_asis": [
+  3.4202738403007915,
+  4.4547050749287775
+ ],
+ "mom": {
+  "n": 200,
+  "mean_abs": 0.9389277110835209,
+  "max_median": 2.2481436040071245,
+  "sign_flip_mean": 0.625,
+  "sign_flip_any": 49.5
+ },
+ "by_category": [
+  {
+   "category": "サービス",
+   "after_oct": false,
+   "asis_pct": 3.567,
+   "guess_pct": 0.381,
+   "n": 2472.0
+  },
+  {
+   "category": "サービス",
+   "after_oct": true,
+   "asis_pct": 4.628,
+   "guess_pct": 1.143,
+   "n": 2404.0
+  },
+  {
+   "category": "日用品",
+   "after_oct": false,
+   "asis_pct": 3.562,
+   "guess_pct": 0.484,
+   "n": 4047.0
+  },
+  {
+   "category": "日用品",
+   "after_oct": true,
+   "asis_pct": 4.431,
+   "guess_pct": 1.23,
+   "n": 4056.0
+  },
+  {
+   "category": "食品",
+   "after_oct": false,
+   "asis_pct": 3.452,
+   "guess_pct": 0.489,
+   "n": 3517.0
+  },
+  {
+   "category": "食品",
+   "after_oct": true,
+   "asis_pct": 3.584,
+   "guess_pct": 0.554,
+   "n": 3504.0
+  }
+ ],
+ "by_condition": [
+  {
+   "case": "基本（10円単位の値付け、税込み45%、列が空30%）",
+   "guess": "10円の倍数でなければ税込み",
+   "asis_pct": 3.882,
+   "flag_pct": 1.144,
+   "guess_pct": 0.729,
+   "guess_acc": 77.119,
+   "exact_rows_guess": 93.159
+  },
+  {
+   "case": "基本（10円単位の値付け、税込み45%、列が空30%）",
+   "guess": "戻した額が50円の倍数なら税込み（値付けの刻みを知っている場合）",
+   "asis_pct": 3.882,
+   "flag_pct": 1.144,
+   "guess_pct": 0.274,
+   "guess_acc": 90.056,
+   "exact_rows_guess": 97.027
+  },
+  {
+   "case": "1円単位の値付け",
+   "guess": "10円の倍数でなければ税込み",
+   "asis_pct": 3.873,
+   "flag_pct": 1.152,
+   "guess_pct": -1.076,
+   "guess_acc": 45.495,
+   "exact_rows_guess": 83.69
+  },
+  {
+   "case": "1円単位の値付け",
+   "guess": "戻した額が50円の倍数なら税込み（値付けの刻みを知っている場合）",
+   "asis_pct": 3.873,
+   "flag_pct": 1.152,
+   "guess_pct": -1.088,
+   "guess_acc": 45.468,
+   "exact_rows_guess": 83.682
+  },
+  {
+   "case": "税込みが20%",
+   "guess": "10円の倍数でなければ税込み",
+   "asis_pct": 1.734,
+   "flag_pct": 0.517,
+   "guess_pct": 0.327,
+   "guess_acc": 89.845,
+   "exact_rows_guess": 96.964
+  },
+  {
+   "case": "税込みが20%",
+   "guess": "戻した額が50円の倍数なら税込み（値付けの刻みを知っている場合）",
+   "asis_pct": 1.734,
+   "flag_pct": 0.517,
+   "guess_pct": 0.088,
+   "guess_acc": 94.088,
+   "exact_rows_guess": 98.232
+  },
+  {
+   "case": "税込みが80%",
+   "guess": "10円の倍数でなければ税込み",
+   "asis_pct": 6.916,
+   "flag_pct": 2.054,
+   "guess_pct": 1.31,
+   "guess_acc": 58.914,
+   "exact_rows_guess": 87.715
+  },
+  {
+   "case": "税込みが80%",
+   "guess": "戻した額が50円の倍数なら税込み（値付けの刻みを知っている場合）",
+   "asis_pct": 6.916,
+   "flag_pct": 2.054,
+   "guess_pct": 0.541,
+   "guess_acc": 84.25,
+   "exact_rows_guess": 95.291
+  },
+  {
+   "case": "列が空10%",
+   "guess": "10円の倍数でなければ税込み",
+   "asis_pct": 3.882,
+   "flag_pct": 0.383,
+   "guess_pct": 0.245,
+   "guess_acc": 77.369,
+   "exact_rows_guess": 97.741
+  },
+  {
+   "case": "列が空10%",
+   "guess": "戻した額が50円の倍数なら税込み（値付けの刻みを知っている場合）",
+   "asis_pct": 3.882,
+   "flag_pct": 0.383,
+   "guess_pct": 0.091,
+   "guess_acc": 90.032,
+   "exact_rows_guess": 99.005
+  },
+  {
+   "case": "列が空60%",
+   "guess": "10円の倍数でなければ税込み",
+   "asis_pct": 3.882,
+   "flag_pct": 2.313,
+   "guess_pct": 1.474,
+   "guess_acc": 77.13,
+   "exact_rows_guess": 86.289
+  },
+  {
+   "case": "列が空60%",
+   "guess": "戻した額が50円の倍数なら税込み（値付けの刻みを知っている場合）",
+   "asis_pct": 3.882,
+   "flag_pct": 2.313,
+   "guess_pct": 0.547,
+   "guess_acc": 90.098,
+   "exact_rows_guess": 94.064
+  },
+  {
+   "case": "列がすべて空",
+   "guess": "10円の倍数でなければ税込み",
+   "asis_pct": 3.882,
+   "flag_pct": 3.882,
+   "guess_pct": 2.483,
+   "guess_acc": 76.99,
+   "exact_rows_guess": 76.99
+  },
+  {
+   "case": "列がすべて空",
+   "guess": "戻した額が50円の倍数なら税込み（値付けの刻みを知っている場合）",
+   "asis_pct": 3.882,
+   "flag_pct": 3.882,
+   "guess_pct": 0.921,
+   "guess_acc": 90.06,
+   "exact_rows_guess": 90.06
+  },
+  {
+   "case": "列が空の行は税込みが90%",
+   "guess": "10円の倍数でなければ税込み",
+   "asis_pct": 5.062,
+   "flag_pct": 2.324,
+   "guess_pct": 1.481,
+   "guess_acc": 53.926,
+   "exact_rows_guess": 86.223
+  },
+  {
+   "case": "列が空の行は税込みが90%",
+   "guess": "戻した額が50円の倍数なら税込み（値付けの刻みを知っている場合）",
+   "asis_pct": 5.062,
+   "flag_pct": 2.324,
+   "guess_pct": 0.612,
+   "guess_acc": 82.772,
+   "exact_rows_guess": 94.848
+  }
+ ]
+}
