@@ -1,0 +1,140 @@
+{
+ "retail": {
+  "gap_mean_abs": 5.569171409277044,
+  "gap_max_abs": 12.438349663256588,
+  "yoy_diff_mean_abs": 3.0952031202007557,
+  "yoy_diff_max_abs": 9.896661761438551,
+  "flip": 5,
+  "n_yoy": 24,
+  "bdays_range_end": [
+   28,
+   31
+  ],
+  "bdays_range_20": [
+   28,
+   31
+  ]
+ },
+ "b2b": {
+  "gap_mean_abs": 9.264224560794167,
+  "gap_max_abs": 20.962826800663102,
+  "yoy_diff_mean_abs": 6.945508715090306,
+  "yoy_diff_max_abs": 19.103562674295496,
+  "flip": 13,
+  "n_yoy": 24,
+  "bdays_range_end": [
+   18,
+   23
+  ],
+  "bdays_range_20": [
+   18,
+   23
+  ]
+ },
+ "step_share": [
+  {
+   "m": "2024-08-01",
+   "month_end": 0.0,
+   "close20": 0.0
+  },
+  {
+   "m": "2024-09-01",
+   "month_end": 0.0,
+   "close20": 0.0
+  },
+  {
+   "m": "2024-10-01",
+   "month_end": 100.0,
+   "close20": 66.2
+  },
+  {
+   "m": "2024-11-01",
+   "month_end": 100.0,
+   "close20": 100.0
+  },
+  {
+   "m": "2024-12-01",
+   "month_end": 100.0,
+   "close20": 100.0
+  },
+  {
+   "m": "2025-01-01",
+   "month_end": 100.0,
+   "close20": 100.0
+  }
+ ],
+ "annual_diff_pct": [
+  {
+   "kind": "retail",
+   "year": 2023,
+   "calendar": 405246595,
+   "close20": 404381450,
+   "diff_pct": -0.21
+  },
+  {
+   "kind": "retail",
+   "year": 2024,
+   "calendar": 422129551,
+   "close20": 422184848,
+   "diff_pct": 0.01
+  },
+  {
+   "kind": "retail",
+   "year": 2025,
+   "calendar": 431256161,
+   "close20": 431067772,
+   "diff_pct": -0.04
+  },
+  {
+   "kind": "b2b",
+   "year": 2023,
+   "calendar": 261464834,
+   "close20": 262634403,
+   "diff_pct": 0.45
+  },
+  {
+   "kind": "b2b",
+   "year": 2024,
+   "calendar": 270550415,
+   "close20": 270594740,
+   "diff_pct": 0.02
+  },
+  {
+   "kind": "b2b",
+   "year": 2025,
+   "calendar": 276576818,
+   "close20": 274953089,
+   "diff_pct": -0.59
+  }
+ ],
+ "flip_500": [
+  {
+   "kind": "retail",
+   "trend": 0.0,
+   "flip_mean": 10.294,
+   "flip_p90": 13.0,
+   "share_any_flip": 1.0
+  },
+  {
+   "kind": "retail",
+   "trend": 0.03,
+   "flip_mean": 4.424,
+   "flip_p90": 7.0,
+   "share_any_flip": 0.994
+  },
+  {
+   "kind": "b2b",
+   "trend": 0.0,
+   "flip_mean": 14.314,
+   "flip_p90": 17.0,
+   "share_any_flip": 1.0
+  },
+  {
+   "kind": "b2b",
+   "trend": 0.03,
+   "flip_mean": 12.73,
+   "flip_p90": 15.0,
+   "share_any_flip": 1.0
+  }
+ ]
+}

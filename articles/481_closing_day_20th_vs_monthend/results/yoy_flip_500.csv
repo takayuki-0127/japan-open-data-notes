@@ -1,0 +1,5 @@
+kind,trend,flip_mean,flip_p90,share_any_flip
+retail,0.0,10.294,13.0,1.0
+retail,0.03,4.424,7.0,0.994
+b2b,0.0,14.314,17.0,1.0
+b2b,0.03,12.73,15.0,1.0
