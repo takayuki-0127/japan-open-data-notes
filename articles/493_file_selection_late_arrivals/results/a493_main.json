@@ -1,0 +1,204 @@
+{
+ "files": 365,
+ "late_files": 25,
+ "replaced_files": 11,
+ "methods": {
+  "A_name_yesterday": {
+   "files_total": 365,
+   "files_missed": 25,
+   "rows_missed": 25526,
+   "files_stale_version": 10,
+   "rows_duplicated": 0,
+   "rows_loaded": 336341,
+   "rows_true": 362148,
+   "amount_error_pct": -7.118265653152411
+  },
+  "B_mtime_append": {
+   "files_total": 365,
+   "files_missed": 0,
+   "rows_missed": 0,
+   "files_stale_version": 0,
+   "rows_duplicated": 10839,
+   "rows_loaded": 372987,
+   "rows_true": 362148,
+   "amount_error_pct": 2.990396799426276
+  },
+  "B2_mtime_replace": {
+   "files_total": 365,
+   "files_missed": 0,
+   "rows_missed": 0,
+   "files_stale_version": 0,
+   "rows_duplicated": 0,
+   "rows_loaded": 362148,
+   "rows_true": 362148,
+   "amount_error_pct": 2.220446049250313e-14
+  },
+  "C_manifest_name": {
+   "files_total": 365,
+   "files_missed": 0,
+   "rows_missed": 0,
+   "files_stale_version": 11,
+   "rows_duplicated": 0,
+   "rows_loaded": 361835,
+   "rows_true": 362148,
+   "amount_error_pct": -0.06158688772883725
+  },
+  "C2_manifest_name_ver": {
+   "files_total": 365,
+   "files_missed": 0,
+   "rows_missed": 0,
+   "files_stale_version": 0,
+   "rows_duplicated": 0,
+   "rows_loaded": 362148,
+   "rows_true": 362148,
+   "amount_error_pct": 2.220446049250313e-14
+  }
+ },
+ "prev_day_rows_share": 0.01002390592397087,
+ "sweep_mean": [
+  {
+   "p_late": 0.0,
+   "method": "A_name_yesterday",
+   "rep": 9.5,
+   "files_missed": 0.0,
+   "stale": 11.15,
+   "amount_error_pct": -0.051247745445686665
+  },
+  {
+   "p_late": 0.0,
+   "method": "C2_manifest_name_ver",
+   "rep": 9.5,
+   "files_missed": 0.0,
+   "stale": 0.0,
+   "amount_error_pct": -1.9984014443252818e-14
+  },
+  {
+   "p_late": 0.0,
+   "method": "C_manifest_name",
+   "rep": 9.5,
+   "files_missed": 0.0,
+   "stale": 11.15,
+   "amount_error_pct": -0.051247745445686665
+  },
+  {
+   "p_late": 0.02,
+   "method": "A_name_yesterday",
+   "rep": 9.5,
+   "files_missed": 7.3,
+   "stale": 11.55,
+   "amount_error_pct": -2.0459899279605036
+  },
+  {
+   "p_late": 0.02,
+   "method": "C2_manifest_name_ver",
+   "rep": 9.5,
+   "files_missed": 0.0,
+   "stale": 0.0,
+   "amount_error_pct": -1.0547118733938987e-14
+  },
+  {
+   "p_late": 0.02,
+   "method": "C_manifest_name",
+   "rep": 9.5,
+   "files_missed": 0.0,
+   "stale": 11.8,
+   "amount_error_pct": -0.05669567715510415
+  },
+  {
+   "p_late": 0.05,
+   "method": "A_name_yesterday",
+   "rep": 9.5,
+   "files_missed": 18.25,
+   "stale": 9.95,
+   "amount_error_pct": -5.039532333777503
+  },
+  {
+   "p_late": 0.05,
+   "method": "C2_manifest_name_ver",
+   "rep": 9.5,
+   "files_missed": 0.0,
+   "stale": 0.0,
+   "amount_error_pct": -1.4432899320127035e-14
+  },
+  {
+   "p_late": 0.05,
+   "method": "C_manifest_name",
+   "rep": 9.5,
+   "files_missed": 0.0,
+   "stale": 10.55,
+   "amount_error_pct": -0.0503447834956916
+  },
+  {
+   "p_late": 0.08,
+   "method": "A_name_yesterday",
+   "rep": 9.5,
+   "files_missed": 28.8,
+   "stale": 9.4,
+   "amount_error_pct": -7.943314059474998
+  },
+  {
+   "p_late": 0.08,
+   "method": "C2_manifest_name_ver",
+   "rep": 9.5,
+   "files_missed": 0.0,
+   "stale": 0.0,
+   "amount_error_pct": -9.43689570931383e-15
+  },
+  {
+   "p_late": 0.08,
+   "method": "C_manifest_name",
+   "rep": 9.5,
+   "files_missed": 0.0,
+   "stale": 10.15,
+   "amount_error_pct": -0.04799750985695683
+  },
+  {
+   "p_late": 0.15,
+   "method": "A_name_yesterday",
+   "rep": 9.5,
+   "files_missed": 54.15,
+   "stale": 8.95,
+   "amount_error_pct": -14.941166673314864
+  },
+  {
+   "p_late": 0.15,
+   "method": "C2_manifest_name_ver",
+   "rep": 9.5,
+   "files_missed": 0.0,
+   "stale": 0.0,
+   "amount_error_pct": -7.771561172376096e-15
+  },
+  {
+   "p_late": 0.15,
+   "method": "C_manifest_name",
+   "rep": 9.5,
+   "files_missed": 0.0,
+   "stale": 10.15,
+   "amount_error_pct": -0.046406656754801046
+  },
+  {
+   "p_late": 0.25,
+   "method": "A_name_yesterday",
+   "rep": 9.5,
+   "files_missed": 89.0,
+   "stale": 7.3,
+   "amount_error_pct": -24.522472206377827
+  },
+  {
+   "p_late": 0.25,
+   "method": "C2_manifest_name_ver",
+   "rep": 9.5,
+   "files_missed": 0.0,
+   "stale": 0.0,
+   "amount_error_pct": -1.1102230246251565e-15
+  },
+  {
+   "p_late": 0.25,
+   "method": "C_manifest_name",
+   "rep": 9.5,
+   "files_missed": 0.0,
+   "stale": 10.2,
+   "amount_error_pct": -0.047846523883739445
+  }
+ ]
+}

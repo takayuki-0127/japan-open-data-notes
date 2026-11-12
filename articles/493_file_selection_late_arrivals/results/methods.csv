@@ -1,0 +1,6 @@
+,files_total,files_missed,rows_missed,files_stale_version,rows_duplicated,rows_loaded,rows_true,amount_error_pct
+A_name_yesterday,365.0,25.0,25526.0,10.0,0.0,336341.0,362148.0,-7.118265653152411
+B_mtime_append,365.0,0.0,0.0,0.0,10839.0,372987.0,362148.0,2.990396799426276
+B2_mtime_replace,365.0,0.0,0.0,0.0,0.0,362148.0,362148.0,2.220446049250313e-14
+C_manifest_name,365.0,0.0,0.0,11.0,0.0,361835.0,362148.0,-0.06158688772883725
+C2_manifest_name_ver,365.0,0.0,0.0,0.0,0.0,362148.0,362148.0,2.220446049250313e-14
