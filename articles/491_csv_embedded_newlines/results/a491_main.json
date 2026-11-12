@@ -1,0 +1,107 @@
+{
+ "records": 10000,
+ "physical_lines": 14135,
+ "records_with_newline": 1156,
+ "records_with_comma": 2438,
+ "records_with_quote": 989,
+ "methods": {
+  "naive_split": {
+   "rows": 14135,
+   "ok": 6035,
+   "bad_cols": 7125,
+   "wrong": 8100
+  },
+  "line_then_csv": {
+   "rows": 14135,
+   "ok": 8844,
+   "bad_cols": 5291,
+   "wrong": 5291
+  },
+  "csv_module": {
+   "rows": 10000,
+   "ok": 10000,
+   "bad_cols": 0,
+   "wrong": 0
+  },
+  "pandas": {
+   "rows": 10000,
+   "ok": 10000,
+   "bad_cols": 0,
+   "wrong": 0
+  },
+  "duckdb": {
+   "rows": 10000,
+   "ok": 10000,
+   "bad_cols": 0,
+   "wrong": 0
+  }
+ },
+ "write_side": {
+  "no_quote_write": {
+   "rows": 14135,
+   "ok": 6708
+  },
+  "replace_newline_then_naive": {
+   "rows": 10000,
+   "ok_cols": 7562
+  }
+ },
+ "sweep": [
+  {
+   "p_newline": 0.0,
+   "share_records_with_nl": 0.0,
+   "physical_lines_per_record": 1.0,
+   "naive_ok_share": 0.6724,
+   "line_then_csv_ok_share": 1.0,
+   "csv_ok_share": 1.0
+  },
+  {
+   "p_newline": 0.01,
+   "share_records_with_nl": 0.0086,
+   "physical_lines_per_record": 1.0298,
+   "naive_ok_share": 0.6692,
+   "line_then_csv_ok_share": 0.9914,
+   "csv_ok_share": 1.0
+  },
+  {
+   "p_newline": 0.03,
+   "share_records_with_nl": 0.0362,
+   "physical_lines_per_record": 1.129,
+   "naive_ok_share": 0.6576,
+   "line_then_csv_ok_share": 0.9638,
+   "csv_ok_share": 1.0
+  },
+  {
+   "p_newline": 0.05,
+   "share_records_with_nl": 0.0494,
+   "physical_lines_per_record": 1.1738,
+   "naive_ok_share": 0.6332,
+   "line_then_csv_ok_share": 0.9506,
+   "csv_ok_share": 1.0
+  },
+  {
+   "p_newline": 0.1,
+   "share_records_with_nl": 0.0956,
+   "physical_lines_per_record": 1.3448,
+   "naive_ok_share": 0.6182,
+   "line_then_csv_ok_share": 0.9044,
+   "csv_ok_share": 1.0
+  },
+  {
+   "p_newline": 0.2,
+   "share_records_with_nl": 0.2068,
+   "physical_lines_per_record": 1.73,
+   "naive_ok_share": 0.5418,
+   "line_then_csv_ok_share": 0.7932,
+   "csv_ok_share": 1.0
+  },
+  {
+   "p_newline": 0.3,
+   "share_records_with_nl": 0.296,
+   "physical_lines_per_record": 2.0236,
+   "naive_ok_share": 0.47,
+   "line_then_csv_ok_share": 0.704,
+   "csv_ok_share": 1.0
+  }
+ ]
+}

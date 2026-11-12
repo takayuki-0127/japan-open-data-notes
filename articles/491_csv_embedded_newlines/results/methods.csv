@@ -1,0 +1,6 @@
+method,rows_read,ok,wrong,bad_cols
+naive_split,14135,6035,8100,7125
+line_then_csv,14135,8844,5291,5291
+csv_module,10000,10000,0,0
+pandas,10000,10000,0,0
+duckdb,10000,10000,0,0
