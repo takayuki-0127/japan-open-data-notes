@@ -1,0 +1,4 @@
+,months_achieved_mean,months_achieved_sd,stores_0_3,stores_9_12,within_store_sd_pt,dec_ach_mean,feb_ach_mean,month_mean_min,month_mean_max,months_below90_per_store,corr_months_vs_annual,annual_ok_stores_months_mean,annual_ng_stores_months_mean
+E,5.27,1.7,35.0,5.0,14.8,131.5,79.6,79.6,131.5,2.95,0.799,6.33,4.19
+L,5.96,2.3,34.0,29.0,8.48,101.6,100.9,98.8,101.6,1.5,0.855,7.57,4.3
+A,5.73,2.65,48.0,31.0,6.7,100.6,100.3,99.2,101.1,1.01,0.904,7.78,3.64

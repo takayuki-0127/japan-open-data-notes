@@ -1,0 +1,139 @@
+{
+ "stores": 200,
+ "annual_achieved_stores": 101,
+ "annual_ach_median": 100.1,
+ "summary": {
+  "E": {
+   "months_achieved_mean": 5.27,
+   "months_achieved_sd": 1.7,
+   "stores_0_3": 35,
+   "stores_9_12": 5,
+   "within_store_sd_pt": 14.8,
+   "dec_ach_mean": 131.5,
+   "feb_ach_mean": 79.6,
+   "month_mean_min": 79.6,
+   "month_mean_max": 131.5,
+   "months_below90_per_store": 2.95,
+   "corr_months_vs_annual": 0.799,
+   "annual_ok_stores_months_mean": 6.33,
+   "annual_ng_stores_months_mean": 4.19
+  },
+  "L": {
+   "months_achieved_mean": 5.96,
+   "months_achieved_sd": 2.3,
+   "stores_0_3": 34,
+   "stores_9_12": 29,
+   "within_store_sd_pt": 8.48,
+   "dec_ach_mean": 101.6,
+   "feb_ach_mean": 100.9,
+   "month_mean_min": 98.8,
+   "month_mean_max": 101.6,
+   "months_below90_per_store": 1.5,
+   "corr_months_vs_annual": 0.855,
+   "annual_ok_stores_months_mean": 7.57,
+   "annual_ng_stores_months_mean": 4.3
+  },
+  "A": {
+   "months_achieved_mean": 5.73,
+   "months_achieved_sd": 2.65,
+   "stores_0_3": 48,
+   "stores_9_12": 31,
+   "within_store_sd_pt": 6.7,
+   "dec_ach_mean": 100.6,
+   "feb_ach_mean": 100.3,
+   "month_mean_min": 99.2,
+   "month_mean_max": 101.1,
+   "months_below90_per_store": 1.01,
+   "corr_months_vs_annual": 0.904,
+   "annual_ok_stores_months_mean": 7.78,
+   "annual_ng_stores_months_mean": 3.64
+  }
+ },
+ "month_mean": {
+  "E": [
+   87.8,
+   79.6,
+   97.5,
+   95.9,
+   101.1,
+   94.7,
+   108.7,
+   112.7,
+   92.8,
+   97.9,
+   100.5,
+   131.5
+  ],
+  "L": [
+   98.8,
+   100.9,
+   99.5,
+   99.3,
+   101.3,
+   100.5,
+   100.6,
+   100.3,
+   99.9,
+   100.1,
+   101.6,
+   101.6
+  ],
+  "A": [
+   99.2,
+   100.3,
+   99.3,
+   99.3,
+   100.6,
+   100.3,
+   100.4,
+   100.4,
+   99.8,
+   100.3,
+   101.1,
+   100.6
+  ]
+ },
+ "dist_months_achieved": {
+  "E": {
+   "2": 8,
+   "3": 27,
+   "4": 30,
+   "5": 47,
+   "6": 41,
+   "7": 27,
+   "8": 15,
+   "9": 3,
+   "10": 2
+  },
+  "L": {
+   "0": 1,
+   "1": 4,
+   "2": 10,
+   "3": 19,
+   "4": 17,
+   "5": 30,
+   "6": 33,
+   "7": 38,
+   "8": 19,
+   "9": 19,
+   "10": 6,
+   "11": 3,
+   "12": 1
+  },
+  "A": {
+   "0": 1,
+   "1": 11,
+   "2": 12,
+   "3": 24,
+   "4": 21,
+   "5": 22,
+   "6": 30,
+   "7": 21,
+   "8": 27,
+   "9": 15,
+   "10": 10,
+   "11": 5,
+   "12": 1
+  }
+ }
+}
