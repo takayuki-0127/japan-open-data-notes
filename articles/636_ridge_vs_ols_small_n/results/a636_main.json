@@ -1,0 +1,129 @@
+{
+ "p": 30,
+ "rho": 0.5,
+ "reps": 300,
+ "beta_nonzero": 10,
+ "summary": [
+  {
+   "n": 40,
+   "model": "OLS",
+   "pred_excess": 3.9184,
+   "pred_excess_med": 3.1602,
+   "coef_sse": 7.3907,
+   "beta1_mean": 0.5672,
+   "beta1_sd": 0.4957,
+   "alpha_med": 0.0
+  },
+  {
+   "n": 40,
+   "model": "Ridge",
+   "pred_excess": 0.5606,
+   "pred_excess_med": 0.5276,
+   "coef_sse": 0.951,
+   "beta1_mean": 0.2035,
+   "beta1_sd": 0.1727,
+   "alpha_med": 39.8107
+  },
+  {
+   "n": 60,
+   "model": "OLS",
+   "pred_excess": 1.1282,
+   "pred_excess_med": 1.0623,
+   "coef_sse": 2.1221,
+   "beta1_mean": 0.6053,
+   "beta1_sd": 0.2856,
+   "alpha_med": 0.0
+  },
+  {
+   "n": 60,
+   "model": "Ridge",
+   "pred_excess": 0.4155,
+   "pred_excess_med": 0.3946,
+   "coef_sse": 0.7436,
+   "beta1_mean": 0.2864,
+   "beta1_sd": 0.1629,
+   "alpha_med": 25.1189
+  },
+  {
+   "n": 100,
+   "model": "OLS",
+   "pred_excess": 0.4464,
+   "pred_excess_med": 0.4217,
+   "coef_sse": 0.834,
+   "beta1_mean": 0.6003,
+   "beta1_sd": 0.1727,
+   "alpha_med": 0.0
+  },
+  {
+   "n": 100,
+   "model": "Ridge",
+   "pred_excess": 0.2716,
+   "pred_excess_med": 0.2639,
+   "coef_sse": 0.4936,
+   "beta1_mean": 0.3742,
+   "beta1_sd": 0.132,
+   "alpha_med": 25.1189
+  },
+  {
+   "n": 300,
+   "model": "OLS",
+   "pred_excess": 0.1179,
+   "pred_excess_med": 0.1163,
+   "coef_sse": 0.2203,
+   "beta1_mean": 0.5974,
+   "beta1_sd": 0.0846,
+   "alpha_med": 0.0
+  },
+  {
+   "n": 300,
+   "model": "Ridge",
+   "pred_excess": 0.1022,
+   "pred_excess_med": 0.1016,
+   "coef_sse": 0.1899,
+   "beta1_mean": 0.5061,
+   "beta1_sd": 0.079,
+   "alpha_med": 25.1189
+  },
+  {
+   "n": 1000,
+   "model": "OLS",
+   "pred_excess": 0.0317,
+   "pred_excess_med": 0.031,
+   "coef_sse": 0.0592,
+   "beta1_mean": 0.5994,
+   "beta1_sd": 0.0442,
+   "alpha_med": 0.0
+  },
+  {
+   "n": 1000,
+   "model": "Ridge",
+   "pred_excess": 0.0307,
+   "pred_excess_med": 0.0299,
+   "coef_sse": 0.0572,
+   "beta1_mean": 0.5705,
+   "beta1_sd": 0.0441,
+   "alpha_med": 25.1189
+  }
+ ],
+ "ridge_wins_pct": {
+  "40": 100.0,
+  "60": 99.0,
+  "100": 93.3,
+  "300": 80.3,
+  "1000": 67.7
+ },
+ "total_mse_ratio_ridge_over_ols": {
+  "40": 0.317,
+  "60": 0.665,
+  "100": 0.879,
+  "300": 0.986,
+  "1000": 0.999
+ },
+ "excess_error_reduction_pct": {
+  "40": 85.7,
+  "60": 63.2,
+  "100": 39.2,
+  "300": 13.3,
+  "1000": 3.2
+ }
+}
