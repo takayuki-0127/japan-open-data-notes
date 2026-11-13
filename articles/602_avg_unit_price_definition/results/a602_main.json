@@ -1,0 +1,22 @@
+{
+ "items": 80,
+ "lines": 40000,
+ "total_amount": 318977612,
+ "total_qty": 233261,
+ "diff_simple_pct": {
+  "median": 5.67,
+  "max": 14.32,
+  "min": -0.05,
+  "share_over_5pct": 58.8,
+  "share_over_10pct": 23.8
+ },
+ "diff_daily_pct": {
+  "median": 5.67,
+  "max": 14.61
+ },
+ "revenue_from_simple_vs_actual_pct": 7.6,
+ "spearman_simple_vs_weighted": 0.998,
+ "rank_moved_within_same_list_price": 43,
+ "items_in_compared_groups": 80,
+ "corr_bigshare_diff": 0.68
+}
