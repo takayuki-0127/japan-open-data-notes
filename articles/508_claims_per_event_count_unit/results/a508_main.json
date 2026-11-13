@@ -1,0 +1,56 @@
+{
+ "seed": 508,
+ "years": 10,
+ "lam": 200,
+ "layer": "1.5億円 xs 5,000万円",
+ "n_events": 2028,
+ "n_claims": 3861,
+ "claims_per_event": 1.904,
+ "event": {
+  "count_per_year": 202.8,
+  "mean": 7543142.303,
+  "median": 2873539.865,
+  "q99_emp": 78249193.227,
+  "q99_fit": 74997156.611,
+  "mu": 14.854,
+  "s": 1.41,
+  "n_over_ded": 39.0,
+  "layer_emp": 185334846.598,
+  "layer_fit": 167310696.827
+ },
+ "claim": {
+  "count_per_year": 386.1,
+  "mean": 3962054.543,
+  "median": 1643401.435,
+  "q99_emp": 37006532.506,
+  "q99_fit": 46814780.378,
+  "mu": 14.237,
+  "s": 1.472,
+  "n_over_ded": 23.0,
+  "layer_emp": 58577384.231,
+  "layer_fit": 127983023.737
+ },
+ "true_layer_per_year": 177363970.86,
+ "repeat_median": [
+  {
+   "tie": false,
+   "layer_emp_ratio": 0.772,
+   "layer_fit_ratio": 1.956,
+   "layer_fit_event_vs_true": 1.005,
+   "layer_emp_event_vs_true": 1.001,
+   "q99_ratio": 0.621,
+   "mean_ratio": 0.53,
+   "count_ratio": 1.885
+  },
+  {
+   "tie": true,
+   "layer_emp_ratio": 0.382,
+   "layer_fit_ratio": 0.874,
+   "layer_fit_event_vs_true": 0.997,
+   "layer_emp_event_vs_true": 0.987,
+   "q99_ratio": 0.499,
+   "mean_ratio": 0.532,
+   "count_ratio": 1.88
+  }
+ ]
+}
