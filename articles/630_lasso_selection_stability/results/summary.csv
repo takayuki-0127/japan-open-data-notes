@@ -1,0 +1,2 @@
+cv_selected_mean,cv_true_mean,cv_twin_mean,cv_other_mean,boot_jaccard_mean,boot_freq_true_mean,boot_freq_twin_mean,boot_freq_other_mean,share_other_vars_selected_in_some_boot_pct,stab_selected_mean,stab_true_mean,stab_false_mean,boot_size_range
+15.2,6.0,2.2,7.0,0.6111,0.9997,0.3533,0.2787,96.0714,8.4,6.0,2.4,"[8, 39]"
