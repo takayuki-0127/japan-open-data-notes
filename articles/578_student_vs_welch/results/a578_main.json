@@ -1,0 +1,215 @@
+{
+ "sims": 20000,
+ "sql_matches_scipy": true,
+ "example": {
+  "t_student": -0.3220963965763535,
+  "p_student": 0.7487783228239857,
+  "t_welch": -0.5273308806210313,
+  "p_welch": 0.6008711167374368,
+  "df_welch": 40.07682139488679
+ },
+ "false_positive": [
+  {
+   "n_a": 20,
+   "n_b": 20,
+   "sd_ratio": 1.0,
+   "student": 0.0501,
+   "welch": 0.0498,
+   "two_stage": 0.05
+  },
+  {
+   "n_a": 20,
+   "n_b": 20,
+   "sd_ratio": 1.5,
+   "student": 0.0488,
+   "welch": 0.0474,
+   "two_stage": 0.048
+  },
+  {
+   "n_a": 20,
+   "n_b": 20,
+   "sd_ratio": 2.0,
+   "student": 0.0532,
+   "welch": 0.0508,
+   "two_stage": 0.0512
+  },
+  {
+   "n_a": 20,
+   "n_b": 20,
+   "sd_ratio": 3.0,
+   "student": 0.055,
+   "welch": 0.0508,
+   "two_stage": 0.0508
+  },
+  {
+   "n_a": 20,
+   "n_b": 20,
+   "sd_ratio": 4.0,
+   "student": 0.0552,
+   "welch": 0.0493,
+   "two_stage": 0.0493
+  },
+  {
+   "n_a": 10,
+   "n_b": 40,
+   "sd_ratio": 1.0,
+   "student": 0.0511,
+   "welch": 0.053,
+   "two_stage": 0.0538
+  },
+  {
+   "n_a": 10,
+   "n_b": 40,
+   "sd_ratio": 1.5,
+   "student": 0.0142,
+   "welch": 0.0503,
+   "two_stage": 0.0302
+  },
+  {
+   "n_a": 10,
+   "n_b": 40,
+   "sd_ratio": 2.0,
+   "student": 0.0046,
+   "welch": 0.05,
+   "two_stage": 0.0368
+  },
+  {
+   "n_a": 10,
+   "n_b": 40,
+   "sd_ratio": 3.0,
+   "student": 0.0014,
+   "welch": 0.0469,
+   "two_stage": 0.0441
+  },
+  {
+   "n_a": 10,
+   "n_b": 40,
+   "sd_ratio": 4.0,
+   "student": 0.0006,
+   "welch": 0.0494,
+   "two_stage": 0.0488
+  },
+  {
+   "n_a": 40,
+   "n_b": 10,
+   "sd_ratio": 1.0,
+   "student": 0.0518,
+   "welch": 0.0534,
+   "two_stage": 0.0538
+  },
+  {
+   "n_a": 40,
+   "n_b": 10,
+   "sd_ratio": 1.5,
+   "student": 0.1226,
+   "welch": 0.0507,
+   "two_stage": 0.0959
+  },
+  {
+   "n_a": 40,
+   "n_b": 10,
+   "sd_ratio": 2.0,
+   "student": 0.1821,
+   "welch": 0.0512,
+   "two_stage": 0.0908
+  },
+  {
+   "n_a": 40,
+   "n_b": 10,
+   "sd_ratio": 3.0,
+   "student": 0.2572,
+   "welch": 0.0526,
+   "two_stage": 0.0624
+  },
+  {
+   "n_a": 40,
+   "n_b": 10,
+   "sd_ratio": 4.0,
+   "student": 0.2994,
+   "welch": 0.053,
+   "two_stage": 0.0551
+  }
+ ],
+ "power": [
+  {
+   "n_a": 20,
+   "n_b": 20,
+   "delta": 0.0,
+   "student": 0.0495,
+   "welch": 0.0492,
+   "two_stage": 0.0495
+  },
+  {
+   "n_a": 20,
+   "n_b": 20,
+   "delta": 0.25,
+   "student": 0.1206,
+   "welch": 0.1194,
+   "two_stage": 0.1204
+  },
+  {
+   "n_a": 20,
+   "n_b": 20,
+   "delta": 0.5,
+   "student": 0.3434,
+   "welch": 0.3422,
+   "two_stage": 0.3431
+  },
+  {
+   "n_a": 20,
+   "n_b": 20,
+   "delta": 0.75,
+   "student": 0.6417,
+   "welch": 0.64,
+   "two_stage": 0.6414
+  },
+  {
+   "n_a": 20,
+   "n_b": 20,
+   "delta": 1.0,
+   "student": 0.8688,
+   "welch": 0.8684,
+   "two_stage": 0.8688
+  },
+  {
+   "n_a": 10,
+   "n_b": 40,
+   "delta": 0.0,
+   "student": 0.052,
+   "welch": 0.0533,
+   "two_stage": 0.0537
+  },
+  {
+   "n_a": 10,
+   "n_b": 40,
+   "delta": 0.25,
+   "student": 0.1062,
+   "welch": 0.1034,
+   "two_stage": 0.1086
+  },
+  {
+   "n_a": 10,
+   "n_b": 40,
+   "delta": 0.5,
+   "student": 0.2808,
+   "welch": 0.2614,
+   "two_stage": 0.283
+  },
+  {
+   "n_a": 10,
+   "n_b": 40,
+   "delta": 0.75,
+   "student": 0.5417,
+   "welch": 0.5007,
+   "two_stage": 0.5422
+  },
+  {
+   "n_a": 10,
+   "n_b": 40,
+   "delta": 1.0,
+   "student": 0.7912,
+   "welch": 0.748,
+   "two_stage": 0.789
+  }
+ ]
+}
