@@ -1,0 +1,43 @@
+{
+ "respondents": 1000,
+ "reps": 2000,
+ "true_satisfied_pct": 56.1,
+ "pop_share_pct": {
+  "20代": 18.0,
+  "30代": 18.0,
+  "40代": 20.0,
+  "50代": 22.0,
+  "60代以上": 22.0
+ },
+ "respondent_share_pct": {
+  "20代": 6.3,
+  "30代": 10.1,
+  "40代": 16.9,
+  "50代": 27.9,
+  "60代以上": 38.7
+ },
+ "A": {
+  "none": 61.45,
+  "weight": 56.19,
+  "cap": 57.28,
+  "none_sd": 1.6,
+  "weight_sd": 1.87,
+  "cap_sd": 1.79
+ },
+ "B": {
+  "none": 69.35,
+  "weight": 64.07,
+  "cap": 65.17,
+  "none_sd": 1.44,
+  "weight_sd": 1.79,
+  "cap_sd": 1.67
+ },
+ "neff_weight": 726.3,
+ "neff_cap": 820.0,
+ "max_weight_mean": 2.89,
+ "sd_ratio_weight_vs_none": 1.163,
+ "sql_example": {
+  "unweighted": 0.624,
+  "weighted": 0.57785
+ }
+}
