@@ -1,0 +1,26 @@
+{
+ "items": 246,
+ "items_with_wildcard": 18,
+ "lines": 30000,
+ "items_overcounted": 12,
+ "wild_lines_true": 2606,
+ "wild_lines_countif": 6960,
+ "wild_overcount_ratio": 2.67,
+ "wild_amount_true": 16806710,
+ "wild_amount_sumif": 40409390,
+ "max_ratio": 58.5,
+ "max_ratio_item": "ネジM4*12",
+ "star_items_median_ratio": 1.64,
+ "q_items_median_ratio": 3.78,
+ "escaped_all_correct": true,
+ "sum_extra_lines": 4354,
+ "example": {
+  "item": "ネジM3*10",
+  "true": 127,
+  "countif": 462,
+  "ネジM3x10": 23,
+  "ネジM3×10": 121,
+  "ネジM3-10": 183,
+  "ネジM310": 8
+ }
+}
