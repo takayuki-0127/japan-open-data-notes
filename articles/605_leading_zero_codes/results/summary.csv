@@ -1,0 +1,4 @@
+,rows_after_join,unmatched_lines,matched_rows_right,matched_rows_wrong,lines_ok,lines_ok_pct,amount,amount_diff_pct
+K1,50000.0,2257.0,47671.0,72.0,47671.0,95.34,158179460.0,-4.66
+K2,52311.0,0.0,50000.0,2311.0,47689.0,95.38,173991240.0,4.87
+K3,52311.0,0.0,50000.0,2311.0,47689.0,95.38,173991240.0,4.87

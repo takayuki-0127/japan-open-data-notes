@@ -1,0 +1,47 @@
+{
+ "master_codes": 3057,
+ "codes_by_length": {
+  "4": 1000,
+  "5": 1257,
+  "6": 800
+ },
+ "codes_leading_zero": 348,
+ "codes_leading_zero_pct": 11.4,
+ "codes_same_number_groups": 72,
+ "lines": 50000,
+ "lines_via_sheet_pct": 39.8,
+ "lines_leading_zero_via_sheet": 2329,
+ "true_amount": 165904840,
+ "results": {
+  "K1": {
+   "rows_after_join": 50000,
+   "unmatched_lines": 2257,
+   "matched_rows_right": 47671,
+   "matched_rows_wrong": 72,
+   "lines_ok": 47671,
+   "lines_ok_pct": 95.34,
+   "amount": 158179460,
+   "amount_diff_pct": -4.66
+  },
+  "K2": {
+   "rows_after_join": 52311,
+   "unmatched_lines": 0,
+   "matched_rows_right": 50000,
+   "matched_rows_wrong": 2311,
+   "lines_ok": 47689,
+   "lines_ok_pct": 95.38,
+   "amount": 173991240,
+   "amount_diff_pct": 4.87
+  },
+  "K3": {
+   "rows_after_join": 52311,
+   "unmatched_lines": 0,
+   "matched_rows_right": 50000,
+   "matched_rows_wrong": 2311,
+   "lines_ok": 47689,
+   "lines_ok_pct": 95.38,
+   "amount": 173991240,
+   "amount_diff_pct": 4.87
+  }
+ }
+}
