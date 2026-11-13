@@ -1,0 +1,4 @@
+truth,top_hit_rd,top_hit_rr,top_hit_or,same_top_rd_rr,sig_hetero_rd,sig_hetero_logor
+OR,0.809,0.501,,0.0,1.0,0.051
+RR,0.999,,0.998,0.048,1.0,1.0
+RD,,0.999,0.999,0.092,0.049,1.0
