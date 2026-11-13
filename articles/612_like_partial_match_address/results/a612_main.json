@@ -1,0 +1,72 @@
+{
+ "addresses": 20000,
+ "true_sakuragaoka": 1927,
+ "results": {
+  "A1": {
+   "hits": 4360,
+   "correct": 1655,
+   "extra": 2705,
+   "missed": 272,
+   "precision_pct": 38.0,
+   "recall_pct": 85.9
+  },
+  "A2": {
+   "hits": 2048,
+   "correct": 1329,
+   "extra": 719,
+   "missed": 598,
+   "precision_pct": 64.9,
+   "recall_pct": 69.0
+  },
+  "A3": {
+   "hits": 1927,
+   "correct": 1927,
+   "extra": 0,
+   "missed": 0,
+   "precision_pct": 100.0,
+   "recall_pct": 100.0
+  }
+ },
+ "breakdown": {
+  "A1": {
+   "extra_by_true_town": {
+    "桜ヶ丘台": 868,
+    "東桜ヶ丘": 779,
+    "西桜ヶ丘": 607,
+    "若葉台": 70,
+    "緑町": 69,
+    "本町": 67,
+    "旭町": 58,
+    "新町": 52,
+    "大原": 48,
+    "港南": 46,
+    "川端": 41
+   },
+   "extra_building": 527,
+   "missed_no_city": 58,
+   "missed_ke": 272,
+   "missed_space_or_zen": 69
+  },
+  "A2": {
+   "extra_by_true_town": {
+    "桜ヶ丘台": 719
+   },
+   "extra_building": 16,
+   "missed_no_city": 384,
+   "missed_ke": 272,
+   "missed_space_or_zen": 159
+  },
+  "A3": {
+   "extra_by_true_town": {},
+   "extra_building": 0,
+   "missed_no_city": 0,
+   "missed_ke": 0,
+   "missed_space_or_zen": 0
+  }
+ },
+ "styles": {
+  "no_city_pct": 19.4,
+  "ke_variant": 685,
+  "building_name": 527
+ }
+}
