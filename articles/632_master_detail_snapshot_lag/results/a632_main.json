@@ -1,0 +1,67 @@
+{
+ "days_measured": 28,
+ "customers_start": 50000,
+ "orders_total": 95594,
+ "summary": [
+  {
+   "lag_h": -24,
+   "orders": 3185.821,
+   "missing": 190.964,
+   "missing_new": 190.964,
+   "missing_deleted": 0.0,
+   "region_differs": 0.857,
+   "missing_amt": 26380690,
+   "amount": 446250840,
+   "missing_pct": 5.994,
+   "missing_amt_pct": 5.912
+  },
+  {
+   "lag_h": -6,
+   "orders": 3185.821,
+   "missing": 56.607,
+   "missing_new": 46.786,
+   "missing_deleted": 9.821,
+   "region_differs": 0.643,
+   "missing_amt": 7928110,
+   "amount": 446250840,
+   "missing_pct": 1.777,
+   "missing_amt_pct": 1.777
+  },
+  {
+   "lag_h": 0,
+   "orders": 3185.821,
+   "missing": 12.964,
+   "missing_new": 0.0,
+   "missing_deleted": 12.964,
+   "region_differs": 0.679,
+   "missing_amt": 1901650,
+   "amount": 446250840,
+   "missing_pct": 0.407,
+   "missing_amt_pct": 0.426
+  },
+  {
+   "lag_h": 6,
+   "orders": 3185.821,
+   "missing": 13.5,
+   "missing_new": 0.0,
+   "missing_deleted": 13.5,
+   "region_differs": 1.036,
+   "missing_amt": 1968800,
+   "amount": 446250840,
+   "missing_pct": 0.424,
+   "missing_amt_pct": 0.441
+  },
+  {
+   "lag_h": 24,
+   "orders": 3185.821,
+   "missing": 15.321,
+   "missing_new": 0.0,
+   "missing_deleted": 15.321,
+   "region_differs": 1.929,
+   "missing_amt": 2196290,
+   "amount": 446250840,
+   "missing_pct": 0.481,
+   "missing_amt_pct": 0.492
+  }
+ ]
+}
