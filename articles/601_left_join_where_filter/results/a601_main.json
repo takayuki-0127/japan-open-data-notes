@@ -1,0 +1,98 @@
+{
+ "customers": 5000,
+ "orders": 11751,
+ "customers_no_order_2025": 1878,
+ "customers_only_outside_period": 656,
+ "period": "2025-07-01〜2025-12-31",
+ "total_W0": 28789270,
+ "summary": {
+  "W0": {
+   "customers": 5000,
+   "missing": 0,
+   "missing_pct": 0.0,
+   "zero_customers": 2534,
+   "total": 28789270,
+   "avg_per_customer": 5757.9
+  },
+  "W1": {
+   "customers": 2466,
+   "missing": 2534,
+   "missing_pct": 50.68,
+   "zero_customers": 0,
+   "total": 28789270,
+   "avg_per_customer": 11674.5
+  },
+  "W2": {
+   "customers": 4344,
+   "missing": 656,
+   "missing_pct": 13.12,
+   "zero_customers": 1878,
+   "total": 28789270,
+   "avg_per_customer": 6627.4
+  }
+ },
+ "avg_ratio_W1_vs_W0": 2.028,
+ "avg_ratio_W2_vs_W0": 1.151,
+ "by_window": [
+  {
+   "months": 1,
+   "W1_missing_pct": 84.1,
+   "W2_missing_pct": 46.54
+  },
+  {
+   "months": 2,
+   "W1_missing_pct": 73.7,
+   "W2_missing_pct": 36.14
+  },
+  {
+   "months": 3,
+   "W1_missing_pct": 65.62,
+   "W2_missing_pct": 28.06
+  },
+  {
+   "months": 4,
+   "W1_missing_pct": 59.54,
+   "W2_missing_pct": 21.98
+  },
+  {
+   "months": 5,
+   "W1_missing_pct": 54.58,
+   "W2_missing_pct": 17.02
+  },
+  {
+   "months": 6,
+   "W1_missing_pct": 50.68,
+   "W2_missing_pct": 13.12
+  },
+  {
+   "months": 7,
+   "W1_missing_pct": 47.66,
+   "W2_missing_pct": 10.1
+  },
+  {
+   "months": 8,
+   "W1_missing_pct": 45.12,
+   "W2_missing_pct": 7.56
+  },
+  {
+   "months": 9,
+   "W1_missing_pct": 42.74,
+   "W2_missing_pct": 5.18
+  },
+  {
+   "months": 10,
+   "W1_missing_pct": 40.74,
+   "W2_missing_pct": 3.18
+  },
+  {
+   "months": 11,
+   "W1_missing_pct": 39.26,
+   "W2_missing_pct": 1.7
+  },
+  {
+   "months": 12,
+   "W1_missing_pct": 37.56,
+   "W2_missing_pct": 0.0
+  }
+ ]
+}
