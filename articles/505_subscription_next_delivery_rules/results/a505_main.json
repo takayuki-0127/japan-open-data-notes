@@ -1,0 +1,139 @@
+{
+ "members": 5000,
+ "month_end_signups": 969,
+ "scheduled_per_person": {
+  "d30": {
+   "mean": 12.151,
+   "dist": {
+    "12": 4246,
+    "13": 754
+   }
+  },
+  "same_anchor": {
+   "mean": 12.0,
+   "dist": {
+    "12": 5000
+   }
+  },
+  "same_drift": {
+   "mean": 12.0,
+   "dist": {
+    "12": 5000
+   }
+  },
+  "w4": {
+   "mean": 13.034,
+   "dist": {
+    "13": 4831,
+    "14": 169
+   }
+  }
+ },
+ "shipped_per_person_mean": {
+  "d30": 10.932,
+  "same_anchor": 10.799,
+  "same_drift": 10.799,
+  "w4": 11.733
+ },
+ "total_shipments": {
+  "d30": 54658,
+  "same_anchor": 53995,
+  "same_drift": 53995,
+  "w4": 58667
+ },
+ "monthly": {
+  "d30": {
+   "min": 4191,
+   "max": 4656,
+   "cv_pct": 2.87
+  },
+  "same_anchor": {
+   "min": 4477,
+   "max": 4536,
+   "cv_pct": 0.35
+  },
+  "same_drift": {
+   "min": 4477,
+   "max": 4536,
+   "cv_pct": 0.35
+  },
+  "w4": {
+   "min": 4487,
+   "max": 5032,
+   "cv_pct": 3.16
+  }
+ },
+ "member_months_with_2": {
+  "d30": 1087,
+  "same_anchor": 0,
+  "same_drift": 0,
+  "w4": 5169
+ },
+ "members_with_a_2_month": {
+  "d30": 930,
+  "same_anchor": 0,
+  "same_drift": 0,
+  "w4": 5000
+ },
+ "dec_day_differs_from_signup_day": {
+  "same_anchor": 0,
+  "same_drift": 969
+ },
+ "month_end_signups_drifted_to_28_or_less": 969,
+ "weekend_share_pct": {
+  "d30": 28.41,
+  "same_anchor": 28.89,
+  "same_drift": 29.62,
+  "w4": 28.11
+ },
+ "shipments_on_29_31": {
+  "d30": 4481,
+  "same_anchor": 9594,
+  "same_drift": 774,
+  "w4": 4672
+ },
+ "shipments_on_28": {
+  "d30": 2339,
+  "same_anchor": 2268,
+  "same_drift": 11088,
+  "w4": 1900
+ },
+ "daily_max": {
+  "d30": 267,
+  "same_anchor": 990,
+  "same_drift": 1004,
+  "w4": 188
+ },
+ "daily_max_date": {
+  "d30": "2026-11-24",
+  "same_anchor": "2026-02-28",
+  "same_drift": "2026-11-28",
+  "w4": "2026-11-03"
+ },
+ "monthly_max_month": {
+  "d30": 10,
+  "same_anchor": 6,
+  "same_drift": 6,
+  "w4": 12
+ },
+ "monthly_min_month": {
+  "d30": 2,
+  "same_anchor": 2,
+  "same_drift": 2,
+  "w4": 2
+ },
+ "duckdb_add_month_from_jan31": [
+  "2025-01-31",
+  "2025-02-28",
+  "2025-03-28",
+  "2025-04-28",
+  "2025-05-28",
+  "2025-06-28",
+  "2025-07-28",
+  "2025-08-28",
+  "2025-09-28",
+  "2025-10-28",
+  "2025-11-28",
+  "2025-12-28"
+ ]
+}
