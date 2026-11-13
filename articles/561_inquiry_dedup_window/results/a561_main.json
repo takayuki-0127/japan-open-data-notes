@@ -1,0 +1,28 @@
+{
+ "rows": 13639,
+ "customers_with_inquiry": 6000,
+ "true_cases": 11778,
+ "kinds": {
+  "本来": 11356,
+  "二重送信": 940,
+  "送り直し": 593,
+  "別の用件": 422,
+  "催促": 328
+ },
+ "pairs_with_prev": 7639,
+ "dup_pairs": 1831,
+ "new_pairs": 5808,
+ "new_within_1h": 269,
+ "new_within_10min": 66,
+ "dup_over_1h": 300,
+ "best_window_by_errors": {
+  "window": "3日",
+  "seconds": 259200,
+  "same_category": true,
+  "count": 11564,
+  "diff_pct": -1.82,
+  "missed": 0,
+  "over_merged": 244
+ },
+ "sql_python_match": true
+}
