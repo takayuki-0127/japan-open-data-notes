@@ -1,0 +1,70 @@
+{
+ "treated": 40,
+ "control": 40,
+ "pre": 8,
+ "post": 4,
+ "effect": 0.5,
+ "reps": 1000,
+ "summary": [
+  {
+   "delta": 0.0,
+   "bias_did": -0.001,
+   "sd_did": 0.1383,
+   "bias_trend": -0.009,
+   "sd_trend": 0.2463,
+   "detect_pct": 4.2,
+   "bias_did_if_pass": -0.0013,
+   "rmse_did": 0.1383,
+   "rmse_trend": 0.2463,
+   "theory_bias": 0.0
+  },
+  {
+   "delta": 0.02,
+   "bias_did": 0.1145,
+   "sd_did": 0.1304,
+   "bias_trend": -0.0152,
+   "sd_trend": 0.2399,
+   "detect_pct": 10.0,
+   "bias_did_if_pass": 0.1156,
+   "rmse_did": 0.1735,
+   "rmse_trend": 0.2402,
+   "theory_bias": 0.12
+  },
+  {
+   "delta": 0.05,
+   "bias_did": 0.2989,
+   "sd_did": 0.1375,
+   "bias_trend": -0.0108,
+   "sd_trend": 0.2486,
+   "detect_pct": 30.4,
+   "bias_did_if_pass": 0.2979,
+   "rmse_did": 0.3289,
+   "rmse_trend": 0.2487,
+   "theory_bias": 0.3
+  },
+  {
+   "delta": 0.1,
+   "bias_did": 0.5956,
+   "sd_did": 0.1392,
+   "bias_trend": -0.0008,
+   "sd_trend": 0.2379,
+   "detect_pct": 81.9,
+   "bias_did_if_pass": 0.5894,
+   "rmse_did": 0.6116,
+   "rmse_trend": 0.2378,
+   "theory_bias": 0.6
+  },
+  {
+   "delta": 0.15,
+   "bias_did": 0.8974,
+   "sd_did": 0.1343,
+   "bias_trend": 0.0002,
+   "sd_trend": 0.2461,
+   "detect_pct": 98.9,
+   "bias_did_if_pass": 0.9092,
+   "rmse_did": 0.9074,
+   "rmse_trend": 0.2459,
+   "theory_bias": 0.9
+  }
+ ]
+}
