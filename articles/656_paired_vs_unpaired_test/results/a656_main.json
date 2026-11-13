@@ -1,0 +1,95 @@
+{
+ "stores": 40,
+ "reps": 3000,
+ "delta": 0.3,
+ "power": {
+  "0.0": {
+   "paired": 25.0,
+   "unpaired": 26.0
+  },
+  "0.2": {
+   "paired": 30.3,
+   "unpaired": 23.2
+  },
+  "0.4": {
+   "paired": 38.8,
+   "unpaired": 20.7
+  },
+  "0.5": {
+   "paired": 46.6,
+   "unpaired": 19.9
+  },
+  "0.6": {
+   "paired": 51.7,
+   "unpaired": 16.2
+  },
+  "0.7": {
+   "paired": 65.7,
+   "unpaired": 13.2
+  },
+  "0.8": {
+   "paired": 83.3,
+   "unpaired": 9.9
+  },
+  "0.9": {
+   "paired": 98.5,
+   "unpaired": 4.9
+  }
+ },
+ "false_positive_delta0": {
+  "0.0": {
+   "paired": 5.3,
+   "unpaired": 4.8
+  },
+  "0.2": {
+   "paired": 4.3,
+   "unpaired": 2.6
+  },
+  "0.4": {
+   "paired": 4.5,
+   "unpaired": 1.1
+  },
+  "0.5": {
+   "paired": 4.8,
+   "unpaired": 0.6
+  },
+  "0.6": {
+   "paired": 4.9,
+   "unpaired": 0.4
+  },
+  "0.7": {
+   "paired": 5.3,
+   "unpaired": 0.1
+  },
+  "0.8": {
+   "paired": 4.5,
+   "unpaired": 0.0
+  },
+  "0.9": {
+   "paired": 4.5,
+   "unpaired": 0.0
+  }
+ },
+ "ci_width_ratio_unpaired_over_paired": {
+  "0.0": 0.99,
+  "0.2": 1.1,
+  "0.4": 1.28,
+  "0.5": 1.39,
+  "0.6": 1.56,
+  "0.7": 1.8,
+  "0.8": 2.2,
+  "0.9": 3.1
+ },
+ "stores_needed_80pct_power": {
+  "0.5": {
+   "paired": 95,
+   "unpaired": 150
+  },
+  "0.8": {
+   "paired": 40,
+   "unpaired": 130
+  }
+ },
+ "example_p_paired": 0.0021,
+ "example_p_unpaired": 0.204
+}
