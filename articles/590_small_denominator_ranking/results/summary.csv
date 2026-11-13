@@ -1,0 +1,4 @@
+sd,n_small_cut,raw_small_top,raw_small_bot,raw_median_n_top,eb_small_top,eb_small_bot,eb_median_n_top,wilson_small_top,wilson_small_bot,wilson_median_n_top,raw_hit_top,raw_rho,eb_hit_top,eb_rho,wilson_hit_top,wilson_rho
+0.0,61.9532,0.7674,0.8972,38.8,0.0004,0.0022,2717.481,0.2394,0.9,424.877,,,,,,
+0.01,61.7128,0.7068,0.8872,44.022,0.002,0.0,1639.58,0.1516,0.8908,1064.643,0.1194,0.5214,0.3692,0.6265,0.3626,0.4274
+0.02,61.4668,0.5294,0.8638,75.3,0.0248,0.0,1066.327,0.092,0.855,1216.827,0.3502,0.7311,0.5428,0.789,0.5284,0.6407

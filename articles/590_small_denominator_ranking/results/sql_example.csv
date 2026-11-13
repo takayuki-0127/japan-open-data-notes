@@ -1,0 +1,2 @@
+overall_rate,outside_python,outside_duckdb,match,top10_median_visitors,bottom10_median_visitors,median_visitors_all
+0.05044275607266357,13,13,True,50.0,30.0,373.5
