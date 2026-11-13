@@ -1,0 +1,72 @@
+{
+ "ratio_digital_3m": 0.447,
+ "ratio_productX_3m": 0.546,
+ "true_digital_share_by_fy": {
+  "2022": 0.271,
+  "2023": 0.331,
+  "2024": 0.41
+ },
+ "growth_fy2025": {
+  "そのまま（当時の部署名）": {
+   "営業部": 1.3,
+   "企画部": -39.1,
+   "デジタル企画部": NaN,
+   "開発事業部": -55.4,
+   "サービス部": 107.6
+  },
+  "対応表で組み替え（直後3か月の比率）": {
+   "営業部": 1.3,
+   "企画部": 10.1,
+   "デジタル企画部": 24.9,
+   "開発事業部": -1.8,
+   "サービス部": 5.6
+  },
+  "正解（チーム単位で組み替え）": {
+   "営業部": 1.3,
+   "企画部": 3.1,
+   "デジタル企画部": 36.3,
+   "開発事業部": -5.7,
+   "サービス部": 7.4
+  }
+ },
+ "ratio_window": [
+  {
+   "months_used": 1,
+   "ratio_digital": 0.438,
+   "ratio_productX": 0.541,
+   "digital_fy2024_restated": 164.6,
+   "digital_growth": 27.4,
+   "service_growth": 6.1,
+   "dev_growth": -3.0
+  },
+  {
+   "months_used": 3,
+   "ratio_digital": 0.447,
+   "ratio_productX": 0.546,
+   "digital_fy2024_restated": 167.9,
+   "digital_growth": 24.9,
+   "service_growth": 5.6,
+   "dev_growth": -1.8
+  },
+  {
+   "months_used": 6,
+   "ratio_digital": 0.458,
+   "ratio_productX": 0.558,
+   "digital_fy2024_restated": 171.9,
+   "digital_growth": 22.0,
+   "service_growth": 4.5,
+   "dev_growth": 0.8
+  },
+  {
+   "months_used": 12,
+   "ratio_digital": 0.479,
+   "ratio_productX": 0.569,
+   "digital_fy2024_restated": 179.6,
+   "digital_growth": 16.7,
+   "service_growth": 3.5,
+   "dev_growth": 3.4
+  }
+ ],
+ "company_total_fy2025_growth": 3.95,
+ "sql_match": true
+}
