@@ -1,0 +1,80 @@
+{
+ "applications": 15000,
+ "history_rows": 57201,
+ "late_rows": 3322,
+ "late_rows_pct": 5.81,
+ "final_status_now": {
+  "承認": 7829,
+  "否認": 3517,
+  "取下げ": 2166,
+  "解約": 804,
+  "審査中": 419,
+  "保留": 209,
+  "受付": 56
+ },
+ "diff_vs_valid": {
+  "recorded": {
+   "in_review_diff_mean": 9.3,
+   "in_review_diff_min": -6,
+   "in_review_diff_max": 23,
+   "in_review_diff_pct_mean": 1.6,
+   "approved_diff_mean": -14.0,
+   "approved_diff_max_abs": 23
+  },
+  "current": {
+   "in_review_diff_mean": -542.0,
+   "in_review_diff_min": -649,
+   "in_review_diff_max": 0,
+   "in_review_diff_pct_mean": -93.9,
+   "approved_diff_mean": 160.6,
+   "approved_diff_max_abs": 289
+  }
+ },
+ "example_2024_12": {
+  "受付": {
+   "valid": 63,
+   "recorded": 76,
+   "current": 0
+  },
+  "審査中": {
+   "valid": 345,
+   "recorded": 357,
+   "current": 0
+  },
+  "保留": {
+   "valid": 213,
+   "recorded": 212,
+   "current": 0
+  },
+  "承認": {
+   "valid": 3835,
+   "recorded": 3818,
+   "current": 3913
+  },
+  "否認": {
+   "valid": 1694,
+   "recorded": 1690,
+   "current": 1850
+  },
+  "取下げ": {
+   "valid": 1010,
+   "recorded": 1007,
+   "current": 1107
+  },
+  "解約": {
+   "valid": 252,
+   "recorded": 252,
+   "current": 542
+  }
+ },
+ "mismatch_apps_mean_pct": {
+  "recorded": 1.3,
+  "current": 17.7
+ },
+ "mismatch_2024_12": {
+  "recorded": 49,
+  "current": 872,
+  "apps": 7412
+ },
+ "sql_python_match": true
+}
