@@ -1,0 +1,74 @@
+{
+ "n": 4000,
+ "base_hazard_per_month": 0.04,
+ "true_hr_by_period": {
+  "0-3": 3.0,
+  "3-12": 1.0,
+  "12-": 0.7
+ },
+ "follow36": {
+  "cox_hr": 1.264,
+  "cox_ci": [
+   1.171,
+   1.364
+  ],
+  "ph_test_p": 1.961171424112767e-38,
+  "events": 2668,
+  "by_period": {
+   "p0_3": {
+    "hr": 2.997,
+    "ci": [
+     2.575,
+     3.489
+    ],
+    "events": 838
+   },
+   "p12_": {
+    "hr": 0.73,
+    "ci": [
+     0.636,
+     0.838
+    ],
+    "events": 866
+   },
+   "p3_12": {
+    "hr": 1.027,
+    "ci": [
+     0.905,
+     1.166
+    ],
+    "events": 964
+   }
+  }
+ },
+ "by_follow": [
+  {
+   "follow_months": 6,
+   "hr_median": 2.393,
+   "hr_p10": 2.212,
+   "hr_p90": 2.593,
+   "ph_test_reject_pct": 100.0
+  },
+  {
+   "follow_months": 12,
+   "hr_median": 1.776,
+   "hr_p10": 1.665,
+   "hr_p90": 1.907,
+   "ph_test_reject_pct": 100.0
+  },
+  {
+   "follow_months": 24,
+   "hr_median": 1.39,
+   "hr_p10": 1.32,
+   "hr_p90": 1.484,
+   "ph_test_reject_pct": 100.0
+  },
+  {
+   "follow_months": 36,
+   "hr_median": 1.229,
+   "hr_p10": 1.178,
+   "hr_p90": 1.296,
+   "ph_test_reject_pct": 100.0
+  }
+ ]
+}
