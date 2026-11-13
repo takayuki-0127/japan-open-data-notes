@@ -1,0 +1,57 @@
+{
+ "note": "2024-12-31 に始まった勤務も含めて作り、集計は2025年の日付だけ",
+ "n_shifts": 10780,
+ "n_staff": 80,
+ "n_cross_midnight": 4016,
+ "cross_share_pct": 37.3,
+ "hours_total": 97819.8,
+ "hours_into_2026_when_split": 69.5,
+ "daily_diff": {
+  "mean_abs_h": 21.4,
+  "max_abs_h": 94.2,
+  "mean_abs_pct": 8.2,
+  "max_abs_pct": 45.4,
+  "n_days_abs_over_5pct": 225,
+  "corr_by_start_split": 0.877
+ },
+ "monthly_diff_h": {
+  "2025-01": -12.75,
+  "2025-02": -14.5,
+  "2025-03": 22.75,
+  "2025-04": 0.25,
+  "2025-05": -21.75,
+  "2025-06": 28.25,
+  "2025-07": -11.25,
+  "2025-08": 6.0,
+  "2025-09": 0.25,
+  "2025-10": -10.0,
+  "2025-11": 53.5,
+  "2025-12": -27.25
+ },
+ "monthly_diff_pct_range": [
+  -0.322,
+  0.684
+ ],
+ "weekday_diff_pct": {
+  "月": -1.5,
+  "火": 1.4,
+  "水": 0.7,
+  "木": -0.8,
+  "金": -0.8,
+  "土": 1.2,
+  "日": 0.4
+ },
+ "time_only": {
+  "n_negative": 4016,
+  "naive_total_h": 1435.8,
+  "fixed_total_h": 97819.8,
+  "naive_vs_true_pct": -98.5,
+  "fixed_matches": true,
+  "night_shift_naive_hours_example": [
+   -16.0,
+   -15.75,
+   -15.5
+  ]
+ },
+ "sql_match_python": true
+}
