@@ -1,0 +1,106 @@
+{
+ "seed": 519,
+ "alpha": 0.05,
+ "reps": 20000,
+ "n_for_80pct_power": {
+  "0.005": 313953,
+  "0.01": 78487,
+  "0.02": 19620,
+  "0.05": 3138
+ },
+ "raw_check_n100000_rho001": {
+  "reps": 500,
+  "sig_rate": 0.9,
+  "formula": 0.8854
+ },
+ "one_run_n1e6_rho001": {
+  "r": 0.00946,
+  "p": 3.03e-21,
+  "r2_pct": 0.009,
+  "decile_mean_low": -0.0127,
+  "decile_mean_high": 0.0184,
+  "decile_sd": 1.0
+ },
+ "key": {
+  "rho0_n1000": {
+   "power_sim": 0.0469,
+   "power_formula": 0.05,
+   "ci95_width": 0.12399
+  },
+  "rho0_n10000": {
+   "power_sim": 0.0481,
+   "power_formula": 0.05,
+   "ci95_width": 0.0392
+  },
+  "rho0_n100000": {
+   "power_sim": 0.051,
+   "power_formula": 0.05,
+   "ci95_width": 0.0124
+  },
+  "rho0_n1000000": {
+   "power_sim": 0.0523,
+   "power_formula": 0.05,
+   "ci95_width": 0.00392
+  },
+  "rho0.005_n1000": {
+   "power_sim": 0.0505,
+   "power_formula": 0.0529,
+   "ci95_width": 0.12398
+  },
+  "rho0.005_n10000": {
+   "power_sim": 0.0752,
+   "power_formula": 0.0791,
+   "ci95_width": 0.0392
+  },
+  "rho0.005_n100000": {
+   "power_sim": 0.3548,
+   "power_formula": 0.3526,
+   "ci95_width": 0.0124
+  },
+  "rho0.005_n1000000": {
+   "power_sim": 0.9994,
+   "power_formula": 0.9988,
+   "ci95_width": 0.00392
+  },
+  "rho0.01_n1000": {
+   "power_sim": 0.0568,
+   "power_formula": 0.0615,
+   "ci95_width": 0.12397
+  },
+  "rho0.01_n10000": {
+   "power_sim": 0.1686,
+   "power_formula": 0.17,
+   "ci95_width": 0.0392
+  },
+  "rho0.01_n100000": {
+   "power_sim": 0.8871,
+   "power_formula": 0.8854,
+   "ci95_width": 0.01239
+  },
+  "rho0.01_n1000000": {
+   "power_sim": 1.0,
+   "power_formula": 1.0,
+   "ci95_width": 0.00392
+  },
+  "rho0.02_n1000": {
+   "power_sim": 0.0985,
+   "power_formula": 0.0968,
+   "ci95_width": 0.12394
+  },
+  "rho0.02_n10000": {
+   "power_sim": 0.5228,
+   "power_formula": 0.516,
+   "ci95_width": 0.03918
+  },
+  "rho0.02_n100000": {
+   "power_sim": 1.0,
+   "power_formula": 1.0,
+   "ci95_width": 0.01239
+  },
+  "rho0.02_n1000000": {
+   "power_sim": 1.0,
+   "power_formula": 1.0,
+   "ci95_width": 0.00392
+  }
+ }
+}
