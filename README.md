@@ -302,7 +302,7 @@
 | 095 | [就業者は13年で550万人増えた。増えたのは女性と65歳以上で、人口が減る分を「働く人の割合」が912万人押し上げた](articles/095_employment_growth) | 就業者の増加を「人口」と「働く人の割合」に要因分解 |
 | 137 | [市区町村の歳出の4割は福祉（民生費）。12年で1.5倍になり、伸びが大きかったのは子どもと障害者福祉など](articles/137_welfare_spending) | e-Stat の CSV から必要な行を抜き出して表を作るところからコード化 |
 
-## 記事の一覧（498本）
+## 記事の一覧（503本）
 | # | 記事のタイトル | フォルダ |
 |---|---|---|
 | 000 | 女性の労働力率は何で決まる？ 全国1,739市区町村の公開データで調べてみた | [000_women_labor](articles/000_women_labor) |
@@ -803,6 +803,11 @@
 | 503 | ログのセッションを何分空いたら切るかで、セッション数と1回あたりの滞在はどれだけ変わるのか？ 架空のログで5分なら本当の訪問の1.43倍、120分なら0.89倍 | [503_session_timeout_definitions](articles/503_session_timeout_definitions) |
 | 504 | 取消された注文を残したまま初回購入月を決めると、新規顧客の数は何%多く出るのか？ 架空の会員2万人の2024年2月〜2025年12月で6.3% | [504_first_purchase_month_cancellations](articles/504_first_purchase_month_cancellations) |
 | 505 | 定期便の次回のお届け日を「30日後」と「毎月同じ日」で決めると、1年の出荷回数と月の出荷数はどれだけ違うのか？ 架空の会員5,000人の2026年で出荷は1.2%多く、2月は6%少ない | [505_subscription_next_delivery_rules](articles/505_subscription_next_delivery_rules) |
+| 506 | 事故の件数と1件あたりの額が一緒に動くとき、別々に見積もった年間損害の「200年に1度」はどれだけ小さく出るのか？ 架空の例で1.08億円が0.76億円に | [506_freq_severity_dependence](articles/506_freq_severity_dependence) |
+| 507 | 生命表の死亡率を「1年に死亡する確率」と「死亡の速さ」で取り違えると、年金の現価はどれだけずれるのか？ 令和6年簡易生命表で65歳から約1%、90歳から5〜7.5% | [507_qx_mx_confusion_annuity](articles/507_qx_mx_confusion_annuity) |
+| 508 | 同じ事故の複数の請求を別々の損害として数えると、大きな損害の層の見積もりはどれだけずれるのか？ 架空の事故2,028件で件数1.9倍、層の期待損害は3分の1 | [508_claims_per_event_count_unit](articles/508_claims_per_event_count_unit) |
+| 509 | 起きる割合が学習のときから変わると、0.5で切る予測は何件を見逃すのか？ 学習1%→本番5%の架空の例で4,966件中3,801件 | [509_prior_shift_threshold](articles/509_prior_shift_threshold) |
+| 510 | 同じ検証データで2つのモデルを比べると、本当は同じ力でも何%の回で「片方が良い」と出るのか？ 検証1,000件で97%、組で見た区間では5% | [510_same_validation_model_tie](articles/510_same_validation_model_tie) |
 
 ## 共通の方針
 - データは e-Stat などの公開データだけを使い、出典は各フォルダの README に書いています（政府標準利用規約 第2.0版などに沿って「〇〇をもとに作成者が加工して作成」）
