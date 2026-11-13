@@ -1,0 +1,79 @@
+{
+ "stores": 40,
+ "respondents_per_store": 300,
+ "compare": {
+  "mean_vs_top2": {
+   "spearman": 0.958,
+   "moved_5plus": 7,
+   "moved_10plus": 0,
+   "max_move": 7,
+   "top5_overlap": 5,
+   "bottom5_overlap": 2
+  },
+  "mean_vs_bottom2": {
+   "spearman": 0.685,
+   "moved_5plus": 24,
+   "moved_10plus": 16,
+   "max_move": 18,
+   "top5_overlap": 2,
+   "bottom5_overlap": 4
+  },
+  "top2_vs_bottom2": {
+   "spearman": 0.558,
+   "moved_5plus": 30,
+   "moved_10plus": 16,
+   "max_move": 25,
+   "top5_overlap": 2,
+   "bottom5_overlap": 1
+  }
+ },
+ "pairs_same_mean_diff_top2": 12,
+ "example_pair": {
+  "T02": {
+   "mean": 2.963,
+   "top2": 14.7,
+   "bottom2": 17.7,
+   "dist": [
+    0.7,
+    17.0,
+    67.7,
+    14.7,
+    0.0
+   ]
+  },
+  "T12": {
+   "mean": 3.0,
+   "top2": 38.7,
+   "bottom2": 35.3,
+   "dist": [
+    21.3,
+    14.0,
+    26.0,
+    20.7,
+    18.0
+   ]
+  }
+ },
+ "by_spread": [
+  {
+   "sd": 0.5,
+   "stores": 13.0,
+   "rank_diff_mean_minus_top2": -1.54
+  },
+  {
+   "sd": 0.8,
+   "stores": 7.0,
+   "rank_diff_mean_minus_top2": -1.14
+  },
+  {
+   "sd": 1.2,
+   "stores": 7.0,
+   "rank_diff_mean_minus_top2": -0.14
+  },
+  {
+   "sd": 1.7,
+   "stores": 13.0,
+   "rank_diff_mean_minus_top2": 2.69
+  }
+ ]
+}

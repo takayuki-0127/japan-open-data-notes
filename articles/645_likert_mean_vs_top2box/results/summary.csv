@@ -1,0 +1,4 @@
+,spearman,moved_5plus,moved_10plus,max_move,top5_overlap,bottom5_overlap
+mean_vs_top2,0.958,7.0,0.0,7.0,5.0,2.0
+mean_vs_bottom2,0.685,24.0,16.0,18.0,2.0,4.0
+top2_vs_bottom2,0.558,30.0,16.0,25.0,2.0,1.0
