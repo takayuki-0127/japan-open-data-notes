@@ -1,0 +1,86 @@
+{
+ "n_stores": 50,
+ "example": [
+  {
+   "method": "simple_mean",
+   "year1": 0.29504,
+   "year2": 0.29363,
+   "change_pt": -0.14129
+  },
+  {
+   "method": "median",
+   "year1": 0.28553,
+   "year2": 0.28602,
+   "change_pt": 0.04928
+  },
+  {
+   "method": "weighted_by_visitors",
+   "year1": 0.26706,
+   "year2": 0.26857,
+   "change_pt": 0.15131
+  },
+  {
+   "method": "ratio_of_totals",
+   "year1": 0.26706,
+   "year2": 0.26857,
+   "change_pt": 0.15131
+  }
+ ],
+ "n_stores_up": 20,
+ "top10_visitor_share": 0.41825837175380093,
+ "sql_matches_python": true,
+ "gap": [
+  {
+   "b": 0.0,
+   "median": 0.0007,
+   "p05": -0.5256,
+   "p95": 0.5287
+  },
+  {
+   "b": 0.01,
+   "median": 0.9253,
+   "p05": 0.4085,
+   "p95": 1.5941
+  },
+  {
+   "b": 0.02,
+   "median": 1.8504,
+   "p05": 1.251,
+   "p95": 2.8587
+  },
+  {
+   "b": 0.04,
+   "median": 3.6767,
+   "p05": 2.8058,
+   "p95": 5.3689
+  },
+  {
+   "b": 0.06,
+   "median": 5.5695,
+   "p05": 4.2449,
+   "p95": 7.863
+  }
+ ],
+ "flip": [
+  {
+   "c": 0.0,
+   "flip_share": 0.0995,
+   "diff_median_pt": 0.1047
+  },
+  {
+   "c": 0.0025,
+   "flip_share": 0.167,
+   "diff_median_pt": 0.231
+  },
+  {
+   "c": 0.005,
+   "flip_share": 0.3045,
+   "diff_median_pt": 0.4624
+  },
+  {
+   "c": 0.01,
+   "flip_share": 0.445,
+   "diff_median_pt": 0.9115
+  }
+ ]
+}
