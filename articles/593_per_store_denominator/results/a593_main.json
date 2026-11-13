@@ -1,0 +1,62 @@
+{
+ "n_stores_total": 120,
+ "n_opened_in_period": 40,
+ "n_closed_in_period": 25,
+ "store_days_total": 95155,
+ "n_rows": 95155,
+ "dev_vs_open_days_pct": {
+  "end": {
+   "min": -9.0,
+   "max": 9.0,
+   "median_abs": 0.53,
+   "n_months_abs_over_2": 2
+  },
+  "avg": {
+   "min": -3.1,
+   "max": 4.3,
+   "median_abs": 0.14,
+   "n_months_abs_over_2": 2
+  }
+ },
+ "oct2024_batch_open_12": {
+  "stores_end": 98,
+  "stores_begin": 86,
+  "dev_end": -9.0,
+  "dev_avg": -3.1
+ },
+ "mar2025_batch_close_8": {
+  "stores_end": 89,
+  "dev_end": 9.0,
+  "dev_avg": 4.3
+ },
+ "yoy_gap_vs_open_days_pt": {
+  "end": {
+   "max_abs": 10.2,
+   "median_abs": 0.79
+  },
+  "avg": {
+   "max_abs": 3.8,
+   "median_abs": 0.44
+  }
+ },
+ "yoy_sign_differs_from_open_days": {
+  "end": 4,
+  "avg": 3,
+  "n_months": 24
+ },
+ "yoy_oct2025": {
+  "end": 11.2,
+  "avg": 4.3,
+  "days": 1.0
+ },
+ "yoy_apr2025": {
+  "end": 0.1,
+  "avg": 0.7,
+  "days": 0.1
+ },
+ "year_total_per_store_2025": {
+  "end_dec": 11775.0,
+  "store_days": 11956.0
+ },
+ "sql_match_python": true
+}
