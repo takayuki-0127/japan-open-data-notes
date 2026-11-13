@@ -1,0 +1,692 @@
+{
+ "summary": [
+  {
+   "n": 100,
+   "method": "M1",
+   "kind": "効かない",
+   "mean_est": 0.0003,
+   "cover": 0.949,
+   "n_kept": 15000,
+   "keep_rate": 1.0,
+   "true": 0.0,
+   "ratio_to_true": NaN,
+   "mean_abs_est": 0.1059
+  },
+  {
+   "n": 100,
+   "method": "M1",
+   "kind": "弱い",
+   "mean_est": 0.147,
+   "cover": 0.945,
+   "n_kept": 3000,
+   "keep_rate": 1.0,
+   "true": 0.15,
+   "ratio_to_true": 0.9799,
+   "mean_abs_est": 0.1655
+  },
+  {
+   "n": 100,
+   "method": "M1",
+   "kind": "強い",
+   "mean_est": 0.4029,
+   "cover": 0.9545,
+   "n_kept": 2000,
+   "keep_rate": 1.0,
+   "true": 0.4,
+   "ratio_to_true": 1.0073,
+   "mean_abs_est": 0.4031
+  },
+  {
+   "n": 100,
+   "method": "M2",
+   "kind": "効かない",
+   "mean_est": 0.0486,
+   "cover": 0.3542,
+   "n_kept": 765,
+   "keep_rate": 0.051,
+   "true": 0.0,
+   "ratio_to_true": NaN,
+   "mean_abs_est": 0.2552
+  },
+  {
+   "n": 100,
+   "method": "M2",
+   "kind": "弱い",
+   "mean_est": 0.3436,
+   "cover": 0.6304,
+   "n_kept": 598,
+   "keep_rate": 0.1993,
+   "true": 0.15,
+   "ratio_to_true": 2.2907,
+   "mean_abs_est": 0.3457
+  },
+  {
+   "n": 100,
+   "method": "M2",
+   "kind": "強い",
+   "mean_est": 0.4899,
+   "cover": 0.8604,
+   "n_kept": 1705,
+   "keep_rate": 0.8525,
+   "true": 0.4,
+   "ratio_to_true": 1.2247,
+   "mean_abs_est": 0.4899
+  },
+  {
+   "n": 100,
+   "method": "M3",
+   "kind": "効かない",
+   "mean_est": 0.0946,
+   "cover": 0.0,
+   "n_kept": 1018,
+   "keep_rate": 0.0679,
+   "true": 0.0,
+   "ratio_to_true": NaN,
+   "mean_abs_est": 0.2768
+  },
+  {
+   "n": 100,
+   "method": "M3",
+   "kind": "弱い",
+   "mean_est": 0.3038,
+   "cover": 0.8195,
+   "n_kept": 903,
+   "keep_rate": 0.301,
+   "true": 0.15,
+   "ratio_to_true": 2.0252,
+   "mean_abs_est": 0.3057
+  },
+  {
+   "n": 100,
+   "method": "M3",
+   "kind": "強い",
+   "mean_est": 0.4415,
+   "cover": 0.9253,
+   "n_kept": 1874,
+   "keep_rate": 0.937,
+   "true": 0.4,
+   "ratio_to_true": 1.1037,
+   "mean_abs_est": 0.4415
+  },
+  {
+   "n": 100,
+   "method": "M4",
+   "kind": "効かない",
+   "mean_est": 0.1484,
+   "cover": 0.8439,
+   "n_kept": 788,
+   "keep_rate": 0.0525,
+   "true": 0.0,
+   "ratio_to_true": NaN,
+   "mean_abs_est": 0.1962
+  },
+  {
+   "n": 100,
+   "method": "M4",
+   "kind": "弱い",
+   "mean_est": 0.3103,
+   "cover": 0.8295,
+   "n_kept": 305,
+   "keep_rate": 0.1017,
+   "true": 0.15,
+   "ratio_to_true": 2.0687,
+   "mean_abs_est": 0.3161
+  },
+  {
+   "n": 100,
+   "method": "M4",
+   "kind": "強い",
+   "mean_est": 0.5346,
+   "cover": 0.843,
+   "n_kept": 911,
+   "keep_rate": 0.4555,
+   "true": 0.4,
+   "ratio_to_true": 1.3366,
+   "mean_abs_est": 0.535
+  },
+  {
+   "n": 300,
+   "method": "M1",
+   "kind": "効かない",
+   "mean_est": -0.0,
+   "cover": 0.9473,
+   "n_kept": 15000,
+   "keep_rate": 1.0,
+   "true": 0.0,
+   "ratio_to_true": NaN,
+   "mean_abs_est": 0.0568
+  },
+  {
+   "n": 300,
+   "method": "M1",
+   "kind": "弱い",
+   "mean_est": 0.1491,
+   "cover": 0.9463,
+   "n_kept": 3000,
+   "keep_rate": 1.0,
+   "true": 0.15,
+   "ratio_to_true": 0.9942,
+   "mean_abs_est": 0.15
+  },
+  {
+   "n": 300,
+   "method": "M1",
+   "kind": "強い",
+   "mean_est": 0.4009,
+   "cover": 0.9525,
+   "n_kept": 2000,
+   "keep_rate": 1.0,
+   "true": 0.4,
+   "ratio_to_true": 1.0022,
+   "mean_abs_est": 0.4009
+  },
+  {
+   "n": 300,
+   "method": "M2",
+   "kind": "効かない",
+   "mean_est": 0.0166,
+   "cover": 0.2693,
+   "n_kept": 791,
+   "keep_rate": 0.0527,
+   "true": 0.0,
+   "ratio_to_true": NaN,
+   "mean_abs_est": 0.1495
+  },
+  {
+   "n": 300,
+   "method": "M2",
+   "kind": "弱い",
+   "mean_est": 0.204,
+   "cover": 0.9098,
+   "n_kept": 1708,
+   "keep_rate": 0.5693,
+   "true": 0.15,
+   "ratio_to_true": 1.3597,
+   "mean_abs_est": 0.204
+  },
+  {
+   "n": 300,
+   "method": "M2",
+   "kind": "強い",
+   "mean_est": 0.4208,
+   "cover": 0.9055,
+   "n_kept": 2000,
+   "keep_rate": 1.0,
+   "true": 0.4,
+   "ratio_to_true": 1.0521,
+   "mean_abs_est": 0.4208
+  },
+  {
+   "n": 300,
+   "method": "M3",
+   "kind": "効かない",
+   "mean_est": 0.037,
+   "cover": 0.0,
+   "n_kept": 953,
+   "keep_rate": 0.0635,
+   "true": 0.0,
+   "ratio_to_true": NaN,
+   "mean_abs_est": 0.1562
+  },
+  {
+   "n": 300,
+   "method": "M3",
+   "kind": "弱い",
+   "mean_est": 0.1933,
+   "cover": 0.9388,
+   "n_kept": 1945,
+   "keep_rate": 0.6483,
+   "true": 0.15,
+   "ratio_to_true": 1.2889,
+   "mean_abs_est": 0.1933
+  },
+  {
+   "n": 300,
+   "method": "M3",
+   "kind": "強い",
+   "mean_est": 0.4093,
+   "cover": 0.93,
+   "n_kept": 2000,
+   "keep_rate": 1.0,
+   "true": 0.4,
+   "ratio_to_true": 1.0231,
+   "mean_abs_est": 0.4093
+  },
+  {
+   "n": 300,
+   "method": "M4",
+   "kind": "効かない",
+   "mean_est": 0.0553,
+   "cover": 0.8933,
+   "n_kept": 806,
+   "keep_rate": 0.0537,
+   "true": 0.0,
+   "ratio_to_true": NaN,
+   "mean_abs_est": 0.0928
+  },
+  {
+   "n": 300,
+   "method": "M4",
+   "kind": "弱い",
+   "mean_est": 0.1896,
+   "cover": 0.9149,
+   "n_kept": 928,
+   "keep_rate": 0.3093,
+   "true": 0.15,
+   "ratio_to_true": 1.2639,
+   "mean_abs_est": 0.192
+  },
+  {
+   "n": 300,
+   "method": "M4",
+   "kind": "強い",
+   "mean_est": 0.4575,
+   "cover": 0.8853,
+   "n_kept": 1927,
+   "keep_rate": 0.9635,
+   "true": 0.4,
+   "ratio_to_true": 1.1438,
+   "mean_abs_est": 0.4575
+  },
+  {
+   "n": 1000,
+   "method": "M1",
+   "kind": "効かない",
+   "mean_est": -0.0001,
+   "cover": 0.9494,
+   "n_kept": 15000,
+   "keep_rate": 1.0,
+   "true": 0.0,
+   "ratio_to_true": NaN,
+   "mean_abs_est": 0.0298
+  },
+  {
+   "n": 1000,
+   "method": "M1",
+   "kind": "弱い",
+   "mean_est": 0.1508,
+   "cover": 0.951,
+   "n_kept": 3000,
+   "keep_rate": 1.0,
+   "true": 0.15,
+   "ratio_to_true": 1.005,
+   "mean_abs_est": 0.1508
+  },
+  {
+   "n": 1000,
+   "method": "M1",
+   "kind": "強い",
+   "mean_est": 0.4007,
+   "cover": 0.951,
+   "n_kept": 2000,
+   "keep_rate": 1.0,
+   "true": 0.4,
+   "ratio_to_true": 1.0017,
+   "mean_abs_est": 0.4007
+  },
+  {
+   "n": 1000,
+   "method": "M2",
+   "kind": "効かない",
+   "mean_est": 0.0041,
+   "cover": 0.2332,
+   "n_kept": 759,
+   "keep_rate": 0.0506,
+   "true": 0.0,
+   "ratio_to_true": NaN,
+   "mean_abs_est": 0.0812
+  },
+  {
+   "n": 1000,
+   "method": "M2",
+   "kind": "弱い",
+   "mean_est": 0.152,
+   "cover": 0.96,
+   "n_kept": 2949,
+   "keep_rate": 0.983,
+   "true": 0.15,
+   "ratio_to_true": 1.0134,
+   "mean_abs_est": 0.152
+  },
+  {
+   "n": 1000,
+   "method": "M2",
+   "kind": "強い",
+   "mean_est": 0.4005,
+   "cover": 0.941,
+   "n_kept": 2000,
+   "keep_rate": 1.0,
+   "true": 0.4,
+   "ratio_to_true": 1.0012,
+   "mean_abs_est": 0.4005
+  },
+  {
+   "n": 1000,
+   "method": "M3",
+   "kind": "効かない",
+   "mean_est": 0.0031,
+   "cover": 0.0,
+   "n_kept": 800,
+   "keep_rate": 0.0533,
+   "true": 0.0,
+   "ratio_to_true": NaN,
+   "mean_abs_est": 0.0837
+  },
+  {
+   "n": 1000,
+   "method": "M3",
+   "kind": "弱い",
+   "mean_est": 0.1517,
+   "cover": 0.9568,
+   "n_kept": 2963,
+   "keep_rate": 0.9877,
+   "true": 0.15,
+   "ratio_to_true": 1.0111,
+   "mean_abs_est": 0.1517
+  },
+  {
+   "n": 1000,
+   "method": "M3",
+   "kind": "強い",
+   "mean_est": 0.4004,
+   "cover": 0.944,
+   "n_kept": 2000,
+   "keep_rate": 1.0,
+   "true": 0.4,
+   "ratio_to_true": 1.001,
+   "mean_abs_est": 0.4004
+  },
+  {
+   "n": 1000,
+   "method": "M4",
+   "kind": "効かない",
+   "mean_est": 0.0117,
+   "cover": 0.9281,
+   "n_kept": 751,
+   "keep_rate": 0.0501,
+   "true": 0.0,
+   "ratio_to_true": NaN,
+   "mean_abs_est": 0.0446
+  },
+  {
+   "n": 1000,
+   "method": "M4",
+   "kind": "弱い",
+   "mean_est": 0.1595,
+   "cover": 0.9362,
+   "n_kept": 2431,
+   "keep_rate": 0.8103,
+   "true": 0.15,
+   "ratio_to_true": 1.0633,
+   "mean_abs_est": 0.1595
+  },
+  {
+   "n": 1000,
+   "method": "M4",
+   "kind": "強い",
+   "mean_est": 0.4126,
+   "cover": 0.931,
+   "n_kept": 2000,
+   "keep_rate": 1.0,
+   "true": 0.4,
+   "ratio_to_true": 1.0314,
+   "mean_abs_est": 0.4126
+  }
+ ],
+ "summary_rho0": [
+  {
+   "n": 100,
+   "method": "M1",
+   "kind": "効かない",
+   "mean_est": -0.001,
+   "cover": 0.951,
+   "keep_rate": 1.0
+  },
+  {
+   "n": 100,
+   "method": "M1",
+   "kind": "弱い",
+   "mean_est": 0.1481,
+   "cover": 0.95,
+   "keep_rate": 1.0
+  },
+  {
+   "n": 100,
+   "method": "M1",
+   "kind": "強い",
+   "mean_est": 0.4014,
+   "cover": 0.9455,
+   "keep_rate": 1.0
+  },
+  {
+   "n": 100,
+   "method": "M2",
+   "kind": "効かない",
+   "mean_est": -0.0015,
+   "cover": 0.249,
+   "keep_rate": 0.049
+  },
+  {
+   "n": 100,
+   "method": "M2",
+   "kind": "弱い",
+   "mean_est": 0.2682,
+   "cover": 0.8882,
+   "keep_rate": 0.2563
+  },
+  {
+   "n": 100,
+   "method": "M2",
+   "kind": "強い",
+   "mean_est": 0.4147,
+   "cover": 0.9518,
+   "keep_rate": 0.9435
+  },
+  {
+   "n": 100,
+   "method": "M3",
+   "kind": "効かない",
+   "mean_est": 0.0079,
+   "cover": 0.0,
+   "keep_rate": 0.0623
+  },
+  {
+   "n": 100,
+   "method": "M3",
+   "kind": "弱い",
+   "mean_est": 0.2672,
+   "cover": 0.9048,
+   "keep_rate": 0.3117
+  },
+  {
+   "n": 100,
+   "method": "M3",
+   "kind": "強い",
+   "mean_est": 0.4109,
+   "cover": 0.9492,
+   "keep_rate": 0.965
+  },
+  {
+   "n": 100,
+   "method": "M4",
+   "kind": "効かない",
+   "mean_est": 0.0083,
+   "cover": 0.9394,
+   "keep_rate": 0.0495
+  },
+  {
+   "n": 100,
+   "method": "M4",
+   "kind": "弱い",
+   "mean_est": 0.1443,
+   "cover": 0.9361,
+   "keep_rate": 0.12
+  },
+  {
+   "n": 100,
+   "method": "M4",
+   "kind": "強い",
+   "mean_est": 0.4035,
+   "cover": 0.9485,
+   "keep_rate": 0.553
+  },
+  {
+   "n": 300,
+   "method": "M1",
+   "kind": "効かない",
+   "mean_est": -0.0004,
+   "cover": 0.9533,
+   "keep_rate": 1.0
+  },
+  {
+   "n": 300,
+   "method": "M1",
+   "kind": "弱い",
+   "mean_est": 0.1492,
+   "cover": 0.9527,
+   "keep_rate": 1.0
+  },
+  {
+   "n": 300,
+   "method": "M1",
+   "kind": "強い",
+   "mean_est": 0.4021,
+   "cover": 0.953,
+   "keep_rate": 1.0
+  },
+  {
+   "n": 300,
+   "method": "M2",
+   "kind": "効かない",
+   "mean_est": -0.005,
+   "cover": 0.1655,
+   "keep_rate": 0.0467
+  },
+  {
+   "n": 300,
+   "method": "M2",
+   "kind": "弱い",
+   "mean_est": 0.1781,
+   "cover": 0.9649,
+   "keep_rate": 0.703
+  },
+  {
+   "n": 300,
+   "method": "M2",
+   "kind": "強い",
+   "mean_est": 0.4019,
+   "cover": 0.9525,
+   "keep_rate": 1.0
+  },
+  {
+   "n": 300,
+   "method": "M3",
+   "kind": "効かない",
+   "mean_est": -0.0042,
+   "cover": 0.0,
+   "keep_rate": 0.049
+  },
+  {
+   "n": 300,
+   "method": "M3",
+   "kind": "弱い",
+   "mean_est": 0.1762,
+   "cover": 0.9672,
+   "keep_rate": 0.7313
+  },
+  {
+   "n": 300,
+   "method": "M3",
+   "kind": "強い",
+   "mean_est": 0.4019,
+   "cover": 0.951,
+   "keep_rate": 1.0
+  },
+  {
+   "n": 300,
+   "method": "M4",
+   "kind": "効かない",
+   "mean_est": -0.0027,
+   "cover": 0.9525,
+   "keep_rate": 0.0477
+  },
+  {
+   "n": 300,
+   "method": "M4",
+   "kind": "弱い",
+   "mean_est": 0.1501,
+   "cover": 0.9481,
+   "keep_rate": 0.3917
+  },
+  {
+   "n": 300,
+   "method": "M4",
+   "kind": "強い",
+   "mean_est": 0.4036,
+   "cover": 0.9447,
+   "keep_rate": 0.994
+  }
+ ],
+ "any_null_kept": [
+  {
+   "n": 100,
+   "method": "M1",
+   "share_any_null_kept": 1.0
+  },
+  {
+   "n": 100,
+   "method": "M2",
+   "share_any_null_kept": 0.515
+  },
+  {
+   "n": 100,
+   "method": "M3",
+   "share_any_null_kept": 0.626
+  },
+  {
+   "n": 100,
+   "method": "M4",
+   "share_any_null_kept": 0.484
+  },
+  {
+   "n": 300,
+   "method": "M1",
+   "share_any_null_kept": 1.0
+  },
+  {
+   "n": 300,
+   "method": "M2",
+   "share_any_null_kept": 0.559
+  },
+  {
+   "n": 300,
+   "method": "M3",
+   "share_any_null_kept": 0.626
+  },
+  {
+   "n": 300,
+   "method": "M4",
+   "share_any_null_kept": 0.533
+  },
+  {
+   "n": 1000,
+   "method": "M1",
+   "share_any_null_kept": 1.0
+  },
+  {
+   "n": 1000,
+   "method": "M2",
+   "share_any_null_kept": 0.543
+  },
+  {
+   "n": 1000,
+   "method": "M3",
+   "share_any_null_kept": 0.548
+  },
+  {
+   "n": 1000,
+   "method": "M4",
+   "share_any_null_kept": 0.536
+  }
+ ]
+}
