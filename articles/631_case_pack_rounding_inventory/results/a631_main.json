@@ -1,0 +1,253 @@
+{
+ "days": 730,
+ "review_days": 7,
+ "lead_days": 2,
+ "reps": 20,
+ "service_target": 0.95,
+ "results": [
+  {
+   "mu": 5,
+   "case": 1,
+   "min_cases": 1,
+   "inv_days": 6.193,
+   "stockout_pct": 0.0258,
+   "extra_days": 0.0,
+   "approx_extra_days": 0.0
+  },
+  {
+   "mu": 5,
+   "case": 6,
+   "min_cases": 1,
+   "inv_days": 6.7107,
+   "stockout_pct": 0.026,
+   "extra_days": 0.5177,
+   "approx_extra_days": 0.5
+  },
+  {
+   "mu": 5,
+   "case": 6,
+   "min_cases": 2,
+   "inv_days": 6.7013,
+   "stockout_pct": 0.037,
+   "extra_days": 0.5083,
+   "approx_extra_days": 0.5
+  },
+  {
+   "mu": 5,
+   "case": 12,
+   "min_cases": 1,
+   "inv_days": 7.2989,
+   "stockout_pct": 0.0124,
+   "extra_days": 1.1058,
+   "approx_extra_days": 1.1
+  },
+  {
+   "mu": 5,
+   "case": 12,
+   "min_cases": 2,
+   "inv_days": 7.3775,
+   "stockout_pct": 0.0013,
+   "extra_days": 1.1845,
+   "approx_extra_days": 1.1
+  },
+  {
+   "mu": 5,
+   "case": 24,
+   "min_cases": 1,
+   "inv_days": 8.495,
+   "stockout_pct": 0.0027,
+   "extra_days": 2.302,
+   "approx_extra_days": 2.3
+  },
+  {
+   "mu": 5,
+   "case": 24,
+   "min_cases": 2,
+   "inv_days": 10.8577,
+   "stockout_pct": 0.0122,
+   "extra_days": 4.6647,
+   "approx_extra_days": 2.3
+  },
+  {
+   "mu": 5,
+   "case": 48,
+   "min_cases": 1,
+   "inv_days": 10.8833,
+   "stockout_pct": 0.0056,
+   "extra_days": 4.6903,
+   "approx_extra_days": 4.7
+  },
+  {
+   "mu": 5,
+   "case": 48,
+   "min_cases": 2,
+   "inv_days": 15.7797,
+   "stockout_pct": 0.0,
+   "extra_days": 9.5867,
+   "approx_extra_days": 4.7
+  },
+  {
+   "mu": 20,
+   "case": 1,
+   "min_cases": 1,
+   "inv_days": 5.1131,
+   "stockout_pct": 0.0,
+   "extra_days": 0.0,
+   "approx_extra_days": 0.0
+  },
+  {
+   "mu": 20,
+   "case": 6,
+   "min_cases": 1,
+   "inv_days": 5.2235,
+   "stockout_pct": 0.0007,
+   "extra_days": 0.1104,
+   "approx_extra_days": 0.125
+  },
+  {
+   "mu": 20,
+   "case": 6,
+   "min_cases": 2,
+   "inv_days": 5.2384,
+   "stockout_pct": 0.001,
+   "extra_days": 0.1253,
+   "approx_extra_days": 0.125
+  },
+  {
+   "mu": 20,
+   "case": 12,
+   "min_cases": 1,
+   "inv_days": 5.3931,
+   "stockout_pct": 0.0,
+   "extra_days": 0.28,
+   "approx_extra_days": 0.275
+  },
+  {
+   "mu": 20,
+   "case": 12,
+   "min_cases": 2,
+   "inv_days": 5.3888,
+   "stockout_pct": 0.0014,
+   "extra_days": 0.2757,
+   "approx_extra_days": 0.275
+  },
+  {
+   "mu": 20,
+   "case": 24,
+   "min_cases": 1,
+   "inv_days": 5.6692,
+   "stockout_pct": 0.0,
+   "extra_days": 0.5562,
+   "approx_extra_days": 0.575
+  },
+  {
+   "mu": 20,
+   "case": 24,
+   "min_cases": 2,
+   "inv_days": 5.6856,
+   "stockout_pct": 0.0,
+   "extra_days": 0.5726,
+   "approx_extra_days": 0.575
+  },
+  {
+   "mu": 20,
+   "case": 48,
+   "min_cases": 1,
+   "inv_days": 6.2711,
+   "stockout_pct": 0.0,
+   "extra_days": 1.158,
+   "approx_extra_days": 1.175
+  },
+  {
+   "mu": 20,
+   "case": 48,
+   "min_cases": 2,
+   "inv_days": 6.3431,
+   "stockout_pct": 0.0,
+   "extra_days": 1.23,
+   "approx_extra_days": 1.175
+  },
+  {
+   "mu": 50,
+   "case": 1,
+   "min_cases": 1,
+   "inv_days": 4.7058,
+   "stockout_pct": 0.0,
+   "extra_days": 0.0,
+   "approx_extra_days": 0.0
+  },
+  {
+   "mu": 50,
+   "case": 6,
+   "min_cases": 1,
+   "inv_days": 4.753,
+   "stockout_pct": 0.0,
+   "extra_days": 0.0472,
+   "approx_extra_days": 0.05
+  },
+  {
+   "mu": 50,
+   "case": 6,
+   "min_cases": 2,
+   "inv_days": 4.7563,
+   "stockout_pct": 0.0,
+   "extra_days": 0.0505,
+   "approx_extra_days": 0.05
+  },
+  {
+   "mu": 50,
+   "case": 12,
+   "min_cases": 1,
+   "inv_days": 4.8293,
+   "stockout_pct": 0.0,
+   "extra_days": 0.1235,
+   "approx_extra_days": 0.11
+  },
+  {
+   "mu": 50,
+   "case": 12,
+   "min_cases": 2,
+   "inv_days": 4.8316,
+   "stockout_pct": 0.0,
+   "extra_days": 0.1259,
+   "approx_extra_days": 0.11
+  },
+  {
+   "mu": 50,
+   "case": 24,
+   "min_cases": 1,
+   "inv_days": 4.9525,
+   "stockout_pct": 0.0,
+   "extra_days": 0.2467,
+   "approx_extra_days": 0.23
+  },
+  {
+   "mu": 50,
+   "case": 24,
+   "min_cases": 2,
+   "inv_days": 4.9403,
+   "stockout_pct": 0.0,
+   "extra_days": 0.2345,
+   "approx_extra_days": 0.23
+  },
+  {
+   "mu": 50,
+   "case": 48,
+   "min_cases": 1,
+   "inv_days": 5.1827,
+   "stockout_pct": 0.0,
+   "extra_days": 0.4769,
+   "approx_extra_days": 0.47
+  },
+  {
+   "mu": 50,
+   "case": 48,
+   "min_cases": 2,
+   "inv_days": 5.1794,
+   "stockout_pct": 0.0,
+   "extra_days": 0.4736,
+   "approx_extra_days": 0.47
+  }
+ ],
+ "sql_rows_checked": 105
+}
