@@ -1,0 +1,55 @@
+{
+ "rows": 22896,
+ "kinds": {
+  "通常": 20000,
+  "赤": 1600,
+  "黒": 1296
+ },
+ "originals": 20000,
+ "red": 1600,
+ "black": 1296,
+ "cancel_only": 304,
+ "second_corrections": 109,
+ "summary": {
+  "N1": {
+   "count": 22896,
+   "amount": 435046150,
+   "count_over_pct": 16.25,
+   "amount_over_pct": 8.16,
+   "count_over": 3200,
+   "amount_over": 32839920
+  },
+  "N2": {
+   "count": 21296,
+   "amount": 435046150,
+   "count_over_pct": 8.12,
+   "amount_over_pct": 8.16,
+   "count_over": 1600,
+   "amount_over": 32839920
+  },
+  "N3": {
+   "count": 19696,
+   "amount": 402206230,
+   "count_over_pct": 0.0,
+   "amount_over_pct": 0.0,
+   "count_over": 0,
+   "amount_over": 0
+  },
+  "N4": {
+   "count": 19696,
+   "amount": 402206230,
+   "count_over_pct": 0.0,
+   "amount_over_pct": 0.0,
+   "count_over": 0,
+   "amount_over": 0
+  }
+ },
+ "red_in_later_month": 552,
+ "rows_entered_2026": 134,
+ "month_diff_pct": {
+  "min": -0.85,
+  "max": 0.9
+ },
+ "amount_2025_entry_basis": 402420150,
+ "amount_2025_orig_basis": 402206230
+}
