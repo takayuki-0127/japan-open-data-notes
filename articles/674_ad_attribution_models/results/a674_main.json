@@ -1,0 +1,81 @@
+{
+ "users": 50000,
+ "conversions": 2548,
+ "conversions_with_touch": 2339,
+ "expected_conversions": 2547.8,
+ "expected_without_any_ad": 1597.7,
+ "expected_incremental_all_ads": 950.1,
+ "incremental_share_of_conversions_pct": 37.3,
+ "by_channel": {
+  "ディスプレイ": {
+   "last": 437.0,
+   "first": 1471.0,
+   "linear": 897.9,
+   "position": 922.4,
+   "true_incremental": 480.0
+  },
+  "SNS": {
+   "last": 558.0,
+   "first": 560.0,
+   "linear": 648.6,
+   "position": 610.7,
+   "true_incremental": 287.7
+  },
+  "メール": {
+   "last": 227.0,
+   "first": 118.0,
+   "linear": 201.8,
+   "position": 188.0,
+   "true_incremental": 25.4
+  },
+  "検索": {
+   "last": 1117.0,
+   "first": 190.0,
+   "linear": 590.8,
+   "position": 617.9,
+   "true_incremental": 151.3
+  }
+ },
+ "share_pct": {
+  "ディスプレイ": {
+   "last": 18.7,
+   "first": 62.9,
+   "linear": 38.4,
+   "position": 39.4,
+   "true_incremental": 50.8
+  },
+  "SNS": {
+   "last": 23.9,
+   "first": 23.9,
+   "linear": 27.7,
+   "position": 26.1,
+   "true_incremental": 30.5
+  },
+  "メール": {
+   "last": 9.7,
+   "first": 5.0,
+   "linear": 8.6,
+   "position": 8.0,
+   "true_incremental": 2.7
+  },
+  "検索": {
+   "last": 47.8,
+   "first": 8.1,
+   "linear": 25.3,
+   "position": 26.4,
+   "true_incremental": 16.0
+  }
+ },
+ "last_over_true": {
+  "ディスプレイ": 0.91,
+  "SNS": 1.94,
+  "メール": 8.93,
+  "検索": 7.38
+ },
+ "linear_over_true": {
+  "ディスプレイ": 1.87,
+  "SNS": 2.25,
+  "メール": 7.93,
+  "検索": 3.9
+ }
+}
