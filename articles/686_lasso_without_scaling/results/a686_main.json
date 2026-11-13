@@ -1,0 +1,46 @@
+{
+ "n": 200,
+ "reps": 300,
+ "beta_std": 0.25,
+ "selection_pct": {
+  "scaled": {
+   "effective": [
+    99.3,
+    99.3,
+    99.0,
+    100.0,
+    99.0
+   ],
+   "null": [
+    59.7,
+    58.0,
+    59.3,
+    62.3,
+    60.0
+   ]
+  },
+  "raw": {
+   "effective": [
+    0.0,
+    39.7,
+    91.7,
+    98.0,
+    100.0
+   ],
+   "null": [
+    0.0,
+    4.0,
+    55.3,
+    90.0,
+    99.3
+   ]
+  }
+ },
+ "mse": {
+  "scaled": 1.0384,
+  "raw": 1.144
+ },
+ "noise_var": 1.0,
+ "raw_effective_selected_mean": 65.9,
+ "scaled_effective_selected_mean": 99.3
+}
