@@ -1,0 +1,57 @@
+{
+ "orders": 59881,
+ "amount": 301000020,
+ "moved_to_prev_day": 9590,
+ "moved_share_pct": 16.02,
+ "moved_amount_share_pct": 15.98,
+ "twice_moved_to_next_day": 33428,
+ "twice_share_pct": 55.82,
+ "to_2024": 19,
+ "to_2026": 106,
+ "daily_abs_pct_median": 3.65,
+ "daily_abs_pct_p90": 9.35,
+ "daily_abs_pct_max": 548.83,
+ "daily_max_date": "2025-10-31",
+ "days_over_5pct": 129,
+ "days_over_10pct": 31,
+ "sale_day_ok": 5458420,
+ "sale_day_utc": 847010,
+ "oct31_ok": 840250,
+ "oct31_utc": 5451780,
+ "monthly_pct_utc_min": -15.57,
+ "monthly_pct_utc_max": 18.78,
+ "oct_pct_utc": 18.78,
+ "nov_pct_utc": -15.57,
+ "jan_pct_utc": 0.1,
+ "weekday_share": {
+  "ok": {
+   "月": 13.29,
+   "火": 12.76,
+   "水": 13.43,
+   "木": 13.21,
+   "金": 14.71,
+   "土": 17.39,
+   "日": 15.21
+  },
+  "utc": {
+   "月": 13.16,
+   "火": 12.92,
+   "水": 13.46,
+   "木": 13.36,
+   "金": 16.31,
+   "土": 15.8,
+   "日": 14.99
+  },
+  "twice": {
+   "月": 14.26,
+   "火": 13.16,
+   "水": 13.14,
+   "木": 13.24,
+   "金": 13.87,
+   "土": 16.68,
+   "日": 15.65
+  }
+ },
+ "sql_match_jst": true,
+ "sql_match_utc": true
+}
