@@ -1,0 +1,155 @@
+{
+ "nsim": 2000000,
+ "q": 0.995,
+ "lines2": [
+  [
+   100,
+   0.3
+  ],
+  [
+   100,
+   0.6
+  ]
+ ],
+ "standalone_q_2": [
+  204.03,
+  357.72
+ ],
+ "two_lines": [
+  {
+   "rho": 0.0,
+   "true": 466.099,
+   "indep": 467.526,
+   "matrix": 477.925,
+   "simple_sum": 561.748,
+   "mean_total": 200.0,
+   "indep_vs_true_pct": 0.306,
+   "matrix_vs_true_pct": 2.537,
+   "sum_vs_true_pct": 20.521,
+   "cap_true": 266.099,
+   "cap_indep": 267.526
+  },
+  {
+   "rho": 0.25,
+   "true": 488.534,
+   "indep": 467.526,
+   "matrix": 501.077,
+   "simple_sum": 561.748,
+   "mean_total": 200.0,
+   "indep_vs_true_pct": -4.3,
+   "matrix_vs_true_pct": 2.567,
+   "sum_vs_true_pct": 14.986,
+   "cap_true": 288.534,
+   "cap_indep": 267.526
+  },
+  {
+   "rho": 0.5,
+   "true": 511.924,
+   "indep": 467.526,
+   "matrix": 522.571,
+   "simple_sum": 561.748,
+   "mean_total": 200.0,
+   "indep_vs_true_pct": -8.673,
+   "matrix_vs_true_pct": 2.08,
+   "sum_vs_true_pct": 9.733,
+   "cap_true": 311.924,
+   "cap_indep": 267.526
+  },
+  {
+   "rho": 0.75,
+   "true": 537.333,
+   "indep": 467.526,
+   "matrix": 542.72,
+   "simple_sum": 561.748,
+   "mean_total": 200.0,
+   "indep_vs_true_pct": -12.992,
+   "matrix_vs_true_pct": 1.002,
+   "sum_vs_true_pct": 4.544,
+   "cap_true": 337.333,
+   "cap_indep": 267.526
+  }
+ ],
+ "lines5": [
+  [
+   100,
+   0.3
+  ],
+  [
+   100,
+   0.4
+  ],
+  [
+   100,
+   0.5
+  ],
+  [
+   100,
+   0.6
+  ],
+  [
+   100,
+   0.7
+  ]
+ ],
+ "standalone_q_5": [
+  204.03,
+  250.46,
+  301.98,
+  357.72,
+  416.71
+ ],
+ "five_lines": [
+  {
+   "rho": 0.0,
+   "true": 913.145,
+   "indep": 912.752,
+   "matrix": 990.899,
+   "simple_sum": 1530.901,
+   "mean_total": 500.0,
+   "indep_vs_true_pct": -0.043,
+   "matrix_vs_true_pct": 8.515,
+   "sum_vs_true_pct": 67.651,
+   "cap_true": 413.145,
+   "cap_indep": 412.752
+  },
+  {
+   "rho": 0.25,
+   "true": 1073.039,
+   "indep": 912.752,
+   "matrix": 1168.151,
+   "simple_sum": 1530.901,
+   "mean_total": 500.0,
+   "indep_vs_true_pct": -14.938,
+   "matrix_vs_true_pct": 8.864,
+   "sum_vs_true_pct": 42.67,
+   "cap_true": 573.039,
+   "cap_indep": 412.752
+  },
+  {
+   "rho": 0.5,
+   "true": 1230.305,
+   "indep": 912.752,
+   "matrix": 1307.384,
+   "simple_sum": 1530.901,
+   "mean_total": 500.0,
+   "indep_vs_true_pct": -25.811,
+   "matrix_vs_true_pct": 6.265,
+   "sum_vs_true_pct": 24.433,
+   "cap_true": 730.305,
+   "cap_indep": 412.752
+  },
+  {
+   "rho": 0.75,
+   "true": 1382.715,
+   "indep": 912.752,
+   "matrix": 1425.912,
+   "simple_sum": 1530.901,
+   "mean_total": 500.0,
+   "indep_vs_true_pct": -33.988,
+   "matrix_vs_true_pct": 3.124,
+   "sum_vs_true_pct": 10.717,
+   "cap_true": 882.715,
+   "cap_indep": 412.752
+  }
+ ]
+}
