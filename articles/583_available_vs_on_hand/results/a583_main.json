@@ -1,0 +1,49 @@
+{
+ "n_sku": 200,
+ "days_used": 154,
+ "period": "2025-01-29〜2025-07-01（最初の4週を除く）",
+ "sku_days": 30800,
+ "out_book_sku_days": 283,
+ "out_avail_sku_days": 4837,
+ "ratio_avail_to_book": 17.09,
+ "hidden_sku_days": 4554,
+ "out_proj_sku_days": 939,
+ "sku_ever_out_proj": 82,
+ "late_orders": 355,
+ "late_orders_sku": 107,
+ "sku_ever_out_book": 95,
+ "sku_ever_out_avail": 197,
+ "by_kind": {
+  "A": {
+   "sku_days": 15400,
+   "out_book": 77,
+   "out_avail": 814,
+   "out_proj": 0,
+   "hidden": 737
+  },
+  "B": {
+   "sku_days": 9240,
+   "out_book": 39,
+   "out_avail": 3497,
+   "out_proj": 883,
+   "hidden": 3458
+  },
+  "C": {
+   "sku_days": 6160,
+   "out_book": 167,
+   "out_avail": 526,
+   "out_proj": 56,
+   "hidden": 359
+  }
+ },
+ "daily_out_book_mean": 1.8,
+ "daily_out_avail_mean": 31.4,
+ "daily_max_gap": 37,
+ "orders_after_warm": 63283,
+ "orders_looks_ok_but_cannot_allocate": 7761,
+ "share_of_cannot_allocate_that_looked_ok_pct": 91.4,
+ "orders_cannot_allocate": 8494,
+ "late_shipment_pct": 0.57,
+ "sql_match_python": true,
+ "example_sku": "P110"
+}
