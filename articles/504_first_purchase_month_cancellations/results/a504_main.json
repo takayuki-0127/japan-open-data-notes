@@ -1,0 +1,47 @@
+{
+ "orders": 71874,
+ "members": 20060,
+ "status": {
+  "確定": 64877,
+  "取消": 5049,
+  "返品": 1948
+ },
+ "test_orders": 1528,
+ "new_total_2024_02_2025_12": {
+  "all": 19128,
+  "no_cancel": 18141,
+  "confirmed": 17994
+ },
+ "over_pct_all_vs_confirmed": 6.3,
+ "over_pct_nocancel_vs_confirmed": 0.82,
+ "monthly_over_pct": {
+  "mean": 6.36,
+  "min": 2.51,
+  "max": 10.81
+ },
+ "never_confirmed_counted_new": 1163,
+ "first_month_moved_share": 7.08,
+ "first_month_moved_n": 1333,
+ "moved_by_months": {
+  "1": 818,
+  "2": 407,
+  "3": 59,
+  "4": 23,
+  "5": 11,
+  "6": 8,
+  "7": 4,
+  "8": 1,
+  "10": 1,
+  "12": 1
+ },
+ "repeat3m_all_without_never_confirmed": 58.4,
+ "repeat3m_mean": {
+  "all": 55.01,
+  "no_cancel": 55.45,
+  "confirmed": 55.46
+ },
+ "repeat3m_gap_pt": {
+  "mean": 0.45,
+  "max": 1.69
+ }
+}
