@@ -1,0 +1,93 @@
+{
+ "overall": [
+  {
+   "hetero": false,
+   "method": "const",
+   "miss": 0.0453,
+   "width": 45.2193
+  },
+  {
+   "hetero": false,
+   "method": "log",
+   "miss": 0.0368,
+   "width": 67.0021
+  },
+  {
+   "hetero": false,
+   "method": "quant",
+   "miss": 0.0497,
+   "width": 44.5988
+  },
+  {
+   "hetero": true,
+   "method": "const",
+   "miss": 0.0562,
+   "width": 47.829
+  },
+  {
+   "hetero": true,
+   "method": "log",
+   "miss": 0.0424,
+   "width": 51.3808
+  },
+  {
+   "hetero": true,
+   "method": "quant",
+   "miss": 0.0504,
+   "width": 44.3023
+  }
+ ],
+ "const_hetero_band": [
+  {
+   "band": 0,
+   "miss": 0.0,
+   "width": 47.829
+  },
+  {
+   "band": 1,
+   "miss": 0.0004,
+   "width": 47.829
+  },
+  {
+   "band": 2,
+   "miss": 0.0027,
+   "width": 47.829
+  },
+  {
+   "band": 3,
+   "miss": 0.01,
+   "width": 47.829
+  },
+  {
+   "band": 4,
+   "miss": 0.025,
+   "width": 47.829
+  },
+  {
+   "band": 5,
+   "miss": 0.0454,
+   "width": 47.829
+  },
+  {
+   "band": 6,
+   "miss": 0.074,
+   "width": 47.829
+  },
+  {
+   "band": 7,
+   "miss": 0.1019,
+   "width": 47.829
+  },
+  {
+   "band": 8,
+   "miss": 0.1357,
+   "width": 47.829
+  },
+  {
+   "band": 9,
+   "miss": 0.166,
+   "width": 47.829
+  }
+ ],
+ "sql_match": true
+}

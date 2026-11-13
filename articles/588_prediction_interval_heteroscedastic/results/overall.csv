@@ -1,0 +1,7 @@
+hetero,method,miss,width
+False,const,0.0453,45.2193
+False,log,0.0368,67.0021
+False,quant,0.0497,44.5988
+True,const,0.0562,47.829
+True,log,0.0424,51.3808
+True,quant,0.0504,44.3023
