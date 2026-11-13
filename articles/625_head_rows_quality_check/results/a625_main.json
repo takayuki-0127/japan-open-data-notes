@@ -1,0 +1,385 @@
+{
+ "rows": 1000000,
+ "bad_rows": 1000,
+ "scenarios": {
+  "S1": "全体にばらばら",
+  "S2": "最後の1日に固まる",
+  "S3": "200日目の1日に固まる"
+ },
+ "reps": 2000,
+ "results": [
+  {
+   "scenario": "S1",
+   "n": 1000,
+   "method": "head",
+   "found_pct": 0.0
+  },
+  {
+   "scenario": "S1",
+   "n": 1000,
+   "method": "random",
+   "found_pct": 63.24884995686995
+  },
+  {
+   "scenario": "S1",
+   "n": 1000,
+   "method": "systematic",
+   "found_pct": 66.3
+  },
+  {
+   "scenario": "S1",
+   "n": 1000,
+   "method": "blocks",
+   "found_pct": 64.85
+  },
+  {
+   "scenario": "S1",
+   "n": 2000,
+   "method": "head",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S1",
+   "n": 2000,
+   "method": "random",
+   "found_pct": 86.50706999258797
+  },
+  {
+   "scenario": "S1",
+   "n": 2000,
+   "method": "systematic",
+   "found_pct": 86.75
+  },
+  {
+   "scenario": "S1",
+   "n": 2000,
+   "method": "blocks",
+   "found_pct": 86.95
+  },
+  {
+   "scenario": "S1",
+   "n": 5000,
+   "method": "head",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S1",
+   "n": 5000,
+   "method": "random",
+   "found_pct": 99.33627234108499
+  },
+  {
+   "scenario": "S1",
+   "n": 5000,
+   "method": "systematic",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S1",
+   "n": 5000,
+   "method": "blocks",
+   "found_pct": 99.1
+  },
+  {
+   "scenario": "S1",
+   "n": 10000,
+   "method": "head",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S1",
+   "n": 10000,
+   "method": "random",
+   "found_pct": 99.9957046167827
+  },
+  {
+   "scenario": "S1",
+   "n": 10000,
+   "method": "systematic",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S1",
+   "n": 10000,
+   "method": "blocks",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S1",
+   "n": 20000,
+   "method": "head",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S1",
+   "n": 20000,
+   "method": "random",
+   "found_pct": 99.9999998334113
+  },
+  {
+   "scenario": "S1",
+   "n": 20000,
+   "method": "systematic",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S1",
+   "n": 20000,
+   "method": "blocks",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S2",
+   "n": 1000,
+   "method": "head",
+   "found_pct": 0.0
+  },
+  {
+   "scenario": "S2",
+   "n": 1000,
+   "method": "random",
+   "found_pct": 63.24884995686995
+  },
+  {
+   "scenario": "S2",
+   "n": 1000,
+   "method": "systematic",
+   "found_pct": 69.85
+  },
+  {
+   "scenario": "S2",
+   "n": 1000,
+   "method": "blocks",
+   "found_pct": 63.7
+  },
+  {
+   "scenario": "S2",
+   "n": 2000,
+   "method": "head",
+   "found_pct": 0.0
+  },
+  {
+   "scenario": "S2",
+   "n": 2000,
+   "method": "random",
+   "found_pct": 86.50706999258797
+  },
+  {
+   "scenario": "S2",
+   "n": 2000,
+   "method": "systematic",
+   "found_pct": 91.85
+  },
+  {
+   "scenario": "S2",
+   "n": 2000,
+   "method": "blocks",
+   "found_pct": 87.7
+  },
+  {
+   "scenario": "S2",
+   "n": 5000,
+   "method": "head",
+   "found_pct": 0.0
+  },
+  {
+   "scenario": "S2",
+   "n": 5000,
+   "method": "random",
+   "found_pct": 99.33627234108499
+  },
+  {
+   "scenario": "S2",
+   "n": 5000,
+   "method": "systematic",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S2",
+   "n": 5000,
+   "method": "blocks",
+   "found_pct": 99.5
+  },
+  {
+   "scenario": "S2",
+   "n": 10000,
+   "method": "head",
+   "found_pct": 0.0
+  },
+  {
+   "scenario": "S2",
+   "n": 10000,
+   "method": "random",
+   "found_pct": 99.9957046167827
+  },
+  {
+   "scenario": "S2",
+   "n": 10000,
+   "method": "systematic",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S2",
+   "n": 10000,
+   "method": "blocks",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S2",
+   "n": 20000,
+   "method": "head",
+   "found_pct": 0.0
+  },
+  {
+   "scenario": "S2",
+   "n": 20000,
+   "method": "random",
+   "found_pct": 99.9999998334113
+  },
+  {
+   "scenario": "S2",
+   "n": 20000,
+   "method": "systematic",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S2",
+   "n": 20000,
+   "method": "blocks",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S3",
+   "n": 1000,
+   "method": "head",
+   "found_pct": 0.0
+  },
+  {
+   "scenario": "S3",
+   "n": 1000,
+   "method": "random",
+   "found_pct": 63.24884995686995
+  },
+  {
+   "scenario": "S3",
+   "n": 1000,
+   "method": "systematic",
+   "found_pct": 69.0
+  },
+  {
+   "scenario": "S3",
+   "n": 1000,
+   "method": "blocks",
+   "found_pct": 66.1
+  },
+  {
+   "scenario": "S3",
+   "n": 2000,
+   "method": "head",
+   "found_pct": 0.0
+  },
+  {
+   "scenario": "S3",
+   "n": 2000,
+   "method": "random",
+   "found_pct": 86.50706999258797
+  },
+  {
+   "scenario": "S3",
+   "n": 2000,
+   "method": "systematic",
+   "found_pct": 90.85
+  },
+  {
+   "scenario": "S3",
+   "n": 2000,
+   "method": "blocks",
+   "found_pct": 88.5
+  },
+  {
+   "scenario": "S3",
+   "n": 5000,
+   "method": "head",
+   "found_pct": 0.0
+  },
+  {
+   "scenario": "S3",
+   "n": 5000,
+   "method": "random",
+   "found_pct": 99.33627234108499
+  },
+  {
+   "scenario": "S3",
+   "n": 5000,
+   "method": "systematic",
+   "found_pct": 99.25
+  },
+  {
+   "scenario": "S3",
+   "n": 5000,
+   "method": "blocks",
+   "found_pct": 99.55
+  },
+  {
+   "scenario": "S3",
+   "n": 10000,
+   "method": "head",
+   "found_pct": 0.0
+  },
+  {
+   "scenario": "S3",
+   "n": 10000,
+   "method": "random",
+   "found_pct": 99.9957046167827
+  },
+  {
+   "scenario": "S3",
+   "n": 10000,
+   "method": "systematic",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S3",
+   "n": 10000,
+   "method": "blocks",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S3",
+   "n": 20000,
+   "method": "head",
+   "found_pct": 0.0
+  },
+  {
+   "scenario": "S3",
+   "n": 20000,
+   "method": "random",
+   "found_pct": 99.9999998334113
+  },
+  {
+   "scenario": "S3",
+   "n": 20000,
+   "method": "systematic",
+   "found_pct": 100.0
+  },
+  {
+   "scenario": "S3",
+   "n": 20000,
+   "method": "blocks",
+   "found_pct": 100.0
+  }
+ ],
+ "random_theory_pct": {
+  "1000": 63.23,
+  "2000": 86.48,
+  "5000": 99.33,
+  "10000": 100.0,
+  "20000": 100.0
+ },
+ "random_n_for_95pct": 2995,
+ "sql_S2_n5000": {
+  "head": 0,
+  "sample": 9,
+  "blocks": 6
+ }
+}
