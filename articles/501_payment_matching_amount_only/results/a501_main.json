@@ -1,0 +1,125 @@
+{
+ "A": {
+  "pay": 5746,
+  "right": 2614,
+  "wrong": 2146,
+  "unmatched": 986,
+  "unmatched_amount": 50289470,
+  "wrong_amount": 186825860,
+  "strict_wrong": 2162
+ },
+ "B": {
+  "pay": 5746,
+  "right": 2763,
+  "wrong": 1982,
+  "unmatched": 1001,
+  "unmatched_amount": 50819760,
+  "wrong_amount": 179609370,
+  "strict_wrong": 2012
+ },
+ "C": {
+  "pay": 5746,
+  "right": 4268,
+  "wrong": 631,
+  "unmatched": 847,
+  "unmatched_amount": 40901500,
+  "wrong_amount": 61115950,
+  "strict_wrong": 1116
+ },
+ "D": {
+  "pay": 5746,
+  "right": 4627,
+  "wrong": 389,
+  "unmatched": 730,
+  "unmatched_amount": 31538630,
+  "wrong_amount": 38848250,
+  "strict_wrong": 661
+ },
+ "SQL": {
+  "pay": 5746,
+  "right": 2614,
+  "wrong": 2146,
+  "unmatched": 986,
+  "unmatched_amount": 50289470,
+  "wrong_amount": 186825860,
+  "strict_wrong": 2162
+ },
+ "SQL_equals_A": true,
+ "same_amount_share": 0.5754551820728291,
+ "n_invoices": 5712,
+ "n_payments": 5746,
+ "kinds": {
+  "全額": 4709,
+  "分割": 542,
+  "手数料差引": 495
+ },
+ "unpaid_invoices": 237,
+ "A_wrong_breakdown": {
+  "別の会社の同じ金額": 2113,
+  "同じ会社の別の月": 33,
+  "同じ会社・同じ月（入れ替えても同じ）": 16
+ },
+ "A_wrong_split": 65,
+ "sweep": {
+  "0.0": {
+   "rep": 1.0,
+   "same_amount_share": 0.4158,
+   "A": 0.1107,
+   "A_un": 0.1747,
+   "B": 0.0487,
+   "B_un": 0.1849,
+   "C": 0.0004,
+   "C_un": 0.1493,
+   "D": 0.0003,
+   "D_un": 0.1295
+  },
+  "0.2": {
+   "rep": 1.0,
+   "same_amount_share": 0.483,
+   "A": 0.2352,
+   "A_un": 0.1793,
+   "B": 0.184,
+   "B_un": 0.1875,
+   "C": 0.0568,
+   "C_un": 0.1637,
+   "D": 0.0362,
+   "D_un": 0.1423
+  },
+  "0.4": {
+   "rep": 1.0,
+   "same_amount_share": 0.567,
+   "A": 0.3705,
+   "A_un": 0.1759,
+   "B": 0.3395,
+   "B_un": 0.1806,
+   "C": 0.114,
+   "C_un": 0.1549,
+   "D": 0.0708,
+   "D_un": 0.1333
+  },
+  "0.6": {
+   "rep": 1.0,
+   "same_amount_share": 0.6774,
+   "A": 0.501,
+   "A_un": 0.1827,
+   "B": 0.4837,
+   "B_un": 0.185,
+   "C": 0.1698,
+   "C_un": 0.1545,
+   "D": 0.0971,
+   "D_un": 0.1318
+  },
+  "0.8": {
+   "rep": 1.0,
+   "same_amount_share": 0.8136,
+   "A": 0.6495,
+   "A_un": 0.1817,
+   "B": 0.6395,
+   "B_un": 0.1825,
+   "C": 0.2179,
+   "C_un": 0.1518,
+   "D": 0.1321,
+   "D_un": 0.1323
+  }
+ }
+}
