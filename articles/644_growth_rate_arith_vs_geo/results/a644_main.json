@@ -1,0 +1,119 @@
+{
+ "stores": 100,
+ "example_plus50_minus50": {
+  "arith": 0.0,
+  "geo": -13.4,
+  "end": 75.0
+ },
+ "stores_gap_pt_mean": 1.733,
+ "by_sd_stores": [
+  {
+   "sd_set": 0.05,
+   "stores": 24,
+   "gap_pt": 0.09,
+   "end_over_pct": 0.4,
+   "end_over_max": 1.21
+  },
+  {
+   "sd_set": 0.1,
+   "stores": 17,
+   "gap_pt": 0.31,
+   "end_over_pct": 1.4,
+   "end_over_max": 3.46
+  },
+  {
+   "sd_set": 0.2,
+   "stores": 29,
+   "gap_pt": 1.96,
+   "end_over_pct": 8.67,
+   "end_over_max": 45.04
+  },
+  {
+   "sd_set": 0.3,
+   "stores": 30,
+   "gap_pt": 3.64,
+   "end_over_pct": 15.96,
+   "end_over_max": 81.04
+  }
+ ],
+ "sim": [
+  {
+   "sd": 0.05,
+   "gap_pt_mean": 0.1019,
+   "gap_theory_pt": 0.125,
+   "fut_median": 1.1042,
+   "fut_mean": 1.1121,
+   "proj_arith_median": 1.1106,
+   "proj_geo_median": 1.1048,
+   "true_median": 1.1052,
+   "true_mean": 1.1121,
+   "abs_err_arith": 0.1065,
+   "abs_err_geo": 0.1064
+  },
+  {
+   "sd": 0.1,
+   "gap_pt_mean": 0.4075,
+   "gap_theory_pt": 0.5,
+   "fut_median": 1.1034,
+   "fut_mean": 1.1307,
+   "proj_arith_median": 1.1302,
+   "proj_geo_median": 1.108,
+   "true_median": 1.1052,
+   "true_mean": 1.1331,
+   "abs_err_arith": 0.2161,
+   "abs_err_geo": 0.2154
+  },
+  {
+   "sd": 0.15,
+   "gap_pt_mean": 0.93,
+   "gap_theory_pt": 1.125,
+   "fut_median": 1.1061,
+   "fut_mean": 1.1688,
+   "proj_arith_median": 1.1551,
+   "proj_geo_median": 1.1047,
+   "true_median": 1.1052,
+   "true_mean": 1.1691,
+   "abs_err_arith": 0.3176,
+   "abs_err_geo": 0.3161
+  },
+  {
+   "sd": 0.2,
+   "gap_pt_mean": 1.6427,
+   "gap_theory_pt": 2.0,
+   "fut_median": 1.102,
+   "fut_mean": 1.2184,
+   "proj_arith_median": 1.1926,
+   "proj_geo_median": 1.1015,
+   "true_median": 1.1052,
+   "true_mean": 1.2214,
+   "abs_err_arith": 0.4346,
+   "abs_err_geo": 0.4307
+  },
+  {
+   "sd": 0.25,
+   "gap_pt_mean": 2.5924,
+   "gap_theory_pt": 3.125,
+   "fut_median": 1.0996,
+   "fut_mean": 1.2836,
+   "proj_arith_median": 1.2511,
+   "proj_geo_median": 1.109,
+   "true_median": 1.1052,
+   "true_mean": 1.2921,
+   "abs_err_arith": 0.5492,
+   "abs_err_geo": 0.5391
+  },
+  {
+   "sd": 0.3,
+   "gap_pt_mean": 3.798,
+   "gap_theory_pt": 4.5,
+   "fut_median": 1.112,
+   "fut_mean": 1.3855,
+   "proj_arith_median": 1.3154,
+   "proj_geo_median": 1.0993,
+   "true_median": 1.1052,
+   "true_mean": 1.384,
+   "abs_err_arith": 0.6463,
+   "abs_err_geo": 0.634
+  }
+ ]
+}
