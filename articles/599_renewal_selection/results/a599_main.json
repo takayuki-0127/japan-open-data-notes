@@ -1,0 +1,449 @@
+{
+ "yearly_base": [
+  {
+   "year": 1,
+   "inforce_rate": 0.069777,
+   "inforce_true": 0.069918,
+   "new_rate": 0.069777,
+   "renewed_rate": NaN,
+   "share_new": 1.0
+  },
+  {
+   "year": 2,
+   "inforce_rate": 0.069073,
+   "inforce_true": 0.069322,
+   "new_rate": 0.067039,
+   "renewed_rate": 0.069332,
+   "share_new": 0.11267
+  },
+  {
+   "year": 3,
+   "inforce_rate": 0.069147,
+   "inforce_true": 0.068834,
+   "new_rate": 0.071294,
+   "renewed_rate": 0.068872,
+   "share_new": 0.11324
+  },
+  {
+   "year": 4,
+   "inforce_rate": 0.068383,
+   "inforce_true": 0.068406,
+   "new_rate": 0.070363,
+   "renewed_rate": 0.06813,
+   "share_new": 0.11327
+  },
+  {
+   "year": 5,
+   "inforce_rate": 0.067887,
+   "inforce_true": 0.068013,
+   "new_rate": 0.069523,
+   "renewed_rate": 0.067679,
+   "share_new": 0.11272
+  },
+  {
+   "year": 6,
+   "inforce_rate": 0.068173,
+   "inforce_true": 0.067685,
+   "new_rate": 0.070803,
+   "renewed_rate": 0.067841,
+   "share_new": 0.112237
+  },
+  {
+   "year": 7,
+   "inforce_rate": 0.06747,
+   "inforce_true": 0.067383,
+   "new_rate": 0.071936,
+   "renewed_rate": 0.066898,
+   "share_new": 0.113527
+  },
+  {
+   "year": 8,
+   "inforce_rate": 0.067273,
+   "inforce_true": 0.066996,
+   "new_rate": 0.068783,
+   "renewed_rate": 0.067084,
+   "share_new": 0.111413
+  },
+  {
+   "year": 9,
+   "inforce_rate": 0.066837,
+   "inforce_true": 0.066863,
+   "new_rate": 0.070178,
+   "renewed_rate": 0.066412,
+   "share_new": 0.112667
+  },
+  {
+   "year": 10,
+   "inforce_rate": 0.067303,
+   "inforce_true": 0.066707,
+   "new_rate": 0.070301,
+   "renewed_rate": 0.066923,
+   "share_new": 0.112563
+  },
+  {
+   "year": 11,
+   "inforce_rate": 0.06777,
+   "inforce_true": 0.066549,
+   "new_rate": 0.069765,
+   "renewed_rate": 0.067519,
+   "share_new": 0.111803
+  },
+  {
+   "year": 12,
+   "inforce_rate": 0.066077,
+   "inforce_true": 0.066346,
+   "new_rate": 0.070062,
+   "renewed_rate": 0.065567,
+   "share_new": 0.113423
+  },
+  {
+   "year": 13,
+   "inforce_rate": 0.066697,
+   "inforce_true": 0.066251,
+   "new_rate": 0.070845,
+   "renewed_rate": 0.066168,
+   "share_new": 0.11311
+  },
+  {
+   "year": 14,
+   "inforce_rate": 0.066193,
+   "inforce_true": 0.066187,
+   "new_rate": 0.068464,
+   "renewed_rate": 0.065907,
+   "share_new": 0.11203
+  },
+  {
+   "year": 15,
+   "inforce_rate": 0.065853,
+   "inforce_true": 0.066094,
+   "new_rate": 0.06975,
+   "renewed_rate": 0.065359,
+   "share_new": 0.11264
+  }
+ ],
+ "yearly_indep": [
+  {
+   "year": 1,
+   "inforce_rate": 0.070187,
+   "inforce_true": 0.070068,
+   "new_rate": 0.070187,
+   "renewed_rate": NaN,
+   "share_new": 1.0
+  },
+  {
+   "year": 2,
+   "inforce_rate": 0.06982,
+   "inforce_true": 0.070008,
+   "new_rate": 0.068283,
+   "renewed_rate": 0.070015,
+   "share_new": 0.11262
+  },
+  {
+   "year": 3,
+   "inforce_rate": 0.07043,
+   "inforce_true": 0.070062,
+   "new_rate": 0.070686,
+   "renewed_rate": 0.070397,
+   "share_new": 0.112893
+  },
+  {
+   "year": 4,
+   "inforce_rate": 0.07057,
+   "inforce_true": 0.070017,
+   "new_rate": 0.06981,
+   "renewed_rate": 0.070668,
+   "share_new": 0.11412
+  },
+  {
+   "year": 5,
+   "inforce_rate": 0.07013,
+   "inforce_true": 0.070074,
+   "new_rate": 0.071114,
+   "renewed_rate": 0.070004,
+   "share_new": 0.113433
+  },
+  {
+   "year": 6,
+   "inforce_rate": 0.07017,
+   "inforce_true": 0.070026,
+   "new_rate": 0.068756,
+   "renewed_rate": 0.070351,
+   "share_new": 0.113397
+  },
+  {
+   "year": 7,
+   "inforce_rate": 0.069423,
+   "inforce_true": 0.069981,
+   "new_rate": 0.067195,
+   "renewed_rate": 0.069706,
+   "share_new": 0.112657
+  },
+  {
+   "year": 8,
+   "inforce_rate": 0.070027,
+   "inforce_true": 0.07001,
+   "new_rate": 0.070163,
+   "renewed_rate": 0.070009,
+   "share_new": 0.11269
+  },
+  {
+   "year": 9,
+   "inforce_rate": 0.070283,
+   "inforce_true": 0.069997,
+   "new_rate": 0.070473,
+   "renewed_rate": 0.070259,
+   "share_new": 0.11437
+  },
+  {
+   "year": 10,
+   "inforce_rate": 0.069817,
+   "inforce_true": 0.06993,
+   "new_rate": 0.06898,
+   "renewed_rate": 0.069924,
+   "share_new": 0.11327
+  },
+  {
+   "year": 11,
+   "inforce_rate": 0.069727,
+   "inforce_true": 0.069988,
+   "new_rate": 0.070375,
+   "renewed_rate": 0.069644,
+   "share_new": 0.113013
+  },
+  {
+   "year": 12,
+   "inforce_rate": 0.071157,
+   "inforce_true": 0.070029,
+   "new_rate": 0.070269,
+   "renewed_rate": 0.071271,
+   "share_new": 0.1138
+  },
+  {
+   "year": 13,
+   "inforce_rate": 0.070493,
+   "inforce_true": 0.070037,
+   "new_rate": 0.070529,
+   "renewed_rate": 0.070489,
+   "share_new": 0.11409
+  },
+  {
+   "year": 14,
+   "inforce_rate": 0.070743,
+   "inforce_true": 0.070066,
+   "new_rate": 0.071331,
+   "renewed_rate": 0.070669,
+   "share_new": 0.112433
+  },
+  {
+   "year": 15,
+   "inforce_rate": 0.070523,
+   "inforce_true": 0.070056,
+   "new_rate": 0.068989,
+   "renewed_rate": 0.07072,
+   "share_new": 0.11369
+  }
+ ],
+ "tenure_main": [
+  {
+   "tenure_band": 1,
+   "policy_years": 168902,
+   "claims": 11786,
+   "true_rate": 0.069922,
+   "rate": 0.06978
+  },
+  {
+   "tenure_band": 2,
+   "policy_years": 149661,
+   "claims": 10444,
+   "true_rate": 0.069265,
+   "rate": 0.069784
+  },
+  {
+   "tenure_band": 3,
+   "policy_years": 132887,
+   "claims": 9120,
+   "true_rate": 0.068587,
+   "rate": 0.06863
+  },
+  {
+   "tenure_band": 4,
+   "policy_years": 117496,
+   "claims": 8004,
+   "true_rate": 0.067932,
+   "rate": 0.068121
+  },
+  {
+   "tenure_band": 5,
+   "policy_years": 104487,
+   "claims": 7074,
+   "true_rate": 0.067388,
+   "rate": 0.067702
+  },
+  {
+   "tenure_band": 6,
+   "policy_years": 93000,
+   "claims": 6314,
+   "true_rate": 0.066825,
+   "rate": 0.067892
+  },
+  {
+   "tenure_band": 7,
+   "policy_years": 82513,
+   "claims": 5527,
+   "true_rate": 0.066172,
+   "rate": 0.066983
+  },
+  {
+   "tenure_band": 8,
+   "policy_years": 73007,
+   "claims": 4738,
+   "true_rate": 0.065313,
+   "rate": 0.064898
+  },
+  {
+   "tenure_band": 9,
+   "policy_years": 64976,
+   "claims": 4192,
+   "true_rate": 0.064698,
+   "rate": 0.064516
+  },
+  {
+   "tenure_band": 10,
+   "policy_years": 513071,
+   "claims": 32578,
+   "true_rate": 0.063281,
+   "rate": 0.063496
+  }
+ ],
+ "grid": [
+  {
+   "cv": 0.0,
+   "p_no": 0.9,
+   "p_acc": 0.8,
+   "inforce_rate": 0.0702,
+   "inforce_true": 0.07,
+   "new_rate": 0.0702,
+   "renewed_rate": 0.0702,
+   "inforce_vs_new_pct": 0.0
+  },
+  {
+   "cv": 0.0,
+   "p_no": 0.9,
+   "p_acc": 0.7,
+   "inforce_rate": 0.0698,
+   "inforce_true": 0.07,
+   "new_rate": 0.0696,
+   "renewed_rate": 0.0698,
+   "inforce_vs_new_pct": 0.0
+  },
+  {
+   "cv": 0.0,
+   "p_no": 0.9,
+   "p_acc": 0.5,
+   "inforce_rate": 0.07,
+   "inforce_true": 0.07,
+   "new_rate": 0.071,
+   "renewed_rate": 0.0699,
+   "inforce_vs_new_pct": 0.0
+  },
+  {
+   "cv": 0.4,
+   "p_no": 0.9,
+   "p_acc": 0.8,
+   "inforce_rate": 0.0696,
+   "inforce_true": 0.0696,
+   "new_rate": 0.0698,
+   "renewed_rate": 0.0696,
+   "inforce_vs_new_pct": -0.6207
+  },
+  {
+   "cv": 0.4,
+   "p_no": 0.9,
+   "p_acc": 0.7,
+   "inforce_rate": 0.0691,
+   "inforce_true": 0.069,
+   "new_rate": 0.0703,
+   "renewed_rate": 0.0689,
+   "inforce_vs_new_pct": -1.4512
+  },
+  {
+   "cv": 0.4,
+   "p_no": 0.9,
+   "p_acc": 0.5,
+   "inforce_rate": 0.0679,
+   "inforce_true": 0.0681,
+   "new_rate": 0.069,
+   "renewed_rate": 0.0678,
+   "inforce_vs_new_pct": -2.7488
+  },
+  {
+   "cv": 0.8,
+   "p_no": 0.9,
+   "p_acc": 0.8,
+   "inforce_rate": 0.0675,
+   "inforce_true": 0.0681,
+   "new_rate": 0.0691,
+   "renewed_rate": 0.0673,
+   "inforce_vs_new_pct": -2.7668
+  },
+  {
+   "cv": 0.8,
+   "p_no": 0.9,
+   "p_acc": 0.7,
+   "inforce_rate": 0.0665,
+   "inforce_true": 0.0663,
+   "new_rate": 0.0685,
+   "renewed_rate": 0.0662,
+   "inforce_vs_new_pct": -5.3506
+  },
+  {
+   "cv": 0.8,
+   "p_no": 0.9,
+   "p_acc": 0.5,
+   "inforce_rate": 0.0635,
+   "inforce_true": 0.0635,
+   "new_rate": 0.0707,
+   "renewed_rate": 0.0625,
+   "inforce_vs_new_pct": -9.2251
+  },
+  {
+   "cv": 1.2,
+   "p_no": 0.9,
+   "p_acc": 0.8,
+   "inforce_rate": 0.0657,
+   "inforce_true": 0.0659,
+   "new_rate": 0.0686,
+   "renewed_rate": 0.0654,
+   "inforce_vs_new_pct": -5.8761
+  },
+  {
+   "cv": 1.2,
+   "p_no": 0.9,
+   "p_acc": 0.7,
+   "inforce_rate": 0.0629,
+   "inforce_true": 0.0627,
+   "new_rate": 0.0717,
+   "renewed_rate": 0.0618,
+   "inforce_vs_new_pct": -10.4335
+  },
+  {
+   "cv": 1.2,
+   "p_no": 0.9,
+   "p_acc": 0.5,
+   "inforce_rate": 0.0569,
+   "inforce_true": 0.0573,
+   "new_rate": 0.0703,
+   "renewed_rate": 0.0551,
+   "inforce_vs_new_pct": -18.1462
+  }
+ ],
+ "sql": [
+  {
+   "max_abs_diff": 0.0,
+   "match": true,
+   "renew_rate_no_claim": 0.9004319769612288,
+   "renew_rate_claim": 0.6901521216973578
+  }
+ ],
+ "p_avg_indep": 0.8864787639811896
+}
