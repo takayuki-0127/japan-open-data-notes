@@ -1,0 +1,86 @@
+{
+ "n_sim": 60,
+ "n_days": 1095,
+ "n_future": 180,
+ "sql_matches_python": true,
+ "summary": [
+  {
+   "model": "lin",
+   "phi": 0.0,
+   "random": 4.8032,
+   "holdout": 4.8,
+   "rolling": 4.8407,
+   "future": 4.7904,
+   "random_ratio": 0.9949,
+   "holdout_ratio": 0.9913,
+   "rolling_ratio": 1.0103,
+   "random_under": 0.5167,
+   "rolling_under": 0.4667
+  },
+  {
+   "model": "lin",
+   "phi": 0.5,
+   "random": 4.1578,
+   "holdout": 4.1763,
+   "rolling": 4.1534,
+   "future": 4.1711,
+   "random_ratio": 1.01,
+   "holdout_ratio": 0.9999,
+   "rolling_ratio": 0.9854,
+   "random_under": 0.4,
+   "rolling_under": 0.5667
+  },
+  {
+   "model": "lin",
+   "phi": 0.9,
+   "random": 2.1003,
+   "holdout": 2.0995,
+   "rolling": 2.0955,
+   "future": 2.0913,
+   "random_ratio": 0.9978,
+   "holdout_ratio": 1.0037,
+   "rolling_ratio": 0.9981,
+   "random_under": 0.5333,
+   "rolling_under": 0.5167
+  },
+  {
+   "model": "rf",
+   "phi": 0.0,
+   "random": 5.163,
+   "holdout": 6.1822,
+   "rolling": 5.2755,
+   "future": 5.8231,
+   "random_ratio": 0.9032,
+   "holdout_ratio": 1.0838,
+   "rolling_ratio": 0.9215,
+   "random_under": 0.9667,
+   "rolling_under": 0.9
+  },
+  {
+   "model": "rf",
+   "phi": 0.5,
+   "random": 4.4591,
+   "holdout": 4.9497,
+   "rolling": 4.5683,
+   "future": 4.9463,
+   "random_ratio": 0.9145,
+   "holdout_ratio": 1.0021,
+   "rolling_ratio": 0.9352,
+   "random_under": 0.9,
+   "rolling_under": 0.7667
+  },
+  {
+   "model": "rf",
+   "phi": 0.9,
+   "random": 2.3669,
+   "holdout": 2.8648,
+   "rolling": 2.6,
+   "future": 2.9233,
+   "random_ratio": 0.8337,
+   "holdout_ratio": 0.9986,
+   "rolling_ratio": 0.9284,
+   "random_under": 0.9167,
+   "rolling_under": 0.6667
+  }
+ ]
+}
