@@ -1,0 +1,15 @@
+,purchase,return
+zero_rows,0.0,62.0
+zero_pct,0.0,20.7
+true_zero_rows,0.0,25.0
+false_zero_pct,0.0,13.5
+mean_err_pt,-0.522,-0.431
+max_err_pt,-0.995,-0.99
+mean_rel_err_pct,-7.2,-28.8
+avg_exact,8.279,2.554
+avg_trunc,7.757,2.123
+rank_changed_stores,283.0,287.0
+tied_stores,298.0,297.0
+top10_size,15.0,11.0
+top10_overlap,10.0,10.0
+r1_zero_pct,100.0,

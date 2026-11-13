@@ -1,0 +1,72 @@
+{
+ "stores": 300,
+ "purchase_rate": {
+  "zero_rows": 0,
+  "zero_pct": 0.0,
+  "true_zero_rows": 0,
+  "false_zero_pct": 0.0,
+  "mean_err_pt": -0.522,
+  "max_err_pt": -0.995,
+  "mean_rel_err_pct": -7.2,
+  "avg_exact": 8.279,
+  "avg_trunc": 7.757,
+  "rank_changed_stores": 283,
+  "tied_stores": 298,
+  "top10_size": 15,
+  "top10_overlap": 10,
+  "r1_zero_pct": 100.0
+ },
+ "return_rate": {
+  "zero_rows": 62,
+  "zero_pct": 20.7,
+  "true_zero_rows": 25,
+  "false_zero_pct": 13.5,
+  "mean_err_pt": -0.431,
+  "max_err_pt": -0.99,
+  "mean_rel_err_pct": -28.8,
+  "avg_exact": 2.554,
+  "avg_trunc": 2.123,
+  "rank_changed_stores": 287,
+  "tied_stores": 297,
+  "top10_size": 11,
+  "top10_overlap": 10
+ },
+ "overall": {
+  "buy_exact": 8.274,
+  "buy_int": 8,
+  "ret_exact": 2.467,
+  "ret_int": 2
+ },
+ "return_bins": [
+  {
+   "ret_bin": "1%未満",
+   "stores": 62.0,
+   "zero_pct": 100.0,
+   "mean_rel_err_pct": -100.0
+  },
+  {
+   "ret_bin": "1〜2%",
+   "stores": 89.0,
+   "zero_pct": 0.0,
+   "mean_rel_err_pct": -26.7
+  },
+  {
+   "ret_bin": "2〜3%",
+   "stores": 51.0,
+   "zero_pct": 0.0,
+   "mean_rel_err_pct": -17.6
+  },
+  {
+   "ret_bin": "3〜5%",
+   "stores": 65.0,
+   "zero_pct": 0.0,
+   "mean_rel_err_pct": -11.4
+  },
+  {
+   "ret_bin": "5%以上",
+   "stores": 33.0,
+   "zero_pct": 0.0,
+   "mean_rel_err_pct": -6.0
+  }
+ ]
+}
