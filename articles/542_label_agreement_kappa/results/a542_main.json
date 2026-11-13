@@ -1,0 +1,157 @@
+{
+ "assume": {
+  "cats": [
+   "請求・支払い",
+   "配送",
+   "返品・交換",
+   "使い方",
+   "アカウント",
+   "その他"
+  ],
+  "base_p": [
+   0.22,
+   0.26,
+   0.16,
+   0.18,
+   0.12,
+   0.06
+  ],
+  "acc": {
+   "A": 0.92,
+   "B": 0.88
+  },
+  "ambig": 0.15,
+  "ambig_acc": 0.55
+ },
+ "main": {
+  "n": 2000,
+  "agree": 0.781,
+  "disagree_n": 438,
+  "pe": 0.18313175,
+  "kappa": 0.731902910903931,
+  "acc_A": 0.8805,
+  "acc_B": 0.84,
+  "kappa_A_true": 0.8530168295730138,
+  "kappa_B_true": 0.8033382713864252,
+  "agree_ambig": 0.5033112582781457,
+  "agree_clear": 0.8303886925795053,
+  "both_wrong_same": 54
+ },
+ "top_pairs": [
+  [
+   "配送",
+   "返品・交換",
+   95
+  ],
+  [
+   "請求・支払い",
+   "アカウント",
+   62
+  ],
+  [
+   "使い方",
+   "アカウント",
+   42
+  ],
+  [
+   "配送",
+   "その他",
+   28
+  ],
+  [
+   "請求・支払い",
+   "配送",
+   23
+  ]
+ ],
+ "by_n": [
+  {
+   "n": 50,
+   "kappa_mean": 0.7044,
+   "kappa_lo": 0.5562,
+   "kappa_hi": 0.8514,
+   "agree_mean": 0.7615,
+   "agree_lo": 0.64,
+   "agree_hi": 0.88,
+   "share_kappa_below_0.6": 0.087
+  },
+  {
+   "n": 100,
+   "kappa_mean": 0.7124,
+   "kappa_lo": 0.6144,
+   "kappa_hi": 0.816,
+   "agree_mean": 0.7666,
+   "agree_lo": 0.6898,
+   "agree_hi": 0.85,
+   "share_kappa_below_0.6": 0.013
+  },
+  {
+   "n": 200,
+   "kappa_mean": 0.7124,
+   "kappa_lo": 0.6353,
+   "kappa_hi": 0.779,
+   "agree_mean": 0.7658,
+   "agree_lo": 0.7049,
+   "agree_hi": 0.82,
+   "share_kappa_below_0.6": 0.003
+  },
+  {
+   "n": 500,
+   "kappa_mean": 0.7125,
+   "kappa_lo": 0.6671,
+   "kappa_hi": 0.757,
+   "agree_mean": 0.7654,
+   "agree_lo": 0.728,
+   "agree_hi": 0.802,
+   "share_kappa_below_0.6": 0.0
+  },
+  {
+   "n": 2000,
+   "kappa_mean": 0.7134,
+   "kappa_lo": 0.6908,
+   "kappa_hi": 0.736,
+   "agree_mean": 0.7659,
+   "agree_lo": 0.7475,
+   "agree_hi": 0.7845,
+   "share_kappa_below_0.6": 0.0
+  }
+ ],
+ "by_imbalance": [
+  {
+   "top_share": 0.17,
+   "agree": 0.7656,
+   "pe": 0.1782,
+   "kappa": 0.7148
+  },
+  {
+   "top_share": 0.3,
+   "agree": 0.7675,
+   "pe": 0.1897,
+   "kappa": 0.7131
+  },
+  {
+   "top_share": 0.5,
+   "agree": 0.7667,
+   "pe": 0.2608,
+   "kappa": 0.6844
+  },
+  {
+   "top_share": 0.7,
+   "agree": 0.765,
+   "pe": 0.3973,
+   "kappa": 0.6101
+  },
+  {
+   "top_share": 0.8,
+   "agree": 0.7666,
+   "pe": 0.4907,
+   "kappa": 0.5417
+  },
+  {
+   "top_share": 0.9,
+   "agree": 0.7652,
+   "pe": 0.5991,
+   "kappa": 0.4141
+  }
+ ]
+}
