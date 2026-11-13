@@ -1,0 +1,57 @@
+{
+ "customers": 10000,
+ "purchases": 51084,
+ "share_customers_2plus_pct": 71.0,
+ "share_customers_0_pct": 15.1,
+ "I0_true_mean_interval": 113.6,
+ "I0_true_median": 89.2,
+ "I1_gap_mean_2plus": 48.8,
+ "I2_person_mean_2plus": 69.1,
+ "I3_days_per_purchase": 70.9,
+ "I4_gap_mean_obs_1y_plus": 52.0,
+ "I1_vs_I0_pct": -57.0,
+ "I2_vs_I0_pct": -39.2,
+ "I3_vs_I0_pct": -37.6,
+ "I4_vs_I0_pct": -54.2,
+ "true_mean_interval_of_2plus_buyers": 92.9,
+ "true_mean_interval_of_0or1_buyers": 164.2,
+ "true_days_per_purchase_overall": 70.2,
+ "I3_vs_true_overall_pct": 1.0,
+ "by_obs": {
+  "〜3か月": {
+   "customers": 1237.0,
+   "share_2plus_pct": 14.8,
+   "I1": 16.2,
+   "true_mean_of_2plus": 57.6,
+   "true_mean_all": 114.2
+  },
+  "3〜6か月": {
+   "customers": 1242.0,
+   "share_2plus_pct": 45.0,
+   "I1": 27.7,
+   "true_mean_of_2plus": 70.0,
+   "true_mean_all": 113.4
+  },
+  "6〜12か月": {
+   "customers": 2583.0,
+   "share_2plus_pct": 72.9,
+   "I1": 40.5,
+   "true_mean_of_2plus": 86.0,
+   "true_mean_all": 113.3
+  },
+  "12〜18か月": {
+   "customers": 2470.0,
+   "share_2plus_pct": 87.6,
+   "I1": 49.0,
+   "true_mean_of_2plus": 96.0,
+   "true_mean_all": 112.4
+  },
+  "18〜24か月": {
+   "customers": 2468.0,
+   "share_2plus_pct": 93.6,
+   "I1": 54.0,
+   "true_mean_of_2plus": 103.9,
+   "true_mean_all": 114.8
+  }
+ }
+}
