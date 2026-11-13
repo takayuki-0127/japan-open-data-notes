@@ -1,0 +1,99 @@
+{
+ "orders": 20000,
+ "lines": 42625,
+ "shipments": 44360,
+ "orders_partial_pct": 19.05,
+ "orders_never_full_pct": 0.74,
+ "month_end": {
+  "S1_mean": 92.41,
+  "S2_mean": 80.53,
+  "S3_mean": 88.71,
+  "S1_minus_S2_range": [
+   10.27,
+   13.57
+  ]
+ },
+ "days_first": {
+  "n": 19988,
+  "mean": 2.39,
+  "median": 2.0,
+  "p90": 3.0
+ },
+ "days_full": {
+  "n": 19851,
+  "mean": 6.47,
+  "median": 2.0,
+  "p90": 22.0
+ },
+ "days_partial_only": {
+  "first": {
+   "n": 3811,
+   "mean": 1.77,
+   "median": 1.0,
+   "p90": 3.0
+  },
+  "full": {
+   "n": 3771,
+   "mean": 23.26,
+   "median": 18.0,
+   "p90": 48.0
+  }
+ },
+ "by_n_lines": [
+  {
+   "n_lines": 1,
+   "orders": 8921,
+   "partial_pct": 4.5,
+   "first_mean": 3.24,
+   "full_mean": 4.19,
+   "never_full_pct": 0.25
+  },
+  {
+   "n_lines": 2,
+   "orders": 5047,
+   "partial_pct": 21.9,
+   "first_mean": 1.77,
+   "full_mean": 6.29,
+   "never_full_pct": 0.67
+  },
+  {
+   "n_lines": 3,
+   "orders": 2773,
+   "partial_pct": 31.0,
+   "first_mean": 1.65,
+   "full_mean": 8.49,
+   "never_full_pct": 1.26
+  },
+  {
+   "n_lines": 4,
+   "orders": 1637,
+   "partial_pct": 40.4,
+   "first_mean": 1.68,
+   "full_mean": 10.6,
+   "never_full_pct": 1.53
+  },
+  {
+   "n_lines": 5,
+   "orders": 989,
+   "partial_pct": 45.8,
+   "first_mean": 1.65,
+   "full_mean": 11.13,
+   "never_full_pct": 2.12
+  },
+  {
+   "n_lines": 6,
+   "orders": 633,
+   "partial_pct": 52.0,
+   "first_mean": 1.64,
+   "full_mean": 13.73,
+   "never_full_pct": 1.9
+  }
+ ],
+ "year_end_snapshot_all_orders": {
+  "orders": 20000,
+  "S1": 99.28,
+  "S2": 97.5,
+  "S3": 98.76
+ },
+ "sql_python_match": true
+}
