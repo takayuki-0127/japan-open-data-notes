@@ -1,0 +1,52 @@
+{
+ "n": 2000,
+ "reps": 400,
+ "beta_T": 0.7,
+ "true_conditional_or": 2.014,
+ "summary": {
+  "c0.0": {
+   "or_with_x": 2.008,
+   "or_without_x": 2.005,
+   "se_with_x": 0.096,
+   "se_without_x": 0.096,
+   "rd": 0.156,
+   "rate": 0.347,
+   "true_conditional_or": 2.014,
+   "true_marginal_or": 2.014,
+   "true_rd": 0.157
+  },
+  "c1.0": {
+   "or_with_x": 2.01,
+   "or_without_x": 1.793,
+   "se_with_x": 0.104,
+   "se_without_x": 0.094,
+   "rd": 0.134,
+   "rate": 0.37,
+   "true_conditional_or": 2.014,
+   "true_marginal_or": 1.793,
+   "true_rd": 0.135
+  },
+  "c2.0": {
+   "or_with_x": 2.016,
+   "or_without_x": 1.529,
+   "se_with_x": 0.119,
+   "se_without_x": 0.092,
+   "rd": 0.101,
+   "rate": 0.403,
+   "true_conditional_or": 2.014,
+   "true_marginal_or": 1.533,
+   "true_rd": 0.102
+  },
+  "c3.0": {
+   "or_with_x": 2.024,
+   "or_without_x": 1.372,
+   "se_with_x": 0.136,
+   "se_without_x": 0.091,
+   "rd": 0.078,
+   "rate": 0.427,
+   "true_conditional_or": 2.014,
+   "true_marginal_or": 1.381,
+   "true_rd": 0.079
+  }
+ }
+}
