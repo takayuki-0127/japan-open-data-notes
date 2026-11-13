@@ -1,0 +1,113 @@
+{
+ "reps": 1000,
+ "p": 10,
+ "noise_sd": 1.0,
+ "summary": [
+  {
+   "n": 60,
+   "K": 2,
+   "fits": 2,
+   "cv_mean": 1.6024,
+   "true_err_full_mean": 1.2392,
+   "bias": 0.3632,
+   "bias_pct": 29.3,
+   "sd": 0.4576,
+   "rmse_vs_true": 0.5991,
+   "corr_with_true": -0.065,
+   "theory_err_train_size": 1.6111
+  },
+  {
+   "n": 60,
+   "K": 5,
+   "fits": 5,
+   "cv_mean": 1.307,
+   "true_err_full_mean": 1.2392,
+   "bias": 0.0678,
+   "bias_pct": 5.5,
+   "sd": 0.2997,
+   "rmse_vs_true": 0.3313,
+   "corr_with_true": -0.063,
+   "theory_err_train_size": 1.3056
+  },
+  {
+   "n": 60,
+   "K": 10,
+   "fits": 10,
+   "cv_mean": 1.265,
+   "true_err_full_mean": 1.2392,
+   "bias": 0.0258,
+   "bias_pct": 2.1,
+   "sd": 0.2732,
+   "rmse_vs_true": 0.2999,
+   "corr_with_true": -0.056,
+   "theory_err_train_size": 1.2619
+  },
+  {
+   "n": 60,
+   "K": "n",
+   "fits": 60,
+   "cv_mean": 1.2362,
+   "true_err_full_mean": 1.2392,
+   "bias": -0.003,
+   "bias_pct": -0.2,
+   "sd": 0.2587,
+   "rmse_vs_true": 0.2841,
+   "corr_with_true": -0.044,
+   "theory_err_train_size": 1.234
+  },
+  {
+   "n": 300,
+   "K": 2,
+   "fits": 2,
+   "cv_mean": 1.0827,
+   "true_err_full_mean": 1.0499,
+   "bias": 0.0328,
+   "bias_pct": 3.1,
+   "sd": 0.1,
+   "rmse_vs_true": 0.1073,
+   "corr_with_true": -0.034,
+   "theory_err_train_size": 1.0797
+  },
+  {
+   "n": 300,
+   "K": 5,
+   "fits": 5,
+   "cv_mean": 1.0501,
+   "true_err_full_mean": 1.0499,
+   "bias": 0.0002,
+   "bias_pct": 0.0,
+   "sd": 0.0866,
+   "rmse_vs_true": 0.0887,
+   "corr_with_true": -0.021,
+   "theory_err_train_size": 1.0482
+  },
+  {
+   "n": 300,
+   "K": 10,
+   "fits": 10,
+   "cv_mean": 1.0445,
+   "true_err_full_mean": 1.0499,
+   "bias": -0.0054,
+   "bias_pct": -0.5,
+   "sd": 0.0847,
+   "rmse_vs_true": 0.0872,
+   "corr_with_true": -0.029,
+   "theory_err_train_size": 1.0426
+  },
+  {
+   "n": 300,
+   "K": "n",
+   "fits": 300,
+   "cv_mean": 1.0402,
+   "true_err_full_mean": 1.0499,
+   "bias": -0.0096,
+   "bias_pct": -0.9,
+   "sd": 0.0833,
+   "rmse_vs_true": 0.086,
+   "corr_with_true": -0.022,
+   "theory_err_train_size": 1.0383
+  }
+ ],
+ "theory_full_n60": 1.2292,
+ "theory_full_n300": 1.0382
+}
