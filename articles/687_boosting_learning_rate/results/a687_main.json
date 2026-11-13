@@ -1,0 +1,36 @@
+{
+ "n_train": 1000,
+ "n_test": 5000,
+ "reps": 10,
+ "max_trees": 1500,
+ "by_lr": {
+  "0.3": {
+   "best_mse": 2.289,
+   "best_trees": 101,
+   "mse_100": 2.313,
+   "mse_300": 2.363,
+   "mse_1500": 2.385,
+   "early_stop_trees": 86,
+   "early_stop_mse": 2.466
+  },
+  "0.1": {
+   "best_mse": 1.859,
+   "best_trees": 405,
+   "mse_100": 2.178,
+   "mse_300": 1.876,
+   "mse_1500": 1.902,
+   "early_stop_trees": 223,
+   "early_stop_mse": 2.031
+  },
+  "0.03": {
+   "best_mse": 1.758,
+   "best_trees": 1399,
+   "mse_100": 4.62,
+   "mse_300": 2.18,
+   "mse_1500": 1.76,
+   "early_stop_trees": 598,
+   "early_stop_mse": 1.952
+  }
+ },
+ "noise_floor": 1.0
+}
