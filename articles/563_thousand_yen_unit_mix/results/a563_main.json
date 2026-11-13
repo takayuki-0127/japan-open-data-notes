@@ -1,0 +1,96 @@
+{
+ "rows": 2160,
+ "error_rows": 150,
+ "error_by_type": {
+  "ずっと": 72,
+  "1か月だけ": 40,
+  "続けて": 38
+ },
+ "true_moves": {
+  "本当に大きい": 18,
+  "本当に小さい": 12
+ },
+ "scores": {
+  "m1": {
+   "1か月だけ": {
+    "rows": 40,
+    "found": 38
+   },
+   "続けて": {
+    "rows": 38,
+    "found": 8
+   },
+   "ずっと": {
+    "rows": 72,
+    "found": 0
+   },
+   "found_total": 46,
+   "missed_total": 104,
+   "false_positive": 4,
+   "false_positive_true_move": 4
+  },
+  "m2": {
+   "1か月だけ": {
+    "rows": 40,
+    "found": 40
+   },
+   "続けて": {
+    "rows": 38,
+    "found": 38
+   },
+   "ずっと": {
+    "rows": 72,
+    "found": 0
+   },
+   "found_total": 78,
+   "missed_total": 72,
+   "false_positive": 4,
+   "false_positive_true_move": 4
+  },
+  "m3": {
+   "1か月だけ": {
+    "rows": 40,
+    "found": 5
+   },
+   "続けて": {
+    "rows": 38,
+    "found": 8
+   },
+   "ずっと": {
+    "rows": 72,
+    "found": 30
+   },
+   "found_total": 43,
+   "missed_total": 107,
+   "false_positive": 0,
+   "false_positive_true_move": 0
+  },
+  "m2m3": {
+   "1か月だけ": {
+    "rows": 40,
+    "found": 40
+   },
+   "続けて": {
+    "rows": 38,
+    "found": 38
+   },
+   "ずっと": {
+    "rows": 72,
+    "found": 64
+   },
+   "found_total": 142,
+   "missed_total": 8,
+   "false_positive": 4,
+   "false_positive_true_move": 4
+  }
+ },
+ "months_with_gap": 36,
+ "monthly_total_diff_pct": {
+  "min": -16.96,
+  "max": -0.77,
+  "mean": -3.79
+ },
+ "m3_months_unresolved": 21,
+ "m2then3_months_unresolved": 4,
+ "sql_python_match_m1_m2": true
+}
