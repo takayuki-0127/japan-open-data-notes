@@ -1,0 +1,38 @@
+{
+ "n_items": 300,
+ "n_lines": 80000,
+ "unit_share_lines_pct": {
+  "個": 49.6,
+  "箱": 33.2,
+  "ケース": 17.1
+ },
+ "total_true_pcs": 5197119,
+ "total_raw": 644197,
+ "total_raw_ratio_pct": 12.4,
+ "raw_item_err": {
+  "median": -85.3,
+  "min": -97.6,
+  "max": -20.9,
+  "n_items_abs_over_50": 281
+ },
+ "raw_top20_overlap": 11,
+ "raw_rank_spearman": 0.727,
+ "raw_rank_moved_50plus": 125,
+ "master_missing_items": 12,
+ "unmatched_lines": 770,
+ "unmatched_true_pcs": 103692,
+ "master_missing_item_err": {
+  "median": -32.6,
+  "min": -92.7,
+  "max": -3.3
+ },
+ "inner_join_drops_pcs_pct": 2.0,
+ "pack_change_items": 8,
+ "pack_change_err_master": {
+  "median": -7.6,
+  "min": -10.5,
+  "max": -6.1
+ },
+ "hist_err_max_abs_excluding_missing": 0.0,
+ "sql_match_python": true
+}
