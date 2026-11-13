@@ -1,0 +1,57 @@
+{
+ "stores": 2000,
+ "sample_size": 120,
+ "true_sales": 593.01,
+ "true_cashless": 0.3987,
+ "sample_share_large_pct": 41.7,
+ "pop_share_large_pct": 5.0,
+ "one_sample": {
+  "sales_W0": 1785.8,
+  "sales_W1": 601.2,
+  "cash_W0": 0.5427,
+  "cash_W1": 0.3906
+ },
+ "reps": 2000,
+ "summary": {
+  "sales_W0": {
+   "mean": 1711.203,
+   "bias_pct": 188.56,
+   "sd": 50.9041,
+   "rmse": 1119.3496,
+   "coverage_pct": 0.0
+  },
+  "sales_W1": {
+   "mean": 592.7432,
+   "bias_pct": -0.05,
+   "sd": 21.0564,
+   "rmse": 21.0529
+  },
+  "sales_W2": {
+   "mean": 592.7432,
+   "bias_pct": -0.05,
+   "sd": 21.0564,
+   "rmse": 21.0529,
+   "coverage_pct": 93.8
+  },
+  "cashless_rate_W0": {
+   "mean": 0.5443,
+   "bias_pct": 36.49,
+   "sd": 0.0062,
+   "rmse": 0.1456,
+   "coverage_pct": 0.0
+  },
+  "cashless_rate_W1": {
+   "mean": 0.3987,
+   "bias_pct": -0.0,
+   "sd": 0.011,
+   "rmse": 0.011
+  },
+  "cashless_rate_W2": {
+   "mean": 0.3987,
+   "bias_pct": -0.0,
+   "sd": 0.011,
+   "rmse": 0.011,
+   "coverage_pct": 94.1
+  }
+ }
+}
