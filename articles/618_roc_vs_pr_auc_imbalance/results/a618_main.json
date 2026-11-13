@@ -1,0 +1,121 @@
+{
+ "models": {
+  "A": {
+   "pos_mean": 1.6,
+   "pos_sd": 1.0
+  },
+  "B": {
+   "pos_mean": 1.0,
+   "pos_sd": 2.0
+  }
+ },
+ "n_per_scenario": 400000,
+ "by_prev": [
+  {
+   "prev": 0.5,
+   "model": "A",
+   "pos": 199813,
+   "roc_auc": 0.8708,
+   "pr_auc": 0.8693,
+   "prec_top10": 0.964,
+   "recall_top10": 0.193
+  },
+  {
+   "prev": 0.5,
+   "model": "B",
+   "pos": 199935,
+   "roc_auc": 0.6724,
+   "pr_auc": 0.7516,
+   "prec_top10": 0.9828,
+   "recall_top10": 0.1966
+  },
+  {
+   "prev": 0.1,
+   "model": "A",
+   "pos": 39941,
+   "roc_auc": 0.8711,
+   "pr_auc": 0.5162,
+   "prec_top10": 0.5002,
+   "recall_top10": 0.501
+  },
+  {
+   "prev": 0.1,
+   "model": "B",
+   "pos": 40014,
+   "roc_auc": 0.6752,
+   "pr_auc": 0.4233,
+   "prec_top10": 0.4048,
+   "recall_top10": 0.4047
+  },
+  {
+   "prev": 0.01,
+   "model": "A",
+   "pos": 4005,
+   "roc_auc": 0.8659,
+   "pr_auc": 0.1434,
+   "prec_top10": 0.0598,
+   "recall_top10": 0.5975
+  },
+  {
+   "prev": 0.01,
+   "model": "B",
+   "pos": 4058,
+   "roc_auc": 0.6706,
+   "pr_auc": 0.1912,
+   "prec_top10": 0.0442,
+   "recall_top10": 0.4357
+  },
+  {
+   "prev": 0.001,
+   "model": "A",
+   "pos": 367,
+   "roc_auc": 0.8644,
+   "pr_auc": 0.0172,
+   "prec_top10": 0.0058,
+   "recall_top10": 0.6349
+  },
+  {
+   "prev": 0.001,
+   "model": "B",
+   "pos": 453,
+   "roc_auc": 0.6838,
+   "pr_auc": 0.1204,
+   "prec_top10": 0.0054,
+   "recall_top10": 0.4746
+  }
+ ],
+ "small_sample": {
+  "roc_A": {
+   "mean": 0.8713,
+   "sd": 0.0247,
+   "p05": 0.8307,
+   "p95": 0.9096,
+   "cv_pct": 2.8
+  },
+  "roc_B": {
+   "mean": 0.6773,
+   "sd": 0.0535,
+   "p05": 0.5898,
+   "p95": 0.766,
+   "cv_pct": 7.9
+  },
+  "pr_A": {
+   "mean": 0.1559,
+   "sd": 0.0523,
+   "p05": 0.075,
+   "p95": 0.25,
+   "cv_pct": 33.5
+  },
+  "pr_B": {
+   "mean": 0.2057,
+   "sd": 0.0599,
+   "p05": 0.1149,
+   "p95": 0.3047,
+   "cv_pct": 29.1
+  },
+  "A_beats_B_roc_pct": 100.0,
+  "B_beats_A_pr_pct": 73.4
+ },
+ "reps": 500,
+ "n_small": 5000
+}
