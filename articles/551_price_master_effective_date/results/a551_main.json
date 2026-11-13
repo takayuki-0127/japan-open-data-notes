@@ -1,0 +1,82 @@
+{
+ "items": 80,
+ "lines": 60000,
+ "items_with_change": 73,
+ "price_changes": 124,
+ "total_J0": 88328440,
+ "summary": {
+  "J1": {
+   "rows": 60000,
+   "lines_wrong": 29786,
+   "pct_lines_wrong": 49.64,
+   "dup_lines": 0,
+   "total": 91130160,
+   "diff": 2801720,
+   "diff_pct": 3.17,
+   "abs_diff": 4011400
+  },
+  "J2": {
+   "rows": 60000,
+   "lines_wrong": 3723,
+   "pct_lines_wrong": 6.2,
+   "dup_lines": 0,
+   "total": 88093360,
+   "diff": -235080,
+   "diff_pct": -0.27,
+   "abs_diff": 512860
+  },
+  "J3": {
+   "rows": 60217,
+   "lines_wrong": 217,
+   "pct_lines_wrong": 0.36,
+   "dup_lines": 217,
+   "total": 88665740,
+   "diff": 337300,
+   "diff_pct": 0.38,
+   "abs_diff": 337300
+  }
+ },
+ "rank_moved_items_J1": 43,
+ "top10_swapped_J1": 0,
+ "lines_on_change_day": 217,
+ "month_diff_pct": {
+  "J1": {
+   "min": 0.27,
+   "max": 6.23
+  },
+  "J2": {
+   "min": -1.09,
+   "max": 1.0
+  },
+  "J3": {
+   "min": 0.0,
+   "max": 0.95
+  }
+ },
+ "by_change_count": [
+  {
+   "n_change": 0,
+   "items": 7,
+   "diff_pct_med": 0.0,
+   "diff_pct_max": 0.0
+  },
+  {
+   "n_change": 1,
+   "items": 31,
+   "diff_pct_med": 3.97,
+   "diff_pct_max": 15.87
+  },
+  {
+   "n_change": 2,
+   "items": 33,
+   "diff_pct_med": 8.14,
+   "diff_pct_max": 21.51
+  },
+  {
+   "n_change": 3,
+   "items": 9,
+   "diff_pct_med": 10.15,
+   "diff_pct_max": 13.71
+  }
+ ]
+}
