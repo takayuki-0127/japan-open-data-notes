@@ -1,0 +1,37 @@
+{
+ "reps": 2000,
+ "sd": 1.0,
+ "main_effect": 0.2,
+ "n_needed_80pct_sim": {
+  "main_0.2": 800,
+  "inter_0.2": 3200,
+  "inter_0.1": 12800
+ },
+ "n_needed_80pct_theory": {
+  "main_0.2": 785,
+  "inter_0.2": 3140,
+  "inter_0.1": 12558
+ },
+ "power_at_n800": {
+  "power_main_0.2": 81.2,
+  "power_inter_0.2": 29.8,
+  "power_inter_0.1": 11.3
+ },
+ "power_at_n3200": {
+  "power_main_0.2": 100.0,
+  "power_inter_0.2": 80.0,
+  "power_inter_0.1": 28.6
+ },
+ "power_at_n12800": {
+  "power_main_0.2": 100.0,
+  "power_inter_0.2": 100.0,
+  "power_inter_0.1": 80.2
+ },
+ "se_ratio_inter_over_main": 2.0,
+ "statsmodels_check_A": 0.2113,
+ "statsmodels_check_AB": 0.135,
+ "spread_n800": {
+  "sd_main": 0.0714,
+  "sd_inter": 0.1429
+ }
+}
