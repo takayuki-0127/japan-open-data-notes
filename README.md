@@ -302,7 +302,7 @@
 | 095 | [就業者は13年で550万人増えた。増えたのは女性と65歳以上で、人口が減る分を「働く人の割合」が912万人押し上げた](articles/095_employment_growth) | 就業者の増加を「人口」と「働く人の割合」に要因分解 |
 | 137 | [市区町村の歳出の4割は福祉（民生費）。12年で1.5倍になり、伸びが大きかったのは子どもと障害者福祉など](articles/137_welfare_spending) | e-Stat の CSV から必要な行を抜き出して表を作るところからコード化 |
 
-## 記事の一覧（503本）
+## 記事の一覧（508本）
 | # | 記事のタイトル | フォルダ |
 |---|---|---|
 | 000 | 女性の労働力率は何で決まる？ 全国1,739市区町村の公開データで調べてみた | [000_women_labor](articles/000_women_labor) |
@@ -808,6 +808,11 @@
 | 508 | 同じ事故の複数の請求を別々の損害として数えると、大きな損害の層の見積もりはどれだけずれるのか？ 架空の事故2,028件で件数1.9倍、層の期待損害は3分の1 | [508_claims_per_event_count_unit](articles/508_claims_per_event_count_unit) |
 | 509 | 起きる割合が学習のときから変わると、0.5で切る予測は何件を見逃すのか？ 学習1%→本番5%の架空の例で4,966件中3,801件 | [509_prior_shift_threshold](articles/509_prior_shift_threshold) |
 | 510 | 同じ検証データで2つのモデルを比べると、本当は同じ力でも何%の回で「片方が良い」と出るのか？ 検証1,000件で97%、組で見た区間では5% | [510_same_validation_model_tie](articles/510_same_validation_model_tie) |
+| 511 | ログの利用者IDが Cookie だと、ユニーク利用者は本当の人数の何倍に数えられるのか？ 架空の5,000人の1年で日は1.06倍、月は1.75倍、年は8.66倍 | [511_cookie_vs_login_unique_users](articles/511_cookie_vs_login_unique_users) |
+| 512 | 割合を小数1桁で表示すると、前月からの増減が「0.0」や逆の向きに見える月は何か月あるのか？ 架空の KPI 10,800か月で0.0は41%、逆向きは丸めた人数から率を出したときだけ6.5% | [512_rounded_display_mom_change](articles/512_rounded_display_mom_change) |
+| 513 | ログを10件に1件だけ残して10倍すると、小さな区分の件数はどれだけ振れるのか？ 架空のログ100万件で100件未満の区分は35%、1万件以上は2% | [513_log_sampling_small_segments](articles/513_log_sampling_small_segments) |
+| 514 | 入庫と出庫の記録が遅れて届くと、在庫が一時的にマイナスになる日は何日あるのか？ 架空の200品目×180日で、入庫の記録が6時間遅れると314品目・日、締めを翌9時にすると184 | [514_inventory_record_delay_negative](articles/514_inventory_record_delay_negative) |
+| 515 | Excel の SUM でフィルタで隠した行も含めて合計すると、表の合計は何%多くなるのか？ 8地域のうち4地域を残すと2倍、SUBTOTAL(9) も手で隠した行5%で+4.8% | [515_excel_sum_vs_subtotal_hidden](articles/515_excel_sum_vs_subtotal_hidden) |
 
 ## 共通の方針
 - データは e-Stat などの公開データだけを使い、出典は各フォルダの README に書いています（政府標準利用規約 第2.0版などに沿って「〇〇をもとに作成者が加工して作成」）
