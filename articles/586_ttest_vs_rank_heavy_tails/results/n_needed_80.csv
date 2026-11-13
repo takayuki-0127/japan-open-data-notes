@@ -1,0 +1,5 @@
+dist,t_welch,wilcoxon
+normal,65,68
+t3,61,36
+contam,63,16
+lognorm,59,17
