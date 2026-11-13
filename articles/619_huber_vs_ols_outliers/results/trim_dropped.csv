@@ -1,0 +1,11 @@
+kind,frac,n_dropped
+leverage,0.0,0.46
+leverage,0.01,2.0
+leverage,0.05,2.9
+leverage,0.1,0.2
+leverage,0.2,0.53
+vertical,0.0,0.5
+vertical,0.01,2.0
+vertical,0.05,10.0
+vertical,0.1,7.23
+vertical,0.2,0.0
