@@ -1,0 +1,4 @@
+sig_level,alpha_hat_median,alpha_hat_q10,alpha_hat_q90,share_min_grid
+0.0,0.05,0.01,0.11,15.8
+0.2,0.18,0.13,0.24,0.0
+0.5,0.39,0.32,0.46,0.0
