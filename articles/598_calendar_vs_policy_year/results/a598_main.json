@@ -1,0 +1,245 @@
+{
+ "annual": [
+  {
+   "scenario": "A",
+   "year": 2019,
+   "accident": 0.050091,
+   "policy": 0.048834,
+   "report": 0.050464
+  },
+  {
+   "scenario": "A",
+   "year": 2020,
+   "accident": 0.047698,
+   "policy": 0.048382,
+   "report": 0.047545
+  },
+  {
+   "scenario": "A",
+   "year": 2021,
+   "accident": 0.049705,
+   "policy": 0.049854,
+   "report": 0.049428
+  },
+  {
+   "scenario": "A",
+   "year": 2022,
+   "accident": 0.048626,
+   "policy": 0.049423,
+   "report": 0.048635
+  },
+  {
+   "scenario": "A",
+   "year": 2023,
+   "accident": 0.05643,
+   "policy": 0.059992,
+   "report": 0.053988
+  },
+  {
+   "scenario": "A",
+   "year": 2024,
+   "accident": 0.060232,
+   "policy": 0.059459,
+   "report": 0.060563
+  },
+  {
+   "scenario": "A",
+   "year": 2025,
+   "accident": 0.059917,
+   "policy": 0.060693,
+   "report": 0.059506
+  },
+  {
+   "scenario": "B",
+   "year": 2019,
+   "accident": 0.050307,
+   "policy": 0.049891,
+   "report": 0.050169
+  },
+  {
+   "scenario": "B",
+   "year": 2020,
+   "accident": 0.049919,
+   "policy": 0.050181,
+   "report": 0.049299
+  },
+  {
+   "scenario": "B",
+   "year": 2021,
+   "accident": 0.049807,
+   "policy": 0.049835,
+   "report": 0.050029
+  },
+  {
+   "scenario": "B",
+   "year": 2022,
+   "accident": 0.050485,
+   "policy": 0.050613,
+   "report": 0.05018
+  },
+  {
+   "scenario": "B",
+   "year": 2023,
+   "accident": 0.053639,
+   "policy": 0.057,
+   "report": 0.052391
+  },
+  {
+   "scenario": "B",
+   "year": 2024,
+   "accident": 0.059656,
+   "policy": 0.060346,
+   "report": 0.059258
+  },
+  {
+   "scenario": "B",
+   "year": 2025,
+   "accident": 0.060715,
+   "policy": 0.060181,
+   "report": 0.060345
+  }
+ ],
+ "annual_expected": [
+  {
+   "scenario": "A",
+   "year": 2019,
+   "accident": 0.05,
+   "policy": 0.05,
+   "report": 0.049815
+  },
+  {
+   "scenario": "A",
+   "year": 2020,
+   "accident": 0.05,
+   "policy": 0.05,
+   "report": 0.049816
+  },
+  {
+   "scenario": "A",
+   "year": 2021,
+   "accident": 0.05,
+   "policy": 0.05,
+   "report": 0.049816
+  },
+  {
+   "scenario": "A",
+   "year": 2022,
+   "accident": 0.05,
+   "policy": 0.050818,
+   "report": 0.049816
+  },
+  {
+   "scenario": "A",
+   "year": 2023,
+   "accident": 0.055035,
+   "policy": 0.058211,
+   "report": 0.053649
+  },
+  {
+   "scenario": "A",
+   "year": 2024,
+   "accident": 0.06,
+   "policy": 0.06,
+   "report": 0.059723
+  },
+  {
+   "scenario": "A",
+   "year": 2025,
+   "accident": 0.06,
+   "policy": 0.06,
+   "report": 0.059779
+  },
+  {
+   "scenario": "B",
+   "year": 2019,
+   "accident": 0.05,
+   "policy": 0.05,
+   "report": 0.049815
+  },
+  {
+   "scenario": "B",
+   "year": 2020,
+   "accident": 0.05,
+   "policy": 0.05,
+   "report": 0.049816
+  },
+  {
+   "scenario": "B",
+   "year": 2021,
+   "accident": 0.05,
+   "policy": 0.05,
+   "report": 0.049816
+  },
+  {
+   "scenario": "B",
+   "year": 2022,
+   "accident": 0.05,
+   "policy": 0.05,
+   "report": 0.049816
+  },
+  {
+   "scenario": "B",
+   "year": 2023,
+   "accident": 0.053599,
+   "policy": 0.057254,
+   "report": 0.052623
+  },
+  {
+   "scenario": "B",
+   "year": 2024,
+   "accident": 0.059675,
+   "policy": 0.06,
+   "report": 0.059001
+  },
+  {
+   "scenario": "B",
+   "year": 2025,
+   "accident": 0.06,
+   "policy": 0.06,
+   "report": 0.059778
+  }
+ ],
+ "detection_median": [
+  {
+   "scenario": "A",
+   "accident": 6.0,
+   "policy": 11.0,
+   "report": 7.0
+  },
+  {
+   "scenario": "B",
+   "accident": 11.0,
+   "policy": 17.0,
+   "report": 12.0
+  }
+ ],
+ "detection_mean": [
+  {
+   "scenario": "A",
+   "accident": 6.18,
+   "policy": 11.29,
+   "report": 6.94
+  },
+  {
+   "scenario": "B",
+   "accident": 11.01,
+   "policy": 16.7,
+   "report": 11.9
+  }
+ ],
+ "sql": [
+  {
+   "max_abs_diff": 2.775557561562892e-17,
+   "match": true
+  }
+ ],
+ "policies_per_year": {
+  "2019": 103064,
+  "2020": 106155,
+  "2021": 109340,
+  "2022": 112620,
+  "2023": 115999,
+  "2024": 119477,
+  "2025": 123062
+ }
+}
