@@ -1,0 +1,91 @@
+{
+ "true_growth_pct": 3.0,
+ "summary": {
+  "D1": {
+   "days": 365,
+   "sd_pt": 20.85,
+   "p10": -29.3,
+   "p90": 33.5,
+   "minus_days": 131,
+   "minus_pct": 35.9,
+   "abs_err_over_10pt": 196,
+   "mean": 5.53
+  },
+  "D2": {
+   "days": 365,
+   "sd_pt": 10.68,
+   "p10": -3.5,
+   "p90": 9.8,
+   "minus_days": 94,
+   "minus_pct": 25.8,
+   "abs_err_over_10pt": 30,
+   "mean": 3.78
+  },
+  "D3": {
+   "days": 339,
+   "sd_pt": 4.55,
+   "p10": -2.8,
+   "p90": 8.8,
+   "minus_days": 84,
+   "minus_pct": 24.8,
+   "abs_err_over_10pt": 11,
+   "mean": 3.05
+  }
+ },
+ "aggregated": {
+  "week": {
+   "D1_sd": 2.34,
+   "D2_sd": 2.15,
+   "D1_minus": 2,
+   "D2_minus": 2,
+   "n": 52,
+   "D1_range": [
+    -1.1,
+    9.5
+   ],
+   "D2_range": [
+    -1.1,
+    10.1
+   ]
+  },
+  "month": {
+   "D1_sd": 1.51,
+   "D2_sd": 0.92,
+   "D1_minus": 0,
+   "D2_minus": 0,
+   "n": 12,
+   "D1_range": [
+    0.9,
+    5.7
+   ],
+   "D2_range": [
+    1.4,
+    5.0
+   ]
+  }
+ },
+ "days_opposite_sign_D1_D2": 153,
+ "days_holiday_mismatch_D2": 26,
+ "by_weekday_D1_mean": {
+  "0": -24.31,
+  "1": -9.43,
+  "2": 4.45,
+  "3": 9.09,
+  "4": 20.78,
+  "5": 37.28,
+  "6": 0.87
+ },
+ "by_weekday_D2_mean": {
+  "0": 3.58,
+  "1": 7.28,
+  "2": 2.93,
+  "3": 4.03,
+  "4": 2.49,
+  "5": 3.03,
+  "6": 3.11
+ },
+ "weekday_shift_counts": {
+  "1": 306,
+  "2": 59
+ }
+}
