@@ -1,0 +1,84 @@
+{
+ "persons_true": 20000,
+ "registrations": 24411,
+ "orders": 26044,
+ "persons_with_2plus_ids": 3562,
+ "methods": {
+  "寄せない（IDのまま）": {
+   "customers": 24411,
+   "over_merged_customers": 0,
+   "regs_in_over_merged": 0,
+   "persons_split": 3562,
+   "buyers": 11774,
+   "repeat_rate_pct": 52.22
+  },
+  "電話": {
+   "customers": 21185,
+   "over_merged_customers": 173,
+   "regs_in_over_merged": 381,
+   "persons_split": 1316,
+   "buyers": 11077,
+   "repeat_rate_pct": 55.63
+  },
+  "メール": {
+   "customers": 22451,
+   "over_merged_customers": 27,
+   "regs_in_over_merged": 55,
+   "persons_split": 2224,
+   "buyers": 11378,
+   "repeat_rate_pct": 54.27
+  },
+  "氏名＋生年月日": {
+   "customers": 20920,
+   "over_merged_customers": 11,
+   "regs_in_over_merged": 24,
+   "persons_split": 897,
+   "buyers": 11050,
+   "repeat_rate_pct": 55.9
+  },
+  "電話またはメール": {
+   "customers": 20555,
+   "over_merged_customers": 193,
+   "regs_in_over_merged": 487,
+   "persons_split": 756,
+   "buyers": 10934,
+   "repeat_rate_pct": 56.36
+  },
+  "3つのどれか": {
+   "customers": 19945,
+   "over_merged_customers": 202,
+   "regs_in_over_merged": 560,
+   "persons_split": 174,
+   "buyers": 10807,
+   "repeat_rate_pct": 57.1
+  },
+  "正解（本当の人）": {
+   "customers": 20000,
+   "over_merged_customers": 0,
+   "regs_in_over_merged": 0,
+   "persons_split": 0,
+   "buyers": 10853,
+   "repeat_rate_pct": 57.05
+  }
+ },
+ "no_normalize": {
+  "電話（正規化なし）": {
+   "customers": 22587,
+   "over_merged_customers": 107,
+   "regs_in_over_merged": 224,
+   "persons_split": 2455,
+   "buyers": 11391,
+   "repeat_rate_pct": 54.14
+  },
+  "氏名＋生年月日（正規化なし）": {
+   "customers": 23209,
+   "over_merged_customers": 2,
+   "regs_in_over_merged": 5,
+   "persons_split": 2863,
+   "buyers": 11565,
+   "repeat_rate_pct": 53.28
+  }
+ },
+ "sql_phone_customers": 21185,
+ "sql_match_python": true
+}
