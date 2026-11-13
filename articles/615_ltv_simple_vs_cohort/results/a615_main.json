@@ -1,0 +1,27 @@
+{
+ "joins_per_month": 1000,
+ "months": 36,
+ "member_months": 337205,
+ "L1_simple_active_base": 63863,
+ "arpu_active": 3948,
+ "churn_active_pct": 6.18,
+ "active_mix_dec2025": {
+  "heavy": 0.647,
+  "light": 0.353
+ },
+ "L2_simple_first12m": 47201,
+ "arpu_new": 3509,
+ "churn_new_pct": 7.43,
+ "L3_cohort_extrapolated": 71352,
+ "L3_observed_36m_part": 54148,
+ "L3_by_observed_length": {
+  "12": 61218,
+  "24": 68874,
+  "36": 71352
+ },
+ "true_10y": 74943,
+ "true_infinite": 76667,
+ "L1_vs_true_pct": -14.8,
+ "L2_vs_true_pct": -37.0,
+ "L3_vs_true_pct": -4.8
+}
