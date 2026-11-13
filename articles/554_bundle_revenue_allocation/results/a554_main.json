@@ -1,0 +1,40 @@
+{
+ "items": 30,
+ "sets": 10,
+ "items_in_sets": 17,
+ "set_sales_share_pct": 55.2,
+ "total_sales": 108364240,
+ "set_sales": 59846230,
+ "discount_pct_range": [
+  10.9,
+  24.8
+ ],
+ "B_vs_A_pct": {
+  "min": -21.7,
+  "max": 15.0,
+  "median_abs": 4.0
+ },
+ "C_vs_A_pct": {
+  "min": -41.7,
+  "max": 216.3,
+  "median_abs": 25.8
+ },
+ "gpr_range_pt": {
+  "median": 21.8,
+  "max": 43.1,
+  "max_item": "I29"
+ },
+ "rank_changed_B": 11,
+ "rank_changed_C": 20,
+ "top10_diff_B": 0,
+ "top10_diff_C": 1,
+ "total_gp_same": true,
+ "max_item_detail": {
+  "sales_A": 6322053.3,
+  "sales_B": 6335078.8,
+  "sales_C": 3684873.3,
+  "gpr_A": 40.0,
+  "gpr_B": 40.1,
+  "gpr_C": -3.0
+ }
+}
