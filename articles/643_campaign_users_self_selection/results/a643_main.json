@@ -1,0 +1,93 @@
+{
+ "customers": 20000,
+ "reps": 200,
+ "example": {
+  "use_rate_pct": 28.0,
+  "naive": 2813.0,
+  "decile": 434.3,
+  "regression": 378.8,
+  "sql_naive": 2813.0,
+  "sql_decile": 434.3,
+  "prev_spend_median": {
+   "used": 21310.0,
+   "not_used": 9750.0
+  },
+  "next_spend_mean": 3193.8
+ },
+ "summary": {
+  "0": {
+   "naive": {
+    "mean": 2729.7,
+    "sd": 75.7
+   },
+   "decile": {
+    "mean": 431.5,
+    "sd": 86.1
+   },
+   "regression": {
+    "mean": 348.1,
+    "sd": 51.4
+   },
+   "rct_wald": {
+    "mean": 20.5,
+    "sd": 188.8
+   },
+   "rct_itt": {
+    "mean": 6.0,
+    "sd": 53.0
+   },
+   "rct_use_rate": {
+    "mean": 28.1,
+    "sd": 0.4
+   }
+  },
+  "500": {
+   "naive": {
+    "mean": 3226.5,
+    "sd": 74.0
+   },
+   "decile": {
+    "mean": 933.8,
+    "sd": 83.6
+   },
+   "regression": {
+    "mean": 848.4,
+    "sd": 50.0
+   },
+   "rct_wald": {
+    "mean": 517.0,
+    "sd": 179.3
+   },
+   "rct_itt": {
+    "mean": 145.1,
+    "sd": 50.8
+   },
+   "rct_use_rate": {
+    "mean": 28.0,
+    "sd": 0.5
+   }
+  }
+ },
+ "by_selection": {
+  "0.0": {
+   "naive": -2.7,
+   "decile": 0.6,
+   "regression": -2.7
+  },
+  "0.5": {
+   "naive": 1580.1,
+   "decile": 208.5,
+   "regression": 159.8
+  },
+  "1.0": {
+   "naive": 2705.0,
+   "decile": 415.7,
+   "regression": 339.5
+  },
+  "1.5": {
+   "naive": 3302.3,
+   "decile": 581.7,
+   "regression": 410.1
+  }
+ }
+}
