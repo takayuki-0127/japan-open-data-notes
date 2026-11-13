@@ -1,0 +1,99 @@
+{
+ "n_items": 200,
+ "noise_old": 0.1,
+ "noise_new": 0.15,
+ "true_loa_half": 0.35334402499547096,
+ "sql_matches_python": true,
+ "cases": [
+  {
+   "case": "A_一致",
+   "r": 0.9997,
+   "mean_diff": 0.0071,
+   "sd_diff": 0.1755,
+   "loa_low": -0.3369,
+   "loa_high": 0.3512,
+   "slope_diff_on_mean": -0.0016,
+   "within_0_3": 0.91
+  },
+  {
+   "case": "B_一定のずれ",
+   "r": 0.9997,
+   "mean_diff": 0.498,
+   "sd_diff": 0.1842,
+   "loa_low": 0.137,
+   "loa_high": 0.859,
+   "slope_diff_on_mean": 0.0005,
+   "within_0_3": 0.125
+  },
+  {
+   "case": "C_比例のずれ",
+   "r": 0.9998,
+   "mean_diff": 0.4515,
+   "sd_diff": 0.2823,
+   "loa_low": -0.1018,
+   "loa_high": 1.0048,
+   "slope_diff_on_mean": 0.0286,
+   "within_0_3": 0.31
+  },
+  {
+   "case": "D_一致・狭い範囲",
+   "r": 0.8162,
+   "mean_diff": -0.0125,
+   "sd_diff": 0.1933,
+   "loa_low": -0.3913,
+   "loa_high": 0.3663,
+   "slope_diff_on_mean": 0.1204,
+   "within_0_3": 0.895
+  }
+ ],
+ "range": [
+  {
+   "width": 0.5,
+   "r_med": 0.5705,
+   "r_p05": 0.4899,
+   "r_p95": 0.6358,
+   "loa_half_med": 0.3515,
+   "r_over_095": 0.0
+  },
+  {
+   "width": 1.0,
+   "r_med": 0.8402,
+   "r_p05": 0.8027,
+   "r_p95": 0.8669,
+   "loa_half_med": 0.3531,
+   "r_over_095": 0.0
+  },
+  {
+   "width": 2.0,
+   "r_med": 0.9537,
+   "r_p05": 0.9447,
+   "r_p95": 0.9613,
+   "loa_half_med": 0.3524,
+   "r_over_095": 0.752
+  },
+  {
+   "width": 5.0,
+   "r_med": 0.9923,
+   "r_p05": 0.9905,
+   "r_p95": 0.9938,
+   "loa_half_med": 0.3536,
+   "r_over_095": 1.0
+  },
+  {
+   "width": 10.0,
+   "r_med": 0.998,
+   "r_p05": 0.9977,
+   "r_p95": 0.9984,
+   "loa_half_med": 0.3526,
+   "r_over_095": 1.0
+  },
+  {
+   "width": 29.0,
+   "r_med": 0.9998,
+   "r_p05": 0.9997,
+   "r_p95": 0.9998,
+   "loa_half_med": 0.3542,
+   "r_over_095": 1.0
+  }
+ ]
+}
