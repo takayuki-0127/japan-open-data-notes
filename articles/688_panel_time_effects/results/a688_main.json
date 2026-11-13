@@ -1,0 +1,56 @@
+{
+ "stores": 100,
+ "years": 8,
+ "reps": 500,
+ "true_effect": 1.0,
+ "summary": {
+  "g0.0": {
+   "unit_fe": {
+    "mean": 1.024,
+    "sd": 0.321,
+    "cover": 43.0
+   },
+   "twoway_fe": {
+    "mean": 1.005,
+    "sd": 0.127,
+    "cover": 94.8
+   }
+  },
+  "g0.1": {
+   "unit_fe": {
+    "mean": 1.418,
+    "sd": 0.317,
+    "cover": 18.6
+   },
+   "twoway_fe": {
+    "mean": 1.0,
+    "sd": 0.122,
+    "cover": 95.0
+   }
+  },
+  "g0.25": {
+   "unit_fe": {
+    "mean": 1.985,
+    "sd": 0.321,
+    "cover": 1.0
+   },
+   "twoway_fe": {
+    "mean": 0.997,
+    "sd": 0.121,
+    "cover": 95.4
+   }
+  },
+  "g0.5": {
+   "unit_fe": {
+    "mean": 2.989,
+    "sd": 0.324,
+    "cover": 0.0
+   },
+   "twoway_fe": {
+    "mean": 1.001,
+    "sd": 0.12,
+    "cover": 95.8
+   }
+  }
+ }
+}
