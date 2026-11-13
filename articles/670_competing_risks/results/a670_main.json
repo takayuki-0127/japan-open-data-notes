@@ -1,0 +1,48 @@
+{
+ "members": 20000,
+ "h_cancel": 0.15,
+ "years": 3.0,
+ "reps": 100,
+ "by_h_move": {
+  "0.0": {
+   "true_pct": 36.24,
+   "one_minus_km_pct": 36.23,
+   "cif_pct": 36.23,
+   "km_over_pct": -0.0,
+   "km_cancel_plus_km_move_pct": 36.23,
+   "all_exit_pct": 36.23
+  },
+  "0.05": {
+   "true_pct": 33.84,
+   "one_minus_km_pct": 36.25,
+   "cif_pct": 33.85,
+   "km_over_pct": 7.1,
+   "km_cancel_plus_km_move_pct": 50.22,
+   "all_exit_pct": 45.16
+  },
+  "0.1": {
+   "true_pct": 31.66,
+   "one_minus_km_pct": 36.28,
+   "cif_pct": 31.69,
+   "km_over_pct": 14.6,
+   "km_cancel_plus_km_move_pct": 62.14,
+   "all_exit_pct": 52.76
+  },
+  "0.2": {
+   "true_pct": 27.86,
+   "one_minus_km_pct": 36.16,
+   "cif_pct": 27.8,
+   "km_over_pct": 29.8,
+   "km_cancel_plus_km_move_pct": 81.3,
+   "all_exit_pct": 64.97
+  },
+  "0.3": {
+   "true_pct": 24.69,
+   "one_minus_km_pct": 36.33,
+   "cif_pct": 24.75,
+   "km_over_pct": 47.1,
+   "km_cancel_plus_km_move_pct": 95.7,
+   "all_exit_pct": 74.13
+  }
+ }
+}
