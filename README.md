@@ -302,7 +302,7 @@
 | 095 | [就業者は13年で550万人増えた。増えたのは女性と65歳以上で、人口が減る分を「働く人の割合」が912万人押し上げた](articles/095_employment_growth) | 就業者の増加を「人口」と「働く人の割合」に要因分解 |
 | 137 | [市区町村の歳出の4割は福祉（民生費）。12年で1.5倍になり、伸びが大きかったのは子どもと障害者福祉など](articles/137_welfare_spending) | e-Stat の CSV から必要な行を抜き出して表を作るところからコード化 |
 
-## 記事の一覧（508本）
+## 記事の一覧（513本）
 | # | 記事のタイトル | フォルダ |
 |---|---|---|
 | 000 | 女性の労働力率は何で決まる？ 全国1,739市区町村の公開データで調べてみた | [000_women_labor](articles/000_women_labor) |
@@ -813,6 +813,11 @@
 | 513 | ログを10件に1件だけ残して10倍すると、小さな区分の件数はどれだけ振れるのか？ 架空のログ100万件で100件未満の区分は35%、1万件以上は2% | [513_log_sampling_small_segments](articles/513_log_sampling_small_segments) |
 | 514 | 入庫と出庫の記録が遅れて届くと、在庫が一時的にマイナスになる日は何日あるのか？ 架空の200品目×180日で、入庫の記録が6時間遅れると314品目・日、締めを翌9時にすると184 | [514_inventory_record_delay_negative](articles/514_inventory_record_delay_negative) |
 | 515 | Excel の SUM でフィルタで隠した行も含めて合計すると、表の合計は何%多くなるのか？ 8地域のうち4地域を残すと2倍、SUBTOTAL(9) も手で隠した行5%で+4.8% | [515_excel_sum_vs_subtotal_hidden](articles/515_excel_sum_vs_subtotal_hidden) |
+| 516 | 実績の損害率に合わせて毎年保険料を直すと、損害率は落ち着くのか、それとも波打つのか？ 2年遅れの実績で全部直すと振れは12ポイント・約6年の波、半分だけ直すと5.6ポイント | [516_experience_rating_feedback_cycle](articles/516_experience_rating_feedback_cycle) |
+| 517 | 保険金額の大きい契約と小さい契約が混ざると、損害率の振れは契約件数ではなく何で決まるのか？ 架空の1万件で、実質の件数は保険金額のばらつきしだいで506件まで減り、振れは4.5倍 | [517_sum_insured_mix_effective_n](articles/517_sum_insured_mix_effective_n) |
+| 518 | 支払いに何年もかかる損害は、利率で割り引くと、払い方の遅さによってどれだけ小さくなるのか？ 利率2%で平均1年なら98、8年なら86、15年なら76 | [518_discounting_payment_delay](articles/518_discounting_payment_delay) |
+| 519 | 100万件のデータでは、相関0.01のような小さな関係でも何%の回で「有意」と出るのか？ 10万件で89%、100万件で100%、それでも説明できる分散は0.01% | [519_large_n_tiny_correlation](articles/519_large_n_tiny_correlation) |
+| 520 | 0を含むデータを log(x+1) で変換して回帰すると、係数はどれだけずれるのか？ 架空の支出額で本当は+60%の差が+221%、千円にすると+38% | [520_log1p_regression_bias](articles/520_log1p_regression_bias) |
 
 ## 共通の方針
 - データは e-Stat などの公開データだけを使い、出典は各フォルダの README に書いています（政府標準利用規約 第2.0版などに沿って「〇〇をもとに作成者が加工して作成」）
