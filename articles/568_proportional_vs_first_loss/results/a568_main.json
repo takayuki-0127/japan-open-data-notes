@@ -1,0 +1,215 @@
+{
+ "n_losses": 200000,
+ "mean_damage_ratio": 0.1351264043429298,
+ "share_total_loss": 0.0298,
+ "mean_loss": 405.08998583683046,
+ "table": [
+  {
+   "k": 0.3,
+   "pure_prop": 2.43054,
+   "pure_first": 6.17851,
+   "rate_prop": 0.27004,
+   "rate_first": 0.68645,
+   "paid_share_prop": 0.3,
+   "paid_share_first": 0.76261,
+   "full_paid_prop": 0.0,
+   "full_paid_first": 0.89521,
+   "short_mean_prop": 283.56299,
+   "short_mean_first": 96.16431
+  },
+  {
+   "k": 0.4,
+   "pure_prop": 3.24072,
+   "pure_first": 6.69664,
+   "rate_prop": 0.27004,
+   "rate_first": 0.55801,
+   "paid_share_prop": 0.4,
+   "paid_share_first": 0.82656,
+   "full_paid_prop": 0.0,
+   "full_paid_first": 0.92836,
+   "short_mean_prop": 243.05399,
+   "short_mean_first": 70.25784
+  },
+  {
+   "k": 0.5,
+   "pure_prop": 4.0509,
+   "pure_first": 7.06057,
+   "rate_prop": 0.27004,
+   "rate_first": 0.47067,
+   "paid_share_prop": 0.5,
+   "paid_share_first": 0.87148,
+   "full_paid_prop": 0.0,
+   "full_paid_first": 0.94784,
+   "short_mean_prop": 202.54499,
+   "short_mean_first": 52.06136
+  },
+  {
+   "k": 0.6,
+   "pure_prop": 4.86108,
+   "pure_first": 7.33406,
+   "rate_prop": 0.27004,
+   "rate_first": 0.40742,
+   "paid_share_prop": 0.6,
+   "paid_share_first": 0.90524,
+   "full_paid_prop": 0.0,
+   "full_paid_first": 0.95992,
+   "short_mean_prop": 162.03599,
+   "short_mean_first": 38.38689
+  },
+  {
+   "k": 0.7,
+   "pure_prop": 5.67126,
+   "pure_first": 7.55171,
+   "rate_prop": 0.27004,
+   "rate_first": 0.35958,
+   "paid_share_prop": 0.7,
+   "paid_share_first": 0.9321,
+   "full_paid_prop": 0.0,
+   "full_paid_first": 0.96658,
+   "short_mean_prop": 121.527,
+   "short_mean_first": 27.50437
+  },
+  {
+   "k": 0.8,
+   "pure_prop": 6.48144,
+   "pure_first": 7.74188,
+   "rate_prop": 0.27004,
+   "rate_first": 0.32255,
+   "paid_share_prop": 0.8,
+   "paid_share_first": 0.95557,
+   "full_paid_prop": 0.0,
+   "full_paid_first": 0.96944,
+   "short_mean_prop": 81.018,
+   "short_mean_first": 17.99619
+  },
+  {
+   "k": 0.9,
+   "pure_prop": 7.29162,
+   "pure_first": 7.92265,
+   "rate_prop": 0.27004,
+   "rate_first": 0.29341,
+   "paid_share_prop": 0.9,
+   "paid_share_first": 0.97789,
+   "full_paid_prop": 0.0,
+   "full_paid_first": 0.97012,
+   "short_mean_prop": 40.509,
+   "short_mean_first": 8.9576
+  },
+  {
+   "k": 1.0,
+   "pure_prop": 8.1018,
+   "pure_first": 8.1018,
+   "rate_prop": 0.27004,
+   "rate_first": 0.27004,
+   "paid_share_prop": 1.0,
+   "paid_share_first": 1.0,
+   "full_paid_prop": 1.0,
+   "full_paid_first": 1.0,
+   "short_mean_prop": 0.0,
+   "short_mean_first": 0.0
+  }
+ ],
+ "by_damage_ratio_k06": [
+  {
+   "bin": "(-0.001, 0.02]",
+   "n": 36672,
+   "loss": 1063802.0009,
+   "prop": 638281.2005,
+   "first": 1063802.0009,
+   "share_prop": 0.6,
+   "share_first": 1.0,
+   "n_share": 0.1834
+  },
+  {
+   "bin": "(0.02, 0.05]",
+   "n": 42132,
+   "loss": 4316434.1614,
+   "prop": 2589860.4968,
+   "first": 4316434.1614,
+   "share_prop": 0.6,
+   "share_first": 1.0,
+   "n_share": 0.2107
+  },
+  {
+   "bin": "(0.05, 0.1]",
+   "n": 45177,
+   "loss": 9869231.8329,
+   "prop": 5921539.0997,
+   "first": 9869231.8329,
+   "share_prop": 0.6,
+   "share_first": 1.0,
+   "n_share": 0.2259
+  },
+  {
+   "bin": "(0.1, 0.2]",
+   "n": 40670,
+   "loss": 17285573.8909,
+   "prop": 10371344.3345,
+   "first": 17285573.8909,
+   "share_prop": 0.6,
+   "share_first": 1.0,
+   "n_share": 0.2034
+  },
+  {
+   "bin": "(0.2, 0.4]",
+   "n": 21022,
+   "loss": 17283179.8366,
+   "prop": 10369907.902,
+   "first": 17283179.8366,
+   "share_prop": 0.6,
+   "share_first": 1.0,
+   "n_share": 0.1051
+  },
+  {
+   "bin": "(0.4, 0.6]",
+   "n": 6310,
+   "loss": 9113821.9626,
+   "prop": 5468293.1775,
+   "first": 9113821.9626,
+   "share_prop": 0.6,
+   "share_first": 1.0,
+   "n_share": 0.0316
+  },
+  {
+   "bin": "(0.6, 0.8]",
+   "n": 1904,
+   "loss": 3817615.3947,
+   "prop": 2290569.2368,
+   "first": 3406750.5097,
+   "share_prop": 0.6,
+   "share_first": 0.8924,
+   "n_share": 0.0095
+  },
+  {
+   "bin": "(0.8, 0.999]",
+   "n": 153,
+   "loss": 365608.8265,
+   "prop": 219365.2959,
+   "first": 260186.8011,
+   "share_prop": 0.6,
+   "share_first": 0.7117,
+   "n_share": 0.0008
+  },
+  {
+   "bin": "(0.999, 1.001]",
+   "n": 5960,
+   "loss": 17902729.2609,
+   "prop": 10741637.5566,
+   "first": 10741637.5566,
+   "share_prop": 0.6,
+   "share_first": 0.6,
+   "n_share": 0.0298
+  }
+ ],
+ "sql_check": {
+  "python": {
+   "prop": 48610798.30041964,
+   "first": 73340618.55265415
+  },
+  "sql": {
+   "prop": 48610798.300420016,
+   "first": 73340618.55265206
+  },
+  "match": true
+ }
+}
