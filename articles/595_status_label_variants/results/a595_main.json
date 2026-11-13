@@ -1,0 +1,66 @@
+{
+ "n_rows": 24000,
+ "steps": [
+  {
+   "step": "そのまま",
+   "n_groups": 22,
+   "rows_not_canonical_pct": 22.25,
+   "done_rate_pct": 47.43
+  },
+  {
+   "step": "空白を除く",
+   "n_groups": 17,
+   "rows_not_canonical_pct": 17.89,
+   "done_rate_pct": 50.6
+  },
+  {
+   "step": "＋全角・半角をそろえる",
+   "n_groups": 16,
+   "rows_not_canonical_pct": 17.89,
+   "done_rate_pct": 50.6
+  },
+  {
+   "step": "＋対応表で同じ意味をまとめる",
+   "n_groups": 5,
+   "rows_not_canonical_pct": 0.0,
+   "done_rate_pct": 62.79
+  }
+ ],
+ "done_true_pct": 62.79,
+ "done_rows_by_variant": {
+  "完了": 11383,
+  "完了 ": 455,
+  "完了　": 307,
+  "完了済み": 591,
+  "済": 1773,
+  "済み": 560
+ },
+ "monthly_gap_pt": {
+  "before_2025_07_mean": 9.8,
+  "from_2025_07_mean": 31.6,
+  "max": 35.5
+ },
+ "raw_done_rate_2025_06_vs_07": [
+  43.9,
+  12.0
+ ],
+ "true_done_rate_2025_06_vs_07": [
+  51.1,
+  47.5
+ ],
+ "looks_same_but_differs": {
+  "完了 (末尾半角空白)": 455,
+  "完了　(末尾全角空白)": 307,
+  "ﾎﾘｭｳ・ｷｬﾝｾﾙ (半角カナ)": 79
+ },
+ "sql": {
+  "groups_raw": 22,
+  "groups_cleaned": 17,
+  "groups_mapped": 5,
+  "done_rate_raw": 47.43,
+  "done_rate_cleaned": 50.6,
+  "done_rate_mapped": 62.79,
+  "unmapped_rows": 0
+ },
+ "sql_match_python": true
+}
