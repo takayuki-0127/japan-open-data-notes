@@ -1,0 +1,98 @@
+{
+ "n": 20000,
+ "limit": 20,
+ "mismatch_len": 6010,
+ "mismatch_utf16": 8801,
+ "mismatch_nfc": 4524,
+ "true_over": 2614,
+ "over_len": 3885,
+ "over_utf16": 4910,
+ "over_nfc": 3578,
+ "false_over_len": 1271,
+ "false_over_utf16": 2296,
+ "false_over_nfc": 964,
+ "cut_broken": 385,
+ "max_len_per_grapheme": {
+  "family": 7,
+  "family_utf16": 11
+ },
+ "by_kind": {
+  "plain": {
+   "n": 10987,
+   "graphemes": 14.97,
+   "len": 14.97,
+   "utf16": 14.97,
+   "nfc_len": 14.97,
+   "mismatch_len_pct": 0.0,
+   "false_over_len_pct": 0.0,
+   "false_over_utf16_pct": 0.0,
+   "cut_broken_pct": 0.0
+  },
+  "simple": {
+   "n": 3003,
+   "graphemes": 15.0,
+   "len": 15.0,
+   "utf16": 16.58,
+   "nfc_len": 15.0,
+   "mismatch_len_pct": 0.0,
+   "false_over_len_pct": 0.0,
+   "false_over_utf16_pct": 10.76,
+   "cut_broken_pct": 0.0
+  },
+  "skin": {
+   "n": 1167,
+   "graphemes": 15.1,
+   "len": 16.97,
+   "utf16": 20.7,
+   "nfc_len": 16.97,
+   "mismatch_len_pct": 100.0,
+   "false_over_len_pct": 13.45,
+   "false_over_utf16_pct": 37.19,
+   "cut_broken_pct": 1.8
+  },
+  "zwj": {
+   "n": 1164,
+   "graphemes": 14.93,
+   "len": 21.59,
+   "utf16": 26.82,
+   "nfc_len": 21.59,
+   "mismatch_len_pct": 100.0,
+   "false_over_len_pct": 45.1,
+   "false_over_utf16_pct": 67.01,
+   "cut_broken_pct": 18.73
+  },
+  "flag": {
+   "n": 775,
+   "graphemes": 14.96,
+   "len": 16.86,
+   "utf16": 20.66,
+   "nfc_len": 16.86,
+   "mismatch_len_pct": 100.0,
+   "false_over_len_pct": 13.03,
+   "false_over_utf16_pct": 34.97,
+   "cut_broken_pct": 2.97
+  },
+  "vs16": {
+   "n": 1418,
+   "graphemes": 14.89,
+   "len": 16.78,
+   "utf16": 16.78,
+   "nfc_len": 16.78,
+   "mismatch_len_pct": 100.0,
+   "false_over_len_pct": 12.76,
+   "false_over_utf16_pct": 12.76,
+   "cut_broken_pct": 2.89
+  },
+  "nfd": {
+   "n": 1486,
+   "graphemes": 14.9,
+   "len": 18.01,
+   "utf16": 18.01,
+   "nfc_len": 14.9,
+   "mismatch_len_pct": 100.0,
+   "false_over_len_pct": 20.66,
+   "false_over_utf16_pct": 20.66,
+   "cut_broken_pct": 5.52
+  }
+ }
+}
