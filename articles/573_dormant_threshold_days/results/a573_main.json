@@ -1,0 +1,41 @@
+{
+ "members_with_purchase": 30000,
+ "purchases": 338487,
+ "gone_at_eval": 13406,
+ "d90": {
+  "dormant": 14828,
+  "dormant_pct": 49.43,
+  "revive_pct": 14.24,
+  "false_dormant": 2397,
+  "missed_gone": 975
+ },
+ "d180": {
+  "dormant": 11421,
+  "dormant_pct": 38.07,
+  "revive_pct": 4.55,
+  "false_dormant": 601,
+  "missed_gone": 2586
+ },
+ "d60": {
+  "dormant": 17069,
+  "dormant_pct": 56.9,
+  "revive_pct": 21.96,
+  "false_dormant": 4188,
+  "missed_gone": 525
+ },
+ "d365": {
+  "dormant": 6827,
+  "dormant_pct": 22.76,
+  "revive_pct": 0.42,
+  "false_dormant": 39,
+  "missed_gone": 6618
+ },
+ "ratio_90_180": 1.3,
+ "own_rule": {
+  "dormant": 11944,
+  "revive_pct": 6.05,
+  "false_dormant": 787,
+  "missed_gone": 2249
+ },
+ "sql_match": true
+}
