@@ -1,0 +1,110 @@
+{
+ "n": 500,
+ "beta": 1.0,
+ "rho_uv": 0.6,
+ "reps": 2000,
+ "k1": {
+  "1": {
+   "F_mean": 1.091,
+   "iv_median": 1.598,
+   "iv_bias_median": 0.598,
+   "iv_iqr": 1.513,
+   "ols_median": 1.601,
+   "coverage": 97.25,
+   "share_of_ols_bias": 99.563,
+   "abs_gt1": 48.8
+  },
+  "3": {
+   "F_mean": 2.889,
+   "iv_median": 1.125,
+   "iv_bias_median": 0.125,
+   "iv_iqr": 0.98,
+   "ols_median": 1.598,
+   "coverage": 95.15,
+   "share_of_ols_bias": 20.859,
+   "abs_gt1": 25.6
+  },
+  "10": {
+   "F_mean": 9.827,
+   "iv_median": 0.984,
+   "iv_bias_median": -0.016,
+   "iv_iqr": 0.46,
+   "ols_median": 1.589,
+   "coverage": 95.45,
+   "share_of_ols_bias": -2.675,
+   "abs_gt1": 4.5
+  },
+  "30": {
+   "F_mean": 29.764,
+   "iv_median": 0.992,
+   "iv_bias_median": -0.008,
+   "iv_iqr": 0.267,
+   "ols_median": 1.567,
+   "coverage": 95.5,
+   "share_of_ols_bias": -1.345,
+   "abs_gt1": 0.25
+  },
+  "100": {
+   "F_mean": 100.869,
+   "iv_median": 1.0,
+   "iv_bias_median": -0.0,
+   "iv_iqr": 0.132,
+   "ols_median": 1.501,
+   "coverage": 94.65,
+   "share_of_ols_bias": -0.0,
+   "abs_gt1": 0.0
+  }
+ },
+ "k3": {
+  "1": {
+   "F_mean": 1.029,
+   "iv_median": 1.594,
+   "iv_bias_median": 0.594,
+   "iv_iqr": 0.724,
+   "ols_median": 1.602,
+   "coverage": 83.25,
+   "share_of_ols_bias": 98.655,
+   "abs_gt1": 25.05
+  },
+  "3": {
+   "F_mean": 1.675,
+   "iv_median": 1.351,
+   "iv_bias_median": 0.351,
+   "iv_iqr": 0.575,
+   "ols_median": 1.598,
+   "coverage": 84.6,
+   "share_of_ols_bias": 58.782,
+   "abs_gt1": 10.35
+  },
+  "10": {
+   "F_mean": 4.032,
+   "iv_median": 1.111,
+   "iv_bias_median": 0.111,
+   "iv_iqr": 0.394,
+   "ols_median": 1.589,
+   "coverage": 88.55,
+   "share_of_ols_bias": 18.819,
+   "abs_gt1": 1.05
+  },
+  "30": {
+   "F_mean": 10.617,
+   "iv_median": 1.05,
+   "iv_bias_median": 0.05,
+   "iv_iqr": 0.243,
+   "ols_median": 1.567,
+   "coverage": 92.9,
+   "share_of_ols_bias": 8.779,
+   "abs_gt1": 0.0
+  },
+  "100": {
+   "F_mean": 34.359,
+   "iv_median": 1.017,
+   "iv_bias_median": 0.017,
+   "iv_iqr": 0.133,
+   "ols_median": 1.5,
+   "coverage": 94.8,
+   "share_of_ols_bias": 3.48,
+   "abs_gt1": 0.0
+  }
+ }
+}
