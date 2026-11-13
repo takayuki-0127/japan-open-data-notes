@@ -1,0 +1,193 @@
+{
+ "pageviews": 40489,
+ "users": 3000,
+ "true_visits": 11878,
+ "true_pages_per_visit": 3.4087388449233877,
+ "true_bounce": 0.29777740360330024,
+ "table": [
+  {
+   "timeout_min": 5,
+   "cut_midnight": false,
+   "sessions": 16994,
+   "pages_per_session": 2.3825,
+   "bounce": 0.423,
+   "exact_visit_share": 0.7054,
+   "split_visit_share": 0.2934,
+   "merged_session_share": 0.0008
+  },
+  {
+   "timeout_min": 5,
+   "cut_midnight": true,
+   "sessions": 17019,
+   "pages_per_session": 2.379,
+   "bounce": 0.4241,
+   "exact_visit_share": 0.7046,
+   "split_visit_share": 0.2942,
+   "merged_session_share": 0.0008
+  },
+  {
+   "timeout_min": 10,
+   "cut_midnight": false,
+   "sessions": 14955,
+   "pages_per_session": 2.7074,
+   "bounce": 0.3731,
+   "exact_visit_share": 0.7949,
+   "split_visit_share": 0.203,
+   "merged_session_share": 0.0011
+  },
+  {
+   "timeout_min": 10,
+   "cut_midnight": true,
+   "sessions": 14991,
+   "pages_per_session": 2.7009,
+   "bounce": 0.3743,
+   "exact_visit_share": 0.7929,
+   "split_visit_share": 0.205,
+   "merged_session_share": 0.0011
+  },
+  {
+   "timeout_min": 15,
+   "cut_midnight": false,
+   "sessions": 13109,
+   "pages_per_session": 3.0886,
+   "bounce": 0.327,
+   "exact_visit_share": 0.873,
+   "split_visit_share": 0.1041,
+   "merged_session_share": 0.0111
+  },
+  {
+   "timeout_min": 15,
+   "cut_midnight": true,
+   "sessions": 13156,
+   "pages_per_session": 3.0776,
+   "bounce": 0.3287,
+   "exact_visit_share": 0.8707,
+   "split_visit_share": 0.1068,
+   "merged_session_share": 0.0108
+  },
+  {
+   "timeout_min": 20,
+   "cut_midnight": false,
+   "sessions": 12718,
+   "pages_per_session": 3.1836,
+   "bounce": 0.3176,
+   "exact_visit_share": 0.866,
+   "split_visit_share": 0.0872,
+   "merged_session_share": 0.023
+  },
+  {
+   "timeout_min": 20,
+   "cut_midnight": true,
+   "sessions": 12770,
+   "pages_per_session": 3.1706,
+   "bounce": 0.3194,
+   "exact_visit_share": 0.8636,
+   "split_visit_share": 0.0904,
+   "merged_session_share": 0.0226
+  },
+  {
+   "timeout_min": 30,
+   "cut_midnight": false,
+   "sessions": 12019,
+   "pages_per_session": 3.3687,
+   "bounce": 0.297,
+   "exact_visit_share": 0.8545,
+   "split_visit_share": 0.0551,
+   "merged_session_share": 0.0458
+  },
+  {
+   "timeout_min": 30,
+   "cut_midnight": true,
+   "sessions": 12083,
+   "pages_per_session": 3.3509,
+   "bounce": 0.2992,
+   "exact_visit_share": 0.8517,
+   "split_visit_share": 0.0594,
+   "merged_session_share": 0.0449
+  },
+  {
+   "timeout_min": 45,
+   "cut_midnight": false,
+   "sessions": 10936,
+   "pages_per_session": 3.7024,
+   "bounce": 0.264,
+   "exact_visit_share": 0.8421,
+   "split_visit_share": 0.0,
+   "merged_session_share": 0.0853
+  },
+  {
+   "timeout_min": 45,
+   "cut_midnight": true,
+   "sessions": 11032,
+   "pages_per_session": 3.6701,
+   "bounce": 0.2672,
+   "exact_visit_share": 0.8401,
+   "split_visit_share": 0.0063,
+   "merged_session_share": 0.0828
+  },
+  {
+   "timeout_min": 60,
+   "cut_midnight": false,
+   "sessions": 10576,
+   "pages_per_session": 3.8284,
+   "bounce": 0.2483,
+   "exact_visit_share": 0.7817,
+   "split_visit_share": 0.0,
+   "merged_session_share": 0.1221
+  },
+  {
+   "timeout_min": 60,
+   "cut_midnight": true,
+   "sessions": 10686,
+   "pages_per_session": 3.789,
+   "bounce": 0.2523,
+   "exact_visit_share": 0.782,
+   "split_visit_share": 0.0063,
+   "merged_session_share": 0.1177
+  },
+  {
+   "timeout_min": 90,
+   "cut_midnight": false,
+   "sessions": 10540,
+   "pages_per_session": 3.8415,
+   "bounce": 0.2463,
+   "exact_visit_share": 0.7761,
+   "split_visit_share": 0.0,
+   "merged_session_share": 0.1254
+  },
+  {
+   "timeout_min": 90,
+   "cut_midnight": true,
+   "sessions": 10651,
+   "pages_per_session": 3.8014,
+   "bounce": 0.2505,
+   "exact_visit_share": 0.7766,
+   "split_visit_share": 0.0063,
+   "merged_session_share": 0.1209
+  },
+  {
+   "timeout_min": 120,
+   "cut_midnight": false,
+   "sessions": 10520,
+   "pages_per_session": 3.8488,
+   "bounce": 0.2459,
+   "exact_visit_share": 0.7732,
+   "split_visit_share": 0.0,
+   "merged_session_share": 0.127
+  },
+  {
+   "timeout_min": 120,
+   "cut_midnight": true,
+   "sessions": 10632,
+   "pages_per_session": 3.8082,
+   "bounce": 0.2501,
+   "exact_visit_share": 0.7738,
+   "split_visit_share": 0.0063,
+   "merged_session_share": 0.1225
+  }
+ ],
+ "sql_check_30min": 12019,
+ "visits_crossing_midnight": 75,
+ "within_gap_over30_share": 0.024200034971148802,
+ "between_gap_under30_share": 0.06375084326512255
+}
