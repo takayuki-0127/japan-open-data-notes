@@ -1,0 +1,37 @@
+{
+ "rows_kept": 66100,
+ "max_id": 72458,
+ "overcount_pct_total": 9.62,
+ "ids_used_by_failed_inserts": 1043,
+ "ids_used_by_deleted_rows": 2764,
+ "ids_skipped_by_restarts": 2551,
+ "share_of_missing_ids": {
+  "failed": 16.4,
+  "deleted": 43.5,
+  "restart": 40.1
+ },
+ "gap_count": 3604,
+ "gaps_of_1": 3402,
+ "gaps_over_100": 4,
+ "monthly_over_pct": {
+  "2025-01": 5.8,
+  "2025-02": 18.0,
+  "2025-03": 5.3,
+  "2025-04": 5.8,
+  "2025-05": 11.2,
+  "2025-06": 5.8,
+  "2025-07": 5.4,
+  "2025-08": 36.0,
+  "2025-09": 6.1,
+  "2025-10": 5.9,
+  "2025-11": 6.8,
+  "2025-12": 5.8
+ },
+ "monthly_over_pct_min": 5.3,
+ "monthly_over_pct_max": 36.0,
+ "monthly_over_pct_median": 5.9,
+ "aug_by_id": 6665,
+ "aug_rows": 4900,
+ "jul_by_id": 5895,
+ "jul_rows": 5593
+}
