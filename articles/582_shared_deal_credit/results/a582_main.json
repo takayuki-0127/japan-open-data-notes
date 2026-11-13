@@ -1,0 +1,88 @@
+{
+ "n_deals": 1200,
+ "n_people": 30,
+ "total_amount": 1763937000,
+ "share_multi_person_deals_pct": 56.4,
+ "share_amount_multi_person_pct": 68.2,
+ "rank_stats": {
+  "main_only_vs_equal": {
+   "n_rank_changed": 27,
+   "n_rank_moved_5plus": 12,
+   "max_move": 22,
+   "spearman": 0.598,
+   "top5_overlap": 3
+  },
+  "main_only_vs_involvement": {
+   "n_rank_changed": 27,
+   "n_rank_moved_5plus": 7,
+   "max_move": 15,
+   "spearman": 0.823,
+   "top5_overlap": 4
+  },
+  "equal_vs_involvement": {
+   "n_rank_changed": 25,
+   "n_rank_moved_5plus": 6,
+   "max_move": 8,
+   "spearman": 0.92,
+   "top5_overlap": 3
+  }
+ },
+ "group_share_pct": {
+  "main_only": {
+   "営業": 91.06,
+   "専門": 8.94
+  },
+  "equal": {
+   "営業": 69.77,
+   "専門": 30.23
+  },
+  "involvement": {
+   "営業": 75.2,
+   "専門": 24.8
+  },
+  "full_each": {
+   "営業": 140.4,
+   "専門": 82.08
+  }
+ },
+ "full_each_total_ratio": 2.225,
+ "biggest_mover": {
+  "person": "T04",
+  "group": "専門",
+  "rank_main": 25,
+  "rank_equal": 3,
+  "rank_inv": 10,
+  "n_deals": 128,
+  "n_main": 13
+ },
+ "specialists_rank_main_median": 25.5,
+ "specialists_rank_inv_median": 24.5,
+ "sweep": [
+  {
+   "share_multi": 0.2,
+   "mean_abs_move": 1.683,
+   "spearman": 0.96
+  },
+  {
+   "share_multi": 0.4,
+   "mean_abs_move": 3.157,
+   "spearman": 0.85
+  },
+  {
+   "share_multi": 0.55,
+   "mean_abs_move": 4.037,
+   "spearman": 0.752
+  },
+  {
+   "share_multi": 0.7,
+   "mean_abs_move": 5.053,
+   "spearman": 0.647
+  },
+  {
+   "share_multi": 0.85,
+   "mean_abs_move": 5.847,
+   "spearman": 0.545
+  }
+ ],
+ "sql_match_python": true
+}
