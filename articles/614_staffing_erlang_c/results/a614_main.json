@@ -1,0 +1,100 @@
+{
+ "calls_per_day": 720,
+ "aht_min": 6.0,
+ "days": 300,
+ "traffic_peak": 12.75,
+ "traffic_mean": 8.0,
+ "plans": {
+  "N1": [
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8
+  ],
+  "N2": [
+   5,
+   8,
+   12,
+   13,
+   12,
+   10,
+   8,
+   6,
+   7,
+   10,
+   12,
+   11,
+   9,
+   7,
+   6,
+   6,
+   5,
+   4
+  ],
+  "N3": [
+   7,
+   11,
+   15,
+   17,
+   16,
+   14,
+   11,
+   9,
+   10,
+   14,
+   15,
+   14,
+   12,
+   10,
+   9,
+   8,
+   7,
+   7
+  ]
+ },
+ "summary": [
+  {
+   "plan": "N1",
+   "staff_hours": 72.0,
+   "mean_wait_sec": 2488.6,
+   "sl20_pct": 7.7,
+   "p90_wait_sec": 4603.4,
+   "wait_over_5min_pct": 87.87
+  },
+  {
+   "plan": "N2",
+   "staff_hours": 75.5,
+   "mean_wait_sec": 339.3,
+   "sl20_pct": 29.1,
+   "p90_wait_sec": 910.3,
+   "wait_over_5min_pct": 39.27
+  },
+  {
+   "plan": "N3",
+   "staff_hours": 103.0,
+   "mean_wait_sec": 19.1,
+   "sl20_pct": 84.5,
+   "p90_wait_sec": 63.6,
+   "wait_over_5min_pct": 0.93
+  }
+ ],
+ "peak_interval_wait_sec": {
+  "N1": 4138.2,
+  "N2": 658.0,
+  "N3": 34.9
+ }
+}

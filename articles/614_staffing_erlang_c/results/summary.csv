@@ -1,0 +1,4 @@
+plan,staff_hours,mean_wait_sec,sl20_pct,p90_wait_sec,wait_over_5min_pct
+N1,72.0,2488.6,7.7,4603.4,87.87
+N2,75.5,339.3,29.1,910.3,39.27
+N3,103.0,19.1,84.5,63.6,0.93
