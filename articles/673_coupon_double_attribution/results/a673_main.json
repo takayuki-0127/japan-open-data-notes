@@ -1,0 +1,131 @@
+{
+ "orders": 30000,
+ "orders_with_coupon": 16629,
+ "stacked_order_pct": 37.9,
+ "avg_coupons_per_coupon_order": 1.481,
+ "actual_sales_coupon_orders": 119561070,
+ "sum_full": 177088030,
+ "sum_prop": 119561070.0,
+ "sum_first": 119561070,
+ "ratio_full": 1.481,
+ "by_coupon": {
+  "A": {
+   "full": 32730530,
+   "prop": 23348852.0,
+   "first": 24266160,
+   "rank_full": 1,
+   "rank_prop": 1,
+   "rank_first": 1,
+   "full_over_prop": 1.4,
+   "stack_rate_pct": 53.7
+  },
+  "B": {
+   "full": 28742750,
+   "prop": 18316104.0,
+   "first": 21270590,
+   "rank_full": 2,
+   "rank_prop": 2,
+   "rank_first": 2,
+   "full_over_prop": 1.57,
+   "stack_rate_pct": 54.1
+  },
+  "C": {
+   "full": 15170680,
+   "prop": 12344672.0,
+   "first": 11996980,
+   "rank_full": 7,
+   "rank_prop": 6,
+   "rank_first": 5,
+   "full_over_prop": 1.23,
+   "stack_rate_pct": 51.2
+  },
+  "D": {
+   "full": 23558800,
+   "prop": 13105996.0,
+   "first": 16314250,
+   "rank_full": 4,
+   "rank_prop": 5,
+   "rank_first": 3,
+   "full_over_prop": 1.8,
+   "stack_rate_pct": 58.0
+  },
+  "E": {
+   "full": 12615450,
+   "prop": 9916509.0,
+   "first": 9674140,
+   "rank_full": 8,
+   "rank_prop": 8,
+   "rank_first": 8,
+   "full_over_prop": 1.27,
+   "stack_rate_pct": 50.6
+  },
+  "F": {
+   "full": 17360560,
+   "prop": 11526830.0,
+   "first": 12310630,
+   "rank_full": 6,
+   "rank_prop": 7,
+   "rank_first": 4,
+   "full_over_prop": 1.51,
+   "stack_rate_pct": 56.2
+  },
+  "G": {
+   "full": 24200110,
+   "prop": 15777775.0,
+   "first": 11754600,
+   "rank_full": 3,
+   "rank_prop": 3,
+   "rank_first": 7,
+   "full_over_prop": 1.53,
+   "stack_rate_pct": 70.2
+  },
+  "H": {
+   "full": 22709150,
+   "prop": 15224331.0,
+   "first": 11973720,
+   "rank_full": 5,
+   "rank_prop": 4,
+   "rank_first": 6,
+   "full_over_prop": 1.49,
+   "stack_rate_pct": 66.6
+  }
+ },
+ "rank_changed_full_vs_prop": 4,
+ "sweep": [
+  {
+   "setting": "併用なし",
+   "avg_coupons_per_order": 1.0,
+   "stacked_order_pct": 0.0,
+   "ratio_full": 1.0,
+   "ratio_prop": 1.0
+  },
+  {
+   "setting": "少ない",
+   "avg_coupons_per_order": 1.252,
+   "stacked_order_pct": 20.23,
+   "ratio_full": 1.252,
+   "ratio_prop": 1.0
+  },
+  {
+   "setting": "基本",
+   "avg_coupons_per_order": 1.482,
+   "stacked_order_pct": 37.95,
+   "ratio_full": 1.481,
+   "ratio_prop": 1.0
+  },
+  {
+   "setting": "多い",
+   "avg_coupons_per_order": 1.803,
+   "stacked_order_pct": 60.05,
+   "ratio_full": 1.802,
+   "ratio_prop": 1.0
+  },
+  {
+   "setting": "とても多い",
+   "avg_coupons_per_order": 2.154,
+   "stacked_order_pct": 80.25,
+   "ratio_full": 2.155,
+   "ratio_prop": 1.0
+  }
+ ]
+}
