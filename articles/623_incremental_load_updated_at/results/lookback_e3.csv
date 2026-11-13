@@ -1,0 +1,6 @@
+lookback_sec,never_read,read_twice_or_more,rows_read,keys_wrong_end_of_day
+0,840,405,99530,179
+10,627,3553,102891,141
+30,331,10050,109684,79
+60,73,19759,119651,19
+120,0,39536,139501,0
