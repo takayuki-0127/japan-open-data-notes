@@ -1,0 +1,51 @@
+{
+ "true_rows": 66344,
+ "true_amount": 25927560,
+ "dup_days": [
+  "2025-03-10",
+  "2025-03-11",
+  "2025-03-12"
+ ],
+ "dup_rows": 479,
+ "methods": {
+  "U1 店とレシートの列を落として UNION": {
+   "rows": 65673,
+   "amount": 25796220,
+   "rows_diff": -671,
+   "amount_diff_pct": -0.51
+  },
+  "U2 店の列は残して UNION": {
+   "rows": 65984,
+   "amount": 25858310,
+   "rows_diff": -360,
+   "amount_diff_pct": -0.27
+  },
+  "U3 UNION ALL": {
+   "rows": 66823,
+   "amount": 26118260,
+   "rows_diff": 479,
+   "amount_diff_pct": 0.74
+  },
+  "U4 UNION ALL＋明細のキーで1行に": {
+   "rows": 66344,
+   "amount": 25927560,
+   "rows_diff": 0,
+   "amount_diff_pct": 0.0
+  }
+ },
+ "U1_daily_pct_range": [
+  -1.7,
+  0.0
+ ],
+ "U3_dup_day_pct": {
+  "2025-03-10": 41.2,
+  "2025-03-11": 45.7,
+  "2025-03-12": 42.5
+ },
+ "lost_pct_cheapest3": 1.6,
+ "lost_pct_dearest3": 0.0,
+ "price_range": [
+  100,
+  3000
+ ]
+}
