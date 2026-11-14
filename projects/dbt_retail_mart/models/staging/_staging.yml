@@ -1,0 +1,54 @@
+version: 2
+
+models:
+  - name: stg_calendar
+    description: "日付の表（2010〜2026年）。暦の月と21日締めの会計月の両方を持つ"
+    columns:
+      - name: date_key
+        data_tests: [unique, not_null]
+  - name: stg_store
+    columns:
+      - name: store_id
+        data_tests: [unique, not_null]
+      - name: open_date_key
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('stg_calendar'), field: date_key}}
+  - name: stg_item
+    columns:
+      - name: item_id
+        data_tests: [unique, not_null]
+      - name: dept_id
+        data_tests:
+          - relationships: {arguments: {to: ref('stg_dept'), field: dept_id}}
+  - name: stg_dept
+    columns:
+      - name: dept_id
+        data_tests: [unique, not_null]
+  - name: stg_receipt
+    columns:
+      - name: receipt_id
+        data_tests: [unique, not_null]
+      - name: store_id
+        data_tests:
+          - relationships: {arguments: {to: ref('stg_store'), field: store_id}}
+  - name: stg_sales_line
+    data_tests:
+      - unique_combination: {arguments: {columns: [receipt_id, line_no]}}
+    columns:
+      - name: receipt_id
+        data_tests:
+          - relationships: {arguments: {to: ref('stg_receipt'), field: receipt_id}}
+      - name: status
+        data_tests:
+          - accepted_values: {arguments: {values: ['ok', 'cancel', 'void']}}
+      - name: amount_incl
+        data_tests:
+          - not_null
+          - expression_is_true: {arguments: {expression: "amount_incl > 0"}}
+      - name: tax_pct
+        data_tests:
+          - accepted_values: {arguments: {values: [8, 10], quote: false}}
+  - name: stg_returns_line
+    data_tests:
+      - unique_combination: {arguments: {columns: [receipt_id, line_no]}}

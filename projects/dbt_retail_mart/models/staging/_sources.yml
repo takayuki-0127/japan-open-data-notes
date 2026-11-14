@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "架空の小売「みどりマート（架空）」の合成データ。tools/generate_data.py が data/ に書く CSV を、そのまま読む"
+    meta:
+      external_location: "read_csv('data/{{ var('dataset') }}/{name}.csv.gz', header = true)"
+    tables:
+      - name: calendar
+      - name: store
+      - name: item
+      - name: dept
+      - name: receipt
+      - name: sales_line
+      - name: returns_line

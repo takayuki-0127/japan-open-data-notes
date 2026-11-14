@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: int_month
+    description: "{{ doc('def_month') }}"
+  - name: int_sales_line_valid
+    description: "{{ doc('def_valid_line') }}"
+    data_tests:
+      - unique_combination: {arguments: {columns: [receipt_id, line_no]}}
+  - name: int_net_sales
+    description: "{{ doc('def_net_sales') }}"
+  - name: int_customer_visit
+    description: "{{ doc('def_customer') }}"
+    columns:
+      - name: receipt_id
+        data_tests: [unique]
+      - name: cust_key
+        data_tests: [not_null]
