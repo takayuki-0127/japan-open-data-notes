@@ -1,0 +1,30 @@
+{
+  "n_articles": 1066,
+  "n_list": 793,
+  "n_flagship": 273,
+  "cannot_start_no": 266,
+  "cannot_share_before": 0.078,
+  "cannot_share_after": 0.951,
+  "fictional_share_list_300plus": 0.878,
+  "fictional_share_flagship": 0.125,
+  "robust_share_flagship": 0.967,
+  "robust_share_list": 0.058,
+  "plan_share_flagship": 0.051,
+  "plan_share_list": 0.008,
+  "design_changes": 33,
+  "design_change_share_668_800": 0.248,
+  "n_668_800": 133,
+  "unverified_tsql": 231,
+  "unverified_excel": 13,
+  "sql_articles_in_list": 251,
+  "repro_n": 25,
+  "repro_identical": 25,
+  "repro_ci95": [
+    0.863,
+    1.0
+  ],
+  "repro_population": "記事の一覧 551〜800 のうち、src/ に a<番号>_*.py が1本だけある250本",
+  "repro_seed": 297,
+  "repro_median_sec": 2.8,
+  "repro_max_sec": 73.8
+}
