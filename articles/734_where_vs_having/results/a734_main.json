@@ -1,0 +1,42 @@
+{
+ "customers": 3000,
+ "buyers": 2645,
+ "orders": 19189,
+ "amount_median": 3510,
+ "th10000": {
+  "n_big_order": 1021,
+  "n_big_total": 2031,
+  "n_both": 1021,
+  "only_total": 1010,
+  "only_order": 0,
+  "sales_big_total": 85818690,
+  "sales_wrong": 22771590
+ },
+ "th10000_extra": {
+  "total_only_pct_of_big_total": 49.7,
+  "sales_wrong_short_pct": 73.5
+ },
+ "by_threshold": {
+  "5000": {
+   "n_big_order": 2066,
+   "n_big_total": 2338
+  },
+  "10000": {
+   "n_big_order": 1021,
+   "n_big_total": 2031
+  },
+  "15000": {
+   "n_big_order": 435,
+   "n_big_total": 1750
+  },
+  "20000": {
+   "n_big_order": 173,
+   "n_big_total": 1495
+  },
+  "30000": {
+   "n_big_order": 38,
+   "n_big_total": 1100
+  }
+ },
+ "sql_matches_python": true
+}
