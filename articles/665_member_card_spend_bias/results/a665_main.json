@@ -1,0 +1,98 @@
+{
+ "n_receipts": 60000,
+ "card_rate_pct": 42.2,
+ "true_avg": 2065.3,
+ "member_avg": 2689.8,
+ "member_bias_pct": 30.24,
+ "noncard_avg": 1609.7,
+ "corrected": {
+  "3帯": {
+   "avg": 2169.3,
+   "bias_pct": 5.04
+  },
+  "5帯": {
+   "avg": 2112.7,
+   "bias_pct": 2.3
+  },
+  "10帯": {
+   "avg": 2080.4,
+   "bias_pct": 0.73
+  }
+ },
+ "card_rate_by_band10": {
+  "50〜290円": 10.3,
+  "300〜490円": 18.1,
+  "500〜740円": 24.2,
+  "750〜990円": 30.1,
+  "1000〜1490円": 37.7,
+  "1500〜1990円": 44.0,
+  "2000〜2990円": 51.4,
+  "3000〜4990円": 60.8,
+  "5000〜7990円": 73.2,
+  "8000〜43100円": 78.9
+ },
+ "sweep": [
+  {
+   "icpt": -2.5,
+   "card_rate": 9.1,
+   "member_bias_pct": 59.1,
+   "corr5_bias_pct": 5.26
+  },
+  {
+   "icpt": -2.0,
+   "card_rate": 14.0,
+   "member_bias_pct": 54.35,
+   "corr5_bias_pct": 4.75
+  },
+  {
+   "icpt": -1.5,
+   "card_rate": 20.3,
+   "member_bias_pct": 48.47,
+   "corr5_bias_pct": 3.93
+  },
+  {
+   "icpt": -1.0,
+   "card_rate": 28.8,
+   "member_bias_pct": 40.83,
+   "corr5_bias_pct": 3.52
+  },
+  {
+   "icpt": -0.5,
+   "card_rate": 39.3,
+   "member_bias_pct": 32.52,
+   "corr5_bias_pct": 2.83
+  },
+  {
+   "icpt": 0.0,
+   "card_rate": 50.1,
+   "member_bias_pct": 25.31,
+   "corr5_bias_pct": 1.97
+  },
+  {
+   "icpt": 0.5,
+   "card_rate": 61.0,
+   "member_bias_pct": 18.97,
+   "corr5_bias_pct": 1.37
+  },
+  {
+   "icpt": 1.0,
+   "card_rate": 71.2,
+   "member_bias_pct": 13.43,
+   "corr5_bias_pct": 0.97
+  },
+  {
+   "icpt": 1.5,
+   "card_rate": 79.5,
+   "member_bias_pct": 9.23,
+   "corr5_bias_pct": 0.71
+  },
+  {
+   "icpt": 2.0,
+   "card_rate": 86.3,
+   "member_bias_pct": 6.1,
+   "corr5_bias_pct": 0.4
+  }
+ ],
+ "median_true": 1500,
+ "median_member": 2010
+}
