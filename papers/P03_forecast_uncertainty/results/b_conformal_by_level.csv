@@ -1,0 +1,5 @@
+,coverage,coverage,coverage,width_pct_median,width_pct_median,width_pct_median
+level,全国,地方,都道府県,全国,地方,都道府県
+method,,,,,,
+MinT（縮小）,0.8462,0.8154,0.7938,8.907,12.7526,15.764
+整合なし,0.7692,0.8154,0.7938,9.671,12.3902,16.2573
