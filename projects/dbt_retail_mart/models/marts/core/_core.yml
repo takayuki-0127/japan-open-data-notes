@@ -1,0 +1,77 @@
+version: 2
+
+models:
+  - name: dim_date
+    description: "日付の次元。{{ doc('def_month') }}"
+    columns:
+      - name: date_key
+        data_tests: [unique, not_null]
+      - name: ym
+        data_tests: [not_null]
+  - name: dim_store
+    description: "店の次元"
+    columns:
+      - name: store_id
+        data_tests: [unique, not_null]
+  - name: dim_item
+    description: "商品の次元（部門と部門グループつき）"
+    columns:
+      - name: item_id
+        data_tests: [unique, not_null]
+      - name: dept_grp
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: "{{ ['生鮮', '加工食品', '日配', '日用品', 'その他'] if var('dept_group_version') == 'old' else ['生鮮・日配', '加工食品', '日用品', 'その他'] }}"
+  - name: fct_sales_net
+    description: "{{ doc('def_net_sales') }} 1行＝1明細の売上、または1明細の返品"
+    data_tests:
+      - unique_combination: {arguments: {columns: [receipt_id, line_no, kind]}}
+    columns:
+      - name: kind
+        data_tests:
+          - accepted_values: {arguments: {values: ['sale', 'return']}}
+      - name: amt
+        data_tests:
+          - not_null
+          - expression_is_true: {arguments: {expression: "(kind = 'sale' and amt > 0) or (kind = 'return' and amt < 0)"}}
+      - name: date_key
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_date'), field: date_key}}
+      - name: store_id
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_store'), field: store_id}}
+      - name: item_id
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_item'), field: item_id}}
+  - name: fct_customer_visit
+    description: "来店。{{ doc('def_customer') }}"
+    columns:
+      - name: receipt_id
+        data_tests: [unique, not_null]
+      - name: date_key
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_date'), field: date_key}}
+  - name: fct_store_month_sales
+    description: "店×月の売上と前年同月の売上。{{ doc('def_comp_store') }}"
+    data_tests:
+      - unique_combination: {arguments: {columns: [ym, store_id]}}
+      - sums_match_by:
+          arguments:
+            column_name: sales
+            compare_model: ref('fct_sales_net')
+            compare_column: amt
+            group_by: "1"
+    columns:
+      - name: is_comp
+        data_tests: [not_null]
+  - name: fct_daily_store_sales
+    description: "日×店の正味売上（増分で積み上げるテーブル）"
+    data_tests:
+      - unique_combination: {arguments: {columns: [date_key, store_id]}}
+      - sums_match_by:
+          arguments:
+            column_name: sales
+            compare_model: ref('fct_sales_net')
+            compare_column: amt
+            group_by: "date_key"

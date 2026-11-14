@@ -1,0 +1,70 @@
+version: 2
+
+models:
+  - name: rpt_r1_monthly_sales
+    description: "R1 全社の月次売上"
+    columns:
+      - name: ym
+        data_tests: [unique, not_null]
+    data_tests:
+      - matches_expected: {arguments: {expected: expected_r1, keys: [ym], value_columns: [sales]}}
+  - name: rpt_r2_store_monthly_sales
+    description: "R2 店舗別の月次売上"
+    data_tests:
+      - unique_combination: {arguments: {columns: [ym, store_id]}}
+      - sums_match_by: {arguments: {column_name: sales, compare_model: ref('rpt_r1_monthly_sales'), compare_column: sales, group_by: ym}}
+      - matches_expected: {arguments: {expected: expected_r2, keys: [ym, store_id], value_columns: [sales]}}
+  - name: rpt_r3_dept_group_monthly_sales
+    description: "R3 部門グループ別の月次売上"
+    data_tests:
+      - unique_combination: {arguments: {columns: [ym, grp]}}
+      - sums_match_by: {arguments: {column_name: sales, compare_model: ref('rpt_r1_monthly_sales'), compare_column: sales, group_by: ym}}
+      - matches_expected: {arguments: {expected: expected_r3, keys: [ym, grp], value_columns: [sales]}}
+  - name: rpt_r4_comp_store_yoy
+    description: "R4 既存店の前年比。{{ doc('def_comp_store') }}"
+    columns:
+      - name: ym
+        data_tests: [unique]
+    data_tests:
+      - matches_expected: {arguments: {expected: expected_r4, keys: [ym], value_columns: [comp_sales, comp_sales_ly, yoy]}}
+  - name: rpt_r5_customers_ticket
+    description: "R5 客数と客単価。{{ doc('def_customer') }}"
+    data_tests:
+      - sums_match_by: {arguments: {column_name: sales, compare_model: ref('rpt_r1_monthly_sales'), compare_column: sales, group_by: ym}}
+      - expression_is_true: {arguments: {expression: "abs(ticket * customers - sales) <= 1e-6 * greatest(1, abs(sales))"}}
+      - matches_expected: {arguments: {expected: expected_r5, keys: [ym], value_columns: [sales, customers, ticket]}}
+  - name: rpt_r6_store_dept_group_monthly_sales
+    description: "R6 店舗×部門グループの月次売上"
+    data_tests:
+      - sums_match_by: {arguments: {column_name: sales, compare_model: ref('rpt_r1_monthly_sales'), compare_column: sales, group_by: ym}}
+      - matches_expected: {arguments: {expected: expected_r6, keys: [ym, store_id, grp], value_columns: [sales]}}
+  - name: rpt_r7_kpi_summary
+    description: "R7 KPI のまとめ"
+    data_tests:
+      - sums_match_by: {arguments: {column_name: sales, compare_model: ref('rpt_r1_monthly_sales'), compare_column: sales, group_by: ym}}
+      - matches_expected: {arguments: {expected: expected_r7, keys: [ym], value_columns: [sales, customers, ticket, comp_yoy]}}
+  - name: rpt_r8_latest_month_daily
+    description: "R8 直近月の日別売上"
+    columns:
+      - name: date_key
+        data_tests: [unique]
+    data_tests:
+      - matches_expected: {arguments: {expected: expected_r8, keys: [date_key], value_columns: [sales]}}
+
+exposures:
+  - name: monthly_report_package
+    label: "月次の報告パッケージ（架空）"
+    type: dashboard
+    maturity: medium
+    description: "毎月の経営会議に出す8本のレポート（全社・店舗別・部門別・既存店前年比・客数と客単価・店舗×部門・KPI まとめ・直近月の日別）"
+    depends_on:
+      - ref('rpt_r1_monthly_sales')
+      - ref('rpt_r2_store_monthly_sales')
+      - ref('rpt_r3_dept_group_monthly_sales')
+      - ref('rpt_r4_comp_store_yoy')
+      - ref('rpt_r5_customers_ticket')
+      - ref('rpt_r6_store_dept_group_monthly_sales')
+      - ref('rpt_r7_kpi_summary')
+      - ref('rpt_r8_latest_month_daily')
+    owner:
+      name: "経営企画（架空）"
