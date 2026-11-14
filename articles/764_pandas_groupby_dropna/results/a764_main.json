@@ -1,0 +1,22 @@
+{
+ "rows": 60000,
+ "months": 24,
+ "stores": 50,
+ "total_oku": 4.05,
+ "store_missing_rows": 1132,
+ "store_missing_pct": 1.89,
+ "category_missing_rows": 1230,
+ "either_missing_rows": 2345,
+ "lost_pct_groupby_store": 1.85,
+ "lost_pct_groupby_store_category": 3.92,
+ "lost_pct_pivot_table": 3.92,
+ "lost_rows_value_counts": 1132,
+ "lost_pct_dropna_false": 0.0,
+ "lost_pct_fillna": 0.0,
+ "month_2025_04_lost_pct": 19.3,
+ "other_months_lost_pct_median": 1.0,
+ "yoy_2025_04_true_pct": 1.3,
+ "yoy_2025_04_groupby_pct": -17.3,
+ "duckdb_keeps_null_group": true,
+ "pandas_version": "2.3.3"
+}
