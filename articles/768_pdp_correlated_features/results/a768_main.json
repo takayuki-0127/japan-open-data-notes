@@ -1,0 +1,52 @@
+{
+ "n": 2000,
+ "reps": 5,
+ "true": "y = x1 + 2·sin(2·x2) + N(0, 0.5²)",
+ "by_rho": {
+  "0.0": {
+   "pd_rmse_x1": 0.096,
+   "ale_rmse_x1": 0.1,
+   "pd_rmse_x2": 0.13,
+   "ale_rmse_x2": 0.143,
+   "far_share": 0.007
+  },
+  "0.5": {
+   "pd_rmse_x1": 0.132,
+   "ale_rmse_x1": 0.116,
+   "pd_rmse_x2": 0.146,
+   "ale_rmse_x2": 0.134,
+   "far_share": 0.045
+  },
+  "0.8": {
+   "pd_rmse_x1": 0.319,
+   "ale_rmse_x1": 0.124,
+   "pd_rmse_x2": 0.412,
+   "ale_rmse_x2": 0.13,
+   "far_share": 0.184
+  },
+  "0.9": {
+   "pd_rmse_x1": 0.47,
+   "ale_rmse_x1": 0.1,
+   "pd_rmse_x2": 0.571,
+   "ale_rmse_x2": 0.139,
+   "far_share": 0.337
+  },
+  "0.95": {
+   "pd_rmse_x1": 0.667,
+   "ale_rmse_x1": 0.112,
+   "pd_rmse_x2": 0.752,
+   "ale_rmse_x2": 0.188,
+   "far_share": 0.456
+  }
+ },
+ "pd_rmse_x1_rho0": 0.09582142008633188,
+ "pd_rmse_x1_rho095": 0.6672770839565096,
+ "ale_rmse_x1_rho0": 0.09959415611088285,
+ "ale_rmse_x1_rho095": 0.1120985044822157,
+ "pd_rmse_x2_rho0": 0.12971671870133625,
+ "pd_rmse_x2_rho095": 0.7522668569402406,
+ "ale_rmse_x2_rho0": 0.143308292514535,
+ "ale_rmse_x2_rho095": 0.18771230686886292,
+ "far_share_rho0": 0.006933333333333333,
+ "far_share_rho095": 0.45603809523809524
+}
