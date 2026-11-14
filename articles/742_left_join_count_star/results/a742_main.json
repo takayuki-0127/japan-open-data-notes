@@ -1,0 +1,20 @@
+{
+ "customers": 6000,
+ "orders": 9669,
+ "zero_customers": 2556,
+ "zero_share": 0.426,
+ "mean_col": 1.6115,
+ "mean_star": 2.0375,
+ "mean_ratio": 1.2643499844865034,
+ "one_time_col": 1355,
+ "one_time_star": 3911,
+ "one_time_share_col": 0.22583333333333333,
+ "one_time_share_star": 0.6518333333333334,
+ "mean_buyers_only": 2.807491289198606,
+ "dec_mean_col": 0.2231237322515213,
+ "dec_mean_star": 1.0344827586206897,
+ "dec_zero_share": 0.8113590263691683,
+ "jan_mean_col": 3.0202020202020203,
+ "jan_mean_star": 3.2464646464646463,
+ "duckdb_version": "2.0.0"
+}
