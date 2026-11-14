@@ -1,0 +1,36 @@
+{
+ "change_month": "2022-10",
+ "growth_before": 0.03,
+ "growth_after": 0.12,
+ "threshold": 0.08,
+ "calendar_yoy": {
+  "2020": 0.0297,
+  "2021": 0.0337,
+  "2022": 0.0304,
+  "2023": 0.0999,
+  "2024": 0.1239,
+  "2025": 0.1183
+ },
+ "fiscal_yoy": {
+  "2020年度": 0.0292,
+  "2021年度": 0.0305,
+  "2022年度": 0.0402,
+  "2023年度": 0.1203,
+  "2024年度": 0.1217
+ },
+ "first_over_threshold": {
+  "calendar": "2023年",
+  "fiscal": "2023年度",
+  "rolling12": "2023-10"
+ },
+ "known_month": {
+  "calendar": "2023-12",
+  "fiscal": "2024-03",
+  "rolling12": "2023-10"
+ },
+ "months_after_change": {
+  "calendar": 14,
+  "fiscal": 17,
+  "rolling12": 12
+ }
+}
