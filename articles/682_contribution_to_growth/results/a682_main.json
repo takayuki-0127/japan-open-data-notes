@@ -1,0 +1,39 @@
+{
+ "stores": 30,
+ "total_prev": 725380.0,
+ "total_yoy_pct": {
+  "A": 2.53,
+  "B": 0.306
+ },
+ "A": {
+  "spearman": 0.902,
+  "top5_overlap": 1,
+  "rank_moved_ge5": 8,
+  "rank_moved_ge10": 1,
+  "rank_moved_max": 10,
+  "best_yoy": {
+   "store": "店02",
+   "yoy": 19.9,
+   "contrib_pt": 0.324,
+   "rank_contrib": 4
+  },
+  "best_contrib": {
+   "store": "店14",
+   "yoy": 11.9,
+   "contrib_pt": 0.773,
+   "rank_yoy": 7
+  },
+  "sum_contrib_pt": 2.53,
+  "sum_contrib_share": 100.0,
+  "top5_contrib_share_sum": 96.2,
+  "share_of_sales_top5_contrib": 25.1
+ },
+ "B": {
+  "contrib_share_max": 205.4,
+  "contrib_share_min": -171.2,
+  "contrib_pt_max": 0.629,
+  "contrib_pt_min": -0.524,
+  "n_share_over_100": 6,
+  "sum_contrib_share": 100.0
+ }
+}
