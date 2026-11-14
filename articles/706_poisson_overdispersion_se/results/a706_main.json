@@ -1,0 +1,80 @@
+{
+ "stores": 200,
+ "mean_count": 5.0,
+ "reps": 2000,
+ "true_effect": 0,
+ "by_alpha": {
+  "0.0": {
+   "reject_ポアソン": 5.15,
+   "se_ratio_ポアソン": 0.995,
+   "reject_準ポアソン": 5.25,
+   "se_ratio_準ポアソン": 0.994,
+   "reject_負の二項": 4.75,
+   "se_ratio_負の二項": 1.012,
+   "reject_頑健な標準誤差": 5.35,
+   "se_ratio_頑健な標準誤差": 0.989,
+   "alpha_hat_mean": 0.007,
+   "var_to_mean": 1.0
+  },
+  "0.1": {
+   "reject_ポアソン": 10.75,
+   "se_ratio_ポアソン": 0.829,
+   "reject_準ポアソン": 4.3,
+   "se_ratio_準ポアソン": 1.013,
+   "reject_負の二項": 4.35,
+   "se_ratio_負の二項": 1.009,
+   "reject_頑健な標準誤差": 4.4,
+   "se_ratio_頑健な標準誤差": 1.007,
+   "alpha_hat_mean": 0.097,
+   "var_to_mean": 1.5
+  },
+  "0.25": {
+   "reject_ポアソン": 17.75,
+   "se_ratio_ポアソン": 0.675,
+   "reject_準ポアソン": 5.2,
+   "se_ratio_準ポアソン": 1.01,
+   "reject_負の二項": 5.25,
+   "se_ratio_負の二項": 1.007,
+   "reject_頑健な標準誤差": 5.45,
+   "se_ratio_頑健な標準誤差": 1.004,
+   "alpha_hat_mean": 0.247,
+   "var_to_mean": 2.25
+  },
+  "0.5": {
+   "reject_ポアソン": 29.2,
+   "se_ratio_ポアソン": 0.533,
+   "reject_準ポアソン": 5.0,
+   "se_ratio_準ポアソン": 0.992,
+   "reject_負の二項": 5.1,
+   "se_ratio_負の二項": 0.989,
+   "reject_頑健な標準誤差": 5.25,
+   "se_ratio_頑健な標準誤差": 0.986,
+   "alpha_hat_mean": 0.494,
+   "var_to_mean": 3.5
+  },
+  "1.0": {
+   "reject_ポアソン": 43.3,
+   "se_ratio_ポアソン": 0.412,
+   "reject_準ポアソン": 4.55,
+   "se_ratio_準ポアソン": 0.998,
+   "reject_負の二項": 4.85,
+   "se_ratio_負の二項": 0.995,
+   "reject_頑健な標準誤差": 4.95,
+   "se_ratio_頑健な標準誤差": 0.991,
+   "alpha_hat_mean": 0.984,
+   "var_to_mean": 6.0
+  },
+  "2.0": {
+   "reject_ポアソン": 54.25,
+   "se_ratio_ポアソン": 0.306,
+   "reject_準ポアソン": 5.1,
+   "se_ratio_準ポアソン": 0.996,
+   "reject_負の二項": 5.55,
+   "se_ratio_負の二項": 0.991,
+   "reject_頑健な標準誤差": 5.55,
+   "se_ratio_頑健な標準誤差": 0.986,
+   "alpha_hat_mean": 1.95,
+   "var_to_mean": 11.0
+  }
+ }
+}
