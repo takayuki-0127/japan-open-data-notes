@@ -1,0 +1,26 @@
+{
+ "categories": 8,
+ "n_train": 2000,
+ "n_test": 2000,
+ "perms": 200,
+ "noise_sd": 1.0,
+ "rmse_dummy_linear": 0.982,
+ "rmse_no_category": 1.301,
+ "rmse_label_linear_median": 1.274,
+ "rmse_label_linear_range": [
+  1.033,
+  1.302
+ ],
+ "label_linear_worse_than_dummy_pct_median": 29.8,
+ "coef_code_range": [
+  -0.289,
+  0.326
+ ],
+ "coef_code_positive_pct": 54.0,
+ "coef_x_dummy": 0.519,
+ "coef_x_label_median": 0.538,
+ "rmse_tree3_median": 1.153,
+ "rmse_tree6_median": 1.043,
+ "rmse_tree6_dummy": 1.055,
+ "dummy_effects_vs_true_max_abs_err": 0.115
+}
