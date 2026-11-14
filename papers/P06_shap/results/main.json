@@ -1,0 +1,98 @@
+{
+  "colsample_1.0_rho_0.0": {
+    "x1_shap": 0.618,
+    "x2_shap": 0.035,
+    "x3_shap": 0.308,
+    "x1_perm": 0.802,
+    "x2_perm": 0.0,
+    "x3_perm": 0.197
+  },
+  "colsample_1.0_rho_0.5": {
+    "x1_shap": 0.618,
+    "x2_shap": 0.038,
+    "x3_shap": 0.307,
+    "x1_perm": 0.798,
+    "x2_perm": 0.0,
+    "x3_perm": 0.202
+  },
+  "colsample_1.0_rho_0.8": {
+    "x1_shap": 0.617,
+    "x2_shap": 0.039,
+    "x3_shap": 0.308,
+    "x1_perm": 0.805,
+    "x2_perm": 0.001,
+    "x3_perm": 0.194
+  },
+  "colsample_1.0_rho_0.9": {
+    "x1_shap": 0.616,
+    "x2_shap": 0.038,
+    "x3_shap": 0.31,
+    "x1_perm": 0.799,
+    "x2_perm": 0.002,
+    "x3_perm": 0.199
+  },
+  "colsample_1.0_rho_0.95": {
+    "x1_shap": 0.604,
+    "x2_shap": 0.043,
+    "x3_shap": 0.316,
+    "x1_perm": 0.788,
+    "x2_perm": 0.004,
+    "x3_perm": 0.208
+  },
+  "colsample_1.0_rho_0.99": {
+    "x1_shap": 0.544,
+    "x2_shap": 0.104,
+    "x3_shap": 0.31,
+    "x1_perm": 0.732,
+    "x2_perm": 0.033,
+    "x3_perm": 0.235
+  },
+  "colsample_0.5_rho_0.0": {
+    "x1_shap": 0.61,
+    "x2_shap": 0.041,
+    "x3_shap": 0.307,
+    "x1_perm": 0.8,
+    "x2_perm": 0.0,
+    "x3_perm": 0.199
+  },
+  "colsample_0.5_rho_0.5": {
+    "x1_shap": 0.591,
+    "x2_shap": 0.06,
+    "x3_shap": 0.309,
+    "x1_perm": 0.789,
+    "x2_perm": 0.002,
+    "x3_perm": 0.209
+  },
+  "colsample_0.5_rho_0.8": {
+    "x1_shap": 0.525,
+    "x2_shap": 0.122,
+    "x3_shap": 0.314,
+    "x1_perm": 0.748,
+    "x2_perm": 0.023,
+    "x3_perm": 0.229
+  },
+  "colsample_0.5_rho_0.9": {
+    "x1_shap": 0.475,
+    "x2_shap": 0.171,
+    "x3_shap": 0.315,
+    "x1_perm": 0.677,
+    "x2_perm": 0.069,
+    "x3_perm": 0.253
+  },
+  "colsample_0.5_rho_0.95": {
+    "x1_shap": 0.437,
+    "x2_shap": 0.206,
+    "x3_shap": 0.318,
+    "x1_perm": 0.596,
+    "x2_perm": 0.128,
+    "x3_perm": 0.275
+  },
+  "colsample_0.5_rho_0.99": {
+    "x1_shap": 0.386,
+    "x2_shap": 0.262,
+    "x3_shap": 0.311,
+    "x1_perm": 0.485,
+    "x2_perm": 0.222,
+    "x3_perm": 0.293
+  }
+}
