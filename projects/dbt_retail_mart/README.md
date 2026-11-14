@@ -102,6 +102,10 @@ dbt build --full-refresh --vars '{month_basis: fis}'   # 定義を変える例�
 python3 tools/lineage.py                          # figures/lineage.png を描き直す（graphviz が要る）
 ```
 
+## 実行管理（Dagster）で毎日回す
+
+同じマートを、実行管理のツール Dagster で「データを作る → dbt build（テストは asset check）→ pandas との突き合わせ」の順につないだ定義を [orchestration/](orchestration/README.md) に置きました。テストが落ちると後ろの段を動かさずに止まり、`target/alerts.log` に知らせを書きます。2回流して表の中身が一致すること、定義だけ変えて期待値を直し忘れた状態で止まることを確かめました。
+
 ## ファイル
 
 | ファイル | 中身 |
@@ -115,6 +119,7 @@ python3 tools/lineage.py                          # figures/lineage.png を描�
 | tools/ | データの生成（F275 と同じ）、期待値の計算、突き合わせ（check.py）、つながりの図 |
 | data/fixture_2751/ | 答え合わせ用の小さなデータ |
 | results/check_result.json | 突き合わせの結果 |
+| orchestration/ | Dagster で回す定義と、試した結果 |
 
 ## 言えないこと
 

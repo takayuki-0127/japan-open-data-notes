@@ -1,0 +1,7 @@
+# 親フォルダの requirements.txt（dbt-core・dbt-duckdb・duckdb・pandas・numpy）に加えて入れる
+dagster==1.13.30
+dagster-dbt==0.29.30
+# dbt-core 1.12 は protobuf 7 と合わないため、protobuf を 6 系に、grpcio-health-checking をそれに合う版にそろえる
+protobuf==6.33.6
+grpcio-health-checking==1.75.1
+# 画面で見るとき（dagster dev）だけ要る：dagster-webserver==1.13.30

@@ -1,0 +1,8 @@
+# わざと落とす設定：既存店の定義を「13か月目から」→「12か月目から」に変える（CR2）が、
+# 答え合わせの期待値（seeds/expected_*）は既定の定義のまま（force_golden）にする。
+# 定義だけ変えて期待値を直し忘れた状態をまねる
+ops:
+  retail_mart_dbt:
+    config:
+      vars_json: '{"comp_store_min_months": 12, "force_golden": true}'
+      full_refresh: true
