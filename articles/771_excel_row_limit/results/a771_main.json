@@ -1,0 +1,21 @@
+{
+ "rows": 1200000,
+ "excel_data_rows": 1048575,
+ "lost_rows": 151425,
+ "lost_share": 0.1261875,
+ "amount_total": 3297897396,
+ "lost_amount_sorted": 416867771,
+ "lost_amount_shuffled": 415349250,
+ "lost_amount_share_sorted": 0.12640410569037608,
+ "lost_amount_share_shuffled": 0.12594365443381428,
+ "dec_rows_full": 123599,
+ "dec_rows_sorted": 0,
+ "nov_rows_full": 118863,
+ "nov_rows_sorted": 91037,
+ "dec_kept_share_sorted": 0.0,
+ "nov_kept_share_sorted": 0.7658985554798381,
+ "shuffled_kept_share_min": 0.8722373361512692,
+ "shuffled_kept_share_max": 0.8748849951953548,
+ "last_date_kept_sorted": "2025-11-22",
+ "duckdb_version": "2.0.0"
+}
