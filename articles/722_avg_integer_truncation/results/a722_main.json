@@ -1,0 +1,33 @@
+{
+ "stores": 30,
+ "receipts": 9239,
+ "avg_items_overall": 3.644,
+ "avg_items_range": [
+  2.6,
+  4.81
+ ],
+ "diff_items_mean": 0.534,
+ "diff_items_max": 0.983,
+ "diff_items_mean_pct": 15.3,
+ "diff_items_max_pct": 32.9,
+ "distinct_values_exact": 30,
+ "distinct_values_truncated": 3,
+ "truncated_value_counts": {
+  "2": 7,
+  "3": 12,
+  "4": 11
+ },
+ "spearman_exact_vs_trunc": 0.935,
+ "max_gap_same_truncated": 0.915,
+ "sum_back_from_truncated": 28756,
+ "sum_true": 33668,
+ "sum_back_short_pct": 14.6,
+ "member_rate_range": [
+  0.256,
+  0.668
+ ],
+ "member_rate_truncated_values": [
+  0
+ ],
+ "sql_matches_python": true
+}
