@@ -1,0 +1,40 @@
+{
+  "theta_true": 0.5,
+  "n": 1000,
+  "reps": 100,
+  "線形回帰": {
+    "mean_theta": 1.0068,
+    "bias": 0.5068,
+    "sd": 0.0375,
+    "mean_se": 0.0342,
+    "coverage": 0.0
+  },
+  "LightGBM・交差適合なし": {
+    "mean_theta": 0.4984,
+    "bias": -0.0016,
+    "sd": 0.0385,
+    "mean_se": 0.0326,
+    "coverage": 0.91
+  },
+  "LightGBM・DML（5分割の交差適合）": {
+    "mean_theta": 0.5119,
+    "bias": 0.0119,
+    "sd": 0.0392,
+    "mean_se": 0.0322,
+    "coverage": 0.88
+  },
+  "深いランダムフォレスト・交差適合なし": {
+    "mean_theta": 0.5684,
+    "bias": 0.0684,
+    "sd": 0.041,
+    "mean_se": 0.0343,
+    "coverage": 0.44
+  },
+  "深いランダムフォレスト・DML（5分割の交差適合）": {
+    "mean_theta": 0.5942,
+    "bias": 0.0942,
+    "sd": 0.0413,
+    "mean_se": 0.0338,
+    "coverage": 0.25
+  }
+}
