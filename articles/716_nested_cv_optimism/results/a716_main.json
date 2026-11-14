@@ -1,0 +1,73 @@
+{
+ "features": 50,
+ "used_per_candidate": 5,
+ "signal_features": 3,
+ "test_size": 5000,
+ "reps": 200,
+ "cells": {
+  "n=100,candidates=1": {
+   "cv_best": 52.95,
+   "nested": 52.45,
+   "true": 53.18,
+   "optimism_cv_pt": -0.22,
+   "optimism_nested_pt": -0.72,
+   "best_has_signal_pct": 30.5
+  },
+  "n=100,candidates=5": {
+   "cv_best": 61.08,
+   "nested": 55.84,
+   "true": 57.02,
+   "optimism_cv_pt": 4.05,
+   "optimism_nested_pt": -1.18,
+   "best_has_signal_pct": 68.0
+  },
+  "n=100,candidates=20": {
+   "cv_best": 66.02,
+   "nested": 59.08,
+   "true": 59.5,
+   "optimism_cv_pt": 6.51,
+   "optimism_nested_pt": -0.42,
+   "best_has_signal_pct": 85.5
+  },
+  "n=100,candidates=100": {
+   "cv_best": 69.3,
+   "nested": 59.81,
+   "true": 60.61,
+   "optimism_cv_pt": 8.68,
+   "optimism_nested_pt": -0.8,
+   "best_has_signal_pct": 92.5
+  },
+  "n=400,candidates=1": {
+   "cv_best": 53.19,
+   "nested": 53.1,
+   "true": 53.18,
+   "optimism_cv_pt": 0.01,
+   "optimism_nested_pt": -0.08,
+   "best_has_signal_pct": 27.5
+  },
+  "n=400,candidates=5": {
+   "cv_best": 60.48,
+   "nested": 59.24,
+   "true": 59.32,
+   "optimism_cv_pt": 1.16,
+   "optimism_nested_pt": -0.08,
+   "best_has_signal_pct": 79.5
+  },
+  "n=400,candidates=20": {
+   "cv_best": 64.14,
+   "nested": 62.13,
+   "true": 62.48,
+   "optimism_cv_pt": 1.65,
+   "optimism_nested_pt": -0.35,
+   "best_has_signal_pct": 100.0
+  },
+  "n=400,candidates=100": {
+   "cv_best": 66.78,
+   "nested": 64.19,
+   "true": 64.92,
+   "optimism_cv_pt": 1.86,
+   "optimism_nested_pt": -0.73,
+   "best_has_signal_pct": 100.0
+  }
+ }
+}
