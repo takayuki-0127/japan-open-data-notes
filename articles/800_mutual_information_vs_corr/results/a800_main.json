@@ -1,0 +1,117 @@
+{
+ "reps": 300,
+ "ns": [
+  50,
+  200,
+  1000
+ ],
+ "by": {
+  "linear_n50": {
+   "pearson_mean": 0.855,
+   "spearman_mean": 0.852,
+   "mi_mean": 0.65,
+   "pearson_detect": 1.0,
+   "spearman_detect": 1.0,
+   "mi_detect": 1.0
+  },
+  "u_n50": {
+   "pearson_mean": 0.153,
+   "spearman_mean": 0.157,
+   "mi_mean": 0.806,
+   "pearson_detect": 0.157,
+   "spearman_detect": 0.173,
+   "mi_detect": 1.0
+  },
+  "wave_n50": {
+   "pearson_mean": 0.224,
+   "spearman_mean": 0.227,
+   "mi_mean": 0.245,
+   "pearson_detect": 0.363,
+   "spearman_detect": 0.35,
+   "mi_detect": 0.757
+  },
+  "none_n50": {
+   "pearson_mean": 0.11,
+   "spearman_mean": 0.11,
+   "mi_mean": 0.031,
+   "pearson_detect": 0.05,
+   "spearman_detect": 0.05,
+   "mi_detect": 0.05
+  },
+  "linear_n200": {
+   "pearson_mean": 0.856,
+   "spearman_mean": 0.863,
+   "mi_mean": 0.668,
+   "pearson_detect": 1.0,
+   "spearman_detect": 1.0,
+   "mi_detect": 1.0
+  },
+  "u_n200": {
+   "pearson_mean": 0.07,
+   "spearman_mean": 0.075,
+   "mi_mean": 1.04,
+   "pearson_detect": 0.083,
+   "spearman_detect": 0.12,
+   "mi_detect": 1.0
+  },
+  "wave_n200": {
+   "pearson_mean": 0.243,
+   "spearman_mean": 0.245,
+   "mi_mean": 0.603,
+   "pearson_detect": 0.963,
+   "spearman_detect": 0.957,
+   "mi_detect": 1.0
+  },
+  "none_n200": {
+   "pearson_mean": 0.053,
+   "spearman_mean": 0.052,
+   "mi_mean": 0.018,
+   "pearson_detect": 0.05,
+   "spearman_detect": 0.05,
+   "mi_detect": 0.05
+  },
+  "linear_n1000": {
+   "pearson_mean": 0.855,
+   "spearman_mean": 0.864,
+   "mi_mean": 0.649,
+   "pearson_detect": 1.0,
+   "spearman_detect": 1.0,
+   "mi_detect": 1.0
+  },
+  "u_n1000": {
+   "pearson_mean": 0.031,
+   "spearman_mean": 0.034,
+   "mi_mean": 1.051,
+   "pearson_detect": 0.053,
+   "spearman_detect": 0.11,
+   "mi_detect": 1.0
+  },
+  "wave_n1000": {
+   "pearson_mean": 0.234,
+   "spearman_mean": 0.236,
+   "mi_mean": 0.767,
+   "pearson_detect": 1.0,
+   "spearman_detect": 1.0,
+   "mi_detect": 1.0
+  },
+  "none_n1000": {
+   "pearson_mean": 0.026,
+   "spearman_mean": 0.026,
+   "mi_mean": 0.01,
+   "pearson_detect": 0.05,
+   "spearman_detect": 0.05,
+   "mi_detect": 0.05
+  }
+ },
+ "u_n200_pearson_mean": 0.07022812626737467,
+ "u_n200_mi_mean": 1.039523678883313,
+ "u_n200_pearson_detect": 0.08333333333333333,
+ "u_n200_mi_detect": 1.0,
+ "lin_n200_pearson_mean": 0.8562710960000794,
+ "lin_n200_mi_mean": 0.6678936010856632,
+ "wave_n200_mi_detect": 1.0,
+ "wave_n200_pearson_detect": 0.9633333333333334,
+ "u_n50_mi_detect": 1.0,
+ "lin_n50_pearson_detect": 1.0,
+ "lin_n50_mi_detect": 1.0
+}
