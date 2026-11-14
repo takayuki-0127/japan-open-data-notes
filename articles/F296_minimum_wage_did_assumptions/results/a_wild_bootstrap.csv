@@ -1,0 +1,7 @@
+y,重み,t,p_wild
+emp_rate,rademacher,1.808,0.0634
+emp_rate,webb,1.808,0.0638
+unemp_rate,rademacher,-1.8448,0.0568
+unemp_rate,webb,-1.8448,0.0566
+log_wage,rademacher,2.3446,0.0181
+log_wage,webb,2.3446,0.0201
