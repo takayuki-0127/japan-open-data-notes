@@ -1,0 +1,18 @@
+{
+ "rows_a": 3000,
+ "rows_b": 2400,
+ "rows_swapped": 2400,
+ "swapped_share": 0.4444444444444444,
+ "b_qty_true": 7196,
+ "b_qty_position": 2608080,
+ "b_amount_true": 2608080,
+ "b_amount_position": 7196,
+ "total_amount_true": 5827060,
+ "total_amount_position": 3226176,
+ "total_amount_ratio": 0.553654158357731,
+ "b_unit_price_true": 362.43468593663147,
+ "b_unit_price_position": 0.002759117818471826,
+ "a_amount": 3218980,
+ "error_raised": false,
+ "duckdb_version": "2.0.0"
+}
