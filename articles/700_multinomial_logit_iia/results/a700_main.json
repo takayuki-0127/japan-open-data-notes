@@ -1,0 +1,94 @@
+{
+ "n": 20000,
+ "lambda_true": 0.3,
+ "mnl": {
+  "ascB": -0.008,
+  "ascC": -0.106,
+  "beta": 1.487
+ },
+ "nl": {
+  "ascB": 0.181,
+  "ascC": 0.201,
+  "beta": 1.002,
+  "lambda": 0.301
+ },
+ "lr_stat_nl_vs_mnl": 877.4,
+ "shares": {
+  "本当": {
+   "before": [
+    45.0,
+    55.0,
+    0.0
+   ],
+   "after": [
+    39.9,
+    30.0,
+    30.0
+   ],
+   "C_from_A_pct": 16.9
+  },
+  "多項ロジット": {
+   "before": [
+    50.2,
+    49.8,
+    0.0
+   ],
+   "after": [
+    34.6,
+    34.3,
+    31.1
+   ],
+   "C_from_A_pct": 50.2
+  },
+  "入れ子ロジット": {
+   "before": [
+    45.5,
+    54.5,
+    0.0
+   ],
+   "after": [
+    40.1,
+    29.0,
+    30.9
+   ],
+   "C_from_A_pct": 17.3
+  }
+ },
+ "by_lambda": [
+  {
+   "lam": 0.1,
+   "true_A_after": 43.3,
+   "mnl_A_after": 36.5,
+   "nl_A_after": 43.9,
+   "nl_lam_hat": 0.096
+  },
+  {
+   "lam": 0.3,
+   "true_A_after": 39.9,
+   "mnl_A_after": 34.6,
+   "nl_A_after": 39.9,
+   "nl_lam_hat": 0.317
+  },
+  {
+   "lam": 0.5,
+   "true_A_after": 36.7,
+   "mnl_A_after": 32.7,
+   "nl_A_after": 36.6,
+   "nl_lam_hat": 0.489
+  },
+  {
+   "lam": 0.7,
+   "true_A_after": 33.5,
+   "mnl_A_after": 31.3,
+   "nl_A_after": 33.5,
+   "nl_lam_hat": 0.7
+  },
+  {
+   "lam": 1.0,
+   "true_A_after": 29.0,
+   "mnl_A_after": 29.6,
+   "nl_A_after": 29.6,
+   "nl_lam_hat": 1.0
+  }
+ ]
+}
