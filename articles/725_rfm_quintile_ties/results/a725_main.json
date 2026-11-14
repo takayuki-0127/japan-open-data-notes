@@ -1,0 +1,57 @@
+{
+ "customers": 5000,
+ "freq_share_pct": {
+  "1": 42.2,
+  "2": 24.8,
+  "3": 14.2,
+  "4": 8.1,
+  "5": 4.2,
+  "6": 2.5
+ },
+ "freq_mean": 2.37,
+ "split_freq_values": [
+  1,
+  2,
+  3
+ ],
+ "customers_in_split_values": 4058,
+ "customers_in_split_values_pct": 81.2,
+ "off_majority_tier": 1514,
+ "off_majority_tier_pct": 30.3,
+ "changed_by_tiebreak": 1744,
+ "changed_by_tiebreak_pct": 34.9,
+ "ntile_tiers_of_freq1": [
+  3,
+  4,
+  5
+ ],
+ "tier_sizes": {
+  "ntile_id": {
+   "1": 1000,
+   "2": 1000,
+   "3": 1000,
+   "4": 1000,
+   "5": 1000
+  },
+  "ntile_recent": {
+   "1": 1000,
+   "2": 1000,
+   "3": 1000,
+   "4": 1000,
+   "5": 1000
+  },
+  "rank_tier": {
+   "1": 1653,
+   "2": 1238,
+   "3": 2109,
+   "4": 0,
+   "5": 0
+  }
+ },
+ "rank_tier_used": [
+  1,
+  2,
+  3
+ ],
+ "sql_matches_python": true
+}
