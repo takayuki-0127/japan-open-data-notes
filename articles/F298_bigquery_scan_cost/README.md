@@ -60,6 +60,14 @@ BigQuery は読んだデータの量で課金される。パーティション�
 - 「何件くらいか」を知りたいだけなら、近似の関数で計算を減らす。誤差（ここでは1%未満）を報告に添える
 - テーブルを作る側に回ったら、「パーティションの絞り込みを必須にする」設定を入れる
 
+## ダッシュボードで見る
+同じ公開データから小さい表を3つ作り、Looker Studio（データポータル）で2ページのダッシュボードにした。
+- 1ページ目「日本語版の閲覧数」：2025年11月の日ごとの閲覧数（折れ線）と、11/1〜11/7 の言語版ごとの閲覧数（上位20・横棒）
+- 2ページ目「クエリごとの読む量」：この記事で流したクエリの、課金の対象になった量（MB・横棒）
+- 表を作る SQL は `sql/dashboard_tables.sql`。サンドボックスの表は60日で消えるので、消えたらこの SQL を流し直す
+- ダッシュボードは非公開。データの出典は Wikimedia Foundation の Pageviews（CC0）
+- `sql/dashboard_tables.sql` は、コンソールで流した SQL をファイルにまとめ直したもの。`query_cost` の見出しの言い回しは、流したものと少し違うことがある
+
 ## 再現のしかた
 ```
 pip install -r requirements.txt
@@ -72,6 +80,7 @@ BigQuery で測り直すときは、`sql/queries.sql` を BigQuery のコンソ�
 | ファイル | 中身 |
 |---|---|
 | sql/queries.sql | 流したクエリ（q1〜q9） |
+| sql/dashboard_tables.sql | ダッシュボード用の表（ja_daily・wiki_week・query_cost）を作る SQL |
 | data/jobs.csv | ジョブごとの見積もり・処理した量・課金の対象になった量・スロット時間・かかった時間 |
 | data/answers.csv | クエリの答え（行数・合計・記事数） |
 | data/table_meta.csv | pageviews の年ごとの行数と大きさ（`__TABLES__` から） |
