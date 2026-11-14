@@ -1,0 +1,53 @@
+{
+ "rows": 2000,
+ "true_total": 48836750,
+ "true_qty": 42012,
+ "rows_by_commas": {
+  "0": 225,
+  "1": 1766,
+  "2": 9
+ },
+ "unquoted_bad_rows": 1775,
+ "unquoted_bad_pct": 88.8,
+ "unquoted_amount_share_in_bad_rows_pct": 99.73,
+ "skip": {
+  "rows": 225,
+  "amount_sum": 133870,
+  "amount_vs_true_pct": -99.73
+ },
+ "by_position": {
+  "amount_sum": 162547,
+  "amount_vs_true_pct": -99.67,
+  "qty_sum": 815978,
+  "qty_vs_true_pct": 1842.25,
+  "rows_amount_wrong": 1775,
+  "rows_qty_wrong": 1775
+ },
+ "quoted_text_dtype": "object",
+ "quoted_thousands_ok": true,
+ "duckdb_quoted_sum": 48836750,
+ "duckdb_plain_sum": 48836750,
+ "example_1comma": {
+  "line": "2024-05-21,店13,品目16,36,140,13",
+  "fields": [
+   "2024-05-21",
+   "店13",
+   "品目16",
+   "36",
+   "140",
+   "13"
+  ]
+ },
+ "example_2commas": {
+  "line": "2024-06-24,店07,品目29,1,905,000,750",
+  "fields": [
+   "2024-06-24",
+   "店07",
+   "品目29",
+   "1",
+   "905",
+   "000",
+   "750"
+  ]
+ }
+}
