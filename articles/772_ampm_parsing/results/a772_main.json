@@ -1,0 +1,21 @@
+{
+ "rows": 50000,
+ "wrong_naive": 6423,
+ "wrong_naive_share": 0.12846,
+ "wrong_no_ampm": 33904,
+ "wrong_no_ampm_share": 0.67808,
+ "h0_ok": 2099,
+ "h0_naive": 0,
+ "h12_ok": 4324,
+ "h12_naive": 2099,
+ "h24_naive": 4324,
+ "h12_share_ok": 0.08648,
+ "h12_share_naive": 0.04198,
+ "peak_ok": 21,
+ "peak_no_ampm": 9,
+ "evening_18_23_ok": 23004,
+ "evening_18_23_no_ampm": 0,
+ "am_share_ok": 0.27742,
+ "am_share_no_ampm": 1.0,
+ "duckdb_version": "2.0.0"
+}
