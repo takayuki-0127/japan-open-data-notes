@@ -1,0 +1,72 @@
+{
+ "rows_each": 50000,
+ "by_digits": [
+  {
+   "digits": 16,
+   "n": 47492,
+   "distinct_text": 47492,
+   "excel_changed": 42748,
+   "excel_distinct": 31629,
+   "excel_lost": 15863,
+   "excel_rows_in_dup": 27927,
+   "excel_max_group": 6,
+   "float_changed": 0,
+   "float_distinct": 47492,
+   "float_rows_in_dup": 0,
+   "excel_amount_groups_merged": 12064,
+   "duckdb_distinct_double": 47492
+  },
+  {
+   "digits": 18,
+   "n": 49718,
+   "distinct_text": 49718,
+   "excel_changed": 49718,
+   "excel_distinct": 38390,
+   "excel_lost": 11328,
+   "excel_rows_in_dup": 20826,
+   "excel_max_group": 6,
+   "float_changed": 48771,
+   "float_distinct": 43992,
+   "float_rows_in_dup": 10966,
+   "excel_amount_groups_merged": 9498,
+   "duckdb_distinct_double": 43992
+  }
+ ],
+ "examples": {
+  "16": [
+   {
+    "original": "2025040100100034",
+    "excel": "2025040100100030",
+    "float64": "2025040100100034"
+   },
+   {
+    "original": "2025040100100009",
+    "excel": "2025040100100000",
+    "float64": "2025040100100009"
+   },
+   {
+    "original": "2025040100100049",
+    "excel": "2025040100100040",
+    "float64": "2025040100100049"
+   }
+  ],
+  "18": [
+   {
+    "original": "202504010001000029",
+    "excel": "202504010001000000",
+    "float64": "202504010001000032"
+   },
+   {
+    "original": "202504010002000009",
+    "excel": "202504010002000000",
+    "float64": "202504010002000000"
+   },
+   {
+    "original": "202504010005000025",
+    "excel": "202504010005000000",
+    "float64": "202504010005000032"
+   }
+  ]
+ },
+ "duckdb_version": "2.0.0"
+}

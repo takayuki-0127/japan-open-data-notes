@@ -1,0 +1,3 @@
+digits,n,distinct_text,excel_changed,excel_distinct,excel_lost,excel_rows_in_dup,excel_max_group,float_changed,float_distinct,float_rows_in_dup,excel_amount_groups_merged,duckdb_distinct_double
+16,47492,47492,42748,31629,15863,27927,6,0,47492,0,12064,47492
+18,49718,49718,49718,38390,11328,20826,6,48771,43992,10966,9498,43992
