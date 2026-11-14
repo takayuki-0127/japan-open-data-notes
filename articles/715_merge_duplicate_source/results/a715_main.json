@@ -1,0 +1,26 @@
+{
+ "customers": 5000,
+ "update_rows": 1500,
+ "duplicated_customers": 250,
+ "duplicates_found_by_sql": 250,
+ "new_customers_in_file": 67,
+ "wrong_values": {
+  "ばらばら": {
+   "A_on_conflict": 126,
+   "B_dedup_latest": 0,
+   "C_merge": "エラー"
+  },
+  "時刻の古い順": {
+   "A_on_conflict": 250,
+   "B_dedup_latest": 0,
+   "C_merge": "エラー"
+  },
+  "時刻の新しい順": {
+   "A_on_conflict": 0,
+   "B_dedup_latest": 0,
+   "C_merge": "エラー"
+  }
+ },
+ "merge_error": "Invalid Input Error: MERGE INTO command cannot affect the same target row more than once. A target row matched more than",
+ "duckdb_version": "2.0.0"
+}

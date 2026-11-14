@@ -1,0 +1,4 @@
+file_order,A,B,C,C_error
+ばらばら,126,0,エラー,Invalid Input Error: MERGE INTO command cannot affect the same target row more than once. A target row matched more than
+時刻の古い順,250,0,エラー,Invalid Input Error: MERGE INTO command cannot affect the same target row more than once. A target row matched more than
+時刻の新しい順,0,0,エラー,Invalid Input Error: MERGE INTO command cannot affect the same target row more than once. A target row matched more than
