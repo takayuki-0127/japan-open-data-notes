@@ -1,0 +1,52 @@
+{
+ "reps": 500,
+ "test_lags": 4,
+ "alpha": 0.05,
+ "z_ar": 0.5,
+ "x_noise_sd": 1.0,
+ "b_base": 0.3,
+ "n120_b03": {
+  "0": {
+   "naive_pct": 12.0,
+   "ctrl_pct": 4.8,
+   "reverse_pct": 7.0
+  },
+  "1": {
+   "naive_pct": 52.8,
+   "ctrl_pct": 5.6,
+   "reverse_pct": 5.0
+  },
+  "2": {
+   "naive_pct": 52.6,
+   "ctrl_pct": 3.4,
+   "reverse_pct": 5.6
+  },
+  "3": {
+   "naive_pct": 59.8,
+   "ctrl_pct": 5.6,
+   "reverse_pct": 3.8
+  },
+  "4": {
+   "naive_pct": 54.2,
+   "ctrl_pct": 5.0,
+   "reverse_pct": 5.6
+  }
+ },
+ "lag2_by_n": {
+  "60": 27.2,
+  "120": 52.6,
+  "240": 92.2
+ },
+ "lag2_by_b_n120": {
+  "0.1": 9.4,
+  "0.2": 27.4,
+  "0.3": 52.6,
+  "0.5": 92.4
+ },
+ "lag2_by_b_ctrl": {
+  "0.1": 5.6,
+  "0.2": 4.4,
+  "0.3": 3.4,
+  "0.5": 4.2
+ }
+}
