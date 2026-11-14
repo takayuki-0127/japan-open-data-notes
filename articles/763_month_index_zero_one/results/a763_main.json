@@ -1,0 +1,34 @@
+{
+ "cohorts": 18,
+ "per_cohort": 400,
+ "observe_until": "2025-12",
+ "retention_0based_pct": {
+  "0": 100.0,
+  "1": 77.8,
+  "2": 67.9,
+  "3": 61.9,
+  "6": 52.2,
+  "12": 39.8
+ },
+ "retention_1based_pct": {
+  "1": 100.0,
+  "2": 77.8,
+  "3": 67.9,
+  "6": 55.3,
+  "12": 42.2
+ },
+ "same_label_diff_pt": {
+  "1": -22.2,
+  "2": -9.9,
+  "3": -6.0,
+  "6": -3.2,
+  "12": -2.4
+ },
+ "misread_month1_pt": 22.2,
+ "target": "3か月目の継続率60%以上",
+ "cohorts_judged": 18,
+ "cohorts_pass_0based": 13,
+ "cohorts_pass_1based": 18,
+ "month12_0based": 39.8,
+ "month12_1based": 42.2
+}
