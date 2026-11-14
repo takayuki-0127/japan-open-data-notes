@@ -1,0 +1,136 @@
+{
+ "true_slope": 0.5,
+ "reps": 4000,
+ "x_dist": "χ²(3)/3（平均1）",
+ "sd_of_e": "x^h",
+ "cells": {
+  "h=0.0,n=20": {
+   "cover_ふつうの標準誤差": 94.77,
+   "se_ratio_ふつうの標準誤差": 0.953,
+   "cover_HC0": 88.9,
+   "se_ratio_HC0": 0.818,
+   "cover_HC3": 94.0,
+   "se_ratio_HC3": 1.087
+  },
+  "h=0.0,n=50": {
+   "cover_ふつうの標準誤差": 94.92,
+   "se_ratio_ふつうの標準誤差": 0.985,
+   "cover_HC0": 91.57,
+   "se_ratio_HC0": 0.915,
+   "cover_HC3": 94.35,
+   "se_ratio_HC3": 1.039
+  },
+  "h=0.0,n=200": {
+   "cover_ふつうの標準誤差": 95.3,
+   "se_ratio_ふつうの標準誤差": 0.998,
+   "cover_HC0": 93.92,
+   "se_ratio_HC0": 0.975,
+   "cover_HC3": 94.73,
+   "se_ratio_HC3": 1.011
+  },
+  "h=0.0,n=1000": {
+   "cover_ふつうの標準誤差": 95.2,
+   "se_ratio_ふつうの標準誤差": 0.997,
+   "cover_HC0": 94.9,
+   "se_ratio_HC0": 0.993,
+   "cover_HC3": 95.23,
+   "se_ratio_HC3": 1.0
+  },
+  "h=0.5,n=20": {
+   "cover_ふつうの標準誤差": 83.9,
+   "se_ratio_ふつうの標準誤差": 0.702,
+   "cover_HC0": 81.08,
+   "se_ratio_HC0": 0.704,
+   "cover_HC3": 89.92,
+   "se_ratio_HC3": 1.005
+  },
+  "h=0.5,n=50": {
+   "cover_ふつうの標準誤差": 83.05,
+   "se_ratio_ふつうの標準誤差": 0.689,
+   "cover_HC0": 88.55,
+   "se_ratio_HC0": 0.844,
+   "cover_HC3": 92.83,
+   "se_ratio_HC3": 1.011
+  },
+  "h=0.5,n=200": {
+   "cover_ふつうの標準誤差": 80.55,
+   "se_ratio_ふつうの標準誤差": 0.669,
+   "cover_HC0": 93.4,
+   "se_ratio_HC0": 0.95,
+   "cover_HC3": 94.6,
+   "se_ratio_HC3": 1.007
+  },
+  "h=0.5,n=1000": {
+   "cover_ふつうの標準誤差": 80.53,
+   "se_ratio_ふつうの標準誤差": 0.663,
+   "cover_HC0": 94.15,
+   "se_ratio_HC0": 0.992,
+   "cover_HC3": 94.58,
+   "se_ratio_HC3": 1.005
+  },
+  "h=1.0,n=20": {
+   "cover_ふつうの標準誤差": 71.97,
+   "se_ratio_ふつうの標準誤差": 0.527,
+   "cover_HC0": 77.28,
+   "se_ratio_HC0": 0.65,
+   "cover_HC3": 89.25,
+   "se_ratio_HC3": 0.989
+  },
+  "h=1.0,n=50": {
+   "cover_ふつうの標準誤差": 66.3,
+   "se_ratio_ふつうの標準誤差": 0.477,
+   "cover_HC0": 85.0,
+   "se_ratio_HC0": 0.768,
+   "cover_HC3": 91.53,
+   "se_ratio_HC3": 0.957
+  },
+  "h=1.0,n=200": {
+   "cover_ふつうの標準誤差": 63.78,
+   "se_ratio_ふつうの標準誤差": 0.46,
+   "cover_HC0": 91.67,
+   "se_ratio_HC0": 0.907,
+   "cover_HC3": 93.6,
+   "se_ratio_HC3": 0.976
+  },
+  "h=1.0,n=1000": {
+   "cover_ふつうの標準誤差": 62.12,
+   "se_ratio_ふつうの標準誤差": 0.453,
+   "cover_HC0": 94.12,
+   "se_ratio_HC0": 0.978,
+   "cover_HC3": 94.53,
+   "se_ratio_HC3": 0.996
+  },
+  "h=1.5,n=20": {
+   "cover_ふつうの標準誤差": 60.55,
+   "se_ratio_ふつうの標準誤差": 0.402,
+   "cover_HC0": 74.75,
+   "se_ratio_HC0": 0.576,
+   "cover_HC3": 89.78,
+   "se_ratio_HC3": 0.909
+  },
+  "h=1.5,n=50": {
+   "cover_ふつうの標準誤差": 56.38,
+   "se_ratio_ふつうの標準誤差": 0.368,
+   "cover_HC0": 84.42,
+   "se_ratio_HC0": 0.71,
+   "cover_HC3": 91.97,
+   "se_ratio_HC3": 0.907
+  },
+  "h=1.5,n=200": {
+   "cover_ふつうの標準誤差": 51.78,
+   "se_ratio_ふつうの標準誤差": 0.343,
+   "cover_HC0": 91.5,
+   "se_ratio_HC0": 0.853,
+   "cover_HC3": 93.45,
+   "se_ratio_HC3": 0.929
+  },
+  "h=1.5,n=1000": {
+   "cover_ふつうの標準誤差": 50.0,
+   "se_ratio_ふつうの標準誤差": 0.34,
+   "cover_HC0": 94.8,
+   "se_ratio_HC0": 0.955,
+   "cover_HC3": 95.2,
+   "se_ratio_HC3": 0.976
+  }
+ }
+}
