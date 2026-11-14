@@ -1,0 +1,23 @@
+{
+ "stores": 60,
+ "days": 30,
+ "rows": 1800,
+ "zero_visit_days": 263,
+ "zero_visit_share": 0.1461111111111111,
+ "stores_all_null": 2,
+ "stores_in_avg_nullif": 58,
+ "overall_avg_nullif": 0.11554455404309415,
+ "overall_avg_zero": 0.09866221086901984,
+ "overall_total": 0.11786109792754311,
+ "true_mean_p": 0.11912105239567404,
+ "true_weighted_p": 0.11656595995356596,
+ "store_mean_nullif": 0.1137347280466427,
+ "store_mean_zero": 0.09866221086901973,
+ "small_stores": 21,
+ "small_days_used_share": 0.6571428571428571,
+ "small_avg_nullif_mean": 0.1004556399912437,
+ "small_avg_zero_mean": 0.06642857142857143,
+ "small_rate_total_mean": 0.10207267093033187,
+ "max_store_avg_nullif": 0.2719298245614035,
+ "duckdb_version": "2.0.0"
+}
