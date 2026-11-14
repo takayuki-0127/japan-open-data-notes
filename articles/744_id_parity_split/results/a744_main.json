@@ -1,0 +1,36 @@
+{
+ "members_per_month": 20000,
+ "months": 1000,
+ "two_servers": {
+  "parity": {
+   "mean_diff": 480.2,
+   "false_positive": 1.0
+  },
+  "hash": {
+   "mean_diff": 2.8,
+   "false_positive": 0.049
+  },
+  "random": {
+   "mean_diff": 0.3,
+   "false_positive": 0.052
+  }
+ },
+ "one_server": {
+  "parity": {
+   "mean_diff": 1.3,
+   "false_positive": 0.042
+  },
+  "hash": {
+   "mean_diff": 0.3,
+   "false_positive": 0.047
+  },
+  "random": {
+   "mean_diff": 2.1,
+   "false_positive": 0.039
+  }
+ },
+ "one_month_odd_store_share": 0.8008362227207831,
+ "one_month_even_store_share": 0.1918775750441436,
+ "one_month_parity_diff": 445.33156796892126,
+ "duckdb_version": "2.0.0"
+}
