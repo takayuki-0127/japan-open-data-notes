@@ -1,0 +1,40 @@
+{
+ "users_per_arm": 2000,
+ "ctr": 0.05,
+ "beta_kappa": 20.0,
+ "reps": 2000,
+ "false_positive_pct": {
+  "1": {
+   "naive": 5.5,
+   "delta": 5.5,
+   "user_mean": 5.5
+  },
+  "3": {
+   "naive": 5.5,
+   "delta": 4.5,
+   "user_mean": 5.0
+  },
+  "10": {
+   "naive": 9.8,
+   "delta": 4.2,
+   "user_mean": 4.5
+  },
+  "30": {
+   "naive": 20.4,
+   "delta": 4.8,
+   "user_mean": 4.9
+  }
+ },
+ "variance_ratio_delta_over_naive": {
+  "1": 1.0,
+  "3": 1.13,
+  "10": 1.47,
+  "30": 2.43
+ },
+ "power_lift10_m10_pct": {
+  "naive": 57.9,
+  "delta": 42.9,
+  "user_mean": 41.4
+ },
+ "power_reps": 1000
+}
