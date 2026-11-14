@@ -1,0 +1,80 @@
+{
+ "n_train": 20000,
+ "n_eval": 100000,
+ "reps": 50,
+ "population": {
+  "p0_mean": 0.1629,
+  "uplift_mean": 0.0092,
+  "neg_share": 0.4089,
+  "sure_share": 0.0628
+ },
+ "incr_all_treated": 965.2,
+ "at_share": {
+  "10%": {
+   "R": 1161.9,
+   "U": 2519.4,
+   "random": 95.0,
+   "best": 2525.7
+  },
+  "20%": {
+   "R": 1663.0,
+   "U": 3755.4,
+   "random": 191.4,
+   "best": 3764.5,
+   "U_over_R_ratio": 2.26
+  },
+  "30%": {
+   "R": 1860.9,
+   "U": 4498.3,
+   "random": 289.3,
+   "best": 4508.7
+  },
+  "50%": {
+   "R": 1812.8,
+   "U": 5169.0,
+   "random": 481.3,
+   "best": 5180.6
+  }
+ },
+ "top20_selected": {
+  "R": {
+   "p0_mean": 0.3397,
+   "uplift_mean": 0.0831,
+   "neg_share": 0.3127,
+   "sure_share": 0.2305
+  },
+  "U": {
+   "p0_mean": 0.1339,
+   "uplift_mean": 0.1878,
+   "neg_share": 0.0,
+   "sure_share": 0.0162
+  },
+  "random": {
+   "p0_mean": 0.1629,
+   "uplift_mean": 0.0096,
+   "neg_share": 0.4068,
+   "sure_share": 0.0624
+  },
+  "best": {
+   "p0_mean": 0.1337,
+   "uplift_mean": 0.1882,
+   "neg_share": 0.0,
+   "sure_share": 0.016
+  }
+ },
+ "U_beats_R_at20_share": 1.0,
+ "peak": {
+  "R": {
+   "share": 0.4,
+   "incr": 1889.3
+  },
+  "U": {
+   "share": 0.6,
+   "incr": 5235.5
+  },
+  "best": {
+   "share": 0.6,
+   "incr": 5247.0
+  }
+ }
+}
