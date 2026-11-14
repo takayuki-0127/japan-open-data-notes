@@ -1,0 +1,19 @@
+{
+ "receipts": 35721,
+ "business_receipts": 251,
+ "business_receipt_share": 0.007026678984350942,
+ "business_amount_share": 0.12887867156950564,
+ "personal_mean_year": 2976.20947279391,
+ "gap_all_mean": 0.14051199920101762,
+ "gap_all_max": 0.4043069521340701,
+ "gap_all_max_month": "2025-03",
+ "gap_all_min": 0.02239333168223534,
+ "gap_capped_mean": 0.057705589115275256,
+ "gap_capped_max": 0.2741545006603512,
+ "median_vs_personal_mean": -0.135476018262878,
+ "cv_all": 0.12219642013432822,
+ "cv_personal": 0.01242006134312144,
+ "cv_capped": 0.09645450051597458,
+ "cv_median": 0.013994870011065077,
+ "duckdb_version": "2.0.0"
+}
