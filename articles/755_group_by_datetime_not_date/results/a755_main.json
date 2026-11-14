@@ -1,0 +1,20 @@
+{
+ "days": 31,
+ "orders": 13264,
+ "orders_ec": 5205,
+ "orders_store": 8059,
+ "ec_share_pct": 39.2,
+ "rows_A_group_by_datetime": 5231,
+ "rows_C_group_by_date": 31,
+ "A_rows_per_day": 168.7,
+ "A_rows_with_1_order_pct": 99.3,
+ "A_max_orders_in_a_row": 339,
+ "B_orders_counted": 8059,
+ "B_lost_orders": 5205,
+ "B_lost_pct": 39.2,
+ "B_lost_amount_pct": 46.6,
+ "ec_orders_exactly_midnight": 0,
+ "C_D_E_same": true,
+ "A_first_rows_per_day_orders_mean": 260.0,
+ "C_orders_per_day_mean": 427.9
+}
