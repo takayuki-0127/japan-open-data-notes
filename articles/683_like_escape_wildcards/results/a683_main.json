@@ -1,0 +1,74 @@
+{
+ "items": 5000,
+ "n_with_underscore": 320,
+ "n_with_percent": 140,
+ "by_term": {
+  "_M": {
+   "truth": 218,
+   "none": 1052,
+   "extra_none": 834,
+   "escape": 218,
+   "bracket_sqlserver": 218,
+   "bracket_duckdb": 0
+  },
+  "100%": {
+   "truth": 34,
+   "none": 356,
+   "extra_none": 322,
+   "escape": 34,
+   "bracket_sqlserver": 34,
+   "bracket_duckdb": 0
+  },
+  "10%": {
+   "truth": 37,
+   "none": 615,
+   "extra_none": 578,
+   "escape": 37,
+   "bracket_sqlserver": 37,
+   "bracket_duckdb": 0
+  },
+  "_": {
+   "truth": 320,
+   "none": 5000,
+   "extra_none": 4680,
+   "escape": 320,
+   "bracket_sqlserver": 320,
+   "bracket_duckdb": 0
+  },
+  "%": {
+   "truth": 140,
+   "none": 5000,
+   "extra_none": 4860,
+   "escape": 140,
+   "bracket_sqlserver": 140,
+   "bracket_duckdb": 0
+  }
+ },
+ "extra_examples": {
+  "_M": [
+   "ゼリー M6337",
+   "ナット MAX",
+   "ノート M332"
+  ],
+  "100%": [
+   "ペン 1000cm",
+   "ネジ 1000枚",
+   "ナット 1000cm"
+  ],
+  "10%": [
+   "ペン 1000cm",
+   "ゼリー 10g",
+   "ネジ 1000枚"
+  ],
+  "_": [
+   "ボトル 徳用",
+   "ゼリー M6337",
+   "ペン ミニ"
+  ],
+  "%": [
+   "ボトル 徳用",
+   "ゼリー M6337",
+   "ペン ミニ"
+  ]
+ }
+}
