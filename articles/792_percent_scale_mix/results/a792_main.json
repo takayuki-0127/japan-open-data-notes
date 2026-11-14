@@ -1,0 +1,56 @@
+{
+ "rows": 2000,
+ "manual_rows": 807,
+ "true_mean": 0.0755075,
+ "naive_mean": 3.078920000000037,
+ "rule_mean": 0.1287200000000005,
+ "by_source_mean": 0.07550749999999964,
+ "naive_ratio": 40.77634672052494,
+ "rule_gap_pt": 5.32125000000005,
+ "rule_wrong_rows": 135,
+ "rule_wrong_share_manual": 0.16728624535315986,
+ "rule_wrong_levels": [
+  0.5,
+  1.0
+ ],
+ "naive_median": 0.15,
+ "true_median": 0.05,
+ "by_manual_share": [
+  {
+   "manual_share": 0.0,
+   "naive": 0.07551,
+   "rule": 0.07551
+  },
+  {
+   "manual_share": 0.1,
+   "naive": 0.84573,
+   "rule": 0.08739
+  },
+  {
+   "manual_share": 0.2,
+   "naive": 1.62114,
+   "rule": 0.10496
+  },
+  {
+   "manual_share": 0.4,
+   "naive": 3.12892,
+   "rule": 0.13218
+  },
+  {
+   "manual_share": 0.6,
+   "naive": 4.52284,
+   "rule": 0.15545
+  },
+  {
+   "manual_share": 0.8,
+   "naive": 6.06154,
+   "rule": 0.18837
+  },
+  {
+   "manual_share": 1.0,
+   "naive": 7.55075,
+   "rule": 0.21584
+  }
+ ],
+ "duckdb_version": "2.0.0"
+}
