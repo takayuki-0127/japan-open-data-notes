@@ -1,0 +1,22 @@
+{
+ "stores": 200,
+ "months": 12,
+ "store_months": 2400,
+ "exact_mean": 102.58333333333333,
+ "r0_mean": 109.25,
+ "r1_mean": 103.25,
+ "extra_r0_mean": 6.666666666666667,
+ "extra_r0_min": 3,
+ "extra_r0_max": 9,
+ "extra_r1_mean": 0.6666666666666666,
+ "extra_r1_max": 2,
+ "extra_r0_total": 80,
+ "extra_r1_total": 8,
+ "exact_rate_share": 0.5129166666666667,
+ "r0_rate_share": 0.54625,
+ "border_count": 80,
+ "border_min_rate": 99.50383660806618,
+ "border_shortfall_max_yen": 71620,
+ "border_shortfall_mean_yen": 28324.8125,
+ "duckdb_version": "2.0.0"
+}
