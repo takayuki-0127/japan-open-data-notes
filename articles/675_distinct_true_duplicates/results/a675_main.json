@@ -1,0 +1,53 @@
+{
+ "stores": 10,
+ "days": 60,
+ "items": 30,
+ "true_rows": 54903,
+ "true_amount": 34035450,
+ "genuine_repeats": 6947,
+ "genuine_repeat_pct": 12.65,
+ "load_dups": 1098,
+ "methods": {
+  "none": {
+   "rows": 56001,
+   "amount": 34710950,
+   "rows_vs_true": 1098,
+   "amount_vs_true_pct": 1.985,
+   "genuine_lost": 0,
+   "load_dups_left": 1098
+  },
+  "D1": {
+   "rows": 52540,
+   "amount": 32945200,
+   "rows_vs_true": -2363,
+   "amount_vs_true_pct": -3.203,
+   "genuine_lost": 2363,
+   "load_dups_left": 0
+  },
+  "D2": {
+   "rows": 54902,
+   "amount": 34034860,
+   "rows_vs_true": -1,
+   "amount_vs_true_pct": -0.002,
+   "genuine_lost": 1,
+   "load_dups_left": 0
+  },
+  "T": {
+   "rows": 54903,
+   "amount": 34035450,
+   "rows_vs_true": 0,
+   "amount_vs_true_pct": 0.0,
+   "genuine_lost": 0,
+   "load_dups_left": 0
+  }
+ },
+ "by_band_lost_pct": {
+  "300円以下": 5.75,
+  "301〜600円": 3.71,
+  "601〜1,200円": 2.27,
+  "1,201円以上": 1.22
+ },
+ "D1_lost_repeat": 2262,
+ "D1_lost_coincidence": 101,
+ "repeats_same_minute_pct": 32.6
+}
