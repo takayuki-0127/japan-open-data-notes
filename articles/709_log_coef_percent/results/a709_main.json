@@ -1,0 +1,108 @@
+{
+ "sd_log": 0.5,
+ "stores_per_group": 50,
+ "reps": 3000,
+ "gap_reaches_1pt_at_b": {
+  "positive": 0.14,
+  "negative": -0.15
+ },
+ "examples": {
+  "b=0.10": {
+   "read_pct": 10.0,
+   "true_pct": 10.5,
+   "gap_pt": -0.5
+  },
+  "b=0.30": {
+   "read_pct": 30.0,
+   "true_pct": 35.0,
+   "gap_pt": -5.0
+  },
+  "b=0.69": {
+   "read_pct": 69.0,
+   "true_pct": 99.4,
+   "gap_pt": -30.4
+  },
+  "b=-0.69": {
+   "read_pct": -69.0,
+   "true_pct": -49.8,
+   "gap_pt": -19.2
+  },
+  "b=1.10": {
+   "read_pct": 110.0,
+   "true_pct": 200.4,
+   "gap_pt": -90.4
+  }
+ },
+ "simulation": {
+  "-60": {
+   "b_true": -0.9163,
+   "read_b100_mean": -91.61,
+   "exp_minus1_mean": -59.79,
+   "kennedy_mean": -59.99,
+   "ratio_of_means_mean": -59.73
+  },
+  "-40": {
+   "b_true": -0.5108,
+   "read_b100_mean": -51.25,
+   "exp_minus1_mean": -39.79,
+   "kennedy_mean": -40.1,
+   "ratio_of_means_mean": -39.77
+  },
+  "-20": {
+   "b_true": -0.2231,
+   "read_b100_mean": -22.43,
+   "exp_minus1_mean": -19.68,
+   "kennedy_mean": -20.08,
+   "ratio_of_means_mean": -19.65
+  },
+  "-10": {
+   "b_true": -0.1054,
+   "read_b100_mean": -10.32,
+   "exp_minus1_mean": -9.37,
+   "kennedy_mean": -9.82,
+   "ratio_of_means_mean": -9.41
+  },
+  "0": {
+   "b_true": 0.0,
+   "read_b100_mean": 0.09,
+   "exp_minus1_mean": 0.58,
+   "kennedy_mean": 0.08,
+   "ratio_of_means_mean": 0.69
+  },
+  "10": {
+   "b_true": 0.0953,
+   "read_b100_mean": 9.73,
+   "exp_minus1_mean": 10.75,
+   "kennedy_mean": 10.2,
+   "ratio_of_means_mean": 10.79
+  },
+  "20": {
+   "b_true": 0.1823,
+   "read_b100_mean": 18.09,
+   "exp_minus1_mean": 20.44,
+   "kennedy_mean": 19.84,
+   "ratio_of_means_mean": 20.38
+  },
+  "50": {
+   "b_true": 0.4055,
+   "read_b100_mean": 40.55,
+   "exp_minus1_mean": 50.75,
+   "kennedy_mean": 50.0,
+   "ratio_of_means_mean": 50.7
+  },
+  "100": {
+   "b_true": 0.6931,
+   "read_b100_mean": 69.42,
+   "exp_minus1_mean": 101.2,
+   "kennedy_mean": 100.2,
+   "ratio_of_means_mean": 100.88
+  },
+  "200": {
+   "b_true": 1.0986,
+   "read_b100_mean": 109.75,
+   "exp_minus1_mean": 201.2,
+   "kennedy_mean": 199.69,
+   "ratio_of_means_mean": 201.55
+  }
+ }
+}
