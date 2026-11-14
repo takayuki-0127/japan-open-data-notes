@@ -1,0 +1,39 @@
+{
+ "rows": 5000,
+ "true_blank": 2260,
+ "true_blank_share": 0.452,
+ "blank_isnull": 1125,
+ "blank_empty": 1826,
+ "blank_trim": 2260,
+ "share_isnull": 0.225,
+ "share_empty": 0.3652,
+ "share_trim": 0.452,
+ "fill_rate_count_col": 0.775,
+ "true_fill_rate": 0.548,
+ "by_source": {
+  "counter": {
+   "n": 992,
+   "blank_isnull": 0.0,
+   "blank_empty": 0.0,
+   "blank_trim": 434.0,
+   "count_col": 992
+  },
+  "import": {
+   "n": 1539,
+   "blank_isnull": 0.0,
+   "blank_empty": 701.0,
+   "blank_trim": 701.0,
+   "count_col": 1539
+  },
+  "web": {
+   "n": 2469,
+   "blank_isnull": 1125.0,
+   "blank_empty": 1125.0,
+   "blank_trim": 1125.0,
+   "count_col": 1344
+  }
+ },
+ "csv_pandas_isnull": 1826,
+ "csv_pandas_space_only": 434,
+ "duckdb_version": "2.0.0"
+}
