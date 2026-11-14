@@ -1,0 +1,27 @@
+{
+ "n": 500,
+ "replaced": 50,
+ "reps": 300,
+ "depth": 4,
+ "base_root": "x1",
+ "base_top_set": [
+  "x1",
+  "x2"
+ ],
+ "root_share_pct": {
+  "x1": 81.0,
+  "x2": 19.0
+ },
+ "root_same_as_base_pct": 81.0,
+ "top_set_same_pct": 77.0,
+ "tree_pred_mean_abs_diff": 0.668,
+ "tree_test_rmse": 2.355,
+ "tree_pred_diff_root_changed": 0.744,
+ "tree_pred_diff_root_same": 0.65,
+ "rf_reps": 50,
+ "rf_pred_mean_abs_diff": 0.318,
+ "rf_test_rmse": 2.116,
+ "base_tree_test_rmse": 2.297,
+ "corr_x1_x2": 0.788,
+ "y_sd": 4.1
+}
