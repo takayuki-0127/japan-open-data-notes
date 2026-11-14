@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 273本＋記事の一覧 793本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 275本＋記事の一覧 793本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -11,7 +11,7 @@
 | 手法 | 本数 |
 |---|---|
 | 予測・時系列 | 149 |
-| 因果推論・効果検証 | 69 |
+| 因果推論・効果検証 | 70 |
 | A/B テスト・実験 | 27 |
 | 統計の考え方（検定・区間・回帰） | 322 |
 | 機械学習・モデル評価 | 139 |
@@ -22,7 +22,7 @@
 | 可視化・報告・BI | 48 |
 | 保険数理・リスク | 75 |
 | テキスト・ネットワーク・空間 | 33 |
-| 再現性・振り返り | 99 |
+| 再現性・振り返り | 100 |
 | その他（記述・要因分解など） | 391 |
 
 <details><summary><b>予測・時系列</b>（149本）</summary>
@@ -181,7 +181,7 @@
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（69本）</summary>
+<details><summary><b>因果推論・効果検証</b>（70本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -254,6 +254,7 @@
 | 737 | 施策の効き道になる変数を回帰に入れると、施策の効果はどれだけ小さく出るのか？ | [737_mediator_adjustment](articles/737_mediator_adjustment) |
 | 770 | 傾向スコアか結果のモデルのどちらかがまちがっているとき、二重に頑健な推定はどれだけずれるのか？ | [770_doubly_robust](articles/770_doubly_robust) |
 | 776 | 差の差で対照を1店だけ選ぶと、施策の効果の推定はどれだけ振れるのか？ | [776_single_control_did](articles/776_single_control_did) |
+| F296 | 最低賃金の差の差は、前提をどこまで確かめられるのか？ | [F296_minimum_wage_did_assumptions](articles/F296_minimum_wage_did_assumptions) |
 
 </details>
 
@@ -1294,7 +1295,7 @@
 
 </details>
 
-<details><summary><b>再現性・振り返り</b>（99本）</summary>
+<details><summary><b>再現性・振り返り</b>（100本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1397,6 +1398,7 @@
 | 406 | SQL の見直しの観点10個を、自分の記事の SQL に当てると何件引っかかるか？ | [406_sql_review_checklist_hits](articles/406_sql_review_checklist_hits) |
 | 412 | 月末に始まった契約の「1か月後」は、いつになるのか？ | [412_monthly_anniversary_dates](articles/412_monthly_anniversary_dates) |
 | 427 | 「2025/1/5」「R7.1.5」「20250105」が混ざった日付の列は、機械に読ませると何件が別の日になるのか？ | [427_mixed_date_formats](articles/427_mixed_date_formats) |
+| F297 | 自分の分析記事1,066本は、決めた書き方をどこまで守っていたのか？ | [F297_article_practice_audit](articles/F297_article_practice_audit) |
 
 </details>
 
@@ -1810,7 +1812,7 @@
 | 業務の集計・報告 | 143 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 74 |
-| 公的統計・地域・人口 | 299 |
+| 公的統計・地域・人口 | 300 |
 
 <details><summary><b>小売・店舗</b>（182本）</summary>
 
@@ -2420,7 +2422,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（299本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（300本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2723,6 +2725,7 @@
 | 452 | 小計や合計の行が混ざった表をそのまま足すと、合計は何倍になるのか？ | [452_subtotal_rows_double_count](articles/452_subtotal_rows_double_count) |
 | 474 | 見出しを結合セルや空欄で省いた Excel の表を読むと、何行が区分を失うのか？ | [474_blank_headings_filldown](articles/474_blank_headings_filldown) |
 | 541 | 郵便番号から都道府県・市区町村を引くと、古い番号や事業所の個別番号のせいで何件が引けないのか？ | [541_postal_code_lookup_gaps](articles/541_postal_code_lookup_gaps) |
+| F296 | 最低賃金の差の差は、前提をどこまで確かめられるのか？ | [F296_minimum_wage_did_assumptions](articles/F296_minimum_wage_did_assumptions) |
 
 </details>
 
