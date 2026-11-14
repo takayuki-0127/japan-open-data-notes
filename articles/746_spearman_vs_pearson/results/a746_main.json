@@ -1,0 +1,77 @@
+{
+ "n": 50,
+ "reps": 1000,
+ "by_c": {
+  "0": {
+   "pearson": 0.995,
+   "spearman": 0.991,
+   "kendall": 0.934
+  },
+  "1": {
+   "pearson": 0.991,
+   "spearman": 0.998,
+   "kendall": 0.974
+  },
+  "2": {
+   "pearson": 0.969,
+   "spearman": 0.998,
+   "kendall": 0.978
+  },
+  "4": {
+   "pearson": 0.9,
+   "spearman": 0.999,
+   "kendall": 0.983
+  },
+  "6": {
+   "pearson": 0.823,
+   "spearman": 0.998,
+   "kendall": 0.977
+  },
+  "8": {
+   "pearson": 0.756,
+   "spearman": 0.992,
+   "kendall": 0.952
+  },
+  "10": {
+   "pearson": 0.701,
+   "spearman": 0.972,
+   "kendall": 0.903
+  }
+ },
+ "c10_pearson": 0.7007774715741053,
+ "c10_spearman": 0.9720409123649458,
+ "c10_kendall": 0.9030236734693877,
+ "c6_pearson": 0.823034058925058,
+ "c6_spearman": 0.9977965906362545,
+ "c10_pearson_p05_p95": [
+  0.6260571606377845,
+  0.7641773217672329
+ ],
+ "outlier": {
+  "0": {
+   "pearson": 0.495,
+   "spearman": 0.474,
+   "kendall": 0.334
+  },
+  "-3": {
+   "pearson": 0.255,
+   "spearman": 0.384,
+   "kendall": 0.278
+  },
+  "-6": {
+   "pearson": 0.08,
+   "spearman": 0.386,
+   "kendall": 0.279
+  },
+  "-10": {
+   "pearson": -0.067,
+   "spearman": 0.39,
+   "kendall": 0.282
+  },
+  "-20": {
+   "pearson": -0.224,
+   "spearman": 0.383,
+   "kendall": 0.278
+  }
+ }
+}
