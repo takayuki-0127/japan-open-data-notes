@@ -1,0 +1,27 @@
+{
+ "stores": 60,
+ "months": 24,
+ "rows": 1240,
+ "missing_month_rows": 200,
+ "missing_pct": 13.9,
+ "rows_with_lag": 1180,
+ "rows_not_prev_month": 145,
+ "rows_not_prev_month_pct": 12.3,
+ "gap_counts": {
+  "2": 121,
+  "3": 20,
+  "4": 2,
+  "5": 2
+ },
+ "stores_affected": 53,
+ "mom_A_on_wrong_rows_median_abs": 14.2,
+ "mom_A_on_wrong_rows_share_within_10pct": 36.6,
+ "true_mom_on_wrong_rows": "前月が0のため計算できない（行がなかった月の翌月）",
+ "rows_after_zero_month_in_B": 191,
+ "wrong_pct_by_store_size": {
+  "小": 20.3,
+  "中小": 14.1,
+  "中大": 10.1,
+  "大": 4.2
+ }
+}
