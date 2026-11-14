@@ -1,0 +1,36 @@
+{
+ "stores": 120,
+ "items": 300,
+ "items_per_store": 60,
+ "pairs": 7200,
+ "keys_nosep": 7089,
+ "colliding_keys": 111,
+ "pairs_in_colliding_keys": 222,
+ "pairs_in_colliding_keys_pct": 3.08,
+ "max_pairs_per_key": 2,
+ "join_rows": {
+  "nosep": 7422,
+  "sep": 7200,
+  "two_columns": 7200
+ },
+ "extra_rows_nosep": 222,
+ "target_sum": {
+  "nosep": 73575800,
+  "sep": 71289600,
+  "two_columns": 71289600
+ },
+ "target_true": 71289600,
+ "target_over_pct_nosep": 3.21,
+ "amount_sum": {
+  "nosep": 73566700,
+  "sep": 71323600,
+  "two_columns": 71323600
+ },
+ "by_store_count_collide_pct": {
+  "9": 0.0,
+  "99": 3.18,
+  "120": 3.56,
+  "999": 3.56
+ },
+ "sql_matches_python": true
+}
