@@ -1,0 +1,42 @@
+{
+ "stores": 30,
+ "rate1_range_pct": [
+  1.03,
+  18.46
+ ],
+ "spearman": {
+  "pt_vs_pct": 0.888,
+  "pt_vs_apps": 0.898,
+  "pct_vs_apps": 0.849
+ },
+ "top5_overlap": {
+  "pt_and_pct": 2,
+  "pt_and_apps": 3,
+  "pct_and_apps": 3
+ },
+ "top5_pct_low_base_count": 5,
+ "top5_pt_low_base_count": 2,
+ "max_rank_jump_pt_vs_pct": 9,
+ "top_pct_store": {
+  "store": "S08",
+  "rate1": 1.07,
+  "rate2": 2.79,
+  "diff_pt": 1.72,
+  "change_pct": 161.68,
+  "diff_apps": 90.0,
+  "rank_pt": 2.0
+ },
+ "top_pt_store": {
+  "store": "S07",
+  "rate1": 12.48,
+  "rate2": 14.32,
+  "diff_pt": 1.84,
+  "change_pct": 14.72,
+  "diff_apps": 247.0,
+  "rank_pct": 10.0
+ },
+ "example_5_to_6": {
+  "diff_pt": 1.0,
+  "change_pct": 20.0
+ }
+}
