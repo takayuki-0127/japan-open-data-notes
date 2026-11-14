@@ -1,0 +1,86 @@
+{
+ "days": 1099,
+ "true_growth_pct": 3.0,
+ "threshold_pt": 5.0,
+ "methods": {
+  "A": {
+   "label": "1月1日から7日ずつ",
+   "2025": {
+    "weeks": 53,
+    "weeks_no_prev": 0,
+    "weeks_off_5pt": 1,
+    "weeks_short_or_mismatched_days": 1,
+    "max_abs_dev_pt": 51.7,
+    "last_week": 53,
+    "last_week_days": 1,
+    "last_week_yoy": -48.7,
+    "first_week_yoy": 3.0
+   },
+   "2026": {
+    "weeks": 53,
+    "weeks_no_prev": 0,
+    "weeks_off_5pt": 0,
+    "weeks_short_or_mismatched_days": 1,
+    "max_abs_dev_pt": 4.6,
+    "last_week": 53,
+    "last_week_days": 1,
+    "last_week_yoy": 5.8,
+    "first_week_yoy": -1.5
+   }
+  },
+  "B": {
+   "label": "日曜始まり・1月1日を含む週が第1週",
+   "2025": {
+    "weeks": 53,
+    "weeks_no_prev": 0,
+    "weeks_off_5pt": 2,
+    "weeks_short_or_mismatched_days": 2,
+    "max_abs_dev_pt": 39.0,
+    "last_week": 53,
+    "last_week_days": 4,
+    "last_week_yoy": 41.8,
+    "first_week_yoy": -36.0
+   },
+   "2026": {
+    "weeks": 53,
+    "weeks_no_prev": 0,
+    "weeks_off_5pt": 4,
+    "weeks_short_or_mismatched_days": 2,
+    "max_abs_dev_pt": 40.4,
+    "last_week": 53,
+    "last_week_days": 5,
+    "last_week_yoy": 26.4,
+    "first_week_yoy": -37.4
+   }
+  },
+  "C": {
+   "label": "ISO 週",
+   "2025": {
+    "weeks": 52,
+    "weeks_no_prev": 0,
+    "weeks_off_5pt": 1,
+    "weeks_short_or_mismatched_days": 0,
+    "max_abs_dev_pt": 9.7,
+    "last_week": 52,
+    "last_week_days": 7,
+    "last_week_yoy": 4.8,
+    "first_week_yoy": 12.7
+   },
+   "2026": {
+    "weeks": 53,
+    "weeks_no_prev": 1,
+    "weeks_off_5pt": 2,
+    "weeks_short_or_mismatched_days": 1,
+    "max_abs_dev_pt": 6.9,
+    "last_week": 53,
+    "last_week_days": 7,
+    "last_week_yoy": null,
+    "first_week_yoy": 5.5
+   }
+  }
+ },
+ "iso_2026_w53_dates": "2026-12-28〜2027-01-03",
+ "iso_2026_w53_yoy_vs_364days_before": 3.7,
+ "iso_2026_w53_vs_2025_w52_pct": -25.8,
+ "iso_2026_w53_vs_2025_w01_pct": 9.4
+}
