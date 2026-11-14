@@ -6,6 +6,25 @@
 - 番号は note の記事の通し番号です（002〜007・017・018 は YouTube やツールの記事で、別のリポジトリにあります）
 - 以前の記事で使った図は [note-figures](https://github.com/takayuki-0127/note-figures) にあります
 
+## はじめに読む10本
+| # | 記事 | 手法 |
+|---|---|---|
+| F205・F206 | [予測モデルは、作る前に何を決め、外れをいくらと見て、いつ作り直すのか？](articles/F205_power_forecast_practice_part1)・[後編](articles/F206_power_forecast_practice_part2) | 予測の評価指標・非対称な損失・見張り・階層の調整 |
+| F201・F202 | [最低賃金は誰に届き、雇用をどれだけ動かしたのか？](articles/F201_minimum_wage_series_part1)・[後編](articles/F202_minimum_wage_series_part2) | 差の差・合成コントロール・隣接県の比較 |
+| F207・F208 | [地価はどこで上がり、駅ができると何が起きるのか？](articles/F207_landprice_series_part1)・[後編](articles/F208_landprice_series_part2) | 駅の開業の効果（処置と比較の距離帯）・地価の予測（リッジ回帰） |
+| F250 | [売上が落ちた月に、理由を説明する](articles/F250_sales_drop_explanation_fictional_retail) | 要因分解（LMDI）・暦の補正・偶然の幅（架空の会社） |
+| F237 | [A/B テストを途中で見ると、何がまずいのか？](articles/F237_ab_test_peeking_sequential) | 群逐次検定・mSPRT・シミュレーション |
+| F239 | [広告費は、売上にどれだけ効いているのか？](articles/F239_marketing_mix_model) | MMM（アドストック・飽和）・地域実験・予算配分 |
+| F241 | [顧客はどれくらいで離れていくのか？](articles/F241_customer_churn_survival) | 生存分析（Kaplan–Meier・Cox）・コホート表・LTV |
+| F275 | [集計の SQL は、どう書けば直しやすく、直し忘れに気づけるか？](articles/F275_sql_change_requests) | SQL の設計（共通ビュー）・テスト・変異による検証 |
+| F165 | [データ分析の「再現できる形」は、どこまで作れたか？](articles/F165_reproducibility_audit) | 記事フォルダの一括の再実行・再現性の点検 |
+| — | [youtube-data-mart](https://github.com/takayuki-0127/youtube-data-mart)（別のリポジトリ） | SQL Server・スタースキーマ・RLS・Power BI |
+
+## 探し方と作り方
+- [索引（手法別・業務の場面別）](INDEX.md)：A/B テスト・因果推論・予測・SQL・Excel などの手法と、小売・会員・マーケティングなどの場面で引けます
+- [作り方と確かめ方](HOWTO.md)：データの種類、生成AIの使い方、1本ごとに確かめていること
+- [直したこと](CORRECTIONS.md)・[確かめていないこと](UNVERIFIED.md)
+
 ## 看板記事
 手法をくわしく見せる長めの記事です。まずはここから読んでください（下の「記事の一覧」の本数には含めていません）。
 
@@ -1100,7 +1119,7 @@
 | 800 | U字の関係では、相関係数と相互情報量はどれだけ違う答えを出すのか？ 点がほぼ曲線に乗る U字でも相関は0.07で、関係を見つけたのは8%だけ。相互情報量は300回すべてで見つけた | [800_mutual_information_vs_corr](articles/800_mutual_information_vs_corr) |
 
 ## 共通の方針
-- データは e-Stat などの公開データだけを使い、出典は各フォルダの README に書いています（政府標準利用規約 第2.0版などに沿って「〇〇をもとに作成者が加工して作成」）
+- データは e-Stat などの公開データか、作成者が乱数で作った架空のデータです。出典は各フォルダの README に書いています（公開データは政府標準利用規約 第2.0版などに沿って「〇〇をもとに作成者が加工して作成」）。データの種類は [作り方と確かめ方](HOWTO.md) にまとめています
 - 各フォルダの `src/` のスクリプトは、フォルダの中の `data/` を読んで `figures/` と `results/` を作り直します
 - 図の日本語フォントは Noto Sans CJK JP を使っています
 
