@@ -1,0 +1,41 @@
+{
+ "customers": 24000,
+ "first_purchase_period": "2024-01-01〜2025-06-30",
+ "data_end": "2025-06-30",
+ "true_change": "2025年1月以降の顧客は、すぐ買い直す人が40%→46%（作成者が置いた）",
+ "rate_2024H2_mean": {
+  "rate30": 47.0,
+  "rate60": 57.2,
+  "rate90": 62.1
+ },
+ "rate_2025H1_mean": {
+  "rate30": 49.3,
+  "rate60": 57.3,
+  "rate90": 60.4
+ },
+ "rate_2025_complete_months_mean": {
+  "rate30": 52.4,
+  "rate60": 62.9,
+  "rate90": 68.1
+ },
+ "complete_last_cohort": {
+  "rate30": "2025-05-01",
+  "rate60": "2025-04-01",
+  "rate90": "2025-03-01"
+ },
+ "last_cohort_2025_06": {
+  "rate30": 33.9,
+  "rate60": 33.9,
+  "rate90": 33.9
+ },
+ "cohort_2025_03": {
+  "rate30": 52.0,
+  "rate60": 62.6,
+  "rate90": 68.2
+ },
+ "complete_months_available": {
+  "30": 17,
+  "60": 16,
+  "90": 15
+ }
+}
