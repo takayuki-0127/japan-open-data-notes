@@ -1,0 +1,38 @@
+{
+ "rows": 12000,
+ "region_blank_rows": 125,
+ "A_region_nan_rows": 3906,
+ "A_region_nan_pct": 32.6,
+ "B_region_nan_rows": 3906,
+ "C_region_nan_rows": 125,
+ "A_memo_nan_rows": 9569,
+ "C_memo_nan_rows": 4718,
+ "memo_blank_rows_true": 4718,
+ "memo_words_turned_nan_A": [
+  "N/A",
+  "NA",
+  "None",
+  "null"
+ ],
+ "NA_sales_pct_true": 32.0,
+ "A_NA_in_groupby": false,
+ "A_total_vs_true_pct": -32.0,
+ "share_true": {
+  "アフリカ": 3.3,
+  "アジア": 27.6,
+  "欧州": 27.3,
+  "北米": 32.0,
+  "オセアニア": 6.0,
+  "南米": 3.8
+ },
+ "share_A": {
+  "アフリカ": 4.9,
+  "アジア": 40.6,
+  "欧州": 40.1,
+  "オセアニア": 8.8,
+  "南米": 5.6
+ },
+ "duckdb_region_null_rows": 125,
+ "duckdb_NA_rows": 3781,
+ "pandas_version": "2.3.3"
+}
