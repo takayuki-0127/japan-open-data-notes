@@ -1,0 +1,19 @@
+{
+ "fixed_rows": 100,
+ "months": 12,
+ "rows_total": 1525,
+ "months_over": 10,
+ "rows_min": 89,
+ "rows_max": 164,
+ "missing_total": 2154380,
+ "missing_share_total": 0.24108754500010632,
+ "missing_share_max": 0.413313100657562,
+ "missing_share_max_month": "2025-12",
+ "missing_share_mean_over": 0.2666855903875466,
+ "first_wrong_day_min": 18,
+ "first_wrong_day_median": 24.0,
+ "example_month": "2025-12",
+ "example_rows": 164,
+ "example_first_wrong_day": 18,
+ "duckdb_version": "2.0.0"
+}
