@@ -1,0 +1,22 @@
+{
+ "files": 24,
+ "bom_files": 9,
+ "bom_from": "2025-04",
+ "rows_total": 26316,
+ "rows_store_unknown_A": 9900,
+ "rows_store_unknown_pct": 37.6,
+ "sales_total_oku": 53.4,
+ "sales_dropped_pct": 37.6,
+ "sales_2025_dropped_pct": 75.2,
+ "header_first_A_bom_file": "'\\ufeffstore_id'",
+ "header_len_A_bom_file": 9,
+ "header_first_A_plain_file": "'store_id'",
+ "error_raised_A": false,
+ "yoy_2025_true_pct": 0.2,
+ "yoy_2025_A_pct": -75.2,
+ "utf8_sig_ok": true,
+ "pandas_ok": true,
+ "duckdb_ok": true,
+ "store_ratio_min": 0.619,
+ "store_ratio_max": 0.629
+}
