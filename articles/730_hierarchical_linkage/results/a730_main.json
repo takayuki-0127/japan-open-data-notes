@@ -1,0 +1,33 @@
+{
+ "stores": 300,
+ "reps": 300,
+ "hit_rule": "ARI>=0.9",
+ "tiny_rule": "smallest cluster <= 5",
+ "by_method": {
+  "single": {
+   "ari_mean": 0.424,
+   "hit_pct": 7.0,
+   "tiny_cluster_pct": 92.7
+  },
+  "complete": {
+   "ari_mean": 0.578,
+   "hit_pct": 0.0,
+   "tiny_cluster_pct": 1.7
+  },
+  "average": {
+   "ari_mean": 0.638,
+   "hit_pct": 3.3,
+   "tiny_cluster_pct": 33.3
+  },
+  "ward": {
+   "ari_mean": 0.725,
+   "hit_pct": 19.3,
+   "tiny_cluster_pct": 0.0
+  },
+  "kmeans": {
+   "ari_mean": 0.684,
+   "hit_pct": 5.0,
+   "tiny_cluster_pct": 0.0
+  }
+ }
+}

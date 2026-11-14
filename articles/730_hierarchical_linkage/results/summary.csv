@@ -1,0 +1,6 @@
+method,ari_mean,ari_median,hit_pct,tiny_pct
+single,0.424,0.416,7.0,92.667
+complete,0.578,0.596,0.0,1.667
+average,0.638,0.623,3.333,33.333
+ward,0.725,0.672,19.333,0.0
+kmeans,0.684,0.661,5.0,0.0
