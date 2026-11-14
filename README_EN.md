@@ -9,13 +9,14 @@ Most articles use Japanese government statistics and open data; some recreate ev
 - Articles from No. 551 onward are re-run every week by GitHub Actions to check that the results are reproduced ([tools/repro_check.py](tools/repro_check.py)).
 - Index by method and business scene: [INDEX.md](INDEX.md) (Japanese). How the articles are made: [HOWTO.md](HOWTO.md). Known errors and fixes: [CORRECTIONS.md](CORRECTIONS.md). Code that was not executed: [UNVERIFIED.md](UNVERIFIED.md).
 - Every article states what it **cannot** claim (data limits, association vs. causation, assumptions of the simulation).
+- English write-ups of 14 showcase works (question and main result for each): [SHOWCASE_EN.md](SHOWCASE_EN.md)
 
 ## Ten articles to read first
 
 | # | Article | Methods |
 |---|---|---|
 | 1 | [F205](articles/F205_power_forecast_practice_part1) / [F206](articles/F206_power_forecast_practice_part2) Running electricity demand forecasts in practice | forecast evaluation, asymmetric loss, monitoring, hierarchical reconciliation |
-| 2 | [F201](articles/F201_minimum_wage_series_part1) / [F202](articles/F202_minimum_wage_series_part2) Minimum wage and employment | difference-in-differences, synthetic control, border-county comparison, power analysis |
+| 2 | [F201](articles/F201_minimum_wage_series_part1) / [F202](articles/F202_minimum_wage_series_part2) Minimum wage and employment | difference-in-differences, synthetic control, neighboring-prefecture comparison, power analysis |
 | 3 | [F207](articles/F207_landprice_series_part1) / [F208](articles/F208_landprice_series_part2) Land prices and housing | hedonic regression, spatial models, explanation vs. prediction |
 | 4 | [F165](articles/F165_reproducibility_audit) Re-running 40 article folders | reproducibility audit, environment pinning |
 | 5 | [youtube-data-mart](https://github.com/takayuki-0127/youtube-data-mart) | SQL Server star schema, Power BI (DAX, RLS), BigQuery + dbt cross-check |
@@ -30,7 +31,7 @@ Most articles use Japanese government statistics and open data; some recreate ev
 1. **Electricity demand forecasting (F205/F206).** One year of day-ahead forecasts. The ranking of models flipped depending on the error metric. Pricing the cost of misses showed that adding 3% to the point forecast cut the loss by about 40%. Simply summing area forecasts reduced the total error from 2.77% to 2.08%, as good as more elaborate reconciliation methods.
 2. **Minimum wage (F201/F202).** Four designs on the same data all gave "inconclusive". The reason was not the method but the small variation in increases across prefectures: detecting an effect would need differences 7–14 times larger than those reported abroad. The articles separate "no effect" from "cannot be distinguished".
 3. **Land prices (F207/F208).** Twenty years of official land price data. The effect of distance to a station ranged from −3% to −32% depending on specification, and new-station effects appeared before opening. Yearly re-fitted forecasts kept missing at the same sites; 94% of the error was site-specific.
-4. **Reproducibility audit (F165).** Forty randomly chosen folders were re-run from scratch in a fresh environment. All regular articles reproduced; about half of the flagship articles did not, due to network access, empty folders and unpinned versions. The fixes were applied to later articles and led to the weekly check in this repository.
+4. **Reproducibility audit (F165).** Forty randomly chosen folders were re-run from scratch in a fresh environment. All regular articles reproduced. Of the 20 flagship articles, 9 reproduced as-is and 13 matched in their numbers; some stopped because they needed network access (4) or had an empty folder (1), and the causes of most numeric differences were not identified. The fixes were applied to later articles and led to the weekly check in this repository.
 5. **YouTube data mart.** CSV exports flow through pandas → SQL Server (staging → star-schema mart) → Power BI with DAX and row-level security. The same views were rebuilt in BigQuery with dbt and the results matched.
 6. **Sales drop explanation (F250, fictional supermarket).** Year-over-year sales of −1.1% were split exactly into customers, items per visit and unit price (LMDI), with calendar effects estimated separately. Twenty re-runs with different random seeds gave a noise band of ±1.1 pt for the whole company and ±1.3–1.7 pt for regions, so a one-month regional gap could not be called a cause.
 7. **A/B test peeking (F237, simulation).** Checking daily and stopping at |z| > 1.96 raised the false positive rate from 4.8% to 21.9% (46% if checked hourly). An O'Brien–Fleming design kept 5% and about 84% power while ending three days earlier on average when there was an effect, but every early-stopping rule overstated the effect by 1.13–1.42×.
