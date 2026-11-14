@@ -1,0 +1,36 @@
+{
+ "stores": 20,
+ "skus": 300,
+ "days": 90,
+ "top10pct_sku_share_of_sales": 45.8,
+ "chain_rate_A_pct": 6.3,
+ "chain_rate_B_pct": 7.45,
+ "store_rate_A_range": [
+  3.56,
+  9.78
+ ],
+ "store_rate_B_range": [
+  1.82,
+  22.39
+ ],
+ "spearman_A_B": 0.38,
+ "spearman_A_C": 0.69,
+ "stores_moved_5plus_ranks_A_to_B": 9,
+ "max_rank_move_A_to_B": 13,
+ "worst5_overlap_A_B": 2,
+ "best5_overlap_A_B": 2,
+ "example_A_good_B_bad": {
+  "store": "店09",
+  "A_pct": 3.56,
+  "B_pct": 5.66,
+  "rank_A": 20,
+  "rank_B": 10
+ },
+ "example_A_bad_B_good": {
+  "store": "店03",
+  "A_pct": 8.84,
+  "B_pct": 2.48,
+  "rank_A": 4,
+  "rank_B": 17
+ }
+}
