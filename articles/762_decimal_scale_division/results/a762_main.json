@@ -1,0 +1,67 @@
+{
+ "stores": 80,
+ "rate_pct_range": [
+  0.84,
+  5.52
+ ],
+ "rate_pct_median": 3.11,
+ "methods": {
+  "dec2": {
+   "label": "比・小数2桁 DECIMAL(5,2)",
+   "distinct_values": 6,
+   "mean_abs_err_pt": 0.2945,
+   "max_abs_err_pt": 0.498,
+   "max_rel_err_pct": 32.7,
+   "stores_sharing_a_value": 79,
+   "largest_tie": 26,
+   "spearman_vs_true": 0.9692,
+   "stores_ranked_top10_or_tied": 13,
+   "mean_of_stored_minus_true_mean_pt": 0.0455
+  },
+  "dec3": {
+   "label": "比・小数3桁 DECIMAL(6,3)",
+   "distinct_values": 35,
+   "mean_abs_err_pt": 0.0269,
+   "max_abs_err_pt": 0.0498,
+   "max_rel_err_pct": 4.3,
+   "stores_sharing_a_value": 67,
+   "largest_tie": 5,
+   "spearman_vs_true": 0.9993,
+   "stores_ranked_top10_or_tied": 10,
+   "mean_of_stored_minus_true_mean_pt": 0.0005
+  },
+  "dec4": {
+   "label": "比・小数4桁 DECIMAL(7,4)",
+   "distinct_values": 74,
+   "mean_abs_err_pt": 0.0025,
+   "max_abs_err_pt": 0.0049,
+   "max_rel_err_pct": 0.5,
+   "stores_sharing_a_value": 12,
+   "largest_tie": 2,
+   "spearman_vs_true": 1.0,
+   "stores_ranked_top10_or_tied": 10,
+   "mean_of_stored_minus_true_mean_pt": 0.0002
+  },
+  "pct1": {
+   "label": "%・小数1桁 DECIMAL(5,1)",
+   "distinct_values": 35,
+   "mean_abs_err_pt": 0.0269,
+   "max_abs_err_pt": 0.0498,
+   "max_rel_err_pct": 4.3,
+   "stores_sharing_a_value": 67,
+   "largest_tie": 5,
+   "spearman_vs_true": 0.9993,
+   "stores_ranked_top10_or_tied": 10,
+   "mean_of_stored_minus_true_mean_pt": 0.0005
+  }
+ },
+ "dec2_values_seen": [
+  0.01,
+  0.02,
+  0.03,
+  0.04,
+  0.05,
+  0.06
+ ],
+ "duckdb_double_for_decimal_division": true
+}
