@@ -1,0 +1,7 @@
+stat,B,coverage_pct
+mean,100,89.67
+mean,1000,91.67
+mean,10000,92.0
+median,100,91.0
+median,1000,93.33
+median,10000,93.83
