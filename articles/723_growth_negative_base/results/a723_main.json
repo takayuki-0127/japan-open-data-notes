@@ -1,0 +1,48 @@
+{
+ "stores": 40,
+ "prev_negative": 8,
+ "improved": 24,
+ "flipped": 8,
+ "flipped_all_prev_negative": true,
+ "flipped_examples": [
+  {
+   "store_id": "S35",
+   "profit_prev": -110.0,
+   "profit_cur": 274.0,
+   "growth_plain": -3.491
+  },
+  {
+   "store_id": "S06",
+   "profit_prev": -803.0,
+   "profit_cur": -123.0,
+   "growth_plain": -0.847
+  },
+  {
+   "store_id": "S02",
+   "profit_prev": -238.0,
+   "profit_cur": -49.0,
+   "growth_plain": -0.794
+  },
+  {
+   "store_id": "S20",
+   "profit_prev": -231.0,
+   "profit_cur": -54.0,
+   "growth_plain": -0.766
+  },
+  {
+   "store_id": "S34",
+   "profit_prev": -180.0,
+   "profit_cur": -43.0,
+   "growth_plain": -0.761
+  }
+ ],
+ "prev_abs_lt50": 3,
+ "max_abs_growth_plain_pct": 1184.0,
+ "max_abs_growth_prev": 25.0,
+ "spearman_plain_vs_diff": 0.382,
+ "spearman_abs_vs_diff": 0.901,
+ "prev_negative_in_bottom5_plain": 3,
+ "improved_in_bottom5_plain": 3,
+ "max_rank_move_plain_vs_abs": 37,
+ "sql_matches_python": true
+}
