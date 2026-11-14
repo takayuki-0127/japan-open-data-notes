@@ -1,0 +1,43 @@
+{
+ "members": 1000,
+ "reps": 1000,
+ "true_total": 10.0,
+ "by_share": {
+  "0.00": {
+   "total": 9.98,
+   "with_mediator": 9.98
+  },
+  "0.25": {
+   "total": 9.99,
+   "with_mediator": 7.48
+  },
+  "0.50": {
+   "total": 10.04,
+   "with_mediator": 5.05
+  },
+  "0.75": {
+   "total": 10.01,
+   "with_mediator": 2.52
+  },
+  "1.00": {
+   "total": 9.99,
+   "with_mediator": 0.02
+  }
+ },
+ "share50_total": 10.038504202910941,
+ "share50_with_mediator": 5.054281652430966,
+ "share100_with_mediator": 0.021979406165799055,
+ "share50_with_mediator_p05_p95": [
+  3.7520378266618164,
+  6.340533395602313
+ ],
+ "by_confounder": {
+  "0": 4.99,
+  "1": 3.98,
+  "2": 1.92,
+  "3": -0.08,
+  "4": -1.45
+ },
+ "confounder4_with_mediator": -1.446615649128337,
+ "confounder4_total": 9.977126734914695
+}
