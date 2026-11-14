@@ -1,0 +1,49 @@
+{
+ "true_effect_pct": 8.11,
+ "reps": 2000,
+ "three_days": {
+  "月": {
+   "mean": 2.3,
+   "weekend_days": 0
+  },
+  "火": {
+   "mean": 2.27,
+   "weekend_days": 0
+  },
+  "水": {
+   "mean": 2.27,
+   "weekend_days": 0
+  },
+  "木": {
+   "mean": 9.32,
+   "weekend_days": 1
+  },
+  "金": {
+   "mean": 15.27,
+   "weekend_days": 2
+  },
+  "土": {
+   "mean": 15.19,
+   "weekend_days": 2
+  },
+  "日": {
+   "mean": 9.16,
+   "weekend_days": 1
+  }
+ },
+ "three_days_min": 2.27,
+ "three_days_max": 15.27,
+ "seven_days_range": [
+  8.08,
+  8.44
+ ],
+ "fourteen_days_range": [
+  8.03,
+  8.26
+ ],
+ "sd_by_days": {
+  "3": 7.55,
+  "7": 4.93,
+  "14": 3.45
+ }
+}
