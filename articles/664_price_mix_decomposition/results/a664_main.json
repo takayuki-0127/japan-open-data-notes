@@ -1,0 +1,39 @@
+{
+ "avg_price_2024": 340.25,
+ "avg_price_2025": 378.18,
+ "change_yen": 37.93,
+ "change_pct": 11.15,
+ "simple_price_index_pct": 3.3,
+ "qty_change_pct": 2.2,
+ "item_level": {
+  "price_first": {
+   "price": 4.51,
+   "mix": 6.63
+  },
+  "mix_first": {
+   "price": 5.13,
+   "mix": 6.02
+  },
+  "symmetric": {
+   "price": 4.82,
+   "mix": 6.32
+  },
+  "interaction": 0.62,
+  "mix_share_of_change_sym": 56.7
+ },
+ "category_level": {
+  "price_first": {
+   "price": 8.82,
+   "mix": 2.32
+  },
+  "mix_first": {
+   "price": 9.01,
+   "mix": 2.13
+  },
+  "symmetric": {
+   "price": 8.92,
+   "mix": 2.23
+  },
+  "mix_share_of_change_sym": 20.0
+ }
+}
