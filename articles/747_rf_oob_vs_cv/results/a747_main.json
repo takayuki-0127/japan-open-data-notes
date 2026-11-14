@@ -1,0 +1,111 @@
+{
+ "test_size": 5000,
+ "by": {
+  "n100_trees10": {
+   "oob_raw": 14.746,
+   "oob": 11.977,
+   "cv": 10.234,
+   "test": 9.092,
+   "oob_raw_vs_test": 0.622,
+   "oob_vs_test": 0.317,
+   "cv_vs_test": 0.126,
+   "no_oob": 1.2
+  },
+  "n100_trees30": {
+   "oob_raw": 9.013,
+   "oob": 9.013,
+   "cv": 8.939,
+   "test": 8.537,
+   "oob_raw_vs_test": 0.056,
+   "oob_vs_test": 0.056,
+   "cv_vs_test": 0.047,
+   "no_oob": 0.0
+  },
+  "n100_trees100": {
+   "oob_raw": 8.28,
+   "oob": 8.28,
+   "cv": 8.631,
+   "test": 7.746,
+   "oob_raw_vs_test": 0.069,
+   "oob_vs_test": 0.069,
+   "cv_vs_test": 0.114,
+   "no_oob": 0.0
+  },
+  "n300_trees10": {
+   "oob_raw": 10.324,
+   "oob": 8.037,
+   "cv": 6.71,
+   "test": 6.148,
+   "oob_raw_vs_test": 0.679,
+   "oob_vs_test": 0.307,
+   "cv_vs_test": 0.091,
+   "no_oob": 3.133
+  },
+  "n300_trees30": {
+   "oob_raw": 6.476,
+   "oob": 6.476,
+   "cv": 6.209,
+   "test": 5.608,
+   "oob_raw_vs_test": 0.155,
+   "oob_vs_test": 0.155,
+   "cv_vs_test": 0.107,
+   "no_oob": 0.0
+  },
+  "n300_trees100": {
+   "oob_raw": 5.721,
+   "oob": 5.721,
+   "cv": 5.91,
+   "test": 5.37,
+   "oob_raw_vs_test": 0.065,
+   "oob_vs_test": 0.065,
+   "cv_vs_test": 0.101,
+   "no_oob": 0.0
+  },
+  "n1000_trees10": {
+   "oob_raw": 8.121,
+   "oob": 5.883,
+   "cv": 4.7,
+   "test": 4.401,
+   "oob_raw_vs_test": 0.845,
+   "oob_vs_test": 0.337,
+   "cv_vs_test": 0.068,
+   "no_oob": 10.75
+  },
+  "n1000_trees30": {
+   "oob_raw": 4.411,
+   "oob": 4.411,
+   "cv": 4.18,
+   "test": 4.019,
+   "oob_raw_vs_test": 0.098,
+   "oob_vs_test": 0.098,
+   "cv_vs_test": 0.04,
+   "no_oob": 0.0
+  },
+  "n1000_trees100": {
+   "oob_raw": 3.959,
+   "oob": 3.959,
+   "cv": 4.144,
+   "test": 3.915,
+   "oob_raw_vs_test": 0.011,
+   "oob_vs_test": 0.011,
+   "cv_vs_test": 0.058,
+   "no_oob": 0.0
+  }
+ },
+ "n300_t100_oob_vs_test": 0.06541950616666736,
+ "n300_t100_cv_vs_test": 0.10060570202447683,
+ "n100_t10_oob_vs_test": 0.31731936639757286,
+ "n100_t10_oob_raw_vs_test": 0.6219409837970671,
+ "n300_t10_oob_raw_vs_test": 0.679361116145133,
+ "n300_t10_oob_vs_test": 0.3073993438161202,
+ "n300_t10_cv_vs_test": 0.09142660734579078,
+ "n300_t30_oob_raw_vs_test": 0.1548484002382322,
+ "n100_t10_cv_vs_test": 0.125633110602827,
+ "n1000_t100_oob_vs_test": 0.011200517019326117,
+ "n1000_t100_cv_vs_test": 0.05843084817631494,
+ "n100_t10_no_oob_points": 1.2,
+ "fits_per_run": {
+  "oob": 1,
+  "cv": 5
+ }
+}
