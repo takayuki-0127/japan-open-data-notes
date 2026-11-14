@@ -1,0 +1,45 @@
+{
+ "n_rows": 1800,
+ "stores": 20,
+ "days": 90,
+ "summary": {
+  "累計": {
+   "wrong": 1800,
+   "max_ratio": 70.9,
+   "median_ratio": 21.4,
+   "wrong_pct": 100.0
+  },
+  "7日の移動平均": {
+   "wrong": 114,
+   "max_abs_pct": 309.8,
+   "wrong_pct": 6.3
+  },
+  "前日の売上": {
+   "wrong": 19,
+   "dod_ng_range_pct_wrong_rows": [
+    -76.2,
+    211.2
+   ],
+   "wrong_pct": 1.1
+  },
+  "その日の順位": {
+   "wrong": 1799,
+   "max_rank_ng": 1800,
+   "wrong_pct": 99.9
+  }
+ },
+ "groupby_cum_matches": true,
+ "ma7_err_by_day_idx": {
+  "1": 43.4,
+  "2": 38.3,
+  "3": 32.0,
+  "4": 24.5,
+  "5": 17.3,
+  "6": 8.3,
+  "7": 0.0
+ },
+ "store_size_range": [
+  109555,
+  614444
+ ]
+}
