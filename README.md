@@ -24,6 +24,7 @@
 | — | [youtube-data-mart](https://github.com/takayuki-0127/youtube-data-mart)（別のリポジトリ） | SQL Server・スタースキーマ・RLS・Power BI |
 
 ## 探し方と作り方
+- [論文を読んで、手元で試す（papers/）](papers/README.md)：差の差・A/B テスト・予測の幅・DML・SHAP・リークなど、実務で効く論文10本を読み、公開データやシミュレーションで試したもの（[English](papers/README_EN.md)）
 - [索引（手法別・業務の場面別）](INDEX.md)：A/B テスト・因果推論・予測・SQL・Excel などの手法と、小売・会員・マーケティングなどの場面で引けます
 - [作り方と確かめ方](HOWTO.md)：データの種類、生成AIの使い方、1本ごとに確かめていること
 - [直したこと](CORRECTIONS.md)・[確かめていないこと](UNVERIFIED.md)。書き方の決まりがどこまで守られているかは [F297](articles/F297_article_practice_audit) で数えました
