@@ -1,0 +1,25 @@
+{
+ "staff": 40,
+ "days": 60,
+ "short_staff": 12,
+ "spearman": {
+  "day_vs_weighted": 0.336,
+  "hour_vs_weighted": 0.735,
+  "weighted_vs_skill": 0.954,
+  "day_vs_skill": 0.378,
+  "hour_vs_skill": 0.716
+ },
+ "moved_10_or_more": {
+  "day_vs_weighted": 23,
+  "hour_vs_weighted": 10
+ },
+ "short_staff_mean_rank": {
+  "rank_day": 34.5,
+  "rank_hour": 18.9,
+  "rank_weighted": 18.0
+ },
+ "short_staff_in_bottom10_by_day": 10,
+ "short_staff_in_bottom10_by_weighted": 1,
+ "max_move_day_vs_weighted": 31,
+ "sql_matches_python": true
+}
