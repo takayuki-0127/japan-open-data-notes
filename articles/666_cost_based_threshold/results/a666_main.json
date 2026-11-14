@@ -1,0 +1,110 @@
+{
+ "pos_rate": 0.0964,
+ "n_train": 2000,
+ "n_test": 50000,
+ "reps": 200,
+ "by_r": {
+  "1": {
+   "loss_05": 91.9,
+   "loss_theory": 91.9,
+   "loss_cv": 92.7,
+   "loss_oracle": 91.5,
+   "loss_none": 96.5,
+   "excess_05_pct": 0.4,
+   "excess_theory_pct": 0.4,
+   "excess_cv_pct": 1.3,
+   "t_theory": 0.5,
+   "t_cv_median": 0.5,
+   "t_cv_p10_p90": [
+    0.414,
+    0.615
+   ],
+   "theory_better_than_cv_share": 0.79
+  },
+  "2": {
+   "loss_05": 175.7,
+   "loss_theory": 168.6,
+   "loss_cv": 169.8,
+   "loss_oracle": 167.8,
+   "loss_none": 193.0,
+   "excess_05_pct": 4.7,
+   "excess_theory_pct": 0.5,
+   "excess_cv_pct": 1.2,
+   "t_theory": 0.333,
+   "t_cv_median": 0.34,
+   "t_cv_p10_p90": [
+    0.275,
+    0.415
+   ],
+   "theory_better_than_cv_share": 0.695
+  },
+  "5": {
+   "loss_05": 426.5,
+   "loss_theory": 329.8,
+   "loss_cv": 333.2,
+   "loss_oracle": 328.4,
+   "loss_none": 482.5,
+   "excess_05_pct": 29.9,
+   "excess_theory_pct": 0.4,
+   "excess_cv_pct": 1.5,
+   "t_theory": 0.167,
+   "t_cv_median": 0.17,
+   "t_cv_p10_p90": [
+    0.13,
+    0.215
+   ],
+   "theory_better_than_cv_share": 0.755
+  },
+  "10": {
+   "loss_05": 844.9,
+   "loss_theory": 481.9,
+   "loss_cv": 487.2,
+   "loss_oracle": 479.8,
+   "loss_none": 963.2,
+   "excess_05_pct": 76.1,
+   "excess_theory_pct": 0.5,
+   "excess_cv_pct": 1.5,
+   "t_theory": 0.091,
+   "t_cv_median": 0.09,
+   "t_cv_p10_p90": [
+    0.07,
+    0.115
+   ],
+   "theory_better_than_cv_share": 0.72
+  },
+  "20": {
+   "loss_05": 1680.5,
+   "loss_theory": 634.1,
+   "loss_cv": 642.0,
+   "loss_oracle": 630.8,
+   "loss_none": 1926.4,
+   "excess_05_pct": 166.4,
+   "excess_theory_pct": 0.5,
+   "excess_cv_pct": 1.8,
+   "t_theory": 0.048,
+   "t_cv_median": 0.05,
+   "t_cv_p10_p90": [
+    0.035,
+    0.065
+   ],
+   "theory_better_than_cv_share": 0.74
+  },
+  "50": {
+   "loss_05": 4198.5,
+   "loss_theory": 789.5,
+   "loss_cv": 801.3,
+   "loss_oracle": 784.0,
+   "loss_none": 4827.7,
+   "excess_05_pct": 435.5,
+   "excess_theory_pct": 0.7,
+   "excess_cv_pct": 2.2,
+   "t_theory": 0.02,
+   "t_cv_median": 0.02,
+   "t_cv_p10_p90": [
+    0.01,
+    0.03
+   ],
+   "theory_better_than_cv_share": 0.7
+  }
+ }
+}
