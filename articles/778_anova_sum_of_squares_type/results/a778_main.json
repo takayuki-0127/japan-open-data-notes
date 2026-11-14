@@ -1,0 +1,25 @@
+{
+ "reps": 300,
+ "cell_counts": {
+  "A1B1": 10,
+  "A1B2": 30,
+  "A1B3": 80,
+  "A2B1": 80,
+  "A2B2": 30,
+  "A2B3": 10
+ },
+ "scene1_sigA": {
+  "I_Afirst": 1.0,
+  "I_Bfirst": 0.05,
+  "II": 0.05,
+  "III": 0.053
+ },
+ "scene2_sigA": {
+  "I_Afirst": 0.407,
+  "I_Bfirst": 0.783,
+  "II": 0.783,
+  "III": 0.817
+ },
+ "example_raw_mean_A1": 0.6902098869572877,
+ "example_raw_mean_A2": 0.22338245973027923
+}
