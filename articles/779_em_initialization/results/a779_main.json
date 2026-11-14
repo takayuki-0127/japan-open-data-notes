@@ -1,0 +1,75 @@
+{
+ "points": 600,
+ "inits_per_set": 120,
+ "sets_per_sep": 5,
+ "by_sep": {
+  "2.0": {
+   "random_from_data": {
+    "other": 0.982,
+    "ari": 0.231
+   },
+   "kmeans": {
+    "other": 1.0,
+    "ari": 0.346
+   },
+   "kmeans10": {
+    "other": 1.0,
+    "ari": 0.339
+   }
+  },
+  "3.0": {
+   "random_from_data": {
+    "other": 0.983,
+    "ari": 0.459
+   },
+   "kmeans": {
+    "other": 0.202,
+    "ari": 0.666
+   },
+   "kmeans10": {
+    "other": 0.2,
+    "ari": 0.667
+   }
+  },
+  "4.0": {
+   "random_from_data": {
+    "other": 0.613,
+    "ari": 0.708
+   },
+   "kmeans": {
+    "other": 0.0,
+    "ari": 0.86
+   },
+   "kmeans10": {
+    "other": 0.0,
+    "ari": 0.86
+   }
+  },
+  "6.0": {
+   "random_from_data": {
+    "other": 0.36,
+    "ari": 0.864
+   },
+   "kmeans": {
+    "other": 0.0,
+    "ari": 0.988
+   },
+   "kmeans10": {
+    "other": 0.0,
+    "ari": 0.988
+   }
+  }
+ },
+ "other_random_s2": 0.9816666666666667,
+ "other_kmeans_s2": 1.0,
+ "other_kmeans10_s2": 1.0,
+ "other_random_s3": 0.9833333333333334,
+ "other_kmeans_s3": 0.20166666666666666,
+ "other_kmeans10_s3": 0.2,
+ "other_random_s4": 0.6133333333333333,
+ "other_kmeans_s4": 0.0,
+ "other_kmeans10_s4": 0.0,
+ "other_random_s6": 0.36,
+ "other_kmeans_s6": 0.0,
+ "other_kmeans10_s6": 0.0
+}
