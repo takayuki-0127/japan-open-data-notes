@@ -1,0 +1,36 @@
+{
+ "stores": 30,
+ "days": 60,
+ "blank_cells_pct": 7.6,
+ "text_cells_pct": 4.3,
+ "true_zero_cells_pct": 11.5,
+ "mean_abs_error_pct": {
+  "AVERAGE": 2.43,
+  "AVERAGEA（文字を0）": 4.99,
+  "SUM÷60（空白を0）": 11.94,
+  "文字を数に直して AVERAGE": 1.66
+ },
+ "mean_error_pct": {
+  "AVERAGE": 0.02,
+  "AVERAGEA（文字を0）": -4.69,
+  "SUM÷60（空白を0）": -11.94,
+  "文字を数に直して AVERAGE": -0.01
+ },
+ "max_abs_error_pct": {
+  "AVERAGE": 15.1,
+  "AVERAGEA（文字を0）": 12.6,
+  "SUM÷60（空白を0）": 19.6,
+  "文字を数に直して AVERAGE": 6.7
+ },
+ "counted_cells_mean": {
+  "AVERAGE": 52.9,
+  "AVERAGEA": 55.5,
+  "SUM÷60": 60
+ },
+ "stores_off_by_5pct_or_more": {
+  "AVERAGE": 4,
+  "AVERAGEA（文字を0）": 13,
+  "SUM÷60（空白を0）": 29,
+  "文字を数に直して AVERAGE": 2
+ }
+}
