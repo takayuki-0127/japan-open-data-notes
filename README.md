@@ -2,7 +2,7 @@
 
 [![reproduce](https://github.com/takayuki-0127/japan-open-data-notes/actions/workflows/reproduce.yml/badge.svg)](https://github.com/takayuki-0127/japan-open-data-notes/actions/workflows/reproduce.yml)
 
-日本の政府統計・オープンデータを分析して、note に書いた記事のコード・データ・図をまとめたリポジトリです。
+日本の政府統計・オープンデータを分析して、note に書いた記事のコード・データ・図をまとめたリポジトリです。（English: [README_EN.md](README_EN.md)）
 
 - `articles/<番号>_<名前>/` に1記事1フォルダで置いています（README・データ・図・集計結果・コード）。各フォルダはそれだけで動きます
 - 番号は note の記事の通し番号です（002〜007・017・018 は YouTube やツールの記事で、別のリポジトリにあります）
