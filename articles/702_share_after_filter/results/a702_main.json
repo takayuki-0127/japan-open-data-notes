@@ -1,0 +1,43 @@
+{
+ "lines": 40000,
+ "items": 60,
+ "total_amount": 105413950,
+ "filters": [
+  {
+   "filter": "カテゴリ「食品」で絞る",
+   "items": 10,
+   "denominator_share_of_total_pct": 8.8,
+   "inflation_factor": 11.38,
+   "max_item_share_filter_pct": 29.6,
+   "max_item_share_total_pct": 2.6,
+   "max_item": "食品05"
+  },
+  {
+   "filter": "上位10品目に絞る",
+   "items": 10,
+   "denominator_share_of_total_pct": 73.2,
+   "inflation_factor": 1.37,
+   "max_item_share_filter_pct": 18.5,
+   "max_item_share_total_pct": 13.5,
+   "max_item": "衣料04"
+  }
+ ],
+ "big_lines_rows": 2537,
+ "big_lines_amount_share_pct": 43.3,
+ "category_share_total_pct": {
+  "家電": 53.0,
+  "文具": 1.9,
+  "日用品": 8.7,
+  "衣料": 25.4,
+  "食品": 8.8,
+  "飲料": 2.2
+ },
+ "category_share_big_lines_pct": {
+  "食品": 0.0,
+  "飲料": 0.0,
+  "日用品": 0.1,
+  "文具": 0.0,
+  "衣料": 12.6,
+  "家電": 87.3
+ }
+}
