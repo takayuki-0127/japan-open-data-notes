@@ -1,0 +1,44 @@
+{
+ "days": 730,
+ "weekday_effect_pct": {
+  "月": -12,
+  "火": -15,
+  "水": -10,
+  "木": -8,
+  "金": 5,
+  "土": 25,
+  "日": 15
+ },
+ "weekday_range_pct": 40.0,
+ "noise_sd_pct": 4,
+ "step_date": "2025-06-01",
+ "step_pct": 10,
+ "by_window": {
+  "3": {
+   "wave_amp_pct": 27.33,
+   "rmse_pct": 10.02,
+   "days_to_half_step": 1
+  },
+  "5": {
+   "wave_amp_pct": 13.4,
+   "rmse_pct": 5.19,
+   "days_to_half_step": 2
+  },
+  "7": {
+   "wave_amp_pct": 0.01,
+   "rmse_pct": 1.58,
+   "days_to_half_step": 3
+  },
+  "14": {
+   "wave_amp_pct": 0.01,
+   "rmse_pct": 1.22,
+   "days_to_half_step": 6
+  },
+  "28": {
+   "wave_amp_pct": 0.01,
+   "rmse_pct": 1.24,
+   "days_to_half_step": 13
+  }
+ },
+ "sql_matches_python": true
+}

@@ -1,0 +1,6 @@
+window,weekday_wave_amp_pct,rmse_vs_level_pct,days_to_half_step
+3,27.329,10.02,1
+5,13.397,5.185,2
+7,0.009,1.584,3
+14,0.009,1.217,6
+28,0.009,1.245,13
