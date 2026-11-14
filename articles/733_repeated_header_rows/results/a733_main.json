@@ -1,0 +1,33 @@
+{
+ "files": 12,
+ "rows_true": 6045,
+ "amount_true": 28552580,
+ "naive": {
+  "rows_read": 6056,
+  "header_rows_mixed": 11,
+  "amount_dtype": "文字（数でない値がまざる）",
+  "amount_not_numeric": 529,
+  "amount_sum_numeric": 26067700,
+  "amount_short_pct": 8.7,
+  "rows_counted_if_count_all": 6056,
+  "extra_rows": 11,
+  "mean_if_text_as_zero": 4304.4,
+  "mean_true": 4723.3,
+  "group_labels": [
+   "2025-11",
+   "2025-12",
+   "sales_d"
+  ]
+ },
+ "skip_header": {
+  "rows_read": 6045,
+  "jul_amount_not_numeric": 518,
+  "amount_sum_numeric": 26067700,
+  "amount_short_pct": 8.7
+ },
+ "each_file": {
+  "rows_read": 6045,
+  "amount_sum": 28552580
+ },
+ "sql_matches_truth": true
+}
