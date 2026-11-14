@@ -1,0 +1,80 @@
+{
+ "n_per_group": 50,
+ "reps": 5000,
+ "alpha_overlap_rule_approx": 0.005573724535172128,
+ "by_d": {
+  "0.0": {
+   "overlap_says_diff": 0.0046,
+   "ttest_says_diff": 0.046,
+   "overlap_but_sig": 0.0414,
+   "share_overlap": 0.9954,
+   "sig_given_overlap": 0.0416
+  },
+  "0.1": {
+   "overlap_says_diff": 0.0106,
+   "ttest_says_diff": 0.0742,
+   "overlap_but_sig": 0.0636,
+   "share_overlap": 0.9894,
+   "sig_given_overlap": 0.0643
+  },
+  "0.2": {
+   "overlap_says_diff": 0.0344,
+   "ttest_says_diff": 0.1726,
+   "overlap_but_sig": 0.1382,
+   "share_overlap": 0.9656,
+   "sig_given_overlap": 0.1431
+  },
+  "0.3": {
+   "overlap_says_diff": 0.0908,
+   "ttest_says_diff": 0.3148,
+   "overlap_but_sig": 0.224,
+   "share_overlap": 0.9092,
+   "sig_given_overlap": 0.2464
+  },
+  "0.4": {
+   "overlap_says_diff": 0.2048,
+   "ttest_says_diff": 0.5066,
+   "overlap_but_sig": 0.3018,
+   "share_overlap": 0.7952,
+   "sig_given_overlap": 0.3795
+  },
+  "0.5": {
+   "overlap_says_diff": 0.367,
+   "ttest_says_diff": 0.6832,
+   "overlap_but_sig": 0.3162,
+   "share_overlap": 0.633,
+   "sig_given_overlap": 0.4995
+  },
+  "0.6": {
+   "overlap_says_diff": 0.5732,
+   "ttest_says_diff": 0.8482,
+   "overlap_but_sig": 0.275,
+   "share_overlap": 0.4268,
+   "sig_given_overlap": 0.6443
+  },
+  "0.7": {
+   "overlap_says_diff": 0.7488,
+   "ttest_says_diff": 0.9308,
+   "overlap_but_sig": 0.182,
+   "share_overlap": 0.2512,
+   "sig_given_overlap": 0.7245
+  },
+  "0.8": {
+   "overlap_says_diff": 0.8762,
+   "ttest_says_diff": 0.9782,
+   "overlap_but_sig": 0.102,
+   "share_overlap": 0.1238,
+   "sig_given_overlap": 0.8239
+  }
+ },
+ "d05_overlap": 0.367,
+ "d05_ttest": 0.6832,
+ "d05_miss_overlap": 0.633,
+ "d05_miss_ttest": 0.31679999999999997,
+ "d0_overlap": 0.0046,
+ "d0_ttest": 0.046,
+ "d05_overlap_but_sig": 0.3162,
+ "d05_sig_given_overlap": 0.4995260663507109,
+ "max_overlap_but_sig": 0.3162,
+ "d_at_max_overlap_but_sig": 0.5
+}
