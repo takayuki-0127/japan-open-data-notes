@@ -1,0 +1,64 @@
+{
+ "products": 261,
+ "name_len_chars_median": 27.0,
+ "name_len_chars_max": 36,
+ "names_over_20_chars_pct": 99.6,
+ "methods": {
+  "A": {
+   "truncated": 260,
+   "distinct_names": 121,
+   "names_shared": 68,
+   "products_in_shared": 208,
+   "products_in_shared_pct": 79.7,
+   "sales_merged_pct": 76.6,
+   "max_products_one_name": 9,
+   "kept_chars_median": 20.0
+  },
+  "B": {
+   "truncated": 261,
+   "distinct_names": 14,
+   "names_shared": 14,
+   "products_in_shared": 261,
+   "products_in_shared_pct": 100.0,
+   "sales_merged_pct": 100.0,
+   "max_products_one_name": 27,
+   "kept_chars_median": 10.0
+  },
+  "C": {
+   "truncated": 261,
+   "distinct_names": 10,
+   "names_shared": 10,
+   "products_in_shared": 261,
+   "products_in_shared_pct": 100.0,
+   "sales_merged_pct": 100.0,
+   "max_products_one_name": 27,
+   "kept_chars_median": 6.0
+  }
+ },
+ "example_A": [
+  [
+   "ごくごく麦茶 ティーバッグ カフェインゼロ 2L×6本",
+   "ごくごく麦茶 ティーバッグ カフェインゼ"
+  ],
+  [
+   "ごくごく麦茶 ティーバッグ カフェインゼロ 500mL×24本",
+   "ごくごく麦茶 ティーバッグ カフェインゼ"
+  ],
+  [
+   "ごくごく麦茶 ティーバッグ カフェインゼロ 54袋入",
+   "ごくごく麦茶 ティーバッグ カフェインゼ"
+  ],
+  [
+   "ごくごく麦茶 ティーバッグ 香ばし焙煎 2L×6本",
+   "ごくごく麦茶 ティーバッグ 香ばし焙煎 "
+  ],
+  [
+   "ごくごく麦茶 ティーバッグ 香ばし焙煎 500mL×24本",
+   "ごくごく麦茶 ティーバッグ 香ばし焙煎 "
+  ],
+  [
+   "ごくごく麦茶 ティーバッグ 香ばし焙煎 54袋入",
+   "ごくごく麦茶 ティーバッグ 香ばし焙煎 "
+  ]
+ ]
+}
