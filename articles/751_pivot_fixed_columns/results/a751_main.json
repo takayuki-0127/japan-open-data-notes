@@ -1,0 +1,31 @@
+{
+ "months": 24,
+ "fixed_categories": [
+  "食品",
+  "飲料",
+  "日用品",
+  "衣料",
+  "家電",
+  "雑貨"
+ ],
+ "new_categories": {
+  "定期便": "2024-07",
+  "ギフト": "2025-04",
+  "まとめ買い": "2025-10"
+ },
+ "total_2y_oku": 3.3,
+ "lost_2y_pct": 5.2,
+ "lost_2024_pct": 1.3,
+ "lost_2025_pct": 8.5,
+ "lost_last_month_pct": 14.3,
+ "lost_first_new_month_pct": 1.9,
+ "yoy_2025_true_pct": 13.9,
+ "yoy_2025_fixed_pct": 5.6,
+ "dec_yoy_true_pct": 20.8,
+ "dec_yoy_fixed_pct": 6.7,
+ "missing_categories_found": [
+  "定期便",
+  "ギフト",
+  "まとめ買い"
+ ]
+}
