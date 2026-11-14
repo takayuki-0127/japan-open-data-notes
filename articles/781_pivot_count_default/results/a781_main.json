@@ -1,0 +1,48 @@
+{
+ "rows": 3000,
+ "text_cells": 256,
+ "text_cells_share": 0.08533333333333333,
+ "default_aggregation": "個数",
+ "total_true": 28697520,
+ "total_ignore_text": 26558200,
+ "total_missing_share": 0.07454720826050476,
+ "missing_share_by_store": {
+  "店A": 0.0,
+  "店B": 0.0,
+  "店C": 0.0,
+  "店D": 0.0107,
+  "店E": 0.022,
+  "店F": 0.0534,
+  "店G": 0.1272,
+  "店H": 0.232,
+  "店I": 0.3063,
+  "店J": 0.0
+ },
+ "max_missing_store": "店I",
+ "max_missing_share": 0.30628662836156006,
+ "rank_true": [
+  "店C",
+  "店J",
+  "店F",
+  "店G",
+  "店H",
+  "店D",
+  "店B",
+  "店A",
+  "店I",
+  "店E"
+ ],
+ "rank_ignore_text": [
+  "店C",
+  "店J",
+  "店D",
+  "店B",
+  "店A",
+  "店F",
+  "店E",
+  "店G",
+  "店H",
+  "店I"
+ ],
+ "duckdb_version": "2.0.0"
+}
