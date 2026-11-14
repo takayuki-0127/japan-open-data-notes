@@ -1,0 +1,37 @@
+{
+ "true_growth_pct": 2.0,
+ "noise_sd_pct": 3,
+ "feb": {
+  "2024": {
+   "plain": 5.16,
+   "per_day": 1.54,
+   "ex29": 1.67,
+   "weekday": 1.81
+  },
+  "2025": {
+   "plain": -0.48,
+   "per_day": 3.08,
+   "ex29": 2.94,
+   "weekday": 2.8
+  }
+ },
+ "feb2024_extra_day": "Thu",
+ "annual": {
+  "2024": {
+   "days": 366,
+   "yoy_plain_pct": 1.91,
+   "yoy_per_day_pct": 1.64
+  },
+  "2025": {
+   "days": 365,
+   "yoy_plain_pct": 1.97,
+   "yoy_per_day_pct": 2.25
+  }
+ },
+ "other_months_plain_mean_pct": 1.92,
+ "other_months_plain_range_pct": [
+  -0.05,
+  3.62
+ ],
+ "sql_matches_python": true
+}
