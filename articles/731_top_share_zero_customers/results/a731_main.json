@@ -1,0 +1,33 @@
+{
+ "members": 10000,
+ "months": 12,
+ "purchase_rows": 27982,
+ "by_period": {
+  "1": {
+   "buyers": 2316,
+   "buyers_pct": 23.2,
+   "top10_members_pct": 75.1,
+   "top10_buyers_pct": 32.2
+  },
+  "3": {
+   "buyers": 4054,
+   "buyers_pct": 40.5,
+   "top10_members_pct": 60.6,
+   "top10_buyers_pct": 35.7
+  },
+  "6": {
+   "buyers": 5161,
+   "buyers_pct": 51.6,
+   "top10_members_pct": 55.8,
+   "top10_buyers_pct": 37.8
+  },
+  "12": {
+   "buyers": 6064,
+   "buyers_pct": 60.6,
+   "top10_members_pct": 53.2,
+   "top10_buyers_pct": 39.4
+  }
+ },
+ "gap_12m_pt": 13.8,
+ "sql_matches_python": true
+}
