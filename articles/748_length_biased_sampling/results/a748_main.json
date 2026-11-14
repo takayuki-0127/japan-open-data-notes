@@ -1,0 +1,54 @@
+{
+ "joins": 200000,
+ "survey_month": "2025-01",
+ "true_mean_months": 12.0,
+ "by_distribution": {
+  "一定": {
+   "all_mean": 12.0,
+   "active_n": 10016,
+   "active_mean": 12.0,
+   "ratio": 1.0,
+   "theory_ratio": 1.0,
+   "weighted_mean": 11.999999999999998,
+   "elapsed_mean": 6.01273095264195,
+   "cv": 0.0
+  },
+  "ガンマ（形4）": {
+   "all_mean": 11.996895850369912,
+   "active_n": 9952,
+   "active_mean": 14.99029092418689,
+   "ratio": 1.249514133585204,
+   "theory_ratio": 1.2511020732673706,
+   "weighted_mean": 12.026845859847334,
+   "elapsed_mean": 7.470391132201291,
+   "cv": 0.5011008613716109
+  },
+  "指数": {
+   "all_mean": 11.962248904134855,
+   "active_n": 9910,
+   "active_mean": 23.904931856923067,
+   "ratio": 1.9983643584493649,
+   "theory_ratio": 1.9970068617739052,
+   "weighted_mean": 12.21892222028694,
+   "elapsed_mean": 11.783168995682033,
+   "cv": 0.9985023093483084
+  },
+  "対数正規（ばらつき大）": {
+   "all_mean": 11.999549856749848,
+   "active_n": 9822,
+   "active_mean": 44.47079294820771,
+   "ratio": 3.706038433032762,
+   "theory_ratio": 4.112509985592569,
+   "weighted_mean": 12.140901796351852,
+   "elapsed_mean": 20.60014676502705,
+   "cv": 1.7642307064532599
+  }
+ },
+ "exp_ratio": 1.9983643584493649,
+ "lognormal_ratio": 3.706038433032762,
+ "gamma_ratio": 1.249514133585204,
+ "const_ratio": 1.0,
+ "exp_weighted": 12.21892222028694,
+ "lognormal_weighted": 12.140901796351852,
+ "exp_elapsed": 11.783168995682033
+}
