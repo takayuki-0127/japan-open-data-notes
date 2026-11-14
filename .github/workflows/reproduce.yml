@@ -14,8 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 300
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.13"
       - run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
@@ -24,7 +24,7 @@ jobs:
         run: pytest -q tests
       - name: 記事の一覧の5分の1を流し直す
         run: python tools/repro_check.py --chunk "${{ github.event.inputs.chunk || 'auto' }}" --n-chunks 5
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: repro_result
