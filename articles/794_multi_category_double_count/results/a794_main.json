@@ -1,0 +1,80 @@
+{
+ "products": 300,
+ "lines": 20000,
+ "total_sales": 40924100,
+ "multi_cat_products": 149,
+ "multi_cat_share": 0.49666666666666665,
+ "mean_categories": 1.6133333333333333,
+ "sum_join": 73493200.0,
+ "ratio_join": 1.7958415701261603,
+ "sum_primary": 40924100.0,
+ "sum_alloc": 40924100.0,
+ "sales_share_multi": 0.604,
+ "by_category": {
+  "飲料": {
+   "sales_join": 11049100.0,
+   "sales_primary": 11049100.0,
+   "sales_alloc": 7094833.333333332,
+   "rank_join": 2,
+   "rank_primary": 2,
+   "rank_alloc": 2
+  },
+  "菓子": {
+   "sales_join": 11736200.0,
+   "sales_primary": 11736200.0,
+   "sales_alloc": 8007916.666666669,
+   "rank_join": 1,
+   "rank_primary": 1,
+   "rank_alloc": 1
+  },
+  "日用品": {
+   "sales_join": 8908400.0,
+   "sales_primary": 8908400.0,
+   "sales_alloc": 5666450.000000004,
+   "rank_join": 6,
+   "rank_primary": 4,
+   "rank_alloc": 4
+  },
+  "冷凍": {
+   "sales_join": 9230400.0,
+   "sales_primary": 9230400.0,
+   "sales_alloc": 6474216.6666666735,
+   "rank_join": 4,
+   "rank_primary": 3,
+   "rank_alloc": 3
+  },
+  "季節もの": {
+   "sales_join": 6161100.0,
+   "sales_primary": 0.0,
+   "sales_alloc": 2452483.3333333344,
+   "rank_join": 8,
+   "rank_primary": 5,
+   "rank_alloc": 8
+  },
+  "ギフト": {
+   "sales_join": 7611800.0,
+   "sales_primary": 0.0,
+   "sales_alloc": 3154399.999999991,
+   "rank_join": 7,
+   "rank_primary": 5,
+   "rank_alloc": 7
+  },
+  "限定品": {
+   "sales_join": 9194400.0,
+   "sales_primary": 0.0,
+   "sales_alloc": 3781116.666666661,
+   "rank_join": 5,
+   "rank_primary": 5,
+   "rank_alloc": 6
+  },
+  "まとめ買い": {
+   "sales_join": 9601800.0,
+   "sales_primary": 0.0,
+   "sales_alloc": 4292683.333333333,
+   "rank_join": 3,
+   "rank_primary": 5,
+   "rank_alloc": 5
+  }
+ },
+ "duckdb_version": "2.0.0"
+}
