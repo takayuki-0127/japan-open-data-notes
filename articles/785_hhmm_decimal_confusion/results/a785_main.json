@@ -1,0 +1,27 @@
+{
+ "staff": 40,
+ "days": 22,
+ "rows": 880,
+ "true_total": 3650.0,
+ "naive_total": 3587.1000000000004,
+ "total_gap": -62.89999999999995,
+ "total_gap_pct": -0.017232876712328753,
+ "hmm_true": 1824.25,
+ "hmm_naive": 1761.3500000000001,
+ "hmm_gap_pct": -0.03447992325613263,
+ "hmm_gap_per_staff_mean": -3.1449999999999974,
+ "hmm_gap_per_staff_min": -4.099999999999994,
+ "hmm_gap_pct_range": [
+  -0.06511627906976784,
+  -0.0157205240174671
+ ],
+ "dec_gap_total": 0.0,
+ "gap_min_45": -18.0,
+ "gap_min_30": -12.0,
+ "gap_min_15": -6.0,
+ "frac_ge_060_share": {
+  "dec": 0.2318181818181818,
+  "hmm": 0.0
+ },
+ "duckdb_version": "2.0.0"
+}
