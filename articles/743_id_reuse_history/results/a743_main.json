@@ -1,0 +1,41 @@
+{
+ "member_numbers": 4000,
+ "persons": 6590,
+ "reused_persons": 2590,
+ "purchases": 79707,
+ "rows_no_join": 126109,
+ "rows_period_join": 79707,
+ "extra_rows": 46402,
+ "new_with_wrong_purchases": 2291,
+ "new_with_wrong_share": 0.8845559845559846,
+ "new_first_purchase_before_join": 2291,
+ "prev_with_purchases_after_leaving": 2262,
+ "left_and_reused_persons": 2796,
+ "new_first_month_shift_median": 27.0,
+ "new_amount_no": 360626244,
+ "new_amount_ok": 157279122,
+ "new_amount_ratio": 2.292906009482937,
+ "buyers_by_year": {
+  "2021": {
+   "no": 2475,
+   "ok": 1445
+  },
+  "2022": {
+   "no": 5162,
+   "ok": 3193
+  },
+  "2023": {
+   "no": 5684,
+   "ok": 3581
+  },
+  "2024": {
+   "no": 5667,
+   "ok": 3583
+  },
+  "2025": {
+   "no": 5694,
+   "ok": 3579
+  }
+ },
+ "duckdb_version": "2.0.0"
+}
