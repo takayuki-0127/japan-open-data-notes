@@ -1,0 +1,7 @@
+retail_mart:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "target/retail_mart.duckdb"
+      threads: 1

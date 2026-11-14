@@ -1,0 +1,186 @@
+{
+  "base_build": {
+    "pass": 79,
+    "fail": 0,
+    "error": 0,
+    "success": 0,
+    "returncode": 0,
+    "reports_vs_pandas": {
+      "R1": [
+        0,
+        24
+      ],
+      "R2": [
+        0,
+        71
+      ],
+      "R3": [
+        0,
+        115
+      ],
+      "R4": [
+        0,
+        12
+      ],
+      "R5": [
+        0,
+        24
+      ],
+      "R6": [
+        0,
+        259
+      ],
+      "R7": [
+        0,
+        24
+      ],
+      "R8": [
+        0,
+        13
+      ]
+    }
+  },
+  "change_requests": {
+    "CR1 返品を元の売上日に計上": {
+      "vars": {
+        "return_date_basis": "sale"
+      },
+      "build_returncode": 0,
+      "build_fail": 0,
+      "reports_mismatch_vs_pandas": 0,
+      "rows_compared": 540,
+      "golden_tests_failed_when_expectation_not_updated": 7
+    },
+    "CR2 既存店を12か月以上に": {
+      "vars": {
+        "comp_store_min_months": 12
+      },
+      "build_returncode": 0,
+      "build_fail": 0,
+      "reports_mismatch_vs_pandas": 0,
+      "rows_compared": 542,
+      "golden_tests_failed_when_expectation_not_updated": 2
+    },
+    "CR3 21日締めの会計月": {
+      "vars": {
+        "month_basis": "fis"
+      },
+      "build_returncode": 0,
+      "build_fail": 0,
+      "reports_mismatch_vs_pandas": 0,
+      "rows_compared": 562,
+      "golden_tests_failed_when_expectation_not_updated": 8
+    },
+    "CR4 税抜き": {
+      "vars": {
+        "amount_basis": "excl"
+      },
+      "build_returncode": 0,
+      "build_fail": 0,
+      "reports_mismatch_vs_pandas": 0,
+      "rows_compared": 542,
+      "golden_tests_failed_when_expectation_not_updated": 8
+    },
+    "CR5 テスト店を除外": {
+      "vars": {
+        "exclude_test_store": true
+      },
+      "build_returncode": 0,
+      "build_fail": 0,
+      "reports_mismatch_vs_pandas": 0,
+      "rows_compared": 538,
+      "golden_tests_failed_when_expectation_not_updated": 7
+    },
+    "CR6 void も除外": {
+      "vars": {
+        "bad_status": [
+          "cancel",
+          "void"
+        ]
+      },
+      "build_returncode": 0,
+      "build_fail": 0,
+      "reports_mismatch_vs_pandas": 0,
+      "rows_compared": 541,
+      "golden_tests_failed_when_expectation_not_updated": 7
+    },
+    "CR7 部門のまとめ方": {
+      "vars": {
+        "dept_group_version": "new"
+      },
+      "build_returncode": 0,
+      "build_fail": 0,
+      "reports_mismatch_vs_pandas": 0,
+      "rows_compared": 431,
+      "golden_tests_failed_when_expectation_not_updated": 2
+    },
+    "CR8 客数を日ごとの会員に": {
+      "vars": {
+        "customer_key": "member_day"
+      },
+      "build_returncode": 0,
+      "build_fail": 0,
+      "reports_mismatch_vs_pandas": 0,
+      "rows_compared": 542,
+      "golden_tests_failed_when_expectation_not_updated": 2
+    }
+  },
+  "main_data": {
+    "pass": 71,
+    "fail": 0,
+    "error": 0,
+    "success": 0,
+    "returncode": 0,
+    "reports_vs_pandas": {
+      "R1": [
+        0,
+        24
+      ],
+      "R2": [
+        0,
+        291
+      ],
+      "R3": [
+        0,
+        120
+      ],
+      "R4": [
+        0,
+        12
+      ],
+      "R5": [
+        0,
+        24
+      ],
+      "R6": [
+        0,
+        1455
+      ],
+      "R7": [
+        0,
+        24
+      ],
+      "R8": [
+        0,
+        31
+      ]
+    }
+  },
+  "incremental": {
+    "返品は返品日（既定）": {
+      "rows": 8678,
+      "rows_differ_from_full_refresh": 0,
+      "total_diff": 0.0
+    },
+    "返品は元の売上日（CR1）": {
+      "rows": 8670,
+      "rows_differ_from_full_refresh": 0,
+      "total_diff": 0.0
+    },
+    "CR1・読み直しなし（対照）": {
+      "rows": 8670,
+      "rows_differ_from_full_refresh": 33,
+      "total_diff": 31840.0
+    }
+  }
+}

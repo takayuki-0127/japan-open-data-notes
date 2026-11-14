@@ -1,0 +1,40 @@
+name: retail_mart
+version: "1.0.0"
+config-version: 2
+profile: retail_mart
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+# 業務の定義は、ここで1回だけ決める（F275 の8つの変更依頼は、どれも vars を1つ変えるだけになる）
+vars:
+  dataset: fixture_2751          # 読むデータ（data/ の下のフォルダ名）
+  load_until: 20991231           # この日付までの売上・返品だけを読む（増分の確かめ用）
+  month_basis: cal               # cal＝暦の月 / fis＝21日締めの会計月（CR3）
+  bad_status: ["cancel"]         # 売上から除くステータス（CR6 で void を足す）
+  exclude_test_store: false      # テスト店を除くか（CR5）
+  amount_basis: incl             # incl＝税込み / excl＝税抜き（CR4）
+  return_date_basis: return      # return＝返品日に計上 / sale＝元の売上日に計上（CR1）
+  comp_store_min_months: 13      # 既存店：開店月から何か月たった月からか（CR2 で 12）
+  dept_group_version: old        # 部門のまとめ方（CR7 で new）
+  customer_key: receipt          # receipt＝レシート1枚を1人 / member_day＝日ごとの会員（CR8）
+  incremental_lookback_days: 14  # 増分で読み直す日数（返品は売上から最大10日後に来る）
+
+models:
+  retail_mart:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table
+      reports:
+        +materialized: view
+
+seeds:
+  retail_mart:
+    +schema: expected

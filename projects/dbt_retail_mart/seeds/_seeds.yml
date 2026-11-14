@@ -1,0 +1,62 @@
+version: 2
+
+seeds:
+  - name: expected_r1
+    description: "答え合わせの期待値（pandas で別に計算、tools/make_expected.py）"
+    config:
+      column_types:
+        ym: integer
+        sales: double
+  - name: expected_r2
+    description: "答え合わせの期待値（pandas で別に計算、tools/make_expected.py）"
+    config:
+      column_types:
+        ym: integer
+        store_id: integer
+        sales: double
+  - name: expected_r3
+    description: "答え合わせの期待値（pandas で別に計算、tools/make_expected.py）"
+    config:
+      column_types:
+        ym: integer
+        grp: varchar
+        sales: double
+  - name: expected_r4
+    description: "答え合わせの期待値（pandas で別に計算、tools/make_expected.py）"
+    config:
+      column_types:
+        ym: integer
+        comp_sales: double
+        comp_sales_ly: double
+        yoy: double
+  - name: expected_r5
+    description: "答え合わせの期待値（pandas で別に計算、tools/make_expected.py）"
+    config:
+      column_types:
+        ym: integer
+        sales: double
+        customers: bigint
+        ticket: double
+  - name: expected_r6
+    description: "答え合わせの期待値（pandas で別に計算、tools/make_expected.py）"
+    config:
+      column_types:
+        ym: integer
+        store_id: integer
+        grp: varchar
+        sales: double
+  - name: expected_r7
+    description: "答え合わせの期待値（pandas で別に計算、tools/make_expected.py）"
+    config:
+      column_types:
+        ym: integer
+        sales: double
+        customers: bigint
+        ticket: double
+        comp_yoy: double
+  - name: expected_r8
+    description: "答え合わせの期待値（pandas で別に計算、tools/make_expected.py）"
+    config:
+      column_types:
+        date_key: integer
+        sales: double
