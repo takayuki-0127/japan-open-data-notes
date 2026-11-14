@@ -1,9 +1,12 @@
 # japan-open-data-notes
 
+[![reproduce](https://github.com/takayuki-0127/japan-open-data-notes/actions/workflows/reproduce.yml/badge.svg)](https://github.com/takayuki-0127/japan-open-data-notes/actions/workflows/reproduce.yml)
+
 日本の政府統計・オープンデータを分析して、note に書いた記事のコード・データ・図をまとめたリポジトリです。
 
 - `articles/<番号>_<名前>/` に1記事1フォルダで置いています（README・データ・図・集計結果・コード）。各フォルダはそれだけで動きます
 - 番号は note の記事の通し番号です（002〜007・017・018 は YouTube やツールの記事で、別のリポジトリにあります）
+- 551番以降の記事は、週に1回 GitHub Actions でコードを流し直し、集計結果が同じになるかを確かめています（[tools/repro_check.py](tools/repro_check.py)）。結果は上のバッジから見られます
 - 以前の記事で使った図は [note-figures](https://github.com/takayuki-0127/note-figures) にあります
 
 ## はじめに読む10本
