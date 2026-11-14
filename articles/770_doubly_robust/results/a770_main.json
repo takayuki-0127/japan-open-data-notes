@@ -1,0 +1,40 @@
+{
+ "n": 2000,
+ "reps": 400,
+ "true_effect": 2.0,
+ "naive_mean": 3.6738844475428176,
+ "by_case": {
+  "両方正しい": {
+   "reg_mean": 1.994,
+   "reg_std": 0.05,
+   "ipw_mean": 2.059,
+   "ipw_std": 0.175,
+   "aipw_mean": 1.995,
+   "aipw_std": 0.055
+  },
+  "傾向スコアがまちがい": {
+   "reg_mean": 1.994,
+   "reg_std": 0.05,
+   "ipw_mean": 2.92,
+   "ipw_std": 0.113,
+   "aipw_mean": 1.995,
+   "aipw_std": 0.05
+  },
+  "結果のモデルがまちがい": {
+   "reg_mean": 2.858,
+   "reg_std": 0.095,
+   "ipw_mean": 2.059,
+   "ipw_std": 0.175,
+   "aipw_mean": 2.048,
+   "aipw_std": 0.143
+  },
+  "両方まちがい": {
+   "reg_mean": 2.858,
+   "reg_std": 0.095,
+   "ipw_mean": 2.92,
+   "ipw_std": 0.113,
+   "aipw_mean": 3.317,
+   "aipw_std": 0.168
+  }
+ }
+}
