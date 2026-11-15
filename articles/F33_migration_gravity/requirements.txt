@@ -1,5 +1,0 @@
-pandas>=2.0
-numpy>=1.26
-pyfixest>=0.30
-geopandas>=0.14
-matplotlib>=3.8
