@@ -1,8 +1,0 @@
-pandas
-numpy
-matplotlib
-scikit-learn
-networkx
-fugashi
-unidic-lite
-requests
