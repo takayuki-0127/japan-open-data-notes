@@ -1,7 +1,0 @@
-numpy
-pandas
-matplotlib
-libpysal
-esda
-spreg
-mgwr
