@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 276本＋記事の一覧 715本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 214本＋記事の一覧 699本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -25,51 +25,30 @@
 | 再現性・振り返り | 100 |
 | その他（記述・要因分解など） | 329 |
 
-<details><summary><b>予測・時系列</b>（142本）</summary>
+<details><summary><b>予測・時系列</b>（115本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
-| F02 | コロナがなかったら、赤ちゃんは何人多かったのか？ | [F02_births_counterfactual](articles/F02_births_counterfactual) |
-| F04 | Go To トラベルは宿泊をどれだけ増やしたのか？ | [F04_goto_causalimpact](articles/F04_goto_causalimpact) |
-| F05 | 医療費の地域差は「県」と「市町村」のどちらで決まるか？ | [F05_medical_cost_hierarchical](articles/F05_medical_cost_hierarchical) |
 | F06 | 高齢化は地図の上で固まっているか？ | [F06_aging_spatial](articles/F06_aging_spatial) |
 | F11 | 消費増税の「駆け込み」と「反動」はどれだけだったか？ | [F11_tax_hike_event](articles/F11_tax_hike_event) |
-| F12 | 公的統計を毎月自動で更新するには？ | [F12_stats_pipeline](articles/F12_stats_pipeline) |
 | F13 | 失業率を来月まで予測できるか？ | [F13_unemployment_forecast](articles/F13_unemployment_forecast) |
 | F17 | 最低賃金の影響が大きかったのはどんな県か？ | [F17_minwage_causal_forest](articles/F17_minwage_causal_forest) |
 | F22 | 明日の電力需要はどこまで当てられるか？ | [F22_power_demand_forecast](articles/F22_power_demand_forecast) |
-| F29 | 北陸新幹線の金沢延伸で、石川県の宿泊客はどれだけ増えたか？ | [F29_shinkansen_sdid](articles/F29_shinkansen_sdid) |
-| F32 | 所得の高い町と低い町で、効いている要因は同じか？ | [F32_income_quantile](articles/F32_income_quantile) |
-| F36 | 全国と47都道府県の宿泊者数の予測を、足し算が合うようにそろえると？ | [F36_hierarchical_forecast](articles/F36_hierarchical_forecast) |
-| F37 | 地価の予測に「この範囲に9割入る」を付けられるか？ | [F37_conformal_land_price](articles/F37_conformal_land_price) |
 | F42 | 季節調整を自分でやると、公表値と同じになるか？ | [F42_seasonal_adjustment](articles/F42_seasonal_adjustment) |
 | F50 | GDPの速報は、あとでどれだけ直されるのか？ | [F50_gdp_revisions](articles/F50_gdp_revisions) |
 | F52 | インフルエンザは、どの県からどの県へ広がるのか？ | [F52_influenza_spread](articles/F52_influenza_spread) |
-| F55 | ベイズで出生数を予測すると、予測の幅はどう変わるのか？ | [F55_births_bsts](articles/F55_births_bsts) |
-| F57 | インフルエンザの流行は、SIRモデルで再現できるか？ | [F57_flu_sir](articles/F57_flu_sir) |
-| F68 | 訪日客の「来る季節」は、国によっていくつの型に分かれるか？ | [F68_inbound_seasonality_clusters](articles/F68_inbound_seasonality_clusters) |
 | F71 | 都道府県の所得の差は、縮まっているのか？ | [F71_income_convergence](articles/F71_income_convergence) |
-| F73 | 街の人の「景気の声」は、数字より先に動くか？ | [F73_watcher_text_tone](articles/F73_watcher_text_tone) |
-| F75 | 地価の地図を「なめらかに」描くと、どこまで当たるか？ | [F75_gp_land_price](articles/F75_gp_land_price) |
 | F76 | 所得が高い県は、ずっと高いままか？ | [F76_income_mobility_markov](articles/F76_income_mobility_markov) |
-| F77 | 今の人の流れが続くと、都道府県の人口の分布は最後にどうなるか？ | [F77_migration_markov](articles/F77_migration_markov) |
 | F78 | 産業がばらけている町は、不景気に強いのか？ | [F78_industry_portfolio](articles/F78_industry_portfolio) |
 | F86 | 平均寿命はこの先どこまで延びるのか？ | [F86_lee_carter_e0](articles/F86_lee_carter_e0) |
-| F92 | 電力需要の「上振れ」はどこまで見込めばよいか？ | [F92_power_quantile_forecast](articles/F92_power_quantile_forecast) |
 | F97 | 「前年比+1%」は、本当に増えたと言えるのか？ | [F97_sampling_error_yoy](articles/F97_sampling_error_yoy) |
 | F98 | 大きな災害のあと、宿泊客はどれくらいで戻るのか？ | [F98_disaster_lodging_recovery](articles/F98_disaster_lodging_recovery) |
-| F104 | 気温と電力需要の関係を、ガウス過程の時系列で読むと？ | [F104_gp_power_temperature](articles/F104_gp_power_temperature) |
-| F107 | 市区町村のつながり（隣接・通勤）を使うと、予測は良くなるか？ | [F107_gcn_municipal](articles/F107_gcn_municipal) |
 | F108 | 予測モデルは、地域によって外れ方が偏っていないか？ | [F108_prediction_fairness](articles/F108_prediction_fairness) |
-| F109 | どのデータを集めれば、予測は早く良くなるか？ | [F109_active_learning_land_price](articles/F109_active_learning_land_price) |
-| F110 | 予測モデルの設定は、どう選ぶのが効率的か？ | [F110_hyperparam_bayesopt](articles/F110_hyperparam_bayesopt) |
-| F119 | 予測した記事は、その後どれだけ当たったか？ | [F119_forecast_scorecard](articles/F119_forecast_scorecard) |
 | F122 | 手法ごとに、どこでつまずいたか？ | [F122_pitfalls_from_logs](articles/F122_pitfalls_from_logs) |
 | F125 | 100本を超えた看板記事で、「見えなかった」はどれくらいあったか？ | [F125_null_results_review](articles/F125_null_results_review) |
 | F127 | 空き家は、人口が減った分だけ増えたのか？ | [F127_vacant_houses_decomposition](articles/F127_vacant_houses_decomposition) |
 | F132 | 農家は「やめる」のか「大きくなる」のか？ | [F132_farm_size_transitions](articles/F132_farm_size_transitions) |
 | F133 | 輸出先は、距離と経済規模でどこまで決まるのか？ | [F133_export_gravity](articles/F133_export_gravity) |
-| F134 | 再生可能エネルギーの導入は、どこで速く進んだのか？ | [F134_renewable_diffusion](articles/F134_renewable_diffusion) |
 | F135 | 雨の日は、小売の売上をどれだけ動かすのか？ | [F135_rain_retail](articles/F135_rain_retail) |
 | F136 | 鉄道の利用は、コロナ前にどこまで戻ったのか？ | [F136_rail_covid_recovery](articles/F136_rail_covid_recovery) |
 | F137 | 郵便物は、いつ半分になるのか？ | [F137_postal_decay](articles/F137_postal_decay) |
@@ -78,17 +57,13 @@
 | F146 | 統計の秘匿をノイズで置き換えると、分析の答えはどれだけ変わるか？ | [F146_dp_noise_vs_suppression](articles/F146_dp_noise_vs_suppression) |
 | F150 | 季節のパターンそのものは、年々変わっているのか？ | [F150_dynamic_seasonality](articles/F150_dynamic_seasonality) |
 | F151 | 47都道府県の求人倍率の「同じ動き」は、いくつに分けられるか？ | [F151_pref_hierarchical_dfm](articles/F151_pref_hierarchical_dfm) |
-| F152 | 統計の速報は、確報でどれだけ直されるのか？ | [F152_revision_news_noise](articles/F152_revision_news_noise) |
 | F154 | 推定の「不確かさ」は、図の形で何が読み取れるかが変わるのか？ | [F154_uncertainty_viz](articles/F154_uncertainty_viz) |
-| F157 | 電力需要の予測を、1年通して運用したらどうなるか？ | [F157_power_forecast_operation](articles/F157_power_forecast_operation) |
-| F158 | 地価の予測モデルは、毎年作り直す必要があるのか？ | [F158_land_price_update](articles/F158_land_price_update) |
 | F159 | 出生数の予測を、毎月の速報で更新すると当たり方は変わるか？ | [F159_births_nowcast](articles/F159_births_nowcast) |
 | F161 | 同じデータで記事を書き直すと、結論はどれだけ変わるか？ | [F161_rewrite_old_articles](articles/F161_rewrite_old_articles) |
 | F167 | 「100年に1度の大雨」は、本当に100年に1度なのか？ | [F167_return_period_heavy_rain](articles/F167_return_period_heavy_rain) |
 | F168 | 猛暑日の数は、どこまで増えたと言えるか？ | [F168_extreme_heat_trend](articles/F168_extreme_heat_trend) |
 | F170 | 産業の構成比を比べるとき、割合のまま回帰してよいか？ | [F170_compositional_industry_shares](articles/F170_compositional_industry_shares) |
 | F172 | 生まれる日・亡くなる日は、曜日と季節でどう偏るか？ | [F172_birth_death_calendar](articles/F172_birth_death_calendar) |
-| F175 | 予測モデルの精度は、どの特徴量の「おかげ」なのか？ | [F175_r2_shapley_decomposition](articles/F175_r2_shapley_decomposition) |
 | F181 | 家が建つ数は、金利と人口のどちらで決まるのか？ | [F181_housing_starts_rates_population](articles/F181_housing_starts_rates_population) |
 | F185 | 宅配便の個数は、どこまで通販で説明できるのか？ | [F185_parcels_online_shopping](articles/F185_parcels_online_shopping) |
 | F189 | 日本人の1日は、20年でどう変わったのか？ | [F189_time_use_composition](articles/F189_time_use_composition) |
@@ -103,7 +78,6 @@
 | F207 | 地価はどこで上がり、駅ができると何が起きるのか？ | [F207_landprice_series_part1](articles/F207_landprice_series_part1) |
 | F208 | マンションの値段は地価とどう動き、地価の予測はどこで外れ続けるのか？ | [F208_landprice_series_part2](articles/F208_landprice_series_part2) |
 | F231 | 売上の予測は、何か月先まで役に立つのか？ | [F231_sales_forecast_horizon](articles/F231_sales_forecast_horizon) |
-| F232 | 店の種類ごとの予測と全体の予測を、どうそろえるか？ | [F232_hierarchical_retail_reconciliation](articles/F232_hierarchical_retail_reconciliation) |
 | F235 | 在庫はどれだけ持てばよいのか？ | [F235_inventory_newsvendor](articles/F235_inventory_newsvendor) |
 | F239 | 広告費は、売上にどれだけ効いているのか？ | [F239_marketing_mix_model](articles/F239_marketing_mix_model) |
 | F240 | キャンペーンの効果を、比べる相手がないときにどう測るか？ | [F240_campaign_effect_no_control](articles/F240_campaign_effect_no_control) |
@@ -111,7 +85,6 @@
 | F242 | 毎日の KPI の「いつもと違う」を、どう自動で知らせるか？ | [F242_kpi_anomaly_alerts](articles/F242_kpi_anomaly_alerts) |
 | F245 | 1つの依頼に、1時間でどこまで答えられるか？ | [F245_one_hour_request](articles/F245_one_hour_request) |
 | F246 | 分析担当として最初にやること：KPI を決める（業務の再現：架空の会社で） シリーズ③の1本目。架空の食品スーパー「サン | [F246_kpi_definitions_fictional_retail](articles/F246_kpi_definitions_fictional_retail) |
-| F252 | 来期の予算のための需要予測（業務の再現：架空の会社で） シリーズ③の7本目。架空の食品スーパー「サンプルマート（架空）」 | [F252_budget_forecast_fictional_retail](articles/F252_budget_forecast_fictional_retail) |
 | F255 | 1年の分析業務を振り返る（業務の再現：架空の会社で） シリーズ③の10本目・最後。架空の食品スーパー「サンプルマート（架 | [F255_year_review_fictional_retail](articles/F255_year_review_fictional_retail) |
 | F257 | 労働経済白書の「賃上げが広がった」は、どのデータでどこまで言えるのか？ | [F257_wage_spillover_whitepaper](articles/F257_wage_spillover_whitepaper) |
 | F258 | 「実質賃金○か月連続マイナス」は、どの物価で割るかで変わるのか？ | [F258_real_wage_deflator_streak](articles/F258_real_wage_deflator_streak) |
@@ -174,36 +147,27 @@
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（69本）</summary>
+<details><summary><b>因果推論・効果検証</b>（60本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
 | F01 | 最低賃金の引き上げは、雇用を減らしたのか？ | [F01_minimum_wage_did](articles/F01_minimum_wage_did) |
-| F02 | コロナがなかったら、赤ちゃんは何人多かったのか？ | [F02_births_counterfactual](articles/F02_births_counterfactual) |
-| F04 | Go To トラベルは宿泊をどれだけ増やしたのか？ | [F04_goto_causalimpact](articles/F04_goto_causalimpact) |
 | F11 | 消費増税の「駆け込み」と「反動」はどれだけだったか？ | [F11_tax_hike_event](articles/F11_tax_hike_event) |
-| F14 | コンパクトシティの計画を作った市町村で、中心部の人口密度は保てたのか？ | [F14_compact_city_psm_did](articles/F14_compact_city_psm_did) |
 | F17 | 最低賃金の影響が大きかったのはどんな県か？ | [F17_minwage_causal_forest](articles/F17_minwage_causal_forest) |
 | F26 | 政策の効果を見つけるには、何県・何年のデータが要るのか？ | [F26_power_simulation](articles/F26_power_simulation) |
-| F29 | 北陸新幹線の金沢延伸で、石川県の宿泊客はどれだけ増えたか？ | [F29_shinkansen_sdid](articles/F29_shinkansen_sdid) |
 | F31 | 60歳・65歳で、働く人はどれだけ減るのか？ | [F31_retirement_rdd](articles/F31_retirement_rdd) |
-| F33 | 人の移動は距離でどれだけ減るのか？ | [F33_migration_gravity](articles/F33_migration_gravity) |
-| F39 | 物価・賃金・金利は、どれがどれを動かしているのか？ | [F39_causal_discovery_macro](articles/F39_causal_discovery_macro) |
 | F46 | 雇用が増えた町に、人は集まったのか？ | [F46_bartik_iv](articles/F46_bartik_iv) |
 | F48 | ガソリンが10%上がると、買う量は何%減るか？ | [F48_gasoline_elasticity](articles/F48_gasoline_elasticity) |
 | F65 | 医師が多い県ほど、平均寿命は長いのか？ | [F65_doctors_life_dag](articles/F65_doctors_life_dag) |
-| F73 | 街の人の「景気の声」は、数字より先に動くか？ | [F73_watcher_text_tone](articles/F73_watcher_text_tone) |
 | F81 | 通勤で町の外へ出る人が多いほど、子どもは少ないのか？ | [F81_commute_gps](articles/F81_commute_gps) |
 | F88 | 携帯料金の値下げは、物価をどれだけ下げたか？ | [F88_mobile_fee_rdit](articles/F88_mobile_fee_rdit) |
 | F95 | 新幹線の効果は、隣の県にもこぼれたのか？ | [F95_shinkansen_spillover](articles/F95_shinkansen_spillover) |
 | F98 | 大きな災害のあと、宿泊客はどれくらいで戻るのか？ | [F98_disaster_lodging_recovery](articles/F98_disaster_lodging_recovery) |
-| F100 | 同じ問いを5つの手法で分析すると、答えはそろうのか？ | [F100_five_methods_one_question](articles/F100_five_methods_one_question) |
 | F108 | 予測モデルは、地域によって外れ方が偏っていないか？ | [F108_prediction_fairness](articles/F108_prediction_fairness) |
 | F120 | 2025年国勢調査で、記事の結論は変わったか？ | [F120_census2025_update](articles/F120_census2025_update) |
 | F121 | 「最低賃金と雇用」に、4本の記事はどう答えたか？ | [F121_minwage_methods_review](articles/F121_minwage_methods_review) |
 | F122 | 手法ごとに、どこでつまずいたか？ | [F122_pitfalls_from_logs](articles/F122_pitfalls_from_logs) |
 | F125 | 100本を超えた看板記事で、「見えなかった」はどれくらいあったか？ | [F125_null_results_review](articles/F125_null_results_review) |
-| F145 | ごみの量は、有料化のあとに減ったのか？ | [F145_waste_fee_did](articles/F145_waste_fee_did) |
 | F155 | 分析の手順を変えると、答えはどこまで変わるか？ | [F155_multiverse](articles/F155_multiverse) |
 | F156 | 最低賃金の効果は、地域の「賃金の低さ」で違うのか？ | [F156_minwage_bite_heterogeneity](articles/F156_minwage_bite_heterogeneity) |
 | F166 | 公的統計の数字は、ベンフォードの法則に従っているか？ | [F166_benford_public_stats](articles/F166_benford_public_stats) |
@@ -284,43 +248,26 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（322本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（276本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
 | F01 | 最低賃金の引き上げは、雇用を減らしたのか？ | [F01_minimum_wage_did](articles/F01_minimum_wage_did) |
-| F02 | コロナがなかったら、赤ちゃんは何人多かったのか？ | [F02_births_counterfactual](articles/F02_births_counterfactual) |
-| F04 | Go To トラベルは宿泊をどれだけ増やしたのか？ | [F04_goto_causalimpact](articles/F04_goto_causalimpact) |
-| F05 | 医療費の地域差は「県」と「市町村」のどちらで決まるか？ | [F05_medical_cost_hierarchical](articles/F05_medical_cost_hierarchical) |
 | F06 | 高齢化は地図の上で固まっているか？ | [F06_aging_spatial](articles/F06_aging_spatial) |
-| F08 | 1,740市区町村を62の指標で分けると何タイプか？ | [F08_municipal_segments](articles/F08_municipal_segments) |
-| F09 | 国会で「賃上げ」はいつから語られるようになったのか？ | [F09_diet_text](articles/F09_diet_text) |
 | F13 | 失業率を来月まで予測できるか？ | [F13_unemployment_forecast](articles/F13_unemployment_forecast) |
 | F15 | 県境をまたぐと最低賃金が違う。隣どうしの町で雇用は違ったか？ | [F15_border_minwage](articles/F15_border_minwage) |
-| F16 | 保育所に通う子どもが増えた町で、女性は働きに出たのか？ | [F16_childcare_dml](articles/F16_childcare_dml) |
-| F18 | 景気は今どうなのか？ | [F18_nowcast_dfm](articles/F18_nowcast_dfm) |
 | F19 | 小さな町の検診受診率は、どこまで信用できるのか？ | [F19_small_area_fh](articles/F19_small_area_fh) |
-| F20 | 出生率は隣の町と似るのか？ | [F20_tfr_spatial_regression](articles/F20_tfr_spatial_regression) |
 | F22 | 明日の電力需要はどこまで当てられるか？ | [F22_power_demand_forecast](articles/F22_power_demand_forecast) |
 | F26 | 政策の効果を見つけるには、何県・何年のデータが要るのか？ | [F26_power_simulation](articles/F26_power_simulation) |
-| F27 | 市区町村の死亡率の地図は、小さな町ほどぶれる。隣の町の情報を借りる空間ベイズ（BYM2）で描き直すと、地域差の9割以上は | [F27_disease_map_bym2](articles/F27_disease_map_bym2) |
 | F31 | 60歳・65歳で、働く人はどれだけ減るのか？ | [F31_retirement_rdd](articles/F31_retirement_rdd) |
-| F32 | 所得の高い町と低い町で、効いている要因は同じか？ | [F32_income_quantile](articles/F32_income_quantile) |
-| F33 | 人の移動は距離でどれだけ減るのか？ | [F33_migration_gravity](articles/F33_migration_gravity) |
 | F34 | 同じお金で、どの市町村が多くのサービスを出しているか？ | [F34_municipal_efficiency](articles/F34_municipal_efficiency) |
-| F35 | 景気の「山」と「谷」をデータだけで当てられるか？ | [F35_business_cycle_markov](articles/F35_business_cycle_markov) |
-| F39 | 物価・賃金・金利は、どれがどれを動かしているのか？ | [F39_causal_discovery_macro](articles/F39_causal_discovery_macro) |
-| F41 | 欠けているデータを埋めると、結論は変わるのか？ | [F41_missing_data_mi](articles/F41_missing_data_mi) |
 | F43 | 金利が上がると、何か月後に何が動くのか？ | [F43_local_projections](articles/F43_local_projections) |
 | F44 | 出生率のトレンドはいつ折れたのか？ | [F44_structural_breaks](articles/F44_structural_breaks) |
 | F46 | 雇用が増えた町に、人は集まったのか？ | [F46_bartik_iv](articles/F46_bartik_iv) |
 | F49 | 平均寿命の県の差は、何歳の死亡で生まれているのか？ | [F49_life_expectancy_decomposition](articles/F49_life_expectancy_decomposition) |
 | F50 | GDPの速報は、あとでどれだけ直されるのか？ | [F50_gdp_revisions](articles/F50_gdp_revisions) |
-| F51 | 保育所の整備は、出生率に「女性の就業」を通じて効いたのか？ | [F51_childcare_mediation](articles/F51_childcare_mediation) |
 | F52 | インフルエンザは、どの県からどの県へ広がるのか？ | [F52_influenza_spread](articles/F52_influenza_spread) |
-| F53 | 日銀の声明文は、いつ「強気」から「弱気」に変わったか？ | [F53_boj_statement_tone](articles/F53_boj_statement_tone) |
 | F54 | 働く女性の賃金は、働いている人だけを見ると高く見えるのか？ | [F54_heckman_women_wage](articles/F54_heckman_women_wage) |
-| F55 | ベイズで出生数を予測すると、予測の幅はどう変わるのか？ | [F55_births_bsts](articles/F55_births_bsts) |
 | F56 | 住宅価格指数を「繰り返し売買法」で作ると、ヘドニックと同じになるか？ | [F56_repeat_sales_index](articles/F56_repeat_sales_index) |
 | F59 | 学力調査の県の順位は、毎年どれくらい入れ替わるのか？ | [F59_test_rank_stability](articles/F59_test_rank_stability) |
 | F60 | 去年いちばん悪かった県は、今年よくなるのか？ | [F60_regression_to_mean](articles/F60_regression_to_mean) |
@@ -328,14 +275,9 @@
 | F63 | 「前年比」と「前月比」、景気の変わり目を早く見つけられるのはどちらか？ | [F63_yoy_vs_mom](articles/F63_yoy_vs_mom) |
 | F65 | 医師が多い県ほど、平均寿命は長いのか？ | [F65_doctors_life_dag](articles/F65_doctors_life_dag) |
 | F67 | 気温が1℃上がると、電気の使用量は何%増えるか？ | [F67_temp_power_gam](articles/F67_temp_power_gam) |
-| F68 | 訪日客の「来る季節」は、国によっていくつの型に分かれるか？ | [F68_inbound_seasonality_clusters](articles/F68_inbound_seasonality_clusters) |
 | F70 | 同じ数字でも、グラフの見せ方で印象はどこまで変わるのか？ | [F70_chart_honesty](articles/F70_chart_honesty) |
 | F72 | 家計は、物価が何%上がると思っているのか？ | [F72_inflation_expectations_cp](articles/F72_inflation_expectations_cp) |
-| F73 | 街の人の「景気の声」は、数字より先に動くか？ | [F73_watcher_text_tone](articles/F73_watcher_text_tone) |
-| F74 | 観測点のない場所の気温は、どこまで当てられるか？ | [F74_temperature_kriging](articles/F74_temperature_kriging) |
-| F75 | 地価の地図を「なめらかに」描くと、どこまで当たるか？ | [F75_gp_land_price](articles/F75_gp_land_price) |
 | F76 | 所得が高い県は、ずっと高いままか？ | [F76_income_mobility_markov](articles/F76_income_mobility_markov) |
-| F77 | 今の人の流れが続くと、都道府県の人口の分布は最後にどうなるか？ | [F77_migration_markov](articles/F77_migration_markov) |
 | F78 | 産業がばらけている町は、不景気に強いのか？ | [F78_industry_portfolio](articles/F78_industry_portfolio) |
 | F80 | 47都道府県×100指標を比べると、「有意な差」はいくつ偶然か？ | [F80_multiple_comparisons](articles/F80_multiple_comparisons) |
 | F82 | 「年収の壁」の手前に、人はどれくらい集まっているのか？ | [F82_income_wall_bunching](articles/F82_income_wall_bunching) |
@@ -343,28 +285,19 @@
 | F86 | 平均寿命はこの先どこまで延びるのか？ | [F86_lee_carter_e0](articles/F86_lee_carter_e0) |
 | F88 | 携帯料金の値下げは、物価をどれだけ下げたか？ | [F88_mobile_fee_rdit](articles/F88_mobile_fee_rdit) |
 | F89 | 最低賃金の効果、これまでの推定をまとめると？ | [F89_minwage_meta](articles/F89_minwage_meta) |
-| F90 | 月次の統計で、四半期のGDPをどこまで当てられるか？ | [F90_midas_nowcast](articles/F90_midas_nowcast) |
-| F91 | 機械学習の「何が効いているか」は、手法で答えが変わるか？ | [F91_interpretation_methods](articles/F91_interpretation_methods) |
-| F92 | 電力需要の「上振れ」はどこまで見込めばよいか？ | [F92_power_quantile_forecast](articles/F92_power_quantile_forecast) |
 | F95 | 新幹線の効果は、隣の県にもこぼれたのか？ | [F95_shinkansen_spillover](articles/F95_shinkansen_spillover) |
-| F96 | e-Statの数万の統計表から、欲しい表をすぐ探せるか？ | [F96_estat_semantic_search](articles/F96_estat_semantic_search) |
 | F97 | 「前年比+1%」は、本当に増えたと言えるのか？ | [F97_sampling_error_yoy](articles/F97_sampling_error_yoy) |
-| F100 | 同じ問いを5つの手法で分析すると、答えはそろうのか？ | [F100_five_methods_one_question](articles/F100_five_methods_one_question) |
 | F101 | 物価と賃金は、長い目で見ると一緒に動いているのか？ | [F101_price_wage_cointegration](articles/F101_price_wage_cointegration) |
 | F102 | 円安が物価に効くのは、円安が大きいときだけか？ | [F102_fx_threshold_passthrough](articles/F102_fx_threshold_passthrough) |
 | F103 | 電力需要や物価の「長い記憶」は、どれくらい続くか？ | [F103_long_memory](articles/F103_long_memory) |
-| F104 | 気温と電力需要の関係を、ガウス過程の時系列で読むと？ | [F104_gp_power_temperature](articles/F104_gp_power_temperature) |
 | F105 | 閉鎖を数年おきの調査でしか確かめられないと、生存曲線はどこまでずれるか？ | [F105_interval_censoring](articles/F105_interval_censoring) |
 | F106 | 同じ県の会社は、同じように閉鎖しやすいのか？ | [F106_shared_frailty](articles/F106_shared_frailty) |
 | F108 | 予測モデルは、地域によって外れ方が偏っていないか？ | [F108_prediction_fairness](articles/F108_prediction_fairness) |
-| F109 | どのデータを集めれば、予測は早く良くなるか？ | [F109_active_learning_land_price](articles/F109_active_learning_land_price) |
-| F110 | 予測モデルの設定は、どう選ぶのが効率的か？ | [F110_hyperparam_bayesopt](articles/F110_hyperparam_bayesopt) |
 | F112 | 救急隊が全部出払う確率は、隊を1つ増やすとどれだけ下がるか？ | [F112_ambulance_queueing](articles/F112_ambulance_queueing) |
 | F113 | 物価指数の作り方で、インフレ率はどれだけ変わるか？ | [F113_price_index_formulas](articles/F113_price_index_formulas) |
 | F114 | 東京の1万円と地方の1万円は、同じ価値か？ | [F114_regional_purchasing_power](articles/F114_regional_purchasing_power) |
 | F115 | 統計の公表値から、元のばらつきをどこまで復元できるか？ | [F115_grouped_income_distribution](articles/F115_grouped_income_distribution) |
 | F116 | 47都道府県の指標を1つの「暮らしやすさ」にまとめると、重みでどれだけ順位が変わるか？ | [F116_composite_index_weights](articles/F116_composite_index_weights) |
-| F119 | 予測した記事は、その後どれだけ当たったか？ | [F119_forecast_scorecard](articles/F119_forecast_scorecard) |
 | F120 | 2025年国勢調査で、記事の結論は変わったか？ | [F120_census2025_update](articles/F120_census2025_update) |
 | F121 | 「最低賃金と雇用」に、4本の記事はどう答えたか？ | [F121_minwage_methods_review](articles/F121_minwage_methods_review) |
 | F122 | 手法ごとに、どこでつまずいたか？ | [F122_pitfalls_from_logs](articles/F122_pitfalls_from_logs) |
@@ -374,12 +307,9 @@
 | F126 | 暑い日の何日後まで、熱中症の搬送は増えるのか？ | [F126_heatstroke_dlnm](articles/F126_heatstroke_dlnm) |
 | F127 | 空き家は、人口が減った分だけ増えたのか？ | [F127_vacant_houses_decomposition](articles/F127_vacant_houses_decomposition) |
 | F128 | 家賃は、都心からの距離でどれだけ下がるのか？ | [F128_rent_distance](articles/F128_rent_distance) |
-| F129 | 薬の処方量の地域差は、年齢構成でどこまで説明できるか？ | [F129_prescription_age_adjust](articles/F129_prescription_age_adjust) |
-| F130 | 介護の認定率の地域差は、高齢化だけで説明できるか？ | [F130_care_certification_shrinkage](articles/F130_care_certification_shrinkage) |
 | F131 | 大学に進む人が増えると、地元に残る若者は減るのか？ | [F131_univ_youth_migration](articles/F131_univ_youth_migration) |
 | F132 | 農家は「やめる」のか「大きくなる」のか？ | [F132_farm_size_transitions](articles/F132_farm_size_transitions) |
 | F133 | 輸出先は、距離と経済規模でどこまで決まるのか？ | [F133_export_gravity](articles/F133_export_gravity) |
-| F134 | 再生可能エネルギーの導入は、どこで速く進んだのか？ | [F134_renewable_diffusion](articles/F134_renewable_diffusion) |
 | F135 | 雨の日は、小売の売上をどれだけ動かすのか？ | [F135_rain_retail](articles/F135_rain_retail) |
 | F136 | 鉄道の利用は、コロナ前にどこまで戻ったのか？ | [F136_rail_covid_recovery](articles/F136_rail_covid_recovery) |
 | F137 | 郵便物は、いつ半分になるのか？ | [F137_postal_decay](articles/F137_postal_decay) |
@@ -389,20 +319,15 @@
 | F142 | 森林は、「切れる木」がどれだけ増えたのか？ | [F142_forest_age_harvest](articles/F142_forest_age_harvest) |
 | F143 | 漁獲量の減り方は、魚の種類でどう違うのか？ | [F143_fish_catch_decline](articles/F143_fish_catch_decline) |
 | F144 | 水道料金の差は、人口密度と水源でどこまで説明できるか？ | [F144_water_tariff_density](articles/F144_water_tariff_density) |
-| F145 | ごみの量は、有料化のあとに減ったのか？ | [F145_waste_fee_did](articles/F145_waste_fee_did) |
 | F146 | 統計の秘匿をノイズで置き換えると、分析の答えはどれだけ変わるか？ | [F146_dp_noise_vs_suppression](articles/F146_dp_noise_vs_suppression) |
 | F147 | 集計表から「それらしい個票」を作ると、元の分析を再現できるか？ | [F147_synthetic_from_tables](articles/F147_synthetic_from_tables) |
 | F150 | 季節のパターンそのものは、年々変わっているのか？ | [F150_dynamic_seasonality](articles/F150_dynamic_seasonality) |
 | F151 | 47都道府県の求人倍率の「同じ動き」は、いくつに分けられるか？ | [F151_pref_hierarchical_dfm](articles/F151_pref_hierarchical_dfm) |
-| F152 | 統計の速報は、確報でどれだけ直されるのか？ | [F152_revision_news_noise](articles/F152_revision_news_noise) |
 | F153 | 平均でなく「分布」で比べると、地域の差は何に見えるか？ | [F153_distribution_regional](articles/F153_distribution_regional) |
 | F154 | 推定の「不確かさ」は、図の形で何が読み取れるかが変わるのか？ | [F154_uncertainty_viz](articles/F154_uncertainty_viz) |
 | F155 | 分析の手順を変えると、答えはどこまで変わるか？ | [F155_multiverse](articles/F155_multiverse) |
 | F156 | 最低賃金の効果は、地域の「賃金の低さ」で違うのか？ | [F156_minwage_bite_heterogeneity](articles/F156_minwage_bite_heterogeneity) |
-| F157 | 電力需要の予測を、1年通して運用したらどうなるか？ | [F157_power_forecast_operation](articles/F157_power_forecast_operation) |
-| F158 | 地価の予測モデルは、毎年作り直す必要があるのか？ | [F158_land_price_update](articles/F158_land_price_update) |
 | F159 | 出生数の予測を、毎月の速報で更新すると当たり方は変わるか？ | [F159_births_nowcast](articles/F159_births_nowcast) |
-| F160 | 人口の将来推計を、自分で作るとどこまで合うか？ | [F160_cohort_projection_backtest](articles/F160_cohort_projection_backtest) |
 | F161 | 同じデータで記事を書き直すと、結論はどれだけ変わるか？ | [F161_rewrite_old_articles](articles/F161_rewrite_old_articles) |
 | F163 | 125本の看板記事で、いちばん効いた頑健性チェックは何だったか？ | [F163_robustness_checks_review](articles/F163_robustness_checks_review) |
 | F164 | 図をどう作ると、読まれ方が変わったか？ | [F164_figures_and_reads](articles/F164_figures_and_reads) |
@@ -410,17 +335,13 @@
 | F166 | 公的統計の数字は、ベンフォードの法則に従っているか？ | [F166_benford_public_stats](articles/F166_benford_public_stats) |
 | F167 | 「100年に1度の大雨」は、本当に100年に1度なのか？ | [F167_return_period_heavy_rain](articles/F167_return_period_heavy_rain) |
 | F168 | 猛暑日の数は、どこまで増えたと言えるか？ | [F168_extreme_heat_trend](articles/F168_extreme_heat_trend) |
-| F169 | 円安と株高は、大きく動く日にだけ一緒に動くのか？ | [F169_yen_stock_copula](articles/F169_yen_stock_copula) |
 | F170 | 産業の構成比を比べるとき、割合のまま回帰してよいか？ | [F170_compositional_industry_shares](articles/F170_compositional_industry_shares) |
 | F171 | 人口ピラミッドの「形」は、いくつの型に分かれるか？ | [F171_pyramid_shape_fda](articles/F171_pyramid_shape_fda) |
 | F172 | 生まれる日・亡くなる日は、曜日と季節でどう偏るか？ | [F172_birth_death_calendar](articles/F172_birth_death_calendar) |
 | F173 | 2つの年の所得分布は、どれだけ「動いた」のか？ | [F173_income_distribution_wasserstein](articles/F173_income_distribution_wasserstein) |
 | F174 | 景気の「局面」は、データから自動で見つけられるか？ | [F174_business_cycle_hmm_multiseries](articles/F174_business_cycle_hmm_multiseries) |
-| F175 | 予測モデルの精度は、どの特徴量の「おかげ」なのか？ | [F175_r2_shapley_decomposition](articles/F175_r2_shapley_decomposition) |
-| F176 | 白書の文章は、年々読みやすくなったのか？ | [F176_whitepaper_readability](articles/F176_whitepaper_readability) |
 | F177 | 「差がある」は、並べ替えで確かめるとどうなるか？ | [F177_permutation_tests](articles/F177_permutation_tests) |
 | F178 | 回帰の外れ値は、どの点がどれだけ結論を動かしているか？ | [F178_regression_influence](articles/F178_regression_influence) |
-| F179 | 欠測を埋める方法で、答えはどれだけ変わるか？ | [F179_imputation_by_estimand](articles/F179_imputation_by_estimand) |
 | F180 | 2つの統計の数字は、本当に同じものを測っているか？ | [F180_measurement_agreement](articles/F180_measurement_agreement) |
 | F181 | 家が建つ数は、金利と人口のどちらで決まるのか？ | [F181_housing_starts_rates_population](articles/F181_housing_starts_rates_population) |
 | F182 | 中古住宅は、新築の何年分の価格差で売られているか？ | [F182_condo_depreciation_curve](articles/F182_condo_depreciation_curve) |
@@ -453,7 +374,6 @@
 | F209 | この5年の値上がりは、どの品目から来て、誰に重く、家計は何を減らしたのか？ | [F209_prices_household_series_part1](articles/F209_prices_household_series_part1) |
 | F210 | 円安は品目の値段にどれだけ時間をかけて届き、物価の見通しは家計と企業でどれだけ違うのか？ | [F210_prices_household_series_part2](articles/F210_prices_household_series_part2) |
 | F231 | 売上の予測は、何か月先まで役に立つのか？ | [F231_sales_forecast_horizon](articles/F231_sales_forecast_horizon) |
-| F232 | 店の種類ごとの予測と全体の予測を、どうそろえるか？ | [F232_hierarchical_retail_reconciliation](articles/F232_hierarchical_retail_reconciliation) |
 | F233 | 祝日・連休・天気は、売上をどれだけ動かすのか？ | [F233_calendar_weather_sales](articles/F233_calendar_weather_sales) |
 | F234 | 価格を1%上げると、買われる量は何%減るのか？ | [F234_price_elasticity_practice](articles/F234_price_elasticity_practice) |
 | F235 | 在庫はどれだけ持てばよいのか？ | [F235_inventory_newsvendor](articles/F235_inventory_newsvendor) |
@@ -465,7 +385,6 @@
 | F242 | 毎日の KPI の「いつもと違う」を、どう自動で知らせるか？ | [F242_kpi_anomaly_alerts](articles/F242_kpi_anomaly_alerts) |
 | F246 | 分析担当として最初にやること：KPI を決める（業務の再現：架空の会社で） シリーズ③の1本目。架空の食品スーパー「サン | [F246_kpi_definitions_fictional_retail](articles/F246_kpi_definitions_fictional_retail) |
 | F250 | 売上が落ちた月に、理由を説明する（業務の再現：架空の会社で） シリーズ③の5本目。F247 の mart を使い、架空の | [F250_sales_drop_explanation_fictional_retail](articles/F250_sales_drop_explanation_fictional_retail) |
-| F252 | 来期の予算のための需要予測（業務の再現：架空の会社で） シリーズ③の7本目。架空の食品スーパー「サンプルマート（架空）」 | [F252_budget_forecast_fictional_retail](articles/F252_budget_forecast_fictional_retail) |
 | F255 | 1年の分析業務を振り返る（業務の再現：架空の会社で） シリーズ③の10本目・最後。架空の食品スーパー「サンプルマート（架 | [F255_year_review_fictional_retail](articles/F255_year_review_fictional_retail) |
 | F257 | 労働経済白書の「賃上げが広がった」は、どのデータでどこまで言えるのか？ | [F257_wage_spillover_whitepaper](articles/F257_wage_spillover_whitepaper) |
 | F259 | 需要予測の外れは、在庫と欠品のどちらに効かせるべきか？ | [F259_forecast_error_inventory_cost](articles/F259_forecast_error_inventory_cost) |
@@ -481,7 +400,6 @@
 | F274 | 「人手不足倒産が過去最多」は、会社の数と数え方をそろえても増えたのか？ | [F274_labor_shortage_bankruptcy_rate](articles/F274_labor_shortage_bankruptcy_rate) |
 | F276 | 地震保険の付帯率は、地震のあとにどれだけ上がって戻るのか？ | [F276_earthquake_insurance_after_quakes](articles/F276_earthquake_insurance_after_quakes) |
 | F278 | 「空き家が過去最多」は、住宅の数が増えた分を除くとどうか？ | [F278_vacant_record_stock_vs_rate](articles/F278_vacant_record_stock_vs_rate) |
-| F279 | RFM で分けた顧客は、その後どう動くのか？ | [F279_rfm_segment_transitions](articles/F279_rfm_segment_transitions) |
 | F281 | 食料自給率の目標と実際の差は、どこから来ているのか？ | [F281_food_self_sufficiency_target_gap](articles/F281_food_self_sufficiency_target_gap) |
 | F282 | 「円安で輸出が増えた」は、数量と価格に分けるとどうか？ | [F282_yen_exports_quantity_price](articles/F282_yen_exports_quantity_price) |
 | F283 | 値上げの前後で、売れ方はどう変わったか？ | [F283_price_hike_front_loading](articles/F283_price_hike_front_loading) |
@@ -613,52 +531,27 @@
 
 </details>
 
-<details><summary><b>機械学習・モデル評価</b>（139本）</summary>
+<details><summary><b>機械学習・モデル評価</b>（108本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
-| F03 | 地価を決めているのは何か？ | [F03_land_price_ml](articles/F03_land_price_ml) |
-| F05 | 医療費の地域差は「県」と「市町村」のどちらで決まるか？ | [F05_medical_cost_hierarchical](articles/F05_medical_cost_hierarchical) |
 | F07 | 新卒は何年目に辞めやすいのか？ | [F07_turnover_survival](articles/F07_turnover_survival) |
-| F08 | 1,740市区町村を62の指標で分けると何タイプか？ | [F08_municipal_segments](articles/F08_municipal_segments) |
-| F09 | 国会で「賃上げ」はいつから語られるようになったのか？ | [F09_diet_text](articles/F09_diet_text) |
 | F13 | 失業率を来月まで予測できるか？ | [F13_unemployment_forecast](articles/F13_unemployment_forecast) |
-| F16 | 保育所に通う子どもが増えた町で、女性は働きに出たのか？ | [F16_childcare_dml](articles/F16_childcare_dml) |
-| F18 | 景気は今どうなのか？ | [F18_nowcast_dfm](articles/F18_nowcast_dfm) |
 | F19 | 小さな町の検診受診率は、どこまで信用できるのか？ | [F19_small_area_fh](articles/F19_small_area_fh) |
-| F20 | 出生率は隣の町と似るのか？ | [F20_tfr_spatial_regression](articles/F20_tfr_spatial_regression) |
 | F22 | 明日の電力需要はどこまで当てられるか？ | [F22_power_demand_forecast](articles/F22_power_demand_forecast) |
 | F26 | 政策の効果を見つけるには、何県・何年のデータが要るのか？ | [F26_power_simulation](articles/F26_power_simulation) |
-| F33 | 人の移動は距離でどれだけ減るのか？ | [F33_migration_gravity](articles/F33_migration_gravity) |
-| F35 | 景気の「山」と「谷」をデータだけで当てられるか？ | [F35_business_cycle_markov](articles/F35_business_cycle_markov) |
-| F36 | 全国と47都道府県の宿泊者数の予測を、足し算が合うようにそろえると？ | [F36_hierarchical_forecast](articles/F36_hierarchical_forecast) |
 | F48 | ガソリンが10%上がると、買う量は何%減るか？ | [F48_gasoline_elasticity](articles/F48_gasoline_elasticity) |
-| F55 | ベイズで出生数を予測すると、予測の幅はどう変わるのか？ | [F55_births_bsts](articles/F55_births_bsts) |
-| F57 | インフルエンザの流行は、SIRモデルで再現できるか？ | [F57_flu_sir](articles/F57_flu_sir) |
 | F66 | 統計の推計方法が変わると、数字はどれだけ動くのか？ | [F66_series_breaks](articles/F66_series_breaks) |
 | F67 | 気温が1℃上がると、電気の使用量は何%増えるか？ | [F67_temp_power_gam](articles/F67_temp_power_gam) |
-| F68 | 訪日客の「来る季節」は、国によっていくつの型に分かれるか？ | [F68_inbound_seasonality_clusters](articles/F68_inbound_seasonality_clusters) |
-| F73 | 街の人の「景気の声」は、数字より先に動くか？ | [F73_watcher_text_tone](articles/F73_watcher_text_tone) |
-| F74 | 観測点のない場所の気温は、どこまで当てられるか？ | [F74_temperature_kriging](articles/F74_temperature_kriging) |
 | F86 | 平均寿命はこの先どこまで延びるのか？ | [F86_lee_carter_e0](articles/F86_lee_carter_e0) |
 | F88 | 携帯料金の値下げは、物価をどれだけ下げたか？ | [F88_mobile_fee_rdit](articles/F88_mobile_fee_rdit) |
-| F90 | 月次の統計で、四半期のGDPをどこまで当てられるか？ | [F90_midas_nowcast](articles/F90_midas_nowcast) |
-| F91 | 機械学習の「何が効いているか」は、手法で答えが変わるか？ | [F91_interpretation_methods](articles/F91_interpretation_methods) |
-| F92 | 電力需要の「上振れ」はどこまで見込めばよいか？ | [F92_power_quantile_forecast](articles/F92_power_quantile_forecast) |
 | F99 | 作るものを変えると、カロリーの自給率はどこまで上がるか？ | [F99_food_self_sufficiency_lp](articles/F99_food_self_sufficiency_lp) |
-| F100 | 同じ問いを5つの手法で分析すると、答えはそろうのか？ | [F100_five_methods_one_question](articles/F100_five_methods_one_question) |
 | F101 | 物価と賃金は、長い目で見ると一緒に動いているのか？ | [F101_price_wage_cointegration](articles/F101_price_wage_cointegration) |
-| F104 | 気温と電力需要の関係を、ガウス過程の時系列で読むと？ | [F104_gp_power_temperature](articles/F104_gp_power_temperature) |
 | F106 | 同じ県の会社は、同じように閉鎖しやすいのか？ | [F106_shared_frailty](articles/F106_shared_frailty) |
-| F107 | 市区町村のつながり（隣接・通勤）を使うと、予測は良くなるか？ | [F107_gcn_municipal](articles/F107_gcn_municipal) |
 | F108 | 予測モデルは、地域によって外れ方が偏っていないか？ | [F108_prediction_fairness](articles/F108_prediction_fairness) |
-| F109 | どのデータを集めれば、予測は早く良くなるか？ | [F109_active_learning_land_price](articles/F109_active_learning_land_price) |
-| F110 | 予測モデルの設定は、どう選ぶのが効率的か？ | [F110_hyperparam_bayesopt](articles/F110_hyperparam_bayesopt) |
-| F111 | 人口が減る町で、店はいつ消えるのか？ | [F111_shop_abm](articles/F111_shop_abm) |
 | F112 | 救急隊が全部出払う確率は、隊を1つ増やすとどれだけ下がるか？ | [F112_ambulance_queueing](articles/F112_ambulance_queueing) |
 | F116 | 47都道府県の指標を1つの「暮らしやすさ」にまとめると、重みでどれだけ順位が変わるか？ | [F116_composite_index_weights](articles/F116_composite_index_weights) |
 | F117 | 調査の回答率が下がると、結果はどれだけずれるか？ | [F117_nonresponse_weighting](articles/F117_nonresponse_weighting) |
-| F119 | 予測した記事は、その後どれだけ当たったか？ | [F119_forecast_scorecard](articles/F119_forecast_scorecard) |
 | F123 | 「場所で分けて確かめる」と、記事の結論は変わったか？ | [F123_spatial_block_cv_review](articles/F123_spatial_block_cv_review) |
 | F126 | 暑い日の何日後まで、熱中症の搬送は増えるのか？ | [F126_heatstroke_dlnm](articles/F126_heatstroke_dlnm) |
 | F127 | 空き家は、人口が減った分だけ増えたのか？ | [F127_vacant_houses_decomposition](articles/F127_vacant_houses_decomposition) |
@@ -669,12 +562,9 @@
 | F143 | 漁獲量の減り方は、魚の種類でどう違うのか？ | [F143_fish_catch_decline](articles/F143_fish_catch_decline) |
 | F144 | 水道料金の差は、人口密度と水源でどこまで説明できるか？ | [F144_water_tariff_density](articles/F144_water_tariff_density) |
 | F148 | 会社は「休眠」をはさんでどう移り変わるのか？ | [F148_dormancy_multistate](articles/F148_dormancy_multistate) |
-| F149 | 生存分析を機械学習でやると、何が良くなるのか？ | [F149_ml_survival](articles/F149_ml_survival) |
 | F150 | 季節のパターンそのものは、年々変わっているのか？ | [F150_dynamic_seasonality](articles/F150_dynamic_seasonality) |
 | F151 | 47都道府県の求人倍率の「同じ動き」は、いくつに分けられるか？ | [F151_pref_hierarchical_dfm](articles/F151_pref_hierarchical_dfm) |
 | F153 | 平均でなく「分布」で比べると、地域の差は何に見えるか？ | [F153_distribution_regional](articles/F153_distribution_regional) |
-| F157 | 電力需要の予測を、1年通して運用したらどうなるか？ | [F157_power_forecast_operation](articles/F157_power_forecast_operation) |
-| F158 | 地価の予測モデルは、毎年作り直す必要があるのか？ | [F158_land_price_update](articles/F158_land_price_update) |
 | F159 | 出生数の予測を、毎月の速報で更新すると当たり方は変わるか？ | [F159_births_nowcast](articles/F159_births_nowcast) |
 | F161 | 同じデータで記事を書き直すと、結論はどれだけ変わるか？ | [F161_rewrite_old_articles](articles/F161_rewrite_old_articles) |
 | F163 | 125本の看板記事で、いちばん効いた頑健性チェックは何だったか？ | [F163_robustness_checks_review](articles/F163_robustness_checks_review) |
@@ -682,8 +572,6 @@
 | F170 | 産業の構成比を比べるとき、割合のまま回帰してよいか？ | [F170_compositional_industry_shares](articles/F170_compositional_industry_shares) |
 | F171 | 人口ピラミッドの「形」は、いくつの型に分かれるか？ | [F171_pyramid_shape_fda](articles/F171_pyramid_shape_fda) |
 | F174 | 景気の「局面」は、データから自動で見つけられるか？ | [F174_business_cycle_hmm_multiseries](articles/F174_business_cycle_hmm_multiseries) |
-| F175 | 予測モデルの精度は、どの特徴量の「おかげ」なのか？ | [F175_r2_shapley_decomposition](articles/F175_r2_shapley_decomposition) |
-| F179 | 欠測を埋める方法で、答えはどれだけ変わるか？ | [F179_imputation_by_estimand](articles/F179_imputation_by_estimand) |
 | F180 | 2つの統計の数字は、本当に同じものを測っているか？ | [F180_measurement_agreement](articles/F180_measurement_agreement) |
 | F190 | 暑い夏と寒い冬に、亡くなる人はどれだけ増えるのか？ | [F190_excess_deaths_temperature](articles/F190_excess_deaths_temperature) |
 | F192 | 国債の金利は、何で動いているのか？ | [F192_jgb_yield_curve_pca](articles/F192_jgb_yield_curve_pca) |
@@ -700,7 +588,6 @@
 | F241 | 顧客はどれくらいで離れていくのか？ | [F241_customer_churn_survival](articles/F241_customer_churn_survival) |
 | F245 | 1つの依頼に、1時間でどこまで答えられるか？ | [F245_one_hour_request](articles/F245_one_hour_request) |
 | F250 | 売上が落ちた月に、理由を説明する（業務の再現：架空の会社で） シリーズ③の5本目。F247 の mart を使い、架空の | [F250_sales_drop_explanation_fictional_retail](articles/F250_sales_drop_explanation_fictional_retail) |
-| F252 | 来期の予算のための需要予測（業務の再現：架空の会社で） シリーズ③の7本目。架空の食品スーパー「サンプルマート（架空）」 | [F252_budget_forecast_fictional_retail](articles/F252_budget_forecast_fictional_retail) |
 | F255 | 1年の分析業務を振り返る（業務の再現：架空の会社で） シリーズ③の10本目・最後。架空の食品スーパー「サンプルマート（架 | [F255_year_review_fictional_retail](articles/F255_year_review_fictional_retail) |
 | F259 | 需要予測の外れは、在庫と欠品のどちらに効かせるべきか？ | [F259_forecast_error_inventory_cost](articles/F259_forecast_error_inventory_cost) |
 | F261 | 潜在成長率は、計算の仕方でどれだけ変わるのか？ | [F261_potential_growth_methods](articles/F261_potential_growth_methods) |
@@ -759,24 +646,21 @@
 
 </details>
 
-<details><summary><b>顧客分析・生存分析</b>（66本）</summary>
+<details><summary><b>顧客分析・生存分析</b>（63本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
 | F07 | 新卒は何年目に辞めやすいのか？ | [F07_turnover_survival](articles/F07_turnover_survival) |
-| F28 | 法人は何年続くのか？ | [F28_corporate_survival](articles/F28_corporate_survival) |
 | F79 | 会社の終わり方は「閉鎖」か「合併」か？ | [F79_closure_vs_merger](articles/F79_closure_vs_merger) |
 | F87 | 結婚が減ったのは「時代」のせいか「世代」のせいか？ | [F87_marriage_apc](articles/F87_marriage_apc) |
 | F105 | 閉鎖を数年おきの調査でしか確かめられないと、生存曲線はどこまでずれるか？ | [F105_interval_censoring](articles/F105_interval_censoring) |
 | F106 | 同じ県の会社は、同じように閉鎖しやすいのか？ | [F106_shared_frailty](articles/F106_shared_frailty) |
 | F142 | 森林は、「切れる木」がどれだけ増えたのか？ | [F142_forest_age_harvest](articles/F142_forest_age_harvest) |
 | F148 | 会社は「休眠」をはさんでどう移り変わるのか？ | [F148_dormancy_multistate](articles/F148_dormancy_multistate) |
-| F149 | 生存分析を機械学習でやると、何が良くなるのか？ | [F149_ml_survival](articles/F149_ml_survival) |
 | F241 | 顧客はどれくらいで離れていくのか？ | [F241_customer_churn_survival](articles/F241_customer_churn_survival) |
 | F246 | 分析担当として最初にやること：KPI を決める（業務の再現：架空の会社で） シリーズ③の1本目。架空の食品スーパー「サン | [F246_kpi_definitions_fictional_retail](articles/F246_kpi_definitions_fictional_retail) |
 | F251 | 販促の効果を測る（業務の再現：架空の会社で） シリーズ③の6本目。F247 の mart の架空の食品スーパー「サンプル | [F251_promo_effect_fictional_retail](articles/F251_promo_effect_fictional_retail) |
 | F264 | 自動車の事故率は、高齢化でどこまで説明できるのか？ | [F264_auto_accident_rate_aging](articles/F264_auto_accident_rate_aging) |
-| F279 | RFM で分けた顧客は、その後どう動くのか？ | [F279_rfm_segment_transitions](articles/F279_rfm_segment_transitions) |
 | 286 | 予測モデルは、線形回帰と勾配ブースティングのどちらから始めるか？ | [286_linear_vs_gbm_first](articles/286_linear_vs_gbm_first) |
 | 312 | SQL の NULL は、集計をどれだけ黙ってずらすのか？ | [312_sql_null_aggregation](articles/312_sql_null_aggregation) |
 | 326 | 古いシステムから新しいシステムへ移したデータは、何を照合すれば「同じ」と言えるか？ | [326_migration_reconciliation](articles/326_migration_reconciliation) |
@@ -832,22 +716,18 @@
 
 </details>
 
-<details><summary><b>SQL・データ処理</b>（99本）</summary>
+<details><summary><b>SQL・データ処理</b>（92本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
-| F12 | 公的統計を毎月自動で更新するには？ | [F12_stats_pipeline](articles/F12_stats_pipeline) |
 | F85 | 日本経済の「要」の産業はどれか？ | [F85_io_network](articles/F85_io_network) |
-| F96 | e-Statの数万の統計表から、欲しい表をすぐ探せるか？ | [F96_estat_semantic_search](articles/F96_estat_semantic_search) |
 | F122 | 手法ごとに、どこでつまずいたか？ | [F122_pitfalls_from_logs](articles/F122_pitfalls_from_logs) |
 | F124 | 同じデータを何本の記事で使い回したか？ | [F124_data_lineage_network](articles/F124_data_lineage_network) |
 | F125 | 100本を超えた看板記事で、「見えなかった」はどれくらいあったか？ | [F125_null_results_review](articles/F125_null_results_review) |
 | F162 | 公的データは「API で取れる」のか？ | [F162_data_access_map](articles/F162_data_access_map) |
 | F163 | 125本の看板記事で、いちばん効いた頑健性チェックは何だったか？ | [F163_robustness_checks_review](articles/F163_robustness_checks_review) |
-| F176 | 白書の文章は、年々読みやすくなったのか？ | [F176_whitepaper_readability](articles/F176_whitepaper_readability) |
 | F181 | 家が建つ数は、金利と人口のどちらで決まるのか？ | [F181_housing_starts_rates_population](articles/F181_housing_starts_rates_population) |
 | F231 | 売上の予測は、何か月先まで役に立つのか？ | [F231_sales_forecast_horizon](articles/F231_sales_forecast_horizon) |
-| F232 | 店の種類ごとの予測と全体の予測を、どうそろえるか？ | [F232_hierarchical_retail_reconciliation](articles/F232_hierarchical_retail_reconciliation) |
 | F233 | 祝日・連休・天気は、売上をどれだけ動かすのか？ | [F233_calendar_weather_sales](articles/F233_calendar_weather_sales) |
 | F234 | 価格を1%上げると、買われる量は何%減るのか？ | [F234_price_elasticity_practice](articles/F234_price_elasticity_practice) |
 | F235 | 在庫はどれだけ持てばよいのか？ | [F235_inventory_newsvendor](articles/F235_inventory_newsvendor) |
@@ -867,9 +747,6 @@
 | F249 | ダッシュボードを作る（業務の再現：架空の会社で） シリーズ③の続き。F246 の KPI 定義 v1 と F247 の  | [F249_powerbi_dashboard_fictional_retail](articles/F249_powerbi_dashboard_fictional_retail) |
 | F250 | 売上が落ちた月に、理由を説明する（業務の再現：架空の会社で） シリーズ③の5本目。F247 の mart を使い、架空の | [F250_sales_drop_explanation_fictional_retail](articles/F250_sales_drop_explanation_fictional_retail) |
 | F251 | 販促の効果を測る（業務の再現：架空の会社で） シリーズ③の6本目。F247 の mart の架空の食品スーパー「サンプル | [F251_promo_effect_fictional_retail](articles/F251_promo_effect_fictional_retail) |
-| F252 | 来期の予算のための需要予測（業務の再現：架空の会社で） シリーズ③の7本目。架空の食品スーパー「サンプルマート（架空）」 | [F252_budget_forecast_fictional_retail](articles/F252_budget_forecast_fictional_retail) |
-| F253 | データの品質を毎月チェックする（業務の再現：架空の会社で） シリーズ③の8本目。架空の食品スーパー「サンプルマート（架空 | [F253_monthly_data_quality_checks_fictional_retail](articles/F253_monthly_data_quality_checks_fictional_retail) |
-| F254 | 分析を引き継げる形にする（業務の再現：架空の会社で） シリーズ③の9本目。F246〜F251（コミット e5e9800） | [F254_handover_package_fictional_retail](articles/F254_handover_package_fictional_retail) |
 | F259 | 需要予測の外れは、在庫と欠品のどちらに効かせるべきか？ | [F259_forecast_error_inventory_cost](articles/F259_forecast_error_inventory_cost) |
 | F271 | 見られるダッシュボードと、見られないダッシュボードの違いは何か？ | [F271_dashboard_answer_cost](articles/F271_dashboard_answer_cost) |
 | F275 | 集計の SQL は、どう書けば直しやすく、直し忘れに気づけるか？ | [F275_sql_change_requests](articles/F275_sql_change_requests) |
@@ -957,7 +834,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（135本）</summary>
+<details><summary><b>集計の定義・KPI</b>（128本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -980,17 +857,12 @@
 | F135 | 雨の日は、小売の売上をどれだけ動かすのか？ | [F135_rain_retail](articles/F135_rain_retail) |
 | F136 | 鉄道の利用は、コロナ前にどこまで戻ったのか？ | [F136_rail_covid_recovery](articles/F136_rail_covid_recovery) |
 | F137 | 郵便物は、いつ半分になるのか？ | [F137_postal_decay](articles/F137_postal_decay) |
-| F145 | ごみの量は、有料化のあとに減ったのか？ | [F145_waste_fee_did](articles/F145_waste_fee_did) |
 | F150 | 季節のパターンそのものは、年々変わっているのか？ | [F150_dynamic_seasonality](articles/F150_dynamic_seasonality) |
 | F151 | 47都道府県の求人倍率の「同じ動き」は、いくつに分けられるか？ | [F151_pref_hierarchical_dfm](articles/F151_pref_hierarchical_dfm) |
-| F152 | 統計の速報は、確報でどれだけ直されるのか？ | [F152_revision_news_noise](articles/F152_revision_news_noise) |
 | F155 | 分析の手順を変えると、答えはどこまで変わるか？ | [F155_multiverse](articles/F155_multiverse) |
-| F158 | 地価の予測モデルは、毎年作り直す必要があるのか？ | [F158_land_price_update](articles/F158_land_price_update) |
 | F161 | 同じデータで記事を書き直すと、結論はどれだけ変わるか？ | [F161_rewrite_old_articles](articles/F161_rewrite_old_articles) |
 | F164 | 図をどう作ると、読まれ方が変わったか？ | [F164_figures_and_reads](articles/F164_figures_and_reads) |
-| F169 | 円安と株高は、大きく動く日にだけ一緒に動くのか？ | [F169_yen_stock_copula](articles/F169_yen_stock_copula) |
 | F170 | 産業の構成比を比べるとき、割合のまま回帰してよいか？ | [F170_compositional_industry_shares](articles/F170_compositional_industry_shares) |
-| F176 | 白書の文章は、年々読みやすくなったのか？ | [F176_whitepaper_readability](articles/F176_whitepaper_readability) |
 | F180 | 2つの統計の数字は、本当に同じものを測っているか？ | [F180_measurement_agreement](articles/F180_measurement_agreement) |
 | F181 | 家が建つ数は、金利と人口のどちらで決まるのか？ | [F181_housing_starts_rates_population](articles/F181_housing_starts_rates_population) |
 | F183 | 車を持つ世帯は、どこで減りはじめたのか？ | [F183_car_ownership_change_points](articles/F183_car_ownership_change_points) |
@@ -1018,8 +890,6 @@
 | F249 | ダッシュボードを作る（業務の再現：架空の会社で） シリーズ③の続き。F246 の KPI 定義 v1 と F247 の  | [F249_powerbi_dashboard_fictional_retail](articles/F249_powerbi_dashboard_fictional_retail) |
 | F250 | 売上が落ちた月に、理由を説明する（業務の再現：架空の会社で） シリーズ③の5本目。F247 の mart を使い、架空の | [F250_sales_drop_explanation_fictional_retail](articles/F250_sales_drop_explanation_fictional_retail) |
 | F251 | 販促の効果を測る（業務の再現：架空の会社で） シリーズ③の6本目。F247 の mart の架空の食品スーパー「サンプル | [F251_promo_effect_fictional_retail](articles/F251_promo_effect_fictional_retail) |
-| F252 | 来期の予算のための需要予測（業務の再現：架空の会社で） シリーズ③の7本目。架空の食品スーパー「サンプルマート（架空）」 | [F252_budget_forecast_fictional_retail](articles/F252_budget_forecast_fictional_retail) |
-| F253 | データの品質を毎月チェックする（業務の再現：架空の会社で） シリーズ③の8本目。架空の食品スーパー「サンプルマート（架空 | [F253_monthly_data_quality_checks_fictional_retail](articles/F253_monthly_data_quality_checks_fictional_retail) |
 | F256 | 自然災害の保険金は、この30年でどれだけ大きくなったのか？ | [F256_natural_disaster_insurance_payouts](articles/F256_natural_disaster_insurance_payouts) |
 | F257 | 労働経済白書の「賃上げが広がった」は、どのデータでどこまで言えるのか？ | [F257_wage_spillover_whitepaper](articles/F257_wage_spillover_whitepaper) |
 | F258 | 「実質賃金○か月連続マイナス」は、どの物価で割るかで変わるのか？ | [F258_real_wage_deflator_streak](articles/F258_real_wage_deflator_streak) |
@@ -1099,18 +969,15 @@
 
 </details>
 
-<details><summary><b>可視化・報告・BI</b>（45本）</summary>
+<details><summary><b>可視化・報告・BI</b>（41本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
-| F08 | 1,740市区町村を62の指標で分けると何タイプか？ | [F08_municipal_segments](articles/F08_municipal_segments) |
 | F44 | 出生率のトレンドはいつ折れたのか？ | [F44_structural_breaks](articles/F44_structural_breaks) |
 | F70 | 同じ数字でも、グラフの見せ方で印象はどこまで変わるのか？ | [F70_chart_honesty](articles/F70_chart_honesty) |
 | F87 | 結婚が減ったのは「時代」のせいか「世代」のせいか？ | [F87_marriage_apc](articles/F87_marriage_apc) |
 | F89 | 最低賃金の効果、これまでの推定をまとめると？ | [F89_minwage_meta](articles/F89_minwage_meta) |
-| F107 | 市区町村のつながり（隣接・通勤）を使うと、予測は良くなるか？ | [F107_gcn_municipal](articles/F107_gcn_municipal) |
 | F124 | 同じデータを何本の記事で使い回したか？ | [F124_data_lineage_network](articles/F124_data_lineage_network) |
-| F130 | 介護の認定率の地域差は、高齢化だけで説明できるか？ | [F130_care_certification_shrinkage](articles/F130_care_certification_shrinkage) |
 | F131 | 大学に進む人が増えると、地元に残る若者は減るのか？ | [F131_univ_youth_migration](articles/F131_univ_youth_migration) |
 | F141 | 特許の出願は、どの分野で地方に広がったのか？ | [F141_ip_regional_concentration](articles/F141_ip_regional_concentration) |
 | F143 | 漁獲量の減り方は、魚の種類でどう違うのか？ | [F143_fish_catch_decline](articles/F143_fish_catch_decline) |
@@ -1120,7 +987,6 @@
 | F188 | 労働災害は、どの産業で減り、どこで減らなかったのか？ | [F188_occupational_injury_by_industry](articles/F188_occupational_injury_by_industry) |
 | F206 | 予測は、エリアと合計をどうそろえ、どう見せ、1年回すと何が起きるのか？ | [F206_power_forecast_practice_part2](articles/F206_power_forecast_practice_part2) |
 | F231 | 売上の予測は、何か月先まで役に立つのか？ | [F231_sales_forecast_horizon](articles/F231_sales_forecast_horizon) |
-| F232 | 店の種類ごとの予測と全体の予測を、どうそろえるか？ | [F232_hierarchical_retail_reconciliation](articles/F232_hierarchical_retail_reconciliation) |
 | F233 | 祝日・連休・天気は、売上をどれだけ動かすのか？ | [F233_calendar_weather_sales](articles/F233_calendar_weather_sales) |
 | F234 | 価格を1%上げると、買われる量は何%減るのか？ | [F234_price_elasticity_practice](articles/F234_price_elasticity_practice) |
 | F235 | 在庫はどれだけ持てばよいのか？ | [F235_inventory_newsvendor](articles/F235_inventory_newsvendor) |
@@ -1151,15 +1017,13 @@
 
 </details>
 
-<details><summary><b>保険数理・リスク</b>（75本）</summary>
+<details><summary><b>保険数理・リスク</b>（73本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
-| F27 | 市区町村の死亡率の地図は、小さな町ほどぶれる。隣の町の情報を借りる空間ベイズ（BYM2）で描き直すと、地域差の9割以上は | [F27_disease_map_bym2](articles/F27_disease_map_bym2) |
 | F49 | 平均寿命の県の差は、何歳の死亡で生まれているのか？ | [F49_life_expectancy_decomposition](articles/F49_life_expectancy_decomposition) |
 | F61 | 小さい町の「ランキング1位」は、なぜ毎回入れ替わるのか？ | [F61_funnel_eb_rankings](articles/F61_funnel_eb_rankings) |
 | F62 | 死亡率は10年で上がったのか、下がったのか？ | [F62_simpson_standardization](articles/F62_simpson_standardization) |
-| F130 | 介護の認定率の地域差は、高齢化だけで説明できるか？ | [F130_care_certification_shrinkage](articles/F130_care_certification_shrinkage) |
 | F241 | 顧客はどれくらいで離れていくのか？ | [F241_customer_churn_survival](articles/F241_customer_churn_survival) |
 | F256 | 自然災害の保険金は、この30年でどれだけ大きくなったのか？ | [F256_natural_disaster_insurance_payouts](articles/F256_natural_disaster_insurance_payouts) |
 | F260 | 「100年に1度の損害」は、どの分布を仮定するかでいくら変わるのか？ | [F260_loss_distribution_return_level](articles/F260_loss_distribution_return_level) |
@@ -1233,31 +1097,16 @@
 
 </details>
 
-<details><summary><b>テキスト・ネットワーク・空間</b>（33本）</summary>
+<details><summary><b>テキスト・ネットワーク・空間</b>（18本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
-| F03 | 地価を決めているのは何か？ | [F03_land_price_ml](articles/F03_land_price_ml) |
 | F06 | 高齢化は地図の上で固まっているか？ | [F06_aging_spatial](articles/F06_aging_spatial) |
-| F09 | 国会で「賃上げ」はいつから語られるようになったのか？ | [F09_diet_text](articles/F09_diet_text) |
 | F10 | 人の流れで見ると、日本はいくつの「圏」に分かれるか？ | [F10_mobility_network](articles/F10_mobility_network) |
-| F18 | 景気は今どうなのか？ | [F18_nowcast_dfm](articles/F18_nowcast_dfm) |
-| F20 | 出生率は隣の町と似るのか？ | [F20_tfr_spatial_regression](articles/F20_tfr_spatial_regression) |
-| F25 | 経済白書41年分をAIの「文埋め込み」で読むと、政府の関心はどう移ったか？ | [F25_whitepaper_embeddings](articles/F25_whitepaper_embeddings) |
-| F27 | 市区町村の死亡率の地図は、小さな町ほどぶれる。隣の町の情報を借りる空間ベイズ（BYM2）で描き直すと、地域差の9割以上は | [F27_disease_map_bym2](articles/F27_disease_map_bym2) |
-| F29 | 北陸新幹線の金沢延伸で、石川県の宿泊客はどれだけ増えたか？ | [F29_shinkansen_sdid](articles/F29_shinkansen_sdid) |
 | F52 | インフルエンザは、どの県からどの県へ広がるのか？ | [F52_influenza_spread](articles/F52_influenza_spread) |
-| F53 | 日銀の声明文は、いつ「強気」から「弱気」に変わったか？ | [F53_boj_statement_tone](articles/F53_boj_statement_tone) |
 | F66 | 統計の推計方法が変わると、数字はどれだけ動くのか？ | [F66_series_breaks](articles/F66_series_breaks) |
-| F73 | 街の人の「景気の声」は、数字より先に動くか？ | [F73_watcher_text_tone](articles/F73_watcher_text_tone) |
-| F74 | 観測点のない場所の気温は、どこまで当てられるか？ | [F74_temperature_kriging](articles/F74_temperature_kriging) |
-| F75 | 地価の地図を「なめらかに」描くと、どこまで当たるか？ | [F75_gp_land_price](articles/F75_gp_land_price) |
 | F85 | 日本経済の「要」の産業はどれか？ | [F85_io_network](articles/F85_io_network) |
 | F95 | 新幹線の効果は、隣の県にもこぼれたのか？ | [F95_shinkansen_spillover](articles/F95_shinkansen_spillover) |
-| F96 | e-Statの数万の統計表から、欲しい表をすぐ探せるか？ | [F96_estat_semantic_search](articles/F96_estat_semantic_search) |
-| F100 | 同じ問いを5つの手法で分析すると、答えはそろうのか？ | [F100_five_methods_one_question](articles/F100_five_methods_one_question) |
-| F107 | 市区町村のつながり（隣接・通勤）を使うと、予測は良くなるか？ | [F107_gcn_municipal](articles/F107_gcn_municipal) |
-| F109 | どのデータを集めれば、予測は早く良くなるか？ | [F109_active_learning_land_price](articles/F109_active_learning_land_price) |
 | F122 | 手法ごとに、どこでつまずいたか？ | [F122_pitfalls_from_logs](articles/F122_pitfalls_from_logs) |
 | F123 | 「場所で分けて確かめる」と、記事の結論は変わったか？ | [F123_spatial_block_cv_review](articles/F123_spatial_block_cv_review) |
 | F124 | 同じデータを何本の記事で使い回したか？ | [F124_data_lineage_network](articles/F124_data_lineage_network) |
@@ -1273,17 +1122,13 @@
 
 </details>
 
-<details><summary><b>再現性・振り返り</b>（100本）</summary>
+<details><summary><b>再現性・振り返り</b>（91本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
 | F42 | 季節調整を自分でやると、公表値と同じになるか？ | [F42_seasonal_adjustment](articles/F42_seasonal_adjustment) |
 | F45 | 将来人口の推計は、自分で再現できるか？ | [F45_population_projection](articles/F45_population_projection) |
-| F47 | 都市ごとの「食の好み」を、行列分解で取り出せるか？ | [F47_food_nmf](articles/F47_food_nmf) |
-| F57 | インフルエンザの流行は、SIRモデルで再現できるか？ | [F57_flu_sir](articles/F57_flu_sir) |
-| F111 | 人口が減る町で、店はいつ消えるのか？ | [F111_shop_abm](articles/F111_shop_abm) |
 | F118 | 「保育所と出生率」に、これまでの記事はどう答えたか？ | [F118_childcare_fertility_synthesis](articles/F118_childcare_fertility_synthesis) |
-| F119 | 予測した記事は、その後どれだけ当たったか？ | [F119_forecast_scorecard](articles/F119_forecast_scorecard) |
 | F120 | 2025年国勢調査で、記事の結論は変わったか？ | [F120_census2025_update](articles/F120_census2025_update) |
 | F121 | 「最低賃金と雇用」に、4本の記事はどう答えたか？ | [F121_minwage_methods_review](articles/F121_minwage_methods_review) |
 | F122 | 手法ごとに、どこでつまずいたか？ | [F122_pitfalls_from_logs](articles/F122_pitfalls_from_logs) |
@@ -1293,7 +1138,6 @@
 | F146 | 統計の秘匿をノイズで置き換えると、分析の答えはどれだけ変わるか？ | [F146_dp_noise_vs_suppression](articles/F146_dp_noise_vs_suppression) |
 | F147 | 集計表から「それらしい個票」を作ると、元の分析を再現できるか？ | [F147_synthetic_from_tables](articles/F147_synthetic_from_tables) |
 | F154 | 推定の「不確かさ」は、図の形で何が読み取れるかが変わるのか？ | [F154_uncertainty_viz](articles/F154_uncertainty_viz) |
-| F157 | 電力需要の予測を、1年通して運用したらどうなるか？ | [F157_power_forecast_operation](articles/F157_power_forecast_operation) |
 | F159 | 出生数の予測を、毎月の速報で更新すると当たり方は変わるか？ | [F159_births_nowcast](articles/F159_births_nowcast) |
 | F161 | 同じデータで記事を書き直すと、結論はどれだけ変わるか？ | [F161_rewrite_old_articles](articles/F161_rewrite_old_articles) |
 | F162 | 公的データは「API で取れる」のか？ | [F162_data_access_map](articles/F162_data_access_map) |
@@ -1310,9 +1154,6 @@
 | F249 | ダッシュボードを作る（業務の再現：架空の会社で） シリーズ③の続き。F246 の KPI 定義 v1 と F247 の  | [F249_powerbi_dashboard_fictional_retail](articles/F249_powerbi_dashboard_fictional_retail) |
 | F250 | 売上が落ちた月に、理由を説明する（業務の再現：架空の会社で） シリーズ③の5本目。F247 の mart を使い、架空の | [F250_sales_drop_explanation_fictional_retail](articles/F250_sales_drop_explanation_fictional_retail) |
 | F251 | 販促の効果を測る（業務の再現：架空の会社で） シリーズ③の6本目。F247 の mart の架空の食品スーパー「サンプル | [F251_promo_effect_fictional_retail](articles/F251_promo_effect_fictional_retail) |
-| F252 | 来期の予算のための需要予測（業務の再現：架空の会社で） シリーズ③の7本目。架空の食品スーパー「サンプルマート（架空）」 | [F252_budget_forecast_fictional_retail](articles/F252_budget_forecast_fictional_retail) |
-| F253 | データの品質を毎月チェックする（業務の再現：架空の会社で） シリーズ③の8本目。架空の食品スーパー「サンプルマート（架空 | [F253_monthly_data_quality_checks_fictional_retail](articles/F253_monthly_data_quality_checks_fictional_retail) |
-| F254 | 分析を引き継げる形にする（業務の再現：架空の会社で） シリーズ③の9本目。F246〜F251（コミット e5e9800） | [F254_handover_package_fictional_retail](articles/F254_handover_package_fictional_retail) |
 | F255 | 1年の分析業務を振り返る（業務の再現：架空の会社で） シリーズ③の10本目・最後。架空の食品スーパー「サンプルマート（架 | [F255_year_review_fictional_retail](articles/F255_year_review_fictional_retail) |
 | F256 | 自然災害の保険金は、この30年でどれだけ大きくなったのか？ | [F256_natural_disaster_insurance_payouts](articles/F256_natural_disaster_insurance_payouts) |
 | F260 | 「100年に1度の損害」は、どの分布を仮定するかでいくら変わるのか？ | [F260_loss_distribution_return_level](articles/F260_loss_distribution_return_level) |
@@ -1333,7 +1174,6 @@
 | F276 | 地震保険の付帯率は、地震のあとにどれだけ上がって戻るのか？ | [F276_earthquake_insurance_after_quakes](articles/F276_earthquake_insurance_after_quakes) |
 | F277 | 最低賃金の審議会資料にある指標で、上げ幅はどこまで説明できるか？ | [F277_minimum_wage_council_indicators](articles/F277_minimum_wage_council_indicators) |
 | F278 | 「空き家が過去最多」は、住宅の数が増えた分を除くとどうか？ | [F278_vacant_record_stock_vs_rate](articles/F278_vacant_record_stock_vs_rate) |
-| F279 | RFM で分けた顧客は、その後どう動くのか？ | [F279_rfm_segment_transitions](articles/F279_rfm_segment_transitions) |
 | F280 | 医療費の伸びは、年齢・回数・日数・1日当たりのどれで決まっているのか？ | [F280_medical_cost_three_elements](articles/F280_medical_cost_three_elements) |
 | F281 | 食料自給率の目標と実際の差は、どこから来ているのか？ | [F281_food_self_sufficiency_target_gap](articles/F281_food_self_sufficiency_target_gap) |
 | F282 | 「円安で輸出が増えた」は、数量と価格に分けるとどうか？ | [F282_yen_exports_quantity_price](articles/F282_yen_exports_quantity_price) |
@@ -1380,12 +1220,11 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（329本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（312本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
 | F21 | 公的統計の「いつもと違う動き」を自動で見つけられるか？ | [F21_anomaly_detection](articles/F21_anomaly_detection) |
-| F23 | 救急車をどこに置けば、到着が早くなるか？ | [F23_ambulance_location](articles/F23_ambulance_location) |
 | F38 | 観光客が1兆円使うと、日本全体の生産はいくら増えるのか？ | [F38_input_output_tourism](articles/F38_input_output_tourism) |
 | F40 | 所得の格差は「県の間」と「県の中」のどちらにあるか？ | [F40_inequality_decomposition](articles/F40_inequality_decomposition) |
 | F58 | 合計特殊出生率は、年齢のどこで下がったのか？ | [F58_tfr_age_tempo](articles/F58_tfr_age_tempo) |
@@ -1429,27 +1268,13 @@
 | 054 | 東京都の外国人は10年で75%増。区市ごとの伸びの差は「国籍構成」ではなく、ほぼ「地域独自」だった | [054_tokyo_foreign_growth](articles/054_tokyo_foreign_growth) |
 | 057 | 暑さ指数31の日は、25の日の約7倍。熱中症の救急搬送を、6都市10年分の日別データで調べた | [057_wbgt_heatstroke](articles/057_wbgt_heatstroke) |
 | 058 | 「夏の初めほど熱中症になりやすい」はデータで見えるか？ | [058_heatstroke_season](articles/058_heatstroke_season) |
-| 059 | 交通事故29万件で「死亡事故になりやすい条件」を調べた。単独事故・歩行者・深夜・カーブで高かった | [059_fatal_accidents](articles/059_fatal_accidents) |
-| 060 | 人身事故は6年で25%減。それでも「75歳以上」と「自転車」が第1当事者の事故だけは増えていた | [060_accidents_change](articles/060_accidents_change) |
-| 061 | 大都市圏の中古マンションは4年で約3割上昇。品質をそろえて比べると、戸建ての伸びはその半分ほどだった | [061_house_price_index](articles/061_house_price_index) |
-| 062 | 同じ条件の中古マンションでも、レインズの成約価格は登記ベースの取引価格より約1割低かった | [062_contract_vs_transaction](articles/062_contract_vs_transaction) |
-| 063 | 訪問介護の事業所は減っていなかった。ただ2024年の報酬改定のあと、撤退のしやすさは通所介護と比べて1.4倍になっていた | [063_home_care_entry_exit](articles/063_home_care_entry_exit) |
-| 064 | 訪問介護の事業所が1つもない市区町村は、5年半で46から83に増えていた | [064_home_care_access](articles/064_home_care_access) |
-| 065 | Mが1大きい地震は約9分の1しか起きない。ただし小さな地震まで数えると、この法則は崩れて見える | [065_earthquake_bvalue](articles/065_earthquake_bvalue) |
-| 066 | 余震はほぼ「経過時間に反比例」して減る。東北・熊本・能登の3つの地震で、減り方の指数はどれも1.03〜1.08だった | [066_aftershock_omori](articles/066_aftershock_omori) |
 | 067 | 食中毒は25年でほぼ半減。腸炎ビブリオやサルモネラは激減し、代わりにアニサキスが増え、ノロウイルスは2025年に戻ってき | [067_food_poisoning_trend](articles/067_food_poisoning_trend) |
 | 068 | 食中毒の患者の4分の1は、上位1%の大きな事件から。仕出屋とノロウイルスの事件が大きくなりやすかった | [068_food_poisoning_size](articles/068_food_poisoning_size) |
 | 070 | 台風が最も発達する場所は北へ移ったか。1980年以降の全台風では10年で0.4度北上、強い台風に限るとはっきりしなかった | [070_typhoon_latitude](articles/070_typhoon_latitude) |
-| 071 | 日曜に開いている診療所は8%。平日夜7時以降の診療は全国で4分の1、近畿では5〜7割だった | [071_clinic_hours](articles/071_clinic_hours) |
-| 072 | 薬局の半分は、医療機関から50m以内にあった。産婦人科を掲げる医療機関が掲載されていない市区町村は864 | [072_pharmacy_distance](articles/072_pharmacy_distance) |
-| 073 | 工場などから出る化学物質の排出は、24年で3分の1になっていた。いちばん効いたのは、続けて届け出ている事業所の削減だった | [073_prtr_decline](articles/073_prtr_decline) |
-| 074 | 化学物質の排出の半分は、届け出ている事業所の上位1%から出ていた。この集中は24年間ほとんど変わっていない | [074_prtr_concentration](articles/074_prtr_concentration) |
 | 076 | とのさまがえるを記録した地点は9割減。ほかの生き物の減少の多くは、観測地点そのものが減った分だった | [076_phenology_animals](articles/076_phenology_animals) |
 | 077 | インフルエンザの流行の山は3シーズン続けて年内に。伝染性紅斑は2025年、マイコプラズマ肺炎は2024年に大きな流行があ | [077_infectious_peaks](articles/077_infectious_peaks) |
 | 078 | インフルエンザの流行は毎シーズン沖縄が先行。本土での広がり方は年ごとに違い、手足口病は南から北へ進んでいた | [078_infectious_onset](articles/078_infectious_onset) |
 | 080 | 引っ越しが距離に左右される度合いは1970年までに弱まり、その後50年ほぼ同じ。東京圏へ向かう割合は西日本や中部で上がり | [080_migration_gravity](articles/080_migration_gravity) |
-| 081 | 在留外国人は13年で2倍の412万人に。増え方が大きかったのは、北海道・九州・沖縄だった | [081_foreign_residents_growth](articles/081_foreign_residents_growth) |
-| 082 | 在留外国人が人口の1割以上の市区町村は31。技能実習・特定技能は地方に、留学は東京に多く住んでいた | [082_foreign_residents_where](articles/082_foreign_residents_where) |
 | 083 | 1人1日のごみは18年で23%減った。でもリサイクル率は2010年度の20.8%をピークに下がっていた | [083_waste_recycling](articles/083_waste_recycling) |
 | 084 | 町村ほど家庭ごみが多く、都市ほど事業系ごみが多い。合計はほぼ同じで、処理費は1トン6.4万円に上がっていた | [084_waste_cost](articles/084_waste_cost) |
 | 088 | ボーナスは基本給の3倍振れる。2009年は製造業、2020年は宿泊・飲食と娯楽で大きく減った | [088_bonus_volatility](articles/088_bonus_volatility) |
@@ -1463,8 +1288,6 @@
 | 102 | 食料自給率73%→38%の低下、半分強は「米を食べなくなった」など食べるものの変化だった | [102_food_self_sufficiency](articles/102_food_self_sufficiency) |
 | 103 | 大人の1日の歩数は20年で男性7%・女性12%減った。減ったのは20〜60代で、70歳以上はほぼ横ばい | [103_daily_steps](articles/103_daily_steps) |
 | 104 | 睡眠6時間未満は50代で5割に。朝食を抜く40〜50代男性は、若いころから抜いていた世代だった | [104_sleep_breakfast](articles/104_sleep_breakfast) |
-| 105 | 牛乳1Lは那覇364円・長岡214円。同じ品目の値段の都市差は、16年でははっきり縮まっていなかった | [105_price_city_gap](articles/105_price_city_gap) |
-| 106 | 値上げは「幅」より「回数」が増えた。外食の値上げ頻度は2.7倍、牛乳は98.8%の市が同じ月に上げた | [106_price_increase_sync](articles/106_price_increase_sync) |
 | 108 | 宿泊者数の回復、日本人は29都道府県でまだ2019年以下。外国人は1.6倍でも、京都・東北は日本人が戻らない | [108_accommodation_recovery](articles/108_accommodation_recovery) |
 | 109 | 外国人の入国は羽田と福岡が2019年の1.7倍に。成田の割合は38%から28%へ下がった | [109_immigration_airports](articles/109_immigration_airports) |
 | 111 | 米の収量は涼しい夏に大きく落ちた。暑い夏ではほとんど落ちないが、2000年以降は豊作にもならなくなった | [111_rice_yield_summer](articles/111_rice_yield_summer) |
@@ -1730,22 +1553,19 @@
 | 保険 | 74 |
 | 公的統計・地域・人口 | 279 |
 
-<details><summary><b>小売・店舗</b>（172本）</summary>
+<details><summary><b>小売・店舗</b>（165本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
 | F34 | 同じお金で、どの市町村が多くのサービスを出しているか？ | [F34_municipal_efficiency](articles/F34_municipal_efficiency) |
-| F47 | 都市ごとの「食の好み」を、行列分解で取り出せるか？ | [F47_food_nmf](articles/F47_food_nmf) |
 | F48 | ガソリンが10%上がると、買う量は何%減るか？ | [F48_gasoline_elasticity](articles/F48_gasoline_elasticity) |
 | F103 | 電力需要や物価の「長い記憶」は、どれくらい続くか？ | [F103_long_memory](articles/F103_long_memory) |
-| F111 | 人口が減る町で、店はいつ消えるのか？ | [F111_shop_abm](articles/F111_shop_abm) |
 | F113 | 物価指数の作り方で、インフレ率はどれだけ変わるか？ | [F113_price_index_formulas](articles/F113_price_index_formulas) |
 | F133 | 輸出先は、距離と経済規模でどこまで決まるのか？ | [F133_export_gravity](articles/F133_export_gravity) |
 | F135 | 雨の日は、小売の売上をどれだけ動かすのか？ | [F135_rain_retail](articles/F135_rain_retail) |
 | F209 | この5年の値上がりは、どの品目から来て、誰に重く、家計は何を減らしたのか？ | [F209_prices_household_series_part1](articles/F209_prices_household_series_part1) |
 | F210 | 円安は品目の値段にどれだけ時間をかけて届き、物価の見通しは家計と企業でどれだけ違うのか？ | [F210_prices_household_series_part2](articles/F210_prices_household_series_part2) |
 | F231 | 売上の予測は、何か月先まで役に立つのか？ | [F231_sales_forecast_horizon](articles/F231_sales_forecast_horizon) |
-| F232 | 店の種類ごとの予測と全体の予測を、どうそろえるか？ | [F232_hierarchical_retail_reconciliation](articles/F232_hierarchical_retail_reconciliation) |
 | F233 | 祝日・連休・天気は、売上をどれだけ動かすのか？ | [F233_calendar_weather_sales](articles/F233_calendar_weather_sales) |
 | F234 | 価格を1%上げると、買われる量は何%減るのか？ | [F234_price_elasticity_practice](articles/F234_price_elasticity_practice) |
 | F235 | 在庫はどれだけ持てばよいのか？ | [F235_inventory_newsvendor](articles/F235_inventory_newsvendor) |
@@ -1759,9 +1579,6 @@
 | F249 | ダッシュボードを作る（業務の再現：架空の会社で） シリーズ③の続き。F246 の KPI 定義 v1 と F247 の  | [F249_powerbi_dashboard_fictional_retail](articles/F249_powerbi_dashboard_fictional_retail) |
 | F250 | 売上が落ちた月に、理由を説明する（業務の再現：架空の会社で） シリーズ③の5本目。F247 の mart を使い、架空の | [F250_sales_drop_explanation_fictional_retail](articles/F250_sales_drop_explanation_fictional_retail) |
 | F251 | 販促の効果を測る（業務の再現：架空の会社で） シリーズ③の6本目。F247 の mart の架空の食品スーパー「サンプル | [F251_promo_effect_fictional_retail](articles/F251_promo_effect_fictional_retail) |
-| F252 | 来期の予算のための需要予測（業務の再現：架空の会社で） シリーズ③の7本目。架空の食品スーパー「サンプルマート（架空）」 | [F252_budget_forecast_fictional_retail](articles/F252_budget_forecast_fictional_retail) |
-| F253 | データの品質を毎月チェックする（業務の再現：架空の会社で） シリーズ③の8本目。架空の食品スーパー「サンプルマート（架空 | [F253_monthly_data_quality_checks_fictional_retail](articles/F253_monthly_data_quality_checks_fictional_retail) |
-| F254 | 分析を引き継げる形にする（業務の再現：架空の会社で） シリーズ③の9本目。F246〜F251（コミット e5e9800） | [F254_handover_package_fictional_retail](articles/F254_handover_package_fictional_retail) |
 | F255 | 1年の分析業務を振り返る（業務の再現：架空の会社で） シリーズ③の10本目・最後。架空の食品スーパー「サンプルマート（架 | [F255_year_review_fictional_retail](articles/F255_year_review_fictional_retail) |
 | F259 | 需要予測の外れは、在庫と欠品のどちらに効かせるべきか？ | [F259_forecast_error_inventory_cost](articles/F259_forecast_error_inventory_cost) |
 | F263 | 比べる相手がないとき、何を対照にするか？ | [F263_control_choice_nationwide_policy](articles/F263_control_choice_nationwide_policy) |
@@ -1777,7 +1594,6 @@
 | 032 | 人口が2倍の街には、飲食店も2倍あるか？ | [032_scaling_law](articles/032_scaling_law) |
 | 097 | ドラッグストアの売上は11年で約1.9倍。伸びの中心は食品で、売上の3分の1を超えた | [097_drugstore](articles/097_drugstore) |
 | 098 | 2019年より売上が多いのはスーパーやドラッグストア。でもコロナ前の伸び方には、コンビニとドラッグストアが届いていなかっ | [098_retail_recovery](articles/098_retail_recovery) |
-| 105 | 牛乳1Lは那覇364円・長岡214円。同じ品目の値段の都市差は、16年でははっきり縮まっていなかった | [105_price_city_gap](articles/105_price_city_gap) |
 | 142 | エアコンは27年、薄型テレビは7年で広がった。家電と車の普及率のS字と、ピーク後に下がった品目 | [142_durable_goods](articles/142_durable_goods) |
 | 156 | ネット販売の売上比率が高いのは航空運輸業の32%。全体では売上の1.2%で、電子商取引をする企業は4%のままだった | [156_ec_sales_by_industry](articles/156_ec_sales_by_industry) |
 | 158 | サービス産業の売上は2023年3月にコロナ前を回復。宿泊業は2019年の118%まで伸びたが、飲食店は85%のままだった | [158_service_recovery](articles/158_service_recovery) |
@@ -1909,7 +1725,7 @@
 
 </details>
 
-<details><summary><b>EC・会員・Web</b>（94本）</summary>
+<details><summary><b>EC・会員・Web</b>（92本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1919,7 +1735,6 @@
 | F141 | 特許の出願は、どの分野で地方に広がったのか？ | [F141_ip_regional_concentration](articles/F141_ip_regional_concentration) |
 | F162 | 公的データは「API で取れる」のか？ | [F162_data_access_map](articles/F162_data_access_map) |
 | F164 | 図をどう作ると、読まれ方が変わったか？ | [F164_figures_and_reads](articles/F164_figures_and_reads) |
-| F176 | 白書の文章は、年々読みやすくなったのか？ | [F176_whitepaper_readability](articles/F176_whitepaper_readability) |
 | F183 | 車を持つ世帯は、どこで減りはじめたのか？ | [F183_car_ownership_change_points](articles/F183_car_ownership_change_points) |
 | F185 | 宅配便の個数は、どこまで通販で説明できるのか？ | [F185_parcels_online_shopping](articles/F185_parcels_online_shopping) |
 | F236 | A/B テストは、何人集めれば「差」が分かるのか？ | [F236_ab_test_sample_size](articles/F236_ab_test_sample_size) |
@@ -1934,7 +1749,6 @@
 | F251 | 販促の効果を測る（業務の再現：架空の会社で） シリーズ③の6本目。F247 の mart の架空の食品スーパー「サンプル | [F251_promo_effect_fictional_retail](articles/F251_promo_effect_fictional_retail) |
 | F270 | 「訪日客が過去最多」は、1人あたりの支出で見ても最多か？ | [F270_inbound_record_per_capita](articles/F270_inbound_record_per_capita) |
 | F271 | 見られるダッシュボードと、見られないダッシュボードの違いは何か？ | [F271_dashboard_answer_cost](articles/F271_dashboard_answer_cost) |
-| F279 | RFM で分けた顧客は、その後どう動くのか？ | [F279_rfm_segment_transitions](articles/F279_rfm_segment_transitions) |
 | 294 | SQL のクエリが遅いとき、まず何を見るか？ | [294_slow_query_first_checks](articles/294_slow_query_first_checks) |
 | 311 | 表をつなぐと、合計はなぜ増えたり減ったりするのか？ | [311_sql_join_fanout](articles/311_sql_join_fanout) |
 | 312 | SQL の NULL は、集計をどれだけ黙ってずらすのか？ | [312_sql_null_aggregation](articles/312_sql_null_aggregation) |
@@ -2038,29 +1852,21 @@
 
 </details>
 
-<details><summary><b>需要予測・在庫</b>（37本）</summary>
+<details><summary><b>需要予測・在庫</b>（29本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
 | F22 | 明日の電力需要はどこまで当てられるか？ | [F22_power_demand_forecast](articles/F22_power_demand_forecast) |
 | F48 | ガソリンが10%上がると、買う量は何%減るか？ | [F48_gasoline_elasticity](articles/F48_gasoline_elasticity) |
 | F85 | 日本経済の「要」の産業はどれか？ | [F85_io_network](articles/F85_io_network) |
-| F91 | 機械学習の「何が効いているか」は、手法で答えが変わるか？ | [F91_interpretation_methods](articles/F91_interpretation_methods) |
-| F92 | 電力需要の「上振れ」はどこまで見込めばよいか？ | [F92_power_quantile_forecast](articles/F92_power_quantile_forecast) |
 | F103 | 電力需要や物価の「長い記憶」は、どれくらい続くか？ | [F103_long_memory](articles/F103_long_memory) |
-| F104 | 気温と電力需要の関係を、ガウス過程の時系列で読むと？ | [F104_gp_power_temperature](articles/F104_gp_power_temperature) |
 | F108 | 予測モデルは、地域によって外れ方が偏っていないか？ | [F108_prediction_fairness](articles/F108_prediction_fairness) |
-| F110 | 予測モデルの設定は、どう選ぶのが効率的か？ | [F110_hyperparam_bayesopt](articles/F110_hyperparam_bayesopt) |
 | F150 | 季節のパターンそのものは、年々変わっているのか？ | [F150_dynamic_seasonality](articles/F150_dynamic_seasonality) |
-| F152 | 統計の速報は、確報でどれだけ直されるのか？ | [F152_revision_news_noise](articles/F152_revision_news_noise) |
 | F154 | 推定の「不確かさ」は、図の形で何が読み取れるかが変わるのか？ | [F154_uncertainty_viz](articles/F154_uncertainty_viz) |
-| F157 | 電力需要の予測を、1年通して運用したらどうなるか？ | [F157_power_forecast_operation](articles/F157_power_forecast_operation) |
-| F175 | 予測モデルの精度は、どの特徴量の「おかげ」なのか？ | [F175_r2_shapley_decomposition](articles/F175_r2_shapley_decomposition) |
 | F205 | 予測モデルは、作る前に何を決め、外れをいくらと見て、いつ作り直すのか？ | [F205_power_forecast_practice_part1](articles/F205_power_forecast_practice_part1) |
 | F235 | 在庫はどれだけ持てばよいのか？ | [F235_inventory_newsvendor](articles/F235_inventory_newsvendor) |
 | F239 | 広告費は、売上にどれだけ効いているのか？ | [F239_marketing_mix_model](articles/F239_marketing_mix_model) |
 | F242 | 毎日の KPI の「いつもと違う」を、どう自動で知らせるか？ | [F242_kpi_anomaly_alerts](articles/F242_kpi_anomaly_alerts) |
-| F252 | 来期の予算のための需要予測（業務の再現：架空の会社で） シリーズ③の7本目。架空の食品スーパー「サンプルマート（架空）」 | [F252_budget_forecast_fictional_retail](articles/F252_budget_forecast_fictional_retail) |
 | F259 | 需要予測の外れは、在庫と欠品のどちらに効かせるべきか？ | [F259_forecast_error_inventory_cost](articles/F259_forecast_error_inventory_cost) |
 | F269 | 「価格転嫁できた企業」は、どんな企業か？ | [F269_sme_price_passthrough](articles/F269_sme_price_passthrough) |
 | F281 | 食料自給率の目標と実際の差は、どこから来ているのか？ | [F281_food_self_sufficiency_target_gap](articles/F281_food_self_sufficiency_target_gap) |
@@ -2082,27 +1888,23 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（137本）</summary>
+<details><summary><b>業務の集計・報告</b>（127本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
 | F07 | 新卒は何年目に辞めやすいのか？ | [F07_turnover_survival](articles/F07_turnover_survival) |
-| F18 | 景気は今どうなのか？ | [F18_nowcast_dfm](articles/F18_nowcast_dfm) |
 | F48 | ガソリンが10%上がると、買う量は何%減るか？ | [F48_gasoline_elasticity](articles/F48_gasoline_elasticity) |
 | F54 | 働く女性の賃金は、働いている人だけを見ると高く見えるのか？ | [F54_heckman_women_wage](articles/F54_heckman_women_wage) |
-| F55 | ベイズで出生数を予測すると、予測の幅はどう変わるのか？ | [F55_births_bsts](articles/F55_births_bsts) |
 | F63 | 「前年比」と「前月比」、景気の変わり目を早く見つけられるのはどちらか？ | [F63_yoy_vs_mom](articles/F63_yoy_vs_mom) |
 | F84 | 男女の賃金差のうち、「説明できる部分」はどれだけか？ | [F84_oaxaca_gender_wage](articles/F84_oaxaca_gender_wage) |
 | F88 | 携帯料金の値下げは、物価をどれだけ下げたか？ | [F88_mobile_fee_rdit](articles/F88_mobile_fee_rdit) |
 | F89 | 最低賃金の効果、これまでの推定をまとめると？ | [F89_minwage_meta](articles/F89_minwage_meta) |
-| F90 | 月次の統計で、四半期のGDPをどこまで当てられるか？ | [F90_midas_nowcast](articles/F90_midas_nowcast) |
 | F94 | 市町村合併をどう扱うかで、20年の推移の分析は変わるか？ | [F94_municipal_merger_panel](articles/F94_municipal_merger_panel) |
 | F97 | 「前年比+1%」は、本当に増えたと言えるのか？ | [F97_sampling_error_yoy](articles/F97_sampling_error_yoy) |
 | F102 | 円安が物価に効くのは、円安が大きいときだけか？ | [F102_fx_threshold_passthrough](articles/F102_fx_threshold_passthrough) |
 | F117 | 調査の回答率が下がると、結果はどれだけずれるか？ | [F117_nonresponse_weighting](articles/F117_nonresponse_weighting) |
 | F120 | 2025年国勢調査で、記事の結論は変わったか？ | [F120_census2025_update](articles/F120_census2025_update) |
 | F122 | 手法ごとに、どこでつまずいたか？ | [F122_pitfalls_from_logs](articles/F122_pitfalls_from_logs) |
-| F130 | 介護の認定率の地域差は、高齢化だけで説明できるか？ | [F130_care_certification_shrinkage](articles/F130_care_certification_shrinkage) |
 | F131 | 大学に進む人が増えると、地元に残る若者は減るのか？ | [F131_univ_youth_migration](articles/F131_univ_youth_migration) |
 | F132 | 農家は「やめる」のか「大きくなる」のか？ | [F132_farm_size_transitions](articles/F132_farm_size_transitions) |
 | F135 | 雨の日は、小売の売上をどれだけ動かすのか？ | [F135_rain_retail](articles/F135_rain_retail) |
@@ -2110,12 +1912,9 @@
 | F138 | テレワークは、どの産業・地域に残ったのか？ | [F138_telework_decomposition](articles/F138_telework_decomposition) |
 | F139 | 副業をしている人は、どんな働き方の人か？ | [F139_side_job_loglinear](articles/F139_side_job_loglinear) |
 | F141 | 特許の出願は、どの分野で地方に広がったのか？ | [F141_ip_regional_concentration](articles/F141_ip_regional_concentration) |
-| F145 | ごみの量は、有料化のあとに減ったのか？ | [F145_waste_fee_did](articles/F145_waste_fee_did) |
 | F146 | 統計の秘匿をノイズで置き換えると、分析の答えはどれだけ変わるか？ | [F146_dp_noise_vs_suppression](articles/F146_dp_noise_vs_suppression) |
 | F147 | 集計表から「それらしい個票」を作ると、元の分析を再現できるか？ | [F147_synthetic_from_tables](articles/F147_synthetic_from_tables) |
-| F149 | 生存分析を機械学習でやると、何が良くなるのか？ | [F149_ml_survival](articles/F149_ml_survival) |
 | F150 | 季節のパターンそのものは、年々変わっているのか？ | [F150_dynamic_seasonality](articles/F150_dynamic_seasonality) |
-| F152 | 統計の速報は、確報でどれだけ直されるのか？ | [F152_revision_news_noise](articles/F152_revision_news_noise) |
 | F162 | 公的データは「API で取れる」のか？ | [F162_data_access_map](articles/F162_data_access_map) |
 | F181 | 家が建つ数は、金利と人口のどちらで決まるのか？ | [F181_housing_starts_rates_population](articles/F181_housing_starts_rates_population) |
 | F184 | 空の便は、新幹線の開業でどれだけ減ったのか？ | [F184_air_shinkansen_did](articles/F184_air_shinkansen_did) |
@@ -2131,7 +1930,6 @@
 | F206 | 予測は、エリアと合計をどうそろえ、どう見せ、1年回すと何が起きるのか？ | [F206_power_forecast_practice_part2](articles/F206_power_forecast_practice_part2) |
 | F207 | 地価はどこで上がり、駅ができると何が起きるのか？ | [F207_landprice_series_part1](articles/F207_landprice_series_part1) |
 | F231 | 売上の予測は、何か月先まで役に立つのか？ | [F231_sales_forecast_horizon](articles/F231_sales_forecast_horizon) |
-| F232 | 店の種類ごとの予測と全体の予測を、どうそろえるか？ | [F232_hierarchical_retail_reconciliation](articles/F232_hierarchical_retail_reconciliation) |
 | F233 | 祝日・連休・天気は、売上をどれだけ動かすのか？ | [F233_calendar_weather_sales](articles/F233_calendar_weather_sales) |
 | F234 | 価格を1%上げると、買われる量は何%減るのか？ | [F234_price_elasticity_practice](articles/F234_price_elasticity_practice) |
 | F235 | 在庫はどれだけ持てばよいのか？ | [F235_inventory_newsvendor](articles/F235_inventory_newsvendor) |
@@ -2149,8 +1947,6 @@
 | F249 | ダッシュボードを作る（業務の再現：架空の会社で） シリーズ③の続き。F246 の KPI 定義 v1 と F247 の  | [F249_powerbi_dashboard_fictional_retail](articles/F249_powerbi_dashboard_fictional_retail) |
 | F250 | 売上が落ちた月に、理由を説明する（業務の再現：架空の会社で） シリーズ③の5本目。F247 の mart を使い、架空の | [F250_sales_drop_explanation_fictional_retail](articles/F250_sales_drop_explanation_fictional_retail) |
 | F251 | 販促の効果を測る（業務の再現：架空の会社で） シリーズ③の6本目。F247 の mart の架空の食品スーパー「サンプル | [F251_promo_effect_fictional_retail](articles/F251_promo_effect_fictional_retail) |
-| F252 | 来期の予算のための需要予測（業務の再現：架空の会社で） シリーズ③の7本目。架空の食品スーパー「サンプルマート（架空）」 | [F252_budget_forecast_fictional_retail](articles/F252_budget_forecast_fictional_retail) |
-| F253 | データの品質を毎月チェックする（業務の再現：架空の会社で） シリーズ③の8本目。架空の食品スーパー「サンプルマート（架空 | [F253_monthly_data_quality_checks_fictional_retail](articles/F253_monthly_data_quality_checks_fictional_retail) |
 | F255 | 1年の分析業務を振り返る（業務の再現：架空の会社で） シリーズ③の10本目・最後。架空の食品スーパー「サンプルマート（架 | [F255_year_review_fictional_retail](articles/F255_year_review_fictional_retail) |
 | F257 | 労働経済白書の「賃上げが広がった」は、どのデータでどこまで言えるのか？ | [F257_wage_spillover_whitepaper](articles/F257_wage_spillover_whitepaper) |
 | F259 | 需要予測の外れは、在庫と欠品のどちらに効かせるべきか？ | [F259_forecast_error_inventory_cost](articles/F259_forecast_error_inventory_cost) |
@@ -2237,15 +2033,13 @@
 
 </details>
 
-<details><summary><b>保険</b>（74本）</summary>
+<details><summary><b>保険</b>（72本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
-| F27 | 市区町村の死亡率の地図は、小さな町ほどぶれる。隣の町の情報を借りる空間ベイズ（BYM2）で描き直すと、地域差の9割以上は | [F27_disease_map_bym2](articles/F27_disease_map_bym2) |
 | F49 | 平均寿命の県の差は、何歳の死亡で生まれているのか？ | [F49_life_expectancy_decomposition](articles/F49_life_expectancy_decomposition) |
 | F61 | 小さい町の「ランキング1位」は、なぜ毎回入れ替わるのか？ | [F61_funnel_eb_rankings](articles/F61_funnel_eb_rankings) |
 | F62 | 死亡率は10年で上がったのか、下がったのか？ | [F62_simpson_standardization](articles/F62_simpson_standardization) |
-| F130 | 介護の認定率の地域差は、高齢化だけで説明できるか？ | [F130_care_certification_shrinkage](articles/F130_care_certification_shrinkage) |
 | F241 | 顧客はどれくらいで離れていくのか？ | [F241_customer_churn_survival](articles/F241_customer_churn_survival) |
 | F256 | 自然災害の保険金は、この30年でどれだけ大きくなったのか？ | [F256_natural_disaster_insurance_payouts](articles/F256_natural_disaster_insurance_payouts) |
 | F260 | 「100年に1度の損害」は、どの分布を仮定するかでいくら変わるのか？ | [F260_loss_distribution_return_level](articles/F260_loss_distribution_return_level) |
@@ -2318,47 +2112,29 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（279本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（232本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
 | F01 | 最低賃金の引き上げは、雇用を減らしたのか？ | [F01_minimum_wage_did](articles/F01_minimum_wage_did) |
-| F03 | 地価を決めているのは何か？ | [F03_land_price_ml](articles/F03_land_price_ml) |
-| F05 | 医療費の地域差は「県」と「市町村」のどちらで決まるか？ | [F05_medical_cost_hierarchical](articles/F05_medical_cost_hierarchical) |
 | F06 | 高齢化は地図の上で固まっているか？ | [F06_aging_spatial](articles/F06_aging_spatial) |
-| F09 | 国会で「賃上げ」はいつから語られるようになったのか？ | [F09_diet_text](articles/F09_diet_text) |
 | F10 | 人の流れで見ると、日本はいくつの「圏」に分かれるか？ | [F10_mobility_network](articles/F10_mobility_network) |
-| F12 | 公的統計を毎月自動で更新するには？ | [F12_stats_pipeline](articles/F12_stats_pipeline) |
-| F14 | コンパクトシティの計画を作った市町村で、中心部の人口密度は保てたのか？ | [F14_compact_city_psm_did](articles/F14_compact_city_psm_did) |
 | F15 | 県境をまたぐと最低賃金が違う。隣どうしの町で雇用は違ったか？ | [F15_border_minwage](articles/F15_border_minwage) |
 | F17 | 最低賃金の影響が大きかったのはどんな県か？ | [F17_minwage_causal_forest](articles/F17_minwage_causal_forest) |
-| F18 | 景気は今どうなのか？ | [F18_nowcast_dfm](articles/F18_nowcast_dfm) |
-| F20 | 出生率は隣の町と似るのか？ | [F20_tfr_spatial_regression](articles/F20_tfr_spatial_regression) |
 | F21 | 公的統計の「いつもと違う動き」を自動で見つけられるか？ | [F21_anomaly_detection](articles/F21_anomaly_detection) |
 | F22 | 明日の電力需要はどこまで当てられるか？ | [F22_power_demand_forecast](articles/F22_power_demand_forecast) |
-| F23 | 救急車をどこに置けば、到着が早くなるか？ | [F23_ambulance_location](articles/F23_ambulance_location) |
-| F25 | 経済白書41年分をAIの「文埋め込み」で読むと、政府の関心はどう移ったか？ | [F25_whitepaper_embeddings](articles/F25_whitepaper_embeddings) |
 | F26 | 政策の効果を見つけるには、何県・何年のデータが要るのか？ | [F26_power_simulation](articles/F26_power_simulation) |
-| F29 | 北陸新幹線の金沢延伸で、石川県の宿泊客はどれだけ増えたか？ | [F29_shinkansen_sdid](articles/F29_shinkansen_sdid) |
 | F31 | 60歳・65歳で、働く人はどれだけ減るのか？ | [F31_retirement_rdd](articles/F31_retirement_rdd) |
-| F32 | 所得の高い町と低い町で、効いている要因は同じか？ | [F32_income_quantile](articles/F32_income_quantile) |
-| F33 | 人の移動は距離でどれだけ減るのか？ | [F33_migration_gravity](articles/F33_migration_gravity) |
 | F34 | 同じお金で、どの市町村が多くのサービスを出しているか？ | [F34_municipal_efficiency](articles/F34_municipal_efficiency) |
-| F36 | 全国と47都道府県の宿泊者数の予測を、足し算が合うようにそろえると？ | [F36_hierarchical_forecast](articles/F36_hierarchical_forecast) |
-| F37 | 地価の予測に「この範囲に9割入る」を付けられるか？ | [F37_conformal_land_price](articles/F37_conformal_land_price) |
 | F38 | 観光客が1兆円使うと、日本全体の生産はいくら増えるのか？ | [F38_input_output_tourism](articles/F38_input_output_tourism) |
-| F39 | 物価・賃金・金利は、どれがどれを動かしているのか？ | [F39_causal_discovery_macro](articles/F39_causal_discovery_macro) |
 | F40 | 所得の格差は「県の間」と「県の中」のどちらにあるか？ | [F40_inequality_decomposition](articles/F40_inequality_decomposition) |
 | F43 | 金利が上がると、何か月後に何が動くのか？ | [F43_local_projections](articles/F43_local_projections) |
 | F44 | 出生率のトレンドはいつ折れたのか？ | [F44_structural_breaks](articles/F44_structural_breaks) |
 | F45 | 将来人口の推計は、自分で再現できるか？ | [F45_population_projection](articles/F45_population_projection) |
 | F46 | 雇用が増えた町に、人は集まったのか？ | [F46_bartik_iv](articles/F46_bartik_iv) |
 | F49 | 平均寿命の県の差は、何歳の死亡で生まれているのか？ | [F49_life_expectancy_decomposition](articles/F49_life_expectancy_decomposition) |
-| F51 | 保育所の整備は、出生率に「女性の就業」を通じて効いたのか？ | [F51_childcare_mediation](articles/F51_childcare_mediation) |
 | F52 | インフルエンザは、どの県からどの県へ広がるのか？ | [F52_influenza_spread](articles/F52_influenza_spread) |
 | F54 | 働く女性の賃金は、働いている人だけを見ると高く見えるのか？ | [F54_heckman_women_wage](articles/F54_heckman_women_wage) |
-| F55 | ベイズで出生数を予測すると、予測の幅はどう変わるのか？ | [F55_births_bsts](articles/F55_births_bsts) |
-| F57 | インフルエンザの流行は、SIRモデルで再現できるか？ | [F57_flu_sir](articles/F57_flu_sir) |
 | F58 | 合計特殊出生率は、年齢のどこで下がったのか？ | [F58_tfr_age_tempo](articles/F58_tfr_age_tempo) |
 | F59 | 学力調査の県の順位は、毎年どれくらい入れ替わるのか？ | [F59_test_rank_stability](articles/F59_test_rank_stability) |
 | F60 | 去年いちばん悪かった県は、今年よくなるのか？ | [F60_regression_to_mean](articles/F60_regression_to_mean) |
@@ -2370,10 +2146,7 @@
 | F69 | 統計表の「-」は0なのか、欠測なのか？ | [F69_data_quality](articles/F69_data_quality) |
 | F71 | 都道府県の所得の差は、縮まっているのか？ | [F71_income_convergence](articles/F71_income_convergence) |
 | F72 | 家計は、物価が何%上がると思っているのか？ | [F72_inflation_expectations_cp](articles/F72_inflation_expectations_cp) |
-| F74 | 観測点のない場所の気温は、どこまで当てられるか？ | [F74_temperature_kriging](articles/F74_temperature_kriging) |
-| F75 | 地価の地図を「なめらかに」描くと、どこまで当たるか？ | [F75_gp_land_price](articles/F75_gp_land_price) |
 | F76 | 所得が高い県は、ずっと高いままか？ | [F76_income_mobility_markov](articles/F76_income_mobility_markov) |
-| F77 | 今の人の流れが続くと、都道府県の人口の分布は最後にどうなるか？ | [F77_migration_markov](articles/F77_migration_markov) |
 | F78 | 産業がばらけている町は、不景気に強いのか？ | [F78_industry_portfolio](articles/F78_industry_portfolio) |
 | F80 | 47都道府県×100指標を比べると、「有意な差」はいくつ偶然か？ | [F80_multiple_comparisons](articles/F80_multiple_comparisons) |
 | F81 | 通勤で町の外へ出る人が多いほど、子どもは少ないのか？ | [F81_commute_gps](articles/F81_commute_gps) |
@@ -2381,25 +2154,15 @@
 | F87 | 結婚が減ったのは「時代」のせいか「世代」のせいか？ | [F87_marriage_apc](articles/F87_marriage_apc) |
 | F88 | 携帯料金の値下げは、物価をどれだけ下げたか？ | [F88_mobile_fee_rdit](articles/F88_mobile_fee_rdit) |
 | F89 | 最低賃金の効果、これまでの推定をまとめると？ | [F89_minwage_meta](articles/F89_minwage_meta) |
-| F90 | 月次の統計で、四半期のGDPをどこまで当てられるか？ | [F90_midas_nowcast](articles/F90_midas_nowcast) |
-| F91 | 機械学習の「何が効いているか」は、手法で答えが変わるか？ | [F91_interpretation_methods](articles/F91_interpretation_methods) |
-| F92 | 電力需要の「上振れ」はどこまで見込めばよいか？ | [F92_power_quantile_forecast](articles/F92_power_quantile_forecast) |
 | F93 | PDF の統計表を機械で読むと、どれくらい間違えるか？ | [F93_pdf_table_extraction](articles/F93_pdf_table_extraction) |
 | F94 | 市町村合併をどう扱うかで、20年の推移の分析は変わるか？ | [F94_municipal_merger_panel](articles/F94_municipal_merger_panel) |
 | F95 | 新幹線の効果は、隣の県にもこぼれたのか？ | [F95_shinkansen_spillover](articles/F95_shinkansen_spillover) |
-| F96 | e-Statの数万の統計表から、欲しい表をすぐ探せるか？ | [F96_estat_semantic_search](articles/F96_estat_semantic_search) |
 | F98 | 大きな災害のあと、宿泊客はどれくらいで戻るのか？ | [F98_disaster_lodging_recovery](articles/F98_disaster_lodging_recovery) |
-| F100 | 同じ問いを5つの手法で分析すると、答えはそろうのか？ | [F100_five_methods_one_question](articles/F100_five_methods_one_question) |
 | F101 | 物価と賃金は、長い目で見ると一緒に動いているのか？ | [F101_price_wage_cointegration](articles/F101_price_wage_cointegration) |
 | F102 | 円安が物価に効くのは、円安が大きいときだけか？ | [F102_fx_threshold_passthrough](articles/F102_fx_threshold_passthrough) |
 | F103 | 電力需要や物価の「長い記憶」は、どれくらい続くか？ | [F103_long_memory](articles/F103_long_memory) |
-| F104 | 気温と電力需要の関係を、ガウス過程の時系列で読むと？ | [F104_gp_power_temperature](articles/F104_gp_power_temperature) |
 | F106 | 同じ県の会社は、同じように閉鎖しやすいのか？ | [F106_shared_frailty](articles/F106_shared_frailty) |
-| F107 | 市区町村のつながり（隣接・通勤）を使うと、予測は良くなるか？ | [F107_gcn_municipal](articles/F107_gcn_municipal) |
 | F108 | 予測モデルは、地域によって外れ方が偏っていないか？ | [F108_prediction_fairness](articles/F108_prediction_fairness) |
-| F109 | どのデータを集めれば、予測は早く良くなるか？ | [F109_active_learning_land_price](articles/F109_active_learning_land_price) |
-| F110 | 予測モデルの設定は、どう選ぶのが効率的か？ | [F110_hyperparam_bayesopt](articles/F110_hyperparam_bayesopt) |
-| F111 | 人口が減る町で、店はいつ消えるのか？ | [F111_shop_abm](articles/F111_shop_abm) |
 | F112 | 救急隊が全部出払う確率は、隊を1つ増やすとどれだけ下がるか？ | [F112_ambulance_queueing](articles/F112_ambulance_queueing) |
 | F113 | 物価指数の作り方で、インフレ率はどれだけ変わるか？ | [F113_price_index_formulas](articles/F113_price_index_formulas) |
 | F114 | 東京の1万円と地方の1万円は、同じ価値か？ | [F114_regional_purchasing_power](articles/F114_regional_purchasing_power) |
@@ -2407,7 +2170,6 @@
 | F116 | 47都道府県の指標を1つの「暮らしやすさ」にまとめると、重みでどれだけ順位が変わるか？ | [F116_composite_index_weights](articles/F116_composite_index_weights) |
 | F117 | 調査の回答率が下がると、結果はどれだけずれるか？ | [F117_nonresponse_weighting](articles/F117_nonresponse_weighting) |
 | F118 | 「保育所と出生率」に、これまでの記事はどう答えたか？ | [F118_childcare_fertility_synthesis](articles/F118_childcare_fertility_synthesis) |
-| F119 | 予測した記事は、その後どれだけ当たったか？ | [F119_forecast_scorecard](articles/F119_forecast_scorecard) |
 | F120 | 2025年国勢調査で、記事の結論は変わったか？ | [F120_census2025_update](articles/F120_census2025_update) |
 | F121 | 「最低賃金と雇用」に、4本の記事はどう答えたか？ | [F121_minwage_methods_review](articles/F121_minwage_methods_review) |
 | F123 | 「場所で分けて確かめる」と、記事の結論は変わったか？ | [F123_spatial_block_cv_review](articles/F123_spatial_block_cv_review) |
@@ -2415,12 +2177,9 @@
 | F126 | 暑い日の何日後まで、熱中症の搬送は増えるのか？ | [F126_heatstroke_dlnm](articles/F126_heatstroke_dlnm) |
 | F127 | 空き家は、人口が減った分だけ増えたのか？ | [F127_vacant_houses_decomposition](articles/F127_vacant_houses_decomposition) |
 | F128 | 家賃は、都心からの距離でどれだけ下がるのか？ | [F128_rent_distance](articles/F128_rent_distance) |
-| F129 | 薬の処方量の地域差は、年齢構成でどこまで説明できるか？ | [F129_prescription_age_adjust](articles/F129_prescription_age_adjust) |
-| F130 | 介護の認定率の地域差は、高齢化だけで説明できるか？ | [F130_care_certification_shrinkage](articles/F130_care_certification_shrinkage) |
 | F131 | 大学に進む人が増えると、地元に残る若者は減るのか？ | [F131_univ_youth_migration](articles/F131_univ_youth_migration) |
 | F132 | 農家は「やめる」のか「大きくなる」のか？ | [F132_farm_size_transitions](articles/F132_farm_size_transitions) |
 | F133 | 輸出先は、距離と経済規模でどこまで決まるのか？ | [F133_export_gravity](articles/F133_export_gravity) |
-| F134 | 再生可能エネルギーの導入は、どこで速く進んだのか？ | [F134_renewable_diffusion](articles/F134_renewable_diffusion) |
 | F135 | 雨の日は、小売の売上をどれだけ動かすのか？ | [F135_rain_retail](articles/F135_rain_retail) |
 | F136 | 鉄道の利用は、コロナ前にどこまで戻ったのか？ | [F136_rail_covid_recovery](articles/F136_rail_covid_recovery) |
 | F138 | テレワークは、どの産業・地域に残ったのか？ | [F138_telework_decomposition](articles/F138_telework_decomposition) |
@@ -2430,21 +2189,15 @@
 | F142 | 森林は、「切れる木」がどれだけ増えたのか？ | [F142_forest_age_harvest](articles/F142_forest_age_harvest) |
 | F143 | 漁獲量の減り方は、魚の種類でどう違うのか？ | [F143_fish_catch_decline](articles/F143_fish_catch_decline) |
 | F144 | 水道料金の差は、人口密度と水源でどこまで説明できるか？ | [F144_water_tariff_density](articles/F144_water_tariff_density) |
-| F145 | ごみの量は、有料化のあとに減ったのか？ | [F145_waste_fee_did](articles/F145_waste_fee_did) |
 | F146 | 統計の秘匿をノイズで置き換えると、分析の答えはどれだけ変わるか？ | [F146_dp_noise_vs_suppression](articles/F146_dp_noise_vs_suppression) |
 | F147 | 集計表から「それらしい個票」を作ると、元の分析を再現できるか？ | [F147_synthetic_from_tables](articles/F147_synthetic_from_tables) |
-| F149 | 生存分析を機械学習でやると、何が良くなるのか？ | [F149_ml_survival](articles/F149_ml_survival) |
 | F150 | 季節のパターンそのものは、年々変わっているのか？ | [F150_dynamic_seasonality](articles/F150_dynamic_seasonality) |
 | F151 | 47都道府県の求人倍率の「同じ動き」は、いくつに分けられるか？ | [F151_pref_hierarchical_dfm](articles/F151_pref_hierarchical_dfm) |
-| F152 | 統計の速報は、確報でどれだけ直されるのか？ | [F152_revision_news_noise](articles/F152_revision_news_noise) |
 | F153 | 平均でなく「分布」で比べると、地域の差は何に見えるか？ | [F153_distribution_regional](articles/F153_distribution_regional) |
 | F154 | 推定の「不確かさ」は、図の形で何が読み取れるかが変わるのか？ | [F154_uncertainty_viz](articles/F154_uncertainty_viz) |
 | F155 | 分析の手順を変えると、答えはどこまで変わるか？ | [F155_multiverse](articles/F155_multiverse) |
 | F156 | 最低賃金の効果は、地域の「賃金の低さ」で違うのか？ | [F156_minwage_bite_heterogeneity](articles/F156_minwage_bite_heterogeneity) |
-| F157 | 電力需要の予測を、1年通して運用したらどうなるか？ | [F157_power_forecast_operation](articles/F157_power_forecast_operation) |
-| F158 | 地価の予測モデルは、毎年作り直す必要があるのか？ | [F158_land_price_update](articles/F158_land_price_update) |
 | F159 | 出生数の予測を、毎月の速報で更新すると当たり方は変わるか？ | [F159_births_nowcast](articles/F159_births_nowcast) |
-| F160 | 人口の将来推計を、自分で作るとどこまで合うか？ | [F160_cohort_projection_backtest](articles/F160_cohort_projection_backtest) |
 | F161 | 同じデータで記事を書き直すと、結論はどれだけ変わるか？ | [F161_rewrite_old_articles](articles/F161_rewrite_old_articles) |
 | F162 | 公的データは「API で取れる」のか？ | [F162_data_access_map](articles/F162_data_access_map) |
 | F166 | 公的統計の数字は、ベンフォードの法則に従っているか？ | [F166_benford_public_stats](articles/F166_benford_public_stats) |
@@ -2454,11 +2207,8 @@
 | F171 | 人口ピラミッドの「形」は、いくつの型に分かれるか？ | [F171_pyramid_shape_fda](articles/F171_pyramid_shape_fda) |
 | F172 | 生まれる日・亡くなる日は、曜日と季節でどう偏るか？ | [F172_birth_death_calendar](articles/F172_birth_death_calendar) |
 | F173 | 2つの年の所得分布は、どれだけ「動いた」のか？ | [F173_income_distribution_wasserstein](articles/F173_income_distribution_wasserstein) |
-| F175 | 予測モデルの精度は、どの特徴量の「おかげ」なのか？ | [F175_r2_shapley_decomposition](articles/F175_r2_shapley_decomposition) |
-| F176 | 白書の文章は、年々読みやすくなったのか？ | [F176_whitepaper_readability](articles/F176_whitepaper_readability) |
 | F177 | 「差がある」は、並べ替えで確かめるとどうなるか？ | [F177_permutation_tests](articles/F177_permutation_tests) |
 | F178 | 回帰の外れ値は、どの点がどれだけ結論を動かしているか？ | [F178_regression_influence](articles/F178_regression_influence) |
-| F179 | 欠測を埋める方法で、答えはどれだけ変わるか？ | [F179_imputation_by_estimand](articles/F179_imputation_by_estimand) |
 | F180 | 2つの統計の数字は、本当に同じものを測っているか？ | [F180_measurement_agreement](articles/F180_measurement_agreement) |
 | F181 | 家が建つ数は、金利と人口のどちらで決まるのか？ | [F181_housing_starts_rates_population](articles/F181_housing_starts_rates_population) |
 | F182 | 中古住宅は、新築の何年分の価格差で売られているか？ | [F182_condo_depreciation_curve](articles/F182_condo_depreciation_curve) |
@@ -2487,7 +2237,6 @@
 | F209 | この5年の値上がりは、どの品目から来て、誰に重く、家計は何を減らしたのか？ | [F209_prices_household_series_part1](articles/F209_prices_household_series_part1) |
 | F210 | 円安は品目の値段にどれだけ時間をかけて届き、物価の見通しは家計と企業でどれだけ違うのか？ | [F210_prices_household_series_part2](articles/F210_prices_household_series_part2) |
 | F231 | 売上の予測は、何か月先まで役に立つのか？ | [F231_sales_forecast_horizon](articles/F231_sales_forecast_horizon) |
-| F232 | 店の種類ごとの予測と全体の予測を、どうそろえるか？ | [F232_hierarchical_retail_reconciliation](articles/F232_hierarchical_retail_reconciliation) |
 | F233 | 祝日・連休・天気は、売上をどれだけ動かすのか？ | [F233_calendar_weather_sales](articles/F233_calendar_weather_sales) |
 | F234 | 価格を1%上げると、買われる量は何%減るのか？ | [F234_price_elasticity_practice](articles/F234_price_elasticity_practice) |
 | F235 | 在庫はどれだけ持てばよいのか？ | [F235_inventory_newsvendor](articles/F235_inventory_newsvendor) |
@@ -2500,7 +2249,6 @@
 | F245 | 1つの依頼に、1時間でどこまで答えられるか？ | [F245_one_hour_request](articles/F245_one_hour_request) |
 | F246 | 分析担当として最初にやること：KPI を決める（業務の再現：架空の会社で） シリーズ③の1本目。架空の食品スーパー「サン | [F246_kpi_definitions_fictional_retail](articles/F246_kpi_definitions_fictional_retail) |
 | F248 | 月次レポートの「型」を作る（業務の再現：架空の会社で） シリーズ③の3本目。F246 の KPI 定義 v1 と F24 | [F248_monthly_report_template_fictional_retail](articles/F248_monthly_report_template_fictional_retail) |
-| F252 | 来期の予算のための需要予測（業務の再現：架空の会社で） シリーズ③の7本目。架空の食品スーパー「サンプルマート（架空）」 | [F252_budget_forecast_fictional_retail](articles/F252_budget_forecast_fictional_retail) |
 | F256 | 自然災害の保険金は、この30年でどれだけ大きくなったのか？ | [F256_natural_disaster_insurance_payouts](articles/F256_natural_disaster_insurance_payouts) |
 | F257 | 労働経済白書の「賃上げが広がった」は、どのデータでどこまで言えるのか？ | [F257_wage_spillover_whitepaper](articles/F257_wage_spillover_whitepaper) |
 | F258 | 「実質賃金○か月連続マイナス」は、どの物価で割るかで変わるのか？ | [F258_real_wage_deflator_streak](articles/F258_real_wage_deflator_streak) |
@@ -2547,7 +2295,6 @@
 | 044 | 2050年の人口推計は何で決まっているのか？ | [044_population_rf](articles/044_population_rf) |
 | 046 | 都道府県の年収差は「職種の違い」から来ているのか？ | [046_wage_shiftshare](articles/046_wage_shiftshare) |
 | 051 | 家計の株は「売り越し」なのに400兆円増えた。資金循環統計で、買った分と値上がり分を分けてみた | [051_household_assets](articles/051_household_assets) |
-| 082 | 在留外国人が人口の1割以上の市区町村は31。技能実習・特定技能は地方に、留学は東京に多く住んでいた | [082_foreign_residents_where](articles/082_foreign_residents_where) |
 | 090 | 都道府県の求人倍率の差は50年で縮んだが、2019年から止まった。東京都は働く場所で数えると42位 | [090_job_openings_pref](articles/090_job_openings_pref) |
 | 108 | 宿泊者数の回復、日本人は29都道府県でまだ2019年以下。外国人は1.6倍でも、京都・東北は日本人が戻らない | [108_accommodation_recovery](articles/108_accommodation_recovery) |
 | 118 | 生活保護の申請は2020年2月を底に増加。2020年4月は前年より25%多く、都道府県の差は少しずつ縮まった | [118_public_assistance_applications](articles/118_public_assistance_applications) |
