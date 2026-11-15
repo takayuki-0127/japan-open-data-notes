@@ -1,7 +1,0 @@
-numpy
-pandas
-scipy>=1.9
-highspy
-geopandas
-shapely
-matplotlib
