@@ -1,7 +1,0 @@
-pandas>=2.0
-numpy
-scipy
-matplotlib
-statsmodels
-requests
-lxml
