@@ -5,7 +5,6 @@ SQL の記事は、DuckDB で流して Python と同じ答えになることを�
 
 | # | 問い | フォルダ |
 |---|---|---|
-| 243 | 縦長の統計表をレポートの形にする SQL は、CASE WHEN で書ける。ただし業態が1つ増えると、その行は黙って落ち | [243_sql_pivot_report](articles/243_sql_pivot_report) |
 | 270 | 市町村の合併を、SQL でどう扱うか？ | [270_sql_municipal_code_scd2](articles/270_sql_municipal_code_scd2) |
 | 294 | SQL のクエリが遅いとき、まず何を見るか？ | [294_slow_query_first_checks](articles/294_slow_query_first_checks) |
 | 296 | 需要予測の当たり外れを、毎週どう見張るか？ | [296_forecast_error_control_chart](articles/296_forecast_error_control_chart) |
