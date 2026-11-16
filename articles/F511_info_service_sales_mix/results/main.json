@@ -1,0 +1,102 @@
+{
+ "years": [
+  2000,
+  2024
+ ],
+ "last_fy": 2023,
+ "total_2000_trillion": 6.04,
+ "total_last_trillion": 17.92,
+ "custom_last_trillion": 11.04,
+ "si_last_trillion": 7.32,
+ "products_last_trillion": 1.92,
+ "sys_mgmt_last_trillion": 2.24,
+ "share_2000": {
+  "custom": 58.2,
+  "custom_si": 25.2,
+  "products": 11.3,
+  "products_game": 3.1,
+  "processing": 12.5,
+  "sys_mgmt": 7.0,
+  "other": 11.0
+ },
+ "share_last": {
+  "custom": 61.6,
+  "custom_si": 40.8,
+  "products": 10.7,
+  "products_game": 4.1,
+  "processing": 6.9,
+  "sys_mgmt": 12.5,
+  "other": 8.3
+ },
+ "share_custom_min": {
+  "year": 2020,
+  "value": 58.0
+ },
+ "share_custom_max": {
+  "year": 2015,
+  "value": 62.1
+ },
+ "share_si_in_custom_2000": 43.4,
+ "share_si_in_custom_last": 66.3,
+ "share_custom_1994": 53.6,
+ "share_products_1994": 7.2,
+ "index_last": {
+  "total": 163.2,
+  "custom": 155.6,
+  "custom_si": 206.7,
+  "products": 178.7,
+  "products_game": 217.7,
+  "processing": 138.6,
+  "sys_mgmt": 329.9,
+  "software_total": 160.1
+ },
+ "cagr_2000_last": {
+  "total": 2.06,
+  "custom": 1.86,
+  "custom_si": 3.07,
+  "products": 2.45,
+  "products_game": 3.29,
+  "processing": 1.37,
+  "sys_mgmt": 5.1
+ },
+ "cagr_2014_last": {
+  "total": 3.16,
+  "custom": 3.08,
+  "custom_si": 3.17,
+  "products": 4.46,
+  "products_game": 5.33,
+  "processing": 3.91,
+  "sys_mgmt": 2.86
+ },
+ "share_from_index_last": {
+  "custom": 55.5,
+  "products": 12.3,
+  "sys_mgmt": 14.2,
+  "processing": 10.6,
+  "custom_si": 32.0,
+  "products_game": 4.2
+ },
+ "hypotheses": {
+  "H1": {
+   "custom_2000": 58.2,
+   "custom_last": 61.6,
+   "verdict": "外れ"
+  },
+  "H2": {
+   "products_2000": 11.3,
+   "products_last": 10.7,
+   "verdict": "外れ"
+  },
+  "H3": {
+   "sys_mgmt_2000": 7.0,
+   "sys_mgmt_last": 12.5,
+   "verdict": "支持"
+  },
+  "H4": {
+   "cagr_custom_2014_last": 3.08,
+   "cagr_total_2014_last": 3.16,
+   "verdict": "支持"
+  }
+ },
+ "note": "割合は同じ年の実数の比。伸びは調整済みの前年比（不連続を調整したもの）をつないだもの。"
+}

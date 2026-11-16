@@ -1,0 +1,17 @@
+{
+ "si_in_custom_2000": 43.4,
+ "si_in_custom_last": 66.3,
+ "si_in_custom_from_index_last": 57.6,
+ "custom_ex_si_share_2000": 33.0,
+ "custom_ex_si_share_last": 20.8,
+ "products_peak_year": 2020,
+ "products_peak_share": 14.2,
+ "game_share_at_products_peak": 7.8,
+ "products_ex_game_at_peak": 6.4,
+ "products_ex_game_2000": 8.2,
+ "products_ex_game_last": 6.6,
+ "products_ex_game_range": [
+  5.7,
+  8.6
+ ]
+}
