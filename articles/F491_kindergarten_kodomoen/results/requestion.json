@@ -1,0 +1,42 @@
+{
+ "cohort_ratio_used": 0.835,
+ "n1_trend": {
+  "2023": 32.6,
+  "2024": 31.0,
+  "2025": 29.6
+ },
+ "prefs_n1_share_down_2023_2025": 43,
+ "prefs_n1_share_up_2023_2025": 4,
+ "sector": {
+  "公立": {
+   "edu_type_2025_per100_of_2014": 33.2,
+   "edu_type_cohort_adj": 39.8,
+   "ke35_2025": 76673,
+   "ke35_n1_2025": 16235,
+   "ke_en_2025": 1067,
+   "ke_n1_share_pct": 21.2,
+   "kg_change_pct": -71.5,
+   "kg_en_2014": 4714,
+   "kg_en_2025": 2354,
+   "kg_en_change_pct": -50.1,
+   "kg_ji_2014": 264563,
+   "kg_ji_2025": 75525,
+   "kg_n2_share_pct": 5.2
+  },
+  "私立": {
+   "edu_type_2025_per100_of_2014": 55.7,
+   "edu_type_cohort_adj": 66.8,
+   "ke35_2025": 541394,
+   "ke35_n1_2025": 166707,
+   "ke_en_2025": 6605,
+   "ke_n1_share_pct": 30.8,
+   "kg_change_pct": -52.6,
+   "kg_en_2014": 8142,
+   "kg_en_2025": 5824,
+   "kg_en_change_pct": -28.5,
+   "kg_ji_2014": 1287284,
+   "kg_ji_2025": 610168,
+   "kg_n2_share_pct": 9.7
+  }
+ }
+}

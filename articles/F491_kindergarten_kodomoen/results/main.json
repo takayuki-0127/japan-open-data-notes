@@ -1,0 +1,160 @@
+{
+ "H1": {
+  "ke_n1_share_35_2025_pct": 29.6,
+  "result": "支持",
+  "robust_2023_pct": 32.6,
+  "robust_2024_pct": 31.0,
+  "threshold_pct": 40.0
+ },
+ "H2": {
+  "edu_type_rate_2025": 38.4,
+  "gap_vs_2014_pt": 15.4,
+  "ke5_n1_share_2024": 0.315,
+  "ke_n1_part_pt": 7.3,
+  "ke_n2_part_pt": 15.9,
+  "ke_rate_2025": 23.2,
+  "kg_rate_2014": 53.8,
+  "kg_rate_2025": 31.1,
+  "rate_sum_2025": 54.3,
+  "result": "支持",
+  "robust_exclude_kg_n2": {
+   "edu_type_rate": 35.7,
+   "gap_pt": 18.1,
+   "kg5_n2_share_2025_used": 0.089
+  },
+  "robust_use_2025_share": {
+   "edu_type_rate": 38.1,
+   "gap_pt": 15.7
+  },
+  "threshold_pt": 10.0
+ },
+ "H3": {
+  "ke_n1_share_max": 71.2,
+  "ke_n1_share_median": 31.9,
+  "ke_n1_share_min": 3.4,
+  "ke_share_35_max": 93.8,
+  "ke_share_35_median": 60.7,
+  "ke_share_35_min": 7.4,
+  "kg_decline_pct_max": 86.2,
+  "kg_decline_pct_median": 61.3,
+  "kg_decline_pct_min": 39.8,
+  "n": 47,
+  "ols_intercept": 43.0,
+  "ols_slope": 0.567,
+  "pearson": 0.888,
+  "pearson_p": 8.85e-17,
+  "result": "支持",
+  "robust_5y_only": {
+   "pearson": 0.833,
+   "pearson_p": 3.88e-13,
+   "spearman": 0.853,
+   "spearman_p": 2.51e-14
+  },
+  "robust_base2015": {
+   "pearson": 0.747,
+   "pearson_p": 1.65e-09,
+   "spearman": 0.706,
+   "spearman_p": 3e-08
+  },
+  "spearman": 0.882,
+  "spearman_p": 2.67e-16,
+  "threshold_spearman": 0.5
+ },
+ "H4": {
+  "kg_n2_share_35_2025_pct": 9.2,
+  "kg_n2_share_5y_2025_pct": 8.9,
+  "result": "外れ",
+  "threshold_pct": 10.0
+ },
+ "H5": {
+  "en_change_pct": -36.3,
+  "ji_change_pct": -55.7,
+  "ke_en_2025": 7673,
+  "kg_en_2014": 12905,
+  "kg_en_2025": 8225,
+  "kg_ji_2014": 1557461,
+  "kg_ji_2025": 689609,
+  "kg_plus_ke_en_2025": 15898,
+  "peak_en": 15220,
+  "peak_en_year": 1985,
+  "per_en_2014": 120.7,
+  "per_en_2025": 83.8,
+  "result": "支持"
+ },
+ "cohort": {
+  "first_graders_2014": 1097829,
+  "first_graders_2025": 916598,
+  "first_graders_2025_from_ke": 917453,
+  "ratio_2025_2014": 0.835
+ },
+ "decomp_completers": {
+  "change": -305570,
+  "cohort_effect": -97502,
+  "ke_completers_2025": 212849,
+  "ke_completers_2025_n2_est": 145735,
+  "kg_completers_2014": 590632,
+  "kg_completers_2025": 285062,
+  "other": -140953,
+  "to_kodomoen_n1": -67114
+ },
+ "national_ke": {
+  "ke_02_2025": 257823,
+  "ke_35_2025": 618153,
+  "ke_ji_2025": 875976,
+  "kg_plus_ke35_2025": 1307762
+ },
+ "national_kg_ji_peak": {
+  "value": 2497895,
+  "year": 1978
+ },
+ "region": {
+  "中国": {
+   "ke_n1_share": 25.9,
+   "ke_n1_within_ke": 26.8,
+   "ke_share_35": 53.4,
+   "kg_decline_pct": 56.9
+  },
+  "中部": {
+   "ke_n1_share": 27.8,
+   "ke_n1_within_ke": 27.1,
+   "ke_share_35": 57.1,
+   "kg_decline_pct": 59.3
+  },
+  "九州・沖縄": {
+   "ke_n1_share": 26.9,
+   "ke_n1_within_ke": 28.6,
+   "ke_share_35": 52.3,
+   "kg_decline_pct": 55.1
+  },
+  "北海道": {
+   "ke_n1_share": 36.9,
+   "ke_n1_within_ke": 42.2,
+   "ke_share_35": 54.5,
+   "kg_decline_pct": 63.1
+  },
+  "四国": {
+   "ke_n1_share": 22.3,
+   "ke_n1_within_ke": 23.2,
+   "ke_share_35": 51.0,
+   "kg_decline_pct": 59.3
+  },
+  "東北": {
+   "ke_n1_share": 28.7,
+   "ke_n1_within_ke": 23.8,
+   "ke_share_35": 59.2,
+   "kg_decline_pct": 63.0
+  },
+  "近畿": {
+   "ke_n1_share": 27.2,
+   "ke_n1_within_ke": 24.5,
+   "ke_share_35": 57.7,
+   "kg_decline_pct": 56.6
+  },
+  "関東": {
+   "ke_n1_share": 14.6,
+   "ke_n1_within_ke": 42.4,
+   "ke_share_35": 27.3,
+   "kg_decline_pct": 51.8
+  }
+ }
+}
