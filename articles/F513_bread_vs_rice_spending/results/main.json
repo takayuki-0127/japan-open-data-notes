@@ -1,0 +1,242 @@
+{
+ "amount": {
+  "2002": {
+   "rice": 36593.0,
+   "bread": 26750.0,
+   "plain_bread": 8709.0,
+   "other_bread": 18041.0
+  },
+  "2010": {
+   "rice": 28610.0,
+   "bread": 28177.0,
+   "plain_bread": 8572.0,
+   "other_bread": 19605.0
+  },
+  "2011": {
+   "rice": 27425.0,
+   "bread": 28321.0,
+   "plain_bread": 8635.0,
+   "other_bread": 19685.0
+  },
+  "2012": {
+   "rice": 28731.0,
+   "bread": 28282.0,
+   "plain_bread": 8525.0,
+   "other_bread": 19757.0
+  },
+  "2013": {
+   "rice": 28093.0,
+   "bread": 27974.0,
+   "plain_bread": 8494.0,
+   "other_bread": 19480.0
+  },
+  "2014": {
+   "rice": 25108.0,
+   "bread": 29210.0,
+   "plain_bread": 8747.0,
+   "other_bread": 20464.0
+  },
+  "2019": {
+   "rice": 23212.0,
+   "bread": 32164.0,
+   "plain_bread": 9912.0,
+   "other_bread": 22252.0
+  },
+  "2023": {
+   "rice": 20397.0,
+   "bread": 33874.0,
+   "plain_bread": 10570.0,
+   "other_bread": 23305.0
+  },
+  "2024": {
+   "rice": 27196.0,
+   "bread": 34609.0,
+   "plain_bread": 10622.0,
+   "other_bread": 23987.0
+  },
+  "2025": {
+   "rice": 42739.0,
+   "bread": 34244.0,
+   "plain_bread": 10946.0,
+   "other_bread": 23298.0
+  }
+ },
+ "ratio_bread_rice": {
+  "2002": 0.731,
+  "2011": 1.033,
+  "2023": 1.661,
+  "2024": 1.273,
+  "2025": 0.801
+ },
+ "ratio_max": {
+  "year": 2023,
+  "value": 1.661
+ },
+ "rice_min": {
+  "year": 2022,
+  "value": 19825.0
+ },
+ "rice_qty": {
+  "2002": 93.84,
+  "2023": 56.65,
+  "2024": 60.2,
+  "2025": 61.31
+ },
+ "rice_price": {
+  "2002": 389.95,
+  "2023": 360.03,
+  "2024": 451.76,
+  "2025": 697.12
+ },
+ "plain_qty": {
+  "2002": 19008.0,
+  "2023": 19371.0,
+  "2025": 19287.0
+ },
+ "plain_price": {
+  "2002": 45.82,
+  "2023": 54.56,
+  "2025": 56.75
+ },
+ "food_share": {
+  "2002": {
+   "rice": 3.9,
+   "bread": 2.85
+  },
+  "2023": {
+   "rice": 1.96,
+   "bread": 3.26
+  },
+  "2025": {
+   "rice": 3.75,
+   "bread": 3.01
+  }
+ },
+ "decomposition": [
+  {
+   "item": "rice",
+   "y0": 2023,
+   "y1": 2025,
+   "amount0": 20397.0,
+   "amount1": 42739.0,
+   "change": 22342.0,
+   "qty_part": 2388.0,
+   "price_part": 19957.0,
+   "price_share_pct": 89.3,
+   "qty_change_pct": 8.2,
+   "price_change_pct": 93.6
+  },
+  {
+   "item": "rice",
+   "y0": 2002,
+   "y1": 2023,
+   "amount0": 36593.0,
+   "amount1": 20397.0,
+   "change": -16196.0,
+   "qty_part": -13986.0,
+   "price_part": -2212.0,
+   "price_share_pct": 13.7,
+   "qty_change_pct": -39.6,
+   "price_change_pct": -7.7
+  },
+  {
+   "item": "plain_bread",
+   "y0": 2002,
+   "y1": 2023,
+   "amount0": 8709.0,
+   "amount1": 10570.0,
+   "change": 1861.0,
+   "qty_part": 182.0,
+   "price_part": 1678.0,
+   "price_share_pct": 90.1,
+   "qty_change_pct": 1.9,
+   "price_change_pct": 19.1
+  },
+  {
+   "item": "plain_bread",
+   "y0": 2023,
+   "y1": 2025,
+   "amount0": 10570.0,
+   "amount1": 10946.0,
+   "change": 376.0,
+   "qty_part": -47.0,
+   "price_part": 423.0,
+   "price_share_pct": 112.6,
+   "qty_change_pct": -0.4,
+   "price_change_pct": 4.0
+  },
+  {
+   "item": "rice",
+   "y0": 2023,
+   "y1": 2024,
+   "amount0": 20397.0,
+   "amount1": 27196.0,
+   "change": 6799.0,
+   "qty_part": 1436.0,
+   "price_part": 5364.0,
+   "price_share_pct": 78.9,
+   "qty_change_pct": 6.3,
+   "price_change_pct": 25.5
+  },
+  {
+   "item": "rice",
+   "y0": 2024,
+   "y1": 2025,
+   "amount0": 27196.0,
+   "amount1": 42739.0,
+   "change": 15543.0,
+   "qty_part": 628.0,
+   "price_part": 14916.0,
+   "price_share_pct": 96.0,
+   "qty_change_pct": 1.8,
+   "price_change_pct": 54.3
+  }
+ ],
+ "decomposition_laspeyres_2023_2025": {
+  "item": "rice",
+  "y0": 2023,
+  "y1": 2025,
+  "change": 22342.0,
+  "qty_part": 1678.0,
+  "price_part": 20668.0,
+  "price_share_pct": 92.5
+ },
+ "hypotheses": {
+  "H1": {
+   "years_bread_over_rice": [
+    2011,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "first_year": 2011,
+   "verdict": "支持"
+  },
+  "H2": {
+   "rice_over_bread_between": [
+    2012,
+    2013
+   ],
+   "rice_over_bread_2025": true,
+   "verdict": "外れ"
+  },
+  "H3": {
+   "price_share_pct": 89.3,
+   "verdict": "支持"
+  },
+  "H4": {
+   "plain_increase": 1861.0,
+   "other_increase": 5264.0,
+   "verdict": "支持"
+  }
+ },
+ "note": "二人以上の世帯の1世帯当たり年間の支出金額（円）。米の数量はkg、価格は円/kg。食パンの数量はg、価格は円/100g。"
+}
