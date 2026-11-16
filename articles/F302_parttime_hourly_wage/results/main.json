@@ -1,0 +1,224 @@
+{
+ "main": {
+  "spec": "主",
+  "period": "2015-2025",
+  "size": "T",
+  "pay": "sched_pay",
+  "hours": "sched_hours",
+  "fix": "start",
+  "part_growth": 26.524,
+  "general_growth": 15.311,
+  "gap": 11.213,
+  "part_fixed": 24.742,
+  "general_fixed": 15.071,
+  "gap_fixed": 9.671,
+  "gap_agg16": 11.192,
+  "share_remaining": 0.864,
+  "n_ind_part_faster": 14
+ },
+ "H1_verdict": "支持",
+ "H2_verdict": "支持",
+ "H3_verdict": "支持",
+ "hourly_2015": {
+  "part": 1069.35,
+  "general": 1984.231,
+  "ratio_part_to_general": 0.539
+ },
+ "hourly_2025": {
+  "part": 1394.154,
+  "general": 2312.519,
+  "ratio_part_to_general": 0.603
+ },
+ "yoy_gap_2015_2019": 1.295,
+ "yoy_gap_2023_2025": 1.378,
+ "yoy_gap_2020_2022": 1.069,
+ "H4_verdict": "支持",
+ "n_years_part_faster_2011_2025": 13,
+ "part_hours_share_2015_2025": {
+  "鉱業": [
+   0.022,
+   0.005
+  ],
+  "建設業": [
+   1.184,
+   0.939
+  ],
+  "製造業": [
+   10.111,
+   8.435
+  ],
+  "電気・ガス": [
+   0.091,
+   0.08
+  ],
+  "情報通信": [
+   0.497,
+   0.643
+  ],
+  "運輸・郵便": [
+   5.076,
+   4.177
+  ],
+  "卸売・小売": [
+   28.652,
+   28.074
+  ],
+  "金融・保険": [
+   1.335,
+   1.083
+  ],
+  "不動産・物品賃貸": [
+   1.316,
+   1.343
+  ],
+  "学術研究等": [
+   1.105,
+   1.415
+  ],
+  "飲食サービス等": [
+   20.179,
+   17.711
+  ],
+  "生活関連サービス等": [
+   5.918,
+   4.477
+  ],
+  "教育・学習支援": [
+   3.775,
+   4.491
+  ],
+  "医療・福祉": [
+   12.265,
+   16.865
+  ],
+  "複合サービス": [
+   0.373,
+   0.5
+  ],
+  "その他のサービス": [
+   8.101,
+   9.76
+  ]
+ },
+ "robustness": [
+  {
+   "spec": "主",
+   "period": "2015-2025",
+   "size": "T",
+   "pay": "sched_pay",
+   "hours": "sched_hours",
+   "fix": "start",
+   "part_growth": 26.524,
+   "general_growth": 15.311,
+   "gap": 11.213,
+   "part_fixed": 24.742,
+   "general_fixed": 15.071,
+   "gap_fixed": 9.671,
+   "gap_agg16": 11.192,
+   "share_remaining": 0.864,
+   "n_ind_part_faster": 14
+  },
+  {
+   "spec": "R1a 2012→2025",
+   "period": "2012-2025",
+   "size": "T",
+   "pay": "sched_pay",
+   "hours": "sched_hours",
+   "fix": "start",
+   "part_growth": 30.628,
+   "general_growth": 16.718,
+   "gap": 13.91,
+   "part_fixed": 28.591,
+   "general_fixed": 16.602,
+   "gap_fixed": 11.989,
+   "gap_agg16": 13.852,
+   "share_remaining": 0.865,
+   "n_ind_part_faster": 15
+  },
+  {
+   "spec": "R1b 2019→2025",
+   "period": "2019-2025",
+   "size": "T",
+   "pay": "sched_pay",
+   "hours": "sched_hours",
+   "fix": "start",
+   "part_growth": 17.747,
+   "general_growth": 10.404,
+   "gap": 7.343,
+   "part_fixed": 16.942,
+   "general_fixed": 10.057,
+   "gap_fixed": 6.886,
+   "gap_agg16": 7.383,
+   "share_remaining": 0.933,
+   "n_ind_part_faster": 14
+  },
+  {
+   "spec": "R2 規模30人以上",
+   "period": "2015-2025",
+   "size": "0",
+   "pay": "sched_pay",
+   "hours": "sched_hours",
+   "fix": "start",
+   "part_growth": 26.302,
+   "general_growth": 14.353,
+   "gap": 11.949,
+   "part_fixed": 24.334,
+   "general_fixed": 14.025,
+   "gap_fixed": 10.309,
+   "gap_agg16": 11.92,
+   "share_remaining": 0.865,
+   "n_ind_part_faster": 13
+  },
+  {
+   "spec": "R3 賞与・残業代を含む（現金給与総額÷総実労働時間）",
+   "period": "2015-2025",
+   "size": "T",
+   "pay": "total_pay",
+   "hours": "total_hours",
+   "fix": "start",
+   "part_growth": 27.417,
+   "general_growth": 17.467,
+   "gap": 9.951,
+   "part_fixed": 25.378,
+   "general_fixed": 17.178,
+   "gap_fixed": 8.2,
+   "gap_agg16": 9.983,
+   "share_remaining": 0.821,
+   "n_ind_part_faster": 14
+  },
+  {
+   "spec": "R4 比重を2025年に固定",
+   "period": "2015-2025",
+   "size": "T",
+   "pay": "sched_pay",
+   "hours": "sched_hours",
+   "fix": "end",
+   "part_growth": 26.524,
+   "general_growth": 15.311,
+   "gap": 11.213,
+   "part_fixed": 24.243,
+   "general_fixed": 14.874,
+   "gap_fixed": 9.369,
+   "gap_agg16": 11.192,
+   "share_remaining": 0.837,
+   "n_ind_part_faster": 14
+  },
+  {
+   "spec": "R5 月給（所定内給与）",
+   "period": "2015-2025",
+   "part_growth": 15.093,
+   "general_growth": 10.798,
+   "gap": 4.296
+  }
+ ],
+ "sched_hours_2015_2025": {
+  "part": [
+   86.1,
+   76.8
+  ],
+  "general": [
+   154.1,
+   147.3
+  ]
+ }
+}

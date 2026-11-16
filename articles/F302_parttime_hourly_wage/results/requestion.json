@@ -1,0 +1,20 @@
+{
+ "part": {
+  "monthly_pay_growth": 15.093,
+  "hours_shrink": 11.43,
+  "hourly_growth": 26.524
+ },
+ "general": {
+  "monthly_pay_growth": 10.798,
+  "hours_shrink": 4.513,
+  "hourly_growth": 15.311
+ },
+ "gap_hourly": 11.213,
+ "gap_from_monthly_pay": 4.295,
+ "gap_from_hours": 6.917,
+ "share_gap_from_hours": 0.617,
+ "ind_spearman_hours_shrink_vs_hourly": -0.265,
+ "ind_spearman_p": 0.322,
+ "ind_spearman_excl_mining": -0.107,
+ "ind_spearman_excl_mining_p": 0.704
+}

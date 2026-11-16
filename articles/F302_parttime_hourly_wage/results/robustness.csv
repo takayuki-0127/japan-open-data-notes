@@ -1,0 +1,8 @@
+spec,period,size,pay,hours,fix,part_growth,general_growth,gap,part_fixed,general_fixed,gap_fixed,gap_agg16,share_remaining,n_ind_part_faster
+主,2015-2025,T,sched_pay,sched_hours,start,26.524,15.311,11.213,24.742,15.071,9.671,11.192,0.864,14.0
+R1a 2012→2025,2012-2025,T,sched_pay,sched_hours,start,30.628,16.718,13.91,28.591,16.602,11.989,13.852,0.865,15.0
+R1b 2019→2025,2019-2025,T,sched_pay,sched_hours,start,17.747,10.404,7.343,16.942,10.057,6.886,7.383,0.933,14.0
+R2 規模30人以上,2015-2025,0,sched_pay,sched_hours,start,26.302,14.353,11.949,24.334,14.025,10.309,11.92,0.865,13.0
+R3 賞与・残業代を含む（現金給与総額÷総実労働時間）,2015-2025,T,total_pay,total_hours,start,27.417,17.467,9.951,25.378,17.178,8.2,9.983,0.821,14.0
+R4 比重を2025年に固定,2015-2025,T,sched_pay,sched_hours,end,26.524,15.311,11.213,24.243,14.874,9.369,11.192,0.837,14.0
+R5 月給（所定内給与）,2015-2025,,,,,15.093,10.798,4.296,,,,,,
