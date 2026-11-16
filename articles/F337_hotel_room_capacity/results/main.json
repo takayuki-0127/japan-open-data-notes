@@ -1,0 +1,161 @@
+{
+ "occupancy_all": {
+  "2012": 54.8,
+  "2015": 60.3,
+  "2018": 61.2,
+  "2019": 62.7,
+  "2022": 46.6,
+  "2023": 57.0,
+  "2024": 59.6,
+  "2025": 61.6
+ },
+ "H1": {
+  "y2019": 62.7,
+  "y2025": 61.6
+ },
+ "H1_verdict": "外れ",
+ "H2": {
+  "used": 7.413,
+  "supply": 9.183,
+  "occupancy": -1.77,
+  "supply_share": 123.876,
+  "occ_pt": -1.1
+ },
+ "H2_verdict": "支持",
+ "H3": {
+  "city": 74.1,
+  "business": 75.3,
+  "ryokan": 38.2
+ },
+ "H3_verdict": "支持",
+ "H4": {
+  "used": 31.196,
+  "supply": 17.729,
+  "occupancy": 13.467,
+  "supply_share": 56.83,
+  "occ_pt": 7.9
+ },
+ "H4_verdict": "外れ",
+ "by_type_2019_2025": {
+  "旅館": {
+   "used": -12.037,
+   "supply": -8.438,
+   "occupancy": -3.599,
+   "supply_share": 70.099,
+   "occ_pt": -1.4
+  },
+  "リゾートホテル": {
+   "used": -3.38,
+   "supply": -0.607,
+   "occupancy": -2.773,
+   "supply_share": 17.959,
+   "occ_pt": -1.6
+  },
+  "ビジネスホテル": {
+   "used": 6.872,
+   "supply": 7.534,
+   "occupancy": -0.662,
+   "supply_share": 109.63,
+   "occ_pt": -0.5
+  },
+  "シティホテル": {
+   "used": -0.547,
+   "supply": 6.487,
+   "occupancy": -7.034,
+   "supply_share": -1186.141,
+   "occ_pt": -5.4
+  },
+  "簡易宿所": {
+   "used": -32.888,
+   "supply": -20.809,
+   "occupancy": -12.078,
+   "supply_share": 63.274,
+   "occ_pt": -3.8
+  },
+  "会社・団体の宿泊所": {
+   "used": -34.108,
+   "supply": -16.706,
+   "occupancy": -17.402,
+   "supply_share": 48.979,
+   "occ_pt": -4.6
+  }
+ },
+ "by_type_2012_2019": {
+  "旅館": {
+   "used": -5.779,
+   "supply": -16.709,
+   "occupancy": 10.93,
+   "supply_share": 289.126,
+   "occ_pt": 4.1
+  },
+  "リゾートホテル": {
+   "used": 28.352,
+   "supply": 8.569,
+   "occupancy": 19.783,
+   "supply_share": 30.225,
+   "occ_pt": 10.5
+  },
+  "ビジネスホテル": {
+   "used": 39.912,
+   "supply": 28.018,
+   "occupancy": 11.894,
+   "supply_share": 70.2,
+   "occ_pt": 8.5
+  },
+  "シティホテル": {
+   "used": 25.377,
+   "supply": 16.16,
+   "occupancy": 9.217,
+   "supply_share": 63.679,
+   "occ_pt": 7.0
+  },
+  "会社・団体の宿泊所": {
+   "used": -1.903,
+   "supply": 9.566,
+   "occupancy": -11.469,
+   "supply_share": -502.765,
+   "occ_pt": -3.5
+  }
+ },
+ "robustness": [
+  {
+   "spec": "R1 2018→2024年",
+   "used": 19.505,
+   "supply": 22.154,
+   "occupancy": -2.649,
+   "supply_share": 113.582,
+   "occ_pt": -1.6
+  },
+  {
+   "spec": "R2 従業者10人以上の施設（2019→2025年）",
+   "used": 8.088,
+   "supply": 9.627,
+   "occupancy": -1.54,
+   "supply_share": 119.038,
+   "occ_pt": -1.1
+  },
+  {
+   "spec": "R3 H4 を2015→2019年で",
+   "used": 17.753,
+   "supply": 13.851,
+   "occupancy": 3.903,
+   "supply_share": 78.016,
+   "occ_pt": 2.4
+  },
+  {
+   "spec": "R4 簡易宿所と会社・団体の宿泊所を除く（2019→2025年）",
+   "used": 2.588,
+   "supply": 3.503,
+   "occ2019": 67.232,
+   "occ2025": 66.619
+  },
+  {
+   "spec": "R5 H4 を従業者10人以上で（2012→2019年）",
+   "used": 33.955,
+   "supply": 21.743,
+   "occupancy": 12.212,
+   "supply_share": 64.034,
+   "occ_pt": 8.276
+  }
+ ]
+}

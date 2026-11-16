@@ -1,0 +1,80 @@
+{
+ "all": {
+  "2019": {
+   "max": 69.4,
+   "max_month": 8,
+   "months_ge70": 0,
+   "months_ge80": 0
+  },
+  "2023": {
+   "max": 63.0,
+   "max_month": 11,
+   "months_ge70": 0,
+   "months_ge80": 0
+  },
+  "2024": {
+   "max": 64.7,
+   "max_month": 11,
+   "months_ge70": 0,
+   "months_ge80": 0
+  },
+  "2025": {
+   "max": 66.6,
+   "max_month": 10,
+   "months_ge70": 0,
+   "months_ge80": 0
+  }
+ },
+ "シティホテル": {
+  "2019": {
+   "max": 83.0,
+   "max_month": 4,
+   "months_ge70": 11,
+   "months_ge80": 6
+  },
+  "2023": {
+   "max": 75.7,
+   "max_month": 11,
+   "months_ge70": 6,
+   "months_ge80": 0
+  },
+  "2024": {
+   "max": 78.6,
+   "max_month": 11,
+   "months_ge70": 11,
+   "months_ge80": 0
+  },
+  "2025": {
+   "max": 80.3,
+   "max_month": 10,
+   "months_ge70": 11,
+   "months_ge80": 1
+  }
+ },
+ "ビジネスホテル": {
+  "2019": {
+   "max": 79.9,
+   "max_month": 11,
+   "months_ge70": 11,
+   "months_ge80": 0
+  },
+  "2023": {
+   "max": 76.5,
+   "max_month": 11,
+   "months_ge70": 4,
+   "months_ge80": 0
+  },
+  "2024": {
+   "max": 80.4,
+   "max_month": 11,
+   "months_ge70": 11,
+   "months_ge80": 1
+  },
+  "2025": {
+   "max": 81.4,
+   "max_month": 10,
+   "months_ge70": 11,
+   "months_ge80": 2
+  }
+ }
+}
