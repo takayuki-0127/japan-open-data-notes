@@ -1,0 +1,68 @@
+{
+ "solo": {
+  "total": {
+   "start": 522.0,
+   "end": 398.0,
+   "dlog": -27.122
+  },
+  "male": {
+   "start": 365.667,
+   "end": 276.667,
+   "dlog": -27.891
+  },
+  "female": {
+   "start": 156.333,
+   "end": 121.333,
+   "dlog": -25.345
+  }
+ },
+ "H1_verdict": "支持",
+ "share": {
+  "start": 8.16,
+  "end": 5.866,
+  "change_pt": -2.294
+ },
+ "H2_verdict": "支持",
+ "H3_verdict": "外れ",
+ "H4": {
+  "total": {
+   "start": 418.333,
+   "end": 398.0,
+   "dlog": -4.983
+  },
+  "male": {
+   "start": 301.667,
+   "end": 276.667,
+   "dlog": -8.651
+  },
+  "female": {
+   "start": 115.667,
+   "end": 121.333,
+   "dlog": 4.783
+  }
+ },
+ "H4_verdict": "外れ",
+ "employed_dlog": 5.909,
+ "employees_dlog": 13.54,
+ "with_employees_dlog": -49.454,
+ "robustness": [
+  {
+   "spec": "R1 始点を1995〜97年平均",
+   "solo_dlog": -37.658
+  },
+  {
+   "spec": "R2 自営業主全体（雇有業主を含む）",
+   "dlog": -32.3
+  },
+  {
+   "spec": "R3 H4 の始点を2016〜18年平均",
+   "solo_dlog": -1.0,
+   "female": 7.707,
+   "male": -4.707
+  },
+  {
+   "spec": "R4 自営業主＋家族従業者",
+   "dlog": -49.058
+  }
+ ]
+}
