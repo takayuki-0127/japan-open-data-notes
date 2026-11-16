@@ -1,0 +1,336 @@
+{
+ "H1": {
+  "change_pct": -13.7,
+  "ratio_2025_2019": 0.863,
+  "result": "当たり",
+  "sea_total_2019": 2569273,
+  "sea_total_2025": 2218215
+ },
+ "H2": {
+  "air_ratio": 1.363,
+  "diff": 0.499,
+  "result": "当たり",
+  "sea_ratio": 0.863
+ },
+ "H3": {
+  "kyushu": 0.962,
+  "okinawa": 0.699,
+  "result": "当たり"
+ },
+ "H4": {
+  "kyushu_okinawa_share_2019": 0.933,
+  "kyushu_okinawa_share_2025": 0.97,
+  "result": "外れ"
+ },
+ "by_region": {
+  "中国・四国": {
+   "entries_2019": 60479,
+   "entries_2025": 93077,
+   "ratio_2025_2019": 0.802,
+   "special_2019": 57758,
+   "special_2025": 1795,
+   "total_2019": 118237,
+   "total_2025": 94872
+  },
+  "中部": {
+   "entries_2019": 7304,
+   "entries_2025": 15129,
+   "ratio_2025_2019": 2.459,
+   "special_2019": 2,
+   "special_2025": 2835,
+   "total_2019": 7306,
+   "total_2025": 17964
+  },
+  "九州": {
+   "entries_2019": 383933,
+   "entries_2025": 463849,
+   "ratio_2025_2019": 0.962,
+   "special_2019": 1114758,
+   "special_2025": 978347,
+   "total_2019": 1498691,
+   "total_2025": 1442196
+  },
+  "北海道・東北": {
+   "entries_2019": 24545,
+   "entries_2025": 32024,
+   "ratio_2025_2019": 1.323,
+   "special_2019": 2694,
+   "special_2025": 4021,
+   "total_2019": 27239,
+   "total_2025": 36045
+  },
+  "沖縄": {
+   "entries_2019": 5350,
+   "entries_2025": 23286,
+   "ratio_2025_2019": 0.699,
+   "special_2019": 775914,
+   "special_2025": 522938,
+   "total_2019": 781264,
+   "total_2025": 546224
+  },
+  "近畿": {
+   "entries_2019": 44080,
+   "entries_2025": 25555,
+   "ratio_2025_2019": 0.563,
+   "special_2019": 69107,
+   "special_2025": 38124,
+   "total_2019": 113187,
+   "total_2025": 63679
+  },
+  "関東": {
+   "entries_2019": 16826,
+   "entries_2025": 17144,
+   "ratio_2025_2019": 0.751,
+   "special_2019": 6123,
+   "special_2025": 91,
+   "total_2019": 22949,
+   "total_2025": 17235
+  }
+ },
+ "funa_china_share": {
+  "2016": 0.829,
+  "2017": 0.83,
+  "2018": 0.813,
+  "2019": 0.788,
+  "2024": 0.692,
+  "2025": 0.703
+ },
+ "funa_nationality": {
+  "2016": {
+   "中国": 1605707,
+   "中国〔香港〕": 42499,
+   "台湾": 200515,
+   "米国": 12546,
+   "総数": 1936469,
+   "韓国": 12167
+  },
+  "2019": {
+   "中国": 1596185,
+   "中国〔香港〕": 38712,
+   "台湾": 281595,
+   "米国": 23056,
+   "総数": 2026307,
+   "韓国": 15600
+  },
+  "2024": {
+   "中国": 869152,
+   "中国〔香港〕": 32175,
+   "台湾": 271155,
+   "米国": 11102,
+   "総数": 1256518,
+   "韓国": 23393
+  },
+  "2025": {
+   "中国": 1088356,
+   "中国〔香港〕": 36005,
+   "台湾": 279139,
+   "米国": 14935,
+   "総数": 1548138,
+   "韓国": 39567
+  }
+ },
+ "parts": {
+  "funa": {
+   "2019": 2026307,
+   "2025": 1548138,
+   "ratio": 0.764
+  },
+  "sea_entries": {
+   "2019": 542917,
+   "2025": 670064,
+   "ratio": 1.234
+  },
+  "special_tourist": {
+   "2019": 2026356,
+   "2025": 1548151,
+   "ratio": 0.764
+  }
+ },
+ "peak": {
+  "sea_total": 3191128,
+  "year": 2017
+ },
+ "robustness": {
+  "R1_base_2018": {
+   "air_ratio": 1.424,
+   "kyushu": 0.697,
+   "okinawa": 0.758,
+   "sea_ratio": 0.712
+  },
+  "R2_end_2024": {
+   "air_ratio": 1.182,
+   "kyushu": 0.758,
+   "okinawa": 0.621,
+   "sea_ratio": 0.708
+  },
+  "R3_with_crew": {
+   "crew_ratio": 0.834,
+   "ratio_2025_2019": 0.851
+  },
+  "R4_funa_only": {
+   "kyushu": 0.878,
+   "okinawa": 0.674,
+   "ratio_2025_2019": 0.764
+  },
+  "R5_kyushu_without_tsushima": {
+   "ratio_2025_2018": 0.708,
+   "ratio_2025_2019": 0.951,
+   "tsushima_2018": 413251,
+   "tsushima_2019": 264822,
+   "tsushima_2025": 268590
+  },
+  "R6_seaports_entries_only": {
+   "ratio_2025_2018": 0.86,
+   "ratio_2025_2019": 1.234
+  }
+ },
+ "series": {
+  "2013": {
+   "air_entries": 10636818,
+   "crew": 1086728,
+   "funa": 0,
+   "kikochi": 60352,
+   "sea_entries": 618403,
+   "sea_total": 678839,
+   "special_tourist": 60436,
+   "tsuka": 84
+  },
+  "2014": {
+   "air_entries": 13510853,
+   "crew": 1181747,
+   "funa": 0,
+   "kikochi": 242313,
+   "sea_entries": 639332,
+   "sea_total": 881699,
+   "special_tourist": 242367,
+   "tsuka": 54
+  },
+  "2015": {
+   "air_entries": 19117376,
+   "crew": 1409707,
+   "funa": 1071724,
+   "kikochi": 15,
+   "sea_entries": 570871,
+   "sea_total": 1642658,
+   "special_tourist": 1071787,
+   "tsuka": 48
+  },
+  "2016": {
+   "air_entries": 22617552,
+   "crew": 1747790,
+   "funa": 1936469,
+   "kikochi": 5,
+   "sea_entries": 601360,
+   "sea_total": 2537864,
+   "special_tourist": 1936504,
+   "tsuka": 30
+  },
+  "2017": {
+   "air_entries": 26686984,
+   "crew": 1969432,
+   "funa": 2449299,
+   "kikochi": 2,
+   "sea_entries": 741798,
+   "sea_total": 3191128,
+   "special_tourist": 2449330,
+   "tsuka": 29
+  },
+  "2018": {
+   "air_entries": 29323221,
+   "crew": 1916200,
+   "funa": 2337803,
+   "kikochi": 2,
+   "sea_entries": 778881,
+   "sea_total": 3116737,
+   "special_tourist": 2337856,
+   "tsuka": 51
+  },
+  "2019": {
+   "air_entries": 30644262,
+   "crew": 1796444,
+   "funa": 2026307,
+   "kikochi": 0,
+   "sea_entries": 542917,
+   "sea_total": 2569273,
+   "special_tourist": 2026356,
+   "tsuka": 49
+  },
+  "2020": {
+   "air_entries": 4278167,
+   "crew": 424037,
+   "funa": 119960,
+   "kikochi": 2,
+   "sea_entries": 29090,
+   "sea_total": 149062,
+   "special_tourist": 119972,
+   "tsuka": 10
+  },
+  "2021": {
+   "air_entries": 353078,
+   "crew": 202362,
+   "funa": 0,
+   "kikochi": 0,
+   "sea_entries": 41,
+   "sea_total": 41,
+   "special_tourist": 0,
+   "tsuka": 0
+  },
+  "2022": {
+   "air_entries": 4195871,
+   "crew": 161480,
+   "funa": 0,
+   "kikochi": 0,
+   "sea_entries": 2174,
+   "sea_total": 2175,
+   "special_tourist": 1,
+   "tsuka": 1
+  },
+  "2023": {
+   "air_entries": 25460566,
+   "crew": 724812,
+   "funa": 166460,
+   "kikochi": 0,
+   "sea_entries": 370244,
+   "sea_total": 536711,
+   "special_tourist": 166467,
+   "tsuka": 7
+  },
+  "2024": {
+   "air_entries": 36217962,
+   "crew": 1369337,
+   "funa": 1256518,
+   "kikochi": 0,
+   "sea_entries": 562002,
+   "sea_total": 1818525,
+   "special_tourist": 1256523,
+   "tsuka": 5
+  },
+  "2025": {
+   "air_entries": 41760866,
+   "crew": 1498066,
+   "funa": 1548138,
+   "kikochi": 0,
+   "sea_entries": 670064,
+   "sea_total": 2218215,
+   "special_tourist": 1548151,
+   "tsuka": 13
+  }
+ },
+ "source": "法務省「出入国管理統計」年報 港別の表",
+ "unmapped_sea_entries_max": 411,
+ "years": [
+  2013,
+  2014,
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ]
+}
