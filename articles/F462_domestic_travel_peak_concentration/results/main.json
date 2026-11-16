@@ -1,0 +1,238 @@
+{
+ "H1": {
+  "aug_share_2012_14": 11.955,
+  "aug_share_2023_25": 10.831,
+  "diff_pt": -1.124,
+  "result": "当たり"
+ },
+ "H2": {
+  "gini_2012_14": 0.0663,
+  "gini_2023_25": 0.0556,
+  "result": "当たり"
+ },
+ "H3": {
+  "n_pref_aug_down": 46,
+  "n_pref_gini_down": 42,
+  "result": "当たり"
+ },
+ "H4": {
+  "result": "当たり",
+  "spearman": -0.621
+ },
+ "decjan": {
+  "2012_14": 14.915,
+  "2017_19": 14.955,
+  "2023_25": 15.066
+ },
+ "may": {
+  "2012_14": 8.336,
+  "2017_19": 8.474,
+  "2023_25": 8.351
+ },
+ "monthly_share": {
+  "1": {
+   "2012-14": 6.995,
+   "2017-19": 7.025,
+   "2023-25": 6.986,
+   "diff_late_early": -0.008
+  },
+  "2": {
+   "2012-14": 7.045,
+   "2017-19": 7.129,
+   "2023-25": 7.302,
+   "diff_late_early": 0.256
+  },
+  "3": {
+   "2012-14": 8.59,
+   "2017-19": 8.697,
+   "2023-25": 8.696,
+   "diff_late_early": 0.106
+  },
+  "4": {
+   "2012-14": 7.394,
+   "2017-19": 7.751,
+   "2023-25": 7.502,
+   "diff_late_early": 0.108
+  },
+  "5": {
+   "2012-14": 8.336,
+   "2017-19": 8.474,
+   "2023-25": 8.351,
+   "diff_late_early": 0.015
+  },
+  "6": {
+   "2012-14": 7.407,
+   "2017-19": 7.524,
+   "2023-25": 7.514,
+   "diff_late_early": 0.107
+  },
+  "7": {
+   "2012-14": 8.712,
+   "2017-19": 8.677,
+   "2023-25": 8.706,
+   "diff_late_early": -0.006
+  },
+  "8": {
+   "2012-14": 11.955,
+   "2017-19": 11.463,
+   "2023-25": 10.831,
+   "diff_late_early": -1.124
+  },
+  "9": {
+   "2012-14": 8.441,
+   "2017-19": 8.447,
+   "2023-25": 8.552,
+   "diff_late_early": 0.11
+  },
+  "10": {
+   "2012-14": 8.636,
+   "2017-19": 8.463,
+   "2023-25": 8.824,
+   "diff_late_early": 0.188
+  },
+  "11": {
+   "2012-14": 8.567,
+   "2017-19": 8.42,
+   "2023-25": 8.655,
+   "diff_late_early": 0.088
+  },
+  "12": {
+   "2012-14": 7.92,
+   "2017-19": 7.93,
+   "2023-25": 8.08,
+   "diff_late_early": 0.16
+  }
+ },
+ "national_by_year": {
+  "2011": {
+   "aug_share": 12.496,
+   "gini_perday": 0.085,
+   "peak_month": 8,
+   "total_million": 398.82
+  },
+  "2012": {
+   "aug_share": 12.067,
+   "gini_perday": 0.0666,
+   "peak_month": 8,
+   "total_million": 413.18
+  },
+  "2013": {
+   "aug_share": 12.03,
+   "gini_perday": 0.0675,
+   "peak_month": 8,
+   "total_million": 432.4
+  },
+  "2014": {
+   "aug_share": 11.768,
+   "gini_perday": 0.0648,
+   "peak_month": 8,
+   "total_million": 428.68
+  },
+  "2015": {
+   "aug_share": 11.492,
+   "gini_perday": 0.065,
+   "peak_month": 8,
+   "total_million": 438.46
+  },
+  "2016": {
+   "aug_share": 11.611,
+   "gini_perday": 0.0614,
+   "peak_month": 8,
+   "total_million": 423.1
+  },
+  "2017": {
+   "aug_share": 11.647,
+   "gini_perday": 0.0617,
+   "peak_month": 8,
+   "total_million": 429.91
+  },
+  "2018": {
+   "aug_share": 11.552,
+   "gini_perday": 0.0578,
+   "peak_month": 8,
+   "total_million": 443.73
+  },
+  "2019": {
+   "aug_share": 11.191,
+   "gini_perday": 0.0537,
+   "peak_month": 8,
+   "total_million": 480.27
+  },
+  "2020": {
+   "aug_share": 9.108,
+   "gini_perday": 0.2037,
+   "peak_month": 11,
+   "total_million": 311.31
+  },
+  "2021": {
+   "aug_share": 9.787,
+   "gini_perday": 0.1466,
+   "peak_month": 12,
+   "total_million": 313.46
+  },
+  "2022": {
+   "aug_share": 10.634,
+   "gini_perday": 0.0934,
+   "peak_month": 8,
+   "total_million": 433.96
+  },
+  "2023": {
+   "aug_share": 10.756,
+   "gini_perday": 0.0527,
+   "peak_month": 8,
+   "total_million": 499.72
+  },
+  "2024": {
+   "aug_share": 10.7,
+   "gini_perday": 0.0539,
+   "peak_month": 8,
+   "total_million": 494.6
+  },
+  "2025": {
+   "aug_share": 11.038,
+   "gini_perday": 0.0601,
+   "peak_month": 8,
+   "total_million": 481.18
+  }
+ },
+ "pref_aug_diff_range": [
+  -3.724,
+  0.386
+ ],
+ "pref_aug_early_range": [
+  9.586,
+  18.847
+ ],
+ "robustness": {
+  "R1_pre_vs_late": {
+   "aug_share_2017_19": 11.463,
+   "aug_share_2023_25": 10.831,
+   "gini_2017_19": 0.0578,
+   "gini_2023_25": 0.0556
+  },
+  "R1_slope_2012_19": {
+   "aug_share_pt_per_year": -0.104,
+   "gini_per_year": -0.0018
+  },
+  "R2_gini_raw": {
+   "2012_14": 0.0723,
+   "2023_25": 0.061
+  },
+  "R3_other_measures": {
+   "cv_2012_14": 0.14,
+   "cv_2023_25": 0.107,
+   "peak_ratio_2012_14": 1.41,
+   "peak_ratio_2023_25": 1.277
+  },
+  "R4_single_year": {
+   "aug_share_2012": 12.067,
+   "aug_share_2025": 11.038,
+   "gini_2012": 0.0666,
+   "gini_2025": 0.0601
+  },
+  "R5_pref_vs_2017_19": {
+   "n_pref_aug_down": 40
+  }
+ },
+ "source": "観光庁「宿泊旅行統計調査」日本人延べ宿泊者数（月別、2011〜2025年）"
+}
