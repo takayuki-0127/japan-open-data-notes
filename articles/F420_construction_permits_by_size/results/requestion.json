@@ -1,0 +1,28 @@
+{
+ "wave_years": [
+  2001,
+  2002,
+  2003,
+  2006,
+  2007,
+  2008,
+  2011,
+  2012,
+  2013,
+  2016,
+  2017,
+  2018,
+  2021,
+  2022,
+  2023
+ ],
+ "total_wave": -152756,
+ "total_other": 35476,
+ "individual_wave": -87880,
+ "individual_other": -3070,
+ "c10m50m_wave": -66519,
+ "c10m50m_other": -3324,
+ "lt2m_wave": 18291,
+ "lt2m_other": 13602,
+ "wave_share_of_net": 130.25
+}
