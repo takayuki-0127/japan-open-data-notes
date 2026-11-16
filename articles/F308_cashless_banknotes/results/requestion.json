@@ -1,0 +1,14 @@
+{
+ "first_negative_yoy_10000": "2023-12",
+ "first_negative_yoy_total": "2023-12",
+ "latest": {
+  "ym": "2026-10",
+  "yoy_total": -2.308,
+  "yoy_10000": -2.385,
+  "yoy_1000": -0.914,
+  "call": 1.227
+ },
+ "n_months_10000_negative_2024_2026": 34,
+ "n_months_2024_2026": 34,
+ "mean_yoy_1000_2024_2026": 1.133
+}
