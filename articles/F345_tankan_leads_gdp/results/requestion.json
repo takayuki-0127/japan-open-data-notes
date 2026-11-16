@@ -1,0 +1,26 @@
+{
+ "all": {
+  "coef_dDI": 0.0566,
+  "coef_first": -0.2904,
+  "corr_first_dDI": 0.74,
+  "corr_latest_dDI": 0.753,
+  "corr_rev_dDI": 0.024,
+  "mean_abs_rev": 0.501,
+  "n": 90,
+  "p_dDI": 0.0142,
+  "p_first": 0.0037,
+  "se_dDI": 0.0231
+ },
+ "excl_crisis": {
+  "coef_dDI": 0.0815,
+  "coef_first": -0.4085,
+  "corr_first_dDI": 0.394,
+  "corr_latest_dDI": 0.543,
+  "corr_rev_dDI": 0.268,
+  "mean_abs_rev": 0.488,
+  "n": 83,
+  "p_dDI": 0.0004,
+  "p_first": 0.0002,
+  "se_dDI": 0.0229
+ }
+}

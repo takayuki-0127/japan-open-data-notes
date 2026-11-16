@@ -1,0 +1,233 @@
+{
+ "corr_lag0_excl_crisis": 0.489,
+ "crosscorr_dDI_y_lead_k": {
+  "-1": 0.316,
+  "-2": 0.117,
+  "0": 0.679,
+  "1": 0.106,
+  "2": 0.126
+ },
+ "crosscorr_excl_crisis": {
+  "-1": 0.328,
+  "-2": 0.133,
+  "0": 0.489,
+  "1": 0.269,
+  "2": 0.303
+ },
+ "full_sample_coef": {
+  "const": 0.216,
+  "dDI": 0.174,
+  "n": 128,
+  "y_lag": -0.316
+ },
+ "hypotheses": {
+  "H1": {
+   "crosscorr": {
+    "-1": 0.316,
+    "-2": 0.117,
+    "0": 0.679,
+    "1": 0.106,
+    "2": 0.126
+   },
+   "verdict": "支持"
+  },
+  "H2": {
+   "improve_pct": 35.3,
+   "verdict": "支持"
+  },
+  "H3": {
+   "improve_all": 35.3,
+   "improve_excl": 16.8,
+   "verdict": "支持"
+  },
+  "H4": {
+   "first": 41.4,
+   "latest_same_period": 35.9,
+   "verdict": "外れ"
+  }
+ },
+ "oos_first_2008_2026": {
+  "dm_p_two_sided": 0.125,
+  "dm_stat": 1.53,
+  "improve_pct": 41.4,
+  "n": 74,
+  "neg_caught_ar": 7,
+  "neg_caught_ardi": 13,
+  "neg_quarters": 29,
+  "rmse_ar": 1.723,
+  "rmse_ardi": 1.01,
+  "sign_hit_ar": 0.635,
+  "sign_hit_ardi": 0.689
+ },
+ "oos_first_2008_2026_excl_crisis": {
+  "dm_p_two_sided": 0.774,
+  "dm_stat": 0.29,
+  "improve_pct": 3.3,
+  "n": 67,
+  "neg_caught_ar": 4,
+  "neg_caught_ardi": 10,
+  "neg_quarters": 25,
+  "rmse_ar": 0.728,
+  "rmse_ardi": 0.704,
+  "sign_hit_ar": 0.657,
+  "sign_hit_ardi": 0.672
+ },
+ "oos_latest_2005_2026": {
+  "dm_p_two_sided": 0.071,
+  "dm_stat": 1.81,
+  "improve_pct": 35.3,
+  "n": 86,
+  "neg_caught_ar": 3,
+  "neg_caught_ardi": 11,
+  "neg_quarters": 27,
+  "rmse_ar": 1.467,
+  "rmse_ardi": 0.95,
+  "sign_hit_ar": 0.64,
+  "sign_hit_ardi": 0.709
+ },
+ "oos_latest_2005_2026_excl_crisis": {
+  "dm_p_two_sided": 0.016,
+  "dm_stat": 2.42,
+  "improve_pct": 16.8,
+  "n": 79,
+  "neg_caught_ar": 2,
+  "neg_caught_ardi": 8,
+  "neg_quarters": 24,
+  "rmse_ar": 0.843,
+  "rmse_ardi": 0.702,
+  "sign_hit_ar": 0.684,
+  "sign_hit_ardi": 0.709
+ },
+ "oos_latest_2008_2026": {
+  "dm_p_two_sided": 0.07,
+  "dm_stat": 1.81,
+  "improve_pct": 35.9,
+  "n": 74,
+  "neg_caught_ar": 3,
+  "neg_caught_ardi": 11,
+  "neg_quarters": 26,
+  "rmse_ar": 1.567,
+  "rmse_ardi": 1.004,
+  "sign_hit_ar": 0.595,
+  "sign_hit_ardi": 0.676
+ },
+ "oos_latest_2008_2026_excl_crisis": {
+  "dm_p_two_sided": 0.017,
+  "dm_stat": 2.38,
+  "improve_pct": 17.5,
+  "n": 67,
+  "neg_caught_ar": 2,
+  "neg_caught_ardi": 8,
+  "neg_quarters": 23,
+  "rmse_ar": 0.888,
+  "rmse_ardi": 0.733,
+  "sign_hit_ar": 0.642,
+  "sign_hit_ardi": 0.672
+ },
+ "robust": {
+  "DI水準_全規模全産業": {
+   "dm_p_two_sided": 0.846,
+   "dm_stat": 0.19,
+   "improve_pct": 0.3,
+   "n": 86,
+   "neg_caught_ar": 3,
+   "neg_caught_ardi": 2,
+   "neg_quarters": 27,
+   "rmse_ar": 1.467,
+   "rmse_ardi": 1.463,
+   "sign_hit_ar": 0.64,
+   "sign_hit_ardi": 0.651
+  },
+  "dDI_全規模製造業": {
+   "dm_p_two_sided": 0.07,
+   "dm_stat": 1.81,
+   "improve_pct": 28.1,
+   "n": 86,
+   "neg_caught_ar": 3,
+   "neg_caught_ardi": 11,
+   "neg_quarters": 27,
+   "rmse_ar": 1.467,
+   "rmse_ardi": 1.055,
+   "sign_hit_ar": 0.64,
+   "sign_hit_ardi": 0.709
+  },
+  "dDI_全規模非製造業": {
+   "dm_p_two_sided": 0.092,
+   "dm_stat": 1.68,
+   "improve_pct": 33.0,
+   "n": 86,
+   "neg_caught_ar": 3,
+   "neg_caught_ardi": 11,
+   "neg_quarters": 27,
+   "rmse_ar": 1.467,
+   "rmse_ardi": 0.983,
+   "sign_hit_ar": 0.64,
+   "sign_hit_ardi": 0.744
+  },
+  "dDI_大企業全産業": {
+   "dm_p_two_sided": 0.069,
+   "dm_stat": 1.82,
+   "improve_pct": 30.7,
+   "n": 86,
+   "neg_caught_ar": 3,
+   "neg_caught_ardi": 10,
+   "neg_quarters": 27,
+   "rmse_ar": 1.467,
+   "rmse_ardi": 1.016,
+   "sign_hit_ar": 0.64,
+   "sign_hit_ardi": 0.709
+  },
+  "dDI_大企業製造業": {
+   "dm_p_two_sided": 0.068,
+   "dm_stat": 1.82,
+   "improve_pct": 25.0,
+   "n": 86,
+   "neg_caught_ar": 3,
+   "neg_caught_ardi": 10,
+   "neg_quarters": 27,
+   "rmse_ar": 1.467,
+   "rmse_ardi": 1.1,
+   "sign_hit_ar": 0.64,
+   "sign_hit_ardi": 0.663
+  },
+  "dDI_大企業非製造業": {
+   "dm_p_two_sided": 0.095,
+   "dm_stat": 1.67,
+   "improve_pct": 28.8,
+   "n": 86,
+   "neg_caught_ar": 3,
+   "neg_caught_ardi": 10,
+   "neg_quarters": 27,
+   "rmse_ar": 1.467,
+   "rmse_ardi": 1.044,
+   "sign_hit_ar": 0.64,
+   "sign_hit_ardi": 0.698
+  },
+  "start2010": {
+   "dm_p_two_sided": 0.139,
+   "dm_stat": 1.48,
+   "improve_pct": 37.0,
+   "n": 66,
+   "neg_caught_ar": 2,
+   "neg_caught_ardi": 8,
+   "neg_quarters": 21,
+   "rmse_ar": 1.467,
+   "rmse_ardi": 0.925,
+   "sign_hit_ar": 0.636,
+   "sign_hit_ardi": 0.697
+  },
+  "start2010_excl_crisis": {
+   "dm_p_two_sided": 0.026,
+   "dm_stat": 2.22,
+   "improve_pct": 17.9,
+   "n": 62,
+   "neg_caught_ar": 2,
+   "neg_caught_ardi": 7,
+   "neg_quarters": 20,
+   "rmse_ar": 0.867,
+   "rmse_ardi": 0.712,
+   "sign_hit_ar": 0.677,
+   "sign_hit_ardi": 0.694
+  }
+ }
+}
