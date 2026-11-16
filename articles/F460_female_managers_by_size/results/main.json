@@ -1,0 +1,252 @@
+{
+ "H1": {
+  "large": 9.35,
+  "ratio": 2.37,
+  "result": "当たり",
+  "small": 22.19
+ },
+ "H2": {
+  "gap_2011": 13.98,
+  "gap_2025": 12.84,
+  "large_2011": 2.93,
+  "ratio_2011": 5.77,
+  "ratio_2025": 2.37,
+  "result": "当たり",
+  "small_2011": 16.91
+ },
+ "H3": {
+  "ratio_by_role_2025": {
+   "bucho": 3.51,
+   "kacho": 1.8,
+   "kakari": 1.79,
+   "yakuin": 4.04
+  },
+  "result": "当たり"
+ },
+ "H4": {
+  "large_2009": 8.44,
+  "large_2025": 14.46,
+  "large_up": 6.02,
+  "result": "当たり",
+  "small_2009": 21.39,
+  "small_2025": 25.92,
+  "small_up": 4.53
+ },
+ "robustness": {
+  "R1_roles_gap": {
+   "bucho": {
+    "gap_2011": 6.7,
+    "gap_2025": 11.95,
+    "ratio_2011": 4.42,
+    "ratio_2025": 3.51
+   },
+   "kacho": {
+    "gap_2011": 7.87,
+    "gap_2025": 8.4,
+    "ratio_2011": 3.43,
+    "ratio_2025": 1.8
+   },
+   "kakari": {
+    "gap_2011": 9.69,
+    "gap_2025": 11.47,
+    "ratio_2011": 1.98,
+    "ratio_2025": 1.79
+   }
+  },
+  "R2_3yr_avg_kacho_up": {
+   "early_years": [
+    2011,
+    2013,
+    2015
+   ],
+   "gap_early": 14.59,
+   "gap_late": 12.11,
+   "large_early": 4.11,
+   "large_late": 9.38,
+   "late_years": [
+    2023,
+    2024,
+    2025
+   ],
+   "ratio_early": 4.55,
+   "ratio_late": 2.29,
+   "small_early": 18.7,
+   "small_late": 21.49
+  },
+  "R2_3yr_avg_kakari": {
+   "early_years": [
+    2009,
+    2011,
+    2013
+   ],
+   "large_up": 5.96,
+   "late_years": [
+    2023,
+    2024,
+    2025
+   ],
+   "small_up": 6.31
+  },
+  "R3_spearman_kacho_up": [
+   {
+    "rho_5sizes_30plus": 0.9,
+    "rho_6sizes": 0.94,
+    "year": 2011
+   },
+   {
+    "rho_5sizes_30plus": 0.9,
+    "rho_6sizes": 0.94,
+    "year": 2013
+   },
+   {
+    "rho_5sizes_30plus": 0.7,
+    "rho_6sizes": 0.83,
+    "year": 2015
+   },
+   {
+    "rho_5sizes_30plus": 0.7,
+    "rho_6sizes": 0.83,
+    "year": 2016
+   },
+   {
+    "rho_5sizes_30plus": 0.82,
+    "rho_6sizes": 0.9,
+    "year": 2017
+   },
+   {
+    "rho_5sizes_30plus": 0.6,
+    "rho_6sizes": 0.77,
+    "year": 2018
+   },
+   {
+    "rho_5sizes_30plus": 0.3,
+    "rho_6sizes": 0.6,
+    "year": 2019
+   },
+   {
+    "rho_5sizes_30plus": 0.9,
+    "rho_6sizes": 0.94,
+    "year": 2020
+   },
+   {
+    "rho_5sizes_30plus": 1.0,
+    "rho_6sizes": 1.0,
+    "year": 2021
+   },
+   {
+    "rho_5sizes_30plus": 0.6,
+    "rho_6sizes": 0.77,
+    "year": 2022
+   },
+   {
+    "rho_5sizes_30plus": 0.3,
+    "rho_6sizes": 0.6,
+    "year": 2023
+   },
+   {
+    "rho_5sizes_30plus": 0.7,
+    "rho_6sizes": 0.83,
+    "year": 2024
+   },
+   {
+    "rho_5sizes_30plus": 0.9,
+    "rho_6sizes": 0.94,
+    "year": 2025
+   }
+  ],
+  "R4_small_gt_large_years": {
+   "kacho_up": "13/13",
+   "kakari": "14/14"
+  },
+  "R5_2003_kakari_up": {
+   "1,000~4,999人": 3.58,
+   "100~299人": 6.84,
+   "300~999人": 3.6,
+   "30~99人": 10.65,
+   "5,000人以上": 3.35
+  },
+  "R5_2025_kakari_up": {
+   "1,000~4,999人": 15.22,
+   "100~299人": 14.09,
+   "300~999人": 14.55,
+   "30~99人": 17.53,
+   "5,000人以上": 11.54
+  }
+ },
+ "source": "厚生労働省「雇用均等基本調査」企業調査 役職別女性管理職（等）割合",
+ "table_2025": {
+  "1,000~4,999人": {
+   "bucho": 6.29,
+   "kacho": 12.09,
+   "kacho_up": 10.39,
+   "kakari": 21.03,
+   "kakari_up": 15.22,
+   "yakuin": 6.83
+  },
+  "100~299人": {
+   "bucho": 6.29,
+   "kacho": 12.22,
+   "kacho_up": 10.46,
+   "kakari": 20.24,
+   "kakari_up": 14.09,
+   "yakuin": 11.2
+  },
+  "10~29人": {
+   "bucho": 16.72,
+   "kacho": 18.93,
+   "kacho_up": 22.19,
+   "kakari": 25.92,
+   "kakari_up": 22.87,
+   "yakuin": 26.88
+  },
+  "10人以上": {
+   "bucho": 9.25,
+   "kacho": 13.16,
+   "kacho_up": 13.76,
+   "kakari": 20.92,
+   "kakari_up": 16.22,
+   "yakuin": 21.03
+  },
+  "300~999人": {
+   "bucho": 5.44,
+   "kacho": 12.03,
+   "kacho_up": 9.81,
+   "kakari": 21.64,
+   "kakari_up": 14.55,
+   "yakuin": 5.72
+  },
+  "30~99人": {
+   "bucho": 10.72,
+   "kacho": 15.24,
+   "kacho_up": 15.07,
+   "kakari": 24.4,
+   "kakari_up": 17.53,
+   "yakuin": 19.19
+  },
+  "5,000人以上": {
+   "bucho": 4.77,
+   "kacho": 10.54,
+   "kacho_up": 9.35,
+   "kakari": 14.46,
+   "kakari_up": 11.54,
+   "yakuin": 6.65
+  }
+ },
+ "years": [
+  2003,
+  2009,
+  2011,
+  2013,
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ]
+}
