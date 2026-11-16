@@ -1,0 +1,81 @@
+{
+ "loss_by_group": {
+  "売場面積が増えた業種": {
+   "n": 23,
+   "indiv_loss": -142597,
+   "share_of_loss": 43.098
+  },
+  "売場面積が減った業種": {
+   "n": 23,
+   "indiv_loss": -188270,
+   "share_of_loss": 56.902
+  }
+ },
+ "n_industries": 46,
+ "n_indiv_share_fell": 44,
+ "indiv_share_total": [
+  66.593,
+  53.994
+ ],
+ "indiv_share_change": -12.599,
+ "within": -12.627,
+ "between": 0.029,
+ "top_loss": [
+  {
+   "code": "5762",
+   "name": "菓子小売業（製造小売でないもの）",
+   "loss": -43249,
+   "floor_dlog": -78.084,
+   "share_change": -27.269
+  },
+  {
+   "code": "5799",
+   "name": "他に分類されない飲食料品小売業",
+   "loss": -30073,
+   "floor_dlog": 30.232,
+   "share_change": -21.936
+  },
+  {
+   "code": "6011",
+   "name": "医薬品小売業（調剤薬局を除く）",
+   "loss": -21540,
+   "floor_dlog": 51.576,
+   "share_change": -16.423
+  },
+  {
+   "code": "5921",
+   "name": "電気機械器具小売業",
+   "loss": -18553,
+   "floor_dlog": 34.632,
+   "share_change": -7.445
+  },
+  {
+   "code": "5751",
+   "name": "野菜小売業",
+   "loss": -14186,
+   "floor_dlog": -26.034,
+   "share_change": -9.588
+  },
+  {
+   "code": "6043",
+   "name": "紙・文房具小売業",
+   "loss": -12957,
+   "floor_dlog": -15.26,
+   "share_change": -19.059
+  },
+  {
+   "code": "6013",
+   "name": "化粧品小売業",
+   "loss": -12839,
+   "floor_dlog": 51.264,
+   "share_change": -13.712
+  },
+  {
+   "code": "6091",
+   "name": "たばこ・喫煙具専門小売業",
+   "loss": -11223,
+   "floor_dlog": -22.246,
+   "share_change": -2.187
+  }
+ ]
+}

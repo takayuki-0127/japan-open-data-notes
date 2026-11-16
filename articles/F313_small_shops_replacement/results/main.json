@@ -1,0 +1,173 @@
+{
+ "main": {
+  "est": [
+   1605583,
+   1137859
+  ],
+  "corp": [
+   571182,
+   565969
+  ],
+  "indiv": [
+   1034401,
+   571890
+  ],
+  "change_total": -467724,
+  "change_corp": -5213,
+  "change_indiv": -462511,
+  "indiv_share_of_decline": 98.885,
+  "floor_dlog": 30.881,
+  "floor": [
+   109901497.0,
+   149664906.0
+  ],
+  "floor_per_est_dlog": 65.315,
+  "floor_per_est": [
+   68.45,
+   131.532
+  ],
+  "sales_dlog": -5.478,
+  "employees_dlog": 7.949
+ },
+ "H1_verdict": "外れ",
+ "H2_verdict": "支持",
+ "H4_verdict": "支持",
+ "H3": {
+  "slope": 0.205,
+  "se": 0.156,
+  "p": 0.189,
+  "n": 46,
+  "r2": 0.157,
+  "n_detail_2007": 62,
+  "indiv_2007_covered_share": 58.937
+ },
+ "H3_verdict": "外れ",
+ "robustness": [
+  {
+   "spec": "R1 始点を1994年",
+   "indiv_share_of_decline": 95.792,
+   "corp_change": -15238,
+   "floor_dlog": 20.747,
+   "floor_per_est_dlog": 48.375,
+   "H3_slope": 0.391,
+   "H3_se": 0.161,
+   "H3_p": 0.015,
+   "H3_n": 48,
+   "H3_r2": 0.181
+  },
+  {
+   "spec": "R2 1991年の再集計前の値",
+   "indiv_share_of_decline": 100.293,
+   "corp_change": 1327,
+   "floor_dlog": 30.881,
+   "floor_per_est_dlog": 64.417,
+   "H3_slope": 0.435,
+   "H3_se": 0.204,
+   "H3_p": 0.033,
+   "H3_n": 43,
+   "H3_r2": 0.271
+  },
+  {
+   "spec": "R3 H3 を法人の事業所数の伸びで",
+   "H3_slope": 0.941,
+   "H3_se": 0.152,
+   "H3_p": 0.0,
+   "H3_n": 46,
+   "H3_r2": 0.493
+  },
+  {
+   "spec": "R4 H3 を重みなしで",
+   "H3_slope": 0.152,
+   "H3_se": 0.161,
+   "H3_p": 0.347,
+   "H3_n": 46,
+   "H3_r2": 0.16
+  }
+ ],
+ "by_major": {
+  "55": {
+   "name": "各種商品小売業",
+   "indiv": [
+    958,
+    767
+   ],
+   "corp": [
+    3514,
+    3975
+   ],
+   "indiv_dlog": -22.236,
+   "corp_dlog": 12.327,
+   "floor_dlog": 27.519
+  },
+  "56": {
+   "name": "織物・衣服・身の回り品小売業",
+   "indiv": [
+    139212,
+    73620
+   ],
+   "corp": [
+    101793,
+    93112
+   ],
+   "indiv_dlog": -63.708,
+   "corp_dlog": -8.914,
+   "floor_dlog": 13.976
+  },
+  "57": {
+   "name": "飲食料品小売業",
+   "indiv": [
+    453436,
+    231389
+   ],
+   "corp": [
+    169120,
+    158443
+   ],
+   "indiv_dlog": -67.275,
+   "corp_dlog": -6.521,
+   "floor_dlog": 16.191
+  },
+  "58": {
+   "name": "自動車・自転車小売業",
+   "indiv": [
+    48377,
+    34701
+   ],
+   "corp": [
+    44852,
+    48283
+   ],
+   "indiv_dlog": -33.226,
+   "corp_dlog": 7.371,
+   "floor_dlog": 65.623
+  },
+  "59": {
+   "name": "家具・じゅう器・機械器具小売業",
+   "indiv": [
+    103025,
+    53667
+   ],
+   "corp": [
+    58522,
+    45260
+   ],
+   "indiv_dlog": -65.217,
+   "corp_dlog": -25.698,
+   "floor_dlog": 15.458
+  },
+  "60": {
+   "name": "その他の小売業",
+   "indiv": [
+    289393,
+    177746
+   ],
+   "corp": [
+    193381,
+    216896
+   ],
+   "indiv_dlog": -48.743,
+   "corp_dlog": 11.476,
+   "floor_dlog": 67.022
+  }
+ }
+}
