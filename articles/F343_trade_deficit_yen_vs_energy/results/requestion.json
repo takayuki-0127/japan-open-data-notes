@@ -1,0 +1,67 @@
+{
+ "2019_2022": {
+  "d_balance_ex_fx_tyen": -14.42,
+  "d_balance_tyen": -18.66,
+  "d_exports_tyen": 21.24,
+  "d_imports_tyen": 39.9,
+  "export_fx_ratio_change_pct": 12.4,
+  "exports_fx_part_tyen": 10.16,
+  "import_fx_ratio_change_pct": 16.0,
+  "imports_fx_part_tyen": 14.4,
+  "net_fx_on_balance_tyen": -4.24,
+  "y0": 2019,
+  "y1": 2022
+ },
+ "2020_2022": {
+  "d_balance_ex_fx_tyen": -16.73,
+  "d_balance_tyen": -20.72,
+  "d_exports_tyen": 29.77,
+  "d_imports_tyen": 50.49,
+  "export_fx_ratio_change_pct": 13.7,
+  "exports_fx_part_tyen": 10.55,
+  "import_fx_ratio_change_pct": 17.3,
+  "imports_fx_part_tyen": 14.54,
+  "net_fx_on_balance_tyen": -3.99,
+  "y0": 2020,
+  "y1": 2022
+ },
+ "2020_2025": {
+  "d_balance_ex_fx_tyen": 0.44,
+  "d_balance_tyen": -3.56,
+  "d_exports_tyen": 42.0,
+  "d_imports_tyen": 45.56,
+  "export_fx_ratio_change_pct": 23.5,
+  "exports_fx_part_tyen": 18.48,
+  "import_fx_ratio_change_pct": 28.8,
+  "imports_fx_part_tyen": 22.49,
+  "net_fx_on_balance_tyen": -4.0,
+  "y0": 2020,
+  "y1": 2025
+ },
+ "2021_2022": {
+  "d_balance_ex_fx_tyen": -14.27,
+  "d_balance_tyen": -18.55,
+  "d_exports_tyen": 15.08,
+  "d_imports_tyen": 33.63,
+  "export_fx_ratio_change_pct": 11.0,
+  "exports_fx_part_tyen": 9.47,
+  "import_fx_ratio_change_pct": 14.6,
+  "imports_fx_part_tyen": 13.74,
+  "net_fx_on_balance_tyen": -4.27,
+  "y0": 2021,
+  "y1": 2022
+ },
+ "2022_2025": {
+  "d_balance_ex_fx_tyen": 19.36,
+  "d_balance_tyen": 17.16,
+  "d_exports_tyen": 12.23,
+  "d_imports_tyen": -4.93,
+  "export_fx_ratio_change_pct": 8.6,
+  "exports_fx_part_tyen": 8.61,
+  "import_fx_ratio_change_pct": 9.8,
+  "imports_fx_part_tyen": 10.81,
+  "net_fx_on_balance_tyen": -2.2,
+  "y0": 2022,
+  "y1": 2025
+ }
+}
