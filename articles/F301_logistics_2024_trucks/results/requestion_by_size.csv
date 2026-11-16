@@ -1,0 +1,7 @@
+col,mean_dev_pct,year1_dev_pct,year2_dev_pct,resid_sd_pct
+ton_large,1.1818,2.3469,0.1181,4.1687
+tonkm_large,-6.5374,-1.4504,-10.9997,3.3027
+dist_large,-7.629,-3.7102,-11.1047,5.2506
+ton_small_mid,1.2879,1.2394,1.3328,4.4653
+tonkm_small_mid,-2.3682,0.8678,-5.2629,3.7162
+dist_small_mid,-3.6096,-0.3671,-6.509,3.618

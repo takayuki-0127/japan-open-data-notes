@@ -1,0 +1,113 @@
+{
+ "its": {
+  "ton_large": {
+   "col": "ton_large",
+   "mean_dev_pct": 1.1818,
+   "year1_dev_pct": 2.3469,
+   "year2_dev_pct": 0.1181,
+   "resid_sd_pct": 4.1687
+  },
+  "tonkm_large": {
+   "col": "tonkm_large",
+   "mean_dev_pct": -6.5374,
+   "year1_dev_pct": -1.4504,
+   "year2_dev_pct": -10.9997,
+   "resid_sd_pct": 3.3027
+  },
+  "dist_large": {
+   "col": "dist_large",
+   "mean_dev_pct": -7.629,
+   "year1_dev_pct": -3.7102,
+   "year2_dev_pct": -11.1047,
+   "resid_sd_pct": 5.2506
+  },
+  "ton_small_mid": {
+   "col": "ton_small_mid",
+   "mean_dev_pct": 1.2879,
+   "year1_dev_pct": 1.2394,
+   "year2_dev_pct": 1.3328,
+   "resid_sd_pct": 4.4653
+  },
+  "tonkm_small_mid": {
+   "col": "tonkm_small_mid",
+   "mean_dev_pct": -2.3682,
+   "year1_dev_pct": 0.8678,
+   "year2_dev_pct": -5.2629,
+   "resid_sd_pct": 3.7162
+  },
+  "dist_small_mid": {
+   "col": "dist_small_mid",
+   "mean_dev_pct": -3.6096,
+   "year1_dev_pct": -0.3671,
+   "year2_dev_pct": -6.509,
+   "resid_sd_pct": 3.618
+  }
+ },
+ "fy": [
+  {
+   "fy": 2021,
+   "ton_large": 1112163.0,
+   "tonkm_large": 120942.0,
+   "ton_small_mid": 946125.0,
+   "tonkm_small_mid": 32115.0,
+   "tonkm_commercial": 196438.0,
+   "ton_commercial": 2602052.0,
+   "dist_large": 108.7449,
+   "dist_small_mid": 33.9437,
+   "dist_all": 75.4935,
+   "large_share_tonkm": 0.6157
+  },
+  {
+   "fy": 2022,
+   "ton_large": 1120954.0,
+   "tonkm_large": 125335.0,
+   "ton_small_mid": 918850.0,
+   "tonkm_small_mid": 31032.0,
+   "tonkm_commercial": 199148.0,
+   "ton_commercial": 2557547.0,
+   "dist_large": 111.811,
+   "dist_small_mid": 33.7727,
+   "dist_all": 77.8668,
+   "large_share_tonkm": 0.6294
+  },
+  {
+   "fy": 2023,
+   "ton_large": 1109999.0,
+   "tonkm_large": 127682.0,
+   "ton_small_mid": 881400.0,
+   "tonkm_small_mid": 30432.0,
+   "tonkm_commercial": 202139.0,
+   "ton_commercial": 2511936.0,
+   "dist_large": 115.0289,
+   "dist_small_mid": 34.5269,
+   "dist_all": 80.4714,
+   "large_share_tonkm": 0.6317
+  },
+  {
+   "fy": 2024,
+   "ton_large": 1142833.0,
+   "tonkm_large": 129629.0,
+   "ton_small_mid": 861282.0,
+   "tonkm_small_mid": 29806.0,
+   "tonkm_commercial": 203795.0,
+   "ton_commercial": 2509476.0,
+   "dist_large": 113.4278,
+   "dist_small_mid": 34.6066,
+   "dist_all": 81.2102,
+   "large_share_tonkm": 0.6361
+  },
+  {
+   "fy": 2025,
+   "ton_large": 1115173.0,
+   "tonkm_large": 120052.0,
+   "ton_small_mid": 825136.0,
+   "tonkm_small_mid": 27266.0,
+   "tonkm_commercial": 189278.0,
+   "ton_commercial": 2425578.0,
+   "dist_large": 107.6533,
+   "dist_small_mid": 33.0442,
+   "dist_all": 78.0342,
+   "large_share_tonkm": 0.6343
+  }
+ ]
+}
