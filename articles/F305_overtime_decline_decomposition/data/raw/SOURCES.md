@@ -1,0 +1,8 @@
+# 元データの出典（取得日と URL）
+
+| ファイル | 中身 | URL | 取得日 |
+|---|---|---|---|
+| maikin_jissu_cumulative.csv.gz | 厚生労働省「毎月勤労統計調査」全国調査 実数・指数累積データ 実数（CSV、Shift_JIS。gzip で圧縮して保存） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032189776&fileKind=1 | 2026-11-16 |
+
+- 統計表一覧：https://www.e-stat.go.jp/stat-search/files?toukei=00450071&tstat=000001011791
+- 政府統計の総合窓口（e-Stat）から取得。政府標準利用規約（第2.0版）に従い、出典を示して加工して使う。

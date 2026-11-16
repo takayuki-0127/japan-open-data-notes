@@ -1,0 +1,9 @@
+{
+ "n_industries": 16,
+ "n_total_down": 15,
+ "n_days_down": 16,
+ "n_perday_down": 7,
+ "n_days_bigger_than_perday": 15,
+ "median_days_logpct": -4.37,
+ "median_perday_logpct": 0.596
+}
