@@ -1,0 +1,5 @@
+series,col,ols_pct_per_year,theil_sen_pct_per_year,boot_ci_low_pct,boot_ci_high_pct
+名目額,damage_nominal_oku,1.6199,1.6721,0.4121,2.8563
+実質額（平成27年価格）,damage_real2015_oku,-0.1668,-0.2553,-1.0261,0.7276
+国民所得に対する割合（実質÷実質）,ratio_real_pct,-2.8167,-2.9037,-3.8275,-1.8373
+国民所得に対する割合（名目÷名目）,ratio_nominal_pct,-2.8167,-2.9037,-3.8275,-1.8373

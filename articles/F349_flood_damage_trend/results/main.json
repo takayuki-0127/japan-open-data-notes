@@ -1,0 +1,257 @@
+{
+ "period": [
+  1961,
+  2023
+ ],
+ "trend": [
+  {
+   "series": "名目額",
+   "col": "damage_nominal_oku",
+   "ols_pct_per_year": 1.6199,
+   "theil_sen_pct_per_year": 1.6721,
+   "boot_ci_low_pct": 0.4121,
+   "boot_ci_high_pct": 2.8563
+  },
+  {
+   "series": "実質額（平成27年価格）",
+   "col": "damage_real2015_oku",
+   "ols_pct_per_year": -0.1668,
+   "theil_sen_pct_per_year": -0.2553,
+   "boot_ci_low_pct": -1.0261,
+   "boot_ci_high_pct": 0.7276
+  },
+  {
+   "series": "国民所得に対する割合（実質÷実質）",
+   "col": "ratio_real_pct",
+   "ols_pct_per_year": -2.8167,
+   "theil_sen_pct_per_year": -2.9037,
+   "boot_ci_low_pct": -3.8275,
+   "boot_ci_high_pct": -1.8373
+  },
+  {
+   "series": "国民所得に対する割合（名目÷名目）",
+   "col": "ratio_nominal_pct",
+   "ols_pct_per_year": -2.8167,
+   "theil_sen_pct_per_year": -2.9037,
+   "boot_ci_low_pct": -3.8275,
+   "boot_ci_high_pct": -1.8373
+  }
+ ],
+ "hypotheses": {
+  "H1": {
+   "rule": "名目額の傾きが正なら支持",
+   "value_pct_per_year": 1.619933952158359,
+   "verdict": "支持"
+  },
+  "H2": {
+   "rule": "実質額の傾きが正で95%区間が0を含まなければ外れ",
+   "value_pct_per_year": -0.16675250902682404,
+   "ci": [
+    -1.0260974910126675,
+    0.727607633816385
+   ],
+   "verdict": "支持"
+  },
+  "H3": {
+   "rule": "被害率（実質÷実質）の傾きが負なら支持",
+   "value_pct_per_year": -2.816708068115603,
+   "verdict": "支持"
+  },
+  "H4": {
+   "rule": "上位2年を除いた2014〜23年の平均が、1961〜2013年の10年ごとの平均の最大を上回れば外れ",
+   "recent_mean": 7515.732562,
+   "recent_mean_excl_top2": 4946.3547375,
+   "recent_top2": [
+    2019,
+    2018
+   ],
+   "early_decade_max": 7444.042791,
+   "early_decade_max_start": 1981,
+   "verdict": "支持"
+  }
+ },
+ "top_share_real": {
+  "1": 0.05610112274859317,
+  "3": 0.14433600059197704,
+  "5": 0.2125931069408669,
+  "10": 0.3456644859186053
+ },
+ "top3_years": [
+  2019,
+  2004,
+  1982
+ ],
+ "top_years": [
+  {
+   "year": 2019,
+   "damage_real2015_oku": 21574.04,
+   "ratio_real_pct": 0.54
+  },
+  {
+   "year": 2004,
+   "damage_real2015_oku": 19173.7,
+   "ratio_real_pct": 0.53
+  },
+  {
+   "year": 1982,
+   "damage_real2015_oku": 14757.58,
+   "ratio_real_pct": 0.63
+  },
+  {
+   "year": 2018,
+   "damage_real2015_oku": 14012.45,
+   "ratio_real_pct": 0.35
+  },
+  {
+   "year": 1976,
+   "damage_real2015_oku": 12236.25,
+   "ratio_real_pct": 0.67
+  },
+  {
+   "year": 1972,
+   "damage_real2015_oku": 12000.0,
+   "ratio_real_pct": 0.77
+  },
+  {
+   "year": 1961,
+   "damage_real2015_oku": 10844.81,
+   "ratio_real_pct": 2.01
+  },
+  {
+   "year": 1990,
+   "damage_real2015_oku": 9645.75,
+   "ratio_real_pct": 0.31
+  },
+  {
+   "year": 1998,
+   "damage_real2015_oku": 9433.92,
+   "ratio_real_pct": 0.28
+  },
+  {
+   "year": 1981,
+   "damage_real2015_oku": 9248.95,
+   "ratio_real_pct": 0.41
+  }
+ ],
+ "robustness": [
+  {
+   "check": "1946〜2023年（前は別の推計）",
+   "real_ols": -0.6699,
+   "real_ts": -0.7076,
+   "ratio_ols": -4.7185,
+   "ratio_ts": -4.7082
+  },
+  {
+   "check": "本線 1961〜2023年",
+   "real_ols": -0.1668,
+   "real_ts": -0.2553,
+   "ratio_ols": -2.8167,
+   "ratio_ts": -2.9037
+  },
+  {
+   "check": "1976〜2023年",
+   "real_ols": -0.4164,
+   "real_ts": -0.6456,
+   "ratio_ols": -1.8586,
+   "ratio_ts": -2.0255
+  },
+  {
+   "check": "1991〜2023年",
+   "real_ols": 1.2145,
+   "real_ts": 1.6218,
+   "ratio_ols": 0.5077,
+   "ratio_ts": 1.0676
+  },
+  {
+   "check": "上位3年を除く（1961〜2023年）",
+   "real_ols": -0.4069,
+   "real_ts": -0.4129,
+   "ratio_ols": -3.0885,
+   "ratio_ts": -3.0626
+  }
+ ],
+ "decades": [
+  {
+   "decade": 1961,
+   "n": 10,
+   "real_mean": 4961.379,
+   "real_median": 4247.039,
+   "ratio_mean": 0.66,
+   "ratio_median": 0.574,
+   "nominal_mean": 1672.567,
+   "label": "1961〜1970"
+  },
+  {
+   "decade": 1971,
+   "n": 10,
+   "real_mean": 6833.046,
+   "real_median": 6737.385,
+   "ratio_mean": 0.388,
+   "ratio_median": 0.387,
+   "nominal_mean": 4628.384,
+   "label": "1971〜1980"
+  },
+  {
+   "decade": 1981,
+   "n": 10,
+   "real_mean": 7444.043,
+   "real_median": 6758.168,
+   "ratio_mean": 0.292,
+   "ratio_median": 0.259,
+   "nominal_mean": 7460.017,
+   "label": "1981〜1990"
+  },
+  {
+   "decade": 1991,
+   "n": 10,
+   "real_mean": 5816.734,
+   "real_median": 6007.253,
+   "ratio_mean": 0.175,
+   "ratio_median": 0.184,
+   "nominal_mean": 6588.765,
+   "label": "1991〜2000"
+  },
+  {
+   "decade": 2001,
+   "n": 10,
+   "real_mean": 4356.146,
+   "real_median": 2700.714,
+   "ratio_mean": 0.12,
+   "ratio_median": 0.077,
+   "nominal_mean": 4557.427,
+   "label": "2001〜2010"
+  },
+  {
+   "decade": 2011,
+   "n": 10,
+   "real_mean": 7425.503,
+   "real_median": 4997.911,
+   "ratio_mean": 0.191,
+   "ratio_median": 0.126,
+   "nominal_mean": 7414.158,
+   "label": "2011〜2020"
+  },
+  {
+   "decade": 2021,
+   "n": 3,
+   "real_mean": 5395.926,
+   "real_median": 5953.347,
+   "ratio_mean": 0.136,
+   "ratio_median": 0.151,
+   "nominal_mean": 5599.073,
+   "label": "2021〜2023"
+  }
+ ],
+ "early_decade_min": 4356.14589,
+ "early_decade_min_start": 2001,
+ "real_1961": 10844.80685,
+ "real_2019": 21574.0391,
+ "real_2023": 6711.70284,
+ "nominal_1961": 3047.15,
+ "nominal_2019": 21791.95869,
+ "ratio_1961": 2.010563682310946,
+ "ratio_2019": 0.5439191779014616,
+ "ratio_2023": 0.16502780684789561,
+ "ni_real_ratio_2023_1961": 7.540004477231498,
+ "max_abs_diff_ratio_vs_table": 1.7763568394002505e-15
+}
