@@ -1,0 +1,23 @@
+{
+ "master_edu_2010": 4865.0,
+ "master_edu_2025": 1856.0,
+ "teach_2010": 805.0,
+ "teach_2025": 2168.0,
+ "edu_combined_2010": 5670.0,
+ "edu_combined_2025": 4024.0,
+ "law_2009": 4843.0,
+ "law_2010": 4121.0,
+ "law_min_year": 2018,
+ "law_min": 1624.0,
+ "law_2025": 2181.0,
+ "other_prof_2010": 4005.0,
+ "other_prof_2025": 4978.0,
+ "long_master_rate_1990": 6.740363818738442,
+ "long_master_rate_2000": 10.58107347726423,
+ "long_master_rate_2012": 14.537667058223807,
+ "long_master_rate_2025": 13.154523673160929,
+ "long_master_rate_peak_year": 2012,
+ "long_master_rate_peak": 14.537667058223807,
+ "master_grad_1980": 15258.0,
+ "master_grad_2000": 56038.0
+}
