@@ -1,0 +1,18 @@
+{
+ "observed_change": 9.067,
+ "jobs_ratio_start": 0.797,
+ "jobs_ratio_end": 1.26,
+ "part_jobs_ratio": 2.02,
+ "part_trend": 5.803,
+ "residual": 1.244,
+ "share_jobs_ratio": 0.223,
+ "share_trend": 0.64,
+ "only_ratio_coef": 8.454,
+ "only_ratio_part": 3.917,
+ "resid_only_ratio_2007_2012_mean": -0.88,
+ "resid_only_ratio_2020_2025_mean": 1.996,
+ "n_pairs": 2,
+ "pairs_diff_median": 3.1,
+ "pairs_diff_min": 3.1,
+ "pairs_diff_max": 3.1
+}
