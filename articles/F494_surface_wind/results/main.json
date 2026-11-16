@@ -1,0 +1,148 @@
+{
+ "H1": {
+  "mean_1961_1970_median": 3.235,
+  "mean_2016_2025_median": 3.015,
+  "n_negative": 8,
+  "naive_median": 0.0,
+  "result": "外れ",
+  "threshold": -0.05
+ },
+ "H2": {
+  "fe_median": 0.024,
+  "naive_median": 0.0,
+  "naive_ols_median": 0.017,
+  "result": "外れ"
+ },
+ "H3": {
+  "neg": 12,
+  "p": 0.215,
+  "pos": 20,
+  "result": "外れ"
+ },
+ "H4": {
+  "city_fe_median": -0.048,
+  "diff": -0.116,
+  "mannwhitney_p": 0.069,
+  "result": "支持",
+  "rural_fe_median": 0.068,
+  "threshold": -0.03
+ },
+ "H5": {
+  "d10_1961_1970_median": 46.25,
+  "d10_2016_2025_median": 29.2,
+  "fe_d10_median": 0.818,
+  "naive_d10_median": -0.533,
+  "neg": 15,
+  "p": 0.86,
+  "pos": 17,
+  "result": "外れ"
+ },
+ "breaks_median_per_station": 2.0,
+ "breaks_total": 64,
+ "by_group": {
+  "15地点": {
+   "fe": 0.068,
+   "fe_d10": 0.972,
+   "fe_pct": 1.447,
+   "naive": -0.0,
+   "naive_d10": -0.588,
+   "naive_pct": -0.0
+  },
+  "大都市": {
+   "fe": -0.048,
+   "fe_d10": -0.423,
+   "fe_pct": -1.603,
+   "naive": -0.0,
+   "naive_d10": -2.679,
+   "naive_pct": -0.0
+  },
+  "寒い地域": {
+   "fe": 0.024,
+   "fe_d10": 3.535,
+   "fe_pct": 0.781,
+   "naive": 0.013,
+   "naive_d10": -0.095,
+   "naive_pct": 0.315
+  }
+ },
+ "by_group_n": {
+  "15地点": 15,
+  "大都市": 11,
+  "寒い地域": 6
+ },
+ "n_stations": 32,
+ "robust": [
+  {
+   "check": "そのまま（Theil–Sen、1961〜2025年）",
+   "median": 0.0,
+   "n": 32,
+   "neg": 8,
+   "pos": 15,
+   "sign_p": 0.21
+  },
+  {
+   "check": "そのまま（最小二乗法）",
+   "median": 0.017,
+   "n": 32,
+   "neg": 13,
+   "pos": 19,
+   "sign_p": 0.377
+  },
+  {
+   "check": "段差を許した傾き（本線）",
+   "median": 0.024,
+   "n": 32,
+   "neg": 12,
+   "pos": 20,
+   "sign_p": 0.215
+  },
+  {
+   "check": "1981〜2025年：そのまま",
+   "median": 0.045,
+   "n": 32,
+   "neg": 6,
+   "pos": 18,
+   "sign_p": 0.023
+  },
+  {
+   "check": "1981〜2025年：段差を許す",
+   "median": 0.008,
+   "n": 32,
+   "neg": 15,
+   "pos": 17,
+   "sign_p": 0.86
+  },
+  {
+   "check": "いちばん長い区間だけ（Theil–Sen）",
+   "median": 0.0,
+   "n": 32,
+   "neg": 8,
+   "pos": 13,
+   "sign_p": 0.383
+  },
+  {
+   "check": "切れ目が3つ以下の地点だけ：段差を許す",
+   "median": 0.031,
+   "n": 30,
+   "neg": 10,
+   "pos": 20,
+   "sign_p": 0.099
+  },
+  {
+   "check": "%/10年：そのまま",
+   "median": 0.0,
+   "n": 32,
+   "neg": 8,
+   "pos": 15,
+   "sign_p": 0.21
+  },
+  {
+   "check": "%/10年：段差を許す",
+   "median": 0.672,
+   "n": 32,
+   "neg": 12,
+   "pos": 20,
+   "sign_p": 0.215
+  }
+ ]
+}
