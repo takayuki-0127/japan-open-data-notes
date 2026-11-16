@@ -1,0 +1,566 @@
+{
+ "abandon": {
+  "abandoned_1997_2016_ha": 77790.0,
+  "abandoned_2017_2025_ha": 57380.0,
+  "abandoned_share_2017_2025_pct": 34.9,
+  "abandoned_share_of_total_1997_2016_pct": 24.5,
+  "by_period": [
+   {
+    "ab_abandoned": NaN,
+    "ab_disaster": 1611.0,
+    "ab_other_human": 38960.0,
+    "ab_to_upland": 6806.0,
+    "ab_total": 47360.0,
+    "exp_total": 11250.0,
+    "period": "1970–1979",
+    "years": 10
+   },
+   {
+    "ab_abandoned": NaN,
+    "ab_disaster": 438.0,
+    "ab_other_human": 16600.0,
+    "ab_to_upland": 4905.0,
+    "ab_total": 21950.0,
+    "exp_total": 606.0,
+    "period": "1980–1989",
+    "years": 10
+   },
+   {
+    "ab_abandoned": 5540.0,
+    "ab_disaster": 717.0,
+    "ab_other_human": 16718.0,
+    "ab_to_upland": 2771.0,
+    "ab_total": 21850.0,
+    "exp_total": 941.0,
+    "period": "1990–1999",
+    "years": 10
+   },
+   {
+    "ab_abandoned": 3541.0,
+    "ab_disaster": 456.0,
+    "ab_other_human": 8023.0,
+    "ab_to_upland": 3774.0,
+    "ab_total": 15970.0,
+    "exp_total": 606.0,
+    "period": "2000–2009",
+    "years": 10
+   },
+   {
+    "ab_abandoned": 3680.0,
+    "ab_disaster": 2527.0,
+    "ab_other_human": 5179.0,
+    "ab_to_upland": 1535.0,
+    "ab_total": 12904.0,
+    "exp_total": 2324.0,
+    "period": "2010–2016",
+    "years": 7
+   },
+   {
+    "ab_abandoned": 6376.0,
+    "ab_disaster": NaN,
+    "ab_other_human": NaN,
+    "ab_to_upland": NaN,
+    "ab_total": 18289.0,
+    "exp_total": 3682.0,
+    "period": "2017–2025",
+    "years": 9
+   }
+  ],
+  "cum": {
+   "ab_disaster": 49905.0,
+   "ab_factory": 84663.0,
+   "ab_farmroad": 41838.0,
+   "ab_forest": 65560.0,
+   "ab_housing": 354060.0,
+   "ab_human": 917050.0,
+   "ab_other": 287860.0,
+   "ab_road": 82794.0,
+   "ab_to_upland": 193306.0,
+   "ab_total": 1161630.0,
+   "check_sum_reasons": 1160261.0,
+   "exp_from_upland": 55769.0,
+   "exp_total": 150296.0
+  },
+  "exp_1970_2025_ha": 183436.0,
+  "human_breakdown_pct": {
+   "ab_factory": 9.2,
+   "ab_farmroad": 4.6,
+   "ab_forest": 7.1,
+   "ab_housing": 38.6,
+   "ab_other": 31.4,
+   "ab_road": 9.0
+  },
+  "land_table_change_paddy_total_1969_2025_ha": -1141000.0,
+  "net_1970_2025_ha": -1142794.0,
+  "period": [
+   1970,
+   2016
+  ],
+  "share_disaster_pct": 4.3,
+  "share_human_pct": 78.9,
+  "share_to_upland_pct": 16.6,
+  "to_upland_share_1997_2016_pct": 18.4,
+  "total_1970_2025_ha": 1326230.0,
+  "total_2017_2025_ha": 164600.0
+ },
+ "check_paddy_honchi_max_abs_diff_ha": 1000.0,
+ "check_paddy_honchi_years": [
+  1966,
+  2025
+ ],
+ "crops_1969_2016": {
+  "feed_green": {
+   "change": 117000.0,
+   "y1969": 152400.0,
+   "y2016": 269400.0
+  },
+  "industrial": {
+   "change": -28840.0,
+   "y1969": 35500.0,
+   "y2016": 6660.0
+  },
+  "minor_grains": {
+   "change": 38169.0,
+   "y1969": 331.0,
+   "y2016": 38500.0
+  },
+  "other": {
+   "change": 24700.0,
+   "y1969": null,
+   "y2016": 24700.0
+  },
+  "pulses": {
+   "change": 103400.0,
+   "y1969": 20900.0,
+   "y2016": 124300.0
+  },
+  "rice": {
+   "change": -1694000.0,
+   "y1969": 3172000.0,
+   "y2016": 1478000.0
+  },
+  "sweet_potato": {
+   "change": 2306.0,
+   "y1969": 384.0,
+   "y2016": 2690.0
+  },
+  "vegetables": {
+   "change": 37600.0,
+   "y1969": 101900.0,
+   "y2016": 139500.0
+  },
+  "wheat_barley": {
+   "change": -70200.0,
+   "y1969": 243500.0,
+   "y2016": 173300.0
+  }
+ },
+ "crops_1969_2016_largest_nonrice_increase": "feed_green",
+ "crops_2017_2024": {
+  "buckwheat": {
+   "y2017": 38100.0,
+   "y2024": 39500.0
+  },
+  "other_2017": {
+   "y2017": 450300.0,
+   "y2024": 440500.0
+  },
+  "rice": {
+   "y2017": 1466200.0,
+   "y2024": 1360000.0
+  },
+  "soybean": {
+   "y2017": 120800.0,
+   "y2024": 119400.0
+  },
+  "wheat_barley": {
+   "y2017": 171600.0,
+   "y2024": 190600.0
+  }
+ },
+ "crops_honchi_util_pct": {
+  "1969": 116.2,
+  "2016": 98.3,
+  "2024": 98.1
+ },
+ "crops_total_1969_2016": [
+  3724000.0,
+  2257000.0
+ ],
+ "decomposition": {
+  "end2024": {
+   "nonrice_increase_ha": 358700.0,
+   "paddy_loss_ha": 1012000.0,
+   "residual_ha": 1070.0,
+   "rice_decline_ha": 1647900.0,
+   "rice_decline_pct": 52.1,
+   "rice_y0": 3161900.0,
+   "rice_y1": 1514000.0,
+   "share_nonrice_pct": 21.8,
+   "share_paddy_loss_pct": 61.4,
+   "share_residual_pct": 0.1,
+   "share_unplanted_pct": 16.8,
+   "unplanted_increase_ha": 276130.0,
+   "y0": 1969,
+   "y1": 2024
+  },
+  "main_1969_2025": {
+   "nonrice_increase_ha": 338900.0,
+   "paddy_loss_ha": 1030000.0,
+   "residual_ha": 1070.0,
+   "rice_decline_ha": 1641900.0,
+   "rice_decline_pct": 51.9,
+   "rice_y0": 3161900.0,
+   "rice_y1": 1520000.0,
+   "share_nonrice_pct": 20.6,
+   "share_paddy_loss_pct": 62.7,
+   "share_residual_pct": 0.1,
+   "share_unplanted_pct": 16.6,
+   "unplanted_increase_ha": 271930.0,
+   "y0": 1969,
+   "y1": 2025
+  },
+  "rice_grain_area": {
+   "nonrice_increase_ha": 338900.0,
+   "paddy_loss_ha": 1030000.0,
+   "residual_ha": 107170.0,
+   "rice_decline_ha": 1748000.0,
+   "rice_decline_pct": 55.1,
+   "rice_y0": 3173000.0,
+   "rice_y1": 1425000.0,
+   "share_nonrice_pct": 19.4,
+   "share_paddy_loss_pct": 58.9,
+   "share_residual_pct": 6.1,
+   "share_unplanted_pct": 15.6,
+   "unplanted_increase_ha": 271930.0,
+   "y0": 1969,
+   "y1": 2025
+  },
+  "start1975": {
+   "nonrice_increase_ha": 201100.0,
+   "paddy_loss_ha": 785000.0,
+   "residual_ha": 1200.0,
+   "rice_decline_ha": 1197100.0,
+   "rice_decline_pct": 44.1,
+   "rice_y0": 2717100.0,
+   "rice_y1": 1520000.0,
+   "share_nonrice_pct": 16.8,
+   "share_paddy_loss_pct": 65.6,
+   "share_residual_pct": 0.1,
+   "share_unplanted_pct": 17.5,
+   "unplanted_increase_ha": 209800.0,
+   "y0": 1975,
+   "y1": 2025
+  },
+  "start2003": {
+   "nonrice_increase_ha": -107900.0,
+   "paddy_loss_ha": 266000.0,
+   "residual_ha": 200.0,
+   "rice_decline_ha": 149000.0,
+   "rice_decline_pct": 8.9,
+   "rice_y0": 1669000.0,
+   "rice_y1": 1520000.0,
+   "share_nonrice_pct": -72.4,
+   "share_paddy_loss_pct": 178.5,
+   "share_residual_pct": 0.1,
+   "share_unplanted_pct": -6.2,
+   "unplanted_increase_ha": -9300.0,
+   "y0": 2003,
+   "y1": 2025
+  }
+ },
+ "decomposition_alt_paddy_table": {
+  "nonrice_increase_ha": 338900.0,
+  "paddy_loss_ha": 1030000.0,
+  "residual_ha": 1070.0,
+  "rice_decline_ha": 1641900.0,
+  "rice_decline_pct": 51.9,
+  "rice_y0": 3161900.0,
+  "rice_y1": 1520000.0,
+  "share_nonrice_pct": 20.6,
+  "share_paddy_loss_pct": 62.7,
+  "share_residual_pct": 0.1,
+  "share_unplanted_pct": 16.6,
+  "unplanted_increase_ha": 271930.0,
+  "y0": 1969,
+  "y1": 2025
+ },
+ "feed_green_on_paddy": {
+  "1969": 152400.0,
+  "1980": 189300.0,
+  "1990": 197900.0,
+  "2000": 181700.0,
+  "2010": 165100.0,
+  "2016": 269400.0
+ },
+ "feed_rice_peak": {
+  "ha": 142055.0,
+  "year": 2022
+ },
+ "h4": {
+  "nonrice_max_region_2025": "北海道",
+  "unplanted_pct_chugoku_2025": 23.5,
+  "unplanted_pct_north_2025": 8.8,
+  "unplanted_pct_shikoku_2025": 23.0,
+  "unplanted_pct_tohoku_2025": 10.6,
+  "unplanted_pct_west_2025": 21.5
+ },
+ "hypotheses": {
+  "H1": {
+   "rule": ">=50 で支持",
+   "value": 62.7,
+   "verdict": "支持"
+  },
+  "H2": {
+   "rule": "<30 で支持（1970〜2016年。2017年から田畑転換は調べていない）",
+   "value": 16.6,
+   "verdict": "支持"
+  },
+  "H3": {
+   "note_field_basis": 16.8,
+   "rule": ">=10 で支持（子実用のうち主食用以外）",
+   "value": 7.4,
+   "verdict": "外れ"
+  },
+  "H4": {
+   "verdict": "支持"
+  }
+ },
+ "nonrice_max_ha": 481300.0,
+ "nonrice_max_year": 2003,
+ "paddy_1969_ha": 3204000.0,
+ "paddy_2025_ha": 2174000.0,
+ "paddy_change_pct_1969_2025": -32.1,
+ "peak_rice_field_year": 1969,
+ "pref_by_region": {
+  "中国": {
+   "n": 5,
+   "unplanted_pct_2025_max": 31.1,
+   "unplanted_pct_2025_median": 23.1,
+   "unplanted_pct_2025_min": 13.1
+  },
+  "九州": {
+   "n": 7,
+   "unplanted_pct_2025_max": 24.6,
+   "unplanted_pct_2025_median": 16.8,
+   "unplanted_pct_2025_min": 5.3
+  },
+  "北海道": {
+   "n": 1,
+   "unplanted_pct_2025_max": 2.8,
+   "unplanted_pct_2025_median": 2.8,
+   "unplanted_pct_2025_min": 2.8
+  },
+  "北陸": {
+   "n": 4,
+   "unplanted_pct_2025_max": 17.8,
+   "unplanted_pct_2025_median": 10.4,
+   "unplanted_pct_2025_min": 7.1
+  },
+  "四国": {
+   "n": 4,
+   "unplanted_pct_2025_max": 32.2,
+   "unplanted_pct_2025_median": 21.9,
+   "unplanted_pct_2025_min": 14.6
+  },
+  "東北": {
+   "n": 6,
+   "unplanted_pct_2025_max": 19.8,
+   "unplanted_pct_2025_median": 11.3,
+   "unplanted_pct_2025_min": 2.8
+  },
+  "東海": {
+   "n": 4,
+   "unplanted_pct_2025_max": 24.2,
+   "unplanted_pct_2025_median": 17.1,
+   "unplanted_pct_2025_min": 14.6
+  },
+  "沖縄": {
+   "n": 1,
+   "unplanted_pct_2025_max": 21.2,
+   "unplanted_pct_2025_median": 21.2,
+   "unplanted_pct_2025_min": 21.2
+  },
+  "近畿": {
+   "n": 6,
+   "unplanted_pct_2025_max": 26.4,
+   "unplanted_pct_2025_median": 21.9,
+   "unplanted_pct_2025_min": 10.9
+  },
+  "関東・東山": {
+   "n": 9,
+   "unplanted_pct_2025_max": 24.7,
+   "unplanted_pct_2025_median": 11.9,
+   "unplanted_pct_2025_min": 7.2
+  }
+ },
+ "pref_unplanted_median_west_vs_north_2025": [
+  21.9,
+  11.1
+ ],
+ "pref_unplanted_west_vs_north_mannwhitney_p": 0.0003,
+ "pulses_on_paddy": {
+  "1969": 20900.0,
+  "1980": 98300.0,
+  "1990": 128000.0,
+  "2000": 109000.0,
+  "2010": 126000.0,
+  "2016": 124300.0
+ },
+ "region": {
+  "中国": {
+   "nonrice_pct_2003": 15.8,
+   "nonrice_pct_2025": 12.9,
+   "paddy_2003": 182900.0,
+   "paddy_2025": 155900.0,
+   "paddy_change_pct": -14.8,
+   "rice_pct_2003": 66.0,
+   "rice_pct_2025": 63.6,
+   "unplanted_pct_2003": 18.3,
+   "unplanted_pct_2025": 23.5
+  },
+  "九州": {
+   "nonrice_pct_2003": 22.9,
+   "nonrice_pct_2025": 18.4,
+   "paddy_2003": 314500.0,
+   "paddy_2025": 273800.0,
+   "paddy_change_pct": -12.9,
+   "rice_pct_2003": 63.6,
+   "rice_pct_2025": 66.9,
+   "unplanted_pct_2003": 13.5,
+   "unplanted_pct_2025": 14.7
+  },
+  "北海道": {
+   "nonrice_pct_2003": 44.8,
+   "nonrice_pct_2025": 46.0,
+   "paddy_2003": 217400.0,
+   "paddy_2025": 207400.0,
+   "paddy_change_pct": -4.6,
+   "rice_pct_2003": 54.2,
+   "rice_pct_2025": 51.2,
+   "unplanted_pct_2003": 1.0,
+   "unplanted_pct_2025": 2.8
+  },
+  "北陸": {
+   "nonrice_pct_2003": 14.2,
+   "nonrice_pct_2025": 10.1,
+   "paddy_2003": 278800.0,
+   "paddy_2025": 256600.0,
+   "paddy_change_pct": -8.0,
+   "rice_pct_2003": 76.0,
+   "rice_pct_2025": 80.2,
+   "unplanted_pct_2003": 9.9,
+   "unplanted_pct_2025": 9.7
+  },
+  "四国": {
+   "nonrice_pct_2003": 21.6,
+   "nonrice_pct_2025": 17.2,
+   "paddy_2003": 91600.0,
+   "paddy_2025": 76800.0,
+   "paddy_change_pct": -16.2,
+   "rice_pct_2003": 64.5,
+   "rice_pct_2025": 59.6,
+   "unplanted_pct_2003": 13.8,
+   "unplanted_pct_2025": 23.0
+  },
+  "東北": {
+   "nonrice_pct_2003": 20.1,
+   "nonrice_pct_2025": 16.3,
+   "paddy_2003": 604000.0,
+   "paddy_2025": 550200.0,
+   "paddy_change_pct": -8.9,
+   "rice_pct_2003": 71.2,
+   "rice_pct_2025": 73.1,
+   "unplanted_pct_2003": 8.6,
+   "unplanted_pct_2025": 10.6
+  },
+  "東海": {
+   "nonrice_pct_2003": 12.5,
+   "nonrice_pct_2025": 12.2,
+   "paddy_2003": 159600.0,
+   "paddy_2025": 136400.0,
+   "paddy_change_pct": -14.5,
+   "rice_pct_2003": 67.9,
+   "rice_pct_2025": 69.0,
+   "unplanted_pct_2003": 19.6,
+   "unplanted_pct_2025": 18.8
+  },
+  "沖縄": {
+   "nonrice_pct_2003": 8.8,
+   "nonrice_pct_2025": 12.7,
+   "paddy_2003": 842.0,
+   "paddy_2025": 678.0,
+   "paddy_change_pct": -19.5,
+   "rice_pct_2003": 82.8,
+   "rice_pct_2025": 66.1,
+   "unplanted_pct_2003": 8.4,
+   "unplanted_pct_2025": 21.2
+  },
+  "近畿": {
+   "nonrice_pct_2003": 16.2,
+   "nonrice_pct_2025": 16.1,
+   "paddy_2003": 175800.0,
+   "paddy_2025": 151100.0,
+   "paddy_change_pct": -14.1,
+   "rice_pct_2003": 65.4,
+   "rice_pct_2025": 65.1,
+   "unplanted_pct_2003": 18.4,
+   "unplanted_pct_2025": 18.8
+  },
+  "関東・東山": {
+   "nonrice_pct_2003": 12.9,
+   "nonrice_pct_2025": 10.3,
+   "paddy_2003": 414700.0,
+   "paddy_2025": 364800.0,
+   "paddy_change_pct": -12.0,
+   "rice_pct_2003": 73.6,
+   "rice_pct_2025": 78.0,
+   "unplanted_pct_2003": 13.4,
+   "unplanted_pct_2025": 11.6
+  }
+ },
+ "rice_composition_2024": {
+  "feed_rice": 98666.0,
+  "grain": 1359000.0,
+  "nonstaple_share_of_field_pct": 16.8,
+  "nonstaple_share_of_grain_pct": 7.4,
+  "other_nonstaple": 99855.0,
+  "rice_field": 1514000.0,
+  "staple": 1259000.0,
+  "wcs": 56479.0
+ },
+ "rice_composition_2025": {
+  "feed_rice": 46004.0,
+  "grain": 1425000.0,
+  "nonstaple_share_of_field_pct": 10.1,
+  "nonstaple_share_of_grain_pct": 4.1,
+  "other_nonstaple": 58100.0,
+  "rice_field": 1520000.0,
+  "staple": 1367000.0,
+  "wcs": 48896.0
+ },
+ "share_1969": {
+  "nonrice_only": 1.1,
+  "rice_field": 98.7,
+  "unplanted": 0.3
+ },
+ "share_2025": {
+  "nonrice_only": 17.2,
+  "rice_field": 69.9,
+  "unplanted": 12.9
+ },
+ "unplanted_max_ha": 315400.0,
+ "unplanted_max_year": 1971,
+ "unplanted_pct_range_1998_2025": [
+  11.2,
+  13.0
+ ],
+ "wheat_on_paddy": {
+  "1969": 243500.0,
+  "1980": 209400.0,
+  "1990": 242400.0,
+  "2000": 163000.0,
+  "2010": 167300.0,
+  "2016": 173300.0
+ }
+}

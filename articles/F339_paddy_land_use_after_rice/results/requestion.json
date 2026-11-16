@@ -1,0 +1,97 @@
+{
+ "q1": {
+  "alt_2003_2024": {
+   "boot_ci_slope": [
+    -1.06,
+    -0.213
+   ],
+   "n": 47,
+   "ols_slope_nonrice": 0.115,
+   "ols_slope_p": 0.00606,
+   "ols_slope_se_hc1": 0.22,
+   "ols_slope_unplanted": -0.605,
+   "paddy_change_median_pct": -12.9,
+   "spearman_p": 8e-05,
+   "spearman_rho": -0.544,
+   "y0": 2003,
+   "y1": 2024
+  },
+  "alt_2004_2025": {
+   "boot_ci_slope": [
+    -1.148,
+    -0.282
+   ],
+   "n": 47,
+   "ols_slope_nonrice": 0.095,
+   "ols_slope_p": 0.00323,
+   "ols_slope_se_hc1": 0.227,
+   "ols_slope_unplanted": -0.669,
+   "paddy_change_median_pct": -13.1,
+   "spearman_p": 3e-05,
+   "spearman_rho": -0.571,
+   "y0": 2004,
+   "y1": 2025
+  },
+  "drop_hokkaido_okinawa": {
+   "boot_ci_slope": [
+    -1.198,
+    -0.265
+   ],
+   "n": 45,
+   "ols_slope_nonrice": 0.088,
+   "ols_slope_p": 0.00427,
+   "ols_slope_se_hc1": 0.242,
+   "ols_slope_unplanted": -0.691,
+   "paddy_change_median_pct": -13.5,
+   "spearman_p": 7e-05,
+   "spearman_rho": -0.557,
+   "y0": 2003,
+   "y1": 2025
+  },
+  "drop_tokyo_osaka_kanagawa": {
+   "boot_ci_slope": [
+    -0.789,
+    -0.11
+   ],
+   "n": 44,
+   "ols_slope_nonrice": 0.104,
+   "ols_slope_p": 0.01341,
+   "ols_slope_se_hc1": 0.171,
+   "ols_slope_unplanted": -0.422,
+   "paddy_change_median_pct": -13.4,
+   "spearman_p": 0.00059,
+   "spearman_rho": -0.498,
+   "y0": 2003,
+   "y1": 2025
+  },
+  "main_2003_2025": {
+   "boot_ci_slope": [
+    -1.121,
+    -0.196
+   ],
+   "n": 47,
+   "ols_slope_nonrice": 0.128,
+   "ols_slope_p": 0.00937,
+   "ols_slope_se_hc1": 0.234,
+   "ols_slope_unplanted": -0.609,
+   "paddy_change_median_pct": -13.5,
+   "spearman_p": 0.00012,
+   "spearman_rho": -0.532,
+   "y0": 2003,
+   "y1": 2025
+  }
+ },
+ "q2": {
+  "feed_rice_change": -52662.0,
+  "feed_rice_share_of_staple_increase_pct": 48.8,
+  "nonrice_change": -19800.0,
+  "other_nonstaple_change": -41755.0,
+  "paddy_change": -18000.0,
+  "rice_field_change": 6000.0,
+  "staple_change": 108000.0,
+  "unplanted_change": -4200.0,
+  "wcs_change": -7583.0,
+  "within_rice_shift": 102000.0,
+  "within_rice_shift_share_pct": 94.4
+ }
+}
