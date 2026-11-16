@@ -1,0 +1,2 @@
+2026-11-16 再実行：9 ファイル一致、所要 3.2 秒（/tmp/rep_F399 に写し、results の CSV・JSON、figures の PNG、data/ の 02 が作るファイルを消してから sh src/run_all.sh。cmp で比較）
+2026-11-17 独立レビューで再実行（/tmp/rvB_F399、results・figures と data 直下の CSV を消してから sh src/run_all.sh）：9 ファイル一致、所要 2 秒。

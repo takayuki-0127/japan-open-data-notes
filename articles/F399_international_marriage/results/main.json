@@ -1,0 +1,216 @@
+{
+ "peak_year": 2006,
+ "peak_share": 6.12,
+ "peak_count_year": 2006,
+ "peak_count": 44701.0,
+ "levels": {
+  "1970": {
+   "intl": 5546.0,
+   "share": 0.54,
+   "wife_foreign": 2108.0,
+   "husband_foreign": 3438.0
+  },
+  "1990": {
+   "intl": 25626.0,
+   "share": 3.55,
+   "wife_foreign": 20026.0,
+   "husband_foreign": 5600.0
+  },
+  "2000": {
+   "intl": 36263.0,
+   "share": 4.54,
+   "wife_foreign": 28326.0,
+   "husband_foreign": 7937.0
+  },
+  "2006": {
+   "intl": 44701.0,
+   "share": 6.12,
+   "wife_foreign": 35993.0,
+   "husband_foreign": 8708.0
+  },
+  "2015": {
+   "intl": 20984.0,
+   "share": 3.3,
+   "wife_foreign": 14815.0,
+   "husband_foreign": 6169.0
+  },
+  "2019": {
+   "intl": 21919.0,
+   "share": 3.66,
+   "wife_foreign": 14911.0,
+   "husband_foreign": 7008.0
+  },
+  "2025": {
+   "intl": 18687.0,
+   "share": 3.82,
+   "wife_foreign": 11507.0,
+   "husband_foreign": 7180.0
+  }
+ },
+ "wife_contrib": {
+  "韓国・朝鮮": {
+   "n2006": 6041.0,
+   "n2025": 1239.0,
+   "share_of_change": 19.6
+  },
+  "中国": {
+   "n2006": 12131.0,
+   "n2025": 3057.0,
+   "share_of_change": 37.1
+  },
+  "フィリピン": {
+   "n2006": 12150.0,
+   "n2025": 2241.0,
+   "share_of_change": 40.5
+  },
+  "タイ": {
+   "n2006": 1676.0,
+   "n2025": 818.0,
+   "share_of_change": 3.5
+  },
+  "米国": {
+   "n2006": 215.0,
+   "n2025": 303.0,
+   "share_of_change": -0.4
+  },
+  "英国": {
+   "n2006": 79.0,
+   "n2025": 52.0,
+   "share_of_change": 0.1
+  },
+  "ブラジル": {
+   "n2006": 285.0,
+   "n2025": 262.0,
+   "share_of_change": 0.1
+  },
+  "ペルー": {
+   "n2006": 117.0,
+   "n2025": 96.0,
+   "share_of_change": 0.1
+  },
+  "その他の国": {
+   "n2006": 3299.0,
+   "n2025": 3439.0,
+   "share_of_change": -0.6
+  }
+ },
+ "wife_total_change": -24486.0,
+ "wife_mix": {
+  "2006": {
+   "韓国・朝鮮": 16.8,
+   "中国": 33.7,
+   "フィリピン": 33.8,
+   "タイ": 4.7,
+   "米国": 0.6,
+   "英国": 0.2,
+   "ブラジル": 0.8,
+   "ペルー": 0.3,
+   "その他の国": 9.2
+  },
+  "2025": {
+   "韓国・朝鮮": 10.8,
+   "中国": 26.6,
+   "フィリピン": 19.5,
+   "タイ": 7.1,
+   "米国": 2.6,
+   "英国": 0.5,
+   "ブラジル": 2.3,
+   "ペルー": 0.8,
+   "その他の国": 29.9
+  }
+ },
+ "husband_mix": {
+  "2006": {
+   "韓国・朝鮮": 26.8,
+   "中国": 12.4,
+   "フィリピン": 2.2,
+   "タイ": 0.6,
+   "米国": 16.9,
+   "英国": 4.4,
+   "ブラジル": 3.4,
+   "ペルー": 1.3,
+   "その他の国": 31.8
+  },
+  "2025": {
+   "韓国・朝鮮": 23.9,
+   "中国": 14.4,
+   "フィリピン": 3.4,
+   "タイ": 0.5,
+   "米国": 16.3,
+   "英国": 2.8,
+   "ブラジル": 3.9,
+   "ペルー": 1.6,
+   "その他の国": 33.3
+  }
+ },
+ "robustness": [
+  {
+   "check": "0 主（2006→2025年）",
+   "china_philippines_share": 77.5,
+   "wife_foreign_pct": -68.0,
+   "husband_foreign_pct": -17.5,
+   "other_share": "9.2→29.9"
+  },
+  {
+   "check": "1 3年平均（2005〜07→2023〜25年）",
+   "china_philippines_share": 75.9,
+   "wife_foreign_pct": -65.5,
+   "husband_foreign_pct": -18.6,
+   "other_share": null
+  },
+  {
+   "check": "2 コロナの前まで（2006→2019年）",
+   "china_philippines_share": 75.4,
+   "wife_foreign_pct": -58.6,
+   "husband_foreign_pct": -19.5,
+   "other_share": "9.2→20.8"
+  },
+  {
+   "check": "3 分母を夫妻とも日本の婚姻に（ピークの年と2025年）",
+   "china_philippines_share": null,
+   "wife_foreign_pct": null,
+   "husband_foreign_pct": null,
+   "other_share": "2006年 6.51% → 2025年 3.97%"
+  },
+  {
+   "check": "4 H4 を夫外国の側で（その他の国の割合）",
+   "china_philippines_share": null,
+   "wife_foreign_pct": null,
+   "husband_foreign_pct": null,
+   "other_share": "31.8→33.3"
+  }
+ ],
+ "requestion": {
+  "1970": 62.0,
+  "1980": 39.6,
+  "1990": 21.9,
+  "2006": 19.5,
+  "2015": 29.4,
+  "2025": 38.4
+ },
+ "requestion_min_year": 2006,
+ "hypotheses": {
+  "H1": {
+   "value": 2006,
+   "verdict": "支持"
+  },
+  "H2": {
+   "value": 77.5,
+   "verdict": "支持"
+  },
+  "H3": {
+   "value": [
+    -17.5,
+    -68.0
+   ],
+   "verdict": "支持"
+  },
+  "H4": {
+   "value": [
+    9.2,
+    29.9
+   ],
+   "verdict": "支持"
+  }
+ }
+}
