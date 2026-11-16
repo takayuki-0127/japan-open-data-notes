@@ -1,0 +1,5 @@
+matplotlib==3.11.2
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.18.1
+# PDF の読み取りに pdftotext（poppler-utils 24 以降）を使う
