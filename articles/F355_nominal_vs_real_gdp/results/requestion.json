@@ -1,0 +1,60 @@
+{
+ "rows": [
+  {
+   "start": 1994,
+   "end": 2012,
+   "tot_start": 149.8262,
+   "tot_end": 90.9005,
+   "tot_logchange": -0.4997,
+   "export_part": -0.2988,
+   "import_part": -0.2009,
+   "export_share": 0.598,
+   "import_share": 0.402,
+   "tg_pct_start": 3.3102,
+   "tg_pct_end": -1.3523
+  },
+  {
+   "start": 2012,
+   "end": 2019,
+   "tot_start": 90.9005,
+   "tot_end": 94.8244,
+   "tot_logchange": 0.0423,
+   "export_part": 0.0675,
+   "import_part": -0.0253,
+   "export_share": 1.598,
+   "import_share": -0.598,
+   "tg_pct_start": -1.3523,
+   "tg_pct_end": -0.8518
+  },
+  {
+   "start": 2019,
+   "end": 2025,
+   "tot_start": 94.8244,
+   "tot_end": 93.1741,
+   "tot_logchange": -0.0176,
+   "export_part": 0.2855,
+   "import_part": -0.303,
+   "export_share": -16.2602,
+   "import_share": 17.2602,
+   "tg_pct_start": -0.8518,
+   "tg_pct_end": -1.2445
+  },
+  {
+   "start": 1994,
+   "end": 2025,
+   "tot_start": 149.8262,
+   "tot_end": 93.1741,
+   "tot_logchange": -0.475,
+   "export_part": 0.0542,
+   "import_part": -0.5292,
+   "export_share": -0.1141,
+   "import_share": 1.1141,
+   "tg_pct_start": 3.3102,
+   "tg_pct_end": -1.2445
+  }
+ ],
+ "tot_1994": 149.8262,
+ "tot_2025": 93.1741,
+ "tot_min_year": 2022,
+ "tot_min": 83.3106
+}
