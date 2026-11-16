@@ -1,0 +1,5 @@
+x,group_fe,weighted,n,slope,se,p
+ratio,True,True,135,0.6981,0.9688,0.4712
+ratio,False,True,135,-0.1502,0.0969,0.121
+ratio_ft,True,True,135,0.8834,0.9004,0.3265
+ratio,True,False,135,1.0668,0.9159,0.2441

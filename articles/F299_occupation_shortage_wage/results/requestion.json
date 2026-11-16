@@ -1,0 +1,52 @@
+{
+ "level_on_ratio": {
+  "ratio_fy2022_all": {
+   "coef": -0.0152,
+   "se": 0.0229,
+   "p": 0.5057
+  },
+  "r2": 0.0207,
+  "n": 45
+ },
+ "growth_on_level": {
+  "log_pay_2022_c": {
+   "coef": 1.8677,
+   "se": 1.7111,
+   "p": 0.275
+  },
+  "r2": 0.0132,
+  "n": 45
+ },
+ "growth_on_ratio_and_level": {
+  "ratio_fy2022_all": {
+   "coef": -0.5928,
+   "se": 0.3895,
+   "p": 0.1279
+  },
+  "log_pay_2022_c": {
+   "coef": 1.0619,
+   "se": 2.1332,
+   "p": 0.6186
+  },
+  "r2": 0.1299,
+  "n": 45
+ },
+ "low_pay_half": {
+  "n": 23,
+  "slope": -0.2719,
+  "se": 0.6837,
+  "p": 0.6908,
+  "mean_growth": 8.776,
+  "mean_ratio": 2.302
+ },
+ "high_pay_half": {
+  "n": 22,
+  "slope": -0.6047,
+  "se": 0.4672,
+  "p": 0.1956,
+  "mean_growth": 10.357,
+  "mean_ratio": 1.583
+ },
+ "pay_median_2022_thousand_yen": 285.8,
+ "growth_diff_per_10pct_higher_level": 0.178
+}
