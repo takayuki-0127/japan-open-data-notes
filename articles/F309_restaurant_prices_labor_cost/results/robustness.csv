@@ -1,0 +1,8 @@
+y,food,wage,lag,start,n,b_food,p_food,b_wage,p_wage,const,r2,spec
+y_cpi_eatout,y_cpi_processed_food,y_wage_restaurant,6,2010-01,177,0.398,0.0,0.093,0.244,0.612,0.561,主（ラグ6）
+y_cpi_eatout,y_cpi_processed_food,y_wage_restaurant,0,2010-01,176,0.562,0.0,0.001,0.985,0.428,0.893,R1 ラグ0
+y_cpi_eatout,y_cpi_processed_food,y_wage_restaurant,3,2010-01,177,0.488,0.0,0.044,0.482,0.524,0.741,R1 ラグ3
+y_cpi_eatout,y_cpi_processed_food,y_wage_restaurant,12,2010-01,177,0.202,0.005,0.213,0.042,0.738,0.315,R1 ラグ12
+y_cpi_eatout,y_cpi_food_xfresh,y_wage_restaurant,6,2010-01,177,0.426,0.0,0.072,0.314,0.515,0.572,R2 食材を生鮮食品を除く食料に
+y_cpi_eatout,y_cpi_processed_food,y_wage_M_part,6,2011-01,148,0.441,0.0,-0.126,0.506,0.989,0.507,R3 時給を宿泊・飲食のパートに（2011年〜）
+y_cpi_eatout,y_cpi_processed_food,y_wage_restaurant,6,2015-01,126,0.397,0.0,0.128,0.31,0.566,0.453,R4 2015年〜
