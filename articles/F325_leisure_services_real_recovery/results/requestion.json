@@ -1,0 +1,18 @@
+{
+ "R_real_fixed_2019_weights": 0.8084,
+ "R_real_reweighted_actual": 0.7875,
+ "composition_effect_pt": 2.09,
+ "pack_2019_actual": 30082,
+ "pack_2025_actual": 28487,
+ "pack_2025_actual_minus_trend": 841,
+ "pack_2025_if_trend": 27646,
+ "pack_share_2015": 0.5918,
+ "pack_share_2019": 0.5288,
+ "pack_share_2025": 0.4418,
+ "pack_share_trend_2025": 0.4287,
+ "pack_share_trend_slope_pt_per_year": -1.712,
+ "published_average_R_real": 0.7868,
+ "share_70plus_2019": 0.3058,
+ "share_70plus_2025": 0.345,
+ "travel2_real_ratio": 0.8131
+}
