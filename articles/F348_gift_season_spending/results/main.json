@@ -1,0 +1,115 @@
+{
+ "years": [
+  2000,
+  2025
+ ],
+ "season_excess_2000": 22590.0,
+ "season_excess_2025": 11474.833333333334,
+ "summer_excess_2000": 9820.0,
+ "summer_excess_2025": 5197.5,
+ "winter_excess_2000": 12770.0,
+ "winter_excess_2025": 6277.333333333334,
+ "base_month_2000": 9070.0,
+ "base_month_2025": 6564.833333333333,
+ "annual_gift_goods_2000": 133854.0,
+ "annual_gift_goods_2025": 89949.0,
+ "season_share_2000": 0.16876596889147877,
+ "season_share_2025": 0.12757043806305055,
+ "ratios_2025_vs_2000": {
+  "summer_excess": 0.5292769857433809,
+  "winter_excess": 0.49156878099712875,
+  "season_excess": 0.5079607495942158,
+  "base_month": 0.7237963983829474,
+  "annual": 0.6719933659061366,
+  "season_excess_per_person": 0.5851634292127011,
+  "money_gifts_annual": 0.4254704056812145,
+  "other_social_annual": 0.7588991144295885,
+  "consumption_annual": 0.9895134847258542
+ },
+ "log_slope_per_year": {
+  "season": -0.028086509630466484,
+  "summer": -0.035957956832241546,
+  "winter": -0.022727146997339742,
+  "base": -0.020401119145410585
+ },
+ "persons_2000": 3.31,
+ "persons_2025": 2.8733,
+ "hypotheses": {
+  "H1": {
+   "rule": "2025年の上乗せ合計が2000年の50%以下なら支持",
+   "value": 0.5079607495942158,
+   "verdict": "外れ"
+  },
+  "H2": {
+   "rule": "お中元の比（2025/2000）がお歳暮の比より小さければ支持",
+   "summer": 0.5292769857433809,
+   "winter": 0.49156878099712875,
+   "verdict": "外れ"
+  },
+  "H3": {
+   "rule": "上乗せの比が、ふだんの月の比より小さければ支持",
+   "season": 0.5079607495942158,
+   "base": 0.7237963983829474,
+   "verdict": "支持"
+  },
+  "H4": {
+   "rule": "1人あたりの減り方が1世帯あたりの減り方の半分より大きければ支持",
+   "decline_household": 0.4920392504057842,
+   "decline_per_person": 0.41483657078729885,
+   "verdict": "支持"
+  }
+ },
+ "long_peak_year": 1997,
+ "long_peak_gift_goods_year": 147108.0,
+ "long_1963_gift_goods_year": 13140.0,
+ "overlap_max_abs_diff_pct": 0.88848594741614,
+ "annual_2025_vs_peak": 0.6114487315441717,
+ "robustness": [
+  {
+   "check": "本線（ふだん＝2〜5・9・10月の平均、夏6〜8月、冬11〜12月）",
+   "season_ratio": 0.508,
+   "summer_ratio": 0.5293,
+   "winter_ratio": 0.4916,
+   "base_ratio": 0.7238
+  },
+  {
+   "check": "ふだん＝同じ月の中央値",
+   "season_ratio": 0.4904,
+   "summer_ratio": 0.5062,
+   "winter_ratio": 0.4787,
+   "base_ratio": 0.7265
+  },
+  {
+   "check": "ふだん＝1・2・3・4・5・9・10月の平均（1月を入れる）",
+   "season_ratio": 0.5605,
+   "summer_ratio": 0.6067,
+   "winter_ratio": 0.5269,
+   "base_ratio": 0.6926
+  },
+  {
+   "check": "ふだん＝9・10月だけ",
+   "season_ratio": 0.4117,
+   "summer_ratio": 0.3988,
+   "winter_ratio": 0.4225,
+   "base_ratio": 0.7967
+  },
+  {
+   "check": "窓を狭く（夏＝7月、冬＝12月だけ）",
+   "season_ratio": 0.3646,
+   "summer_ratio": 0.2566,
+   "winter_ratio": 0.399,
+   "base_ratio": 0.7238
+  },
+  {
+   "check": "物価で割り引く（消費支出の名目と実質の差、2000年＝100）",
+   "season_ratio": 0.4292,
+   "summer_ratio": 0.4473,
+   "winter_ratio": 0.4154,
+   "base_ratio": 0.6116
+  }
+ ],
+ "slope_excl_2020_2021": -0.026005200530948153,
+ "price_index_2025": 118.3394,
+ "yoy_2018_log": 0.06715212397677028,
+ "yoy_2018_z": 1.145063516058745
+}
