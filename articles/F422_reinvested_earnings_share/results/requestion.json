@@ -1,0 +1,35 @@
+{
+ "first_year_cash": 2006,
+ "first_year_book": 2005,
+ "yen_weak_years": [
+  1997,
+  1998,
+  2001,
+  2006,
+  2013,
+  2014,
+  2015,
+  2022,
+  2023,
+  2024
+ ],
+ "yen_strong_years": [
+  1999,
+  2000,
+  2003,
+  2004,
+  2008,
+  2009,
+  2010,
+  2011,
+  2016
+ ],
+ "share_change_yen_weak_mean": -7.274,
+ "share_change_yen_strong_mean": 12.082,
+ "ca_ex_reinv_2022": 0.674,
+ "ca_2022": 11.443,
+ "reinv_share_2021": 54.812,
+ "reinv_share_2025": 40.285,
+ "usdjpy_2021": 109.782,
+ "usdjpy_2025": 149.648
+}
