@@ -1,0 +1,5 @@
+再現の確認（2026-11-16）
+手順：記事のフォルダを /tmp/rep_F458 に写し、results・figures の生成物と data/ 直下の CSV（run_all.sh が作るもの。入力の data/onsen_trend.csv は残す）を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。
+2026-11-16 再実行：9 ファイル一致（results 5、figures 4、data 0）、所要 2 秒。ネットにはつながない。
+取り出しの確かめ：src/01b_extract.py を流し直すと data/onsen_trend.csv はバイト単位で一致した（pdftotext を使うため run_all.sh には入れていない）。
+2026-11-17 独立レビューで再実行：/tmp/rvC2_F458 に写して流し、10 ファイル一致、所要 2 秒。
