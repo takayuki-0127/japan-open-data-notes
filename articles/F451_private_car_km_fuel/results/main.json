@@ -1,0 +1,119 @@
+{
+ "cars_A_million": 57.84,
+ "cars_B_million": 59.76,
+ "cars_chg": 3.3,
+ "decomp": {
+  "cars": 2.92,
+  "km_per_car": -5.27,
+  "l_per_km": -17.78,
+  "total_pct": -20.13
+ },
+ "fuel_A_bn_l": 44.26,
+ "fuel_B_bn_l": 35.36,
+ "hypotheses": {
+  "H1": "支持",
+  "H2": "支持",
+  "H3": "支持",
+  "H4": "支持"
+ },
+ "km_per_car_1719": 8592,
+ "km_per_car_2019": 8605,
+ "km_per_car_2020": 7653,
+ "km_per_car_2025": 7860,
+ "km_per_car_A": 8381,
+ "km_per_car_B": 7902,
+ "km_per_car_chg": -5.7,
+ "kmcar_kind_A": {
+  "hybrid": 12063,
+  "kei": 7622,
+  "regular": 8478,
+  "small": 8569
+ },
+ "kmcar_kind_B": {
+  "hybrid": 10134,
+  "kei": 6972,
+  "regular": 7913,
+  "small": 7333
+ },
+ "kmpl_A": 11.0,
+ "kmpl_B": 13.4,
+ "kmshare_A": {
+  "hybrid": 6.0,
+  "kei": 29.7,
+  "regular": 26.0,
+  "small": 38.2
+ },
+ "kmshare_B": {
+  "hybrid": 27.4,
+  "kei": 34.5,
+  "regular": 19.7,
+  "small": 18.4
+ },
+ "kmshare_kei_hv_A": 35.7,
+ "kmshare_kei_hv_B": 61.9,
+ "l_per_car_A": 765,
+ "l_per_car_B": 592,
+ "l_per_car_chg": -22.7,
+ "l_per_km_A": 0.0913,
+ "l_per_km_B": 0.0749,
+ "l_per_km_chg": -18.0,
+ "lkm_kind_A": {
+  "hybrid": 0.0625,
+  "kei": 0.0768,
+  "regular": 0.1191,
+  "small": 0.0881
+ },
+ "lkm_kind_B": {
+  "hybrid": 0.0611,
+  "kei": 0.0659,
+  "regular": 0.1036,
+  "small": 0.0814
+ },
+ "lkm_shift": {
+  "mix": -0.00715,
+  "mix_share_pct": 43.8,
+  "total": -0.01632,
+  "within": -0.00917
+ },
+ "robust": {
+  "基本：2011〜13年度平均 → 2023〜25年度平均": {
+   "cars_chg": 3.3,
+   "km_per_car_chg": -5.7,
+   "l_per_car_chg": -22.7,
+   "l_per_km_chg": -18.0
+  },
+  "基準を2010年度（参考値）にする（→2025年度）": {
+   "cars_chg": 4.9,
+   "km_per_car_chg": -4.8,
+   "l_per_car_chg": -23.7,
+   "l_per_km_chg": -19.8
+  },
+  "基準を2011年度の1年にする（→2025年度）": {
+   "cars_chg": 5.2,
+   "km_per_car_chg": -6.2,
+   "l_per_car_chg": -23.8,
+   "l_per_km_chg": -18.9
+  },
+  "年ごとの傾き（2011〜2025年度、対数の回帰、%/年）": {
+   "cars_chg": NaN,
+   "km_per_car_chg": -0.58,
+   "l_per_car_chg": -2.26,
+   "l_per_km_chg": -1.67
+  },
+  "終わりをコロナ前の2017〜19年度平均にする": {
+   "cars_chg": 4.3,
+   "km_per_car_chg": 2.5,
+   "l_per_car_chg": -9.7,
+   "l_per_km_chg": -11.9
+  },
+  "軽油の自家用乗用車（普通・小型）を含める": {
+   "cars_chg": 5.0,
+   "km_per_car_chg": -5.4,
+   "l_per_car_chg": -22.6,
+   "l_per_km_chg": -18.2
+  }
+ },
+ "trend_km_per_car_pct_per_year": -0.58,
+ "trend_l_per_car_pct_per_year": -2.26,
+ "trend_l_per_km_pct_per_year": -1.67
+}

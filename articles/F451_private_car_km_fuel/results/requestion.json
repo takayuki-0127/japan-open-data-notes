@@ -1,0 +1,33 @@
+{
+ "all": {
+  "covid": 7531,
+  "covid_vs_pre_pct": -12.4,
+  "post": 7902,
+  "post_vs_pre_pct": -8.0,
+  "pre": 8592
+ },
+ "hybrid": {
+  "covid": 9495.5,
+  "post": 10133.6,
+  "post_vs_pre_pct": -10.1,
+  "pre": 11266.3
+ },
+ "kei": {
+  "covid": 7037.2,
+  "post": 6971.5,
+  "post_vs_pre_pct": -13.1,
+  "pre": 8021.5
+ },
+ "regular": {
+  "covid": 7478.9,
+  "post": 7913.2,
+  "post_vs_pre_pct": -6.1,
+  "pre": 8425.4
+ },
+ "small": {
+  "covid": 7026.2,
+  "post": 7332.9,
+  "post_vs_pre_pct": -11.1,
+  "pre": 8244.1
+ }
+}
