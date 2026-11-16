@@ -1,0 +1,73 @@
+{
+ "pace": {
+  "1975-1980": 9168,
+  "1980-1985": 2824,
+  "1985-1990": -2561,
+  "1990-1995": 5522,
+  "1995-2000": 4806,
+  "2000-2005": 5327,
+  "2005-2008": 3601,
+  "2008-2010": 3237,
+  "2010-2015": 2093,
+  "2015-2019": 1443,
+  "2019-2024": 969
+ },
+ "regions": {
+  "北海道": {
+   "road_pct": 0.38,
+   "pop_pct": -5.39,
+   "m_per_person_2015": 16.8,
+   "m_per_person_2023": 17.82,
+   "m_per_person_pct": 6.09
+  },
+  "東北": {
+   "road_pct": 1.18,
+   "pop_pct": -7.4,
+   "m_per_person_2015": 17.61,
+   "m_per_person_2023": 19.24,
+   "m_per_person_pct": 9.27
+  },
+  "関東": {
+   "road_pct": 0.46,
+   "pop_pct": 1.24,
+   "m_per_person_2015": 5.9,
+   "m_per_person_2023": 5.86,
+   "m_per_person_pct": -0.77
+  },
+  "中部": {
+   "road_pct": 0.74,
+   "pop_pct": -3.31,
+   "m_per_person_2015": 11.78,
+   "m_per_person_2023": 12.27,
+   "m_per_person_pct": 4.19
+  },
+  "近畿": {
+   "road_pct": 1.53,
+   "pop_pct": -2.44,
+   "m_per_person_2015": 6.02,
+   "m_per_person_2023": 6.27,
+   "m_per_person_pct": 4.08
+  },
+  "中国": {
+   "road_pct": 0.88,
+   "pop_pct": -4.95,
+   "m_per_person_2015": 14.14,
+   "m_per_person_2023": 15.01,
+   "m_per_person_pct": 6.13
+  },
+  "四国": {
+   "road_pct": 1.19,
+   "pop_pct": -6.94,
+   "m_per_person_2015": 15.07,
+   "m_per_person_2023": 16.39,
+   "m_per_person_pct": 8.74
+  },
+  "九州・沖縄": {
+   "road_pct": 1.01,
+   "pop_pct": -2.91,
+   "m_per_person_2015": 11.53,
+   "m_per_person_2023": 12.0,
+   "m_per_person_pct": 4.04
+  }
+ }
+}
