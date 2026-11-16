@@ -1,0 +1,86 @@
+{
+ "kushiro_last_ice_season": 2017,
+ "kushiro_no_ice_streak_after": 8,
+ "no_ice_30y": [
+  {
+   "first_mean_when_ice": 38.3,
+   "from": 1946,
+   "name": "稚内",
+   "no_ice_years": 4,
+   "station": "wakkanai",
+   "to": 1975,
+   "years": 30
+  },
+  {
+   "first_mean_when_ice": 49.6,
+   "from": 1996,
+   "name": "稚内",
+   "no_ice_years": 16,
+   "station": "wakkanai",
+   "to": 2025,
+   "years": 30
+  },
+  {
+   "first_mean_when_ice": 13.9,
+   "from": 1946,
+   "name": "網走",
+   "no_ice_years": 0,
+   "station": "abashiri",
+   "to": 1975,
+   "years": 30
+  },
+  {
+   "first_mean_when_ice": 20.5,
+   "from": 1996,
+   "name": "網走",
+   "no_ice_years": 0,
+   "station": "abashiri",
+   "to": 2025,
+   "years": 30
+  },
+  {
+   "first_mean_when_ice": 52.9,
+   "from": 1946,
+   "name": "釧路",
+   "no_ice_years": 14,
+   "station": "kushiro",
+   "to": 1975,
+   "years": 30
+  },
+  {
+   "first_mean_when_ice": 60.2,
+   "from": 1996,
+   "name": "釧路",
+   "no_ice_years": 24,
+   "station": "kushiro",
+   "to": 2025,
+   "years": 30
+  }
+ ],
+ "variability": [
+  {
+   "cv_pct": 15.2,
+   "from": 1972,
+   "mean_fit": 2680.4,
+   "n": 19,
+   "sd_resid": 408.4,
+   "to": 1990
+  },
+  {
+   "cv_pct": 19.6,
+   "from": 1991,
+   "mean_fit": 2344.4,
+   "n": 18,
+   "sd_resid": 459.7,
+   "to": 2008
+  },
+  {
+   "cv_pct": 15.9,
+   "from": 2009,
+   "mean_fit": 2017.4,
+   "n": 18,
+   "sd_resid": 321.2,
+   "to": 2026
+  }
+ ]
+}

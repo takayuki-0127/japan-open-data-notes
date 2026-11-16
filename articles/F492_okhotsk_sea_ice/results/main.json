@@ -1,0 +1,151 @@
+{
+ "H1": {
+  "acc": {
+   "abs_per_decade": -173.528,
+   "base_mean": 2568.197,
+   "hi_pct": -4.153,
+   "lo_pct": -9.776,
+   "mk_p": 0.0,
+   "n": 55,
+   "pct_per_decade": -6.757
+  },
+  "base_years": [
+   1972,
+   2000
+  ],
+  "max": {
+   "abs_per_decade": -5.7,
+   "base_mean": 123.036,
+   "hi_pct": -2.735,
+   "lo_pct": -7.01,
+   "mk_p": 0.0,
+   "n": 55,
+   "pct_per_decade": -4.633
+  },
+  "result": "支持"
+ },
+ "H2": {
+  "apr_may": {
+   "abs_per_decade": -4.276,
+   "base_mean": 48.519,
+   "hi_pct": -4.924,
+   "lo_pct": -12.856,
+   "mk_p": 0.0,
+   "n": 56,
+   "pct_per_decade": -8.813
+  },
+  "base_years": [
+   1972,
+   2000
+  ],
+  "dec_jan_ref": {
+   "abs_per_decade": -5.195,
+   "base_mean": 56.836,
+   "hi_pct": -5.895,
+   "lo_pct": -12.445,
+   "mk_p": 0.0,
+   "n": 56,
+   "pct_per_decade": -9.14
+  },
+  "feb_mar": {
+   "abs_per_decade": -5.54,
+   "base_mean": 108.661,
+   "hi_pct": -2.673,
+   "lo_pct": -7.835,
+   "mk_p": 0.0,
+   "n": 56,
+   "pct_per_decade": -5.099
+  },
+  "result": "支持"
+ },
+ "H3": {
+  "hi": 2.46,
+  "lo": 0.59,
+  "mean_1946_1975": 13.9,
+  "mean_1996_2025": 20.5,
+  "mk_p": 0.001,
+  "n": 80,
+  "result": "支持",
+  "robust_shore_first_mk_p": 0.017,
+  "robust_shore_first_per_decade": 1.85,
+  "slope_days_per_decade": 1.49,
+  "years": [
+   1946,
+   2025
+  ]
+ },
+ "H4": {
+  "hi": -1.32,
+  "lo": -4.57,
+  "mean_1946_1975": 108.7,
+  "mean_1992_2021": 95.7,
+  "mk_p": 0.0,
+  "n": 76,
+  "period_mean_1946_1975": 95.7,
+  "period_mean_1992_2021": 76.3,
+  "period_mk_p": 0.0,
+  "period_slope_per_decade": -4.1,
+  "result": "支持",
+  "sea_open_mk_p": 0.02,
+  "sea_open_n": 65,
+  "sea_open_slope_per_decade": -2.63,
+  "slope_days_per_decade": -2.97,
+  "years": [
+   1946,
+   2021
+  ]
+ },
+ "H5": {
+  "n": 55,
+  "p": 0.0013,
+  "r_detrended": -0.423,
+  "r_raw": -0.633,
+  "result": "外れ",
+  "robust_max_vs_jan_mar": {
+   "n": 56,
+   "p": 0.00107,
+   "r_detrended": -0.426,
+   "r_raw": -0.612,
+   "slope_per_degC": -6.0
+  },
+  "robust_t_dec_feb": {
+   "n": 55,
+   "p": 0.000946,
+   "r_detrended": -0.433,
+   "r_raw": -0.565,
+   "slope_per_degC": -153.5
+  },
+  "robust_t_feb_mar": {
+   "n": 55,
+   "p": 0.00448,
+   "r_detrended": -0.378,
+   "r_raw": -0.612,
+   "slope_per_degC": -121.3
+  },
+  "slope_per_degC": -155.4
+ },
+ "check_max": {
+  "mean_1971_2000": 122.8,
+  "mean_1997_2026": 109.8,
+  "n": 56,
+  "okhotsk_area_note": "気象庁はオホーツク海の全面積に対する割合で 10年あたり3.7% と説明",
+  "ols_hac_se_per_decade": 1.23,
+  "ols_per_decade": -5.87,
+  "theil_sen_per_decade": -5.49
+ },
+ "pentad": {
+  "largest_drop_pct": -26.9,
+  "largest_drop_pentad": "12/15",
+  "smallest_drop_pct": -5.6,
+  "smallest_drop_pentad": "05/31"
+ },
+ "temp": {
+  "t_jan_mar_mean_1972_2000": -5.0,
+  "t_jan_mar_mean_1997_2026": -3.8,
+  "t_jan_mar_slope_per_decade_1972_2026": 0.5
+ },
+ "temp_share": {
+  "acc_slope_per_decade": -173.5,
+  "implied_by_temp_per_decade": -77.7
+ }
+}

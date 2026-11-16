@@ -1,0 +1,7 @@
+station,name,from,to,no_ice_years,years,first_mean_when_ice
+wakkanai,稚内,1946,1975,4,30,38.3
+wakkanai,稚内,1996,2025,16,30,49.6
+abashiri,網走,1946,1975,0,30,13.9
+abashiri,網走,1996,2025,0,30,20.5
+kushiro,釧路,1946,1975,14,30,52.9
+kushiro,釧路,1996,2025,24,30,60.2

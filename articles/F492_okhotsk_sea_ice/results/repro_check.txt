@@ -1,0 +1,6 @@
+2026-11-17 再実行（独立レビュー）：16 ファイル一致、所要 6 秒（/tmp/rvD_F492 に写し、results・figures・data の中間ファイルを消して sh src/run_all.sh。results の CSV・JSON と figures の PNG、data の中間ファイルを cmp で比較）
+
+--- これまでの記録 ---
+再現の確認（2026-11-16）
+手順：記事のフォルダを /tmp/rep_F492 に写し、results の CSV・JSON、figures の PNG、data/season.csv・stations.csv・abashiri_monthly_temp.csv を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。
+2026-11-16 再実行：16 ファイル一致、所要 5 秒（results 9、figures 4、data 3）。ネットにはつながない。乱数は使っていない。
