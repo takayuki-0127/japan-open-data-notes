@@ -11,15 +11,16 @@ import pandas as pd
 from common import RAW
 
 BASE = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/main/articles/"
+PIN = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/"  # 209 の記事フォルダは削除したので、削除前の版（コミット c56ebc6）から取る
 FILES = {
-    "ssds_pref_indicators.csv": "209_pref_rank_turnover/data/pref_indicators_2015_2026_editions.csv",
-    "indicator_names_2026.tsv": "209_pref_rank_turnover/data/indicator_names_2026.tsv",
+    "ssds_pref_indicators.csv": PIN + "209_pref_rank_turnover/data/pref_indicators_2015_2026_editions.csv",
+    "indicator_names_2026.tsv": PIN + "209_pref_rank_turnover/data/indicator_names_2026.tsv",
 }
 for name, path in FILES.items():
     out = RAW / name
     if out.exists():
         print("あり:", name); continue
-    urllib.request.urlretrieve(BASE + path, out); print("取得:", name)
+    urllib.request.urlretrieve(path, out); print("取得:", name)
 
 out = RAW / "life_expectancy_f49.csv"
 if not out.exists():

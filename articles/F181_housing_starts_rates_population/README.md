@@ -15,8 +15,8 @@
 | data/raw/estat_starts_tenure_monthly_000040521928.csv | 利用関係別 新設住宅着工戸数（月次の原数値、1965年1月〜2026年9月） | e-Stat 建築着工統計調査 住宅着工統計 時系列表「【住宅】利用関係別 戸数」（statInfId=000040521928）を CSV に変換 |
 | data/raw/estat_starts_sa_000040521931.csv | 同 季節調整値（月次、1969年1月〜） | 同「【住宅】季節調整値」（statInfId=000040521931） |
 | data/raw/boj_rates_monthly_raw.csv | 基準割引率（MADR1M）、貸出約定平均金利：都市銀行・地方銀行の長期の残高（DLLI2CI@07・@08）、国内銀行の長期の新規・残高（DLLR2CIDBNL3・DLLR2CIDBST3） | 日本銀行 時系列統計データ検索サイト API |
-| data/raw/f091_tenure_year.csv・f091_pref_year.csv | 利用関係別・都道府県別の新設住宅着工戸数（暦年） | 本リポジトリ 091_housing_floor_area（建築着工統計調査の時系列表） |
-| data/raw/f140_pop_national_year.csv | 全国の総人口・25〜44歳・30〜39歳・20〜64歳（各年10月1日、千人、1920〜2024年） | 本リポジトリ 140_population_pyramid（人口推計）を年齢で集計 |
+| data/raw/f091_tenure_year.csv・f091_pref_year.csv | 利用関係別・都道府県別の新設住宅着工戸数（暦年） | 本リポジトリ [091_housing_floor_area](https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/091_housing_floor_area)（削除済みの記事。削除前の版）（建築着工統計調査の時系列表） |
+| data/raw/f140_pop_national_year.csv | 全国の総人口・25〜44歳・30〜39歳・20〜64歳（各年10月1日、千人、1920〜2024年） | 本リポジトリ [140_population_pyramid](https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/140_population_pyramid)（削除済みの記事。削除前の版）（人口推計）を年齢で集計 |
 | data/raw/ssdse_b_pref_pop.csv | 都道府県別の総人口・15〜64歳人口（2012〜2023年） | 統計センター SSDSE-B-2026（本リポジトリ 022 の data/raw） |
 
 整えたもの：`data/monthly.csv`（月次）、`data/annual.csv`（年次）、`data/pref_panel.csv`（都道府県×年）。

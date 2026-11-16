@@ -1,6 +1,6 @@
 # 324 自分の文章は、読みやすくなったのか（④ 振り返り R104）
 
-note に下書きした記事の原稿（手元の md）を1本ずつ数え、1文の長さ・長い文の割合・かっこ書き・読点・漢字の割合が、記事のグループでどう変わったかを並べたフォルダです。[F176](https://github.com/takayuki-0127/japan-open-data-notes/tree/main/articles/F176_whitepaper_readability)（白書の文の長さ）の測り方を、自分の記事に当てました。記事の形（題名・本文の長さ・見出し）は [288](https://github.com/takayuki-0127/japan-open-data-notes/tree/main/articles/288_writing_lessons_record) で数えたので、ここでは文に絞ります。
+note に下書きした記事の原稿（手元の md）を1本ずつ数え、1文の長さ・長い文の割合・かっこ書き・読点・漢字の割合が、記事のグループでどう変わったかを並べたフォルダです。[F176](https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F176_whitepaper_readability)（削除済みの記事。削除前の版）（白書の文の長さ）の測り方を、自分の記事に当てました。記事の形（題名・本文の長さ・見出し）は [288](https://github.com/takayuki-0127/japan-open-data-notes/tree/main/articles/288_writing_lessons_record) で数えたので、ここでは文に絞ります。
 
 ## 問い
 

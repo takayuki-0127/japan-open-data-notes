@@ -117,7 +117,7 @@ python 05_ダッシュボード.py   # dashboard/check_dashboard.html と図6（
 - `figures/`：図1〜6
 
 ## 出典
-- 経済産業省「商業動態統計」（時系列データ）をもとに作成者が加工して作成。データの取得は F135（`articles/F135_rain_retail`）、整形は F232（`articles/F232_hierarchical_retail_reconciliation`）。
+- 経済産業省「商業動態統計」（時系列データ）をもとに作成者が加工して作成。データの取得は F135（`articles/F135_rain_retail`）、整形は F232（[`articles/F232_hierarchical_retail_reconciliation`](https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F232_hierarchical_retail_reconciliation)（削除済みの記事。削除前の版））。
 - 祝日は内閣府「国民の祝日」に基づく（F233 で Python の jpholiday から作成）。
 - あおば書店（架空）の注文データは作成者によるシミュレーション。
 

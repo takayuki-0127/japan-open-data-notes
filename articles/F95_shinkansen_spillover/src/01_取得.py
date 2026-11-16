@@ -5,7 +5,7 @@
 data/raw/ に無いときは GitHub から取り直す。"""
 import urllib.request
 from common import RAW
-BASE = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/main/articles/"
+BASE = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/"  # F04・F33 の記事フォルダは削除したので、削除前の版（コミット c56ebc6）から取る
 FILES = {"lodging_pref_monthly_2011_2025.csv": "F04_goto_causalimpact/data/raw/lodging_pref_monthly_2011_2025.csv",
          "pairs.csv": "F33_migration_gravity/data/pairs.csv",
          "pref_points.csv": "F33_migration_gravity/data/pref_points.csv"}

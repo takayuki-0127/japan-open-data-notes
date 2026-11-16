@@ -15,7 +15,7 @@ note：「地価はどこで上がり、駅ができると何が起きるのか�
 | データ | 内容 |
 |---|---|
 | 地価公示（国土数値情報 L01-26、2026年） | 25,565地点。各地点の1996〜2026年の価格（L01_075〜L01_105）と、2007〜2026年の属性移動（L01_129〜L01_148） |
-| 地点の特徴量・駅の位置 | F03 と同じもの（`articles/F03_land_price_ml/data/features.csv`・`stations.csv`）。三大都市の中心からの距離、最寄り駅までの距離、周り1kmの駅の乗降客数、市区町村の人口・人口密度・2015→20年の人口増減、容積率など |
+| 地点の特徴量・駅の位置 | F03 と同じもの（[`articles/F03_land_price_ml/data/features.csv`](https://github.com/takayuki-0127/japan-open-data-notes/blob/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F03_land_price_ml/data/features.csv)・[`stations.csv`](https://github.com/takayuki-0127/japan-open-data-notes/blob/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F03_land_price_ml/data/stations.csv)（削除済みの記事。削除前の版））。三大都市の中心からの距離、最寄り駅までの距離、周り1kmの駅の乗降客数、市区町村の人口・人口密度・2015→20年の人口増減、容積率など |
 | 新しい駅の開業日 | 2005〜2023年に開業した74駅（20路線）。各鉄道事業者の公表資料をもとに `data/stations_new.csv` に手で入力し、F03 の駅の位置と駅名・緯度で突き合わせた |
 
 - `data/price_hist_1996_2026.csv.gz`：地点×年の価格（0 はその年に地点がない）
@@ -99,6 +99,8 @@ python src/01_取得.py <L01-26.geojson> data/      # data/ の2つの csv.gz �
 python src/02_分析.py . ..                         # 第2引数は F03_land_price_ml を含む articles フォルダ
 python src/03_図.py . figures
 ```
+
+F03_land_price_ml は削除済みの記事です。02 を流すときは、[F03_land_price_ml](https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F03_land_price_ml)（削除済みの記事。削除前の版）のフォルダを articles フォルダに置いてください。
 
 乱数の種は 207。LightGBM は n_jobs=2。
 

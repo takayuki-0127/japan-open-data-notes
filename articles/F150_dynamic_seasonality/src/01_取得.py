@@ -7,13 +7,14 @@ import urllib.request
 from common import RAW
 
 BASE = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/main/articles/"
+PIN = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/"  # F02・F68 の記事フォルダは削除したので、削除前の版（コミット c56ebc6）から取る
 FILES = {
-    "births_monthly_2000_2025.csv": "F02_births_counterfactual/data/raw/births_monthly_2000_2025.csv",
-    "hourly_tokyo.csv": "F22_power_demand_forecast/data/hourly_tokyo.csv",
-    "jnto_monthly_2003_2026.csv": "F68_inbound_seasonality_clusters/data/raw/jnto_monthly_2003_2026.csv",
+    "births_monthly_2000_2025.csv": PIN + "F02_births_counterfactual/data/raw/births_monthly_2000_2025.csv",
+    "hourly_tokyo.csv": BASE + "F22_power_demand_forecast/data/hourly_tokyo.csv",
+    "jnto_monthly_2003_2026.csv": PIN + "F68_inbound_seasonality_clusters/data/raw/jnto_monthly_2003_2026.csv",
 }
 for name, path in FILES.items():
     out = RAW / name
     if not out.exists():
-        urllib.request.urlretrieve(BASE + path, out)
+        urllib.request.urlretrieve(path, out)
     print(name, out.stat().st_size)

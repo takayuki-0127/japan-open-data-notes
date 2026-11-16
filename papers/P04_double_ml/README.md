@@ -36,7 +36,7 @@ Double/Debiased Machine Learning（DML）は、交絡（結果と施策の両方
 ## 仕事で使うなら
 - 施策の効果を回帰で出すとき、交絡の効き方が曲がっていそうなら、DML を並べて比べる。結果が大きく違えば、線形回帰の形を疑う
 - Y と D を予測する学習器を2〜3種類試し、効果の推定がどれだけ動くかを見る
-- このリポジトリの [F16](../../articles/F16_childcare_dml)（保育所と女性の就業）でも DML を使った。そこでも学習器を変えたときの動きを見ている
+- このリポジトリの [F16](https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F16_childcare_dml)（削除済みの記事。削除前の版）（保育所と女性の就業）でも DML を使った。そこでも学習器を変えたときの動きを見ている
 
 ## 関連する論文と、次に読むもの
 - Wager, Athey（2018）因果フォレスト：人ごとの効果。[P05](../P05_causal_forest) で試した

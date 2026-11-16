@@ -11,12 +11,15 @@ F19・F27 のフォルダから取り直す場合は、それぞれの src/01_�
 このファイルと同じ名前で data/raw/ に置く。
 """
 import shutil
+import urllib.request
 from common import RAW, ROOT
 
 SRC = {
     "f19_screening_long.csv": ROOT.parent / "F19_small_area_fh" / "data" / "screening_long.csv",
     "f27_smr_2018_22.csv": ROOT.parent / "F27_disease_map_bym2" / "data" / "smr_2018_22.csv",
 }
+# F27 の記事フォルダは削除したので、手元にないときは削除前の版（コミット c56ebc6）から取る
+PIN_URL = {"f27_smr_2018_22.csv": "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F27_disease_map_bym2/data/smr_2018_22.csv"}
 
 if __name__ == "__main__":
     for name, src in SRC.items():
@@ -26,5 +29,8 @@ if __name__ == "__main__":
         elif src.exists():
             shutil.copy(src, dst)
             print("コピー:", src, "->", dst)
+        elif name in PIN_URL:
+            urllib.request.urlretrieve(PIN_URL[name], dst)
+            print("取得（削除前の版）:", dst.name)
         else:
             print("見つからない:", src, "（F19・F27 の 01 を先に実行）")

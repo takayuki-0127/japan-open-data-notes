@@ -158,7 +158,7 @@ With many series and short residuals, the sample covariance becomes unstable and
 
 ### Data
 
-As in this repository's [F36](../../articles/F36_hierarchical_forecast), **guest nights from the Japan Tourism Agency's Overnight Travel Statistics Survey** (prefecture × month, from Jan 2011): 1 national, 10 regional and 47 prefectural series, 58 in total.
+As in this repository's [F36](https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F36_hierarchical_forecast) (deleted article; version before deletion), **guest nights from the Japan Tourism Agency's Overnight Travel Statistics Survey** (prefecture × month, from Jan 2011): 1 national, 10 regional and 47 prefectural series, 58 in total.
 
 ### What I did
 

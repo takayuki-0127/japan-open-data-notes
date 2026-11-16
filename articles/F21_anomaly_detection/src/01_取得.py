@@ -12,20 +12,21 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw"
 BASE = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/main/articles/"
+PIN = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/"  # F12・F18 の記事フォルダは削除したので、削除前の版（コミット c56ebc6）から取る
 ITEMS = ['米', 'パン', '麺類', '生鮮魚介', '生鮮肉', '牛乳', '卵', '生鮮野菜', '生鮮果物', '菓子類', '主食的調理食品', '酒類', '一般外食',
          '電気代', 'ガス代', '上下水道料', '家事用耐久財', '冷暖房用器具', '洋服', '医薬品', '保健医療サービス', '自動車等購入',
          '自動車等維持', '通信', '授業料等', '教養娯楽用耐久財', '宿泊料', 'パック旅行費', '理美容サービス', 'たばこ']
 
 
-def get(path):
-    with urllib.request.urlopen(BASE + path, timeout=60) as r:
+def get(path, base=BASE):
+    with urllib.request.urlopen(base + path, timeout=60) as r:
         return r.read()
 
 
 def main():
     RAW.mkdir(parents=True, exist_ok=True)
-    (RAW / "cpi_chuubunrui.csv").write_bytes(get("F12_stats_pipeline/data/raw/cpi.csv"))
-    (RAW / "ci_monthly_levels.csv").write_bytes(get("F18_nowcast_dfm/data/monthly_levels.csv"))
+    (RAW / "cpi_chuubunrui.csv").write_bytes(get("F12_stats_pipeline/data/raw/cpi.csv", PIN))
+    (RAW / "ci_monthly_levels.csv").write_bytes(get("F18_nowcast_dfm/data/monthly_levels.csv", PIN))
     k = pd.read_csv(io.BytesIO(get("F11_tax_hike_event/data/kakei_monthly_long.csv")))
     k[k.item.isin(ITEMS)][["date", "no", "item", "amount"]].to_csv(RAW / "kakei_items.csv", index=False)
     print("ok")

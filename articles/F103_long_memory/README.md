@@ -23,7 +23,7 @@ note の看板記事 F103 のコード・データ・図です。
 | 東京・大阪の日ごとの気温・湿度 | 同上 | 気象庁「過去の気象データ」 |
 | 消費者物価指数 中分類（78系列、全国・月次） | 1970年1月〜2026年9月 | 総務省統計局「消費者物価指数 2020年基準 長期時系列」（e-Stat 統計表 000032103842） |
 
-- 新しくは取得していません。電力は F67（[articles/F67_temp_power_gam](../F67_temp_power_gam)、もとは F22）で整えた日次の表、物価は F12（[articles/F12_stats_pipeline](../F12_stats_pipeline)）で取り込んだ表を、gzip して `data/raw/` に置いています。
+- 新しくは取得していません。電力は F67（[articles/F67_temp_power_gam](../F67_temp_power_gam)、もとは F22）で整えた日次の表、物価は F12（[articles/F12_stats_pipeline](https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F12_stats_pipeline)（削除済みの記事。削除前の版））で取り込んだ表を、gzip して `data/raw/` に置いています。
 
 ## 手法
 

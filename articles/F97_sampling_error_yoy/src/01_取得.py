@@ -10,9 +10,13 @@
     e-Stat statInfId=000040270646・000040270647・000040270648（F11 で取得・整形したものを再利用）
 - 労働力調査 完全失業率（季節調整値、月）1994年1月〜（F18 で取得したものを再利用）
 """
-import shutil
+import shutil, urllib.request
 from common import ROOT, RAW
 A = ROOT.parent
 shutil.copy(A/'F11_tax_hike_event/data/kakei_monthly_long.csv', RAW/'kakei_monthly_long_F11.csv')
-shutil.copy(A/'F18_nowcast_dfm/data/monthly_levels.csv', RAW/'monthly_levels_F18.csv')
+# F18 の記事フォルダは削除したので、手元にないときは削除前の版（コミット c56ebc6）から取る
+if (A/'F18_nowcast_dfm').exists():
+    shutil.copy(A/'F18_nowcast_dfm/data/monthly_levels.csv', RAW/'monthly_levels_F18.csv')
+else:
+    urllib.request.urlretrieve('https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F18_nowcast_dfm/data/monthly_levels.csv', RAW/'monthly_levels_F18.csv')
 print('copied')

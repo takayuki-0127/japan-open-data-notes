@@ -6,7 +6,7 @@
 import urllib.request
 from common import RAW
 
-BASE = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/main/articles/"
+BASE = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/"  # 209 の記事フォルダは削除したので、削除前の版（コミット c56ebc6）から取る
 FILES = {
     "ssds_pref_indicators.csv": "209_pref_rank_turnover/data/pref_indicators_2015_2026_editions.csv",
     "indicator_names_2026.tsv": "209_pref_rank_turnover/data/indicator_names_2026.tsv",

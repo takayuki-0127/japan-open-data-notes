@@ -109,4 +109,4 @@ python src/04_図.py
 - 厚生労働省「人口動態統計速報」各月分（2007年1月分〜2026年8月分）「当月分及び当月を含む過去１年間（12ヶ月）の動向」 https://www.mhlw.go.jp/toukei/list/81-1a.html
 - 厚生労働省「人口動態統計月報（概数）」各月分（2011年2月分〜2026年5月分）「当月分を含む過去１年間の動向」 同上
 - 厚生労働省「人口動態統計」2025年確定数 上巻 出生 第4.2表（e-Stat statInfId=000040503641）
-- F55 の予測値：本リポジトリ articles/F55_births_bsts/results/C_future_annual.csv
+- F55 の予測値：本リポジトリ [articles/F55_births_bsts/results/C_future_annual.csv](https://github.com/takayuki-0127/japan-open-data-notes/blob/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F55_births_bsts/results/C_future_annual.csv)（削除済みの記事。削除前の版）

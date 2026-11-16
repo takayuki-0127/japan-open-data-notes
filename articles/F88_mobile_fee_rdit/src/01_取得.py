@@ -2,7 +2,8 @@
 元は e-Stat「消費者物価指数 2020年基準 中分類指数（全国）」の長期時系列 CSV。"""
 import urllib.request
 from common import RAW
-URL = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/main/articles/F12_stats_pipeline/data/raw/cpi.csv"
+# F12 の記事フォルダは削除したので、削除前の版（コミット c56ebc6）から取る
+URL = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F12_stats_pipeline/data/raw/cpi.csv"
 out = RAW / "cpi_2020base_chubunrui.csv"
 if not out.exists():
     urllib.request.urlretrieve(URL, out)

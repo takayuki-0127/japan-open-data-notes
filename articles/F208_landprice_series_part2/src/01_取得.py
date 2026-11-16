@@ -7,6 +7,9 @@
     国土交通省「不動産取引価格情報」（不動産情報ライブラリ）の中古マンション等の取引、2015〜2025年、全国（F182 で整形）
 - articles/F158_land_price_update/data/panel.csv：地価公示の2017〜2026年の地点×年の価格（F158 で整形）
 - articles/F03_land_price_ml/data/features.csv：地点の特徴量（F03）
+  F158・F03 は削除済みの記事。削除前の版のフォルダを articles/ に置く：
+  https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F158_land_price_update
+  https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F03_land_price_ml
 実行：python src/02_分析.py . ..  →  python src/03_図.py .
 """
 print(__doc__)

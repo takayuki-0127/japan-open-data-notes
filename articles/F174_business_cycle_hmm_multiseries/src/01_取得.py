@@ -13,7 +13,7 @@ import sys, io, json, urllib.request
 import pandas as pd
 from common import RAW
 
-BASE = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/main/articles/F18_nowcast_dfm/data/raw/"
+BASE = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F18_nowcast_dfm/data/raw/"  # F18 の記事フォルダは削除したので、削除前の版（コミット c56ebc6）から取る
 
 def table(d, key, names):
     rows = [r for r in d[key] if r and isinstance(r[0], str) and r[0].isdigit() and len(r[0]) == 10]

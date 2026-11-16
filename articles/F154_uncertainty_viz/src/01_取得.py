@@ -13,15 +13,16 @@ import urllib.request
 from common import RAW
 
 BASE = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/main/articles/"
+PIN = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/"  # F55・F92 の記事フォルダは削除したので、削除前の版（コミット c56ebc6）から取る
 FILES = {
-    "f55_annual_forecast.csv": "F55_births_bsts/results/A_annual_forecast.csv",
-    "f55_monthly.csv": "F55_births_bsts/data/monthly.csv",
-    "f86_mx_long.csv": "F86_lee_carter_e0/data/mx_long.csv",
-    "f86_forecast_e0.csv": "F86_lee_carter_e0/results/forecast_e0.csv",
-    "f92_pred_tokyo.csv": "F92_power_quantile_forecast/results/pred_tokyo.csv",
+    "f55_annual_forecast.csv": PIN + "F55_births_bsts/results/A_annual_forecast.csv",
+    "f55_monthly.csv": PIN + "F55_births_bsts/data/monthly.csv",
+    "f86_mx_long.csv": BASE + "F86_lee_carter_e0/data/mx_long.csv",
+    "f86_forecast_e0.csv": BASE + "F86_lee_carter_e0/results/forecast_e0.csv",
+    "f92_pred_tokyo.csv": PIN + "F92_power_quantile_forecast/results/pred_tokyo.csv",
 }
 for name, path in FILES.items():
     out = RAW / name
     if not out.exists():
-        urllib.request.urlretrieve(BASE + path, out)
+        urllib.request.urlretrieve(path, out)
     print(name, out.stat().st_size)

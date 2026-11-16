@@ -135,5 +135,5 @@ python 04_図.py     # figures/ に図5枚
 
 ## 出典
 
-- 総務省統計局「社会・人口統計体系 都道府県データ」（2015年版・2026年版、e-Stat、https://www.e-stat.go.jp/）を加工して作成。取得した表は同じリポジトリの `articles/209_pref_rank_turnover/` による
+- 総務省統計局「社会・人口統計体系 都道府県データ」（2015年版・2026年版、e-Stat、https://www.e-stat.go.jp/）を加工して作成。取得した表は同じリポジトリの [`articles/209_pref_rank_turnover/`](https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/209_pref_rank_turnover)（削除済みの記事。削除前の版）による
 - note 記事：（公開後に記入）

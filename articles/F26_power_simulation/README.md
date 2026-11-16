@@ -13,7 +13,7 @@
 | データ | 元 | 中身 |
 |---|---|---|
 | `data/raw/f01_panel.csv` | [F01](../F01_minimum_wage_did)（総務省「労働力調査 都道府県別モデル推計値」ほか） | 47都道府県 × 2008〜2025年の就業率・完全失業率 |
-| `data/raw/f14_analysis.csv` | [F14](../F14_compact_city_psm_did)（国土数値情報 人口集中地区ほか） | 市町村の人口集中地区の密度の変化（2010→15年、2015→20年） |
+| `data/raw/f14_analysis.csv` | [F14](https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F14_compact_city_psm_did)（削除済みの記事。削除前の版）（国土数値情報 人口集中地区ほか） | 市町村の人口集中地区の密度の変化（2010→15年、2015→20年） |
 
 ## 手法
 

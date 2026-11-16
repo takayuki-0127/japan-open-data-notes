@@ -4,12 +4,18 @@
 - data/raw/cycle_dates.csv：内閣府の景気基準日付（F35 と同じ）
 取り直すときは、F42・F35 の src/01_取得.py を動かしてから、それぞれのファイルをここにコピーする。"""
 import shutil
+import urllib.request
 from common import ROOT, RAW
 
 SRC = {
     "f42_series.csv": ROOT.parent / "F42_seasonal_adjustment" / "data" / "series.csv",
     "f35_ci_iip_monthly.csv": ROOT.parent / "F35_business_cycle_markov" / "data" / "raw" / "ci_iip_monthly.csv",
     "cycle_dates.csv": ROOT.parent / "F35_business_cycle_markov" / "data" / "raw" / "cycle_dates.csv",
+}
+# F35 の記事フォルダは削除したので、手元にないときは削除前の版（コミット c56ebc6）から取る
+PIN_URL = {
+    "f35_ci_iip_monthly.csv": "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F35_business_cycle_markov/data/raw/ci_iip_monthly.csv",
+    "cycle_dates.csv": "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F35_business_cycle_markov/data/raw/cycle_dates.csv",
 }
 
 if __name__ == "__main__":
@@ -20,5 +26,8 @@ if __name__ == "__main__":
         elif src.exists():
             shutil.copy(src, RAW / name)
             print("コピー:", name)
+        elif name in PIN_URL:
+            urllib.request.urlretrieve(PIN_URL[name], RAW / name)
+            print("取得（削除前の版）:", name)
         else:
             raise FileNotFoundError(f"{src} がありません。F42/F35 の取得スクリプトを先に動かしてください")

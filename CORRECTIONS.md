@@ -30,7 +30,6 @@
 | F276 | 地震保険の付帯率は、地震のあとにどれだけ上がって戻るのか？ | [F276_earthquake_insurance_after_quakes](articles/F276_earthquake_insurance_after_quakes) |
 | F277 | 最低賃金の審議会資料にある指標で、上げ幅はどこまで説明できるか？ | [F277_minimum_wage_council_indicators](articles/F277_minimum_wage_council_indicators) |
 | F278 | 「空き家が過去最多」は、住宅の数が増えた分を除くとどうか？ | [F278_vacant_record_stock_vs_rate](articles/F278_vacant_record_stock_vs_rate) |
-| F279 | RFM で分けた顧客は、その後どう動くのか？ | [F279_rfm_segment_transitions](articles/F279_rfm_segment_transitions) |
 | F280 | 医療費の伸びは、年齢・回数・日数・1日当たりのどれで決まっているのか？ | [F280_medical_cost_three_elements](articles/F280_medical_cost_three_elements) |
 | F281 | 食料自給率の目標と実際の差は、どこから来ているのか？ | [F281_food_self_sufficiency_target_gap](articles/F281_food_self_sufficiency_target_gap) |
 | F282 | 「円安で輸出が増えた」は、数量と価格に分けるとどうか？ | [F282_yen_exports_quantity_price](articles/F282_yen_exports_quantity_price) |

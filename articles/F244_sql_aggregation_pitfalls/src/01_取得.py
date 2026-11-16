@@ -1,6 +1,6 @@
 """01 取得：この記事では新しい取得はしない。
 - data/raw/retail_national_2014_2026.csv：経済産業省「商業動態統計」（全国・月次の販売額、百万円）。F135 で取得し F232 で整えたものをそのまま使う
-  （japan-open-data-notes/articles/F232_hierarchical_retail_reconciliation/data/raw/ と同じファイル）
+  （F232 は削除済みの記事。削除前の版 https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F232_hierarchical_retail_reconciliation/data/raw の同じ名前のファイルと同じ）
 - data/raw/f232_nodes.csv：F232 で作った品目の階層表（どの品目が「いちばん細かい単位」か）
 - data/raw/holidays_jp.csv：国民の祝日（内閣府「国民の祝日」に基づく。F233 で Python の jpholiday から作成）
 - 注文データは架空のネット書店「あおば書店（架空）」のシミュレーションで、02_整形.py が作る

@@ -3,7 +3,8 @@ GitHub の 037 のフォルダから zip を取ってきて data/raw に置く�
 from pathlib import Path
 import urllib.request
 RAW = Path(__file__).resolve().parents[1] / "data" / "raw"; RAW.mkdir(parents=True, exist_ok=True)
-URL = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/main/articles/037_tokyo_condo_hedonic/data/raw/Tokyo_20151_20261.zip"
+# 037 の記事フォルダは削除したので、削除前の版（コミット c56ebc6）から取る
+URL = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/037_tokyo_condo_hedonic/data/raw/Tokyo_20151_20261.zip"
 f = RAW / "Tokyo_20151_20261.zip"
 if not f.exists():
     urllib.request.urlretrieve(URL, f)

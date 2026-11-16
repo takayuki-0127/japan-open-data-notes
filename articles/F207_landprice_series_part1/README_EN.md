@@ -15,7 +15,7 @@ This deep-dive series on land prices and housing reuses the data of earlier land
 | Data | Contents |
 |---|---|
 | Official land price publication (National Land Numerical Information L01-26, 2026) | 25,565 points. Prices for each point 1996–2026 (L01_075–L01_105) and attribute-change codes 2007–2026 (L01_129–L01_148) |
-| Point features and station locations | Same as F03 (`articles/F03_land_price_ml/data/features.csv`, `stations.csv`): distance from the centers of the three major metro areas, distance to the nearest station, passengers at stations within 1 km, municipality population, density, 2015→20 population change, floor-area ratio, etc. |
+| Point features and station locations | Same as F03 ([`articles/F03_land_price_ml/data/features.csv`](https://github.com/takayuki-0127/japan-open-data-notes/blob/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F03_land_price_ml/data/features.csv), [`stations.csv`](https://github.com/takayuki-0127/japan-open-data-notes/blob/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F03_land_price_ml/data/stations.csv) (deleted article; version before deletion)): distance from the centers of the three major metro areas, distance to the nearest station, passengers at stations within 1 km, municipality population, density, 2015→20 population change, floor-area ratio, etc. |
 | Opening dates of new stations | 74 stations (20 lines) opened 2005–2023, entered by hand in `data/stations_new.csv` from railway operators' published materials, and matched to F03 station locations by name and latitude |
 
 - `data/price_hist_1996_2026.csv.gz`: price by point × year (0 means the point did not exist that year).
@@ -133,6 +133,8 @@ python src/01_取得.py <L01-26.geojson> data/      # builds the two csv.gz file
 python src/02_分析.py . ..                         # second argument: the articles folder containing F03_land_price_ml
 python src/03_図.py . figures
 ```
+
+F03_land_price_ml has been deleted from the repository. To run step 02, place [F03_land_price_ml](https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F03_land_price_ml) (deleted article; version before deletion) in the articles folder.
 Random seed 207. LightGBM uses n_jobs=2.
 
 ## Files

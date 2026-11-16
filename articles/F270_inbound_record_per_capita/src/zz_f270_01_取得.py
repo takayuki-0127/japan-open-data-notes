@@ -24,6 +24,8 @@ FRED = ["AEXJPUS", "AEXCHUS", "AEXKOUS", "AEXTAUS", "AEXHKUS", "AEXTHUS", "AEXSI
        ["FPCPITOTLZG" + c for c in ["KOR", "CHN", "HKG", "THA", "SGP", "USA", "GBR", "AUS", "CAN", "DEU", "FRA", "MYS", "IND"]]
 CPI = "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032103842&fileKind=1"
 JNTO_SRC = os.path.join(HERE, "..", "..", "F68_inbound_seasonality_clusters", "data", "raw", "jnto_monthly_2003_2026.csv")
+# F68 の記事フォルダは削除したので、手元にないときは削除前の版（コミット c56ebc6）から取る
+JNTO_URL = "https://raw.githubusercontent.com/takayuki-0127/japan-open-data-notes/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F68_inbound_seasonality_clusters/data/raw/jnto_monthly_2003_2026.csv"
 
 def get(url, path):
     if os.path.exists(path) and os.path.getsize(path) > 200:
@@ -49,5 +51,8 @@ if __name__ == "__main__":
     get(CPI, os.path.join(RAW, "cpi_2020base_monthly_estat.csv"))
     dst = os.path.join(RAW, "jnto_monthly_2003_2026.csv")
     if not os.path.exists(dst):
-        shutil.copy(JNTO_SRC, dst)
+        if os.path.exists(JNTO_SRC):
+            shutil.copy(JNTO_SRC, dst)
+        else:
+            get(JNTO_URL, dst)
     print("ok")

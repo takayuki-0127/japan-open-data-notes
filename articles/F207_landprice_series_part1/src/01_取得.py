@@ -2,7 +2,7 @@
 - 地価公示 2026年（国土数値情報 L01-26）：https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-2026.html
   L01-26_GML.zip を取得して展開し、L01-26.geojson から各地点の 1996〜2026 年の価格（L01_075〜L01_105）と
   2007〜2026 年の属性移動（L01_129〜L01_148）を抜き出す（下の関数）。結果は data/ の2つの csv.gz。
-- 地点の特徴量・駅の位置は F03 の data/features.csv・data/stations.csv を使う（articles/F03_land_price_ml）。
+- 地点の特徴量・駅の位置は F03 の data/features.csv・data/stations.csv を使う（articles/F03_land_price_ml。削除済みの記事。削除前の版は https://github.com/takayuki-0127/japan-open-data-notes/tree/c56ebc67126a738058bdae7c172e7b29473f9286/articles/F03_land_price_ml）。
 - 新しい駅の開業日は、各鉄道事業者の公表資料をもとに data/stations_new.csv に手で入力した。
 使い方：python 01_取得.py L01-26.geojson data/
 """
