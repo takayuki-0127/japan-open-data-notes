@@ -1,0 +1,60 @@
+{
+ "kaede": {
+  "n_obs": 4191,
+  "n_stations_slope": 79,
+  "median_slope": {
+   "color": 2.86,
+   "fall": 1.63,
+   "span": -1.11
+  },
+  "share_negative_span_slope_pct": 79.7,
+  "period_diff_span_days": -4.1,
+  "period_diff_n": 59,
+  "period_diff_color_days": 10.1,
+  "period_diff_fall_days": 6.4,
+  "fe_span_per_decade": [
+   -1.31,
+   0.08
+  ],
+  "mean_span_1961_1990": 17.3,
+  "mean_span_1996_2025": 12.9
+ },
+ "ichou": {
+  "n_obs": 4014,
+  "n_stations_slope": 75,
+  "median_slope": {
+   "color": 2.5,
+   "fall": 1.5,
+   "span": -0.83
+  },
+  "share_negative_span_slope_pct": 72.0,
+  "period_diff_span_days": -3.2,
+  "period_diff_n": 59,
+  "period_diff_color_days": 9.0,
+  "period_diff_fall_days": 5.8,
+  "fe_span_per_decade": [
+   -0.93,
+   0.06
+  ],
+  "mean_span_1961_1990": 14.3,
+  "mean_span_1996_2025": 11.3
+ },
+ "hypotheses": {
+  "H1_kaede_span_slope_le_-0.5": {
+   "value": -1.11,
+   "result": "支持"
+  },
+  "H2_ichou_span_slope_le_-0.5": {
+   "value": -0.83,
+   "result": "支持"
+  },
+  "H3_kaede_period_diff_le_-3": {
+   "value": -4.1,
+   "result": "支持"
+  },
+  "H4_kaede_fall_slope_ge_1.5": {
+   "value": 1.63,
+   "result": "支持"
+  }
+ }
+}
