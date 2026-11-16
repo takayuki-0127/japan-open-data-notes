@@ -1,0 +1,134 @@
+{
+ "overall": {
+  "2019": {
+   "fixed": 69.2,
+   "ftth": 51.9,
+   "catv": 15.6,
+   "dsl": 3.0,
+   "mobile": 48.4,
+   "lte": 35.2,
+   "no_contract": 7.7,
+   "no_answer": 4.8,
+   "no_fixed": 26.0
+  },
+  "2020": {
+   "fixed": 74.8,
+   "ftth": 56.4,
+   "catv": 16.2,
+   "dsl": 3.0,
+   "mobile": 56.1,
+   "lte": 44.1,
+   "g5": 1.8,
+   "no_contract": 5.3,
+   "no_answer": 2.1,
+   "no_fixed": 23.1
+  },
+  "2021": {
+   "fixed": 75.6,
+   "ftth": 56.8,
+   "catv": 17.0,
+   "dsl": 3.1,
+   "mobile": 54.8,
+   "lte": 41.8,
+   "g5": 7.6,
+   "no_contract": 5.3,
+   "no_answer": 2.5,
+   "no_fixed": 21.9
+  },
+  "2022": {
+   "fixed": 76.5,
+   "ftth": 59.4,
+   "catv": 15.4,
+   "dsl": 2.6,
+   "mobile": 55.5,
+   "lte": 37.1,
+   "g5": 17.9,
+   "no_contract": 4.7,
+   "no_answer": 2.2,
+   "no_fixed": 21.3
+  },
+  "2023": {
+   "fixed": 75.6,
+   "ftth": 57.3,
+   "catv": 17.1,
+   "dsl": 2.5,
+   "mobile": 51.3,
+   "lte": 30.6,
+   "g5": 21.6,
+   "no_contract": 5.7,
+   "no_answer": 3.0,
+   "no_fixed": 21.4
+  },
+  "2024": {
+   "fixed": 77.6,
+   "ftth": 60.5,
+   "catv": 16.2,
+   "dsl": 2.3,
+   "mobile": 71.6,
+   "lte": 29.8,
+   "g5": 34.6,
+   "home_router": 21.6,
+   "no_contract": 3.3,
+   "no_answer": 1.9,
+   "no_fixed": 20.5
+  },
+  "2025": {
+   "fixed": 76.6,
+   "ftth": 58.8,
+   "catv": 16.4,
+   "dsl": 1.9,
+   "mobile": 71.5,
+   "lte": 26.1,
+   "g5": 38.1,
+   "home_router": 22.0,
+   "no_contract": 3.4,
+   "no_answer": 2.5,
+   "no_fixed": 20.9
+  }
+ },
+ "ftth_contracts_first": {
+  "date": "2023-06",
+  "value": 39902858.0
+ },
+ "ftth_contracts_last": {
+  "date": "2026-06",
+  "value": 41673249.0
+ },
+ "ftth_contracts_change_pct": 4.44,
+ "hypotheses": {
+  "H1": {
+   "mobile_by_year": {
+    "2019": 48.4,
+    "2020": 56.1,
+    "2021": 54.8,
+    "2022": 55.5,
+    "2023": 51.3,
+    "2024": 71.6,
+    "2025": 71.5
+   },
+   "years_not_up": [
+    2021,
+    2023,
+    2025
+   ],
+   "verdict": "外れ"
+  },
+  "H2": {
+   "single_fixed_2019": 47.6,
+   "single_fixed_2025": 57.7,
+   "verdict": "外れ"
+  },
+  "H3": {
+   "gap_2019": 42.8,
+   "gap_2025": 37.2,
+   "verdict": "支持"
+  },
+  "H4": {
+   "mobile_2023": 51.3,
+   "mobile_2024": 71.6,
+   "diff": 20.3,
+   "verdict": "支持"
+  }
+ },
+ "note": "通信利用動向調査は複数回答の割合（%）。対象は過去1年にインターネットを使った世帯。2024年から選択肢にホームルーターが加わった。"
+}
