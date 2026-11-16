@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 214本＋記事の一覧 699本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 271本＋記事の一覧 699本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -2112,7 +2112,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（232本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（289本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2348,6 +2348,63 @@
 | 474 | 見出しを結合セルや空欄で省いた Excel の表を読むと、何行が区分を失うのか？ | [474_blank_headings_filldown](articles/474_blank_headings_filldown) |
 | 541 | 郵便番号から都道府県・市区町村を引くと、古い番号や事業所の個別番号のせいで何件が引けないのか？ | [541_postal_code_lookup_gaps](articles/541_postal_code_lookup_gaps) |
 | F296 | 最低賃金の差の差は、前提をどこまで確かめられるのか？ | [F296_minimum_wage_did_assumptions](articles/F296_minimum_wage_did_assumptions) |
+| F299 | 「人手不足の職業ほど賃金が上がった」は本当か？ | [F299_occupation_shortage_wage](articles/F299_occupation_shortage_wage) |
+| F300 | 「転職すると賃金が上がる人が増えた」は、雇用動向調査でどこまで言えるか？ | [F300_job_changer_wage_gain](articles/F300_job_changer_wage_gain) |
+| F301 | 「物流2024年問題」で、トラックの運ぶ量と働く時間はどう変わったか？ | [F301_logistics_2024_trucks](articles/F301_logistics_2024_trucks) |
+| F302 | 「パートの時給は正社員より速く上がった」は、どこまで本当か？ | [F302_parttime_hourly_wage](articles/F302_parttime_hourly_wage) |
+| F303 | 60歳以上の働く人が増えた分は、どの産業が受け止めたのか？ | [F303_older_workers_by_industry](articles/F303_older_workers_by_industry) |
+| F304 | 「女性の正社員が増えた」は、年齢のどこで起きたのか？ | [F304_women_regular_by_age](articles/F304_women_regular_by_age) |
+| F305 | 「残業が減った」は、働く時間のどこが減ったのか？ | [F305_overtime_decline_decomposition](articles/F305_overtime_decline_decomposition) |
+| F306 | 「若者のビール離れ」は、年齢のせいか、世代のせいか？ | [F306_beer_age_period_cohort](articles/F306_beer_age_period_cohort) |
+| F307 | 「米を食べなくなった」は、世代の違いでどこまで説明できるか？ | [F307_rice_age_cohort](articles/F307_rice_age_cohort) |
+| F308 | キャッシュレスが広がって、お札はいらなくなったのか？ | [F308_cashless_banknotes](articles/F308_cashless_banknotes) |
+| F309 | 「外食の値上がりは人件費のせい」は、どこまで言えるか？ | [F309_restaurant_prices_labor_cost](articles/F309_restaurant_prices_labor_cost) |
+| F310 | 新聞・書籍・雑誌への支出は、どれだけ減ったのか？ | [F310_print_media_spending](articles/F310_print_media_spending) |
+| F311 | 「家賃は上がらない」は本当か？ | [F311_cpi_rent_measurement](articles/F311_cpi_rent_measurement) |
+| F312 | 子育て世帯の教育費の負担は、重くなったのか？ | [F312_education_spending_burden](articles/F312_education_spending_burden) |
+| F313 | 町の小さな店が減ったのは、大きな店に置き換わったからか？ | [F313_small_shops_replacement](articles/F313_small_shops_replacement) |
+| F315 | 「製造業の国内回帰」は、工場の立地で見えるのか？ | [F315_factory_location_reshoring](articles/F315_factory_location_reshoring) |
+| F316 | 日本の研究者数と研究費は、どの組織で伸びて、どこで止まったのか？ | [F316_rd_by_sector](articles/F316_rd_by_sector) |
+| F317 | 「日本は開業が少ない」は、数え方でどれだけ変わるのか？ | [F317_startup_rate_counting](articles/F317_startup_rate_counting) |
+| F318 | フリーランス・ひとりで働く人は、本当に増えたのか？ | [F318_solo_self_employed](articles/F318_solo_self_employed) |
+| F319 | 「東京一極集中」は、年齢のどこで起きているのか？ | [F319_tokyo_netmig_by_age](articles/F319_tokyo_netmig_by_age) |
+| F320 | 地方から出ていくのは、若い女性の方が多いのか？ | [F320_regional_outflow_by_sex](articles/F320_regional_outflow_by_sex) |
+| F321 | 外国人が増えて、人口の減り方はどれだけ和らいだのか？ | [F321_foreign_residents_population_change](articles/F321_foreign_residents_population_change) |
+| F322 | ひとり暮らしが増えたのは、高齢化と未婚化のどちらのせいか？ | [F322_living_alone_aging_vs_unmarried](articles/F322_living_alone_aging_vs_unmarried) |
+| F323 | 通勤時間は長くなったのか、短くなったのか？ | [F323_commute_time_trend](articles/F323_commute_time_trend) |
+| F324 | 「人口が減っても世帯は増える」は、いつまで続くのか？ | [F324_households_vs_population](articles/F324_households_vs_population) |
+| F326 | 新築の家は狭くなったのか？ | [F326_new_dwelling_floor_area](articles/F326_new_dwelling_floor_area) |
+| F327 | 「若い世代の持ち家率が下がった」は、世代で追うとどう見えるか？ | [F327_young_homeownership_cohort](articles/F327_young_homeownership_cohort) |
+| F328 | 古い耐震基準の住宅は、どれだけのペースで減っているのか？ | [F328_pre1981_housing_stock](articles/F328_pre1981_housing_stock) |
+| F329 | 日本の CO2 排出が減ったのは、何のおかげか？ | [F329_co2_decline_kaya](articles/F329_co2_decline_kaya) |
+| F330 | 桜の開花は、どれだけ早くなったのか？ | [F330_sakura_urban_warming](articles/F330_sakura_urban_warming) |
+| F331 | 雪は本当に減ったのか？ | [F331_snow_decline_trend](articles/F331_snow_decline_trend) |
+| F332 | 日本に近づく台風は、遅くなったのか？ | [F332_typhoon_speed_near_japan](articles/F332_typhoon_speed_near_japan) |
+| F333 | 梅雨の雨は、多くなったのか？ | [F333_tsuyu_rain_trend](articles/F333_tsuyu_rain_trend) |
+| F334 | 日照時間は、なぜ増えたのか？ | [F334_sunshine_brightening](articles/F334_sunshine_brightening) |
+| F335 | 地方のバスの利用は、どこまで減ったのか？ | [F335_local_bus_decline](articles/F335_local_bus_decline) |
+| F336 | 日本人の国内旅行は、減っているのか？ | [F336_domestic_travel_decomposition](articles/F336_domestic_travel_decomposition) |
+| F337 | ホテルの客室は、足りなくなっているのか？ | [F337_hotel_room_capacity](articles/F337_hotel_room_capacity) |
+| F338 | 宅配便の再配達は、減ったのか？ | [F338_redelivery_rate](articles/F338_redelivery_rate) |
+| F339 | 米の作付けが減った田んぼは、何に変わったのか？ | [F339_paddy_land_use_after_rice](articles/F339_paddy_land_use_after_rice) |
+| F340 | 農業で働く人の高齢化は、この先どう進むのか？ | [F340_core_farmers_cohort_projection](articles/F340_core_farmers_cohort_projection) |
+| F341 | 酪農家が減っても、牛乳はなぜあまり減らないのか？ | [F341_dairy_farms_vs_milk](articles/F341_dairy_farms_vs_milk) |
+| F342 | 家計の食費のうち、外食と中食の割合はどこまで増えたのか？ | [F342_food_away_prepared_share](articles/F342_food_away_prepared_share) |
+| F343 | 貿易赤字は、円安とエネルギー価格のどちらのせいか？ | [F343_trade_deficit_yen_vs_energy](articles/F343_trade_deficit_yen_vs_energy) |
+| F344 | 「デジタル赤字」は、どれくらいの速さで増えているのか？ | [F344_digital_deficit_speed](articles/F344_digital_deficit_speed) |
+| F345 | 日銀短観の業況判断DIは、GDP の動きを先に教えてくれるか？ | [F345_tankan_leads_gdp](articles/F345_tankan_leads_gdp) |
+| F346 | 企業の仕入れ値の上がりは、どれだけ遅れて消費者物価に届くのか？ | [F346_ppi_to_cpi_passthrough](articles/F346_ppi_to_cpi_passthrough) |
+| F347 | 家計の貯蓄率が下がったのは、高齢化のせいか？ | [F347_household_saving_aging](articles/F347_household_saving_aging) |
+| F348 | お中元・お歳暮の支出は、どれだけ減ったのか？ | [F348_gift_season_spending](articles/F348_gift_season_spending) |
+| F349 | 水害の被害額は、本当に大きくなったのか？ | [F349_flood_damage_trend](articles/F349_flood_damage_trend) |
+| F350 | 大学院に進む人は、減っているのか？ | [F350_graduate_school_entrants](articles/F350_graduate_school_entrants) |
+| F351 | 教員の採用倍率は、なぜ下がったのか？ | [F351_teacher_hiring_ratio](articles/F351_teacher_hiring_ratio) |
+| F353 | 「平均年収○○万円」は、統計によってどれだけ違うのか？ | [F353_average_income_by_statistic](articles/F353_average_income_by_statistic) |
+| F354 | 失業率と求人倍率は、同じ景気を見ているのか？ | [F354_unemployment_vs_job_ratio](articles/F354_unemployment_vs_job_ratio) |
+| F355 | 名目と実質で、日本の成長の見え方はどれだけ変わるのか？ | [F355_nominal_vs_real_gdp](articles/F355_nominal_vs_real_gdp) |
+| F356 | 「消費が弱い」は、家計調査とGDPでどれだけ違って見えるのか？ | [F356_household_survey_vs_gdp_consumption](articles/F356_household_survey_vs_gdp_consumption) |
+| F357 | サービス業の売上は、物価を除いてもコロナ前に戻ったのか？ | [F357_service_sales_real_recovery](articles/F357_service_sales_real_recovery) |
+| F358 | 統計の基準改定で、過去の数字はどれだけ書き換わったのか？ | [F358_benchmark_revision_gdp](articles/F358_benchmark_revision_gdp) |
 
 </details>
 
