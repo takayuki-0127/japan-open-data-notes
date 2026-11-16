@@ -1,0 +1,90 @@
+{
+ "hypotheses": {
+  "H1": {
+   "rule": "2024年の名目GDPが3%以上上に書き換わったら支持",
+   "value": 4.332740351097675,
+   "verdict": "支持"
+  },
+  "H2": {
+   "rule": "実質の前年比の書き換えの絶対値の平均（1995〜2024年）が0.5ポイント以下なら支持",
+   "value": 0.2108930978995527,
+   "verdict": "支持"
+  },
+  "H3": {
+   "rule": "名目の水準の書き換え（%）の平均が1994〜99年より2020〜24年の方が大きければ支持",
+   "y1990s": 1.6916478694000334,
+   "y2020s": 3.8668581869452994,
+   "verdict": "支持"
+  },
+  "H4": {
+   "rule": "1994〜2024年の実質の年率の平均の変化が0.1ポイント未満なら支持",
+   "old": 0.7271021905091102,
+   "new": 0.7704415994849612,
+   "diff": 0.04333940897585098,
+   "verdict": "支持"
+  }
+ },
+ "robustness": [
+  {
+   "check": "1995〜2019年",
+   "real_abs_mean": 0.1749,
+   "nominal_abs_mean": 0.1921,
+   "deflator_abs_mean": 0.1309,
+   "real_max_abs": 0.6097,
+   "real_max_year": 2014
+  },
+  {
+   "check": "2010〜2024年",
+   "real_abs_mean": 0.2488,
+   "nominal_abs_mean": 0.2561,
+   "deflator_abs_mean": 0.1488,
+   "real_max_abs": 0.8676,
+   "real_max_year": 2021
+  },
+  {
+   "check": "1995〜2024年",
+   "real_abs_mean": 0.2109,
+   "nominal_abs_mean": 0.2235,
+   "deflator_abs_mean": 0.1562,
+   "real_max_abs": 0.8676,
+   "real_max_year": 2021
+  },
+  {
+   "check": "最大の書き換えの年（2021年）を除く 1995〜2024年",
+   "real_abs_mean": 0.1882,
+   "nominal_abs_mean": NaN,
+   "deflator_abs_mean": NaN,
+   "real_max_abs": 0.6097,
+   "real_max_year": 2014
+  }
+ ],
+ "nominal_2024_old": 607887.8,
+ "nominal_2024_new": 634226.0,
+ "rev_2024_trillion": 26.338199999999954,
+ "rev_2024_pct": 4.332740351097675,
+ "rev_1994_pct": 2.105825203002998,
+ "rev_2015_pct": 2.013708098937528,
+ "rev_2019_pct": 2.496313030685182,
+ "rev_max_year": 2022,
+ "rev_max_pct": 4.333464322326375,
+ "rev_min_year": 2011,
+ "rev_min_pct": 0.7424079136570505,
+ "components_2024": {
+  "business_inv": 12.836,
+  "pce": 7.472,
+  "housing": 4.835,
+  "gov_cons": 2.109,
+  "private_inv_change": -1.312,
+  "public_inv": 0.362,
+  "exports": 0.182,
+  "public_inv_change": -0.143,
+  "imports": -0.002
+ },
+ "sum_components_2024": 26.3381,
+ "real_growth_rev_max_year": 2021,
+ "real_growth_rev_max": 0.8676212728736532,
+ "sign_changes_real": 1,
+ "sign_change_years": [
+  2011
+ ]
+}
