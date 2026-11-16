@@ -1,0 +1,225 @@
+{
+ "H1": {
+  "diff_el_neu": -0.375,
+  "diff_la_neu": 0.132,
+  "mean_el": -0.299,
+  "mean_la": 0.208,
+  "mean_neu": 0.076,
+  "n_el": 22,
+  "n_la": 18,
+  "n_neu": 37,
+  "p_el": 0.028,
+  "p_la": 0.462,
+  "result": "支持",
+  "threshold": -0.2
+ },
+ "H2": {
+  "by_region": {
+   "北日本": {
+    "diff_el_neu": -0.428,
+    "diff_la_neu": 0.26,
+    "mean_el": -0.367,
+    "mean_la": 0.322,
+    "mean_neu": 0.061,
+    "n_el": 22,
+    "n_la": 18,
+    "n_neu": 37,
+    "p_el": 0.104,
+    "p_la": 0.369,
+    "sd_resid": 1.017
+   },
+   "東日本": {
+    "diff_el_neu": -0.441,
+    "diff_la_neu": 0.127,
+    "mean_el": -0.345,
+    "mean_la": 0.223,
+    "mean_neu": 0.096,
+    "n_el": 22,
+    "n_la": 18,
+    "n_neu": 37,
+    "p_el": 0.018,
+    "p_la": 0.5,
+    "sd_resid": 0.682
+   },
+   "沖縄・奄美": {
+    "diff_el_neu": -0.117,
+    "diff_la_neu": 0.004,
+    "mean_el": -0.084,
+    "mean_la": 0.036,
+    "mean_neu": 0.032,
+    "n_el": 22,
+    "n_la": 18,
+    "n_neu": 37,
+    "p_el": 0.277,
+    "p_la": 0.971,
+    "sd_resid": 0.405
+   },
+   "西日本": {
+    "diff_el_neu": -0.378,
+    "diff_la_neu": 0.057,
+    "mean_el": -0.283,
+    "mean_la": 0.152,
+    "mean_neu": 0.095,
+    "n_el": 22,
+    "n_la": 18,
+    "n_neu": 37,
+    "p_el": 0.027,
+    "p_la": 0.74,
+    "sd_resid": 0.621
+   }
+  },
+  "most_negative": "東日本",
+  "result": "外れ"
+ },
+ "H3": {
+  "by_region_r": {
+   "北日本": -0.196,
+   "東日本": -0.245,
+   "沖縄・奄美": -0.201,
+   "西日本": -0.266
+  },
+  "p": 0.019,
+  "r": -0.267,
+  "r_nino3_not_detrended": -0.266,
+  "result": "支持",
+  "slope_degC_per_1degC_nino3": -0.21,
+  "threshold": -0.2
+ },
+ "H4": {
+  "cool_threshold_resid": -0.209,
+  "fisher_p": 0.007,
+  "n_cool": 26,
+  "n_cool_el": 13,
+  "n_el": 22,
+  "result": "支持",
+  "share_cool_in_el": 0.591,
+  "share_cool_in_la": 0.111,
+  "share_cool_in_neu": 0.297,
+  "share_hot_in_el": 0.136,
+  "table_el_cool": [
+   [
+    13,
+    9
+   ],
+   [
+    13,
+    42
+   ]
+  ]
+ },
+ "H5": {
+  "diff_la_neu": 0.132,
+  "p": 0.462,
+  "result": "支持",
+  "threshold": 0.1
+ },
+ "elnino_summers": [
+  1951,
+  1953,
+  1957,
+  1958,
+  1963,
+  1965,
+  1969,
+  1972,
+  1976,
+  1982,
+  1983,
+  1987,
+  1991,
+  1992,
+  1993,
+  1997,
+  1998,
+  2002,
+  2009,
+  2014,
+  2015,
+  2023
+ ],
+ "lanina_summers": [
+  1950,
+  1954,
+  1955,
+  1956,
+  1964,
+  1967,
+  1970,
+  1971,
+  1973,
+  1975,
+  1984,
+  1985,
+  1988,
+  1999,
+  2007,
+  2010,
+  2020,
+  2022
+ ],
+ "n_summers": 77,
+ "robust": [
+  {
+   "check": "本線（気象庁の発生期間、直線を除く、1949〜2025年）",
+   "diff_el_neu": -0.375,
+   "diff_la_neu": 0.132,
+   "n_el": 22,
+   "n_la": 18,
+   "n_neu": 37,
+   "note": "",
+   "p_el": 0.029,
+   "p_la": 0.453,
+   "share_cool_in_el": 0.591
+  },
+  {
+   "check": "6〜8月の NINO.3 が ±0.5℃ 以上で決める",
+   "diff_el_neu": -0.361,
+   "diff_la_neu": 0.113,
+   "n_el": 20,
+   "n_la": 18,
+   "n_neu": 39,
+   "note": "",
+   "p_el": 0.036,
+   "p_la": 0.515,
+   "share_cool_in_el": 0.55
+  },
+  {
+   "check": "1979年以降",
+   "diff_el_neu": -0.37,
+   "diff_la_neu": 0.181,
+   "n_el": 13,
+   "n_la": 8,
+   "n_neu": 26,
+   "note": "",
+   "p_el": 0.077,
+   "p_la": 0.448,
+   "share_cool_in_el": 0.615
+  },
+  {
+   "check": "前後15年の移動平均を除く",
+   "diff_el_neu": -0.399,
+   "diff_la_neu": 0.065,
+   "n_el": 22,
+   "n_la": 18,
+   "n_neu": 37,
+   "note": "",
+   "p_el": 0.012,
+   "p_la": 0.702,
+   "share_cool_in_el": 0.591
+  },
+  {
+   "check": "15地点平均ではなく4地方の平均",
+   "diff_el_neu": -0.341,
+   "diff_la_neu": 0.112,
+   "n_el": 22,
+   "n_la": 18,
+   "n_neu": 37,
+   "note": "",
+   "p_el": 0.022,
+   "p_la": 0.452,
+   "share_cool_in_el": 0.545
+  }
+ ],
+ "sd_resid_jp": 0.628,
+ "trend_jp_jja_per_decade": 0.239
+}
