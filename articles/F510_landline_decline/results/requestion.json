@@ -1,0 +1,61 @@
+{
+ "periods": [
+  {
+   "from_fy": 2004,
+   "to_fy": 2010,
+   "fixed_decrease": 2004.0,
+   "ip_0abj_increase": 1771.4,
+   "ratio_pct": 88.4,
+   "fixed_decrease_per_year": 334.0,
+   "ip_0abj_increase_per_year": 295.2
+  },
+  {
+   "from_fy": 2010,
+   "to_fy": 2016,
+   "fixed_decrease": 1658.5,
+   "ip_0abj_increase": 1455.2,
+   "ratio_pct": 87.7,
+   "fixed_decrease_per_year": 276.4,
+   "ip_0abj_increase_per_year": 242.5
+  },
+  {
+   "from_fy": 2016,
+   "to_fy": 2022,
+   "fixed_decrease": 829.4,
+   "ip_0abj_increase": 366.2,
+   "ratio_pct": 44.2,
+   "fixed_decrease_per_year": 138.2,
+   "ip_0abj_increase_per_year": 61.0
+  },
+  {
+   "from_fy": 2022,
+   "to_fy": 2025,
+   "fixed_decrease": 322.6,
+   "ip_0abj_increase": -59.8,
+   "ratio_pct": -18.5,
+   "fixed_decrease_per_year": 107.5,
+   "ip_0abj_increase_per_year": -19.9
+  }
+ ],
+ "ip_0abj_quarter_peak": "2023-12",
+ "ip_0abj_quarter_peak_value": 3614.1,
+ "ip_0abj_latest": "2026-06",
+ "ip_0abj_latest_value": 3539.4,
+ "fixed_latest": "2026-06",
+ "fixed_latest_value": 1118.7,
+ "combined_yoy_last_pct": -2.85,
+ "combined_first_decline_fy": 2005,
+ "combined_yoy_2016_pct": -0.74,
+ "other_than_ntt_first": {
+  "fy": 2003,
+  "value": 66.9
+ },
+ "other_than_ntt_peak": {
+  "fy": 2007,
+  "value": 569.0
+ },
+ "other_than_ntt_last": {
+  "fy": 2025,
+  "value": 95.5
+ }
+}

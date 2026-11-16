@@ -1,0 +1,81 @@
+{
+ "last_fy": 2025,
+ "last_date": "2026-03",
+ "fixed": {
+  "peak_fy": 1997,
+  "peak": 6284.9,
+  "last": 1146.3,
+  "change_from_peak_pct": -81.8,
+  "half_fy": 2013,
+  "quarter_fy": 2022
+ },
+ "fixed_yoy_last_pct": -8.51,
+ "fixed_rate_2008_last_pct": -7.9,
+ "fixed_tel_last": 1013.7,
+ "fixed_isdn_last": 132.6,
+ "ip_0abj": {
+  "peak_fy": 2022,
+  "peak": 3611.5,
+  "last": 3551.7,
+  "change_from_peak_pct": -1.7,
+  "half_fy": null,
+  "quarter_fy": null
+ },
+ "ip_0abj_first_fy": 2004,
+ "ip_0abj_first": 18.7,
+ "fixed_plus_0abj": {
+  "peak_fy": 1997,
+  "peak": 6284.9,
+  "last": 4698.0,
+  "change_from_peak_pct": -25.2,
+  "half_fy": null,
+  "quarter_fy": null
+ },
+ "fixed_plus_0abj_since_ip": {
+  "peak_fy": 2004,
+  "peak": 5979.5,
+  "last": 4698.0,
+  "change_from_peak_pct": -21.4,
+  "half_fy": null,
+  "quarter_fy": null
+ },
+ "replacement": {
+  "from_fy": 2004,
+  "to_fy": 2025,
+  "fixed_decrease": 4814.5,
+  "ip_0abj_increase": 3533.0,
+  "ratio_pct": 73.4
+ },
+ "mobile_last": 23745.1,
+ "mobile_pen_last_pct": 188.2,
+ "mobile_over_fixed_last": 20.7,
+ "mobile_cross_fy": 2000,
+ "fixed_per_mobile_peak_fy_ratio": 0.61,
+ "whitepaper_max_abs_diff": 0.4,
+ "whitepaper_max_abs_diff_ip": 0.5,
+ "hypotheses": {
+  "H1": {
+   "change_from_peak_pct": -81.8,
+   "verdict": "支持"
+  },
+  "H2": {
+   "ratio_pct": 73.4,
+   "verdict": "支持"
+  },
+  "H3": {
+   "combined_peak_fy": 1997,
+   "combined_peak": 6284.9,
+   "combined_last": 4698.0,
+   "change_pct": -25.2,
+   "verdict": "支持"
+  },
+  "H4": {
+   "yoy_min": -9.57,
+   "yoy_max": -6.54,
+   "yoy_min_fy": 2015,
+   "yoy_max_fy": 2018,
+   "verdict": "支持"
+  }
+ },
+ "note": "単位は万（加入・件）。年度末＝翌年3月末。0ABJ-IPは番号の数で契約数ではない。"
+}
