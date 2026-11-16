@@ -1,0 +1,584 @@
+{
+ "yearly": [
+  {
+   "year": 2014,
+   "nat_total": -258962,
+   "soc_total": 47432,
+   "n_units": 1741,
+   "n_decline": 1432,
+   "share_decline": 82.3,
+   "nat_dom_share": 70.7,
+   "nat_part_of_decline": 60.6,
+   "both_decline_share": 85.4,
+   "nat_dec_soc_inc_share": 11.4,
+   "soc_dec_nat_inc_share": 3.2
+  },
+  {
+   "year": 2015,
+   "nat_total": -278799,
+   "soc_total": 118527,
+   "n_units": 1741,
+   "n_decline": 1414,
+   "share_decline": 81.2,
+   "nat_dom_share": 72.4,
+   "nat_part_of_decline": 62.4,
+   "both_decline_share": 84.4,
+   "nat_dec_soc_inc_share": 13.4,
+   "soc_dec_nat_inc_share": 2.2
+  },
+  {
+   "year": 2016,
+   "nat_total": -318524,
+   "soc_total": 159399,
+   "n_units": 1741,
+   "n_decline": 1408,
+   "share_decline": 80.9,
+   "nat_dom_share": 79.1,
+   "nat_part_of_decline": 68.9,
+   "both_decline_share": 81.0,
+   "nat_dec_soc_inc_share": 16.8,
+   "soc_dec_nat_inc_share": 2.1
+  },
+  {
+   "year": 2017,
+   "nat_total": -383020,
+   "soc_total": 183193,
+   "n_units": 1741,
+   "n_decline": 1413,
+   "share_decline": 81.2,
+   "nat_dom_share": 82.0,
+   "nat_part_of_decline": 72.7,
+   "both_decline_share": 81.2,
+   "nat_dec_soc_inc_share": 17.4,
+   "soc_dec_nat_inc_share": 1.3
+  },
+  {
+   "year": 2018,
+   "nat_total": -433209,
+   "soc_total": 169513,
+   "n_units": 1741,
+   "n_decline": 1430,
+   "share_decline": 82.1,
+   "nat_dom_share": 84.4,
+   "nat_part_of_decline": 73.1,
+   "both_decline_share": 81.0,
+   "nat_dec_soc_inc_share": 17.7,
+   "soc_dec_nat_inc_share": 1.3
+  },
+  {
+   "year": 2019,
+   "nat_total": -501445,
+   "soc_total": 195915,
+   "n_units": 1741,
+   "n_decline": 1459,
+   "share_decline": 83.8,
+   "nat_dom_share": 85.3,
+   "nat_part_of_decline": 76.7,
+   "both_decline_share": 80.0,
+   "nat_dec_soc_inc_share": 18.6,
+   "soc_dec_nat_inc_share": 1.4
+  },
+  {
+   "year": 2020,
+   "nat_total": -519724,
+   "soc_total": 35935,
+   "n_units": 1741,
+   "n_decline": 1513,
+   "share_decline": 86.9,
+   "nat_dom_share": 82.6,
+   "nat_part_of_decline": 73.9,
+   "both_decline_share": 80.2,
+   "nat_dec_soc_inc_share": 18.1,
+   "soc_dec_nat_inc_share": 1.7
+  },
+  {
+   "year": 2021,
+   "nat_total": -619498,
+   "soc_total": -106844,
+   "n_units": 1741,
+   "n_decline": 1572,
+   "share_decline": 90.3,
+   "nat_dom_share": 82.9,
+   "nat_part_of_decline": 73.6,
+   "both_decline_share": 80.3,
+   "nat_dec_soc_inc_share": 17.8,
+   "soc_dec_nat_inc_share": 1.8
+  },
+  {
+   "year": 2022,
+   "nat_total": -785251,
+   "soc_total": 274226,
+   "n_units": 1741,
+   "n_decline": 1525,
+   "share_decline": 87.6,
+   "nat_dom_share": 93.4,
+   "nat_part_of_decline": 100.9,
+   "both_decline_share": 65.6,
+   "nat_dec_soc_inc_share": 33.6,
+   "soc_dec_nat_inc_share": 0.8
+  },
+  {
+   "year": 2023,
+   "nat_total": -839521,
+   "soc_total": 307819,
+   "n_units": 1741,
+   "n_decline": 1522,
+   "share_decline": 87.4,
+   "nat_dom_share": 94.7,
+   "nat_part_of_decline": 101.9,
+   "both_decline_share": 64.9,
+   "nat_dec_soc_inc_share": 34.3,
+   "soc_dec_nat_inc_share": 0.8
+  },
+  {
+   "year": 2024,
+   "nat_total": -898496,
+   "soc_total": 344011,
+   "n_units": 1741,
+   "n_decline": 1547,
+   "share_decline": 88.9,
+   "nat_dom_share": 94.1,
+   "nat_part_of_decline": 99.8,
+   "both_decline_share": 68.8,
+   "nat_dec_soc_inc_share": 30.7,
+   "soc_dec_nat_inc_share": 0.5
+  },
+  {
+   "year": 2025,
+   "nat_total": -909282,
+   "soc_total": 346234,
+   "n_units": 1741,
+   "n_decline": 1553,
+   "share_decline": 89.2,
+   "nat_dom_share": 94.0,
+   "nat_part_of_decline": 104.0,
+   "both_decline_share": 67.9,
+   "nat_dec_soc_inc_share": 31.5,
+   "soc_dec_nat_inc_share": 0.6
+  }
+ ],
+ "main_2021_2025": {
+  "n_units": 1741,
+  "n_decline": 1558,
+  "share_decline": 89.5,
+  "nat_dom_share": 96.5,
+  "nat_part_of_decline": 99.5,
+  "both_decline_share": 72.3,
+  "nat_dec_soc_inc_share": 27.1,
+  "soc_dec_nat_inc_share": 0.6
+ },
+ "by_group": [
+  {
+   "group": "規模",
+   "key": "5千人未満",
+   "n_units": 277,
+   "n_decline": 268,
+   "share_decline": 96.8,
+   "nat_dom_share": 90.3,
+   "nat_part_of_decline": 74.8,
+   "both_decline_share": 85.8,
+   "nat_dec_soc_inc_share": 12.7,
+   "soc_dec_nat_inc_share": 1.5
+  },
+  {
+   "group": "規模",
+   "key": "5千〜1万",
+   "n_units": 245,
+   "n_decline": 232,
+   "share_decline": 94.7,
+   "nat_dom_share": 97.0,
+   "nat_part_of_decline": 76.7,
+   "both_decline_share": 85.3,
+   "nat_dec_soc_inc_share": 14.2,
+   "soc_dec_nat_inc_share": 0.4
+  },
+  {
+   "group": "規模",
+   "key": "1万〜3万",
+   "n_units": 450,
+   "n_decline": 420,
+   "share_decline": 93.3,
+   "nat_dom_share": 97.4,
+   "nat_part_of_decline": 78.2,
+   "both_decline_share": 81.4,
+   "nat_dec_soc_inc_share": 18.3,
+   "soc_dec_nat_inc_share": 0.2
+  },
+  {
+   "group": "規模",
+   "key": "3万〜10万",
+   "n_units": 484,
+   "n_decline": 429,
+   "share_decline": 88.6,
+   "nat_dom_share": 98.4,
+   "nat_part_of_decline": 90.1,
+   "both_decline_share": 60.1,
+   "nat_dec_soc_inc_share": 39.9,
+   "soc_dec_nat_inc_share": 0.0
+  },
+  {
+   "group": "規模",
+   "key": "10万〜30万",
+   "n_units": 200,
+   "n_decline": 152,
+   "share_decline": 76.0,
+   "nat_dom_share": 97.4,
+   "nat_part_of_decline": 103.1,
+   "both_decline_share": 49.3,
+   "nat_dec_soc_inc_share": 48.7,
+   "soc_dec_nat_inc_share": 2.0
+  },
+  {
+   "group": "規模",
+   "key": "30万人以上",
+   "n_units": 85,
+   "n_decline": 57,
+   "share_decline": 67.1,
+   "nat_dom_share": 100.0,
+   "nat_part_of_decline": 136.2,
+   "both_decline_share": 42.1,
+   "nat_dec_soc_inc_share": 57.9,
+   "soc_dec_nat_inc_share": 0.0
+  },
+  {
+   "group": "地方",
+   "key": "北海道",
+   "n_units": 179,
+   "n_decline": 171,
+   "share_decline": 95.5,
+   "nat_dom_share": 88.9,
+   "nat_part_of_decline": 102.0,
+   "both_decline_share": 88.3,
+   "nat_dec_soc_inc_share": 11.7,
+   "soc_dec_nat_inc_share": 0.0
+  },
+  {
+   "group": "地方",
+   "key": "東北",
+   "n_units": 227,
+   "n_decline": 223,
+   "share_decline": 98.2,
+   "nat_dom_share": 98.2,
+   "nat_part_of_decline": 82.1,
+   "both_decline_share": 89.7,
+   "nat_dec_soc_inc_share": 10.3,
+   "soc_dec_nat_inc_share": 0.0
+  },
+  {
+   "group": "地方",
+   "key": "関東",
+   "n_units": 316,
+   "n_decline": 238,
+   "share_decline": 75.3,
+   "nat_dom_share": 98.7,
+   "nat_part_of_decline": 155.1,
+   "both_decline_share": 39.9,
+   "nat_dec_soc_inc_share": 58.8,
+   "soc_dec_nat_inc_share": 1.3
+  },
+  {
+   "group": "地方",
+   "key": "中部",
+   "n_units": 316,
+   "n_decline": 286,
+   "share_decline": 90.5,
+   "nat_dom_share": 96.5,
+   "nat_part_of_decline": 92.4,
+   "both_decline_share": 68.2,
+   "nat_dec_soc_inc_share": 31.5,
+   "soc_dec_nat_inc_share": 0.3
+  },
+  {
+   "group": "地方",
+   "key": "近畿",
+   "n_units": 227,
+   "n_decline": 210,
+   "share_decline": 92.5,
+   "nat_dom_share": 99.5,
+   "nat_part_of_decline": 102.0,
+   "both_decline_share": 72.4,
+   "nat_dec_soc_inc_share": 27.6,
+   "soc_dec_nat_inc_share": 0.0
+  },
+  {
+   "group": "地方",
+   "key": "中国",
+   "n_units": 107,
+   "n_decline": 101,
+   "share_decline": 94.4,
+   "nat_dom_share": 98.0,
+   "nat_part_of_decline": 82.0,
+   "both_decline_share": 90.1,
+   "nat_dec_soc_inc_share": 9.9,
+   "soc_dec_nat_inc_share": 0.0
+  },
+  {
+   "group": "地方",
+   "key": "四国",
+   "n_units": 95,
+   "n_decline": 94,
+   "share_decline": 98.9,
+   "nat_dom_share": 98.9,
+   "nat_part_of_decline": 84.2,
+   "both_decline_share": 78.7,
+   "nat_dec_soc_inc_share": 21.3,
+   "soc_dec_nat_inc_share": 0.0
+  },
+  {
+   "group": "地方",
+   "key": "九州・沖縄",
+   "n_units": 274,
+   "n_decline": 235,
+   "share_decline": 85.8,
+   "nat_dom_share": 93.6,
+   "nat_part_of_decline": 88.7,
+   "both_decline_share": 71.9,
+   "nat_dec_soc_inc_share": 26.0,
+   "soc_dec_nat_inc_share": 2.1
+  }
+ ],
+ "soc_dom_small_large": [
+  6.6,
+  1.9,
+  500,
+  209
+ ],
+ "japanese": {
+  "2025_total": {
+   "n_units": 1741,
+   "n_decline": 1553,
+   "share_decline": 89.2,
+   "nat_dom_share": 94.0,
+   "nat_part_of_decline": 104.0,
+   "both_decline_share": 67.9,
+   "nat_dec_soc_inc_share": 31.5,
+   "soc_dec_nat_inc_share": 0.6
+  },
+  "2025_japanese": {
+   "n_units": 1741,
+   "n_decline": 1646,
+   "share_decline": 94.5,
+   "nat_dom_share": 92.0,
+   "nat_part_of_decline": 89.7,
+   "both_decline_share": 79.6,
+   "nat_dec_soc_inc_share": 19.7,
+   "soc_dec_nat_inc_share": 0.7
+  },
+  "2014_total": {
+   "n_units": 1741,
+   "n_decline": 1432,
+   "share_decline": 82.3,
+   "nat_dom_share": 70.7,
+   "nat_part_of_decline": 60.6,
+   "both_decline_share": 85.4,
+   "nat_dec_soc_inc_share": 11.4,
+   "soc_dec_nat_inc_share": 3.2
+  },
+  "2014_japanese": {
+   "n_units": 1741,
+   "n_decline": 1452,
+   "share_decline": 83.4,
+   "nat_dom_share": 69.3,
+   "nat_part_of_decline": 59.8,
+   "both_decline_share": 85.3,
+   "nat_dec_soc_inc_share": 11.4,
+   "soc_dec_nat_inc_share": 3.3
+  }
+ },
+ "hypotheses": {
+  "H1": {
+   "value": 96.5,
+   "verdict": "支持"
+  },
+  "H2": {
+   "value": [
+    60.6,
+    104.0
+   ],
+   "verdict": "支持"
+  },
+  "H3": {
+   "value": [
+    6.6,
+    1.9
+   ],
+   "verdict": "支持"
+  },
+  "H4": {
+   "value": [
+    6.0,
+    8.0
+   ],
+   "verdict": "支持"
+  }
+ },
+ "robustness": [
+  {
+   "check": "0 主：2021〜2025年の5年合計",
+   "nat_dom_share": 96.5,
+   "nat_part": 99.5,
+   "n_decline": 1558
+  },
+  {
+   "check": "1a 2023〜2025年の3年合計",
+   "nat_dom_share": 96.6,
+   "nat_part": 104.7,
+   "n_decline": 1560
+  },
+  {
+   "check": "1b 2025年の1年",
+   "nat_dom_share": 94.0,
+   "nat_part": 104.0,
+   "n_decline": 1553
+  },
+  {
+   "check": "2 社会増減を転入−転出だけに（その他を除く）",
+   "nat_dom_share": 96.2,
+   "nat_part": 102.5,
+   "n_decline": 1536
+  },
+  {
+   "check": "3 政令指定都市を行政区ごとに",
+   "nat_dom_share": 96.5,
+   "nat_part": 96.8,
+   "n_decline": 1642
+  },
+  {
+   "check": "4a 2025年：総計",
+   "nat_dom_share": 94.0,
+   "nat_part": 104.0,
+   "n_decline": 1553
+  },
+  {
+   "check": "4b 2025年：日本人住民",
+   "nat_dom_share": 92.0,
+   "nat_part": 89.7,
+   "n_decline": 1646
+  },
+  {
+   "check": "4c 2014年：総計",
+   "nat_dom_share": 70.7,
+   "nat_part": 60.6,
+   "n_decline": 1432
+  },
+  {
+   "check": "4d 2014年：日本人住民",
+   "nat_dom_share": 69.3,
+   "nat_part": 59.8,
+   "n_decline": 1452
+  },
+  {
+   "check": "5 人口の重み（減少の合計に占める自然減、規模別）",
+   "nat_dom_share": null,
+   "nat_part": null,
+   "n_decline": null,
+   "note": "5千人未満 74.8%、5千〜1万 76.7%、1万〜3万 78.2%、3万〜10万 90.1%、10万〜30万 103.1%、30万人以上 136.2%"
+  }
+ ],
+ "pw_by_size": {
+  "5千人未満": 74.8,
+  "5千〜1万": 76.7,
+  "1万〜3万": 78.2,
+  "3万〜10万": 90.1,
+  "10万〜30万": 103.1,
+  "30万人以上": 136.2
+ },
+ "requestion": [
+  {
+   "year": 2014,
+   "nat_dec": 1497,
+   "nat_dec_soc_inc": 267,
+   "nat_dec_soc_inc_pop_inc": 111,
+   "soc_dec": 1294,
+   "increase": 309
+  },
+  {
+   "year": 2015,
+   "nat_dec": 1514,
+   "nat_dec_soc_inc": 312,
+   "nat_dec_soc_inc_pop_inc": 131,
+   "soc_dec": 1244,
+   "increase": 327
+  },
+  {
+   "year": 2016,
+   "nat_dec": 1536,
+   "nat_dec_soc_inc": 388,
+   "nat_dec_soc_inc_pop_inc": 158,
+   "soc_dec": 1188,
+   "increase": 333
+  },
+  {
+   "year": 2017,
+   "nat_dec": 1579,
+   "nat_dec_soc_inc": 426,
+   "nat_dec_soc_inc_pop_inc": 185,
+   "soc_dec": 1182,
+   "increase": 328
+  },
+  {
+   "year": 2018,
+   "nat_dec": 1593,
+   "nat_dec_soc_inc": 427,
+   "nat_dec_soc_inc_pop_inc": 181,
+   "soc_dec": 1189,
+   "increase": 311
+  },
+  {
+   "year": 2019,
+   "nat_dec": 1627,
+   "nat_dec_soc_inc": 451,
+   "nat_dec_soc_inc_pop_inc": 189,
+   "soc_dec": 1192,
+   "increase": 282
+  },
+  {
+   "year": 2020,
+   "nat_dec": 1635,
+   "nat_dec_soc_inc": 417,
+   "nat_dec_soc_inc_pop_inc": 147,
+   "soc_dec": 1248,
+   "increase": 228
+  },
+  {
+   "year": 2021,
+   "nat_dec": 1664,
+   "nat_dec_soc_inc": 390,
+   "nat_dec_soc_inc_pop_inc": 121,
+   "soc_dec": 1298,
+   "increase": 169
+  },
+  {
+   "year": 2022,
+   "nat_dec": 1693,
+   "nat_dec_soc_inc": 683,
+   "nat_dec_soc_inc_pop_inc": 180,
+   "soc_dec": 1015,
+   "increase": 216
+  },
+  {
+   "year": 2023,
+   "nat_dec": 1701,
+   "nat_dec_soc_inc": 701,
+   "nat_dec_soc_inc_pop_inc": 191,
+   "soc_dec": 1004,
+   "increase": 219
+  },
+  {
+   "year": 2024,
+   "nat_dec": 1719,
+   "nat_dec_soc_inc": 642,
+   "nat_dec_soc_inc_pop_inc": 179,
+   "soc_dec": 1073,
+   "increase": 194
+  },
+  {
+   "year": 2025,
+   "nat_dec": 1716,
+   "nat_dec_soc_inc": 652,
+   "nat_dec_soc_inc_pop_inc": 172,
+   "soc_dec": 1066,
+   "increase": 188
+  }
+ ]
+}
