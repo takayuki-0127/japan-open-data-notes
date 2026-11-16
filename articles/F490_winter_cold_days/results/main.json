@@ -1,0 +1,76 @@
+{
+ "rural10_stations": [
+  "網走",
+  "根室",
+  "寿都",
+  "山形",
+  "石巻",
+  "伏木",
+  "飯田",
+  "銚子",
+  "境",
+  "浜田",
+  "彦根",
+  "宮崎",
+  "多度津"
+ ],
+ "city10_stations": [
+  "札幌",
+  "仙台",
+  "東京",
+  "横浜",
+  "名古屋",
+  "京都",
+  "大阪",
+  "神戸",
+  "広島",
+  "福岡",
+  "鹿児島"
+ ],
+ "mafuyu5_stations": [
+  "札幌",
+  "旭川",
+  "帯広",
+  "青森",
+  "秋田",
+  "盛岡",
+  "長野",
+  "網走",
+  "根室",
+  "寿都",
+  "山形"
+ ],
+ "rural10_fuyubi_slope_median": -3.42,
+ "city10_fuyubi_slope_median": -4.58,
+ "rural10_fuyubi_a_mean": 71.1,
+ "rural10_fuyubi_b_mean": 59.2,
+ "rural10_fuyubi_pct_median": -22.1,
+ "city10_fuyubi_a_mean": 41.6,
+ "city10_fuyubi_b_mean": 23.7,
+ "city10_fuyubi_pct_median": -70.1,
+ "mafuyu_pct_median": -17.2,
+ "fuyubi_pct_median_same_stations": -8.0,
+ "rural_lowest_slope_median": 0.375,
+ "rural_tminmean_slope_median": 0.308,
+ "hypotheses": {
+  "H1_rural_fuyubi_le_-2": {
+   "value": -3.42,
+   "result": "支持"
+  },
+  "H2_city_faster_by_1.5": {
+   "city": -4.58,
+   "rural": -3.42,
+   "result": "外れ"
+  },
+  "H3_mafuyu_pct_gt_fuyubi_pct": {
+   "mafuyu": -17.2,
+   "fuyubi": -8.0,
+   "result": "支持"
+  },
+  "H4_lowest_faster": {
+   "lowest": 0.375,
+   "mean": 0.308,
+   "result": "支持"
+  }
+ }
+}

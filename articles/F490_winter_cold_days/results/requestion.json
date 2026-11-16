@@ -1,0 +1,26 @@
+{
+ "coef": [
+  0.001257,
+  -0.16745,
+  -11.80798
+ ],
+ "largest_drop_at_baseline_days": 66.6,
+ "largest_drop_pred_days": -17.4,
+ "group_mean_drop": {
+  "city": -17.9,
+  "cold": -12.0,
+  "rural": -11.9
+ },
+ "group_mean_pred": {
+  "city": -15.0,
+  "cold": -11.7,
+  "rural": -14.4
+ },
+ "group_mean_resid": {
+  "city": -2.8,
+  "cold": -0.3,
+  "rural": 2.6
+ },
+ "r2": 0.315,
+ "n": 30
+}
