@@ -1,0 +1,1 @@
+2026-11-16 再実行（独立レビュー、/tmp/rv2_F352 で流し直し）：13 ファイル一致（results の CSV・JSON と figures の PNG。ほかに data/ の中間 CSV 2 本も一致）
