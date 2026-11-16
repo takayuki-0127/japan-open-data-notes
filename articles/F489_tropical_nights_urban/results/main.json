@@ -1,0 +1,32 @@
+{
+ "city_tn_slope_median": 5.18,
+ "rural_tn_slope_median": 2.23,
+ "ratio_city_rural": 2.32,
+ "city_tmin_slope_median": 0.458,
+ "rural_tmin_slope_median": 0.308,
+ "tmin_diff": 0.151,
+ "urban_extra_share_median_pct": 44.8,
+ "city_tn_1961_1990_mean": 14.3,
+ "city_tn_1996_2025_mean": 33.4,
+ "rural_tn_1961_1990_mean": 14.8,
+ "rural_tn_1996_2025_mean": 24.7,
+ "hypotheses": {
+  "H1_city_ge_2x_rural": {
+   "city": 5.18,
+   "rural": 2.23,
+   "result": "支持"
+  },
+  "H2_rural_gt_0": {
+   "value": 2.23,
+   "result": "支持"
+  },
+  "H3_tmin_diff_ge_0.1": {
+   "value": 0.151,
+   "result": "支持"
+  },
+  "H4_urban_extra_ge_50pct": {
+   "value": 44.8,
+   "result": "外れ"
+  }
+ }
+}

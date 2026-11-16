@@ -1,0 +1,80 @@
+{
+ "pairs": [
+  {
+   "pair": "東京–銚子",
+   "tn_diff_slope_per_decade": 1.17,
+   "tmin_diff_slope_per_decade": 0.008,
+   "tn_diff_1961_1990": 15.8,
+   "tn_diff_1996_2025": 20.1,
+   "tmin_diff_1961_1990": -0.01,
+   "tmin_diff_1996_2025": -0.03
+  },
+  {
+   "pair": "横浜–銚子",
+   "tn_diff_slope_per_decade": 2.38,
+   "tmin_diff_slope_per_decade": 0.111,
+   "tn_diff_1961_1990": 7.8,
+   "tn_diff_1996_2025": 17.3,
+   "tmin_diff_1961_1990": -0.36,
+   "tmin_diff_1996_2025": 0.08
+  },
+  {
+   "pair": "京都–彦根",
+   "tn_diff_slope_per_decade": 0.59,
+   "tmin_diff_slope_per_decade": 0.0,
+   "tn_diff_1961_1990": 7.2,
+   "tn_diff_1996_2025": 9.7,
+   "tmin_diff_1961_1990": 0.61,
+   "tmin_diff_1996_2025": 0.63
+  },
+  {
+   "pair": "大阪–彦根",
+   "tn_diff_slope_per_decade": -0.83,
+   "tmin_diff_slope_per_decade": -0.0,
+   "tn_diff_1961_1990": 24.1,
+   "tn_diff_1996_2025": 22.9,
+   "tmin_diff_1961_1990": 2.0,
+   "tmin_diff_1996_2025": 2.02
+  },
+  {
+   "pair": "神戸–多度津",
+   "tn_diff_slope_per_decade": 2.89,
+   "tmin_diff_slope_per_decade": 0.213,
+   "tn_diff_1961_1990": 2.4,
+   "tn_diff_1996_2025": 14.3,
+   "tmin_diff_1961_1990": 0.1,
+   "tmin_diff_1996_2025": 0.97
+  },
+  {
+   "pair": "広島–多度津",
+   "tn_diff_slope_per_decade": 2.45,
+   "tmin_diff_slope_per_decade": 0.192,
+   "tn_diff_1961_1990": -6.6,
+   "tn_diff_1996_2025": 2.2,
+   "tmin_diff_1961_1990": -0.79,
+   "tmin_diff_1996_2025": -0.17
+  },
+  {
+   "pair": "福岡–浜田",
+   "tn_diff_slope_per_decade": 3.75,
+   "tmin_diff_slope_per_decade": 0.2,
+   "tn_diff_1961_1990": 16.7,
+   "tn_diff_1996_2025": 28.8,
+   "tmin_diff_1961_1990": 1.18,
+   "tmin_diff_1996_2025": 1.99
+  },
+  {
+   "pair": "鹿児島–宮崎",
+   "tn_diff_slope_per_decade": 4.62,
+   "tmin_diff_slope_per_decade": 0.222,
+   "tn_diff_1961_1990": 13.2,
+   "tn_diff_1996_2025": 31.2,
+   "tmin_diff_1961_1990": 0.7,
+   "tmin_diff_1996_2025": 1.54
+  }
+ ],
+ "median_tn_diff_slope": 2.42,
+ "median_tmin_diff_slope": 0.151,
+ "n_pairs_tn_diff_up": 7,
+ "n_pairs": 8
+}
