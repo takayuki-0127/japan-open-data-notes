@@ -1,0 +1,1 @@
+2026-11-17 再実行：10 ファイル一致、所要 3 秒（独立レビュー。/tmp/rvA_F364 に写し、results・figures と 02 以降が作る data の 1 ファイルを消して sh src/run_all.sh。消した data の 1 ファイルも一致）
