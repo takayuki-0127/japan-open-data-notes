@@ -1,0 +1,44 @@
+{
+ "weights_start": {
+  "29歳以下": 3.24,
+  "30～39歳": 15.3,
+  "40～49歳": 19.28,
+  "50～59歳": 24.16,
+  "60～69歳": 22.66,
+  "70歳以上": 15.36
+ },
+ "weights_end": {
+  "29歳以下": 1.25,
+  "30～39歳": 9.584,
+  "40～49歳": 16.821,
+  "50～59歳": 19.091,
+  "60～69歳": 19.184,
+  "70歳以上": 34.071
+ },
+ "items": {
+  "print_total": {
+   "published": -44.564,
+   "rebuilt": -44.553,
+   "fixed_weight": -55.862,
+   "composition": 11.308
+  },
+  "newspaper": {
+   "published": -44.342,
+   "rebuilt": -44.346,
+   "fixed_weight": -64.983,
+   "composition": 20.637
+  },
+  "magazine": {
+   "published": -82.222,
+   "rebuilt": -82.173,
+   "fixed_weight": -84.357,
+   "composition": 2.183
+  },
+  "books": {
+   "published": -33.825,
+   "rebuilt": -33.769,
+   "fixed_weight": -22.348,
+   "composition": -11.421
+  }
+ }
+}
