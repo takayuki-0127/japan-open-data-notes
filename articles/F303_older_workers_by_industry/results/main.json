@@ -1,0 +1,158 @@
+{
+ "main": {
+  "period": "2018-2025",
+  "ages": "60～64歳+65歳以上",
+  "base": "start",
+  "d_old_total": 54.0,
+  "scale_total": -13.388,
+  "within_share_total": 63.997,
+  "interaction_total": 3.39,
+  "top3": [
+   "教育・学習支援",
+   "情報通信業",
+   "卸売・小売"
+  ],
+  "top3_share_of_increase": 0.87,
+  "n_ind_old_increase": 11,
+  "top3_share_of_gross_increase": 0.485,
+  "gross_increase": 97.0,
+  "gross_decrease": -43.0,
+  "spearman_growth_vs_dshare": 0.098,
+  "spearman_p": 0.708
+ },
+ "H1_verdict": "支持",
+ "H2_verdict": "支持",
+ "H3_verdict": "外れ",
+ "d_65p": 28.0,
+ "d_60_64": 26.0,
+ "share_65p_of_increase": 0.519,
+ "H4_verdict": "外れ",
+ "all_industries_60p": {
+  "2013": 1214.0,
+  "2018": 1385.0,
+  "2025": 1521.0
+ },
+ "all_industries_60p_change_2018_2025": 136.0,
+ "target_total_N_2018_2025": [
+  5479.0,
+  5514.0
+ ],
+ "target_share_60p_2018_2025": [
+  21.792,
+  22.633
+ ],
+ "robustness": [
+  {
+   "period": "2018-2025",
+   "ages": "60～64歳+65歳以上",
+   "base": "start",
+   "d_old_total": 54.0,
+   "scale_total": -13.388,
+   "within_share_total": 63.997,
+   "interaction_total": 3.39,
+   "top3": [
+    "教育・学習支援",
+    "情報通信業",
+    "卸売・小売"
+   ],
+   "top3_share_of_increase": 0.87,
+   "n_ind_old_increase": 11,
+   "top3_share_of_gross_increase": 0.485,
+   "gross_increase": 97.0,
+   "gross_decrease": -43.0,
+   "spearman_growth_vs_dshare": 0.098,
+   "spearman_p": 0.708,
+   "spec": "主 2018→2025"
+  },
+  {
+   "period": "2013-2025",
+   "ages": "60～64歳+65歳以上",
+   "base": "start",
+   "d_old_total": 168.0,
+   "scale_total": 24.545,
+   "within_share_total": 132.824,
+   "interaction_total": 10.631,
+   "top3": [
+    "教育・学習支援",
+    "サービス業（他に分類されない）",
+    "卸売・小売"
+   ],
+   "top3_share_of_increase": 0.589,
+   "n_ind_old_increase": 14,
+   "top3_share_of_gross_increase": 0.488,
+   "gross_increase": 203.0,
+   "gross_decrease": -35.0,
+   "spearman_growth_vs_dshare": 0.154,
+   "spearman_p": 0.554,
+   "spec": "R1 2013→2025（基準の違う年をまたぐ）"
+  },
+  {
+   "period": "2019-2025",
+   "ages": "60～64歳+65歳以上",
+   "base": "start",
+   "d_old_total": 34.0,
+   "scale_total": -17.55,
+   "within_share_total": 48.841,
+   "interaction_total": 2.71,
+   "top3": [
+    "教育・学習支援",
+    "情報通信業",
+    "卸売・小売"
+   ],
+   "top3_share_of_increase": 1.147,
+   "n_ind_old_increase": 12,
+   "top3_share_of_gross_increase": 0.5,
+   "gross_increase": 78.0,
+   "gross_decrease": -44.0,
+   "spearman_growth_vs_dshare": 0.042,
+   "spearman_p": 0.874,
+   "spec": "R2 2019→2025"
+  },
+  {
+   "period": "2018-2025",
+   "ages": "65歳以上",
+   "base": "start",
+   "d_old_total": 28.0,
+   "scale_total": -12.652,
+   "within_share_total": 39.384,
+   "interaction_total": 1.268,
+   "top3": [
+    "教育・学習支援",
+    "サービス業（他に分類されない）",
+    "不動産・物品賃貸"
+   ],
+   "top3_share_of_increase": 1.179,
+   "n_ind_old_increase": 12,
+   "top3_share_of_gross_increase": 0.569,
+   "gross_increase": 58.0,
+   "gross_decrease": -30.0,
+   "spearman_growth_vs_dshare": 0.064,
+   "spearman_p": 0.808,
+   "spec": "R3 65歳以上だけ"
+  },
+  {
+   "period": "2018-2025",
+   "ages": "60～64歳+65歳以上",
+   "base": "end",
+   "d_old_total": 54.0,
+   "scale_total": -9.997,
+   "within_share_total": 67.388,
+   "interaction_total": -3.39,
+   "top3": [
+    "教育・学習支援",
+    "情報通信業",
+    "卸売・小売"
+   ],
+   "top3_share_of_increase": 0.87,
+   "n_ind_old_increase": 11,
+   "top3_share_of_gross_increase": 0.485,
+   "gross_increase": 97.0,
+   "gross_decrease": -43.0,
+   "spearman_growth_vs_dshare": 0.098,
+   "spearman_p": 0.708,
+   "spec": "R4 割合を2025年に固定"
+  }
+ ],
+ "mfg_sub_n": 24,
+ "mfg_sub_n_share_up": 16
+}
