@@ -1,0 +1,4 @@
+start,end,ratio_start,ratio_end,u_start,u_end,openings_pct,applicants_pct,unemployed_pct,share_openings,share_applicants,log_ratio_check
+2009,2018,0.47,1.61,5.1,2.4,112.4119,-37.5736,-50.2976,0.6152,0.3848,0.0067
+2019,2025,1.6,1.22,2.4,2.5,-14.8616,11.5108,8.642,0.5962,0.4038,-0.0013
+2018,2025,1.61,1.22,2.4,2.5,-16.198,10.5722,5.3892,0.6375,0.3625,-0.0002

@@ -1,0 +1,51 @@
+{
+ "splits": [
+  {
+   "start": 2009,
+   "end": 2018,
+   "ratio_start": 0.47,
+   "ratio_end": 1.61,
+   "u_start": 5.1,
+   "u_end": 2.4,
+   "openings_pct": 112.4119,
+   "applicants_pct": -37.5736,
+   "unemployed_pct": -50.2976,
+   "share_openings": 0.6152,
+   "share_applicants": 0.3848,
+   "log_ratio_check": 0.0067
+  },
+  {
+   "start": 2019,
+   "end": 2025,
+   "ratio_start": 1.6,
+   "ratio_end": 1.22,
+   "u_start": 2.4,
+   "u_end": 2.5,
+   "openings_pct": -14.8616,
+   "applicants_pct": 11.5108,
+   "unemployed_pct": 8.642,
+   "share_openings": 0.5962,
+   "share_applicants": 0.4038,
+   "log_ratio_check": -0.0013
+  },
+  {
+   "start": 2018,
+   "end": 2025,
+   "ratio_start": 1.61,
+   "ratio_end": 1.22,
+   "u_start": 2.4,
+   "u_end": 2.5,
+   "openings_pct": -16.198,
+   "applicants_pct": 10.5722,
+   "unemployed_pct": 5.3892,
+   "share_openings": 0.6375,
+   "share_applicants": 0.3625,
+   "log_ratio_check": -0.0002
+  }
+ ],
+ "placements_peak_year": 2012,
+ "placements_peak": 181327.0,
+ "placements_2025": 91665.0,
+ "placements_rate_1990": 217.63226116178586,
+ "placements_rate_2025": 161.09841827768014
+}
