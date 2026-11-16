@@ -1,0 +1,56 @@
+{
+ "小学校": {
+  "corr_level": 0.9957464658423788,
+  "corr_dlog": 0.6530146371912298,
+  "slope": 0.8458371580890853,
+  "ratio_first": 0.8590154448747052,
+  "ratio_last": 0.8817248042306519,
+  "ratio_min": 0.8455975331100117,
+  "ratio_max": 0.9329300836150152,
+  "not_hired_prev_first": 44934.0,
+  "not_hired_prev_last": 19666.0,
+  "first_year": 2012,
+  "last_year": 2025
+ },
+ "中学校": {
+  "corr_level": 0.9902348441397486,
+  "corr_dlog": 0.6430629659986873,
+  "slope": 0.7788729843036745,
+  "ratio_first": 0.7403418275605281,
+  "ratio_last": 0.7211221682573107,
+  "ratio_min": 0.7211221682573107,
+  "ratio_max": 0.8237890263172234,
+  "not_hired_prev_first": 55057.0,
+  "not_hired_prev_last": 29443.0,
+  "first_year": 2012,
+  "last_year": 2025
+ },
+ "高等学校": {
+  "corr_level": 0.9890549344005982,
+  "corr_dlog": 0.45299468493411077,
+  "slope": 0.7932873127934097,
+  "ratio_first": 0.7649503437738732,
+  "ratio_last": 0.7948500454407755,
+  "ratio_min": 0.7534145828955663,
+  "ratio_max": 0.8331850929467224,
+  "not_hired_prev_first": 32725.0,
+  "not_hired_prev_last": 16505.0,
+  "first_year": 2012,
+  "last_year": 2025
+ },
+ "計": {
+  "corr_level": 0.9943928843595592,
+  "corr_dlog": 0.6548863055594245,
+  "slope": 0.819343573190941,
+  "ratio_first": 0.7992497327677197,
+  "ratio_last": 0.8093679868607465,
+  "ratio_min": 0.7992497327677197,
+  "ratio_max": 0.8788759971696376,
+  "not_hired_prev_first": 148747.0,
+  "not_hired_prev_last": 79761.0,
+  "first_year": 2012,
+  "last_year": 2025
+ },
+ "elem_hires_new_share_2012": 0.38097821874273313,
+ "elem_hires_new_share_2025": 0.5803958308935473
+}

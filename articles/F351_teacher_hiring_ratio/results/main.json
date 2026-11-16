@@ -1,0 +1,432 @@
+{
+ "marks": {
+  "小学校": {
+   "peak": 2000,
+   "applicants_max": 2012
+  },
+  "中学校": {
+   "peak": 2000,
+   "applicants_max": 2011
+  },
+  "高等学校": {
+   "peak": 2007,
+   "applicants_max": 2012
+  },
+  "特別支援学校": {
+   "peak": 2001,
+   "applicants_max": 2015
+  },
+  "養護教諭": {
+   "peak": 1999,
+   "applicants_max": 2016
+  },
+  "計": {
+   "peak": 2000,
+   "applicants_max": 2013
+  }
+ },
+ "hypotheses": {
+  "H1": {
+   "rule": "前半の倍率の下がりのうち、採用者の寄与が半分未満なら外れ",
+   "period": [
+    2000,
+    2012
+   ],
+   "share_hires": 1.235997967046153,
+   "verdict": "支持"
+  },
+  "H2": {
+   "rule": "後半の倍率の下がりのうち、受験者の寄与が半分未満なら外れ",
+   "period": [
+    2012,
+    2025
+   ],
+   "share_applicants": 0.7041639133199159,
+   "verdict": "支持"
+  },
+  "H3": {
+   "rule": "小学校の受験者の減りのうち、既卒者の分が半分未満なら外れ",
+   "base": 2012,
+   "decline_total": 21166.0,
+   "decline_prior": 21259.0,
+   "decline_new": -93.0,
+   "share_prior": 1.004393839176037,
+   "verdict": "支持"
+  },
+  "H4": {
+   "rule": "新卒の受験者の減り方（割合）が受験者全体以上なら外れ",
+   "base": 2012,
+   "new_ratio": 1.0054702664549144,
+   "total_ratio": 0.61931654676259,
+   "verdict": "支持"
+  }
+ },
+ "decomposition": [
+  {
+   "period": "前半（倍率の山→受験者の山）",
+   "type": "小学校",
+   "start": 2000,
+   "end": 2012,
+   "ratio_start": 12.5322,
+   "ratio_end": 4.3558,
+   "applicants_start": 46156.0,
+   "applicants_end": 59230.0,
+   "hires_start": 3683.0,
+   "hires_end": 13598.0,
+   "dlogR": -1.0568,
+   "share_applicants": -0.236,
+   "share_hires": 1.236
+  },
+  {
+   "period": "後半（受験者の山→2025）",
+   "type": "小学校",
+   "start": 2012,
+   "end": 2025,
+   "ratio_start": 4.3558,
+   "ratio_end": 2.0163,
+   "applicants_start": 59230.0,
+   "applicants_end": 34434.0,
+   "hires_start": 13598.0,
+   "hires_end": 17078.0,
+   "dlogR": -0.7703,
+   "share_applicants": 0.7042,
+   "share_hires": 0.2958
+  },
+  {
+   "period": "全体（倍率の山→2025）",
+   "type": "小学校",
+   "start": 2000,
+   "end": 2025,
+   "ratio_start": 12.5322,
+   "ratio_end": 2.0163,
+   "applicants_start": 46156.0,
+   "applicants_end": 34434.0,
+   "hires_start": 3683.0,
+   "hires_end": 17078.0,
+   "dlogR": -1.827,
+   "share_applicants": 0.1604,
+   "share_hires": 0.8396
+  },
+  {
+   "period": "前半（倍率の山→受験者の山）",
+   "type": "中学校",
+   "start": 2000,
+   "end": 2011,
+   "ratio_start": 17.8997,
+   "ratio_end": 7.8241,
+   "applicants_start": 47846.0,
+   "applicants_end": 63125.0,
+   "hires_start": 2673.0,
+   "hires_end": 8068.0,
+   "dlogR": -0.8276,
+   "share_applicants": -0.3349,
+   "share_hires": 1.3349
+  },
+  {
+   "period": "後半（受験者の山→2025）",
+   "type": "中学校",
+   "start": 2011,
+   "end": 2025,
+   "ratio_start": 7.8241,
+   "ratio_end": 3.6016,
+   "applicants_start": 63125.0,
+   "applicants_end": 36621.0,
+   "hires_start": 8068.0,
+   "hires_end": 10168.0,
+   "dlogR": -0.7758,
+   "share_applicants": 0.7018,
+   "share_hires": 0.2982
+  },
+  {
+   "period": "全体（倍率の山→2025）",
+   "type": "中学校",
+   "start": 2000,
+   "end": 2025,
+   "ratio_start": 17.8997,
+   "ratio_end": 3.6016,
+   "applicants_start": 47846.0,
+   "applicants_end": 36621.0,
+   "hires_start": 2673.0,
+   "hires_end": 10168.0,
+   "dlogR": -1.6034,
+   "share_applicants": 0.1667,
+   "share_hires": 0.8333
+  },
+  {
+   "period": "前半（倍率の山→受験者の山）",
+   "type": "高等学校",
+   "start": 2007,
+   "end": 2012,
+   "ratio_start": 14.2197,
+   "ratio_end": 7.3107,
+   "applicants_start": 36445.0,
+   "applicants_end": 37935.0,
+   "hires_start": 2563.0,
+   "hires_end": 5189.0,
+   "dlogR": -0.6653,
+   "share_applicants": -0.0602,
+   "share_hires": 1.0602
+  },
+  {
+   "period": "後半（受験者の山→2025）",
+   "type": "高等学校",
+   "start": 2012,
+   "end": 2025,
+   "ratio_start": 7.3107,
+   "ratio_end": 3.8247,
+   "applicants_start": 37935.0,
+   "applicants_end": 19705.0,
+   "hires_start": 5189.0,
+   "hires_end": 5152.0,
+   "dlogR": -0.6478,
+   "share_applicants": 1.011,
+   "share_hires": -0.011
+  },
+  {
+   "period": "全体（倍率の山→2025）",
+   "type": "高等学校",
+   "start": 2007,
+   "end": 2025,
+   "ratio_start": 14.2197,
+   "ratio_end": 3.8247,
+   "applicants_start": 36445.0,
+   "applicants_end": 19705.0,
+   "hires_start": 2563.0,
+   "hires_end": 5152.0,
+   "dlogR": -1.3131,
+   "share_applicants": 0.4683,
+   "share_hires": 0.5317
+  },
+  {
+   "period": "前半（倍率の山→受験者の山）",
+   "type": "特別支援学校",
+   "start": 2001,
+   "end": 2015,
+   "ratio_start": 5.4935,
+   "ratio_end": 3.7608,
+   "applicants_start": 5911.0,
+   "applicants_end": 11004.0,
+   "hires_start": 1076.0,
+   "hires_end": 2926.0,
+   "dlogR": -0.3789,
+   "share_applicants": -1.6399,
+   "share_hires": 2.6399
+  },
+  {
+   "period": "後半（受験者の山→2025）",
+   "type": "特別支援学校",
+   "start": 2015,
+   "end": 2025,
+   "ratio_start": 3.7608,
+   "ratio_end": 1.9868,
+   "applicants_start": 11004.0,
+   "applicants_end": 7252.0,
+   "hires_start": 2926.0,
+   "hires_end": 3650.0,
+   "dlogR": -0.6381,
+   "share_applicants": 0.6535,
+   "share_hires": 0.3465
+  },
+  {
+   "period": "全体（倍率の山→2025）",
+   "type": "特別支援学校",
+   "start": 2001,
+   "end": 2025,
+   "ratio_start": 5.4935,
+   "ratio_end": 1.9868,
+   "applicants_start": 5911.0,
+   "applicants_end": 7252.0,
+   "hires_start": 1076.0,
+   "hires_end": 3650.0,
+   "dlogR": -1.017,
+   "share_applicants": -0.201,
+   "share_hires": 1.201
+  },
+  {
+   "period": "前半（倍率の山→受験者の山）",
+   "type": "養護教諭",
+   "start": 1999,
+   "end": 2016,
+   "ratio_start": 14.1845,
+   "ratio_end": 7.4138,
+   "applicants_start": 6766.0,
+   "applicants_end": 9890.0,
+   "hires_start": 477.0,
+   "hires_end": 1334.0,
+   "dlogR": -0.6488,
+   "share_applicants": -0.5851,
+   "share_hires": 1.5851
+  },
+  {
+   "period": "後半（受験者の山→2025）",
+   "type": "養護教諭",
+   "start": 2016,
+   "end": 2025,
+   "ratio_start": 7.4138,
+   "ratio_end": 8.1607,
+   "applicants_start": 9890.0,
+   "applicants_end": 9499.0,
+   "hires_start": 1334.0,
+   "hires_end": 1164.0,
+   "dlogR": 0.096,
+   "share_applicants": -0.4203,
+   "share_hires": 1.4203
+  },
+  {
+   "period": "全体（倍率の山→2025）",
+   "type": "養護教諭",
+   "start": 1999,
+   "end": 2025,
+   "ratio_start": 14.1845,
+   "ratio_end": 8.1607,
+   "applicants_start": 6766.0,
+   "applicants_end": 9499.0,
+   "hires_start": 477.0,
+   "hires_end": 1164.0,
+   "dlogR": -0.5528,
+   "share_applicants": -0.6137,
+   "share_hires": 1.6137
+  },
+  {
+   "period": "前半（倍率の山→受験者の山）",
+   "type": "計",
+   "start": 2000,
+   "end": 2013,
+   "ratio_start": 13.3471,
+   "ratio_end": 5.8155,
+   "applicants_start": 147098.0,
+   "applicants_end": 180902.0,
+   "hires_start": 11021.0,
+   "hires_end": 31107.0,
+   "dlogR": -0.8308,
+   "share_applicants": -0.249,
+   "share_hires": 1.249
+  },
+  {
+   "period": "後半（受験者の山→2025）",
+   "type": "計",
+   "start": 2013,
+   "end": 2025,
+   "ratio_start": 5.8155,
+   "ratio_end": 2.9197,
+   "applicants_start": 180902.0,
+   "applicants_end": 109123.0,
+   "hires_start": 31107.0,
+   "hires_end": 37375.0,
+   "dlogR": -0.689,
+   "share_applicants": 0.7336,
+   "share_hires": 0.2664
+  },
+  {
+   "period": "全体（倍率の山→2025）",
+   "type": "計",
+   "start": 2000,
+   "end": 2025,
+   "ratio_start": 13.3471,
+   "ratio_end": 2.9197,
+   "applicants_start": 147098.0,
+   "applicants_end": 109123.0,
+   "hires_start": 11021.0,
+   "hires_end": 37375.0,
+   "dlogR": -1.5198,
+   "share_applicants": 0.1965,
+   "share_hires": 0.8035
+  }
+ ],
+ "robustness": [
+  {
+   "check": "区切りを2010年度に",
+   "type": "小学校",
+   "first_share_hires": 1.1583,
+   "second_share_applicants": 0.5814
+  },
+  {
+   "check": "区切りを2010年度に",
+   "type": "中学校",
+   "first_share_hires": 1.2908,
+   "second_share_applicants": 0.5436
+  },
+  {
+   "check": "区切りを2010年度に",
+   "type": "高等学校",
+   "first_share_hires": 0.9152,
+   "second_share_applicants": 0.7553
+  },
+  {
+   "check": "区切りを2010年度に",
+   "type": "計",
+   "first_share_hires": 1.1636,
+   "second_share_applicants": 0.5628
+  },
+  {
+   "check": "区切りを2012年度に",
+   "type": "小学校",
+   "first_share_hires": 1.236,
+   "second_share_applicants": 0.7042
+  },
+  {
+   "check": "区切りを2012年度に",
+   "type": "中学校",
+   "first_share_hires": 1.3222,
+   "second_share_applicants": 0.7098
+  },
+  {
+   "check": "区切りを2012年度に",
+   "type": "高等学校",
+   "first_share_hires": 1.0602,
+   "second_share_applicants": 1.011
+  },
+  {
+   "check": "区切りを2012年度に",
+   "type": "計",
+   "first_share_hires": 1.2452,
+   "second_share_applicants": 0.7261
+  },
+  {
+   "check": "区切りを2013年度に",
+   "type": "小学校",
+   "first_share_hires": 1.2252,
+   "second_share_applicants": 0.7026
+  },
+  {
+   "check": "区切りを2013年度に",
+   "type": "中学校",
+   "first_share_hires": 1.317,
+   "second_share_applicants": 0.7375
+  },
+  {
+   "check": "区切りを2013年度に",
+   "type": "高等学校",
+   "first_share_hires": 1.06,
+   "second_share_applicants": 0.9318
+  },
+  {
+   "check": "区切りを2013年度に",
+   "type": "計",
+   "first_share_hires": 1.249,
+   "second_share_applicants": 0.7336
+  }
+ ],
+ "new_prior_base2013": {
+  "base": 2013,
+  "share_prior": 0.9541066892464014,
+  "new_ratio": 0.9403674771702057,
+  "total_ratio": 0.5931374237778619
+ },
+ "elem_per1000_2012": 106.01547901169158,
+ "elem_per1000_2025": 58.9316520167584,
+ "elem_per1000_2000": 85.68304550171436,
+ "univ_grad_2012": 558692.0,
+ "univ_grad_2025": 584304.0,
+ "all_prior_base": 118886.0,
+ "all_prior_2025": 64556.0,
+ "all_new_base": 50039.0,
+ "all_new_2025": 44567.0,
+ "elem_hires_new_base": 4915.0,
+ "elem_hires_new_2025": 9912.0,
+ "elem_hires_prior_base": 7986.0,
+ "elem_hires_prior_2025": 7166.0,
+ "total_ratio_1979": 6.242543095099748,
+ "total_ratio_2000": 13.347064694673804,
+ "total_ratio_2025": 2.9196789297658863
+}
