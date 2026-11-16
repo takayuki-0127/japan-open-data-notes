@@ -1,0 +1,19 @@
+{
+ "corr": 0.181,
+ "intercept_pct": -4.04,
+ "mean_qty_change_pct": -3.9,
+ "n": 18,
+ "slope": 0.058,
+ "y2009": {
+  "price_pct": -30.2,
+  "qty_pct": -4.9
+ },
+ "y2016": {
+  "price_pct": -22.3,
+  "qty_pct": 1.6
+ },
+ "y2022": {
+  "price_pct": 22.9,
+  "qty_pct": -0.8
+ }
+}
