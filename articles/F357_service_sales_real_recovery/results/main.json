@@ -1,0 +1,263 @@
+{
+ "base": "2019年1〜12月",
+ "biz": {
+  "base_nominal_tril_yen": 265.77,
+  "comp_nominal_tril_yen": 297.67,
+  "nominal": 112.0,
+  "price_gap": 10.89,
+  "real": 101.11
+ },
+ "check_service_total_table_nominal_2025_vs_2019": 108.62,
+ "comp": "2025年1〜12月",
+ "edu": {
+  "base_nominal_tril_yen": 4.25,
+  "comp_nominal_tril_yen": 3.87,
+  "nominal": 90.93,
+  "price_gap": 11.23,
+  "real": 79.7
+ },
+ "face": {
+  "base_nominal_tril_yen": 80.01,
+  "comp_nominal_tril_yen": 79.14,
+  "nominal": 98.92,
+  "price_gap": 13.59,
+  "real": 85.33
+ },
+ "hypotheses": {
+  "H1": {
+   "judge": "支持",
+   "rule": "合計の名目 2025/2019 > 100",
+   "value": 108.75
+  },
+  "H2": {
+   "judge": "支持",
+   "rule": "実質の伸び ≦ 名目の伸び×0.5",
+   "value": [
+    -2.76,
+    8.75
+   ]
+  },
+  "H3": {
+   "judge": "支持",
+   "rule": "対面・家計向け7業種の実質 < 100",
+   "value": 85.33
+  },
+  "H4": {
+   "judge": "支持",
+   "rule": "物価の寄与：対面・家計向け > 事業所向け",
+   "value": [
+    13.59,
+    10.89
+   ]
+  }
+ },
+ "latest12": {
+  "biz": {
+   "base_nominal_tril_yen": 265.77,
+   "comp_nominal_tril_yen": 307.49,
+   "nominal": 115.7,
+   "price_gap": 13.39,
+   "real": 102.31
+  },
+  "edu": {
+   "base_nominal_tril_yen": 4.25,
+   "comp_nominal_tril_yen": 3.94,
+   "nominal": 92.74,
+   "price_gap": 12.89,
+   "real": 79.85
+  },
+  "face": {
+   "base_nominal_tril_yen": 80.01,
+   "comp_nominal_tril_yen": 81.47,
+   "nominal": 101.82,
+   "price_gap": 15.19,
+   "real": 86.63
+  },
+  "total": {
+   "base_nominal_tril_yen": 350.03,
+   "comp_nominal_tril_yen": 392.9,
+   "nominal": 112.25,
+   "price_gap": 13.79,
+   "real": 98.45
+  }
+ },
+ "latest12_period": "2025年9月〜2026年8月（2026年6〜8月は速報）",
+ "n_industries": 31,
+ "price_2025_vs_2019": {
+  "CPI_0042": 118.75,
+  "CPI_0121": 114.08,
+  "CPI_0138": 114.61,
+  "CPI_0139": 137.01,
+  "CPI_0146": 108.98,
+  "CPI_0242": 103.48,
+  "SPPI_5200000000": 112.02,
+  "SPPI_5200010003": 113.32,
+  "SPPI_5200010005": 113.01,
+  "SPPI_5200010007": 116.38,
+  "SPPI_5200320001": 112.36,
+  "SPPI_5200420001": 109.19,
+  "SPPI_5200530001": 107.35,
+  "SPPI_5200530002": 118.96,
+  "SPPI_5200630002": 109.79,
+  "SPPI_5200720001": 125.52,
+  "SPPI_5200920001": 110.88,
+  "SPPI_5200930001": 104.78,
+  "SPPI_5201220001": 99.22,
+  "SPPI_5201320001": 99.31,
+  "SPPI_5201420001": 109.73,
+  "SPPI_5201520001": 106.3,
+  "SPPI_5201620001": 108.95,
+  "SPPI_5201920001": 109.41,
+  "SPPI_5202020001": 113.17,
+  "SPPI_5202120001": 116.24,
+  "SPPI_5202220001": 103.35,
+  "SPPI_5202320001": 127.14,
+  "SPPI_5202420001": 116.68
+ },
+ "robustness": [
+  {
+   "check": "主（業種ごとの価格、2025年÷2019年）",
+   "face_real": 85.33,
+   "nominal": 108.75,
+   "note": "",
+   "price_gap": 11.51,
+   "real": 97.24
+  },
+  {
+   "check": "1a 全業種を SPPI 総平均で割る",
+   "face_real": 88.27,
+   "nominal": 108.75,
+   "note": "",
+   "price_gap": 11.69,
+   "real": 97.07
+  },
+  {
+   "check": "1b 全業種を CPI 持家の帰属家賃を除くサービスで割る",
+   "face_real": 95.58,
+   "nominal": 108.75,
+   "note": "",
+   "price_gap": 3.67,
+   "real": 105.09
+  },
+  {
+   "check": "2 基準年を2018年にする",
+   "face_real": 82.73,
+   "nominal": 109.68,
+   "note": "",
+   "price_gap": 12.65,
+   "real": 97.02
+  },
+  {
+   "check": "3 最新12か月（2025年9月〜2026年8月）",
+   "face_real": 86.63,
+   "nominal": 112.25,
+   "note": "うち3か月は速報",
+   "price_gap": 13.79,
+   "real": 98.45
+  },
+  {
+   "check": "4 その他の生活関連→教養娯楽サービス、教育→サービス全体",
+   "face_real": 84.34,
+   "nominal": 108.75,
+   "note": "",
+   "price_gap": 11.64,
+   "real": 97.12
+  },
+  {
+   "check": "5 宿泊業を除く",
+   "face_real": 84.9,
+   "nominal": 108.49,
+   "note": "face_real は宿泊業を除く対面6業種",
+   "price_gap": 11.14,
+   "real": 97.35
+  }
+ ],
+ "rolling12_first_ge100": {
+  "biz_last_nominal": 115.7,
+  "biz_last_real": 102.31,
+  "biz_nominal": 202305,
+  "biz_nominal_min": 92.53,
+  "biz_nominal_min_ym": 202103,
+  "biz_real": 202510,
+  "biz_real_min": 91.61,
+  "biz_real_min_ym": 202103,
+  "edu_last_nominal": 92.74,
+  "edu_last_real": 79.85,
+  "edu_nominal": null,
+  "edu_nominal_min": 85.81,
+  "edu_nominal_min_ym": 202102,
+  "edu_real": null,
+  "edu_real_min": 79.6,
+  "edu_real_min_ym": 202509,
+  "face_last_nominal": 101.82,
+  "face_last_real": 86.63,
+  "face_nominal": 202603,
+  "face_nominal_min": 68.67,
+  "face_nominal_min_ym": 202103,
+  "face_real": null,
+  "face_real_min": 69.52,
+  "face_real_min_ym": 202112,
+  "total_last_nominal": 112.25,
+  "total_last_real": 98.45,
+  "total_nominal": 202405,
+  "total_nominal_min": 87.0,
+  "total_nominal_min_ym": 202103,
+  "total_real": null,
+  "total_real_min": 86.67,
+  "total_real_min_ym": 202103
+ },
+ "size": {
+  "face_nominal_2023_vs_2019_large": 90.46,
+  "face_nominal_2023_vs_2019_small": 103.91,
+  "face_small_share_2019": 45.42,
+  "face_small_share_2023": 46.3,
+  "median_change_18_19": 0.23,
+  "median_change_19_23": -1.21,
+  "n_industries": 31,
+  "n_industries_small_share_down_19_23": 20,
+  "n_industries_small_share_up_19_23": 11,
+  "nominal_2023_vs_2019_by_size_annual_table": {
+   "100〜299人": 98.39,
+   "10〜29人": 99.88,
+   "10人未満": 96.53,
+   "300人以上": 107.25,
+   "30〜99人": 100.59,
+   "総数": 102.6
+  },
+  "nominal_2023_vs_2019_timeseries_adjusted": 98.84,
+  "share_by_size": {
+   "2018": {
+    "100〜299人": 9.6,
+    "10〜29人": 16.62,
+    "10人未満": 13.25,
+    "300人以上": 43.37,
+    "30〜99人": 17.16
+   },
+   "2019": {
+    "100〜299人": 10.88,
+    "10〜29人": 15.85,
+    "10人未満": 13.9,
+    "300人以上": 43.94,
+    "30〜99人": 15.42
+   },
+   "2023": {
+    "100〜299人": 10.44,
+    "10〜29人": 15.43,
+    "10人未満": 13.08,
+    "300人以上": 45.93,
+    "30〜99人": 15.12
+   }
+  },
+  "small_share_2018": 29.87,
+  "small_share_2019": 29.75,
+  "small_share_2023": 28.51
+ },
+ "target_share_of_table_total_2019": 85.1,
+ "total": {
+  "base_nominal_tril_yen": 350.03,
+  "comp_nominal_tril_yen": 380.68,
+  "nominal": 108.75,
+  "price_gap": 11.51,
+  "real": 97.24
+ }
+}
