@@ -1,0 +1,30 @@
+{
+ "deficit_busd_12m_last": 41.6,
+ "deficit_busd_annual": {
+  "2014": 19.2,
+  "2015": 20.7,
+  "2016": 23.4,
+  "2017": 22.4,
+  "2018": 24.2,
+  "2019": 34.8,
+  "2020": 34.5,
+  "2021": 37.9,
+  "2022": 34.7,
+  "2023": 41.1,
+  "2024": 44.0,
+  "2025": 44.1
+ },
+ "deficit_increase_2024_2025_by_item_tyen": {
+  "コンピュータ": -0.161,
+  "専門・経営コンサル": 0.034,
+  "著作権等使用料": 0.048
+ },
+ "deficit_tyen_12m_last": 6.54,
+ "last_period": 202609,
+ "peak_usd_busd": 45.6,
+ "peak_usd_period": 202504,
+ "peak_yen_period": 202504,
+ "peak_yen_tyen": 6.92,
+ "yoy_usd_last_pct": -3.7,
+ "yoy_yen_last_pct": 1.5
+}
