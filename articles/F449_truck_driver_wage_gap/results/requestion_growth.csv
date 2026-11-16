@@ -1,0 +1,5 @@
+kind,period,drv_hourly_growth,all_hourly_growth,drv_shoteinai_growth,drv_kimatte_growth,all_kimatte_growth,drv_ot_hours_change,drv_sched_hours_change,gap_change_pt
+large,2020-2023,6.3447,2.8218,6.9490,6.8509,4.8699,0.0000,1.0000,3.4263
+large,2023-2025,4.8394,9.6481,3.6548,4.2295,6.8647,-2.0000,-2.0000,-4.3855
+other,2020-2023,4.6938,2.8218,8.2629,5.2930,4.8699,-4.0000,6.0000,1.8206
+other,2023-2025,7.2937,9.6481,1.9879,2.2442,6.8647,-1.0000,-9.0000,-2.1473

@@ -1,0 +1,42 @@
+{
+ "large_2020-2023": {
+  "all_hourly_growth": 2.8,
+  "all_kimatte_growth": 4.9,
+  "drv_hourly_growth": 6.3,
+  "drv_kimatte_growth": 6.9,
+  "drv_ot_hours_change": 0.0,
+  "drv_sched_hours_change": 1.0,
+  "drv_shoteinai_growth": 6.9,
+  "gap_change_pt": 3.4
+ },
+ "large_2023-2025": {
+  "all_hourly_growth": 9.6,
+  "all_kimatte_growth": 6.9,
+  "drv_hourly_growth": 4.8,
+  "drv_kimatte_growth": 4.2,
+  "drv_ot_hours_change": -2.0,
+  "drv_sched_hours_change": -2.0,
+  "drv_shoteinai_growth": 3.7,
+  "gap_change_pt": -4.4
+ },
+ "other_2020-2023": {
+  "all_hourly_growth": 2.8,
+  "all_kimatte_growth": 4.9,
+  "drv_hourly_growth": 4.7,
+  "drv_kimatte_growth": 5.3,
+  "drv_ot_hours_change": -4.0,
+  "drv_sched_hours_change": 6.0,
+  "drv_shoteinai_growth": 8.3,
+  "gap_change_pt": 1.8
+ },
+ "other_2023-2025": {
+  "all_hourly_growth": 9.6,
+  "all_kimatte_growth": 6.9,
+  "drv_hourly_growth": 7.3,
+  "drv_kimatte_growth": 2.2,
+  "drv_ot_hours_change": -1.0,
+  "drv_sched_hours_change": -9.0,
+  "drv_shoteinai_growth": 2.0,
+  "gap_change_pt": -2.1
+ }
+}
