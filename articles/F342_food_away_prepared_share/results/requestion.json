@@ -1,0 +1,125 @@
+{
+ "q1": {
+  "away_pct_1963-2007": {
+   "break_year": 1986,
+   "series": "away_pct",
+   "slope_after": 0.1067,
+   "slope_after_pt_per_10y": 1.07,
+   "slope_before": 0.4038,
+   "slope_before_pt_per_10y": 4.04,
+   "sse": 3.933,
+   "sse_straight": 45.6395,
+   "window": "1963-2007"
+  },
+  "away_pct_1963-2019": {
+   "break_year": 1988,
+   "series": "away_pct",
+   "slope_after": 0.0559,
+   "slope_after_pt_per_10y": 0.56,
+   "slope_before": 0.3957,
+   "slope_before_pt_per_10y": 3.96,
+   "sse": 6.3645,
+   "sse_straight": 114.1769,
+   "window": "1963-2019"
+  },
+  "away_pct_1970-2019": {
+   "break_year": 1989,
+   "series": "away_pct",
+   "slope_after": 0.0536,
+   "slope_after_pt_per_10y": 0.54,
+   "slope_before": 0.3622,
+   "slope_before_pt_per_10y": 3.62,
+   "sse": 4.9703,
+   "sse_straight": 58.4462,
+   "window": "1970-2019"
+  },
+  "both_pct_1963-2007": {
+   "break_year": 1988,
+   "series": "both_pct",
+   "slope_after": 0.3407,
+   "slope_after_pt_per_10y": 3.41,
+   "slope_before": 0.5687,
+   "slope_before_pt_per_10y": 5.69,
+   "sse": 5.3875,
+   "sse_straight": 28.7883,
+   "window": "1963-2007"
+  },
+  "both_pct_1963-2019": {
+   "break_year": 1996,
+   "series": "both_pct",
+   "slope_after": 0.167,
+   "slope_after_pt_per_10y": 1.67,
+   "slope_before": 0.5324,
+   "slope_before_pt_per_10y": 5.32,
+   "sse": 9.8235,
+   "sse_straight": 127.1645,
+   "window": "1963-2019"
+  },
+  "both_pct_1970-2019": {
+   "break_year": 1997,
+   "series": "both_pct",
+   "slope_after": 0.161,
+   "slope_after_pt_per_10y": 1.61,
+   "slope_before": 0.5087,
+   "slope_before_pt_per_10y": 5.09,
+   "sse": 7.2013,
+   "sse_straight": 83.6502,
+   "window": "1970-2019"
+  },
+  "prepared_pct_1963-2007": {
+   "break_year": 1976,
+   "series": "prepared_pct",
+   "slope_after": 0.237,
+   "slope_after_pt_per_10y": 2.37,
+   "slope_before": 0.1223,
+   "slope_before_pt_per_10y": 1.22,
+   "sse": 1.4032,
+   "sse_straight": 5.104,
+   "window": "1963-2007"
+  },
+  "prepared_pct_1963-2019": {
+   "break_year": 2004,
+   "series": "prepared_pct",
+   "slope_after": 0.1428,
+   "slope_after_pt_per_10y": 1.43,
+   "slope_before": 0.2106,
+   "slope_before_pt_per_10y": 2.11,
+   "sse": 6.1716,
+   "sse_straight": 8.3695,
+   "window": "1963-2019"
+  },
+  "prepared_pct_1970-2019": {
+   "break_year": 2003,
+   "series": "prepared_pct",
+   "slope_after": 0.1325,
+   "slope_after_pt_per_10y": 1.33,
+   "slope_before": 0.2272,
+   "slope_before_pt_per_10y": 2.27,
+   "sse": 3.0687,
+   "sse_straight": 7.1098,
+   "window": "1970-2019"
+  }
+ },
+ "q2": {
+  "corr_both_pct_vs_age_2000_2019": -0.961,
+  "corr_both_pct_vs_employed_2000_2019": 0.953,
+  "single_age": {
+   "2000": 50.8,
+   "2010": 56.8,
+   "2019": 59.0,
+   "2025": 58.6
+  },
+  "single_both_pct": {
+   "2000": 52.2,
+   "2010": 45.1,
+   "2019": 44.6,
+   "2025": 42.2
+  },
+  "single_employed_ratio": {
+   "2000": 0.64,
+   "2010": 0.52,
+   "2019": 0.54,
+   "2025": 0.56
+  }
+ }
+}
