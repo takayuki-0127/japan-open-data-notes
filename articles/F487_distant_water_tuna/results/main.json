@@ -1,0 +1,55 @@
+{
+ "distant_peak_year": 1987,
+ "distant_peak_kt": 2344.3,
+ "distant_2000_kt": 854.8,
+ "distant_2024_kt": 289.3,
+ "distant_pct_of_peak": 12.3,
+ "distant_share_1979": 21.8,
+ "distant_share_2024": 10.4,
+ "marine_fishing_1979": 9476.8,
+ "marine_fishing_2024": 2786.2,
+ "offshore_2024": 1734.9,
+ "coastal_2024": 762.0,
+ "longline_peak_year": 1985,
+ "longline_peak_kt": 232.7,
+ "longline_2024_kt": 61.6,
+ "longline_pct_of_peak": 26.5,
+ "polepole_distant_2024": 56.8,
+ "seine_distant_2024": 162.4,
+ "tuna3_distant_2024": 280.8,
+ "mix_2024": {
+  "longline_distant": 21.9,
+  "polepole_distant": 20.2,
+  "seine_distant": 57.9
+ },
+ "mix_1990": {
+  "longline_distant": 41.0,
+  "polepole_distant": 20.5,
+  "seine_distant": 38.5
+ },
+ "mix_2000": {
+  "longline_distant": 35.5,
+  "polepole_distant": 22.6,
+  "seine_distant": 41.9
+ },
+ "corr_species_vs_gears_log": 0.99,
+ "hypotheses": {
+  "H1_distant_le_15pct_of_peak": {
+   "value": 12.3,
+   "result": "支持"
+  },
+  "H2_seine_gt_longline_plus_polepole": {
+   "seine": 162.4,
+   "longline_polepole": 118.3,
+   "result": "支持"
+  },
+  "H3_longline_le_30pct_of_peak": {
+   "value": 26.5,
+   "result": "支持"
+  },
+  "H4_distant_share_lt_15": {
+   "value": 10.4,
+   "result": "支持"
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "peak_year": 1987,
+ "1987-2000": {
+  "distant_change_kt": -1489.5,
+  "tuna3_change_kt": -48.0,
+  "other_change_kt": -1441.5,
+  "tuna3_share_of_change_pct": 3.2
+ },
+ "2000-2024": {
+  "distant_change_kt": -565.5,
+  "tuna3_change_kt": -151.2,
+  "other_change_kt": -414.3,
+  "tuna3_share_of_change_pct": 26.7
+ },
+ "1987-2024": {
+  "distant_change_kt": -2055.0,
+  "tuna3_change_kt": -199.2,
+  "other_change_kt": -1855.8,
+  "tuna3_share_of_change_pct": 9.7
+ },
+ "tuna3_share_peak_year_pct": 20.5,
+ "tuna3_share_2000_pct": 50.5,
+ "tuna3_share_2024_pct": 97.1,
+ "other_peak_kt": 1864.3,
+ "other_2024_kt": 8.5
+}
