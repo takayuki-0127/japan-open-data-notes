@@ -1,0 +1,163 @@
+{
+ "age40": {
+  "share_edu": [
+   9.389,
+   7.872
+  ],
+  "share_edu_change_pt": -1.517,
+  "real_edu_per_child_dlog": -6.49,
+  "nom_edu_per_child_dlog": -16.895,
+  "real_edu_per_person_dlog": -2.461,
+  "real_edu_dlog": -10.403,
+  "education_dlog": -20.837,
+  "children_dlog": -3.948,
+  "children": [
+   1.55,
+   1.49
+  ],
+  "share_cram": [
+   27.649,
+   31.527
+  ],
+  "share_cram_change_pt": 3.878,
+  "share_tuition": [
+   69.634,
+   66.458
+  ],
+  "education_yen": [
+   389055.333,
+   315876.333
+  ],
+  "tuition_2018_19_to_2021_22": -9.356
+ },
+ "age30": {
+  "share_edu": [
+   4.172,
+   2.857
+  ],
+  "share_edu_change_pt": -1.315,
+  "real_edu_per_child_dlog": -29.923,
+  "nom_edu_per_child_dlog": -40.472,
+  "real_edu_per_person_dlog": -25.634,
+  "real_edu_dlog": -25.066,
+  "education_dlog": -35.561,
+  "children_dlog": 5.064,
+  "children": [
+   1.54,
+   1.62
+  ],
+  "share_cram": [
+   16.673,
+   22.908
+  ],
+  "share_cram_change_pt": 6.235,
+  "share_tuition": [
+   80.85,
+   74.701
+  ],
+  "education_yen": [
+   140327.333,
+   98333.667
+  ],
+  "tuition_2018_19_to_2021_22": -66.022
+ },
+ "avg": {
+  "share_edu": [
+   4.294,
+   3.752
+  ],
+  "share_edu_change_pt": -0.542,
+  "real_edu_per_child_dlog": 22.164,
+  "nom_edu_per_child_dlog": 11.618,
+  "real_edu_per_person_dlog": 7.748,
+  "real_edu_dlog": -3.217,
+  "education_dlog": -13.716,
+  "children_dlog": -25.27,
+  "children": [
+   0.687,
+   0.533
+  ],
+  "share_cram": [
+   20.947,
+   22.568
+  ],
+  "share_cram_change_pt": 1.621,
+  "share_tuition": [
+   76.639,
+   75.736
+  ],
+  "education_yen": [
+   156418.333,
+   136369.667
+  ],
+  "tuition_2018_19_to_2021_22": -1.047
+ },
+ "age50": {
+  "share_edu": [
+   5.04,
+   7.84
+  ],
+  "share_edu_change_pt": 2.8,
+  "real_edu_per_child_dlog": 18.874,
+  "nom_edu_per_child_dlog": 8.368,
+  "real_edu_per_person_dlog": 65.519,
+  "real_edu_dlog": 57.188,
+  "education_dlog": 46.629,
+  "children_dlog": 38.112,
+  "children": [
+   0.323,
+   0.473
+  ],
+  "share_cram": [
+   13.934,
+   16.273
+  ],
+  "share_cram_change_pt": 2.339,
+  "share_tuition": [
+   84.095,
+   82.354
+  ],
+  "education_yen": [
+   211248.667,
+   336744.0
+  ],
+  "tuition_2018_19_to_2021_22": 15.109
+ },
+ "H1_verdict": "外れ",
+ "H2_verdict": "外れ",
+ "H3_verdict": "支持",
+ "H4_verdict": "支持",
+ "cpi_edu_change": -10.354,
+ "cpi_all_change": 12.868,
+ "cpi_tuition_2018_19_to_2021_22": -14.986,
+ "robustness": [
+  {
+   "spec": "R1 30代の世帯",
+   "H1": -1.315,
+   "H2": -29.923,
+   "H3": 6.235,
+   "H4": -66.022
+  },
+  {
+   "spec": "R2 名目で H2",
+   "H2": -16.895
+  },
+  {
+   "spec": "R3 始点を2005〜07年",
+   "H1": -1.75,
+   "H2": -7.186,
+   "H3": 3.57
+  },
+  {
+   "spec": "R4 世帯人員1人当たり（実質）",
+   "H2": -2.461
+  },
+  {
+   "spec": "R5 50代の世帯",
+   "H1": 2.8,
+   "H2": 18.874,
+   "H3": 2.339,
+   "H4": 15.109
+  }
+ ]
+}
