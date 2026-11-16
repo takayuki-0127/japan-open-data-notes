@@ -1,0 +1,138 @@
+{
+ "hypotheses": {
+  "H1": {
+   "rule": "二人以上の1世帯あたり（名目）が減り、GDP（除く帰属家賃、名目）が増えたら支持",
+   "two_plus_ratio": 0.989515580093783,
+   "gdp_ratio": 1.175665010187953,
+   "verdict": "支持"
+  },
+  "H2": {
+   "rule": "総世帯×世帯数でGDPとの差の半分以上が埋まれば支持",
+   "share": 0.7680382645288553,
+   "verdict": "支持"
+  },
+  "H3": {
+   "rule": "二人以上の実質が10%以上減り、GDP実質（除く帰属家賃）1人あたりが±5%の中なら支持",
+   "tp_real": 83.69385068111814,
+   "gdp_real_pp": 111.62189743400535,
+   "verdict": "外れ"
+  },
+  "H4": {
+   "rule": "前年比の相関が0.5未満なら支持",
+   "corr": 0.7079927238743072,
+   "corr_excl_2020_21": 0.49318946698167015,
+   "verdict": "外れ"
+  }
+ },
+ "decomposition": [
+  {
+   "start": 2000,
+   "end": 2025,
+   "two_plus": -0.0105,
+   "total_hh": -0.0789,
+   "survey_aggregate": 0.1218,
+   "gdp": 0.1618,
+   "gap": 0.1724,
+   "part_coverage": -0.0683,
+   "part_households": 0.2007,
+   "part_residual": 0.04,
+   "share_closed_by_households": 0.768
+  },
+  {
+   "start": 2005,
+   "end": 2025,
+   "two_plus": 0.0438,
+   "total_hh": -0.0252,
+   "survey_aggregate": 0.128,
+   "gdp": 0.1606,
+   "gap": 0.1167,
+   "part_coverage": -0.069,
+   "part_households": 0.1531,
+   "part_residual": 0.0326,
+   "share_closed_by_households": 0.7205
+  },
+  {
+   "start": 2010,
+   "end": 2025,
+   "two_plus": 0.0787,
+   "total_hh": 0.0295,
+   "survey_aggregate": 0.1275,
+   "gdp": 0.193,
+   "gap": 0.1144,
+   "part_coverage": -0.0492,
+   "part_households": 0.098,
+   "part_residual": 0.0655,
+   "share_closed_by_households": 0.4271
+  },
+  {
+   "start": 2000,
+   "end": 2019,
+   "two_plus": -0.0785,
+   "total_hh": -0.1188,
+   "survey_aggregate": 0.047,
+   "gdp": 0.0305,
+   "gap": 0.1089,
+   "part_coverage": -0.0403,
+   "part_households": 0.1659,
+   "part_residual": -0.0166,
+   "share_closed_by_households": 1.1523
+  }
+ ],
+ "robustness": [
+  {
+   "check": "GDPに帰属家賃を含める（2000→2025年）",
+   "gap": 0.199,
+   "share_closed_by_households": 0.6653,
+   "corr_growth": NaN
+  },
+  {
+   "check": "世帯数を直線で補う（2000→2025年）",
+   "gap": 0.1724,
+   "share_closed_by_households": 0.768,
+   "corr_growth": NaN
+  },
+  {
+   "check": "起点・終点を変える（2005→2025年）",
+   "gap": 0.1167,
+   "share_closed_by_households": 0.7205,
+   "corr_growth": NaN
+  },
+  {
+   "check": "起点・終点を変える（2010→2025年）",
+   "gap": 0.1144,
+   "share_closed_by_households": 0.4271,
+   "corr_growth": NaN
+  },
+  {
+   "check": "起点・終点を変える（2000→2019年）",
+   "gap": 0.1089,
+   "share_closed_by_households": 1.1523,
+   "corr_growth": NaN
+  },
+  {
+   "check": "前年比の相関（2020・2021年を除く）",
+   "gap": NaN,
+   "share_closed_by_households": NaN,
+   "corr_growth": 0.4932
+  }
+ ],
+ "tp_2000": 317328.0,
+ "tp_2025": 314001.0,
+ "th_2000": 3374494.0,
+ "th_2025": 3118554.0,
+ "gdp_exrent_2000": 238075.3,
+ "gdp_exrent_2025": 279896.8,
+ "households_2000": 46782383.0,
+ "households_2025": 57181619.0,
+ "persons_2000": 124724660.0,
+ "persons_2025": 119837159.0,
+ "th_persons_2000": 2.7,
+ "th_persons_2025": 2.15,
+ "survey_share_2000": 66.30963847959111,
+ "survey_share_2025": 63.710612861213846,
+ "tp_real_idx_2025": 83.69385068111814,
+ "tp_real_idx_min": 82.9473247582935,
+ "tp_real_idx_min_year": 2024,
+ "gdp_real_exrent_idx_2025": 107.24784553977209,
+ "gdp_real_pp_idx_2025": 111.62189743400535
+}
