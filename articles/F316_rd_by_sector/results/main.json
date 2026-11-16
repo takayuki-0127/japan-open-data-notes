@@ -1,0 +1,143 @@
+{
+ "researchers": {
+  "business": {
+   "start": 440241.0,
+   "end": 526797.667,
+   "dlog": 17.949
+  },
+  "university": {
+   "start": 282114.667,
+   "end": 345737.333,
+   "dlog": 20.337
+  },
+  "public": {
+   "start": 33784.0,
+   "end": 30077.333,
+   "dlog": -11.622
+  },
+  "nonprofit": {
+   "start": 10840.0,
+   "end": 7565.0,
+   "dlog": -35.971
+  },
+  "total": {
+   "start": 766979.667,
+   "end": 910177.333,
+   "dlog": 17.118
+  }
+ },
+ "expenditure": {
+  "business": {
+   "start": 11595596.667,
+   "end": 16226950.0,
+   "dlog": 33.605
+  },
+  "university": {
+   "start": 3259613.0,
+   "end": 3942731.333,
+   "dlog": 19.027
+  },
+  "public": {
+   "start": 1475124.667,
+   "end": 1772830.333,
+   "dlog": 18.383
+  },
+  "nonprofit": {
+   "start": 338734.0,
+   "end": 239533.0,
+   "dlog": -34.652
+  },
+  "total": {
+   "start": 16669068.667,
+   "end": 22182044.667,
+   "dlog": 28.573
+  }
+ },
+ "per_researcher_10k_yen": {
+  "business": {
+   "start": 2635.452,
+   "end": 3080.925,
+   "dlog": 15.618
+  },
+  "university": {
+   "start": 1155.447,
+   "end": 1140.262,
+   "dlog": -1.323
+  },
+  "public": {
+   "start": 4366.314,
+   "end": 5894.983,
+   "dlog": 30.018
+  },
+  "nonprofit": {
+   "start": 3123.698,
+   "end": 3176.013,
+   "dlog": 1.661
+  },
+  "total": {
+   "start": 2173.856,
+   "end": 2436.957,
+   "dlog": 11.425
+  }
+ },
+ "H1_verdict": "外れ",
+ "H2_verdict": "支持",
+ "H3_verdict": "支持",
+ "H4_verdict": "支持",
+ "contrib_researchers_pct": {
+  "business": 60.446,
+  "university": 44.43,
+  "public": -2.588,
+  "nonprofit": -2.287
+ },
+ "contrib_expenditure_pct": {
+  "business": 84.008,
+  "university": 12.391,
+  "public": 5.4,
+  "nonprofit": -1.799
+ },
+ "robustness": [
+  {
+   "spec": "R1 終点を2018〜20年調査",
+   "res_business": 13.456,
+   "res_university": 16.224,
+   "res_public": -9.978,
+   "exp_business": 19.419,
+   "exp_university": 12.134,
+   "per_univ": -4.094
+  },
+  {
+   "spec": "R2 始点を2008〜10年調査",
+   "res_business": 7.444,
+   "res_university": 12.283,
+   "res_public": -7.716,
+   "exp_business": 21.028,
+   "exp_university": 12.691,
+   "per_univ": 0.402
+  },
+  {
+   "spec": "R3 研究関係従業者数（総数）で",
+   "res_business": 11.298,
+   "res_university": 26.346,
+   "res_public": 1.096
+  },
+  {
+   "spec": "R4 大学等_国立",
+   "res": 18.613,
+   "exp": 12.759,
+   "per": -5.895
+  },
+  {
+   "spec": "R4 大学等_公立",
+   "res": 23.382,
+   "exp": 34.751,
+   "per": 11.353
+  },
+  {
+   "spec": "R4 大学等_私立",
+   "res": 21.484,
+   "exp": 22.25,
+   "per": 0.764
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "recent": {
+  "business": {
+   "exp_dlog": 14.056,
+   "res_dlog": 1.813,
+   "per_dlog": 12.243,
+   "exp_change_100m": 21278.377,
+   "share_of_change": 79.862
+  },
+  "university": {
+   "exp_dlog": 5.635,
+   "res_dlog": 2.399,
+   "per_dlog": 3.236,
+   "exp_change_100m": 2160.42,
+   "share_of_change": 8.109
+  },
+  "public": {
+   "exp_dlog": 19.549,
+   "res_dlog": -0.979,
+   "per_dlog": 20.528,
+   "exp_change_100m": 3147.95,
+   "share_of_change": 11.815
+  },
+  "nonprofit": {
+   "exp_dlog": 2.414,
+   "res_dlog": -5.986,
+   "per_dlog": 8.4,
+   "exp_change_100m": 57.123,
+   "share_of_change": 0.214
+  },
+  "total": {
+   "exp_dlog": 12.796,
+   "res_dlog": 1.874,
+   "per_dlog": 10.922,
+   "exp_change_100m": 26643.877,
+   "share_of_change": 100.0
+  }
+ },
+ "total_2022_trillion": 19.741,
+ "total_2025_trillion": 23.793
+}
