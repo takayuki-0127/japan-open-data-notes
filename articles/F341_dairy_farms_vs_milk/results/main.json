@@ -1,0 +1,271 @@
+{
+ "break_2019_new_vs_old_pct": {
+  "farms": -0.67,
+  "milking": -1.71,
+  "parous": 0.18
+ },
+ "decomposition": {
+  "avg_feb_next": {
+   "avg_next": true,
+   "cow": "parous",
+   "cows_per_farm": [
+    16.0,
+    66.0
+   ],
+   "cows_per_farm_ratio": 4.12,
+   "farms_change_pct": -84.7,
+   "log_farms": -1.878,
+   "log_milk": -0.011,
+   "log_scale": 1.417,
+   "log_yield": 0.45,
+   "milk_change_pct": -1.1,
+   "offset_share_scale_pct": 75.9,
+   "offset_share_yield_pct": 24.1,
+   "y0": 1985,
+   "y1": 2023,
+   "yield_kg": [
+    5598.0,
+    8779.0
+   ],
+   "yield_ratio": 1.568
+  },
+  "end2023": {
+   "avg_next": false,
+   "cow": "parous",
+   "cows_per_farm": [
+    16.0,
+    66.4
+   ],
+   "cows_per_farm_ratio": 4.14,
+   "farms_change_pct": -84.7,
+   "log_farms": -1.878,
+   "log_milk": -0.011,
+   "log_scale": 1.42,
+   "log_yield": 0.446,
+   "milk_change_pct": -1.1,
+   "offset_share_scale_pct": 76.1,
+   "offset_share_yield_pct": 23.9,
+   "y0": 1985,
+   "y1": 2023,
+   "yield_kg": [
+    5583.0,
+    8725.0
+   ],
+   "yield_ratio": 1.563
+  },
+  "main_1985_2024": {
+   "avg_next": false,
+   "cow": "parous",
+   "cows_per_farm": [
+    16.0,
+    69.4
+   ],
+   "cows_per_farm_ratio": 4.33,
+   "farms_change_pct": -85.6,
+   "log_farms": -1.935,
+   "log_milk": -0.003,
+   "log_scale": 1.465,
+   "log_yield": 0.467,
+   "milk_change_pct": -0.31,
+   "offset_share_scale_pct": 75.8,
+   "offset_share_yield_pct": 24.2,
+   "y0": 1985,
+   "y1": 2024,
+   "yield_kg": [
+    5583.0,
+    8905.0
+   ],
+   "yield_ratio": 1.595
+  },
+  "milking_cows": {
+   "avg_next": false,
+   "cow": "milking",
+   "cows_per_farm": [
+    13.4,
+    59.2
+   ],
+   "cows_per_farm_ratio": 4.43,
+   "farms_change_pct": -85.6,
+   "log_farms": -1.935,
+   "log_milk": -0.003,
+   "log_scale": 1.489,
+   "log_yield": 0.443,
+   "milk_change_pct": -0.31,
+   "offset_share_scale_pct": 77.1,
+   "offset_share_yield_pct": 22.9,
+   "y0": 1985,
+   "y1": 2024,
+   "yield_kg": [
+    6703.0,
+    10439.0
+   ],
+   "yield_ratio": 1.557
+  },
+  "start1990": {
+   "avg_next": false,
+   "cow": "parous",
+   "cows_per_farm": [
+    20.3,
+    69.4
+   ],
+   "cows_per_farm_ratio": 3.42,
+   "farms_change_pct": -81.2,
+   "log_farms": -1.671,
+   "log_milk": -0.107,
+   "log_scale": 1.23,
+   "log_yield": 0.335,
+   "milk_change_pct": -10.16,
+   "offset_share_scale_pct": 78.6,
+   "offset_share_yield_pct": 21.4,
+   "y0": 1990,
+   "y1": 2024,
+   "yield_kg": [
+    6373.0,
+    8905.0
+   ],
+   "yield_ratio": 1.397
+  },
+  "start2000": {
+   "avg_next": false,
+   "cow": "parous",
+   "cows_per_farm": [
+    34.2,
+    69.4
+   ],
+   "cows_per_farm_ratio": 2.03,
+   "farms_change_pct": -64.6,
+   "log_farms": -1.038,
+   "log_milk": -0.144,
+   "log_scale": 0.707,
+   "log_yield": 0.187,
+   "milk_change_pct": -13.41,
+   "offset_share_scale_pct": 79.1,
+   "offset_share_yield_pct": 20.9,
+   "y0": 2000,
+   "y1": 2024,
+   "yield_kg": [
+    7389.0,
+    8905.0
+   ],
+   "yield_ratio": 1.205
+  }
+ },
+ "farms": {
+  "1960": 410400.0,
+  "1985": 82400.0,
+  "2000": 33600.0,
+  "2024": 11900.0,
+  "2025": 11300.0
+ },
+ "farms_decline_rate_pct_per_year": {
+  "1985-2000": -5.81,
+  "2000-2015": -4.18,
+  "2015-2025": -4.39
+ },
+ "farms_ge100": {
+  "2005": 1590.0,
+  "2015": 1880.0,
+  "2025": 2159.0
+ },
+ "farms_ge100_share_2025_pct": 19.5,
+ "ge100_share_pct": {
+  "1996": 7.2,
+  "2005": 22.2,
+  "2015": 38.2,
+  "2019": 46.1,
+  "2025": 58.0
+ },
+ "h2": {
+  "farms_change_pct": -86.3,
+  "parous_change_pct": -38.0,
+  "ratio": 0.44
+ },
+ "hokkaido_parous_exceeds_tofuken_year": 2010,
+ "hokkaido_share_farms_pct": {
+  "1985": 21.1,
+  "2025": 44.0
+ },
+ "hokkaido_share_parous_pct": {
+  "1960": 23.3,
+  "1985": 33.0,
+  "2000": 42.9,
+  "2025": 57.4
+ },
+ "hypotheses": {
+  "H1": {
+   "log_scale": 1.465,
+   "log_yield": 0.467,
+   "verdict": "支持"
+  },
+  "H2": {
+   "ratio": 0.44,
+   "verdict": "支持"
+  },
+  "H3": {
+   "value": 57.4,
+   "verdict": "支持"
+  },
+  "H4": {
+   "value": 58.0,
+   "verdict": "支持"
+  }
+ },
+ "milk_1985_2024_t": [
+  7380369.0,
+  7357451.0
+ ],
+ "peak_milk": {
+  "t": 8656929.0,
+  "year": 1996
+ },
+ "region": {
+  "全国": {
+   "farms": [
+    82400.0,
+    11300.0
+   ],
+   "farms_change_pct": -86.3,
+   "parous": [
+    1322000.0,
+    820100.0
+   ],
+   "parous_change_pct": -38.0,
+   "per_farm": [
+    16.0,
+    72.6
+   ]
+  },
+  "北海道": {
+   "farms": [
+    17400.0,
+    4970.0
+   ],
+   "farms_change_pct": -71.4,
+   "parous": [
+    435800.0,
+    470500.0
+   ],
+   "parous_change_pct": 8.0,
+   "per_farm": [
+    25.0,
+    94.7
+   ]
+  },
+  "都府県": {
+   "farms": [
+    65000.0,
+    6350.0
+   ],
+   "farms_change_pct": -90.2,
+   "parous": [
+    886200.0,
+    349700.0
+   ],
+   "parous_change_pct": -60.5,
+   "per_farm": [
+    13.6,
+    55.1
+   ]
+  }
+ }
+}
