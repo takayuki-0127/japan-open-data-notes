@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 271本＋記事の一覧 699本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 274本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -25,7 +25,7 @@
 | 再現性・振り返り | 100 |
 | その他（記述・要因分解など） | 329 |
 
-<details><summary><b>予測・時系列</b>（115本）</summary>
+<details><summary><b>予測・時系列</b>（110本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -95,11 +95,6 @@
 | F278 | 「空き家が過去最多」は、住宅の数が増えた分を除くとどうか？ | [F278_vacant_record_stock_vs_rate](articles/F278_vacant_record_stock_vs_rate) |
 | F293 | 毎月の数字の「おかしい」を、どう自動で見つけるか？ | [F293_monthly_anomaly_public_stats](articles/F293_monthly_anomaly_public_stats) |
 | F294 | 介護の費用は、2040年度にどこまで増えるのか？ | [F294_care_cost_2040_assumptions](articles/F294_care_cost_2040_assumptions) |
-| 020 | 失業率は何か月先まで予測できるか？ | [020_unemployment_sarima](articles/020_unemployment_sarima) |
-| 036 | 日銀短観の「先行き」は当たるのか？ | [036_tankan_forecast](articles/036_tankan_forecast) |
-| 110 | 東南アジアは12月、欧米は4月と10月、韓国は1月。外国人が日本に来る季節は国籍で4つの形に分かれた | [110_immigration_seasons](articles/110_immigration_seasons) |
-| 144 | 住宅の価格指数は3月に高く12月に低い。季節の差は2.8%で、取引件数も3月に25〜38%増えていた | [144_housing_price_seasonality](articles/144_housing_price_seasonality) |
-| 166 | 国内線の座席利用率は8月が最も高く、1月と4月が低い。季節の差は15ポイントで、2025年は年平均80%を超えた | [166_air_load_factor_season](articles/166_air_load_factor_season) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
 | 286 | 予測モデルは、線形回帰と勾配ブースティングのどちらから始めるか？ | [286_linear_vs_gbm_first](articles/286_linear_vs_gbm_first) |
 | 296 | 需要予測の当たり外れを、毎週どう見張るか？ | [296_forecast_error_control_chart](articles/296_forecast_error_control_chart) |
@@ -147,7 +142,7 @@
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（60本）</summary>
+<details><summary><b>因果推論・効果検証</b>（58本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -189,8 +184,6 @@
 | F271 | 見られるダッシュボードと、見られないダッシュボードの違いは何か？ | [F271_dashboard_answer_cost](articles/F271_dashboard_answer_cost) |
 | F276 | 地震保険の付帯率は、地震のあとにどれだけ上がって戻るのか？ | [F276_earthquake_insurance_after_quakes](articles/F276_earthquake_insurance_after_quakes) |
 | F278 | 「空き家が過去最多」は、住宅の数が増えた分を除くとどうか？ | [F278_vacant_record_stock_vs_rate](articles/F278_vacant_record_stock_vs_rate) |
-| 029 | コロナで東京への人の流れはどれだけ減ったか？ | [029_covid_tokyo_synth](articles/029_covid_tokyo_synth) |
-| 224 | 研究開発にお金をかける業種ほど、生産性は高い。でも同じ業種の中で研究開発を増やした年に、生産性が上がったわけではなかった | [224_rd_productivity](articles/224_rd_productivity) |
 | 267 | 相関を因果だと思いかけたとき、どう止めたか？ | [267_correlation_not_causation](articles/267_correlation_not_causation) |
 | 268 | 差の差・回帰不連続・合成コントロールを、どう選んできたか？ | [268_causal_design_choice](articles/268_causal_design_choice) |
 | 365 | 似た相手を選んで比べる方法は、測っていない違いがあるとどこまで外れるのか？ | [365_matching_unmeasured_confounder](articles/365_matching_unmeasured_confounder) |
@@ -248,7 +241,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（276本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（272本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -412,10 +405,6 @@
 | F291 | 死亡率の改善は、年齢のどこで止まりつつあるのか？ | [F291_mortality_improvement_slowdown](articles/F291_mortality_improvement_slowdown) |
 | F292 | 南海トラフの被害想定は、人口が変わるとどう動くか？ | [F292_quake_damage_population](articles/F292_quake_damage_population) |
 | F295 | リスクを分けて計ると、分散効果はどれだけ効くのか？ | [F295_solvency_diversification_copula](articles/F295_solvency_diversification_copula) |
-| 037 | 東京の中古マンションは10年で何%上がった？ | [037_tokyo_condo_hedonic](articles/037_tokyo_condo_hedonic) |
-| 048 | 病院で亡くなる人の割合は2005年がピーク。折れ線回帰で「流れが変わった年」を探した | [048_place_of_death](articles/048_place_of_death) |
-| 123 | 辞める人が多い産業ほど入る人も多い（相関0.97）。転職で賃金が1割以上増えた人は15%から28%に | [123_turnover_rates](articles/123_turnover_rates) |
-| 171 | 道路の交通量は2015→2021年度で5.6%減。高速道路は延びたのに1区間あたり11%減、大型車の割合は上がった | [171_road_traffic_change](articles/171_road_traffic_change) |
 | 253 | p値0.05の線を、どう扱ってきたか？ | [253_p_value_line](articles/253_p_value_line) |
 | 267 | 相関を因果だと思いかけたとき、どう止めたか？ | [267_correlation_not_causation](articles/267_correlation_not_causation) |
 | 268 | 差の差・回帰不連続・合成コントロールを、どう選んできたか？ | [268_causal_design_choice](articles/268_causal_design_choice) |
@@ -531,7 +520,7 @@
 
 </details>
 
-<details><summary><b>機械学習・モデル評価</b>（108本）</summary>
+<details><summary><b>機械学習・モデル評価</b>（103本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -592,11 +581,6 @@
 | F259 | 需要予測の外れは、在庫と欠品のどちらに効かせるべきか？ | [F259_forecast_error_inventory_cost](articles/F259_forecast_error_inventory_cost) |
 | F261 | 潜在成長率は、計算の仕方でどれだけ変わるのか？ | [F261_potential_growth_methods](articles/F261_potential_growth_methods) |
 | F271 | 見られるダッシュボードと、見られないダッシュボードの違いは何か？ | [F271_dashboard_answer_cost](articles/F271_dashboard_answer_cost) |
-| 019 | 1,740市区町村を「似た街」に分けてみた：k-means で5つのグループ、でも境目はあいまいだった | [019_municipal_clusters](articles/019_municipal_clusters) |
-| 022 | 保育所を増やした県で、出生率は上がったか？ | [022_nursery_birthrate_fe](articles/022_nursery_birthrate_fe) |
-| 044 | 2050年の人口推計は何で決まっているのか？ | [044_population_rf](articles/044_population_rf) |
-| 133 | 私立小学校の学習費は公立の4.8倍。差の大部分は授業料や入学金で、公立中学生は塾代のほうが多かった | [133_school_expenses](articles/133_school_expenses) |
-| 164 | 学習塾の受講生は2018年から1割減。それでも売上はトレンド通りに伸び、支えたのは1人当たりの受講料だった | [164_juku_sales](articles/164_juku_sales) |
 | 286 | 予測モデルは、線形回帰と勾配ブースティングのどちらから始めるか？ | [286_linear_vs_gbm_first](articles/286_linear_vs_gbm_first) |
 | 307 | 問い合わせの記録を、カテゴリに自動で分けられるか？ | [307_inquiry_text_classification](articles/307_inquiry_text_classification) |
 | 310 | Kaggle：アンサンブルは、何本混ぜると効かなくなるのか？ | [310_kaggle_ensemble_size](articles/310_kaggle_ensemble_size) |
@@ -834,7 +818,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（128本）</summary>
+<details><summary><b>集計の定義・KPI</b>（127本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -908,7 +892,6 @@
 | F287 | 同じ数字を、経営向けと現場向けでどう書き分けるか？ | [F287_report_two_audiences](articles/F287_report_two_audiences) |
 | F289 | 情報通信白書のデジタル化の指標は、生産性と結びついているか？ | [F289_ict_capital_productivity](articles/F289_ict_capital_productivity) |
 | F293 | 毎月の数字の「おかしい」を、どう自動で見つけるか？ | [F293_monthly_anomaly_public_stats](articles/F293_monthly_anomaly_public_stats) |
-| 011 | 「平均所得ランキング」をそのまま信じていいか？ | [011_income_ranking](articles/011_income_ranking) |
 | 149 | 川や海に比べて、湖だけ環境基準の達成率が低いのはなぜか？ | [149_lake_water_quality](articles/149_lake_water_quality) |
 | 241 | 公的データを使って困ったことは何だったか？ | [241_public_data_troubles](articles/241_public_data_troubles) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
@@ -1097,7 +1080,7 @@
 
 </details>
 
-<details><summary><b>テキスト・ネットワーク・空間</b>（18本）</summary>
+<details><summary><b>テキスト・ネットワーク・空間</b>（17本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1118,7 +1101,6 @@
 | F208 | マンションの値段は地価とどう動き、地価の予測はどこで外れ続けるのか？ | [F208_landprice_series_part2](articles/F208_landprice_series_part2) |
 | F261 | 潜在成長率は、計算の仕方でどれだけ変わるのか？ | [F261_potential_growth_methods](articles/F261_potential_growth_methods) |
 | F269 | 「価格転嫁できた企業」は、どんな企業か？ | [F269_sme_price_passthrough](articles/F269_sme_price_passthrough) |
-| 031 | 鹿児島は焼酎、東京はワイン：家計調査の「お酒の支出」をコレスポンデンス分析で地図にした | [031_alcohol_ca](articles/031_alcohol_ca) |
 
 </details>
 
@@ -1220,7 +1202,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（312本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（154本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1236,165 +1218,7 @@
 | 000 | 女性の労働力率は何で決まる？ | [000_women_labor](articles/000_women_labor) |
 | 001 | 納税者1人あたりの所得は、なぜ街によって違うのか？ | [001_income_municipal](articles/001_income_municipal) |
 | 008 | 人が集まっている街は、所得が高い街か？ | [008_migration_income](articles/008_migration_income) |
-| 009 | 子どもが多く生まれる街は、所得が高い街か？ | [009_births_income](articles/009_births_income) |
-| 010 | 外国人住民が多いのは、どんな市区町村か？ | [010_foreign_residents_income](articles/010_foreign_residents_income) |
-| 012 | 東京23区の中の所得の差は何倍か？ | [012_tokyo23_income](articles/012_tokyo23_income) |
-| 013 | 昼に人が集まる街は、所得が高い街か？ | [013_daynight_income](articles/013_daynight_income) |
-| 014 | ふるさと納税で「赤字」になるのは、どんな街か？ | [014_furusato_balance](articles/014_furusato_balance) |
-| 015 | 財政力が強い町は、住民の所得が高い町か？ | [015_fiscal_strength](articles/015_fiscal_strength) |
-| 016 | 人口あたりの医師が多いのは、どんな市区町村か？ | [016_doctors](articles/016_doctors) |
-| 021 | 福島市の桃は全国の6倍、高知市のかつおは4.5倍：家計調査で「その街らしい食卓」と似た街を探した | [021_prefcapital_food](articles/021_prefcapital_food) |
-| 023 | スマホでゲームや音楽を楽しむ人が多いのは、どの県か？ | [023_games_music_aging](articles/023_games_music_aging) |
-| 024 | ふるさと納税は一部の自治体に集中しているか？ | [024_furusato_concentration](articles/024_furusato_concentration) |
-| 025 | 外国人の宿泊はコロナ前に戻ったか？ | [025_inbound_recovery](articles/025_inbound_recovery) |
-| 026 | 人が転入してくる年に、その県の地価は上がるか？ | [026_migration_landprice_fe](articles/026_migration_landprice_fe) |
-| 027 | YouTube などの動画サイトは誰が見ている？ | [027_video_viewers_age](articles/027_video_viewers_age) |
-| 028 | 動画サイトの利用率、都道府県の差は「誤差」なのか？ | [028_video_usage_funnel](articles/028_video_usage_funnel) |
-| 030 | 通勤時間が長い県は、何の時間を削っているか？ | [030_commute_sleep](articles/030_commute_sleep) |
-| 032 | 人口が2倍の街には、飲食店も2倍あるか？ | [032_scaling_law](articles/032_scaling_law) |
-| 033 | 高校卒業後の進学率、県の差は縮まっているか？ | [033_university_convergence](articles/033_university_convergence) |
-| 034 | テレワークをしたことがある人は6年で4倍に。でも年収・性別・住む県で大きな差（通信利用動向調査） | [034_telework](articles/034_telework) |
-| 035 | 円安は、どれくらい物価を上げるのか？ | [035_yen_prices_var](articles/035_yen_prices_var) |
-| 038 | 築年数と駅からの距離で、マンションはいくら安くなる？ | [038_condo_age_station](articles/038_condo_age_station) |
-| 039 | 駅の利用者はコロナ前に戻ったか？ | [039_station_recovery](articles/039_station_recovery) |
-| 040 | 1年で利用者が半分になった駅は本当か？ | [040_data_breaks](articles/040_data_breaks) |
-| 043 | 2050年に人口が半分未満になる市町村は341。将来推計を「出生・死亡」と「人の移動」に分けてみた | [043_population_2050](articles/043_population_2050) |
-| 046 | 都道府県の年収差は「職種の違い」から来ているのか？ | [046_wage_shiftshare](articles/046_wage_shiftshare) |
-| 047 | 2022年以降、死亡数は「予想」より毎年9万〜13万人多い。ただし予想の作り方で6年の合計は8万〜47万人まで変わる | [047_excess_deaths](articles/047_excess_deaths) |
-| 050 | 子どもはほぼ半分、学校は4分の1減。小学校の数と子どもの数を77年分比べたら、減り方は「時期」で決まっていた | [050_school_closures](articles/050_school_closures) |
-| 051 | 家計の株は「売り越し」なのに400兆円増えた。資金循環統計で、買った分と値上がり分を分けてみた | [051_household_assets](articles/051_household_assets) |
-| 052 | 日本の家計は「値上がりした後に買う」のか？ | [052_household_flows](articles/052_household_flows) |
-| 053 | 東京都の外国人は47年で7倍。国籍ごとの「住む場所の偏り」を非類似度指数で測ったら、多くは小さくなっていた | [053_tokyo_foreign_segregation](articles/053_tokyo_foreign_segregation) |
-| 054 | 東京都の外国人は10年で75%増。区市ごとの伸びの差は「国籍構成」ではなく、ほぼ「地域独自」だった | [054_tokyo_foreign_growth](articles/054_tokyo_foreign_growth) |
-| 057 | 暑さ指数31の日は、25の日の約7倍。熱中症の救急搬送を、6都市10年分の日別データで調べた | [057_wbgt_heatstroke](articles/057_wbgt_heatstroke) |
-| 058 | 「夏の初めほど熱中症になりやすい」はデータで見えるか？ | [058_heatstroke_season](articles/058_heatstroke_season) |
-| 067 | 食中毒は25年でほぼ半減。腸炎ビブリオやサルモネラは激減し、代わりにアニサキスが増え、ノロウイルスは2025年に戻ってき | [067_food_poisoning_trend](articles/067_food_poisoning_trend) |
-| 068 | 食中毒の患者の4分の1は、上位1%の大きな事件から。仕出屋とノロウイルスの事件が大きくなりやすかった | [068_food_poisoning_size](articles/068_food_poisoning_size) |
-| 070 | 台風が最も発達する場所は北へ移ったか。1980年以降の全台風では10年で0.4度北上、強い台風に限るとはっきりしなかった | [070_typhoon_latitude](articles/070_typhoon_latitude) |
-| 076 | とのさまがえるを記録した地点は9割減。ほかの生き物の減少の多くは、観測地点そのものが減った分だった | [076_phenology_animals](articles/076_phenology_animals) |
-| 077 | インフルエンザの流行の山は3シーズン続けて年内に。伝染性紅斑は2025年、マイコプラズマ肺炎は2024年に大きな流行があ | [077_infectious_peaks](articles/077_infectious_peaks) |
-| 078 | インフルエンザの流行は毎シーズン沖縄が先行。本土での広がり方は年ごとに違い、手足口病は南から北へ進んでいた | [078_infectious_onset](articles/078_infectious_onset) |
-| 080 | 引っ越しが距離に左右される度合いは1970年までに弱まり、その後50年ほぼ同じ。東京圏へ向かう割合は西日本や中部で上がり | [080_migration_gravity](articles/080_migration_gravity) |
-| 083 | 1人1日のごみは18年で23%減った。でもリサイクル率は2010年度の20.8%をピークに下がっていた | [083_waste_recycling](articles/083_waste_recycling) |
-| 084 | 町村ほど家庭ごみが多く、都市ほど事業系ごみが多い。合計はほぼ同じで、処理費は1トン6.4万円に上がっていた | [084_waste_cost](articles/084_waste_cost) |
-| 088 | ボーナスは基本給の3倍振れる。2009年は製造業、2020年は宿泊・飲食と娯楽で大きく減った | [088_bonus_volatility](articles/088_bonus_volatility) |
-| 090 | 都道府県の求人倍率の差は50年で縮んだが、2019年から止まった。東京都は働く場所で数えると42位 | [090_job_openings_pref](articles/090_job_openings_pref) |
-| 092 | 木造の割合は43%に戻った。でも住宅以外の木造は8%どまりで、伸びたのは病院・診療所と事務所だった | [092_wooden_nonresidential](articles/092_wooden_nonresidential) |
-| 097 | ドラッグストアの売上は11年で約1.9倍。伸びの中心は食品で、売上の3分の1を超えた | [097_drugstore](articles/097_drugstore) |
-| 098 | 2019年より売上が多いのはスーパーやドラッグストア。でもコロナ前の伸び方には、コンビニとドラッグストアが届いていなかっ | [098_retail_recovery](articles/098_retail_recovery) |
-| 099 | 日本の海面は約40年で10cm上がった。でも120年で見ると、1950年頃にも今と同じくらい高い時期があった | [099_sea_level](articles/099_sea_level) |
-| 100 | 日本近海の海水温は世界平均の約2倍の速さで上がっていた。同じ期間でそろえると2.0倍、最近40年は2.3倍 | [100_sea_temperature](articles/100_sea_temperature) |
-| 101 | 米は1人年114.9kgから53.4kgへ半分以下に。肉は6.6倍、牛乳・乳製品は4.1倍になった60年余り | [101_food_balance](articles/101_food_balance) |
-| 102 | 食料自給率73%→38%の低下、半分強は「米を食べなくなった」など食べるものの変化だった | [102_food_self_sufficiency](articles/102_food_self_sufficiency) |
-| 103 | 大人の1日の歩数は20年で男性7%・女性12%減った。減ったのは20〜60代で、70歳以上はほぼ横ばい | [103_daily_steps](articles/103_daily_steps) |
-| 104 | 睡眠6時間未満は50代で5割に。朝食を抜く40〜50代男性は、若いころから抜いていた世代だった | [104_sleep_breakfast](articles/104_sleep_breakfast) |
-| 108 | 宿泊者数の回復、日本人は29都道府県でまだ2019年以下。外国人は1.6倍でも、京都・東北は日本人が戻らない | [108_accommodation_recovery](articles/108_accommodation_recovery) |
-| 109 | 外国人の入国は羽田と福岡が2019年の1.7倍に。成田の割合は38%から28%へ下がった | [109_immigration_airports](articles/109_immigration_airports) |
-| 111 | 米の収量は涼しい夏に大きく落ちた。暑い夏ではほとんど落ちないが、2000年以降は豊作にもならなくなった | [111_rice_yield_summer](articles/111_rice_yield_summer) |
-| 112 | 米の作付面積は1969年から55%減った。西日本ほど大きく減り、北海道・東北・北陸の割合は48%に | [112_rice_area](articles/112_rice_area) |
-| 113 | さんまはピークの7%、するめいかは3%に。魚種別の漁獲量69年で、減り始めた年と増えた魚を探した | [113_fish_catch](articles/113_fish_catch) |
-| 114 | ブリの漁獲で北海道の割合は2%→12%に。重心は0.8度北へ動いたが、海水温との年ごとの連動は弱かった | [114_yellowtail_north](articles/114_yellowtail_north) |
-| 115 | 狩猟で獲られたクマは年400頭前後。出没が多い年度も増えず、岩手・群馬・福島で4割 | [115_bear_capture](articles/115_bear_capture) |
-| 116 | 獣の捕獲は「狩猟」から「許可」へ。許可による捕獲は24年で9倍、わな猟の免状は銃を上回った | [116_deer_boar_capture](articles/116_deer_boar_capture) |
-| 117 | 生活保護を受ける世帯は2017年度まで増え、その後は横ばい。半分は1人で暮らす高齢の方の世帯になった | [117_public_assistance_households](articles/117_public_assistance_households) |
-| 118 | 生活保護の申請は2020年2月を底に増加。2020年4月は前年より25%多く、都道府県の差は少しずつ縮まった | [118_public_assistance_applications](articles/118_public_assistance_applications) |
-| 119 | 空き家率20%以上の市区町村は159→215に。上がったのは住む人のいる住宅が減った所だった | [119_vacancy_rate](articles/119_vacancy_rate) |
-| 120 | 賃貸用の空き家は大きな市、使い道のない空き家は小さな町に。使い道のない空き家は40年で3.1倍の386万戸 | [120_vacant_rental_unused](articles/120_vacant_rental_unused) |
-| 121 | 子どもの体力は1980〜85年度が最高。その後5%落ちて横ばい、2019年度からもう一段下がった | [121_child_fitness](articles/121_child_fitness) |
-| 122 | いまの70代前半の合計点は、20年前の60代後半とほぼ同じ。ただ握力や片足立ちは届いていない | [122_elderly_fitness](articles/122_elderly_fitness) |
-| 124 | 辞める理由の4分の3は「個人的理由」。女性の結婚・出産による離職は14%から3%に減った | [124_turnover_reasons](articles/124_turnover_reasons) |
-| 125 | 昼夜間人口比率1位は千代田区の1,355。でも30年でほぼ半分に下がり、住む人が増えた | [125_daytime_population](articles/125_daytime_population) |
-| 126 | 副業をする人は年収の低い人と高い人に多いU字型。正規は2.6%、役員・自営業主は9%前後 | [126_side_jobs](articles/126_side_jobs) |
-| 127 | 物価が高い県は13年ずっと東京都。ただ家賃を除くと、2023年から北海道が1位になった | [127_regional_prices](articles/127_regional_prices) |
-| 128 | ピアノは静岡県が100%、眼鏡枠は福井県が92%。1県に生産が集中する製造品は全体の1割 | [128_product_concentration](articles/128_product_concentration) |
-| 129 | 住まいの不満、多いのは断熱・地震・高齢者への配慮。治安への不満は10年で半分に、断熱はほぼ変わらず | [129_housing_satisfaction](articles/129_housing_satisfaction) |
-| 130 | 日本人観光客の日帰りは埼玉99%、和歌山51%。人数では9割が日帰りでも、お金では半分ほど | [130_tourism_daytrip](articles/130_tourism_daytrip) |
-| 131 | 入院患者の平均年齢は60年で36歳から73歳に。4人に3人が65歳以上、それでも年齢ごとの入院は半分に | [131_inpatient_age](articles/131_inpatient_age) |
-| 132 | 高齢者1人あたりの介護給付費は全国31.2万円。大阪府37.6万円、栃木県26.4万円で、差の3分の1は年齢構成で説明で | [132_ltc_benefits](articles/132_ltc_benefits) |
-| 134 | 光化学オキシダントの環境基準は1,137局中1局しか達成していない。原因物質は減ったのに、濃度は上がって横ばい | [134_photochemical_oxidant](articles/134_photochemical_oxidant) |
-| 135 | 竜巻の半分以上は8〜10月。いちばん多いのは9月の昼過ぎで、海の上の竜巻は10月に多かった | [135_tornado](articles/135_tornado) |
-| 136 | 茶畑はピークから4割減。でも10aあたりの荒茶は増え、せん茶が減る一方で番茶と抹茶の原料などは増えていた | [136_tea](articles/136_tea) |
-| 137 | 市区町村の歳出の4割は福祉（民生費）。12年で1.5倍になり、伸びが大きかったのは子どもと障害者福祉など | [137_welfare_spending](articles/137_welfare_spending) |
-| 138 | 刑法犯は2021年までに7割減。減った分の8割は窃盗で、2022年からは自転車盗と詐欺が増えた | [138_crime](articles/138_crime) |
-| 139 | 企業の研究者は12年で7.8万人増えた。増えた分の7割近くは製造業の外で、情報科学の研究者は2.1倍に | [139_researchers](articles/139_researchers) |
-| 142 | エアコンは27年、薄型テレビは7年で広がった。家電と車の普及率のS字と、ピーク後に下がった品目 | [142_durable_goods](articles/142_durable_goods) |
-| 143 | 内部留保は17年で2.2倍の555兆円。現預金の増加はその半分で、大企業では株式などの投資が増えていた | [143_retained_earnings](articles/143_retained_earnings) |
-| 145 | 訪日客の支出は「買物」から「宿泊」へ。中国は買物の割合が51%→37%、欧米は宿泊に4割以上を使っていた | [145_inbound_spending](articles/145_inbound_spending) |
-| 146 | 診療所は15年で6%増。腎臓内科・糖尿病内科・美容外科を掲げる所は2倍以上に、小児科と外科は2割減っていた | [146_clinic_specialties](articles/146_clinic_specialties) |
-| 147 | 通所介護は2015年度まで訪問介護の2倍の速さで増えた。コロナ後は逆転し、訪問介護のほうが伸びていた | [147_home_vs_day_care](articles/147_home_vs_day_care) |
 | 148 | 小学校の先生の年齢構成は、「ふたコブ」からどう変わったか？ | [148_teacher_age](articles/148_teacher_age) |
-| 150 | 黄砂の観測日数は、2000年代から減ったのか？ | [150_yellow_sand](articles/150_yellow_sand) |
-| 151 | 農業経営体は5年で22%減、石川県は36%減。経営主のいちばん多い年齢は70〜74歳になった | [151_farm_decline](articles/151_farm_decline) |
-| 152 | スマホを9割以上が持つのは50代まで。60代は89%に迫り、70代68%・80歳以上33%で大きな段差があった | [152_smartphone_age](articles/152_smartphone_age) |
-| 153 | 平均初婚年齢の上昇は2013〜14年頃に止まった。夫は31.1歳で横ばい、妻は11年で0.3歳だけ上がった | [153_first_marriage_age](articles/153_first_marriage_age) |
-| 154 | 最低賃金の地域差は2014年度をピークに縮まった。最高÷最低は1.31倍から1.18倍に、それでも差額は195円ある | [154_minimum_wage_gap](articles/154_minimum_wage_gap) |
-| 155 | 病床利用率は1〜2月が高い。ただ一番大きいのは12月末の落ち込みで、月末が土日でも約3ポイント下がる | [155_bed_occupancy_season](articles/155_bed_occupancy_season) |
-| 156 | ネット販売の売上比率が高いのは航空運輸業の32%。全体では売上の1.2%で、電子商取引をする企業は4%のままだった | [156_ec_sales_by_industry](articles/156_ec_sales_by_industry) |
-| 157 | よく出される飲み薬は1年で101億錠。子どもはアレルギーの薬が4割、40〜74歳の男性は糖尿病の薬がいちばん多かった | [157_drugs_by_sex_age](articles/157_drugs_by_sex_age) |
-| 158 | サービス産業の売上は2023年3月にコロナ前を回復。宿泊業は2019年の118%まで伸びたが、飲食店は85%のままだった | [158_service_recovery](articles/158_service_recovery) |
-| 159 | 1人あたり医療費は15年で42%増。ただ年齢別では10代が+87%、70代は+5%で、全体の伸びは高齢化によるところが大 | [159_medical_cost_by_age](articles/159_medical_cost_by_age) |
-| 160 | 国内旅行は「日帰り化」していなかった。日帰りの割合は2014年の50%から2025年は46%に下がり、出張の日帰りが特に | [160_daytrip_share](articles/160_daytrip_share) |
-| 161 | 特定健診の受診率は健保組合83%、市町村国保38%。15年で差は29ポイントから45ポイントに広がっていた | [161_health_checkup_rate](articles/161_health_checkup_rate) |
-| 162 | 介護をしながら働く人は5年で18万人増えて365万人に。増えたのは50〜60代で、増加の8割は働く人の年齢構成の変化だっ | [162_working_carers](articles/162_working_carers) |
-| 163 | 調剤医療費の伸び、この5年は半分が薬局の技術料、4割が注射薬。内服薬は日数が3割伸びても1日の値段が2割下がった | [163_dispensing_costs](articles/163_dispensing_costs) |
-| 165 | 人口あたりの看護師は高知が最多で埼玉の2.1倍。上位10県はすべて中国・四国・九州だった | [165_nurses_by_pref](articles/165_nurses_by_pref) |
-| 167 | 医療費の中で割合が最も伸びた病気はがんなどの新生物で13.1%から15.0%に。循環器は20.8%から18.2%に下がっ | [167_medical_cost_by_disease](articles/167_medical_cost_by_disease) |
-| 168 | 産業廃棄物は年3.7億t。電気・水道業、農業、建設業がそれぞれ2割強で、種類では汚泥が42%を占めていた | [168_industrial_waste_by_industry](articles/168_industrial_waste_by_industry) |
-| 169 | 外国人労働者は10年で2.4倍。製造業は1位のまま割合が31%から25%に下がり、医療・福祉は8.4倍、建設業は5.0倍 | [169_foreign_workers_by_industry](articles/169_foreign_workers_by_industry) |
-| 170 | 日本企業の海外現地法人は2021年度にASEANが中国を上回った。中国の現地法人で働く人は9年で4割減った | [170_overseas_affiliates_region](articles/170_overseas_affiliates_region) |
-| 172 | 理容所はピークから26%減、美容所は60年で3.1倍。銭湯は84%減、クリーニングは58%減だった | [172_barber_beauty_salons](articles/172_barber_beauty_salons) |
-| 173 | 家庭の光熱費の内訳で52都市を分けると3タイプ。灯油型の4都市は光熱費が都市ガス型の1.5倍だった | [173_household_energy_types](articles/173_household_energy_types) |
-| 174 | 「3年で3割辞める」大卒は28年中27年で30%以上。高卒は50%から37%に下がり、1年目に辞める割合は減っていた | [174_three_year_turnover](articles/174_three_year_turnover) |
-| 175 | ゴルフ場の利用者は2000年比95でコロナ前並み。ボウリング場は34まで減ったが、それでも2019年までの減り方の延長よ | [175_golf_bowling_users](articles/175_golf_bowling_users) |
-| 176 | コンテナの港ランキングは15年でほとんど動かなかった。上位10港は2012年から同じ顔ぶれで、2024年の量は2019年 | [176_container_ports](articles/176_container_ports) |
-| 177 | 入院する人の割合の県差は、年齢をそろえても2.2倍残る。上位12県のうち10県が九州・四国・山口だった | [177_treatment_rate_age_adjusted](articles/177_treatment_rate_age_adjusted) |
-| 178 | 産業廃棄物の再生利用率は2008年度から52〜55%で横ばい。汚泥を除けば9割近く、紙くずやばいじんは13年で10ポイン | [178_industrial_waste_recycling](articles/178_industrial_waste_recycling) |
-| 179 | 外国人労働者の半分が技能実習の県もある。宮崎・青森・高知は全国の2.5倍で、東京は0.28倍だった | [179_technical_intern_specialization](articles/179_technical_intern_specialization) |
-| 180 | 日本の輸出先、米国の割合は30年で27%から18%台に。中国は5%から17%になり、インドとベトナムが上位10か国に入っ | [180_export_destination_ranking](articles/180_export_destination_ranking) |
-| 181 | 鉄道の定期外はコロナ前を超えたのに、定期は2019年度の87%のまま。5年で約19億人分が戻っていなかった | [181_rail_commuter_recovery](articles/181_rail_commuter_recovery) |
-| 182 | 人口あたりの病床数、最多の高知は神奈川の3倍。上位15のうち14が中国・四国・九州。差は療養と精神の病床で大きかった | [182_hospital_beds_west_east](articles/182_hospital_beds_west_east) |
-| 183 | 日本の温室効果ガスは2013年度から25%減。減った量の37%は産業部門で、鉄鋼だけで16%。業務と家庭も4割近くを占め | [183_ghg_sector_contribution](articles/183_ghg_sector_contribution) |
-| 184 | 大卒の3年以内離職率、5人未満の事業所は58%、1,000人以上は24%。規模が10倍になるごとに約12ポイント下がり、 | [184_turnover_by_firm_size](articles/184_turnover_by_firm_size) |
-| 185 | 売上100億円以上の企業は全体の0.46%なのに、売上の7割を占める。上位1%では約77%、約8割の企業の売上は合わせて | [185_sales_concentration](articles/185_sales_concentration) |
-| 186 | トラックの荷物、運送会社が運ぶ割合は1970年度の24%から67%に。距離をかけると88%で、自家用は平均20km余りの | [186_truck_commercial_share](articles/186_truck_commercial_share) |
-| 187 | 病院の外来患者は2025年も2019年の9割。静岡96から秋田84まで県で差があり、47都道府県のすべてがコロナ前に戻っ | [187_outpatient_recovery_pref](articles/187_outpatient_recovery_pref) |
-| 188 | 塾代のピークは中3で年34万円。通う割合は中3が79%で最も高いが、通う子1人の金額は高3の45万円が最も多い | [188_juku_cost_by_grade](articles/188_juku_cost_by_grade) |
-| 189 | 家庭のCO2は北海道が全国の1.7倍。ただエネルギーが最も少ない沖縄も全国より多く、最少は九州。差を広げるのは電気のつく | [189_household_co2_region](articles/189_household_co2_region) |
-| 190 | 黄砂の観測日は福岡が年7.5日で東京の9.5倍。東京で見えた日の7割は福岡でも観測、ただ最も西の那覇は福岡の半分以下だっ | [190_yellow_sand_stations](articles/190_yellow_sand_stations) |
-| 191 | 野菜の産地はどれだけ集中しているか。ばれいしょは北海道が8割、41品目のうち20品目は上位3県で半分以上だった | [191_vegetable_concentration](articles/191_vegetable_concentration) |
-| 192 | 障害者の実雇用率、大企業と小さな企業の差は12年で縮まらず0.59→0.75ポイントに。法定雇用率が上がる年は大企業ほど | [192_disability_employment_size](articles/192_disability_employment_size) |
-| 193 | 市区町村の稼ぎ頭は製造業が5割。全国では医療・福祉が最大でも、1,741市区町村のうち910で製造業が1位だった | [193_municipal_earning_industry](articles/193_municipal_earning_industry) |
-| 194 | 大きな都市ほど自動車を使わない。人口10倍で分担率は23ポイント低いが、100万都市でも東京23区12%と仙台市50%の | [194_city_size_car_share](articles/194_city_size_car_share) |
-| 195 | 病院は35年で2割減。減った分の8割は100床未満の小さな病院で、150〜199床だけが増えていた | [195_hospital_bed_size](articles/195_hospital_bed_size) |
-| 196 | 女性の小学校長は10年で19%から30%に。石川は58%、島根・長崎は12%で、10年前に女性の教頭が多かった県ほど今の | [196_female_principals](articles/196_female_principals) |
-| 197 | 騒音の苦情で工場は20年で4割減。代わりに建設業が6割増えて、いまは工事の音が騒音の苦情の4割を占める | [197_noise_complaints](articles/197_noise_complaints) |
-| 198 | 日照時間の「晴れの県ランキング」は30年たってもほとんど入れ替わらない。山梨は39年中21年で1位、秋田は34年で下位5 | [198_sunshine_rank](articles/198_sunshine_rank) |
-| 199 | 主要147漁港の水揚げは、上位10港で半分近く。下位半分の73港は合わせて5%で、10年で大きな港への集中が進んだ | [199_fishing_ports](articles/199_fishing_ports) |
-| 200 | 勤務間インターバル制度の導入は1,000人以上の企業で20%、30〜99人は6%。7年で差は4ポイントから14ポイントに | [200_work_interval](articles/200_work_interval) |
-| 201 | サービス業の売上は人数にほぼ比例。人が10倍の事業所は売上11.4倍、ただ葬儀や結婚式場は大きいほど1人あたりが下がる | [201_service_sales_scale](articles/201_service_sales_scale) |
-| 202 | 分譲マンションの年収倍率は2024年度調査まで5倍台、2025年度は6.57倍に。購入資金は1年で37.7%増えた | [202_condo_income_ratio](articles/202_condo_income_ratio) |
-| 203 | 埼玉県の観光客の3分の1は越谷市。上位5市で6割を占め、この割合は15年ほぼ変わらない | [203_saitama_tourism_concentration](articles/203_saitama_tourism_concentration) |
-| 204 | HbA1c 6.5%以上の人は特定健診で7.26%。年齢をそろえても佐賀県8.72%、長野県6.34%と1.38倍の差 | [204_health_checkup_hba1c](articles/204_health_checkup_hba1c) |
-| 205 | 図書館で1人が借りる本は年4.78冊。滋賀県は7.30冊、青森県と秋田県は2.74冊で2.7倍の差 | [205_library_loans](articles/205_library_loans) |
-| 206 | 食品ロスは12年で182万トン減。事業系94万トン、家庭系88万トンとほぼ半々で、外食は2年続けて増加 | [206_food_loss](articles/206_food_loss) |
-| 207 | 紫外線のピークは6月でなく7〜8月。那覇の7月は10.3と札幌の1.7倍 | [207_uv_index](articles/207_uv_index) |
-| 208 | 牛乳の生産は1994年から29%減。ヨーグルトなどのはっ酵乳は5.5倍になり、牛乳の3分の1に | [208_milk_products](articles/208_milk_products) |
-| 209 | 都道府県ランキングの1位は、10年で半分近く入れ替わる。334指標で1位が同じだったのは56% | [209_pref_rank_turnover](articles/209_pref_rank_turnover) |
-| 210 | ストライキは1974年の5,211件から27件に。1976年から年11%ずつ減り、2003年からは年20〜50件台で横ば | [210_strikes](articles/210_strikes) |
-| 211 | 家賃を除いても、物価の地域差は2割しか縮まない。東京都は1位から3位に、北海道が1位に | [211_regional_price_ex_rent](articles/211_regional_price_ex_rent) |
-| 212 | 労働分配率は景気後退期に上がる。14回中13回で上昇し、平均4.1ポイント | [212_labor_share_cycle](articles/212_labor_share_cycle) |
-| 213 | 昭和54年以前のマンションは役員の47%が70歳以上。同じ築年を5年後に見ると、さらに高齢化していた | [213_condo_aging](articles/213_condo_aging) |
-| 215 | 医療費は23年で18兆円増えた。高齢化の分は57%、残りの多くは一人当たり医療費の伸び | [215_medical_cost_aging](articles/215_medical_cost_aging) |
-| 216 | 要介護認定者は2007年度から1.6倍に。増えたのは軽い区分で、要介護5は1.16倍にとどまった | [216_care_levels](articles/216_care_levels) |
-| 217 | 給食の自校方式は神奈川で87%、島根で1%。15年で39都道府県が自校方式の割合を減らした | [217_school_lunch_kitchens](articles/217_school_lunch_kitchens) |
-| 218 | 食品ロスの2030年度目標、家庭系は今のペースなら届く。事業系はここ3年横ばいで、届くかは読み切れない | [218_food_loss_2030](articles/218_food_loss_2030) |
-| 219 | 2025年の梅雨明けは8地方で1951年以降最も早かった。それでも76年で見ると、梅雨明けは早まっていない | [219_baiu_end_trend](articles/219_baiu_end_trend) |
-| 220 | 養豚は1戸2.4頭から2,811頭に。2,000頭以上の経営が頭数の8割を持つが、ジニ係数はむしろ下がった | [220_livestock_scale](articles/220_livestock_scale) |
-| 221 | 理想の子ども数と実際の差は、広がっていなかった。縮んだのは、理想が2.67人から2.25人に下がったから | [221_ideal_vs_actual_children](articles/221_ideal_vs_actual_children) |
-| 222 | 労災でいちばん多いのは転倒で、16年で1.6倍に。60歳以上では死傷の4割が転倒だった | [222_falls_elderly_workers](articles/222_falls_elderly_workers) |
-| 223 | ネットで買う品目の順位は、10年でほとんど入れ替わらなかった。大きく上がったのは出前で、21位から13位に | [223_online_shopping_rank](articles/223_online_shopping_rank) |
-| 225 | 建設工事の受注は、3月にふつうの月の2倍入る。年度末の山をつくっているのは公共工事より民間の非製造業だった | [225_construction_orders_fiscal_yearend](articles/225_construction_orders_fiscal_yearend) |
-| 226 | 円安が大きかった国の訪日客ほど、円で見た支出が増えた。国と年の違いを除くと、円安1%で支出は0.89%増えていた | [226_fx_inbound_spending](articles/226_fx_inbound_spending) |
 | 251 | 結論が逆になったとき、何を見落としていたか？ | [251_conclusion_reversals](articles/251_conclusion_reversals) |
 | 303 | E2E テストの考え方を、データの処理にも使えるか？ | [303_e2e_tests_for_data_pipeline](articles/303_e2e_tests_for_data_pipeline) |
 | 304 | 省エネの窓は、どれだけ広まったのか？ | [304_double_glazing_spread](articles/304_double_glazing_spread) |
@@ -1553,7 +1377,7 @@
 | 保険 | 74 |
 | 公的統計・地域・人口 | 279 |
 
-<details><summary><b>小売・店舗</b>（165本）</summary>
+<details><summary><b>小売・店舗</b>（154本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1591,17 +1415,6 @@
 | F286 | 「物価高で節約」は家計調査のどこに表れているか？ | [F286_household_saving_items](articles/F286_household_saving_items) |
 | F287 | 同じ数字を、経営向けと現場向けでどう書き分けるか？ | [F287_report_two_audiences](articles/F287_report_two_audiences) |
 | F293 | 毎月の数字の「おかしい」を、どう自動で見つけるか？ | [F293_monthly_anomaly_public_stats](articles/F293_monthly_anomaly_public_stats) |
-| 032 | 人口が2倍の街には、飲食店も2倍あるか？ | [032_scaling_law](articles/032_scaling_law) |
-| 097 | ドラッグストアの売上は11年で約1.9倍。伸びの中心は食品で、売上の3分の1を超えた | [097_drugstore](articles/097_drugstore) |
-| 098 | 2019年より売上が多いのはスーパーやドラッグストア。でもコロナ前の伸び方には、コンビニとドラッグストアが届いていなかっ | [098_retail_recovery](articles/098_retail_recovery) |
-| 142 | エアコンは27年、薄型テレビは7年で広がった。家電と車の普及率のS字と、ピーク後に下がった品目 | [142_durable_goods](articles/142_durable_goods) |
-| 156 | ネット販売の売上比率が高いのは航空運輸業の32%。全体では売上の1.2%で、電子商取引をする企業は4%のままだった | [156_ec_sales_by_industry](articles/156_ec_sales_by_industry) |
-| 158 | サービス産業の売上は2023年3月にコロナ前を回復。宿泊業は2019年の118%まで伸びたが、飲食店は85%のままだった | [158_service_recovery](articles/158_service_recovery) |
-| 164 | 学習塾の受講生は2018年から1割減。それでも売上はトレンド通りに伸び、支えたのは1人当たりの受講料だった | [164_juku_sales](articles/164_juku_sales) |
-| 185 | 売上100億円以上の企業は全体の0.46%なのに、売上の7割を占める。上位1%では約77%、約8割の企業の売上は合わせて | [185_sales_concentration](articles/185_sales_concentration) |
-| 191 | 野菜の産地はどれだけ集中しているか。ばれいしょは北海道が8割、41品目のうち20品目は上位3県で半分以上だった | [191_vegetable_concentration](articles/191_vegetable_concentration) |
-| 201 | サービス業の売上は人数にほぼ比例。人が10倍の事業所は売上11.4倍、ただ葬儀や結婚式場は大きいほど1人あたりが下がる | [201_service_sales_scale](articles/201_service_sales_scale) |
-| 223 | ネットで買う品目の順位は、10年でほとんど入れ替わらなかった。大きく上がったのは出前で、21位から13位に | [223_online_shopping_rank](articles/223_online_shopping_rank) |
 | 305 | DAX の CALCULATE は、何をしているのか？ | [305_dax_calculate_filter_context](articles/305_dax_calculate_filter_context) |
 | 315 | 1年分の保険料を、月ごとの売上にどう分けるか？ | [315_sql_earned_premium](articles/315_sql_earned_premium) |
 | 330 | 同じファイルを2回取り込んでも、数字が二重にならない形はどう作るか？ | [330_idempotent_load](articles/330_idempotent_load) |
@@ -1888,7 +1701,7 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（127本）</summary>
+<details><summary><b>業務の集計・報告</b>（126本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1965,7 +1778,6 @@
 | F287 | 同じ数字を、経営向けと現場向けでどう書き分けるか？ | [F287_report_two_audiences](articles/F287_report_two_audiences) |
 | F292 | 南海トラフの被害想定は、人口が変わるとどう動くか？ | [F292_quake_damage_population](articles/F292_quake_damage_population) |
 | F293 | 毎月の数字の「おかしい」を、どう自動で見つけるか？ | [F293_monthly_anomaly_public_stats](articles/F293_monthly_anomaly_public_stats) |
-| 218 | 食品ロスの2030年度目標、家庭系は今のペースなら届く。事業系はここ3年横ばいで、届くかは読み切れない | [218_food_loss_2030](articles/218_food_loss_2030) |
 | 295 | 集計をストアドプロシージャにまとめると、何がうれしいのか？ | [295_stored_procedure_params](articles/295_stored_procedure_params) |
 | 302 | HTML だけで、配れるダッシュボードは作れるか？ | [302_single_html_dashboard](articles/302_single_html_dashboard) |
 | 303 | E2E テストの考え方を、データの処理にも使えるか？ | [303_e2e_tests_for_data_pipeline](articles/303_e2e_tests_for_data_pipeline) |
@@ -2112,7 +1924,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（289本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（250本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2280,48 +2092,6 @@
 | F292 | 南海トラフの被害想定は、人口が変わるとどう動くか？ | [F292_quake_damage_population](articles/F292_quake_damage_population) |
 | F293 | 毎月の数字の「おかしい」を、どう自動で見つけるか？ | [F293_monthly_anomaly_public_stats](articles/F293_monthly_anomaly_public_stats) |
 | F294 | 介護の費用は、2040年度にどこまで増えるのか？ | [F294_care_cost_2040_assumptions](articles/F294_care_cost_2040_assumptions) |
-| 016 | 人口あたりの医師が多いのは、どんな市区町村か？ | [016_doctors](articles/016_doctors) |
-| 022 | 保育所を増やした県で、出生率は上がったか？ | [022_nursery_birthrate_fe](articles/022_nursery_birthrate_fe) |
-| 023 | スマホでゲームや音楽を楽しむ人が多いのは、どの県か？ | [023_games_music_aging](articles/023_games_music_aging) |
-| 025 | 外国人の宿泊はコロナ前に戻ったか？ | [025_inbound_recovery](articles/025_inbound_recovery) |
-| 026 | 人が転入してくる年に、その県の地価は上がるか？ | [026_migration_landprice_fe](articles/026_migration_landprice_fe) |
-| 028 | 動画サイトの利用率、都道府県の差は「誤差」なのか？ | [028_video_usage_funnel](articles/028_video_usage_funnel) |
-| 030 | 通勤時間が長い県は、何の時間を削っているか？ | [030_commute_sleep](articles/030_commute_sleep) |
-| 032 | 人口が2倍の街には、飲食店も2倍あるか？ | [032_scaling_law](articles/032_scaling_law) |
-| 033 | 高校卒業後の進学率、県の差は縮まっているか？ | [033_university_convergence](articles/033_university_convergence) |
-| 034 | テレワークをしたことがある人は6年で4倍に。でも年収・性別・住む県で大きな差（通信利用動向調査） | [034_telework](articles/034_telework) |
-| 035 | 円安は、どれくらい物価を上げるのか？ | [035_yen_prices_var](articles/035_yen_prices_var) |
-| 043 | 2050年に人口が半分未満になる市町村は341。将来推計を「出生・死亡」と「人の移動」に分けてみた | [043_population_2050](articles/043_population_2050) |
-| 044 | 2050年の人口推計は何で決まっているのか？ | [044_population_rf](articles/044_population_rf) |
-| 046 | 都道府県の年収差は「職種の違い」から来ているのか？ | [046_wage_shiftshare](articles/046_wage_shiftshare) |
-| 051 | 家計の株は「売り越し」なのに400兆円増えた。資金循環統計で、買った分と値上がり分を分けてみた | [051_household_assets](articles/051_household_assets) |
-| 090 | 都道府県の求人倍率の差は50年で縮んだが、2019年から止まった。東京都は働く場所で数えると42位 | [090_job_openings_pref](articles/090_job_openings_pref) |
-| 108 | 宿泊者数の回復、日本人は29都道府県でまだ2019年以下。外国人は1.6倍でも、京都・東北は日本人が戻らない | [108_accommodation_recovery](articles/108_accommodation_recovery) |
-| 118 | 生活保護の申請は2020年2月を底に増加。2020年4月は前年より25%多く、都道府県の差は少しずつ縮まった | [118_public_assistance_applications](articles/118_public_assistance_applications) |
-| 125 | 昼夜間人口比率1位は千代田区の1,355。でも30年でほぼ半分に下がり、住む人が増えた | [125_daytime_population](articles/125_daytime_population) |
-| 127 | 物価が高い県は13年ずっと東京都。ただ家賃を除くと、2023年から北海道が1位になった | [127_regional_prices](articles/127_regional_prices) |
-| 128 | ピアノは静岡県が100%、眼鏡枠は福井県が92%。1県に生産が集中する製造品は全体の1割 | [128_product_concentration](articles/128_product_concentration) |
-| 132 | 高齢者1人あたりの介護給付費は全国31.2万円。大阪府37.6万円、栃木県26.4万円で、差の3分の1は年齢構成で説明で | [132_ltc_benefits](articles/132_ltc_benefits) |
-| 151 | 農業経営体は5年で22%減、石川県は36%減。経営主のいちばん多い年齢は70〜74歳になった | [151_farm_decline](articles/151_farm_decline) |
-| 154 | 最低賃金の地域差は2014年度をピークに縮まった。最高÷最低は1.31倍から1.18倍に、それでも差額は195円ある | [154_minimum_wage_gap](articles/154_minimum_wage_gap) |
-| 161 | 特定健診の受診率は健保組合83%、市町村国保38%。15年で差は29ポイントから45ポイントに広がっていた | [161_health_checkup_rate](articles/161_health_checkup_rate) |
-| 165 | 人口あたりの看護師は高知が最多で埼玉の2.1倍。上位10県はすべて中国・四国・九州だった | [165_nurses_by_pref](articles/165_nurses_by_pref) |
-| 177 | 入院する人の割合の県差は、年齢をそろえても2.2倍残る。上位12県のうち10県が九州・四国・山口だった | [177_treatment_rate_age_adjusted](articles/177_treatment_rate_age_adjusted) |
-| 179 | 外国人労働者の半分が技能実習の県もある。宮崎・青森・高知は全国の2.5倍で、東京は0.28倍だった | [179_technical_intern_specialization](articles/179_technical_intern_specialization) |
-| 182 | 人口あたりの病床数、最多の高知は神奈川の3倍。上位15のうち14が中国・四国・九州。差は療養と精神の病床で大きかった | [182_hospital_beds_west_east](articles/182_hospital_beds_west_east) |
-| 187 | 病院の外来患者は2025年も2019年の9割。静岡96から秋田84まで県で差があり、47都道府県のすべてがコロナ前に戻っ | [187_outpatient_recovery_pref](articles/187_outpatient_recovery_pref) |
-| 191 | 野菜の産地はどれだけ集中しているか。ばれいしょは北海道が8割、41品目のうち20品目は上位3県で半分以上だった | [191_vegetable_concentration](articles/191_vegetable_concentration) |
-| 192 | 障害者の実雇用率、大企業と小さな企業の差は12年で縮まらず0.59→0.75ポイントに。法定雇用率が上がる年は大企業ほど | [192_disability_employment_size](articles/192_disability_employment_size) |
-| 194 | 大きな都市ほど自動車を使わない。人口10倍で分担率は23ポイント低いが、100万都市でも東京23区12%と仙台市50%の | [194_city_size_car_share](articles/194_city_size_car_share) |
-| 196 | 女性の小学校長は10年で19%から30%に。石川は58%、島根・長崎は12%で、10年前に女性の教頭が多かった県ほど今の | [196_female_principals](articles/196_female_principals) |
-| 198 | 日照時間の「晴れの県ランキング」は30年たってもほとんど入れ替わらない。山梨は39年中21年で1位、秋田は34年で下位5 | [198_sunshine_rank](articles/198_sunshine_rank) |
-| 203 | 埼玉県の観光客の3分の1は越谷市。上位5市で6割を占め、この割合は15年ほぼ変わらない | [203_saitama_tourism_concentration](articles/203_saitama_tourism_concentration) |
-| 204 | HbA1c 6.5%以上の人は特定健診で7.26%。年齢をそろえても佐賀県8.72%、長野県6.34%と1.38倍の差 | [204_health_checkup_hba1c](articles/204_health_checkup_hba1c) |
-| 205 | 図書館で1人が借りる本は年4.78冊。滋賀県は7.30冊、青森県と秋田県は2.74冊で2.7倍の差 | [205_library_loans](articles/205_library_loans) |
-| 209 | 都道府県ランキングの1位は、10年で半分近く入れ替わる。334指標で1位が同じだったのは56% | [209_pref_rank_turnover](articles/209_pref_rank_turnover) |
-| 211 | 家賃を除いても、物価の地域差は2割しか縮まない。東京都は1位から3位に、北海道が1位に | [211_regional_price_ex_rent](articles/211_regional_price_ex_rent) |
-| 217 | 給食の自校方式は神奈川で87%、島根で1%。15年で39都道府県が自校方式の割合を減らした | [217_school_lunch_kitchens](articles/217_school_lunch_kitchens) |
-| 219 | 2025年の梅雨明けは8地方で1951年以降最も早かった。それでも76年で見ると、梅雨明けは早まっていない | [219_baiu_end_trend](articles/219_baiu_end_trend) |
 | 269 | 「データが取れない」とき、どう代わりを探したか？ | [269_finding_substitute_data](articles/269_finding_substitute_data) |
 | 270 | 市町村の合併を、SQL でどう扱うか？ | [270_sql_municipal_code_scd2](articles/270_sql_municipal_code_scd2) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
@@ -2363,6 +2133,7 @@
 | F311 | 「家賃は上がらない」は本当か？ | [F311_cpi_rent_measurement](articles/F311_cpi_rent_measurement) |
 | F312 | 子育て世帯の教育費の負担は、重くなったのか？ | [F312_education_spending_burden](articles/F312_education_spending_burden) |
 | F313 | 町の小さな店が減ったのは、大きな店に置き換わったからか？ | [F313_small_shops_replacement](articles/F313_small_shops_replacement) |
+| F314 | 日本人の海外旅行は、コロナ前に戻ったのか？ | [F314_outbound_travel_recovery](articles/F314_outbound_travel_recovery) |
 | F315 | 「製造業の国内回帰」は、工場の立地で見えるのか？ | [F315_factory_location_reshoring](articles/F315_factory_location_reshoring) |
 | F316 | 日本の研究者数と研究費は、どの組織で伸びて、どこで止まったのか？ | [F316_rd_by_sector](articles/F316_rd_by_sector) |
 | F317 | 「日本は開業が少ない」は、数え方でどれだけ変わるのか？ | [F317_startup_rate_counting](articles/F317_startup_rate_counting) |
@@ -2373,6 +2144,7 @@
 | F322 | ひとり暮らしが増えたのは、高齢化と未婚化のどちらのせいか？ | [F322_living_alone_aging_vs_unmarried](articles/F322_living_alone_aging_vs_unmarried) |
 | F323 | 通勤時間は長くなったのか、短くなったのか？ | [F323_commute_time_trend](articles/F323_commute_time_trend) |
 | F324 | 「人口が減っても世帯は増える」は、いつまで続くのか？ | [F324_households_vs_population](articles/F324_households_vs_population) |
+| F325 | レジャー・娯楽への支出は、コロナ前に戻ったのか？ | [F325_leisure_services_real_recovery](articles/F325_leisure_services_real_recovery) |
 | F326 | 新築の家は狭くなったのか？ | [F326_new_dwelling_floor_area](articles/F326_new_dwelling_floor_area) |
 | F327 | 「若い世代の持ち家率が下がった」は、世代で追うとどう見えるか？ | [F327_young_homeownership_cohort](articles/F327_young_homeownership_cohort) |
 | F328 | 古い耐震基準の住宅は、どれだけのペースで減っているのか？ | [F328_pre1981_housing_stock](articles/F328_pre1981_housing_stock) |
@@ -2399,6 +2171,7 @@
 | F349 | 水害の被害額は、本当に大きくなったのか？ | [F349_flood_damage_trend](articles/F349_flood_damage_trend) |
 | F350 | 大学院に進む人は、減っているのか？ | [F350_graduate_school_entrants](articles/F350_graduate_school_entrants) |
 | F351 | 教員の採用倍率は、なぜ下がったのか？ | [F351_teacher_hiring_ratio](articles/F351_teacher_hiring_ratio) |
+| F352 | ペットにかける支出は、どれだけ増えたのか？ | [F352_pet_spending_decomposition](articles/F352_pet_spending_decomposition) |
 | F353 | 「平均年収○○万円」は、統計によってどれだけ違うのか？ | [F353_average_income_by_statistic](articles/F353_average_income_by_statistic) |
 | F354 | 失業率と求人倍率は、同じ景気を見ているのか？ | [F354_unemployment_vs_job_ratio](articles/F354_unemployment_vs_job_ratio) |
 | F355 | 名目と実質で、日本の成長の見え方はどれだけ変わるのか？ | [F355_nominal_vs_real_gdp](articles/F355_nominal_vs_real_gdp) |
