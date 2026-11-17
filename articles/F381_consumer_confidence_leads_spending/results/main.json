@@ -1,0 +1,72 @@
+{
+ "H1": "外れ",
+ "H2": "判定できず",
+ "H3": "外れ",
+ "H3_detail": {
+  "best_component": "koyo",
+  "best_t": 1.5302,
+  "kaidoki_rmse_ratio": 1.0144,
+  "kaidoki_t": 1.1056
+ },
+ "H4": "支持",
+ "H4_detail": {
+  "p": 0.9979,
+  "ratio": 1.0211
+ },
+ "big_moves": {
+  "n": 13,
+  "same_sign": 7
+ },
+ "crosscorr": {
+  "best_k": 4,
+  "hi_lead1": 0.2698,
+  "hi_same": 0.3164,
+  "lo_lead1": -0.084,
+  "lo_same": -0.0317,
+  "n_same": 122,
+  "r_lag1": 0.0727,
+  "r_lead1": 0.0959,
+  "r_lead2": -0.0027,
+  "r_same": 0.1469
+ },
+ "granger_main": {
+  "coef_L1": 0.0039,
+  "n": 128,
+  "p": 0.9976,
+  "r2_gain": 0.0,
+  "sum_coef": 0.0049,
+  "t_L1": 0.064
+ },
+ "monthly": {
+  "best_lead": 6,
+  "n_same": 222,
+  "period": "2005-04〜2026-09",
+  "r_best": 0.1684,
+  "r_lead3": 0.1333,
+  "r_lead6": 0.1684,
+  "r_same": 0.1006
+ },
+ "oos_main": {
+  "cw_p_one_sided": 0.6334,
+  "cw_t": -0.3408,
+  "improve_pct": -2.0075,
+  "n": 81,
+  "ratio": 1.0201,
+  "rmse_ar": 1.0487,
+  "rmse_cci": 1.0698
+ },
+ "robust_summary": {
+  "n_cases": 11,
+  "n_p_lt_005": 0,
+  "n_ratio_le_095": 0,
+  "ratio_max": 1.0577,
+  "ratio_min": 1.0008
+ },
+ "sample": {
+  "cci_last": 35.0,
+  "cci_last_month": "2026-10",
+  "oos_start": "2005Q1",
+  "q_first": "1994Q4",
+  "q_last": "2026Q3"
+ }
+}

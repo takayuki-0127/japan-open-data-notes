@@ -1,0 +1,49 @@
+{
+ "2005_2019": {
+  "b_cons": 0.165,
+  "b_infl": -0.4997,
+  "cci_mean": 41.2883,
+  "cons_mean": -0.5739,
+  "infl_mean": 0.4115,
+  "mean_kaidoki": 41.8828,
+  "mean_koyo": 42.7344,
+  "mean_kurashi": 40.0767,
+  "mean_shunyu": 40.4011,
+  "n": 180,
+  "period": "2005-01〜2019-12",
+  "r_cci_cons": 0.1461,
+  "r_cci_infl": -0.1724,
+  "t_cons": 0.6881,
+  "t_infl": -0.8844
+ },
+ "2021_2026": {
+  "b_cons": -0.1284,
+  "b_infl": -0.461,
+  "cci_mean": 35.113,
+  "cons_mean": -0.4362,
+  "infl_mean": 2.5708,
+  "mean_kaidoki": 29.61,
+  "mean_koyo": 38.6643,
+  "mean_kurashi": 33.4957,
+  "mean_shunyu": 38.6371,
+  "n": 69,
+  "period": "2021-01〜2026-09",
+  "r_cci_cons": -0.1466,
+  "r_cci_infl": -0.2705,
+  "t_cons": -1.1964,
+  "t_infl": -1.4092
+ },
+ "all": {
+  "b_cons": 0.2069,
+  "b_infl": -1.1366,
+  "cci_mean": 39.4441,
+  "cons_mean": -0.7244,
+  "infl_mean": 0.9315,
+  "n": 270,
+  "period": "2004-04〜2026-09",
+  "r_cci_cons": 0.1829,
+  "r_cci_infl": -0.3695,
+  "t_cons": 0.8937,
+  "t_infl": -2.3963
+ }
+}

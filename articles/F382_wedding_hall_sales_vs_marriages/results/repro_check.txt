@@ -1,0 +1,2 @@
+2026-11-18 再実行：17 ファイル一致、所要 3 秒（/tmp/rep_F382 に写し、results・figures・data の 02 以降の生成物を消してから src/run_all.sh。results・figures の CSV・JSON・PNG と data の CSV を cmp で比較）
+2026-11-18 独立レビュー後に再実行：17 ファイル一致、所要 3 秒（/tmp/rv_F382 に写し、results・figures の CSV・JSON・PNG と data の中間 CSV を消して src/run_all.sh、元と cmp で比較）

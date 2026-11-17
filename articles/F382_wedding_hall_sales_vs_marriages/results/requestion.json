@@ -1,0 +1,35 @@
+{
+ "2000_2004": {
+  "hhi": 917.399,
+  "n_years": 5,
+  "peak_share": 42.413,
+  "summer_winter_share": 29.081,
+  "unit_off_man": 256.176,
+  "unit_peak_man": 269.116
+ },
+ "2009_2013": {
+  "hhi": 916.067,
+  "n_years": 5,
+  "peak_share": 42.491,
+  "summer_winter_share": 29.831,
+  "unit_off_man": 291.028,
+  "unit_peak_man": 300.96
+ },
+ "2015_2019": {
+  "hhi": 904.121,
+  "n_years": 5,
+  "peak_share": 42.778,
+  "summer_winter_share": 30.153,
+  "unit_off_man": 281.986,
+  "unit_peak_man": 280.717
+ },
+ "2022_2024": {
+  "hhi": 914.397,
+  "n_years": 3,
+  "peak_share": 43.849,
+  "summer_winter_share": 29.701,
+  "unit_off_man": 336.834,
+  "unit_peak_man": 334.235
+ },
+ "peak_share_trend_pt_per_10y": 0.369
+}
