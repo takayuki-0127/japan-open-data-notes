@@ -1,0 +1,61 @@
+{
+ "total_1990": 50.04,
+ "total_2013": 32.77,
+ "total_2024": 27.91,
+ "rice_1990": 13.58,
+ "rice_2023": 13.02,
+ "rice_2024": 11.84,
+ "enteric_1990": 10.55,
+ "enteric_2024": 8.46,
+ "landfill_1990": 11.19,
+ "landfill_2024": 1.45,
+ "share_rice_enteric_1990": 48.2,
+ "share_rice_enteric_2024": 72.7,
+ "share_rice_2024": 42.4,
+ "share_enteric_2024": 30.3,
+ "share_agri_2024": 81.7,
+ "share_landfill_1990": 22.4,
+ "share_landfill_2024": 5.2,
+ "ch4_share_of_ghg_note": "温室効果ガス全体に占めるメタンの割合は 1.Summary シート（F480 と同じ版）で約2.7%（2024年度）",
+ "rice_area_mha_1990": 2.055,
+ "rice_area_mha_2023": 1.344,
+ "rice_area_mha_2024": 1.359,
+ "rice_per_ha_1990": 6.611,
+ "rice_per_ha_2023": 9.688,
+ "cattle_mhead_1990": 4.873,
+ "cattle_mhead_2024": 3.888,
+ "enteric_per_head_1990": 2.166,
+ "enteric_per_head_2024": 2.176,
+ "decline_1990_2024_mt": -22.12,
+ "decline_share_pct": {
+  "稲作": 7.9,
+  "家畜の消化管内発酵": 9.5,
+  "家畜排せつ物の管理": 5.9,
+  "埋立": 44.0,
+  "排水処理": 7.5,
+  "燃料からの漏出（炭鉱など）": 22.7,
+  "燃料の燃焼": 2.5,
+  "その他": -0.0
+ },
+ "total_change_2013_2024_pct": -14.8,
+ "rice_enteric_change_2013_2024_pct": -8.2,
+ "hypotheses": {
+  "H1_rice_per_ha_within_10pct": {
+   "value": 46.6,
+   "result": "外れ"
+  },
+  "H2_enteric_per_head_up_5pct": {
+   "value": 0.5,
+   "result": "外れ"
+  },
+  "H3_corr_ge_0_5": {
+   "value": 0.79,
+   "result": "支持"
+  },
+  "H4_rice_enteric_fell_less": {
+   "total_pct": -14.8,
+   "rice_enteric_pct": -8.2,
+   "result": "支持"
+  }
+ }
+}
