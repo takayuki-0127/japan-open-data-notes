@@ -1,0 +1,10 @@
+{
+ "slope_area_on_pop": 0.342,
+ "intercept": 2.55,
+ "corr_area_pop": 0.454,
+ "n_pref_pop_down_over10": 12,
+ "mean_area_change_in_those": -0.96,
+ "mean_pop_change_in_those": -12.59,
+ "n_pref_pop_up": 7,
+ "mean_area_change_pop_up": 3.53
+}
