@@ -1,0 +1,449 @@
+{
+ "levels": {
+  "2016": {
+   "total": 128055.0,
+   "housing": 41537.0,
+   "nonres": 86518.0,
+   "real_total": 137546.0,
+   "ratio_housing": 0.28,
+   "ratio_nonres": 0.709,
+   "defl_repair": 93.1
+  },
+  "2017": {
+   "total": 124873.0,
+   "housing": 38295.0,
+   "nonres": 86578.0,
+   "real_total": 131584.0,
+   "ratio_housing": 0.265,
+   "ratio_nonres": 0.683,
+   "defl_repair": 94.9
+  },
+  "2018": {
+   "total": 120749.0,
+   "housing": 39150.0,
+   "nonres": 81600.0,
+   "real_total": 123719.0,
+   "ratio_housing": 0.271,
+   "ratio_nonres": 0.657,
+   "defl_repair": 97.6
+  },
+  "2019": {
+   "total": 127394.0,
+   "housing": 34943.0,
+   "nonres": 92451.0,
+   "real_total": 127394.0,
+   "ratio_housing": 0.248,
+   "ratio_nonres": 0.729,
+   "defl_repair": 100.0
+  },
+  "2020": {
+   "total": 106355.0,
+   "housing": 31898.0,
+   "nonres": 74457.0,
+   "real_total": 106355.0,
+   "ratio_housing": 0.246,
+   "ratio_nonres": 0.644,
+   "defl_repair": 100.0
+  },
+  "2021": {
+   "total": 116979.0,
+   "housing": 37477.0,
+   "nonres": 79501.0,
+   "real_total": 112371.0,
+   "ratio_housing": 0.266,
+   "ratio_nonres": 0.65,
+   "defl_repair": 104.1
+  },
+  "2022": {
+   "total": 115545.0,
+   "housing": 39200.0,
+   "nonres": 76344.0,
+   "real_total": 103814.0,
+   "ratio_housing": 0.279,
+   "ratio_nonres": 0.585,
+   "defl_repair": 111.3
+  },
+  "2023": {
+   "total": 132739.0,
+   "housing": 42710.0,
+   "nonres": 90029.0,
+   "real_total": 115525.0,
+   "ratio_housing": 0.294,
+   "ratio_nonres": 0.621,
+   "defl_repair": 114.9
+  },
+  "2024": {
+   "total": 138303.0,
+   "housing": 41318.0,
+   "nonres": 96984.0,
+   "real_total": 115348.0,
+   "ratio_housing": 0.261,
+   "ratio_nonres": 0.666,
+   "defl_repair": 119.9
+  },
+  "2025": {
+   "total": 164104.0,
+   "housing": 49033.0,
+   "nonres": 115071.0,
+   "real_total": 133418.0,
+   "ratio_housing": 0.336,
+   "ratio_nonres": 0.747,
+   "defl_repair": 123.0
+  }
+ },
+ "growth_main": {
+  "nominal_total": 16.45,
+  "real_total": -7.27,
+  "real_housing": -10.86,
+  "real_nonres": -5.59,
+  "nominal_housing": 11.83,
+  "nominal_nonres": 18.61,
+  "starts_housing": 2.83,
+  "starts_nonres": 19.25,
+  "defl_repair": 25.28
+ },
+ "ratio": {
+  "housing0": 0.272,
+  "housing1": 0.297,
+  "nonres0": 0.683,
+  "nonres1": 0.678,
+  "total0": 0.461,
+  "total1": 0.486
+ },
+ "since2011": {
+  "2011": {
+   "total": 85053.0,
+   "real_total": null
+  },
+  "2012": {
+   "total": 90771.0,
+   "real_total": null
+  },
+  "2013": {
+   "total": 110083.0,
+   "real_total": null
+  },
+  "2014": {
+   "total": 99603.0,
+   "real_total": null
+  },
+  "2015": {
+   "total": 119456.0,
+   "real_total": 128447.0
+  },
+  "2016": {
+   "total": 128055.0,
+   "real_total": 137546.0
+  },
+  "2017": {
+   "total": 124873.0,
+   "real_total": 131584.0
+  },
+  "2018": {
+   "total": 120749.0,
+   "real_total": 123719.0
+  },
+  "2019": {
+   "total": 127394.0,
+   "real_total": 127394.0
+  },
+  "2020": {
+   "total": 106355.0,
+   "real_total": 106355.0
+  },
+  "2021": {
+   "total": 116979.0,
+   "real_total": 112371.0
+  },
+  "2022": {
+   "total": 115545.0,
+   "real_total": 103814.0
+  },
+  "2023": {
+   "total": 132739.0,
+   "real_total": 115525.0
+  },
+  "2024": {
+   "total": 138303.0,
+   "real_total": 115348.0
+  },
+  "2025": {
+   "total": 164104.0,
+   "real_total": 133418.0
+  }
+ },
+ "purpose_share": {
+  "住宅": {
+   "その他": {
+    "early": 4.88,
+    "late": 3.56
+   },
+   "アスベスト対策": {
+    "early": 0.02,
+    "late": 0.06
+   },
+   "劣化や壊れた部位の更新･修繕": {
+    "early": 85.67,
+    "late": 86.86
+   },
+   "増床": {
+    "early": 1.73,
+    "late": 0.87
+   },
+   "屋上緑化、壁面緑化": {
+    "early": 0.16,
+    "late": 0.03
+   },
+   "用途変更": {
+    "early": 0.34,
+    "late": 0.32
+   },
+   "省エネルギー対策": {
+    "early": 3.52,
+    "late": 5.81
+   },
+   "耐震性向上": {
+    "early": 1.09,
+    "late": 0.75
+   },
+   "防災･防犯･安全性向上": {
+    "early": 1.16,
+    "late": 0.73
+   },
+   "高齢者･身体障害者対応": {
+    "early": 1.43,
+    "late": 1.01
+   },
+   "_unknown": {
+    "2016": 10.1,
+    "2017": 0.0,
+    "2018": 3.8,
+    "2019": 0.2,
+    "2020": 0.0,
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.0,
+    "2024": 0.0,
+    "2025": 0.0
+   }
+  },
+  "非住宅": {
+   "その他": {
+    "early": 15.85,
+    "late": 11.97
+   },
+   "アスベスト対策": {
+    "early": 0.18,
+    "late": 0.08
+   },
+   "劣化や壊れた部位の更新･修繕": {
+    "early": 66.71,
+    "late": 74.38
+   },
+   "増床": {
+    "early": 6.16,
+    "late": 3.39
+   },
+   "屋上緑化、壁面緑化": {
+    "early": 0.02,
+    "late": 0.01
+   },
+   "用途変更": {
+    "early": 1.63,
+    "late": 1.5
+   },
+   "省エネルギー対策": {
+    "early": 4.88,
+    "late": 5.18
+   },
+   "耐震性向上": {
+    "early": 2.0,
+    "late": 1.55
+   },
+   "防災･防犯･安全性向上": {
+    "early": 1.96,
+    "late": 1.55
+   },
+   "高齢者･身体障害者対応": {
+    "early": 0.62,
+    "late": 0.39
+   },
+   "_unknown": {
+    "2016": 9.4,
+    "2017": 0.0,
+    "2018": 3.1,
+    "2019": 0.0,
+    "2020": 0.0,
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.0,
+    "2024": 0.0,
+    "2025": 0.0
+   }
+  }
+ },
+ "housing_degradation_share_by_year": {
+  "2016": 83.4,
+  "2017": 84.3,
+  "2018": 85.3,
+  "2019": 87.4,
+  "2020": 86.4,
+  "2021": 87.8,
+  "2022": 88.4,
+  "2023": 86.8,
+  "2024": 87.8,
+  "2025": 86.0
+ },
+ "housing_energy_share_by_year": {
+  "2016": 4.39,
+  "2017": 3.67,
+  "2018": 3.87,
+  "2019": 3.02,
+  "2020": 3.28,
+  "2021": 3.88,
+  "2022": 3.54,
+  "2023": 5.44,
+  "2024": 5.35,
+  "2025": 6.63
+ },
+ "housing_energy_amount": {
+  "2016": 2197.0,
+  "2017": 1406.0,
+  "2018": 1457.0,
+  "2019": 1054.0,
+  "2020": 1045.0,
+  "2021": 1455.0,
+  "2022": 1387.0,
+  "2023": 2322.0,
+  "2024": 2209.0,
+  "2025": 3252.0
+ },
+ "robustness": [
+  {
+   "check": "0 主（建築補修デフレーター、2016-18→2023-25、目的は2017-19→2023-25）",
+   "real_total_growth": -7.3,
+   "ratio_housing": "0.272→0.297",
+   "ratio_nonres": "0.683→0.678",
+   "energy_share_change": 2.29
+  },
+  {
+   "check": "1 デフレーターを住宅総合・非住宅総合に替える",
+   "real_total_growth": -6.5,
+   "ratio_housing": "（同じ）",
+   "ratio_nonres": "（同じ）",
+   "energy_share_change": NaN
+  },
+  {
+   "check": "2 単年（2016→2025年度、目的は2017→2025年度）",
+   "real_total_growth": -3.0,
+   "ratio_housing": "0.280→0.336",
+   "ratio_nonres": "0.709→0.747",
+   "energy_share_change": 2.96
+  },
+  {
+   "check": "3a 2020年度を除く（2016-19 と 2023-25 の平均）",
+   "real_total_growth": -6.6,
+   "ratio_housing": "0.266→0.297",
+   "ratio_nonres": "0.695→0.678",
+   "energy_share_change": NaN
+  },
+  {
+   "check": "3b 2025年度を除く（2016-18 と 2022-24 の平均）",
+   "real_total_growth": -14.8,
+   "ratio_housing": "0.272→0.278",
+   "ratio_nonres": "0.683→0.624",
+   "energy_share_change": 1.25
+  },
+  {
+   "check": "4 目的の割合の分母に不明を入れる",
+   "real_total_growth": NaN,
+   "ratio_housing": "—",
+   "ratio_nonres": "—",
+   "energy_share_change": 2.34
+  },
+  {
+   "check": "4b 目的の早い期間に2016年度を入れる（2016-18→2023-25）",
+   "real_total_growth": NaN,
+   "ratio_housing": "—",
+   "ratio_nonres": "—",
+   "energy_share_change": 1.83
+  }
+ ],
+ "requestion_nonres_use": {
+  "事務所": {
+   "growth": 7.2,
+   "real_change": 1367.0,
+   "late_nominal": 23922.0
+  },
+  "飲食店": {
+   "growth": -33.9,
+   "real_change": -852.0,
+   "late_nominal": 1956.0
+  },
+  "物販店舗": {
+   "growth": -20.3,
+   "real_change": -1974.0,
+   "late_nominal": 9105.0
+  },
+  "生産施設（工場、作業場）": {
+   "growth": -5.8,
+   "real_change": -1093.0,
+   "late_nominal": 20879.0
+  },
+  "倉庫・流通施設": {
+   "growth": -15.3,
+   "real_change": -609.0,
+   "late_nominal": 3982.0
+  },
+  "学校の校舎": {
+   "growth": 13.3,
+   "real_change": 939.0,
+   "late_nominal": 9441.0
+  },
+  "医療施設": {
+   "growth": -13.8,
+   "real_change": -624.0,
+   "late_nominal": 4588.0
+  },
+  "宿泊施設": {
+   "growth": 17.6,
+   "real_change": 607.0,
+   "late_nominal": 4800.0
+  },
+  "老人福祉施設": {
+   "growth": 11.5,
+   "real_change": 215.0,
+   "late_nominal": 2472.0
+  },
+  "その他の非住宅建築物": {
+   "growth": -8.7,
+   "real_change": -1565.0,
+   "late_nominal": 19549.0
+  }
+ },
+ "requestion_nonres_total_growth": -4.0,
+ "hypotheses": {
+  "H1": {
+   "value": -7.27,
+   "verdict": "外れ"
+  },
+  "H2": {
+   "value": [
+    0.272,
+    0.297,
+    0.683,
+    0.678
+   ],
+   "verdict": "外れ"
+  },
+  "H3": {
+   "value": 2.29,
+   "verdict": "支持"
+  },
+  "H4": {
+   "value": 84.3,
+   "value_incl2016": 83.4,
+   "verdict": "支持"
+  }
+ }
+}
