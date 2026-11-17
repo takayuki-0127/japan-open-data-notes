@@ -1,0 +1,12 @@
+sector,equity,longbond,shortbond,total
+central_bank,0.0,0.0,0.0,0.0
+general_gov,-0.0003,-0.0616,0.0,-0.0619
+banks,-0.24,-1.5086,1.2135,-0.5351
+trust_banks_own,-0.2587,3.3225,0.0,3.0637
+trust_accounts,-20.8066,12.6875,-0.1173,-8.2365
+securities_firms,1.0812,9.0904,3.6511,13.8224
+life_insurers,0.1848,-2.3503,-1.1455,-3.3108
+nonlife_insurers,-0.0146,-0.0125,0.0,-0.0274
+investment_trusts,18.6806,1.2739,0.5971,20.5512
+others,-0.3997,-6.2352,-2.6523,-9.2871
+all,-1.7731,16.2056,1.546,15.9788

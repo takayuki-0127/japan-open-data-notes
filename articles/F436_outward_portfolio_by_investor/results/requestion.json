@@ -1,0 +1,21 @@
+{
+ "equity_buy_sectors": 19.9466,
+ "equity_sell_sectors": -21.7199,
+ "it_equity": 18.6806,
+ "ta_equity": -20.8066,
+ "ta_longbond": 12.6875,
+ "ta_total": -8.2365,
+ "it_minus_ta": -2.126,
+ "all_equity": -1.7731,
+ "corr_it_ta_2014": -0.1166,
+ "corr_it_ta_2024": 0.1855,
+ "n_months_2014": 154,
+ "it_roll_peak": 12.083,
+ "it_roll_peak_ym": 202610,
+ "it_roll_last": 12.083,
+ "ta_roll_last": -9.876,
+ "all_roll_last": 3.4993,
+ "last_ym": 202610,
+ "ta_equity_sell_months_2024_2025": 21,
+ "it_equity_buy_months_2024_2025": 24
+}
