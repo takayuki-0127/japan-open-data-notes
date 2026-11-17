@@ -1,0 +1,292 @@
+{
+ "period": {
+  "base": "2005-2007平均",
+  "recent": "2023-2025平均"
+ },
+ "national": {
+  "base_units": 212294.7,
+  "recent_units": 100064.7,
+  "change_pct": -52.9,
+  "base_floor_per_unit": 87.8,
+  "recent_floor_per_unit": 71.2
+ },
+ "national_peak_year_1988_2025": 2006,
+ "national_peak_units": 238614,
+ "national_trough_year_after_2008": 2009,
+ "national_trough_units": 76678,
+ "units_2025": 89888,
+ "units_2006": 238614,
+ "metro": {
+  "首都圏": {
+   "base_units": 111254.7,
+   "recent_units": 48013.7,
+   "base_floor_per_unit": 82.5,
+   "recent_floor_per_unit": 68.5,
+   "change_pct": -56.8,
+   "base_share_pct": 52.4,
+   "recent_share_pct": 48.0,
+   "contrib_pct": 56.3
+  },
+  "中部圏": {
+   "base_units": 13180.7,
+   "recent_units": 9704.0,
+   "base_floor_per_unit": 97.4,
+   "recent_floor_per_unit": 65.0,
+   "change_pct": -26.4,
+   "base_share_pct": 6.2,
+   "recent_share_pct": 9.7,
+   "contrib_pct": 3.1
+  },
+  "近畿圏": {
+   "base_units": 40275.0,
+   "recent_units": 22493.0,
+   "base_floor_per_unit": 86.6,
+   "recent_floor_per_unit": 66.7,
+   "change_pct": -44.2,
+   "base_share_pct": 19.0,
+   "recent_share_pct": 22.5,
+   "contrib_pct": 15.8
+  },
+  "地方圏": {
+   "base_units": 47584.3,
+   "recent_units": 19854.0,
+   "base_floor_per_unit": 98.4,
+   "recent_floor_per_unit": 86.1,
+   "change_pct": -58.3,
+   "base_share_pct": 22.4,
+   "recent_share_pct": 19.8,
+   "contrib_pct": 24.7
+  }
+ },
+ "metro3": {
+  "三大都市圏": {
+   "base_units": 164710.3,
+   "recent_units": 80210.7,
+   "base_floor_per_unit": 84.7,
+   "recent_floor_per_unit": 67.6,
+   "change_pct": -51.3,
+   "base_share_pct": 77.6,
+   "recent_share_pct": 80.2,
+   "contrib_pct": 75.3
+  },
+  "地方圏": {
+   "base_units": 47584.3,
+   "recent_units": 19854.0,
+   "base_floor_per_unit": 98.4,
+   "recent_floor_per_unit": 86.1,
+   "change_pct": -58.3,
+   "base_share_pct": 22.4,
+   "recent_share_pct": 19.8,
+   "contrib_pct": 24.7
+  }
+ },
+ "region8": {
+  "北海道": {
+   "base_units": 4598.7,
+   "recent_units": 1456.3,
+   "base_floor_per_unit": 108.4,
+   "recent_floor_per_unit": 86.2,
+   "change_pct": -68.3,
+   "base_share_pct": 2.2,
+   "recent_share_pct": 1.5,
+   "contrib_pct": 2.8
+  },
+  "東北": {
+   "base_units": 4510.0,
+   "recent_units": 1517.3,
+   "base_floor_per_unit": 95.9,
+   "recent_floor_per_unit": 82.9,
+   "change_pct": -66.4,
+   "base_share_pct": 2.1,
+   "recent_share_pct": 1.5,
+   "contrib_pct": 2.7
+  },
+  "関東": {
+   "base_units": 117353.0,
+   "recent_units": 49201.0,
+   "base_floor_per_unit": 83.3,
+   "recent_floor_per_unit": 68.9,
+   "change_pct": -58.1,
+   "base_share_pct": 55.3,
+   "recent_share_pct": 49.2,
+   "contrib_pct": 60.7
+  },
+  "中部": {
+   "base_units": 16241.7,
+   "recent_units": 10485.3,
+   "base_floor_per_unit": 98.5,
+   "recent_floor_per_unit": 67.5,
+   "change_pct": -35.4,
+   "base_share_pct": 7.7,
+   "recent_share_pct": 10.5,
+   "contrib_pct": 5.1
+  },
+  "近畿": {
+   "base_units": 43374.7,
+   "recent_units": 23422.3,
+   "base_floor_per_unit": 87.5,
+   "recent_floor_per_unit": 67.1,
+   "change_pct": -46.0,
+   "base_share_pct": 20.4,
+   "recent_share_pct": 23.4,
+   "contrib_pct": 17.8
+  },
+  "中国": {
+   "base_units": 7704.0,
+   "recent_units": 3828.3,
+   "base_floor_per_unit": 100.8,
+   "recent_floor_per_unit": 85.9,
+   "change_pct": -50.3,
+   "base_share_pct": 3.6,
+   "recent_share_pct": 3.8,
+   "contrib_pct": 3.5
+  },
+  "四国": {
+   "base_units": 2632.7,
+   "recent_units": 1053.7,
+   "base_floor_per_unit": 96.3,
+   "recent_floor_per_unit": 85.8,
+   "change_pct": -60.0,
+   "base_share_pct": 1.2,
+   "recent_share_pct": 1.1,
+   "contrib_pct": 1.4
+  },
+  "九州・沖縄": {
+   "base_units": 15880.0,
+   "recent_units": 9100.3,
+   "base_floor_per_unit": 94.8,
+   "recent_floor_per_unit": 86.7,
+   "change_pct": -42.7,
+   "base_share_pct": 7.5,
+   "recent_share_pct": 9.1,
+   "contrib_pct": 6.0
+  }
+ },
+ "pref_count": {
+  "decreased": {
+   "三大都市圏": 12,
+   "地方圏": 34
+  },
+  "total": {
+   "三大都市圏": 12,
+   "地方圏": 35
+  },
+  "halved_or_more": {
+   "三大都市圏": 9,
+   "地方圏": 24
+  }
+ },
+ "all_housing_change_pct": {
+  "三大都市圏": -31.9,
+  "地方圏": -38.3
+ },
+ "requestion": {
+  "detached_metro": {
+   "首都圏": {
+    "base_units": 65061.0,
+    "recent_units": 54675.3,
+    "change_pct": -16.0
+   },
+   "中部圏": {
+    "base_units": 12241.7,
+    "recent_units": 15390.0,
+    "change_pct": 25.7
+   },
+   "近畿圏": {
+    "base_units": 30965.7,
+    "recent_units": 16537.3,
+    "change_pct": -46.6
+   },
+   "地方圏": {
+    "base_units": 25176.7,
+    "recent_units": 38203.3,
+    "change_pct": 51.7
+   }
+  },
+  "mansion_share_of_bunjo": {
+   "三大都市圏_base": 60.1,
+   "三大都市圏_recent": 47.6,
+   "地方圏_base": 64.8,
+   "地方圏_recent": 34.1
+  }
+ },
+ "robustness": {
+  "0 主：2005〜07年 → 2023〜25年（分譲マンション）": {
+   "全国の変化%": -52.87,
+   "三大都市圏の変化%": -51.3,
+   "地方圏の変化%": -58.28,
+   "首都圏の割合(基準)%": 52.41,
+   "首都圏の割合(直近)%": 47.98,
+   "全国の1戸あたり床面積(基準)": 87.77,
+   "全国の1戸あたり床面積(直近)": 71.25,
+   "三大都市圏の床面積の変化": -17.13,
+   "地方圏の床面積の変化": -12.31
+  },
+  "1a 基準を1994〜96年に": {
+   "全国の変化%": -52.03,
+   "三大都市圏の変化%": -49.45,
+   "地方圏の変化%": -60.23,
+   "首都圏の割合(基準)%": 45.62,
+   "首都圏の割合(直近)%": 47.98,
+   "全国の1戸あたり床面積(基準)": 82.57,
+   "全国の1戸あたり床面積(直近)": 71.25,
+   "三大都市圏の床面積の変化": -13.35,
+   "地方圏の床面積の変化": -1.73
+  },
+  "1b 基準を2013〜15年に": {
+   "全国の変化%": -15.13,
+   "三大都市圏の変化%": -16.38,
+   "地方圏の変化%": -9.71,
+   "首都圏の割合(基準)%": 54.3,
+   "首都圏の割合(直近)%": 47.98,
+   "全国の1戸あたり床面積(基準)": 77.92,
+   "全国の1戸あたり床面積(直近)": 71.25,
+   "三大都市圏の床面積の変化": -6.63,
+   "地方圏の床面積の変化": -8.03
+  },
+  "1c 直近を2025年の1年だけに": {
+   "全国の変化%": -57.66,
+   "三大都市圏の変化%": -56.48,
+   "地方圏の変化%": -61.75,
+   "首都圏の割合(基準)%": 52.41,
+   "首都圏の割合(直近)%": 44.84,
+   "全国の1戸あたり床面積(基準)": 87.77,
+   "全国の1戸あたり床面積(直近)": 72.28,
+   "三大都市圏の床面積の変化": -15.77,
+   "地方圏の床面積の変化": -12.93
+  },
+  "2 定義：分譲の共同住宅すべて（木造なども含む）": {
+   "全国の変化%": -52.5,
+   "三大都市圏の変化%": -50.77,
+   "地方圏の変化%": -58.44,
+   "首都圏の割合(基準)%": 52.41,
+   "首都圏の割合(直近)%": 48.45,
+   "全国の1戸あたり床面積(基準)": 87.49,
+   "全国の1戸あたり床面積(直近)": 70.7,
+   "三大都市圏の床面積の変化": -17.51,
+   "地方圏の床面積の変化": -11.94
+  },
+  "4 東京都を除く（首都圏は埼玉・千葉・神奈川）": {
+   "全国の変化%": -52.33,
+   "三大都市圏の変化%": -49.73,
+   "地方圏の変化%": -58.28,
+   "首都圏の割合(基準)%": 35.35,
+   "首都圏の割合(直近)%": 30.13,
+   "全国の1戸あたり床面積(基準)": 92.57,
+   "全国の1戸あたり床面積(直近)": 71.74,
+   "三大都市圏の床面積の変化": -23.49,
+   "地方圏の床面積の変化": -12.31
+  }
+ },
+ "floor_change_m2": {
+  "全国": -16.5,
+  "三大都市圏": -17.1,
+  "地方圏": -12.3
+ },
+ "hypotheses": {
+  "H1": "支持",
+  "H2": "支持",
+  "H3": "外れ",
+  "H4": "支持"
+ }
+}
