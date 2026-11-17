@@ -1,0 +1,196 @@
+{
+ "H1": {
+  "density_pub_2013": 17.7,
+  "density_pub_2025": 16.0,
+  "part_members_ratio": 1.635
+ },
+ "H2": {
+  "all_unit_change_pt": -1.73,
+  "ft_change_pt": -2.72,
+  "part_change_pt": 2.2
+ },
+ "H3": {
+  "dlog_density": -0.1035,
+  "dlog_employees": 0.1078,
+  "dlog_members": 0.0043,
+  "share_denominator": 1.041
+ },
+ "H4": {
+  "large_1000plus_chg_pct": 12.8,
+  "large_share_private_2013": 63.6,
+  "large_share_private_2025": 68.3,
+  "under1000_chg_pct": -14.01
+ },
+ "counts": {
+  "2013": {
+   "employees_10k": 5571.0,
+   "ft_members": 8907700.0,
+   "part_emp_10k": 1392.0,
+   "part_members": 913911.0,
+   "single_members": 9874895.0,
+   "unit_members": 9821611.0
+  },
+  "2019": {
+   "employees_10k": 6023.0,
+   "ft_members": 8682596.0,
+   "part_emp_10k": 1648.0,
+   "part_members": 1333205.0,
+   "single_members": 10087915.0,
+   "unit_members": 10015801.0
+  },
+  "2025": {
+   "employees_10k": 6205.0,
+   "ft_members": 8369475.0,
+   "part_emp_10k": 1704.0,
+   "part_members": 1494230.0,
+   "single_members": 9926971.0,
+   "unit_members": 9863705.0
+  }
+ },
+ "dec_2013_2019": {
+  "dlog_density": -0.0584,
+  "dlog_employees": 0.078,
+  "dlog_members": 0.0196,
+  "share_denominator": 1.335
+ },
+ "dec_single_2013_2025": {
+  "dlog_density": -0.1025,
+  "dlog_employees": 0.1078,
+  "dlog_members": 0.0053,
+  "share_denominator": 1.051
+ },
+ "employees_2021_2022": [
+  5980.0,
+  6048.0
+ ],
+ "ft_emp_change_pct": 7.71,
+ "ft_members_change_pct": -6.04,
+ "judgement": {
+  "H1": "支持",
+  "H2": "支持",
+  "H3": "支持",
+  "H4": "支持"
+ },
+ "levels": {
+  "2013": {
+   "density_pub": 17.7,
+   "density_unit": 17.63,
+   "ft_density": 21.315,
+   "part_density": 6.565,
+   "part_share_emp": 24.987,
+   "part_share_members": 9.305
+  },
+  "2019": {
+   "density_pub": 16.7,
+   "density_unit": 16.629,
+   "ft_density": 19.846,
+   "part_density": 8.09,
+   "part_share_emp": 27.362,
+   "part_share_members": 13.311
+  },
+  "2025": {
+   "density_pub": 16.0,
+   "density_unit": 15.896,
+   "ft_density": 18.595,
+   "part_density": 8.769,
+   "part_share_emp": 27.462,
+   "part_share_members": 15.149
+  }
+ },
+ "part_emp_change_pct": 22.41,
+ "record_low_pub": {
+  "min": 16.0,
+  "min_year": 2025
+ },
+ "requestion": {
+  "actual_2013": 17.63,
+  "actual_2025": 15.9,
+  "fixed_2025": 16.14,
+  "part_share_emp_2013": 24.99,
+  "part_share_emp_2025": 27.46
+ },
+ "robustness": [
+  {
+   "all_change_pt": -1.73,
+   "check": "主：2013→2025、単位組合員、パート新定義",
+   "ft_change_pt": -2.72,
+   "share_denominator": 1.041
+  },
+  {
+   "all_change_pt": -1.0,
+   "check": "1 期間を2013→2019年に",
+   "ft_change_pt": -1.47,
+   "share_denominator": 1.335
+  },
+  {
+   "all_change_pt": -1.73,
+   "check": "2 公表の組織率（単一組合員）で分解",
+   "ft_change_pt": null,
+   "share_denominator": 1.051
+  },
+  {
+   "all_change_pt": -1.73,
+   "check": "3 パートの雇用者を旧定義（週35時間未満）に",
+   "ft_change_pt": -2.22,
+   "share_denominator": null
+  },
+  {
+   "all_change_pt": -2.44,
+   "check": "3' 旧定義で2010→2025年",
+   "ft_change_pt": -3.1,
+   "share_denominator": 0.912
+  }
+ ],
+ "size": {
+  "1000〜4999人": {
+   "chg_pct": 3.8,
+   "m2013": 2037281.0,
+   "m2025": 2113761.0
+  },
+  "100〜299人": {
+   "chg_pct": -17.1,
+   "m2013": 635320.0,
+   "m2025": 526433.0
+  },
+  "29人以下": {
+   "chg_pct": -35.1,
+   "m2013": 30905.0,
+   "m2025": 20059.0
+  },
+  "300〜499人": {
+   "chg_pct": -14.4,
+   "m2013": 452547.0,
+   "m2025": 387428.0
+  },
+  "30〜99人": {
+   "chg_pct": -24.2,
+   "m2013": 208677.0,
+   "m2025": 158141.0
+  },
+  "5000人以上": {
+   "chg_pct": 18.5,
+   "m2013": 3252489.0,
+   "m2025": 3853025.0
+  },
+  "500〜999人": {
+   "chg_pct": -7.3,
+   "m2013": 734126.0,
+   "m2025": 680604.0
+  },
+  "民営その他": {
+   "chg_pct": 4.1,
+   "m2013": 963101.0,
+   "m2025": 1002471.0
+  },
+  "民営以外": {
+   "chg_pct": -25.6,
+   "m2013": 1507165.0,
+   "m2025": 1121783.0
+  },
+  "民営計": {
+   "chg_pct": 5.1,
+   "m2013": 8314446.0,
+   "m2025": 8741922.0
+  }
+ }
+}
