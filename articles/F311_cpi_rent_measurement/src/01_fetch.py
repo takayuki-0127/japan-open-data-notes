@@ -4,7 +4,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw"; RAW.mkdir(parents=True, exist_ok=True)
 B = "https://www.e-stat.go.jp/stat-search/file-download?statInfId="
 FILES = [
-    ("cpi_item_annual.csv", B + "000040482959&fileKind=1", "総務省「消費者物価指数」2025年基準 全国 品目別価格指数（年平均、1970年〜最新年、CSV）"),
+    ("cpi_item_annual.csv", B + "000040482831&fileKind=1", "総務省「消費者物価指数」2025年基準 全国 品目別価格指数（暦年の年平均、1970年〜最新年、CSV）"),
     ("jutaku2023_t34_1_rent_timeseries.xlsx", B + "000040354072&fileKind=4", "総務省「令和5年住宅・土地統計調査」時系列統計表 第34-1表 住宅の所有の関係別 1か月当たり家賃及び1畳当たり家賃―全国（1973〜2023年）"),
     ("jutaku2023_t27_rent_by_movein_construction.xlsx", B + "000040353891&fileKind=4", "総務省「令和5年住宅・土地統計調査」第27表 入居時期・建築の時期別 借家数、1畳当たり家賃―全国"),
 ]

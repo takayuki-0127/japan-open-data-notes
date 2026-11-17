@@ -36,10 +36,12 @@
 | pop_t10_2024.xlsx | 総務省「人口推計」2024年10月1日 第10表 都道府県，年齢（5歳階級），男女別人口－総人口，日本人人口 | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040268918&fileKind=0 | 01eb89479ecf |
 | boj_usdjpy_monthly.csv | 日本銀行 東京市場 ドル・円 スポット 17時時点／月中平均（FM08 FXERM07） | https://www.stat-search.boj.or.jp/api/v1/getDataCode?format=csv&lang=jp&db=FM08&code=FXERM07&startDate=201001&endDate=202610 | c11ce4c7c094 |
 | boj_reer_monthly.csv | 日本銀行 実効為替レート（実質）指数（FM09 FX180110002） | https://www.stat-search.boj.or.jp/api/v1/getDataCode?format=csv&lang=jp&db=FM09&code=FX180110002&startDate=201001&endDate=202610 | af0882b205cd |
-| cpi_item_annual.csv | 総務省「消費者物価指数」2025年基準 全国 品目別価格指数（年平均） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040482959&fileKind=1 | 7ce020001725 |
+| cpi_item_annual.csv | 総務省「消費者物価指数」2025年基準 全国 品目別価格指数（暦年の年平均） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040482831&fileKind=1 | cfa494f77d7b |
 | cpi_item_monthly.csv | 総務省「消費者物価指数」2025年基準 全国 品目別価格指数（月） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040482945&fileKind=1 | 15c42c311c93 |
 
 - 出入国管理統計の一覧：https://www.e-stat.go.jp/stat-search/files?toukei=00250011&tstat=000001012480
 - 人口推計の一覧：https://www.e-stat.go.jp/stat-search/files?toukei=00200524&tstat=000000090001
 - 日本銀行 時系列統計データ検索サイト：https://www.stat-search.boj.or.jp/
 - e-Stat のファイルは政府標準利用規約（第2.0版）に従い、出典を示して加工して使う。日本銀行の CSV は Shift_JIS。
+
+- 注（2026-11-18 訂正）：cpi_item_annual.csv は、はじめ statInfId=000040482959（品目別価格指数の**年度平均**の表。2025年の総合が100.4）を使っていた。暦年の統計と並べるため、暦年の年平均の表（statInfId=000040482831、2025年の総合が100.0）に取り直した（同じ行・列の並び）。

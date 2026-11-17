@@ -93,10 +93,10 @@
   "50代": 0.6499,
   "60歳以上": 0.6345
  },
- "cpi_all_ratio": 1.1218,
- "cpi_foreign_pack_2019": 63.3,
- "cpi_foreign_pack_2025": 100.2,
- "cpi_foreign_pack_ratio": 1.5829,
+ "cpi_all_ratio": 1.1198,
+ "cpi_foreign_pack_2019": 64.1,
+ "cpi_foreign_pack_2025": 100.0,
+ "cpi_foreign_pack_ratio": 1.5601,
  "decline_share_60plus": 0.1621,
  "decline_share_by_age": {
   "0〜19歳": 0.0874,

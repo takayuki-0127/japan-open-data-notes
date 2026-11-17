@@ -16,7 +16,7 @@ plt.rcParams.update({"font.family": "Noto Sans CJK JP", "font.size": 10, "axes.s
                      "axes.edgecolor": "#52514e", "xtick.color": "#52514e", "ytick.color": "#52514e"})
 C6 = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#6250d6"]
 GRAY, INK2 = "#9a9893", "#52514e"
-SRC_C = "出典：総務省「消費者物価指数」（品目別、年平均）、「住宅・土地統計調査」第34-1表をもとに作成者が加工"
+SRC_C = "出典：総務省「消費者物価指数」（品目別、暦年の年平均）、「住宅・土地統計調査」第34-1表をもとに作成者が加工"
 SRC_J = "出典：総務省「令和5年住宅・土地統計調査」第27表（全国、民営借家）をもとに作成者が加工"
 m = json.loads((RES / "main.json").read_text(encoding="utf-8"))
 q = json.loads((RES / "requestion.json").read_text(encoding="utf-8"))

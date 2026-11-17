@@ -1,1 +1,2 @@
 2026-11-16 再実行：13 ファイル一致、所要 4 秒（独立レビュー。/tmp に写し、results・figures と 02 以降が作る data を消してから src/run_all.sh を流し、cmp で比較。不一致 0）
+2026-11-18 物価指数を暦年の表に直したあとに再実行：/tmp/cpifix/rp/F311_cpi_rent_measurement に写し、results（md・repro_check を除く）・figures・data の中間ファイルを消してから src/run_all.sh を流し、13 ファイルが cmp で一致（不一致 0）、所要 5 秒。

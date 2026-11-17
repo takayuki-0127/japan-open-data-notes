@@ -1,1 +1,2 @@
 2026-11-16 再実行（独立レビュー、/tmp/rv2_F314 で流し直し）：15 ファイル一致（results の CSV・JSON と figures の PNG。ほかに data/ の中間 CSV 5 本も一致）
+2026-11-18 物価指数を暦年の表に直したあとに再実行：/tmp/cpifix/rp/F314_outbound_travel_recovery に写し、results（md・repro_check を除く）・figures・data の中間ファイルを消してから src/run_all.sh を流し、20 ファイルが cmp で一致（不一致 0）、所要 5 秒。
