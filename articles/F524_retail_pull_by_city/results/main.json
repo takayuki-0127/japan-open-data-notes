@@ -1,0 +1,78 @@
+{
+ "n_2021": 1635,
+ "n_missing_2021": 106,
+ "n_missing_2014": 109,
+ "national_per_capita_man_yen": {
+  "2014": 96.2,
+  "2021": 105.8
+ },
+ "over1_pct_2021": 26.4,
+ "over1_n_2021": 431,
+ "median_all_2021": 0.793,
+ "capital_median": {
+  "2014": 1.12,
+  "2021": 1.085
+ },
+ "capital_min_max_2021": [
+  0.704,
+  2.202
+ ],
+ "capital_over1_2021": 38,
+ "capital_down": 29,
+ "capital_chg_median": -0.023,
+ "role_median_2021": {
+  "なし": 0.787,
+  "中心市": 1.063,
+  "周辺市町村": 0.79
+ },
+ "role_over1_2021": {
+  "なし": 27.245,
+  "中心市": 60.87,
+  "周辺市町村": 22.332
+ },
+ "size_median_2021": {
+  "5千人未満": 0.435,
+  "5千〜1万人": 0.563,
+  "1万〜3万人": 0.7,
+  "3万〜10万人": 0.889,
+  "10万〜30万人": 0.957,
+  "30万人以上": 0.972
+ },
+ "size_over1_2021": {
+  "5千人未満": 12.69,
+  "5千〜1万人": 17.031,
+  "1万〜3万人": 22.247,
+  "3万〜10万人": 30.353,
+  "10万〜30万人": 40.609,
+  "30万人以上": 48.837
+ },
+ "hypotheses": {
+  "H1": {
+   "capital_median_2021": 1.085,
+   "verdict": "外れ"
+  },
+  "H2": {
+   "over1_pct_2021": 26.4,
+   "n": 1635,
+   "verdict": "支持"
+  },
+  "H3": {
+   "n_capital_down": 29,
+   "verdict": "支持"
+  },
+  "H4": {
+   "small_median_2021": 0.435,
+   "verdict": "支持"
+  }
+ },
+ "requestion": {
+  "question": "県庁所在市の指数の低下は、販売額のシェアの低下か、人口のシェアの上昇か",
+  "n_down": 29,
+  "n_down_with_pop_share_up": 9,
+  "n_down_with_sales_share_down": 25,
+  "median_pop_share_chg_pct_all": -0.34,
+  "median_sales_share_chg_pct_all": -3.61,
+  "n_pop_share_up_all": 19,
+  "n_store_down": 22
+ }
+}
