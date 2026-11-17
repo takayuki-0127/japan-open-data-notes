@@ -1,0 +1,1 @@
+2026-11-17 再実行：17 ファイル一致（results の CSV・JSON 10、figures の PNG 4、02 が作る data の CSV 3）、所要 7 秒（独立レビュー：/tmp/rvE_F377 に写し、それらを消してから sh src/run_all.sh、cmp で比較）

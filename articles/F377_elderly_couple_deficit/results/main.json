@@ -1,0 +1,237 @@
+{
+ "main_group": "夫65歳以上・妻60歳以上の夫婦一組の無職世帯（高齢夫婦無職世帯）",
+ "y2017": {
+  "実収入": 209198,
+  "実支出": 263718,
+  "消費支出": 235477,
+  "非消費支出": 28240,
+  "不足分": 54520,
+  "集計世帯数": 1546
+ },
+ "deficit_2000": 10251,
+ "deficit_2005": 35455,
+ "deficit_2010": 41192,
+ "deficit_2015": 62326,
+ "deficit_2019": 33270,
+ "deficit_2020": 1541,
+ "deficit_2021": 22106,
+ "deficit_2022": 25855,
+ "deficit_2023": 38959,
+ "deficit_2024": 34400,
+ "deficit_2025": 42622,
+ "deficit_2025_real": 42622,
+ "deficit_max": {
+  "year": 2015,
+  "value": 62326
+ },
+ "deficit_min": {
+  "year": 2020,
+  "value": 1541
+ },
+ "deficit_mean_2000_2025": 40016,
+ "deficit_median_2000_2025": 41999,
+ "years_deficit_ge_50000": [
+  2012,
+  2013,
+  2014,
+  2015,
+  2016,
+  2017
+ ],
+ "n_years_deficit_ge_50000": 6,
+ "sample_households_range": [
+  838,
+  1558
+ ],
+ "head_age_2000": 72.8,
+ "head_age_2025": 76.9,
+ "income_2000": 243526,
+ "pension_2000": 226460,
+ "consumption_2000": 233158,
+ "nonconsumption_2000": 20619,
+ "pension_share_2000_pct": 93.0,
+ "income_2017": 209198,
+ "pension_2017": 191019,
+ "consumption_2017": 235477,
+ "nonconsumption_2017": 28240,
+ "pension_share_2017_pct": 91.3,
+ "income_2025": 257357,
+ "pension_2025": 225024,
+ "consumption_2025": 266164,
+ "nonconsumption_2025": 33815,
+ "pension_share_2025_pct": 87.4,
+ "special_income_2020": 18843,
+ "special_income_2019": 5738,
+ "deficit_regular_2020": 20384,
+ "deficit_yoy_abs_median": 6822,
+ "H1": {
+  "deficit_2017": 54520,
+  "mean_2021_2025": 32788,
+  "diff_2017_minus_mean": 21732,
+  "verdict": "支持"
+ },
+ "H2": {
+  "deficit_2000_2004_real": 37455,
+  "deficit_2021_2025_real": 34799,
+  "change": -2656,
+  "contrib_consumption": -22858,
+  "contrib_nonconsumption": 6255,
+  "contrib_income": 13948,
+  "income_2000_2004_real": 280029,
+  "income_2021_2025_real": 266081,
+  "consumption_2000_2004_real": 289114,
+  "consumption_2021_2025_real": 266257,
+  "pension_2000_2004_real": 259722,
+  "pension_2021_2025_real": 234098,
+  "inc_parts": {
+   "公的年金給付": 25624,
+   "他の社会保障給付": 588,
+   "勤め先・事業収入": -7847,
+   "財産収入": -3568,
+   "特別収入": -985,
+   "その他の収入": 138
+  },
+  "verdict": "外れ"
+ },
+ "H2_nominal": {
+  "change": 1702,
+  "contrib_consumption": 8301,
+  "contrib_nonconsumption": 8701,
+  "contrib_income": -15300,
+  "deficit_2000_2004": 31086,
+  "deficit_2021_2025": 32788
+ },
+ "H3": {
+  "period": "2015-2025",
+  "deficit_mean": 37471,
+  "deposit_net_withdraw_mean": -3476,
+  "shares_pct": {
+   "fill_deposit": -9.3,
+   "fill_insurance": 44.7,
+   "fill_securities": -1.1,
+   "fill_other": 27.4,
+   "fill_cash": 38.2
+  },
+  "verdict": "外れ"
+ },
+ "fill_2000_2014_deposit_share_pct": 81.7,
+ "fill_deposit_share_by_year_min": -2385.7,
+ "fill_deposit_share_by_year_max": 229.9,
+ "H4": {
+  "elder_inc_lt250": {
+   "n_mean": 248,
+   "income": 146066,
+   "consumption": 163322,
+   "deficit": 30337
+  },
+  "elder_inc_250_349": {
+   "n_mean": 670,
+   "income": 206405,
+   "consumption": 210605,
+   "deficit": 27705
+  },
+  "elder_inc_ge350": {
+   "n_mean": 722,
+   "income": 292227,
+   "consumption": 297311,
+   "deficit": 48412
+  },
+  "elder_nojob": {
+   "n_mean": 1639,
+   "income": 236554,
+   "consumption": 243095,
+   "deficit": 37522
+  },
+  "verdict": "支持",
+  "years_ge350_gt_lt250": 23,
+  "years_total": 26
+ },
+ "multiply": {
+  "x30_2017_man": 1963,
+  "x20_2017_man": 1308,
+  "x30_min_man": 55,
+  "x30_max_man": 2244,
+  "x30_min_year": 2020,
+  "x30_max_year": 2015,
+  "x30_2025_man": 1534
+ },
+ "robustness": [
+  {
+   "id": "基本",
+   "condition": "高齢夫婦無職世帯・名目／実質",
+   "H1_2017_minus_recent": 21732.0,
+   "H2_contrib_income": 13948,
+   "H2_contrib_consumption": -22858,
+   "H3_deposit_share_pct": -9.3,
+   "H1_verdict": "支持",
+   "H2_verdict": "外れ",
+   "H3_verdict": "外れ"
+  },
+  {
+   "id": "R1",
+   "condition": "65歳以上の夫婦一組の無職世帯",
+   "H1_2017_minus_recent": 21080.0,
+   "H2_contrib_income": 20908,
+   "H2_contrib_consumption": -18626,
+   "H3_deposit_share_pct": -14.0,
+   "H1_verdict": "支持",
+   "H2_verdict": "支持",
+   "H3_verdict": "外れ"
+  },
+  {
+   "id": "R2",
+   "condition": "名目（物価を引かない）",
+   "H1_2017_minus_recent": 21732.0,
+   "H2_contrib_income": -15300,
+   "H2_contrib_consumption": 8301,
+   "H3_deposit_share_pct": -9.3,
+   "H1_verdict": "支持",
+   "H2_verdict": "外れ",
+   "H3_verdict": "外れ"
+  },
+  {
+   "id": "R3",
+   "condition": "2020〜2021年を除く（2017年 − 2022〜2025年平均）",
+   "H1_2017_minus_recent": 19061.0,
+   "H2_contrib_income": 15495,
+   "H2_contrib_consumption": -21591,
+   "H3_deposit_share_pct": 4.5,
+   "H1_verdict": "支持",
+   "H2_verdict": "外れ",
+   "H3_verdict": "外れ"
+  },
+  {
+   "id": "R4",
+   "condition": "特別収入を除いた不足分（実支出 − 経常収入）",
+   "H1_2017_minus_recent": 18731.0,
+   "H2_contrib_income": 14934,
+   "H2_contrib_consumption": -22858,
+   "H3_deposit_share_pct": NaN,
+   "H1_verdict": "支持",
+   "H2_verdict": "外れ",
+   "H3_verdict": ""
+  },
+  {
+   "id": "R5a",
+   "condition": "比べる期間 2005〜2009 → 2021〜2025",
+   "H1_2017_minus_recent": NaN,
+   "H2_contrib_income": 6620,
+   "H2_contrib_consumption": -22158,
+   "H3_deposit_share_pct": NaN,
+   "H1_verdict": "",
+   "H2_verdict": "外れ",
+   "H3_verdict": ""
+  },
+  {
+   "id": "R5b",
+   "condition": "比べる期間 2000〜2004 → 2023〜2025（2017年 − 2023〜2025年平均）",
+   "H1_2017_minus_recent": 15860.0,
+   "H2_contrib_income": 18406,
+   "H2_contrib_consumption": -21065,
+   "H3_deposit_share_pct": NaN,
+   "H1_verdict": "支持",
+   "H2_verdict": "外れ",
+   "H3_verdict": ""
+  }
+ ]
+}
