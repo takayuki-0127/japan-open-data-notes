@@ -1,0 +1,81 @@
+{
+ "n_rows_fixed_kwh": 11,
+ "n_rows_over_capacity": 72,
+ "gen_twh_2005": 7.09,
+ "gen_twh_2024": 10.457,
+ "gen_growth_pct": 47.5,
+ "tons_mt_2005": 39.79,
+ "tons_mt_2024": 30.84,
+ "tons_change_pct": -22.5,
+ "facilities_2005": 1318,
+ "facilities_2024": 1014,
+ "gen_facilities_2005": 274,
+ "gen_facilities_2024": 410,
+ "share_tons_at_gen_2005": 60.5,
+ "share_tons_at_gen_2024": 80.1,
+ "kwh_per_t_gen_2005": 294.6,
+ "kwh_per_t_gen_2024": 423.3,
+ "kwh_per_t_all_2005": 178.2,
+ "kwh_per_t_all_2024": 339.1,
+ "gen_gw_2005": 1.453,
+ "gen_gw_2024": 2.236,
+ "decomp_pct": {
+  "tons": -65.6,
+  "share_at_gen": 72.3,
+  "kwh_per_t_gen": 93.3
+ },
+ "era_median_kwh_t": {
+  "〜1999年度": 283.85,
+  "2000〜2009年度": 384.25,
+  "2010年度〜": 485.47
+ },
+ "era_count": {
+  "〜1999年度": 125,
+  "2000〜2009年度": 125,
+  "2010年度〜": 160
+ },
+ "big_gen_share_2024": 70.0,
+ "size_gen_share": {
+  "50t/日未満": {
+   "2005": 0.49,
+   "2014": 0.71,
+   "2024": 0.56
+  },
+  "50〜100t/日": {
+   "2005": 4.46,
+   "2014": 6.91,
+   "2024": 21.21
+  },
+  "100〜200t/日": {
+   "2005": 19.42,
+   "2014": 27.07,
+   "2024": 49.6
+  },
+  "200t/日以上": {
+   "2005": 73.76,
+   "2014": 80.49,
+   "2024": 88.03
+  }
+ },
+ "cap_factor_2005": 55.7,
+ "cap_factor_2024": 53.4,
+ "hypotheses": {
+  "H1_kwh_per_t_contrib_ge_100": {
+   "value": 93.3,
+   "result": "外れ"
+  },
+  "H2_new_vs_old_median_ge_1_5": {
+   "value": 1.71,
+   "mean_ratio": 1.79,
+   "result": "支持"
+  },
+  "H3_big_gen_share_ge_75": {
+   "value": 70.0,
+   "result": "外れ"
+  },
+  "H4_cf_rise_lt_5pt": {
+   "value": -2.3,
+   "result": "支持"
+  }
+ }
+}
