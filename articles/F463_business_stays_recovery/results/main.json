@@ -1,0 +1,166 @@
+{
+ "H1": {
+  "ratio_2025_2019": 0.997,
+  "result": "当たり"
+ },
+ "H2": {
+  "plus50": 1.041,
+  "result": "当たり",
+  "total": 1.109,
+  "under50": 0.997
+ },
+ "H3": {
+  "median_ratio": 0.993,
+  "n_below_2019": 27,
+  "n_below_2019_alloc": 19,
+  "result": "当たり"
+ },
+ "H4": {
+  "metro8": 1.01,
+  "metro8_alloc": 1.103,
+  "other39": 0.986,
+  "other39_alloc": 1.062,
+  "result": "外れ"
+ },
+ "national": {
+  "2015": {
+   "plus50_m": 251.31,
+   "total_m": 504.08,
+   "under50_alloc_m": 251.97,
+   "under50_m": 251.16,
+   "unknown_m": 1.61
+  },
+  "2016": {
+   "plus50_m": 247.4,
+   "total_m": 492.49,
+   "under50_alloc_m": 244.94,
+   "under50_m": 244.81,
+   "unknown_m": 0.27
+  },
+  "2017": {
+   "plus50_m": 260.98,
+   "total_m": 509.6,
+   "under50_alloc_m": 248.39,
+   "under50_m": 248.17,
+   "unknown_m": 0.45
+  },
+  "2018": {
+   "plus50_m": 280.78,
+   "total_m": 538.0,
+   "under50_alloc_m": 256.99,
+   "under50_m": 256.78,
+   "unknown_m": 0.43
+  },
+  "2019": {
+   "plus50_m": 312.42,
+   "total_m": 595.92,
+   "under50_alloc_m": 282.37,
+   "under50_m": 281.36,
+   "unknown_m": 2.14
+  },
+  "2022": {
+   "plus50_m": 225.89,
+   "total_m": 450.46,
+   "under50_alloc_m": 223.4,
+   "under50_m": 222.24,
+   "unknown_m": 2.33
+  },
+  "2023": {
+   "plus50_m": 325.97,
+   "total_m": 617.47,
+   "under50_alloc_m": 286.67,
+   "under50_m": 282.47,
+   "unknown_m": 9.03
+  },
+  "2024": {
+   "plus50_m": 319.37,
+   "total_m": 659.06,
+   "under50_alloc_m": 314.59,
+   "under50_m": 291.66,
+   "unknown_m": 48.03
+  },
+  "2025": {
+   "plus50_m": 325.1,
+   "total_m": 661.11,
+   "under50_alloc_m": 306.16,
+   "under50_m": 280.42,
+   "unknown_m": 55.59
+  }
+ },
+ "pre_growth_2015_2019": {
+  "plus50": 1.243,
+  "under50": 1.12
+ },
+ "pref_examples": {
+  "北海道": {
+   "ratio": 1.195,
+   "ratio_alloc": 1.337
+  },
+  "大阪府": {
+   "ratio": 0.995,
+   "ratio_alloc": 1.098
+  },
+  "愛知県": {
+   "ratio": 1.003,
+   "ratio_alloc": 1.075
+  },
+  "東京都": {
+   "ratio": 1.024,
+   "ratio_alloc": 1.112
+  },
+  "沖縄県": {
+   "ratio": 1.107,
+   "ratio_alloc": 1.239
+  },
+  "福岡県": {
+   "ratio": 1.1,
+   "ratio_alloc": 1.192
+  }
+ },
+ "robustness": {
+  "R1_unknown_allocated": {
+   "plus50": 1.132,
+   "under50": 1.084
+  },
+  "R2_end_year": {
+   "2023": {
+    "plus50": 1.043,
+    "under50": 1.004,
+    "under50_alloc": 1.015
+   },
+   "2024": {
+    "plus50": 1.022,
+    "under50": 1.037,
+    "under50_alloc": 1.114
+   }
+  },
+  "R3_base_2018": {
+   "plus50": 1.158,
+   "under50": 1.092
+  },
+  "R4_business_hotel_japanese": {
+   "2019_m": 224.86,
+   "2025_m": 227.97,
+   "city_hotel_japanese_ratio": 0.945,
+   "ratio": 1.014,
+   "ratio_2023": 1.091,
+   "type_unknown_2019_m": 0.25,
+   "type_unknown_2025_m": 51.58
+  },
+  "R5_pref_alloc": {
+   "n_below_2019": 19
+  }
+ },
+ "source": "観光庁「宿泊旅行統計調査」年の確定値 第2表・第4表・第9表",
+ "unknown_share": {
+  "2015": 0.319,
+  "2016": 0.056,
+  "2017": 0.088,
+  "2018": 0.08,
+  "2019": 0.36,
+  "2022": 0.517,
+  "2023": 1.462,
+  "2024": 7.288,
+  "2025": 8.409
+ }
+}
