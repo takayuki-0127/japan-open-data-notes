@@ -1,0 +1,332 @@
+{
+ "national_cross": {
+  "amt_ratio": "2004",
+  "qty_ratio": "2006",
+  "amt_ratio_fresh_fish": "2002",
+  "qty_ratio_fresh_fish": "1991以前"
+ },
+ "national_values": {
+  "2000": {
+   "fish_amt": 67847.0,
+   "meat_amt": 63164.0,
+   "fish_qty": 44188.0,
+   "meat_qty": 41702.0,
+   "amt_ratio": 0.931,
+   "qty_ratio": 0.944
+  },
+  "2005": {
+   "fish_amt": 56018.0,
+   "meat_amt": 59347.0,
+   "fish_qty": 40407.0,
+   "meat_qty": 39916.0,
+   "amt_ratio": 1.059,
+   "qty_ratio": 0.988
+  },
+  "2010": {
+   "fish_amt": 47976.0,
+   "meat_amt": 59543.0,
+   "fish_qty": 33977.0,
+   "meat_qty": 42893.0,
+   "amt_ratio": 1.241,
+   "qty_ratio": 1.262
+  },
+  "2011": {
+   "fish_amt": 45350.0,
+   "meat_amt": 60218.0,
+   "fish_qty": 32065.0,
+   "meat_qty": 43153.0,
+   "amt_ratio": 1.328,
+   "qty_ratio": 1.346
+  },
+  "2012": {
+   "fish_amt": 44546.0,
+   "meat_amt": 58729.0,
+   "fish_qty": 31024.0,
+   "meat_qty": 43807.0,
+   "amt_ratio": 1.318,
+   "qty_ratio": 1.412
+  },
+  "2013": {
+   "fish_amt": 45117.0,
+   "meat_amt": 61968.0,
+   "fish_qty": 30582.0,
+   "meat_qty": 45266.0,
+   "amt_ratio": 1.373,
+   "qty_ratio": 1.48
+  },
+  "2024": {
+   "fish_amt": 40584.0,
+   "meat_amt": 80658.0,
+   "fish_qty": 18125.0,
+   "meat_qty": 50350.0,
+   "amt_ratio": 1.987,
+   "qty_ratio": 2.778
+  },
+  "2025": {
+   "fish_amt": 41089.0,
+   "meat_amt": 83265.0,
+   "fish_qty": 17792.0,
+   "meat_qty": 50618.0,
+   "amt_ratio": 2.026,
+   "qty_ratio": 2.845
+  }
+ },
+ "price_per_100g": {
+  "2000": {
+   "fish": 153.542,
+   "meat": 151.465
+  },
+  "2004": {
+   "fish": 139.925,
+   "meat": 150.877
+  },
+  "2006": {
+   "fish": 143.679,
+   "meat": 148.062
+  },
+  "2010": {
+   "fish": 141.201,
+   "meat": 138.818
+  },
+  "2025": {
+   "fish": 230.941,
+   "meat": 164.497
+  }
+ },
+ "national_1991": {
+  "fish_amt": 80949.0,
+  "meat_amt": 78549.0,
+  "fish_qty": 47517.0,
+  "meat_qty": 44431.0,
+  "amt_ratio": 0.97,
+  "qty_ratio": 0.935
+ },
+ "national_2000_step": {
+  "除く_amt_ratio": 0.934,
+  "含む_amt_ratio": 0.931,
+  "除く_qty_ratio": 0.948,
+  "含む_qty_ratio": 0.944
+ },
+ "H1": {
+  "cross_year_amount": "2004",
+  "result": "外れ"
+ },
+ "H2": {
+  "cross_year_qty": "2006",
+  "gap_years": -2,
+  "result": "外れ"
+ },
+ "H3": {
+  "ratio_70plus_2013": 0.937,
+  "cross_70plus": "2014",
+  "result": "支持"
+ },
+ "H4": {
+  "rise_u29": 0.755,
+  "rise_70plus": 0.445,
+  "result": "外れ"
+ },
+ "rise_amt_2013_2025": {
+  "平均": 0.653,
+  "29歳以下": 0.755,
+  "30〜39歳": 0.864,
+  "40〜49歳": 1.015,
+  "50〜59歳": 0.988,
+  "60〜69歳": 0.701,
+  "70歳以上": 0.445
+ },
+ "rise_qty_2013_2025": {
+  "平均": 1.365,
+  "29歳以下": 2.534,
+  "30〜39歳": 2.131,
+  "40〜49歳": 2.367,
+  "50〜59歳": 2.028,
+  "60〜69歳": 1.372,
+  "70歳以上": 0.78
+ },
+ "crossing_by_age": {
+  "平均": {
+   "amt": "2013以前",
+   "qty": "2013以前",
+   "amt_fresh_fish": "2013以前",
+   "amt_ma3": "2014以前",
+   "amt_2013": 1.373,
+   "amt_2025": 2.026,
+   "qty_2013": 1.48,
+   "qty_2025": 2.845
+  },
+  "29歳以下": {
+   "amt": "2013以前",
+   "qty": "2013以前",
+   "amt_fresh_fish": "2013以前",
+   "amt_ma3": "2014以前",
+   "amt_2013": 2.635,
+   "amt_2025": 3.39,
+   "qty_2013": 3.179,
+   "qty_2025": 5.713
+  },
+  "30〜39歳": {
+   "amt": "2013以前",
+   "qty": "2013以前",
+   "amt_fresh_fish": "2013以前",
+   "amt_ma3": "2014以前",
+   "amt_2013": 2.299,
+   "amt_2025": 3.163,
+   "qty_2013": 2.987,
+   "qty_2025": 5.119
+  },
+  "40〜49歳": {
+   "amt": "2013以前",
+   "qty": "2013以前",
+   "amt_fresh_fish": "2013以前",
+   "amt_ma3": "2014以前",
+   "amt_2013": 2.13,
+   "amt_2025": 3.145,
+   "qty_2013": 2.604,
+   "qty_2025": 4.972
+  },
+  "50〜59歳": {
+   "amt": "2013以前",
+   "qty": "2013以前",
+   "amt_fresh_fish": "2013以前",
+   "amt_ma3": "2014以前",
+   "amt_2013": 1.62,
+   "amt_2025": 2.608,
+   "qty_2013": 1.799,
+   "qty_2025": 3.827
+  },
+  "60〜69歳": {
+   "amt": "2013以前",
+   "qty": "2013以前",
+   "amt_fresh_fish": "2013以前",
+   "amt_ma3": "2014以前",
+   "amt_2013": 1.148,
+   "amt_2025": 1.849,
+   "qty_2013": 1.082,
+   "qty_2025": 2.454
+  },
+  "70歳以上": {
+   "amt": "2014",
+   "qty": "2016",
+   "amt_fresh_fish": "2013以前",
+   "amt_ma3": "2014以前",
+   "amt_2013": 0.937,
+   "amt_2025": 1.382,
+   "qty_2013": 0.881,
+   "qty_2025": 1.661
+  }
+ },
+ "change_2013_2025": {
+  "平均": {
+   "fish_amt_pct": -8.9,
+   "meat_amt_pct": 34.4,
+   "fish_qty_pct": -41.8,
+   "meat_qty_pct": 11.8,
+   "fish_qty_2013": 30582.0,
+   "fish_qty_2025": 17792.0,
+   "meat_qty_2013": 45266.0,
+   "meat_qty_2025": 50618.0
+  },
+  "29歳以下": {
+   "fish_amt_pct": 19.1,
+   "meat_amt_pct": 53.2,
+   "fish_qty_pct": -35.5,
+   "meat_qty_pct": 15.9,
+   "fish_qty_2013": 11565.0,
+   "fish_qty_2025": 7458.0,
+   "meat_qty_2013": 36770.0,
+   "meat_qty_2025": 42608.0
+  },
+  "30〜39歳": {
+   "fish_amt_pct": 14.8,
+   "meat_amt_pct": 57.9,
+   "fish_qty_pct": -30.1,
+   "meat_qty_pct": 19.8,
+   "fish_qty_2013": 15007.0,
+   "fish_qty_2025": 10491.0,
+   "meat_qty_2013": 44833.0,
+   "meat_qty_2025": 53702.0
+  },
+  "40〜49歳": {
+   "fish_amt_pct": -0.5,
+   "meat_amt_pct": 46.9,
+   "fish_qty_pct": -35.6,
+   "meat_qty_pct": 22.9,
+   "fish_qty_2013": 22548.0,
+   "fish_qty_2025": 14518.0,
+   "meat_qty_2013": 58725.0,
+   "meat_qty_2025": 72181.0
+  },
+  "50〜59歳": {
+   "fish_amt_pct": -19.2,
+   "meat_amt_pct": 30.1,
+   "fish_qty_pct": -46.2,
+   "meat_qty_pct": 14.5,
+   "fish_qty_2013": 30183.0,
+   "fish_qty_2025": 16236.0,
+   "meat_qty_2013": 54287.0,
+   "meat_qty_2025": 62134.0
+  },
+  "60〜69歳": {
+   "fish_amt_pct": -24.1,
+   "meat_amt_pct": 22.3,
+   "fish_qty_pct": -53.3,
+   "meat_qty_pct": 6.0,
+   "fish_qty_2013": 39458.0,
+   "fish_qty_2025": 18436.0,
+   "meat_qty_2013": 42678.0,
+   "meat_qty_2025": 45238.0
+  },
+  "70歳以上": {
+   "fish_amt_pct": -6.8,
+   "meat_amt_pct": 37.4,
+   "fish_qty_pct": -39.5,
+   "meat_qty_pct": 14.1,
+   "fish_qty_2013": 36620.0,
+   "fish_qty_2025": 22171.0,
+   "meat_qty_2013": 32279.0,
+   "meat_qty_2025": 36827.0
+  }
+ },
+ "log_rise_amt_2013_2025": {
+  "平均": 38.893,
+  "29歳以下": 25.211,
+  "30〜39歳": 31.893,
+  "40〜49歳": 38.977,
+  "50〜59歳": 47.629,
+  "60〜69歳": 47.64,
+  "70歳以上": 38.81
+ },
+ "cohort_summary": {
+  "amt_ratio_2013": {
+   "cohort_10y": 15.64,
+   "cross_gap": -20.77,
+   "same_age": 36.41
+  },
+  "amt_ratio_2014": {
+   "cohort_10y": 10.98,
+   "cross_gap": -19.98,
+   "same_age": 30.96
+  },
+  "amt_ratio_2015": {
+   "cohort_10y": 8.88,
+   "cross_gap": -19.64,
+   "same_age": 28.53
+  },
+  "qty_ratio_2013": {
+   "cohort_10y": 36.42,
+   "cross_gap": -26.96,
+   "same_age": 63.37
+  },
+  "qty_ratio_2014": {
+   "cohort_10y": 34.47,
+   "cross_gap": -26.59,
+   "same_age": 61.06
+  },
+  "qty_ratio_2015": {
+   "cohort_10y": 35.01,
+   "cross_gap": -23.34,
+   "same_age": 58.35
+  }
+ }
+}

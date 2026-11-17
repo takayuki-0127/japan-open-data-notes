@@ -1,0 +1,26 @@
+file	statInfId	fileKind	bytes	sha256_12	content_disposition
+fies_2013_fish.xls	000025408554	0	100864	0e2505238fd3	attachment; filename*=UTF-8''fn0302.xls
+fies_2013_meat.xls	000025408555	0	82432	6197b61284db	attachment; filename*=UTF-8''fn0303.xls
+fies_2014_fish.xls	000030057504	0	101376	a7da6aec23d1	attachment; filename*=UTF-8''fn0302.xls
+fies_2014_meat.xls	000030057505	0	83456	62b96b987d13	attachment; filename*=UTF-8''fn0303.xls
+fies_2015_fish.xls	000031418115	0	99840	592b8654c4c5	attachment; filename*=UTF-8''fn1002.xls
+fies_2015_meat.xls	000031418116	0	85504	c3bc39c3338f	attachment; filename*=UTF-8''fn1003.xls
+fies_2016_fish.xls	000031586351	0	99840	b82e3a3555da	attachment; filename*=UTF-8''fn1002.xls
+fies_2016_meat.xls	000031586352	0	86016	755121947dde	attachment; filename*=UTF-8''fn1003.xls
+fies_2017_fish.xls	000031705224	0	102400	3c9d4d8ed213	attachment; filename*=UTF-8''fn1002.xls
+fies_2017_meat.xls	000031705225	0	88064	5d1b7e629533	attachment; filename*=UTF-8''fn1003.xls
+fies_2018_fish.xls	000031828435	0	102400	e689935ced35	attachment; filename*=UTF-8''fn1002.xls
+fies_2018_meat.xls	000031828496	0	89600	58aaaa9fa80b	attachment; filename*=UTF-8''fn1003.xls
+fies_2019_fish.xls	000031964787	0	99840	0ad4039cdb76	attachment; filename*=UTF-8''fn0502.xls
+fies_2019_meat.xls	000031964788	0	83968	39fc8d58c9ff	attachment; filename*=UTF-8''fn0503.xls
+fies_2020_fish.xls	000032106562	4	99840	dd396da7842c	attachment; filename*=UTF-8''fn0502.xls
+fies_2020_meat.xls	000032106563	4	81920	9adc6dbee09c	attachment; filename*=UTF-8''fn0503.xls
+fies_2021_fish.xls	000032220969	4	100352	9d5f0de5eeed	attachment; filename*=UTF-8''fn0502.xls
+fies_2021_meat.xls	000032220970	4	81920	24ed4192421d	attachment; filename*=UTF-8''fn0503.xls
+fies_2022_fish.xls	000040079002	4	99328	972a3d919e69	attachment; filename*=UTF-8''fn0502.xls
+fies_2022_meat.xls	000040079003	4	80896	08eac9f345ec	attachment; filename*=UTF-8''fn0503.xls
+fies_2023_fish.xls	000040193332	4	98304	f9f782ef207a	attachment; filename*=UTF-8''fn0502.xls
+fies_2023_meat.xls	000040193333	4	80896	db4df833074a	attachment; filename*=UTF-8''fn0503.xls
+fies_2024_fish.xls	000040297519	4	108544	6575d2885af3	attachment; filename*=UTF-8''fn0502.xls
+fies_2024_meat.xls	000040297520	4	91136	53947df50ed6	attachment; filename*=UTF-8''fn0503.xls
+fies_2025_age_4_6.xlsx	000040409549	0	552180	b9e804f1dc44	attachment; filename*=UTF-8''a406.xlsx
