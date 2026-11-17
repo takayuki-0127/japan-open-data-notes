@@ -1,0 +1,352 @@
+{
+ "years": "2000〜2025",
+ "n_years": 26,
+ "main": {
+  "調理食品": {
+   "mean": 14.317888,
+   "pos_years": 26,
+   "neg_years": 0,
+   "n_years": 26,
+   "elasticity": 0.553619,
+   "adj_mean": 9.624438,
+   "first5_mean": 18.362257,
+   "last5_mean": 7.471147
+  },
+  "一般外食": {
+   "mean": 13.210261,
+   "pos_years": 26,
+   "neg_years": 0,
+   "n_years": 26,
+   "elasticity": 1.496599,
+   "adj_mean": 0.522461,
+   "first5_mean": 16.588995,
+   "last5_mean": 10.892252
+  },
+  "生鮮食品": {
+   "mean": -1.894924,
+   "pos_years": 8,
+   "neg_years": 18,
+   "n_years": 26,
+   "elasticity": 0.603539,
+   "adj_mean": -7.011582,
+   "first5_mean": 2.71733,
+   "last5_mean": -2.708745
+  },
+  "食料": {
+   "mean": 5.1065,
+   "pos_years": 25,
+   "neg_years": 1,
+   "n_years": 26,
+   "elasticity": 0.700662,
+   "adj_mean": -0.833542,
+   "first5_mean": 7.926345,
+   "last5_mean": 2.744103
+  },
+  "主食的調理食品": {
+   "mean": 12.917203,
+   "pos_years": 26,
+   "neg_years": 0,
+   "n_years": 26,
+   "elasticity": 0.567868,
+   "adj_mean": 8.102956,
+   "first5_mean": 17.476541,
+   "last5_mean": 5.703634
+  },
+  "他の調理食品": {
+   "mean": 15.342642,
+   "pos_years": 26,
+   "neg_years": 0,
+   "n_years": 26,
+   "elasticity": 0.542447,
+   "adj_mean": 10.743908,
+   "first5_mean": 18.956017,
+   "last5_mean": 8.812115
+  },
+  "生鮮食品＋牛乳・卵": {
+   "mean": -1.903528,
+   "pos_years": 9,
+   "neg_years": 17,
+   "n_years": 26,
+   "elasticity": 0.5898,
+   "adj_mean": -6.903709,
+   "first5_mean": 2.319836,
+   "last5_mean": -2.589657
+  },
+  "_budget_gap_mean": 8.477754
+ },
+ "H1": {
+  "cooked_mean": 14.317888,
+  "cooked_pos_years": 26,
+  "eatout_mean": 13.210261,
+  "eatout_pos_years": 26,
+  "verdict": "支持"
+ },
+ "H2": {
+  "fresh_mean": -1.894924,
+  "fresh_neg_years": 18,
+  "verdict": "外れ"
+ },
+ "H3": {
+  "cooked_adj_mean": 9.624438,
+  "elasticity": 0.553619,
+  "budget_gap_mean": 8.477754,
+  "eatout_adj_mean": 0.522461,
+  "fresh_adj_mean": -7.011582,
+  "verdict": "支持"
+ },
+ "H4": {
+  "slope_per_10y": -5.628737,
+  "lo": -8.029326,
+  "hi": -3.228148,
+  "verdict": "支持"
+ },
+ "trend_other": {
+  "一般外食": {
+   "slope_per_10y": -2.189587,
+   "lo": -5.91175,
+   "hi": 1.532575
+  },
+  "生鮮食品": {
+   "slope_per_10y": -3.571029,
+   "lo": -5.587997,
+   "hi": -1.55406
+  }
+ },
+ "trend_adj": {
+  "調理食品": {
+   "slope_per_10y": -4.229344,
+   "lo": -6.59184,
+   "hi": -1.866848
+  },
+  "一般外食": {
+   "slope_per_10y": 1.593391,
+   "lo": -1.098692,
+   "hi": 4.285474
+  },
+  "生鮮食品": {
+   "slope_per_10y": -2.045453,
+   "lo": -3.852924,
+   "hi": -0.237981
+  }
+ },
+ "level_2000": {
+  "dual": {
+   "調理食品": 9777.0,
+   "一般外食": 13875.0,
+   "生鮮食品": 17646.0,
+   "食料": 83099.0,
+   "消費支出": 366018.0,
+   "実収入": 641081.0,
+   "世帯主の年齢": 42.5,
+   "集計世帯数": 395.0
+  },
+  "single": {
+   "調理食品": 8440.0,
+   "一般外食": 12241.0,
+   "生鮮食品": 16503.0,
+   "食料": 75939.0,
+   "消費支出": 328206.0,
+   "実収入": 541816.0,
+   "世帯主の年齢": 39.2,
+   "集計世帯数": 661.0
+  }
+ },
+ "level_2025": {
+  "dual": {
+   "調理食品": 13521.0,
+   "一般外食": 20980.0,
+   "生鮮食品": 19426.0,
+   "食料": 102095.0,
+   "消費支出": 372726.0,
+   "実収入": 769263.0,
+   "世帯主の年齢": 43.9,
+   "集計世帯数": 637.0
+  },
+  "single": {
+   "調理食品": 13268.0,
+   "一般外食": 20729.0,
+   "生鮮食品": 20940.0,
+   "食料": 103269.0,
+   "消費支出": 372911.0,
+   "実収入": 700945.0,
+   "世帯主の年齢": 42.9,
+   "集計世帯数": 211.0
+  }
+ },
+ "mean_households": {
+  "dual": 502.269231,
+  "single": 469.538462
+ },
+ "mean_age_gap": 1.723077,
+ "income_gap_mean_pct": 15.213517,
+ "robustness": [
+  {
+   "check": "本線：夫婦と子供2人（消費支出の弾力性・勤労者世帯）",
+   "cooked": 14.317888,
+   "cooked_adj": 9.624438,
+   "eatout": 13.210261,
+   "eatout_adj": 0.522461,
+   "fresh": -1.894924,
+   "fresh_adj": -7.011582,
+   "fresh_milk_egg": -1.903528,
+   "budget_gap": 8.477754
+  },
+  {
+   "check": "夫婦のみの世帯",
+   "cooked": 5.101937,
+   "cooked_adj": 2.213737,
+   "eatout": 29.20772,
+   "eatout_adj": 21.400051,
+   "fresh": -23.621207,
+   "fresh_adj": -26.769835,
+   "fresh_milk_egg": -23.07492,
+   "budget_gap": 5.216941
+  },
+  {
+   "check": "夫婦と子供1人の世帯",
+   "cooked": 16.91184,
+   "cooked_adj": 9.38435,
+   "eatout": 18.568429,
+   "eatout_adj": -1.78063,
+   "fresh": -1.077489,
+   "fresh_adj": -9.283732,
+   "fresh_milk_egg": -1.043527,
+   "budget_gap": 13.596866
+  },
+  {
+   "check": "実収入に対する弾力性でそろえる",
+   "cooked": 14.317888,
+   "cooked_adj": 9.037585,
+   "eatout": 13.210261,
+   "eatout_adj": -1.154361,
+   "fresh": -1.894924,
+   "fresh_adj": -7.687142,
+   "fresh_milk_egg": -1.903528,
+   "budget_gap": 15.213517
+  },
+  {
+   "check": "弾力性を二人以上の世帯（全体）で出す",
+   "cooked": 14.317888,
+   "cooked_adj": 9.995959,
+   "eatout": 13.210261,
+   "eatout_adj": -3.26472,
+   "fresh": -1.894924,
+   "fresh_adj": -4.627893,
+   "fresh_milk_egg": -1.903528,
+   "budget_gap": 8.477754
+  },
+  {
+   "check": "2020・2021年を除く",
+   "cooked": 14.692141,
+   "cooked_adj": 9.966735,
+   "eatout": 12.544157,
+   "eatout_adj": -0.230032,
+   "fresh": -1.636782,
+   "fresh_adj": -6.788278,
+   "fresh_milk_egg": -1.642163,
+   "budget_gap": 8.535478
+  }
+ ],
+ "requestion_wife_income": [
+  {
+   "group": "妻の勤め先収入 月1〜79,999円",
+   "item": "調理食品",
+   "per_person_gap": 0.445546,
+   "adj": 0.243816,
+   "pos_years": 17,
+   "budget_gap": 0.364383,
+   "households_mean": 292.923077
+  },
+  {
+   "group": "妻の勤め先収入 月1〜79,999円",
+   "item": "主食的調理食品",
+   "per_person_gap": -0.072787,
+   "adj": -0.279709,
+   "pos_years": 12,
+   "budget_gap": 0.364383,
+   "households_mean": 292.923077
+  },
+  {
+   "group": "妻の勤め先収入 月1〜79,999円",
+   "item": "他の調理食品",
+   "per_person_gap": 0.830504,
+   "adj": 0.632845,
+   "pos_years": 16,
+   "budget_gap": 0.364383,
+   "households_mean": 292.923077
+  },
+  {
+   "group": "妻の勤め先収入 月1〜79,999円",
+   "item": "一般外食",
+   "per_person_gap": -2.272528,
+   "adj": -2.817864,
+   "pos_years": 9,
+   "budget_gap": 0.364383,
+   "households_mean": 292.923077
+  },
+  {
+   "group": "妻の勤め先収入 月1〜79,999円",
+   "item": "生鮮食品",
+   "per_person_gap": -9.685106,
+   "adj": -9.905026,
+   "pos_years": 0,
+   "budget_gap": 0.364383,
+   "households_mean": 292.923077
+  },
+  {
+   "group": "妻の勤め先収入 月8万円以上",
+   "item": "調理食品",
+   "per_person_gap": 17.162854,
+   "adj": 8.403761,
+   "pos_years": 26,
+   "budget_gap": 15.821504,
+   "households_mean": 846.076923
+  },
+  {
+   "group": "妻の勤め先収入 月8万円以上",
+   "item": "主食的調理食品",
+   "per_person_gap": 19.776825,
+   "adj": 10.792296,
+   "pos_years": 26,
+   "budget_gap": 15.821504,
+   "households_mean": 846.076923
+  },
+  {
+   "group": "妻の勤め先収入 月8万円以上",
+   "item": "他の調理食品",
+   "per_person_gap": 15.237878,
+   "adj": 6.655548,
+   "pos_years": 26,
+   "budget_gap": 15.821504,
+   "households_mean": 846.076923
+  },
+  {
+   "group": "妻の勤め先収入 月8万円以上",
+   "item": "一般外食",
+   "per_person_gap": 30.490364,
+   "adj": 6.811914,
+   "pos_years": 26,
+   "budget_gap": 15.821504,
+   "households_mean": 846.076923
+  },
+  {
+   "group": "妻の勤め先収入 月8万円以上",
+   "item": "生鮮食品",
+   "per_person_gap": -9.308855,
+   "adj": -18.857755,
+   "pos_years": 1,
+   "budget_gap": 15.821504,
+   "households_mean": 846.076923
+  }
+ ],
+ "requestion_cooked_split": {
+  "主食的調理食品": {
+   "mean": 12.917203,
+   "adj_mean": 8.102956
+  },
+  "他の調理食品": {
+   "mean": 15.342642,
+   "adj_mean": 10.743908
+  }
+ }
+}
