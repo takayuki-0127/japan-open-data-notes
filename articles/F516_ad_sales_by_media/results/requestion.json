@@ -1,0 +1,14 @@
+{
+ "internet_gap_years": {
+  "2009": 17.65,
+  "2011": 55.88,
+  "2020": 32.63
+ },
+ "internet_raw_2020": 31.93,
+ "internet_adj_2020": -0.7,
+ "internet_raw_2011": 71.48,
+ "internet_adj_2011": 15.6,
+ "tv_gap_max_abs": 1.84,
+ "internet_cum_raw_2006_last": 13.17,
+ "internet_cum_adj_2006_last": 5.54
+}
