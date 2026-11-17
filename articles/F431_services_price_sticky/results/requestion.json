@@ -1,0 +1,17 @@
+{
+ "sum_contrib": 6.626,
+ "services_change": 6.233,
+ "weight_total": 4965.0,
+ "contrib_public_services": 0.228,
+ "contrib_eating_out": 2.433,
+ "contrib_private_rent": 0.078,
+ "contrib_imputed_rent": 0.411,
+ "contrib_other_services": 3.476,
+ "wshare_public_services": 21.732,
+ "wshare_eating_out": 9.889,
+ "wshare_private_rent": 4.371,
+ "wshare_imputed_rent": 32.91,
+ "wshare_other_services": 31.098,
+ "eating_out_share_of_rise": 36.722,
+ "other_services_share_of_rise": 52.463
+}
