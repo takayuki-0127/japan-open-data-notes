@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 380本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 390本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,12 +10,12 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 127 |
+| 予測・時系列 | 128 |
 | 因果推論・効果検証 | 59 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 289 |
+| 統計の考え方（検定・区間・回帰） | 290 |
 | 機械学習・モデル評価 | 103 |
-| 顧客分析・生存分析 | 63 |
+| 顧客分析・生存分析 | 64 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
 | 集計の定義・KPI | 138 |
@@ -23,9 +23,9 @@
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 222 |
+| その他（記述・要因分解など） | 229 |
 
-<details><summary><b>予測・時系列</b>（127本）</summary>
+<details><summary><b>予測・時系列</b>（128本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -100,6 +100,7 @@
 | F371 | 所定外の労働時間は、生産の動きより先に動くのか？ | [F371_overtime_leads_production](articles/F371_overtime_leads_production) |
 | F374 | 家具やインテリアへの支出は、引っ越しの多い年齢で多いのか？ | [F374_furniture_and_moving_age](articles/F374_furniture_and_moving_age) |
 | F380 | 年金が支給される偶数月に、高齢世帯の消費は増えるのか？ | [F380_pension_month_spending](articles/F380_pension_month_spending) |
+| F381 | 消費者の「暮らし向き」の見通しは、実際の消費を先取りするのか？ | [F381_consumer_confidence_leads_spending](articles/F381_consumer_confidence_leads_spending) |
 | F385 | 「マンションの価格は上がったが、一戸建ては上がっていない」は、不動産価格指数でどう見えるか？ | [F385_house_price_index_by_type](articles/F385_house_price_index_by_type) |
 | F419 | うめの開花は、さくらより速く早まっているのか？ | [F419_ume_vs_sakura_bloom](articles/F419_ume_vs_sakura_bloom) |
 | F420 | 建設業の許可業者は、どの規模でどれだけ減ったのか？ | [F420_construction_permits_by_size](articles/F420_construction_permits_by_size) |
@@ -259,7 +260,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（289本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（290本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -431,6 +432,7 @@
 | F379 | 共働きの世帯は、食事に「時間よりお金」を使っているのか？ | [F379_dual_earner_food_spending](articles/F379_dual_earner_food_spending) |
 | F380 | 年金が支給される偶数月に、高齢世帯の消費は増えるのか？ | [F380_pension_month_spending](articles/F380_pension_month_spending) |
 | F393 | 住宅の建設費は、資材と人件費のどちらで上がったのか？ | [F393_construction_cost_materials_labor](articles/F393_construction_cost_materials_labor) |
+| F405 | 離島の人口は、本土の同じ規模の町より速く減っているのか？ | [F405_remote_island_population](articles/F405_remote_island_population) |
 | F419 | うめの開花は、さくらより速く早まっているのか？ | [F419_ume_vs_sakura_bloom](articles/F419_ume_vs_sakura_bloom) |
 | F422 | 第一次所得収支の黒字は、どれだけ日本に戻ってきているのか？ | [F422_reinvested_earnings_share](articles/F422_reinvested_earnings_share) |
 | F428 | 年ごとの雨の量のばらつきは、大きくなったのか？ | [F428_annual_rain_variability](articles/F428_annual_rain_variability) |
@@ -665,7 +667,7 @@
 
 </details>
 
-<details><summary><b>顧客分析・生存分析</b>（63本）</summary>
+<details><summary><b>顧客分析・生存分析</b>（64本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -680,6 +682,7 @@
 | F246 | 分析担当として最初にやること：KPI を決める（業務の再現：架空の会社で） シリーズ③の1本目。架空の食品スーパー「サン | [F246_kpi_definitions_fictional_retail](articles/F246_kpi_definitions_fictional_retail) |
 | F251 | 販促の効果を測る（業務の再現：架空の会社で） シリーズ③の6本目。F247 の mart の架空の食品スーパー「サンプル | [F251_promo_effect_fictional_retail](articles/F251_promo_effect_fictional_retail) |
 | F264 | 自動車の事故率は、高齢化でどこまで説明できるのか？ | [F264_auto_accident_rate_aging](articles/F264_auto_accident_rate_aging) |
+| F388 | 「住宅は30年で建て替え」は、住宅の残り方で見るとどうか？ | [F388_housing_survival_by_structure](articles/F388_housing_survival_by_structure) |
 | 286 | 予測モデルは、線形回帰と勾配ブースティングのどちらから始めるか？ | [286_linear_vs_gbm_first](articles/286_linear_vs_gbm_first) |
 | 312 | SQL の NULL は、集計をどれだけ黙ってずらすのか？ | [312_sql_null_aggregation](articles/312_sql_null_aggregation) |
 | 326 | 古いシステムから新しいシステムへ移したデータは、何を照合すれば「同じ」と言えるか？ | [326_migration_reconciliation](articles/326_migration_reconciliation) |
@@ -1251,7 +1254,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（222本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（229本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1278,10 +1281,15 @@
 | F370 | 派遣で働く人は、2008年のピークからどこまで減ったのか？ | [F370_dispatched_workers](articles/F370_dispatched_workers) |
 | F372 | 「緑茶からコーヒーへ」は、年齢の違いと世代の違いのどちらで説明できるか？ | [F372_green_tea_coffee_cohort](articles/F372_green_tea_coffee_cohort) |
 | F373 | 「魚より肉」は、いつ逆転し、世帯主の年齢でどう違うのか？ | [F373_fish_vs_meat_by_age](articles/F373_fish_vs_meat_by_age) |
+| F375 | 動画・音楽などデジタルコンテンツへの支出は、年齢でどれだけ違うのか？ | [F375_digital_content_by_age](articles/F375_digital_content_by_age) |
+| F376 | ボーナスの月に、勤労者世帯はどれだけ使い、どれだけ残すのか？ | [F376_bonus_month_spending](articles/F376_bonus_month_spending) |
 | F377 | 「高齢夫婦の毎月の赤字は約5万円」は今も同じか？ | [F377_elderly_couple_deficit](articles/F377_elderly_couple_deficit) |
 | F378 | 勤労者世帯の「こづかい」は、どこまで減ったのか？ | [F378_pocket_money_decline](articles/F378_pocket_money_decline) |
 | F379 | 共働きの世帯は、食事に「時間よりお金」を使っているのか？ | [F379_dual_earner_food_spending](articles/F379_dual_earner_food_spending) |
+| F382 | 結婚式場の売上は、結婚の件数より速く減ったのか？ | [F382_wedding_hall_sales_vs_marriages](articles/F382_wedding_hall_sales_vs_marriages) |
+| F383 | 「服にお金をかけなくなった」は、価格が下がったからか、買う量が減ったからか？ | [F383_clothing_price_vs_volume](articles/F383_clothing_price_vs_volume) |
 | F385 | 「マンションの価格は上がったが、一戸建ては上がっていない」は、不動産価格指数でどう見えるか？ | [F385_house_price_index_by_type](articles/F385_house_price_index_by_type) |
+| F386 | 分譲マンションの建設は、どの地域で減ったのか？ | [F386_condo_starts_by_region](articles/F386_condo_starts_by_region) |
 | F389 | 住宅ローンを返している世帯の負債は、世帯主の年齢でどう変わったのか？ | [F389_housing_debt_by_age](articles/F389_housing_debt_by_age) |
 | F390 | 世帯が持つ「使っていない空き地」は増えているのか？ | [F390_vacant_land_households](articles/F390_vacant_land_households) |
 | F391 | 建物のリフォームの工事は、伸びているのか？ | [F391_renovation_orders](articles/F391_renovation_orders) |
@@ -1299,6 +1307,8 @@
 | F403 | 子どものいる世帯は、全世帯の何割まで減ったのか？ | [F403_households_with_children](articles/F403_households_with_children) |
 | F404 | 地方の人は、札幌・仙台・広島・福岡などの地方中枢都市に集まっているのか？ | [F404_regional_hub_cities](articles/F404_regional_hub_cities) |
 | F406 | 結婚する夫婦の年の差は、縮まったのか？ | [F406_marriage_age_gap](articles/F406_marriage_age_gap) |
+| F407 | 「コンビニは飽和した」は、店の数と1店あたりの売上でどう見えるか？ | [F407_convenience_store_saturation](articles/F407_convenience_store_saturation) |
+| F408 | 百貨店の売上は、訪日客の買物でどこまで戻ったのか？ | [F408_department_store_inbound](articles/F408_department_store_inbound) |
 | F420 | 建設業の許可業者は、どの規模でどれだけ減ったのか？ | [F420_construction_permits_by_size](articles/F420_construction_permits_by_size) |
 | F421 | 「貿易で稼ぐ国から投資で稼ぐ国へ」は、国際収支でいつ起きたのか？ | [F421_trade_vs_income_balance](articles/F421_trade_vs_income_balance) |
 | F422 | 第一次所得収支の黒字は、どれだけ日本に戻ってきているのか？ | [F422_reinvested_earnings_share](articles/F422_reinvested_earnings_share) |
@@ -1485,16 +1495,16 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 159 |
+| 小売・店舗 | 162 |
 | EC・会員・Web | 92 |
 | マーケティング・広告 | 21 |
 | 需要予測・在庫 | 30 |
 | 業務の集計・報告 | 126 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 356 |
+| 公的統計・地域・人口 | 366 |
 
-<details><summary><b>小売・店舗</b>（159本）</summary>
+<details><summary><b>小売・店舗</b>（162本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1536,6 +1546,9 @@
 | F373 | 「魚より肉」は、いつ逆転し、世帯主の年齢でどう違うのか？ | [F373_fish_vs_meat_by_age](articles/F373_fish_vs_meat_by_age) |
 | F374 | 家具やインテリアへの支出は、引っ越しの多い年齢で多いのか？ | [F374_furniture_and_moving_age](articles/F374_furniture_and_moving_age) |
 | F379 | 共働きの世帯は、食事に「時間よりお金」を使っているのか？ | [F379_dual_earner_food_spending](articles/F379_dual_earner_food_spending) |
+| F383 | 「服にお金をかけなくなった」は、価格が下がったからか、買う量が減ったからか？ | [F383_clothing_price_vs_volume](articles/F383_clothing_price_vs_volume) |
+| F407 | 「コンビニは飽和した」は、店の数と1店あたりの売上でどう見えるか？ | [F407_convenience_store_saturation](articles/F407_convenience_store_saturation) |
+| F408 | 百貨店の売上は、訪日客の買物でどこまで戻ったのか？ | [F408_department_store_inbound](articles/F408_department_store_inbound) |
 | F433 | キャベツなど野菜の値段は、天気でどこまで決まるのか？ | [F433_vegetable_price_weather](articles/F433_vegetable_price_weather) |
 | 305 | DAX の CALCULATE は、何をしているのか？ | [305_dax_calculate_filter_context](articles/305_dax_calculate_filter_context) |
 | 315 | 1年分の保険料を、月ごとの売上にどう分けるか？ | [315_sql_earned_premium](articles/315_sql_earned_premium) |
@@ -2047,7 +2060,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（356本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（366本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2292,11 +2305,18 @@
 | F372 | 「緑茶からコーヒーへ」は、年齢の違いと世代の違いのどちらで説明できるか？ | [F372_green_tea_coffee_cohort](articles/F372_green_tea_coffee_cohort) |
 | F373 | 「魚より肉」は、いつ逆転し、世帯主の年齢でどう違うのか？ | [F373_fish_vs_meat_by_age](articles/F373_fish_vs_meat_by_age) |
 | F374 | 家具やインテリアへの支出は、引っ越しの多い年齢で多いのか？ | [F374_furniture_and_moving_age](articles/F374_furniture_and_moving_age) |
+| F375 | 動画・音楽などデジタルコンテンツへの支出は、年齢でどれだけ違うのか？ | [F375_digital_content_by_age](articles/F375_digital_content_by_age) |
+| F376 | ボーナスの月に、勤労者世帯はどれだけ使い、どれだけ残すのか？ | [F376_bonus_month_spending](articles/F376_bonus_month_spending) |
 | F377 | 「高齢夫婦の毎月の赤字は約5万円」は今も同じか？ | [F377_elderly_couple_deficit](articles/F377_elderly_couple_deficit) |
 | F378 | 勤労者世帯の「こづかい」は、どこまで減ったのか？ | [F378_pocket_money_decline](articles/F378_pocket_money_decline) |
 | F379 | 共働きの世帯は、食事に「時間よりお金」を使っているのか？ | [F379_dual_earner_food_spending](articles/F379_dual_earner_food_spending) |
 | F380 | 年金が支給される偶数月に、高齢世帯の消費は増えるのか？ | [F380_pension_month_spending](articles/F380_pension_month_spending) |
+| F381 | 消費者の「暮らし向き」の見通しは、実際の消費を先取りするのか？ | [F381_consumer_confidence_leads_spending](articles/F381_consumer_confidence_leads_spending) |
+| F382 | 結婚式場の売上は、結婚の件数より速く減ったのか？ | [F382_wedding_hall_sales_vs_marriages](articles/F382_wedding_hall_sales_vs_marriages) |
+| F383 | 「服にお金をかけなくなった」は、価格が下がったからか、買う量が減ったからか？ | [F383_clothing_price_vs_volume](articles/F383_clothing_price_vs_volume) |
 | F385 | 「マンションの価格は上がったが、一戸建ては上がっていない」は、不動産価格指数でどう見えるか？ | [F385_house_price_index_by_type](articles/F385_house_price_index_by_type) |
+| F386 | 分譲マンションの建設は、どの地域で減ったのか？ | [F386_condo_starts_by_region](articles/F386_condo_starts_by_region) |
+| F388 | 「住宅は30年で建て替え」は、住宅の残り方で見るとどうか？ | [F388_housing_survival_by_structure](articles/F388_housing_survival_by_structure) |
 | F389 | 住宅ローンを返している世帯の負債は、世帯主の年齢でどう変わったのか？ | [F389_housing_debt_by_age](articles/F389_housing_debt_by_age) |
 | F390 | 世帯が持つ「使っていない空き地」は増えているのか？ | [F390_vacant_land_households](articles/F390_vacant_land_households) |
 | F391 | 建物のリフォームの工事は、伸びているのか？ | [F391_renovation_orders](articles/F391_renovation_orders) |
@@ -2313,7 +2333,10 @@
 | F402 | 人口が減る市町村は、「生まれる人より亡くなる人が多い」のと「出ていく人が多い」のどちらが大きいのか？ | [F402_municipal_natural_social_decline](articles/F402_municipal_natural_social_decline) |
 | F403 | 子どものいる世帯は、全世帯の何割まで減ったのか？ | [F403_households_with_children](articles/F403_households_with_children) |
 | F404 | 地方の人は、札幌・仙台・広島・福岡などの地方中枢都市に集まっているのか？ | [F404_regional_hub_cities](articles/F404_regional_hub_cities) |
+| F405 | 離島の人口は、本土の同じ規模の町より速く減っているのか？ | [F405_remote_island_population](articles/F405_remote_island_population) |
 | F406 | 結婚する夫婦の年の差は、縮まったのか？ | [F406_marriage_age_gap](articles/F406_marriage_age_gap) |
+| F407 | 「コンビニは飽和した」は、店の数と1店あたりの売上でどう見えるか？ | [F407_convenience_store_saturation](articles/F407_convenience_store_saturation) |
+| F408 | 百貨店の売上は、訪日客の買物でどこまで戻ったのか？ | [F408_department_store_inbound](articles/F408_department_store_inbound) |
 | F419 | うめの開花は、さくらより速く早まっているのか？ | [F419_ume_vs_sakura_bloom](articles/F419_ume_vs_sakura_bloom) |
 | F420 | 建設業の許可業者は、どの規模でどれだけ減ったのか？ | [F420_construction_permits_by_size](articles/F420_construction_permits_by_size) |
 | F421 | 「貿易で稼ぐ国から投資で稼ぐ国へ」は、国際収支でいつ起きたのか？ | [F421_trade_vs_income_balance](articles/F421_trade_vs_income_balance) |
