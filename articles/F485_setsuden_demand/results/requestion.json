@@ -1,0 +1,74 @@
+{
+ "by_month": [
+  {
+   "month": "2022-07",
+   "request": 1,
+   "pct": 1.07,
+   "lo": -0.81,
+   "hi": 2.99
+  },
+  {
+   "month": "2022-08",
+   "request": 1,
+   "pct": -0.85,
+   "lo": -3.57,
+   "hi": 1.95
+  },
+  {
+   "month": "2022-09",
+   "request": 1,
+   "pct": -2.77,
+   "lo": -4.32,
+   "hi": -1.19
+  },
+  {
+   "month": "2022-10",
+   "request": 0,
+   "pct": -1.42,
+   "lo": -2.56,
+   "hi": -0.27
+  },
+  {
+   "month": "2022-11",
+   "request": 0,
+   "pct": -2.33,
+   "lo": -4.06,
+   "hi": -0.57
+  },
+  {
+   "month": "2022-12",
+   "request": 1,
+   "pct": -0.75,
+   "lo": -2.99,
+   "hi": 1.53
+  },
+  {
+   "month": "2023-01",
+   "request": 1,
+   "pct": -0.97,
+   "lo": -4.47,
+   "hi": 2.66
+  },
+  {
+   "month": "2023-02",
+   "request": 1,
+   "pct": -1.51,
+   "lo": -3.88,
+   "hi": 0.91
+  },
+  {
+   "month": "2023-03",
+   "request": 1,
+   "pct": -3.09,
+   "lo": -4.63,
+   "hi": -1.54
+  }
+ ],
+ "n_request_months_below_minus1": 3,
+ "n_request_months": 7,
+ "min_month": "2023-03",
+ "min_pct": -3.09,
+ "max_month": "2022-07",
+ "max_pct": 1.07,
+ "n_request_months_ci_excludes_0": 2
+}

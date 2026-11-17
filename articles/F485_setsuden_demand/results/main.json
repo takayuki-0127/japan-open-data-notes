@@ -1,0 +1,72 @@
+{
+ "n_days": 2557,
+ "r2": 0.9339,
+ "summer22": {
+  "pct": -0.11,
+  "lo": -1.62,
+  "hi": 1.43
+ },
+ "winter22": {
+  "pct": -0.84,
+  "lo": -2.35,
+  "hi": 0.69
+ },
+ "evening_summer22": {
+  "pct": -0.78,
+  "lo": -2.53,
+  "hi": 1.0
+ },
+ "evening_winter22": {
+  "pct": -1.55,
+  "lo": -3.19,
+  "hi": 0.12
+ },
+ "placebo_summer23": {
+  "pct": 0.7,
+  "lo": -0.83,
+  "hi": 2.24
+ },
+ "placebo_winter23": {
+  "pct": 0.76,
+  "lo": -0.86,
+  "hi": 2.4
+ },
+ "placebo_model_summer22": {
+  "pct": 0.01,
+  "lo": -1.54,
+  "hi": 1.59
+ },
+ "placebo_model_winter22": {
+  "pct": -0.71,
+  "lo": -2.25,
+  "hi": 0.85
+ },
+ "mean_daily_gwh_summer22": 257.8,
+ "mean_daily_gwh_winter22": 242.9,
+ "hypotheses": {
+  "H1_summer_le_minus1": {
+   "value": -0.11,
+   "result": "外れ"
+  },
+  "H2_winter_le_minus1": {
+   "value": -0.84,
+   "result": "外れ"
+  },
+  "H3_evening_bigger": {
+   "summer": [
+    -0.78,
+    -0.11
+   ],
+   "winter": [
+    -1.55,
+    -0.84
+   ],
+   "result": "支持"
+  },
+  "H4_placebo_within_1": {
+   "summer23": 0.7,
+   "winter23": 0.76,
+   "result": "支持"
+  }
+ }
+}

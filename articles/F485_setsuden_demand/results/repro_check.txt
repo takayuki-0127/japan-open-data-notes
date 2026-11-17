@@ -1,0 +1,4 @@
+再現の確認（2026-11-16）
+手順：記事のフォルダを /tmp/rep_F485 に写し、results の CSV・JSON、figures の PNG、data/daily.csv を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。
+2026-11-16 再実行：10 ファイル一致、所要 5 秒（results 5、figures 4、data 1）。ネットにはつながない。乱数は使っていない。
+2026-11-17 独立レビューで再実行：/tmp/rvC2_F485 に写して流し、10 ファイル一致、所要 4 秒。
