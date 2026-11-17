@@ -1,0 +1,13 @@
+{
+ "relprice_yoy_mean_1996_2012": -2.918,
+ "relprice_yoy_mean_2013_2021": -1.24,
+ "relprice_yoy_mean_2022_2025": -0.142,
+ "relprice_yoy_2025": 1.602,
+ "relprice_last12_vs_prev12": -0.244,
+ "neer_yoy_mean_2022_2025": -5.334,
+ "years_relprice_up_since_1996": [
+  2014,
+  2024,
+  2025
+ ]
+}
