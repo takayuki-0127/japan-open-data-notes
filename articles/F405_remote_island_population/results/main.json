@@ -1,0 +1,331 @@
+{
+ "n_island": 35,
+ "n_mainland": 1545,
+ "H1_size": {
+  "n": 35,
+  "median_diff": 1.04,
+  "ci_lo": -3.21,
+  "ci_hi": 3.84,
+  "mean_diff": 1.61,
+  "share_island_lower": 0.457,
+  "island_median": -17.7,
+  "matched_median": -18.29
+ },
+ "H2_size_aging": {
+  "n": 35,
+  "median_diff": -0.73,
+  "ci_lo": -2.13,
+  "ci_hi": 1.39,
+  "mean_diff": 0.36,
+  "share_island_lower": 0.571,
+  "island_median": -17.7,
+  "matched_median": -19.17
+ },
+ "H2_shrink_ratio": 1.702,
+ "H3_small": {
+  "n": 19,
+  "median_diff": 6.84,
+  "ci_lo": 0.3,
+  "ci_hi": 11.79,
+  "mean_diff": 5.39,
+  "share_island_lower": 0.263,
+  "island_median": -18.11,
+  "matched_median": -22.21
+ },
+ "H3_large": {
+  "n": 16,
+  "median_diff": -3.36,
+  "ci_lo": -5.12,
+  "ci_hi": 1.5,
+  "mean_diff": -2.88,
+  "share_island_lower": 0.688,
+  "island_median": -17.45,
+  "matched_median": -13.68
+ },
+ "H4_working_age": {
+  "n": 35,
+  "median_diff": 2.61,
+  "ci_lo": -3.14,
+  "ci_hi": 5.54,
+  "mean_diff": 1.99,
+  "share_island_lower": 0.429,
+  "island_median": -22.82,
+  "matched_median": -24.01
+ },
+ "by_size": [
+  {
+   "size": "2千人未満",
+   "island": 0,
+   "n": 62,
+   "median_chg": -21.47,
+   "median_share65": 43.3
+  },
+  {
+   "size": "2千人未満",
+   "island": 1,
+   "n": 9,
+   "median_chg": -12.24,
+   "median_share65": 27.76
+  },
+  {
+   "size": "2千〜5千人",
+   "island": 0,
+   "n": 160,
+   "median_chg": -19.98,
+   "median_share65": 38.52
+  },
+  {
+   "size": "2千〜5千人",
+   "island": 1,
+   "n": 10,
+   "median_chg": -21.21,
+   "median_share65": 37.73
+  },
+  {
+   "size": "5千〜2万人",
+   "island": 0,
+   "n": 487,
+   "median_chg": -16.06,
+   "median_share65": 34.5
+  },
+  {
+   "size": "5千〜2万人",
+   "island": 1,
+   "n": 12,
+   "median_chg": -16.6,
+   "median_share65": 37.08
+  },
+  {
+   "size": "2万人以上",
+   "island": 0,
+   "n": 836,
+   "median_chg": -6.66,
+   "median_share65": 28.24
+  },
+  {
+   "size": "2万人以上",
+   "island": 1,
+   "n": 4,
+   "median_chg": -18.62,
+   "median_share65": 36.16
+  }
+ ],
+ "island_total": {
+  "pop2015": 323459,
+  "pop2025": 265794,
+  "chg15_25": -17.83
+ },
+ "island_share65_2015_median": 36.85,
+ "matched_share65_2015_median_size_only": 38.06,
+ "requestion_nonmetro": {
+  "size": {
+   "n": 35,
+   "median_diff": 1.04,
+   "ci_lo": -3.13,
+   "ci_hi": 3.84,
+   "mean_diff": 2.36,
+   "share_island_lower": 0.457,
+   "island_median": -17.7,
+   "matched_median": -19.56
+  },
+  "size_small": {
+   "n": 19,
+   "median_diff": 6.84,
+   "ci_lo": 0.3,
+   "ci_hi": 11.79,
+   "mean_diff": 5.28,
+   "share_island_lower": 0.263,
+   "island_median": -18.11,
+   "matched_median": -22.21
+  },
+  "size_large": {
+   "n": 16,
+   "median_diff": -2.91,
+   "ci_lo": -4.85,
+   "ci_hi": 3.6,
+   "mean_diff": -1.11,
+   "share_island_lower": 0.688,
+   "island_median": -17.45,
+   "matched_median": -14.75
+  },
+  "size_aging": {
+   "n": 35,
+   "median_diff": -0.32,
+   "ci_lo": -3.67,
+   "ci_hi": 1.82,
+   "mean_diff": 0.41,
+   "share_island_lower": 0.514,
+   "island_median": -17.7,
+   "matched_median": -18.59
+  },
+  "size_aging_small": {
+   "n": 19,
+   "median_diff": -1.22,
+   "ci_lo": -4.72,
+   "ci_hi": 0.69,
+   "mean_diff": -0.17,
+   "share_island_lower": 0.632,
+   "island_median": -18.11,
+   "matched_median": -19.06
+  },
+  "size_aging_large": {
+   "n": 16,
+   "median_diff": 1.23,
+   "ci_lo": -1.19,
+   "ci_hi": 4.57,
+   "mean_diff": 1.1,
+   "share_island_lower": 0.375,
+   "island_median": -17.45,
+   "matched_median": -18.0
+  },
+  "n_nonmetro_mainland": 926,
+  "n_metro_mainland": 619,
+  "metro_share_size_matched_large": 0.325,
+  "metro_share_size_matched_small": 0.021
+ },
+ "regression": {
+  "size": {
+   "coef": 1.54,
+   "se": 1.54,
+   "p": 0.3191,
+   "r2": 0.347,
+   "n": 1580
+  },
+  "size_aging": {
+   "coef": -0.2,
+   "se": 1.2,
+   "p": 0.8678,
+   "r2": 0.691,
+   "n": 1580
+  },
+  "size_aging_region": {
+   "coef": -1.49,
+   "se": 1.11,
+   "p": 0.1823,
+   "r2": 0.718,
+   "n": 1580
+  }
+ },
+ "robustness": [
+  {
+   "check": "main_k5_size",
+   "n": 35,
+   "median_diff": 1.04,
+   "ci_lo": -3.21,
+   "ci_hi": 3.84,
+   "mean_diff": 1.61,
+   "share_island_lower": 0.457
+  },
+  {
+   "check": "k10_size",
+   "n": 35,
+   "median_diff": -0.41,
+   "ci_lo": -3.21,
+   "ci_hi": 3.37,
+   "mean_diff": 1.06,
+   "share_island_lower": 0.543
+  },
+  {
+   "check": "same_region_k5_size",
+   "n": 35,
+   "median_diff": 0.14,
+   "ci_lo": -2.77,
+   "ci_hi": 3.29,
+   "mean_diff": 1.81,
+   "share_island_lower": 0.486
+  },
+  {
+   "check": "period_2020_2025",
+   "n": 35,
+   "median_diff": 0.64,
+   "ci_lo": -0.98,
+   "ci_hi": 1.83,
+   "mean_diff": 0.43,
+   "share_island_lower": 0.457
+  },
+  {
+   "check": "period_2010_2025",
+   "n": 35,
+   "median_diff": 1.22,
+   "ci_lo": -2.51,
+   "ci_hi": 7.01,
+   "mean_diff": 3.64,
+   "share_island_lower": 0.457
+  },
+  {
+   "check": "trim_mainland_1pct",
+   "n": 35,
+   "median_diff": -1.17,
+   "ci_lo": -3.06,
+   "ci_hi": 1.53,
+   "mean_diff": 0.52,
+   "share_island_lower": 0.571
+  },
+  {
+   "check": "size_aging_k10",
+   "n": 35,
+   "median_diff": -0.61,
+   "ci_lo": -2.27,
+   "ci_hi": 1.12,
+   "mean_diff": 0.57,
+   "share_island_lower": 0.629
+  },
+  {
+   "check": "exclude_tokyo_islands",
+   "n": 27,
+   "median_diff": 0.3,
+   "ci_lo": -4.63,
+   "ci_hi": 3.78,
+   "mean_diff": 0.24,
+   "share_island_lower": 0.481
+  },
+  {
+   "check": "ols_size",
+   "n": 1580,
+   "median_diff": null,
+   "ci_lo": -1.49,
+   "ci_hi": 4.57,
+   "mean_diff": 1.54,
+   "share_island_lower": null
+  },
+  {
+   "check": "ols_size_aging",
+   "n": 1580,
+   "median_diff": null,
+   "ci_lo": -2.56,
+   "ci_hi": 2.16,
+   "mean_diff": -0.2,
+   "share_island_lower": null
+  },
+  {
+   "check": "ols_size_aging_region",
+   "n": 1580,
+   "median_diff": null,
+   "ci_lo": -3.67,
+   "ci_hi": 0.7,
+   "mean_diff": -1.49,
+   "share_island_lower": null
+  }
+ ],
+ "hypotheses": {
+  "H1": {
+   "median_diff": 1.04,
+   "supported": false
+  },
+  "H2": {
+   "median_diff": -0.73,
+   "shrink": 1.702,
+   "supported": null,
+   "note": "H1 の差（離島の方が速く減る差）が3ポイント未満のため、縮み方は判定できない"
+  },
+  "H3": {
+   "small": 6.84,
+   "large": -3.36,
+   "supported": false
+  },
+  "H4": {
+   "median_diff": 2.61,
+   "supported": false
+  }
+ }
+}

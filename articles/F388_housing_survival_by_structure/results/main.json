@@ -1,0 +1,1037 @@
+{
+ "source": "総務省「住宅・土地統計調査」1998〜2023年 住宅の種類、構造、建築の時期別住宅数－全国",
+ "mlit_reference_mean_age_lost": {
+  "1993-1998": 32.3,
+  "1998-2003": 30.0,
+  "2003-2008": 27.0,
+  "2008-2013": 32.1
+ },
+ "mean_age_lost": {
+  "1998-2003": {
+   "total": 30.94,
+   "wood": 32.83,
+   "nonwood": 25.32
+  },
+  "2003-2008": {
+   "total": 26.85,
+   "wood": 30.26,
+   "nonwood": 19.6
+  },
+  "2008-2013": {
+   "total": 33.55,
+   "wood": 36.47,
+   "nonwood": 26.52
+  },
+  "2013-2018": {
+   "total": 37.19,
+   "wood": 40.85,
+   "nonwood": 30.05
+  },
+  "2018-2023": {
+   "total": 37.52,
+   "wood": 39.15,
+   "nonwood": 16.11
+  }
+ },
+ "mean_age_lost_unknown_realloc": {
+  "1998-2003": {
+   "total": 31.73,
+   "wood": 32.98,
+   "nonwood": 26.12
+  },
+  "2003-2008": {
+   "total": 27.33,
+   "wood": 30.75,
+   "nonwood": 19.38
+  },
+  "2008-2013": {
+   "total": 34.38,
+   "wood": 37.9,
+   "nonwood": 26.33
+  },
+  "2013-2018": {
+   "total": 38.27,
+   "wood": 42.49,
+   "nonwood": 30.26
+  },
+  "2018-2023": {
+   "total": 35.74,
+   "wood": 38.12,
+   "nonwood": 16.81
+  }
+ },
+ "lost_total": {
+  "1998-2003": {
+   "total": 4073400.0,
+   "wood": 3142400.0,
+   "nonwood": 950300.0
+  },
+  "2003-2008": {
+   "total": 4458300.0,
+   "wood": 3097100.0,
+   "nonwood": 1375900.0
+  },
+  "2008-2013": {
+   "total": 2944200.0,
+   "wood": 2112700.0,
+   "nonwood": 839200.0
+  },
+  "2013-2018": {
+   "total": 3881400.0,
+   "wood": 2567100.0,
+   "nonwood": 1314400.0
+  },
+  "2018-2023": {
+   "total": 2181400.0,
+   "wood": 2541900.0,
+   "nonwood": 297000.0
+  }
+ },
+ "median_life": {
+  "1998-2003": {
+   "total": 34.05,
+   "wood": 34.15,
+   "nonwood": 37.0
+  },
+  "2003-2008": {
+   "total": 33.35,
+   "wood": 29.8,
+   "nonwood": 40.75
+  },
+  "2008-2013": {
+   "total": 48.0,
+   "wood": 44.75,
+   "nonwood": 51.6
+  },
+  "2013-2018": {
+   "total": 45.65,
+   "wood": 44.5,
+   "nonwood": 46.85
+  },
+  "2018-2023": {
+   "total": 62.0,
+   "wood": 43.15,
+   "nonwood": null
+  }
+ },
+ "median_life_unknown_realloc": {
+  "1998-2003": {
+   "total": 38.05,
+   "wood": 36.75,
+   "nonwood": 42.9
+  },
+  "2003-2008": {
+   "total": 43.8,
+   "wood": 38.6,
+   "nonwood": 54.55
+  },
+  "2008-2013": {
+   "total": 50.3,
+   "wood": 49.45,
+   "nonwood": 50.9
+  },
+  "2013-2018": {
+   "total": 48.2,
+   "wood": 48.55,
+   "nonwood": 47.5
+  },
+  "2018-2023": {
+   "total": 53.65,
+   "wood": 35.7,
+   "nonwood": 100.25
+  }
+ },
+ "mean_life": {
+  "1998-2003": {
+   "total": 50.57,
+   "wood": 49.23,
+   "nonwood": 81.31
+  },
+  "2003-2008": {
+   "total": 41.08,
+   "wood": 38.86,
+   "nonwood": 83.61
+  },
+  "2008-2013": {
+   "total": 53.7,
+   "wood": 49.62,
+   "nonwood": 93.43
+  },
+  "2013-2018": {
+   "total": 45.45,
+   "wood": 44.28,
+   "nonwood": 49.03
+  },
+  "2018-2023": {
+   "total": 61.41,
+   "wood": 46.36,
+   "nonwood": 150.99
+  }
+ },
+ "surv30": {
+  "1998-2003": {
+   "total": 0.5909,
+   "wood": 0.6087,
+   "nonwood": 0.6043
+  },
+  "2003-2008": {
+   "total": 0.5241,
+   "wood": 0.4979,
+   "nonwood": 0.5704
+  },
+  "2008-2013": {
+   "total": 0.723,
+   "wood": 0.6759,
+   "nonwood": 0.782
+  },
+  "2013-2018": {
+   "total": 0.6918,
+   "wood": 0.6736,
+   "nonwood": 0.712
+  },
+  "2018-2023": {
+   "total": 0.7734,
+   "wood": 0.6423,
+   "nonwood": 0.8633
+  }
+ },
+ "surv50": {
+  "1998-2003": {
+   "total": 0.2601,
+   "wood": 0.2445,
+   "nonwood": 0.3526
+  },
+  "2003-2008": {
+   "total": 0.3298,
+   "wood": 0.3002,
+   "nonwood": 0.4013
+  },
+  "2008-2013": {
+   "total": 0.4669,
+   "wood": 0.4229,
+   "nonwood": 0.5304
+  },
+  "2013-2018": {
+   "total": 0.4222,
+   "wood": 0.4066,
+   "nonwood": 0.4398
+  },
+  "2018-2023": {
+   "total": 0.6749,
+   "wood": 0.432,
+   "nonwood": 0.8584
+  }
+ },
+ "pooled_1998_2023": {
+  "median": {
+   "total": 45.05,
+   "wood": 38.5,
+   "nonwood": 53.55
+  },
+  "mean": {
+   "total": 48.36,
+   "wood": 42.93,
+   "nonwood": 99.33
+  },
+  "surv30": {
+   "total": 0.6602,
+   "wood": 0.5916,
+   "nonwood": 0.7571
+  },
+  "surv50": {
+   "total": 0.4212,
+   "wood": 0.3427,
+   "nonwood": 0.5791
+  },
+  "median_unknown_realloc": {
+   "total": 46.75,
+   "wood": 41.5,
+   "nonwood": 53.3
+  },
+  "mean_age_lost": {
+   "total": 32.54,
+   "wood": 35.54,
+   "nonwood": 24.61
+  }
+ },
+ "unknown_period_dwellings": {
+  "1998": 1083000,
+  "2003": 2198300,
+  "2008": 3553800,
+  "2013": 4112800,
+  "2018": 4708100,
+  "2023": 3617300
+ },
+ "total_dwellings": {
+  "1998": 43922200,
+  "2003": 46863100,
+  "2008": 49598200,
+  "2013": 52102200,
+  "2018": 53616200,
+  "2023": 55665000
+ },
+ "same_age": [
+  {
+   "structure": "total",
+   "age0": 22.75,
+   "old_period": "1998-2003",
+   "old_ratio": 0.8303,
+   "new_period": "2008-2013",
+   "new_ratio": 0.9704,
+   "diff_pt": 14.01
+  },
+  {
+   "structure": "total",
+   "age0": 27.75,
+   "old_period": "2003-2008",
+   "old_ratio": 0.94,
+   "new_period": "2013-2018",
+   "new_ratio": 0.9441,
+   "diff_pt": 0.41
+  },
+  {
+   "structure": "wood",
+   "age0": 22.75,
+   "old_period": "1998-2003",
+   "old_ratio": 0.7972,
+   "new_period": "2008-2013",
+   "new_ratio": 0.9543,
+   "diff_pt": 15.7
+  },
+  {
+   "structure": "wood",
+   "age0": 27.75,
+   "old_period": "2003-2008",
+   "old_ratio": 0.9218,
+   "new_period": "2013-2018",
+   "new_ratio": 0.9317,
+   "diff_pt": 1.0
+  },
+  {
+   "structure": "nonwood",
+   "age0": 22.75,
+   "old_period": "1998-2003",
+   "old_ratio": 0.9055,
+   "new_period": "2008-2013",
+   "new_ratio": 0.9919,
+   "diff_pt": 8.64
+  },
+  {
+   "structure": "nonwood",
+   "age0": 27.75,
+   "old_period": "2003-2008",
+   "old_ratio": 0.9766,
+   "new_period": "2013-2018",
+   "new_ratio": 0.96,
+   "diff_pt": -1.66
+  }
+ ],
+ "counterfactual": [
+  {
+   "structure": "total",
+   "stock_period": "1998-2003",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 30.94
+  },
+  {
+   "structure": "total",
+   "stock_period": "1998-2003",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 28.3
+  },
+  {
+   "structure": "total",
+   "stock_period": "1998-2003",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 34.21
+  },
+  {
+   "structure": "total",
+   "stock_period": "1998-2003",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 33.58
+  },
+  {
+   "structure": "total",
+   "stock_period": "1998-2003",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 32.75
+  },
+  {
+   "structure": "total",
+   "stock_period": "2003-2008",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 29.76
+  },
+  {
+   "structure": "total",
+   "stock_period": "2003-2008",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 26.85
+  },
+  {
+   "structure": "total",
+   "stock_period": "2003-2008",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 30.74
+  },
+  {
+   "structure": "total",
+   "stock_period": "2003-2008",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 32.13
+  },
+  {
+   "structure": "total",
+   "stock_period": "2003-2008",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 28.1
+  },
+  {
+   "structure": "total",
+   "stock_period": "2008-2013",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 31.66
+  },
+  {
+   "structure": "total",
+   "stock_period": "2008-2013",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 28.66
+  },
+  {
+   "structure": "total",
+   "stock_period": "2008-2013",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 33.55
+  },
+  {
+   "structure": "total",
+   "stock_period": "2008-2013",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 34.14
+  },
+  {
+   "structure": "total",
+   "stock_period": "2008-2013",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 32.35
+  },
+  {
+   "structure": "total",
+   "stock_period": "2013-2018",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 32.42
+  },
+  {
+   "structure": "total",
+   "stock_period": "2013-2018",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 30.2
+  },
+  {
+   "structure": "total",
+   "stock_period": "2013-2018",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 34.88
+  },
+  {
+   "structure": "total",
+   "stock_period": "2013-2018",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 37.19
+  },
+  {
+   "structure": "total",
+   "stock_period": "2013-2018",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 35.22
+  },
+  {
+   "structure": "total",
+   "stock_period": "2018-2023",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 33.15
+  },
+  {
+   "structure": "total",
+   "stock_period": "2018-2023",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 32.57
+  },
+  {
+   "structure": "total",
+   "stock_period": "2018-2023",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 37.08
+  },
+  {
+   "structure": "total",
+   "stock_period": "2018-2023",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 38.02
+  },
+  {
+   "structure": "total",
+   "stock_period": "2018-2023",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 37.49
+  },
+  {
+   "structure": "wood",
+   "stock_period": "1998-2003",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 32.83
+  },
+  {
+   "structure": "wood",
+   "stock_period": "1998-2003",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 30.58
+  },
+  {
+   "structure": "wood",
+   "stock_period": "1998-2003",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 36.77
+  },
+  {
+   "structure": "wood",
+   "stock_period": "1998-2003",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 36.73
+  },
+  {
+   "structure": "wood",
+   "stock_period": "1998-2003",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 34.7
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2003-2008",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 32.91
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2003-2008",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 30.26
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2003-2008",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 33.61
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2003-2008",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 36.22
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2003-2008",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 33.15
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2008-2013",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 34.89
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2008-2013",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 32.17
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2008-2013",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 36.47
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2008-2013",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 37.79
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2008-2013",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 35.58
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2013-2018",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 35.39
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2013-2018",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 33.75
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2013-2018",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 37.6
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2013-2018",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 40.85
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2013-2018",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 37.98
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2018-2023",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 35.75
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2018-2023",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 35.7
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2018-2023",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 39.15
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2018-2023",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 41.22
+  },
+  {
+   "structure": "wood",
+   "stock_period": "2018-2023",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 39.16
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "1998-2003",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 25.32
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "1998-2003",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 22.02
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "1998-2003",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 24.66
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "1998-2003",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 24.11
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "1998-2003",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 15.49
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2003-2008",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 22.62
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2003-2008",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 19.6
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2003-2008",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 23.26
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2003-2008",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 22.5
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2003-2008",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 10.47
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2008-2013",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 24.55
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2008-2013",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 21.15
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2008-2013",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 26.52
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2008-2013",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 26.53
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2008-2013",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 14.84
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2013-2018",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 26.52
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2013-2018",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 22.43
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2013-2018",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 28.74
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2013-2018",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 30.05
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2013-2018",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 14.73
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2018-2023",
+   "hazard_period": "1998-2003",
+   "mean_age_lost": 28.06
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2018-2023",
+   "hazard_period": "2003-2008",
+   "mean_age_lost": 25.9
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2018-2023",
+   "hazard_period": "2008-2013",
+   "mean_age_lost": 32.09
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2018-2023",
+   "hazard_period": "2013-2018",
+   "mean_age_lost": 32.26
+  },
+  {
+   "structure": "nonwood",
+   "stock_period": "2018-2023",
+   "hazard_period": "2018-2023",
+   "mean_age_lost": 16.14
+  }
+ ],
+ "robustness": [
+  {
+   "check": "main",
+   "structure": "total",
+   "period": "2018-2023",
+   "median": 62.0,
+   "mean": 61.41,
+   "mean_age_lost": 37.52
+  },
+  {
+   "check": "unknown_reallocated",
+   "structure": "total",
+   "period": "2018-2023",
+   "median": 53.65,
+   "mean": 51.56,
+   "mean_age_lost": 35.74
+  },
+  {
+   "check": "period_2013_2018",
+   "structure": "total",
+   "period": "2013-2018",
+   "median": 45.65,
+   "mean": 45.45,
+   "mean_age_lost": 37.19
+  },
+  {
+   "check": "period_2008_2013",
+   "structure": "total",
+   "period": "2008-2013",
+   "median": 48.0,
+   "mean": 53.7,
+   "mean_age_lost": 33.55
+  },
+  {
+   "check": "no_clip_negative_hazard",
+   "structure": "total",
+   "period": "2018-2023",
+   "median": 63.75,
+   "mean": 64.05,
+   "mean_age_lost": 37.52
+  },
+  {
+   "check": "step_hazard",
+   "structure": "total",
+   "period": "2018-2023",
+   "median": 62.0,
+   "mean": 61.55,
+   "mean_age_lost": 37.52
+  },
+  {
+   "check": "main",
+   "structure": "wood",
+   "period": "2018-2023",
+   "median": 43.15,
+   "mean": 46.36,
+   "mean_age_lost": 39.15
+  },
+  {
+   "check": "unknown_reallocated",
+   "structure": "wood",
+   "period": "2018-2023",
+   "median": 35.7,
+   "mean": 40.58,
+   "mean_age_lost": 38.12
+  },
+  {
+   "check": "period_2013_2018",
+   "structure": "wood",
+   "period": "2013-2018",
+   "median": 44.5,
+   "mean": 44.28,
+   "mean_age_lost": 40.85
+  },
+  {
+   "check": "period_2008_2013",
+   "structure": "wood",
+   "period": "2008-2013",
+   "median": 44.75,
+   "mean": 49.62,
+   "mean_age_lost": 36.47
+  },
+  {
+   "check": "no_clip_negative_hazard",
+   "structure": "wood",
+   "period": "2018-2023",
+   "median": 43.15,
+   "mean": 46.36,
+   "mean_age_lost": 39.15
+  },
+  {
+   "check": "step_hazard",
+   "structure": "wood",
+   "period": "2018-2023",
+   "median": 43.15,
+   "mean": 46.46,
+   "mean_age_lost": 39.15
+  },
+  {
+   "check": "main",
+   "structure": "nonwood",
+   "period": "2018-2023",
+   "median": null,
+   "mean": 150.99,
+   "mean_age_lost": 16.11
+  },
+  {
+   "check": "unknown_reallocated",
+   "structure": "nonwood",
+   "period": "2018-2023",
+   "median": 100.25,
+   "mean": 107.74,
+   "mean_age_lost": 16.81
+  },
+  {
+   "check": "period_2013_2018",
+   "structure": "nonwood",
+   "period": "2013-2018",
+   "median": 46.85,
+   "mean": 49.03,
+   "mean_age_lost": 30.05
+  },
+  {
+   "check": "period_2008_2013",
+   "structure": "nonwood",
+   "period": "2008-2013",
+   "median": 51.6,
+   "mean": 93.43,
+   "mean_age_lost": 26.52
+  },
+  {
+   "check": "no_clip_negative_hazard",
+   "structure": "nonwood",
+   "period": "2018-2023",
+   "median": null,
+   "mean": 222.45,
+   "mean_age_lost": 16.11
+  },
+  {
+   "check": "step_hazard",
+   "structure": "nonwood",
+   "period": "2018-2023",
+   "median": null,
+   "mean": 152.86,
+   "mean_age_lost": 16.11
+  },
+  {
+   "check": "pooled_1998_2023",
+   "structure": "total",
+   "period": "1998-2023",
+   "median": 45.05,
+   "mean": 48.36,
+   "mean_age_lost": null
+  },
+  {
+   "check": "pooled_1998_2023",
+   "structure": "wood",
+   "period": "1998-2023",
+   "median": 38.5,
+   "mean": 42.93,
+   "mean_age_lost": null
+  },
+  {
+   "check": "pooled_1998_2023",
+   "structure": "nonwood",
+   "period": "1998-2023",
+   "median": 53.55,
+   "mean": 99.33,
+   "mean_age_lost": null
+  },
+  {
+   "check": "mlit_age_at_end_2008_2013",
+   "structure": "total",
+   "period": "2008-2013",
+   "median": null,
+   "mean": null,
+   "mean_age_lost": 36.05
+  },
+  {
+   "check": "mlit_age_at_end_2008_2013",
+   "structure": "wood",
+   "period": "2008-2013",
+   "median": null,
+   "mean": null,
+   "mean_age_lost": 38.97
+  },
+  {
+   "check": "mlit_age_at_end_2008_2013",
+   "structure": "nonwood",
+   "period": "2008-2013",
+   "median": null,
+   "mean": null,
+   "mean_age_lost": 29.02
+  }
+ ],
+ "requestion_decomposition": {
+  "total": {
+   "from": 30.94,
+   "to": 37.49,
+   "change": 6.55,
+   "stock_aging_effect": 3.47,
+   "hazard_change_effect": 3.08
+  },
+  "wood": {
+   "from": 32.83,
+   "to": 39.16,
+   "change": 6.33,
+   "stock_aging_effect": 3.69,
+   "hazard_change_effect": 2.64
+  },
+  "nonwood": {
+   "from": 25.32,
+   "to": 16.14,
+   "change": -9.18,
+   "stock_aging_effect": 1.69,
+   "hazard_change_effect": -10.88
+  }
+ },
+ "hypotheses": {
+  "H1": {
+   "value": 33.55,
+   "ref": 32.1,
+   "supported": true
+  },
+  "H2": {
+   "median": 62.0,
+   "mean_age_lost": 37.52,
+   "gap": 24.48,
+   "supported": true,
+   "gap_by_period": {
+    "1998-2003": 3.11,
+    "2003-2008": 6.5,
+    "2008-2013": 14.45,
+    "2013-2018": 8.46,
+    "2018-2023": 24.48
+   }
+  },
+  "H3": {
+   "wood": 43.15,
+   "nonwood": null,
+   "supported": true,
+   "by_period_wood_shorter": {
+    "1998-2003": true,
+    "2003-2008": true,
+    "2008-2013": true,
+    "2013-2018": true,
+    "2018-2023": true
+   }
+  },
+  "H4": {
+   "total_diff_pt": [
+    14.01,
+    0.41
+   ],
+   "supported": false
+  }
+ }
+}

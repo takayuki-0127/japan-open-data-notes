@@ -1,0 +1,12 @@
+check,n,median_diff,ci_lo,ci_hi,mean_diff,share_island_lower
+main_k5_size,35,1.04,-3.21,3.84,1.61,0.457
+k10_size,35,-0.41,-3.21,3.37,1.06,0.543
+same_region_k5_size,35,0.14,-2.77,3.29,1.81,0.486
+period_2020_2025,35,0.64,-0.98,1.83,0.43,0.457
+period_2010_2025,35,1.22,-2.51,7.01,3.64,0.457
+trim_mainland_1pct,35,-1.17,-3.06,1.53,0.52,0.571
+size_aging_k10,35,-0.61,-2.27,1.12,0.57,0.629
+exclude_tokyo_islands,27,0.3,-4.63,3.78,0.24,0.481
+ols_size,1580,,-1.49,4.57,1.54,
+ols_size_aging,1580,,-2.56,2.16,-0.2,
+ols_size_aging_region,1580,,-3.67,0.7,-1.49,
