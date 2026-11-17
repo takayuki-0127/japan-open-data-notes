@@ -72,7 +72,7 @@ for col, s in [("回数", f.food_freq_per100 / b.food_freq_per100 * 100), ("1回
 ax.text(2025.2, t.cpi_food.iloc[-1] / t[t.year == 2019].cpi_food.iloc[0] * 100, f"{t.cpi_food.iloc[-1] / t[t.year == 2019].cpi_food.iloc[0] * 100:.0f}", va="center", fontsize=9)
 ax.set_xlim(2004.5, 2026.3); ax.set_xticks(range(2005, 2026, 2)); ax.set_ylim(50, 170)
 ax.set_ylabel("2019年＝100"); ax.grid(axis="y", color=GRID, lw=0.8); ax.legend(frameon=False, loc="upper left", fontsize=9)
-ax.set_title("ペットフード：買う回数は増え続け、1回あたりの額（物価を除く）は2019年から2割減った", loc="left", fontsize=11)
+ax.set_title("ペットフード：買う回数は増え続け、1回あたりの額（物価を除く）は2019年から約2割減った", loc="left", fontsize=11)
 fig.subplots_adjust(left=0.1, right=0.95, top=0.9, bottom=0.14)
 save(fig, "fig3_food_frequency.png")
 

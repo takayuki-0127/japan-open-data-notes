@@ -39,8 +39,10 @@
 | kakei_4-3_2023.xlsx | 総務省「家計調査」2023年 二人以上の世帯 第4-3表 年間収入五分位階級別（品目分類） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040140560&fileKind=0 | 29bd6a38a32b |
 | kakei_4-3_2024.xlsx | 総務省「家計調査」2024年 二人以上の世帯 第4-3表 年間収入五分位階級別（品目分類） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040247211&fileKind=0 | 0a63902f01e6 |
 | kakei_4-3_2025.xlsx | 総務省「家計調査」2025年 二人以上の世帯 第4-3表 年間収入五分位階級別（品目分類） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040409548&fileKind=0 | eb486338194c |
-| cpi_item_annual.csv | 総務省「消費者物価指数」2025年基準 全国 品目別価格指数（年平均、CSV、Shift_JIS） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040482959&fileKind=1 | 7ce020001725 |
+| cpi_item_annual.csv | 総務省「消費者物価指数」2025年基準 全国 品目別価格指数（暦年の年平均、CSV、Shift_JIS） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040482831&fileKind=1 | cfa494f77d7b |
 
 - 家計調査 統計表一覧：https://www.e-stat.go.jp/stat-search/files?toukei=00200561&tstat=000000330001
 - 消費者物価指数：https://www.e-stat.go.jp/stat-search/files?tstat=000001243876
 - e-Stat のファイルは政府標準利用規約（第2.0版）に従い、出典を示して加工して使う。
+
+- 注（2026-11-18 訂正）：cpi_item_annual.csv は、はじめ statInfId=000040482959（品目別価格指数の**年度平均**の表。2025年の総合が100.4）を使っていた。暦年の統計と並べるため、暦年の年平均の表（statInfId=000040482831、2025年の総合が100.0）に取り直した（同じ行・列の並び）。

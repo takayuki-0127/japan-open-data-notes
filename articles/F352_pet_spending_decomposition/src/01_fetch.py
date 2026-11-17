@@ -1,7 +1,7 @@
 """元データを公式サイト（e-Stat）から取得して data/raw/ に保存する（ネットが必要。run_all.sh からは呼ばない）。
 - 総務省「家計調査」家計収支編 二人以上の世帯 詳細結果表（年）
   第4-6表 世帯主の年齢階級別（2002〜2025年）／第4-3表 年間収入五分位階級別（2015〜2025年）（品目分類、1世帯当たり年間の支出金額・購入頻度）
-- 総務省「消費者物価指数」2025年基準 全国 品目別価格指数（年平均）"""
+- 総務省「消費者物価指数」2025年基準 全国 品目別価格指数（暦年の年平均）"""
 import datetime, hashlib, pathlib, urllib.request
 
 RAW = pathlib.Path(__file__).resolve().parents[1] / "data" / "raw"
@@ -26,8 +26,8 @@ def main():
             url = EST.format(sid, 0); b = get(url); ext = "xlsx" if b[:2] == b"PK" else "xls"
             name = f"kakei_{tab}_{y}.{ext}"; (RAW / name).write_bytes(b)
             rows.append((name, f"総務省「家計調査」{y}年 二人以上の世帯 {lab}", url, hashlib.sha256(b).hexdigest()[:12])); print("saved", name)
-    url = EST.format("000040482959", 1); b = get(url); (RAW / "cpi_item_annual.csv").write_bytes(b)
-    rows.append(("cpi_item_annual.csv", "総務省「消費者物価指数」2025年基準 全国 品目別価格指数（年平均、CSV、Shift_JIS）", url, hashlib.sha256(b).hexdigest()[:12]))
+    url = EST.format("000040482831", 1); b = get(url); (RAW / "cpi_item_annual.csv").write_bytes(b)
+    rows.append(("cpi_item_annual.csv", "総務省「消費者物価指数」2025年基準 全国 品目別価格指数（暦年の年平均、CSV、Shift_JIS）", url, hashlib.sha256(b).hexdigest()[:12]))
     L = ["# 元データの出典（取得日と URL）", "", f"取得日：{datetime.date.today().isoformat()}（src/01_fetch.py で取得）", "",
          "| ファイル | 中身 | URL | sha256 の先頭12字 |", "|---|---|---|---|"] + [f"| {a} | {b} | {c} | {d} |" for a, b, c, d in rows]
     L += ["", "- 家計調査 統計表一覧：https://www.e-stat.go.jp/stat-search/files?toukei=00200561&tstat=000000330001",

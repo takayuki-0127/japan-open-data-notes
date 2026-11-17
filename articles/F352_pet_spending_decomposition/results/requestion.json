@@ -1,29 +1,29 @@
 {
- "corr": -0.7001,
+ "corr": -0.6516,
  "freq_cagr_2005_2019": 0.0217,
  "freq_cagr_2019_2025": 0.0282,
- "mean_dlog_real_pp_other_years": 0.0029,
- "mean_dlog_real_pp_when_price_up_gt5pct": -0.0782,
+ "mean_dlog_real_pp_other_years": 0.0016,
+ "mean_dlog_real_pp_when_price_up_gt5pct": -0.0651,
  "n_years": 20,
- "price_cagr_2005_2019": 0.0056,
- "price_cagr_2019_2025": 0.0741,
- "real_per_purchase_cagr_2005_2019": -0.003,
- "real_per_purchase_cagr_2019_2025": -0.0367,
+ "price_cagr_2005_2019": 0.0051,
+ "price_cagr_2019_2025": 0.0696,
+ "real_per_purchase_cagr_2005_2019": -0.0025,
+ "real_per_purchase_cagr_2019_2025": -0.0327,
  "slope_ci95": [
-  -0.9593,
-  -0.3448
+  -0.9535,
+  -0.2865
  ],
  "slope_nominal_ci95": [
-  0.0407,
-  0.6552
+  0.0465,
+  0.7135
  ],
- "slope_nominal_per_purchase_on_price": 0.348,
- "slope_real_per_purchase_on_price": -0.652,
- "slope_se": 0.1567,
+ "slope_nominal_per_purchase_on_price": 0.38,
+ "slope_real_per_purchase_on_price": -0.62,
+ "slope_se": 0.1701,
  "years_price_up_gt5pct": [
-  2013,
   2014,
   2023,
+  2024,
   2025
  ]
 }
