@@ -1,0 +1,393 @@
+{
+ "H1": {
+  "mean_cohort": -1.832,
+  "mean_cross": 45.098,
+  "mean_same_age": -46.933,
+  "ratio_cohort_to_cross": -0.041,
+  "result": "支持"
+ },
+ "H2": {
+  "coffee_qty_60s_pct": 3.2,
+  "coffee_qty_70plus_pct": 26.7,
+  "result": "支持"
+ },
+ "H3": {
+  "teabev_share_u29": 89.04,
+  "teabev_share_70plus": 58.87,
+  "result": "外れ"
+ },
+ "H4": {
+  "green_qty_pct": -51.113,
+  "coffee_qty_pct": 44.834,
+  "teabev_amt_pct": 144.73,
+  "coffeebev_amt_pct": 109.519,
+  "result": "外れ"
+ },
+ "H4_other_start": {
+  "2000": {
+   "green_qty_pct": -51.113,
+   "coffee_qty_pct": 44.834,
+   "teabev_amt_pct": 144.73,
+   "coffeebev_amt_pct": 109.519
+  },
+  "2002": {
+   "green_qty_pct": -47.569,
+   "coffee_qty_pct": 33.891,
+   "teabev_amt_pct": 99.733,
+   "coffeebev_amt_pct": 98.566
+  },
+  "2005": {
+   "green_qty_pct": -48.164,
+   "coffee_qty_pct": 22.64,
+   "teabev_amt_pct": 70.802,
+   "coffeebev_amt_pct": 97.37
+  },
+  "2000_to_2024": {
+   "green_qty_pct": -44.683,
+   "coffee_qty_pct": 47.11
+  }
+ },
+ "cohort_summary": {
+  "緑茶_qty_g_2015_2025": {
+   "mean_cohort": -1.832,
+   "mean_cross": 45.098,
+   "mean_same_age": -46.933,
+   "ratio_cohort_to_cross": -0.041
+  },
+  "コーヒー_qty_g_2015_2025": {
+   "mean_cohort": 14.875,
+   "mean_cross": 21.655,
+   "mean_same_age": -6.78,
+   "ratio_cohort_to_cross": 0.687
+  },
+  "緑茶_amount_2015_2025": {
+   "mean_cohort": 28.533,
+   "mean_cross": 48.715,
+   "mean_same_age": -20.18,
+   "ratio_cohort_to_cross": 0.586
+  },
+  "コーヒー_amount_2015_2025": {
+   "mean_cohort": 63.107,
+   "mean_cross": 24.655,
+   "mean_same_age": 38.45,
+   "ratio_cohort_to_cross": 2.56
+  },
+  "茶飲料_amount_2015_2025": {
+   "mean_cohort": 41.37,
+   "mean_cross": 5.918,
+   "mean_same_age": 35.453,
+   "ratio_cohort_to_cross": 6.991
+  },
+  "コーヒー飲料_amount_2015_2025": {
+   "mean_cohort": 34.06,
+   "mean_cross": 3.408,
+   "mean_same_age": 30.652,
+   "ratio_cohort_to_cross": 9.996
+  },
+  "茶計_amount_2015_2025": {
+   "mean_cohort": 38.65,
+   "mean_cross": 16.57,
+   "mean_same_age": 22.08,
+   "ratio_cohort_to_cross": 2.333
+  },
+  "茶とコーヒーの計_amount_2015_2025": {
+   "mean_cohort": 43.75,
+   "mean_cross": 15.295,
+   "mean_same_age": 28.455,
+   "ratio_cohort_to_cross": 2.86
+  },
+  "緑茶_qty_g_2014_2024": {
+   "mean_cohort": 4.11,
+   "mean_cross": 34.51,
+   "mean_same_age": -30.4,
+   "ratio_cohort_to_cross": 0.119
+  },
+  "コーヒー_qty_g_2014_2024": {
+   "mean_cohort": 28.13,
+   "mean_cross": 30.428,
+   "mean_same_age": -2.298,
+   "ratio_cohort_to_cross": 0.924
+  },
+  "緑茶_amount_2014_2024": {
+   "mean_cohort": 28.058,
+   "mean_cross": 54.315,
+   "mean_same_age": -26.255,
+   "ratio_cohort_to_cross": 0.517
+  },
+  "コーヒー_amount_2014_2024": {
+   "mean_cohort": 64.845,
+   "mean_cross": 34.235,
+   "mean_same_age": 30.612,
+   "ratio_cohort_to_cross": 1.894
+  },
+  "茶飲料_amount_2014_2024": {
+   "mean_cohort": 44.962,
+   "mean_cross": 5.36,
+   "mean_same_age": 39.603,
+   "ratio_cohort_to_cross": 8.389
+  },
+  "コーヒー飲料_amount_2014_2024": {
+   "mean_cohort": 36.587,
+   "mean_cross": 6.1,
+   "mean_same_age": 30.488,
+   "ratio_cohort_to_cross": 5.998
+  },
+  "茶計_amount_2014_2024": {
+   "mean_cohort": 41.547,
+   "mean_cross": 17.983,
+   "mean_same_age": 23.565,
+   "ratio_cohort_to_cross": 2.31
+  },
+  "茶とコーヒーの計_amount_2014_2024": {
+   "mean_cohort": 44.758,
+   "mean_cross": 18.538,
+   "mean_same_age": 26.218,
+   "ratio_cohort_to_cross": 2.414
+  },
+  "緑茶_qty_g_2013_2023": {
+   "mean_cohort": 19.572,
+   "mean_cross": 55.767,
+   "mean_same_age": -36.195,
+   "ratio_cohort_to_cross": 0.351
+  },
+  "コーヒー_qty_g_2013_2023": {
+   "mean_cohort": 30.26,
+   "mean_cross": 24.863,
+   "mean_same_age": 5.397,
+   "ratio_cohort_to_cross": 1.217
+  },
+  "緑茶_amount_2013_2023": {
+   "mean_cohort": 17.793,
+   "mean_cross": 55.223,
+   "mean_same_age": -37.435,
+   "ratio_cohort_to_cross": 0.322
+  },
+  "コーヒー_amount_2013_2023": {
+   "mean_cohort": 60.462,
+   "mean_cross": 28.285,
+   "mean_same_age": 32.175,
+   "ratio_cohort_to_cross": 2.138
+  },
+  "茶飲料_amount_2013_2023": {
+   "mean_cohort": 35.427,
+   "mean_cross": 4.137,
+   "mean_same_age": 31.29,
+   "ratio_cohort_to_cross": 8.563
+  },
+  "コーヒー飲料_amount_2013_2023": {
+   "mean_cohort": 29.235,
+   "mean_cross": 0.543,
+   "mean_same_age": 28.693,
+   "ratio_cohort_to_cross": 53.889
+  },
+  "茶計_amount_2013_2023": {
+   "mean_cohort": 32.145,
+   "mean_cross": 17.137,
+   "mean_same_age": 15.008,
+   "ratio_cohort_to_cross": 1.876
+  },
+  "茶とコーヒーの計_amount_2013_2023": {
+   "mean_cohort": 38.06,
+   "mean_cross": 16.11,
+   "mean_same_age": 21.95,
+   "ratio_cohort_to_cross": 2.363
+  }
+ },
+ "same_age_2015_2025": {
+  "緑茶_平均": -29.7,
+  "緑茶_29歳以下": -9.8,
+  "緑茶_30〜39歳": -46.9,
+  "緑茶_40〜49歳": -31.7,
+  "緑茶_50〜59歳": -26.5,
+  "緑茶_60〜69歳": -42.6,
+  "緑茶_70歳以上": -27.4,
+  "コーヒー_平均": 2.9,
+  "コーヒー_29歳以下": -60.9,
+  "コーヒー_30〜39歳": -16.9,
+  "コーヒー_40〜49歳": -4.1,
+  "コーヒー_50〜59歳": -7.4,
+  "コーヒー_60〜69歳": 3.2,
+  "コーヒー_70歳以上": 26.7
+ },
+ "shares_2025": {
+  "29歳以下": {
+   "tea_bev_share": 89.04,
+   "coffee_bev_share": 46.65,
+   "coffee_vs_tea": 1.03,
+   "home_drinks": 15026.0
+  },
+  "30〜39歳": {
+   "tea_bev_share": 88.85,
+   "coffee_bev_share": 48.65,
+   "coffee_vs_tea": 1.32,
+   "home_drinks": 24417.0
+  },
+  "40〜49歳": {
+   "tea_bev_share": 87.12,
+   "coffee_bev_share": 47.31,
+   "coffee_vs_tea": 1.4,
+   "home_drinks": 29895.0
+  },
+  "50〜59歳": {
+   "tea_bev_share": 83.53,
+   "coffee_bev_share": 45.35,
+   "coffee_vs_tea": 1.38,
+   "home_drinks": 33886.0
+  },
+  "60〜69歳": {
+   "tea_bev_share": 74.83,
+   "coffee_bev_share": 36.53,
+   "coffee_vs_tea": 1.47,
+   "home_drinks": 34499.0
+  },
+  "70歳以上": {
+   "tea_bev_share": 58.87,
+   "coffee_bev_share": 30.37,
+   "coffee_vs_tea": 1.14,
+   "home_drinks": 29035.0
+  },
+  "平均": {
+   "tea_bev_share": 73.97,
+   "coffee_bev_share": 39.27,
+   "coffee_vs_tea": 1.31,
+   "home_drinks": 30579.0
+  }
+ },
+ "shares_2015": {
+  "29歳以下": {
+   "tea_bev_share": 88.3,
+   "coffee_vs_tea": 1.13,
+   "home_drinks": 14079.0
+  },
+  "30〜39歳": {
+   "tea_bev_share": 87.1,
+   "coffee_vs_tea": 1.42,
+   "home_drinks": 18609.0
+  },
+  "40〜49歳": {
+   "tea_bev_share": 79.87,
+   "coffee_vs_tea": 1.34,
+   "home_drinks": 22113.0
+  },
+  "50〜59歳": {
+   "tea_bev_share": 70.65,
+   "coffee_vs_tea": 1.15,
+   "home_drinks": 25594.0
+  },
+  "60〜69歳": {
+   "tea_bev_share": 57.67,
+   "coffee_vs_tea": 1.04,
+   "home_drinks": 25957.0
+  },
+  "70歳以上": {
+   "tea_bev_share": 38.62,
+   "coffee_vs_tea": 0.75,
+   "home_drinks": 21458.0
+  },
+  "平均": {
+   "tea_bev_share": 60.08,
+   "coffee_vs_tea": 1.05,
+   "home_drinks": 23003.0
+  }
+ },
+ "age_profile_green_70_vs_30": {
+  "2013": 3.606,
+  "2014": 4.922,
+  "2015": 3.821,
+  "2023": 3.706,
+  "2024": 3.591,
+  "2025": 5.219
+ },
+ "national": {
+  "2000": {
+   "緑茶": [
+    6820.0,
+    1213.0
+   ],
+   "コーヒー": [
+    5252.0,
+    1713.0
+   ],
+   "茶飲料": [
+    3662.0,
+    null
+   ],
+   "コーヒー飲料": [
+    2973.0,
+    null
+   ]
+  },
+  "2005": {
+   "緑茶": [
+    5615.0,
+    1144.0
+   ],
+   "コーヒー": [
+    4758.0,
+    2023.0
+   ],
+   "茶飲料": [
+    5247.0,
+    null
+   ],
+   "コーヒー飲料": [
+    3156.0,
+    null
+   ]
+  },
+  "2015": {
+   "緑茶": [
+    4083.0,
+    843.0
+   ],
+   "コーヒー": [
+    6266.0,
+    2411.0
+   ],
+   "茶飲料": [
+    6146.0,
+    null
+   ],
+   "コーヒー飲料": [
+    4452.0,
+    null
+   ]
+  },
+  "2024": {
+   "緑茶": [
+    3194.0,
+    671.0
+   ],
+   "コーヒー": [
+    7890.0,
+    2520.0
+   ],
+   "茶飲料": [
+    8648.0,
+    null
+   ],
+   "コーヒー飲料": [
+    5619.0,
+    null
+   ]
+  },
+  "2025": {
+   "緑茶": [
+    3153.0,
+    593.0
+   ],
+   "コーヒー": [
+    9635.0,
+    2481.0
+   ],
+   "茶飲料": [
+    8962.0,
+    null
+   ],
+   "コーヒー飲料": [
+    6229.0,
+    null
+   ]
+  }
+ }
+}
