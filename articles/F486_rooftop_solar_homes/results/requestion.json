@@ -1,0 +1,26 @@
+{
+ "総数": {
+  "solar_in_built_2019_2023": 499300.0,
+  "increase_2018_2023": 510300.0,
+  "share_of_increase_pct": 97.8,
+  "built_2019_2023_total": 4467700.0,
+  "share_among_built_2019_2023_pct": 11.18,
+  "existing_net_change": 11000.0
+ },
+ "持ち家": {
+  "solar_in_built_2019_2023": 461500.0,
+  "increase_2018_2023": 475700.0,
+  "share_of_increase_pct": 97.0,
+  "built_2019_2023_total": 2610900.0,
+  "share_among_built_2019_2023_pct": 17.68,
+  "existing_net_change": 14200.0
+ },
+ "借家": {
+  "solar_in_built_2019_2023": 37700.0,
+  "increase_2018_2023": 34600.0,
+  "share_of_increase_pct": 109.0,
+  "built_2019_2023_total": 1856700.0,
+  "share_among_built_2019_2023_pct": 2.03,
+  "existing_net_change": -3100.0
+ }
+}
