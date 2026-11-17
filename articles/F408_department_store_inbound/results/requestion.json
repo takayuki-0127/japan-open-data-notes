@@ -1,0 +1,109 @@
+{
+ "corr_yoy_china": {
+  "その他の商品": 0.519,
+  "合計": 0.501,
+  "衣料品計": 0.47,
+  "身の回り品": 0.443,
+  "飲食料品": 0.309
+ },
+ "corr_yoy_total_visitors": {
+  "その他の商品": 0.611,
+  "合計": 0.562,
+  "衣料品計": 0.562,
+  "身の回り品": 0.541,
+  "飲食料品": 0.082
+ },
+ "jan_sep_2026_vs_2025_pct": {
+  "その他の商品": 6.8,
+  "合計": 3.21,
+  "衣料品計": 3.25,
+  "訪日外客数（中国）": -55.45,
+  "訪日外客数（総数）": -2.91,
+  "身の回り品": 5.97,
+  "飲食料品": 0.42
+ },
+ "monthly_2026": [
+  {
+   "accessories_yoy": 0.5,
+   "china_yoy": -60.7,
+   "dept_yoy": 2.2,
+   "food_yoy": 2.9,
+   "month": 1,
+   "other_goods_yoy": 8.1,
+   "visitors_yoy": -4.9
+  },
+  {
+   "accessories_yoy": 0.5,
+   "china_yoy": -45.2,
+   "dept_yoy": 1.6,
+   "food_yoy": 0.5,
+   "month": 2,
+   "other_goods_yoy": 4.8,
+   "visitors_yoy": 6.4
+  },
+  {
+   "accessories_yoy": 4.4,
+   "china_yoy": -55.9,
+   "dept_yoy": 2.3,
+   "food_yoy": -0.1,
+   "month": 3,
+   "other_goods_yoy": 5.5,
+   "visitors_yoy": 3.5
+  },
+  {
+   "accessories_yoy": 9.2,
+   "china_yoy": -56.8,
+   "dept_yoy": 4.5,
+   "food_yoy": 0.4,
+   "month": 4,
+   "other_goods_yoy": 9.0,
+   "visitors_yoy": -5.5
+  },
+  {
+   "accessories_yoy": 16.3,
+   "china_yoy": -60.4,
+   "dept_yoy": 7.6,
+   "food_yoy": 1.6,
+   "month": 5,
+   "other_goods_yoy": 11.8,
+   "visitors_yoy": -3.6
+  },
+  {
+   "accessories_yoy": 6.6,
+   "china_yoy": -57.3,
+   "dept_yoy": 1.3,
+   "food_yoy": -3.5,
+   "month": 6,
+   "other_goods_yoy": 7.3,
+   "visitors_yoy": -6.8
+  },
+  {
+   "accessories_yoy": 9.4,
+   "china_yoy": -56.1,
+   "dept_yoy": 4.3,
+   "food_yoy": -0.5,
+   "month": 7,
+   "other_goods_yoy": 8.7,
+   "visitors_yoy": 0.2
+  },
+  {
+   "accessories_yoy": 1.5,
+   "china_yoy": -59.0,
+   "dept_yoy": 1.9,
+   "food_yoy": 1.5,
+   "month": 8,
+   "other_goods_yoy": 4.6,
+   "visitors_yoy": -9.6
+  },
+  {
+   "accessories_yoy": 6.1,
+   "china_yoy": -44.5,
+   "dept_yoy": 3.4,
+   "food_yoy": 2.0,
+   "month": 9,
+   "other_goods_yoy": 1.8,
+   "visitors_yoy": -5.0
+  }
+ ],
+ "n_months": 33
+}

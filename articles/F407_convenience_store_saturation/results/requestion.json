@@ -1,0 +1,69 @@
+{
+ "decomp": [
+  {
+   "cpi_log_pct": 3.37,
+   "per_store_log_pct": 7.98,
+   "per_store_real_log_pct": 4.61,
+   "period": "2010-2016",
+   "sales_log_pct": 30.61,
+   "stores_log_pct": 22.63,
+   "stores_share_of_sales_growth_pct": 73.9
+  },
+  {
+   "cpi_log_pct": 1.92,
+   "per_store_log_pct": 3.79,
+   "per_store_real_log_pct": 1.87,
+   "period": "2016-2019",
+   "sales_log_pct": 6.0,
+   "stores_log_pct": 2.22,
+   "stores_share_of_sales_growth_pct": 36.9
+  },
+  {
+   "cpi_log_pct": 11.32,
+   "per_store_log_pct": 8.49,
+   "per_store_real_log_pct": -2.82,
+   "period": "2019-2025",
+   "sales_log_pct": 9.2,
+   "stores_log_pct": 0.71,
+   "stores_share_of_sales_growth_pct": 7.7
+  }
+ ],
+ "food_items_per_store_change_pct": 8.78,
+ "food_items_per_store_real_food_cpi_pct": -14.72,
+ "items": [
+  {
+   "change_pct": 4.64,
+   "contribution_pt": 1.75,
+   "item": "ff_daily",
+   "item_ja": "FF・日配食品",
+   "per_store_2019_man": 8174.6,
+   "per_store_2025_man": 8554.1
+  },
+  {
+   "change_pct": 14.65,
+   "contribution_pt": 3.91,
+   "item": "processed",
+   "item_ja": "加工食品",
+   "per_store_2019_man": 5768.1,
+   "per_store_2025_man": 6613.0
+  },
+  {
+   "change_pct": 13.15,
+   "contribution_pt": 3.94,
+   "item": "nonfood",
+   "item_ja": "非食品",
+   "per_store_2019_man": 6478.9,
+   "per_store_2025_man": 7330.5
+  },
+  {
+   "change_pct": -13.13,
+   "contribution_pt": -0.73,
+   "item": "service",
+   "item_ja": "サービス",
+   "per_store_2019_man": 1206.1,
+   "per_store_2025_man": 1047.7
+  }
+ ],
+ "nonfood_service_per_store_real_all_cpi_pct": -2.64,
+ "per_store_nom_change_pct_2019_2025": 8.86
+}

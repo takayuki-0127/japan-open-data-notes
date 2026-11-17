@@ -1,0 +1,3 @@
+2026-11-18 再実行（独立レビュー）：16 ファイル一致、所要 4 秒（/tmp/rvG_F407 に写し、results の CSV・JSON、figures の PNG、02 以降が作る data の CSV を消して sh src/run_all.sh を流し、元と cmp で比較）
+
+前の記録：2026-11-18 再実行：16 ファイル一致（results の CSV・JSON 7、figures の PNG 4、02_build が作る data の CSV 5）、所要 4 秒（/tmp/rep_F407 に写し、02 以降が作るファイルを消してから src/run_all.sh を実行し cmp で比較）
