@@ -1,0 +1,227 @@
+{
+ "japan": {
+  "2008": {
+   "lots_total": 6265000.0,
+   "unused_lots": 985000.0,
+   "unused_share": 15.72,
+   "vacant_lots": null,
+   "vacant_share": null
+  },
+  "2013": {
+   "lots_total": 7716000.0,
+   "unused_lots": 1276000.0,
+   "unused_share": 16.54,
+   "vacant_lots": null,
+   "vacant_share": null
+  },
+  "2018": {
+   "lots_total": 7191000.0,
+   "unused_lots": 1201000.0,
+   "unused_share": 16.7,
+   "vacant_lots": 908000.0,
+   "vacant_share": 12.63
+  },
+  "2023": {
+   "lots_total": 7104000.0,
+   "unused_lots": 1147000.0,
+   "unused_share": 16.15,
+   "vacant_lots": 830000.0,
+   "vacant_share": 11.68
+  }
+ },
+ "regions": {
+  "北海道": {
+   "vacant_share_2018": 21.3,
+   "vacant_share_2023": 18.75,
+   "vacant_2018": 59000.0,
+   "vacant_2023": 45000.0,
+   "inh_share_2023": 42.5,
+   "d_vacant_share": -2.55
+  },
+  "東北": {
+   "vacant_share_2018": 15.21,
+   "vacant_share_2023": 14.35,
+   "vacant_2018": 94000.0,
+   "vacant_2023": 90000.0,
+   "inh_share_2023": 51.99,
+   "d_vacant_share": -0.86
+  },
+  "関東": {
+   "vacant_share_2018": 10.63,
+   "vacant_share_2023": 10.53,
+   "vacant_2018": 212000.0,
+   "vacant_2023": 204000.0,
+   "inh_share_2023": 52.27,
+   "d_vacant_share": -0.1
+  },
+  "中部": {
+   "vacant_share_2018": 11.5,
+   "vacant_share_2023": 10.54,
+   "vacant_2018": 179000.0,
+   "vacant_2023": 165000.0,
+   "inh_share_2023": 54.95,
+   "d_vacant_share": -0.95
+  },
+  "近畿": {
+   "vacant_share_2018": 11.49,
+   "vacant_share_2023": 10.59,
+   "vacant_2018": 125000.0,
+   "vacant_2023": 113000.0,
+   "inh_share_2023": 51.73,
+   "d_vacant_share": -0.9
+  },
+  "中国": {
+   "vacant_share_2018": 13.64,
+   "vacant_share_2023": 11.03,
+   "vacant_2018": 76000.0,
+   "vacant_2023": 62000.0,
+   "inh_share_2023": 54.98,
+   "d_vacant_share": -2.61
+  },
+  "四国": {
+   "vacant_share_2018": 12.54,
+   "vacant_share_2023": 13.82,
+   "vacant_2018": 36000.0,
+   "vacant_2023": 38000.0,
+   "inh_share_2023": 56.0,
+   "d_vacant_share": 1.27
+  },
+  "九州・沖縄": {
+   "vacant_share_2018": 15.48,
+   "vacant_share_2023": 13.51,
+   "vacant_2018": 126000.0,
+   "vacant_2023": 112000.0,
+   "inh_share_2023": 52.11,
+   "d_vacant_share": -1.97
+  }
+ },
+ "corr_2023": {
+  "r": -0.007,
+  "p": 0.9651,
+  "n": 47,
+  "slope": -0.006
+ },
+ "city_vs_rest": {
+  "2018": {
+   "city_vacant_share": 9.88,
+   "rest_vacant_share": 12.66,
+   "city_unused_share": 12.25,
+   "rest_unused_share": 16.26,
+   "city_hh_vacant_share": 13.1,
+   "rest_hh_vacant_share": 17.65
+  },
+  "2023": {
+   "city_vacant_share": 8.87,
+   "rest_vacant_share": 11.84,
+   "city_unused_share": 11.18,
+   "rest_unused_share": 15.73,
+   "city_hh_vacant_share": 11.92,
+   "rest_hh_vacant_share": 16.29
+  }
+ },
+ "robustness": [
+  {
+   "check": "0 主：2023年、ピアソン、47都道府県、件数",
+   "value": -0.007,
+   "note": "p=0.9651"
+  },
+  {
+   "check": "1 2018年で計算",
+   "value": -0.161,
+   "note": "p=0.2789"
+  },
+  {
+   "check": "2a スピアマンの順位相関（2023年）",
+   "value": 0.026,
+   "note": "p=0.8631"
+  },
+  {
+   "check": "2b 北海道を除く（2023年、46都府県）",
+   "value": 0.152,
+   "note": "p=0.3120"
+  },
+  {
+   "check": "3a 割合を世帯数で（2023年）",
+   "value": -0.039,
+   "note": "p=0.7949"
+  },
+  {
+   "check": "4a 空き地＋原野などの割合（2023年）",
+   "value": 0.012,
+   "note": "p=0.9353"
+  },
+  {
+   "check": "3b H2 を世帯数の割合で：下がった地方の数",
+   "value": 7,
+   "note": "8地方のうち"
+  },
+  {
+   "check": "4b H2 を空き地＋原野などで：下がった地方の数",
+   "value": 6,
+   "note": "8地方のうち"
+  },
+  {
+   "check": "3c H4 を世帯数の割合で（2023年）：政令市／政令市以外",
+   "value": "11.92／16.29",
+   "note": ""
+  }
+ ],
+ "requestion_tenure": {
+  "2018": {
+   "own_vacant_share": 12.68,
+   "rent_vacant_share": 11.94,
+   "own_lots": 6546000.0,
+   "rent_lots": 645000.0,
+   "own_vacant": 830000.0,
+   "rent_vacant": 77000.0,
+   "vacant_area_per_lot": 561.0
+  },
+  "2023": {
+   "own_vacant_share": 11.82,
+   "rent_vacant_share": 10.15,
+   "own_lots": 6522000.0,
+   "rent_lots": 581000.0,
+   "own_vacant": 771000.0,
+   "rent_vacant": 59000.0,
+   "vacant_area_per_lot": 593.0
+  }
+ },
+ "vacant_area_km2": {
+  "2018": 509.4,
+  "2023": 492.2
+ },
+ "requestion_stability": {
+  "r_2018_2023": 0.767,
+  "p1": 0.0,
+  "r_level_change": -0.305,
+  "p2": 0.0369,
+  "n_down": 30,
+  "median_change": -0.82,
+  "min_change": -4.5,
+  "max_change": 3.64
+ },
+ "hypotheses": {
+  "H1": {
+   "value": [
+    1276000.0,
+    1147000.0
+   ],
+   "verdict": "支持"
+  },
+  "H2": {
+   "value": 7,
+   "verdict": "支持"
+  },
+  "H3": {
+   "value": -0.007,
+   "verdict": "外れ"
+  },
+  "H4": {
+   "value": [
+    8.87,
+    11.84
+   ],
+   "verdict": "支持"
+  }
+ }
+}
