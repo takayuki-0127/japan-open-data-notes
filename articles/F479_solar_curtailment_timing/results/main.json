@@ -1,0 +1,81 @@
+{
+ "period": "2018〜2025年度（九州本土）",
+ "total_pv_cut_gwh_2018_2025": 4815.1,
+ "fy_pv_cut_gwh": {
+  "2016": 0.0,
+  "2017": 0.0,
+  "2018": 94.8,
+  "2019": 443.2,
+  "2020": 385.5,
+  "2021": 512.5,
+  "2022": 438.9,
+  "2023": 1265.4,
+  "2024": 727.6,
+  "2025": 947.3
+ },
+ "fy_pv_cut_rate_pct": {
+  "2016": 0.0,
+  "2017": 0.0,
+  "2018": 0.95,
+  "2019": 4.07,
+  "2020": 3.0,
+  "2021": 3.95,
+  "2022": 3.1,
+  "2023": 8.6,
+  "2024": 4.87,
+  "2025": 5.93
+ },
+ "fy_cut_days": {
+  "2016": 0,
+  "2017": 0,
+  "2018": 42,
+  "2019": 115,
+  "2020": 105,
+  "2021": 108,
+  "2022": 149,
+  "2023": 158,
+  "2024": 148,
+  "2025": 156
+ },
+ "spring_share_pct": 75.0,
+ "autumn_share_pct": 11.5,
+ "jun_aug_share_pct": 3.8,
+ "dec_feb_share_pct": 9.7,
+ "top_month": 4,
+ "top_month_share_pct": 27.4,
+ "noon_11_13_share_pct": 58.4,
+ "peak_hour": 12,
+ "peak_hour_share_pct": 22.0,
+ "hours_with_cut_range": [
+  7,
+  16
+ ],
+ "holiday_mwh_per_day": 2714.1,
+ "weekday_mwh_per_day": 1108.2,
+ "holiday_ratio": 2.45,
+ "holiday_share_of_days_pct": 33.6,
+ "holiday_share_of_cut_pct": 55.4,
+ "avg_gwh_2018_2022": 375.0,
+ "avg_gwh_2023_2025": 980.1,
+ "late_vs_early_ratio": 2.61,
+ "max_gap_vs_official_pt": 0.04,
+ "hypotheses": {
+  "H1_spring_ge_50": {
+   "value": 75.0,
+   "result": "支持"
+  },
+  "H2_noon_ge_50_and_peak_in_11_13": {
+   "value": 58.4,
+   "peak_hour": 12,
+   "result": "支持"
+  },
+  "H3_holiday_ratio_ge_1_5": {
+   "value": 2.45,
+   "result": "支持"
+  },
+  "H4_late_ge_2x_early": {
+   "value": 2.61,
+   "result": "支持"
+  }
+ }
+}

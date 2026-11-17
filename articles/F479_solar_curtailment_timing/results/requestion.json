@@ -1,0 +1,18 @@
+{
+ "n_days": 2739,
+ "noon_demand_gw_weekday": 10.94,
+ "noon_demand_gw_holiday": 9.34,
+ "holiday_coef_no_control_gwh": 1.731,
+ "holiday_coef_no_control_se": 0.177,
+ "holiday_coef_with_demand_gwh": 0.684,
+ "holiday_coef_with_demand_se": 0.158,
+ "demand_coef_gwh_per_gw": -0.687,
+ "pv_coef_gwh_per_gw": 0.95,
+ "share_of_holiday_gap_left_pct": 39.5,
+ "spring_holiday_coef_with_demand_gwh": 1.647,
+ "spring_holiday_coef_with_demand_se": 0.578,
+ "spring_raw_diff_gwh": 3.947,
+ "spring_matched_diff_gwh": -1.205,
+ "r2_no_control": 0.369,
+ "r2_with_demand": 0.557
+}
