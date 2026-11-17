@@ -1,0 +1,21 @@
+{
+ "year": 2025,
+ "p_single_young": 0.84,
+ "D_single_young": 2536.0,
+ "D_two_young": 1007.0,
+ "D_total_young": 2294.0,
+ "D_mix_young": 2291.36,
+ "p_single_old": 0.3557,
+ "D_single_old": 132.0,
+ "D_two_old": 348.0,
+ "D_total_old": 277.0,
+ "D_mix_old": 271.1678,
+ "D_young_cf": 1550.8725,
+ "ratio_actual": 8.2816,
+ "ratio_cf": 5.7192,
+ "ratio_two_plus": 2.8937,
+ "mix_fit_max_abs_rel_err_young": 0.0091,
+ "log_share_explained_by_single_mix_2025": 0.1829,
+ "ratio_cf_2015_2017": 14.477,
+ "ratio_cf_2023_2025": 7.111
+}

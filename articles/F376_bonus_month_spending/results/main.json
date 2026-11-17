@@ -1,0 +1,277 @@
+{
+ "years": [
+  2000,
+  2025
+ ],
+ "bonus_months": [
+  6,
+  7,
+  12
+ ],
+ "mean_excess_yen_per_year": {
+  "実収入": 962547.0,
+  "世帯主の臨時収入・賞与": 785767.0,
+  "非消費支出": 153140.0,
+  "可処分所得": 809407.0,
+  "消費支出": 24879.0,
+  "黒字": 784528.0
+ },
+ "A_pooled": 0.0307,
+ "slope_b": -0.0167,
+ "slope_se": 0.0413,
+ "intercept_yen": 38380.0,
+ "slope_ci95": [
+  -0.0976,
+  0.0643
+ ],
+ "intercept_share_of_mean_excess_C": 1.5427,
+ "decomp_share_of_excess_Yd": {
+  "消費支出": 0.0307,
+  "黒字": 0.9693,
+  "預貯金純増": 0.8765,
+  "保険純増": 0.0113,
+  "有価証券純購入": 0.0053,
+  "土地家屋借金純減": 0.0213,
+  "他の借金純減": 0.0051,
+  "クレジット購入借入金純減": -0.0092,
+  "財産純増": 0.0099,
+  "その他の純増": -0.0006,
+  "繰越純増": 0.0498
+ },
+ "decomp_sum_check": 1.0001,
+ "deposit_share_of_excess_surplus": 0.9043,
+ "A_y_mean_2000_2009": 0.06,
+ "A_y_mean_2016_2025": 0.008,
+ "A_y_min": {
+  "year": 2023,
+  "value": -0.0041
+ },
+ "A_y_max": {
+  "year": 2000,
+  "value": 0.0997
+ },
+ "excess_Yd_2000": 930593.0,
+ "excess_Yd_2025": 998900.0,
+ "excess_C_2000": 92788.0,
+ "excess_C_2025": -3550.0,
+ "A_2025": -0.0036,
+ "bonus_share_of_income_2000": 0.1501,
+ "bonus_share_of_income_2025": 0.1569,
+ "hypotheses": {
+  "H1": {
+   "A": 0.0307,
+   "rule": "A<0.50",
+   "result": "支持"
+  },
+  "H2": {
+   "A": 0.0307,
+   "b": -0.0167,
+   "rule": "b < A-0.10",
+   "result": "外れ"
+  },
+  "H3": {
+   "deposit_share_of_surplus": 0.9043,
+   "loan_share_of_Yd": 0.0213,
+   "biggest_part": "預貯金純増",
+   "rule": "預貯金が黒字の上乗せの最大で半分以上、かつ住宅ローン返済が可処分所得の上乗せの10%以上",
+   "result": "外れ"
+  },
+  "H4": {
+   "mean_2000_2009": 0.06,
+   "mean_2016_2025": 0.008,
+   "rule": "後の期間が5ポイント以上低い",
+   "result": "支持"
+  }
+ },
+ "summer_excess_C_yen": -19012.0,
+ "winter_excess_C_yen": 43892.0,
+ "top_cats_summer": [
+  {
+   "item": "家具・家事用品",
+   "summer_yen": 4340.0,
+   "summer_share": -0.2283
+  },
+  {
+   "item": "住居",
+   "summer_yen": 1766.0,
+   "summer_share": -0.0929
+  },
+  {
+   "item": "教養娯楽",
+   "summer_yen": 1074.0,
+   "summer_share": -0.0565
+  }
+ ],
+ "top_cats_winter": [
+  {
+   "item": "食料",
+   "winter_yen": 15213.0,
+   "winter_share": 0.3466
+  },
+  {
+   "item": "その他の消費支出",
+   "winter_yen": 13395.0,
+   "winter_share": 0.3052
+  },
+  {
+   "item": "教養娯楽",
+   "winter_yen": 6603.0,
+   "winter_share": 0.1504
+  }
+ ],
+ "top_items_summer": [
+  {
+   "item": "こづかい(使途不明)",
+   "summer_yen": 4248.0,
+   "summer_share": -0.2235
+  },
+  {
+   "item": "家庭用耐久財",
+   "summer_yen": 2958.0,
+   "summer_share": -0.1556
+  },
+  {
+   "item": "パック旅行費",
+   "summer_yen": 2327.0,
+   "summer_share": -0.1224
+  },
+  {
+   "item": "教養娯楽サービス",
+   "summer_yen": 1553.0,
+   "summer_share": -0.0817
+  },
+  {
+   "item": "交際費のうち食料",
+   "summer_yen": 797.0,
+   "summer_share": -0.0419
+  }
+ ],
+ "top_items_winter": [
+  {
+   "item": "交際費",
+   "winter_yen": 7490.0,
+   "winter_share": 0.1706
+  },
+  {
+   "item": "こづかい(使途不明)",
+   "winter_yen": 5895.0,
+   "winter_share": 0.1343
+  },
+  {
+   "item": "交際費のうち食料",
+   "winter_yen": 4589.0,
+   "winter_share": 0.1046
+  },
+  {
+   "item": "教養娯楽用品",
+   "winter_yen": 3778.0,
+   "winter_share": 0.0861
+  },
+  {
+   "item": "外食",
+   "winter_yen": 2456.0,
+   "winter_share": 0.0559
+  }
+ ],
+ "A_summer": -0.0524,
+ "A_winter": 0.0982,
+ "robustness": [
+  {
+   "check": "基本（9か月の平均を基準、2000〜2025年）",
+   "A": 0.0307,
+   "b": -0.0167,
+   "b_se": 0.0413,
+   "n_years": 26,
+   "note": ""
+  },
+  {
+   "check": "基準を近い月にする",
+   "A": 0.0363,
+   "b": -0.0277,
+   "b_se": 0.045,
+   "n_years": 26,
+   "note": ""
+  },
+  {
+   "check": "分母を実収入にする",
+   "A": 0.0258,
+   "b": -0.0515,
+   "b_se": 0.0331,
+   "n_years": 26,
+   "note": "A と b は実収入の上乗せに対する割合"
+  },
+  {
+   "check": "2020・2021年を除く",
+   "A": 0.0337,
+   "b": 0.0107,
+   "b_se": 0.0468,
+   "n_years": 24,
+   "note": ""
+  },
+  {
+   "check": "2018年以降だけ",
+   "A": 0.0061,
+   "b": 0.0337,
+   "b_se": 0.0454,
+   "n_years": 8,
+   "note": ""
+  },
+  {
+   "check": "2000〜2017年だけ",
+   "A": 0.0446,
+   "b": 0.2907,
+   "b_se": 0.0454,
+   "n_years": 18,
+   "note": ""
+  },
+  {
+   "check": "夏（6・7月）だけ",
+   "A": -0.0524,
+   "b": -0.037,
+   "b_se": 0.0338,
+   "n_years": 26,
+   "note": ""
+  },
+  {
+   "check": "冬（12月）だけ",
+   "A": 0.0982,
+   "b": 0.0313,
+   "b_se": 0.053,
+   "n_years": 26,
+   "note": ""
+  },
+  {
+   "check": "傾き：前年との差どうしの回帰",
+   "A": null,
+   "b": 0.0899,
+   "b_se": 0.0461,
+   "n_years": 25,
+   "note": ""
+  },
+  {
+   "check": "傾き：年の直線の傾向を入れた回帰",
+   "A": null,
+   "b": 0.0833,
+   "b_se": 0.0197,
+   "n_years": 26,
+   "note": ""
+  },
+  {
+   "check": "傾き：Theil-Sen",
+   "A": null,
+   "b": -0.0134,
+   "b_se": null,
+   "n_years": 26,
+   "note": ""
+  },
+  {
+   "check": "年ごとの比 A_y の中央値",
+   "A": 0.0271,
+   "b": null,
+   "b_se": null,
+   "n_years": 26,
+   "note": ""
+  }
+ ],
+ "summer_2026_A": -0.1133
+}

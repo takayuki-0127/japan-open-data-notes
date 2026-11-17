@@ -1,0 +1,27 @@
+{
+ "drawdown_ratio_mean_2000_2009": 0.0648,
+ "drawdown_ratio_mean_2016_2025": -0.5364,
+ "deposit_bonus_months_mean_2016_2025": 1036163.0,
+ "deposit_other_months_mean_2016_2025": 587327.0,
+ "deposit_bonus_months_mean_2000_2009": 620536.0,
+ "deposit_other_months_mean_2000_2009": -40047.0,
+ "negative_deposit_months_mean_2016_2025": 0.6,
+ "negative_deposit_months_mean_2000_2009": 4.8,
+ "surplus_other_months_mean_2016_2025": 810315.0,
+ "consumption_cv_by_month_2016_2025": 0.0522,
+ "disposable_cv_by_month_2016_2025": 0.3178,
+ "deposit_by_month_2016_2025": {
+  "1": 38294.0,
+  "2": 103833.0,
+  "3": 35421.0,
+  "4": 72417.0,
+  "5": 15220.0,
+  "6": 369305.0,
+  "7": 172048.0,
+  "8": 101858.0,
+  "9": 48257.0,
+  "10": 109274.0,
+  "11": 62753.0,
+  "12": 494810.0
+ }
+}
