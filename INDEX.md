@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 274本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 374本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,22 +10,22 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 142 |
-| 因果推論・効果検証 | 69 |
+| 予測・時系列 | 125 |
+| 因果推論・効果検証 | 59 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 322 |
-| 機械学習・モデル評価 | 139 |
-| 顧客分析・生存分析 | 66 |
-| SQL・データ処理 | 99 |
+| 統計の考え方（検定・区間・回帰） | 287 |
+| 機械学習・モデル評価 | 103 |
+| 顧客分析・生存分析 | 63 |
+| SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 135 |
-| 可視化・報告・BI | 45 |
-| 保険数理・リスク | 75 |
-| テキスト・ネットワーク・空間 | 33 |
-| 再現性・振り返り | 100 |
-| その他（記述・要因分解など） | 329 |
+| 集計の定義・KPI | 136 |
+| 可視化・報告・BI | 41 |
+| 保険数理・リスク | 73 |
+| テキスト・ネットワーク・空間 | 17 |
+| 再現性・振り返り | 93 |
+| その他（記述・要因分解など） | 217 |
 
-<details><summary><b>予測・時系列</b>（110本）</summary>
+<details><summary><b>予測・時系列</b>（125本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -95,6 +95,21 @@
 | F278 | 「空き家が過去最多」は、住宅の数が増えた分を除くとどうか？ | [F278_vacant_record_stock_vs_rate](articles/F278_vacant_record_stock_vs_rate) |
 | F293 | 毎月の数字の「おかしい」を、どう自動で見つけるか？ | [F293_monthly_anomaly_public_stats](articles/F293_monthly_anomaly_public_stats) |
 | F294 | 介護の費用は、2040年度にどこまで増えるのか？ | [F294_care_cost_2040_assumptions](articles/F294_care_cost_2040_assumptions) |
+| F363 | 「週休2日が当たり前」は、企業の規模でどれだけ違うのか？ | [F363_five_day_week_by_size](articles/F363_five_day_week_by_size) |
+| F370 | 派遣で働く人は、2008年のピークからどこまで減ったのか？ | [F370_dispatched_workers](articles/F370_dispatched_workers) |
+| F371 | 所定外の労働時間は、生産の動きより先に動くのか？ | [F371_overtime_leads_production](articles/F371_overtime_leads_production) |
+| F374 | 家具やインテリアへの支出は、引っ越しの多い年齢で多いのか？ | [F374_furniture_and_moving_age](articles/F374_furniture_and_moving_age) |
+| F419 | うめの開花は、さくらより速く早まっているのか？ | [F419_ume_vs_sakura_bloom](articles/F419_ume_vs_sakura_bloom) |
+| F420 | 建設業の許可業者は、どの規模でどれだけ減ったのか？ | [F420_construction_permits_by_size](articles/F420_construction_permits_by_size) |
+| F432 | 携帯電話の端末の値段は、指数でどう動いてきたのか？ | [F432_mobile_phone_price_index](articles/F432_mobile_phone_price_index) |
+| F433 | キャベツなど野菜の値段は、天気でどこまで決まるのか？ | [F433_vegetable_price_weather](articles/F433_vegetable_price_weather) |
+| F435 | 「生鮮食品を除く」と「生鮮食品とエネルギーを除く」は、物価の流れをどれだけ違って見せるのか？ | [F435_core_vs_corecore_cpi](articles/F435_core_vs_corecore_cpi) |
+| F437 | ホテル・旅館の宿泊料の上がり方は、訪日客の多さと関係があるのか？ | [F437_lodging_price_inbound](articles/F437_lodging_price_inbound) |
+| F450 | トラックの運賃は、2024年問題の前後で上がったのか？ | [F450_truck_freight_rates_2024](articles/F450_truck_freight_rates_2024) |
+| F452 | 引っ越しの3〜4月への集中は、弱まっているのか？ | [F452_moving_season_concentration](articles/F452_moving_season_concentration) |
+| F462 | 日本人の旅行は、お盆と年末年始への集中が弱まったのか？ | [F462_domestic_travel_peak_concentration](articles/F462_domestic_travel_peak_concentration) |
+| F479 | 太陽光の発電を止める「出力制御」は、どの季節・時間に増えたのか？ | [F479_solar_curtailment_timing](articles/F479_solar_curtailment_timing) |
+| F485 | 節電の要請で、電力の需要はどれだけ下がったのか？ | [F485_setsuden_demand](articles/F485_setsuden_demand) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
 | 286 | 予測モデルは、線形回帰と勾配ブースティングのどちらから始めるか？ | [286_linear_vs_gbm_first](articles/286_linear_vs_gbm_first) |
 | 296 | 需要予測の当たり外れを、毎週どう見張るか？ | [296_forecast_error_control_chart](articles/296_forecast_error_control_chart) |
@@ -142,7 +157,7 @@
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（58本）</summary>
+<details><summary><b>因果推論・効果検証</b>（59本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -184,6 +199,8 @@
 | F271 | 見られるダッシュボードと、見られないダッシュボードの違いは何か？ | [F271_dashboard_answer_cost](articles/F271_dashboard_answer_cost) |
 | F276 | 地震保険の付帯率は、地震のあとにどれだけ上がって戻るのか？ | [F276_earthquake_insurance_after_quakes](articles/F276_earthquake_insurance_after_quakes) |
 | F278 | 「空き家が過去最多」は、住宅の数が増えた分を除くとどうか？ | [F278_vacant_record_stock_vs_rate](articles/F278_vacant_record_stock_vs_rate) |
+| F296 | 最低賃金の差の差は、前提をどこまで確かめられるのか？ | [F296_minimum_wage_did_assumptions](articles/F296_minimum_wage_did_assumptions) |
+| F485 | 節電の要請で、電力の需要はどれだけ下がったのか？ | [F485_setsuden_demand](articles/F485_setsuden_demand) |
 | 267 | 相関を因果だと思いかけたとき、どう止めたか？ | [267_correlation_not_causation](articles/267_correlation_not_causation) |
 | 268 | 差の差・回帰不連続・合成コントロールを、どう選んできたか？ | [268_causal_design_choice](articles/268_causal_design_choice) |
 | 365 | 似た相手を選んで比べる方法は、測っていない違いがあるとどこまで外れるのか？ | [365_matching_unmeasured_confounder](articles/365_matching_unmeasured_confounder) |
@@ -203,7 +220,6 @@
 | 737 | 施策の効き道になる変数を回帰に入れると、施策の効果はどれだけ小さく出るのか？ | [737_mediator_adjustment](articles/737_mediator_adjustment) |
 | 770 | 傾向スコアか結果のモデルのどちらかがまちがっているとき、二重に頑健な推定はどれだけずれるのか？ | [770_doubly_robust](articles/770_doubly_robust) |
 | 776 | 差の差で対照を1店だけ選ぶと、施策の効果の推定はどれだけ振れるのか？ | [776_single_control_did](articles/776_single_control_did) |
-| F296 | 最低賃金の差の差は、前提をどこまで確かめられるのか？ | [F296_minimum_wage_did_assumptions](articles/F296_minimum_wage_did_assumptions) |
 
 </details>
 
@@ -241,7 +257,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（272本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（287本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -405,6 +421,21 @@
 | F291 | 死亡率の改善は、年齢のどこで止まりつつあるのか？ | [F291_mortality_improvement_slowdown](articles/F291_mortality_improvement_slowdown) |
 | F292 | 南海トラフの被害想定は、人口が変わるとどう動くか？ | [F292_quake_damage_population](articles/F292_quake_damage_population) |
 | F295 | リスクを分けて計ると、分散効果はどれだけ効くのか？ | [F295_solvency_diversification_copula](articles/F295_solvency_diversification_copula) |
+| F361 | 「非正規で働く人の多くは望んでそうしている」は、年齢別に見ても本当か？ | [F361_involuntary_nonregular_by_age](articles/F361_involuntary_nonregular_by_age) |
+| F364 | 「有給休暇の取得率が過去最高」は、どの規模・産業で上がったのか？ | [F364_paid_leave_by_size_industry](articles/F364_paid_leave_by_size_industry) |
+| F371 | 所定外の労働時間は、生産の動きより先に動くのか？ | [F371_overtime_leads_production](articles/F371_overtime_leads_production) |
+| F372 | 「緑茶からコーヒーへ」は、年齢の違いと世代の違いのどちらで説明できるか？ | [F372_green_tea_coffee_cohort](articles/F372_green_tea_coffee_cohort) |
+| F374 | 家具やインテリアへの支出は、引っ越しの多い年齢で多いのか？ | [F374_furniture_and_moving_age](articles/F374_furniture_and_moving_age) |
+| F393 | 住宅の建設費は、資材と人件費のどちらで上がったのか？ | [F393_construction_cost_materials_labor](articles/F393_construction_cost_materials_labor) |
+| F419 | うめの開花は、さくらより速く早まっているのか？ | [F419_ume_vs_sakura_bloom](articles/F419_ume_vs_sakura_bloom) |
+| F422 | 第一次所得収支の黒字は、どれだけ日本に戻ってきているのか？ | [F422_reinvested_earnings_share](articles/F422_reinvested_earnings_share) |
+| F428 | 年ごとの雨の量のばらつきは、大きくなったのか？ | [F428_annual_rain_variability](articles/F428_annual_rain_variability) |
+| F433 | キャベツなど野菜の値段は、天気でどこまで決まるのか？ | [F433_vegetable_price_weather](articles/F433_vegetable_price_weather) |
+| F434 | 企業向けサービスの値段は、人件費の割合が高い業種ほど上がったのか？ | [F434_sppi_labor_cost_share](articles/F434_sppi_labor_cost_share) |
+| F437 | ホテル・旅館の宿泊料の上がり方は、訪日客の多さと関係があるのか？ | [F437_lodging_price_inbound](articles/F437_lodging_price_inbound) |
+| F457 | 家庭の灯油の購入量は、どれだけ減ったのか？ | [F457_kerosene_household](articles/F457_kerosene_household) |
+| F460 | 企業の女性の管理職の割合は、規模でどう違うのか？ | [F460_female_managers_by_size](articles/F460_female_managers_by_size) |
+| F479 | 太陽光の発電を止める「出力制御」は、どの季節・時間に増えたのか？ | [F479_solar_curtailment_timing](articles/F479_solar_curtailment_timing) |
 | 253 | p値0.05の線を、どう扱ってきたか？ | [253_p_value_line](articles/253_p_value_line) |
 | 267 | 相関を因果だと思いかけたとき、どう止めたか？ | [267_correlation_not_causation](articles/267_correlation_not_causation) |
 | 268 | 差の差・回帰不連続・合成コントロールを、どう選んできたか？ | [268_causal_design_choice](articles/268_causal_design_choice) |
@@ -700,7 +731,7 @@
 
 </details>
 
-<details><summary><b>SQL・データ処理</b>（92本）</summary>
+<details><summary><b>SQL・データ処理</b>（93本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -734,6 +765,8 @@
 | F259 | 需要予測の外れは、在庫と欠品のどちらに効かせるべきか？ | [F259_forecast_error_inventory_cost](articles/F259_forecast_error_inventory_cost) |
 | F271 | 見られるダッシュボードと、見られないダッシュボードの違いは何か？ | [F271_dashboard_answer_cost](articles/F271_dashboard_answer_cost) |
 | F275 | 集計の SQL は、どう書けば直しやすく、直し忘れに気づけるか？ | [F275_sql_change_requests](articles/F275_sql_change_requests) |
+| F298 | 646億行の閲覧数を BigQuery で集計すると、書き方で読む量はどれだけ変わるのか？ | [F298_bigquery_scan_cost](articles/F298_bigquery_scan_cost) |
+| F458 | 温泉地に泊まる人は、30年でどれだけ減ったのか？ | [F458_onsen_overnight_stays](articles/F458_onsen_overnight_stays) |
 | 270 | 市町村の合併を、SQL でどう扱うか？ | [270_sql_municipal_code_scd2](articles/270_sql_municipal_code_scd2) |
 | 294 | SQL のクエリが遅いとき、まず何を見るか？ | [294_slow_query_first_checks](articles/294_slow_query_first_checks) |
 | 295 | 集計をストアドプロシージャにまとめると、何がうれしいのか？ | [295_stored_procedure_params](articles/295_stored_procedure_params) |
@@ -795,7 +828,6 @@
 | 773 | 列の順番が違う2つの表を UNION ALL でつなぐと、何行の値が別の列に入るのか？ | [773_union_column_order](articles/773_union_column_order) |
 | 791 | 0で割るのを NULLIF で避けると、その店は平均から黙って消え、全体の率はどれだけ変わるのか？ | [791_nullif_drop_from_avg](articles/791_nullif_drop_from_avg) |
 | 793 | 空の文字と NULL を区別せずに数えると、未入力の件数はどれだけずれるのか？ | [793_empty_string_vs_null](articles/793_empty_string_vs_null) |
-| F298 | 646億行の閲覧数を BigQuery で集計すると、書き方で読む量はどれだけ変わるのか？ | [F298_bigquery_scan_cost](articles/F298_bigquery_scan_cost) |
 
 </details>
 
@@ -818,7 +850,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（127本）</summary>
+<details><summary><b>集計の定義・KPI</b>（136本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -892,6 +924,15 @@
 | F287 | 同じ数字を、経営向けと現場向けでどう書き分けるか？ | [F287_report_two_audiences](articles/F287_report_two_audiences) |
 | F289 | 情報通信白書のデジタル化の指標は、生産性と結びついているか？ | [F289_ict_capital_productivity](articles/F289_ict_capital_productivity) |
 | F293 | 毎月の数字の「おかしい」を、どう自動で見つけるか？ | [F293_monthly_anomaly_public_stats](articles/F293_monthly_anomaly_public_stats) |
+| F362 | 職業ごとの「人が足りない」と「仕事が見つからない」のずれは、広がったのか？ | [F362_occupation_mismatch](articles/F362_occupation_mismatch) |
+| F365 | 「共働き世帯は専業主婦世帯の2倍以上」は、妻の働き方（フルタイムかパートか）で分けるとどう見えるか？ | [F365_dual_earner_by_wife_hours](articles/F365_dual_earner_by_wife_hours) |
+| F366 | 「男性の育児休業の取得率が急上昇」は、事業所の規模でどれだけ違うのか？ | [F366_paternity_leave_by_size](articles/F366_paternity_leave_by_size) |
+| F368 | 失業率は低いが、「もっと働きたい人」を含めるとどう見えるか？ | [F368_underutilization_lu](articles/F368_underutilization_lu) |
+| F391 | 建物のリフォームの工事は、伸びているのか？ | [F391_renovation_orders](articles/F391_renovation_orders) |
+| F397 | 「3組に1組が離婚する」は本当か？ | [F397_divorce_one_in_three](articles/F397_divorce_one_in_three) |
+| F431 | 「サービスの値段は上がりにくい」は本当か？ | [F431_services_price_sticky](articles/F431_services_price_sticky) |
+| F435 | 「生鮮食品を除く」と「生鮮食品とエネルギーを除く」は、物価の流れをどれだけ違って見せるのか？ | [F435_core_vs_corecore_cpi](articles/F435_core_vs_corecore_cpi) |
+| F463 | 出張などビジネスの宿泊は、コロナ前に戻ったのか？ | [F463_business_stays_recovery](articles/F463_business_stays_recovery) |
 | 149 | 川や海に比べて、湖だけ環境基準の達成率が低いのはなぜか？ | [149_lake_water_quality](articles/149_lake_water_quality) |
 | 241 | 公的データを使って困ったことは何だったか？ | [241_public_data_troubles](articles/241_public_data_troubles) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
@@ -1104,7 +1145,7 @@
 
 </details>
 
-<details><summary><b>再現性・振り返り</b>（91本）</summary>
+<details><summary><b>再現性・振り返り</b>（93本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1172,6 +1213,9 @@
 | F293 | 毎月の数字の「おかしい」を、どう自動で見つけるか？ | [F293_monthly_anomaly_public_stats](articles/F293_monthly_anomaly_public_stats) |
 | F294 | 介護の費用は、2040年度にどこまで増えるのか？ | [F294_care_cost_2040_assumptions](articles/F294_care_cost_2040_assumptions) |
 | F295 | リスクを分けて計ると、分散効果はどれだけ効くのか？ | [F295_solvency_diversification_copula](articles/F295_solvency_diversification_copula) |
+| F297 | 自分の分析記事1,066本は、決めた書き方をどこまで守っていたのか？ | [F297_article_practice_audit](articles/F297_article_practice_audit) |
+| F359 | 「初任給が過去最高の伸び」は、賃金全体の伸びと比べてどれだけ特別なのか？ | [F359_starting_pay_vs_overall_wage](articles/F359_starting_pay_vs_overall_wage) |
+| F480 | CO2 は減っても、代替フロン（HFC）の排出は増えたのか？ | [F480_hfc_emissions](articles/F480_hfc_emissions) |
 | 240 | グラフの縦軸を0から始めなかったら、どう見えたか？ | [240_axis_zero_baseline_review](articles/240_axis_zero_baseline_review) |
 | 241 | 公的データを使って困ったことは何だったか？ | [241_public_data_troubles](articles/241_public_data_troubles) |
 | 242 | 分析の「言えないこと」は、どう書くと誠実か？ | [242_limits_section_writing](articles/242_limits_section_writing) |
@@ -1198,11 +1242,10 @@
 | 406 | SQL の見直しの観点10個を、自分の記事の SQL に当てると何件引っかかるか？ | [406_sql_review_checklist_hits](articles/406_sql_review_checklist_hits) |
 | 412 | 月末に始まった契約の「1か月後」は、いつになるのか？ | [412_monthly_anniversary_dates](articles/412_monthly_anniversary_dates) |
 | 427 | 「2025/1/5」「R7.1.5」「20250105」が混ざった日付の列は、機械に読ませると何件が別の日になるのか？ | [427_mixed_date_formats](articles/427_mixed_date_formats) |
-| F297 | 自分の分析記事1,066本は、決めた書き方をどこまで守っていたのか？ | [F297_article_practice_audit](articles/F297_article_practice_audit) |
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（154本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（217本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1215,6 +1258,69 @@
 | F83 | 日本の生産性の伸びは「産業の中」か「産業の入れ替わり」か？ | [F83_productivity_shift_share](articles/F83_productivity_shift_share) |
 | F93 | PDF の統計表を機械で読むと、どれくらい間違えるか？ | [F93_pdf_table_extraction](articles/F93_pdf_table_extraction) |
 | F94 | 市町村合併をどう扱うかで、20年の推移の分析は変わるか？ | [F94_municipal_merger_panel](articles/F94_municipal_merger_panel) |
+| F359 | 「初任給が過去最高の伸び」は、賃金全体の伸びと比べてどれだけ特別なのか？ | [F359_starting_pay_vs_overall_wage](articles/F359_starting_pay_vs_overall_wage) |
+| F360 | 「年功賃金がゆるやかになった」は、年齢ごとの賃金の曲線の形でどう見えるか？ | [F360_wage_curve_flattening](articles/F360_wage_curve_flattening) |
+| F361 | 「非正規で働く人の多くは望んでそうしている」は、年齢別に見ても本当か？ | [F361_involuntary_nonregular_by_age](articles/F361_involuntary_nonregular_by_age) |
+| F362 | 職業ごとの「人が足りない」と「仕事が見つからない」のずれは、広がったのか？ | [F362_occupation_mismatch](articles/F362_occupation_mismatch) |
+| F363 | 「週休2日が当たり前」は、企業の規模でどれだけ違うのか？ | [F363_five_day_week_by_size](articles/F363_five_day_week_by_size) |
+| F364 | 「有給休暇の取得率が過去最高」は、どの規模・産業で上がったのか？ | [F364_paid_leave_by_size_industry](articles/F364_paid_leave_by_size_industry) |
+| F365 | 「共働き世帯は専業主婦世帯の2倍以上」は、妻の働き方（フルタイムかパートか）で分けるとどう見えるか？ | [F365_dual_earner_by_wife_hours](articles/F365_dual_earner_by_wife_hours) |
+| F366 | 「男性の育児休業の取得率が急上昇」は、事業所の規模でどれだけ違うのか？ | [F366_paternity_leave_by_size](articles/F366_paternity_leave_by_size) |
+| F367 | 「労働組合の組織率は過去最低」は、パートの組合員が増えても下がり続けているのか？ | [F367_union_density_parttime](articles/F367_union_density_parttime) |
+| F368 | 失業率は低いが、「もっと働きたい人」を含めるとどう見えるか？ | [F368_underutilization_lu](articles/F368_underutilization_lu) |
+| F369 | 「60歳で賃金が大きく下がる」は、企業の規模や男女でどれだけ違うのか？ | [F369_wage_drop_at_60](articles/F369_wage_drop_at_60) |
+| F370 | 派遣で働く人は、2008年のピークからどこまで減ったのか？ | [F370_dispatched_workers](articles/F370_dispatched_workers) |
+| F372 | 「緑茶からコーヒーへ」は、年齢の違いと世代の違いのどちらで説明できるか？ | [F372_green_tea_coffee_cohort](articles/F372_green_tea_coffee_cohort) |
+| F373 | 「魚より肉」は、いつ逆転し、世帯主の年齢でどう違うのか？ | [F373_fish_vs_meat_by_age](articles/F373_fish_vs_meat_by_age) |
+| F389 | 住宅ローンを返している世帯の負債は、世帯主の年齢でどう変わったのか？ | [F389_housing_debt_by_age](articles/F389_housing_debt_by_age) |
+| F390 | 世帯が持つ「使っていない空き地」は増えているのか？ | [F390_vacant_land_households](articles/F390_vacant_land_households) |
+| F391 | 建物のリフォームの工事は、伸びているのか？ | [F391_renovation_orders](articles/F391_renovation_orders) |
+| F392 | 公営住宅に住む世帯は、どれだけ減ったのか？ | [F392_public_housing_households](articles/F392_public_housing_households) |
+| F393 | 住宅の建設費は、資材と人件費のどちらで上がったのか？ | [F393_construction_cost_materials_labor](articles/F393_construction_cost_materials_labor) |
+| F394 | 農地は、どんな用途に転用されているのか？ | [F394_farmland_conversion_uses](articles/F394_farmland_conversion_uses) |
+| F395 | 「最低居住面積水準に満たない世帯」は、どれだけ減ったのか？ | [F395_minimum_floor_area_standard](articles/F395_minimum_floor_area_standard) |
+| F396 | 50歳前後で結婚したことがない人の割合は、職業でどれだけ違うのか？ | [F396_never_married_by_occupation](articles/F396_never_married_by_occupation) |
+| F397 | 「3組に1組が離婚する」は本当か？ | [F397_divorce_one_in_three](articles/F397_divorce_one_in_three) |
+| F398 | 「結婚の4組に1組は再婚を含む」は、いつからそうなったのか？ | [F398_remarriage_share](articles/F398_remarriage_share) |
+| F399 | 国際結婚は、どこまで減ったのか？ | [F399_international_marriage](articles/F399_international_marriage) |
+| F400 | 海外に住む日本人は、増え続けているのか？ | [F400_japanese_overseas](articles/F400_japanese_overseas) |
+| F401 | 三世代で暮らす世帯は、どの地方に残っているのか？ | [F401_three_generation_households](articles/F401_three_generation_households) |
+| F402 | 人口が減る市町村は、「生まれる人より亡くなる人が多い」のと「出ていく人が多い」のどちらが大きいのか？ | [F402_municipal_natural_social_decline](articles/F402_municipal_natural_social_decline) |
+| F403 | 子どものいる世帯は、全世帯の何割まで減ったのか？ | [F403_households_with_children](articles/F403_households_with_children) |
+| F404 | 地方の人は、札幌・仙台・広島・福岡などの地方中枢都市に集まっているのか？ | [F404_regional_hub_cities](articles/F404_regional_hub_cities) |
+| F420 | 建設業の許可業者は、どの規模でどれだけ減ったのか？ | [F420_construction_permits_by_size](articles/F420_construction_permits_by_size) |
+| F421 | 「貿易で稼ぐ国から投資で稼ぐ国へ」は、国際収支でいつ起きたのか？ | [F421_trade_vs_income_balance](articles/F421_trade_vs_income_balance) |
+| F422 | 第一次所得収支の黒字は、どれだけ日本に戻ってきているのか？ | [F422_reinvested_earnings_share](articles/F422_reinvested_earnings_share) |
+| F423 | 旅行収支の黒字は、どこまで大きくなったのか？ | [F423_travel_balance](articles/F423_travel_balance) |
+| F424 | 輸入で中国に頼る割合は、品目別に見て高まったのか？ | [F424_china_import_share](articles/F424_china_import_share) |
+| F425 | 食料の輸入額が増えたのは、量が増えたからか、値段が上がったからか？ | [F425_food_import_volume_price](articles/F425_food_import_volume_price) |
+| F426 | 日本のアニメやゲームなどの使用料の受取は、どれだけ増えたのか？ | [F426_ip_royalty_receipts](articles/F426_ip_royalty_receipts) |
+| F427 | 「円の実質実効為替レートは50年ぶりの低さ」は、どう計算され、何を意味するのか？ | [F427_real_effective_yen](articles/F427_real_effective_yen) |
+| F429 | 輸出の契約は、どれだけ円建てで行われているのか？ | [F429_invoice_currency_share](articles/F429_invoice_currency_share) |
+| F430 | 「日本への直接投資は少ない」は、残高で見てどれだけ増えたのか？ | [F430_inward_fdi_stock](articles/F430_inward_fdi_stock) |
+| F431 | 「サービスの値段は上がりにくい」は本当か？ | [F431_services_price_sticky](articles/F431_services_price_sticky) |
+| F436 | 日本から海外の株や債券への投資は、どの投資家が増やしたのか？ | [F436_outward_portfolio_by_investor](articles/F436_outward_portfolio_by_investor) |
+| F438 | 企業の研修（OFF-JT）の費用は、増えたのか？ | [F438_offjt_spending_by_firm_size](articles/F438_offjt_spending_by_firm_size) |
+| F449 | トラック運転手の賃金は、時間あたりで全産業とどれだけ差があり、縮まっているのか？ | [F449_truck_driver_wage_gap](articles/F449_truck_driver_wage_gap) |
+| F450 | トラックの運賃は、2024年問題の前後で上がったのか？ | [F450_truck_freight_rates_2024](articles/F450_truck_freight_rates_2024) |
+| F451 | 自家用車の1台あたりの走行距離と燃料は、どれだけ減ったのか？ | [F451_private_car_km_fuel](articles/F451_private_car_km_fuel) |
+| F452 | 引っ越しの3〜4月への集中は、弱まっているのか？ | [F452_moving_season_concentration](articles/F452_moving_season_concentration) |
+| F453 | 人口が減っても、道路は延び続けているのか？ | [F453_road_length_vs_population](articles/F453_road_length_vs_population) |
+| F454 | 「荷物の小口化」は、物流センサスでどこまで進んだのか？ | [F454_shipment_lot_size](articles/F454_shipment_lot_size) |
+| F455 | 訪日客のうち、何度も来ている人の割合は増えたのか？ | [F455_inbound_repeaters](articles/F455_inbound_repeaters) |
+| F456 | 訪日客が泊まる場所は、ホテルから旅館や民泊などへ広がったのか？ | [F456_inbound_lodging_types](articles/F456_inbound_lodging_types) |
+| F457 | 家庭の灯油の購入量は、どれだけ減ったのか？ | [F457_kerosene_household](articles/F457_kerosene_household) |
+| F458 | 温泉地に泊まる人は、30年でどれだけ減ったのか？ | [F458_onsen_overnight_stays](articles/F458_onsen_overnight_stays) |
+| F459 | 国立公園を訪れる人は、減っているのか？ | [F459_national_park_visitors](articles/F459_national_park_visitors) |
+| F461 | 船で日本に来る外国人は、コロナ前に戻ったのか？ | [F461_sea_arrivals_recovery](articles/F461_sea_arrivals_recovery) |
+| F462 | 日本人の旅行は、お盆と年末年始への集中が弱まったのか？ | [F462_domestic_travel_peak_concentration](articles/F462_domestic_travel_peak_concentration) |
+| F463 | 出張などビジネスの宿泊は、コロナ前に戻ったのか？ | [F463_business_stays_recovery](articles/F463_business_stays_recovery) |
+| F480 | CO2 は減っても、代替フロン（HFC）の排出は増えたのか？ | [F480_hfc_emissions](articles/F480_hfc_emissions) |
+| F481 | ごみを燃やす施設の発電は、どこまで増えたのか？ | [F481_incinerator_power](articles/F481_incinerator_power) |
+| F482 | メタンの排出は、田んぼと牛でどれだけを占めるのか？ | [F482_methane_rice_cattle](articles/F482_methane_rice_cattle) |
+| F483 | 家計の携帯電話の通信料は、料金の値下げのあとどれだけ減ったのか？ | [F483_mobile_fee_spending](articles/F483_mobile_fee_spending) |
+| F484 | クリーニング代の支出は、どれだけ減ったのか？ | [F484_laundry_spending](articles/F484_laundry_spending) |
+| F486 | 太陽光パネルのある家は、どこまで増えたのか？ | [F486_rooftop_solar_homes](articles/F486_rooftop_solar_homes) |
 | 000 | 女性の労働力率は何で決まる？ | [000_women_labor](articles/000_women_labor) |
 | 001 | 納税者1人あたりの所得は、なぜ街によって違うのか？ | [001_income_municipal](articles/001_income_municipal) |
 | 008 | 人が集まっている街は、所得が高い街か？ | [008_migration_income](articles/008_migration_income) |
@@ -1368,16 +1474,16 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 172 |
-| EC・会員・Web | 94 |
+| 小売・店舗 | 158 |
+| EC・会員・Web | 92 |
 | マーケティング・広告 | 21 |
-| 需要予測・在庫 | 37 |
-| 業務の集計・報告 | 137 |
+| 需要予測・在庫 | 30 |
+| 業務の集計・報告 | 126 |
 | 作業時間・処理件数 | 4 |
-| 保険 | 74 |
-| 公的統計・地域・人口 | 279 |
+| 保険 | 72 |
+| 公的統計・地域・人口 | 350 |
 
-<details><summary><b>小売・店舗</b>（154本）</summary>
+<details><summary><b>小売・店舗</b>（158本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1415,6 +1521,10 @@
 | F286 | 「物価高で節約」は家計調査のどこに表れているか？ | [F286_household_saving_items](articles/F286_household_saving_items) |
 | F287 | 同じ数字を、経営向けと現場向けでどう書き分けるか？ | [F287_report_two_audiences](articles/F287_report_two_audiences) |
 | F293 | 毎月の数字の「おかしい」を、どう自動で見つけるか？ | [F293_monthly_anomaly_public_stats](articles/F293_monthly_anomaly_public_stats) |
+| F372 | 「緑茶からコーヒーへ」は、年齢の違いと世代の違いのどちらで説明できるか？ | [F372_green_tea_coffee_cohort](articles/F372_green_tea_coffee_cohort) |
+| F373 | 「魚より肉」は、いつ逆転し、世帯主の年齢でどう違うのか？ | [F373_fish_vs_meat_by_age](articles/F373_fish_vs_meat_by_age) |
+| F374 | 家具やインテリアへの支出は、引っ越しの多い年齢で多いのか？ | [F374_furniture_and_moving_age](articles/F374_furniture_and_moving_age) |
+| F433 | キャベツなど野菜の値段は、天気でどこまで決まるのか？ | [F433_vegetable_price_weather](articles/F433_vegetable_price_weather) |
 | 305 | DAX の CALCULATE は、何をしているのか？ | [305_dax_calculate_filter_context](articles/305_dax_calculate_filter_context) |
 | 315 | 1年分の保険料を、月ごとの売上にどう分けるか？ | [315_sql_earned_premium](articles/315_sql_earned_premium) |
 | 330 | 同じファイルを2回取り込んでも、数字が二重にならない形はどう作るか？ | [330_idempotent_load](articles/330_idempotent_load) |
@@ -1665,7 +1775,7 @@
 
 </details>
 
-<details><summary><b>需要予測・在庫</b>（29本）</summary>
+<details><summary><b>需要予測・在庫</b>（30本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1684,6 +1794,7 @@
 | F269 | 「価格転嫁できた企業」は、どんな企業か？ | [F269_sme_price_passthrough](articles/F269_sme_price_passthrough) |
 | F281 | 食料自給率の目標と実際の差は、どこから来ているのか？ | [F281_food_self_sufficiency_target_gap](articles/F281_food_self_sufficiency_target_gap) |
 | F285 | エネルギー基本計画の電力需要の見通しは、過去にどれだけ当たったか？ | [F285_power_demand_outlook_accuracy](articles/F285_power_demand_outlook_accuracy) |
+| F485 | 節電の要請で、電力の需要はどれだけ下がったのか？ | [F485_setsuden_demand](articles/F485_setsuden_demand) |
 | 286 | 予測モデルは、線形回帰と勾配ブースティングのどちらから始めるか？ | [286_linear_vs_gbm_first](articles/286_linear_vs_gbm_first) |
 | 296 | 需要予測の当たり外れを、毎週どう見張るか？ | [296_forecast_error_control_chart](articles/296_forecast_error_control_chart) |
 | 362 | 時系列をばらばらに分けて確かめると、予測の精度をどれだけ甘く見積もるのか？ | [362_shuffled_cv_time_series](articles/362_shuffled_cv_time_series) |
@@ -1924,7 +2035,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（250本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（350本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2092,31 +2203,6 @@
 | F292 | 南海トラフの被害想定は、人口が変わるとどう動くか？ | [F292_quake_damage_population](articles/F292_quake_damage_population) |
 | F293 | 毎月の数字の「おかしい」を、どう自動で見つけるか？ | [F293_monthly_anomaly_public_stats](articles/F293_monthly_anomaly_public_stats) |
 | F294 | 介護の費用は、2040年度にどこまで増えるのか？ | [F294_care_cost_2040_assumptions](articles/F294_care_cost_2040_assumptions) |
-| 269 | 「データが取れない」とき、どう代わりを探したか？ | [269_finding_substitute_data](articles/269_finding_substitute_data) |
-| 270 | 市町村の合併を、SQL でどう扱うか？ | [270_sql_municipal_code_scd2](articles/270_sql_municipal_code_scd2) |
-| 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
-| 286 | 予測モデルは、線形回帰と勾配ブースティングのどちらから始めるか？ | [286_linear_vs_gbm_first](articles/286_linear_vs_gbm_first) |
-| 301 | 公的統計の CSV を、SQL Server に毎月取り込む形はどう作るか？ | [301_sql_monthly_csv_load](articles/301_sql_monthly_csv_load) |
-| 322 | 書いた記事は、何か月で「古い数字」になるのか？ | [322_months_until_stale](articles/322_months_until_stale) |
-| 337 | 1966年の丙午に、出生はどれだけ減ったのか？ | [337_hinoeuma_1966_births](articles/337_hinoeuma_1966_births) |
-| 338 | 1918〜20年の流行で、死亡はふだんよりどれだけ多かったのか？ | [338_excess_deaths_1918_1920](articles/338_excess_deaths_1918_1920) |
-| 351 | 出典には、統計の名前・表の番号・取得日がそろっているか？ | [351_source_citation_elements](articles/351_source_citation_elements) |
-| 370 | 雇われて働く人が8割を超えたのは、いつだったのか？ | [370_employee_share_80_percent](articles/370_employee_share_80_percent) |
-| 373 | pandas で型を指定せずに読むと、何列が意図と違う型になるのか？ | [373_pandas_dtype_inference](articles/373_pandas_dtype_inference) |
-| 376 | 全体では上がっているのに、どの区分でも下がっていることは、どれくらい起きるのか？ | [376_simpson_reversal_frequency](articles/376_simpson_reversal_frequency) |
-| 377 | 季節のあるデータで「施策の前後」を比べると、効果0でもどれだけ差が出るのか？ | [377_before_after_seasonal_false_effect](articles/377_before_after_seasonal_false_effect) |
-| 390 | 年間の予算を月に割る方法で、月ごとの達成率はどれだけ変わるのか？ | [390_budget_monthly_allocation](articles/390_budget_monthly_allocation) |
-| 395 | 関係のない2つの右肩上がりの系列は、どれくらい「関係あり」と出てしまうのか？ | [395_spurious_regression_trending_series](articles/395_spurious_regression_trending_series) |
-| 421 | 生まれて1年以内に亡くなる子は、いつ、どれだけ速く減ったのか？ | [421_infant_mortality_since_1899](articles/421_infant_mortality_since_1899) |
-| 423 | 「市」に住む人が半分を超えたのは、いつだったのか？ | [423_city_population_share](articles/423_city_population_share) |
-| 424 | 日本の人口の「真ん中の年齢」は、100年でどう上がったのか？ | [424_median_age_100_years](articles/424_median_age_100_years) |
-| 425 | 赤ちゃんが生まれる場所は、自宅から病院へ、いつ入れ替わったのか？ | [425_birthplace_home_to_hospital](articles/425_birthplace_home_to_hospital) |
-| 435 | 対数に直して回帰した予測を元に戻すと、合計はどれだけ小さく出るのか？ | [435_log_retransformation_bias](articles/435_log_retransformation_bias) |
-| 439 | 3人目より後に生まれる子は、いつから少数になったのか？ | [439_birth_order_shares](articles/439_birth_order_shares) |
-| 441 | 基準の年が変わった指数をつなぐとき、つなぎ方で長期の伸びはどれだけ変わるのか？ | [441_index_rebasing_link_methods](articles/441_index_rebasing_link_methods) |
-| 452 | 小計や合計の行が混ざった表をそのまま足すと、合計は何倍になるのか？ | [452_subtotal_rows_double_count](articles/452_subtotal_rows_double_count) |
-| 474 | 見出しを結合セルや空欄で省いた Excel の表を読むと、何行が区分を失うのか？ | [474_blank_headings_filldown](articles/474_blank_headings_filldown) |
-| 541 | 郵便番号から都道府県・市区町村を引くと、古い番号や事業所の個別番号のせいで何件が引けないのか？ | [541_postal_code_lookup_gaps](articles/541_postal_code_lookup_gaps) |
 | F296 | 最低賃金の差の差は、前提をどこまで確かめられるのか？ | [F296_minimum_wage_did_assumptions](articles/F296_minimum_wage_did_assumptions) |
 | F299 | 「人手不足の職業ほど賃金が上がった」は本当か？ | [F299_occupation_shortage_wage](articles/F299_occupation_shortage_wage) |
 | F300 | 「転職すると賃金が上がる人が増えた」は、雇用動向調査でどこまで言えるか？ | [F300_job_changer_wage_gain](articles/F300_job_changer_wage_gain) |
@@ -2178,6 +2264,131 @@
 | F356 | 「消費が弱い」は、家計調査とGDPでどれだけ違って見えるのか？ | [F356_household_survey_vs_gdp_consumption](articles/F356_household_survey_vs_gdp_consumption) |
 | F357 | サービス業の売上は、物価を除いてもコロナ前に戻ったのか？ | [F357_service_sales_real_recovery](articles/F357_service_sales_real_recovery) |
 | F358 | 統計の基準改定で、過去の数字はどれだけ書き換わったのか？ | [F358_benchmark_revision_gdp](articles/F358_benchmark_revision_gdp) |
+| F359 | 「初任給が過去最高の伸び」は、賃金全体の伸びと比べてどれだけ特別なのか？ | [F359_starting_pay_vs_overall_wage](articles/F359_starting_pay_vs_overall_wage) |
+| F360 | 「年功賃金がゆるやかになった」は、年齢ごとの賃金の曲線の形でどう見えるか？ | [F360_wage_curve_flattening](articles/F360_wage_curve_flattening) |
+| F361 | 「非正規で働く人の多くは望んでそうしている」は、年齢別に見ても本当か？ | [F361_involuntary_nonregular_by_age](articles/F361_involuntary_nonregular_by_age) |
+| F362 | 職業ごとの「人が足りない」と「仕事が見つからない」のずれは、広がったのか？ | [F362_occupation_mismatch](articles/F362_occupation_mismatch) |
+| F363 | 「週休2日が当たり前」は、企業の規模でどれだけ違うのか？ | [F363_five_day_week_by_size](articles/F363_five_day_week_by_size) |
+| F364 | 「有給休暇の取得率が過去最高」は、どの規模・産業で上がったのか？ | [F364_paid_leave_by_size_industry](articles/F364_paid_leave_by_size_industry) |
+| F365 | 「共働き世帯は専業主婦世帯の2倍以上」は、妻の働き方（フルタイムかパートか）で分けるとどう見えるか？ | [F365_dual_earner_by_wife_hours](articles/F365_dual_earner_by_wife_hours) |
+| F366 | 「男性の育児休業の取得率が急上昇」は、事業所の規模でどれだけ違うのか？ | [F366_paternity_leave_by_size](articles/F366_paternity_leave_by_size) |
+| F367 | 「労働組合の組織率は過去最低」は、パートの組合員が増えても下がり続けているのか？ | [F367_union_density_parttime](articles/F367_union_density_parttime) |
+| F368 | 失業率は低いが、「もっと働きたい人」を含めるとどう見えるか？ | [F368_underutilization_lu](articles/F368_underutilization_lu) |
+| F369 | 「60歳で賃金が大きく下がる」は、企業の規模や男女でどれだけ違うのか？ | [F369_wage_drop_at_60](articles/F369_wage_drop_at_60) |
+| F370 | 派遣で働く人は、2008年のピークからどこまで減ったのか？ | [F370_dispatched_workers](articles/F370_dispatched_workers) |
+| F371 | 所定外の労働時間は、生産の動きより先に動くのか？ | [F371_overtime_leads_production](articles/F371_overtime_leads_production) |
+| F372 | 「緑茶からコーヒーへ」は、年齢の違いと世代の違いのどちらで説明できるか？ | [F372_green_tea_coffee_cohort](articles/F372_green_tea_coffee_cohort) |
+| F373 | 「魚より肉」は、いつ逆転し、世帯主の年齢でどう違うのか？ | [F373_fish_vs_meat_by_age](articles/F373_fish_vs_meat_by_age) |
+| F374 | 家具やインテリアへの支出は、引っ越しの多い年齢で多いのか？ | [F374_furniture_and_moving_age](articles/F374_furniture_and_moving_age) |
+| F389 | 住宅ローンを返している世帯の負債は、世帯主の年齢でどう変わったのか？ | [F389_housing_debt_by_age](articles/F389_housing_debt_by_age) |
+| F390 | 世帯が持つ「使っていない空き地」は増えているのか？ | [F390_vacant_land_households](articles/F390_vacant_land_households) |
+| F391 | 建物のリフォームの工事は、伸びているのか？ | [F391_renovation_orders](articles/F391_renovation_orders) |
+| F392 | 公営住宅に住む世帯は、どれだけ減ったのか？ | [F392_public_housing_households](articles/F392_public_housing_households) |
+| F393 | 住宅の建設費は、資材と人件費のどちらで上がったのか？ | [F393_construction_cost_materials_labor](articles/F393_construction_cost_materials_labor) |
+| F394 | 農地は、どんな用途に転用されているのか？ | [F394_farmland_conversion_uses](articles/F394_farmland_conversion_uses) |
+| F395 | 「最低居住面積水準に満たない世帯」は、どれだけ減ったのか？ | [F395_minimum_floor_area_standard](articles/F395_minimum_floor_area_standard) |
+| F396 | 50歳前後で結婚したことがない人の割合は、職業でどれだけ違うのか？ | [F396_never_married_by_occupation](articles/F396_never_married_by_occupation) |
+| F397 | 「3組に1組が離婚する」は本当か？ | [F397_divorce_one_in_three](articles/F397_divorce_one_in_three) |
+| F398 | 「結婚の4組に1組は再婚を含む」は、いつからそうなったのか？ | [F398_remarriage_share](articles/F398_remarriage_share) |
+| F399 | 国際結婚は、どこまで減ったのか？ | [F399_international_marriage](articles/F399_international_marriage) |
+| F400 | 海外に住む日本人は、増え続けているのか？ | [F400_japanese_overseas](articles/F400_japanese_overseas) |
+| F401 | 三世代で暮らす世帯は、どの地方に残っているのか？ | [F401_three_generation_households](articles/F401_three_generation_households) |
+| F402 | 人口が減る市町村は、「生まれる人より亡くなる人が多い」のと「出ていく人が多い」のどちらが大きいのか？ | [F402_municipal_natural_social_decline](articles/F402_municipal_natural_social_decline) |
+| F403 | 子どものいる世帯は、全世帯の何割まで減ったのか？ | [F403_households_with_children](articles/F403_households_with_children) |
+| F404 | 地方の人は、札幌・仙台・広島・福岡などの地方中枢都市に集まっているのか？ | [F404_regional_hub_cities](articles/F404_regional_hub_cities) |
+| F419 | うめの開花は、さくらより速く早まっているのか？ | [F419_ume_vs_sakura_bloom](articles/F419_ume_vs_sakura_bloom) |
+| F420 | 建設業の許可業者は、どの規模でどれだけ減ったのか？ | [F420_construction_permits_by_size](articles/F420_construction_permits_by_size) |
+| F421 | 「貿易で稼ぐ国から投資で稼ぐ国へ」は、国際収支でいつ起きたのか？ | [F421_trade_vs_income_balance](articles/F421_trade_vs_income_balance) |
+| F422 | 第一次所得収支の黒字は、どれだけ日本に戻ってきているのか？ | [F422_reinvested_earnings_share](articles/F422_reinvested_earnings_share) |
+| F423 | 旅行収支の黒字は、どこまで大きくなったのか？ | [F423_travel_balance](articles/F423_travel_balance) |
+| F424 | 輸入で中国に頼る割合は、品目別に見て高まったのか？ | [F424_china_import_share](articles/F424_china_import_share) |
+| F425 | 食料の輸入額が増えたのは、量が増えたからか、値段が上がったからか？ | [F425_food_import_volume_price](articles/F425_food_import_volume_price) |
+| F426 | 日本のアニメやゲームなどの使用料の受取は、どれだけ増えたのか？ | [F426_ip_royalty_receipts](articles/F426_ip_royalty_receipts) |
+| F427 | 「円の実質実効為替レートは50年ぶりの低さ」は、どう計算され、何を意味するのか？ | [F427_real_effective_yen](articles/F427_real_effective_yen) |
+| F428 | 年ごとの雨の量のばらつきは、大きくなったのか？ | [F428_annual_rain_variability](articles/F428_annual_rain_variability) |
+| F429 | 輸出の契約は、どれだけ円建てで行われているのか？ | [F429_invoice_currency_share](articles/F429_invoice_currency_share) |
+| F430 | 「日本への直接投資は少ない」は、残高で見てどれだけ増えたのか？ | [F430_inward_fdi_stock](articles/F430_inward_fdi_stock) |
+| F431 | 「サービスの値段は上がりにくい」は本当か？ | [F431_services_price_sticky](articles/F431_services_price_sticky) |
+| F432 | 携帯電話の端末の値段は、指数でどう動いてきたのか？ | [F432_mobile_phone_price_index](articles/F432_mobile_phone_price_index) |
+| F433 | キャベツなど野菜の値段は、天気でどこまで決まるのか？ | [F433_vegetable_price_weather](articles/F433_vegetable_price_weather) |
+| F434 | 企業向けサービスの値段は、人件費の割合が高い業種ほど上がったのか？ | [F434_sppi_labor_cost_share](articles/F434_sppi_labor_cost_share) |
+| F435 | 「生鮮食品を除く」と「生鮮食品とエネルギーを除く」は、物価の流れをどれだけ違って見せるのか？ | [F435_core_vs_corecore_cpi](articles/F435_core_vs_corecore_cpi) |
+| F436 | 日本から海外の株や債券への投資は、どの投資家が増やしたのか？ | [F436_outward_portfolio_by_investor](articles/F436_outward_portfolio_by_investor) |
+| F437 | ホテル・旅館の宿泊料の上がり方は、訪日客の多さと関係があるのか？ | [F437_lodging_price_inbound](articles/F437_lodging_price_inbound) |
+| F438 | 企業の研修（OFF-JT）の費用は、増えたのか？ | [F438_offjt_spending_by_firm_size](articles/F438_offjt_spending_by_firm_size) |
+| F449 | トラック運転手の賃金は、時間あたりで全産業とどれだけ差があり、縮まっているのか？ | [F449_truck_driver_wage_gap](articles/F449_truck_driver_wage_gap) |
+| F450 | トラックの運賃は、2024年問題の前後で上がったのか？ | [F450_truck_freight_rates_2024](articles/F450_truck_freight_rates_2024) |
+| F451 | 自家用車の1台あたりの走行距離と燃料は、どれだけ減ったのか？ | [F451_private_car_km_fuel](articles/F451_private_car_km_fuel) |
+| F452 | 引っ越しの3〜4月への集中は、弱まっているのか？ | [F452_moving_season_concentration](articles/F452_moving_season_concentration) |
+| F453 | 人口が減っても、道路は延び続けているのか？ | [F453_road_length_vs_population](articles/F453_road_length_vs_population) |
+| F454 | 「荷物の小口化」は、物流センサスでどこまで進んだのか？ | [F454_shipment_lot_size](articles/F454_shipment_lot_size) |
+| F455 | 訪日客のうち、何度も来ている人の割合は増えたのか？ | [F455_inbound_repeaters](articles/F455_inbound_repeaters) |
+| F456 | 訪日客が泊まる場所は、ホテルから旅館や民泊などへ広がったのか？ | [F456_inbound_lodging_types](articles/F456_inbound_lodging_types) |
+| F457 | 家庭の灯油の購入量は、どれだけ減ったのか？ | [F457_kerosene_household](articles/F457_kerosene_household) |
+| F458 | 温泉地に泊まる人は、30年でどれだけ減ったのか？ | [F458_onsen_overnight_stays](articles/F458_onsen_overnight_stays) |
+| F459 | 国立公園を訪れる人は、減っているのか？ | [F459_national_park_visitors](articles/F459_national_park_visitors) |
+| F460 | 企業の女性の管理職の割合は、規模でどう違うのか？ | [F460_female_managers_by_size](articles/F460_female_managers_by_size) |
+| F461 | 船で日本に来る外国人は、コロナ前に戻ったのか？ | [F461_sea_arrivals_recovery](articles/F461_sea_arrivals_recovery) |
+| F462 | 日本人の旅行は、お盆と年末年始への集中が弱まったのか？ | [F462_domestic_travel_peak_concentration](articles/F462_domestic_travel_peak_concentration) |
+| F463 | 出張などビジネスの宿泊は、コロナ前に戻ったのか？ | [F463_business_stays_recovery](articles/F463_business_stays_recovery) |
+| F479 | 太陽光の発電を止める「出力制御」は、どの季節・時間に増えたのか？ | [F479_solar_curtailment_timing](articles/F479_solar_curtailment_timing) |
+| F480 | CO2 は減っても、代替フロン（HFC）の排出は増えたのか？ | [F480_hfc_emissions](articles/F480_hfc_emissions) |
+| F481 | ごみを燃やす施設の発電は、どこまで増えたのか？ | [F481_incinerator_power](articles/F481_incinerator_power) |
+| F482 | メタンの排出は、田んぼと牛でどれだけを占めるのか？ | [F482_methane_rice_cattle](articles/F482_methane_rice_cattle) |
+| F483 | 家計の携帯電話の通信料は、料金の値下げのあとどれだけ減ったのか？ | [F483_mobile_fee_spending](articles/F483_mobile_fee_spending) |
+| F484 | クリーニング代の支出は、どれだけ減ったのか？ | [F484_laundry_spending](articles/F484_laundry_spending) |
+| F485 | 節電の要請で、電力の需要はどれだけ下がったのか？ | [F485_setsuden_demand](articles/F485_setsuden_demand) |
+| F486 | 太陽光パネルのある家は、どこまで増えたのか？ | [F486_rooftop_solar_homes](articles/F486_rooftop_solar_homes) |
+| F487 | 遠洋のカツオ・マグロ漁は、どこまで縮んだのか？ | [F487_distant_water_tuna](articles/F487_distant_water_tuna) |
+| F488 | 紅葉から落葉までの期間は、短くなったのか？ | [F488_maple_leaf_color](articles/F488_maple_leaf_color) |
+| F489 | 熱帯夜の増え方は、都市化でどこまで説明できるか？ | [F489_tropical_nights_urban](articles/F489_tropical_nights_urban) |
+| F490 | 冬の寒さは、どれだけ緩んだのか？ | [F490_winter_cold_days](articles/F490_winter_cold_days) |
+| F491 | 幼稚園は、認定こども園へどれだけ移ったのか？ | [F491_kindergarten_kodomoen](articles/F491_kindergarten_kodomoen) |
+| F492 | オホーツク海の流氷は、どれだけ減ったのか？ | [F492_okhotsk_sea_ice](articles/F492_okhotsk_sea_ice) |
+| F493 | 「エルニーニョの年は冷夏になる」は、日本の夏の気温でどこまで見えるか？ | [F493_elnino_summer](articles/F493_elnino_summer) |
+| F494 | 地上の風は、弱くなったのか？ | [F494_surface_wind](articles/F494_surface_wind) |
+| F509 | 大学の先生は、年をとったのか？ | [F509_university_faculty_age](articles/F509_university_faculty_age) |
+| F510 | 固定電話は、どれだけ減ったのか？ | [F510_landline_decline](articles/F510_landline_decline) |
+| F511 | ソフトウェアの仕事は、受託開発からパッケージ・クラウドへ移ったのか？ | [F511_info_service_sales_mix](articles/F511_info_service_sales_mix) |
+| F512 | 情報通信業で働く人は、東京にどれだけ集中しているのか？ | [F512_ict_workers_tokyo](articles/F512_ict_workers_tokyo) |
+| F513 | 「パンの支出が米を上回った」は、その後も続いているのか？ | [F513_bread_vs_rice_spending](articles/F513_bread_vs_rice_spending) |
+| F514 | 家のネットは、光回線と携帯の回線のどちらに移ったのか？ | [F514_home_internet_lines](articles/F514_home_internet_lines) |
+| F515 | 年間休日の多い産業と少ない産業の差は、縮まったのか？ | [F515_annual_holidays_by_industry](articles/F515_annual_holidays_by_industry) |
+| F516 | 広告の売上は、テレビからネットへいつ逆転したのか？ | [F516_ad_sales_by_media](articles/F516_ad_sales_by_media) |
+| F517 | スマホやパソコンの輸入額が増えたのは、台数のせいか、単価のせいか？ | [F517_phone_pc_imports](articles/F517_phone_pc_imports) |
+| F518 | 人口が減っても、公共施設は減っていないのか？ | [F518_public_facilities_population](articles/F518_public_facilities_population) |
+| F519 | 人口あたりの自治体の職員数は、人口の規模でどう違うのか？ | [F519_local_staff_per_population](articles/F519_local_staff_per_population) |
+| F520 | 下水道などが届いていない人は、どんな町に多いのか？ | [F520_sewage_coverage_by_size](articles/F520_sewage_coverage_by_size) |
+| F521 | 県の外から稼いでいる県は、どんな産業を持っているのか？ | [F521_net_exports_by_prefecture](articles/F521_net_exports_by_prefecture) |
+| F522 | 自治体の将来の借金の重さは、この15年で軽くなったのか？ | [F522_municipal_debt_burden](articles/F522_municipal_debt_burden) |
+| F523 | 公共工事への依存は、地方でどれだけ下がったのか？ | [F523_public_works_dependence](articles/F523_public_works_dependence) |
+| F524 | 買い物の客を周りから集めている市は、どんな市か？ | [F524_retail_pull_by_city](articles/F524_retail_pull_by_city) |
+| F525 | 自治体の職員の給与の差（ラスパイレス指数）は、縮まったのか？ | [F525_laspeyres_gap](articles/F525_laspeyres_gap) |
+| 269 | 「データが取れない」とき、どう代わりを探したか？ | [269_finding_substitute_data](articles/269_finding_substitute_data) |
+| 270 | 市町村の合併を、SQL でどう扱うか？ | [270_sql_municipal_code_scd2](articles/270_sql_municipal_code_scd2) |
+| 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
+| 286 | 予測モデルは、線形回帰と勾配ブースティングのどちらから始めるか？ | [286_linear_vs_gbm_first](articles/286_linear_vs_gbm_first) |
+| 301 | 公的統計の CSV を、SQL Server に毎月取り込む形はどう作るか？ | [301_sql_monthly_csv_load](articles/301_sql_monthly_csv_load) |
+| 322 | 書いた記事は、何か月で「古い数字」になるのか？ | [322_months_until_stale](articles/322_months_until_stale) |
+| 337 | 1966年の丙午に、出生はどれだけ減ったのか？ | [337_hinoeuma_1966_births](articles/337_hinoeuma_1966_births) |
+| 338 | 1918〜20年の流行で、死亡はふだんよりどれだけ多かったのか？ | [338_excess_deaths_1918_1920](articles/338_excess_deaths_1918_1920) |
+| 351 | 出典には、統計の名前・表の番号・取得日がそろっているか？ | [351_source_citation_elements](articles/351_source_citation_elements) |
+| 370 | 雇われて働く人が8割を超えたのは、いつだったのか？ | [370_employee_share_80_percent](articles/370_employee_share_80_percent) |
+| 373 | pandas で型を指定せずに読むと、何列が意図と違う型になるのか？ | [373_pandas_dtype_inference](articles/373_pandas_dtype_inference) |
+| 376 | 全体では上がっているのに、どの区分でも下がっていることは、どれくらい起きるのか？ | [376_simpson_reversal_frequency](articles/376_simpson_reversal_frequency) |
+| 377 | 季節のあるデータで「施策の前後」を比べると、効果0でもどれだけ差が出るのか？ | [377_before_after_seasonal_false_effect](articles/377_before_after_seasonal_false_effect) |
+| 390 | 年間の予算を月に割る方法で、月ごとの達成率はどれだけ変わるのか？ | [390_budget_monthly_allocation](articles/390_budget_monthly_allocation) |
+| 395 | 関係のない2つの右肩上がりの系列は、どれくらい「関係あり」と出てしまうのか？ | [395_spurious_regression_trending_series](articles/395_spurious_regression_trending_series) |
+| 421 | 生まれて1年以内に亡くなる子は、いつ、どれだけ速く減ったのか？ | [421_infant_mortality_since_1899](articles/421_infant_mortality_since_1899) |
+| 423 | 「市」に住む人が半分を超えたのは、いつだったのか？ | [423_city_population_share](articles/423_city_population_share) |
+| 424 | 日本の人口の「真ん中の年齢」は、100年でどう上がったのか？ | [424_median_age_100_years](articles/424_median_age_100_years) |
+| 425 | 赤ちゃんが生まれる場所は、自宅から病院へ、いつ入れ替わったのか？ | [425_birthplace_home_to_hospital](articles/425_birthplace_home_to_hospital) |
+| 435 | 対数に直して回帰した予測を元に戻すと、合計はどれだけ小さく出るのか？ | [435_log_retransformation_bias](articles/435_log_retransformation_bias) |
+| 439 | 3人目より後に生まれる子は、いつから少数になったのか？ | [439_birth_order_shares](articles/439_birth_order_shares) |
+| 441 | 基準の年が変わった指数をつなぐとき、つなぎ方で長期の伸びはどれだけ変わるのか？ | [441_index_rebasing_link_methods](articles/441_index_rebasing_link_methods) |
+| 452 | 小計や合計の行が混ざった表をそのまま足すと、合計は何倍になるのか？ | [452_subtotal_rows_double_count](articles/452_subtotal_rows_double_count) |
+| 474 | 見出しを結合セルや空欄で省いた Excel の表を読むと、何行が区分を失うのか？ | [474_blank_headings_filldown](articles/474_blank_headings_filldown) |
+| 541 | 郵便番号から都道府県・市区町村を引くと、古い番号や事業所の個別番号のせいで何件が引けないのか？ | [541_postal_code_lookup_gaps](articles/541_postal_code_lookup_gaps) |
 
 </details>
 
