@@ -1,0 +1,6 @@
+2026-11-17 再実行（独立レビュー）：11 ファイル一致、所要 5 秒（/tmp/rvD_F520 に写し、results・figures・data の中間ファイルを消して sh src/run_all.sh。results の CSV・JSON と figures の PNG、data の中間ファイルを cmp で比較）
+
+--- これまでの記録 ---
+再現の確認：2026-11-16 13:56（JST）
+/tmp/rep_F520 にフォルダを写し、results・figures・data/sewage_pop.csv を消してから src/run_all.sh を流した。
+ok=11 bad=0 sec=3（results の CSV 6本と main.json、figures の PNG 4枚、data/sewage_pop.csv がすべて cmp で一致）

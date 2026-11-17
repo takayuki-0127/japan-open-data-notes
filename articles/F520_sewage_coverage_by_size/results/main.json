@@ -1,0 +1,73 @@
+{
+ "n_2024": 1719,
+ "pop_2024": 124330690,
+ "served_2024": 116582746,
+ "national_rate": {
+  "2019": 92.0,
+  "2024": 93.77
+ },
+ "national_sewer_rate": {
+  "2019": 79.52,
+  "2024": 81.54
+ },
+ "national_nonsewer_share_2024": 13.04,
+ "national_median_rate_2024": 90.8,
+ "n_below80_2024": 500,
+ "n_below80_small_2024": 106,
+ "pop_below80_2024": 11753760,
+ "unserved_2024": 7747944,
+ "unserved_by_size_2024": {
+  "5千人未満": 164245,
+  "5千〜1万人": 356070,
+  "1万〜3万人": 1279481,
+  "3万〜10万人": 3075341,
+  "10万〜30万人": 1711359,
+  "30万人以上": 1161448
+ },
+ "unserved_share_by_size_2024": {
+  "5千人未満": 2.1,
+  "5千〜1万人": 4.6,
+  "1万〜3万人": 16.5,
+  "3万〜10万人": 39.7,
+  "10万〜30万人": 22.1,
+  "30万人以上": 15.0
+ },
+ "hypotheses": {
+  "H1": {
+   "computed_2024": 93.77,
+   "official_2024": 93.7,
+   "computed_2019": 92.0,
+   "official_2019": 91.7,
+   "verdict": "支持"
+  },
+  "H2": {
+   "small_rate": 79.69,
+   "national": 93.77,
+   "gap_pt": 14.08,
+   "verdict": "外れ"
+  },
+  "H3": {
+   "small_nonsewer_share": 52.91,
+   "verdict": "支持"
+  },
+  "H4": {
+   "small_change_pt": 2.57,
+   "large_change_pt": 0.72,
+   "verdict": "支持"
+  }
+ },
+ "requestion": {
+  "question": "小さな町の普及率の上昇は、人口（分母）の減少によるものか",
+  "small": {
+   "change_pt": 2.57,
+   "served_effect_pt": -5.86,
+   "pop_effect_pt": 8.44,
+   "public_sewer_effect_pt": -3.03,
+   "rural_effect_pt": -1.72,
+   "community_plant_effect_pt": -0.02,
+   "johkaso_effect_pt": -1.1
+  },
+  "small_pop_share_of_change_pct": 328.4,
+  "answer": "人口が減った分だけで上昇を上回る（処理人口そのものは減っている）"
+ }
+}
