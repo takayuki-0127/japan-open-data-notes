@@ -1,0 +1,4 @@
+再現の確認（2026-11-16）
+手順：記事のフォルダを /tmp/rep_F428 に写し、results（repro_check.txt・selfcheck.md を除く）・figures・data 直下の CSV を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。
+2026-11-16 再実行：13 ファイル一致（results 7、figures 4、data の CSV 2）、所要 5 秒。ネットにはつながない。
+2026-11-17 独立レビューで再実行（/tmp/rvB_F428、results・figures と data 直下の CSV を消してから sh src/run_all.sh）：13 ファイル一致、所要 4 秒。
