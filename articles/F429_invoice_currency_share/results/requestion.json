@@ -1,0 +1,9 @@
+{
+ "slope_actual": -12.3592,
+ "slope_mechanical": -23.3998,
+ "mech_share_of_slope": 189.3308,
+ "corr_resid_dfx": 0.5336,
+ "mech_total_first_last": -8.4344,
+ "actual_total_first_last": -1.4,
+ "resid_total": 7.0344
+}
