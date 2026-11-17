@@ -9,11 +9,11 @@
  "fixed_2025": 13307.0,
  "share_2019_pct": 3.62,
  "share_2025_pct": 2.89,
- "cpi_mobile_2019": 171.2,
- "cpi_mobile_2021": 92.0,
- "cpi_mobile_2025": 102.6,
- "cpi_mobile_change_2019_2025_pct": -40.1,
- "real_change_2019_2025_pct": 42.6,
+ "cpi_mobile_2019": 173.1,
+ "cpi_mobile_2021": 115.2,
+ "cpi_mobile_2025": 100.0,
+ "cpi_mobile_change_2019_2025_pct": -42.2,
+ "real_change_2019_2025_pct": 47.9,
  "by_age_change_pct": {
   "平均": -14.5,
   "29歳以下": -29.7,
@@ -48,17 +48,17 @@
   "composition": -1614.0,
   "total": -18515.0
  },
- "reg_coef": 0.034,
- "reg_se": 0.111,
- "reg_r2": 0.155,
+ "reg_coef": 0.107,
+ "reg_se": 0.116,
+ "reg_r2": 0.224,
  "hypotheses": {
   "H1_within_ge_80": {
    "value": 91.3,
    "result": "支持"
   },
   "H2_0_lt_coef_lt_1": {
-   "value": 0.034,
-   "se": 0.111,
+   "value": 0.107,
+   "se": 0.116,
    "result": "支持"
   }
  }

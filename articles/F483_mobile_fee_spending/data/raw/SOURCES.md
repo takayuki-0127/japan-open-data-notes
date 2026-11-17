@@ -6,7 +6,7 @@
 |---|---|---|---|
 | kakei_two_plus_items_nominal_2000_2025.csv | 家計調査 長期時系列 表1-2 二人以上の世帯 品目分類 支出金額（年、2000年〜） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040270652&fileKind=1 | f292df314949 |
 | kakei_single_items_2000_2025.csv | 家計調査 長期時系列 表6 単身世帯 品目分類 支出金額（年、2000年〜） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040270666&fileKind=1 | 78269524b142 |
-| cpi_item_annual.csv | 消費者物価指数 2025年基準 全国 品目別価格指数（年平均） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040482959&fileKind=1 | 7ce020001725 |
+| cpi_item_annual.csv | 消費者物価指数 2025年基準 全国 品目別価格指数（暦年の年平均） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040482831&fileKind=1 | cfa494f77d7b |
 | kakei_4-6_2015.xls | 家計調査 2015年 二人以上の世帯 第4-6表 世帯主の年齢階級別（品目分類） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031370144&fileKind=0 | 7d1e6780a04f |
 | kakei_4-6_2016.xls | 家計調査 2016年 二人以上の世帯 第4-6表 世帯主の年齢階級別（品目分類） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031534707&fileKind=0 | 92624f891e36 |
 | kakei_4-6_2017.xls | 家計調査 2017年 二人以上の世帯 第4-6表 世帯主の年齢階級別（品目分類） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031674349&fileKind=0 | d810f121c458 |
@@ -20,3 +20,5 @@
 | kakei_4-6_2025.xlsx | 家計調査 2025年 二人以上の世帯 第4-6表 世帯主の年齢階級別（品目分類） | https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040409549&fileKind=0 | b9e804f1dc44 |
 
 出典：総務省統計局「家計調査（家計収支編）」「消費者物価指数」（e-Stat https://www.e-stat.go.jp/）。CSV は Shift_JIS（cp932）。
+
+- 注（2026-11-18 訂正）：cpi_item_annual.csv は、はじめ statInfId=000040482959（品目別価格指数の**年度平均**の表。2025年の総合が100.4）を使っていた。暦年の統計と並べるため、暦年の年平均の表（statInfId=000040482831、2025年の総合が100.0）に取り直した（同じ行・列の並び）。
