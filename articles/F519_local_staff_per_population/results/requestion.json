@@ -1,0 +1,37 @@
+{
+ "5千人未満": {
+  "per1000_change_pct": 11.37,
+  "share_from_pop_decline_pct": 103.9,
+  "share_from_staff_pct": -3.9
+ },
+ "5千〜1万人": {
+  "per1000_change_pct": 10.09,
+  "share_from_pop_decline_pct": 92.7,
+  "share_from_staff_pct": 7.3
+ },
+ "1万〜3万人": {
+  "per1000_change_pct": 8.01,
+  "share_from_pop_decline_pct": 93.0,
+  "share_from_staff_pct": 7.0
+ },
+ "3万〜10万人": {
+  "per1000_change_pct": 6.6,
+  "share_from_pop_decline_pct": 60.1,
+  "share_from_staff_pct": 39.9
+ },
+ "10万〜30万人": {
+  "per1000_change_pct": 5.46,
+  "share_from_pop_decline_pct": 34.7,
+  "share_from_staff_pct": 65.3
+ },
+ "30万人以上": {
+  "per1000_change_pct": 4.34,
+  "share_from_pop_decline_pct": 20.9,
+  "share_from_staff_pct": 79.1
+ },
+ "指定都市": {
+  "per1000_change_pct": 3.71,
+  "share_from_pop_decline_pct": 7.9,
+  "share_from_staff_pct": 92.1
+ }
+}

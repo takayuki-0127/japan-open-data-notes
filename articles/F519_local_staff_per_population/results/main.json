@@ -1,0 +1,138 @@
+{
+ "n_2025": 1741,
+ "pop_2025": 124330690,
+ "general_2025": 699597,
+ "general_2020": 680673,
+ "pop_2020": 127138033,
+ "general_per1000_national": {
+  "2020": 5.35,
+  "2025": 5.63
+ },
+ "by_size_2025": {
+  "5千人未満": {
+   "n": 302.0,
+   "general_median": 21.26,
+   "general_q1": 17.53,
+   "general_q3": 29.33,
+   "gen_admin_median": 14.34,
+   "welfare_median": 7.2,
+   "ordinary_median": 25.1
+  },
+  "5千〜1万人": {
+   "n": 241.0,
+   "general_median": 12.5,
+   "general_q1": 10.49,
+   "general_q3": 14.87,
+   "gen_admin_median": 8.21,
+   "welfare_median": 4.27,
+   "ordinary_median": 14.79
+  },
+  "1万〜3万人": {
+   "n": 447.0,
+   "general_median": 8.44,
+   "general_q1": 6.96,
+   "general_q3": 10.14,
+   "gen_admin_median": 5.43,
+   "welfare_median": 2.93,
+   "ordinary_median": 10.48
+  },
+  "3万〜10万人": {
+   "n": 474.0,
+   "general_median": 6.15,
+   "general_q1": 5.19,
+   "general_q3": 7.27,
+   "gen_admin_median": 3.68,
+   "welfare_median": 2.39,
+   "ordinary_median": 7.69
+  },
+  "10万〜30万人": {
+   "n": 193.0,
+   "general_median": 4.96,
+   "general_q1": 4.47,
+   "general_q3": 5.78,
+   "gen_admin_median": 2.86,
+   "welfare_median": 2.12,
+   "ordinary_median": 6.76
+  },
+  "30万人以上": {
+   "n": 64.0,
+   "general_median": 4.79,
+   "general_q1": 4.47,
+   "general_q3": 5.21,
+   "gen_admin_median": 2.26,
+   "welfare_median": 2.4,
+   "ordinary_median": 6.3
+  },
+  "指定都市": {
+   "n": 20.0,
+   "general_median": 4.81,
+   "general_q1": 4.47,
+   "general_q3": 5.08,
+   "gen_admin_median": 2.3,
+   "welfare_median": 2.46,
+   "ordinary_median": 12.05
+  }
+ },
+ "change_2020_2025": {
+  "5千人未満": {
+   "median_change": 2.208,
+   "pop_change_pct": -10.59,
+   "staff_change_pct": -0.422
+  },
+  "5千〜1万人": {
+   "median_change": 1.32,
+   "pop_change_pct": -8.532,
+   "staff_change_pct": 0.7
+  },
+  "1万〜3万人": {
+   "median_change": 0.673,
+   "pop_change_pct": -6.911,
+   "staff_change_pct": 0.544
+  },
+  "3万〜10万人": {
+   "median_change": 0.403,
+   "pop_change_pct": -3.772,
+   "staff_change_pct": 2.583
+  },
+  "10万〜30万人": {
+   "median_change": 0.338,
+   "pop_change_pct": -1.827,
+   "staff_change_pct": 3.534
+  },
+  "30万人以上": {
+   "median_change": 0.221,
+   "pop_change_pct": -0.885,
+   "staff_change_pct": 3.414
+  },
+  "指定都市": {
+   "median_change": 0.239,
+   "pop_change_pct": -0.287,
+   "staff_change_pct": 3.413
+  }
+ },
+ "min_pop_2025": 160,
+ "n_under1000": 37,
+ "hypotheses": {
+  "H1": {
+   "small_median": 21.26,
+   "mid_median": 4.96,
+   "ratio": 4.29,
+   "verdict": "支持"
+  },
+  "H2": {
+   "slope_general_2025": 0.67,
+   "verdict": "支持"
+  },
+  "H3": {
+   "small_change": 2.21,
+   "mid_change": 0.34,
+   "verdict": "支持"
+  },
+  "H4": {
+   "ratio_gen_admin": 5.01,
+   "ratio_welfare": 3.4,
+   "verdict": "支持"
+  }
+ },
+ "note": "職員数は4月1日（定員管理調査）、人口は1月1日（住民基本台帳）。一般行政＝一般管理＋福祉関係。"
+}
