@@ -1,0 +1,122 @@
+{
+ "phones": {
+  "2017": {
+   "qty_million": 35.66,
+   "value_trillion": 1.909,
+   "unit_yen": 53523.0,
+   "unit_usd": 477.0
+  },
+  "2021": {
+   "qty_million": 36.77,
+   "value_trillion": 1.983,
+   "unit_yen": 53911.0,
+   "unit_usd": 491.0
+  },
+  "2025": {
+   "qty_million": 38.09,
+   "value_trillion": 3.133,
+   "unit_yen": 82230.0,
+   "unit_usd": 549.0
+  }
+ },
+ "computers": {
+  "2000": {
+   "qty_million": 101.79,
+   "value_trillion": 1.883,
+   "unit_yen": 18496.0,
+   "unit_usd": 172.0
+  },
+  "2017": {
+   "qty_million": 86.42,
+   "value_trillion": 1.966,
+   "unit_yen": 22748.0,
+   "unit_usd": 203.0
+  },
+  "2021": {
+   "qty_million": 103.9,
+   "value_trillion": 2.392,
+   "unit_yen": 23017.0,
+   "unit_usd": 210.0
+  },
+  "2025": {
+   "qty_million": 102.06,
+   "value_trillion": 3.863,
+   "unit_yen": 37845.0,
+   "unit_usd": 253.0
+  }
+ },
+ "usdjpy": {
+  "2000": 107.74,
+  "2017": 112.16,
+  "2021": 109.78,
+  "2025": 149.65
+ },
+ "decomposition": {
+  "phones_2017_2025": {
+   "y0": 2017,
+   "y1": 2025,
+   "value_change_pct": 64.1,
+   "qty_change_pct": 6.8,
+   "unit_yen_change_pct": 53.6,
+   "fx_change_pct": 33.4,
+   "unit_usd_change_pct": 15.1,
+   "share_unit_in_value_pct": 86.7,
+   "share_fx_in_unit_pct": 67.2,
+   "share_fx_in_value_pct": 58.2,
+   "share_qty_in_value_pct": 13.3
+  },
+  "computers_2017_2025": {
+   "y0": 2017,
+   "y1": 2025,
+   "value_change_pct": 96.5,
+   "qty_change_pct": 18.1,
+   "unit_yen_change_pct": 66.4,
+   "fx_change_pct": 33.4,
+   "unit_usd_change_pct": 24.7,
+   "share_unit_in_value_pct": 75.4,
+   "share_fx_in_unit_pct": 56.6,
+   "share_fx_in_value_pct": 42.7,
+   "share_qty_in_value_pct": 24.6
+  }
+ },
+ "country_shares": {
+  "phones_中国_2017": 85.66,
+  "phones_中国_2021": 88.62,
+  "phones_中国_2025": 88.35,
+  "phones_ASEAN_2017": 13.55,
+  "phones_ASEAN_2021": 9.49,
+  "phones_ASEAN_2025": 9.65,
+  "phones_米国_2017": 0.02,
+  "phones_米国_2021": 0.01,
+  "phones_米国_2025": 0.01,
+  "computers_中国_2017": 75.28,
+  "computers_中国_2021": 77.56,
+  "computers_中国_2025": 62.84,
+  "computers_ASEAN_2017": 13.32,
+  "computers_ASEAN_2021": 11.1,
+  "computers_ASEAN_2025": 14.75,
+  "computers_米国_2017": 5.04,
+  "computers_米国_2021": 3.28,
+  "computers_米国_2025": 7.44
+ },
+ "hypotheses": {
+  "H1": {
+   "share_fx_in_unit_pct": 67.2,
+   "verdict": "支持"
+  },
+  "H2": {
+   "unit_usd_change_pct": 15.1,
+   "verdict": "支持"
+  },
+  "H3": {
+   "china_2017": 85.66,
+   "china_2025": 88.35,
+   "verdict": "外れ"
+  },
+  "H4": {
+   "share_unit_in_value_pct": 75.4,
+   "verdict": "支持"
+  }
+ },
+ "note": "単価＝金額÷数量（電話機・電算機類（含周辺機器）の中の平均）。ドル円は日銀 東京市場17時の月中平均の年平均。"
+}
