@@ -1,0 +1,23 @@
+{
+ "reinv_share_of_flows": 41.096,
+ "equity_share_of_flows": 25.425,
+ "debt_share_of_flows": 33.479,
+ "years_other_negative": [
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2024,
+  2025
+ ],
+ "other_min_year": 2021,
+ "other_min": -3.31,
+ "flow_2025": 7.378,
+ "equity_2025": 0.979,
+ "reinv_2025": 2.263,
+ "debt_2025": 4.136,
+ "increase_2025": 5.083
+}
