@@ -1,0 +1,150 @@
+{
+ "n": {
+  "2009": 1727,
+  "2014": 1718,
+  "2019": 1718,
+  "2024": 1718
+ },
+ "by_year": {
+  "2009": {
+   "n": 1727.0,
+   "fbr_median": 82.6,
+   "fbr_q1": 36.9,
+   "fbr_q3": 124.5,
+   "fbr_q90": 167.5,
+   "fbr_none_pct": 13.3,
+   "fbr_weighted": 113.6,
+   "rdsr_median": 13.5,
+   "rdsr_weighted": 12.3,
+   "rdsr_over18": 302.0,
+   "fbr_over200": 75.0,
+   "fbr_over350": 3.0,
+   "debt_r_median": 167.1,
+   "fund_r_median": 35.8,
+   "net_r_median": 126.5,
+   "debt_r_total": 196.1,
+   "fund_r_total": 28.1
+  },
+  "2014": {
+   "n": 1718.0,
+   "fbr_median": 30.1,
+   "fbr_q1": 0.0,
+   "fbr_q3": 71.2,
+   "fbr_q90": 113.7,
+   "fbr_none_pct": 33.5,
+   "fbr_weighted": 67.6,
+   "rdsr_median": 9.0,
+   "rdsr_weighted": 8.9,
+   "rdsr_over18": 25.0,
+   "fbr_over200": 16.0,
+   "fbr_over350": 1.0,
+   "debt_r_median": 163.3,
+   "fund_r_median": 55.9,
+   "net_r_median": 102.9,
+   "debt_r_total": 193.6,
+   "fund_r_total": 44.3
+  },
+  "2019": {
+   "n": 1718.0,
+   "fbr_median": 17.5,
+   "fbr_q1": 0.0,
+   "fbr_q3": 60.5,
+   "fbr_q90": 97.7,
+   "fbr_none_pct": 40.0,
+   "fbr_weighted": 51.4,
+   "rdsr_median": 7.5,
+   "rdsr_weighted": 6.7,
+   "rdsr_over18": 6.0,
+   "fbr_over200": 5.0,
+   "fbr_over350": 1.0,
+   "debt_r_median": 170.2,
+   "fund_r_median": 59.6,
+   "net_r_median": 105.3,
+   "debt_r_total": 186.2,
+   "fund_r_total": 42.2
+  },
+  "2024": {
+   "n": 1718.0,
+   "fbr_median": 0.0,
+   "fbr_q1": 0.0,
+   "fbr_q3": 31.7,
+   "fbr_q90": 67.0,
+   "fbr_none_pct": 53.5,
+   "fbr_weighted": 35.5,
+   "rdsr_median": 7.6,
+   "rdsr_weighted": 6.3,
+   "rdsr_over18": 1.0,
+   "fbr_over200": 1.0,
+   "fbr_over350": 0.0,
+   "debt_r_median": 147.8,
+   "fund_r_median": 69.2,
+   "net_r_median": 74.6,
+   "debt_r_total": 163.8,
+   "fund_r_total": 48.4
+  }
+ },
+ "seirei_fbr_median": {
+  "2009": 155.7,
+  "2014": 127.8,
+  "2019": 91.8,
+  "2024": 61.6
+ },
+ "decomposition": {
+  "debt_r_total_2009": 196.1,
+  "debt_r_total_2024": 163.8,
+  "fund_r_total_2009": 28.1,
+  "fund_r_total_2024": 48.4,
+  "debt_r_median_2009": 167.1,
+  "debt_r_median_2024": 147.8,
+  "fund_r_median_2009": 35.8,
+  "fund_r_median_2024": 69.2,
+  "debt_trillion_2009": 54.37,
+  "debt_trillion_2024": 52.73,
+  "fund_trillion_2009": 7.78,
+  "fund_trillion_2024": 15.57,
+  "sfs_trillion_2009": 27.72,
+  "sfs_trillion_2024": 32.18,
+  "debt_drop_pt": 32.3,
+  "fund_rise_pt": 20.3,
+  "fund_share_pct": 38.6
+ },
+ "hypotheses": {
+  "H1": {
+   "fbr_median_2009": 82.6,
+   "fbr_median_2024": 0.0,
+   "verdict": "支持"
+  },
+  "H2": {
+   "fbr_none_pct_2024": 53.5,
+   "verdict": "支持"
+  },
+  "H3": {
+   "rdsr_median_2009": 13.5,
+   "rdsr_median_2024": 7.6,
+   "drop": 5.9,
+   "verdict": "支持"
+  },
+  "H4": {
+   "fund_rise_pt": 20.3,
+   "debt_drop_pt": 32.3,
+   "verdict": "外れ"
+  }
+ },
+ "requestion": {
+  "question": "比率の低下は、地方債の減少か、積立金の増加か、分母の拡大か",
+  "all": {
+   "net_2009": 168.1,
+   "net_2024": 115.5,
+   "change_pt": -52.6,
+   "debt_effect_pt": -5.9,
+   "fund_effect_pt": -28.1,
+   "denominator_effect_pt": -18.6,
+   "debt_change_pct": -3.0,
+   "fund_change_pct": 100.2,
+   "sfs_change_pct": 16.1
+  },
+  "largest": "fund_effect_pt",
+  "small_fund_effect_pt": -74.0,
+  "large_fund_effect_pt": -15.6
+ }
+}
