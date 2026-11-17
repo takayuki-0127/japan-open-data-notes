@@ -1,0 +1,356 @@
+{
+ "japan": {
+  "1963": {
+   "public": 944000.0,
+   "share": 4.63,
+   "share_rented": 12.97
+  },
+  "1968": {
+   "public": 1402800.0,
+   "share": 5.8,
+   "share_rented": 14.61
+  },
+  "1973": {
+   "public": 1405200.0,
+   "share": 4.89,
+   "share_rented": 11.99
+  },
+  "1978": {
+   "public": 1719000.0,
+   "share": 5.34,
+   "share_rented": 13.55
+  },
+  "1983": {
+   "public": 1868300.0,
+   "share": 5.38,
+   "share_rented": 14.43
+  },
+  "1988": {
+   "public": 1989500.0,
+   "share": 5.32,
+   "share_rented": 14.2
+  },
+  "1993": {
+   "public": 2033000.0,
+   "share": 4.99,
+   "share_rented": 12.96
+  },
+  "1998": {
+   "public": 2086700.0,
+   "share": 4.75,
+   "share_rented": 12.47
+  },
+  "2003": {
+   "public": 2182600.0,
+   "share": 4.66,
+   "share_rented": 12.71
+  },
+  "2008": {
+   "public": 2088900.0,
+   "share": 4.21,
+   "share_rented": 11.76
+  },
+  "2013": {
+   "public": 1958600.0,
+   "share": 3.76,
+   "share_rented": 10.58
+  },
+  "2018": {
+   "public": 1922300.0,
+   "share": 3.59,
+   "share_rented": 10.08
+  },
+  "2023": {
+   "public": 1760200.0,
+   "share": 3.16,
+   "share_rented": 9.04
+  }
+ },
+ "peak_year": 2003,
+ "change_2003_2023_pct": -19.4,
+ "change_2018_2023_pct": -8.4,
+ "regions": {
+  "北海道": {
+   "share_1983": 9.09,
+   "share_2003": 7.82,
+   "share_2023": 5.44,
+   "public_2003": 176400.0,
+   "public_2023": 131900.0,
+   "change_pct": -25.2
+  },
+  "東北": {
+   "share_1983": 4.56,
+   "share_2003": 4.08,
+   "share_2023": 3.35,
+   "public_2003": 131100.0,
+   "public_2023": 115300.0,
+   "change_pct": -12.1
+  },
+  "関東": {
+   "share_1983": 4.08,
+   "share_2003": 3.39,
+   "share_2023": 2.28,
+   "public_2003": 535900.0,
+   "public_2023": 462800.0,
+   "change_pct": -13.6
+  },
+  "中部": {
+   "share_1983": 4.97,
+   "share_2003": 4.0,
+   "share_2023": 2.65,
+   "public_2003": 292700.0,
+   "public_2023": 228100.0,
+   "change_pct": -22.1
+  },
+  "近畿": {
+   "share_1983": 6.46,
+   "share_2003": 5.69,
+   "share_2023": 3.83,
+   "public_2003": 484000.0,
+   "public_2023": 383100.0,
+   "change_pct": -20.8
+  },
+  "中国": {
+   "share_1983": 5.27,
+   "share_2003": 4.59,
+   "share_2023": 3.05,
+   "public_2003": 128900.0,
+   "public_2023": 94100.0,
+   "change_pct": -27.0
+  },
+  "四国": {
+   "share_1983": 5.49,
+   "share_2003": 4.63,
+   "share_2023": 3.18,
+   "public_2003": 70500.0,
+   "public_2023": 50800.0,
+   "change_pct": -27.9
+  },
+  "九州・沖縄": {
+   "share_1983": 6.67,
+   "share_2003": 6.69,
+   "share_2023": 4.74,
+   "public_2003": 363200.0,
+   "public_2023": 294300.0,
+   "change_pct": -19.0
+  }
+ },
+ "age_rates": {
+  "〜29歳": {
+   "rate_2003": 3.31,
+   "rate_2023": 0.96,
+   "public_2003": 143000.0,
+   "public_2023": 40600.0
+  },
+  "30〜39歳": {
+   "rate_2003": 4.97,
+   "rate_2023": 1.42,
+   "public_2003": 344600.0,
+   "public_2023": 77900.0
+  },
+  "40〜49歳": {
+   "rate_2003": 4.35,
+   "rate_2023": 2.09,
+   "public_2003": 328200.0,
+   "public_2023": 160800.0
+  },
+  "50〜59歳": {
+   "rate_2003": 4.12,
+   "rate_2023": 2.58,
+   "public_2003": 425600.0,
+   "public_2023": 250300.0
+  },
+  "60〜64歳": {
+   "rate_2003": 4.81,
+   "rate_2023": 2.89,
+   "public_2003": 218400.0,
+   "public_2023": 131600.0
+  },
+  "65〜74歳": {
+   "rate_2003": 5.81,
+   "rate_2023": 4.43,
+   "public_2003": 421200.0,
+   "public_2023": 444100.0
+  },
+  "75歳以上": {
+   "rate_2003": 6.17,
+   "rate_2023": 5.48,
+   "public_2003": 252000.0,
+   "public_2023": 600500.0
+  }
+ },
+ "decomposition_2003_2023": {
+  "change": -427200.0,
+  "composition": 489854.0,
+  "rate": -917054.0
+ },
+ "share65plus": {
+  "1983": {
+   "public": 8.9,
+   "all": 9.2
+  },
+  "1993": {
+   "public": 16.2,
+   "all": 14.6
+  },
+  "2003": {
+   "public": 21.8,
+   "all": 17.2
+  },
+  "2013": {
+   "public": 31.9,
+   "all": 23.6
+  },
+  "2023": {
+   "public": 43.8,
+   "all": 27.9
+  }
+ },
+ "robustness": [
+  {
+   "check": "1 期間 1993→2023年",
+   "change_pct": -13.4,
+   "regions_down": 8.0,
+   "composition": 432666.0,
+   "rate": -967266.0
+  },
+  {
+   "check": "1 期間 2013→2023年",
+   "change_pct": -10.1,
+   "regions_down": 8.0,
+   "composition": 216168.0,
+   "rate": -351968.0
+  },
+  {
+   "check": "2 分母を借家の総数に（2003→2023年）",
+   "change_pct": -3.67,
+   "regions_down": 8.0,
+   "composition": null,
+   "rate": null
+  },
+  {
+   "check": "3 分解の年齢区分を細かく（2003→2023年）",
+   "change_pct": null,
+   "regions_down": null,
+   "composition": 492777.0,
+   "rate": -919977.0
+  },
+  {
+   "check": "4 都道府県で数える（2003→2023年、割合が下がった県の数／47）",
+   "change_pct": null,
+   "regions_down": 46.0,
+   "composition": null,
+   "rate": null
+  }
+ ],
+ "rent": {
+  "1973": {
+   "monthly_ratio": 60.5,
+   "tatami_ratio": 57.9,
+   "public_monthly": 6303.0,
+   "all_monthly": 10410.0
+  },
+  "1978": {
+   "monthly_ratio": 45.0,
+   "tatami_ratio": 43.3,
+   "public_monthly": 8263.0,
+   "all_monthly": 18348.0
+  },
+  "1983": {
+   "monthly_ratio": 51.3,
+   "tatami_ratio": 48.4,
+   "public_monthly": 13124.0,
+   "all_monthly": 25606.0
+  },
+  "1988": {
+   "monthly_ratio": 50.8,
+   "tatami_ratio": 47.7,
+   "public_monthly": 17139.0,
+   "all_monthly": 33762.0
+  },
+  "1993": {
+   "monthly_ratio": 48.8,
+   "tatami_ratio": 45.0,
+   "public_monthly": 21862.0,
+   "all_monthly": 44763.0
+  },
+  "1998": {
+   "monthly_ratio": 45.1,
+   "tatami_ratio": 41.0,
+   "public_monthly": 22305.0,
+   "all_monthly": 49494.0
+  },
+  "2003": {
+   "monthly_ratio": 43.1,
+   "tatami_ratio": 39.4,
+   "public_monthly": 22014.0,
+   "all_monthly": 51127.0
+  },
+  "2008": {
+   "monthly_ratio": 41.5,
+   "tatami_ratio": 37.1,
+   "public_monthly": 22253.0,
+   "all_monthly": 53594.0
+  },
+  "2013": {
+   "monthly_ratio": 41.4,
+   "tatami_ratio": 36.8,
+   "public_monthly": 22394.0,
+   "all_monthly": 54040.0
+  },
+  "2018": {
+   "monthly_ratio": 41.7,
+   "tatami_ratio": 37.7,
+   "public_monthly": 23203.0,
+   "all_monthly": 55675.0
+  },
+  "2023": {
+   "monthly_ratio": 41.9,
+   "tatami_ratio": 36.7,
+   "public_monthly": 24961.0,
+   "all_monthly": 59643.0
+  }
+ },
+ "hypotheses": {
+  "H1": {
+   "value": -19.4,
+   "verdict": "支持"
+  },
+  "H2": {
+   "value": 8,
+   "verdict": "支持"
+  },
+  "H3": {
+   "value": {
+    "〜29歳": [
+     3.31,
+     0.96
+    ],
+    "30〜39歳": [
+     4.97,
+     1.42
+    ],
+    "40〜49歳": [
+     4.35,
+     2.09
+    ],
+    "50〜59歳": [
+     4.12,
+     2.58
+    ],
+    "60〜64歳": [
+     4.81,
+     2.89
+    ]
+   },
+   "verdict": "支持"
+  },
+  "H4": {
+   "value": [
+    489854.0,
+    -917054.0
+   ],
+   "verdict": "支持"
+  }
+ }
+}
