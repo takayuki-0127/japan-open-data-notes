@@ -1,0 +1,63 @@
+{
+ "hfc_1990": 13.41,
+ "hfc_min_year": 2005,
+ "hfc_min": 10.79,
+ "hfc_peak_year": 2021,
+ "hfc_peak": 31.01,
+ "hfc_2013": 21.98,
+ "hfc_2024": 27.58,
+ "hfc_ratio_2024_to_min": 2.56,
+ "hfc_2024_vs_peak_pct": -11.1,
+ "byproduct_1990": 13.35,
+ "byproduct_2005": 0.49,
+ "refrig_2005": 7.14,
+ "refrig_2021": 27.38,
+ "refrig_2024": 24.43,
+ "refrig_share_2024_pct": 88.6,
+ "mix_2024_mt": {
+  "業務用冷凍空調機器": 15.544,
+  "家庭用エアコン": 6.421,
+  "カーエアコン": 1.898,
+  "冷凍空調のその他": 0.564,
+  "発泡剤": 2.57,
+  "エアゾール・MDI": 0.31,
+  "HCFC22製造時の副生HFC23": 0.004
+ },
+ "co2_2013": 1312.37,
+ "co2_2024": 971.48,
+ "co2_change_2013_2024_pct": -26.0,
+ "hfc_change_2013_2024_pct": 25.5,
+ "hfc_share_of_ghg_pct": {
+  "1990": 1.054,
+  "2005": 0.785,
+  "2013": 1.577,
+  "2021": 2.715,
+  "2024": 2.635
+ },
+ "fgas_2024": 32.24,
+ "vintage_2023_hfc_2025ver": 31.7,
+ "vintage_2023_hfc_2026ver": 28.54,
+ "vintage_max_rev_year": 2022,
+ "vintage_max_rev_mt": -3.19,
+ "hypotheses": {
+  "H1_ratio_ge_2": {
+   "value": 2.56,
+   "min_year": 2005,
+   "result": "支持"
+  },
+  "H2_peak_le_2022_and_5pct_below": {
+   "peak_year": 2021,
+   "value": -11.1,
+   "result": "支持"
+  },
+  "H3_refrig_share_ge_80": {
+   "value": 88.6,
+   "result": "支持"
+  },
+  "H4_co2_down_20_and_hfc_up": {
+   "co2_pct": -26.0,
+   "hfc_pct": 25.5,
+   "result": "支持"
+  }
+ }
+}
