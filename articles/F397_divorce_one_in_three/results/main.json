@@ -1,0 +1,259 @@
+{
+ "yearly": {
+  "2000": {
+   "crude": 33.1,
+   "ptdr": 33.7,
+   "share_20plus": 16.5,
+   "share_under5": 37.9
+  },
+  "2001": {
+   "crude": 35.7,
+   "ptdr": 36.5,
+   "share_20plus": 15.7,
+   "share_under5": 37.5
+  },
+  "2002": {
+   "crude": 38.3,
+   "ptdr": 37.0,
+   "share_20plus": 16.5,
+   "share_under5": 36.1
+  },
+  "2003": {
+   "crude": 38.3,
+   "ptdr": 36.4,
+   "share_20plus": 16.7,
+   "share_under5": 35.8
+  },
+  "2004": {
+   "crude": 37.6,
+   "ptdr": 35.0,
+   "share_20plus": 16.3,
+   "share_under5": 36.6
+  },
+  "2005": {
+   "crude": 36.7,
+   "ptdr": 34.0,
+   "share_20plus": 16.2,
+   "share_under5": 36.5
+  },
+  "2006": {
+   "crude": 35.2,
+   "ptdr": 33.7,
+   "share_20plus": 15.5,
+   "share_under5": 36.8
+  },
+  "2007": {
+   "crude": 35.4,
+   "ptdr": 33.5,
+   "share_20plus": 16.7,
+   "share_under5": 35.9
+  },
+  "2008": {
+   "crude": 34.6,
+   "ptdr": 33.2,
+   "share_20plus": 16.5,
+   "share_under5": 35.7
+  },
+  "2009": {
+   "crude": 35.8,
+   "ptdr": 33.6,
+   "share_20plus": 16.9,
+   "share_under5": 35.6
+  },
+  "2010": {
+   "crude": 35.9,
+   "ptdr": 33.6,
+   "share_20plus": 16.9,
+   "share_under5": 35.0
+  },
+  "2011": {
+   "crude": 35.6,
+   "ptdr": 31.7,
+   "share_20plus": 17.1,
+   "share_under5": 34.8
+  },
+  "2012": {
+   "crude": 35.2,
+   "ptdr": 32.0,
+   "share_20plus": 17.5,
+   "share_under5": 34.5
+  },
+  "2013": {
+   "crude": 35.0,
+   "ptdr": 31.8,
+   "share_20plus": 17.6,
+   "share_under5": 34.2
+  },
+  "2014": {
+   "crude": 34.5,
+   "ptdr": 30.8,
+   "share_20plus": 17.8,
+   "share_under5": 33.8
+  },
+  "2015": {
+   "crude": 35.6,
+   "ptdr": 31.7,
+   "share_20plus": 18.2,
+   "share_under5": 33.8
+  },
+  "2016": {
+   "crude": 34.9,
+   "ptdr": 30.7,
+   "share_20plus": 18.6,
+   "share_under5": 33.6
+  },
+  "2017": {
+   "crude": 35.0,
+   "ptdr": 30.4,
+   "share_20plus": 19.3,
+   "share_under5": 33.5
+  },
+  "2018": {
+   "crude": 35.5,
+   "ptdr": 30.2,
+   "share_20plus": 19.8,
+   "share_under5": 33.4
+  },
+  "2019": {
+   "crude": 34.8,
+   "ptdr": 30.6,
+   "share_20plus": 20.8,
+   "share_under5": 32.9
+  },
+  "2020": {
+   "crude": 36.8,
+   "ptdr": 28.7,
+   "share_20plus": 21.5,
+   "share_under5": 32.5
+  },
+  "2021": {
+   "crude": 36.8,
+   "ptdr": 27.9,
+   "share_20plus": 22.7,
+   "share_under5": 31.7
+  },
+  "2022": {
+   "crude": 35.5,
+   "ptdr": 27.7,
+   "share_20plus": 23.5,
+   "share_under5": 31.7
+  },
+  "2023": {
+   "crude": 38.7,
+   "ptdr": 29.1,
+   "share_20plus": 23.5,
+   "share_under5": 31.1
+  },
+  "2024": {
+   "crude": 38.3,
+   "ptdr": 30.0,
+   "share_20plus": 23.8,
+   "share_under5": 30.2
+  },
+  "2025": {
+   "crude": 36.6,
+   "ptdr": 29.5,
+   "share_20plus": 24.2,
+   "share_under5": 29.2
+  }
+ },
+ "cohort": {
+  "2000": {
+   "5年目": 12.9,
+   "10年目": 20.4,
+   "15年目": 24.8,
+   "20年目": 27.8,
+   "25年目": 30.1
+  },
+  "2005": {
+   "5年目": 12.5,
+   "10年目": 19.8,
+   "15年目": 24.1,
+   "20年目": 27.1
+  },
+  "2010": {
+   "5年目": 11.5,
+   "10年目": 18.1,
+   "15年目": 21.7
+  },
+  "2015": {
+   "5年目": 11.3,
+   "10年目": 17.3
+  }
+ },
+ "cohort_last": {
+  "2000": {
+   "years": 26,
+   "cum": 30.4
+  },
+  "2005": {
+   "years": 21,
+   "cum": 27.6
+  },
+  "2010": {
+   "years": 16,
+   "cum": 22.3
+  },
+  "2015": {
+   "years": 11,
+   "cum": 18.0
+  }
+ },
+ "robustness": [
+  {
+   "check": "0 主（2025年）",
+   "crude": 36.6,
+   "ptdr": 29.5,
+   "cohort2000_25": 30.4
+  },
+  {
+   "check": "1 婚姻件数を d 年前の1年だけで割る（2025年）",
+   "crude": null,
+   "ptdr": 29.6,
+   "cohort2000_25": null
+  },
+  {
+   "check": "2 同居期間不詳を配らずに除く（2025年）",
+   "crude": null,
+   "ptdr": 27.1,
+   "cohort2000_25": null
+  },
+  {
+   "check": "3 5年刻みを前に多く配る（2000年に結婚、2025年まで）",
+   "crude": null,
+   "ptdr": null,
+   "cohort2000_25": 30.7
+  },
+  {
+   "check": "4 2015〜2019年の平均",
+   "crude": 35.2,
+   "ptdr": 30.7,
+   "cohort2000_25": null
+  }
+ ],
+ "cohort2000_through2025": 30.4,
+ "hypotheses": {
+  "H1": {
+   "value": 36.6,
+   "verdict": "支持"
+  },
+  "H2": {
+   "value": [
+    36.6,
+    29.5
+   ],
+   "verdict": "支持"
+  },
+  "H3": {
+   "value": 30.4,
+   "verdict": "外れ"
+  },
+  "H4": {
+   "value": [
+    20.4,
+    18.1
+   ],
+   "verdict": "支持"
+  }
+ }
+}
