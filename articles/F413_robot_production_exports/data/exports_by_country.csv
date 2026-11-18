@@ -1,0 +1,993 @@
+year,hs,country,name_en,zone,units,value_kyen
+2009,847950,103,Republic of Korea,Asia,2441.0,7202767.0
+2009,847950,105,People's Republic of China,Asia,4008.0,6640401.0
+2009,847950,106,Taiwan,Asia,1276.0,2118905.0
+2009,847950,108,Hong Kong,Asia,1936.0,628095.0
+2009,847950,110,Viet Nam,Asia,110.0,217784.0
+2009,847950,111,Thailand,Asia,649.0,1044306.0
+2009,847950,112,Singapore,Asia,339.0,359417.0
+2009,847950,113,Malaysia,Asia,280.0,421120.0
+2009,847950,117,Philippines,Asia,102.0,68512.0
+2009,847950,118,Indonesia,Asia,153.0,234828.0
+2009,847950,123,India,Asia,226.0,998413.0
+2009,847950,124,Pakistan,Asia,2.0,6001.0
+2009,847950,143,Israel,Middle East,3.0,11778.0
+2009,847950,147,United Arab Emirates,Middle East,2.0,3900.0
+2009,847950,202,Norway,Western Europe,1.0,2360.0
+2009,847950,203,Sweden,Western Europe,216.0,279486.0
+2009,847950,204,Denmark,Western Europe,1.0,534.0
+2009,847950,205,United Kingdom,Western Europe,115.0,233577.0
+2009,847950,206,Ireland,Western Europe,4.0,8510.0
+2009,847950,207,Netherlands,Western Europe,2631.0,6675003.0
+2009,847950,208,Belgium,Western Europe,3.0,4390.0
+2009,847950,209,Luxembourg,Western Europe,21.0,41737.0
+2009,847950,210,France,Western Europe,76.0,105806.0
+2009,847950,213,Germany,Western Europe,1623.0,2543726.0
+2009,847950,215,Switzerland,Western Europe,6.0,22783.0
+2009,847950,217,Portugal,Western Europe,5.0,3861.0
+2009,847950,218,Spain,Western Europe,27.0,61922.0
+2009,847950,220,Italy,Western Europe,115.0,116209.0
+2009,847950,222,Finland,Western Europe,10.0,9947.0
+2009,847950,223,Poland,"Central and East Europe, Russia etc.",3.0,37241.0
+2009,847950,224,Russia,"Central and East Europe, Russia etc.",2.0,2079.0
+2009,847950,225,Austria,Western Europe,44.0,126267.0
+2009,847950,227,Hungary,"Central and East Europe, Russia etc.",66.0,274760.0
+2009,847950,230,Greece,Western Europe,3.0,3544.0
+2009,847950,232,Bulgaria,"Central and East Europe, Russia etc.",4.0,2245.0
+2009,847950,234,Turkey,Western Europe,76.0,142654.0
+2009,847950,238,Ukraine,"Central and East Europe, Russia etc.",2.0,766.0
+2009,847950,245,Czech Republic,"Central and East Europe, Russia etc.",10.0,29696.0
+2009,847950,246,Slovakia,"Central and East Europe, Russia etc.",1.0,319.0
+2009,847950,302,Canada,North America,338.0,816305.0
+2009,847950,304,United States of America Middle and South America,North America,5980.0,13457679.0
+2009,847950,305,Mexico,North America,7.0,18770.0
+2009,847950,410,Brazil,North America,48.0,357532.0
+2009,847950,413,Argentina,North America,4.0,30528.0
+2009,847950,551,South,Africa,81.0,173180.0
+2009,847950,601,Australia,Oceania,72.0,175332.0
+2009,847950,606,New Zealand,Oceania,101.0,247427.0
+2010,847950,103,Republic of Korea,Asia,5986.0,16932400.0
+2010,847950,105,People's Republic of China,Asia,11627.0,17715722.0
+2010,847950,106,Taiwan,Asia,2682.0,2943904.0
+2010,847950,108,Hong Kong,Asia,5794.0,1293145.0
+2010,847950,110,Viet Nam,Asia,217.0,348731.0
+2010,847950,111,Thailand,Asia,1957.0,3815946.0
+2010,847950,112,Singapore,Asia,1251.0,1505968.0
+2010,847950,113,Malaysia,Asia,535.0,832711.0
+2010,847950,117,Philippines,Asia,269.0,271720.0
+2010,847950,118,Indonesia,Asia,296.0,752593.0
+2010,847950,123,India,Asia,440.0,1065481.0
+2010,847950,137,Saudi Arabia,Middle East,1.0,4357.0
+2010,847950,143,Israel,Middle East,10.0,16571.0
+2010,847950,147,United Arab Emirates,Middle East,2.0,9170.0
+2010,847950,203,Sweden,Western Europe,429.0,651383.0
+2010,847950,204,Denmark,Western Europe,13.0,24362.0
+2010,847950,205,United Kingdom,Western Europe,219.0,419774.0
+2010,847950,206,Ireland,Western Europe,14.0,22629.0
+2010,847950,207,Netherlands,Western Europe,5440.0,12383165.0
+2010,847950,208,Belgium,Western Europe,9.0,16976.0
+2010,847950,209,Luxembourg,Western Europe,191.0,404878.0
+2010,847950,210,France,Western Europe,85.0,253071.0
+2010,847950,213,Germany,Western Europe,4406.0,6978007.0
+2010,847950,215,Switzerland,Western Europe,7.0,8238.0
+2010,847950,217,Portugal,Western Europe,4.0,2926.0
+2010,847950,218,Spain,Western Europe,35.0,30146.0
+2010,847950,220,Italy,Western Europe,220.0,236384.0
+2010,847950,222,Finland,Western Europe,12.0,9756.0
+2010,847950,223,Poland,"Central and East Europe, Russia etc.",4.0,124989.0
+2010,847950,224,Russia,"Central and East Europe, Russia etc.",4.0,1631.0
+2010,847950,225,Austria,Western Europe,101.0,260720.0
+2010,847950,227,Hungary,"Central and East Europe, Russia etc.",36.0,19546.0
+2010,847950,230,Greece,Western Europe,2.0,2480.0
+2010,847950,231,Romania,"Central and East Europe, Russia etc.",9.0,10660.0
+2010,847950,232,Bulgaria,"Central and East Europe, Russia etc.",12.0,6665.0
+2010,847950,234,Turkey,Western Europe,3.0,2854.0
+2010,847950,237,Lithuania,"Central and East Europe, Russia etc.",1.0,300.0
+2010,847950,238,Ukraine,"Central and East Europe, Russia etc.",8.0,2638.0
+2010,847950,245,Czech Republic,"Central and East Europe, Russia etc.",10.0,5175.0
+2010,847950,246,Slovakia,"Central and East Europe, Russia etc.",27.0,65409.0
+2010,847950,302,Canada,North America,376.0,901716.0
+2010,847950,304,United States of America Middle and South America,North America,11483.0,21740884.0
+2010,847950,305,Mexico,North America,61.0,326281.0
+2010,847950,401,Colombia,North America,1.0,2106.0
+2010,847950,409,Chile,North America,2.0,1369.0
+2010,847950,410,Brazil,North America,413.0,997357.0
+2010,847950,413,Argentina,North America,39.0,48302.0
+2010,847950,501,Morocco,Africa,3.0,5191.0
+2010,847950,503,Algeria,Africa,3.0,1998.0
+2010,847950,551,South,Africa,109.0,343992.0
+2010,847950,601,Australia,Oceania,105.0,300941.0
+2010,847950,605,Other Australian Territories,Oceania,4.0,7746.0
+2010,847950,606,New Zealand,Oceania,79.0,193820.0
+2011,847950,103,Republic of Korea,Asia,6437.0,14697656.0
+2011,847950,105,People's Republic of China,Asia,16748.0,24936549.0
+2011,847950,106,Taiwan,Asia,3381.0,3385474.0
+2011,847950,108,Hong Kong,Asia,5112.0,1181742.0
+2011,847950,110,Viet Nam,Asia,457.0,363689.0
+2011,847950,111,Thailand,Asia,2579.0,4594684.0
+2011,847950,112,Singapore,Asia,1673.0,2340556.0
+2011,847950,113,Malaysia,Asia,448.0,638894.0
+2011,847950,117,Philippines,Asia,265.0,219465.0
+2011,847950,118,Indonesia,Asia,608.0,1374790.0
+2011,847950,123,India,Asia,713.0,1813266.0
+2011,847950,135,Bahrain,Middle East,1.0,2155.0
+2011,847950,137,Saudi Arabia,Middle East,4.0,10457.0
+2011,847950,143,Israel,Middle East,49.0,83055.0
+2011,847950,147,United Arab Emirates,Middle East,1.0,2175.0
+2011,847950,203,Sweden,Western Europe,707.0,967729.0
+2011,847950,204,Denmark,Western Europe,2.0,3654.0
+2011,847950,205,United Kingdom,Western Europe,353.0,548553.0
+2011,847950,206,Ireland,Western Europe,9.0,15483.0
+2011,847950,207,Netherlands,Western Europe,8440.0,18145632.0
+2011,847950,208,Belgium,Western Europe,7.0,12207.0
+2011,847950,209,Luxembourg,Western Europe,201.0,417793.0
+2011,847950,210,France,Western Europe,123.0,196795.0
+2011,847950,213,Germany,Western Europe,5444.0,8024317.0
+2011,847950,215,Switzerland,Western Europe,6.0,3255.0
+2011,847950,217,Portugal,Western Europe,9.0,5121.0
+2011,847950,218,Spain,Western Europe,19.0,14743.0
+2011,847950,220,Italy,Western Europe,280.0,317592.0
+2011,847950,222,Finland,Western Europe,13.0,6787.0
+2011,847950,224,Russia,"Central and East Europe, Russia etc.",8.0,15981.0
+2011,847950,225,Austria,Western Europe,54.0,101293.0
+2011,847950,227,Hungary,"Central and East Europe, Russia etc.",58.0,28182.0
+2011,847950,230,Greece,Western Europe,3.0,3590.0
+2011,847950,231,Romania,"Central and East Europe, Russia etc.",1.0,306.0
+2011,847950,232,Bulgaria,"Central and East Europe, Russia etc.",1.0,840.0
+2011,847950,234,Turkey,Western Europe,88.0,297377.0
+2011,847950,236,Latvia,"Central and East Europe, Russia etc.",1.0,6805.0
+2011,847950,237,Lithuania,"Central and East Europe, Russia etc.",2.0,5500.0
+2011,847950,242,Slovenia,Western Europe,3.0,3473.0
+2011,847950,245,Czech Republic,"Central and East Europe, Russia etc.",5.0,16617.0
+2011,847950,246,Slovakia,"Central and East Europe, Russia etc.",2.0,7640.0
+2011,847950,302,Canada,North America,982.0,2016475.0
+2011,847950,304,United States of America Middle and South America,North America,16243.0,32169717.0
+2011,847950,305,Mexico,North America,52.0,91075.0
+2011,847950,410,Brazil,North America,690.0,1960732.0
+2011,847950,413,Argentina,North America,13.0,40537.0
+2011,847950,506,Egypt,Africa,3.0,8684.0
+2011,847950,551,South,Africa,33.0,91041.0
+2011,847950,601,Australia,Oceania,128.0,336451.0
+2011,847950,606,New Zealand,Oceania,115.0,265315.0
+2012,847950,103,Republic of Korea,Asia,5309.0,10039859.0
+2012,847950,105,People's Republic of China,Asia,13223.0,22111361.0
+2012,847950,106,Taiwan,Asia,2237.0,2830735.0
+2012,847950,108,Hong Kong,Asia,7890.0,3331368.0
+2012,847950,110,Viet Nam,Asia,351.0,453321.0
+2012,847950,111,Thailand,Asia,3084.0,6408386.0
+2012,847950,112,Singapore,Asia,1415.0,1860814.0
+2012,847950,113,Malaysia,Asia,560.0,771862.0
+2012,847950,117,Philippines,Asia,584.0,417287.0
+2012,847950,118,Indonesia,Asia,705.0,2430687.0
+2012,847950,123,India,Asia,784.0,1863993.0
+2012,847950,125,Sri Lanka,Asia,2.0,5347.0
+2012,847950,127,Bangladesh,Asia,6.0,2276.0
+2012,847950,137,Saudi Arabia,Middle East,3.0,8352.0
+2012,847950,141,Oman,Middle East,12.0,1050.0
+2012,847950,143,Israel,Middle East,18.0,63803.0
+2012,847950,202,Norway,Western Europe,1.0,2332.0
+2012,847950,203,Sweden,Western Europe,657.0,744553.0
+2012,847950,204,Denmark,Western Europe,2.0,1251.0
+2012,847950,205,United Kingdom,Western Europe,338.0,1293916.0
+2012,847950,206,Ireland,Western Europe,8.0,10089.0
+2012,847950,207,Netherlands,Western Europe,6931.0,15598786.0
+2012,847950,208,Belgium,Western Europe,11.0,20631.0
+2012,847950,209,Luxembourg,Western Europe,67.0,142127.0
+2012,847950,210,France,Western Europe,50.0,68479.0
+2012,847950,213,Germany,Western Europe,4604.0,6035397.0
+2012,847950,215,Switzerland,Western Europe,7.0,6040.0
+2012,847950,217,Portugal,Western Europe,6.0,7893.0
+2012,847950,218,Spain,Western Europe,30.0,32605.0
+2012,847950,220,Italy,Western Europe,291.0,292952.0
+2012,847950,222,Finland,Western Europe,14.0,10316.0
+2012,847950,223,Poland,"Central and East Europe, Russia etc.",3.0,1659.0
+2012,847950,224,Russia,"Central and East Europe, Russia etc.",1.0,499.0
+2012,847950,225,Austria,Western Europe,94.0,124574.0
+2012,847950,227,Hungary,"Central and East Europe, Russia etc.",53.0,155166.0
+2012,847950,230,Greece,Western Europe,1.0,1114.0
+2012,847950,234,Turkey,Western Europe,75.0,126445.0
+2012,847950,242,Slovenia,Western Europe,61.0,299074.0
+2012,847950,245,Czech Republic,"Central and East Europe, Russia etc.",31.0,66984.0
+2012,847950,246,Slovakia,"Central and East Europe, Russia etc.",6.0,14641.0
+2012,847950,302,Canada,North America,1250.0,2481300.0
+2012,847950,304,United States of America Middle and South America,North America,16803.0,33223140.0
+2012,847950,305,Mexico,North America,204.0,826796.0
+2012,847950,409,Chile,North America,1.0,2945.0
+2012,847950,410,Brazil,North America,165.0,428727.0
+2012,847950,413,Argentina,North America,17.0,54487.0
+2012,847950,551,South,Africa,75.0,289616.0
+2012,847950,601,Australia,Oceania,134.0,403543.0
+2012,847950,606,New Zealand,Oceania,72.0,181562.0
+2013,847950,103,Republic of Korea,Asia,6998.0,13438568.0
+2013,847950,105,People's Republic of China,Asia,17124.0,29748739.0
+2013,847950,106,Taiwan,Asia,2318.0,3497722.0
+2013,847950,108,Hong Kong,Asia,3404.0,744241.0
+2013,847950,110,Viet Nam,Asia,237.0,605454.0
+2013,847950,111,Thailand,Asia,2192.0,4725462.0
+2013,847950,112,Singapore,Asia,2214.0,2386432.0
+2013,847950,113,Malaysia,Asia,753.0,1309513.0
+2013,847950,117,Philippines,Asia,234.0,177953.0
+2013,847950,118,Indonesia,Asia,513.0,1766431.0
+2013,847950,123,India,Asia,1046.0,2895009.0
+2013,847950,125,Sri Lanka,Asia,4.0,15580.0
+2013,847950,141,Oman,Middle East,3.0,5843.0
+2013,847950,143,Israel,Middle East,51.0,72169.0
+2013,847950,147,United Arab Emirates,Middle East,12.0,25613.0
+2013,847950,152,Uzbekistan,"Central and East Europe, Russia etc.",2.0,4286.0
+2013,847950,203,Sweden,Western Europe,1052.0,1255524.0
+2013,847950,204,Denmark,Western Europe,9.0,6206.0
+2013,847950,205,United Kingdom,Western Europe,286.0,1189619.0
+2013,847950,206,Ireland,Western Europe,29.0,205133.0
+2013,847950,207,Netherlands,Western Europe,5285.0,10969389.0
+2013,847950,208,Belgium,Western Europe,1.0,2765.0
+2013,847950,209,Luxembourg,Western Europe,357.0,621976.0
+2013,847950,210,France,Western Europe,51.0,102202.0
+2013,847950,213,Germany,Western Europe,4355.0,6106455.0
+2013,847950,215,Switzerland,Western Europe,9.0,8808.0
+2013,847950,217,Portugal,Western Europe,11.0,7037.0
+2013,847950,218,Spain,Western Europe,129.0,481453.0
+2013,847950,220,Italy,Western Europe,90.0,135693.0
+2013,847950,221,Malta,Western Europe,4.0,3610.0
+2013,847950,222,Finland,Western Europe,2.0,3338.0
+2013,847950,223,Poland,"Central and East Europe, Russia etc.",8.0,12476.0
+2013,847950,224,Russia,"Central and East Europe, Russia etc.",4.0,14217.0
+2013,847950,225,Austria,Western Europe,50.0,130151.0
+2013,847950,227,Hungary,"Central and East Europe, Russia etc.",28.0,12937.0
+2013,847950,231,Romania,"Central and East Europe, Russia etc.",5.0,4340.0
+2013,847950,234,Turkey,Western Europe,47.0,98737.0
+2013,847950,235,Estonia,"Central and East Europe, Russia etc.",1.0,456.0
+2013,847950,242,Slovenia,Western Europe,3.0,4451.0
+2013,847950,245,Czech Republic,"Central and East Europe, Russia etc.",35.0,125568.0
+2013,847950,246,Slovakia,"Central and East Europe, Russia etc.",51.0,161968.0
+2013,847950,302,Canada,North America,1185.0,2418352.0
+2013,847950,304,United States of America Middle and South America,North America,17979.0,33073068.0
+2013,847950,305,Mexico,North America,255.0,1748344.0
+2013,847950,311,Costa Rica,North America,1.0,339.0
+2013,847950,320,Trinidad and Tobago,North America,1.0,250.0
+2013,847950,409,Chile,North America,7.0,20834.0
+2013,847950,410,Brazil,North America,203.0,668185.0
+2013,847950,413,Argentina,North America,23.0,50154.0
+2013,847950,506,Egypt,Africa,2.0,3908.0
+2013,847950,551,South,Africa,38.0,123437.0
+2013,847950,601,Australia,Oceania,94.0,248716.0
+2013,847950,606,New Zealand,Oceania,117.0,323606.0
+2014,847950,103,Republic of Korea,Asia,8280.0,15900621.0
+2014,847950,105,People's Republic of China,Asia,25909.0,39497231.0
+2014,847950,106,Taiwan,Asia,2400.0,3170472.0
+2014,847950,108,Hong Kong,Asia,9068.0,2700268.0
+2014,847950,110,Viet Nam,Asia,335.0,674738.0
+2014,847950,111,Thailand,Asia,1867.0,4882732.0
+2014,847950,112,Singapore,Asia,2267.0,2352864.0
+2014,847950,113,Malaysia,Asia,972.0,1946790.0
+2014,847950,117,Philippines,Asia,113.0,150842.0
+2014,847950,118,Indonesia,Asia,397.0,1319787.0
+2014,847950,123,India,Asia,926.0,2347172.0
+2014,847950,125,Sri Lanka,Asia,2.0,7790.0
+2014,847950,127,Bangladesh,Asia,1.0,636.0
+2014,847950,138,Kuwait,Middle East,1.0,5744.0
+2014,847950,143,Israel,Middle East,27.0,46936.0
+2014,847950,147,United Arab Emirates,Middle East,4.0,7910.0
+2014,847950,153,Kazakhstan,"Central and East Europe, Russia etc.",1.0,315.0
+2014,847950,203,Sweden,Western Europe,1096.0,1332079.0
+2014,847950,204,Denmark,Western Europe,10.0,10896.0
+2014,847950,205,United Kingdom,Western Europe,278.0,722660.0
+2014,847950,206,Ireland,Western Europe,21.0,56694.0
+2014,847950,207,Netherlands,Western Europe,8273.0,18282188.0
+2014,847950,208,Belgium,Western Europe,4.0,974.0
+2014,847950,209,Luxembourg,Western Europe,591.0,1243210.0
+2014,847950,210,France,Western Europe,58.0,115971.0
+2014,847950,213,Germany,Western Europe,5379.0,8321980.0
+2014,847950,215,Switzerland,Western Europe,12.0,30258.0
+2014,847950,217,Portugal,Western Europe,9.0,4632.0
+2014,847950,218,Spain,Western Europe,37.0,62710.0
+2014,847950,220,Italy,Western Europe,163.0,177705.0
+2014,847950,221,Malta,Western Europe,13.0,9179.0
+2014,847950,222,Finland,Western Europe,10.0,12007.0
+2014,847950,223,Poland,"Central and East Europe, Russia etc.",10.0,54641.0
+2014,847950,225,Austria,Western Europe,42.0,141675.0
+2014,847950,227,Hungary,"Central and East Europe, Russia etc.",132.0,53558.0
+2014,847950,231,Romania,"Central and East Europe, Russia etc.",3.0,5879.0
+2014,847950,234,Turkey,Western Europe,57.0,118577.0
+2014,847950,242,Slovenia,Western Europe,4.0,8536.0
+2014,847950,245,Czech Republic,"Central and East Europe, Russia etc.",35.0,58058.0
+2014,847950,246,Slovakia,"Central and East Europe, Russia etc.",38.0,144829.0
+2014,847950,302,Canada,North America,1830.0,3537161.0
+2014,847950,304,United States of America Middle and South America,North America,20691.0,41033309.0
+2014,847950,305,Mexico,North America,175.0,1209916.0
+2014,847950,312,Panama,North America,2.0,4411.0
+2014,847950,324,Puerto Rico (USA),North America,6.0,11817.0
+2014,847950,410,Brazil,North America,308.0,1021732.0
+2014,847950,413,Argentina,North America,70.0,161436.0
+2014,847950,551,South,Africa,43.0,147400.0
+2014,847950,601,Australia,Oceania,160.0,391246.0
+2014,847950,606,New Zealand,Oceania,102.0,307194.0
+2015,847950,103,Republic of Korea,Asia,10731.0,19692270.0
+2015,847950,105,People's Republic of China,Asia,46899.0,42502807.0
+2015,847950,106,Taiwan,Asia,2806.0,4578173.0
+2015,847950,108,Hong Kong,Asia,8518.0,2487592.0
+2015,847950,110,Viet Nam,Asia,266.0,293676.0
+2015,847950,111,Thailand,Asia,1932.0,3434070.0
+2015,847950,112,Singapore,Asia,2469.0,2917717.0
+2015,847950,113,Malaysia,Asia,948.0,1603808.0
+2015,847950,117,Philippines,Asia,176.0,174053.0
+2015,847950,118,Indonesia,Asia,415.0,1163019.0
+2015,847950,123,India,Asia,1147.0,3073494.0
+2015,847950,127,Bangladesh,Asia,1.0,482.0
+2015,847950,143,Israel,Middle East,26.0,46664.0
+2015,847950,147,United Arab Emirates,Middle East,1.0,5750.0
+2015,847950,203,Sweden,Western Europe,1336.0,1630771.0
+2015,847950,205,United Kingdom,Western Europe,145.0,312073.0
+2015,847950,206,Ireland,Western Europe,22.0,56796.0
+2015,847950,207,Netherlands,Western Europe,1559.0,2405058.0
+2015,847950,208,Belgium,Western Europe,2.0,429.0
+2015,847950,209,Luxembourg,Western Europe,9920.0,24674538.0
+2015,847950,210,France,Western Europe,76.0,209549.0
+2015,847950,213,Germany,Western Europe,6000.0,8710668.0
+2015,847950,215,Switzerland,Western Europe,8.0,44479.0
+2015,847950,217,Portugal,Western Europe,23.0,11028.0
+2015,847950,218,Spain,Western Europe,221.0,560546.0
+2015,847950,220,Italy,Western Europe,281.0,452617.0
+2015,847950,221,Malta,Western Europe,5.0,4728.0
+2015,847950,222,Finland,Western Europe,4.0,4646.0
+2015,847950,223,Poland,"Central and East Europe, Russia etc.",9.0,15792.0
+2015,847950,224,Russia,"Central and East Europe, Russia etc.",18.0,76027.0
+2015,847950,225,Austria,Western Europe,74.0,263723.0
+2015,847950,227,Hungary,"Central and East Europe, Russia etc.",55.0,48180.0
+2015,847950,231,Romania,"Central and East Europe, Russia etc.",2.0,3893.0
+2015,847950,234,Turkey,Western Europe,123.0,307612.0
+2015,847950,237,Lithuania,"Central and East Europe, Russia etc.",1.0,9500.0
+2015,847950,242,Slovenia,Western Europe,1.0,1481.0
+2015,847950,245,Czech Republic,"Central and East Europe, Russia etc.",21.0,99272.0
+2015,847950,246,Slovakia,"Central and East Europe, Russia etc.",14.0,68198.0
+2015,847950,302,Canada,North America,1885.0,3998186.0
+2015,847950,304,United States of America Middle and South America,North America,19867.0,43382982.0
+2015,847950,305,Mexico,North America,923.0,2999737.0
+2015,847950,401,Colombia,North America,2.0,3645.0
+2015,847950,410,Brazil,North America,233.0,796930.0
+2015,847950,413,Argentina,North America,28.0,104032.0
+2015,847950,551,South,Africa,42.0,124715.0
+2015,847950,601,Australia,Oceania,160.0,332101.0
+2015,847950,606,New Zealand,Oceania,78.0,252373.0
+2016,847950,103,Republic of Korea,Asia,10327.0,16894412.0
+2016,847950,105,People's Republic of China,Asia,33345.0,46797175.0
+2016,847950,106,Taiwan,Asia,2804.0,5415793.0
+2016,847950,108,Hong Kong,Asia,8046.0,2126081.0
+2016,847950,110,Viet Nam,Asia,513.0,552513.0
+2016,847950,111,Thailand,Asia,1964.0,3623357.0
+2016,847950,112,Singapore,Asia,2839.0,3366337.0
+2016,847950,113,Malaysia,Asia,1921.0,2741020.0
+2016,847950,117,Philippines,Asia,233.0,247028.0
+2016,847950,118,Indonesia,Asia,332.0,739420.0
+2016,847950,120,Cambodia,Asia,3.0,58686.0
+2016,847950,122,Myanmar,Asia,8.0,2320.0
+2016,847950,123,India,Asia,1389.0,3059980.0
+2016,847950,124,Pakistan,Asia,2.0,2740.0
+2016,847950,125,Sri Lanka,Asia,5.0,22443.0
+2016,847950,143,Israel,Middle East,89.0,153749.0
+2016,847950,147,United Arab Emirates,Middle East,3.0,49060.0
+2016,847950,156,Turkmenistan,"Central and East Europe, Russia etc.",2.0,960.0
+2016,847950,202,Norway,Western Europe,1.0,2094.0
+2016,847950,203,Sweden,Western Europe,1829.0,1874424.0
+2016,847950,204,Denmark,Western Europe,2.0,1231.0
+2016,847950,205,United Kingdom,Western Europe,205.0,585209.0
+2016,847950,206,Ireland,Western Europe,39.0,290557.0
+2016,847950,207,Netherlands,Western Europe,1198.0,1464791.0
+2016,847950,208,Belgium,Western Europe,2.0,24518.0
+2016,847950,209,Luxembourg,Western Europe,9748.0,22634070.0
+2016,847950,210,France,Western Europe,71.0,106240.0
+2016,847950,213,Germany,Western Europe,5895.0,8133134.0
+2016,847950,215,Switzerland,Western Europe,6.0,33771.0
+2016,847950,217,Portugal,Western Europe,19.0,14263.0
+2016,847950,218,Spain,Western Europe,32.0,29767.0
+2016,847950,220,Italy,Western Europe,149.0,234777.0
+2016,847950,221,Malta,Western Europe,2.0,2342.0
+2016,847950,222,Finland,Western Europe,4.0,5634.0
+2016,847950,223,Poland,"Central and East Europe, Russia etc.",64.0,243858.0
+2016,847950,224,Russia,"Central and East Europe, Russia etc.",4.0,10706.0
+2016,847950,225,Austria,Western Europe,69.0,222394.0
+2016,847950,227,Hungary,"Central and East Europe, Russia etc.",87.0,57526.0
+2016,847950,231,Romania,"Central and East Europe, Russia etc.",64.0,257900.0
+2016,847950,232,Bulgaria,"Central and East Europe, Russia etc.",1.0,1252.0
+2016,847950,234,Turkey,Western Europe,85.0,275027.0
+2016,847950,235,Estonia,"Central and East Europe, Russia etc.",2.0,1239.0
+2016,847950,244,North Macedonia,Western Europe,3.0,25602.0
+2016,847950,245,Czech Republic,"Central and East Europe, Russia etc.",53.0,282765.0
+2016,847950,246,Slovakia,"Central and East Europe, Russia etc.",7.0,32792.0
+2016,847950,302,Canada,North America,1570.0,3496158.0
+2016,847950,304,United States of America Middle and South America,North America,21617.0,46083989.0
+2016,847950,305,Mexico,North America,1000.0,2537134.0
+2016,847950,332,British Virgin Islands,North America,20.0,29190.0
+2016,847950,410,Brazil,North America,477.0,1056788.0
+2016,847950,413,Argentina,North America,13.0,44729.0
+2016,847950,506,Egypt,Africa,1.0,723.0
+2016,847950,551,South,Africa,67.0,209703.0
+2016,847950,601,Australia,Oceania,153.0,317543.0
+2016,847950,606,New Zealand,Oceania,37.0,95218.0
+2017,847950,103,Republic of Korea,Asia,17035.0,23023921.0
+2017,847950,105,People's Republic of China,Asia,67480.0,75611363.0
+2017,847950,106,Taiwan,Asia,4896.0,6826397.0
+2017,847950,108,Hong Kong,Asia,12964.0,3170469.0
+2017,847950,110,Viet Nam,Asia,963.0,989975.0
+2017,847950,111,Thailand,Asia,2747.0,4885617.0
+2017,847950,112,Singapore,Asia,5883.0,6813842.0
+2017,847950,113,Malaysia,Asia,2749.0,3758681.0
+2017,847950,117,Philippines,Asia,282.0,490429.0
+2017,847950,118,Indonesia,Asia,372.0,749563.0
+2017,847950,120,Cambodia,Asia,2.0,1077.0
+2017,847950,122,Myanmar,Asia,64.0,12053.0
+2017,847950,123,India,Asia,1673.0,3171374.0
+2017,847950,124,Pakistan,Asia,4.0,14069.0
+2017,847950,125,Sri Lanka,Asia,6.0,15753.0
+2017,847950,127,Bangladesh,Asia,2.0,3279.0
+2017,847950,143,Israel,Middle East,116.0,198854.0
+2017,847950,147,United Arab Emirates,Middle East,7.0,20604.0
+2017,847950,203,Sweden,Western Europe,2032.0,2194836.0
+2017,847950,204,Denmark,Western Europe,2.0,1054.0
+2017,847950,205,United Kingdom,Western Europe,346.0,1079687.0
+2017,847950,206,Ireland,Western Europe,66.0,84434.0
+2017,847950,207,Netherlands,Western Europe,1117.0,1383546.0
+2017,847950,208,Belgium,Western Europe,1.0,8100.0
+2017,847950,209,Luxembourg,Western Europe,14376.0,32077146.0
+2017,847950,210,France,Western Europe,86.0,78468.0
+2017,847950,213,Germany,Western Europe,6343.0,8655957.0
+2017,847950,215,Switzerland,Western Europe,15.0,70775.0
+2017,847950,218,Spain,Western Europe,30.0,21095.0
+2017,847950,220,Italy,Western Europe,138.0,215379.0
+2017,847950,221,Malta,Western Europe,2.0,1690.0
+2017,847950,222,Finland,Western Europe,1.0,1370.0
+2017,847950,223,Poland,"Central and East Europe, Russia etc.",36.0,346512.0
+2017,847950,224,Russia,"Central and East Europe, Russia etc.",14.0,36109.0
+2017,847950,225,Austria,Western Europe,88.0,302531.0
+2017,847950,227,Hungary,"Central and East Europe, Russia etc.",132.0,205521.0
+2017,847950,231,Romania,"Central and East Europe, Russia etc.",15.0,60520.0
+2017,847950,234,Turkey,Western Europe,143.0,357590.0
+2017,847950,235,Estonia,"Central and East Europe, Russia etc.",4.0,4295.0
+2017,847950,245,Czech Republic,"Central and East Europe, Russia etc.",56.0,155246.0
+2017,847950,246,Slovakia,"Central and East Europe, Russia etc.",12.0,44987.0
+2017,847950,302,Canada,North America,2175.0,4369961.0
+2017,847950,304,United States of America Middle and South America,North America,28326.0,61133834.0
+2017,847950,305,Mexico,North America,270.0,1058743.0
+2017,847950,312,Panama,North America,2.0,749819.0
+2017,847950,409,Chile,North America,2.0,2450.0
+2017,847950,410,Brazil,North America,815.0,2081548.0
+2017,847950,413,Argentina,North America,35.0,202709.0
+2017,847950,551,South,Africa,95.0,324269.0
+2017,847950,601,Australia,Oceania,87.0,257288.0
+2017,847950,606,New Zealand,Oceania,73.0,155110.0
+2018,847950,103,Republic of Korea,Asia,10358.0,16842707.0
+2018,847950,105,People's Republic of China,Asia,50668.0,71468646.0
+2018,847950,106,Taiwan,Asia,4902.0,7131274.0
+2018,847950,108,Hong Kong,Asia,5552.0,1626720.0
+2018,847950,110,Viet Nam,Asia,718.0,894651.0
+2018,847950,111,Thailand,Asia,3315.0,5241021.0
+2018,847950,112,Singapore,Asia,4261.0,4958558.0
+2018,847950,113,Malaysia,Asia,2589.0,3499928.0
+2018,847950,117,Philippines,Asia,276.0,378448.0
+2018,847950,118,Indonesia,Asia,543.0,1172799.0
+2018,847950,120,Cambodia,Asia,5.0,509.0
+2018,847950,122,Myanmar,Asia,29.0,6086.0
+2018,847950,123,India,Asia,1983.0,4552857.0
+2018,847950,124,Pakistan,Asia,12.0,121460.0
+2018,847950,125,Sri Lanka,Asia,2.0,8312.0
+2018,847950,127,Bangladesh,Asia,4.0,1925.0
+2018,847950,143,Israel,Middle East,126.0,178932.0
+2018,847950,202,Norway,Western Europe,1.0,2094.0
+2018,847950,203,Sweden,Western Europe,2926.0,3577275.0
+2018,847950,204,Denmark,Western Europe,5.0,9634.0
+2018,847950,205,United Kingdom,Western Europe,192.0,531938.0
+2018,847950,206,Ireland,Western Europe,33.0,77930.0
+2018,847950,207,Netherlands,Western Europe,1552.0,1876599.0
+2018,847950,209,Luxembourg,Western Europe,15173.0,32986449.0
+2018,847950,210,France,Western Europe,157.0,328787.0
+2018,847950,213,Germany,Western Europe,7272.0,10471119.0
+2018,847950,215,Switzerland,Western Europe,26.0,108031.0
+2018,847950,217,Portugal,Western Europe,8.0,3411.0
+2018,847950,218,Spain,Western Europe,133.0,280390.0
+2018,847950,220,Italy,Western Europe,101.0,131678.0
+2018,847950,221,Malta,Western Europe,3.0,2064.0
+2018,847950,223,Poland,"Central and East Europe, Russia etc.",27.0,45872.0
+2018,847950,224,Russia,"Central and East Europe, Russia etc.",8.0,24860.0
+2018,847950,225,Austria,Western Europe,106.0,359756.0
+2018,847950,227,Hungary,"Central and East Europe, Russia etc.",182.0,296953.0
+2018,847950,231,Romania,"Central and East Europe, Russia etc.",12.0,18978.0
+2018,847950,232,Bulgaria,"Central and East Europe, Russia etc.",48.0,12450.0
+2018,847950,234,Turkey,Western Europe,85.0,182177.0
+2018,847950,235,Estonia,"Central and East Europe, Russia etc.",14.0,11153.0
+2018,847950,245,Czech Republic,"Central and East Europe, Russia etc.",59.0,131659.0
+2018,847950,246,Slovakia,"Central and East Europe, Russia etc.",18.0,123131.0
+2018,847950,302,Canada,North America,1181.0,2589873.0
+2018,847950,304,United States of America Middle and South America,North America,21957.0,42899536.0
+2018,847950,305,Mexico,North America,388.0,1797797.0
+2018,847950,311,Costa Rica,North America,3.0,4356.0
+2018,847950,324,Puerto Rico (USA),North America,1.0,737.0
+2018,847950,401,Colombia,North America,4.0,17612.0
+2018,847950,409,Chile,North America,1.0,2143.0
+2018,847950,410,Brazil,North America,974.0,2558710.0
+2018,847950,413,Argentina,North America,10.0,62915.0
+2018,847950,501,Morocco,Africa,12.0,71460.0
+2018,847950,506,Egypt,Africa,1.0,4763.0
+2018,847950,551,South,Africa,51.0,147127.0
+2018,847950,601,Australia,Oceania,131.0,282643.0
+2018,847950,606,New Zealand,Oceania,77.0,190086.0
+2019,847950,103,Republic of Korea,Asia,9888.0,15289957.0
+2019,847950,105,People's Republic of China,Asia,37459.0,50907590.0
+2019,847950,106,Taiwan,Asia,3232.0,5166755.0
+2019,847950,108,Hong Kong,Asia,3489.0,1449027.0
+2019,847950,110,Viet Nam,Asia,1079.0,1186609.0
+2019,847950,111,Thailand,Asia,2713.0,4697712.0
+2019,847950,112,Singapore,Asia,3000.0,3767996.0
+2019,847950,113,Malaysia,Asia,1654.0,2780291.0
+2019,847950,117,Philippines,Asia,296.0,303212.0
+2019,847950,118,Indonesia,Asia,580.0,1295307.0
+2019,847950,122,Myanmar,Asia,22.0,7881.0
+2019,847950,123,India,Asia,2061.0,5452055.0
+2019,847950,124,Pakistan,Asia,8.0,91915.0
+2019,847950,125,Sri Lanka,Asia,2.0,8740.0
+2019,847950,127,Bangladesh,Asia,1.0,1906.0
+2019,847950,143,Israel,Middle East,62.0,79866.0
+2019,847950,147,United Arab Emirates,Middle East,5.0,16882.0
+2019,847950,152,Uzbekistan,"Central and East Europe, Russia etc.",9.0,25380.0
+2019,847950,203,Sweden,Western Europe,1507.0,1700270.0
+2019,847950,204,Denmark,Western Europe,7.0,11073.0
+2019,847950,205,United Kingdom,Western Europe,252.0,841925.0
+2019,847950,206,Ireland,Western Europe,21.0,243759.0
+2019,847950,207,Netherlands,Western Europe,1652.0,2007393.0
+2019,847950,208,Belgium,Western Europe,2.0,11000.0
+2019,847950,209,Luxembourg,Western Europe,11919.0,26072471.0
+2019,847950,210,France,Western Europe,228.0,892462.0
+2019,847950,213,Germany,Western Europe,4317.0,5741015.0
+2019,847950,215,Switzerland,Western Europe,9.0,58267.0
+2019,847950,217,Portugal,Western Europe,24.0,13371.0
+2019,847950,218,Spain,Western Europe,45.0,38494.0
+2019,847950,220,Italy,Western Europe,67.0,80635.0
+2019,847950,221,Malta,Western Europe,11.0,11765.0
+2019,847950,222,Finland,Western Europe,1.0,1501.0
+2019,847950,223,Poland,"Central and East Europe, Russia etc.",17.0,46459.0
+2019,847950,224,Russia,"Central and East Europe, Russia etc.",31.0,131891.0
+2019,847950,225,Austria,Western Europe,62.0,183709.0
+2019,847950,227,Hungary,"Central and East Europe, Russia etc.",142.0,199222.0
+2019,847950,231,Romania,"Central and East Europe, Russia etc.",7.0,5196.0
+2019,847950,232,Bulgaria,"Central and East Europe, Russia etc.",36.0,9372.0
+2019,847950,234,Turkey,Western Europe,213.0,543379.0
+2019,847950,235,Estonia,"Central and East Europe, Russia etc.",2.0,2358.0
+2019,847950,242,Slovenia,Western Europe,69.0,290832.0
+2019,847950,245,Czech Republic,"Central and East Europe, Russia etc.",32.0,222540.0
+2019,847950,246,Slovakia,"Central and East Europe, Russia etc.",5.0,32351.0
+2019,847950,302,Canada,North America,933.0,2332420.0
+2019,847950,304,United States of America Middle and South America,North America,17691.0,36233189.0
+2019,847950,305,Mexico,North America,223.0,724524.0
+2019,847950,311,Costa Rica,North America,3.0,4262.0
+2019,847950,410,Brazil,North America,413.0,926485.0
+2019,847950,413,Argentina,North America,32.0,130118.0
+2019,847950,501,Morocco,Africa,17.0,94433.0
+2019,847950,506,Egypt,Africa,1.0,9384.0
+2019,847950,551,South,Africa,145.0,440048.0
+2019,847950,601,Australia,Oceania,112.0,272924.0
+2019,847950,606,New Zealand,Oceania,88.0,234090.0
+2020,847950,103,Republic of Korea,Asia,10135.0,13672736.0
+2020,847950,105,People's Republic of China,Asia,54545.0,65943995.0
+2020,847950,106,Taiwan,Asia,3592.0,5335935.0
+2020,847950,108,Hong Kong,Asia,5183.0,1145682.0
+2020,847950,110,Viet Nam,Asia,709.0,938137.0
+2020,847950,111,Thailand,Asia,2242.0,3031195.0
+2020,847950,112,Singapore,Asia,4780.0,6861614.0
+2020,847950,113,Malaysia,Asia,1741.0,2800044.0
+2020,847950,117,Philippines,Asia,238.0,223386.0
+2020,847950,118,Indonesia,Asia,496.0,1156165.0
+2020,847950,122,Myanmar,Asia,8.0,3726.0
+2020,847950,123,India,Asia,1498.0,2560723.0
+2020,847950,124,Pakistan,Asia,1.0,3036.0
+2020,847950,125,Sri Lanka,Asia,3.0,15105.0
+2020,847950,143,Israel,Middle East,65.0,106738.0
+2020,847950,147,United Arab Emirates,Middle East,60.0,45936.0
+2020,847950,203,Sweden,Western Europe,752.0,1165123.0
+2020,847950,204,Denmark,Western Europe,5.0,4441.0
+2020,847950,205,United Kingdom,Western Europe,129.0,390777.0
+2020,847950,206,Ireland,Western Europe,13.0,296406.0
+2020,847950,207,Netherlands,Western Europe,1358.0,1548795.0
+2020,847950,209,Luxembourg,Western Europe,11200.0,24618047.0
+2020,847950,210,France,Western Europe,79.0,161527.0
+2020,847950,213,Germany,Western Europe,4016.0,5190324.0
+2020,847950,215,Switzerland,Western Europe,1.0,942.0
+2020,847950,218,Spain,Western Europe,29.0,25490.0
+2020,847950,220,Italy,Western Europe,70.0,68006.0
+2020,847950,221,Malta,Western Europe,4.0,5978.0
+2020,847950,222,Finland,Western Europe,2.0,1775.0
+2020,847950,223,Poland,"Central and East Europe, Russia etc.",10.0,9485.0
+2020,847950,224,Russia,"Central and East Europe, Russia etc.",5.0,2839.0
+2020,847950,225,Austria,Western Europe,96.0,287630.0
+2020,847950,227,Hungary,"Central and East Europe, Russia etc.",114.0,366916.0
+2020,847950,234,Turkey,Western Europe,123.0,251692.0
+2020,847950,235,Estonia,"Central and East Europe, Russia etc.",13.0,9269.0
+2020,847950,245,Czech Republic,"Central and East Europe, Russia etc.",41.0,214617.0
+2020,847950,302,Canada,North America,1119.0,2684996.0
+2020,847950,304,United States of America Middle and South America,North America,20794.0,40678075.0
+2020,847950,305,Mexico,North America,201.0,445333.0
+2020,847950,324,Puerto Rico (USA),North America,1.0,2392.0
+2020,847950,401,Colombia,North America,2.0,9064.0
+2020,847950,410,Brazil,North America,306.0,579968.0
+2020,847950,413,Argentina,North America,80.0,249586.0
+2020,847950,501,Morocco,Africa,3.0,5270.0
+2020,847950,551,South,Africa,136.0,296768.0
+2020,847950,601,Australia,Oceania,121.0,243766.0
+2020,847950,606,New Zealand,Oceania,109.0,264797.0
+2021,847950,103,Republic of Korea,Asia,9457.0,14626685.0
+2021,847950,105,People's Republic of China,Asia,83457.0,106436082.0
+2021,847950,106,Taiwan,Asia,4863.0,7364224.0
+2021,847950,107,Mongolia,Asia,1.0,2144.0
+2021,847950,108,Hong Kong,Asia,3673.0,1311490.0
+2021,847950,110,Viet Nam,Asia,690.0,803327.0
+2021,847950,111,Thailand,Asia,3371.0,5088994.0
+2021,847950,112,Singapore,Asia,7376.0,9703248.0
+2021,847950,113,Malaysia,Asia,1958.0,3215153.0
+2021,847950,117,Philippines,Asia,171.0,237975.0
+2021,847950,118,Indonesia,Asia,563.0,1053204.0
+2021,847950,120,Cambodia,Asia,3.0,1336.0
+2021,847950,123,India,Asia,2842.0,5172720.0
+2021,847950,124,Pakistan,Asia,54.0,8452.0
+2021,847950,125,Sri Lanka,Asia,12.0,43911.0
+2021,847950,141,Oman,Middle East,2.0,2194.0
+2021,847950,143,Israel,Middle East,216.0,349996.0
+2021,847950,202,Norway,Western Europe,1.0,208.0
+2021,847950,203,Sweden,Western Europe,949.0,1624394.0
+2021,847950,204,Denmark,Western Europe,1.0,633.0
+2021,847950,205,United Kingdom,Western Europe,56.0,123710.0
+2021,847950,206,Ireland,Western Europe,5.0,3349.0
+2021,847950,207,Netherlands,Western Europe,1703.0,2020671.0
+2021,847950,208,Belgium,Western Europe,2.0,1444.0
+2021,847950,209,Luxembourg,Western Europe,14857.0,31964218.0
+2021,847950,210,France,Western Europe,94.0,268529.0
+2021,847950,213,Germany,Western Europe,4131.0,5956361.0
+2021,847950,215,Switzerland,Western Europe,6.0,17262.0
+2021,847950,217,Portugal,Western Europe,14.0,10303.0
+2021,847950,218,Spain,Western Europe,4.0,1922.0
+2021,847950,220,Italy,Western Europe,68.0,105064.0
+2021,847950,221,Malta,Western Europe,9.0,9536.0
+2021,847950,222,Finland,Western Europe,1.0,2490.0
+2021,847950,223,Poland,"Central and East Europe, Russia etc.",4.0,9145.0
+2021,847950,224,Russia,"Central and East Europe, Russia etc.",9.0,50779.0
+2021,847950,225,Austria,Western Europe,125.0,377650.0
+2021,847950,227,Hungary,"Central and East Europe, Russia etc.",130.0,52334.0
+2021,847950,231,Romania,"Central and East Europe, Russia etc.",3.0,1151.0
+2021,847950,234,Turkey,Western Europe,97.0,245725.0
+2021,847950,245,Czech Republic,"Central and East Europe, Russia etc.",62.0,164449.0
+2021,847950,302,Canada,North America,1182.0,2685366.0
+2021,847950,304,United States of America Middle and South America,North America,29339.0,56153348.0
+2021,847950,305,Mexico,North America,345.0,1013024.0
+2021,847950,410,Brazil,North America,465.0,1067379.0
+2021,847950,413,Argentina,North America,31.0,61781.0
+2021,847950,551,South,Africa,217.0,628722.0
+2021,847950,601,Australia,Oceania,136.0,358253.0
+2021,847950,606,New Zealand,Oceania,163.0,386012.0
+2022,842870,103,Republic of Korea,Asia,437.0,1048669.0
+2022,842870,105,People's Republic of China,Asia,1636.0,3368465.0
+2022,842870,106,Taiwan,Asia,297.0,692551.0
+2022,842870,108,Hong Kong,Asia,4.0,44080.0
+2022,842870,110,Viet Nam,Asia,300.0,506355.0
+2022,842870,111,Thailand,Asia,427.0,1029106.0
+2022,842870,112,Singapore,Asia,40.0,87287.0
+2022,842870,113,Malaysia,Asia,86.0,180166.0
+2022,842870,117,Philippines,Asia,88.0,120157.0
+2022,842870,118,Indonesia,Asia,98.0,190457.0
+2022,842870,120,Cambodia,Asia,4.0,7827.0
+2022,842870,123,India,Asia,142.0,364113.0
+2022,842870,143,Israel,Middle East,6.0,13850.0
+2022,842870,202,Norway,Western Europe,1.0,31844.0
+2022,842870,203,Sweden,Western Europe,5.0,206597.0
+2022,842870,205,United Kingdom,Western Europe,4.0,13438.0
+2022,842870,206,Ireland,Western Europe,1.0,21107.0
+2022,842870,207,Netherlands,Western Europe,279.0,646575.0
+2022,842870,208,Belgium,Western Europe,10.0,40116.0
+2022,842870,210,France,Western Europe,2.0,19200.0
+2022,842870,213,Germany,Western Europe,176.0,382623.0
+2022,842870,215,Switzerland,Western Europe,1.0,27947.0
+2022,842870,218,Spain,Western Europe,1.0,8993.0
+2022,842870,220,Italy,Western Europe,1.0,9600.0
+2022,842870,222,Finland,Western Europe,3.0,11935.0
+2022,842870,223,Poland,"Central and East Europe, Russia etc.",15.0,22634.0
+2022,842870,234,Turkey,Western Europe,28.0,60636.0
+2022,842870,245,Czech Republic,"Central and East Europe, Russia etc.",2.0,16423.0
+2022,842870,302,Canada,North America,21.0,55220.0
+2022,842870,304,United States of America Middle and South America,North America,1578.0,5668524.0
+2022,842870,305,Mexico,North America,101.0,1181897.0
+2022,842870,410,Brazil,North America,47.0,105953.0
+2022,842870,601,Australia,Oceania,14.0,42621.0
+2022,842870,606,New Zealand,Oceania,12.0,27758.0
+2022,847950,103,Republic of Korea,Asia,9297.0,14115538.0
+2022,847950,105,People's Republic of China,Asia,80608.0,122237462.0
+2022,847950,106,Taiwan,Asia,4775.0,8159150.0
+2022,847950,108,Hong Kong,Asia,1181.0,1151213.0
+2022,847950,110,Viet Nam,Asia,1475.0,1160267.0
+2022,847950,111,Thailand,Asia,2930.0,3772000.0
+2022,847950,112,Singapore,Asia,8361.0,13008270.0
+2022,847950,113,Malaysia,Asia,2226.0,4193136.0
+2022,847950,117,Philippines,Asia,213.0,151161.0
+2022,847950,118,Indonesia,Asia,521.0,1262402.0
+2022,847950,120,Cambodia,Asia,5.0,4148.0
+2022,847950,123,India,Asia,2444.0,4847424.0
+2022,847950,125,Sri Lanka,Asia,4.0,15975.0
+2022,847950,126,Maldives,Asia,12.0,9440.0
+2022,847950,137,Saudi Arabia,Middle East,1.0,879.0
+2022,847950,138,Kuwait,Middle East,6.0,9045.0
+2022,847950,143,Israel,Middle East,213.0,419050.0
+2022,847950,147,United Arab Emirates,Middle East,1.0,1968.0
+2022,847950,152,Uzbekistan,"Central and East Europe, Russia etc.",2.0,1560.0
+2022,847950,203,Sweden,Western Europe,895.0,1913939.0
+2022,847950,204,Denmark,Western Europe,6.0,4502.0
+2022,847950,205,United Kingdom,Western Europe,89.0,134079.0
+2022,847950,206,Ireland,Western Europe,8.0,30079.0
+2022,847950,207,Netherlands,Western Europe,1711.0,2254362.0
+2022,847950,208,Belgium,Western Europe,22.0,11628.0
+2022,847950,209,Luxembourg,Western Europe,21610.0,49823751.0
+2022,847950,210,France,Western Europe,62.0,88187.0
+2022,847950,213,Germany,Western Europe,5509.0,8472229.0
+2022,847950,215,Switzerland,Western Europe,21.0,10187.0
+2022,847950,217,Portugal,Western Europe,13.0,7769.0
+2022,847950,218,Spain,Western Europe,181.0,37076.0
+2022,847950,220,Italy,Western Europe,259.0,192187.0
+2022,847950,221,Malta,Western Europe,11.0,12292.0
+2022,847950,223,Poland,"Central and East Europe, Russia etc.",30.0,63367.0
+2022,847950,225,Austria,Western Europe,185.0,569674.0
+2022,847950,227,Hungary,"Central and East Europe, Russia etc.",37.0,15875.0
+2022,847950,230,Greece,Western Europe,1.0,963.0
+2022,847950,231,Romania,"Central and East Europe, Russia etc.",1.0,614.0
+2022,847950,234,Turkey,Western Europe,150.0,323465.0
+2022,847950,237,Lithuania,"Central and East Europe, Russia etc.",4.0,1708.0
+2022,847950,242,Slovenia,Western Europe,2.0,5747.0
+2022,847950,245,Czech Republic,"Central and East Europe, Russia etc.",12.0,55454.0
+2022,847950,302,Canada,North America,385.0,1073755.0
+2022,847950,304,United States of America Middle and South America,North America,40230.0,81670192.0
+2022,847950,305,Mexico,North America,1702.0,4097837.0
+2022,847950,311,Costa Rica,North America,1.0,750.0
+2022,847950,410,Brazil,North America,356.0,765084.0
+2022,847950,413,Argentina,North America,15.0,36394.0
+2022,847950,506,Egypt,Africa,9.0,6259.0
+2022,847950,551,South,Africa,131.0,370479.0
+2022,847950,601,Australia,Oceania,125.0,307214.0
+2022,847950,606,New Zealand,Oceania,57.0,129675.0
+2023,842870,103,Republic of Korea,Asia,692.0,1354427.0
+2023,842870,105,People's Republic of China,Asia,1445.0,3178336.0
+2023,842870,106,Taiwan,Asia,170.0,459552.0
+2023,842870,108,Hong Kong,Asia,1.0,371.0
+2023,842870,110,Viet Nam,Asia,229.0,483294.0
+2023,842870,111,Thailand,Asia,246.0,532609.0
+2023,842870,112,Singapore,Asia,69.0,182271.0
+2023,842870,113,Malaysia,Asia,61.0,185655.0
+2023,842870,117,Philippines,Asia,72.0,177619.0
+2023,842870,118,Indonesia,Asia,97.0,337048.0
+2023,842870,123,India,Asia,145.0,658070.0
+2023,842870,143,Israel,Middle East,8.0,35776.0
+2023,842870,203,Sweden,Western Europe,1.0,4521.0
+2023,842870,205,United Kingdom,Western Europe,6.0,16500.0
+2023,842870,206,Ireland,Western Europe,3.0,37040.0
+2023,842870,207,Netherlands,Western Europe,333.0,871455.0
+2023,842870,208,Belgium,Western Europe,10.0,49313.0
+2023,842870,210,France,Western Europe,2.0,17758.0
+2023,842870,213,Germany,Western Europe,63.0,268182.0
+2023,842870,220,Italy,Western Europe,2.0,1030.0
+2023,842870,223,Poland,"Central and East Europe, Russia etc.",1.0,20765.0
+2023,842870,227,Hungary,"Central and East Europe, Russia etc.",2.0,4452.0
+2023,842870,234,Turkey,Western Europe,30.0,56727.0
+2023,842870,245,Czech Republic,"Central and East Europe, Russia etc.",7.0,287609.0
+2023,842870,302,Canada,North America,49.0,135902.0
+2023,842870,304,United States of America Middle and South America,North America,1325.0,7581339.0
+2023,842870,305,Mexico,North America,157.0,758621.0
+2023,842870,324,Puerto Rico (USA),North America,1.0,9994.0
+2023,842870,410,Brazil,North America,52.0,110588.0
+2023,842870,413,Argentina,North America,2.0,11042.0
+2023,842870,551,South,Africa,3.0,43984.0
+2023,842870,601,Australia,Oceania,15.0,45026.0
+2023,847950,103,Republic of Korea,Asia,12276.0,21719820.0
+2023,847950,105,People's Republic of China,Asia,64902.0,117924216.0
+2023,847950,106,Taiwan,Asia,2416.0,4655736.0
+2023,847950,108,Hong Kong,Asia,293.0,176409.0
+2023,847950,110,Viet Nam,Asia,1270.0,1225629.0
+2023,847950,111,Thailand,Asia,2105.0,3774932.0
+2023,847950,112,Singapore,Asia,3677.0,6130494.0
+2023,847950,113,Malaysia,Asia,1102.0,2256155.0
+2023,847950,117,Philippines,Asia,158.0,167502.0
+2023,847950,118,Indonesia,Asia,700.0,1633771.0
+2023,847950,120,Cambodia,Asia,9.0,3018.0
+2023,847950,123,India,Asia,5247.0,12220575.0
+2023,847950,125,Sri Lanka,Asia,5.0,27546.0
+2023,847950,138,Kuwait,Middle East,1.0,358.0
+2023,847950,143,Israel,Middle East,131.0,283779.0
+2023,847950,203,Sweden,Western Europe,604.0,1141654.0
+2023,847950,204,Denmark,Western Europe,2.0,2213.0
+2023,847950,205,United Kingdom,Western Europe,95.0,396447.0
+2023,847950,206,Ireland,Western Europe,5.0,131940.0
+2023,847950,207,Netherlands,Western Europe,1610.0,2360879.0
+2023,847950,208,Belgium,Western Europe,2.0,9315.0
+2023,847950,209,Luxembourg,Western Europe,17237.0,45488774.0
+2023,847950,210,France,Western Europe,56.0,188305.0
+2023,847950,213,Germany,Western Europe,4893.0,8084073.0
+2023,847950,215,Switzerland,Western Europe,5.0,6299.0
+2023,847950,217,Portugal,Western Europe,1.0,311.0
+2023,847950,218,Spain,Western Europe,36.0,41717.0
+2023,847950,220,Italy,Western Europe,90.0,139252.0
+2023,847950,221,Malta,Western Europe,3.0,5430.0
+2023,847950,222,Finland,Western Europe,2.0,2468.0
+2023,847950,223,Poland,"Central and East Europe, Russia etc.",19.0,18184.0
+2023,847950,225,Austria,Western Europe,147.0,460956.0
+2023,847950,227,Hungary,"Central and East Europe, Russia etc.",65.0,28338.0
+2023,847950,232,Bulgaria,"Central and East Europe, Russia etc.",82.0,35970.0
+2023,847950,234,Turkey,Western Europe,119.0,266203.0
+2023,847950,242,Slovenia,Western Europe,12.0,78418.0
+2023,847950,245,Czech Republic,"Central and East Europe, Russia etc.",18.0,11498.0
+2023,847950,246,Slovakia,"Central and East Europe, Russia etc.",1.0,928.0
+2023,847950,302,Canada,North America,1123.0,3186085.0
+2023,847950,304,United States of America Middle and South America,North America,24159.0,62833996.0
+2023,847950,305,Mexico,North America,605.0,1741283.0
+2023,847950,401,Colombia,North America,2.0,2230.0
+2023,847950,406,Ecuador,North America,1.0,2000.0
+2023,847950,409,Chile,North America,1.0,202.0
+2023,847950,410,Brazil,North America,599.0,1631113.0
+2023,847950,413,Argentina,North America,18.0,56922.0
+2023,847950,551,South,Africa,167.0,520137.0
+2023,847950,601,Australia,Oceania,138.0,375403.0
+2023,847950,606,New Zealand,Oceania,61.0,149687.0
+2024,842870,103,Republic of Korea,Asia,463.0,932504.0
+2024,842870,105,People's Republic of China,Asia,667.0,1689734.0
+2024,842870,106,Taiwan,Asia,179.0,589630.0
+2024,842870,108,Hong Kong,Asia,2.0,23923.0
+2024,842870,110,Viet Nam,Asia,237.0,425412.0
+2024,842870,111,Thailand,Asia,242.0,858076.0
+2024,842870,112,Singapore,Asia,56.0,182866.0
+2024,842870,113,Malaysia,Asia,63.0,129819.0
+2024,842870,117,Philippines,Asia,58.0,103632.0
+2024,842870,118,Indonesia,Asia,101.0,401765.0
+2024,842870,120,Cambodia,Asia,1.0,223.0
+2024,842870,123,India,Asia,214.0,1112472.0
+2024,842870,143,Israel,Middle East,7.0,30857.0
+2024,842870,204,Denmark,Western Europe,6.0,39134.0
+2024,842870,205,United Kingdom,Western Europe,4.0,40301.0
+2024,842870,206,Ireland,Western Europe,1.0,12551.0
+2024,842870,207,Netherlands,Western Europe,313.0,1133939.0
+2024,842870,208,Belgium,Western Europe,5.0,21335.0
+2024,842870,210,France,Western Europe,8.0,349718.0
+2024,842870,213,Germany,Western Europe,5.0,118848.0
+2024,842870,227,Hungary,"Central and East Europe, Russia etc.",11.0,39264.0
+2024,842870,234,Turkey,Western Europe,32.0,75255.0
+2024,842870,245,Czech Republic,"Central and East Europe, Russia etc.",7.0,480300.0
+2024,842870,302,Canada,North America,20.0,104563.0
+2024,842870,304,United States of America Middle and South America,North America,735.0,6435724.0
+2024,842870,305,Mexico,North America,107.0,415945.0
+2024,842870,324,Puerto Rico (USA),North America,4.0,36170.0
+2024,842870,401,Colombia,North America,4.0,42020.0
+2024,842870,407,Peru,North America,1.0,9520.0
+2024,842870,410,Brazil,North America,35.0,185075.0
+2024,842870,551,South,Africa,2.0,14897.0
+2024,842870,601,Australia,Oceania,13.0,43611.0
+2024,842870,606,New Zealand,Oceania,7.0,30931.0
+2024,847950,103,Republic of Korea,Asia,9638.0,19187390.0
+2024,847950,105,People's Republic of China,Asia,45260.0,62976753.0
+2024,847950,106,Taiwan,Asia,2954.0,4788426.0
+2024,847950,108,Hong Kong,Asia,160.0,121927.0
+2024,847950,110,Viet Nam,Asia,1065.0,1291805.0
+2024,847950,111,Thailand,Asia,2371.0,4596537.0
+2024,847950,112,Singapore,Asia,3037.0,3659238.0
+2024,847950,113,Malaysia,Asia,625.0,1199754.0
+2024,847950,117,Philippines,Asia,194.0,138966.0
+2024,847950,118,Indonesia,Asia,752.0,1831564.0
+2024,847950,120,Cambodia,Asia,4.0,2381.0
+2024,847950,121,Laos,Asia,3.0,8565.0
+2024,847950,123,India,Asia,4835.0,11617337.0
+2024,847950,125,Sri Lanka,Asia,2.0,7733.0
+2024,847950,143,Israel,Middle East,44.0,83405.0
+2024,847950,147,United Arab Emirates,Middle East,3.0,6692.0
+2024,847950,203,Sweden,Western Europe,657.0,1366351.0
+2024,847950,204,Denmark,Western Europe,8.0,7536.0
+2024,847950,205,United Kingdom,Western Europe,156.0,638297.0
+2024,847950,206,Ireland,Western Europe,14.0,30637.0
+2024,847950,207,Netherlands,Western Europe,1133.0,1805295.0
+2024,847950,209,Luxembourg,Western Europe,13348.0,35812465.0
+2024,847950,210,France,Western Europe,33.0,58837.0
+2024,847950,213,Germany,Western Europe,4066.0,7565731.0
+2024,847950,215,Switzerland,Western Europe,2.0,4019.0
+2024,847950,218,Spain,Western Europe,24.0,11270.0
+2024,847950,220,Italy,Western Europe,95.0,122246.0
+2024,847950,221,Malta,Western Europe,9.0,11213.0
+2024,847950,222,Finland,Western Europe,1.0,1381.0
+2024,847950,223,Poland,"Central and East Europe, Russia etc.",10.0,9592.0
+2024,847950,225,Austria,Western Europe,238.0,901929.0
+2024,847950,227,Hungary,"Central and East Europe, Russia etc.",53.0,285484.0
+2024,847950,230,Greece,Western Europe,7.0,7631.0
+2024,847950,232,Bulgaria,"Central and East Europe, Russia etc.",12.0,5214.0
+2024,847950,234,Turkey,Western Europe,120.0,340292.0
+2024,847950,242,Slovenia,Western Europe,3.0,7298.0
+2024,847950,245,Czech Republic,"Central and East Europe, Russia etc.",30.0,67529.0
+2024,847950,302,Canada,North America,392.0,1216877.0
+2024,847950,304,United States of America Middle and South America,North America,11686.0,29113275.0
+2024,847950,305,Mexico,North America,204.0,739369.0
+2024,847950,410,Brazil,North America,428.0,1176569.0
+2024,847950,413,Argentina,North America,17.0,38738.0
+2024,847950,501,Morocco,Africa,2.0,3871.0
+2024,847950,506,Egypt,Africa,2.0,31004.0
+2024,847950,551,South,Africa,106.0,341140.0
+2024,847950,601,Australia,Oceania,62.0,174033.0
+2024,847950,606,New Zealand,Oceania,50.0,130725.0
+2025,842870,103,Republic of Korea,Asia,265.0,510507.0
+2025,842870,105,People's Republic of China,Asia,873.0,1386923.0
+2025,842870,106,Taiwan,Asia,252.0,713246.0
+2025,842870,108,Hong Kong,Asia,10.0,10980.0
+2025,842870,110,Viet Nam,Asia,257.0,427693.0
+2025,842870,111,Thailand,Asia,237.0,659380.0
+2025,842870,112,Singapore,Asia,45.0,112584.0
+2025,842870,113,Malaysia,Asia,68.0,222034.0
+2025,842870,117,Philippines,Asia,87.0,156987.0
+2025,842870,118,Indonesia,Asia,87.0,295641.0
+2025,842870,123,India,Asia,360.0,2229557.0
+2025,842870,124,Pakistan,Asia,1.0,11696.0
+2025,842870,127,Bangladesh,Asia,2.0,1880.0
+2025,842870,143,Israel,Middle East,5.0,20706.0
+2025,842870,147,United Arab Emirates,Middle East,5.0,774380.0
+2025,842870,203,Sweden,Western Europe,17.0,49221.0
+2025,842870,204,Denmark,Western Europe,4.0,22574.0
+2025,842870,206,Ireland,Western Europe,1.0,4923.0
+2025,842870,207,Netherlands,Western Europe,176.0,565893.0
+2025,842870,208,Belgium,Western Europe,12.0,97403.0
+2025,842870,210,France,Western Europe,2.0,7398.0
+2025,842870,213,Germany,Western Europe,18.0,115837.0
+2025,842870,223,Poland,"Central and East Europe, Russia etc.",15.0,147113.0
+2025,842870,234,Turkey,Western Europe,22.0,87431.0
+2025,842870,245,Czech Republic,"Central and East Europe, Russia etc.",3.0,47925.0
+2025,842870,302,Canada,North America,85.0,321506.0
+2025,842870,304,United States of America Middle and South America,North America,908.0,5758956.0
+2025,842870,305,Mexico,North America,96.0,872882.0
+2025,842870,312,Panama,North America,1.0,10073.0
+2025,842870,401,Colombia,North America,7.0,72486.0
+2025,842870,406,Ecuador,North America,1.0,10272.0
+2025,842870,410,Brazil,North America,94.0,484123.0
+2025,842870,413,Argentina,North America,7.0,102158.0
+2025,842870,551,South,Africa,24.0,186166.0
+2025,842870,601,Australia,Oceania,10.0,30650.0
+2025,842870,606,New Zealand,Oceania,4.0,10857.0
+2025,847950,103,Republic of Korea,Asia,10038.0,19472744.0
+2025,847950,105,People's Republic of China,Asia,62281.0,96204406.0
+2025,847950,106,Taiwan,Asia,2634.0,4214599.0
+2025,847950,107,Mongolia,Asia,1.0,5366.0
+2025,847950,108,Hong Kong,Asia,296.0,113725.0
+2025,847950,110,Viet Nam,Asia,1596.0,2282153.0
+2025,847950,111,Thailand,Asia,2562.0,3583794.0
+2025,847950,112,Singapore,Asia,2921.0,3144654.0
+2025,847950,113,Malaysia,Asia,597.0,1852308.0
+2025,847950,117,Philippines,Asia,164.0,145265.0
+2025,847950,118,Indonesia,Asia,617.0,1391306.0
+2025,847950,120,Cambodia,Asia,11.0,10860.0
+2025,847950,123,India,Asia,5569.0,12740055.0
+2025,847950,138,Kuwait,Middle East,1.0,202.0
+2025,847950,143,Israel,Middle East,17.0,41621.0
+2025,847950,147,United Arab Emirates,Middle East,1.0,4604.0
+2025,847950,203,Sweden,Western Europe,268.0,523257.0
+2025,847950,205,United Kingdom,Western Europe,82.0,3278022.0
+2025,847950,206,Ireland,Western Europe,7.0,24426.0
+2025,847950,207,Netherlands,Western Europe,1032.0,1652722.0
+2025,847950,208,Belgium,Western Europe,11.0,903.0
+2025,847950,209,Luxembourg,Western Europe,12587.0,37284262.0
+2025,847950,210,France,Western Europe,21.0,42842.0
+2025,847950,213,Germany,Western Europe,3399.0,6249818.0
+2025,847950,215,Switzerland,Western Europe,16.0,7661.0
+2025,847950,217,Portugal,Western Europe,6.0,4902.0
+2025,847950,218,Spain,Western Europe,40.0,27732.0
+2025,847950,220,Italy,Western Europe,111.0,263298.0
+2025,847950,221,Malta,Western Europe,1.0,965.0
+2025,847950,222,Finland,Western Europe,4.0,8332.0
+2025,847950,223,Poland,"Central and East Europe, Russia etc.",9.0,10092.0
+2025,847950,225,Austria,Western Europe,130.0,564493.0
+2025,847950,227,Hungary,"Central and East Europe, Russia etc.",26.0,16866.0
+2025,847950,231,Romania,"Central and East Europe, Russia etc.",1.0,335.0
+2025,847950,234,Turkey,Western Europe,65.0,194557.0
+2025,847950,235,Estonia,"Central and East Europe, Russia etc.",8.0,3774.0
+2025,847950,242,Slovenia,Western Europe,327.0,769383.0
+2025,847950,245,Czech Republic,"Central and East Europe, Russia etc.",4.0,4348.0
+2025,847950,246,Slovakia,"Central and East Europe, Russia etc.",8.0,10882.0
+2025,847950,302,Canada,North America,643.0,2071495.0
+2025,847950,304,United States of America Middle and South America,North America,22480.0,65850638.0
+2025,847950,305,Mexico,North America,235.0,599925.0
+2025,847950,410,Brazil,North America,663.0,1888361.0
+2025,847950,413,Argentina,North America,56.0,179403.0
+2025,847950,517,Ghana,Africa,5.0,875.0
+2025,847950,524,Nigeria,Africa,6.0,5468.0
+2025,847950,551,South,Africa,107.0,378055.0
+2025,847950,601,Australia,Oceania,90.0,295868.0
+2025,847950,606,New Zealand,Oceania,52.0,125012.0

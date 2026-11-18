@@ -1,0 +1,236 @@
+code,name_en,zone
+103,Republic of Korea,Asia
+104,North Korea,Asia
+105,People's Republic of China,Asia
+106,Taiwan,Asia
+107,Mongolia,Asia
+108,Hong Kong,Asia
+110,Viet Nam,Asia
+111,Thailand,Asia
+112,Singapore,Asia
+113,Malaysia,Asia
+116,Brunei,Asia
+117,Philippines,Asia
+118,Indonesia,Asia
+120,Cambodia,Asia
+121,Laos,Asia
+122,Myanmar,Asia
+123,India,Asia
+124,Pakistan,Asia
+125,Sri Lanka,Asia
+126,Maldives,Asia
+127,Bangladesh,Asia
+128,Timor-Leste,Asia
+129,Macao,Asia
+130,Afghanistan,Asia
+131,Nepal,Asia
+132,Bhutan,Asia
+133,Iran,Middle East
+134,Iraq,Middle East
+135,Bahrain,Middle East
+137,Saudi Arabia,Middle East
+138,Kuwait,Middle East
+140,Qatar,Middle East
+141,Oman,Middle East
+143,Israel,Middle East
+144,Jordan,Middle East
+145,Syria,Middle East
+146,Lebanon,Middle East
+147,United Arab Emirates,Middle East
+149,Yemen,Middle East
+150,Azerbaijan,"Central and East Europe, Russia etc."
+151,Armenia,"Central and East Europe, Russia etc."
+152,Uzbekistan,"Central and East Europe, Russia etc."
+153,Kazakhstan,"Central and East Europe, Russia etc."
+154,Kyrgyz,"Central and East Europe, Russia etc."
+155,Tajikistan,"Central and East Europe, Russia etc."
+156,Turkmenistan,"Central and East Europe, Russia etc."
+157,Georgia,"Central and East Europe, Russia etc."
+158,The West Bank and Gaza Strip,Middle East
+201,Iceland,Western Europe
+202,Norway,Western Europe
+203,Sweden,Western Europe
+204,Denmark,Western Europe
+205,United Kingdom,Western Europe
+206,Ireland,Western Europe
+207,Netherlands,Western Europe
+208,Belgium,Western Europe
+209,Luxembourg,Western Europe
+210,France,Western Europe
+211,Monaco,Western Europe
+212,Andorra,Western Europe
+213,Germany,Western Europe
+215,Switzerland,Western Europe
+216,Azores (Portugal),Western Europe
+217,Portugal,Western Europe
+218,Spain,Western Europe
+219,Gibraltar (UK),Western Europe
+220,Italy,Western Europe
+221,Malta,Western Europe
+222,Finland,Western Europe
+223,Poland,"Central and East Europe, Russia etc."
+224,Russia,"Central and East Europe, Russia etc."
+225,Austria,Western Europe
+227,Hungary,"Central and East Europe, Russia etc."
+228,Serbia,Western Europe
+229,Albania,"Central and East Europe, Russia etc."
+230,Greece,Western Europe
+231,Romania,"Central and East Europe, Russia etc."
+232,Bulgaria,"Central and East Europe, Russia etc."
+233,Cyprus,Western Europe
+234,Turkey,Western Europe
+235,Estonia,"Central and East Europe, Russia etc."
+236,Latvia,"Central and East Europe, Russia etc."
+237,Lithuania,"Central and East Europe, Russia etc."
+238,Ukraine,"Central and East Europe, Russia etc."
+239,Belarus,"Central and East Europe, Russia etc."
+240,Moldova,"Central and East Europe, Russia etc."
+241,Croatia,Western Europe
+242,Slovenia,Western Europe
+243,Bosnia and Herzegovina,Western Europe
+244,North Macedonia,Western Europe
+245,Czech Republic,"Central and East Europe, Russia etc."
+246,Slovakia,"Central and East Europe, Russia etc."
+247,Montenegro,Western Europe
+248,Kosovo,Western Europe
+249,Faroe Islands (Denmark),Western Europe
+250,Vatican City,Western Europe
+301,Greenland (Denmark),North America
+302,Canada,North America
+303,St.Pierre and Miquelon (France),North America
+304,United States of America Middle and South America,North America
+305,Mexico,North America
+306,Guatemala,North America
+307,Honduras,North America
+308,Belize,North America
+309,El Salvador,North America
+310,Nicaragua,North America
+311,Costa Rica,North America
+312,Panama,North America
+314,Bermuda (UK),North America
+315,The Bahamas,North America
+316,Jamaica,North America
+317,"Turks, and Caicos Islands (UK)",North America
+319,Barbados,North America
+320,Trinidad and Tobago,North America
+321,Cuba,North America
+322,Haiti,North America
+323,Dominican Republic,North America
+324,Puerto Rico (USA),North America
+325,US Virgin Islands,North America
+326,Netherlands Antilles,North America
+327,French West Indies,North America
+328,Cayman Islands (UK),North America
+329,Grenada,North America
+330,St.Lucia,North America
+331,Antigua and Barbuda,North America
+332,British Virgin Islands,North America
+333,Dominica,North America
+334,Montserrat (UK),North America
+335,St.Christopher and Nevis,North America
+336,St.Vincent,North America
+337,British Anguilla,North America
+338,St.Barthelemy (France),North America
+401,Colombia,North America
+402,Venezuela,North America
+403,Guyana,North America
+404,Suriname,North America
+405,French Guiana,North America
+406,Ecuador,North America
+407,Peru,North America
+408,Bolivia,North America
+409,Chile,North America
+410,Brazil,North America
+411,Paraguay,North America
+412,Uruguay,North America
+413,Argentina,North America
+414,Falkland Islands and Dependencies (UK),North America
+415,British Antarctic Territory,North America
+501,Morocco,Africa
+502,Ceuta and Melilla (Spain),Africa
+503,Algeria,Africa
+504,Tunisia,Africa
+505,Libya,Africa
+506,Egypt,Africa
+507,Sudan,Africa
+508,West Sahara,Africa
+509,Mauritania,Africa
+510,Senegal,Africa
+511,The Gambia,Africa
+512,Guinea-Bissau,Africa
+513,Guinea,Africa
+514,Sierra Leone,Africa
+515,Liberia,Africa
+516,Rep. of Cote d'Ivoire,Africa
+517,Ghana,Africa
+518,Togo,Africa
+519,Benin,Africa
+520,Mali,Africa
+521,Burkina Faso,Africa
+522,Cape Verde,Africa
+523,Canary Islands (Spain),Africa
+524,Nigeria,Africa
+525,Niger,Africa
+526,Rwanda,Africa
+527,Cameroon,Africa
+528,Chad,Africa
+529,Central,Africa
+530,Equatorial Guinea,Africa
+531,Gabon,Africa
+532,Republic of Congo,Africa
+533,Democratic Republic of Congo,Africa
+534,Burundi,Africa
+535,Angola,Africa
+536,Sao Tome and Principe,Africa
+537,St. Helena Island and Dependencies (UK),Africa
+538,Ethiopia,Africa
+539,Djibouti,Africa
+540,Somalia,Africa
+541,Kenya,Africa
+542,Uganda,Africa
+543,Tanzania,Africa
+544,Seychelles,Africa
+545,Mozambique,Africa
+546,Madagascar,Africa
+547,Mauritius,Africa
+548,Reunion (France),Africa
+549,Zimbabwe,Africa
+550,Namibia,Africa
+551,South,Africa
+552,Lesotho,Africa
+553,Malawi,Africa
+554,Zambia,Africa
+555,Botswana,Africa
+556,Eswatini,Africa
+557,British indian Ocean Territories,Africa
+558,Comoros,Africa
+559,Eritrea,Africa
+560,Republic of South Sudan,Africa
+601,Australia,Oceania
+602,Papua New Guinea,Oceania
+605,Other Australian Territories,Oceania
+606,New Zealand,Oceania
+607,Cook,Oceania
+608,Tokelau Islands (NZ),Oceania
+609,Niue,Oceania
+610,Samoa,Oceania
+611,Vanuatu,Oceania
+612,Fiji,Oceania
+613,Solomon Islands,Oceania
+614,Tonga,Oceania
+615,Kiribati,Oceania
+616,Pitcairn (UK),Oceania
+617,Nauru,Oceania
+618,New Caledonia (France),Oceania
+619,French Polynesia,Oceania
+620,Guam (USA),Oceania
+621,American Samoa,Oceania
+622,American,Oceania
+624,Tuvalu,Oceania
+625,Marshall,Oceania
+626,Micronesia,Oceania
+627,Northern Mariana Islands (USA),Oceania
+628,Palau Special Area,Oceania
+701,For Order,Oceania
+702,Unknown,Oceania
+703,"Bonded Manufacturing Warehouse,Integrated Hozei Area Useful Information Glossary Code Lists Corrigendum Other Notice(Japan Customs website) Top of Page Top of Page Customs and Tariff Bureau, 3-1-1 Kasumigaseki Chiyoda-ku Tokyo 100-8",Oceania

@@ -1,0 +1,21 @@
+{
+ "prod_unit_value_2009": 429.719338,
+ "prod_unit_value_2025": 346.474427,
+ "exp_unit_value_2009": 197.91759,
+ "exp_unit_value_2025": 209.09174,
+ "ratio_unit_value_2009": 0.460574,
+ "ratio_unit_value_2025": 0.603484,
+ "ratio_unit_value_mean": 0.523271,
+ "ratio_unit_value_min": 0.377923,
+ "ratio_unit_value_max": 0.702347,
+ "exp_unit_value_growth_2009_2025": 1.056459,
+ "prod_unit_value_growth_2009_2025": 0.806281,
+ "unit_value_by_country_2025": {
+  "105": 154.529134,
+  "304": 306.180922,
+  "209": 296.212457,
+  "103": 193.955654,
+  "123": 252.481228,
+  "213": 186.293679
+ }
+}

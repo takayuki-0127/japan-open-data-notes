@@ -1,0 +1,2 @@
+2026-11-18 再実行：12 ファイル一致、所要 5 秒
+（独立レビューで直したあと、/tmp/rv2_F414 にフォルダを写し、results の CSV・JSON、figures の PNG、data/firms_long.csv を消してから sh src/run_all.sh を流し、元と cmp で比較。results の CSV 6本と main.json、figures の PNG 4枚、data/firms_long.csv がすべて一致）
