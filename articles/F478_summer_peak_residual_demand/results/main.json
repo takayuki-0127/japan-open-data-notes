@@ -1,0 +1,331 @@
+{
+ "note": "夏＝7〜9月。平日＝土日・祝日・8月13〜16日を除く。時刻はその1時間の始まり（14 は14時台）。残余需要＝エリア需要−太陽光実績−風力実績。",
+ "summer": {
+  "関西": {
+   "2016": {
+    "demand_med": 15.0,
+    "resid_med": 16.0,
+    "resid_ge17": 1.7,
+    "pv_share": 2.96,
+    "max_demand": 26569.0,
+    "max_demand_hour": 13,
+    "max_resid": 25286.0,
+    "max_resid_hour": 16,
+    "ratio": 0.9517
+   },
+   "2017": {
+    "demand_med": 15.0,
+    "resid_med": 16.0,
+    "resid_ge17": 8.5,
+    "pv_share": 3.26,
+    "max_demand": 26376.0,
+    "max_demand_hour": 16,
+    "max_resid": 25488.0,
+    "max_resid_hour": 16,
+    "ratio": 0.9663
+   },
+   "2018": {
+    "demand_med": 14.0,
+    "resid_med": 16.0,
+    "resid_ge17": 8.6,
+    "pv_share": 4.61,
+    "max_demand": 28650.0,
+    "max_demand_hour": 16,
+    "max_resid": 26890.0,
+    "max_resid_hour": 16,
+    "ratio": 0.9386
+   },
+   "2019": {
+    "demand_med": 14.0,
+    "resid_med": 16.0,
+    "resid_ge17": 3.4,
+    "pv_share": 4.98,
+    "max_demand": 28162.0,
+    "max_demand_hour": 14,
+    "max_resid": 26113.0,
+    "max_resid_hour": 16,
+    "ratio": 0.9272
+   },
+   "2020": {
+    "demand_med": 14.0,
+    "resid_med": 16.0,
+    "resid_ge17": 3.4,
+    "pv_share": 5.32,
+    "max_demand": 29103.0,
+    "max_demand_hour": 14,
+    "max_resid": 26842.0,
+    "max_resid_hour": 16,
+    "ratio": 0.9223
+   },
+   "2021": {
+    "demand_med": 14.0,
+    "resid_med": 16.0,
+    "resid_ge17": 1.7,
+    "pv_share": 5.54,
+    "max_demand": 28257.0,
+    "max_demand_hour": 14,
+    "max_resid": 25660.0,
+    "max_resid_hour": 16,
+    "ratio": 0.9081
+   },
+   "2022": {
+    "demand_med": 14.0,
+    "resid_med": 16.0,
+    "resid_ge17": 10.0,
+    "pv_share": 6.13,
+    "max_demand": 27210.0,
+    "max_demand_hour": 14,
+    "max_resid": 24975.0,
+    "max_resid_hour": 16,
+    "ratio": 0.9179
+   },
+   "2023": {
+    "demand_med": 13.0,
+    "resid_med": 16.0,
+    "resid_ge17": 5.1,
+    "pv_share": 6.71,
+    "max_demand": 27076.0,
+    "max_demand_hour": 14,
+    "max_resid": 24586.0,
+    "max_resid_hour": 15,
+    "ratio": 0.908
+   },
+   "2024": {
+    "demand_med": 14.0,
+    "resid_med": 16.0,
+    "resid_ge17": 8.6,
+    "pv_share": 6.91,
+    "max_demand": 27629.0,
+    "max_demand_hour": 14,
+    "max_resid": 25212.0,
+    "max_resid_hour": 16,
+    "ratio": 0.9125
+   },
+   "2025": {
+    "demand_med": 14.0,
+    "resid_med": 16.0,
+    "resid_ge17": 8.5,
+    "pv_share": 7.24,
+    "max_demand": 27380.0,
+    "max_demand_hour": 14,
+    "max_resid": 25188.0,
+    "max_resid_hour": 16,
+    "ratio": 0.9199
+   },
+   "2026": {
+    "demand_med": 14.0,
+    "resid_med": 16.0,
+    "resid_ge17": 33.9,
+    "pv_share": 6.99,
+    "max_demand": 28244.0,
+    "max_demand_hour": 14,
+    "max_resid": 25892.0,
+    "max_resid_hour": 17,
+    "ratio": 0.9167
+   }
+  },
+  "九州": {
+   "2016": {
+    "demand_med": 14.0,
+    "resid_med": 18.0,
+    "resid_ge17": 96.7,
+    "pv_share": 8.86,
+    "max_demand": 15503.0,
+    "max_demand_hour": 14,
+    "max_resid": 14513.0,
+    "max_resid_hour": 18,
+    "ratio": 0.9361
+   },
+   "2017": {
+    "demand_med": 14.0,
+    "resid_med": 18.0,
+    "resid_ge17": 98.3,
+    "pv_share": 10.89,
+    "max_demand": 15854.0,
+    "max_demand_hour": 14,
+    "max_resid": 14658.0,
+    "max_resid_hour": 18,
+    "ratio": 0.9246
+   },
+   "2018": {
+    "demand_med": 15.5,
+    "resid_med": 18.0,
+    "resid_ge17": 96.6,
+    "pv_share": 11.81,
+    "max_demand": 16011.0,
+    "max_demand_hour": 14,
+    "max_resid": 14787.0,
+    "max_resid_hour": 18,
+    "ratio": 0.9236
+   },
+   "2019": {
+    "demand_med": 14.0,
+    "resid_med": 18.0,
+    "resid_ge17": 96.6,
+    "pv_share": 11.83,
+    "max_demand": 15733.0,
+    "max_demand_hour": 15,
+    "max_resid": 14391.0,
+    "max_resid_hour": 18,
+    "ratio": 0.9147
+   },
+   "2020": {
+    "demand_med": 13.0,
+    "resid_med": 18.0,
+    "resid_ge17": 93.2,
+    "pv_share": 14.63,
+    "max_demand": 16374.0,
+    "max_demand_hour": 13,
+    "max_resid": 14937.0,
+    "max_resid_hour": 18,
+    "ratio": 0.9122
+   },
+   "2021": {
+    "demand_med": 14.0,
+    "resid_med": 18.0,
+    "resid_ge17": 93.2,
+    "pv_share": 14.93,
+    "max_demand": 15592.0,
+    "max_demand_hour": 16,
+    "max_resid": 14421.0,
+    "max_resid_hour": 18,
+    "ratio": 0.9249
+   },
+   "2022": {
+    "demand_med": 14.0,
+    "resid_med": 18.0,
+    "resid_ge17": 98.3,
+    "pv_share": 16.73,
+    "max_demand": 15688.0,
+    "max_demand_hour": 13,
+    "max_resid": 14118.0,
+    "max_resid_hour": 18,
+    "ratio": 0.8999
+   },
+   "2023": {
+    "demand_med": 14.0,
+    "resid_med": 18.0,
+    "resid_ge17": 94.9,
+    "pv_share": 17.06,
+    "max_demand": 15782.0,
+    "max_demand_hour": 14,
+    "max_resid": 13943.0,
+    "max_resid_hour": 18,
+    "ratio": 0.8835
+   },
+   "2024": {
+    "demand_med": 14.0,
+    "resid_med": 18.0,
+    "resid_ge17": 96.6,
+    "pv_share": 18.88,
+    "max_demand": 17032.0,
+    "max_demand_hour": 13,
+    "max_resid": 14996.0,
+    "max_resid_hour": 18,
+    "ratio": 0.8805
+   },
+   "2025": {
+    "demand_med": 14.0,
+    "resid_med": 18.0,
+    "resid_ge17": 96.6,
+    "pv_share": 18.28,
+    "max_demand": 15736.0,
+    "max_demand_hour": 13,
+    "max_resid": 14179.0,
+    "max_resid_hour": 18,
+    "ratio": 0.9011
+   },
+   "2026": {
+    "demand_med": 14.0,
+    "resid_med": 18.0,
+    "resid_ge17": 98.3,
+    "pv_share": 18.2,
+    "max_demand": 17086.0,
+    "max_demand_hour": 14,
+    "max_resid": 15122.0,
+    "max_resid_hour": 18,
+    "ratio": 0.8851
+   }
+  }
+ },
+ "関西_period_means": {
+  "ratio_p0": 0.9522,
+  "ratio_p1": 0.9164,
+  "pv_share_p0": 3.61,
+  "pv_share_p1": 7.05,
+  "pv_at_demand_peak_p0": 1338.0,
+  "pv_at_demand_peak_p1": 3112.0
+ },
+ "九州_period_means": {
+  "ratio_p0": 0.9281,
+  "ratio_p1": 0.8889,
+  "pv_share_p0": 10.52,
+  "pv_share_p1": 18.45,
+  "pv_at_demand_peak_p0": 2502.0,
+  "pv_at_demand_peak_p1": 5111.0
+ },
+ "関西_base": {
+  "p0": {
+   "demand_median": 14.0,
+   "resid_median": 16.0,
+   "gap_median": 2.0,
+   "demand_mean": 14.13,
+   "resid_mean": 15.52,
+   "gap_mean": 1.39,
+   "demand_ge17_pct": 0.0,
+   "resid_ge17_pct": 6.215,
+   "n_days": 177.0
+  },
+  "p1": {
+   "demand_median": 14.0,
+   "resid_median": 16.0,
+   "gap_median": 2.0,
+   "demand_mean": 13.778,
+   "resid_mean": 15.784,
+   "gap_mean": 2.006,
+   "demand_ge17_pct": 0.0,
+   "resid_ge17_pct": 17.045,
+   "n_days": 176.0
+  },
+  "demand_shift_median": 0.0,
+  "gap_widen_median": 0.0,
+  "demand_shift_mean": -0.352,
+  "gap_widen_mean": 0.616
+ },
+ "九州_base": {
+  "p0": {
+   "demand_median": 14.0,
+   "resid_median": 18.0,
+   "gap_median": 4.0,
+   "demand_mean": 14.26,
+   "resid_mean": 18.068,
+   "gap_mean": 3.808,
+   "demand_ge17_pct": 3.39,
+   "resid_ge17_pct": 97.175,
+   "n_days": 177.0
+  },
+  "p1": {
+   "demand_median": 14.0,
+   "resid_median": 18.0,
+   "gap_median": 4.0,
+   "demand_mean": 13.972,
+   "resid_mean": 18.062,
+   "gap_mean": 4.091,
+   "demand_ge17_pct": 0.0,
+   "resid_ge17_pct": 97.159,
+   "n_days": 176.0
+  },
+  "demand_shift_median": 0.0,
+  "gap_widen_median": 0.0,
+  "demand_shift_mean": -0.288,
+  "gap_widen_mean": 0.283
+ },
+ "H": {
+  "H1_kansai_demand_shift_median_h": 0.0,
+  "H2_kansai_gap_p1_median_h": 2.0,
+  "H3_kansai_gap_widen_median_h": 0.0,
+  "H4_kyushu_gap_p1": 4.0,
+  "H4_kansai_gap_p1": 2.0
+ },
+ "robustness_rows": 20
+}

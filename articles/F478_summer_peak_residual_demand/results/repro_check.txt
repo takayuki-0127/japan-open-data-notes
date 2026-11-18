@@ -1,0 +1,2 @@
+2026-11-18 再実行：13 ファイル一致、所要 5 秒（独立レビュー。/tmp/rv_F478 に写し、results の CSV・JSON 8本、figures の PNG 4枚、data/summer_hourly.csvを消してから sh src/run_all.sh。すべて cmp で一致）
+（作成時：2026-11-18 再実行：13 ファイル一致、所要 6 秒（/tmp/rep_F478 に写し、results の CSV・JSON 8本、figures の PNG 4枚、data/summer_hourly.csv を消してから sh src/run_all.sh。すべて cmp で一致））
