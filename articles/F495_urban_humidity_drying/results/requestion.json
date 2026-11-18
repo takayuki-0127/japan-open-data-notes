@@ -1,0 +1,37 @@
+{
+ "rh_city": {
+  "break_year": 2008,
+  "slope_before_per10y": -1.1776,
+  "slope_after_per10y": 1.959,
+  "line_slope_per10y": -0.6183,
+  "bic_hinge": 15.815,
+  "bic_line": 54.753,
+  "hinge_better": true
+ },
+ "rh_rural": {
+  "break_year": 2005,
+  "slope_before_per10y": -0.7343,
+  "slope_after_per10y": 1.6058,
+  "line_slope_per10y": -0.183,
+  "bic_hinge": -23.787,
+  "bic_line": 26.046,
+  "hinge_better": true
+ },
+ "gap": {
+  "break_year": 2015,
+  "slope_before_per10y": -0.5093,
+  "slope_after_per10y": 0.5529,
+  "line_slope_per10y": -0.4353,
+  "bic_hinge": -53.268,
+  "bic_line": -54.497,
+  "hinge_better": false
+ },
+ "gap_1961_1970": -5.4,
+ "gap_2016_2025": -7.49,
+ "city_rh_2001_2010": 65.33,
+ "city_rh_2016_2025": 67.95,
+ "rural_rh_2001_2010": 72.98,
+ "rural_rh_2016_2025": 75.45,
+ "city_rh_1961_1970": 70.83,
+ "rural_rh_1961_1970": 76.23
+}

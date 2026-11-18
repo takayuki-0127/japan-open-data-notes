@@ -1,0 +1,77 @@
+{
+ "rep_japan_1898_2025": 1.436,
+ "rep_world_1891_2025": 0.788,
+ "pub": {
+  "japan": 1.44,
+  "world": 0.79,
+  "world_land": 0.93
+ },
+ "land_est_1891_2025": 1.179,
+ "ratio_pub_japan_to_pub_land": 1.548,
+ "ocean_weight_implied_by_pub_land": 0.47,
+ "sst_1891_2025": 0.629,
+ "japan_1898_2025": 1.436,
+ "world_1898_2025": 0.829,
+ "nh_1898_2025": 0.883,
+ "sh_1898_2025": 0.758,
+ "sst_1898_2025": 0.662,
+ "land_est_1898_2025": 1.239,
+ "ratio_world": 1.732,
+ "ratio_land": 1.159,
+ "ratio_nh": 1.626,
+ "diff_jw": {
+  "slope": 0.607,
+  "lo90": 0.432,
+  "hi90": 0.781
+ },
+ "diff_jl": {
+  "slope": 0.197,
+  "lo90": 0.062,
+  "hi90": 0.332
+ },
+ "beta_japan_on_world": 1.643,
+ "beta_se": 0.102,
+ "resid_sd_japan": 0.425,
+ "resid_sd_world": 0.167,
+ "resid_sd_land_est": 0.332,
+ "scan_min_ratio_world": 1.511,
+ "scan_max_ratio_world": 1.968,
+ "scan_min_ratio_land": 0.865,
+ "scan_max_ratio_land": 1.195,
+ "scan_n_japan_le_world": 0,
+ "scan_n_japan_le_land": 37,
+ "win30_n": 99,
+ "win30_cross0": 58,
+ "win30_share_cross0": 0.586,
+ "win30_n_diff_neg": 32,
+ "last30": {
+  "japan": 4.319,
+  "world": 2.172,
+  "diff": 2.147,
+  "lo90": 0.716,
+  "hi90": 3.578
+ },
+ "hypotheses": {
+  "H1": {
+   "rule": "1898〜2025年で日本は世界の1.5倍以上",
+   "value": 1.732,
+   "verdict": "支持"
+  },
+  "H2": {
+   "rule": "世界の陸（逆算）と比べると1.3倍未満",
+   "value": 1.159,
+   "verdict": "判定できず",
+   "check": "逆算した陸（1891〜2025年）と気象庁の公表値（陸上のみ、1880〜2025年）の差が0.1℃/100年を超えたら、近似が確かでないとして判定しない"
+  },
+  "H3": {
+   "rule": "始まり1898〜1990年のどれでも日本＞世界",
+   "value": 0,
+   "verdict": "支持"
+  },
+  "H4": {
+   "rule": "30年の期間の半分以上で差の90%区間が0をまたぐ",
+   "value": 0.586,
+   "verdict": "支持"
+  }
+ }
+}

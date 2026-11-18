@@ -1,0 +1,28 @@
+{
+ "mw_rh_slope_city_vs_rural_p": 0.0118,
+ "rh_city_slope_per10y": -0.6183,
+ "rh_city_ci90": [
+  -0.903,
+  -0.3336
+ ],
+ "rh_rural_slope_per10y": -0.183,
+ "rh_rural_ci90": [
+  -0.4305,
+  0.0644
+ ],
+ "gap_slope_per10y": -0.4353,
+ "gap_ci90": [
+  -0.5212,
+  -0.3493
+ ],
+ "gap_step": {
+  "step_year": 2000,
+  "step_size": -1.0934,
+  "slope_other_per10y": -0.193,
+  "bic_step_line": -61.564,
+  "bic_line": -54.497,
+  "step_better": true
+ },
+ "gap_1961_1997": -5.83,
+ "gap_2003_2025": -7.52
+}

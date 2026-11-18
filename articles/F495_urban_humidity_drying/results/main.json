@@ -1,0 +1,59 @@
+{
+ "period": "1961-2025",
+ "method": "OLS",
+ "city_rh": -0.5962,
+ "rural_rh": -0.1862,
+ "diff_rh": -0.41,
+ "city_vp": 0.1859,
+ "rural_vp": 0.1753,
+ "city_t": 0.367,
+ "rural_t": 0.27,
+ "city_temp_part": -1.6397,
+ "city_vapor_part": 0.8538,
+ "rural_temp_part": -1.2892,
+ "rural_vapor_part": 0.9689,
+ "city_temp_share_median_of_ratios": 2.5943,
+ "city_temp_share_of_medians": 2.7505,
+ "n_city": 11,
+ "n_rural": 15,
+ "city_rh_1961_1990": 69.23,
+ "city_rh_1996_2025": 66.87,
+ "rural_rh_1961_1990": 74.99,
+ "rural_rh_1996_2025": 74.2,
+ "city_vp_1961_1990": 13.51,
+ "city_vp_1996_2025": 14.06,
+ "rural_vp_1961_1990": 13.85,
+ "rural_vp_1996_2025": 14.44,
+ "n_city_rh_down": 10,
+ "n_rural_rh_down": 11,
+ "n_city_vp_down": 1,
+ "n_rural_vp_down": 0,
+ "resid_abs_max": 0.3313,
+ "resid_median": 0.1689,
+ "city_temp_share_le1": 2,
+ "hypotheses": {
+  "H1": {
+   "rule": "大都市の下がり方が15地点より0.3ポイント/10年以上大きい",
+   "value": 0.41,
+   "verdict": "支持"
+  },
+  "H2": {
+   "rule": "15地点でも下がっている（中央値<0）",
+   "value": -0.1862,
+   "verdict": "支持"
+  },
+  "H3": {
+   "rule": "大都市の下がり方のうち気温の分は半分未満（中央値どうしの比）",
+   "value": 2.7505,
+   "verdict": "外れ"
+  },
+  "H4": {
+   "rule": "15地点の蒸気圧は増えている（中央値>0）",
+   "value": 0.1753,
+   "verdict": "支持"
+  }
+ },
+ "gap_temp_part": -0.3506,
+ "gap_vapor_part": -0.1151,
+ "robustness_same_sign_all": true
+}
