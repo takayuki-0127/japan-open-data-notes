@@ -1,0 +1,288 @@
+{
+ "last_quarter": "2026Q3",
+ "total": {
+  "2009Q2": 415.94,
+  "2013Q1": 426.73,
+  "2019Q4": 509.08,
+  "2026Q3": 667.6
+ },
+ "share": {
+  "2009Q2": {
+   "製造業": 13.78,
+   "不動産業：SPC": 1.79,
+   "不動産業：個人による貸家業": 4.82,
+   "不動産業：その他": 8.21,
+   "金融業・保険業": 8.26,
+   "その他の非製造業（法人）": 30.64,
+   "地方公共団体": 4.57,
+   "個人：住宅・消費（割賦返済分）": 24.52,
+   "個人：その他": 1.96,
+   "海外円借款・国内店名義現地貸": 1.44
+  },
+  "2013Q1": {
+   "製造業": 12.88,
+   "不動産業：SPC": 1.57,
+   "不動産業：個人による貸家業": 5.03,
+   "不動産業：その他": 7.86,
+   "金融業・保険業": 8.08,
+   "その他の非製造業（法人）": 28.97,
+   "地方公共団体": 5.82,
+   "個人：住宅・消費（割賦返済分）": 26.48,
+   "個人：その他": 1.6,
+   "海外円借款・国内店名義現地貸": 1.72
+  },
+  "2019Q4": {
+   "製造業": 11.45,
+   "不動産業：SPC": 1.04,
+   "不動産業：個人による貸家業": 5.49,
+   "不動産業：その他": 10.04,
+   "金融業・保険業": 8.03,
+   "その他の非製造業（法人）": 28.31,
+   "地方公共団体": 5.55,
+   "個人：住宅・消費（割賦返済分）": 25.94,
+   "個人：その他": 1.65,
+   "海外円借款・国内店名義現地貸": 2.5
+  },
+  "2026Q3": {
+   "製造業": 11.19,
+   "不動産業：SPC": 2.5,
+   "不動産業：個人による貸家業": 4.51,
+   "不動産業：その他": 11.32,
+   "金融業・保険業": 9.47,
+   "その他の非製造業（法人）": 27.76,
+   "地方公共団体": 4.45,
+   "個人：住宅・消費（割賦返済分）": 25.01,
+   "個人：その他": 1.29,
+   "海外円借款・国内店名義現地貸": 2.49
+  }
+ },
+ "share_realestate": {
+  "2009Q2": 14.82,
+  "2013Q1": 14.46,
+  "2019Q4": 16.57,
+  "2026Q3": 18.34
+ },
+ "share_individual": {
+  "2009Q2": 26.48,
+  "2013Q1": 28.08,
+  "2019Q4": 27.59,
+  "2026Q3": 26.31
+ },
+ "contrib_2013": {
+  "製造業": 8.2,
+  "不動産業：SPC": 4.15,
+  "不動産業：個人による貸家業": 3.6,
+  "不動産業：その他": 17.45,
+  "金融業・保険業": 11.91,
+  "その他の非製造業（法人）": 25.64,
+  "地方公共団体": 2.02,
+  "個人：住宅・消費（割賦返済分）": 22.42,
+  "個人：その他": 0.75,
+  "海外円借款・国内店名義現地貸": 3.86
+ },
+ "increase_2013_tn": 240.87,
+ "contrib_2013_realestate": 25.2,
+ "contrib_2013_individual": 23.17,
+ "contrib_2013_re_plus_ind": 48.38,
+ "long_bank_re_max": {
+  "quarter": "2026Q3",
+  "share": 18.34,
+  "first": "1992Q2"
+ },
+ "long_3acc_re_max": {
+  "quarter": "2026Q3",
+  "share": 18.41,
+  "first": "1970Q1"
+ },
+ "long_3acc_re_last": 18.41,
+ "long_3acc_re_1990": 11.86,
+ "long_3acc_mfg_1970": 43.99,
+ "long_3acc_mfg_last": 11.07,
+ "re_mix": {
+  "2009Q2": {
+   "不動産業：SPC": 12.07,
+   "不動産業：個人による貸家業": 32.53,
+   "不動産業：その他": 55.4
+  },
+  "2013Q1": {
+   "不動産業：SPC": 10.89,
+   "不動産業：個人による貸家業": 34.78,
+   "不動産業：その他": 54.33
+  },
+  "2016Q4": {
+   "不動産業：SPC": 7.58,
+   "不動産業：個人による貸家業": 35.15,
+   "不動産業：その他": 57.27
+  },
+  "2019Q4": {
+   "不動産業：SPC": 6.28,
+   "不動産業：個人による貸家業": 33.15,
+   "不動産業：その他": 60.57
+  },
+  "2026Q3": {
+   "不動産業：SPC": 13.65,
+   "不動産業：個人による貸家業": 24.62,
+   "不動産業：その他": 61.73
+  }
+ },
+ "re_mix_hr_peak": {
+  "quarter": "2015Q3",
+  "share": 35.74
+ },
+ "size_share": {
+  "2009Q2": {
+   "sme": 70.25,
+   "mid": 3.26,
+   "large": 26.48
+  },
+  "2013Q1": {
+   "sme": 69.79,
+   "mid": 2.74,
+   "large": 27.47
+  },
+  "2019Q4": {
+   "sme": 70.49,
+   "mid": 2.49,
+   "large": 27.02
+  },
+  "2026Q3": {
+   "sme": 69.76,
+   "mid": 1.85,
+   "large": 28.39
+  }
+ },
+ "H1": "外れ",
+ "H2": "支持",
+ "H3": "支持",
+ "H4": "支持",
+ "H4_mfg_share_change_pt": -2.59,
+ "max_abs_residual_oku": 15.0,
+ "R5_jump_2009Q2_pt": 1.09,
+ "R5_adj_last": 17.32,
+ "R5_adj_max_before_2026": {
+  "quarter": "2025Q3",
+  "share": 17.04
+ },
+ "R5_pre2009_max": {
+  "quarter": "2007Q2",
+  "share": 14.62
+ },
+ "R6_steps": {
+  "2004Q1": 1.12,
+  "2006Q3": 1.08,
+  "2009Q2": 1.09
+ },
+ "R6_adj_last": 15.11,
+ "R6_adj_max_before_last": {
+  "quarter": "2026Q2",
+  "share": 14.94
+ },
+ "R6_last_is_max": true,
+ "robustness": [
+  {
+   "check": "R1 起点 2009Q2（銀行勘定）",
+   "realestate_contrib_pct": 24.1,
+   "individual_contrib_pct": 26.0,
+   "mfg_contrib_pct": 6.9,
+   "realestate_share_last_pct": 18.3
+  },
+  {
+   "check": "R1 起点 2013Q1（銀行勘定）",
+   "realestate_contrib_pct": 25.2,
+   "individual_contrib_pct": 23.2,
+   "mfg_contrib_pct": 8.2,
+   "realestate_share_last_pct": 18.3
+  },
+  {
+   "check": "R1 起点 2019Q4（銀行勘定）",
+   "realestate_contrib_pct": 24.0,
+   "individual_contrib_pct": 22.2,
+   "mfg_contrib_pct": 10.4,
+   "realestate_share_last_pct": 18.3
+  },
+  {
+   "check": "R2 3勘定合算（起点 2013Q1）",
+   "realestate_contrib_pct": 25.2,
+   "individual_contrib_pct": 22.2,
+   "mfg_contrib_pct": 8.1,
+   "realestate_share_last_pct": 18.4
+  },
+  {
+   "check": "R3 信用金庫（起点 2013Q1）",
+   "realestate_contrib_pct": 34.4,
+   "individual_contrib_pct": 17.1,
+   "mfg_contrib_pct": -1.6,
+   "realestate_share_last_pct": 23.7
+  },
+  {
+   "check": "R4 国内の非金融の借り手向け（海外・金融を除く、起点 2013Q1）",
+   "realestate_contrib_pct": 29.9,
+   "individual_contrib_pct": 27.5,
+   "mfg_contrib_pct": 9.7,
+   "realestate_share_last_pct": 20.8
+  },
+  {
+   "check": "R5 2009年の分類改定の段差を除く（3勘定合算、不動産業の割合）",
+   "realestate_contrib_pct": NaN,
+   "individual_contrib_pct": NaN,
+   "mfg_contrib_pct": NaN,
+   "realestate_share_last_pct": 17.3
+  },
+  {
+   "check": "R6 1ポイント以上の段差3つ（2004Q1・2006Q3・2009Q2）をすべて除く（3勘定合算、レビューで追加）",
+   "realestate_contrib_pct": NaN,
+   "individual_contrib_pct": NaN,
+   "mfg_contrib_pct": NaN,
+   "realestate_share_last_pct": 15.1
+  }
+ ],
+ "requestion": {
+  "re_level_tn": {
+   "2009Q2": {
+    "large": 6.24,
+    "mid": 0.25,
+    "sme": 55.17,
+    "sum3": 61.66,
+    "all": 61.66
+   },
+   "2013Q1": {
+    "large": 6.2,
+    "mid": 0.15,
+    "sme": 55.36,
+    "sum3": 61.72,
+    "all": 61.72
+   },
+   "2019Q4": {
+    "large": 7.24,
+    "mid": 0.26,
+    "sme": 76.85,
+    "sum3": 84.35,
+    "all": 84.35
+   },
+   "2026Q3": {
+    "large": 12.53,
+    "mid": 0.55,
+    "sme": 109.34,
+    "sum3": 122.43,
+    "all": 122.43
+   }
+  },
+  "re_increase_share_2013": {
+   "sme": 88.9,
+   "mid": 0.7,
+   "large": 10.4
+  },
+  "re_increase_tn_2013": 60.71,
+  "sum3_vs_all_gap_pct_last": -0.0,
+  "sme_re_increase_tn_2013": {
+   "SPC": 10.05,
+   "個人による貸家業": 8.67,
+   "その他": 35.26
+  },
+  "large_re_increase_tn_2013": 6.33,
+  "mid_re_increase_tn_2013": 0.4,
+  "hr_by_size_last_tn": {
+   "sme": 30.14
+  }
+ }
+}

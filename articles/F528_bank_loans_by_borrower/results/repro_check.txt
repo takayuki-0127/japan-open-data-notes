@@ -1,0 +1,1 @@
+2026-11-19 再実行：13 ファイル一致、所要 2 秒（results の CSV・JSON、figures の PNG、02 が作る data の CSV。独立レビューで直したあと /tmp/rvAB_F528 で確認）
