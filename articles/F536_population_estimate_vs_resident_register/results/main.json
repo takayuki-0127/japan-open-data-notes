@@ -1,0 +1,246 @@
+{
+ "age_20_24_n_ge5pct": {
+  "2020": 30,
+  "2024": 23
+ },
+ "age_20_24_n_negative": {
+  "2020": 8,
+  "2024": 9
+ },
+ "age_national_gap_pct": {
+  "2020": {
+   "0-4": 2.683,
+   "10-14": 2.008,
+   "15-19": 0.932,
+   "20-24": 0.992,
+   "25-29": 1.054,
+   "30-34": 1.559,
+   "35-39": 1.769,
+   "40-44": 1.207,
+   "45-49": 0.631,
+   "5-9": 2.24,
+   "50-54": 0.318,
+   "55-59": 0.153,
+   "60-64": -0.118,
+   "65-69": -0.404,
+   "70-74": 0.052,
+   "75-79": -1.494,
+   "80-84": -1.357,
+   "85+": -1.91,
+   "total": 0.499
+  },
+  "2024": {
+   "0-4": 0.858,
+   "10-14": 2.306,
+   "15-19": 1.908,
+   "20-24": 0.947,
+   "25-29": 0.245,
+   "30-34": 1.248,
+   "35-39": 1.822,
+   "40-44": 1.55,
+   "45-49": 1.205,
+   "5-9": 2.711,
+   "50-54": 0.604,
+   "55-59": 0.217,
+   "60-64": 0.175,
+   "65-69": -0.276,
+   "70-74": -0.226,
+   "75-79": -0.237,
+   "80-84": -1.702,
+   "85+": -2.455,
+   "total": 0.538
+  }
+ },
+ "census_revision_2019_national_pct": {
+  "foreign_persons": 230000,
+  "japanese": 0.128,
+  "total": 0.308
+ },
+ "census_revision_2019_persons": {
+  "japanese": 158000,
+  "total": 388000
+ },
+ "census_revision_n_within_1pct": 47,
+ "census_revision_range": [
+  -0.109,
+  0.664
+ ],
+ "hypotheses": {
+  "H1": {
+   "min_gap_pct": 0.479,
+   "rule": "all>0",
+   "supported": true
+  },
+  "H2": {
+   "n": 42,
+   "rule": ">=40",
+   "supported": true
+  },
+  "H3": {
+   "n": 23,
+   "rule": ">=24",
+   "supported": false
+  },
+  "H4": {
+   "n": 47,
+   "rule": ">=40",
+   "supported": true
+  }
+ },
+ "national": {
+  "2014": {
+   "gap_foreign_pct": 22.416,
+   "gap_japanese_pct": 0.531,
+   "gap_noint_total_pct": 0.777,
+   "gap_total": 1041366,
+   "gap_total_pct": 0.818,
+   "juki_oct_total": 128279366,
+   "suikei_total": 127238000
+  },
+  "2015": {
+   "gap_foreign_pct": 20.934,
+   "gap_japanese_pct": 0.511,
+   "gap_noint_total_pct": 0.765,
+   "gap_total": 1012279,
+   "gap_total_pct": 0.796,
+   "juki_oct_total": 128106279,
+   "suikei_total": 127094000
+  },
+  "2016": {
+   "gap_foreign_pct": 15.815,
+   "gap_japanese_pct": 0.472,
+   "gap_noint_total_pct": 0.679,
+   "gap_total": 902867,
+   "gap_total_pct": 0.711,
+   "juki_oct_total": 127946867,
+   "suikei_total": 127044000
+  },
+  "2017": {
+   "gap_foreign_pct": 12.884,
+   "gap_japanese_pct": 0.447,
+   "gap_noint_total_pct": 0.62,
+   "gap_total": 837216,
+   "gap_total_pct": 0.66,
+   "juki_oct_total": 127757216,
+   "suikei_total": 126920000
+  },
+  "2018": {
+   "gap_foreign_pct": 9.458,
+   "gap_japanese_pct": 0.43,
+   "gap_noint_total_pct": 0.549,
+   "gap_total": 761487,
+   "gap_total_pct": 0.601,
+   "juki_oct_total": 127509487,
+   "suikei_total": 126748000
+  },
+  "2019": {
+   "gap_foreign_pct": 5.618,
+   "gap_japanese_pct": 0.411,
+   "gap_noint_total_pct": 0.461,
+   "gap_total": 659416,
+   "gap_total_pct": 0.521,
+   "juki_oct_total": 127214416,
+   "suikei_total": 126555000
+  },
+  "2020": {
+   "gap_foreign_pct": 2.814,
+   "gap_japanese_pct": 0.447,
+   "gap_noint_total_pct": 0.403,
+   "gap_total": 629191,
+   "gap_total_pct": 0.499,
+   "juki_oct_total": 126775191,
+   "suikei_total": 126146000
+  },
+  "2021": {
+   "gap_foreign_pct": 0.447,
+   "gap_japanese_pct": 0.487,
+   "gap_noint_total_pct": 0.341,
+   "gap_total": 609488,
+   "gap_total_pct": 0.486,
+   "juki_oct_total": 126109488,
+   "suikei_total": 125500000
+  },
+  "2022": {
+   "gap_foreign_pct": 0.256,
+   "gap_japanese_pct": 0.484,
+   "gap_noint_total_pct": 0.377,
+   "gap_total": 598633,
+   "gap_total_pct": 0.479,
+   "juki_oct_total": 125544633,
+   "suikei_total": 124946000
+  },
+  "2023": {
+   "gap_foreign_pct": 2.628,
+   "gap_japanese_pct": 0.48,
+   "gap_noint_total_pct": 0.428,
+   "gap_total": 665100,
+   "gap_total_pct": 0.535,
+   "juki_oct_total": 125018100,
+   "suikei_total": 124353000
+  },
+  "2024": {
+   "gap_foreign_pct": 2.307,
+   "gap_japanese_pct": 0.487,
+   "gap_noint_total_pct": 0.426,
+   "gap_total": 666311,
+   "gap_total_pct": 0.538,
+   "juki_oct_total": 124469311,
+   "suikei_total": 123803000
+  }
+ },
+ "national_gap_2019_vs_original_pct": 0.83,
+ "national_gap_2019_vs_revised_pct": 0.521,
+ "pref_2020_gap_range": [
+  -1.69,
+  2.712
+ ],
+ "pref_2020_n_juki_more": 42,
+ "pref_2020_sign_uncertain_by_rounding": 0,
+ "pref_2024_gap_range": [
+  -1.745,
+  2.752
+ ],
+ "pref_2024_n_juki_more": 42,
+ "pref_2024_sign_uncertain_by_rounding": 0,
+ "pref_juki_less": {
+  "2014": [
+   "宮城県",
+   "東京都",
+   "京都府"
+  ],
+  "2020": [
+   "宮城県",
+   "東京都",
+   "神奈川県",
+   "京都府",
+   "福岡県"
+  ],
+  "2024": [
+   "宮城県",
+   "東京都",
+   "神奈川県",
+   "京都府",
+   "福岡県"
+  ]
+ },
+ "region_2020": {
+  "中国": 0.697,
+  "中部": 0.971,
+  "九州・沖縄": 0.987,
+  "北海道": 0.258,
+  "四国": 2.128,
+  "東北": 0.896,
+  "近畿": 0.503,
+  "関東": -0.112
+ },
+ "region_2024": {
+  "中国": 0.743,
+  "中部": 1.015,
+  "九州・沖縄": 1.012,
+  "北海道": 0.28,
+  "四国": 2.231,
+  "東北": 0.912,
+  "近畿": 0.556,
+  "関東": -0.058
+ }
+}

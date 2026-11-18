@@ -1,0 +1,68 @@
+{
+ "2020": {
+  "corr_total_vs_20_24": 0.873,
+  "n_same_sign_young_total": 44,
+  "juki_less_prefs": [
+   "宮城県",
+   "東京都",
+   "神奈川県",
+   "京都府",
+   "福岡県"
+  ],
+  "juki_less_young_share": 0.697,
+  "juki_less_young_persons": -206482,
+  "juki_less_total_persons": -296319
+ },
+ "2024": {
+  "corr_total_vs_20_24": 0.828,
+  "n_same_sign_young_total": 44,
+  "juki_less_prefs": [
+   "宮城県",
+   "東京都",
+   "神奈川県",
+   "京都府",
+   "福岡県"
+  ],
+  "juki_less_young_share": 0.61,
+  "juki_less_young_persons": -173594,
+  "juki_less_total_persons": -284611
+ },
+ "robustness": {
+  "japanese_n_juki_more": {
+   "2014": 41,
+   "2020": 41,
+   "2024": 41
+  },
+  "japanese_juki_less": {
+   "2020": [
+    "宮城県",
+    "東京都",
+    "神奈川県",
+    "京都府",
+    "大阪府",
+    "福岡県"
+   ],
+   "2024": [
+    "宮城県",
+    "東京都",
+    "神奈川県",
+    "京都府",
+    "大阪府",
+    "福岡県"
+   ]
+  },
+  "noint_national_total_pct": {
+   "2014": 0.777,
+   "2015": 0.765,
+   "2016": 0.679,
+   "2017": 0.62,
+   "2018": 0.549,
+   "2019": 0.461,
+   "2020": 0.403,
+   "2021": 0.341,
+   "2022": 0.377,
+   "2023": 0.428,
+   "2024": 0.426
+  }
+ }
+}
