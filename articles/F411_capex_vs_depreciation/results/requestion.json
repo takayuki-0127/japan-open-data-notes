@@ -1,0 +1,281 @@
+{
+ "all_A": {
+  "1974_1990": {
+   "stock_growth_pct_mean": 9.592499,
+   "net_over_stock_pct_mean": 11.243142
+  },
+  "1991_2001": {
+   "stock_growth_pct_mean": 3.317125,
+   "net_over_stock_pct_mean": 4.897693
+  },
+  "2002_2012": {
+   "stock_growth_pct_mean": -1.69458,
+   "net_over_stock_pct_mean": 0.647661
+  },
+  "2013_2025": {
+   "stock_growth_pct_mean": 2.04259,
+   "net_over_stock_pct_mean": 2.836319
+  },
+  "stock_1990_tril": 212.009451,
+  "stock_1998_tril": 318.404381,
+  "stock_2012_tril": 245.778061,
+  "stock_peak_fy": 1998,
+  "stock_peak_tril": 318.404381,
+  "stock_min_after_peak_fy": 2013,
+  "stock_min_after_peak_tril": 238.192505,
+  "stock_2002_tril": 294.507993,
+  "stock_2025_tril": 318.240152,
+  "stock_change_2002_2025_tril": 23.732159,
+  "cum_net_exsw_2003_2025_tril": 123.203094,
+  "stock_growth_2002_2025_pct": 8.058239,
+  "n_years_stock_down_2002_2025": 11
+ },
+ "all_B": {
+  "1974_1990": {
+   "stock_growth_pct_mean": 9.071092,
+   "net_over_stock_pct_mean": 11.136283
+  },
+  "1991_2001": {
+   "stock_growth_pct_mean": 2.49759,
+   "net_over_stock_pct_mean": 5.172603
+  },
+  "2002_2012": {
+   "stock_growth_pct_mean": -1.572493,
+   "net_over_stock_pct_mean": 0.680704
+  },
+  "2013_2025": {
+   "stock_growth_pct_mean": 2.128273,
+   "net_over_stock_pct_mean": 3.343206
+  },
+  "stock_1990_tril": 122.5024,
+  "stock_1998_tril": 164.594266,
+  "stock_2012_tril": 133.236549,
+  "stock_peak_fy": 2025,
+  "stock_peak_tril": 174.571265,
+  "stock_min_after_peak_fy": 2025,
+  "stock_min_after_peak_tril": 174.571265,
+  "stock_2002_tril": 155.333305,
+  "stock_2025_tril": 174.571265,
+  "stock_change_2002_2025_tril": 19.23796,
+  "cum_net_exsw_2003_2025_tril": 76.404679,
+  "stock_growth_2002_2025_pct": 12.384955,
+  "n_years_stock_down_2002_2025": 9
+ },
+ "all_D": {
+  "1974_1990": {
+   "stock_growth_pct_mean": 11.897952,
+   "net_over_stock_pct_mean": 10.399407
+  },
+  "1991_2001": {
+   "stock_growth_pct_mean": 5.658537,
+   "net_over_stock_pct_mean": 4.016814
+  },
+  "2002_2012": {
+   "stock_growth_pct_mean": -1.898193,
+   "net_over_stock_pct_mean": 0.348687
+  },
+  "2013_2025": {
+   "stock_growth_pct_mean": 1.113178,
+   "net_over_stock_pct_mean": 1.397068
+  },
+  "stock_1990_tril": 60.599871,
+  "stock_1998_tril": 115.487451,
+  "stock_2012_tril": 82.034165,
+  "stock_peak_fy": 1998,
+  "stock_peak_tril": 115.487451,
+  "stock_min_after_peak_fy": 2013,
+  "stock_min_after_peak_tril": 79.206628,
+  "stock_2002_tril": 106.103032,
+  "stock_2025_tril": 92.996464,
+  "stock_change_2002_2025_tril": -13.106568,
+  "cum_net_exsw_2003_2025_tril": 20.243327,
+  "stock_growth_2002_2025_pct": -12.35268,
+  "n_years_stock_down_2002_2025": 11
+ },
+ "mfg_A": {
+  "1974_1990": {
+   "stock_growth_pct_mean": 7.145653,
+   "net_over_stock_pct_mean": 10.152227
+  },
+  "1991_2001": {
+   "stock_growth_pct_mean": 1.107589,
+   "net_over_stock_pct_mean": 4.159732
+  },
+  "2002_2012": {
+   "stock_growth_pct_mean": -1.598063,
+   "net_over_stock_pct_mean": 0.707217
+  },
+  "2013_2025": {
+   "stock_growth_pct_mean": 2.466564,
+   "net_over_stock_pct_mean": 3.187836
+  },
+  "stock_1990_tril": 71.315756,
+  "stock_1998_tril": 87.039865,
+  "stock_2012_tril": 66.353337,
+  "stock_peak_fy": 2025,
+  "stock_peak_tril": 90.789353,
+  "stock_min_after_peak_fy": 2025,
+  "stock_min_after_peak_tril": 90.789353,
+  "stock_2002_tril": 77.032177,
+  "stock_2025_tril": 90.789353,
+  "stock_change_2002_2025_tril": 13.757176,
+  "cum_net_exsw_2003_2025_tril": 38.013819,
+  "stock_growth_2002_2025_pct": 17.858999,
+  "n_years_stock_down_2002_2025": 9
+ },
+ "mfg_B": {
+  "1974_1990": {
+   "stock_growth_pct_mean": 6.45079,
+   "net_over_stock_pct_mean": 9.785428
+  },
+  "1991_2001": {
+   "stock_growth_pct_mean": 1.16904,
+   "net_over_stock_pct_mean": 4.483919
+  },
+  "2002_2012": {
+   "stock_growth_pct_mean": -1.712831,
+   "net_over_stock_pct_mean": 0.455707
+  },
+  "2013_2025": {
+   "stock_growth_pct_mean": 2.522481,
+   "net_over_stock_pct_mean": 3.222114
+  },
+  "stock_1990_tril": 43.537912,
+  "stock_1998_tril": 52.466988,
+  "stock_2012_tril": 40.264025,
+  "stock_peak_fy": 2025,
+  "stock_peak_tril": 55.306964,
+  "stock_min_after_peak_fy": 2025,
+  "stock_min_after_peak_tril": 55.306964,
+  "stock_2002_tril": 46.302771,
+  "stock_2025_tril": 55.306964,
+  "stock_change_2002_2025_tril": 9.004193,
+  "cum_net_exsw_2003_2025_tril": 21.526188,
+  "stock_growth_2002_2025_pct": 19.446337,
+  "n_years_stock_down_2002_2025": 8
+ },
+ "mfg_D": {
+  "1974_1990": {
+   "stock_growth_pct_mean": 9.964785,
+   "net_over_stock_pct_mean": 10.284536
+  },
+  "1991_2001": {
+   "stock_growth_pct_mean": 1.746787,
+   "net_over_stock_pct_mean": 3.185651
+  },
+  "2002_2012": {
+   "stock_growth_pct_mean": -1.44572,
+   "net_over_stock_pct_mean": 0.680706
+  },
+  "2013_2025": {
+   "stock_growth_pct_mean": 1.356447,
+   "net_over_stock_pct_mean": 1.876809
+  },
+  "stock_1990_tril": 17.99859,
+  "stock_1998_tril": 23.595093,
+  "stock_2012_tril": 17.153519,
+  "stock_peak_fy": 2007,
+  "stock_peak_tril": 24.786484,
+  "stock_min_after_peak_fy": 2012,
+  "stock_min_after_peak_tril": 17.153519,
+  "stock_2002_tril": 20.742153,
+  "stock_2025_tril": 20.261807,
+  "stock_change_2002_2025_tril": -0.480346,
+  "cum_net_exsw_2003_2025_tril": 6.324044,
+  "stock_growth_2002_2025_pct": -2.315796,
+  "n_years_stock_down_2002_2025": 12
+ },
+ "nonmfg_A": {
+  "1974_1990": {
+   "stock_growth_pct_mean": 11.401138,
+   "net_over_stock_pct_mean": 12.117282
+  },
+  "1991_2001": {
+   "stock_growth_pct_mean": 4.322604,
+   "net_over_stock_pct_mean": 5.215027
+  },
+  "2002_2012": {
+   "stock_growth_pct_mean": -1.650619,
+   "net_over_stock_pct_mean": 0.662002
+  },
+  "2013_2025": {
+   "stock_growth_pct_mean": 1.892617,
+   "net_over_stock_pct_mean": 2.706125
+  },
+  "stock_1990_tril": 140.693695,
+  "stock_1998_tril": 231.364516,
+  "stock_2012_tril": 179.424724,
+  "stock_peak_fy": 1998,
+  "stock_peak_tril": 231.364516,
+  "stock_min_after_peak_fy": 2013,
+  "stock_min_after_peak_tril": 172.902054,
+  "stock_2002_tril": 217.475816,
+  "stock_2025_tril": 227.450799,
+  "stock_change_2002_2025_tril": 9.974983,
+  "cum_net_exsw_2003_2025_tril": 85.189275,
+  "stock_growth_2002_2025_pct": 4.586709,
+  "n_years_stock_down_2002_2025": 10
+ },
+ "nonmfg_B": {
+  "1974_1990": {
+   "stock_growth_pct_mean": 11.283039,
+   "net_over_stock_pct_mean": 12.561877
+  },
+  "1991_2001": {
+   "stock_growth_pct_mean": 3.166494,
+   "net_over_stock_pct_mean": 5.516385
+  },
+  "2002_2012": {
+   "stock_growth_pct_mean": -1.440055,
+   "net_over_stock_pct_mean": 0.871356
+  },
+  "2013_2025": {
+   "stock_growth_pct_mean": 1.961373,
+   "net_over_stock_pct_mean": 3.393043
+  },
+  "stock_1990_tril": 78.964488,
+  "stock_1998_tril": 112.127278,
+  "stock_2012_tril": 92.972524,
+  "stock_peak_fy": 2025,
+  "stock_peak_tril": 119.264301,
+  "stock_min_after_peak_fy": 2025,
+  "stock_min_after_peak_tril": 119.264301,
+  "stock_2002_tril": 109.030534,
+  "stock_2025_tril": 119.264301,
+  "stock_change_2002_2025_tril": 10.233767,
+  "cum_net_exsw_2003_2025_tril": 54.878491,
+  "stock_growth_2002_2025_pct": 9.386148,
+  "n_years_stock_down_2002_2025": 7
+ },
+ "nonmfg_D": {
+  "1974_1990": {
+   "stock_growth_pct_mean": 13.096249,
+   "net_over_stock_pct_mean": 10.488378
+  },
+  "1991_2001": {
+   "stock_growth_pct_mean": 7.198562,
+   "net_over_stock_pct_mean": 4.275651
+  },
+  "2002_2012": {
+   "stock_growth_pct_mean": -1.668279,
+   "net_over_stock_pct_mean": 0.261716
+  },
+  "2013_2025": {
+   "stock_growth_pct_mean": 1.128326,
+   "net_over_stock_pct_mean": 1.270609
+  },
+  "stock_1990_tril": 42.601281,
+  "stock_1998_tril": 91.892358,
+  "stock_2012_tril": 64.880646,
+  "stock_peak_fy": 1998,
+  "stock_peak_tril": 91.892358,
+  "stock_min_after_peak_fy": 2013,
+  "stock_min_after_peak_tril": 61.08384,
+  "stock_2002_tril": 85.360879,
+  "stock_2025_tril": 72.734657,
+  "stock_change_2002_2025_tril": -12.626222,
+  "cum_net_exsw_2003_2025_tril": 13.919283,
+  "stock_growth_2002_2025_pct": -14.791579,
+  "n_years_stock_down_2002_2025": 11
+ }
+}

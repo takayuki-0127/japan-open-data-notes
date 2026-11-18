@@ -1,0 +1,1 @@
+2026-11-18 再実行（独立レビュー、直したあと）：14 ファイル一致（results 8、figures 4、data 2。repro_check.txt・selfcheck.md・review.md は比較から外した）、所要 4 秒（/tmp/rv_F411 で、results・figures・data の生成物を消してから sh src/run_all.sh）
