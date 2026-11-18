@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 404本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 409本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,22 +10,22 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 130 |
+| 予測・時系列 | 131 |
 | 因果推論・効果検証 | 61 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 290 |
+| 統計の考え方（検定・区間・回帰） | 291 |
 | 機械学習・モデル評価 | 103 |
 | 顧客分析・生存分析 | 64 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 139 |
+| 集計の定義・KPI | 140 |
 | 可視化・報告・BI | 41 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 240 |
+| その他（記述・要因分解など） | 244 |
 
-<details><summary><b>予測・時系列</b>（130本）</summary>
+<details><summary><b>予測・時系列</b>（131本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -110,6 +110,7 @@
 | F433 | キャベツなど野菜の値段は、天気でどこまで決まるのか？ | [F433_vegetable_price_weather](articles/F433_vegetable_price_weather) |
 | F435 | 「生鮮食品を除く」と「生鮮食品とエネルギーを除く」は、物価の流れをどれだけ違って見せるのか？ | [F435_core_vs_corecore_cpi](articles/F435_core_vs_corecore_cpi) |
 | F437 | ホテル・旅館の宿泊料の上がり方は、訪日客の多さと関係があるのか？ | [F437_lodging_price_inbound](articles/F437_lodging_price_inbound) |
+| F445 | 航空貨物は、旅客便が減った時期にどれだけ落ちたのか？ | [F445_air_cargo_passenger_flights](articles/F445_air_cargo_passenger_flights) |
 | F450 | トラックの運賃は、2024年問題の前後で上がったのか？ | [F450_truck_freight_rates_2024](articles/F450_truck_freight_rates_2024) |
 | F452 | 引っ越しの3〜4月への集中は、弱まっているのか？ | [F452_moving_season_concentration](articles/F452_moving_season_concentration) |
 | F462 | 日本人の旅行は、お盆と年末年始への集中が弱まったのか？ | [F462_domestic_travel_peak_concentration](articles/F462_domestic_travel_peak_concentration) |
@@ -264,7 +265,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（290本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（291本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -443,6 +444,7 @@
 | F433 | キャベツなど野菜の値段は、天気でどこまで決まるのか？ | [F433_vegetable_price_weather](articles/F433_vegetable_price_weather) |
 | F434 | 企業向けサービスの値段は、人件費の割合が高い業種ほど上がったのか？ | [F434_sppi_labor_cost_share](articles/F434_sppi_labor_cost_share) |
 | F437 | ホテル・旅館の宿泊料の上がり方は、訪日客の多さと関係があるのか？ | [F437_lodging_price_inbound](articles/F437_lodging_price_inbound) |
+| F445 | 航空貨物は、旅客便が減った時期にどれだけ落ちたのか？ | [F445_air_cargo_passenger_flights](articles/F445_air_cargo_passenger_flights) |
 | F457 | 家庭の灯油の購入量は、どれだけ減ったのか？ | [F457_kerosene_household](articles/F457_kerosene_household) |
 | F460 | 企業の女性の管理職の割合は、規模でどう違うのか？ | [F460_female_managers_by_size](articles/F460_female_managers_by_size) |
 | F479 | 太陽光の発電を止める「出力制御」は、どの季節・時間に増えたのか？ | [F479_solar_curtailment_timing](articles/F479_solar_curtailment_timing) |
@@ -861,7 +863,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（139本）</summary>
+<details><summary><b>集計の定義・KPI</b>（140本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -946,6 +948,7 @@
 | F431 | 「サービスの値段は上がりにくい」は本当か？ | [F431_services_price_sticky](articles/F431_services_price_sticky) |
 | F435 | 「生鮮食品を除く」と「生鮮食品とエネルギーを除く」は、物価の流れをどれだけ違って見せるのか？ | [F435_core_vs_corecore_cpi](articles/F435_core_vs_corecore_cpi) |
 | F439 | テレビやパソコンの値段は、品質の向上を差し引くとどれだけ下がって見えるのか？ | [F439_quality_adjusted_electronics](articles/F439_quality_adjusted_electronics) |
+| F441 | GDP デフレーターと消費者物価は、なぜ違う動きをするのか？ | [F441_gdp_deflator_vs_cpi](articles/F441_gdp_deflator_vs_cpi) |
 | F463 | 出張などビジネスの宿泊は、コロナ前に戻ったのか？ | [F463_business_stays_recovery](articles/F463_business_stays_recovery) |
 | 149 | 川や海に比べて、湖だけ環境基準の達成率が低いのはなぜか？ | [149_lake_water_quality](articles/149_lake_water_quality) |
 | 241 | 公的データを使って困ったことは何だったか？ | [241_public_data_troubles](articles/241_public_data_troubles) |
@@ -1259,7 +1262,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（240本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（244本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1338,6 +1341,10 @@
 | F438 | 企業の研修（OFF-JT）の費用は、増えたのか？ | [F438_offjt_spending_by_firm_size](articles/F438_offjt_spending_by_firm_size) |
 | F439 | テレビやパソコンの値段は、品質の向上を差し引くとどれだけ下がって見えるのか？ | [F439_quality_adjusted_electronics](articles/F439_quality_adjusted_electronics) |
 | F440 | 幼児教育と高校の無償化で、消費者物価はどれだけ下がったのか？ | [F440_free_education_cpi](articles/F440_free_education_cpi) |
+| F441 | GDP デフレーターと消費者物価は、なぜ違う動きをするのか？ | [F441_gdp_deflator_vs_cpi](articles/F441_gdp_deflator_vs_cpi) |
+| F442 | 鉄道の運賃は、何十年も上がっていなかったのか？ | [F442_rail_fares_cpi_long](articles/F442_rail_fares_cpi_long) |
+| F443 | 「トラックの積載率は4割を切った」は、どの運び方で起きているのか？ | [F443_truck_load_efficiency](articles/F443_truck_load_efficiency) |
+| F444 | トラックから船・鉄道への切り替え（モーダルシフト）は、進んでいるのか？ | [F444_modal_shift_share](articles/F444_modal_shift_share) |
 | F449 | トラック運転手の賃金は、時間あたりで全産業とどれだけ差があり、縮まっているのか？ | [F449_truck_driver_wage_gap](articles/F449_truck_driver_wage_gap) |
 | F450 | トラックの運賃は、2024年問題の前後で上がったのか？ | [F450_truck_freight_rates_2024](articles/F450_truck_freight_rates_2024) |
 | F451 | 自家用車の1台あたりの走行距離と燃料は、どれだけ減ったのか？ | [F451_private_car_km_fuel](articles/F451_private_car_km_fuel) |
@@ -1518,7 +1525,7 @@
 | 業務の集計・報告 | 126 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 380 |
+| 公的統計・地域・人口 | 385 |
 
 <details><summary><b>小売・店舗</b>（164本）</summary>
 
@@ -2080,7 +2087,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（380本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（385本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2391,6 +2398,11 @@
 | F438 | 企業の研修（OFF-JT）の費用は、増えたのか？ | [F438_offjt_spending_by_firm_size](articles/F438_offjt_spending_by_firm_size) |
 | F439 | テレビやパソコンの値段は、品質の向上を差し引くとどれだけ下がって見えるのか？ | [F439_quality_adjusted_electronics](articles/F439_quality_adjusted_electronics) |
 | F440 | 幼児教育と高校の無償化で、消費者物価はどれだけ下がったのか？ | [F440_free_education_cpi](articles/F440_free_education_cpi) |
+| F441 | GDP デフレーターと消費者物価は、なぜ違う動きをするのか？ | [F441_gdp_deflator_vs_cpi](articles/F441_gdp_deflator_vs_cpi) |
+| F442 | 鉄道の運賃は、何十年も上がっていなかったのか？ | [F442_rail_fares_cpi_long](articles/F442_rail_fares_cpi_long) |
+| F443 | 「トラックの積載率は4割を切った」は、どの運び方で起きているのか？ | [F443_truck_load_efficiency](articles/F443_truck_load_efficiency) |
+| F444 | トラックから船・鉄道への切り替え（モーダルシフト）は、進んでいるのか？ | [F444_modal_shift_share](articles/F444_modal_shift_share) |
+| F445 | 航空貨物は、旅客便が減った時期にどれだけ落ちたのか？ | [F445_air_cargo_passenger_flights](articles/F445_air_cargo_passenger_flights) |
 | F449 | トラック運転手の賃金は、時間あたりで全産業とどれだけ差があり、縮まっているのか？ | [F449_truck_driver_wage_gap](articles/F449_truck_driver_wage_gap) |
 | F450 | トラックの運賃は、2024年問題の前後で上がったのか？ | [F450_truck_freight_rates_2024](articles/F450_truck_freight_rates_2024) |
 | F451 | 自家用車の1台あたりの走行距離と燃料は、どれだけ減ったのか？ | [F451_private_car_km_fuel](articles/F451_private_car_km_fuel) |
