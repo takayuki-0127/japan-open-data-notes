@@ -1,0 +1,10 @@
+{
+ "diff_mean_2006_2015_approx": 0.052,
+ "diff_mean_2016_2025": 0.016,
+ "actual_mean_2006_2015_approx": -0.041,
+ "actual_mean_2016_2025": 0.001,
+ "diff_max_year": 2011,
+ "diff_max": 0.098,
+ "diff_min_year": 2016,
+ "diff_min": -0.032
+}

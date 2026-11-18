@@ -1,0 +1,1 @@
+2026-11-18 再実行：13 ファイル一致、所要 6 秒（独立レビュー：図4を直したあと /tmp/rv_F418 に写し、data/t2_long.csv・data/official_table6.csv と results・figures を消して sh src/run_all.sh。results の CSV・JSON、figures の PNG、data の中間ファイル2本を cmp で比較。data/kekka_*.txt は 01_fetch.py が作る入力なので残す）
