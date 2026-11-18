@@ -1,0 +1,98 @@
+{
+ "april_mom": {
+  "202304": {
+   "jr_regular": 0.72,
+   "jr_commuter": 3.17,
+   "jr_school": 0.0,
+   "pr_regular": 4.89,
+   "pr_commuter": 7.39,
+   "pr_school": 1.1
+  },
+  "202404": {
+   "jr_regular": 0.1,
+   "jr_commuter": 0.2,
+   "jr_school": 0.0,
+   "pr_regular": 0.51,
+   "pr_commuter": 0.5,
+   "pr_school": 0.0
+  },
+  "202504": {
+   "jr_regular": 1.21,
+   "jr_commuter": 1.93,
+   "jr_school": 1.52,
+   "pr_regular": 0.1,
+   "pr_commuter": 0.1,
+   "pr_school": -3.13
+  },
+  "202604": {
+   "jr_regular": 4.39,
+   "jr_commuter": 9.45,
+   "jr_school": 2.49,
+   "pr_regular": 0.7,
+   "pr_commuter": 1.49,
+   "pr_school": -0.7
+  }
+ },
+ "cum_202302_202609": {
+  "jr_regular": 7.06,
+  "jr_commuter": 16.16,
+  "jr_school": 5.11,
+  "pr_regular": 7.65,
+  "pr_commuter": 10.98,
+  "pr_school": -1.3
+ },
+ "months_moved_since_202303": {
+  "jr_regular": [
+   202304,
+   202504,
+   202604
+  ],
+  "jr_commuter": [
+   202304,
+   202501,
+   202504,
+   202604
+  ],
+  "jr_school": [
+   202501,
+   202504,
+   202604
+  ],
+  "pr_regular": [
+   202304,
+   202404,
+   202604
+  ],
+  "pr_commuter": [
+   202304,
+   202404,
+   202510,
+   202604
+  ],
+  "pr_school": [
+   202304,
+   202501,
+   202504,
+   202510,
+   202604
+  ]
+ },
+ "march_mom_2023_2026": {
+  "202303": {
+   "jr_regular": 0.0,
+   "jr_commuter": 0.0,
+   "jr_school": 0.0,
+   "pr_regular": 0.0,
+   "pr_commuter": 0.0,
+   "pr_school": 0.0
+  },
+  "202603": {
+   "jr_regular": 0.0,
+   "jr_commuter": 0.0,
+   "jr_school": 0.0,
+   "pr_regular": 0.0,
+   "pr_commuter": 0.0,
+   "pr_school": 0.0
+  }
+ }
+}

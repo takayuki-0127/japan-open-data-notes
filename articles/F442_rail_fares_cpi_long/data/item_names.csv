@@ -1,0 +1,14 @@
+key,name
+all_items,総合
+jr_class,鉄道運賃（ＪＲ）
+jr_regular,普通運賃（ＪＲ）
+jr_school,通学定期（ＪＲ）
+jr_commuter,通勤定期（ＪＲ）
+pr_class,鉄道運賃（ＪＲ以外）
+pr_regular,普通運賃（ＪＲ以外）
+pr_school,通学定期（ＪＲ以外）
+pr_commuter,通勤定期（ＪＲ以外）
+bus,一般路線バス代
+taxi,タクシー代
+services,サービス
+public_services,公共サービス

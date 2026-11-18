@@ -1,0 +1,4 @@
+再現の確認（2026-11-18）
+手順：記事のフォルダを /tmp/rep_F445 に写し、results の CSV・JSON、figures の PNG、data/ 直下の CSV（02 以降が作るもの）を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。
+2026-11-18 再実行：13 ファイル一致（results 7、figures 4、data 2）、所要 4 秒。ネットにはつながない。
+2026-11-18 独立レビューで再実行（/tmp/rv_F445_air_cargo_passenger_flights、生成物を消してから）：13 ファイル一致（results 7、figures 4、data 2）、所要 4 秒。レビューで直したのは文章（README・note・題名）だけ。

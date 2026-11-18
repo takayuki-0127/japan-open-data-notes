@@ -1,0 +1,648 @@
+{
+ "hypotheses": {
+  "H1": {
+   "up_months": [
+    201404,
+    201910
+   ],
+   "non_tax_up_months": [],
+   "result": "支持"
+  },
+  "H2": {
+   "taxex_change_199704_202302": 0.38,
+   "result": "支持"
+  },
+  "H3": {
+   "mom_202603": 0.0,
+   "result": "外れ"
+  },
+  "H4": {
+   "jr_taxex_199704_202609": 7.46,
+   "pr_taxex_199704_202609": 10.51,
+   "result": "支持"
+  }
+ },
+ "events_mom": {
+  "198904": {
+   "jr_regular": 2.75,
+   "jr_commuter": 2.94,
+   "jr_school": 3.0,
+   "pr_regular": 2.62,
+   "pr_commuter": 2.88,
+   "pr_school": 3.17,
+   "bus": 1.08,
+   "taxi": 2.22,
+   "services": 2.06
+  },
+  "199704": {
+   "jr_regular": 1.86,
+   "jr_commuter": 1.92,
+   "jr_school": 1.98,
+   "pr_regular": 1.63,
+   "pr_commuter": 1.67,
+   "pr_school": 1.76,
+   "bus": 1.91,
+   "taxi": 1.95,
+   "services": 1.51
+  },
+  "201404": {
+   "jr_regular": 2.8,
+   "jr_commuter": 2.77,
+   "jr_school": 2.8,
+   "pr_regular": 2.26,
+   "pr_commuter": 2.27,
+   "pr_school": 2.4,
+   "bus": 3.28,
+   "taxi": 2.94,
+   "services": 1.37
+  },
+  "201910": {
+   "jr_regular": 2.3,
+   "jr_commuter": 2.05,
+   "jr_school": 2.84,
+   "pr_regular": 2.29,
+   "pr_commuter": 1.88,
+   "pr_school": 1.73,
+   "bus": 1.74,
+   "taxi": 2.08,
+   "services": -0.1
+  },
+  "202303": {
+   "jr_regular": 0.0,
+   "jr_commuter": 0.0,
+   "jr_school": 0.0,
+   "pr_regular": 0.0,
+   "pr_commuter": 0.0,
+   "pr_school": 0.0,
+   "bus": 0.34,
+   "taxi": 0.11,
+   "services": 0.31
+  },
+  "202603": {
+   "jr_regular": 0.0,
+   "jr_commuter": 0.0,
+   "jr_school": 0.0,
+   "pr_regular": 0.0,
+   "pr_commuter": 0.0,
+   "pr_school": 0.0,
+   "bus": 0.1,
+   "taxi": 0.1,
+   "services": 0.3
+  }
+ },
+ "span_changes": {
+  "198704-202602|jr_regular": {
+   "with_tax": 14.89,
+   "tax_excluded": 4.45,
+   "tax_month_removed": 4.39
+  },
+  "198704-202602|jr_commuter": {
+   "with_tax": 18.37,
+   "tax_excluded": 7.61,
+   "tax_month_removed": 7.58
+  },
+  "198704-202602|pr_regular": {
+   "with_tax": 55.33,
+   "tax_excluded": 41.21,
+   "tax_month_removed": 42.39
+  },
+  "198704-202602|pr_commuter": {
+   "with_tax": 71.79,
+   "tax_excluded": 56.18,
+   "tax_month_removed": 57.62
+  },
+  "198704-202602|bus": {
+   "with_tax": 60.35,
+   "tax_excluded": 45.77,
+   "tax_month_removed": 48.13
+  },
+  "198704-202602|taxi": {
+   "with_tax": 90.15,
+   "tax_excluded": 72.86,
+   "tax_month_removed": 73.64
+  },
+  "198704-202602|services": {
+   "with_tax": 33.03,
+   "tax_excluded": 20.93,
+   "tax_month_removed": 26.79
+  },
+  "198704-202602|all_items": {
+   "with_tax": 32.54,
+   "tax_excluded": 20.49,
+   "tax_month_removed": 24.57
+  },
+  "199704-202602|jr_regular": {
+   "with_tax": 7.85,
+   "tax_excluded": 2.95,
+   "tax_month_removed": 2.56
+  },
+  "199704-202602|jr_commuter": {
+   "with_tax": 11.42,
+   "tax_excluded": 6.35,
+   "tax_month_removed": 6.24
+  },
+  "199704-202602|pr_regular": {
+   "with_tax": 14.86,
+   "tax_excluded": 9.64,
+   "tax_month_removed": 9.81
+  },
+  "199704-202602|pr_commuter": {
+   "with_tax": 17.68,
+   "tax_excluded": 12.33,
+   "tax_month_removed": 12.94
+  },
+  "199704-202602|bus": {
+   "with_tax": 26.88,
+   "tax_excluded": 21.11,
+   "tax_month_removed": 20.73
+  },
+  "199704-202602|taxi": {
+   "with_tax": 39.75,
+   "tax_excluded": 33.4,
+   "tax_month_removed": 33.0
+  },
+  "199704-202602|services": {
+   "with_tax": 7.13,
+   "tax_excluded": 2.26,
+   "tax_month_removed": 5.79
+  },
+  "199704-202602|all_items": {
+   "with_tax": 14.51,
+   "tax_excluded": 9.31,
+   "tax_month_removed": 11.78
+  },
+  "199704-202609|jr_regular": {
+   "with_tax": 12.58,
+   "tax_excluded": 7.46,
+   "tax_month_removed": 7.06
+  },
+  "199704-202609|jr_commuter": {
+   "with_tax": 21.95,
+   "tax_excluded": 16.41,
+   "tax_month_removed": 16.28
+  },
+  "199704-202609|pr_regular": {
+   "with_tax": 15.77,
+   "tax_excluded": 10.51,
+   "tax_month_removed": 10.68
+  },
+  "199704-202609|pr_commuter": {
+   "with_tax": 19.56,
+   "tax_excluded": 14.12,
+   "tax_month_removed": 14.74
+  },
+  "199704-202609|bus": {
+   "with_tax": 29.12,
+   "tax_excluded": 23.26,
+   "tax_month_removed": 22.88
+  },
+  "199704-202609|taxi": {
+   "with_tax": 48.77,
+   "tax_excluded": 42.01,
+   "tax_month_removed": 41.58
+  },
+  "199704-202609|services": {
+   "with_tax": 8.19,
+   "tax_excluded": 3.27,
+   "tax_month_removed": 6.84
+  },
+  "199704-202609|all_items": {
+   "with_tax": 16.8,
+   "tax_excluded": 11.49,
+   "tax_month_removed": 14.01
+  },
+  "198704-202609|jr_regular": {
+   "with_tax": 19.93,
+   "tax_excluded": 9.03,
+   "tax_month_removed": 8.96
+  },
+  "198704-202609|jr_commuter": {
+   "with_tax": 29.56,
+   "tax_excluded": 17.79,
+   "tax_month_removed": 17.75
+  },
+  "198704-202609|pr_regular": {
+   "with_tax": 56.57,
+   "tax_excluded": 42.34,
+   "tax_month_removed": 43.53
+  },
+  "198704-202609|pr_commuter": {
+   "with_tax": 74.53,
+   "tax_excluded": 58.66,
+   "tax_month_removed": 60.13
+  },
+  "198704-202609|bus": {
+   "with_tax": 63.19,
+   "tax_excluded": 48.36,
+   "tax_month_removed": 50.76
+  },
+  "198704-202609|taxi": {
+   "with_tax": 102.42,
+   "tax_excluded": 84.01,
+   "tax_month_removed": 84.85
+  },
+  "198704-202609|services": {
+   "with_tax": 34.35,
+   "tax_excluded": 22.13,
+   "tax_month_removed": 28.05
+  },
+  "198704-202609|all_items": {
+   "with_tax": 35.19,
+   "tax_excluded": 22.9,
+   "tax_month_removed": 27.06
+  },
+  "202202-202609|jr_regular": {
+   "with_tax": 7.06,
+   "tax_excluded": 7.06,
+   "tax_month_removed": 7.06
+  },
+  "202202-202609|jr_commuter": {
+   "with_tax": 16.16,
+   "tax_excluded": 16.16,
+   "tax_month_removed": 16.16
+  },
+  "202202-202609|pr_regular": {
+   "with_tax": 7.65,
+   "tax_excluded": 7.65,
+   "tax_month_removed": 7.65
+  },
+  "202202-202609|pr_commuter": {
+   "with_tax": 10.98,
+   "tax_excluded": 10.98,
+   "tax_month_removed": 10.98
+  },
+  "202202-202609|bus": {
+   "with_tax": 16.07,
+   "tax_excluded": 16.07,
+   "tax_month_removed": 16.07
+  },
+  "202202-202609|taxi": {
+   "with_tax": 22.64,
+   "tax_excluded": 22.64,
+   "tax_month_removed": 22.64
+  },
+  "202202-202609|services": {
+   "with_tax": 7.39,
+   "tax_excluded": 7.39,
+   "tax_month_removed": 7.39
+  },
+  "202202-202609|all_items": {
+   "with_tax": 13.56,
+   "tax_excluded": 13.56,
+   "tax_month_removed": 13.56
+  }
+ },
+ "annual_cy_changes": {
+  "1975-1987": {
+   "jr_regular": 204.2,
+   "pr_regular": 113.6,
+   "bus": 170.5,
+   "taxi": 75.9,
+   "services": 87.4,
+   "all_items": 59.1
+  },
+  "1987-1997": {
+   "jr_regular": 6.0,
+   "pr_regular": 33.0,
+   "bus": 26.4,
+   "taxi": 35.0,
+   "services": 24.0,
+   "all_items": 15.8
+  },
+  "1997-2025": {
+   "jr_regular": 8.1,
+   "pr_regular": 14.3,
+   "bus": 25.0,
+   "taxi": 37.2,
+   "services": 6.3,
+   "all_items": 14.5
+  },
+  "1987-2025": {
+   "jr_regular": 14.5,
+   "pr_regular": 52.0,
+   "bus": 58.0,
+   "taxi": 85.2,
+   "services": 31.8,
+   "all_items": 32.6
+  }
+ },
+ "longest_flat_months": {
+  "jr_regular": {
+   "months": 326,
+   "ended": 202303
+  },
+  "jr_commuter": {
+   "months": 326,
+   "ended": 202303
+  },
+  "pr_regular": {
+   "months": 230,
+   "ended": 201609
+  },
+  "bus": {
+   "months": 284,
+   "ended": 202106
+  },
+  "taxi": {
+   "months": 144,
+   "ended": 202001
+  }
+ },
+ "levels_2026": {
+  "jr_regular": {
+   "202602": 100.3,
+   "202603": 100.3,
+   "202609": 104.7
+  },
+  "jr_commuter": {
+   "202602": 100.5,
+   "202603": 100.5,
+   "202609": 110.0
+  },
+  "jr_school": {
+   "202602": 100.4,
+   "202603": 100.4,
+   "202609": 102.9
+  },
+  "pr_regular": {
+   "202602": 100.5,
+   "202603": 100.5,
+   "202609": 101.3
+  }
+ },
+ "n_change_months_jr_regular_197502_202609": 17,
+ "jr_regular_change_months_all": [
+  [
+   197611,
+   54.355,
+   false
+  ],
+  [
+   197807,
+   18.51,
+   false
+  ],
+  [
+   197906,
+   12.19,
+   false
+  ],
+  [
+   198005,
+   5.603,
+   false
+  ],
+  [
+   198105,
+   9.646,
+   false
+  ],
+  [
+   198205,
+   6.745,
+   false
+  ],
+  [
+   198405,
+   8.654,
+   false
+  ],
+  [
+   198505,
+   4.93,
+   false
+  ],
+  [
+   198609,
+   5.181,
+   false
+  ],
+  [
+   198904,
+   2.749,
+   true
+  ],
+  [
+   199601,
+   1.784,
+   false
+  ],
+  [
+   199704,
+   1.862,
+   true
+  ],
+  [
+   201404,
+   2.796,
+   true
+  ],
+  [
+   201910,
+   2.301,
+   true
+  ],
+  [
+   202304,
+   0.716,
+   false
+  ],
+  [
+   202504,
+   1.211,
+   false
+  ],
+  [
+   202604,
+   4.387,
+   false
+  ]
+ ],
+ "pr_regular_change_months_all": [
+  [
+   197509,
+   0.647,
+   false
+  ],
+  [
+   197601,
+   22.508,
+   false
+  ],
+  [
+   197602,
+   2.362,
+   false
+  ],
+  [
+   197610,
+   0.513,
+   false
+  ],
+  [
+   197703,
+   0.51,
+   false
+  ],
+  [
+   197705,
+   3.299,
+   false
+  ],
+  [
+   197803,
+   1.456,
+   false
+  ],
+  [
+   197901,
+   9.286,
+   false
+  ],
+  [
+   198001,
+   0.862,
+   false
+  ],
+  [
+   198102,
+   0.849,
+   false
+  ],
+  [
+   198105,
+   11.765,
+   false
+  ],
+  [
+   198106,
+   0.752,
+   false
+  ],
+  [
+   198107,
+   1.679,
+   false
+  ],
+  [
+   198201,
+   1.277,
+   false
+  ],
+  [
+   198304,
+   0.713,
+   false
+  ],
+  [
+   198402,
+   7.57,
+   false
+  ],
+  [
+   198405,
+   0.655,
+   false
+  ],
+  [
+   198407,
+   1.135,
+   false
+  ],
+  [
+   198411,
+   1.278,
+   false
+  ],
+  [
+   198510,
+   0.943,
+   false
+  ],
+  [
+   198706,
+   2.628,
+   false
+  ],
+  [
+   198806,
+   1.647,
+   false
+  ],
+  [
+   198901,
+   0.882,
+   false
+  ],
+  [
+   198904,
+   2.624,
+   true
+  ],
+  [
+   199011,
+   1.268,
+   false
+  ],
+  [
+   199112,
+   6.12,
+   false
+  ],
+  [
+   199204,
+   0.784,
+   false
+  ],
+  [
+   199503,
+   0.644,
+   false
+  ],
+  [
+   199509,
+   9.475,
+   false
+  ],
+  [
+   199704,
+   1.626,
+   true
+  ],
+  [
+   199707,
+   0.571,
+   false
+  ],
+  [
+   201404,
+   2.257,
+   true
+  ],
+  [
+   201610,
+   0.77,
+   false
+  ],
+  [
+   201910,
+   2.288,
+   true
+  ],
+  [
+   202304,
+   4.888,
+   false
+  ],
+  [
+   202404,
+   0.506,
+   false
+  ],
+  [
+   202604,
+   0.697,
+   false
+  ]
+ ]
+}
