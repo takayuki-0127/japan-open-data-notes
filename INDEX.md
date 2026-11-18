@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 448本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 454本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -18,12 +18,12 @@
 | 顧客分析・生存分析 | 64 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 151 |
+| 集計の定義・KPI | 152 |
 | 可視化・報告・BI | 41 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 270 |
+| その他（記述・要因分解など） | 276 |
 
 <details><summary><b>予測・時系列</b>（137本）</summary>
 
@@ -879,7 +879,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（151本）</summary>
+<details><summary><b>集計の定義・KPI</b>（152本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -972,6 +972,7 @@
 | F475 | 農家が買う資材の値段と売る値段の差は、広がったのか？ | [F475_farm_terms_of_trade](articles/F475_farm_terms_of_trade) |
 | F478 | 夏の電力の需要のピークは、太陽光で夕方にずれたのか？ | [F478_summer_peak_residual_demand](articles/F478_summer_peak_residual_demand) |
 | F498 | 夏は、長くなったのか？ | [F498_summer_length](articles/F498_summer_length) |
+| F532 | 「日本は世界最大の対外純資産国」は、中身で見るとどう変わったのか？ | [F532_net_external_assets_composition](articles/F532_net_external_assets_composition) |
 | F534 | 毎月勤労統計の1人あたり賃金の伸びは、パートの割合の増加でどれだけ低く出ているのか？ | [F534_wage_growth_parttime_mix](articles/F534_wage_growth_parttime_mix) |
 | F535 | 国勢調査の「不詳」は、どれだけ増えたのか？ | [F535_census_unknown_rates](articles/F535_census_unknown_rates) |
 | F536 | 人口推計と住民基本台帳の人口は、どれだけずれるのか？ | [F536_population_estimate_vs_resident_register](articles/F536_population_estimate_vs_resident_register) |
@@ -1289,7 +1290,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（270本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（276本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1415,8 +1416,14 @@
 | F504 | 通信制高校に通う生徒は、どこで増えたのか？ | [F504_correspondence_high_school_growth](articles/F504_correspondence_high_school_growth) |
 | F505 | 1学級の人数は、35人学級でどれだけ減ったのか？ | [F505_class_size_35_students](articles/F505_class_size_35_students) |
 | F506 | 理工系に進む女性は、増えたのか？ | [F506_women_in_science_engineering](articles/F506_women_in_science_engineering) |
+| F507 | 大人の学び直しは、増えているのか？ | [F507_adult_learning_participation](articles/F507_adult_learning_participation) |
+| F508 | 専門学校に進む人は、分野ごとにどう変わったのか？ | [F508_vocational_college_fields](articles/F508_vocational_college_fields) |
+| F526 | 店の売場面積は増えたのに、売上は増えていないのか？ | [F526_retail_floor_vs_sales](articles/F526_retail_floor_vs_sales) |
 | F528 | 銀行の貸出は、どの借り手に向かっているのか？ | [F528_bank_loans_by_borrower](articles/F528_bank_loans_by_borrower) |
 | F529 | 国内銀行の預貸率の低下は、地域でどう違うのか？ | [F529_loan_deposit_ratio_regions](articles/F529_loan_deposit_ratio_regions) |
+| F530 | 国債のうち日銀が持つ割合は、どこまで上がり、どこから下がり始めたのか？ | [F530_boj_jgb_holding_share](articles/F530_boj_jgb_holding_share) |
+| F531 | 銀行の店舗は、どれだけ減ったのか？ | [F531_bank_offices_by_prefecture](articles/F531_bank_offices_by_prefecture) |
+| F532 | 「日本は世界最大の対外純資産国」は、中身で見るとどう変わったのか？ | [F532_net_external_assets_composition](articles/F532_net_external_assets_composition) |
 | F534 | 毎月勤労統計の1人あたり賃金の伸びは、パートの割合の増加でどれだけ低く出ているのか？ | [F534_wage_growth_parttime_mix](articles/F534_wage_growth_parttime_mix) |
 | 000 | 女性の労働力率は何で決まる？ | [000_women_labor](articles/000_women_labor) |
 | 001 | 納税者1人あたりの所得は、なぜ街によって違うのか？ | [001_income_municipal](articles/001_income_municipal) |
@@ -1571,16 +1578,16 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 164 |
+| 小売・店舗 | 165 |
 | EC・会員・Web | 93 |
 | マーケティング・広告 | 21 |
 | 需要予測・在庫 | 31 |
 | 業務の集計・報告 | 126 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 424 |
+| 公的統計・地域・人口 | 430 |
 
-<details><summary><b>小売・店舗</b>（164本）</summary>
+<details><summary><b>小売・店舗</b>（165本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1628,6 +1635,7 @@
 | F415 | 家電の販売の山のあとに、谷はどれだけ深かったのか？ | [F415_appliance_boom_bust](articles/F415_appliance_boom_bust) |
 | F416 | 中古品を売る店の売上は、伸びているのか？ | [F416_used_goods_retail](articles/F416_used_goods_retail) |
 | F433 | キャベツなど野菜の値段は、天気でどこまで決まるのか？ | [F433_vegetable_price_weather](articles/F433_vegetable_price_weather) |
+| F526 | 店の売場面積は増えたのに、売上は増えていないのか？ | [F526_retail_floor_vs_sales](articles/F526_retail_floor_vs_sales) |
 | 305 | DAX の CALCULATE は、何をしているのか？ | [305_dax_calculate_filter_context](articles/305_dax_calculate_filter_context) |
 | 315 | 1年分の保険料を、月ごとの売上にどう分けるか？ | [315_sql_earned_premium](articles/315_sql_earned_premium) |
 | 330 | 同じファイルを2回取り込んでも、数字が二重にならない形はどう作るか？ | [330_idempotent_load](articles/330_idempotent_load) |
@@ -2140,7 +2148,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（424本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（430本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2517,6 +2525,8 @@
 | F504 | 通信制高校に通う生徒は、どこで増えたのか？ | [F504_correspondence_high_school_growth](articles/F504_correspondence_high_school_growth) |
 | F505 | 1学級の人数は、35人学級でどれだけ減ったのか？ | [F505_class_size_35_students](articles/F505_class_size_35_students) |
 | F506 | 理工系に進む女性は、増えたのか？ | [F506_women_in_science_engineering](articles/F506_women_in_science_engineering) |
+| F507 | 大人の学び直しは、増えているのか？ | [F507_adult_learning_participation](articles/F507_adult_learning_participation) |
+| F508 | 専門学校に進む人は、分野ごとにどう変わったのか？ | [F508_vocational_college_fields](articles/F508_vocational_college_fields) |
 | F509 | 大学の先生は、年をとったのか？ | [F509_university_faculty_age](articles/F509_university_faculty_age) |
 | F510 | 固定電話は、どれだけ減ったのか？ | [F510_landline_decline](articles/F510_landline_decline) |
 | F511 | ソフトウェアの仕事は、受託開発からパッケージ・クラウドへ移ったのか？ | [F511_info_service_sales_mix](articles/F511_info_service_sales_mix) |
@@ -2534,9 +2544,13 @@
 | F523 | 公共工事への依存は、地方でどれだけ下がったのか？ | [F523_public_works_dependence](articles/F523_public_works_dependence) |
 | F524 | 買い物の客を周りから集めている市は、どんな市か？ | [F524_retail_pull_by_city](articles/F524_retail_pull_by_city) |
 | F525 | 自治体の職員の給与の差（ラスパイレス指数）は、縮まったのか？ | [F525_laspeyres_gap](articles/F525_laspeyres_gap) |
+| F526 | 店の売場面積は増えたのに、売上は増えていないのか？ | [F526_retail_floor_vs_sales](articles/F526_retail_floor_vs_sales) |
 | F527 | 政策金利が上がると、預金の金利は何か月で、どれだけ動くのか？ | [F527_deposit_rate_passthrough](articles/F527_deposit_rate_passthrough) |
 | F528 | 銀行の貸出は、どの借り手に向かっているのか？ | [F528_bank_loans_by_borrower](articles/F528_bank_loans_by_borrower) |
 | F529 | 国内銀行の預貸率の低下は、地域でどう違うのか？ | [F529_loan_deposit_ratio_regions](articles/F529_loan_deposit_ratio_regions) |
+| F530 | 国債のうち日銀が持つ割合は、どこまで上がり、どこから下がり始めたのか？ | [F530_boj_jgb_holding_share](articles/F530_boj_jgb_holding_share) |
+| F531 | 銀行の店舗は、どれだけ減ったのか？ | [F531_bank_offices_by_prefecture](articles/F531_bank_offices_by_prefecture) |
+| F532 | 「日本は世界最大の対外純資産国」は、中身で見るとどう変わったのか？ | [F532_net_external_assets_composition](articles/F532_net_external_assets_composition) |
 | F533 | 円安は、日米の金利差でどこまで説明できるのか？ | [F533_yen_rate_differential](articles/F533_yen_rate_differential) |
 | F534 | 毎月勤労統計の1人あたり賃金の伸びは、パートの割合の増加でどれだけ低く出ているのか？ | [F534_wage_growth_parttime_mix](articles/F534_wage_growth_parttime_mix) |
 | F535 | 国勢調査の「不詳」は、どれだけ増えたのか？ | [F535_census_unknown_rates](articles/F535_census_unknown_rates) |
