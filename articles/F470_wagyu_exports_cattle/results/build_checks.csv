@@ -1,0 +1,28 @@
+check,value,ok
+畜産統計の列 farms,飼養戸数,True
+畜産統計の列 total,飼養頭数/総頭数,True
+畜産統計の列 beef_breed,飼養頭数/肉用種/計,True
+畜産統計の列 kuroge,飼養頭数/肉用種/黒毛和種,True
+畜産統計の列 breeding_cows,飼養頭数/肉用種/めす/子取り用めす牛/小計,True
+畜産統計の列 dairy_breed,飼養頭数/乳用種/計,True
+畜産統計の列 holstein,飼養頭数/乳用種/ホルスタイン種他,True
+畜産統計の列 cross,飼養頭数/乳用種/交雑種,True
+畜産統計の列 per_farm,1戸当たり飼養頭数,True
+肉用種＋乳用種と総頭数の差の最大（頭）,1000.0,True
+ホルスタイン種他＋交雑種と乳用種の差の最大（頭）,500.0,True
+2025年 total の再読み取り,2595000.0,True
+2025年 beef_breed の再読み取り,1851000.0,True
+2025年 cross の再読み取り,559400.0,True
+ryutsu_tochiku_tosu.xls の列 wagyu,成牛/和牛/小計,True
+ryutsu_tochiku_tosu.xls の列 dairy_old,成牛/乳牛（乳用種）/小計,True
+ryutsu_tochiku_tosu.xls の列 dairy,成牛/乳牛/小計,True
+ryutsu_tochiku_tosu.xls の列 cross,成牛/交雑牛/小計,True
+ryutsu_tochiku_tosu.xls の列 adult_total,成牛/計,True
+ryutsu_edaniku.xls の列 wagyu,成牛/和牛/小計,True
+ryutsu_edaniku.xls の列 dairy_old,成牛/乳牛（乳用種）/小計,True
+ryutsu_edaniku.xls の列 dairy,成牛/乳牛/小計,True
+ryutsu_edaniku.xls の列 cross,成牛/交雑牛/小計,True
+ryutsu_edaniku.xls の列 adult_total,成牛/計,True
+2010年以降 和牛＋乳牛＋交雑牛＋その他≒成牛計（枝肉t、その他を除いた差の最大）,8407.20000000004,True
+和牛価格の列,枝肉取引実績/1kg当たり卸売価格 / 枝肉取引実績/取引成立頭数,True
+貿易統計の年数,17,True
