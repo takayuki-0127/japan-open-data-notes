@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 409本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 414本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -18,12 +18,12 @@
 | 顧客分析・生存分析 | 64 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 140 |
+| 集計の定義・KPI | 142 |
 | 可視化・報告・BI | 41 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 244 |
+| その他（記述・要因分解など） | 249 |
 
 <details><summary><b>予測・時系列</b>（131本）</summary>
 
@@ -863,7 +863,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（140本）</summary>
+<details><summary><b>集計の定義・KPI</b>（142本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -949,7 +949,9 @@
 | F435 | 「生鮮食品を除く」と「生鮮食品とエネルギーを除く」は、物価の流れをどれだけ違って見せるのか？ | [F435_core_vs_corecore_cpi](articles/F435_core_vs_corecore_cpi) |
 | F439 | テレビやパソコンの値段は、品質の向上を差し引くとどれだけ下がって見えるのか？ | [F439_quality_adjusted_electronics](articles/F439_quality_adjusted_electronics) |
 | F441 | GDP デフレーターと消費者物価は、なぜ違う動きをするのか？ | [F441_gdp_deflator_vs_cpi](articles/F441_gdp_deflator_vs_cpi) |
+| F446 | 地方の中小私鉄・第三セクターの1日の利用（輸送密度）は、どこまで減ったのか？ | [F446_local_rail_density](articles/F446_local_rail_density) |
 | F463 | 出張などビジネスの宿泊は、コロナ前に戻ったのか？ | [F463_business_stays_recovery](articles/F463_business_stays_recovery) |
+| F464 | 荒れた農地は、「再生できない」ほうが増えているのか？ | [F464_abandoned_farmland_unrecoverable](articles/F464_abandoned_farmland_unrecoverable) |
 | 149 | 川や海に比べて、湖だけ環境基準の達成率が低いのはなぜか？ | [149_lake_water_quality](articles/149_lake_water_quality) |
 | 241 | 公的データを使って困ったことは何だったか？ | [241_public_data_troubles](articles/241_public_data_troubles) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
@@ -1262,7 +1264,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（244本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（249本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1345,6 +1347,9 @@
 | F442 | 鉄道の運賃は、何十年も上がっていなかったのか？ | [F442_rail_fares_cpi_long](articles/F442_rail_fares_cpi_long) |
 | F443 | 「トラックの積載率は4割を切った」は、どの運び方で起きているのか？ | [F443_truck_load_efficiency](articles/F443_truck_load_efficiency) |
 | F444 | トラックから船・鉄道への切り替え（モーダルシフト）は、進んでいるのか？ | [F444_modal_shift_share](articles/F444_modal_shift_share) |
+| F446 | 地方の中小私鉄・第三セクターの1日の利用（輸送密度）は、どこまで減ったのか？ | [F446_local_rail_density](articles/F446_local_rail_density) |
+| F447 | 県をまたぐ移動の手段は、鉄道・航空・バスでどう変わったのか？ | [F447_interpref_travel_modes](articles/F447_interpref_travel_modes) |
+| F448 | 物流倉庫の建設は、どこで増えたのか？ | [F448_warehouse_floor_area](articles/F448_warehouse_floor_area) |
 | F449 | トラック運転手の賃金は、時間あたりで全産業とどれだけ差があり、縮まっているのか？ | [F449_truck_driver_wage_gap](articles/F449_truck_driver_wage_gap) |
 | F450 | トラックの運賃は、2024年問題の前後で上がったのか？ | [F450_truck_freight_rates_2024](articles/F450_truck_freight_rates_2024) |
 | F451 | 自家用車の1台あたりの走行距離と燃料は、どれだけ減ったのか？ | [F451_private_car_km_fuel](articles/F451_private_car_km_fuel) |
@@ -1359,6 +1364,8 @@
 | F461 | 船で日本に来る外国人は、コロナ前に戻ったのか？ | [F461_sea_arrivals_recovery](articles/F461_sea_arrivals_recovery) |
 | F462 | 日本人の旅行は、お盆と年末年始への集中が弱まったのか？ | [F462_domestic_travel_peak_concentration](articles/F462_domestic_travel_peak_concentration) |
 | F463 | 出張などビジネスの宿泊は、コロナ前に戻ったのか？ | [F463_business_stays_recovery](articles/F463_business_stays_recovery) |
+| F464 | 荒れた農地は、「再生できない」ほうが増えているのか？ | [F464_abandoned_farmland_unrecoverable](articles/F464_abandoned_farmland_unrecoverable) |
+| F465 | 「みかんは減り、ぶどうは増えた」は、果物の生産でどこまで本当か？ | [F465_fruit_mikan_budou](articles/F465_fruit_mikan_budou) |
 | F480 | CO2 は減っても、代替フロン（HFC）の排出は増えたのか？ | [F480_hfc_emissions](articles/F480_hfc_emissions) |
 | F481 | ごみを燃やす施設の発電は、どこまで増えたのか？ | [F481_incinerator_power](articles/F481_incinerator_power) |
 | F482 | メタンの排出は、田んぼと牛でどれだけを占めるのか？ | [F482_methane_rice_cattle](articles/F482_methane_rice_cattle) |
@@ -1525,7 +1532,7 @@
 | 業務の集計・報告 | 126 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 385 |
+| 公的統計・地域・人口 | 390 |
 
 <details><summary><b>小売・店舗</b>（164本）</summary>
 
@@ -2087,7 +2094,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（385本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（390本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2403,6 +2410,9 @@
 | F443 | 「トラックの積載率は4割を切った」は、どの運び方で起きているのか？ | [F443_truck_load_efficiency](articles/F443_truck_load_efficiency) |
 | F444 | トラックから船・鉄道への切り替え（モーダルシフト）は、進んでいるのか？ | [F444_modal_shift_share](articles/F444_modal_shift_share) |
 | F445 | 航空貨物は、旅客便が減った時期にどれだけ落ちたのか？ | [F445_air_cargo_passenger_flights](articles/F445_air_cargo_passenger_flights) |
+| F446 | 地方の中小私鉄・第三セクターの1日の利用（輸送密度）は、どこまで減ったのか？ | [F446_local_rail_density](articles/F446_local_rail_density) |
+| F447 | 県をまたぐ移動の手段は、鉄道・航空・バスでどう変わったのか？ | [F447_interpref_travel_modes](articles/F447_interpref_travel_modes) |
+| F448 | 物流倉庫の建設は、どこで増えたのか？ | [F448_warehouse_floor_area](articles/F448_warehouse_floor_area) |
 | F449 | トラック運転手の賃金は、時間あたりで全産業とどれだけ差があり、縮まっているのか？ | [F449_truck_driver_wage_gap](articles/F449_truck_driver_wage_gap) |
 | F450 | トラックの運賃は、2024年問題の前後で上がったのか？ | [F450_truck_freight_rates_2024](articles/F450_truck_freight_rates_2024) |
 | F451 | 自家用車の1台あたりの走行距離と燃料は、どれだけ減ったのか？ | [F451_private_car_km_fuel](articles/F451_private_car_km_fuel) |
@@ -2418,6 +2428,8 @@
 | F461 | 船で日本に来る外国人は、コロナ前に戻ったのか？ | [F461_sea_arrivals_recovery](articles/F461_sea_arrivals_recovery) |
 | F462 | 日本人の旅行は、お盆と年末年始への集中が弱まったのか？ | [F462_domestic_travel_peak_concentration](articles/F462_domestic_travel_peak_concentration) |
 | F463 | 出張などビジネスの宿泊は、コロナ前に戻ったのか？ | [F463_business_stays_recovery](articles/F463_business_stays_recovery) |
+| F464 | 荒れた農地は、「再生できない」ほうが増えているのか？ | [F464_abandoned_farmland_unrecoverable](articles/F464_abandoned_farmland_unrecoverable) |
+| F465 | 「みかんは減り、ぶどうは増えた」は、果物の生産でどこまで本当か？ | [F465_fruit_mikan_budou](articles/F465_fruit_mikan_budou) |
 | F479 | 太陽光の発電を止める「出力制御」は、どの季節・時間に増えたのか？ | [F479_solar_curtailment_timing](articles/F479_solar_curtailment_timing) |
 | F480 | CO2 は減っても、代替フロン（HFC）の排出は増えたのか？ | [F480_hfc_emissions](articles/F480_hfc_emissions) |
 | F481 | ごみを燃やす施設の発電は、どこまで増えたのか？ | [F481_incinerator_power](articles/F481_incinerator_power) |
