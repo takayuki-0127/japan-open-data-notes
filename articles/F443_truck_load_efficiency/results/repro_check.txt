@@ -1,0 +1,4 @@
+再現の確認（2026-11-18）
+手順：記事のフォルダを /tmp/rep_F443 に写し、results・figures の生成物（CSV・JSON・PNG）と data/fy_long.csv（02 が作るもの）を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。ネットにはつながない。
+2026-11-18 再実行：12 ファイル一致（results 7、figures 4、data 1）、所要 3 秒。
+2026-11-18 独立レビュー後の再実行（/tmp に写し、results・figures・02 が作る data を消して run_all.sh）：12 ファイル一致、所要 3 秒
