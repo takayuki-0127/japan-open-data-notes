@@ -1,0 +1,1 @@
+2026-11-18 再実行：17 ファイル一致（results の CSV・JSON 10、figures の PNG 4、02_build が作る data の CSV 3）、所要 3 秒（独立レビュー：本文を直したあと、/tmp/rv_F410 に写し、02 以降が作るファイルを消してから src/run_all.sh を実行し cmp で比較）

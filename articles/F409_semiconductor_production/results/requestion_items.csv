@@ -1,0 +1,6 @@
+item,label,weight,weight_share_pct,idx_2019,idx_last12,item_change_pct,contrib_pt,contrib_share_pct
+ic_memory,メモリ,45.1,21.09,83.21,152.28,83.01,14.571,33.1
+ic_logic,ロジック,17.5,8.19,111.08,124.99,12.52,1.138,2.6
+ic_linear,線形IC,18.1,8.47,100.03,94.63,-5.4,-0.457,-1.0
+ic_hybrid,混成IC,56.1,26.24,98.28,98.02,-0.25,-0.066,-0.1
+secret_and_residual,秘匿の2品目など（差し引き）,77.0,36.01,,,,28.822,65.5

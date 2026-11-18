@@ -1,0 +1,14 @@
+{
+ "equip_semi_item_change_pct": 101.87,
+ "hybrid_change_pct": -0.25,
+ "ic_change_pt": 44.008,
+ "linear_change_pct": -5.4,
+ "logic_change_pct": 12.52,
+ "memory_change_pct": 83.01,
+ "memory_contrib_pt": 14.571,
+ "memory_share_pct": 33.1,
+ "memory_weight_share_pct": 21.09,
+ "secret_contrib_pt": 28.822,
+ "secret_share_pct": 65.5,
+ "secret_weight_share_pct": 36.01
+}

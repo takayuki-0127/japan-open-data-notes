@@ -1,0 +1,23 @@
+{
+ "capex_2006_tn": 91.82,
+ "capex_2025_tn": 126.3,
+ "first_window_best_corr": 0.8699,
+ "first_window_best_lag": 1,
+ "first_window_end": "2014Q1",
+ "first_window_lag0_label": "2018Q2",
+ "last_window_best_corr": 0.6464,
+ "last_window_best_lag": 0,
+ "last_window_corr_lag0": 0.6464,
+ "last_window_corr_lag1": 0.5341,
+ "last_window_corr_lag2": 0.3419,
+ "last_window_end": "2026Q2",
+ "n_windows": 50,
+ "orders_2006_tn": 11.56,
+ "orders_2025_tn": 11.18,
+ "ratio_2006": 12.59,
+ "ratio_2019": 10.27,
+ "ratio_2025": 8.85,
+ "share_windows_lag0": 60.0,
+ "share_windows_lag1to3": 40.0,
+ "window_quarters": 32
+}
