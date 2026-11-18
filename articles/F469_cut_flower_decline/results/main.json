@@ -1,0 +1,261 @@
+{
+ "domestic_item_pct_2009_2025": {
+  "きく": -39.6,
+  "ばら": -55.1,
+  "カーネーション": -58.0
+ },
+ "groups": {
+  "切り花類": {
+   "area_pct_from_2005": -34.9,
+   "area_pct_from_peak": -41.1,
+   "area_peak_year": 1999,
+   "pct_from_2005": -46.7,
+   "pct_from_peak": -53.5,
+   "peak": 5756000.0,
+   "peak_year": 1996,
+   "v2005": 5022000.0,
+   "v2025": 2677000.0
+  },
+  "球根類": {
+   "area_pct_from_2005": -64.7,
+   "area_pct_from_peak": -84.8,
+   "area_peak_year": 1990,
+   "pct_from_2005": -70.4,
+   "pct_from_peak": -89.6,
+   "peak": 485300.0,
+   "peak_year": 1991,
+   "v2005": 171000.0,
+   "v2025": 50700.0
+  },
+  "花壇用苗もの類": {
+   "area_pct_from_2005": -34.3,
+   "area_pct_from_peak": -35.7,
+   "area_peak_year": 2002,
+   "pct_from_2005": -45.0,
+   "pct_from_peak": -49.9,
+   "peak": 902600.0,
+   "peak_year": 2002,
+   "v2005": 821800.0,
+   "v2025": 452100.0
+  },
+  "鉢もの類": {
+   "area_pct_from_2005": -38.7,
+   "area_pct_from_peak": -40.1,
+   "area_peak_year": 2004,
+   "pct_from_2005": -50.0,
+   "pct_from_peak": -52.2,
+   "peak": 324300.0,
+   "peak_year": 2004,
+   "v2005": 310300.0,
+   "v2025": 155000.0
+  }
+ },
+ "household": {
+  "cpi_2002": 70.3,
+  "cpi_pct_2002_2025": 42.2,
+  "freq_2002": 1054.0,
+  "freq_2025": 694.0,
+  "longterm_1963": 973.0,
+  "longterm_peak": 13130.0,
+  "longterm_peak_year": 1997,
+  "pct_freq": -34.2,
+  "pct_nominal": -33.0,
+  "pct_per_purchase": 1.8,
+  "pct_real": -52.9,
+  "pct_real_from_lt_peak": -56.0,
+  "pct_real_per_purchase": -28.4,
+  "per_purchase_2002": 1095.0,
+  "per_purchase_2025": 1115.0,
+  "real_2002": 16415.0,
+  "real_2025": 7737.0,
+  "real_longterm_peak": 17601.0,
+  "real_longterm_peak_year": 1997,
+  "spend_2002": 11540.0,
+  "spend_2025": 7737.0
+ },
+ "hypotheses": {
+  "H1": {
+   "rule": "<=-40",
+   "value": -53.5,
+   "verdict": "支持"
+  },
+  "H2": {
+   "rule": "きく < 計",
+   "value": [
+    -44.0,
+    -46.7
+   ],
+   "verdict": "外れ"
+  },
+  "H3": {
+   "rule": "<=-50",
+   "value": -52.9,
+   "verdict": "支持"
+  },
+  "H4": {
+   "rule": ">0",
+   "value": 18.1,
+   "verdict": "支持"
+  }
+ },
+ "imports": {
+  "kg_2009": 3852.0,
+  "kg_2025": 4550.0,
+  "oku_2009": 283.1,
+  "oku_2025": 490.2,
+  "pct_kg": 18.1,
+  "pct_value": 73.2,
+  "peak_kg_year": 2012
+ },
+ "imports_item_kg_2025_10kt": {
+  "きく": 2625.0,
+  "ばら": 152.0,
+  "カーネーション": 1133.0
+ },
+ "imports_item_pct_kg_2009_2025": {
+  "きく": 79.3,
+  "ばら": -68.2,
+  "カーネーション": 63.1
+ },
+ "items_pct_ship": {
+  "きく": -44.0,
+  "ばら": -62.0,
+  "ゆり": -48.6,
+  "りんどう": -28.1,
+  "アルストロメリア": -21.5,
+  "カーネーション": -64.5,
+  "ガーベラ": -38.0,
+  "スターチス": -19.2,
+  "スプレイぎく": -30.3,
+  "トルコギキョウ": -37.5,
+  "切り枝": -27.4,
+  "切り葉": -58.3,
+  "大・中輪ぎく": -47.6,
+  "宿根かすみそう": -29.3,
+  "小ぎく": -44.3
+ },
+ "items_share_2025": {
+  "きく": 39.1,
+  "ばら": 5.5,
+  "ゆり": 3.3,
+  "りんどう": 2.4,
+  "カーネーション": 5.8,
+  "ガーベラ": 4.3,
+  "スターチス": 3.8,
+  "トルコギキョウ": 2.8,
+  "切り枝": 6.9,
+  "切り葉": 2.5
+ },
+ "kiku": {
+  "pct": -44.0,
+  "share_2005": 37.2,
+  "share_2025": 39.1,
+  "ship_2005": 18.69,
+  "ship_2025": 10.46
+ },
+ "kiku_contrib_pct": 35.1,
+ "kirihana_cagr_pct": {
+  "2005_2015": -2.58,
+  "2015_2025": -3.61
+ },
+ "kirihana_pct_2005_2025": -46.7,
+ "kirihana_ship": {
+  "1989": 34.2,
+  "1990": 49.09,
+  "2000": 55.93,
+  "2005": 50.22,
+  "2010": 43.51,
+  "2015": 38.67,
+  "2020": 32.52,
+  "2024": 28.46,
+  "2025": 26.77
+ },
+ "n_items": 15,
+ "n_items_down": 15,
+ "requestion": {
+  "age_table": {
+   "29歳以下": {
+    "pct_spend": -69.6,
+    "spend_2002": 3538.0,
+    "spend_2025": 1074.0,
+    "w_2002_pct": 3.5,
+    "w_2025_pct": 1.2
+   },
+   "30～39歳": {
+    "pct_spend": -54.9,
+    "spend_2002": 4643.0,
+    "spend_2025": 2095.0,
+    "w_2002_pct": 15.3,
+    "w_2025_pct": 9.2
+   },
+   "40～49歳": {
+    "pct_spend": -56.9,
+    "spend_2002": 7373.0,
+    "spend_2025": 3180.0,
+    "w_2002_pct": 19.1,
+    "w_2025_pct": 16.2
+   },
+   "50～59歳": {
+    "pct_spend": -60.6,
+    "spend_2002": 14427.0,
+    "spend_2025": 5679.0,
+    "w_2002_pct": 24.9,
+    "w_2025_pct": 19.5
+   },
+   "60～69歳": {
+    "pct_spend": -35.4,
+    "spend_2002": 15475.0,
+    "spend_2025": 9993.0,
+    "w_2002_pct": 22.4,
+    "w_2025_pct": 19.4
+   },
+   "70歳以上": {
+    "pct_spend": -23.9,
+    "spend_2002": 15107.0,
+    "spend_2025": 11491.0,
+    "w_2002_pct": 14.7,
+    "w_2025_pct": 34.5
+   }
+  },
+  "decomp_2002_2025": {
+   "change": -3800.0,
+   "composition": 1289.0,
+   "fixed_weight_y0_pct": -45.3,
+   "weighted_avg_y0": 11528.0,
+   "weighted_avg_y1": 7728.0,
+   "within": -5088.0,
+   "within_share_pct": 133.9,
+   "y0": 2002,
+   "y1": 2025
+  },
+  "decomp_2015_2025": {
+   "change": -1880.0,
+   "composition": 268.0,
+   "fixed_weight_y0_pct": -22.5,
+   "weighted_avg_y0": 9608.0,
+   "weighted_avg_y1": 7728.0,
+   "within": -2147.0,
+   "within_share_pct": 114.2,
+   "y0": 2015,
+   "y1": 2025
+  },
+  "n_age_groups_down": 6
+ },
+ "rob_3yr": {
+  "kiku_pct": -38.0,
+  "kirihana_pct": -41.6
+ },
+ "rob_area": {
+  "kiku_area_pct": -39.5,
+  "kirihana_area_pct_2005_2025": -34.9,
+  "kirihana_area_pct_from_peak": -41.1,
+  "kirihana_area_peak_year": 1999
+ },
+ "rob_import_value": 73.2,
+ "rob_overlap": {
+  "max_abs_diff_pct": 0.9,
+  "pct_2002_2007_nonfarm": -5.2,
+  "pct_2002_2007_t46": -6.2
+ },
+ "top3_contrib_pct": 57.4
+}

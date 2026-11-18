@@ -1,0 +1,1 @@
+2026-11-18 独立レビュー後の再実行：20 ファイル一致、所要 9 秒（/tmp/rv_F469 に写し、results・figures・data の 02 以降が作るファイルを消してから run_all.sh。results の CSV・JSON、figures の PNG、data の CSV を cmp で比較）
