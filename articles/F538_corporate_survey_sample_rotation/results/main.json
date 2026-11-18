@@ -1,0 +1,203 @@
+{
+ "B_sales_other_mean_abs": {
+  "post": 3.495,
+  "pre": 1.962
+ },
+ "B_sales_q2_mean_abs": {
+  "post": 3.958,
+  "pre": 2.323
+ },
+ "D_emp_other_mean_abs": {
+  "post": 1.873,
+  "pre": 1.439
+ },
+ "D_emp_q2_mean_abs": {
+  "post": 2.464,
+  "pre": 5.402
+ },
+ "D_sales_other_mean_abs": {
+  "post": 3.675,
+  "pre": 2.26
+ },
+ "D_sales_q2_mean_abs": {
+  "post": 6.714,
+  "pre": 5.288
+ },
+ "capex_ex_sw_ratio": {
+  "A": {
+   "post": 1.481,
+   "pre": 0.967
+  },
+  "B": {
+   "post": 1.188,
+   "pre": 0.814
+  },
+  "C": {
+   "post": 1.182,
+   "pre": 1.964
+  },
+  "D": {
+   "post": 0.817,
+   "pre": 1.026
+  }
+ },
+ "capital_gap": {
+  "A_post_2010_2026": {
+   "other_mean_abs": 2.018,
+   "q2_mean_abs": 1.733,
+   "q2_mean_signed": 1.733,
+   "ratio": 0.859
+  },
+  "A_pre_1990_2008": {
+   "other_mean_abs": 2.387,
+   "q2_mean_abs": 3.861,
+   "q2_mean_signed": 3.824,
+   "ratio": 1.618
+  },
+  "B_post_2010_2026": {
+   "other_mean_abs": 0.533,
+   "q2_mean_abs": 0.668,
+   "q2_mean_signed": 0.663,
+   "ratio": 1.253
+  },
+  "B_pre_1990_2008": {
+   "other_mean_abs": 0.434,
+   "q2_mean_abs": 1.892,
+   "q2_mean_signed": 1.892,
+   "ratio": 4.356
+  },
+  "C_post_2010_2026": {
+   "other_mean_abs": 7.384,
+   "q2_mean_abs": 3.455,
+   "q2_mean_signed": 3.337,
+   "ratio": 0.468
+  },
+  "C_pre_1990_2008": {
+   "other_mean_abs": 3.551,
+   "q2_mean_abs": 5.989,
+   "q2_mean_signed": 5.989,
+   "ratio": 1.687
+  },
+  "D_post_2010_2026": {
+   "other_mean_abs": 10.306,
+   "q2_mean_abs": 5.828,
+   "q2_mean_signed": 5.824,
+   "ratio": 0.566
+  },
+  "D_pre_1990_2008": {
+   "other_mean_abs": 10.609,
+   "q2_mean_abs": 10.03,
+   "q2_mean_signed": 9.241,
+   "ratio": 0.945
+  }
+ },
+ "corporations_change_share": {
+  "B": {
+   "q2_mean_pct_change_2010_2026": 0.921,
+   "share_nonzero_other": 1.0,
+   "share_nonzero_q2": 1.0
+  },
+  "D": {
+   "q2_mean_pct_change_2010_2026": -1.499,
+   "share_nonzero_other": 0.0,
+   "share_nonzero_q2": 1.0
+  }
+ },
+ "employees_ratio": {
+  "A": {
+   "post": 1.517,
+   "pre": 3.992
+  },
+  "B": {
+   "post": 1.487,
+   "pre": 1.39
+  },
+  "C": {
+   "post": 2.357,
+   "pre": 2.309
+  },
+  "D": {
+   "post": 1.316,
+   "pre": 3.755
+  }
+ },
+ "hypotheses": {
+  "H1": {
+   "rule": ">=1.5",
+   "supported": true,
+   "value": 1.827
+  },
+  "H2": {
+   "rule": "<1.3",
+   "supported": true,
+   "value": 1.133
+  },
+  "H3": {
+   "rule": "post<pre",
+   "supported": false,
+   "value_post": 6.714,
+   "value_pre": 5.288
+  },
+  "H4": {
+   "rule": ">=1.5",
+   "supported": false,
+   "value": 1.316
+  }
+ },
+ "ordinary_profit_ratio": {
+  "A": {
+   "post": 1.434,
+   "pre": 0.626
+  },
+  "B": {
+   "post": 1.701,
+   "pre": 0.656
+  },
+  "C": {
+   "post": 1.384,
+   "pre": 1.167
+  },
+  "D": {
+   "post": 1.501,
+   "pre": 0.814
+  }
+ },
+ "p_mw": {
+  "employees_B_post": 0.019,
+  "employees_D_post": 0.101,
+  "sales_B_post": 0.396,
+  "sales_D_post": 0.077
+ },
+ "published_yoy_check_2026q2": {
+  "capex": {
+   "computed": 1.59,
+   "published": 1.6
+  },
+  "ordinary_profit": {
+   "computed": 24.65,
+   "published": 24.6
+  },
+  "sales": {
+   "computed": 5.92,
+   "published": 5.9
+  }
+ },
+ "sales_ratio": {
+  "A": {
+   "post": 1.659,
+   "pre": 1.58
+  },
+  "B": {
+   "post": 1.133,
+   "pre": 1.184
+  },
+  "C": {
+   "post": 1.958,
+   "pre": 3.275
+  },
+  "D": {
+   "post": 1.827,
+   "pre": 2.34
+  }
+ }
+}

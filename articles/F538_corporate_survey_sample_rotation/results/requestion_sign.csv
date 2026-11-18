@@ -1,0 +1,9 @@
+item,size,period,n,n_up,mean_signed,p_sign
+sales,B,pre_1990_2008,19,11,0.358,0.6476
+sales,B,post_2010_2026,17,11,0.546,0.3323
+sales,D,pre_1990_2008,19,9,0.376,1.0
+sales,D,post_2010_2026,17,8,0.309,1.0
+employees,B,pre_1990_2008,19,10,0.037,1.0
+employees,B,post_2010_2026,17,8,-0.142,1.0
+employees,D,pre_1990_2008,19,10,-0.078,1.0
+employees,D,post_2010_2026,17,9,0.4,1.0

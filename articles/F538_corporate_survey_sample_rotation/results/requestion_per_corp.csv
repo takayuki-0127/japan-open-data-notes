@@ -1,0 +1,5 @@
+item,size,period,q2,other,ratio
+sales,D,pre_1990_2008,6.238,2.156,2.893
+sales,D,post_2010_2026,6.611,3.739,1.768
+employees,D,pre_1990_2008,5.933,1.371,4.328
+employees,D,post_2010_2026,2.346,1.902,1.233

@@ -1,0 +1,110 @@
+{
+ "sign": [
+  {
+   "item": "sales",
+   "size": "B",
+   "period": "pre_1990_2008",
+   "n": 19,
+   "n_up": 11,
+   "mean_signed": 0.358,
+   "p_sign": 0.6476
+  },
+  {
+   "item": "sales",
+   "size": "B",
+   "period": "post_2010_2026",
+   "n": 17,
+   "n_up": 11,
+   "mean_signed": 0.546,
+   "p_sign": 0.3323
+  },
+  {
+   "item": "sales",
+   "size": "D",
+   "period": "pre_1990_2008",
+   "n": 19,
+   "n_up": 9,
+   "mean_signed": 0.376,
+   "p_sign": 1.0
+  },
+  {
+   "item": "sales",
+   "size": "D",
+   "period": "post_2010_2026",
+   "n": 17,
+   "n_up": 8,
+   "mean_signed": 0.309,
+   "p_sign": 1.0
+  },
+  {
+   "item": "employees",
+   "size": "B",
+   "period": "pre_1990_2008",
+   "n": 19,
+   "n_up": 10,
+   "mean_signed": 0.037,
+   "p_sign": 1.0
+  },
+  {
+   "item": "employees",
+   "size": "B",
+   "period": "post_2010_2026",
+   "n": 17,
+   "n_up": 8,
+   "mean_signed": -0.142,
+   "p_sign": 1.0
+  },
+  {
+   "item": "employees",
+   "size": "D",
+   "period": "pre_1990_2008",
+   "n": 19,
+   "n_up": 10,
+   "mean_signed": -0.078,
+   "p_sign": 1.0
+  },
+  {
+   "item": "employees",
+   "size": "D",
+   "period": "post_2010_2026",
+   "n": 17,
+   "n_up": 9,
+   "mean_signed": 0.4,
+   "p_sign": 1.0
+  }
+ ],
+ "per_corp": [
+  {
+   "item": "sales",
+   "size": "D",
+   "period": "pre_1990_2008",
+   "q2": 6.238,
+   "other": 2.156,
+   "ratio": 2.893
+  },
+  {
+   "item": "sales",
+   "size": "D",
+   "period": "post_2010_2026",
+   "q2": 6.611,
+   "other": 3.739,
+   "ratio": 1.768
+  },
+  {
+   "item": "employees",
+   "size": "D",
+   "period": "pre_1990_2008",
+   "q2": 5.933,
+   "other": 1.371,
+   "ratio": 4.328
+  },
+  {
+   "item": "employees",
+   "size": "D",
+   "period": "post_2010_2026",
+   "q2": 2.346,
+   "other": 1.902,
+   "ratio": 1.233
+  }
+ ]
+}
