@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 399本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 404本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,22 +10,22 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 129 |
-| 因果推論・効果検証 | 60 |
+| 予測・時系列 | 130 |
+| 因果推論・効果検証 | 61 |
 | A/B テスト・実験 | 27 |
 | 統計の考え方（検定・区間・回帰） | 290 |
 | 機械学習・モデル評価 | 103 |
 | 顧客分析・生存分析 | 64 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 138 |
+| 集計の定義・KPI | 139 |
 | 可視化・報告・BI | 41 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 236 |
+| その他（記述・要因分解など） | 240 |
 
-<details><summary><b>予測・時系列</b>（129本）</summary>
+<details><summary><b>予測・時系列</b>（130本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -103,6 +103,7 @@
 | F381 | 消費者の「暮らし向き」の見通しは、実際の消費を先取りするのか？ | [F381_consumer_confidence_leads_spending](articles/F381_consumer_confidence_leads_spending) |
 | F385 | 「マンションの価格は上がったが、一戸建ては上がっていない」は、不動産価格指数でどう見えるか？ | [F385_house_price_index_by_type](articles/F385_house_price_index_by_type) |
 | F410 | 機械受注は、設備投資を何か月先取りするのか？ | [F410_machinery_orders_lead](articles/F410_machinery_orders_lead) |
+| F417 | 在庫循環図で、製造業の景気の位置は分かるのか？ | [F417_inventory_cycle_position](articles/F417_inventory_cycle_position) |
 | F419 | うめの開花は、さくらより速く早まっているのか？ | [F419_ume_vs_sakura_bloom](articles/F419_ume_vs_sakura_bloom) |
 | F420 | 建設業の許可業者は、どの規模でどれだけ減ったのか？ | [F420_construction_permits_by_size](articles/F420_construction_permits_by_size) |
 | F432 | 携帯電話の端末の値段は、指数でどう動いてきたのか？ | [F432_mobile_phone_price_index](articles/F432_mobile_phone_price_index) |
@@ -161,7 +162,7 @@
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（60本）</summary>
+<details><summary><b>因果推論・効果検証</b>（61本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -205,6 +206,7 @@
 | F278 | 「空き家が過去最多」は、住宅の数が増えた分を除くとどうか？ | [F278_vacant_record_stock_vs_rate](articles/F278_vacant_record_stock_vs_rate) |
 | F296 | 最低賃金の差の差は、前提をどこまで確かめられるのか？ | [F296_minimum_wage_did_assumptions](articles/F296_minimum_wage_did_assumptions) |
 | F387 | 2015年の相続税の見直しの前後で、貸家の建設はどれだけ増えたのか？ | [F387_rental_starts_inheritance_tax](articles/F387_rental_starts_inheritance_tax) |
+| F440 | 幼児教育と高校の無償化で、消費者物価はどれだけ下がったのか？ | [F440_free_education_cpi](articles/F440_free_education_cpi) |
 | F485 | 節電の要請で、電力の需要はどれだけ下がったのか？ | [F485_setsuden_demand](articles/F485_setsuden_demand) |
 | 267 | 相関を因果だと思いかけたとき、どう止めたか？ | [267_correlation_not_causation](articles/267_correlation_not_causation) |
 | 268 | 差の差・回帰不連続・合成コントロールを、どう選んできたか？ | [268_causal_design_choice](articles/268_causal_design_choice) |
@@ -859,7 +861,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（138本）</summary>
+<details><summary><b>集計の定義・KPI</b>（139本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -943,6 +945,7 @@
 | F397 | 「3組に1組が離婚する」は本当か？ | [F397_divorce_one_in_three](articles/F397_divorce_one_in_three) |
 | F431 | 「サービスの値段は上がりにくい」は本当か？ | [F431_services_price_sticky](articles/F431_services_price_sticky) |
 | F435 | 「生鮮食品を除く」と「生鮮食品とエネルギーを除く」は、物価の流れをどれだけ違って見せるのか？ | [F435_core_vs_corecore_cpi](articles/F435_core_vs_corecore_cpi) |
+| F439 | テレビやパソコンの値段は、品質の向上を差し引くとどれだけ下がって見えるのか？ | [F439_quality_adjusted_electronics](articles/F439_quality_adjusted_electronics) |
 | F463 | 出張などビジネスの宿泊は、コロナ前に戻ったのか？ | [F463_business_stays_recovery](articles/F463_business_stays_recovery) |
 | 149 | 川や海に比べて、湖だけ環境基準の達成率が低いのはなぜか？ | [149_lake_water_quality](articles/149_lake_water_quality) |
 | 241 | 公的データを使って困ったことは何だったか？ | [241_public_data_troubles](articles/241_public_data_troubles) |
@@ -1256,7 +1259,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（236本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（240本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1318,6 +1321,8 @@
 | F413 | 産業用ロボットの生産は、輸出が支えているのか？ | [F413_robot_production_exports](articles/F413_robot_production_exports) |
 | F414 | 中小企業の数は、どの規模でどれだけ減ったのか？ | [F414_firm_count_by_size](articles/F414_firm_count_by_size) |
 | F415 | 家電の販売の山のあとに、谷はどれだけ深かったのか？ | [F415_appliance_boom_bust](articles/F415_appliance_boom_bust) |
+| F416 | 中古品を売る店の売上は、伸びているのか？ | [F416_used_goods_retail](articles/F416_used_goods_retail) |
+| F418 | 「会社の6割以上は赤字」は、法人の統計でどう見えるか？ | [F418_loss_corporations_share](articles/F418_loss_corporations_share) |
 | F420 | 建設業の許可業者は、どの規模でどれだけ減ったのか？ | [F420_construction_permits_by_size](articles/F420_construction_permits_by_size) |
 | F421 | 「貿易で稼ぐ国から投資で稼ぐ国へ」は、国際収支でいつ起きたのか？ | [F421_trade_vs_income_balance](articles/F421_trade_vs_income_balance) |
 | F422 | 第一次所得収支の黒字は、どれだけ日本に戻ってきているのか？ | [F422_reinvested_earnings_share](articles/F422_reinvested_earnings_share) |
@@ -1331,6 +1336,8 @@
 | F431 | 「サービスの値段は上がりにくい」は本当か？ | [F431_services_price_sticky](articles/F431_services_price_sticky) |
 | F436 | 日本から海外の株や債券への投資は、どの投資家が増やしたのか？ | [F436_outward_portfolio_by_investor](articles/F436_outward_portfolio_by_investor) |
 | F438 | 企業の研修（OFF-JT）の費用は、増えたのか？ | [F438_offjt_spending_by_firm_size](articles/F438_offjt_spending_by_firm_size) |
+| F439 | テレビやパソコンの値段は、品質の向上を差し引くとどれだけ下がって見えるのか？ | [F439_quality_adjusted_electronics](articles/F439_quality_adjusted_electronics) |
+| F440 | 幼児教育と高校の無償化で、消費者物価はどれだけ下がったのか？ | [F440_free_education_cpi](articles/F440_free_education_cpi) |
 | F449 | トラック運転手の賃金は、時間あたりで全産業とどれだけ差があり、縮まっているのか？ | [F449_truck_driver_wage_gap](articles/F449_truck_driver_wage_gap) |
 | F450 | トラックの運賃は、2024年問題の前後で上がったのか？ | [F450_truck_freight_rates_2024](articles/F450_truck_freight_rates_2024) |
 | F451 | 自家用車の1台あたりの走行距離と燃料は、どれだけ減ったのか？ | [F451_private_car_km_fuel](articles/F451_private_car_km_fuel) |
@@ -1504,16 +1511,16 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 163 |
-| EC・会員・Web | 92 |
+| 小売・店舗 | 164 |
+| EC・会員・Web | 93 |
 | マーケティング・広告 | 21 |
-| 需要予測・在庫 | 30 |
+| 需要予測・在庫 | 31 |
 | 業務の集計・報告 | 126 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 375 |
+| 公的統計・地域・人口 | 380 |
 
-<details><summary><b>小売・店舗</b>（163本）</summary>
+<details><summary><b>小売・店舗</b>（164本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1559,6 +1566,7 @@
 | F407 | 「コンビニは飽和した」は、店の数と1店あたりの売上でどう見えるか？ | [F407_convenience_store_saturation](articles/F407_convenience_store_saturation) |
 | F408 | 百貨店の売上は、訪日客の買物でどこまで戻ったのか？ | [F408_department_store_inbound](articles/F408_department_store_inbound) |
 | F415 | 家電の販売の山のあとに、谷はどれだけ深かったのか？ | [F415_appliance_boom_bust](articles/F415_appliance_boom_bust) |
+| F416 | 中古品を売る店の売上は、伸びているのか？ | [F416_used_goods_retail](articles/F416_used_goods_retail) |
 | F433 | キャベツなど野菜の値段は、天気でどこまで決まるのか？ | [F433_vegetable_price_weather](articles/F433_vegetable_price_weather) |
 | 305 | DAX の CALCULATE は、何をしているのか？ | [305_dax_calculate_filter_context](articles/305_dax_calculate_filter_context) |
 | 315 | 1年分の保険料を、月ごとの売上にどう分けるか？ | [315_sql_earned_premium](articles/315_sql_earned_premium) |
@@ -1683,7 +1691,7 @@
 
 </details>
 
-<details><summary><b>EC・会員・Web</b>（92本）</summary>
+<details><summary><b>EC・会員・Web</b>（93本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1707,6 +1715,7 @@
 | F251 | 販促の効果を測る（業務の再現：架空の会社で） シリーズ③の6本目。F247 の mart の架空の食品スーパー「サンプル | [F251_promo_effect_fictional_retail](articles/F251_promo_effect_fictional_retail) |
 | F270 | 「訪日客が過去最多」は、1人あたりの支出で見ても最多か？ | [F270_inbound_record_per_capita](articles/F270_inbound_record_per_capita) |
 | F271 | 見られるダッシュボードと、見られないダッシュボードの違いは何か？ | [F271_dashboard_answer_cost](articles/F271_dashboard_answer_cost) |
+| F416 | 中古品を売る店の売上は、伸びているのか？ | [F416_used_goods_retail](articles/F416_used_goods_retail) |
 | 294 | SQL のクエリが遅いとき、まず何を見るか？ | [294_slow_query_first_checks](articles/294_slow_query_first_checks) |
 | 311 | 表をつなぐと、合計はなぜ増えたり減ったりするのか？ | [311_sql_join_fanout](articles/311_sql_join_fanout) |
 | 312 | SQL の NULL は、集計をどれだけ黙ってずらすのか？ | [312_sql_null_aggregation](articles/312_sql_null_aggregation) |
@@ -1810,7 +1819,7 @@
 
 </details>
 
-<details><summary><b>需要予測・在庫</b>（30本）</summary>
+<details><summary><b>需要予測・在庫</b>（31本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1829,6 +1838,7 @@
 | F269 | 「価格転嫁できた企業」は、どんな企業か？ | [F269_sme_price_passthrough](articles/F269_sme_price_passthrough) |
 | F281 | 食料自給率の目標と実際の差は、どこから来ているのか？ | [F281_food_self_sufficiency_target_gap](articles/F281_food_self_sufficiency_target_gap) |
 | F285 | エネルギー基本計画の電力需要の見通しは、過去にどれだけ当たったか？ | [F285_power_demand_outlook_accuracy](articles/F285_power_demand_outlook_accuracy) |
+| F417 | 在庫循環図で、製造業の景気の位置は分かるのか？ | [F417_inventory_cycle_position](articles/F417_inventory_cycle_position) |
 | F485 | 節電の要請で、電力の需要はどれだけ下がったのか？ | [F485_setsuden_demand](articles/F485_setsuden_demand) |
 | 286 | 予測モデルは、線形回帰と勾配ブースティングのどちらから始めるか？ | [286_linear_vs_gbm_first](articles/286_linear_vs_gbm_first) |
 | 296 | 需要予測の当たり外れを、毎週どう見張るか？ | [296_forecast_error_control_chart](articles/296_forecast_error_control_chart) |
@@ -2070,7 +2080,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（375本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（380本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2356,6 +2366,9 @@
 | F413 | 産業用ロボットの生産は、輸出が支えているのか？ | [F413_robot_production_exports](articles/F413_robot_production_exports) |
 | F414 | 中小企業の数は、どの規模でどれだけ減ったのか？ | [F414_firm_count_by_size](articles/F414_firm_count_by_size) |
 | F415 | 家電の販売の山のあとに、谷はどれだけ深かったのか？ | [F415_appliance_boom_bust](articles/F415_appliance_boom_bust) |
+| F416 | 中古品を売る店の売上は、伸びているのか？ | [F416_used_goods_retail](articles/F416_used_goods_retail) |
+| F417 | 在庫循環図で、製造業の景気の位置は分かるのか？ | [F417_inventory_cycle_position](articles/F417_inventory_cycle_position) |
+| F418 | 「会社の6割以上は赤字」は、法人の統計でどう見えるか？ | [F418_loss_corporations_share](articles/F418_loss_corporations_share) |
 | F419 | うめの開花は、さくらより速く早まっているのか？ | [F419_ume_vs_sakura_bloom](articles/F419_ume_vs_sakura_bloom) |
 | F420 | 建設業の許可業者は、どの規模でどれだけ減ったのか？ | [F420_construction_permits_by_size](articles/F420_construction_permits_by_size) |
 | F421 | 「貿易で稼ぐ国から投資で稼ぐ国へ」は、国際収支でいつ起きたのか？ | [F421_trade_vs_income_balance](articles/F421_trade_vs_income_balance) |
@@ -2376,6 +2389,8 @@
 | F436 | 日本から海外の株や債券への投資は、どの投資家が増やしたのか？ | [F436_outward_portfolio_by_investor](articles/F436_outward_portfolio_by_investor) |
 | F437 | ホテル・旅館の宿泊料の上がり方は、訪日客の多さと関係があるのか？ | [F437_lodging_price_inbound](articles/F437_lodging_price_inbound) |
 | F438 | 企業の研修（OFF-JT）の費用は、増えたのか？ | [F438_offjt_spending_by_firm_size](articles/F438_offjt_spending_by_firm_size) |
+| F439 | テレビやパソコンの値段は、品質の向上を差し引くとどれだけ下がって見えるのか？ | [F439_quality_adjusted_electronics](articles/F439_quality_adjusted_electronics) |
+| F440 | 幼児教育と高校の無償化で、消費者物価はどれだけ下がったのか？ | [F440_free_education_cpi](articles/F440_free_education_cpi) |
 | F449 | トラック運転手の賃金は、時間あたりで全産業とどれだけ差があり、縮まっているのか？ | [F449_truck_driver_wage_gap](articles/F449_truck_driver_wage_gap) |
 | F450 | トラックの運賃は、2024年問題の前後で上がったのか？ | [F450_truck_freight_rates_2024](articles/F450_truck_freight_rates_2024) |
 | F451 | 自家用車の1台あたりの走行距離と燃料は、どれだけ減ったのか？ | [F451_private_car_km_fuel](articles/F451_private_car_km_fuel) |
