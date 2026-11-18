@@ -1,0 +1,4 @@
+2026-11-18 再実行：12 ファイル一致、所要 3 秒
+手順：記事のフォルダを /tmp/rep_F500 に写し、results の CSV・JSON、figures の PNG、data の panel.csv・build_checks.json（02 以降が作るもの）を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。
+内訳：results 6（main.json・requestion.json・by_year.csv・by_setter.csv・robustness.csv・per_school.csv）、figures 4、data 2。ネットにはつながない。乱数は使っていない。
+2026-11-18 独立レビュー後の再実行：/tmp/rv_F500 に写し、同じ手順で 12 ファイル（results 6、figures 4、data 2）がすべて cmp で一致、所要 3 秒（直したのは README・note の文と題名だけで、コードは変えていない）。

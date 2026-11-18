@@ -1,0 +1,66 @@
+{
+ "ryori_first_year": 1987,
+ "ryori_last_year": 2025,
+ "ryori_annual_first": 351.47,
+ "ryori_annual_first_year": 1987,
+ "ryori_annual_2025": 430.29,
+ "mnm_annual_first": 360.09,
+ "mnm_annual_first_year": 1994,
+ "mnm_annual_2025": 428.41,
+ "ryori_growth_1991_2013": 1.86,
+ "ryori_growth_2014_2025": 2.541,
+ "ryori_growth_2025": 2.4,
+ "ryori_growth_sd_1991_2025": 0.83,
+ "ryori_growth_1988_1997": 1.517,
+ "ryori_growth_1996_2005": 1.887,
+ "ryori_growth_2006_2015": 2.137,
+ "ryori_growth_2016_2025": 2.669,
+ "em_1990": 1159.8,
+ "em_2013": 1312.4,
+ "em_2024": 971.5,
+ "em_drop_2013_2024_Mt": 340.9,
+ "em_drop_pct": 26.0,
+ "em_2024_ppm_upper": 0.1249,
+ "em_drop_ppm_upper": 0.0438,
+ "em_drop_ppm_half": 0.0219,
+ "em_drop_share_of_growth_2014_2025": 0.0172,
+ "corr_detrended": 0.086,
+ "corr_growth_vs_em_change": 0.263,
+ "corr_n": 32,
+ "amp": {
+  "綾里": 13.76,
+  "南鳥島": 7.89,
+  "与那国島": 9.5
+ },
+ "amp_ratio_ryo_mnm": 1.75,
+ "amp_ratio_ryo_yon": 1.45,
+ "hypotheses": {
+  "H1": {
+   "rule": "綾里の年増加量の平均は2014〜2025年＞1991〜2013年",
+   "value": [
+    1.86,
+    2.541
+   ],
+   "verdict": "支持"
+  },
+  "H2": {
+   "rule": "日本の排出の減少（2013→2024年度）を上限で換算しても0.1ppm/年未満",
+   "value": 0.0438,
+   "verdict": "支持"
+  },
+  "H3": {
+   "rule": "排出と年増加量の年ごとの動きの相関は|r|<0.3",
+   "value": 0.086,
+   "verdict": "支持"
+  },
+  "H4": {
+   "rule": "綾里の季節変動の幅は南鳥島・与那国島の2倍以上",
+   "value": [
+    1.75,
+    1.45
+   ],
+   "verdict": "外れ"
+  }
+ },
+ "robust_all_after_gt_before": true
+}

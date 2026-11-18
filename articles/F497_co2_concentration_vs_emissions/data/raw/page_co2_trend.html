@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>気象庁 | 大気中二酸化炭素濃度の経年変化</title>
+    <meta name="Author" content="気象庁 Japan Meteorological Agency" />
+    <meta name="keywords" content="気象庁 Japan Meteorological Agency ,JMA,温室効果ガス監視情報,二酸化炭素分布情報,温室効果,温室効果ガス,二酸化炭素,メタン,フロン,濃度,環境,地球環境,分布,逆解析" />
+    <meta name="description" content="気象庁が提供するページです" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <link rel="stylesheet" type="text/css" href="//www.data.jma.go.jp/com/css/define.css" media="all" />
+    <style type="text/css" media="all"><!-- @import url(//www.data.jma.go.jp/com/default.css); --></style>
+  </head>
+  
+  <body>
+    <noscript><div>すべての機能をご利用いただくにはJavascriptを有効にしてください。</div></noscript>
+    <div id="header_area">
+      <div id="nheader">
+	<div id="logo"><a href="//www.jma.go.jp/jma/index.html"><img src="//www.data.jma.go.jp/com/images/logo.gif" alt="気象庁" width="120" height="67" /></a></div>
+	
+	  <div id="header2_right">
+            <div id="header2_link">
+              <ul>
+                <li xml:lang="en" lang="en"><a href="//www.jma.go.jp/jma/indexe.html">ENGLISH</a></li>
+              </ul>
+            </div>
+	    <div id="gsearch">
+              <form id="cse-search-box" action="//google.com/cse">
+                <input type="hidden" name="cx" value="009950868052057056798:0yrbmp7chwi" />
+                <input type="hidden" name="ie" value="UTF-8" />
+                <input type="text" name="q" />
+                <input type="image" name="sa" src="/jma/com/images/btn_search6.png" alt="検索" />
+              </form>
+              <script type="text/javascript" src="//www.google.com/cse/brand?form=cse-search-box&amp;lang=ja"></script>
+            </div>
+	  </div>
+	<ul id="gnavi">
+	  <li><a href="//www.jma.go.jp/">ホーム</a></li>
+	  <li><a href="//www.jma.go.jp/jma/menu/menuflash.html">防災情報</a></li>
+	  <li><a href="//www.jma.go.jp/jma/menu/menureport.html" class="on">各種データ・資料</a></li>
+	  <li><a href="//www.jma.go.jp/jma/menu/areas.html">地域の情報</a></li>
+	  <li><a href="//www.jma.go.jp/jma/menu/menuknowledge.html">知識・解説</a></li>
+	  <li><a href="//www.jma.go.jp/jma/menu/menuappli.html">各種申請・ご案内</a></li>
+	</ul>
+      </div>
+    </div>
+    
+    <div id="contents_area2">
+      <div id="ncontents2">
+	<ul class="breadcrumb2">
+	  <a href="//www.jma.go.jp/">ホーム</a> &gt; 
+	  <a href="//www.jma.go.jp/jma/menu/menureport.html">各種データ・資料</a> &gt; 
+	  <a href="//www.data.jma.go.jp/cpdinfo/menu/index.html">地球環境・気候</a> &gt; 
+	  <a href="../../info_ghg.html">温室効果ガス</a> &gt; 
+	  <a href="../info_co2.html">二酸化炭素</a> &gt; 
+	  大気中二酸化炭素濃度の経年変化
+	</ul>
+	
+	<div id="main">
+	  <div id="submenu">
+	    <ul id="submenulist">
+	      <li><a href="./co2_trend.html#jma">気象庁の観測点</a></li>
+	      <li><a href="./co2_trend.html#co2_global_trend">世界平均</a></li>
+	      <li><a href="./co2_trend.html#latitude">緯度帯ごとの平均</a></li>
+	    </ul>
+	  </div>
+
+	  <h1>大気中二酸化炭素濃度の経年変化</h1>
+	  <div id="update"></div>
+	  
+	  <p class="mtx">
+	    &emsp;<a href="//gaw.kishou.go.jp/jp" target="_blank">温室効果ガス世界資料センター</a>（WDCGG）の解析による2025年の大気中二酸化炭素の世界平均濃度は、前年と比べて2.8ppm<sup>※1</sup>増えて426.8ppmとなっています。<br />
+	    &emsp;工業化以前（1750年）の平均的な値とされる約278ppm<sup>※2</sup>と比べて、53&#37;増加しています。<br />
+	    <small>※1 ppmは大気中の分子100万個中にある対象物質の個数を表す単位です。</small><br />
+	    <small>※2 <a href="https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter02.pdf" target="_blank">気候変動に関する政府間パネル（IPCC:Intergovernmental Panel on Climate Change）第6次評価報告書第1部作業部会報告書（2021年）第2章</a> 2.2.3 Well-mixed Greenhouse Gases (WMGHGs) (p.298 &ndash; 304)を参照。</small>
+	  </p>
+
+	  <h2 id="jma">気象庁の観測点における大気中二酸化炭素濃度及び年増加量の経年変化</h2>
+	  <div class="dispFig">
+	    <img src="./atmosphericco2.png" alt="気象庁の観測点での大気中二酸化炭素濃度と濃度年増加量の経年変化" />
+	    <p>
+	      <strong>気象庁の観測地点における大気中の二酸化炭素の月平均濃度と季節変動を除いた濃度（上図）及び濃度年増加量（下図）の時間変化</strong><br />
+	      一部の観測値は速報値です。観測値の状況については<a href="../obs/co2_monthave_ryo.html">月平均値</a>をご参照ください。
+	      与那国島での観測は2024年3月末で終了しました。
+	    </p>
+	  </div>
+	  <p class="mtx">
+	    &emsp;気象庁の観測地点である綾里、南鳥島及び与那国島（与那国島は2024年3月末で観測終了）における大気中二酸化炭素濃度と、その時系列データから季節変動やそれより短い周期成分を取り除いた濃度及び濃度年増加量の経年変化を図に示します。いずれの観測地点においても、季節変動を繰り返しながら大気中二酸化炭素濃度は増加し続けています。<br />
+	    &emsp;大気中二酸化炭素濃度の季節変動は主として陸上生物圏の活動によって生じています。夏季に植物の光合成が活発化することで濃度が減少し、冬季には呼吸・分解活動が優勢となって濃度が上昇するためです。3地点のうち最も北に位置する綾里で季節変動が最も大きくなっていますが、これは、北半球では中高緯度域における陸上生物圏の活動の季節変動が大きいことを反映して、高緯度ほど濃度の季節変動が大きくなる傾向があるためです。<br />
+	    &emsp;一方、ほぼ同緯度に位置する与那国島と南鳥島での大気中二酸化炭素濃度を比べると、夏季には同程度である一方、冬季には与那国島の方が高くなっています。これは、夏季に海洋上のよく混合された大気が両地点に流入するのに対し、冬季には人為起源排出や植物の呼吸・分解活動によって二酸化炭素濃度が高くなったアジア大陸の大気が季節風によって与那国島に流入しやすいためです。<br /><br />
+	    &emsp;大気中二酸化炭素濃度の年増加量はいずれの観測地点においても一定ではなく、年々変動がみられます。年増加量が大きくなる時期はエルニーニョ現象の発生時期におおむね対応しています。これは、エルニーニョ現象がもたらす熱帯域を中心とした高温と少雨により植物の呼吸や土壌有機物分解作用の強化及び植物の光合成活動の抑制が生じ、陸上生物圏から大気への二酸化炭素放出が強まるためです。最近の例では2014～2016年のエルニーニョ現象発生に伴い、大気中二酸化炭素濃度が大きく増加しました。また、2023～2024年のエルニーニョ現象に伴い、南鳥島では大気中二酸化炭素濃度が大きく増加しました。<br />
+	    &emsp;大気中二酸化炭素濃度の年々変動の要因について、より詳しい説明は<a href="//www.jma.go.jp/jma/kishou/know/ghg/tour/tour_a3.html" target="_blank">こちら</a>をご覧ください。
+	  </p>
+
+	  <h2 id="co2_global_trend">大気中二酸化炭素の世界平均濃度の経年変化</h2>
+	  <div class="dispFig">
+	    <img src="./co2.png" alt="大気中二酸化炭素の世界平均濃度の経年変化グラフ" width="700"/>
+	    <p>
+	      <strong>大気中の二酸化炭素の世界平均濃度</strong><br />
+	      青色は月平均濃度。赤色は季節変動を除去した濃度。
+	    </p>
+	  </div>
+	  
+	  <p class="mtx">
+	    &emsp;<a href="//gaw.kishou.go.jp/jp" target="_blank">温室効果ガス世界資料センター</a>（WDCGG）が世界各地の観測データを収集し、それをもとに解析した大気中二酸化炭素の世界平均濃度の経年変化を示します。世界平均濃度で見ても、濃度が上昇していることが分かります。
+	  </p>
+	  
+	  <h2 id="latitude">緯度帯ごとに平均した大気中二酸化炭素濃度の変動</h2>
+	  <div class="dispFig">
+	    <img src="./globalco2.png" alt="緯度帯ごとに平均した大気中二酸化炭素濃度の変動" width="900"/>
+	    <p>
+	      <strong>緯度帯別の大気中の二酸化炭素濃度の時間変化</strong>
+	    </p>
+	  </div>
+	  
+	  <p class="mtx">
+	    &emsp;WDCGGが収集したデータをもとに、緯度帯別に平均した大気中二酸化炭素の月平均濃度の経年変化を示します。<br />
+	    &emsp;緯度帯別に見ると、相対的に北半球の中・高緯度帯の濃度が高く、南半球では濃度が低くなっています。これは、二酸化炭素の放出源が北半球に多く存在するためです。<br />
+	    &emsp;また、春から夏に減少し、夏から翌春にかけて増加する季節変動は、主に陸域の植物活動によるものです。このため、陸域面積の多い北半球では季節変動の振幅が大きく、陸域の面積の少ない南半球では振幅が小さくなっています。
+	  </p>
+	
+	  <h2>関連情報</h2>
+	  <ul class="pagelink mtx">
+	    <li><a href="../obs/co2_monthave_ryo.html">大気中二酸化炭素濃度の観測結果（月平均値）</a></li>
+	    <li><a href="../obs/co2_yearave.html">大気中二酸化炭素濃度の観測結果（年平均値）</a></li>
+	    <li><a href="../info_aircraft.html#co2">航空機による北西太平洋上空の大気中二酸化炭素濃度の観測</a></li>
+	    <li><a href="//www.jma.go.jp/jma/kishou/know/ghg/info_tour.html">温室効果ガスに関する知識（温室効果ガスWeb科学館）</a></li>
+	    <li><a href="//www.jma.go.jp/jma/kishou/know/env/info/monitoring.html">気象庁が行っている環境気象観測（観測点等の情報）</a></li>
+	    <li><a href="//www.data.jma.go.jp/env/data/report/data/">大気・海洋環境観測年報（データ集）</a></li>
+	    <li><a href="../info_kanshi.html">二酸化炭素分布情報</a></li>
+	  </ul>
+
+	  <div id="gotop">
+	    <a href="#header_area">このページのトップへ</a><hr /><br />
+	    <a href="../info_co2.html">二酸化炭素トップページへ戻る</a><br /><br />
+	    <a href="../../info_ghg.html">温室効果ガストップページへ戻る</a>
+	  </div>
+	</div>
+      </div>
+    </div>
+    <div id="footer_area">
+      <div id="nfooter">
+	<ul>
+	  <li><a href="//www.jma.go.jp/jma/kishou/info/coment.html">気象庁ホームページについて</a></li>
+	</ul>
+      </div>
+    </div>
+    <link rel="stylesheet" type="text/css" href="../../common/ghg.css" media="all" />
+    <script type="text/javascript" src="../../common/nextup.js"></script>
+  </body>
+</html>

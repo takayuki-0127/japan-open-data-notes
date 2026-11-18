@@ -1,0 +1,26 @@
+{
+ "ent_sum_eq_total": true,
+ "jc_setter_sum_eq_total": true,
+ "jc_t1_eq_k12": true,
+ "rate_univ_max_abs_diff_pt": 0.049,
+ "univ_setter_sum_eq_total": true,
+ "univ_t1_eq_k10": true,
+ "values": {
+  "1992": {
+   "ent_jc": 254676,
+   "ent_univ": 541604,
+   "jc_total": 591,
+   "pop18": 2058836,
+   "univ_public": 41,
+   "univ_total": 523
+  },
+  "2025": {
+   "ent_jc": 30183,
+   "ent_univ": 645513,
+   "jc_total": 292,
+   "pop18": 1100851,
+   "univ_public": 103,
+   "univ_total": 812
+  }
+ }
+}

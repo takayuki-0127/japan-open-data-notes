@@ -1,0 +1,64 @@
+{
+ "ent_univ_per_univ": {
+  "1992": 1035.6,
+  "2025": 795.0,
+  "change_pct": -23.2,
+  "max": 1039.3,
+  "max_year": 1993
+ },
+ "jc_change_by_period": {
+  "1992-2000": -19,
+  "2000-2010": -177,
+  "2010-2020": -72,
+  "2020-2025": -31
+ },
+ "pop18_per_univ": {
+  "1992": 3936.6,
+  "2025": 1355.7,
+  "change_pct": -65.6,
+  "max": 4000.9,
+  "max_year": 1986
+ },
+ "students_per_univ_national": {
+  "1992": 5542.8,
+  "2025": 7163.2,
+  "change_pct": 29.2,
+  "max": 7268.0,
+  "max_year": 2010
+ },
+ "students_per_univ_private": {
+  "1992": 4376.4,
+  "2025": 3514.7,
+  "change_pct": -19.7,
+  "max": 4496.5,
+  "max_year": 1993
+ },
+ "students_per_univ_public": {
+  "1992": 1695.7,
+  "2025": 1654.1,
+  "change_pct": -2.5,
+  "max": 1710.1,
+  "max_year": 1991
+ },
+ "students_per_univ_total": {
+  "1992": 4384.8,
+  "2025": 3660.6,
+  "change_pct": -16.5,
+  "max": 4508.1,
+  "max_year": 1996
+ },
+ "univ_change_by_period": {
+  "1992-2000": 126,
+  "2000-2010": 129,
+  "2010-2020": 17,
+  "2020-2025": 17
+ },
+ "univ_decrease_years": [
+  2013,
+  2014,
+  2015,
+  2016,
+  2025
+ ],
+ "univ_increase_years_since_1992": 28
+}

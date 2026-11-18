@@ -1,0 +1,262 @@
+{
+ "base_year": 1992,
+ "corr_only_univ": {
+  "1992": 1,
+  "2025": 8
+ },
+ "decomp_both": {
+  "change": -120584,
+  "ent0": 796280,
+  "ent1": 675696,
+  "pop0": 2058836,
+  "pop1": 1100851,
+  "pop_effect": -479259,
+  "rate0_pct": 38.68,
+  "rate1_pct": 61.38,
+  "rate_effect": 358675,
+  "y0": 1992,
+  "y1": 2025
+ },
+ "decomp_univ": {
+  "change": 103909,
+  "ent0": 541604,
+  "ent1": 645513,
+  "pop0": 2058836,
+  "pop1": 1100851,
+  "pop_effect": -406875,
+  "rate0_pct": 26.31,
+  "rate1_pct": 58.64,
+  "rate_effect": 510784,
+  "y0": 1992,
+  "y1": 2025
+ },
+ "end_year": 2025,
+ "ent_both": {
+  "1992": 796280,
+  "2025": 675696,
+  "change_pct": -15.1,
+  "max_n": 809926,
+  "max_year": 1993
+ },
+ "ent_jc": {
+  "1992": 254676,
+  "2025": 30183,
+  "change_pct": -88.1,
+  "max_year": 1993
+ },
+ "ent_univ": {
+  "1992": 541604,
+  "2025": 645513,
+  "change_pct": 19.2,
+  "max_n": 645513,
+  "max_year": 2025
+ },
+ "hypotheses": {
+  "H1": {
+   "pop18_change_pct": -46.5,
+   "univ_change_pct": 55.3,
+   "verdict": "支持"
+  },
+  "H2": {
+   "ent_change": 103909,
+   "pop_effect": -406875,
+   "rate_effect": 510784,
+   "verdict": "支持"
+  },
+  "H3": {
+   "change_pct": -0.9,
+   "verdict": "支持"
+  },
+  "H4": {
+   "private_ratio": 1.625,
+   "public_ratio": 2.512,
+   "verdict": "支持"
+  }
+ },
+ "jc": {
+  "1992": 591,
+  "2025": 292,
+  "change_pct": -50.6,
+  "max_n": 598,
+  "max_year": 1996
+ },
+ "jc_2026_t1": 290,
+ "pop18": {
+  "1992": 2058836,
+  "2025": 1100851,
+  "change_pct": -46.5,
+  "peak_year": 1992
+ },
+ "rate_jc_tab": {
+  "1992": 12.4,
+  "2025": 2.7
+ },
+ "rate_univ_tab": {
+  "1992": 26.3,
+  "2025": 58.6
+ },
+ "robustness": [
+  {
+   "change": 103909.0,
+   "check": "本線（18歳人口＝3年前の中学校等卒業者）",
+   "note": null,
+   "period": "1992→2025",
+   "pop_change_pct": -46.5,
+   "pop_effect": -406875.0,
+   "rate_effect": 510784.0,
+   "univ_change_pct": 55.3
+  },
+  {
+   "change": 103909.0,
+   "check": "18歳人口の目安を高校の卒業者数に替える",
+   "note": null,
+   "period": "1992→2025",
+   "pop_change_pct": -48.6,
+   "pop_effect": -436562.0,
+   "rate_effect": 540471.0,
+   "univ_change_pct": 55.3
+  },
+  {
+   "change": 45858.0,
+   "check": "期間を変える",
+   "note": null,
+   "period": "2000→2025",
+   "pop_change_pct": -27.5,
+   "pop_effect": -204658.0,
+   "rate_effect": 250516.0,
+   "univ_change_pct": 25.1
+  },
+  {
+   "change": 26394.0,
+   "check": "期間を変える",
+   "note": null,
+   "period": "2010→2025",
+   "pop_change_pct": -10.0,
+   "pop_effect": -67003.0,
+   "rate_effect": 93397.0,
+   "univ_change_pct": 4.4
+  },
+  {
+   "change": NaN,
+   "check": "通信教育のみの大学を除いて数える",
+   "note": "通信教育のみの大学 1→8校",
+   "period": "1992→2025",
+   "pop_change_pct": -46.5,
+   "pop_effect": NaN,
+   "rate_effect": NaN,
+   "univ_change_pct": 54.0
+  },
+  {
+   "change": -120584.0,
+   "check": "大学＋短大の入学者で分解",
+   "note": "学校数は大学＋短大",
+   "period": "1992→2025",
+   "pop_change_pct": -46.5,
+   "pop_effect": -479259.0,
+   "rate_effect": 358675.0,
+   "univ_change_pct": -0.9
+  },
+  {
+   "change": NaN,
+   "check": "学校数を2026年（総括表1）まで延ばす",
+   "note": "大学 812→816校、短大 292→290校（2026年）",
+   "period": "1992→2026",
+   "pop_change_pct": NaN,
+   "pop_effect": NaN,
+   "rate_effect": NaN,
+   "univ_change_pct": 56.0
+  }
+ ],
+ "setter": [
+  {
+   "kind": "大学",
+   "schools_1992": 98,
+   "schools_2025": 85,
+   "schools_diff": -13,
+   "schools_ratio": 0.867,
+   "setter": "国立",
+   "students_1992": 543198,
+   "students_2025": 608869,
+   "students_change_pct": 12.1
+  },
+  {
+   "kind": "短期大学",
+   "schools_1992": 39,
+   "schools_2025": 0,
+   "schools_diff": -39,
+   "schools_ratio": 0.0,
+   "setter": "国立",
+   "students_1992": 17482,
+   "students_2025": 0,
+   "students_change_pct": -100.0
+  },
+  {
+   "kind": "大学",
+   "schools_1992": 41,
+   "schools_2025": 103,
+   "schools_diff": 62,
+   "schools_ratio": 2.512,
+   "setter": "公立",
+   "students_1992": 69522,
+   "students_2025": 170373,
+   "students_change_pct": 145.1
+  },
+  {
+   "kind": "短期大学",
+   "schools_1992": 53,
+   "schools_2025": 14,
+   "schools_diff": -39,
+   "schools_ratio": 0.264,
+   "setter": "公立",
+   "students_1992": 22518,
+   "students_2025": 4750,
+   "students_change_pct": -78.9
+  },
+  {
+   "kind": "大学",
+   "schools_1992": 384,
+   "schools_2025": 624,
+   "schools_diff": 240,
+   "schools_ratio": 1.625,
+   "setter": "私立",
+   "students_1992": 1680549,
+   "students_2025": 2193170,
+   "students_change_pct": 30.5
+  },
+  {
+   "kind": "短期大学",
+   "schools_1992": 499,
+   "schools_2025": 278,
+   "schools_diff": -221,
+   "schools_ratio": 0.557,
+   "setter": "私立",
+   "students_1992": 484538,
+   "students_2025": 66446,
+   "students_change_pct": -86.3
+  }
+ ],
+ "univ": {
+  "1992": 523,
+  "2025": 812,
+  "change_pct": 55.3,
+  "max_n": 813,
+  "max_year": 2024
+ },
+ "univ_2024_2025": {
+  "2024": 813,
+  "2025": 812
+ },
+ "univ_2026_t1": 816,
+ "univ_increase_by_setter": {
+  "公立": 62,
+  "国立": -13,
+  "私立": 240
+ },
+ "univ_plus_jc": {
+  "1992": 1114,
+  "2025": 1104,
+  "change_pct": -0.9,
+  "max_n": 1228,
+  "max_year": 2001
+ }
+}
