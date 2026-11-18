@@ -1,0 +1,202 @@
+{
+ "choco_real": {
+  "2005-07→2015-17": {
+   "29歳以下→30～39歳": {
+    "age_gap_pct_at_start": 19.2,
+    "cohort_pct": 8.3,
+    "same_age_pct": -9.2
+   },
+   "30～39歳→40～49歳": {
+    "age_gap_pct_at_start": 17.9,
+    "cohort_pct": -3.4,
+    "same_age_pct": -18.1
+   },
+   "40～49歳→50～59歳": {
+    "age_gap_pct_at_start": -28.5,
+    "cohort_pct": -27.1,
+    "same_age_pct": 1.9
+   },
+   "50～59歳→60～69歳": {
+    "age_gap_pct_at_start": -31.5,
+    "cohort_pct": -23.6,
+    "same_age_pct": 11.6
+   },
+   "n": 4,
+   "n_cohort_above_gap": 2
+  },
+  "2013-15→2023-25": {
+   "29歳以下→30～39歳": {
+    "age_gap_pct_at_start": 24.7,
+    "cohort_pct": 18.4,
+    "same_age_pct": -5.0
+   },
+   "30～39歳→40～49歳": {
+    "age_gap_pct_at_start": 8.9,
+    "cohort_pct": -0.1,
+    "same_age_pct": -8.3
+   },
+   "40～49歳→50～59歳": {
+    "age_gap_pct_at_start": -10.7,
+    "cohort_pct": -25.0,
+    "same_age_pct": -16.0
+   },
+   "50～59歳→60～69歳": {
+    "age_gap_pct_at_start": -28.7,
+    "cohort_pct": -26.4,
+    "same_age_pct": 3.2
+   },
+   "n": 4,
+   "n_cohort_above_gap": 1
+  }
+ },
+ "choco_real_sweetscpi": {
+  "2005-07→2015-17": {
+   "29歳以下→30～39歳": {
+    "age_gap_pct_at_start": 19.2,
+    "cohort_pct": 46.9,
+    "same_age_pct": 23.2
+   },
+   "30～39歳→40～49歳": {
+    "age_gap_pct_at_start": 17.9,
+    "cohort_pct": 31.0,
+    "same_age_pct": 11.1
+   },
+   "40～49歳→50～59歳": {
+    "age_gap_pct_at_start": -28.5,
+    "cohort_pct": -1.1,
+    "same_age_pct": 38.3
+   },
+   "50～59歳→60～69歳": {
+    "age_gap_pct_at_start": -31.5,
+    "cohort_pct": 3.7,
+    "same_age_pct": 51.4
+   },
+   "n": 4,
+   "n_cohort_above_gap": 4
+  },
+  "2013-15→2023-25": {
+   "29歳以下→30～39歳": {
+    "age_gap_pct_at_start": 25.1,
+    "cohort_pct": 36.5,
+    "same_age_pct": 9.2
+   },
+   "30～39歳→40～49歳": {
+    "age_gap_pct_at_start": 8.8,
+    "cohort_pct": 15.5,
+    "same_age_pct": 6.1
+   },
+   "40～49歳→50～59歳": {
+    "age_gap_pct_at_start": -10.7,
+    "cohort_pct": -13.4,
+    "same_age_pct": -2.9
+   },
+   "50～59歳→60～69歳": {
+    "age_gap_pct_at_start": -28.5,
+    "cohort_pct": -14.9,
+    "same_age_pct": 19.0
+   },
+   "n": 4,
+   "n_cohort_above_gap": 3
+  }
+ },
+ "snack_real": {
+  "2005-07→2015-17": {
+   "29歳以下→30～39歳": {
+    "age_gap_pct_at_start": 17.2,
+    "cohort_pct": 42.5,
+    "same_age_pct": 21.5
+   },
+   "30～39歳→40～49歳": {
+    "age_gap_pct_at_start": -3.5,
+    "cohort_pct": 28.7,
+    "same_age_pct": 33.4
+   },
+   "40～49歳→50～59歳": {
+    "age_gap_pct_at_start": -48.5,
+    "cohort_pct": -18.6,
+    "same_age_pct": 58.1
+   },
+   "50～59歳→60～69歳": {
+    "age_gap_pct_at_start": -40.3,
+    "cohort_pct": 1.3,
+    "same_age_pct": 69.7
+   },
+   "n": 4,
+   "n_cohort_above_gap": 4
+  },
+  "2013-15→2023-25": {
+   "29歳以下→30～39歳": {
+    "age_gap_pct_at_start": 30.7,
+    "cohort_pct": 42.6,
+    "same_age_pct": 9.1
+   },
+   "30～39歳→40～49歳": {
+    "age_gap_pct_at_start": 3.9,
+    "cohort_pct": 24.0,
+    "same_age_pct": 19.3
+   },
+   "40～49歳→50～59歳": {
+    "age_gap_pct_at_start": -40.2,
+    "cohort_pct": -16.4,
+    "same_age_pct": 39.7
+   },
+   "50～59歳→60～69歳": {
+    "age_gap_pct_at_start": -38.8,
+    "cohort_pct": -13.3,
+    "same_age_pct": 41.8
+   },
+   "n": 4,
+   "n_cohort_above_gap": 4
+  }
+ },
+ "snack_real_sweetscpi": {
+  "2005-07→2015-17": {
+   "29歳以下→30～39歳": {
+    "age_gap_pct_at_start": 17.3,
+    "cohort_pct": 23.7,
+    "same_age_pct": 5.5
+   },
+   "30～39歳→40～49歳": {
+    "age_gap_pct_at_start": -3.4,
+    "cohort_pct": 11.7,
+    "same_age_pct": 15.6
+   },
+   "40～49歳→50～59歳": {
+    "age_gap_pct_at_start": -48.5,
+    "cohort_pct": -29.4,
+    "same_age_pct": 37.0
+   },
+   "50～59歳→60～69歳": {
+    "age_gap_pct_at_start": -40.4,
+    "cohort_pct": -12.3,
+    "same_age_pct": 47.1
+   },
+   "n": 4,
+   "n_cohort_above_gap": 4
+  },
+  "2013-15→2023-25": {
+   "29歳以下→30～39歳": {
+    "age_gap_pct_at_start": 30.9,
+    "cohort_pct": 32.9,
+    "same_age_pct": 1.6
+   },
+   "30～39歳→40～49歳": {
+    "age_gap_pct_at_start": 3.8,
+    "cohort_pct": 15.2,
+    "same_age_pct": 10.9
+   },
+   "40～49歳→50～59歳": {
+    "age_gap_pct_at_start": -40.1,
+    "cohort_pct": -22.3,
+    "same_age_pct": 29.8
+   },
+   "50～59歳→60～69歳": {
+    "age_gap_pct_at_start": -38.8,
+    "cohort_pct": -19.4,
+    "same_age_pct": 31.8
+   },
+   "n": 4,
+   "n_cohort_above_gap": 4
+  }
+ }
+}

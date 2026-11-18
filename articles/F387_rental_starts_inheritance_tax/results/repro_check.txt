@@ -1,0 +1,1 @@
+2026-11-18 再実行：13 ファイル一致（results の CSV・JSON 7、figures の PNG 4、data の CSV 2）、所要 4 秒（独立レビューで直したあと /tmp/rv_F387 で再実行）
