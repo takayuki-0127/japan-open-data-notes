@@ -1,0 +1,336 @@
+{
+ "fy_range": [
+  1998,
+  2025
+ ],
+ "national_ldr": {
+  "1998": 104.63,
+  "1999": 97.17,
+  "2000": 94.93,
+  "2001": 91.31,
+  "2002": 84.3,
+  "2003": 79.19,
+  "2004": 75.85,
+  "2005": 74.04,
+  "2006": 74.94,
+  "2007": 73.72,
+  "2008": 74.41,
+  "2009": 73.43,
+  "2010": 70.64,
+  "2011": 68.92,
+  "2012": 68.41,
+  "2013": 67.47,
+  "2014": 67.45,
+  "2015": 67.2,
+  "2016": 64.71,
+  "2017": 63.45,
+  "2018": 63.62,
+  "2019": 63.64,
+  "2020": 61.64,
+  "2021": 59.68,
+  "2022": 59.82,
+  "2023": 60.04,
+  "2024": 61.18,
+  "2025": 62.87
+ },
+ "national_ldr_last12": 63.82,
+ "national_ex_tokyo_ldr": {
+  "1998": 82.77,
+  "2012": 56.82,
+  "2021": 52.59,
+  "2022": 52.77,
+  "2025": 54.85
+ },
+ "national_min": {
+  "fy": 2021,
+  "ldr": 59.68
+ },
+ "units_1998_2025": {
+  "北海道": {
+   "from": 1998,
+   "to": 2025,
+   "ldr_from": 91.58,
+   "ldr_to": 57.18,
+   "ldr_change_pt": -34.4,
+   "dlog_loans_pct": 11.07,
+   "dlog_deposits_pct": 58.18,
+   "dlog_ldr_pct": -47.11
+  },
+  "東北": {
+   "from": 1998,
+   "to": 2025,
+   "ldr_from": 72.47,
+   "ldr_to": 59.46,
+   "ldr_change_pt": -13.0,
+   "dlog_loans_pct": 33.47,
+   "dlog_deposits_pct": 53.24,
+   "dlog_ldr_pct": -19.78
+  },
+  "関東（東京を除く）": {
+   "from": 1998,
+   "to": 2025,
+   "ldr_from": 73.86,
+   "ldr_to": 46.5,
+   "ldr_change_pt": -27.36,
+   "dlog_loans_pct": 24.58,
+   "dlog_deposits_pct": 70.84,
+   "dlog_ldr_pct": -46.26
+  },
+  "東京": {
+   "from": 1998,
+   "to": 2025,
+   "ldr_from": 166.02,
+   "ldr_to": 76.13,
+   "ldr_change_pt": -89.88,
+   "dlog_loans_pct": 37.16,
+   "dlog_deposits_pct": 115.12,
+   "dlog_ldr_pct": -77.96
+  },
+  "北陸": {
+   "from": 1998,
+   "to": 2025,
+   "ldr_from": 73.04,
+   "ldr_to": 49.78,
+   "ldr_change_pt": -23.26,
+   "dlog_loans_pct": 12.62,
+   "dlog_deposits_pct": 50.96,
+   "dlog_ldr_pct": -38.34
+  },
+  "中部": {
+   "from": 1998,
+   "to": 2025,
+   "ldr_from": 74.25,
+   "ldr_to": 51.9,
+   "ldr_change_pt": -22.36,
+   "dlog_loans_pct": 27.19,
+   "dlog_deposits_pct": 63.02,
+   "dlog_ldr_pct": -35.82
+  },
+  "近畿": {
+   "from": 1998,
+   "to": 2025,
+   "ldr_from": 100.97,
+   "ldr_to": 52.63,
+   "ldr_change_pt": -48.34,
+   "dlog_loans_pct": -6.38,
+   "dlog_deposits_pct": 58.77,
+   "dlog_ldr_pct": -65.15
+  },
+  "中国": {
+   "from": 1998,
+   "to": 2025,
+   "ldr_from": 80.47,
+   "ldr_to": 66.57,
+   "ldr_change_pt": -13.9,
+   "dlog_loans_pct": 45.72,
+   "dlog_deposits_pct": 64.69,
+   "dlog_ldr_pct": -18.97
+  },
+  "四国": {
+   "from": 1998,
+   "to": 2025,
+   "ldr_from": 72.44,
+   "ldr_to": 65.56,
+   "ldr_change_pt": -6.88,
+   "dlog_loans_pct": 41.78,
+   "dlog_deposits_pct": 51.75,
+   "dlog_ldr_pct": -9.98
+  },
+  "九州・沖縄": {
+   "from": 1998,
+   "to": 2025,
+   "ldr_from": 87.58,
+   "ldr_to": 71.76,
+   "ldr_change_pt": -15.82,
+   "dlog_loans_pct": 43.95,
+   "dlog_deposits_pct": 63.87,
+   "dlog_ldr_pct": -19.93
+  },
+  "全国": {
+   "from": 1998,
+   "to": 2025,
+   "ldr_from": 104.63,
+   "ldr_to": 62.87,
+   "ldr_change_pt": -41.77,
+   "dlog_loans_pct": 28.12,
+   "dlog_deposits_pct": 79.07,
+   "dlog_ldr_pct": -50.94
+  }
+ },
+ "units_2022_2025": {
+  "北海道": {
+   "ldr_from": 58.35,
+   "ldr_to": 57.18,
+   "ldr_change_pt": -1.17
+  },
+  "東北": {
+   "ldr_from": 55.12,
+   "ldr_to": 59.46,
+   "ldr_change_pt": 4.35
+  },
+  "関東（東京を除く）": {
+   "ldr_from": 45.33,
+   "ldr_to": 46.5,
+   "ldr_change_pt": 1.18
+  },
+  "東京": {
+   "ldr_from": 72.55,
+   "ldr_to": 76.13,
+   "ldr_change_pt": 3.59
+  },
+  "北陸": {
+   "ldr_from": 51.41,
+   "ldr_to": 49.78,
+   "ldr_change_pt": -1.63
+  },
+  "中部": {
+   "ldr_from": 49.86,
+   "ldr_to": 51.9,
+   "ldr_change_pt": 2.04
+  },
+  "近畿": {
+   "ldr_from": 50.01,
+   "ldr_to": 52.63,
+   "ldr_change_pt": 2.63
+  },
+  "中国": {
+   "ldr_from": 63.5,
+   "ldr_to": 66.57,
+   "ldr_change_pt": 3.07
+  },
+  "四国": {
+   "ldr_from": 61.02,
+   "ldr_to": 65.56,
+   "ldr_change_pt": 4.54
+  },
+  "九州・沖縄": {
+   "ldr_from": 68.78,
+   "ldr_to": 71.76,
+   "ldr_change_pt": 2.98
+  },
+  "全国": {
+   "ldr_from": 59.82,
+   "ldr_to": 62.87,
+   "ldr_change_pt": 3.04
+  }
+ },
+ "tokyo_change_pt": -89.88,
+ "others_median_change_pt": -22.36,
+ "n_units_up_2022_2025": 8,
+ "var_decomp_1998_2025": {
+  "n": 47,
+  "var_ldr": 0.03752,
+  "var_loans": 0.04828,
+  "var_deposits": 0.02266,
+  "minus2cov": -0.03342,
+  "corr_loans_deposits": 0.50513
+ },
+ "pref_ldr_2025_range": [
+  35.2,
+  91.0
+ ],
+ "pref_ldr_1998_range": [
+  56.3,
+  166.0
+ ],
+ "n_pref_down_98_25": 45,
+ "n_pref_up_22_25": 30,
+ "national_change_pt": -41.76,
+ "H1": "支持",
+ "H2": "外れ",
+ "H3": "支持",
+ "H4": "支持",
+ "R4_var_decomp": {
+  "n": 45,
+  "var_ldr": 0.02984,
+  "var_loans": 0.04634,
+  "var_deposits": 0.01618,
+  "minus2cov": -0.03268,
+  "corr_loans_deposits": 0.59677
+ },
+ "robustness": [
+  {
+   "check": "基本：貸出÷預金合計（年度平均）",
+   "national_1998": 104.6,
+   "national_2025": 62.9,
+   "tokyo_change_pt": -89.9,
+   "others_median_change_pt": -22.4,
+   "n_units_up_2022_2025": 8.0,
+   "var_loans_gt_var_deposits": null
+  },
+  {
+   "check": "R1 分母に譲渡性預金を足す",
+   "national_1998": 96.3,
+   "national_2025": 61.2,
+   "tokyo_change_pt": -54.3,
+   "others_median_change_pt": -22.3,
+   "n_units_up_2022_2025": 8.0,
+   "var_loans_gt_var_deposits": null
+  },
+  {
+   "check": "R2 分母を一般預金にする（公金・金融機関預金を除く）",
+   "national_1998": 114.7,
+   "national_2025": 67.1,
+   "tokyo_change_pt": -106.9,
+   "others_median_change_pt": -25.7,
+   "n_units_up_2022_2025": 8.0,
+   "var_loans_gt_var_deposits": null
+  },
+  {
+   "check": "R3 3月末の残高",
+   "national_1998": 101.3,
+   "national_2025": 63.5,
+   "tokyo_change_pt": -81.0,
+   "others_median_change_pt": -18.4,
+   "n_units_up_2022_2025": 8.0,
+   "var_loans_gt_var_deposits": null
+  },
+  {
+   "check": "R4 東京・大阪を除く45道府県で H4",
+   "national_1998": null,
+   "national_2025": null,
+   "tokyo_change_pt": null,
+   "others_median_change_pt": null,
+   "n_units_up_2022_2025": null,
+   "var_loans_gt_var_deposits": true
+  }
+ ],
+ "requestion": {
+  "personal_share_98_25": {
+   "北海道": 73.4,
+   "東北": 74.5,
+   "関東（東京を除く）": 78.2,
+   "東京": 43.3,
+   "北陸": 65.1,
+   "中部": 61.0,
+   "近畿": 60.5,
+   "中国": 67.2,
+   "四国": 59.6,
+   "九州・沖縄": 69.1,
+   "全国": 56.5
+  },
+  "corp_share_98_25": {
+   "北海道": 27.3,
+   "東北": 26.2,
+   "関東（東京を除く）": 20.2,
+   "東京": 48.9,
+   "北陸": 34.8,
+   "中部": 37.4,
+   "近畿": 38.0,
+   "中国": 30.6,
+   "四国": 40.9,
+   "九州・沖縄": 31.3,
+   "全国": 39.3
+  },
+  "personal_share_98_25_median_excl_tokyo": 67.2,
+  "national_98_25_tn": {
+   "個人預金": 311.3,
+   "法人などの預金（一般預金−個人預金）": 216.4,
+   "公金預金": 10.4,
+   "金融機関預金": 15.9,
+   "その他（政府関係預り金など）": -3.2
+  },
+  "national_deposit_increase_98_25_tn": 550.8,
+  "national_loan_increase_98_25_tn": 155.3
+ }
+}

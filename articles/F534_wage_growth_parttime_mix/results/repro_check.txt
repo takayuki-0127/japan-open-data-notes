@@ -1,0 +1,1 @@
+2026-11-19 再実行：11 ファイル一致、所要 5 秒（独立レビュー。/tmp/rvAE_F534 に写し、results の CSV・JSON、figures の PNG、data/maikin_tl_cy.csv を消してから sh src/run_all.sh。元と cmp で比較）
