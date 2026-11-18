@@ -1,0 +1,400 @@
+{
+ "corr": {
+  "1985": 132644,
+  "1990": 166986,
+  "2000": 181877,
+  "2010": 187538,
+  "2015": 180393,
+  "2020": 206948,
+  "2025": 305197
+ },
+ "fullpart": {
+  "1990": 5623336,
+  "2000": 4165434,
+  "2015": 3319114,
+  "2025": 2873619
+ },
+ "corr_change_1990_2025_pct": 82.8,
+ "fullpart_change_1990_2025_pct": -48.9,
+ "corr_share_pct": {
+  "1990": 2.88,
+  "2000": 4.18,
+  "2015": 5.16,
+  "2025": 9.6
+ },
+ "corr_min_year_since1990": 1995,
+ "corr_min_since1990": 153983,
+ "corr_change_2015_2025_pct": 69.2,
+ "corr_change_2000_2025_pct": 67.8,
+ "direct_to_corr_pt": {
+  "1990": 0.7,
+  "2000": 1.1,
+  "2010": 1.7,
+  "2015": 1.9,
+  "2020": 3.3,
+  "2025": 5.9
+ },
+ "independent_schools": {
+  "1990": 12,
+  "2000": 25,
+  "2010": 88,
+  "2025": 143
+ },
+ "age": {
+  "1985": {
+   "15-17_pct": 39.09,
+   "18-19_pct": 14.62,
+   "20+_pct": 46.29,
+   "15-17_n": 51846,
+   "20+_n": 61401,
+   "15-18_pct": 49.66,
+   "private_15-17_pct": 74.08,
+   "public_15-17_pct": 20.29,
+   "public_20+_pct": 65.68
+  },
+  "1990": {
+   "15-17_pct": 46.78,
+   "18-19_pct": 16.6,
+   "20+_pct": 36.62,
+   "15-17_n": 78121,
+   "20+_n": 61152,
+   "15-18_pct": 58.3,
+   "private_15-17_pct": 79.18,
+   "public_15-17_pct": 23.57,
+   "public_20+_pct": 58.78
+  },
+  "1995": {
+   "15-17_pct": 44.95,
+   "18-19_pct": 14.31,
+   "20+_pct": 40.74,
+   "15-17_n": 69213,
+   "20+_n": 62732,
+   "15-18_pct": 52.84,
+   "private_15-17_pct": 87.18,
+   "public_15-17_pct": 20.37,
+   "public_20+_pct": 60.79
+  },
+  "2000": {
+   "15-17_pct": 46.91,
+   "18-19_pct": 19.23,
+   "20+_pct": 33.86,
+   "15-17_n": 85320,
+   "20+_n": 61590,
+   "15-18_pct": 58.68,
+   "private_15-17_pct": 77.24,
+   "public_15-17_pct": 26.1,
+   "public_20+_pct": 52.15
+  },
+  "2005": {
+   "15-17_pct": 47.64,
+   "18-19_pct": 20.11,
+   "20+_pct": 32.24,
+   "15-17_n": 87436,
+   "20+_n": 59171,
+   "15-18_pct": 60.08,
+   "private_15-17_pct": 69.74,
+   "public_15-17_pct": 26.5,
+   "public_20+_pct": 50.33
+  },
+  "2010": {
+   "15-17_pct": 55.4,
+   "18-19_pct": 18.54,
+   "20+_pct": 26.05,
+   "15-17_n": 103904,
+   "20+_n": 48856,
+   "15-18_pct": 67.41,
+   "private_15-17_pct": 75.54,
+   "public_15-17_pct": 32.05,
+   "public_20+_pct": 44.72
+  },
+  "2015": {
+   "15-17_pct": 63.87,
+   "18-19_pct": 15.38,
+   "20+_pct": 20.75,
+   "15-17_n": 115216,
+   "20+_n": 37434,
+   "15-18_pct": 73.81,
+   "private_15-17_pct": 83.77,
+   "public_15-17_pct": 29.95,
+   "public_20+_pct": 46.7
+  },
+  "2020": {
+   "15-17_pct": 74.77,
+   "18-19_pct": 12.83,
+   "20+_pct": 12.4,
+   "15-17_n": 154744,
+   "20+_n": 25654,
+   "15-18_pct": 83.9,
+   "private_15-17_pct": 87.82,
+   "public_15-17_pct": 39.11,
+   "public_20+_pct": 37.8
+  },
+  "2025": {
+   "15-17_pct": 82.75,
+   "18-19_pct": 10.31,
+   "20+_pct": 6.94,
+   "15-17_n": 252555,
+   "20+_n": 21168,
+   "15-18_pct": 90.46,
+   "private_15-17_pct": 91.47,
+   "public_15-17_pct": 48.55,
+   "public_20+_pct": 27.67
+  }
+ },
+ "private": {
+  "1985": 46362,
+  "1990": 69715,
+  "1995": 56653,
+  "2000": 74023,
+  "2005": 89748,
+  "2010": 100695,
+  "2015": 113691,
+  "2020": 151521,
+  "2025": 243189
+ },
+ "public": {
+  "1985": 86282,
+  "1990": 97271,
+  "1995": 97330,
+  "2000": 107854,
+  "2005": 93770,
+  "2010": 86843,
+  "2015": 66702,
+  "2020": 55427,
+  "2025": 62008
+ },
+ "private_share_of_increase_1990_2025_pct": 125.5,
+ "private_share_students_pct": {
+  "1985": 35.0,
+  "1990": 41.7,
+  "1995": 36.8,
+  "2000": 40.7,
+  "2005": 48.9,
+  "2010": 53.7,
+  "2015": 63.0,
+  "2020": 73.2,
+  "2025": 79.7
+ },
+ "schools": {
+  "1985": {
+   "public_independent": 6,
+   "public_attached": 62,
+   "private_independent": 7,
+   "private_attached": 11,
+   "independent": 13,
+   "attached": 73,
+   "schools": 86
+  },
+  "1990": {
+   "public_independent": 5,
+   "public_attached": 62,
+   "private_independent": 7,
+   "private_attached": 10,
+   "independent": 12,
+   "attached": 72,
+   "schools": 84
+  },
+  "1995": {
+   "public_independent": 6,
+   "public_attached": 62,
+   "private_independent": 10,
+   "private_attached": 15,
+   "independent": 16,
+   "attached": 77,
+   "schools": 93
+  },
+  "2000": {
+   "public_independent": 6,
+   "public_attached": 63,
+   "private_independent": 19,
+   "private_attached": 25,
+   "independent": 25,
+   "attached": 88,
+   "schools": 113
+  },
+  "2005": {
+   "public_independent": 7,
+   "public_attached": 69,
+   "private_independent": 52,
+   "private_attached": 47,
+   "independent": 59,
+   "attached": 116,
+   "schools": 175
+  },
+  "2010": {
+   "public_independent": 7,
+   "public_attached": 65,
+   "private_independent": 81,
+   "private_attached": 56,
+   "independent": 88,
+   "attached": 121,
+   "schools": 209
+  },
+  "2015": {
+   "public_independent": 7,
+   "public_attached": 70,
+   "private_independent": 93,
+   "private_attached": 67,
+   "independent": 100,
+   "attached": 137,
+   "schools": 237
+  },
+  "2020": {
+   "public_independent": 7,
+   "public_attached": 71,
+   "private_independent": 110,
+   "private_attached": 69,
+   "independent": 117,
+   "attached": 140,
+   "schools": 257
+  },
+  "2025": {
+   "public_independent": 6,
+   "public_attached": 76,
+   "private_independent": 137,
+   "private_attached": 114,
+   "independent": 143,
+   "attached": 190,
+   "schools": 333
+  }
+ },
+ "midyear_share_pct": {
+  "1990": 0.74,
+  "1995": 3.02,
+  "2000": 9.68,
+  "2005": 20.51,
+  "2010": 25.08,
+  "2015": 27.78,
+  "2020": 28.89,
+  "2025": 27.45
+ },
+ "entrants": {
+  "1990": {
+   "may_prev_fy": 42306,
+   "whole_prev_fy": 42623,
+   "midyear_n": 317
+  },
+  "1995": {
+   "may_prev_fy": 37972,
+   "whole_prev_fy": 39153,
+   "midyear_n": 1181
+  },
+  "2000": {
+   "may_prev_fy": 48483,
+   "whole_prev_fy": 53679,
+   "midyear_n": 5196
+  },
+  "2005": {
+   "may_prev_fy": 43825,
+   "whole_prev_fy": 55134,
+   "midyear_n": 11309
+  },
+  "2010": {
+   "may_prev_fy": 44490,
+   "whole_prev_fy": 59383,
+   "midyear_n": 14893
+  },
+  "2015": {
+   "may_prev_fy": 46103,
+   "whole_prev_fy": 63836,
+   "midyear_n": 17733
+  },
+  "2020": {
+   "may_prev_fy": 57451,
+   "whole_prev_fy": 80790,
+   "midyear_n": 23339
+  },
+  "2025": {
+   "may_prev_fy": 86842,
+   "whole_prev_fy": 119699,
+   "midyear_n": 32857
+  }
+ },
+ "entrants_whole_change_1989_2024_pct": 180.8,
+ "entrants_may_change_1989_2024_pct": 105.3,
+ "midyear_n_change": [
+  317,
+  32857
+ ],
+ "hypotheses": {
+  "H1": {
+   "rule": "通信制 +50%以上 かつ 全日制・定時制が減少（1990→2025）",
+   "value": [
+    82.8,
+    -48.9
+   ],
+   "verdict": "支持"
+  },
+  "H2": {
+   "rule": "15〜17歳の割合 1990 <50% かつ 2025 ≥70%",
+   "value": [
+    46.78,
+    82.75
+   ],
+   "verdict": "支持"
+  },
+  "H3": {
+   "rule": "1990→2025 の増加の8割以上が私立",
+   "value": 125.5,
+   "verdict": "支持"
+  },
+  "H4": {
+   "rule": "進学率の差 2000→2025 で +4ポイント以上",
+   "value": [
+    1.1,
+    5.9
+   ],
+   "verdict": "支持"
+  },
+  "H5": {
+   "rule": "2024年度の入学者のうち5月2日以降が25%以上",
+   "value": 27.45,
+   "verdict": "支持"
+  }
+ },
+ "increase_15_17_share_of_total_increase_pct": 126.2,
+ "robustness": [
+  {
+   "check": "在学者の変化 1990→2025年",
+   "corr_pct": 82.8,
+   "fullpart_pct": -48.9,
+   "corr_share_from": 2.88,
+   "corr_share_to": 9.6
+  },
+  {
+   "check": "在学者の変化 2000→2025年",
+   "corr_pct": 67.8,
+   "fullpart_pct": -31.0,
+   "corr_share_from": 4.18,
+   "corr_share_to": 9.6
+  },
+  {
+   "check": "在学者の変化 2015→2025年",
+   "corr_pct": 69.2,
+   "fullpart_pct": -13.4,
+   "corr_share_from": 5.16,
+   "corr_share_to": 9.6
+  },
+  {
+   "check": "年齢の区切りを15〜18歳にする（1990→2025年度の割合）",
+   "corr_pct": null,
+   "fullpart_pct": null,
+   "corr_share_from": 58.3,
+   "corr_share_to": 90.46
+  },
+  {
+   "check": "15歳だけの割合（1990→2025年度）",
+   "corr_pct": null,
+   "fullpart_pct": null,
+   "corr_share_from": 16.26,
+   "corr_share_to": 21.66
+  },
+  {
+   "check": "1990→2025年度の生徒の増加のうち15〜17歳の分（%）",
+   "corr_pct": 126.2,
+   "fullpart_pct": null,
+   "corr_share_from": null,
+   "corr_share_to": null
+  }
+ ]
+}

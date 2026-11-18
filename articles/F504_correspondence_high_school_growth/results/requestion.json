@@ -1,0 +1,105 @@
+{
+ "per_school": {
+  "1985": {
+   "private_students": 46362.0,
+   "private_schools": 18.0,
+   "public_students": 86282.0,
+   "public_schools": 68.0,
+   "private_per_school": 2575.7,
+   "public_per_school": 1268.9
+  },
+  "1990": {
+   "private_students": 69715.0,
+   "private_schools": 17.0,
+   "public_students": 97271.0,
+   "public_schools": 67.0,
+   "private_per_school": 4100.9,
+   "public_per_school": 1451.8
+  },
+  "1995": {
+   "private_students": 56653.0,
+   "private_schools": 25.0,
+   "public_students": 97330.0,
+   "public_schools": 68.0,
+   "private_per_school": 2266.1,
+   "public_per_school": 1431.3
+  },
+  "2000": {
+   "private_students": 74023.0,
+   "private_schools": 44.0,
+   "public_students": 107854.0,
+   "public_schools": 69.0,
+   "private_per_school": 1682.3,
+   "public_per_school": 1563.1
+  },
+  "2005": {
+   "private_students": 89748.0,
+   "private_schools": 99.0,
+   "public_students": 93770.0,
+   "public_schools": 76.0,
+   "private_per_school": 906.5,
+   "public_per_school": 1233.8
+  },
+  "2010": {
+   "private_students": 100695.0,
+   "private_schools": 137.0,
+   "public_students": 86843.0,
+   "public_schools": 72.0,
+   "private_per_school": 735.0,
+   "public_per_school": 1206.2
+  },
+  "2015": {
+   "private_students": 113691.0,
+   "private_schools": 160.0,
+   "public_students": 66702.0,
+   "public_schools": 77.0,
+   "private_per_school": 710.6,
+   "public_per_school": 866.3
+  },
+  "2020": {
+   "private_students": 151521.0,
+   "private_schools": 179.0,
+   "public_students": 55427.0,
+   "public_schools": 78.0,
+   "private_per_school": 846.5,
+   "public_per_school": 710.6
+  },
+  "2025": {
+   "private_students": 243189.0,
+   "private_schools": 251.0,
+   "public_students": 62008.0,
+   "public_schools": 82.0,
+   "private_per_school": 968.9,
+   "public_per_school": 756.2
+  }
+ },
+ "split_1990_2025": {
+  "students_ratio": 3.49,
+  "schools_ratio": 14.76,
+  "per_school_ratio": 0.24,
+  "schools_share_of_log_growth_pct": 215.5
+ },
+ "split_2010_2025": {
+  "students_ratio": 2.42,
+  "schools_ratio": 1.83,
+  "per_school_ratio": 1.32,
+  "schools_share_of_log_growth_pct": 68.7
+ },
+ "split_2015_2025": {
+  "students_ratio": 2.14,
+  "schools_ratio": 1.57,
+  "per_school_ratio": 1.36,
+  "schools_share_of_log_growth_pct": 59.2
+ },
+ "facilities_2025": {
+  "公立|計": 136,
+  "公立|面接指導等実施施設": 125,
+  "公立|学習等支援施設": 0,
+  "公立|その他の施設": 11,
+  "私立|計": 3594,
+  "私立|面接指導等実施施設": 1459,
+  "私立|学習等支援施設": 2106,
+  "私立|その他の施設": 29
+ },
+ "private_facilities_per_school_2025": 14.3
+}
