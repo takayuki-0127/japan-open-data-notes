@@ -1,0 +1,4 @@
+再現の確認（2026-11-18）
+手順：記事のフォルダを /tmp/rep_F464 に写し、results・figures の生成物と data/panel.csv（run_all.sh が作るもの）を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。data/kouhai_pref_raw.csv（01b_extract.py が PDF から抜き出したもの）は残した。
+2026-11-18 再実行：13 ファイル一致（results 8、figures 4、data 1）、所要 3 秒。ネットにはつながない。
+2026-11-18 独立レビュー後の再実行（/tmp/rv2_F464、01b_extract.py の県名の当て方を直したあと）：13 ファイル一致（results 8、figures 4、data 1）、所要 3 秒。01b_extract.py を流し直した data/kouhai_pref_raw.csv も一致。

@@ -1,0 +1,1 @@
+2026-11-18 再実行：16 ファイル一致、所要 10 秒（独立レビューで直したあと、/tmp/rvQ_F447 に写し、results の CSV・JSON、figures の PNG、data の od_wide.csv・pref_distance.csv・pref_capital_station.csv を消してから sh src/run_all.sh。元と cmp で比較。このファイルは比較から外す）

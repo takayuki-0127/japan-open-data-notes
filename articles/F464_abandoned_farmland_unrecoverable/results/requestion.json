@@ -1,0 +1,76 @@
+{
+ "n_pref_residual_positive": 47,
+ "national": {
+  "2022": {
+   "A_change": -981,
+   "B_change": -5306,
+   "new": 28459,
+   "reclaimed": 11488,
+   "residual": 23256
+  },
+  "2023": {
+   "A_change": 3964,
+   "B_change": -501,
+   "new": 25031,
+   "reclaimed": 9848,
+   "residual": 11730
+  },
+  "2024": {
+   "A_change": 4175,
+   "B_change": -4184,
+   "new": 23681,
+   "reclaimed": 8446,
+   "residual": 15239
+  }
+ },
+ "national_sum": {
+  "new": 77171,
+  "reclaimed": 29782,
+  "residual": 50225,
+  "residual_over_new_pct": 65.1,
+  "residual_per_year": 16742,
+  "total_change": -2836
+ },
+ "region": {
+  "中国": {
+   "residual_pct_of_2021_total": 19.7,
+   "residual_sum": 7330
+  },
+  "九州": {
+   "residual_pct_of_2021_total": 27.3,
+   "residual_sum": 17730
+  },
+  "北海道": {
+   "residual_pct_of_2021_total": 28.0,
+   "residual_sum": 370
+  },
+  "北陸": {
+   "residual_pct_of_2021_total": 7.8,
+   "residual_sum": 703
+  },
+  "四国": {
+   "residual_pct_of_2021_total": 5.0,
+   "residual_sum": 1281
+  },
+  "東北": {
+   "residual_pct_of_2021_total": 28.8,
+   "residual_sum": 8556
+  },
+  "東海": {
+   "residual_pct_of_2021_total": 23.9,
+   "residual_sum": 4606
+  },
+  "沖縄": {
+   "residual_pct_of_2021_total": 11.3,
+   "residual_sum": 410
+  },
+  "近畿": {
+   "residual_pct_of_2021_total": 23.7,
+   "residual_sum": 2229
+  },
+  "関東・東山": {
+   "residual_pct_of_2021_total": 11.8,
+   "residual_sum": 7010
+  }
+ }
+}
