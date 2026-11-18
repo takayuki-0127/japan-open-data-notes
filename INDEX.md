@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 394本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 399本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -23,7 +23,7 @@
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 231 |
+| その他（記述・要因分解など） | 236 |
 
 <details><summary><b>予測・時系列</b>（129本）</summary>
 
@@ -1256,7 +1256,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（231本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（236本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1313,6 +1313,11 @@
 | F407 | 「コンビニは飽和した」は、店の数と1店あたりの売上でどう見えるか？ | [F407_convenience_store_saturation](articles/F407_convenience_store_saturation) |
 | F408 | 百貨店の売上は、訪日客の買物でどこまで戻ったのか？ | [F408_department_store_inbound](articles/F408_department_store_inbound) |
 | F409 | 半導体の国内生産は、増えているのか？ | [F409_semiconductor_production](articles/F409_semiconductor_production) |
+| F411 | 「日本企業の設備投資は減価償却の範囲にとどまる」は本当か？ | [F411_capex_vs_depreciation](articles/F411_capex_vs_depreciation) |
+| F412 | 「紙は減ったが段ボールは増えた」は、どこまで本当か？ | [F412_paper_vs_cardboard](articles/F412_paper_vs_cardboard) |
+| F413 | 産業用ロボットの生産は、輸出が支えているのか？ | [F413_robot_production_exports](articles/F413_robot_production_exports) |
+| F414 | 中小企業の数は、どの規模でどれだけ減ったのか？ | [F414_firm_count_by_size](articles/F414_firm_count_by_size) |
+| F415 | 家電の販売の山のあとに、谷はどれだけ深かったのか？ | [F415_appliance_boom_bust](articles/F415_appliance_boom_bust) |
 | F420 | 建設業の許可業者は、どの規模でどれだけ減ったのか？ | [F420_construction_permits_by_size](articles/F420_construction_permits_by_size) |
 | F421 | 「貿易で稼ぐ国から投資で稼ぐ国へ」は、国際収支でいつ起きたのか？ | [F421_trade_vs_income_balance](articles/F421_trade_vs_income_balance) |
 | F422 | 第一次所得収支の黒字は、どれだけ日本に戻ってきているのか？ | [F422_reinvested_earnings_share](articles/F422_reinvested_earnings_share) |
@@ -1499,16 +1504,16 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 162 |
+| 小売・店舗 | 163 |
 | EC・会員・Web | 92 |
 | マーケティング・広告 | 21 |
 | 需要予測・在庫 | 30 |
 | 業務の集計・報告 | 126 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 370 |
+| 公的統計・地域・人口 | 375 |
 
-<details><summary><b>小売・店舗</b>（162本）</summary>
+<details><summary><b>小売・店舗</b>（163本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1553,6 +1558,7 @@
 | F383 | 「服にお金をかけなくなった」は、価格が下がったからか、買う量が減ったからか？ | [F383_clothing_price_vs_volume](articles/F383_clothing_price_vs_volume) |
 | F407 | 「コンビニは飽和した」は、店の数と1店あたりの売上でどう見えるか？ | [F407_convenience_store_saturation](articles/F407_convenience_store_saturation) |
 | F408 | 百貨店の売上は、訪日客の買物でどこまで戻ったのか？ | [F408_department_store_inbound](articles/F408_department_store_inbound) |
+| F415 | 家電の販売の山のあとに、谷はどれだけ深かったのか？ | [F415_appliance_boom_bust](articles/F415_appliance_boom_bust) |
 | F433 | キャベツなど野菜の値段は、天気でどこまで決まるのか？ | [F433_vegetable_price_weather](articles/F433_vegetable_price_weather) |
 | 305 | DAX の CALCULATE は、何をしているのか？ | [305_dax_calculate_filter_context](articles/305_dax_calculate_filter_context) |
 | 315 | 1年分の保険料を、月ごとの売上にどう分けるか？ | [315_sql_earned_premium](articles/315_sql_earned_premium) |
@@ -2064,7 +2070,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（370本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（375本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2345,6 +2351,11 @@
 | F408 | 百貨店の売上は、訪日客の買物でどこまで戻ったのか？ | [F408_department_store_inbound](articles/F408_department_store_inbound) |
 | F409 | 半導体の国内生産は、増えているのか？ | [F409_semiconductor_production](articles/F409_semiconductor_production) |
 | F410 | 機械受注は、設備投資を何か月先取りするのか？ | [F410_machinery_orders_lead](articles/F410_machinery_orders_lead) |
+| F411 | 「日本企業の設備投資は減価償却の範囲にとどまる」は本当か？ | [F411_capex_vs_depreciation](articles/F411_capex_vs_depreciation) |
+| F412 | 「紙は減ったが段ボールは増えた」は、どこまで本当か？ | [F412_paper_vs_cardboard](articles/F412_paper_vs_cardboard) |
+| F413 | 産業用ロボットの生産は、輸出が支えているのか？ | [F413_robot_production_exports](articles/F413_robot_production_exports) |
+| F414 | 中小企業の数は、どの規模でどれだけ減ったのか？ | [F414_firm_count_by_size](articles/F414_firm_count_by_size) |
+| F415 | 家電の販売の山のあとに、谷はどれだけ深かったのか？ | [F415_appliance_boom_bust](articles/F415_appliance_boom_bust) |
 | F419 | うめの開花は、さくらより速く早まっているのか？ | [F419_ume_vs_sakura_bloom](articles/F419_ume_vs_sakura_bloom) |
 | F420 | 建設業の許可業者は、どの規模でどれだけ減ったのか？ | [F420_construction_permits_by_size](articles/F420_construction_permits_by_size) |
 | F421 | 「貿易で稼ぐ国から投資で稼ぐ国へ」は、国際収支でいつ起きたのか？ | [F421_trade_vs_income_balance](articles/F421_trade_vs_income_balance) |
