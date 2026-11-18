@@ -1,0 +1,191 @@
+{
+ "age_max": {
+  "age": "~19歳",
+  "diff_shoteinai_pct": 0.28
+ },
+ "age_min": {
+  "age": "70歳~",
+  "diff_shoteinai_pct": -1.39
+ },
+ "diff_by_year_total_pct": {
+  "2006": -0.76,
+  "2007": -0.6,
+  "2008": -0.2,
+  "2009": -0.2,
+  "2010": -0.44,
+  "2011": -0.61,
+  "2012": -0.27,
+  "2013": -0.3,
+  "2014": 0.13,
+  "2015": -0.16,
+  "2016": -0.13,
+  "2017": -0.16,
+  "2018": -0.29,
+  "2019": -0.55
+ },
+ "growth": {
+  "2006_女": {
+   "gap_pt": 0.22,
+   "new": 12.98,
+   "old": 12.76
+  },
+  "2006_男": {
+   "gap_pt": 0.18,
+   "new": 0.27,
+   "old": 0.09
+  },
+  "2006_計": {
+   "gap_pt": 0.22,
+   "new": 2.17,
+   "old": 1.95
+  },
+  "2009_女": {
+   "gap_pt": -0.53,
+   "new": 9.56,
+   "old": 10.09
+  },
+  "2009_男": {
+   "gap_pt": -0.27,
+   "new": 3.16,
+   "old": 3.43
+  },
+  "2009_計": {
+   "gap_pt": -0.36,
+   "new": 4.12,
+   "old": 4.48
+  },
+  "2015_女": {
+   "gap_pt": -0.37,
+   "new": 3.35,
+   "old": 3.72
+  },
+  "2015_男": {
+   "gap_pt": -0.24,
+   "new": 0.63,
+   "old": 0.87
+  },
+  "2015_計": {
+   "gap_pt": -0.4,
+   "new": 0.82,
+   "old": 1.22
+  }
+ },
+ "hypotheses": {
+  "H1": {
+   "gap_pt": 0.22,
+   "new": 2.17,
+   "old": 1.95,
+   "rule": "|gap|<1",
+   "supported": true
+  },
+  "H2": {
+   "n_abs_ge3": 0,
+   "rule": ">=3",
+   "supported": false
+  },
+  "H3": {
+   "d1000": -1.28,
+   "d10_99": 1.1,
+   "rule": "|10-99|>|1000+|",
+   "supported": false
+  },
+  "H4": {
+   "female": -0.48,
+   "male": -0.56,
+   "rule": "|女|>|男|",
+   "supported": false
+  }
+ },
+ "industry_max": {
+  "diff_shoteinai_pct": 1.2,
+  "name": "情報通信業"
+ },
+ "industry_mean_abs": 0.65,
+ "industry_min": {
+  "diff_shoteinai_pct": -2.35,
+  "name": "教育,学習支援業"
+ },
+ "industry_n": 15,
+ "industry_n_abs_ge3": 0,
+ "sex_2019_shoteinai_diff_pct": {
+  "女": -0.48,
+  "男": -0.56,
+  "計": -0.55
+ },
+ "sex_2019_workers_diff_pct": {
+  "女": 33.39,
+  "男": 33.56,
+  "計": 33.5
+ },
+ "shift_share": {
+  "composition_effect": -0.99,
+  "diff": -1.65,
+  "recon_new": 306.01,
+  "recon_old": 307.67,
+  "sum_workers_old": 2217883.0,
+  "total_new": 306.0,
+  "total_old": 307.7,
+  "wage_effect": -0.66,
+  "workers_total_old": 2217882.0
+ },
+ "size_2019_shoteinai": {
+  "10-99": {
+   "new": 276.2,
+   "old": 273.2
+  },
+  "100-999": {
+   "new": 296.5,
+   "old": 295.7
+  },
+  "1000+": {
+   "new": 339.7,
+   "old": 344.1
+  }
+ },
+ "size_2019_shoteinai_diff_pct": {
+  "10-99": 1.1,
+  "100-999": 0.27,
+  "1000+": -1.28,
+  "計": -0.55
+ },
+ "size_2019_workers_diff_pct": {
+  "10-99": 43.34,
+  "100-999": 32.31,
+  "1000+": 27.67,
+  "計": 33.5
+ },
+ "total_2019": {
+  "bonus": {
+   "diff_pct": -3.66,
+   "new": 916.1,
+   "old": 950.9
+  },
+  "kimatte": {
+   "diff_pct": -0.71,
+   "new": 335.6,
+   "old": 338.0
+  },
+  "shoteinai": {
+   "diff_pct": -0.55,
+   "new": 306.0,
+   "old": 307.7
+  },
+  "workers": {
+   "diff_pct": 33.5,
+   "new": 2960880.0,
+   "old": 2217882.0
+  }
+ },
+ "workers_share_10_99": {
+  "new": 28.3,
+  "old": 26.4
+ },
+ "yoy_gap": {
+  "max_abs_gap_pt": 0.45,
+  "mean_abs_gap_pt": 0.2,
+  "sign_disagree_years": [
+   2016
+  ],
+  "year_of_max": 2014
+ }
+}

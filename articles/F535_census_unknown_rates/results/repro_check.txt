@@ -1,0 +1,1 @@
+2026-11-19 再実行：18 ファイル一致、所要 11 秒（独立レビュー。/tmp/rvAE_F535 に写し、results の CSV・JSON、figures の PNG、data の中間ファイル4本を消してから sh src/run_all.sh。元と cmp で比較）

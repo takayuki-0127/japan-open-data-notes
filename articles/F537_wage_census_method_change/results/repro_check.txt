@@ -1,0 +1,2 @@
+2026-11-19 再実行：14 ファイル一致、所要 13 秒（/tmp/rep_F537 に写し、results の CSV・JSON、figures の PNG、data/wage_long.csv・data/old_timeseries.csv を消してから sh src/run_all.sh。元と cmp で比較）
+2026-11-19 再実行（独立レビュー）：14 ファイル一致、所要 12 秒（/tmp/rvAC/F537 に写し、results・figures と 02 が作る data の CSV を消してから sh src/run_all.sh。元と cmp で比較）
