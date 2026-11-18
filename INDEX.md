@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 424本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 431本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,22 +10,22 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 131 |
+| 予測・時系列 | 134 |
 | 因果推論・効果検証 | 61 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 293 |
+| 統計の考え方（検定・区間・回帰） | 298 |
 | 機械学習・モデル評価 | 103 |
 | 顧客分析・生存分析 | 64 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 144 |
+| 集計の定義・KPI | 145 |
 | 可視化・報告・BI | 41 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 257 |
+| その他（記述・要因分解など） | 260 |
 
-<details><summary><b>予測・時系列</b>（131本）</summary>
+<details><summary><b>予測・時系列</b>（134本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -116,6 +116,9 @@
 | F462 | 日本人の旅行は、お盆と年末年始への集中が弱まったのか？ | [F462_domestic_travel_peak_concentration](articles/F462_domestic_travel_peak_concentration) |
 | F479 | 太陽光の発電を止める「出力制御」は、どの季節・時間に増えたのか？ | [F479_solar_curtailment_timing](articles/F479_solar_curtailment_timing) |
 | F485 | 節電の要請で、電力の需要はどれだけ下がったのか？ | [F485_setsuden_demand](articles/F485_setsuden_demand) |
+| F496 | 「日本の気温は世界より速く上がっている」は本当か？ | [F496_japan_vs_world_warming](articles/F496_japan_vs_world_warming) |
+| F497 | 日本で測る CO2 の濃度は、排出が減っても上がり続けているのか？ | [F497_co2_concentration_vs_emissions](articles/F497_co2_concentration_vs_emissions) |
+| F499 | 「雨の日は減り、強い雨は増えた」は、地点のデータでどう見えるか？ | [F499_rain_days_heavy_rain](articles/F499_rain_days_heavy_rain) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
 | 286 | 予測モデルは、線形回帰と勾配ブースティングのどちらから始めるか？ | [286_linear_vs_gbm_first](articles/286_linear_vs_gbm_first) |
 | 296 | 需要予測の当たり外れを、毎週どう見張るか？ | [296_forecast_error_control_chart](articles/296_forecast_error_control_chart) |
@@ -265,7 +268,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（293本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（298本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -450,6 +453,11 @@
 | F471 | 暑い夏に米の「一等」の割合は、どれだけ下がるのか？ | [F471_rice_grade_summer_heat](articles/F471_rice_grade_summer_heat) |
 | F473 | のりの生産は、なぜ減ったのか？ | [F473_nori_production_sea_temp](articles/F473_nori_production_sea_temp) |
 | F479 | 太陽光の発電を止める「出力制御」は、どの季節・時間に増えたのか？ | [F479_solar_curtailment_timing](articles/F479_solar_curtailment_timing) |
+| F495 | 都市の空気は、乾いてきたのか？ | [F495_urban_humidity_drying](articles/F495_urban_humidity_drying) |
+| F496 | 「日本の気温は世界より速く上がっている」は本当か？ | [F496_japan_vs_world_warming](articles/F496_japan_vs_world_warming) |
+| F497 | 日本で測る CO2 の濃度は、排出が減っても上がり続けているのか？ | [F497_co2_concentration_vs_emissions](articles/F497_co2_concentration_vs_emissions) |
+| F498 | 夏は、長くなったのか？ | [F498_summer_length](articles/F498_summer_length) |
+| F499 | 「雨の日は減り、強い雨は増えた」は、地点のデータでどう見えるか？ | [F499_rain_days_heavy_rain](articles/F499_rain_days_heavy_rain) |
 | 253 | p値0.05の線を、どう扱ってきたか？ | [253_p_value_line](articles/253_p_value_line) |
 | 267 | 相関を因果だと思いかけたとき、どう止めたか？ | [267_correlation_not_causation](articles/267_correlation_not_causation) |
 | 268 | 差の差・回帰不連続・合成コントロールを、どう選んできたか？ | [268_causal_design_choice](articles/268_causal_design_choice) |
@@ -865,7 +873,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（144本）</summary>
+<details><summary><b>集計の定義・KPI</b>（145本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -956,6 +964,7 @@
 | F464 | 荒れた農地は、「再生できない」ほうが増えているのか？ | [F464_abandoned_farmland_unrecoverable](articles/F464_abandoned_farmland_unrecoverable) |
 | F470 | 肉用牛の頭数が増えたのは、和牛の輸出のおかげか？ | [F470_wagyu_exports_cattle](articles/F470_wagyu_exports_cattle) |
 | F475 | 農家が買う資材の値段と売る値段の差は、広がったのか？ | [F475_farm_terms_of_trade](articles/F475_farm_terms_of_trade) |
+| F498 | 夏は、長くなったのか？ | [F498_summer_length](articles/F498_summer_length) |
 | 149 | 川や海に比べて、湖だけ環境基準の達成率が低いのはなぜか？ | [149_lake_water_quality](articles/149_lake_water_quality) |
 | 241 | 公的データを使って困ったことは何だったか？ | [241_public_data_troubles](articles/241_public_data_troubles) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
@@ -1268,7 +1277,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（257本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（260本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1384,6 +1393,9 @@
 | F483 | 家計の携帯電話の通信料は、料金の値下げのあとどれだけ減ったのか？ | [F483_mobile_fee_spending](articles/F483_mobile_fee_spending) |
 | F484 | クリーニング代の支出は、どれだけ減ったのか？ | [F484_laundry_spending](articles/F484_laundry_spending) |
 | F486 | 太陽光パネルのある家は、どこまで増えたのか？ | [F486_rooftop_solar_homes](articles/F486_rooftop_solar_homes) |
+| F495 | 都市の空気は、乾いてきたのか？ | [F495_urban_humidity_drying](articles/F495_urban_humidity_drying) |
+| F500 | 18歳の人口が減っても、大学は増え続けたのか？ | [F500_universities_vs_18_population](articles/F500_universities_vs_18_population) |
+| F501 | 日本で学ぶ留学生は、どこから来て、どこで学んでいるのか？ | [F501_international_students_origin_stage](articles/F501_international_students_origin_stage) |
 | 000 | 女性の労働力率は何で決まる？ | [000_women_labor](articles/000_women_labor) |
 | 001 | 納税者1人あたりの所得は、なぜ街によって違うのか？ | [001_income_municipal](articles/001_income_municipal) |
 | 008 | 人が集まっている街は、所得が高い街か？ | [008_migration_income](articles/008_migration_income) |
@@ -1544,7 +1556,7 @@
 | 業務の集計・報告 | 126 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 400 |
+| 公的統計・地域・人口 | 407 |
 
 <details><summary><b>小売・店舗</b>（164本）</summary>
 
@@ -2106,7 +2118,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（400本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（407本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2468,6 +2480,13 @@
 | F492 | オホーツク海の流氷は、どれだけ減ったのか？ | [F492_okhotsk_sea_ice](articles/F492_okhotsk_sea_ice) |
 | F493 | 「エルニーニョの年は冷夏になる」は、日本の夏の気温でどこまで見えるか？ | [F493_elnino_summer](articles/F493_elnino_summer) |
 | F494 | 地上の風は、弱くなったのか？ | [F494_surface_wind](articles/F494_surface_wind) |
+| F495 | 都市の空気は、乾いてきたのか？ | [F495_urban_humidity_drying](articles/F495_urban_humidity_drying) |
+| F496 | 「日本の気温は世界より速く上がっている」は本当か？ | [F496_japan_vs_world_warming](articles/F496_japan_vs_world_warming) |
+| F497 | 日本で測る CO2 の濃度は、排出が減っても上がり続けているのか？ | [F497_co2_concentration_vs_emissions](articles/F497_co2_concentration_vs_emissions) |
+| F498 | 夏は、長くなったのか？ | [F498_summer_length](articles/F498_summer_length) |
+| F499 | 「雨の日は減り、強い雨は増えた」は、地点のデータでどう見えるか？ | [F499_rain_days_heavy_rain](articles/F499_rain_days_heavy_rain) |
+| F500 | 18歳の人口が減っても、大学は増え続けたのか？ | [F500_universities_vs_18_population](articles/F500_universities_vs_18_population) |
+| F501 | 日本で学ぶ留学生は、どこから来て、どこで学んでいるのか？ | [F501_international_students_origin_stage](articles/F501_international_students_origin_stage) |
 | F509 | 大学の先生は、年をとったのか？ | [F509_university_faculty_age](articles/F509_university_faculty_age) |
 | F510 | 固定電話は、どれだけ減ったのか？ | [F510_landline_decline](articles/F510_landline_decline) |
 | F511 | ソフトウェアの仕事は、受託開発からパッケージ・クラウドへ移ったのか？ | [F511_info_service_sales_mix](articles/F511_info_service_sales_mix) |
