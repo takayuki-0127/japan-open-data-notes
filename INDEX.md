@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 431本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 434本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,22 +10,22 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 134 |
-| 因果推論・効果検証 | 61 |
+| 予測・時系列 | 135 |
+| 因果推論・効果検証 | 62 |
 | A/B テスト・実験 | 27 |
 | 統計の考え方（検定・区間・回帰） | 298 |
 | 機械学習・モデル評価 | 103 |
 | 顧客分析・生存分析 | 64 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 145 |
+| 集計の定義・KPI | 146 |
 | 可視化・報告・BI | 41 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 260 |
+| その他（記述・要因分解など） | 262 |
 
-<details><summary><b>予測・時系列</b>（134本）</summary>
+<details><summary><b>予測・時系列</b>（135本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -114,6 +114,7 @@
 | F450 | トラックの運賃は、2024年問題の前後で上がったのか？ | [F450_truck_freight_rates_2024](articles/F450_truck_freight_rates_2024) |
 | F452 | 引っ越しの3〜4月への集中は、弱まっているのか？ | [F452_moving_season_concentration](articles/F452_moving_season_concentration) |
 | F462 | 日本人の旅行は、お盆と年末年始への集中が弱まったのか？ | [F462_domestic_travel_peak_concentration](articles/F462_domestic_travel_peak_concentration) |
+| F478 | 夏の電力の需要のピークは、太陽光で夕方にずれたのか？ | [F478_summer_peak_residual_demand](articles/F478_summer_peak_residual_demand) |
 | F479 | 太陽光の発電を止める「出力制御」は、どの季節・時間に増えたのか？ | [F479_solar_curtailment_timing](articles/F479_solar_curtailment_timing) |
 | F485 | 節電の要請で、電力の需要はどれだけ下がったのか？ | [F485_setsuden_demand](articles/F485_setsuden_demand) |
 | F496 | 「日本の気温は世界より速く上がっている」は本当か？ | [F496_japan_vs_world_warming](articles/F496_japan_vs_world_warming) |
@@ -166,7 +167,7 @@
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（61本）</summary>
+<details><summary><b>因果推論・効果検証</b>（62本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -211,6 +212,7 @@
 | F296 | 最低賃金の差の差は、前提をどこまで確かめられるのか？ | [F296_minimum_wage_did_assumptions](articles/F296_minimum_wage_did_assumptions) |
 | F387 | 2015年の相続税の見直しの前後で、貸家の建設はどれだけ増えたのか？ | [F387_rental_starts_inheritance_tax](articles/F387_rental_starts_inheritance_tax) |
 | F440 | 幼児教育と高校の無償化で、消費者物価はどれだけ下がったのか？ | [F440_free_education_cpi](articles/F440_free_education_cpi) |
+| F477 | 家庭の電気の使用量が減ったのは、家電の買い替えによるのか？ | [F477_household_electricity_appliances](articles/F477_household_electricity_appliances) |
 | F485 | 節電の要請で、電力の需要はどれだけ下がったのか？ | [F485_setsuden_demand](articles/F485_setsuden_demand) |
 | 267 | 相関を因果だと思いかけたとき、どう止めたか？ | [267_correlation_not_causation](articles/267_correlation_not_causation) |
 | 268 | 差の差・回帰不連続・合成コントロールを、どう選んできたか？ | [268_causal_design_choice](articles/268_causal_design_choice) |
@@ -873,7 +875,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（145本）</summary>
+<details><summary><b>集計の定義・KPI</b>（146本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -964,6 +966,7 @@
 | F464 | 荒れた農地は、「再生できない」ほうが増えているのか？ | [F464_abandoned_farmland_unrecoverable](articles/F464_abandoned_farmland_unrecoverable) |
 | F470 | 肉用牛の頭数が増えたのは、和牛の輸出のおかげか？ | [F470_wagyu_exports_cattle](articles/F470_wagyu_exports_cattle) |
 | F475 | 農家が買う資材の値段と売る値段の差は、広がったのか？ | [F475_farm_terms_of_trade](articles/F475_farm_terms_of_trade) |
+| F478 | 夏の電力の需要のピークは、太陽光で夕方にずれたのか？ | [F478_summer_peak_residual_demand](articles/F478_summer_peak_residual_demand) |
 | F498 | 夏は、長くなったのか？ | [F498_summer_length](articles/F498_summer_length) |
 | 149 | 川や海に比べて、湖だけ環境基準の達成率が低いのはなぜか？ | [149_lake_water_quality](articles/149_lake_water_quality) |
 | 241 | 公的データを使って困ったことは何だったか？ | [241_public_data_troubles](articles/241_public_data_troubles) |
@@ -1277,7 +1280,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（260本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（262本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1387,6 +1390,8 @@
 | F472 | 農家の暮らしは、農業以外の所得にどれだけ頼っているのか？ | [F472_farm_household_offfarm_income](articles/F472_farm_household_offfarm_income) |
 | F474 | しいたけなどきのこの生産は、どう変わったのか？ | [F474_shiitake_log_vs_bed](articles/F474_shiitake_log_vs_bed) |
 | F475 | 農家が買う資材の値段と売る値段の差は、広がったのか？ | [F475_farm_terms_of_trade](articles/F475_farm_terms_of_trade) |
+| F476 | 小麦の国産の割合は、上がったのか？ | [F476_wheat_self_sufficiency](articles/F476_wheat_self_sufficiency) |
+| F477 | 家庭の電気の使用量が減ったのは、家電の買い替えによるのか？ | [F477_household_electricity_appliances](articles/F477_household_electricity_appliances) |
 | F480 | CO2 は減っても、代替フロン（HFC）の排出は増えたのか？ | [F480_hfc_emissions](articles/F480_hfc_emissions) |
 | F481 | ごみを燃やす施設の発電は、どこまで増えたのか？ | [F481_incinerator_power](articles/F481_incinerator_power) |
 | F482 | メタンの排出は、田んぼと牛でどれだけを占めるのか？ | [F482_methane_rice_cattle](articles/F482_methane_rice_cattle) |
@@ -1556,7 +1561,7 @@
 | 業務の集計・報告 | 126 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 407 |
+| 公的統計・地域・人口 | 410 |
 
 <details><summary><b>小売・店舗</b>（164本）</summary>
 
@@ -2118,7 +2123,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（407本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（410本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2464,6 +2469,9 @@
 | F473 | のりの生産は、なぜ減ったのか？ | [F473_nori_production_sea_temp](articles/F473_nori_production_sea_temp) |
 | F474 | しいたけなどきのこの生産は、どう変わったのか？ | [F474_shiitake_log_vs_bed](articles/F474_shiitake_log_vs_bed) |
 | F475 | 農家が買う資材の値段と売る値段の差は、広がったのか？ | [F475_farm_terms_of_trade](articles/F475_farm_terms_of_trade) |
+| F476 | 小麦の国産の割合は、上がったのか？ | [F476_wheat_self_sufficiency](articles/F476_wheat_self_sufficiency) |
+| F477 | 家庭の電気の使用量が減ったのは、家電の買い替えによるのか？ | [F477_household_electricity_appliances](articles/F477_household_electricity_appliances) |
+| F478 | 夏の電力の需要のピークは、太陽光で夕方にずれたのか？ | [F478_summer_peak_residual_demand](articles/F478_summer_peak_residual_demand) |
 | F479 | 太陽光の発電を止める「出力制御」は、どの季節・時間に増えたのか？ | [F479_solar_curtailment_timing](articles/F479_solar_curtailment_timing) |
 | F480 | CO2 は減っても、代替フロン（HFC）の排出は増えたのか？ | [F480_hfc_emissions](articles/F480_hfc_emissions) |
 | F481 | ごみを燃やす施設の発電は、どこまで増えたのか？ | [F481_incinerator_power](articles/F481_incinerator_power) |
