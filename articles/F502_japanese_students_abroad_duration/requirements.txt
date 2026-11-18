@@ -1,0 +1,5 @@
+matplotlib==3.11.2
+numpy==2.5.3
+openpyxl==3.1.5
+pandas==2.3.3
+# pdftotext (poppler-utils) 24.02.0 は 01b_extract.py だけで使う（run_all.sh では使わない）

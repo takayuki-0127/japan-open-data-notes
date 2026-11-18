@@ -1,0 +1,5 @@
+2026-11-18 再実行：16 ファイル一致、所要 4 秒
+手順：記事のフォルダを /tmp/rep_F502 に写し、results の CSV・JSON、figures の PNG、data のうち 02 以降が作るもの（build_checks.json・panel_region_period.csv・panel_ari.csv・students.csv・prev_value_check.csv）を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。
+内訳：results 7、figures 4、data 5。ネットにはつながない。乱数は使っていない。PDF の読み取り（01b_extract.py）は run_all.sh に入れていない（読み取った CSV を同梱）。
+2026-11-18 独立レビューの再実行：16 ファイル一致、所要 4 秒
+手順：記事のフォルダを /tmp/rv_F502 に写し、results の CSV・JSON（repro_check.txt・selfcheck.md・review.md を除く）、figures の PNG、data のうち 02 以降が作るものを消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。ネットにはつながない。乱数は使っていない。

@@ -1,0 +1,12 @@
+{
+ "row_periods_sum_eq_total": true,
+ "regions_sum_eq_total_row": true,
+ "ari_plus_nashi_eq_total_table_2014plus": true,
+ "ari_eq_series": true,
+ "nashi_eq_series": true,
+ "sum_eq_series_total": true,
+ "prev_value_rows": 300,
+ "prev_value_mismatch_rows": 0,
+ "prev_value_mismatch_total_rows_abs_sum": 0,
+ "long_prev_chain_ok": true
+}

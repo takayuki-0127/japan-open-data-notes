@@ -1,0 +1,23 @@
+{
+ "groups_sum_eq_total_all_years": true,
+ "groups_sum_diff_by_year": {
+  "1985": 0,
+  "1990": 0,
+  "1995": 0,
+  "2000": 0,
+  "2005": 0,
+  "2010": 0,
+  "2015": 0,
+  "2020": 0,
+  "2025": 0
+ },
+ "mext_share_rows": 35,
+ "pref2025_sheet_title": [
+  "高等学校　都道府県別　学科別学年別生徒数　（本科）",
+  "計　全日制＋定時制"
+ ],
+ "pref2010_groups_sum_eq_total": true,
+ "pref2010_sum_eq_national": {},
+ "pref2025_groups_sum_eq_total": true,
+ "pref2025_sum_eq_national": {}
+}
