@@ -1,0 +1,5 @@
+再現の確認（2026-11-18）
+手順：記事のフォルダを /tmp/rep_F466 に写し、results の CSV・JSON、figures の PNG、data/wood_national.csv（run_all.sh が作るもの）を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。
+2026-11-18 再実行：14 ファイル一致（results 9、figures 4、data 1）、所要 7 秒。ネットにはつながない。
+
+2026-11-18 独立レビューの再実行：/tmp/rv_F466_wood_self_sufficiency に写し、02 以降が作る results・figures・data の CSV を消して sh src/run_all.sh を流した。14 ファイル一致（results 9、figures 4、data 1）、所要 7 秒。

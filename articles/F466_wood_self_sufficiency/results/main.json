@@ -1,0 +1,221 @@
+{
+ "y_min": 2002,
+ "end": 2024,
+ "ss_min": 18.8,
+ "ss_end": 42.5,
+ "ss_youzai_min": 18.2,
+ "ss_youzai_end": 37.8,
+ "ss_max_after_min": 42.9,
+ "ss_max_year": 2023,
+ "ss_1955": 96.1,
+ "change_pt": 23.666,
+ "dom_contrib_pt": 14.498,
+ "imp_contrib_pt": 9.168,
+ "resid_pt": 1.255813231182401e-10,
+ "shapley_dom_pt": 14.779,
+ "shapley_imp_pt": 8.887,
+ "fuel_contrib_pt": 6.42,
+ "fuel_share": 0.2713,
+ "vol": {
+  "dom_seizai": {
+   "from": 11142.0,
+   "to": 11958.0
+  },
+  "dom_gouhan": {
+   "from": 279.0,
+   "to": 3944.0
+  },
+  "dom_pulp": {
+   "from": 4370.0,
+   "to": 4283.0
+  },
+  "dom_sonota": {
+   "from": 286.0,
+   "to": 2184.0
+  },
+  "dom_shiitake": {
+   "from": 653.0,
+   "to": 154.0
+  },
+  "dom_nenryo": {
+   "from": 190.0,
+   "to": 12287.0
+  },
+  "imp_seizai": {
+   "from": 23714.0,
+   "to": 10359.0
+  },
+  "imp_gouhan": {
+   "from": 12947.0,
+   "to": 3785.0
+  },
+  "imp_pulp": {
+   "from": 33237.0,
+   "to": 22568.0
+  },
+  "imp_sonota": {
+   "from": 2152.0,
+   "to": 48.0
+  },
+  "imp_nenryo": {
+   "from": 794.0,
+   "to": 10306.0
+  },
+  "dom_total": {
+   "from": 16920.0,
+   "to": 34809.0
+  },
+  "imp_total": {
+   "from": 72844.0,
+   "to": 47065.0
+  },
+  "total": {
+   "from": 89764.0,
+   "to": 81874.0
+  },
+  "dom_youzai": {
+   "from": 16077.0,
+   "to": 22369.0
+  },
+  "imp_youzai": {
+   "from": 72050.0,
+   "to": 36759.0
+  },
+  "imp_maruta": {
+   "from": 14865.0,
+   "to": 2520.0
+  },
+  "imp_prod_total": {
+   "from": 57185.0,
+   "to": 34239.0
+  }
+ },
+ "contrib": {
+  "dom_seizai": 0.661,
+  "dom_gouhan": 2.97,
+  "dom_pulp": -0.071,
+  "dom_sonota": 1.538,
+  "dom_shiitake": -0.404,
+  "dom_nenryo": 9.803,
+  "imp_seizai": 4.75,
+  "imp_gouhan": 3.259,
+  "imp_pulp": 3.795,
+  "imp_sonota": 0.748,
+  "imp_nenryo": -3.383
+ },
+ "hypotheses": {
+  "H1": {
+   "dom": 14.497923321730399,
+   "imp": 9.168160551703854,
+   "verdict": "支持"
+  },
+  "H2": {
+   "fuel": 6.420297004975604,
+   "share": 0.2712868355946491,
+   "verdict": "外れ"
+  },
+  "H3": {
+   "by_use": {
+    "seizai": 0.6612803482689816,
+    "gouhan": 2.9700888191247636,
+    "pulp": -0.07050415477867775,
+    "sonota": 1.5381251237923068
+   },
+   "top": "合板用",
+   "verdict": "支持"
+  },
+  "H4": {
+   "by_use": {
+    "seizai": 4.7498170598186364,
+    "gouhan": 3.2585416624528802,
+    "pulp": 3.794518772834511,
+    "sonota": 0.7483051361930668,
+    "nenryo": -3.3830220795952415
+   },
+   "top": "製材用",
+   "verdict": "支持"
+  }
+ },
+ "robustness": [
+  {
+   "check": "本計算",
+   "from": 2002,
+   "to": 2024,
+   "ss_from": 18.85,
+   "ss_to": 42.52,
+   "change": 23.67,
+   "dom": 14.5,
+   "imp": 9.17,
+   "fuel": 6.42,
+   "dom_gouhan": 2.97,
+   "imp_seizai": 4.75,
+   "imp_pulp": 3.79,
+   "resid": 1.255813231182401e-10,
+   "note": ""
+  },
+  {
+   "check": "起点2000年",
+   "from": 2000,
+   "to": 2024,
+   "ss_from": 18.87,
+   "ss_to": 42.52,
+   "change": 23.65,
+   "dom": 12.05,
+   "imp": 11.59,
+   "fuel": 6.03,
+   "dom_gouhan": 2.91,
+   "imp_seizai": 5.91,
+   "imp_pulp": 4.94,
+   "resid": 6.63719745830349e-10,
+   "note": ""
+  },
+  {
+   "check": "起点2010年",
+   "from": 2010,
+   "to": 2024,
+   "ss_from": 26.32,
+   "ss_to": 42.52,
+   "change": 16.19,
+   "dom": 13.53,
+   "imp": 2.66,
+   "fuel": 6.12,
+   "dom_gouhan": 1.24,
+   "imp_seizai": 2.0,
+   "imp_pulp": 2.25,
+   "resid": 1.7267076657390135e-10,
+   "note": ""
+  },
+  {
+   "check": "燃料材を除く（用材＋しいたけ原木）",
+   "from": 2002,
+   "to": 2024,
+   "ss_from": 18.84,
+   "ss_to": 37.99,
+   "change": 19.15,
+   "dom": 5.73,
+   "imp": 13.42,
+   "fuel": 0,
+   "dom_gouhan": 3.62,
+   "imp_seizai": 5.08,
+   "imp_pulp": 4.06,
+   "resid": 2.0873844874813585e-09,
+   "note": ""
+  },
+  {
+   "check": "3年平均（前後1年）",
+   "from": 2002,
+   "to": 2024,
+   "ss_from": 18.99,
+   "ss_to": 42.73,
+   "change": 23.74,
+   "dom": 14.07,
+   "imp": 9.66,
+   "fuel": 6.16,
+   "dom_gouhan": 2.96,
+   "imp_seizai": 5.1,
+   "imp_pulp": 3.79,
+   "resid": 1.8882673202824662e-10,
+   "note": "終点は2023〜2024年の平均"
+  }
+ ]
+}

@@ -1,0 +1,353 @@
+{
+ "end": 2024,
+ "y_peak_total_vol": 1984,
+ "y_peak_aqua_vol": 1988,
+ "y_peak_total_val": 1982,
+ "vol": {
+  "1984": {
+   "vol_total_t": 12815900.0,
+   "vol_fish_t": 11607900.0,
+   "vol_aqua_t": 1208100.0,
+   "vol_mf_t": 11501400.0,
+   "vol_ma_t": 1110800.0,
+   "vol_if_t": 106500.0,
+   "vol_ia_t": 97300.0,
+   "vol_share_aqua": 9.42657168049064,
+   "vol_share_marine_aqua": 8.807415101370905
+  },
+  "1988": {
+   "vol_total_t": 12784700.0,
+   "vol_fish_t": 11358700.0,
+   "vol_aqua_t": 1426100.0,
+   "vol_mf_t": 11259200.0,
+   "vol_ma_t": 1327400.0,
+   "vol_if_t": 99500.0,
+   "vol_ia_t": 98700.0,
+   "vol_share_aqua": 11.154739649737577,
+   "vol_share_marine_aqua": 10.546136367247708
+  },
+  "1990": {
+   "vol_total_t": 11051800.0,
+   "vol_fish_t": 9682100.0,
+   "vol_aqua_t": 1369800.0,
+   "vol_mf_t": 9570000.0,
+   "vol_ma_t": 1272900.0,
+   "vol_if_t": 112100.0,
+   "vol_ia_t": 96900.0,
+   "vol_share_aqua": 12.394361099549394,
+   "vol_share_marine_aqua": 11.739479290595689
+  },
+  "2004": {
+   "vol_total_t": 5775474.0,
+   "vol_fish_t": 4515065.0,
+   "vol_aqua_t": 1260409.0,
+   "vol_mf_t": 4455077.0,
+   "vol_ma_t": 1214986.0,
+   "vol_if_t": 59988.0,
+   "vol_ia_t": 45423.0,
+   "vol_share_aqua": 21.823472843960513,
+   "vol_share_marine_aqua": 21.428086425142013
+  },
+  "2024": {
+   "vol_total_t": 3636167.0,
+   "vol_fish_t": 2804110.0,
+   "vol_aqua_t": 832058.0,
+   "vol_mf_t": 2786195.0,
+   "vol_ma_t": 802927.0,
+   "vol_if_t": 17915.0,
+   "vol_ia_t": 29131.0,
+   "vol_share_aqua": 22.882832389161443,
+   "vol_share_marine_aqua": 22.371132096131614
+  }
+ },
+ "val": {
+  "1984": {
+   "val_total_oku": 29224.13,
+   "val_fish_oku": 23062.18,
+   "val_aqua_oku": 6161.95,
+   "val_share_aqua": 21.085144365289917,
+   "val_share_marine_aqua": 17.99973123501891,
+   "yen_per_kg_fish": 198.67659094237544,
+   "yen_per_kg_aqua": 510.0529757470408
+  },
+  "1982": {
+   "val_total_oku": 29577.3,
+   "val_fish_oku": 23969.04,
+   "val_aqua_oku": 5608.26,
+   "val_share_aqua": 18.96136564189429,
+   "val_share_marine_aqua": 15.787791140755125,
+   "yen_per_kg_fish": 231.51111239894527,
+   "yen_per_kg_aqua": 541.9655972168536
+  },
+  "1990": {
+   "val_total_oku": 26893.44,
+   "val_fish_oku": 20161.15,
+   "val_aqua_oku": 6732.29,
+   "val_share_aqua": 25.03320512362866,
+   "val_share_marine_aqua": 22.798086762048943,
+   "yen_per_kg_fish": 208.23116885799567,
+   "yen_per_kg_aqua": 491.4797780697912
+  },
+  "2004": {
+   "val_total_oku": 15800.83,
+   "val_fish_oku": 11169.05,
+   "val_aqua_oku": 4631.78,
+   "val_share_aqua": 29.31352340351741,
+   "val_share_marine_aqua": 28.046495960057598,
+   "yen_per_kg_fish": 247.37296140808604,
+   "yen_per_kg_aqua": 367.48230137994886
+  },
+  "2024": {
+   "val_total_oku": 16054.71,
+   "val_fish_oku": 9056.88,
+   "val_aqua_oku": 6997.84,
+   "val_share_aqua": 43.58745813533848,
+   "val_share_marine_aqua": 39.7863965408478,
+   "yen_per_kg_fish": 322.9859028354808,
+   "yen_per_kg_aqua": 841.0279091121051
+  }
+ },
+ "val_share_1960": 9.993011879804333,
+ "vol_share_max": {
+  "year": 2016,
+  "value": 24.443173145028403
+ },
+ "val_share_max": {
+  "year": 2024,
+  "value": 43.58745813533848
+ },
+ "vol_decomp": {
+  "from": 1984,
+  "to": 2024,
+  "s_from": 9.426498127340825,
+  "s_to": 22.882826096043967,
+  "change": 13.456327968703143,
+  "aqua_part": -4.397870557652151,
+  "fish_part": 17.854198501979997,
+  "resid": 2.4375296447942674e-08,
+  "ma": -3.6006233404673953,
+  "ia": -0.7972472171847557,
+  "mf_enyo": 4.03719137581339,
+  "mf_okiai": 10.588167442465362,
+  "mf_engan": 3.0491881728976162,
+  "if": 0.1796515108036306
+ },
+ "val_decomp": {
+  "from": 1984,
+  "to": 2024,
+  "s_from": 21.085144365289917,
+  "s_to": 43.58743098602778,
+  "change": 22.502286620737866,
+  "aqua_part": 2.614975601259549,
+  "fish_part": 19.887311013639074,
+  "resid": 5.839243755190182e-09,
+  "ma": 3.0082746389204247,
+  "ia": -0.39329903766087543,
+  "mf": 19.226861953243816,
+  "if": 0.6604490603952583
+ },
+ "hypotheses": {
+  "H1": {
+   "from": 9.42657168049064,
+   "to": 22.882832389161443,
+   "diff": 13.456260708670802,
+   "verdict": "支持"
+  },
+  "H2": {
+   "val_share": 43.58745813533848,
+   "vol_share": 22.882832389161443,
+   "diff": 20.704625746177037,
+   "verdict": "支持"
+  },
+  "H3": {
+   "aqua_peak_year": 1988,
+   "peak_t": 1426100.0,
+   "end_t": 832058.0,
+   "change": -0.4165500315545895,
+   "verdict": "支持"
+  },
+  "H4": {
+   "top_group": "魚類",
+   "verdict": "支持"
+  }
+ },
+ "groups": [
+  {
+   "group": "魚類",
+   "val_from_oku": 1964.6,
+   "val_to_oku": 3214.8,
+   "val_change_oku": 1250.2,
+   "vol_from_t": 262280.0,
+   "vol_to_t": 250397.0,
+   "share_of_change": 0.7201
+  },
+  {
+   "group": "貝類",
+   "val_from_oku": 724.6,
+   "val_to_oku": 733.4,
+   "val_change_oku": 8.9,
+   "vol_from_t": 451223.0,
+   "vol_to_t": 267991.0,
+   "share_of_change": 0.0051
+  },
+  {
+   "group": "海藻類",
+   "val_from_oku": 1184.8,
+   "val_to_oku": 1509.4,
+   "val_change_oku": 324.6,
+   "vol_from_t": 484389.0,
+   "vol_to_t": 278120.0,
+   "share_of_change": 0.187
+  },
+  {
+   "group": "真珠",
+   "val_from_oku": 186.0,
+   "val_to_oku": 335.0,
+   "val_change_oku": 149.1,
+   "vol_from_t": null,
+   "vol_to_t": null,
+   "share_of_change": 0.0859
+  },
+  {
+   "group": "その他（くるまえび・ほや類など）",
+   "val_from_oku": 94.6,
+   "val_to_oku": 98.0,
+   "val_change_oku": 3.4,
+   "vol_from_t": 17065.0,
+   "vol_to_t": 6406.0,
+   "share_of_change": 0.002
+  }
+ ],
+ "items": {
+  "ぶり類": {
+   "from_oku": 1093.0,
+   "to_oku": 1426.2
+  },
+  "まだい": {
+   "from_oku": 507.2,
+   "to_oku": 775.2
+  },
+  "ぎんざけ": {
+   "from_oku": 35.7,
+   "to_oku": 136.1
+  },
+  "くろまぐろ": {
+   "from_oku": null,
+   "to_oku": 594.4
+  },
+  "ほたてがい": {
+   "from_oku": 339.9,
+   "to_oku": 309.3
+  },
+  "かき類": {
+   "from_oku": 367.8,
+   "to_oku": 415.0
+  },
+  "のり類": {
+   "from_oku": 979.1,
+   "to_oku": 1253.0
+  },
+  "真珠": {
+   "from_oku": 186.0,
+   "to_oku": 335.0
+  }
+ },
+ "robustness": [
+  {
+   "check": "本計算",
+   "from": 1984,
+   "to": 2024,
+   "vol_s_from": 9.43,
+   "vol_s_to": 22.88,
+   "vol_change": 13.46,
+   "vol_aqua_part": -4.4,
+   "vol_fish_part": 17.85,
+   "val_s_from": 21.09,
+   "val_s_to": 43.59,
+   "val_change": 22.5,
+   "val_aqua_part": 2.61,
+   "val_fish_part": 19.89,
+   "resid": 2.4375296447942674e-08
+  },
+  {
+   "check": "3年平均（前後1年）",
+   "from": 1984,
+   "to": 2024,
+   "vol_s_from": 9.6,
+   "vol_s_to": 22.96,
+   "vol_change": 13.36,
+   "vol_aqua_part": -3.84,
+   "vol_fish_part": 17.2,
+   "val_s_from": 21.2,
+   "val_s_to": 42.59,
+   "val_change": 21.39,
+   "val_aqua_part": 2.52,
+   "val_fish_part": 18.88,
+   "resid": 2.0535168232527212e-08
+  },
+  {
+   "check": "海面だけ（内水面を除く）",
+   "from": 1984,
+   "to": 2024,
+   "vol_s_from": 8.81,
+   "vol_s_to": 22.37,
+   "vol_change": 13.56,
+   "vol_aqua_part": -3.68,
+   "vol_fish_part": 17.24,
+   "val_s_from": 18.0,
+   "val_s_to": 39.79,
+   "val_change": 21.79,
+   "val_aqua_part": 3.4,
+   "val_fish_part": 18.39,
+   "resid": 2.4388345565284908e-08
+  },
+  {
+   "check": "海藻類を除く（量）",
+   "from": 1984,
+   "to": 2024,
+   "vol_s_from": 5.23,
+   "vol_s_to": 16.7,
+   "vol_change": 11.47,
+   "vol_aqua_part": -1.02,
+   "vol_fish_part": 12.49,
+   "val_s_from": null,
+   "val_s_to": null,
+   "val_change": null,
+   "val_aqua_part": null,
+   "val_fish_part": null,
+   "resid": 2.2397081522740336e-08
+  },
+  {
+   "check": "起点1990年",
+   "from": 1990,
+   "to": 2024,
+   "vol_s_from": 12.39,
+   "vol_s_to": 22.88,
+   "vol_change": 10.49,
+   "vol_aqua_part": -6.72,
+   "vol_fish_part": 17.2,
+   "val_s_from": 25.03,
+   "val_s_to": 43.59,
+   "val_change": 18.55,
+   "val_aqua_part": 0.84,
+   "val_fish_part": 17.71,
+   "resid": 1.3062216197567977e-08
+  },
+  {
+   "check": "起点2004年",
+   "from": 2004,
+   "to": 2024,
+   "vol_s_from": 21.82,
+   "vol_s_to": 22.88,
+   "vol_change": 1.06,
+   "vol_aqua_part": -7.2,
+   "vol_fish_part": 8.26,
+   "val_s_from": 29.31,
+   "val_s_to": 43.59,
+   "val_change": 14.27,
+   "val_aqua_part": 9.44,
+   "val_fish_part": 4.84,
+   "resid": 1.5473133885279822e-10
+  }
+ ]
+}
