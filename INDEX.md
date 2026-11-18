@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 434本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 439本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -11,7 +11,7 @@
 | 手法 | 本数 |
 |---|---|
 | 予測・時系列 | 135 |
-| 因果推論・効果検証 | 62 |
+| 因果推論・効果検証 | 63 |
 | A/B テスト・実験 | 27 |
 | 統計の考え方（検定・区間・回帰） | 298 |
 | 機械学習・モデル評価 | 103 |
@@ -23,7 +23,7 @@
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 262 |
+| その他（記述・要因分解など） | 267 |
 
 <details><summary><b>予測・時系列</b>（135本）</summary>
 
@@ -167,7 +167,7 @@
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（62本）</summary>
+<details><summary><b>因果推論・効果検証</b>（63本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -214,6 +214,7 @@
 | F440 | 幼児教育と高校の無償化で、消費者物価はどれだけ下がったのか？ | [F440_free_education_cpi](articles/F440_free_education_cpi) |
 | F477 | 家庭の電気の使用量が減ったのは、家電の買い替えによるのか？ | [F477_household_electricity_appliances](articles/F477_household_electricity_appliances) |
 | F485 | 節電の要請で、電力の需要はどれだけ下がったのか？ | [F485_setsuden_demand](articles/F485_setsuden_demand) |
+| F505 | 1学級の人数は、35人学級でどれだけ減ったのか？ | [F505_class_size_35_students](articles/F505_class_size_35_students) |
 | 267 | 相関を因果だと思いかけたとき、どう止めたか？ | [267_correlation_not_causation](articles/267_correlation_not_causation) |
 | 268 | 差の差・回帰不連続・合成コントロールを、どう選んできたか？ | [268_causal_design_choice](articles/268_causal_design_choice) |
 | 365 | 似た相手を選んで比べる方法は、測っていない違いがあるとどこまで外れるのか？ | [365_matching_unmeasured_confounder](articles/365_matching_unmeasured_confounder) |
@@ -1280,7 +1281,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（262本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（267本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1401,6 +1402,11 @@
 | F495 | 都市の空気は、乾いてきたのか？ | [F495_urban_humidity_drying](articles/F495_urban_humidity_drying) |
 | F500 | 18歳の人口が減っても、大学は増え続けたのか？ | [F500_universities_vs_18_population](articles/F500_universities_vs_18_population) |
 | F501 | 日本で学ぶ留学生は、どこから来て、どこで学んでいるのか？ | [F501_international_students_origin_stage](articles/F501_international_students_origin_stage) |
+| F502 | 日本から海外へ留学する人は、減ったのか？ | [F502_japanese_students_abroad_duration](articles/F502_japanese_students_abroad_duration) |
+| F503 | 高校の専門学科（工業・商業・農業）に通う生徒は、どれだけ減ったのか？ | [F503_vocational_high_school_courses](articles/F503_vocational_high_school_courses) |
+| F504 | 通信制高校に通う生徒は、どこで増えたのか？ | [F504_correspondence_high_school_growth](articles/F504_correspondence_high_school_growth) |
+| F505 | 1学級の人数は、35人学級でどれだけ減ったのか？ | [F505_class_size_35_students](articles/F505_class_size_35_students) |
+| F506 | 理工系に進む女性は、増えたのか？ | [F506_women_in_science_engineering](articles/F506_women_in_science_engineering) |
 | 000 | 女性の労働力率は何で決まる？ | [000_women_labor](articles/000_women_labor) |
 | 001 | 納税者1人あたりの所得は、なぜ街によって違うのか？ | [001_income_municipal](articles/001_income_municipal) |
 | 008 | 人が集まっている街は、所得が高い街か？ | [008_migration_income](articles/008_migration_income) |
@@ -1561,7 +1567,7 @@
 | 業務の集計・報告 | 126 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 410 |
+| 公的統計・地域・人口 | 415 |
 
 <details><summary><b>小売・店舗</b>（164本）</summary>
 
@@ -2123,7 +2129,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（410本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（415本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2495,6 +2501,11 @@
 | F499 | 「雨の日は減り、強い雨は増えた」は、地点のデータでどう見えるか？ | [F499_rain_days_heavy_rain](articles/F499_rain_days_heavy_rain) |
 | F500 | 18歳の人口が減っても、大学は増え続けたのか？ | [F500_universities_vs_18_population](articles/F500_universities_vs_18_population) |
 | F501 | 日本で学ぶ留学生は、どこから来て、どこで学んでいるのか？ | [F501_international_students_origin_stage](articles/F501_international_students_origin_stage) |
+| F502 | 日本から海外へ留学する人は、減ったのか？ | [F502_japanese_students_abroad_duration](articles/F502_japanese_students_abroad_duration) |
+| F503 | 高校の専門学科（工業・商業・農業）に通う生徒は、どれだけ減ったのか？ | [F503_vocational_high_school_courses](articles/F503_vocational_high_school_courses) |
+| F504 | 通信制高校に通う生徒は、どこで増えたのか？ | [F504_correspondence_high_school_growth](articles/F504_correspondence_high_school_growth) |
+| F505 | 1学級の人数は、35人学級でどれだけ減ったのか？ | [F505_class_size_35_students](articles/F505_class_size_35_students) |
+| F506 | 理工系に進む女性は、増えたのか？ | [F506_women_in_science_engineering](articles/F506_women_in_science_engineering) |
 | F509 | 大学の先生は、年をとったのか？ | [F509_university_faculty_age](articles/F509_university_faculty_age) |
 | F510 | 固定電話は、どれだけ減ったのか？ | [F510_landline_decline](articles/F510_landline_decline) |
 | F511 | ソフトウェアの仕事は、受託開発からパッケージ・クラウドへ移ったのか？ | [F511_info_service_sales_mix](articles/F511_info_service_sales_mix) |
