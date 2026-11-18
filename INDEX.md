@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 419本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 424本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -13,17 +13,17 @@
 | 予測・時系列 | 131 |
 | 因果推論・効果検証 | 61 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 291 |
+| 統計の考え方（検定・区間・回帰） | 293 |
 | 機械学習・モデル評価 | 103 |
 | 顧客分析・生存分析 | 64 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 143 |
+| 集計の定義・KPI | 144 |
 | 可視化・報告・BI | 41 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 254 |
+| その他（記述・要因分解など） | 257 |
 
 <details><summary><b>予測・時系列</b>（131本）</summary>
 
@@ -265,7 +265,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（291本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（293本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -447,6 +447,8 @@
 | F445 | 航空貨物は、旅客便が減った時期にどれだけ落ちたのか？ | [F445_air_cargo_passenger_flights](articles/F445_air_cargo_passenger_flights) |
 | F457 | 家庭の灯油の購入量は、どれだけ減ったのか？ | [F457_kerosene_household](articles/F457_kerosene_household) |
 | F460 | 企業の女性の管理職の割合は、規模でどう違うのか？ | [F460_female_managers_by_size](articles/F460_female_managers_by_size) |
+| F471 | 暑い夏に米の「一等」の割合は、どれだけ下がるのか？ | [F471_rice_grade_summer_heat](articles/F471_rice_grade_summer_heat) |
+| F473 | のりの生産は、なぜ減ったのか？ | [F473_nori_production_sea_temp](articles/F473_nori_production_sea_temp) |
 | F479 | 太陽光の発電を止める「出力制御」は、どの季節・時間に増えたのか？ | [F479_solar_curtailment_timing](articles/F479_solar_curtailment_timing) |
 | 253 | p値0.05の線を、どう扱ってきたか？ | [253_p_value_line](articles/253_p_value_line) |
 | 267 | 相関を因果だと思いかけたとき、どう止めたか？ | [267_correlation_not_causation](articles/267_correlation_not_causation) |
@@ -863,7 +865,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（143本）</summary>
+<details><summary><b>集計の定義・KPI</b>（144本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -953,6 +955,7 @@
 | F463 | 出張などビジネスの宿泊は、コロナ前に戻ったのか？ | [F463_business_stays_recovery](articles/F463_business_stays_recovery) |
 | F464 | 荒れた農地は、「再生できない」ほうが増えているのか？ | [F464_abandoned_farmland_unrecoverable](articles/F464_abandoned_farmland_unrecoverable) |
 | F470 | 肉用牛の頭数が増えたのは、和牛の輸出のおかげか？ | [F470_wagyu_exports_cattle](articles/F470_wagyu_exports_cattle) |
+| F475 | 農家が買う資材の値段と売る値段の差は、広がったのか？ | [F475_farm_terms_of_trade](articles/F475_farm_terms_of_trade) |
 | 149 | 川や海に比べて、湖だけ環境基準の達成率が低いのはなぜか？ | [149_lake_water_quality](articles/149_lake_water_quality) |
 | 241 | 公的データを使って困ったことは何だったか？ | [241_public_data_troubles](articles/241_public_data_troubles) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
@@ -1265,7 +1268,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（254本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（257本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1372,6 +1375,9 @@
 | F468 | 新しく農業を始める人は、増えているのか？ | [F468_new_farmers](articles/F468_new_farmers) |
 | F469 | 花の生産は、どれだけ減ったのか？ | [F469_cut_flower_decline](articles/F469_cut_flower_decline) |
 | F470 | 肉用牛の頭数が増えたのは、和牛の輸出のおかげか？ | [F470_wagyu_exports_cattle](articles/F470_wagyu_exports_cattle) |
+| F472 | 農家の暮らしは、農業以外の所得にどれだけ頼っているのか？ | [F472_farm_household_offfarm_income](articles/F472_farm_household_offfarm_income) |
+| F474 | しいたけなどきのこの生産は、どう変わったのか？ | [F474_shiitake_log_vs_bed](articles/F474_shiitake_log_vs_bed) |
+| F475 | 農家が買う資材の値段と売る値段の差は、広がったのか？ | [F475_farm_terms_of_trade](articles/F475_farm_terms_of_trade) |
 | F480 | CO2 は減っても、代替フロン（HFC）の排出は増えたのか？ | [F480_hfc_emissions](articles/F480_hfc_emissions) |
 | F481 | ごみを燃やす施設の発電は、どこまで増えたのか？ | [F481_incinerator_power](articles/F481_incinerator_power) |
 | F482 | メタンの排出は、田んぼと牛でどれだけを占めるのか？ | [F482_methane_rice_cattle](articles/F482_methane_rice_cattle) |
@@ -1538,7 +1544,7 @@
 | 業務の集計・報告 | 126 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 395 |
+| 公的統計・地域・人口 | 400 |
 
 <details><summary><b>小売・店舗</b>（164本）</summary>
 
@@ -2100,7 +2106,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（395本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（400本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2441,6 +2447,11 @@
 | F468 | 新しく農業を始める人は、増えているのか？ | [F468_new_farmers](articles/F468_new_farmers) |
 | F469 | 花の生産は、どれだけ減ったのか？ | [F469_cut_flower_decline](articles/F469_cut_flower_decline) |
 | F470 | 肉用牛の頭数が増えたのは、和牛の輸出のおかげか？ | [F470_wagyu_exports_cattle](articles/F470_wagyu_exports_cattle) |
+| F471 | 暑い夏に米の「一等」の割合は、どれだけ下がるのか？ | [F471_rice_grade_summer_heat](articles/F471_rice_grade_summer_heat) |
+| F472 | 農家の暮らしは、農業以外の所得にどれだけ頼っているのか？ | [F472_farm_household_offfarm_income](articles/F472_farm_household_offfarm_income) |
+| F473 | のりの生産は、なぜ減ったのか？ | [F473_nori_production_sea_temp](articles/F473_nori_production_sea_temp) |
+| F474 | しいたけなどきのこの生産は、どう変わったのか？ | [F474_shiitake_log_vs_bed](articles/F474_shiitake_log_vs_bed) |
+| F475 | 農家が買う資材の値段と売る値段の差は、広がったのか？ | [F475_farm_terms_of_trade](articles/F475_farm_terms_of_trade) |
 | F479 | 太陽光の発電を止める「出力制御」は、どの季節・時間に増えたのか？ | [F479_solar_curtailment_timing](articles/F479_solar_curtailment_timing) |
 | F480 | CO2 は減っても、代替フロン（HFC）の排出は増えたのか？ | [F480_hfc_emissions](articles/F480_hfc_emissions) |
 | F481 | ごみを燃やす施設の発電は、どこまで増えたのか？ | [F481_incinerator_power](articles/F481_incinerator_power) |
