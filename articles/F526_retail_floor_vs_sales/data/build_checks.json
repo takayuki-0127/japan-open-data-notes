@@ -1,0 +1,198 @@
+{
+ "ts_columns": {
+  "sales": "年間商品販売額(百万円)",
+  "floor": "売場面積(m2)"
+ },
+ "ts_prefs_found": 47,
+ "ts_pref_sum_minus_national_sales": {
+  "1972": 35597.0,
+  "1974": 4.0,
+  "1976": 4.0,
+  "1979": 0.0,
+  "1982": 2.0,
+  "1985": 3.0,
+  "1988": 0.0,
+  "1991": 1.0,
+  "1994": -2.0,
+  "1997": 2.0,
+  "1999": 2.0,
+  "2002": -4.0,
+  "2004": 2.0
+ },
+ "header_2007": {
+  "sales": "年間商品販売額",
+  "floor": "売場面積",
+  "eff": "年間商品販売額"
+ },
+ "header_2014": {
+  "sales": "年間商品販売額",
+  "floor": "売場面積",
+  "gyotai_found": [
+   "total",
+   "dept",
+   "gms",
+   "spec_super",
+   "sm_cloth",
+   "sm_food",
+   "sm_home",
+   "cvs",
+   "other_super",
+   "specialty",
+   "center",
+   "other_store"
+  ]
+ },
+ "cpi_columns": [
+  "総合",
+  "持家の帰属家賃を除く総合"
+ ],
+ "gyotai_pref_sum_minus_national": {
+  "1991": {
+   "sales": 3.0,
+   "floor": 0.0
+  },
+  "1994": {
+   "sales": -2.0,
+   "floor": 0.0
+  },
+  "1997": {
+   "sales": 2.0,
+   "floor": 0.0
+  },
+  "1999": {
+   "sales": 2.0,
+   "floor": 0.0
+  },
+  "2002": {
+   "sales": -4.0,
+   "floor": 0.0
+  },
+  "2004": {
+   "sales": 2.0,
+   "floor": 0.0
+  },
+  "2007": {
+   "sales": 0.0,
+   "floor": 0.0
+  }
+ },
+ "prefs_per_year": {
+  "1991": 47,
+  "1994": 47,
+  "1997": 47,
+  "1999": 47,
+  "2002": 47,
+  "2004": 47,
+  "2007": 47
+ },
+ "gyotai_parts_sum_minus_total_sales_mil_yen": {
+  "1991": -1.0,
+  "1994": 0.0,
+  "1997": -1.0,
+  "1999": 1.0,
+  "2002": 0.0,
+  "2004": 0.0,
+  "2007": 0.0
+ },
+ "gyotai_parts_sum_minus_total_floor_m2": {
+  "1991": 0.0,
+  "1994": 0.0,
+  "1997": 0.0,
+  "1999": 0.0,
+  "2002": 0.0,
+  "2004": 0.0,
+  "2007": 0.0
+ },
+ "ts_vs_gyotai_total": {
+  "1991": {
+   "ts_sales": 140638104.0,
+   "gyotai_sales": 142291133.0,
+   "ts_floor": 109901497.0,
+   "gyotai_floor": 109901497.0
+  },
+  "1994": {
+   "ts_sales": 143325065.0,
+   "gyotai_sales": 143325065.0,
+   "ts_floor": 121623712.0,
+   "gyotai_floor": 121623712.0
+  },
+  "1997": {
+   "ts_sales": 147743116.0,
+   "gyotai_sales": 147743116.0,
+   "ts_floor": 128083639.0,
+   "gyotai_floor": 128083639.0
+  },
+  "1999": {
+   "ts_sales": 143832551.0,
+   "gyotai_sales": 143832551.0,
+   "ts_floor": 133869296.0,
+   "gyotai_floor": 133869296.0
+  },
+  "2002": {
+   "ts_sales": 135109295.0,
+   "gyotai_sales": 135109295.0,
+   "ts_floor": 140619288.0,
+   "gyotai_floor": 140619288.0
+  },
+  "2004": {
+   "ts_sales": 133278631.0,
+   "gyotai_sales": 133278631.0,
+   "ts_floor": 144128517.0,
+   "gyotai_floor": 144128517.0
+  }
+ },
+ "eff2007_table_vs_calc": {
+  "total": {
+   "table": 66.0,
+   "calc": 90.0
+  },
+  "dept": {
+   "table": 121.0,
+   "calc": 126.0
+  },
+  "gms": {
+   "table": 50.0,
+   "calc": 50.0
+  },
+  "spec_super": {
+   "table": 59.0,
+   "calc": 59.0
+  },
+  "sm_cloth": {
+   "table": 34.0,
+   "calc": 34.0
+  },
+  "sm_food": {
+   "table": 89.0,
+   "calc": 89.0
+  },
+  "sm_home": {
+   "table": 32.0,
+   "calc": 32.0
+  },
+  "cvs": {
+   "table": 140.0,
+   "calc": 140.0
+  },
+  "drug": {
+   "table": 63.0,
+   "calc": 63.0
+  },
+  "other_super": {
+   "table": 64.0,
+   "calc": 64.0
+  },
+  "specialty": {
+   "table": 68.0,
+   "calc": 119.0
+  },
+  "center": {
+   "table": 57.0,
+   "calc": 107.0
+  },
+  "other_store": {
+   "table": 57.0,
+   "calc": 64.0
+  }
+ }
+}

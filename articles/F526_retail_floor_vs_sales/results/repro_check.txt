@@ -1,0 +1,4 @@
+2026-11-19 再実行：16 ファイル一致、所要 3 秒
+手順：記事のフォルダを /tmp/rep_F526 に写し、results の CSV・JSON、figures の PNG、data のうち 02 以降が作るもの（national_ts.csv・gyotai_pref.csv・gyotai_2014_reference.csv・cpi_annual.csv・build_checks.json）を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。
+内訳：results 7、figures 4、data 5。ネットにはつながない。乱数は使っていない。
+2026-11-19 独立レビューで再実行（直したあと）：16 ファイル一致、所要 3 秒（/tmp/rvAD2_F526 で、同じ手順）

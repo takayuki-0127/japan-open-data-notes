@@ -1,0 +1,75 @@
+{
+ "peak": "2023Q3",
+ "last": "2026Q2",
+ "share_peak": 53.86,
+ "share_last": 46.7,
+ "change_if_only_boj_moved_pt": -9.76,
+ "change_if_only_total_moved_pt": 3.18,
+ "share_last_flows_only": 44.97,
+ "sectors": {
+  "中央銀行": {
+   "stock_peak_tn": 574.1,
+   "stock_last_tn": 470.0,
+   "change_tn": -104.1,
+   "flow_tn": -59.8,
+   "adjustment_tn": -44.3,
+   "gap_tn": 0.0
+  },
+  "預金取扱機関": {
+   "stock_peak_tn": 112.7,
+   "stock_last_tn": 143.3,
+   "change_tn": 30.6,
+   "flow_tn": 61.3,
+   "adjustment_tn": -30.8,
+   "gap_tn": 0.0
+  },
+  "銀行等": {
+   "stock_peak_tn": 112.7,
+   "stock_last_tn": 143.3,
+   "change_tn": 30.6,
+   "flow_tn": 61.3,
+   "adjustment_tn": -30.8,
+   "gap_tn": 0.0
+  },
+  "保険・年金基金": {
+   "stock_peak_tn": 229.2,
+   "stock_last_tn": 184.3,
+   "change_tn": -45.0,
+   "flow_tn": 0.3,
+   "adjustment_tn": -45.3,
+   "gap_tn": 0.0
+  },
+  "社会保障基金": {
+   "stock_peak_tn": 53.0,
+   "stock_last_tn": 77.7,
+   "change_tn": 24.7,
+   "flow_tn": 35.9,
+   "adjustment_tn": -11.2,
+   "gap_tn": 0.0
+  },
+  "家計": {
+   "stock_peak_tn": 13.1,
+   "stock_last_tn": 21.9,
+   "change_tn": 8.8,
+   "flow_tn": 8.9,
+   "adjustment_tn": -0.1,
+   "gap_tn": 0.0
+  },
+  "海外": {
+   "stock_peak_tn": 59.4,
+   "stock_last_tn": 79.9,
+   "change_tn": 20.5,
+   "flow_tn": 22.3,
+   "adjustment_tn": -1.9,
+   "gap_tn": 0.0
+  },
+  "発行残高（一般政府＋財政融資資金）": {
+   "stock_peak_tn": 1065.9,
+   "stock_last_tn": 1006.5,
+   "change_tn": -59.4,
+   "flow_tn": 77.9,
+   "adjustment_tn": -137.3,
+   "gap_tn": 0.0
+  }
+ }
+}
