@@ -1,0 +1,4 @@
+再現の確認（2026-11-18）
+手順：記事のフォルダを /tmp/rep_F440 に写し、results の CSV・JSON、figures の PNG、data 直下の CSV を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。
+2026-11-18 再実行：12 ファイル一致（results 6、figures 4、data の CSV 2）、所要 1 秒。ネットにはつながない。
+2026-11-18 独立レビューの再実行（直したあと）：フォルダを /tmp/rv_F440_free_education_cpi に写し、同じ手順で流し直した。12 ファイル一致（results 6、figures 4、data の CSV 2）、所要 1 秒。
