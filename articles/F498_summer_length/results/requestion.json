@@ -1,0 +1,10 @@
+{
+ "days_per_degC_median": 13.48,
+ "days_per_degC_detrended_median": 15.7,
+ "dT_jjas_median": 1.46,
+ "dL_actual_median": 18.47,
+ "dL_expected_detrended_median": 22.68,
+ "ratio_median": 0.86,
+ "ratio_min": 0.53,
+ "ratio_max": 3.57
+}
