@@ -1,0 +1,69 @@
+（参考１）
+(Ref. 1)
+                                                                                                  令和2年末 本邦対外資産負債残高 増減要因 （試算）
+                                                                         Year-on-Year Changes in Japan's International Investment Position by Factor at Year-End 2020 (Estimates)
+                                                                                                                                                                                                                                                                               （単位：10億円）
+                                                                                                                                                                                                                                                                                    bil. yen
+                                                                      資産                                                                                                                                          負債
+                                                                     Assets                                                                                                                                     Liabilities
+
+                                                     元年末            2年末           前年末比                取引           為替相場            その他                                                          元年末              2年末           前年末比              取引            為替相場               その他
+                    項目                                                                                                                                             項目
+                                                      残高             残高            増減                 フロー           変動             調整                                                            残高               残高            増減               フロー            変動                調整
+                                                   Position at   Position at                                   Exchange rate                                                                 Position at   Position at                                      Exchange rate
+                 Component                                                         y/y chg.        Transactions               Other changes                   Component                                                         y/y chg.      Transactions                Other changes
+                                                 year-end 2019 year-end 2020                                     changes                                                                   year-end 2019 year-end 2020                                        changes
+１．直接投資                                                 204,168       205,971            1,802           18,317      ▲ 5,038       ▲ 11,477 １．直接投資                                                  34,330        39,669               5,339           7,058        ▲ 96         ▲ 1,623
+1. Direct investment                                                                                                                        1. Direct investment
+２．証券投資                                                 494,979         525,786         30,807           17,150     ▲ 14,936          28,593 ２．証券投資                                               396,243       426,022              29,779          12,916         ▲ 1,276           18,139
+2. Portfolio investment                                                                                                                     2. Portfolio investment
+      株式・投資ファンド持分                                      207,866         215,388          7,522          ▲ 4,252      ▲ 6,111          17,885       株式・投資ファンド持分                                    209,923       219,657                9,734        ▲ 8,696              ▲0           18,430
+      Equity and investment fund shares                                                                                                           Equity and investment fund shares
+            株式                                          97,221         104,670          7,449          ▲ 5,064      ▲ 4,307          16,820             株式                                       205,808       214,189                8,382        ▲ 7,999              ▲0           16,381
+            Equity securities other than                                                                                                                Equity securities other than
+            investment fund shares                                                                                                                      investment fund shares
+            投資ファンド持分                                   110,645         110,718                73           812      ▲ 1,804           1,065             投資ファンド持分                                    4,116         5,468               1,352          ▲ 697                --           2,049
+            Investment fund shares or units                                                                                                             Investment fund shares or units
+      債券                                               287,113         310,398         23,285           21,402      ▲ 8,825          10,708       債券                                             186,320       206,365              20,045          21,612         ▲ 1,275            ▲ 292
+      Debt securities                                                                                                                             Debt securities
+            中長期債                                       283,715         306,318         22,602           20,376      ▲ 8,709          10,936             中長期債                                     118,281       117,051             ▲ 1,229              376        ▲ 1,215            ▲ 390
+            Long-term                                                                                                                                   Long-term
+            短期債                                           3,398          4,081            683            1,027        ▲ 116           ▲ 228             短期債                                        68,039        89,314             21,274          21,236             ▲ 60              99
+            Short-term                                                                                                                                  Short-term
+３．金融派生商品                                                34,301          44,698         10,396         ▲ 67,061          ▲1           77,459 ３．金融派生商品                                               33,305        42,349               9,044      ▲ 67,928                 --         76,972
+3. Financial derivatives (other than reserves)                                                                                              3. Financial derivatives (other than reserves)
+４．その他投資                                                212,579         225,458         12,879           17,218      ▲ 5,972           1,634 ４．その他投資                                              269,656       281,116              11,460          19,379         ▲ 7,519            ▲ 400
+4. Other investment                                                                                                                         4. Other investment
+      持分                                                15,226          17,721          2,495            2,536        ▲ 41                0       持分                                                1,059         1,173                 115             115               --              --
+      Other equity                                                                                                                                Other equity
+      現・預金                                              17,805          19,330          1,525            1,568       ▲ 373              330       現・預金                                             49,483        44,595            ▲ 4,887         ▲ 4,501             ▲ 415             29
+      Currency and deposits                                                                                                                       Currency and deposits
+      貸付                                               140,312         141,498          1,185            4,011      ▲ 3,695             870       借入                                             182,113       196,045              13,932          18,122         ▲ 5,476            1,286
+      Loans                                                                                                                                       Loans
+      保険・年金準備金                                            1,284          1,530            246              246             --             0       保険・年金準備金                                            237           224               ▲ 14            ▲ 14                --              0
+      Insurance and pension reserves                                                                                                              Insurance and pension reserves
+      貿易信用・前払                                             8,531          8,307          ▲ 224              130       ▲ 231            ▲ 122       貿易信用・前払                                           2,816         2,509              ▲ 307              283            ▲ 106          ▲ 484
+      Trade credit and advances                                                                                                                   Trade credit and advances
+      その他資産                                             29,421          37,073          7,652            8,726      ▲ 1,631             556       その他負債                                            32,094        34,742               2,647           5,374        ▲ 1,495          ▲ 1,232
+      Other accounts receivable                                                                                                                   Other accounts payable
+                                                                                                                                                  特別引出権（SDR）                                        1,854         1,828               ▲ 27                --           ▲ 27               --
+                                                                                                                                                  Special drawing rights
+５．外貨準備                                                 144,521         144,214          ▲ 308            1,198      ▲ 5,858           4,352
+5. Reserve assets
+                 資産合計                                1,090,549       1,146,126         55,577         ▲ 13,179       ▲ 31,806        100,561                    負債合計                               733,534         789,156          55,623       ▲ 28,574          ▲ 8,890           93,087
+               Total assets                                                                                                                                   Total liabilities
+                                                 参考：金融派生商品調整後の増減計数                                      54,749       ▲ 31,806         23,589                                                参考：金融派生商品調整後の増減計数                                      39,354          ▲ 8,890           16,115
+                                                 Ref: Changes after financial derivatives have been adjusted                                                                                Ref: Changes after financial derivatives have been adjusted
+                                                                                                                                                               純資産合計                              357,015         356,970             ▲ 46         15,395         ▲ 22,915             7,474
+                                                                                                                                                  Net international investment position
+
+     （注） １．四捨五入のため、合計に合わないことがある。
+         ２．令和2年末時点における対外資産1146.1兆円のうち832.6兆円が外貨建て資産、同じく対外負債789.2兆円のうち170.4兆円が外貨建て負債である。
+         ３．「その他調整｣には、株価・債券価格等の変動に伴う増減のほか、フロー統計（国際収支統計）との作成方法の相違による増減等が反映されている。
+         ４．「参考：金融派生商品調整後の増減計数」欄には、金融派生商品に係る計数について、資産から負債を控除したネットの計数を資産側に計上している。
+   Notes: 1. Totals may not add up due to rounding.
+          2. Of the external assets of 1146.1 trillion yen at year-end 2020, 832.6 trillion yen were denominated in foreign currencies.
+             Of the external liabilities of 789.2 trillion yen at year-end 2020, 170.4 trillion yen were denominated in foreign currencies.
+          3. "Other changes" reflect changes mainly due to fluctuations in the prices of stocks, bonds, etc., and differences in the compilation method of flows (i.e., the financial account of the Balance of Payments) and the International Investment Position.
+          4. The row labeled "Ref.: Changes after financial derivatives have been adjusted" shows figures when net financial derivatives (i.e., assets minus liabilities) are recorded on the asset side.
+

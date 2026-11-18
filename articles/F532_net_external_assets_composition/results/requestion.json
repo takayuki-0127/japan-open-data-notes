@@ -1,0 +1,20 @@
+{
+ "period": "2019〜2025年（財務省の試算の累計、兆円）",
+ "net_total": {
+  "flow": 135.6,
+  "fx": 267.1,
+  "other": -187.0,
+  "change": 215.7
+ },
+ "sum_items_net_other_tn": -187.0,
+ "portfolio_assets_other_tn": 110.5,
+ "portfolio_liab_other_tn": 226.2,
+ "portfolio_net_other_tn": -115.7,
+ "di_net_other_tn": -47.0,
+ "net_fx_position_2025_tn": 1065.8,
+ "net_fx_position_2019_tn": 645.5,
+ "fx_share_assets_2025_pct": 74.8,
+ "fx_share_liab_2025_pct": 22.9,
+ "net_fx_position_vs_net_iip_2025_pct": 189.7,
+ "yen_net_position_2025_tn": -504.0
+}
