@@ -1,0 +1,4 @@
+2026-11-19 再実行：13 ファイル一致、所要 12 秒
+手順：記事のフォルダを /tmp/rep_F507 に写し、results の CSV・JSON、figures の PNG、data のうち 02 以降が作るもの（ts_rates.csv・purpose_2016_2021.csv・pop_weights.csv・build_checks.json）を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。
+内訳：results 5、figures 4、data 4。ネットにはつながない。乱数は使っていない。
+2026-11-19 独立レビューで再実行（直したあと）：13 ファイル一致、所要 10 秒（/tmp/rvAD2_F507 で、同じ手順）

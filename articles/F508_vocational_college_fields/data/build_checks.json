@@ -1,0 +1,367 @@
+{
+ "sum_check": [
+  {
+   "year": 1985,
+   "course": "all",
+   "total": 538175.0,
+   "sum_fields": 538175.0,
+   "diff": 0.0
+  },
+  {
+   "year": 1985,
+   "course": "senmon",
+   "total": 398821.0,
+   "sum_fields": 398821.0,
+   "diff": 0.0
+  },
+  {
+   "year": 1990,
+   "course": "all",
+   "total": 791431.0,
+   "sum_fields": 791431.0,
+   "diff": 0.0
+  },
+  {
+   "year": 1990,
+   "course": "senmon",
+   "total": 611503.0,
+   "sum_fields": 611503.0,
+   "diff": 0.0
+  },
+  {
+   "year": 1995,
+   "course": "all",
+   "total": 813347.0,
+   "sum_fields": 813347.0,
+   "diff": 0.0
+  },
+  {
+   "year": 1995,
+   "course": "senmon",
+   "total": 664562.0,
+   "sum_fields": 664562.0,
+   "diff": 0.0
+  },
+  {
+   "year": 2000,
+   "course": "all",
+   "total": 750824.0,
+   "sum_fields": 750824.0,
+   "diff": 0.0
+  },
+  {
+   "year": 2000,
+   "course": "senmon",
+   "total": 637308.0,
+   "sum_fields": 637308.0,
+   "diff": 0.0
+  },
+  {
+   "year": 2005,
+   "course": "all",
+   "total": 783783.0,
+   "sum_fields": 783783.0,
+   "diff": 0.0
+  },
+  {
+   "year": 2005,
+   "course": "senmon",
+   "total": 695608.0,
+   "sum_fields": 695608.0,
+   "diff": 0.0
+  },
+  {
+   "year": 2010,
+   "course": "all",
+   "total": 637897.0,
+   "sum_fields": 637897.0,
+   "diff": 0.0
+  },
+  {
+   "year": 2010,
+   "course": "senmon",
+   "total": 564640.0,
+   "sum_fields": 564640.0,
+   "diff": 0.0
+  },
+  {
+   "year": 2015,
+   "course": "all",
+   "total": 656106.0,
+   "sum_fields": 656106.0,
+   "diff": 0.0
+  },
+  {
+   "year": 2015,
+   "course": "senmon",
+   "total": 588183.0,
+   "sum_fields": 588183.0,
+   "diff": 0.0
+  },
+  {
+   "year": 2020,
+   "course": "all",
+   "total": 661174.0,
+   "sum_fields": 661174.0,
+   "diff": 0.0
+  },
+  {
+   "year": 2020,
+   "course": "senmon",
+   "total": 604415.0,
+   "sum_fields": 604415.0,
+   "diff": 0.0
+  },
+  {
+   "year": 2025,
+   "course": "all",
+   "total": 621626.0,
+   "sum_fields": 621626.0,
+   "diff": 0.0
+  },
+  {
+   "year": 2025,
+   "course": "senmon",
+   "total": 569107.0,
+   "sum_fields": 569107.0,
+   "diff": 0.0
+  }
+ ],
+ "fields_found": {
+  "1985_all": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "1985_senmon": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "1990_all": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "1990_senmon": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "1995_all": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "1995_senmon": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "2000_all": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "2000_senmon": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "2005_all": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "2005_senmon": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "2010_all": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "2010_senmon": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "2015_all": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "2015_senmon": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "2020_all": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "2020_senmon": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "2025_all": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ],
+  "2025_senmon": [
+   "kogyo",
+   "nogyo",
+   "iryo",
+   "eisei",
+   "kyoiku",
+   "shogyo",
+   "kasei",
+   "bunka"
+  ]
+ },
+ "sub_sum_max_abs_diff": 0.0,
+ "entry_rate_keys": [
+  "進学率|専修学校(専門課程)",
+  "専修学校(専門課程)入学者",
+  "3年前の中学校等卒業者",
+  "進学率|大学・短期大学|大学"
+ ],
+ "entry_rate_recalc_max_abs_diff": 0.05,
+ "all_total_vs_nenji_zaiseki": {
+  "1985": {
+   "table": 538175.0,
+   "nenji": 538175.0,
+   "diff": 0.0
+  },
+  "1990": {
+   "table": 791431.0,
+   "nenji": 791431.0,
+   "diff": 0.0
+  },
+  "1995": {
+   "table": 813347.0,
+   "nenji": 813347.0,
+   "diff": 0.0
+  },
+  "2000": {
+   "table": 750824.0,
+   "nenji": 750824.0,
+   "diff": 0.0
+  },
+  "2005": {
+   "table": 783783.0,
+   "nenji": 783783.0,
+   "diff": 0.0
+  },
+  "2010": {
+   "table": 637897.0,
+   "nenji": 637897.0,
+   "diff": 0.0
+  },
+  "2015": {
+   "table": 656106.0,
+   "nenji": 656106.0,
+   "diff": 0.0
+  },
+  "2020": {
+   "table": 661174.0,
+   "nenji": 661174.0,
+   "diff": 0.0
+  },
+  "2025": {
+   "table": 621626.0,
+   "nenji": 621626.0,
+   "diff": 0.0
+  }
+ }
+}

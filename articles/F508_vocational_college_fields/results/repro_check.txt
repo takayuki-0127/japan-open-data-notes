@@ -1,0 +1,4 @@
+2026-11-19 再実行：13 ファイル一致、所要 3 秒
+手順：記事のフォルダを /tmp/rep_F508 に写し、results の CSV・JSON、figures の PNG、data のうち 02 以降が作るもの（fields_by_year.csv・subfields_by_year.csv・entry_rate.csv・build_checks.json）を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。
+内訳：results 5、figures 4、data 4。ネットにはつながない。乱数は使っていない。
+2026-11-19 独立レビューで再実行（直したあと）：13 ファイル一致、所要 4 秒（/tmp/rvAD2_F508 で、同じ手順）

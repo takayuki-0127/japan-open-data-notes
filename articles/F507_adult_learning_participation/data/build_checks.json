@@ -1,0 +1,129 @@
+{
+ "ts_kinds": [
+  "arts",
+  "business",
+  "business_total",
+  "computing",
+  "english",
+  "foreign",
+  "home",
+  "humanities",
+  "other_foreign",
+  "total"
+ ],
+ "ts_sex_age_rows": 39,
+ "purposes": [
+  "その他",
+  "仕事につくため",
+  "現在の仕事に役立てるため",
+  "総数",
+  "自分の教養を高めるため"
+ ],
+ "ts_vs_t14_same_cells": 240,
+ "ts_vs_t14_max_abs_diff": 0.0,
+ "aggregate_5yr_vs_ts": [
+  {
+   "year": 2016,
+   "age": "25～29歳",
+   "from_5yr": 46.0,
+   "ts": 46.0,
+   "diff": 0.0
+  },
+  {
+   "year": 2016,
+   "age": "30～39歳",
+   "from_5yr": 39.461,
+   "ts": 39.5,
+   "diff": -0.039
+  },
+  {
+   "year": 2016,
+   "age": "40～49歳",
+   "from_5yr": 34.807,
+   "ts": 34.8,
+   "diff": 0.007
+  },
+  {
+   "year": 2016,
+   "age": "50～59歳",
+   "from_5yr": 37.151,
+   "ts": 37.1,
+   "diff": 0.051
+  },
+  {
+   "year": 2016,
+   "age": "60～64歳",
+   "from_5yr": 35.1,
+   "ts": 35.1,
+   "diff": 0.0
+  },
+  {
+   "year": 2016,
+   "age": "65～69歳",
+   "from_5yr": 33.6,
+   "ts": 33.6,
+   "diff": 0.0
+  },
+  {
+   "year": 2016,
+   "age": "70歳以上",
+   "from_5yr": 25.443,
+   "ts": 25.4,
+   "diff": 0.043
+  },
+  {
+   "year": 2021,
+   "age": "25～29歳",
+   "from_5yr": 49.6,
+   "ts": 49.6,
+   "diff": 0.0
+  },
+  {
+   "year": 2021,
+   "age": "30～39歳",
+   "from_5yr": 46.295,
+   "ts": 46.3,
+   "diff": -0.005
+  },
+  {
+   "year": 2021,
+   "age": "40～49歳",
+   "from_5yr": 38.922,
+   "ts": 38.9,
+   "diff": 0.022
+  },
+  {
+   "year": 2021,
+   "age": "50～59歳",
+   "from_5yr": 38.892,
+   "ts": 38.9,
+   "diff": -0.008
+  },
+  {
+   "year": 2021,
+   "age": "60～64歳",
+   "from_5yr": 36.7,
+   "ts": 36.7,
+   "diff": 0.0
+  },
+  {
+   "year": 2021,
+   "age": "65～69歳",
+   "from_5yr": 35.3,
+   "ts": 35.3,
+   "diff": 0.0
+  },
+  {
+   "year": 2021,
+   "age": "70歳以上",
+   "from_5yr": 26.321,
+   "ts": 26.3,
+   "diff": 0.021
+  }
+ ],
+ "summary_pdf_39.6_and_2.7": {
+  "2021": 39.6,
+  "diff": 2.7
+ },
+ "pop_male_plus_female_minus_total_max": 2.0
+}
