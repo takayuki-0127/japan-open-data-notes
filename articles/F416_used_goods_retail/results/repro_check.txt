@@ -1,0 +1,1 @@
+2026-11-18 再実行：15 ファイル一致、所要 3 秒（独立レビュー：/tmp/rv_F416 に写し、data の中間ファイル4本と results・figures を消して sh src/run_all.sh。results の CSV・JSON、figures の PNG、data の中間ファイル4本を cmp で比較）
