@@ -1,0 +1,312 @@
+{
+ "years": [
+  1995,
+  2025
+ ],
+ "var_share": {
+  "s1_rent": 0.067,
+  "s2_formula": 0.143,
+  "s3_nonconsumption": 0.024,
+  "s4_trade": 0.765
+ },
+ "gap_sd": 0.952,
+ "corr_gap_import_growth": 0.564,
+ "n_gap_positive": 22,
+ "n_years": 31,
+ "selected_years": {
+  "1997": {
+   "cpi": 1.87,
+   "gdp": 0.08,
+   "gap": 1.79,
+   "s1_rent": 0.31,
+   "s2_formula": 0.48,
+   "s3_nonconsumption": 0.64,
+   "s4_trade": 0.36,
+   "m": 6.13,
+   "x": 1.8,
+   "s4_imports": 0.52,
+   "s4_exports": -0.16,
+   "s4_dd_weight": 0.0,
+   "s4_resid": -0.0
+  },
+  "2008": {
+   "cpi": 1.41,
+   "gdp": -0.9,
+   "gap": 2.31,
+   "s1_rent": -0.17,
+   "s2_formula": 0.87,
+   "s3_nonconsumption": -0.0,
+   "s4_trade": 1.61,
+   "m": 5.74,
+   "x": -3.96,
+   "s4_imports": 0.86,
+   "s4_exports": 0.69,
+   "s4_dd_weight": 0.01,
+   "s4_resid": 0.05
+  },
+  "2009": {
+   "cpi": -1.39,
+   "gdp": -0.47,
+   "gap": -0.92,
+   "s1_rent": 0.04,
+   "s2_formula": 1.21,
+   "s3_nonconsumption": -0.64,
+   "s4_trade": -1.54,
+   "m": -21.32,
+   "x": -11.81,
+   "s4_imports": -4.01,
+   "s4_exports": 2.14,
+   "s4_dd_weight": -0.01,
+   "s4_resid": 0.32
+  },
+  "2014": {
+   "cpi": 2.83,
+   "gdp": 1.73,
+   "gap": 1.1,
+   "s1_rent": -0.45,
+   "s2_formula": 0.66,
+   "s3_nonconsumption": 0.71,
+   "s4_trade": 0.18,
+   "m": 3.73,
+   "x": 2.9,
+   "s4_imports": 0.66,
+   "s4_exports": -0.45,
+   "s4_dd_weight": -0.05,
+   "s4_resid": 0.01
+  },
+  "2015": {
+   "cpi": 0.69,
+   "gdp": 2.07,
+   "gap": -1.38,
+   "s1_rent": -0.37,
+   "s2_formula": 0.25,
+   "s3_nonconsumption": 0.25,
+   "s4_trade": -1.51,
+   "m": -7.22,
+   "x": 0.56,
+   "s4_imports": -1.47,
+   "s4_exports": -0.1,
+   "s4_dd_weight": -0.01,
+   "s4_resid": 0.09
+  },
+  "2019": {
+   "cpi": 0.45,
+   "gdp": 0.78,
+   "gap": -0.33,
+   "s1_rent": -0.12,
+   "s2_formula": -0.2,
+   "s3_nonconsumption": 0.14,
+   "s4_trade": -0.15,
+   "m": -3.81,
+   "x": -3.05,
+   "s4_imports": -0.69,
+   "s4_exports": 0.56,
+   "s4_dd_weight": 0.0,
+   "s4_resid": -0.01
+  },
+  "2021": {
+   "cpi": -0.22,
+   "gdp": -0.04,
+   "gap": -0.18,
+   "s1_rent": 0.12,
+   "s2_formula": -1.03,
+   "s3_nonconsumption": -0.54,
+   "s4_trade": 1.28,
+   "m": 15.37,
+   "x": 6.88,
+   "s4_imports": 2.2,
+   "s4_exports": -1.01,
+   "s4_dd_weight": -0.0,
+   "s4_resid": 0.08
+  },
+  "2022": {
+   "cpi": 2.58,
+   "gdp": 0.64,
+   "gap": 1.95,
+   "s1_rent": -0.39,
+   "s2_formula": -0.65,
+   "s3_nonconsumption": 0.42,
+   "s4_trade": 2.57,
+   "m": 27.28,
+   "x": 14.47,
+   "s4_imports": 4.33,
+   "s4_exports": -2.36,
+   "s4_dd_weight": -0.02,
+   "s4_resid": 0.56
+  },
+  "2023": {
+   "cpi": 3.17,
+   "gdp": 4.57,
+   "gap": -1.39,
+   "s1_rent": -0.72,
+   "s2_formula": 0.11,
+   "s3_nonconsumption": 0.58,
+   "s4_trade": -1.36,
+   "m": -1.58,
+   "x": 4.22,
+   "s4_imports": -0.39,
+   "s4_exports": -0.85,
+   "s4_dd_weight": -0.11,
+   "s4_resid": 0.04
+  },
+  "2024": {
+   "cpi": 2.76,
+   "gdp": 3.21,
+   "gap": -0.46,
+   "s1_rent": -0.34,
+   "s2_formula": 0.25,
+   "s3_nonconsumption": 0.25,
+   "s4_trade": -0.61,
+   "m": 3.59,
+   "x": 6.5,
+   "s4_imports": 0.79,
+   "s4_exports": -1.32,
+   "s4_dd_weight": -0.04,
+   "s4_resid": -0.03
+  },
+  "2025": {
+   "cpi": 3.2,
+   "gdp": 3.44,
+   "gap": -0.24,
+   "s1_rent": -0.54,
+   "s2_formula": 0.35,
+   "s3_nonconsumption": 0.6,
+   "s4_trade": -0.65,
+   "m": -2.15,
+   "x": 0.49,
+   "s4_imports": -0.5,
+   "s4_exports": -0.11,
+   "s4_dd_weight": -0.02,
+   "s4_resid": 0.0
+  }
+ },
+ "periods": {
+  "1994-2025": {
+   "cpi": 0.499,
+   "cpi_xrent": 0.568,
+   "hh": 0.245,
+   "dd": 0.194,
+   "gdp": -0.003,
+   "x": 0.173,
+   "m": 1.723,
+   "gap": 0.502,
+   "s1_rent": -0.069,
+   "s2_formula": 0.323,
+   "s3_nonconsumption": 0.051,
+   "s4_trade": 0.198,
+   "cum_cpi": 16.686,
+   "cum_gdp": -0.099
+  },
+  "1994-2012": {
+   "cpi": -0.085,
+   "cpi_xrent": -0.141,
+   "hh": -0.706,
+   "dd": -0.633,
+   "gdp": -0.983,
+   "x": -1.65,
+   "m": 1.125,
+   "gap": 0.898,
+   "s1_rent": 0.056,
+   "s2_formula": 0.565,
+   "s3_nonconsumption": -0.072,
+   "s4_trade": 0.349,
+   "cum_cpi": -1.517,
+   "cum_gdp": -16.285
+  },
+  "2012-2019": {
+   "cpi": 0.809,
+   "cpi_xrent": 1.0,
+   "hh": 0.805,
+   "dd": 0.609,
+   "gdp": 0.696,
+   "x": 0.978,
+   "m": 0.359,
+   "gap": 0.113,
+   "s1_rent": -0.19,
+   "s2_formula": 0.195,
+   "s3_nonconsumption": 0.195,
+   "s4_trade": -0.087,
+   "cum_cpi": 5.806,
+   "cum_gdp": 4.977
+  },
+  "2019-2025": {
+   "cpi": 1.904,
+   "cpi_xrent": 2.212,
+   "hh": 2.484,
+   "dd": 2.225,
+   "gdp": 2.16,
+   "x": 4.864,
+   "m": 5.181,
+   "gap": -0.256,
+   "s1_rent": -0.308,
+   "s2_formula": -0.272,
+   "s3_nonconsumption": 0.259,
+   "s4_trade": 0.066,
+   "cum_cpi": 11.982,
+   "cum_gdp": 13.677
+  },
+  "2021-2025": {
+   "cpi": 2.927,
+   "cpi_xrent": 3.424,
+   "hh": 3.41,
+   "dd": 2.95,
+   "gdp": 2.953,
+   "x": 6.297,
+   "m": 6.153,
+   "gap": -0.026,
+   "s1_rent": -0.497,
+   "s2_formula": 0.015,
+   "s3_nonconsumption": 0.459,
+   "s4_trade": -0.003,
+   "cum_cpi": 12.233,
+   "cum_gdp": 12.347
+  }
+ },
+ "hypotheses": {
+  "H1": {
+   "var_share": {
+    "s1_rent": 0.067,
+    "s2_formula": 0.143,
+    "s3_nonconsumption": 0.024,
+    "s4_trade": 0.765
+   },
+   "max": "s4_trade",
+   "result": "支持"
+  },
+  "H2": {
+   "years_import_10pct": [
+    2006,
+    2013,
+    2021,
+    2022
+   ],
+   "gap": [
+    1.29,
+    0.53,
+    -0.18,
+    1.95
+   ],
+   "share_positive": 0.75,
+   "result": "支持"
+  },
+  "H3": {
+   "s2_formula_annual_1994_2025": 0.323,
+   "result": "支持"
+  },
+  "H4": {
+   "gap_2022": 1.95,
+   "gap_2023": -1.39,
+   "gap_2024": -0.46,
+   "result": "支持"
+  }
+ },
+ "robustness_top": {
+  "基本：1995〜2025年": "s4_trade",
+  "期間を2000〜2025年": "s4_trade",
+  "CPI を持家の帰属家賃を除く総合に（1段目なし）": "s4_trade",
+  "家計ではなく民間最終消費支出（NPISH を含む）デフレーター": "s4_trade",
+  "表のデフレーター（小数1桁に丸めた値）で計算": "s4_trade",
+  "大きな年（1997・2009・2014・2019・2022年）を除く": "s4_trade"
+ },
+ "s4_import_part_share_of_s4_var": 1.342
+}
