@@ -1,0 +1,29 @@
+{
+ "d1_diff": -8.75,
+ "light_diff": -7.27,
+ "d10_diff": -1.5,
+ "light_share_of_d1_decrease": 0.831,
+ "light_slope_per100y": -7.7,
+ "light_ci": [
+  -8.87,
+  -6.54
+ ],
+ "d10_slope_per100y": -1.59,
+ "d10_ci": [
+  -3.53,
+  0.35
+ ],
+ "sdii_p1": 13.2,
+ "sdii_p2": 14.15,
+ "sdii_change_pct": 7.2,
+ "sdii_slope_per100y": 0.9,
+ "sdii_ci": [
+  0.48,
+  1.32
+ ],
+ "n_station_light_down": 48,
+ "n_station_sdii_up": 47,
+ "n_station_d10_down": 39,
+ "d1_share_of_change_by_1961_1990": 0.83,
+ "d100_share_of_change_after_1961_1990": 0.693
+}

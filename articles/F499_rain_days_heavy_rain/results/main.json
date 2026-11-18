@@ -1,0 +1,67 @@
+{
+ "n_stations": 51,
+ "years": [
+  1901,
+  2025
+ ],
+ "H1_d1_slope_per100y": -9.27,
+ "H1_ci": [
+  -12.1,
+  -6.44
+ ],
+ "H1_p": 1.3256760343550592e-10,
+ "H1_support": true,
+ "d1_mean_p1": 125.2,
+ "d1_mean_p2": 116.5,
+ "H2_d100_mean_p1": 0.836,
+ "H2_d100_mean_p2": 1.173,
+ "H2_ratio": 1.403,
+ "H2_support": true,
+ "d100_slope_per100y": 0.315,
+ "d100_ci": [
+  0.196,
+  0.434
+ ],
+ "d100_poisson_rr_per100y": 1.378,
+ "d100_poisson_rr_ci": [
+  1.21,
+  1.568
+ ],
+ "d100_poisson_rr_per100y_from1961": 1.751,
+ "d100_poisson_rr_ci_from1961": [
+  1.132,
+  2.709
+ ],
+ "d50_poisson_rr_per100y": 1.143,
+ "d50_poisson_rr_ci": [
+  1.046,
+  1.249
+ ],
+ "d50_ratio_p2_p1": 1.14,
+ "d100_total_days_51st_p1": 42.6,
+ "d100_total_days_51st_p2": 59.8,
+ "H3_n_both": 42,
+ "H3_share": 0.824,
+ "H3_support": true,
+ "H3_n_d1_down": 48,
+ "H3_n_d100_up": 44,
+ "H3_n_d100_down": 6,
+ "H3_n_d100_same": 1,
+ "H3_n_both_with_d50": 38,
+ "H4_regions_pattern": {
+  "北日本": true,
+  "東日本": true,
+  "西日本": true,
+  "沖縄奄美": true
+ },
+ "H4_support": true,
+ "total_slope_per100y": -25.6,
+ "total_ci": [
+  -102.9,
+  51.7
+ ],
+ "total_p": 0.5165341939835599,
+ "total_mean_p1": 1643.5,
+ "total_mean_p2": 1628.5,
+ "jma_reference_dry_days_increase_per100y": 9.2
+}
