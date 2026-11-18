@@ -1,0 +1,539 @@
+{
+ "H1": {
+  "area_change_pct": -34.0,
+  "harvest_change_pct": -47.2,
+  "judge": "支持"
+ },
+ "H2": {
+  "area_2004": 19200.0,
+  "area_2024": 16300.0,
+  "change_pct": -15.1,
+  "harvest_change_pct": -19.9,
+  "judge": "支持"
+ },
+ "H3": {
+  "change_pct": 113.9,
+  "judge": "支持",
+  "value_2004": 1003.0,
+  "value_2024": 2145.0
+ },
+ "H4": {
+  "budou_unit_value_ratio": 2.67,
+  "judge": "支持",
+  "mikan_unit_value_ratio": 2.33
+ },
+ "budou_over_mikan_years": [
+  2020,
+  2021,
+  2022,
+  2023,
+  2024
+ ],
+ "decomp_2004_2024": {
+  "おうとう": {
+   "area_change_pct": -1.7,
+   "harvest_change_pct": -29.9,
+   "log_area": -0.0169,
+   "log_share_area_pct": -6.5,
+   "log_unit_value": 0.6156,
+   "log_value": 0.2606,
+   "log_yield": -0.338,
+   "unit_value0_yen_kg": 1884.0,
+   "unit_value1_yen_kg": 3487.0,
+   "unit_value_change_pct": 85.1,
+   "value0_oku": 309.0,
+   "value1_oku": 401.0,
+   "value_change_pct": 29.8,
+   "yield_change_pct": -28.7
+  },
+  "かき": {
+   "area_change_pct": -27.7,
+   "harvest_change_pct": -28.0,
+   "log_area": -0.3248,
+   "log_share_area_pct": -316.9,
+   "log_unit_value": 0.4312,
+   "log_value": 0.1025,
+   "log_yield": -0.0039,
+   "unit_value0_yen_kg": 179.0,
+   "unit_value1_yen_kg": 276.0,
+   "unit_value_change_pct": 53.9,
+   "value0_oku": 417.0,
+   "value1_oku": 462.0,
+   "value_change_pct": 10.8,
+   "yield_change_pct": -0.4
+  },
+  "ぶどう": {
+   "area_change_pct": -15.1,
+   "harvest_change_pct": -19.9,
+   "log_area": -0.1637,
+   "log_share_area_pct": -21.5,
+   "log_unit_value": 0.9826,
+   "log_value": 0.7601,
+   "log_yield": -0.0587,
+   "unit_value0_yen_kg": 488.0,
+   "unit_value1_yen_kg": 1303.0,
+   "unit_value_change_pct": 167.1,
+   "value0_oku": 1003.0,
+   "value1_oku": 2145.0,
+   "value_change_pct": 113.9,
+   "yield_change_pct": -5.7
+  },
+  "みかん": {
+   "area_change_pct": -34.0,
+   "harvest_change_pct": -47.2,
+   "log_area": -0.416,
+   "log_share_area_pct": -201.0,
+   "log_unit_value": 0.8458,
+   "log_value": 0.207,
+   "log_yield": -0.2228,
+   "unit_value0_yen_kg": 144.0,
+   "unit_value1_yen_kg": 335.0,
+   "unit_value_change_pct": 133.0,
+   "value0_oku": 1526.0,
+   "value1_oku": 1877.0,
+   "value_change_pct": 23.0,
+   "yield_change_pct": -20.0
+  },
+  "もも": {
+   "area_change_pct": -10.8,
+   "harvest_change_pct": -27.8,
+   "log_area": -0.114,
+   "log_share_area_pct": -30.7,
+   "log_unit_value": 0.697,
+   "log_value": 0.3716,
+   "log_yield": -0.2114,
+   "unit_value0_yen_kg": 329.0,
+   "unit_value1_yen_kg": 661.0,
+   "unit_value_change_pct": 100.8,
+   "value0_oku": 500.0,
+   "value1_oku": 725.0,
+   "value_change_pct": 45.0,
+   "yield_change_pct": -19.1
+  },
+  "りんご": {
+   "area_change_pct": -18.4,
+   "harvest_change_pct": -19.2,
+   "log_area": -0.2034,
+   "log_share_area_pct": -62.7,
+   "log_unit_value": 0.5383,
+   "log_value": 0.3245,
+   "log_yield": -0.0104,
+   "unit_value0_yen_kg": 186.0,
+   "unit_value1_yen_kg": 319.0,
+   "unit_value_change_pct": 71.3,
+   "value0_oku": 1406.0,
+   "value1_oku": 1945.0,
+   "value_change_pct": 38.3,
+   "yield_change_pct": -1.0
+  },
+  "日本なし": {
+   "area_change_pct": -38.3,
+   "harvest_change_pct": -47.4,
+   "log_area": -0.4822,
+   "log_share_area_pct": 418.8,
+   "log_unit_value": 0.5266,
+   "log_value": -0.1151,
+   "log_yield": -0.1596,
+   "unit_value0_yen_kg": 258.0,
+   "unit_value1_yen_kg": 437.0,
+   "unit_value_change_pct": 69.3,
+   "value0_oku": 846.0,
+   "value1_oku": 754.0,
+   "value_change_pct": -10.9,
+   "yield_change_pct": -14.7
+  }
+ },
+ "fruit_total_value_oku": {
+  "2003": 7141.0,
+  "2004": 7627.0,
+  "2024": 10112.0
+ },
+ "pref_main": {
+  "ぶどう": {
+   "北海道": {
+    "area_2004": 1180.0,
+    "area_2024": 1070.0,
+    "change_pct": -9.3,
+    "share_2024_pct": 6.6
+   },
+   "山形": {
+    "area_2004": 1800.0,
+    "area_2024": 1370.0,
+    "change_pct": -23.9,
+    "share_2024_pct": 8.4
+   },
+   "山梨": {
+    "area_2004": 4160.0,
+    "area_2024": 3790.0,
+    "change_pct": -8.9,
+    "share_2024_pct": 23.3
+   },
+   "岡山": {
+    "area_2004": 1090.0,
+    "area_2024": 1160.0,
+    "change_pct": 6.4,
+    "share_2024_pct": 7.1
+   },
+   "福岡": {
+    "area_2004": 1030.0,
+    "area_2024": 638.0,
+    "change_pct": -38.1,
+    "share_2024_pct": 3.9
+   },
+   "長野": {
+    "area_2004": 2370.0,
+    "area_2024": 2550.0,
+    "change_pct": 7.6,
+    "share_2024_pct": 15.6
+   }
+  },
+  "みかん": {
+   "佐賀": {
+    "area_2004": 3450.0,
+    "area_2024": 1580.0,
+    "change_pct": -54.2,
+    "share_2024_pct": 4.6
+   },
+   "和歌山": {
+    "area_2004": 7570.0,
+    "area_2024": 6560.0,
+    "change_pct": -13.3,
+    "share_2024_pct": 19.0
+   },
+   "広島": {
+    "area_2004": 2860.0,
+    "area_2024": 1420.0,
+    "change_pct": -50.3,
+    "share_2024_pct": 4.1
+   },
+   "愛媛": {
+    "area_2004": 8050.0,
+    "area_2024": 5060.0,
+    "change_pct": -37.1,
+    "share_2024_pct": 14.7
+   },
+   "熊本": {
+    "area_2004": 4740.0,
+    "area_2024": 3430.0,
+    "change_pct": -27.6,
+    "share_2024_pct": 9.9
+   },
+   "福岡": {
+    "area_2004": 2230.0,
+    "area_2024": 1050.0,
+    "change_pct": -52.9,
+    "share_2024_pct": 3.0
+   },
+   "長崎": {
+    "area_2004": 3680.0,
+    "area_2024": 2330.0,
+    "change_pct": -36.7,
+    "share_2024_pct": 6.8
+   },
+   "静岡": {
+    "area_2004": 5950.0,
+    "area_2024": 4730.0,
+    "change_pct": -20.5,
+    "share_2024_pct": 13.7
+   }
+  }
+ },
+ "pref_n_up": {
+  "ぶどう": {
+   "n_area_up": 3,
+   "n_pref": 25
+  },
+  "みかん": {
+   "n_area_up": 0,
+   "n_pref": 20
+  }
+ },
+ "robustness": {
+  "R1_3yr_avg": {
+   "ぶどう": {
+    "area_change_pct": -14.8,
+    "harvest_change_pct": -23.5,
+    "log_area": -0.1597,
+    "log_share_area_pct": -22.2,
+    "log_unit_value": 0.9879,
+    "log_value": 0.7196,
+    "log_yield": -0.1087,
+    "unit_value0_yen_kg": 462.0,
+    "unit_value1_yen_kg": 1242.0,
+    "unit_value_change_pct": 168.6,
+    "value0_oku": 996.0,
+    "value1_oku": 2046.0,
+    "value_change_pct": 105.4,
+    "yield_change_pct": -10.3
+   },
+   "みかん": {
+    "area_change_pct": -32.6,
+    "harvest_change_pct": -42.4,
+    "log_area": -0.395,
+    "log_share_area_pct": -198.6,
+    "log_unit_value": 0.7502,
+    "log_value": 0.1989,
+    "log_yield": -0.1562,
+    "unit_value0_yen_kg": 127.0,
+    "unit_value1_yen_kg": 269.0,
+    "unit_value_change_pct": 111.7,
+    "value0_oku": 1412.0,
+    "value1_oku": 1722.0,
+    "value_change_pct": 22.0,
+    "yield_change_pct": -14.5
+   }
+  },
+  "R2_shipped": {
+   "ぶどう": {
+    "area_change_pct": -15.1,
+    "harvest_change_pct": -17.5,
+    "log_area": -0.1637,
+    "log_share_area_pct": -21.5,
+    "log_unit_value": 0.9531,
+    "log_value": 0.7601,
+    "log_yield": -0.0292,
+    "unit_value0_yen_kg": 535.0,
+    "unit_value1_yen_kg": 1387.0,
+    "unit_value_change_pct": 159.4,
+    "value0_oku": 1003.0,
+    "value1_oku": 2145.0,
+    "value_change_pct": 113.9,
+    "yield_change_pct": -2.9
+   },
+   "みかん": {
+    "area_change_pct": -34.0,
+    "harvest_change_pct": -45.4,
+    "log_area": -0.416,
+    "log_share_area_pct": -201.0,
+    "log_unit_value": 0.813,
+    "log_value": 0.207,
+    "log_yield": -0.1899,
+    "unit_value0_yen_kg": 163.0,
+    "unit_value1_yen_kg": 367.0,
+    "unit_value_change_pct": 125.5,
+    "value0_oku": 1526.0,
+    "value1_oku": 1877.0,
+    "value_change_pct": 23.0,
+    "yield_change_pct": -17.3
+   }
+  },
+  "R3_base_2009": {
+   "ぶどう": {
+    "area_change_pct": -10.9,
+    "harvest_change_pct": -18.6,
+    "log_area": -0.1157,
+    "log_share_area_pct": -15.3,
+    "log_unit_value": 0.9629,
+    "log_value": 0.7572,
+    "log_yield": -0.09,
+    "unit_value0_yen_kg": 498.0,
+    "unit_value1_yen_kg": 1303.0,
+    "unit_value_change_pct": 161.9,
+    "value0_oku": 1006.0,
+    "value1_oku": 2145.0,
+    "value_change_pct": 113.2,
+    "yield_change_pct": -8.6
+   },
+   "みかん": {
+    "area_change_pct": -26.6,
+    "harvest_change_pct": -44.2,
+    "log_area": -0.3092,
+    "log_share_area_pct": -82.8,
+    "log_unit_value": 0.957,
+    "log_value": 0.3735,
+    "log_yield": -0.2743,
+    "unit_value0_yen_kg": 129.0,
+    "unit_value1_yen_kg": 335.0,
+    "unit_value_change_pct": 160.4,
+    "value0_oku": 1292.0,
+    "value1_oku": 1877.0,
+    "value_change_pct": 45.3,
+    "yield_change_pct": -24.0
+   }
+  },
+  "R4_n_items_value_up": 6,
+  "R4_unit_value_change_all": {
+   "おうとう": 85.1,
+   "かき": 53.9,
+   "ぶどう": 167.1,
+   "みかん": 133.0,
+   "もも": 100.8,
+   "りんご": 71.3,
+   "日本なし": 69.3
+  }
+ },
+ "series": {
+  "ぶどう": {
+   "1973": {
+    "area_ha": 22500.0,
+    "harvest_t": 271000.0,
+    "share_of_fruit_value_pct": null,
+    "unit_value_yen_kg": null,
+    "value_oku": null,
+    "yield_kg_10a": 1204.0
+   },
+   "1985": {
+    "area_ha": 26500.0,
+    "harvest_t": 311300.0,
+    "share_of_fruit_value_pct": null,
+    "unit_value_yen_kg": null,
+    "value_oku": null,
+    "yield_kg_10a": 1175.0
+   },
+   "1994": {
+    "area_ha": 22900.0,
+    "harvest_t": 244900.0,
+    "share_of_fruit_value_pct": null,
+    "unit_value_yen_kg": null,
+    "value_oku": null,
+    "yield_kg_10a": 1069.0
+   },
+   "2003": {
+    "area_ha": 19400.0,
+    "harvest_t": 220800.0,
+    "share_of_fruit_value_pct": 13.8,
+    "unit_value_yen_kg": 447.0,
+    "value_oku": 988.0,
+    "yield_kg_10a": 1138.0
+   },
+   "2004": {
+    "area_ha": 19200.0,
+    "harvest_t": 205600.0,
+    "share_of_fruit_value_pct": 13.2,
+    "unit_value_yen_kg": 488.0,
+    "value_oku": 1003.0,
+    "yield_kg_10a": 1071.0
+   },
+   "2009": {
+    "area_ha": 18300.0,
+    "harvest_t": 202200.0,
+    "share_of_fruit_value_pct": 14.4,
+    "unit_value_yen_kg": 498.0,
+    "value_oku": 1006.0,
+    "yield_kg_10a": 1105.0
+   },
+   "2014": {
+    "area_ha": 17300.0,
+    "harvest_t": 189200.0,
+    "share_of_fruit_value_pct": 14.4,
+    "unit_value_yen_kg": 580.0,
+    "value_oku": 1098.0,
+    "yield_kg_10a": 1094.0
+   },
+   "2020": {
+    "area_ha": 16500.0,
+    "harvest_t": 163400.0,
+    "share_of_fruit_value_pct": 19.8,
+    "unit_value_yen_kg": 1060.0,
+    "value_oku": 1732.0,
+    "yield_kg_10a": 990.0
+   },
+   "2023": {
+    "area_ha": 16400.0,
+    "harvest_t": 167000.0,
+    "share_of_fruit_value_pct": 21.6,
+    "unit_value_yen_kg": 1238.0,
+    "value_oku": 2068.0,
+    "yield_kg_10a": 1018.0
+   },
+   "2024": {
+    "area_ha": 16300.0,
+    "harvest_t": 164600.0,
+    "share_of_fruit_value_pct": 21.2,
+    "unit_value_yen_kg": 1303.0,
+    "value_oku": 2145.0,
+    "yield_kg_10a": 1010.0
+   },
+   "area_peak": {
+    "area_ha": 27900.0,
+    "year": 1980
+   }
+  },
+  "みかん": {
+   "1973": {
+    "area_ha": 156300.0,
+    "harvest_t": 3389000.0,
+    "share_of_fruit_value_pct": null,
+    "unit_value_yen_kg": null,
+    "value_oku": null,
+    "yield_kg_10a": 2168.0
+   },
+   "1985": {
+    "area_ha": 106900.0,
+    "harvest_t": 2491000.0,
+    "share_of_fruit_value_pct": null,
+    "unit_value_yen_kg": null,
+    "value_oku": null,
+    "yield_kg_10a": 2330.0
+   },
+   "1994": {
+    "area_ha": 67000.0,
+    "harvest_t": 1247000.0,
+    "share_of_fruit_value_pct": null,
+    "unit_value_yen_kg": null,
+    "value_oku": null,
+    "yield_kg_10a": 1861.0
+   },
+   "2003": {
+    "area_ha": 53700.0,
+    "harvest_t": 1146000.0,
+    "share_of_fruit_value_pct": 19.2,
+    "unit_value_yen_kg": 120.0,
+    "value_oku": 1372.0,
+    "yield_kg_10a": 2134.0
+   },
+   "2004": {
+    "area_ha": 52300.0,
+    "harvest_t": 1060000.0,
+    "share_of_fruit_value_pct": 20.0,
+    "unit_value_yen_kg": 144.0,
+    "value_oku": 1526.0,
+    "yield_kg_10a": 2027.0
+   },
+   "2009": {
+    "area_ha": 47000.0,
+    "harvest_t": 1003000.0,
+    "share_of_fruit_value_pct": 18.5,
+    "unit_value_yen_kg": 129.0,
+    "value_oku": 1292.0,
+    "yield_kg_10a": 2134.0
+   },
+   "2014": {
+    "area_ha": 42900.0,
+    "harvest_t": 874700.0,
+    "share_of_fruit_value_pct": 18.3,
+    "unit_value_yen_kg": 159.0,
+    "value_oku": 1394.0,
+    "yield_kg_10a": 2039.0
+   },
+   "2020": {
+    "area_ha": 37800.0,
+    "harvest_t": 765800.0,
+    "share_of_fruit_value_pct": 18.2,
+    "unit_value_yen_kg": 208.0,
+    "value_oku": 1594.0,
+    "yield_kg_10a": 2026.0
+   },
+   "2023": {
+    "area_ha": 35400.0,
+    "harvest_t": 681600.0,
+    "share_of_fruit_value_pct": 18.1,
+    "unit_value_yen_kg": 254.0,
+    "value_oku": 1733.0,
+    "yield_kg_10a": 1925.0
+   },
+   "2024": {
+    "area_ha": 34500.0,
+    "harvest_t": 559600.0,
+    "share_of_fruit_value_pct": 18.6,
+    "unit_value_yen_kg": 335.0,
+    "value_oku": 1877.0,
+    "yield_kg_10a": 1622.0
+   },
+   "area_peak": {
+    "area_ha": 160700.0,
+    "year": 1975
+   }
+  }
+ }
+}
