@@ -1,0 +1,32 @@
+{
+ "2008年前後（基準2007年）": {
+  "trough_k": 2,
+  "trough_year": 2009,
+  "trough_tot": 92.99,
+  "first_back_k": 3,
+  "inputs_peak": 107.62,
+  "inputs_k5": 107.15,
+  "products_k5": 106.23,
+  "tot_k5": 99.15,
+  "products_ex_rice_k5": 105.48,
+  "fert_peak": 139.32,
+  "feed_peak": 115.95,
+  "fert_k5": 126.49,
+  "feed_k5": 105.95
+ },
+ "2021年以降（基準2020年）": {
+  "trough_k": 2,
+  "trough_year": 2022,
+  "trough_tot": 87.65,
+  "first_back_k": 5,
+  "inputs_peak": 124.2,
+  "inputs_k5": 124.2,
+  "products_k5": 136.4,
+  "tot_k5": 109.82,
+  "products_ex_rice_k5": 125.66,
+  "fert_peak": 147.0,
+  "feed_peak": 145.7,
+  "fert_k5": 140.3,
+  "feed_k5": 137.7
+ }
+}
