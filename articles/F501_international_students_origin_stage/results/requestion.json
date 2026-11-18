@@ -1,0 +1,129 @@
+{
+ "china_share_univ_grad": 54.1,
+ "gakko_grad": 65237,
+ "gakko_total_univ_grad": 172443,
+ "gakko_univ": 107206,
+ "nepal_share_univ_grad": 3.9,
+ "rows": [
+  {
+   "country": "中国",
+   "gakko_grad_n": 41422,
+   "gakko_over_jasso_he": 0.945,
+   "gakko_univ_grad_n": 93296,
+   "gakko_univ_grad_share": 54.1,
+   "gakko_univ_n": 51874,
+   "jasso_he_n": 98733,
+   "jasso_he_share": 36.9,
+   "jasso_jls_n": 32364,
+   "jasso_jls_share": 23.1
+  },
+  {
+   "country": "ネパール",
+   "gakko_grad_n": 671,
+   "gakko_over_jasso_he": 0.122,
+   "gakko_univ_grad_n": 6764,
+   "gakko_univ_grad_share": 3.9,
+   "gakko_univ_n": 6093,
+   "jasso_he_n": 55607,
+   "jasso_he_share": 20.8,
+   "jasso_jls_n": 44632,
+   "jasso_jls_share": 31.8
+  },
+  {
+   "country": "ベトナム",
+   "gakko_grad_n": 1314,
+   "gakko_over_jasso_he": 0.371,
+   "gakko_univ_grad_n": 8776,
+   "gakko_univ_grad_share": 5.1,
+   "gakko_univ_n": 7462,
+   "jasso_he_n": 23680,
+   "jasso_he_share": 8.8,
+   "jasso_jls_n": 19686,
+   "jasso_jls_share": 14.0
+  },
+  {
+   "country": "ミャンマー",
+   "gakko_grad_n": 438,
+   "gakko_over_jasso_he": 0.265,
+   "gakko_univ_grad_n": 3506,
+   "gakko_univ_grad_share": 2.0,
+   "gakko_univ_n": 3068,
+   "jasso_he_n": 13248,
+   "jasso_he_share": 4.9,
+   "jasso_jls_n": 16165,
+   "jasso_jls_share": 11.5
+  },
+  {
+   "country": "スリランカ",
+   "gakko_grad_n": 592,
+   "gakko_over_jasso_he": 0.19,
+   "gakko_univ_grad_n": 1809,
+   "gakko_univ_grad_share": 1.0,
+   "gakko_univ_n": 1217,
+   "jasso_he_n": 9536,
+   "jasso_he_share": 3.6,
+   "jasso_jls_n": 8090,
+   "jasso_jls_share": 5.8
+  },
+  {
+   "country": "バングラデシュ",
+   "gakko_grad_n": 1272,
+   "gakko_over_jasso_he": 0.4,
+   "gakko_univ_grad_n": 2903,
+   "gakko_univ_grad_share": 1.7,
+   "gakko_univ_n": 1631,
+   "jasso_he_n": 7249,
+   "jasso_he_share": 2.7,
+   "jasso_jls_n": 4143,
+   "jasso_jls_share": 3.0
+  },
+  {
+   "country": "韓国",
+   "gakko_grad_n": 2291,
+   "gakko_over_jasso_he": 1.197,
+   "gakko_univ_grad_n": 16191,
+   "gakko_univ_grad_share": 9.4,
+   "gakko_univ_n": 13900,
+   "jasso_he_n": 13526,
+   "jasso_he_share": 5.0,
+   "jasso_jls_n": 1086,
+   "jasso_jls_share": 0.8
+  },
+  {
+   "country": "台湾",
+   "gakko_grad_n": 1677,
+   "gakko_over_jasso_he": 0.719,
+   "gakko_univ_grad_n": 4266,
+   "gakko_univ_grad_share": 2.5,
+   "gakko_univ_n": 2589,
+   "jasso_he_n": 5933,
+   "jasso_he_share": 2.2,
+   "jasso_jls_n": 2056,
+   "jasso_jls_share": 1.5
+  },
+  {
+   "country": "インドネシア",
+   "gakko_grad_n": 2388,
+   "gakko_over_jasso_he": 0.811,
+   "gakko_univ_grad_n": 4612,
+   "gakko_univ_grad_share": 2.7,
+   "gakko_univ_n": 2224,
+   "jasso_he_n": 5688,
+   "jasso_he_share": 2.1,
+   "jasso_jls_n": 1344,
+   "jasso_jls_share": 1.0
+  },
+  {
+   "country": "モンゴル",
+   "gakko_grad_n": 455,
+   "gakko_over_jasso_he": 0.587,
+   "gakko_univ_grad_n": 1518,
+   "gakko_univ_grad_share": 0.9,
+   "gakko_univ_n": 1063,
+   "jasso_he_n": 2585,
+   "jasso_he_share": 1.0,
+   "jasso_jls_n": 1409,
+   "jasso_jls_share": 1.0
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+2026-11-18 再実行：23 ファイル一致、所要 4 秒
+手順：記事のフォルダを /tmp/rep_F501 に写し、results の CSV・JSON、figures の PNG、data の中間ファイル（02 以降が作るもの。data/extract_*.csv は除く）を消してから sh src/run_all.sh を流し、もとのファイルと cmp で比べた。
+内訳：results 8、figures 4、data 11。ネットにはつながない。乱数は使っていない。
+あわせて、写した先で src/01b_extract.py（PDF → data/extract_*.csv、pdftotext 24.02.0）を流し直し、読み取りの CSV 5本がすべて cmp で一致した。
+2026-11-18 独立レビュー後の再実行：/tmp/rv_F501 に写し、同じ手順で 23 ファイル（results 8、figures 4、data 11）がすべて cmp で一致、所要 4 秒。01b_extract.py の流し直しでも読み取りの CSV 5本が一致（直したのは README の文だけで、コードは変えていない）。

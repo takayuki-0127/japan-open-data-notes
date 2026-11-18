@@ -1,0 +1,832 @@
+{
+ "composition_by_type": [
+  {
+   "country": "中国",
+   "he_n": 94047,
+   "he_share": 41.2,
+   "jls_n": 30389.0,
+   "jls_share": 36.3,
+   "year": 2019
+  },
+  {
+   "country": "ネパール",
+   "he_n": 18662,
+   "he_share": 8.2,
+   "jls_n": 7646.0,
+   "jls_share": 9.1,
+   "year": 2019
+  },
+  {
+   "country": "ベトナム",
+   "he_n": 45248,
+   "he_share": 19.8,
+   "jls_n": 28141.0,
+   "jls_share": 33.6,
+   "year": 2019
+  },
+  {
+   "country": "ミャンマー",
+   "he_n": 3753,
+   "he_share": 1.6,
+   "jls_n": 1630.0,
+   "jls_share": 1.9,
+   "year": 2019
+  },
+  {
+   "country": "スリランカ",
+   "he_n": 5583,
+   "he_share": 2.4,
+   "jls_n": 1657.0,
+   "jls_share": 2.0,
+   "year": 2019
+  },
+  {
+   "country": "バングラデシュ",
+   "he_n": 2819,
+   "he_share": 1.2,
+   "jls_n": NaN,
+   "jls_share": NaN,
+   "year": 2019
+  },
+  {
+   "country": "韓国",
+   "he_n": 15977,
+   "he_share": 7.0,
+   "jls_n": 2361.0,
+   "jls_share": 2.8,
+   "year": 2019
+  },
+  {
+   "country": "台湾",
+   "he_n": 7518,
+   "he_share": 3.3,
+   "jls_n": 2066.0,
+   "jls_share": 2.5,
+   "year": 2019
+  },
+  {
+   "country": "インドネシア",
+   "he_n": 5204,
+   "he_share": 2.3,
+   "jls_n": 1552.0,
+   "jls_share": 1.9,
+   "year": 2019
+  },
+  {
+   "country": "モンゴル",
+   "he_n": 2156,
+   "he_share": 0.9,
+   "jls_n": 1240.0,
+   "jls_share": 1.5,
+   "year": 2019
+  },
+  {
+   "country": "中国",
+   "he_n": 98733,
+   "he_share": 36.9,
+   "jls_n": 32364.0,
+   "jls_share": 23.1,
+   "year": 2025
+  },
+  {
+   "country": "ネパール",
+   "he_n": 55607,
+   "he_share": 20.8,
+   "jls_n": 44632.0,
+   "jls_share": 31.8,
+   "year": 2025
+  },
+  {
+   "country": "ベトナム",
+   "he_n": 23680,
+   "he_share": 8.8,
+   "jls_n": 19686.0,
+   "jls_share": 14.0,
+   "year": 2025
+  },
+  {
+   "country": "ミャンマー",
+   "he_n": 13248,
+   "he_share": 4.9,
+   "jls_n": 16165.0,
+   "jls_share": 11.5,
+   "year": 2025
+  },
+  {
+   "country": "スリランカ",
+   "he_n": 9536,
+   "he_share": 3.6,
+   "jls_n": 8090.0,
+   "jls_share": 5.8,
+   "year": 2025
+  },
+  {
+   "country": "バングラデシュ",
+   "he_n": 7249,
+   "he_share": 2.7,
+   "jls_n": 4143.0,
+   "jls_share": 3.0,
+   "year": 2025
+  },
+  {
+   "country": "韓国",
+   "he_n": 13526,
+   "he_share": 5.0,
+   "jls_n": 1086.0,
+   "jls_share": 0.8,
+   "year": 2025
+  },
+  {
+   "country": "台湾",
+   "he_n": 5933,
+   "he_share": 2.2,
+   "jls_n": 2056.0,
+   "jls_share": 1.5,
+   "year": 2025
+  },
+  {
+   "country": "インドネシア",
+   "he_n": 5688,
+   "he_share": 2.1,
+   "jls_n": 1344.0,
+   "jls_share": 1.0,
+   "year": 2025
+  },
+  {
+   "country": "モンゴル",
+   "he_n": 2585,
+   "he_share": 1.0,
+   "jls_n": 1409.0,
+   "jls_share": 1.0,
+   "year": 2025
+  }
+ ],
+ "contrib_2013_2025": {
+  "five": {
+   "change": 178879,
+   "share_of_change_pct": 74.6
+  },
+  "total_change": 239924,
+  "y0": 2013,
+  "y1": 2025,
+  "インドネシア": {
+   "change": 4245,
+   "share_of_change_pct": 1.8
+  },
+  "スリランカ": {
+   "change": 16572,
+   "share_of_change_pct": 6.9
+  },
+  "ネパール": {
+   "change": 94432,
+   "share_of_change_pct": 39.4
+  },
+  "バングラデシュ": {
+   "change": 10493,
+   "share_of_change_pct": 4.4
+  },
+  "ベトナム": {
+   "change": 29567,
+   "share_of_change_pct": 12.3
+  },
+  "ミャンマー": {
+   "change": 27815,
+   "share_of_change_pct": 11.6
+  },
+  "モンゴル": {
+   "change": 2592,
+   "share_of_change_pct": 1.1
+  },
+  "中国": {
+   "change": 33222,
+   "share_of_change_pct": 13.8
+  },
+  "台湾": {
+   "change": 2329,
+   "share_of_change_pct": 1.0
+  },
+  "韓国": {
+   "change": -2671,
+   "share_of_change_pct": -1.1
+  }
+ },
+ "contrib_2019_2025": {
+  "five": {
+   "change": 86189,
+   "share_of_change_pct": 89.9
+  },
+  "total_change": 95855,
+  "y0": 2019,
+  "y1": 2025,
+  "インドネシア": {
+   "change": 276,
+   "share_of_change_pct": 0.3
+  },
+  "スリランカ": {
+   "change": 10386,
+   "share_of_change_pct": 10.8
+  },
+  "ネパール": {
+   "change": 73931,
+   "share_of_change_pct": 77.1
+  },
+  "バングラデシュ": {
+   "change": 7865,
+   "share_of_change_pct": 8.2
+  },
+  "ベトナム": {
+   "change": -30023,
+   "share_of_change_pct": -31.3
+  },
+  "ミャンマー": {
+   "change": 24030,
+   "share_of_change_pct": 25.1
+  },
+  "モンゴル": {
+   "change": 598,
+   "share_of_change_pct": 0.6
+  },
+  "中国": {
+   "change": 6661,
+   "share_of_change_pct": 6.9
+  },
+  "台湾": {
+   "change": -1595,
+   "share_of_change_pct": -1.7
+  },
+  "韓国": {
+   "change": -3726,
+   "share_of_change_pct": -3.9
+  }
+ },
+ "contrib_2022_2025": {
+  "five": {
+   "change": 129391,
+   "share_of_change_pct": 73.1
+  },
+  "total_change": 176923,
+  "y0": 2022,
+  "y1": 2025,
+  "インドネシア": {
+   "change": 1269,
+   "share_of_change_pct": 0.7
+  },
+  "スリランカ": {
+   "change": 13769,
+   "share_of_change_pct": 7.8
+  },
+  "ネパール": {
+   "change": 75982,
+   "share_of_change_pct": 42.9
+  },
+  "バングラデシュ": {
+   "change": 8079,
+   "share_of_change_pct": 4.6
+  },
+  "ベトナム": {
+   "change": 5961,
+   "share_of_change_pct": 3.4
+  },
+  "ミャンマー": {
+   "change": 25600,
+   "share_of_change_pct": 14.5
+  },
+  "モンゴル": {
+   "change": 1053,
+   "share_of_change_pct": 0.6
+  },
+  "中国": {
+   "change": 27215,
+   "share_of_change_pct": 15.4
+  },
+  "台湾": {
+   "change": 2974,
+   "share_of_change_pct": 1.7
+  },
+  "韓国": {
+   "change": 911,
+   "share_of_change_pct": 0.5
+  }
+ },
+ "country": {
+  "インドネシア": {
+   "2013": {
+    "n": 2787,
+    "share": 1.7
+   },
+   "2019": {
+    "n": 6756,
+    "share": 2.2
+   },
+   "2022": {
+    "n": 5763,
+    "share": 2.5
+   },
+   "2025": {
+    "n": 7032,
+    "share": 1.7
+   }
+  },
+  "スリランカ": {
+   "2013": {
+    "n": 1054,
+    "share": 0.6
+   },
+   "2019": {
+    "n": 7240,
+    "share": 2.3
+   },
+   "2022": {
+    "n": 3857,
+    "share": 1.7
+   },
+   "2025": {
+    "n": 17626,
+    "share": 4.3
+   }
+  },
+  "ネパール": {
+   "2013": {
+    "n": 5807,
+    "share": 3.5
+   },
+   "2019": {
+    "n": 26308,
+    "share": 8.4
+   },
+   "2022": {
+    "n": 24257,
+    "share": 10.5
+   },
+   "2025": {
+    "n": 100239,
+    "share": 24.6
+   }
+  },
+  "バングラデシュ": {
+   "2013": {
+    "n": 899,
+    "share": 0.5
+   },
+   "2019": {
+    "n": 3527,
+    "share": 1.1
+   },
+   "2022": {
+    "n": 3313,
+    "share": 1.4
+   },
+   "2025": {
+    "n": 11392,
+    "share": 2.8
+   }
+  },
+  "ベトナム": {
+   "2013": {
+    "n": 13799,
+    "share": 8.2
+   },
+   "2019": {
+    "n": 73389,
+    "share": 23.5
+   },
+   "2022": {
+    "n": 37405,
+    "share": 16.2
+   },
+   "2025": {
+    "n": 43366,
+    "share": 10.6
+   }
+  },
+  "ミャンマー": {
+   "2013": {
+    "n": 1598,
+    "share": 1.0
+   },
+   "2019": {
+    "n": 5383,
+    "share": 1.7
+   },
+   "2022": {
+    "n": 3813,
+    "share": 1.6
+   },
+   "2025": {
+    "n": 29413,
+    "share": 7.2
+   }
+  },
+  "モンゴル": {
+   "2013": {
+    "n": 1402,
+    "share": 0.8
+   },
+   "2019": {
+    "n": 3396,
+    "share": 1.1
+   },
+   "2022": {
+    "n": 2941,
+    "share": 1.3
+   },
+   "2025": {
+    "n": 3994,
+    "share": 1.0
+   }
+  },
+  "中国": {
+   "2013": {
+    "n": 97875,
+    "share": 58.2
+   },
+   "2019": {
+    "n": 124436,
+    "share": 39.9
+   },
+   "2022": {
+    "n": 103882,
+    "share": 44.9
+   },
+   "2025": {
+    "n": 131097,
+    "share": 32.1
+   }
+  },
+  "台湾": {
+   "2013": {
+    "n": 5660,
+    "share": 3.4
+   },
+   "2019": {
+    "n": 9584,
+    "share": 3.1
+   },
+   "2022": {
+    "n": 5015,
+    "share": 2.2
+   },
+   "2025": {
+    "n": 7989,
+    "share": 2.0
+   }
+  },
+  "韓国": {
+   "2013": {
+    "n": 17283,
+    "share": 10.3
+   },
+   "2019": {
+    "n": 18338,
+    "share": 5.9
+   },
+   "2022": {
+    "n": 13701,
+    "share": 5.9
+   },
+   "2025": {
+    "n": 14612,
+    "share": 3.6
+   }
+  }
+ },
+ "hypotheses": {
+  "H1": {
+   "china_share_2013": 58.2,
+   "china_share_2025": 32.1,
+   "drop_pt": 26.1,
+   "verdict": "支持"
+  },
+  "H2": {
+   "five_share_of_change_pct": 74.6,
+   "verdict": "支持"
+  },
+  "H3": {
+   "senshu_jls_share_of_change_pct": 88.0,
+   "verdict": "支持"
+  },
+  "H4": {
+   "china_he_share": 36.9,
+   "china_jls_share": 23.1,
+   "verdict": "支持"
+  },
+  "H5": {
+   "kanto_2019": 53.9,
+   "kanto_2025": 50.9,
+   "verdict": "支持"
+  }
+ },
+ "missing_in_list": {
+  "インドネシア": [],
+  "スリランカ": [],
+  "ネパール": [],
+  "バングラデシュ": [],
+  "ベトナム": [],
+  "ミャンマー": [],
+  "モンゴル": [],
+  "中国": [],
+  "台湾": [],
+  "韓国": []
+ },
+ "ratio_2013_2025": {
+  "インドネシア": 2.52,
+  "スリランカ": 16.72,
+  "ネパール": 17.26,
+  "バングラデシュ": 12.67,
+  "ベトナム": 3.14,
+  "ミャンマー": 18.41,
+  "モンゴル": 2.85,
+  "中国": 1.34,
+  "台湾": 1.41,
+  "韓国": 0.85
+ },
+ "region": {
+  "中国": {
+   "change_pct": 14.2,
+   "n_2019": 12222.0,
+   "n_2025": 13961.0,
+   "share_2019": 3.9,
+   "share_2025": 3.4
+  },
+  "中部": {
+   "change_pct": 24.7,
+   "n_2019": 29840.0,
+   "n_2025": 37201.0,
+   "share_2019": 9.6,
+   "share_2025": 9.1
+  },
+  "九州・沖縄": {
+   "change_pct": 31.0,
+   "n_2019": 32196.0,
+   "n_2025": 42187.0,
+   "share_2019": 10.3,
+   "share_2025": 10.3
+  },
+  "北海道": {
+   "change_pct": 28.8,
+   "n_2019": 4383.0,
+   "n_2025": 5646.0,
+   "share_2019": 1.4,
+   "share_2025": 1.4
+  },
+  "四国": {
+   "change_pct": 43.1,
+   "n_2019": 1900.0,
+   "n_2025": 2719.0,
+   "share_2019": 0.6,
+   "share_2025": 0.7
+  },
+  "東北": {
+   "change_pct": 37.2,
+   "n_2019": 7046.0,
+   "n_2025": 9666.0,
+   "share_2019": 2.3,
+   "share_2025": 2.4
+  },
+  "近畿": {
+   "change_pct": 57.7,
+   "n_2019": 56392.0,
+   "n_2025": 88944.0,
+   "share_2019": 18.1,
+   "share_2025": 21.8
+  },
+  "関東": {
+   "change_pct": 23.5,
+   "n_2019": 168235.0,
+   "n_2025": 207745.0,
+   "share_2019": 53.9,
+   "share_2025": 50.9
+  }
+ },
+ "region_kanto_2025_campus_share": 51.1,
+ "robustness": [
+  {
+   "check": "起点を変える",
+   "china_share_of_change_pct": 13.8,
+   "five_share_of_change_pct": 74.6,
+   "note": null,
+   "period": "2013→2025",
+   "senshu_jls_share_of_change_pct": 79.1,
+   "total_change": 239924.0
+  },
+  {
+   "check": "起点を変える",
+   "china_share_of_change_pct": 6.9,
+   "five_share_of_change_pct": 89.9,
+   "note": null,
+   "period": "2019→2025",
+   "senshu_jls_share_of_change_pct": 88.0,
+   "total_change": 95855.0
+  },
+  {
+   "check": "起点を変える",
+   "china_share_of_change_pct": 15.4,
+   "five_share_of_change_pct": 73.1,
+   "note": null,
+   "period": "2022→2025",
+   "senshu_jls_share_of_change_pct": 82.3,
+   "total_change": 176923.0
+  },
+  {
+   "check": "各年の表の「前年の値」と前年の表の値",
+   "china_share_of_change_pct": NaN,
+   "five_share_of_change_pct": NaN,
+   "note": "643組を比べ、違いは 0 組",
+   "period": "2013〜2024",
+   "senshu_jls_share_of_change_pct": NaN,
+   "total_change": NaN
+  },
+  {
+   "check": "地方別を校舎の所在地で集計",
+   "china_share_of_change_pct": NaN,
+   "five_share_of_change_pct": NaN,
+   "note": "関東の割合 本部 50.9% / 校舎 51.1%",
+   "period": "2025",
+   "senshu_jls_share_of_change_pct": NaN,
+   "total_change": NaN
+  }
+ ],
+ "senshu_jls_share_of_change_2019_2025": 88.0,
+ "stage_contrib": [
+  {
+   "change": 20446,
+   "n0": 39567,
+   "n1": 60013,
+   "period": "2013→2025",
+   "share1_pct": 14.7,
+   "share_of_change_pct": 8.5,
+   "stage": "大学院"
+  },
+  {
+   "change": 27768,
+   "n0": 69339,
+   "n1": 97107,
+   "period": "2013→2025",
+   "share1_pct": 23.8,
+   "share_of_change_pct": 11.6,
+   "stage": "学部・短大・高専"
+  },
+  {
+   "change": 82243,
+   "n0": 24586,
+   "n1": 106829,
+   "period": "2013→2025",
+   "share1_pct": 26.2,
+   "share_of_change_pct": 34.3,
+   "stage": "専修学校（専門課程）"
+  },
+  {
+   "change": 1919,
+   "n0": 2027,
+   "n1": 3946,
+   "period": "2013→2025",
+   "share1_pct": 1.0,
+   "share_of_change_pct": 0.8,
+   "stage": "準備教育課程"
+  },
+  {
+   "change": 107548,
+   "n0": 32626,
+   "n1": 140174,
+   "period": "2013→2025",
+   "share1_pct": 34.4,
+   "share_of_change_pct": 44.8,
+   "stage": "日本語教育機関"
+  },
+  {
+   "change": 6924,
+   "n0": 53089,
+   "n1": 60013,
+   "period": "2019→2025",
+   "share1_pct": 14.7,
+   "share_of_change_pct": 7.2,
+   "stage": "大学院"
+  },
+  {
+   "change": 4155,
+   "n0": 92952,
+   "n1": 97107,
+   "period": "2019→2025",
+   "share1_pct": 23.8,
+   "share_of_change_pct": 4.3,
+   "stage": "学部・短大・高専"
+  },
+  {
+   "change": 27985,
+   "n0": 78844,
+   "n1": 106829,
+   "period": "2019→2025",
+   "share1_pct": 26.2,
+   "share_of_change_pct": 29.2,
+   "stage": "専修学校（専門課程）"
+  },
+  {
+   "change": 428,
+   "n0": 3518,
+   "n1": 3946,
+   "period": "2019→2025",
+   "share1_pct": 1.0,
+   "share_of_change_pct": 0.4,
+   "stage": "準備教育課程"
+  },
+  {
+   "change": 56363,
+   "n0": 83811,
+   "n1": 140174,
+   "period": "2019→2025",
+   "share1_pct": 34.4,
+   "share_of_change_pct": 58.8,
+   "stage": "日本語教育機関"
+  },
+  {
+   "change": 6891,
+   "n0": 53122,
+   "n1": 60013,
+   "period": "2022→2025",
+   "share1_pct": 14.7,
+   "share_of_change_pct": 3.9,
+   "stage": "大学院"
+  },
+  {
+   "change": 22717,
+   "n0": 74390,
+   "n1": 97107,
+   "period": "2022→2025",
+   "share1_pct": 23.8,
+   "share_of_change_pct": 12.8,
+   "stage": "学部・短大・高専"
+  },
+  {
+   "change": 54874,
+   "n0": 51955,
+   "n1": 106829,
+   "period": "2022→2025",
+   "share1_pct": 26.2,
+   "share_of_change_pct": 31.0,
+   "stage": "専修学校（専門課程）"
+  },
+  {
+   "change": 1672,
+   "n0": 2274,
+   "n1": 3946,
+   "period": "2022→2025",
+   "share1_pct": 1.0,
+   "share_of_change_pct": 0.9,
+   "stage": "準備教育課程"
+  },
+  {
+   "change": 90769,
+   "n0": 49405,
+   "n1": 140174,
+   "period": "2022→2025",
+   "share1_pct": 34.4,
+   "share_of_change_pct": 51.3,
+   "stage": "日本語教育機関"
+  }
+ ],
+ "stage_peak_2019_vs_2025": {
+  "大学院": {
+   "2019": 53089,
+   "2025": 60013
+  },
+  "学部・短大・高専": {
+   "2019": 92952,
+   "2025": 97107
+  },
+  "専修学校（専門課程）": {
+   "2019": 78844,
+   "2025": 106829
+  },
+  "日本語教育機関": {
+   "2019": 83811,
+   "2025": 140174
+  },
+  "準備教育課程": {
+   "2019": 3518,
+   "2025": 3946
+  }
+ },
+ "stage_total": {
+  "1983": 10428,
+  "2011": 163697,
+  "2019": 312214,
+  "2022": 231146,
+  "2025": 408069
+ },
+ "tokyo": {
+  "2019": {
+   "n": 116094,
+   "share": 37.2
+  },
+  "2025": {
+   "n": 144661,
+   "share": 35.5
+  }
+ },
+ "total": {
+  "2013": 168145,
+  "2019": 312214,
+  "2022": 231146,
+  "2025": 408069
+ }
+}

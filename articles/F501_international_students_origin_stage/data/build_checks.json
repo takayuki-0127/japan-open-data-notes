@@ -1,0 +1,25 @@
+{
+ "all_prevsum_eq_prevtotal": true,
+ "all_sum_eq_total": true,
+ "all_total_eq_stage_total": true,
+ "gakko_grad_sum_eq_total": true,
+ "gakko_totals": {
+  "grad": 65237,
+  "univ": 107206
+ },
+ "gakko_univ_sum_eq_total": true,
+ "he_prevsum_eq_prevtotal": true,
+ "he_sum_eq_total": true,
+ "he_total_eq_stage_he": true,
+ "jls_sum_eq_total": true,
+ "jls_total_eq_stage_jls": true,
+ "pref_sum_eq_total": true,
+ "spot": {
+  "2013_中国": 97875,
+  "2019_ベトナム": 73389,
+  "2019_中国": 124436,
+  "2025_ネパール": 100239,
+  "2025_中国": 131097
+ },
+ "stage_parts_eq_total": true
+}
