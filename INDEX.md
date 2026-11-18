@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 439本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 448本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,22 +10,22 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 135 |
+| 予測・時系列 | 137 |
 | 因果推論・効果検証 | 63 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 298 |
+| 統計の考え方（検定・区間・回帰） | 299 |
 | 機械学習・モデル評価 | 103 |
 | 顧客分析・生存分析 | 64 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 146 |
+| 集計の定義・KPI | 151 |
 | 可視化・報告・BI | 41 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 267 |
+| その他（記述・要因分解など） | 270 |
 
-<details><summary><b>予測・時系列</b>（135本）</summary>
+<details><summary><b>予測・時系列</b>（137本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -120,6 +120,8 @@
 | F496 | 「日本の気温は世界より速く上がっている」は本当か？ | [F496_japan_vs_world_warming](articles/F496_japan_vs_world_warming) |
 | F497 | 日本で測る CO2 の濃度は、排出が減っても上がり続けているのか？ | [F497_co2_concentration_vs_emissions](articles/F497_co2_concentration_vs_emissions) |
 | F499 | 「雨の日は減り、強い雨は増えた」は、地点のデータでどう見えるか？ | [F499_rain_days_heavy_rain](articles/F499_rain_days_heavy_rain) |
+| F527 | 政策金利が上がると、預金の金利は何か月で、どれだけ動くのか？ | [F527_deposit_rate_passthrough](articles/F527_deposit_rate_passthrough) |
+| F533 | 円安は、日米の金利差でどこまで説明できるのか？ | [F533_yen_rate_differential](articles/F533_yen_rate_differential) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
 | 286 | 予測モデルは、線形回帰と勾配ブースティングのどちらから始めるか？ | [286_linear_vs_gbm_first](articles/286_linear_vs_gbm_first) |
 | 296 | 需要予測の当たり外れを、毎週どう見張るか？ | [296_forecast_error_control_chart](articles/296_forecast_error_control_chart) |
@@ -271,7 +273,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（298本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（299本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -461,6 +463,7 @@
 | F497 | 日本で測る CO2 の濃度は、排出が減っても上がり続けているのか？ | [F497_co2_concentration_vs_emissions](articles/F497_co2_concentration_vs_emissions) |
 | F498 | 夏は、長くなったのか？ | [F498_summer_length](articles/F498_summer_length) |
 | F499 | 「雨の日は減り、強い雨は増えた」は、地点のデータでどう見えるか？ | [F499_rain_days_heavy_rain](articles/F499_rain_days_heavy_rain) |
+| F533 | 円安は、日米の金利差でどこまで説明できるのか？ | [F533_yen_rate_differential](articles/F533_yen_rate_differential) |
 | 253 | p値0.05の線を、どう扱ってきたか？ | [253_p_value_line](articles/253_p_value_line) |
 | 267 | 相関を因果だと思いかけたとき、どう止めたか？ | [267_correlation_not_causation](articles/267_correlation_not_causation) |
 | 268 | 差の差・回帰不連続・合成コントロールを、どう選んできたか？ | [268_causal_design_choice](articles/268_causal_design_choice) |
@@ -876,7 +879,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（146本）</summary>
+<details><summary><b>集計の定義・KPI</b>（151本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -969,6 +972,11 @@
 | F475 | 農家が買う資材の値段と売る値段の差は、広がったのか？ | [F475_farm_terms_of_trade](articles/F475_farm_terms_of_trade) |
 | F478 | 夏の電力の需要のピークは、太陽光で夕方にずれたのか？ | [F478_summer_peak_residual_demand](articles/F478_summer_peak_residual_demand) |
 | F498 | 夏は、長くなったのか？ | [F498_summer_length](articles/F498_summer_length) |
+| F534 | 毎月勤労統計の1人あたり賃金の伸びは、パートの割合の増加でどれだけ低く出ているのか？ | [F534_wage_growth_parttime_mix](articles/F534_wage_growth_parttime_mix) |
+| F535 | 国勢調査の「不詳」は、どれだけ増えたのか？ | [F535_census_unknown_rates](articles/F535_census_unknown_rates) |
+| F536 | 人口推計と住民基本台帳の人口は、どれだけずれるのか？ | [F536_population_estimate_vs_resident_register](articles/F536_population_estimate_vs_resident_register) |
+| F537 | 賃金構造基本統計調査の推計方法が2020年に変わって、賃金の数字はどれだけ動いたのか？ | [F537_wage_census_method_change](articles/F537_wage_census_method_change) |
+| F538 | 法人企業統計の4月の標本の入れ替えで、数字にどれだけ段差ができるのか？ | [F538_corporate_survey_sample_rotation](articles/F538_corporate_survey_sample_rotation) |
 | 149 | 川や海に比べて、湖だけ環境基準の達成率が低いのはなぜか？ | [149_lake_water_quality](articles/149_lake_water_quality) |
 | 241 | 公的データを使って困ったことは何だったか？ | [241_public_data_troubles](articles/241_public_data_troubles) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
@@ -1281,7 +1289,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（267本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（270本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1407,6 +1415,9 @@
 | F504 | 通信制高校に通う生徒は、どこで増えたのか？ | [F504_correspondence_high_school_growth](articles/F504_correspondence_high_school_growth) |
 | F505 | 1学級の人数は、35人学級でどれだけ減ったのか？ | [F505_class_size_35_students](articles/F505_class_size_35_students) |
 | F506 | 理工系に進む女性は、増えたのか？ | [F506_women_in_science_engineering](articles/F506_women_in_science_engineering) |
+| F528 | 銀行の貸出は、どの借り手に向かっているのか？ | [F528_bank_loans_by_borrower](articles/F528_bank_loans_by_borrower) |
+| F529 | 国内銀行の預貸率の低下は、地域でどう違うのか？ | [F529_loan_deposit_ratio_regions](articles/F529_loan_deposit_ratio_regions) |
+| F534 | 毎月勤労統計の1人あたり賃金の伸びは、パートの割合の増加でどれだけ低く出ているのか？ | [F534_wage_growth_parttime_mix](articles/F534_wage_growth_parttime_mix) |
 | 000 | 女性の労働力率は何で決まる？ | [000_women_labor](articles/000_women_labor) |
 | 001 | 納税者1人あたりの所得は、なぜ街によって違うのか？ | [001_income_municipal](articles/001_income_municipal) |
 | 008 | 人が集まっている街は、所得が高い街か？ | [008_migration_income](articles/008_migration_income) |
@@ -1567,7 +1578,7 @@
 | 業務の集計・報告 | 126 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 415 |
+| 公的統計・地域・人口 | 424 |
 
 <details><summary><b>小売・店舗</b>（164本）</summary>
 
@@ -2129,7 +2140,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（415本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（424本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2523,6 +2534,15 @@
 | F523 | 公共工事への依存は、地方でどれだけ下がったのか？ | [F523_public_works_dependence](articles/F523_public_works_dependence) |
 | F524 | 買い物の客を周りから集めている市は、どんな市か？ | [F524_retail_pull_by_city](articles/F524_retail_pull_by_city) |
 | F525 | 自治体の職員の給与の差（ラスパイレス指数）は、縮まったのか？ | [F525_laspeyres_gap](articles/F525_laspeyres_gap) |
+| F527 | 政策金利が上がると、預金の金利は何か月で、どれだけ動くのか？ | [F527_deposit_rate_passthrough](articles/F527_deposit_rate_passthrough) |
+| F528 | 銀行の貸出は、どの借り手に向かっているのか？ | [F528_bank_loans_by_borrower](articles/F528_bank_loans_by_borrower) |
+| F529 | 国内銀行の預貸率の低下は、地域でどう違うのか？ | [F529_loan_deposit_ratio_regions](articles/F529_loan_deposit_ratio_regions) |
+| F533 | 円安は、日米の金利差でどこまで説明できるのか？ | [F533_yen_rate_differential](articles/F533_yen_rate_differential) |
+| F534 | 毎月勤労統計の1人あたり賃金の伸びは、パートの割合の増加でどれだけ低く出ているのか？ | [F534_wage_growth_parttime_mix](articles/F534_wage_growth_parttime_mix) |
+| F535 | 国勢調査の「不詳」は、どれだけ増えたのか？ | [F535_census_unknown_rates](articles/F535_census_unknown_rates) |
+| F536 | 人口推計と住民基本台帳の人口は、どれだけずれるのか？ | [F536_population_estimate_vs_resident_register](articles/F536_population_estimate_vs_resident_register) |
+| F537 | 賃金構造基本統計調査の推計方法が2020年に変わって、賃金の数字はどれだけ動いたのか？ | [F537_wage_census_method_change](articles/F537_wage_census_method_change) |
+| F538 | 法人企業統計の4月の標本の入れ替えで、数字にどれだけ段差ができるのか？ | [F538_corporate_survey_sample_rotation](articles/F538_corporate_survey_sample_rotation) |
 | 269 | 「データが取れない」とき、どう代わりを探したか？ | [269_finding_substitute_data](articles/269_finding_substitute_data) |
 | 270 | 市町村の合併を、SQL でどう扱うか？ | [270_sql_municipal_code_scd2](articles/270_sql_municipal_code_scd2) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
