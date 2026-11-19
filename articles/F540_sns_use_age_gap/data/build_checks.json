@@ -1,0 +1,86 @@
+{
+ "2012": {
+  "func": "y2012_func_000021245413.csv",
+  "rows": 24,
+  "use_all": "y2012_use_all_000021245387.csv",
+  "use_nona": "y2012_use_nona_000021245388.csv"
+ },
+ "2013": {
+  "func": "y2013_func_000025853979.csv",
+  "rows": 24,
+  "use_all": "y2013_use_all_000025853945.csv",
+  "use_nona": "y2013_use_nona_000025853946.csv"
+ },
+ "2014": {
+  "func": "y2014_func_000030623615.csv",
+  "rows": 27,
+  "use_all": "y2014_use_all_000030623596.csv",
+  "use_nona": "y2014_use_nona_000030623597.csv"
+ },
+ "2015": {
+  "func": "y2015_func_000031444817.csv",
+  "rows": 27,
+  "use_all": "y2015_use_all_000031444803.csv",
+  "use_nona": "y2015_use_nona_000031444804.csv"
+ },
+ "2016": {
+  "func": "y2016_func_000031591554.csv",
+  "rows": 27,
+  "use_all": "y2016_use_all_000031591542.csv",
+  "use_nona": "y2016_use_nona_000031591543.csv"
+ },
+ "2017": {
+  "func": "y2017_func_000031730431.csv",
+  "rows": 27,
+  "use_all": "y2017_use_all_000031730419.csv",
+  "use_nona": "y2017_use_nona_000031730420.csv"
+ },
+ "2018": {
+  "func": "y2018_func_000031831231.csv",
+  "rows": 27,
+  "use_all": "y2018_use_a_000031831224.csv",
+  "use_nona": "y2018_use_b_000031831225.csv"
+ },
+ "2019": {
+  "func": "y2019_func_000031952134.csv",
+  "rows": 27,
+  "use_all": "y2019_use_a_000031952128.csv",
+  "use_nona": "y2019_use_b_000031952129.csv"
+ },
+ "2020": {
+  "func": "y2020_func_000032097984.csv",
+  "rows": 27,
+  "use_all": "y2020_use_a_000032097978.csv",
+  "use_nona": "y2020_use_b_000032097979.csv"
+ },
+ "2021": {
+  "func": "y2021_func_000032203951.csv",
+  "rows": 27,
+  "use_all": "y2021_use_a_000032203945.csv",
+  "use_nona": "y2021_use_b_000032203946.csv"
+ },
+ "2022": {
+  "func": "y2022_func_000040057188.csv",
+  "rows": 27,
+  "use_all": "y2022_use_all_000040057181.csv",
+  "use_nona": "y2022_use_nona_000040057182.csv"
+ },
+ "2023": {
+  "func": "y2023_func_000040185454.csv",
+  "rows": 27,
+  "use_all": "y2023_use_all_000040185447.csv",
+  "use_nona": "y2023_use_nona_000040185448.csv"
+ },
+ "2024": {
+  "func": "y2024_func_000040278952.csv",
+  "rows": 27,
+  "use_all": "y2024_use_all_000040278945.csv",
+  "use_nona": "y2024_use_nona_000040278946.csv"
+ },
+ "2025": {
+  "func": "y2025_func_000040458833.csv",
+  "rows": 27,
+  "use_all": "y2025_use_all_000040458826.csv",
+  "use_nona": "y2025_use_nona_000040458827.csv"
+ }
+}
