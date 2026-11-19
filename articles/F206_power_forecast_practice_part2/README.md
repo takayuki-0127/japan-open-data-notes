@@ -1,6 +1,6 @@
 # F206 電力需要の予測を実務で回す（後編）：エリアと合計のそろえ方・見せ方・1年の見張り
 
-note：（下書き。公開後に記入）
+note：https://note.com/takayukimatsuura/n/ne6c1026ec4e7
 前編：F205（note の下書き key：nee110c0c1214、[articles/F205_power_forecast_practice_part1](../F205_power_forecast_practice_part1)）
 
 ## 前編のまとめ（3行）
