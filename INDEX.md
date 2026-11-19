@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 454本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -13,17 +13,17 @@
 | 予測・時系列 | 137 |
 | 因果推論・効果検証 | 63 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 299 |
+| 統計の考え方（検定・区間・回帰） | 300 |
 | 機械学習・モデル評価 | 103 |
 | 顧客分析・生存分析 | 64 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 152 |
+| 集計の定義・KPI | 153 |
 | 可視化・報告・BI | 41 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 276 |
+| その他（記述・要因分解など） | 278 |
 
 <details><summary><b>予測・時系列</b>（137本）</summary>
 
@@ -273,7 +273,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（299本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（300本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -464,6 +464,7 @@
 | F498 | 夏は、長くなったのか？ | [F498_summer_length](articles/F498_summer_length) |
 | F499 | 「雨の日は減り、強い雨は増えた」は、地点のデータでどう見えるか？ | [F499_rain_days_heavy_rain](articles/F499_rain_days_heavy_rain) |
 | F533 | 円安は、日米の金利差でどこまで説明できるのか？ | [F533_yen_rate_differential](articles/F533_yen_rate_differential) |
+| F539 | 大学を卒業する人の就職率は、景気でどれだけ動くのか？ | [F539_grad_employment_rate_cycle](articles/F539_grad_employment_rate_cycle) |
 | 253 | p値0.05の線を、どう扱ってきたか？ | [253_p_value_line](articles/253_p_value_line) |
 | 267 | 相関を因果だと思いかけたとき、どう止めたか？ | [267_correlation_not_causation](articles/267_correlation_not_causation) |
 | 268 | 差の差・回帰不連続・合成コントロールを、どう選んできたか？ | [268_causal_design_choice](articles/268_causal_design_choice) |
@@ -879,7 +880,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（152本）</summary>
+<details><summary><b>集計の定義・KPI</b>（153本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -978,6 +979,7 @@
 | F536 | 人口推計と住民基本台帳の人口は、どれだけずれるのか？ | [F536_population_estimate_vs_resident_register](articles/F536_population_estimate_vs_resident_register) |
 | F537 | 賃金構造基本統計調査の推計方法が2020年に変わって、賃金の数字はどれだけ動いたのか？ | [F537_wage_census_method_change](articles/F537_wage_census_method_change) |
 | F538 | 法人企業統計の4月の標本の入れ替えで、数字にどれだけ段差ができるのか？ | [F538_corporate_survey_sample_rotation](articles/F538_corporate_survey_sample_rotation) |
+| F540 | SNS を使う人の割合は、年齢でどこまで差が縮まったのか？ | [F540_sns_use_age_gap](articles/F540_sns_use_age_gap) |
 | 149 | 川や海に比べて、湖だけ環境基準の達成率が低いのはなぜか？ | [149_lake_water_quality](articles/149_lake_water_quality) |
 | 241 | 公的データを使って困ったことは何だったか？ | [241_public_data_troubles](articles/241_public_data_troubles) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
@@ -1290,7 +1292,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（276本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（278本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1425,6 +1427,8 @@
 | F531 | 銀行の店舗は、どれだけ減ったのか？ | [F531_bank_offices_by_prefecture](articles/F531_bank_offices_by_prefecture) |
 | F532 | 「日本は世界最大の対外純資産国」は、中身で見るとどう変わったのか？ | [F532_net_external_assets_composition](articles/F532_net_external_assets_composition) |
 | F534 | 毎月勤労統計の1人あたり賃金の伸びは、パートの割合の増加でどれだけ低く出ているのか？ | [F534_wage_growth_parttime_mix](articles/F534_wage_growth_parttime_mix) |
+| F540 | SNS を使う人の割合は、年齢でどこまで差が縮まったのか？ | [F540_sns_use_age_gap](articles/F540_sns_use_age_gap) |
+| F541 | 公民館は、どれだけ減ったのか？ | [F541_kominkan_decline](articles/F541_kominkan_decline) |
 | 000 | 女性の労働力率は何で決まる？ | [000_women_labor](articles/000_women_labor) |
 | 001 | 納税者1人あたりの所得は、なぜ街によって違うのか？ | [001_income_municipal](articles/001_income_municipal) |
 | 008 | 人が集まっている街は、所得が高い街か？ | [008_migration_income](articles/008_migration_income) |
@@ -1585,7 +1589,7 @@
 | 業務の集計・報告 | 126 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 430 |
+| 公的統計・地域・人口 | 433 |
 
 <details><summary><b>小売・店舗</b>（165本）</summary>
 
@@ -2148,7 +2152,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（430本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（433本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2557,6 +2561,9 @@
 | F536 | 人口推計と住民基本台帳の人口は、どれだけずれるのか？ | [F536_population_estimate_vs_resident_register](articles/F536_population_estimate_vs_resident_register) |
 | F537 | 賃金構造基本統計調査の推計方法が2020年に変わって、賃金の数字はどれだけ動いたのか？ | [F537_wage_census_method_change](articles/F537_wage_census_method_change) |
 | F538 | 法人企業統計の4月の標本の入れ替えで、数字にどれだけ段差ができるのか？ | [F538_corporate_survey_sample_rotation](articles/F538_corporate_survey_sample_rotation) |
+| F539 | 大学を卒業する人の就職率は、景気でどれだけ動くのか？ | [F539_grad_employment_rate_cycle](articles/F539_grad_employment_rate_cycle) |
+| F540 | SNS を使う人の割合は、年齢でどこまで差が縮まったのか？ | [F540_sns_use_age_gap](articles/F540_sns_use_age_gap) |
+| F541 | 公民館は、どれだけ減ったのか？ | [F541_kominkan_decline](articles/F541_kominkan_decline) |
 | 269 | 「データが取れない」とき、どう代わりを探したか？ | [269_finding_substitute_data](articles/269_finding_substitute_data) |
 | 270 | 市町村の合併を、SQL でどう扱うか？ | [270_sql_municipal_code_scd2](articles/270_sql_municipal_code_scd2) |
 | 272 | 毎月の数字は、前月比・前年同月比・季節調整のどれで読むか？ | [272_seasonal_adjust_monthly](articles/272_seasonal_adjust_monthly) |
