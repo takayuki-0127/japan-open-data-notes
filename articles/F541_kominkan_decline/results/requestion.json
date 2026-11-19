@@ -1,0 +1,18 @@
+{
+ "intercept": -0.208,
+ "intercept_pct": -18.8,
+ "median_per_muni_2002": 5.36,
+ "median_per_muni_2024": 7.04,
+ "n": 47,
+ "n_per_muni_up": 36,
+ "r2": 0.084,
+ "slope": 0.3,
+ "slope_boot_ci": [
+  0.064,
+  0.549
+ ],
+ "slope_ci_hc1": [
+  0.057,
+  0.543
+ ]
+}

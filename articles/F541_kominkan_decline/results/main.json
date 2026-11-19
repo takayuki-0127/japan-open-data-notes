@@ -1,0 +1,215 @@
+{
+ "H1": {
+  "change_pct": -63.1,
+  "change_since_1960_peak_pct": -35.5,
+  "change_since_1999_pct": -31.6,
+  "change_since_2002_pct": -30.8,
+  "judge": "支持",
+  "peak": 35352,
+  "peak_since_1960": 20201,
+  "peak_since_1960_year": 1960,
+  "peak_year": 1955,
+  "y1999": 19063,
+  "y2002": 18819,
+  "y2024": 13031
+ },
+ "H2": {
+  "bunkan_2002": 6593,
+  "bunkan_2005": 6254,
+  "bunkan_2024": 4278,
+  "bunkan_pct": -35.1,
+  "bunkan_share_of_decline": 0.416,
+  "honkan_2002": 11354,
+  "honkan_2005": 10889,
+  "honkan_2024": 8100,
+  "honkan_pct": -28.7,
+  "judge": "支持",
+  "total_2002": 17947,
+  "total_2005": 17143,
+  "total_2024": 12378,
+  "total_pct": -31.0
+ },
+ "H3": {
+  "boot_ci": [
+   0.028,
+   0.582
+  ],
+  "judge": "支持",
+  "n": 47,
+  "p": 0.0281,
+  "spearman": 0.32
+ },
+ "H4": {
+  "fac_2008": 16566,
+  "fac_2024": 13031,
+  "fac_chg_pct": -21.3,
+  "judge": "外れ",
+  "per_fac_2007": 14.28,
+  "per_fac_2007_2017_chg_pct": -10.0,
+  "per_fac_2017": 12.85,
+  "per_fac_2023": 9.7,
+  "per_fac_chg_pct": -32.1,
+  "users_2007": 236617,
+  "users_2023": 126406,
+  "users_chg_pct": -46.6
+ },
+ "muni": {
+  "kominkan_per_muni_2002": 5.54,
+  "kominkan_per_muni_2024": 7.11,
+  "muni_2002": 3241,
+  "muni_2024": 1741,
+  "muni_pct": -46.3,
+  "towns_villages_2002": 2543,
+  "towns_villages_2024": 926
+ },
+ "national_series": {
+  "1955": 35352,
+  "1960": 20201,
+  "1963": 19417,
+  "1968": 13801,
+  "1971": 14249,
+  "1975": 15817,
+  "1978": 16534,
+  "1981": 17385,
+  "1984": 17802,
+  "1987": 18006,
+  "1990": 17931,
+  "1993": 18339,
+  "1996": 18545,
+  "1999": 19063,
+  "2002": 18819,
+  "2005": 18182,
+  "2008": 16566,
+  "2011": 15399,
+  "2015": 14841,
+  "2018": 14281,
+  "2021": 13798,
+  "2024": 13031
+ },
+ "pref_counts": {
+  "median_total_chg_pct": -23.2,
+  "median_total_chg_pct_muni_unchanged": -14.9,
+  "muni_unchanged_prefs": [
+   "東京"
+  ],
+  "n_decreased": 47,
+  "n_increased_or_same": 0,
+  "n_muni_unchanged": 1
+ },
+ "region": {
+  "中国": {
+   "bunkan_chg_pct": -51.5,
+   "muni_chg_pct": -66.4,
+   "total_2002": 1758,
+   "total_2024": 1011,
+   "total_chg_pct": -42.5
+  },
+  "中部": {
+   "bunkan_chg_pct": -31.2,
+   "muni_chg_pct": -52.6,
+   "total_2002": 5199,
+   "total_2024": 3685,
+   "total_chg_pct": -29.1
+  },
+  "九州・沖縄": {
+   "bunkan_chg_pct": -32.8,
+   "muni_chg_pct": -51.8,
+   "total_2002": 2194,
+   "total_2024": 1530,
+   "total_chg_pct": -30.3
+  },
+  "北海道": {
+   "bunkan_chg_pct": -46.0,
+   "muni_chg_pct": -15.6,
+   "total_2002": 541,
+   "total_2024": 350,
+   "total_chg_pct": -35.3
+  },
+  "四国": {
+   "bunkan_chg_pct": -14.5,
+   "muni_chg_pct": -55.2,
+   "total_2002": 1240,
+   "total_2024": 974,
+   "total_chg_pct": -21.5
+  },
+  "東北": {
+   "bunkan_chg_pct": -34.9,
+   "muni_chg_pct": -43.1,
+   "total_2002": 2767,
+   "total_2024": 1833,
+   "total_chg_pct": -33.8
+  },
+  "近畿": {
+   "bunkan_chg_pct": -36.9,
+   "muni_chg_pct": -42.1,
+   "total_2002": 2216,
+   "total_2024": 1492,
+   "total_chg_pct": -32.7
+  },
+  "関東": {
+   "bunkan_chg_pct": -63.5,
+   "muni_chg_pct": -33.1,
+   "total_2002": 2032,
+   "total_2024": 1503,
+   "total_chg_pct": -26.0
+  }
+ },
+ "robustness": [
+  {
+   "check": "主（公民館計、2002→2024年度、スピアマン）",
+   "ge_0.3": true,
+   "n": 47,
+   "note": "",
+   "p": 0.0281,
+   "rho": 0.32
+  },
+  {
+   "check": "本館だけ",
+   "ge_0.3": false,
+   "n": 47,
+   "note": "",
+   "p": 0.0761,
+   "rho": 0.261
+  },
+  {
+   "check": "分館だけ（2002年に分館が10館以上の県）",
+   "ge_0.3": false,
+   "n": 43,
+   "note": "",
+   "p": 0.0677,
+   "rho": 0.281
+  },
+  {
+   "check": "ピアソンの相関",
+   "ge_0.3": true,
+   "n": 47,
+   "note": "順位でなく値",
+   "p": 0.0372,
+   "rho": 0.305
+  },
+  {
+   "check": "北海道を除く",
+   "ge_0.3": true,
+   "n": 46,
+   "note": "",
+   "p": 0.018,
+   "rho": 0.347
+  },
+  {
+   "check": "2005→2024年度",
+   "ge_0.3": false,
+   "n": 47,
+   "note": "合併の途中の年から",
+   "p": 0.4353,
+   "rho": 0.117
+  },
+  {
+   "check": "市町村数の代わりに町と村の数",
+   "ge_0.3": true,
+   "n": 47,
+   "note": "",
+   "p": 0.0142,
+   "rho": 0.355
+  }
+ ]
+}
