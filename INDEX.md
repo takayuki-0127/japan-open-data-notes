@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 559本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 583本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -13,17 +13,17 @@
 | 予測・時系列 | 138 |
 | 因果推論・効果検証 | 63 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 301 |
+| 統計の考え方（検定・区間・回帰） | 302 |
 | 機械学習・モデル評価 | 103 |
-| 顧客分析・生存分析 | 66 |
+| 顧客分析・生存分析 | 67 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 156 |
+| 集計の定義・KPI | 160 |
 | 可視化・報告・BI | 46 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 305 |
+| その他（記述・要因分解など） | 323 |
 
 <details><summary><b>予測・時系列</b>（138本）</summary>
 
@@ -274,7 +274,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（301本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（302本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -579,6 +579,7 @@
 | 798 | グラフのひげが標準偏差か標準誤差かを取り違えると、差の大きさはどれだけ違って見えるのか？ | [798_sd_vs_se_errorbars](articles/798_sd_vs_se_errorbars) |
 | 800 | U字の関係では、相関係数と相互情報量はどれだけ違う答えを出すのか？ | [800_mutual_information_vs_corr](articles/800_mutual_information_vs_corr) |
 | 823 | 散布図の点が多すぎると、関係は見えなくなるのか？ | [823_graph_scatter_overplotting](articles/823_graph_scatter_overplotting) |
+| 850 | 「最もありそうな日数」で計画すると、間に合う確率は何%か？ | [850_estimate_most_likely_days](articles/850_estimate_most_likely_days) |
 
 </details>
 
@@ -692,7 +693,7 @@
 
 </details>
 
-<details><summary><b>顧客分析・生存分析</b>（66本）</summary>
+<details><summary><b>顧客分析・生存分析</b>（67本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -762,6 +763,7 @@
 | 763 | 継続月数を0から数えるか1から数えるかで、継続率の表はどれだけずれて読まれるのか？ | [763_month_index_zero_one](articles/763_month_index_zero_one) |
 | 820 | 対数の軸と普通の軸で、「伸びが鈍った」の見え方は変わるのか？ | [820_graph_log_vs_linear_axis](articles/820_graph_log_vs_linear_axis) |
 | 823 | 散布図の点が多すぎると、関係は見えなくなるのか？ | [823_graph_scatter_overplotting](articles/823_graph_scatter_overplotting) |
+| 841 | 長い動画と短い動画の維持率は、そのまま比べられるのか？ | [841_sns_retention_length](articles/841_sns_retention_length) |
 
 </details>
 
@@ -884,7 +886,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（156本）</summary>
+<details><summary><b>集計の定義・KPI</b>（160本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1044,6 +1046,10 @@
 | 815 | 円グラフと棒グラフで、割合の読み取りの誤差はどれだけ違うのか？ | [815_graph_pie_vs_bar_error](articles/815_graph_pie_vs_bar_error) |
 | 820 | 対数の軸と普通の軸で、「伸びが鈍った」の見え方は変わるのか？ | [820_graph_log_vs_linear_axis](articles/820_graph_log_vs_linear_axis) |
 | 824 | 「前年比」の棒と「実数」の線を並べると、何を読み違えるのか？ | [824_graph_yoy_bar_level_line](articles/824_graph_yoy_bar_level_line) |
+| 837 | 反応率の分母（フォロワー・表示・再生）で、良い投稿は入れ替わるのか？ | [837_sns_engagement_denominator](articles/837_sns_engagement_denominator) |
+| 848 | 計測の仕様が月の途中で変わったとき、前月比はどうなるのか？ | [848_sns_metric_spec_change](articles/848_sns_metric_spec_change) |
+| 856 | 担当者が1人抜けると、締め切りはどれだけ延びるのか？ | [856_estimate_member_leaves](articles/856_estimate_member_leaves) |
+| 858 | 締め切り直前に作業が集まると、品質の点検は何件漏れるのか？ | [858_estimate_deadline_rush_review](articles/858_estimate_deadline_rush_review) |
 
 </details>
 
@@ -1304,7 +1310,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（305本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（323本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1613,6 +1619,24 @@
 | 834 | くじは、先に引くのと後に引くのでどちらが有利か？ | [834_luck_draw_order](articles/834_luck_draw_order) |
 | 835 | 上位だけを見て「成功の秘訣」を決めると、何を読み違えるのか？ | [835_luck_success_secret_top](articles/835_luck_success_secret_top) |
 | 836 | 実力差がどれだけあれば、偶然の逆転は起きにくくなるのか？ | [836_luck_gap_upset](articles/836_luck_gap_upset) |
+| 838 | 伸びた投稿だけ見て「伸びる型」を決めると、何が起きるのか？ | [838_sns_top_posts_pattern](articles/838_sns_top_posts_pattern) |
+| 839 | 投稿の時刻の効果は、時刻の効果か、内容の効果か？ | [839_sns_post_time_vs_content](articles/839_sns_post_time_vs_content) |
+| 840 | 1本のバズで、再生数の平均はどれだけ動くのか？ | [840_sns_one_buzz_mean](articles/840_sns_one_buzz_mean) |
+| 842 | 表示が増えると、クリック率は下がって見えるのか？ | [842_sns_ctr_impressions](articles/842_sns_ctr_impressions) |
+| 843 | フォロワーが増えた日の、本当の原因の投稿はどれか？ | [843_sns_follower_gain_cause](articles/843_sns_follower_gain_cause) |
+| 844 | 少ない週の次は、必ず伸びて見えるのか？ | [844_sns_low_week_rebound](articles/844_sns_low_week_rebound) |
+| 845 | 同じ内容を2回投稿したときの差は、偶然でどこまで出るのか？ | [845_sns_same_post_twice](articles/845_sns_same_post_twice) |
+| 846 | ハッシュタグの「効果」は、付けた投稿の選ばれ方で決まるのか？ | [846_sns_hashtag_selection](articles/846_sns_hashtag_selection) |
+| 847 | 流入元の違う再生数を合わせると、何を読み違えるのか？ | [847_sns_traffic_source_mix](articles/847_sns_traffic_source_mix) |
+| 849 | 作業ごとの見積もりを足すと、全体の見積もりは何%足りなくなるのか？ | [849_estimate_sum_of_tasks](articles/849_estimate_sum_of_tasks) |
+| 851 | 並行する作業が増えると、全体の遅れはどれだけ増えるのか？ | [851_estimate_parallel_merge](articles/851_estimate_parallel_merge) |
+| 852 | 余裕を作業ごとに持つのと、最後にまとめて持つのでは、どちらが間に合いやすいか？ | [852_estimate_buffer_task_vs_project](articles/852_estimate_buffer_task_vs_project) |
+| 853 | 割り込みの仕事が1割あると、終わる日はどれだけ延びるのか？ | [853_estimate_interrupt_ten_percent](articles/853_estimate_interrupt_ten_percent) |
+| 854 | 過去の実績で見積もりを直すと、外れはどれだけ減るのか？ | [854_estimate_correct_by_history](articles/854_estimate_correct_by_history) |
+| 855 | 「9割終わった」から残りが長いのはなぜか？ | [855_estimate_ninety_percent_tail](articles/855_estimate_ninety_percent_tail) |
+| 857 | 同時に持つ案件を増やすと、1件あたりの日数は何倍になるのか？ | [857_estimate_multitasking_projects](articles/857_estimate_multitasking_projects) |
+| 859 | 見積もりの幅（最短〜最長）を書くと、外れ方はどう変わるのか？ | [859_estimate_range_width](articles/859_estimate_range_width) |
+| 860 | 進み具合の「%」は、作業数で数えるか時間で数えるかで変わるのか？ | [860_estimate_progress_percent](articles/860_estimate_progress_percent) |
 
 </details>
 
@@ -1622,10 +1646,10 @@
 | 場面 | 本数 |
 |---|---|
 | 小売・店舗 | 181 |
-| EC・会員・Web | 95 |
+| EC・会員・Web | 96 |
 | マーケティング・広告 | 21 |
 | 需要予測・在庫 | 31 |
-| 業務の集計・報告 | 127 |
+| 業務の集計・報告 | 129 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
 | 公的統計・地域・人口 | 433 |
@@ -1818,7 +1842,7 @@
 
 </details>
 
-<details><summary><b>EC・会員・Web</b>（95本）</summary>
+<details><summary><b>EC・会員・Web</b>（96本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1917,6 +1941,7 @@
 | 762 | 申込率を小数の桁の少ない DECIMAL に入れると、率はどれだけ丸まり、店の順位はどれだけ入れ替わるのか？ | [762_decimal_scale_division](articles/762_decimal_scale_division) |
 | 820 | 対数の軸と普通の軸で、「伸びが鈍った」の見え方は変わるのか？ | [820_graph_log_vs_linear_axis](articles/820_graph_log_vs_linear_axis) |
 | 823 | 散布図の点が多すぎると、関係は見えなくなるのか？ | [823_graph_scatter_overplotting](articles/823_graph_scatter_overplotting) |
+| 842 | 表示が増えると、クリック率は下がって見えるのか？ | [842_sns_ctr_impressions](articles/842_sns_ctr_impressions) |
 
 </details>
 
@@ -1986,7 +2011,7 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（127本）</summary>
+<details><summary><b>業務の集計・報告</b>（129本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2117,6 +2142,8 @@
 | 774 | 達成率を四捨五入してから「100%以上」を数えると、何店が「達成」に入ってしまうのか？ | [774_achievement_rounding](articles/774_achievement_rounding) |
 | 781 | 数の列に文字が1つまざると、Excel のピボットの集計はどう変わり、合計はどれだけ消えるのか？ | [781_pivot_count_default](articles/781_pivot_count_default) |
 | 824 | 「前年比」の棒と「実数」の線を並べると、何を読み違えるのか？ | [824_graph_yoy_bar_level_line](articles/824_graph_yoy_bar_level_line) |
+| 856 | 担当者が1人抜けると、締め切りはどれだけ延びるのか？ | [856_estimate_member_leaves](articles/856_estimate_member_leaves) |
+| 858 | 締め切り直前に作業が集まると、品質の点検は何件漏れるのか？ | [858_estimate_deadline_rush_review](articles/858_estimate_deadline_rush_review) |
 
 </details>
 
