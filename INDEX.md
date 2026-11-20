@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 607本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 619本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -11,11 +11,11 @@
 | 手法 | 本数 |
 |---|---|
 | 予測・時系列 | 139 |
-| 因果推論・効果検証 | 63 |
+| 因果推論・効果検証 | 64 |
 | A/B テスト・実験 | 27 |
 | 統計の考え方（検定・区間・回帰） | 303 |
 | 機械学習・モデル評価 | 103 |
-| 顧客分析・生存分析 | 67 |
+| 顧客分析・生存分析 | 68 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
 | 集計の定義・KPI | 161 |
@@ -23,7 +23,7 @@
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 344 |
+| その他（記述・要因分解など） | 354 |
 
 <details><summary><b>予測・時系列</b>（139本）</summary>
 
@@ -171,7 +171,7 @@
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（63本）</summary>
+<details><summary><b>因果推論・効果検証</b>（64本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -238,6 +238,7 @@
 | 737 | 施策の効き道になる変数を回帰に入れると、施策の効果はどれだけ小さく出るのか？ | [737_mediator_adjustment](articles/737_mediator_adjustment) |
 | 770 | 傾向スコアか結果のモデルのどちらかがまちがっているとき、二重に頑健な推定はどれだけずれるのか？ | [770_doubly_robust](articles/770_doubly_robust) |
 | 776 | 差の差で対照を1店だけ選ぶと、施策の効果の推定はどれだけ振れるのか？ | [776_single_control_did](articles/776_single_control_did) |
+| 888 | 1社に頼る割合が高いと、月の収入はどれだけ振れるのか？ | [888_side_client_concentration](articles/888_side_client_concentration) |
 
 </details>
 
@@ -695,7 +696,7 @@
 
 </details>
 
-<details><summary><b>顧客分析・生存分析</b>（67本）</summary>
+<details><summary><b>顧客分析・生存分析</b>（68本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -766,6 +767,7 @@
 | 820 | 対数の軸と普通の軸で、「伸びが鈍った」の見え方は変わるのか？ | [820_graph_log_vs_linear_axis](articles/820_graph_log_vs_linear_axis) |
 | 823 | 散布図の点が多すぎると、関係は見えなくなるのか？ | [823_graph_scatter_overplotting](articles/823_graph_scatter_overplotting) |
 | 841 | 長い動画と短い動画の維持率は、そのまま比べられるのか？ | [841_sns_retention_length](articles/841_sns_retention_length) |
+| 887 | 継続率は、月で数えるか案件で数えるかで変わるのか？ | [887_side_retention_month_vs_project](articles/887_side_retention_month_vs_project) |
 
 </details>
 
@@ -1313,7 +1315,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（344本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（354本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1661,6 +1663,16 @@
 | 882 | 1人増やしたときの待ち時間の減り方は、何人目まで大きいのか？ | [882_queue_add_one_staff](articles/882_queue_add_one_staff) |
 | 883 | 開店直後の行列は、何分で解消するのか？ | [883_queue_opening_rush_clear](articles/883_queue_opening_rush_clear) |
 | 884 | 満足度は、待ち時間の平均と最長のどちらで決まるのか？ | [884_queue_satisfaction_mean_vs_max](articles/884_queue_satisfaction_mean_vs_max) |
+| 885 | 案件の時給は、やり取りや修正の時間を入れるとどれだけ下がるのか？ | [885_side_hourly_with_overhead](articles/885_side_hourly_with_overhead) |
+| 886 | 稼働時間の「実働」と「拘束」で、時給はどう変わるのか？ | [886_side_active_vs_bound_hours](articles/886_side_active_vs_bound_hours) |
+| 889 | 応募の採用率は、何件応募すれば読めるのか？ | [889_side_application_rate](articles/889_side_application_rate) |
+| 890 | 見積もりの作業時間は、何%外れやすいのか？ | [890_side_estimate_error_metric](articles/890_side_estimate_error_metric) |
+| 891 | 月の収入は、平均で見るか中央値で見るかで、どれだけ違って見えるのか？ | [891_sidejob_income_mean_vs_median](articles/891_sidejob_income_mean_vs_median) |
+| 892 | 単発の大きな案件1本で、平均の月収はどれだけ動くのか？ | [892_sidejob_one_big_job_mean](articles/892_sidejob_one_big_job_mean) |
+| 893 | 作業時間の記録を15分単位で切ると、何%消えるのか？ | [893_sidejob_timelog_15min_rounding](articles/893_sidejob_timelog_15min_rounding) |
+| 894 | 「月の目標額以上」が何か月続いたら、実力と言えるのか？ | [894_sidejob_target_streak_months](articles/894_sidejob_target_streak_months) |
+| 895 | 問い合わせから契約までの割合は、どこで落ちているのか？ | [895_sidejob_inquiry_funnel_stage](articles/895_sidejob_inquiry_funnel_stage) |
+| 896 | 複数のサービスの手数料を差し引いた実入りを、どう比べるか？ | [896_sidejob_fee_net_compare](articles/896_sidejob_fee_net_compare) |
 
 </details>
 
@@ -1673,8 +1685,8 @@
 | EC・会員・Web | 96 |
 | マーケティング・広告 | 21 |
 | 需要予測・在庫 | 31 |
-| 業務の集計・報告 | 130 |
-| 作業時間・処理件数 | 4 |
+| 業務の集計・報告 | 131 |
+| 作業時間・処理件数 | 6 |
 | 保険 | 72 |
 | 公的統計・地域・人口 | 433 |
 
@@ -2040,7 +2052,7 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（130本）</summary>
+<details><summary><b>業務の集計・報告</b>（131本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2174,10 +2186,11 @@
 | 856 | 担当者が1人抜けると、締め切りはどれだけ延びるのか？ | [856_estimate_member_leaves](articles/856_estimate_member_leaves) |
 | 858 | 締め切り直前に作業が集まると、品質の点検は何件漏れるのか？ | [858_estimate_deadline_rush_review](articles/858_estimate_deadline_rush_review) |
 | 872 | 前年と質問文を変えた年の比較は、どこまでできるのか？ | [872_survey_wording_change_yoy](articles/872_survey_wording_change_yoy) |
+| 894 | 「月の目標額以上」が何か月続いたら、実力と言えるのか？ | [894_sidejob_target_streak_months](articles/894_sidejob_target_streak_months) |
 
 </details>
 
-<details><summary><b>作業時間・処理件数</b>（4本）</summary>
+<details><summary><b>作業時間・処理件数</b>（6本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2185,6 +2198,8 @@
 | 533 | 残業時間を15分単位で切り捨てて集計すると、1か月の時間は何%少なく出るのか？ | [533_overtime_truncation_monthly](articles/533_overtime_truncation_monthly) |
 | 695 | 1人あたりの処理件数を、出勤した日数で割るか働いた時間で割るかで、担当者の順位はどれだけ入れ替わるのか？ | [695_productivity_denominator](articles/695_productivity_denominator) |
 | 785 | 「1時間30分」を「1.30」と書いて合計すると、月の作業時間はどれだけ少なく出るのか？ | [785_hhmm_decimal_confusion](articles/785_hhmm_decimal_confusion) |
+| 890 | 見積もりの作業時間は、何%外れやすいのか？ | [890_side_estimate_error_metric](articles/890_side_estimate_error_metric) |
+| 893 | 作業時間の記録を15分単位で切ると、何%消えるのか？ | [893_sidejob_timelog_15min_rounding](articles/893_sidejob_timelog_15min_rounding) |
 
 </details>
 
