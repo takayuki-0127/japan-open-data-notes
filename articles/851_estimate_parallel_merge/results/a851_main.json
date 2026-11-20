@@ -1,0 +1,352 @@
+{
+ "setting": {
+  "median_days": 20.0,
+  "sigma": 0.4,
+  "p80_plan_days": 28.0
+ },
+ "base_4branches_plan_median": {
+  "plan": 20.0,
+  "p_on_time": 0.0623,
+  "mean_finish": 31.42,
+  "median_finish": 29.8,
+  "p80_finish": 38.05,
+  "mean_late_days": 11.54,
+  "mean_finish_minus_plan": 11.42,
+  "which_branch_last_share": [
+   0.2509,
+   0.25,
+   0.2486,
+   0.2505
+  ]
+ },
+ "single_branch_plan_median": {
+  "plan": 20.0,
+  "p_on_time": 0.4992,
+  "mean_finish": 21.67,
+  "median_finish": 20.01,
+  "p80_finish": 28.01,
+  "mean_late_days": 4.2,
+  "mean_finish_minus_plan": 1.67
+ },
+ "by_k_sigma0_4": [
+  {
+   "sigma": 0.4,
+   "k": 1,
+   "plan_rule": "median",
+   "plan": 20.0,
+   "p_on_time": 0.5023,
+   "mean_finish": 21.64,
+   "median_finish": 19.95,
+   "p80_finish": 27.95,
+   "mean_late_days": 4.19,
+   "mean_finish_minus_plan": 1.64,
+   "theory_p_on_time": 0.5
+  },
+  {
+   "sigma": 0.4,
+   "k": 1,
+   "plan_rule": "p80",
+   "plan": 28.0,
+   "p_on_time": 0.8016,
+   "mean_finish": 21.64,
+   "median_finish": 19.95,
+   "p80_finish": 27.95,
+   "mean_late_days": 1.54,
+   "mean_finish_minus_plan": -6.36,
+   "theory_p_on_time": 0.8
+  },
+  {
+   "sigma": 0.4,
+   "k": 2,
+   "plan_rule": "median",
+   "plan": 20.0,
+   "p_on_time": 0.2502,
+   "mean_finish": 26.5,
+   "median_finish": 24.89,
+   "p80_finish": 32.99,
+   "mean_late_days": 7.31,
+   "mean_finish_minus_plan": 6.5,
+   "theory_p_on_time": 0.25
+  },
+  {
+   "sigma": 0.4,
+   "k": 2,
+   "plan_rule": "p80",
+   "plan": 28.0,
+   "p_on_time": 0.6394,
+   "mean_finish": 26.5,
+   "median_finish": 24.89,
+   "p80_finish": 32.99,
+   "mean_late_days": 2.92,
+   "mean_finish_minus_plan": -1.5,
+   "theory_p_on_time": 0.64
+  },
+  {
+   "sigma": 0.4,
+   "k": 3,
+   "plan_rule": "median",
+   "plan": 20.0,
+   "p_on_time": 0.1242,
+   "mean_finish": 29.39,
+   "median_finish": 27.78,
+   "p80_finish": 35.95,
+   "mean_late_days": 9.69,
+   "mean_finish_minus_plan": 9.39,
+   "theory_p_on_time": 0.125
+  },
+  {
+   "sigma": 0.4,
+   "k": 3,
+   "plan_rule": "p80",
+   "plan": 28.0,
+   "p_on_time": 0.5106,
+   "mean_finish": 29.39,
+   "median_finish": 27.78,
+   "p80_finish": 35.95,
+   "mean_late_days": 4.17,
+   "mean_finish_minus_plan": 1.39,
+   "theory_p_on_time": 0.512
+  },
+  {
+   "sigma": 0.4,
+   "k": 4,
+   "plan_rule": "median",
+   "plan": 20.0,
+   "p_on_time": 0.0623,
+   "mean_finish": 31.42,
+   "median_finish": 29.8,
+   "p80_finish": 38.05,
+   "mean_late_days": 11.54,
+   "mean_finish_minus_plan": 11.42,
+   "theory_p_on_time": 0.0625
+  },
+  {
+   "sigma": 0.4,
+   "k": 4,
+   "plan_rule": "p80",
+   "plan": 28.0,
+   "p_on_time": 0.4099,
+   "mean_finish": 31.42,
+   "median_finish": 29.8,
+   "p80_finish": 38.05,
+   "mean_late_days": 5.28,
+   "mean_finish_minus_plan": 3.42,
+   "theory_p_on_time": 0.4096
+  },
+  {
+   "sigma": 0.4,
+   "k": 6,
+   "plan_rule": "median",
+   "plan": 20.0,
+   "p_on_time": 0.0161,
+   "mean_finish": 34.33,
+   "median_finish": 32.7,
+   "p80_finish": 40.96,
+   "mean_late_days": 14.36,
+   "mean_finish_minus_plan": 14.33,
+   "theory_p_on_time": 0.0156
+  },
+  {
+   "sigma": 0.4,
+   "k": 6,
+   "plan_rule": "p80",
+   "plan": 28.0,
+   "p_on_time": 0.2633,
+   "mean_finish": 34.33,
+   "median_finish": 32.7,
+   "p80_finish": 40.96,
+   "mean_late_days": 7.24,
+   "mean_finish_minus_plan": 6.33,
+   "theory_p_on_time": 0.2621
+  },
+  {
+   "sigma": 0.4,
+   "k": 8,
+   "plan_rule": "median",
+   "plan": 20.0,
+   "p_on_time": 0.0039,
+   "mean_finish": 36.44,
+   "median_finish": 34.78,
+   "p80_finish": 43.07,
+   "mean_late_days": 16.45,
+   "mean_finish_minus_plan": 16.44,
+   "theory_p_on_time": 0.0039
+  },
+  {
+   "sigma": 0.4,
+   "k": 8,
+   "plan_rule": "p80",
+   "plan": 28.0,
+   "p_on_time": 0.1693,
+   "mean_finish": 36.44,
+   "median_finish": 34.78,
+   "p80_finish": 43.07,
+   "mean_late_days": 8.91,
+   "mean_finish_minus_plan": 8.44,
+   "theory_p_on_time": 0.1678
+  },
+  {
+   "sigma": 0.4,
+   "k": 12,
+   "plan_rule": "median",
+   "plan": 20.0,
+   "p_on_time": 0.0002,
+   "mean_finish": 39.44,
+   "median_finish": 37.77,
+   "p80_finish": 46.13,
+   "mean_late_days": 19.44,
+   "mean_finish_minus_plan": 19.44,
+   "theory_p_on_time": 0.0002
+  },
+  {
+   "sigma": 0.4,
+   "k": 12,
+   "plan_rule": "p80",
+   "plan": 28.0,
+   "p_on_time": 0.0681,
+   "mean_finish": 39.44,
+   "median_finish": 37.77,
+   "p80_finish": 46.13,
+   "mean_late_days": 11.57,
+   "mean_finish_minus_plan": 11.43,
+   "theory_p_on_time": 0.0687
+  },
+  {
+   "sigma": 0.4,
+   "k": 16,
+   "plan_rule": "median",
+   "plan": 20.0,
+   "p_on_time": 0.0,
+   "mean_finish": 41.56,
+   "median_finish": 39.87,
+   "p80_finish": 48.28,
+   "mean_late_days": 21.56,
+   "mean_finish_minus_plan": 21.56,
+   "theory_p_on_time": 0.0
+  },
+  {
+   "sigma": 0.4,
+   "k": 16,
+   "plan_rule": "p80",
+   "plan": 28.0,
+   "p_on_time": 0.0279,
+   "mean_finish": 41.56,
+   "median_finish": 39.87,
+   "p80_finish": 48.28,
+   "mean_late_days": 13.6,
+   "mean_finish_minus_plan": 13.56,
+   "theory_p_on_time": 0.0281
+  }
+ ],
+ "k_where_p_on_time_below_half_p80plan": 4,
+ "robustness_4branches": [
+  {
+   "case": "基本（4本・独立・どれも中央値20日）",
+   "plan": 20.0,
+   "p_on_time": 0.0623,
+   "mean_finish": 31.42,
+   "median_finish": 29.8,
+   "p80_finish": 38.05,
+   "mean_late_days": 11.54,
+   "mean_finish_minus_plan": 11.42
+  },
+  {
+   "case": "共通の振れ rho=0.3",
+   "plan": 20.0,
+   "p_on_time": 0.141,
+   "mean_finish": 29.74,
+   "median_finish": 28.07,
+   "p80_finish": 36.92,
+   "mean_late_days": 10.12,
+   "mean_finish_minus_plan": 9.74
+  },
+  {
+   "case": "共通の振れ rho=0.6",
+   "plan": 20.0,
+   "p_on_time": 0.2322,
+   "mean_finish": 27.68,
+   "median_finish": 25.89,
+   "p80_finish": 35.01,
+   "mean_late_days": 8.49,
+   "mean_finish_minus_plan": 7.68
+  },
+  {
+   "case": "共通の振れ rho=0.9",
+   "plan": 20.0,
+   "p_on_time": 0.3694,
+   "mean_finish": 24.58,
+   "median_finish": 22.81,
+   "p80_finish": 31.64,
+   "mean_late_days": 6.2,
+   "mean_finish_minus_plan": 4.58
+  },
+  {
+   "case": "ほかの3本は1割短い（中央値18日）",
+   "plan": 20.0,
+   "p_on_time": 0.1106,
+   "mean_finish": 29.16,
+   "median_finish": 27.63,
+   "p80_finish": 35.33,
+   "mean_late_days": 9.4,
+   "mean_finish_minus_plan": 9.16
+  },
+  {
+   "case": "ほかの3本は2割短い（中央値16日）",
+   "plan": 20.0,
+   "p_on_time": 0.1797,
+   "mean_finish": 27.12,
+   "median_finish": 25.64,
+   "p80_finish": 32.89,
+   "mean_late_days": 7.56,
+   "mean_finish_minus_plan": 7.12
+  },
+  {
+   "case": "ほかの3本は3割短い（中央値14日）",
+   "plan": 20.0,
+   "p_on_time": 0.2709,
+   "mean_finish": 25.3,
+   "median_finish": 23.78,
+   "p80_finish": 30.87,
+   "mean_late_days": 6.07,
+   "mean_finish_minus_plan": 5.3
+  },
+  {
+   "case": "分布をガンマに（ばらつきは同じ）",
+   "plan": 20.0,
+   "p_on_time": 0.0624,
+   "mean_finish": 30.78,
+   "median_finish": 29.8,
+   "p80_finish": 36.96,
+   "mean_late_days": 10.91,
+   "mean_finish_minus_plan": 10.78
+  },
+  {
+   "case": "ばらつき sigma=0.25",
+   "plan": 20.0,
+   "p_on_time": 0.0634,
+   "mean_finish": 26.27,
+   "median_finish": 25.68,
+   "p80_finish": 29.87,
+   "mean_late_days": 6.35,
+   "mean_finish_minus_plan": 6.27
+  },
+  {
+   "case": "ばらつき sigma=0.6",
+   "plan": 20.0,
+   "p_on_time": 0.0625,
+   "mean_finish": 40.68,
+   "median_finish": 36.43,
+   "p80_finish": 52.35,
+   "mean_late_days": 20.85,
+   "mean_finish_minus_plan": 20.68
+  }
+ ],
+ "range_p_on_time_robustness": [
+  0.0623,
+  0.3694
+ ],
+ "range_mean_late_robustness": [
+  6.07,
+  20.85
+ ]
+}

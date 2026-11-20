@@ -1,0 +1,488 @@
+{
+ "setting": {
+  "n_team": 2000,
+  "rep": 20,
+  "bias_median": 1.4,
+  "bias_sd_log": 0.15,
+  "noise_sd_log": 0.35
+ },
+ "by_n_past": [
+  {
+   "n_past": 1,
+   "method": "見積もりそのまま",
+   "mdape": 0.4114,
+   "within20": 0.2738,
+   "ontime": 0.1892
+  },
+  {
+   "n_past": 1,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.2504,
+   "within20": 0.4081,
+   "ontime": 0.505
+  },
+  {
+   "n_past": 1,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.3267,
+   "within20": 0.3124,
+   "ontime": 0.5035
+  },
+  {
+   "n_past": 3,
+   "method": "見積もりそのまま",
+   "mdape": 0.4124,
+   "within20": 0.2724,
+   "ontime": 0.1894
+  },
+  {
+   "n_past": 3,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.2508,
+   "within20": 0.4067,
+   "ontime": 0.5042
+  },
+  {
+   "n_past": 3,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.2667,
+   "within20": 0.3845,
+   "ontime": 0.5052
+  },
+  {
+   "n_past": 5,
+   "method": "見積もりそのまま",
+   "mdape": 0.4117,
+   "within20": 0.274,
+   "ontime": 0.1896
+  },
+  {
+   "n_past": 5,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.254,
+   "within20": 0.405,
+   "ontime": 0.5031
+  },
+  {
+   "n_past": 5,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.2548,
+   "within20": 0.4023,
+   "ontime": 0.5026
+  },
+  {
+   "n_past": 5,
+   "method": "自分の過去の8割の点",
+   "mdape": 0.2874,
+   "within20": 0.347,
+   "ontime": 0.7109
+  },
+  {
+   "n_past": 10,
+   "method": "見積もりそのまま",
+   "mdape": 0.4192,
+   "within20": 0.2715,
+   "ontime": 0.1892
+  },
+  {
+   "n_past": 10,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.254,
+   "within20": 0.4031,
+   "ontime": 0.4968
+  },
+  {
+   "n_past": 10,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.2448,
+   "within20": 0.4164,
+   "ontime": 0.4945
+  },
+  {
+   "n_past": 10,
+   "method": "自分の過去の8割の点",
+   "mdape": 0.2851,
+   "within20": 0.3472,
+   "ontime": 0.7476
+  },
+  {
+   "n_past": 30,
+   "method": "見積もりそのまま",
+   "mdape": 0.4156,
+   "within20": 0.2686,
+   "ontime": 0.1866
+  },
+  {
+   "n_past": 30,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.2518,
+   "within20": 0.4088,
+   "ontime": 0.4972
+  },
+  {
+   "n_past": 30,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.2349,
+   "within20": 0.4323,
+   "ontime": 0.4981
+  },
+  {
+   "n_past": 30,
+   "method": "自分の過去の8割の点",
+   "mdape": 0.2893,
+   "within20": 0.3383,
+   "ontime": 0.7803
+  }
+ ],
+ "floor_noise_only": {
+  "mdape": 0.2326,
+  "within20": 0.4366
+ },
+ "sensitivity": [
+  {
+   "noise": 0.2,
+   "drift": 0.0,
+   "method": "見積もりそのまま",
+   "mdape": 0.402,
+   "within20": 0.2549,
+   "ontime": 0.0902
+  },
+  {
+   "noise": 0.2,
+   "drift": 0.0,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.1683,
+   "within20": 0.5777,
+   "ontime": 0.4992
+  },
+  {
+   "noise": 0.2,
+   "drift": 0.0,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.1416,
+   "within20": 0.6639,
+   "ontime": 0.4995
+  },
+  {
+   "noise": 0.2,
+   "drift": 0.1,
+   "method": "見積もりそのまま",
+   "mdape": 0.3953,
+   "within20": 0.2681,
+   "ontime": 0.1068
+  },
+  {
+   "noise": 0.2,
+   "drift": 0.1,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.1803,
+   "within20": 0.5464,
+   "ontime": 0.504
+  },
+  {
+   "noise": 0.2,
+   "drift": 0.1,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.1555,
+   "within20": 0.6126,
+   "ontime": 0.4998
+  },
+  {
+   "noise": 0.2,
+   "drift": 0.2,
+   "method": "見積もりそのまま",
+   "mdape": 0.4011,
+   "within20": 0.2779,
+   "ontime": 0.1492
+  },
+  {
+   "noise": 0.2,
+   "drift": 0.2,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.2154,
+   "within20": 0.468,
+   "ontime": 0.5018
+  },
+  {
+   "noise": 0.2,
+   "drift": 0.2,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.1952,
+   "within20": 0.511,
+   "ontime": 0.4997
+  },
+  {
+   "noise": 0.2,
+   "drift": 0.3,
+   "method": "見積もりそのまま",
+   "mdape": 0.4159,
+   "within20": 0.271,
+   "ontime": 0.1933
+  },
+  {
+   "noise": 0.2,
+   "drift": 0.3,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.2578,
+   "within20": 0.3957,
+   "ontime": 0.5018
+  },
+  {
+   "noise": 0.2,
+   "drift": 0.3,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.2426,
+   "within20": 0.4185,
+   "ontime": 0.5028
+  },
+  {
+   "noise": 0.35,
+   "drift": 0.0,
+   "method": "見積もりそのまま",
+   "mdape": 0.4192,
+   "within20": 0.2715,
+   "ontime": 0.1892
+  },
+  {
+   "noise": 0.35,
+   "drift": 0.0,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.254,
+   "within20": 0.4031,
+   "ontime": 0.4968
+  },
+  {
+   "noise": 0.35,
+   "drift": 0.0,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.2448,
+   "within20": 0.4164,
+   "ontime": 0.4945
+  },
+  {
+   "noise": 0.35,
+   "drift": 0.1,
+   "method": "見積もりそのまま",
+   "mdape": 0.4213,
+   "within20": 0.2657,
+   "ontime": 0.1953
+  },
+  {
+   "noise": 0.35,
+   "drift": 0.1,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.2608,
+   "within20": 0.3964,
+   "ontime": 0.4975
+  },
+  {
+   "noise": 0.35,
+   "drift": 0.1,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.252,
+   "within20": 0.4046,
+   "ontime": 0.4974
+  },
+  {
+   "noise": 0.35,
+   "drift": 0.2,
+   "method": "見積もりそのまま",
+   "mdape": 0.4256,
+   "within20": 0.2626,
+   "ontime": 0.2154
+  },
+  {
+   "noise": 0.35,
+   "drift": 0.2,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.2822,
+   "within20": 0.3661,
+   "ontime": 0.5009
+  },
+  {
+   "noise": 0.35,
+   "drift": 0.2,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.2751,
+   "within20": 0.3726,
+   "ontime": 0.4998
+  },
+  {
+   "noise": 0.35,
+   "drift": 0.3,
+   "method": "見積もりそのまま",
+   "mdape": 0.4505,
+   "within20": 0.2466,
+   "ontime": 0.2455
+  },
+  {
+   "noise": 0.35,
+   "drift": 0.3,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.3207,
+   "within20": 0.3226,
+   "ontime": 0.5004
+  },
+  {
+   "noise": 0.35,
+   "drift": 0.3,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.313,
+   "within20": 0.3302,
+   "ontime": 0.497
+  },
+  {
+   "noise": 0.5,
+   "drift": 0.0,
+   "method": "見積もりそのまま",
+   "mdape": 0.4607,
+   "within20": 0.2424,
+   "ontime": 0.2617
+  },
+  {
+   "noise": 0.5,
+   "drift": 0.0,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.3403,
+   "within20": 0.2999,
+   "ontime": 0.5005
+  },
+  {
+   "noise": 0.5,
+   "drift": 0.0,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.3408,
+   "within20": 0.302,
+   "ontime": 0.4992
+  },
+  {
+   "noise": 0.5,
+   "drift": 0.1,
+   "method": "見積もりそのまま",
+   "mdape": 0.4711,
+   "within20": 0.2416,
+   "ontime": 0.2645
+  },
+  {
+   "noise": 0.5,
+   "drift": 0.1,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.3478,
+   "within20": 0.2927,
+   "ontime": 0.4974
+  },
+  {
+   "noise": 0.5,
+   "drift": 0.1,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.3468,
+   "within20": 0.293,
+   "ontime": 0.4995
+  },
+  {
+   "noise": 0.5,
+   "drift": 0.2,
+   "method": "見積もりそのまま",
+   "mdape": 0.4782,
+   "within20": 0.2306,
+   "ontime": 0.2742
+  },
+  {
+   "noise": 0.5,
+   "drift": 0.2,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.3616,
+   "within20": 0.2835,
+   "ontime": 0.501
+  },
+  {
+   "noise": 0.5,
+   "drift": 0.2,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.3648,
+   "within20": 0.2833,
+   "ontime": 0.5002
+  },
+  {
+   "noise": 0.5,
+   "drift": 0.3,
+   "method": "見積もりそのまま",
+   "mdape": 0.4935,
+   "within20": 0.2249,
+   "ontime": 0.2873
+  },
+  {
+   "noise": 0.5,
+   "drift": 0.3,
+   "method": "全チーム共通の倍率",
+   "mdape": 0.3884,
+   "within20": 0.2635,
+   "ontime": 0.5048
+  },
+  {
+   "noise": 0.5,
+   "drift": 0.3,
+   "method": "自分の過去の平均の倍率",
+   "mdape": 0.3918,
+   "within20": 0.2587,
+   "ontime": 0.505
+  }
+ ],
+ "check_same_bias_all_teams_n10": {
+  "見積もりそのまま": {
+   "mdape": 0.4143,
+   "within20": 0.2723,
+   "ontime": 0.1681
+  },
+  "全チーム共通の倍率": {
+   "mdape": 0.2345,
+   "within20": 0.4331,
+   "ontime": 0.4958
+  },
+  "自分の過去の平均の倍率": {
+   "mdape": 0.2448,
+   "within20": 0.4164,
+   "ontime": 0.4945
+  },
+  "自分の過去の8割の点": {
+   "mdape": 0.2851,
+   "within20": 0.3472,
+   "ontime": 0.7476
+  }
+ },
+ "check_no_bias_n10": {
+  "見積もりそのまま": {
+   "mdape": 0.2544,
+   "within20": 0.4041,
+   "ontime": 0.497
+  },
+  "全チーム共通の倍率": {
+   "mdape": 0.254,
+   "within20": 0.4031,
+   "ontime": 0.4968
+  },
+  "自分の過去の平均の倍率": {
+   "mdape": 0.2448,
+   "within20": 0.4164,
+   "ontime": 0.4945
+  },
+  "自分の過去の8割の点": {
+   "mdape": 0.2851,
+   "within20": 0.3472,
+   "ontime": 0.7476
+  }
+ },
+ "one_draw": {
+  "bias_median": 1.4,
+  "new_ratio_median": 1.406,
+  "raw_ratio_p10_p90": [
+   0.848,
+   2.298
+  ],
+  "corrected_ratio_p10_p90": [
+   0.622,
+   1.623
+  ],
+  "corrected_ratio_median": 1.019
+ }
+}

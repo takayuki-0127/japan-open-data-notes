@@ -1,0 +1,352 @@
+{
+ "base_10tasks_sigma0_5": {
+  "sum_est": 61.0,
+  "p_total_within_sum": 0.2798,
+  "mean_overrun_pct": 13.31,
+  "median_overrun_pct": 11.07,
+  "p80_overrun_pct": 29.8,
+  "p90_overrun_pct": 41.08,
+  "per_task_p_within_est": [
+   0.5008,
+   0.4985,
+   0.5009,
+   0.4989,
+   0.5,
+   0.4994,
+   0.4989,
+   0.4989,
+   0.4989,
+   0.4989
+  ],
+  "p_all_tasks_within": 0.00105,
+  "mean_tasks_over": 5.006,
+  "total_mean": 69.12,
+  "total_median": 67.75,
+  "total_p80": 79.18,
+  "total_p90": 86.06,
+  "theory_mean_overrun_pct": 13.31,
+  "mean_late_days_sum": 17.28,
+  "mean_early_days_sum": 9.16
+ },
+ "by_n_sigma": [
+  {
+   "sigma": 0.3,
+   "n_tasks": 1,
+   "sum_est": 10.0,
+   "p_total_within_sum": 0.5021,
+   "mean_overrun_pct": 4.54,
+   "median_overrun_pct": -0.15,
+   "p80_overrun_pct": 28.67,
+   "p90_overrun_pct": 46.88
+  },
+  {
+   "sigma": 0.3,
+   "n_tasks": 2,
+   "sum_est": 17.0,
+   "p_total_within_sum": 0.4626,
+   "mean_overrun_pct": 4.59,
+   "median_overrun_pct": 2.05,
+   "p80_overrun_pct": 22.62,
+   "p90_overrun_pct": 35.0
+  },
+  {
+   "sigma": 0.3,
+   "n_tasks": 3,
+   "sum_est": 26.0,
+   "p_total_within_sum": 0.4355,
+   "mean_overrun_pct": 4.55,
+   "median_overrun_pct": 2.85,
+   "p80_overrun_pct": 19.39,
+   "p90_overrun_pct": 29.09
+  },
+  {
+   "sigma": 0.3,
+   "n_tasks": 5,
+   "sum_est": 33.0,
+   "p_total_within_sum": 0.4107,
+   "mean_overrun_pct": 4.63,
+   "median_overrun_pct": 3.42,
+   "p80_overrun_pct": 17.14,
+   "p90_overrun_pct": 25.03
+  },
+  {
+   "sigma": 0.3,
+   "n_tasks": 10,
+   "sum_est": 61.0,
+   "p_total_within_sum": 0.3599,
+   "mean_overrun_pct": 4.59,
+   "median_overrun_pct": 3.94,
+   "p80_overrun_pct": 13.74,
+   "p90_overrun_pct": 19.27
+  },
+  {
+   "sigma": 0.3,
+   "n_tasks": 20,
+   "sum_est": 111.0,
+   "p_total_within_sum": 0.2919,
+   "mean_overrun_pct": 4.6,
+   "median_overrun_pct": 4.23,
+   "p80_overrun_pct": 11.19,
+   "p90_overrun_pct": 15.04
+  },
+  {
+   "sigma": 0.3,
+   "n_tasks": 40,
+   "sum_est": 253.0,
+   "p_total_within_sum": 0.202,
+   "mean_overrun_pct": 4.59,
+   "median_overrun_pct": 4.43,
+   "p80_overrun_pct": 9.11,
+   "p90_overrun_pct": 11.69
+  },
+  {
+   "sigma": 0.5,
+   "n_tasks": 1,
+   "sum_est": 10.0,
+   "p_total_within_sum": 0.4995,
+   "mean_overrun_pct": 13.32,
+   "median_overrun_pct": 0.07,
+   "p80_overrun_pct": 52.51,
+   "p90_overrun_pct": 89.66
+  },
+  {
+   "sigma": 0.5,
+   "n_tasks": 2,
+   "sum_est": 17.0,
+   "p_total_within_sum": 0.4394,
+   "mean_overrun_pct": 13.35,
+   "median_overrun_pct": 5.7,
+   "p80_overrun_pct": 43.88,
+   "p90_overrun_pct": 69.52
+  },
+  {
+   "sigma": 0.5,
+   "n_tasks": 3,
+   "sum_est": 26.0,
+   "p_total_within_sum": 0.397,
+   "mean_overrun_pct": 13.44,
+   "median_overrun_pct": 8.16,
+   "p80_overrun_pct": 39.57,
+   "p90_overrun_pct": 59.48
+  },
+  {
+   "sigma": 0.5,
+   "n_tasks": 5,
+   "sum_est": 33.0,
+   "p_total_within_sum": 0.3601,
+   "mean_overrun_pct": 13.29,
+   "median_overrun_pct": 9.32,
+   "p80_overrun_pct": 35.38,
+   "p90_overrun_pct": 51.98
+  },
+  {
+   "sigma": 0.5,
+   "n_tasks": 10,
+   "sum_est": 61.0,
+   "p_total_within_sum": 0.2805,
+   "mean_overrun_pct": 13.32,
+   "median_overrun_pct": 11.06,
+   "p80_overrun_pct": 29.81,
+   "p90_overrun_pct": 41.19
+  },
+  {
+   "sigma": 0.5,
+   "n_tasks": 20,
+   "sum_est": 111.0,
+   "p_total_within_sum": 0.1882,
+   "mean_overrun_pct": 13.35,
+   "median_overrun_pct": 12.17,
+   "p80_overrun_pct": 25.4,
+   "p90_overrun_pct": 33.06
+  },
+  {
+   "sigma": 0.5,
+   "n_tasks": 40,
+   "sum_est": 253.0,
+   "p_total_within_sum": 0.0908,
+   "mean_overrun_pct": 13.31,
+   "median_overrun_pct": 12.8,
+   "p80_overrun_pct": 21.72,
+   "p90_overrun_pct": 26.79
+  },
+  {
+   "sigma": 0.8,
+   "n_tasks": 1,
+   "sum_est": 10.0,
+   "p_total_within_sum": 0.5015,
+   "mean_overrun_pct": 37.59,
+   "median_overrun_pct": -0.32,
+   "p80_overrun_pct": 96.1,
+   "p90_overrun_pct": 178.9
+  },
+  {
+   "sigma": 0.8,
+   "n_tasks": 2,
+   "sum_est": 17.0,
+   "p_total_within_sum": 0.4118,
+   "mean_overrun_pct": 37.77,
+   "median_overrun_pct": 14.25,
+   "p80_overrun_pct": 89.03,
+   "p90_overrun_pct": 146.73
+  },
+  {
+   "sigma": 0.8,
+   "n_tasks": 3,
+   "sum_est": 26.0,
+   "p_total_within_sum": 0.3525,
+   "mean_overrun_pct": 37.82,
+   "median_overrun_pct": 20.43,
+   "p80_overrun_pct": 83.94,
+   "p90_overrun_pct": 130.84
+  },
+  {
+   "sigma": 0.8,
+   "n_tasks": 5,
+   "sum_est": 33.0,
+   "p_total_within_sum": 0.2973,
+   "mean_overrun_pct": 37.66,
+   "median_overrun_pct": 24.43,
+   "p80_overrun_pct": 77.82,
+   "p90_overrun_pct": 116.08
+  },
+  {
+   "sigma": 0.8,
+   "n_tasks": 10,
+   "sum_est": 61.0,
+   "p_total_within_sum": 0.193,
+   "mean_overrun_pct": 37.71,
+   "median_overrun_pct": 29.96,
+   "p80_overrun_pct": 69.3,
+   "p90_overrun_pct": 95.84
+  },
+  {
+   "sigma": 0.8,
+   "n_tasks": 20,
+   "sum_est": 111.0,
+   "p_total_within_sum": 0.0925,
+   "mean_overrun_pct": 37.62,
+   "median_overrun_pct": 33.23,
+   "p80_overrun_pct": 61.42,
+   "p90_overrun_pct": 79.41
+  },
+  {
+   "sigma": 0.8,
+   "n_tasks": 40,
+   "sum_est": 253.0,
+   "p_total_within_sum": 0.023,
+   "mean_overrun_pct": 37.69,
+   "median_overrun_pct": 35.5,
+   "p80_overrun_pct": 54.96,
+   "p90_overrun_pct": 66.71
+  }
+ ],
+ "robustness": [
+  {
+   "case": "共通の振れ rho=0.0",
+   "kind": "rho",
+   "value": 0.0,
+   "sum_est": 61.0,
+   "p_total_within_sum": 0.2792,
+   "mean_overrun_pct": 13.33,
+   "median_overrun_pct": 11.23,
+   "p80_overrun_pct": 29.83,
+   "p90_overrun_pct": 41.09
+  },
+  {
+   "case": "共通の振れ rho=0.2",
+   "kind": "rho",
+   "value": 0.2,
+   "sum_est": 61.0,
+   "p_total_within_sum": 0.3785,
+   "mean_overrun_pct": 13.32,
+   "median_overrun_pct": 8.89,
+   "p80_overrun_pct": 37.62,
+   "p90_overrun_pct": 55.53
+  },
+  {
+   "case": "共通の振れ rho=0.5",
+   "kind": "rho",
+   "value": 0.5,
+   "sum_est": 61.0,
+   "p_total_within_sum": 0.4423,
+   "mean_overrun_pct": 13.29,
+   "median_overrun_pct": 5.58,
+   "p80_overrun_pct": 44.71,
+   "p90_overrun_pct": 71.01
+  },
+  {
+   "case": "共通の振れ rho=0.8",
+   "kind": "rho",
+   "value": 0.8,
+   "sum_est": 61.0,
+   "p_total_within_sum": 0.4817,
+   "mean_overrun_pct": 13.31,
+   "median_overrun_pct": 2.15,
+   "p80_overrun_pct": 49.55,
+   "p90_overrun_pct": 82.66
+  },
+  {
+   "case": "共通の振れ rho=1.0",
+   "kind": "rho",
+   "value": 1.0,
+   "sum_est": 61.0,
+   "p_total_within_sum": 0.5,
+   "mean_overrun_pct": 13.39,
+   "median_overrun_pct": 0.01,
+   "p80_overrun_pct": 52.35,
+   "p90_overrun_pct": 89.96
+  },
+  {
+   "case": "ばらつき sigma=0.3",
+   "kind": "sigma",
+   "value": 0.3,
+   "sum_est": 61.0,
+   "p_total_within_sum": 0.361,
+   "mean_overrun_pct": 4.54,
+   "median_overrun_pct": 3.88,
+   "p80_overrun_pct": 13.68,
+   "p90_overrun_pct": 19.24
+  },
+  {
+   "case": "ばらつき sigma=0.8",
+   "kind": "sigma",
+   "value": 0.8,
+   "sum_est": 61.0,
+   "p_total_within_sum": 0.1909,
+   "mean_overrun_pct": 37.76,
+   "median_overrun_pct": 29.86,
+   "p80_overrun_pct": 69.33,
+   "p90_overrun_pct": 95.61
+  },
+  {
+   "case": "分布をガンマに（ばらつきは同じ）",
+   "kind": "shape",
+   "value": 0.0,
+   "sum_est": 61.0,
+   "p_total_within_sum": 0.3274,
+   "mean_overrun_pct": 10.23,
+   "median_overrun_pct": 8.81,
+   "p80_overrun_pct": 27.01,
+   "p90_overrun_pct": 37.24
+  },
+  {
+   "case": "作業の大きさをそろえる（各6.1日前後）",
+   "kind": "equal",
+   "value": 0.0,
+   "sum_est": 61.0,
+   "p_total_within_sum": 0.2535,
+   "mean_overrun_pct": 13.29,
+   "median_overrun_pct": 11.65,
+   "p80_overrun_pct": 28.5,
+   "p90_overrun_pct": 38.34
+  }
+ ],
+ "range_p_within_sum_robustness": [
+  0.1909,
+  0.5
+ ],
+ "range_mean_overrun_robustness": [
+  4.54,
+  37.76
+ ]
+}
