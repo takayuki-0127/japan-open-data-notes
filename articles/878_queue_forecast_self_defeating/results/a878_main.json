@@ -1,0 +1,102 @@
+{
+ "setting": {
+  "hours": "9時台〜20時台の12枠",
+  "capacity_per_hour": 600.0,
+  "visitors_mean": 6600,
+  "profile": [
+   0.0333,
+   0.0667,
+   0.1,
+   0.1222,
+   0.1333,
+   0.1333,
+   0.1222,
+   0.1,
+   0.0778,
+   0.0556,
+   0.0333,
+   0.0222
+  ],
+  "share_seeing": 0.4,
+  "flex_hours": 2,
+  "tau": 0.0,
+  "shift_cost_min_per_hour": 10.0,
+  "reps": 30,
+  "days": 60,
+  "burn_in": 10
+ },
+ "base": {
+  "none": {
+   "mean_wait": 54.48,
+   "peak_wait": 106.7,
+   "mae": 3.45,
+   "inflow_actual_minus_forecast": null
+  },
+  "naive": {
+   "mean_wait": 73.89,
+   "peak_wait": 135.89,
+   "mae": 30.88,
+   "inflow_actual_minus_forecast": 14.78
+  },
+  "yesterday": {
+   "mean_wait": 46.92,
+   "peak_wait": 99.37,
+   "mae": 28.51,
+   "inflow_actual_minus_forecast": 13.08
+  },
+  "fixed_point": {
+   "mean_wait": 14.35,
+   "peak_wait": 41.87,
+   "mae": 16.88,
+   "inflow_actual_minus_forecast": -9.37
+  }
+ },
+ "naive_mae_range_sens": [
+  5.94,
+  46.11
+ ],
+ "naive_inflow_gap_range_sens": [
+  0.51,
+  30.8
+ ],
+ "fixed_point_inflow_gap_range_sens": [
+  -9.47,
+  15.59
+ ],
+ "fixed_point_mean_wait_range_sens": [
+  14.12,
+  56.97
+ ],
+ "none_mean_wait_range_sens": [
+  53.94,
+  54.58
+ ],
+ "naive_mean_wait_range_sens": [
+  54.43,
+  83.41
+ ],
+ "share_cases_yesterday_worse_than_none": 0.125,
+ "fixed_point_mae_range_sens": [
+  3.31,
+  23.7
+ ],
+ "n_cases_sens": 16,
+ "none_mae_range_sens": [
+  3.33,
+  3.62
+ ],
+ "fixed_point_mae_range_tau_pos": [
+  3.31,
+  3.53
+ ],
+ "fixed_point_mae_range_tau0": [
+  3.89,
+  23.7
+ ],
+ "naive_minus_none_mean_wait_range": [
+  0.22,
+  29.21
+ ],
+ "share_cases_naive_worse_than_none": 1.0,
+ "share_cases_fp_worse_than_none": 0.062
+}

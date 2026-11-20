@@ -1,0 +1,97 @@
+{
+ "setting": {
+  "counters": 4,
+  "rho": 0.85,
+  "cv": 1.0,
+  "mean_service_min": 3.0,
+  "open_min": 480,
+  "days": 1000
+ },
+ "base": {
+  "single": {
+   "mean": 3.0062,
+   "p_gt5": 0.2173,
+   "p_gt10": 0.0757,
+   "p95": 11.9828,
+   "share_zero": 0.3319
+  },
+  "shortest": {
+   "mean": 3.594,
+   "p_gt5": 0.2497,
+   "p_gt10": 0.1075,
+   "p95": 14.8887,
+   "share_zero": 0.374,
+   "overtaken": 0.3361
+  },
+  "random": {
+   "mean": 12.7261,
+   "p_gt5": 0.5785,
+   "p_gt10": 0.4211,
+   "p95": 44.6854,
+   "share_zero": 0.1838,
+   "overtaken": 0.6206
+  }
+ },
+ "n_customers_base": 543458,
+ "ratio_mean_shortest_over_single": 1.195,
+ "ratio_mean_random_over_single": 4.233,
+ "walk_breakeven_sec": 3.8,
+ "walk_breakeven_sec_p_gt10": 4.6,
+ "walk_breakeven_by_rho": [
+  {
+   "rho": 0.7,
+   "single_mean_walk0": 0.986,
+   "shortest_mean": 1.403,
+   "breakeven_sec": 8.7,
+   "rho_effective_at_breakeven": 0.734
+  },
+  {
+   "rho": 0.85,
+   "single_mean_walk0": 2.983,
+   "shortest_mean": 3.576,
+   "breakeven_sec": 3.9,
+   "rho_effective_at_breakeven": 0.868
+  },
+  {
+   "rho": 0.95,
+   "single_mean_walk0": 7.883,
+   "shortest_mean": 8.557,
+   "breakeven_sec": 1.4,
+   "rho_effective_at_breakeven": 0.957
+  }
+ ],
+ "sens_ratio_range": [
+  1.068,
+  1.493
+ ],
+ "sens_overtaken_range": [
+  0.1867,
+  0.4688
+ ],
+ "one_day": {
+  "n": 540,
+  "single": {
+   "mean": 2.145,
+   "p_gt5": 0.1611,
+   "p_gt10": 0.0222,
+   "p95": 8.8292,
+   "share_zero": 0.3426
+  },
+  "shortest": {
+   "mean": 3.0109,
+   "p_gt5": 0.1981,
+   "p_gt10": 0.0667,
+   "p95": 12.1939,
+   "share_zero": 0.3815,
+   "overtaken": 0.3167
+  },
+  "random": {
+   "mean": 13.7175,
+   "p_gt5": 0.6185,
+   "p_gt10": 0.4815,
+   "p95": 40.7345,
+   "share_zero": 0.1907,
+   "overtaken": 0.6019
+  }
+ }
+}

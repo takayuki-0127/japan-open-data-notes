@@ -1,0 +1,192 @@
+{
+ "setting": {
+  "slots": 32,
+  "slot_min": 15.0,
+  "svc_mean": 12.0,
+  "cv": 0.4,
+  "p_late": 0.1,
+  "late_mean": 12.0,
+  "ontime_arrival": "予約の平均3分前（標準偏差2分）",
+  "days": 2000
+ },
+ "base": {
+  "g0": {
+   "ontime_mean": 3.276,
+   "ontime_mean_if_none_late": 2.085,
+   "ontime_extra": 1.191,
+   "ontime_p_gt10": 0.115,
+   "ontime_p_gt10_if_none": 0.064,
+   "late_wait_mean": 2.727,
+   "overtime_mean": 4.215,
+   "overtime_mean_if_none": 2.164,
+   "p_overtime_gt15": 0.086,
+   "late_count": 6402,
+   "ontime_count": 57598,
+   "extra_total_per_late": 10.713
+  },
+  "g5": {
+   "ontime_mean": 3.276,
+   "ontime_mean_if_none_late": 2.085,
+   "ontime_extra": 1.191,
+   "ontime_p_gt10": 0.115,
+   "ontime_p_gt10_if_none": 0.064,
+   "late_wait_mean": 2.762,
+   "overtime_mean": 4.217,
+   "overtime_mean_if_none": 2.164,
+   "p_overtime_gt15": 0.086,
+   "late_count": 6402,
+   "ontime_count": 57598,
+   "extra_total_per_late": 10.714
+  },
+  "g10": {
+   "ontime_mean": 3.286,
+   "ontime_mean_if_none_late": 2.085,
+   "ontime_extra": 1.201,
+   "ontime_p_gt10": 0.115,
+   "ontime_p_gt10_if_none": 0.064,
+   "late_wait_mean": 2.831,
+   "overtime_mean": 4.232,
+   "overtime_mean_if_none": 2.164,
+   "p_overtime_gt15": 0.087,
+   "late_count": 6402,
+   "ontime_count": 57598,
+   "extra_total_per_late": 10.804
+  },
+  "ginf": {
+   "ontime_mean": 4.874,
+   "ontime_mean_if_none_late": 2.085,
+   "ontime_extra": 2.789,
+   "ontime_p_gt10": 0.179,
+   "ontime_p_gt10_if_none": 0.064,
+   "late_wait_mean": 1.814,
+   "overtime_mean": 5.387,
+   "overtime_mean_if_none": 2.164,
+   "p_overtime_gt15": 0.121,
+   "late_count": 6402,
+   "ontime_count": 57598,
+   "extra_total_per_late": 25.093
+  },
+  "early": {
+   "ontime_mean": 2.725,
+   "ontime_mean_if_none_late": 1.447,
+   "ontime_extra": 1.277,
+   "ontime_p_gt10": 0.096,
+   "ontime_p_gt10_if_none": 0.044,
+   "late_wait_mean": 2.086,
+   "overtime_mean": 3.618,
+   "overtime_mean_if_none": 1.452,
+   "p_overtime_gt15": 0.073,
+   "late_count": 6402,
+   "ontime_count": 57598,
+   "extra_total_per_late": 11.493
+  }
+ },
+ "grid_ontime_extra_range": {
+  "g0": [
+   0.117,
+   3.103
+  ],
+  "g5": [
+   0.117,
+   3.1
+  ],
+  "g10": [
+   0.117,
+   3.128
+  ],
+  "ginf": [
+   0.123,
+   11.565
+  ],
+  "early": [
+   0.118,
+   2.911
+  ]
+ },
+ "grid_late_wait_range": {
+  "g0": [
+   0.038,
+   16.725
+  ],
+  "g5": [
+   0.038,
+   16.707
+  ],
+  "g10": [
+   0.038,
+   16.734
+  ],
+  "ginf": [
+   0.01,
+   14.843
+  ],
+  "early": [
+   0.022,
+   15.46
+  ]
+ },
+ "grid_extra_total_per_late_range": {
+  "g0": [
+   1.04,
+   28.625
+  ],
+  "g5": [
+   1.04,
+   28.591
+  ],
+  "g10": [
+   1.04,
+   28.853
+  ],
+  "ginf": [
+   1.092,
+   106.675
+  ],
+  "early": [
+   1.049,
+   26.848
+  ]
+ },
+ "grid_ontime_extra_by_late_mean": {
+  "g0": {
+   "5.0": [
+    0.117,
+    0.721
+   ],
+   "12.0": [
+    0.519,
+    2.474
+   ],
+   "20.0": [
+    0.584,
+    3.103
+   ]
+  },
+  "ginf": {
+   "5.0": [
+    0.123,
+    0.736
+   ],
+   "12.0": [
+    1.477,
+    4.797
+   ],
+   "20.0": [
+    4.387,
+    11.565
+   ]
+  }
+ },
+ "late_share_within_5min_calc": 0.199,
+ "late_share_within_10min_calc": 0.541,
+ "grid_ratio_ginf_over_g0_extra": [
+  1.0,
+  9.49
+ ],
+ "grid_ginf_ge_g0_all": true,
+ "one_day_late_slots": [
+  7,
+  8,
+  26
+ ]
+}

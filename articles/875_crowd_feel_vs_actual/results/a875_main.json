@@ -1,0 +1,214 @@
+{
+ "base": {
+  "time_mean_ratio": 0.844,
+  "time_share_over_line": 0.384,
+  "time_weighted_felt": 0.404,
+  "cust_mean_ratio": 0.966,
+  "cust_share_over_line": 0.531,
+  "felt_share": 0.532
+ },
+ "base_weekday": {
+  "time_mean_ratio": 0.75,
+  "time_share_over_line": 0.269,
+  "time_weighted_felt": 0.299,
+  "cust_mean_ratio": 0.832,
+  "cust_share_over_line": 0.383,
+  "felt_share": 0.394
+ },
+ "base_weekend": {
+  "time_mean_ratio": 1.079,
+  "time_share_over_line": 0.672,
+  "time_weighted_felt": 0.668,
+  "cust_mean_ratio": 1.201,
+  "cust_share_over_line": 0.788,
+  "felt_share": 0.772
+ },
+ "weekend_share_of_customers": 0.365,
+ "weekend_share_of_days": 0.286,
+ "day_corr_time_mean_vs_felt": 0.976,
+ "day_corr_rank": 0.993,
+ "day_corr_rank_by_profile": {
+  "flat": 0.997,
+  "peak": 0.993,
+  "peak_strong": 0.98
+ },
+ "same_level_days_by_profile": {
+  "flat": {
+   "0.65-0.75": {
+    "days": 91,
+    "time_mean_ratio": 0.704,
+    "felt_share": 0.167
+   },
+   "0.75-0.85": {
+    "days": 98,
+    "time_mean_ratio": 0.794,
+    "felt_share": 0.334
+   },
+   "1.05-1.15": {
+    "days": 26,
+    "time_mean_ratio": 1.106,
+    "felt_share": 0.89
+   }
+  },
+  "peak": {
+   "0.65-0.75": {
+    "days": 99,
+    "time_mean_ratio": 0.702,
+    "felt_share": 0.311
+   },
+   "0.75-0.85": {
+    "days": 86,
+    "time_mean_ratio": 0.794,
+    "felt_share": 0.452
+   },
+   "1.05-1.15": {
+    "days": 26,
+    "time_mean_ratio": 1.095,
+    "felt_share": 0.79
+   }
+  },
+  "peak_strong": {
+   "0.65-0.75": {
+    "days": 111,
+    "time_mean_ratio": 0.708,
+    "felt_share": 0.494
+   },
+   "0.75-0.85": {
+    "days": 91,
+    "time_mean_ratio": 0.795,
+    "felt_share": 0.573
+   },
+   "1.05-1.15": {
+    "days": 23,
+    "time_mean_ratio": 1.095,
+    "felt_share": 0.726
+   }
+  }
+ },
+ "sensitivity": [
+  {
+   "time_mean_ratio": 0.838,
+   "time_share_over_line": 0.735,
+   "time_weighted_felt": 0.694,
+   "cust_mean_ratio": 0.903,
+   "cust_share_over_line": 0.824,
+   "felt_share": 0.766,
+   "profile": "flat",
+   "label": "山なし",
+   "tau_mean": 0.7,
+   "felt_minus_time_weighted": 0.072,
+   "felt_over_time_weighted": 1.1
+  },
+  {
+   "time_mean_ratio": 0.826,
+   "time_share_over_line": 0.329,
+   "time_weighted_felt": 0.383,
+   "cust_mean_ratio": 0.881,
+   "cust_share_over_line": 0.408,
+   "felt_share": 0.447,
+   "profile": "flat",
+   "label": "山なし",
+   "tau_mean": 0.9,
+   "felt_minus_time_weighted": 0.064,
+   "felt_over_time_weighted": 1.17
+  },
+  {
+   "time_mean_ratio": 0.848,
+   "time_share_over_line": 0.145,
+   "time_weighted_felt": 0.181,
+   "cust_mean_ratio": 0.912,
+   "cust_share_over_line": 0.207,
+   "felt_share": 0.235,
+   "profile": "flat",
+   "label": "山なし",
+   "tau_mean": 1.1,
+   "felt_minus_time_weighted": 0.054,
+   "felt_over_time_weighted": 1.3
+  },
+  {
+   "time_mean_ratio": 0.837,
+   "time_share_over_line": 0.62,
+   "time_weighted_felt": 0.628,
+   "cust_mean_ratio": 0.958,
+   "cust_share_over_line": 0.758,
+   "felt_share": 0.747,
+   "profile": "peak",
+   "label": "昼と夕方に山（基本）",
+   "tau_mean": 0.7,
+   "felt_minus_time_weighted": 0.119,
+   "felt_over_time_weighted": 1.19
+  },
+  {
+   "time_mean_ratio": 0.844,
+   "time_share_over_line": 0.384,
+   "time_weighted_felt": 0.404,
+   "cust_mean_ratio": 0.966,
+   "cust_share_over_line": 0.531,
+   "felt_share": 0.532,
+   "profile": "peak",
+   "label": "昼と夕方に山（基本）",
+   "tau_mean": 0.9,
+   "felt_minus_time_weighted": 0.128,
+   "felt_over_time_weighted": 1.32
+  },
+  {
+   "time_mean_ratio": 0.836,
+   "time_share_over_line": 0.188,
+   "time_weighted_felt": 0.214,
+   "cust_mean_ratio": 0.953,
+   "cust_share_over_line": 0.292,
+   "felt_share": 0.312,
+   "profile": "peak",
+   "label": "昼と夕方に山（基本）",
+   "tau_mean": 1.1,
+   "felt_minus_time_weighted": 0.098,
+   "felt_over_time_weighted": 1.46
+  },
+  {
+   "time_mean_ratio": 0.837,
+   "time_share_over_line": 0.506,
+   "time_weighted_felt": 0.532,
+   "cust_mean_ratio": 1.084,
+   "cust_share_over_line": 0.727,
+   "felt_share": 0.733,
+   "profile": "peak_strong",
+   "label": "強い山",
+   "tau_mean": 0.7,
+   "felt_minus_time_weighted": 0.201,
+   "felt_over_time_weighted": 1.38
+  },
+  {
+   "time_mean_ratio": 0.836,
+   "time_share_over_line": 0.369,
+   "time_weighted_felt": 0.381,
+   "cust_mean_ratio": 1.081,
+   "cust_share_over_line": 0.596,
+   "felt_share": 0.596,
+   "profile": "peak_strong",
+   "label": "強い山",
+   "tau_mean": 0.9,
+   "felt_minus_time_weighted": 0.215,
+   "felt_over_time_weighted": 1.56
+  },
+  {
+   "time_mean_ratio": 0.841,
+   "time_share_over_line": 0.268,
+   "time_weighted_felt": 0.273,
+   "cust_mean_ratio": 1.087,
+   "cust_share_over_line": 0.472,
+   "felt_share": 0.468,
+   "profile": "peak_strong",
+   "label": "強い山",
+   "tau_mean": 1.1,
+   "felt_minus_time_weighted": 0.195,
+   "felt_over_time_weighted": 1.71
+  }
+ ],
+ "one_day": {
+  "day": 5,
+  "customers": 1907,
+  "peak_people": 152,
+  "time_mean_ratio": 0.955,
+  "felt_share": 0.682
+ }
+}
