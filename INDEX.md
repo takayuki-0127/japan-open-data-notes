@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 583本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 607本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,22 +10,22 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 138 |
+| 予測・時系列 | 139 |
 | 因果推論・効果検証 | 63 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 302 |
+| 統計の考え方（検定・区間・回帰） | 303 |
 | 機械学習・モデル評価 | 103 |
 | 顧客分析・生存分析 | 67 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 160 |
+| 集計の定義・KPI | 161 |
 | 可視化・報告・BI | 46 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 323 |
+| その他（記述・要因分解など） | 344 |
 
-<details><summary><b>予測・時系列</b>（138本）</summary>
+<details><summary><b>予測・時系列</b>（139本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -167,6 +167,7 @@
 | 768 | 強く相関する変数があるとき、部分依存の図はどれだけ本当の効き方とずれるのか？ | [768_pdp_correlated_features](articles/768_pdp_correlated_features) |
 | 799 | 季節の波を月のダミー変数で表すか、フーリエ項で表すかで、予測の誤差はどれだけ違うのか？ | [799_fourier_vs_dummy_seasonality](articles/799_fourier_vs_dummy_seasonality) |
 | 819 | 移動平均の幅で、山と谷はどれだけ動くのか？ | [819_graph_moving_average_window](articles/819_graph_moving_average_window) |
+| 878 | 混雑の予測を出すと、空いている時間に人が集まって外れるのか？ | [878_queue_forecast_self_defeating](articles/878_queue_forecast_self_defeating) |
 
 </details>
 
@@ -274,7 +275,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（302本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（303本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -580,6 +581,7 @@
 | 800 | U字の関係では、相関係数と相互情報量はどれだけ違う答えを出すのか？ | [800_mutual_information_vs_corr](articles/800_mutual_information_vs_corr) |
 | 823 | 散布図の点が多すぎると、関係は見えなくなるのか？ | [823_graph_scatter_overplotting](articles/823_graph_scatter_overplotting) |
 | 850 | 「最もありそうな日数」で計画すると、間に合う確率は何%か？ | [850_estimate_most_likely_days](articles/850_estimate_most_likely_days) |
+| 862 | 質問の順番で、後の質問の答えはどれだけ変わるのか？ | [862_survey_question_order](articles/862_survey_question_order) |
 
 </details>
 
@@ -886,7 +888,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（160本）</summary>
+<details><summary><b>集計の定義・KPI</b>（161本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1050,6 +1052,7 @@
 | 848 | 計測の仕様が月の途中で変わったとき、前月比はどうなるのか？ | [848_sns_metric_spec_change](articles/848_sns_metric_spec_change) |
 | 856 | 担当者が1人抜けると、締め切りはどれだけ延びるのか？ | [856_estimate_member_leaves](articles/856_estimate_member_leaves) |
 | 858 | 締め切り直前に作業が集まると、品質の点検は何件漏れるのか？ | [858_estimate_deadline_rush_review](articles/858_estimate_deadline_rush_review) |
+| 872 | 前年と質問文を変えた年の比較は、どこまでできるのか？ | [872_survey_wording_change_yoy](articles/872_survey_wording_change_yoy) |
 
 </details>
 
@@ -1310,7 +1313,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（323本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（344本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1637,6 +1640,27 @@
 | 857 | 同時に持つ案件を増やすと、1件あたりの日数は何倍になるのか？ | [857_estimate_multitasking_projects](articles/857_estimate_multitasking_projects) |
 | 859 | 見積もりの幅（最短〜最長）を書くと、外れ方はどう変わるのか？ | [859_estimate_range_width](articles/859_estimate_range_width) |
 | 860 | 進み具合の「%」は、作業数で数えるか時間で数えるかで変わるのか？ | [860_estimate_progress_percent](articles/860_estimate_progress_percent) |
+| 861 | 「どちらでもない」を入れると、賛成の割合は何ポイント動くのか？ | [861_survey_neutral_option](articles/861_survey_neutral_option) |
+| 863 | 選択肢の並び順で、先頭の選択肢は何%選ばれやすいのか？ | [863_survey_option_order_primacy](articles/863_survey_option_order_primacy) |
+| 864 | 「当てはまるものをすべて」と「1つだけ」で、割合はどう変わるのか？ | [864_survey_select_all_vs_one](articles/864_survey_select_all_vs_one) |
+| 865 | 回答が少ない層の割合は、何件あれば読めるのか？ | [865_survey_small_group_share](articles/865_survey_small_group_share) |
+| 866 | 途中でやめた人の回答を入れるか除くかで、結果は変わるのか？ | [866_survey_dropout_include_exclude](articles/866_survey_dropout_include_exclude) |
+| 867 | 同じ選択肢ばかり選ぶ回答を、何%混ぜると平均が動くのか？ | [867_survey_straightlining_mean](articles/867_survey_straightlining_mean) |
+| 868 | 「満足」の段階の数（3・5・7段階）で、満足の割合はどう変わるのか？ | [868_survey_scale_points_satisfied](articles/868_survey_scale_points_satisfied) |
+| 869 | 2つのことを1つの質問で聞くと、何を読み違えるのか？ | [869_survey_double_barreled](articles/869_survey_double_barreled) |
+| 870 | 謝礼を付けると、回答者の構成はどう変わるのか？ | [870_survey_incentive_respondent_mix](articles/870_survey_incentive_respondent_mix) |
+| 871 | 自由記述の多い意見は、全体の多い意見なのか？ | [871_survey_free_text_loud_opinions](articles/871_survey_free_text_loud_opinions) |
+| 873 | 平均の待ち時間が5分でも、10分以上待つ人は何%いるのか？ | [873_wait_mean5_over10](articles/873_wait_mean5_over10) |
+| 874 | 利用が8割を超えると、待ち時間はなぜ急に伸びるのか？ | [874_wait_utilization_80](articles/874_wait_utilization_80) |
+| 875 | 「混んでいる」と感じる人の割合は、実際の混み具合と合うのか？ | [875_crowd_feel_vs_actual](articles/875_crowd_feel_vs_actual) |
+| 876 | 窓口を1列にするか、窓口ごとに並ぶかで、待ち時間は？ | [876_queue_single_line_vs_per_counter](articles/876_queue_single_line_vs_per_counter) |
+| 877 | 予約の時刻どおりに来ない人が1割いると、後の人はどれだけ待つのか？ | [877_queue_late_reservation_ripple](articles/877_queue_late_reservation_ripple) |
+| 879 | 行列の長さと、待ち時間の長さは同じなのか？ | [879_queue_length_vs_wait_time](articles/879_queue_length_vs_wait_time) |
+| 880 | 平均の処理時間が同じでも、ばらつきが大きいと待ちは？ | [880_service_time_variability_wait](articles/880_service_time_variability_wait) |
+| 881 | 「最後尾の人の待ち時間」と「平均の待ち時間」の違いは？ | [881_last_in_line_vs_average_wait](articles/881_last_in_line_vs_average_wait) |
+| 882 | 1人増やしたときの待ち時間の減り方は、何人目まで大きいのか？ | [882_queue_add_one_staff](articles/882_queue_add_one_staff) |
+| 883 | 開店直後の行列は、何分で解消するのか？ | [883_queue_opening_rush_clear](articles/883_queue_opening_rush_clear) |
+| 884 | 満足度は、待ち時間の平均と最長のどちらで決まるのか？ | [884_queue_satisfaction_mean_vs_max](articles/884_queue_satisfaction_mean_vs_max) |
 
 </details>
 
@@ -1645,16 +1669,16 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 181 |
+| 小売・店舗 | 186 |
 | EC・会員・Web | 96 |
 | マーケティング・広告 | 21 |
 | 需要予測・在庫 | 31 |
-| 業務の集計・報告 | 129 |
+| 業務の集計・報告 | 130 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
 | 公的統計・地域・人口 | 433 |
 
-<details><summary><b>小売・店舗</b>（181本）</summary>
+<details><summary><b>小売・店舗</b>（186本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1839,6 +1863,11 @@
 | 819 | 移動平均の幅で、山と谷はどれだけ動くのか？ | [819_graph_moving_average_window](articles/819_graph_moving_average_window) |
 | 821 | 色の順番と強さで、どの数字が目立つかは変わるのか？ | [821_graph_color_order_salience](articles/821_graph_color_order_salience) |
 | 831 | 営業成績の月間1位は、何か月続くのか？ | [831_luck_sales_monthly_top](articles/831_luck_sales_monthly_top) |
+| 862 | 質問の順番で、後の質問の答えはどれだけ変わるのか？ | [862_survey_question_order](articles/862_survey_question_order) |
+| 869 | 2つのことを1つの質問で聞くと、何を読み違えるのか？ | [869_survey_double_barreled](articles/869_survey_double_barreled) |
+| 875 | 「混んでいる」と感じる人の割合は、実際の混み具合と合うのか？ | [875_crowd_feel_vs_actual](articles/875_crowd_feel_vs_actual) |
+| 879 | 行列の長さと、待ち時間の長さは同じなのか？ | [879_queue_length_vs_wait_time](articles/879_queue_length_vs_wait_time) |
+| 883 | 開店直後の行列は、何分で解消するのか？ | [883_queue_opening_rush_clear](articles/883_queue_opening_rush_clear) |
 
 </details>
 
@@ -2011,7 +2040,7 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（129本）</summary>
+<details><summary><b>業務の集計・報告</b>（130本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2144,6 +2173,7 @@
 | 824 | 「前年比」の棒と「実数」の線を並べると、何を読み違えるのか？ | [824_graph_yoy_bar_level_line](articles/824_graph_yoy_bar_level_line) |
 | 856 | 担当者が1人抜けると、締め切りはどれだけ延びるのか？ | [856_estimate_member_leaves](articles/856_estimate_member_leaves) |
 | 858 | 締め切り直前に作業が集まると、品質の点検は何件漏れるのか？ | [858_estimate_deadline_rush_review](articles/858_estimate_deadline_rush_review) |
+| 872 | 前年と質問文を変えた年の比較は、どこまでできるのか？ | [872_survey_wording_change_yoy](articles/872_survey_wording_change_yoy) |
 
 </details>
 
