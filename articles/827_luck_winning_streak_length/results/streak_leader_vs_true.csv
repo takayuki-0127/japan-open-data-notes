@@ -1,0 +1,4 @@
+true_sd,p_streak_leader_is_true_best,p_streak_leader_in_true_top3,streak_leader_true_rank_median,streak_leader_true_p_mean,league_max_streak_median,corr_longest_vs_true_p
+0.03,0.169,0.4107,4.0,0.513,10.0,0.276
+0.05,0.2311,0.5101,3.0,0.534,10.0,0.428
+0.08,0.3413,0.658,2.0,0.5775,11.0,0.596

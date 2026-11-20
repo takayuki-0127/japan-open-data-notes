@@ -1,0 +1,256 @@
+{
+ "players": 100000,
+ "p": 0.01,
+ "draws": 100,
+ "miss_100": {
+  "sim": 0.3659,
+  "exact": 0.366
+ },
+ "hits_in_100": {
+  "sim": {
+   "0": 0.3659,
+   "1": 0.3688,
+   "2": 0.1865,
+   "3": 0.0604,
+   "4以上": 0.0185,
+   "2以上": 0.2653
+  },
+  "exact": {
+   "0": 0.366,
+   "1": 0.3697,
+   "2": 0.1849,
+   "3": 0.061,
+   "4以上": 0.0184
+  },
+  "mean_sim": 1.001
+ },
+ "first_hit": {
+  "mean": 100.3,
+  "median": 70,
+  "share_hit_by_1": 0.0099,
+  "share_after_300": 0.0494,
+  "max": 1302
+ },
+ "draws_needed": [
+  {
+   "share_hit": 0.5,
+   "draws_exact": 69,
+   "draws_sim": 70
+  },
+  {
+   "share_hit": 0.632,
+   "draws_exact": 100,
+   "draws_sim": 100
+  },
+  {
+   "share_hit": 0.9,
+   "draws_exact": 230,
+   "draws_sim": 230
+  },
+  {
+   "share_hit": 0.95,
+   "draws_exact": 299,
+   "draws_sim": 299
+  },
+  {
+   "share_hit": 0.99,
+   "draws_exact": 459,
+   "draws_sim": 462
+  }
+ ],
+ "after_misses": [
+  {
+   "missed_so_far": 0,
+   "players": 100000,
+   "hit_next_100": 0.6341,
+   "hit_next_10": 0.0964
+  },
+  {
+   "missed_so_far": 50,
+   "players": 60443,
+   "hit_next_100": 0.6336,
+   "hit_next_10": 0.094
+  },
+  {
+   "missed_so_far": 100,
+   "players": 36587,
+   "hit_next_100": 0.6312,
+   "hit_next_10": 0.0924
+  },
+  {
+   "missed_so_far": 200,
+   "players": 13494,
+   "hit_next_100": 0.6338,
+   "hit_next_10": 0.0962
+  },
+  {
+   "missed_so_far": 300,
+   "players": 4941,
+   "hit_next_100": 0.6258,
+   "hit_next_10": 0.0949
+  }
+ ],
+ "miss_100_by_group_of_10000": {
+  "values": [
+   0.3715,
+   0.3689,
+   0.3649,
+   0.3625,
+   0.3641,
+   0.3716,
+   0.3656,
+   0.3575,
+   0.3611,
+   0.371
+  ],
+  "min": 0.3575,
+  "max": 0.3716
+ },
+ "box_100_without_replacement": {
+  "miss_50": 0.4992,
+  "miss_100": 0.0,
+  "mean_first_hit": 50.4
+ },
+ "sensitivity_grid": [
+  {
+   "p": 0.005,
+   "draws": 10,
+   "miss_sim": 0.9518,
+   "miss_exact": 0.9511,
+   "exp_minus_np": 0.9512
+  },
+  {
+   "p": 0.005,
+   "draws": 50,
+   "miss_sim": 0.7782,
+   "miss_exact": 0.7783,
+   "exp_minus_np": 0.7788
+  },
+  {
+   "p": 0.005,
+   "draws": 100,
+   "miss_sim": 0.6078,
+   "miss_exact": 0.6058,
+   "exp_minus_np": 0.6065
+  },
+  {
+   "p": 0.005,
+   "draws": 200,
+   "miss_sim": 0.3659,
+   "miss_exact": 0.367,
+   "exp_minus_np": 0.3679
+  },
+  {
+   "p": 0.005,
+   "draws": 300,
+   "miss_sim": 0.2233,
+   "miss_exact": 0.2223,
+   "exp_minus_np": 0.2231
+  },
+  {
+   "p": 0.01,
+   "draws": 10,
+   "miss_sim": 0.9039,
+   "miss_exact": 0.9044,
+   "exp_minus_np": 0.9048
+  },
+  {
+   "p": 0.01,
+   "draws": 50,
+   "miss_sim": 0.6017,
+   "miss_exact": 0.605,
+   "exp_minus_np": 0.6065
+  },
+  {
+   "p": 0.01,
+   "draws": 100,
+   "miss_sim": 0.3668,
+   "miss_exact": 0.366,
+   "exp_minus_np": 0.3679
+  },
+  {
+   "p": 0.01,
+   "draws": 200,
+   "miss_sim": 0.135,
+   "miss_exact": 0.134,
+   "exp_minus_np": 0.1353
+  },
+  {
+   "p": 0.01,
+   "draws": 300,
+   "miss_sim": 0.0492,
+   "miss_exact": 0.049,
+   "exp_minus_np": 0.0498
+  },
+  {
+   "p": 0.02,
+   "draws": 10,
+   "miss_sim": 0.8168,
+   "miss_exact": 0.8171,
+   "exp_minus_np": 0.8187
+  },
+  {
+   "p": 0.02,
+   "draws": 50,
+   "miss_sim": 0.3651,
+   "miss_exact": 0.3642,
+   "exp_minus_np": 0.3679
+  },
+  {
+   "p": 0.02,
+   "draws": 100,
+   "miss_sim": 0.1322,
+   "miss_exact": 0.1326,
+   "exp_minus_np": 0.1353
+  },
+  {
+   "p": 0.02,
+   "draws": 200,
+   "miss_sim": 0.0167,
+   "miss_exact": 0.0176,
+   "exp_minus_np": 0.0183
+  },
+  {
+   "p": 0.02,
+   "draws": 300,
+   "miss_sim": 0.0026,
+   "miss_exact": 0.0023,
+   "exp_minus_np": 0.0025
+  },
+  {
+   "p": 0.03,
+   "draws": 10,
+   "miss_sim": 0.737,
+   "miss_exact": 0.7374,
+   "exp_minus_np": 0.7408
+  },
+  {
+   "p": 0.03,
+   "draws": 50,
+   "miss_sim": 0.218,
+   "miss_exact": 0.2181,
+   "exp_minus_np": 0.2231
+  },
+  {
+   "p": 0.03,
+   "draws": 100,
+   "miss_sim": 0.0473,
+   "miss_exact": 0.0476,
+   "exp_minus_np": 0.0498
+  },
+  {
+   "p": 0.03,
+   "draws": 200,
+   "miss_sim": 0.002,
+   "miss_exact": 0.0023,
+   "exp_minus_np": 0.0025
+  },
+  {
+   "p": 0.03,
+   "draws": 300,
+   "miss_sim": 0.0001,
+   "miss_exact": 0.0001,
+   "exp_minus_np": 0.0001
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "base_60batters_sd020_ab250_10000leagues": {
+  "p_top_stays_top": 0.0745,
+  "p_top_in_back_top3": 0.1822,
+  "p_top_in_back_top10": 0.4234,
+  "top_back_rank_median": 14.0,
+  "p_top_is_true_top": 0.1661,
+  "p_top_in_true_top10": 0.6741,
+  "top_front_avg": 0.3467,
+  "top_true_avg": 0.2917,
+  "top_back_avg": 0.2915,
+  "top10_front_avg": 0.3162,
+  "top10_true_avg": 0.2821,
+  "top10_back_avg": 0.2821,
+  "top10_back_drop_share": 0.666,
+  "top10_stay_top10_share": 0.3117,
+  "bottom10_front_avg": 0.2153,
+  "bottom10_true_avg": 0.2479,
+  "bottom10_back_avg": 0.2479,
+  "league_avg": 0.265,
+  "slope_back_on_front": 0.339,
+  "reliability_theory": 0.339,
+  "noise_sd_theory": 0.0279,
+  "p_top_stays_top_if_no_skill_diff": 0.0174
+ },
+ "one_league": {
+  "top_batter_id": 26,
+  "top_avg1": 0.344,
+  "top_avg2": 0.272,
+  "top_true": 0.2667,
+  "top_back_rank": 27,
+  "top_true_rank": 32
+ },
+ "robustness_sd_ab": [
+  {
+   "true_sd": 0.01,
+   "ab_per_half": 100,
+   "p_top_stays_top": 0.0235,
+   "top_back_rank_median": 27.0,
+   "top_front_avg": 0.3734,
+   "top_back_avg": 0.2704,
+   "top10_back_drop_share": 0.951,
+   "slope_back_on_front": 0.047,
+   "reliability_theory": 0.049
+  },
+  {
+   "true_sd": 0.01,
+   "ab_per_half": 250,
+   "p_top_stays_top": 0.0275,
+   "top_back_rank_median": 24.0,
+   "top_front_avg": 0.3354,
+   "top_back_avg": 0.2728,
+   "top10_back_drop_share": 0.89,
+   "slope_back_on_front": 0.116,
+   "reliability_theory": 0.114
+  },
+  {
+   "true_sd": 0.01,
+   "ab_per_half": 500,
+   "p_top_stays_top": 0.0464,
+   "top_back_rank_median": 19.0,
+   "top_front_avg": 0.3174,
+   "top_back_avg": 0.2758,
+   "top10_back_drop_share": 0.795,
+   "slope_back_on_front": 0.205,
+   "reliability_theory": 0.204
+  },
+  {
+   "true_sd": 0.02,
+   "ab_per_half": 100,
+   "p_top_stays_top": 0.0377,
+   "top_back_rank_median": 21.0,
+   "top_front_avg": 0.3816,
+   "top_back_avg": 0.2842,
+   "top10_back_drop_share": 0.834,
+   "slope_back_on_front": 0.168,
+   "reliability_theory": 0.17
+  },
+  {
+   "true_sd": 0.02,
+   "ab_per_half": 250,
+   "p_top_stays_top": 0.0723,
+   "top_back_rank_median": 14.0,
+   "top_front_avg": 0.3465,
+   "top_back_avg": 0.2918,
+   "top10_back_drop_share": 0.667,
+   "slope_back_on_front": 0.339,
+   "reliability_theory": 0.339
+  },
+  {
+   "true_sd": 0.02,
+   "ab_per_half": 500,
+   "p_top_stays_top": 0.1301,
+   "top_back_rank_median": 8.0,
+   "top_front_avg": 0.3314,
+   "top_back_avg": 0.2972,
+   "top10_back_drop_share": 0.502,
+   "slope_back_on_front": 0.505,
+   "reliability_theory": 0.507
+  },
+  {
+   "true_sd": 0.03,
+   "ab_per_half": 100,
+   "p_top_stays_top": 0.0616,
+   "top_back_rank_median": 15.0,
+   "top_front_avg": 0.3925,
+   "top_back_avg": 0.3022,
+   "top10_back_drop_share": 0.703,
+   "slope_back_on_front": 0.306,
+   "reliability_theory": 0.316
+  },
+  {
+   "true_sd": 0.03,
+   "ab_per_half": 250,
+   "p_top_stays_top": 0.1201,
+   "top_back_rank_median": 8.0,
+   "top_front_avg": 0.3608,
+   "top_back_avg": 0.3116,
+   "top10_back_drop_share": 0.487,
+   "slope_back_on_front": 0.526,
+   "reliability_theory": 0.536
+  },
+  {
+   "true_sd": 0.03,
+   "ab_per_half": 500,
+   "p_top_stays_top": 0.1998,
+   "top_back_rank_median": 4.0,
+   "top_front_avg": 0.3473,
+   "top_back_avg": 0.3185,
+   "top10_back_drop_share": 0.317,
+   "slope_back_on_front": 0.691,
+   "reliability_theory": 0.698
+  }
+ ],
+ "robustness_n_batters": [
+  {
+   "n_batters": 12,
+   "p_top_stays_top": 0.1891,
+   "top_back_rank_median": 4.0,
+   "top_front_avg": 0.3218,
+   "top_back_avg": 0.2841
+  },
+  {
+   "n_batters": 30,
+   "p_top_stays_top": 0.1065,
+   "top_back_rank_median": 8.0,
+   "top_front_avg": 0.3367,
+   "top_back_avg": 0.2887
+  },
+  {
+   "n_batters": 60,
+   "p_top_stays_top": 0.0713,
+   "top_back_rank_median": 14.0,
+   "top_front_avg": 0.3468,
+   "top_back_avg": 0.2911
+  },
+  {
+   "n_batters": 120,
+   "p_top_stays_top": 0.0517,
+   "top_back_rank_median": 24.0,
+   "top_front_avg": 0.3559,
+   "top_back_avg": 0.2947
+  }
+ ]
+}

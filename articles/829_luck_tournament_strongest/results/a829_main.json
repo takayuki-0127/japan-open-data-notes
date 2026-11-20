@@ -1,0 +1,143 @@
+{
+ "teams": 16,
+ "spread": 0.6,
+ "reps": 20000,
+ "p_top_beats_others_1game": 0.74,
+ "p_top_beats_second_1game": 0.57,
+ "by_format": [
+  {
+   "format": "ko1",
+   "label": "1発勝負のトーナメント（組み合わせはくじ）",
+   "p_strongest_wins": 0.2542,
+   "p_top2_wins": 0.4202,
+   "p_top4_wins": 0.6336,
+   "mean_true_rank": 4.3
+  },
+  {
+   "format": "ko1_seeded",
+   "label": "1発勝負のトーナメント（本当の強さの順にシード）",
+   "p_strongest_wins": 0.2912,
+   "p_top2_wins": 0.4773,
+   "p_top4_wins": 0.6962,
+   "mean_true_rank": 3.76
+  },
+  {
+   "format": "ko3",
+   "label": "3試合で2勝した方が勝ち抜け（くじ）",
+   "p_strongest_wins": 0.3492,
+   "p_top2_wins": 0.5387,
+   "p_top4_wins": 0.7578,
+   "mean_true_rank": 3.24
+  },
+  {
+   "format": "ko7",
+   "label": "7試合で4勝した方が勝ち抜け（くじ）",
+   "p_strongest_wins": 0.4641,
+   "p_top2_wins": 0.6683,
+   "p_top4_wins": 0.8626,
+   "mean_true_rank": 2.44
+  },
+  {
+   "format": "rr1",
+   "label": "総当たり 各組1試合（15試合）",
+   "p_strongest_wins": 0.3913,
+   "p_top2_wins": 0.5894,
+   "p_top4_wins": 0.8027,
+   "mean_true_rank": 2.91
+  },
+  {
+   "format": "rr2",
+   "label": "総当たり 各組2試合（30試合）",
+   "p_strongest_wins": 0.5054,
+   "p_top2_wins": 0.716,
+   "p_top4_wins": 0.9003,
+   "mean_true_rank": 2.19
+  },
+  {
+   "format": "rr4",
+   "label": "総当たり 各組4試合（60試合）",
+   "p_strongest_wins": 0.6177,
+   "p_top2_wins": 0.8238,
+   "p_top4_wins": 0.9566,
+   "mean_true_rank": 1.73
+  }
+ ],
+ "ko1_champion_true_rank": {
+  "1": 0.2542,
+  "2": 0.166,
+  "3": 0.1189,
+  "4": 0.0945,
+  "5": 0.0754,
+  "6": 0.0617,
+  "7": 0.0495,
+  "8": 0.0405,
+  "9": 0.0343,
+  "10": 0.0268,
+  "11": 0.0236,
+  "12": 0.0193,
+  "13": 0.0141,
+  "14": 0.0104,
+  "15": 0.0062,
+  "16": 0.0043
+ },
+ "ko1_by_gap_top1_top2": {
+  "0-0.1": {
+   "share_of_leagues": 0.266,
+   "p_strongest_wins": 0.2
+  },
+  "0.1-0.25": {
+   "share_of_leagues": 0.282,
+   "p_strongest_wins": 0.219
+  },
+  "0.25-0.5": {
+   "share_of_leagues": 0.274,
+   "p_strongest_wins": 0.269
+  },
+  "0.5-9": {
+   "share_of_leagues": 0.178,
+   "p_strongest_wins": 0.369
+  }
+ },
+ "ko1_16teams_by_spread": [
+  {
+   "spread": 0.2,
+   "p_strongest_wins": 0.1218,
+   "p_top_beats_others_1game": 0.592
+  },
+  {
+   "spread": 0.4,
+   "p_strongest_wins": 0.1844,
+   "p_top_beats_others_1game": 0.674
+  },
+  {
+   "spread": 0.6,
+   "p_strongest_wins": 0.2555,
+   "p_top_beats_others_1game": 0.739
+  },
+  {
+   "spread": 0.8,
+   "p_strongest_wins": 0.3218,
+   "p_top_beats_others_1game": 0.791
+  },
+  {
+   "spread": 1.0,
+   "p_strongest_wins": 0.3684,
+   "p_top_beats_others_1game": 0.829
+  },
+  {
+   "spread": 1.5,
+   "p_strongest_wins": 0.4927,
+   "p_top_beats_others_1game": 0.891
+  }
+ ],
+ "one_league": {
+  "top_team_strength": 1.341,
+  "top_team_p_champion_ko1": 0.2554,
+  "top_team_p_champion_rr2": 0.4812,
+  "teams_with_ge_1pct_ko1": 12
+ },
+ "sensitivity_range_all": {
+  "min": 0.0741,
+  "max": 0.7568
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "rookies_per_season": 120,
+ "seasons": 5000,
+ "true_mean": 0.45,
+ "true_sd": 0.03,
+ "shots_range": [
+  150,
+  450
+ ],
+ "base_no_true_change": {
+  "top1_y1": 0.5611,
+  "top1_y2": 0.5022,
+  "top1_true": 0.5022,
+  "top1_change": -0.059,
+  "top1_share_down": 0.922,
+  "top1_pred_change": -0.0586,
+  "top1_shots_median": 240.0,
+  "all_shots_median": 300.0,
+  "top10_change": -0.0394,
+  "top10_share_down": 0.831,
+  "top10_pred_change": -0.0394,
+  "bottom10_change": 0.0383,
+  "bottom10_share_up": 0.8277,
+  "all_change": -0.0
+ },
+ "by_rank_y1": [
+  {
+   "rank_y1": "1位",
+   "change": -0.059,
+   "true_minus_y1": -0.0589
+  },
+  {
+   "rank_y1": "2〜5位",
+   "change": -0.0427,
+   "true_minus_y1": -0.0431
+  },
+  {
+   "rank_y1": "6〜10位",
+   "change": -0.0328,
+   "true_minus_y1": -0.0326
+  },
+  {
+   "rank_y1": "11〜30位",
+   "change": -0.0203,
+   "true_minus_y1": -0.0203
+  },
+  {
+   "rank_y1": "31〜90位",
+   "change": 0.0,
+   "true_minus_y1": 0.0002
+  },
+  {
+   "rank_y1": "91〜110位",
+   "change": 0.0205,
+   "true_minus_y1": 0.0205
+  },
+  {
+   "rank_y1": "111〜120位",
+   "change": 0.0383,
+   "true_minus_y1": 0.0385
+  }
+ ],
+ "one_season": {
+  "award_rate_y1": 0.5543,
+  "award_rate_y2": 0.5054,
+  "award_true": 0.5022,
+  "award_shots": 184,
+  "award_true_rank": 6
+ },
+ "sensitivity_sd_shots": [
+  {
+   "sd": 0.015,
+   "shot_mult": 0.5,
+   "top1_change": -0.1108,
+   "top1_pred_change": -0.1103,
+   "top1_share_down": 0.9755,
+   "top10_change": -0.0746
+  },
+  {
+   "sd": 0.015,
+   "shot_mult": 1.0,
+   "top1_change": -0.0729,
+   "top1_pred_change": -0.0735,
+   "top1_share_down": 0.9695,
+   "top10_change": -0.0499
+  },
+  {
+   "sd": 0.015,
+   "shot_mult": 2.0,
+   "top1_change": -0.0475,
+   "top1_pred_change": -0.0477,
+   "top1_share_down": 0.947,
+   "top10_change": -0.0321
+  },
+  {
+   "sd": 0.03,
+   "shot_mult": 0.5,
+   "top1_change": -0.0949,
+   "top1_pred_change": -0.0952,
+   "top1_share_down": 0.953,
+   "top10_change": -0.0631
+  },
+  {
+   "sd": 0.03,
+   "shot_mult": 1.0,
+   "top1_change": -0.0588,
+   "top1_pred_change": -0.0585,
+   "top1_share_down": 0.915,
+   "top10_change": -0.0398
+  },
+  {
+   "sd": 0.03,
+   "shot_mult": 2.0,
+   "top1_change": -0.0339,
+   "top1_pred_change": -0.0334,
+   "top1_share_down": 0.87,
+   "top10_change": -0.0227
+  },
+  {
+   "sd": 0.045,
+   "shot_mult": 0.5,
+   "top1_change": -0.0779,
+   "top1_pred_change": -0.0806,
+   "top1_share_down": 0.897,
+   "top10_change": -0.0533
+  },
+  {
+   "sd": 0.045,
+   "shot_mult": 1.0,
+   "top1_change": -0.0447,
+   "top1_pred_change": -0.0451,
+   "top1_share_down": 0.846,
+   "top10_change": -0.0313
+  },
+  {
+   "sd": 0.045,
+   "shot_mult": 2.0,
+   "top1_change": -0.0253,
+   "top1_pred_change": -0.0244,
+   "top1_share_down": 0.793,
+   "top10_change": -0.017
+  }
+ ],
+ "sensitivity_top1_change_range": {
+  "min": -0.1108,
+  "max": -0.0253
+ },
+ "sensitivity_max_abs_gap_pred": 0.0027,
+ "sensitivity_top1_share_down_range": {
+  "min": 0.793,
+  "max": 0.9755
+ },
+ "true_change_scenarios": [
+  {
+   "true_change_all": -0.01,
+   "top1_change": -0.069,
+   "top1_share_down": 0.9525,
+   "bottom10_change": 0.0284,
+   "all_change": -0.0099
+  },
+  {
+   "true_change_all": 0.0,
+   "top1_change": -0.0598,
+   "top1_share_down": 0.9255,
+   "bottom10_change": 0.0389,
+   "all_change": 0.0002
+  },
+  {
+   "true_change_all": 0.01,
+   "top1_change": -0.0487,
+   "top1_share_down": 0.8645,
+   "bottom10_change": 0.0485,
+   "all_change": 0.01
+  }
+ ]
+}
