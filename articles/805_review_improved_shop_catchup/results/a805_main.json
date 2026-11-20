@@ -1,0 +1,407 @@
+{
+ "setting": {
+  "old": 3.6,
+  "new": 4.3,
+  "line": 4.2,
+  "rival": 4.0,
+  "reps": 200
+ },
+ "methods_H24": [
+  {
+   "r": 5,
+   "method": "全期間の平均",
+   "first_4_2_median": 142.0,
+   "first_4_2_reached_share": 0.955,
+   "first_4_0_median": 33.0,
+   "at12_mean": 3.83,
+   "at24_mean": 3.946,
+   "at60_mean": 4.098,
+   "late_below_4_2_share": 0.929,
+   "late_sd": 0.046
+  },
+  {
+   "r": 5,
+   "method": "直近3か月の平均",
+   "first_4_2_median": 3.0,
+   "first_4_2_reached_share": 1.0,
+   "first_4_0_median": 2.0,
+   "at12_mean": 4.313,
+   "at24_mean": 4.296,
+   "at60_mean": 4.284,
+   "late_below_4_2_share": 0.279,
+   "late_sd": 0.192
+  },
+  {
+   "r": 5,
+   "method": "直近6か月の平均",
+   "first_4_2_median": 6.0,
+   "first_4_2_reached_share": 1.0,
+   "first_4_0_median": 4.0,
+   "at12_mean": 4.311,
+   "at24_mean": 4.296,
+   "at60_mean": 4.293,
+   "late_below_4_2_share": 0.218,
+   "late_sd": 0.13
+  },
+  {
+   "r": 5,
+   "method": "直近12か月の平均",
+   "first_4_2_median": 11.0,
+   "first_4_2_reached_share": 1.0,
+   "first_4_0_median": 7.0,
+   "at12_mean": 4.304,
+   "at24_mean": 4.295,
+   "at60_mean": 4.298,
+   "late_below_4_2_share": 0.137,
+   "late_sd": 0.087
+  },
+  {
+   "r": 5,
+   "method": "直近24か月の平均",
+   "first_4_2_median": 21.0,
+   "first_4_2_reached_share": 1.0,
+   "first_4_0_median": 14.0,
+   "at12_mean": 3.947,
+   "at24_mean": 4.299,
+   "at60_mean": 4.3,
+   "late_below_4_2_share": 0.063,
+   "late_sd": 0.056
+  },
+  {
+   "r": 5,
+   "method": "重み付き（半減6か月）",
+   "first_4_2_median": 16.0,
+   "first_4_2_reached_share": 1.0,
+   "first_4_0_median": 8.0,
+   "at12_mean": 4.135,
+   "at24_mean": 4.255,
+   "at60_mean": 4.298,
+   "late_below_4_2_share": 0.101,
+   "late_sd": 0.07
+  },
+  {
+   "r": 5,
+   "method": "重み付き（半減12か月）",
+   "first_4_2_median": 29.0,
+   "first_4_2_reached_share": 1.0,
+   "first_4_0_median": 13.0,
+   "at12_mean": 3.999,
+   "at24_mean": 4.157,
+   "at60_mean": 4.282,
+   "late_below_4_2_share": 0.069,
+   "late_sd": 0.047
+  },
+  {
+   "r": 20,
+   "method": "全期間の平均",
+   "first_4_2_median": 144.5,
+   "first_4_2_reached_share": 1.0,
+   "first_4_0_median": 33.0,
+   "at12_mean": 3.83,
+   "at24_mean": 3.947,
+   "at60_mean": 4.099,
+   "late_below_4_2_share": 0.982,
+   "late_sd": 0.045
+  },
+  {
+   "r": 20,
+   "method": "直近3か月の平均",
+   "first_4_2_median": 3.0,
+   "first_4_2_reached_share": 1.0,
+   "first_4_0_median": 2.0,
+   "at12_mean": 4.3,
+   "at24_mean": 4.297,
+   "at60_mean": 4.305,
+   "late_below_4_2_share": 0.129,
+   "late_sd": 0.089
+  },
+  {
+   "r": 20,
+   "method": "直近6か月の平均",
+   "first_4_2_median": 6.0,
+   "first_4_2_reached_share": 1.0,
+   "first_4_0_median": 4.0,
+   "at12_mean": 4.299,
+   "at24_mean": 4.298,
+   "at60_mean": 4.302,
+   "late_below_4_2_share": 0.059,
+   "late_sd": 0.061
+  },
+  {
+   "r": 20,
+   "method": "直近12か月の平均",
+   "first_4_2_median": 11.0,
+   "first_4_2_reached_share": 1.0,
+   "first_4_0_median": 7.0,
+   "at12_mean": 4.297,
+   "at24_mean": 4.296,
+   "at60_mean": 4.301,
+   "late_below_4_2_share": 0.017,
+   "late_sd": 0.042
+  },
+  {
+   "r": 20,
+   "method": "直近24か月の平均",
+   "first_4_2_median": 21.0,
+   "first_4_2_reached_share": 1.0,
+   "first_4_0_median": 14.0,
+   "at12_mean": 3.946,
+   "at24_mean": 4.296,
+   "at60_mean": 4.303,
+   "late_below_4_2_share": 0.001,
+   "late_sd": 0.027
+  },
+  {
+   "r": 20,
+   "method": "重み付き（半減6か月）",
+   "first_4_2_median": 17.0,
+   "first_4_2_reached_share": 1.0,
+   "first_4_0_median": 8.0,
+   "at12_mean": 4.13,
+   "at24_mean": 4.256,
+   "at60_mean": 4.302,
+   "late_below_4_2_share": 0.006,
+   "late_sd": 0.034
+  },
+  {
+   "r": 20,
+   "method": "重み付き（半減12か月）",
+   "first_4_2_median": 30.0,
+   "first_4_2_reached_share": 1.0,
+   "first_4_0_median": 13.0,
+   "at12_mean": 3.996,
+   "at24_mean": 4.157,
+   "at60_mean": 4.285,
+   "late_below_4_2_share": 0.008,
+   "late_sd": 0.027
+  }
+ ],
+ "cumulative_by_history": [
+  {
+   "H": 12,
+   "r": 5,
+   "first_4_2_median": 72.0,
+   "first_4_2_p10": 35.900000000000006,
+   "first_4_2_p90": 128.2,
+   "first_4_0_median": 16.0,
+   "theory_4_2": 72.0,
+   "theory_4_0": 16.0
+  },
+  {
+   "H": 12,
+   "r": 20,
+   "first_4_2_median": 69.0,
+   "first_4_2_p10": 51.900000000000006,
+   "first_4_2_p90": 96.0,
+   "first_4_0_median": 17.0,
+   "theory_4_2": 72.0,
+   "theory_4_0": 16.0
+  },
+  {
+   "H": 12,
+   "r": 50,
+   "first_4_2_median": 72.0,
+   "first_4_2_p10": 61.0,
+   "first_4_2_p90": 87.0,
+   "first_4_0_median": 17.0,
+   "theory_4_2": 72.0,
+   "theory_4_0": 16.0
+  },
+  {
+   "H": 24,
+   "r": 5,
+   "first_4_2_median": 139.0,
+   "first_4_2_p10": 93.2,
+   "first_4_2_p90": 199.4,
+   "first_4_0_median": 32.0,
+   "theory_4_2": 144.0,
+   "theory_4_0": 32.0
+  },
+  {
+   "H": 24,
+   "r": 20,
+   "first_4_2_median": 143.0,
+   "first_4_2_p10": 114.0,
+   "first_4_2_p90": 179.1,
+   "first_4_0_median": 33.0,
+   "theory_4_2": 144.0,
+   "theory_4_0": 32.0
+  },
+  {
+   "H": 24,
+   "r": 50,
+   "first_4_2_median": 145.0,
+   "first_4_2_p10": 126.9,
+   "first_4_2_p90": 162.0,
+   "first_4_0_median": 32.5,
+   "theory_4_2": 144.0,
+   "theory_4_0": 32.0
+  },
+  {
+   "H": 36,
+   "r": 5,
+   "first_4_2_median": 203.0,
+   "first_4_2_p10": 145.4,
+   "first_4_2_p90": 266.0,
+   "first_4_0_median": 48.0,
+   "theory_4_2": 216.0,
+   "theory_4_0": 48.0
+  },
+  {
+   "H": 36,
+   "r": 20,
+   "first_4_2_median": 217.0,
+   "first_4_2_p10": 185.0,
+   "first_4_2_p90": 244.3,
+   "first_4_0_median": 49.0,
+   "theory_4_2": 216.0,
+   "theory_4_0": 48.0
+  },
+  {
+   "H": 36,
+   "r": 50,
+   "first_4_2_median": 217.5,
+   "first_4_2_p10": 194.0,
+   "first_4_2_p90": 243.0,
+   "first_4_0_median": 49.0,
+   "theory_4_2": 216.0,
+   "theory_4_0": 48.0
+  },
+  {
+   "H": 60,
+   "r": 5,
+   "first_4_2_median": 350.0,
+   "first_4_2_p10": 274.0,
+   "first_4_2_p90": 428.0,
+   "first_4_0_median": 82.0,
+   "theory_4_2": 360.0,
+   "theory_4_0": 80.0
+  },
+  {
+   "H": 60,
+   "r": 20,
+   "first_4_2_median": 359.0,
+   "first_4_2_p10": 318.6,
+   "first_4_2_p90": 413.20000000000005,
+   "first_4_0_median": 81.0,
+   "theory_4_2": 360.0,
+   "theory_4_0": 80.0
+  },
+  {
+   "H": 60,
+   "r": 50,
+   "first_4_2_median": 360.0,
+   "first_4_2_p10": 331.0,
+   "first_4_2_p90": 388.0,
+   "first_4_0_median": 80.5,
+   "theory_4_2": 360.0,
+   "theory_4_0": 80.0
+  }
+ ],
+ "robustness": {
+  "基本（H=24, r=20）": {
+   "cum_first_4_2_median": 142.0,
+   "cum_first_4_0_median": 32.0,
+   "last12_first_4_2_median": 11.0
+  },
+  "改善後に件数が2倍（r=20→40）": {
+   "cum_first_4_2_median": 72.0,
+   "cum_first_4_0_median": 16.0,
+   "last12_first_4_2_median": 10.0
+  },
+  "改善が12か月かけて進む": {
+   "cum_first_4_2_median": 175.5,
+   "cum_first_4_0_median": 45.0,
+   "last12_first_4_2_median": 17.0
+  }
+ },
+ "theory_multiplier": [
+  {
+   "old": 3.6,
+   "new": 3.9,
+   "gain": 0.3,
+   "line": 3.85,
+   "gap_below_new": 0.05,
+   "multiplier_of_H": 5.0,
+   "years_if_H24": 10.0
+  },
+  {
+   "old": 3.6,
+   "new": 3.9,
+   "gain": 0.3,
+   "line": 3.8,
+   "gap_below_new": 0.1,
+   "multiplier_of_H": 2.0,
+   "years_if_H24": 4.0
+  },
+  {
+   "old": 3.6,
+   "new": 3.9,
+   "gain": 0.3,
+   "line": 3.7,
+   "gap_below_new": 0.2,
+   "multiplier_of_H": 0.5,
+   "years_if_H24": 1.0
+  },
+  {
+   "old": 3.6,
+   "new": 4.3,
+   "gain": 0.7,
+   "line": 4.25,
+   "gap_below_new": 0.05,
+   "multiplier_of_H": 13.0,
+   "years_if_H24": 26.0
+  },
+  {
+   "old": 3.6,
+   "new": 4.3,
+   "gain": 0.7,
+   "line": 4.2,
+   "gap_below_new": 0.1,
+   "multiplier_of_H": 6.0,
+   "years_if_H24": 12.0
+  },
+  {
+   "old": 3.6,
+   "new": 4.3,
+   "gain": 0.7,
+   "line": 4.1,
+   "gap_below_new": 0.2,
+   "multiplier_of_H": 2.5,
+   "years_if_H24": 5.0
+  },
+  {
+   "old": 3.6,
+   "new": 4.6,
+   "gain": 1.0,
+   "line": 4.55,
+   "gap_below_new": 0.05,
+   "multiplier_of_H": 19.0,
+   "years_if_H24": 38.0
+  },
+  {
+   "old": 3.6,
+   "new": 4.6,
+   "gain": 1.0,
+   "line": 4.5,
+   "gap_below_new": 0.1,
+   "multiplier_of_H": 9.0,
+   "years_if_H24": 18.0
+  },
+  {
+   "old": 3.6,
+   "new": 4.6,
+   "gain": 1.0,
+   "line": 4.4,
+   "gap_below_new": 0.2,
+   "multiplier_of_H": 4.0,
+   "years_if_H24": 8.0
+  }
+ ],
+ "example_shop": {
+  "first_4_2_cum": 108,
+  "first_4_2_last12": 12,
+  "cum_at24": 3.964,
+  "last12_at24": 4.31
+ }
+}

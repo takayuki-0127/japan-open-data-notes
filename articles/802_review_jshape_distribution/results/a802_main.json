@@ -1,0 +1,91 @@
+{
+ "total_reviews": 287700,
+ "aggregate_share_by_star": {
+  "1": 0.082,
+  "2": 0.032,
+  "3": 0.176,
+  "4": 0.303,
+  "5": 0.407
+ },
+ "band_mean_3_9_to_4_1": {
+  "count": 167,
+  "mid_p10": 0.339,
+  "mid_p90": 0.705,
+  "mid_min": 0.266,
+  "mid_max": 0.77,
+  "p1_p10": 0.016,
+  "p1_p90": 0.14,
+  "p3_p10": 0.098,
+  "p3_p90": 0.224
+ },
+ "fit_all_shops": {
+  "r2_mid_by_mean": 0.429,
+  "r2_mid_by_mean_sd": 0.751,
+  "r2_low_by_mean": 0.677,
+  "r2_low_by_obs_low": 0.895
+ },
+ "pair_same_mean_4_0": {
+  "calm": {
+   "shop_id": 192,
+   "n": 521,
+   "mean": 4.05,
+   "obs_share": [
+    0.0,
+    0.019,
+    0.198,
+    0.497,
+    0.286
+   ],
+   "obs_mid": 0.714,
+   "true_mid": 0.727
+  },
+  "polar": {
+   "shop_id": 359,
+   "n": 538,
+   "mean": 4.04,
+   "obs_share": [
+    0.13,
+    0.007,
+    0.099,
+    0.216,
+    0.548
+   ],
+   "obs_mid": 0.322,
+   "true_mid": 0.297
+  }
+ },
+ "robustness_20reps": {
+  "w_max=0.3": {
+   "mid_p10": 0.535,
+   "mid_p90": 0.733,
+   "r2_mid_by_mean": 0.724,
+   "r2_mid_by_mean_sd": 0.764,
+   "r2_low_by_mean": 0.742,
+   "r2_low_by_obs_low": 0.889
+  },
+  "w_max=0.6（基本）": {
+   "mid_p10": 0.341,
+   "mid_p90": 0.701,
+   "r2_mid_by_mean": 0.418,
+   "r2_mid_by_mean_sd": 0.739,
+   "r2_low_by_mean": 0.668,
+   "r2_low_by_obs_low": 0.893
+  },
+  "w_max=0.9": {
+   "mid_p10": 0.144,
+   "mid_p90": 0.679,
+   "r2_mid_by_mean": 0.179,
+   "r2_mid_by_mean_sd": 0.786,
+   "r2_low_by_mean": 0.574,
+   "r2_low_by_obs_low": 0.907
+  },
+  "評価の低い店ほど両極端": {
+   "mid_p10": 0.508,
+   "mid_p90": 0.671,
+   "r2_mid_by_mean": 0.265,
+   "r2_mid_by_mean_sd": 0.298,
+   "r2_low_by_mean": 0.819,
+   "r2_low_by_obs_low": 0.921
+  }
+ }
+}

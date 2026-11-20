@@ -1,0 +1,93 @@
+{
+ "n_shops": 400,
+ "visitors_per_shop": 3000,
+ "share_by_star": {
+  "visitors": [
+   0.012,
+   0.106,
+   0.33,
+   0.381,
+   0.17
+  ],
+  "posts": [
+   0.028,
+   0.114,
+   0.143,
+   0.34,
+   0.374
+  ]
+ },
+ "share_star3": {
+  "visitors": 0.33,
+  "posts": 0.143
+ },
+ "base": {
+  "visitor_mean_avg": 3.59,
+  "posted_mean_avg": 3.836,
+  "nonwriter_mean_avg": 3.578,
+  "posted_minus_nonwriter_avg": 0.258,
+  "bias_avg": 0.245,
+  "abs_bias_avg": 0.284,
+  "share_abs_bias_ge_0_2": 0.75,
+  "nonwriter_minus_visitor_max": 0.036,
+  "slope_posted_on_visitor": 1.35,
+  "spearman": 0.989,
+  "posts_per_shop_median": 128.0,
+  "write_rate": 0.046
+ },
+ "by_tier": {
+  "top20pct": {
+   "visitor": 4.162,
+   "posted": 4.521,
+   "nonwriter": 4.139
+  },
+  "bottom20pct": {
+   "visitor": 3.032,
+   "posted": 2.987,
+   "nonwriter": 3.034
+  }
+ },
+ "robustness_20reps": {
+  "両端ほど書く（基本）": {
+   "bias_avg": 0.248,
+   "abs_bias_avg": 0.279,
+   "share_abs_bias_ge_0_2": 0.724,
+   "slope_posted_on_visitor": 1.341,
+   "spearman": 0.986,
+   "bias_top20": 0.357,
+   "bias_bottom20": -0.026
+  },
+  "満足した人ほど書く": {
+   "bias_avg": 0.375,
+   "abs_bias_avg": 0.375,
+   "share_abs_bias_ge_0_2": 0.982,
+   "slope_posted_on_visitor": 0.936,
+   "spearman": 0.982,
+   "bias_top20": 0.312,
+   "bias_bottom20": 0.384
+  },
+  "不満な人ほど書く": {
+   "bias_avg": -0.26,
+   "abs_bias_avg": 0.261,
+   "share_abs_bias_ge_0_2": 0.696,
+   "slope_posted_on_visitor": 1.215,
+   "spearman": 0.983,
+   "bias_top20": -0.126,
+   "bias_bottom20": -0.368
+  },
+  "だれでも同じ（偏りなし）": {
+   "bias_avg": 0.0,
+   "abs_bias_avg": 0.055,
+   "share_abs_bias_ge_0_2": 0.004,
+   "slope_posted_on_visitor": 1.001,
+   "spearman": 0.983,
+   "bias_top20": 0.0,
+   "bias_bottom20": -0.001
+  }
+ },
+ "mixed_30pct_ask_all_20reps": {
+  "spearman": 0.94,
+  "ask_rank_change": 72.15,
+  "noask_rank_change": -12.23
+ }
+}

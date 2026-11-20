@@ -1,0 +1,218 @@
+{
+ "setting": {
+  "reviews": 300,
+  "days": 720,
+  "early": 30,
+  "visitors_per_day": 50,
+  "switch_to_newest": 0.2,
+  "attention_top": 0.6,
+  "attention_decay": 0.75,
+  "true_helpful": "Beta(2,8)",
+  "reps": 100
+ },
+ "order_methods": [
+  {
+   "method": "参考になった数の順",
+   "top5_early_share": 0.952,
+   "top10_precision": 0.149,
+   "top5_q_mean": 0.355,
+   "q_of_reads": 0.301,
+   "share_read_lt10": 0.002,
+   "late_half_in_top10": 0.0
+  },
+  {
+   "method": "参考になった率の順",
+   "top5_early_share": 0.11,
+   "top10_precision": 0.878,
+   "top5_q_mean": 0.563,
+   "q_of_reads": 0.424,
+   "share_read_lt10": 0.002,
+   "late_half_in_top10": 0.477
+  },
+  {
+   "method": "数の順＋新着枠2つ",
+   "top5_early_share": 0.854,
+   "top10_precision": 0.164,
+   "top5_q_mean": 0.338,
+   "q_of_reads": 0.3,
+   "share_read_lt10": 0.0,
+   "late_half_in_top10": 0.08
+  },
+  {
+   "method": "新しい順",
+   "top5_early_share": 0.0,
+   "top10_precision": 0.031,
+   "top5_q_mean": 0.198,
+   "q_of_reads": 0.201,
+   "share_read_lt10": 0.0,
+   "late_half_in_top10": 1.0
+  },
+  {
+   "method": "でたらめな順",
+   "top5_early_share": 0.094,
+   "top10_precision": 0.044,
+   "top5_q_mean": 0.207,
+   "q_of_reads": 0.2,
+   "share_read_lt10": 0.002,
+   "late_half_in_top10": 0.526
+  }
+ ],
+ "robustness_votes_order": [
+  {
+   "visitors": 10,
+   "switch_to_newest": 0.0,
+   "top5_early_share": 0.99,
+   "top10_precision": 0.105,
+   "q_of_reads": 0.31
+  },
+  {
+   "visitors": 10,
+   "switch_to_newest": 0.2,
+   "top5_early_share": 0.945,
+   "top10_precision": 0.155,
+   "q_of_reads": 0.307
+  },
+  {
+   "visitors": 10,
+   "switch_to_newest": 0.4,
+   "top5_early_share": 0.925,
+   "top10_precision": 0.175,
+   "q_of_reads": 0.287
+  },
+  {
+   "visitors": 50,
+   "switch_to_newest": 0.0,
+   "top5_early_share": 1.0,
+   "top10_precision": 0.055,
+   "q_of_reads": 0.286
+  },
+  {
+   "visitors": 50,
+   "switch_to_newest": 0.2,
+   "top5_early_share": 0.97,
+   "top10_precision": 0.138,
+   "q_of_reads": 0.296
+  },
+  {
+   "visitors": 50,
+   "switch_to_newest": 0.4,
+   "top5_early_share": 0.94,
+   "top10_precision": 0.158,
+   "q_of_reads": 0.283
+  },
+  {
+   "visitors": 200,
+   "switch_to_newest": 0.0,
+   "top5_early_share": 1.0,
+   "top10_precision": 0.08,
+   "q_of_reads": 0.301
+  },
+  {
+   "visitors": 200,
+   "switch_to_newest": 0.2,
+   "top5_early_share": 0.97,
+   "top10_precision": 0.16,
+   "q_of_reads": 0.31
+  },
+  {
+   "visitors": 200,
+   "switch_to_newest": 0.4,
+   "top5_early_share": 0.94,
+   "top10_precision": 0.215,
+   "q_of_reads": 0.296
+  }
+ ],
+ "robustness_attention": [
+  {
+   "attention": "基本（1番目0.6・下がり方0.75・2ページ目0.02）",
+   "method": "参考になった数の順",
+   "top5_early_share": 0.98,
+   "top10_precision": 0.152,
+   "q_of_reads": 0.295,
+   "late_half_in_top10": 0.0
+  },
+  {
+   "attention": "基本（1番目0.6・下がり方0.75・2ページ目0.02）",
+   "method": "参考になった率の順",
+   "top5_early_share": 0.125,
+   "top10_precision": 0.862,
+   "q_of_reads": 0.418,
+   "late_half_in_top10": 0.438
+  },
+  {
+   "attention": "ゆるやか（1番目0.6・0.9・2ページ目0.1・3ページ目より下0.02）",
+   "method": "参考になった数の順",
+   "top5_early_share": 0.935,
+   "top10_precision": 0.17,
+   "q_of_reads": 0.258,
+   "late_half_in_top10": 0.0
+  },
+  {
+   "attention": "ゆるやか（1番目0.6・0.9・2ページ目0.1・3ページ目より下0.02）",
+   "method": "参考になった率の順",
+   "top5_early_share": 0.13,
+   "top10_precision": 0.935,
+   "q_of_reads": 0.32,
+   "late_half_in_top10": 0.49
+  },
+  {
+   "attention": "かなり平ら（1番目0.3・0.97・2ページ目0.2・3ページ目より下0.1）",
+   "method": "参考になった数の順",
+   "top5_early_share": 0.715,
+   "top10_precision": 0.24,
+   "q_of_reads": 0.216,
+   "late_half_in_top10": 0.0
+  },
+  {
+   "attention": "かなり平ら（1番目0.3・0.97・2ページ目0.2・3ページ目より下0.1）",
+   "method": "参考になった率の順",
+   "top5_early_share": 0.075,
+   "top10_precision": 0.927,
+   "q_of_reads": 0.227,
+   "late_half_in_top10": 0.515
+  },
+  {
+   "attention": "位置で差がない（どの位置も0.1）",
+   "method": "参考になった数の順",
+   "top5_early_share": 0.485,
+   "top10_precision": 0.4,
+   "q_of_reads": 0.199,
+   "late_half_in_top10": 0.0
+  },
+  {
+   "attention": "位置で差がない（どの位置も0.1）",
+   "method": "参考になった率の順",
+   "top5_early_share": 0.095,
+   "top10_precision": 0.908,
+   "q_of_reads": 0.199,
+   "late_half_in_top10": 0.51
+  }
+ ],
+ "one_run_votes_order": {
+  "top5_early_share": 1.0,
+  "top10_precision": 0.3,
+  "top5_q_mean": 0.318,
+  "q_of_reads": 0.291,
+  "share_read_lt10": 0.0,
+  "late_half_in_top10": 0.0,
+  "early_votes_share": 0.848,
+  "n_votes_ge1000": 6,
+  "n_votes_ge1000_in_early": 6,
+  "after30_votes_median": 10.0,
+  "after30_votes_max": 637,
+  "top5_post_days": [
+   9,
+   56,
+   0,
+   13,
+   17
+  ],
+  "top5_true_rank": [
+   2,
+   5,
+   163,
+   153,
+   124
+  ]
+ }
+}

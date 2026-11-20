@@ -1,0 +1,95 @@
+{
+ "ranking_methods_200reps": [
+  {
+   "method": "平均の星そのまま",
+   "precision20": 0.06,
+   "top20_median_n": 1.18,
+   "top20_true_mean": 4.162
+  },
+  {
+   "method": "件数で寄せる（m=10）",
+   "precision20": 0.483,
+   "top20_median_n": 251.725,
+   "top20_true_mean": 4.705
+  },
+  {
+   "method": "件数で寄せる（m=30）",
+   "precision20": 0.394,
+   "top20_median_n": 373.12,
+   "top20_true_mean": 4.68
+  },
+  {
+   "method": "件数で寄せる（m=100）",
+   "precision20": 0.293,
+   "top20_median_n": 518.958,
+   "top20_true_mean": 4.637
+  },
+  {
+   "method": "件数の多い順",
+   "precision20": 0.013,
+   "top20_median_n": 964.228,
+   "top20_true_mean": 3.895
+  }
+ ],
+ "pair_4_8_vs_4_3": {
+  "A_count": 3935,
+  "B_count": 2787,
+  "A_true_mean": 4.381,
+  "A_true_p10": 4.016,
+  "A_true_p90": 4.759,
+  "B_true_mean": 4.293,
+  "B_true_p10": 4.235,
+  "B_true_p90": 4.349,
+  "P_A_better": 0.636,
+  "by_spread": {
+   "0.2": {
+    "A_true_mean": 4.105,
+    "P_A_better": 0.182
+   },
+   "0.35": {
+    "A_true_mean": 4.385,
+    "P_A_better": 0.646
+   },
+   "0.5": {
+    "A_true_mean": 4.561,
+    "P_A_better": 0.841
+   }
+  }
+ },
+ "sd_by_n_true4": {
+  "1": {
+   "sd": 0.793,
+   "share_ge_4_5": 0.278
+  },
+  "3": {
+   "sd": 0.46,
+   "share_ge_4_5": 0.135
+  },
+  "5": {
+   "sd": 0.355,
+   "share_ge_4_5": 0.074
+  },
+  "10": {
+   "sd": 0.253,
+   "share_ge_4_5": 0.033
+  },
+  "30": {
+   "sd": 0.145,
+   "share_ge_4_5": 0.0
+  },
+  "100": {
+   "sd": 0.079,
+   "share_ge_4_5": 0.0
+  },
+  "500": {
+   "sd": 0.036,
+   "share_ge_4_5": 0.0
+  }
+ },
+ "one_draw": {
+  "overall_mean": 3.906,
+  "raw_top20_n_le_5": 20,
+  "raw_top20_precision": 0.05,
+  "bayes30_top20_precision": 0.45
+ }
+}
