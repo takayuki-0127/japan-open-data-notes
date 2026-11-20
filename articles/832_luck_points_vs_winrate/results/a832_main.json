@@ -1,0 +1,164 @@
+{
+ "settings": {
+  "n_team": 12,
+  "games_per_pair": 4,
+  "games_per_team": 44,
+  "theta_sd": 0.5,
+  "draw_style_sd": 0.3,
+  "c0": 0.55,
+  "n_rep": 3000
+ },
+ "base": {
+  "draw_share": 0.244,
+  "pts3_vs_winrate": {
+   "mean_teams_changed": 4.34,
+   "p_top1_differs": 0.275,
+   "p_top3_set_differs": 0.421,
+   "mean_max_rank_gap": 1.84
+  },
+  "pts3_vs_pts2": {
+   "mean_teams_changed": 4.42,
+   "p_top1_differs": 0.119,
+   "p_top3_set_differs": 0.266,
+   "mean_max_rank_gap": 1.68
+  },
+  "pts3": {
+   "spearman_with_true": 0.811,
+   "p_true_best_is_top1": 0.558,
+   "mean_abs_rank_error": 1.52
+  },
+  "pts2": {
+   "spearman_with_true": 0.82,
+   "p_true_best_is_top1": 0.57,
+   "mean_abs_rank_error": 1.48
+  },
+  "winrate": {
+   "spearman_with_true": 0.819,
+   "p_true_best_is_top1": 0.557,
+   "mean_abs_rank_error": 1.49
+  }
+ },
+ "teams_changed_dist": {
+  "0": 0.06,
+  "1": 0.0,
+  "2": 0.168,
+  "3": 0.09,
+  "4": 0.219,
+  "5": 0.158,
+  "6": 0.151,
+  "7": 0.091,
+  "8": 0.045,
+  "9": 0.015,
+  "10": 0.003,
+  "11": 0.001,
+  "12": 0.0
+ },
+ "one_season": {
+  "draw_share": 0.201,
+  "teams_changed": 6,
+  "top1_points": "C",
+  "top1_winrate": "C",
+  "top1_true": "C"
+ },
+ "sensitivity": [
+  {
+   "setting": "引き分けやすさの差なし",
+   "draw_share": 0.242,
+   "teams_changed": 2.59,
+   "p_top1_differs": 0.142,
+   "p_top1_differs_pts3_vs_pts2": 0.057,
+   "best_top1_pts3": 0.585,
+   "best_top1_winrate": 0.556,
+   "spearman_pts3": 0.82,
+   "spearman_winrate": 0.821
+  },
+  {
+   "setting": "基本",
+   "draw_share": 0.242,
+   "teams_changed": 4.43,
+   "p_top1_differs": 0.281,
+   "p_top1_differs_pts3_vs_pts2": 0.122,
+   "best_top1_pts3": 0.572,
+   "best_top1_winrate": 0.553,
+   "spearman_pts3": 0.807,
+   "spearman_winrate": 0.816
+  },
+  {
+   "setting": "引き分けやすさの差が大きい",
+   "draw_share": 0.273,
+   "teams_changed": 5.43,
+   "p_top1_differs": 0.379,
+   "p_top1_differs_pts3_vs_pts2": 0.146,
+   "best_top1_pts3": 0.501,
+   "best_top1_winrate": 0.562,
+   "spearman_pts3": 0.787,
+   "spearman_winrate": 0.81
+  },
+  {
+   "setting": "引き分けが少ない",
+   "draw_share": 0.154,
+   "teams_changed": 3.78,
+   "p_top1_differs": 0.22,
+   "p_top1_differs_pts3_vs_pts2": 0.097,
+   "best_top1_pts3": 0.564,
+   "best_top1_winrate": 0.581,
+   "spearman_pts3": 0.805,
+   "spearman_winrate": 0.811
+  },
+  {
+   "setting": "引き分けが多い",
+   "draw_share": 0.357,
+   "teams_changed": 4.81,
+   "p_top1_differs": 0.318,
+   "p_top1_differs_pts3_vs_pts2": 0.122,
+   "best_top1_pts3": 0.562,
+   "best_top1_winrate": 0.567,
+   "spearman_pts3": 0.806,
+   "spearman_winrate": 0.815
+  },
+  {
+   "setting": "試合が少ない（22試合）",
+   "draw_share": 0.24,
+   "teams_changed": 4.3,
+   "p_top1_differs": 0.281,
+   "p_top1_differs_pts3_vs_pts2": 0.107,
+   "best_top1_pts3": 0.457,
+   "best_top1_winrate": 0.448,
+   "spearman_pts3": 0.72,
+   "spearman_winrate": 0.726
+  },
+  {
+   "setting": "試合が多い（88試合）",
+   "draw_share": 0.243,
+   "teams_changed": 4.41,
+   "p_top1_differs": 0.262,
+   "p_top1_differs_pts3_vs_pts2": 0.119,
+   "best_top1_pts3": 0.652,
+   "best_top1_winrate": 0.663,
+   "spearman_pts3": 0.873,
+   "spearman_winrate": 0.883
+  },
+  {
+   "setting": "強さの差が小さい",
+   "draw_share": 0.26,
+   "teams_changed": 5.52,
+   "p_top1_differs": 0.352,
+   "p_top1_differs_pts3_vs_pts2": 0.182,
+   "best_top1_pts3": 0.357,
+   "best_top1_winrate": 0.358,
+   "spearman_pts3": 0.593,
+   "spearman_winrate": 0.609
+  },
+  {
+   "setting": "強さの差が大きい",
+   "draw_share": 0.202,
+   "teams_changed": 3.17,
+   "p_top1_differs": 0.186,
+   "p_top1_differs_pts3_vs_pts2": 0.057,
+   "best_top1_pts3": 0.728,
+   "best_top1_winrate": 0.728,
+   "spearman_pts3": 0.919,
+   "spearman_winrate": 0.921
+  }
+ ]
+}
