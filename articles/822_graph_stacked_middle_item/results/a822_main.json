@@ -1,0 +1,217 @@
+{
+ "base_B_middle": {
+  "position": 2,
+  "bottom_move_over_own_move_median": 4.31,
+  "monthly_mismatch": 0.428,
+  "own_share_of_edge_var": 0.052,
+  "yoy_mismatch": 0.359,
+  "trend_mismatch": 0.305,
+  "median_abs_change_B_pct_of_bar": 1.03,
+  "median_abs_change_B_pct_of_B": 4.92
+ },
+ "trend_mismatch_by_B_trend": [
+  {
+   "B_trend_abs": "0〜5%",
+   "companies": 530,
+   "trend_mismatch": 0.406
+  },
+  {
+   "B_trend_abs": "5〜10%",
+   "companies": 485,
+   "trend_mismatch": 0.33
+  },
+  {
+   "B_trend_abs": "10〜15%",
+   "companies": 517,
+   "trend_mismatch": 0.28
+  },
+  {
+   "B_trend_abs": "15〜20%",
+   "companies": 468,
+   "trend_mismatch": 0.192
+  }
+ ],
+ "monthly_mismatch_by_B_change": [
+  {
+   "B_monthly_change_abs": "0〜3%",
+   "share_of_months": 0.318,
+   "monthly_mismatch": 0.483
+  },
+  {
+   "B_monthly_change_abs": "3〜6%",
+   "share_of_months": 0.269,
+   "monthly_mismatch": 0.454
+  },
+  {
+   "B_monthly_change_abs": "6〜10%",
+   "share_of_months": 0.241,
+   "monthly_mismatch": 0.396
+  },
+  {
+   "B_monthly_change_abs": "10%以上",
+   "share_of_months": 0.173,
+   "monthly_mismatch": 0.33
+  }
+ ],
+ "by_position": [
+  {
+   "position": 1,
+   "bottom_move_over_own_move_median": 0.0,
+   "monthly_mismatch": 0.0,
+   "own_share_of_edge_var": 1.0,
+   "yoy_mismatch": 0.0,
+   "trend_mismatch": 0.0,
+   "order": "B→A→C→D"
+  },
+  {
+   "position": 2,
+   "bottom_move_over_own_move_median": 4.31,
+   "monthly_mismatch": 0.428,
+   "own_share_of_edge_var": 0.052,
+   "yoy_mismatch": 0.359,
+   "trend_mismatch": 0.305,
+   "order": "A→B→C→D"
+  },
+  {
+   "position": 3,
+   "bottom_move_over_own_move_median": 4.41,
+   "monthly_mismatch": 0.43,
+   "own_share_of_edge_var": 0.05,
+   "yoy_mismatch": 0.364,
+   "trend_mismatch": 0.315,
+   "order": "A→C→B→D"
+  },
+  {
+   "position": 4,
+   "bottom_move_over_own_move_median": 4.45,
+   "monthly_mismatch": 0.43,
+   "own_share_of_edge_var": 0.049,
+   "yoy_mismatch": 0.362,
+   "trend_mismatch": 0.311,
+   "order": "A→C→D→B"
+  }
+ ],
+ "each_item_base_order": [
+  {
+   "position": 1,
+   "bottom_move_over_own_move_median": 0.0,
+   "monthly_mismatch": 0.0,
+   "own_share_of_edge_var": 1.0,
+   "yoy_mismatch": 0.0,
+   "trend_mismatch": 0.0,
+   "item": "A"
+  },
+  {
+   "position": 2,
+   "bottom_move_over_own_move_median": 4.31,
+   "monthly_mismatch": 0.428,
+   "own_share_of_edge_var": 0.052,
+   "yoy_mismatch": 0.359,
+   "trend_mismatch": 0.305,
+   "item": "B"
+  },
+  {
+   "position": 3,
+   "bottom_move_over_own_move_median": 4.64,
+   "monthly_mismatch": 0.43,
+   "own_share_of_edge_var": 0.044,
+   "yoy_mismatch": 0.441,
+   "trend_mismatch": 0.429,
+   "item": "C"
+  },
+  {
+   "position": 4,
+   "bottom_move_over_own_move_median": 7.15,
+   "monthly_mismatch": 0.453,
+   "own_share_of_edge_var": 0.019,
+   "yoy_mismatch": 0.449,
+   "trend_mismatch": 0.457,
+   "item": "D"
+  }
+ ],
+ "sensitivity": [
+  {
+   "position": 2,
+   "bottom_move_over_own_move_median": 4.31,
+   "monthly_mismatch": 0.428,
+   "own_share_of_edge_var": 0.052,
+   "yoy_mismatch": 0.359,
+   "trend_mismatch": 0.305,
+   "variant": "基本（Aのばらつき8%・季節15%・Bの大きさ40）"
+  },
+  {
+   "position": 2,
+   "bottom_move_over_own_move_median": 2.8,
+   "monthly_mismatch": 0.396,
+   "own_share_of_edge_var": 0.125,
+   "yoy_mismatch": 0.313,
+   "trend_mismatch": 0.348,
+   "variant": "Aのばらつき4%"
+  },
+  {
+   "position": 2,
+   "bottom_move_over_own_move_median": 7.91,
+   "monthly_mismatch": 0.46,
+   "own_share_of_edge_var": 0.016,
+   "yoy_mismatch": 0.419,
+   "trend_mismatch": 0.335,
+   "variant": "Aのばらつき16%"
+  },
+  {
+   "position": 2,
+   "bottom_move_over_own_move_median": 3.89,
+   "monthly_mismatch": 0.418,
+   "own_share_of_edge_var": 0.064,
+   "yoy_mismatch": 0.363,
+   "trend_mismatch": 0.291,
+   "variant": "Aの季節の振れ0%"
+  },
+  {
+   "position": 2,
+   "bottom_move_over_own_move_median": 5.59,
+   "monthly_mismatch": 0.443,
+   "own_share_of_edge_var": 0.033,
+   "yoy_mismatch": 0.358,
+   "trend_mismatch": 0.377,
+   "variant": "Aの季節の振れ30%"
+  },
+  {
+   "position": 2,
+   "bottom_move_over_own_move_median": 8.58,
+   "monthly_mismatch": 0.461,
+   "own_share_of_edge_var": 0.014,
+   "yoy_mismatch": 0.432,
+   "trend_mismatch": 0.419,
+   "variant": "Bの大きさ20（Aの5分の1）"
+  },
+  {
+   "position": 2,
+   "bottom_move_over_own_move_median": 2.16,
+   "monthly_mismatch": 0.36,
+   "own_share_of_edge_var": 0.18,
+   "yoy_mismatch": 0.262,
+   "trend_mismatch": 0.213,
+   "variant": "Bの大きさ80（Aの5分の4）"
+  },
+  {
+   "position": 2,
+   "bottom_move_over_own_move_median": 2.2,
+   "monthly_mismatch": 0.366,
+   "own_share_of_edge_var": 0.175,
+   "yoy_mismatch": 0.331,
+   "trend_mismatch": 0.34,
+   "variant": "Bのばらつき10%"
+  }
+ ],
+ "companies": 2000,
+ "months": 24,
+ "figure_example": {
+  "company_id": 390,
+  "B_trend_per_year": 0.179,
+  "A_trend_per_year": -0.097,
+  "B_first12_mean": 43.8,
+  "B_last12_mean": 50.7,
+  "AB_first12_mean": 140.6,
+  "AB_last12_mean": 136.0
+ }
+}

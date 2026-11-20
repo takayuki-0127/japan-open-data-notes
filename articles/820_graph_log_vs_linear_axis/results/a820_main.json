@@ -1,0 +1,137 @@
+{
+ "setting": {
+  "months": 60,
+  "change_month": 36,
+  "start": 1000,
+  "noise_sd": 0.02,
+  "before": [
+   24,
+   35
+  ],
+  "after": [
+   48,
+   59
+  ],
+  "after_early": [
+   36,
+   47
+  ],
+  "reps": 200
+ },
+ "example_4_to_3": {
+  "r1": 0.04,
+  "r2": 0.03,
+  "lin_ratio": 1.543,
+  "log_ratio": 0.717,
+  "lin_ratio_no_noise": 1.612,
+  "log_ratio_no_noise": 0.754,
+  "inc_before_per_month": 125.4,
+  "inc_after_per_month": 202.2,
+  "members_m0": 1008,
+  "members_m35": 3986,
+  "members_m59": 8167
+ },
+ "summary": {
+  "lin_border_r2_by_r1_no_noise": {
+   "0.02": 0.01,
+   "0.03": 0.015,
+   "0.04": 0.02,
+   "0.05": 0.02,
+   "0.06": 0.025
+  },
+  "r2_eq_r1_minus_1pt": {
+   "0.02": {
+    "lin": 0.985,
+    "log": 1.0,
+    "lin_early": 1.0
+   },
+   "0.03": {
+    "lin": 0.13,
+    "log": 1.0,
+    "lin_early": 0.795
+   },
+   "0.04": {
+    "lin": 0.0,
+    "log": 1.0,
+    "lin_early": 0.055
+   },
+   "0.05": {
+    "lin": 0.0,
+    "log": 1.0,
+    "lin_early": 0.0
+   },
+   "0.06": {
+    "lin": 0.0,
+    "log": 1.0,
+    "lin_early": 0.0
+   }
+  },
+  "no_change_log_slowed_mean": 0.509,
+  "no_change_lin_slowed_mean": 0.0,
+  "noise_sens_r1_4pct": {
+   "0.01": {
+    "0.02": {
+     "lin": 0.975,
+     "log": 1.0
+    },
+    "0.03": {
+     "lin": 0.0,
+     "log": 1.0
+    },
+    "0.035": {
+     "lin": 0.0,
+     "log": 1.0
+    },
+    "0.04": {
+     "lin": 0.0,
+     "log": 0.51
+    }
+   },
+   "0.02": {
+    "0.02": {
+     "lin": 0.81,
+     "log": 1.0
+    },
+    "0.03": {
+     "lin": 0.0,
+     "log": 1.0
+    },
+    "0.035": {
+     "lin": 0.0,
+     "log": 0.985
+    },
+    "0.04": {
+     "lin": 0.0,
+     "log": 0.525
+    }
+   },
+   "0.04": {
+    "0.02": {
+     "lin": 0.685,
+     "log": 1.0
+    },
+    "0.03": {
+     "lin": 0.0,
+     "log": 0.985
+    },
+    "0.035": {
+     "lin": 0.0,
+     "log": 0.81
+    },
+    "0.04": {
+     "lin": 0.0,
+     "log": 0.505
+    }
+   }
+  }
+ },
+ "straight_line": {
+  "inc_per_month": 40,
+  "rate_m1": 0.04,
+  "rate_m59": 0.012,
+  "lin_ratio": 1.0,
+  "log_ratio": 0.693,
+  "lin_ratio_obs": 0.624,
+  "log_ratio_obs": 0.431
+ }
+}

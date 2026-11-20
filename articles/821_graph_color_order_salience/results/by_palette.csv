@@ -1,0 +1,13 @@
+measure,bg,palette,spearman,top10_overlap,most_salient_rank_pct
+L,white,Blues,1.0,0.994,0.0
+dE,white,Blues,1.0,0.994,0.0
+L,black,Blues,-1.0,0.0,0.999
+dE,black,Blues,-1.0,0.0,0.999
+L,white,viridis,-1.0,0.0,0.999
+dE,white,viridis,-0.782,0.0,0.999
+L,black,viridis,1.0,0.994,0.0
+dE,black,viridis,0.284,0.994,0.0
+L,white,jet,-0.834,0.034,0.999
+dE,white,jet,-0.55,0.0,0.811
+L,black,jet,0.834,0.073,0.111
+dE,black,jet,-0.029,0.009,0.807

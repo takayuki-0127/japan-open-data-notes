@@ -1,0 +1,261 @@
+{
+ "setting": {
+  "stores": 12,
+  "months": 12,
+  "topk": 10,
+  "reps": 200,
+  "salience": "背景との L* の差（確かめで Lab の距離 ΔE）",
+  "bg_L": {
+   "white": 100.0,
+   "black": 0.0
+  }
+ },
+ "lightness": {
+  "Blues": {
+   "L_min_value": 98.4,
+   "L_max_value": 20.9,
+   "L_lightest": 98.4,
+   "pos_lightest": 0.0,
+   "L_darkest": 20.9,
+   "pos_darkest": 1.0
+  },
+  "viridis": {
+   "L_min_value": 14.9,
+   "L_max_value": 90.9,
+   "L_lightest": 90.9,
+   "pos_lightest": 1.0,
+   "L_darkest": 14.9,
+   "pos_darkest": 0.0
+  },
+  "jet": {
+   "L_min_value": 12.9,
+   "L_max_value": 25.4,
+   "L_lightest": 95.9,
+   "pos_lightest": 0.64,
+   "L_darkest": 12.9,
+   "pos_darkest": 0.0
+  }
+ },
+ "by_palette_200reps": [
+  {
+   "measure": "L",
+   "bg": "white",
+   "palette": "Blues",
+   "spearman": 1.0,
+   "top10_overlap": 0.994,
+   "most_salient_rank_pct": 0.0
+  },
+  {
+   "measure": "dE",
+   "bg": "white",
+   "palette": "Blues",
+   "spearman": 1.0,
+   "top10_overlap": 0.994,
+   "most_salient_rank_pct": 0.0
+  },
+  {
+   "measure": "L",
+   "bg": "black",
+   "palette": "Blues",
+   "spearman": -1.0,
+   "top10_overlap": 0.0,
+   "most_salient_rank_pct": 0.999
+  },
+  {
+   "measure": "dE",
+   "bg": "black",
+   "palette": "Blues",
+   "spearman": -1.0,
+   "top10_overlap": 0.0,
+   "most_salient_rank_pct": 0.999
+  },
+  {
+   "measure": "L",
+   "bg": "white",
+   "palette": "viridis",
+   "spearman": -1.0,
+   "top10_overlap": 0.0,
+   "most_salient_rank_pct": 0.999
+  },
+  {
+   "measure": "dE",
+   "bg": "white",
+   "palette": "viridis",
+   "spearman": -0.782,
+   "top10_overlap": 0.0,
+   "most_salient_rank_pct": 0.999
+  },
+  {
+   "measure": "L",
+   "bg": "black",
+   "palette": "viridis",
+   "spearman": 1.0,
+   "top10_overlap": 0.994,
+   "most_salient_rank_pct": 0.0
+  },
+  {
+   "measure": "dE",
+   "bg": "black",
+   "palette": "viridis",
+   "spearman": 0.284,
+   "top10_overlap": 0.994,
+   "most_salient_rank_pct": 0.0
+  },
+  {
+   "measure": "L",
+   "bg": "white",
+   "palette": "jet",
+   "spearman": -0.834,
+   "top10_overlap": 0.034,
+   "most_salient_rank_pct": 0.999
+  },
+  {
+   "measure": "dE",
+   "bg": "white",
+   "palette": "jet",
+   "spearman": -0.55,
+   "top10_overlap": 0.0,
+   "most_salient_rank_pct": 0.811
+  },
+  {
+   "measure": "L",
+   "bg": "black",
+   "palette": "jet",
+   "spearman": 0.834,
+   "top10_overlap": 0.073,
+   "most_salient_rank_pct": 0.111
+  },
+  {
+   "measure": "dE",
+   "bg": "black",
+   "palette": "jet",
+   "spearman": -0.029,
+   "top10_overlap": 0.009,
+   "most_salient_rank_pct": 0.807
+  }
+ ],
+ "blues_vmin_200reps": [
+  {
+   "vmin": "最小値から",
+   "dark_share": 0.076,
+   "gap_top_median": 63.34,
+   "sal_min": 1.572,
+   "sal_max": 79.071
+  },
+  {
+   "vmin": "0から",
+   "dark_share": 0.11,
+   "gap_top_median": 55.002,
+   "sal_min": 9.797,
+   "sal_max": 79.071
+  }
+ ],
+ "jet_by_store_sd_200reps": {
+  "0.2": {
+   "black": {
+    "top10_overlap": 0.064,
+    "most_salient_rank_pct": 0.132
+   },
+   "white": {
+    "top10_overlap": 0.116,
+    "most_salient_rank_pct": 0.999
+   }
+  },
+  "0.4": {
+   "black": {
+    "top10_overlap": 0.062,
+    "most_salient_rank_pct": 0.123
+   },
+   "white": {
+    "top10_overlap": 0.034,
+    "most_salient_rank_pct": 0.999
+   }
+  },
+  "0.8": {
+   "black": {
+    "top10_overlap": 0.095,
+    "most_salient_rank_pct": 0.111
+   },
+   "white": {
+    "top10_overlap": 0.0,
+    "most_salient_rank_pct": 0.995
+   }
+  }
+ },
+ "tab10": [
+  {
+   "order": 1,
+   "color": "#1f77b4",
+   "L": 48.0,
+   "sal_white": 52.0
+  },
+  {
+   "order": 2,
+   "color": "#ff7f0e",
+   "L": 66.9,
+   "sal_white": 33.1
+  },
+  {
+   "order": 3,
+   "color": "#2ca02c",
+   "L": 57.9,
+   "sal_white": 42.1
+  },
+  {
+   "order": 4,
+   "color": "#d62728",
+   "L": 46.8,
+   "sal_white": 53.2
+  },
+  {
+   "order": 5,
+   "color": "#9467bd",
+   "L": 51.5,
+   "sal_white": 48.5
+  },
+  {
+   "order": 6,
+   "color": "#8c564b",
+   "L": 42.4,
+   "sal_white": 57.6
+  },
+  {
+   "order": 7,
+   "color": "#e377c2",
+   "L": 64.5,
+   "sal_white": 35.5
+  },
+  {
+   "order": 8,
+   "color": "#7f7f7f",
+   "L": 53.2,
+   "sal_white": 46.8
+  },
+  {
+   "order": 9,
+   "color": "#bcbd22",
+   "L": 74.3,
+   "sal_white": 25.7
+  },
+  {
+   "order": 10,
+   "color": "#17becf",
+   "L": 70.5,
+   "sal_white": 29.5
+  }
+ ],
+ "one_draw": {
+  "Blues": {
+   "spearman_white": 1.0,
+   "top10_overlap_white": 1.0
+  },
+  "viridis": {
+   "spearman_white": -1.0,
+   "top10_overlap_white": 0.0
+  },
+  "jet": {
+   "spearman_white": -0.733,
+   "top10_overlap_white": 0.1
+  }
+ }
+}

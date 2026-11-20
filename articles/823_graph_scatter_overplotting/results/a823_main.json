@@ -1,0 +1,345 @@
+{
+ "by_n_mean_of_10": [
+  {
+   "n": 100,
+   "data_corr": 0.336,
+   "opaque_corr": 0.357,
+   "opaque_cover": 0.014,
+   "alpha_corr": 0.359,
+   "density_corr": 0.359
+  },
+  {
+   "n": 1000,
+   "data_corr": 0.288,
+   "opaque_corr": 0.275,
+   "opaque_cover": 0.111,
+   "alpha_corr": 0.3,
+   "density_corr": 0.297
+  },
+  {
+   "n": 10000,
+   "data_corr": 0.308,
+   "opaque_corr": 0.185,
+   "opaque_cover": 0.386,
+   "alpha_corr": 0.306,
+   "density_corr": 0.286
+  },
+  {
+   "n": 100000,
+   "data_corr": 0.306,
+   "opaque_corr": 0.067,
+   "opaque_cover": 0.762,
+   "alpha_corr": 0.229,
+   "density_corr": 0.194
+  },
+  {
+   "n": 1000000,
+   "data_corr": 0.305,
+   "opaque_corr": 0.016,
+   "opaque_cover": 0.971,
+   "alpha_corr": 0.091,
+   "density_corr": 0.104
+  }
+ ],
+ "related_vs_unrelated": [
+  {
+   "n": 100,
+   "related_data_corr": 0.315,
+   "related_opaque_corr": 0.326,
+   "unrelated_data_corr": 0.003,
+   "unrelated_opaque_corr": 0.005,
+   "related_cover": 0.014,
+   "unrelated_cover": 0.015
+  },
+  {
+   "n": 1000,
+   "related_data_corr": 0.305,
+   "related_opaque_corr": 0.287,
+   "unrelated_data_corr": -0.002,
+   "unrelated_opaque_corr": 0.0,
+   "related_cover": 0.111,
+   "unrelated_cover": 0.114
+  },
+  {
+   "n": 10000,
+   "related_data_corr": 0.301,
+   "related_opaque_corr": 0.182,
+   "unrelated_data_corr": 0.006,
+   "unrelated_opaque_corr": 0.008,
+   "related_cover": 0.384,
+   "unrelated_cover": 0.399
+  },
+  {
+   "n": 100000,
+   "related_data_corr": 0.304,
+   "related_opaque_corr": 0.06,
+   "unrelated_data_corr": -0.001,
+   "unrelated_opaque_corr": -0.003,
+   "related_cover": 0.762,
+   "unrelated_cover": 0.752
+  },
+  {
+   "n": 1000000,
+   "related_data_corr": 0.305,
+   "related_opaque_corr": 0.017,
+   "unrelated_data_corr": 0.0,
+   "unrelated_opaque_corr": -0.001,
+   "related_cover": 0.971,
+   "unrelated_cover": 0.963
+  }
+ ],
+ "sensitivity": [
+  {
+   "variant": "基本（点の半径2画素・散らばり3割・透け0.05・相関0.6）",
+   "n": 1000,
+   "data_corr": 0.284,
+   "opaque_corr": 0.281,
+   "alpha_corr": 0.302,
+   "density_corr": 0.299,
+   "opaque_cover": 0.111
+  },
+  {
+   "variant": "基本（点の半径2画素・散らばり3割・透け0.05・相関0.6）",
+   "n": 100000,
+   "data_corr": 0.305,
+   "opaque_corr": 0.069,
+   "alpha_corr": 0.228,
+   "density_corr": 0.193,
+   "opaque_cover": 0.765
+  },
+  {
+   "variant": "点の半径1画素",
+   "n": 1000,
+   "data_corr": 0.317,
+   "opaque_corr": 0.322,
+   "alpha_corr": 0.33,
+   "density_corr": 0.327,
+   "opaque_cover": 0.051
+  },
+  {
+   "variant": "点の半径1画素",
+   "n": 100000,
+   "data_corr": 0.305,
+   "opaque_corr": 0.104,
+   "alpha_corr": 0.272,
+   "density_corr": 0.193,
+   "opaque_cover": 0.607
+  },
+  {
+   "variant": "点の半径4画素",
+   "n": 1000,
+   "data_corr": 0.296,
+   "opaque_corr": 0.23,
+   "alpha_corr": 0.3,
+   "density_corr": 0.301,
+   "opaque_cover": 0.25
+  },
+  {
+   "variant": "点の半径4画素",
+   "n": 100000,
+   "data_corr": 0.304,
+   "opaque_corr": 0.03,
+   "alpha_corr": 0.145,
+   "density_corr": 0.192,
+   "opaque_cover": 0.913
+  },
+  {
+   "variant": "関係のない散らばり1割",
+   "n": 1000,
+   "data_corr": 0.492,
+   "opaque_corr": 0.483,
+   "alpha_corr": 0.497,
+   "density_corr": 0.495,
+   "opaque_cover": 0.104
+  },
+  {
+   "variant": "関係のない散らばり1割",
+   "n": 100000,
+   "data_corr": 0.479,
+   "opaque_corr": 0.202,
+   "alpha_corr": 0.421,
+   "density_corr": 0.385,
+   "opaque_cover": 0.627
+  },
+  {
+   "variant": "関係のない散らばり5割",
+   "n": 1000,
+   "data_corr": 0.198,
+   "opaque_corr": 0.195,
+   "alpha_corr": 0.212,
+   "density_corr": 0.21,
+   "opaque_cover": 0.116
+  },
+  {
+   "variant": "関係のない散らばり5割",
+   "n": 100000,
+   "data_corr": 0.183,
+   "opaque_corr": 0.024,
+   "alpha_corr": 0.12,
+   "density_corr": 0.098,
+   "opaque_cover": 0.822
+  },
+  {
+   "variant": "散らばりなし（全員に関係あり）",
+   "n": 1000,
+   "data_corr": 0.608,
+   "opaque_corr": 0.6,
+   "alpha_corr": 0.607,
+   "density_corr": 0.606,
+   "opaque_cover": 0.101
+  },
+  {
+   "variant": "散らばりなし（全員に関係あり）",
+   "n": 100000,
+   "data_corr": 0.601,
+   "opaque_corr": 0.593,
+   "alpha_corr": 0.599,
+   "density_corr": 0.599,
+   "opaque_cover": 0.456
+  },
+  {
+   "variant": "透け0.2（濃い）",
+   "n": 1000,
+   "data_corr": 0.314,
+   "opaque_corr": 0.304,
+   "alpha_corr": 0.324,
+   "density_corr": 0.324,
+   "opaque_cover": 0.111
+  },
+  {
+   "variant": "透け0.2（濃い）",
+   "n": 100000,
+   "data_corr": 0.302,
+   "opaque_corr": 0.066,
+   "alpha_corr": 0.141,
+   "density_corr": 0.192,
+   "opaque_cover": 0.763
+  },
+  {
+   "variant": "透け0.01（薄い）",
+   "n": 1000,
+   "data_corr": 0.296,
+   "opaque_corr": 0.285,
+   "alpha_corr": 0.308,
+   "density_corr": 0.304,
+   "opaque_cover": 0.111
+  },
+  {
+   "variant": "透け0.01（薄い）",
+   "n": 100000,
+   "data_corr": 0.305,
+   "opaque_corr": 0.063,
+   "alpha_corr": 0.291,
+   "density_corr": 0.192,
+   "opaque_cover": 0.763
+  },
+  {
+   "variant": "関係の強さ0.3",
+   "n": 1000,
+   "data_corr": 0.141,
+   "opaque_corr": 0.141,
+   "alpha_corr": 0.151,
+   "density_corr": 0.149,
+   "opaque_cover": 0.114
+  },
+  {
+   "variant": "関係の強さ0.3",
+   "n": 100000,
+   "data_corr": 0.155,
+   "opaque_corr": 0.038,
+   "alpha_corr": 0.123,
+   "density_corr": 0.106,
+   "opaque_cover": 0.752
+  },
+  {
+   "variant": "関係の強さ0.9",
+   "n": 1000,
+   "data_corr": 0.431,
+   "opaque_corr": 0.38,
+   "alpha_corr": 0.445,
+   "density_corr": 0.436,
+   "opaque_cover": 0.1
+  },
+  {
+   "variant": "関係の強さ0.9",
+   "n": 100000,
+   "data_corr": 0.458,
+   "opaque_corr": 0.08,
+   "alpha_corr": 0.285,
+   "density_corr": 0.24,
+   "opaque_cover": 0.761
+  }
+ ],
+ "settings": {
+  "pixels": [
+   360,
+   240
+  ],
+  "axis_range": [
+   -4.0,
+   4.0
+  ],
+  "marker_radius_px": 2,
+  "alpha": 0.05,
+  "rho_core": 0.6,
+  "background_share": 0.3,
+  "background_sd": 1.5,
+  "reps": 10
+ },
+ "figure_panels_one_draw": [
+  {
+   "n": 1000,
+   "mode": "opaque",
+   "ink_corr": 0.262,
+   "cover": 0.11
+  },
+  {
+   "n": 1000,
+   "mode": "alpha",
+   "ink_corr": 0.285,
+   "cover": 0.11
+  },
+  {
+   "n": 1000,
+   "mode": "density",
+   "ink_corr": 0.283,
+   "cover": 0.05
+  },
+  {
+   "n": 100000,
+   "mode": "opaque",
+   "ink_corr": 0.07,
+   "cover": 0.764
+  },
+  {
+   "n": 100000,
+   "mode": "alpha",
+   "ink_corr": 0.23,
+   "cover": 0.764
+  },
+  {
+   "n": 100000,
+   "mode": "density",
+   "ink_corr": 0.196,
+   "cover": 0.609
+  },
+  {
+   "n": 1000000,
+   "mode": "opaque",
+   "ink_corr": 0.019,
+   "cover": 0.97
+  },
+  {
+   "n": 1000000,
+   "mode": "alpha",
+   "ink_corr": 0.093,
+   "cover": 0.97
+  },
+  {
+   "n": 1000000,
+   "mode": "density",
+   "ink_corr": 0.107,
+   "cover": 0.918
+  }
+ ]
+}

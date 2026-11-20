@@ -1,0 +1,253 @@
+{
+ "setting": {
+  "days": 728,
+  "base": 300,
+  "amp": 60,
+  "peak_day": 200,
+  "trough_day": 382,
+  "weekend": 0.2,
+  "camp_start": 450,
+  "camp_len": 14,
+  "camp_h": 80,
+  "noise_sd": 30,
+  "reps": 200,
+  "true_n_peaks": 3
+ },
+ "by_width_200reps": [
+  {
+   "kind": "trailing",
+   "width": 1,
+   "peak_shift": -0.06,
+   "trough_shift": 0.415,
+   "amp": 167.76,
+   "n_peaks": 193.225,
+   "peak_shift_p10": -33.0,
+   "peak_shift_p90": 30.0,
+   "amp_ratio": 2.796,
+   "camp_ratio": 1.2
+  },
+  {
+   "kind": "trailing",
+   "width": 7,
+   "peak_shift": 3.615,
+   "trough_shift": 2.895,
+   "amp": 80.911,
+   "n_peaks": 46.595,
+   "peak_shift_p10": -20.099999999999998,
+   "peak_shift_p90": 25.099999999999994,
+   "amp_ratio": 1.349,
+   "camp_ratio": 1.0
+  },
+  {
+   "kind": "trailing",
+   "width": 14,
+   "peak_shift": 7.57,
+   "trough_shift": 7.5,
+   "amp": 71.413,
+   "n_peaks": 14.475,
+   "peak_shift_p10": -11.099999999999998,
+   "peak_shift_p90": 26.0,
+   "amp_ratio": 1.19,
+   "camp_ratio": 1.0
+  },
+  {
+   "kind": "trailing",
+   "width": 28,
+   "peak_shift": 13.36,
+   "trough_shift": 14.77,
+   "amp": 65.109,
+   "n_peaks": 3.29,
+   "peak_shift_p10": -4.0,
+   "peak_shift_p90": 31.0,
+   "amp_ratio": 1.085,
+   "camp_ratio": 0.5
+  },
+  {
+   "kind": "trailing",
+   "width": 56,
+   "peak_shift": 27.245,
+   "trough_shift": 28.3,
+   "amp": 59.779,
+   "n_peaks": 2.14,
+   "peak_shift_p10": 15.0,
+   "peak_shift_p90": 41.099999999999994,
+   "amp_ratio": 0.996,
+   "camp_ratio": 0.25
+  },
+  {
+   "kind": "trailing",
+   "width": 91,
+   "peak_shift": 45.685,
+   "trough_shift": 44.66,
+   "amp": 55.104,
+   "n_peaks": 2.0,
+   "peak_shift_p10": 36.900000000000006,
+   "peak_shift_p90": 56.0,
+   "amp_ratio": 0.918,
+   "camp_ratio": 0.154
+  },
+  {
+   "kind": "center",
+   "width": 1,
+   "peak_shift": -0.06,
+   "trough_shift": 0.415,
+   "amp": 167.76,
+   "n_peaks": 193.225,
+   "peak_shift_p10": -33.0,
+   "peak_shift_p90": 30.0,
+   "amp_ratio": 2.796,
+   "camp_ratio": 1.2
+  },
+  {
+   "kind": "center",
+   "width": 7,
+   "peak_shift": 0.615,
+   "trough_shift": -0.09,
+   "amp": 80.914,
+   "n_peaks": 46.595,
+   "peak_shift_p10": -23.099999999999998,
+   "peak_shift_p90": 22.099999999999994,
+   "amp_ratio": 1.349,
+   "camp_ratio": 1.0
+  },
+  {
+   "kind": "center",
+   "width": 14,
+   "peak_shift": 1.57,
+   "trough_shift": 1.5,
+   "amp": 71.413,
+   "n_peaks": 14.475,
+   "peak_shift_p10": -17.099999999999998,
+   "peak_shift_p90": 20.0,
+   "amp_ratio": 1.19,
+   "camp_ratio": 1.0
+  },
+  {
+   "kind": "center",
+   "width": 28,
+   "peak_shift": 0.36,
+   "trough_shift": 1.77,
+   "amp": 65.109,
+   "n_peaks": 3.29,
+   "peak_shift_p10": -17.0,
+   "peak_shift_p90": 18.0,
+   "amp_ratio": 1.085,
+   "camp_ratio": 0.5
+  },
+  {
+   "kind": "center",
+   "width": 56,
+   "peak_shift": 0.245,
+   "trough_shift": 1.385,
+   "amp": 59.78,
+   "n_peaks": 2.14,
+   "peak_shift_p10": -12.0,
+   "peak_shift_p90": 14.099999999999994,
+   "amp_ratio": 0.996,
+   "camp_ratio": 0.25
+  },
+  {
+   "kind": "center",
+   "width": 91,
+   "peak_shift": 0.685,
+   "trough_shift": -0.065,
+   "amp": 55.12,
+   "n_peaks": 2.0,
+   "peak_shift_p10": -8.099999999999998,
+   "peak_shift_p90": 11.0,
+   "amp_ratio": 0.919,
+   "camp_ratio": 0.154
+  }
+ ],
+ "sens_noise_trailing_100reps": {
+  "15": [
+   {
+    "width": 7,
+    "peak_shift": 1.66,
+    "n_peaks": 16.45,
+    "peak_shift_sd": 13.29
+   },
+   {
+    "width": 28,
+    "peak_shift": 11.47,
+    "n_peaks": 3.0,
+    "peak_shift_sd": 10.09
+   }
+  ],
+  "30": [
+   {
+    "width": 7,
+    "peak_shift": 3.44,
+    "n_peaks": 46.86,
+    "peak_shift_sd": 18.25
+   },
+   {
+    "width": 28,
+    "peak_shift": 14.28,
+    "n_peaks": 3.34,
+    "peak_shift_sd": 13.39
+   }
+  ],
+  "60": [
+   {
+    "width": 7,
+    "peak_shift": -1.26,
+    "n_peaks": 87.8,
+    "peak_shift_sd": 25.82
+   },
+   {
+    "width": 28,
+    "peak_shift": 13.02,
+    "n_peaks": 12.91,
+    "peak_shift_sd": 21.55
+   }
+  ]
+ },
+ "camp_kept_by_len_trailing": {
+  "7": {
+   "7": 1.0,
+   "14": 0.5,
+   "28": 0.25,
+   "91": 0.077
+  },
+  "14": {
+   "7": 1.0,
+   "14": 1.0,
+   "28": 0.5,
+   "91": 0.154
+  },
+  "28": {
+   "7": 1.0,
+   "14": 1.0,
+   "28": 1.0,
+   "91": 0.308
+  }
+ },
+ "n_peaks_by_threshold_trailing_100reps": {
+  "5": {
+   "1": 202.66,
+   "7": 85.59,
+   "14": 39.01,
+   "28": 7.87,
+   "56": 2.84,
+   "91": 2.03
+  },
+  "10": {
+   "1": 192.88,
+   "7": 46.29,
+   "14": 14.27,
+   "28": 3.29,
+   "56": 2.15,
+   "91": 2.0
+  },
+  "20": {
+   "1": 172.82,
+   "7": 22.42,
+   "14": 4.59,
+   "28": 2.91,
+   "56": 2.0,
+   "91": 2.0
+  }
+ },
+ "peak_threshold": 10
+}
