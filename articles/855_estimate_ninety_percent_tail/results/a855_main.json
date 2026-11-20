@@ -1,0 +1,354 @@
+{
+ "steps_2000reps": [
+  {
+   "case": "長さ同じ・1人",
+   "sigma": 0.0,
+   "workers": 1,
+   "rework": 0.0,
+   "tail_share_mean": 0.1,
+   "tail_share_p10": 0.1,
+   "tail_share_p90": 0.1,
+   "naive_ratio_median": 1.0,
+   "left_len_ratio": 1.0,
+   "busy_workers_after90": 1.0,
+   "total_days_mean": 300.0
+  },
+  {
+   "case": "長さ同じ・5人",
+   "sigma": 0.0,
+   "workers": 5,
+   "rework": 0.0,
+   "tail_share_mean": 0.1,
+   "tail_share_p10": 0.1,
+   "tail_share_p90": 0.1,
+   "naive_ratio_median": 1.0,
+   "left_len_ratio": 1.0,
+   "busy_workers_after90": 5.0,
+   "total_days_mean": 60.0
+  },
+  {
+   "case": "長さばらつく・1人",
+   "sigma": 0.8,
+   "workers": 1,
+   "rework": 0.0,
+   "tail_share_mean": 0.1,
+   "tail_share_p10": 0.067,
+   "tail_share_p90": 0.139,
+   "naive_ratio_median": 0.96,
+   "left_len_ratio": 1.0,
+   "busy_workers_after90": 1.0,
+   "total_days_mean": 298.9
+  },
+  {
+   "case": "長さばらつく・5人",
+   "sigma": 0.8,
+   "workers": 5,
+   "rework": 0.0,
+   "tail_share_mean": 0.152,
+   "tail_share_p10": 0.088,
+   "tail_share_p90": 0.226,
+   "naive_ratio_median": 1.43,
+   "left_len_ratio": 1.36,
+   "busy_workers_after90": 3.2,
+   "total_days_mean": 64.1
+  },
+  {
+   "case": "長さばらつく・5人＋最後に手直し15%",
+   "sigma": 0.8,
+   "workers": 5,
+   "rework": 0.15,
+   "tail_share_mean": 0.227,
+   "tail_share_p10": 0.16,
+   "tail_share_p90": 0.303,
+   "naive_ratio_median": 2.53,
+   "left_len_ratio": 1.35,
+   "busy_workers_after90": 3.21,
+   "total_days_mean": 70.7
+  }
+ ],
+ "robustness_sigma_workers": [
+  {
+   "sigma": 0.2,
+   "workers": 1,
+   "tail_share_mean": 0.1,
+   "tail_share_p10": 0.092,
+   "tail_share_p90": 0.108,
+   "naive_ratio_median": 1.0,
+   "left_len_ratio": 1.0,
+   "busy_workers_after90": 1.0,
+   "total_days_mean": 300.0
+  },
+  {
+   "sigma": 0.2,
+   "workers": 3,
+   "tail_share_mean": 0.1,
+   "tail_share_p10": 0.09,
+   "tail_share_p90": 0.112,
+   "naive_ratio_median": 1.0,
+   "left_len_ratio": 1.01,
+   "busy_workers_after90": 2.67,
+   "total_days_mean": 101.2
+  },
+  {
+   "sigma": 0.2,
+   "workers": 5,
+   "tail_share_mean": 0.101,
+   "tail_share_p10": 0.089,
+   "tail_share_p90": 0.114,
+   "naive_ratio_median": 1.0,
+   "left_len_ratio": 1.02,
+   "busy_workers_after90": 3.94,
+   "total_days_mean": 61.3
+  },
+  {
+   "sigma": 0.2,
+   "workers": 10,
+   "tail_share_mean": 0.107,
+   "tail_share_p10": 0.087,
+   "tail_share_p90": 0.127,
+   "naive_ratio_median": 1.06,
+   "left_len_ratio": 1.04,
+   "busy_workers_after90": 5.08,
+   "total_days_mean": 31.7
+  },
+  {
+   "sigma": 0.2,
+   "workers": 20,
+   "tail_share_mean": 0.12,
+   "tail_share_p10": 0.084,
+   "tail_share_p90": 0.16,
+   "naive_ratio_median": 1.21,
+   "left_len_ratio": 1.08,
+   "busy_workers_after90": 4.55,
+   "total_days_mean": 16.9
+  },
+  {
+   "sigma": 0.5,
+   "workers": 1,
+   "tail_share_mean": 0.099,
+   "tail_share_p10": 0.082,
+   "tail_share_p90": 0.119,
+   "naive_ratio_median": 0.98,
+   "left_len_ratio": 0.99,
+   "busy_workers_after90": 1.0,
+   "total_days_mean": 301.2
+  },
+  {
+   "sigma": 0.5,
+   "workers": 3,
+   "tail_share_mean": 0.105,
+   "tail_share_p10": 0.084,
+   "tail_share_p90": 0.13,
+   "naive_ratio_median": 1.03,
+   "left_len_ratio": 1.06,
+   "busy_workers_after90": 2.61,
+   "total_days_mean": 101.6
+  },
+  {
+   "sigma": 0.5,
+   "workers": 5,
+   "tail_share_mean": 0.117,
+   "tail_share_p10": 0.086,
+   "tail_share_p90": 0.151,
+   "naive_ratio_median": 1.14,
+   "left_len_ratio": 1.11,
+   "busy_workers_after90": 3.61,
+   "total_days_mean": 62.1
+  },
+  {
+   "sigma": 0.5,
+   "workers": 10,
+   "tail_share_mean": 0.153,
+   "tail_share_p10": 0.099,
+   "tail_share_p90": 0.215,
+   "naive_ratio_median": 1.53,
+   "left_len_ratio": 1.26,
+   "busy_workers_after90": 4.18,
+   "total_days_mean": 33.1
+  },
+  {
+   "sigma": 0.5,
+   "workers": 20,
+   "tail_share_mean": 0.222,
+   "tail_share_p10": 0.14,
+   "tail_share_p90": 0.311,
+   "naive_ratio_median": 2.44,
+   "left_len_ratio": 1.5,
+   "busy_workers_after90": 3.86,
+   "total_days_mean": 18.9
+  },
+  {
+   "sigma": 0.8,
+   "workers": 1,
+   "tail_share_mean": 0.1,
+   "tail_share_p10": 0.068,
+   "tail_share_p90": 0.137,
+   "naive_ratio_median": 0.94,
+   "left_len_ratio": 1.0,
+   "busy_workers_after90": 1.0,
+   "total_days_mean": 300.9
+  },
+  {
+   "sigma": 0.8,
+   "workers": 3,
+   "tail_share_mean": 0.12,
+   "tail_share_p10": 0.076,
+   "tail_share_p90": 0.172,
+   "naive_ratio_median": 1.13,
+   "left_len_ratio": 1.17,
+   "busy_workers_after90": 2.47,
+   "total_days_mean": 102.4
+  },
+  {
+   "sigma": 0.8,
+   "workers": 5,
+   "tail_share_mean": 0.149,
+   "tail_share_p10": 0.088,
+   "tail_share_p90": 0.231,
+   "naive_ratio_median": 1.42,
+   "left_len_ratio": 1.34,
+   "busy_workers_after90": 3.19,
+   "total_days_mean": 63.5
+  },
+  {
+   "sigma": 0.8,
+   "workers": 10,
+   "tail_share_mean": 0.242,
+   "tail_share_p10": 0.134,
+   "tail_share_p90": 0.37,
+   "naive_ratio_median": 2.61,
+   "left_len_ratio": 1.77,
+   "busy_workers_after90": 3.49,
+   "total_days_mean": 36.6
+  },
+  {
+   "sigma": 0.8,
+   "workers": 20,
+   "tail_share_mean": 0.397,
+   "tail_share_p10": 0.248,
+   "tail_share_p90": 0.563,
+   "naive_ratio_median": 5.72,
+   "left_len_ratio": 2.46,
+   "busy_workers_after90": 3.3,
+   "total_days_mean": 24.4
+  },
+  {
+   "sigma": 1.2,
+   "workers": 1,
+   "tail_share_mean": 0.099,
+   "tail_share_p10": 0.05,
+   "tail_share_p90": 0.164,
+   "naive_ratio_median": 0.88,
+   "left_len_ratio": 0.99,
+   "busy_workers_after90": 1.0,
+   "total_days_mean": 300.8
+  },
+  {
+   "sigma": 1.2,
+   "workers": 3,
+   "tail_share_mean": 0.159,
+   "tail_share_p10": 0.068,
+   "tail_share_p90": 0.274,
+   "naive_ratio_median": 1.39,
+   "left_len_ratio": 1.53,
+   "busy_workers_after90": 2.22,
+   "total_days_mean": 106.0
+  },
+  {
+   "sigma": 1.2,
+   "workers": 5,
+   "tail_share_mean": 0.242,
+   "tail_share_p10": 0.106,
+   "tail_share_p90": 0.428,
+   "naive_ratio_median": 2.42,
+   "left_len_ratio": 2.09,
+   "busy_workers_after90": 2.64,
+   "total_days_mean": 71.8
+  },
+  {
+   "sigma": 1.2,
+   "workers": 10,
+   "tail_share_mean": 0.427,
+   "tail_share_p10": 0.227,
+   "tail_share_p90": 0.653,
+   "naive_ratio_median": 6.52,
+   "left_len_ratio": 3.12,
+   "busy_workers_after90": 2.8,
+   "total_days_mean": 47.3
+  },
+  {
+   "sigma": 1.2,
+   "workers": 20,
+   "tail_share_mean": 0.615,
+   "tail_share_p10": 0.433,
+   "tail_share_p90": 0.792,
+   "naive_ratio_median": 14.65,
+   "left_len_ratio": 4.1,
+   "busy_workers_after90": 2.98,
+   "total_days_mean": 38.4
+  }
+ ],
+ "robustness_rework": [
+  {
+   "rework": 0.0,
+   "tail_share_mean": 0.151,
+   "tail_share_p10": 0.088,
+   "tail_share_p90": 0.234,
+   "naive_ratio_median": 1.45,
+   "left_len_ratio": 1.35,
+   "busy_workers_after90": 3.22,
+   "total_days_mean": 64.0
+  },
+  {
+   "rework": 0.1,
+   "tail_share_mean": 0.209,
+   "tail_share_p10": 0.144,
+   "tail_share_p90": 0.29,
+   "naive_ratio_median": 2.23,
+   "left_len_ratio": 1.36,
+   "busy_workers_after90": 3.21,
+   "total_days_mean": 68.7
+  },
+  {
+   "rework": 0.15,
+   "tail_share_mean": 0.228,
+   "tail_share_p10": 0.161,
+   "tail_share_p90": 0.307,
+   "naive_ratio_median": 2.49,
+   "left_len_ratio": 1.34,
+   "busy_workers_after90": 3.19,
+   "total_days_mean": 70.5
+  },
+  {
+   "rework": 0.2,
+   "tail_share_mean": 0.243,
+   "tail_share_p10": 0.179,
+   "tail_share_p90": 0.319,
+   "naive_ratio_median": 2.72,
+   "left_len_ratio": 1.33,
+   "busy_workers_after90": 3.2,
+   "total_days_mean": 71.8
+  },
+  {
+   "rework": 0.3,
+   "tail_share_mean": 0.274,
+   "tail_share_p10": 0.211,
+   "tail_share_p90": 0.347,
+   "naive_ratio_median": 3.24,
+   "left_len_ratio": 1.34,
+   "busy_workers_after90": 3.22,
+   "total_days_mean": 75.0
+  }
+ ],
+ "one_run": {
+  "t90": 53.6,
+  "end": 62.0,
+  "tail_share": 0.136,
+  "left_tasks": 10,
+  "left_mean_len": 4.56,
+  "all_mean_len": 2.9,
+  "longest_task": 15.4,
+  "picked_seed": 8631,
+  "candidates_median_tail_share": 0.136
+ }
+}

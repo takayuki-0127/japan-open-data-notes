@@ -1,0 +1,325 @@
+{
+ "by_k": [
+  {
+   "K": 1,
+   "policy": "同時に回す",
+   "lead_days": 5.039,
+   "ratio": 1.0,
+   "all_done_days": 5.039,
+   "lost_share": 0.0
+  },
+  {
+   "K": 1,
+   "policy": "1件ずつ順に",
+   "lead_days": 5.039,
+   "ratio": 1.0,
+   "all_done_days": 5.039,
+   "lost_share": 0.0
+  },
+  {
+   "K": 2,
+   "policy": "同時に回す",
+   "lead_days": 9.495,
+   "ratio": 1.929,
+   "all_done_days": 10.867,
+   "lost_share": 0.086
+  },
+  {
+   "K": 2,
+   "policy": "1件ずつ順に",
+   "lead_days": 7.51,
+   "ratio": 1.508,
+   "all_done_days": 9.978,
+   "lost_share": 0.004
+  },
+  {
+   "K": 3,
+   "policy": "同時に回す",
+   "lead_days": 13.601,
+   "ratio": 2.766,
+   "all_done_days": 16.451,
+   "lost_share": 0.097
+  },
+  {
+   "K": 3,
+   "policy": "1件ずつ順に",
+   "lead_days": 9.959,
+   "ratio": 2.008,
+   "all_done_days": 14.935,
+   "lost_share": 0.005
+  },
+  {
+   "K": 4,
+   "policy": "同時に回す",
+   "lead_days": 17.673,
+   "ratio": 3.587,
+   "all_done_days": 22.099,
+   "lost_share": 0.101
+  },
+  {
+   "K": 4,
+   "policy": "1件ずつ順に",
+   "lead_days": 12.489,
+   "ratio": 2.513,
+   "all_done_days": 19.968,
+   "lost_share": 0.005
+  },
+  {
+   "K": 5,
+   "policy": "同時に回す",
+   "lead_days": 21.957,
+   "ratio": 4.401,
+   "all_done_days": 27.988,
+   "lost_share": 0.104
+  },
+  {
+   "K": 5,
+   "policy": "1件ずつ順に",
+   "lead_days": 15.058,
+   "ratio": 3.002,
+   "all_done_days": 25.223,
+   "lost_share": 0.005
+  },
+  {
+   "K": 6,
+   "policy": "同時に回す",
+   "lead_days": 25.842,
+   "ratio": 5.216,
+   "all_done_days": 33.435,
+   "lost_share": 0.106
+  },
+  {
+   "K": 6,
+   "policy": "1件ずつ順に",
+   "lead_days": 17.464,
+   "ratio": 3.506,
+   "all_done_days": 30.069,
+   "lost_share": 0.005
+  },
+  {
+   "K": 7,
+   "policy": "同時に回す",
+   "lead_days": 30.008,
+   "ratio": 6.04,
+   "all_done_days": 39.117,
+   "lost_share": 0.107
+  },
+  {
+   "K": 7,
+   "policy": "1件ずつ順に",
+   "lead_days": 20.054,
+   "ratio": 4.017,
+   "all_done_days": 35.147,
+   "lost_share": 0.006
+  },
+  {
+   "K": 8,
+   "policy": "同時に回す",
+   "lead_days": 34.029,
+   "ratio": 6.856,
+   "all_done_days": 44.682,
+   "lost_share": 0.107
+  },
+  {
+   "K": 8,
+   "policy": "1件ずつ順に",
+   "lead_days": 22.523,
+   "ratio": 4.521,
+   "all_done_days": 40.111,
+   "lost_share": 0.006
+  }
+ ],
+ "robustness_c_L_k5": [
+  {
+   "c_hours": 0.0,
+   "L_hours": 1.0,
+   "conc_ratio": 3.911,
+   "seq_ratio": 2.987,
+   "conc_all_done_days": 24.998,
+   "seq_all_done_days": 24.998,
+   "conc_lost_share": 0.0
+  },
+  {
+   "c_hours": 0.0,
+   "L_hours": 2.0,
+   "conc_ratio": 3.935,
+   "seq_ratio": 3.005,
+   "conc_all_done_days": 24.81,
+   "seq_all_done_days": 24.81,
+   "conc_lost_share": 0.0
+  },
+  {
+   "c_hours": 0.0,
+   "L_hours": 4.0,
+   "conc_ratio": 3.914,
+   "seq_ratio": 2.986,
+   "conc_all_done_days": 25.316,
+   "seq_all_done_days": 25.316,
+   "conc_lost_share": 0.0
+  },
+  {
+   "c_hours": 0.0,
+   "L_hours": 8.0,
+   "conc_ratio": 3.901,
+   "seq_ratio": 2.985,
+   "conc_all_done_days": 24.709,
+   "seq_all_done_days": 24.709,
+   "conc_lost_share": 0.0
+  },
+  {
+   "c_hours": 0.25,
+   "L_hours": 1.0,
+   "conc_ratio": 4.887,
+   "seq_ratio": 3.01,
+   "conc_all_done_days": 30.696,
+   "seq_all_done_days": 25.117,
+   "conc_lost_share": 0.186
+  },
+  {
+   "c_hours": 0.25,
+   "L_hours": 2.0,
+   "conc_ratio": 4.386,
+   "seq_ratio": 3.006,
+   "conc_all_done_days": 27.968,
+   "seq_all_done_days": 25.209,
+   "conc_lost_share": 0.104
+  },
+  {
+   "c_hours": 0.25,
+   "L_hours": 4.0,
+   "conc_ratio": 4.157,
+   "seq_ratio": 2.995,
+   "conc_all_done_days": 26.287,
+   "seq_all_done_days": 24.953,
+   "conc_lost_share": 0.056
+  },
+  {
+   "c_hours": 0.25,
+   "L_hours": 8.0,
+   "conc_ratio": 4.039,
+   "seq_ratio": 3.023,
+   "conc_all_done_days": 25.811,
+   "seq_all_done_days": 25.17,
+   "conc_lost_share": 0.03
+  },
+  {
+   "c_hours": 0.5,
+   "L_hours": 1.0,
+   "conc_ratio": 5.841,
+   "seq_ratio": 3.027,
+   "conc_all_done_days": 36.256,
+   "seq_all_done_days": 25.125,
+   "conc_lost_share": 0.314
+  },
+  {
+   "c_hours": 0.5,
+   "L_hours": 2.0,
+   "conc_ratio": 4.848,
+   "seq_ratio": 3.022,
+   "conc_all_done_days": 31.065,
+   "seq_all_done_days": 25.528,
+   "conc_lost_share": 0.187
+  },
+  {
+   "c_hours": 0.5,
+   "L_hours": 4.0,
+   "conc_ratio": 4.418,
+   "seq_ratio": 3.028,
+   "conc_all_done_days": 28.014,
+   "seq_all_done_days": 25.305,
+   "conc_lost_share": 0.106
+  },
+  {
+   "c_hours": 0.5,
+   "L_hours": 8.0,
+   "conc_ratio": 4.14,
+   "seq_ratio": 3.03,
+   "conc_all_done_days": 26.712,
+   "seq_all_done_days": 25.426,
+   "conc_lost_share": 0.058
+  },
+  {
+   "c_hours": 1.0,
+   "L_hours": 1.0,
+   "conc_ratio": 7.727,
+   "seq_ratio": 3.057,
+   "conc_all_done_days": 47.952,
+   "seq_all_done_days": 25.654,
+   "conc_lost_share": 0.476
+  },
+  {
+   "c_hours": 1.0,
+   "L_hours": 2.0,
+   "conc_ratio": 5.854,
+   "seq_ratio": 3.072,
+   "conc_all_done_days": 36.761,
+   "seq_all_done_days": 25.654,
+   "conc_lost_share": 0.316
+  },
+  {
+   "c_hours": 1.0,
+   "L_hours": 4.0,
+   "conc_ratio": 4.9,
+   "seq_ratio": 3.05,
+   "conc_all_done_days": 30.847,
+   "seq_all_done_days": 25.483,
+   "conc_lost_share": 0.191
+  },
+  {
+   "c_hours": 1.0,
+   "L_hours": 8.0,
+   "conc_ratio": 4.382,
+   "seq_ratio": 3.045,
+   "conc_all_done_days": 28.251,
+   "seq_all_done_days": 25.682,
+   "conc_lost_share": 0.109
+  }
+ ],
+ "robustness_sigma_k5": [
+  {
+   "sigma": 0.0,
+   "conc_ratio": 5.506,
+   "seq_ratio": 3.012,
+   "conc_lead_days": 27.531,
+   "seq_lead_days": 15.062
+  },
+  {
+   "sigma": 0.5,
+   "conc_ratio": 4.389,
+   "seq_ratio": 3.019,
+   "conc_lead_days": 21.609,
+   "seq_lead_days": 14.984
+  },
+  {
+   "sigma": 1.0,
+   "conc_ratio": 3.432,
+   "seq_ratio": 3.018,
+   "conc_lead_days": 16.442,
+   "seq_lead_days": 15.153
+  }
+ ],
+ "one_run_k5": {
+  "work_hours": [
+   39.3,
+   48.7,
+   92.6,
+   32.9,
+   22.2
+  ],
+  "conc_finish_days": [
+   24.0,
+   26.9,
+   32.5,
+   22.1,
+   16.6
+  ],
+  "seq_finish_days": [
+   4.9,
+   11.0,
+   22.6,
+   26.8,
+   29.6
+  ],
+  "conc_lost_hours": 24.5
+ }
+}

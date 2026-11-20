@@ -1,0 +1,265 @@
+{
+ "by_leave_time": [
+  {
+   "leave_at": 0.2,
+   "base_days_mean": 52.4,
+   "ext_mean": 12.0,
+   "ext_p10": 7.7,
+   "ext_p90": 16.3,
+   "naive_ext_mean": 9.4,
+   "ratio_mean_ext_to_naive": 1.29,
+   "ext_pct_of_plan": 23.3
+  },
+  {
+   "leave_at": 0.5,
+   "base_days_mean": 52.5,
+   "ext_mean": 7.0,
+   "ext_p10": 3.4,
+   "ext_p90": 10.6,
+   "naive_ext_mean": 5.4,
+   "ratio_mean_ext_to_naive": 1.28,
+   "ext_pct_of_plan": 13.5
+  },
+  {
+   "leave_at": 0.8,
+   "base_days_mean": 52.6,
+   "ext_mean": 2.2,
+   "ext_p10": 0.0,
+   "ext_p90": 5.2,
+   "naive_ext_mean": 1.6,
+   "ratio_mean_ext_to_naive": 1.42,
+   "ext_pct_of_plan": 4.4
+  }
+ ],
+ "robustness_m_h": [
+  {
+   "m": 1.0,
+   "h": 0.0,
+   "base_days_mean": 50.7,
+   "ext_mean": 5.2,
+   "ext_p10": 2.9,
+   "ext_p90": 7.5,
+   "naive_ext_mean": 5.6,
+   "ratio_mean_ext_to_naive": 0.93,
+   "ext_pct_of_plan": 10.4
+  },
+  {
+   "m": 1.0,
+   "h": 3.0,
+   "base_days_mean": 51.7,
+   "ext_mean": 5.9,
+   "ext_p10": 2.9,
+   "ext_p90": 8.4,
+   "naive_ext_mean": 5.7,
+   "ratio_mean_ext_to_naive": 1.04,
+   "ext_pct_of_plan": 11.7
+  },
+  {
+   "m": 1.0,
+   "h": 6.0,
+   "base_days_mean": 51.5,
+   "ext_mean": 6.7,
+   "ext_p10": 3.4,
+   "ext_p90": 9.5,
+   "naive_ext_mean": 5.6,
+   "ratio_mean_ext_to_naive": 1.18,
+   "ext_pct_of_plan": 13.2
+  },
+  {
+   "m": 1.3,
+   "h": 0.0,
+   "base_days_mean": 52.8,
+   "ext_mean": 6.1,
+   "ext_p10": 1.9,
+   "ext_p90": 9.9,
+   "naive_ext_mean": 5.4,
+   "ratio_mean_ext_to_naive": 1.12,
+   "ext_pct_of_plan": 11.7
+  },
+  {
+   "m": 1.3,
+   "h": 3.0,
+   "base_days_mean": 52.9,
+   "ext_mean": 6.9,
+   "ext_p10": 2.7,
+   "ext_p90": 10.9,
+   "naive_ext_mean": 5.5,
+   "ratio_mean_ext_to_naive": 1.27,
+   "ext_pct_of_plan": 13.4
+  },
+  {
+   "m": 1.3,
+   "h": 6.0,
+   "base_days_mean": 52.7,
+   "ext_mean": 7.7,
+   "ext_p10": 3.2,
+   "ext_p90": 11.6,
+   "naive_ext_mean": 5.4,
+   "ratio_mean_ext_to_naive": 1.42,
+   "ext_pct_of_plan": 15.0
+  },
+  {
+   "m": 1.6,
+   "h": 0.0,
+   "base_days_mean": 54.2,
+   "ext_mean": 7.2,
+   "ext_p10": 1.9,
+   "ext_p90": 12.4,
+   "naive_ext_mean": 5.2,
+   "ratio_mean_ext_to_naive": 1.37,
+   "ext_pct_of_plan": 13.6
+  },
+  {
+   "m": 1.6,
+   "h": 3.0,
+   "base_days_mean": 54.4,
+   "ext_mean": 7.7,
+   "ext_p10": 2.6,
+   "ext_p90": 12.8,
+   "naive_ext_mean": 5.2,
+   "ratio_mean_ext_to_naive": 1.47,
+   "ext_pct_of_plan": 14.5
+  },
+  {
+   "m": 1.6,
+   "h": 6.0,
+   "base_days_mean": 54.1,
+   "ext_mean": 9.0,
+   "ext_p10": 3.7,
+   "ext_p90": 14.5,
+   "naive_ext_mean": 5.3,
+   "ratio_mean_ext_to_naive": 1.71,
+   "ext_pct_of_plan": 17.0
+  }
+ ],
+ "robustness_team": [
+  {
+   "team": 3,
+   "leave_at": 0.2,
+   "base_days_mean": 50.7,
+   "ext_mean": 24.4,
+   "ext_p10": 19.6,
+   "ext_p90": 29.4,
+   "naive_ext_mean": 18.7,
+   "ratio_mean_ext_to_naive": 1.31,
+   "ext_pct_of_plan": 48.3
+  },
+  {
+   "team": 3,
+   "leave_at": 0.5,
+   "base_days_mean": 51.5,
+   "ext_mean": 14.7,
+   "ext_p10": 10.3,
+   "ext_p90": 18.9,
+   "naive_ext_mean": 11.2,
+   "ratio_mean_ext_to_naive": 1.31,
+   "ext_pct_of_plan": 28.8
+  },
+  {
+   "team": 3,
+   "leave_at": 0.8,
+   "base_days_mean": 51.5,
+   "ext_mean": 4.9,
+   "ext_p10": 0.0,
+   "ext_p90": 8.1,
+   "naive_ext_mean": 3.6,
+   "ratio_mean_ext_to_naive": 1.36,
+   "ext_pct_of_plan": 9.7
+  },
+  {
+   "team": 5,
+   "leave_at": 0.2,
+   "base_days_mean": 52.6,
+   "ext_mean": 11.8,
+   "ext_p10": 7.8,
+   "ext_p90": 16.2,
+   "naive_ext_mean": 9.4,
+   "ratio_mean_ext_to_naive": 1.26,
+   "ext_pct_of_plan": 22.7
+  },
+  {
+   "team": 5,
+   "leave_at": 0.5,
+   "base_days_mean": 52.7,
+   "ext_mean": 7.0,
+   "ext_p10": 2.9,
+   "ext_p90": 10.9,
+   "naive_ext_mean": 5.5,
+   "ratio_mean_ext_to_naive": 1.29,
+   "ext_pct_of_plan": 13.6
+  },
+  {
+   "team": 5,
+   "leave_at": 0.8,
+   "base_days_mean": 52.2,
+   "ext_mean": 2.2,
+   "ext_p10": 0.0,
+   "ext_p90": 5.2,
+   "naive_ext_mean": 1.6,
+   "ratio_mean_ext_to_naive": 1.43,
+   "ext_pct_of_plan": 4.4
+  },
+  {
+   "team": 8,
+   "leave_at": 0.2,
+   "base_days_mean": 53.5,
+   "ext_mean": 6.8,
+   "ext_p10": 2.9,
+   "ext_p90": 10.9,
+   "naive_ext_mean": 5.3,
+   "ratio_mean_ext_to_naive": 1.29,
+   "ext_pct_of_plan": 13.0
+  },
+  {
+   "team": 8,
+   "leave_at": 0.5,
+   "base_days_mean": 53.5,
+   "ext_mean": 3.7,
+   "ext_p10": 0.0,
+   "ext_p90": 7.3,
+   "naive_ext_mean": 3.0,
+   "ratio_mean_ext_to_naive": 1.22,
+   "ext_pct_of_plan": 7.1
+  },
+  {
+   "team": 8,
+   "leave_at": 0.8,
+   "base_days_mean": 53.5,
+   "ext_mean": 1.2,
+   "ext_p10": 0.0,
+   "ext_p90": 3.5,
+   "naive_ext_mean": 0.8,
+   "ratio_mean_ext_to_naive": 1.48,
+   "ext_pct_of_plan": 2.3
+  }
+ ],
+ "policy": [
+  {
+   "policy": "自分の受け持ちを先に",
+   "base_days_mean": 52.5,
+   "ext_mean": 7.0,
+   "ext_p10": 3.0,
+   "ext_p90": 10.5,
+   "naive_ext_mean": 5.4,
+   "ratio_mean_ext_to_naive": 1.28,
+   "ext_pct_of_plan": 13.5
+  },
+  {
+   "policy": "抜けた人の受け持ちを先に",
+   "base_days_mean": 52.5,
+   "ext_mean": 7.3,
+   "ext_p10": 4.3,
+   "ext_p90": 10.3,
+   "naive_ext_mean": 5.4,
+   "ratio_mean_ext_to_naive": 1.35,
+   "ext_pct_of_plan": 14.2
+  }
+ ],
+ "one_run": {
+  "base": 48.4,
+  "finish": 55.5,
+  "ext": 7.1,
+  "naive_ext": 5.1,
+  "remaining_at_leave": 102.0
+ }
+}
