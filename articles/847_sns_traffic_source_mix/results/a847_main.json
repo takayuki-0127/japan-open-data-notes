@@ -1,0 +1,161 @@
+{
+ "sources": [
+  "検索",
+  "おすすめ表示",
+  "外部リンク",
+  "SNSの共有"
+ ],
+ "rate_level": [
+  0.55,
+  0.25,
+  0.45,
+  0.4
+ ],
+ "base": {
+  "gap": 1.0,
+  "q_sd": 0.05,
+  "mix_conc": 1.5,
+  "link": 0.0,
+  "feed_mult": 1.0,
+  "feed_noise": 0.0
+ },
+ "n_video": 120,
+ "reps": 300,
+ "top10_hit_random_baseline": 0.083,
+ "months": {
+  "overall_m1": 0.4219,
+  "overall_m2": 0.3541,
+  "overall_m2_fixed_mix": 0.4436,
+  "feed_share_m1": 0.3,
+  "feed_share_m2": 0.667,
+  "by_source": [
+   {
+    "source": "検索",
+    "views_m1": 40000,
+    "done_m1": 22068,
+    "rate_m1": 0.5517,
+    "views_m2": 40000,
+    "done_m2": 22711,
+    "rate_m2": 0.5678
+   },
+   {
+    "source": "おすすめ表示",
+    "views_m1": 30000,
+    "done_m1": 7453,
+    "rate_m1": 0.2484,
+    "views_m2": 140000,
+    "done_m2": 38190,
+    "rate_m2": 0.2728
+   },
+   {
+    "source": "外部リンク",
+    "views_m1": 15000,
+    "done_m1": 6748,
+    "rate_m1": 0.4499,
+    "views_m2": 15000,
+    "done_m2": 7167,
+    "rate_m2": 0.4778
+   },
+   {
+    "source": "SNSの共有",
+    "views_m1": 15000,
+    "done_m1": 5919,
+    "rate_m1": 0.3946,
+    "views_m2": 15000,
+    "done_m2": 6301,
+    "rate_m2": 0.4201
+   },
+   {
+    "source": "合計",
+    "views_m1": 100000,
+    "done_m1": 42188,
+    "rate_m1": 0.4219,
+    "views_m2": 210000,
+    "done_m2": 74369,
+    "rate_m2": 0.3541
+   }
+  ]
+ },
+ "one_run": {
+  "rank_corr_overall": 0.575,
+  "rank_corr_adjusted": 0.984,
+  "top10_hit_overall": 0.6,
+  "top10_hit_adjusted": 0.9,
+  "feed_share_median_all": 0.494,
+  "feed_share_median_top10_overall": 0.176,
+  "feed_share_median_top10_true": 0.306,
+  "rank_corr_overall_vs_feed_share": -0.812
+ },
+ "videos_cases": [
+  {
+   "case": "基本（流入元の差そのまま・中身の差0.05・内訳のばらつき大）",
+   "rank_corr_overall": 0.596,
+   "rank_corr_adjusted": 0.988,
+   "top10_hit_overall": 0.384,
+   "top10_hit_adjusted": 0.891
+  },
+  {
+   "case": "流入元どうしの差を半分",
+   "rank_corr_overall": 0.829,
+   "rank_corr_adjusted": 0.987,
+   "top10_hit_overall": 0.592,
+   "top10_hit_adjusted": 0.898
+  },
+  {
+   "case": "流入元どうしの差なし",
+   "rank_corr_overall": 0.988,
+   "rank_corr_adjusted": 0.987,
+   "top10_hit_overall": 0.892,
+   "top10_hit_adjusted": 0.89
+  },
+  {
+   "case": "中身の差を大きく（0.10）",
+   "rank_corr_overall": 0.837,
+   "rank_corr_adjusted": 0.996,
+   "top10_hit_overall": 0.572,
+   "top10_hit_adjusted": 0.941
+  },
+  {
+   "case": "中身の差を小さく（0.02）",
+   "rank_corr_overall": 0.284,
+   "rank_corr_adjusted": 0.943,
+   "top10_hit_overall": 0.218,
+   "top10_hit_adjusted": 0.782
+  },
+  {
+   "case": "内訳のばらつきを小さく",
+   "rank_corr_overall": 0.826,
+   "rank_corr_adjusted": 0.989,
+   "top10_hit_overall": 0.577,
+   "top10_hit_adjusted": 0.895
+  },
+  {
+   "case": "良い動画ほどおすすめ表示が多い",
+   "rank_corr_overall": 0.361,
+   "rank_corr_adjusted": 0.982,
+   "top10_hit_overall": 0.206,
+   "top10_hit_adjusted": 0.864
+  },
+  {
+   "case": "良い動画ほどおすすめ表示が少ない",
+   "rank_corr_overall": 0.778,
+   "rank_corr_adjusted": 0.981,
+   "top10_hit_overall": 0.565,
+   "top10_hit_adjusted": 0.866
+  },
+  {
+   "case": "おすすめ表示では中身が半分しか効かない",
+   "rank_corr_overall": 0.481,
+   "rank_corr_adjusted": 0.974,
+   "top10_hit_overall": 0.325,
+   "top10_hit_adjusted": 0.781
+  },
+  {
+   "case": "おすすめ表示の完了率が中身と別に振れる（0.05）",
+   "rank_corr_overall": 0.568,
+   "rank_corr_adjusted": 0.856,
+   "top10_hit_overall": 0.405,
+   "top10_hit_adjusted": 0.626
+  }
+ ]
+}

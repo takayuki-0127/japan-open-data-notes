@@ -1,0 +1,181 @@
+{
+ "base": {
+  "judge_sd": 1.0,
+  "tag_rate": 0.4,
+  "beta": 0.8,
+  "tau": 0.0,
+  "noise": 0.6,
+  "mode": "上位に付ける"
+ },
+ "n_post": 2000,
+ "reps": 300,
+ "one_run": {
+  "n_tag": 800,
+  "n_untag": 1200,
+  "median_tag": 1652.0,
+  "median_untag": 736.0,
+  "ratio_naive": 2.245,
+  "ratio_by_genre": 2.086,
+  "strength_mean_tag": 0.679,
+  "strength_mean_untag": -0.469,
+  "top100_tag_share": 0.87
+ },
+ "methods": [
+  {
+   "method": "素朴に比べる",
+   "mean": 2.455,
+   "p05": 2.24,
+   "median": 2.454,
+   "p95": 2.655
+  },
+  {
+   "method": "ジャンルをそろえる",
+   "mean": 2.205,
+   "p05": 2.03,
+   "median": 2.208,
+   "p95": 2.376
+  },
+  {
+   "method": "無作為に付けて比べる",
+   "mean": 0.999,
+   "p05": 0.908,
+   "median": 1.001,
+   "p95": 1.087
+  }
+ ],
+ "share_naive_over_1_2": 1.0,
+ "share_random_over_1_2": 0.0,
+ "judge_accuracy": [
+  {
+   "mode": "上位に付ける",
+   "judge_sd": 0.25,
+   "ratio_naive_median": 3.3,
+   "ratio_by_genre_median": 3.057
+  },
+  {
+   "mode": "下位に付ける",
+   "judge_sd": 0.25,
+   "ratio_naive_median": 0.302,
+   "ratio_by_genre_median": 0.325
+  },
+  {
+   "mode": "上位に付ける",
+   "judge_sd": 0.5,
+   "ratio_naive_median": 3.059,
+   "ratio_by_genre_median": 2.778
+  },
+  {
+   "mode": "下位に付ける",
+   "judge_sd": 0.5,
+   "ratio_naive_median": 0.329,
+   "ratio_by_genre_median": 0.36
+  },
+  {
+   "mode": "上位に付ける",
+   "judge_sd": 1.0,
+   "ratio_naive_median": 2.459,
+   "ratio_by_genre_median": 2.214
+  },
+  {
+   "mode": "下位に付ける",
+   "judge_sd": 1.0,
+   "ratio_naive_median": 0.408,
+   "ratio_by_genre_median": 0.455
+  },
+  {
+   "mode": "上位に付ける",
+   "judge_sd": 2.0,
+   "ratio_naive_median": 1.773,
+   "ratio_by_genre_median": 1.626
+  },
+  {
+   "mode": "下位に付ける",
+   "judge_sd": 2.0,
+   "ratio_naive_median": 0.563,
+   "ratio_by_genre_median": 0.614
+  },
+  {
+   "mode": "上位に付ける",
+   "judge_sd": 4.0,
+   "ratio_naive_median": 1.368,
+   "ratio_by_genre_median": 1.303
+  },
+  {
+   "mode": "下位に付ける",
+   "judge_sd": 4.0,
+   "ratio_naive_median": 0.732,
+   "ratio_by_genre_median": 0.774
+  },
+  {
+   "mode": "無作為に付ける",
+   "judge_sd": NaN,
+   "ratio_naive_median": 1.001,
+   "ratio_by_genre_median": 0.997
+  }
+ ],
+ "robustness": [
+  {
+   "case": "基本（効果0・上位4割・見積もり誤差1・中身の効き0.8）",
+   "true_ratio": 1.0,
+   "naive_median": 2.447,
+   "by_genre_median": 2.206,
+   "random_median": 1.001
+  },
+  {
+   "case": "本当の効果 +10%",
+   "true_ratio": 1.1,
+   "naive_median": 2.691,
+   "by_genre_median": 2.421,
+   "random_median": 1.095
+  },
+  {
+   "case": "本当の効果 −10%",
+   "true_ratio": 0.9,
+   "naive_median": 2.226,
+   "by_genre_median": 1.99,
+   "random_median": 0.9
+  },
+  {
+   "case": "タグを付ける割合 2割",
+   "true_ratio": 1.0,
+   "naive_median": 2.642,
+   "by_genre_median": 2.371,
+   "random_median": 1.004
+  },
+  {
+   "case": "タグを付ける割合 6割",
+   "true_ratio": 1.0,
+   "naive_median": 2.46,
+   "by_genre_median": 2.217,
+   "random_median": 0.997
+  },
+  {
+   "case": "中身が再生数に効く強さ 0.4",
+   "true_ratio": 1.0,
+   "naive_median": 1.573,
+   "by_genre_median": 1.494,
+   "random_median": 1.001
+  },
+  {
+   "case": "中身が再生数に効く強さ 1.2",
+   "true_ratio": 1.0,
+   "naive_median": 3.813,
+   "by_genre_median": 3.251,
+   "random_median": 0.993
+  },
+  {
+   "case": "再生数のたまたまの振れ 0.3",
+   "true_ratio": 1.0,
+   "naive_median": 2.458,
+   "by_genre_median": 2.193,
+   "random_median": 0.993
+  },
+  {
+   "case": "再生数のたまたまの振れ 1.0",
+   "true_ratio": 1.0,
+   "naive_median": 2.485,
+   "by_genre_median": 2.224,
+   "random_median": 0.989
+  }
+ ]
+}
