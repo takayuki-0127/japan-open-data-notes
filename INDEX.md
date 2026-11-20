@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 523本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 535本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -23,7 +23,7 @@
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 278 |
+| その他（記述・要因分解など） | 290 |
 
 <details><summary><b>予測・時系列</b>（137本）</summary>
 
@@ -1292,7 +1292,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（278本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（290本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1574,6 +1574,18 @@
 | 787 | 標準化した係数の大きさで変数の大事さを並べると、データのばらつき方でどれだけ順位が変わるのか？ | [787_standardized_coef_importance](articles/787_standardized_coef_importance) |
 | 792 | 率の列に「0.05」と「5」が混ざっていると、平均はどれだけずれるのか？ | [792_percent_scale_mix](articles/792_percent_scale_mix) |
 | 794 | 1つの商品が2つのカテゴリに入る表でカテゴリ別に売上を足すと、全体の何倍になるのか？ | [794_multi_category_double_count](articles/794_multi_category_double_count) |
+| 801 | 星4.8（5件）と星4.3（500件）は、どちらが良い店か？ | [801_review_stars_few_vs_many](articles/801_review_stars_few_vs_many) |
+| 802 | 星の平均で「普通」の多さは見えるのか？ | [802_review_jshape_distribution](articles/802_review_jshape_distribution) |
+| 803 | 口コミを書かなかった人の満足度は、口コミの平均とどれだけ違うのか？ | [803_review_who_writes](articles/803_review_who_writes) |
+| 804 | サクラの投稿を何%混ぜると、順位は何位上がるのか？ | [804_review_fake_share_rank](articles/804_review_fake_share_rank) |
+| 805 | 改善した店の星の平均は、古い口コミのせいでいつ追いつくのか？ | [805_review_improved_shop_catchup](articles/805_review_improved_shop_catchup) |
+| 806 | 「参考になった」順に並べると、最初の口コミが上に残り続けるのか？ | [806_review_helpful_order_first_mover](articles/806_review_helpful_order_first_mover) |
+| 807 | 星だけの人と、文章も書いた人で、平均はどれだけ違うのか？ | [807_review_star_only_vs_text](articles/807_review_star_only_vs_text) |
+| 808 | 5段階と10段階と「おすすめ度0〜10」で、同じ満足度はどう見えるのか？ | [808_review_scale_5_10_nps](articles/808_review_scale_5_10_nps) |
+| 809 | 星3.9と4.0の境目で、選ばれ方はどれだけ変わるのか？ | [809_review_threshold_3_9_vs_4_0](articles/809_review_threshold_3_9_vs_4_0) |
+| 810 | 低評価に返信した店は、その後の平均が上がるのか？ | [810_review_reply_selection](articles/810_review_reply_selection) |
+| 811 | カテゴリの1位は、実力か件数の少なさか？ | [811_review_category_top1](articles/811_review_category_top1) |
+| 812 | 「4.5以上」で絞り込むと、良い店は何%外れるのか？ | [812_review_filter_4_5](articles/812_review_filter_4_5) |
 
 </details>
 
@@ -1582,7 +1594,7 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 165 |
+| 小売・店舗 | 175 |
 | EC・会員・Web | 93 |
 | マーケティング・広告 | 21 |
 | 需要予測・在庫 | 31 |
@@ -1591,7 +1603,7 @@
 | 保険 | 72 |
 | 公的統計・地域・人口 | 433 |
 
-<details><summary><b>小売・店舗</b>（165本）</summary>
+<details><summary><b>小売・店舗</b>（175本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1760,6 +1772,16 @@
 | 784 | 法人のまとめ買いを混ぜたまま客単価を見ると、個人の客単価はどれだけ高く見えるのか？ | [784_bulk_buyer_mixing](articles/784_bulk_buyer_mixing) |
 | 791 | 0で割るのを NULLIF で避けると、その店は平均から黙って消え、全体の率はどれだけ変わるのか？ | [791_nullif_drop_from_avg](articles/791_nullif_drop_from_avg) |
 | 794 | 1つの商品が2つのカテゴリに入る表でカテゴリ別に売上を足すと、全体の何倍になるのか？ | [794_multi_category_double_count](articles/794_multi_category_double_count) |
+| 801 | 星4.8（5件）と星4.3（500件）は、どちらが良い店か？ | [801_review_stars_few_vs_many](articles/801_review_stars_few_vs_many) |
+| 802 | 星の平均で「普通」の多さは見えるのか？ | [802_review_jshape_distribution](articles/802_review_jshape_distribution) |
+| 803 | 口コミを書かなかった人の満足度は、口コミの平均とどれだけ違うのか？ | [803_review_who_writes](articles/803_review_who_writes) |
+| 804 | サクラの投稿を何%混ぜると、順位は何位上がるのか？ | [804_review_fake_share_rank](articles/804_review_fake_share_rank) |
+| 805 | 改善した店の星の平均は、古い口コミのせいでいつ追いつくのか？ | [805_review_improved_shop_catchup](articles/805_review_improved_shop_catchup) |
+| 807 | 星だけの人と、文章も書いた人で、平均はどれだけ違うのか？ | [807_review_star_only_vs_text](articles/807_review_star_only_vs_text) |
+| 809 | 星3.9と4.0の境目で、選ばれ方はどれだけ変わるのか？ | [809_review_threshold_3_9_vs_4_0](articles/809_review_threshold_3_9_vs_4_0) |
+| 810 | 低評価に返信した店は、その後の平均が上がるのか？ | [810_review_reply_selection](articles/810_review_reply_selection) |
+| 811 | カテゴリの1位は、実力か件数の少なさか？ | [811_review_category_top1](articles/811_review_category_top1) |
+| 812 | 「4.5以上」で絞り込むと、良い店は何%外れるのか？ | [812_review_filter_4_5](articles/812_review_filter_4_5) |
 
 </details>
 
