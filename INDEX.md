@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 547本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 559本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,22 +10,22 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 137 |
+| 予測・時系列 | 138 |
 | 因果推論・効果検証 | 63 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 300 |
+| 統計の考え方（検定・区間・回帰） | 301 |
 | 機械学習・モデル評価 | 103 |
-| 顧客分析・生存分析 | 64 |
+| 顧客分析・生存分析 | 66 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 153 |
-| 可視化・報告・BI | 41 |
+| 集計の定義・KPI | 156 |
+| 可視化・報告・BI | 46 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 302 |
+| その他（記述・要因分解など） | 305 |
 
-<details><summary><b>予測・時系列</b>（137本）</summary>
+<details><summary><b>予測・時系列</b>（138本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -166,6 +166,7 @@
 | 767 | カテゴリを1・2・3の数にして線形回帰に入れると、ダミー変数と比べて予測はどれだけ悪くなるのか？ | [767_label_encoding_linear](articles/767_label_encoding_linear) |
 | 768 | 強く相関する変数があるとき、部分依存の図はどれだけ本当の効き方とずれるのか？ | [768_pdp_correlated_features](articles/768_pdp_correlated_features) |
 | 799 | 季節の波を月のダミー変数で表すか、フーリエ項で表すかで、予測の誤差はどれだけ違うのか？ | [799_fourier_vs_dummy_seasonality](articles/799_fourier_vs_dummy_seasonality) |
+| 819 | 移動平均の幅で、山と谷はどれだけ動くのか？ | [819_graph_moving_average_window](articles/819_graph_moving_average_window) |
 
 </details>
 
@@ -273,7 +274,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（300本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（301本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -577,6 +578,7 @@
 | 797 | 2つの95%区間が重なっていたら「差なし」と読むと、本当は差がある場合を何%見逃すのか？ | [797_ci_overlap_rule](articles/797_ci_overlap_rule) |
 | 798 | グラフのひげが標準偏差か標準誤差かを取り違えると、差の大きさはどれだけ違って見えるのか？ | [798_sd_vs_se_errorbars](articles/798_sd_vs_se_errorbars) |
 | 800 | U字の関係では、相関係数と相互情報量はどれだけ違う答えを出すのか？ | [800_mutual_information_vs_corr](articles/800_mutual_information_vs_corr) |
+| 823 | 散布図の点が多すぎると、関係は見えなくなるのか？ | [823_graph_scatter_overplotting](articles/823_graph_scatter_overplotting) |
 
 </details>
 
@@ -690,7 +692,7 @@
 
 </details>
 
-<details><summary><b>顧客分析・生存分析</b>（64本）</summary>
+<details><summary><b>顧客分析・生存分析</b>（66本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -758,6 +760,8 @@
 | 744 | 会員番号の偶数と奇数で2群に分けると、番号の振り方によって群の間にどれだけ差が出るのか？ | [744_id_parity_split](articles/744_id_parity_split) |
 | 748 | ある日に「利用中」の会員だけに聞くと、平均の利用期間は本当の何倍に見えるのか？ | [748_length_biased_sampling](articles/748_length_biased_sampling) |
 | 763 | 継続月数を0から数えるか1から数えるかで、継続率の表はどれだけずれて読まれるのか？ | [763_month_index_zero_one](articles/763_month_index_zero_one) |
+| 820 | 対数の軸と普通の軸で、「伸びが鈍った」の見え方は変わるのか？ | [820_graph_log_vs_linear_axis](articles/820_graph_log_vs_linear_axis) |
+| 823 | 散布図の点が多すぎると、関係は見えなくなるのか？ | [823_graph_scatter_overplotting](articles/823_graph_scatter_overplotting) |
 
 </details>
 
@@ -880,7 +884,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（153本）</summary>
+<details><summary><b>集計の定義・KPI</b>（156本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1037,10 +1041,13 @@
 | 774 | 達成率を四捨五入してから「100%以上」を数えると、何店が「達成」に入ってしまうのか？ | [774_achievement_rounding](articles/774_achievement_rounding) |
 | 784 | 法人のまとめ買いを混ぜたまま客単価を見ると、個人の客単価はどれだけ高く見えるのか？ | [784_bulk_buyer_mixing](articles/784_bulk_buyer_mixing) |
 | 795 | 月の数字を週に直すとき4で割るか4.33で割るかで、週あたりの値はどれだけ違うのか？ | [795_weeks_per_month](articles/795_weeks_per_month) |
+| 815 | 円グラフと棒グラフで、割合の読み取りの誤差はどれだけ違うのか？ | [815_graph_pie_vs_bar_error](articles/815_graph_pie_vs_bar_error) |
+| 820 | 対数の軸と普通の軸で、「伸びが鈍った」の見え方は変わるのか？ | [820_graph_log_vs_linear_axis](articles/820_graph_log_vs_linear_axis) |
+| 824 | 「前年比」の棒と「実数」の線を並べると、何を読み違えるのか？ | [824_graph_yoy_bar_level_line](articles/824_graph_yoy_bar_level_line) |
 
 </details>
 
-<details><summary><b>可視化・報告・BI</b>（41本）</summary>
+<details><summary><b>可視化・報告・BI</b>（46本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1085,6 +1092,11 @@
 | 699 | 構造変化の時点をグラフを見てから決めて検定すると、変化がなくても何%で「変化あり」になるのか？ | [699_structural_break_post_hoc](articles/699_structural_break_post_hoc) |
 | 716 | 交差検証でハイパーパラメータを選び、同じ交差検証の成績を報告すると、本当の成績よりどれだけよく見えるのか？ | [716_nested_cv_optimism](articles/716_nested_cv_optimism) |
 | 798 | グラフのひげが標準偏差か標準誤差かを取り違えると、差の大きさはどれだけ違って見えるのか？ | [798_sd_vs_se_errorbars](articles/798_sd_vs_se_errorbars) |
+| 813 | 縦軸を0から始めないと、差は何倍に見えるのか？ | [813_graph_axis_from_zero](articles/813_graph_axis_from_zero) |
+| 814 | 2本の縦軸のグラフで、目盛りの取り方だけで「連動」は作れるのか？ | [814_graph_dual_axis_link](articles/814_graph_dual_axis_link) |
+| 815 | 円グラフと棒グラフで、割合の読み取りの誤差はどれだけ違うのか？ | [815_graph_pie_vs_bar_error](articles/815_graph_pie_vs_bar_error) |
+| 816 | 累積のグラフは、伸びが止まっても右肩上がりに見えるのか？ | [816_graph_cumulative_still_rising](articles/816_graph_cumulative_still_rising) |
+| 822 | 積み上げ棒グラフで、真ん中の項目の増減は読めるのか？ | [822_graph_stacked_middle_item](articles/822_graph_stacked_middle_item) |
 
 </details>
 
@@ -1292,7 +1304,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（302本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（305本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1586,6 +1598,9 @@
 | 810 | 低評価に返信した店は、その後の平均が上がるのか？ | [810_review_reply_selection](articles/810_review_reply_selection) |
 | 811 | カテゴリの1位は、実力か件数の少なさか？ | [811_review_category_top1](articles/811_review_category_top1) |
 | 812 | 「4.5以上」で絞り込むと、良い店は何%外れるのか？ | [812_review_filter_4_5](articles/812_review_filter_4_5) |
+| 817 | 期間の切り出し方で、「上昇」も「下落」も描けるのか？ | [817_graph_window_up_or_down](articles/817_graph_window_up_or_down) |
+| 818 | 面積や太さで量を表すと、何倍の差に見えるのか？ | [818_graph_area_size_ratio](articles/818_graph_area_size_ratio) |
+| 821 | 色の順番と強さで、どの数字が目立つかは変わるのか？ | [821_graph_color_order_salience](articles/821_graph_color_order_salience) |
 | 825 | 勝率6割のチームが、10試合で負け越す確率は？ | [825_luck_win60_ten_games](articles/825_luck_win60_ten_games) |
 | 826 | 前半の打率トップは、後半もトップなのか？ | [826_luck_first_half_top_batter](articles/826_luck_first_half_top_batter) |
 | 827 | 連勝の長さは、偶然でどこまで伸びるのか？ | [827_luck_winning_streak_length](articles/827_luck_winning_streak_length) |
@@ -1606,16 +1621,16 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 176 |
-| EC・会員・Web | 93 |
+| 小売・店舗 | 181 |
+| EC・会員・Web | 95 |
 | マーケティング・広告 | 21 |
 | 需要予測・在庫 | 31 |
-| 業務の集計・報告 | 126 |
+| 業務の集計・報告 | 127 |
 | 作業時間・処理件数 | 4 |
 | 保険 | 72 |
 | 公的統計・地域・人口 | 433 |
 
-<details><summary><b>小売・店舗</b>（176本）</summary>
+<details><summary><b>小売・店舗</b>（181本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1794,11 +1809,16 @@
 | 810 | 低評価に返信した店は、その後の平均が上がるのか？ | [810_review_reply_selection](articles/810_review_reply_selection) |
 | 811 | カテゴリの1位は、実力か件数の少なさか？ | [811_review_category_top1](articles/811_review_category_top1) |
 | 812 | 「4.5以上」で絞り込むと、良い店は何%外れるのか？ | [812_review_filter_4_5](articles/812_review_filter_4_5) |
+| 816 | 累積のグラフは、伸びが止まっても右肩上がりに見えるのか？ | [816_graph_cumulative_still_rising](articles/816_graph_cumulative_still_rising) |
+| 817 | 期間の切り出し方で、「上昇」も「下落」も描けるのか？ | [817_graph_window_up_or_down](articles/817_graph_window_up_or_down) |
+| 818 | 面積や太さで量を表すと、何倍の差に見えるのか？ | [818_graph_area_size_ratio](articles/818_graph_area_size_ratio) |
+| 819 | 移動平均の幅で、山と谷はどれだけ動くのか？ | [819_graph_moving_average_window](articles/819_graph_moving_average_window) |
+| 821 | 色の順番と強さで、どの数字が目立つかは変わるのか？ | [821_graph_color_order_salience](articles/821_graph_color_order_salience) |
 | 831 | 営業成績の月間1位は、何か月続くのか？ | [831_luck_sales_monthly_top](articles/831_luck_sales_monthly_top) |
 
 </details>
 
-<details><summary><b>EC・会員・Web</b>（93本）</summary>
+<details><summary><b>EC・会員・Web</b>（95本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1895,6 +1915,8 @@
 | 748 | ある日に「利用中」の会員だけに聞くと、平均の利用期間は本当の何倍に見えるのか？ | [748_length_biased_sampling](articles/748_length_biased_sampling) |
 | 755 | 時刻つきの日時のまま GROUP BY すると、日ごとの集計は何行に分かれてしまうのか？ | [755_group_by_datetime_not_date](articles/755_group_by_datetime_not_date) |
 | 762 | 申込率を小数の桁の少ない DECIMAL に入れると、率はどれだけ丸まり、店の順位はどれだけ入れ替わるのか？ | [762_decimal_scale_division](articles/762_decimal_scale_division) |
+| 820 | 対数の軸と普通の軸で、「伸びが鈍った」の見え方は変わるのか？ | [820_graph_log_vs_linear_axis](articles/820_graph_log_vs_linear_axis) |
+| 823 | 散布図の点が多すぎると、関係は見えなくなるのか？ | [823_graph_scatter_overplotting](articles/823_graph_scatter_overplotting) |
 
 </details>
 
@@ -1964,7 +1986,7 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（126本）</summary>
+<details><summary><b>業務の集計・報告</b>（127本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2094,6 +2116,7 @@
 | 764 | pandas の groupby が欠けたキーの行を黙って落とすと、合計はどれだけ減るのか？ | [764_pandas_groupby_dropna](articles/764_pandas_groupby_dropna) |
 | 774 | 達成率を四捨五入してから「100%以上」を数えると、何店が「達成」に入ってしまうのか？ | [774_achievement_rounding](articles/774_achievement_rounding) |
 | 781 | 数の列に文字が1つまざると、Excel のピボットの集計はどう変わり、合計はどれだけ消えるのか？ | [781_pivot_count_default](articles/781_pivot_count_default) |
+| 824 | 「前年比」の棒と「実数」の線を並べると、何を読み違えるのか？ | [824_graph_yoy_bar_level_line](articles/824_graph_yoy_bar_level_line) |
 
 </details>
 
