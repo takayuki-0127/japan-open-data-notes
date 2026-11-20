@@ -1,0 +1,319 @@
+{
+ "groups": [
+  "10代",
+  "20代",
+  "30代",
+  "40代",
+  "50代",
+  "60代",
+  "70代以上"
+ ],
+ "sizes": [
+  15,
+  120,
+  260,
+  300,
+  200,
+  80,
+  25
+ ],
+ "true": [
+  0.61,
+  0.58,
+  0.62,
+  0.66,
+  0.6,
+  0.63,
+  0.61
+ ],
+ "reps": 20000,
+ "n_needed": [
+  {
+   "true_share": 0.5,
+   "within_points": 5,
+   "n_needed": 399
+  },
+  {
+   "true_share": 0.5,
+   "within_points": 10,
+   "n_needed": 99
+  },
+  {
+   "true_share": 0.5,
+   "within_points": 15,
+   "n_needed": 47
+  },
+  {
+   "true_share": 0.6,
+   "within_points": 5,
+   "n_needed": 376
+  },
+  {
+   "true_share": 0.6,
+   "within_points": 10,
+   "n_needed": 92
+  },
+  {
+   "true_share": 0.6,
+   "within_points": 15,
+   "n_needed": 42
+  },
+  {
+   "true_share": 0.8,
+   "within_points": 5,
+   "n_needed": 248
+  },
+  {
+   "true_share": 0.8,
+   "within_points": 10,
+   "n_needed": 64
+  },
+  {
+   "true_share": 0.8,
+   "within_points": 15,
+   "n_needed": 29
+  },
+  {
+   "true_share": 0.9,
+   "within_points": 5,
+   "n_needed": 147
+  },
+  {
+   "true_share": 0.9,
+   "within_points": 10,
+   "n_needed": 30
+  },
+  {
+   "true_share": 0.9,
+   "within_points": 15,
+   "n_needed": 16
+  }
+ ],
+ "by_n": [
+  {
+   "n": 10,
+   "within10": 0.666,
+   "p025": 0.3,
+   "p975": 0.9,
+   "sd": 0.155,
+   "change_ge10": 0.819,
+   "change_ge20": 0.493,
+   "cover_wald": 0.899,
+   "cover_wilson": 0.982,
+   "cover_wald_p09": 0.65,
+   "cover_wilson_p09": 0.93
+  },
+  {
+   "n": 15,
+   "within10": 0.57,
+   "p025": 0.333,
+   "p975": 0.867,
+   "sd": 0.127,
+   "change_ge10": 0.572,
+   "change_ge20": 0.348,
+   "cover_wald": 0.939,
+   "cover_wilson": 0.939,
+   "cover_wald_p09": 0.792,
+   "cover_wilson_p09": 0.944
+  },
+  {
+   "n": 25,
+   "within10": 0.693,
+   "p025": 0.4,
+   "p975": 0.8,
+   "sd": 0.098,
+   "change_ge10": 0.462,
+   "change_ge20": 0.192,
+   "cover_wald": 0.936,
+   "cover_wilson": 0.936,
+   "cover_wald_p09": 0.919,
+   "cover_wilson_p09": 0.967
+  },
+  {
+   "n": 50,
+   "within10": 0.889,
+   "p025": 0.46,
+   "p975": 0.74,
+   "sd": 0.069,
+   "change_ge10": 0.363,
+   "change_ge20": 0.053,
+   "cover_wald": 0.941,
+   "cover_wilson": 0.941,
+   "cover_wald_p09": 0.879,
+   "cover_wilson_p09": 0.97
+  },
+  {
+   "n": 100,
+   "within10": 0.968,
+   "p025": 0.5,
+   "p975": 0.69,
+   "sd": 0.049,
+   "change_ge10": 0.171,
+   "change_ge20": 0.004,
+   "cover_wald": 0.948,
+   "cover_wilson": 0.948,
+   "cover_wald_p09": 0.932,
+   "cover_wilson_p09": 0.936
+  },
+  {
+   "n": 200,
+   "within10": 0.997,
+   "p025": 0.53,
+   "p975": 0.665,
+   "sd": 0.035,
+   "change_ge10": 0.046,
+   "change_ge20": 0.0,
+   "cover_wald": 0.949,
+   "cover_wilson": 0.949,
+   "cover_wald_p09": 0.927,
+   "cover_wilson_p09": 0.956
+  },
+  {
+   "n": 300,
+   "within10": 1.0,
+   "p025": 0.543,
+   "p975": 0.657,
+   "sd": 0.029,
+   "change_ge10": 0.014,
+   "change_ge20": 0.0,
+   "cover_wald": 0.948,
+   "cover_wilson": 0.948,
+   "cover_wald_p09": 0.938,
+   "cover_wilson_p09": 0.957
+  },
+  {
+   "n": 500,
+   "within10": 1.0,
+   "p025": 0.556,
+   "p975": 0.642,
+   "sd": 0.022,
+   "change_ge10": 0.002,
+   "change_ge20": 0.0,
+   "cover_wald": 0.95,
+   "cover_wilson": 0.95,
+   "cover_wald_p09": 0.943,
+   "cover_wilson_p09": 0.956
+  }
+ ],
+ "extremes": {
+  "top_share": {
+   "10代": 0.28,
+   "20代": 0.017,
+   "30代": 0.041,
+   "40代": 0.281,
+   "50代": 0.019,
+   "60代": 0.154,
+   "70代以上": 0.208
+  },
+  "bottom_share": {
+   "10代": 0.3,
+   "20代": 0.252,
+   "30代": 0.035,
+   "40代": 0.002,
+   "50代": 0.111,
+   "60代": 0.067,
+   "70代以上": 0.234
+  },
+  "small_two_top_or_bottom": 0.837,
+  "true_gap": 0.08,
+  "obs_gap_mean": 0.2,
+  "obs_gap_ge20": 0.438,
+  "true_top": "40代",
+  "true_bottom": "20代",
+  "true_top_correct": 0.281
+ },
+ "threshold": [
+  {
+   "min_n": 0,
+   "groups_shown": 7,
+   "respondents_shown": 1000,
+   "max_abs_err_mean": 0.133,
+   "share_any_err_ge10": 0.644
+  },
+  {
+   "min_n": 20,
+   "groups_shown": 6,
+   "respondents_shown": 985,
+   "max_abs_err_mean": 0.096,
+   "share_any_err_ge10": 0.37
+  },
+  {
+   "min_n": 30,
+   "groups_shown": 5,
+   "respondents_shown": 960,
+   "max_abs_err_mean": 0.064,
+   "share_any_err_ge10": 0.093
+  },
+  {
+   "min_n": 100,
+   "groups_shown": 4,
+   "respondents_shown": 880,
+   "max_abs_err_mean": 0.052,
+   "share_any_err_ge10": 0.029
+  }
+ ],
+ "robust_small_two_top_or_bottom_range": [
+  0.168,
+  0.905
+ ],
+ "chance_two_of_seven_top_or_bottom_equal": 0.524,
+ "formula_n_p06_w10": 92.2,
+ "one_survey": [
+  {
+   "group": "10代",
+   "size": 15,
+   "mean": 0.4,
+   "wilson_lo": 0.198,
+   "wilson_hi": 0.643,
+   "true": 0.61
+  },
+  {
+   "group": "20代",
+   "size": 120,
+   "mean": 0.592,
+   "wilson_lo": 0.502,
+   "wilson_hi": 0.675,
+   "true": 0.58
+  },
+  {
+   "group": "30代",
+   "size": 260,
+   "mean": 0.615,
+   "wilson_lo": 0.555,
+   "wilson_hi": 0.672,
+   "true": 0.62
+  },
+  {
+   "group": "40代",
+   "size": 300,
+   "mean": 0.673,
+   "wilson_lo": 0.618,
+   "wilson_hi": 0.724,
+   "true": 0.66
+  },
+  {
+   "group": "50代",
+   "size": 200,
+   "mean": 0.59,
+   "wilson_lo": 0.521,
+   "wilson_hi": 0.656,
+   "true": 0.6
+  },
+  {
+   "group": "60代",
+   "size": 80,
+   "mean": 0.662,
+   "wilson_lo": 0.554,
+   "wilson_hi": 0.757,
+   "true": 0.63
+  },
+  {
+   "group": "70代以上",
+   "size": 25,
+   "mean": 0.6,
+   "wilson_lo": 0.407,
+   "wilson_hi": 0.766,
+   "true": 0.61
+  }
+ ]
+}

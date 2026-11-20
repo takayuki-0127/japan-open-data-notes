@@ -1,0 +1,118 @@
+{
+ "setting": {
+  "N": 1000,
+  "per_form": 500,
+  "reps": 2000,
+  "mu": 0.2,
+  "sd": 1.0,
+  "noise": 0.5,
+  "t": 0.5,
+  "a": 0.0
+ },
+ "one_survey": {
+  "true_yes": 0.592,
+  "yes2": 0.568,
+  "yes3": 0.372,
+  "mid3": 0.346,
+  "yes3_excl": 0.5688
+ },
+ "reps_summary": {
+  "true_yes": {
+   "mean": 0.5793,
+   "p10": 0.559,
+   "p90": 0.6
+  },
+  "yes2": {
+   "mean": 0.5706,
+   "p10": 0.542,
+   "p90": 0.6
+  },
+  "yes3": {
+   "mean": 0.3943,
+   "p10": 0.366,
+   "p90": 0.422
+  },
+  "mid3": {
+   "mean": 0.3405,
+   "p10": 0.312,
+   "p90": 0.368
+  },
+  "no3": {
+   "mean": 0.2652,
+   "p10": 0.24,
+   "p90": 0.29
+  },
+  "yes3_excl": {
+   "mean": 0.5978,
+   "p10": 0.5639,
+   "p90": 0.631
+  },
+  "diff_points": {
+   "mean": 17.6287,
+   "p10": 13.6,
+   "p90": 21.6
+  },
+  "excl_minus_yes2_points": {
+   "mean": 2.7269,
+   "p10": -1.7268,
+   "p90": 7.1541
+  },
+  "share_reps_yes3_below_half": 1.0,
+  "share_reps_yes2_above_half": 0.999
+ },
+ "who_picks_middle": {
+  "mid_share": 0.3384,
+  "mid_true_lean_mean": 0.0463,
+  "mid_true_lean_abs_lt_05": 0.6767,
+  "mid_true_yes_share": 0.5365,
+  "mid_would_yes_in_2choice": 0.5204,
+  "nonmid_abs_lt_05": 0.2193,
+  "decomp_points": 17.61
+ },
+ "robustness": {
+  "diff_points_min": 8.51,
+  "diff_points_max": 40.47,
+  "mid3_min": 0.1598,
+  "mid3_max": 0.6295,
+  "a0_diff_min": 8.51,
+  "a0_diff_max": 34.5,
+  "a0_mu02_diff_by_t": {
+   "0.25": 8.75,
+   "0.5": 17.67,
+   "0.75": 26.06,
+   "1.0": 33.22
+  },
+  "a0_mu02_mid_by_t": {
+   "0.25": 0.1749,
+   "0.5": 0.3397,
+   "0.75": 0.4926,
+   "1.0": 0.6197
+  },
+  "a0_t05_diff_by_mu": {
+   "-0.2": 16.42,
+   "0.0": 17.1,
+   "0.2": 17.67,
+   "0.5": 17.55
+  },
+  "a0_t05_excl_minus_yes2_by_mu": {
+   "-0.2": -2.7,
+   "0.0": 0.1,
+   "0.2": 2.66,
+   "0.5": 5.36
+  },
+  "a02_mu02_t05": {
+   "a": 0.2,
+   "mu": 0.2,
+   "t": 0.5,
+   "true_yes": 0.5799,
+   "yes2": 0.6398,
+   "yes3": 0.3944,
+   "mid3": 0.3411,
+   "yes3_excl": 0.5985,
+   "diff_points": 24.54,
+   "excl_minus_yes2_points": -4.12
+  },
+  "excl_sign_same_as_majority": true,
+  "a0_mu0_excl_abs_max": 0.27
+ }
+}

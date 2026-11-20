@@ -1,0 +1,117 @@
+{
+ "n_respondents": 1000,
+ "reps": 2000,
+ "sum_truth": 3.451,
+ "sum_yn": 3.262,
+ "sum_all": 2.79,
+ "sum_all_mention": 1.0,
+ "sum_one": 0.958,
+ "none_one": 0.042,
+ "n_used_mean": 3.451,
+ "n_checked_all_mean": 2.79,
+ "recall_all": 0.808,
+ "recall_yn": 0.945,
+ "spearman_one_mean": 0.534,
+ "spearman_all_mean": 0.973,
+ "spearman_yn_mean": 0.995,
+ "top_correct_one": 0.237,
+ "top_correct_all": 1.0,
+ "search_rank_one_mean": 1.931,
+ "search_one_p05_p95": [
+  0.158,
+  0.198
+ ],
+ "one_top_item_counts": {
+  "検索": 474,
+  "お気に入り保存": 29,
+  "人気順の一覧": 0,
+  "タイマー": 0,
+  "手順の動画": 1497,
+  "買い物リスト": 0,
+  "献立の提案": 0,
+  "コメント欄": 0
+ },
+ "one_among_users": {
+  "検索": 0.222,
+  "お気に入り保存": 0.291,
+  "人気順の一覧": 0.217,
+  "タイマー": 0.13,
+  "手順の動画": 0.48,
+  "買い物リスト": 0.391,
+  "献立の提案": 0.466,
+  "コメント欄": 0.139
+ },
+ "robust": {
+  "combos": 27,
+  "search_one_min": 0.144,
+  "search_one_max": 0.243,
+  "search_rank_one_min": 1.0,
+  "search_rank_one_max": 3.487,
+  "spearman_one_min": 0.376,
+  "spearman_one_max": 0.785,
+  "recall_all_min": 0.668,
+  "recall_all_max": 0.917,
+  "comment_all_over_truth_min": 0.598,
+  "comment_all_over_truth_max": 0.896,
+  "video_all_over_truth_min": 0.819,
+  "video_all_over_truth_max": 0.967,
+  "no_strength_search_one": [
+   0.271,
+   0.271,
+   0.271
+  ],
+  "no_strength_spearman_one": [
+   0.983,
+   0.983,
+   0.984
+  ],
+  "no_strength_search_rank_one": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "one_survey": {
+  "truth": [
+   0.796,
+   0.529,
+   0.515,
+   0.446,
+   0.399,
+   0.29,
+   0.276,
+   0.197
+  ],
+  "all": [
+   0.586,
+   0.451,
+   0.408,
+   0.321,
+   0.365,
+   0.259,
+   0.259,
+   0.15
+  ],
+  "one": [
+   0.183,
+   0.15,
+   0.116,
+   0.059,
+   0.184,
+   0.104,
+   0.136,
+   0.024
+  ],
+  "yn": [
+   0.73,
+   0.506,
+   0.493,
+   0.405,
+   0.388,
+   0.28,
+   0.264,
+   0.183
+  ],
+  "none_one": 0.044
+ }
+}

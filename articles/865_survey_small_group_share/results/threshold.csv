@@ -1,0 +1,5 @@
+min_n,groups_shown,respondents_shown,max_abs_err_mean,share_any_err_ge10
+0,7,1000,0.133,0.644
+20,6,985,0.096,0.37
+30,5,960,0.064,0.093
+100,4,880,0.052,0.029
