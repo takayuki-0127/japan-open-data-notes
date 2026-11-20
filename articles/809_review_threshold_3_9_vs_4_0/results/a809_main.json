@@ -1,0 +1,125 @@
+{
+ "settings": {
+  "shops": 3000,
+  "beta": 2.0,
+  "filter_share": 0.3,
+  "choice_sets": 20000,
+  "set_size": 10
+ },
+ "jump_at_4_0": {
+  "visit_4_0_over_3_9": 1.975,
+  "visit_4_3_over_4_2": 1.175,
+  "visit_3_8_over_3_7": 1.202,
+  "true_3_9": 3.882,
+  "true_4_0": 3.963,
+  "true_diff": 0.081,
+  "P_3_9_truly_better": 0.299,
+  "count_3_9": 278,
+  "count_4_0": 305,
+  "n_median_3_9": 54.0,
+  "n_median_4_0": 45.0
+ },
+ "flip_true_4_0_by_n": {
+  "10": {
+   "share_shown_le_3_9": 0.415,
+   "share_shown_ge_4_0": 0.585
+  },
+  "30": {
+   "share_shown_le_3_9": 0.362,
+   "share_shown_ge_4_0": 0.638
+  },
+  "100": {
+   "share_shown_le_3_9": 0.243,
+   "share_shown_ge_4_0": 0.757
+  },
+  "300": {
+   "share_shown_le_3_9": 0.132,
+   "share_shown_ge_4_0": 0.868
+  },
+  "1000": {
+   "share_shown_le_3_9": 0.024,
+   "share_shown_ge_4_0": 0.976
+  }
+ },
+ "true_3_95_to_4_05": {
+  "count": 309,
+  "share_shown_le_3_9": 0.307,
+  "visit_shown_le_3_9": 0.5,
+  "visit_shown_ge_4_0": 1.313,
+  "ratio": 2.628
+ },
+ "sensitivity": [
+  {
+   "filter_share": 0.0,
+   "beta": 1.0,
+   "visit_4_0_over_3_9": 1.096,
+   "visit_4_3_over_4_2": 1.092
+  },
+  {
+   "filter_share": 0.0,
+   "beta": 2.0,
+   "visit_4_0_over_3_9": 1.203,
+   "visit_4_3_over_4_2": 1.186
+  },
+  {
+   "filter_share": 0.0,
+   "beta": 3.0,
+   "visit_4_0_over_3_9": 1.323,
+   "visit_4_3_over_4_2": 1.282
+  },
+  {
+   "filter_share": 0.15,
+   "beta": 1.0,
+   "visit_4_0_over_3_9": 1.438,
+   "visit_4_3_over_4_2": 1.09
+  },
+  {
+   "filter_share": 0.15,
+   "beta": 2.0,
+   "visit_4_0_over_3_9": 1.522,
+   "visit_4_3_over_4_2": 1.182
+  },
+  {
+   "filter_share": 0.15,
+   "beta": 3.0,
+   "visit_4_0_over_3_9": 1.638,
+   "visit_4_3_over_4_2": 1.276
+  },
+  {
+   "filter_share": 0.3,
+   "beta": 1.0,
+   "visit_4_0_over_3_9": 1.924,
+   "visit_4_3_over_4_2": 1.088
+  },
+  {
+   "filter_share": 0.3,
+   "beta": 2.0,
+   "visit_4_0_over_3_9": 1.975,
+   "visit_4_3_over_4_2": 1.178
+  },
+  {
+   "filter_share": 0.3,
+   "beta": 3.0,
+   "visit_4_0_over_3_9": 2.086,
+   "visit_4_3_over_4_2": 1.271
+  },
+  {
+   "filter_share": 0.5,
+   "beta": 1.0,
+   "visit_4_0_over_3_9": 3.019,
+   "visit_4_3_over_4_2": 1.086
+  },
+  {
+   "filter_share": 0.5,
+   "beta": 2.0,
+   "visit_4_0_over_3_9": 2.993,
+   "visit_4_3_over_4_2": 1.174
+  },
+  {
+   "filter_share": 0.5,
+   "beta": 3.0,
+   "visit_4_0_over_3_9": 3.087,
+   "visit_4_3_over_4_2": 1.264
+  }
+ ]
+}

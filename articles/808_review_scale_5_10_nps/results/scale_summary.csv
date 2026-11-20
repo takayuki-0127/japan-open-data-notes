@@ -1,0 +1,3 @@
+setting,star5_mean_avg,ten_mean_avg,star5_x2_avg,gap_x2_minus_ten,gap_linear_minus_ten,rec_mean_avg,nps_avg,share_star_ge_4,share_ten_ge_8,share_nps_gt_0,spearman_star_ten,spearman_star_nps
+基本（答え方のくせあり）,4.024,6.547,8.047,1.5,1.256,6.373,-38.9,0.553,0.045,0.116,0.981,0.92
+区切りを等間隔,3.956,7.443,7.911,0.468,0.207,7.14,-11.1,0.467,0.238,0.369,0.998,0.985

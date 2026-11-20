@@ -1,0 +1,257 @@
+{
+ "one_draw_30_categories": {
+  "categories": 30,
+  "shops": 2847,
+  "top1_is_best": 6,
+  "top1_n_le_5": 21,
+  "top1_shown_5_0": 21
+ },
+ "top1_by_size_rule_2000reps": {
+  "10": {
+   "件数の条件なし": {
+    "hit": 0.511,
+    "true_rank_median": 1.0,
+    "top3_share": 0.772,
+    "n_median": 8.0,
+    "n_le_5_share": 0.438,
+    "shown_mean": 4.6,
+    "true_mean": 4.271,
+    "over": 0.329,
+    "best_excluded": 0.0
+   },
+   "10件以上の店だけ": {
+    "hit": 0.565,
+    "true_rank_median": 1.0,
+    "top3_share": 0.902,
+    "n_median": 86.0,
+    "n_le_5_share": 0.0,
+    "shown_mean": 4.372,
+    "true_mean": 4.324,
+    "over": 0.048,
+    "best_excluded": 0.32
+   },
+   "30件以上の店だけ": {
+    "hit": 0.466,
+    "true_rank_median": 2.0,
+    "top3_share": 0.85,
+    "n_median": 169.0,
+    "n_le_5_share": 0.0,
+    "shown_mean": 4.298,
+    "true_mean": 4.28,
+    "over": 0.018,
+    "best_excluded": 0.488
+   }
+  },
+  "30": {
+   "件数の条件なし": {
+    "hit": 0.304,
+    "true_rank_median": 4.0,
+    "top3_share": 0.491,
+    "n_median": 3.0,
+    "n_le_5_share": 0.662,
+    "shown_mean": 4.828,
+    "true_mean": 4.279,
+    "over": 0.549,
+    "best_excluded": 0.0
+   },
+   "10件以上の店だけ": {
+    "hit": 0.499,
+    "true_rank_median": 2.0,
+    "top3_share": 0.837,
+    "n_median": 65.0,
+    "n_le_5_share": 0.0,
+    "shown_mean": 4.545,
+    "true_mean": 4.478,
+    "over": 0.067,
+    "best_excluded": 0.34
+   },
+   "30件以上の店だけ": {
+    "hit": 0.427,
+    "true_rank_median": 2.0,
+    "top3_share": 0.821,
+    "n_median": 158.5,
+    "n_le_5_share": 0.0,
+    "shown_mean": 4.484,
+    "true_mean": 4.458,
+    "over": 0.026,
+    "best_excluded": 0.511
+   }
+  },
+  "100": {
+   "件数の条件なし": {
+    "hit": 0.102,
+    "true_rank_median": 15.0,
+    "top3_share": 0.213,
+    "n_median": 2.0,
+    "n_le_5_share": 0.914,
+    "shown_mean": 4.979,
+    "true_mean": 4.244,
+    "over": 0.735,
+    "best_excluded": 0.0
+   },
+   "10件以上の店だけ": {
+    "hit": 0.441,
+    "true_rank_median": 2.0,
+    "top3_share": 0.78,
+    "n_median": 59.0,
+    "n_le_5_share": 0.0,
+    "shown_mean": 4.682,
+    "true_mean": 4.602,
+    "over": 0.081,
+    "best_excluded": 0.332
+   },
+   "30件以上の店だけ": {
+    "hit": 0.43,
+    "true_rank_median": 2.0,
+    "top3_share": 0.794,
+    "n_median": 156.5,
+    "n_le_5_share": 0.0,
+    "shown_mean": 4.634,
+    "true_mean": 4.607,
+    "over": 0.028,
+    "best_excluded": 0.485
+   }
+  },
+  "300": {
+   "件数の条件なし": {
+    "hit": 0.046,
+    "true_rank_median": 29.0,
+    "top3_share": 0.11,
+    "n_median": 3.0,
+    "n_le_5_share": 0.925,
+    "shown_mean": 5.0,
+    "true_mean": 4.316,
+    "over": 0.684,
+    "best_excluded": 0.0
+   },
+   "10件以上の店だけ": {
+    "hit": 0.348,
+    "true_rank_median": 2.0,
+    "top3_share": 0.641,
+    "n_median": 38.0,
+    "n_le_5_share": 0.0,
+    "shown_mean": 4.771,
+    "true_mean": 4.659,
+    "over": 0.112,
+    "best_excluded": 0.325
+   },
+   "30件以上の店だけ": {
+    "hit": 0.374,
+    "true_rank_median": 2.0,
+    "top3_share": 0.75,
+    "n_median": 143.0,
+    "n_le_5_share": 0.0,
+    "shown_mean": 4.726,
+    "true_mean": 4.69,
+    "over": 0.036,
+    "best_excluded": 0.489
+   }
+  }
+ },
+ "robustness_size100": {
+  "基本（差0.35・件数1〜1,000件）": {
+   "件数の条件なし": {
+    "hit": 0.09,
+    "top3_share": 0.199,
+    "best_excluded": 0.0
+   },
+   "10件以上の店だけ": {
+    "hit": 0.446,
+    "top3_share": 0.762,
+    "best_excluded": 0.337
+   },
+   "30件以上の店だけ": {
+    "hit": 0.426,
+    "top3_share": 0.791,
+    "best_excluded": 0.495
+   }
+  },
+  "店どうしの差0.2": {
+   "件数の条件なし": {
+    "hit": 0.048,
+    "top3_share": 0.11,
+    "best_excluded": 0.0
+   },
+   "10件以上の店だけ": {
+    "hit": 0.32,
+    "top3_share": 0.547,
+    "best_excluded": 0.308
+   },
+   "30件以上の店だけ": {
+    "hit": 0.368,
+    "top3_share": 0.674,
+    "best_excluded": 0.472
+   }
+  },
+  "店どうしの差0.5": {
+   "件数の条件なし": {
+    "hit": 0.084,
+    "top3_share": 0.217,
+    "best_excluded": 0.0
+   },
+   "10件以上の店だけ": {
+    "hit": 0.384,
+    "top3_share": 0.736,
+    "best_excluded": 0.331
+   },
+   "30件以上の店だけ": {
+    "hit": 0.391,
+    "top3_share": 0.772,
+    "best_excluded": 0.492
+   }
+  },
+  "件数1〜100件": {
+   "件数の条件なし": {
+    "hit": 0.1,
+    "top3_share": 0.21,
+    "best_excluded": 0.0
+   },
+   "10件以上の店だけ": {
+    "hit": 0.327,
+    "top3_share": 0.637,
+    "best_excluded": 0.48
+   },
+   "30件以上の店だけ": {
+    "hit": 0.234,
+    "top3_share": 0.52,
+    "best_excluded": 0.727
+   }
+  }
+ },
+ "clip_like_801": {
+  "100": {
+   "件数の条件なし": {
+    "hit": 0.124,
+    "top3_share": 0.238,
+    "best_excluded": 0.0
+   },
+   "10件以上の店だけ": {
+    "hit": 0.524,
+    "top3_share": 0.814,
+    "best_excluded": 0.301
+   },
+   "30件以上の店だけ": {
+    "hit": 0.474,
+    "top3_share": 0.807,
+    "best_excluded": 0.458
+   }
+  },
+  "300": {
+   "件数の条件なし": {
+    "hit": 0.103,
+    "top3_share": 0.161,
+    "best_excluded": 0.0
+   },
+   "10件以上の店だけ": {
+    "hit": 0.532,
+    "top3_share": 0.737,
+    "best_excluded": 0.201
+   },
+   "30件以上の店だけ": {
+    "hit": 0.556,
+    "top3_share": 0.78,
+    "best_excluded": 0.331
+   }
+  }
+ }
+}

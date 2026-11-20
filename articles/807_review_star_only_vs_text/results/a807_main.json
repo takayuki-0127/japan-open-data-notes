@@ -1,0 +1,150 @@
+{
+ "text_prob_by_star": {
+  "基本（低い星で多く、星5でやや多い）": [
+   0.7,
+   0.6,
+   0.35,
+   0.25,
+   0.3
+  ],
+  "低い星ほど多い": [
+   0.7,
+   0.55,
+   0.4,
+   0.3,
+   0.2
+  ],
+  "高い星ほど多い": [
+   0.2,
+   0.25,
+   0.3,
+   0.4,
+   0.5
+  ],
+  "星で差がない（確かめ）": [
+   0.35,
+   0.35,
+   0.35,
+   0.35,
+   0.35
+  ]
+ },
+ "by_true_level_base": [
+  {
+   "true": 3.0,
+   "all": 3.0,
+   "text": 2.713,
+   "star_only": 3.189,
+   "text_share": 0.397,
+   "low_share_all": 0.278,
+   "low_share_text": 0.429,
+   "gap_text_minus_all": -0.287,
+   "gap_star_only_minus_text": 0.476
+  },
+  {
+   "true": 3.5,
+   "all": 3.5,
+   "text": 3.273,
+   "star_only": 3.614,
+   "text_share": 0.335,
+   "low_share_all": 0.115,
+   "low_share_text": 0.209,
+   "gap_text_minus_all": -0.227,
+   "gap_star_only_minus_text": 0.341
+  },
+  {
+   "true": 4.0,
+   "all": 4.0,
+   "text": 3.897,
+   "star_only": 4.044,
+   "text_share": 0.297,
+   "low_share_all": 0.032,
+   "low_share_text": 0.064,
+   "gap_text_minus_all": -0.103,
+   "gap_star_only_minus_text": 0.147
+  },
+  {
+   "true": 4.2,
+   "all": 4.2,
+   "text": 4.148,
+   "star_only": 4.221,
+   "text_share": 0.29,
+   "low_share_all": 0.016,
+   "low_share_text": 0.032,
+   "gap_text_minus_all": -0.052,
+   "gap_star_only_minus_text": 0.073
+  },
+  {
+   "true": 4.5,
+   "all": 4.5,
+   "text": 4.505,
+   "star_only": 4.498,
+   "text_share": 0.286,
+   "low_share_all": 0.004,
+   "low_share_text": 0.007,
+   "gap_text_minus_all": 0.005,
+   "gap_star_only_minus_text": -0.007
+  }
+ ],
+ "patterns_100reps": [
+  {
+   "pattern": "基本（低い星で多く、星5でやや多い）",
+   "gap_text_mean": -0.13,
+   "gap_star_only_mean": 0.062,
+   "share_text_lower_0_3": 0.122,
+   "top20_all": 0.802,
+   "top20_text": 0.554,
+   "top20_star_only": 0.754,
+   "spearman_text": 0.915,
+   "spearman_all": 0.965,
+   "slope_text": 1.222,
+   "slope_all": 1.0
+  },
+  {
+   "pattern": "低い星ほど多い",
+   "gap_text_mean": -0.219,
+   "gap_star_only_mean": 0.102,
+   "share_text_lower_0_3": 0.211,
+   "top20_all": 0.802,
+   "top20_text": 0.596,
+   "top20_star_only": 0.748,
+   "spearman_text": 0.905,
+   "spearman_all": 0.965,
+   "slope_text": 1.062,
+   "slope_all": 1.0
+  },
+  {
+   "pattern": "高い星ほど多い",
+   "gap_text_mean": 0.152,
+   "gap_star_only_mean": -0.097,
+   "share_text_lower_0_3": 0.003,
+   "top20_all": 0.802,
+   "top20_text": 0.629,
+   "top20_star_only": 0.742,
+   "spearman_text": 0.912,
+   "spearman_all": 0.965,
+   "slope_text": 0.919,
+   "slope_all": 1.0
+  },
+  {
+   "pattern": "星で差がない（確かめ）",
+   "gap_text_mean": 0.0,
+   "gap_star_only_mean": -0.0,
+   "share_text_lower_0_3": 0.02,
+   "top20_all": 0.802,
+   "top20_text": 0.616,
+   "top20_star_only": 0.742,
+   "spearman_text": 0.911,
+   "spearman_all": 0.965,
+   "slope_text": 0.999,
+   "slope_all": 1.0
+  }
+ ],
+ "one_draw": {
+  "text_share_of_ratings": 0.309,
+  "gap_text_mean": -0.128,
+  "gap_star_only_mean": 0.061,
+  "top20_text_n_median": 25.0,
+  "top20_all_n_median": 126.0
+ }
+}

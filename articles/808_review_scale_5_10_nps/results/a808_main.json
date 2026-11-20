@@ -1,0 +1,128 @@
+{
+ "cuts_base": {
+  "star5": [
+   30,
+   45,
+   60,
+   75
+  ],
+  "ten": [
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   88,
+   95
+  ],
+  "rec": [
+   17,
+   26,
+   35,
+   44,
+   53,
+   62,
+   71,
+   80,
+   89,
+   98
+  ]
+ },
+ "example_shop": {
+  "true": 70.55,
+  "star5_mean": 4.12,
+  "ten_mean": 6.62,
+  "rec_mean": 6.43,
+  "nps": -41.5,
+  "star5_share_4_5": 0.78,
+  "ten_share_9_10": 0.115,
+  "rec_promoter": 0.1,
+  "rec_detractor": 0.515
+ },
+ "base": {
+  "star5_mean_avg": 4.024,
+  "ten_mean_avg": 6.547,
+  "star5_x2_avg": 8.047,
+  "gap_x2_minus_ten": 1.5,
+  "gap_linear_minus_ten": 1.256,
+  "rec_mean_avg": 6.373,
+  "nps_avg": -38.9,
+  "share_star_ge_4": 0.553,
+  "share_ten_ge_8": 0.045,
+  "share_nps_gt_0": 0.116,
+  "spearman_star_ten": 0.981,
+  "spearman_star_nps": 0.92,
+  "top20_overlap_true": {
+   "star5_mean": 0.65,
+   "ten_mean": 1.0,
+   "nps": 1.0
+  }
+ },
+ "same_star_4_0": {
+  "count": 201,
+  "nps_min": -70.5,
+  "nps_max": -18.5,
+  "nps_p10": -62.5,
+  "nps_p90": -29.0,
+  "nps_small_spread": -61.0,
+  "nps_large_spread": -30.0,
+  "spread_q25": 12.0,
+  "spread_q75": 18.8
+ },
+ "noise_by_n": {
+  "30": {
+   "star5_sd": 0.16,
+   "nps_sd": 12.06
+  },
+  "100": {
+   "star5_sd": 0.088,
+   "nps_sd": 6.64
+  },
+  "300": {
+   "star5_sd": 0.051,
+   "nps_sd": 3.87
+  }
+ },
+ "noise_relative_to_shop_sd": {
+  "30": {
+   "star5": 0.369,
+   "nps": 0.388
+  },
+  "100": {
+   "star5": 0.203,
+   "nps": 0.214
+  },
+  "300": {
+   "star5": 0.118,
+   "nps": 0.125
+  }
+ },
+ "robust_even_cuts": {
+  "star5_mean_avg": 3.956,
+  "ten_mean_avg": 7.443,
+  "star5_x2_avg": 7.911,
+  "gap_x2_minus_ten": 0.468,
+  "gap_linear_minus_ten": 0.207,
+  "rec_mean_avg": 7.14,
+  "nps_avg": -11.1,
+  "share_star_ge_4": 0.467,
+  "share_ten_ge_8": 0.238,
+  "share_nps_gt_0": 0.369,
+  "spearman_star_ten": 0.998,
+  "spearman_star_nps": 0.985,
+  "top20_overlap_true": {
+   "star5_mean": 0.65,
+   "ten_mean": 0.85,
+   "nps": 0.8
+  }
+ },
+ "robust_fixed_spread": {
+  "spearman_star_nps": 0.993,
+  "top20_overlap_true": {
+   "star5_mean": 0.9,
+   "nps": 0.95
+  }
+ }
+}

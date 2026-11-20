@@ -1,0 +1,235 @@
+{
+ "shops": 200000,
+ "good_share_of_shops": 0.122,
+ "filter_4_5": {
+  "pass_shops": 19381,
+  "good_shops": 24396,
+  "good_kept": 0.429,
+  "good_missed": 0.571,
+  "pass_good_share": 0.54,
+  "pass_below_4_0": 0.198,
+  "pass_n_le_4": 0.55
+ },
+ "by_count_band": [
+  {
+   "band": "1〜4件",
+   "good_shops": 5266,
+   "good_kept": 0.604,
+   "share_of_pass_list": 0.55,
+   "pass_good_share": 0.298
+  },
+  {
+   "band": "5〜19件",
+   "good_shops": 5225,
+   "good_kept": 0.479,
+   "share_of_pass_list": 0.198,
+   "pass_good_share": 0.651
+  },
+  {
+   "band": "20〜99件",
+   "good_shops": 5757,
+   "good_kept": 0.382,
+   "share_of_pass_list": 0.119,
+   "pass_good_share": 0.955
+  },
+  {
+   "band": "100件以上",
+   "good_shops": 8148,
+   "good_kept": 0.317,
+   "share_of_pass_list": 0.133,
+   "pass_good_share": 1.0
+  }
+ ],
+ "filter_rules": [
+  {
+   "rule": "3.5以上",
+   "pass_shops": 168092,
+   "good_shops": 24396,
+   "good_kept": 0.993,
+   "good_missed": 0.007,
+   "pass_good_share": 0.144,
+   "pass_below_4_0": 0.55,
+   "pass_n_le_4": 0.201
+  },
+  {
+   "rule": "4.0以上",
+   "pass_shops": 91602,
+   "good_shops": 24396,
+   "good_kept": 0.978,
+   "good_missed": 0.022,
+   "pass_good_share": 0.26,
+   "pass_below_4_0": 0.258,
+   "pass_n_le_4": 0.287
+  },
+  {
+   "rule": "4.3以上",
+   "pass_shops": 35370,
+   "good_shops": 24396,
+   "good_kept": 0.813,
+   "good_missed": 0.187,
+   "pass_good_share": 0.561,
+   "pass_below_4_0": 0.152,
+   "pass_n_le_4": 0.354
+  },
+  {
+   "rule": "4.5以上",
+   "pass_shops": 19381,
+   "good_shops": 24396,
+   "good_kept": 0.429,
+   "good_missed": 0.571,
+   "pass_good_share": 0.54,
+   "pass_below_4_0": 0.198,
+   "pass_n_le_4": 0.55
+  },
+  {
+   "rule": "4.0以上かつ20件以上",
+   "pass_shops": 45130,
+   "good_shops": 24396,
+   "good_kept": 0.57,
+   "good_missed": 0.43,
+   "pass_good_share": 0.308,
+   "pass_below_4_0": 0.103,
+   "pass_n_le_4": 0.0
+  },
+  {
+   "rule": "4.3以上かつ20件以上",
+   "pass_shops": 14920,
+   "good_shops": 24396,
+   "good_kept": 0.509,
+   "good_missed": 0.491,
+   "pass_good_share": 0.832,
+   "pass_below_4_0": 0.002,
+   "pass_n_le_4": 0.0
+  },
+  {
+   "rule": "4.5以上かつ20件以上",
+   "pass_shops": 4882,
+   "good_shops": 24396,
+   "good_kept": 0.196,
+   "good_missed": 0.804,
+   "pass_good_share": 0.979,
+   "pass_below_4_0": 0.0,
+   "pass_n_le_4": 0.0
+  }
+ ],
+ "pass_prob_by_true_and_n": {
+  "3": {
+   "true_4_4": 0.434,
+   "true_4_6": 0.652,
+   "true_4_0": 0.135
+  },
+  "20": {
+   "true_4_4": 0.317,
+   "true_4_6": 0.829,
+   "true_4_0": 0.002
+  },
+  "100": {
+   "true_4_4": 0.081,
+   "true_4_6": 0.964,
+   "true_4_0": 0.0
+  },
+  "500": {
+   "true_4_4": 0.0,
+   "true_4_6": 1.0,
+   "true_4_0": 0.0
+  }
+ },
+ "robustness": {
+  "基本（良い店4.3以上・差0.35・件数1〜1,000件）": {
+   "good_share_of_shops": 0.122,
+   "4.5以上": {
+    "good_kept": 0.429,
+    "good_missed": 0.571,
+    "pass_good_share": 0.54
+   },
+   "4.5以上かつ20件以上": {
+    "good_kept": 0.196,
+    "good_missed": 0.804,
+    "pass_good_share": 0.979
+   }
+  },
+  "良い店を4.2以上": {
+   "good_share_of_shops": 0.192,
+   "4.5以上": {
+    "good_kept": 0.326,
+    "good_missed": 0.674,
+    "pass_good_share": 0.64
+   },
+   "4.5以上かつ20件以上": {
+    "good_kept": 0.13,
+    "good_missed": 0.87,
+    "pass_good_share": 0.996
+   }
+  },
+  "良い店を4.4以上": {
+   "good_share_of_shops": 0.072,
+   "4.5以上": {
+    "good_kept": 0.599,
+    "good_missed": 0.401,
+    "pass_good_share": 0.443
+   },
+   "4.5以上かつ20件以上": {
+    "good_kept": 0.323,
+    "good_missed": 0.677,
+    "pass_good_share": 0.934
+   }
+  },
+  "店どうしの差0.2": {
+   "good_share_of_shops": 0.023,
+   "4.5以上": {
+    "good_kept": 0.253,
+    "good_missed": 0.747,
+    "pass_good_share": 0.099
+   },
+   "4.5以上かつ20件以上": {
+    "good_kept": 0.063,
+    "good_missed": 0.937,
+    "pass_good_share": 0.776
+   }
+  },
+  "店どうしの差0.5": {
+   "good_share_of_shops": 0.183,
+   "4.5以上": {
+    "good_kept": 0.526,
+    "good_missed": 0.474,
+    "pass_good_share": 0.72
+   },
+   "4.5以上かつ20件以上": {
+    "good_kept": 0.264,
+    "good_missed": 0.736,
+    "pass_good_share": 0.991
+   }
+  },
+  "件数1〜100件": {
+   "good_share_of_shops": 0.122,
+   "4.5以上": {
+    "good_kept": 0.49,
+    "good_missed": 0.51,
+    "pass_good_share": 0.471
+   },
+   "4.5以上かつ20件以上": {
+    "good_kept": 0.14,
+    "good_missed": 0.86,
+    "pass_good_share": 0.962
+   }
+  }
+ },
+ "one_draw_20000": {
+  "pass_shops": 1915,
+  "good_shops": 2465,
+  "good_kept": 0.433,
+  "good_missed": 0.567,
+  "pass_good_share": 0.558,
+  "pass_below_4_0": 0.204,
+  "pass_n_le_4": 0.555
+ },
+ "clip_like_801": {
+  "good_share_of_shops": 0.126,
+  "share_true_at_4_8": 0.0053,
+  "4.5以上": {
+   "good_kept": 0.457,
+   "good_missed": 0.543,
+   "pass_good_share": 0.561
+  }
+ }
+}
