@@ -1,0 +1,395 @@
+{
+ "example_month": {
+  "buzz_views": 300000,
+  "replaced_views": 1607,
+  "mean_before": 3711.3,
+  "mean_after": 18631.0,
+  "mean_ratio": 5.02,
+  "median_before": 2895.0,
+  "median_after": 3068.0,
+  "trim1_after": 3822.1,
+  "buzz_share_of_total": 0.805,
+  "posts_above_mean_after": 1
+ },
+ "buzz_size_mean_ratio": [
+  {
+   "posts_per_month": 10,
+   "buzz_views": 10000,
+   "mean_ratio": 1.161
+  },
+  {
+   "posts_per_month": 10,
+   "buzz_views": 30000,
+   "mean_ratio": 1.683
+  },
+  {
+   "posts_per_month": 10,
+   "buzz_views": 100000,
+   "mean_ratio": 3.509
+  },
+  {
+   "posts_per_month": 10,
+   "buzz_views": 300000,
+   "mean_ratio": 8.727
+  },
+  {
+   "posts_per_month": 10,
+   "buzz_views": 1000000,
+   "mean_ratio": 26.99
+  },
+  {
+   "posts_per_month": 20,
+   "buzz_views": 10000,
+   "mean_ratio": 1.08
+  },
+  {
+   "posts_per_month": 20,
+   "buzz_views": 30000,
+   "mean_ratio": 1.341
+  },
+  {
+   "posts_per_month": 20,
+   "buzz_views": 100000,
+   "mean_ratio": 2.255
+  },
+  {
+   "posts_per_month": 20,
+   "buzz_views": 300000,
+   "mean_ratio": 4.864
+  },
+  {
+   "posts_per_month": 20,
+   "buzz_views": 1000000,
+   "mean_ratio": 13.995
+  },
+  {
+   "posts_per_month": 60,
+   "buzz_views": 10000,
+   "mean_ratio": 1.027
+  },
+  {
+   "posts_per_month": 60,
+   "buzz_views": 30000,
+   "mean_ratio": 1.114
+  },
+  {
+   "posts_per_month": 60,
+   "buzz_views": 100000,
+   "mean_ratio": 1.418
+  },
+  {
+   "posts_per_month": 60,
+   "buzz_views": 300000,
+   "mean_ratio": 2.288
+  },
+  {
+   "posts_per_month": 60,
+   "buzz_views": 1000000,
+   "mean_ratio": 5.332
+  }
+ ],
+ "same_ability_20000_months": {
+  "months_with_buzz": 0.3271,
+  "平均": {
+   "typical_month": 4228.1,
+   "share_ge_1_5x_typical": 0.2958,
+   "share_mom_change_ge_30pct": 0.6323,
+   "p10_ratio": 0.746,
+   "p90_ratio": 4.218,
+   "max_ratio": 38.71,
+   "P_up_when_lift_1_2": 0.6382,
+   "P_down_when_lift_0_8": 0.6565
+  },
+  "中央値": {
+   "typical_month": 3060.5,
+   "share_ge_1_5x_typical": 0.0185,
+   "share_mom_change_ge_30pct": 0.3378,
+   "p10_ratio": 0.781,
+   "p90_ratio": 1.282,
+   "max_ratio": 2.36,
+   "P_up_when_lift_1_2": 0.7469,
+   "P_down_when_lift_0_8": 0.7945
+  },
+  "上位1本を除いた平均": {
+   "typical_month": 3513.9,
+   "share_ge_1_5x_typical": 0.0669,
+   "share_mom_change_ge_30pct": 0.3663,
+   "p10_ratio": 0.796,
+   "p90_ratio": 1.347,
+   "max_ratio": 19.97,
+   "P_up_when_lift_1_2": 0.7385,
+   "P_down_when_lift_0_8": 0.7798
+  },
+  "long_run_mean_all_posts": 8067.5,
+  "share_months_mean_below_long_run": 0.7447,
+  "expected_base_post": 3832.9
+ },
+ "robustness": [
+  {
+   "setting": "基本（バズ2%・散らばり0.7・20本）",
+   "metric": "平均",
+   "months_with_buzz": 0.3271,
+   "share_ge_1_5x_typical": 0.2958,
+   "share_mom_change_ge_30pct": 0.6323,
+   "P_up_when_lift_1_2": 0.6382
+  },
+  {
+   "setting": "基本（バズ2%・散らばり0.7・20本）",
+   "metric": "中央値",
+   "months_with_buzz": 0.3271,
+   "share_ge_1_5x_typical": 0.0185,
+   "share_mom_change_ge_30pct": 0.3378,
+   "P_up_when_lift_1_2": 0.7469
+  },
+  {
+   "setting": "基本（バズ2%・散らばり0.7・20本）",
+   "metric": "上位1本を除いた平均",
+   "months_with_buzz": 0.3271,
+   "share_ge_1_5x_typical": 0.0669,
+   "share_mom_change_ge_30pct": 0.3663,
+   "P_up_when_lift_1_2": 0.7385
+  },
+  {
+   "setting": "バズ0.5%",
+   "metric": "平均",
+   "months_with_buzz": 0.0959,
+   "share_ge_1_5x_typical": 0.0958,
+   "share_mom_change_ge_30pct": 0.4111,
+   "P_up_when_lift_1_2": 0.7173
+  },
+  {
+   "setting": "バズ0.5%",
+   "metric": "中央値",
+   "months_with_buzz": 0.0959,
+   "share_ge_1_5x_typical": 0.0167,
+   "share_mom_change_ge_30pct": 0.3306,
+   "P_up_when_lift_1_2": 0.7554
+  },
+  {
+   "setting": "バズ0.5%",
+   "metric": "上位1本を除いた平均",
+   "months_with_buzz": 0.0959,
+   "share_ge_1_5x_typical": 0.0135,
+   "share_mom_change_ge_30pct": 0.2793,
+   "P_up_when_lift_1_2": 0.7722
+  },
+  {
+   "setting": "バズ5%",
+   "metric": "平均",
+   "months_with_buzz": 0.6398,
+   "share_ge_1_5x_typical": 0.3624,
+   "share_mom_change_ge_30pct": 0.8098,
+   "P_up_when_lift_1_2": 0.5653
+  },
+  {
+   "setting": "バズ5%",
+   "metric": "中央値",
+   "months_with_buzz": 0.6398,
+   "share_ge_1_5x_typical": 0.0249,
+   "share_mom_change_ge_30pct": 0.3545,
+   "P_up_when_lift_1_2": 0.7337
+  },
+  {
+   "setting": "バズ5%",
+   "metric": "上位1本を除いた平均",
+   "months_with_buzz": 0.6398,
+   "share_ge_1_5x_typical": 0.2402,
+   "share_mom_change_ge_30pct": 0.5854,
+   "P_up_when_lift_1_2": 0.6526
+  },
+  {
+   "setting": "散らばり0.5",
+   "metric": "平均",
+   "months_with_buzz": 0.3288,
+   "share_ge_1_5x_typical": 0.3163,
+   "share_mom_change_ge_30pct": 0.5682,
+   "P_up_when_lift_1_2": 0.6774
+  },
+  {
+   "setting": "散らばり0.5",
+   "metric": "中央値",
+   "months_with_buzz": 0.3288,
+   "share_ge_1_5x_typical": 0.0019,
+   "share_mom_change_ge_30pct": 0.1788,
+   "P_up_when_lift_1_2": 0.8266
+  },
+  {
+   "setting": "散らばり0.5",
+   "metric": "上位1本を除いた平均",
+   "months_with_buzz": 0.3288,
+   "share_ge_1_5x_typical": 0.0544,
+   "share_mom_change_ge_30pct": 0.2194,
+   "P_up_when_lift_1_2": 0.8184
+  },
+  {
+   "setting": "散らばり1.0",
+   "metric": "平均",
+   "months_with_buzz": 0.3301,
+   "share_ge_1_5x_typical": 0.2751,
+   "share_mom_change_ge_30pct": 0.7107,
+   "P_up_when_lift_1_2": 0.6025
+  },
+  {
+   "setting": "散らばり1.0",
+   "metric": "中央値",
+   "months_with_buzz": 0.3301,
+   "share_ge_1_5x_typical": 0.0742,
+   "share_mom_change_ge_30pct": 0.506,
+   "P_up_when_lift_1_2": 0.6803
+  },
+  {
+   "setting": "散らばり1.0",
+   "metric": "上位1本を除いた平均",
+   "months_with_buzz": 0.3301,
+   "share_ge_1_5x_typical": 0.1124,
+   "share_mom_change_ge_30pct": 0.5383,
+   "P_up_when_lift_1_2": 0.6657
+  },
+  {
+   "setting": "1か月10本",
+   "metric": "平均",
+   "months_with_buzz": 0.1784,
+   "share_ge_1_5x_typical": 0.1961,
+   "share_mom_change_ge_30pct": 0.6123,
+   "P_up_when_lift_1_2": 0.6392
+  },
+  {
+   "setting": "1か月10本",
+   "metric": "中央値",
+   "months_with_buzz": 0.1784,
+   "share_ge_1_5x_typical": 0.0635,
+   "share_mom_change_ge_30pct": 0.4833,
+   "P_up_when_lift_1_2": 0.6825
+  },
+  {
+   "setting": "1か月10本",
+   "metric": "上位1本を除いた平均",
+   "months_with_buzz": 0.1784,
+   "share_ge_1_5x_typical": 0.063,
+   "share_mom_change_ge_30pct": 0.457,
+   "P_up_when_lift_1_2": 0.6937
+  },
+  {
+   "setting": "1か月60本",
+   "metric": "平均",
+   "months_with_buzz": 0.7027,
+   "share_ge_1_5x_typical": 0.2761,
+   "share_mom_change_ge_30pct": 0.7147,
+   "P_up_when_lift_1_2": 0.6048
+  },
+  {
+   "setting": "1か月60本",
+   "metric": "中央値",
+   "months_with_buzz": 0.7027,
+   "share_ge_1_5x_typical": 0.0002,
+   "share_mom_change_ge_30pct": 0.1041,
+   "P_up_when_lift_1_2": 0.8731
+  },
+  {
+   "setting": "1か月60本",
+   "metric": "上位1本を除いた平均",
+   "months_with_buzz": 0.7027,
+   "share_ge_1_5x_typical": 0.1789,
+   "share_mom_change_ge_30pct": 0.4543,
+   "P_up_when_lift_1_2": 0.7143
+  },
+  {
+   "setting": "バズなし",
+   "metric": "平均",
+   "months_with_buzz": 0.0,
+   "share_ge_1_5x_typical": 0.0112,
+   "share_mom_change_ge_30pct": 0.2912,
+   "P_up_when_lift_1_2": 0.7673
+  },
+  {
+   "setting": "バズなし",
+   "metric": "中央値",
+   "months_with_buzz": 0.0,
+   "share_ge_1_5x_typical": 0.0161,
+   "share_mom_change_ge_30pct": 0.3277,
+   "P_up_when_lift_1_2": 0.7516
+  },
+  {
+   "setting": "バズなし",
+   "metric": "上位1本を除いた平均",
+   "months_with_buzz": 0.0,
+   "share_ge_1_5x_typical": 0.0071,
+   "share_mom_change_ge_30pct": 0.2651,
+   "P_up_when_lift_1_2": 0.7804
+  }
+ ],
+ "year_by_month": [
+  {
+   "month": 1,
+   "mean": 2814.4,
+   "median": 2827.5,
+   "buzz_posts": 0
+  },
+  {
+   "month": 2,
+   "mean": 3397.9,
+   "median": 3362.5,
+   "buzz_posts": 0
+  },
+  {
+   "month": 3,
+   "mean": 4471.4,
+   "median": 4137.0,
+   "buzz_posts": 0
+  },
+  {
+   "month": 4,
+   "mean": 4054.0,
+   "median": 2790.0,
+   "buzz_posts": 0
+  },
+  {
+   "month": 5,
+   "mean": 2969.5,
+   "median": 2488.0,
+   "buzz_posts": 0
+  },
+  {
+   "month": 6,
+   "mean": 3804.6,
+   "median": 3251.0,
+   "buzz_posts": 0
+  },
+  {
+   "month": 7,
+   "mean": 8790.6,
+   "median": 4323.5,
+   "buzz_posts": 1
+  },
+  {
+   "month": 8,
+   "mean": 3560.5,
+   "median": 3850.0,
+   "buzz_posts": 0
+  },
+  {
+   "month": 9,
+   "mean": 14560.7,
+   "median": 4186.5,
+   "buzz_posts": 1
+  },
+  {
+   "month": 10,
+   "mean": 2721.2,
+   "median": 2300.5,
+   "buzz_posts": 0
+  },
+  {
+   "month": 11,
+   "mean": 4464.4,
+   "median": 2786.0,
+   "buzz_posts": 0
+  },
+  {
+   "month": 12,
+   "mean": 2813.4,
+   "median": 2434.0,
+   "buzz_posts": 0
+  }
+ ]
+}

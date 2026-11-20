@@ -1,0 +1,176 @@
+{
+ "base_300_posts": {
+  "spearman_impressions_vs_ctr": -0.187,
+  "spearman_impressions_vs_true": 0.953,
+  "全体のクリック率": {
+   "spearman_with_true": 0.011,
+   "top30_hit": 0.067,
+   "top30_median_impressions": 6034.5
+  },
+  "フォロワーだけのクリック率": {
+   "spearman_with_true": 0.979,
+   "top30_hit": 0.867,
+   "top30_median_impressions": 71133.0
+  },
+  "相手の内訳でそろえたクリック率": {
+   "spearman_with_true": 0.94,
+   "top30_hit": 0.7,
+   "top30_median_impressions": 58285.5
+  },
+  "layer_rate_all_posts": {
+   "フォロワー": 0.0623,
+   "近い興味": 0.0369,
+   "遠い興味": 0.0198
+  },
+  "band_top_vs_bottom": {
+   "true_appeal_ratio": 2.7,
+   "ctr_overall_bottom": 0.0301,
+   "ctr_overall_top": 0.0283,
+   "ctr_follower_bottom": 0.0357,
+   "ctr_follower_top": 0.0969
+  }
+ },
+ "by_impression_band": [
+  {
+   "imp_band": "少ない5分の1",
+   "posts": 60,
+   "impressions_median": 3883.0,
+   "ctr_overall": 0.0301,
+   "ctr_follower": 0.0357,
+   "true_appeal_mean": 0.5981,
+   "share_follower_imp": 0.7654
+  },
+  {
+   "imp_band": "2",
+   "posts": 60,
+   "impressions_median": 5578.0,
+   "ctr_overall": 0.0326,
+   "ctr_follower": 0.0478,
+   "true_appeal_mean": 0.7958,
+   "share_follower_imp": 0.5316
+  },
+  {
+   "imp_band": "3",
+   "posts": 60,
+   "impressions_median": 9256.5,
+   "ctr_overall": 0.0313,
+   "ctr_follower": 0.0587,
+   "true_appeal_mean": 0.981,
+   "share_follower_imp": 0.3221
+  },
+  {
+   "imp_band": "4",
+   "posts": 60,
+   "impressions_median": 16024.5,
+   "ctr_overall": 0.0295,
+   "ctr_follower": 0.0718,
+   "true_appeal_mean": 1.2048,
+   "share_follower_imp": 0.167
+  },
+  {
+   "imp_band": "多い5分の1",
+   "posts": 60,
+   "impressions_median": 45563.5,
+   "ctr_overall": 0.0283,
+   "ctr_follower": 0.0969,
+   "true_appeal_mean": 1.614,
+   "share_follower_imp": 0.0315
+  }
+ ],
+ "example_pair": {
+  "most_shown": {
+   "post_id": 211,
+   "true_appeal": 1.626,
+   "impressions": 81288,
+   "ctr_overall": 0.0231,
+   "フォロワー": {
+    "imp": 3226,
+    "ctr": 0.1011
+   },
+   "近い興味": {
+    "imp": 12131,
+    "ctr": 0.0411
+   },
+   "遠い興味": {
+    "imp": 65931,
+    "ctr": 0.016
+   }
+  },
+  "median_shown": {
+   "post_id": 56,
+   "true_appeal": 0.985,
+   "impressions": 9250,
+   "ctr_overall": 0.0338,
+   "フォロワー": {
+    "imp": 3417,
+    "ctr": 0.0568
+   },
+   "近い興味": {
+    "imp": 3613,
+    "ctr": 0.0249
+   },
+   "遠い興味": {
+    "imp": 2220,
+    "ctr": 0.0131
+   }
+  },
+  "higher_in_every_layer": true
+ },
+ "repeat_50": {
+  "rho_imp_ctr_mean": -0.343,
+  "rho_imp_ctr_min": -0.455,
+  "rho_imp_ctr_max": -0.242,
+  "全体のクリック率": {
+   "hit_mean": 0.089,
+   "hit_p10": 0.033,
+   "hit_p90": 0.167
+  },
+  "フォロワーだけのクリック率": {
+   "hit_mean": 0.885,
+   "hit_p10": 0.833,
+   "hit_p90": 0.933
+  },
+  "相手の内訳でそろえたクリック率": {
+   "hit_mean": 0.817,
+   "hit_p10": 0.733,
+   "hit_p90": 0.87
+  }
+ },
+ "robustness": [
+  {
+   "setting": "基本（6%・2.5%・1%、広がり3乗・5乗）",
+   "rho_imp_ctr": -0.347,
+   "hit_全体のクリック率": 0.084,
+   "hit_フォロワーだけのクリック率": 0.877,
+   "hit_相手の内訳でそろえたクリック率": 0.821
+  },
+  {
+   "setting": "相手の差を小さく（6%・4.5%・3.5%）",
+   "rho_imp_ctr": 0.822,
+   "hit_全体のクリック率": 0.84,
+   "hit_フォロワーだけのクリック率": 0.882,
+   "hit_相手の内訳でそろえたクリック率": 0.865
+  },
+  {
+   "setting": "相手の差なし（どこでも6%）",
+   "rho_imp_ctr": 0.936,
+   "hit_全体のクリック率": 0.96,
+   "hit_フォロワーだけのクリック率": 0.881,
+   "hit_相手の内訳でそろえたクリック率": 0.88
+  },
+  {
+   "setting": "広がりを弱く（1乗・2乗）",
+   "rho_imp_ctr": 0.166,
+   "hit_全体のクリック率": 0.476,
+   "hit_フォロワーだけのクリック率": 0.878,
+   "hit_相手の内訳でそろえたクリック率": 0.898
+  },
+  {
+   "setting": "引きの強さの差を小さく（0.2）",
+   "rho_imp_ctr": -0.555,
+   "hit_全体のクリック率": 0.055,
+   "hit_フォロワーだけのクリック率": 0.781,
+   "hit_相手の内訳でそろえたクリック率": 0.818
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "setting": {
+  "pick": 1.5,
+  "q_eff": 0.5,
+  "noise": 0.7,
+  "label_cut": 0.5,
+  "eff_scale": 1.0
+ },
+ "n_post": 360,
+ "reps": 1000,
+ "true_night_vs_morning": 0.051,
+ "true_noon_vs_morning": -0.049,
+ "night_vs_morning": [
+  {
+   "case": "出来を見て時刻を選ぶ",
+   "method": "時刻ごとの平均をそのまま",
+   "median": 0.79,
+   "p10": 0.527,
+   "p90": 1.075,
+   "share_ge_20pct": 0.999,
+   "share_wrong_sign": 0.0,
+   "mean_bias": 0.745
+  },
+  {
+   "case": "出来を見て時刻を選ぶ",
+   "method": "力作の印で分けて合わせる",
+   "median": 0.289,
+   "p10": 0.089,
+   "p90": 0.517,
+   "share_ge_20pct": 0.709,
+   "share_wrong_sign": 0.032,
+   "mean_bias": 0.248
+  },
+  {
+   "case": "力作の印だけで時刻を選ぶ",
+   "method": "時刻ごとの平均をそのまま",
+   "median": 0.732,
+   "p10": 0.484,
+   "p90": 1.001,
+   "share_ge_20pct": 0.998,
+   "share_wrong_sign": 0.0,
+   "mean_bias": 0.688
+  },
+  {
+   "case": "力作の印だけで時刻を選ぶ",
+   "method": "力作の印で分けて合わせる",
+   "median": 0.062,
+   "p10": -0.142,
+   "p90": 0.295,
+   "share_ge_20pct": 0.218,
+   "share_wrong_sign": 0.352,
+   "mean_bias": 0.017
+  },
+  {
+   "case": "時刻をくじで決める",
+   "method": "時刻ごとの平均をそのまま",
+   "median": 0.051,
+   "p10": -0.113,
+   "p90": 0.244,
+   "share_ge_20pct": 0.148,
+   "share_wrong_sign": 0.347,
+   "mean_bias": 0.011
+  }
+ ],
+ "noon_vs_morning_choose_by_quality": {
+  "naive": {
+   "median": -0.051,
+   "p10": -0.205,
+   "p90": 0.11,
+   "share_ge_20pct": 0.026,
+   "share_wrong_sign": 0.346,
+   "mean_bias": 0.0
+  },
+  "stratified": {
+   "median": -0.05,
+   "p10": -0.233,
+   "p90": 0.149,
+   "share_ge_20pct": 0.06,
+   "share_wrong_sign": 0.359,
+   "mean_bias": 0.003
+  }
+ },
+ "random_slot_by_n": [
+  {
+   "n_post": 120,
+   "median": 0.034,
+   "p10": -0.223,
+   "p90": 0.393,
+   "share_ge_20pct": 0.277,
+   "share_wrong_sign": 0.432,
+   "mean_bias": 0.019
+  },
+  {
+   "n_post": 360,
+   "median": 0.051,
+   "p10": -0.113,
+   "p90": 0.244,
+   "share_ge_20pct": 0.148,
+   "share_wrong_sign": 0.347,
+   "mean_bias": 0.011
+  },
+  {
+   "n_post": 1080,
+   "median": 0.052,
+   "p10": -0.046,
+   "p90": 0.154,
+   "share_ge_20pct": 0.031,
+   "share_wrong_sign": 0.243,
+   "mean_bias": 0.003
+  }
+ ],
+ "robust_naive_median_range": [
+  0.05,
+  2.043
+ ],
+ "robust_stratified_median_range": [
+  0.053,
+  0.596
+ ],
+ "one_draw": {
+  "by_slot": [
+   {
+    "slot": "朝7時",
+    "n": 120,
+    "mean_view": 3665.117,
+    "label_share": 0.117,
+    "quality_mean": -0.477
+   },
+   {
+    "slot": "昼12時",
+    "n": 97,
+    "mean_view": 3128.948,
+    "label_share": 0.165,
+    "quality_mean": -0.395
+   },
+   {
+    "slot": "夜20時",
+    "n": 143,
+    "mean_view": 5602.49,
+    "label_share": 0.552,
+    "quality_mean": 0.606
+   }
+  ],
+  "naive_night": 0.529,
+  "stratified_night": 0.035,
+  "naive_noon": -0.146,
+  "stratified_noon": -0.226,
+  "label_share_all": 0.303
+ }
+}

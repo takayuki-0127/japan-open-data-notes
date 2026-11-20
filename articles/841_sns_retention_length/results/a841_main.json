@@ -1,0 +1,260 @@
+{
+ "base_400_videos": {
+  "維持率": {
+   "spearman_with_true": 0.344,
+   "top40_hit": 0.175,
+   "top40_median_length_sec": 21.2,
+   "top40_share_under_60s": 1.0,
+   "n_videos_used": 400
+  },
+  "平均の視聴秒数": {
+   "spearman_with_true": 0.098,
+   "top40_hit": 0.25,
+   "top40_median_length_sec": 673.4,
+   "top40_share_under_60s": 0.0,
+   "n_videos_used": 400
+  },
+  "30秒時点で見ている割合": {
+   "spearman_with_true": 0.903,
+   "top40_hit": 0.525,
+   "top40_median_length_sec": 189.0,
+   "top40_share_under_60s": 0.175,
+   "n_videos_used": 346
+  },
+  "離れる率の推定": {
+   "spearman_with_true": 0.975,
+   "top40_hit": 0.775,
+   "top40_median_length_sec": 117.2,
+   "top40_share_under_60s": 0.4,
+   "n_videos_used": 400
+  },
+  "all_share_under_60s": 0.31,
+  "true_top40_median_length_sec": 122.7
+ },
+ "by_length_band": [
+  {
+   "length_band": "1分未満",
+   "videos": 124,
+   "retention_mean": 0.7197,
+   "watch_sec_mean": 24.5215,
+   "true_leave_mean": 0.2514
+  },
+  {
+   "length_band": "1〜3分",
+   "videos": 116,
+   "retention_mean": 0.598,
+   "watch_sec_mean": 65.5917,
+   "true_leave_mean": 0.2874
+  },
+  {
+   "length_band": "3〜10分",
+   "videos": 104,
+   "retention_mean": 0.409,
+   "watch_sec_mean": 137.5848,
+   "true_leave_mean": 0.2675
+  },
+  {
+   "length_band": "10〜20分",
+   "videos": 56,
+   "retention_mean": 0.2203,
+   "watch_sec_mean": 181.1704,
+   "true_leave_mean": 0.2713
+  }
+ ],
+ "same_power_retention_by_length": {
+  "15": 0.76,
+  "30": 0.726,
+  "60": 0.678,
+  "180": 0.536,
+  "600": 0.279,
+  "1200": 0.151
+ },
+ "example_pair": {
+  "short_30s_lam0_40": {
+   "retention": 0.705,
+   "watch_sec": 21.2
+  },
+  "long_600s_lam0_15": {
+   "retention": 0.392,
+   "watch_sec": 235.2
+  },
+  "at_30s_short": 0.626,
+  "at_30s_long": 0.701
+ },
+ "repeat_50": [
+  {
+   "metric": "維持率",
+   "hit_mean": 0.176,
+   "hit_p10": 0.1,
+   "hit_p90": 0.25,
+   "spearman_mean": 0.245
+  },
+  {
+   "metric": "平均の視聴秒数",
+   "hit_mean": 0.286,
+   "hit_p10": 0.2,
+   "hit_p90": 0.35,
+   "spearman_mean": 0.174
+  },
+  {
+   "metric": "30秒時点で見ている割合",
+   "hit_mean": 0.496,
+   "hit_p10": 0.422,
+   "hit_p90": 0.575,
+   "spearman_mean": 0.862
+  },
+  {
+   "metric": "離れる率の推定",
+   "hit_mean": 0.82,
+   "hit_p10": 0.75,
+   "hit_p90": 0.875,
+   "spearman_mean": 0.972
+  }
+ ],
+ "robustness": [
+  {
+   "setting": "基本",
+   "metric": "維持率",
+   "spearman_with_true": 0.344,
+   "top40_hit": 0.175,
+   "top40_median_length_sec": 21.2,
+   "top40_share_under_60s": 1.0,
+   "n_videos_used": 400
+  },
+  {
+   "setting": "基本",
+   "metric": "平均の視聴秒数",
+   "spearman_with_true": 0.098,
+   "top40_hit": 0.25,
+   "top40_median_length_sec": 673.4,
+   "top40_share_under_60s": 0.0,
+   "n_videos_used": 400
+  },
+  {
+   "setting": "基本",
+   "metric": "30秒時点で見ている割合",
+   "spearman_with_true": 0.903,
+   "top40_hit": 0.525,
+   "top40_median_length_sec": 189.0,
+   "top40_share_under_60s": 0.175,
+   "n_videos_used": 346
+  },
+  {
+   "setting": "基本",
+   "metric": "離れる率の推定",
+   "spearman_with_true": 0.975,
+   "top40_hit": 0.775,
+   "top40_median_length_sec": 117.2,
+   "top40_share_under_60s": 0.4,
+   "n_videos_used": 400
+  },
+  {
+   "setting": "はじめほど離れやすい形（ワイブル0.7）",
+   "metric": "維持率",
+   "spearman_with_true": 0.286,
+   "top40_hit": 0.3,
+   "top40_median_length_sec": 21.3,
+   "top40_share_under_60s": 1.0,
+   "n_videos_used": 400
+  },
+  {
+   "setting": "はじめほど離れやすい形（ワイブル0.7）",
+   "metric": "平均の視聴秒数",
+   "spearman_with_true": 0.131,
+   "top40_hit": 0.3,
+   "top40_median_length_sec": 770.7,
+   "top40_share_under_60s": 0.0,
+   "n_videos_used": 400
+  },
+  {
+   "setting": "はじめほど離れやすい形（ワイブル0.7）",
+   "metric": "30秒時点で見ている割合",
+   "spearman_with_true": 0.912,
+   "top40_hit": 0.575,
+   "top40_median_length_sec": 142.3,
+   "top40_share_under_60s": 0.2,
+   "n_videos_used": 340
+  },
+  {
+   "setting": "はじめほど離れやすい形（ワイブル0.7）",
+   "metric": "離れる率の推定",
+   "spearman_with_true": 0.65,
+   "top40_hit": 0.575,
+   "top40_median_length_sec": 479.4,
+   "top40_share_under_60s": 0.025,
+   "n_videos_used": 400
+  },
+  {
+   "setting": "長い動画ほど本当に良い",
+   "metric": "維持率",
+   "spearman_with_true": -0.447,
+   "top40_hit": 0.0,
+   "top40_median_length_sec": 18.2,
+   "top40_share_under_60s": 1.0,
+   "n_videos_used": 400
+  },
+  {
+   "setting": "長い動画ほど本当に良い",
+   "metric": "平均の視聴秒数",
+   "spearman_with_true": 0.788,
+   "top40_hit": 0.65,
+   "top40_median_length_sec": 893.9,
+   "top40_share_under_60s": 0.0,
+   "n_videos_used": 400
+  },
+  {
+   "setting": "長い動画ほど本当に良い",
+   "metric": "30秒時点で見ている割合",
+   "spearman_with_true": 0.895,
+   "top40_hit": 0.575,
+   "top40_median_length_sec": 492.6,
+   "top40_share_under_60s": 0.0,
+   "n_videos_used": 329
+  },
+  {
+   "setting": "長い動画ほど本当に良い",
+   "metric": "離れる率の推定",
+   "spearman_with_true": 0.99,
+   "top40_hit": 0.9,
+   "top40_median_length_sec": 663.2,
+   "top40_share_under_60s": 0.0,
+   "n_videos_used": 400
+  },
+  {
+   "setting": "最初の3秒の離れ方が動画ごとに10〜40%",
+   "metric": "維持率",
+   "spearman_with_true": 0.254,
+   "top40_hit": 0.125,
+   "top40_median_length_sec": 32.8,
+   "top40_share_under_60s": 0.875,
+   "n_videos_used": 400
+  },
+  {
+   "setting": "最初の3秒の離れ方が動画ごとに10〜40%",
+   "metric": "平均の視聴秒数",
+   "spearman_with_true": 0.171,
+   "top40_hit": 0.325,
+   "top40_median_length_sec": 785.8,
+   "top40_share_under_60s": 0.0,
+   "n_videos_used": 400
+  },
+  {
+   "setting": "最初の3秒の離れ方が動画ごとに10〜40%",
+   "metric": "30秒時点で見ている割合",
+   "spearman_with_true": 0.419,
+   "top40_hit": 0.175,
+   "top40_median_length_sec": 99.4,
+   "top40_share_under_60s": 0.225,
+   "n_videos_used": 339
+  },
+  {
+   "setting": "最初の3秒の離れ方が動画ごとに10〜40%",
+   "metric": "離れる率の推定",
+   "spearman_with_true": 0.976,
+   "top40_hit": 0.85,
+   "top40_median_length_sec": 90.2,
+   "top40_share_under_60s": 0.425,
+   "n_videos_used": 400
+  }
+ ]
+}

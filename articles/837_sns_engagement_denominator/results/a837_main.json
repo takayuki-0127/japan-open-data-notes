@@ -1,0 +1,77 @@
+{
+ "setting": {
+  "spread": 0.8,
+  "rho": 0.3,
+  "ctr_sd": 0.4,
+  "growth": 2.5
+ },
+ "n_post": 300,
+ "k": 20,
+ "reps": 200,
+ "hit20_mean": {
+  "今のフォロワー数": 0.287,
+  "投稿時のフォロワー数": 0.296,
+  "表示回数": 0.368,
+  "再生回数": 0.731,
+  "反応の数そのまま": 0.287
+ },
+ "overlap20_mean": {
+  "今のフォロワー数×投稿時のフォロワー数": 15.79,
+  "今のフォロワー数×表示回数": 6.82,
+  "今のフォロワー数×再生回数": 5.09,
+  "投稿時のフォロワー数×表示回数": 7.28,
+  "投稿時のフォロワー数×再生回数": 5.35,
+  "表示回数×再生回数": 7.41
+ },
+ "all4_common_mean": 2.81,
+ "all4_common_min": 0,
+ "all4_common_max": 8,
+ "top20_early_half_share": {
+  "今のフォロワー数": 0.307,
+  "投稿時のフォロワー数": 0.509,
+  "表示回数": 0.521,
+  "再生回数": 0.521
+ },
+ "robust_all4_range": [
+  1.95,
+  4.46
+ ],
+ "robust_overlap_follower_view_range": [
+  3.61,
+  8.37
+ ],
+ "robust_hit_view_range": [
+  0.678,
+  0.779
+ ],
+ "robust_hit_follower_range": [
+  0.201,
+  0.452
+ ],
+ "one_draw": {
+  "median_impression": 3784,
+  "median_view": 947,
+  "median_reaction": 36,
+  "follower_first": 8020,
+  "follower_last_post": 19800,
+  "follower_now": 20000,
+  "all4_common": 0,
+  "overlap": {
+   "rate_now_follower|rate_follower": 14,
+   "rate_now_follower|rate_impression": 4,
+   "rate_now_follower|rate_view": 4,
+   "rate_follower|rate_impression": 6,
+   "rate_follower|rate_view": 7,
+   "rate_impression|rate_view": 7
+  },
+  "hit": {
+   "rate_now_follower": 0.25,
+   "rate_follower": 0.3,
+   "rate_impression": 0.3,
+   "rate_view": 0.6,
+   "reaction": 0.25
+  },
+  "spearman_follower_view": 0.558,
+  "spearman_impression_view": 0.647
+ }
+}
