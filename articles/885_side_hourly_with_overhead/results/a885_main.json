@@ -1,0 +1,82 @@
+{
+ "assumptions": {
+  "F": 1.0,
+  "c": 0.1,
+  "lam": 1.2,
+  "r": 0.15,
+  "rev_talk": 0.3
+ },
+ "base_200reps": {
+  "drop_median": 0.305,
+  "drop_total": 0.272,
+  "drop_by_size": {
+   "3時間未満": 0.486,
+   "3〜10時間": 0.315,
+   "10〜30時間": 0.229,
+   "30時間以上": 0.201
+  },
+  "top20_kept": 0.651,
+  "spearman": 0.73,
+  "top20_all_small_share": 0.098,
+  "top20_work_small_share": 0.269,
+  "drop_median_p05_p95": [
+   0.297,
+   0.312
+  ]
+ },
+ "one_draw": {
+  "drop_median": 0.305,
+  "drop_total": 0.274,
+  "drop_by_size": {
+   "3時間未満": 0.504,
+   "3〜10時間": 0.31,
+   "10〜30時間": 0.228,
+   "30時間以上": 0.203
+  },
+  "top20_kept": 0.658,
+  "spearman": 0.729,
+  "top20_all_small_share": 0.093,
+  "top20_work_small_share": 0.263
+ },
+ "one_draw_share_of_time": {
+  "talk": 0.125,
+  "revision": 0.148
+ },
+ "theory_drop_total_base": 0.273,
+ "robustness": {
+  "ranges_all36": {
+   "drop_median": [
+    0.091,
+    0.537
+   ],
+   "drop_total": [
+    0.138,
+    0.511
+   ],
+   "top20_kept": [
+    0.497,
+    0.835
+   ],
+   "drop_3時間未満": [
+    0.091,
+    0.687
+   ],
+   "drop_30時間以上": [
+    0.091,
+    0.412
+   ]
+  },
+  "F0_small_minus_large_gap": [
+   0.0,
+   0.148
+  ],
+  "Fpos_small_minus_large_gap": [
+   0.16,
+   0.422
+  ],
+  "F0_drop_median_range": [
+   0.091,
+   0.426
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+top_share,n_clients,effective_n,cv_median,months_below70_pct,year_any_below50_pct,year_min_median,year1_no_below50_pct,year2_below50_given_year1_none_pct,mean_month
+0.3,5,4.71,0.169,11.6,12.1,66.4,87.9,13.4,91.7
+0.5,5,3.2,0.175,12.3,28.6,67.6,71.4,30.7,91.8
+0.7,5,1.95,0.191,12.1,31.4,67.6,68.6,30.7,91.8
+0.9,5,1.23,0.218,13.4,31.4,65.2,68.6,30.8,91.8
+1.0,1,1.0,0.235,14.6,32.0,63.4,68.0,31.9,91.7

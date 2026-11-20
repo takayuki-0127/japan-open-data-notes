@@ -1,0 +1,150 @@
+{
+ "base": {
+  "sigma": 0.2,
+  "hazard": 0.03,
+  "gap": 3,
+  "common": 0.1
+ },
+ "formula_top_client_stops_in_year_pct": 30.6,
+ "n_other_clients": 4,
+ "people_per_setting": 20000,
+ "by_top_share": [
+  {
+   "top_share": 0.3,
+   "n_clients": 5,
+   "effective_n": 4.71,
+   "cv_median": 0.169,
+   "months_below70_pct": 11.6,
+   "year_any_below50_pct": 12.1,
+   "year_min_median": 66.4,
+   "year1_no_below50_pct": 87.9,
+   "year2_below50_given_year1_none_pct": 13.4,
+   "mean_month": 91.7
+  },
+  {
+   "top_share": 0.5,
+   "n_clients": 5,
+   "effective_n": 3.2,
+   "cv_median": 0.175,
+   "months_below70_pct": 12.3,
+   "year_any_below50_pct": 28.6,
+   "year_min_median": 67.6,
+   "year1_no_below50_pct": 71.4,
+   "year2_below50_given_year1_none_pct": 30.7,
+   "mean_month": 91.8
+  },
+  {
+   "top_share": 0.7,
+   "n_clients": 5,
+   "effective_n": 1.95,
+   "cv_median": 0.191,
+   "months_below70_pct": 12.1,
+   "year_any_below50_pct": 31.4,
+   "year_min_median": 67.6,
+   "year1_no_below50_pct": 68.6,
+   "year2_below50_given_year1_none_pct": 30.7,
+   "mean_month": 91.8
+  },
+  {
+   "top_share": 0.9,
+   "n_clients": 5,
+   "effective_n": 1.23,
+   "cv_median": 0.218,
+   "months_below70_pct": 13.4,
+   "year_any_below50_pct": 31.4,
+   "year_min_median": 65.2,
+   "year1_no_below50_pct": 68.6,
+   "year2_below50_given_year1_none_pct": 30.8,
+   "mean_month": 91.8
+  },
+  {
+   "top_share": 1.0,
+   "n_clients": 1,
+   "effective_n": 1.0,
+   "cv_median": 0.235,
+   "months_below70_pct": 14.6,
+   "year_any_below50_pct": 32.0,
+   "year_min_median": 63.4,
+   "year1_no_below50_pct": 68.0,
+   "year2_below50_given_year1_none_pct": 31.9,
+   "mean_month": 91.7
+  }
+ ],
+ "count_vs_share": {
+  "spearman_cv_vs_n_clients": -0.366,
+  "spearman_cv_vs_effective_n": -0.444,
+  "spearman_min_vs_n_clients": 0.246,
+  "spearman_min_vs_effective_n": 0.302,
+  "five_clients_cv_median_low_effective": 0.281,
+  "five_clients_cv_median_high_effective": 0.191,
+  "five_clients_min_median_low_effective": 43.6,
+  "five_clients_min_median_high_effective": 59.4,
+  "five_clients_effective_p10": 1.91,
+  "five_clients_effective_p90": 3.8,
+  "examples": {
+   "5社・1社80%": {
+    "effective_n": 1.54,
+    "cv_median": 0.204,
+    "months_below70_pct": 12.5,
+    "year_any_below50_pct": 30.9,
+    "year_min_median": 66.7,
+    "year1_no_below50_pct": 69.1,
+    "year2_below50_given_year1_none_pct": 30.8,
+    "mean_month": 91.8
+   },
+   "3社・均等": {
+    "effective_n": 3.0,
+    "cv_median": 0.2,
+    "months_below70_pct": 16.2,
+    "year_any_below50_pct": 21.7,
+    "year_min_median": 60.2,
+    "year1_no_below50_pct": 78.3,
+    "year2_below50_given_year1_none_pct": 23.2,
+    "mean_month": 91.8
+   }
+  }
+ },
+ "sensitivity_summary": {
+  "n_settings": 36,
+  "any50_30_range": [
+   0.0,
+   52.5
+  ],
+  "any50_90_range": [
+   0.0,
+   70.8
+  ],
+  "any50_90_range_hazard_pos": [
+   14.2,
+   70.8
+  ],
+  "any50_30_range_hazard_pos": [
+   2.0,
+   52.5
+  ],
+  "cv_ratio_range": [
+   0.81,
+   1.96
+  ],
+  "always_90_higher_cv": false,
+  "always_90_higher_any50": true,
+  "hazard0_any50_90_max": 41.6,
+  "n_cv_90_lower": 4,
+  "any50_ratio_hazard_pos_range": [
+   1.2,
+   8.55
+  ]
+ },
+ "formula_check": [
+  {
+   "top_share": 0.3,
+   "cv_sim": 0.092,
+   "cv_formula": 0.0931
+  },
+  {
+   "top_share": 0.9,
+   "cv_sim": 0.1794,
+   "cv_formula": 0.1821
+  }
+ ]
+}

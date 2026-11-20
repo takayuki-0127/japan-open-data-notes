@@ -1,0 +1,7 @@
+,spearman_active_bound,spearman_active_eff,spearman_bound_eff,top_same_active_bound,top_same_active_eff,top_same_bound_eff,mean_abs_rank_move_active_to_eff
+g5_burst1,0.512,0.923,0.611,0.303,0.817,0.363,0.851
+g5_burst3,0.458,0.976,0.517,0.24,0.903,0.273,0.391
+g15_burst1,0.5,0.819,0.688,0.34,0.637,0.487,1.481
+g15_burst3,0.472,0.916,0.607,0.217,0.707,0.343,0.909
+g30_burst1,0.534,0.722,0.828,0.357,0.53,0.63,1.909
+g30_burst3,0.487,0.845,0.703,0.243,0.67,0.393,1.323

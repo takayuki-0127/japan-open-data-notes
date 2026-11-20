@@ -1,0 +1,304 @@
+{
+ "base": {
+  "bias": 1.2,
+  "sigma_mode": "small_wide"
+ },
+ "metrics_names": {
+  "mean_ratio": "案件ごとの（実際÷見積もり−1）の平均",
+  "median_ratio": "案件ごとの（実際÷見積もり−1）の中央値",
+  "total_ratio": "合計の実際÷合計の見積もり−1",
+  "mean_short": "案件ごとの（1−見積もり÷実際）の平均",
+  "mean_abs": "外れの大きさ｜実際÷見積もり−1｜の平均",
+  "median_abs": "外れの大きさ｜実際÷見積もり−1｜の中央値",
+  "share_out20": "±20%を超えて外れた案件の割合",
+  "share_late": "見積もりより長くかかった案件の割合"
+ },
+ "base_1m_jobs": {
+  "mean_ratio": 28.0,
+  "median_ratio": 20.0,
+  "total_ratio": 25.9,
+  "mean_short": 11.0,
+  "mean_abs": 39.5,
+  "median_abs": 28.0,
+  "share_out20": 62.3,
+  "share_late": 70.2
+ },
+ "by_job_size": [
+  {
+   "size": "2時間以下",
+   "share_of_jobs": 11.0,
+   "share_of_hours": 2.1,
+   "mean_ratio": 33.7,
+   "median_ratio": 19.9,
+   "share_out20": 69.0
+  },
+  {
+   "size": "2〜5時間",
+   "share_of_jobs": 32.3,
+   "share_of_hours": 14.6,
+   "mean_ratio": 29.8,
+   "median_ratio": 20.1,
+   "share_out20": 65.2
+  },
+  {
+   "size": "5〜10時間",
+   "share_of_jobs": 31.6,
+   "share_of_hours": 28.3,
+   "mean_ratio": 26.9,
+   "median_ratio": 19.8,
+   "share_out20": 61.4
+  },
+  {
+   "size": "10〜20時間",
+   "share_of_jobs": 18.7,
+   "share_of_hours": 31.7,
+   "mean_ratio": 25.0,
+   "median_ratio": 20.0,
+   "share_out20": 57.9
+  },
+  {
+   "size": "20時間超",
+   "share_of_jobs": 6.4,
+   "share_of_hours": 23.2,
+   "mean_ratio": 23.2,
+   "median_ratio": 20.1,
+   "share_out20": 54.1
+  }
+ ],
+ "by_record_count": [
+  {
+   "n_records": 20,
+   "metric": "mean_ratio",
+   "p10": 14.4,
+   "p50": 27.3,
+   "p90": 41.4
+  },
+  {
+   "n_records": 20,
+   "metric": "median_ratio",
+   "p10": 6.6,
+   "p50": 20.5,
+   "p90": 34.6
+  },
+  {
+   "n_records": 20,
+   "metric": "total_ratio",
+   "p10": 13.2,
+   "p50": 25.2,
+   "p90": 39.4
+  },
+  {
+   "n_records": 20,
+   "metric": "share_out20",
+   "p10": 50.0,
+   "p50": 60.0,
+   "p90": 75.0
+  },
+  {
+   "n_records": 50,
+   "metric": "mean_ratio",
+   "p10": 19.3,
+   "p50": 27.9,
+   "p90": 36.7
+  },
+  {
+   "n_records": 50,
+   "metric": "median_ratio",
+   "p10": 11.2,
+   "p50": 20.1,
+   "p90": 29.5
+  },
+  {
+   "n_records": 50,
+   "metric": "total_ratio",
+   "p10": 17.5,
+   "p50": 25.9,
+   "p90": 34.2
+  },
+  {
+   "n_records": 50,
+   "metric": "share_out20",
+   "p10": 54.0,
+   "p50": 62.0,
+   "p90": 72.0
+  },
+  {
+   "n_records": 200,
+   "metric": "mean_ratio",
+   "p10": 23.9,
+   "p50": 28.1,
+   "p90": 32.5
+  },
+  {
+   "n_records": 200,
+   "metric": "median_ratio",
+   "p10": 15.5,
+   "p50": 20.1,
+   "p90": 24.9
+  },
+  {
+   "n_records": 200,
+   "metric": "total_ratio",
+   "p10": 21.8,
+   "p50": 26.0,
+   "p90": 30.3
+  },
+  {
+   "n_records": 200,
+   "metric": "share_out20",
+   "p10": 58.0,
+   "p50": 62.5,
+   "p90": 67.0
+  }
+ ],
+ "records20_mean_gt_total_pct": 60.0,
+ "records20_mean_minus_total_p10_p90": [
+  -7.0,
+  11.1
+ ],
+ "sensitivity": [
+  {
+   "bias": 1.0,
+   "sigma_mode": "small_wide",
+   "mean_ratio": 6.7,
+   "median_ratio": 0.0,
+   "total_ratio": 4.9,
+   "mean_short": -6.7,
+   "mean_abs": 29.6,
+   "median_abs": 22.9,
+   "share_out20": 55.6,
+   "share_late": 50.0,
+   "max_minus_min_4": 13.4
+  },
+  {
+   "bias": 1.0,
+   "sigma_mode": "flat",
+   "mean_ratio": 6.4,
+   "median_ratio": 0.1,
+   "total_ratio": 6.3,
+   "mean_short": -6.3,
+   "mean_abs": 29.1,
+   "median_abs": 23.3,
+   "share_out20": 56.3,
+   "share_late": 50.1,
+   "max_minus_min_4": 12.7
+  },
+  {
+   "bias": 1.0,
+   "sigma_mode": "large_wide",
+   "mean_ratio": 6.4,
+   "median_ratio": -0.1,
+   "total_ratio": 8.3,
+   "mean_short": -6.5,
+   "mean_abs": 28.8,
+   "median_abs": 22.4,
+   "share_out20": 54.7,
+   "share_late": 49.9,
+   "max_minus_min_4": 14.8
+  },
+  {
+   "bias": 1.2,
+   "sigma_mode": "small_wide",
+   "mean_ratio": 28.0,
+   "median_ratio": 20.0,
+   "total_ratio": 26.0,
+   "mean_short": 11.0,
+   "mean_abs": 39.6,
+   "median_abs": 28.1,
+   "share_out20": 62.5,
+   "share_late": 70.1,
+   "max_minus_min_4": 17.0
+  },
+  {
+   "bias": 1.2,
+   "sigma_mode": "flat",
+   "mean_ratio": 27.6,
+   "median_ratio": 20.0,
+   "total_ratio": 27.5,
+   "mean_short": 11.4,
+   "mean_abs": 38.9,
+   "median_abs": 27.9,
+   "share_out20": 62.3,
+   "share_late": 69.9,
+   "max_minus_min_4": 16.2
+  },
+  {
+   "bias": 1.2,
+   "sigma_mode": "large_wide",
+   "mean_ratio": 27.8,
+   "median_ratio": 20.1,
+   "total_ratio": 30.2,
+   "mean_short": 11.4,
+   "mean_abs": 38.8,
+   "median_abs": 27.7,
+   "share_out20": 61.9,
+   "share_late": 70.8,
+   "max_minus_min_4": 18.8
+  },
+  {
+   "bias": 1.5,
+   "sigma_mode": "small_wide",
+   "mean_ratio": 60.1,
+   "median_ratio": 50.0,
+   "total_ratio": 57.4,
+   "mean_short": 28.9,
+   "mean_abs": 64.1,
+   "median_abs": 50.2,
+   "share_out20": 78.3,
+   "share_late": 87.6,
+   "max_minus_min_4": 31.2
+  },
+  {
+   "bias": 1.5,
+   "sigma_mode": "flat",
+   "mean_ratio": 59.6,
+   "median_ratio": 50.1,
+   "total_ratio": 59.7,
+   "mean_short": 29.2,
+   "mean_abs": 63.3,
+   "median_abs": 50.2,
+   "share_out20": 77.5,
+   "share_late": 87.7,
+   "max_minus_min_4": 30.5
+  },
+  {
+   "bias": 1.5,
+   "sigma_mode": "large_wide",
+   "mean_ratio": 59.6,
+   "median_ratio": 49.9,
+   "total_ratio": 62.4,
+   "mean_short": 29.1,
+   "mean_abs": 63.3,
+   "median_abs": 50.2,
+   "share_out20": 78.4,
+   "share_late": 88.2,
+   "max_minus_min_4": 33.3
+  }
+ ],
+ "sens_range_mean_ratio": [
+  6.4,
+  60.1
+ ],
+ "sens_range_max_minus_min_4": [
+  12.7,
+  33.3
+ ],
+ "sens_mean_gt_median_all": true,
+ "flat_bias1": {
+  "mean_ratio": 6.4,
+  "median_ratio": 0.1,
+  "formula_exp_sigma2_half": 6.3,
+  "share_late": 50.1,
+  "mean_short": -6.3
+ },
+ "one_person_200": {
+  "mean_ratio": 25.8,
+  "median_ratio": 19.1,
+  "total_ratio": 26.2,
+  "mean_short": 11.2,
+  "mean_abs": 36.6,
+  "median_abs": 27.8,
+  "share_out20": 62.0,
+  "share_late": 74.0
+ }
+}

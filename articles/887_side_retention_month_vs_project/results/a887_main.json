@@ -1,0 +1,109 @@
+{
+ "assumptions": {
+  "kappa": 2.0,
+  "dur": 2.0,
+  "gap": 1.0,
+  "mean_p": 0.5,
+  "months": 36
+ },
+ "base_30reps_2000clients": {
+  "month": 0.622,
+  "project_all": 0.6,
+  "project_wait6": 0.64,
+  "client_any2": 0.458,
+  "client_first_le24": 0.498,
+  "true_client_mean_p": 0.5,
+  "true_project_weighted_p": 0.652,
+  "true_project_next_ordered": 0.652
+ },
+ "base_sd": {
+  "month": 0.005,
+  "project_all": 0.01,
+  "project_wait6": 0.011,
+  "client_any2": 0.011,
+  "client_first_le24": 0.015,
+  "true_client_mean_p": 0.007,
+  "true_project_weighted_p": 0.008,
+  "true_project_next_ordered": 0.011
+ },
+ "one_draw_300clients": {
+  "month": 0.625,
+  "project_all": 0.629,
+  "project_wait6": 0.673,
+  "client_any2": 0.447,
+  "client_first_le24": 0.477,
+  "true_client_mean_p": 0.494,
+  "true_project_weighted_p": 0.67,
+  "true_project_next_ordered": 0.687
+ },
+ "one_draw_counts": {
+  "clients": 300,
+  "projects_seen": 755
+ },
+ "project_count_by_wait_months": {
+  "0": 0.605,
+  "1": 0.629,
+  "3": 0.649,
+  "6": 0.646,
+  "12": 0.628
+ },
+ "robustness": {
+  "ranges_all36": {
+   "month": [
+    0.024,
+    0.925
+   ],
+   "project_all": [
+    0.423,
+    0.779
+   ],
+   "project_wait6": [
+    0.492,
+    0.802
+   ],
+   "client_any2": [
+    0.396,
+    0.486
+   ],
+   "true_project_weighted_p": [
+    0.5,
+    0.817
+   ]
+  },
+  "homogeneous_project_wait6_range": [
+   0.492,
+   0.508
+  ],
+  "share_month_is_highest": 0.583,
+  "project_wait6_minus_project_weighted_p": [
+   -0.025,
+   0.008
+  ],
+  "client_first_le24_range": [
+   0.489,
+   0.515
+  ],
+  "month_by_dur_gap0_kappa2": {
+   "1.0": 0.728,
+   "2.0": 0.842,
+   "4.0": 0.911
+  },
+  "month_by_dur_gap1_kappa2": {
+   "1.0": 0.251,
+   "2.0": 0.624,
+   "4.0": 0.815
+  },
+  "project_wait6_by_kappa_dur2_gap1": {
+   "1.0": 0.702,
+   "2.0": 0.642,
+   "10.0": 0.541,
+   "同じ": 0.503
+  },
+  "client_any2_by_kappa_dur2_gap1": {
+   "1.0": 0.456,
+   "2.0": 0.46,
+   "10.0": 0.46,
+   "同じ": 0.466
+  }
+ }
+}

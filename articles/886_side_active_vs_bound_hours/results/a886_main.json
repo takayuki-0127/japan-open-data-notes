@@ -1,0 +1,134 @@
+{
+ "assumptions": {
+  "day_min": 240,
+  "g_base": 15,
+  "cases": 12,
+  "days": "5〜20",
+  "share_planned": "0.2〜0.85",
+  "mean_task_min": "5〜60（対数で一様）",
+  "hourly_active_sd_log": 0.3
+ },
+ "one_month_rank": {
+  "spearman_active_bound": 0.559,
+  "spearman_active_eff": 0.811,
+  "spearman_bound_eff": 0.902,
+  "top_same_active_bound": 0.0,
+  "top_same_active_eff": 0.0,
+  "top_same_bound_eff": 1.0,
+  "mean_abs_rank_move_active_to_eff": 1.833
+ },
+ "one_month_bound_over_active": [
+  0.189,
+  0.672
+ ],
+ "rank_change_300": {
+  "g5_burst1": {
+   "spearman_active_bound": 0.512,
+   "spearman_active_eff": 0.923,
+   "spearman_bound_eff": 0.611,
+   "top_same_active_bound": 0.303,
+   "top_same_active_eff": 0.817,
+   "top_same_bound_eff": 0.363,
+   "mean_abs_rank_move_active_to_eff": 0.851
+  },
+  "g5_burst3": {
+   "spearman_active_bound": 0.458,
+   "spearman_active_eff": 0.976,
+   "spearman_bound_eff": 0.517,
+   "top_same_active_bound": 0.24,
+   "top_same_active_eff": 0.903,
+   "top_same_bound_eff": 0.273,
+   "mean_abs_rank_move_active_to_eff": 0.391
+  },
+  "g15_burst1": {
+   "spearman_active_bound": 0.5,
+   "spearman_active_eff": 0.819,
+   "spearman_bound_eff": 0.688,
+   "top_same_active_bound": 0.34,
+   "top_same_active_eff": 0.637,
+   "top_same_bound_eff": 0.487,
+   "mean_abs_rank_move_active_to_eff": 1.481
+  },
+  "g15_burst3": {
+   "spearman_active_bound": 0.472,
+   "spearman_active_eff": 0.916,
+   "spearman_bound_eff": 0.607,
+   "top_same_active_bound": 0.217,
+   "top_same_active_eff": 0.707,
+   "top_same_bound_eff": 0.343,
+   "mean_abs_rank_move_active_to_eff": 0.909
+  },
+  "g30_burst1": {
+   "spearman_active_bound": 0.534,
+   "spearman_active_eff": 0.722,
+   "spearman_bound_eff": 0.828,
+   "top_same_active_bound": 0.357,
+   "top_same_active_eff": 0.53,
+   "top_same_bound_eff": 0.63,
+   "mean_abs_rank_move_active_to_eff": 1.909
+  },
+  "g30_burst3": {
+   "spearman_active_bound": 0.487,
+   "spearman_active_eff": 0.845,
+   "spearman_bound_eff": 0.703,
+   "top_same_active_bound": 0.243,
+   "top_same_active_eff": 0.67,
+   "top_same_bound_eff": 0.393,
+   "mean_abs_rank_move_active_to_eff": 1.323
+  }
+ },
+ "spearman_active_bound_mean_of_6": 0.494,
+ "share50_base_g15": [
+  {
+   "mean_task_min": 60.0,
+   "req_per_hour": 0.5,
+   "usable_share_of_idle": 0.825,
+   "hourly_bound": 44.904,
+   "hourly_effective": 82.306
+  },
+  {
+   "mean_task_min": 30.0,
+   "req_per_hour": 1.0,
+   "usable_share_of_idle": 0.731,
+   "hourly_bound": 46.738,
+   "hourly_effective": 76.509
+  },
+  {
+   "mean_task_min": 15.0,
+   "req_per_hour": 2.0,
+   "usable_share_of_idle": 0.583,
+   "hourly_bound": 45.543,
+   "hourly_effective": 66.703
+  },
+  {
+   "mean_task_min": 7.5,
+   "req_per_hour": 4.0,
+   "usable_share_of_idle": 0.338,
+   "hourly_bound": 49.213,
+   "hourly_effective": 59.409
+  },
+  {
+   "mean_task_min": 3.75,
+   "req_per_hour": 8.0,
+   "usable_share_of_idle": 0.13,
+   "hourly_bound": 48.719,
+   "hourly_effective": 52.192
+  }
+ ],
+ "share50_eff_range_all": [
+  49.533,
+  95.613
+ ],
+ "share50_bound_range_all": [
+  38.398,
+  49.213
+ ],
+ "share50_eff_over_bound_range_all": [
+  1.009,
+  2.318
+ ],
+ "share50_active_share_range_all": [
+  0.384,
+  0.492
+ ]
+}
