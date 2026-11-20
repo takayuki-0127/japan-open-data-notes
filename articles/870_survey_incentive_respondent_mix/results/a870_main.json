@@ -1,0 +1,247 @@
+{
+ "true_pop_expected": 0.5775,
+ "by_condition": [
+  {
+   "cond": "謝礼なし",
+   "n_resp": 440.505,
+   "rate": 0.1101,
+   "light": 0.1821,
+   "mid": 0.3314,
+   "heavy": 0.4865,
+   "raw": 0.7282,
+   "weighted": 0.6716,
+   "raw_err": 15.0413,
+   "raw_err_p05": 11.8412,
+   "raw_err_p95": 18.1203,
+   "w_err": 9.3829,
+   "w_err_p05": 4.9572,
+   "w_err_p95": 13.5809,
+   "light_sat": 0.5624,
+   "heavy_sat": 0.8123
+  },
+  {
+   "cond": "謝礼A（利用の少ない人に効く）",
+   "n_resp": 756.5325,
+   "rate": 0.1891,
+   "light": 0.3467,
+   "mid": 0.326,
+   "heavy": 0.3273,
+   "raw": 0.6439,
+   "weighted": 0.6231,
+   "raw_err": 6.6146,
+   "raw_err_p05": 3.9011,
+   "raw_err_p95": 9.3774,
+   "w_err": 4.5257,
+   "w_err_p05": 1.6282,
+   "w_err_p95": 7.2244,
+   "light_sat": 0.4841,
+   "heavy_sat": 0.8063
+  },
+  {
+   "cond": "謝礼B（利用の多い人に効く）",
+   "n_resp": 735.9775,
+   "rate": 0.184,
+   "light": 0.1505,
+   "mid": 0.3029,
+   "heavy": 0.5466,
+   "raw": 0.7025,
+   "weighted": 0.6356,
+   "raw_err": 12.473,
+   "raw_err_p05": 9.7247,
+   "raw_err_p95": 15.1473,
+   "w_err": 5.7841,
+   "w_err_p05": 2.1157,
+   "w_err_p95": 9.591,
+   "light_sat": 0.5292,
+   "heavy_sat": 0.7748
+  }
+ ],
+ "sensitivity": [
+  {
+   "sat_or": 1.0,
+   "strength": 0.5,
+   "cond": "謝礼A（利用の少ない人に効く）",
+   "light_share": 0.3113,
+   "raw_err": 3.09,
+   "w_err": 0.21
+  },
+  {
+   "sat_or": 1.0,
+   "strength": 0.5,
+   "cond": "謝礼B（利用の多い人に効く）",
+   "light_share": 0.16,
+   "raw_err": 7.84,
+   "w_err": 0.18
+  },
+  {
+   "sat_or": 1.0,
+   "strength": 0.0,
+   "cond": "謝礼なし",
+   "light_share": 0.1898,
+   "raw_err": 6.55,
+   "w_err": 0.02
+  },
+  {
+   "sat_or": 1.0,
+   "strength": 1.0,
+   "cond": "謝礼A（利用の少ない人に効く）",
+   "light_share": 0.3784,
+   "raw_err": 0.96,
+   "w_err": -0.04
+  },
+  {
+   "sat_or": 1.0,
+   "strength": 1.0,
+   "cond": "謝礼B（利用の多い人に効く）",
+   "light_share": 0.1462,
+   "raw_err": 8.43,
+   "w_err": -0.06
+  },
+  {
+   "sat_or": 1.0,
+   "strength": 2.0,
+   "cond": "謝礼A（利用の少ない人に効く）",
+   "light_share": 0.4424,
+   "raw_err": -0.85,
+   "w_err": 0.07
+  },
+  {
+   "sat_or": 1.0,
+   "strength": 2.0,
+   "cond": "謝礼B（利用の多い人に効く）",
+   "light_share": 0.1317,
+   "raw_err": 9.23,
+   "w_err": 0.22
+  },
+  {
+   "sat_or": 1.6,
+   "strength": 0.5,
+   "cond": "謝礼A（利用の少ない人に効く）",
+   "light_share": 0.286,
+   "raw_err": 9.65,
+   "w_err": 5.8
+  },
+  {
+   "sat_or": 1.6,
+   "strength": 0.5,
+   "cond": "謝礼B（利用の多い人に効く）",
+   "light_share": 0.1619,
+   "raw_err": 13.59,
+   "w_err": 7.34
+  },
+  {
+   "sat_or": 1.6,
+   "strength": 0.0,
+   "cond": "謝礼なし",
+   "light_share": 0.1822,
+   "raw_err": 15.22,
+   "w_err": 9.36
+  },
+  {
+   "sat_or": 1.6,
+   "strength": 1.0,
+   "cond": "謝礼A（利用の少ない人に効く）",
+   "light_share": 0.3461,
+   "raw_err": 6.58,
+   "w_err": 4.47
+  },
+  {
+   "sat_or": 1.6,
+   "strength": 1.0,
+   "cond": "謝礼B（利用の多い人に効く）",
+   "light_share": 0.1503,
+   "raw_err": 12.61,
+   "w_err": 5.83
+  },
+  {
+   "sat_or": 1.6,
+   "strength": 2.0,
+   "cond": "謝礼A（利用の少ない人に効く）",
+   "light_share": 0.4146,
+   "raw_err": 2.84,
+   "w_err": 2.93
+  },
+  {
+   "sat_or": 1.6,
+   "strength": 2.0,
+   "cond": "謝礼B（利用の多い人に効く）",
+   "light_share": 0.1379,
+   "raw_err": 11.47,
+   "w_err": 4.16
+  },
+  {
+   "sat_or": 2.5,
+   "strength": 0.5,
+   "cond": "謝礼A（利用の少ない人に効く）",
+   "light_share": 0.2643,
+   "raw_err": 15.62,
+   "w_err": 11.37
+  },
+  {
+   "sat_or": 2.5,
+   "strength": 0.5,
+   "cond": "謝礼B（利用の多い人に効く）",
+   "light_share": 0.165,
+   "raw_err": 18.74,
+   "w_err": 14.03
+  },
+  {
+   "sat_or": 2.5,
+   "strength": 0.0,
+   "cond": "謝礼なし",
+   "light_share": 0.177,
+   "raw_err": 21.43,
+   "w_err": 16.82
+  },
+  {
+   "sat_or": 2.5,
+   "strength": 1.0,
+   "cond": "謝礼A（利用の少ない人に効く）",
+   "light_share": 0.3202,
+   "raw_err": 11.5,
+   "w_err": 8.6
+  },
+  {
+   "sat_or": 2.5,
+   "strength": 1.0,
+   "cond": "謝礼B（利用の多い人に効く）",
+   "light_share": 0.1548,
+   "raw_err": 16.54,
+   "w_err": 11.47
+  },
+  {
+   "sat_or": 2.5,
+   "strength": 2.0,
+   "cond": "謝礼A（利用の少ない人に効く）",
+   "light_share": 0.3885,
+   "raw_err": 6.8,
+   "w_err": 5.98
+  },
+  {
+   "sat_or": 2.5,
+   "strength": 2.0,
+   "cond": "謝礼B（利用の多い人に効く）",
+   "light_share": 0.1443,
+   "raw_err": 14.23,
+   "w_err": 8.59
+  }
+ ],
+ "one_draw": {
+  "謝礼なし": {
+   "n_resp": 433,
+   "light_share": 0.1917,
+   "raw": 0.709
+  },
+  "謝礼A（利用の少ない人に効く）": {
+   "n_resp": 752,
+   "light_share": 0.3577,
+   "raw": 0.6316
+  },
+  "謝礼B（利用の多い人に効く）": {
+   "n_resp": 733,
+   "light_share": 0.161,
+   "raw": 0.6917
+  },
+  "true_this_draw": 0.5853
+ }
+}

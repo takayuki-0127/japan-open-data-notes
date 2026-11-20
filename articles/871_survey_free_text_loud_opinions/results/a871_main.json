@@ -1,0 +1,302 @@
+{
+ "settings": {
+  "base_write": 0.1,
+  "heavy_share": 0.15,
+  "heavy_x": 3.0,
+  "n_resp": 3000,
+  "n_closed": 200,
+  "reps": 500
+ },
+ "summary_500reps": {
+  "spearman_free": 0.4903,
+  "spearman_closed200": 0.9645,
+  "top1_free": 0.964,
+  "top1_closed200": 0.792,
+  "top3_overlap_free": 2.102,
+  "top3_overlap_closed200": 2.86,
+  "staff_rank_free": 3.03,
+  "staff_share_of_comments": 0.148,
+  "heavy_share_of_comments": 0.3372,
+  "comments": 490.766,
+  "spearman_free_p05": 0.3567,
+  "spearman_free_p95": 0.619,
+  "spearman_closed200_p05": 0.9048,
+  "spearman_closed200_p95": 1.0,
+  "staff_rank_free_le3": 0.89
+ },
+ "by_topic": [
+  {
+   "topic": "レジの待ち時間",
+   "true_share": 0.3,
+   "true_rank": 1,
+   "free_rank_mean": 1.036,
+   "free_rank1": 0.964,
+   "closed_rank_mean": 1.238,
+   "share_of_resp_free": 0.0389,
+   "share_of_comments": 0.2379,
+   "closed200": 0.2988
+  },
+  {
+   "topic": "品ぞろえ",
+   "true_share": 0.26,
+   "true_rank": 2,
+   "free_rank_mean": 2.052,
+   "free_rank1": 0.036,
+   "closed_rank_mean": 2.024,
+   "share_of_resp_free": 0.0304,
+   "share_of_comments": 0.186,
+   "closed200": 0.2592
+  },
+  {
+   "topic": "駐車場の狭さ",
+   "true_share": 0.22,
+   "true_rank": 3,
+   "free_rank_mean": 4.07,
+   "free_rank1": 0.0,
+   "closed_rank_mean": 2.906,
+   "share_of_resp_free": 0.0199,
+   "share_of_comments": 0.1217,
+   "closed200": 0.2209
+  },
+  {
+   "topic": "営業時間",
+   "true_share": 0.17,
+   "true_rank": 4,
+   "free_rank_mean": 6.416,
+   "free_rank1": 0.0,
+   "closed_rank_mean": 4.024,
+   "share_of_resp_free": 0.0132,
+   "share_of_comments": 0.0805,
+   "closed200": 0.1727
+  },
+  {
+   "topic": "ポイントの仕組み",
+   "true_share": 0.13,
+   "true_rank": 5,
+   "free_rank_mean": 6.246,
+   "free_rank1": 0.0,
+   "closed_rank_mean": 5.178,
+   "share_of_resp_free": 0.0134,
+   "share_of_comments": 0.0821,
+   "closed200": 0.1305
+  },
+  {
+   "topic": "店内の案内表示",
+   "true_share": 0.11,
+   "true_rank": 6,
+   "free_rank_mean": 7.972,
+   "free_rank1": 0.0,
+   "closed_rank_mean": 5.738,
+   "share_of_resp_free": 0.0073,
+   "share_of_comments": 0.0449,
+   "closed200": 0.1116
+  },
+  {
+   "topic": "店内の清潔さ",
+   "true_share": 0.07,
+   "true_rank": 7,
+   "free_rank_mean": 5.178,
+   "free_rank1": 0.0,
+   "closed_rank_mean": 7.106,
+   "share_of_resp_free": 0.0162,
+   "share_of_comments": 0.099,
+   "closed200": 0.0691
+  },
+  {
+   "topic": "店員の対応",
+   "true_share": 0.05,
+   "true_rank": 8,
+   "free_rank_mean": 3.03,
+   "free_rank1": 0.0,
+   "closed_rank_mean": 7.786,
+   "share_of_resp_free": 0.0242,
+   "share_of_comments": 0.148,
+   "closed200": 0.0484
+  }
+ ],
+ "sensitivity_ease": [
+  {
+   "a": 0.0,
+   "n_resp": 300,
+   "spearman_free": 0.835,
+   "top1_free": 0.55,
+   "staff_rank_mean": 7.27
+  },
+  {
+   "a": 0.0,
+   "n_resp": 1000,
+   "spearman_free": 0.944,
+   "top1_free": 0.703,
+   "staff_rank_mean": 7.71
+  },
+  {
+   "a": 0.0,
+   "n_resp": 3000,
+   "spearman_free": 0.979,
+   "top1_free": 0.847,
+   "staff_rank_mean": 7.86
+  },
+  {
+   "a": 0.5,
+   "n_resp": 300,
+   "spearman_free": 0.699,
+   "top1_free": 0.587,
+   "staff_rank_mean": 5.75
+  },
+  {
+   "a": 0.5,
+   "n_resp": 1000,
+   "spearman_free": 0.811,
+   "top1_free": 0.81,
+   "staff_rank_mean": 5.99
+  },
+  {
+   "a": 0.5,
+   "n_resp": 3000,
+   "spearman_free": 0.877,
+   "top1_free": 0.933,
+   "staff_rank_mean": 6.14
+  },
+  {
+   "a": 1.0,
+   "n_resp": 300,
+   "spearman_free": 0.431,
+   "top1_free": 0.667,
+   "staff_rank_mean": 3.47
+  },
+  {
+   "a": 1.0,
+   "n_resp": 1000,
+   "spearman_free": 0.5,
+   "top1_free": 0.86,
+   "staff_rank_mean": 3.32
+  },
+  {
+   "a": 1.0,
+   "n_resp": 3000,
+   "spearman_free": 0.49,
+   "top1_free": 0.977,
+   "staff_rank_mean": 3.09
+  },
+  {
+   "a": 1.5,
+   "n_resp": 300,
+   "spearman_free": 0.14,
+   "top1_free": 0.413,
+   "staff_rank_mean": 1.89
+  },
+  {
+   "a": 1.5,
+   "n_resp": 1000,
+   "spearman_free": 0.137,
+   "top1_free": 0.373,
+   "staff_rank_mean": 1.44
+  },
+  {
+   "a": 1.5,
+   "n_resp": 3000,
+   "spearman_free": 0.133,
+   "top1_free": 0.347,
+   "staff_rank_mean": 1.35
+  }
+ ],
+ "sensitivity_heavy": [
+  {
+   "heavy_share": 0.0,
+   "heavy_x": 1.0,
+   "spearman_free": 0.476,
+   "heavy_share_of_comments": 0.0
+  },
+  {
+   "heavy_share": 0.15,
+   "heavy_x": 3.0,
+   "spearman_free": 0.504,
+   "heavy_share_of_comments": 0.339
+  },
+  {
+   "heavy_share": 0.3,
+   "heavy_x": 5.0,
+   "spearman_free": 0.616,
+   "heavy_share_of_comments": 0.662
+  }
+ ],
+ "one_draw": {
+  "n_wrote_any": 462,
+  "n_comments": 493,
+  "heavy_share_of_comments": 0.3408,
+  "topics": [
+   {
+    "topic": "レジの待ち時間",
+    "true_share": 0.3,
+    "held_share": 0.299,
+    "comments": 141,
+    "share_of_respondents": 0.047,
+    "share_of_comments": 0.286,
+    "free_rank": 1
+   },
+   {
+    "topic": "品ぞろえ",
+    "true_share": 0.26,
+    "held_share": 0.266,
+    "comments": 76,
+    "share_of_respondents": 0.0253,
+    "share_of_comments": 0.1542,
+    "free_rank": 3
+   },
+   {
+    "topic": "駐車場の狭さ",
+    "true_share": 0.22,
+    "held_share": 0.2183,
+    "comments": 59,
+    "share_of_respondents": 0.0197,
+    "share_of_comments": 0.1197,
+    "free_rank": 4
+   },
+   {
+    "topic": "営業時間",
+    "true_share": 0.17,
+    "held_share": 0.151,
+    "comments": 31,
+    "share_of_respondents": 0.0103,
+    "share_of_comments": 0.0629,
+    "free_rank": 7
+   },
+   {
+    "topic": "ポイントの仕組み",
+    "true_share": 0.13,
+    "held_share": 0.1293,
+    "comments": 41,
+    "share_of_respondents": 0.0137,
+    "share_of_comments": 0.0832,
+    "free_rank": 6
+   },
+   {
+    "topic": "店内の案内表示",
+    "true_share": 0.11,
+    "held_share": 0.0993,
+    "comments": 16,
+    "share_of_respondents": 0.0053,
+    "share_of_comments": 0.0325,
+    "free_rank": 8
+   },
+   {
+    "topic": "店内の清潔さ",
+    "true_share": 0.07,
+    "held_share": 0.072,
+    "comments": 47,
+    "share_of_respondents": 0.0157,
+    "share_of_comments": 0.0953,
+    "free_rank": 5
+   },
+   {
+    "topic": "店員の対応",
+    "true_share": 0.05,
+    "held_share": 0.054,
+    "comments": 82,
+    "share_of_respondents": 0.0273,
+    "share_of_comments": 0.1663,
+    "free_rank": 2
+   }
+  ]
+ }
+}

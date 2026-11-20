@@ -1,0 +1,202 @@
+{
+ "settings": {
+  "cuts": [
+   -1.5,
+   -0.6,
+   0.2,
+   1.0
+  ],
+  "dept_sd": 0.3,
+  "change": 0.1,
+  "change_sd": 0.15,
+  "person_sd": 0.3,
+  "word": -0.3,
+  "word_sd": 0.0,
+  "resp_rate": 0.7,
+  "reps": 1000
+ },
+ "base_1000reps": {
+  "true_change": 3.957,
+  "naive": -6.66,
+  "split": 3.909,
+  "word_est": -10.571,
+  "word_true": -10.602,
+  "rank_within_new": 0.944,
+  "rank_within_same": 0.963,
+  "rank_change_naive": 0.781,
+  "rank_change_same": 0.855,
+  "dept_naive_down": 0.862,
+  "dept_true_down": 0.234,
+  "true_change_p05": 0.79,
+  "true_change_p95": 7.17,
+  "naive_p05": -10.23,
+  "naive_p95": -3.22,
+  "split_p05": -0.18,
+  "split_p95": 8.25,
+  "word_est_p05": -14.82,
+  "word_est_p95": -6.55,
+  "naive_negative": 0.999,
+  "split_negative": 0.063,
+  "true_negative": 0.023
+ },
+ "sensitivity_wording": [
+  {
+   "word": 0.0,
+   "word_sd": 0.0,
+   "true_change": 3.96,
+   "naive": 3.92,
+   "naive_negative": 0.037,
+   "rank_within_new": 0.962,
+   "rank_change_naive": 0.844,
+   "rank_change_same": 0.844
+  },
+  {
+   "word": 0.0,
+   "word_sd": 0.15,
+   "true_change": 4.03,
+   "naive": 4.01,
+   "naive_negative": 0.09,
+   "rank_within_new": 0.828,
+   "rank_change_naive": 0.579,
+   "rank_change_same": 0.84
+  },
+  {
+   "word": 0.0,
+   "word_sd": 0.3,
+   "true_change": 4.01,
+   "naive": 4.18,
+   "naive_negative": 0.163,
+   "rank_within_new": 0.672,
+   "rank_change_naive": 0.376,
+   "rank_change_same": 0.848
+  },
+  {
+   "word": -0.1,
+   "word_sd": 0.0,
+   "true_change": 4.22,
+   "naive": 0.71,
+   "naive_negative": 0.337,
+   "rank_within_new": 0.956,
+   "rank_change_naive": 0.829,
+   "rank_change_same": 0.855
+  },
+  {
+   "word": -0.1,
+   "word_sd": 0.15,
+   "true_change": 3.99,
+   "naive": 0.64,
+   "naive_negative": 0.407,
+   "rank_within_new": 0.827,
+   "rank_change_naive": 0.587,
+   "rank_change_same": 0.837
+  },
+  {
+   "word": -0.1,
+   "word_sd": 0.3,
+   "true_change": 4.12,
+   "naive": 0.82,
+   "naive_negative": 0.4,
+   "rank_within_new": 0.677,
+   "rank_change_naive": 0.413,
+   "rank_change_same": 0.85
+  },
+  {
+   "word": -0.3,
+   "word_sd": 0.0,
+   "true_change": 3.94,
+   "naive": -6.68,
+   "naive_negative": 1.0,
+   "rank_within_new": 0.939,
+   "rank_change_naive": 0.787,
+   "rank_change_same": 0.852
+  },
+  {
+   "word": -0.3,
+   "word_sd": 0.15,
+   "true_change": 4.08,
+   "naive": -6.19,
+   "naive_negative": 0.993,
+   "rank_within_new": 0.831,
+   "rank_change_naive": 0.597,
+   "rank_change_same": 0.853
+  },
+  {
+   "word": -0.3,
+   "word_sd": 0.3,
+   "true_change": 3.95,
+   "naive": -5.85,
+   "naive_negative": 0.913,
+   "rank_within_new": 0.659,
+   "rank_change_naive": 0.38,
+   "rank_change_same": 0.848
+  },
+  {
+   "word": -0.5,
+   "word_sd": 0.0,
+   "true_change": 3.99,
+   "naive": -13.06,
+   "naive_negative": 1.0,
+   "rank_within_new": 0.937,
+   "rank_change_naive": 0.705,
+   "rank_change_same": 0.845
+  },
+  {
+   "word": -0.5,
+   "word_sd": 0.15,
+   "true_change": 3.99,
+   "naive": -12.9,
+   "naive_negative": 1.0,
+   "rank_within_new": 0.826,
+   "rank_change_naive": 0.568,
+   "rank_change_same": 0.854
+  },
+  {
+   "word": -0.5,
+   "word_sd": 0.3,
+   "true_change": 4.04,
+   "naive": -12.43,
+   "naive_negative": 1.0,
+   "rank_within_new": 0.672,
+   "rank_change_naive": 0.353,
+   "rank_change_same": 0.845
+  }
+ ],
+ "sensitivity_change": [
+  {
+   "change": 0.0,
+   "true_change": 0.48,
+   "naive": -9.92,
+   "naive_negative": 1.0,
+   "split": 0.56,
+   "split_p05": -3.32,
+   "split_p95": 4.57,
+   "split_negative": 0.437
+  },
+  {
+   "change": 0.1,
+   "true_change": 4.11,
+   "naive": -6.41,
+   "naive_negative": 1.0,
+   "split": 4.16,
+   "split_p05": -0.19,
+   "split_p95": 8.41,
+   "split_negative": 0.06
+  },
+  {
+   "change": 0.2,
+   "true_change": 7.65,
+   "naive": -3.14,
+   "naive_negative": 0.93,
+   "split": 7.71,
+   "split_p05": 3.78,
+   "split_p95": 12.4,
+   "split_negative": 0.0
+  }
+ ],
+ "one_draw": {
+  "true_y1_sat": 0.4825,
+  "true_y2_sat_old": 0.5479,
+  "y1_sat_resp": 0.471,
+  "y2_sat_new_resp": 0.4229
+ }
+}

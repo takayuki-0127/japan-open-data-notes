@@ -1,0 +1,259 @@
+{
+ "base_mix": {
+  "両方": 0.4,
+  "どちらか": 0.15,
+  "先": 0.3,
+  "後": 0.15
+ },
+ "example_store": {
+  "food": 79.93,
+  "service": 50.08,
+  "rule_両方_food_first": 43.43,
+  "rule_どちらか_food_first": 86.58,
+  "rule_先_food_first": 79.93,
+  "rule_後_food_first": 50.08,
+  "mix_food_first": 61.83,
+  "mix_service_first": 57.3,
+  "after_service": 69.98,
+  "after_mix_food_first": 71.91,
+  "after_rule_両方_food_first": 59.26,
+  "after_rule_どちらか_food_first": 90.83,
+  "after_rule_先_food_first": 80.1,
+  "after_rule_後_food_first": 69.98,
+  "swap_store_mix_food_first": 57.22,
+  "diff_swap_store_pt": 4.6,
+  "diff_order_pt": 4.5,
+  "gain_service_only_pt": 19.9,
+  "gain_mix_pt": 10.1,
+  "gain_rule_両方_pt": 15.8,
+  "gain_rule_どちらか_pt": 4.2,
+  "gain_rule_先_pt": 0.2,
+  "gain_rule_後_pt": 19.9
+ },
+ "chain_base": {
+  "hit_service_double": 0.3797,
+  "hit_food_double": 0.348,
+  "hit_service_sep": 0.7007,
+  "hit_food_sep": 0.64,
+  "corr_double_food": 0.6438,
+  "corr_double_service": 0.6679,
+  "same_score_diff_weak": 0.4931
+ },
+ "one_draw": {
+  "low10_double_in_true_low10_service": 4,
+  "low10_double_in_true_low10_food": 3
+ },
+ "random_hit": 0.1,
+ "sensitivity": [
+  {
+   "mix": "基本（40:15:30:15）",
+   "rho": 0.0,
+   "hit_service_double": 0.367,
+   "hit_food_double": 0.385,
+   "hit_service_sep": 0.688,
+   "hit_food_sep": 0.656,
+   "corr_double_food": 0.6534,
+   "corr_double_service": 0.6693,
+   "same_score_diff_weak": 0.492
+  },
+  {
+   "mix": "基本（40:15:30:15）",
+   "rho": 0.3,
+   "hit_service_double": 0.351,
+   "hit_food_double": 0.351,
+   "hit_service_sep": 0.691,
+   "hit_food_sep": 0.62,
+   "corr_double_food": 0.6439,
+   "corr_double_service": 0.6755,
+   "same_score_diff_weak": 0.4931
+  },
+  {
+   "mix": "基本（40:15:30:15）",
+   "rho": 0.6,
+   "hit_service_double": 0.374,
+   "hit_food_double": 0.362,
+   "hit_service_sep": 0.682,
+   "hit_food_sep": 0.65,
+   "corr_double_food": 0.6337,
+   "corr_double_service": 0.6716,
+   "same_score_diff_weak": 0.4946
+  },
+  {
+   "mix": "全員が両方",
+   "rho": 0.0,
+   "hit_service_double": 0.446,
+   "hit_food_double": 0.307,
+   "hit_service_sep": 0.691,
+   "hit_food_sep": 0.638,
+   "corr_double_food": 0.5303,
+   "corr_double_service": 0.7905,
+   "same_score_diff_weak": 0.4639
+  },
+  {
+   "mix": "全員が両方",
+   "rho": 0.3,
+   "hit_service_double": 0.49,
+   "hit_food_double": 0.281,
+   "hit_service_sep": 0.666,
+   "hit_food_sep": 0.646,
+   "corr_double_food": 0.5048,
+   "corr_double_service": 0.7979,
+   "same_score_diff_weak": 0.4744
+  },
+  {
+   "mix": "全員が両方",
+   "rho": 0.6,
+   "hit_service_double": 0.545,
+   "hit_food_double": 0.248,
+   "hit_service_sep": 0.71,
+   "hit_food_sep": 0.655,
+   "corr_double_food": 0.4527,
+   "corr_double_service": 0.8151,
+   "same_score_diff_weak": 0.4536
+  },
+  {
+   "mix": "全員がどちらか",
+   "rho": 0.0,
+   "hit_service_double": 0.348,
+   "hit_food_double": 0.362,
+   "hit_service_sep": 0.694,
+   "hit_food_sep": 0.627,
+   "corr_double_food": 0.6585,
+   "corr_double_service": 0.6248,
+   "same_score_diff_weak": 0.496
+  },
+  {
+   "mix": "全員がどちらか",
+   "rho": 0.3,
+   "hit_service_double": 0.322,
+   "hit_food_double": 0.362,
+   "hit_service_sep": 0.706,
+   "hit_food_sep": 0.63,
+   "corr_double_food": 0.6695,
+   "corr_double_service": 0.5855,
+   "same_score_diff_weak": 0.4953
+  },
+  {
+   "mix": "全員がどちらか",
+   "rho": 0.6,
+   "hit_service_double": 0.299,
+   "hit_food_double": 0.37,
+   "hit_service_sep": 0.7,
+   "hit_food_sep": 0.62,
+   "corr_double_food": 0.7147,
+   "corr_double_service": 0.5512,
+   "same_score_diff_weak": 0.4982
+  },
+  {
+   "mix": "全員が先（料理）",
+   "rho": 0.0,
+   "hit_service_double": 0.102,
+   "hit_food_double": 0.635,
+   "hit_service_sep": 0.693,
+   "hit_food_sep": 0.635,
+   "corr_double_food": 0.9575,
+   "corr_double_service": 0.0206,
+   "same_score_diff_weak": 0.419
+  },
+  {
+   "mix": "全員が先（料理）",
+   "rho": 0.3,
+   "hit_service_double": 0.101,
+   "hit_food_double": 0.652,
+   "hit_service_sep": 0.688,
+   "hit_food_sep": 0.652,
+   "corr_double_food": 0.9578,
+   "corr_double_service": 0.0125,
+   "same_score_diff_weak": 0.4239
+  },
+  {
+   "mix": "全員が先（料理）",
+   "rho": 0.6,
+   "hit_service_double": 0.101,
+   "hit_food_double": 0.625,
+   "hit_service_sep": 0.704,
+   "hit_food_sep": 0.625,
+   "corr_double_food": 0.9573,
+   "corr_double_service": -0.0044,
+   "same_score_diff_weak": 0.4169
+  },
+  {
+   "mix": "全員が後（接客）",
+   "rho": 0.0,
+   "hit_service_double": 0.694,
+   "hit_food_double": 0.097,
+   "hit_service_sep": 0.694,
+   "hit_food_sep": 0.649,
+   "corr_double_food": 0.003,
+   "corr_double_service": 0.9706,
+   "same_score_diff_weak": 0.2853
+  },
+  {
+   "mix": "全員が後（接客）",
+   "rho": 0.3,
+   "hit_service_double": 0.702,
+   "hit_food_double": 0.09,
+   "hit_service_sep": 0.702,
+   "hit_food_sep": 0.631,
+   "corr_double_food": 0.0086,
+   "corr_double_service": 0.969,
+   "same_score_diff_weak": 0.2955
+  },
+  {
+   "mix": "全員が後（接客）",
+   "rho": 0.6,
+   "hit_service_double": 0.705,
+   "hit_food_double": 0.086,
+   "hit_service_sep": 0.705,
+   "hit_food_sep": 0.638,
+   "corr_double_food": -0.0004,
+   "corr_double_service": 0.9698,
+   "same_score_diff_weak": 0.2924
+  },
+  {
+   "mix": "4つを同じ割合",
+   "rho": 0.0,
+   "hit_service_double": 0.401,
+   "hit_food_double": 0.316,
+   "hit_service_sep": 0.702,
+   "hit_food_sep": 0.637,
+   "corr_double_food": 0.5694,
+   "corr_double_service": 0.7356,
+   "same_score_diff_weak": 0.4827
+  },
+  {
+   "mix": "4つを同じ割合",
+   "rho": 0.3,
+   "hit_service_double": 0.424,
+   "hit_food_double": 0.333,
+   "hit_service_sep": 0.715,
+   "hit_food_sep": 0.665,
+   "corr_double_food": 0.5665,
+   "corr_double_service": 0.7292,
+   "same_score_diff_weak": 0.4847
+  },
+  {
+   "mix": "4つを同じ割合",
+   "rho": 0.6,
+   "hit_service_double": 0.42,
+   "hit_food_double": 0.317,
+   "hit_service_sep": 0.724,
+   "hit_food_sep": 0.633,
+   "corr_double_food": 0.5773,
+   "corr_double_service": 0.7361,
+   "same_score_diff_weak": 0.4841
+  }
+ ],
+ "range_hit_service_double": [
+  0.101,
+  0.705
+ ],
+ "range_hit_service_double_excl_pure_last": [
+  0.101,
+  0.545
+ ],
+ "range_hit_service_sep": [
+  0.666,
+  0.724
+ ]
+}
