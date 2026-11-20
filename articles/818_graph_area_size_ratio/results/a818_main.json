@@ -1,0 +1,610 @@
+{
+ "assumptions": {
+  "beta_length": 1.0,
+  "beta_area": 0.8,
+  "beta_sd": 0.1,
+  "noise": 0.15,
+  "readers": 2000
+ },
+ "stores": [
+  {
+   "store": "A店",
+   "sales": 1000
+  },
+  {
+   "store": "B店",
+   "sales": 1500
+  },
+  {
+   "store": "C店",
+   "sales": 2000
+  },
+  {
+   "store": "D店",
+   "sales": 3000
+  },
+  {
+   "store": "E店",
+   "sales": 5000
+  }
+ ],
+ "main_at_1_5_2_3_5": [
+  {
+   "method": "棒の長さ",
+   "true_ratio": 1.5,
+   "drawn_ratio": 1.5,
+   "perceived_median": 1.495,
+   "p10": 1.223,
+   "p90": 1.829,
+   "within20": 0.794
+  },
+  {
+   "method": "棒の長さ",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 1.991,
+   "p10": 1.604,
+   "p90": 2.479,
+   "within20": 0.765
+  },
+  {
+   "method": "棒の長さ",
+   "true_ratio": 3.0,
+   "drawn_ratio": 3.0,
+   "perceived_median": 2.987,
+   "p10": 2.368,
+   "p90": 3.809,
+   "within20": 0.72
+  },
+  {
+   "method": "棒の長さ",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 4.986,
+   "p10": 3.815,
+   "p90": 6.649,
+   "within20": 0.641
+  },
+  {
+   "method": "円の面積",
+   "true_ratio": 1.5,
+   "drawn_ratio": 1.5,
+   "perceived_median": 1.38,
+   "p10": 1.132,
+   "p90": 1.67,
+   "within20": 0.781
+  },
+  {
+   "method": "円の面積",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 1.74,
+   "p10": 1.418,
+   "p90": 2.149,
+   "within20": 0.675
+  },
+  {
+   "method": "円の面積",
+   "true_ratio": 3.0,
+   "drawn_ratio": 3.0,
+   "perceived_median": 2.439,
+   "p10": 1.894,
+   "p90": 3.093,
+   "within20": 0.52
+  },
+  {
+   "method": "円の面積",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 3.639,
+   "p10": 2.714,
+   "p90": 4.863,
+   "within20": 0.328
+  },
+  {
+   "method": "円の半径（太さ）",
+   "true_ratio": 1.5,
+   "drawn_ratio": 2.25,
+   "perceived_median": 1.906,
+   "p10": 1.527,
+   "p90": 2.368,
+   "within20": 0.366
+  },
+  {
+   "method": "円の半径（太さ）",
+   "true_ratio": 2.0,
+   "drawn_ratio": 4.0,
+   "perceived_median": 3.018,
+   "p10": 2.356,
+   "p90": 3.922,
+   "within20": 0.118
+  },
+  {
+   "method": "円の半径（太さ）",
+   "true_ratio": 3.0,
+   "drawn_ratio": 9.0,
+   "perceived_median": 5.802,
+   "p10": 4.166,
+   "p90": 8.211,
+   "within20": 0.034
+  },
+  {
+   "method": "円の半径（太さ）",
+   "true_ratio": 5.0,
+   "drawn_ratio": 25.0,
+   "perceived_median": 12.622,
+   "p10": 8.237,
+   "p90": 20.041,
+   "within20": 0.015
+  }
+ ],
+ "stores_perceived": [
+  {
+   "method": "棒の長さ",
+   "store": "A店",
+   "true_ratio": 1.0,
+   "drawn_ratio": 1.0,
+   "perceived_median": 1.0
+  },
+  {
+   "method": "棒の長さ",
+   "store": "B店",
+   "true_ratio": 1.5,
+   "drawn_ratio": 1.5,
+   "perceived_median": 1.51
+  },
+  {
+   "method": "棒の長さ",
+   "store": "C店",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 1.99
+  },
+  {
+   "method": "棒の長さ",
+   "store": "D店",
+   "true_ratio": 3.0,
+   "drawn_ratio": 3.0,
+   "perceived_median": 3.0
+  },
+  {
+   "method": "棒の長さ",
+   "store": "E店",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 4.99
+  },
+  {
+   "method": "円の面積",
+   "store": "A店",
+   "true_ratio": 1.0,
+   "drawn_ratio": 1.0,
+   "perceived_median": 1.0
+  },
+  {
+   "method": "円の面積",
+   "store": "B店",
+   "true_ratio": 1.5,
+   "drawn_ratio": 1.5,
+   "perceived_median": 1.37
+  },
+  {
+   "method": "円の面積",
+   "store": "C店",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 1.74
+  },
+  {
+   "method": "円の面積",
+   "store": "D店",
+   "true_ratio": 3.0,
+   "drawn_ratio": 3.0,
+   "perceived_median": 2.39
+  },
+  {
+   "method": "円の面積",
+   "store": "E店",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 3.62
+  },
+  {
+   "method": "円の半径（太さ）",
+   "store": "A店",
+   "true_ratio": 1.0,
+   "drawn_ratio": 1.0,
+   "perceived_median": 1.0
+  },
+  {
+   "method": "円の半径（太さ）",
+   "store": "B店",
+   "true_ratio": 1.5,
+   "drawn_ratio": 2.25,
+   "perceived_median": 1.92
+  },
+  {
+   "method": "円の半径（太さ）",
+   "store": "C店",
+   "true_ratio": 2.0,
+   "drawn_ratio": 4.0,
+   "perceived_median": 3.02
+  },
+  {
+   "method": "円の半径（太さ）",
+   "store": "D店",
+   "true_ratio": 3.0,
+   "drawn_ratio": 9.0,
+   "perceived_median": 5.72
+  },
+  {
+   "method": "円の半径（太さ）",
+   "store": "E店",
+   "true_ratio": 5.0,
+   "drawn_ratio": 25.0,
+   "perceived_median": 13.17
+  }
+ ],
+ "sensitivity": [
+  {
+   "setting": "基本（面積の指数0.8）",
+   "method": "棒の長さ",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 1.983,
+   "p10": 1.615,
+   "p90": 2.449,
+   "within20": 0.781
+  },
+  {
+   "setting": "基本（面積の指数0.8）",
+   "method": "棒の長さ",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 4.95,
+   "p10": 3.731,
+   "p90": 6.588,
+   "within20": 0.632
+  },
+  {
+   "setting": "基本（面積の指数0.8）",
+   "method": "円の面積",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 1.737,
+   "p10": 1.408,
+   "p90": 2.132,
+   "within20": 0.67
+  },
+  {
+   "setting": "基本（面積の指数0.8）",
+   "method": "円の面積",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 3.64,
+   "p10": 2.756,
+   "p90": 4.756,
+   "within20": 0.327
+  },
+  {
+   "setting": "基本（面積の指数0.8）",
+   "method": "円の半径（太さ）",
+   "true_ratio": 2.0,
+   "drawn_ratio": 4.0,
+   "perceived_median": 3.018,
+   "p10": 2.342,
+   "p90": 3.904,
+   "within20": 0.121
+  },
+  {
+   "setting": "基本（面積の指数0.8）",
+   "method": "円の半径（太さ）",
+   "true_ratio": 5.0,
+   "drawn_ratio": 25.0,
+   "perceived_median": 13.152,
+   "p10": 8.109,
+   "p90": 20.737,
+   "within20": 0.011
+  },
+  {
+   "setting": "面積の指数0.7",
+   "method": "棒の長さ",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 2.004,
+   "p10": 1.617,
+   "p90": 2.504,
+   "within20": 0.762
+  },
+  {
+   "setting": "面積の指数0.7",
+   "method": "棒の長さ",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 4.981,
+   "p10": 3.783,
+   "p90": 6.765,
+   "within20": 0.629
+  },
+  {
+   "setting": "面積の指数0.7",
+   "method": "円の面積",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 1.614,
+   "p10": 1.318,
+   "p90": 2.022,
+   "within20": 0.517
+  },
+  {
+   "setting": "面積の指数0.7",
+   "method": "円の面積",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 3.064,
+   "p10": 2.323,
+   "p90": 4.089,
+   "within20": 0.117
+  },
+  {
+   "setting": "面積の指数0.7",
+   "method": "円の半径（太さ）",
+   "true_ratio": 2.0,
+   "drawn_ratio": 4.0,
+   "perceived_median": 2.615,
+   "p10": 1.987,
+   "p90": 3.431,
+   "within20": 0.334
+  },
+  {
+   "setting": "面積の指数0.7",
+   "method": "円の半径（太さ）",
+   "true_ratio": 5.0,
+   "drawn_ratio": 25.0,
+   "perceived_median": 9.643,
+   "p10": 6.15,
+   "p90": 15.205,
+   "within20": 0.082
+  },
+  {
+   "setting": "面積の指数0.9",
+   "method": "棒の長さ",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 2.011,
+   "p10": 1.624,
+   "p90": 2.484,
+   "within20": 0.78
+  },
+  {
+   "setting": "面積の指数0.9",
+   "method": "棒の長さ",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 5.018,
+   "p10": 3.782,
+   "p90": 6.756,
+   "within20": 0.619
+  },
+  {
+   "setting": "面積の指数0.9",
+   "method": "円の面積",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 1.875,
+   "p10": 1.503,
+   "p90": 2.315,
+   "within20": 0.754
+  },
+  {
+   "setting": "面積の指数0.9",
+   "method": "円の面積",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 4.303,
+   "p10": 3.21,
+   "p90": 5.723,
+   "within20": 0.552
+  },
+  {
+   "setting": "面積の指数0.9",
+   "method": "円の半径（太さ）",
+   "true_ratio": 2.0,
+   "drawn_ratio": 4.0,
+   "perceived_median": 3.483,
+   "p10": 2.693,
+   "p90": 4.492,
+   "within20": 0.025
+  },
+  {
+   "setting": "面積の指数0.9",
+   "method": "円の半径（太さ）",
+   "true_ratio": 5.0,
+   "drawn_ratio": 25.0,
+   "perceived_median": 17.88,
+   "p10": 11.281,
+   "p90": 28.212,
+   "within20": 0.002
+  },
+  {
+   "setting": "面積の指数1.0（面積どおりに感じる）",
+   "method": "棒の長さ",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 1.995,
+   "p10": 1.622,
+   "p90": 2.447,
+   "within20": 0.79
+  },
+  {
+   "setting": "面積の指数1.0（面積どおりに感じる）",
+   "method": "棒の長さ",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 5.018,
+   "p10": 3.752,
+   "p90": 6.544,
+   "within20": 0.646
+  },
+  {
+   "setting": "面積の指数1.0（面積どおりに感じる）",
+   "method": "円の面積",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 1.988,
+   "p10": 1.617,
+   "p90": 2.46,
+   "within20": 0.787
+  },
+  {
+   "setting": "面積の指数1.0（面積どおりに感じる）",
+   "method": "円の面積",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 5.029,
+   "p10": 3.784,
+   "p90": 6.693,
+   "within20": 0.641
+  },
+  {
+   "setting": "面積の指数1.0（面積どおりに感じる）",
+   "method": "円の半径（太さ）",
+   "true_ratio": 2.0,
+   "drawn_ratio": 4.0,
+   "perceived_median": 3.97,
+   "p10": 3.061,
+   "p90": 5.202,
+   "within20": 0.004
+  },
+  {
+   "setting": "面積の指数1.0（面積どおりに感じる）",
+   "method": "円の半径（太さ）",
+   "true_ratio": 5.0,
+   "drawn_ratio": 25.0,
+   "perceived_median": 24.72,
+   "p10": 15.926,
+   "p90": 39.982,
+   "within20": 0.0
+  },
+  {
+   "setting": "読み手のばらつき0.2",
+   "method": "棒の長さ",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 2.009,
+   "p10": 1.554,
+   "p90": 2.613,
+   "within20": 0.667
+  },
+  {
+   "setting": "読み手のばらつき0.2",
+   "method": "棒の長さ",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 5.015,
+   "p10": 3.182,
+   "p90": 7.956,
+   "within20": 0.431
+  },
+  {
+   "setting": "読み手のばらつき0.2",
+   "method": "円の面積",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 1.744,
+   "p10": 1.341,
+   "p90": 2.273,
+   "within20": 0.602
+  },
+  {
+   "setting": "読み手のばらつき0.2",
+   "method": "円の面積",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 3.645,
+   "p10": 2.267,
+   "p90": 5.73,
+   "within20": 0.317
+  },
+  {
+   "setting": "読み手のばらつき0.2",
+   "method": "円の半径（太さ）",
+   "true_ratio": 2.0,
+   "drawn_ratio": 4.0,
+   "perceived_median": 3.024,
+   "p10": 1.994,
+   "p90": 4.504,
+   "within20": 0.214
+  },
+  {
+   "setting": "読み手のばらつき0.2",
+   "method": "円の半径（太さ）",
+   "true_ratio": 5.0,
+   "drawn_ratio": 25.0,
+   "perceived_median": 12.918,
+   "p10": 5.805,
+   "p90": 30.664,
+   "within20": 0.072
+  },
+  {
+   "setting": "読み誤り0.3",
+   "method": "棒の長さ",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 2.015,
+   "p10": 1.329,
+   "p90": 2.964,
+   "within20": 0.501
+  },
+  {
+   "setting": "読み誤り0.3",
+   "method": "棒の長さ",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 5.003,
+   "p10": 3.176,
+   "p90": 7.802,
+   "within20": 0.456
+  },
+  {
+   "setting": "読み誤り0.3",
+   "method": "円の面積",
+   "true_ratio": 2.0,
+   "drawn_ratio": 2.0,
+   "perceived_median": 1.752,
+   "p10": 1.147,
+   "p90": 2.579,
+   "within20": 0.465
+  },
+  {
+   "setting": "読み誤り0.3",
+   "method": "円の面積",
+   "true_ratio": 5.0,
+   "drawn_ratio": 5.0,
+   "perceived_median": 3.655,
+   "p10": 2.367,
+   "p90": 5.629,
+   "within20": 0.312
+  },
+  {
+   "setting": "読み誤り0.3",
+   "method": "円の半径（太さ）",
+   "true_ratio": 2.0,
+   "drawn_ratio": 4.0,
+   "perceived_median": 3.023,
+   "p10": 1.989,
+   "p90": 4.655,
+   "within20": 0.224
+  },
+  {
+   "setting": "読み誤り0.3",
+   "method": "円の半径（太さ）",
+   "true_ratio": 5.0,
+   "drawn_ratio": 25.0,
+   "perceived_median": 13.498,
+   "p10": 7.492,
+   "p90": 23.709,
+   "within20": 0.033
+  }
+ ]
+}

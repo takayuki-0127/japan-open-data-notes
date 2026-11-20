@@ -1,0 +1,556 @@
+{
+ "assumptions": {
+  "months": 36,
+  "growth_until": 24,
+  "growth": "100→1000（直線）",
+  "patterns": {
+   "横ばい": 1.0,
+   "毎月3%減": 0.97,
+   "毎月8%減": 0.92
+  },
+  "noise_log_sd": 0.05,
+  "aspect_w_over_h": 1.6,
+  "theta_deg": 10,
+  "reps": 500
+ },
+ "truth": {
+  "横ばい": {
+   "last_vs_month24": 1.0,
+   "cum_month36_vs_24": 1.909
+  },
+  "毎月3%減": {
+   "last_vs_month24": 0.694,
+   "cum_month36_vs_24": 1.75
+  },
+  "毎月8%減": {
+   "last_vs_month24": 0.368,
+   "cum_month36_vs_24": 1.551
+  }
+ },
+ "main": [
+  {
+   "pattern": "横ばい",
+   "chart": "月ごと",
+   "angle_prev12": 36.8,
+   "angle_last12": -0.3,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.544,
+   "last12_height": null
+  },
+  {
+   "pattern": "横ばい",
+   "chart": "累積",
+   "angle_prev12": 33.6,
+   "angle_last12": 39.6,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.453
+  },
+  {
+   "pattern": "毎月3%減",
+   "chart": "月ごと",
+   "angle_prev12": 38.2,
+   "angle_last12": -27.1,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.62,
+   "last12_height": null
+  },
+  {
+   "pattern": "毎月3%減",
+   "chart": "累積",
+   "angle_prev12": 35.9,
+   "angle_last12": 36.2,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.408
+  },
+  {
+   "pattern": "毎月8%減",
+   "chart": "月ごと",
+   "angle_prev12": 38.7,
+   "angle_last12": -45.5,
+   "found_share": 1.0,
+   "lag_median": 1.0,
+   "false_alarm_share": 0.568,
+   "last12_height": null
+  },
+  {
+   "pattern": "毎月8%減",
+   "chart": "累積",
+   "angle_prev12": 39.3,
+   "angle_last12": 30.2,
+   "found_share": 1.0,
+   "lag_median": 8.0,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.338
+  }
+ ],
+ "sensitivity": [
+  {
+   "setting": "基本（10度・横÷縦1.6・揺れ5%）",
+   "pattern": "横ばい",
+   "chart": "月ごと",
+   "angle_prev12": 36.4,
+   "angle_last12": 0.4,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.62,
+   "last12_height": null
+  },
+  {
+   "setting": "基本（10度・横÷縦1.6・揺れ5%）",
+   "pattern": "横ばい",
+   "chart": "累積",
+   "angle_prev12": 33.6,
+   "angle_last12": 39.6,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.454
+  },
+  {
+   "setting": "基本（10度・横÷縦1.6・揺れ5%）",
+   "pattern": "毎月3%減",
+   "chart": "月ごと",
+   "angle_prev12": 38.4,
+   "angle_last12": -26.6,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.54,
+   "last12_height": null
+  },
+  {
+   "setting": "基本（10度・横÷縦1.6・揺れ5%）",
+   "pattern": "毎月3%減",
+   "chart": "累積",
+   "angle_prev12": 35.9,
+   "angle_last12": 36.2,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.408
+  },
+  {
+   "setting": "基本（10度・横÷縦1.6・揺れ5%）",
+   "pattern": "毎月8%減",
+   "chart": "月ごと",
+   "angle_prev12": 38.8,
+   "angle_last12": -45.4,
+   "found_share": 1.0,
+   "lag_median": 1.0,
+   "false_alarm_share": 0.6,
+   "last12_height": null
+  },
+  {
+   "setting": "基本（10度・横÷縦1.6・揺れ5%）",
+   "pattern": "毎月8%減",
+   "chart": "累積",
+   "angle_prev12": 39.3,
+   "angle_last12": 30.2,
+   "found_share": 1.0,
+   "lag_median": 8.0,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.338
+  },
+  {
+   "setting": "気づく角度 5度",
+   "pattern": "横ばい",
+   "chart": "月ごと",
+   "angle_prev12": 36.8,
+   "angle_last12": 0.1,
+   "found_share": 1.0,
+   "lag_median": 1.0,
+   "false_alarm_share": 0.955,
+   "last12_height": null
+  },
+  {
+   "setting": "気づく角度 5度",
+   "pattern": "横ばい",
+   "chart": "累積",
+   "angle_prev12": 33.6,
+   "angle_last12": 39.6,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.453
+  },
+  {
+   "setting": "気づく角度 5度",
+   "pattern": "毎月3%減",
+   "chart": "月ごと",
+   "angle_prev12": 38.5,
+   "angle_last12": -26.7,
+   "found_share": 1.0,
+   "lag_median": 1.0,
+   "false_alarm_share": 0.955,
+   "last12_height": null
+  },
+  {
+   "setting": "気づく角度 5度",
+   "pattern": "毎月3%減",
+   "chart": "累積",
+   "angle_prev12": 36.0,
+   "angle_last12": 36.2,
+   "found_share": 0.685,
+   "lag_median": 9.0,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.408
+  },
+  {
+   "setting": "気づく角度 5度",
+   "pattern": "毎月8%減",
+   "chart": "月ごと",
+   "angle_prev12": 38.9,
+   "angle_last12": -45.5,
+   "found_share": 1.0,
+   "lag_median": 1.0,
+   "false_alarm_share": 0.93,
+   "last12_height": null
+  },
+  {
+   "setting": "気づく角度 5度",
+   "pattern": "毎月8%減",
+   "chart": "累積",
+   "angle_prev12": 39.3,
+   "angle_last12": 30.2,
+   "found_share": 1.0,
+   "lag_median": 6.0,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.338
+  },
+  {
+   "setting": "気づく角度 20度",
+   "pattern": "横ばい",
+   "chart": "月ごと",
+   "angle_prev12": 36.7,
+   "angle_last12": 0.4,
+   "found_share": 1.0,
+   "lag_median": 3.0,
+   "false_alarm_share": 0.065,
+   "last12_height": null
+  },
+  {
+   "setting": "気づく角度 20度",
+   "pattern": "横ばい",
+   "chart": "累積",
+   "angle_prev12": 33.6,
+   "angle_last12": 39.6,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.453
+  },
+  {
+   "setting": "気づく角度 20度",
+   "pattern": "毎月3%減",
+   "chart": "月ごと",
+   "angle_prev12": 38.1,
+   "angle_last12": -27.0,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.105,
+   "last12_height": null
+  },
+  {
+   "setting": "気づく角度 20度",
+   "pattern": "毎月3%減",
+   "chart": "累積",
+   "angle_prev12": 35.9,
+   "angle_last12": 36.2,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.408
+  },
+  {
+   "setting": "気づく角度 20度",
+   "pattern": "毎月8%減",
+   "chart": "月ごと",
+   "angle_prev12": 38.8,
+   "angle_last12": -45.3,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.08,
+   "last12_height": null
+  },
+  {
+   "setting": "気づく角度 20度",
+   "pattern": "毎月8%減",
+   "chart": "累積",
+   "angle_prev12": 39.3,
+   "angle_last12": 30.2,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.338
+  },
+  {
+   "setting": "横÷縦 1.0",
+   "pattern": "横ばい",
+   "chart": "月ごと",
+   "angle_prev12": 50.1,
+   "angle_last12": 0.7,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.68,
+   "last12_height": null
+  },
+  {
+   "setting": "横÷縦 1.0",
+   "pattern": "横ばい",
+   "chart": "累積",
+   "angle_prev12": 46.8,
+   "angle_last12": 53.0,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.454
+  },
+  {
+   "setting": "横÷縦 1.0",
+   "pattern": "毎月3%減",
+   "chart": "月ごと",
+   "angle_prev12": 51.7,
+   "angle_last12": -39.0,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.555,
+   "last12_height": null
+  },
+  {
+   "setting": "横÷縦 1.0",
+   "pattern": "毎月3%減",
+   "chart": "累積",
+   "angle_prev12": 49.2,
+   "angle_last12": 49.5,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.408
+  },
+  {
+   "setting": "横÷縦 1.0",
+   "pattern": "毎月8%減",
+   "chart": "月ごと",
+   "angle_prev12": 51.8,
+   "angle_last12": -58.7,
+   "found_share": 1.0,
+   "lag_median": 1.0,
+   "false_alarm_share": 0.605,
+   "last12_height": null
+  },
+  {
+   "setting": "横÷縦 1.0",
+   "pattern": "毎月8%減",
+   "chart": "累積",
+   "angle_prev12": 52.6,
+   "angle_last12": 42.9,
+   "found_share": 1.0,
+   "lag_median": 8.0,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.338
+  },
+  {
+   "setting": "横÷縦 2.5",
+   "pattern": "横ばい",
+   "chart": "月ごと",
+   "angle_prev12": 25.5,
+   "angle_last12": -0.1,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.37,
+   "last12_height": null
+  },
+  {
+   "setting": "横÷縦 2.5",
+   "pattern": "横ばい",
+   "chart": "累積",
+   "angle_prev12": 23.1,
+   "angle_last12": 27.9,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.453
+  },
+  {
+   "setting": "横÷縦 2.5",
+   "pattern": "毎月3%減",
+   "chart": "月ごと",
+   "angle_prev12": 26.9,
+   "angle_last12": -18.0,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.43,
+   "last12_height": null
+  },
+  {
+   "setting": "横÷縦 2.5",
+   "pattern": "毎月3%減",
+   "chart": "累積",
+   "angle_prev12": 24.9,
+   "angle_last12": 25.1,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.408
+  },
+  {
+   "setting": "横÷縦 2.5",
+   "pattern": "毎月8%減",
+   "chart": "月ごと",
+   "angle_prev12": 27.2,
+   "angle_last12": -33.1,
+   "found_share": 1.0,
+   "lag_median": 1.0,
+   "false_alarm_share": 0.425,
+   "last12_height": null
+  },
+  {
+   "setting": "横÷縦 2.5",
+   "pattern": "毎月8%減",
+   "chart": "累積",
+   "angle_prev12": 27.7,
+   "angle_last12": 20.4,
+   "found_share": 0.825,
+   "lag_median": 8.0,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.338
+  },
+  {
+   "setting": "揺れなし",
+   "pattern": "横ばい",
+   "chart": "月ごと",
+   "angle_prev12": 39.2,
+   "angle_last12": -0.0,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.0,
+   "last12_height": null
+  },
+  {
+   "setting": "揺れなし",
+   "pattern": "横ばい",
+   "chart": "累積",
+   "angle_prev12": 33.6,
+   "angle_last12": 39.6,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.454
+  },
+  {
+   "setting": "揺れなし",
+   "pattern": "毎月3%減",
+   "chart": "月ごと",
+   "angle_prev12": 39.2,
+   "angle_last12": -27.6,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.0,
+   "last12_height": null
+  },
+  {
+   "setting": "揺れなし",
+   "pattern": "毎月3%減",
+   "chart": "累積",
+   "angle_prev12": 36.0,
+   "angle_last12": 36.2,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.408
+  },
+  {
+   "setting": "揺れなし",
+   "pattern": "毎月8%減",
+   "chart": "月ごと",
+   "angle_prev12": 39.2,
+   "angle_last12": -46.0,
+   "found_share": 1.0,
+   "lag_median": 1.0,
+   "false_alarm_share": 0.0,
+   "last12_height": null
+  },
+  {
+   "setting": "揺れなし",
+   "pattern": "毎月8%減",
+   "chart": "累積",
+   "angle_prev12": 39.3,
+   "angle_last12": 30.2,
+   "found_share": 1.0,
+   "lag_median": 8.0,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.338
+  },
+  {
+   "setting": "揺れ15%",
+   "pattern": "横ばい",
+   "chart": "月ごと",
+   "angle_prev12": 31.8,
+   "angle_last12": 0.8,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.99,
+   "last12_height": null
+  },
+  {
+   "setting": "揺れ15%",
+   "pattern": "横ばい",
+   "chart": "累積",
+   "angle_prev12": 33.6,
+   "angle_last12": 39.6,
+   "found_share": 0.0,
+   "lag_median": null,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.454
+  },
+  {
+   "setting": "揺れ15%",
+   "pattern": "毎月3%減",
+   "chart": "月ごと",
+   "angle_prev12": 33.7,
+   "angle_last12": -23.2,
+   "found_share": 1.0,
+   "lag_median": 2.0,
+   "false_alarm_share": 0.995,
+   "last12_height": null
+  },
+  {
+   "setting": "揺れ15%",
+   "pattern": "毎月3%減",
+   "chart": "累積",
+   "angle_prev12": 35.9,
+   "angle_last12": 36.2,
+   "found_share": 0.07,
+   "lag_median": 10.0,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.408
+  },
+  {
+   "setting": "揺れ15%",
+   "pattern": "毎月8%減",
+   "chart": "月ごと",
+   "angle_prev12": 35.8,
+   "angle_last12": -41.7,
+   "found_share": 1.0,
+   "lag_median": 1.0,
+   "false_alarm_share": 0.985,
+   "last12_height": null
+  },
+  {
+   "setting": "揺れ15%",
+   "pattern": "毎月8%減",
+   "chart": "累積",
+   "angle_prev12": 39.2,
+   "angle_last12": 30.2,
+   "found_share": 0.98,
+   "lag_median": 7.0,
+   "false_alarm_share": 0.0,
+   "last12_height": 0.338
+  }
+ ]
+}

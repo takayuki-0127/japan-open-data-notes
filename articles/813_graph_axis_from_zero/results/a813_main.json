@@ -1,0 +1,130 @@
+{
+ "n_companies": 1000,
+ "true_diff_pct": {
+  "median": 27.28,
+  "p10": 8.62,
+  "p90": 63.42
+ },
+ "fixed_base_lie_factor": {
+  "0": 1.0,
+  "0.5": 2.0,
+  "0.8": 5.0,
+  "0.9": 10.0,
+  "0.95": 20.0
+ },
+ "auto": {
+  "drawn_ratio": {
+   "median": 21.0,
+   "p10": 21.0,
+   "p90": 21.0
+  },
+  "lie_factor": {
+   "median": 73.31,
+   "p10": 31.53,
+   "p90": 232.04
+  },
+  "matplotlib_check_max_rel_diff_50": 0.0
+ },
+ "round_numbers": {
+  "drawn_ratio": {
+   "median": 8.49,
+   "p10": 5.59,
+   "p90": 16.57
+  },
+  "lie_factor": {
+   "median": 29.15,
+   "p10": 10.43,
+   "p90": 108.35
+  },
+  "share_axis_from_zero": 0.0,
+  "axis_min_over_data_min": {
+   "median": 0.97,
+   "p10": 0.9,
+   "p90": 0.99
+  }
+ },
+ "by_true_diff": [
+  {
+   "true_diff_band": "0〜10%",
+   "companies": 136,
+   "auto_lie_median": 274.8,
+   "round_lie_median": 115.9,
+   "round_lie_p10": 59.8,
+   "round_lie_p90": 237.5
+  },
+  {
+   "true_diff_band": "10〜20%",
+   "companies": 218,
+   "auto_lie_median": 134.6,
+   "round_lie_median": 51.2,
+   "round_lie_p10": 28.4,
+   "round_lie_p90": 111.3
+  },
+  {
+   "true_diff_band": "20〜40%",
+   "companies": 340,
+   "auto_lie_median": 68.7,
+   "round_lie_median": 26.3,
+   "round_lie_p10": 14.3,
+   "round_lie_p90": 56.8
+  },
+  {
+   "true_diff_band": "40%以上",
+   "companies": 306,
+   "auto_lie_median": 37.2,
+   "round_lie_median": 13.7,
+   "round_lie_p10": 7.8,
+   "round_lie_p90": 27.2
+  }
+ ],
+ "sensitivity": [
+  {
+   "setting": "基本（12か月・振れ1〜15%・余白5%）",
+   "true_diff_median_pct": 27.3,
+   "auto_drawn_ratio": 21.0,
+   "auto_lie_median": 73.4,
+   "round_lie_median": 29.5,
+   "round_from_zero_share": 0.0
+  },
+  {
+   "setting": "余白10%",
+   "true_diff_median_pct": 29.9,
+   "auto_drawn_ratio": 11.0,
+   "auto_lie_median": 33.5,
+   "round_lie_median": 18.2,
+   "round_from_zero_share": 0.0
+  },
+  {
+   "setting": "6か月",
+   "true_diff_median_pct": 21.5,
+   "auto_drawn_ratio": 21.0,
+   "auto_lie_median": 93.2,
+   "round_lie_median": 40.9,
+   "round_from_zero_share": 0.0
+  },
+  {
+   "setting": "24か月",
+   "true_diff_median_pct": 40.6,
+   "auto_drawn_ratio": 21.0,
+   "auto_lie_median": 49.3,
+   "round_lie_median": 22.4,
+   "round_from_zero_share": 0.0
+  },
+  {
+   "setting": "振れ1〜5%",
+   "true_diff_median_pct": 10.9,
+   "auto_drawn_ratio": 21.0,
+   "auto_lie_median": 183.0,
+   "round_lie_median": 68.3,
+   "round_from_zero_share": 0.0
+  },
+  {
+   "setting": "振れ5〜30%",
+   "true_diff_median_pct": 73.6,
+   "auto_drawn_ratio": 21.0,
+   "auto_lie_median": 27.2,
+   "round_lie_median": 10.6,
+   "round_from_zero_share": 0.007
+  }
+ ]
+}

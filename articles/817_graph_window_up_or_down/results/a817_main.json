@@ -1,0 +1,963 @@
+{
+ "assumptions": {
+  "months": 120,
+  "level": 3000,
+  "stores": 200,
+  "lengths": [
+   12,
+   36
+  ],
+  "season": 0.15,
+  "phi": 0.8,
+  "sd": 0.08,
+  "trend": 0.0,
+  "cut": 0.1
+ },
+ "by_method": [
+  {
+   "method": "始めの月と終わりの月",
+   "n": 485000,
+   "up": 150766,
+   "down": 138423,
+   "up_share": 0.311,
+   "down_share": 0.285,
+   "flat_share": 0.404
+  },
+  {
+   "method": "期間に引いた直線",
+   "n": 485000,
+   "up": 124137,
+   "down": 110719,
+   "up_share": 0.256,
+   "down_share": 0.228,
+   "flat_share": 0.516
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "n": 236600,
+   "up": 26188,
+   "down": 20072,
+   "up_share": 0.111,
+   "down_share": 0.085,
+   "flat_share": 0.804
+  }
+ ],
+ "by_length": [
+  {
+   "method": "始めの月と終わりの月",
+   "length": 12,
+   "n": 21800,
+   "up": 4842,
+   "down": 4202,
+   "up_share": 0.222,
+   "down_share": 0.193,
+   "flat_share": 0.585
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 12,
+   "n": 21800,
+   "up": 8055,
+   "down": 7647,
+   "up_share": 0.369,
+   "down_share": 0.351,
+   "flat_share": 0.28
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 13,
+   "n": 21600,
+   "up": 4167,
+   "down": 3651,
+   "up_share": 0.193,
+   "down_share": 0.169,
+   "flat_share": 0.638
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 13,
+   "n": 21600,
+   "up": 7377,
+   "down": 6909,
+   "up_share": 0.342,
+   "down_share": 0.32,
+   "flat_share": 0.338
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 14,
+   "n": 21400,
+   "up": 4826,
+   "down": 4277,
+   "up_share": 0.226,
+   "down_share": 0.2,
+   "flat_share": 0.574
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 14,
+   "n": 21400,
+   "up": 6480,
+   "down": 5950,
+   "up_share": 0.303,
+   "down_share": 0.278,
+   "flat_share": 0.419
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 15,
+   "n": 21200,
+   "up": 6005,
+   "down": 5526,
+   "up_share": 0.283,
+   "down_share": 0.261,
+   "flat_share": 0.456
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 15,
+   "n": 21200,
+   "up": 5566,
+   "down": 5030,
+   "up_share": 0.263,
+   "down_share": 0.237,
+   "flat_share": 0.5
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 16,
+   "n": 21000,
+   "up": 7039,
+   "down": 6629,
+   "up_share": 0.335,
+   "down_share": 0.316,
+   "flat_share": 0.349
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 16,
+   "n": 21000,
+   "up": 4901,
+   "down": 4298,
+   "up_share": 0.233,
+   "down_share": 0.205,
+   "flat_share": 0.562
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 17,
+   "n": 20800,
+   "up": 7692,
+   "down": 7216,
+   "up_share": 0.37,
+   "down_share": 0.347,
+   "flat_share": 0.283
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 17,
+   "n": 20800,
+   "up": 4560,
+   "down": 4019,
+   "up_share": 0.219,
+   "down_share": 0.193,
+   "flat_share": 0.588
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 18,
+   "n": 20600,
+   "up": 7885,
+   "down": 7487,
+   "up_share": 0.383,
+   "down_share": 0.363,
+   "flat_share": 0.254
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 18,
+   "n": 20600,
+   "up": 4649,
+   "down": 4141,
+   "up_share": 0.226,
+   "down_share": 0.201,
+   "flat_share": 0.573
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 19,
+   "n": 20400,
+   "up": 7916,
+   "down": 7459,
+   "up_share": 0.388,
+   "down_share": 0.366,
+   "flat_share": 0.246
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 19,
+   "n": 20400,
+   "up": 4945,
+   "down": 4392,
+   "up_share": 0.242,
+   "down_share": 0.215,
+   "flat_share": 0.543
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 20,
+   "n": 20200,
+   "up": 7727,
+   "down": 7254,
+   "up_share": 0.383,
+   "down_share": 0.359,
+   "flat_share": 0.258
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 20,
+   "n": 20200,
+   "up": 5276,
+   "down": 4708,
+   "up_share": 0.261,
+   "down_share": 0.233,
+   "flat_share": 0.506
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 21,
+   "n": 20000,
+   "up": 7376,
+   "down": 6811,
+   "up_share": 0.369,
+   "down_share": 0.341,
+   "flat_share": 0.29
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 21,
+   "n": 20000,
+   "up": 5493,
+   "down": 4982,
+   "up_share": 0.275,
+   "down_share": 0.249,
+   "flat_share": 0.476
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 22,
+   "n": 19800,
+   "up": 6583,
+   "down": 6163,
+   "up_share": 0.332,
+   "down_share": 0.311,
+   "flat_share": 0.357
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 22,
+   "n": 19800,
+   "up": 5599,
+   "down": 5092,
+   "up_share": 0.283,
+   "down_share": 0.257,
+   "flat_share": 0.46
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 23,
+   "n": 19600,
+   "up": 5602,
+   "down": 5012,
+   "up_share": 0.286,
+   "down_share": 0.256,
+   "flat_share": 0.458
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 23,
+   "n": 19600,
+   "up": 5548,
+   "down": 5059,
+   "up_share": 0.283,
+   "down_share": 0.258,
+   "flat_share": 0.459
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 24,
+   "n": 19400,
+   "up": 4491,
+   "down": 3930,
+   "up_share": 0.231,
+   "down_share": 0.203,
+   "flat_share": 0.566
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 24,
+   "n": 19400,
+   "up": 5423,
+   "down": 4961,
+   "up_share": 0.28,
+   "down_share": 0.256,
+   "flat_share": 0.464
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "length": 24,
+   "n": 19400,
+   "up": 1685,
+   "down": 1269,
+   "up_share": 0.087,
+   "down_share": 0.065,
+   "flat_share": 0.848
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 25,
+   "n": 19200,
+   "up": 3913,
+   "down": 3397,
+   "up_share": 0.204,
+   "down_share": 0.177,
+   "flat_share": 0.619
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 25,
+   "n": 19200,
+   "up": 5133,
+   "down": 4633,
+   "up_share": 0.267,
+   "down_share": 0.241,
+   "flat_share": 0.492
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "length": 25,
+   "n": 19200,
+   "up": 1815,
+   "down": 1375,
+   "up_share": 0.095,
+   "down_share": 0.072,
+   "flat_share": 0.833
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 26,
+   "n": 19000,
+   "up": 4362,
+   "down": 3810,
+   "up_share": 0.23,
+   "down_share": 0.201,
+   "flat_share": 0.569
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 26,
+   "n": 19000,
+   "up": 4794,
+   "down": 4302,
+   "up_share": 0.252,
+   "down_share": 0.226,
+   "flat_share": 0.522
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "length": 26,
+   "n": 19000,
+   "up": 1927,
+   "down": 1456,
+   "up_share": 0.101,
+   "down_share": 0.077,
+   "flat_share": 0.822
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 27,
+   "n": 18800,
+   "up": 5318,
+   "down": 4864,
+   "up_share": 0.283,
+   "down_share": 0.259,
+   "flat_share": 0.458
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 27,
+   "n": 18800,
+   "up": 4434,
+   "down": 3920,
+   "up_share": 0.236,
+   "down_share": 0.209,
+   "flat_share": 0.555
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "length": 27,
+   "n": 18800,
+   "up": 1997,
+   "down": 1549,
+   "up_share": 0.106,
+   "down_share": 0.082,
+   "flat_share": 0.812
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 28,
+   "n": 18600,
+   "up": 6209,
+   "down": 5743,
+   "up_share": 0.334,
+   "down_share": 0.309,
+   "flat_share": 0.357
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 28,
+   "n": 18600,
+   "up": 4083,
+   "down": 3578,
+   "up_share": 0.22,
+   "down_share": 0.192,
+   "flat_share": 0.588
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "length": 28,
+   "n": 18600,
+   "up": 2054,
+   "down": 1584,
+   "up_share": 0.11,
+   "down_share": 0.085,
+   "flat_share": 0.805
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 29,
+   "n": 18400,
+   "up": 6772,
+   "down": 6353,
+   "up_share": 0.368,
+   "down_share": 0.345,
+   "flat_share": 0.287
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 29,
+   "n": 18400,
+   "up": 3880,
+   "down": 3304,
+   "up_share": 0.211,
+   "down_share": 0.18,
+   "flat_share": 0.609
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "length": 29,
+   "n": 18400,
+   "up": 2071,
+   "down": 1619,
+   "up_share": 0.113,
+   "down_share": 0.088,
+   "flat_share": 0.799
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 30,
+   "n": 18200,
+   "up": 7017,
+   "down": 6517,
+   "up_share": 0.386,
+   "down_share": 0.358,
+   "flat_share": 0.256
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 30,
+   "n": 18200,
+   "up": 3778,
+   "down": 3233,
+   "up_share": 0.208,
+   "down_share": 0.178,
+   "flat_share": 0.614
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "length": 30,
+   "n": 18200,
+   "up": 2097,
+   "down": 1638,
+   "up_share": 0.115,
+   "down_share": 0.09,
+   "flat_share": 0.795
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 31,
+   "n": 18000,
+   "up": 6992,
+   "down": 6562,
+   "up_share": 0.388,
+   "down_share": 0.365,
+   "flat_share": 0.247
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 31,
+   "n": 18000,
+   "up": 3824,
+   "down": 3229,
+   "up_share": 0.212,
+   "down_share": 0.179,
+   "flat_share": 0.609
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "length": 31,
+   "n": 18000,
+   "up": 2113,
+   "down": 1628,
+   "up_share": 0.117,
+   "down_share": 0.09,
+   "flat_share": 0.793
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 32,
+   "n": 17800,
+   "up": 6857,
+   "down": 6394,
+   "up_share": 0.385,
+   "down_share": 0.359,
+   "flat_share": 0.256
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 32,
+   "n": 17800,
+   "up": 3925,
+   "down": 3344,
+   "up_share": 0.221,
+   "down_share": 0.188,
+   "flat_share": 0.591
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "length": 32,
+   "n": 17800,
+   "up": 2116,
+   "down": 1634,
+   "up_share": 0.119,
+   "down_share": 0.092,
+   "flat_share": 0.789
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 33,
+   "n": 17600,
+   "up": 6482,
+   "down": 5998,
+   "up_share": 0.368,
+   "down_share": 0.341,
+   "flat_share": 0.291
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 33,
+   "n": 17600,
+   "up": 4082,
+   "down": 3431,
+   "up_share": 0.232,
+   "down_share": 0.195,
+   "flat_share": 0.573
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "length": 33,
+   "n": 17600,
+   "up": 2088,
+   "down": 1620,
+   "up_share": 0.119,
+   "down_share": 0.092,
+   "flat_share": 0.789
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 34,
+   "n": 17400,
+   "up": 5828,
+   "down": 5376,
+   "up_share": 0.335,
+   "down_share": 0.309,
+   "flat_share": 0.356
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 34,
+   "n": 17400,
+   "up": 4156,
+   "down": 3528,
+   "up_share": 0.239,
+   "down_share": 0.203,
+   "flat_share": 0.558
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "length": 34,
+   "n": 17400,
+   "up": 2088,
+   "down": 1595,
+   "up_share": 0.12,
+   "down_share": 0.092,
+   "flat_share": 0.788
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 35,
+   "n": 17200,
+   "up": 4894,
+   "down": 4407,
+   "up_share": 0.285,
+   "down_share": 0.256,
+   "flat_share": 0.459
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 35,
+   "n": 17200,
+   "up": 4162,
+   "down": 3549,
+   "up_share": 0.242,
+   "down_share": 0.206,
+   "flat_share": 0.552
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "length": 35,
+   "n": 17200,
+   "up": 2074,
+   "down": 1564,
+   "up_share": 0.121,
+   "down_share": 0.091,
+   "flat_share": 0.788
+  },
+  {
+   "method": "始めの月と終わりの月",
+   "length": 36,
+   "n": 17000,
+   "up": 3971,
+   "down": 3385,
+   "up_share": 0.234,
+   "down_share": 0.199,
+   "flat_share": 0.567
+  },
+  {
+   "method": "期間に引いた直線",
+   "length": 36,
+   "n": 17000,
+   "up": 4014,
+   "down": 3480,
+   "up_share": 0.236,
+   "down_share": 0.205,
+   "flat_share": 0.559
+  },
+  {
+   "method": "最初と最後の12か月の平均",
+   "length": 36,
+   "n": 17000,
+   "up": 2063,
+   "down": 1541,
+   "up_share": 0.121,
+   "down_share": 0.091,
+   "flat_share": 0.788
+  }
+ ],
+ "one_store": {
+  "len24_max_rise": 0.313,
+  "len24_max_rise_start_month": 78,
+  "len24_max_fall": -0.222,
+  "len24_max_fall_start_month": 31,
+  "len24_up_share_endpoint": 0.289,
+  "len24_down_share_endpoint": 0.165,
+  "len24_avg12_max": 0.133,
+  "len24_avg12_min": -0.094,
+  "ten_year_avg_first_vs_last12": 0.017
+ },
+ "all_stores": {
+  "stores_with_both_up_and_down_endpoint": 1.0
+ },
+ "sensitivity": [
+  {
+   "setting": "基本（残りやすさ0.8・季節15%・伸び0・線±10%）",
+   "method": "始めの月と終わりの月",
+   "n": 485000,
+   "up": 150143,
+   "down": 139722,
+   "up_share": 0.31,
+   "down_share": 0.288,
+   "flat_share": 0.402
+  },
+  {
+   "setting": "基本（残りやすさ0.8・季節15%・伸び0・線±10%）",
+   "method": "期間に引いた直線",
+   "n": 485000,
+   "up": 119349,
+   "down": 109971,
+   "up_share": 0.246,
+   "down_share": 0.227,
+   "flat_share": 0.527
+  },
+  {
+   "setting": "基本（残りやすさ0.8・季節15%・伸び0・線±10%）",
+   "method": "最初と最後の12か月の平均",
+   "n": 236600,
+   "up": 22940,
+   "down": 19966,
+   "up_share": 0.097,
+   "down_share": 0.084,
+   "flat_share": 0.819
+  },
+  {
+   "setting": "残りやすさ 0.5",
+   "method": "始めの月と終わりの月",
+   "n": 485000,
+   "up": 150850,
+   "down": 139032,
+   "up_share": 0.311,
+   "down_share": 0.287,
+   "flat_share": 0.402
+  },
+  {
+   "setting": "残りやすさ 0.5",
+   "method": "期間に引いた直線",
+   "n": 485000,
+   "up": 101353,
+   "down": 89106,
+   "up_share": 0.209,
+   "down_share": 0.184,
+   "flat_share": 0.607
+  },
+  {
+   "setting": "残りやすさ 0.5",
+   "method": "最初と最後の12か月の平均",
+   "n": 236600,
+   "up": 8160,
+   "down": 6086,
+   "up_share": 0.034,
+   "down_share": 0.026,
+   "flat_share": 0.94
+  },
+  {
+   "setting": "残りやすさ 0.95",
+   "method": "始めの月と終わりの月",
+   "n": 485000,
+   "up": 142265,
+   "down": 131397,
+   "up_share": 0.293,
+   "down_share": 0.271,
+   "flat_share": 0.436
+  },
+  {
+   "setting": "残りやすさ 0.95",
+   "method": "期間に引いた直線",
+   "n": 485000,
+   "up": 111586,
+   "down": 101391,
+   "up_share": 0.23,
+   "down_share": 0.209,
+   "flat_share": 0.561
+  },
+  {
+   "setting": "残りやすさ 0.95",
+   "method": "最初と最後の12か月の平均",
+   "n": 236600,
+   "up": 20465,
+   "down": 15629,
+   "up_share": 0.086,
+   "down_share": 0.066,
+   "flat_share": 0.848
+  },
+  {
+   "setting": "季節なし",
+   "method": "始めの月と終わりの月",
+   "n": 485000,
+   "up": 95712,
+   "down": 85008,
+   "up_share": 0.197,
+   "down_share": 0.175,
+   "flat_share": 0.628
+  },
+  {
+   "setting": "季節なし",
+   "method": "期間に引いた直線",
+   "n": 485000,
+   "up": 101230,
+   "down": 89132,
+   "up_share": 0.209,
+   "down_share": 0.184,
+   "flat_share": 0.607
+  },
+  {
+   "setting": "季節なし",
+   "method": "最初と最後の12か月の平均",
+   "n": 236600,
+   "up": 24401,
+   "down": 19756,
+   "up_share": 0.103,
+   "down_share": 0.083,
+   "flat_share": 0.814
+  },
+  {
+   "setting": "季節30%",
+   "method": "始めの月と終わりの月",
+   "n": 485000,
+   "up": 184773,
+   "down": 175978,
+   "up_share": 0.381,
+   "down_share": 0.363,
+   "flat_share": 0.256
+  },
+  {
+   "setting": "季節30%",
+   "method": "期間に引いた直線",
+   "n": 485000,
+   "up": 151871,
+   "down": 142083,
+   "up_share": 0.313,
+   "down_share": 0.293,
+   "flat_share": 0.394
+  },
+  {
+   "setting": "季節30%",
+   "method": "最初と最後の12か月の平均",
+   "n": 236600,
+   "up": 22682,
+   "down": 18593,
+   "up_share": 0.096,
+   "down_share": 0.079,
+   "flat_share": 0.825
+  },
+  {
+   "setting": "本当の伸び 年+3%",
+   "method": "始めの月と終わりの月",
+   "n": 485000,
+   "up": 201762,
+   "down": 96004,
+   "up_share": 0.416,
+   "down_share": 0.198,
+   "flat_share": 0.386
+  },
+  {
+   "setting": "本当の伸び 年+3%",
+   "method": "期間に引いた直線",
+   "n": 485000,
+   "up": 190820,
+   "down": 64367,
+   "up_share": 0.393,
+   "down_share": 0.133,
+   "flat_share": 0.474
+  },
+  {
+   "setting": "本当の伸び 年+3%",
+   "method": "最初と最後の12か月の平均",
+   "n": 236600,
+   "up": 57521,
+   "down": 6004,
+   "up_share": 0.243,
+   "down_share": 0.025,
+   "flat_share": 0.732
+  },
+  {
+   "setting": "本当の伸び 年−3%",
+   "method": "始めの月と終わりの月",
+   "n": 485000,
+   "up": 103636,
+   "down": 191573,
+   "up_share": 0.214,
+   "down_share": 0.395,
+   "flat_share": 0.391
+  },
+  {
+   "setting": "本当の伸び 年−3%",
+   "method": "期間に引いた直線",
+   "n": 485000,
+   "up": 68853,
+   "down": 179056,
+   "up_share": 0.142,
+   "down_share": 0.369,
+   "flat_share": 0.489
+  },
+  {
+   "setting": "本当の伸び 年−3%",
+   "method": "最初と最後の12か月の平均",
+   "n": 236600,
+   "up": 6608,
+   "down": 49740,
+   "up_share": 0.028,
+   "down_share": 0.21,
+   "flat_share": 0.762
+  },
+  {
+   "setting": "線±5%",
+   "method": "始めの月と終わりの月",
+   "n": 485000,
+   "up": 195309,
+   "down": 188525,
+   "up_share": 0.403,
+   "down_share": 0.389,
+   "flat_share": 0.208
+  },
+  {
+   "setting": "線±5%",
+   "method": "期間に引いた直線",
+   "n": 485000,
+   "up": 178876,
+   "down": 174385,
+   "up_share": 0.369,
+   "down_share": 0.36,
+   "flat_share": 0.271
+  },
+  {
+   "setting": "線±5%",
+   "method": "最初と最後の12か月の平均",
+   "n": 236600,
+   "up": 62199,
+   "down": 58907,
+   "up_share": 0.263,
+   "down_share": 0.249,
+   "flat_share": 0.488
+  },
+  {
+   "setting": "線±20%",
+   "method": "始めの月と終わりの月",
+   "n": 485000,
+   "up": 82655,
+   "down": 57305,
+   "up_share": 0.17,
+   "down_share": 0.118,
+   "flat_share": 0.712
+  },
+  {
+   "setting": "線±20%",
+   "method": "期間に引いた直線",
+   "n": 485000,
+   "up": 49199,
+   "down": 27951,
+   "up_share": 0.101,
+   "down_share": 0.058,
+   "flat_share": 0.841
+  },
+  {
+   "setting": "線±20%",
+   "method": "最初と最後の12か月の平均",
+   "n": 236600,
+   "up": 1685,
+   "down": 318,
+   "up_share": 0.007,
+   "down_share": 0.001,
+   "flat_share": 0.992
+  }
+ ]
+}

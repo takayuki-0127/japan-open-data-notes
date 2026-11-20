@@ -1,0 +1,104 @@
+{
+ "n_pairs_per_kind": 2000,
+ "months": 24,
+ "threshold_gap_related_auto_median": 0.088,
+ "unrelated_rw_auto_gap_median": 0.285,
+ "by_kind": [
+  {
+   "kind": "無関係・上り下りあり",
+   "change_corr_mean": 0.002,
+   "abs_level_corr_gt_0_5": 0.615,
+   "gap_auto_median": 0.285,
+   "gap_chosen_median": 0.199,
+   "gap_flip_median": 0.152,
+   "share_linked_auto": 0.034,
+   "share_linked_chosen": 0.071,
+   "share_linked_flip": 0.116,
+   "gap_apart_median": 0.433,
+   "share_apart_ge_unrelated_auto": 1.0
+  },
+  {
+   "kind": "無関係・横ばいの振れ",
+   "change_corr_mean": 0.005,
+   "abs_level_corr_gt_0_5": 0.014,
+   "gap_auto_median": 0.27,
+   "gap_chosen_median": 0.19,
+   "gap_flip_median": 0.179,
+   "share_linked_auto": 0.0,
+   "share_linked_chosen": 0.0,
+   "share_linked_flip": 0.0,
+   "gap_apart_median": 0.412,
+   "share_apart_ge_unrelated_auto": 1.0
+  },
+  {
+   "kind": "本当に関係あり",
+   "change_corr_mean": 0.793,
+   "abs_level_corr_gt_0_5": 0.92,
+   "gap_auto_median": 0.088,
+   "gap_chosen_median": 0.071,
+   "gap_flip_median": 0.071,
+   "share_linked_auto": 0.5,
+   "share_linked_chosen": 0.621,
+   "share_linked_flip": 0.621,
+   "gap_apart_median": 0.396,
+   "share_apart_ge_unrelated_auto": 1.0
+  }
+ ],
+ "sensitivity": [
+  {
+   "setting": "基本（24か月・関係の強さ0.8・線の幅30%以上）",
+   "threshold_gap": 0.089,
+   "rw_share_linked_auto": 0.029,
+   "rw_share_linked_chosen": 0.058,
+   "flat_share_linked_auto": 0.0,
+   "flat_share_linked_chosen": 0.0
+  },
+  {
+   "setting": "12か月",
+   "threshold_gap": 0.108,
+   "rw_share_linked_auto": 0.037,
+   "rw_share_linked_chosen": 0.072,
+   "flat_share_linked_auto": 0.0,
+   "flat_share_linked_chosen": 0.001
+  },
+  {
+   "setting": "60か月",
+   "threshold_gap": 0.067,
+   "rw_share_linked_auto": 0.05,
+   "rw_share_linked_chosen": 0.09,
+   "flat_share_linked_auto": 0.0,
+   "flat_share_linked_chosen": 0.0
+  },
+  {
+   "setting": "関係の強さ0.5で目安を作る",
+   "threshold_gap": 0.144,
+   "rw_share_linked_auto": 0.143,
+   "rw_share_linked_chosen": 0.267,
+   "flat_share_linked_auto": 0.0,
+   "flat_share_linked_chosen": 0.038
+  },
+  {
+   "setting": "右の線の幅を50%以上に限る",
+   "threshold_gap": 0.087,
+   "rw_share_linked_auto": 0.027,
+   "rw_share_linked_chosen": 0.067,
+   "flat_share_linked_auto": 0.0,
+   "flat_share_linked_chosen": 0.0
+  }
+ ],
+ "example_pair": {
+  "index": 702,
+  "change_corr": -0.021,
+  "gap_auto": 0.25,
+  "gap_chosen": 0.084,
+  "right_line_lo": 0.0,
+  "right_line_hi": 0.5,
+  "level_corr": 0.869
+ },
+ "overlapped_unrelated": {
+  "count": 143,
+  "level_corr_median": 0.938,
+  "others_level_corr_median": 0.019,
+  "change_corr_mean": 0.059
+ }
+}

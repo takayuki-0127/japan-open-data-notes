@@ -1,0 +1,191 @@
+{
+ "n_companies": 2000,
+ "items": 5,
+ "true_share_dist": {
+  "lt5": 0.071,
+  "5_40": 0.859,
+  "ge40": 0.07,
+  "median": 18.01
+ },
+ "base": {
+  "bar": {
+   "mean_abs_error": 0.763,
+   "p90_abs_error": 1.755,
+   "share_off_5pt": 0.0,
+   "close_pairs_wrong_order": 0.172,
+   "top1_correct": 0.967
+  },
+  "pie": {
+   "mean_abs_error": 2.473,
+   "p90_abs_error": 5.805,
+   "share_off_5pt": 0.138,
+   "close_pairs_wrong_order": 0.346,
+   "top1_correct": 0.922
+  }
+ },
+ "by_position": [
+  {
+   "position": "1つ目（商品A）",
+   "bar_mean_abs_error": 0.77,
+   "pie_mean_abs_error": 1.8
+  },
+  {
+   "position": "2つ目（商品B）",
+   "bar_mean_abs_error": 0.75,
+   "pie_mean_abs_error": 2.7
+  },
+  {
+   "position": "3つ目（商品C）",
+   "bar_mean_abs_error": 0.78,
+   "pie_mean_abs_error": 2.64
+  },
+  {
+   "position": "4つ目（商品D）",
+   "bar_mean_abs_error": 0.77,
+   "pie_mean_abs_error": 2.66
+  },
+  {
+   "position": "5つ目（商品E）",
+   "bar_mean_abs_error": 0.75,
+   "pie_mean_abs_error": 2.61
+  }
+ ],
+ "by_true_share": [
+  {
+   "true_share": "0〜10%",
+   "items": 2234,
+   "bar_mean_abs_error": 0.79,
+   "pie_mean_abs_error": 2.32
+  },
+  {
+   "true_share": "10〜20%",
+   "items": 3402,
+   "bar_mean_abs_error": 0.76,
+   "pie_mean_abs_error": 3.41
+  },
+  {
+   "true_share": "20〜30%",
+   "items": 2404,
+   "bar_mean_abs_error": 0.76,
+   "pie_mean_abs_error": 1.06
+  },
+  {
+   "true_share": "30%以上",
+   "items": 1960,
+   "bar_mean_abs_error": 0.75,
+   "pie_mean_abs_error": 2.79
+  }
+ ],
+ "sensitivity": [
+  {
+   "setting": "基本（w=0.3・m=1.5・目盛り線10ごと・5項目）",
+   "bar_mean_abs_error": 0.762,
+   "pie_mean_abs_error": 2.477,
+   "ratio_pie_over_bar": 3.25,
+   "bar_close_wrong": 0.169,
+   "pie_close_wrong": 0.345,
+   "bar_top1": 0.966,
+   "pie_top1": 0.92
+  },
+  {
+   "setting": "w=0.15（読み手が上手）",
+   "bar_mean_abs_error": 0.461,
+   "pie_mean_abs_error": 1.347,
+   "ratio_pie_over_bar": 2.92,
+   "bar_close_wrong": 0.108,
+   "pie_close_wrong": 0.27,
+   "bar_top1": 0.98,
+   "pie_top1": 0.958
+  },
+  {
+   "setting": "w=0.5（読み手が下手）",
+   "bar_mean_abs_error": 1.171,
+   "pie_mean_abs_error": 3.974,
+   "ratio_pie_over_bar": 3.39,
+   "bar_close_wrong": 0.236,
+   "pie_close_wrong": 0.396,
+   "bar_top1": 0.95,
+   "pie_top1": 0.854
+  },
+  {
+   "setting": "m=1（円の2つ目以降も1つ目と同じ）",
+   "bar_mean_abs_error": 0.765,
+   "pie_mean_abs_error": 1.775,
+   "ratio_pie_over_bar": 2.32,
+   "bar_close_wrong": 0.169,
+   "pie_close_wrong": 0.304,
+   "bar_top1": 0.965,
+   "pie_top1": 0.947
+  },
+  {
+   "setting": "m=2",
+   "bar_mean_abs_error": 0.762,
+   "pie_mean_abs_error": 3.189,
+   "ratio_pie_over_bar": 4.19,
+   "bar_close_wrong": 0.17,
+   "pie_close_wrong": 0.376,
+   "bar_top1": 0.967,
+   "pie_top1": 0.888
+  },
+  {
+   "setting": "棒の目盛り線5ポイントごと",
+   "bar_mean_abs_error": 0.462,
+   "pie_mean_abs_error": 2.48,
+   "ratio_pie_over_bar": 5.37,
+   "bar_close_wrong": 0.106,
+   "pie_close_wrong": 0.349,
+   "bar_top1": 0.98,
+   "pie_top1": 0.921
+  },
+  {
+   "setting": "棒の目盛り線20ポイントごと",
+   "bar_mean_abs_error": 1.419,
+   "pie_mean_abs_error": 2.472,
+   "ratio_pie_over_bar": 1.74,
+   "bar_close_wrong": 0.265,
+   "pie_close_wrong": 0.347,
+   "bar_top1": 0.927,
+   "pie_top1": 0.92
+  },
+  {
+   "setting": "棒の目盛り線なし",
+   "bar_mean_abs_error": 2.708,
+   "pie_mean_abs_error": 2.478,
+   "ratio_pie_over_bar": 0.92,
+   "bar_close_wrong": 0.366,
+   "pie_close_wrong": 0.348,
+   "bar_top1": 0.909,
+   "pie_top1": 0.92
+  },
+  {
+   "setting": "棒の目盛り線なし・m=1",
+   "bar_mean_abs_error": 2.711,
+   "pie_mean_abs_error": 1.768,
+   "ratio_pie_over_bar": 0.65,
+   "bar_close_wrong": 0.366,
+   "pie_close_wrong": 0.304,
+   "bar_top1": 0.904,
+   "pie_top1": 0.946
+  },
+  {
+   "setting": "3項目",
+   "bar_mean_abs_error": 0.761,
+   "pie_mean_abs_error": 2.235,
+   "ratio_pie_over_bar": 2.94,
+   "bar_close_wrong": 0.191,
+   "pie_close_wrong": 0.336,
+   "bar_top1": 0.983,
+   "pie_top1": 0.945
+  },
+  {
+   "setting": "8項目",
+   "bar_mean_abs_error": 0.779,
+   "pie_mean_abs_error": 2.648,
+   "ratio_pie_over_bar": 3.4,
+   "bar_close_wrong": 0.178,
+   "pie_close_wrong": 0.376,
+   "bar_top1": 0.947,
+   "pie_top1": 0.834
+  }
+ ]
+}

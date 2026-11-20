@@ -1,0 +1,4 @@
+kind,change_corr_mean,abs_level_corr_gt_0_5,gap_auto_median,gap_chosen_median,gap_flip_median,share_linked_auto,share_linked_chosen,share_linked_flip,gap_apart_median,share_apart_ge_unrelated_auto
+無関係・上り下りあり,0.002,0.615,0.285,0.199,0.152,0.034,0.071,0.116,0.433,1.0
+無関係・横ばいの振れ,0.005,0.014,0.27,0.19,0.179,0.0,0.0,0.0,0.412,1.0
+本当に関係あり,0.793,0.92,0.088,0.071,0.071,0.5,0.621,0.621,0.396,1.0
