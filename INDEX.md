@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 535本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 547本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -23,7 +23,7 @@
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 290 |
+| その他（記述・要因分解など） | 302 |
 
 <details><summary><b>予測・時系列</b>（137本）</summary>
 
@@ -1292,7 +1292,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（290本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（302本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1586,6 +1586,18 @@
 | 810 | 低評価に返信した店は、その後の平均が上がるのか？ | [810_review_reply_selection](articles/810_review_reply_selection) |
 | 811 | カテゴリの1位は、実力か件数の少なさか？ | [811_review_category_top1](articles/811_review_category_top1) |
 | 812 | 「4.5以上」で絞り込むと、良い店は何%外れるのか？ | [812_review_filter_4_5](articles/812_review_filter_4_5) |
+| 825 | 勝率6割のチームが、10試合で負け越す確率は？ | [825_luck_win60_ten_games](articles/825_luck_win60_ten_games) |
+| 826 | 前半の打率トップは、後半もトップなのか？ | [826_luck_first_half_top_batter](articles/826_luck_first_half_top_batter) |
+| 827 | 連勝の長さは、偶然でどこまで伸びるのか？ | [827_luck_winning_streak_length](articles/827_luck_winning_streak_length) |
+| 828 | ガチャの「1%」を100回引いても当たらない人は、何%いるのか？ | [828_luck_gacha_one_percent](articles/828_luck_gacha_one_percent) |
+| 829 | トーナメントで、いちばん強いチームが優勝する確率は？ | [829_luck_tournament_strongest](articles/829_luck_tournament_strongest) |
+| 830 | 2年目のジンクスは、偶然だけで起きるのか？ | [830_luck_sophomore_jinx](articles/830_luck_sophomore_jinx) |
+| 831 | 営業成績の月間1位は、何か月続くのか？ | [831_luck_sales_monthly_top](articles/831_luck_sales_monthly_top) |
+| 832 | 勝ち点と勝率で、順位はどれだけ入れ替わるのか？ | [832_luck_points_vs_winrate](articles/832_luck_points_vs_winrate) |
+| 833 | 少ない打席の「最高打率」は、件数の少なさで決まるのか？ | [833_luck_small_sample_batting_top](articles/833_luck_small_sample_batting_top) |
+| 834 | くじは、先に引くのと後に引くのでどちらが有利か？ | [834_luck_draw_order](articles/834_luck_draw_order) |
+| 835 | 上位だけを見て「成功の秘訣」を決めると、何を読み違えるのか？ | [835_luck_success_secret_top](articles/835_luck_success_secret_top) |
+| 836 | 実力差がどれだけあれば、偶然の逆転は起きにくくなるのか？ | [836_luck_gap_upset](articles/836_luck_gap_upset) |
 
 </details>
 
@@ -1594,7 +1606,7 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 175 |
+| 小売・店舗 | 176 |
 | EC・会員・Web | 93 |
 | マーケティング・広告 | 21 |
 | 需要予測・在庫 | 31 |
@@ -1603,7 +1615,7 @@
 | 保険 | 72 |
 | 公的統計・地域・人口 | 433 |
 
-<details><summary><b>小売・店舗</b>（175本）</summary>
+<details><summary><b>小売・店舗</b>（176本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1782,6 +1794,7 @@
 | 810 | 低評価に返信した店は、その後の平均が上がるのか？ | [810_review_reply_selection](articles/810_review_reply_selection) |
 | 811 | カテゴリの1位は、実力か件数の少なさか？ | [811_review_category_top1](articles/811_review_category_top1) |
 | 812 | 「4.5以上」で絞り込むと、良い店は何%外れるのか？ | [812_review_filter_4_5](articles/812_review_filter_4_5) |
+| 831 | 営業成績の月間1位は、何か月続くのか？ | [831_luck_sales_monthly_top](articles/831_luck_sales_monthly_top) |
 
 </details>
 
