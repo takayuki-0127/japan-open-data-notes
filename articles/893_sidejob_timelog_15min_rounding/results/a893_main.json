@@ -1,0 +1,86 @@
+{
+ "settings_base": {
+  "days": 20,
+  "short_per_day": 6.0,
+  "short_median": 5.0,
+  "short_sd": 0.6,
+  "work_per_day": 3.0,
+  "work_median": 45.0,
+  "work_sd": 0.6,
+  "unit": 15
+ },
+ "example_month": {
+  "n_sessions": 175,
+  "true_hours": 57.54,
+  "recorded_hours": {
+   "1回ごとに切り捨て": 40.25,
+   "1回ごとに四捨五入": 53.75,
+   "1回ごとに切り上げ": 84.0,
+   "1日の合計を切り捨て": 54.5
+  },
+  "change": {
+   "1回ごとに切り捨て": -0.3005,
+   "1回ごとに四捨五入": -0.0659,
+   "1回ごとに切り上げ": 0.4598,
+   "1日の合計を切り捨て": -0.0528
+  },
+  "floor_lost_hours": 17.29,
+  "floor_lost_from_short_share": 0.6674,
+  "per_hour_inflation_floor": 0.4296,
+  "formula_floor_guess": 0.3802,
+  "by_kind": {
+   "やり取り": {
+    "n": 128,
+    "true_hours": 12.79,
+    "floor_hours": 1.25,
+    "floor_change": -0.9022,
+    "round_change": -0.3743,
+    "ceil_change": 1.6005,
+    "share_under_unit": 0.9609
+   },
+   "作業": {
+    "n": 47,
+    "true_hours": 44.75,
+    "floor_hours": 39.0,
+    "floor_change": -0.1286,
+    "round_change": 0.0222,
+    "ceil_change": 0.134,
+    "share_under_unit": 0.0213
+   }
+  }
+ },
+ "rules_1000months": [
+  {
+   "rule": "1回ごとに切り捨て",
+   "mean": -0.2819,
+   "p10": -0.3211,
+   "p90": -0.2445
+  },
+  {
+   "rule": "1回ごとに四捨五入",
+   "mean": -0.0666,
+   "p10": -0.0909,
+   "p90": -0.0435
+  },
+  {
+   "rule": "1回ごとに切り上げ",
+   "mean": 0.4092,
+   "p10": 0.3495,
+   "p90": 0.4753
+  },
+  {
+   "rule": "1日の合計を切り捨て",
+   "mean": -0.0387,
+   "p10": -0.0482,
+   "p90": -0.0299
+  }
+ ],
+ "robustness_floor_range": {
+  "min": -0.5222,
+  "max": -0.119
+ },
+ "robustness_round_range": {
+  "min": -0.1483,
+  "max": 0.0029
+ }
+}

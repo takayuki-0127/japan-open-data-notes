@@ -1,0 +1,199 @@
+{
+ "rules": {
+  "A": "契約額の15%、契約額のあった月ごとに振込500円",
+  "B": "同じ取引先との累計契約額のうち10万円までの部分20%、10万〜50万円の部分10%、50万円を超える部分5%、振込0円",
+  "C": "毎月3,000円（契約額のない月も）＋契約額の5%、契約額のあった月ごとに振込300円"
+ },
+ "base_params": {
+  "c_fixed": 3000,
+  "b_scale": 1.0,
+  "dur": 3.0
+ },
+ "n_people": 5000,
+ "base": {
+  "n_active": 4905,
+  "truth_share": {
+   "A": 0.2913,
+   "B": 0.0373,
+   "C": 0.6714
+  },
+  "率だけで比べる": {
+   "match": 0.6714,
+   "not_comparable": 0.0,
+   "match_among_comparable": 0.6714,
+   "pick_share": {
+    "A": 0.0,
+    "B": 0.0,
+    "C": 1.0
+   },
+   "gap_rel_median_when_wrong": 0.0795
+  },
+  "最初の1か月で比べる": {
+   "match": 0.5142,
+   "not_comparable": 0.2871,
+   "match_among_comparable": 0.7212,
+   "pick_share": {
+    "A": 0.1456,
+    "B": 0.01,
+    "C": 0.5574
+   },
+   "gap_rel_median_when_wrong": 0.0418
+  },
+  "平均の月で比べる": {
+   "match": 0.0373,
+   "not_comparable": 0.0,
+   "match_among_comparable": 0.0373,
+   "pick_share": {
+    "A": 0.0,
+    "B": 1.0,
+    "C": 0.0
+   },
+   "gap_rel_median_when_wrong": 0.0507
+  }
+ },
+ "gross_quantiles": {
+  "0.1": 131000.0,
+  "0.25": 283000.0,
+  "0.5": 522000.0,
+  "0.75": 866000.0,
+  "0.9": 1272000.0
+ },
+ "share_zero_gross": 0.019,
+ "months_with_pay_median": 9.0,
+ "by_gross_band": [
+  {
+   "gross_band": "15万円未満",
+   "people": 578,
+   "net_ratio_A_median": 0.8341,
+   "best_share_A": 0.9896,
+   "net_ratio_B_median": 0.8,
+   "best_share_B": 0.0104,
+   "net_ratio_C_median": 0.5229,
+   "best_share_C": 0.0,
+   "match_率だけで比べる": 0.0,
+   "match_最初の1か月で比べる": 0.1332,
+   "match_平均の月で比べる": 0.0104
+  },
+  {
+   "gross_band": "15〜30万円",
+   "people": 754,
+   "net_ratio_A_median": 0.8373,
+   "best_share_A": 0.8634,
+   "net_ratio_B_median": 0.809,
+   "best_share_B": 0.1366,
+   "net_ratio_C_median": 0.7858,
+   "best_share_C": 0.0,
+   "match_率だけで比べる": 0.0,
+   "match_最初の1か月で比べる": 0.1578,
+   "match_平均の月で比べる": 0.1366
+  },
+  {
+   "gross_band": "30〜60万円",
+   "people": 1459,
+   "net_ratio_A_median": 0.8404,
+   "best_share_A": 0.1412,
+   "net_ratio_B_median": 0.8233,
+   "best_share_B": 0.0507,
+   "net_ratio_C_median": 0.8628,
+   "best_share_C": 0.8081,
+   "match_率だけで比べる": 0.8081,
+   "match_最初の1か月で比べる": 0.4537,
+   "match_平均の月で比べる": 0.0507
+  },
+  {
+   "gross_band": "60〜120万円",
+   "people": 1531,
+   "net_ratio_A_median": 0.8435,
+   "best_share_A": 0.0,
+   "net_ratio_B_median": 0.8302,
+   "best_share_B": 0.0,
+   "net_ratio_C_median": 0.9023,
+   "best_share_C": 1.0,
+   "match_率だけで比べる": 1.0,
+   "match_最初の1か月で比べる": 0.7387,
+   "match_平均の月で比べる": 0.0
+  },
+  {
+   "gross_band": "120万円以上",
+   "people": 583,
+   "net_ratio_A_median": 0.8462,
+   "best_share_A": 0.0,
+   "net_ratio_B_median": 0.8332,
+   "best_share_B": 0.0,
+   "net_ratio_C_median": 0.9242,
+   "best_share_C": 1.0,
+   "match_率だけで比べる": 1.0,
+   "match_最初の1か月で比べる": 0.9142,
+   "match_平均の月で比べる": 0.0
+  }
+ ],
+ "fee_ratio_total_vs_monthly": {
+  "A": {
+   "fee_ratio_total_median": 0.1584,
+   "fee_ratio_monthly_mean_median": 0.1629,
+   "share_monthly_mean_lower": 0.0
+  },
+  "B": {
+   "fee_ratio_total_median": 0.1758,
+   "fee_ratio_monthly_mean_median": 0.1773,
+   "share_monthly_mean_lower": 0.3812
+  },
+  "C": {
+   "fee_ratio_total_median": 0.1244,
+   "fee_ratio_monthly_mean_median": 0.135,
+   "share_monthly_mean_lower": 0.3845
+  }
+ },
+ "half_year_compare": [
+  {
+   "start_empty": false,
+   "people": 4351,
+   "agree": 0.5247,
+   "seen_c_better": 0.5098,
+   "true_c_better": 0.758,
+   "gross_h2_over_h1_median": 0.9855
+  },
+  {
+   "start_empty": true,
+   "people": 4036,
+   "agree": 0.6316,
+   "seen_c_better": 0.666,
+   "true_c_better": 0.6955,
+   "gross_h2_over_h1_median": 1.4201
+  }
+ ],
+ "grid_ranges": {
+  "match_率だけで比べる": [
+   0.0719,
+   0.9418
+  ],
+  "match_最初の1か月で比べる": [
+   0.2561,
+   0.8357
+  ],
+  "match_平均の月で比べる": [
+   0.0052,
+   0.957
+  ],
+  "truth_A": [
+   0.039,
+   0.9209
+  ],
+  "truth_B": [
+   0.0,
+   0.5054
+  ],
+  "truth_C": [
+   0.0719,
+   0.9418
+  ]
+ },
+ "one_person": {
+  "gross": 512000.0,
+  "fee_A": 82300.0,
+  "fee_B": 86300.0,
+  "fee_C": 64900.0,
+  "months_with_pay": 11,
+  "clients": 5
+ }
+}

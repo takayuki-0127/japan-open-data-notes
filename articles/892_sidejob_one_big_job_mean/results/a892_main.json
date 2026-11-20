@@ -1,0 +1,100 @@
+{
+ "settings_base": {
+  "ordinary_median": 8.0,
+  "ordinary_sd_log": 0.25,
+  "ordinary_expected": 8.254,
+  "big_p_per_month": 0.0417,
+  "big_median": 40.0,
+  "big_sd_log": 0.5,
+  "example_big": 60.0,
+  "n_sim": 20000
+ },
+ "example": {
+  "year1_mean_without_big": 8.058,
+  "year1_mean_with_big": 13.058,
+  "year1_median_with_big": 9.034,
+  "year1_trim_max_mean": 8.296,
+  "big_share_of_year1_total": 0.3829,
+  "months_below_year1_mean": 11,
+  "year2_mean": 8.263,
+  "year2_vs_year1_mean_change": -0.3672,
+  "year2_vs_year1_ordinary_change": 0.0254,
+  "roll3_max": 28.124,
+  "roll3_months_ge_1_5x_ordinary_median": 3,
+  "roll12_months_ge_1_2x_ordinary_median": 6,
+  "june_vs_next_june_change": -0.8402,
+  "year1_ordinary_median": 8.322
+ },
+ "forecast_base": {
+  "share_prev_year_with_big": 0.396,
+  "share_next_year_with_big": 0.395,
+  "平均|all|mape": 0.2888,
+  "平均|all|over20": 0.27,
+  "平均|all|under20": 0.2682,
+  "平均|all|bias_mean_ratio": 1.0004,
+  "平均|all|over20_if_prev_big": 0.646,
+  "平均|ord|mape": 0.2804,
+  "平均|ord|over20": 0.3752,
+  "平均|ord|under20": 0.0244,
+  "平均|ord|bias_mean_ratio": 1.2257,
+  "平均|ord|over20_if_prev_big": 0.8891,
+  "中央値|all|mape": 0.1917,
+  "中央値|all|over20": 0.0286,
+  "中央値|all|under20": 0.397,
+  "中央値|all|bias_mean_ratio": 0.8066,
+  "中央値|all|over20_if_prev_big": 0.0437,
+  "中央値|ord|mape": 0.0932,
+  "中央値|ord|over20": 0.0466,
+  "中央値|ord|under20": 0.0707,
+  "中央値|ord|bias_mean_ratio": 0.9883,
+  "中央値|ord|over20_if_prev_big": 0.0706,
+  "いちばん多い月を除いた平均|all|mape": 0.2041,
+  "いちばん多い月を除いた平均|all|over20": 0.0604,
+  "いちばん多い月を除いた平均|all|under20": 0.3851,
+  "いちばん多い月を除いた平均|all|bias_mean_ratio": 0.8243,
+  "いちばん多い月を除いた平均|all|over20_if_prev_big": 0.1391,
+  "いちばん多い月を除いた平均|ord|mape": 0.116,
+  "いちばん多い月を除いた平均|ord|over20": 0.0919,
+  "いちばん多い月を除いた平均|ord|under20": 0.0687,
+  "いちばん多い月を除いた平均|ord|bias_mean_ratio": 1.0099,
+  "いちばん多い月を除いた平均|ord|over20_if_prev_big": 0.211
+ },
+ "robustness_best": {
+  "基本（2年に1回・中央値40万円・ふだんの上下0.25）": {
+   "best_for_all": "中央値",
+   "best_for_ord": "中央値"
+  },
+  "単発なし": {
+   "best_for_all": "平均",
+   "best_for_ord": "平均"
+  },
+  "4年に1回": {
+   "best_for_all": "中央値",
+   "best_for_ord": "中央値"
+  },
+  "1年に1回": {
+   "best_for_all": "中央値",
+   "best_for_ord": "中央値"
+  },
+  "半年に1回": {
+   "best_for_all": "いちばん多い月を除いた平均",
+   "best_for_ord": "中央値"
+  },
+  "大きさ中央値20万円": {
+   "best_for_all": "中央値",
+   "best_for_ord": "中央値"
+  },
+  "大きさ中央値80万円": {
+   "best_for_all": "中央値",
+   "best_for_ord": "中央値"
+  },
+  "ふだんの上下0.10": {
+   "best_for_all": "中央値",
+   "best_for_ord": "中央値"
+  },
+  "ふだんの上下0.40": {
+   "best_for_all": "中央値",
+   "best_for_ord": "中央値"
+  }
+ }
+}

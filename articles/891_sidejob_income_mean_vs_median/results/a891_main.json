@@ -1,0 +1,94 @@
+{
+ "settings_base": {
+  "level_median": 3.0,
+  "sd_person": 1.0,
+  "sd_month": 0.5,
+  "p_zero": 0.15
+ },
+ "one_month_1000": {
+  "mean": 4.717,
+  "median": 2.335,
+  "ratio_mean_median": 2.02,
+  "share_below_mean": 0.709,
+  "top10_share_of_total": 0.47,
+  "share_zero": 0.152
+ },
+ "one_month_1000_paid_only": {
+  "mean": 5.562,
+  "median": 3.072,
+  "ratio_mean_median": 1.81,
+  "share_below_mean": 0.7241,
+  "top10_share_of_total": 0.431,
+  "share_zero": 0.0,
+  "n": 848
+ },
+ "yearly_avg_per_person_1000": {
+  "mean": 4.813,
+  "median": 2.859,
+  "ratio_mean_median": 1.683,
+  "share_below_mean": 0.694,
+  "top10_share_of_total": 0.3937,
+  "share_zero": 0.0
+ },
+ "person_12months": {
+  "share_months_below_own_mean": 0.5383,
+  "median_ratio_own_mean_to_own_median": 1.054,
+  "share_people_own_mean_ge_1_2x_own_median": 0.181
+ },
+ "population_200000": {
+  "mean": 4.782,
+  "median": 2.339,
+  "ratio_mean_median": 2.045,
+  "share_below_mean": 0.7115,
+  "top10_share_of_total": 0.473,
+  "share_zero": 0.1502
+ },
+ "small_sample_10000draws": {
+  "10": {
+   "mean_p10_ratio": 0.472,
+   "mean_p90_ratio": 1.637,
+   "median_p10_ratio": 0.504,
+   "median_p90_ratio": 1.894,
+   "share_mean_off_30pct": 0.5177,
+   "share_median_off_30pct": 0.5431,
+   "share_sample_mean_ge_2x_pop_median": 0.4148,
+   "share_sample_mean_below_pop_mean": 0.6057
+  },
+  "20": {
+   "mean_p10_ratio": 0.593,
+   "mean_p90_ratio": 1.477,
+   "median_p10_ratio": 0.613,
+   "median_p90_ratio": 1.576,
+   "share_mean_off_30pct": 0.3882,
+   "share_median_off_30pct": 0.4014,
+   "share_sample_mean_ge_2x_pop_median": 0.4336,
+   "share_sample_mean_below_pop_mean": 0.5905
+  },
+  "50": {
+   "mean_p10_ratio": 0.722,
+   "mean_p90_ratio": 1.317,
+   "median_p10_ratio": 0.732,
+   "median_p90_ratio": 1.34,
+   "share_mean_off_30pct": 0.1887,
+   "share_median_off_30pct": 0.1993,
+   "share_sample_mean_ge_2x_pop_median": 0.483,
+   "share_sample_mean_below_pop_mean": 0.5573
+  },
+  "200": {
+   "mean_p10_ratio": 0.849,
+   "mean_p90_ratio": 1.163,
+   "median_p10_ratio": 0.856,
+   "median_p90_ratio": 1.162,
+   "share_mean_off_30pct": 0.0222,
+   "share_median_off_30pct": 0.0158,
+   "share_sample_mean_ge_2x_pop_median": 0.5374,
+   "share_sample_mean_below_pop_mean": 0.5379
+  }
+ },
+ "robustness_range": {
+  "ratio_min": 1.361,
+  "ratio_max": 4.829,
+  "below_min": 0.631,
+  "below_max": 0.7836
+ }
+}

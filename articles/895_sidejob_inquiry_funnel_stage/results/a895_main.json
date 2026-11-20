@@ -1,0 +1,338 @@
+{
+ "true_rates": {
+  "問い合わせ→返信": 0.6,
+  "返信→打ち合わせ": 0.5,
+  "打ち合わせ→見積もり": 0.85,
+  "見積もり→契約": 0.55
+ },
+ "lag_days_mean": {
+  "問い合わせ→返信": 2.0,
+  "返信→打ち合わせ": 7.0,
+  "打ち合わせ→見積もり": 5.0,
+  "見積もり→契約": 15.0
+ },
+ "per_100_inquiries": [
+  100.0,
+  60.0,
+  30.0,
+  25.5,
+  14.03
+ ],
+ "drop_per_100": [
+  40.0,
+  30.0,
+  4.5,
+  11.47
+ ],
+ "overall_true": 0.1403,
+ "base_cases": [
+  {
+   "vol": 5,
+   "trend": "steady",
+   "p_last": 0.55,
+   "lag_scale": 1.0,
+   "hit_0": 0.4625,
+   "computable_0": 0.9998,
+   "pick_last_0": 0.3897,
+   "hit_1": 0.4445,
+   "computable_1": 0.9995,
+   "pick_last_1": 0.4432,
+   "hit_2": 0.442,
+   "computable_2": 0.9945,
+   "pick_last_2": 0.389,
+   "hit_countdrop": 0.2273,
+   "countdrop_mode": 0,
+   "estimates": {
+    "同じ月の件数で割る": [
+     0.5997,
+     0.5014,
+     0.852,
+     0.5529
+    ],
+    "問い合わせの月で追う（すぐ数える）": [
+     0.5928,
+     0.4803,
+     0.8243,
+     0.4935
+    ],
+    "問い合わせの月で追う（60日待つ）": [
+     0.5984,
+     0.4998,
+     0.85,
+     0.5407
+    ]
+   }
+  },
+  {
+   "vol": 15,
+   "trend": "steady",
+   "p_last": 0.55,
+   "lag_scale": 1.0,
+   "hit_0": 0.5948,
+   "computable_0": 1.0,
+   "pick_last_0": 0.342,
+   "hit_1": 0.5282,
+   "computable_1": 1.0,
+   "pick_last_1": 0.4358,
+   "hit_2": 0.5675,
+   "computable_2": 1.0,
+   "pick_last_2": 0.3535,
+   "hit_countdrop": 0.1202,
+   "countdrop_mode": 0,
+   "estimates": {
+    "同じ月の件数で割る": [
+     0.6005,
+     0.4996,
+     0.8509,
+     0.554
+    ],
+    "問い合わせの月で追う（すぐ数える）": [
+     0.5933,
+     0.4806,
+     0.8249,
+     0.5014
+    ],
+    "問い合わせの月で追う（60日待つ）": [
+     0.5995,
+     0.4996,
+     0.8508,
+     0.549
+    ]
+   }
+  },
+  {
+   "vol": 50,
+   "trend": "steady",
+   "p_last": 0.55,
+   "lag_scale": 1.0,
+   "hit_0": 0.742,
+   "computable_0": 1.0,
+   "pick_last_0": 0.2497,
+   "hit_1": 0.6055,
+   "computable_1": 1.0,
+   "pick_last_1": 0.3915,
+   "hit_2": 0.701,
+   "computable_2": 1.0,
+   "pick_last_2": 0.2818,
+   "hit_countdrop": 0.0215,
+   "countdrop_mode": 0,
+   "estimates": {
+    "同じ月の件数で割る": [
+     0.6003,
+     0.4991,
+     0.8506,
+     0.5495
+    ],
+    "問い合わせの月で追う（すぐ数える）": [
+     0.5937,
+     0.4794,
+     0.825,
+     0.4995
+    ],
+    "問い合わせの月で追う（60日待つ）": [
+     0.6008,
+     0.499,
+     0.8493,
+     0.5449
+    ]
+   }
+  },
+  {
+   "vol": 15,
+   "trend": "growth",
+   "p_last": 0.55,
+   "lag_scale": 1.0,
+   "hit_0": 0.547,
+   "computable_0": 1.0,
+   "pick_last_0": 0.4325,
+   "hit_1": 0.51,
+   "computable_1": 1.0,
+   "pick_last_1": 0.4738,
+   "hit_2": 0.558,
+   "computable_2": 1.0,
+   "pick_last_2": 0.3553,
+   "hit_countdrop": 0.1072,
+   "countdrop_mode": 0,
+   "estimates": {
+    "同じ月の件数で割る": [
+     0.5934,
+     0.4765,
+     0.8229,
+     0.5005
+    ],
+    "問い合わせの月で追う（すぐ数える）": [
+     0.5907,
+     0.4685,
+     0.8119,
+     0.4776
+    ],
+    "問い合わせの月で追う（60日待つ）": [
+     0.6021,
+     0.4993,
+     0.8517,
+     0.5466
+    ]
+   }
+  }
+ ],
+ "monthly_15_steady": {
+  "monthly_last_step_p10": 0.0,
+  "monthly_last_step_p90": 1.25,
+  "monthly_last_step_nan_share": 0.009,
+  "monthly_weakest_hit": 0.406
+ },
+ "grid_summary": {
+  "同じ月の件数で割る": {
+   "hit_min": 0.3327,
+   "hit_max": 0.9813,
+   "bias_last_min": -0.1145,
+   "bias_last_max": 0.0162,
+   "max_abs_bias_any_step": 0.1145
+  },
+  "問い合わせの月で追う（すぐ数える）": {
+   "hit_min": 0.1793,
+   "hit_max": 0.972,
+   "bias_last_min": -0.1709,
+   "bias_last_max": -0.0158,
+   "max_abs_bias_any_step": 0.1709
+  },
+  "問い合わせの月で追う（60日待つ）": {
+   "hit_min": 0.318,
+   "hit_max": 0.938,
+   "bias_last_min": -0.0768,
+   "bias_last_max": 0.0114,
+   "max_abs_bias_any_step": 0.0768
+  },
+  "countdrop_hit_max": 0.2453,
+  "countdrop_hit_by_p_last": [
+   {
+    "p_last": 0.52,
+    "min": 0.012,
+    "max": 0.2453
+   },
+   {
+    "p_last": 0.55,
+    "min": 0.0107,
+    "max": 0.238
+   },
+   {
+    "p_last": 0.65,
+    "min": 0.0113,
+    "max": 0.2393
+   }
+  ],
+  "immediate_lt_settle_count": 29,
+  "immediate_lt_samemonth_count": 52,
+  "hit_by_p_last": {
+   "0.52": {
+    "hit_0_min": 0.3327,
+    "hit_0_max": 0.596,
+    "hit_1_min": 0.1793,
+    "hit_1_max": 0.5267,
+    "hit_2_min": 0.318,
+    "hit_2_max": 0.584,
+    "hit_countdrop_min": 0.012,
+    "hit_countdrop_max": 0.2453
+   },
+   "0.55": {
+    "hit_0_min": 0.4147,
+    "hit_0_max": 0.7567,
+    "hit_1_min": 0.2993,
+    "hit_1_max": 0.7047,
+    "hit_2_min": 0.374,
+    "hit_2_max": 0.7187,
+    "hit_countdrop_min": 0.0107,
+    "hit_countdrop_max": 0.238
+   },
+   "0.65": {
+    "hit_0_min": 0.5413,
+    "hit_0_max": 0.9813,
+    "hit_1_min": 0.506,
+    "hit_1_max": 0.972,
+    "hit_2_min": 0.472,
+    "hit_2_max": 0.938,
+    "hit_countdrop_min": 0.0113,
+    "hit_countdrop_max": 0.2393
+   }
+  },
+  "last_step_bias_by_lag_trend": {
+   "lag0.5_growth": {
+    "bias_0_min": -0.0326,
+    "bias_0_max": -0.0177,
+    "bias_1_min": -0.0466,
+    "bias_1_max": -0.0288,
+    "bias_2_min": -0.007,
+    "bias_2_max": 0.0114
+   },
+   "lag0.5_steady": {
+    "bias_0_min": -0.0031,
+    "bias_0_max": 0.0142,
+    "bias_1_min": -0.0328,
+    "bias_1_max": -0.0158,
+    "bias_2_min": -0.0044,
+    "bias_2_max": 0.0062
+   },
+   "lag1.0_growth": {
+    "bias_0_min": -0.0602,
+    "bias_0_max": -0.0454,
+    "bias_1_min": -0.0873,
+    "bias_1_max": -0.0683,
+    "bias_2_min": -0.0155,
+    "bias_2_max": 0.0012
+   },
+   "lag1.0_steady": {
+    "bias_0_min": -0.0017,
+    "bias_0_max": 0.0162,
+    "bias_1_min": -0.0613,
+    "bias_1_max": -0.0434,
+    "bias_2_min": -0.0059,
+    "bias_2_max": 0.0067
+   },
+   "lag2.0_growth": {
+    "bias_0_min": -0.1145,
+    "bias_0_max": -0.081,
+    "bias_1_min": -0.1709,
+    "bias_1_max": -0.1335,
+    "bias_2_min": -0.0768,
+    "bias_2_max": -0.0579
+   },
+   "lag2.0_steady": {
+    "bias_0_min": -0.0156,
+    "bias_0_max": 0.0086,
+    "bias_1_min": -0.1269,
+    "bias_1_max": -0.1013,
+    "bias_2_min": -0.0629,
+    "bias_2_max": -0.0477
+   }
+  },
+  "growth_sameMonth_last_bias": {
+   "min": -0.1145,
+   "max": -0.0177
+  },
+  "steady_sameMonth_last_bias": {
+   "min": -0.0156,
+   "max": 0.0162
+  },
+  "hit_by_vol": {
+   "hit_0|min|5": 0.3867,
+   "hit_0|min|15": 0.3907,
+   "hit_0|min|50": 0.3327,
+   "hit_0|max|5": 0.634,
+   "hit_0|max|15": 0.816,
+   "hit_0|max|50": 0.9813,
+   "hit_1|min|5": 0.3487,
+   "hit_1|min|15": 0.302,
+   "hit_1|min|50": 0.1793,
+   "hit_1|max|5": 0.6267,
+   "hit_1|max|15": 0.8073,
+   "hit_1|max|50": 0.972,
+   "hit_2|min|5": 0.3387,
+   "hit_2|min|15": 0.3507,
+   "hit_2|min|50": 0.318,
+   "hit_2|max|5": 0.5613,
+   "hit_2|max|15": 0.744,
+   "hit_2|max|50": 0.938
+  }
+ },
+ "grid_n": 54
+}
