@@ -1,0 +1,202 @@
+{
+ "base_rho075_poisson_2000days": [
+  {
+   "dist": "全員4分",
+   "service_cv": 0.0,
+   "customers": 180605,
+   "mean_wait": 5.79,
+   "median_wait": 3.57,
+   "p90_wait": 14.99,
+   "share_wait_ge_15": 0.0998,
+   "share_no_wait": 0.2591,
+   "mean_service": 4.0
+  },
+  {
+   "dist": "ばらつき小",
+   "service_cv": 0.5,
+   "customers": 180074,
+   "mean_wait": 6.86,
+   "median_wait": 4.05,
+   "p90_wait": 18.0,
+   "share_wait_ge_15": 0.1419,
+   "share_no_wait": 0.2654,
+   "mean_service": 3.999
+  },
+  {
+   "dist": "ばらつき中",
+   "service_cv": 1.0,
+   "customers": 179829,
+   "mean_wait": 10.72,
+   "median_wait": 5.49,
+   "p90_wait": 29.02,
+   "share_wait_ge_15": 0.2603,
+   "share_no_wait": 0.2739,
+   "mean_service": 4.003
+  },
+  {
+   "dist": "1割が17.5分",
+   "service_cv": 1.165,
+   "customers": 179978,
+   "mean_wait": 12.11,
+   "median_wait": 4.63,
+   "p90_wait": 33.92,
+   "share_wait_ge_15": 0.3077,
+   "share_no_wait": 0.2784,
+   "mean_service": 4.012,
+   "mean_wait_short_errand": 12.11,
+   "mean_wait_long_errand": 12.09,
+   "short_errand_service": 2.5
+  },
+  {
+   "dist": "20人に1人が42分",
+   "service_cv": 2.232,
+   "customers": 180449,
+   "mean_wait": 25.12,
+   "median_wait": 4.31,
+   "p90_wait": 74.04,
+   "share_wait_ge_15": 0.429,
+   "share_no_wait": 0.316,
+   "mean_service": 4.003,
+   "mean_wait_short_errand": 25.07,
+   "mean_wait_long_errand": 25.98,
+   "short_errand_service": 2.0
+  }
+ ],
+ "base_ratio_mix5_to_const": 4.34,
+ "base_ratio_exp_to_const": 1.85,
+ "base_median_min": 3.57,
+ "base_median_max": 5.49,
+ "sensitivity": {
+  "settings": 9,
+  "order_same_in_all": true,
+  "order_same_count": 9,
+  "mix5_ratio_to_const_min": 1.94,
+  "mix5_ratio_to_const_max": 30.28,
+  "exp_ratio_to_const_min": 1.21,
+  "exp_ratio_to_const_max": 6.88
+ },
+ "steady_vs_formula": [
+  {
+   "rho": 0.6,
+   "dist": "全員4分",
+   "service_cv": 0.0,
+   "sim_mean_wait": 3.0,
+   "formula_mean_wait": 3.0,
+   "sim_over_formula": 1.0
+  },
+  {
+   "rho": 0.6,
+   "dist": "ばらつき小",
+   "service_cv": 0.5,
+   "sim_mean_wait": 3.75,
+   "formula_mean_wait": 3.75,
+   "sim_over_formula": 1.0
+  },
+  {
+   "rho": 0.6,
+   "dist": "ばらつき中",
+   "service_cv": 1.0,
+   "sim_mean_wait": 6.01,
+   "formula_mean_wait": 6.0,
+   "sim_over_formula": 1.002
+  },
+  {
+   "rho": 0.6,
+   "dist": "1割が17.5分",
+   "service_cv": 1.165,
+   "sim_mean_wait": 7.08,
+   "formula_mean_wait": 7.07,
+   "sim_over_formula": 1.001
+  },
+  {
+   "rho": 0.6,
+   "dist": "20人に1人が42分",
+   "service_cv": 2.232,
+   "sim_mean_wait": 17.95,
+   "formula_mean_wait": 17.94,
+   "sim_over_formula": 1.001
+  },
+  {
+   "rho": 0.75,
+   "dist": "全員4分",
+   "service_cv": 0.0,
+   "sim_mean_wait": 6.01,
+   "formula_mean_wait": 6.0,
+   "sim_over_formula": 1.002
+  },
+  {
+   "rho": 0.75,
+   "dist": "ばらつき小",
+   "service_cv": 0.5,
+   "sim_mean_wait": 7.43,
+   "formula_mean_wait": 7.5,
+   "sim_over_formula": 0.991
+  },
+  {
+   "rho": 0.75,
+   "dist": "ばらつき中",
+   "service_cv": 1.0,
+   "sim_mean_wait": 12.02,
+   "formula_mean_wait": 12.0,
+   "sim_over_formula": 1.002
+  },
+  {
+   "rho": 0.75,
+   "dist": "1割が17.5分",
+   "service_cv": 1.165,
+   "sim_mean_wait": 14.16,
+   "formula_mean_wait": 14.14,
+   "sim_over_formula": 1.001
+  },
+  {
+   "rho": 0.75,
+   "dist": "20人に1人が42分",
+   "service_cv": 2.232,
+   "sim_mean_wait": 36.05,
+   "formula_mean_wait": 35.88,
+   "sim_over_formula": 1.005
+  },
+  {
+   "rho": 0.9,
+   "dist": "全員4分",
+   "service_cv": 0.0,
+   "sim_mean_wait": 18.12,
+   "formula_mean_wait": 18.0,
+   "sim_over_formula": 1.007
+  },
+  {
+   "rho": 0.9,
+   "dist": "ばらつき小",
+   "service_cv": 0.5,
+   "sim_mean_wait": 22.8,
+   "formula_mean_wait": 22.5,
+   "sim_over_formula": 1.013
+  },
+  {
+   "rho": 0.9,
+   "dist": "ばらつき中",
+   "service_cv": 1.0,
+   "sim_mean_wait": 35.82,
+   "formula_mean_wait": 36.0,
+   "sim_over_formula": 0.995
+  },
+  {
+   "rho": 0.9,
+   "dist": "1割が17.5分",
+   "service_cv": 1.165,
+   "sim_mean_wait": 42.24,
+   "formula_mean_wait": 42.41,
+   "sim_over_formula": 0.996
+  },
+  {
+   "rho": 0.9,
+   "dist": "20人に1人が42分",
+   "service_cv": 2.232,
+   "sim_mean_wait": 109.98,
+   "formula_mean_wait": 107.64,
+   "sim_over_formula": 1.022
+  }
+ ],
+ "steady_sim_over_formula_min": 0.991,
+ "steady_sim_over_formula_max": 1.022
+}
