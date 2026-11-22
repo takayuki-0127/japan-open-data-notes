@@ -2,7 +2,7 @@
 
 看板記事 F202。深いシリーズ A「最低賃金と働き方」の後編です。前編は [F201](../F201_minimum_wage_series_part1/)（note の下書き key：na914898fa082）。
 
-note の記事：（公開後に記入）
+note の記事：https://note.com/takayukimatsuura/n/n4d1c71e27d4e
 
 ## 前編のまとめ（3行）
 
