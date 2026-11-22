@@ -1,0 +1,113 @@
+{
+ "settings": {
+  "items": 100,
+  "cut": 60,
+  "mean_pts": 55.0,
+  "day_pts": 3.0,
+  "sd": 13.0,
+  "b": 0.25,
+  "gain": 5.0,
+  "retake_prob_at_59": 0.7,
+  "gain_sd": 2.0,
+  "n_people": 2000000,
+  "n_grid": 400000,
+  "seed": 932,
+  "retake_prob_at": {
+   "59": 0.7,
+   "55": 0.4619,
+   "50": 0.1974,
+   "45": 0.0658,
+   "40": 0.0198,
+   "30": 0.0017
+  }
+ },
+ "base": {
+  "sd": 13.0,
+  "b": 0.25,
+  "gain": 5.0,
+  "everyone_retakes": false,
+  "first_pass_rate": 0.3874,
+  "retake_share_of_failers": 0.2164,
+  "second_pass_rate": 0.5111,
+  "retaker_first_score_mean": 54.3939,
+  "retaker_true_mean": 54.5304,
+  "retaker_true_ge_cut": 0.1977,
+  "retaker_true_minus_first_score": 0.1365,
+  "failer_true_mean": 47.4753,
+  "nonretaker_true_mean": 45.5268,
+  "diff_second_minus_first_pt": 12.3685
+ },
+ "decomposition": {
+  "first_pass_rate": 0.3874,
+  "all_retake_no_gain": 0.1404,
+  "selected_no_gain": 0.2875,
+  "all_retake_gain": 0.2822,
+  "selected_gain_base": 0.5111,
+  "selection_effect_pt": 14.71,
+  "gain_effect_pt_given_selection": 22.36,
+  "base_minus_all0_pt": 37.07,
+  "first_timers_true_mean": 55.0057,
+  "gain_share_of_base_minus_all0": 0.6031
+ },
+ "grid45_ranges": {
+  "diff_second_minus_first_pt": [
+   -31.7092,
+   24.9657
+  ],
+  "diff_when_gain0": [
+   -31.7092,
+   0.1855
+  ],
+  "n_higher_when_gain0": 1,
+  "n_gain0": 15,
+  "n_higher_all": 15,
+  "n_higher_by_gain": {
+   "0.0": 1,
+   "2.0": 4,
+   "5.0": 10
+  },
+  "higher_when_gain0_cases": [
+   {
+    "sd": 8.0,
+    "b": 0.5,
+    "diff_second_minus_first_pt": 0.1855
+   }
+  ],
+  "lower_when_gain5_cases": [
+   {
+    "sd": 13.0,
+    "b": 0.0,
+    "diff_second_minus_first_pt": -10.6948
+   },
+   {
+    "sd": 13.0,
+    "b": 0.06,
+    "diff_second_minus_first_pt": -5.2496
+   },
+   {
+    "sd": 18.0,
+    "b": 0.0,
+    "diff_second_minus_first_pt": -21.0925
+   },
+   {
+    "sd": 18.0,
+    "b": 0.06,
+    "diff_second_minus_first_pt": -13.6982
+   },
+   {
+    "sd": 18.0,
+    "b": 0.12,
+    "diff_second_minus_first_pt": -5.1444
+   }
+  ],
+  "retaker_true_minus_first_score": [
+   -0.6229,
+   1.8338
+  ],
+  "b0_abs_retaker_minus_nonretaker_true_max": 0.07749999999999346,
+  "retaker_true_ge_cut": [
+   0.0655,
+   0.2895
+  ]
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "settings": {
+  "items": [
+   40,
+   40,
+   20
+  ],
+  "rho": 0.6,
+  "sec_cut": 0.4,
+  "total_cut": 0.6,
+  "mean_pts": 55.0,
+  "sd_pts": 13.0,
+  "day_pts": 3.0,
+  "n_people": 2000000,
+  "n_grid": 400000,
+  "seed": 931
+ },
+ "base": {
+  "items_A": 40,
+  "items_B": 40,
+  "items_C": 20,
+  "rho": 0.6,
+  "sec_cut": 0.4,
+  "total_cut": 0.6,
+  "total_cut_pts": 60,
+  "sec_cut_A": 16,
+  "sec_cut_B": 16,
+  "sec_cut_C": 8,
+  "pass_total_only": 0.3693,
+  "pass_with_cutoff": 0.3622,
+  "drop_pt": 0.7121,
+  "removed_share_of_total_pass": 0.0193,
+  "n_removed": 14242,
+  "n_total_pass_weak": 10832,
+  "removed_fluke_share": 0.8531,
+  "removed_true_total_ge_cut": 0.6045,
+  "removed_true_total_mean": 61.5866,
+  "full_true_total_mean": 65.3539,
+  "removed_pass_next_time": 0.5469,
+  "full_pass_next_time": 0.7298,
+  "weak_any_share_all": 0.2607,
+  "total_pass_weak_share": 0.0147,
+  "total_pass_weak_caught": 0.1953,
+  "full_pass_weak_share": 0.012,
+  "removed_by_A": 0.0711,
+  "removed_by_A_true_ge_cut": 0.836,
+  "removed_by_B": 0.0811,
+  "removed_by_B_true_ge_cut": 0.8372,
+  "removed_by_C": 0.8478,
+  "removed_by_C_true_ge_cut": 0.8561
+ },
+ "grid27_ranges": {
+  "drop_pt": [
+   0.0,
+   8.5985,
+   27
+  ],
+  "removed_share_of_total_pass": [
+   0.0,
+   0.2396,
+   27
+  ],
+  "removed_fluke_share": [
+   0.3965,
+   1.0,
+   23
+  ],
+  "removed_true_total_ge_cut": [
+   0.4881,
+   0.7011,
+   23
+  ],
+  "removed_pass_next_time": [
+   0.3699,
+   0.6228,
+   23
+  ],
+  "total_pass_weak_caught": [
+   0.1419,
+   0.4445,
+   18
+  ],
+  "full_pass_weak_share": [
+   0.0,
+   0.2287,
+   27
+  ]
+ },
+ "grid_sec_cut_0_4_ranges": {
+  "drop_pt": [
+   0.0325,
+   2.5675,
+   9
+  ],
+  "removed_fluke_share": [
+   0.6133,
+   0.9953,
+   8
+  ],
+  "total_pass_weak_caught": [
+   0.1547,
+   0.3227,
+   6
+  ],
+  "removed_pass_next_time": [
+   0.453,
+   0.6031,
+   8
+  ],
+  "removed_share_of_total_pass": [
+   0.0009,
+   0.0718,
+   9
+  ]
+ },
+ "range_note": "[最小, 最大, 値のある通りの数]。足切りで落ちた人などが200人未満の通りは空欄にして範囲に入れない"
+}

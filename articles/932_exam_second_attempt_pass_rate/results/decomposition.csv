@@ -1,0 +1,5 @@
+case,sd,b,gain,everyone_retakes,first_pass_rate,retake_share_of_failers,second_pass_rate,retaker_first_score_mean,retaker_true_mean,retaker_true_ge_cut,retaker_true_minus_first_score,failer_true_mean,nonretaker_true_mean,diff_second_minus_first_pt
+落ちた人全員が受け直す・伸びなし,13.0,0.25,0.0,True,0.3874,1.0,0.1404,46.0591,47.4753,0.0813,1.4162,47.4753,,-24.6989
+合格点に近い人ほど受け直す・伸びなし,13.0,0.25,0.0,False,0.3874,0.2164,0.2875,54.3939,54.5304,0.1977,0.1365,47.4753,45.5268,-9.9877
+落ちた人全員が受け直す・伸び5点,13.0,0.25,5.0,True,0.3874,1.0,0.2822,46.0591,47.4753,0.0813,1.4162,47.4753,,-10.5257
+合格点に近い人ほど受け直す・伸び5点（基本）,13.0,0.25,5.0,False,0.3874,0.2164,0.5111,54.3939,54.5304,0.1977,0.1365,47.4753,45.5268,12.3685

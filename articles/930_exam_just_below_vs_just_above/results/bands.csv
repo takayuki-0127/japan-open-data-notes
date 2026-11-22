@@ -1,0 +1,4 @@
+band_items,fail_range,pass_range,true_fail_band,true_pass_band,gap_true_pts,P_fail_band_higher,retest_pass_fail_band,retest_pass_pass_band
+1,59-59,60-60,58.4084,59.2253,0.817,0.4568,0.4502,0.4915
+3,57-59,60-62,57.5688,60.0905,2.5217,0.3689,0.4092,0.5343
+5,55-59,60-64,56.7223,60.8916,4.1693,0.2932,0.3682,0.5748
