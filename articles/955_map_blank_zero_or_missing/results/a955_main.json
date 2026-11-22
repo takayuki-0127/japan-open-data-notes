@@ -1,0 +1,93 @@
+{
+ "base": {
+  "mean": 4.0,
+  "sigma": 0.9,
+  "thr": 3,
+  "unserved": 3
+ },
+ "reps": 200,
+ "zones": 400,
+ "served_zones": 340,
+ "unserved_zones": 60,
+ "example_town": {
+  "blank_zones": 230,
+  "blank_share_true_zero": 0.1957,
+  "blank_share_suppressed": 0.5435,
+  "blank_share_unserved": 0.2609,
+  "mean_blank_as_zero": 2.825,
+  "mean_blank_as_zero_served_only": 3.3235,
+  "mean_blank_dropped": 6.6471,
+  "mean_true_served": 3.8412,
+  "mean_potential_all": 4.0829,
+  "zero_share_read_from_map": 0.575,
+  "zero_share_true_served": 0.1324,
+  "true_zero_next_ge1": 0.5333,
+  "served_blank_next_shown": 0.3059,
+  "true_zero_next_ge3": 0.1778,
+  "true_zero_zones": 45,
+  "lam_lt_0_5_share_of_true_zero": 0.1778,
+  "unserved_potential_share": 0.1586,
+  "blank_true_zero": 45,
+  "blank_suppressed": 125,
+  "blank_unserved": 60,
+  "shown_zones": 170,
+  "orders_total_served": 1306
+ },
+ "summary_200_towns": {
+  "blank_zones": 224.645,
+  "blank_share_true_zero": 0.225,
+  "blank_share_suppressed": 0.5075,
+  "blank_share_unserved": 0.2675,
+  "mean_blank_as_zero": 2.991,
+  "mean_blank_as_zero_served_only": 3.5189,
+  "mean_blank_dropped": 6.8219,
+  "mean_true_served": 4.0093,
+  "mean_potential_all": 3.988,
+  "zero_share_read_from_map": 0.5616,
+  "zero_share_true_served": 0.1487,
+  "true_zero_next_ge1": 0.6296,
+  "served_blank_next_shown": 0.2671,
+  "true_zero_next_ge3": 0.148,
+  "true_zero_zones": 50.565,
+  "lam_lt_0_5_share_of_true_zero": 0.1448,
+  "unserved_potential_share": 0.1478,
+  "blank_share_true_zero_p10": 0.1935,
+  "blank_share_true_zero_p90": 0.2579,
+  "mean_blank_as_zero_p10": 2.695,
+  "mean_blank_as_zero_p90": 3.2927,
+  "mean_blank_dropped_p10": 6.319,
+  "mean_blank_dropped_p90": 7.3263,
+  "true_zero_next_ge1_p10": 0.5436,
+  "true_zero_next_ge1_p90": 0.7146,
+  "bias_blank_as_zero_vs_served_pct": -25.5,
+  "bias_blank_as_zero_served_only_vs_served_pct": -12.3,
+  "bias_blank_dropped_vs_served_pct": 70.4,
+  "bias_blank_as_zero_vs_potential_pct": -25.0,
+  "bias_blank_dropped_vs_potential_pct": 71.2
+ },
+ "formula_blank_share_true_zero": 0.224,
+ "formula_true_zero_share_served": 0.1485,
+ "robustness": {
+  "combos": 29,
+  "blank_share_true_zero_range_thr_gt1_uns_gt0": [
+   0.0651,
+   0.3339
+  ],
+  "blank_share_true_zero_range_all": [
+   0.0651,
+   1.0
+  ],
+  "bias_blank_as_zero_range_all": [
+   -70.8,
+   0.0
+  ],
+  "bias_blank_dropped_range_all": [
+   5.6,
+   281.7
+  ],
+  "true_zero_next_ge1_range_all": [
+   0.4397,
+   0.8656
+  ]
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "settings_base": {
+  "n": 1000,
+  "fixed_median": 5.0,
+  "fixed_sd": 0.5,
+  "speed": 400.0,
+  "center_speed": 200.0,
+  "travel_sd": 0.15,
+  "dest_center_share": 0.5,
+  "depot": "西南寄り"
+ },
+ "center": [
+  3500.0,
+  3500.0
+ ],
+ "center_radius_m": 1200.0,
+ "depots": {
+  "西南寄り": [
+   1500.0,
+   1500.0
+  ],
+  "真ん中": [
+   3000.0,
+   3000.0
+  ]
+ },
+ "base": {
+  "n_train": 1000,
+  "n_test": 1000,
+  "rate_min_per_km": 5.488,
+  "linear_intercept_min": 5.802,
+  "linear_slope_min_per_km": 3.508,
+  "fixed_mean_set": 5.569,
+  "fixed_mean_formula": 5.666,
+  "ratio_2km_1km": 1.3205,
+  "fixed_share_all": 0.3472,
+  "road_over_straight": 1.3112,
+  "same_distance_2500_3500": {
+   "n_through": 306,
+   "n_not": 401,
+   "mean_through": 18.63,
+   "mean_not": 15.08
+  },
+  "test_eval": {
+   "比例（1kmあたり◯分）": {
+    "mae_min": 3.6234,
+    "bias_0_500": -0.757,
+    "bias_500_1000": -0.4831,
+    "bias_1000_2000": -0.2316,
+    "bias_2000_3000": -0.0412,
+    "bias_3000_4000": 0.0544,
+    "bias_4000_9000": 0.2229
+   },
+   "直線（決まった時間＋1kmあたり◯分）": {
+    "mae_min": 2.999,
+    "bias_0_500": -0.0602,
+    "bias_500_1000": 0.0244,
+    "bias_1000_2000": 0.0214,
+    "bias_2000_3000": 0.0096,
+    "bias_3000_4000": -0.0048,
+    "bias_4000_9000": 0.0655
+   },
+   "道のり＋混む区域": {
+    "mae_min": 2.6158,
+    "bias_0_500": -0.0926,
+    "bias_500_1000": -0.0249,
+    "bias_1000_2000": -0.0241,
+    "bias_2000_3000": 0.0165,
+    "bias_3000_4000": 0.0087,
+    "bias_4000_9000": 0.0245
+   }
+  }
+ },
+ "distance_bands": [
+  {
+   "band_m": "0〜500",
+   "n": 19,
+   "mean_min": 7.61,
+   "fixed_share": 0.8435,
+   "min_per_km": 23.24
+  },
+  {
+   "band_m": "500〜1000",
+   "n": 73,
+   "mean_min": 8.69,
+   "fixed_share": 0.7036,
+   "min_per_km": 11.02
+  },
+  {
+   "band_m": "1000〜2000",
+   "n": 308,
+   "mean_min": 10.66,
+   "fixed_share": 0.5224,
+   "min_per_km": 6.92
+  },
+  {
+   "band_m": "2000〜3000",
+   "n": 604,
+   "mean_min": 14.78,
+   "fixed_share": 0.3723,
+   "min_per_km": 5.81
+  },
+  {
+   "band_m": "3000〜4000",
+   "n": 626,
+   "mean_min": 18.28,
+   "fixed_share": 0.3078,
+   "min_per_km": 5.28
+  },
+  {
+   "band_m": "4000〜9000",
+   "n": 370,
+   "mean_min": 20.66,
+   "fixed_share": 0.2627,
+   "min_per_km": 4.53
+  }
+ ],
+ "robustness_ratio_range": {
+  "min": 1.2307,
+  "max": 2.1092
+ },
+ "robustness_prop_bias_short_range": {
+  "min": -0.7785,
+  "max": 0.1182
+ },
+ "robustness_prop_bias_short_range_fixed_gt0": {
+  "min": -0.7785,
+  "max": -0.572
+ },
+ "robustness_prop_bias_0500_1000_range_fixed_gt0": {
+  "min": -0.581,
+  "max": -0.294
+ },
+ "robustness_ratio_range_fixed_gt0": {
+  "min": 1.2307,
+  "max": 1.6821
+ }
+}

@@ -1,0 +1,414 @@
+{
+ "base": {
+  "w": 0.1,
+  "rho_s": 0.8,
+  "rho_e": 0.1,
+  "L": 4.0,
+  "hh": 8.0
+ },
+ "reps": 200,
+ "households_per_town_mean": 18432,
+ "example_town": {
+  "households": 18431,
+  "household_corr": 0.172,
+  "store_mean": 30.06,
+  "net_mean": 11.99,
+  "by_scale": [
+   {
+    "block": 1,
+    "zones": 2302,
+    "households_per_zone_mean": 8.0,
+    "corr": 0.396
+   },
+   {
+    "block": 2,
+    "zones": 576,
+    "households_per_zone_mean": 32.0,
+    "corr": 0.676
+   },
+   {
+    "block": 3,
+    "zones": 256,
+    "households_per_zone_mean": 72.0,
+    "corr": 0.748
+   },
+   {
+    "block": 4,
+    "zones": 144,
+    "households_per_zone_mean": 128.0,
+    "corr": 0.786
+   },
+   {
+    "block": 6,
+    "zones": 64,
+    "households_per_zone_mean": 288.0,
+    "corr": 0.809
+   },
+   {
+    "block": 8,
+    "zones": 36,
+    "households_per_zone_mean": 512.0,
+    "corr": 0.804
+   },
+   {
+    "block": 12,
+    "zones": 16,
+    "households_per_zone_mean": 1151.9,
+    "corr": 0.816
+   },
+   {
+    "block": 16,
+    "zones": 9,
+    "households_per_zone_mean": 2047.9,
+    "corr": 0.801
+   },
+   {
+    "block": 24,
+    "zones": 4,
+    "households_per_zone_mean": 4607.8,
+    "corr": 0.963
+   }
+  ]
+ },
+ "by_scale": [
+  {
+   "block": "世帯ごと",
+   "zones": NaN,
+   "households_per_zone": 1.0,
+   "corr_mean": 0.171,
+   "corr_p10": 0.156,
+   "corr_p90": 0.186,
+   "formula_mean": NaN,
+   "share_corr_over_0_5": 0.0
+  },
+  {
+   "block": "1×1マス",
+   "zones": 2304.0,
+   "households_per_zone": 8.0,
+   "corr_mean": 0.404,
+   "corr_p10": 0.358,
+   "corr_p90": 0.445,
+   "formula_mean": 0.401,
+   "share_corr_over_0_5": 0.0
+  },
+  {
+   "block": "2×2マス",
+   "zones": 576.0,
+   "households_per_zone": 32.0,
+   "corr_mean": 0.642,
+   "corr_p10": 0.581,
+   "corr_p90": 0.692,
+   "formula_mean": 0.64,
+   "share_corr_over_0_5": 1.0
+  },
+  {
+   "block": "3×3マス",
+   "zones": 256.0,
+   "households_per_zone": 72.0,
+   "corr_mean": 0.721,
+   "corr_p10": 0.656,
+   "corr_p90": 0.772,
+   "formula_mean": 0.718,
+   "share_corr_over_0_5": 1.0
+  },
+  {
+   "block": "4×4マス",
+   "zones": 144.0,
+   "households_per_zone": 128.0,
+   "corr_mean": 0.752,
+   "corr_p10": 0.69,
+   "corr_p90": 0.808,
+   "formula_mean": 0.751,
+   "share_corr_over_0_5": 1.0
+  },
+  {
+   "block": "6×6マス",
+   "zones": 64.0,
+   "households_per_zone": 288.0,
+   "corr_mean": 0.777,
+   "corr_p10": 0.712,
+   "corr_p90": 0.831,
+   "formula_mean": 0.776,
+   "share_corr_over_0_5": 1.0
+  },
+  {
+   "block": "8×8マス",
+   "zones": 36.0,
+   "households_per_zone": 512.0,
+   "corr_mean": 0.788,
+   "corr_p10": 0.709,
+   "corr_p90": 0.851,
+   "formula_mean": 0.785,
+   "share_corr_over_0_5": 1.0
+  },
+  {
+   "block": "12×12マス",
+   "zones": 16.0,
+   "households_per_zone": 1152.0,
+   "corr_mean": 0.791,
+   "corr_p10": 0.674,
+   "corr_p90": 0.884,
+   "formula_mean": 0.79,
+   "share_corr_over_0_5": 0.995
+  },
+  {
+   "block": "16×16マス",
+   "zones": 9.0,
+   "households_per_zone": 2048.0,
+   "corr_mean": 0.778,
+   "corr_p10": 0.596,
+   "corr_p90": 0.918,
+   "formula_mean": 0.776,
+   "share_corr_over_0_5": 0.96
+  },
+  {
+   "block": "24×24マス",
+   "zones": 4.0,
+   "households_per_zone": 4608.0,
+   "corr_mean": 0.75,
+   "corr_p10": 0.385,
+   "corr_p90": 0.979,
+   "formula_mean": 0.748,
+   "share_corr_over_0_5": 0.855
+  }
+ ],
+ "formula_max_abs_gap": 0.003,
+ "household_corr_formula": 0.17,
+ "special_cases": [
+  {
+   "case": "場所の傾向どうしの相関0",
+   "level": "household",
+   "zones": NaN,
+   "corr_mean": 0.091,
+   "corr_p10": 0.061,
+   "corr_p90": 0.117,
+   "share_over_0_5": 0.0,
+   "share_negative": 0.0,
+   "share_abs_over_0_5": 0.0
+  },
+  {
+   "case": "場所の傾向どうしの相関0",
+   "level": "b1",
+   "zones": 2304.0,
+   "corr_mean": 0.06,
+   "corr_p10": -0.06,
+   "corr_p90": 0.16,
+   "share_over_0_5": 0.0,
+   "share_negative": 0.25,
+   "share_abs_over_0_5": 0.0
+  },
+  {
+   "case": "場所の傾向どうしの相関0",
+   "level": "b2",
+   "zones": 576.0,
+   "corr_mean": 0.029,
+   "corr_p10": -0.171,
+   "corr_p90": 0.215,
+   "share_over_0_5": 0.0,
+   "share_negative": 0.4,
+   "share_abs_over_0_5": 0.0
+  },
+  {
+   "case": "場所の傾向どうしの相関0",
+   "level": "b3",
+   "zones": 256.0,
+   "corr_mean": 0.019,
+   "corr_p10": -0.217,
+   "corr_p90": 0.233,
+   "share_over_0_5": 0.0,
+   "share_negative": 0.42,
+   "share_abs_over_0_5": 0.0
+  },
+  {
+   "case": "場所の傾向どうしの相関0",
+   "level": "b4",
+   "zones": 144.0,
+   "corr_mean": 0.016,
+   "corr_p10": -0.237,
+   "corr_p90": 0.237,
+   "share_over_0_5": 0.005,
+   "share_negative": 0.425,
+   "share_abs_over_0_5": 0.005
+  },
+  {
+   "case": "場所の傾向どうしの相関0",
+   "level": "b6",
+   "zones": 64.0,
+   "corr_mean": 0.014,
+   "corr_p10": -0.262,
+   "corr_p90": 0.257,
+   "share_over_0_5": 0.005,
+   "share_negative": 0.455,
+   "share_abs_over_0_5": 0.005
+  },
+  {
+   "case": "場所の傾向どうしの相関0",
+   "level": "b8",
+   "zones": 36.0,
+   "corr_mean": 0.013,
+   "corr_p10": -0.292,
+   "corr_p90": 0.288,
+   "share_over_0_5": 0.005,
+   "share_negative": 0.455,
+   "share_abs_over_0_5": 0.005
+  },
+  {
+   "case": "場所の傾向どうしの相関0",
+   "level": "b12",
+   "zones": 16.0,
+   "corr_mean": 0.02,
+   "corr_p10": -0.387,
+   "corr_p90": 0.395,
+   "share_over_0_5": 0.035,
+   "share_negative": 0.47,
+   "share_abs_over_0_5": 0.08
+  },
+  {
+   "case": "場所の傾向どうしの相関0",
+   "level": "b16",
+   "zones": 9.0,
+   "corr_mean": 0.041,
+   "corr_p10": -0.481,
+   "corr_p90": 0.531,
+   "share_over_0_5": 0.115,
+   "share_negative": 0.435,
+   "share_abs_over_0_5": 0.215
+  },
+  {
+   "case": "場所の傾向どうしの相関0",
+   "level": "b24",
+   "zones": 4.0,
+   "corr_mean": -0.023,
+   "corr_p10": -0.794,
+   "corr_p90": 0.73,
+   "share_over_0_5": 0.22,
+   "share_negative": 0.51,
+   "share_abs_over_0_5": 0.445
+  },
+  {
+   "case": "世帯ごとの相関−0.2",
+   "level": "household",
+   "zones": NaN,
+   "corr_mean": -0.1,
+   "corr_p10": -0.118,
+   "corr_p90": -0.079,
+   "share_over_0_5": 0.0,
+   "share_negative": 1.0,
+   "share_abs_over_0_5": 0.0
+  },
+  {
+   "case": "世帯ごとの相関−0.2",
+   "level": "b1",
+   "zones": 2304.0,
+   "corr_mean": 0.231,
+   "corr_p10": 0.173,
+   "corr_p90": 0.291,
+   "share_over_0_5": 0.0,
+   "share_negative": 0.0,
+   "share_abs_over_0_5": 0.0
+  },
+  {
+   "case": "世帯ごとの相関−0.2",
+   "level": "b2",
+   "zones": 576.0,
+   "corr_mean": 0.569,
+   "corr_p10": 0.493,
+   "corr_p90": 0.635,
+   "share_over_0_5": 0.895,
+   "share_negative": 0.0,
+   "share_abs_over_0_5": 0.895
+  },
+  {
+   "case": "世帯ごとの相関−0.2",
+   "level": "b3",
+   "zones": 256.0,
+   "corr_mean": 0.68,
+   "corr_p10": 0.61,
+   "corr_p90": 0.742,
+   "share_over_0_5": 1.0,
+   "share_negative": 0.0,
+   "share_abs_over_0_5": 1.0
+  },
+  {
+   "case": "世帯ごとの相関−0.2",
+   "level": "b4",
+   "zones": 144.0,
+   "corr_mean": 0.728,
+   "corr_p10": 0.656,
+   "corr_p90": 0.793,
+   "share_over_0_5": 1.0,
+   "share_negative": 0.0,
+   "share_abs_over_0_5": 1.0
+  },
+  {
+   "case": "世帯ごとの相関−0.2",
+   "level": "b6",
+   "zones": 64.0,
+   "corr_mean": 0.762,
+   "corr_p10": 0.695,
+   "corr_p90": 0.826,
+   "share_over_0_5": 1.0,
+   "share_negative": 0.0,
+   "share_abs_over_0_5": 1.0
+  },
+  {
+   "case": "世帯ごとの相関−0.2",
+   "level": "b8",
+   "zones": 36.0,
+   "corr_mean": 0.776,
+   "corr_p10": 0.704,
+   "corr_p90": 0.843,
+   "share_over_0_5": 1.0,
+   "share_negative": 0.0,
+   "share_abs_over_0_5": 1.0
+  },
+  {
+   "case": "世帯ごとの相関−0.2",
+   "level": "b12",
+   "zones": 16.0,
+   "corr_mean": 0.787,
+   "corr_p10": 0.69,
+   "corr_p90": 0.879,
+   "share_over_0_5": 0.98,
+   "share_negative": 0.0,
+   "share_abs_over_0_5": 0.98
+  },
+  {
+   "case": "世帯ごとの相関−0.2",
+   "level": "b16",
+   "zones": 9.0,
+   "corr_mean": 0.779,
+   "corr_p10": 0.611,
+   "corr_p90": 0.906,
+   "share_over_0_5": 0.955,
+   "share_negative": 0.0,
+   "share_abs_over_0_5": 0.955
+  },
+  {
+   "case": "世帯ごとの相関−0.2",
+   "level": "b24",
+   "zones": 4.0,
+   "corr_mean": 0.777,
+   "corr_p10": 0.449,
+   "corr_p90": 0.985,
+   "share_over_0_5": 0.88,
+   "share_negative": 0.02,
+   "share_abs_over_0_5": 0.895
+  }
+ ],
+ "robustness": {
+  "combos": 40,
+  "b8_minus_household_rho_s_pos_min": 0.124,
+  "b8_minus_household_rho_s_pos_max": 0.895,
+  "household_range_rho_s_pos": [
+   -0.165,
+   0.45
+  ],
+  "b8_range_rho_s_pos": [
+   0.451,
+   0.808
+  ],
+  "sign_flip_combos": 5,
+  "base_row_b8": 0.779
+ }
+}

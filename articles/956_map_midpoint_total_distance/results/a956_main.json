@@ -1,0 +1,265 @@
+{
+ "base": {
+  "nA": 2000,
+  "ratio": 2.0,
+  "sd": 0.8,
+  "gap": 5.0
+ },
+ "reps": 200,
+ "example_town": {
+  "households": 3000,
+  "nA": 2000,
+  "nB": 1000,
+  "B_center": [
+   7.5,
+   5.0
+  ],
+  "placements": {
+   "straight": {
+    "A地区の中心": {
+     "x": 2.5,
+     "y": 5.0,
+     "mean_km": 2.3405,
+     "p95_km": 5.8244,
+     "max_km": 7.7959,
+     "mean_A_km": 1.0008,
+     "mean_B_km": 5.0199,
+     "over3km": 0.3323
+    },
+    "2つの地区の真ん中": {
+     "x": 5.0,
+     "y": 5.0,
+     "mean_km": 2.6196,
+     "p95_km": 3.8675,
+     "max_km": 5.298,
+     "mean_A_km": 2.6316,
+     "mean_B_km": 2.5956,
+     "over3km": 0.3173
+    },
+    "世帯の平均の場所（重心）": {
+     "x": 4.1543,
+     "y": 4.9867,
+     "mean_km": 2.3795,
+     "p95_km": 4.2223,
+     "max_km": 6.1434,
+     "mean_A_km": 1.8685,
+     "mean_B_km": 3.4016,
+     "over3km": 0.2697
+    },
+    "合計の距離がいちばん短い点": {
+     "x": 3.1767,
+     "y": 4.9887,
+     "mean_km": 2.2404,
+     "p95_km": 5.1613,
+     "max_km": 7.12,
+     "mean_A_km": 1.1835,
+     "mean_B_km": 4.3543,
+     "over3km": 0.3227
+    },
+    "95%の世帯が入る距離がいちばん短い点": {
+     "x": 4.75,
+     "y": 4.95,
+     "mean_km": 2.543,
+     "p95_km": 3.8296,
+     "max_km": 5.5503,
+     "over3km": 0.2827
+    }
+   },
+   "road": {
+    "A地区の中心": {
+     "x": 2.5,
+     "y": 5.0,
+     "mean_km": 2.7219,
+     "p95_km": 6.5646,
+     "max_km": 9.2514,
+     "mean_A_km": 1.2748,
+     "mean_B_km": 5.6163,
+     "over3km": 0.3447
+    },
+    "2つの地区の真ん中": {
+     "x": 5.0,
+     "y": 5.0,
+     "mean_km": 3.1304,
+     "p95_km": 4.6922,
+     "max_km": 7.2643,
+     "mean_A_km": 3.1361,
+     "mean_B_km": 3.119,
+     "over3km": 0.545
+    },
+    "世帯の平均の場所（重心）": {
+     "x": 4.1543,
+     "y": 4.9867,
+     "mean_km": 2.8569,
+     "p95_km": 4.9381,
+     "max_km": 7.5837,
+     "mean_A_km": 2.3044,
+     "mean_B_km": 3.9619,
+     "over3km": 0.4313
+    },
+    "合計の距離がいちばん短い点": {
+     "x": 3.0341,
+     "y": 5.0,
+     "mean_km": 2.6436,
+     "p95_km": 6.0305,
+     "max_km": 8.7172,
+     "mean_A_km": 1.4243,
+     "mean_B_km": 5.0821,
+     "over3km": 0.348
+    },
+    "95%の世帯が入る距離がいちばん短い点": {
+     "x": 4.7,
+     "y": 5.0,
+     "mean_km": 3.0305,
+     "p95_km": 4.621,
+     "max_km": 7.0514,
+     "over3km": 0.4993
+    }
+   }
+  }
+ },
+ "placements_200_towns": [
+  {
+   "distance": "straight",
+   "placement": "A地区の中心",
+   "mean_km": 2.3555,
+   "p95_km": 5.8797,
+   "max_km": 7.6338,
+   "mean_A_km": 1.0025,
+   "mean_B_km": 5.0613,
+   "over3km": 0.3324,
+   "excess_pct": 4.7913,
+   "x": 2.5
+  },
+  {
+   "distance": "straight",
+   "placement": "2つの地区の真ん中",
+   "mean_km": 2.6316,
+   "p95_km": 3.9135,
+   "max_km": 5.4561,
+   "mean_A_km": 2.633,
+   "mean_B_km": 2.629,
+   "over3km": 0.316,
+   "excess_pct": 17.0785,
+   "x": 5.0
+  },
+  {
+   "distance": "straight",
+   "placement": "世帯の平均の場所（重心）",
+   "mean_km": 2.3923,
+   "p95_km": 4.2476,
+   "max_km": 5.9925,
+   "mean_A_km": 1.8738,
+   "mean_B_km": 3.4293,
+   "over3km": 0.2813,
+   "excess_pct": 6.4294,
+   "x": 4.1651
+  },
+  {
+   "distance": "straight",
+   "placement": "合計の距離がいちばん短い点",
+   "mean_km": 2.2478,
+   "p95_km": 5.204,
+   "max_km": 6.9572,
+   "mean_A_km": 1.1778,
+   "mean_B_km": 4.3877,
+   "over3km": 0.323,
+   "excess_pct": 0.0,
+   "x": 3.184
+  },
+  {
+   "distance": "road",
+   "placement": "A地区の中心",
+   "mean_km": 2.7293,
+   "p95_km": 6.5962,
+   "max_km": 8.894,
+   "mean_A_km": 1.2764,
+   "mean_B_km": 5.6351,
+   "over3km": 0.3434,
+   "excess_pct": 3.2789,
+   "x": 2.5
+  },
+  {
+   "distance": "road",
+   "placement": "2つの地区の真ん中",
+   "mean_km": 3.1386,
+   "p95_km": 4.7076,
+   "max_km": 6.7673,
+   "mean_A_km": 3.1401,
+   "mean_B_km": 3.1355,
+   "over3km": 0.5506,
+   "excess_pct": 18.766,
+   "x": 5.0
+  },
+  {
+   "distance": "road",
+   "placement": "世帯の平均の場所（重心）",
+   "mean_km": 2.8668,
+   "p95_km": 4.9621,
+   "max_km": 7.2285,
+   "mean_A_km": 2.3152,
+   "mean_B_km": 3.9699,
+   "over3km": 0.4337,
+   "excess_pct": 8.4816,
+   "x": 4.1651
+  },
+  {
+   "distance": "road",
+   "placement": "合計の距離がいちばん短い点",
+   "mean_km": 2.6427,
+   "p95_km": 6.0566,
+   "max_km": 8.3546,
+   "mean_A_km": 1.4163,
+   "mean_B_km": 5.0953,
+   "over3km": 0.3512,
+   "excess_pct": 0.0,
+   "x": 3.0396
+  }
+ ],
+ "straight_mid_vs_A_mean_km_diff": 0.2762,
+ "straight_mid_longer_than_A_share": 1.0,
+ "straight_mid_excess_pct_p10_p90": [
+  16.63,
+  17.48
+ ],
+ "line_profile_straight": {
+  "1.0": {
+   "best_t": 0.5,
+   "best_mean_km": 2.633,
+   "mid_mean_km": 2.633,
+   "A_mean_km": 3.0239
+  },
+  "2.0": {
+   "best_t": 0.15,
+   "best_mean_km": 2.2394,
+   "mid_mean_km": 2.625,
+   "A_mean_km": 2.3503
+  },
+  "4.0": {
+   "best_t": 0.075,
+   "best_mean_km": 1.7741,
+   "mid_mean_km": 2.6352,
+   "A_mean_km": 1.8064
+  }
+ },
+ "robustness": {
+  "combos": 72,
+  "mid_excess_pct_range_ratio_gt1": [
+   0.45,
+   93.37
+  ],
+  "mid_excess_pct_range_ratio_eq1": [
+   0.0,
+   0.02
+  ],
+  "centroid_excess_pct_range_all": [
+   0.0,
+   28.44
+  ],
+  "mid_shorter_than_A_combos_ratio_ge2": 4,
+  "combos_ratio_ge2": 36,
+  "mid_p95_minus_best_p95_range": [
+   -3.2910000000000004,
+   0.11699999999999999
+  ]
+ }
+}

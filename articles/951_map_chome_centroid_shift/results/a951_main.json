@@ -1,0 +1,93 @@
+{
+ "settings_base": {
+  "n_cust": 3000,
+  "n_chome": 48,
+  "radius": 500.0,
+  "dense_share": 0.6,
+  "dense_sd": 250.0,
+  "rep": "丁目の真ん中"
+ },
+ "dense_points": [
+  [
+   650.0,
+   1350.0
+  ],
+  [
+   1400.0,
+   700.0
+  ]
+ ],
+ "town_side_m": 2000.0,
+ "n_store_positions": 300,
+ "base_town": {
+  "pos_err_median_m": 117.6,
+  "pos_err_p90_m": 187.1,
+  "dist_abs_err_mean_m": 74.8,
+  "dist_abs_err_near_m": 74.6,
+  "dist_rel_err_near": 0.3217,
+  "count_ratio_mean": 0.0037,
+  "count_ratio_p10": -0.1491,
+  "count_ratio_p90": 0.1523,
+  "count_abs_over10_share": 0.3633,
+  "miss_mean": 0.1311,
+  "extra_mean": 0.1348,
+  "swap_mean": 0.0505,
+  "swap_p10": 0.028,
+  "swap_p90": 0.0818,
+  "chome_side_median_m": 283.1,
+  "chome_side_min_m": 200.6,
+  "chome_side_max_m": 345.1,
+  "chome_customers_min": 10,
+  "chome_customers_max": 203,
+  "pos_err_mean_m": 119.4,
+  "formula_pos_err_mean_m": 113.1
+ },
+ "distance_bands": [
+  {
+   "band_m": "0〜250",
+   "abs_err_mean_m": 74.3,
+   "rel_err_mean": 0.6272
+  },
+  {
+   "band_m": "250〜500",
+   "abs_err_mean_m": 74.8,
+   "rel_err_mean": 0.2018
+  },
+  {
+   "band_m": "500〜1000",
+   "abs_err_mean_m": 75.8,
+   "rel_err_mean": 0.1052
+  },
+  {
+   "band_m": "1000〜3000",
+   "abs_err_mean_m": 73.7,
+   "rel_err_mean": 0.0577
+  }
+ ],
+ "store_most_up": {
+  "x": 216.7,
+  "y": 933.7,
+  "count_true": 418,
+  "count_chome": 589,
+  "change": 0.4091
+ },
+ "store_most_down": {
+  "x": 946.8,
+  "y": 235.9,
+  "count_true": 365,
+  "count_chome": 255,
+  "change": -0.3014
+ },
+ "robustness_over10_range": {
+  "min": 0.0527,
+  "max": 0.7717
+ },
+ "robustness_swap_range": {
+  "min": 0.0243,
+  "max": 0.0935
+ },
+ "robustness_p10_p90_widest": {
+  "p10": -0.4126,
+  "p90": 0.4626
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "settings_base": {
+  "n_cand": 400,
+  "base": 300.0,
+  "people_w": 80.0,
+  "bonus": 20.0,
+  "site_sd": 40.0,
+  "est_sd": 30.0,
+  "op_sd": 20.0,
+  "hurdle": 400.0,
+  "hurdle_gap": 40.0,
+  "station_r": 5.0
+ },
+ "n_towns": 500,
+ "next_k": 5,
+ "example_town": {
+  "n_cand": 400,
+  "n_ekimae": 108,
+  "n_open": 39,
+  "n_open_eki": 8,
+  "n_open_other": 31,
+  "open_sales_eki": 423.6,
+  "open_sales_other": 402.35,
+  "open_gap": 21.24,
+  "all_gap": 29.8,
+  "open_sales_mean": 406.71,
+  "all_power_mean": 337.51,
+  "shortfall_vs_est": -27.28,
+  "shortfall_true_vs_est": -29.57,
+  "next_eki_power": 417.79,
+  "next_other_power": 371.51
+ },
+ "towns_500": {
+  "towns": 500,
+  "n_open_total": 15911,
+  "n_open_eki_total": 2065,
+  "n_open_mean": 31.82,
+  "n_open_eki_mean": 4.13,
+  "eki_share_cand": 0.2243,
+  "open_sales_eki": 429.29,
+  "open_sales_other": 396.18,
+  "open_gap": 33.11,
+  "open_gap_town_p10": 3.87,
+  "open_gap_town_p90": 55.92,
+  "towns_with_eki_open": 461,
+  "all_gap": 22.4,
+  "open_true_gap": 33.26,
+  "open_sales_mean": 400.47,
+  "open_estimate_mean": 430.56,
+  "all_power_mean": 331.22,
+  "shortfall_vs_est": -30.08,
+  "next_eki_power": 400.78,
+  "next_other_power": 375.72,
+  "open_minus_all": 69.26,
+  "next_eki_minus_open_eki": -28.5,
+  "next_other_minus_open_other": -20.46
+ },
+ "bonus20_open_gap_range": {
+  "min": 9.02,
+  "max": 42.72
+ },
+ "bonus0_open_gap_range": {
+  "min": -1.08,
+  "max": 35.23
+ },
+ "shortfall_range": {
+  "min": -73.75,
+  "max": -0.02
+ }
+}
