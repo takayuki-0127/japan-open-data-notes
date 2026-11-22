@@ -1,0 +1,4 @@
+threshold,removed_originals,removed_non_thanks_originals,removed_thanks_pct,left_copies_pct,max_abs_share_error_pt
+0.6,377.97,126.43,84.11,1.02,12.02
+0.8,127.47,1.67,42.04,0.01,5.7
+0.9,125.07,0.1,41.96,10.3,5.81

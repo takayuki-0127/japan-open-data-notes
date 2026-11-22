@@ -1,0 +1,870 @@
+{
+ "setup": {
+  "word_types": 926,
+  "key_words_A": 10,
+  "key_words_B": 10,
+  "top_k": 10,
+  "random_pick_expected_precision": 0.0108,
+  "texts_per_shop": 1000,
+  "words_per_text": "5〜12",
+  "true_mult": 2.0,
+  "zipf": 1.0,
+  "k_add": 5,
+  "key_rank": "6〜300位"
+ },
+ "one_draw": {
+  "texts_per_shop": 1000,
+  "words_A": 8572,
+  "words_B": 8228,
+  "word_types": 926,
+  "used_types": 915,
+  "only_in_A": 95,
+  "only_in_A_truly_A": 0,
+  "only_in_A_max_count": 6,
+  "top10": {
+   "比そのまま": {
+    "words": [
+     "胡麻ラテ",
+     "白桃大福",
+     "限定苺ロール",
+     "季節の柚子クッキー",
+     "限定生姜大福",
+     "季節の珈琲マフィン",
+     "季節の黒糖プリン",
+     "季節の生姜タルト",
+     "南瓜ラテ",
+     "檸檬タルト"
+    ],
+    "counts_A": [
+     6,
+     6,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     4,
+     4
+    ],
+    "counts_B": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "is_truly_A": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "truly_A": 0
+   },
+   "比（10回以上の語だけ）": {
+    "words": [
+     "季節の抹茶ゼリー",
+     "特製南瓜ゼリー",
+     "特製桃スコーン",
+     "限定栗ワッフル",
+     "黒糖パフェ",
+     "季節の生姜ケーキ",
+     "季節の苺ゼリー",
+     "抹茶ラテ",
+     "季節の桃スコーン",
+     "特製桃ラテ"
+    ],
+    "counts_A": [
+     15,
+     19,
+     14,
+     26,
+     61,
+     9,
+     33,
+     14,
+     13,
+     8
+    ],
+    "counts_B": [
+     3,
+     4,
+     4,
+     8,
+     21,
+     3,
+     12,
+     5,
+     5,
+     3
+    ],
+    "is_truly_A": [
+     1,
+     1,
+     0,
+     1,
+     1,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "truly_A": 5
+   },
+   "出る割合の差": {
+    "words": [
+     "黒糖パフェ",
+     "席",
+     "季節の苺ゼリー",
+     "味",
+     "待ち時間",
+     "限定栗ワッフル",
+     "店員",
+     "季節の栗ワッフル",
+     "広い",
+     "特製南瓜ゼリー"
+    ],
+    "counts_A": [
+     61,
+     152,
+     33,
+     198,
+     186,
+     26,
+     1179,
+     41,
+     57,
+     19
+    ],
+    "counts_B": [
+     21,
+     124,
+     12,
+     171,
+     160,
+     8,
+     1116,
+     24,
+     40,
+     4
+    ],
+    "is_truly_A": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    "truly_A": 3
+   },
+   "寄せた比": {
+    "words": [
+     "特製南瓜ゼリー",
+     "黒糖パフェ",
+     "季節の抹茶ゼリー",
+     "限定栗ワッフル",
+     "季節の苺ゼリー",
+     "胡麻ラテ",
+     "白桃大福",
+     "檸檬クッキー",
+     "南瓜クッキー",
+     "限定檸檬クッキー"
+    ],
+    "counts_A": [
+     19,
+     61,
+     15,
+     26,
+     33,
+     6,
+     6,
+     8,
+     8,
+     8
+    ],
+    "counts_B": [
+     4,
+     21,
+     3,
+     8,
+     12,
+     0,
+     0,
+     1,
+     1,
+     1
+    ],
+    "is_truly_A": [
+     1,
+     1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "truly_A": 4
+   },
+   "比÷振れ": {
+    "words": [
+     "黒糖パフェ",
+     "季節の苺ゼリー",
+     "限定栗ワッフル",
+     "特製南瓜ゼリー",
+     "季節の抹茶ゼリー",
+     "特製桃スコーン",
+     "檸檬クッキー",
+     "南瓜クッキー",
+     "限定檸檬クッキー",
+     "季節の栗ワッフル"
+    ],
+    "counts_A": [
+     61,
+     33,
+     26,
+     19,
+     15,
+     14,
+     8,
+     8,
+     8,
+     41
+    ],
+    "counts_B": [
+     21,
+     12,
+     8,
+     4,
+     3,
+     4,
+     1,
+     1,
+     1,
+     24
+    ],
+    "is_truly_A": [
+     1,
+     0,
+     1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "truly_A": 4
+   }
+  }
+ },
+ "base_200reps": [
+  {
+   "method": "比そのまま",
+   "precision_pct": 2.35,
+   "median_count": 4.49,
+   "share_le5_pct": 79.25
+  },
+  {
+   "method": "比（10回以上の語だけ）",
+   "precision_pct": 23.7,
+   "median_count": 13.76,
+   "share_le5_pct": 0.0
+  },
+  {
+   "method": "出る割合の差",
+   "precision_pct": 24.95,
+   "median_count": 126.32,
+   "share_le5_pct": 0.0
+  },
+  {
+   "method": "寄せた比",
+   "precision_pct": 22.65,
+   "median_count": 10.16,
+   "share_le5_pct": 16.85
+  },
+  {
+   "method": "比÷振れ",
+   "precision_pct": 34.15,
+   "median_count": 25.08,
+   "share_le5_pct": 0.15
+  }
+ ],
+ "check": {
+  "words_csv_matches_texts_A": true,
+  "null_sd_minus_formula_11plus": [
+   0.008,
+   0.005,
+   0.002,
+   0.006
+  ]
+ },
+ "base_200reps_extra": {
+  "only_in_A": 78.77,
+  "only_in_A_truly_A": 0.21,
+  "words_used": 907.05
+ },
+ "null_ratio_by_count": [
+  {
+   "total_count": "1〜2",
+   "n_words": 31086,
+   "median_count": 2.0,
+   "sd_log2_ratio": 1.625,
+   "formula_sd_at_median": "",
+   "share_2x_or_more": 0.6931
+  },
+  {
+   "total_count": "3〜5",
+   "n_words": 60996,
+   "median_count": 4.0,
+   "sd_log2_ratio": 1.427,
+   "formula_sd_at_median": "",
+   "share_2x_or_more": 0.4131
+  },
+  {
+   "total_count": "6〜10",
+   "n_words": 42497,
+   "median_count": 7.0,
+   "sd_log2_ratio": 1.078,
+   "formula_sd_at_median": "",
+   "share_2x_or_more": 0.2973
+  },
+  {
+   "total_count": "11〜30",
+   "n_words": 28697,
+   "median_count": 15.0,
+   "sd_log2_ratio": 0.737,
+   "formula_sd_at_median": 0.745,
+   "share_2x_or_more": 0.1545
+  },
+  {
+   "total_count": "31〜100",
+   "n_words": 9935,
+   "median_count": 47.0,
+   "sd_log2_ratio": 0.426,
+   "formula_sd_at_median": 0.421,
+   "share_2x_or_more": 0.0268
+  },
+  {
+   "total_count": "101〜300",
+   "n_words": 2833,
+   "median_count": 151.0,
+   "sd_log2_ratio": 0.237,
+   "formula_sd_at_median": 0.235,
+   "share_2x_or_more": 0.0
+  },
+  {
+   "total_count": "301以上",
+   "n_words": 1411,
+   "median_count": 573.0,
+   "sd_log2_ratio": 0.115,
+   "formula_sd_at_median": 0.121,
+   "share_2x_or_more": 0.0
+  }
+ ],
+ "grid_range_precision": {
+  "比そのまま": [
+   0.008,
+   0.317
+  ],
+  "比（10回以上の語だけ）": [
+   0.01,
+   0.472
+  ],
+  "出る割合の差": [
+   0.076,
+   0.597
+  ],
+  "寄せた比": [
+   0.061,
+   0.766
+  ],
+  "比÷振れ": [
+   0.083,
+   0.911
+  ]
+ },
+ "grid": [
+  {
+   "texts_per_shop": 200,
+   "true_mult": 1.5,
+   "method": "比そのまま",
+   "precision": 0.037,
+   "share_le5": 0.95,
+   "median_count": 3.2
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 1.5,
+   "method": "比（10回以上の語だけ）",
+   "precision": 0.084,
+   "share_le5": 0.0,
+   "median_count": 15.64
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 1.5,
+   "method": "出る割合の差",
+   "precision": 0.076,
+   "share_le5": 0.048,
+   "median_count": 27.88
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 1.5,
+   "method": "寄せた比",
+   "precision": 0.075,
+   "share_le5": 0.45,
+   "median_count": 5.93
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 1.5,
+   "method": "比÷振れ",
+   "precision": 0.083,
+   "share_le5": 0.326,
+   "median_count": 8.02
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 2.0,
+   "method": "比そのまま",
+   "precision": 0.058,
+   "share_le5": 0.94,
+   "median_count": 3.18
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 2.0,
+   "method": "比（10回以上の語だけ）",
+   "precision": 0.115,
+   "share_le5": 0.0,
+   "median_count": 15.19
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 2.0,
+   "method": "出る割合の差",
+   "precision": 0.105,
+   "share_le5": 0.036,
+   "median_count": 26.36
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 2.0,
+   "method": "寄せた比",
+   "precision": 0.128,
+   "share_le5": 0.395,
+   "median_count": 6.47
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 2.0,
+   "method": "比÷振れ",
+   "precision": 0.138,
+   "share_le5": 0.276,
+   "median_count": 8.91
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 3.0,
+   "method": "比そのまま",
+   "precision": 0.113,
+   "share_le5": 0.931,
+   "median_count": 3.29
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 3.0,
+   "method": "比（10回以上の語だけ）",
+   "precision": 0.149,
+   "share_le5": 0.0,
+   "median_count": 15.31
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 3.0,
+   "method": "出る割合の差",
+   "precision": 0.18,
+   "share_le5": 0.031,
+   "median_count": 25.34
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 3.0,
+   "method": "寄せた比",
+   "precision": 0.245,
+   "share_le5": 0.373,
+   "median_count": 6.78
+  },
+  {
+   "texts_per_shop": 200,
+   "true_mult": 3.0,
+   "method": "比÷振れ",
+   "precision": 0.241,
+   "share_le5": 0.286,
+   "median_count": 8.91
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 1.5,
+   "method": "比そのまま",
+   "precision": 0.008,
+   "share_le5": 0.819,
+   "median_count": 4.35
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 1.5,
+   "method": "比（10回以上の語だけ）",
+   "precision": 0.131,
+   "share_le5": 0.0,
+   "median_count": 12.7
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 1.5,
+   "method": "出る割合の差",
+   "precision": 0.156,
+   "share_le5": 0.0,
+   "median_count": 119.44
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 1.5,
+   "method": "寄せた比",
+   "precision": 0.098,
+   "share_le5": 0.197,
+   "median_count": 9.04
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 1.5,
+   "method": "比÷振れ",
+   "precision": 0.203,
+   "share_le5": 0.001,
+   "median_count": 21.07
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 2.0,
+   "method": "比そのまま",
+   "precision": 0.022,
+   "share_le5": 0.81,
+   "median_count": 4.39
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 2.0,
+   "method": "比（10回以上の語だけ）",
+   "precision": 0.252,
+   "share_le5": 0.0,
+   "median_count": 13.41
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 2.0,
+   "method": "出る割合の差",
+   "precision": 0.252,
+   "share_le5": 0.0,
+   "median_count": 119.97
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 2.0,
+   "method": "寄せた比",
+   "precision": 0.229,
+   "share_le5": 0.168,
+   "median_count": 10.55
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 2.0,
+   "method": "比÷振れ",
+   "precision": 0.343,
+   "share_le5": 0.005,
+   "median_count": 25.95
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 3.0,
+   "method": "比そのまま",
+   "precision": 0.047,
+   "share_le5": 0.789,
+   "median_count": 4.43
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 3.0,
+   "method": "比（10回以上の語だけ）",
+   "precision": 0.472,
+   "share_le5": 0.0,
+   "median_count": 14.81
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 3.0,
+   "method": "出る割合の差",
+   "precision": 0.354,
+   "share_le5": 0.0,
+   "median_count": 110.33
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 3.0,
+   "method": "寄せた比",
+   "precision": 0.474,
+   "share_le5": 0.06,
+   "median_count": 15.1
+  },
+  {
+   "texts_per_shop": 1000,
+   "true_mult": 3.0,
+   "method": "比÷振れ",
+   "precision": 0.53,
+   "share_le5": 0.0,
+   "median_count": 29.52
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 1.5,
+   "method": "比そのまま",
+   "precision": 0.01,
+   "share_le5": 0.014,
+   "median_count": 13.7
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 1.5,
+   "method": "比（10回以上の語だけ）",
+   "precision": 0.01,
+   "share_le5": 0.0,
+   "median_count": 14.96
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 1.5,
+   "method": "出る割合の差",
+   "precision": 0.29,
+   "share_le5": 0.0,
+   "median_count": 538.62
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 1.5,
+   "method": "寄せた比",
+   "precision": 0.061,
+   "share_le5": 0.001,
+   "median_count": 18.5
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 1.5,
+   "method": "比÷振れ",
+   "precision": 0.399,
+   "share_le5": 0.0,
+   "median_count": 77.97
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 2.0,
+   "method": "比そのまま",
+   "precision": 0.059,
+   "share_le5": 0.02,
+   "median_count": 14.07
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 2.0,
+   "method": "比（10回以上の語だけ）",
+   "precision": 0.072,
+   "share_le5": 0.0,
+   "median_count": 15.49
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 2.0,
+   "method": "出る割合の差",
+   "precision": 0.436,
+   "share_le5": 0.0,
+   "median_count": 491.69
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 2.0,
+   "method": "寄せた比",
+   "precision": 0.321,
+   "share_le5": 0.0,
+   "median_count": 26.32
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 2.0,
+   "method": "比÷振れ",
+   "precision": 0.701,
+   "share_le5": 0.0,
+   "median_count": 95.28
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 3.0,
+   "method": "比そのまま",
+   "precision": 0.317,
+   "share_le5": 0.013,
+   "median_count": 21.8
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 3.0,
+   "method": "比（10回以上の語だけ）",
+   "precision": 0.38,
+   "share_le5": 0.0,
+   "median_count": 28.62
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 3.0,
+   "method": "出る割合の差",
+   "precision": 0.597,
+   "share_le5": 0.0,
+   "median_count": 415.22
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 3.0,
+   "method": "寄せた比",
+   "precision": 0.766,
+   "share_le5": 0.0,
+   "median_count": 85.19
+  },
+  {
+   "texts_per_shop": 5000,
+   "true_mult": 3.0,
+   "method": "比÷振れ",
+   "precision": 0.911,
+   "share_le5": 0.0,
+   "median_count": 99.18
+  }
+ ],
+ "by_zipf": [
+  {
+   "zipf": 0.8,
+   "method": "比そのまま",
+   "precision": 0.013
+  },
+  {
+   "zipf": 0.8,
+   "method": "比（10回以上の語だけ）",
+   "precision": 0.183
+  },
+  {
+   "zipf": 0.8,
+   "method": "出る割合の差",
+   "precision": 0.305
+  },
+  {
+   "zipf": 0.8,
+   "method": "寄せた比",
+   "precision": 0.235
+  },
+  {
+   "zipf": 0.8,
+   "method": "比÷振れ",
+   "precision": 0.399
+  },
+  {
+   "zipf": 1.0,
+   "method": "比そのまま",
+   "precision": 0.014
+  },
+  {
+   "zipf": 1.0,
+   "method": "比（10回以上の語だけ）",
+   "precision": 0.234
+  },
+  {
+   "zipf": 1.0,
+   "method": "出る割合の差",
+   "precision": 0.243
+  },
+  {
+   "zipf": 1.0,
+   "method": "寄せた比",
+   "precision": 0.224
+  },
+  {
+   "zipf": 1.0,
+   "method": "比÷振れ",
+   "precision": 0.339
+  },
+  {
+   "zipf": 1.2,
+   "method": "比そのまま",
+   "precision": 0.038
+  },
+  {
+   "zipf": 1.2,
+   "method": "比（10回以上の語だけ）",
+   "precision": 0.243
+  },
+  {
+   "zipf": 1.2,
+   "method": "出る割合の差",
+   "precision": 0.192
+  },
+  {
+   "zipf": 1.2,
+   "method": "寄せた比",
+   "precision": 0.22
+  },
+  {
+   "zipf": 1.2,
+   "method": "比÷振れ",
+   "precision": 0.284
+  }
+ ],
+ "by_k_add": [
+  {
+   "k_add": 1,
+   "method": "寄せた比",
+   "precision": 0.037,
+   "median_count": 4.57,
+   "share_le5": 0.753
+  },
+  {
+   "k_add": 5,
+   "method": "寄せた比",
+   "precision": 0.235,
+   "median_count": 10.64,
+   "share_le5": 0.163
+  },
+  {
+   "k_add": 20,
+   "method": "寄せた比",
+   "precision": 0.355,
+   "median_count": 25.56,
+   "share_le5": 0.0
+  }
+ ]
+}

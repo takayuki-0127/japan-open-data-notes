@@ -1,0 +1,401 @@
+{
+ "setup": {
+  "classes": [
+   "配送",
+   "返品",
+   "支払い",
+   "会員登録"
+  ],
+  "shares_base": {
+   "配送": 0.7,
+   "返品": 0.15,
+   "支払い": 0.1,
+   "会員登録": 0.05
+  },
+  "vocab": 90,
+  "q": 0.2,
+  "cross": 0.04,
+  "n_train": 2000,
+  "n_test": 2000,
+  "words_per_text": "6〜12"
+ },
+ "formula_proportional_random_accuracy_pct": 52.5,
+ "base_lift_over_majority_pts": {
+  "with_prior": 18.9,
+  "no_prior": 12.34
+ },
+ "one_draw": {
+  "test_share_pct": {
+   "配送": 71.25,
+   "返品": 14.35,
+   "支払い": 9.85,
+   "会員登録": 4.55
+  },
+  "no_prior": {
+   "accuracy": 82.45,
+   "macro_recall": 80.49,
+   "kappa": 0.6583,
+   "recall_配送": 83.72,
+   "recall_返品": 78.4,
+   "recall_支払い": 80.71,
+   "recall_会員登録": 79.12
+  },
+  "with_prior": {
+   "accuracy": 89.25,
+   "macro_recall": 76.84,
+   "kappa": 0.7555,
+   "recall_配送": 95.72,
+   "recall_返品": 77.0,
+   "recall_支払い": 73.1,
+   "recall_会員登録": 61.54
+  }
+ },
+ "base_100reps_pct": [
+  {
+   "method": "分類器（分類の多さを足さない）",
+   "accuracy": 82.54,
+   "macro_recall": 81.65,
+   "kappa": 0.6719,
+   "recall_配送": 83.01,
+   "recall_返品": 81.77,
+   "recall_支払い": 81.29,
+   "recall_会員登録": 80.53
+  },
+  {
+   "method": "分類器（分類の多さを足す）",
+   "accuracy": 89.1,
+   "macro_recall": 76.29,
+   "kappa": 0.7584,
+   "recall_配送": 95.81,
+   "recall_返品": 78.61,
+   "recall_支払い": 73.25,
+   "recall_会員登録": 57.5
+  },
+  {
+   "method": "全部いちばん多い分類と答える",
+   "accuracy": 70.2,
+   "macro_recall": 25.0,
+   "kappa": 0.0,
+   "recall_配送": 100.0,
+   "recall_返品": 0.0,
+   "recall_支払い": 0.0,
+   "recall_会員登録": 0.0
+  },
+  {
+   "method": "学習用の割合どおりにでたらめに答える",
+   "accuracy": 52.58,
+   "macro_recall": 24.89,
+   "kappa": -0.0009,
+   "recall_配送": 69.98,
+   "recall_返品": 14.92,
+   "recall_支払い": 10.13,
+   "recall_会員登録": 4.51
+  }
+ ],
+ "grid_lift_over_majority": [
+  {
+   "top_share": 0.4,
+   "q": 0.1,
+   "with_prior_minus_majority": 24.61,
+   "no_prior_minus_majority": 20.72
+  },
+  {
+   "top_share": 0.4,
+   "q": 0.2,
+   "with_prior_minus_majority": 44.24,
+   "no_prior_minus_majority": 42.1
+  },
+  {
+   "top_share": 0.4,
+   "q": 0.4,
+   "with_prior_minus_majority": 57.32,
+   "no_prior_minus_majority": 56.81
+  },
+  {
+   "top_share": 0.7,
+   "q": 0.1,
+   "with_prior_minus_majority": 6.64,
+   "no_prior_minus_majority": -7.0
+  },
+  {
+   "top_share": 0.7,
+   "q": 0.2,
+   "with_prior_minus_majority": 19.12,
+   "no_prior_minus_majority": 12.63
+  },
+  {
+   "top_share": 0.7,
+   "q": 0.4,
+   "with_prior_minus_majority": 28.14,
+   "no_prior_minus_majority": 26.68
+  },
+  {
+   "top_share": 0.9,
+   "q": 0.1,
+   "with_prior_minus_majority": 0.66,
+   "no_prior_minus_majority": -20.33
+  },
+  {
+   "top_share": 0.9,
+   "q": 0.2,
+   "with_prior_minus_majority": 4.27,
+   "no_prior_minus_majority": -5.73
+  },
+  {
+   "top_share": 0.9,
+   "q": 0.4,
+   "with_prior_minus_majority": 8.83,
+   "no_prior_minus_majority": 6.29
+  },
+  {
+   "top_share": 0.95,
+   "q": 0.1,
+   "with_prior_minus_majority": -0.01,
+   "no_prior_minus_majority": -20.12
+  },
+  {
+   "top_share": 0.95,
+   "q": 0.2,
+   "with_prior_minus_majority": 1.62,
+   "no_prior_minus_majority": -9.36
+  },
+  {
+   "top_share": 0.95,
+   "q": 0.4,
+   "with_prior_minus_majority": 4.2,
+   "no_prior_minus_majority": 1.01
+  }
+ ],
+ "grid_lift_range": {
+  "with_prior": [
+   -0.01,
+   57.32
+  ],
+  "no_prior": [
+   -20.33,
+   56.81
+  ]
+ },
+ "test_mix_shift": [
+  {
+   "test_top_share": 0.4,
+   "method": "分類器（分類の多さを足さない）",
+   "accuracy": 81.93,
+   "macro_recall": 81.62,
+   "kappa": 0.745,
+   "recall_配送": 82.7,
+   "recall_返品": 81.52,
+   "recall_支払い": 81.64,
+   "recall_会員登録": 80.61
+  },
+  {
+   "test_top_share": 0.4,
+   "method": "分類器（分類の多さを足す）",
+   "accuracy": 82.41,
+   "macro_recall": 76.42,
+   "kappa": 0.7404,
+   "recall_配送": 95.81,
+   "recall_返品": 78.44,
+   "recall_支払い": 73.71,
+   "recall_会員登録": 57.72
+  },
+  {
+   "test_top_share": 0.4,
+   "method": "全部いちばん多い分類と答える",
+   "accuracy": 40.2,
+   "macro_recall": 25.0,
+   "kappa": 0.0,
+   "recall_配送": 100.0,
+   "recall_返品": 0.0,
+   "recall_支払い": 0.0,
+   "recall_会員登録": 0.0
+  },
+  {
+   "test_top_share": 0.4,
+   "method": "学習用の割合どおりにでたらめに答える",
+   "accuracy": 35.33,
+   "macro_recall": 25.22,
+   "kappa": 0.0036,
+   "recall_配送": 70.34,
+   "recall_返品": 15.22,
+   "recall_支払い": 9.74,
+   "recall_会員登録": 5.58
+  },
+  {
+   "test_top_share": 0.55,
+   "method": "分類器（分類の多さを足さない）",
+   "accuracy": 82.42,
+   "macro_recall": 81.77,
+   "kappa": 0.7271,
+   "recall_配送": 83.27,
+   "recall_返品": 81.29,
+   "recall_支払い": 81.86,
+   "recall_会員登録": 80.66
+  },
+  {
+   "test_top_share": 0.55,
+   "method": "分類器（分類の多さを足す）",
+   "accuracy": 85.72,
+   "macro_recall": 76.69,
+   "kappa": 0.758,
+   "recall_配送": 95.63,
+   "recall_返品": 78.32,
+   "recall_支払い": 74.04,
+   "recall_会員登録": 58.78
+  },
+  {
+   "test_top_share": 0.55,
+   "method": "全部いちばん多い分類と答える",
+   "accuracy": 54.95,
+   "macro_recall": 25.0,
+   "kappa": 0.0,
+   "recall_配送": 100.0,
+   "recall_返品": 0.0,
+   "recall_支払い": 0.0,
+   "recall_会員登録": 0.0
+  },
+  {
+   "test_top_share": 0.55,
+   "method": "学習用の割合どおりにでたらめに答える",
+   "accuracy": 44.05,
+   "macro_recall": 25.28,
+   "kappa": 0.0056,
+   "recall_配送": 70.5,
+   "recall_返品": 15.12,
+   "recall_支払い": 9.89,
+   "recall_会員登録": 5.6
+  },
+  {
+   "test_top_share": 0.7,
+   "method": "分類器（分類の多さを足さない）",
+   "accuracy": 82.76,
+   "macro_recall": 81.94,
+   "kappa": 0.6759,
+   "recall_配送": 83.18,
+   "recall_返品": 82.11,
+   "recall_支払い": 81.79,
+   "recall_会員登録": 80.7
+  },
+  {
+   "test_top_share": 0.7,
+   "method": "分類器（分類の多さを足す）",
+   "accuracy": 89.2,
+   "macro_recall": 76.86,
+   "kappa": 0.7618,
+   "recall_配送": 95.65,
+   "recall_返品": 79.1,
+   "recall_支払い": 74.24,
+   "recall_会員登録": 58.43
+  },
+  {
+   "test_top_share": 0.7,
+   "method": "全部いちばん多い分類と答える",
+   "accuracy": 70.14,
+   "macro_recall": 25.0,
+   "kappa": 0.0,
+   "recall_配送": 100.0,
+   "recall_返品": 0.0,
+   "recall_支払い": 0.0,
+   "recall_会員登録": 0.0
+  },
+  {
+   "test_top_share": 0.7,
+   "method": "学習用の割合どおりにでたらめに答える",
+   "accuracy": 52.57,
+   "macro_recall": 24.96,
+   "kappa": 0.0007,
+   "recall_配送": 70.08,
+   "recall_返品": 14.53,
+   "recall_支払い": 9.9,
+   "recall_会員登録": 5.34
+  },
+  {
+   "test_top_share": 0.85,
+   "method": "分類器（分類の多さを足さない）",
+   "accuracy": 82.64,
+   "macro_recall": 81.67,
+   "kappa": 0.5385,
+   "recall_配送": 82.86,
+   "recall_返品": 81.15,
+   "recall_支払い": 82.21,
+   "recall_会員登録": 80.47
+  },
+  {
+   "test_top_share": 0.85,
+   "method": "分類器（分類の多さを足す）",
+   "accuracy": 92.32,
+   "macro_recall": 76.76,
+   "kappa": 0.7171,
+   "recall_配送": 95.63,
+   "recall_返品": 78.01,
+   "recall_支払い": 73.8,
+   "recall_会員登録": 59.6
+  },
+  {
+   "test_top_share": 0.85,
+   "method": "全部いちばん多い分類と答える",
+   "accuracy": 85.02,
+   "macro_recall": 25.0,
+   "kappa": 0.0,
+   "recall_配送": 100.0,
+   "recall_返品": 0.0,
+   "recall_支払い": 0.0,
+   "recall_会員登録": 0.0
+  },
+  {
+   "test_top_share": 0.85,
+   "method": "学習用の割合どおりにでたらめに答える",
+   "accuracy": 61.18,
+   "macro_recall": 24.84,
+   "kappa": -0.0006,
+   "recall_配送": 69.96,
+   "recall_返品": 14.64,
+   "recall_支払い": 9.81,
+   "recall_会員登録": 4.94
+  },
+  {
+   "test_top_share": 0.95,
+   "method": "分類器（分類の多さを足さない）",
+   "accuracy": 82.58,
+   "macro_recall": 81.44,
+   "kappa": 0.2963,
+   "recall_配送": 82.66,
+   "recall_返品": 81.8,
+   "recall_支払い": 80.08,
+   "recall_会員登録": 81.22
+  },
+  {
+   "test_top_share": 0.95,
+   "method": "分類器（分類の多さを足す）",
+   "accuracy": 94.5,
+   "macro_recall": 76.4,
+   "kappa": 0.562,
+   "recall_配送": 95.63,
+   "recall_返品": 79.17,
+   "recall_支払い": 72.25,
+   "recall_会員登録": 58.57
+  },
+  {
+   "test_top_share": 0.95,
+   "method": "全部いちばん多い分類と答える",
+   "accuracy": 94.96,
+   "macro_recall": 25.0,
+   "kappa": 0.0,
+   "recall_配送": 100.0,
+   "recall_返品": 0.0,
+   "recall_支払い": 0.0,
+   "recall_会員登録": 0.0
+  },
+  {
+   "test_top_share": 0.95,
+   "method": "学習用の割合どおりにでたらめに答える",
+   "accuracy": 67.07,
+   "macro_recall": 25.06,
+   "kappa": 0.0008,
+   "recall_配送": 69.99,
+   "recall_返品": 16.6,
+   "recall_支払い": 9.15,
+   "recall_会員登録": 4.5
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+p_trouble,complaint_true,complaint_body,recall_body_complaint,complaint_subject,acc_body
+0.3,0.1385,0.1046,0.7552,0.041,0.8684
+0.7,0.1389,0.0802,0.577,0.041,0.8424
+1.0,0.14,0.0618,0.4415,0.0416,0.8231

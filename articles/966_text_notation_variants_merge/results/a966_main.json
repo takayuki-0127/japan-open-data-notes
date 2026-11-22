@@ -1,0 +1,253 @@
+{
+ "n_concepts": 26,
+ "n_forms": 81,
+ "n_forms_changed_by_nfkc_lower": 15,
+ "forms_by_concept": {
+  "Wi-Fi": 7,
+  "問い合わせ": 4,
+  "予約": 3,
+  "返品": 3,
+  "交換": 3,
+  "ポイント": 4,
+  "クーポン": 3,
+  "メール": 4,
+  "アプリ": 3,
+  "ログイン": 3,
+  "パスワード": 4,
+  "キャンセル": 4,
+  "送料": 2,
+  "配送": 3,
+  "支払い": 4,
+  "駐車場": 3,
+  "営業時間": 2,
+  "在庫": 2,
+  "サイズ": 3,
+  "色": 3,
+  "店員": 3,
+  "電話": 4,
+  "領収書": 2,
+  "レシート": 2,
+  "住所": 1,
+  "会員": 2
+ },
+ "example": {
+  "n_text": 2000,
+  "n_mentions": 3967,
+  "types_by_stage": {
+   "(0) そのまま": 78,
+   "(1) 全角・半角と大小をそろえる": 62,
+   "(2) かな・送り仮名もそろえる": 45,
+   "(3) 言い換えもそろえる": 26,
+   "(4) 広げすぎ": 22
+  },
+  "eval": {
+   "(0) そのまま": {
+    "types": 78,
+    "top10_concepts_distinct": 8,
+    "top10_overlap": 8,
+    "median_ratio": 0.5835051546391752,
+    "min_ratio": 0.28115015974440893,
+    "mean_abs_rank_shift": 2.5384615384615383,
+    "top1_correct": true
+   },
+   "(1) 全角・半角と大小をそろえる": {
+    "types": 62,
+    "top10_concepts_distinct": 8,
+    "top10_overlap": 8,
+    "median_ratio": 0.6046875,
+    "min_ratio": 0.3546325878594249,
+    "mean_abs_rank_shift": 2.3076923076923075,
+    "top1_correct": true
+   },
+   "(2) かな・送り仮名もそろえる": {
+    "types": 45,
+    "top10_concepts_distinct": 9,
+    "top10_overlap": 9,
+    "median_ratio": 0.8079212454212454,
+    "min_ratio": 0.5054945054945055,
+    "mean_abs_rank_shift": 3.0,
+    "top1_correct": true
+   },
+   "(3) 言い換えもそろえる": {
+    "types": 26,
+    "top10_concepts_distinct": 10,
+    "top10_overlap": 10,
+    "median_ratio": 1.0,
+    "min_ratio": 1.0,
+    "mean_abs_rank_shift": 0.0,
+    "top1_correct": true
+   }
+  },
+  "wifi_true_count": 313,
+  "wifi_true_rank": 3,
+  "wifi_by_stage": {
+   "(0) そのまま": {
+    "wifi_top_form": "WiFi",
+    "wifi_top_form_count": 88,
+    "wifi_top_form_rank": 10
+   },
+   "(1) 全角・半角と大小をそろえる": {
+    "wifi_top_form": "wi-fi",
+    "wifi_top_form_count": 111,
+    "wifi_top_form_rank": 7
+   },
+   "(2) かな・送り仮名もそろえる": {
+    "wifi_top_form": "wi-fi",
+    "wifi_top_form_count": 313,
+    "wifi_top_form_rank": 3
+   },
+   "(3) 言い換えもそろえる": {
+    "wifi_top_form": "Wi-Fi",
+    "wifi_top_form_count": 313,
+    "wifi_top_form_rank": 3
+   }
+  },
+  "true_top10": {
+   "色": 893,
+   "レシート": 518,
+   "Wi-Fi": 313,
+   "電話": 254,
+   "営業時間": 213,
+   "配送": 194,
+   "在庫": 161,
+   "住所": 146,
+   "クーポン": 126,
+   "パスワード": 120
+  }
+ },
+ "by_stage_500reps": [
+  {
+   "stage": "(0) そのまま",
+   "types": 78.644,
+   "top10_overlap": 6.836,
+   "top10_overlap_p10": 6.0,
+   "top10_overlap_p90": 8.0,
+   "top10_concepts_distinct": 6.992,
+   "median_ratio": 0.606,
+   "min_ratio": 0.321,
+   "mean_abs_rank_shift": 2.503,
+   "top1_correct": 0.89
+  },
+  {
+   "stage": "(1) 全角・半角と大小をそろえる",
+   "types": 62.794,
+   "top10_overlap": 7.262,
+   "top10_overlap_p10": 6.0,
+   "top10_overlap_p90": 8.0,
+   "top10_concepts_distinct": 7.466,
+   "median_ratio": 0.679,
+   "min_ratio": 0.393,
+   "mean_abs_rank_shift": 2.338,
+   "top1_correct": 0.912
+  },
+  {
+   "stage": "(2) かな・送り仮名もそろえる",
+   "types": 44.546,
+   "top10_overlap": 8.188,
+   "top10_overlap_p10": 7.0,
+   "top10_overlap_p90": 9.0,
+   "top10_concepts_distinct": 8.498,
+   "median_ratio": 0.844,
+   "min_ratio": 0.506,
+   "mean_abs_rank_shift": 2.055,
+   "top1_correct": 0.934
+  },
+  {
+   "stage": "(3) 言い換えもそろえる",
+   "types": 26.0,
+   "top10_overlap": 9.98,
+   "top10_overlap_p10": 10.0,
+   "top10_overlap_p90": 10.0,
+   "top10_concepts_distinct": 10.0,
+   "median_ratio": 1.0,
+   "min_ratio": 1.0,
+   "mean_abs_rank_shift": 0.0,
+   "top1_correct": 1.0
+  }
+ ],
+ "overmerge_500reps": [
+  {
+   "pair": "返品＋交換",
+   "ratio": 1.518,
+   "rank_up": 0.714,
+   "merged_rank": 6.0,
+   "best_member_true_rank": 8.5
+  },
+  {
+   "pair": "領収書＋レシート",
+   "ratio": 1.511,
+   "rank_up": 0.694,
+   "merged_rank": 6.0,
+   "best_member_true_rank": 8.0
+  },
+  {
+   "pair": "送料＋配送",
+   "ratio": 1.491,
+   "rank_up": 0.678,
+   "merged_rank": 6.0,
+   "best_member_true_rank": 7.0
+  },
+  {
+   "pair": "ポイント＋クーポン",
+   "ratio": 1.501,
+   "rank_up": 0.692,
+   "merged_rank": 6.0,
+   "best_member_true_rank": 8.0
+  }
+ ],
+ "grid_overlap_range": {
+  "stage0": [
+   5.25,
+   8.04
+  ],
+  "stage1": [
+   6.02,
+   8.3
+  ],
+  "stage2": [
+   7.42,
+   8.85
+  ],
+  "stage3": [
+   9.96,
+   9.99
+  ]
+ },
+ "grid_median_ratio_range": {
+  "stage0": [
+   0.504,
+   0.805
+  ],
+  "stage1": [
+   0.583,
+   0.856
+  ],
+  "stage2": [
+   0.748,
+   0.972
+  ]
+ },
+ "robust_12_settings_overlap_range": {
+  "stage0": [
+   5.25,
+   8.89
+  ],
+  "stage1": [
+   6.02,
+   9.07
+  ],
+  "stage2": [
+   7.42,
+   9.33
+  ],
+  "stage3": [
+   9.96,
+   9.99
+  ]
+ },
+ "robust_12_settings_stage1_minus_stage0": [
+  0.18,
+  0.79
+ ],
+ "robust_12_settings_order_0_lt_1_lt_2": true
+}

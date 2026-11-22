@@ -1,0 +1,203 @@
+{
+ "categories": [
+  "配送",
+  "返品・交換",
+  "支払い",
+  "会員・ログイン",
+  "商品の質問",
+  "不満・要望"
+ ],
+ "params": {
+  "g0": 0.25,
+  "tilt": 1.6,
+  "mis_other": 0.05,
+  "mis_comp": 0.35,
+  "p_second": 0.25,
+  "p_trouble": 0.7,
+  "p_two_subj": 0.2,
+  "p_miss": 0.1,
+  "p_inc": 0.2
+ },
+ "generic_rate_cap": 0.95,
+ "n_per_rep": 2000,
+ "base_300reps": {
+  "acc_subject": 0.6371,
+  "acc_body": 0.8423,
+  "unclassified_subject": 0.2709,
+  "unclassified_body": 0.0317,
+  "second_share": 0.3138,
+  "second_found_subject": 0.2551,
+  "second_found_body": 0.9041,
+  "body_false_topic_share": 0.1851,
+  "subj_false_topic_share": 0.0467
+ },
+ "base_300reps_p10_p90": {
+  "acc_subject": [
+   0.625,
+   0.6506
+  ],
+  "acc_body": [
+   0.8325,
+   0.8515
+  ],
+  "unclassified_subject": [
+   0.2595,
+   0.282
+  ],
+  "unclassified_body": [
+   0.027,
+   0.0365
+  ],
+  "second_share": [
+   0.3005,
+   0.327
+  ],
+  "second_found_subject": [
+   0.2339,
+   0.2753
+  ],
+  "second_found_body": [
+   0.8875,
+   0.9201
+  ],
+  "body_false_topic_share": [
+   0.1745,
+   0.196
+  ],
+  "subj_false_topic_share": [
+   0.0405,
+   0.0526
+  ],
+  "subj_5": [
+   0.036,
+   0.0471
+  ],
+  "body_5": [
+   0.0735,
+   0.0895
+  ]
+ },
+ "shares_300reps": [
+  {
+   "category": "配送",
+   "true": 0.2201,
+   "subject": 0.1708,
+   "subject_classified_only": 0.2343,
+   "body": 0.2202,
+   "recall_subject": 0.6998,
+   "recall_body": 0.8866
+  },
+  {
+   "category": "返品・交換",
+   "true": 0.1596,
+   "subject": 0.1291,
+   "subject_classified_only": 0.1771,
+   "body": 0.1671,
+   "recall_subject": 0.7015,
+   "recall_body": 0.8861
+  },
+  {
+   "category": "支払い",
+   "true": 0.14,
+   "subject": 0.1155,
+   "subject_classified_only": 0.1585,
+   "body": 0.1496,
+   "recall_subject": 0.699,
+   "recall_body": 0.8858
+  },
+  {
+   "category": "会員・ログイン",
+   "true": 0.1399,
+   "subject": 0.1154,
+   "subject_classified_only": 0.1583,
+   "body": 0.1488,
+   "recall_subject": 0.7008,
+   "recall_body": 0.883
+  },
+  {
+   "category": "商品の質問",
+   "true": 0.1998,
+   "subject": 0.1567,
+   "subject_classified_only": 0.2149,
+   "body": 0.2013,
+   "recall_subject": 0.7001,
+   "recall_body": 0.8851
+  },
+  {
+   "category": "不満・要望",
+   "true": 0.1406,
+   "subject": 0.0416,
+   "subject_classified_only": 0.057,
+   "body": 0.0813,
+   "recall_subject": 0.2518,
+   "recall_body": 0.5785
+  }
+ ],
+ "example": {
+  "acc_subject": 0.6325,
+  "acc_body": 0.843,
+  "unclassified_subject": 0.2715,
+  "unclassified_body": 0.035,
+  "true_0": 0.235,
+  "subj_0": 0.1775,
+  "body_0": 0.2255,
+  "true_1": 0.1475,
+  "subj_1": 0.1295,
+  "body_1": 0.151,
+  "true_2": 0.1355,
+  "subj_2": 0.113,
+  "body_2": 0.1505,
+  "true_3": 0.1485,
+  "subj_3": 0.12,
+  "body_3": 0.152,
+  "true_4": 0.1955,
+  "subj_4": 0.151,
+  "body_4": 0.197,
+  "true_5": 0.138,
+  "subj_5": 0.0375,
+  "body_5": 0.089,
+  "second_share": 0.3195,
+  "second_found_subject": 0.2692,
+  "second_found_body": 0.9264,
+  "body_false_topic_share": 0.1735,
+  "subj_false_topic_share": 0.0485
+ },
+ "grid_complaint_subject_range": [
+  0.0063,
+  0.0833
+ ],
+ "grid_complaint_subject_cl_range": [
+  0.012,
+  0.0926
+ ],
+ "grid_complaint_body_range": [
+  0.0797,
+  0.0811
+ ],
+ "grid_acc_subject_range": [
+  0.4733,
+  0.8081
+ ],
+ "grid_acc_body_range": [
+  0.8407,
+  0.8431
+ ],
+ "grid_unclassified_subject_range": [
+  0.0998,
+  0.4782
+ ],
+ "all12_complaint_subject_range": [
+  0.0063,
+  0.0833
+ ],
+ "equal_case": {
+  "complaint_true": 0.1377,
+  "complaint_subject_cl": 0.1371,
+  "max_abs_gap_classified_only": 0.0037,
+  "unclassified_subject": 0.2503
+ },
+ "trouble_complaint_body_range": [
+  0.0618,
+  0.1046
+ ]
+}

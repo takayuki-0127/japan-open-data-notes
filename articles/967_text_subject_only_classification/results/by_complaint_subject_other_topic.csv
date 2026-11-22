@@ -1,0 +1,4 @@
+mis_comp,complaint_subject,complaint_subject_cl,complaint_body,recall_subject_complaint,acc_subject
+0.05,0.0829,0.1137,0.0806,0.5459,0.6792
+0.35,0.0415,0.057,0.0806,0.25,0.637
+0.6,0.0064,0.0089,0.0807,0.0,0.6012

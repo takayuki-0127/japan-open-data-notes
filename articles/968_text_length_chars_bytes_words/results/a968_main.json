@@ -1,0 +1,331 @@
+{
+ "check_no_emoji_visual_eq_codepoint_eq_utf16": true,
+ "n_no_emoji_texts": 3305,
+ "n_per_form": 3000,
+ "n_total": 6000,
+ "n_pieces": {
+  "jp_phrases": 12,
+  "ascii_words": 14,
+  "fullwidth": 5,
+  "halfwidth_kana": 4,
+  "emoji": 6
+ },
+ "limit": 50,
+ "forms": {
+  "スマホ": {
+   "jp": 2.3,
+   "emoji": 1.6,
+   "ascii": 0.3,
+   "fw": 0.0,
+   "hwk": 0.05
+  },
+  "パソコン": {
+   "jp": 2.1,
+   "emoji": 0.1,
+   "ascii": 2.5,
+   "fw": 0.3,
+   "hwk": 0.4
+  }
+ },
+ "mean_by_form": {
+  "見た目の文字": {
+   "スマホ": 33.532,
+   "パソコン": 42.13
+  },
+  "コードポイント": {
+   "スマホ": 35.97,
+   "パソコン": 42.285
+  },
+  "UTF-16の単位": {
+   "スマホ": 38.138,
+   "パソコン": 42.424
+  },
+  "UTF-8のバイト": {
+   "スマホ": 107.238,
+   "パソコン": 103.851
+  },
+  "Shift_JISのバイト": {
+   "スマホ": 66.541,
+   "パソコン": 71.305
+  },
+  "全角1・半角0.5": {
+   "スマホ": 34.627,
+   "パソコン": 35.738
+  },
+  "単語（空白区切り）": {
+   "スマホ": 1.424,
+   "パソコン": 3.883
+  }
+ },
+ "ratio_pc_over_smartphone": {
+  "見た目の文字": 1.256,
+  "コードポイント": 1.176,
+  "UTF-16の単位": 1.112,
+  "UTF-8のバイト": 0.968,
+  "Shift_JISのバイト": 1.072,
+  "全角1・半角0.5": 1.032,
+  "単語（空白区切り）": 2.727
+ },
+ "limits": {
+  "見た目の文字": 50,
+  "コードポイント": 50,
+  "UTF-16の単位": 50,
+  "UTF-8のバイト": 150,
+  "Shift_JISのバイト": 100,
+  "全角1・半角0.5": 50
+ },
+ "over_limit_by_form": {
+  "見た目の文字": {
+   "スマホ": 0.177,
+   "パソコン": 0.285
+  },
+  "コードポイント": {
+   "スマホ": 0.209,
+   "パソコン": 0.2867
+  },
+  "UTF-16の単位": {
+   "スマホ": 0.2373,
+   "パソコン": 0.2887
+  },
+  "UTF-8のバイト": {
+   "スマホ": 0.2083,
+   "パソコン": 0.1847
+  },
+  "Shift_JISのバイト": {
+   "スマホ": 0.1787,
+   "パソコン": 0.1947
+  },
+  "全角1・半角0.5": {
+   "スマホ": 0.1927,
+   "パソコン": 0.1957
+  }
+ },
+ "limit_disagreement": {
+  "スマホ": {
+   "any_disagree": 0.0653,
+   "sjis_unencodable": 0.8047
+  },
+  "パソコン": {
+   "any_disagree": 0.107,
+   "sjis_unencodable": 0.0937
+  }
+ },
+ "limit_disagreement_vs_visual": [
+  {
+   "form": "スマホ",
+   "measure": "コードポイント",
+   "ok_visual_but_over": 0.032,
+   "over_visual_but_ok": 0.0
+  },
+  {
+   "form": "スマホ",
+   "measure": "UTF-16の単位",
+   "ok_visual_but_over": 0.0603,
+   "over_visual_but_ok": 0.0
+  },
+  {
+   "form": "スマホ",
+   "measure": "UTF-8のバイト",
+   "ok_visual_but_over": 0.0337,
+   "over_visual_but_ok": 0.0023
+  },
+  {
+   "form": "スマホ",
+   "measure": "Shift_JISのバイト",
+   "ok_visual_but_over": 0.006,
+   "over_visual_but_ok": 0.0043
+  },
+  {
+   "form": "スマホ",
+   "measure": "全角1・半角0.5",
+   "ok_visual_but_over": 0.0177,
+   "over_visual_but_ok": 0.002
+  },
+  {
+   "form": "パソコン",
+   "measure": "コードポイント",
+   "ok_visual_but_over": 0.0017,
+   "over_visual_but_ok": 0.0
+  },
+  {
+   "form": "パソコン",
+   "measure": "UTF-16の単位",
+   "ok_visual_but_over": 0.0037,
+   "over_visual_but_ok": 0.0
+  },
+  {
+   "form": "パソコン",
+   "measure": "UTF-8のバイト",
+   "ok_visual_but_over": 0.0003,
+   "over_visual_but_ok": 0.1007
+  },
+  {
+   "form": "パソコン",
+   "measure": "Shift_JISのバイト",
+   "ok_visual_but_over": 0.0,
+   "over_visual_but_ok": 0.0903
+  },
+  {
+   "form": "パソコン",
+   "measure": "全角1・半角0.5",
+   "ok_visual_but_over": 0.0,
+   "over_visual_but_ok": 0.0893
+  }
+ ],
+ "top10pct_by_measure": {
+  "見た目の文字": {
+   "overlap_with_visual": 1.0,
+   "share_smartphone": 0.3467
+  },
+  "コードポイント": {
+   "overlap_with_visual": 0.9383,
+   "share_smartphone": 0.3917
+  },
+  "UTF-16の単位": {
+   "overlap_with_visual": 0.89,
+   "share_smartphone": 0.4233
+  },
+  "UTF-8のバイト": {
+   "overlap_with_visual": 0.7917,
+   "share_smartphone": 0.545
+  },
+  "Shift_JISのバイト": {
+   "overlap_with_visual": 0.865,
+   "share_smartphone": 0.4633
+  },
+  "全角1・半角0.5": {
+   "overlap_with_visual": 0.84,
+   "share_smartphone": 0.4917
+  },
+  "単語（空白区切り）": {
+   "overlap_with_visual": 0.2917,
+   "share_smartphone": 0.01
+  }
+ },
+ "spearman_visual_vs": {
+  "見た目の文字": 1.0,
+  "コードポイント": 0.99,
+  "UTF-16の単位": 0.972,
+  "UTF-8のバイト": 0.922,
+  "Shift_JISのバイト": 0.97,
+  "全角1・半角0.5": 0.958,
+  "単語（空白区切り）": 0.398
+ },
+ "spearman_min_pair": 0.097,
+ "grid_ratio_range": {
+  "見た目の文字": [
+   0.951,
+   1.674
+  ],
+  "コードポイント": [
+   0.845,
+   1.639
+  ],
+  "UTF-16の単位": [
+   0.77,
+   1.61
+  ],
+  "UTF-8のバイト": [
+   0.757,
+   1.195
+  ],
+  "Shift_JISのバイト": [
+   0.856,
+   1.315
+  ],
+  "全角1・半角0.5": [
+   0.801,
+   1.3
+  ],
+  "単語（空白区切り）": [
+   1.504,
+   4.644
+  ]
+ },
+ "grid_which_longer_count": {
+  "見た目の文字": {
+   "pc_longer": 8,
+   "smartphone_longer": 1
+  },
+  "コードポイント": {
+   "pc_longer": 8,
+   "smartphone_longer": 1
+  },
+  "UTF-16の単位": {
+   "pc_longer": 6,
+   "smartphone_longer": 3
+  },
+  "UTF-8のバイト": {
+   "pc_longer": 4,
+   "smartphone_longer": 5
+  },
+  "Shift_JISのバイト": {
+   "pc_longer": 6,
+   "smartphone_longer": 3
+  },
+  "全角1・半角0.5": {
+   "pc_longer": 6,
+   "smartphone_longer": 3
+  },
+  "単語（空白区切り）": {
+   "pc_longer": 9,
+   "smartphone_longer": 0
+  }
+ },
+ "emoji_counts": [
+  {
+   "emoji": "顔",
+   "codepoints": 1,
+   "utf16": 2,
+   "utf8": 4,
+   "visual": 1,
+   "sjis_ok": false,
+   "east_asian_width_count": 1.0
+  },
+  {
+   "emoji": "肌の色つきの手",
+   "codepoints": 2,
+   "utf16": 4,
+   "utf8": 8,
+   "visual": 1,
+   "sjis_ok": false,
+   "east_asian_width_count": 2.0
+  },
+  {
+   "emoji": "異体字の選択子つきのハート",
+   "codepoints": 2,
+   "utf16": 2,
+   "utf8": 6,
+   "visual": 1,
+   "sjis_ok": false,
+   "east_asian_width_count": 1.5
+  },
+  {
+   "emoji": "つなぎ文字の家族",
+   "codepoints": 5,
+   "utf16": 8,
+   "utf8": 18,
+   "visual": 1,
+   "sjis_ok": false,
+   "east_asian_width_count": 4.0
+  },
+  {
+   "emoji": "つなぎ文字のおじぎ",
+   "codepoints": 4,
+   "utf16": 5,
+   "utf8": 13,
+   "visual": 1,
+   "sjis_ok": false,
+   "east_asian_width_count": 3.5
+  },
+  {
+   "emoji": "クラッカー",
+   "codepoints": 1,
+   "utf16": 2,
+   "utf8": 4,
+   "visual": 1,
+   "sjis_ok": false,
+   "east_asian_width_count": 1.0
+  }
+ ]
+}
