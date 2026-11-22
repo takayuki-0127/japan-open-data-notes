@@ -1,0 +1,128 @@
+{
+ "settings": {
+  "q": [
+   0.05,
+   0.08
+  ],
+  "lots": 200,
+  "units_per_lot": 500,
+  "lot_effect_b": 0.5,
+  "detect_d": 0.9,
+  "false_reject_f": 0.01,
+  "reps": 200,
+  "formula_prod_1_minus_q": 0.874
+ },
+ "one_period": {
+  "units": 100000,
+  "pass1": 0.9411,
+  "pass2": 0.9137,
+  "prod_pass": 0.8599,
+  "shipped": 0.8599,
+  "true_good1": 0.9451,
+  "true_good2": 0.914,
+  "prod_true_good": 0.8638,
+  "all_good": 0.8648,
+  "shipped_defective_share": 0.0148
+ },
+ "base_200reps": {
+  "prod_pass_rates": 0.86962,
+  "prod_true_good": 0.87419,
+  "all_good": 0.87514,
+  "diff_pass_minus_allgood_pt": -0.55166,
+  "diff_truegood_minus_allgood_pt": -0.09519,
+  "diff_truegood_minus_allgood_pt_p10": -0.12755,
+  "diff_truegood_minus_allgood_pt_p90": -0.06737,
+  "shipped_defective_share": 0.01371,
+  "shipped_good_per_input": 0.8577,
+  "good_scrapped": 0.01744,
+  "pass1": 0.94553,
+  "pass2": 0.91972
+ },
+ "ideal_b0_d1_f0": {
+  "lot_effect_b": 0.0,
+  "detect_d": 1.0,
+  "false_reject_f": 0.0,
+  "prod_pass_rates": 0.87395,
+  "prod_true_good": 0.87395,
+  "all_good": 0.87395,
+  "diff_pass_minus_allgood_pt": -0.0,
+  "diff_truegood_minus_allgood_pt": -0.00075,
+  "diff_truegood_minus_allgood_pt_p10": -0.02738,
+  "diff_truegood_minus_allgood_pt_p90": 0.02179,
+  "shipped_defective_share": 0.0,
+  "shipped_good_per_input": 0.87395,
+  "good_scrapped": 0.0,
+  "pass1": 0.95001,
+  "pass2": 0.91994
+ },
+ "grid_ranges": {
+  "diff_pass_minus_allgood_pt_min": -5.18288,
+  "diff_pass_minus_allgood_pt_max": 3.69187,
+  "diff_truegood_minus_allgood_pt_min": -0.41614,
+  "diff_truegood_minus_allgood_pt_max": 0.00181,
+  "shipped_defective_share_min": 0.0,
+  "shipped_defective_share_max": 0.04174
+ },
+ "by_number_of_processes": [
+  {
+   "processes": 1,
+   "prod_pass_rates": 0.94505,
+   "prod_true_good": 0.94951,
+   "all_good": 0.94951,
+   "shipped_defective_share": 0.00537,
+   "good_scrapped": 0.00953,
+   "formula_0_95_pow": 0.95,
+   "diff_pass_minus_allgood_pt": -0.44586
+  },
+  {
+   "processes": 2,
+   "prod_pass_rates": 0.89409,
+   "prod_true_good": 0.90201,
+   "all_good": 0.90268,
+   "shipped_defective_share": 0.0105,
+   "good_scrapped": 0.01798,
+   "formula_0_95_pow": 0.9025,
+   "diff_pass_minus_allgood_pt": -0.8593
+  },
+  {
+   "processes": 3,
+   "prod_pass_rates": 0.84611,
+   "prod_true_good": 0.85673,
+   "all_good": 0.85841,
+   "shipped_defective_share": 0.01555,
+   "good_scrapped": 0.02546,
+   "formula_0_95_pow": 0.85737,
+   "diff_pass_minus_allgood_pt": -1.23006
+  },
+  {
+   "processes": 4,
+   "prod_pass_rates": 0.80065,
+   "prod_true_good": 0.8133,
+   "all_good": 0.81649,
+   "shipped_defective_share": 0.02048,
+   "good_scrapped": 0.03223,
+   "formula_0_95_pow": 0.81451,
+   "diff_pass_minus_allgood_pt": -1.58408
+  },
+  {
+   "processes": 5,
+   "prod_pass_rates": 0.75776,
+   "prod_true_good": 0.77163,
+   "all_good": 0.77657,
+   "shipped_defective_share": 0.02517,
+   "good_scrapped": 0.03788,
+   "formula_0_95_pow": 0.77378,
+   "diff_pass_minus_allgood_pt": -1.8812
+  },
+  {
+   "processes": 6,
+   "prod_pass_rates": 0.72178,
+   "prod_true_good": 0.73758,
+   "all_good": 0.74446,
+   "shipped_defective_share": 0.02918,
+   "good_scrapped": 0.04373,
+   "formula_0_95_pow": 0.73509,
+   "diff_pass_minus_allgood_pt": -2.26852
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+months,looked_lower,pooled_sig,monthly_sig,est_reduction_p10,est_reduction_p50,est_reduction_p90
+3,0.539,0.0895,0.0198,-0.3542,0.032,0.2879
+6,0.61,0.135,0.0398,-0.1916,0.0556,0.2444
+12,0.7982,0.2635,0.1112,-0.061,0.0965,0.2264

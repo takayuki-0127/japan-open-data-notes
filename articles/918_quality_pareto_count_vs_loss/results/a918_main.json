@@ -1,0 +1,309 @@
+{
+ "settings": {
+  "causes": 12,
+  "defects_per_month": 300,
+  "sig_freq": 1.0,
+  "sig_cost_base": 1.0,
+  "rho_base": 0.0,
+  "sig_case_base": 1.0,
+  "reps": 300
+ },
+ "one_factory_12months": {
+  "total_count": 3591,
+  "total_loss": 3632.45,
+  "count_top3": [
+   "C",
+   "J",
+   "K"
+  ],
+  "loss_top3": [
+   "C",
+   "G",
+   "J"
+  ],
+  "count_top1": "K",
+  "loss_top1": "G",
+  "count_top1_rank_in_loss": 4,
+  "loss_top1_rank_in_count": 11,
+  "count_top3_share_of_count": 0.629,
+  "count_top3_share_of_loss": 0.494,
+  "loss_top3_share_of_loss": 0.583
+ },
+ "true_base": {
+  "sig_cost": 1.0,
+  "rho": 0.0,
+  "overlap3": 0.592,
+  "top1_same": 0.48,
+  "loss_share_by_count_top3": 0.565,
+  "loss_share_by_loss_top3": 0.702,
+  "count_share_by_count_top3": 0.603
+ },
+ "true_grid_range_sig_cost_gt0": {
+  "overlap3_min": 0.33,
+  "overlap3_max": 0.816,
+  "top1_same_min": 0.14,
+  "top1_same_max": 0.723,
+  "loss_share_by_count_top3_min": 0.325,
+  "loss_share_by_count_top3_max": 0.712
+ },
+ "true_sig_cost0": {
+  "sig_cost": 0.0,
+  "rho": -0.5,
+  "overlap3": 1.0,
+  "top1_same": 1.0,
+  "loss_share_by_count_top3": 0.613,
+  "loss_share_by_loss_top3": 0.613,
+  "count_share_by_count_top3": 0.613
+ },
+ "hits_summary": {
+  "cells": 24,
+  "loss_minus_count_min": 0.099,
+  "loss_minus_count_max": 0.357,
+  "count_rank_hit_loss_top3_min": 0.543,
+  "count_rank_hit_loss_top3_max": 0.629,
+  "loss_rank_hit_loss_top3_min": 0.647,
+  "loss_rank_hit_loss_top3_max": 0.976
+ },
+ "hits_by_months": [
+  {
+   "defects_per_month": 300,
+   "sig_case": 0.5,
+   "months": 1,
+   "count_rank_hit_loss_top3": 0.612,
+   "loss_rank_hit_loss_top3": 0.891,
+   "count_rank_hit_count_top3": 0.894,
+   "loss_rank_top1_right": 0.87,
+   "count_rank_top1_right_for_loss": 0.45
+  },
+  {
+   "defects_per_month": 300,
+   "sig_case": 0.5,
+   "months": 3,
+   "count_rank_hit_loss_top3": 0.623,
+   "loss_rank_hit_loss_top3": 0.943,
+   "count_rank_hit_count_top3": 0.947,
+   "loss_rank_top1_right": 0.937,
+   "count_rank_top1_right_for_loss": 0.43
+  },
+  {
+   "defects_per_month": 300,
+   "sig_case": 0.5,
+   "months": 6,
+   "count_rank_hit_loss_top3": 0.611,
+   "loss_rank_hit_loss_top3": 0.948,
+   "count_rank_hit_count_top3": 0.958,
+   "loss_rank_top1_right": 0.953,
+   "count_rank_top1_right_for_loss": 0.457
+  },
+  {
+   "defects_per_month": 300,
+   "sig_case": 0.5,
+   "months": 12,
+   "count_rank_hit_loss_top3": 0.619,
+   "loss_rank_hit_loss_top3": 0.976,
+   "count_rank_hit_count_top3": 0.966,
+   "loss_rank_top1_right": 0.973,
+   "count_rank_top1_right_for_loss": 0.42
+  },
+  {
+   "defects_per_month": 300,
+   "sig_case": 1.0,
+   "months": 1,
+   "count_rank_hit_loss_top3": 0.594,
+   "loss_rank_hit_loss_top3": 0.857,
+   "count_rank_hit_count_top3": 0.904,
+   "loss_rank_top1_right": 0.823,
+   "count_rank_top1_right_for_loss": 0.423
+  },
+  {
+   "defects_per_month": 300,
+   "sig_case": 1.0,
+   "months": 3,
+   "count_rank_hit_loss_top3": 0.617,
+   "loss_rank_hit_loss_top3": 0.904,
+   "count_rank_hit_count_top3": 0.927,
+   "loss_rank_top1_right": 0.91,
+   "count_rank_top1_right_for_loss": 0.447
+  },
+  {
+   "defects_per_month": 300,
+   "sig_case": 1.0,
+   "months": 6,
+   "count_rank_hit_loss_top3": 0.629,
+   "loss_rank_hit_loss_top3": 0.94,
+   "count_rank_hit_count_top3": 0.962,
+   "loss_rank_top1_right": 0.927,
+   "count_rank_top1_right_for_loss": 0.42
+  },
+  {
+   "defects_per_month": 300,
+   "sig_case": 1.0,
+   "months": 12,
+   "count_rank_hit_loss_top3": 0.616,
+   "loss_rank_hit_loss_top3": 0.943,
+   "count_rank_hit_count_top3": 0.97,
+   "loss_rank_top1_right": 0.96,
+   "count_rank_top1_right_for_loss": 0.457
+  },
+  {
+   "defects_per_month": 300,
+   "sig_case": 1.5,
+   "months": 1,
+   "count_rank_hit_loss_top3": 0.608,
+   "loss_rank_hit_loss_top3": 0.812,
+   "count_rank_hit_count_top3": 0.898,
+   "loss_rank_top1_right": 0.77,
+   "count_rank_top1_right_for_loss": 0.423
+  },
+  {
+   "defects_per_month": 300,
+   "sig_case": 1.5,
+   "months": 3,
+   "count_rank_hit_loss_top3": 0.598,
+   "loss_rank_hit_loss_top3": 0.896,
+   "count_rank_hit_count_top3": 0.938,
+   "loss_rank_top1_right": 0.85,
+   "count_rank_top1_right_for_loss": 0.43
+  },
+  {
+   "defects_per_month": 300,
+   "sig_case": 1.5,
+   "months": 6,
+   "count_rank_hit_loss_top3": 0.614,
+   "loss_rank_hit_loss_top3": 0.902,
+   "count_rank_hit_count_top3": 0.956,
+   "loss_rank_top1_right": 0.857,
+   "count_rank_top1_right_for_loss": 0.477
+  },
+  {
+   "defects_per_month": 300,
+   "sig_case": 1.5,
+   "months": 12,
+   "count_rank_hit_loss_top3": 0.61,
+   "loss_rank_hit_loss_top3": 0.921,
+   "count_rank_hit_count_top3": 0.963,
+   "loss_rank_top1_right": 0.91,
+   "count_rank_top1_right_for_loss": 0.437
+  },
+  {
+   "defects_per_month": 30,
+   "sig_case": 0.5,
+   "months": 1,
+   "count_rank_hit_loss_top3": 0.554,
+   "loss_rank_hit_loss_top3": 0.717,
+   "count_rank_hit_count_top3": 0.709,
+   "loss_rank_top1_right": 0.643,
+   "count_rank_top1_right_for_loss": 0.373
+  },
+  {
+   "defects_per_month": 30,
+   "sig_case": 0.5,
+   "months": 3,
+   "count_rank_hit_loss_top3": 0.581,
+   "loss_rank_hit_loss_top3": 0.829,
+   "count_rank_hit_count_top3": 0.839,
+   "loss_rank_top1_right": 0.817,
+   "count_rank_top1_right_for_loss": 0.4
+  },
+  {
+   "defects_per_month": 30,
+   "sig_case": 0.5,
+   "months": 6,
+   "count_rank_hit_loss_top3": 0.607,
+   "loss_rank_hit_loss_top3": 0.861,
+   "count_rank_hit_count_top3": 0.877,
+   "loss_rank_top1_right": 0.847,
+   "count_rank_top1_right_for_loss": 0.423
+  },
+  {
+   "defects_per_month": 30,
+   "sig_case": 0.5,
+   "months": 12,
+   "count_rank_hit_loss_top3": 0.602,
+   "loss_rank_hit_loss_top3": 0.903,
+   "count_rank_hit_count_top3": 0.907,
+   "loss_rank_top1_right": 0.89,
+   "count_rank_top1_right_for_loss": 0.45
+  },
+  {
+   "defects_per_month": 30,
+   "sig_case": 1.0,
+   "months": 1,
+   "count_rank_hit_loss_top3": 0.543,
+   "loss_rank_hit_loss_top3": 0.678,
+   "count_rank_hit_count_top3": 0.761,
+   "loss_rank_top1_right": 0.647,
+   "count_rank_top1_right_for_loss": 0.383
+  },
+  {
+   "defects_per_month": 30,
+   "sig_case": 1.0,
+   "months": 3,
+   "count_rank_hit_loss_top3": 0.599,
+   "loss_rank_hit_loss_top3": 0.787,
+   "count_rank_hit_count_top3": 0.826,
+   "loss_rank_top1_right": 0.7,
+   "count_rank_top1_right_for_loss": 0.43
+  },
+  {
+   "defects_per_month": 30,
+   "sig_case": 1.0,
+   "months": 6,
+   "count_rank_hit_loss_top3": 0.596,
+   "loss_rank_hit_loss_top3": 0.806,
+   "count_rank_hit_count_top3": 0.878,
+   "loss_rank_top1_right": 0.797,
+   "count_rank_top1_right_for_loss": 0.413
+  },
+  {
+   "defects_per_month": 30,
+   "sig_case": 1.0,
+   "months": 12,
+   "count_rank_hit_loss_top3": 0.591,
+   "loss_rank_hit_loss_top3": 0.877,
+   "count_rank_hit_count_top3": 0.909,
+   "loss_rank_top1_right": 0.827,
+   "count_rank_top1_right_for_loss": 0.41
+  },
+  {
+   "defects_per_month": 30,
+   "sig_case": 1.5,
+   "months": 1,
+   "count_rank_hit_loss_top3": 0.548,
+   "loss_rank_hit_loss_top3": 0.647,
+   "count_rank_hit_count_top3": 0.733,
+   "loss_rank_top1_right": 0.523,
+   "count_rank_top1_right_for_loss": 0.417
+  },
+  {
+   "defects_per_month": 30,
+   "sig_case": 1.5,
+   "months": 3,
+   "count_rank_hit_loss_top3": 0.583,
+   "loss_rank_hit_loss_top3": 0.714,
+   "count_rank_hit_count_top3": 0.831,
+   "loss_rank_top1_right": 0.683,
+   "count_rank_top1_right_for_loss": 0.397
+  },
+  {
+   "defects_per_month": 30,
+   "sig_case": 1.5,
+   "months": 6,
+   "count_rank_hit_loss_top3": 0.59,
+   "loss_rank_hit_loss_top3": 0.773,
+   "count_rank_hit_count_top3": 0.891,
+   "loss_rank_top1_right": 0.69,
+   "count_rank_top1_right_for_loss": 0.403
+  },
+  {
+   "defects_per_month": 30,
+   "sig_case": 1.5,
+   "months": 12,
+   "count_rank_hit_loss_top3": 0.592,
+   "loss_rank_hit_loss_top3": 0.812,
+   "count_rank_hit_count_top3": 0.909,
+   "loss_rank_top1_right": 0.71,
+   "count_rank_top1_right_for_loss": 0.45
+  }
+ ]
+}

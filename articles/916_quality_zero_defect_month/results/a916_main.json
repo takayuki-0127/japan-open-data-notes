@@ -1,0 +1,114 @@
+{
+ "settings": {
+  "n_line": 100,
+  "months": 12,
+  "p_median": 0.001,
+  "p_sd_log": 0.8,
+  "n_range": [
+   200,
+   20000
+  ],
+  "n_rep": 400,
+  "formula_check_draws": 200000,
+  "pair_years": 20000,
+  "grid_reps": 150
+ },
+ "by_volume_true_0_1pct": [
+  {
+   "n_per_month": 300,
+   "p_zero_formula": 0.740707,
+   "p_zero_sim": 0.7409,
+   "upper95_if_zero": 0.00994,
+   "rule_of_three": 0.01,
+   "zero_months_per_year": 8.89
+  },
+  {
+   "n_per_month": 1000,
+   "p_zero_formula": 0.367695,
+   "p_zero_sim": 0.3686,
+   "upper95_if_zero": 0.00299,
+   "rule_of_three": 0.003,
+   "zero_months_per_year": 4.41
+  },
+  {
+   "n_per_month": 3000,
+   "p_zero_formula": 0.049712,
+   "p_zero_sim": 0.0501,
+   "upper95_if_zero": 0.001,
+   "rule_of_three": 0.001,
+   "zero_months_per_year": 0.6
+  },
+  {
+   "n_per_month": 10000,
+   "p_zero_formula": 4.5e-05,
+   "p_zero_sim": 0.0001,
+   "upper95_if_zero": 0.0003,
+   "rule_of_three": 0.0003,
+   "zero_months_per_year": 0.0
+  }
+ ],
+ "pair_X_small_Y_large": {
+  "X": {
+   "n": 500,
+   "p": 0.003
+  },
+  "Y": {
+   "n": 5000,
+   "p": 0.0005
+  },
+  "zero_months_mean_X": 2.67,
+  "zero_months_mean_Y": 0.97,
+  "P_X_more_zero_months": 0.7591,
+  "P_tie_zero_months": 0.1481,
+  "P_X_lower_pooled_rate": 0.0,
+  "defects_per_year_X": 17.98,
+  "defects_per_year_Y": 30.05
+ },
+ "lines100_base": {
+  "share_zero_months": 0.2781,
+  "zero_months_true_ge_0_1pct": 0.3049,
+  "zero_months_true_above_upper95": 0.0097,
+  "spearman_zero_months": 0.409,
+  "spearman_pooled_rate": 0.923,
+  "top10_hit_zero_months": 0.321,
+  "top10_hit_pooled_rate": 0.636
+ },
+ "sensitivity": {
+  "n_settings": 12,
+  "pooled_beats_zero_spearman": 12,
+  "pooled_beats_zero_top10": 12,
+  "zero_true_ge_range": [
+   0.0832,
+   0.4071
+  ],
+  "above_upper95_range_detect1": [
+   0.0096,
+   0.0411
+  ],
+  "above_upper95_range_detect07": [
+   0.0228,
+   0.0784
+  ],
+  "above_upper95_gt5pct_detect07": 2,
+  "spearman_zero_range": [
+   0.214,
+   0.86
+  ],
+  "spearman_pooled_range": [
+   0.753,
+   0.978
+  ],
+  "share_zero_months_range": [
+   0.1513,
+   0.3515
+  ]
+ },
+ "one_draw": {
+  "zero_months": 337,
+  "line_months": 1200,
+  "lines_with_6plus_zero_months": 31,
+  "lines_6plus_zero_true_ge_0_1pct": 5,
+  "spearman_zero_months_vs_low_volume": 0.837,
+  "spearman_zero_months_vs_low_true_rate": 0.442
+ }
+}

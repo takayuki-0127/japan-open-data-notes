@@ -1,0 +1,227 @@
+{
+ "settings": {
+  "n_part": 2000,
+  "n_rep": 300,
+  "size_sd_log": 0.6,
+  "limit_mm": 1.0,
+  "base_p_defect": 0.05,
+  "base_eye_sd": 0.2,
+  "thresholds_mm": {
+   "A": 0.85,
+   "B": 1.0,
+   "C": 1.2,
+   "D": 1.2
+  },
+  "reference_reps": 5000,
+  "grid_reps": 100
+ },
+ "true_defect_rate_mean": 0.0499,
+ "inspectors": [
+  {
+   "inspector": "A（厳しめ）",
+   "reported": 0.0959,
+   "miss": 0.0616,
+   "false_reject": 0.0517
+  },
+  {
+   "inspector": "B（線どおり）",
+   "reported": 0.0591,
+   "miss": 0.2,
+   "false_reject": 0.0202
+  },
+  {
+   "inspector": "C（甘め）",
+   "reported": 0.0322,
+   "miss": 0.4413,
+   "false_reject": 0.0046
+  },
+  {
+   "inspector": "D（甘め）",
+   "reported": 0.0323,
+   "miss": 0.4394,
+   "false_reject": 0.0046
+  },
+  {
+   "inspector": "A・B・Cの多数決",
+   "reported": 0.0539,
+   "miss": 0.1645,
+   "false_reject": 0.0129
+  }
+ ],
+ "pairs": [
+  {
+   "pair": "A-B",
+   "agree": 0.9411,
+   "kappa": 0.59,
+   "both_miss_per_defect": 0.0233
+  },
+  {
+   "pair": "A-C",
+   "agree": 0.9311,
+   "kappa": 0.435,
+   "both_miss_per_defect": 0.0436
+  },
+  {
+   "pair": "A-D",
+   "agree": 0.9311,
+   "kappa": 0.434,
+   "both_miss_per_defect": 0.0428
+  },
+  {
+   "pair": "B-C",
+   "agree": 0.9604,
+   "kappa": 0.546,
+   "both_miss_per_defect": 0.1332
+  },
+  {
+   "pair": "B-D",
+   "agree": 0.9602,
+   "kappa": 0.545,
+   "both_miss_per_defect": 0.1306
+  },
+  {
+   "pair": "C-D",
+   "agree": 0.9749,
+   "kappa": 0.597,
+   "both_miss_per_defect": 0.2682
+  }
+ ],
+ "reported_ratio_A_over_C": 2.98,
+ "reference_set_C_miss": {
+  "true_miss_C": 0.447,
+  "true_false_reject_A": 0.052,
+  "by_n_defect_samples": {
+   "10": {
+    "p10": 0.3,
+    "p90": 0.6,
+    "mean": 0.446
+   },
+   "30": {
+    "p10": 0.333,
+    "p90": 0.567,
+    "mean": 0.445
+   },
+   "100": {
+    "p10": 0.38,
+    "p90": 0.51,
+    "mean": 0.448
+   }
+  }
+ },
+ "one_round": {
+  "true_defects": 88,
+  "reported": {
+   "A": 177,
+   "B": 110,
+   "C": 64,
+   "D": 56
+  },
+  "agree_A_C": 0.9365
+ },
+ "sensitivity": {
+  "n_settings": 9,
+  "agree_C_D_gt_A_B": 9,
+  "both_miss_C_D_gt_A_C": 9,
+  "kappa_C_D_gt_A_B": 6,
+  "kappa_C_D_range": [
+   0.278,
+   0.829
+  ],
+  "kappa_A_B_range": [
+   0.312,
+   0.752
+  ],
+  "agree_A_C_range": [
+   0.7726,
+   0.9834
+  ],
+  "kappa_A_C_range": [
+   0.242,
+   0.539
+  ],
+  "miss_C_range": [
+   0.3573,
+   0.526
+  ],
+  "fr_A_range": [
+   0.0114,
+   0.1831
+  ],
+  "by_p": {
+   "0.01": {
+    "agree_A_C": [
+     0.9571,
+     0.9834
+    ],
+    "kappa_A_C": [
+     0.242,
+     0.361
+    ],
+    "miss_C": [
+     0.4997,
+     0.526
+    ]
+   },
+   "0.05": {
+    "agree_A_C": [
+     0.8867,
+     0.9398
+    ],
+    "kappa_A_C": [
+     0.321,
+     0.454
+    ],
+    "miss_C": [
+     0.4357,
+     0.4592
+    ]
+   },
+   "0.2": {
+    "agree_A_C": [
+     0.7726,
+     0.843
+    ],
+    "kappa_A_C": [
+     0.399,
+     0.539
+    ],
+    "miss_C": [
+     0.3573,
+     0.3887
+    ]
+   }
+  },
+  "by_eye": {
+   "0.1": {
+    "miss_C": [
+     0.3573,
+     0.526
+    ],
+    "kappa_A_C": [
+     0.361,
+     0.539
+    ]
+   },
+   "0.2": {
+    "miss_C": [
+     0.3587,
+     0.4997
+    ],
+    "kappa_A_C": [
+     0.335,
+     0.517
+    ]
+   },
+   "0.4": {
+    "miss_C": [
+     0.3887,
+     0.5011
+    ],
+    "kappa_A_C": [
+     0.242,
+     0.399
+    ]
+   }
+  }
+ }
+}

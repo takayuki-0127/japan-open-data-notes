@@ -1,0 +1,300 @@
+{
+ "settings": {
+  "mix_shift_sd": 0.75,
+  "t_df": 4,
+  "gamma_shape": 4.0,
+  "n_normal_table": 16,
+  "pieces_by_shape": 2000000,
+  "pieces_grid": 1000000,
+  "sample_reps": 4000,
+  "sample_sizes": [
+   30,
+   100
+  ]
+ },
+ "spec": {
+  "LSL": 49.9,
+  "USL": 50.1
+ },
+ "base": {
+  "mean": 50.02,
+  "sd": 0.04,
+  "out_pct_normal_formula": 2.41,
+  "below_pct_formula": 0.135,
+  "above_pct_formula": 2.275,
+  "cpk": 0.667
+ },
+ "normal_table": [
+  {
+   "mean": 50.0,
+   "sd": 0.02,
+   "out_pct": 0.0,
+   "cpk": 1.67
+  },
+  {
+   "mean": 50.0,
+   "sd": 0.03,
+   "out_pct": 0.086,
+   "cpk": 1.11
+  },
+  {
+   "mean": 50.0,
+   "sd": 0.04,
+   "out_pct": 1.242,
+   "cpk": 0.83
+  },
+  {
+   "mean": 50.0,
+   "sd": 0.05,
+   "out_pct": 4.55,
+   "cpk": 0.67
+  },
+  {
+   "mean": 50.02,
+   "sd": 0.02,
+   "out_pct": 0.003,
+   "cpk": 1.33
+  },
+  {
+   "mean": 50.02,
+   "sd": 0.03,
+   "out_pct": 0.386,
+   "cpk": 0.89
+  },
+  {
+   "mean": 50.02,
+   "sd": 0.04,
+   "out_pct": 2.41,
+   "cpk": 0.67
+  },
+  {
+   "mean": 50.02,
+   "sd": 0.05,
+   "out_pct": 6.3,
+   "cpk": 0.53
+  },
+  {
+   "mean": 50.04,
+   "sd": 0.02,
+   "out_pct": 0.135,
+   "cpk": 1.0
+  },
+  {
+   "mean": 50.04,
+   "sd": 0.03,
+   "out_pct": 2.275,
+   "cpk": 0.67
+  },
+  {
+   "mean": 50.04,
+   "sd": 0.04,
+   "out_pct": 6.704,
+   "cpk": 0.5
+  },
+  {
+   "mean": 50.04,
+   "sd": 0.05,
+   "out_pct": 11.762,
+   "cpk": 0.4
+  },
+  {
+   "mean": 50.06,
+   "sd": 0.02,
+   "out_pct": 2.275,
+   "cpk": 0.67
+  },
+  {
+   "mean": 50.06,
+   "sd": 0.03,
+   "out_pct": 9.121,
+   "cpk": 0.44
+  },
+  {
+   "mean": 50.06,
+   "sd": 0.04,
+   "out_pct": 15.869,
+   "cpk": 0.33
+  },
+  {
+   "mean": 50.06,
+   "sd": 0.05,
+   "out_pct": 21.254,
+   "cpk": 0.27
+  }
+ ],
+ "by_shape": [
+  {
+   "shape": "山が1つ（正規分布）",
+   "mean": 50.02,
+   "sd": 0.04,
+   "out_pct": 2.414,
+   "below_pct": 0.137,
+   "above_pct": 2.277
+  },
+  {
+   "shape": "機械2台の混ざり",
+   "mean": 50.02,
+   "sd": 0.04,
+   "out_pct": 1.502,
+   "below_pct": 0.018,
+   "above_pct": 1.484
+  },
+  {
+   "shape": "すそが重い",
+   "mean": 50.02,
+   "sd": 0.04,
+   "out_pct": 3.049,
+   "below_pct": 0.671,
+   "above_pct": 2.378
+  },
+  {
+   "shape": "片側に長い",
+   "mean": 50.02,
+   "sd": 0.04,
+   "out_pct": 4.234,
+   "below_pct": 0.0,
+   "above_pct": 4.234
+  }
+ ],
+ "sample_estimates": [
+  {
+   "shape": "山が1つ（正規分布）",
+   "n": 30,
+   "true_out_pct": 2.414,
+   "mean_in_spec_pct": 100.0,
+   "zero_out_in_sample_pct": 48.33,
+   "count_est_mean_pct": 2.418,
+   "normal_est_median_pct": 2.36,
+   "normal_est_p10_pct": 0.709,
+   "normal_est_p90_pct": 5.316,
+   "normal_est_mean_pct": 2.746
+  },
+  {
+   "shape": "山が1つ（正規分布）",
+   "n": 100,
+   "true_out_pct": 2.414,
+   "mean_in_spec_pct": 100.0,
+   "zero_out_in_sample_pct": 8.33,
+   "count_est_mean_pct": 2.395,
+   "normal_est_median_pct": 2.411,
+   "normal_est_p10_pct": 1.336,
+   "normal_est_p90_pct": 3.822,
+   "normal_est_mean_pct": 2.52
+  },
+  {
+   "shape": "機械2台の混ざり",
+   "n": 30,
+   "true_out_pct": 1.502,
+   "mean_in_spec_pct": 100.0,
+   "zero_out_in_sample_pct": 63.25,
+   "count_est_mean_pct": 1.48,
+   "normal_est_median_pct": 2.461,
+   "normal_est_p10_pct": 0.854,
+   "normal_est_p90_pct": 4.906,
+   "normal_est_mean_pct": 2.721
+  },
+  {
+   "shape": "機械2台の混ざり",
+   "n": 100,
+   "true_out_pct": 1.502,
+   "mean_in_spec_pct": 100.0,
+   "zero_out_in_sample_pct": 21.95,
+   "count_est_mean_pct": 1.483,
+   "normal_est_median_pct": 2.402,
+   "normal_est_p10_pct": 1.435,
+   "normal_est_p90_pct": 3.637,
+   "normal_est_mean_pct": 2.491
+  },
+  {
+   "shape": "すそが重い",
+   "n": 30,
+   "true_out_pct": 3.049,
+   "mean_in_spec_pct": 100.0,
+   "zero_out_in_sample_pct": 39.45,
+   "count_est_mean_pct": 3.024,
+   "normal_est_median_pct": 1.704,
+   "normal_est_p10_pct": 0.239,
+   "normal_est_p90_pct": 7.081,
+   "normal_est_mean_pct": 2.998
+  },
+  {
+   "shape": "すそが重い",
+   "n": 100,
+   "true_out_pct": 3.049,
+   "mean_in_spec_pct": 100.0,
+   "zero_out_in_sample_pct": 4.8,
+   "count_est_mean_pct": 3.039,
+   "normal_est_median_pct": 2.031,
+   "normal_est_p10_pct": 0.73,
+   "normal_est_p90_pct": 4.946,
+   "normal_est_mean_pct": 2.633
+  },
+  {
+   "shape": "片側に長い",
+   "n": 30,
+   "true_out_pct": 4.234,
+   "mean_in_spec_pct": 100.0,
+   "zero_out_in_sample_pct": 26.35,
+   "count_est_mean_pct": 4.318,
+   "normal_est_median_pct": 2.114,
+   "normal_est_p10_pct": 0.343,
+   "normal_est_p90_pct": 6.945,
+   "normal_est_mean_pct": 3.013
+  },
+  {
+   "shape": "片側に長い",
+   "n": 100,
+   "true_out_pct": 4.234,
+   "mean_in_spec_pct": 100.0,
+   "zero_out_in_sample_pct": 1.45,
+   "count_est_mean_pct": 4.273,
+   "normal_est_median_pct": 2.363,
+   "normal_est_p10_pct": 0.96,
+   "normal_est_p90_pct": 4.684,
+   "normal_est_mean_pct": 2.648
+  }
+ ],
+ "sensitivity": {
+  "n_settings": 9,
+  "by_shape_ratio_range": {
+   "山が1つ（正規分布）": [
+    0.94,
+    1.01
+   ],
+   "機械2台の混ざり": [
+    0.05,
+    1.07
+   ],
+   "すそが重い": [
+    0.77,
+    10.69
+   ],
+   "片側に長い": [
+    0.93,
+    7.33
+   ]
+  },
+  "by_shape_true_out_range": {
+   "山が1つ（正規分布）": [
+    0.081,
+    11.726
+   ],
+   "機械2台の混ざり": [
+    0.004,
+    12.574
+   ],
+   "すそが重い": [
+    0.919,
+    9.083
+   ],
+   "片側に長い": [
+    0.63,
+    11.859
+   ]
+  },
+  "formula_out_range": [
+   0.086,
+   11.762
+  ]
+ }
+}
