@@ -1,0 +1,93 @@
+{
+ "examples": [
+  {
+   "x_pct": 5,
+   "up_then_down": 99.75,
+   "down_then_up": 99.75,
+   "loss_pct": 0.25,
+   "needed_up_after_down_pct": 5.26
+  },
+  {
+   "x_pct": 10,
+   "up_then_down": 99.0,
+   "down_then_up": 99.0,
+   "loss_pct": 1.0,
+   "needed_up_after_down_pct": 11.11
+  },
+  {
+   "x_pct": 20,
+   "up_then_down": 96.0,
+   "down_then_up": 96.0,
+   "loss_pct": 4.0,
+   "needed_up_after_down_pct": 25.0
+  },
+  {
+   "x_pct": 30,
+   "up_then_down": 91.0,
+   "down_then_up": 91.0,
+   "loss_pct": 9.0,
+   "needed_up_after_down_pct": 42.86
+  },
+  {
+   "x_pct": 50,
+   "up_then_down": 75.0,
+   "down_then_up": 75.0,
+   "loss_pct": 25.0,
+   "needed_up_after_down_pct": 100.0
+  }
+ ],
+ "base_1000shops_24months": {
+  "mean_of_monthly": 0.035,
+  "end_mean": 1.012,
+  "end_median": 0.92,
+  "end_p10": 0.45,
+  "end_p90": 1.734,
+  "share_below_start": 0.577,
+  "share_meanpos_but_down": 0.097,
+  "share_meanpos": 0.52,
+  "share_down_among_meanpos": 0.187,
+  "geo_month": -0.481,
+  "median_rule_of_thumb": 0.887
+ },
+ "paths": {
+  "mean_m24": 101.23,
+  "median_m24": 92.0,
+  "p10_m24": 44.98,
+  "p90_m24": 173.4
+ },
+ "robustness_summary": {
+  "drift0_end_median_min": 0.044,
+  "drift0_end_median_max": 0.986,
+  "drift0_below_min": 0.53,
+  "drift0_below_max": 0.893,
+  "drift0_end_mean_min": 0.76,
+  "drift0_end_mean_max": 1.137,
+  "drift1_end_median_min": 0.095,
+  "drift1_end_median_max": 1.699,
+  "drift1_below_min": 0.077,
+  "drift1_below_max": 0.831,
+  "coin_24months_end_median": {
+   "sigma5": 0.97,
+   "sigma10": 0.886,
+   "sigma20": 0.613,
+   "sigma30": 0.322
+  },
+  "drift1_sigma20_m24": {
+   "end_mean": 1.248,
+   "end_median": 0.764,
+   "share_below_start": 0.595
+  },
+  "drift0_sigma10_m24_2000shops": {
+   "end_mean": 1.029,
+   "end_median": 0.904,
+   "share_below_start": 0.585
+  },
+  "coin_24months_formula": {
+   "sigma5": 0.97,
+   "sigma10": 0.886,
+   "sigma20": 0.613,
+   "sigma30": 0.322
+  }
+ },
+ "note": "上がって下がると (1+x)(1−x)＝1−x² で、x² だけ減る（式どおり）。順番を逆にしても同じ"
+}

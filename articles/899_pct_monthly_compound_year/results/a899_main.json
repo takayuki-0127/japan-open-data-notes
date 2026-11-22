@@ -1,0 +1,106 @@
+{
+ "examples": [
+  {
+   "monthly_pct": 1,
+   "times_12": 12,
+   "compound_12": 12.68,
+   "times_24": 24,
+   "compound_24": 26.97,
+   "times_36": 36,
+   "compound_36": 43.08
+  },
+  {
+   "monthly_pct": 2,
+   "times_12": 24,
+   "compound_12": 26.82,
+   "times_24": 48,
+   "compound_24": 60.84,
+   "times_36": 72,
+   "compound_36": 103.99
+  },
+  {
+   "monthly_pct": 3,
+   "times_12": 36,
+   "compound_12": 42.58,
+   "times_24": 72,
+   "compound_24": 103.28,
+   "times_36": 108,
+   "compound_36": 189.83
+  },
+  {
+   "monthly_pct": 5,
+   "times_12": 60,
+   "compound_12": 79.59,
+   "times_24": 120,
+   "compound_24": 222.51,
+   "times_36": 180,
+   "compound_36": 479.18
+  },
+  {
+   "monthly_pct": 10,
+   "times_12": 120,
+   "compound_12": 213.84,
+   "times_24": 240,
+   "compound_24": 884.97,
+   "times_36": 360,
+   "compound_36": 2991.27
+  }
+ ],
+ "reverse_and_members": {
+  "annual_36_monthly_compound": 2.595,
+  "annual_36_monthly_divide12": 3.0,
+  "annual_42_6_divide12": 3.548,
+  "members_after_12_compound": 14257.6,
+  "members_after_12_linear": 13600.0,
+  "members_after_36_compound": 28982.8,
+  "members_after_36_linear": 20800.0,
+  "ratio_after_36_compound": 2.9
+ },
+ "base_1000companies_12months": {
+  "actual_mean": 42.16,
+  "actual_median": 41.85,
+  "actual_p10": 30.53,
+  "actual_p90": 54.69,
+  "times12_mean": 35.7,
+  "compound_mean": 42.45,
+  "err_times12_mean": -6.46,
+  "err_compound_mean": 0.29,
+  "err_times12_median": -6.16,
+  "err_compound_median": 0.27,
+  "share_times12_below_actual": 1.0,
+  "share_compound_closer": 1.0
+ },
+ "robustness_summary": {
+  "share_compound_closer_min": 0.147,
+  "share_compound_closer_max": 1.0,
+  "err_times_median_min": -299.18,
+  "err_times_median_max": 7.45,
+  "err_compound_median_min": 0.0,
+  "err_compound_median_max": 81.74,
+  "g3_sd10_m12": {
+   "actual_median": 34.82,
+   "times_mean": 35.34,
+   "compound_mean": 49.39,
+   "err_times_median": -0.48,
+   "err_compound_median": 6.78,
+   "share_compound_closer": 0.308
+  },
+  "g3_sd10_m36": {
+   "actual_median": 150.02,
+   "times_mean": 109.83,
+   "compound_mean": 247.72,
+   "err_times_median": -40.46,
+   "err_compound_median": 44.33,
+   "share_compound_closer": 0.474
+  },
+  "g1_sd10_m12": {
+   "actual_median": 6.25,
+   "times_mean": 11.84,
+   "compound_mean": 18.73,
+   "err_times_median": 2.2,
+   "err_compound_median": 5.59,
+   "share_compound_closer": 0.184
+  }
+ },
+ "note": "振れのない例は (1+g)^月数 − 1 の式どおり。×月数との差は、伸びた分にまた伸びがかかる分"
+}

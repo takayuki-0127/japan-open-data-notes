@@ -1,0 +1,81 @@
+{
+ "settings": {
+  "n_shop": 5000,
+  "years": 6,
+  "growth_mean": 0.05,
+  "growth_sd_by_year": 0.03,
+  "sigma_month": 0.06,
+  "seed": 901
+ },
+ "example_shop": [
+  {
+   "year": 3,
+   "month": 7,
+   "sales": 964,
+   "yoy": 0.8796,
+   "yoy_of_yoy": 0.8314,
+   "two_year": 0.9305
+  },
+  {
+   "year": 4,
+   "month": 7,
+   "sales": 1177,
+   "yoy": 1.221,
+   "yoy_of_yoy": 1.3881,
+   "two_year": 1.0739
+  },
+  {
+   "year": 5,
+   "month": 7,
+   "sales": 1261,
+   "yoy": 1.0714,
+   "yoy_of_yoy": 0.8775,
+   "two_year": 1.3081
+  },
+  {
+   "year": 6,
+   "month": 7,
+   "sales": 1318,
+   "yoy": 1.0452,
+   "yoy_of_yoy": 0.9756,
+   "two_year": 1.1198
+  }
+ ],
+ "identity_max_err": 2.22e-16,
+ "base": {
+  "share_yy_below_100": 0.5002,
+  "share_sales_up_among_yy_below_100": 0.4528,
+  "share_sales_up_all": 0.7089,
+  "sign_agree_true_yy": 0.5599,
+  "sign_agree_true_yy_t35": 0.5604,
+  "sign_agree_annual_total_t35": 0.5985,
+  "sign_agree_yoy_vs_true_yoy": 0.7111,
+  "sd_log_yy": 0.1501,
+  "sd_log_true_yy": 0.0288,
+  "sd_noise_part": 0.1474,
+  "sd_log_yoy": 0.0882,
+  "sd_log_true_yoy": 0.0233,
+  "corr_yy_lastyear_noise": -0.8021,
+  "share_big_drop_lt95": 0.3656,
+  "share_big_drop_true_slowdown_lt95": 0.056,
+  "share_big_drop_lastyear_noise_pos": 0.8722
+ },
+ "theory": {
+  "noise_var_multiple_yy_vs_level": 6,
+  "noise_var_multiple_yoy_vs_level": 2,
+  "corr_yy_lastyear_noise_if_noise_only": -0.8165,
+  "sd_noise_part_theory": 0.147
+ },
+ "sensitivity_range": {
+  "sign_agree_true_yy_min": 0.5088,
+  "sign_agree_annual_total_t35_min": 0.5177,
+  "share_sales_up_among_yy_below_100_min": 0.2988,
+  "corr_yy_lastyear_noise_min": -0.8153,
+  "share_big_drop_true_slowdown_lt95_min": 0.0,
+  "sign_agree_true_yy_max": 0.7645,
+  "sign_agree_annual_total_t35_max": 0.7036,
+  "share_sales_up_among_yy_below_100_max": 0.9042,
+  "corr_yy_lastyear_noise_max": -0.5261,
+  "share_big_drop_true_slowdown_lt95_max": 0.5005
+ }
+}

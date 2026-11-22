@@ -1,0 +1,129 @@
+{
+ "settings": {
+  "n_campaign": 40,
+  "target_share_mid": 0.3,
+  "use_rate_mid": 0.12,
+  "sd_s_logit": 0.6,
+  "sd_q_logit": 0.6,
+  "rho": -0.3,
+  "members_median": 20000,
+  "n_pairs": 780,
+  "seed": 902
+ },
+ "one_draw": {
+  "spearman": 0.7839,
+  "pair_flip": 0.2026,
+  "top1_same": 1,
+  "top5_overlap": 1,
+  "mixed_target_reported_wins": 0.9917,
+  "mixed_agree_with_target": 0.5026,
+  "mixed_agree_with_all": 0.5154,
+  "max_rank_change": 24,
+  "share_rank_change_ge10": 0.125,
+  "top_by_target": {
+   "campaign": 23,
+   "rank_all": 1,
+   "rate_target": 0.3031,
+   "rate_all": 0.0952,
+   "target_share": 0.3141
+  },
+  "top_by_all": {
+   "campaign": 23,
+   "rank_target": 1,
+   "rate_target": 0.3031,
+   "rate_all": 0.0952,
+   "target_share": 0.3141
+  }
+ },
+ "reps_500": {
+  "spearman": {
+   "mean": 0.6793,
+   "p10": 0.5557,
+   "p90": 0.786
+  },
+  "pair_flip": {
+   "mean": 0.2486,
+   "p10": 0.2024,
+   "p90": 0.3026
+  },
+  "top1_same": {
+   "mean": 0.27,
+   "p10": 0.0,
+   "p90": 1.0
+  },
+  "top5_overlap": {
+   "mean": 2.364,
+   "p10": 1.0,
+   "p90": 4.0
+  },
+  "mixed_target_reported_wins": {
+   "mean": 0.9468,
+   "p10": 0.9205,
+   "p90": 0.9718
+  },
+  "mixed_agree_with_target": {
+   "mean": 0.5504,
+   "p10": 0.4833,
+   "p90": 0.6194
+  },
+  "mixed_agree_with_all": {
+   "mean": 0.5521,
+   "p10": 0.4832,
+   "p90": 0.6181
+  }
+ },
+ "sensitivity_range": {
+  "spearman_min": 0.2273,
+  "spearman_max": 0.9292,
+  "pair_flip_min": 0.1059,
+  "pair_flip_max": 0.4189,
+  "top1_same_min": 0.09,
+  "top1_same_max": 0.665,
+  "mixed_target_reported_wins_min": 0.8861,
+  "mixed_target_reported_wins_max": 0.9641
+ },
+ "expand_example": [
+  {
+   "target_share": 0.05,
+   "targets": 5000,
+   "expected_used": 1812.7,
+   "rate_in_target": 0.3625,
+   "rate_all": 0.0181
+  },
+  {
+   "target_share": 0.1,
+   "targets": 10000,
+   "expected_used": 3296.8,
+   "rate_in_target": 0.3297,
+   "rate_all": 0.033
+  },
+  {
+   "target_share": 0.2,
+   "targets": 20000,
+   "expected_used": 5506.7,
+   "rate_in_target": 0.2753,
+   "rate_all": 0.0551
+  },
+  {
+   "target_share": 0.4,
+   "targets": 40000,
+   "expected_used": 7981.0,
+   "rate_in_target": 0.1995,
+   "rate_all": 0.0798
+  },
+  {
+   "target_share": 0.8,
+   "targets": 80000,
+   "expected_used": 9592.4,
+   "rate_in_target": 0.1199,
+   "rate_all": 0.0959
+  },
+  {
+   "target_share": 1.0,
+   "targets": 100000,
+   "expected_used": 9816.8,
+   "rate_in_target": 0.0982,
+   "rate_all": 0.0982
+  }
+ ]
+}

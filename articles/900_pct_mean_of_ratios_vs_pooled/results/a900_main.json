@@ -1,0 +1,80 @@
+{
+ "settings": {
+  "n_store": 200,
+  "median_visits": 3000,
+  "sig_log_visits": 0.8,
+  "rate_mid": 0.2,
+  "tau_logit": 0.5,
+  "rho": -0.4,
+  "seed": 900
+ },
+ "one_month": {
+  "pooled": 0.17964,
+  "mean_of_rates": 0.20689,
+  "median_of_rates": 0.19908,
+  "diff": 0.02725,
+  "formula_diff": 0.02725,
+  "t_company": 0.17874,
+  "t_store": 0.20663,
+  "share_visits_top20pct_stores": 0.4678,
+  "rate_top20pct_stores_pooled": 0.15799,
+  "rate_rest_pooled": 0.19868,
+  "min_visits": 393,
+  "max_visits": 22720,
+  "median_visits": 2866.5
+ },
+ "reps_1000": {
+  "diff_mean": 0.02445,
+  "diff_p10": 0.01779,
+  "diff_p90": 0.03115,
+  "share_mean_gt_pooled": 1.0,
+  "rel_diff_mean": 0.1315,
+  "max_abs_formula_error": 6.59e-17,
+  "t_company_mean": 0.18695,
+  "t_store_mean": 0.21139
+ },
+ "estimator_vs_target": [
+  {
+   "estimator": "合計で割る",
+   "target": "会社全体の本当の購入率",
+   "bias_pt": 0.001,
+   "sd_pt": 0.044,
+   "p10_pt": -0.054,
+   "p90_pt": 0.058
+  },
+  {
+   "estimator": "合計で割る",
+   "target": "店の本当の購入率の平均",
+   "bias_pt": -2.443,
+   "sd_pt": 0.535,
+   "p10_pt": -3.119,
+   "p90_pt": -1.763
+  },
+  {
+   "estimator": "店ごとの率の平均",
+   "target": "会社全体の本当の購入率",
+   "bias_pt": 2.445,
+   "sd_pt": 0.536,
+   "p10_pt": 1.779,
+   "p90_pt": 3.12
+  },
+  {
+   "estimator": "店ごとの率の平均",
+   "target": "店の本当の購入率の平均",
+   "bias_pt": 0.001,
+   "sd_pt": 0.064,
+   "p10_pt": -0.077,
+   "p90_pt": 0.085
+  }
+ ],
+ "sensitivity_range": {
+  "diff_mean_pt_min": -6.13,
+  "diff_mean_pt_max": 5.183,
+  "rho0_abs_mean_pt_max": 0.029,
+  "rho0_sig12_p10_pt": -1.121,
+  "rho0_sig12_p90_pt": 1.106,
+  "rho_neg06_sig12_pt": 5.183,
+  "rho_pos06_sig12_pt": -6.13,
+  "base_rho_m04_sig08_pt": 2.445
+ }
+}

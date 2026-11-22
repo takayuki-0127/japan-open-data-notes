@@ -1,0 +1,112 @@
+{
+ "examples": [
+  {
+   "example": "10%→12%（題名の例）",
+   "before": 10,
+   "after": 12,
+   "pt": 2,
+   "rel": 20.0,
+   "ratio_rel_over_pt": 10.0,
+   "pt_read_as_rel_after": 10.2,
+   "rel_read_as_pt_after": 30.0
+  },
+  {
+   "example": "購入率 4%→5%",
+   "before": 4,
+   "after": 5,
+   "pt": 1,
+   "rel": 25.0,
+   "ratio_rel_over_pt": 25.0,
+   "pt_read_as_rel_after": 4.04,
+   "rel_read_as_pt_after": 29.0
+  },
+  {
+   "example": "クーポンの利用率 30%→33%",
+   "before": 30,
+   "after": 33,
+   "pt": 3,
+   "rel": 10.0,
+   "ratio_rel_over_pt": 3.33,
+   "pt_read_as_rel_after": 30.9,
+   "rel_read_as_pt_after": 40.0
+  },
+  {
+   "example": "会員の継続率 80%→84%",
+   "before": 80,
+   "after": 84,
+   "pt": 4,
+   "rel": 5.0,
+   "ratio_rel_over_pt": 1.25,
+   "pt_read_as_rel_after": 83.2,
+   "rel_read_as_pt_after": 85.0
+  }
+ ],
+ "base_600": {
+  "n": 600,
+  "share_rel_bigger": 1.0,
+  "max_abs_err_ratio_vs_100_over_p0": 0.0,
+  "t5_all": {
+   "big_pt": 0.055,
+   "big_rel": 0.473,
+   "disagree": 0.418,
+   "big_rel_only": 0.418,
+   "big_pt_only": 0.0
+  },
+  "by_kind": {
+   "low": {
+    "name": "低い割合（購入率など、平均5%）",
+    "p0_median": 4.88,
+    "ratio_median": 20.49,
+    "pt_abs_median": 0.44,
+    "rel_abs_median": 9.2,
+    "t5": {
+     "big_pt": 0.0,
+     "big_rel": 0.76,
+     "disagree": 0.76,
+     "big_rel_only": 0.76,
+     "big_pt_only": 0.0
+    }
+   },
+   "mid": {
+    "name": "中くらい（クーポンの利用率など、平均30%）",
+    "p0_median": 29.32,
+    "ratio_median": 3.41,
+    "pt_abs_median": 2.04,
+    "rel_abs_median": 6.96,
+    "t5": {
+     "big_pt": 0.145,
+     "big_rel": 0.6,
+     "disagree": 0.455,
+     "big_rel_only": 0.455,
+     "big_pt_only": 0.0
+    }
+   },
+   "high": {
+    "name": "高い割合（会員の継続率など、平均80%）",
+    "p0_median": 80.43,
+    "ratio_median": 1.24,
+    "pt_abs_median": 1.58,
+    "rel_abs_median": 1.96,
+    "t5": {
+     "big_pt": 0.02,
+     "big_rel": 0.06,
+     "disagree": 0.04,
+     "big_rel_only": 0.04,
+     "big_pt_only": 0.0
+    }
+   }
+  }
+ },
+ "robustness_disagree_all": {
+  "min": 0.26,
+  "max": 0.463,
+  "base_t5_logit": 0.442
+ },
+ "robustness_disagree_by_kind": {
+  "low_min": 0.338,
+  "low_max": 0.888,
+  "high_min": 0.0,
+  "high_max": 0.11
+ },
+ "note": "変わった率÷%ポイント＝100÷元の割合（%）。元の割合が100%未満なら変わった率の数字のほうが必ず大きい（式どおり）"
+}
