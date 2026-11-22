@@ -1,0 +1,247 @@
+{
+ "flagged_300": {
+  "items_per_rep": 2000,
+  "reps": 50,
+  "flag_per_rep": 45.64,
+  "flag_share_y0_le3": 0.4233,
+  "flag_median_y0": 6.0,
+  "flag_share_grower": 0.6516,
+  "flag_median_true_pct": 255.7,
+  "grower_share_flagged": 0.3,
+  "nongrower_flag_per_rep": 15.9,
+  "y0_zero_share": 0.0123,
+  "y0_zero_y1_pos_share": 0.0092,
+  "grower_share_all": 0.0496,
+  "flag_y0ge10_per_rep": 19.06,
+  "flag_y0ge10_share_grower": 1.0,
+  "grower_share_flagged_y0ge10": 0.1923
+ },
+ "by_base": [
+  {
+   "y0_bucket": "1個",
+   "items_per_rep": 42.1,
+   "flag_per_rep": 11.92,
+   "flag_rate": 0.283,
+   "flag_share_grower": 0.099,
+   "nongrower_flag_rate": 0.2661
+  },
+  {
+   "y0_bucket": "2〜3個",
+   "items_per_rep": 115.3,
+   "flag_per_rep": 7.4,
+   "flag_rate": 0.0642,
+   "flag_share_grower": 0.3946,
+   "nongrower_flag_rate": 0.0409
+  },
+  {
+   "y0_bucket": "4〜9個",
+   "items_per_rep": 371.0,
+   "flag_per_rep": 7.26,
+   "flag_rate": 0.0196,
+   "flag_share_grower": 0.9063,
+   "nongrower_flag_rate": 0.0019
+  },
+  {
+   "y0_bucket": "10〜29個",
+   "items_per_rep": 700.7,
+   "flag_per_rep": 9.6,
+   "flag_rate": 0.0137,
+   "flag_share_grower": 1.0,
+   "nongrower_flag_rate": 0.0
+  },
+  {
+   "y0_bucket": "30個以上",
+   "items_per_rep": 746.3,
+   "flag_per_rep": 9.46,
+   "flag_rate": 0.0127,
+   "flag_share_grower": 1.0,
+   "nongrower_flag_rate": 0.0
+  }
+ ],
+ "flat_item_swing": [
+  {
+   "rate": 1,
+   "y0_zero": 0.3675,
+   "ge300_among_computable": 0.0109,
+   "pct_p10": -100.0,
+   "pct_p90": 100.0
+  },
+  {
+   "rate": 2,
+   "y0_zero": 0.136,
+   "ge300_among_computable": 0.0454,
+   "pct_p10": -100.0,
+   "pct_p90": 200.0
+  },
+  {
+   "rate": 3,
+   "y0_zero": 0.0496,
+   "ge300_among_computable": 0.0585,
+   "pct_p10": -75.0,
+   "pct_p90": 200.0
+  },
+  {
+   "rate": 5,
+   "y0_zero": 0.007,
+   "ge300_among_computable": 0.0376,
+   "pct_p10": -60.0,
+   "pct_p90": 150.0
+  },
+  {
+   "rate": 10,
+   "y0_zero": 0.0,
+   "ge300_among_computable": 0.0054,
+   "pct_p10": -45.5,
+   "pct_p90": 83.3
+  },
+  {
+   "rate": 30,
+   "y0_zero": 0.0,
+   "ge300_among_computable": 0.0,
+   "pct_p10": -28.6,
+   "pct_p90": 40.0
+  },
+  {
+   "rate": 100,
+   "y0_zero": 0.0,
+   "ge300_among_computable": 0.0,
+   "pct_p10": -16.7,
+   "pct_p90": 20.0
+  }
+ ],
+ "ranking_top20": [
+  {
+   "method": "前年比（%）の大きい順",
+   "top20_share_grower": 0.73,
+   "top20_median_y0": 5.88
+  },
+  {
+   "method": "増えた個数の多い順",
+   "top20_share_grower": 0.964,
+   "top20_median_y0": 86.82
+  },
+  {
+   "method": "前年・今年に5個ずつ足した比",
+   "top20_share_grower": 1.0,
+   "top20_median_y0": 30.23
+  },
+  {
+   "method": "前年10個以上に絞って前年比の順",
+   "top20_share_grower": 0.999,
+   "top20_median_y0": 30.15
+  }
+ ],
+ "next_year": {
+  "伸びる品目": {
+   "n": 1487,
+   "median_y2_over_y1": 0.979,
+   "share_y2_lt_y1": 0.5528,
+   "share_y2_ge300_vs_y0": 0.8366
+  },
+  "ほかの品目": {
+   "n": 795,
+   "median_y2_over_y1": 0.636,
+   "share_y2_lt_y1": 0.7233,
+   "share_y2_ge300_vs_y0": 0.4239
+  },
+  "全体": {
+   "n": 2282,
+   "median_y2_over_y1": 0.934,
+   "share_y2_lt_y1": 0.6122,
+   "share_y2_ge300_vs_y0": 0.6928
+  }
+ },
+ "sensitivity": {
+  "rows": [
+   {
+    "p_grow": 0.01,
+    "base_median": 5.0,
+    "flag_per_2000": 48.55,
+    "flag_share_grower": 0.0968,
+    "flag_share_y0_le3": 0.9444,
+    "grower_share_flagged": 0.2618
+   },
+   {
+    "p_grow": 0.01,
+    "base_median": 20.0,
+    "flag_per_2000": 23.8,
+    "flag_share_grower": 0.2605,
+    "flag_share_y0_le3": 0.7542,
+    "grower_share_flagged": 0.2981
+   },
+   {
+    "p_grow": 0.01,
+    "base_median": 80.0,
+    "flag_per_2000": 7.9,
+    "flag_share_grower": 0.6646,
+    "flag_share_y0_le3": 0.3165,
+    "grower_share_flagged": 0.2652
+   },
+   {
+    "p_grow": 0.05,
+    "base_median": 5.0,
+    "flag_per_2000": 68.15,
+    "flag_share_grower": 0.4409,
+    "flag_share_y0_le3": 0.777,
+    "grower_share_flagged": 0.2984
+   },
+   {
+    "p_grow": 0.05,
+    "base_median": 20.0,
+    "flag_per_2000": 44.8,
+    "flag_share_grower": 0.6574,
+    "flag_share_y0_le3": 0.4263,
+    "grower_share_flagged": 0.2957
+   },
+   {
+    "p_grow": 0.05,
+    "base_median": 80.0,
+    "flag_per_2000": 28.05,
+    "flag_share_grower": 0.9198,
+    "flag_share_y0_le3": 0.0998,
+    "grower_share_flagged": 0.2532
+   },
+   {
+    "p_grow": 0.1,
+    "base_median": 5.0,
+    "flag_per_2000": 97.65,
+    "flag_share_grower": 0.5991,
+    "flag_share_y0_le3": 0.681,
+    "grower_share_flagged": 0.2964
+   },
+   {
+    "p_grow": 0.1,
+    "base_median": 20.0,
+    "flag_per_2000": 73.4,
+    "flag_share_grower": 0.8018,
+    "flag_share_y0_le3": 0.3065,
+    "grower_share_flagged": 0.2913
+   },
+   {
+    "p_grow": 0.1,
+    "base_median": 80.0,
+    "flag_per_2000": 54.75,
+    "flag_share_grower": 0.9626,
+    "flag_share_y0_le3": 0.0511,
+    "grower_share_flagged": 0.2615
+   }
+  ],
+  "flag_share_grower_min": 0.0968,
+  "flag_share_grower_max": 0.9626,
+  "flag_share_y0_le3_min": 0.0511,
+  "flag_share_y0_le3_max": 0.9444,
+  "grower_share_flagged_min": 0.2532,
+  "grower_share_flagged_max": 0.2984
+ },
+ "one_draw": {
+  "flag_n": 47,
+  "flag_grower_n": 32,
+  "flag_y0_le3_n": 18,
+  "grower_n": 115,
+  "y0_zero_n": 20,
+  "max_pct": 1100.0,
+  "max_pct_y0": 1,
+  "max_pct_y1": 12,
+  "max_pct_grower": 0
+ }
+}

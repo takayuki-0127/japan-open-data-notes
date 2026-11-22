@@ -1,0 +1,220 @@
+{
+ "formula_ratio_eq_1_plus_diff_over_before": {
+  "before10_plus2pt": {
+   "after_pct": 12,
+   "ratio": 1.2
+  },
+  "before2_plus3pt": {
+   "after_pct": 5,
+   "ratio": 2.5
+  },
+  "before20_plus3pt": {
+   "after_pct": 23,
+   "ratio": 1.15
+  }
+ },
+ "one_draw_add": {
+  "top5_overlap": 0,
+  "top1_diff_store": 4,
+  "top1_ratio_store": 30,
+  "max_abs_rank_change": 25,
+  "median_abs_rank_change": 7.0,
+  "top1_diff": {
+   "before_pct": 14.6,
+   "after_pct": 19.6,
+   "diff_pt": 5.0,
+   "ratio": 1.34,
+   "rank_other": 16
+  },
+  "top1_ratio": {
+   "before_pct": 2.3,
+   "after_pct": 5.4,
+   "diff_pt": 3.1,
+   "ratio": 2.33,
+   "rank_other": 9
+  }
+ },
+ "base_1000reps": {
+  "add": {
+   "noisy": {
+    "top5_overlap": 1.472,
+    "top1_same": 0.083,
+    "zero_before_share": 0.0,
+    "spearman": 0.683,
+    "top5_base_median_diff": 10.549,
+    "top5_base_median_ratio": 2.813,
+    "hit_truediff_by_diff": 2.256,
+    "hit_truediff_by_ratio": 1.49,
+    "hit_trueratio_by_diff": 1.028,
+    "hit_trueratio_by_ratio": 3.397
+   },
+   "no_noise": {
+    "top5_overlap": 1.623,
+    "top1_same": 0.187,
+    "zero_before_share": 0.0,
+    "spearman": 0.55,
+    "top5_base_median_diff": 7.602,
+    "top5_base_median_ratio": 2.658,
+    "hit_truediff_by_diff": 5.0,
+    "hit_truediff_by_ratio": 1.623,
+    "hit_trueratio_by_diff": 1.623,
+    "hit_trueratio_by_ratio": 5.0
+   }
+  },
+  "mul": {
+   "noisy": {
+    "top5_overlap": 1.223,
+    "top1_same": 0.045,
+    "zero_before_share": 0.0,
+    "spearman": 0.709,
+    "top5_base_median_diff": 21.241,
+    "top5_base_median_ratio": 4.933,
+    "hit_truediff_by_diff": 3.678,
+    "hit_truediff_by_ratio": 0.813,
+    "hit_trueratio_by_diff": 1.634,
+    "hit_trueratio_by_ratio": 1.956
+   },
+   "no_noise": {
+    "top5_overlap": 1.75,
+    "top1_same": 0.218,
+    "zero_before_share": 0.0,
+    "spearman": 0.612,
+    "top5_base_median_diff": 21.692,
+    "top5_base_median_ratio": 7.712,
+    "hit_truediff_by_diff": 5.0,
+    "hit_truediff_by_ratio": 1.75,
+    "hit_trueratio_by_diff": 1.75,
+    "hit_trueratio_by_ratio": 5.0
+   }
+  }
+ },
+ "sensitivity_range": {
+  "top5_overlap_min": 0.624,
+  "top5_overlap_max": 5.0,
+  "top1_same_min": 0.014,
+  "top1_same_max": 1.0
+ },
+ "sensitivity_by_base_range": [
+  {
+   "base_range": "10%でそろう",
+   "top5_overlap_min": 4.16,
+   "top5_overlap_max": 5.0,
+   "top1_same_min": 0.624,
+   "top1_same_max": 1.0
+  },
+  {
+   "base_range": "8〜12%",
+   "top5_overlap_min": 3.62,
+   "top5_overlap_max": 4.028,
+   "top1_same_min": 0.534,
+   "top1_same_max": 0.616
+  },
+  {
+   "base_range": "5〜20%",
+   "top5_overlap_min": 2.222,
+   "top5_overlap_max": 2.882,
+   "top1_same_min": 0.21,
+   "top1_same_max": 0.32
+  },
+  {
+   "base_range": "2〜30%（基本）",
+   "top5_overlap_min": 1.202,
+   "top5_overlap_max": 1.786,
+   "top1_same_min": 0.044,
+   "top1_same_max": 0.202
+  },
+  {
+   "base_range": "1〜50%",
+   "top5_overlap_min": 0.624,
+   "top5_overlap_max": 1.566,
+   "top1_same_min": 0.014,
+   "top1_same_max": 0.174
+  }
+ ],
+ "which_wins": {
+  "cases": 40,
+  "diff_beats_ratio_on_true_diff": 38,
+  "ratio_beats_diff_on_true_ratio": 27,
+  "ratio_beats_diff_on_true_ratio_noisy_only": 19,
+  "noisy_cases": 30,
+  "noisy_cases_diff_ge_ratio_on_true_ratio": [
+   {
+    "model": "足し算型",
+    "base_range": "10%でそろう",
+    "visitors": "0.2倍"
+   },
+   {
+    "model": "足し算型",
+    "base_range": "10%でそろう",
+    "visitors": "1倍（基本）"
+   },
+   {
+    "model": "足し算型",
+    "base_range": "10%でそろう",
+    "visitors": "5倍"
+   },
+   {
+    "model": "掛け算型",
+    "base_range": "10%でそろう",
+    "visitors": "0.2倍"
+   },
+   {
+    "model": "掛け算型",
+    "base_range": "10%でそろう",
+    "visitors": "1倍（基本）"
+   },
+   {
+    "model": "掛け算型",
+    "base_range": "10%でそろう",
+    "visitors": "5倍"
+   },
+   {
+    "model": "掛け算型",
+    "base_range": "8〜12%",
+    "visitors": "0.2倍"
+   },
+   {
+    "model": "掛け算型",
+    "base_range": "8〜12%",
+    "visitors": "1倍（基本）"
+   },
+   {
+    "model": "掛け算型",
+    "base_range": "5〜20%",
+    "visitors": "0.2倍"
+   },
+   {
+    "model": "掛け算型",
+    "base_range": "2〜30%（基本）",
+    "visitors": "0.2倍"
+   },
+   {
+    "model": "掛け算型",
+    "base_range": "1〜50%",
+    "visitors": "0.2倍"
+   }
+  ]
+ },
+ "mul_base_range_by_visitors": {
+  "0.2倍": {
+   "hit_trueratio_by_diff": 1.364,
+   "hit_trueratio_by_ratio": 1.094,
+   "top5_base_median_ratio": 4.555
+  },
+  "1倍（基本）": {
+   "hit_trueratio_by_diff": 1.624,
+   "hit_trueratio_by_ratio": 1.96,
+   "top5_base_median_ratio": 4.872
+  },
+  "5倍": {
+   "hit_trueratio_by_diff": 1.774,
+   "hit_trueratio_by_ratio": 3.082,
+   "top5_base_median_ratio": 6.179
+  },
+  "限りなく多い": {
+   "hit_trueratio_by_diff": 1.786,
+   "hit_trueratio_by_ratio": 5.0,
+   "top5_base_median_ratio": 8.031
+  }
+ }
+}

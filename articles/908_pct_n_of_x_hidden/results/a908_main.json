@@ -1,0 +1,272 @@
+{
+ "possible_n": [
+  {
+   "shown_pct": 0,
+   "min_n": 1,
+   "n_count_1_100": 100
+  },
+  {
+   "shown_pct": 10,
+   "min_n": 10,
+   "n_count_1_100": 50
+  },
+  {
+   "shown_pct": 20,
+   "min_n": 5,
+   "n_count_1_100": 52
+  },
+  {
+   "shown_pct": 25,
+   "min_n": 4,
+   "n_count_1_100": 50
+  },
+  {
+   "shown_pct": 31,
+   "min_n": 13,
+   "n_count_1_100": 50
+  },
+  {
+   "shown_pct": 33,
+   "min_n": 3,
+   "n_count_1_100": 61
+  },
+  {
+   "shown_pct": 40,
+   "min_n": 5,
+   "n_count_1_100": 52
+  },
+  {
+   "shown_pct": 47,
+   "min_n": 15,
+   "n_count_1_100": 50
+  },
+  {
+   "shown_pct": 50,
+   "min_n": 2,
+   "n_count_1_100": 50
+  },
+  {
+   "shown_pct": 58,
+   "min_n": 12,
+   "n_count_1_100": 51
+  },
+  {
+   "shown_pct": 60,
+   "min_n": 5,
+   "n_count_1_100": 52
+  },
+  {
+   "shown_pct": 67,
+   "min_n": 3,
+   "n_count_1_100": 59
+  },
+  {
+   "shown_pct": 73,
+   "min_n": 11,
+   "n_count_1_100": 52
+  },
+  {
+   "shown_pct": 75,
+   "min_n": 4,
+   "n_count_1_100": 50
+  },
+  {
+   "shown_pct": 80,
+   "min_n": 5,
+   "n_count_1_100": 52
+  },
+  {
+   "shown_pct": 99,
+   "min_n": 67,
+   "n_count_1_100": 34
+  },
+  {
+   "shown_pct": 100,
+   "min_n": 1,
+   "n_count_1_100": 100
+  }
+ ],
+ "possible_n_min_over_all_values": 67,
+ "shown_values_min_n_le_5": 11,
+ "by_n_group": [
+  {
+   "n_group": "2〜9人",
+   "stores": 15092,
+   "mean_abs_err_pt": 18.23,
+   "share_err_ge_10pt": 0.6765,
+   "share_shown_0_or_100": 0.2901,
+   "shown_55_65_count": 597,
+   "shown_55_65_true_p10": 26.0,
+   "shown_55_65_true_median": 37.0,
+   "shown_55_65_true_p90": 48.6,
+   "wilson95_coverage": 0.96,
+   "wilson95_width_median_pt": 59.1
+  },
+  {
+   "n_group": "10〜29人",
+   "stores": 10927,
+   "mean_abs_err_pt": 8.69,
+   "share_err_ge_10pt": 0.3506,
+   "share_shown_0_or_100": 0.0191,
+   "shown_55_65_count": 517,
+   "shown_55_65_true_p10": 31.3,
+   "shown_55_65_true_median": 42.5,
+   "shown_55_65_true_p90": 54.3,
+   "wilson95_coverage": 0.9558,
+   "wilson95_width_median_pt": 38.4
+  },
+  {
+   "n_group": "30〜99人",
+   "stores": 11746,
+   "mean_abs_err_pt": 4.88,
+   "share_err_ge_10pt": 0.1062,
+   "share_shown_0_or_100": 0.0005,
+   "shown_55_65_count": 269,
+   "shown_55_65_true_p10": 42.5,
+   "shown_55_65_true_median": 49.5,
+   "shown_55_65_true_p90": 59.0,
+   "wilson95_coverage": 0.9478,
+   "wilson95_width_median_pt": 22.7
+  },
+  {
+   "n_group": "100〜299人",
+   "stores": 10689,
+   "mean_abs_err_pt": 2.72,
+   "share_err_ge_10pt": 0.0064,
+   "share_shown_0_or_100": 0.0,
+   "shown_55_65_count": 155,
+   "shown_55_65_true_p10": 48.9,
+   "shown_55_65_true_median": 54.7,
+   "shown_55_65_true_p90": 61.1,
+   "wilson95_coverage": 0.9526,
+   "wilson95_width_median_pt": 13.1
+  },
+  {
+   "n_group": "300〜1,000人",
+   "stores": 11546,
+   "mean_abs_err_pt": 1.56,
+   "share_err_ge_10pt": 0.0,
+   "share_shown_0_or_100": 0.0,
+   "shown_55_65_count": 170,
+   "shown_55_65_true_p10": 53.0,
+   "shown_55_65_true_median": 56.6,
+   "shown_55_65_true_p90": 61.3,
+   "wilson95_coverage": 0.9532,
+   "wilson95_width_median_pt": 7.4
+  }
+ ],
+ "round_values": [
+  {
+   "shown_pct": 0,
+   "stores": 4212,
+   "share_n_le_10": 0.9611
+  },
+  {
+   "shown_pct": 33,
+   "stores": 3614,
+   "share_n_le_10": 0.5545
+  },
+  {
+   "shown_pct": 50,
+   "stores": 2566,
+   "share_n_le_10": 0.7985
+  },
+  {
+   "shown_pct": 67,
+   "stores": 828,
+   "share_n_le_10": 0.9239
+  },
+  {
+   "shown_pct": 100,
+   "stores": 381,
+   "share_n_le_10": 1.0
+  },
+  {
+   "shown_pct": "全体",
+   "stores": 60000,
+   "share_n_le_10": 0.2684
+  }
+ ],
+ "top10_by_pct": {
+  "median_n": 4.0,
+  "true_top10_hit": 2.03
+ },
+ "top10_by_wilson_low": {
+  "median_n": 222.0,
+  "true_top10_hit": 4.76
+ },
+ "reversed_pairs_diff_ge_20": {
+  "どちらも10人未満": {
+   "reversed": 0.3078,
+   "pairs": 116559
+  },
+  "どちらも10〜99人": {
+   "reversed": 0.0623,
+   "pairs": 59753
+  },
+  "どちらも100人以上": {
+   "reversed": 0.0,
+   "pairs": 36635
+  },
+  "人数を問わない": {
+   "reversed": 0.1657,
+   "pairs": 72680
+  }
+ },
+ "sensitivity": {
+  "cases": 27,
+  "share_err_ge_10pt_n_lt_10_range": [
+   0.193,
+   0.6802
+  ],
+  "reversed_n_lt_10_range": [
+   0.0196,
+   0.4086
+  ],
+  "top10_hit_by_pct_range": [
+   0.73,
+   9.11
+  ],
+  "top10_hit_by_wilson_range": [
+   2.3,
+   8.8
+  ],
+  "wilson_better_cases": 21,
+  "pct_ge_wilson_cases": [
+   {
+    "true_mean": 0.1,
+    "true_sd": 0.1,
+    "n_range": "20〜1,000人"
+   },
+   {
+    "true_mean": 0.1,
+    "true_sd": 0.2,
+    "n_range": "2〜1,000人（基本）"
+   },
+   {
+    "true_mean": 0.1,
+    "true_sd": 0.2,
+    "n_range": "5〜200人"
+   },
+   {
+    "true_mean": 0.1,
+    "true_sd": 0.2,
+    "n_range": "20〜1,000人"
+   },
+   {
+    "true_mean": 0.3,
+    "true_sd": 0.2,
+    "n_range": "20〜1,000人"
+   },
+   {
+    "true_mean": 0.5,
+    "true_sd": 0.2,
+    "n_range": "20〜1,000人"
+   }
+  ],
+  "wilson_coverage_range": [
+   0.9492,
+   0.9692
+  ]
+ }
+}

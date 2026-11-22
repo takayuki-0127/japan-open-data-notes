@@ -1,0 +1,237 @@
+{
+ "one_year": {
+  "cells": 10000,
+  "share_down": 5062,
+  "share_up": 4938,
+  "share_down_amount_up": 0.3564,
+  "share_up_amount_down": 0.1231,
+  "total_up_share": 0.684,
+  "median_total_growth_pct": 3.45
+ },
+ "ten_years": {
+  "cells": 10000,
+  "share_down": 5569,
+  "share_up": 4431,
+  "share_down_amount_up": 0.482,
+  "share_up_amount_down": 0.0973,
+  "total_up_share": 0.782,
+  "median_total_growth_pct": 47.76
+ },
+ "by_total_growth": [
+  {
+   "total_growth": "−5%未満",
+   "companies": 241,
+   "share_down_cells": 548,
+   "share_down_amount_up": 0.0,
+   "share_up_amount_down": 0.6134
+  },
+  {
+   "total_growth": "−5〜0%",
+   "companies": 391,
+   "share_down_cells": 956,
+   "share_down_amount_up": 0.0,
+   "share_up_amount_down": 0.2052
+  },
+  {
+   "total_growth": "0〜+5%",
+   "companies": 541,
+   "share_down_cells": 1375,
+   "share_down_amount_up": 0.2487,
+   "share_up_amount_down": 0.0
+  },
+  {
+   "total_growth": "+5〜+10%",
+   "companies": 465,
+   "share_down_cells": 1186,
+   "share_down_amount_up": 0.559,
+   "share_up_amount_down": 0.0
+  },
+  {
+   "total_growth": "+10%以上",
+   "companies": 362,
+   "share_down_cells": 997,
+   "share_down_amount_up": 0.8014,
+   "share_up_amount_down": 0.0
+  }
+ ],
+ "by_share_drop": [
+  {
+   "share_drop": "0.5ポイント以内",
+   "cells": 1637,
+   "amount_up": 0.5535
+  },
+  {
+   "share_drop": "0.5〜1ポイント",
+   "cells": 1149,
+   "amount_up": 0.3821
+  },
+  {
+   "share_drop": "1〜2ポイント",
+   "cells": 1269,
+   "amount_up": 0.2608
+  },
+  {
+   "share_drop": "2〜5ポイント",
+   "cells": 951,
+   "amount_up": 0.1346
+  },
+  {
+   "share_drop": "5ポイントより大きい",
+   "cells": 56,
+   "amount_up": 0.0
+  }
+ ],
+ "rule_share_floor": [
+  {
+   "total_growth_pct": -10,
+   "min_share_ratio": 1.1111,
+   "from_40pct_min_share_pct": 44.44
+  },
+  {
+   "total_growth_pct": 0,
+   "min_share_ratio": 1.0,
+   "from_40pct_min_share_pct": 40.0
+  },
+  {
+   "total_growth_pct": 3,
+   "min_share_ratio": 0.9709,
+   "from_40pct_min_share_pct": 38.83
+  },
+  {
+   "total_growth_pct": 10,
+   "min_share_ratio": 0.9091,
+   "from_40pct_min_share_pct": 36.36
+  },
+  {
+   "total_growth_pct": 20,
+   "min_share_ratio": 0.8333,
+   "from_40pct_min_share_pct": 33.33
+  },
+  {
+   "total_growth_pct": 34,
+   "min_share_ratio": 0.7463,
+   "from_40pct_min_share_pct": 29.85
+  },
+  {
+   "total_growth_pct": 50,
+   "min_share_ratio": 0.6667,
+   "from_40pct_min_share_pct": 26.67
+  }
+ ],
+ "example_10y": {
+  "company_id": 1643,
+  "category": "B",
+  "share_y0": 60.87,
+  "share_y10": 41.94,
+  "sales_y0": 60.87,
+  "sales_y10": 62.95,
+  "total_y0": 100.0,
+  "total_y10": 150.09,
+  "share_down_years": 10,
+  "sales_up_years": 6
+ },
+ "sensitivity": {
+  "rows": [
+   {
+    "m_med": -0.05,
+    "category_scale": 0.5,
+    "y1_share_down_amount_up": 0.0816,
+    "y1_share_up_amount_down": 0.6167,
+    "y10_share_down_amount_up": 0.068,
+    "y10_share_up_amount_down": 0.7489
+   },
+   {
+    "m_med": -0.05,
+    "category_scale": 1.0,
+    "y1_share_down_amount_up": 0.0797,
+    "y1_share_up_amount_down": 0.4367,
+    "y10_share_down_amount_up": 0.0651,
+    "y10_share_up_amount_down": 0.5625
+   },
+   {
+    "m_med": -0.05,
+    "category_scale": 2.0,
+    "y1_share_down_amount_up": 0.1014,
+    "y1_share_up_amount_down": 0.2675,
+    "y10_share_down_amount_up": 0.1167,
+    "y10_share_up_amount_down": 0.3327
+   },
+   {
+    "m_med": 0.0,
+    "category_scale": 0.5,
+    "y1_share_down_amount_up": 0.3011,
+    "y1_share_up_amount_down": 0.285,
+    "y10_share_down_amount_up": 0.3486,
+    "y10_share_up_amount_down": 0.3063
+   },
+   {
+    "m_med": 0.0,
+    "category_scale": 1.0,
+    "y1_share_down_amount_up": 0.235,
+    "y1_share_up_amount_down": 0.2105,
+    "y10_share_down_amount_up": 0.2856,
+    "y10_share_up_amount_down": 0.2147
+   },
+   {
+    "m_med": 0.0,
+    "category_scale": 2.0,
+    "y1_share_down_amount_up": 0.1925,
+    "y1_share_up_amount_down": 0.1638,
+    "y10_share_down_amount_up": 0.2748,
+    "y10_share_up_amount_down": 0.1341
+   },
+   {
+    "m_med": 0.03,
+    "category_scale": 0.5,
+    "y1_share_down_amount_up": 0.494,
+    "y1_share_up_amount_down": 0.1438,
+    "y10_share_down_amount_up": 0.6053,
+    "y10_share_up_amount_down": 0.137
+   },
+   {
+    "m_med": 0.03,
+    "category_scale": 1.0,
+    "y1_share_down_amount_up": 0.3527,
+    "y1_share_up_amount_down": 0.1126,
+    "y10_share_down_amount_up": 0.4818,
+    "y10_share_up_amount_down": 0.0963
+   },
+   {
+    "m_med": 0.03,
+    "category_scale": 2.0,
+    "y1_share_down_amount_up": 0.2645,
+    "y1_share_up_amount_down": 0.1194,
+    "y10_share_down_amount_up": 0.3899,
+    "y10_share_up_amount_down": 0.0678
+   },
+   {
+    "m_med": 0.1,
+    "category_scale": 0.5,
+    "y1_share_down_amount_up": 0.8692,
+    "y1_share_up_amount_down": 0.0139,
+    "y10_share_down_amount_up": 0.9601,
+    "y10_share_up_amount_down": 0.0038
+   },
+   {
+    "m_med": 0.1,
+    "category_scale": 1.0,
+    "y1_share_down_amount_up": 0.6824,
+    "y1_share_up_amount_down": 0.0195,
+    "y10_share_down_amount_up": 0.8708,
+    "y10_share_up_amount_down": 0.0062
+   },
+   {
+    "m_med": 0.1,
+    "category_scale": 2.0,
+    "y1_share_down_amount_up": 0.4523,
+    "y1_share_up_amount_down": 0.0359,
+    "y10_share_down_amount_up": 0.6679,
+    "y10_share_up_amount_down": 0.0077
+   }
+  ],
+  "y1_min": 0.0797,
+  "y1_max": 0.8692,
+  "y10_min": 0.0651,
+  "y10_max": 0.9601
+ }
+}

@@ -1,0 +1,227 @@
+{
+ "by_k": [
+  {
+   "k": 2,
+   "formula_p_exact_100": 1.0,
+   "p_exact_100": 1.0,
+   "p_99": 0.0,
+   "p_101": 0.0,
+   "p_le_98": 0.0,
+   "p_ge_102": 0.0,
+   "mean_total": 100.0,
+   "max_abs_dev": 0,
+   "p_exact_100_one_decimal": 1.0
+  },
+  {
+   "k": 3,
+   "formula_p_exact_100": 0.75,
+   "p_exact_100": 0.7544,
+   "p_99": 0.123,
+   "p_101": 0.1226,
+   "p_le_98": 0.0,
+   "p_ge_102": 0.0,
+   "mean_total": 99.9997,
+   "max_abs_dev": 1,
+   "p_exact_100_one_decimal": 0.7528
+  },
+  {
+   "k": 4,
+   "formula_p_exact_100": 0.6667,
+   "p_exact_100": 0.663,
+   "p_99": 0.1696,
+   "p_101": 0.1674,
+   "p_le_98": 0.0,
+   "p_ge_102": 0.0,
+   "mean_total": 99.9979,
+   "max_abs_dev": 1,
+   "p_exact_100_one_decimal": 0.6694
+  },
+  {
+   "k": 5,
+   "formula_p_exact_100": 0.599,
+   "p_exact_100": 0.603,
+   "p_99": 0.1988,
+   "p_101": 0.1942,
+   "p_le_98": 0.0022,
+   "p_ge_102": 0.0018,
+   "mean_total": 99.9946,
+   "max_abs_dev": 2,
+   "p_exact_100_one_decimal": 0.6003
+  },
+  {
+   "k": 6,
+   "formula_p_exact_100": 0.55,
+   "p_exact_100": 0.5475,
+   "p_99": 0.2201,
+   "p_101": 0.2165,
+   "p_le_98": 0.0078,
+   "p_ge_102": 0.0081,
+   "mean_total": 99.9968,
+   "max_abs_dev": 2,
+   "p_exact_100_one_decimal": 0.5627
+  },
+  {
+   "k": 7,
+   "formula_p_exact_100": 0.511,
+   "p_exact_100": 0.5129,
+   "p_99": 0.2404,
+   "p_101": 0.2165,
+   "p_le_98": 0.0159,
+   "p_ge_102": 0.0143,
+   "mean_total": 99.9729,
+   "max_abs_dev": 3,
+   "p_exact_100_one_decimal": 0.5138
+  },
+  {
+   "k": 8,
+   "formula_p_exact_100": 0.4794,
+   "p_exact_100": 0.4773,
+   "p_99": 0.2483,
+   "p_101": 0.2251,
+   "p_le_98": 0.0255,
+   "p_ge_102": 0.0238,
+   "mean_total": 99.9734,
+   "max_abs_dev": 3,
+   "p_exact_100_one_decimal": 0.4753
+  },
+  {
+   "k": 9,
+   "formula_p_exact_100": 0.4529,
+   "p_exact_100": 0.4564,
+   "p_99": 0.2509,
+   "p_101": 0.2293,
+   "p_le_98": 0.0345,
+   "p_ge_102": 0.0289,
+   "mean_total": 99.9669,
+   "max_abs_dev": 3,
+   "p_exact_100_one_decimal": 0.4531
+  },
+  {
+   "k": 10,
+   "formula_p_exact_100": 0.4304,
+   "p_exact_100": 0.429,
+   "p_99": 0.2572,
+   "p_101": 0.2339,
+   "p_le_98": 0.0428,
+   "p_ge_102": 0.037,
+   "mean_total": 99.9652,
+   "max_abs_dev": 4,
+   "p_exact_100_one_decimal": 0.4288
+  },
+  {
+   "k": 11,
+   "formula_p_exact_100": 0.411,
+   "p_exact_100": 0.4112,
+   "p_99": 0.2589,
+   "p_101": 0.2304,
+   "p_le_98": 0.0536,
+   "p_ge_102": 0.046,
+   "mean_total": 99.9557,
+   "max_abs_dev": 4,
+   "p_exact_100_one_decimal": 0.4069
+  },
+  {
+   "k": 12,
+   "formula_p_exact_100": 0.3939,
+   "p_exact_100": 0.3925,
+   "p_99": 0.263,
+   "p_101": 0.2293,
+   "p_le_98": 0.064,
+   "p_ge_102": 0.0513,
+   "mean_total": 99.9394,
+   "max_abs_dev": 4,
+   "p_exact_100_one_decimal": 0.3911
+  }
+ ],
+ "max_sim_minus_formula": 0.0044,
+ "key": {
+  "k8_alpha_range_p_exact": [
+   0.5494,
+   0.4852,
+   0.4836
+  ],
+  "k12_alpha02_nonzero_shown0": 0.4221,
+  "k12_alpha02_mean_total": 99.7452,
+  "k8_n200_halfup_mean_total": 101.9636,
+  "k8_n200_halfup_p_exact": 0.0096,
+  "k8_n200_halfup_p_ge101": 0.9904,
+  "k8_n200_even_mean_total": 99.927,
+  "k8_n200_even_p_exact": 0.389,
+  "k8_n200_share_exact_half": 0.4909,
+  "k8_cont_halfup_mean_total": 99.9878,
+  "k8_cont_floor_mean_total": 96.036,
+  "k8_cont_floor_p_exact": 0.0,
+  "halfup_p_exact_min": 0.0002,
+  "halfup_p_exact_max": 0.8668
+ },
+ "largest_remainder_k8": {
+  "k": 8,
+  "tables": 20000,
+  "share_tables_changed": 0.5129,
+  "mean_items_changed_when_changed": 1.093,
+  "max_items_changed": 3,
+  "max_abs_error_half_up": 0.5,
+  "max_abs_error_largest_remainder": 0.784,
+  "share_items_err_ge_0_5_largest_remainder": 0.07,
+  "order_reversed_pairs_largest_remainder": 0
+ },
+ "shown_vs_true_diff_k8": [
+  {
+   "shown_diff_pt": 0,
+   "pairs": 19165,
+   "true_diff_p10": 0.051,
+   "true_diff_median": 0.286,
+   "true_diff_p90": 0.681,
+   "true_diff_max": 0.996
+  },
+  {
+   "shown_diff_pt": 1,
+   "pairs": 36855,
+   "true_diff_p10": 0.43,
+   "true_diff_median": 0.986,
+   "true_diff_p90": 1.538,
+   "true_diff_max": 1.996
+  },
+  {
+   "shown_diff_pt": 2,
+   "pairs": 34858,
+   "true_diff_p10": 1.431,
+   "true_diff_median": 1.99,
+   "true_diff_p90": 2.534,
+   "true_diff_max": 2.997
+  }
+ ],
+ "shown_same_but_true_ge_0_5": 0.2458,
+ "max_abs_dev_k12": 4,
+ "example_tables": {
+  "売上の額から": {
+   "half_up_total": 101,
+   "largest_remainder_total": 100,
+   "items_exact_half": 0
+  },
+  "200件から": {
+   "half_up_total": 103,
+   "largest_remainder_total": 100,
+   "items_exact_half": 6
+  }
+ },
+ "rounding_examples": {
+  "12.4": {
+   "half_up": 12,
+   "shift": -0.4
+  },
+  "13.6": {
+   "half_up": 14,
+   "shift": 0.4
+  },
+  "12.5": {
+   "half_up": 13,
+   "shift": 0.5
+  },
+  "23.5": {
+   "half_up": 24,
+   "shift": 0.5
+  }
+ },
+ "one_case_pct_when_200": 0.5
+}

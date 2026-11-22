@@ -1,0 +1,4 @@
+shown_diff_pt,pairs,true_diff_p10,true_diff_median,true_diff_p90,true_diff_max
+0,19165,0.051,0.286,0.681,0.996
+1,36855,0.43,0.986,1.538,1.996
+2,34858,1.431,1.99,2.534,2.997
