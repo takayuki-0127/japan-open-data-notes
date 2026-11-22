@@ -1,0 +1,5 @@
+kappa,label,true_left_after_1,found_in_2nd,naive_left_after_1,true_left_after_2,naive_left_after_2,true_over_naive_after_2
+inf,全部同じ（κ＝∞）,50.4,45.4,50.5,4.96,5.05,0.98
+20,少し違う（κ＝20）,50.2,43.0,47.7,7.23,4.77,1.51
+4,違う（κ＝4）,50.1,36.0,40.0,14.07,4.0,3.52
+1,大きく違う（κ＝1）,49.9,22.4,24.9,27.54,2.49,11.07

@@ -1,0 +1,4 @@
+,lots,accept_rate,rate_before,rate_in_accepted_lots,rate_left_in_accepted_lots,outgoing_rate_all,share_defects_left,accepted_lots_with_defect,accepted_left_mean,accepted_left_p90,bad_lot_share,bad_lots_accepted,ratio_left_to_before,share_left_from_lots_under_1pct
+"n=32,c=0",20000.0,0.86,0.00499,0.00413,0.00413,0.00355,0.7118,0.8057,4.129,10.0,0.0254,0.4193,0.828,0.6122
+"n=80,c=1",20000.0,0.9172,0.00505,0.00426,0.00403,0.0037,0.7332,0.8071,4.034,10.0,0.0263,0.3897,0.799,0.6037
+"n=125,c=2",20000.0,0.9431,0.00501,0.00433,0.00388,0.00366,0.7301,0.8018,3.877,9.0,0.0268,0.3937,0.774,0.6012
