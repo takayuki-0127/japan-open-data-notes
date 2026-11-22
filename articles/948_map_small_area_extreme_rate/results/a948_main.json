@@ -1,0 +1,245 @@
+{
+ "setup": {
+  "grid": "20x20",
+  "areas": 400,
+  "outer_areas": 144,
+  "base_rate": 0.2,
+  "tau_logit_sd": 0.2,
+  "reps": 200,
+  "extreme_k_each_side": 40
+ },
+ "one_town": {
+  "total_members": 15621,
+  "members_min": 2,
+  "members_max": 317,
+  "members_median": 22.0,
+  "outer_members_share": 0.0992,
+  "outer_area_share": 0.36,
+  "overall_rate": 0.2014,
+  "rate_min": 0.0,
+  "rate_max": 0.5714,
+  "true_rate_min": 0.1343,
+  "true_rate_max": 0.3024,
+  "n_rate_zero": 31,
+  "outer_in_extremes": 46,
+  "outer_in_extremes_shrunk": 9,
+  "shrunk_min": 0.1375,
+  "shrunk_max": 0.2592
+ },
+ "mean_over_200": {
+  "outer_share_ext": 0.6512,
+  "outer_share_shrunk_ext": 0.0989,
+  "small_share_ext": 0.9185,
+  "small_share_shrunk_ext": 0.2742,
+  "hit_top_raw": 0.2205,
+  "hit_top_shrunk": 0.279,
+  "hit_bottom_raw": 0.1784,
+  "hit_bottom_shrunk": 0.2556,
+  "funnel_out_share": 0.0711,
+  "m_median": 158.5,
+  "m_p10": 112.2,
+  "m_p90": 281.8
+ },
+ "by_members_band": [
+  {
+   "band": "10人未満",
+   "areas_per_town": 74.9,
+   "share_of_areas": 0.1872,
+   "share_of_extremes_raw": 0.4486,
+   "share_of_extremes_shrunk": 0.0156,
+   "rate_in_extremes_raw": 0.4792,
+   "funnel_out_rate": 0.0453,
+   "mean_abs_err_raw_pt": 13.36,
+   "mean_abs_err_shrunk_pt": 2.55
+  },
+  {
+   "band": "10〜29人",
+   "areas_per_town": 170.6,
+   "share_of_areas": 0.4266,
+   "share_of_extremes_raw": 0.4699,
+   "share_of_extremes_shrunk": 0.2587,
+   "rate_in_extremes_raw": 0.2203,
+   "funnel_out_rate": 0.0536,
+   "mean_abs_err_raw_pt": 7.99,
+   "mean_abs_err_shrunk_pt": 2.47
+  },
+  {
+   "band": "30〜99人",
+   "areas_per_town": 117.3,
+   "share_of_areas": 0.2933,
+   "share_of_extremes_raw": 0.0784,
+   "share_of_extremes_shrunk": 0.4931,
+   "rate_in_extremes_raw": 0.0534,
+   "funnel_out_rate": 0.0842,
+   "mean_abs_err_raw_pt": 4.58,
+   "mean_abs_err_shrunk_pt": 2.22
+  },
+  {
+   "band": "100人以上",
+   "areas_per_town": 37.2,
+   "share_of_areas": 0.0929,
+   "share_of_extremes_raw": 0.0031,
+   "share_of_extremes_shrunk": 0.2327,
+   "rate_in_extremes_raw": 0.0067,
+   "funnel_out_rate": 0.1616,
+   "mean_abs_err_raw_pt": 2.61,
+   "mean_abs_err_shrunk_pt": 1.84
+  }
+ ],
+ "no_true_difference": [
+  {
+   "band": "10人未満",
+   "funnel_out_rate": 0.0371,
+   "rate_in_extremes": 0.4927,
+   "share_of_extremes": 0.4626
+  },
+  {
+   "band": "10〜29人",
+   "funnel_out_rate": 0.0419,
+   "rate_in_extremes": 0.2217,
+   "share_of_extremes": 0.4708
+  },
+  {
+   "band": "30〜99人",
+   "funnel_out_rate": 0.05,
+   "rate_in_extremes": 0.0449,
+   "share_of_extremes": 0.0661
+  },
+  {
+   "band": "100人以上",
+   "funnel_out_rate": 0.0453,
+   "rate_in_extremes": 0.0011,
+   "share_of_extremes": 0.0005
+  }
+ ],
+ "no_true_difference_share_of_extremes_members_lt30": 0.9334,
+ "sensitivity": {
+  "outer_share_ext_range": [
+   0.5335,
+   0.6938
+  ],
+  "outer_share_shrunk_ext_range": [
+   0.0735,
+   0.1882
+  ],
+  "hit_top_raw_range_tau_pos": [
+   0.141,
+   0.48
+  ],
+  "hit_top_shrunk_range_tau_pos": [
+   0.167,
+   0.5325
+  ],
+  "shrunk_better_in_all_tau_pos": true,
+  "grid": [
+   {
+    "tau": 0.0,
+    "members_scale": 0.5,
+    "outer_share_ext": 0.6898,
+    "outer_share_shrunk_ext": 0.0735,
+    "small_share_ext": 0.992,
+    "hit_top_raw": null,
+    "hit_top_shrunk": null
+   },
+   {
+    "tau": 0.0,
+    "members_scale": 1.0,
+    "outer_share_ext": 0.6688,
+    "outer_share_shrunk_ext": 0.0828,
+    "small_share_ext": 0.939,
+    "hit_top_raw": null,
+    "hit_top_shrunk": null
+   },
+   {
+    "tau": 0.0,
+    "members_scale": 2.0,
+    "outer_share_ext": 0.6625,
+    "outer_share_shrunk_ext": 0.084,
+    "small_share_ext": 0.714,
+    "hit_top_raw": null,
+    "hit_top_shrunk": null
+   },
+   {
+    "tau": 0.1,
+    "members_scale": 0.5,
+    "outer_share_ext": 0.6938,
+    "outer_share_shrunk_ext": 0.0828,
+    "small_share_ext": 0.9938,
+    "hit_top_raw": 0.141,
+    "hit_top_shrunk": 0.167
+   },
+   {
+    "tau": 0.1,
+    "members_scale": 1.0,
+    "outer_share_ext": 0.6585,
+    "outer_share_shrunk_ext": 0.083,
+    "small_share_ext": 0.9325,
+    "hit_top_raw": 0.1575,
+    "hit_top_shrunk": 0.1955
+   },
+   {
+    "tau": 0.1,
+    "members_scale": 2.0,
+    "outer_share_ext": 0.6345,
+    "outer_share_shrunk_ext": 0.0885,
+    "small_share_ext": 0.677,
+    "hit_top_raw": 0.1785,
+    "hit_top_shrunk": 0.2415
+   },
+   {
+    "tau": 0.2,
+    "members_scale": 0.5,
+    "outer_share_ext": 0.6835,
+    "outer_share_shrunk_ext": 0.084,
+    "small_share_ext": 0.989,
+    "hit_top_raw": 0.19,
+    "hit_top_shrunk": 0.2535
+   },
+   {
+    "tau": 0.2,
+    "members_scale": 1.0,
+    "outer_share_ext": 0.6517,
+    "outer_share_shrunk_ext": 0.1005,
+    "small_share_ext": 0.924,
+    "hit_top_raw": 0.2185,
+    "hit_top_shrunk": 0.31
+   },
+   {
+    "tau": 0.2,
+    "members_scale": 2.0,
+    "outer_share_ext": 0.616,
+    "outer_share_shrunk_ext": 0.1325,
+    "small_share_ext": 0.6498,
+    "hit_top_raw": 0.284,
+    "hit_top_shrunk": 0.3385
+   },
+   {
+    "tau": 0.4,
+    "members_scale": 0.5,
+    "outer_share_ext": 0.6572,
+    "outer_share_shrunk_ext": 0.1068,
+    "small_share_ext": 0.9808,
+    "hit_top_raw": 0.296,
+    "hit_top_shrunk": 0.3635
+   },
+   {
+    "tau": 0.4,
+    "members_scale": 1.0,
+    "outer_share_ext": 0.6022,
+    "outer_share_shrunk_ext": 0.1458,
+    "small_share_ext": 0.8535,
+    "hit_top_raw": 0.3845,
+    "hit_top_shrunk": 0.4505
+   },
+   {
+    "tau": 0.4,
+    "members_scale": 2.0,
+    "outer_share_ext": 0.5335,
+    "outer_share_shrunk_ext": 0.1882,
+    "small_share_ext": 0.5652,
+    "hit_top_raw": 0.48,
+    "hit_top_shrunk": 0.5325
+   }
+  ]
+ }
+}

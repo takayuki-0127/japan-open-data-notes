@@ -1,0 +1,5 @@
+band,areas_per_town,share_of_areas,share_of_extremes_raw,share_of_extremes_shrunk,rate_in_extremes_raw,funnel_out_rate,mean_abs_err_raw_pt,mean_abs_err_shrunk_pt
+10人未満,74.9,0.1872,0.4486,0.0156,0.4792,0.0453,13.36,2.55
+10〜29人,170.6,0.4266,0.4699,0.2587,0.2203,0.0536,7.99,2.47
+30〜99人,117.3,0.2933,0.0784,0.4931,0.0534,0.0842,4.58,2.22
+100人以上,37.2,0.0929,0.0031,0.2327,0.0067,0.1616,2.61,1.84

@@ -1,0 +1,194 @@
+{
+ "setup": {
+  "town_km": 10.0,
+  "households_target": 40000,
+  "stores": 12,
+  "radius_km": 1.0,
+  "reach_km": 2.0,
+  "reps": 100,
+  "split_rule": "2km以内の店に exp(-距離/0.5km) の重みで分かれる"
+ },
+ "one_town": {
+  "circle_sum": 21896.0,
+  "union": 16147.0,
+  "double_count_share": 0.2626,
+  "overcount_ratio": 1.356,
+  "served": 31236.0,
+  "circle_sum_over_served": 0.701,
+  "store_ratio_median": 0.6805,
+  "store_ratio_min": 0.2938,
+  "store_ratio_max": 1.9086,
+  "store_shared_median": 0.4198,
+  "customers_outside_own_circle": 0.4831,
+  "households_outside_all_circles_served": 0.4831,
+  "households": 39580
+ },
+ "one_town_stores": [
+  {
+   "store": 1,
+   "circle": 694,
+   "customers": 2041,
+   "ratio": 0.34
+  },
+  {
+   "store": 2,
+   "circle": 463,
+   "customers": 1576,
+   "ratio": 0.294
+  },
+  {
+   "store": 3,
+   "circle": 873,
+   "customers": 2242,
+   "ratio": 0.389
+  },
+  {
+   "store": 4,
+   "circle": 2664,
+   "customers": 2800,
+   "ratio": 0.951
+  },
+  {
+   "store": 5,
+   "circle": 2759,
+   "customers": 2846,
+   "ratio": 0.969
+  },
+  {
+   "store": 6,
+   "circle": 2529,
+   "customers": 2284,
+   "ratio": 1.107
+  },
+  {
+   "store": 7,
+   "circle": 2234,
+   "customers": 3243,
+   "ratio": 0.689
+  },
+  {
+   "store": 8,
+   "circle": 1121,
+   "customers": 1668,
+   "ratio": 0.672
+  },
+  {
+   "store": 9,
+   "circle": 3775,
+   "customers": 6858,
+   "ratio": 0.55
+  },
+  {
+   "store": 10,
+   "circle": 1387,
+   "customers": 1732,
+   "ratio": 0.801
+  },
+  {
+   "store": 11,
+   "circle": 1754,
+   "customers": 919,
+   "ratio": 1.909
+  },
+  {
+   "store": 12,
+   "circle": 1643,
+   "customers": 3027,
+   "ratio": 0.543
+  }
+ ],
+ "mean_over_100": [
+  {
+   "rule": "nearest",
+   "circle_sum": 21943.33,
+   "union": 16364.64,
+   "double_count_share": 0.2373,
+   "overcount_ratio": 1.3377,
+   "served": 32236.72,
+   "circle_sum_over_served": 0.6838,
+   "store_ratio_median": 0.6338,
+   "store_ratio_min": 0.3055,
+   "store_ratio_max": 1.7446,
+   "store_shared_median": 0.3081,
+   "customers_outside_own_circle": 0.4921,
+   "households_outside_all_circles_served": 0.4921
+  },
+  {
+   "rule": "split",
+   "circle_sum": 21943.33,
+   "union": 16364.64,
+   "double_count_share": 0.2373,
+   "overcount_ratio": 1.3377,
+   "served": 32236.72,
+   "circle_sum_over_served": 0.6838,
+   "store_ratio_median": 0.6517,
+   "store_ratio_min": 0.3054,
+   "store_ratio_max": 1.1744,
+   "store_shared_median": 0.3081,
+   "customers_outside_own_circle": 0.5889,
+   "households_outside_all_circles_served": 0.4921
+  }
+ ],
+ "new_store_over_100": [
+  {
+   "rule": "nearest",
+   "new_circle_mean": 1997.35,
+   "new_circle_median": 1905.0,
+   "new_circle_overlap_share_mean": 0.4566,
+   "new_circle_overlap_share_median": 0.4827,
+   "new_customers_mean": 2601.52,
+   "new_customers_median": 2212.5,
+   "net_new_served_mean": 620.65,
+   "net_new_served_median": 267.0,
+   "net_new_over_circle_mean": 0.5078,
+   "net_new_over_circle_median": 0.1649,
+   "from_other_stores_share_mean": 0.7822,
+   "from_other_stores_share_median": 0.8789
+  },
+  {
+   "rule": "split",
+   "new_circle_mean": 1997.35,
+   "new_circle_median": 1905.0,
+   "new_circle_overlap_share_mean": 0.4566,
+   "new_circle_overlap_share_median": 0.4827,
+   "new_customers_mean": 2582.8123,
+   "new_customers_median": 2286.7929,
+   "net_new_served_mean": 620.65,
+   "net_new_served_median": 267.0,
+   "net_new_over_circle_mean": 0.5078,
+   "net_new_over_circle_median": 0.1649,
+   "from_other_stores_share_mean": 0.7789,
+   "from_other_stores_share_median": 0.8714
+  }
+ ],
+ "sensitivity_ranges": {
+  "double_count_share": [
+   0.0418,
+   0.6525
+  ],
+  "overcount_ratio": [
+   1.0474,
+   2.9548
+  ],
+  "circle_sum_over_served": [
+   0.1161,
+   2.6419
+  ],
+  "store_ratio_median": [
+   0.1113,
+   2.631
+  ],
+  "customers_outside_own_circle": [
+   0.1048,
+   0.9014
+  ],
+  "net_new_over_circle": [
+   0.0522,
+   2.7509
+  ],
+  "from_other_stores_share": [
+   0.3844,
+   0.9905
+  ]
+ }
+}
