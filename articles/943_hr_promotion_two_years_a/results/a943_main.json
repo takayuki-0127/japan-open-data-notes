@@ -1,0 +1,96 @@
+{
+ "base_rules_300reps": [
+  {
+   "rule": "1年目にA",
+   "kept_pct": 20.0,
+   "true_top20_among_kept_pct": 62.7,
+   "true_mean_z": 1.1,
+   "true_top10_kept_pct": 77.3,
+   "lenient_both_among_kept_pct": 31.0,
+   "moved_among_kept_pct": 30.0
+  },
+  {
+   "rule": "2年連続でA",
+   "kept_pct": 10.9,
+   "true_top20_among_kept_pct": 81.2,
+   "true_mean_z": 1.42,
+   "true_top10_kept_pct": 62.7,
+   "lenient_both_among_kept_pct": 36.0,
+   "moved_among_kept_pct": 27.1
+  },
+  {
+   "rule": "2年の平均点の上位（同じ人数）",
+   "kept_pct": 10.9,
+   "true_top20_among_kept_pct": 83.5,
+   "true_mean_z": 1.46,
+   "true_top10_kept_pct": 65.5,
+   "lenient_both_among_kept_pct": 36.1,
+   "moved_among_kept_pct": 28.4
+  },
+  {
+   "rule": "上司ごとにそろえて2年連続でA",
+   "kept_pct": 10.4,
+   "true_top20_among_kept_pct": 82.5,
+   "true_mean_z": 1.45,
+   "true_top10_kept_pct": 61.1,
+   "lenient_both_among_kept_pct": 19.4,
+   "moved_among_kept_pct": 28.9
+  },
+  {
+   "rule": "3年連続でA",
+   "kept_pct": 7.5,
+   "true_top20_among_kept_pct": 90.0,
+   "true_mean_z": 1.61,
+   "true_top10_kept_pct": 52.2,
+   "lenient_both_among_kept_pct": 36.6,
+   "moved_among_kept_pct": 26.8
+  }
+ ],
+ "base_all_staff": {
+  "lenient_both_all_pct": 19.3,
+  "moved_all_pct": 30.0
+ },
+ "one_company": {
+  "two_years_A_count": 109,
+  "three_years_A_count": 78,
+  "two_years_A_true_top20": 94
+ },
+ "grid_27": {
+  "two_kept_range": [
+   8.6,
+   15.2
+  ],
+  "two_true_top20_range": [
+   65.5,
+   93.0
+  ],
+  "lenient_ratio_range_sl_pos": [
+   1.77,
+   3.13
+  ],
+  "moved_ratio_range_sl_pos_pc_pos": [
+   0.69,
+   0.96
+  ],
+  "moved_ratio_range_sl0_pc_pos": [
+   0.99,
+   1.01
+  ],
+  "n_settings_sl_pos": 18,
+  "n_two_lenient_above_all": 18,
+  "n_moved_below_all": 12,
+  "n_settings_moved": 12,
+  "n_avg_ge_two_precision": 27,
+  "avg_minus_two_precision_range": [
+   0.4,
+   4.1
+  ],
+  "n_adj_gt_two_precision_sl_pos": 16,
+  "n_adj_lt_two_precision_sl0": 9,
+  "adj_minus_two_precision_sl0_range": [
+   -8.1,
+   -2.6
+  ],
+  "n_settings": 27
+ }
+}

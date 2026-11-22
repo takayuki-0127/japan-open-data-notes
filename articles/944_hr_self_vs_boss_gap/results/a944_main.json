@@ -1,0 +1,122 @@
+{
+ "base_200k": {
+  "gap_mean": 0.197,
+  "gap_sd": 0.668,
+  "variance_share_pct_formula": {
+   "self_habit": 14.0,
+   "boss_leniency": 14.0,
+   "self_noise": 36.0,
+   "boss_noise": 36.0
+  },
+  "corr_gap1_self_habit_formula": 0.375,
+  "corr_gap1_self_habit": 0.376,
+  "corr_gap1_boss_leniency": -0.376,
+  "corr_gap1_true_work": 0.0,
+  "corr_gap3_self_habit": 0.521,
+  "corr_team_gap_boss_leniency": -0.788,
+  "share_gap1_positive_pct": 61.5,
+  "share_habit_positive_pct": 78.7,
+  "share_gap1_sign_wrong_pct": 34.5
+ },
+ "gap_by_quartile": [
+  {
+   "scenario": "本人の癖は働きと無関係",
+   "grouped_by": "本当の働き",
+   "Q1_gap": 0.19,
+   "Q2_gap": 0.204,
+   "Q3_gap": 0.2,
+   "Q4_gap": 0.193,
+   "Q1_minus_Q4": -0.003
+  },
+  {
+   "scenario": "本人の癖は働きと無関係",
+   "grouped_by": "その年の上司評価",
+   "Q1_gap": 0.609,
+   "Q2_gap": 0.301,
+   "Q3_gap": 0.092,
+   "Q4_gap": -0.216,
+   "Q1_minus_Q4": 0.825
+  },
+  {
+   "scenario": "本人の癖は働きと無関係",
+   "grouped_by": "その年の自己評価",
+   "Q1_gap": -0.214,
+   "Q2_gap": 0.087,
+   "Q3_gap": 0.306,
+   "Q4_gap": 0.608,
+   "Q1_minus_Q4": -0.822
+  },
+  {
+   "scenario": "本人の癖は働きと無関係",
+   "grouped_by": "別の上司の評価",
+   "Q1_gap": 0.193,
+   "Q2_gap": 0.201,
+   "Q3_gap": 0.2,
+   "Q4_gap": 0.194,
+   "Q1_minus_Q4": -0.001
+  },
+  {
+   "scenario": "働きが低い人ほど自分を高く見る（0.3）",
+   "grouped_by": "本当の働き",
+   "Q1_gap": 0.389,
+   "Q2_gap": 0.244,
+   "Q3_gap": 0.147,
+   "Q4_gap": -0.001,
+   "Q1_minus_Q4": 0.39
+  },
+  {
+   "scenario": "働きが低い人ほど自分を高く見る（0.3）",
+   "grouped_by": "その年の上司評価",
+   "Q1_gap": 0.742,
+   "Q2_gap": 0.34,
+   "Q3_gap": 0.054,
+   "Q4_gap": -0.357,
+   "Q1_minus_Q4": 1.099
+  },
+  {
+   "scenario": "働きが低い人ほど自分を高く見る（0.3）",
+   "grouped_by": "その年の自己評価",
+   "Q1_gap": -0.171,
+   "Q2_gap": 0.103,
+   "Q3_gap": 0.287,
+   "Q4_gap": 0.561,
+   "Q1_minus_Q4": -0.732
+  },
+  {
+   "scenario": "働きが低い人ほど自分を高く見る（0.3）",
+   "grouped_by": "別の上司の評価",
+   "Q1_gap": 0.337,
+   "Q2_gap": 0.23,
+   "Q3_gap": 0.159,
+   "Q4_gap": 0.054,
+   "Q1_minus_Q4": 0.283
+  }
+ ],
+ "grid_24": {
+  "n_settings": 24,
+  "by_boss_range_noise_pos": [
+   0.19,
+   1.308
+  ],
+  "n_by_boss_positive_noise_pos": 18,
+  "n_noise_pos": 18,
+  "by_boss_noise0_len0_range": [
+   -0.002,
+   0.001
+  ],
+  "by_boss_noise0_len_pos_range": [
+   0.279,
+   0.289
+  ],
+  "by_other_abs_max": 0.017,
+  "by_true_abs_max": 0.007,
+  "corr_gap1_habit_range_noise_pos": [
+   0.114,
+   0.815
+  ],
+  "corr_gap3_habit_range_noise_pos": [
+   0.178,
+   0.926
+  ]
+ }
+}
