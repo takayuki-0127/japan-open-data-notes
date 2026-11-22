@@ -1,0 +1,139 @@
+{
+ "setup": {
+  "n_people": 300,
+  "n_rep": 300,
+  "noise": 0.5,
+  "gain_sd": 0.5,
+  "gain_share": 0.2,
+  "wide_shares": [
+   0.1,
+   0.2,
+   0.4,
+   0.2,
+   0.1
+  ],
+  "center_shares": [
+   0.05,
+   0.1,
+   0.7,
+   0.1,
+   0.05
+  ],
+  "grid_shares": "3の割合 mid、残りを1:2:2:1"
+ },
+ "one_company": {
+  "top30_true_rated3_center": 5,
+  "top30_true_rated3_wide": 0,
+  "n_rated3_center": 215,
+  "n_rated3_wide": 115
+ },
+ "main": {
+  "wide": {
+   "share_3": 0.3975,
+   "top10_rated3": 0.0283,
+   "top10_rated_4or5": 0.9717,
+   "rated3_true_pct_p10": 24.8333,
+   "rated3_true_pct_p90": 74.8333,
+   "corr_grade_true": 0.8538,
+   "precision_top30": 0.6444,
+   "improved_up": 0.4694,
+   "not_improved_up": 0.2395,
+   "up_really_improved": 0.331,
+   "improved_same": 0.4431
+  },
+  "center": {
+   "share_3": 0.7017,
+   "top10_rated3": 0.1857,
+   "top10_rated_4or5": 0.8143,
+   "rated3_true_pct_p10": 18.8333,
+   "rated3_true_pct_p90": 81.1667,
+   "corr_grade_true": 0.7744,
+   "precision_top30": 0.6231,
+   "improved_up": 0.3057,
+   "not_improved_up": 0.1515,
+   "up_really_improved": 0.3333,
+   "improved_same": 0.6371
+  },
+  "continuous_corr_reference": 0.8944
+ },
+ "grid_ranges": {
+  "top10_rated3": [
+   0.002,
+   0.5497
+  ],
+  "corr_grade_true": [
+   0.5694,
+   0.9149
+  ],
+  "precision_top30": [
+   0.4696,
+   0.7488
+  ],
+  "improved_up": [
+   0.1817,
+   0.4862
+  ],
+  "up_really_improved": [
+   0.2777,
+   0.4303
+  ]
+ },
+ "grid_by_share3": {
+  "0.4": {
+   "top10_rated3": [
+    0.002,
+    0.1082
+   ],
+   "improved_up": [
+    0.4511,
+    0.4862
+   ],
+   "precision_top30": [
+    0.5202,
+    0.7488
+   ]
+  },
+  "0.55": {
+   "top10_rated3": [
+    0.01,
+    0.1877
+   ],
+   "improved_up": [
+    0.4014,
+    0.4105
+   ],
+   "precision_top30": [
+    0.5166,
+    0.7171
+   ]
+  },
+  "0.7": {
+   "top10_rated3": [
+    0.0776,
+    0.3168
+   ],
+   "improved_up": [
+    0.3057,
+    0.3155
+   ],
+   "precision_top30": [
+    0.5149,
+    0.7171
+   ]
+  },
+  "0.85": {
+   "top10_rated3": [
+    0.3379,
+    0.5497
+   ],
+   "improved_up": [
+    0.1817,
+    0.1824
+   ],
+   "precision_top30": [
+    0.4696,
+    0.6719
+   ]
+  }
+ }
+}

@@ -1,0 +1,387 @@
+{
+ "params": {
+  "h": 3.0,
+  "s_m": 8.0,
+  "phi": 0.3,
+  "s_tr": 0.3,
+  "p_ev": 0.15,
+  "ev": 20.0,
+  "n": 300,
+  "months": 12,
+  "level_mean": 60.0,
+  "level_sd": 8.0,
+  "grade_cuts": [
+   0.1,
+   0.3,
+   0.7,
+   0.9
+  ]
+ },
+ "weights": [
+  {
+   "h": "1",
+   "w_month12": 0.5001,
+   "w_month1": 0.0002,
+   "w_last3": 0.8752,
+   "ratio_last_first": 2048.0,
+   "event20_month12": 10.002,
+   "event20_month1": 0.005
+  },
+  {
+   "h": "2",
+   "w_month12": 0.2975,
+   "w_month1": 0.0066,
+   "w_last3": 0.6567,
+   "ratio_last_first": 45.25,
+   "event20_month12": 5.951,
+   "event20_month1": 0.131
+  },
+  {
+   "h": "3",
+   "w_month12": 0.2201,
+   "w_month1": 0.0173,
+   "w_last3": 0.5333,
+   "ratio_last_first": 12.7,
+   "event20_month12": 4.401,
+   "event20_month1": 0.347
+  },
+  {
+   "h": "6",
+   "w_month12": 0.1455,
+   "w_month1": 0.0408,
+   "w_last3": 0.3905,
+   "ratio_last_first": 3.56,
+   "event20_month12": 2.909,
+   "event20_month1": 0.816
+  },
+  {
+   "h": "12",
+   "w_month12": 0.1123,
+   "w_month1": 0.0595,
+   "w_last3": 0.3182,
+   "ratio_last_first": 1.89,
+   "event20_month12": 2.245,
+   "event20_month1": 1.189
+  },
+  {
+   "h": "同じ重み",
+   "w_month12": 0.0833,
+   "w_month1": 0.0833,
+   "w_last3": 0.25,
+   "ratio_last_first": 1.0,
+   "event20_month12": 1.667,
+   "event20_month1": 1.667
+  }
+ ],
+ "by_halflife_base": [
+  {
+   "h": "1",
+   "rms": 4.9514,
+   "rms_ratio": 0.5769,
+   "rho": 0.8526,
+   "grade_changed": 0.411,
+   "grade_moved2": 0.0239,
+   "top10_hit": 0.6398,
+   "rho_next_equal": 0.7921,
+   "rho_next_recent": 0.7584
+  },
+  {
+   "h": "2",
+   "rms": 3.2008,
+   "rms_ratio": 0.3734,
+   "rho": 0.93,
+   "grade_changed": 0.2957,
+   "grade_moved2": 0.0031,
+   "top10_hit": 0.7515,
+   "rho_next_equal": 0.789,
+   "rho_next_recent": 0.7918
+  },
+  {
+   "h": "3",
+   "rms": 2.3086,
+   "rms_ratio": 0.2698,
+   "rho": 0.9608,
+   "grade_changed": 0.2242,
+   "grade_moved2": 0.0005,
+   "top10_hit": 0.8125,
+   "rho_next_equal": 0.7905,
+   "rho_next_recent": 0.8026
+  },
+  {
+   "h": "6",
+   "rms": 1.2249,
+   "rms_ratio": 0.1428,
+   "rho": 0.9882,
+   "grade_changed": 0.1233,
+   "grade_moved2": 0.0,
+   "top10_hit": 0.897,
+   "rho_next_equal": 0.7933,
+   "rho_next_recent": 0.8065
+  },
+  {
+   "h": "12",
+   "rms": 0.623,
+   "rms_ratio": 0.0727,
+   "rho": 0.9967,
+   "grade_changed": 0.0635,
+   "grade_moved2": 0.0,
+   "top10_hit": 0.9453,
+   "rho_next_equal": 0.7945,
+   "rho_next_recent": 0.8031
+  },
+  {
+   "h": "同じ重み",
+   "rms": 0.0,
+   "rms_ratio": 0.0,
+   "rho": 1.0,
+   "grade_changed": 0.0,
+   "grade_moved2": 0.0,
+   "top10_hit": 1.0,
+   "rho_next_equal": 0.7879,
+   "rho_next_recent": 0.7879
+  }
+ ],
+ "event_position_median_person_h3": {
+  "+20 in month12": {
+   "shift": 4.401,
+   "percentile_from_top": 0.303
+  },
+  "+20 in month1": {
+   "shift": 0.347,
+   "percentile_from_top": 0.483
+  },
+  "-20 in month12": {
+   "shift": -4.401,
+   "percentile_from_top": 0.692
+  },
+  "+20 equal weights": {
+   "shift": 1.667,
+   "percentile_from_top": 0.421
+  }
+ },
+ "grid_h3_range": {
+  "grade_changed": [
+   0.1035,
+   0.3563
+  ],
+  "rho": [
+   0.8959,
+   0.9913
+  ],
+  "rms_ratio": [
+   0.1229,
+   0.4629
+  ]
+ },
+ "next_year": [
+  {
+   "s_tr": 0.0,
+   "h": "1",
+   "rho_next": 0.7658,
+   "rho_year": 0.8603,
+   "grade_changed": 0.4015
+  },
+  {
+   "s_tr": 0.0,
+   "h": "2",
+   "rho_next": 0.8181,
+   "rho_year": 0.9355,
+   "grade_changed": 0.2837
+  },
+  {
+   "s_tr": 0.0,
+   "h": "3",
+   "rho_next": 0.8418,
+   "rho_year": 0.9653,
+   "grade_changed": 0.2098
+  },
+  {
+   "s_tr": 0.0,
+   "h": "6",
+   "rho_next": 0.8608,
+   "rho_year": 0.9897,
+   "grade_changed": 0.1146
+  },
+  {
+   "s_tr": 0.0,
+   "h": "12",
+   "rho_next": 0.8601,
+   "rho_year": 0.9971,
+   "grade_changed": 0.0611
+  },
+  {
+   "s_tr": 0.0,
+   "h": "同じ重み",
+   "rho_next": 0.8617,
+   "rho_year": 1.0,
+   "grade_changed": 0.0
+  },
+  {
+   "s_tr": 0.3,
+   "h": "1",
+   "rho_next": 0.7525,
+   "rho_year": 0.8522,
+   "grade_changed": 0.4133
+  },
+  {
+   "s_tr": 0.3,
+   "h": "2",
+   "rho_next": 0.7938,
+   "rho_year": 0.9302,
+   "grade_changed": 0.2969
+  },
+  {
+   "s_tr": 0.3,
+   "h": "3",
+   "rho_next": 0.8019,
+   "rho_year": 0.9612,
+   "grade_changed": 0.2209
+  },
+  {
+   "s_tr": 0.3,
+   "h": "6",
+   "rho_next": 0.8067,
+   "rho_year": 0.9883,
+   "grade_changed": 0.1218
+  },
+  {
+   "s_tr": 0.3,
+   "h": "12",
+   "rho_next": 0.7968,
+   "rho_year": 0.9967,
+   "grade_changed": 0.0653
+  },
+  {
+   "s_tr": 0.3,
+   "h": "同じ重み",
+   "rho_next": 0.7907,
+   "rho_year": 1.0,
+   "grade_changed": 0.0
+  },
+  {
+   "s_tr": 0.6,
+   "h": "1",
+   "rho_next": 0.7328,
+   "rho_year": 0.829,
+   "grade_changed": 0.4392
+  },
+  {
+   "s_tr": 0.6,
+   "h": "2",
+   "rho_next": 0.747,
+   "rho_year": 0.9133,
+   "grade_changed": 0.3263
+  },
+  {
+   "s_tr": 0.6,
+   "h": "3",
+   "rho_next": 0.7353,
+   "rho_year": 0.9498,
+   "grade_changed": 0.2552
+  },
+  {
+   "s_tr": 0.6,
+   "h": "6",
+   "rho_next": 0.7031,
+   "rho_year": 0.9849,
+   "grade_changed": 0.1392
+  },
+  {
+   "s_tr": 0.6,
+   "h": "12",
+   "rho_next": 0.6808,
+   "rho_year": 0.9958,
+   "grade_changed": 0.0742
+  },
+  {
+   "s_tr": 0.6,
+   "h": "同じ重み",
+   "rho_next": 0.64,
+   "rho_year": 1.0,
+   "grade_changed": 0.0
+  },
+  {
+   "s_tr": 1.0,
+   "h": "1",
+   "rho_next": 0.7392,
+   "rho_year": 0.7765,
+   "grade_changed": 0.4881
+  },
+  {
+   "s_tr": 1.0,
+   "h": "2",
+   "rho_next": 0.7101,
+   "rho_year": 0.876,
+   "grade_changed": 0.3838
+  },
+  {
+   "s_tr": 1.0,
+   "h": "3",
+   "rho_next": 0.6778,
+   "rho_year": 0.9264,
+   "grade_changed": 0.3068
+  },
+  {
+   "s_tr": 1.0,
+   "h": "6",
+   "rho_next": 0.6013,
+   "rho_year": 0.9764,
+   "grade_changed": 0.1737
+  },
+  {
+   "s_tr": 1.0,
+   "h": "12",
+   "rho_next": 0.5435,
+   "rho_year": 0.9934,
+   "grade_changed": 0.0886
+  },
+  {
+   "s_tr": 1.0,
+   "h": "同じ重み",
+   "rho_next": 0.4907,
+   "rho_year": 1.0,
+   "grade_changed": 0.0
+  }
+ ],
+ "one_draw": {
+  "grade_changed": 0.22,
+  "rho": 0.961,
+  "crosstab": {
+   "A": {
+    "A": 48,
+    "B": 9,
+    "C": 0,
+    "D": 0,
+    "S": 3
+   },
+   "B": {
+    "A": 9,
+    "B": 99,
+    "C": 12,
+    "D": 0,
+    "S": 0
+   },
+   "C": {
+    "A": 0,
+    "B": 12,
+    "C": 39,
+    "D": 9,
+    "S": 0
+   },
+   "D": {
+    "A": 0,
+    "B": 0,
+    "C": 9,
+    "D": 21,
+    "S": 0
+   },
+   "S": {
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "S": 27
+   }
+  }
+ }
+}

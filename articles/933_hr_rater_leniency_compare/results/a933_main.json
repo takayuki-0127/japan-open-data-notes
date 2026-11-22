@@ -1,0 +1,114 @@
+{
+ "setup": {
+  "n_people": 200,
+  "n_evaluators": 20,
+  "team_size": 10,
+  "top": 20,
+  "sd_true": 10.0,
+  "sd_noise": 6.0,
+  "sd_leniency": 5.0,
+  "sd_team": 3.0,
+  "link_share": 0.3,
+  "n_rep": 300
+ },
+ "one_company": {
+  "leniency_max": 8.9,
+  "leniency_min": -9.31,
+  "leniency_max_minus_min": 18.21,
+  "n_second": 56,
+  "corr_est_true_leniency": 0.758,
+  "by_method": {
+   "点のまま": {
+    "precision20": 0.5,
+    "spearman": 0.835,
+    "share_from_lenient4": 0.45
+   },
+   "評価者ごとの平均を引く": {
+    "precision20": 0.6,
+    "spearman": 0.72,
+    "share_from_lenient4": 0.3
+   },
+   "2人目の評価から甘さを見積もって引く": {
+    "precision20": 0.55,
+    "spearman": 0.825,
+    "share_from_lenient4": 0.25
+   }
+  }
+ },
+ "base_300reps": {
+  "点のまま": {
+   "precision20": 0.555,
+   "spearman": 0.774,
+   "share_from_lenient4": 0.432
+  },
+  "評価者ごとの平均を引く": {
+   "precision20": 0.532,
+   "spearman": 0.752,
+   "share_from_lenient4": 0.206
+  },
+  "2人目の評価から甘さを見積もって引く": {
+   "precision20": 0.593,
+   "spearman": 0.812,
+   "share_from_lenient4": 0.209
+  }
+ },
+ "grid_precision20_range": {
+  "点のまま": [
+   0.424,
+   0.629
+  ],
+  "評価者ごとの平均を引く": [
+   0.389,
+   0.581
+  ],
+  "2人目の評価から甘さを見積もって引く": [
+   0.533,
+   0.609
+  ]
+ },
+ "grid_best_method": {
+  "len0.0_team0.0": "点のまま",
+  "len0.0_team3.0": "点のまま",
+  "len0.0_team6.0": "点のまま",
+  "len2.5_team0.0": "2人目の評価から甘さを見積もって引く",
+  "len2.5_team3.0": "点のまま",
+  "len2.5_team6.0": "点のまま",
+  "len5.0_team0.0": "2人目の評価から甘さを見積もって引く",
+  "len5.0_team3.0": "2人目の評価から甘さを見積もって引く",
+  "len5.0_team6.0": "点のまま",
+  "len10.0_team0.0": "2人目の評価から甘さを見積もって引く",
+  "len10.0_team3.0": "2人目の評価から甘さを見積もって引く",
+  "len10.0_team6.0": "2人目の評価から甘さを見積もって引く"
+ },
+ "raw_minus_centered_when_len0": {
+  "team0.0": 0.048,
+  "team3.0": 0.08,
+  "team6.0": 0.212
+ },
+ "link_share": [
+  {
+   "link_share": 0.0,
+   "点のまま": 0.555,
+   "評価者ごとの平均を引く": 0.52,
+   "2人目の評価から甘さを見積もって引く": 0.521
+  },
+  {
+   "link_share": 0.1,
+   "点のまま": 0.544,
+   "評価者ごとの平均を引く": 0.523,
+   "2人目の評価から甘さを見積もって引く": 0.552
+  },
+  {
+   "link_share": 0.3,
+   "点のまま": 0.555,
+   "評価者ごとの平均を引く": 0.532,
+   "2人目の評価から甘さを見積もって引く": 0.593
+  },
+  {
+   "link_share": 0.6,
+   "点のまま": 0.542,
+   "評価者ごとの平均を引く": 0.533,
+   "2人目の評価から甘さを見積もって引く": 0.609
+  }
+ ]
+}

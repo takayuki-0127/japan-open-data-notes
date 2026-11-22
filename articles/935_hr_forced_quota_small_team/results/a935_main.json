@@ -1,0 +1,182 @@
+{
+ "setup": {
+  "n_people": 240,
+  "team_sizes": [
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12,
+   20,
+   40
+  ],
+  "quota": 0.2,
+  "sd_team": 0.3,
+  "noise": 0.5,
+  "n_rep": 300
+ },
+ "one_company_team5": {
+  "top20_true_not_A_in_team": 21,
+  "top20_true_not_A_company_wide": 12,
+  "A_from_bottom_half_in_team": 6,
+  "A_from_bottom_half_company_wide": 0
+ },
+ "company_wide_base": {
+  "a_share": 0.2,
+  "recall_top20": 0.7415,
+  "precision_top20": 0.7415,
+  "p_a_pct85_95": 0.7482,
+  "p_a_bottom_half": 0.0051
+ },
+ "base_recall_gap_vs_company": {
+  "5": -0.1758,
+  "10": -0.1198,
+  "20": -0.0887,
+  "40": -0.0681
+ },
+ "base_round_half_up": [
+  {
+   "team_size": 3,
+   "n_A_per_team": 1,
+   "a_share": 0.3333,
+   "recall_top20": 0.7235,
+   "precision_top20": 0.4341,
+   "p_a_pct85_95": 0.7149,
+   "p_a_bottom_half": 0.127
+  },
+  {
+   "team_size": 4,
+   "n_A_per_team": 1,
+   "a_share": 0.25,
+   "recall_top20": 0.6363,
+   "precision_top20": 0.5091,
+   "p_a_pct85_95": 0.6158,
+   "p_a_bottom_half": 0.0672
+  },
+  {
+   "team_size": 5,
+   "n_A_per_team": 1,
+   "a_share": 0.2,
+   "recall_top20": 0.5657,
+   "precision_top20": 0.5657,
+   "p_a_pct85_95": 0.5418,
+   "p_a_bottom_half": 0.041
+  },
+  {
+   "team_size": 6,
+   "n_A_per_team": 1,
+   "a_share": 0.1667,
+   "recall_top20": 0.5104,
+   "precision_top20": 0.6125,
+   "p_a_pct85_95": 0.4874,
+   "p_a_bottom_half": 0.0263
+  },
+  {
+   "team_size": 8,
+   "n_A_per_team": 2,
+   "a_share": 0.25,
+   "recall_top20": 0.6928,
+   "precision_top20": 0.5543,
+   "p_a_pct85_95": 0.68,
+   "p_a_bottom_half": 0.0473
+  },
+  {
+   "team_size": 10,
+   "n_A_per_team": 2,
+   "a_share": 0.2,
+   "recall_top20": 0.6217,
+   "precision_top20": 0.6217,
+   "p_a_pct85_95": 0.6062,
+   "p_a_bottom_half": 0.0254
+  },
+  {
+   "team_size": 12,
+   "n_A_per_team": 2,
+   "a_share": 0.1667,
+   "recall_top20": 0.5579,
+   "precision_top20": 0.6695,
+   "p_a_pct85_95": 0.526,
+   "p_a_bottom_half": 0.0158
+  },
+  {
+   "team_size": 20,
+   "n_A_per_team": 4,
+   "a_share": 0.2,
+   "recall_top20": 0.6528,
+   "precision_top20": 0.6528,
+   "p_a_pct85_95": 0.6347,
+   "p_a_bottom_half": 0.0197
+  },
+  {
+   "team_size": 40,
+   "n_A_per_team": 8,
+   "a_share": 0.2,
+   "recall_top20": 0.6734,
+   "precision_top20": 0.6734,
+   "p_a_pct85_95": 0.6603,
+   "p_a_bottom_half": 0.0138
+  }
+ ],
+ "grid_recall_gap_by_size": {
+  "5": [
+   -0.3194,
+   -0.0971
+  ],
+  "10": [
+   -0.2735,
+   -0.0524
+  ],
+  "20": [
+   -0.2424,
+   -0.0317
+  ],
+  "40": [
+   -0.2171,
+   -0.0149
+  ]
+ },
+ "grid_recall_gap_sdteam0": {
+  "5": [
+   -0.1911,
+   -0.0971
+  ],
+  "10": [
+   -0.1149,
+   -0.0524
+  ],
+  "20": [
+   -0.0651,
+   -0.0317
+  ],
+  "40": [
+   -0.0344,
+   -0.0149
+  ]
+ },
+ "a_share_round_half_up_range_3_12": [
+  0.1667,
+  0.3333
+ ],
+ "a_share_all_rules_range_3_12": [
+  0.0,
+  0.3333
+ ],
+ "grid_p_a_pct85_95_team5": [
+  0.4025,
+  0.6272
+ ],
+ "grid_p_a_pct85_95_company": [
+  0.596,
+  0.8899
+ ],
+ "grid_p_a_bottom_half_team5": [
+  0.019,
+  0.0927
+ ],
+ "grid_p_a_bottom_half_company": [
+  0.0001,
+  0.0287
+ ]
+}

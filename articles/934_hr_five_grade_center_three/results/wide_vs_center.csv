@@ -1,0 +1,12 @@
+,wide,center
+share_3,0.3975,0.7017
+top10_rated3,0.0283,0.1857
+top10_rated_4or5,0.9717,0.8143
+rated3_true_pct_p10,24.8333,18.8333
+rated3_true_pct_p90,74.8333,81.1667
+corr_grade_true,0.8538,0.7744
+precision_top30,0.6444,0.6231
+improved_up,0.4694,0.3057
+not_improved_up,0.2395,0.1515
+up_really_improved,0.331,0.3333
+improved_same,0.4431,0.6371

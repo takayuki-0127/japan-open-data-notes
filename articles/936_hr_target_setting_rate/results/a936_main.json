@@ -1,0 +1,283 @@
+{
+ "base_200reps": [
+  {
+   "method": "一律の目標",
+   "rho_rate_ability": 0.843,
+   "rho_rate_sales": 1.0,
+   "share_ge_100": 0.499,
+   "top20_hit": 0.703,
+   "rho_rate_u": 0.001,
+   "rho_rate_luck_this": 0.494,
+   "rho_rate_luck_last": 0.007,
+   "rho_rate_manager_err": -0.0
+  },
+  {
+   "method": "前年実績×1.1",
+   "rho_rate_ability": -0.008,
+   "rho_rate_sales": 0.342,
+   "share_ge_100": 0.325,
+   "top20_hit": 0.198,
+   "rho_rate_u": -0.01,
+   "rho_rate_luck_this": 0.689,
+   "rho_rate_luck_last": -0.686,
+   "rho_rate_manager_err": -0.001
+  },
+  {
+   "method": "上司の見立て",
+   "rho_rate_ability": -0.003,
+   "rho_rate_sales": 0.409,
+   "share_ge_100": 0.502,
+   "top20_hit": 0.198,
+   "rho_rate_u": -0.004,
+   "rho_rate_luck_this": 0.817,
+   "rho_rate_luck_last": -0.0,
+   "rho_rate_manager_err": -0.537
+  },
+  {
+   "method": "自己申告",
+   "rho_rate_ability": 0.001,
+   "rho_rate_sales": 0.426,
+   "share_ge_100": 0.805,
+   "top20_hit": 0.202,
+   "rho_rate_u": 0.492,
+   "rho_rate_luck_this": 0.846,
+   "rho_rate_luck_last": 0.002,
+   "rho_rate_manager_err": -0.005
+  },
+  {
+   "method": "売上そのもの",
+   "rho_rate_ability": 0.843,
+   "rho_rate_sales": 1.0,
+   "share_ge_100": NaN,
+   "top20_hit": 0.703,
+   "rho_rate_u": 0.001,
+   "rho_rate_luck_this": 0.494,
+   "rho_rate_luck_last": 0.007,
+   "rho_rate_manager_err": -0.0
+  }
+ ],
+ "grid_range": {
+  "一律の目標": {
+   "rho_min": 0.501,
+   "rho_max": 0.978,
+   "share_min": 0.496,
+   "share_max": 0.505
+  },
+  "前年実績×1.1": {
+   "rho_min": -0.008,
+   "rho_max": 0.006,
+   "share_min": 0.199,
+   "share_max": 0.398
+  },
+  "上司の見立て": {
+   "rho_min": -0.007,
+   "rho_max": 0.012,
+   "share_min": 0.492,
+   "share_max": 0.506
+  },
+  "自己申告": {
+   "rho_min": -0.009,
+   "rho_max": 0.008,
+   "share_min": 0.713,
+   "share_max": 0.895
+  }
+ },
+ "by_prev_multiplier": [
+  {
+   "k_prev": 1.0,
+   "share_ge_100": 0.499,
+   "formula": 0.5,
+   "rho_rate_ability": -0.003
+  },
+  {
+   "k_prev": 1.05,
+   "share_ge_100": 0.409,
+   "formula": 0.409,
+   "rho_rate_ability": -0.022
+  },
+  {
+   "k_prev": 1.1,
+   "share_ge_100": 0.322,
+   "formula": 0.327,
+   "rho_rate_ability": 0.003
+  },
+  {
+   "k_prev": 1.2,
+   "share_ge_100": 0.198,
+   "formula": 0.195,
+   "rho_rate_ability": 0.009
+  }
+ ],
+ "by_manager_error": [
+  {
+   "s_m": 0.0,
+   "rho_rate_ability": 0.003,
+   "top20_hit": 0.199
+  },
+  {
+   "s_m": 0.05,
+   "rho_rate_ability": 0.008,
+   "top20_hit": 0.206
+  },
+  {
+   "s_m": 0.1,
+   "rho_rate_ability": -0.002,
+   "top20_hit": 0.204
+  },
+  {
+   "s_m": 0.2,
+   "rho_rate_ability": -0.003,
+   "top20_hit": 0.195
+  },
+  {
+   "s_m": 0.4,
+   "rho_rate_ability": 0.002,
+   "top20_hit": 0.2
+  }
+ ],
+ "by_target_weight": [
+  {
+   "s_y": 0.08,
+   "w": 0.0,
+   "rho_rate_ability": 0.946
+  },
+  {
+   "s_y": 0.08,
+   "w": 0.25,
+   "rho_rate_ability": 0.903
+  },
+  {
+   "s_y": 0.08,
+   "w": 0.5,
+   "rho_rate_ability": 0.785
+  },
+  {
+   "s_y": 0.08,
+   "w": 0.75,
+   "rho_rate_ability": 0.479
+  },
+  {
+   "s_y": 0.08,
+   "w": 1.0,
+   "rho_rate_ability": 0.005
+  },
+  {
+   "s_y": 0.15,
+   "w": 0.0,
+   "rho_rate_ability": 0.845
+  },
+  {
+   "s_y": 0.15,
+   "w": 0.25,
+   "rho_rate_ability": 0.755
+  },
+  {
+   "s_y": 0.15,
+   "w": 0.5,
+   "rho_rate_ability": 0.592
+  },
+  {
+   "s_y": 0.15,
+   "w": 0.75,
+   "rho_rate_ability": 0.335
+  },
+  {
+   "s_y": 0.15,
+   "w": 1.0,
+   "rho_rate_ability": 0.001
+  },
+  {
+   "s_y": 0.25,
+   "w": 0.0,
+   "rho_rate_ability": 0.691
+  },
+  {
+   "s_y": 0.25,
+   "w": 0.25,
+   "rho_rate_ability": 0.579
+  },
+  {
+   "s_y": 0.25,
+   "w": 0.5,
+   "rho_rate_ability": 0.42
+  },
+  {
+   "s_y": 0.25,
+   "w": 0.75,
+   "rho_rate_ability": 0.221
+  },
+  {
+   "s_y": 0.25,
+   "w": 1.0,
+   "rho_rate_ability": 0.004
+  }
+ ],
+ "one_draw": {
+  "一律の目標": {
+   "rho_rate_ability": 0.853,
+   "rho_rate_sales": 1.0,
+   "share_ge_100": 0.495,
+   "top20_hit": 0.625,
+   "rho_rate_u": 0.018,
+   "rho_rate_luck_this": 0.555,
+   "rho_rate_luck_last": -0.043,
+   "rho_rate_manager_err": -0.02
+  },
+  "前年実績×1.1": {
+   "rho_rate_ability": 0.111,
+   "rho_rate_sales": 0.427,
+   "share_ge_100": 0.34,
+   "top20_hit": 0.2,
+   "rho_rate_u": 0.036,
+   "rho_rate_luck_this": 0.706,
+   "rho_rate_luck_last": -0.712,
+   "rho_rate_manager_err": -0.027
+  },
+  "上司の見立て": {
+   "rho_rate_ability": 0.104,
+   "rho_rate_sales": 0.481,
+   "share_ge_100": 0.43,
+   "top20_hit": 0.225,
+   "rho_rate_u": 0.108,
+   "rho_rate_luck_this": 0.799,
+   "rho_rate_luck_last": -0.081,
+   "rho_rate_manager_err": -0.531
+  },
+  "自己申告": {
+   "rho_rate_ability": 0.088,
+   "rho_rate_sales": 0.474,
+   "share_ge_100": 0.8,
+   "top20_hit": 0.225,
+   "rho_rate_u": 0.546,
+   "rho_rate_luck_this": 0.824,
+   "rho_rate_luck_last": -0.076,
+   "rho_rate_manager_err": -0.063
+  },
+  "売上そのもの": {
+   "rho_rate_ability": 0.853,
+   "rho_rate_sales": 1.0,
+   "share_ge_100": NaN,
+   "top20_hit": 0.625,
+   "rho_rate_u": 0.018,
+   "rho_rate_luck_this": 0.555,
+   "rho_rate_luck_last": -0.043,
+   "rho_rate_manager_err": -0.02
+  }
+ },
+ "one_draw_reversed_pairs_vs_sales": {
+  "一律の目標": 0.0,
+  "前年実績×1.1": 0.353,
+  "上司の見立て": 0.334,
+  "自己申告": 0.335
+ },
+ "one_draw_flat_target": 1021.3,
+ "params": {
+  "s_a": 0.25,
+  "s_y": 0.15,
+  "k_prev": 1.1,
+  "s_m": 0.1,
+  "u_max": 0.3,
+  "n": 200,
+  "median_ability": 1000.0
+ }
+}
