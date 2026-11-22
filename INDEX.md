@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 643本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 667本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -13,17 +13,17 @@
 | 予測・時系列 | 139 |
 | 因果推論・効果検証 | 64 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 307 |
+| 統計の考え方（検定・区間・回帰） | 313 |
 | 機械学習・モデル評価 | 103 |
 | 顧客分析・生存分析 | 68 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 167 |
+| 集計の定義・KPI | 168 |
 | 可視化・報告・BI | 46 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 369 |
+| その他（記述・要因分解など） | 387 |
 
 <details><summary><b>予測・時系列</b>（139本）</summary>
 
@@ -276,7 +276,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（307本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（313本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -587,6 +587,12 @@
 | 901 | 「前年比の前年比」は、何を表しているのか？ | [901_pct_yoy_of_yoy](articles/901_pct_yoy_of_yoy) |
 | 917 | 寸法の平均が規格の中でも、外れる品物は何%あるのか？ | [917_quality_mean_in_spec_out_rate](articles/917_quality_mean_in_spec_out_rate) |
 | 919 | 改善の前後で不良率を比べるとき、何か月見ればよいのか？ | [919_quality_before_after_months](articles/919_quality_before_after_months) |
+| 922 | 偏差値60は、上から何%なのか？ | [922_exam_deviation60_top_percent](articles/922_exam_deviation60_top_percent) |
+| 927 | 勉強時間と点数の相関から、何時間で何点上がると言えるのか？ | [927_exam_study_hours_slope](articles/927_exam_study_hours_slope) |
+| 936 | 目標達成率は、目標の置き方でどれだけ変わるのか？ | [936_hr_target_setting_rate](articles/936_hr_target_setting_rate) |
+| 939 | 項目ごとの点を足すときの重みで、順位は入れ替わるのか？ | [939_hr_item_weights_rank](articles/939_hr_item_weights_rank) |
+| 941 | 部署ごとの平均点の差は、人の差か評価者の差か？ | [941_hr_department_mean_rater_vs_people](articles/941_hr_department_mean_rater_vs_people) |
+| 942 | 評価の点と売上の相関は、評価の正しさを示すのか？ | [942_hr_rating_sales_correlation](articles/942_hr_rating_sales_correlation) |
 
 </details>
 
@@ -894,7 +900,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（167本）</summary>
+<details><summary><b>集計の定義・KPI</b>（168本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1065,6 +1071,7 @@
 | 905 | 構成比が下がっても、量は増えていることはあるのか？ | [905_percent_share_down_amount_up](articles/905_percent_share_down_amount_up) |
 | 907 | 四捨五入した割合を足すと、なぜ100%にならないのか？ | [907_pct_rounding_sum_100](articles/907_pct_rounding_sum_100) |
 | 913 | 不良率の月ごとの上下は、工程の変化か偶然か？ | [913_quality_monthly_rate_noise](articles/913_quality_monthly_rate_noise) |
+| 936 | 目標達成率は、目標の置き方でどれだけ変わるのか？ | [936_hr_target_setting_rate](articles/936_hr_target_setting_rate) |
 
 </details>
 
@@ -1325,7 +1332,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（369本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（387本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1698,6 +1705,24 @@
 | 916 | 「不良0件」の月は、不良率0%と言えるのか？ | [916_quality_zero_defect_month](articles/916_quality_zero_defect_month) |
 | 918 | 不良の原因の上位を、件数で並べるか損失で並べるかで変わるのか？ | [918_quality_pareto_count_vs_loss](articles/918_quality_pareto_count_vs_loss) |
 | 920 | 工程を2つつなぐと、全体の良品率はどうなるのか？ | [920_quality_two_process_yield](articles/920_quality_two_process_yield) |
+| 921 | 合格率30%の試験で、実力は合格ラインちょうどの人は何%受かるのか？ | [921_exam_pass30_at_cutline](articles/921_exam_pass30_at_cutline) |
+| 923 | 模試の「A判定」は、何%の確率で受かるという意味なのか？ | [923_exam_mock_a_judgment](articles/923_exam_mock_a_judgment) |
+| 924 | 平均点が年ごとに違う試験の点は、そのまま比べてよいのか？ | [924_exam_yearly_mean_compare](articles/924_exam_yearly_mean_compare) |
+| 925 | 過去問の点が上がったのは、実力か問題を覚えたからか？ | [925_exam_past_paper_memorize](articles/925_exam_past_paper_memorize) |
+| 926 | 1回の試験の点は、実力からどれだけ振れるのか？ | [926_exam_one_score_swing](articles/926_exam_one_score_swing) |
+| 928 | 「独学の人の合格率」と「講座の人の合格率」は比べられるのか？ | [928_exam_self_vs_course_passrate](articles/928_exam_self_vs_course_passrate) |
+| 929 | 選択問題の「当てずっぽう」は、点をどれだけ押し上げるのか？ | [929_exam_guessing_boost](articles/929_exam_guessing_boost) |
+| 930 | 合格点ぎりぎりで落ちた人と受かった人は、どれだけ違うのか？ | [930_exam_just_below_vs_just_above](articles/930_exam_just_below_vs_just_above) |
+| 931 | 分野ごとの足切りがあると、合格率はどう変わるのか？ | [931_exam_section_cutoff_pass_rate](articles/931_exam_section_cutoff_pass_rate) |
+| 932 | 2回目の受験の合格率が高いのは、なぜなのか？ | [932_exam_second_attempt_pass_rate](articles/932_exam_second_attempt_pass_rate) |
+| 933 | 甘い評価者と辛い評価者の点を、そのまま比べてよいのか？ | [933_hr_rater_leniency_compare](articles/933_hr_rater_leniency_compare) |
+| 934 | 5段階評価の「3」に集まると、何が見えなくなるのか？ | [934_hr_five_grade_center_three](articles/934_hr_five_grade_center_three) |
+| 935 | 相対評価の枠（上位2割など）は、小さいチームでどう働くのか？ | [935_hr_forced_quota_small_team](articles/935_hr_forced_quota_small_team) |
+| 937 | 評価者の数を増やすと、点の振れはどれだけ減るのか？ | [937_hr_number_of_raters](articles/937_hr_number_of_raters) |
+| 938 | 直近の出来事に引っぱられる評価は、年の点をどれだけ動かすのか？ | [938_hr_recency_bias_year](articles/938_hr_recency_bias_year) |
+| 940 | 去年高かった人の点が下がるのは、本当に下がったのか？ | [940_hr_regression_to_mean_drop](articles/940_hr_regression_to_mean_drop) |
+| 943 | 昇格の基準を「2年連続でA」にすると、誰が残るのか？ | [943_hr_promotion_two_years_a](articles/943_hr_promotion_two_years_a) |
+| 944 | 自己評価と上司評価のずれは、何を表しているのか？ | [944_hr_self_vs_boss_gap](articles/944_hr_self_vs_boss_gap) |
 
 </details>
 
@@ -1706,16 +1731,16 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 194 |
+| 小売・店舗 | 195 |
 | EC・会員・Web | 96 |
 | マーケティング・広告 | 23 |
 | 需要予測・在庫 | 31 |
-| 業務の集計・報告 | 132 |
+| 業務の集計・報告 | 133 |
 | 作業時間・処理件数 | 6 |
 | 保険 | 72 |
 | 公的統計・地域・人口 | 433 |
 
-<details><summary><b>小売・店舗</b>（194本）</summary>
+<details><summary><b>小売・店舗</b>（195本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1913,6 +1938,7 @@
 | 906 | 割合の差と割合の比、どちらで比べると順位が変わるのか？ | [906_pct_diff_vs_ratio_rank](articles/906_pct_diff_vs_ratio_rank) |
 | 907 | 四捨五入した割合を足すと、なぜ100%にならないのか？ | [907_pct_rounding_sum_100](articles/907_pct_rounding_sum_100) |
 | 908 | 「n人中x人」を割合だけで書くと、何が消えるのか？ | [908_pct_n_of_x_hidden](articles/908_pct_n_of_x_hidden) |
+| 942 | 評価の点と売上の相関は、評価の正しさを示すのか？ | [942_hr_rating_sales_correlation](articles/942_hr_rating_sales_correlation) |
 
 </details>
 
@@ -2087,7 +2113,7 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（132本）</summary>
+<details><summary><b>業務の集計・報告</b>（133本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2223,6 +2249,7 @@
 | 872 | 前年と質問文を変えた年の比較は、どこまでできるのか？ | [872_survey_wording_change_yoy](articles/872_survey_wording_change_yoy) |
 | 894 | 「月の目標額以上」が何か月続いたら、実力と言えるのか？ | [894_sidejob_target_streak_months](articles/894_sidejob_target_streak_months) |
 | 901 | 「前年比の前年比」は、何を表しているのか？ | [901_pct_yoy_of_yoy](articles/901_pct_yoy_of_yoy) |
+| 936 | 目標達成率は、目標の置き方でどれだけ変わるのか？ | [936_hr_target_setting_rate](articles/936_hr_target_setting_rate) |
 
 </details>
 
