@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 667本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 691本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -11,19 +11,19 @@
 | 手法 | 本数 |
 |---|---|
 | 予測・時系列 | 139 |
-| 因果推論・効果検証 | 64 |
+| 因果推論・効果検証 | 66 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 313 |
-| 機械学習・モデル評価 | 103 |
-| 顧客分析・生存分析 | 68 |
-| SQL・データ処理 | 93 |
+| 統計の考え方（検定・区間・回帰） | 316 |
+| 機械学習・モデル評価 | 104 |
+| 顧客分析・生存分析 | 69 |
+| SQL・データ処理 | 94 |
 | Excel | 12 |
 | 集計の定義・KPI | 168 |
 | 可視化・報告・BI | 46 |
 | 保険数理・リスク | 73 |
-| テキスト・ネットワーク・空間 | 17 |
-| 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 387 |
+| テキスト・ネットワーク・空間 | 21 |
+| 再現性・振り返り | 95 |
+| その他（記述・要因分解など） | 400 |
 
 <details><summary><b>予測・時系列</b>（139本）</summary>
 
@@ -171,7 +171,7 @@
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（64本）</summary>
+<details><summary><b>因果推論・効果検証</b>（66本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -239,6 +239,8 @@
 | 770 | 傾向スコアか結果のモデルのどちらかがまちがっているとき、二重に頑健な推定はどれだけずれるのか？ | [770_doubly_robust](articles/770_doubly_robust) |
 | 776 | 差の差で対照を1店だけ選ぶと、施策の効果の推定はどれだけ振れるのか？ | [776_single_control_did](articles/776_single_control_did) |
 | 888 | 1社に頼る割合が高いと、月の収入はどれだけ振れるのか？ | [888_side_client_concentration](articles/888_side_client_concentration) |
+| 957 | 単語の数え方（区切り方）で、多い言葉の順位は変わるのか？ | [957_text_word_split_rank](articles/957_text_word_split_rank) |
+| 959 | 文章が長い人ほど、同じ言葉が多く出るのはなぜか？ | [959_text_length_word_count](articles/959_text_length_word_count) |
 
 </details>
 
@@ -276,7 +278,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（313本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（316本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -593,10 +595,13 @@
 | 939 | 項目ごとの点を足すときの重みで、順位は入れ替わるのか？ | [939_hr_item_weights_rank](articles/939_hr_item_weights_rank) |
 | 941 | 部署ごとの平均点の差は、人の差か評価者の差か？ | [941_hr_department_mean_rater_vs_people](articles/941_hr_department_mean_rater_vs_people) |
 | 942 | 評価の点と売上の相関は、評価の正しさを示すのか？ | [942_hr_rating_sales_correlation](articles/942_hr_rating_sales_correlation) |
+| 946 | 面積で割るか人口で割るかで、密度の地図はどう変わるのか？ | [946_map_density_area_vs_population](articles/946_map_density_area_vs_population) |
+| 954 | 区域を細かくすると、相関はどう変わるのか？ | [954_map_scale_correlation_change](articles/954_map_scale_correlation_change) |
+| 961 | 前向き・後ろ向きの点数は、言葉の数え方でどれだけ変わるのか？ | [961_text_sentiment_score_counting](articles/961_text_sentiment_score_counting) |
 
 </details>
 
-<details><summary><b>機械学習・モデル評価</b>（103本）</summary>
+<details><summary><b>機械学習・モデル評価</b>（104本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -703,10 +708,11 @@
 | 788 | 変数選びを交差検証の前に全部のデータでやると、関係のないデータでも正解率はどれだけ高く出るのか？ | [788_feature_selection_leak](articles/788_feature_selection_leak) |
 | 789 | 学習とテストを1回だけ分けたとき、テストの成績はどれだけ振れるのか？ | [789_single_split_variance](articles/789_single_split_variance) |
 | 790 | 学習データを2倍にすると、テストの誤差はどれだけ減り、どこで頭打ちになるのか？ | [790_learning_curve](articles/790_learning_curve) |
+| 964 | 自動で分類したときの正解率は、何と比べればよいのか？ | [964_text_classifier_accuracy_baseline](articles/964_text_classifier_accuracy_baseline) |
 
 </details>
 
-<details><summary><b>顧客分析・生存分析</b>（68本）</summary>
+<details><summary><b>顧客分析・生存分析</b>（69本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -778,10 +784,11 @@
 | 823 | 散布図の点が多すぎると、関係は見えなくなるのか？ | [823_graph_scatter_overplotting](articles/823_graph_scatter_overplotting) |
 | 841 | 長い動画と短い動画の維持率は、そのまま比べられるのか？ | [841_sns_retention_length](articles/841_sns_retention_length) |
 | 887 | 継続率は、月で数えるか案件で数えるかで変わるのか？ | [887_side_retention_month_vs_project](articles/887_side_retention_month_vs_project) |
+| 948 | 小さい区域の率は、なぜ地図の端に極端な色が出やすいのか？ | [948_map_small_area_extreme_rate](articles/948_map_small_area_extreme_rate) |
 
 </details>
 
-<details><summary><b>SQL・データ処理</b>（93本）</summary>
+<details><summary><b>SQL・データ処理</b>（94本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -878,6 +885,7 @@
 | 773 | 列の順番が違う2つの表を UNION ALL でつなぐと、何行の値が別の列に入るのか？ | [773_union_column_order](articles/773_union_column_order) |
 | 791 | 0で割るのを NULLIF で避けると、その店は平均から黙って消え、全体の率はどれだけ変わるのか？ | [791_nullif_drop_from_avg](articles/791_nullif_drop_from_avg) |
 | 793 | 空の文字と NULL を区別せずに数えると、未入力の件数はどれだけずれるのか？ | [793_empty_string_vs_null](articles/793_empty_string_vs_null) |
+| 965 | 同じ文の重複（コピペ）を除かないと、何が起きるのか？ | [965_text_duplicate_copies](articles/965_text_duplicate_copies) |
 
 </details>
 
@@ -1208,7 +1216,7 @@
 
 </details>
 
-<details><summary><b>テキスト・ネットワーク・空間</b>（17本）</summary>
+<details><summary><b>テキスト・ネットワーク・空間</b>（21本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1229,10 +1237,14 @@
 | F208 | マンションの値段は地価とどう動き、地価の予測はどこで外れ続けるのか？ | [F208_landprice_series_part2](articles/F208_landprice_series_part2) |
 | F261 | 潜在成長率は、計算の仕方でどれだけ変わるのか？ | [F261_potential_growth_methods](articles/F261_potential_growth_methods) |
 | F269 | 「価格転嫁できた企業」は、どんな企業か？ | [F269_sme_price_passthrough](articles/F269_sme_price_passthrough) |
+| 946 | 面積で割るか人口で割るかで、密度の地図はどう変わるのか？ | [946_map_density_area_vs_population](articles/946_map_density_area_vs_population) |
+| 948 | 小さい区域の率は、なぜ地図の端に極端な色が出やすいのか？ | [948_map_small_area_extreme_rate](articles/948_map_small_area_extreme_rate) |
+| 949 | 色分けの区切り（等間隔・同じ件数）で、地図の印象はどう変わるのか？ | [949_map_class_breaks_impression](articles/949_map_class_breaks_impression) |
+| 955 | 地図の上の「空白」は、ゼロなのかデータがないのか？ | [955_map_blank_zero_or_missing](articles/955_map_blank_zero_or_missing) |
 
 </details>
 
-<details><summary><b>再現性・振り返り</b>（93本）</summary>
+<details><summary><b>再現性・振り返り</b>（95本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1329,10 +1341,12 @@
 | 406 | SQL の見直しの観点10個を、自分の記事の SQL に当てると何件引っかかるか？ | [406_sql_review_checklist_hits](articles/406_sql_review_checklist_hits) |
 | 412 | 月末に始まった契約の「1か月後」は、いつになるのか？ | [412_monthly_anniversary_dates](articles/412_monthly_anniversary_dates) |
 | 427 | 「2025/1/5」「R7.1.5」「20250105」が混ざった日付の列は、機械に読ませると何件が別の日になるのか？ | [427_mixed_date_formats](articles/427_mixed_date_formats) |
+| 957 | 単語の数え方（区切り方）で、多い言葉の順位は変わるのか？ | [957_text_word_split_rank](articles/957_text_word_split_rank) |
+| 966 | 表記ゆれ（全角・半角・言い換え）をそろえると、数はどれだけ動くのか？ | [966_text_notation_variants_merge](articles/966_text_notation_variants_merge) |
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（387本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（400本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1723,6 +1737,19 @@
 | 940 | 去年高かった人の点が下がるのは、本当に下がったのか？ | [940_hr_regression_to_mean_drop](articles/940_hr_regression_to_mean_drop) |
 | 943 | 昇格の基準を「2年連続でA」にすると、誰が残るのか？ | [943_hr_promotion_two_years_a](articles/943_hr_promotion_two_years_a) |
 | 944 | 自己評価と上司評価のずれは、何を表しているのか？ | [944_hr_self_vs_boss_gap](articles/944_hr_self_vs_boss_gap) |
+| 945 | 区域の線の引き方で、「いちばん売れる地区」は入れ替わるのか？ | [945_map_zoning_top_district](articles/945_map_zoning_top_district) |
+| 947 | まっすぐの距離と道のりの距離で、近い店は入れ替わるのか？ | [947_map_straight_vs_road_distance](articles/947_map_straight_vs_road_distance) |
+| 950 | 店の商圏を半径で決めると、重なりはどれだけ数え落とすのか？ | [950_map_trade_area_radius_overlap](articles/950_map_trade_area_radius_overlap) |
+| 951 | 住所の「丁目」でまとめると、何がずれるのか？ | [951_map_chome_centroid_shift](articles/951_map_chome_centroid_shift) |
+| 952 | 配送の時間は、距離に比例するのか？ | [952_map_delivery_time_vs_distance](articles/952_map_delivery_time_vs_distance) |
+| 953 | 出店した場所の売上が高いのは、場所のおかげか？ | [953_map_store_site_selection](articles/953_map_store_site_selection) |
+| 956 | 2つの拠点の中間に置くと、全体の距離は本当に短くなるのか？ | [956_map_midpoint_total_distance](articles/956_map_midpoint_total_distance) |
+| 958 | ワードクラウドの大きい文字は、本当に多い意見なのか？ | [958_text_wordcloud_big_words](articles/958_text_wordcloud_big_words) |
+| 960 | 「似ている度合い」の数え方で、似ている文章の組は入れ替わるのか？ | [960_text_similarity_measure_pairs](articles/960_text_similarity_measure_pairs) |
+| 962 | 「よく一緒に出る言葉」は、本当に関係があるのか？ | [962_text_cooccurrence_relation](articles/962_text_cooccurrence_relation) |
+| 963 | 少ない件数の言葉の「特徴的な度合い」は、なぜ極端に出るのか？ | [963_text_keyness_small_count](articles/963_text_keyness_small_count) |
+| 967 | 問い合わせの件名だけで分けると、本文と比べて何がずれるのか？ | [967_text_subject_only_classification](articles/967_text_subject_only_classification) |
+| 968 | 文字数の数え方（文字・バイト・単語）で、何が変わるのか？ | [968_text_length_chars_bytes_words](articles/968_text_length_chars_bytes_words) |
 
 </details>
 
@@ -1731,16 +1758,16 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 195 |
-| EC・会員・Web | 96 |
-| マーケティング・広告 | 23 |
+| 小売・店舗 | 203 |
+| EC・会員・Web | 97 |
+| マーケティング・広告 | 25 |
 | 需要予測・在庫 | 31 |
 | 業務の集計・報告 | 133 |
 | 作業時間・処理件数 | 6 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 433 |
+| 公的統計・地域・人口 | 434 |
 
-<details><summary><b>小売・店舗</b>（195本）</summary>
+<details><summary><b>小売・店舗</b>（203本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1939,10 +1966,18 @@
 | 907 | 四捨五入した割合を足すと、なぜ100%にならないのか？ | [907_pct_rounding_sum_100](articles/907_pct_rounding_sum_100) |
 | 908 | 「n人中x人」を割合だけで書くと、何が消えるのか？ | [908_pct_n_of_x_hidden](articles/908_pct_n_of_x_hidden) |
 | 942 | 評価の点と売上の相関は、評価の正しさを示すのか？ | [942_hr_rating_sales_correlation](articles/942_hr_rating_sales_correlation) |
+| 945 | 区域の線の引き方で、「いちばん売れる地区」は入れ替わるのか？ | [945_map_zoning_top_district](articles/945_map_zoning_top_district) |
+| 946 | 面積で割るか人口で割るかで、密度の地図はどう変わるのか？ | [946_map_density_area_vs_population](articles/946_map_density_area_vs_population) |
+| 947 | まっすぐの距離と道のりの距離で、近い店は入れ替わるのか？ | [947_map_straight_vs_road_distance](articles/947_map_straight_vs_road_distance) |
+| 950 | 店の商圏を半径で決めると、重なりはどれだけ数え落とすのか？ | [950_map_trade_area_radius_overlap](articles/950_map_trade_area_radius_overlap) |
+| 951 | 住所の「丁目」でまとめると、何がずれるのか？ | [951_map_chome_centroid_shift](articles/951_map_chome_centroid_shift) |
+| 953 | 出店した場所の売上が高いのは、場所のおかげか？ | [953_map_store_site_selection](articles/953_map_store_site_selection) |
+| 961 | 前向き・後ろ向きの点数は、言葉の数え方でどれだけ変わるのか？ | [961_text_sentiment_score_counting](articles/961_text_sentiment_score_counting) |
+| 963 | 少ない件数の言葉の「特徴的な度合い」は、なぜ極端に出るのか？ | [963_text_keyness_small_count](articles/963_text_keyness_small_count) |
 
 </details>
 
-<details><summary><b>EC・会員・Web</b>（96本）</summary>
+<details><summary><b>EC・会員・Web</b>（97本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2042,10 +2077,11 @@
 | 820 | 対数の軸と普通の軸で、「伸びが鈍った」の見え方は変わるのか？ | [820_graph_log_vs_linear_axis](articles/820_graph_log_vs_linear_axis) |
 | 823 | 散布図の点が多すぎると、関係は見えなくなるのか？ | [823_graph_scatter_overplotting](articles/823_graph_scatter_overplotting) |
 | 842 | 表示が増えると、クリック率は下がって見えるのか？ | [842_sns_ctr_impressions](articles/842_sns_ctr_impressions) |
+| 948 | 小さい区域の率は、なぜ地図の端に極端な色が出やすいのか？ | [948_map_small_area_extreme_rate](articles/948_map_small_area_extreme_rate) |
 
 </details>
 
-<details><summary><b>マーケティング・広告</b>（23本）</summary>
+<details><summary><b>マーケティング・広告</b>（25本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2072,6 +2108,8 @@
 | 758 | 件数が少ないとき、モデルの「上位10%のリフト」はどれだけ揺れるのか？ | [758_top_decile_lift_noise](articles/758_top_decile_lift_noise) |
 | 902 | 分母を「全体」にするか「対象者」にするかで、割合はどう変わるのか？ | [902_pct_denominator_all_vs_target](articles/902_pct_denominator_all_vs_target) |
 | 904 | 「〜の人の8割が〜」と「〜の人の8割は〜」は同じなのか？ | [904_percent_reverse_condition](articles/904_percent_reverse_condition) |
+| 959 | 文章が長い人ほど、同じ言葉が多く出るのはなぜか？ | [959_text_length_word_count](articles/959_text_length_word_count) |
+| 962 | 「よく一緒に出る言葉」は、本当に関係があるのか？ | [962_text_cooccurrence_relation](articles/962_text_cooccurrence_relation) |
 
 </details>
 
@@ -2345,7 +2383,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（433本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（434本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2782,6 +2820,7 @@
 | 452 | 小計や合計の行が混ざった表をそのまま足すと、合計は何倍になるのか？ | [452_subtotal_rows_double_count](articles/452_subtotal_rows_double_count) |
 | 474 | 見出しを結合セルや空欄で省いた Excel の表を読むと、何行が区分を失うのか？ | [474_blank_headings_filldown](articles/474_blank_headings_filldown) |
 | 541 | 郵便番号から都道府県・市区町村を引くと、古い番号や事業所の個別番号のせいで何件が引けないのか？ | [541_postal_code_lookup_gaps](articles/541_postal_code_lookup_gaps) |
+| 946 | 面積で割るか人口で割るかで、密度の地図はどう変わるのか？ | [946_map_density_area_vs_population](articles/946_map_density_area_vs_population) |
 
 </details>
 
