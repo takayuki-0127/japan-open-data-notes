@@ -1,0 +1,499 @@
+{
+ "settings": {
+  "n_text": 3000,
+  "words": 60,
+  "filler_share": 0.6,
+  "zipf_s": 1.3,
+  "len_median": 12,
+  "len_sigma": 0.6,
+  "len_clip": [
+   3,
+   80
+  ],
+  "true_pairs": [
+   [
+    "予約",
+    "変更"
+   ],
+   [
+    "返品",
+    "交換"
+   ],
+   [
+    "クーポン",
+    "割引"
+   ],
+   [
+    "ギフト",
+    "包装"
+   ],
+   [
+    "修理",
+    "保証"
+   ],
+   [
+    "電池",
+    "充電"
+   ],
+   [
+    "ログイン",
+    "パスワード"
+   ],
+   [
+    "個室",
+    "席"
+   ]
+  ],
+  "p_add": 0.4,
+  "top_k": 20,
+  "min_count": 5,
+  "len_bins": 10,
+  "reps": 30
+ },
+ "base_run": {
+  "n_pairs": 1770,
+  "n_true": 8,
+  "len_median": 12.0,
+  "word_share_max": 0.824,
+  "word_share_min": 0.0063,
+  "count": {
+   "hits_top20": 1,
+   "median_count_top20": 356.5,
+   "min_count_top20": 234,
+   "max_count_top20": 1815
+  },
+  "lift": {
+   "hits_top20": 6,
+   "median_count_top20": 3.5,
+   "min_count_top20": 1,
+   "max_count_top20": 38
+  },
+  "lift_min5": {
+   "hits_top20": 7,
+   "median_count_top20": 6.5,
+   "min_count_top20": 5,
+   "max_count_top20": 123
+  },
+  "len_adj": {
+   "hits_top20": 7,
+   "median_count_top20": 6.0,
+   "min_count_top20": 5,
+   "max_count_top20": 123
+  },
+  "true_pairs": [
+   {
+    "pair": "予約・変更",
+    "count": 1815,
+    "lift": 1.103,
+    "len_adj": 1.06,
+    "rank_count": 1,
+    "rank_lift": 1062,
+    "rank_len_adj": 345
+   },
+   {
+    "pair": "返品・交換",
+    "count": 123,
+    "lift": 4.692,
+    "len_adj": 3.345,
+    "rank_count": 40,
+    "rank_lift": 22,
+    "rank_len_adj": 9
+   },
+   {
+    "pair": "割引・クーポン",
+    "count": 38,
+    "lift": 10.978,
+    "len_adj": 8.492,
+    "rank_count": 159,
+    "rank_lift": 5,
+    "rank_len_adj": 5
+   },
+   {
+    "pair": "ギフト・包装",
+    "count": 29,
+    "lift": 9.259,
+    "len_adj": 6.521,
+    "rank_count": 206,
+    "rank_lift": 7,
+    "rank_len_adj": 6
+   },
+   {
+    "pair": "修理・保証",
+    "count": 23,
+    "lift": 15.402,
+    "len_adj": 12.203,
+    "rank_count": 256,
+    "rank_lift": 3,
+    "rank_len_adj": 2
+   },
+   {
+    "pair": "電池・充電",
+    "count": 19,
+    "lift": 15.833,
+    "len_adj": 12.105,
+    "rank_count": 292,
+    "rank_lift": 2,
+    "rank_len_adj": 3
+   },
+   {
+    "pair": "ログイン・パスワード",
+    "count": 21,
+    "lift": 16.364,
+    "len_adj": 12.434,
+    "rank_count": 274,
+    "rank_lift": 1,
+    "rank_len_adj": 1
+   },
+   {
+    "pair": "席・個室",
+    "count": 6,
+    "lift": 15.28,
+    "len_adj": 10.252,
+    "rank_count": 612,
+    "rank_lift": 4,
+    "rank_len_adj": 4
+   }
+  ],
+  "indep_pairs_n": 586,
+  "indep_lift_gt1": 0.8737201365187713,
+  "indep_lift_median": 1.232811030205825,
+  "indep_adj_gt1": 0.5273037542662116,
+  "indep_adj_median": 1.0065669443514267,
+  "lift_top20_count_le2": 6
+ },
+ "robustness": [
+  {
+   "n_text": 500,
+   "len_sigma": 0.0,
+   "count_hits20": 1.0,
+   "count_hits8": 1.0,
+   "count_med_count": 49.15,
+   "lift_hits20": 4.467,
+   "lift_hits8": 2.333,
+   "lift_med_count": 1.0,
+   "lift_min5_hits20": 2.333,
+   "lift_min5_hits8": 2.333,
+   "lift_min5_med_count": 6.5,
+   "len_adj_hits20": 2.333,
+   "len_adj_hits8": 2.333,
+   "len_adj_med_count": 6.5,
+   "indep_lift_gt1": 0.5027,
+   "indep_lift_median": 1.0012,
+   "indep_adj_gt1": 0.5027,
+   "indep_adj_median": 1.0012
+  },
+  {
+   "n_text": 500,
+   "len_sigma": 0.3,
+   "count_hits20": 1.0,
+   "count_hits8": 1.0,
+   "count_med_count": 52.63,
+   "lift_hits20": 4.333,
+   "lift_hits8": 2.267,
+   "lift_med_count": 1.02,
+   "lift_min5_hits20": 2.633,
+   "lift_min5_hits8": 2.633,
+   "lift_min5_med_count": 5.98,
+   "len_adj_hits20": 2.633,
+   "len_adj_hits8": 2.633,
+   "len_adj_med_count": 6.0,
+   "indep_lift_gt1": 0.6172,
+   "indep_lift_median": 1.0392,
+   "indep_adj_gt1": 0.5186,
+   "indep_adj_median": 1.0056
+  },
+  {
+   "n_text": 500,
+   "len_sigma": 0.6,
+   "count_hits20": 1.0,
+   "count_hits8": 1.0,
+   "count_med_count": 62.37,
+   "lift_hits20": 3.5,
+   "lift_hits8": 2.133,
+   "lift_med_count": 1.0,
+   "lift_min5_hits20": 3.0,
+   "lift_min5_hits8": 3.0,
+   "lift_min5_med_count": 6.02,
+   "len_adj_hits20": 3.0,
+   "len_adj_hits8": 3.0,
+   "len_adj_med_count": 6.08,
+   "indep_lift_gt1": 0.8413,
+   "indep_lift_median": 1.151,
+   "indep_adj_gt1": 0.5297,
+   "indep_adj_median": 1.008
+  },
+  {
+   "n_text": 500,
+   "len_sigma": 0.9,
+   "count_hits20": 1.0,
+   "count_hits8": 1.0,
+   "count_med_count": 72.37,
+   "lift_hits20": 3.333,
+   "lift_hits8": 1.767,
+   "lift_med_count": 1.3,
+   "lift_min5_hits20": 3.833,
+   "lift_min5_hits8": 3.433,
+   "lift_min5_med_count": 5.93,
+   "len_adj_hits20": 3.8,
+   "len_adj_hits8": 3.5,
+   "len_adj_med_count": 6.03,
+   "indep_lift_gt1": 0.9529,
+   "indep_lift_median": 1.2913,
+   "indep_adj_gt1": 0.5302,
+   "indep_adj_median": 1.007
+  },
+  {
+   "n_text": 3000,
+   "len_sigma": 0.0,
+   "count_hits20": 1.0,
+   "count_hits8": 1.0,
+   "count_med_count": 284.02,
+   "lift_hits20": 6.5,
+   "lift_hits8": 6.0,
+   "lift_med_count": 2.62,
+   "lift_min5_hits20": 6.967,
+   "lift_min5_hits8": 6.8,
+   "lift_min5_med_count": 6.93,
+   "len_adj_hits20": 6.967,
+   "len_adj_hits8": 6.8,
+   "len_adj_med_count": 6.93,
+   "indep_lift_gt1": 0.4861,
+   "indep_lift_median": 0.9955,
+   "indep_adj_gt1": 0.4861,
+   "indep_adj_median": 0.9955
+  },
+  {
+   "n_text": 3000,
+   "len_sigma": 0.3,
+   "count_hits20": 1.0,
+   "count_hits8": 1.0,
+   "count_med_count": 301.63,
+   "lift_hits20": 6.433,
+   "lift_hits8": 6.0,
+   "lift_med_count": 2.7,
+   "lift_min5_hits20": 7.0,
+   "lift_min5_hits8": 6.967,
+   "lift_min5_med_count": 7.22,
+   "len_adj_hits20": 7.0,
+   "len_adj_hits8": 6.933,
+   "len_adj_med_count": 7.2,
+   "indep_lift_gt1": 0.6436,
+   "indep_lift_median": 1.0482,
+   "indep_adj_gt1": 0.4946,
+   "indep_adj_median": 0.9988
+  },
+  {
+   "n_text": 3000,
+   "len_sigma": 0.6,
+   "count_hits20": 1.0,
+   "count_hits8": 1.0,
+   "count_med_count": 358.63,
+   "lift_hits20": 6.067,
+   "lift_hits8": 6.0,
+   "lift_med_count": 3.58,
+   "lift_min5_hits20": 7.0,
+   "lift_min5_hits8": 6.167,
+   "lift_min5_med_count": 7.18,
+   "len_adj_hits20": 7.0,
+   "len_adj_hits8": 6.267,
+   "len_adj_med_count": 7.13,
+   "indep_lift_gt1": 0.8942,
+   "indep_lift_median": 1.2498,
+   "indep_adj_gt1": 0.5413,
+   "indep_adj_median": 1.0112
+  },
+  {
+   "n_text": 3000,
+   "len_sigma": 0.9,
+   "count_hits20": 1.0,
+   "count_hits8": 1.0,
+   "count_med_count": 441.92,
+   "lift_hits20": 6.0,
+   "lift_hits8": 6.0,
+   "lift_med_count": 4.93,
+   "lift_min5_hits20": 6.433,
+   "lift_min5_hits8": 6.0,
+   "lift_min5_med_count": 7.2,
+   "len_adj_hits20": 6.8,
+   "len_adj_hits8": 6.0,
+   "len_adj_med_count": 7.23,
+   "indep_lift_gt1": 0.9824,
+   "indep_lift_median": 1.5786,
+   "indep_adj_gt1": 0.557,
+   "indep_adj_median": 1.0125
+  },
+  {
+   "n_text": 10000,
+   "len_sigma": 0.0,
+   "count_hits20": 1.0,
+   "count_hits8": 1.0,
+   "count_med_count": 955.9,
+   "lift_hits20": 7.0,
+   "lift_hits8": 6.933,
+   "lift_med_count": 5.22,
+   "lift_min5_hits20": 7.0,
+   "lift_min5_hits8": 7.0,
+   "lift_min5_med_count": 7.53,
+   "len_adj_hits20": 7.0,
+   "len_adj_hits8": 7.0,
+   "len_adj_med_count": 7.53,
+   "indep_lift_gt1": 0.4867,
+   "indep_lift_median": 0.9966,
+   "indep_adj_gt1": 0.4867,
+   "indep_adj_median": 0.9966
+  },
+  {
+   "n_text": 10000,
+   "len_sigma": 0.3,
+   "count_hits20": 1.0,
+   "count_hits8": 1.0,
+   "count_med_count": 1004.47,
+   "lift_hits20": 7.0,
+   "lift_hits8": 6.833,
+   "lift_med_count": 5.47,
+   "lift_min5_hits20": 7.0,
+   "lift_min5_hits8": 6.933,
+   "lift_min5_med_count": 7.8,
+   "len_adj_hits20": 7.0,
+   "len_adj_hits8": 6.933,
+   "len_adj_med_count": 7.98,
+   "indep_lift_gt1": 0.6716,
+   "indep_lift_median": 1.0586,
+   "indep_adj_gt1": 0.5008,
+   "indep_adj_median": 1.0003
+  },
+  {
+   "n_text": 10000,
+   "len_sigma": 0.6,
+   "count_hits20": 1.0,
+   "count_hits8": 1.0,
+   "count_med_count": 1209.55,
+   "lift_hits20": 7.0,
+   "lift_hits8": 6.7,
+   "lift_med_count": 8.4,
+   "lift_min5_hits20": 7.0,
+   "lift_min5_hits8": 6.733,
+   "lift_min5_med_count": 9.3,
+   "len_adj_hits20": 7.0,
+   "len_adj_hits8": 6.767,
+   "len_adj_med_count": 9.28,
+   "indep_lift_gt1": 0.9213,
+   "indep_lift_median": 1.3161,
+   "indep_adj_gt1": 0.5608,
+   "indep_adj_median": 1.0139
+  },
+  {
+   "n_text": 10000,
+   "len_sigma": 0.9,
+   "count_hits20": 1.0,
+   "count_hits8": 1.0,
+   "count_med_count": 1503.32,
+   "lift_hits20": 7.0,
+   "lift_hits8": 6.133,
+   "lift_med_count": 11.75,
+   "lift_min5_hits20": 7.0,
+   "lift_min5_hits8": 6.133,
+   "lift_min5_med_count": 11.78,
+   "len_adj_hits20": 7.0,
+   "len_adj_hits8": 6.567,
+   "len_adj_med_count": 11.85,
+   "indep_lift_gt1": 0.9875,
+   "indep_lift_median": 1.6685,
+   "indep_adj_gt1": 0.5816,
+   "indep_adj_median": 1.0163
+  }
+ ],
+ "robustness_range": {
+  "count_hits20": [
+   1.0,
+   1.0
+  ],
+  "count_hits8": [
+   1.0,
+   1.0
+  ],
+  "count_med_count": [
+   49.15,
+   1503.32
+  ],
+  "lift_hits20": [
+   3.333,
+   7.0
+  ],
+  "lift_hits8": [
+   1.767,
+   6.933
+  ],
+  "lift_med_count": [
+   1.0,
+   11.75
+  ],
+  "lift_min5_hits20": [
+   2.333,
+   7.0
+  ],
+  "lift_min5_hits8": [
+   2.333,
+   7.0
+  ],
+  "lift_min5_med_count": [
+   5.93,
+   11.78
+  ],
+  "len_adj_hits20": [
+   2.333,
+   7.0
+  ],
+  "len_adj_hits8": [
+   2.333,
+   7.0
+  ],
+  "len_adj_med_count": [
+   6.0,
+   11.85
+  ],
+  "indep_lift_gt1": [
+   0.4861,
+   0.9875
+  ],
+  "indep_lift_median": [
+   0.9955,
+   1.6685
+  ],
+  "indep_adj_gt1": [
+   0.4861,
+   0.5816
+  ],
+  "indep_adj_median": [
+   0.9955,
+   1.0163
+  ]
+ },
+ "robustness_range_len_varies": {
+  "count_hits20": [
+   1.0,
+   1.0
+  ],
+  "lift_hits20": [
+   3.333,
+   7.0
+  ],
+  "lift_min5_hits20": [
+   2.633,
+   7.0
+  ],
+  "len_adj_hits20": [
+   2.633,
+   7.0
+  ],
+  "indep_lift_gt1": [
+   0.6172,
+   0.9875
+  ],
+  "indep_adj_gt1": [
+   0.4946,
+   0.5816
+  ]
+ },
+ "run_note": "乱数（numpy）。同点は乱数のくじで並べた"
+}

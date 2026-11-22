@@ -1,0 +1,346 @@
+{
+ "n_text": 1000,
+ "reps": 200,
+ "n_cloud_words": 25,
+ "opinion_true_share_set": {
+  "待ち時間が長い": 0.26,
+  "駐車場が狭い": 0.18,
+  "席が少ない": 0.16,
+  "メニューが分かりにくい": 0.12,
+  "店員の対応が良い": 0.1,
+  "コーヒーがおいしい": 0.08,
+  "音楽が大きい": 0.06,
+  "コンセントがほしい": 0.04
+ },
+ "one_draw": {
+  "linear_keep_generic": {
+   "top_word": "店",
+   "top_word_opinion": "（意見ではない語）",
+   "biggest_area_word": "駐車場",
+   "biggest_area_opinion": "駐車場が狭い",
+   "rho_height": 0.7904,
+   "rho_area": 0.8333,
+   "rho_grouped": 0.9762,
+   "wait_area_share": 0.0695,
+   "wait_true": 0.267,
+   "parking_area_share": 0.1351,
+   "parking_true": 0.177,
+   "wait_max_height": 0.289,
+   "parking_max_height": 0.673,
+   "generic_area_share": 0.6128,
+   "wait_rank_word": 15
+  },
+  "linear_drop_generic": {
+   "top_word": "駐車場",
+   "top_word_opinion": "駐車場が狭い",
+   "biggest_area_word": "駐車場",
+   "biggest_area_opinion": "駐車場が狭い",
+   "rho_height": 0.7904,
+   "rho_area": 0.8333,
+   "rho_grouped": 0.9762,
+   "wait_area_share": 0.1827,
+   "wait_true": 0.267,
+   "parking_area_share": 0.3454,
+   "parking_true": 0.177,
+   "wait_max_height": 0.4294,
+   "parking_max_height": 1.0,
+   "generic_area_share": 0.0,
+   "wait_rank_word": 4
+  },
+  "sqrt_keep_generic": {
+   "top_word": "店",
+   "top_word_opinion": "（意見ではない語）",
+   "biggest_area_word": "駐車場",
+   "biggest_area_opinion": "駐車場が狭い",
+   "rho_height": 0.7904,
+   "rho_area": 0.8571,
+   "rho_grouped": 0.9762,
+   "wait_area_share": 0.1289,
+   "wait_true": 0.267,
+   "parking_area_share": 0.0917,
+   "parking_true": 0.177,
+   "wait_max_height": 0.5376,
+   "parking_max_height": 0.8204,
+   "generic_area_share": 0.5166,
+   "wait_rank_word": 15
+  },
+  "sqrt_drop_generic": {
+   "top_word": "駐車場",
+   "top_word_opinion": "駐車場が狭い",
+   "biggest_area_word": "駐車場",
+   "biggest_area_opinion": "駐車場が狭い",
+   "rho_height": 0.7904,
+   "rho_area": 0.8571,
+   "rho_grouped": 0.9762,
+   "wait_area_share": 0.2753,
+   "wait_true": 0.267,
+   "parking_area_share": 0.1832,
+   "parking_true": 0.177,
+   "wait_max_height": 0.6553,
+   "parking_max_height": 1.0,
+   "generic_area_share": 0.0,
+   "wait_rank_word": 4
+  }
+ },
+ "one_draw_word_counts_top": [
+  [
+   "店",
+   263
+  ],
+  [
+   "駐車場",
+   177
+  ],
+  [
+   "一人",
+   145
+  ],
+  [
+   "仕事",
+   145
+  ],
+  [
+   "帰り",
+   145
+  ],
+  [
+   "初めて",
+   133
+  ],
+  [
+   "今日",
+   130
+  ],
+  [
+   "利用",
+   130
+  ],
+  [
+   "友人",
+   130
+  ],
+  [
+   "メニュー",
+   128
+  ],
+  [
+   "席",
+   123
+  ],
+  [
+   "家族",
+   113
+  ]
+ ],
+ "summary_200reps": [
+  {
+   "scale": "linear",
+   "generic": "残す",
+   "top_is_wait": 0.0,
+   "top_is_parking": 0.0,
+   "top_is_generic": 1.0,
+   "area_is_wait": 0.0,
+   "rho_height": 0.702,
+   "rho_area": 0.75,
+   "rho_grouped": 0.951,
+   "wait_area_share": 0.073,
+   "wait_true": 0.261,
+   "parking_area_share": 0.147,
+   "parking_true": 0.18,
+   "generic_area_share": 0.59,
+   "wait_rank_word_median": 16.0
+  },
+  {
+   "scale": "linear",
+   "generic": "除く",
+   "top_is_wait": 0.0,
+   "top_is_parking": 0.995,
+   "top_is_generic": 0.0,
+   "area_is_wait": 0.0,
+   "rho_height": 0.702,
+   "rho_area": 0.762,
+   "rho_grouped": 0.982,
+   "wait_area_share": 0.179,
+   "wait_true": 0.261,
+   "parking_area_share": 0.354,
+   "parking_true": 0.18,
+   "generic_area_share": 0.0,
+   "wait_rank_word_median": 5.0
+  },
+  {
+   "scale": "sqrt",
+   "generic": "残す",
+   "top_is_wait": 0.0,
+   "top_is_parking": 0.0,
+   "top_is_generic": 1.0,
+   "area_is_wait": 0.0,
+   "rho_height": 0.702,
+   "rho_area": 0.786,
+   "rho_grouped": 0.951,
+   "wait_area_share": 0.133,
+   "wait_true": 0.261,
+   "parking_area_share": 0.095,
+   "parking_true": 0.18,
+   "generic_area_share": 0.506,
+   "wait_rank_word_median": 16.0
+  },
+  {
+   "scale": "sqrt",
+   "generic": "除く",
+   "top_is_wait": 0.0,
+   "top_is_parking": 0.995,
+   "top_is_generic": 0.0,
+   "area_is_wait": 0.0,
+   "rho_height": 0.702,
+   "rho_area": 0.807,
+   "rho_grouped": 0.982,
+   "wait_area_share": 0.271,
+   "wait_true": 0.261,
+   "parking_area_share": 0.186,
+   "parking_true": 0.18,
+   "generic_area_share": 0.0,
+   "wait_rank_word_median": 5.0
+  }
+ ],
+ "top_word_200reps_linear_drop": {
+  "駐車場": 199,
+  "席": 1
+ },
+ "biggest_area_word_200reps_linear_drop": {
+  "駐車場": 200
+ },
+ "sensitivity": [
+  {
+   "n_var_wait": 1,
+   "n_text": 100,
+   "scale": "linear",
+   "top_is_wait": 0.92,
+   "area_is_wait": 0.96,
+   "wait_area_share": 0.517,
+   "wait_true": 0.261,
+   "rho_area": 0.864,
+   "rho_grouped": 0.981
+  },
+  {
+   "n_var_wait": 1,
+   "n_text": 100,
+   "scale": "sqrt",
+   "top_is_wait": 0.92,
+   "area_is_wait": 0.98,
+   "wait_area_share": 0.327,
+   "wait_true": 0.261,
+   "rho_area": 0.807,
+   "rho_grouped": 0.981
+  },
+  {
+   "n_var_wait": 1,
+   "n_text": 1000,
+   "scale": "linear",
+   "top_is_wait": 1.0,
+   "area_is_wait": 1.0,
+   "wait_area_share": 0.548,
+   "wait_true": 0.261,
+   "rho_area": 0.839,
+   "rho_grouped": 0.981
+  },
+  {
+   "n_var_wait": 1,
+   "n_text": 1000,
+   "scale": "sqrt",
+   "top_is_wait": 1.0,
+   "area_is_wait": 1.0,
+   "wait_area_share": 0.331,
+   "wait_true": 0.261,
+   "rho_area": 0.81,
+   "rho_grouped": 0.981
+  },
+  {
+   "n_var_wait": 3,
+   "n_text": 100,
+   "scale": "linear",
+   "top_is_wait": 0.02,
+   "area_is_wait": 0.05,
+   "wait_area_share": 0.242,
+   "wait_true": 0.253,
+   "rho_area": 0.814,
+   "rho_grouped": 0.978
+  },
+  {
+   "n_var_wait": 3,
+   "n_text": 100,
+   "scale": "sqrt",
+   "top_is_wait": 0.02,
+   "area_is_wait": 0.07,
+   "wait_area_share": 0.279,
+   "wait_true": 0.253,
+   "rho_area": 0.794,
+   "rho_grouped": 0.978
+  },
+  {
+   "n_var_wait": 3,
+   "n_text": 1000,
+   "scale": "linear",
+   "top_is_wait": 0.0,
+   "area_is_wait": 0.0,
+   "wait_area_share": 0.257,
+   "wait_true": 0.26,
+   "rho_area": 0.821,
+   "rho_grouped": 0.981
+  },
+  {
+   "n_var_wait": 3,
+   "n_text": 1000,
+   "scale": "sqrt",
+   "top_is_wait": 0.0,
+   "area_is_wait": 0.0,
+   "wait_area_share": 0.291,
+   "wait_true": 0.26,
+   "rho_area": 0.814,
+   "rho_grouped": 0.981
+  },
+  {
+   "n_var_wait": 5,
+   "n_text": 100,
+   "scale": "linear",
+   "top_is_wait": 0.0,
+   "area_is_wait": 0.02,
+   "wait_area_share": 0.178,
+   "wait_true": 0.257,
+   "rho_area": 0.781,
+   "rho_grouped": 0.977
+  },
+  {
+   "n_var_wait": 5,
+   "n_text": 100,
+   "scale": "sqrt",
+   "top_is_wait": 0.0,
+   "area_is_wait": 0.04,
+   "wait_area_share": 0.262,
+   "wait_true": 0.257,
+   "rho_area": 0.799,
+   "rho_grouped": 0.977
+  },
+  {
+   "n_var_wait": 5,
+   "n_text": 1000,
+   "scale": "linear",
+   "top_is_wait": 0.0,
+   "area_is_wait": 0.0,
+   "wait_area_share": 0.179,
+   "wait_true": 0.261,
+   "rho_area": 0.759,
+   "rho_grouped": 0.982
+  },
+  {
+   "n_var_wait": 5,
+   "n_text": 1000,
+   "scale": "sqrt",
+   "top_is_wait": 0.0,
+   "area_is_wait": 0.0,
+   "wait_area_share": 0.271,
+   "wait_true": 0.261,
+   "rho_area": 0.805,
+   "rho_grouped": 0.982
+  }
+ ]
+}

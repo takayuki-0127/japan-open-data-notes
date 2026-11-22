@@ -1,0 +1,5 @@
+scale,generic,top_is_wait,top_is_parking,top_is_generic,area_is_wait,rho_height,rho_area,rho_grouped,wait_area_share,wait_true,parking_area_share,parking_true,generic_area_share,wait_rank_word_median
+linear,残す,0.0,0.0,1.0,0.0,0.702,0.75,0.951,0.073,0.261,0.147,0.18,0.59,16.0
+linear,除く,0.0,0.995,0.0,0.0,0.702,0.762,0.982,0.179,0.261,0.354,0.18,0.0,5.0
+sqrt,残す,0.0,0.0,1.0,0.0,0.702,0.786,0.951,0.133,0.261,0.095,0.18,0.506,16.0
+sqrt,除く,0.0,0.995,0.0,0.0,0.702,0.807,0.982,0.271,0.261,0.186,0.18,0.0,5.0

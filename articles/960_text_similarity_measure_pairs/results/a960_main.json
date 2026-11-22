@@ -1,0 +1,445 @@
+{
+ "settings": {
+  "n_text": 300,
+  "topics": [
+   "予約",
+   "支払い",
+   "配送",
+   "料理",
+   "接客",
+   "営業時間"
+  ],
+  "words_per_topic": 12,
+  "common_words": 20,
+  "filler_share": 0.45,
+  "other_topic_share": 0.15,
+  "len_median": 15,
+  "len_sigma": 0.6,
+  "len_clip": [
+   4,
+   80
+  ],
+  "top_k": 50,
+  "reps": 20
+ },
+ "base_run": {
+  "base_same_rate": 0.16557413600891863,
+  "all_pairs_len": 18.19,
+  "common": {
+   "top_same_topic": 0.86,
+   "top_mean_len": 48.54,
+   "top_min_len_median": 36.0,
+   "nn_same_topic": 0.9333333333333333,
+   "top_share_long_pair": 0.88,
+   "score_at_50th": 13.0,
+   "pairs_at_or_above_50th": 65
+  },
+  "jaccard": {
+   "top_same_topic": 0.98,
+   "top_mean_len": 19.93,
+   "top_min_len_median": 11.0,
+   "nn_same_topic": 0.9333333333333333,
+   "top_share_long_pair": 0.12,
+   "score_at_50th": 0.5333,
+   "pairs_at_or_above_50th": 51
+  },
+  "cos_count": {
+   "top_same_topic": 1.0,
+   "top_mean_len": 31.3,
+   "top_min_len_median": 19.0,
+   "nn_same_topic": 0.9433333333333334,
+   "top_share_long_pair": 0.48,
+   "score_at_50th": 0.8283,
+   "pairs_at_or_above_50th": 50
+  },
+  "cos_tfidf": {
+   "top_same_topic": 1.0,
+   "top_mean_len": 24.37,
+   "top_min_len_median": 14.0,
+   "nn_same_topic": 0.9866666666666667,
+   "top_share_long_pair": 0.26,
+   "score_at_50th": 0.7799,
+   "pairs_at_or_above_50th": 50
+  },
+  "nn_all_agree": 0.016666666666666666,
+  "top_overlap_min": 4,
+  "top_overlap_max": 15,
+  "top_overlap_mean": 8.0,
+  "n_pairs": 44850,
+  "n_same_topic_pairs": 7426,
+  "len_median": 14.5,
+  "len_p90": 33.10000000000002,
+  "all_pairs_mean_len": 18.19,
+  "top_overlap": {
+   "common": {
+    "common": 50,
+    "jaccard": 7,
+    "cos_count": 8,
+    "cos_tfidf": 4
+   },
+   "jaccard": {
+    "common": 7,
+    "jaccard": 50,
+    "cos_count": 7,
+    "cos_tfidf": 7
+   },
+   "cos_count": {
+    "common": 8,
+    "jaccard": 7,
+    "cos_count": 50,
+    "cos_tfidf": 15
+   },
+   "cos_tfidf": {
+    "common": 4,
+    "jaccard": 7,
+    "cos_count": 15,
+    "cos_tfidf": 50
+   }
+  },
+  "spearman_all_pairs": {
+   "common-jaccard": 0.905,
+   "common-cos_count": 0.717,
+   "common-cos_tfidf": 0.746,
+   "jaccard-cos_count": 0.766,
+   "jaccard-cos_tfidf": 0.802,
+   "cos_count-cos_tfidf": 0.714
+  },
+  "top_in_all4": 1,
+  "share_long_texts": 0.05333333333333334
+ },
+ "robustness": [
+  {
+   "filler_share": 0.25,
+   "len_sigma": 0.0,
+   "base_same_rate": 0.1665,
+   "all_pairs_len": 15.0,
+   "nn_all_agree": 0.076,
+   "top_overlap_mean": 10.42,
+   "top_overlap_min": 1.25,
+   "top_overlap_max": 26.05,
+   "common_top_same": 0.999,
+   "common_top_len": 15.0,
+   "common_nn_same": 0.9915,
+   "jaccard_top_same": 1.0,
+   "jaccard_top_len": 15.0,
+   "jaccard_nn_same": 0.9953,
+   "cos_count_top_same": 1.0,
+   "cos_count_top_len": 15.0,
+   "cos_count_nn_same": 0.9982,
+   "cos_tfidf_top_same": 1.0,
+   "cos_tfidf_top_len": 15.0,
+   "cos_tfidf_nn_same": 0.9997
+  },
+  {
+   "filler_share": 0.25,
+   "len_sigma": 0.3,
+   "base_same_rate": 0.167,
+   "all_pairs_len": 15.77,
+   "nn_all_agree": 0.0472,
+   "top_overlap_mean": 8.08,
+   "top_overlap_min": 0.95,
+   "top_overlap_max": 25.65,
+   "common_top_same": 1.0,
+   "common_top_len": 23.58,
+   "common_nn_same": 0.9855,
+   "jaccard_top_same": 1.0,
+   "jaccard_top_len": 15.72,
+   "jaccard_nn_same": 0.99,
+   "cos_count_top_same": 1.0,
+   "cos_count_top_len": 17.08,
+   "cos_count_nn_same": 0.9962,
+   "cos_tfidf_top_same": 1.0,
+   "cos_tfidf_top_len": 17.21,
+   "cos_tfidf_nn_same": 0.999
+  },
+  {
+   "filler_share": 0.25,
+   "len_sigma": 0.6,
+   "base_same_rate": 0.1664,
+   "all_pairs_len": 18.07,
+   "nn_all_agree": 0.029,
+   "top_overlap_mean": 9.02,
+   "top_overlap_min": 2.85,
+   "top_overlap_max": 26.65,
+   "common_top_same": 0.98,
+   "common_top_len": 46.01,
+   "common_nn_same": 0.966,
+   "jaccard_top_same": 1.0,
+   "jaccard_top_len": 19.32,
+   "jaccard_nn_same": 0.9833,
+   "cos_count_top_same": 1.0,
+   "cos_count_top_len": 30.19,
+   "cos_count_nn_same": 0.9898,
+   "cos_tfidf_top_same": 1.0,
+   "cos_tfidf_top_len": 28.18,
+   "cos_tfidf_nn_same": 0.9942
+  },
+  {
+   "filler_share": 0.25,
+   "len_sigma": 0.9,
+   "base_same_rate": 0.1665,
+   "all_pairs_len": 21.36,
+   "nn_all_agree": 0.017,
+   "top_overlap_mean": 11.72,
+   "top_overlap_min": 4.15,
+   "top_overlap_max": 30.35,
+   "common_top_same": 0.987,
+   "common_top_len": 65.43,
+   "common_nn_same": 0.9563,
+   "jaccard_top_same": 0.997,
+   "jaccard_top_len": 30.48,
+   "jaccard_nn_same": 0.9672,
+   "cos_count_top_same": 1.0,
+   "cos_count_top_len": 48.36,
+   "cos_count_nn_same": 0.9765,
+   "cos_tfidf_top_same": 1.0,
+   "cos_tfidf_top_len": 47.2,
+   "cos_tfidf_nn_same": 0.9873
+  },
+  {
+   "filler_share": 0.45,
+   "len_sigma": 0.0,
+   "base_same_rate": 0.1661,
+   "all_pairs_len": 15.0,
+   "nn_all_agree": 0.0622,
+   "top_overlap_mean": 9.48,
+   "top_overlap_min": 1.9,
+   "top_overlap_max": 18.85,
+   "common_top_same": 0.99,
+   "common_top_len": 15.0,
+   "common_nn_same": 0.96,
+   "jaccard_top_same": 0.998,
+   "jaccard_top_len": 15.0,
+   "jaccard_nn_same": 0.9737,
+   "cos_count_top_same": 0.989,
+   "cos_count_top_len": 15.0,
+   "cos_count_nn_same": 0.9655,
+   "cos_tfidf_top_same": 1.0,
+   "cos_tfidf_top_len": 15.0,
+   "cos_tfidf_nn_same": 0.9962
+  },
+  {
+   "filler_share": 0.45,
+   "len_sigma": 0.3,
+   "base_same_rate": 0.1671,
+   "all_pairs_len": 15.66,
+   "nn_all_agree": 0.0463,
+   "top_overlap_mean": 7.12,
+   "top_overlap_min": 1.15,
+   "top_overlap_max": 16.25,
+   "common_top_same": 0.987,
+   "common_top_len": 23.2,
+   "common_nn_same": 0.949,
+   "jaccard_top_same": 0.994,
+   "jaccard_top_len": 15.95,
+   "jaccard_nn_same": 0.9605,
+   "cos_count_top_same": 0.988,
+   "cos_count_top_len": 17.2,
+   "cos_count_nn_same": 0.9623,
+   "cos_tfidf_top_same": 1.0,
+   "cos_tfidf_top_len": 16.41,
+   "cos_tfidf_nn_same": 0.9918
+  },
+  {
+   "filler_share": 0.45,
+   "len_sigma": 0.6,
+   "base_same_rate": 0.1664,
+   "all_pairs_len": 17.78,
+   "nn_all_agree": 0.0258,
+   "top_overlap_mean": 8.33,
+   "top_overlap_min": 3.3,
+   "top_overlap_max": 18.05,
+   "common_top_same": 0.948,
+   "common_top_len": 44.48,
+   "common_nn_same": 0.9357,
+   "jaccard_top_same": 0.994,
+   "jaccard_top_len": 21.78,
+   "jaccard_nn_same": 0.946,
+   "cos_count_top_same": 0.996,
+   "cos_count_top_len": 29.14,
+   "cos_count_nn_same": 0.9503,
+   "cos_tfidf_top_same": 0.999,
+   "cos_tfidf_top_len": 25.23,
+   "cos_tfidf_nn_same": 0.9827
+  },
+  {
+   "filler_share": 0.45,
+   "len_sigma": 0.9,
+   "base_same_rate": 0.1672,
+   "all_pairs_len": 21.67,
+   "nn_all_agree": 0.017,
+   "top_overlap_mean": 12.52,
+   "top_overlap_min": 6.65,
+   "top_overlap_max": 21.65,
+   "common_top_same": 0.96,
+   "common_top_len": 68.38,
+   "common_nn_same": 0.92,
+   "jaccard_top_same": 0.99,
+   "jaccard_top_len": 41.06,
+   "jaccard_nn_same": 0.92,
+   "cos_count_top_same": 0.992,
+   "cos_count_top_len": 51.98,
+   "cos_count_nn_same": 0.9282,
+   "cos_tfidf_top_same": 0.996,
+   "cos_tfidf_top_len": 44.6,
+   "cos_tfidf_nn_same": 0.9698
+  },
+  {
+   "filler_share": 0.65,
+   "len_sigma": 0.0,
+   "base_same_rate": 0.166,
+   "all_pairs_len": 15.0,
+   "nn_all_agree": 0.0452,
+   "top_overlap_mean": 6.79,
+   "top_overlap_min": 0.9,
+   "top_overlap_max": 16.9,
+   "common_top_same": 0.896,
+   "common_top_len": 15.0,
+   "common_nn_same": 0.8478,
+   "jaccard_top_same": 0.937,
+   "jaccard_top_len": 15.0,
+   "jaccard_nn_same": 0.8622,
+   "cos_count_top_same": 0.612,
+   "cos_count_top_len": 15.0,
+   "cos_count_nn_same": 0.7945,
+   "cos_tfidf_top_same": 0.999,
+   "cos_tfidf_top_len": 15.0,
+   "cos_tfidf_nn_same": 0.9663
+  },
+  {
+   "filler_share": 0.65,
+   "len_sigma": 0.3,
+   "base_same_rate": 0.1664,
+   "all_pairs_len": 15.67,
+   "nn_all_agree": 0.024,
+   "top_overlap_mean": 5.1,
+   "top_overlap_min": 1.0,
+   "top_overlap_max": 10.95,
+   "common_top_same": 0.892,
+   "common_top_len": 23.45,
+   "common_nn_same": 0.8245,
+   "jaccard_top_same": 0.905,
+   "jaccard_top_len": 16.42,
+   "jaccard_nn_same": 0.8358,
+   "cos_count_top_same": 0.594,
+   "cos_count_top_len": 16.94,
+   "cos_count_nn_same": 0.7675,
+   "cos_tfidf_top_same": 0.999,
+   "cos_tfidf_top_len": 16.24,
+   "cos_tfidf_nn_same": 0.9497
+  },
+  {
+   "filler_share": 0.65,
+   "len_sigma": 0.6,
+   "base_same_rate": 0.1671,
+   "all_pairs_len": 18.05,
+   "nn_all_agree": 0.0167,
+   "top_overlap_mean": 5.09,
+   "top_overlap_min": 1.95,
+   "top_overlap_max": 9.3,
+   "common_top_same": 0.825,
+   "common_top_len": 48.35,
+   "common_nn_same": 0.8372,
+   "jaccard_top_same": 0.876,
+   "jaccard_top_len": 22.41,
+   "jaccard_nn_same": 0.8233,
+   "cos_count_top_same": 0.745,
+   "cos_count_top_len": 27.2,
+   "cos_count_nn_same": 0.7972,
+   "cos_tfidf_top_same": 0.984,
+   "cos_tfidf_top_len": 21.21,
+   "cos_tfidf_nn_same": 0.9365
+  },
+  {
+   "filler_share": 0.65,
+   "len_sigma": 0.9,
+   "base_same_rate": 0.1671,
+   "all_pairs_len": 21.29,
+   "nn_all_agree": 0.0177,
+   "top_overlap_mean": 9.43,
+   "top_overlap_min": 5.05,
+   "top_overlap_max": 18.7,
+   "common_top_same": 0.909,
+   "common_top_len": 67.15,
+   "common_nn_same": 0.8695,
+   "jaccard_top_same": 0.901,
+   "jaccard_top_len": 40.04,
+   "jaccard_nn_same": 0.8132,
+   "cos_count_top_same": 0.848,
+   "cos_count_top_len": 42.42,
+   "cos_count_nn_same": 0.8138,
+   "cos_tfidf_top_same": 0.978,
+   "cos_tfidf_top_len": 31.5,
+   "cos_tfidf_nn_same": 0.9315
+  }
+ ],
+ "robustness_range_len_varies": {
+  "common": [
+   0.825,
+   1.0
+  ],
+  "jaccard": [
+   0.876,
+   1.0
+  ],
+  "cos_count": [
+   0.594,
+   1.0
+  ],
+  "cos_tfidf": [
+   0.978,
+   1.0
+  ],
+  "nn_all_agree": [
+   0.0167,
+   0.0472
+  ],
+  "top_overlap_mean": [
+   5.09,
+   12.52
+  ],
+  "top_overlap_min": [
+   0.95,
+   6.65
+  ],
+  "top_overlap_max": [
+   9.3,
+   30.35
+  ]
+ },
+ "robustness_range_len_equal": {
+  "common": [
+   0.896,
+   0.999
+  ],
+  "jaccard": [
+   0.937,
+   1.0
+  ],
+  "cos_count": [
+   0.612,
+   1.0
+  ],
+  "cos_tfidf": [
+   0.999,
+   1.0
+  ],
+  "nn_all_agree": [
+   0.0452,
+   0.076
+  ],
+  "top_overlap_mean": [
+   6.79,
+   10.42
+  ],
+  "top_overlap_min": [
+   0.9,
+   1.9
+  ],
+  "top_overlap_max": [
+   16.9,
+   26.05
+  ]
+ },
+ "run_note": "乱数（numpy）。同点は乱数のくじで並べた"
+}

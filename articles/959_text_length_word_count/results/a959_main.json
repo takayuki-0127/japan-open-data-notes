@@ -1,0 +1,353 @@
+{
+ "n_text_per_channel": 2000,
+ "reps": 200,
+ "base": {
+  "r": 0.15,
+  "e": 0.03,
+  "p": {
+   "フォーム": 0.2,
+   "メール": 0.2
+  }
+ },
+ "channels": {
+  "フォーム": {
+   "extra_mean": 0.7,
+   "max_sent": 3
+  },
+  "メール": {
+   "extra_mean": 5.0,
+   "max_sent": 20
+  }
+ },
+ "check_sentence_vs_whole_text_same": true,
+ "one_draw": {
+  "フォーム": {
+   "true_share": 0.2045,
+   "per_100_texts": 27.8,
+   "per_10k_words": 879.3294,
+   "present_share": 0.254,
+   "present_share_1to3": 0.254,
+   "mean_sent": 1.6785,
+   "mean_words": 3.1615,
+   "mean_sent_1to3": 1.6785
+  },
+  "メール": {
+   "true_share": 0.187,
+   "per_100_texts": 51.85,
+   "per_10k_words": 449.1316,
+   "present_share": 0.3175,
+   "present_share_1to3": 0.2511,
+   "mean_sent": 6.1165,
+   "mean_words": 11.5445,
+   "mean_sent_1to3": 2.6682
+  }
+ },
+ "by_channel_200reps": {
+  "フォーム": {
+   "true_share": 0.1998,
+   "per_100_texts": 26.2425,
+   "per_10k_words": 836.6167,
+   "present_share": 0.2382,
+   "present_share_1to3": 0.2382,
+   "mean_sent": 1.658,
+   "mean_words": 3.1367,
+   "mean_sent_1to3": 1.658
+  },
+  "メール": {
+   "true_share": 0.2,
+   "per_100_texts": 52.3867,
+   "per_10k_words": 461.3429,
+   "present_share": 0.3324,
+   "present_share_1to3": 0.2652,
+   "mean_sent": 6.0,
+   "mean_words": 11.3553,
+   "mean_sent_1to3": 2.6201
+  }
+ },
+ "ratio_mail_over_form_200reps": {
+  "true_share": 1.001,
+  "per_100_texts": 1.996,
+  "per_10k_words": 0.551,
+  "present_share": 1.395,
+  "present_share_1to3": 1.113
+ },
+ "mail_by_length_band_20000": [
+  {
+   "band": "1〜3文",
+   "n": 2464.0,
+   "true_share": 0.1899,
+   "per_100_texts": 30.8847,
+   "per_10k_words": 623.3617,
+   "present_share": 0.2557,
+   "per_100_complainers": 127.5641,
+   "present_share_noncomplainers": 0.0812
+  },
+  {
+   "band": "4〜6文",
+   "n": 9867.0,
+   "true_share": 0.1944,
+   "per_100_texts": 45.8194,
+   "per_10k_words": 477.6444,
+   "present_share": 0.3108,
+   "per_100_complainers": 171.585,
+   "present_share_noncomplainers": 0.1445
+  },
+  {
+   "band": "7〜9文",
+   "n": 6287.0,
+   "true_share": 0.1964,
+   "per_100_texts": 62.3986,
+   "per_10k_words": 428.2097,
+   "present_share": 0.3677,
+   "per_100_complainers": 222.1053,
+   "present_share_noncomplainers": 0.2132
+  },
+  {
+   "band": "10文以上",
+   "n": 1382.0,
+   "true_share": 0.2041,
+   "per_100_texts": 79.5948,
+   "per_10k_words": 390.8054,
+   "present_share": 0.4132,
+   "per_100_complainers": 271.6312,
+   "present_share_noncomplainers": 0.2627
+  }
+ ],
+ "occurrence_parts_mail_20000": {
+  "n_first": 0.3787,
+  "n_repeat": 0.2816,
+  "n_other_sense": 0.3396
+ },
+ "occurrence_parts_form_20000": {
+  "n_first": 0.7562,
+  "n_repeat": 0.077,
+  "n_other_sense": 0.1668
+ },
+ "sensitivity": [
+  {
+   "mail_true": 0.2,
+   "r_repeat": 0.0,
+   "e_other_sense": 0.0,
+   "ratio_true_share": 0.993,
+   "ratio_per_100_texts": 0.993,
+   "ratio_per_10k_words": 0.278,
+   "ratio_present_share": 0.993,
+   "ratio_present_share_1to3": 1.019
+  },
+  {
+   "mail_true": 0.2,
+   "r_repeat": 0.0,
+   "e_other_sense": 0.03,
+   "ratio_true_share": 0.995,
+   "ratio_per_100_texts": 1.526,
+   "ratio_per_10k_words": 0.424,
+   "ratio_present_share": 1.374,
+   "ratio_present_share_1to3": 1.068
+  },
+  {
+   "mail_true": 0.2,
+   "r_repeat": 0.0,
+   "e_other_sense": 0.06,
+   "ratio_true_share": 1.009,
+   "ratio_per_100_texts": 1.927,
+   "ratio_per_10k_words": 0.533,
+   "ratio_present_share": 1.613,
+   "ratio_present_share_1to3": 1.143
+  },
+  {
+   "mail_true": 0.2,
+   "r_repeat": 0.15,
+   "e_other_sense": 0.0,
+   "ratio_true_share": 0.996,
+   "ratio_per_100_texts": 1.586,
+   "ratio_per_10k_words": 0.441,
+   "ratio_present_share": 0.996,
+   "ratio_present_share_1to3": 0.992
+  },
+  {
+   "mail_true": 0.2,
+   "r_repeat": 0.15,
+   "e_other_sense": 0.03,
+   "ratio_true_share": 1.011,
+   "ratio_per_100_texts": 1.994,
+   "ratio_per_10k_words": 0.551,
+   "ratio_present_share": 1.394,
+   "ratio_present_share_1to3": 1.085
+  },
+  {
+   "mail_true": 0.2,
+   "r_repeat": 0.15,
+   "e_other_sense": 0.06,
+   "ratio_true_share": 1.0,
+   "ratio_per_100_texts": 2.262,
+   "ratio_per_10k_words": 0.626,
+   "ratio_present_share": 1.582,
+   "ratio_present_share_1to3": 1.105
+  },
+  {
+   "mail_true": 0.2,
+   "r_repeat": 0.3,
+   "e_other_sense": 0.0,
+   "ratio_true_share": 1.001,
+   "ratio_per_100_texts": 2.088,
+   "ratio_per_10k_words": 0.575,
+   "ratio_present_share": 1.001,
+   "ratio_present_share_1to3": 1.02
+  },
+  {
+   "mail_true": 0.2,
+   "r_repeat": 0.3,
+   "e_other_sense": 0.03,
+   "ratio_true_share": 1.006,
+   "ratio_per_100_texts": 2.378,
+   "ratio_per_10k_words": 0.653,
+   "ratio_present_share": 1.388,
+   "ratio_present_share_1to3": 1.087
+  },
+  {
+   "mail_true": 0.2,
+   "r_repeat": 0.3,
+   "e_other_sense": 0.06,
+   "ratio_true_share": 1.009,
+   "ratio_per_100_texts": 2.598,
+   "ratio_per_10k_words": 0.711,
+   "ratio_present_share": 1.606,
+   "ratio_present_share_1to3": 1.172
+  },
+  {
+   "mail_true": 0.14,
+   "r_repeat": 0.0,
+   "e_other_sense": 0.0,
+   "ratio_true_share": 0.691,
+   "ratio_per_100_texts": 0.691,
+   "ratio_per_10k_words": 0.193,
+   "ratio_present_share": 0.691,
+   "ratio_present_share_1to3": 0.673
+  },
+  {
+   "mail_true": 0.14,
+   "r_repeat": 0.0,
+   "e_other_sense": 0.03,
+   "ratio_true_share": 0.706,
+   "ratio_per_100_texts": 1.302,
+   "ratio_per_10k_words": 0.362,
+   "ratio_present_share": 1.186,
+   "ratio_present_share_1to3": 0.89
+  },
+  {
+   "mail_true": 0.14,
+   "r_repeat": 0.0,
+   "e_other_sense": 0.06,
+   "ratio_true_share": 0.708,
+   "ratio_per_100_texts": 1.719,
+   "ratio_per_10k_words": 0.477,
+   "ratio_present_share": 1.454,
+   "ratio_present_share_1to3": 0.969
+  },
+  {
+   "mail_true": 0.14,
+   "r_repeat": 0.15,
+   "e_other_sense": 0.0,
+   "ratio_true_share": 0.684,
+   "ratio_per_100_texts": 1.084,
+   "ratio_per_10k_words": 0.302,
+   "ratio_present_share": 0.684,
+   "ratio_present_share_1to3": 0.685
+  },
+  {
+   "mail_true": 0.14,
+   "r_repeat": 0.15,
+   "e_other_sense": 0.03,
+   "ratio_true_share": 0.694,
+   "ratio_per_100_texts": 1.59,
+   "ratio_per_10k_words": 0.442,
+   "ratio_present_share": 1.177,
+   "ratio_present_share_1to3": 0.848
+  },
+  {
+   "mail_true": 0.14,
+   "r_repeat": 0.15,
+   "e_other_sense": 0.06,
+   "ratio_true_share": 0.696,
+   "ratio_per_100_texts": 1.916,
+   "ratio_per_10k_words": 0.532,
+   "ratio_present_share": 1.429,
+   "ratio_present_share_1to3": 0.991
+  },
+  {
+   "mail_true": 0.14,
+   "r_repeat": 0.3,
+   "e_other_sense": 0.0,
+   "ratio_true_share": 0.72,
+   "ratio_per_100_texts": 1.501,
+   "ratio_per_10k_words": 0.417,
+   "ratio_present_share": 0.72,
+   "ratio_present_share_1to3": 0.711
+  },
+  {
+   "mail_true": 0.14,
+   "r_repeat": 0.3,
+   "e_other_sense": 0.03,
+   "ratio_true_share": 0.701,
+   "ratio_per_100_texts": 1.845,
+   "ratio_per_10k_words": 0.513,
+   "ratio_present_share": 1.18,
+   "ratio_present_share_1to3": 0.863
+  },
+  {
+   "mail_true": 0.14,
+   "r_repeat": 0.3,
+   "e_other_sense": 0.06,
+   "ratio_true_share": 0.684,
+   "ratio_per_100_texts": 2.111,
+   "ratio_per_10k_words": 0.585,
+   "ratio_present_share": 1.436,
+   "ratio_present_share_1to3": 0.966
+  }
+ ],
+ "sensitivity_range": {
+  "mail_true_0.20": {
+   "per_100_texts": [
+    0.99,
+    2.6
+   ],
+   "per_10k_words": [
+    0.28,
+    0.71
+   ],
+   "present_share": [
+    0.99,
+    1.61
+   ],
+   "present_share_1to3": [
+    0.99,
+    1.17
+   ]
+  },
+  "mail_true_0.14": {
+   "per_100_texts": [
+    0.69,
+    2.11
+   ],
+   "per_10k_words": [
+    0.19,
+    0.58
+   ],
+   "present_share": [
+    0.68,
+    1.45
+   ],
+   "present_share_1to3": [
+    0.67,
+    0.99
+   ]
+  },
+  "mail_true_0.14_cases_saying_mail_higher": {
+   "per_100_texts": 8,
+   "per_10k_words": 0,
+   "present_share": 6,
+   "present_share_1to3": 0
+  },
+  "n_cases_each": 9
+ }
+}

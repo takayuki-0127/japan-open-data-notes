@@ -1,0 +1,5 @@
+,common,jaccard,cos_count,cos_tfidf
+common,50.0,7.0,8.0,4.0
+jaccard,7.0,50.0,7.0,7.0
+cos_count,8.0,7.0,50.0,15.0
+cos_tfidf,4.0,7.0,15.0,50.0
