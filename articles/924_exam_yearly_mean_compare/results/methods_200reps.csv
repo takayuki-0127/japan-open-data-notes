@@ -1,0 +1,4 @@
+method,max_abs_bias_mean,max_abs_bias_p10,max_abs_bias_p90,accuracy_mean,bias_y1_mean,bias_y2_mean,bias_y3_mean,bias_y4_mean,bias_y5_mean
+A,11.495,8.438,14.988,0.887,0.014,-7.334,5.598,-5.463,8.486
+B,6.864,5.725,8.235,0.919,0.014,-4.516,4.495,2.214,-6.787
+C,0.906,0.498,1.37,0.936,0.014,-0.375,0.353,0.188,-0.567

@@ -1,0 +1,160 @@
+{
+ "base": {
+  "items": 100,
+  "sd": 13.0,
+  "n_exam": 2000,
+  "rate": 0.3,
+  "actual_pass_rate": 0.3122,
+  "cut_median_pts": 63.0,
+  "cut_p10_pts": 62.0,
+  "cut_p90_pts": 63.0,
+  "line_rank_pts": 62.33,
+  "cut_minus_rankline": 0.67,
+  "P_at_cut": 0.5575,
+  "P_at_rankline": 0.5024,
+  "need50_minus_cut": -0.7,
+  "need90_minus_cut": 5.4,
+  "need10_minus_cut": -7.0,
+  "share_uncertain_10_90": 0.3176
+ },
+ "fixed_cut": {
+  "fixed_cut": 63,
+  "P_at_cut": 0.5447,
+  "P_at_rankline": 0.4894,
+  "P_at_cut_minus_half_point": 0.5034,
+  "P_score_exactly_cut": 0.0824
+ },
+ "small_50": {
+  "items": 100,
+  "sd": 13.0,
+  "n_exam": 50,
+  "rate": 0.3,
+  "actual_pass_rate": 0.3123,
+  "cut_median_pts": 63.0,
+  "cut_p10_pts": 60.0,
+  "cut_p90_pts": 66.0,
+  "line_rank_pts": 62.33,
+  "cut_minus_rankline": 0.67,
+  "P_at_cut": 0.5283,
+  "P_at_rankline": 0.4796,
+  "need50_minus_cut": -0.35,
+  "need90_minus_cut": 6.5,
+  "need10_minus_cut": -7.5,
+  "share_uncertain_10_90": 0.3527
+ },
+ "cut_dist_2000": {
+  "61": 0.0008,
+  "62": 0.2112,
+  "63": 0.7355,
+  "64": 0.0525
+ },
+ "cut_dist_50_p10_p90": [
+  60.0,
+  66.0
+ ],
+ "curve": [
+  {
+   "true_minus_cut": -10,
+   "true_score": 53.0,
+   "P_pass_2000": 0.0307,
+   "P_pass_50": 0.0432
+  },
+  {
+   "true_minus_cut": -5,
+   "true_score": 58.0,
+   "P_pass_2000": 0.1912,
+   "P_pass_50": 0.2035
+  },
+  {
+   "true_minus_cut": -3,
+   "true_score": 60.0,
+   "P_pass_2000": 0.3193,
+   "P_pass_50": 0.3186
+  },
+  {
+   "true_minus_cut": -1,
+   "true_score": 62.0,
+   "P_pass_2000": 0.4755,
+   "P_pass_50": 0.4559
+  },
+  {
+   "true_minus_cut": 0,
+   "true_score": 63.0,
+   "P_pass_2000": 0.5575,
+   "P_pass_50": 0.5283
+  },
+  {
+   "true_minus_cut": 1,
+   "true_score": 64.0,
+   "P_pass_2000": 0.6377,
+   "P_pass_50": 0.6003
+  },
+  {
+   "true_minus_cut": 3,
+   "true_score": 66.0,
+   "P_pass_2000": 0.7802,
+   "P_pass_50": 0.7338
+  },
+  {
+   "true_minus_cut": 5,
+   "true_score": 68.0,
+   "P_pass_2000": 0.8853,
+   "P_pass_50": 0.8416
+  },
+  {
+   "true_minus_cut": 10,
+   "true_score": 73.0,
+   "P_pass_2000": 0.9899,
+   "P_pass_50": 0.9761
+  }
+ ],
+ "robust_rate30": {
+  "P_at_cut_min": 0.5031,
+  "P_at_cut_max": 0.6715,
+  "P_at_rankline_min": 0.4664,
+  "P_at_rankline_max": 0.5448,
+  "need90_min": 3.9,
+  "need90_max": 12.9,
+  "uncertain_min": 0.1614,
+  "uncertain_max": 0.8824
+ },
+ "robust_all": {
+  "P_at_cut_min": 0.5031,
+  "P_at_cut_max": 0.7111,
+  "P_at_rankline_min": 0.3263,
+  "P_at_rankline_max": 0.6091
+ },
+ "robust_by_rate": {
+  "0.1": {
+   "P_at_cut_min": 0.5062,
+   "P_at_cut_max": 0.7111,
+   "P_at_rankline_min": 0.3263,
+   "P_at_rankline_max": 0.4927,
+   "need90_min": 3.4,
+   "need90_max": 11.4
+  },
+  "0.3": {
+   "P_at_cut_min": 0.5031,
+   "P_at_cut_max": 0.6715,
+   "P_at_rankline_min": 0.4664,
+   "P_at_rankline_max": 0.5448,
+   "need90_min": 3.9,
+   "need90_max": 12.9
+  },
+  "0.5": {
+   "P_at_cut_min": 0.5126,
+   "P_at_cut_max": 0.5918,
+   "P_at_rankline_min": 0.4728,
+   "P_at_rankline_max": 0.6091,
+   "need90_min": 4.05,
+   "need90_max": 13.15
+  }
+ },
+ "one_session": {
+  "cut": 62,
+  "pass_rate": 0.3265,
+  "near_cut_people_within_2pts": 211,
+  "near_cut_pass_rate": 0.6066,
+  "passers_not_top30_by_ability": 0.1945
+ }
+}

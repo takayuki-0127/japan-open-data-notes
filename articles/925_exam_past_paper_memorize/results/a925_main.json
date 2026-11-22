@@ -1,0 +1,217 @@
+{
+ "setting": {
+  "learners": 200,
+  "weeks": 12,
+  "items_per_week": 40,
+  "pool": 300,
+  "memory_rate_mean": 0.3,
+  "memory_rate_range": [
+   0.09999999999999998,
+   0.5
+  ],
+  "growth_per_week_mean": 0.05
+ },
+ "example_200": {
+  "past_w1": 36.65,
+  "past_last": 67.95,
+  "true_w1": 38.528,
+  "true_last": 51.822,
+  "past_gain": 31.3,
+  "true_gain": 13.295,
+  "memory_part": 18.005,
+  "memory_share_of_gain": 0.575,
+  "first_seen_gain": 14.855,
+  "share_known_last": 0.344,
+  "n_first_seen_last_mean": 8.475,
+  "exam_mean": 46.362,
+  "past_last_minus_exam": 21.588,
+  "past_last_minus_true_last": 16.128,
+  "first_seen_last_minus_true_last": -0.317,
+  "share_learners_no_first_seen_last": 0.0,
+  "corr_pastgain_truegain": 0.349,
+  "corr_firstseen_gain_truegain": 0.375,
+  "corr_pastgain_memory_rate": 0.439,
+  "top20_pastgain_in_top20_truegain": 0.4,
+  "true_w1_minus_past_w1": 1.878
+ },
+ "weekly_mean": [
+  {
+   "week": 1,
+   "past_score": 36.65,
+   "true_new_score": 38.528,
+   "first_seen_score": 36.65,
+   "n_first_seen": 40.0,
+   "n_known_before": 0.0
+  },
+  {
+   "week": 2,
+   "past_score": 40.225,
+   "true_new_score": 39.712,
+   "first_seen_score": 37.939,
+   "n_first_seen": 34.745,
+   "n_known_before": 1.635
+  },
+  {
+   "week": 3,
+   "past_score": 44.6,
+   "true_new_score": 40.907,
+   "first_seen_score": 40.343,
+   "n_first_seen": 29.855,
+   "n_known_before": 2.945
+  },
+  {
+   "week": 4,
+   "past_score": 47.138,
+   "true_new_score": 42.112,
+   "first_seen_score": 40.855,
+   "n_first_seen": 26.165,
+   "n_known_before": 4.62
+  },
+  {
+   "week": 5,
+   "past_score": 51.162,
+   "true_new_score": 43.324,
+   "first_seen_score": 43.324,
+   "n_first_seen": 22.685,
+   "n_known_before": 5.955
+  },
+  {
+   "week": 6,
+   "past_score": 54.062,
+   "true_new_score": 44.54,
+   "first_seen_score": 42.688,
+   "n_first_seen": 19.26,
+   "n_known_before": 7.58
+  },
+  {
+   "week": 7,
+   "past_score": 56.062,
+   "true_new_score": 45.76,
+   "first_seen_score": 43.441,
+   "n_first_seen": 17.185,
+   "n_known_before": 8.575
+  },
+  {
+   "week": 8,
+   "past_score": 58.788,
+   "true_new_score": 46.98,
+   "first_seen_score": 45.474,
+   "n_first_seen": 14.845,
+   "n_known_before": 9.69
+  },
+  {
+   "week": 9,
+   "past_score": 60.275,
+   "true_new_score": 48.199,
+   "first_seen_score": 45.769,
+   "n_first_seen": 12.96,
+   "n_known_before": 10.595
+  },
+  {
+   "week": 10,
+   "past_score": 62.8,
+   "true_new_score": 49.413,
+   "first_seen_score": 47.119,
+   "n_first_seen": 11.295,
+   "n_known_before": 11.68
+  },
+  {
+   "week": 11,
+   "past_score": 65.925,
+   "true_new_score": 50.622,
+   "first_seen_score": 49.02,
+   "n_first_seen": 9.305,
+   "n_known_before": 13.005
+  },
+  {
+   "week": 12,
+   "past_score": 67.95,
+   "true_new_score": 51.822,
+   "first_seen_score": 51.505,
+   "n_first_seen": 8.475,
+   "n_known_before": 13.765
+  }
+ ],
+ "reps100": {
+  "past_gain": {
+   "mean": 30.621,
+   "p10": 29.064,
+   "p90": 32.166
+  },
+  "true_gain": {
+   "mean": 13.618,
+   "p10": 12.807,
+   "p90": 14.341
+  },
+  "memory_part": {
+   "mean": 17.003,
+   "p10": 15.724,
+   "p90": 18.515
+  },
+  "memory_share_of_gain": {
+   "mean": 0.555,
+   "p10": 0.53,
+   "p90": 0.583
+  },
+  "first_seen_gain": {
+   "mean": 13.585,
+   "p10": 11.723,
+   "p90": 15.678
+  },
+  "past_last_minus_exam": {
+   "mean": 17.72,
+   "p10": 12.892,
+   "p90": 22.4
+  },
+  "past_last_minus_true_last": {
+   "mean": 17.231,
+   "p10": 15.262,
+   "p90": 19.056
+  },
+  "first_seen_last_minus_true_last": {
+   "mean": 0.196,
+   "p10": -2.599,
+   "p90": 2.352
+  },
+  "corr_pastgain_truegain": {
+   "mean": 0.366,
+   "p10": 0.31,
+   "p90": 0.438
+  },
+  "top20_pastgain_in_top20_truegain": {
+   "mean": 0.361,
+   "p10": 0.275,
+   "p90": 0.45
+  }
+ },
+ "robustness_summary": {
+  "memory_share_range_mem_and_grow_pos": [
+   0.047,
+   0.764
+  ],
+  "memory_part_range_mem_and_grow_pos": [
+   1.197,
+   44.656
+  ],
+  "past_minus_true_last_range_mem_and_grow_pos": [
+   1.0,
+   43.747
+  ],
+  "memory0_abs_memory_part_max": 0.244,
+  "memory0_abs_first_seen_minus_true_gain_max": 5.799,
+  "all_abs_first_seen_minus_true_gain_max": 5.799,
+  "pool300plus_abs_first_seen_minus_true_gain_max": 1.067,
+  "pool100_n_first_seen_last_mean_range": [
+   0.136,
+   0.162
+  ],
+  "grow0_past_gain_range": [
+   1.57,
+   56.587
+  ],
+  "corr_pastgain_truegain_range_mem_pos_grow_pos": [
+   0.014,
+   0.826
+  ]
+ }
+}

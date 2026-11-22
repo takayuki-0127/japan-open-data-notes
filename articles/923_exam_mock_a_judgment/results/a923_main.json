@@ -1,0 +1,143 @@
+{
+ "base": {
+  "A_pass_mean": 0.8921,
+  "A_pass_p10": 0.7749,
+  "A_pass_p90": 0.9822,
+  "A_pass_min": 0.5004,
+  "A_year_below80_note": "A判定の人がいない年は数えない",
+  "A_year_below80": 0.1406,
+  "A_lowest_band_mean": 0.8332,
+  "A_lowest_band_p10": 0.6521,
+  "A_lowest_band_p90": 0.9727,
+  "A_lowest_band_below80": 0.3298,
+  "A_15plus_mean": 0.993,
+  "th_A_values": {
+   "60": 0.005,
+   "65": 0.122,
+   "70": 0.4425,
+   "75": 0.3515,
+   "80": 0.075,
+   "85": 0.003,
+   "A判定なし": 0.001
+  },
+  "pass_all_mean": 0.3089,
+  "pass_all_p10": 0.2116,
+  "pass_all_p90": 0.4144,
+  "years_no_A": 0.001,
+  "passers_not_A": 0.6664
+ },
+ "by_judgment": [
+  {
+   "judgment": "A",
+   "ruler": "80%以上",
+   "share_of_examinees": 0.1143,
+   "pass_mean": 0.8921,
+   "pass_p10": 0.7749,
+   "pass_p90": 0.9822,
+   "share_of_passers": 0.3336
+  },
+  {
+   "judgment": "B",
+   "ruler": "60〜80%",
+   "share_of_examinees": 0.1001,
+   "pass_mean": 0.6809,
+   "pass_p10": 0.4386,
+   "pass_p90": 0.8987,
+   "share_of_passers": 0.2129
+  },
+  {
+   "judgment": "C",
+   "ruler": "40〜60%",
+   "share_of_examinees": 0.1156,
+   "pass_mean": 0.4981,
+   "pass_p10": 0.2433,
+   "pass_p90": 0.7681,
+   "share_of_passers": 0.1769
+  },
+  {
+   "judgment": "D",
+   "ruler": "20〜40%",
+   "share_of_examinees": 0.1581,
+   "pass_mean": 0.3185,
+   "pass_p10": 0.1119,
+   "pass_p90": 0.5776,
+   "share_of_passers": 0.1542
+  },
+  {
+   "judgment": "E",
+   "ruler": "20%未満",
+   "share_of_examinees": 0.512,
+   "pass_mean": 0.0725,
+   "pass_p10": 0.0155,
+   "pass_p90": 0.1532,
+   "share_of_passers": 0.1224
+  }
+ ],
+ "robust": {
+  "A_pass_mean_min": 0.7028,
+  "A_pass_mean_max": 0.9518,
+  "A_year_below80_min": 0.0,
+  "A_year_below80_max": 0.6556,
+  "A_lowest_band_min": 0.6045,
+  "A_lowest_band_max": 0.9145,
+  "passers_not_A_min": 0.48,
+  "passers_not_A_max": 0.9427,
+  "years_no_A_max": 0.7867,
+  "year_sd0_A_year_below80_max": 0.4844,
+  "year_sd0_A_pass_p10_min": 0.7343,
+  "by_n_calib": {
+   "200": {
+    "A_pass_mean_min": 0.7028,
+    "A_pass_mean_max": 0.9224,
+    "A_year_below80_min": 0.0,
+    "A_year_below80_max": 0.6556,
+    "A_lowest_band_min": 0.6045,
+    "A_lowest_band_max": 0.8589,
+    "years_no_A_min": 0.1433,
+    "years_no_A_max": 0.7867
+   },
+   "2000": {
+    "A_pass_mean_min": 0.802,
+    "A_pass_mean_max": 0.9518,
+    "A_year_below80_min": 0.0,
+    "A_year_below80_max": 0.4135,
+    "A_lowest_band_min": 0.7417,
+    "A_lowest_band_max": 0.9145,
+    "years_no_A_min": 0.0,
+    "years_no_A_max": 0.1167
+   }
+  },
+  "by_year_sd": {
+   "0.0": {
+    "A_pass_p10_min": 0.7343,
+    "A_pass_p10_max": 0.9405,
+    "A_year_below80_min": 0.0,
+    "A_year_below80_max": 0.4844
+   },
+   "3.0": {
+    "A_pass_p10_min": 0.6363,
+    "A_pass_p10_max": 0.7934,
+    "A_year_below80_min": 0.11,
+    "A_year_below80_max": 0.5581
+   },
+   "6.0": {
+    "A_pass_p10_min": 0.3901,
+    "A_pass_p10_max": 0.623,
+    "A_year_below80_min": 0.261,
+    "A_year_below80_max": 0.6556
+   }
+  }
+ },
+ "one_year": {
+  "thresholds": {
+   "A": 70,
+   "B": 65,
+   "C": 60,
+   "D": 55
+  },
+  "year_difficulty": -0.72,
+  "pass_rate": 0.3154,
+  "A_n": 668,
+  "A_pass": 0.8802
+ }
+}

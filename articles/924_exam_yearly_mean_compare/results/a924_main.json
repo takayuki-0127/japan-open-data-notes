@@ -1,0 +1,310 @@
+{
+ "setting": {
+  "years": 5,
+  "examinees_per_year": 1000,
+  "items": 50,
+  "anchor_items": 10,
+  "form_difficulty_by_year": [
+   0.0,
+   0.4,
+   -0.3,
+   0.3,
+   -0.5
+  ],
+  "cohort_mean_by_year": [
+   0.0,
+   0.2,
+   -0.2,
+   -0.1,
+   0.3
+  ],
+  "pass_line_on_year1_scale": 60
+ },
+ "example_by_year": [
+  {
+   "year": 1,
+   "form_difficulty": 0.0,
+   "cohort_mean": 0.0,
+   "form_mean_difficulty_drawn_40": -0.078,
+   "raw_mean": 48.076,
+   "true_mean_on_year1": 47.814,
+   "raw_mean_minus_year1": 0.0,
+   "true_mean_minus_year1": 0.0,
+   "raw_minus_true": 0.262,
+   "B_minus_true": 0.262,
+   "C_minus_true": 0.262,
+   "true_pass_rate": 0.333,
+   "A_pass_rate": 0.347,
+   "B_pass_rate": 0.347,
+   "C_pass_rate": 0.347
+  },
+  {
+   "year": 2,
+   "form_difficulty": 0.4,
+   "cohort_mean": 0.2,
+   "form_mean_difficulty_drawn_40": 0.367,
+   "raw_mean": 46.0,
+   "true_mean_on_year1": 53.827,
+   "raw_mean_minus_year1": -2.076,
+   "true_mean_minus_year1": 6.014,
+   "raw_minus_true": -7.827,
+   "B_minus_true": -5.751,
+   "C_minus_true": 0.098,
+   "true_pass_rate": 0.423,
+   "A_pass_rate": 0.327,
+   "B_pass_rate": 0.327,
+   "C_pass_rate": 0.422
+  },
+  {
+   "year": 3,
+   "form_difficulty": -0.3,
+   "cohort_mean": -0.2,
+   "form_mean_difficulty_drawn_40": -0.393,
+   "raw_mean": 49.21,
+   "true_mean_on_year1": 43.877,
+   "raw_mean_minus_year1": 1.134,
+   "true_mean_minus_year1": -3.937,
+   "raw_minus_true": 5.333,
+   "B_minus_true": 4.199,
+   "C_minus_true": -0.08,
+   "true_pass_rate": 0.263,
+   "A_pass_rate": 0.35,
+   "B_pass_rate": 0.323,
+   "C_pass_rate": 0.272
+  },
+  {
+   "year": 4,
+   "form_difficulty": 0.3,
+   "cohort_mean": -0.1,
+   "form_mean_difficulty_drawn_40": 0.605,
+   "raw_mean": 35.36,
+   "true_mean_on_year1": 47.534,
+   "raw_mean_minus_year1": -12.716,
+   "true_mean_minus_year1": -0.279,
+   "raw_minus_true": -12.174,
+   "B_minus_true": 0.542,
+   "C_minus_true": 0.103,
+   "true_pass_rate": 0.328,
+   "A_pass_rate": 0.176,
+   "B_pass_rate": 0.296,
+   "C_pass_rate": 0.296
+  },
+  {
+   "year": 5,
+   "form_difficulty": -0.5,
+   "cohort_mean": 0.3,
+   "form_mean_difficulty_drawn_40": -0.304,
+   "raw_mean": 61.284,
+   "true_mean_on_year1": 56.444,
+   "raw_mean_minus_year1": 13.208,
+   "true_mean_minus_year1": 8.631,
+   "raw_minus_true": 4.84,
+   "B_minus_true": -8.368,
+   "C_minus_true": -0.406,
+   "true_pass_rate": 0.469,
+   "A_pass_rate": 0.568,
+   "B_pass_rate": 0.385,
+   "C_pass_rate": 0.494
+  }
+ ],
+ "example_accuracy": {
+  "A": 0.899,
+  "B": 0.926,
+  "C": 0.943
+ },
+ "example_max_abs_bias": {
+  "A": 12.174,
+  "B": 8.368,
+  "C": 0.406
+ },
+ "raw58_62_true_by_year": [
+  {
+   "year": 1,
+   "true_mean_of_raw58_62": 59.14,
+   "n": 42
+  },
+  {
+   "year": 2,
+   "true_mean_of_raw58_62": 67.731,
+   "n": 42
+  },
+  {
+   "year": 3,
+   "true_mean_of_raw58_62": 54.426,
+   "n": 60
+  },
+  {
+   "year": 4,
+   "true_mean_of_raw58_62": 74.361,
+   "n": 30
+  },
+  {
+   "year": 5,
+   "true_mean_of_raw58_62": 54.761,
+   "n": 49
+  }
+ ],
+ "raw58_62_true_range": [
+  54.426,
+  74.361
+ ],
+ "raw58_62_true_spread": 19.935,
+ "reps200_wrong_share": {
+  "A": 0.113,
+  "B": 0.081,
+  "C": 0.064
+ },
+ "reps200": [
+  {
+   "method": "A",
+   "max_abs_bias_mean": 11.495,
+   "max_abs_bias_p10": 8.438,
+   "max_abs_bias_p90": 14.988,
+   "accuracy_mean": 0.887,
+   "bias_y1_mean": 0.014,
+   "bias_y2_mean": -7.334,
+   "bias_y3_mean": 5.598,
+   "bias_y4_mean": -5.463,
+   "bias_y5_mean": 8.486
+  },
+  {
+   "method": "B",
+   "max_abs_bias_mean": 6.864,
+   "max_abs_bias_p10": 5.725,
+   "max_abs_bias_p90": 8.235,
+   "accuracy_mean": 0.919,
+   "bias_y1_mean": 0.014,
+   "bias_y2_mean": -4.516,
+   "bias_y3_mean": 4.495,
+   "bias_y4_mean": 2.214,
+   "bias_y5_mean": -6.787
+  },
+  {
+   "method": "C",
+   "max_abs_bias_mean": 0.906,
+   "max_abs_bias_p10": 0.498,
+   "max_abs_bias_p90": 1.37,
+   "accuracy_mean": 0.936,
+   "bias_y1_mean": 0.014,
+   "bias_y2_mean": -0.375,
+   "bias_y3_mean": 0.353,
+   "bias_y4_mean": 0.188,
+   "bias_y5_mean": -0.567
+  }
+ ],
+ "robustness": [
+  {
+   "setting": "基本",
+   "A_max_abs_bias": 10.968,
+   "A_accuracy": 0.887,
+   "B_max_abs_bias": 7.289,
+   "B_accuracy": 0.918,
+   "C_max_abs_bias": 0.852,
+   "C_accuracy": 0.935
+  },
+  {
+   "setting": "問題の難しさの差 0倍（問題を選ぶ偶然の差だけ）",
+   "A_max_abs_bias": 5.155,
+   "A_accuracy": 0.925,
+   "B_max_abs_bias": 6.912,
+   "B_accuracy": 0.921,
+   "C_max_abs_bias": 0.935,
+   "C_accuracy": 0.938
+  },
+  {
+   "setting": "問題の難しさの差 0.5倍",
+   "A_max_abs_bias": 8.104,
+   "A_accuracy": 0.912,
+   "B_max_abs_bias": 6.931,
+   "B_accuracy": 0.921,
+   "C_max_abs_bias": 0.853,
+   "C_accuracy": 0.939
+  },
+  {
+   "setting": "問題の難しさの差 2倍",
+   "A_max_abs_bias": 17.948,
+   "A_accuracy": 0.82,
+   "B_max_abs_bias": 6.862,
+   "B_accuracy": 0.916,
+   "C_max_abs_bias": 0.819,
+   "C_accuracy": 0.931
+  },
+  {
+   "setting": "受ける人の差 0倍（毎年同じ）",
+   "A_max_abs_bias": 11.064,
+   "A_accuracy": 0.886,
+   "B_max_abs_bias": 1.364,
+   "B_accuracy": 0.936,
+   "C_max_abs_bias": 0.695,
+   "C_accuracy": 0.936
+  },
+  {
+   "setting": "受ける人の差 2倍",
+   "A_max_abs_bias": 11.47,
+   "A_accuracy": 0.89,
+   "B_max_abs_bias": 13.323,
+   "B_accuracy": 0.879,
+   "C_max_abs_bias": 1.331,
+   "C_accuracy": 0.937
+  },
+  {
+   "setting": "共通の問題 5問",
+   "A_max_abs_bias": 12.921,
+   "A_accuracy": 0.877,
+   "B_max_abs_bias": 7.052,
+   "B_accuracy": 0.919,
+   "C_max_abs_bias": 1.477,
+   "C_accuracy": 0.934
+  },
+  {
+   "setting": "共通の問題 20問",
+   "A_max_abs_bias": 9.264,
+   "A_accuracy": 0.904,
+   "B_max_abs_bias": 6.945,
+   "B_accuracy": 0.92,
+   "C_max_abs_bias": 0.526,
+   "C_accuracy": 0.937
+  },
+  {
+   "setting": "受ける人 各200人",
+   "A_max_abs_bias": 11.684,
+   "A_accuracy": 0.886,
+   "B_max_abs_bias": 7.823,
+   "B_accuracy": 0.915,
+   "C_max_abs_bias": 1.629,
+   "C_accuracy": 0.933
+  },
+  {
+   "setting": "共通の問題が出回り0.3易しくなる",
+   "A_max_abs_bias": 11.683,
+   "A_accuracy": 0.884,
+   "B_max_abs_bias": 6.85,
+   "B_accuracy": 0.919,
+   "C_max_abs_bias": 6.815,
+   "C_accuracy": 0.906
+  },
+  {
+   "setting": "共通の問題が出回り0.6易しくなる",
+   "A_max_abs_bias": 12.527,
+   "A_accuracy": 0.876,
+   "B_max_abs_bias": 6.916,
+   "B_accuracy": 0.92,
+   "C_max_abs_bias": 13.009,
+   "C_accuracy": 0.844
+  }
+ ],
+ "robustness_no_leak_range": {
+  "A_max_abs_bias": [
+   5.155,
+   17.948
+  ],
+  "B_max_abs_bias": [
+   1.364,
+   13.323
+  ],
+  "C_max_abs_bias": [
+   0.526,
+   1.629
+  ]
+ }
+}

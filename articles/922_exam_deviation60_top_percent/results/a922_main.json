@@ -1,0 +1,86 @@
+{
+ "normal_share_ge60": 0.1587,
+ "normal_share_ge70": 0.0228,
+ "three_exams": {
+  "やさしい試験": {
+   "mean": 85.28,
+   "sd": 13.58,
+   "skew": -1.604,
+   "excess_kurtosis": 2.951,
+   "share_ge60": 0.0791,
+   "share_ge70": 0.0,
+   "share_lt40": 0.1416,
+   "dev_of_top15_87": 58.63,
+   "dev_of_top2_28": 60.84,
+   "max_dev": 60.84,
+   "min_dev": -12.78
+  },
+  "ふつうの試験": {
+   "mean": 48.0,
+   "sd": 22.93,
+   "skew": 0.029,
+   "excess_kurtosis": -0.912,
+   "share_ge60": 0.1955,
+   "share_ge70": 0.0088,
+   "share_lt40": 0.1957,
+   "dev_of_top15_87": 61.34,
+   "dev_of_top2_28": 68.31,
+   "max_dev": 72.67,
+   "min_dev": 29.07
+  },
+  "むずかしい試験": {
+   "mean": 11.87,
+   "sd": 12.72,
+   "skew": 1.795,
+   "excess_kurtosis": 3.723,
+   "share_ge60": 0.1419,
+   "share_ge70": 0.0544,
+   "share_lt40": 0.0,
+   "dev_of_top15_87": 58.74,
+   "dev_of_top2_28": 78.39,
+   "max_dev": 119.26,
+   "min_dev": 40.67
+  }
+ },
+ "robust_all": {
+  "share_ge60_min": 0.0,
+  "share_ge60_max": 0.2378,
+  "share_ge70_min": 0.0,
+  "share_ge70_max": 0.0676,
+  "dev_top15_87_min": 52.44,
+  "dev_top15_87_max": 62.86,
+  "n_settings": 156,
+  "n_full_marks_below_60": 32
+ },
+ "shift0_share_ge60_min": 0.1568,
+ "shift0_share_ge60_max": 0.2378,
+ "shift0_kurt_min": -1.361,
+ "shift0_kurt_max": -0.667,
+ "small_sessions": {
+  "30": {
+   "p10": 0.1333,
+   "median": 0.2,
+   "p90": 0.2333,
+   "share_sessions_off_5pts": 0.1983,
+   "first_session_share_ge60": 0.1667
+  },
+  "300": {
+   "p10": 0.1733,
+   "median": 0.19,
+   "p90": 0.2067,
+   "share_sessions_off_5pts": 0.0001
+  }
+ },
+ "robust_正規": {
+  "share_ge60_min": 0.0,
+  "share_ge60_max": 0.2378,
+  "share_ge70_min": 0.0,
+  "share_ge70_max": 0.0666
+ },
+ "robust_2つの群": {
+  "share_ge60_min": 0.0,
+  "share_ge60_max": 0.2311,
+  "share_ge70_min": 0.0,
+  "share_ge70_max": 0.0676
+ }
+}

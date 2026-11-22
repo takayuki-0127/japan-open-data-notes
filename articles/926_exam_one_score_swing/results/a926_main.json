@@ -1,0 +1,264 @@
+{
+ "setting": {
+  "pool_items": 1000,
+  "items_per_test": 50,
+  "points_per_item": 2.0,
+  "condition_sd_theta": 0.2,
+  "pass_line": 60,
+  "true_score_of_fixed_form_for_true60": 62.624
+ },
+ "swing_by_true_score_5000": [
+  {
+   "true_score": 30,
+   "theta": -0.722,
+   "mean_obs": 30.236,
+   "sd": 8.125,
+   "p10": -10.0,
+   "p90": 10.0,
+   "share_abs_ge10": 0.268,
+   "binom_sd_formula": 6.481
+  },
+  {
+   "true_score": 40,
+   "theta": -0.348,
+   "mean_obs": 39.987,
+   "sd": 8.725,
+   "p10": -12.0,
+   "p90": 12.0,
+   "share_abs_ge10": 0.305,
+   "binom_sd_formula": 6.928
+  },
+  {
+   "true_score": 50,
+   "theta": 0.002,
+   "mean_obs": 49.963,
+   "sd": 8.919,
+   "p10": -12.0,
+   "p90": 12.0,
+   "share_abs_ge10": 0.316,
+   "binom_sd_formula": 7.071
+  },
+  {
+   "true_score": 60,
+   "theta": 0.356,
+   "mean_obs": 59.737,
+   "sd": 8.663,
+   "p10": -12.0,
+   "p90": 10.0,
+   "share_abs_ge10": 0.305,
+   "binom_sd_formula": 6.928
+  },
+  {
+   "true_score": 70,
+   "theta": 0.741,
+   "mean_obs": 69.796,
+   "sd": 7.844,
+   "p10": -10.0,
+   "p90": 10.0,
+   "share_abs_ge10": 0.253,
+   "binom_sd_formula": 6.481
+  },
+  {
+   "true_score": 80,
+   "theta": 1.197,
+   "mean_obs": 79.684,
+   "sd": 6.877,
+   "p10": -10.0,
+   "p90": 8.0,
+   "share_abs_ge10": 0.179,
+   "binom_sd_formula": 5.657
+  },
+  {
+   "true_score": 90,
+   "theta": 1.841,
+   "mean_obs": 89.602,
+   "sd": 4.94,
+   "p10": -6.0,
+   "p90": 6.0,
+   "share_abs_ge10": 0.06,
+   "binom_sd_formula": 4.243
+  }
+ ],
+ "true60_sources": [
+  {
+   "sources": "①1問ごとの当たり外れだけ（同じ50問）",
+   "sd": 5.371,
+   "mean_minus_true": 2.652,
+   "p10": -4.0,
+   "p90": 10.0
+  },
+  {
+   "sources": "①＋②どの50問が出るか",
+   "sd": 6.816,
+   "mean_minus_true": 0.001,
+   "p10": -8.0,
+   "p90": 8.0
+  },
+  {
+   "sources": "①＋②＋③当日の調子（基本）",
+   "sd": 8.801,
+   "mean_minus_true": -0.166,
+   "p10": -12.0,
+   "p90": 12.0
+  }
+ ],
+ "two_sittings_1000": {
+  "n": 1000,
+  "corr_1st_2nd": 0.901,
+  "sd_score": 24.41,
+  "sd_true": 23.286,
+  "sem_empirical": 7.78,
+  "sem_formula_sd_sqrt_1_minus_r": 7.672,
+  "share_abs_diff_ge10": 0.346,
+  "share_abs_diff_ge20": 0.094,
+  "mean_abs_diff": 8.36,
+  "pass_line": 60,
+  "share_pass_flip": 0.117,
+  "share_pass_wrong_vs_true": 0.099,
+  "near_line_n": 133,
+  "near_line_share_pass_flip": 0.421,
+  "far_line_share_pass_flip": 0.07
+ },
+ "reversal_true60_center": [
+  {
+   "true_gap": 2,
+   "p_low_ge_high": 0.467,
+   "p_low_gt_high": 0.405
+  },
+  {
+   "true_gap": 5,
+   "p_low_ge_high": 0.373,
+   "p_low_gt_high": 0.313
+  },
+  {
+   "true_gap": 10,
+   "p_low_ge_high": 0.232,
+   "p_low_gt_high": 0.186
+  },
+  {
+   "true_gap": 15,
+   "p_low_ge_high": 0.128,
+   "p_low_gt_high": 0.098
+  }
+ ],
+ "robustness": [
+  {
+   "item_difficulty_sd": 1.0,
+   "n_items": 20,
+   "condition_sd": 0.0,
+   "sd": 11.051,
+   "p10": -15.0,
+   "p90": 15.0,
+   "share_abs_ge10": 0.503,
+   "binom_sd_formula": 10.954
+  },
+  {
+   "item_difficulty_sd": 1.0,
+   "n_items": 20,
+   "condition_sd": 0.2,
+   "sd": 12.094,
+   "p10": -15.0,
+   "p90": 15.0,
+   "share_abs_ge10": 0.536,
+   "binom_sd_formula": 10.954
+  },
+  {
+   "item_difficulty_sd": 1.0,
+   "n_items": 20,
+   "condition_sd": 0.4,
+   "sd": 15.222,
+   "p10": -20.0,
+   "p90": 20.0,
+   "share_abs_ge10": 0.633,
+   "binom_sd_formula": 10.954
+  },
+  {
+   "item_difficulty_sd": 1.0,
+   "n_items": 50,
+   "condition_sd": 0.0,
+   "sd": 6.725,
+   "p10": -8.0,
+   "p90": 8.0,
+   "share_abs_ge10": 0.186,
+   "binom_sd_formula": 6.928
+  },
+  {
+   "item_difficulty_sd": 1.0,
+   "n_items": 50,
+   "condition_sd": 0.2,
+   "sd": 8.797,
+   "p10": -12.0,
+   "p90": 12.0,
+   "share_abs_ge10": 0.305,
+   "binom_sd_formula": 6.928
+  },
+  {
+   "item_difficulty_sd": 1.0,
+   "n_items": 50,
+   "condition_sd": 0.4,
+   "sd": 12.512,
+   "p10": -16.0,
+   "p90": 16.0,
+   "share_abs_ge10": 0.49,
+   "binom_sd_formula": 6.928
+  },
+  {
+   "item_difficulty_sd": 1.0,
+   "n_items": 100,
+   "condition_sd": 0.0,
+   "sd": 4.879,
+   "p10": -6.0,
+   "p90": 6.0,
+   "share_abs_ge10": 0.051,
+   "binom_sd_formula": 4.899
+  },
+  {
+   "item_difficulty_sd": 1.0,
+   "n_items": 100,
+   "condition_sd": 0.2,
+   "sd": 7.179,
+   "p10": -10.0,
+   "p90": 9.0,
+   "share_abs_ge10": 0.19,
+   "binom_sd_formula": 4.899
+  },
+  {
+   "item_difficulty_sd": 1.0,
+   "n_items": 100,
+   "condition_sd": 0.4,
+   "sd": 11.741,
+   "p10": -16.0,
+   "p90": 14.0,
+   "share_abs_ge10": 0.437,
+   "binom_sd_formula": 4.899
+  },
+  {
+   "item_difficulty_sd": 0.5,
+   "n_items": 50,
+   "condition_sd": 0.2,
+   "sd": 10.097,
+   "p10": -14.0,
+   "p90": 12.0,
+   "share_abs_ge10": 0.38,
+   "binom_sd_formula": 6.928
+  },
+  {
+   "item_difficulty_sd": 1.5,
+   "n_items": 50,
+   "condition_sd": 0.2,
+   "sd": 8.101,
+   "p10": -10.0,
+   "p90": 10.0,
+   "share_abs_ge10": 0.272,
+   "binom_sd_formula": 6.928
+  }
+ ],
+ "robustness_sd_range": [
+  4.879,
+  15.222
+ ],
+ "robustness_p10_min_p90_max": [
+  -20.0,
+  20.0
+ ]
+}
