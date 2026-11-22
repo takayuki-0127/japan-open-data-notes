@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 619本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 643本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -13,17 +13,17 @@
 | 予測・時系列 | 139 |
 | 因果推論・効果検証 | 64 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 303 |
+| 統計の考え方（検定・区間・回帰） | 307 |
 | 機械学習・モデル評価 | 103 |
 | 顧客分析・生存分析 | 68 |
 | SQL・データ処理 | 93 |
 | Excel | 12 |
-| 集計の定義・KPI | 161 |
+| 集計の定義・KPI | 167 |
 | 可視化・報告・BI | 46 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 17 |
 | 再現性・振り返り | 93 |
-| その他（記述・要因分解など） | 354 |
+| その他（記述・要因分解など） | 369 |
 
 <details><summary><b>予測・時系列</b>（139本）</summary>
 
@@ -276,7 +276,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（303本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（307本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -583,6 +583,10 @@
 | 823 | 散布図の点が多すぎると、関係は見えなくなるのか？ | [823_graph_scatter_overplotting](articles/823_graph_scatter_overplotting) |
 | 850 | 「最もありそうな日数」で計画すると、間に合う確率は何%か？ | [850_estimate_most_likely_days](articles/850_estimate_most_likely_days) |
 | 862 | 質問の順番で、後の質問の答えはどれだけ変わるのか？ | [862_survey_question_order](articles/862_survey_question_order) |
+| 900 | 割合の平均と、合計で出した割合はどれだけ違うのか？ | [900_pct_mean_of_ratios_vs_pooled](articles/900_pct_mean_of_ratios_vs_pooled) |
+| 901 | 「前年比の前年比」は、何を表しているのか？ | [901_pct_yoy_of_yoy](articles/901_pct_yoy_of_yoy) |
+| 917 | 寸法の平均が規格の中でも、外れる品物は何%あるのか？ | [917_quality_mean_in_spec_out_rate](articles/917_quality_mean_in_spec_out_rate) |
+| 919 | 改善の前後で不良率を比べるとき、何か月見ればよいのか？ | [919_quality_before_after_months](articles/919_quality_before_after_months) |
 
 </details>
 
@@ -890,7 +894,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（161本）</summary>
+<details><summary><b>集計の定義・KPI</b>（167本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1055,6 +1059,12 @@
 | 856 | 担当者が1人抜けると、締め切りはどれだけ延びるのか？ | [856_estimate_member_leaves](articles/856_estimate_member_leaves) |
 | 858 | 締め切り直前に作業が集まると、品質の点検は何件漏れるのか？ | [858_estimate_deadline_rush_review](articles/858_estimate_deadline_rush_review) |
 | 872 | 前年と質問文を変えた年の比較は、どこまでできるのか？ | [872_survey_wording_change_yoy](articles/872_survey_wording_change_yoy) |
+| 898 | 20%上がって20%下がると、元に戻るのか？ | [898_pct_up_down_not_back](articles/898_pct_up_down_not_back) |
+| 901 | 「前年比の前年比」は、何を表しているのか？ | [901_pct_yoy_of_yoy](articles/901_pct_yoy_of_yoy) |
+| 902 | 分母を「全体」にするか「対象者」にするかで、割合はどう変わるのか？ | [902_pct_denominator_all_vs_target](articles/902_pct_denominator_all_vs_target) |
+| 905 | 構成比が下がっても、量は増えていることはあるのか？ | [905_percent_share_down_amount_up](articles/905_percent_share_down_amount_up) |
+| 907 | 四捨五入した割合を足すと、なぜ100%にならないのか？ | [907_pct_rounding_sum_100](articles/907_pct_rounding_sum_100) |
+| 913 | 不良率の月ごとの上下は、工程の変化か偶然か？ | [913_quality_monthly_rate_noise](articles/913_quality_monthly_rate_noise) |
 
 </details>
 
@@ -1315,7 +1325,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（354本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（369本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1673,6 +1683,21 @@
 | 894 | 「月の目標額以上」が何か月続いたら、実力と言えるのか？ | [894_sidejob_target_streak_months](articles/894_sidejob_target_streak_months) |
 | 895 | 問い合わせから契約までの割合は、どこで落ちているのか？ | [895_sidejob_inquiry_funnel_stage](articles/895_sidejob_inquiry_funnel_stage) |
 | 896 | 複数のサービスの手数料を差し引いた実入りを、どう比べるか？ | [896_sidejob_fee_net_compare](articles/896_sidejob_fee_net_compare) |
+| 897 | 「10%から12%」は、2%増か20%増か？ | [897_pct_point_vs_percent](articles/897_pct_point_vs_percent) |
+| 899 | 毎月3%の伸びは、1年で36%なのか？ | [899_pct_monthly_compound_year](articles/899_pct_monthly_compound_year) |
+| 903 | 小さい数からの「300%増」は、どこまで意味があるのか？ | [903_percent_small_base_300pct](articles/903_percent_small_base_300pct) |
+| 904 | 「〜の人の8割が〜」と「〜の人の8割は〜」は同じなのか？ | [904_percent_reverse_condition](articles/904_percent_reverse_condition) |
+| 906 | 割合の差と割合の比、どちらで比べると順位が変わるのか？ | [906_pct_diff_vs_ratio_rank](articles/906_pct_diff_vs_ratio_rank) |
+| 908 | 「n人中x人」を割合だけで書くと、何が消えるのか？ | [908_pct_n_of_x_hidden](articles/908_pct_n_of_x_hidden) |
+| 909 | 不良率0.1%を確かめるには、何個検査すればよいのか？ | [909_quality_sample_size_0_1pct](articles/909_quality_sample_size_0_1pct) |
+| 910 | 抜き取り検査で合格したロットに、不良はどれだけ残るのか？ | [910_quality_acceptance_sampling_left](articles/910_quality_acceptance_sampling_left) |
+| 911 | 検査で「不良」と出た品物は、本当に不良なのか？ | [911_quality_flagged_really_defective](articles/911_quality_flagged_really_defective) |
+| 912 | 管理図の線を3σにするか2σにするかで、止める回数はどう変わるのか？ | [912_quality_control_limit_sigma](articles/912_quality_control_limit_sigma) |
+| 914 | 全数検査なら、不良はゼロになるのか？ | [914_quality_full_inspection_escape](articles/914_quality_full_inspection_escape) |
+| 915 | 検査員によって合否が違うとき、何を数えればよいのか？ | [915_quality_inspector_agreement](articles/915_quality_inspector_agreement) |
+| 916 | 「不良0件」の月は、不良率0%と言えるのか？ | [916_quality_zero_defect_month](articles/916_quality_zero_defect_month) |
+| 918 | 不良の原因の上位を、件数で並べるか損失で並べるかで変わるのか？ | [918_quality_pareto_count_vs_loss](articles/918_quality_pareto_count_vs_loss) |
+| 920 | 工程を2つつなぐと、全体の良品率はどうなるのか？ | [920_quality_two_process_yield](articles/920_quality_two_process_yield) |
 
 </details>
 
@@ -1681,16 +1706,16 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 186 |
+| 小売・店舗 | 194 |
 | EC・会員・Web | 96 |
-| マーケティング・広告 | 21 |
+| マーケティング・広告 | 23 |
 | 需要予測・在庫 | 31 |
-| 業務の集計・報告 | 131 |
+| 業務の集計・報告 | 132 |
 | 作業時間・処理件数 | 6 |
 | 保険 | 72 |
 | 公的統計・地域・人口 | 433 |
 
-<details><summary><b>小売・店舗</b>（186本）</summary>
+<details><summary><b>小売・店舗</b>（194本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1880,6 +1905,14 @@
 | 875 | 「混んでいる」と感じる人の割合は、実際の混み具合と合うのか？ | [875_crowd_feel_vs_actual](articles/875_crowd_feel_vs_actual) |
 | 879 | 行列の長さと、待ち時間の長さは同じなのか？ | [879_queue_length_vs_wait_time](articles/879_queue_length_vs_wait_time) |
 | 883 | 開店直後の行列は、何分で解消するのか？ | [883_queue_opening_rush_clear](articles/883_queue_opening_rush_clear) |
+| 898 | 20%上がって20%下がると、元に戻るのか？ | [898_pct_up_down_not_back](articles/898_pct_up_down_not_back) |
+| 900 | 割合の平均と、合計で出した割合はどれだけ違うのか？ | [900_pct_mean_of_ratios_vs_pooled](articles/900_pct_mean_of_ratios_vs_pooled) |
+| 901 | 「前年比の前年比」は、何を表しているのか？ | [901_pct_yoy_of_yoy](articles/901_pct_yoy_of_yoy) |
+| 903 | 小さい数からの「300%増」は、どこまで意味があるのか？ | [903_percent_small_base_300pct](articles/903_percent_small_base_300pct) |
+| 905 | 構成比が下がっても、量は増えていることはあるのか？ | [905_percent_share_down_amount_up](articles/905_percent_share_down_amount_up) |
+| 906 | 割合の差と割合の比、どちらで比べると順位が変わるのか？ | [906_pct_diff_vs_ratio_rank](articles/906_pct_diff_vs_ratio_rank) |
+| 907 | 四捨五入した割合を足すと、なぜ100%にならないのか？ | [907_pct_rounding_sum_100](articles/907_pct_rounding_sum_100) |
+| 908 | 「n人中x人」を割合だけで書くと、何が消えるのか？ | [908_pct_n_of_x_hidden](articles/908_pct_n_of_x_hidden) |
 
 </details>
 
@@ -1986,7 +2019,7 @@
 
 </details>
 
-<details><summary><b>マーケティング・広告</b>（21本）</summary>
+<details><summary><b>マーケティング・広告</b>（23本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2011,6 +2044,8 @@
 | 673 | 1つの注文を、使ったクーポンそれぞれに全額付けると、クーポン別の売上の合計は実際の何倍になるのか？ | [673_coupon_double_attribution](articles/673_coupon_double_attribution) |
 | 674 | 広告の成果を「最後の接点」に付けるか均等に分けるかで、広告ごとの成果はどれだけ違うのか？ | [674_ad_attribution_models](articles/674_ad_attribution_models) |
 | 758 | 件数が少ないとき、モデルの「上位10%のリフト」はどれだけ揺れるのか？ | [758_top_decile_lift_noise](articles/758_top_decile_lift_noise) |
+| 902 | 分母を「全体」にするか「対象者」にするかで、割合はどう変わるのか？ | [902_pct_denominator_all_vs_target](articles/902_pct_denominator_all_vs_target) |
+| 904 | 「〜の人の8割が〜」と「〜の人の8割は〜」は同じなのか？ | [904_percent_reverse_condition](articles/904_percent_reverse_condition) |
 
 </details>
 
@@ -2052,7 +2087,7 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（131本）</summary>
+<details><summary><b>業務の集計・報告</b>（132本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2187,6 +2222,7 @@
 | 858 | 締め切り直前に作業が集まると、品質の点検は何件漏れるのか？ | [858_estimate_deadline_rush_review](articles/858_estimate_deadline_rush_review) |
 | 872 | 前年と質問文を変えた年の比較は、どこまでできるのか？ | [872_survey_wording_change_yoy](articles/872_survey_wording_change_yoy) |
 | 894 | 「月の目標額以上」が何か月続いたら、実力と言えるのか？ | [894_sidejob_target_streak_months](articles/894_sidejob_target_streak_months) |
+| 901 | 「前年比の前年比」は、何を表しているのか？ | [901_pct_yoy_of_yoy](articles/901_pct_yoy_of_yoy) |
 
 </details>
 
