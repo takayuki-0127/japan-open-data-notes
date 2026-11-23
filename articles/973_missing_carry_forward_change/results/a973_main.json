@@ -1,0 +1,142 @@
+{
+ "setup": {
+  "stores": 200,
+  "months": 24,
+  "growth_per_month": 0.01,
+  "trend_sd": 0.005,
+  "noise_sd": 0.04,
+  "missing_random": 0.2,
+  "stopped_share": 0.15,
+  "renovated": 40,
+  "renov_step": 0.15,
+  "reps": 500
+ },
+ "base": {
+  "random": {
+   "yoy_mean": {
+    "本当の売上": 0.1678,
+    "前の値で埋める": 0.1517,
+    "報告のあった店だけ": 0.1681,
+    "前後を線でつなぐ": 0.1648
+   },
+   "yoy_p10": {
+    "本当の売上": 0.1571,
+    "前の値で埋める": 0.1411,
+    "報告のあった店だけ": 0.1282,
+    "前後を線でつなぐ": 0.1304
+   },
+   "yoy_p90": {
+    "本当の売上": 0.1793,
+    "前の値で埋める": 0.1627,
+    "報告のあった店だけ": 0.2086,
+    "前後を線でつなぐ": 0.1954
+   },
+   "yoy_gap_points": {
+    "前の値で埋める": -1.6,
+    "報告のあった店だけ": 0.03,
+    "前後を線でつなぐ": -0.3
+   },
+   "miss_share_2_24": 0.2492,
+   "zero_change_share": {
+    "本当の売上": 0.0,
+    "前の値で埋める": 0.2492
+   },
+   "change_ge_10pct_share": {
+    "本当の売上": 0.0944,
+    "前の値で埋める": 0.0765
+   },
+   "change_sd": {
+    "本当の売上": 0.0593,
+    "前の値で埋める": 0.0529
+   },
+   "renov_minus_base_13": {
+    "本当の売上": 0.1526,
+    "前の値で埋める": 0.1158
+   },
+   "renov_minus_base_14": {
+    "本当の売上": 0.1527,
+    "前の値で埋める": 0.1387
+   },
+   "renov_minus_base_18": {
+    "本当の売上": 0.1595,
+    "前の値で埋める": 0.1496
+   }
+  },
+  "down": {
+   "yoy_mean": {
+    "本当の売上": 0.1673,
+    "前の値で埋める": 0.1608,
+    "報告のあった店だけ": 0.1927,
+    "前後を線でつなぐ": 0.1889
+   },
+   "yoy_p10": {
+    "本当の売上": 0.1572,
+    "前の値で埋める": 0.1509,
+    "報告のあった店だけ": 0.1536,
+    "前後を線でつなぐ": 0.1561
+   },
+   "yoy_p90": {
+    "本当の売上": 0.1774,
+    "前の値で埋める": 0.1713,
+    "報告のあった店だけ": 0.2318,
+    "前後を線でつなぐ": 0.2208
+   },
+   "yoy_gap_points": {
+    "前の値で埋める": -0.65,
+    "報告のあった店だけ": 2.54,
+    "前後を線でつなぐ": 2.16
+   },
+   "miss_share_2_24": 0.2493,
+   "zero_change_share": {
+    "本当の売上": 0.0,
+    "前の値で埋める": 0.2493
+   },
+   "change_ge_10pct_share": {
+    "本当の売上": 0.0938,
+    "前の値で埋める": 0.0767
+   },
+   "change_sd": {
+    "本当の売上": 0.0593,
+    "前の値で埋める": 0.0528
+   },
+   "renov_minus_base_13": {
+    "本当の売上": 0.1522,
+    "前の値で埋める": 0.114
+   },
+   "renov_minus_base_14": {
+    "本当の売上": 0.1538,
+    "前の値で埋める": 0.1387
+   },
+   "renov_minus_base_18": {
+    "本当の売上": 0.16,
+    "前の値で埋める": 0.151
+   }
+  }
+ },
+ "robustness_summary": {
+  "zero_minus_missing_max_abs": 0.0,
+  "random_locf_gap_min": -6.42,
+  "random_locf_gap_max": 0.04,
+  "random_locf_gap_growth_only_max": 0.04,
+  "random_drop_gap_abs_max": 0.96,
+  "down_locf_gap_min": -4.51,
+  "down_locf_gap_max": 0.75,
+  "down_drop_gap_min": 1.81,
+  "down_drop_gap_max": 5.52,
+  "nodrop_locf_gap_abs_max": 0.14,
+  "growth_configs_with_dropouts_n": 32,
+  "g0_with_drop_random_locf_gap_abs_max": 0.55,
+  "down_g0_locf_gap_min": 0.44,
+  "down_g0_locf_gap_max": 0.75,
+  "down_growth_locf_gap_min": -4.51,
+  "down_growth_locf_gap_max": -0.63,
+  "nodrop_drop_gap_abs_max": 0.87,
+  "n_configs_with_missing": 66,
+  "renov13_locf_over_true_min": 0.5102,
+  "renov13_locf_over_true_max": 0.9443
+ },
+ "example": {
+  "stopped_stores": 30,
+  "missing_share_2_24": 0.2426
+ }
+}

@@ -1,0 +1,199 @@
+{
+ "setting": {
+  "members": 5000,
+  "reps": 300,
+  "card_share": 0.4,
+  "mean_visits_app": 4.5,
+  "mean_visits_card": 2.0,
+  "nb_shape": 2.0,
+  "blank_rate": 0.3,
+  "strength_b": 1.2,
+  "true_mean_formula": 3.5,
+  "calibrated": {
+   "rate": 0.3,
+   "b": 1.2,
+   "a_low": 0.4849,
+   "a_high": -2.4785,
+   "p_card": 0.374,
+   "p_app": 0.2505
+  }
+ },
+ "mechanisms": [
+  {
+   "mechanism": "①でたらめ",
+   "mean_true": 3.503,
+   "mean_drop": 3.5021,
+   "mean_weighted": 3.5035,
+   "share4_true": 0.3824,
+   "share4_drop": 0.3823,
+   "share4_weighted": 0.3825,
+   "mean_drop_bias_pct": -0.0258,
+   "mean_weighted_bias_pct": 0.0136,
+   "share4_drop_bias_pt": -0.0069,
+   "share4_weighted_bias_pt": 0.0107,
+   "blank_rate": 0.2993,
+   "blank_rate_card": 0.2984,
+   "blank_rate_app": 0.2999,
+   "card_share_blank": 0.399,
+   "card_share_answered": 0.4008,
+   "mean_drop_bias_pct_p10": -1.1492,
+   "mean_drop_bias_pct_p90": 1.0878,
+   "mean_weighted_bias_pct_p10": -0.9349,
+   "mean_weighted_bias_pct_p90": 1.1045
+  },
+  {
+   "mechanism": "②会員の種類で",
+   "mean_true": 3.4987,
+   "mean_drop": 3.6056,
+   "mean_weighted": 3.4993,
+   "share4_true": 0.3826,
+   "share4_drop": 0.3964,
+   "share4_weighted": 0.3826,
+   "mean_drop_bias_pct": 3.0551,
+   "mean_weighted_bias_pct": 0.0169,
+   "share4_drop_bias_pt": 1.3831,
+   "share4_weighted_bias_pt": 0.001,
+   "blank_rate": 0.2999,
+   "blank_rate_card": 0.3743,
+   "blank_rate_app": 0.2502,
+   "card_share_blank": 0.4993,
+   "card_share_answered": 0.3574,
+   "mean_drop_bias_pct_p10": 1.9015,
+   "mean_drop_bias_pct_p90": 4.2467,
+   "mean_weighted_bias_pct_p10": -1.1043,
+   "mean_weighted_bias_pct_p90": 1.1569
+  },
+  {
+   "mechanism": "③少ない人ほど",
+   "mean_true": 3.4997,
+   "mean_drop": 4.1929,
+   "mean_weighted": 4.0801,
+   "share4_true": 0.3826,
+   "share4_drop": 0.4726,
+   "share4_weighted": 0.4582,
+   "mean_drop_bias_pct": 19.8102,
+   "mean_weighted_bias_pct": 16.5854,
+   "share4_drop_bias_pt": 8.996,
+   "share4_weighted_bias_pt": 7.5545,
+   "blank_rate": 0.3003,
+   "blank_rate_card": 0.3742,
+   "blank_rate_app": 0.251,
+   "card_share_blank": 0.4984,
+   "card_share_answered": 0.3578,
+   "mean_drop_bias_pct_p10": 18.7684,
+   "mean_drop_bias_pct_p90": 20.8402,
+   "mean_weighted_bias_pct_p10": 15.6047,
+   "mean_weighted_bias_pct_p90": 17.4842
+  },
+  {
+   "mechanism": "④多い人ほど",
+   "mean_true": 3.4956,
+   "mean_drop": 2.7097,
+   "mean_weighted": 2.7908,
+   "share4_true": 0.3816,
+   "share4_drop": 0.284,
+   "share4_weighted": 0.2955,
+   "mean_drop_bias_pct": -22.4812,
+   "mean_weighted_bias_pct": -20.1624,
+   "share4_drop_bias_pt": -9.7606,
+   "share4_weighted_bias_pt": -8.6101,
+   "blank_rate": 0.3,
+   "blank_rate_card": 0.2235,
+   "blank_rate_app": 0.3512,
+   "card_share_blank": 0.2987,
+   "card_share_answered": 0.4447,
+   "mean_drop_bias_pct_p10": -23.7938,
+   "mean_drop_bias_pct_p90": -21.161,
+   "mean_weighted_bias_pct_p10": -21.5043,
+   "mean_weighted_bias_pct_p90": -18.9649
+  }
+ ],
+ "formula_mech2_mean_drop": 3.6058,
+ "formula_mech2_mean_drop_bias_pct": 3.0239,
+ "sample_size": [
+  {
+   "members": 500,
+   "mean_drop_bias_pct": 19.7456,
+   "mean_drop_bias_pct_sd": 2.6694,
+   "mean_weighted_bias_pct": 16.4127,
+   "mean_weighted_bias_pct_sd": 2.4659,
+   "share_runs_weighted_within_1pct": 0.0,
+   "mech1_mean_drop_bias_pct_sd": 3.1102,
+   "mech1_share_runs_within_1pct": 0.2267
+  },
+  {
+   "members": 5000,
+   "mean_drop_bias_pct": 19.7925,
+   "mean_drop_bias_pct_sd": 0.8417,
+   "mean_weighted_bias_pct": 16.5594,
+   "mean_weighted_bias_pct_sd": 0.757,
+   "share_runs_weighted_within_1pct": 0.0,
+   "mech1_mean_drop_bias_pct_sd": 0.9178,
+   "mech1_share_runs_within_1pct": 0.71
+  },
+  {
+   "members": 50000,
+   "mean_drop_bias_pct": 19.7777,
+   "mean_drop_bias_pct_sd": 0.2743,
+   "mean_weighted_bias_pct": 16.5281,
+   "mean_weighted_bias_pct_sd": 0.254,
+   "share_runs_weighted_within_1pct": 0.0,
+   "mech1_mean_drop_bias_pct_sd": 0.29,
+   "mech1_share_runs_within_1pct": 1.0
+  }
+ ],
+ "robustness": {
+  "combos": 36,
+  "mech2_weighted_bias_pct_abs_max": 0.3261,
+  "mech2_drop_bias_pct_range": [
+   0.54,
+   8.0043
+  ],
+  "mech3_drop_bias_pct_range": [
+   3.7389,
+   52.9335
+  ],
+  "mech3_weighted_bias_pct_range": [
+   3.1503,
+   44.1741
+  ],
+  "mech4_drop_bias_pct_range": [
+   -52.7404,
+   -4.2193
+  ],
+  "mech4_weighted_bias_pct_range": [
+   -49.7949,
+   -3.6887
+  ],
+  "mech3_by_card_mean": [
+   {
+    "mean_visits_card": 1.0,
+    "drop": 23.2085,
+    "weighted": 14.7263,
+    "left_share": 0.6345
+   },
+   {
+    "mean_visits_card": 3.5,
+    "drop": 17.7398,
+    "weighted": 17.3713,
+    "left_share": 0.9792
+   },
+   {
+    "mean_visits_card": 4.5,
+    "drop": 17.5097,
+    "weighted": 17.5105,
+    "left_share": 1.0
+   }
+  ],
+  "mech2_weighted_bias_pct_abs_max_all": 0.3261,
+  "mech3_weighted_left_share_of_drop_range_all12": [
+   0.6345,
+   1.0
+  ],
+  "mech3_weighted_left_share_of_drop_range": [
+   0.8311,
+   0.8426
+  ]
+ },
+ "mech3_weighted_left_share_of_drop": 0.8372
+}

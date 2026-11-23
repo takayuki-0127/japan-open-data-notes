@@ -1,0 +1,119 @@
+{
+ "setting": {
+  "people": 8000,
+  "reps": 300,
+  "tenure_share": [
+   0.3,
+   0.4,
+   0.3
+  ],
+  "satisfied_by_tenure": [
+   0.5,
+   0.6,
+   0.7
+  ],
+  "tenure_logit": [
+   -0.3,
+   0.0,
+   0.3
+  ],
+  "satisfied_odds": 1.8,
+  "u_sd": 1.0,
+  "target_rate_wave1": 0.25,
+  "target_rate_cum": 0.4,
+  "B_busy_share": 0.3,
+  "B_busy_sat_diff": 0.3,
+  "B_busy_shift": -3.0,
+  "true_satisfied_formula": 0.6
+ },
+ "scenarios": [
+  {
+   "scenario": "A",
+   "a1": -1.6994,
+   "a2": -1.7625,
+   "true": 0.5994,
+   "wave1": 0.6969,
+   "wave2": 0.662,
+   "respondents": 0.6838,
+   "nonrespondents": 0.5432,
+   "weighted_tenure": 0.6742,
+   "late_as_non": 0.6707,
+   "rate1": 0.2497,
+   "rate_cum": 0.3996,
+   "respondents_err_pt": 8.444,
+   "weighted_tenure_err_pt": 7.48,
+   "late_as_non_err_pt": 7.1355,
+   "wave1_err_pt": 9.7499,
+   "non_minus_resp_pt": -14.0632,
+   "non_minus_wave2_pt": -11.8846,
+   "tenure_gap_max_pt": 6.0398,
+   "respondents_err_pt_p10": 7.6446,
+   "respondents_err_pt_p90": 9.2984,
+   "late_as_non_err_pt_p10": 6.0884,
+   "late_as_non_err_pt_p90": 8.1832
+  },
+  {
+   "scenario": "B",
+   "a1": -1.1189,
+   "a2": -1.0043,
+   "true": 0.5999,
+   "wave1": 0.6141,
+   "wave2": 0.5742,
+   "respondents": 0.5991,
+   "nonrespondents": 0.6005,
+   "weighted_tenure": 0.5902,
+   "late_as_non": 0.5842,
+   "rate1": 0.2504,
+   "rate_cum": 0.4008,
+   "respondents_err_pt": -0.0847,
+   "weighted_tenure_err_pt": -0.9778,
+   "late_as_non_err_pt": -1.5762,
+   "wave1_err_pt": 1.4124,
+   "non_minus_resp_pt": 0.1414,
+   "non_minus_wave2_pt": 2.6309,
+   "tenure_gap_max_pt": 5.1185,
+   "respondents_err_pt_p10": -0.9378,
+   "respondents_err_pt_p90": 0.682,
+   "late_as_non_err_pt_p10": -2.7519,
+   "late_as_non_err_pt_p90": -0.4237
+  }
+ ],
+ "robustness": {
+  "combos": 27,
+  "A_non_minus_resp_pt_range_odds_gt1": [
+   -26.1542,
+   -8.754
+  ],
+  "A_respondents_err_pt_range_odds_gt1": [
+   3.7747,
+   18.4766
+  ],
+  "A_late_as_non_err_pt_range_odds_gt1": [
+   2.9157,
+   17.3224
+  ],
+  "A_late_as_non_abs_smaller_than_resp_all_odds_gt1": true,
+  "A_odds1_respondents_err_pt_range": [
+   0.7044,
+   1.2449
+  ],
+  "B_non_minus_wave2_pt_range": [
+   -15.4148,
+   14.864
+  ],
+  "B_late_as_non_err_pt_range": [
+   -8.9106,
+   9.256
+  ],
+  "B_respondents_err_pt_range": [
+   -8.2977,
+   11.1512
+  ],
+  "B_combos_late_as_non_worse_than_resp": 4,
+  "B_combos": 15,
+  "B_combos_non_above_resp": 4,
+  "combos_wave1_above_wave2": 27,
+  "B_combos_wave1_above_wave2": 15,
+  "A_combos_odds_gt1": 9
+ }
+}

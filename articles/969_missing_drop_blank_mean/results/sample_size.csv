@@ -1,0 +1,4 @@
+members,mean_drop_bias_pct,mean_drop_bias_pct_sd,mean_weighted_bias_pct,mean_weighted_bias_pct_sd,share_runs_weighted_within_1pct,mech1_mean_drop_bias_pct_sd,mech1_share_runs_within_1pct
+500,19.7456,2.6694,16.4127,2.4659,0.0,3.1102,0.2267
+5000,19.7925,0.8417,16.5594,0.757,0.0,0.9178,0.71
+50000,19.7777,0.2743,16.5281,0.254,0.0,0.29,1.0
