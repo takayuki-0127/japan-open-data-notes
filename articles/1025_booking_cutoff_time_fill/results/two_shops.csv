@@ -1,0 +1,4 @@
+case,months,A_requests_mean,B_requests_mean,A_fill_at_cutoff,B_fill_at_cutoff,A_seated_rate,B_seated_rate,share_months_B_fill_higher,share_months_B_seated_higher,share_months_B_requests_higher
+Aが2割多い,100,28.98,24.1,47.71,80.27,74.43,76.14,100.0,65.0,0.0
+Aが1割多い,100,26.43,24.06,43.89,80.2,68.55,76.17,100.0,91.0,11.0
+同じ,100,24.17,23.98,39.78,80.06,63.27,76.07,100.0,100.0,46.0

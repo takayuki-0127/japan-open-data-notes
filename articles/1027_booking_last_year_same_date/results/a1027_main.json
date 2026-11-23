@@ -1,0 +1,457 @@
+{
+ "setting": {
+  "base_mu": 40.0,
+  "weekday_weights": {
+   "月": 0.8,
+   "火": 0.8,
+   "水": 0.9,
+   "木": 1.0,
+   "金": 1.4,
+   "土": 1.6,
+   "日": 1.1
+  },
+  "holiday_factor": 1.5,
+  "day_cv": 0.1,
+  "growth": 0.05,
+  "lead_mean_days": 10,
+  "reps": 400,
+  "fixed_holidays": 14,
+  "moving_holidays": 4
+ },
+ "share_on_books_formula": {
+  "0": 100.0,
+  "7": 51.32,
+  "14": 26.33
+ },
+ "method1_formula": {
+  "0": 5.0,
+  "7": -46.12,
+  "14": -72.35
+ },
+ "method3_L0_holiday_mismatch": {
+  "all": {
+   "days": 21,
+   "ratio_of_sums": 5.21,
+   "share_negative": 45.55,
+   "share_off_20pt": 81.64
+  },
+  "this_year_only": {
+   "days": 11,
+   "ratio_of_sums": 58.76,
+   "share_negative": 3.23,
+   "share_off_20pt": 82.89
+  },
+  "last_year_only": {
+   "days": 10,
+   "ratio_of_sums": -29.96,
+   "share_negative": 92.1,
+   "share_off_20pt": 80.27
+  },
+  "formula_this_year_only": 57.5,
+  "formula_last_year_only": -30.0
+ },
+ "method3_L7_holiday_mismatch": {
+  "all": {
+   "days": 21,
+   "ratio_of_sums": 4.45,
+   "share_negative": 45.15,
+   "share_off_20pt": 77.75
+  },
+  "this_year_only": {
+   "days": 11,
+   "ratio_of_sums": 56.3,
+   "share_negative": 7.95,
+   "share_off_20pt": 78.41
+  },
+  "last_year_only": {
+   "days": 10,
+   "ratio_of_sums": -30.13,
+   "share_negative": 86.08,
+   "share_off_20pt": 77.03
+  },
+  "formula_this_year_only": 57.5,
+  "formula_last_year_only": -30.0
+ },
+ "by_weekday_L7": {
+  "月": {
+   "weekday_last_year_same_date": "日",
+   "days": 41,
+   "method2_ratio_of_sums": -23.63,
+   "method2_formula": -23.64,
+   "method3_ratio_of_sums": 5.2,
+   "method3_formula": 5.0,
+   "method2_share_negative": 75.43,
+   "method3_share_negative": 41.32
+  },
+  "火": {
+   "weekday_last_year_same_date": "月",
+   "days": 46,
+   "method2_ratio_of_sums": 4.67,
+   "method2_formula": 5.0,
+   "method3_ratio_of_sums": 4.68,
+   "method3_formula": 5.0,
+   "method2_share_negative": 41.98,
+   "method3_share_negative": 41.89
+  },
+  "水": {
+   "weekday_last_year_same_date": "火",
+   "days": 50,
+   "method2_ratio_of_sums": 17.75,
+   "method2_formula": 18.12,
+   "method3_ratio_of_sums": 5.02,
+   "method3_formula": 5.0,
+   "method2_share_negative": 30.55,
+   "method3_share_negative": 41.98
+  },
+  "木": {
+   "weekday_last_year_same_date": "水",
+   "days": 49,
+   "method2_ratio_of_sums": 17.22,
+   "method2_formula": 16.67,
+   "method3_ratio_of_sums": 5.48,
+   "method3_formula": 5.0,
+   "method2_share_negative": 29.56,
+   "method3_share_negative": 41.14
+  },
+  "金": {
+   "weekday_last_year_same_date": "木",
+   "days": 50,
+   "method2_ratio_of_sums": 46.9,
+   "method2_formula": 47.0,
+   "method3_ratio_of_sums": 5.11,
+   "method3_formula": 5.0,
+   "method2_share_negative": 10.1,
+   "method3_share_negative": 41.11
+  },
+  "土": {
+   "weekday_last_year_same_date": "金",
+   "days": 50,
+   "method2_ratio_of_sums": 20.38,
+   "method2_formula": 20.0,
+   "method3_ratio_of_sums": 4.76,
+   "method3_formula": 5.0,
+   "method2_share_negative": 24.19,
+   "method3_share_negative": 41.49
+  },
+  "日": {
+   "weekday_last_year_same_date": "土",
+   "days": 46,
+   "method2_ratio_of_sums": -27.82,
+   "method2_formula": -27.81,
+   "method3_ratio_of_sums": 5.25,
+   "method3_formula": 5.0,
+   "method2_share_negative": 84.73,
+   "method3_share_negative": 41.36
+  }
+ },
+ "by_weekday_L7_max_abs_sim_minus_formula_pt": 0.55,
+ "method3_L14_holiday_mismatch": {
+  "all": {
+   "days": 21,
+   "ratio_of_sums": 4.49,
+   "share_negative": 44.23,
+   "share_off_20pt": 77.24
+  },
+  "this_year_only": {
+   "days": 11,
+   "ratio_of_sums": 57.32,
+   "share_negative": 12.64,
+   "share_off_20pt": 78.38
+  },
+  "last_year_only": {
+   "days": 10,
+   "ratio_of_sums": -30.15,
+   "share_negative": 78.97,
+   "share_off_20pt": 75.98
+  },
+  "formula_this_year_only": 57.5,
+  "formula_last_year_only": -30.0
+ },
+ "by_method": {
+  "L0_②同じ日付・同じ日数前": {
+   "ratio_of_sums": 4.84,
+   "zero_denominator": 0,
+   "median": 6.9,
+   "p10": -35.0,
+   "p90": 64.86,
+   "share_negative": 41.86,
+   "share_off_20pt": 60.92,
+   "week_median": 4.76,
+   "week_p10": -7.4,
+   "week_p90": 19.05,
+   "week_share_negative": 31.05,
+   "week_share_off_20pt": 5.51,
+   "month_median": 4.85,
+   "month_p10": -1.71,
+   "month_p90": 11.61,
+   "month_share_negative": 16.92,
+   "month_share_off_20pt": 0.04
+  },
+  "L0_③同じ曜日・同じ日数前": {
+   "ratio_of_sums": 4.94,
+   "zero_denominator": 0,
+   "median": 5.13,
+   "p10": -26.23,
+   "p90": 50.0,
+   "share_negative": 41.14,
+   "share_off_20pt": 47.61,
+   "week_median": 4.87,
+   "week_p10": -7.42,
+   "week_p90": 19.11,
+   "week_share_negative": 30.66,
+   "week_share_off_20pt": 5.55,
+   "month_median": 5.04,
+   "month_p10": -1.26,
+   "month_p90": 11.4,
+   "month_share_negative": 15.27,
+   "month_share_off_20pt": 0.04
+  },
+  "L7_①同じ日付・前年の最終": {
+   "ratio_of_sums": -46.16,
+   "zero_denominator": 0,
+   "median": -45.65,
+   "p10": -68.29,
+   "p90": -13.04,
+   "share_negative": 94.91,
+   "share_off_20pt": 89.63,
+   "week_median": -46.22,
+   "week_p10": -53.49,
+   "week_p90": -37.88,
+   "week_share_negative": 100.0,
+   "week_share_off_20pt": 100.0,
+   "month_median": -46.21,
+   "month_p10": -49.97,
+   "month_p90": -42.12,
+   "month_share_negative": 100.0,
+   "month_share_off_20pt": 100.0
+  },
+  "L7_②同じ日付・同じ日数前": {
+   "ratio_of_sums": 4.91,
+   "zero_denominator": 0,
+   "median": 6.25,
+   "p10": -39.53,
+   "p90": 80.0,
+   "share_negative": 42.39,
+   "share_off_20pt": 65.03,
+   "week_median": 4.91,
+   "week_p10": -10.56,
+   "week_p90": 23.38,
+   "week_share_negative": 34.48,
+   "week_share_off_20pt": 13.08,
+   "month_median": 4.86,
+   "month_p10": -3.28,
+   "month_p90": 13.78,
+   "month_share_negative": 22.56,
+   "month_share_off_20pt": 0.33
+  },
+  "L7_③同じ曜日・同じ日数前": {
+   "ratio_of_sums": 5.02,
+   "zero_denominator": 0,
+   "median": 5.26,
+   "p10": -33.33,
+   "p90": 66.67,
+   "share_negative": 41.66,
+   "share_off_20pt": 57.22,
+   "week_median": 5.13,
+   "week_p10": -10.49,
+   "week_p90": 23.4,
+   "week_share_negative": 33.94,
+   "week_share_off_20pt": 13.21,
+   "month_median": 4.91,
+   "month_p10": -2.85,
+   "month_p90": 13.62,
+   "month_share_negative": 21.5,
+   "month_share_off_20pt": 0.38
+  },
+  "L14_①同じ日付・前年の最終": {
+   "ratio_of_sums": -72.39,
+   "zero_denominator": 0,
+   "median": -72.48,
+   "p10": -85.29,
+   "p90": -53.33,
+   "share_negative": 99.95,
+   "share_off_20pt": 99.83,
+   "week_median": -72.4,
+   "week_p10": -76.92,
+   "week_p90": -67.39,
+   "week_share_negative": 100.0,
+   "week_share_off_20pt": 100.0,
+   "month_median": -72.42,
+   "month_p10": -74.64,
+   "month_p90": -70.04,
+   "month_share_negative": 100.0,
+   "month_share_off_20pt": 100.0
+  },
+  "L14_②同じ日付・同じ日数前": {
+   "ratio_of_sums": 4.84,
+   "zero_denominator": 16,
+   "median": 6.67,
+   "p10": -46.67,
+   "p90": 100.0,
+   "share_negative": 42.39,
+   "share_off_20pt": 70.46,
+   "week_median": 4.98,
+   "week_p10": -15.22,
+   "week_p90": 29.49,
+   "week_share_negative": 36.97,
+   "week_share_off_20pt": 24.13,
+   "month_median": 4.72,
+   "month_p10": -5.31,
+   "month_p90": 16.33,
+   "month_share_negative": 27.21,
+   "month_share_off_20pt": 1.69
+  },
+  "L14_③同じ曜日・同じ日数前": {
+   "ratio_of_sums": 4.94,
+   "zero_denominator": 16,
+   "median": 5.56,
+   "p10": -42.86,
+   "p90": 100.0,
+   "share_negative": 41.66,
+   "share_off_20pt": 66.42,
+   "week_median": 5.06,
+   "week_p10": -15.12,
+   "week_p90": 29.69,
+   "week_share_negative": 36.78,
+   "week_share_off_20pt": 24.32,
+   "month_median": 4.87,
+   "month_p10": -5.18,
+   "month_p90": 16.26,
+   "month_share_negative": 27.04,
+   "month_share_off_20pt": 1.85
+  }
+ },
+ "leap_L7": {
+  "①同じ日付・前年の最終": {
+   "ratio_of_sums": -46.09,
+   "zero_denominator": 0,
+   "median": -44.83,
+   "p10": -73.02,
+   "p90": 0.0,
+   "share_negative": 89.0,
+   "share_off_20pt": 83.1,
+   "week_share_off_20pt": 100.0,
+   "month_share_off_20pt": 100.0
+  },
+  "②同じ日付・同じ日数前": {
+   "ratio_of_sums": 5.05,
+   "zero_denominator": 0,
+   "median": 7.41,
+   "p10": -48.28,
+   "p90": 106.67,
+   "share_negative": 43.62,
+   "share_off_20pt": 74.22,
+   "week_share_off_20pt": 12.6,
+   "month_share_off_20pt": 0.35
+  },
+  "③同じ曜日・同じ日数前": {
+   "ratio_of_sums": 5.17,
+   "zero_denominator": 0,
+   "median": 5.56,
+   "p10": -33.33,
+   "p90": 66.67,
+   "share_negative": 41.48,
+   "share_off_20pt": 57.42,
+   "week_share_off_20pt": 13.03,
+   "month_share_off_20pt": 0.23
+  }
+ },
+ "grid": {
+  "n_cases": 108,
+  "method1_ratio_of_sums": [
+   -92.63,
+   -18.26
+  ],
+  "method1_max_abs_minus_formula_pt": 0.25,
+  "method1_month_share_off_20pt": [
+   95.33,
+   100.0
+  ],
+  "method2_weekday_min": [
+   -70.58,
+   -3.0
+  ],
+  "method2_weekday_max": [
+   8.69,
+   156.24
+  ],
+  "method3_weekday_min": [
+   -9.38,
+   12.5
+  ],
+  "method3_weekday_max": [
+   -2.09,
+   20.99
+  ],
+  "method2_weekday_minus_growth_pt": [
+   -79.33,
+   141.24
+  ],
+  "method3_weekday_minus_growth_pt": [
+   -5.02,
+   5.99
+  ],
+  "method2_share_off_20pt": [
+   50.82,
+   87.83
+  ],
+  "method3_share_off_20pt": [
+   48.88,
+   80.13
+  ],
+  "method2_minus_method3_share_off_20pt": [
+   0.01,
+   33.97
+  ],
+  "growth_up_method2_share_negative": [
+   30.93,
+   44.51
+  ],
+  "growth_up_method3_share_negative": [
+   29.94,
+   42.54
+  ],
+  "method2_week_share_off_20pt": [
+   5.92,
+   54.9
+  ],
+  "method3_week_share_off_20pt": [
+   6.07,
+   54.65
+  ],
+  "method2_month_share_off_20pt": [
+   0.0,
+   22.71
+  ],
+  "method3_month_share_off_20pt": [
+   0.02,
+   21.96
+  ],
+  "ratio_of_sums_method2_minus_growth_pt": [
+   -0.48,
+   0.32
+  ],
+  "ratio_of_sums_method3_minus_growth_pt": [
+   -0.47,
+   0.46
+  ]
+ },
+ "noise_method3_L7": {
+  "share_negative": [
+   39.16,
+   43.35
+  ],
+  "share_off_20pt": [
+   37.07,
+   70.82
+  ],
+  "week_share_off_20pt": [
+   1.5,
+   32.48
+  ],
+  "month_share_off_20pt": [
+   0.0,
+   4.08
+  ]
+ }
+}

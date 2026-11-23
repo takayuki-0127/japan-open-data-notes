@@ -1,0 +1,5 @@
+weeks,zero_slots,zero_share,late_among_zero,bottom_among_zero,middle_among_zero,top_among_zero,bottom_among_zero_regular,bottom_among_zero_late,flag_precision_count,flag_precision_per_day,flag_late_share_count,flag_late_share_per_day
+1,8337,14.89,67.83,61.09,26.35,12.56,85.53,49.5,56.8,64.16,54.53,30.3
+2,3440,6.14,83.66,67.06,24.1,8.84,97.33,61.15,59.23,71.83,59.06,28.23
+4,1059,1.89,94.52,75.45,21.25,3.31,100.0,74.03,60.26,78.07,62.02,27.86
+8,220,0.39,97.27,87.27,12.27,0.45,100.0,86.92,60.15,83.82,63.83,25.72

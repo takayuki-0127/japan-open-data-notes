@@ -1,0 +1,165 @@
+{
+ "setting": {
+  "capacity": 10,
+  "cancel": 0.15,
+  "timing": [
+   0.5,
+   0.3,
+   0.2
+  ],
+  "accept": [
+   0.6,
+   0.4,
+   0.2
+  ],
+  "limit": [
+   null,
+   3,
+   1
+  ],
+  "n_sim": 100000
+ },
+ "mean_cancel_formula": 1.5,
+ "ceiling_formula": 77.52,
+ "ceiling_by_timing_formula": {
+  "3日以上前": 100.0,
+  "前日": 78.4,
+  "当日": 20.0
+ },
+ "ceiling_sim_W1000": 77.36,
+ "by_waitlist": {
+  "1": {
+   "refill_share": 27.43,
+   "all_refilled_sessions": 19.81,
+   "seated_share_of_waitlist": 41.15,
+   "empty_mean": 1.088,
+   "contacts_mean": 0.802,
+   "refill_share_early": 42.98,
+   "refill_share_daybefore": 15.94,
+   "refill_share_sameday": 5.42
+  },
+  "2": {
+   "refill_share": 46.53,
+   "all_refilled_sessions": 35.36,
+   "seated_share_of_waitlist": 34.83,
+   "empty_mean": 0.8,
+   "contacts_mean": 1.387,
+   "refill_share_early": 68.54,
+   "refill_share_daybefore": 34.35,
+   "refill_share_sameday": 9.76
+  },
+  "3": {
+   "refill_share": 59.55,
+   "all_refilled_sessions": 47.26,
+   "seated_share_of_waitlist": 29.7,
+   "empty_mean": 0.605,
+   "contacts_mean": 1.797,
+   "refill_share_early": 83.37,
+   "refill_share_daybefore": 50.7,
+   "refill_share_sameday": 13.19
+  },
+  "5": {
+   "refill_share": 71.59,
+   "all_refilled_sessions": 58.12,
+   "seated_share_of_waitlist": 21.61,
+   "empty_mean": 0.429,
+   "contacts_mean": 2.246,
+   "refill_share_early": 95.22,
+   "refill_share_daybefore": 68.41,
+   "refill_share_sameday": 17.34
+  },
+  "8": {
+   "refill_share": 76.51,
+   "all_refilled_sessions": 62.81,
+   "seated_share_of_waitlist": 14.38,
+   "empty_mean": 0.353,
+   "contacts_mean": 2.41,
+   "refill_share_early": 99.4,
+   "refill_share_daybefore": 76.5,
+   "refill_share_sameday": 19.54
+  },
+  "10": {
+   "refill_share": 77.2,
+   "all_refilled_sessions": 63.54,
+   "seated_share_of_waitlist": 11.58,
+   "empty_mean": 0.342,
+   "contacts_mean": 2.43,
+   "refill_share_early": 99.84,
+   "refill_share_daybefore": 77.81,
+   "refill_share_sameday": 19.53
+  },
+  "15": {
+   "refill_share": 77.44,
+   "all_refilled_sessions": 63.72,
+   "seated_share_of_waitlist": 7.74,
+   "empty_mean": 0.338,
+   "contacts_mean": 2.434,
+   "refill_share_early": 99.99,
+   "refill_share_daybefore": 78.32,
+   "refill_share_sameday": 19.93
+  },
+  "20": {
+   "refill_share": 77.38,
+   "all_refilled_sessions": 63.68,
+   "seated_share_of_waitlist": 5.79,
+   "empty_mean": 0.339,
+   "contacts_mean": 2.425,
+   "refill_share_early": 100.0,
+   "refill_share_daybefore": 78.26,
+   "refill_share_sameday": 19.78
+  },
+  "1000": {
+   "refill_share": 77.36,
+   "all_refilled_sessions": 63.56,
+   "seated_share_of_waitlist": 0.12,
+   "empty_mean": 0.339,
+   "contacts_mean": 2.42,
+   "refill_share_early": 100.0,
+   "refill_share_daybefore": 78.27,
+   "refill_share_sameday": 19.83
+  }
+ },
+ "target_90pct_of_ceiling": 69.77,
+ "need_90pct_of_ceiling": 5,
+ "seated_share_at_need90": 21.61,
+ "naive_W_equal_mean_cancel": 2,
+ "refill_at_naive": 46.53,
+ "refill_at_naive_over_ceiling": 60.02,
+ "mean_cancel_sim": 1.501,
+ "one_run_w2_1000": {
+  "sessions_with_cancel": 806,
+  "cancelled": 1485,
+  "refilled": 704,
+  "empty_seats": 781
+ },
+ "grid_range": {
+  "ceiling_formula": [
+   53.84,
+   91.1
+  ],
+  "max_abs_sim_minus_formula_ceiling_pt": 0.51,
+  "refill_at_naive": [
+   17.98,
+   70.64
+  ],
+  "refill_at_naive_over_ceiling": [
+   27.8,
+   78.48
+  ],
+  "need_90pct_of_ceiling": [
+   3,
+   11
+  ],
+  "need_not_reached_within_20": 0,
+  "need_over_mean_cancel": [
+   2.0,
+   8.75
+  ],
+  "seated_share_at_need90": [
+   6.71,
+   43.05
+  ],
+  "need_gt_mean_cancel_all": true,
+  "n_cases": 27
+ }
+}

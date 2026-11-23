@@ -1,0 +1,53 @@
+{
+ "sessions": 12000,
+ "capacity": 24,
+ "setting": {
+  "dem_lo": 16,
+  "dem_hi": 32,
+  "late": 0.3,
+  "cancel": 0.15,
+  "noshow": 0.05,
+  "walkin": 0.5,
+  "early_mean_h": 96.0,
+  "lead_max_h": 720.0,
+  "cutoffs_h": [
+   72,
+   24,
+   3,
+   1
+  ]
+ },
+ "fill_jump_72_to_1_pt": 40.63,
+ "seated_jump_72_to_1_pt": 13.39,
+ "fill_jump_24_to_1_pt": 17.52,
+ "seated_jump_24_to_1_pt": 5.88,
+ "max_abs_before_share_vs_formula_pt": 0.14,
+ "grid": {
+  "fill_jump_72_to_1_pt_min": 20.89,
+  "fill_jump_72_to_1_pt_max": 56.04,
+  "seated_jump_72_to_1_pt_min": -13.79,
+  "seated_jump_72_to_1_pt_max": 52.87,
+  "gap_72_pt_min": 2.1,
+  "gap_72_pt_max": 11.2,
+  "gap_1_pt_min": 3.87,
+  "gap_1_pt_max": 5.42,
+  "max_abs_before_share_vs_formula_pt_min": 0.06,
+  "max_abs_before_share_vs_formula_pt_max": 0.92,
+  "n_fill_jump_bigger_than_seated_jump": 22,
+  "n_gap72_bigger_than_gap1": 15,
+  "walkin0_fill_jump_min": 20.89,
+  "walkin0_fill_jump_max": 55.24,
+  "walkin0_seated_jump_min": 27.75,
+  "walkin0_seated_jump_max": 52.87,
+  "walkin50_fill_jump_min": 21.07,
+  "walkin50_fill_jump_max": 55.26,
+  "walkin50_seated_jump_min": 6.19,
+  "walkin50_seated_jump_max": 19.6,
+  "walkin90_fill_jump_min": 21.84,
+  "walkin90_fill_jump_max": 56.04,
+  "walkin90_seated_jump_min": -13.79,
+  "walkin90_seated_jump_max": -1.13,
+  "n": 27,
+  "sessions_each": 800
+ }
+}
