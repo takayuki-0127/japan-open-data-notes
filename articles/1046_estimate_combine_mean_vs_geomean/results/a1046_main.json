@@ -1,0 +1,261 @@
+{
+ "headline": {
+  "am_within15_pct": 59.24,
+  "gm_within15_pct": 64.81,
+  "md_within15_pct": 59.87,
+  "one_within15_pct": 40.43,
+  "am_within2_pct": 84.25,
+  "gm_within2_pct": 88.98,
+  "md_within2_pct": 85.02,
+  "one_within2_pct": 63.54,
+  "am_median_value": 1.2,
+  "gm_median_value": 1.0,
+  "md_median_value": 1.0,
+  "am_times_off": 1.39,
+  "gm_times_off": 1.34,
+  "md_times_off": 1.39,
+  "one_times_off": 1.67,
+  "one_median_abs_diff": 0.482,
+  "gm_minus_am_base_pt": 5.57,
+  "am_median_abs_diff": 0.337,
+  "gm_median_abs_diff": 0.287,
+  "am_mean_abs_diff": 0.5,
+  "gm_mean_abs_diff": 0.368,
+  "am_mean_value": 1.334,
+  "gm_mean_value": 1.097,
+  "add_am_within15_pct": 73.82,
+  "add_gm_within15_pct": 61.21,
+  "add_md_within15_pct": 69.19,
+  "add_am_median_value": 1.0,
+  "add_gm_median_value": 0.88,
+  "digit_am_within15_pct": 50.21,
+  "digit_gm_within15_pct": 57.79,
+  "digit_md_within15_pct": 57.76,
+  "digit_am_median_value": 1.3,
+  "ceiling_common_bias_within15_pct": 82.38,
+  "grid_gm_beats_am_n": 17,
+  "grid_log_gm_beats_am_n": 9,
+  "grid_add_gm_beats_am_n": 0,
+  "grid_digit_gm_beats_am_n": 8,
+  "grid_log_gap_min_pt": 0.35,
+  "grid_log_gap_max_pt": 26.14,
+  "grid_add_gap_min_pt": -20.03,
+  "grid_add_gap_max_pt": -1.2,
+  "grid_digit_gap_min_pt": -1.92,
+  "grid_digit_gap_max_pt": 27.57,
+  "grid_best_ratio_counts": {
+   "幾何平均": 12,
+   "普通の平均": 9,
+   "中央値": 6
+  },
+  "grid_best_diff_counts": {
+   "幾何平均": 13,
+   "普通の平均": 9,
+   "中央値": 5
+  },
+  "grid_digit_md_best_n": 6,
+  "grid_digit_md_beats_gm_n": 6,
+  "grid_best_ratio_differs_from_diff_n": 1
+ },
+ "formula": {
+  "lognormal_am_bias": 1.278,
+  "lognormal_am_bias_k5_median_approx_note": "人数が多いと普通の平均は exp(σ²/2) 倍に近づく",
+  "am_median_value_k100": 1.273,
+  "within15_log": 0.4055
+ },
+ "by_model": {
+  "対数": {
+   "普通の平均": {
+    "within15": 0.5924,
+    "within2": 0.8426,
+    "median_times_off": 1.3925,
+    "median_value": 1.1995,
+    "mean_value": 1.3343,
+    "median_abs_diff": 0.3367,
+    "mean_abs_diff": 0.4995
+   },
+   "幾何平均": {
+    "within15": 0.6481,
+    "within2": 0.8898,
+    "median_times_off": 1.3407,
+    "median_value": 1.0001,
+    "mean_value": 1.0971,
+    "median_abs_diff": 0.2869,
+    "mean_abs_diff": 0.3685
+   },
+   "中央値": {
+    "within15": 0.5987,
+    "within2": 0.8502,
+    "median_times_off": 1.3866,
+    "median_value": 0.9957,
+    "mean_value": 1.1188,
+    "median_abs_diff": 0.316,
+    "mean_abs_diff": 0.4148
+   }
+  },
+  "足し算": {
+   "普通の平均": {
+    "within15": 0.7382,
+    "within2": 0.9234,
+    "median_times_off": 1.2748,
+    "median_value": 1.0033,
+    "mean_value": 1.0125,
+    "median_abs_diff": 0.2439,
+    "mean_abs_diff": 0.2851
+   },
+   "幾何平均": {
+    "within15": 0.6121,
+    "within2": 0.8036,
+    "median_times_off": 1.3603,
+    "median_value": 0.879,
+    "mean_value": 0.884,
+    "median_abs_diff": 0.3025,
+    "mean_abs_diff": 0.3397
+   },
+   "中央値": {
+    "within15": 0.6919,
+    "within2": 0.8889,
+    "median_times_off": 1.3076,
+    "median_value": 1.0009,
+    "mean_value": 1.0015,
+    "median_abs_diff": 0.2705,
+    "mean_abs_diff": 0.3187
+   }
+  },
+  "対数＋桁違い": {
+   "普通の平均": {
+    "within15": 0.5021,
+    "within2": 0.7287,
+    "median_times_off": 1.4968,
+    "median_value": 1.3037,
+    "mean_value": 1.7668,
+    "median_abs_diff": 0.4148,
+    "mean_abs_diff": 0.9225
+   },
+   "幾何平均": {
+    "within15": 0.5779,
+    "within2": 0.8215,
+    "median_times_off": 1.4045,
+    "median_value": 0.9982,
+    "mean_value": 1.1455,
+    "median_abs_diff": 0.3291,
+    "mean_abs_diff": 0.4511
+   },
+   "中央値": {
+    "within15": 0.5776,
+    "within2": 0.8255,
+    "median_times_off": 1.4067,
+    "median_value": 1.0024,
+    "mean_value": 1.1466,
+    "median_abs_diff": 0.3301,
+    "mean_abs_diff": 0.4504
+   }
+  }
+ },
+ "by_people": [
+  {
+   "k": 1,
+   "普通の平均_within15_pct": 40.43,
+   "普通の平均_median_value": 1.002,
+   "幾何平均_within15_pct": 40.43,
+   "幾何平均_median_value": 1.002
+  },
+  {
+   "k": 2,
+   "普通の平均_within15_pct": 49.49,
+   "普通の平均_median_value": 1.115,
+   "幾何平均_within15_pct": 51.67,
+   "幾何平均_median_value": 1.001
+  },
+  {
+   "k": 3,
+   "普通の平均_within15_pct": 54.19,
+   "普通の平均_median_value": 1.161,
+   "幾何平均_within15_pct": 58.03,
+   "幾何平均_median_value": 1.001
+  },
+  {
+   "k": 5,
+   "普通の平均_within15_pct": 59.24,
+   "普通の平均_median_value": 1.199,
+   "幾何平均_within15_pct": 64.81,
+   "幾何平均_median_value": 1.0
+  },
+  {
+   "k": 10,
+   "普通の平均_within15_pct": 63.94,
+   "普通の平均_median_value": 1.237,
+   "幾何平均_within15_pct": 72.4,
+   "幾何平均_median_value": 0.999
+  },
+  {
+   "k": 30,
+   "普通の平均_within15_pct": 66.8,
+   "普通の平均_median_value": 1.263,
+   "幾何平均_within15_pct": 78.57,
+   "幾何平均_median_value": 0.999
+  },
+  {
+   "k": 100,
+   "普通の平均_within15_pct": 68.07,
+   "普通の平均_median_value": 1.273,
+   "幾何平均_within15_pct": 81.26,
+   "幾何平均_median_value": 0.999
+  }
+ ],
+ "base_methods": {
+  "普通の平均": {
+   "within15": 0.5924,
+   "within2": 0.8426,
+   "median_times_off": 1.3925,
+   "median_value": 1.1995,
+   "mean_value": 1.3343,
+   "median_abs_diff": 0.3367,
+   "mean_abs_diff": 0.4995
+  },
+  "幾何平均": {
+   "within15": 0.6481,
+   "within2": 0.8898,
+   "median_times_off": 1.3407,
+   "median_value": 1.0001,
+   "mean_value": 1.0971,
+   "median_abs_diff": 0.2869,
+   "mean_abs_diff": 0.3685
+  },
+  "中央値": {
+   "within15": 0.5987,
+   "within2": 0.8502,
+   "median_times_off": 1.3866,
+   "median_value": 0.9957,
+   "mean_value": 1.1188,
+   "median_abs_diff": 0.316,
+   "mean_abs_diff": 0.4148
+  },
+  "1人": {
+   "within15": 0.4043,
+   "within2": 0.6354,
+   "median_times_off": 1.6734,
+   "median_value": 1.002,
+   "mean_value": 1.3414,
+   "median_abs_diff": 0.4821,
+   "mean_abs_diff": 0.7448
+  }
+ },
+ "constants": {
+  "model": "対数",
+  "sigma": 0.7,
+  "k": 5,
+  "tau": 0.3,
+  "within_ratio": 1.5,
+  "within_lower": 0.67,
+  "true_count_min": 1000,
+  "true_count_max": 1000000,
+  "data_rows": 2000,
+  "sigma_additive_base": 0.5,
+  "p_digit_error": 0.08,
+  "digit_factor": 10,
+  "n_group": 40000,
+  "n_group_grid": 20000
+ },
+ "grid_n": 27
+}

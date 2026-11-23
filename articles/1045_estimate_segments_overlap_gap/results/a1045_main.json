@@ -1,0 +1,206 @@
+{
+ "headline": {
+  "true_users_mean": 1795.1,
+  "true_users_share_pct": 17.95,
+  "A_exact_mean": 1.84,
+  "A_survey_mean": 1.84,
+  "A_survey_p10": 1.72,
+  "A_survey_p90": 1.97,
+  "overlap_pct": 95.13,
+  "gap_pct": 10.77,
+  "formula_A_exact": 1.8435,
+  "A_exact_mean_4": 1.8435,
+  "users_mean_k": 1.84,
+  "none_share_pct": 37.07,
+  "multi_share_pct": 31.75,
+  "size_sum_over_N": 1.1,
+  "B_survey_mean": 1.94,
+  "C_survey_mean": 1.0,
+  "C_survey_p10": 0.92,
+  "C_survey_p90": 1.08,
+  "fig_once_1dp": 89.2,
+  "fig_overlap_1dp": 95.1,
+  "fig_gap_1dp": 10.8,
+  "grid_A_min": 0.75,
+  "grid_A_max": 3.17,
+  "grid_overlap_min_pct": 12.64,
+  "grid_overlap_max_pct": 222.2,
+  "grid_gap_min_pct": 2.25,
+  "grid_gap_max_pct": 37.35,
+  "grid_C_min": 0.99,
+  "grid_C_max": 1.02,
+  "grid_B_min": 1.13,
+  "grid_B_max": 3.2,
+  "grid_cancel_n": 3,
+  "grid_within10_n": 3,
+  "A_minus_1": 0.84,
+  "grid_size_sum_min": 0.55,
+  "grid_size_sum_max": 1.45,
+  "grid_A_over_size_sum_corr": 0.896,
+  "grid_users_k_minus_size_sum_min": 0.2,
+  "grid_users_k_minus_size_sum_max": 1.72
+ },
+ "cancel_cases": [
+  {
+   "n_seg": 2,
+   "rho": 0.3,
+   "p0": 0.02,
+   "A_exact": 0.9974,
+   "A_survey": 0.9929,
+   "A_survey_p10": 0.9008,
+   "A_survey_p90": 1.0947,
+   "B_survey": 1.2412,
+   "C_survey": 1.0039,
+   "C_survey_p10": 0.9007,
+   "C_survey_p90": 1.1421,
+   "overlap_pct": 25.56,
+   "gap_pct": 25.82,
+   "size_sum_over_N": 0.5502,
+   "users_mean_k": 0.9974
+  },
+  {
+   "n_seg": 2,
+   "rho": 0.3,
+   "p0": 0.04,
+   "A_exact": 0.9451,
+   "A_survey": 0.9495,
+   "A_survey_p10": 0.8515,
+   "A_survey_p90": 1.0426,
+   "B_survey": 1.238,
+   "C_survey": 1.0196,
+   "C_survey_p10": 0.908,
+   "C_survey_p90": 1.1375,
+   "overlap_pct": 23.93,
+   "gap_pct": 29.42,
+   "size_sum_over_N": 0.5496,
+   "users_mean_k": 0.9451
+  },
+  {
+   "n_seg": 2,
+   "rho": 0.6,
+   "p0": 0.08,
+   "A_exact": 1.0108,
+   "A_survey": 1.0096,
+   "A_survey_p10": 0.9293,
+   "A_survey_p90": 1.0997,
+   "B_survey": 1.3473,
+   "C_survey": 0.9967,
+   "C_survey_p10": 0.916,
+   "C_survey_p90": 1.1023,
+   "overlap_pct": 33.11,
+   "gap_pct": 32.02,
+   "size_sum_over_N": 0.5489,
+   "users_mean_k": 1.0108
+  }
+ ],
+ "methods": [
+  {
+   "method": "①区分ごとに足す（割合は正しく分かっている）",
+   "mean": 1.84,
+   "p10": 1.81,
+   "p90": 1.88
+  },
+  {
+   "method": "②区分ごとに足す（割合は200世帯に聞いて出す）",
+   "mean": 1.84,
+   "p10": 1.72,
+   "p90": 1.97
+  },
+  {
+   "method": "③②に「どこにも入らない」区分を足す",
+   "mean": 1.94,
+   "p10": 1.8,
+   "p90": 2.1
+  },
+  {
+   "method": "④重ならないように1つの区分にだけ入れる＋どこにも入らない区分",
+   "mean": 1.0,
+   "p10": 0.92,
+   "p90": 1.08
+  }
+ ],
+ "by_n_segments": [
+  {
+   "n_seg": 1,
+   "A_exact": 0.5205,
+   "overlap_pct": 0.0,
+   "gap_pct": 47.95,
+   "size_sum_over_N": 0.2992,
+   "users_mean_k": 0.5205
+  },
+  {
+   "n_seg": 2,
+   "A_exact": 0.9465,
+   "overlap_pct": 23.88,
+   "gap_pct": 29.23,
+   "size_sum_over_N": 0.5495,
+   "users_mean_k": 0.9465
+  },
+  {
+   "n_seg": 3,
+   "A_exact": 1.4727,
+   "overlap_pct": 63.03,
+   "gap_pct": 15.76,
+   "size_sum_over_N": 0.9009,
+   "users_mean_k": 1.4727
+  },
+  {
+   "n_seg": 4,
+   "A_exact": 1.8471,
+   "overlap_pct": 95.36,
+   "gap_pct": 10.65,
+   "size_sum_over_N": 1.0973,
+   "users_mean_k": 1.8471
+  },
+  {
+   "n_seg": 5,
+   "A_exact": 2.1634,
+   "overlap_pct": 124.92,
+   "gap_pct": 8.57,
+   "size_sum_over_N": 1.3001,
+   "users_mean_k": 2.1634
+  },
+  {
+   "n_seg": 6,
+   "A_exact": 2.4318,
+   "overlap_pct": 150.09,
+   "gap_pct": 6.91,
+   "size_sum_over_N": 1.4485,
+   "users_mean_k": 2.4318
+  }
+ ],
+ "constants": {
+  "households": 10000,
+  "segments": [
+   "車を持たない",
+   "在宅で働く人がいる",
+   "集合住宅の3階以上",
+   "近くにスーパーがない",
+   "ペットがいる",
+   "週末にまとめて料理する"
+  ],
+  "prevalence": [
+   0.3,
+   0.25,
+   0.35,
+   0.2,
+   0.2,
+   0.15
+  ],
+  "lift": [
+   0.15,
+   0.12,
+   0.08,
+   0.15,
+   0.06,
+   0.1
+  ],
+  "n_seg": 4,
+  "rho": 0.3,
+  "p0": 0.04,
+  "n_survey": 200,
+  "n_town": 200,
+  "n_town_grid": 60
+ },
+ "grid_n": 27
+}

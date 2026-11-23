@@ -1,0 +1,305 @@
+{
+ "factors": [
+  {
+   "name": "人口",
+   "true": 30000
+  },
+  {
+   "name": "1÷世帯の人数",
+   "true": 0.4
+  },
+  {
+   "name": "1世帯のエアコンの台数",
+   "true": 2.0
+  },
+  {
+   "name": "1台を年に業者に頼む割合",
+   "true": 0.1
+  },
+  {
+   "name": "町内の店を選ぶ割合",
+   "true": 0.5
+  },
+  {
+   "name": "1÷1件で掃除する台数",
+   "true": 0.625
+  }
+ ],
+ "true_answer": 750.0,
+ "big_factor": "1台を年に業者に頼む割合",
+ "base_setting_b": {
+  "p": 0.1,
+  "s": 0.25,
+  "k": 6,
+  "big_lo": 3.0,
+  "big_hi": 12.0
+ },
+ "n": 200000,
+ "note": "見込み＝本当の値×exp(誤差)。②の誤差＝s×正規の乱数＋（確率 p で）±log(3〜12倍の一様)",
+ "headline": {
+  "M3_s0_within2x_pct": 0.0,
+  "M3_s02_within2x_pct": 18.37,
+  "M3_s02_median_ratio": 2.996,
+  "M3_s02_p10_ratio": 1.689,
+  "M3_s02_p90_ratio": 5.332,
+  "M2_s0_within2x_pct": 100.0,
+  "M2_s02_within2x_pct": 49.99,
+  "M10_s03_within2x_pct": 0.82,
+  "b_as_is_within2x_pct": 44.92,
+  "b_half_small_within2x_pct": 55.85,
+  "b_no_small_within2x_pct": 56.99,
+  "b_no_big_within2x_pct": 74.11,
+  "b_share_with_big_pct": 46.77,
+  "b_share_with_big_formula_pct": 46.86,
+  "b_far_with_big_pct": 90.32,
+  "b_within2x_given_big_pct": 11.62,
+  "b_within2x_given_nobig_pct": 74.19,
+  "b_as_is_beyond3x_pct": 40.14,
+  "b_no_small_beyond3x_pct": 41.86
+ },
+ "grid_summary": {
+  "n": 27,
+  "rows_no_big_beats_no_small": 18,
+  "rows_no_small_beats_no_big": [
+   {
+    "p": 0.03,
+    "s": 0.25,
+    "k": 4
+   },
+   {
+    "p": 0.03,
+    "s": 0.25,
+    "k": 6
+   },
+   {
+    "p": 0.03,
+    "s": 0.25,
+    "k": 8
+   },
+   {
+    "p": 0.03,
+    "s": 0.4,
+    "k": 4
+   },
+   {
+    "p": 0.03,
+    "s": 0.4,
+    "k": 6
+   },
+   {
+    "p": 0.03,
+    "s": 0.4,
+    "k": 8
+   },
+   {
+    "p": 0.1,
+    "s": 0.4,
+    "k": 4
+   },
+   {
+    "p": 0.1,
+    "s": 0.4,
+    "k": 6
+   },
+   {
+    "p": 0.1,
+    "s": 0.4,
+    "k": 8
+   }
+  ],
+  "rows_no_small_below_as_is": 0,
+  "rows_no_small_below_as_is_detail": [],
+  "gain_no_big_min_pt": 5.45,
+  "gain_no_big_max_pt": 61.59,
+  "gain_no_small_min_pt": 0.73,
+  "gain_no_small_max_pt": 39.77,
+  "far_with_big_min": 0.3666,
+  "far_with_big_max": 0.9997,
+  "p01_rows_far_with_big_min": 0.7058,
+  "p01_rows_far_with_big_max": 0.9995
+ },
+ "fixes_base": {
+  "as_is": {
+   "within2x": 0.4492,
+   "beyond3x": 0.4014,
+   "median_miss": 2.2439
+  },
+  "half_small": {
+   "within2x": 0.5585,
+   "beyond3x": 0.389,
+   "median_miss": 1.6264
+  },
+  "no_small": {
+   "within2x": 0.5699,
+   "beyond3x": 0.4186,
+   "median_miss": 1.0
+  },
+  "no_big": {
+   "within2x": 0.7411,
+   "beyond3x": 0.0732,
+   "median_miss": 1.513
+  }
+ },
+ "one_factor_off": [
+  {
+   "M": 1.5,
+   "s_others": 0.0,
+   "within2x": 1.0,
+   "median_ratio": 1.5,
+   "p10_ratio": 1.5,
+   "p90_ratio": 1.5
+  },
+  {
+   "M": 1.5,
+   "s_others": 0.1,
+   "within2x": 0.9024,
+   "median_ratio": 1.4988,
+   "p10_ratio": 1.1248,
+   "p90_ratio": 1.9941
+  },
+  {
+   "M": 1.5,
+   "s_others": 0.2,
+   "within2x": 0.7349,
+   "median_ratio": 1.496,
+   "p10_ratio": 0.8437,
+   "p90_ratio": 2.6579
+  },
+  {
+   "M": 1.5,
+   "s_others": 0.3,
+   "within2x": 0.6143,
+   "median_ratio": 1.4993,
+   "p10_ratio": 0.634,
+   "p90_ratio": 3.5348
+  },
+  {
+   "M": 2.0,
+   "s_others": 0.0,
+   "within2x": 1.0,
+   "median_ratio": 2.0,
+   "p10_ratio": 2.0,
+   "p90_ratio": 2.0
+  },
+  {
+   "M": 2.0,
+   "s_others": 0.1,
+   "within2x": 0.5011,
+   "median_ratio": 1.9989,
+   "p10_ratio": 1.5033,
+   "p90_ratio": 2.6633
+  },
+  {
+   "M": 2.0,
+   "s_others": 0.2,
+   "within2x": 0.4999,
+   "median_ratio": 1.9983,
+   "p10_ratio": 1.1287,
+   "p90_ratio": 3.5541
+  },
+  {
+   "M": 2.0,
+   "s_others": 0.3,
+   "within2x": 0.4797,
+   "median_ratio": 2.0033,
+   "p10_ratio": 0.8487,
+   "p90_ratio": 4.7182
+  },
+  {
+   "M": 3.0,
+   "s_others": 0.0,
+   "within2x": 0.0,
+   "median_ratio": 3.0,
+   "p10_ratio": 3.0,
+   "p90_ratio": 3.0
+  },
+  {
+   "M": 3.0,
+   "s_others": 0.1,
+   "within2x": 0.0354,
+   "median_ratio": 3.0025,
+   "p10_ratio": 2.2515,
+   "p90_ratio": 3.9971
+  },
+  {
+   "M": 3.0,
+   "s_others": 0.2,
+   "within2x": 0.1837,
+   "median_ratio": 2.996,
+   "p10_ratio": 1.6886,
+   "p90_ratio": 5.3317
+  },
+  {
+   "M": 3.0,
+   "s_others": 0.3,
+   "within2x": 0.2706,
+   "median_ratio": 2.9971,
+   "p10_ratio": 1.2656,
+   "p90_ratio": 7.1018
+  },
+  {
+   "M": 5.0,
+   "s_others": 0.0,
+   "within2x": 0.0,
+   "median_ratio": 5.0,
+   "p10_ratio": 5.0,
+   "p90_ratio": 5.0
+  },
+  {
+   "M": 5.0,
+   "s_others": 0.1,
+   "within2x": 0.0,
+   "median_ratio": 5.0015,
+   "p10_ratio": 3.752,
+   "p90_ratio": 6.6662
+  },
+  {
+   "M": 5.0,
+   "s_others": 0.2,
+   "within2x": 0.0203,
+   "median_ratio": 5.0006,
+   "p10_ratio": 2.8143,
+   "p90_ratio": 8.8403
+  },
+  {
+   "M": 5.0,
+   "s_others": 0.3,
+   "within2x": 0.0866,
+   "median_ratio": 5.0073,
+   "p10_ratio": 2.1089,
+   "p90_ratio": 11.7934
+  },
+  {
+   "M": 10.0,
+   "s_others": 0.0,
+   "within2x": 0.0,
+   "median_ratio": 10.0,
+   "p10_ratio": 10.0,
+   "p90_ratio": 10.0
+  },
+  {
+   "M": 10.0,
+   "s_others": 0.1,
+   "within2x": 0.0,
+   "median_ratio": 10.0059,
+   "p10_ratio": 7.5035,
+   "p90_ratio": 13.3422
+  },
+  {
+   "M": 10.0,
+   "s_others": 0.2,
+   "within2x": 0.0002,
+   "median_ratio": 10.005,
+   "p10_ratio": 5.6428,
+   "p90_ratio": 17.734
+  },
+  {
+   "M": 10.0,
+   "s_others": 0.3,
+   "within2x": 0.0082,
+   "median_ratio": 10.0125,
+   "p10_ratio": 4.2256,
+   "p90_ratio": 23.6085
+  }
+ ]
+}

@@ -1,0 +1,443 @@
+{
+ "base_setting": {
+  "med_visits": 2.0,
+  "sd_visits": 0.8,
+  "med_items": 1.5,
+  "sd_items": 0.5,
+  "rho": 0.0
+ },
+ "n_households": 4000,
+ "persons_dist": {
+  "1": 0.3,
+  "2": 0.3,
+  "3": 0.18,
+  "4": 0.15,
+  "5": 0.05,
+  "6": 0.02
+ },
+ "tolerance_factor": 1.2,
+ "reps": 5000,
+ "full_town": {
+  "base": {
+   "mean_each": 1.011,
+   "median_each": 0.5357,
+   "mean_of_product": 1.0,
+   "median_of_product": 0.5651,
+   "true_total": 543765.7066,
+   "median_over_mean_each": [
+    0.8287,
+    0.7275,
+    0.879
+   ]
+  },
+  "rho0.4": {
+   "mean_each": 0.8504,
+   "median_each": 0.4487,
+   "mean_of_product": 1.0,
+   "median_of_product": 0.4879,
+   "true_total": 662250.3716,
+   "median_over_mean_each": [
+    0.8218,
+    0.7268,
+    0.8835
+   ]
+  }
+ },
+ "formula": {
+  "persons_mean": 2.41,
+  "persons_median": 2,
+  "visits_median_over_mean": 0.7261,
+  "items_median_over_mean": 0.8825,
+  "persons_median_over_mean": 0.8299,
+  "median_each_ratio_independent": 0.5318,
+  "mean_each_ratio_rho04": 0.8521
+ },
+ "headline": {
+  "true_total": 543766,
+  "median_each_ratio": 0.536,
+  "mean_each_ratio": 1.011,
+  "median_of_product_ratio": 0.565,
+  "median_each_formula": 0.532,
+  "rho04_mean_each_ratio": 0.85,
+  "rho04_median_each_ratio": 0.449,
+  "n30_within_mean_each_pct": 58.8,
+  "n30_within_median_each_pct": 7.0,
+  "n30_within_mean_of_product_pct": 52.4,
+  "n10_within_mean_each_pct": 38.62,
+  "n10_within_median_each_pct": 15.0,
+  "n300_within_mean_each_pct": 99.16,
+  "n300_within_median_each_pct": 0.0,
+  "n10_mean_each_under_pct": 56.06,
+  "n10_mean_each_median_ratio": 0.947
+ },
+ "grid_summary": {
+  "n_settings": 9,
+  "n_rows": 27,
+  "full_median_each_min": 0.257,
+  "full_median_each_max": 0.68,
+  "full_mean_each_min": 0.704,
+  "full_mean_each_max": 1.006,
+  "rows_median_beats_mean": 0,
+  "rows_product_beats_mean_each": 14,
+  "rows_product_beats_mean_each_rho0": 0,
+  "rows_rho0": 9,
+  "rows_product_beats_mean_each_n100_rho_pos": 6,
+  "rows_n100_rho_pos": 6,
+  "within_median_each_max": 0.229,
+  "rows_median_beats_mean_detail": []
+ },
+ "survey_by_n": [
+  {
+   "case": "base",
+   "method_name": "①要素ごとの平均を掛ける",
+   "n": 10,
+   "method": "mean_each",
+   "median_ratio": 0.9473,
+   "p10_ratio": 0.5923,
+   "p90_ratio": 1.5085,
+   "within_tol": 0.3862,
+   "under_share": 0.5606
+  },
+  {
+   "case": "base",
+   "method_name": "②要素ごとの中央値を掛ける",
+   "n": 10,
+   "method": "median_each",
+   "median_ratio": 0.5752,
+   "p10_ratio": 0.3328,
+   "p90_ratio": 1.0037,
+   "within_tol": 0.15,
+   "under_share": 0.8986
+  },
+  {
+   "case": "base",
+   "method_name": "③世帯ごとに掛けてから平均",
+   "n": 10,
+   "method": "mean_of_product",
+   "median_ratio": 0.9094,
+   "p10_ratio": 0.5496,
+   "p90_ratio": 1.5381,
+   "within_tol": 0.3372,
+   "under_share": 0.593
+  },
+  {
+   "case": "base",
+   "method_name": "④世帯ごとに掛けてから中央値",
+   "n": 10,
+   "method": "median_of_product",
+   "median_ratio": 0.574,
+   "p10_ratio": 0.3391,
+   "p90_ratio": 0.9556,
+   "within_tol": 0.14,
+   "under_share": 0.9158
+  },
+  {
+   "case": "base",
+   "method_name": "①要素ごとの平均を掛ける",
+   "n": 30,
+   "method": "mean_each",
+   "median_ratio": 0.9883,
+   "p10_ratio": 0.745,
+   "p90_ratio": 1.3204,
+   "within_tol": 0.588,
+   "under_share": 0.5226
+  },
+  {
+   "case": "base",
+   "method_name": "②要素ごとの中央値を掛ける",
+   "n": 30,
+   "method": "median_each",
+   "median_ratio": 0.5611,
+   "p10_ratio": 0.4123,
+   "p90_ratio": 0.7928,
+   "within_tol": 0.07,
+   "under_share": 0.981
+  },
+  {
+   "case": "base",
+   "method_name": "③世帯ごとに掛けてから平均",
+   "n": 30,
+   "method": "mean_of_product",
+   "median_ratio": 0.964,
+   "p10_ratio": 0.7067,
+   "p90_ratio": 1.35,
+   "within_tol": 0.524,
+   "under_share": 0.5622
+  },
+  {
+   "case": "base",
+   "method_name": "④世帯ごとに掛けてから中央値",
+   "n": 30,
+   "method": "median_of_product",
+   "median_ratio": 0.5635,
+   "p10_ratio": 0.4059,
+   "p90_ratio": 0.7817,
+   "within_tol": 0.0612,
+   "under_share": 0.9884
+  },
+  {
+   "case": "base",
+   "method_name": "①要素ごとの平均を掛ける",
+   "n": 100,
+   "method": "mean_each",
+   "median_ratio": 1.0067,
+   "p10_ratio": 0.8658,
+   "p90_ratio": 1.1657,
+   "within_tol": 0.8776,
+   "under_share": 0.4796
+  },
+  {
+   "case": "base",
+   "method_name": "②要素ごとの中央値を掛ける",
+   "n": 100,
+   "method": "median_each",
+   "median_ratio": 0.5391,
+   "p10_ratio": 0.4639,
+   "p90_ratio": 0.6344,
+   "within_tol": 0.0086,
+   "under_share": 0.9996
+  },
+  {
+   "case": "base",
+   "method_name": "③世帯ごとに掛けてから平均",
+   "n": 100,
+   "method": "mean_of_product",
+   "median_ratio": 0.9899,
+   "p10_ratio": 0.833,
+   "p90_ratio": 1.1814,
+   "within_tol": 0.8188,
+   "under_share": 0.5272
+  },
+  {
+   "case": "base",
+   "method_name": "④世帯ごとに掛けてから中央値",
+   "n": 100,
+   "method": "median_of_product",
+   "median_ratio": 0.5675,
+   "p10_ratio": 0.4711,
+   "p90_ratio": 0.6787,
+   "within_tol": 0.0028,
+   "under_share": 1.0
+  },
+  {
+   "case": "base",
+   "method_name": "①要素ごとの平均を掛ける",
+   "n": 300,
+   "method": "mean_each",
+   "median_ratio": 1.0088,
+   "p10_ratio": 0.9263,
+   "p90_ratio": 1.0991,
+   "within_tol": 0.9916,
+   "under_share": 0.4438
+  },
+  {
+   "case": "base",
+   "method_name": "②要素ごとの中央値を掛ける",
+   "n": 300,
+   "method": "median_each",
+   "median_ratio": 0.5365,
+   "p10_ratio": 0.4929,
+   "p90_ratio": 0.5824,
+   "within_tol": 0.0,
+   "under_share": 1.0
+  },
+  {
+   "case": "base",
+   "method_name": "③世帯ごとに掛けてから平均",
+   "n": 300,
+   "method": "mean_of_product",
+   "median_ratio": 0.9967,
+   "p10_ratio": 0.9019,
+   "p90_ratio": 1.1065,
+   "within_tol": 0.9772,
+   "under_share": 0.5152
+  },
+  {
+   "case": "base",
+   "method_name": "④世帯ごとに掛けてから中央値",
+   "n": 300,
+   "method": "median_of_product",
+   "median_ratio": 0.5641,
+   "p10_ratio": 0.5099,
+   "p90_ratio": 0.6293,
+   "within_tol": 0.0,
+   "under_share": 1.0
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "①要素ごとの平均を掛ける",
+   "n": 10,
+   "method": "mean_each",
+   "median_ratio": 0.7876,
+   "p10_ratio": 0.4535,
+   "p90_ratio": 1.375,
+   "within_tol": 0.2806,
+   "under_share": 0.7162
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "②要素ごとの中央値を掛ける",
+   "n": 10,
+   "method": "median_each",
+   "median_ratio": 0.4969,
+   "p10_ratio": 0.2598,
+   "p90_ratio": 0.917,
+   "within_tol": 0.1052,
+   "under_share": 0.9316
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "③世帯ごとに掛けてから平均",
+   "n": 10,
+   "method": "mean_of_product",
+   "median_ratio": 0.8522,
+   "p10_ratio": 0.4705,
+   "p90_ratio": 1.6482,
+   "within_tol": 0.2664,
+   "under_share": 0.6204
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "④世帯ごとに掛けてから中央値",
+   "n": 10,
+   "method": "median_of_product",
+   "median_ratio": 0.4911,
+   "p10_ratio": 0.2601,
+   "p90_ratio": 0.8904,
+   "within_tol": 0.098,
+   "under_share": 0.9368
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "①要素ごとの平均を掛ける",
+   "n": 30,
+   "method": "mean_each",
+   "median_ratio": 0.8275,
+   "p10_ratio": 0.6099,
+   "p90_ratio": 1.1346,
+   "within_tol": 0.421,
+   "under_share": 0.7788
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "②要素ごとの中央値を掛ける",
+   "n": 30,
+   "method": "median_each",
+   "median_ratio": 0.4734,
+   "p10_ratio": 0.3336,
+   "p90_ratio": 0.6896,
+   "within_tol": 0.0304,
+   "under_share": 0.9916
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "③世帯ごとに掛けてから平均",
+   "n": 30,
+   "method": "mean_of_product",
+   "median_ratio": 0.9413,
+   "p10_ratio": 0.6649,
+   "p90_ratio": 1.4075,
+   "within_tol": 0.4662,
+   "under_share": 0.5836
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "④世帯ごとに掛けてから中央値",
+   "n": 30,
+   "method": "median_of_product",
+   "median_ratio": 0.4867,
+   "p10_ratio": 0.3282,
+   "p90_ratio": 0.6838,
+   "within_tol": 0.0216,
+   "under_share": 0.9972
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "①要素ごとの平均を掛ける",
+   "n": 100,
+   "method": "mean_each",
+   "median_ratio": 0.846,
+   "p10_ratio": 0.7076,
+   "p90_ratio": 1.0035,
+   "within_tol": 0.5368,
+   "under_share": 0.8942
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "②要素ごとの中央値を掛ける",
+   "n": 100,
+   "method": "median_each",
+   "median_ratio": 0.4528,
+   "p10_ratio": 0.3779,
+   "p90_ratio": 0.5482,
+   "within_tol": 0.0022,
+   "under_share": 0.9998
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "③世帯ごとに掛けてから平均",
+   "n": 100,
+   "method": "mean_of_product",
+   "median_ratio": 0.9816,
+   "p10_ratio": 0.7926,
+   "p90_ratio": 1.2405,
+   "within_tol": 0.701,
+   "under_share": 0.5394
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "④世帯ごとに掛けてから中央値",
+   "n": 100,
+   "method": "median_of_product",
+   "median_ratio": 0.4873,
+   "p10_ratio": 0.3889,
+   "p90_ratio": 0.5842,
+   "within_tol": 0.0002,
+   "under_share": 1.0
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "①要素ごとの平均を掛ける",
+   "n": 300,
+   "method": "mean_each",
+   "median_ratio": 0.8472,
+   "p10_ratio": 0.7664,
+   "p90_ratio": 0.9353,
+   "within_tol": 0.5818,
+   "under_share": 0.983
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "②要素ごとの中央値を掛ける",
+   "n": 300,
+   "method": "median_each",
+   "median_ratio": 0.4477,
+   "p10_ratio": 0.4058,
+   "p90_ratio": 0.4946,
+   "within_tol": 0.0,
+   "under_share": 1.0
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "③世帯ごとに掛けてから平均",
+   "n": 300,
+   "method": "mean_of_product",
+   "median_ratio": 0.9917,
+   "p10_ratio": 0.8727,
+   "p90_ratio": 1.1319,
+   "within_tol": 0.924,
+   "under_share": 0.5276
+  },
+  {
+   "case": "rho0.4",
+   "method_name": "④世帯ごとに掛けてから中央値",
+   "n": 300,
+   "method": "median_of_product",
+   "median_ratio": 0.4873,
+   "p10_ratio": 0.4295,
+   "p90_ratio": 0.5429,
+   "within_tol": 0.0,
+   "under_share": 1.0
+  }
+ ]
+}
