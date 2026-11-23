@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 811本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 835本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -13,17 +13,17 @@
 | 予測・時系列 | 141 |
 | 因果推論・効果検証 | 68 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 331 |
+| 統計の考え方（検定・区間・回帰） | 332 |
 | 機械学習・モデル評価 | 104 |
 | 顧客分析・生存分析 | 75 |
 | SQL・データ処理 | 95 |
 | Excel | 12 |
 | 集計の定義・KPI | 174 |
-| 可視化・報告・BI | 46 |
+| 可視化・報告・BI | 47 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 21 |
-| 再現性・振り返り | 95 |
-| その他（記述・要因分解など） | 491 |
+| 再現性・振り返り | 97 |
+| その他（記述・要因分解など） | 511 |
 
 <details><summary><b>予測・時系列</b>（141本）</summary>
 
@@ -282,7 +282,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（331本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（332本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -617,6 +617,7 @@
 | 1073 | チーム戦の勝ち負けから、1人ひとりの強さはどこまで分かるのか？ | [1073_rating_team_games_individual](articles/1073_rating_team_games_individual) |
 | 1076 | 総当たりでない対戦の記録から、順位はどこまで決められるのか？ | [1076_rating_partial_schedule_rank](articles/1076_rating_partial_schedule_rank) |
 | 1082 | 似た人どうしがつながっているのは、影響しあったからか、もとから似ていたからか？ | [1082_network_similar_influence_or_selection](articles/1082_network_similar_influence_or_selection) |
+| 1097 | ストーリーポイントで数えた「速さ」は、チームどうしで比べられるのか？ | [1097_story_points_team_velocity](articles/1097_story_points_team_velocity) |
 
 </details>
 
@@ -1115,7 +1116,7 @@
 
 </details>
 
-<details><summary><b>可視化・報告・BI</b>（46本）</summary>
+<details><summary><b>可視化・報告・BI</b>（47本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1165,6 +1166,7 @@
 | 815 | 円グラフと棒グラフで、割合の読み取りの誤差はどれだけ違うのか？ | [815_graph_pie_vs_bar_error](articles/815_graph_pie_vs_bar_error) |
 | 816 | 累積のグラフは、伸びが止まっても右肩上がりに見えるのか？ | [816_graph_cumulative_still_rising](articles/816_graph_cumulative_still_rising) |
 | 822 | 積み上げ棒グラフで、真ん中の項目の増減は読めるのか？ | [822_graph_stacked_middle_item](articles/822_graph_stacked_middle_item) |
+| 1089 | 見つかったバグが減ったのは、品質が上がったからか、テストが減ったからか？ | [1089_bugs_fewer_found_quality_or_testing](articles/1089_bugs_fewer_found_quality_or_testing) |
 
 </details>
 
@@ -1276,7 +1278,7 @@
 
 </details>
 
-<details><summary><b>再現性・振り返り</b>（95本）</summary>
+<details><summary><b>再現性・振り返り</b>（97本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1375,10 +1377,12 @@
 | 427 | 「2025/1/5」「R7.1.5」「20250105」が混ざった日付の列は、機械に読ませると何件が別の日になるのか？ | [427_mixed_date_formats](articles/427_mixed_date_formats) |
 | 957 | 単語の数え方（区切り方）で、多い言葉の順位は変わるのか？ | [957_text_word_split_rank](articles/957_text_word_split_rank) |
 | 966 | 表記ゆれ（全角・半角・言い換え）をそろえると、数はどれだけ動くのか？ | [966_text_notation_variants_merge](articles/966_text_notation_variants_merge) |
+| 1091 | ときどき落ちるテストを再実行で通すと、本当の不具合を何%見逃すのか？ | [1091_tests_flaky_rerun_miss](articles/1091_tests_flaky_rerun_miss) |
+| 1100 | テストを先に書いた機能にバグが少ないのは、書き方の効果か、機能の選ばれ方か？ | [1100_bugs_test_first_selection](articles/1100_bugs_test_first_selection) |
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（491本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（511本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1873,6 +1877,26 @@
 | 1085 | 何か月分の記録でつながりを数えるかで、顔ぶれはどう変わるのか？ | [1085_network_window_months_central](articles/1085_network_window_months_central) |
 | 1087 | 1人が抜けると、全体のつながりはどれだけ切れるのか？ | [1087_network_one_leaves_cut](articles/1087_network_one_leaves_cut) |
 | 1088 | 新しい道具の使い始めは、まわりの何人が使えば広がるのか？ | [1088_network_adoption_how_many](articles/1088_network_adoption_how_many) |
+| 1090 | カバレッジ80%のテストで、埋めこんだバグはどれだけ見つかるのか？ | [1090_tests_coverage_seeded_bugs](articles/1090_tests_coverage_seeded_bugs) |
+| 1092 | 千行あたりのバグ数で、チームどうしを比べてよいのか？ | [1092_bugs_per_kloc_team_compare](articles/1092_bugs_per_kloc_team_compare) |
+| 1093 | バグの見つかり方の曲線から、残りのバグの数はどこまで読めるのか？ | [1093_bugs_found_curve_remaining](articles/1093_bugs_found_curve_remaining) |
+| 1094 | 深刻度の分け方で、「重大なバグ」の件数はどれだけ変わるのか？ | [1094_bugs_severity_rule_count](articles/1094_bugs_severity_rule_count) |
+| 1095 | リリースを細かく分けると、1回あたりの障害は減って見えるのか？ | [1095_release_split_incidents_per_release](articles/1095_release_split_incidents_per_release) |
+| 1096 | 変更の多いファイルほどバグが多いのは、変更のせいか、ファイルの大きさのせいか？ | [1096_change_count_vs_file_size](articles/1096_change_count_vs_file_size) |
+| 1098 | 直したあとに別の所が壊れる率は、何で割るかでどう変わるのか？ | [1098_bugs_regression_rate_denominator](articles/1098_bugs_regression_rate_denominator) |
+| 1099 | 自動テストで見つかるバグと、人が触って見つかるバグは、同じ種類なのか？ | [1099_bugs_auto_vs_manual_kinds](articles/1099_bugs_auto_vs_manual_kinds) |
+| 1101 | 条件を1つずつ変える試し方で、いちばん良い組み合わせは見つかるのか？ | [1101_trial_one_at_a_time_best](articles/1101_trial_one_at_a_time_best) |
+| 1102 | 試す順番を決めて並べると、時間とともに変わる分はどうまざるのか？ | [1102_trial_run_order_drift](articles/1102_trial_run_order_drift) |
+| 1103 | 同じ日の分をまとめて比べると、ばらつきはどれだけ減るのか？ | [1103_trial_same_day_blocks](articles/1103_trial_same_day_blocks) |
+| 1104 | 条件の数を増やして繰り返しを減らすと、何を見落とすのか？ | [1104_trial_more_conditions_fewer_repeats](articles/1104_trial_more_conditions_fewer_repeats) |
+| 1105 | どの条件か知っている人が仕上がりを見ると、差はどれだけ大きく出るのか？ | [1105_trial_grader_knows_condition](articles/1105_trial_grader_knows_condition) |
+| 1106 | 両端の2つの条件だけを試すと、真ん中の山を見落とすのか？ | [1106_trial_two_ends_miss_peak](articles/1106_trial_two_ends_miss_peak) |
+| 1107 | 組み合わせの半分だけを試すと、何と何の効き目が見分けられなくなるのか？ | [1107_trial_half_combos_alias](articles/1107_trial_half_combos_alias) |
+| 1108 | 良い方へ少しずつ条件を動かしていくと、いちばん良い所に着くのか？ | [1108_trial_step_uphill_local_peak](articles/1108_trial_step_uphill_local_peak) |
+| 1109 | 効き目が試す場所によって違うとき、1か所の結果はどこまで当てはまるのか？ | [1109_trial_one_site_transfer](articles/1109_trial_one_site_transfer) |
+| 1110 | 2つの条件を別々に試した効き目を足して見込むと、組み合わせたときとどれだけずれるのか？ | [1110_trial_add_two_effects_gap](articles/1110_trial_add_two_effects_gap) |
+| 1111 | 条件の刻み（5度ごと・10度ごと）で、良い条件の見つかり方はどう変わるのか？ | [1111_trial_step_size_best_setting](articles/1111_trial_step_size_best_setting) |
+| 1112 | 前の試作の残りが次の結果にまざると、何がずれるのか？ | [1112_trial_carryover_previous_run](articles/1112_trial_carryover_previous_run) |
 
 </details>
 
@@ -1885,7 +1909,7 @@
 | EC・会員・Web | 103 |
 | マーケティング・広告 | 28 |
 | 需要予測・在庫 | 31 |
-| 業務の集計・報告 | 138 |
+| 業務の集計・報告 | 139 |
 | 作業時間・処理件数 | 6 |
 | 保険 | 72 |
 | 公的統計・地域・人口 | 435 |
@@ -2305,7 +2329,7 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（138本）</summary>
+<details><summary><b>業務の集計・報告</b>（139本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2447,6 +2471,7 @@
 | 999 | 会員の来場だけで、全体の傾向は読めるのか？ | [999_visitors_members_only_trend](articles/999_visitors_members_only_trend) |
 | 1007 | 基準の年を変えると、指数の伸びはどう見えるのか？ | [1007_index_base_year_growth](articles/1007_index_base_year_growth) |
 | 1025 | 予約を締め切る時刻で、埋まり具合の見え方は変わるのか？ | [1025_booking_cutoff_time_fill](articles/1025_booking_cutoff_time_fill) |
+| 1089 | 見つかったバグが減ったのは、品質が上がったからか、テストが減ったからか？ | [1089_bugs_fewer_found_quality_or_testing](articles/1089_bugs_fewer_found_quality_or_testing) |
 
 </details>
 
