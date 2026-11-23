@@ -1,0 +1,303 @@
+{
+ "setup": {
+  "median_section_min": 3.0,
+  "sigma_section": 0.25,
+  "sigma_common": 0.1,
+  "sched_section_min": 3.2,
+  "ontime_tol_min": 1.0,
+  "trips": 100000,
+  "max_sections": 30,
+  "mean_section_min_formula": 3.1107
+ },
+ "mean_section_min_data": 3.1098,
+ "p1_ontime_pct": 89.43,
+ "by_sections": [
+  {
+   "k": 1,
+   "p_end_ontime_pct": 89.43,
+   "p_all_stops_ontime_pct": 89.43,
+   "p_stops_avg_ontime_pct": 89.43,
+   "product_p1_pow_k_pct": 89.43,
+   "mean_end_delay_min": 0.295,
+   "p90_end_delay_min": 1.037
+  },
+  {
+   "k": 2,
+   "p_end_ontime_pct": 80.02,
+   "p_all_stops_ontime_pct": 77.09,
+   "p_stops_avg_ontime_pct": 84.72,
+   "product_p1_pow_k_pct": 79.97,
+   "mean_end_delay_min": 0.514,
+   "p90_end_delay_min": 1.624
+  },
+  {
+   "k": 3,
+   "p_end_ontime_pct": 73.27,
+   "p_all_stops_ontime_pct": 66.68,
+   "p_stops_avg_ontime_pct": 80.91,
+   "product_p1_pow_k_pct": 71.52,
+   "mean_end_delay_min": 0.694,
+   "p90_end_delay_min": 2.102
+  },
+  {
+   "k": 5,
+   "p_end_ontime_pct": 65.03,
+   "p_all_stops_ontime_pct": 51.57,
+   "p_stops_avg_ontime_pct": 75.27,
+   "product_p1_pow_k_pct": 57.2,
+   "mean_end_delay_min": 1.001,
+   "p90_end_delay_min": 2.933
+  },
+  {
+   "k": 8,
+   "p_end_ontime_pct": 58.19,
+   "p_all_stops_ontime_pct": 37.0,
+   "p_stops_avg_ontime_pct": 69.57,
+   "product_p1_pow_k_pct": 40.91,
+   "mean_end_delay_min": 1.401,
+   "p90_end_delay_min": 4.054
+  },
+  {
+   "k": 10,
+   "p_end_ontime_pct": 55.58,
+   "p_all_stops_ontime_pct": 30.62,
+   "p_stops_avg_ontime_pct": 66.89,
+   "product_p1_pow_k_pct": 32.71,
+   "mean_end_delay_min": 1.642,
+   "p90_end_delay_min": 4.766
+  },
+  {
+   "k": 15,
+   "p_end_ontime_pct": 51.3,
+   "p_all_stops_ontime_pct": 20.34,
+   "p_stops_avg_ontime_pct": 62.19,
+   "product_p1_pow_k_pct": 18.71,
+   "mean_end_delay_min": 2.213,
+   "p90_end_delay_min": 6.472
+  },
+  {
+   "k": 20,
+   "p_end_ontime_pct": 48.96,
+   "p_all_stops_ontime_pct": 14.44,
+   "p_stops_avg_ontime_pct": 59.07,
+   "product_p1_pow_k_pct": 10.7,
+   "mean_end_delay_min": 2.739,
+   "p90_end_delay_min": 8.117
+  },
+  {
+   "k": 25,
+   "p_end_ontime_pct": 47.46,
+   "p_all_stops_ontime_pct": 10.71,
+   "p_stops_avg_ontime_pct": 56.87,
+   "product_p1_pow_k_pct": 6.12,
+   "mean_end_delay_min": 3.252,
+   "p90_end_delay_min": 9.786
+  },
+  {
+   "k": 30,
+   "p_end_ontime_pct": 46.45,
+   "p_all_stops_ontime_pct": 8.28,
+   "p_stops_avg_ontime_pct": 55.2,
+   "product_p1_pow_k_pct": 3.5,
+   "mean_end_delay_min": 3.747,
+   "p90_end_delay_min": 11.446
+  }
+ ],
+ "k10": {
+  "p_end_ontime_pct": 55.58,
+  "p_all_stops_ontime_pct": 30.62,
+  "p_stops_avg_ontime_pct": 66.89,
+  "product_p1_pow_k_pct": 32.71,
+  "mean_end_delay_min": 1.642,
+  "p90_end_delay_min": 4.766
+ },
+ "k30": {
+  "p_end_ontime_pct": 46.45,
+  "p_all_stops_ontime_pct": 8.28,
+  "p_stops_avg_ontime_pct": 55.2,
+  "product_p1_pow_k_pct": 3.5,
+  "mean_end_delay_min": 3.747,
+  "p90_end_delay_min": 11.446
+ },
+ "k10_avg_minus_all_pts": 36.27,
+ "sensitivity": [
+  {
+   "change": "基本",
+   "value": "3.2分・振れ0.25・共通0.10",
+   "p1_pct": 89.42,
+   "sched_minus_mean_min": 0.089,
+   "end10_pct": 55.32,
+   "all10_pct": 30.5,
+   "prod10_pct": 32.7,
+   "avg10_pct": 66.76,
+   "end30_pct": 46.3,
+   "all30_pct": 8.39,
+   "prod30_pct": 3.5,
+   "mean_end30_delay_min": 3.786
+  },
+  {
+   "change": "時刻表の1区間の時間（分）",
+   "value": 3.0,
+   "p1_pct": 85.83,
+   "sched_minus_mean_min": -0.11,
+   "end10_pct": 38.24,
+   "all10_pct": 18.97,
+   "prod10_pct": 21.71,
+   "avg10_pct": 53.9,
+   "end30_pct": 27.54,
+   "all30_pct": 3.7,
+   "prod30_pct": 1.02,
+   "mean_end30_delay_min": 6.658
+  },
+  {
+   "change": "時刻表の1区間の時間（分）",
+   "value": 3.1,
+   "p1_pct": 87.91,
+   "sched_minus_mean_min": -0.007,
+   "end10_pct": 46.94,
+   "all10_pct": 24.51,
+   "prod10_pct": 27.56,
+   "avg10_pct": 60.82,
+   "end30_pct": 36.93,
+   "all30_pct": 5.72,
+   "prod30_pct": 2.09,
+   "mean_end30_delay_min": 5.009
+  },
+  {
+   "change": "時刻表の1区間の時間（分）",
+   "value": 3.4,
+   "p1_pct": 92.33,
+   "sched_minus_mean_min": 0.288,
+   "end10_pct": 69.78,
+   "all10_pct": 42.63,
+   "prod10_pct": 45.01,
+   "avg10_pct": 77.37,
+   "end30_pct": 64.12,
+   "all30_pct": 15.78,
+   "prod30_pct": 9.12,
+   "mean_end30_delay_min": 1.952
+  },
+  {
+   "change": "時刻表の1区間の時間（分）",
+   "value": 3.6,
+   "p1_pct": 94.4,
+   "sched_minus_mean_min": 0.489,
+   "end10_pct": 80.88,
+   "all10_pct": 54.52,
+   "prod10_pct": 56.18,
+   "avg10_pct": 85.17,
+   "end30_pct": 77.77,
+   "all30_pct": 25.13,
+   "prod30_pct": 17.73,
+   "mean_end30_delay_min": 0.983
+  },
+  {
+   "change": "区間ごとの振れ（対数の標準偏差）",
+   "value": 0.15,
+   "p1_pct": 97.16,
+   "sched_minus_mean_min": 0.15,
+   "end10_pct": 71.48,
+   "all10_pct": 60.51,
+   "prod10_pct": 74.93,
+   "avg10_pct": 80.69,
+   "end30_pct": 64.13,
+   "all30_pct": 40.43,
+   "prod30_pct": 42.07,
+   "mean_end30_delay_min": 2.36
+  },
+  {
+   "change": "区間ごとの振れ（対数の標準偏差）",
+   "value": 0.4,
+   "p1_pct": 79.29,
+   "sched_minus_mean_min": -0.063,
+   "end10_pct": 36.05,
+   "all10_pct": 10.25,
+   "prod10_pct": 9.82,
+   "avg10_pct": 50.03,
+   "end30_pct": 24.81,
+   "all30_pct": 0.47,
+   "prod30_pct": 0.09,
+   "mean_end30_delay_min": 7.508
+  },
+  {
+   "change": "便に共通の振れ（対数の標準偏差）",
+   "value": 0.0,
+   "p1_pct": 91.28,
+   "sched_minus_mean_min": 0.105,
+   "end10_pct": 59.02,
+   "all10_pct": 25.77,
+   "prod10_pct": 40.17,
+   "avg10_pct": 70.73,
+   "end30_pct": 46.94,
+   "all30_pct": 1.43,
+   "prod30_pct": 6.48,
+   "mean_end30_delay_min": 1.777
+  },
+  {
+   "change": "便に共通の振れ（対数の標準偏差）",
+   "value": 0.2,
+   "p1_pct": 85.39,
+   "sched_minus_mean_min": 0.042,
+   "end10_pct": 52.89,
+   "all10_pct": 36.4,
+   "prod10_pct": 20.6,
+   "avg10_pct": 62.67,
+   "end30_pct": 47.21,
+   "all30_pct": 18.96,
+   "prod30_pct": 0.87,
+   "mean_end30_delay_min": 7.698
+  },
+  {
+   "change": "早く着いても待たない（早発あり、前後1分以内を定時）",
+   "value": "早発あり",
+   "p1_pct": 77.03,
+   "sched_minus_mean_min": 0.089,
+   "end10_pct": 18.39,
+   "all10_pct": 1.87,
+   "prod10_pct": 7.36,
+   "avg10_pct": 35.66,
+   "end30_pct": 7.3,
+   "all30_pct": 0.0,
+   "prod30_pct": 0.04,
+   "mean_end30_delay_min": -2.661
+  }
+ ],
+ "sens_range_end30_pct": [
+  7.3,
+  77.77
+ ],
+ "sens_range_all10_pct": [
+  1.87,
+  60.51
+ ],
+ "sens_range_prod10_pct": [
+  7.36,
+  74.93
+ ],
+ "sens_all10_over_prod10_count": 2,
+ "sens_rows": 10,
+ "sens_hold_range_end10_pct": [
+  36.05,
+  80.88
+ ],
+ "sens_hold_range_end30_pct": [
+  24.81,
+  77.77
+ ],
+ "sens_hold_range_all10_pct": [
+  10.25,
+  60.51
+ ],
+ "sens_hold_range_all30_pct": [
+  0.47,
+  40.43
+ ],
+ "sens_hold_range_p1_pct": [
+  79.29,
+  97.16
+ ],
+ "sens_hold_all30_over_prod30_count": 7,
+ "sens_hold_all10_over_prod10_count": 2,
+ "sens_hold_rows": 9,
+ "base_cross_k_all_over_product": 15
+}

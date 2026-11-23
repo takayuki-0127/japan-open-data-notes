@@ -1,0 +1,249 @@
+{
+ "setup": {
+  "routes": [
+   "道A",
+   "道B",
+   "道C",
+   "道D"
+  ],
+  "true_mean_min": [
+   31.0,
+   30.0,
+   32.0,
+   33.0
+  ],
+  "noise_sd_min": [
+   1.5,
+   4.0,
+   2.5,
+   3.0
+  ],
+  "town_load_coef": [
+   3.0,
+   1.0,
+   2.0,
+   0.5
+  ],
+  "days_per_year": 250,
+  "years": 400,
+  "record_days": 10,
+  "strategy_names": [
+   "平均で最短の道に固定（本当の平均）",
+   "最初の10日の平均で選んで固定",
+   "前の日にいちばん速かった道",
+   "その日いちばん速い道（後から分かる）"
+  ]
+ },
+ "routes": [
+  {
+   "route": "道A",
+   "true_mean": 31.0,
+   "data_mean": 30.99,
+   "data_sd": 3.347,
+   "share_fastest_pct": 25.91,
+   "share_fastest_example_year_pct": 27.2
+  },
+  {
+   "route": "道B",
+   "true_mean": 30.0,
+   "data_mean": 29.997,
+   "data_sd": 4.113,
+   "share_fastest_pct": 46.95,
+   "share_fastest_example_year_pct": 48.4
+  },
+  {
+   "route": "道C",
+   "true_mean": 32.0,
+   "data_mean": 31.995,
+   "data_sd": 3.202,
+   "share_fastest_pct": 14.64,
+   "share_fastest_example_year_pct": 12.0
+  },
+  {
+   "route": "道D",
+   "true_mean": 33.0,
+   "data_mean": 33.003,
+   "data_sd": 3.034,
+   "share_fastest_pct": 12.51,
+   "share_fastest_example_year_pct": 12.4
+  }
+ ],
+ "best_true_route": "道B",
+ "share_best_route_fastest_pct": 46.95,
+ "share_best_route_not_fastest_pct": 53.05,
+ "same_fastest_as_yesterday_pct": 32.47,
+ "same_fastest_if_independent_formula_pct": 32.46,
+ "run_length_mean_days": 1.478,
+ "run_length_max_days": 15,
+ "share_run_1day_pct": 70.54,
+ "B_slower_than_best_other_by_5min_pct": 15.36,
+ "strategies_base": [
+  {
+   "strategy": "平均で最短の道に固定（本当の平均）",
+   "mean_min": 29.996,
+   "p90_min": 35.262,
+   "over_oracle_min": 1.987,
+   "share_over_5min": 15.31
+  },
+  {
+   "strategy": "最初の10日の平均で選んで固定",
+   "mean_min": 30.333,
+   "p90_min": 35.342,
+   "over_oracle_min": 2.324,
+   "share_over_5min": 18.26
+  },
+  {
+   "strategy": "前の日にいちばん速かった道",
+   "mean_min": 30.932,
+   "p90_min": 35.735,
+   "over_oracle_min": 2.923,
+   "share_over_5min": 24.25
+  },
+  {
+   "strategy": "その日いちばん速い道（後から分かる）",
+   "mean_min": 28.009,
+   "p90_min": 31.669,
+   "over_oracle_min": 0.0,
+   "share_over_5min": 0.0
+  }
+ ],
+ "record10_pick_share_pct": {
+  "道A": 23.25,
+  "道B": 72.0,
+  "道C": 3.75,
+  "道D": 1.0
+ },
+ "follow_minus_fixed_min": 0.936,
+ "rec_minus_fixed_min": 0.337,
+ "fixed_minus_oracle_min": 1.987,
+ "sensitivity": [
+  {
+   "change": "道ごとの振れが次の日に残る度合い",
+   "value": 0.0,
+   "share_B_fastest_pct": 46.73,
+   "same_as_yesterday_pct": 32.24,
+   "mean_0": 30.006,
+   "mean_1": 30.251,
+   "mean_2": 30.924,
+   "mean_3": 28.005,
+   "follow_minus_fixed_min": 0.918,
+   "rec_minus_fixed_min": 0.245
+  },
+  {
+   "change": "道ごとの振れが次の日に残る度合い",
+   "value": 0.5,
+   "share_B_fastest_pct": 46.4,
+   "same_as_yesterday_pct": 47.64,
+   "mean_0": 30.001,
+   "mean_1": 30.482,
+   "mean_2": 29.67,
+   "mean_3": 28.0,
+   "follow_minus_fixed_min": -0.331,
+   "rec_minus_fixed_min": 0.481
+  },
+  {
+   "change": "道ごとの振れが次の日に残る度合い",
+   "value": 0.8,
+   "share_B_fastest_pct": 46.03,
+   "same_as_yesterday_pct": 61.5,
+   "mean_0": 30.125,
+   "mean_1": 30.731,
+   "mean_2": 28.946,
+   "mean_3": 28.05,
+   "follow_minus_fixed_min": -1.179,
+   "rec_minus_fixed_min": 0.606
+  },
+  {
+   "change": "道ごとの振れが次の日に残る度合い",
+   "value": 0.95,
+   "share_B_fastest_pct": 47.12,
+   "same_as_yesterday_pct": 72.2,
+   "mean_0": 29.941,
+   "mean_1": 30.66,
+   "mean_2": 28.442,
+   "mean_3": 27.951,
+   "follow_minus_fixed_min": -1.499,
+   "rec_minus_fixed_min": 0.719
+  },
+  {
+   "change": "町全体の混み方が次の日に残る度合い",
+   "value": 0.5,
+   "share_B_fastest_pct": 46.91,
+   "same_as_yesterday_pct": 34.61,
+   "mean_0": 30.006,
+   "mean_1": 30.362,
+   "mean_2": 30.739,
+   "mean_3": 28.01,
+   "follow_minus_fixed_min": 0.733,
+   "rec_minus_fixed_min": 0.356
+  },
+  {
+   "change": "町全体の混み方が次の日に残る度合い",
+   "value": 0.9,
+   "share_B_fastest_pct": 46.81,
+   "same_as_yesterday_pct": 36.51,
+   "mean_0": 29.988,
+   "mean_1": 30.394,
+   "mean_2": 30.574,
+   "mean_3": 27.995,
+   "follow_minus_fixed_min": 0.586,
+   "rec_minus_fixed_min": 0.406
+  },
+  {
+   "change": "道ごとの振れの大きさ（倍）",
+   "value": 0.5,
+   "share_B_fastest_pct": 56.49,
+   "same_as_yesterday_pct": 42.29,
+   "mean_0": 29.992,
+   "mean_1": 30.172,
+   "mean_2": 30.61,
+   "mean_3": 29.144,
+   "follow_minus_fixed_min": 0.618,
+   "rec_minus_fixed_min": 0.18
+  },
+  {
+   "change": "道ごとの振れの大きさ（倍）",
+   "value": 2.0,
+   "share_B_fastest_pct": 40.14,
+   "same_as_yesterday_pct": 28.15,
+   "mean_0": 30.038,
+   "mean_1": 30.732,
+   "mean_2": 31.17,
+   "mean_3": 25.289,
+   "follow_minus_fixed_min": 1.132,
+   "rec_minus_fixed_min": 0.694
+  },
+  {
+   "change": "道Bの本当の平均（分、道Aは31分）",
+   "value": 28.0,
+   "share_B_fastest_pct": 64.06,
+   "same_as_yesterday_pct": 45.95,
+   "mean_0": 28.005,
+   "mean_1": 28.046,
+   "mean_2": 29.342,
+   "mean_3": 26.909,
+   "follow_minus_fixed_min": 1.337,
+   "rec_minus_fixed_min": 0.041
+  },
+  {
+   "change": "道Bの本当の平均（分、道Aは31分）",
+   "value": 30.8,
+   "share_B_fastest_pct": 39.79,
+   "same_as_yesterday_pct": 28.94,
+   "mean_0": 30.798,
+   "mean_1": 30.99,
+   "mean_2": 31.359,
+   "mean_3": 28.346,
+   "follow_minus_fixed_min": 0.561,
+   "rec_minus_fixed_min": 0.192
+  }
+ ],
+ "sens_range_share_B_fastest_pct": [
+  39.79,
+  64.06
+ ],
+ "sens_range_follow_minus_fixed_min": [
+  -1.499,
+  1.337
+ ]
+}

@@ -1,0 +1,5 @@
+route,true_mean,data_mean,data_sd,share_fastest_pct,share_fastest_example_year_pct
+道A,31.0,30.99,3.347,25.91,27.2
+道B,30.0,29.997,4.113,46.95,48.4
+道C,32.0,31.995,3.202,14.64,12.0
+道D,33.0,33.003,3.034,12.51,12.4

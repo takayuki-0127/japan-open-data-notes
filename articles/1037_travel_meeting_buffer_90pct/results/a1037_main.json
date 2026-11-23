@@ -1,0 +1,183 @@
+{
+ "base_setting": {
+  "headway": 10.0,
+  "p_delay": 0.05,
+  "bad_share": 0.15,
+  "p_delay_bad": 0.3,
+  "delay_mean": 8.0,
+  "shared": true
+ },
+ "n_big": 400000,
+ "base": {
+  "mean": 39.0655,
+  "sd": 4.9915,
+  "median": 38.6471,
+  "q90": 44.03,
+  "q95": 46.113,
+  "buffer90_over_mean": 4.9645,
+  "ontime_at_mean": 0.5389,
+  "ontime_at_median": 0.5,
+  "normal_rule_true_params": 0.9395,
+  "both_at_own_q90": 0.8175,
+  "joint90_threshold": 45.8829,
+  "joint90_buffer_over_mean": 6.8174,
+  "joint90_single_cov": 0.9468,
+  "extra_for_two": 1.8529,
+  "n10_q90_cov": 0.8371,
+  "n10_q90_lt80": 0.3131,
+  "n10_q90_buffer": 4.4839,
+  "n10_normal_cov": 0.8753,
+  "n10_normal_lt80": 0.192,
+  "n10_normal_buffer": 5.7967,
+  "n10_max_cov": 0.9089,
+  "n10_max_lt80": 0.1066,
+  "n10_max_buffer": 8.5783,
+  "n20_q90_cov": 0.8646,
+  "n20_q90_lt80": 0.1772,
+  "n20_q90_buffer": 4.6821,
+  "n20_normal_cov": 0.8983,
+  "n20_normal_lt80": 0.0884,
+  "n20_normal_buffer": 5.9995,
+  "n20_max_cov": 0.9523,
+  "n20_max_lt80": 0.0105,
+  "n20_max_buffer": 11.9178,
+  "n50_q90_cov": 0.8845,
+  "n50_q90_lt80": 0.0423,
+  "n50_q90_buffer": 4.8288,
+  "n50_normal_cov": 0.9179,
+  "n50_normal_lt80": 0.0135,
+  "n50_normal_buffer": 6.1913,
+  "n50_max_cov": 0.9804,
+  "n50_max_lt80": 0.0001,
+  "n50_max_buffer": 17.7649
+ },
+ "headline": {
+  "mean_min": 39.07,
+  "q90_min": 44.03,
+  "buffer90_over_mean_min": 4.96,
+  "ontime_at_mean_pct": 53.89,
+  "normal_rule_true_params_pct": 93.95,
+  "n10_q90_ontime_pct": 83.71,
+  "n10_q90_persons_below80_pct": 31.31,
+  "n10_max_ontime_pct": 90.89,
+  "both_at_own_q90_pct": 81.75,
+  "joint90_buffer_over_mean_min": 6.82,
+  "joint90_single_cov_pct": 94.68,
+  "extra_for_two_min": 1.85
+ },
+ "independent_bad_days": {
+  "mean": 39.062,
+  "q90": 44.0253,
+  "both_at_own_q90": 0.81,
+  "joint90_buffer_over_mean": 6.9562,
+  "joint90_single_cov": 0.9489,
+  "extra_for_two": 1.9928
+ },
+ "shared_minus_independent_both_pt": 0.75,
+ "constants": {
+  "walk1_mean_sd": [
+   8,
+   1.0
+  ],
+  "ride_min": 20,
+  "ride_log_sd": 0.08,
+  "bad_day_ride_factor": 1.1,
+  "walk2_mean_sd": [
+   5,
+   0.7
+  ],
+  "n_person_base": 20000,
+  "z90": 1.2815516
+ },
+ "formula": {
+  "order_stat_max_n10": 0.9091,
+  "order_stat_max_n20": 0.9524,
+  "order_stat_max_n50": 0.9804,
+  "independent_both": 0.81,
+  "independent_each_for_joint90": 0.9487
+ },
+ "rules_by_records": [
+  {
+   "records": 10,
+   "rule": "過去の90%点",
+   "mean_ontime": 0.8371,
+   "share_persons_below_80pct": 0.3131,
+   "mean_buffer_over_true_mean_min": 4.48
+  },
+  {
+   "records": 10,
+   "rule": "平均＋1.28×標準偏差",
+   "mean_ontime": 0.8753,
+   "share_persons_below_80pct": 0.192,
+   "mean_buffer_over_true_mean_min": 5.8
+  },
+  {
+   "records": 10,
+   "rule": "過去の最長",
+   "mean_ontime": 0.9089,
+   "share_persons_below_80pct": 0.1066,
+   "mean_buffer_over_true_mean_min": 8.58
+  },
+  {
+   "records": 20,
+   "rule": "過去の90%点",
+   "mean_ontime": 0.8646,
+   "share_persons_below_80pct": 0.1772,
+   "mean_buffer_over_true_mean_min": 4.68
+  },
+  {
+   "records": 20,
+   "rule": "平均＋1.28×標準偏差",
+   "mean_ontime": 0.8983,
+   "share_persons_below_80pct": 0.0884,
+   "mean_buffer_over_true_mean_min": 6.0
+  },
+  {
+   "records": 20,
+   "rule": "過去の最長",
+   "mean_ontime": 0.9523,
+   "share_persons_below_80pct": 0.0105,
+   "mean_buffer_over_true_mean_min": 11.92
+  },
+  {
+   "records": 50,
+   "rule": "過去の90%点",
+   "mean_ontime": 0.8845,
+   "share_persons_below_80pct": 0.0423,
+   "mean_buffer_over_true_mean_min": 4.83
+  },
+  {
+   "records": 50,
+   "rule": "平均＋1.28×標準偏差",
+   "mean_ontime": 0.9179,
+   "share_persons_below_80pct": 0.0135,
+   "mean_buffer_over_true_mean_min": 6.19
+  },
+  {
+   "records": 50,
+   "rule": "過去の最長",
+   "mean_ontime": 0.9804,
+   "share_persons_below_80pct": 0.0001,
+   "mean_buffer_over_true_mean_min": 17.76
+  }
+ ],
+ "grid_summary": {
+  "n": 27,
+  "buffer90_min": 3.22,
+  "buffer90_max": 8.66,
+  "ontime_at_mean_min": 0.5034,
+  "ontime_at_mean_max": 0.6134,
+  "normal_min": 0.8948,
+  "normal_max": 0.948,
+  "n10_q90_min": 0.8293,
+  "n10_q90_max": 0.8419,
+  "n10_max_min": 0.9061,
+  "n10_max_max": 0.9115,
+  "both_min": 0.8088,
+  "both_max": 0.8232,
+  "extra_two_min": 0.99,
+  "extra_two_max": 4.21,
+  "joint_buffer_min": 4.21,
+  "joint_buffer_max": 11.39
+ }
+}
