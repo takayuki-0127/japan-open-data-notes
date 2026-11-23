@@ -1,0 +1,188 @@
+{
+ "settings": {
+  "A": {
+   "median_ms": 100.0,
+   "sigma": 0.08,
+   "p_stall": 0.08,
+   "stall_mean_ms": 200.0
+  },
+  "B": {
+   "median_ms": 110.0,
+   "sigma": 0.15
+  },
+  "reps": 20000,
+  "control": "B=A×1.05"
+ },
+ "headline": {
+  "true_mean_A_ms": 116.25,
+  "true_mean_B_ms": 111.26,
+  "formula_mean_A_ms": 116.32,
+  "formula_mean_B_ms": 111.24,
+  "true_median_A_ms": 100.84,
+  "true_median_B_ms": 110.0,
+  "true_min_faster_by_n": {
+   "3": "A",
+   "5": "A",
+   "10": "B",
+   "30": "B",
+   "100": "B"
+  },
+  "n30_pick_A_pct": {
+   "mean": 44.36,
+   "median": 98.66,
+   "min": 27.94
+  },
+  "n30_disagree_pct": 85.23,
+  "n30_pick_B_by_mean_pct": 55.64,
+  "n30_control_disagree_pct": 48.94,
+  "data_A_over_600ms_count": 2,
+  "data_A_max_ms": 1373.78,
+  "n100_disagree_pct": 96.19,
+  "n100_pick_A_pct": {
+   "mean": 28.25,
+   "median": 100.0,
+   "min": 11.89
+  }
+ },
+ "true_values": [
+  {
+   "stat": "平均",
+   "A_ms": 116.25,
+   "B_ms": 111.26,
+   "faster": "B",
+   "B_vs_A_pct": -4.29
+  },
+  {
+   "stat": "中央値",
+   "A_ms": 100.84,
+   "B_ms": 110.0,
+   "faster": "A",
+   "B_vs_A_pct": 9.08
+  },
+  {
+   "stat": "3回の最小値の期待値",
+   "A_ms": 94.19,
+   "B_ms": 97.49,
+   "faster": "A",
+   "B_vs_A_pct": 3.5
+  },
+  {
+   "stat": "5回の最小値の期待値",
+   "A_ms": 91.65,
+   "B_ms": 92.91,
+   "faster": "A",
+   "B_vs_A_pct": 1.37
+  },
+  {
+   "stat": "10回の最小値の期待値",
+   "A_ms": 88.86,
+   "B_ms": 87.65,
+   "faster": "B",
+   "B_vs_A_pct": -1.36
+  },
+  {
+   "stat": "30回の最小値の期待値",
+   "A_ms": 85.24,
+   "B_ms": 81.19,
+   "faster": "B",
+   "B_vs_A_pct": -4.75
+  },
+  {
+   "stat": "100回の最小値の期待値",
+   "A_ms": 82.07,
+   "B_ms": 75.67,
+   "faster": "B",
+   "B_vs_A_pct": -7.8
+  }
+ ],
+ "measured_by_n": [
+  {
+   "n_each": 3,
+   "pick_A_mean": 68.69,
+   "pick_A_median": 75.67,
+   "pick_A_min": 60.16,
+   "disagree_pct": 39.95,
+   "mean_vs_median_differ_pct": 20.16,
+   "control_pick_A_mean": 67.56,
+   "control_pick_A_median": 71.9,
+   "control_pick_A_min": 70.66,
+   "control_disagree_pct": 35.69,
+   "control_mean_vs_median_differ_pct": 19.82
+  },
+  {
+   "n_each": 5,
+   "pick_A_mean": 67.12,
+   "pick_A_median": 81.76,
+   "pick_A_min": 54.05,
+   "disagree_pct": 50.93,
+   "mean_vs_median_differ_pct": 25.64,
+   "control_pick_A_mean": 66.7,
+   "control_pick_A_median": 76.89,
+   "control_pick_A_min": 73.83,
+   "control_disagree_pct": 42.88,
+   "control_mean_vs_median_differ_pct": 25.06
+  },
+  {
+   "n_each": 10,
+   "pick_A_mean": 59.52,
+   "pick_A_median": 90.72,
+   "pick_A_min": 45.07,
+   "disagree_pct": 65.57,
+   "mean_vs_median_differ_pct": 36.12,
+   "control_pick_A_mean": 63.75,
+   "control_pick_A_median": 85.56,
+   "control_pick_A_min": 76.81,
+   "control_disagree_pct": 48.05,
+   "control_mean_vs_median_differ_pct": 31.67
+  },
+  {
+   "n_each": 30,
+   "pick_A_mean": 44.36,
+   "pick_A_median": 98.66,
+   "pick_A_min": 27.94,
+   "disagree_pct": 85.23,
+   "mean_vs_median_differ_pct": 54.82,
+   "control_pick_A_mean": 62.19,
+   "control_pick_A_median": 96.08,
+   "control_pick_A_min": 81.5,
+   "control_disagree_pct": 48.94,
+   "control_mean_vs_median_differ_pct": 36.45
+  },
+  {
+   "n_each": 100,
+   "pick_A_mean": 28.25,
+   "pick_A_median": 100.0,
+   "pick_A_min": 11.89,
+   "disagree_pct": 96.19,
+   "mean_vs_median_differ_pct": 71.75,
+   "control_pick_A_mean": 70.65,
+   "control_pick_A_median": 99.95,
+   "control_pick_A_min": 84.8,
+   "control_disagree_pct": 39.72,
+   "control_mean_vs_median_differ_pct": 29.33
+  }
+ ],
+ "grid_summary": {
+  "n": 36,
+  "true_all_same_count": 6,
+  "true_median_A_count": 36,
+  "true_mean_A_count": 18,
+  "true_mean_median_differ_count": 18,
+  "true_min30_differs_from_median_count": 24,
+  "disagree_n30_min_pct": 23.36,
+  "disagree_n30_max_pct": 97.25,
+  "disagree_n30_when_true_same": [
+   23.36,
+   43.96
+  ],
+  "disagree_n30_when_true_differ": [
+   56.05,
+   97.25
+  ],
+  "median_pick_A_min_pct": 89.42,
+  "mean_pick_A_range_pct": [
+   4.93,
+   95.09
+  ]
+ }
+}

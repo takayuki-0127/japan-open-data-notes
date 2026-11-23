@@ -1,0 +1,4 @@
+method,flip,median_abs_log10_err,median_fold_err,within2x,under_share
+prop1k,0.269,0.4894,3.086,0.3094,0.7789
+line2,0.1353,0.4672,2.932,0.2925,0.9904
+loglog3,0.1108,0.1871,1.539,0.6178,0.8502

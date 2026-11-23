@@ -1,0 +1,233 @@
+{
+ "settings": {
+  "median_B_ms": 100.0,
+  "A_faster_steady": 0.05,
+  "W": 3.0,
+  "tau": 2.0,
+  "sigma": 0.1,
+  "reps": 20000,
+  "n_compare": 10
+ },
+ "headline": {
+  "steady_mean_A_ms": 95.48,
+  "first_run_factor": 4.0,
+  "first_run_A_ms_sim": 381.53,
+  "n10_all_bias_pct": 75.68,
+  "n10_all_formula_pct": 75.73,
+  "n10_drop1_bias_pct": 50.8,
+  "n10_drop3_bias_pct": 23.56,
+  "n10_drop5_bias_pct": 11.48,
+  "n30_all_bias_pct": 25.38,
+  "n100_all_bias_pct": 7.62,
+  "n100_all_formula_pct": 7.62,
+  "pick_A_n10": {
+   "drop0": 0.0,
+   "drop1": 0.0,
+   "drop3": 0.12,
+   "drop5": 18.25
+  },
+  "crossover_runs_base": 145
+ },
+ "base_table_max_gap_to_formula_pt": 0.08,
+ "per_run_A": {
+  "k": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "A_mean_ms": [
+   381.53,
+   269.21,
+   200.8,
+   159.43,
+   134.23,
+   118.9,
+   109.72,
+   104.19,
+   100.66,
+   98.69
+  ],
+  "A_formula_ms": [
+   381.9,
+   269.2,
+   200.85,
+   159.39,
+   134.24,
+   118.99,
+   109.74,
+   104.13,
+   100.72,
+   98.66
+  ]
+ },
+ "bias_by_n_drop": [
+  {
+   "n_runs": 5,
+   "drop_first": 0,
+   "used": 5,
+   "bias_pct": 139.89,
+   "formula_bias_pct": 139.97,
+   "share_over_10pct_slow": 100.0
+  },
+  {
+   "n_runs": 5,
+   "drop_first": 1,
+   "used": 4,
+   "bias_pct": 99.96,
+   "formula_bias_pct": 99.97,
+   "share_over_10pct_slow": 100.0
+  },
+  {
+   "n_runs": 5,
+   "drop_first": 3,
+   "used": 2,
+   "bias_pct": 53.79,
+   "formula_bias_pct": 53.77,
+   "share_over_10pct_slow": 100.0
+  },
+  {
+   "n_runs": 10,
+   "drop_first": 0,
+   "used": 10,
+   "bias_pct": 75.68,
+   "formula_bias_pct": 75.73,
+   "share_over_10pct_slow": 100.0
+  },
+  {
+   "n_runs": 10,
+   "drop_first": 1,
+   "used": 9,
+   "bias_pct": 50.8,
+   "formula_bias_pct": 50.81,
+   "share_over_10pct_slow": 100.0
+  },
+  {
+   "n_runs": 10,
+   "drop_first": 3,
+   "used": 7,
+   "bias_pct": 23.56,
+   "formula_bias_pct": 23.57,
+   "share_over_10pct_slow": 99.84
+  },
+  {
+   "n_runs": 10,
+   "drop_first": 5,
+   "used": 5,
+   "bias_pct": 11.48,
+   "formula_bias_pct": 11.49,
+   "share_over_10pct_slow": 60.68
+  },
+  {
+   "n_runs": 30,
+   "drop_first": 0,
+   "used": 30,
+   "bias_pct": 25.38,
+   "formula_bias_pct": 25.41,
+   "share_over_10pct_slow": 100.0
+  },
+  {
+   "n_runs": 30,
+   "drop_first": 1,
+   "used": 29,
+   "bias_pct": 15.93,
+   "formula_bias_pct": 15.95,
+   "share_over_10pct_slow": 99.56
+  },
+  {
+   "n_runs": 30,
+   "drop_first": 3,
+   "used": 27,
+   "bias_pct": 6.28,
+   "formula_bias_pct": 6.3,
+   "share_over_10pct_slow": 3.97
+  },
+  {
+   "n_runs": 30,
+   "drop_first": 5,
+   "used": 25,
+   "bias_pct": 2.48,
+   "formula_bias_pct": 2.5,
+   "share_over_10pct_slow": 0.03
+  },
+  {
+   "n_runs": 100,
+   "drop_first": 0,
+   "used": 100,
+   "bias_pct": 7.62,
+   "formula_bias_pct": 7.62,
+   "share_over_10pct_slow": 2.02
+  },
+  {
+   "n_runs": 100,
+   "drop_first": 1,
+   "used": 99,
+   "bias_pct": 4.67,
+   "formula_bias_pct": 4.67,
+   "share_over_10pct_slow": 0.0
+  },
+  {
+   "n_runs": 100,
+   "drop_first": 3,
+   "used": 97,
+   "bias_pct": 1.76,
+   "formula_bias_pct": 1.75,
+   "share_over_10pct_slow": 0.0
+  },
+  {
+   "n_runs": 100,
+   "drop_first": 5,
+   "used": 95,
+   "bias_pct": 0.66,
+   "formula_bias_pct": 0.66,
+   "share_over_10pct_slow": 0.0
+  }
+ ],
+ "grid_summary": {
+  "n": 27,
+  "max_gap_to_formula_pt": 0.14,
+  "all_bias_min_pct": 15.81,
+  "all_bias_max_pct": 286.23,
+  "drop3_bias_min_pct": 1.11,
+  "drop3_bias_max_pct": 195.58,
+  "drop3_bias_over_5pct_count": 21,
+  "drop3_bias_over_5pct_tau": [
+   1.0,
+   2.0,
+   5.0
+  ],
+  "drop5_bias_max_pct": 153.99,
+  "pick_A_drop0_min_pct": 0.0,
+  "pick_A_drop0_max_pct": 14.85,
+  "pick_A_drop3_min_pct": 0.0,
+  "pick_A_drop3_max_pct": 93.21,
+  "pick_A_drop0_below50_count": 27,
+  "pick_A_drop3_below50_count": 21,
+  "tau5_drop5_bias_by_W": {
+   "1.0": [
+    25.56,
+    25.68
+   ],
+   "6.0": [
+    153.94,
+    153.99
+   ]
+  },
+  "tau1_drop3_bias_range": [
+   1.11,
+   6.75
+  ],
+  "tau1_pick_A_drop3_range": [
+   29.87,
+   93.21
+  ],
+  "crossover_min": 31,
+  "crossover_max": 629
+ }
+}

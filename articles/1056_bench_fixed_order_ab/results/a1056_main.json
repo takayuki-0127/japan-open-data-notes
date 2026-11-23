@@ -1,0 +1,319 @@
+{
+ "base_setting": {
+  "work_A": 96.0,
+  "work_B": 95.0,
+  "clean_A": 4.0,
+  "clean_B": 2.0,
+  "drift_total": 4.0,
+  "ar_sd": 2.0,
+  "ar_phi": 0.95,
+  "noise_sd": 0.04
+ },
+ "n_each": 50,
+ "sessions": 10000,
+ "grid_sessions": 3000,
+ "true_diff_ms": -3.0,
+ "true_A_ms": 100.0,
+ "true_B_ms": 97.0,
+ "designs_base": [
+  {
+   "design": "①ブロック（A50回→B50回）",
+   "mean_diff": -0.9062,
+   "bias": 2.0938,
+   "sd_diff": 1.8836,
+   "p_B_faster": 0.6842,
+   "p_wrong_dir": 0.3158
+  },
+  {
+   "design": "②交互（ABAB…、いつもAが先）",
+   "mean_diff": 1.0017,
+   "bias": 4.0017,
+   "sd_diff": 0.7917,
+   "p_B_faster": 0.102,
+   "p_wrong_dir": 0.898
+  },
+  {
+   "design": "③全体をでたらめに並べる",
+   "mean_diff": -1.0108,
+   "bias": 1.9892,
+   "sd_diff": 0.9155,
+   "p_B_faster": 0.8664,
+   "p_wrong_dir": 0.1336
+  },
+  {
+   "design": "④往復（A25回→B50回→A25回）",
+   "mean_diff": -2.9207,
+   "bias": 0.0793,
+   "sd_diff": 1.547,
+   "p_B_faster": 0.9688,
+   "p_wrong_dir": 0.0312
+  }
+ ],
+ "formula_bias": [
+  {
+   "design": "①ブロック（A50回→B50回）",
+   "drift": 2.0202,
+   "carry": 0.04,
+   "total": 2.0602
+  },
+  {
+   "design": "②交互（ABAB…、いつもAが先）",
+   "drift": 0.0404,
+   "carry": 3.96,
+   "total": 4.0004
+  },
+  {
+   "design": "③全体をでたらめに並べる",
+   "drift": 0.0,
+   "carry": 2.0202,
+   "total": 2.0202
+  },
+  {
+   "design": "④往復（A25回→B50回→A25回）",
+   "drift": 0.0,
+   "carry": 0.08,
+   "total": 0.08
+  }
+ ],
+ "components": [
+  {
+   "parts": "1回ごとの振れだけ",
+   "design": "①ブロック（A50回→B50回）",
+   "bias": -0.0009,
+   "sd_diff": 0.7805,
+   "p_B_faster": 1.0
+  },
+  {
+   "parts": "1回ごとの振れだけ",
+   "design": "②交互（ABAB…、いつもAが先）",
+   "bias": 0.0055,
+   "sd_diff": 0.7867,
+   "p_B_faster": 0.9999
+  },
+  {
+   "parts": "1回ごとの振れだけ",
+   "design": "③全体をでたらめに並べる",
+   "bias": -0.0166,
+   "sd_diff": 0.7959,
+   "p_B_faster": 1.0
+  },
+  {
+   "parts": "1回ごとの振れだけ",
+   "design": "④往復（A25回→B50回→A25回）",
+   "bias": 0.0049,
+   "sd_diff": 0.7851,
+   "p_B_faster": 1.0
+  },
+  {
+   "parts": "＋だんだん遅くなる",
+   "design": "①ブロック（A50回→B50回）",
+   "bias": 2.0234,
+   "sd_diff": 0.7921,
+   "p_B_faster": 0.8924
+  },
+  {
+   "parts": "＋だんだん遅くなる",
+   "design": "②交互（ABAB…、いつもAが先）",
+   "bias": 0.0505,
+   "sd_diff": 0.7833,
+   "p_B_faster": 1.0
+  },
+  {
+   "parts": "＋だんだん遅くなる",
+   "design": "③全体をでたらめに並べる",
+   "bias": 0.007,
+   "sd_diff": 0.8231,
+   "p_B_faster": 0.9999
+  },
+  {
+   "parts": "＋だんだん遅くなる",
+   "design": "④往復（A25回→B50回→A25回）",
+   "bias": -0.0024,
+   "sd_diff": 0.7856,
+   "p_B_faster": 1.0
+  },
+  {
+   "parts": "＋後片付けの持ちこし",
+   "design": "①ブロック（A50回→B50回）",
+   "bias": 0.0598,
+   "sd_diff": 0.7812,
+   "p_B_faster": 1.0
+  },
+  {
+   "parts": "＋後片付けの持ちこし",
+   "design": "②交互（ABAB…、いつもAが先）",
+   "bias": 3.9562,
+   "sd_diff": 0.7888,
+   "p_B_faster": 0.1127
+  },
+  {
+   "parts": "＋後片付けの持ちこし",
+   "design": "③全体をでたらめに並べる",
+   "bias": 1.9945,
+   "sd_diff": 0.8148,
+   "p_B_faster": 0.8947
+  },
+  {
+   "parts": "＋後片付けの持ちこし",
+   "design": "④往復（A25回→B50回→A25回）",
+   "bias": 0.074,
+   "sd_diff": 0.7955,
+   "p_B_faster": 0.9998
+  },
+  {
+   "parts": "＋混み具合の揺れ",
+   "design": "①ブロック（A50回→B50回）",
+   "bias": -0.0039,
+   "sd_diff": 1.9009,
+   "p_B_faster": 0.9418
+  },
+  {
+   "parts": "＋混み具合の揺れ",
+   "design": "②交互（ABAB…、いつもAが先）",
+   "bias": -0.0081,
+   "sd_diff": 0.7927,
+   "p_B_faster": 0.9999
+  },
+  {
+   "parts": "＋混み具合の揺れ",
+   "design": "③全体をでたらめに並べる",
+   "bias": 0.0033,
+   "sd_diff": 0.8553,
+   "p_B_faster": 0.9999
+  },
+  {
+   "parts": "＋混み具合の揺れ",
+   "design": "④往復（A25回→B50回→A25回）",
+   "bias": 0.0271,
+   "sd_diff": 1.563,
+   "p_B_faster": 0.9718
+  },
+  {
+   "parts": "全部",
+   "design": "①ブロック（A50回→B50回）",
+   "bias": 2.0565,
+   "sd_diff": 1.8589,
+   "p_B_faster": 0.693
+  },
+  {
+   "parts": "全部",
+   "design": "②交互（ABAB…、いつもAが先）",
+   "bias": 3.9946,
+   "sd_diff": 0.7811,
+   "p_B_faster": 0.0996
+  },
+  {
+   "parts": "全部",
+   "design": "③全体をでたらめに並べる",
+   "bias": 1.9864,
+   "sd_diff": 0.9072,
+   "p_B_faster": 0.8681
+  },
+  {
+   "parts": "全部",
+   "design": "④往復（A25回→B50回→A25回）",
+   "bias": 0.0613,
+   "sd_diff": 1.5609,
+   "p_B_faster": 0.9713
+  }
+ ],
+ "same_code": [
+  {
+   "design": "①ブロック（A50回→B50回）",
+   "mean_diff": 2.0135,
+   "bias": 2.0135,
+   "sd_diff": 1.8868,
+   "p_B_faster": 0.1436,
+   "p_wrong_dir": 0.1436,
+   "p_B_slower_by_1ms": 0.7017
+  },
+  {
+   "design": "②交互（ABAB…、いつもAが先）",
+   "mean_diff": 0.03,
+   "bias": 0.03,
+   "sd_diff": 0.8013,
+   "p_B_faster": 0.4831,
+   "p_wrong_dir": 0.4831,
+   "p_B_slower_by_1ms": 0.1133
+  },
+  {
+   "design": "③全体をでたらめに並べる",
+   "mean_diff": -0.005,
+   "bias": -0.005,
+   "sd_diff": 0.8919,
+   "p_B_faster": 0.5007,
+   "p_wrong_dir": 0.5007,
+   "p_B_slower_by_1ms": 0.13
+  },
+  {
+   "design": "④往復（A25回→B50回→A25回）",
+   "mean_diff": -0.0113,
+   "bias": -0.0113,
+   "sd_diff": 1.553,
+   "p_B_faster": 0.5024,
+   "p_wrong_dir": 0.5024,
+   "p_B_slower_by_1ms": 0.2617
+  }
+ ],
+ "grid_ranges_by_design": {
+  "①ブロック（A50回→B50回）": {
+   "bias_min": -0.0371,
+   "bias_max": 4.1564,
+   "p_min": 0.0813,
+   "p_max": 1.0
+  },
+  "②交互（ABAB…、いつもAが先）": {
+   "bias_min": -0.011,
+   "bias_max": 8.0188,
+   "p_min": 0.0,
+   "p_max": 1.0
+  },
+  "③全体をでたらめに並べる": {
+   "bias_min": -0.0158,
+   "bias_max": 4.0231,
+   "p_min": 0.1163,
+   "p_max": 1.0
+  },
+  "④往復（A25回→B50回→A25回）": {
+   "bias_min": -0.0552,
+   "bias_max": 0.2073,
+   "p_min": 0.8377,
+   "p_max": 1.0
+  }
+ },
+ "grid_roundtrip_p_B_faster_when_ar4": [
+  0.8377,
+  0.8713
+ ],
+ "grid_alternating_when_carry0_p_B_faster": [
+  0.9997,
+  1.0
+ ],
+ "grid_alternating_when_carry0_bias": [
+  -0.011,
+  0.0894
+ ],
+ "grid_sd_diff_ar4": {
+  "①ブロック（A50回→B50回）": 3.554,
+  "②交互（ABAB…、いつもAが先）": 0.798,
+  "③全体をでたらめに並べる": 1.104,
+  "④往復（A25回→B50回→A25回）": 2.786
+ },
+ "headline": {
+  "true_diff_ms": -3.0,
+  "bias_①ブロック": 2.09,
+  "bias_②交互": 4.0,
+  "bias_③でたらめ": 1.99,
+  "bias_④往復": 0.08,
+  "mean_diff_①ブロック": -0.91,
+  "mean_diff_②交互": 1.0,
+  "mean_diff_③でたらめ": -1.01,
+  "mean_diff_④往復": -2.92,
+  "p_B_faster_pct_①ブロック": 68.4,
+  "p_B_faster_pct_②交互": 10.2,
+  "p_B_faster_pct_③でたらめ": 86.6,
+  "p_B_faster_pct_④往復": 96.9,
+  "same_block_p_B_slower_1ms_pct": 70.2,
+  "same_block_mean_diff": 2.01
+ }
+}
