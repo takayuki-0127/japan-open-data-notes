@@ -1,0 +1,448 @@
+{
+ "setting": {
+  "tickets": 100,
+  "prizes": 10,
+  "holdings": [
+   1,
+   4,
+   15,
+   30
+  ],
+  "draws": 200000
+ },
+ "pool_expected": 5.0,
+ "pool_expected_sim": 5.001,
+ "p_pool_zero_pct": 0.0593,
+ "p_pool_zero_sim_pct": 0.051,
+ "max_abs_diff_exact_sim": {
+  "own_expected": 0.0022,
+  "p_at_least_one_pct": 0.15,
+  "take": 0.0006
+ },
+ "ratio_p_at_least_one_D_over_A": 9.77,
+ "ratio_tickets_D_over_A": 30,
+ "take_sum_by_rule": {
+  "(a) 本数の見込みの割合": 5.0,
+  "(b) 少なくとも1本の確率の割合": 5.0,
+  "(c) 1枚あたりの確率（均等）": 5.0
+ },
+ "base": [
+  {
+   "person": "Aさん",
+   "tickets": 1,
+   "own_expected": 0.1,
+   "own_expected_sim": 0.0989,
+   "p_at_least_one": 10.0,
+   "p_at_least_one_sim": 9.89,
+   "p_zero_alone": 90.11,
+   "share_(a)": 2.0,
+   "take_(a)": 0.1,
+   "take_sim_(a)": 0.1,
+   "gap_pct_(a)": 0.0,
+   "share_(b)": 4.45,
+   "take_(b)": 0.2227,
+   "take_sim_(b)": 0.2228,
+   "gap_pct_(b)": 122.75,
+   "share_(c)": 25.0,
+   "take_(c)": 1.25,
+   "take_sim_(c)": 1.2503,
+   "gap_pct_(c)": 1150.0
+  },
+  {
+   "person": "Bさん",
+   "tickets": 4,
+   "own_expected": 0.4,
+   "own_expected_sim": 0.4013,
+   "p_at_least_one": 34.84,
+   "p_at_least_one_sim": 34.91,
+   "p_zero_alone": 65.09,
+   "share_(a)": 8.0,
+   "take_(a)": 0.4,
+   "take_sim_(a)": 0.4001,
+   "gap_pct_(a)": 0.0,
+   "share_(b)": 15.52,
+   "take_(b)": 0.776,
+   "take_sim_(b)": 0.7761,
+   "gap_pct_(b)": 94.0,
+   "share_(c)": 25.0,
+   "take_(c)": 1.25,
+   "take_sim_(c)": 1.2503,
+   "gap_pct_(c)": 212.5
+  },
+  {
+   "person": "Cさん",
+   "tickets": 15,
+   "own_expected": 1.5,
+   "own_expected_sim": 1.4986,
+   "p_at_least_one": 81.92,
+   "p_at_least_one_sim": 81.77,
+   "p_zero_alone": 18.23,
+   "share_(a)": 30.0,
+   "take_(a)": 1.5,
+   "take_sim_(a)": 1.5003,
+   "gap_pct_(a)": 0.0,
+   "share_(b)": 36.5,
+   "take_(b)": 1.8248,
+   "take_sim_(b)": 1.8252,
+   "gap_pct_(b)": 21.66,
+   "share_(c)": 25.0,
+   "take_(c)": 1.25,
+   "take_sim_(c)": 1.2503,
+   "gap_pct_(c)": -16.67
+  },
+  {
+   "person": "Dさん",
+   "tickets": 30,
+   "own_expected": 3.0,
+   "own_expected_sim": 3.0022,
+   "p_at_least_one": 97.71,
+   "p_at_least_one_sim": 97.65,
+   "p_zero_alone": 2.35,
+   "share_(a)": 60.0,
+   "take_(a)": 3.0,
+   "take_sim_(a)": 3.0006,
+   "gap_pct_(a)": 0.0,
+   "share_(b)": 43.53,
+   "take_(b)": 2.1764,
+   "take_sim_(b)": 2.1769,
+   "gap_pct_(b)": -27.45,
+   "share_(c)": 25.0,
+   "take_(c)": 1.25,
+   "take_sim_(c)": 1.2503,
+   "gap_pct_(c)": -58.33
+  }
+ ],
+ "range_gap_b_largest_holder": {
+  "1・4・15・30枚": [
+   -51.57,
+   -7.9
+  ],
+  "5・10・15・20枚": [
+   -37.05,
+   -5.3
+  ]
+ },
+ "range_gap_b_smallest_holder": {
+  "1・4・15・30枚": [
+   25.31,
+   626.48
+  ],
+  "5・10・15・20枚": [
+   10.89,
+   144.72
+  ]
+ },
+ "prize1_gap_b_max_abs": 0.0,
+ "grid_cases": 14,
+ "data_draws_saved": 1000,
+ "grid": [
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 1,
+   "person": "Aさん",
+   "tickets": 1,
+   "own_expected": 0.01,
+   "p_at_least_one": 1.0,
+   "take_b": 0.01,
+   "gap_pct_b": 0.0,
+   "gap_pct_c": 1150.0
+  },
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 1,
+   "person": "Dさん",
+   "tickets": 30,
+   "own_expected": 0.3,
+   "p_at_least_one": 30.0,
+   "take_b": 0.3,
+   "gap_pct_b": 0.0,
+   "gap_pct_c": -58.33
+  },
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 3,
+   "person": "Aさん",
+   "tickets": 1,
+   "own_expected": 0.03,
+   "p_at_least_one": 3.0,
+   "take_b": 0.0376,
+   "gap_pct_b": 25.31,
+   "gap_pct_c": 1150.0
+  },
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 3,
+   "person": "Dさん",
+   "tickets": 30,
+   "own_expected": 0.9,
+   "p_at_least_one": 66.15,
+   "take_b": 0.8289,
+   "gap_pct_b": -7.9,
+   "gap_pct_c": -58.33
+  },
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 5,
+   "person": "Aさん",
+   "tickets": 1,
+   "own_expected": 0.05,
+   "p_at_least_one": 5.0,
+   "take_b": 0.0761,
+   "gap_pct_b": 52.28,
+   "gap_pct_c": 1150.0
+  },
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 5,
+   "person": "Dさん",
+   "tickets": 30,
+   "own_expected": 1.5,
+   "p_at_least_one": 83.92,
+   "take_b": 1.278,
+   "gap_pct_b": -14.8,
+   "gap_pct_c": -58.33
+  },
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 10,
+   "person": "Aさん",
+   "tickets": 1,
+   "own_expected": 0.1,
+   "p_at_least_one": 10.0,
+   "take_b": 0.2227,
+   "gap_pct_b": 122.75,
+   "gap_pct_c": 1150.0
+  },
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 10,
+   "person": "Dさん",
+   "tickets": 30,
+   "own_expected": 3.0,
+   "p_at_least_one": 97.71,
+   "take_b": 2.1764,
+   "gap_pct_b": -27.45,
+   "gap_pct_c": -58.33
+  },
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 20,
+   "person": "Aさん",
+   "tickets": 1,
+   "own_expected": 0.2,
+   "p_at_least_one": 20.0,
+   "take_b": 0.722,
+   "gap_pct_b": 260.99,
+   "gap_pct_c": 1150.0
+  },
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 20,
+   "person": "Dさん",
+   "tickets": 30,
+   "own_expected": 6.0,
+   "p_at_least_one": 99.97,
+   "take_b": 3.6088,
+   "gap_pct_b": -39.85,
+   "gap_pct_c": -58.33
+  },
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 30,
+   "person": "Aさん",
+   "tickets": 1,
+   "own_expected": 0.3,
+   "p_at_least_one": 30.0,
+   "take_b": 1.469,
+   "gap_pct_b": 389.66,
+   "gap_pct_c": 1150.0
+  },
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 30,
+   "person": "Dさん",
+   "tickets": 30,
+   "own_expected": 9.0,
+   "p_at_least_one": 100.0,
+   "take_b": 4.8966,
+   "gap_pct_b": -45.59,
+   "gap_pct_c": -58.33
+  },
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 50,
+   "person": "Aさん",
+   "tickets": 1,
+   "own_expected": 0.5,
+   "p_at_least_one": 50.0,
+   "take_b": 3.6324,
+   "gap_pct_b": 626.48,
+   "gap_pct_c": 1150.0
+  },
+  {
+   "holding": "1・4・15・30枚",
+   "prizes": 50,
+   "person": "Dさん",
+   "tickets": 30,
+   "own_expected": 15.0,
+   "p_at_least_one": 100.0,
+   "take_b": 7.2648,
+   "gap_pct_b": -51.57,
+   "gap_pct_c": -58.33
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 1,
+   "person": "Aさん",
+   "tickets": 5,
+   "own_expected": 0.05,
+   "p_at_least_one": 5.0,
+   "take_b": 0.05,
+   "gap_pct_b": 0.0,
+   "gap_pct_c": 150.0
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 1,
+   "person": "Dさん",
+   "tickets": 20,
+   "own_expected": 0.2,
+   "p_at_least_one": 20.0,
+   "take_b": 0.2,
+   "gap_pct_b": 0.0,
+   "gap_pct_c": -37.5
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 3,
+   "person": "Aさん",
+   "tickets": 5,
+   "own_expected": 0.15,
+   "p_at_least_one": 14.4,
+   "take_b": 0.1663,
+   "gap_pct_b": 10.89,
+   "gap_pct_c": 150.0
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 3,
+   "person": "Dさん",
+   "tickets": 20,
+   "own_expected": 0.6,
+   "p_at_least_one": 49.19,
+   "take_b": 0.5682,
+   "gap_pct_b": -5.3,
+   "gap_pct_c": -37.5
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 5,
+   "person": "Aさん",
+   "tickets": 5,
+   "own_expected": 0.25,
+   "p_at_least_one": 23.04,
+   "take_b": 0.3045,
+   "gap_pct_b": 21.8,
+   "gap_pct_c": 150.0
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 5,
+   "person": "Dさん",
+   "tickets": 20,
+   "own_expected": 1.0,
+   "p_at_least_one": 68.07,
+   "take_b": 0.8996,
+   "gap_pct_b": -10.04,
+   "gap_pct_c": -37.5
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 10,
+   "person": "Aさん",
+   "tickets": 5,
+   "own_expected": 0.5,
+   "p_at_least_one": 41.62,
+   "take_b": 0.7407,
+   "gap_pct_b": 48.14,
+   "gap_pct_c": 150.0
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 10,
+   "person": "Dさん",
+   "tickets": 20,
+   "own_expected": 2.0,
+   "p_at_least_one": 90.49,
+   "take_b": 1.6102,
+   "gap_pct_b": -19.49,
+   "gap_pct_c": -37.5
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 20,
+   "person": "Aさん",
+   "tickets": 5,
+   "own_expected": 1.0,
+   "p_at_least_one": 68.07,
+   "take_b": 1.9159,
+   "gap_pct_b": 91.59,
+   "gap_pct_c": 150.0
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 20,
+   "person": "Dさん",
+   "tickets": 20,
+   "own_expected": 4.0,
+   "p_at_least_one": 99.34,
+   "take_b": 2.7961,
+   "gap_pct_b": -30.1,
+   "gap_pct_c": -37.5
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 30,
+   "person": "Aさん",
+   "tickets": 5,
+   "own_expected": 1.5,
+   "p_at_least_one": 83.92,
+   "take_b": 3.3014,
+   "gap_pct_b": 120.09,
+   "gap_pct_c": 150.0
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 30,
+   "person": "Dさん",
+   "tickets": 20,
+   "own_expected": 6.0,
+   "p_at_least_one": 99.97,
+   "take_b": 3.9325,
+   "gap_pct_b": -34.46,
+   "gap_pct_c": -37.5
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 50,
+   "person": "Aさん",
+   "tickets": 5,
+   "own_expected": 2.5,
+   "p_at_least_one": 97.19,
+   "take_b": 6.1181,
+   "gap_pct_b": 144.72,
+   "gap_pct_c": 150.0
+  },
+  {
+   "holding": "5・10・15・20枚",
+   "prizes": 50,
+   "person": "Dさん",
+   "tickets": 20,
+   "own_expected": 10.0,
+   "p_at_least_one": 100.0,
+   "take_b": 6.2952,
+   "gap_pct_b": -37.05,
+   "gap_pct_c": -37.5
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "setup": {
+  "lots": {
+   "A": {
+    "p": 1.0,
+    "prize": 10,
+    "mean_per_draw": 10.0
+   },
+   "B": {
+    "p": 0.1,
+    "prize": 120,
+    "mean_per_draw": 12.0
+   },
+   "C": {
+    "p": 0.001,
+    "prize": 15000,
+    "mean_per_draw": 15.0
+   }
+  },
+  "draws": [
+   1,
+   10,
+   100,
+   1000
+  ],
+  "sim_people": 200000,
+  "groups": 100000
+ },
+ "per_draw_mean_formula": {
+  "A": 10.0,
+  "B": 12.0,
+  "C": 15.0
+ },
+ "per_draw_sd_formula": {
+  "A": 0.0,
+  "B": 36.0,
+  "C": 474.1
+ },
+ "draws10": {
+  "B": {
+   "median": 120.0,
+   "p_more_than_A_pct": 65.13,
+   "p_zero_pct": 34.87,
+   "p_at_least_mean_pct": 65.13
+  },
+  "C": {
+   "median": 0.0,
+   "p_more_than_A_pct": 1.0,
+   "p_zero_pct": 99.0,
+   "p_at_least_mean_pct": 1.0
+  }
+ },
+ "max_abs_sim_minus_formula_mean": 42.3,
+ "max_abs_sim_minus_formula_more_than_A_pts": 0.28,
+ "groups": [
+  {
+   "people": 100,
+   "C_below_A_pct": 90.53,
+   "C_zero_pct": 90.53,
+   "C_zero_formula_pct": 90.48,
+   "B_below_A_pct": 32.15,
+   "order_C_B_A_pct": 6.44,
+   "top_A_pct": 29.12,
+   "top_B_pct": 61.41,
+   "top_C_pct": 9.46,
+   "C_obs_q10": 0.0,
+   "C_obs_q90": 0.0
+  },
+  {
+   "people": 1000,
+   "C_below_A_pct": 36.8,
+   "C_zero_pct": 36.8,
+   "C_zero_formula_pct": 36.77,
+   "B_below_A_pct": 3.78,
+   "order_C_B_A_pct": 60.61,
+   "top_A_pct": 1.42,
+   "top_B_pct": 35.61,
+   "top_C_pct": 62.98,
+   "C_obs_q10": 0.0,
+   "C_obs_q90": 30.0
+  },
+  {
+   "people": 10000,
+   "C_below_A_pct": 13.07,
+   "C_zero_pct": 0.0,
+   "C_zero_formula_pct": 0.0,
+   "B_below_A_pct": 0.0,
+   "order_C_B_A_pct": 72.26,
+   "top_A_pct": 0.0,
+   "top_B_pct": 27.74,
+   "top_C_pct": 72.26,
+   "C_obs_q10": 9.0,
+   "C_obs_q90": 21.0
+  }
+ ],
+ "same_mean_draws100_more_than_A_range_pct": [
+  1.0,
+  88.28
+ ],
+ "one_draw": {
+  "people": 1000,
+  "draws": 10,
+  "mean_total": {
+   "A": 100.0,
+   "B": 122.88,
+   "C": 150.0
+  },
+  "median_total": {
+   "A": 100.0,
+   "B": 120.0,
+   "C": 0.0
+  },
+  "more_than_A_pct": {
+   "B": 64.9,
+   "C": 1.0
+  },
+  "C_winners": 10,
+  "B_zero_pct": 35.1
+ }
+}

@@ -1,0 +1,315 @@
+{
+ "setup": {
+  "attributes": {
+   "曜日": [
+    "月",
+    "火",
+    "水",
+    "木",
+    "金",
+    "土",
+    "日"
+   ],
+   "時間帯": [
+    "朝",
+    "昼",
+    "夕方",
+    "夜"
+   ],
+   "天気": [
+    "晴れ",
+    "くもり",
+    "雨"
+   ],
+   "入口": [
+    "北口",
+    "南口"
+   ],
+   "支払い": [
+    "現金",
+    "カード",
+    "電子マネー"
+   ],
+   "会員": [
+    "会員",
+    "会員でない"
+   ]
+  },
+  "probs": {
+   "曜日": [
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+   ],
+   "時間帯": [
+    0.2,
+    0.35,
+    0.25,
+    0.2
+   ],
+   "天気": [
+    0.5,
+    0.3,
+    0.2
+   ],
+   "入口": [
+    0.5,
+    0.5
+   ],
+   "支払い": [
+    0.4,
+    0.35,
+    0.25
+   ],
+   "会員": [
+    0.4,
+    0.6
+   ]
+  },
+  "base_rate_pct": 10.0,
+  "customers": 2000,
+  "min_cell": 30,
+  "test": "片側の二項検定（その月の全体の割合より高いか）",
+  "true_cell": "土曜×雨"
+ },
+ "one_draw": {
+  "cells": 196,
+  "p_all_pct": 10.4,
+  "next_p_all_pct": 10.1,
+  "n_p05": 9,
+  "n_p01": 0,
+  "any_bonf": false,
+  "best": {
+   "組み合わせ": "木曜×夜",
+   "人数": 56,
+   "買った人": 12,
+   "割合_pct": 21.43,
+   "偶然で起きる確率": 0.0114,
+   "次の月の人数": 61,
+   "次の月の割合_pct": 9.84
+  },
+  "top5_next_rate_pct": [
+   9.84,
+   10.89,
+   11.92,
+   12.68,
+   15.97
+  ]
+ },
+ "base_1000reps": {
+  "reps": 1000,
+  "cells_mean": 196.0,
+  "any_p05_pct": 99.1,
+  "n_p05_mean": 5.85,
+  "any_bonf_pct": 1.0,
+  "best_p_median": 0.009920263492068811,
+  "best_rate_mean_pct": 17.54,
+  "best_n_median": 126.0,
+  "next_rate_mean_pct": 10.0,
+  "next_p05_pct": 2.1,
+  "pre_p05_pct": 2.9,
+  "pre_bonf_pct": 0.0,
+  "best_is_true_pct": 1.0,
+  "pre_rate_mean_pct": 9.87,
+  "best_p_q10_50_90": [
+   0.00159,
+   0.00992,
+   0.0288
+  ],
+  "best_one_in_median": 101,
+  "best_rate_q10_90_pct": [
+   14.21,
+   21.34
+  ],
+  "next_rate_q10_90_pct": [
+   6.67,
+   13.29
+  ],
+  "best_depth2_pct": 98.4
+ },
+ "grid": [
+  {
+   "customers": 500,
+   "depth": "1つの項目だけ",
+   "cells_mean": 21.0,
+   "any_p05_pct": 36.5,
+   "n_p05_mean": 0.41,
+   "any_bonf_pct": 0.5,
+   "best_rate_mean_pct": 15.04,
+   "best_n_median": 99.0,
+   "next_rate_mean_pct": 10.04,
+   "next_p05_pct": 2.5,
+   "pre_p05_pct": 3.0
+  },
+  {
+   "customers": 500,
+   "depth": "2つの組み合わせまで",
+   "cells_mean": 124.1,
+   "any_p05_pct": 88.5,
+   "n_p05_mean": 2.83,
+   "any_bonf_pct": 1.5,
+   "best_rate_mean_pct": 20.72,
+   "best_n_median": 48.5,
+   "next_rate_mean_pct": 9.46,
+   "next_p05_pct": 3.0,
+   "pre_p05_pct": 2.0
+  },
+  {
+   "customers": 500,
+   "depth": "3つの組み合わせまで",
+   "cells_mean": 182.7,
+   "any_p05_pct": 90.5,
+   "n_p05_mean": 4.01,
+   "any_bonf_pct": 2.0,
+   "best_rate_mean_pct": 22.16,
+   "best_n_median": 41.0,
+   "next_rate_mean_pct": 10.08,
+   "next_p05_pct": 2.0,
+   "pre_p05_pct": 2.0
+  },
+  {
+   "customers": 2000,
+   "depth": "1つの項目だけ",
+   "cells_mean": 21.0,
+   "any_p05_pct": 37.0,
+   "n_p05_mean": 0.48,
+   "any_bonf_pct": 1.0,
+   "best_rate_mean_pct": 12.55,
+   "best_n_median": 389.0,
+   "next_rate_mean_pct": 10.02,
+   "next_p05_pct": 1.0,
+   "pre_p05_pct": 6.0
+  },
+  {
+   "customers": 2000,
+   "depth": "2つの組み合わせまで",
+   "cells_mean": 196.0,
+   "any_p05_pct": 98.0,
+   "n_p05_mean": 5.79,
+   "any_bonf_pct": 0.5,
+   "best_rate_mean_pct": 17.53,
+   "best_n_median": 120.5,
+   "next_rate_mean_pct": 10.27,
+   "next_p05_pct": 2.0,
+   "pre_p05_pct": 3.5
+  },
+  {
+   "customers": 2000,
+   "depth": "3つの組み合わせまで",
+   "cells_mean": 713.7,
+   "any_p05_pct": 100.0,
+   "n_p05_mean": 22.51,
+   "any_bonf_pct": 1.0,
+   "best_rate_mean_pct": 22.64,
+   "best_n_median": 62.0,
+   "next_rate_mean_pct": 10.07,
+   "next_p05_pct": 3.0,
+   "pre_p05_pct": 2.0
+  },
+  {
+   "customers": 10000,
+   "depth": "1つの項目だけ",
+   "cells_mean": 21.0,
+   "any_p05_pct": 42.5,
+   "n_p05_mean": 0.51,
+   "any_bonf_pct": 0.0,
+   "best_rate_mean_pct": 11.16,
+   "best_n_median": 1923.0,
+   "next_rate_mean_pct": 9.97,
+   "next_p05_pct": 1.5,
+   "pre_p05_pct": 3.5
+  },
+  {
+   "customers": 10000,
+   "depth": "2つの組み合わせまで",
+   "cells_mean": 196.0,
+   "any_p05_pct": 100.0,
+   "n_p05_mean": 7.35,
+   "any_bonf_pct": 2.0,
+   "best_rate_mean_pct": 13.19,
+   "best_n_median": 688.0,
+   "next_rate_mean_pct": 9.92,
+   "next_p05_pct": 4.5,
+   "pre_p05_pct": 2.0
+  },
+  {
+   "customers": 10000,
+   "depth": "3つの組み合わせまで",
+   "cells_mean": 943.0,
+   "any_p05_pct": 100.0,
+   "n_p05_mean": 35.95,
+   "any_bonf_pct": 2.0,
+   "best_rate_mean_pct": 16.81,
+   "best_n_median": 235.0,
+   "next_rate_mean_pct": 10.1,
+   "next_p05_pct": 4.5,
+   "pre_p05_pct": 4.0
+  }
+ ],
+ "grid_any_p05_range_pct": [
+  36.5,
+  100.0
+ ],
+ "grid_any_bonf_range_pct": [
+  0.0,
+  2.0
+ ],
+ "grid_next_rate_range_pct": [
+  9.46,
+  10.27
+ ],
+ "true_effect": [
+  {
+   "effect_x": 1.0,
+   "true_rate_pct": 10.0,
+   "best_is_true_pct": 0.7,
+   "true_rank_median": 108.5,
+   "pre_p05_pct": 4.3,
+   "pre_bonf_pct": 0.0,
+   "any_bonf_pct": 1.0,
+   "best_rate_mean_pct": 17.36,
+   "next_rate_mean_pct": 9.96,
+   "pre_rate_mean_pct": 9.8
+  },
+  {
+   "effect_x": 1.5,
+   "true_rate_pct": 15.0,
+   "best_is_true_pct": 10.3,
+   "true_rank_median": 25.0,
+   "pre_p05_pct": 26.0,
+   "pre_bonf_pct": 1.0,
+   "any_bonf_pct": 2.7,
+   "best_rate_mean_pct": 18.25,
+   "next_rate_mean_pct": 10.66,
+   "pre_rate_mean_pct": 14.95
+  },
+  {
+   "effect_x": 2.0,
+   "true_rate_pct": 20.0,
+   "best_is_true_pct": 30.7,
+   "true_rank_median": 4.0,
+   "pre_p05_pct": 63.0,
+   "pre_bonf_pct": 9.0,
+   "any_bonf_pct": 10.0,
+   "best_rate_mean_pct": 20.44,
+   "next_rate_mean_pct": 13.68,
+   "pre_rate_mean_pct": 19.82
+  },
+  {
+   "effect_x": 3.0,
+   "true_rate_pct": 30.0,
+   "best_is_true_pct": 89.0,
+   "true_rank_median": 1.0,
+   "pre_p05_pct": 97.7,
+   "pre_bonf_pct": 66.7,
+   "any_bonf_pct": 66.7,
+   "best_rate_mean_pct": 30.42,
+   "next_rate_mean_pct": 28.27,
+   "pre_rate_mean_pct": 30.61
+  }
+ ]
+}
