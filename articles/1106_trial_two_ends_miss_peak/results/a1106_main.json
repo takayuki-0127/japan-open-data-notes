@@ -1,0 +1,487 @@
+{
+ "base": {
+  "height": 80.0,
+  "curv": 12.0,
+  "noise": 4.0,
+  "asym": 1.0,
+  "peak_range": [
+   1200.0,
+   1240.0
+  ]
+ },
+ "range": [
+  1180.0,
+  1260.0
+ ],
+ "budget": 12,
+ "reps": 4000,
+ "reference_curve": {
+  "peak_1220_end_1180": 68.0,
+  "peak_1220_end_1260": 68.0,
+  "height": 80.0,
+  "two_end_loss_if_right_end_formula": 7.0
+ },
+ "one_trial_peak_temp": 1229.32,
+ "by_design": [
+  {
+   "design": "2温度×6個",
+   "n_temps": 2,
+   "loss_obs_mean": 7.071,
+   "loss_fit_mean": 7.071,
+   "loss_obs_gt5": 70.25,
+   "loss_fit_gt5": 70.25,
+   "pick_end_obs": 100.0,
+   "pick_end_fit": 100.0,
+   "two_ends_no_diff": 18.88,
+   "gain_hidden_mean": 7.009,
+   "no_diff_and_hidden_gt10": 13.8,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "design": "3温度×4個",
+   "n_temps": 3,
+   "loss_obs_mean": 1.186,
+   "loss_fit_mean": 0.11,
+   "loss_obs_gt5": 1.12,
+   "loss_fit_gt5": 0.0,
+   "pick_end_obs": 9.75,
+   "pick_end_fit": 0.1,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": 99.48
+  },
+  {
+   "design": "4温度×3個",
+   "n_temps": 4,
+   "loss_obs_mean": 0.788,
+   "loss_fit_mean": 0.138,
+   "loss_obs_gt5": 1.68,
+   "loss_fit_gt5": 0.03,
+   "pick_end_obs": 4.32,
+   "pick_end_fit": 0.22,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "design": "6温度×2個",
+   "n_temps": 6,
+   "loss_obs_mean": 0.973,
+   "loss_fit_mean": 0.175,
+   "loss_obs_gt5": 1.52,
+   "loss_fit_gt5": 0.15,
+   "pick_end_obs": 2.97,
+   "pick_end_fit": 0.4,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "design": "12温度×1個",
+   "n_temps": 12,
+   "loss_obs_mean": 1.066,
+   "loss_fit_mean": 0.228,
+   "loss_obs_gt5": 2.62,
+   "loss_fit_gt5": 0.25,
+   "pick_end_obs": 1.75,
+   "pick_end_fit": 0.85,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": NaN
+  }
+ ],
+ "by_peak_location": [
+  {
+   "peak_location": "真ん中寄り（1200〜1240度）",
+   "design": "2温度×6個",
+   "n_temps": 2,
+   "loss_obs_mean": 7.071,
+   "loss_fit_mean": 7.071,
+   "loss_obs_gt5": 70.25,
+   "loss_fit_gt5": 70.25,
+   "pick_end_obs": 100.0,
+   "pick_end_fit": 100.0,
+   "two_ends_no_diff": 18.88,
+   "gain_hidden_mean": 7.009,
+   "no_diff_and_hidden_gt10": 13.8,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "peak_location": "真ん中寄り（1200〜1240度）",
+   "design": "3温度×4個",
+   "n_temps": 3,
+   "loss_obs_mean": 1.186,
+   "loss_fit_mean": 0.11,
+   "loss_obs_gt5": 1.12,
+   "loss_fit_gt5": 0.0,
+   "pick_end_obs": 9.75,
+   "pick_end_fit": 0.1,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": 99.48
+  },
+  {
+   "peak_location": "真ん中寄り（1200〜1240度）",
+   "design": "4温度×3個",
+   "n_temps": 4,
+   "loss_obs_mean": 0.788,
+   "loss_fit_mean": 0.138,
+   "loss_obs_gt5": 1.68,
+   "loss_fit_gt5": 0.03,
+   "pick_end_obs": 4.32,
+   "pick_end_fit": 0.22,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "peak_location": "真ん中寄り（1200〜1240度）",
+   "design": "6温度×2個",
+   "n_temps": 6,
+   "loss_obs_mean": 0.973,
+   "loss_fit_mean": 0.175,
+   "loss_obs_gt5": 1.52,
+   "loss_fit_gt5": 0.15,
+   "pick_end_obs": 2.97,
+   "pick_end_fit": 0.4,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "peak_location": "真ん中寄り（1200〜1240度）",
+   "design": "12温度×1個",
+   "n_temps": 12,
+   "loss_obs_mean": 1.066,
+   "loss_fit_mean": 0.228,
+   "loss_obs_gt5": 2.62,
+   "loss_fit_gt5": 0.25,
+   "pick_end_obs": 1.75,
+   "pick_end_fit": 0.85,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "peak_location": "端寄り（1185〜1200度）",
+   "design": "2温度×6個",
+   "n_temps": 2,
+   "loss_obs_mean": 1.325,
+   "loss_fit_mean": 1.325,
+   "loss_obs_gt5": 0.0,
+   "loss_fit_gt5": 0.0,
+   "pick_end_obs": 100.0,
+   "pick_end_fit": 100.0,
+   "two_ends_no_diff": 0.0,
+   "gain_hidden_mean": 1.325,
+   "no_diff_and_hidden_gt10": 0.0,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "peak_location": "端寄り（1185〜1200度）",
+   "design": "3温度×4個",
+   "n_temps": 3,
+   "loss_obs_mean": 1.552,
+   "loss_fit_mean": 0.243,
+   "loss_obs_gt5": 1.45,
+   "loss_fit_gt5": 0.0,
+   "pick_end_obs": 86.72,
+   "pick_end_fit": 9.5,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": 99.52
+  },
+  {
+   "peak_location": "端寄り（1185〜1200度）",
+   "design": "4温度×3個",
+   "n_temps": 4,
+   "loss_obs_mean": 1.124,
+   "loss_fit_mean": 0.263,
+   "loss_obs_gt5": 0.0,
+   "loss_fit_gt5": 0.0,
+   "pick_end_obs": 53.12,
+   "pick_end_fit": 11.12,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "peak_location": "端寄り（1185〜1200度）",
+   "design": "6温度×2個",
+   "n_temps": 6,
+   "loss_obs_mean": 0.844,
+   "loss_fit_mean": 0.306,
+   "loss_obs_gt5": 0.78,
+   "loss_fit_gt5": 0.0,
+   "pick_end_obs": 33.83,
+   "pick_end_fit": 12.2,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "peak_location": "端寄り（1185〜1200度）",
+   "design": "12温度×1個",
+   "n_temps": 12,
+   "loss_obs_mean": 0.878,
+   "loss_fit_mean": 0.385,
+   "loss_obs_gt5": 1.82,
+   "loss_fit_gt5": 0.0,
+   "pick_end_obs": 16.2,
+   "pick_end_fit": 15.8,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "peak_location": "範囲の外（1280〜1320度、範囲の中では上り坂）",
+   "design": "2温度×6個",
+   "n_temps": 2,
+   "loss_obs_mean": 0.0,
+   "loss_fit_mean": 0.0,
+   "loss_obs_gt5": 0.0,
+   "loss_fit_gt5": 0.0,
+   "pick_end_obs": 100.0,
+   "pick_end_fit": 100.0,
+   "two_ends_no_diff": 0.0,
+   "gain_hidden_mean": 0.0,
+   "no_diff_and_hidden_gt10": 0.0,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "peak_location": "範囲の外（1280〜1320度、範囲の中では上り坂）",
+   "design": "3温度×4個",
+   "n_temps": 3,
+   "loss_obs_mean": 0.0,
+   "loss_fit_mean": 0.001,
+   "loss_obs_gt5": 0.0,
+   "loss_fit_gt5": 0.0,
+   "pick_end_obs": 100.0,
+   "pick_end_fit": 99.88,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": 99.7
+  },
+  {
+   "peak_location": "範囲の外（1280〜1320度、範囲の中では上り坂）",
+   "design": "4温度×3個",
+   "n_temps": 4,
+   "loss_obs_mean": 0.0,
+   "loss_fit_mean": 0.001,
+   "loss_obs_gt5": 0.0,
+   "loss_fit_gt5": 0.0,
+   "pick_end_obs": 100.0,
+   "pick_end_fit": 99.92,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "peak_location": "範囲の外（1280〜1320度、範囲の中では上り坂）",
+   "design": "6温度×2個",
+   "n_temps": 6,
+   "loss_obs_mean": 0.048,
+   "loss_fit_mean": 0.002,
+   "loss_obs_gt5": 0.57,
+   "loss_fit_gt5": 0.0,
+   "pick_end_obs": 99.42,
+   "pick_end_fit": 99.8,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": NaN
+  },
+  {
+   "peak_location": "範囲の外（1280〜1320度、範囲の中では上り坂）",
+   "design": "12温度×1個",
+   "n_temps": 12,
+   "loss_obs_mean": 1.112,
+   "loss_fit_mean": 0.003,
+   "loss_obs_gt5": 9.4,
+   "loss_fit_gt5": 0.0,
+   "pick_end_obs": 77.45,
+   "pick_end_fit": 99.58,
+   "two_ends_no_diff": NaN,
+   "gain_hidden_mean": NaN,
+   "no_diff_and_hidden_gt10": NaN,
+   "mid_above_ends_found": NaN
+  }
+ ],
+ "grid_summary": {
+  "n": 108,
+  "middle": {
+   "loss_2_range": [
+    3.521,
+    24.027
+   ],
+   "loss_fit3_range": [
+    0.011,
+    8.231
+   ],
+   "fit3_better_than_2": 36,
+   "two_ends_no_diff_range": [
+    2.2,
+    86.2
+   ],
+   "no_diff_hidden_gt10_range": [
+    0.0,
+    36.8
+   ],
+   "mid_above_ends_found_3_range": [
+    19.1,
+    100.0
+   ],
+   "fit3_better_than_2_shape1": 18,
+   "fit3_minus_obs3_shape1": [
+    -4.589,
+    -0.175
+   ],
+   "fit3_minus_obs3_shape2": [
+    -2.264,
+    -0.401
+   ],
+   "best_way_counts": {
+    "3温度・曲線": 13,
+    "12温度・良かった温度": 8,
+    "4温度・曲線": 5,
+    "12温度・曲線": 5,
+    "6温度・曲線": 3,
+    "4温度・良かった温度": 2
+   },
+   "best_way_is_curve": 26,
+   "best_way_counts_sharp_asym": {
+    "12温度・良かった温度": 6,
+    "4温度・良かった温度": 2,
+    "3温度・曲線": 1
+   },
+   "fit3_loss_sharp_asym": [
+    2.099,
+    8.231
+   ],
+   "obs12_loss_sharp_asym": [
+    1.18,
+    4.762
+   ],
+   "n": 36
+  },
+  "near_end": {
+   "loss_2_range": [
+    0.644,
+    7.515
+   ],
+   "loss_fit3_range": [
+    0.038,
+    7.333
+   ],
+   "fit3_better_than_2": 35,
+   "two_ends_no_diff_range": [
+    0.0,
+    55.8
+   ],
+   "no_diff_hidden_gt10_range": [
+    0.0,
+    0.0
+   ],
+   "mid_above_ends_found_3_range": [
+    9.9,
+    100.0
+   ],
+   "fit3_better_than_2_shape1": 17,
+   "fit3_minus_obs3_shape1": [
+    -2.997,
+    -0.008
+   ],
+   "fit3_minus_obs3_shape2": [
+    -2.674,
+    -0.61
+   ],
+   "best_way_counts": {
+    "3温度・曲線": 17,
+    "12温度・良かった温度": 12,
+    "6温度・良かった温度": 2,
+    "4温度・曲線": 2,
+    "12温度・曲線": 2,
+    "2温度": 1
+   },
+   "best_way_is_curve": 21,
+   "best_way_counts_sharp_asym": {
+    "12温度・良かった温度": 8,
+    "3温度・曲線": 1
+   },
+   "fit3_loss_sharp_asym": [
+    1.656,
+    7.333
+   ],
+   "obs12_loss_sharp_asym": [
+    0.953,
+    4.044
+   ],
+   "n": 36
+  },
+  "outside": {
+   "loss_2_range": [
+    0.0,
+    0.096
+   ],
+   "loss_fit3_range": [
+    0.0,
+    0.981
+   ],
+   "fit3_better_than_2": 0,
+   "two_ends_no_diff_range": [
+    0.0,
+    27.8
+   ],
+   "no_diff_hidden_gt10_range": [
+    0.0,
+    0.0
+   ],
+   "mid_above_ends_found_3_range": [
+    3.8,
+    100.0
+   ],
+   "fit3_better_than_2_shape1": 0,
+   "fit3_minus_obs3_shape1": [
+    -0.039,
+    0.197
+   ],
+   "fit3_minus_obs3_shape2": [
+    0.0,
+    0.264
+   ],
+   "best_way_counts": {
+    "2温度": 36
+   },
+   "best_way_is_curve": 0,
+   "best_way_counts_sharp_asym": {
+    "2温度": 9
+   },
+   "fit3_loss_sharp_asym": [
+    0.0,
+    0.981
+   ],
+   "obs12_loss_sharp_asym": [
+    0.288,
+    3.465
+   ],
+   "n": 36
+  },
+  "inside_fit3_better_than_2": 71,
+  "inside_n": 72,
+  "outside_two_ends_min_or_tie": 36
+ }
+}

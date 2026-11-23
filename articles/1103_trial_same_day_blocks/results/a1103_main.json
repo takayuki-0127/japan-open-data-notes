@@ -1,0 +1,94 @@
+{
+ "setting": {
+  "days": 8,
+  "per_day": 2,
+  "day_sd": 1.5,
+  "print_sd": 1.0,
+  "ink_day_sd": 0.0,
+  "true_diff": -1.0,
+  "level": 30.0
+ },
+ "reps": 20000,
+ "grid_reps": 4000,
+ "base": {
+  "sep_sd": 1.1853,
+  "same_sd": 0.5028,
+  "sep_mean": -1.0061,
+  "same_mean": -0.9949,
+  "sep_sd_formula": 1.1726,
+  "same_sd_formula": 0.5,
+  "sd_ratio": 0.4241,
+  "sd_ratio_formula": 0.4264,
+  "sep_within05": 32.23,
+  "same_within05": 67.74,
+  "sep_print_power": 28.11,
+  "sep_print_false": 14.79,
+  "sep_day_power": 11.56,
+  "sep_day_false": 4.89,
+  "same_pair_power": 40.89,
+  "same_pair_false": 4.98,
+  "same_ignore_power": 8.76,
+  "same_ignore_false": 0.27
+ },
+ "reduction_pct_base": 57.59,
+ "reduction_pct_base_formula": 57.36,
+ "grid_sd_ratio_range": [
+  0.2268,
+  1.0083
+ ],
+ "grid_max_abs_ratio_minus_formula": 0.0292,
+ "grid_dayzero_sd_ratio_range": [
+  0.8749,
+  1.0083
+ ],
+ "grid_dayzero_power_pair_minus_sepday": [
+  -0.33,
+  10.55
+ ],
+ "grid_daypos_power_pair_minus_sepday": [
+  4.03,
+  66.73
+ ],
+ "grid_sep_print_false_range": [
+  5.03,
+  24.82
+ ],
+ "grid_sep_print_false_dayzero_range": [
+  5.03,
+  9.78
+ ],
+ "grid_sep_day_false_range": [
+  4.58,
+  6.02
+ ],
+ "grid_same_pair_false_range": [
+  4.0,
+  5.85
+ ],
+ "grid_same_ignore_false_range": [
+  0.0,
+  5.65
+ ],
+ "grid_n_cases": 45,
+ "days8_inkday0.0_ratio_by_day_sd": {
+  "0.0": 1.0003,
+  "0.5": 0.8033,
+  "1.0": 0.5882,
+  "1.5": 0.4321,
+  "3.0": 0.2268
+ },
+ "days8_inkday0.5_ratio_by_day_sd": {
+  "0.0": 0.9489,
+  "0.5": 0.7872,
+  "1.0": 0.5881,
+  "1.5": 0.4328,
+  "3.0": 0.2408
+ },
+ "days8_inkday1.0_ratio_by_day_sd": {
+  "0.0": 0.8845,
+  "0.5": 0.7887,
+  "1.0": 0.5967,
+  "1.5": 0.4884,
+  "3.0": 0.2704
+ }
+}

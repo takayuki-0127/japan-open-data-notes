@@ -1,0 +1,283 @@
+{
+ "base": {
+  "delta": 0.3,
+  "sheet_sd": 1.0,
+  "grader_noise": 0.8,
+  "bias_mean": 0.4,
+  "bias_sd": 0.3,
+  "n_sheets": 30,
+  "n_graders": 1,
+  "center": 5.5
+ },
+ "reps": 4000,
+ "true_diff_points": {
+  "0.0": 0.0,
+  "0.3": 0.3006,
+  "0.6": 0.5991
+ },
+ "formula": {
+  "known_diff_formula": 0.7006,
+  "known_ratio_formula": 2.331
+ },
+ "by_design": [
+  {
+   "true_effect": 0.3,
+   "true_diff_points": 0.3006,
+   "design": "知っている1人",
+   "diff_median": 0.7,
+   "diff_p10": 0.133,
+   "diff_p90": 1.3,
+   "ratio_to_true": 2.329,
+   "share_B_better_judged": 54.43,
+   "share_A_better_judged": 0.2,
+   "se_median": 0.338
+  },
+  {
+   "true_effect": 0.3,
+   "true_diff_points": 0.3006,
+   "design": "知らない1人",
+   "diff_median": 0.3,
+   "diff_p10": -0.133,
+   "diff_p90": 0.733,
+   "ratio_to_true": 0.998,
+   "share_B_better_judged": 13.9,
+   "share_A_better_judged": 0.35,
+   "se_median": 0.337
+  },
+  {
+   "true_effect": 0.3,
+   "true_diff_points": 0.3006,
+   "design": "知っている3人の平均",
+   "diff_median": 0.7,
+   "diff_p10": 0.278,
+   "diff_p90": 1.111,
+   "ratio_to_true": 2.329,
+   "share_B_better_judged": 66.27,
+   "share_A_better_judged": 0.0,
+   "se_median": 0.286
+  },
+  {
+   "true_effect": 0.3,
+   "true_diff_points": 0.3006,
+   "design": "知らない3人の平均",
+   "diff_median": 0.311,
+   "diff_p10": -0.078,
+   "diff_p90": 0.678,
+   "ratio_to_true": 1.035,
+   "share_B_better_judged": 19.02,
+   "share_A_better_judged": 0.22,
+   "se_median": 0.286
+  },
+  {
+   "true_effect": 0.0,
+   "true_diff_points": 0.0,
+   "design": "知っている1人",
+   "diff_median": 0.4,
+   "diff_p10": -0.167,
+   "diff_p90": 0.97,
+   "ratio_to_true": NaN,
+   "share_B_better_judged": 28.1,
+   "share_A_better_judged": 0.78,
+   "se_median": 0.337
+  },
+  {
+   "true_effect": 0.0,
+   "true_diff_points": 0.0,
+   "design": "知らない1人",
+   "diff_median": 0.0,
+   "diff_p10": -0.433,
+   "diff_p90": 0.4,
+   "ratio_to_true": NaN,
+   "share_B_better_judged": 2.15,
+   "share_A_better_judged": 2.62,
+   "se_median": 0.337
+  },
+  {
+   "true_effect": 0.0,
+   "true_diff_points": 0.0,
+   "design": "知っている3人の平均",
+   "diff_median": 0.411,
+   "diff_p10": -0.022,
+   "diff_p90": 0.822,
+   "ratio_to_true": NaN,
+   "share_B_better_judged": 31.97,
+   "share_A_better_judged": 0.35,
+   "se_median": 0.285
+  },
+  {
+   "true_effect": 0.0,
+   "true_diff_points": 0.0,
+   "design": "知らない3人の平均",
+   "diff_median": -0.011,
+   "diff_p10": -0.367,
+   "diff_p90": 0.367,
+   "ratio_to_true": NaN,
+   "share_B_better_judged": 2.6,
+   "share_A_better_judged": 2.2,
+   "se_median": 0.287
+  }
+ ],
+ "by_sheets_null": [
+  {
+   "n_sheets": 10,
+   "design": "知っている1人",
+   "share_B_better_judged": 14.72,
+   "share_formula": 13.04,
+   "diff_median": 0.4
+  },
+  {
+   "n_sheets": 10,
+   "design": "知らない1人",
+   "share_B_better_judged": 3.6,
+   "share_formula": 2.5,
+   "diff_median": 0.0
+  },
+  {
+   "n_sheets": 10,
+   "design": "知っている3人の平均",
+   "share_B_better_judged": 15.7,
+   "share_formula": 13.98,
+   "diff_median": 0.4
+  },
+  {
+   "n_sheets": 30,
+   "design": "知っている1人",
+   "share_B_better_judged": 28.1,
+   "share_formula": 28.2,
+   "diff_median": 0.4
+  },
+  {
+   "n_sheets": 30,
+   "design": "知らない1人",
+   "share_B_better_judged": 2.15,
+   "share_formula": 2.5,
+   "diff_median": 0.0
+  },
+  {
+   "n_sheets": 30,
+   "design": "知っている3人の平均",
+   "share_B_better_judged": 31.97,
+   "share_formula": 31.79,
+   "diff_median": 0.411
+  },
+  {
+   "n_sheets": 100,
+   "design": "知っている1人",
+   "share_B_better_judged": 54.43,
+   "share_formula": 54.13,
+   "diff_median": 0.4
+  },
+  {
+   "n_sheets": 100,
+   "design": "知らない1人",
+   "share_B_better_judged": 3.1,
+   "share_formula": 2.5,
+   "diff_median": 0.0
+  },
+  {
+   "n_sheets": 100,
+   "design": "知っている3人の平均",
+   "share_B_better_judged": 65.38,
+   "share_formula": 65.33,
+   "diff_median": 0.403
+  },
+  {
+   "n_sheets": 300,
+   "design": "知っている1人",
+   "share_B_better_judged": 72.2,
+   "share_formula": 72.46,
+   "diff_median": 0.403
+  },
+  {
+   "n_sheets": 300,
+   "design": "知らない1人",
+   "share_B_better_judged": 2.53,
+   "share_formula": 2.5,
+   "diff_median": 0.0
+  },
+  {
+   "n_sheets": 300,
+   "design": "知っている3人の平均",
+   "share_B_better_judged": 87.12,
+   "share_formula": 87.17,
+   "diff_median": 0.401
+  }
+ ],
+ "grid_summary": {
+  "n": 144,
+  "null_known_B_better_range_biased": [
+   6.2,
+   99.8
+  ],
+  "null_blind_B_better_range": [
+   2.0,
+   4.67
+  ],
+  "null_known_B_better_bias0_sd0_range": [
+   2.07,
+   3.53
+  ],
+  "null_known_B_better_bias0_sd03_1grader": [
+   {
+    "n_sheets": 10,
+    "known_B_better": 5.6
+   },
+   {
+    "n_sheets": 30,
+    "known_B_better": 7.27
+   },
+   {
+    "n_sheets": 100,
+    "known_B_better": 13.27
+   }
+  ],
+  "null_known_B_better_bias0_sd03_3graders": [
+   {
+    "n_sheets": 10,
+    "known_B_better": 3.93
+   },
+   {
+    "n_sheets": 30,
+    "known_B_better": 5.27
+   },
+   {
+    "n_sheets": 100,
+    "known_B_better": 9.53
+   }
+  ],
+  "known_ratio_range_biased": [
+   1.302,
+   3.733
+  ],
+  "known_minus_blind_vs_bias": {
+   "0.0": [
+    -0.033,
+    0.05
+   ],
+   "0.2": [
+    0.167,
+    0.233
+   ],
+   "0.4": [
+    0.367,
+    0.433
+   ],
+   "0.8": [
+    0.767,
+    0.833
+   ]
+  },
+  "null_biased_known_rises_with_n": 12,
+  "null_biased_cases": 12,
+  "known_minus_blind_minus_bias_maxabs": 0.05,
+  "rows_null_biased": 36,
+  "rows_null": 48,
+  "rows_pos_biased": 72
+ },
+ "one_trial": {
+  "known_grader_bias": 0.739,
+  "known_diff": 0.767,
+  "blind_diff": 0.4,
+  "true_look_diff": 0.371
+ }
+}

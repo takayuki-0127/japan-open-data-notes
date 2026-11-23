@@ -1,0 +1,269 @@
+{
+ "base": {
+  "mean_center": 50.0,
+  "mean_spread": 5.0,
+  "sd_typical": 4.0,
+  "sd_hetero": 0.5,
+  "budget": 24
+ },
+ "limit": 55.0,
+ "ratio_fail_k24_over_k6": 1.783,
+ "reps": 4000,
+ "pool": {
+  "pool_fail_mean": 21.74,
+  "pool_best_fail_mean": 0.004,
+  "pool_lowest_mean_fail_mean": 0.8,
+  "pool_lowest_mean_is_best": 29.48,
+  "hi_sd_share_baseline": 25.0
+ },
+ "by_design": [
+  {
+   "design": "2通り×12枚",
+   "k": 2,
+   "r": 12,
+   "pick_fail_mean": 9.01,
+   "pick_fail_median": 2.09,
+   "pick_obs_fail_mean": 8.17,
+   "pick_mean_gap_mean": -0.196,
+   "pick_looks_better_by": 0.196,
+   "pick_hi_sd_share": 23.77,
+   "pick_is_best_tested": 84.0,
+   "pick_is_pool_best": 7.62,
+   "best_tested_fail_mean": 7.88,
+   "pick_sd_ratio_median": 0.967,
+   "pick_sd_under_half": 0.53,
+   "pick_true_mean_mean": 47.213
+  },
+  {
+   "design": "3通り×8枚",
+   "k": 3,
+   "r": 8,
+   "pick_fail_mean": 5.72,
+   "pick_fail_median": 0.87,
+   "pick_obs_fail_mean": 4.44,
+   "pick_mean_gap_mean": -0.406,
+   "pick_looks_better_by": 0.406,
+   "pick_hi_sd_share": 25.15,
+   "pick_is_best_tested": 71.47,
+   "pick_is_pool_best": 9.78,
+   "best_tested_fail_mean": 3.7,
+   "pick_sd_ratio_median": 0.962,
+   "pick_sd_under_half": 2.45,
+   "pick_true_mean_mean": 45.954
+  },
+  {
+   "design": "4通り×6枚",
+   "k": 4,
+   "r": 6,
+   "pick_fail_mean": 4.29,
+   "pick_fail_median": 0.38,
+   "pick_obs_fail_mean": 2.73,
+   "pick_mean_gap_mean": -0.56,
+   "pick_looks_better_by": 0.56,
+   "pick_hi_sd_share": 24.57,
+   "pick_is_best_tested": 64.22,
+   "pick_is_pool_best": 11.88,
+   "best_tested_fail_mean": 2.12,
+   "pick_sd_ratio_median": 0.925,
+   "pick_sd_under_half": 5.97,
+   "pick_true_mean_mean": 45.194
+  },
+  {
+   "design": "6通り×4枚",
+   "k": 6,
+   "r": 4,
+   "pick_fail_mean": 3.59,
+   "pick_fail_median": 0.19,
+   "pick_obs_fail_mean": 1.24,
+   "pick_mean_gap_mean": -1.146,
+   "pick_looks_better_by": 1.146,
+   "pick_hi_sd_share": 27.35,
+   "pick_is_best_tested": 50.82,
+   "pick_is_pool_best": 14.65,
+   "best_tested_fail_mean": 0.75,
+   "pick_sd_ratio_median": 0.894,
+   "pick_sd_under_half": 14.17,
+   "pick_true_mean_mean": 44.217
+  },
+  {
+   "design": "8通り×3枚",
+   "k": 8,
+   "r": 3,
+   "pick_fail_mean": 3.67,
+   "pick_fail_median": 0.16,
+   "pick_obs_fail_mean": 0.89,
+   "pick_mean_gap_mean": -1.66,
+   "pick_looks_better_by": 1.66,
+   "pick_hi_sd_share": 31.3,
+   "pick_is_best_tested": 41.75,
+   "pick_is_pool_best": 16.05,
+   "best_tested_fail_mean": 0.34,
+   "pick_sd_ratio_median": 0.828,
+   "pick_sd_under_half": 23.3,
+   "pick_true_mean_mean": 43.695
+  },
+  {
+   "design": "12通り×2枚",
+   "k": 12,
+   "r": 2,
+   "pick_fail_mean": 4.19,
+   "pick_fail_median": 0.15,
+   "pick_obs_fail_mean": 0.3,
+   "pick_mean_gap_mean": -2.961,
+   "pick_looks_better_by": 2.961,
+   "pick_hi_sd_share": 35.65,
+   "pick_is_best_tested": 29.83,
+   "pick_is_pool_best": 16.7,
+   "best_tested_fail_mean": 0.09,
+   "pick_sd_ratio_median": 0.673,
+   "pick_sd_under_half": 37.65,
+   "pick_true_mean_mean": 43.158
+  },
+  {
+   "design": "24通り×1枚",
+   "k": 24,
+   "r": 1,
+   "pick_fail_mean": 6.4,
+   "pick_fail_median": 0.62,
+   "pick_obs_fail_mean": 0.0,
+   "pick_mean_gap_mean": -6.803,
+   "pick_looks_better_by": 6.803,
+   "pick_hi_sd_share": 47.2,
+   "pick_is_best_tested": 13.43,
+   "pick_is_pool_best": 13.98,
+   "best_tested_fail_mean": 0.0,
+   "pick_sd_ratio_median": NaN,
+   "pick_sd_under_half": NaN,
+   "pick_true_mean_mean": 43.245
+  },
+  {
+   "design": "12通り×1枚→良い3通り×4枚",
+   "k": 12,
+   "r": 0,
+   "pick_fail_mean": 2.26,
+   "pick_fail_median": 0.03,
+   "pick_obs_fail_mean": 0.81,
+   "pick_mean_gap_mean": -1.044,
+   "pick_looks_better_by": 1.044,
+   "pick_hi_sd_share": 26.52,
+   "pick_is_best_tested": 37.33,
+   "pick_is_pool_best": 20.65,
+   "best_tested_fail_mean": 0.09,
+   "pick_sd_ratio_median": 0.902,
+   "pick_sd_under_half": 14.35,
+   "pick_true_mean_mean": 42.595
+  }
+ ],
+ "control_same_sd": [
+  {
+   "design": "2通り×12枚",
+   "pick_fail_mean": 8.6,
+   "pick_obs_fail_mean": 7.85,
+   "pick_mean_gap_mean": -0.147,
+   "pick_looks_better_by": 0.147,
+   "pick_is_pool_best": 8.45
+  },
+  {
+   "design": "3通り×8枚",
+   "pick_fail_mean": 4.74,
+   "pick_obs_fail_mean": 3.71,
+   "pick_mean_gap_mean": -0.331,
+   "pick_looks_better_by": 0.331,
+   "pick_is_pool_best": 12.32
+  },
+  {
+   "design": "4通り×6枚",
+   "pick_fail_mean": 3.24,
+   "pick_obs_fail_mean": 1.97,
+   "pick_mean_gap_mean": -0.542,
+   "pick_looks_better_by": 0.542,
+   "pick_is_pool_best": 15.72
+  },
+  {
+   "design": "6通り×4枚",
+   "pick_fail_mean": 1.92,
+   "pick_obs_fail_mean": 0.57,
+   "pick_mean_gap_mean": -0.897,
+   "pick_looks_better_by": 0.897,
+   "pick_is_pool_best": 22.23
+  },
+  {
+   "design": "8通り×3枚",
+   "pick_fail_mean": 1.38,
+   "pick_obs_fail_mean": 0.22,
+   "pick_mean_gap_mean": -1.34,
+   "pick_looks_better_by": 1.34,
+   "pick_is_pool_best": 26.88
+  },
+  {
+   "design": "12通り×2枚",
+   "pick_fail_mean": 0.98,
+   "pick_obs_fail_mean": 0.04,
+   "pick_mean_gap_mean": -2.214,
+   "pick_looks_better_by": 2.214,
+   "pick_is_pool_best": 33.25
+  },
+  {
+   "design": "24通り×1枚",
+   "pick_fail_mean": 0.93,
+   "pick_obs_fail_mean": 0.0,
+   "pick_mean_gap_mean": -4.891,
+   "pick_looks_better_by": 4.891,
+   "pick_is_pool_best": 42.38
+  }
+ ],
+ "grid_summary": {
+  "n": 54,
+  "best_k_counts": {
+   "3": 5,
+   "4": 7,
+   "6": 12,
+   "8": 8,
+   "12": 11,
+   "24": 11
+  },
+  "best_k_counts_same_sd": {
+   "8": 2,
+   "12": 7,
+   "24": 9
+  },
+  "best_k_counts_hetero": {
+   "3": 5,
+   "4": 7,
+   "6": 12,
+   "8": 6,
+   "12": 4,
+   "24": 2
+  },
+  "k24_over_best_ratio_hetero": [
+   1.0,
+   4.051
+  ],
+  "k24_worse_than_k6_hetero": 31,
+  "k24_worse_than_k6_same_sd": 4,
+  "best_k_is_middle": 43,
+  "gap_k24_range": [
+   -30.475,
+   -0.335
+  ],
+  "looks_better_k24_range": [
+   0.335,
+   30.475
+  ],
+  "best_k_12_or_24_same_sd": 16,
+  "best_k_3_to_8_hetero": 30,
+  "obs_fail_k24_max": 5.8,
+  "hi_sd_k24_range_hetero": [
+   24.6,
+   81.9
+  ],
+  "hi_sd_k2_range_hetero": [
+   23.1,
+   27.2
+  ],
+  "hi_sd_k24_gt_k2_hetero": 35,
+  "n_hetero": 36,
+  "k24_worse_than_k6": 35,
+  "k2_worse_than_k6": 46
+ }
+}

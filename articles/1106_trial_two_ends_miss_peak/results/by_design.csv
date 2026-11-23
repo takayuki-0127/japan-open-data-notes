@@ -1,0 +1,6 @@
+design,n_temps,loss_obs_mean,loss_fit_mean,loss_obs_gt5,loss_fit_gt5,pick_end_obs,pick_end_fit,two_ends_no_diff,gain_hidden_mean,no_diff_and_hidden_gt10,mid_above_ends_found
+2温度×6個,2,7.071,7.071,70.25,70.25,100.0,100.0,18.88,7.009,13.8,
+3温度×4個,3,1.186,0.11,1.12,0.0,9.75,0.1,,,,99.48
+4温度×3個,4,0.788,0.138,1.68,0.03,4.32,0.22,,,,
+6温度×2個,6,0.973,0.175,1.52,0.15,2.97,0.4,,,,
+12温度×1個,12,1.066,0.228,2.62,0.25,1.75,0.85,,,,
