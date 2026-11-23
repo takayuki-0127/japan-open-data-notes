@@ -1,0 +1,71 @@
+{
+ "n_bug": 300,
+ "rate": 0.1,
+ "base_setting": {
+  "cv": 1.0,
+  "weeks": 10,
+  "effort": "一定"
+ },
+ "reps": 300,
+ "one_draw": {
+  "found_by_week10": 157,
+  "true_remaining_week10": 143,
+  "curve_total": 219.19,
+  "curve_remaining": 62.19,
+  "found_by_week20": 211,
+  "curve_says_by_week20": 202.58,
+  "findability_mean_found": 1.5211,
+  "findability_mean_left": 0.5584
+ },
+ "base_300reps": {
+  "curve_weeks": {
+   "median": 0.29,
+   "p10": 0.16,
+   "p90": 0.56,
+   "share_within_25pct": 0.0333,
+   "share_below_half": 0.8633
+  },
+  "curve_effort": {
+   "median": 0.29,
+   "p10": 0.16,
+   "p90": 0.56,
+   "share_within_25pct": 0.0333,
+   "share_below_half": 0.8633
+  },
+  "two_groups": {
+   "median": 0.33,
+   "p10": 0.24,
+   "p90": 0.48,
+   "share_within_25pct": 0.0,
+   "share_below_half": 0.91
+  },
+  "true_remaining_mean": 149.15,
+  "found_mean": 150.85
+ },
+ "grid_n": 18,
+ "cv0_const_curve_weeks_median_range": [
+  1.01,
+  1.05
+ ],
+ "cv0_two_groups_median_range": [
+  0.99,
+  1.03
+ ],
+ "het_curve_weeks_median_range": [
+  0.03,
+  0.38
+ ],
+ "het_curve_effort_median_range": [
+  0.03,
+  0.38
+ ],
+ "het_two_groups_median_range": [
+  0.07,
+  0.4
+ ],
+ "het_n": 12,
+ "het_curve_weeks_median_below_1": 12,
+ "het_two_groups_median_below_1": 12,
+ "drop_effort_curve_weeks_lower_than_const": 8,
+ "drop_effort_pairs_n": 9
+}

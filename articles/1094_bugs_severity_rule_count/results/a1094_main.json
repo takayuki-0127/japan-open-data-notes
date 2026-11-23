@@ -1,0 +1,168 @@
+{
+ "n_per_month_mean": 400,
+ "users_share_median": 0.01,
+ "base_setting": {
+  "u_sd": 1.5,
+  "stop_mix": "基本",
+  "err": "基本"
+ },
+ "stop_mix": {
+  "軽め": [
+   0.45,
+   0.35,
+   0.15,
+   0.05
+  ],
+  "基本": [
+   0.35,
+   0.35,
+   0.22,
+   0.08
+  ],
+  "重め": [
+   0.25,
+   0.3,
+   0.3,
+   0.15
+  ]
+ },
+ "judge_error": {
+  "なし": {
+   "users_log_sd": 0.0,
+   "stop_shift_prob": 0.0
+  },
+  "基本": {
+   "users_log_sd": 0.7,
+   "stop_shift_prob": 0.15
+  },
+  "大きい": {
+   "users_log_sd": 1.2,
+   "stop_shift_prob": 0.3
+  }
+ },
+ "rules": {
+  "R1": "止まり方が「機能が使えない」以上",
+  "R2": "利用者の割合10%以上",
+  "R3": "「機能が使えない」以上 かつ 利用者1%以上",
+  "R4": "「データが壊れる」、または「機能が使えない」かつ利用者10%以上"
+ },
+ "one_month": {
+  "count_true": {
+   "R1": 117,
+   "R2": 28,
+   "R3": 56,
+   "R4": 27
+  },
+  "count_judged": {
+   "R1": 123,
+   "R2": 29,
+   "R3": 54,
+   "R4": 32
+  },
+  "max_over_min_true": 4.33,
+  "any_rule": 137,
+  "all_rules": 8,
+  "all_over_any": 0.0584,
+  "R2_threshold_counts": {
+   "5%": 57,
+   "10%": 28,
+   "20%": 6
+  },
+  "users_5_to_20pct": 51,
+  "stop_level_counts": {
+   "見た目だけ": 151,
+   "回り道できる": 132,
+   "機能が使えない": 98,
+   "データが壊れる": 19
+  }
+ },
+ "base_400months": {
+  "R1": {
+   "label": "止まり方が「機能が使えない」以上",
+   "true_mean": 119.81,
+   "judged_mean": 123.89,
+   "judged_over_true": 1.03,
+   "true_p10": 106.9,
+   "true_p90": 133.0,
+   "two_agree": 0.7739,
+   "judged_hit": 0.9144
+  },
+  "R2": {
+   "label": "利用者の割合10%以上",
+   "true_mean": 24.85,
+   "judged_mean": 33.05,
+   "judged_over_true": 1.33,
+   "true_p10": 19.0,
+   "true_p90": 31.0,
+   "two_agree": 0.3922,
+   "judged_hit": 0.5765
+  },
+  "R3": {
+   "label": "「機能が使えない」以上 かつ 利用者1%以上",
+   "true_mean": 59.89,
+   "judged_mean": 61.86,
+   "judged_over_true": 1.03,
+   "true_p10": 50.9,
+   "true_p90": 70.0,
+   "two_agree": 0.5437,
+   "judged_hit": 0.7894
+  },
+  "R4": {
+   "label": "「データが壊れる」、または「機能が使えない」かつ利用者10%以上",
+   "true_mean": 37.65,
+   "judged_mean": 43.5,
+   "judged_over_true": 1.16,
+   "true_p10": 30.0,
+   "true_p90": 44.1,
+   "two_agree": 0.5913,
+   "judged_hit": 0.7811
+  },
+  "all_rules_share_of_any": 0.0539
+ },
+ "rule_change_12months": {
+  "R3_judged_month_p10": 52.0,
+  "R3_judged_month_p90": 72.0,
+  "R3_judged_month_max_over_min_in_12": 1.7,
+  "first6_mean": 66.0,
+  "last6_mean": 128.0,
+  "jump_ratio": 1.94
+ },
+ "grid_n": 27,
+ "grid_max_over_min_rules_true_range": [
+  2.78,
+  42.19
+ ],
+ "grid_all_rules_share_of_any_range": [
+  0.0086,
+  0.1088
+ ],
+ "grid_with_error_n": 18,
+ "grid_with_error_R2_judged_over_true_range": [
+  1.1,
+  6.6
+ ],
+ "grid_with_error_R2_over_1": 18,
+ "grid_with_error_R4_judged_over_true_range": [
+  1.07,
+  1.45
+ ],
+ "grid_with_error_R4_over_1": 18,
+ "grid_with_error_two_agree_range": {
+  "R1": [
+   0.5662,
+   0.8304
+  ],
+  "R2": [
+   0.1264,
+   0.5461
+  ],
+  "R3": [
+   0.2981,
+   0.6269
+  ],
+  "R4": [
+   0.4023,
+   0.6563
+  ]
+ }
+}

@@ -1,0 +1,236 @@
+{
+ "settings": {
+  "n_tests": 1500,
+  "n_flaky": 60,
+  "flaky_beta": [
+   1.0,
+   19.0
+  ],
+  "share_intermittent": 0.3,
+  "bug_beta": [
+   2.0,
+   3.0
+  ],
+  "builds": 10,
+  "flag_min": 2,
+  "reruns": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "n_bugs": 20000,
+  "n_builds_clean": 4000,
+  "grid_bugs": 6000,
+  "grid_builds": 1500,
+  "seed": 1091,
+  "flaky_fail_mean": 0.05,
+  "bug_fail_mean": 0.4
+ },
+ "by_reruns": [
+  {
+   "k": 0,
+   "miss_build_all": 0.1781,
+   "miss_build_intermittent": 0.6026,
+   "rerun_hides_among_first_fail": 0.0,
+   "miss_10builds_all": 0.0194,
+   "miss_10builds_intermittent": 0.0658,
+   "mean_build_detected_intermittent": 2.5717,
+   "flagged_intermittent_missed10": 0.0,
+   "flagged_or_red_intermittent": 0.9342,
+   "red_build_share_clean": 0.9553,
+   "red_tests_per_build_clean": 2.9872,
+   "flaky_flagged_per_10": 0.0,
+   "miss_build_intermittent_formula": 0.6,
+   "miss_build_all_formula": 0.18,
+   "rerun_hides_among_first_fail_formula": 0.0
+  },
+  {
+   "k": 1,
+   "miss_build_all": 0.2412,
+   "miss_build_intermittent": 0.7974,
+   "rerun_hides_among_first_fail": 0.4917,
+   "miss_10builds_all": 0.0903,
+   "miss_10builds_intermittent": 0.2986,
+   "mean_build_detected_intermittent": 3.5167,
+   "flagged_intermittent_missed10": 0.4997,
+   "flagged_or_red_intermittent": 0.8506,
+   "red_build_share_clean": 0.2687,
+   "red_tests_per_build_clean": 0.3157,
+   "flaky_flagged_per_10": 5.75,
+   "miss_build_intermittent_formula": 0.8,
+   "miss_build_all_formula": 0.24,
+   "rerun_hides_among_first_fail_formula": 0.5
+  },
+  {
+   "k": 2,
+   "miss_build_all": 0.2684,
+   "miss_build_intermittent": 0.8896,
+   "rerun_hides_among_first_fail": 0.7249,
+   "miss_10builds_all": 0.1578,
+   "miss_10builds_intermittent": 0.5229,
+   "mean_build_detected_intermittent": 3.9201,
+   "flagged_intermittent_missed10": 0.6694,
+   "flagged_or_red_intermittent": 0.8271,
+   "red_build_share_clean": 0.0393,
+   "red_tests_per_build_clean": 0.0398,
+   "flaky_flagged_per_10": 6.3525,
+   "miss_build_intermittent_formula": 0.8857,
+   "miss_build_all_formula": 0.2657,
+   "rerun_hides_among_first_fail_formula": 0.7143
+  },
+  {
+   "k": 3,
+   "miss_build_all": 0.2802,
+   "miss_build_intermittent": 0.9258,
+   "rerun_hides_among_first_fail": 0.8137,
+   "miss_10builds_all": 0.2016,
+   "miss_10builds_intermittent": 0.6664,
+   "mean_build_detected_intermittent": 4.1352,
+   "flagged_intermittent_missed10": 0.7379,
+   "flagged_or_red_intermittent": 0.8253,
+   "red_build_share_clean": 0.006,
+   "red_tests_per_build_clean": 0.006,
+   "flaky_flagged_per_10": 6.58,
+   "miss_build_intermittent_formula": 0.9286,
+   "miss_build_all_formula": 0.2786,
+   "rerun_hides_among_first_fail_formula": 0.8214
+  }
+ ],
+ "by_fail_prob_k1": [
+  {
+   "band": "0〜0.2",
+   "n": 1047,
+   "miss_build": 0.9828,
+   "miss_10builds": 0.8243,
+   "flagged_or_red": 0.404,
+   "not_flagged_not_red": 0.596
+  },
+  {
+   "band": "0.2〜0.4",
+   "n": 2105,
+   "miss_build": 0.895,
+   "miss_10builds": 0.3815,
+   "flagged_or_red": 0.877,
+   "not_flagged_not_red": 0.123
+  },
+  {
+   "band": "0.4〜0.6",
+   "n": 1806,
+   "miss_build": 0.7597,
+   "miss_10builds": 0.0753,
+   "flagged_or_red": 0.9884,
+   "not_flagged_not_red": 0.0116
+  },
+  {
+   "band": "0.6〜0.8",
+   "n": 923,
+   "miss_build": 0.5439,
+   "miss_10builds": 0.0054,
+   "flagged_or_red": 1.0,
+   "not_flagged_not_red": 0.0
+  },
+  {
+   "band": "0.8〜1",
+   "n": 170,
+   "miss_build": 0.2235,
+   "miss_10builds": 0.0,
+   "flagged_or_red": 1.0,
+   "not_flagged_not_red": 0.0
+  }
+ ],
+ "grid27_ranges": {
+  "k0_miss_build_all": [
+   0.037,
+   0.4048
+  ],
+  "k0_miss_10builds_all": [
+   0.0002,
+   0.1482
+  ],
+  "k0_red_build_clean": [
+   0.622,
+   1.0
+  ],
+  "k0_flaky_flagged_per_10": [
+   0.0,
+   0.0
+  ],
+  "k0_flagged_or_red_intermittent": [
+   0.6976,
+   0.9983
+  ],
+  "k1_miss_build_all": [
+   0.0525,
+   0.472
+  ],
+  "k1_miss_10builds_all": [
+   0.0067,
+   0.3358
+  ],
+  "k1_red_build_clean": [
+   0.084,
+   0.522
+  ],
+  "k1_flaky_flagged_per_10": [
+   1.8,
+   14.4667
+  ],
+  "k1_flagged_or_red_intermittent": [
+   0.4822,
+   0.975
+  ],
+  "k2_miss_build_all": [
+   0.0703,
+   0.4872
+  ],
+  "k2_miss_10builds_all": [
+   0.0212,
+   0.4172
+  ],
+  "k2_red_build_clean": [
+   0.0093,
+   0.1047
+  ],
+  "k2_flaky_flagged_per_10": [
+   2.1267,
+   16.6333
+  ],
+  "k2_flagged_or_red_intermittent": [
+   0.4818,
+   0.9757
+  ]
+ },
+ "max_abs_formula_gap": 0.0106,
+ "grid27_red_clean_by_n_flaky": [
+  {
+   "n_flaky": 20,
+   "k0_red_build_clean": 0.6413,
+   "k1_red_build_clean": 0.0963,
+   "k2_red_build_clean": 0.0124,
+   "k1_flaky_flagged_per_10": 1.8696
+  },
+  {
+   "n_flaky": 60,
+   "k0_red_build_clean": 0.9528,
+   "k1_red_build_clean": 0.2505,
+   "k2_red_build_clean": 0.0395,
+   "k1_flaky_flagged_per_10": 5.8578
+  },
+  {
+   "n_flaky": 150,
+   "k0_red_build_clean": 0.9992,
+   "k1_red_build_clean": 0.5107,
+   "k2_red_build_clean": 0.0949,
+   "k1_flaky_flagged_per_10": 14.1119
+  }
+ ],
+ "grid27_k1_minus_k0_miss10": [
+  0.0065,
+  0.1923
+ ],
+ "data_check": {
+  "rows": 2000,
+  "miss_build_all_first2000": 0.227
+ }
+}

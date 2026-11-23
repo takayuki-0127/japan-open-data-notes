@@ -1,0 +1,370 @@
+{
+ "settings": {
+  "bugs_per_release": 40,
+  "test_hours": 80,
+  "find_share": 0.7,
+  "sigma_find": 1.0,
+  "user_share_90d": 0.6,
+  "sigma_user": 1.0,
+  "drop": 0.3,
+  "n_before": 12,
+  "n_after": 12,
+  "reps": 200,
+  "grid_reps": 40,
+  "seed": 1089
+ },
+ "derived": {
+  "c_h0": 2.2816,
+  "f0": 0.7,
+  "hours_mult_B": 0.4424,
+  "bugs_mult_C": 0.85,
+  "hours_mult_C": 0.6157,
+  "ku": 1.5369,
+  "hours_cut_B": 0.5576,
+  "hours_cut_C": 0.3843
+ },
+ "scenarios": [
+  {
+   "scenario": "S0",
+   "name": "変化なし",
+   "found_mean": 0.0092,
+   "found_p10": -0.0886,
+   "found_p90": 0.1033,
+   "found_formula": 0.0,
+   "per_hour_mean": 0.0092,
+   "per_hour_p10": -0.0886,
+   "per_hour_p90": 0.1033,
+   "per_hour_formula": 0.0,
+   "found_plus_90d_mean": 0.0093,
+   "found_plus_90d_p10": -0.0723,
+   "found_plus_90d_p90": 0.0923,
+   "found_plus_90d_formula": 0.0,
+   "true_bugs_mean": 0.0088,
+   "true_bugs_p10": -0.0651,
+   "true_bugs_p90": 0.0914,
+   "true_bugs_formula": 0.0,
+   "pre_share_before": 0.7949,
+   "pre_share_after": 0.7943,
+   "share_found_drop_ge_20pct": 0.0
+  },
+  {
+   "scenario": "A",
+   "name": "A 入るバグが3割減った",
+   "found_mean": -0.2907,
+   "found_p10": -0.3639,
+   "found_p90": -0.2188,
+   "found_formula": -0.3,
+   "per_hour_mean": -0.2907,
+   "per_hour_p10": -0.3639,
+   "per_hour_p90": -0.2188,
+   "per_hour_formula": -0.3,
+   "found_plus_90d_mean": -0.2974,
+   "found_plus_90d_p10": -0.3652,
+   "found_plus_90d_p90": -0.2314,
+   "found_plus_90d_formula": -0.3,
+   "true_bugs_mean": -0.2985,
+   "true_bugs_p10": -0.3559,
+   "true_bugs_p90": -0.2355,
+   "true_bugs_formula": -0.3,
+   "pre_share_before": 0.7924,
+   "pre_share_after": 0.7995,
+   "share_found_drop_ge_20pct": 0.935
+  },
+  {
+   "scenario": "B",
+   "name": "B テストの時間を減らした",
+   "found_mean": -0.295,
+   "found_p10": -0.3716,
+   "found_p90": -0.2185,
+   "found_formula": -0.3,
+   "per_hour_mean": 0.5937,
+   "per_hour_p10": 0.4206,
+   "per_hour_p90": 0.7665,
+   "per_hour_formula": 0.5822,
+   "found_plus_90d_mean": -0.0925,
+   "found_plus_90d_p10": -0.1663,
+   "found_plus_90d_p90": -0.0144,
+   "found_plus_90d_formula": -0.0955,
+   "true_bugs_mean": 0.0024,
+   "true_bugs_p10": -0.0694,
+   "true_bugs_p90": 0.0867,
+   "true_bugs_formula": 0.0,
+   "pre_share_before": 0.7967,
+   "pre_share_after": 0.6185,
+   "share_found_drop_ge_20pct": 0.925
+  },
+  {
+   "scenario": "C",
+   "name": "C 両方を半分ずつ",
+   "found_mean": -0.2979,
+   "found_p10": -0.375,
+   "found_p90": -0.2256,
+   "found_formula": -0.3,
+   "per_hour_mean": 0.1405,
+   "per_hour_p10": 0.0152,
+   "per_hour_p90": 0.2579,
+   "per_hour_formula": 0.137,
+   "found_plus_90d_mean": -0.1942,
+   "found_plus_90d_p10": -0.266,
+   "found_plus_90d_p90": -0.1175,
+   "found_plus_90d_formula": -0.1977,
+   "true_bugs_mean": -0.1457,
+   "true_bugs_p10": -0.2127,
+   "true_bugs_p90": -0.0655,
+   "true_bugs_formula": -0.15,
+   "pre_share_before": 0.7945,
+   "pre_share_after": 0.6921,
+   "share_found_drop_ge_20pct": 0.955
+  }
+ ],
+ "A_found_drop_more_than_B_share": 0.45,
+ "rule_plus90_le_minus15pct": {
+  "S0": 0.0,
+  "A": 1.0,
+  "B": 0.17,
+  "C": 0.785
+ },
+ "grid27_ranges": {
+  "hours_mult_B": [
+   0.0746,
+   0.7842
+  ],
+  "hours_cut_B": [
+   0.2158,
+   0.9254
+  ],
+  "hours_mult_C": [
+   0.1536,
+   0.8787
+  ],
+  "A_found": [
+   -0.5068,
+   -0.1331
+  ],
+  "A_per_hour": [
+   -0.5068,
+   -0.1331
+  ],
+  "A_found_plus_90d": [
+   -0.5074,
+   -0.134
+  ],
+  "A_per_hour_formula": [
+   -0.5,
+   -0.15
+  ],
+  "A_plus90_formula": [
+   -0.5,
+   -0.15
+  ],
+  "B_found": [
+   -0.5082,
+   -0.1316
+  ],
+  "B_per_hour": [
+   0.0768,
+   5.7169
+  ],
+  "B_found_plus_90d": [
+   -0.1997,
+   -0.0316
+  ],
+  "B_per_hour_formula": [
+   0.0839,
+   5.701
+  ],
+  "B_plus90_formula": [
+   -0.1875,
+   -0.0375
+  ],
+  "C_found": [
+   -0.5168,
+   -0.1207
+  ],
+  "C_per_hour": [
+   -0.0927,
+   2.2462
+  ],
+  "C_found_plus_90d": [
+   -0.3645,
+   -0.0685
+  ],
+  "C_per_hour_formula": [
+   -0.1128,
+   2.2559
+  ],
+  "C_plus90_formula": [
+   -0.3438,
+   -0.0938
+  ]
+ },
+ "grid27_B_per_hour_positive": 27,
+ "grid27_C_per_hour_positive": 20,
+ "grid27_hours_cut_B_range": [
+  0.2158,
+  0.9254
+ ],
+ "grid27_B_plus90_vs_A_gap": [
+  0.0537,
+  0.3869
+ ],
+ "grid27_max_abs_formula_gap_per_hour_B": 0.0655,
+ "grid9_drop30_ranges": {
+  "B_per_hour": [
+   0.1867,
+   2.8843
+  ],
+  "B_found_plus_90d": [
+   -0.1172,
+   -0.0772
+  ],
+  "A_found_plus_90d": [
+   -0.3133,
+   -0.2936
+  ],
+  "C_per_hour": [
+   -0.0699,
+   1.1994
+  ],
+  "C_found_plus_90d": [
+   -0.2134,
+   -0.1785
+  ],
+  "hours_mult_B": [
+   0.1779,
+   0.6007
+  ]
+ },
+ "grid27_drop30": [
+  {
+   "sigma_find": 0.5,
+   "find_share": 0.5,
+   "hours_mult_B": 0.6007,
+   "B_per_hour": 0.1867,
+   "B_found_plus_90d": -0.0772,
+   "A_found_plus_90d": -0.3133
+  },
+  {
+   "sigma_find": 0.5,
+   "find_share": 0.7,
+   "hours_mult_B": 0.5239,
+   "B_per_hour": 0.3656,
+   "B_found_plus_90d": -0.0806,
+   "A_found_plus_90d": -0.3009
+  },
+  {
+   "sigma_find": 0.5,
+   "find_share": 0.9,
+   "hours_mult_B": 0.3718,
+   "B_per_hour": 0.9094,
+   "B_found_plus_90d": -0.11,
+   "A_found_plus_90d": -0.3122
+  },
+  {
+   "sigma_find": 1.0,
+   "find_share": 0.5,
+   "hours_mult_B": 0.5437,
+   "B_per_hour": 0.254,
+   "B_found_plus_90d": -0.0805,
+   "A_found_plus_90d": -0.295
+  },
+  {
+   "sigma_find": 1.0,
+   "find_share": 0.7,
+   "hours_mult_B": 0.4424,
+   "B_per_hour": 0.6129,
+   "B_found_plus_90d": -0.0938,
+   "A_found_plus_90d": -0.3107
+  },
+  {
+   "sigma_find": 1.0,
+   "find_share": 0.9,
+   "hours_mult_B": 0.2656,
+   "B_per_hour": 1.6374,
+   "B_found_plus_90d": -0.1091,
+   "A_found_plus_90d": -0.2989
+  },
+  {
+   "sigma_find": 1.5,
+   "find_share": 0.5,
+   "hours_mult_B": 0.4726,
+   "B_per_hour": 0.4214,
+   "B_found_plus_90d": -0.0902,
+   "A_found_plus_90d": -0.2936
+  },
+  {
+   "sigma_find": 1.5,
+   "find_share": 0.7,
+   "hours_mult_B": 0.3561,
+   "B_per_hour": 0.9596,
+   "B_found_plus_90d": -0.0982,
+   "A_found_plus_90d": -0.3012
+  },
+  {
+   "sigma_find": 1.5,
+   "find_share": 0.9,
+   "hours_mult_B": 0.1779,
+   "B_per_hour": 2.8843,
+   "B_found_plus_90d": -0.1172,
+   "A_found_plus_90d": -0.2951
+  }
+ ],
+ "extra": [
+  {
+   "setting": "使う人の報告 0.4",
+   "S0_found_p10": -0.0849,
+   "S0_found_p90": 0.1085,
+   "S0_plus90_mean": -0.0007,
+   "A_found_p10": -0.3732,
+   "A_found_p90": -0.2126,
+   "A_plus90_mean": -0.2938,
+   "B_found_p10": -0.3682,
+   "B_found_p90": -0.2128,
+   "B_plus90_mean": -0.1536,
+   "A_lt_B_found": 0.44
+  },
+  {
+   "setting": "使う人の報告 0.8",
+   "S0_found_p10": -0.0861,
+   "S0_found_p90": 0.1101,
+   "S0_plus90_mean": 0.0123,
+   "A_found_p10": -0.3776,
+   "A_found_p90": -0.2287,
+   "A_plus90_mean": -0.2997,
+   "B_found_p10": -0.3622,
+   "B_found_p90": -0.2146,
+   "B_plus90_mean": -0.0355,
+   "A_lt_B_found": 0.54
+  },
+  {
+   "setting": "6回ずつ",
+   "S0_found_p10": -0.132,
+   "S0_found_p90": 0.1487,
+   "S0_plus90_mean": 0.013,
+   "A_found_p10": -0.3894,
+   "A_found_p90": -0.1913,
+   "A_plus90_mean": -0.2813,
+   "B_found_p10": -0.4088,
+   "B_found_p90": -0.1922,
+   "B_plus90_mean": -0.0959,
+   "A_lt_B_found": 0.43
+  },
+  {
+   "setting": "24回ずつ",
+   "S0_found_p10": -0.0585,
+   "S0_found_p90": 0.0694,
+   "S0_plus90_mean": 0.0029,
+   "A_found_p10": -0.3451,
+   "A_found_p90": -0.2478,
+   "A_plus90_mean": -0.2994,
+   "B_found_p10": -0.357,
+   "B_found_p90": -0.2419,
+   "B_plus90_mean": -0.0977,
+   "A_lt_B_found": 0.48
+  }
+ ],
+ "data_check": {
+  "B_rep0_found_change": -0.2829,
+  "B_rep0_per_hour_change": 0.6211
+ }
+}

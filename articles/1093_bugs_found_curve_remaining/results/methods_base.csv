@@ -1,0 +1,4 @@
+method,median,p10,p90,share_within_25pct,share_below_half
+curve_weeks,0.29,0.16,0.56,0.0333,0.8633
+curve_effort,0.29,0.16,0.56,0.0333,0.8633
+two_groups,0.33,0.24,0.48,0.0,0.91

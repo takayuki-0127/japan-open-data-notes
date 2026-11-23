@@ -1,0 +1,259 @@
+{
+ "settings": {
+  "sigma_pop": 1.0,
+  "p_branch": 0.1,
+  "edge_weight": 4.0,
+  "check": 0.6,
+  "trig_beta": [
+   1.0,
+   3.0
+  ],
+  "n_real": 60,
+  "n_seeded": 100,
+  "functions": 300,
+  "lines": 9000,
+  "main_lines_per_func": 24,
+  "branch_lines_per_func": 6,
+  "targets": [
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9
+  ],
+  "reps": 100,
+  "grid_reps": 40,
+  "seed": 1090
+ },
+ "formula": {
+  "edge_share_lines": 0.2,
+  "real_on_edge_expected": 0.5,
+  "trigger_mean": 0.25,
+  "one_test_find_if_covered": 0.15,
+  "naive_cov80_x_one_test": 0.12
+ },
+ "by_coverage": [
+  {
+   "target": 0.5,
+   "tests": 453.14,
+   "coverage": 0.5012,
+   "main_cov": 0.5949,
+   "edge_cov": 0.1263,
+   "real_found": 0.0875,
+   "real_uncovered": 0.6513,
+   "real_cov_notfound": 0.2612,
+   "seeded_found": 0.1335,
+   "seeded_uncovered": 0.488,
+   "seeded_cov_notfound": 0.3785,
+   "real_on_edge": 0.509,
+   "seeded_on_edge": 0.1898,
+   "real_found_p10": 0.05,
+   "real_found_p90": 0.1333,
+   "seeded_found_p10": 0.09,
+   "seeded_found_p90": 0.181
+  },
+  {
+   "target": 0.6,
+   "tests": 705.4,
+   "coverage": 0.6012,
+   "main_cov": 0.706,
+   "edge_cov": 0.1822,
+   "real_found": 0.1217,
+   "real_uncovered": 0.5712,
+   "real_cov_notfound": 0.3072,
+   "seeded_found": 0.1884,
+   "seeded_uncovered": 0.389,
+   "seeded_cov_notfound": 0.4226,
+   "real_on_edge": 0.509,
+   "seeded_on_edge": 0.1898,
+   "real_found_p10": 0.0667,
+   "real_found_p90": 0.1833,
+   "seeded_found_p10": 0.119,
+   "seeded_found_p90": 0.25
+  },
+  {
+   "target": 0.7,
+   "tests": 1138.42,
+   "coverage": 0.701,
+   "main_cov": 0.8107,
+   "edge_cov": 0.2623,
+   "real_found": 0.176,
+   "real_uncovered": 0.473,
+   "real_cov_notfound": 0.351,
+   "seeded_found": 0.2561,
+   "seeded_uncovered": 0.2926,
+   "seeded_cov_notfound": 0.4513,
+   "real_on_edge": 0.509,
+   "seeded_on_edge": 0.1898,
+   "real_found_p10": 0.115,
+   "real_found_p90": 0.235,
+   "seeded_found_p10": 0.199,
+   "seeded_found_p90": 0.33
+  },
+  {
+   "target": 0.8,
+   "tests": 2049.9,
+   "coverage": 0.801,
+   "main_cov": 0.9038,
+   "edge_cov": 0.3899,
+   "real_found": 0.2515,
+   "real_uncovered": 0.3585,
+   "real_cov_notfound": 0.39,
+   "seeded_found": 0.3525,
+   "seeded_uncovered": 0.1922,
+   "seeded_cov_notfound": 0.4553,
+   "real_on_edge": 0.509,
+   "seeded_on_edge": 0.1898,
+   "real_found_p10": 0.1833,
+   "real_found_p90": 0.3333,
+   "seeded_found_p10": 0.289,
+   "seeded_found_p90": 0.431
+  },
+  {
+   "target": 0.9,
+   "tests": 4761.74,
+   "coverage": 0.9007,
+   "main_cov": 0.975,
+   "edge_cov": 0.6034,
+   "real_found": 0.3882,
+   "real_uncovered": 0.2127,
+   "real_cov_notfound": 0.3992,
+   "seeded_found": 0.5237,
+   "seeded_uncovered": 0.097,
+   "seeded_cov_notfound": 0.3793,
+   "real_on_edge": 0.509,
+   "seeded_on_edge": 0.1898,
+   "real_found_p10": 0.3,
+   "real_found_p90": 0.4833,
+   "seeded_found_p10": 0.45,
+   "seeded_found_p90": 0.59
+  }
+ ],
+ "cov80": {
+  "tests": 2049.9,
+  "coverage": 0.801,
+  "main_cov": 0.9038,
+  "edge_cov": 0.3899,
+  "real_found": 0.2515,
+  "real_uncovered": 0.3585,
+  "real_cov_notfound": 0.39,
+  "seeded_found": 0.3525,
+  "seeded_uncovered": 0.1922,
+  "seeded_cov_notfound": 0.4553,
+  "real_on_edge": 0.509,
+  "seeded_on_edge": 0.1898,
+  "real_found_p10": 0.1833,
+  "real_found_p90": 0.3333,
+  "seeded_found_p10": 0.289,
+  "seeded_found_p90": 0.431,
+  "gap_seeded_minus_real": 0.101,
+  "real_found_given_covered": 0.392,
+  "seeded_found_given_covered": 0.4364
+ },
+ "by_check": [
+  {
+   "check": 0.3,
+   "real_found": 0.1688,
+   "seeded_found": 0.2405,
+   "coverage": 0.8008
+  },
+  {
+   "check": 0.6,
+   "real_found": 0.2487,
+   "seeded_found": 0.3625,
+   "coverage": 0.8008
+  },
+  {
+   "check": 0.9,
+   "real_found": 0.3063,
+   "seeded_found": 0.434,
+   "coverage": 0.8008
+  }
+ ],
+ "grid27_ranges": {
+  "real_found": [
+   0.0592,
+   0.5988
+  ],
+  "seeded_found": [
+   0.1157,
+   0.6
+  ],
+  "gap": [
+   -0.0087,
+   0.2333
+  ],
+  "real_uncovered": [
+   0.1908,
+   0.4529
+  ],
+  "seeded_uncovered": [
+   0.1893,
+   0.2088
+  ]
+ },
+ "grid27_gap_positive": 23,
+ "grid27_edge1_gap_range": [
+  -0.0087,
+  0.0268
+ ],
+ "grid27_edge4_8_gap_range": [
+  0.037,
+  0.2333
+ ],
+ "extra": [
+  {
+   "setting": "基本",
+   "tests": 2080.2,
+   "main_cov": 0.9039,
+   "edge_cov": 0.3898,
+   "real_found": 0.2479,
+   "seeded_found": 0.348,
+   "gap": 0.1001
+  },
+  {
+   "setting": "選ばれ方の偏り 0.5",
+   "tests": 1068.3,
+   "main_cov": 0.9294,
+   "edge_cov": 0.2878,
+   "real_found": 0.1867,
+   "seeded_found": 0.2775,
+   "gap": 0.0908
+  },
+  {
+   "setting": "選ばれ方の偏り 1.5",
+   "tests": 4963.8,
+   "main_cov": 0.8819,
+   "edge_cov": 0.4757,
+   "real_found": 0.3146,
+   "seeded_found": 0.426,
+   "gap": 0.1114
+  },
+  {
+   "setting": "分かれ道に入る 0.05",
+   "tests": 2545.3,
+   "main_cov": 0.9287,
+   "edge_cov": 0.2883,
+   "real_found": 0.2662,
+   "seeded_found": 0.3875,
+   "gap": 0.1213
+  },
+  {
+   "setting": "分かれ道に入る 0.2",
+   "tests": 1599.5,
+   "main_cov": 0.8746,
+   "edge_cov": 0.5051,
+   "real_found": 0.2671,
+   "seeded_found": 0.3272,
+   "gap": 0.0602
+  }
+ ],
+ "data_check": {
+  "tests_rep0_cov80": 2254,
+  "sim_rep0_tests": 2254,
+  "data_real_found": 0.3167,
+  "sim_rep0_real_found": 0.3167,
+  "data_seeded_found": 0.39,
+  "sim_rep0_seeded_found": 0.39
+ }
+}
