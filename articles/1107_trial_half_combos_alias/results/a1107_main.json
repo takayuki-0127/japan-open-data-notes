@@ -1,0 +1,366 @@
+{
+ "setup": {
+  "base_level": 60.0,
+  "noise_sd": 2.0,
+  "threshold_points": 2.0,
+  "reps": 2000,
+  "worlds": 2000,
+  "random_world_base": {
+   "main_sd": 3.0,
+   "p_int": 0.3,
+   "int_sd": 3.0
+  },
+  "grid_p_int": [
+   0.0,
+   0.15,
+   0.3,
+   0.6
+  ],
+  "grid_int_sd": [
+   1.5,
+   3.0,
+   6.0
+  ]
+ },
+ "alias_half_D_ABC": {
+  "groups": [
+   "A = BCD",
+   "B = ACD",
+   "C = ABD",
+   "D = ABC",
+   "AB = CD",
+   "AC = BD",
+   "AD = BC"
+  ],
+  "same_as_mean": [
+   "ABCD"
+  ],
+  "runs": [
+   "----",
+   "--++",
+   "-+-+",
+   "-++-",
+   "+--+",
+   "+-+-",
+   "++--",
+   "++++"
+  ]
+ },
+ "alias_half_D_AB": {
+  "groups": [
+   "A = BD",
+   "B = AD",
+   "C = ABCD",
+   "D = AB",
+   "AC = BCD",
+   "BC = ACD",
+   "CD = ABC"
+  ],
+  "same_as_mean": [
+   "ABD"
+  ],
+  "runs": [
+   "---+",
+   "--++",
+   "-+--",
+   "-++-",
+   "+---",
+   "+-+-",
+   "++-+",
+   "++++"
+  ]
+ },
+ "alias_count": {
+  "half_D_ABC": {
+   "main_with_two": 0,
+   "two_with_two": 3
+  },
+  "half_D_AB": {
+   "main_with_two": 3,
+   "two_with_two": 0
+  }
+ },
+ "basic": {
+  "basic": {
+   "true": {
+    "A": 4,
+    "B": 3,
+    "C": 2,
+    "D": 0,
+    "AB": 3
+   },
+   "best_combo_true_score": 66.0,
+   "full16": {
+    "est_mean": {
+     "A": 4.008,
+     "B": 3.041,
+     "C": 1.973,
+     "D": 0.03,
+     "AB": 3.024,
+     "CD": 0.034,
+     "AD": -0.012,
+     "BC": -0.047
+    },
+    "judged_effective": {
+     "A": 0.9775,
+     "B": 0.852,
+     "C": 0.492,
+     "D": 0.0415,
+     "AB": 0.8535,
+     "CD": 0.049,
+     "AD": 0.0415,
+     "BC": 0.04
+    },
+    "best_hit": 0.8425,
+    "shortfall_mean": 0.315
+   },
+   "half_D_ABC": {
+    "est_mean": {
+     "A": 3.997,
+     "B": 2.984,
+     "C": 2.071,
+     "D": 0.015,
+     "AB": 3.034,
+     "CD": 3.034,
+     "AD": -0.06,
+     "BC": -0.06
+    },
+    "judged_effective": {
+     "A": 0.9245,
+     "B": 0.759,
+     "C": 0.5175,
+     "D": 0.1565,
+     "AB": 0.77,
+     "CD": 0.77,
+     "AD": 0.1615,
+     "BC": 0.1615
+    },
+    "best_hit": 0.8565,
+    "shortfall_mean": 0.316
+   },
+   "half_D_AB": {
+    "est_mean": {
+     "A": 4.009,
+     "B": 3.01,
+     "C": 1.994,
+     "D": 3.087,
+     "AB": 3.087,
+     "CD": 0.028,
+     "AD": 3.01,
+     "BC": -0.05
+    },
+    "judged_effective": {
+     "A": 0.9285,
+     "B": 0.76,
+     "C": 0.4995,
+     "D": 0.7755,
+     "AB": 0.7755,
+     "CD": 0.1645,
+     "AD": 0.76,
+     "BC": 0.1555
+    },
+    "best_hit": 0.7115,
+    "shortfall_mean": 0.909
+   },
+   "half_D_ABC_x2": {
+    "est_mean": {
+     "A": 4.013,
+     "B": 3.031,
+     "C": 2.008,
+     "D": 0.034,
+     "AB": 3.0,
+     "CD": 3.0,
+     "AD": -0.005,
+     "BC": -0.005
+    },
+    "judged_effective": {
+     "A": 0.975,
+     "B": 0.851,
+     "C": 0.5035,
+     "D": 0.045,
+     "AB": 0.8395,
+     "CD": 0.8395,
+     "AD": 0.0415,
+     "BC": 0.0415
+    },
+    "best_hit": 0.922,
+    "shortfall_mean": 0.156
+   }
+  },
+  "cancel": {
+   "true": {
+    "A": 4,
+    "B": 3,
+    "C": 2,
+    "D": 0,
+    "AB": 3,
+    "CD": -3
+   },
+   "best_combo_true_score": 67.5,
+   "full16": {
+    "est_mean": {
+     "A": 4.009,
+     "B": 3.01,
+     "C": 1.998,
+     "D": 0.017,
+     "AB": 3.005,
+     "CD": -2.984,
+     "AD": 0.019,
+     "BC": -0.017
+    },
+    "judged_effective": {
+     "A": 0.9775,
+     "B": 0.8525,
+     "C": 0.495,
+     "D": 0.0365,
+     "AB": 0.841,
+     "CD": 0.8415,
+     "AD": 0.0515,
+     "BC": 0.046
+    },
+    "best_hit": 0.755,
+    "shortfall_mean": 0.531
+   },
+   "half_D_ABC": {
+    "est_mean": {
+     "A": 4.03,
+     "B": 3.068,
+     "C": 1.996,
+     "D": -0.037,
+     "AB": 0.011,
+     "CD": 0.011,
+     "AD": -0.006,
+     "BC": -0.006
+    },
+    "judged_effective": {
+     "A": 0.9215,
+     "B": 0.781,
+     "C": 0.5055,
+     "D": 0.1615,
+     "AB": 0.1565,
+     "CD": 0.1565,
+     "AD": 0.15,
+     "BC": 0.15
+    },
+    "best_hit": 0.3965,
+    "shortfall_mean": 2.332
+   },
+   "half_D_AB": {
+    "est_mean": {
+     "A": 3.998,
+     "B": 3.053,
+     "C": 1.972,
+     "D": 2.953,
+     "AB": 2.953,
+     "CD": -2.998,
+     "AD": 3.053,
+     "BC": 0.032
+    },
+    "judged_effective": {
+     "A": 0.9215,
+     "B": 0.766,
+     "C": 0.4925,
+     "D": 0.7525,
+     "AB": 0.7525,
+     "CD": 0.7515,
+     "AD": 0.766,
+     "BC": 0.164
+    },
+    "best_hit": 0.2205,
+    "shortfall_mean": 2.117
+   },
+   "half_D_ABC_x2": {
+    "est_mean": {
+     "A": 3.989,
+     "B": 2.983,
+     "C": 1.98,
+     "D": -0.015,
+     "AB": 0.032,
+     "CD": 0.032,
+     "AD": 0.029,
+     "BC": 0.029
+    },
+    "judged_effective": {
+     "A": 0.9755,
+     "B": 0.84,
+     "C": 0.492,
+     "D": 0.038,
+     "AB": 0.0465,
+     "CD": 0.0465,
+     "AD": 0.048,
+     "BC": 0.048
+    },
+    "best_hit": 0.446,
+    "shortfall_mean": 1.876
+   }
+  }
+ },
+ "formula_noise_only_off_2pt": {
+  "16枚": 0.0455,
+  "8枚": 0.1573
+ },
+ "random_base": {
+  "full16": {
+   "best_hit": 0.563,
+   "shortfall_mean": 0.596,
+   "main_off_2pt_share": 0.0466
+  },
+  "half_D_ABC": {
+   "best_hit": 0.394,
+   "shortfall_mean": 1.551,
+   "main_off_2pt_share": 0.1564
+  },
+  "half_D_AB": {
+   "best_hit": 0.392,
+   "shortfall_mean": 1.6,
+   "main_off_2pt_share": 0.2437
+  },
+  "half_D_ABC_x2": {
+   "best_hit": 0.473,
+   "shortfall_mean": 1.225,
+   "main_off_2pt_share": 0.0444
+  }
+ },
+ "grid_ranges": {
+  "full16": {
+   "best_hit_min": 0.4555,
+   "best_hit_max": 0.7265,
+   "main_off_min": 0.044,
+   "main_off_max": 0.0495,
+   "shortfall_min": 0.372,
+   "shortfall_max": 0.687
+  },
+  "half_D_ABC": {
+   "best_hit_min": 0.358,
+   "best_hit_max": 0.4325,
+   "main_off_min": 0.1505,
+   "main_off_max": 0.1635,
+   "shortfall_min": 0.781,
+   "shortfall_max": 4.154
+  },
+  "half_D_AB": {
+   "best_hit_min": 0.348,
+   "best_hit_max": 0.449,
+   "main_off_min": 0.1515,
+   "main_off_max": 0.4219,
+   "shortfall_min": 0.761,
+   "shortfall_max": 4.437
+  },
+  "half_D_ABC_x2": {
+   "best_hit_min": 0.387,
+   "best_hit_max": 0.5345,
+   "main_off_min": 0.043,
+   "main_off_max": 0.0503,
+   "shortfall_min": 0.48,
+   "shortfall_max": 4.049
+  }
+ },
+ "grid_counts": {
+  "ABC_beats_AB_best_hit": 7,
+  "settings": 12,
+  "x2_beats_full16_best_hit": 4,
+  "x2_minus_half_ABC_best_hit_max": 0.102,
+  "full_minus_half_ABC_best_hit_min": 0.0285,
+  "full_minus_half_ABC_best_hit_max": 0.3685
+ }
+}

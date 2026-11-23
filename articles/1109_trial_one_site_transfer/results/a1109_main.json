@@ -1,0 +1,179 @@
+{
+ "setup": {
+  "mu": 10.0,
+  "slope": 0.5,
+  "site_sd": 2.0,
+  "sheet_sd": 6.0,
+  "n_per_arm": 20,
+  "humidity": [
+   45.0,
+   48.0,
+   51.0,
+   54.0,
+   57.0,
+   59.0,
+   61.0,
+   63.0,
+   66.0,
+   69.0,
+   72.0,
+   75.0
+  ],
+  "hq_factory": "工場K",
+  "hq_humidity": 72.0,
+  "worlds": 2000,
+  "t_3_975": 3.182446,
+  "z_975": 1.959964
+ },
+ "true_effects": {
+  "hq_mean": 16.047,
+  "average_mean": 9.984,
+  "site_min_mean": 1.802,
+  "site_max_mean": 18.191,
+  "share_sites_below_half_of_hq": 0.3703,
+  "by_factory_mean": {
+   "工場A": 2.517,
+   "工場B": 3.986,
+   "工場C": 5.389,
+   "工場D": 6.979,
+   "工場E": 8.419,
+   "工場F": 9.496,
+   "工場G": 10.475,
+   "工場H": 11.473,
+   "工場I": 12.97,
+   "工場J": 14.543,
+   "工場K": 16.047,
+   "工場L": 17.508
+  }
+ },
+ "coverage_by_sheets": [
+  {
+   "n_per_arm_total": 20,
+   "design": "hq",
+   "est_minus_avg_mean": 6.126,
+   "est_minus_avg_abs_mean": 6.139,
+   "half_width": 3.719,
+   "cover_own_site": 0.9505,
+   "cover_other_sites": 0.2736,
+   "cover_12_average": 0.1905
+  },
+  {
+   "n_per_arm_total": 20,
+   "design": "random1",
+   "est_minus_avg_mean": -0.082,
+   "est_minus_avg_abs_mean": 4.362,
+   "half_width": 3.719,
+   "cover_own_site": 0.951,
+   "cover_other_sites": 0.3468,
+   "cover_12_average": 0.477
+  },
+  {
+   "n_per_arm_total": 20,
+   "design": "four",
+   "est_minus_avg_mean": 0.009,
+   "est_minus_avg_abs_mean": 2.216,
+   "half_width_sheet": 3.719,
+   "cover_12_average_sheet": 0.8205,
+   "cover_other_sites_sheet": 0.4564,
+   "half_width_site": 9.552,
+   "cover_12_average_site": 0.965,
+   "cover_other_sites_site": 0.8463
+  },
+  {
+   "n_per_arm_total": 80,
+   "design": "hq",
+   "est_minus_avg_mean": 6.061,
+   "est_minus_avg_abs_mean": 6.063,
+   "half_width": 1.859,
+   "cover_own_site": 0.946,
+   "cover_other_sites": 0.1368,
+   "cover_12_average": 0.0255
+  },
+  {
+   "n_per_arm_total": 80,
+   "design": "random1",
+   "est_minus_avg_mean": 0.172,
+   "est_minus_avg_abs_mean": 4.197,
+   "half_width": 1.859,
+   "cover_own_site": 0.9465,
+   "cover_other_sites": 0.1725,
+   "cover_12_average": 0.263
+  },
+  {
+   "n_per_arm_total": 80,
+   "design": "four",
+   "est_minus_avg_mean": 0.034,
+   "est_minus_avg_abs_mean": 1.886,
+   "half_width_sheet": 1.859,
+   "cover_12_average_sheet": 0.57,
+   "cover_other_sites_sheet": 0.2421,
+   "half_width_site": 8.201,
+   "cover_12_average_site": 0.964,
+   "cover_other_sites_site": 0.8182
+  },
+  {
+   "n_per_arm_total": 320,
+   "design": "hq",
+   "est_minus_avg_mean": 6.073,
+   "est_minus_avg_abs_mean": 6.074,
+   "half_width": 0.93,
+   "cover_own_site": 0.9475,
+   "cover_other_sites": 0.0682,
+   "cover_12_average": 0.0025
+  },
+  {
+   "n_per_arm_total": 320,
+   "design": "random1",
+   "est_minus_avg_mean": 0.001,
+   "est_minus_avg_abs_mean": 4.237,
+   "half_width": 0.93,
+   "cover_own_site": 0.9535,
+   "cover_other_sites": 0.0844,
+   "cover_12_average": 0.127
+  },
+  {
+   "n_per_arm_total": 320,
+   "design": "four",
+   "est_minus_avg_mean": 0.025,
+   "est_minus_avg_abs_mean": 1.727,
+   "half_width_sheet": 0.93,
+   "cover_12_average_sheet": 0.3205,
+   "cover_other_sites_sheet": 0.1198,
+   "half_width_site": 7.917,
+   "cover_12_average_site": 0.9715,
+   "cover_other_sites_site": 0.8273
+  }
+ ],
+ "grid_ranges": {
+  "hq_cover_12_average": [
+   0.0,
+   0.944
+  ],
+  "hq_cover_other_sites": [
+   0.1277,
+   0.944
+  ],
+  "random1_cover_12_average": [
+   0.257,
+   0.9455
+  ],
+  "four_cover_12_average_site": [
+   0.941,
+   0.979
+  ],
+  "four_cover_12_average_sheet": [
+   0.5705,
+   0.953
+  ],
+  "hq_no_variation_cover_12_average": 0.944,
+  "settings": 16
+ },
+ "world1_example": {
+  "hq_estimate": 14.646,
+  "hq_low": 10.927,
+  "hq_high": 18.365,
+  "hq_true": 15.469,
+  "average_true": 9.765,
+  "sites_inside_interval": 5
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "base": {
+  "p0": 0.2,
+  "beta_mean": -0.4,
+  "beta_sd": 0.3,
+  "tau": 0.3,
+  "n": 400
+ },
+ "workshops": 4000,
+ "pairs_per_workshop": 28,
+ "decomposition_diffs": {
+  "add_from_noise_no_interaction": 1.37,
+  "mult_from_noise_no_interaction": 0.87,
+  "add_from_interaction_no_noise": 0.15,
+  "mult_from_interaction_no_noise": 0.17
+ },
+ "example_workshop": {
+  "obs_base_pct": 24.5,
+  "chosen_pair_add": "4+7",
+  "chosen_pred_add_pct": 3.0,
+  "chosen_pred_mult_pct": 7.71,
+  "chosen_true_pct": 14.55,
+  "true_best_pair": "4+5",
+  "true_best_pct": 6.67,
+  "add_mean_abs_err_pt": 5.59,
+  "mult_mean_abs_err_pt": 3.96,
+  "add_below_true_pairs": 24
+ },
+ "main": {
+  "add": {
+   "all_pairs_mean_err_pt": -1.62,
+   "all_pairs_mean_abs_err_pt": 3.91,
+   "all_pairs_share_abs_err_over_2pt": 68.21,
+   "chosen_pred_pct": 0.64,
+   "chosen_true_pct": 6.3,
+   "chosen_gap_pt": 5.67,
+   "chosen_gap_p10_pt": 1.33,
+   "chosen_gap_p90_pt": 10.01,
+   "chosen_is_true_best_pct": 23.85,
+   "pred_negative_pairs_pct": 5.19
+  },
+  "mult": {
+   "all_pairs_mean_err_pt": -0.1,
+   "all_pairs_mean_abs_err_pt": 2.87,
+   "all_pairs_share_abs_err_over_2pt": 54.16,
+   "chosen_pred_pct": 5.45,
+   "chosen_true_pct": 6.3,
+   "chosen_gap_pt": 0.85,
+   "chosen_gap_p10_pt": -1.72,
+   "chosen_gap_p90_pt": 3.64,
+   "chosen_is_true_best_pct": 23.85,
+   "pred_negative_pairs_pct": 0.0
+  },
+  "direct": {
+   "all_pairs_mean_err_pt": -0.01,
+   "all_pairs_mean_abs_err_pt": 1.21,
+   "all_pairs_share_abs_err_over_2pt": 18.68,
+   "chosen_pred_pct": 3.88,
+   "chosen_true_pct": 4.91,
+   "chosen_gap_pt": 1.03,
+   "chosen_gap_p10_pt": -0.17,
+   "chosen_gap_p90_pt": 2.28,
+   "chosen_is_true_best_pct": 51.35,
+   "pred_negative_pairs_pct": 0.0
+  },
+  "same_choice_add_mult_pct": 100.0,
+  "true_best_pct": 4.42,
+  "true_single_mean_pct": 14.74,
+  "true_pair_mean_pct": 11.06
+ },
+ "formula_one_pair": {
+  "single_pct": 14.35,
+  "pair_true_pct": 10.1,
+  "pair_add_pct": 8.71,
+  "pair_mult_pct": 10.3,
+  "add_gap_pt": 1.39,
+  "mult_gap_pt": -0.2
+ },
+ "grid_ranges": {
+  "add_all_mean_err_pt": [
+   -2.93,
+   -0.6
+  ],
+  "mult_all_mean_err_pt": [
+   -1.09,
+   0.88
+  ],
+  "add_all_mean_abs_err_pt": [
+   1.13,
+   10.15
+  ],
+  "mult_all_mean_abs_err_pt": [
+   0.55,
+   8.83
+  ],
+  "direct_all_mean_abs_err_pt": [
+   0.39,
+   3.15
+  ],
+  "add_chosen_gap_pt": [
+   2.25,
+   11.09
+  ],
+  "mult_chosen_gap_pt": [
+   -0.66,
+   3.56
+  ],
+  "add_chosen_is_best_pct": [
+   8.2,
+   75.2
+  ],
+  "mult_chosen_is_best_pct": [
+   8.1,
+   75.2
+  ],
+  "add_pred_negative_pct": [
+   0.65,
+   24.31
+  ]
+ },
+ "grid_add_gap_gt_mult_gap_count": 27,
+ "grid_add_abs_gt_mult_abs_count": 27,
+ "grid_tau0_add_gap_range": [
+  2.25,
+  10.02
+ ],
+ "grid_tau0_mult_gap_range": [
+  -0.66,
+  2.35
+ ],
+ "grid_tau06_mult_gap_range": [
+  0.53,
+  3.56
+ ],
+ "grid_mult_gap_positive_count": 24,
+ "grid_count": 27,
+ "grid_same_choice_min_pct": 95.0
+}

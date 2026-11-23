@@ -1,0 +1,105 @@
+{
+ "setup": {
+  "noise": 2.0,
+  "step": 1,
+  "repeat": 1,
+  "budget": 120,
+  "low_peak": 22.0,
+  "start": "fixed",
+  "start_fixed": {
+   "temp": 1198.0,
+   "hours": 5.6
+  },
+  "runs": 2000,
+  "reach_tol": 1.0,
+  "grid": 21,
+  "best_true": 88.829,
+  "best_temp": 1276.0,
+  "best_hours": 9.6,
+  "low_peak_true": 82.0,
+  "start_true": 68.093
+ },
+ "ways": [
+  {
+   "way": "基本：今の条件から・1段ずつ・1個ずつ",
+   "reach_best": 0.0,
+   "at_low_peak": 0.105,
+   "final_true_mean": 76.95,
+   "seen_minus_true_mean": 2.901,
+   "used_mean": 19.84
+  },
+  {
+   "way": "1つの条件を3個ずつ焼いて平均",
+   "reach_best": 0.0,
+   "at_low_peak": 0.3645,
+   "final_true_mean": 80.332,
+   "seen_minus_true_mean": 1.485,
+   "used_mean": 78.91
+  },
+  {
+   "way": "でたらめな出発点から1回",
+   "reach_best": 0.1545,
+   "at_low_peak": 0.0475,
+   "final_true_mean": 70.78,
+   "seen_minus_true_mean": 2.814,
+   "used_mean": 15.1
+  },
+  {
+   "way": "でたらめな出発点4つ（各30個）",
+   "reach_best": 0.474,
+   "at_low_peak": 0.079,
+   "final_true_mean": 83.147,
+   "seen_minus_true_mean": 2.631,
+   "used_mean": 58.35
+  }
+ ],
+ "no_noise": {
+  "fixed_start_final_true": 82.0,
+  "basin_share_step": {
+   "1": 0.3129,
+   "2": 0.2494,
+   "4": 0.0635
+  },
+  "fixed_start_final_temp": 1216.0,
+  "fixed_start_final_hours": 6.8
+ },
+ "grid_ranges": {
+  "fixed": {
+   "reach_min": 0.0,
+   "reach_max": 0.0,
+   "seen_minus_true_min": -0.013,
+   "seen_minus_true_max": 5.94
+  },
+  "random": {
+   "reach_min": 0.061,
+   "reach_max": 0.3195,
+   "seen_minus_true_min": 0.0,
+   "seen_minus_true_max": 5.856
+  }
+ },
+ "landscape_ranges": {
+  "fixed": {
+   "reach_min": 0.0,
+   "reach_max": 0.0
+  },
+  "random": {
+   "reach_min": 0.0825,
+   "reach_max": 0.1715
+  }
+ },
+ "seen_above_true_all_settings": 35,
+ "settings_with_noise": 36,
+ "fixed_start_all": {
+  "settings": 21,
+  "reach_max": 0.0
+ },
+ "random_start_all": {
+  "settings": 21,
+  "reach_min": 0.061,
+  "reach_max": 0.3195
+ },
+ "step1_noise_seen_minus_true": {
+  "min": 1.148,
+  "max": 5.94
+ }
+}

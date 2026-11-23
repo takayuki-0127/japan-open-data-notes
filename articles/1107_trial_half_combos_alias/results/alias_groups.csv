@@ -1,0 +1,15 @@
+design,same_column,has_main,n_main,n_two
+half_D_ABC,A = BCD,True,1,0
+half_D_ABC,B = ACD,True,1,0
+half_D_ABC,C = ABD,True,1,0
+half_D_ABC,D = ABC,True,1,0
+half_D_ABC,AB = CD,False,0,2
+half_D_ABC,AC = BD,False,0,2
+half_D_ABC,AD = BC,False,0,2
+half_D_AB,A = BD,True,1,1
+half_D_AB,B = AD,True,1,1
+half_D_AB,C = ABCD,True,1,0
+half_D_AB,D = AB,True,1,1
+half_D_AB,AC = BCD,False,0,1
+half_D_AB,BC = ACD,False,0,1
+half_D_AB,CD = ABC,False,0,1
