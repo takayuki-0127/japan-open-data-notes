@@ -1,0 +1,168 @@
+{
+ "headline": {
+  "true_p99_ms": 196.96,
+  "mean_p99_ms": 158.13,
+  "mean_p99_ratio": 0.8028,
+  "mean_p99_pct_diff": -19.72,
+  "mean_p99_exceed_pct": 1.63,
+  "mean_p99_formula_ms": 157.99,
+  "mean_p99_formula_exceed_pct": 1.63,
+  "weighted_ratio": 0.8026,
+  "weighted_exceed_pct": 1.63,
+  "max_ratio": 2.272,
+  "pooled_ratio": 0.9999,
+  "hist_ratio": 0.9995,
+  "hist_exceed_pct": 1.0,
+  "slow_server_p99_ms": 425.7,
+  "share_of_over_true99_from_H_pct": 96.82,
+  "grid_mean_ratio_min": 0.3886,
+  "grid_mean_ratio_max": 1.4933,
+  "grid_mean_above_count": 9,
+  "grid_mean_below_count": 18,
+  "grid_mean_exceed_min": 0.39,
+  "grid_mean_exceed_max": 4.7,
+  "grid_weighted_ratio_min": 0.6849,
+  "grid_weighted_ratio_max": 1.0201,
+  "grid_weighted_exceed_min": 0.92,
+  "grid_weighted_exceed_max": 1.94,
+  "grid_hist_ratio_min": 0.9946,
+  "grid_hist_ratio_max": 1.0053,
+  "grid_max_formula_gap": 0.0194,
+  "base_grid_mean_ratio": 0.7996,
+  "minutes_true_hour_p99": 142.54,
+  "minutes_mean_ratio": 0.8111,
+  "minutes_mean_pct_diff": -18.89,
+  "minutes_weighted_pct_diff": -10.06,
+  "weighted_pct_diff": -19.74,
+  "minutes_mean_exceed_pct": 2.83,
+  "minutes_weighted_ratio": 0.8994,
+  "minutes_weighted_exceed_pct": 1.73,
+  "minutes_max_ratio": 1.2828,
+  "minutes_pooled_ratio": 1.0002,
+  "minutes_load_min": 1000,
+  "minutes_load_max": 3500,
+  "minutes_median_min": 35.0,
+  "minutes_median_max": 63.0,
+  "same_servers": {
+   "true_p99_ms": 116.8,
+   "formula_p99_ms": 116.8,
+   "mean_of_p99_ratio_50hours": 0.9997
+  }
+ },
+ "servers_set": {
+  "median_ms": [
+   38.0,
+   39.0,
+   40.0,
+   41.0,
+   42.0,
+   43.0,
+   44.0,
+   55.0
+  ],
+  "log_sd": [
+   0.45,
+   0.45,
+   0.45,
+   0.45,
+   0.45,
+   0.45,
+   0.45,
+   0.9
+  ],
+  "share": [
+   0.125,
+   0.125,
+   0.125,
+   0.125,
+   0.125,
+   0.125,
+   0.125,
+   0.125
+  ]
+ },
+ "one_hour": {
+  "①サーバーの99%点の平均": 156.15,
+  "②件数で重みを付けた平均": 155.26,
+  "③サーバーの99%点の中央値": 118.57,
+  "④サーバーの99%点の最大": 425.7,
+  "⑤全部の処理を合わせて数える": 191.35,
+  "⑥区切りごとの件数を足し合わせる": 192.75
+ },
+ "methods_200hours": [
+  {
+   "method": "①サーバーの99%点の平均",
+   "value_ms": 158.1277,
+   "ratio": 0.8028,
+   "ratio_p5": 0.7882,
+   "ratio_p95": 0.8171,
+   "exceed_pct": 1.6288
+  },
+  {
+   "method": "②件数で重みを付けた平均",
+   "value_ms": 158.0737,
+   "ratio": 0.8026,
+   "ratio_p5": 0.7878,
+   "ratio_p95": 0.8166,
+   "exceed_pct": 1.6301
+  },
+  {
+   "method": "③サーバーの99%点の中央値",
+   "value_ms": 118.2393,
+   "ratio": 0.6003,
+   "ratio_p5": 0.5901,
+   "ratio_p95": 0.61,
+   "exceed_pct": 3.3092
+  },
+  {
+   "method": "④サーバーの99%点の最大",
+   "value_ms": 447.4934,
+   "ratio": 2.272,
+   "ratio_p5": 2.172,
+   "ratio_p95": 2.3736,
+   "exceed_pct": 0.1246
+  },
+  {
+   "method": "⑤全部の処理を合わせて数える",
+   "value_ms": 196.9449,
+   "ratio": 0.9999,
+   "ratio_p5": 0.9763,
+   "ratio_p95": 1.0246,
+   "exceed_pct": 1.0009
+  },
+  {
+   "method": "⑥区切りごとの件数を足し合わせる",
+   "value_ms": 196.8601,
+   "ratio": 0.9995,
+   "ratio_p5": 0.9786,
+   "ratio_p95": 1.0247,
+   "exceed_pct": 1.0021
+  }
+ ],
+ "minutes_200hours": [
+  {
+   "method": "1分ごとの99%点の平均",
+   "value": 115.6126,
+   "ratio": 0.8111,
+   "exceed_pct": 2.8326
+  },
+  {
+   "method": "1分ごとの99%点の件数で重みを付けた平均",
+   "value": 128.1897,
+   "ratio": 0.8994,
+   "exceed_pct": 1.7314
+  },
+  {
+   "method": "1分ごとの99%点の最大",
+   "value": 182.8427,
+   "ratio": 1.2828,
+   "exceed_pct": 0.2333
+  },
+  {
+   "method": "1時間を合わせて数える",
+   "value": 142.5685,
+   "ratio": 1.0002,
+   "exceed_pct": 0.9993
+  }
+ ]
+}

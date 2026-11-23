@@ -1,0 +1,175 @@
+{
+ "base_setting": {
+  "period": 10.0,
+  "dur_sd": 0.05,
+  "start_sd": 0.02,
+  "length_s": 10.0,
+  "timer": true,
+  "sampler_sd": 0.01
+ },
+ "means_ms": {
+  "読み込み": 1.8,
+  "計算": 2.6,
+  "保存": 2.4,
+  "画面": 1.2,
+  "記録": 0.4
+ },
+ "reps": 500,
+ "true_share_mean_pct": {
+  "読み込み": 21.43,
+  "計算": 30.95,
+  "保存": 28.57,
+  "画面": 14.29,
+  "記録": 4.76
+ },
+ "true_top_is_calc_share": 1.0,
+ "by_interval": [
+  {
+   "interval": "10ms（処理と同じ）",
+   "top1_correct": 0.266,
+   "order_correct": 0.0,
+   "mean_abs_err_pt": 28.2075,
+   "max_abs_err_pt_mean": 67.0612,
+   "calc_share_p10": 0.0,
+   "calc_share_p90": 100.0,
+   "busy_samples_mean": 851.388,
+   "calc_zero_share": 0.65
+  },
+  {
+   "interval": "20ms",
+   "top1_correct": 0.266,
+   "order_correct": 0.0,
+   "mean_abs_err_pt": 28.6201,
+   "max_abs_err_pt_mean": 67.9399,
+   "calc_share_p10": 0.0,
+   "calc_share_p90": 100.0,
+   "busy_samples_mean": 424.86,
+   "calc_zero_share": 0.662
+  },
+  {
+   "interval": "5ms",
+   "top1_correct": 0.514,
+   "order_correct": 0.0,
+   "mean_abs_err_pt": 21.0151,
+   "max_abs_err_pt_mean": 38.5863,
+   "calc_share_p10": 0.0,
+   "calc_share_p90": 89.0445,
+   "busy_samples_mean": 1691.064,
+   "calc_zero_share": 0.328
+  },
+  {
+   "interval": "4ms",
+   "top1_correct": 0.468,
+   "order_correct": 0.048,
+   "mean_abs_err_pt": 5.6629,
+   "max_abs_err_pt_mean": 10.8404,
+   "calc_share_p10": 24.9875,
+   "calc_share_p90": 40.9316,
+   "busy_samples_mean": 2106.798,
+   "calc_zero_share": 0.0
+  },
+  {
+   "interval": "1ms",
+   "top1_correct": 0.608,
+   "order_correct": 0.436,
+   "mean_abs_err_pt": 2.44,
+   "max_abs_err_pt_mean": 4.4341,
+   "calc_share_p10": 26.1934,
+   "calc_share_p90": 35.6008,
+   "busy_samples_mean": 8397.244,
+   "calc_zero_share": 0.0
+  },
+  {
+   "interval": "9.7ms（少しずらす）",
+   "top1_correct": 0.994,
+   "order_correct": 0.994,
+   "mean_abs_err_pt": 0.3911,
+   "max_abs_err_pt_mean": 0.7542,
+   "calc_share_p10": 30.254,
+   "calc_share_p90": 31.5558,
+   "busy_samples_mean": 867.342,
+   "calc_zero_share": 0.0
+  },
+  {
+   "interval": "でたらめ（平均10ms）",
+   "top1_correct": 0.802,
+   "order_correct": 0.8,
+   "mean_abs_err_pt": 1.0424,
+   "max_abs_err_pt_mean": 2.0624,
+   "calc_share_p10": 28.8966,
+   "calc_share_p90": 33.1724,
+   "busy_samples_mean": 842.632,
+   "calc_zero_share": 0.0
+  }
+ ],
+ "headline": {
+  "calc_true_pct": 30.95,
+  "save_true_pct": 28.57,
+  "gap_calc_save_pt": 2.38,
+  "top1_10ms_pct": 26.6,
+  "order_10ms_pct": 0.0,
+  "err_10ms_pt": 28.21,
+  "calc_zero_10ms_pct": 65.0,
+  "top1_20ms_pct": 26.6,
+  "top1_5ms_pct": 51.4,
+  "top1_4ms_pct": 46.8,
+  "order_4ms_pct": 4.8,
+  "top1_1ms_pct": 60.8,
+  "order_1ms_pct": 43.6,
+  "top1_97_pct": 99.4,
+  "order_97_pct": 99.4,
+  "top1_random_pct": 80.2,
+  "order_random_pct": 80.0,
+  "err_random_pt": 1.04,
+  "random_busy_samples": 842.6,
+  "formula_random_top1_pct_approx": 81.49,
+  "formula_10ms_top1_pct_approx": 26.0,
+  "no_timer_top1_10ms_pct": 97.0,
+  "no_timer_top1_random_pct": 84.8,
+  "random_60s_top1_pct": 100.0,
+  "random_60s_order_pct": 100.0
+ },
+ "no_timer": {
+  "10ms（処理と同じ）": {
+   "top1_correct": 0.97,
+   "order_correct": 0.97,
+   "mean_abs_err_pt": 0.4707,
+   "max_abs_err_pt_mean": 0.8388,
+   "calc_share_p10": 30.1,
+   "calc_share_p90": 31.8,
+   "busy_samples_mean": 1000.0,
+   "calc_zero_share": 0.0
+  },
+  "でたらめ（平均10ms）": {
+   "top1_correct": 0.848,
+   "order_correct": 0.848,
+   "mean_abs_err_pt": 0.9181,
+   "max_abs_err_pt_mean": 1.8282,
+   "calc_share_p10": 29.0903,
+   "calc_share_p90": 32.7033,
+   "busy_samples_mean": 998.3,
+   "calc_zero_share": 0.0
+  }
+ },
+ "random_60s": {
+  "top1_correct": 1.0,
+  "order_correct": 1.0,
+  "mean_abs_err_pt": 0.4038,
+  "max_abs_err_pt_mean": 0.8059,
+  "calc_share_p10": 30.1181,
+  "calc_share_p90": 31.8055,
+  "busy_samples_mean": 5050.14,
+  "calc_zero_share": 0.0
+ },
+ "grid_summary": {
+  "n": 27,
+  "top1_10ms_min": 0.21,
+  "top1_10ms_max": 0.34,
+  "top1_random_min": 0.585,
+  "top1_random_max": 0.99,
+  "random_better_count": 27,
+  "top1_10ms_start_sd_2_min": 0.255,
+  "top1_10ms_start_sd_2_max": 0.34,
+  "top1_10ms_start_sd_small_max": 0.305
+ }
+}

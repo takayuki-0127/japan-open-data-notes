@@ -1,0 +1,96 @@
+{
+ "headline": {
+  "mean_before": 78.72,
+  "mean_after": 45.34,
+  "mean_chg_pct": -42.4,
+  "median_chg_pct": -72.48,
+  "p90_chg_pct": -28.93,
+  "p95_chg_pct": -5.34,
+  "p99_before": 456.43,
+  "p99_after": 550.72,
+  "p99_chg_pct": 20.66,
+  "p999_chg_pct": 20.26,
+  "slower_from_percentile": 96.0,
+  "p99_chg_if_copy_of_heavy_pct": 20.0,
+  "slower_share_formula_pct": 24.0,
+  "heavy_in_top1pct_before_pct": 100.0,
+  "heavy_in_top1pct_after_pct": 100.0,
+  "tests": {
+   "200": {
+    "mean_faster_pct": 100.0,
+    "p99_slower_pct": 70.1,
+    "p99_missed_pct": 29.9,
+    "mean_faster_and_p99_slower_pct": 70.1,
+    "median_faster_pct": 100.0
+   },
+   "2000": {
+    "mean_faster_pct": 100.0,
+    "p99_slower_pct": 93.9,
+    "p99_missed_pct": 6.1,
+    "mean_faster_and_p99_slower_pct": 93.9,
+    "median_faster_pct": 100.0
+   }
+  },
+  "grid_mean_faster_count": 27,
+  "grid_p99_slower_count": 18,
+  "grid_mean_faster_and_p99_slower_count": 18,
+  "grid_mean_faster_and_p999_slower_count": 19,
+  "grid_mean_chg_min": -65.04,
+  "grid_mean_chg_max": -15.17,
+  "grid_p99_chg_min": -1.53,
+  "grid_p99_chg_max": 21.72,
+  "grid_p99_chg_heavy0_min": -1.53,
+  "grid_p99_chg_heavy0_max": 0.7,
+  "grid_p99_chg_heavy20_min": 18.45,
+  "grid_p99_chg_heavy20_max": 21.72,
+  "grid_p99_chg_heavy10_min": 7.04,
+  "grid_p99_chg_heavy10_max": 11.0,
+  "grid_slower_from_min": 90.0,
+  "grid_slower_from_max": 99.0,
+  "grid_heavy0_any_slower_1pct_count": 2
+ },
+ "set": {
+  "heavy_share": 0.05,
+  "hit": 0.8,
+  "miss_slow": 0.05,
+  "heavy_slow": 0.2
+ },
+ "before_after": [
+  {
+   "measure": "平均",
+   "before_ms": 78.72,
+   "after_ms": 45.341,
+   "change_pct": -42.402
+  },
+  {
+   "measure": "中央値",
+   "before_ms": 61.605,
+   "after_ms": 16.952,
+   "change_pct": -72.482
+  },
+  {
+   "measure": "90%点",
+   "before_ms": 114.043,
+   "after_ms": 81.046,
+   "change_pct": -28.933
+  },
+  {
+   "measure": "95%点",
+   "before_ms": 163.61,
+   "after_ms": 154.871,
+   "change_pct": -5.341
+  },
+  {
+   "measure": "99%点",
+   "before_ms": 456.431,
+   "after_ms": 550.721,
+   "change_pct": 20.658
+  },
+  {
+   "measure": "99.9%点",
+   "before_ms": 839.085,
+   "after_ms": 1009.105,
+   "change_pct": 20.263
+  }
+ ]
+}

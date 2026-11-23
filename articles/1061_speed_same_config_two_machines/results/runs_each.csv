@@ -1,0 +1,5 @@
+runs_each,apparent_abs_median_pct,apparent_ge5_pct,error_vs_true_median_pct
+1,6.62,60.73,3.32
+3,5.8,55.79,1.95
+10,5.53,53.83,1.05
+30,5.39,52.95,0.62

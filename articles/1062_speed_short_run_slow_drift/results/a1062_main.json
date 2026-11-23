@@ -1,0 +1,156 @@
+{
+ "base_setting": {
+  "med": 20.0,
+  "sigma": 0.25,
+  "p_hiccup": 0.005,
+  "hiccup_mean": 80.0,
+  "drift": 0.01,
+  "wave_sd": 0.05,
+  "wave_len": 1000
+ },
+ "reps": 400,
+ "n_blocks": 20,
+ "critical": {
+  "slope_each_z": 1.6448536,
+  "block_t18": 1.7340636
+ },
+ "headline": {
+  "rise_1000_pct": 0.1,
+  "rise_at_1m_pct": 100.0,
+  "no_wave_detect_1000_pct": 5.75,
+  "no_wave_false_1000_pct": 4.25,
+  "formula_detect_1000_pct": 5.21,
+  "no_wave_detect_10000_pct": 13.75,
+  "no_wave_detect_30000_pct": 94.0,
+  "formula_detect_10000_pct": 15.35,
+  "formula_detect_30000_pct": 94.46,
+  "formula_n80": 25150.0,
+  "n80_rounded": 25100,
+  "n80_rise_pct": 2.51,
+  "check_detect_at_n80_slope_each_pct": 79.5,
+  "check_detect_at_n80_block_pct": 78.0,
+  "wave_false_slope_each_1000_pct": 20.0,
+  "wave_false_slope_each_10000_pct": 33.25,
+  "wave_false_slope_each_30000_pct": 30.75,
+  "wave_false_block_3000_pct": 24.75,
+  "wave_false_block_30000_pct": 7.5,
+  "wave_detect_block_30000_pct": 22.5,
+  "wave_detect_block_100000_pct": 100.0
+ },
+ "detect_by_n": [
+  {
+   "wave_sd": 0.0,
+   "n_calls": 1000,
+   "rise_over_run_pct": 0.1,
+   "detect_slope_each": 0.0575,
+   "detect_block_means": 0.05,
+   "false_alarm_slope_each": 0.0425,
+   "false_alarm_block_means": 0.045,
+   "formula_detect_slope_each_no_wave": 0.0521
+  },
+  {
+   "wave_sd": 0.0,
+   "n_calls": 3000,
+   "rise_over_run_pct": 0.3,
+   "detect_slope_each": 0.085,
+   "detect_block_means": 0.0875,
+   "false_alarm_slope_each": 0.035,
+   "false_alarm_block_means": 0.04,
+   "formula_detect_slope_each_no_wave": 0.0615
+  },
+  {
+   "wave_sd": 0.0,
+   "n_calls": 10000,
+   "rise_over_run_pct": 1.0,
+   "detect_slope_each": 0.1375,
+   "detect_block_means": 0.145,
+   "false_alarm_slope_each": 0.055,
+   "false_alarm_block_means": 0.0475,
+   "formula_detect_slope_each_no_wave": 0.1535
+  },
+  {
+   "wave_sd": 0.0,
+   "n_calls": 30000,
+   "rise_over_run_pct": 3.0,
+   "detect_slope_each": 0.94,
+   "detect_block_means": 0.91,
+   "false_alarm_slope_each": 0.04,
+   "false_alarm_block_means": 0.03,
+   "formula_detect_slope_each_no_wave": 0.9446
+  },
+  {
+   "wave_sd": 0.0,
+   "n_calls": 100000,
+   "rise_over_run_pct": 10.0,
+   "detect_slope_each": 1.0,
+   "detect_block_means": 1.0,
+   "false_alarm_slope_each": 0.0525,
+   "false_alarm_block_means": 0.0525,
+   "formula_detect_slope_each_no_wave": 1.0
+  },
+  {
+   "wave_sd": 0.05,
+   "n_calls": 1000,
+   "rise_over_run_pct": 0.1,
+   "detect_slope_each": 0.2075,
+   "detect_block_means": 0.1875,
+   "false_alarm_slope_each": 0.2,
+   "false_alarm_block_means": 0.1825,
+   "formula_detect_slope_each_no_wave": 0.0521
+  },
+  {
+   "wave_sd": 0.05,
+   "n_calls": 3000,
+   "rise_over_run_pct": 0.3,
+   "detect_slope_each": 0.3,
+   "detect_block_means": 0.24,
+   "false_alarm_slope_each": 0.3125,
+   "false_alarm_block_means": 0.2475,
+   "formula_detect_slope_each_no_wave": 0.0615
+  },
+  {
+   "wave_sd": 0.05,
+   "n_calls": 10000,
+   "rise_over_run_pct": 1.0,
+   "detect_slope_each": 0.38,
+   "detect_block_means": 0.1775,
+   "false_alarm_slope_each": 0.3325,
+   "false_alarm_block_means": 0.1475,
+   "formula_detect_slope_each_no_wave": 0.1535
+  },
+  {
+   "wave_sd": 0.05,
+   "n_calls": 30000,
+   "rise_over_run_pct": 3.0,
+   "detect_slope_each": 0.6075,
+   "detect_block_means": 0.225,
+   "false_alarm_slope_each": 0.3075,
+   "false_alarm_block_means": 0.075,
+   "formula_detect_slope_each_no_wave": 0.9446
+  },
+  {
+   "wave_sd": 0.05,
+   "n_calls": 100000,
+   "rise_over_run_pct": 10.0,
+   "detect_slope_each": 1.0,
+   "detect_block_means": 1.0,
+   "false_alarm_slope_each": 0.345,
+   "false_alarm_block_means": 0.065,
+   "formula_detect_slope_each_no_wave": 1.0
+  }
+ ],
+ "grid_summary": {
+  "n": 27,
+  "no_wave_false_each_min": 0.02,
+  "no_wave_false_each_max": 0.0733,
+  "wave_false_each_min": 0.2667,
+  "wave_false_each_max": 0.46,
+  "wave_false_block_min": 0.04,
+  "wave_false_block_max": 0.1067,
+  "formula_n80_min": 14900,
+  "formula_n80_max": 45100,
+  "no_wave_detect_each_min": 0.4133,
+  "no_wave_detect_each_max": 1.0,
+  "max_abs_diff_formula_no_wave": 0.0433
+ }
+}
