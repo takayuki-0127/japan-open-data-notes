@@ -1,0 +1,107 @@
+{
+ "classes": [
+  {
+   "class": "A",
+   "cancel_before_pct": 12.0,
+   "noshow_pct": 2.0,
+   "noshow_of_booked_exact_pct": 1.76,
+   "lumped_exact_pct": 13.76,
+   "empty_per_session_exact": 0.67,
+   "lumped_sim_pct": 14.02,
+   "cancel_before_sim_pct": 12.28,
+   "noshow_sim_pct_of_booked": 1.74,
+   "empty_per_session_sim": 0.686,
+   "share_sessions_2plus_empty_pct": 14.85
+  },
+  {
+   "class": "B",
+   "cancel_before_pct": 4.0,
+   "noshow_pct": 10.0,
+   "noshow_of_booked_exact_pct": 9.6,
+   "lumped_exact_pct": 13.6,
+   "empty_per_session_exact": 1.144,
+   "lumped_sim_pct": 13.2,
+   "cancel_before_sim_pct": 3.76,
+   "noshow_sim_pct_of_booked": 9.44,
+   "empty_per_session_sim": 1.119,
+   "share_sessions_2plus_empty_pct": 31.15
+  },
+  {
+   "class": "C",
+   "cancel_before_pct": 8.0,
+   "noshow_pct": 6.0,
+   "noshow_of_booked_exact_pct": 5.52,
+   "lumped_exact_pct": 13.52,
+   "empty_per_session_exact": 0.901,
+   "lumped_sim_pct": 13.66,
+   "cancel_before_sim_pct": 7.82,
+   "noshow_sim_pct_of_booked": 5.84,
+   "empty_per_session_sim": 0.91,
+   "share_sessions_2plus_empty_pct": 23.45
+  }
+ ],
+ "B_over_A_empty_exact": 1.706,
+ "B_over_A_lumped_exact": 0.988,
+ "max_abs_diff_sim_vs_exact": {
+  "lumped_pt": 0.4,
+  "empty_seats": 0.025
+ },
+ "monthly_8_sessions": {
+  "months": 250,
+  "lumped_A_higher_pct": 54.4,
+  "empty_B_higher_pct": 76.8,
+  "lumped_A_higher_and_empty_B_higher_pct": 31.6
+ },
+ "shift_C": {
+  "before": {
+   "cancel_before_pct": 8.0,
+   "noshow_of_booked_pct": 5.52,
+   "lumped_pct": 13.52,
+   "empty_per_session": 0.901
+  },
+  "after": {
+   "cancel_before_pct": 10.76,
+   "noshow_of_booked_pct": 2.76,
+   "lumped_pct": 13.52,
+   "empty_per_session": 0.726
+  },
+  "empty_drop_pct": 19.4
+ },
+ "shift_C_1000_years": {
+  "lumped_change_pt_p10_p90": [
+   -2.92,
+   2.92
+  ],
+  "lumped_up_or_same_pct": 52.1,
+  "empty_down_pct": 82.9,
+  "noshow_down_pct": 98.2,
+  "empty_change_mean": -0.178
+ },
+ "grid": {
+  "n_cases": 12,
+  "B_over_A_empty_range_refill_gt0": [
+   1.107,
+   6.913
+  ],
+  "B_over_A_empty_refill0": {
+   "差が小さい": 0.994,
+   "基本": 0.988,
+   "差が大きい": 0.961
+  },
+  "lumped_pairs": {
+   "差が小さい": {
+    "A_lumped_pct": 13.6,
+    "B_lumped_pct": 13.52
+   },
+   "基本": {
+    "A_lumped_pct": 13.76,
+    "B_lumped_pct": 13.6
+   },
+   "差が大きい": {
+    "A_lumped_pct": 14.43,
+    "B_lumped_pct": 13.87
+   }
+  },
+  "max_rel_diff_sim_vs_exact_ratio_pct": 3.6
+ }
+}

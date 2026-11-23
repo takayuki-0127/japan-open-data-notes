@@ -1,0 +1,234 @@
+{
+ "inns": {
+  "宿A（団体が多い）": {
+   "setting": {
+    "scale": 0.85,
+    "group_share": 0.3,
+    "change": 0.03
+   },
+   "formula": {
+    "true_count": 10.95,
+    "per_stay": 12.3,
+    "ledger": 13.27,
+    "ledger_per_stay": 15.3,
+    "people": 13.37
+   },
+   "true_count": {
+    "mean_month": 10.93,
+    "p10": 8.74,
+    "p90": 13.29
+   },
+   "ledger": {
+    "mean_month": 13.25,
+    "p10": 10.89,
+    "p90": 15.74
+   },
+   "per_stay": {
+    "mean_month": 12.32,
+    "p10": 9.57,
+    "p90": 15.32
+   },
+   "ledger_per_stay": {
+    "mean_month": 15.32,
+    "p10": 12.22,
+    "p90": 18.68
+   },
+   "people": {
+    "mean_month": 13.36,
+    "p10": 10.28,
+    "p90": 16.52
+   }
+  },
+  "宿B（日付の変更が多い）": {
+   "setting": {
+    "scale": 0.9,
+    "group_share": 0.1,
+    "change": 0.2
+   },
+   "formula": {
+    "true_count": 9.77,
+    "per_stay": 10.82,
+    "ledger": 23.56,
+    "ledger_per_stay": 30.82,
+    "people": 11.45
+   },
+   "true_count": {
+    "mean_month": 9.82,
+    "p10": 7.72,
+    "p90": 11.98
+   },
+   "ledger": {
+    "mean_month": 23.57,
+    "p10": 21.13,
+    "p90": 25.94
+   },
+   "per_stay": {
+    "mean_month": 10.93,
+    "p10": 8.36,
+    "p90": 13.61
+   },
+   "ledger_per_stay": {
+    "mean_month": 30.92,
+    "p10": 26.79,
+    "p90": 35.02
+   },
+   "people": {
+    "mean_month": 11.54,
+    "p10": 8.53,
+    "p90": 14.53
+   }
+  },
+  "宿C（基本）": {
+   "setting": {
+    "scale": 1.0,
+    "group_share": 0.1,
+    "change": 0.08
+   },
+   "formula": {
+    "true_count": 10.85,
+    "per_stay": 12.17,
+    "ledger": 16.78,
+    "ledger_per_stay": 20.17,
+    "people": 12.72
+   },
+   "true_count": {
+    "mean_month": 10.91,
+    "p10": 8.54,
+    "p90": 13.31
+   },
+   "ledger": {
+    "mean_month": 16.85,
+    "p10": 14.33,
+    "p90": 19.26
+   },
+   "per_stay": {
+    "mean_month": 12.3,
+    "p10": 9.34,
+    "p90": 15.35
+   },
+   "ledger_per_stay": {
+    "mean_month": 20.33,
+    "p10": 16.73,
+    "p90": 23.85
+   },
+   "people": {
+    "mean_month": 12.81,
+    "p10": 9.71,
+    "p90": 16.04
+   }
+  }
+ },
+ "setting": {
+  "p_cancel_base_by_size_1to8": [
+   0.09,
+   0.09,
+   0.12,
+   0.12,
+   0.2,
+   0.2,
+   0.2,
+   0.2
+  ],
+  "bookings_per_month_mean": 300,
+  "months": 2000
+ },
+ "max_abs_diff_mean_vs_formula_pt": 0.16,
+ "max_abs_diff_at": [
+  "宿C（基本）",
+  "④台帳の取り消し÷泊まった予約"
+ ],
+ "true_count_innA_minus_innC_pt": 0.02,
+ "order_high_to_low": {
+  "true_count": [
+   "宿A（団体が多い）",
+   "宿C（基本）",
+   "宿B（日付の変更が多い）"
+  ],
+  "ledger": [
+   "宿B（日付の変更が多い）",
+   "宿C（基本）",
+   "宿A（団体が多い）"
+  ],
+  "per_stay": [
+   "宿A（団体が多い）",
+   "宿C（基本）",
+   "宿B（日付の変更が多い）"
+  ],
+  "ledger_per_stay": [
+   "宿B（日付の変更が多い）",
+   "宿C（基本）",
+   "宿A（団体が多い）"
+  ],
+  "people": [
+   "宿A（団体が多い）",
+   "宿C（基本）",
+   "宿B（日付の変更が多い）"
+  ]
+ },
+ "monthly_top_share": {
+  "true_count": {
+   "宿A（団体が多い）": 41.3,
+   "宿B（日付の変更が多い）": 17.95,
+   "宿C（基本）": 40.75
+  },
+  "ledger": {
+   "宿A（団体が多い）": 0.0,
+   "宿B（日付の変更が多い）": 99.4,
+   "宿C（基本）": 0.6
+  },
+  "per_stay": {
+   "宿A（団体が多い）": 41.3,
+   "宿B（日付の変更が多い）": 17.95,
+   "宿C（基本）": 40.75
+  },
+  "ledger_per_stay": {
+   "宿A（団体が多い）": 0.0,
+   "宿B（日付の変更が多い）": 99.4,
+   "宿C（基本）": 0.6
+  },
+  "people": {
+   "宿A（団体が多い）": 46.1,
+   "宿B（日付の変更が多い）": 17.75,
+   "宿C（基本）": 36.15
+  }
+ },
+ "monthly_top_differs": {
+  "true_vs_ledger": 81.55,
+  "true_vs_people": 25.8,
+  "ledger_vs_people": 81.7
+ },
+ "grid_range": {
+  "true_count": [
+   5.2,
+   24.27
+  ],
+  "per_stay_minus_true": [
+   0.3,
+   7.92
+  ],
+  "ledger_minus_true": [
+   0.0,
+   11.74
+  ],
+  "people_minus_true": [
+   -0.09,
+   7.76
+  ],
+  "max_over_min": [
+   1.07,
+   3.879
+  ],
+  "ledger_minus_true_change0": [
+   0.0,
+   0.0
+  ],
+  "people_minus_true_no_effect": [
+   -0.09,
+   0.25
+  ]
+ },
+ "grid_counts": {
+  "change0": 9,
+  "no_size_effect": 12
+ }
+}

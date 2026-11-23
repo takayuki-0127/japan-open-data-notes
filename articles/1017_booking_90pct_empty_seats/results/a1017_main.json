@@ -1,0 +1,70 @@
+{
+ "base": {
+  "people": {
+   "days": 5331,
+   "fill_people_mean": 88.88,
+   "fill_tables_mean": 99.11,
+   "seated_rate_mean": 74.99,
+   "seated_rate_p10": 64.58,
+   "seated_rate_p90": 85.42,
+   "share_below_75": 42.34,
+   "share_at_or_above_90": 1.29,
+   "empty_seats_mean": 12.01,
+   "parts_pct": {
+    "seat_no_booking": 0.71,
+    "seat_table_leftover": 10.41,
+    "seat_cancel": 7.05,
+    "seat_noshow": 4.13,
+    "seat_shrink": 2.7
+   },
+   "seated_per_booked_person": 84.37,
+   "formula_seated_per_booked_person": 84.35
+  },
+  "tables": {
+   "days": 2631,
+   "fill_people_mean": 78.33,
+   "fill_tables_mean": 90.7,
+   "seated_rate_mean": 66.11,
+   "seated_rate_p10": 54.17,
+   "seated_rate_p90": 79.17,
+   "share_below_75": 77.92,
+   "share_at_or_above_90": 0.08,
+   "empty_seats_mean": 16.27,
+   "parts_pct": {
+    "seat_no_booking": 10.5,
+    "seat_table_leftover": 11.17,
+    "seat_cancel": 6.15,
+    "seat_noshow": 3.64,
+    "seat_shrink": 2.43
+   },
+   "seated_per_booked_person": 84.4,
+   "formula_seated_per_booked_person": 84.3
+  }
+ },
+ "n_days": 20000,
+ "seats": 48,
+ "tables": 16,
+ "setting": {
+  "cancel": 0.08,
+  "noshow": 0.05,
+  "shrink": 0.1,
+  "p_size": [
+   0.08,
+   0.52,
+   0.15,
+   0.25
+  ],
+  "walkin": 0.0
+ },
+ "seated_rate_gap_people_minus_tables_pt": 8.88,
+ "grid_range": {
+  "seated_rate_mean_min": 64.76,
+  "seated_rate_mean_max": 81.62,
+  "share_below_75_min": 12.87,
+  "share_below_75_max": 84.9,
+  "table_leftover_min": 7.88,
+  "table_leftover_max": 12.14,
+  "fill_tables_mean_min": 96.28,
+  "fill_tables_mean_max": 99.81
+ }
+}

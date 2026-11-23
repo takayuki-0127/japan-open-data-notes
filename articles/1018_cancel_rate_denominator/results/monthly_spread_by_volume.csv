@@ -1,0 +1,5 @@
+bookings_per_month,true_count_p10,true_count_p90,true_count_mean
+30,3.7,18.75,10.85
+100,7.0,15.09,10.94
+300,8.63,13.21,10.86
+1000,9.59,12.1,10.83

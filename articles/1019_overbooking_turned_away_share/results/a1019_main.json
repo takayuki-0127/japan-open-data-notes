@@ -1,0 +1,153 @@
+{
+ "setting": {
+  "capacity": 12,
+  "noshow": 0.1,
+  "n_sim": 200000
+ },
+ "base": {
+  "0": {
+   "formula_p_session": 0.0,
+   "formula_per_booked": 0.0,
+   "formula_per_arrived": 0.0,
+   "formula_turned_mean": 0.0,
+   "formula_empty_mean": 1.2,
+   "sim_p_session": 0.0,
+   "sim_per_booked": 0.0,
+   "sim_per_arrived": 0.0,
+   "sim_turned_mean": 0.0,
+   "sim_empty_mean": 1.199,
+   "sim_turned_mean_when_any": 0.0
+  },
+  "1": {
+   "formula_p_session": 25.42,
+   "formula_per_booked": 1.955,
+   "formula_per_arrived": 2.173,
+   "formula_turned_mean": 0.2542,
+   "formula_empty_mean": 0.554,
+   "sim_p_session": 25.34,
+   "sim_per_booked": 1.949,
+   "sim_per_arrived": 2.166,
+   "sim_turned_mean": 0.2534,
+   "sim_empty_mean": 0.554,
+   "sim_turned_mean_when_any": 1.0
+  },
+  "2": {
+   "formula_p_session": 58.46,
+   "formula_per_booked": 5.81,
+   "formula_per_arrived": 6.456,
+   "formula_turned_mean": 0.8134,
+   "formula_empty_mean": 0.213,
+   "sim_p_session": 58.64,
+   "sim_per_booked": 5.82,
+   "sim_per_arrived": 6.465,
+   "sim_turned_mean": 0.8148,
+   "sim_empty_mean": 0.212,
+   "sim_turned_mean_when_any": 1.39
+  },
+  "3": {
+   "formula_p_session": 81.59,
+   "formula_per_booked": 10.472,
+   "formula_per_arrived": 11.636,
+   "formula_turned_mean": 1.5709,
+   "formula_empty_mean": 0.071,
+   "sim_p_session": 81.72,
+   "sim_per_booked": 10.479,
+   "sim_per_arrived": 11.643,
+   "sim_turned_mean": 1.5719,
+   "sim_empty_mean": 0.071,
+   "sim_turned_mean_when_any": 1.924
+  },
+  "4": {
+   "formula_p_session": 93.16,
+   "formula_per_booked": 15.13,
+   "formula_per_arrived": 16.812,
+   "formula_turned_mean": 2.4209,
+   "formula_empty_mean": 0.021,
+   "sim_p_session": 93.3,
+   "sim_per_booked": 15.156,
+   "sim_per_arrived": 16.834,
+   "sim_turned_mean": 2.4249,
+   "sim_empty_mean": 0.02,
+   "sim_turned_mean_when_any": 2.599
+  }
+ },
+ "max_abs_diff_sim_vs_formula_p_session_pt": 0.18,
+ "cases_k2": {
+  "毎回同じ・1人ずつ（基本）": {
+   "p_session": 58.46,
+   "per_booked": 5.809,
+   "per_arrived": 6.455,
+   "turned_mean": 0.8133,
+   "empty_mean": 0.213,
+   "turned_mean_when_any": 1.391
+  },
+  "回ごとに振れる（標準偏差5ポイント）": {
+   "p_session": 60.54,
+   "per_booked": 6.376,
+   "per_arrived": 7.083,
+   "turned_mean": 0.8927,
+   "empty_mean": 0.29,
+   "turned_mean_when_any": 1.474
+  },
+  "回ごとに振れる（標準偏差8ポイント）": {
+   "p_session": 62.88,
+   "per_booked": 7.084,
+   "per_arrived": 7.872,
+   "turned_mean": 0.9918,
+   "empty_mean": 0.393,
+   "turned_mean_when_any": 1.577
+  },
+  "2人連れが半分": {
+   "p_session": 57.95,
+   "per_booked": 6.628,
+   "per_arrived": 7.367,
+   "turned_mean": 0.9279,
+   "empty_mean": 0.333,
+   "turned_mean_when_any": 1.601
+  },
+  "振れ5ポイント＋2人連れが半分": {
+   "p_session": 59.54,
+   "per_booked": 7.057,
+   "per_arrived": 7.842,
+   "turned_mean": 0.988,
+   "empty_mean": 0.389,
+   "turned_mean_when_any": 1.659
+  }
+ },
+ "one_run_k2_1000": {
+  "sessions_with_turned_away": 587,
+  "turned_away_total": 818,
+  "booked_total": 14000
+ },
+ "grid_range_k2": {
+  "p_session": [
+   3.77,
+   91.32
+  ],
+  "per_booked": [
+   0.135,
+   16.217
+  ],
+  "p_session_cap12": [
+   35.72,
+   84.73
+  ],
+  "per_booked_cap12": [
+   3.284,
+   10.997
+  ],
+  "p_session_q10_cap12": [
+   58.24,
+   62.97
+  ],
+  "per_booked_q10_cap12": [
+   5.83,
+   7.641
+  ],
+  "p_session_always_above_per_booked": true,
+  "ratio_session_over_booked": [
+   5.3,
+   27.9
+  ]
+ }
+}

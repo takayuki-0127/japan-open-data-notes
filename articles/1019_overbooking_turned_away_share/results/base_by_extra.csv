@@ -1,0 +1,6 @@
+extra,formula_p_session,formula_per_booked,formula_per_arrived,formula_turned_mean,formula_empty_mean,sim_p_session,sim_per_booked,sim_per_arrived,sim_turned_mean,sim_empty_mean,sim_turned_mean_when_any
+0,0.0,0.0,0.0,0.0,1.2,0.0,0.0,0.0,0.0,1.199,0.0
+1,25.42,1.955,2.173,0.2542,0.554,25.34,1.949,2.166,0.2534,0.554,1.0
+2,58.46,5.81,6.456,0.8134,0.213,58.64,5.82,6.465,0.8148,0.212,1.39
+3,81.59,10.472,11.636,1.5709,0.071,81.72,10.479,11.643,1.5719,0.071,1.924
+4,93.16,15.13,16.812,2.4209,0.021,93.3,15.156,16.834,2.4249,0.02,2.599

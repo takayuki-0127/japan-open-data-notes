@@ -1,0 +1,171 @@
+{
+ "base_corr": {
+  "raw_seated": 0.193,
+  "raw_demand": 0.53,
+  "within_seated": -0.175,
+  "within_demand": 0.151
+ },
+ "quartiles_all_days": {
+  "top_seated": 13.11,
+  "bottom_seated": 9.19,
+  "top_demand": 17.84,
+  "bottom_demand": 9.19,
+  "top_turned_away": 4.73,
+  "bottom_turned_away": 0.0
+ },
+ "quartiles_same_weekday": {
+  "top_seated": 10.24,
+  "bottom_seated": 11.41,
+  "top_demand": 13.25,
+  "bottom_demand": 11.43,
+  "top_turned_away": 3.02,
+  "bottom_turned_away": 0.02
+ },
+ "by_weekday": [
+  {
+   "weekday": "月",
+   "days": 300,
+   "booked_mean": 14.55,
+   "walkin_demand_mean": 9.32,
+   "walkin_seated_mean": 9.32,
+   "days_with_turned_away_pct": 0.0,
+   "corr_seated": 0.116,
+   "corr_demand": 0.116
+  },
+  {
+   "weekday": "火",
+   "days": 300,
+   "booked_mean": 14.34,
+   "walkin_demand_mean": 9.2,
+   "walkin_seated_mean": 9.2,
+   "days_with_turned_away_pct": 0.0,
+   "corr_seated": 0.142,
+   "corr_demand": 0.142
+  },
+  {
+   "weekday": "水",
+   "days": 300,
+   "booked_mean": 14.01,
+   "walkin_demand_mean": 9.23,
+   "walkin_seated_mean": 9.23,
+   "days_with_turned_away_pct": 0.0,
+   "corr_seated": 0.008,
+   "corr_demand": 0.008
+  },
+  {
+   "weekday": "木",
+   "days": 300,
+   "booked_mean": 14.59,
+   "walkin_demand_mean": 10.1,
+   "walkin_seated_mean": 10.1,
+   "days_with_turned_away_pct": 0.0,
+   "corr_seated": 0.146,
+   "corr_demand": 0.146
+  },
+  {
+   "weekday": "金",
+   "days": 300,
+   "booked_mean": 29.16,
+   "walkin_demand_mean": 16.98,
+   "walkin_seated_mean": 14.47,
+   "days_with_turned_away_pct": 28.0,
+   "corr_seated": -0.355,
+   "corr_demand": 0.239
+  },
+  {
+   "weekday": "土",
+   "days": 300,
+   "booked_mean": 34.17,
+   "walkin_demand_mean": 18.23,
+   "walkin_seated_mean": 12.93,
+   "days_with_turned_away_pct": 50.0,
+   "corr_seated": -0.699,
+   "corr_demand": 0.14
+  },
+  {
+   "weekday": "日",
+   "days": 300,
+   "booked_mean": 21.75,
+   "walkin_demand_mean": 13.18,
+   "walkin_seated_mean": 13.0,
+   "days_with_turned_away_pct": 3.0,
+   "corr_seated": 0.063,
+   "corr_demand": 0.147
+  }
+ ],
+ "slope_raw_seated": 0.099,
+ "slope_within_seated": -0.135,
+ "slope_within_demand": 0.132,
+ "season0_corr": {
+  "raw_seated": 0.24,
+  "raw_demand": 0.496,
+  "within_seated": -0.215,
+  "within_demand": 0.021
+ },
+ "grid": {
+  "n_cases": 27,
+  "raw_seated_range": [
+   -0.336,
+   0.649
+  ],
+  "raw_seated_range_with_weekday": [
+   -0.33,
+   0.649
+  ],
+  "within_seated_range": [
+   -0.435,
+   0.249
+  ],
+  "within_demand_range": [
+   -0.043,
+   0.368
+  ],
+  "raw_gt_within_seated_cases": 18,
+  "with_weekday_cases": 18,
+  "raw_gt_within_seated_with_weekday": 17,
+  "raw_seated_by_seats": {
+   "36": [
+    -0.336,
+    -0.269
+   ],
+   "48": [
+    -0.018,
+    0.237
+   ],
+   "72": [
+    -0.042,
+    0.649
+   ]
+  },
+  "within_seated_lt_within_demand_cases": 24,
+  "within_seated_negative_cases": 19,
+  "within_demand_by_amp": {
+   "0.0": [
+    -0.043,
+    0.013
+   ],
+   "0.15": [
+    0.072,
+    0.12
+   ],
+   "0.3": [
+    0.249,
+    0.368
+   ]
+  },
+  "within_seated_by_seats": {
+   "36": [
+    -0.411,
+    -0.276
+   ],
+   "48": [
+    -0.435,
+    0.192
+   ],
+   "72": [
+    -0.049,
+    0.249
+   ]
+  }
+ }
+}
