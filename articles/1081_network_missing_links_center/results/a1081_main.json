@@ -1,0 +1,222 @@
+{
+ "N": 300,
+ "reps": 100,
+ "top": 10,
+ "params": {
+  "n_dept": 10,
+  "per_dept": 30,
+  "face_depts": [
+   1,
+   2,
+   3
+  ],
+  "sig_w": 0.6,
+  "c_in": 0.16,
+  "c_out": 0.008,
+  "q_face": 0.4,
+  "q_other": 0.9,
+  "grid_reps": 40
+ },
+ "mean_degree_true": 9.59,
+ "face_share_people_pct": 30.0,
+ "face_in_true_top_deg": 2.82,
+ "face_in_true_top_bc": 2.94,
+ "random_missing": [
+  {
+   "missing_pct": 10,
+   "measure": "つながりの数",
+   "top10_overlap": 8.81,
+   "same_top1_pct": 82.0,
+   "rank_of_true1": 1.33,
+   "spearman": 0.9835,
+   "face_in_top10": 2.88
+  },
+  {
+   "missing_pct": 10,
+   "measure": "間に立つ度合い",
+   "top10_overlap": 8.37,
+   "same_top1_pct": 78.0,
+   "rank_of_true1": 1.36,
+   "spearman": 0.9724,
+   "face_in_top10": 3.06
+  },
+  {
+   "missing_pct": 20,
+   "measure": "つながりの数",
+   "top10_overlap": 8.23,
+   "same_top1_pct": 72.0,
+   "rank_of_true1": 1.54,
+   "spearman": 0.9637,
+   "face_in_top10": 2.91
+  },
+  {
+   "missing_pct": 20,
+   "measure": "間に立つ度合い",
+   "top10_overlap": 7.94,
+   "same_top1_pct": 70.0,
+   "rank_of_true1": 1.6,
+   "spearman": 0.9411,
+   "face_in_top10": 2.87
+  },
+  {
+   "missing_pct": 30,
+   "measure": "つながりの数",
+   "top10_overlap": 7.68,
+   "same_top1_pct": 67.0,
+   "rank_of_true1": 1.56,
+   "spearman": 0.9402,
+   "face_in_top10": 3.05
+  },
+  {
+   "missing_pct": 30,
+   "measure": "間に立つ度合い",
+   "top10_overlap": 7.42,
+   "same_top1_pct": 71.0,
+   "rank_of_true1": 1.66,
+   "spearman": 0.9084,
+   "face_in_top10": 3.19
+  },
+  {
+   "missing_pct": 40,
+   "measure": "つながりの数",
+   "top10_overlap": 7.27,
+   "same_top1_pct": 63.0,
+   "rank_of_true1": 1.93,
+   "spearman": 0.912,
+   "face_in_top10": 2.93
+  },
+  {
+   "missing_pct": 40,
+   "measure": "間に立つ度合い",
+   "top10_overlap": 6.67,
+   "same_top1_pct": 57.0,
+   "rank_of_true1": 2.3,
+   "spearman": 0.8696,
+   "face_in_top10": 2.99
+  },
+  {
+   "missing_pct": 50,
+   "measure": "つながりの数",
+   "top10_overlap": 6.61,
+   "same_top1_pct": 52.0,
+   "rank_of_true1": 3.05,
+   "spearman": 0.8742,
+   "face_in_top10": 2.88
+  },
+  {
+   "missing_pct": 50,
+   "measure": "間に立つ度合い",
+   "top10_overlap": 6.1,
+   "same_top1_pct": 56.0,
+   "rank_of_true1": 3.33,
+   "spearman": 0.8225,
+   "face_in_top10": 2.85
+  }
+ ],
+ "rand30_true1_out_of_top10_pct": {
+  "deg": 1.0,
+  "bc": 1.0
+ },
+ "sys_kept_share_pct": 71.04,
+ "systematic": [
+  {
+   "case": "同じ割合だけでたらめに漏れる",
+   "measure": "つながりの数",
+   "top10_overlap": 7.66,
+   "same_top1_pct": 63.0,
+   "spearman": 0.9418,
+   "face_in_top10": 2.94
+  },
+  {
+   "case": "同じ割合だけでたらめに漏れる",
+   "measure": "間に立つ度合い",
+   "top10_overlap": 7.54,
+   "same_top1_pct": 65.0,
+   "spearman": 0.9107,
+   "face_in_top10": 3.03
+  },
+  {
+   "case": "対面の多い3部署で漏れる",
+   "measure": "つながりの数",
+   "top10_overlap": 6.83,
+   "same_top1_pct": 54.0,
+   "spearman": 0.8365,
+   "face_in_top10": 0.07
+  },
+  {
+   "case": "対面の多い3部署で漏れる",
+   "measure": "間に立つ度合い",
+   "top10_overlap": 6.98,
+   "same_top1_pct": 51.0,
+   "spearman": 0.8599,
+   "face_in_top10": 1.46
+  },
+  {
+   "case": "対面の多い3部署で漏れる＋記録に残る確率で割り戻す",
+   "measure": "つながりの数",
+   "top10_overlap": 7.45,
+   "same_top1_pct": 56.0,
+   "spearman": 0.9181,
+   "face_in_top10": 3.52
+  }
+ ],
+ "grid": {
+  "n": 9,
+  "rand30_overlap_deg_range": [
+   6.15,
+   8.425
+  ],
+  "rand30_overlap_bc_range": [
+   5.675,
+   8.35
+  ],
+  "sys_overlap_deg_range": [
+   5.6,
+   7.675
+  ],
+  "sys_overlap_bc_range": [
+   4.225,
+   8.4
+  ],
+  "sys_overlap_deg_ht_range": [
+   3.825,
+   8.5
+  ],
+  "sys_face_top_bc_range": [
+   0.75,
+   2.475
+  ],
+  "face_true_top_bc_range": [
+   2.875,
+   3.425
+  ],
+  "sys_face_top_deg_range": [
+   0.0,
+   1.35
+  ],
+  "sys_face_top_deg_ht_range": [
+   3.275,
+   6.1
+  ],
+  "face_true_top_deg_range": [
+   2.775,
+   3.375
+  ],
+  "n_ht_face_above_true": 9,
+  "kept_pct_range": [
+   63.1,
+   78.72
+  ],
+  "n_ht_better_than_raw_deg": 6,
+  "n_bc_below_deg_rand30": 8
+ },
+ "check_betweenness_same_as_plain_within_1e-6": true,
+ "example": {
+  "n_links_true": 1316,
+  "n_links_recorded": 917,
+  "sys_bc_overlap": 6,
+  "sys_deg_overlap": 5,
+  "sys_bc_face_in_top": 1,
+  "true_bc_face_in_top": 4
+ }
+}

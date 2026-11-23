@@ -1,0 +1,5 @@
+measure,same_next_month_top10_overlap,top1_same_next_month_pct,bridges_in_top10,hubs_in_top10,depts_in_top10
+相手の数,6.66,56.0,0.0,3.18,5.59
+間に入る度合い,4.26,37.0,0.63,3.12,6.75
+近さ,4.49,37.0,0.28,2.74,5.37
+中心の人とのつながり,6.17,56.0,0.0,1.12,1.37

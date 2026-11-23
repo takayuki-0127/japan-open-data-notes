@@ -1,0 +1,5 @@
+rho,top_out_in_overlap,rankcorr_out_in,top1_out_eq_in_pct,either_over_mutual,reciprocity
+0.0,0.1,0.015,10.0,8.448,0.212
+0.5,1.4,0.443,10.0,6.831,0.2556
+0.8,4.0,0.692,10.0,6.097,0.2821
+0.95,6.3,0.845,20.0,5.621,0.3025

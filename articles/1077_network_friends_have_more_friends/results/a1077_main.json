@@ -1,0 +1,242 @@
+{
+ "base_setting": {
+  "mean": 8.0,
+  "cv": 1.0,
+  "n_members": 2000
+ },
+ "reps": 50,
+ "grid_reps": 10,
+ "headline": {
+  "mean_deg": 7.98,
+  "median_deg": 5.17,
+  "var_deg": 72.13,
+  "isolated_pct": 11.26,
+  "pooled_friend_mean": 17.02,
+  "formula_mean_plus_var_over_mean": 17.02,
+  "max_abs_diff_pooled_vs_formula": 0.0,
+  "ratio_pooled": 2.133,
+  "person_avg_friend_mean": 17.04,
+  "ratio_person_avg": 2.136,
+  "median_friend_mean": 16.57,
+  "share_friends_more_pct": 83.98,
+  "share_friends_equal_pct": 0.32,
+  "share_friends_less_pct": 15.7,
+  "share_friends_more_min_pct": 82.21,
+  "share_friends_more_max_pct": 86.36,
+  "share_friends_more_above_mean_pct": 62.11,
+  "avg_share_of_friends_with_more_pct": 72.03,
+  "share_majority_friends_more_pct": 73.6,
+  "top10pct_tie_end_share_pct": 34.54,
+  "pick_member_ge11_pct": 27.25,
+  "pick_friend_ge11_pct": 64.94,
+  "pick_member_le2_pct": 29.7,
+  "pick_friend_le2_pct": 3.39,
+  "grid_share_more_min_pct": 60.23,
+  "grid_share_more_max_pct": 90.33,
+  "grid_ratio_pooled_min": 1.063,
+  "grid_ratio_pooled_max": 3.576,
+  "cv0_share_more_min_pct": 60.23,
+  "cv0_share_more_max_pct": 65.18,
+  "cv0_pooled_minus_mean_min": 0.986,
+  "cv0_pooled_minus_mean_max": 1.01,
+  "cv0_mean8_share_more_pct": 62.82,
+  "cv0_mean8_ratio_pooled": 1.123,
+  "grid_share_more_gt50_count": 12,
+  "grid_more_gt_less_count": 12
+ },
+ "pick_distribution": [
+  {
+   "bin": "0人",
+   "pick_member_pct": 11.26,
+   "pick_friend_pct": 0.0
+  },
+  {
+   "bin": "1〜2人",
+   "pick_member_pct": 18.44,
+   "pick_friend_pct": 3.39
+  },
+  {
+   "bin": "3〜5人",
+   "pick_member_pct": 21.15,
+   "pick_friend_pct": 10.37
+  },
+  {
+   "bin": "6〜10人",
+   "pick_member_pct": 21.9,
+   "pick_friend_pct": 21.3
+  },
+  {
+   "bin": "11〜20人",
+   "pick_member_pct": 18.88,
+   "pick_friend_pct": 34.42
+  },
+  {
+   "bin": "21〜40人",
+   "pick_member_pct": 7.55,
+   "pick_friend_pct": 25.51
+  },
+  {
+   "bin": "41人以上",
+   "pick_member_pct": 0.82,
+   "pick_friend_pct": 5.01
+  }
+ ],
+ "grid": [
+  {
+   "cv": 0.0,
+   "mean_set": 4.0,
+   "mean_deg": 4.002,
+   "pooled_friend_mean": 4.997,
+   "ratio_pooled": 1.249,
+   "person_avg_friend_mean": 4.995,
+   "ratio_person_avg": 1.248,
+   "share_friends_more_pct": 65.18,
+   "share_friends_less_pct": 31.01,
+   "avg_share_of_friends_with_more_pct": 56.43,
+   "isolated_pct": 1.63
+  },
+  {
+   "cv": 0.0,
+   "mean_set": 8.0,
+   "mean_deg": 8.007,
+   "pooled_friend_mean": 8.993,
+   "ratio_pooled": 1.123,
+   "person_avg_friend_mean": 9.0,
+   "ratio_person_avg": 1.124,
+   "share_friends_more_pct": 62.82,
+   "share_friends_less_pct": 35.65,
+   "avg_share_of_friends_with_more_pct": 54.93,
+   "isolated_pct": 0.05
+  },
+  {
+   "cv": 0.0,
+   "mean_set": 16.0,
+   "mean_deg": 16.063,
+   "pooled_friend_mean": 17.073,
+   "ratio_pooled": 1.063,
+   "person_avg_friend_mean": 17.073,
+   "ratio_person_avg": 1.063,
+   "share_friends_more_pct": 60.23,
+   "share_friends_less_pct": 39.24,
+   "avg_share_of_friends_with_more_pct": 53.6,
+   "isolated_pct": 0.0
+  },
+  {
+   "cv": 0.5,
+   "mean_set": 4.0,
+   "mean_deg": 3.922,
+   "pooled_friend_mean": 5.896,
+   "ratio_pooled": 1.503,
+   "person_avg_friend_mean": 5.924,
+   "ratio_person_avg": 1.51,
+   "share_friends_more_pct": 71.84,
+   "share_friends_less_pct": 25.25,
+   "avg_share_of_friends_with_more_pct": 62.33,
+   "isolated_pct": 6.36
+  },
+  {
+   "cv": 0.5,
+   "mean_set": 8.0,
+   "mean_deg": 8.059,
+   "pooled_friend_mean": 11.07,
+   "ratio_pooled": 1.374,
+   "person_avg_friend_mean": 11.093,
+   "ratio_person_avg": 1.376,
+   "share_friends_more_pct": 73.99,
+   "share_friends_less_pct": 25.44,
+   "avg_share_of_friends_with_more_pct": 63.63,
+   "isolated_pct": 1.12
+  },
+  {
+   "cv": 0.5,
+   "mean_set": 16.0,
+   "mean_deg": 15.989,
+   "pooled_friend_mean": 20.898,
+   "ratio_pooled": 1.307,
+   "person_avg_friend_mean": 20.909,
+   "ratio_person_avg": 1.308,
+   "share_friends_more_pct": 73.77,
+   "share_friends_less_pct": 26.11,
+   "avg_share_of_friends_with_more_pct": 63.57,
+   "isolated_pct": 0.19
+  },
+  {
+   "cv": 1.0,
+   "mean_set": 4.0,
+   "mean_deg": 3.946,
+   "pooled_friend_mean": 8.933,
+   "ratio_pooled": 2.263,
+   "person_avg_friend_mean": 8.949,
+   "ratio_person_avg": 2.268,
+   "share_friends_more_pct": 80.44,
+   "share_friends_less_pct": 18.02,
+   "avg_share_of_friends_with_more_pct": 69.27,
+   "isolated_pct": 20.1
+  },
+  {
+   "cv": 1.0,
+   "mean_set": 8.0,
+   "mean_deg": 7.979,
+   "pooled_friend_mean": 16.804,
+   "ratio_pooled": 2.106,
+   "person_avg_friend_mean": 16.826,
+   "ratio_person_avg": 2.109,
+   "share_friends_more_pct": 83.78,
+   "share_friends_less_pct": 15.89,
+   "avg_share_of_friends_with_more_pct": 71.74,
+   "isolated_pct": 11.08
+  },
+  {
+   "cv": 1.0,
+   "mean_set": 16.0,
+   "mean_deg": 16.007,
+   "pooled_friend_mean": 32.863,
+   "ratio_pooled": 2.053,
+   "person_avg_friend_mean": 32.904,
+   "ratio_person_avg": 2.056,
+   "share_friends_more_pct": 85.51,
+   "share_friends_less_pct": 14.42,
+   "avg_share_of_friends_with_more_pct": 73.44,
+   "isolated_pct": 5.78
+  },
+  {
+   "cv": 1.5,
+   "mean_set": 4.0,
+   "mean_deg": 4.023,
+   "pooled_friend_mean": 14.389,
+   "ratio_pooled": 3.576,
+   "person_avg_friend_mean": 14.429,
+   "ratio_person_avg": 3.586,
+   "share_friends_more_pct": 86.52,
+   "share_friends_less_pct": 12.44,
+   "avg_share_of_friends_with_more_pct": 73.93,
+   "isolated_pct": 35.87
+  },
+  {
+   "cv": 1.5,
+   "mean_set": 8.0,
+   "mean_deg": 7.976,
+   "pooled_friend_mean": 26.803,
+   "ratio_pooled": 3.36,
+   "person_avg_friend_mean": 26.846,
+   "ratio_person_avg": 3.366,
+   "share_friends_more_pct": 88.93,
+   "share_friends_less_pct": 10.81,
+   "avg_share_of_friends_with_more_pct": 76.78,
+   "isolated_pct": 27.32
+  },
+  {
+   "cv": 1.5,
+   "mean_set": 16.0,
+   "mean_deg": 16.304,
+   "pooled_friend_mean": 53.828,
+   "ratio_pooled": 3.302,
+   "person_avg_friend_mean": 53.87,
+   "ratio_person_avg": 3.304,
+   "share_friends_more_pct": 90.33,
+   "share_friends_less_pct": 9.57,
+   "avg_share_of_friends_with_more_pct": 78.69,
+   "isolated_pct": 19.98
+  }
+ ]
+}

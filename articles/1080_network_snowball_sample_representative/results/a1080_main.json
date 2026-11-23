@@ -1,0 +1,195 @@
+{
+ "true_active_pct": 25.0,
+ "N": 2000,
+ "target": 300,
+ "reps": 200,
+ "params": {
+  "mean_deg_target": 8.0,
+  "sig_w": 0.5,
+  "r": 2.0,
+  "h": 2.0,
+  "n_seed": 10,
+  "coupon": 3,
+  "accept": 0.7,
+  "grid_reps": 30
+ },
+ "base_active": {
+  "label": "最初の10人＝よく来る人",
+  "random300_pct": {
+   "mean": 24.81,
+   "p10": 21.67,
+   "p90": 28.03
+  },
+  "snowball_raw_pct": {
+   "mean": 38.71,
+   "p10": 34.33,
+   "p90": 43.33
+  },
+  "snowball_weighted_pct": {
+   "mean": 28.16,
+   "p10": 23.79,
+   "p90": 32.58
+  },
+  "degree_weighted_share_pct": {
+   "mean": 36.73,
+   "p10": 35.6,
+   "p90": 37.9
+  },
+  "mean_degree_true": 7.96,
+  "mean_degree_sample": 11.26,
+  "raw_minus_true_pt": 13.71,
+  "weighted_minus_true_pt": 3.16,
+  "max_wave_median": 4.0,
+  "share_by_wave_pct": [
+   100.0,
+   56.94,
+   41.18,
+   35.63,
+   32.63,
+   31.38
+  ],
+  "n_by_wave": [
+   10.0,
+   20.94,
+   42.97,
+   87.62,
+   131.66,
+   6.81
+  ]
+ },
+ "base_random": {
+  "label": "最初の10人＝会員から無作為",
+  "random300_pct": {
+   "mean": 25.06,
+   "p10": 21.67,
+   "p90": 28.33
+  },
+  "snowball_raw_pct": {
+   "mean": 34.53,
+   "p10": 30.67,
+   "p90": 38.7
+  },
+  "snowball_weighted_pct": {
+   "mean": 23.71,
+   "p10": 19.42,
+   "p90": 28.11
+  },
+  "degree_weighted_share_pct": {
+   "mean": 36.75,
+   "p10": 35.4,
+   "p90": 37.92
+  },
+  "mean_degree_true": 7.96,
+  "mean_degree_sample": 11.07,
+  "raw_minus_true_pt": 9.53,
+  "weighted_minus_true_pt": -1.29,
+  "max_wave_median": 4.0,
+  "share_by_wave_pct": [
+   26.75,
+   32.2,
+   34.93,
+   35.78,
+   34.69,
+   29.37
+  ],
+  "n_by_wave": [
+   10.0,
+   19.81,
+   39.72,
+   80.39,
+   135.33,
+   14.75
+  ]
+ },
+ "report_noise": [
+  {
+   "report_sig": 0.0,
+   "weighted_mean_pct": 27.91,
+   "p10_pct": 23.95,
+   "p90_pct": 32.22
+  },
+  {
+   "report_sig": 0.3,
+   "weighted_mean_pct": 27.98,
+   "p10_pct": 23.79,
+   "p90_pct": 31.53
+  },
+  {
+   "report_sig": 0.6,
+   "weighted_mean_pct": 27.96,
+   "p10_pct": 23.13,
+   "p90_pct": 32.36
+  }
+ ],
+ "coupon": [
+  {
+   "coupon": 2,
+   "raw_pct": 37.08,
+   "weighted_pct": 26.85,
+   "n_seed_mean": 10.0,
+   "max_wave_median": 7.0
+  },
+  {
+   "coupon": 3,
+   "raw_pct": 39.39,
+   "weighted_pct": 28.72,
+   "n_seed_mean": 10.0,
+   "max_wave_median": 4.0
+  },
+  {
+   "coupon": 5,
+   "raw_pct": 41.3,
+   "weighted_pct": 30.25,
+   "n_seed_mean": 10.0,
+   "max_wave_median": 3.0
+  }
+ ],
+ "grid": {
+  "n": 18,
+  "raw_bias_min": -8.26,
+  "raw_bias_max": 32.76,
+  "wt_bias_min": -3.04,
+  "wt_bias_max": 12.88,
+  "raw_min": 16.74,
+  "raw_max": 57.76,
+  "wt_min": 21.96,
+  "wt_max": 37.88,
+  "r1_h1_degree_weighted_share": [
+   24.93,
+   24.96
+  ],
+  "raw_min_case": {
+   "r": 1.0,
+   "h": 4.0,
+   "seed_rule": "random",
+   "raw_pct": 16.74
+  },
+  "n_wt_closer": 14,
+  "n_wt_within2": 8,
+  "r1_h1_raw_range": [
+   24.38,
+   26.7
+  ],
+  "wt_bias_max_case": {
+   "r": 1.0,
+   "h": 4.0,
+   "seed_rule": "active",
+   "weighted_pct": 37.88
+  },
+  "random_seed_wt_bias_range": [
+   -3.04,
+   1.7
+  ],
+  "active_seed_wt_bias_range": [
+   -1.64,
+   12.88
+  ]
+ },
+ "example": {
+  "raw": 41.67,
+  "wt": 27.93,
+  "rnd": 25.67,
+  "deg_share": 37.28,
+  "n_links": 7958
+ }
+}
