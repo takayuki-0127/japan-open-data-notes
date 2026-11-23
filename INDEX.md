@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 763本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 787本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -13,7 +13,7 @@
 | 予測・時系列 | 141 |
 | 因果推論・効果検証 | 68 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 326 |
+| 統計の考え方（検定・区間・回帰） | 328 |
 | 機械学習・モデル評価 | 104 |
 | 顧客分析・生存分析 | 72 |
 | SQL・データ処理 | 95 |
@@ -23,7 +23,7 @@
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 21 |
 | 再現性・振り返り | 95 |
-| その他（記述・要因分解など） | 451 |
+| その他（記述・要因分解など） | 473 |
 
 <details><summary><b>予測・時系列</b>（141本）</summary>
 
@@ -282,7 +282,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（326本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（328本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -612,6 +612,8 @@
 | 1036 | 移動の記録の抜け（電波が切れた区間）で、距離はどれだけずれるのか？ | [1036_travel_gps_gap_distance](articles/1036_travel_gps_gap_distance) |
 | 1039 | 移動時間の短縮は、全体の時間をどれだけ減らすのか？ | [1039_travel_time_cut_total](articles/1039_travel_time_cut_total) |
 | 1040 | 計画の時刻表どおりに動く割合は、区間の数でどう変わるのか？ | [1040_travel_timetable_sections](articles/1040_travel_timetable_sections) |
+| 1049 | 要素どうしが関係しているとき、別々に見込んで掛けると何がずれるのか？ | [1049_estimate_correlated_factors](articles/1049_estimate_correlated_factors) |
+| 1059 | サーバーごとの99パーセンタイルを平均すると、全体の99パーセンタイルになるのか？ | [1059_speed_p99_average_servers](articles/1059_speed_p99_average_servers) |
 
 </details>
 
@@ -1370,7 +1372,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（451本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（473本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1825,6 +1827,28 @@
 | 1035 | 道のりの長い日ほど、1kmあたりの時間は短いのか？ | [1035_travel_long_day_per_km](articles/1035_travel_long_day_per_km) |
 | 1037 | 待ち合わせに余裕を何分みれば、9割の確率で間に合うのか？ | [1037_travel_meeting_buffer_90pct](articles/1037_travel_meeting_buffer_90pct) |
 | 1038 | 「最短の道」は、毎日同じなのか？ | [1038_travel_shortest_route_daily](articles/1038_travel_shortest_route_daily) |
+| 1041 | 掛け算でつなぐ要素が増えるほど、概算はどれだけ外れやすくなるのか？ | [1041_estimate_factor_count_error](articles/1041_estimate_factor_count_error) |
+| 1042 | 要素ごとに平均を使うか中央値を使うかで、掛けた答えはどれだけ違うのか？ | [1042_estimate_mean_vs_median_factors](articles/1042_estimate_mean_vs_median_factors) |
+| 1043 | 大きく外れた要素が1つあると、ほかを正しくしても全体はどれだけずれるのか？ | [1043_estimate_one_big_factor_error](articles/1043_estimate_one_big_factor_error) |
+| 1044 | 全体から割合で割っていく概算と、1件ずつ積み上げる概算は、どれだけ食い違うのか？ | [1044_estimate_topdown_vs_bottomup](articles/1044_estimate_topdown_vs_bottomup) |
+| 1045 | 区分に分けて足し合わせると、重なりと抜けで合計はどれだけずれるのか？ | [1045_estimate_segments_overlap_gap](articles/1045_estimate_segments_overlap_gap) |
+| 1046 | 何人かの概算をまとめるとき、普通の平均と掛け算の平均（幾何平均）のどちらが当たりに近いのか？ | [1046_estimate_combine_mean_vs_geomean](articles/1046_estimate_combine_mean_vs_geomean) |
+| 1047 | 先に聞いた数字に、概算はどれだけ引き寄せられるのか？ | [1047_estimate_anchor_pull](articles/1047_estimate_anchor_pull) |
+| 1048 | 途中の数字を1桁に丸めて計算すると、答えは何倍まで外れるのか？ | [1048_estimate_round_one_digit](articles/1048_estimate_round_one_digit) |
+| 1050 | 小さな町の数字を大きな町に当てはめると、規模の違いでどれだけずれるのか？ | [1050_estimate_small_town_scale_up](articles/1050_estimate_small_town_scale_up) |
+| 1051 | 要素の1つを実際に数えて確かめるなら、どの要素から確かめると外れがいちばん縮むのか？ | [1051_estimate_which_factor_to_check](articles/1051_estimate_which_factor_to_check) |
+| 1052 | 概算が「当たった」と言えるのは、実際の値の何倍以内なのか？ | [1052_estimate_hit_within_factor](articles/1052_estimate_hit_within_factor) |
+| 1053 | 1回ずつ測った処理時間で速い方を選ぶと、何回に1回まちがえるのか？ | [1053_speed_single_run_pick](articles/1053_speed_single_run_pick) |
+| 1054 | 温まる前の最初の数回を入れて平均すると、どれだけ遅く出るのか？ | [1054_speed_warmup_runs_mean](articles/1054_speed_warmup_runs_mean) |
+| 1055 | 平均・中央値・最小値のどれで比べるかで、速い方は入れかわるのか？ | [1055_speed_mean_median_min](articles/1055_speed_mean_median_min) |
+| 1056 | A のあとに B を測る順番を固定すると、何が差にまざるのか？ | [1056_bench_fixed_order_ab](articles/1056_bench_fixed_order_ab) |
+| 1057 | 小さいデータで速かった方法は、大きいデータでも速いのか？ | [1057_bench_small_data_winner](articles/1057_bench_small_data_winner) |
+| 1058 | 99パーセンタイルの応答時間は、何件測れば落ち着くのか？ | [1058_latency_p99_samples_settle](articles/1058_latency_p99_samples_settle) |
+| 1060 | 平均が速くなっても、遅い側の数%は遅くなっていることはあるのか？ | [1060_speed_mean_faster_tail_slower](articles/1060_speed_mean_faster_tail_slower) |
+| 1061 | 同じ設定のつもりの2台で、速さはどれだけ違うのか？ | [1061_speed_same_config_two_machines](articles/1061_speed_same_config_two_machines) |
+| 1062 | 短い時間の計測で、動かすほどだんだん遅くなる処理は見つかるのか？ | [1062_speed_short_run_slow_drift](articles/1062_speed_short_run_slow_drift) |
+| 1063 | 一定の間隔でのぞく測り方で、遅い場所の順位は入れかわるのか？ | [1063_speed_sampling_interval_rank](articles/1063_speed_sampling_interval_rank) |
+| 1064 | 時間切れで打ち切った処理を除くと、平均の応答時間はどう見えるのか？ | [1064_speed_timeout_excluded_mean](articles/1064_speed_timeout_excluded_mean) |
 
 </details>
 
@@ -1833,7 +1857,7 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 223 |
+| 小売・店舗 | 225 |
 | EC・会員・Web | 100 |
 | マーケティング・広告 | 27 |
 | 需要予測・在庫 | 31 |
@@ -1842,7 +1866,7 @@
 | 保険 | 72 |
 | 公的統計・地域・人口 | 435 |
 
-<details><summary><b>小売・店舗</b>（223本）</summary>
+<details><summary><b>小売・店舗</b>（225本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2069,6 +2093,8 @@
 | 1022 | 予約の多い日は、当日も多いのか？ | [1022_booking_busy_day_walkins](articles/1022_booking_busy_day_walkins) |
 | 1025 | 予約を締め切る時刻で、埋まり具合の見え方は変わるのか？ | [1025_booking_cutoff_time_fill](articles/1025_booking_cutoff_time_fill) |
 | 1027 | 前年の同じ日の予約と比べると、何を読み違えるのか？ | [1027_booking_last_year_same_date](articles/1027_booking_last_year_same_date) |
+| 1042 | 要素ごとに平均を使うか中央値を使うかで、掛けた答えはどれだけ違うのか？ | [1042_estimate_mean_vs_median_factors](articles/1042_estimate_mean_vs_median_factors) |
+| 1044 | 全体から割合で割っていく概算と、1件ずつ積み上げる概算は、どれだけ食い違うのか？ | [1044_estimate_topdown_vs_bottomup](articles/1044_estimate_topdown_vs_bottomup) |
 
 </details>
 
