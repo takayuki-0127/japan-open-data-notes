@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 787本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 811本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -13,9 +13,9 @@
 | 予測・時系列 | 141 |
 | 因果推論・効果検証 | 68 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 328 |
+| 統計の考え方（検定・区間・回帰） | 331 |
 | 機械学習・モデル評価 | 104 |
-| 顧客分析・生存分析 | 72 |
+| 顧客分析・生存分析 | 75 |
 | SQL・データ処理 | 95 |
 | Excel | 12 |
 | 集計の定義・KPI | 174 |
@@ -23,7 +23,7 @@
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 21 |
 | 再現性・振り返り | 95 |
-| その他（記述・要因分解など） | 473 |
+| その他（記述・要因分解など） | 491 |
 
 <details><summary><b>予測・時系列</b>（141本）</summary>
 
@@ -282,7 +282,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（328本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（331本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -614,6 +614,9 @@
 | 1040 | 計画の時刻表どおりに動く割合は、区間の数でどう変わるのか？ | [1040_travel_timetable_sections](articles/1040_travel_timetable_sections) |
 | 1049 | 要素どうしが関係しているとき、別々に見込んで掛けると何がずれるのか？ | [1049_estimate_correlated_factors](articles/1049_estimate_correlated_factors) |
 | 1059 | サーバーごとの99パーセンタイルを平均すると、全体の99パーセンタイルになるのか？ | [1059_speed_p99_average_servers](articles/1059_speed_p99_average_servers) |
+| 1073 | チーム戦の勝ち負けから、1人ひとりの強さはどこまで分かるのか？ | [1073_rating_team_games_individual](articles/1073_rating_team_games_individual) |
+| 1076 | 総当たりでない対戦の記録から、順位はどこまで決められるのか？ | [1076_rating_partial_schedule_rank](articles/1076_rating_partial_schedule_rank) |
+| 1082 | 似た人どうしがつながっているのは、影響しあったからか、もとから似ていたからか？ | [1082_network_similar_influence_or_selection](articles/1082_network_similar_influence_or_selection) |
 
 </details>
 
@@ -728,7 +731,7 @@
 
 </details>
 
-<details><summary><b>顧客分析・生存分析</b>（72本）</summary>
+<details><summary><b>顧客分析・生存分析</b>（75本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -804,6 +807,9 @@
 | 969 | 空欄を除いて平均すると、何がずれるのか？ | [969_missing_drop_blank_mean](articles/969_missing_drop_blank_mean) |
 | 979 | 欠けやすい人に重みを付けると、どこまで戻せるのか？ | [979_missing_weight_nonresponse](articles/979_missing_weight_nonresponse) |
 | 999 | 会員の来場だけで、全体の傾向は読めるのか？ | [999_visitors_members_only_trend](articles/999_visitors_members_only_trend) |
+| 1077 | 「自分の知り合いは、自分より知り合いが多い」と感じるのはなぜか？ | [1077_network_friends_have_more_friends](articles/1077_network_friends_have_more_friends) |
+| 1084 | 少ないつながりでも、たどれば何人目で全員に届くのか？ | [1084_network_steps_reach_all](articles/1084_network_steps_reach_all) |
+| 1086 | 人数が倍になると、つながりの密度はどう変わるのか？ | [1086_network_density_size_double](articles/1086_network_density_size_double) |
 
 </details>
 
@@ -1372,7 +1378,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（473本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（491本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1849,6 +1855,24 @@
 | 1062 | 短い時間の計測で、動かすほどだんだん遅くなる処理は見つかるのか？ | [1062_speed_short_run_slow_drift](articles/1062_speed_short_run_slow_drift) |
 | 1063 | 一定の間隔でのぞく測り方で、遅い場所の順位は入れかわるのか？ | [1063_speed_sampling_interval_rank](articles/1063_speed_sampling_interval_rank) |
 | 1064 | 時間切れで打ち切った処理を除くと、平均の応答時間はどう見えるのか？ | [1064_speed_timeout_excluded_mean](articles/1064_speed_timeout_excluded_mean) |
+| 1065 | 初めの点数をいくつにするかで、新しく入った人の順位はどれだけずれるのか？ | [1065_rating_start_value_newcomer_rank](articles/1065_rating_start_value_newcomer_rank) |
+| 1066 | 1試合で動かす点の幅を大きくすると、強さは早く当たるのか、ぶれるのか？ | [1066_rating_k_speed_vs_noise](articles/1066_rating_k_speed_vs_noise) |
+| 1067 | 1日に何十試合もする人と、たまにしか対戦しない人の点数は、同じ物差しで比べられるのか？ | [1067_rating_heavy_vs_light_players](articles/1067_rating_heavy_vs_light_players) |
+| 1068 | 対戦の相手を自分で選べると、点数はどれだけ上がって見えるのか？ | [1068_rating_pick_opponents](articles/1068_rating_pick_opponents) |
+| 1069 | キャラクターごとの勝率は、使う人のうまさでどれだけ動くのか？ | [1069_char_winrate_player_skill](articles/1069_char_winrate_player_skill) |
+| 1070 | 使われる割合の高いキャラクターは、強いキャラクターなのか？ | [1070_char_usage_share_strength](articles/1070_char_usage_share_strength) |
+| 1071 | 同じキャラクターどうしの対戦を数に入れると、勝率はどう見えるのか？ | [1071_rating_mirror_match_winrate](articles/1071_rating_mirror_match_winrate) |
+| 1072 | 調整の前後でキャラクターの勝率を比べると、使う人の入れかわりが何をまぜるのか？ | [1072_rating_patch_player_mix](articles/1072_rating_patch_player_mix) |
+| 1074 | 力の近い人どうしを当てると、勝率はなぜ皆5割に近づくのか？ | [1074_rating_close_match_winrate_half](articles/1074_rating_close_match_winrate_half) |
+| 1075 | シーズンの初めに点数を戻すと、上位はどれだけ入れかわるのか？ | [1075_rating_season_reset_top_turnover](articles/1075_rating_season_reset_top_turnover) |
+| 1078 | 双方向で数えるか片方向で数えるかで、つながりの数は何倍違うのか？ | [1078_network_directed_vs_mutual_count](articles/1078_network_directed_vs_mutual_count) |
+| 1079 | 「中心の人」は、中心の測り方で入れかわるのか？ | [1079_network_center_measure_swap](articles/1079_network_center_measure_swap) |
+| 1080 | 知り合いをたどって集めた人は、全体を表しているのか？ | [1080_network_snowball_sample_representative](articles/1080_network_snowball_sample_representative) |
+| 1081 | 記録に残らなかったつながりがあると、中心の人はどう変わるのか？ | [1081_network_missing_links_center](articles/1081_network_missing_links_center) |
+| 1083 | グループの分け方の細かさで、グループの数と顔ぶれはどう変わるのか？ | [1083_network_group_resolution](articles/1083_network_group_resolution) |
+| 1085 | 何か月分の記録でつながりを数えるかで、顔ぶれはどう変わるのか？ | [1085_network_window_months_central](articles/1085_network_window_months_central) |
+| 1087 | 1人が抜けると、全体のつながりはどれだけ切れるのか？ | [1087_network_one_leaves_cut](articles/1087_network_one_leaves_cut) |
+| 1088 | 新しい道具の使い始めは、まわりの何人が使えば広がるのか？ | [1088_network_adoption_how_many](articles/1088_network_adoption_how_many) |
 
 </details>
 
@@ -1858,8 +1882,8 @@
 | 場面 | 本数 |
 |---|---|
 | 小売・店舗 | 225 |
-| EC・会員・Web | 100 |
-| マーケティング・広告 | 27 |
+| EC・会員・Web | 103 |
+| マーケティング・広告 | 28 |
 | 需要予測・在庫 | 31 |
 | 業務の集計・報告 | 138 |
 | 作業時間・処理件数 | 6 |
@@ -2098,7 +2122,7 @@
 
 </details>
 
-<details><summary><b>EC・会員・Web</b>（100本）</summary>
+<details><summary><b>EC・会員・Web</b>（103本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2202,10 +2226,13 @@
 | 969 | 空欄を除いて平均すると、何がずれるのか？ | [969_missing_drop_blank_mean](articles/969_missing_drop_blank_mean) |
 | 979 | 欠けやすい人に重みを付けると、どこまで戻せるのか？ | [979_missing_weight_nonresponse](articles/979_missing_weight_nonresponse) |
 | 999 | 会員の来場だけで、全体の傾向は読めるのか？ | [999_visitors_members_only_trend](articles/999_visitors_members_only_trend) |
+| 1077 | 「自分の知り合いは、自分より知り合いが多い」と感じるのはなぜか？ | [1077_network_friends_have_more_friends](articles/1077_network_friends_have_more_friends) |
+| 1084 | 少ないつながりでも、たどれば何人目で全員に届くのか？ | [1084_network_steps_reach_all](articles/1084_network_steps_reach_all) |
+| 1086 | 人数が倍になると、つながりの密度はどう変わるのか？ | [1086_network_density_size_double](articles/1086_network_density_size_double) |
 
 </details>
 
-<details><summary><b>マーケティング・広告</b>（27本）</summary>
+<details><summary><b>マーケティング・広告</b>（28本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2236,6 +2263,7 @@
 | 962 | 「よく一緒に出る言葉」は、本当に関係があるのか？ | [962_text_cooccurrence_relation](articles/962_text_cooccurrence_relation) |
 | 983 | 振り分けで「迷惑メール」と出たとき、本当に迷惑メールの確率は？ | [983_prob_spam_filter_base_rate](articles/983_prob_spam_filter_base_rate) |
 | 996 | 天気のよい日と比べた「集客の効果」は、何を読み違えるのか？ | [996_visitors_campaign_vs_sunny_days](articles/996_visitors_campaign_vs_sunny_days) |
+| 1088 | 新しい道具の使い始めは、まわりの何人が使えば広がるのか？ | [1088_network_adoption_how_many](articles/1088_network_adoption_how_many) |
 
 </details>
 
