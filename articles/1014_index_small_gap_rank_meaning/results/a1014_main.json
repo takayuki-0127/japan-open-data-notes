@@ -1,0 +1,59 @@
+{
+ "seed": 1014,
+ "stores": 40,
+ "customers_per_month": 100,
+ "one_month": {
+  "top1_store": 33,
+  "top1_total": 73.97,
+  "top2_total": 73.66,
+  "gap_1st_2nd": 0.31,
+  "top1_true_rank": 1,
+  "top1_month2_rank": 2,
+  "top1_rank90": [
+   1,
+   4
+  ],
+  "total_range": [
+   62.25,
+   73.97
+  ],
+  "adjacent_gap_median": 0.2,
+  "adjacent_gap_max": 3.1,
+  "adjacent_gap_under_0_5": 34,
+  "rank90_width_median": 15.0,
+  "rank90_width_ge10_stores": 35,
+  "stores_rank1_possible": 3,
+  "spearman_month1_month2": 0.851,
+  "spearman_month1_true": 0.906,
+  "mean_abs_rank_change": 4.9
+ },
+ "reps_2000": {
+  "tau_true_total_sd": 2.64,
+  "sigma_measure_sd": 0.921,
+  "adjacent_gap_median": 0.18,
+  "adjacent_gap_under_0_5_pct": 82.18,
+  "adjacent_gap_under_1_pct": 94.51,
+  "adjacent_truly_higher_pct": 58.28,
+  "top1_same_next_month_pct": 52.45,
+  "top1_is_true_top1_pct": 63.65,
+  "mean_abs_rank_change": 4.33,
+  "stores_move_5ranks_pct": 38.12,
+  "gap_for_90pct_formula": 1.77,
+  "gap_for_75pct_formula": 0.93,
+  "formula_vs_sim_max_diff_pt": 0.77
+ },
+ "grid_ranges": {
+  "adjacent_truly_higher_pct": [
+   52.48,
+   78.84
+  ],
+  "top1_same_next_month_pct": [
+   11.67,
+   91.0
+  ],
+  "gap_for_90pct_formula": [
+   0.52,
+   4.94
+  ]
+ }
+}

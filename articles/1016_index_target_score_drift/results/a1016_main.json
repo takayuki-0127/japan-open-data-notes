@@ -1,0 +1,71 @@
+{
+ "seed": 1016,
+ "stores": 200,
+ "periods": 6,
+ "top": 20,
+ "settings": {
+  "g": 3.0,
+  "delta": 0.5,
+  "k_beta": [
+   2.0,
+   3.0
+  ],
+  "heavy_k_over": 0.6
+ },
+ "one_run": {
+  "period0": {
+   "r": 0.591,
+   "hit_pct": 30.0,
+   "top_q_minus_mean": 5.178,
+   "top_heavy_pct": 20.0,
+   "all_heavy_pct": 23.5
+  },
+  "period6": {
+   "r": 0.421,
+   "hit_pct": 30.0,
+   "top_q_minus_mean": 5.167,
+   "top_heavy_pct": 70.0,
+   "all_heavy_pct": 23.5
+  }
+ },
+ "reps_500": {
+  "corr_p0": 0.635,
+  "corr_p6": 0.42,
+  "corr_formula_p0": 0.632,
+  "corr_formula_p6": 0.42,
+  "corr_p6_nogame": 0.65,
+  "formula_vs_sim_max_diff": 0.004,
+  "hit_p0": 40.69,
+  "hit_p6": 26.33,
+  "hit_p6_nogame": 42.6,
+  "top_q_minus_mean_p0": 6.22,
+  "top_q_minus_mean_p6": 4.72,
+  "top_heavy_p0": 17.9,
+  "top_heavy_p6": 56.4,
+  "all_heavy": 17.86,
+  "mean_score_rise": 10.18,
+  "mean_true_rise": 3.59,
+  "mean_score_rise_nogame": 3.0,
+  "mean_true_rise_nogame": 6.02,
+  "top_rise_true_rise": 3.96,
+  "top_rise_score_rise": 19.33,
+  "top_rise_heavy_pct": 67.04,
+  "top_rise_true_below_mean_pct": 46.1,
+  "top_rise_true_rise_nogame": 8.8
+ },
+ "grid_corr_p6_formula_max_diff": 0.007,
+ "grid_ranges_g_positive": {
+  "corr_p6": [
+   0.208,
+   0.608
+  ],
+  "hit_p6": [
+   15.88,
+   39.9
+  ],
+  "top_rise_dQ": [
+   1.06,
+   7.22
+  ]
+ }
+}

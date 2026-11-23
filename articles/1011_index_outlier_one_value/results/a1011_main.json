@@ -1,0 +1,236 @@
+{
+ "one_draw": {
+  "typo_product": "P24",
+  "typo_true": 11.39,
+  "typo_recorded": 113.91,
+  "z": {
+   "target_true_rank": 20,
+   "target_obs_rank": 4,
+   "others_moved": 19,
+   "others_max_move": 6
+  },
+  "minmax": {
+   "target_true_rank": 20,
+   "target_obs_rank": 6,
+   "others_moved": 22,
+   "others_max_move": 6
+  },
+  "rank": {
+   "target_true_rank": 19,
+   "target_obs_rank": 14,
+   "others_moved": 2,
+   "others_max_move": 1
+  },
+  "zclip": {
+   "target_true_rank": 20,
+   "target_obs_rank": 10,
+   "others_moved": 19,
+   "others_max_move": 6
+  },
+  "robust": {
+   "target_true_rank": 17,
+   "target_obs_rank": 12,
+   "others_moved": 5,
+   "others_max_move": 2
+  },
+  "z_item1_target_true": -0.327,
+  "z_item1_target_obs": 5.359,
+  "z_item1_others_sd_obs": 0.099
+ },
+ "base_1000reps": [
+  {
+   "index": "z",
+   "method": "平均と標準偏差でそろえる",
+   "target_true_rank": 15.201,
+   "target_obs_rank": 4.328,
+   "target_rank_up": 10.873,
+   "target_first": 0.394,
+   "target_item_score": 5.3551,
+   "others_mean_abs_move": 1.6383,
+   "others_share_moved": 0.7239,
+   "others_top5_overlap": 4.234,
+   "others_spearman": 0.9609,
+   "item1_spread_ratio": 0.104
+  },
+  {
+   "index": "minmax",
+   "method": "最小0・最大1にそろえる",
+   "target_true_rank": 15.219,
+   "target_obs_rank": 6.512,
+   "target_rank_up": 8.707,
+   "target_first": 0.256,
+   "target_item_score": 1.0,
+   "others_mean_abs_move": 1.7031,
+   "others_share_moved": 0.7325,
+   "others_top5_overlap": 4.218,
+   "others_spearman": 0.9578,
+   "item1_spread_ratio": 0.0755
+  },
+  {
+   "index": "rank",
+   "method": "順位にする",
+   "target_true_rank": 15.195,
+   "target_obs_rank": 11.427,
+   "target_rank_up": 3.768,
+   "target_first": 0.063,
+   "target_item_score": 1.0,
+   "others_mean_abs_move": 0.0768,
+   "others_share_moved": 0.0717,
+   "others_top5_overlap": 4.968,
+   "others_spearman": 0.9993,
+   "item1_spread_ratio": 0.968
+  },
+  {
+   "index": "zclip",
+   "method": "平均と標準偏差でそろえ±3で切る",
+   "target_true_rank": 15.201,
+   "target_obs_rank": 8.012,
+   "target_rank_up": 7.189,
+   "target_first": 0.173,
+   "target_item_score": 3.0,
+   "others_mean_abs_move": 1.6379,
+   "others_share_moved": 0.7239,
+   "others_top5_overlap": 4.234,
+   "others_spearman": 0.9609,
+   "item1_spread_ratio": 0.1041
+  },
+  {
+   "index": "robust",
+   "method": "中央値とMADでそろえ±3で切る",
+   "target_true_rank": 15.264,
+   "target_obs_rank": 8.852,
+   "target_rank_up": 6.412,
+   "target_first": 0.107,
+   "target_item_score": 3.0,
+   "others_mean_abs_move": 0.0991,
+   "others_share_moved": 0.0879,
+   "others_top5_overlap": 4.961,
+   "others_spearman": 0.9991,
+   "item1_spread_ratio": 0.9646
+  }
+ ],
+ "down_0_1_1000reps": [
+  {
+   "index": "z",
+   "method": "平均と標準偏差でそろえる",
+   "target_true_rank": 15.089,
+   "target_obs_rank": 23.717,
+   "target_rank_up": -8.628,
+   "target_first": 0.001,
+   "target_item_score": -3.8337,
+   "others_mean_abs_move": 0.5386,
+   "others_share_moved": 0.4002,
+   "others_top5_overlap": 4.754,
+   "others_spearman": 0.9935,
+   "item1_spread_ratio": 0.7121
+  },
+  {
+   "index": "minmax",
+   "method": "最小0・最大1にそろえる",
+   "target_true_rank": 15.079,
+   "target_obs_rank": 21.965,
+   "target_rank_up": -6.886,
+   "target_first": 0.001,
+   "target_item_score": 0.0,
+   "others_mean_abs_move": 0.8423,
+   "others_share_moved": 0.5311,
+   "others_top5_overlap": 4.608,
+   "others_spearman": 0.987,
+   "item1_spread_ratio": 0.5504
+  },
+  {
+   "index": "rank",
+   "method": "順位にする",
+   "target_true_rank": 15.078,
+   "target_obs_rank": 18.872,
+   "target_rank_up": -3.794,
+   "target_first": 0.002,
+   "target_item_score": 0.0333,
+   "others_mean_abs_move": 0.0778,
+   "others_share_moved": 0.0725,
+   "others_top5_overlap": 4.981,
+   "others_spearman": 0.9994,
+   "item1_spread_ratio": 0.9682
+  },
+  {
+   "index": "zclip",
+   "method": "平均と標準偏差でそろえ±3で切る",
+   "target_true_rank": 15.087,
+   "target_obs_rank": 22.145,
+   "target_rank_up": -7.058,
+   "target_first": 0.001,
+   "target_item_score": -2.9999,
+   "others_mean_abs_move": 0.5388,
+   "others_share_moved": 0.4004,
+   "others_top5_overlap": 4.752,
+   "others_spearman": 0.9935,
+   "item1_spread_ratio": 0.7129
+  },
+  {
+   "index": "robust",
+   "method": "中央値とMADでそろえ±3で切る",
+   "target_true_rank": 15.05,
+   "target_obs_rank": 21.708,
+   "target_rank_up": -6.658,
+   "target_first": 0.001,
+   "target_item_score": -2.9998,
+   "others_mean_abs_move": 0.1092,
+   "others_share_moved": 0.0966,
+   "others_top5_overlap": 4.941,
+   "others_spearman": 0.999,
+   "item1_spread_ratio": 0.9633
+  }
+ ],
+ "grid_summary": {
+  "z_target_score_x100_vs_bound": [
+   {
+    "n_products": 10,
+    "n_items": 3,
+    "target_item_score": 3.0,
+    "z_bound_sqrt_n_minus_1": 3.0
+   },
+   {
+    "n_products": 30,
+    "n_items": 3,
+    "target_item_score": 5.385,
+    "z_bound_sqrt_n_minus_1": 5.385
+   },
+   {
+    "n_products": 100,
+    "n_items": 3,
+    "target_item_score": 9.948,
+    "z_bound_sqrt_n_minus_1": 9.95
+   }
+  ],
+  "z_others_share_moved_range": [
+   0.0939,
+   0.9508
+  ],
+  "z_others_share_moved_range_factor_ge_5": [
+   0.2517,
+   0.9508
+  ],
+  "z_others_mean_abs_move_range": [
+   0.101,
+   10.163
+  ],
+  "z_target_first_range_factor10": [
+   0.1,
+   0.995
+  ],
+  "rank_others_share_moved_range": [
+   0.0256,
+   0.1353
+  ],
+  "robust_others_share_moved_range": [
+   0.0372,
+   0.1528
+  ],
+  "z_item1_spread_ratio_factor10_range": [
+   0.0592,
+   0.19
+  ],
+  "n_grid": 54
+ },
+ "z_bound_n30": 5.385
+}

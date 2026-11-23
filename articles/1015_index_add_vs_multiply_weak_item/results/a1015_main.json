@@ -1,0 +1,93 @@
+{
+ "seed": 1015,
+ "products": 120,
+ "examples_same_mean": [
+  {
+   "items": [
+    8.0,
+    8.0,
+    8.0,
+    8.0
+   ],
+   "add": 8.0,
+   "mul": 8.0
+  },
+  {
+   "items": [
+    10.0,
+    10.0,
+    10.0,
+    2.0
+   ],
+   "add": 8.0,
+   "mul": 6.69
+  },
+  {
+   "items": [
+    9.0,
+    9.0,
+    9.0,
+    5.0
+   ],
+   "add": 8.0,
+   "mul": 7.77
+  }
+ ],
+ "one_set": {
+  "top10_overlap": 10,
+  "spearman": 0.98,
+  "move10_pct": 10.83,
+  "move10_products": 13,
+  "max_move": 43,
+  "corr_min_item_vs_move": 0.405,
+  "down_min_item_median": 4.0,
+  "up_min_item_median": 5.1,
+  "all_min_item_median": 4.95,
+  "top20_overlap": 19,
+  "top20_out_by_mul_min_items": [
+   5.7
+  ],
+  "top20_in_by_mul_min_items": [
+   5.6
+  ],
+  "top20_add_min_item_median": 6.65,
+  "products_min_le4": 35,
+  "move10_add_rank_range": [
+   21,
+   90
+  ],
+  "max_move_product": {
+   "product_id": 45,
+   "items": [
+    7.5,
+    2.0,
+    9.9,
+    8.1
+   ],
+   "add_rank": 40,
+   "mul_rank": 83,
+   "add": 6.88,
+   "mul": 5.89
+  }
+ },
+ "raise_one_item": {
+  "products_used": 85,
+  "mul_weak_over_strong_median": 1.62,
+  "mul_weak_over_strong_range": [
+   1.09,
+   6.33
+  ],
+  "formula_hi_over_lo_median": 1.67
+ },
+ "grid_ranges": {
+  "top10_overlap_mean": [
+   6.82,
+   9.92
+  ],
+  "move10_pct": [
+   0.0,
+   59.75
+  ]
+ },
+ "all_items_equal_same_rank": true
+}
