@@ -1,0 +1,258 @@
+{
+ "base": {
+  "n_items": 5,
+  "r": 0.6,
+  "sd_err": 6.0
+ },
+ "true_item_mean": 70,
+ "true_item_sd": 10,
+ "items": [
+  "清潔さ",
+  "待ち時間の短さ",
+  "品ぞろえ",
+  "接客",
+  "会計の正確さ"
+ ],
+ "n_stores": 300,
+ "top": 30,
+ "example": {
+  "top30_both": 22,
+  "top30_only_mean": 8,
+  "top30_only_min": 8,
+  "rank_corr_mean_vs_min": 0.878,
+  "top30_overlap_mean_vs_min": 0.7333,
+  "stab_rank_mean": 0.8811,
+  "stab_rank_min": 0.7475,
+  "stab_top30_mean": 0.6333,
+  "stab_top30_min": 0.5,
+  "hit_mean_truemean": 0.7333,
+  "hit_min_truemean": 0.6,
+  "hit_mean_truemin": 0.7333,
+  "hit_min_truemin": 0.6333,
+  "rank_mean_truemin": 0.8809,
+  "rank_min_truemin": 0.8552,
+  "bias_min": -2.3243,
+  "bias_mean": 0.163,
+  "argmin_obs_eq_true": 0.5433,
+  "argmin_same_next_month": 0.4367,
+  "example_only_mean": {
+   "store_id": 103,
+   "items_m1": {
+    "清潔さ": 75,
+    "待ち時間の短さ": 97,
+    "品ぞろえ": 100,
+    "接客": 71,
+    "会計の正確さ": 87
+   },
+   "mean_m1": 86.0,
+   "min_m1": 71,
+   "rank_mean": 4,
+   "rank_min": 37
+  },
+  "example_only_min": {
+   "store_id": 66,
+   "items_m1": {
+    "清潔さ": 82,
+    "待ち時間の短さ": 83,
+    "品ぞろえ": 78,
+    "接客": 83,
+    "会計の正確さ": 79
+   },
+   "mean_m1": 81.0,
+   "min_m1": 78,
+   "rank_mean": 31,
+   "rank_min": 6
+  }
+ },
+ "base_300reps": {
+  "rank_corr_mean_vs_min": 0.8856,
+  "top30_overlap_mean_vs_min": 0.7076,
+  "stab_rank_mean": 0.8939,
+  "stab_rank_min": 0.7524,
+  "stab_top30_mean": 0.6938,
+  "stab_top30_min": 0.5512,
+  "hit_mean_truemean": 0.7834,
+  "hit_min_truemean": 0.6468,
+  "hit_mean_truemin": 0.6906,
+  "hit_min_truemin": 0.6596,
+  "rank_mean_truemin": 0.879,
+  "rank_min_truemin": 0.8551,
+  "bias_min": -2.7954,
+  "bias_mean": -0.0206,
+  "argmin_obs_eq_true": 0.5503,
+  "argmin_same_next_month": 0.4272,
+  "hit_mean_truemin_p10": 0.6,
+  "hit_min_truemin_p10": 0.5667,
+  "hit_mean_truemin_p90": 0.7667,
+  "hit_min_truemin_p90": 0.7333,
+  "share_reps_mean_better_on_truemin": 0.5767,
+  "share_reps_min_better_on_truemin": 0.2267
+ },
+ "robustness": {
+  "n_combos": 45,
+  "rank_corr_mean_vs_min_range": [
+   0.6925,
+   0.9717
+  ],
+  "top30_overlap_range": [
+   0.5517,
+   0.845
+  ],
+  "n_noisy_combos": 36,
+  "n_noisy_min_less_stable_rank": 36,
+  "n_noisy_mean_beats_min_on_truemin": 26,
+  "n_noisy_min_beats_mean_on_truemin": 10,
+  "diff_on_truemin_range_noisy": [
+   -0.1284,
+   0.1239
+  ],
+  "sd0_hit_min_truemin_range": [
+   0.95,
+   0.9672
+  ],
+  "sd0_bias_min_maxabs": 0.0033,
+  "bias_mean_range_all": [
+   -0.4369,
+   0.0117
+  ],
+  "n_mean_beats_sd10plus": 18,
+  "n_mean_beats_sd6_r06plus": 6,
+  "n_mean_beats_sd3": 2,
+  "sd0_hit_mean_truemin_range": [
+   0.6317,
+   0.8478
+  ],
+  "sd0_stab_rank_min": 1.0,
+  "bias_min_range_noisy": [
+   -15.8167,
+   -0.4451
+  ],
+  "argmin_obs_eq_true_range_noisy": [
+   0.2251,
+   0.8339
+  ],
+  "argmin_same_next_month_range_noisy": [
+   0.1524,
+   0.7753
+  ],
+  "min_beats_mean_combos": [
+   {
+    "sd_err": 3.0,
+    "r": 0.3,
+    "n_items": 3,
+    "hit_mean_truemin": 0.6706,
+    "hit_min_truemin": 0.7694
+   },
+   {
+    "sd_err": 3.0,
+    "r": 0.3,
+    "n_items": 5,
+    "hit_mean_truemin": 0.6244,
+    "hit_min_truemin": 0.7528
+   },
+   {
+    "sd_err": 3.0,
+    "r": 0.3,
+    "n_items": 8,
+    "hit_mean_truemin": 0.6161,
+    "hit_min_truemin": 0.7417
+   },
+   {
+    "sd_err": 3.0,
+    "r": 0.6,
+    "n_items": 3,
+    "hit_mean_truemin": 0.7389,
+    "hit_min_truemin": 0.7911
+   },
+   {
+    "sd_err": 3.0,
+    "r": 0.6,
+    "n_items": 5,
+    "hit_mean_truemin": 0.7511,
+    "hit_min_truemin": 0.7889
+   },
+   {
+    "sd_err": 3.0,
+    "r": 0.6,
+    "n_items": 8,
+    "hit_mean_truemin": 0.7439,
+    "hit_min_truemin": 0.7906
+   },
+   {
+    "sd_err": 3.0,
+    "r": 0.8,
+    "n_items": 5,
+    "hit_mean_truemin": 0.8089,
+    "hit_min_truemin": 0.8322
+   },
+   {
+    "sd_err": 6.0,
+    "r": 0.3,
+    "n_items": 3,
+    "hit_mean_truemin": 0.5639,
+    "hit_min_truemin": 0.5906
+   },
+   {
+    "sd_err": 6.0,
+    "r": 0.3,
+    "n_items": 5,
+    "hit_mean_truemin": 0.5611,
+    "hit_min_truemin": 0.5717
+   },
+   {
+    "sd_err": 6.0,
+    "r": 0.3,
+    "n_items": 8,
+    "hit_mean_truemin": 0.5828,
+    "hit_min_truemin": 0.5989
+   }
+  ],
+  "by_sd_r06_k5": [
+   {
+    "sd_err": 0.0,
+    "hit_mean_truemin": 0.7583,
+    "hit_min_truemin": 0.9672,
+    "stab_rank_mean": 1.0,
+    "stab_rank_min": 1.0,
+    "bias_min": 0.0009,
+    "argmin_obs_eq_true": 0.9543
+   },
+   {
+    "sd_err": 3.0,
+    "hit_mean_truemin": 0.7511,
+    "hit_min_truemin": 0.7889,
+    "stab_rank_mean": 0.9701,
+    "stab_rank_min": 0.9067,
+    "bias_min": -0.7531,
+    "argmin_obs_eq_true": 0.7304
+   },
+   {
+    "sd_err": 6.0,
+    "hit_mean_truemin": 0.6972,
+    "hit_min_truemin": 0.6633,
+    "stab_rank_mean": 0.8918,
+    "stab_rank_min": 0.7493,
+    "bias_min": -2.7845,
+    "argmin_obs_eq_true": 0.5512
+   },
+   {
+    "sd_err": 10.0,
+    "hit_mean_truemin": 0.5878,
+    "hit_min_truemin": 0.5139,
+    "stab_rank_mean": 0.756,
+    "stab_rank_min": 0.5573,
+    "bias_min": -6.3975,
+    "argmin_obs_eq_true": 0.4251
+   },
+   {
+    "sd_err": 15.0,
+    "hit_mean_truemin": 0.5006,
+    "hit_min_truemin": 0.4261,
+    "stab_rank_mean": 0.5806,
+    "stab_rank_min": 0.3666,
+    "bias_min": -11.6678,
+    "argmin_obs_eq_true": 0.3601
+   }
+  ]
+ }
+}

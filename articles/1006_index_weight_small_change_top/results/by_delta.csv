@@ -1,0 +1,4 @@
+delta,first_change_mean,first_change_any,drop_mean,drop_max_mean,pos_change_mean,max_move_mean,max_move_max_mean,gap12_median,gap10_11_median,max_gap12_flipped_any
+0.02,0.043,0.167,0.27,0.788,2.665,1.213,2.355,1.893,0.334,0.92
+0.05,0.1072,0.373,0.61,1.412,4.852,2.425,4.377,1.998,0.326,2.825
+0.1,0.2137,0.641,1.14,2.264,6.68,4.457,8.049,1.953,0.307,4.875

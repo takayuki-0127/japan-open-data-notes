@@ -1,0 +1,368 @@
+{
+ "setting": {
+  "n_products": 200,
+  "good": {
+   "a": 0.6,
+   "b": 0.4
+  },
+  "weak": {
+   "a": 0.2,
+   "b": 0.8
+  },
+  "rho_copy": 0.8,
+  "ks": [
+   3,
+   6,
+   9,
+   12,
+   15,
+   18
+  ]
+ },
+ "single_item": {
+  "item_retest_good": 0.52,
+  "item_retest_weak": 0.68,
+  "item_validity_good": 0.6,
+  "item_validity_weak": 0.2
+ },
+ "by_items_300reps": [
+  {
+   "scenario": "①別々の良い項目を足す",
+   "k": 3,
+   "retest": 0.7219,
+   "retest_rank": 0.7063,
+   "top20_same_next_month": 0.4768,
+   "validity": 0.7945,
+   "top20_hit_true": 0.555,
+   "formula_retest": 0.7209,
+   "formula_validity": 0.7924
+  },
+  {
+   "scenario": "①別々の良い項目を足す",
+   "k": 6,
+   "retest": 0.8274,
+   "retest_rank": 0.8121,
+   "top20_same_next_month": 0.5913,
+   "validity": 0.878,
+   "top20_hit_true": 0.6487,
+   "formula_retest": 0.8286,
+   "formula_validity": 0.8783
+  },
+  {
+   "scenario": "①別々の良い項目を足す",
+   "k": 9,
+   "retest": 0.8755,
+   "retest_rank": 0.8626,
+   "top20_same_next_month": 0.6492,
+   "validity": 0.9138,
+   "top20_hit_true": 0.707,
+   "formula_retest": 0.8763,
+   "formula_validity": 0.9138
+  },
+  {
+   "scenario": "①別々の良い項目を足す",
+   "k": 12,
+   "retest": 0.9026,
+   "retest_rank": 0.8921,
+   "top20_same_next_month": 0.6932,
+   "validity": 0.9328,
+   "top20_hit_true": 0.7363,
+   "formula_retest": 0.9032,
+   "formula_validity": 0.9333
+  },
+  {
+   "scenario": "①別々の良い項目を足す",
+   "k": 15,
+   "retest": 0.9205,
+   "retest_rank": 0.911,
+   "top20_same_next_month": 0.7148,
+   "validity": 0.9447,
+   "top20_hit_true": 0.7642,
+   "formula_retest": 0.9205,
+   "formula_validity": 0.9455
+  },
+  {
+   "scenario": "①別々の良い項目を足す",
+   "k": 18,
+   "retest": 0.9324,
+   "retest_rank": 0.9244,
+   "top20_same_next_month": 0.7355,
+   "validity": 0.9538,
+   "top20_hit_true": 0.7798,
+   "formula_retest": 0.9326,
+   "formula_validity": 0.954
+  },
+  {
+   "scenario": "②はじめの項目に似た項目を足す",
+   "k": 3,
+   "retest": 0.7172,
+   "retest_rank": 0.6987,
+   "top20_same_next_month": 0.4795,
+   "validity": 0.7903,
+   "top20_hit_true": 0.5468,
+   "formula_retest": 0.7209,
+   "formula_validity": 0.7924
+  },
+  {
+   "scenario": "②はじめの項目に似た項目を足す",
+   "k": 6,
+   "retest": 0.7403,
+   "retest_rank": 0.723,
+   "top20_same_next_month": 0.51,
+   "validity": 0.8029,
+   "top20_hit_true": 0.5618,
+   "formula_retest": 0.7416,
+   "formula_validity": 0.8037
+  },
+  {
+   "scenario": "②はじめの項目に似た項目を足す",
+   "k": 9,
+   "retest": 0.7568,
+   "retest_rank": 0.7397,
+   "top20_same_next_month": 0.5218,
+   "validity": 0.8101,
+   "top20_hit_true": 0.5692,
+   "formula_retest": 0.7566,
+   "formula_validity": 0.8118
+  },
+  {
+   "scenario": "②はじめの項目に似た項目を足す",
+   "k": 12,
+   "retest": 0.7651,
+   "retest_rank": 0.7482,
+   "top20_same_next_month": 0.5228,
+   "validity": 0.8145,
+   "top20_hit_true": 0.5713,
+   "formula_retest": 0.7658,
+   "formula_validity": 0.8167
+  },
+  {
+   "scenario": "②はじめの項目に似た項目を足す",
+   "k": 15,
+   "retest": 0.771,
+   "retest_rank": 0.7552,
+   "top20_same_next_month": 0.5292,
+   "validity": 0.8201,
+   "top20_hit_true": 0.5815,
+   "formula_retest": 0.7719,
+   "formula_validity": 0.82
+  },
+  {
+   "scenario": "②はじめの項目に似た項目を足す",
+   "k": 18,
+   "retest": 0.7743,
+   "retest_rank": 0.7565,
+   "top20_same_next_month": 0.5307,
+   "validity": 0.8235,
+   "top20_hit_true": 0.5853,
+   "formula_retest": 0.7763,
+   "formula_validity": 0.8223
+  },
+  {
+   "scenario": "③弱い項目を足す",
+   "k": 3,
+   "retest": 0.7204,
+   "retest_rank": 0.701,
+   "top20_same_next_month": 0.4785,
+   "validity": 0.7927,
+   "top20_hit_true": 0.545,
+   "formula_retest": 0.7209,
+   "formula_validity": 0.7924
+  },
+  {
+   "scenario": "③弱い項目を足す",
+   "k": 6,
+   "retest": 0.773,
+   "retest_rank": 0.7577,
+   "top20_same_next_month": 0.53,
+   "validity": 0.7391,
+   "top20_hit_true": 0.4962,
+   "formula_retest": 0.7727,
+   "formula_validity": 0.7385
+  },
+  {
+   "scenario": "③弱い項目を足す",
+   "k": 9,
+   "retest": 0.7984,
+   "retest_rank": 0.7804,
+   "top20_same_next_month": 0.5587,
+   "validity": 0.733,
+   "top20_hit_true": 0.4955,
+   "formula_retest": 0.7986,
+   "formula_validity": 0.7346
+  },
+  {
+   "scenario": "③弱い項目を足す",
+   "k": 12,
+   "retest": 0.8162,
+   "retest_rank": 0.7998,
+   "top20_same_next_month": 0.5758,
+   "validity": 0.7418,
+   "top20_hit_true": 0.5082,
+   "formula_retest": 0.8163,
+   "formula_validity": 0.7423
+  },
+  {
+   "scenario": "③弱い項目を足す",
+   "k": 15,
+   "retest": 0.8298,
+   "retest_rank": 0.8142,
+   "top20_same_next_month": 0.5948,
+   "validity": 0.752,
+   "top20_hit_true": 0.5125,
+   "formula_retest": 0.8301,
+   "formula_validity": 0.7534
+  },
+  {
+   "scenario": "③弱い項目を足す",
+   "k": 18,
+   "retest": 0.8413,
+   "retest_rank": 0.8259,
+   "top20_same_next_month": 0.608,
+   "validity": 0.7657,
+   "top20_hit_true": 0.5173,
+   "formula_retest": 0.8415,
+   "formula_validity": 0.7651
+  }
+ ],
+ "check_formula": {
+  "max_abs_diff_retest_vs_formula": 0.0037,
+  "max_abs_diff_validity_vs_formula": 0.0022
+ },
+ "robustness": {
+  "weak_12_validity_range": [
+   0.6343,
+   0.8687
+  ],
+  "weak_12_retest_range": [
+   0.5083,
+   0.9161
+  ],
+  "weak_n_validity_below_k3": 6,
+  "weak_n_retest_above_k3": 8,
+  "weak_n": 12,
+  "weak_n_retest_up_validity_down": 2,
+  "copy_12_retest_by_rho": {
+   "0.0": 0.9118,
+   "0.5": 0.8294,
+   "0.8": 0.7658,
+   "0.95": 0.7322,
+   "1.0": 0.7209
+  },
+  "copy_12_validity_by_rho": {
+   "0.0": 0.8911,
+   "0.5": 0.8499,
+   "0.8": 0.8167,
+   "0.95": 0.7986,
+   "1.0": 0.7924
+  },
+  "k3_formula": {
+   "retest": 0.7209,
+   "validity": 0.7924
+  },
+  "good_b": [
+   {
+    "check": "良い項目の製品の癖（①別々の良い項目を足す）",
+    "value": 0.0,
+    "formula_retest_k3": 0.6279,
+    "formula_retest": 0.871,
+    "formula_validity_k3": 0.7924,
+    "formula_validity": 0.9333
+   },
+   {
+    "check": "良い項目の製品の癖（②はじめの項目に似た項目を足す）",
+    "value": 0.0,
+    "formula_retest_k3": 0.6279,
+    "formula_retest": 0.6811,
+    "formula_validity_k3": 0.7924,
+    "formula_validity": 0.8253
+   },
+   {
+    "check": "良い項目の製品の癖（③弱い項目を足す）",
+    "value": 0.0,
+    "formula_retest_k3": 0.6279,
+    "formula_retest": 0.7959,
+    "formula_validity_k3": 0.7924,
+    "formula_validity": 0.7423
+   },
+   {
+    "check": "良い項目の製品の癖（①別々の良い項目を足す）",
+    "value": 0.4,
+    "formula_retest_k3": 0.7209,
+    "formula_retest": 0.9032,
+    "formula_validity_k3": 0.7924,
+    "formula_validity": 0.9333
+   },
+   {
+    "check": "良い項目の製品の癖（②はじめの項目に似た項目を足す）",
+    "value": 0.4,
+    "formula_retest_k3": 0.7209,
+    "formula_retest": 0.7658,
+    "formula_validity_k3": 0.7924,
+    "formula_validity": 0.8167
+   },
+   {
+    "check": "良い項目の製品の癖（③弱い項目を足す）",
+    "value": 0.4,
+    "formula_retest_k3": 0.7209,
+    "formula_retest": 0.8163,
+    "formula_validity_k3": 0.7924,
+    "formula_validity": 0.7423
+   },
+   {
+    "check": "良い項目の製品の癖（①別々の良い項目を足す）",
+    "value": 0.6,
+    "formula_retest_k3": 0.8372,
+    "formula_retest": 0.9435,
+    "formula_validity_k3": 0.7924,
+    "formula_validity": 0.9333
+   },
+   {
+    "check": "良い項目の製品の癖（②はじめの項目に似た項目を足す）",
+    "value": 0.6,
+    "formula_retest_k3": 0.8372,
+    "formula_retest": 0.8668,
+    "formula_validity_k3": 0.7924,
+    "formula_validity": 0.8063
+   },
+   {
+    "check": "良い項目の製品の癖（③弱い項目を足す）",
+    "value": 0.6,
+    "formula_retest_k3": 0.8372,
+    "formula_retest": 0.8418,
+    "formula_validity_k3": 0.7924,
+    "formula_validity": 0.7423
+   }
+  ]
+ },
+ "one_draw_k12": {
+  "①別々の良い項目を足す": {
+   "retest": 0.9077,
+   "retest_rank": 0.8922,
+   "top20_same_next_month": 0.75,
+   "validity": 0.9324,
+   "top20_hit_true": 0.8
+  },
+  "②はじめの項目に似た項目を足す": {
+   "retest": 0.8019,
+   "retest_rank": 0.7819,
+   "top20_same_next_month": 0.5,
+   "validity": 0.8531,
+   "top20_hit_true": 0.65
+  },
+  "③弱い項目を足す": {
+   "retest": 0.8403,
+   "retest_rank": 0.8305,
+   "top20_same_next_month": 0.6,
+   "validity": 0.7582,
+   "top20_hit_true": 0.55
+  },
+  "はじめの3項目": {
+   "retest": 0.719,
+   "retest_rank": 0.6912,
+   "top20_same_next_month": 0.3,
+   "validity": 0.7957,
+   "top20_hit_true": 0.65
+  }
+ }
+}

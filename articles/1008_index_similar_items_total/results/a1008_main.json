@@ -1,0 +1,170 @@
+{
+ "base": {
+  "n_taste": 6,
+  "r_w": 0.6,
+  "rho_a": 0.2
+ },
+ "example": {
+  "best_service_store_id": 73,
+  "best_service_rank_by_index": {
+   "①10項目をそのまま平均": 2,
+   "②面ごとに平均してから3面を平均": 2,
+   "③面ごとに1項目だけ（3項目の平均）": 4
+  },
+  "best_service_rank_by_truth": 1,
+  "mean_item_corr_within_味": 0.594,
+  "mean_item_corr_within_接客": 0.605,
+  "mean_item_corr_within_居心地": 0.628,
+  "mean_item_corr_between_aspects": 0.082,
+  "alpha_10items": 0.796,
+  "precision20": {
+   "①10項目をそのまま平均": 0.55,
+   "②面ごとに平均してから3面を平均": 0.7,
+   "③面ごとに1項目だけ（3項目の平均）": 0.6
+  }
+ },
+ "indices_base_500reps": [
+  {
+   "index": "①10項目をそのまま平均",
+   "share_味": 0.6612,
+   "formula_share_味": 0.6595,
+   "share_接客": 0.1164,
+   "formula_share_接客": 0.1164,
+   "share_居心地": 0.1153,
+   "formula_share_居心地": 0.1164,
+   "share_noise_formula": 0.1078,
+   "corr_味": 0.8653,
+   "corr_接客": 0.4566,
+   "corr_居心地": 0.4553,
+   "corr_truth": 0.8681,
+   "formula_corr_truth": 0.8685,
+   "spearman_truth": 0.8552,
+   "precision20": 0.6386,
+   "precision20_p10": 0.55,
+   "precision20_p90": 0.75
+  },
+  {
+   "index": "②面ごとに平均してから3面を平均",
+   "share_味": 0.2834,
+   "formula_share_味": 0.2813,
+   "share_接客": 0.2812,
+   "formula_share_接客": 0.2813,
+   "share_居心地": 0.2788,
+   "formula_share_居心地": 0.2812,
+   "share_noise_formula": 0.1562,
+   "corr_味": 0.6301,
+   "corr_接客": 0.6252,
+   "corr_居心地": 0.6238,
+   "corr_truth": 0.9177,
+   "formula_corr_truth": 0.9186,
+   "spearman_truth": 0.9087,
+   "precision20": 0.7161,
+   "precision20_p10": 0.6,
+   "precision20_p90": 0.8
+  },
+  {
+   "index": "③面ごとに1項目だけ（3項目の平均）",
+   "share_味": 0.2277,
+   "formula_share_味": 0.2258,
+   "share_接客": 0.2252,
+   "formula_share_接客": 0.2258,
+   "share_居心地": 0.2238,
+   "formula_share_居心地": 0.2258,
+   "share_noise_formula": 0.3226,
+   "corr_味": 0.5645,
+   "corr_接客": 0.5582,
+   "corr_居心地": 0.5586,
+   "corr_truth": 0.821,
+   "formula_corr_truth": 0.8231,
+   "spearman_truth": 0.8057,
+   "precision20": 0.5869,
+   "precision20_p10": 0.495,
+   "precision20_p90": 0.7
+  }
+ ],
+ "alpha": {
+  "alpha_10items_mean": 0.8102,
+  "alpha_3items_mean": 0.2815,
+  "share_reps_index2_better_precision": 0.734,
+  "share_reps_index2_equal_precision": 0.156
+ },
+ "check_formula": {
+  "max_abs_diff_share_vs_formula_base": 0.0024,
+  "max_abs_diff_corr_truth_vs_formula_base": 0.0021
+ },
+ "truth_taste60": {
+  "①10項目をそのまま平均": {
+   "precision20": 0.763,
+   "corr_truth": 0.9442,
+   "formula_corr_truth": 0.9446
+  },
+  "②面ごとに平均してから3面を平均": {
+   "precision20": 0.6112,
+   "corr_truth": 0.8446,
+   "formula_corr_truth": 0.8446
+  },
+  "③面ごとに1項目だけ（3項目の平均）": {
+   "precision20": 0.5182,
+   "corr_truth": 0.7556,
+   "formula_corr_truth": 0.7568
+  }
+ },
+ "robustness": {
+  "share_味_index1_range": [
+   0.2817,
+   0.9546
+  ],
+  "share_味_index1_range_n6": [
+   0.5004,
+   0.7981
+  ],
+  "share_味_index2_range": [
+   0.1257,
+   0.3283
+  ],
+  "alpha_range": [
+   0.4575,
+   0.9638
+  ],
+  "precision_gain_range": [
+   -0.0535,
+   0.3255
+  ],
+  "precision_gain_range_n6": [
+   -0.0045,
+   0.234
+  ],
+  "n_combos_gain_positive": 21,
+  "n_combos": 27,
+  "n_combos_gain_nonpositive": 6,
+  "n_combos_gain_nonpositive_rw03": 6,
+  "precision_gain_range_rw06_09": [
+   0.002,
+   0.3255
+  ],
+  "max_abs_diff_share_vs_formula": 0.0042,
+  "by_n_taste_rw06_ra02": [
+   {
+    "n_taste": 4,
+    "share_味_index1": 0.3854,
+    "alpha_10items": 0.7645,
+    "precision20_index1": 0.7275,
+    "precision20_index2": 0.734
+   },
+   {
+    "n_taste": 6,
+    "share_味_index1": 0.6561,
+    "alpha_10items": 0.8104,
+    "precision20_index1": 0.62,
+    "precision20_index2": 0.7075
+   },
+   {
+    "n_taste": 8,
+    "share_味_index1": 0.8477,
+    "alpha_10items": 0.8747,
+    "precision20_index1": 0.512,
+    "precision20_index2": 0.631
+   }
+  ]
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "example_league": {
+  "base_top10": [
+   38,
+   40,
+   56,
+   30,
+   22,
+   26,
+   19,
+   29,
+   35,
+   27
+  ],
+  "base_top10_index": [
+   65.71,
+   64.52,
+   63.33,
+   61.85,
+   61.17,
+   59.81,
+   59.06,
+   58.84,
+   58.73,
+   58.31
+  ],
+  "gap12": 1.194,
+  "n_moves": 20,
+  "n_moves_first_changed": 2,
+  "n_moves_top10_member_changed": 0,
+  "n_teams_in_any_top10": 10,
+  "n_top15_moved_ge3": 9,
+  "max_range_top15": 7,
+  "index_sd": 7.114,
+  "n_teams_can_be_first": 2
+ },
+ "by_delta": [
+  {
+   "delta": 0.02,
+   "first_change_mean": 0.043,
+   "first_change_any": 0.167,
+   "drop_mean": 0.27,
+   "drop_max_mean": 0.788,
+   "pos_change_mean": 2.665,
+   "max_move_mean": 1.213,
+   "max_move_max_mean": 2.355,
+   "gap12_median": 1.893,
+   "gap10_11_median": 0.334,
+   "max_gap12_flipped_any": 0.92
+  },
+  {
+   "delta": 0.05,
+   "first_change_mean": 0.1072,
+   "first_change_any": 0.373,
+   "drop_mean": 0.61,
+   "drop_max_mean": 1.412,
+   "pos_change_mean": 4.852,
+   "max_move_mean": 2.425,
+   "max_move_max_mean": 4.377,
+   "gap12_median": 1.998,
+   "gap10_11_median": 0.326,
+   "max_gap12_flipped_any": 2.825
+  },
+  {
+   "delta": 0.1,
+   "first_change_mean": 0.2137,
+   "first_change_any": 0.641,
+   "drop_mean": 1.14,
+   "drop_max_mean": 2.264,
+   "pos_change_mean": 6.68,
+   "max_move_mean": 4.457,
+   "max_move_max_mean": 8.049,
+   "gap12_median": 1.953,
+   "gap10_11_median": 0.307,
+   "max_gap12_flipped_any": 4.875
+  }
+ ],
+ "by_gap_d005": [
+  {
+   "gap_bin": "[0.0, 0.5)",
+   "leagues": 163,
+   "first_change_any": 0.9939,
+   "first_change_mean": 0.4181
+  },
+  {
+   "gap_bin": "[0.5, 1.0)",
+   "leagues": 137,
+   "first_change_any": 0.9343,
+   "first_change_mean": 0.2139
+  },
+  {
+   "gap_bin": "[1.0, 2.0)",
+   "leagues": 201,
+   "first_change_any": 0.3831,
+   "first_change_mean": 0.0468
+  },
+  {
+   "gap_bin": "[2.0, 3.0)",
+   "leagues": 162,
+   "first_change_any": 0.037,
+   "first_change_mean": 0.0022
+  },
+  {
+   "gap_bin": "[3.0, 5.0)",
+   "leagues": 188,
+   "first_change_any": 0.0,
+   "first_change_mean": 0.0
+  },
+  {
+   "gap_bin": "[5.0, 100.0)",
+   "leagues": 149,
+   "first_change_any": 0.0,
+   "first_change_mean": 0.0
+  }
+ ],
+ "share_gap12_lt1_point": 0.3,
+ "robustness_ranges_d005": {
+  "first_change_any": [
+   0.28,
+   0.618
+  ],
+  "first_change_mean": [
+   0.078,
+   0.2024
+  ],
+  "drop_mean": [
+   0.34,
+   1.01
+  ],
+  "pos_change_mean": [
+   3.635,
+   6.297
+  ]
+ },
+ "settings": {
+  "n": 60,
+  "rho": 0.3,
+  "base_weights": [
+   0.3,
+   0.25,
+   0.2,
+   0.15,
+   0.1
+  ],
+  "top": 10,
+  "index": "50+10×（重み×標準化した項目の和）"
+ }
+}
