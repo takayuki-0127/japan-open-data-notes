@@ -1,0 +1,505 @@
+{
+ "setting": {
+  "hours": [
+   10,
+   20
+  ],
+  "mean_day": {
+   "平日": 3000.0,
+   "土日": 6000.0,
+   "催しの日": 8000.0
+  },
+  "day_sd": 0.2,
+  "hour_sd": 0.1,
+  "spike": 0.15,
+  "fixed_hour": 13,
+  "n_cal": 10,
+  "n_eval": 300,
+  "reps": 200
+ },
+ "profile_formula": {
+  "平日": {
+   "peak_share_pct": 12.27,
+   "fixed13_share_pct": 10.66,
+   "peak_hour": 12,
+   "k_formula": 8.149,
+   "A_err_formula_pct": 0.0,
+   "C_err_formula_pct": 0.0
+  },
+  "土日": {
+   "peak_share_pct": 14.74,
+   "fixed13_share_pct": 14.74,
+   "peak_hour": 13,
+   "k_formula": 6.785,
+   "A_err_formula_pct": 20.1,
+   "C_err_formula_pct": 38.2
+  },
+  "催しの日": {
+   "peak_share_pct": 27.53,
+   "fixed13_share_pct": 12.53,
+   "peak_hour": 14,
+   "k_formula": 3.633,
+   "A_err_formula_pct": 124.3,
+   "C_err_formula_pct": 17.5
+  }
+ },
+ "base_200reps": {
+  "平日_A": {
+   "mean_err_pct": 0.31,
+   "p10_err_pct": -8.09,
+   "p90_err_pct": 9.75,
+   "within10_pct": 83.4
+  },
+  "平日_B": {
+   "mean_err_pct": 0.31,
+   "p10_err_pct": -8.09,
+   "p90_err_pct": 9.75,
+   "within10_pct": 83.4
+  },
+  "平日_C": {
+   "mean_err_pct": 1.32,
+   "p10_err_pct": -12.3,
+   "p90_err_pct": 15.45,
+   "within10_pct": 62.25
+  },
+  "土日_A": {
+   "mean_err_pct": 20.36,
+   "p10_err_pct": 10.1,
+   "p90_err_pct": 31.56,
+   "within10_pct": 11.28
+  },
+  "土日_B": {
+   "mean_err_pct": 0.38,
+   "p10_err_pct": -8.17,
+   "p90_err_pct": 9.73,
+   "within10_pct": 83.18
+  },
+  "土日_C": {
+   "mean_err_pct": 40.03,
+   "p10_err_pct": 23.36,
+   "p90_err_pct": 57.23,
+   "within10_pct": 1.08
+  },
+  "催しの日_A": {
+   "mean_err_pct": 111.61,
+   "p10_err_pct": 90.76,
+   "p90_err_pct": 132.98,
+   "within10_pct": 0.0
+  },
+  "催しの日_B": {
+   "mean_err_pct": 0.91,
+   "p10_err_pct": -9.03,
+   "p90_err_pct": 11.09,
+   "within10_pct": 76.91
+  },
+  "催しの日_C": {
+   "mean_err_pct": 18.99,
+   "p10_err_pct": 4.37,
+   "p90_err_pct": 34.18,
+   "within10_pct": 23.19
+  }
+ },
+ "peak_info_200reps": {
+  "平日": {
+   "peak_share_obs_pct": 13.043,
+   "peak_share_profile_pct": 12.272,
+   "peak_hour_moved_pct": 53.392,
+   "kA": 7.691,
+   "kB": 7.691,
+   "kC": 9.504
+  },
+  "土日": {
+   "peak_share_obs_pct": 15.65,
+   "peak_share_profile_pct": 14.739,
+   "peak_hour_moved_pct": 52.632,
+   "kA": 7.691,
+   "kB": 6.414,
+   "kC": 9.504
+  },
+  "催しの日": {
+   "peak_share_obs_pct": 27.515,
+   "peak_share_profile_pct": 27.528,
+   "peak_hour_moved_pct": 0.0,
+   "kA": 7.691,
+   "kB": 3.667,
+   "kC": 9.504
+  }
+ },
+ "grid_info": {
+  "cases": 18,
+  "reps_each": 50
+ },
+ "grid_range": {
+  "平日_A_mean_err_pct": [
+   -0.13,
+   2.11
+  ],
+  "平日_A_within10_pct": [
+   57.63,
+   94.25
+  ],
+  "平日_B_mean_err_pct": [
+   -0.13,
+   2.11
+  ],
+  "平日_B_within10_pct": [
+   57.63,
+   94.25
+  ],
+  "平日_C_mean_err_pct": [
+   0.02,
+   6.7
+  ],
+  "平日_C_within10_pct": [
+   28.44,
+   82.15
+  ],
+  "平日_peak_moved_pct": [
+   41.21,
+   72.41
+  ],
+  "土日_A_mean_err_pct": [
+   14.28,
+   21.12
+  ],
+  "土日_A_within10_pct": [
+   1.28,
+   40.73
+  ],
+  "土日_B_mean_err_pct": [
+   -0.51,
+   2.35
+  ],
+  "土日_B_within10_pct": [
+   53.97,
+   97.48
+  ],
+  "土日_C_mean_err_pct": [
+   38.15,
+   47.06
+  ],
+  "土日_C_within10_pct": [
+   0.0,
+   10.45
+  ],
+  "土日_peak_moved_pct": [
+   49.24,
+   62.53
+  ],
+  "催しの日_A_mean_err_pct": [
+   30.04,
+   219.02
+  ],
+  "催しの日_A_within10_pct": [
+   0.0,
+   15.89
+  ],
+  "催しの日_B_mean_err_pct": [
+   -0.05,
+   2.62
+  ],
+  "催しの日_B_within10_pct": [
+   44.44,
+   99.27
+  ],
+  "催しの日_C_mean_err_pct": [
+   -2.82,
+   38.44
+  ],
+  "催しの日_C_within10_pct": [
+   0.12,
+   85.58
+  ],
+  "催しの日_peak_moved_pct": [
+   0.0,
+   20.81
+  ]
+ },
+ "grid_range_scale1": {
+  "平日_A_mean_err_pct": [
+   -0.13,
+   1.31
+  ],
+  "平日_A_within10_pct": [
+   62.89,
+   94.25
+  ],
+  "平日_B_mean_err_pct": [
+   -0.13,
+   1.31
+  ],
+  "平日_B_within10_pct": [
+   62.89,
+   94.25
+  ],
+  "平日_C_mean_err_pct": [
+   0.02,
+   5.14
+  ],
+  "平日_C_within10_pct": [
+   36.87,
+   82.15
+  ],
+  "平日_peak_moved_pct": [
+   41.21,
+   68.69
+  ],
+  "土日_A_mean_err_pct": [
+   18.16,
+   21.12
+  ],
+  "土日_A_within10_pct": [
+   1.28,
+   31.69
+  ],
+  "土日_B_mean_err_pct": [
+   -0.51,
+   1.8
+  ],
+  "土日_B_within10_pct": [
+   57.56,
+   97.48
+  ],
+  "土日_C_mean_err_pct": [
+   38.15,
+   45.05
+  ],
+  "土日_C_within10_pct": [
+   0.0,
+   9.34
+  ],
+  "土日_peak_moved_pct": [
+   49.24,
+   60.87
+  ],
+  "催しの日_A_mean_err_pct": [
+   36.18,
+   219.02
+  ],
+  "催しの日_A_within10_pct": [
+   0.0,
+   8.33
+  ],
+  "催しの日_B_mean_err_pct": [
+   0.21,
+   2.62
+  ],
+  "催しの日_B_within10_pct": [
+   45.82,
+   99.27
+  ],
+  "催しの日_C_mean_err_pct": [
+   -2.82,
+   35.38
+  ],
+  "催しの日_C_within10_pct": [
+   0.12,
+   85.58
+  ],
+  "催しの日_peak_moved_pct": [
+   0.0,
+   17.75
+  ]
+ },
+ "grid_range_scale01": {
+  "平日_A_mean_err_pct": [
+   0.55,
+   2.11
+  ],
+  "平日_A_within10_pct": [
+   57.63,
+   71.07
+  ],
+  "平日_B_mean_err_pct": [
+   0.55,
+   2.11
+  ],
+  "平日_B_within10_pct": [
+   57.63,
+   71.07
+  ],
+  "平日_C_mean_err_pct": [
+   2.19,
+   6.7
+  ],
+  "平日_C_within10_pct": [
+   28.44,
+   41.09
+  ],
+  "平日_peak_moved_pct": [
+   63.32,
+   72.41
+  ],
+  "土日_A_mean_err_pct": [
+   14.28,
+   15.61
+  ],
+  "土日_A_within10_pct": [
+   30.31,
+   40.73
+  ],
+  "土日_B_mean_err_pct": [
+   0.03,
+   2.35
+  ],
+  "土日_B_within10_pct": [
+   53.97,
+   78.75
+  ],
+  "土日_C_mean_err_pct": [
+   41.34,
+   47.06
+  ],
+  "土日_C_within10_pct": [
+   1.84,
+   10.45
+  ],
+  "土日_peak_moved_pct": [
+   52.09,
+   62.53
+  ],
+  "催しの日_A_mean_err_pct": [
+   30.04,
+   194.6
+  ],
+  "催しの日_A_within10_pct": [
+   0.0,
+   15.89
+  ],
+  "催しの日_B_mean_err_pct": [
+   -0.05,
+   2.29
+  ],
+  "催しの日_B_within10_pct": [
+   44.44,
+   92.8
+  ],
+  "催しの日_C_mean_err_pct": [
+   -1.17,
+   38.44
+  ],
+  "催しの日_C_within10_pct": [
+   5.55,
+   57.49
+  ],
+  "催しの日_peak_moved_pct": [
+   0.0,
+   20.81
+  ]
+ },
+ "grid_event_A_by_spike": {
+  "0.05": [
+   30.04,
+   51.01
+  ],
+  "0.15": [
+   83.81,
+   117.7
+  ],
+  "0.3": [
+   166.5,
+   219.02
+  ]
+ },
+ "grid_weekend_A_low_noise_scale1": [
+  20.53,
+  21.12
+ ],
+ "n_calibration": [
+  {
+   "n_cal": 3,
+   "type": "平日",
+   "B_mean_err_pct": 0.19,
+   "B_p10_err_pct": -8.12,
+   "B_p90_err_pct": 9.56,
+   "B_within10_pct": 79.98,
+   "A_mean_err_pct": 0.19
+  },
+  {
+   "n_cal": 3,
+   "type": "土日",
+   "B_mean_err_pct": 0.03,
+   "B_p10_err_pct": -8.49,
+   "B_p90_err_pct": 9.22,
+   "B_within10_pct": 78.69,
+   "A_mean_err_pct": 20.25
+  },
+  {
+   "n_cal": 3,
+   "type": "催しの日",
+   "B_mean_err_pct": 1.58,
+   "B_p10_err_pct": -8.38,
+   "B_p90_err_pct": 11.84,
+   "B_within10_pct": 72.83,
+   "A_mean_err_pct": 111.31
+  },
+  {
+   "n_cal": 10,
+   "type": "平日",
+   "B_mean_err_pct": 0.36,
+   "B_p10_err_pct": -7.95,
+   "B_p90_err_pct": 9.75,
+   "B_within10_pct": 83.43,
+   "A_mean_err_pct": 0.36
+  },
+  {
+   "n_cal": 10,
+   "type": "土日",
+   "B_mean_err_pct": 0.33,
+   "B_p10_err_pct": -8.24,
+   "B_p90_err_pct": 9.68,
+   "B_within10_pct": 83.21,
+   "A_mean_err_pct": 20.4
+  },
+  {
+   "n_cal": 10,
+   "type": "催しの日",
+   "B_mean_err_pct": 0.81,
+   "B_p10_err_pct": -9.24,
+   "B_p90_err_pct": 11.01,
+   "B_within10_pct": 76.38,
+   "A_mean_err_pct": 111.46
+  },
+  {
+   "n_cal": 30,
+   "type": "平日",
+   "B_mean_err_pct": 0.38,
+   "B_p10_err_pct": -8.05,
+   "B_p90_err_pct": 9.86,
+   "B_within10_pct": 84.81,
+   "A_mean_err_pct": 0.38
+  },
+  {
+   "n_cal": 30,
+   "type": "土日",
+   "B_mean_err_pct": 0.14,
+   "B_p10_err_pct": -8.47,
+   "B_p90_err_pct": 9.44,
+   "B_within10_pct": 84.14,
+   "A_mean_err_pct": 20.4
+  },
+  {
+   "n_cal": 30,
+   "type": "催しの日",
+   "B_mean_err_pct": 0.57,
+   "B_p10_err_pct": -9.46,
+   "B_p90_err_pct": 10.68,
+   "B_within10_pct": 78.88,
+   "A_mean_err_pct": 111.52
+  }
+ ],
+ "n_calibration_range": {
+  "B_mean_err_pct": [
+   0.03,
+   1.58
+  ],
+  "B_within10_pct": [
+   72.83,
+   84.81
+  ],
+  "event_A_mean_err_pct": [
+   111.31,
+   111.52
+  ]
+ }
+}

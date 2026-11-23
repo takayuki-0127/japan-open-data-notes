@@ -1,0 +1,123 @@
+{
+ "setting": {
+  "N": 200000,
+  "mu": 0.5,
+  "k": 0.5,
+  "days": 360,
+  "reps": 20
+ },
+ "base_mean": {
+  "ratio_1日": 1.0,
+  "sum_over_year_1日": 1.704,
+  "ratio_1か月": 1.06,
+  "sum_over_year_1か月": 1.608,
+  "ratio_3か月": 1.182,
+  "sum_over_year_3か月": 1.442,
+  "ratio_1年": 1.704,
+  "sum_over_year_1年": 1.0,
+  "total_year": 99817.4,
+  "unique_year": 58569.05,
+  "unique_year_formula": 58578.644,
+  "share_once_pct": 60.41,
+  "share_visits_top10pct_pct": 25.749,
+  "share_visits_from_once_pct": 35.447,
+  "mean_visits_per_visitor": 1.704
+ },
+ "base_min_max": {
+  "unique_year": [
+   58125,
+   59016
+  ],
+  "total_year": [
+   99024,
+   100471
+  ]
+ },
+ "unique_formula_gap_pct": -0.016,
+ "grid_range": {
+  "ratio_1日": [
+   1.0,
+   1.0
+  ],
+  "sum_over_year_1日": [
+   1.154,
+   3.301
+  ],
+  "ratio_1か月": [
+   1.012,
+   1.229
+  ],
+  "sum_over_year_1か月": [
+   1.14,
+   2.685
+  ],
+  "ratio_3か月": [
+   1.037,
+   1.66
+  ],
+  "sum_over_year_3か月": [
+   1.113,
+   1.989
+  ],
+  "ratio_1年": [
+   1.154,
+   3.301
+  ],
+  "sum_over_year_1年": [
+   1.0,
+   1.0
+  ],
+  "total_year": [
+   99234.8,
+   100160.8
+  ],
+  "unique_year": [
+   30079.4,
+   86590.6
+  ],
+  "unique_year_formula": [
+   30117.288,
+   86589.533
+  ],
+  "share_once_pct": [
+   38.69,
+   86.245
+  ],
+  "share_visits_top10pct_pct": [
+   18.773,
+   34.917
+  ],
+  "share_visits_from_once_pct": [
+   11.72,
+   74.722
+  ],
+  "mean_visits_per_visitor": [
+   1.154,
+   3.301
+  ]
+ },
+ "grid_unique_year_by_k_N200k": {
+  "0.2": 44281,
+  "0.5": 58456,
+  "1.0": 66425,
+  "2.0": 72025,
+  "5.0": 75955
+ },
+ "unique_year_man": {
+  "base_mean": 5.86,
+  "grid_min": 3.01,
+  "grid_max": 8.66
+ },
+ "per_month_mean": {
+  "total": 8318,
+  "unique": 7847
+ },
+ "grid_range_total_year": [
+  99234,
+  100160
+ ],
+ "grid_unique_formula_gap_pct_range": [
+  -0.362,
+  0.211
+ ]
+}

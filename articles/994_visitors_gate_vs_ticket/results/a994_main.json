@@ -1,0 +1,157 @@
+{
+ "setting": {
+  "T1": [
+   5000,
+   8000,
+   7000
+  ],
+  "pass": 1500,
+  "noshow": 0.08,
+  "q": 0.7,
+  "c": 0.15,
+  "r": 0.4,
+  "staff": 300,
+  "staff_pass": 3.0,
+  "m": 0.08,
+  "reps": 200
+ },
+ "by_day_mean": {
+  "1": {
+   "sold": 6500.0,
+   "scanned": 5652.33,
+   "gate": 9199.265,
+   "true_visitors": 6497.505,
+   "holders": 5652.33,
+   "kids": 845.175,
+   "passes_visitors": 9098.975,
+   "passes_staff": 900.095,
+   "sold_ratio": 1.0,
+   "scanned_ratio": 0.87,
+   "gate_ratio": 1.416
+  },
+  "2": {
+   "sold": 9500.0,
+   "scanned": 8412.91,
+   "gate": 13289.975,
+   "true_visitors": 9675.63,
+   "holders": 8412.91,
+   "kids": 1262.72,
+   "passes_visitors": 13545.13,
+   "passes_staff": 899.785,
+   "sold_ratio": 0.982,
+   "scanned_ratio": 0.869,
+   "gate_ratio": 1.374
+  },
+  "3": {
+   "sold": 8500.0,
+   "scanned": 7492.36,
+   "gate": 11919.075,
+   "true_visitors": 8611.84,
+   "holders": 7492.36,
+   "kids": 1119.48,
+   "passes_visitors": 12052.905,
+   "passes_staff": 901.92,
+   "sold_ratio": 0.987,
+   "scanned_ratio": 0.87,
+   "gate_ratio": 1.384
+  }
+ },
+ "three_days_mean": {
+  "sold": 24500.0,
+  "scanned": 21557.6,
+  "gate": 34408.315,
+  "true_visitors": 24784.975,
+  "unique3": 22834.56
+ },
+ "three_days_ratio_to_sum_of_days": {
+  "sold": 0.989,
+  "scanned": 0.87,
+  "gate": 1.388
+ },
+ "three_days_ratio_to_unique": {
+  "sold": 1.073,
+  "scanned": 0.944,
+  "gate": 1.507,
+  "true_visitors": 1.085
+ },
+ "formula_ratio_by_day": {
+  "gate": [
+   1.415,
+   1.374,
+   1.384
+  ],
+  "scanned": 0.87,
+  "sold": [
+   1.0,
+   0.982,
+   0.987
+  ]
+ },
+ "grid": {
+  "n": 108,
+  "gate_ratio_range": [
+   0.85,
+   2.054
+  ],
+  "scanned_ratio_range": [
+   0.768,
+   1.0
+  ],
+  "sold_ratio_range": [
+   0.872,
+   1.138
+  ],
+  "n_gate_closer": 30,
+  "n_gate_below_1": 9,
+  "gate_formula_max_abs_gap": 0.004,
+  "n_settings_per_r": 27,
+  "n_gate_closer_by_r": {
+   "0.0": 16,
+   "0.2": 11,
+   "0.4": 3,
+   "0.8": 0
+  },
+  "gate_ratio_range_r0": [
+   0.85,
+   1.25
+  ]
+ },
+ "day3_reentry": [
+  {
+   "r3": 0.4,
+   "sold_day3_over_day2": 0.895,
+   "scanned_day3_over_day2": 0.89,
+   "gate_day3_over_day2": 0.898,
+   "true_visitors_day3_over_day2": 0.891,
+   "gate_says_up_pct": 0.0,
+   "true_up_pct": 0.0
+  },
+  {
+   "r3": 0.6,
+   "sold_day3_over_day2": 0.895,
+   "scanned_day3_over_day2": 0.891,
+   "gate_day3_over_day2": 1.017,
+   "true_visitors_day3_over_day2": 0.891,
+   "gate_says_up_pct": 96.0,
+   "true_up_pct": 0.0
+  },
+  {
+   "r3": 0.8,
+   "sold_day3_over_day2": 0.895,
+   "scanned_day3_over_day2": 0.891,
+   "gate_day3_over_day2": 1.136,
+   "true_visitors_day3_over_day2": 0.891,
+   "gate_says_up_pct": 100.0,
+   "true_up_pct": 0.0
+  },
+  {
+   "r3": 1.0,
+   "sold_day3_over_day2": 0.895,
+   "scanned_day3_over_day2": 0.891,
+   "gate_day3_over_day2": 1.257,
+   "true_visitors_day3_over_day2": 0.891,
+   "gate_says_up_pct": 100.0,
+   "true_up_pct": 0.0
+  }
+ ]
+}

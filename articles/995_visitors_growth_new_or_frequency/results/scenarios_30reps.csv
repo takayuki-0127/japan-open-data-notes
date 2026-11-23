@@ -1,0 +1,5 @@
+scenario,total_ratio,unique_ratio,per_person_ratio,unique_share_of_growth_pct,fresh_share_people_pct,fresh_share_total_pct,truly_new_share_people_pct,returning_cohort_ratio,returning_rate_pct,fresh_total_pct_of_y1
+変化なし,1.001,1.0001,1.0009,,48.0782,39.2419,0.0,0.6082,51.9287,39.2823
+新しい人だけ,1.2001,1.1993,1.0007,99.6638,56.7441,49.4168,16.6717,0.607,51.876,59.3041
+回数だけ,1.2005,1.1117,1.0799,57.9306,49.0706,39.2436,0.0,0.7294,56.6157,47.1118
+半々,1.2,1.1552,1.0387,79.1822,53.0413,44.5922,8.7356,0.6649,54.2478,53.5102

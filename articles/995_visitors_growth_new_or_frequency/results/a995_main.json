@@ -1,0 +1,166 @@
+{
+ "setting": {
+  "N": 200000,
+  "mu": 0.5,
+  "k": 0.5,
+  "sigma": 0.5,
+  "growth": 1.2,
+  "reps": 30,
+  "scenarios": {
+   "変化なし": [
+    1.0,
+    1.0
+   ],
+   "新しい人だけ": [
+    1.2,
+    1.0
+   ],
+   "回数だけ": [
+    1.0,
+    1.2
+   ],
+   "半々": [
+    1.0954451150103321,
+    1.0954451150103321
+   ]
+  }
+ },
+ "scenarios_mean": {
+  "変化なし": {
+   "total_ratio": 1.001,
+   "unique_ratio": 1.0,
+   "per_person_ratio": 1.001,
+   "unique_share_of_growth_pct": NaN,
+   "fresh_share_people_pct": 48.078,
+   "fresh_share_total_pct": 39.242,
+   "truly_new_share_people_pct": 0.0,
+   "returning_cohort_ratio": 0.608,
+   "returning_rate_pct": 51.929,
+   "fresh_total_pct_of_y1": 39.282
+  },
+  "新しい人だけ": {
+   "total_ratio": 1.2,
+   "unique_ratio": 1.199,
+   "per_person_ratio": 1.001,
+   "unique_share_of_growth_pct": 99.664,
+   "fresh_share_people_pct": 56.744,
+   "fresh_share_total_pct": 49.417,
+   "truly_new_share_people_pct": 16.672,
+   "returning_cohort_ratio": 0.607,
+   "returning_rate_pct": 51.876,
+   "fresh_total_pct_of_y1": 59.304
+  },
+  "回数だけ": {
+   "total_ratio": 1.2,
+   "unique_ratio": 1.112,
+   "per_person_ratio": 1.08,
+   "unique_share_of_growth_pct": 57.931,
+   "fresh_share_people_pct": 49.071,
+   "fresh_share_total_pct": 39.244,
+   "truly_new_share_people_pct": 0.0,
+   "returning_cohort_ratio": 0.729,
+   "returning_rate_pct": 56.616,
+   "fresh_total_pct_of_y1": 47.112
+  },
+  "半々": {
+   "total_ratio": 1.2,
+   "unique_ratio": 1.155,
+   "per_person_ratio": 1.039,
+   "unique_share_of_growth_pct": 79.182,
+   "fresh_share_people_pct": 53.041,
+   "fresh_share_total_pct": 44.592,
+   "truly_new_share_people_pct": 8.736,
+   "returning_cohort_ratio": 0.665,
+   "returning_rate_pct": 54.248,
+   "fresh_total_pct_of_y1": 53.51
+  }
+ },
+ "fresh_share_gap_newonly_minus_nochange_pct": 8.666,
+ "formula": {
+  "unique_ratio_frequency_only_sigma0": 1.112,
+  "returning_cohort_ratio_nochange_sigma0": 0.646,
+  "returning_cohort_ratio_frequency_only_sigma0": 0.776
+ },
+ "grid": {
+  "n_settings": 36,
+  "frequency_only": {
+   "unique_ratio": [
+    1.071,
+    1.168
+   ],
+   "unique_share_of_growth_pct": [
+    37.404,
+    82.966
+   ],
+   "fresh_share_people_pct": [
+    28.084,
+    76.971
+   ],
+   "fresh_share_total_pct": [
+    11.677,
+    75.36
+   ],
+   "returning_cohort_ratio": [
+    0.295,
+    1.061
+   ],
+   "total_ratio": [
+    1.192,
+    1.206
+   ]
+  },
+  "frequency_only_n_cohort_below_1": 34,
+  "frequency_only_n_cohort_below_growth": 36,
+  "sigma0_k05_mu05": {
+   "変化なし": {
+    "returning_cohort_ratio": 0.646,
+    "unique_ratio": 0.998
+   },
+   "回数だけ": {
+    "returning_cohort_ratio": 0.776,
+    "unique_ratio": 1.108
+   }
+  },
+  "frequency_only_sigma0_unique_formula_max_gap": 0.006,
+  "nochange": {
+   "fresh_share_people_pct": [
+    26.559,
+    76.698
+   ],
+   "returning_cohort_ratio": [
+    0.25,
+    0.885
+   ],
+   "unique_ratio": [
+    0.993,
+    1.005
+   ]
+  },
+  "new_only": {
+   "fresh_share_people_pct": [
+    38.773,
+    80.677
+   ],
+   "returning_cohort_ratio": [
+    0.246,
+    0.883
+   ],
+   "unique_ratio": [
+    1.197,
+    1.208
+   ],
+   "per_person_ratio": [
+    0.997,
+    1.003
+   ]
+  },
+  "fresh_people_gap_newonly_minus_freq_pct": [
+   3.705,
+   10.689
+  ],
+  "unique_ratio_gap_newonly_minus_freq": [
+   0.033,
+   0.13
+  ]
+ }
+}

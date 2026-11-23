@@ -1,0 +1,332 @@
+{
+ "setting": {
+  "days": 364,
+  "blocks": 26,
+  "block_days": 14,
+  "campaigns": 13,
+  "base_weekday": 1000.0,
+  "base_weekend": 1800.0,
+  "weather_prob": {
+   "晴れ": 0.5,
+   "くもり": 0.3,
+   "雨": 0.2
+  },
+  "weather_mult": {
+   "晴れ": 1.0,
+   "くもり": 0.75,
+   "雨": 0.35
+  },
+  "forecast_hit": 0.8,
+  "noise_sd": 0.12,
+  "lift": 0.2,
+  "displace": 0.5,
+  "select": 3.0,
+  "reps": 200
+ },
+ "truth_200reps": {
+  "on_day_extra": 314.7,
+  "net_extra": 157.3
+ },
+ "estimates_200reps": {
+  "m1_plain": {
+   "mean": 931.0,
+   "p10": 743.8,
+   "p90": 1116.8,
+   "ratio_to_net": 5.917,
+   "ratio_to_on_day": 2.958
+  },
+  "m2_sunny": {
+   "mean": 854.8,
+   "p10": 662.9,
+   "p90": 1055.0,
+   "ratio_to_net": 5.433,
+   "ratio_to_on_day": 2.716
+  },
+  "m3_cell": {
+   "mean": 327.1,
+   "p10": 233.5,
+   "p90": 428.0,
+   "ratio_to_net": 2.079,
+   "ratio_to_on_day": 1.04
+  },
+  "m4_cell_clean": {
+   "mean": 317.1,
+   "p10": 223.6,
+   "p90": 421.0,
+   "ratio_to_net": 2.015,
+   "ratio_to_on_day": 1.008
+  },
+  "m5_block": {
+   "mean": 155.3,
+   "p10": -63.2,
+   "p90": 373.7,
+   "ratio_to_net": 0.987,
+   "ratio_to_on_day": 0.494
+  }
+ },
+ "mix_200reps": {
+  "campaign_sunny_pct": 77.15,
+  "campaign_weekend_pct": 86.96,
+  "other_sunny_weekend_pct": 25.28,
+  "campaign_sunny_weekend_pct": 87.22
+ },
+ "formula": {
+  "on_day_over_net": 2.0
+ },
+ "first_year": {
+  "truth": {
+   "on_day_extra": 328.5,
+   "net_extra": 164.2
+  },
+  "estimates": {
+   "m1_plain": 1036.1,
+   "m2_sunny": 918.1,
+   "m3_cell": 317.3,
+   "m4_cell_clean": 309.5,
+   "m5_block": 82.2,
+   "campaign_sunny_pct": 69.2,
+   "campaign_weekend_pct": 100.0,
+   "other_sunny_weekend_pct": 23.6,
+   "campaign_sunny_weekend_pct": 100.0
+  }
+ },
+ "grid_info": {
+  "cases": 27,
+  "reps_each": 100
+ },
+ "grid_range_ratio_net": {
+  "m1_plain": [
+   0.946,
+   27.4
+  ],
+  "m2_sunny": [
+   1.197,
+   23.181
+  ],
+  "m3_cell": [
+   0.952,
+   5.518
+  ],
+  "m4_cell_clean": [
+   0.958,
+   5.336
+  ],
+  "m5_block": [
+   0.53,
+   1.553
+  ]
+ },
+ "grid_range_ratio_net_displace_gt0": {
+  "m1_plain": [
+   1.87,
+   27.4
+  ],
+  "m2_sunny": [
+   2.291,
+   23.181
+  ],
+  "m3_cell": [
+   1.982,
+   5.518
+  ],
+  "m4_cell_clean": [
+   1.944,
+   5.336
+  ],
+  "m5_block": [
+   0.53,
+   1.553
+  ]
+ },
+ "grid_summary": [
+  {
+   "displace": 0.0,
+   "select": "でたらめ",
+   "m1_plain_ratio_net": [
+    0.946,
+    1.031
+   ],
+   "m2_sunny_ratio_net": [
+    1.197,
+    1.313
+   ],
+   "m3_cell_ratio_net": [
+    0.971,
+    1.044
+   ],
+   "m4_cell_clean_ratio_net": [
+    0.958,
+    1.042
+   ],
+   "m5_block_ratio_net": [
+    0.795,
+    0.984
+   ]
+  },
+  {
+   "displace": 0.0,
+   "select": "選びやすい（3・6）",
+   "m1_plain_ratio_net": [
+    1.971,
+    5.447
+   ],
+   "m2_sunny_ratio_net": [
+    1.85,
+    4.606
+   ],
+   "m3_cell_ratio_net": [
+    0.952,
+    1.062
+   ],
+   "m4_cell_clean_ratio_net": [
+    0.967,
+    1.07
+   ],
+   "m5_block_ratio_net": [
+    0.876,
+    0.994
+   ]
+  },
+  {
+   "displace": 0.5,
+   "select": "でたらめ",
+   "m1_plain_ratio_net": [
+    1.87,
+    2.477
+   ],
+   "m2_sunny_ratio_net": [
+    2.291,
+    3.021
+   ],
+   "m3_cell_ratio_net": [
+    1.982,
+    2.049
+   ],
+   "m4_cell_clean_ratio_net": [
+    1.944,
+    1.996
+   ],
+   "m5_block_ratio_net": [
+    0.53,
+    0.995
+   ]
+  },
+  {
+   "displace": 0.5,
+   "select": "選びやすい（3・6）",
+   "m1_plain_ratio_net": [
+    3.993,
+    10.764
+   ],
+   "m2_sunny_ratio_net": [
+    3.761,
+    9.166
+   ],
+   "m3_cell_ratio_net": [
+    2.014,
+    2.059
+   ],
+   "m4_cell_clean_ratio_net": [
+    1.954,
+    2.02
+   ],
+   "m5_block_ratio_net": [
+    0.918,
+    1.181
+   ]
+  },
+  {
+   "displace": 0.8,
+   "select": "でたらめ",
+   "m1_plain_ratio_net": [
+    4.791,
+    6.314
+   ],
+   "m2_sunny_ratio_net": [
+    6.053,
+    6.98
+   ],
+   "m3_cell_ratio_net": [
+    5.111,
+    5.435
+   ],
+   "m4_cell_clean_ratio_net": [
+    4.961,
+    5.277
+   ],
+   "m5_block_ratio_net": [
+    0.572,
+    1.553
+   ]
+  },
+  {
+   "displace": 0.8,
+   "select": "選びやすい（3・6）",
+   "m1_plain_ratio_net": [
+    9.975,
+    27.4
+   ],
+   "m2_sunny_ratio_net": [
+    9.625,
+    23.181
+   ],
+   "m3_cell_ratio_net": [
+    5.041,
+    5.518
+   ],
+   "m4_cell_clean_ratio_net": [
+    4.836,
+    5.336
+   ],
+   "m5_block_ratio_net": [
+    0.98,
+    1.28
+   ]
+  }
+ ],
+ "grid_m2_gt_net_cases": 27,
+ "rain": [
+  {
+   "rain_mult": 0.15,
+   "net_extra": 156.2,
+   "m1_plain": 967.3,
+   "m1_plain_ratio_net": 6.191,
+   "m2_sunny": 851.3,
+   "m2_sunny_ratio_net": 5.449,
+   "m3_cell": 319.7,
+   "m3_cell_ratio_net": 2.046,
+   "m4_cell_clean": 313.5,
+   "m4_cell_clean_ratio_net": 2.007,
+   "m5_block": 161.5,
+   "m5_block_ratio_net": 1.034
+  },
+  {
+   "rain_mult": 0.35,
+   "net_extra": 157.2,
+   "m1_plain": 931.7,
+   "m1_plain_ratio_net": 5.926,
+   "m2_sunny": 831.3,
+   "m2_sunny_ratio_net": 5.287,
+   "m3_cell": 316.8,
+   "m3_cell_ratio_net": 2.015,
+   "m4_cell_clean": 305.7,
+   "m4_cell_clean_ratio_net": 1.944,
+   "m5_block": 113.1,
+   "m5_block_ratio_net": 0.719
+  },
+  {
+   "rain_mult": 0.6,
+   "net_extra": 158.2,
+   "m1_plain": 879.6,
+   "m1_plain_ratio_net": 5.562,
+   "m2_sunny": 827.0,
+   "m2_sunny_ratio_net": 5.229,
+   "m3_cell": 322.7,
+   "m3_cell_ratio_net": 2.04,
+   "m4_cell_clean": 315.4,
+   "m4_cell_clean_ratio_net": 1.994,
+   "m5_block": 156.3,
+   "m5_block_ratio_net": 0.988
+  }
+ ]
+}

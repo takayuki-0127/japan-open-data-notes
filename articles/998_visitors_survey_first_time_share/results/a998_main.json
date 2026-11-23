@@ -1,0 +1,233 @@
+{
+ "setting": {
+  "days": 364,
+  "people": 20000,
+  "group_share": {
+   "1回だけ": 0.65,
+   "ときどき": 0.25,
+   "常連": 0.1
+  },
+  "group_visits": {
+   "1回だけ": [
+    1,
+    1
+   ],
+   "ときどき": [
+    2,
+    5
+   ],
+   "常連": [
+    6,
+    40
+   ]
+  },
+  "group_new": {
+   "1回だけ": 0.7,
+   "ときどき": 0.4,
+   "常連": 0.1
+  },
+  "group_weekend_weight": {
+   "1回だけ": 3.0,
+   "ときどき": 3.0,
+   "常連": 1.0
+  },
+  "survey_days": 12,
+  "ask_rate": 0.5,
+  "resp_first": 0.5,
+  "resp_other": 0.35,
+  "misreport": 0.2,
+  "count_sd": 0.3,
+  "reps": 200
+ },
+ "base_200reps": {
+  "truth_visit_share_pct": 14.76,
+  "truth_people_share_pct": 56.51,
+  "visits": 76601.32,
+  "random_asked": 1263.71,
+  "random_answered": 472.17,
+  "random_q1_all_truthful": 14.85,
+  "random_q1_response": 20.05,
+  "random_q1_full": 22.28,
+  "random_q2_plain_full": 44.96,
+  "random_q2_weighted_all_truthful_truecount": 56.42,
+  "random_q2_weighted_full_truecount": 71.08,
+  "random_q2_weighted_full": 70.37,
+  "random_regular_share_of_answers_pct": 56.95,
+  "weekend_asked": 1717.61,
+  "weekend_answered": 653.73,
+  "weekend_q1_all_truthful": 20.44,
+  "weekend_q1_response": 27.14,
+  "weekend_q1_full": 29.67,
+  "weekend_q2_plain_full": 51.64,
+  "weekend_q2_weighted_all_truthful_truecount": 58.97,
+  "weekend_q2_weighted_full_truecount": 73.26,
+  "weekend_q2_weighted_full": 72.67,
+  "weekend_regular_share_of_answers_pct": 40.44
+ },
+ "p10_p90": {
+  "random_q1_full": [
+   18.37,
+   26.15
+  ],
+  "weekend_q1_full": [
+   26.31,
+   32.49
+  ],
+  "random_q2_weighted_full": [
+   66.38,
+   74.22
+  ],
+  "random_q2_weighted_all_truthful_truecount": [
+   53.04,
+   59.7
+  ]
+ },
+ "first_year": {
+  "truth": {
+   "visits": 77026,
+   "people": 20000,
+   "visit_share_pct": 14.92,
+   "people_share_pct": 57.45
+  },
+  "survey": {
+   "asked": 1319.0,
+   "answered": 513.0,
+   "q1_all_truthful": 16.22,
+   "q1_response": 20.86,
+   "q1_full": 22.03,
+   "q2_plain_full": 49.12,
+   "q2_weighted_all_truthful_truecount": 59.1,
+   "q2_weighted_full_truecount": 72.24,
+   "q2_weighted_full": 71.11,
+   "regular_share_of_answers_pct": 53.02
+  }
+ },
+ "example_by_group": [
+  {
+   "group": "1回だけ",
+   "people": 13003,
+   "visits": 13003,
+   "people_share_pct": 65.02,
+   "visit_share_pct": 16.88
+  },
+  {
+   "group": "ときどき",
+   "people": 5015,
+   "visits": 17780,
+   "people_share_pct": 25.07,
+   "visit_share_pct": 23.08
+  },
+  {
+   "group": "常連",
+   "people": 1982,
+   "visits": 46243,
+   "people_share_pct": 9.91,
+   "visit_share_pct": 60.04
+  }
+ ],
+ "grid_info": {
+  "cases": 27,
+  "reps_each": 50
+ },
+ "grid_range": {
+  "truth_visit_share_pct": [
+   9.34,
+   21.02
+  ],
+  "truth_people_share_pct": [
+   52.17,
+   59.01
+  ],
+  "random_q1_full": [
+   6.6,
+   32.34
+  ],
+  "weekend_q1_full": [
+   10.57,
+   40.02
+  ],
+  "random_q2_weighted_full": [
+   43.82,
+   79.06
+  ],
+  "gap_people_minus_survey_pt": [
+   26.63,
+   45.66
+  ],
+  "survey_minus_visit_pt": [
+   -5.04,
+   11.34
+  ],
+  "weighted_minus_people_pt": [
+   -8.44,
+   22.79
+  ],
+  "weekend_minus_random_pt": [
+   3.97,
+   8.14
+  ],
+  "check_weighted_truthful_minus_people_pt": [
+   -0.65,
+   0.39
+  ]
+ },
+ "grid_equal_resp_no_mis": {
+  "survey_minus_visit_pt": [
+   -0.43,
+   0.28
+  ],
+  "weighted_minus_people_pt": [
+   -1.67,
+   -1.02
+  ],
+  "gap_people_minus_survey_pt": [
+   37.83,
+   43.22
+  ]
+ },
+ "grid_by_regular_share": {
+  "0.05": {
+   "truth_visit_share_pct": [
+    20.84,
+    21.02
+   ],
+   "truth_people_share_pct": [
+    58.88,
+    59.01
+   ],
+   "random_q1_full": [
+    15.91,
+    32.34
+   ]
+  },
+  "0.1": {
+   "truth_visit_share_pct": [
+    14.69,
+    14.78
+   ],
+   "truth_people_share_pct": [
+    56.38,
+    56.52
+   ],
+   "random_q1_full": [
+    10.9,
+    24.43
+   ]
+  },
+  "0.2": {
+   "truth_visit_share_pct": [
+    9.34,
+    9.41
+   ],
+   "truth_people_share_pct": [
+    52.17,
+    52.32
+   ],
+   "random_q1_full": [
+    6.6,
+    15.48
+   ]
+  }
+ },
+ "grid_survey_below_people_cases": 27
+}
