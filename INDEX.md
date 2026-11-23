@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 691本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 715本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,22 +10,22 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 139 |
-| 因果推論・効果検証 | 66 |
+| 予測・時系列 | 140 |
+| 因果推論・効果検証 | 67 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 316 |
+| 統計の考え方（検定・区間・回帰） | 317 |
 | 機械学習・モデル評価 | 104 |
-| 顧客分析・生存分析 | 69 |
+| 顧客分析・生存分析 | 71 |
 | SQL・データ処理 | 94 |
 | Excel | 12 |
-| 集計の定義・KPI | 168 |
+| 集計の定義・KPI | 169 |
 | 可視化・報告・BI | 46 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 21 |
 | 再現性・振り返り | 95 |
-| その他（記述・要因分解など） | 400 |
+| その他（記述・要因分解など） | 418 |
 
-<details><summary><b>予測・時系列</b>（139本）</summary>
+<details><summary><b>予測・時系列</b>（140本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -168,10 +168,11 @@
 | 799 | 季節の波を月のダミー変数で表すか、フーリエ項で表すかで、予測の誤差はどれだけ違うのか？ | [799_fourier_vs_dummy_seasonality](articles/799_fourier_vs_dummy_seasonality) |
 | 819 | 移動平均の幅で、山と谷はどれだけ動くのか？ | [819_graph_moving_average_window](articles/819_graph_moving_average_window) |
 | 878 | 混雑の予測を出すと、空いている時間に人が集まって外れるのか？ | [878_queue_forecast_self_defeating](articles/878_queue_forecast_self_defeating) |
+| 981 | 40人の中に同じ誕生日の人がいるのは、珍しいのか？ | [981_prob_birthday_40_people](articles/981_prob_birthday_40_people) |
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（66本）</summary>
+<details><summary><b>因果推論・効果検証</b>（67本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -241,6 +242,7 @@
 | 888 | 1社に頼る割合が高いと、月の収入はどれだけ振れるのか？ | [888_side_client_concentration](articles/888_side_client_concentration) |
 | 957 | 単語の数え方（区切り方）で、多い言葉の順位は変わるのか？ | [957_text_word_split_rank](articles/957_text_word_split_rank) |
 | 959 | 文章が長い人ほど、同じ言葉が多く出るのはなぜか？ | [959_text_length_word_count](articles/959_text_length_word_count) |
+| 973 | 前の値で埋めると、変化はどう見えるのか？ | [973_missing_carry_forward_change](articles/973_missing_carry_forward_change) |
 
 </details>
 
@@ -278,7 +280,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（316本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（317本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -598,6 +600,7 @@
 | 946 | 面積で割るか人口で割るかで、密度の地図はどう変わるのか？ | [946_map_density_area_vs_population](articles/946_map_density_area_vs_population) |
 | 954 | 区域を細かくすると、相関はどう変わるのか？ | [954_map_scale_correlation_change](articles/954_map_scale_correlation_change) |
 | 961 | 前向き・後ろ向きの点数は、言葉の数え方でどれだけ変わるのか？ | [961_text_sentiment_score_counting](articles/961_text_sentiment_score_counting) |
+| 972 | 空欄を平均で埋めると、ばらつきと相関はどうなるのか？ | [972_missing_mean_impute_spread_corr](articles/972_missing_mean_impute_spread_corr) |
 
 </details>
 
@@ -712,7 +715,7 @@
 
 </details>
 
-<details><summary><b>顧客分析・生存分析</b>（69本）</summary>
+<details><summary><b>顧客分析・生存分析</b>（71本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -785,6 +788,8 @@
 | 841 | 長い動画と短い動画の維持率は、そのまま比べられるのか？ | [841_sns_retention_length](articles/841_sns_retention_length) |
 | 887 | 継続率は、月で数えるか案件で数えるかで変わるのか？ | [887_side_retention_month_vs_project](articles/887_side_retention_month_vs_project) |
 | 948 | 小さい区域の率は、なぜ地図の端に極端な色が出やすいのか？ | [948_map_small_area_extreme_rate](articles/948_map_small_area_extreme_rate) |
+| 969 | 空欄を除いて平均すると、何がずれるのか？ | [969_missing_drop_blank_mean](articles/969_missing_drop_blank_mean) |
+| 979 | 欠けやすい人に重みを付けると、どこまで戻せるのか？ | [979_missing_weight_nonresponse](articles/979_missing_weight_nonresponse) |
 
 </details>
 
@@ -908,7 +913,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（168本）</summary>
+<details><summary><b>集計の定義・KPI</b>（169本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1080,6 +1085,7 @@
 | 907 | 四捨五入した割合を足すと、なぜ100%にならないのか？ | [907_pct_rounding_sum_100](articles/907_pct_rounding_sum_100) |
 | 913 | 不良率の月ごとの上下は、工程の変化か偶然か？ | [913_quality_monthly_rate_noise](articles/913_quality_monthly_rate_noise) |
 | 936 | 目標達成率は、目標の置き方でどれだけ変わるのか？ | [936_hr_target_setting_rate](articles/936_hr_target_setting_rate) |
+| 977 | 途中から測り始めた項目は、前の期間とどう比べるのか？ | [977_missing_started_midway_compare](articles/977_missing_started_midway_compare) |
 
 </details>
 
@@ -1346,7 +1352,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（400本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（418本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1750,6 +1756,24 @@
 | 963 | 少ない件数の言葉の「特徴的な度合い」は、なぜ極端に出るのか？ | [963_text_keyness_small_count](articles/963_text_keyness_small_count) |
 | 967 | 問い合わせの件名だけで分けると、本文と比べて何がずれるのか？ | [967_text_subject_only_classification](articles/967_text_subject_only_classification) |
 | 968 | 文字数の数え方（文字・バイト・単語）で、何が変わるのか？ | [968_text_length_chars_bytes_words](articles/968_text_length_chars_bytes_words) |
+| 970 | 「答えなかった人」は、答えた人と同じなのか？ | [970_missing_nonrespondents_same](articles/970_missing_nonrespondents_same) |
+| 971 | 空欄を0で埋めると、平均と割合はどうなるのか？ | [971_missing_fill_zero](articles/971_missing_fill_zero) |
+| 974 | 欠けている割合が何%を超えると、結果は読めなくなるのか？ | [974_missing_share_readable_limit](articles/974_missing_share_readable_limit) |
+| 975 | 項目ごとに欠けた行を除くと、件数はどれだけ減るのか？ | [975_missing_listwise_rows_lost](articles/975_missing_listwise_rows_lost) |
+| 976 | 「不明」を1つの分類にすると、比べ方はどう変わるのか？ | [976_missing_unknown_as_category](articles/976_missing_unknown_as_category) |
+| 978 | 欠けたところだけ別の方法で埋めると、何が混ざるのか？ | [978_missing_fill_other_method](articles/978_missing_fill_other_method) |
+| 980 | 欠けている理由が分からないとき、何まで言えるのか？ | [980_missing_reason_unknown_bounds](articles/980_missing_reason_unknown_bounds) |
+| 982 | 「100万分の1の偶然」は、どれくらい起きるのか？ | [982_prob_one_in_a_million_many_tries](articles/982_prob_one_in_a_million_many_tries) |
+| 983 | 振り分けで「迷惑メール」と出たとき、本当に迷惑メールの確率は？ | [983_prob_spam_filter_base_rate](articles/983_prob_spam_filter_base_rate) |
+| 984 | 3つの扉で選び直すと、当たりやすくなるのか？ | [984_prob_three_doors_switch](articles/984_prob_three_doors_switch) |
+| 985 | 「次こそ当たる」は、どこまで正しいのか？ | [985_prob_next_time_independent](articles/985_prob_next_time_independent) |
+| 986 | 2つの出来事が同時に起きる確率は、掛け算でよいのか？ | [986_prob_joint_multiply](articles/986_prob_joint_multiply) |
+| 987 | 「少なくとも1回」の確率は、回数でどう増えるのか？ | [987_prob_at_least_once_repeats](articles/987_prob_at_least_once_repeats) |
+| 988 | 珍しい組み合わせを後から探すと、何が見つかるのか？ | [988_prob_rare_combo_after_search](articles/988_prob_rare_combo_after_search) |
+| 989 | 平均で考えると、どのくじが得に見えるのか？ | [989_prob_expected_value_spread](articles/989_prob_expected_value_spread) |
+| 990 | 偶然の集まり（かたまり）は、どれくらい出るのか？ | [990_prob_random_clusters](articles/990_prob_random_clusters) |
+| 991 | くじの当たりを「確率で山分け」すると、何がずれるのか？ | [991_prob_raffle_split_by_probability](articles/991_prob_raffle_split_by_probability) |
+| 992 | 「ありえない」と感じる確率は、何%くらいなのか？ | [992_prob_impossible_never_seen](articles/992_prob_impossible_never_seen) |
 
 </details>
 
@@ -1758,16 +1782,16 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 203 |
-| EC・会員・Web | 97 |
-| マーケティング・広告 | 25 |
+| 小売・店舗 | 211 |
+| EC・会員・Web | 99 |
+| マーケティング・広告 | 26 |
 | 需要予測・在庫 | 31 |
-| 業務の集計・報告 | 133 |
+| 業務の集計・報告 | 134 |
 | 作業時間・処理件数 | 6 |
 | 保険 | 72 |
 | 公的統計・地域・人口 | 434 |
 
-<details><summary><b>小売・店舗</b>（203本）</summary>
+<details><summary><b>小売・店舗</b>（211本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1974,10 +1998,18 @@
 | 953 | 出店した場所の売上が高いのは、場所のおかげか？ | [953_map_store_site_selection](articles/953_map_store_site_selection) |
 | 961 | 前向き・後ろ向きの点数は、言葉の数え方でどれだけ変わるのか？ | [961_text_sentiment_score_counting](articles/961_text_sentiment_score_counting) |
 | 963 | 少ない件数の言葉の「特徴的な度合い」は、なぜ極端に出るのか？ | [963_text_keyness_small_count](articles/963_text_keyness_small_count) |
+| 969 | 空欄を除いて平均すると、何がずれるのか？ | [969_missing_drop_blank_mean](articles/969_missing_drop_blank_mean) |
+| 973 | 前の値で埋めると、変化はどう見えるのか？ | [973_missing_carry_forward_change](articles/973_missing_carry_forward_change) |
+| 976 | 「不明」を1つの分類にすると、比べ方はどう変わるのか？ | [976_missing_unknown_as_category](articles/976_missing_unknown_as_category) |
+| 977 | 途中から測り始めた項目は、前の期間とどう比べるのか？ | [977_missing_started_midway_compare](articles/977_missing_started_midway_compare) |
+| 978 | 欠けたところだけ別の方法で埋めると、何が混ざるのか？ | [978_missing_fill_other_method](articles/978_missing_fill_other_method) |
+| 982 | 「100万分の1の偶然」は、どれくらい起きるのか？ | [982_prob_one_in_a_million_many_tries](articles/982_prob_one_in_a_million_many_tries) |
+| 990 | 偶然の集まり（かたまり）は、どれくらい出るのか？ | [990_prob_random_clusters](articles/990_prob_random_clusters) |
+| 992 | 「ありえない」と感じる確率は、何%くらいなのか？ | [992_prob_impossible_never_seen](articles/992_prob_impossible_never_seen) |
 
 </details>
 
-<details><summary><b>EC・会員・Web</b>（97本）</summary>
+<details><summary><b>EC・会員・Web</b>（99本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2078,10 +2110,12 @@
 | 823 | 散布図の点が多すぎると、関係は見えなくなるのか？ | [823_graph_scatter_overplotting](articles/823_graph_scatter_overplotting) |
 | 842 | 表示が増えると、クリック率は下がって見えるのか？ | [842_sns_ctr_impressions](articles/842_sns_ctr_impressions) |
 | 948 | 小さい区域の率は、なぜ地図の端に極端な色が出やすいのか？ | [948_map_small_area_extreme_rate](articles/948_map_small_area_extreme_rate) |
+| 969 | 空欄を除いて平均すると、何がずれるのか？ | [969_missing_drop_blank_mean](articles/969_missing_drop_blank_mean) |
+| 979 | 欠けやすい人に重みを付けると、どこまで戻せるのか？ | [979_missing_weight_nonresponse](articles/979_missing_weight_nonresponse) |
 
 </details>
 
-<details><summary><b>マーケティング・広告</b>（25本）</summary>
+<details><summary><b>マーケティング・広告</b>（26本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2110,6 +2144,7 @@
 | 904 | 「〜の人の8割が〜」と「〜の人の8割は〜」は同じなのか？ | [904_percent_reverse_condition](articles/904_percent_reverse_condition) |
 | 959 | 文章が長い人ほど、同じ言葉が多く出るのはなぜか？ | [959_text_length_word_count](articles/959_text_length_word_count) |
 | 962 | 「よく一緒に出る言葉」は、本当に関係があるのか？ | [962_text_cooccurrence_relation](articles/962_text_cooccurrence_relation) |
+| 983 | 振り分けで「迷惑メール」と出たとき、本当に迷惑メールの確率は？ | [983_prob_spam_filter_base_rate](articles/983_prob_spam_filter_base_rate) |
 
 </details>
 
@@ -2151,7 +2186,7 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（133本）</summary>
+<details><summary><b>業務の集計・報告</b>（134本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2288,6 +2323,7 @@
 | 894 | 「月の目標額以上」が何か月続いたら、実力と言えるのか？ | [894_sidejob_target_streak_months](articles/894_sidejob_target_streak_months) |
 | 901 | 「前年比の前年比」は、何を表しているのか？ | [901_pct_yoy_of_yoy](articles/901_pct_yoy_of_yoy) |
 | 936 | 目標達成率は、目標の置き方でどれだけ変わるのか？ | [936_hr_target_setting_rate](articles/936_hr_target_setting_rate) |
+| 977 | 途中から測り始めた項目は、前の期間とどう比べるのか？ | [977_missing_started_midway_compare](articles/977_missing_started_midway_compare) |
 
 </details>
 
