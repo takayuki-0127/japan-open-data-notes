@@ -1,0 +1,169 @@
+{
+ "params": {
+  "a": -1.0,
+  "b_flex": 1.5,
+  "b_d": -0.8,
+  "b_g": 0.8,
+  "noise": 3.0
+ },
+ "people": 3000,
+ "days": 20,
+ "extra_min_per_km_peak_mean": 0.5,
+ "off_peak_minutes": "8 + 2.0 * distance_km",
+ "one_draw": {
+  "naive": 14.764,
+  "per_km": 2.545,
+  "regress_distance": 5.45,
+  "within_person": 6.926,
+  "true_all": 6.984,
+  "true_peak_trips": 6.784,
+  "true_off_trips": 7.364,
+  "true_both_people": 6.938,
+  "off_share": 0.345,
+  "both_people_share": 0.867,
+  "never_off_share": 0.113,
+  "always_off_share": 0.021,
+  "dist_peak_trips": 15.479,
+  "dist_off_trips": 11.498
+ },
+ "base_100reps": [
+  {
+   "key": "naive",
+   "label": "そのまま比べる（混む便の平均−避けた便の平均）",
+   "mean": 14.78,
+   "p10": 14.215,
+   "p90": 15.288
+  },
+  {
+   "key": "per_km",
+   "label": "1kmあたりで比べる（×全員の平均の道のり）",
+   "mean": 2.557,
+   "p10": 2.281,
+   "p90": 2.79
+  },
+  {
+   "key": "regress_distance",
+   "label": "道のりをそろえる（道のりを入れた回帰）",
+   "mean": 5.481,
+   "p10": 5.345,
+   "p90": 5.61
+  },
+  {
+   "key": "within_person",
+   "label": "同じ人の、混む日と避けた日の差",
+   "mean": 7.053,
+   "p10": 6.865,
+   "p90": 7.242
+  },
+  {
+   "key": "true_all",
+   "label": "本当の得：全員の平均",
+   "mean": 7.062,
+   "p10": 6.892,
+   "p90": 7.234
+  },
+  {
+   "key": "true_peak_trips",
+   "label": "本当の得：いま混む時間帯に乗っている便",
+   "mean": 6.865,
+   "p10": 6.694,
+   "p90": 7.064
+  },
+  {
+   "key": "true_off_trips",
+   "label": "本当の得：いま避けている便",
+   "mean": 7.437,
+   "p10": 7.212,
+   "p90": 7.648
+  },
+  {
+   "key": "true_both_people",
+   "label": "本当の得：両方の日がある人",
+   "mean": 7.06,
+   "p10": 6.883,
+   "p90": 7.252
+  }
+ ],
+ "base_other": {
+  "dist_peak_trips": 15.5057,
+  "dist_off_trips": 11.5483,
+  "off_share_pct": 34.47,
+  "both_people_share_pct": 85.17,
+  "never_off_share_pct": 12.72,
+  "always_off_share_pct": 2.11
+ },
+ "base_ratios": {
+  "naive_over_true_peak": 2.153,
+  "regress_over_true_peak": 0.798,
+  "within_over_true_peak": 1.027,
+  "true_off_over_true_peak": 1.083
+ },
+ "base_formula_check": {
+  "naive_minus_true_peak": 7.915,
+  "formula_2min_per_km_times_distance_gap": 7.915
+ },
+ "grid_summary": {
+  "naive_min": -2.856,
+  "naive_max": 16.504,
+  "true_peak_min": 5.409,
+  "true_peak_max": 8.461,
+  "naive_minus_true_peak_min": -8.882,
+  "naive_minus_true_peak_max": 8.495,
+  "regress_minus_true_peak_min": -1.621,
+  "regress_minus_true_peak_max": 1.444,
+  "within_minus_true_both_min": -0.007,
+  "within_minus_true_both_max": 0.01,
+  "within_minus_true_peak_min": -2.344,
+  "within_minus_true_peak_max": 1.885,
+  "n_naive_negative": 3,
+  "max_gap_naive_bias_vs_formula": 0.011,
+  "true_off_min": 4.448,
+  "true_off_max": 10.131,
+  "within_min": 6.117,
+  "within_max": 7.298,
+  "regress_min": 5.486,
+  "regress_max": 8.621,
+  "per_km_min": 2.537,
+  "per_km_max": 11.198,
+  "bd0_bg0": {
+   "b_d": 0.0,
+   "b_g": 0.0,
+   "naive": 7.021,
+   "per_km": 7.042,
+   "regress_distance": 7.042,
+   "within_person": 7.063,
+   "true_all": 7.069,
+   "true_peak_trips": 7.045,
+   "true_off_trips": 7.117,
+   "true_both_people": 7.069,
+   "off_share": 0.329,
+   "dist_peak_trips": 14.125,
+   "dist_off_trips": 14.134,
+   "naive_minus_true_peak": -0.024,
+   "formula_distance_gap_x2": -0.018,
+   "regress_minus_true_peak": -0.003,
+   "within_minus_true_peak": 0.018,
+   "within_minus_true_both": -0.006
+  },
+  "bd_pos_bg_neg": {
+   "b_d": 0.8,
+   "b_g": -0.8,
+   "naive": -1.163,
+   "per_km": 11.198,
+   "regress_distance": 8.621,
+   "within_person": 6.891,
+   "true_all": 7.033,
+   "true_peak_trips": 7.177,
+   "true_off_trips": 6.764,
+   "true_both_people": 6.883,
+   "off_share": 0.35,
+   "dist_peak_trips": 12.644,
+   "dist_off_trips": 16.818,
+   "naive_minus_true_peak": -8.34,
+   "formula_distance_gap_x2": -8.348,
+   "regress_minus_true_peak": 1.444,
+   "within_minus_true_peak": -0.286,
+   "within_minus_true_both": 0.008
+  }
+ }
+}

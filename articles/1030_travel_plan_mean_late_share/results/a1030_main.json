@@ -1,0 +1,252 @@
+{
+ "base_400k_days": {
+  "mean_min": 35.69,
+  "median_min": 35.12,
+  "p90_min": 41.23,
+  "p99_min": 56.6,
+  "plan_mean": {
+   "late_pct": 44.91,
+   "late5_pct": 11.62,
+   "late10_pct": 4.01
+  },
+  "plan_median": {
+   "late_pct": 50.0,
+   "late5_pct": 13.71,
+   "late10_pct": 4.34
+  },
+  "late_pct_rain_days": 77.52,
+  "late_pct_dry_days": 36.75,
+  "late_pct_jam_days": 100.0,
+  "late_pct_normal_days": 42.6,
+  "share_rain_pct": 20.01,
+  "share_jam_pct": 4.02,
+  "mean_rain_min": 39.31,
+  "mean_dry_min": 34.78,
+  "mean_without_jam_min": 34.99,
+  "mean_minus_median_min": 0.57,
+  "once_in_n_days": 2.23,
+  "dry_days_share_of_all_late_pct": 65.45
+ },
+ "plan_methods_200reps": [
+  {
+   "method": "去年の平均",
+   "late_pct": 45.01,
+   "late_pct_p10": 39.59,
+   "late_pct_p90": 51.06,
+   "late_rain_pct": 77.77,
+   "late_dry_pct": 36.8,
+   "late5_pct": 11.54,
+   "plan_mean_min": 35.68
+  },
+  {
+   "method": "去年の中央値",
+   "late_pct": 49.71,
+   "late_pct_p10": 44.49,
+   "late_pct_p90": 55.51,
+   "late_rain_pct": 81.71,
+   "late_dry_pct": 41.69,
+   "late5_pct": 13.55,
+   "plan_mean_min": 35.16
+  },
+  {
+   "method": "直近20日の平均",
+   "late_pct": 44.96,
+   "late_pct_p10": 42.04,
+   "late_pct_p90": 47.76,
+   "late_rain_pct": 76.96,
+   "late_dry_pct": 36.91,
+   "late5_pct": 12.21,
+   "plan_mean_min": 35.7
+  },
+  {
+   "method": "雨かどうかで分けた去年の平均",
+   "late_pct": 45.36,
+   "late_pct_p10": 40.41,
+   "late_pct_p90": 50.65,
+   "late_rain_pct": 45.24,
+   "late_dry_pct": 45.4,
+   "late5_pct": 8.92,
+   "plan_mean_min": 35.68
+  }
+ ],
+ "robustness_jam": [
+  {
+   "jam_p_pct": 0.0,
+   "jam_add": "5〜10分",
+   "mean_min": 34.98,
+   "median_min": 34.9,
+   "late_pct": 49.21,
+   "late5_pct": 10.58
+  },
+  {
+   "jam_p_pct": 0.0,
+   "jam_add": "10〜25分",
+   "mean_min": 35.01,
+   "median_min": 34.93,
+   "late_pct": 49.26,
+   "late5_pct": 10.59
+  },
+  {
+   "jam_p_pct": 0.0,
+   "jam_add": "20〜40分",
+   "mean_min": 35.0,
+   "median_min": 34.92,
+   "late_pct": 49.22,
+   "late5_pct": 10.49
+  },
+  {
+   "jam_p_pct": 2.0,
+   "jam_add": "5〜10分",
+   "mean_min": 35.14,
+   "median_min": 35.01,
+   "late_pct": 48.74,
+   "late5_pct": 11.16
+  },
+  {
+   "jam_p_pct": 2.0,
+   "jam_add": "10〜25分",
+   "mean_min": 35.33,
+   "median_min": 35.02,
+   "late_pct": 47.11,
+   "late5_pct": 10.93
+  },
+  {
+   "jam_p_pct": 2.0,
+   "jam_add": "20〜40分",
+   "mean_min": 35.56,
+   "median_min": 35.01,
+   "late_pct": 44.9,
+   "late5_pct": 10.04
+  },
+  {
+   "jam_p_pct": 4.0,
+   "jam_add": "5〜10分",
+   "mean_min": 35.29,
+   "median_min": 35.12,
+   "late_pct": 48.42,
+   "late5_pct": 11.74
+  },
+  {
+   "jam_p_pct": 4.0,
+   "jam_add": "10〜25分",
+   "mean_min": 35.71,
+   "median_min": 35.15,
+   "late_pct": 44.89,
+   "late5_pct": 11.54
+  },
+  {
+   "jam_p_pct": 4.0,
+   "jam_add": "20〜40分",
+   "mean_min": 36.2,
+   "median_min": 35.13,
+   "late_pct": 40.44,
+   "late5_pct": 10.15
+  },
+  {
+   "jam_p_pct": 8.0,
+   "jam_add": "5〜10分",
+   "mean_min": 35.59,
+   "median_min": 35.33,
+   "late_pct": 47.7,
+   "late5_pct": 12.95
+  },
+  {
+   "jam_p_pct": 8.0,
+   "jam_add": "10〜25分",
+   "mean_min": 36.38,
+   "median_min": 35.37,
+   "late_pct": 41.42,
+   "late5_pct": 13.16
+  },
+  {
+   "jam_p_pct": 8.0,
+   "jam_add": "20〜40分",
+   "mean_min": 37.41,
+   "median_min": 35.38,
+   "late_pct": 32.98,
+   "late5_pct": 11.36
+  },
+  {
+   "jam_p_pct": 15.0,
+   "jam_add": "5〜10分",
+   "mean_min": 36.11,
+   "median_min": 35.74,
+   "late_pct": 46.86,
+   "late5_pct": 14.8
+  },
+  {
+   "jam_p_pct": 15.0,
+   "jam_add": "10〜25分",
+   "mean_min": 37.62,
+   "median_min": 35.86,
+   "late_pct": 36.76,
+   "late5_pct": 17.14
+  },
+  {
+   "jam_p_pct": 15.0,
+   "jam_add": "20〜40分",
+   "mean_min": 39.45,
+   "median_min": 35.83,
+   "late_pct": 26.0,
+   "late5_pct": 16.0
+  }
+ ],
+ "robustness_other": [
+  {
+   "case": "基本",
+   "mean_min": 35.7,
+   "median_min": 35.13,
+   "late_pct": 44.85,
+   "late5_pct": 11.53
+  },
+  {
+   "case": "雨の日なし",
+   "mean_min": 34.79,
+   "median_min": 34.29,
+   "late_pct": 45.22,
+   "late5_pct": 8.6
+  },
+  {
+   "case": "雨の日40%",
+   "mean_min": 36.6,
+   "median_min": 36.05,
+   "late_pct": 45.19,
+   "late5_pct": 13.11
+  },
+  {
+   "case": "バスの待ちなし（時刻表に合わせて家を出る）",
+   "mean_min": 30.69,
+   "median_min": 29.71,
+   "late_pct": 36.47,
+   "late5_pct": 7.58
+  },
+  {
+   "case": "バスに乗る時間の振れ大（0.25）",
+   "mean_min": 36.19,
+   "median_min": 35.29,
+   "late_pct": 44.22,
+   "late5_pct": 19.62
+  },
+  {
+   "case": "雨・混む日なし・振れ小（左右対称に近い）",
+   "mean_min": 34.0,
+   "median_min": 34.0,
+   "late_pct": 49.94,
+   "late5_pct": 3.02
+  }
+ ],
+ "robustness_late_pct_range": {
+  "n_cases": 21,
+  "min": 26.0,
+  "max": 49.94
+ },
+ "robustness_jam_late_pct_range": {
+  "min": 26.0,
+  "max": 49.26
+ },
+ "one_draw_2years": {
+  "year1_mean_min": 35.79,
+  "year2_late_pct": 41.63,
+  "year2_late_days": 102
+ }
+}

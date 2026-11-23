@@ -1,0 +1,219 @@
+{
+ "base_params": {
+  "p1": 0.35,
+  "m1": 3.0,
+  "p2": 0.25,
+  "m2": 2.0,
+  "walk": 3.0,
+  "buf": 2.0,
+  "H": 10.0,
+  "k": 0.0
+ },
+ "n_days": 200000,
+ "base_cases": [
+  {
+   "case": "1本目の遅れだけ（乗り換え駅に着く遅れ）",
+   "mean": 1.055,
+   "median": 0.0,
+   "p90": 3.777,
+   "p95": 5.868,
+   "ge5": 6.69,
+   "ge10": 1.28,
+   "ge15": 0.24
+  },
+  {
+   "case": "乗り換えなし・2区間の遅れを足す",
+   "mean": 1.549,
+   "median": 0.064,
+   "p90": 4.963,
+   "p95": 7.025,
+   "ge5": 9.87,
+   "ge10": 1.88,
+   "ge15": 0.35
+  },
+  {
+   "case": "乗り換え1回",
+   "mean": 2.23,
+   "median": 0.0,
+   "p90": 10.0,
+   "p95": 10.0,
+   "ge5": 18.24,
+   "ge10": 16.42,
+   "ge15": 0.93
+  },
+  {
+   "case": "乗り換えなし・3区間の遅れを足す",
+   "mean": 2.038,
+   "median": 0.787,
+   "p90": 5.946,
+   "p95": 8.052,
+   "ge5": 13.48,
+   "ge10": 2.62,
+   "ge15": 0.51
+  },
+  {
+   "case": "乗り換え2回",
+   "mean": 3.089,
+   "median": 0.0,
+   "p90": 10.0,
+   "p95": 11.211,
+   "ge5": 25.41,
+   "ge10": 23.76,
+   "ge15": 2.34
+  }
+ ],
+ "base_transfer1": {
+  "miss_planned_share": 16.4,
+  "earlier_train_share": 0.253,
+  "miss2plus_share": 0.63,
+  "d1_gt_buf_share": 18.07,
+  "mean_ratio_vs_add": 1.44,
+  "mean_increase_vs_d1": 1.175
+ },
+ "by_first_delay": [
+  {
+   "d1_range": "遅れなし（0分）",
+   "share_days": 65.06,
+   "d1_mean": 0.0,
+   "total_mean": 0.49,
+   "missed_share": 0.14
+  },
+  {
+   "d1_range": "0〜1分",
+   "share_days": 9.87,
+   "d1_mean": 0.471,
+   "total_mean": 0.492,
+   "missed_share": 0.13
+  },
+  {
+   "d1_range": "1〜2分",
+   "share_days": 7.0,
+   "d1_mean": 1.473,
+   "total_mean": 0.483,
+   "missed_share": 0.19
+  },
+  {
+   "d1_range": "2〜3分",
+   "share_days": 5.17,
+   "d1_mean": 2.47,
+   "total_mean": 8.911,
+   "missed_share": 80.34
+  },
+  {
+   "d1_range": "3〜5分",
+   "share_days": 6.22,
+   "d1_mean": 3.893,
+   "total_mean": 9.8,
+   "missed_share": 89.83
+  },
+  {
+   "d1_range": "5〜10分",
+   "share_days": 5.41,
+   "d1_mean": 6.816,
+   "total_mean": 10.367,
+   "missed_share": 97.43
+  },
+  {
+   "d1_range": "10分より多い",
+   "share_days": 1.28,
+   "d1_mean": 13.08,
+   "total_mean": 15.554,
+   "missed_share": 99.88
+  }
+ ],
+ "formula_check_line2_on_time": {
+  "miss_sim": 17.949,
+  "miss_formula": 17.97,
+  "mean_sim": 1.86,
+  "mean_formula": 1.863
+ },
+ "grid_summary": {
+  "n": 57,
+  "ratio_min": 0.36,
+  "ratio_max": 4.792,
+  "ge10_transfer_min": 0.95,
+  "ge10_transfer_max": 45.38,
+  "ge10_add_min": 1.03,
+  "ge10_add_max": 2.74,
+  "n_ratio_gt1": 39,
+  "n_ratio_lt1": 18,
+  "n_ge10_transfer_gt_add": 54,
+  "n_ge5_transfer_gt_add": 48,
+  "ge5_transfer_min": 4.32,
+  "ge5_transfer_max": 47.19,
+  "ge5_add_min": 6.3,
+  "ge5_add_max": 13.58,
+  "miss_min": 2.45,
+  "miss_max": 46.41,
+  "p35_mean_transfer_min": 0.667,
+  "p35_mean_transfer_max": 6.801,
+  "H10plus_ge10_transfer_min": 2.46,
+  "H10plus_ge10_transfer_max": 45.38,
+  "H10plus_n_ge10_transfer_gt_add": 45,
+  "H10plus_n": 45,
+  "buf6_ratio_min": 0.519,
+  "buf6_ratio_max": 0.892,
+  "buf0_ratio_min": 1.485,
+  "buf0_ratio_max": 4.792,
+  "p35_buf2_by_H": [
+   {
+    "H": 5,
+    "mean_transfer": 1.462,
+    "ge10_transfer": 3.19,
+    "miss": 17.84
+   },
+   {
+    "H": 10,
+    "mean_transfer": 2.225,
+    "ge10_transfer": 16.43,
+    "miss": 16.4
+   },
+   {
+    "H": 15,
+    "mean_transfer": 2.985,
+    "ge10_transfer": 16.32,
+    "miss": 16.15
+   },
+   {
+    "H": 20,
+    "mean_transfer": 3.845,
+    "ge10_transfer": 16.62,
+    "miss": 16.46
+   }
+  ]
+ },
+ "common_delay": [
+  {
+   "k": 0.0,
+   "mean_transfer": 2.235,
+   "mean_add": 1.563,
+   "ge10_transfer": 16.44,
+   "ge10_add": 1.93,
+   "miss": 16.42
+  },
+  {
+   "k": 0.5,
+   "mean_transfer": 1.842,
+   "mean_add": 1.556,
+   "ge10_transfer": 8.23,
+   "ge10_add": 1.85,
+   "miss": 8.1
+  },
+  {
+   "k": 1.0,
+   "mean_transfer": 1.541,
+   "mean_add": 1.552,
+   "ge10_transfer": 1.86,
+   "ge10_add": 1.83,
+   "miss": 0.16
+  }
+ ],
+ "one_year": {
+  "days": 240,
+  "missed_days": 31,
+  "mean_arrival_delay": 1.712,
+  "mean_added": 1.399,
+  "ge10_days": 31,
+  "ge10_days_added": 2
+ }
+}

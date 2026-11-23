@@ -1,0 +1,314 @@
+{
+ "pairs": [
+  {
+   "go_kmh": 40,
+   "back_kmh": 20,
+   "simple_mean": 30.0,
+   "same_distance": 26.67,
+   "same_time": 30.0,
+   "time_error_pct_if_simple": -11.11,
+   "go_min_12km": 18.0,
+   "back_min_12km": 36.0,
+   "round_trip_min_12km": 54.0,
+   "plan_min_if_simple": 48.0
+  },
+  {
+   "go_kmh": 40,
+   "back_kmh": 30,
+   "simple_mean": 35.0,
+   "same_distance": 34.29,
+   "same_time": 35.0,
+   "time_error_pct_if_simple": -2.04,
+   "go_min_12km": 18.0,
+   "back_min_12km": 24.0,
+   "round_trip_min_12km": 42.0,
+   "plan_min_if_simple": 41.14
+  },
+  {
+   "go_kmh": 40,
+   "back_kmh": 40,
+   "simple_mean": 40.0,
+   "same_distance": 40.0,
+   "same_time": 40.0,
+   "time_error_pct_if_simple": 0.0,
+   "go_min_12km": 18.0,
+   "back_min_12km": 18.0,
+   "round_trip_min_12km": 36.0,
+   "plan_min_if_simple": 36.0
+  },
+  {
+   "go_kmh": 40,
+   "back_kmh": 50,
+   "simple_mean": 45.0,
+   "same_distance": 44.44,
+   "same_time": 45.0,
+   "time_error_pct_if_simple": -1.23,
+   "go_min_12km": 18.0,
+   "back_min_12km": 14.4,
+   "round_trip_min_12km": 32.4,
+   "plan_min_if_simple": 32.0
+  },
+  {
+   "go_kmh": 40,
+   "back_kmh": 60,
+   "simple_mean": 50.0,
+   "same_distance": 48.0,
+   "same_time": 50.0,
+   "time_error_pct_if_simple": -4.0,
+   "go_min_12km": 18.0,
+   "back_min_12km": 12.0,
+   "round_trip_min_12km": 30.0,
+   "plan_min_if_simple": 28.8
+  },
+  {
+   "go_kmh": 40,
+   "back_kmh": 80,
+   "simple_mean": 60.0,
+   "same_distance": 53.33,
+   "same_time": 60.0,
+   "time_error_pct_if_simple": -11.11,
+   "go_min_12km": 18.0,
+   "back_min_12km": 9.0,
+   "round_trip_min_12km": 27.0,
+   "plan_min_if_simple": 24.0
+  },
+  {
+   "go_kmh": 40,
+   "back_kmh": 100,
+   "simple_mean": 70.0,
+   "same_distance": 57.14,
+   "same_time": 70.0,
+   "time_error_pct_if_simple": -18.37,
+   "go_min_12km": 18.0,
+   "back_min_12km": 7.2,
+   "round_trip_min_12km": 25.2,
+   "plan_min_if_simple": 20.57
+  }
+ ],
+ "fleet_300days": {
+  "km_per_day": 30.0,
+  "pooled_speed_kmh": 27.19,
+  "actual_mean_min": 66.2,
+  "methods": [
+   {
+    "key": "pooled",
+    "method": "合計距離÷合計時間（300日まとめて）",
+    "speed_kmh": 27.19,
+    "vs_pooled_pct": 0.0,
+    "plan_min_30km": 66.2,
+    "actual_mean_min": 66.2,
+    "plan_error_pct": 0.0
+   },
+   {
+    "key": "true",
+    "method": "1日ごとの合計距離÷合計時間を、300日で平均",
+    "speed_kmh": 27.64,
+    "vs_pooled_pct": 1.67,
+    "plan_min_30km": 65.11,
+    "actual_mean_min": 66.2,
+    "plan_error_pct": -1.64
+   },
+   {
+    "key": "time10s",
+    "method": "10秒ごとの記録の速さの平均",
+    "speed_kmh": 27.65,
+    "vs_pooled_pct": 1.68,
+    "plan_min_30km": 65.11,
+    "actual_mean_min": 66.2,
+    "plan_error_pct": -1.65
+   },
+   {
+    "key": "dir",
+    "method": "行きの速さと帰りの速さの平均",
+    "speed_kmh": 28.05,
+    "vs_pooled_pct": 3.18,
+    "plan_min_30km": 64.16,
+    "actual_mean_min": 66.2,
+    "plan_error_pct": -3.08
+   },
+   {
+    "key": "type",
+    "method": "道の種類（3つ）ごとの速さの平均",
+    "speed_kmh": 28.85,
+    "vs_pooled_pct": 6.09,
+    "plan_min_30km": 62.4,
+    "actual_mean_min": 66.2,
+    "plan_error_pct": -5.74
+   },
+   {
+    "key": "seg",
+    "method": "0.5kmごとの記録の速さの平均",
+    "speed_kmh": 35.33,
+    "vs_pooled_pct": 29.93,
+    "plan_min_30km": 50.95,
+    "actual_mean_min": 66.2,
+    "plan_error_pct": -23.04
+   }
+  ],
+  "road": [
+   {
+    "road": "住宅地",
+    "km_per_day": 6.0,
+    "share_of_distance_pct": 20.0,
+    "share_of_time_pct": 32.99,
+    "speed_kmh": 16.48
+   },
+   {
+    "road": "一般道",
+    "km_per_day": 12.0,
+    "share_of_distance_pct": 40.0,
+    "share_of_time_pct": 40.96,
+    "speed_kmh": 26.55
+   },
+   {
+    "road": "幹線",
+    "km_per_day": 12.0,
+    "share_of_distance_pct": 40.0,
+    "share_of_time_pct": 26.05,
+    "speed_kmh": 41.75
+   }
+  ],
+  "go_speed_pooled_kmh": 24.5,
+  "back_speed_pooled_kmh": 30.55,
+  "seg_vs_true_by_day_pct": {
+   "min": 16.98,
+   "p10": 21.58,
+   "median": 27.66,
+   "p90": 34.65,
+   "max": 42.87,
+   "share_days_positive_pct": 100.0
+  },
+  "slow_fast_thirds": {
+   "slow_third_share_distance_pct": 33.33,
+   "slow_third_share_time_pct": 54.0,
+   "fast_third_share_distance_pct": 33.33,
+   "fast_third_share_time_pct": 17.07
+  }
+ },
+ "robustness": [
+  {
+   "mix": "基本",
+   "seg_sd": 0.1,
+   "seg_vs_pooled_pct": 16.51,
+   "seg_plan_error_pct": -14.17,
+   "type_vs_pooled_pct": 5.31,
+   "dir_vs_pooled_pct": 2.82
+  },
+  {
+   "mix": "基本",
+   "seg_sd": 0.2,
+   "seg_vs_pooled_pct": 19.98,
+   "seg_plan_error_pct": -16.65,
+   "type_vs_pooled_pct": 5.42,
+   "dir_vs_pooled_pct": 2.89
+  },
+  {
+   "mix": "基本",
+   "seg_sd": 0.35,
+   "seg_vs_pooled_pct": 29.79,
+   "seg_plan_error_pct": -22.96,
+   "type_vs_pooled_pct": 6.04,
+   "dir_vs_pooled_pct": 3.27
+  },
+  {
+   "mix": "基本",
+   "seg_sd": 0.5,
+   "seg_vs_pooled_pct": 43.85,
+   "seg_plan_error_pct": -30.48,
+   "type_vs_pooled_pct": 6.56,
+   "dir_vs_pooled_pct": 3.73
+  },
+  {
+   "mix": "全部一般道",
+   "seg_sd": 0.1,
+   "seg_vs_pooled_pct": 3.71,
+   "seg_plan_error_pct": -3.58,
+   "type_vs_pooled_pct": 1.44,
+   "dir_vs_pooled_pct": 2.72
+  },
+  {
+   "mix": "全部一般道",
+   "seg_sd": 0.2,
+   "seg_vs_pooled_pct": 6.92,
+   "seg_plan_error_pct": -6.48,
+   "type_vs_pooled_pct": 1.53,
+   "dir_vs_pooled_pct": 2.88
+  },
+  {
+   "mix": "全部一般道",
+   "seg_sd": 0.35,
+   "seg_vs_pooled_pct": 16.0,
+   "seg_plan_error_pct": -13.79,
+   "type_vs_pooled_pct": 1.66,
+   "dir_vs_pooled_pct": 3.16
+  },
+  {
+   "mix": "全部一般道",
+   "seg_sd": 0.5,
+   "seg_vs_pooled_pct": 30.65,
+   "seg_plan_error_pct": -23.46,
+   "type_vs_pooled_pct": 1.98,
+   "dir_vs_pooled_pct": 3.67
+  },
+  {
+   "mix": "住宅地多め",
+   "seg_sd": 0.1,
+   "seg_vs_pooled_pct": 17.82,
+   "seg_plan_error_pct": -15.13,
+   "type_vs_pooled_pct": 32.41,
+   "dir_vs_pooled_pct": 2.74
+  },
+  {
+   "mix": "住宅地多め",
+   "seg_sd": 0.2,
+   "seg_vs_pooled_pct": 21.47,
+   "seg_plan_error_pct": -17.68,
+   "type_vs_pooled_pct": 32.76,
+   "dir_vs_pooled_pct": 2.9
+  },
+  {
+   "mix": "住宅地多め",
+   "seg_sd": 0.35,
+   "seg_vs_pooled_pct": 31.43,
+   "seg_plan_error_pct": -23.91,
+   "type_vs_pooled_pct": 33.3,
+   "dir_vs_pooled_pct": 3.2
+  },
+  {
+   "mix": "住宅地多め",
+   "seg_sd": 0.5,
+   "seg_vs_pooled_pct": 46.9,
+   "seg_plan_error_pct": -31.92,
+   "type_vs_pooled_pct": 34.15,
+   "dir_vs_pooled_pct": 3.68
+  }
+ ],
+ "robustness_range": {
+  "seg_vs_pooled_pct_min": 3.71,
+  "seg_vs_pooled_pct_max": 46.9,
+  "seg_plan_error_pct_min": -31.92,
+  "seg_plan_error_pct_max": -3.58
+ },
+ "formula_check_all_ordinary_road": [
+  {
+   "seg_sd": 0.1,
+   "sim_ratio": 1.0099,
+   "formula_exp_sd2": 1.0101
+  },
+  {
+   "seg_sd": 0.2,
+   "sim_ratio": 1.04,
+   "formula_exp_sd2": 1.0408
+  },
+  {
+   "seg_sd": 0.35,
+   "sim_ratio": 1.1272,
+   "formula_exp_sd2": 1.1303
+  },
+  {
+   "seg_sd": 0.5,
+   "sim_ratio": 1.2661,
+   "formula_exp_sd2": 1.284
+  }
+ ]
+}
