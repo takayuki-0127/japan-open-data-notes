@@ -1,0 +1,5 @@
+measure,prec10,rho_truth,rho_n,top10_mean_n
+density_T1,0.21,0.3615,-0.921,63.0
+mean_deg_T1,0.65,0.9123,0.3,395.0
+mean_deg_T3,0.63,0.9313,-0.2864,151.25
+msgs_per_member,0.85,0.9834,-0.0088,283.75

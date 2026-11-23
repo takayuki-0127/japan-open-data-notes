@@ -1,0 +1,303 @@
+{
+ "settings": {
+  "n": 400,
+  "departments": 20,
+  "dept_size": 20,
+  "p_in": 0.3,
+  "cross": 200,
+  "q": 0.3,
+  "theta_values": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "theta_probs": [
+   0.05,
+   0.35,
+   0.4,
+   0.2
+  ],
+  "seeds_grid": [
+   5,
+   10,
+   20,
+   40
+  ],
+  "reps": 100,
+  "grid_reps": 40,
+  "seed": 1088,
+  "theta_mean_formula": 2.75,
+  "cross_ties_per_person_formula": 1.0
+ },
+ "by_seeds_place": {
+  "5_random": {
+   "final_share": 0.1266,
+   "p_over_half": 0.07,
+   "final_p10": 0.0125,
+   "final_p90": 0.2825,
+   "days": 29.98
+  },
+  "5_one_dept": {
+   "final_share": 0.0841,
+   "p_over_half": 0.03,
+   "final_p10": 0.045,
+   "final_p90": 0.105,
+   "days": 24.28
+  },
+  "5_top_deg": {
+   "final_share": 0.318,
+   "p_over_half": 0.23,
+   "final_p10": 0.0572,
+   "final_p90": 0.9013,
+   "days": 56.67
+  },
+  "10_random": {
+   "final_share": 0.4354,
+   "p_over_half": 0.41,
+   "final_p10": 0.0398,
+   "final_p90": 0.9352,
+   "days": 65.21
+  },
+  "10_one_dept": {
+   "final_share": 0.0734,
+   "p_over_half": 0.01,
+   "final_p10": 0.0475,
+   "final_p90": 0.1103,
+   "days": 17.42
+  },
+  "10_top_deg": {
+   "final_share": 0.7231,
+   "p_over_half": 0.78,
+   "final_p10": 0.2613,
+   "final_p90": 0.9578,
+   "days": 90.01
+  },
+  "20_random": {
+   "final_share": 0.9049,
+   "p_over_half": 0.97,
+   "final_p10": 0.8268,
+   "final_p90": 0.98,
+   "days": 74.9
+  },
+  "20_one_dept": {
+   "final_share": 0.0744,
+   "p_over_half": 0.02,
+   "final_p10": 0.05,
+   "final_p90": 0.095,
+   "days": 9.58
+  },
+  "20_top_deg": {
+   "final_share": 0.8881,
+   "p_over_half": 1.0,
+   "final_p10": 0.7907,
+   "final_p90": 0.975,
+   "days": 65.85
+  },
+  "40_random": {
+   "final_share": 0.9552,
+   "p_over_half": 1.0,
+   "final_p10": 0.9165,
+   "final_p90": 0.9828,
+   "days": 45.24
+  },
+  "40_one_dept": {
+   "final_share": 0.1648,
+   "p_over_half": 0.04,
+   "final_p10": 0.1,
+   "final_p90": 0.263,
+   "days": 21.79
+  },
+  "40_top_deg": {
+   "final_share": 0.9325,
+   "p_over_half": 1.0,
+   "final_p10": 0.8825,
+   "final_p90": 0.9778,
+   "days": 45.31
+  }
+ },
+ "record_s20_random": {
+  "n_adopters": 34196,
+  "theta_mean": 2.7147,
+  "cnt_morning_mean": 3.4302,
+  "rec_day_mean": 3.6853,
+  "rec_week_mean": 4.8638,
+  "gap_morning": 0.7155,
+  "gap_day": 0.9706,
+  "gap_week": 2.1491,
+  "share_rec_week_gt_theta": 0.8067,
+  "share_rec_day_gt_theta": 0.5234,
+  "deg_mean_adopters": 6.8734
+ },
+ "record_by_theta": [
+  {
+   "theta": 1,
+   "n": 1903,
+   "cnt_morning": 1.4824,
+   "rec_day": 1.6448,
+   "rec_week": 3.0652
+  },
+  {
+   "theta": 2,
+   "n": 12324,
+   "cnt_morning": 2.6788,
+   "rec_day": 2.9312,
+   "rec_week": 4.2999
+  },
+  {
+   "theta": 3,
+   "n": 13595,
+   "cnt_morning": 3.7654,
+   "rec_day": 4.0382,
+   "rec_week": 5.1522
+  },
+  {
+   "theta": 4,
+   "n": 6374,
+   "cnt_morning": 4.7495,
+   "rec_day": 4.9997,
+   "rec_week": 5.8762
+  }
+ ],
+ "grid_9": [
+  {
+   "setting": "基本",
+   "final_random": 0.9037,
+   "final_one_dept": 0.0658,
+   "final_top_deg": 0.8637,
+   "p_over_half_random": 0.975,
+   "p_over_half_one_dept": 0.0,
+   "p_over_half_top_deg": 1.0,
+   "gap_week": 2.1093,
+   "gap_day": 0.9571
+  },
+  {
+   "setting": "使い始めの人数 −1",
+   "final_random": 0.9941,
+   "final_one_dept": 0.9941,
+   "final_top_deg": 0.9939,
+   "p_over_half_random": 1.0,
+   "p_over_half_one_dept": 1.0,
+   "p_over_half_top_deg": 1.0,
+   "gap_week": 3.6263,
+   "gap_day": 1.9995
+  },
+  {
+   "setting": "使い始めの人数 +1",
+   "final_random": 0.0573,
+   "final_one_dept": 0.05,
+   "final_top_deg": 0.0937,
+   "p_over_half_random": 0.0,
+   "p_over_half_one_dept": 0.0,
+   "p_over_half_top_deg": 0.0,
+   "gap_week": 0.3292,
+   "gap_day": 0.0901
+  },
+  {
+   "setting": "部署の中 0.2",
+   "final_random": 0.1223,
+   "final_one_dept": 0.0571,
+   "final_top_deg": 0.2599,
+   "p_over_half_random": 0.0,
+   "p_over_half_one_dept": 0.0,
+   "p_over_half_top_deg": 0.0,
+   "gap_week": 0.6879,
+   "gap_day": 0.1814
+  },
+  {
+   "setting": "部署の中 0.4",
+   "final_random": 0.9814,
+   "final_one_dept": 0.0829,
+   "final_top_deg": 0.975,
+   "p_over_half_random": 1.0,
+   "p_over_half_one_dept": 0.025,
+   "p_over_half_top_deg": 1.0,
+   "gap_week": 3.7897,
+   "gap_day": 2.0486
+  },
+  {
+   "setting": "またぐ 100本",
+   "final_random": 0.3611,
+   "final_one_dept": 0.0557,
+   "final_top_deg": 0.5028,
+   "p_over_half_random": 0.2,
+   "p_over_half_one_dept": 0.0,
+   "p_over_half_top_deg": 0.5,
+   "gap_week": 1.8607,
+   "gap_day": 0.7914
+  },
+  {
+   "setting": "またぐ 400本",
+   "final_random": 0.9879,
+   "final_one_dept": 0.4851,
+   "final_top_deg": 0.987,
+   "p_over_half_random": 1.0,
+   "p_over_half_one_dept": 0.45,
+   "p_over_half_top_deg": 1.0,
+   "gap_week": 2.9468,
+   "gap_day": 1.4931
+  },
+  {
+   "setting": "q 0.1",
+   "final_random": 0.8991,
+   "final_one_dept": 0.0691,
+   "final_top_deg": 0.8681,
+   "p_over_half_random": 1.0,
+   "p_over_half_one_dept": 0.0,
+   "p_over_half_top_deg": 1.0,
+   "gap_week": 1.3412,
+   "gap_day": 0.8673
+  },
+  {
+   "setting": "q 0.6",
+   "final_random": 0.8589,
+   "final_one_dept": 0.0643,
+   "final_top_deg": 0.8647,
+   "p_over_half_random": 0.925,
+   "p_over_half_one_dept": 0.0,
+   "p_over_half_top_deg": 1.0,
+   "gap_week": 2.7848,
+   "gap_day": 1.0834
+  }
+ ],
+ "grid_ranges": {
+  "final_random": [
+   0.0573,
+   0.9941
+  ],
+  "final_one_dept": [
+   0.05,
+   0.9941
+  ],
+  "final_top_deg": [
+   0.0937,
+   0.9939
+  ],
+  "p_over_half_random": [
+   0.0,
+   1.0
+  ],
+  "p_over_half_one_dept": [
+   0.0,
+   1.0
+  ],
+  "p_over_half_top_deg": [
+   0.0,
+   1.0
+  ],
+  "gap_week": [
+   0.3292,
+   3.7897
+  ],
+  "gap_day": [
+   0.0901,
+   2.0486
+  ]
+ },
+ "grid_one_dept_beats_random": 0,
+ "grid_gap_week_gt_gap_day": 9,
+ "data_check": {
+  "one_run_final_share": 0.9875,
+  "sim_rep0_final_share": 0.9875
+ }
+}

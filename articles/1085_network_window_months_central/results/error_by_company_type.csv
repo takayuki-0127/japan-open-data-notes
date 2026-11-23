@@ -1,0 +1,17 @@
+W,by,quartile,rel_err_pct
+1,duration,1,-55.35
+1,duration,2,-54.894
+1,duration,3,-54.983
+1,duration,4,-54.857
+1,rate,1,-71.651
+1,rate,2,-60.338
+1,rate,3,-51.14
+1,rate,4,-36.982
+24,duration,1,114.855
+24,duration,2,93.939
+24,duration,3,75.861
+24,duration,4,50.632
+24,rate,1,65.444
+24,rate,2,81.149
+24,rate,3,89.378
+24,rate,4,99.144

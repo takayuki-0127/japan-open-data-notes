@@ -1,0 +1,153 @@
+{
+ "settings": {
+  "n": 300,
+  "departments": 10,
+  "dept_size": 30,
+  "p_in": 0.15,
+  "cross": 30,
+  "cv_cross": 2.0,
+  "reps": 60,
+  "grid_cross": [
+   15,
+   30,
+   60
+  ],
+  "grid_cv": [
+   0.5,
+   2.0
+  ],
+  "grid_reps": 30,
+  "seed": 1087
+ },
+ "one_company": {
+  "mean_cut": 0.000819,
+  "max_cut": 0.17315,
+  "share_zero_cut": 0.96,
+  "max_cut_person_deg": 9,
+  "max_cut_person_deg_rank": 4,
+  "top_deg_cut": 0.0,
+  "top_deg_is_top_cut": false,
+  "mean_deg": 4.446667,
+  "max_deg": 13,
+  "top_btw_cut": 0.0,
+  "top_btw_is_top_cut": false,
+  "n_ties": 667,
+  "n_cross": 30,
+  "mean_lost_ties_share": 0.006667,
+  "formula_2_over_n": 0.006667,
+  "max_lost_ties_share": 0.01949,
+  "mean_eff_drop": 0.00228,
+  "max_eff_drop": 0.1188,
+  "share_eff_drop_lt_0_5pct": 0.886667,
+  "top_deg_eff_drop": 0.048301,
+  "top_btw_eff_drop": 0.048301,
+  "rank_top_eff_by_deg": 4,
+  "rho_deg_eff": 0.6311,
+  "rho_btw_eff": 0.938714,
+  "rho_deg_cut": 0.085241,
+  "n_cut_positive": 12,
+  "max_cut_person_cross_ties": 2,
+  "max_cut_person_dept_cross_ties_total": 2,
+  "after_max_cut_component_sizes_top3": [
+   266,
+   29,
+   2
+  ]
+ },
+ "companies_60": {
+  "mean_cut": 0.000785,
+  "mean_max_cut": 0.079885,
+  "max_cut_p10": 0.006664,
+  "max_cut_p90": 0.179794,
+  "share_zero_cut": 0.955222,
+  "share_companies_max_cut_gt_5pct": 0.416667,
+  "top_deg_is_top_cut": 0.033333,
+  "top_btw_is_top_cut": 0.216667,
+  "mean_top_deg_cut": 0.003848,
+  "mean_top_btw_cut": 0.041323,
+  "median_max_cut_person_deg_rank": 43.5,
+  "mean_max_cut_person_deg": 6.333333,
+  "mean_max_deg": 11.5,
+  "mean_deg": 4.537
+ },
+ "grid_6": [
+  {
+   "cross": 15,
+   "cv_cross": 0.5,
+   "mean_cut": 0.0027,
+   "mean_max_cut": 0.1857,
+   "share_zero_cut": 0.9436,
+   "share_companies_max_cut_gt_5pct": 0.8667,
+   "top_deg_is_top_cut": 0.0333,
+   "median_max_cut_person_deg_rank": 44.5
+  },
+  {
+   "cross": 15,
+   "cv_cross": 2.0,
+   "mean_cut": 0.003005,
+   "mean_max_cut": 0.2217,
+   "share_zero_cut": 0.9423,
+   "share_companies_max_cut_gt_5pct": 0.9667,
+   "top_deg_is_top_cut": 0.0667,
+   "median_max_cut_person_deg_rank": 48.5
+  },
+  {
+   "cross": 30,
+   "cv_cross": 0.5,
+   "mean_cut": 0.000431,
+   "mean_max_cut": 0.0321,
+   "share_zero_cut": 0.9601,
+   "share_companies_max_cut_gt_5pct": 0.1333,
+   "top_deg_is_top_cut": 0.0,
+   "median_max_cut_person_deg_rank": 75.0
+  },
+  {
+   "cross": 30,
+   "cv_cross": 2.0,
+   "mean_cut": 0.000971,
+   "mean_max_cut": 0.1037,
+   "share_zero_cut": 0.9522,
+   "share_companies_max_cut_gt_5pct": 0.5,
+   "top_deg_is_top_cut": 0.0667,
+   "median_max_cut_person_deg_rank": 50.5
+  },
+  {
+   "cross": 60,
+   "cv_cross": 0.5,
+   "mean_cut": 0.000215,
+   "mean_max_cut": 0.0099,
+   "share_zero_cut": 0.9698,
+   "share_companies_max_cut_gt_5pct": 0.0,
+   "top_deg_is_top_cut": 0.0,
+   "median_max_cut_person_deg_rank": 52.0
+  },
+  {
+   "cross": 60,
+   "cv_cross": 2.0,
+   "mean_cut": 0.000306,
+   "mean_max_cut": 0.0216,
+   "share_zero_cut": 0.9621,
+   "share_companies_max_cut_gt_5pct": 0.0667,
+   "top_deg_is_top_cut": 0.0,
+   "median_max_cut_person_deg_rank": 89.0
+  }
+ ],
+ "grid_ranges": {
+  "mean_max_cut": [
+   0.0099,
+   0.2217
+  ],
+  "share_zero_cut": [
+   0.9423,
+   0.9698
+  ],
+  "share_companies_max_cut_gt_5pct": [
+   0.0,
+   0.9667
+  ],
+  "top_deg_is_top_cut": [
+   0.0,
+   0.0667
+  ]
+ }
+}
