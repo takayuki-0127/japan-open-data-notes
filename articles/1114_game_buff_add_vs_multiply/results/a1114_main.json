@@ -1,0 +1,193 @@
+{
+ "setting": {
+  "buff": 0.2,
+  "players": 10000,
+  "kinds": 3,
+  "size_lo": 0.05,
+  "size_hi": 0.4,
+  "max_count": 8
+ },
+ "stack_same": [
+  {
+   "count": 0,
+   "add": 1.0,
+   "multiply": 1.0,
+   "multiply_over_add": 1.0,
+   "next_gain_add_pct": 20.0,
+   "next_gain_multiply_pct": 20.0
+  },
+  {
+   "count": 1,
+   "add": 1.2,
+   "multiply": 1.2,
+   "multiply_over_add": 1.0,
+   "next_gain_add_pct": 16.67,
+   "next_gain_multiply_pct": 20.0
+  },
+  {
+   "count": 2,
+   "add": 1.4,
+   "multiply": 1.44,
+   "multiply_over_add": 1.0286,
+   "next_gain_add_pct": 14.29,
+   "next_gain_multiply_pct": 20.0
+  },
+  {
+   "count": 3,
+   "add": 1.6,
+   "multiply": 1.728,
+   "multiply_over_add": 1.08,
+   "next_gain_add_pct": 12.5,
+   "next_gain_multiply_pct": 20.0
+  },
+  {
+   "count": 4,
+   "add": 1.8,
+   "multiply": 2.0736,
+   "multiply_over_add": 1.152,
+   "next_gain_add_pct": 11.11,
+   "next_gain_multiply_pct": 20.0
+  },
+  {
+   "count": 5,
+   "add": 2.0,
+   "multiply": 2.4883,
+   "multiply_over_add": 1.2442,
+   "next_gain_add_pct": 10.0,
+   "next_gain_multiply_pct": 20.0
+  },
+  {
+   "count": 6,
+   "add": 2.2,
+   "multiply": 2.986,
+   "multiply_over_add": 1.3573,
+   "next_gain_add_pct": 9.09,
+   "next_gain_multiply_pct": 20.0
+  },
+  {
+   "count": 7,
+   "add": 2.4,
+   "multiply": 3.5832,
+   "multiply_over_add": 1.493,
+   "next_gain_add_pct": 8.33,
+   "next_gain_multiply_pct": 20.0
+  },
+  {
+   "count": 8,
+   "add": 2.6,
+   "multiply": 4.2998,
+   "multiply_over_add": 1.6538,
+   "next_gain_add_pct": 7.69,
+   "next_gain_multiply_pct": 20.0
+  }
+ ],
+ "split_six": [
+  {
+   "split": "6",
+   "kinds_used": 1,
+   "power": 2.2
+  },
+  {
+   "split": "3・3",
+   "kinds_used": 2,
+   "power": 2.56
+  },
+  {
+   "split": "4・2",
+   "kinds_used": 2,
+   "power": 2.52
+  },
+  {
+   "split": "5・1",
+   "kinds_used": 2,
+   "power": 2.4
+  },
+  {
+   "split": "2・2・2",
+   "kinds_used": 3,
+   "power": 2.744
+  },
+  {
+   "split": "4・1・1",
+   "kinds_used": 3,
+   "power": 2.592
+  },
+  {
+   "split": "1・1・1・1・1・1",
+   "kinds_used": 6,
+   "power": 2.986
+  }
+ ],
+ "seventh_buff": {
+  "into_kind_with_3_pct": 12.5,
+  "into_empty_kind_pct": 20.0
+ },
+ "players": [
+  {
+   "rule": "足す",
+   "p10": 1.0,
+   "median": 1.89,
+   "p90": 2.76,
+   "max": 3.63,
+   "p90_over_median": 1.4603,
+   "p90_over_p10": 2.76,
+   "max_over_median": 1.9206,
+   "mean_full_count": 2.8024,
+   "mean_one": 1.2221
+  },
+  {
+   "rule": "種類ごとに足して掛ける",
+   "p10": 1.0,
+   "median": 2.0866,
+   "p90": 3.741,
+   "max": 6.1915,
+   "p90_over_median": 1.7928,
+   "p90_over_p10": 3.741,
+   "max_over_median": 2.9672,
+   "mean_full_count": 3.8903,
+   "mean_one": 1.2221
+  },
+  {
+   "rule": "掛ける",
+   "p10": 1.0,
+   "median": 2.2053,
+   "p90": 4.7413,
+   "max": 9.6821,
+   "p90_over_median": 2.1499,
+   "p90_over_p10": 4.7413,
+   "max_over_median": 4.3904,
+   "mean_full_count": 5.0767,
+   "mean_one": 1.2221
+  }
+ ],
+ "players_extra": {
+  "full_count_share_pct": 11.43,
+  "multiply_over_add_full_mean": 1.7881,
+  "multiply_over_add_full_max": 2.6673,
+  "top100_overlap_count": 96
+ },
+ "grid": {
+  "n": 9,
+  "multiply_wider_count": 9,
+  "add_p90_over_median_range": [
+   1.2177,
+   1.6144
+  ],
+  "mix_p90_over_median_range": [
+   1.2558,
+   2.6118
+  ],
+  "multiply_p90_over_median_range": [
+   1.2841,
+   4.7715
+  ],
+  "multiply_max_range": [
+   1.9881,
+   98.6019
+  ],
+  "add_max_range": [
+   1.75,
+   6.64
+  ]
+ }
+}

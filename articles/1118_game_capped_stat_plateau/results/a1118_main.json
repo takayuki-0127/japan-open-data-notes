@@ -1,0 +1,141 @@
+{
+ "base_rate": 10.0,
+ "crit_multiplier": 2.0,
+ "base_damage": 100.0,
+ "cap": 100.0,
+ "per_point": 1.0,
+ "buff": {
+  "values": [
+   0.0,
+   30.0,
+   60.0
+  ],
+  "probs": [
+   0.5,
+   0.3,
+   0.2
+  ],
+  "mean": 21.0
+ },
+ "p_gain_starts_falling": 30,
+ "p_gain_half_or_less": 60,
+ "p_gain_zero": 90,
+ "p_shown_reaches_cap": 90,
+ "p_naive_stop_mean_buff": 69,
+ "shown_rate_when_gain_starts_falling": 40.0,
+ "effective_rate_p0": 31.0,
+ "added_effective_at_shown_cap": 69.0,
+ "share_of_points_effective_at_shown_cap": 76.7,
+ "gain_per_point_by_segment": {
+  "0-30": 1.0,
+  "30-60": 0.8,
+  "60-90": 0.5,
+  "90-120": 0.0
+ },
+ "key_points": {
+  "0": {
+   "shown_rate": 10.0,
+   "effective_rate": 31.0,
+   "naive_rate_mean_buff": 31.0,
+   "mean_damage": 131.0,
+   "share_over_cap": 0.0,
+   "gain_next_point": 1.0
+  },
+  "20": {
+   "shown_rate": 30.0,
+   "effective_rate": 51.0,
+   "naive_rate_mean_buff": 51.0,
+   "mean_damage": 151.0,
+   "share_over_cap": 0.0,
+   "gain_next_point": 1.0
+  },
+  "30": {
+   "shown_rate": 40.0,
+   "effective_rate": 61.0,
+   "naive_rate_mean_buff": 61.0,
+   "mean_damage": 161.0,
+   "share_over_cap": 0.0,
+   "gain_next_point": 0.8
+  },
+  "45": {
+   "shown_rate": 55.0,
+   "effective_rate": 73.0,
+   "naive_rate_mean_buff": 76.0,
+   "mean_damage": 173.0,
+   "share_over_cap": 20.0,
+   "gain_next_point": 0.8
+  },
+  "60": {
+   "shown_rate": 70.0,
+   "effective_rate": 85.0,
+   "naive_rate_mean_buff": 91.0,
+   "mean_damage": 185.0,
+   "share_over_cap": 20.0,
+   "gain_next_point": 0.5
+  },
+  "69": {
+   "shown_rate": 79.0,
+   "effective_rate": 89.5,
+   "naive_rate_mean_buff": 100.0,
+   "mean_damage": 189.5,
+   "share_over_cap": 50.0,
+   "gain_next_point": 0.5
+  },
+  "75": {
+   "shown_rate": 85.0,
+   "effective_rate": 92.5,
+   "naive_rate_mean_buff": 100.0,
+   "mean_damage": 192.5,
+   "share_over_cap": 50.0,
+   "gain_next_point": 0.5
+  },
+  "90": {
+   "shown_rate": 100.0,
+   "effective_rate": 100.0,
+   "naive_rate_mean_buff": 100.0,
+   "mean_damage": 200.0,
+   "share_over_cap": 50.0,
+   "gain_next_point": 0.0
+  },
+  "100": {
+   "shown_rate": 110.0,
+   "effective_rate": 100.0,
+   "naive_rate_mean_buff": 100.0,
+   "mean_damage": 200.0,
+   "share_over_cap": 100.0,
+   "gain_next_point": 0.0
+  },
+  "120": {
+   "shown_rate": 130.0,
+   "effective_rate": 100.0,
+   "naive_rate_mean_buff": 100.0,
+   "mean_damage": 200.0,
+   "share_over_cap": 100.0,
+   "gain_next_point": null
+  }
+ },
+ "sim_hits_per_level": 20000,
+ "sim_max_abs_diff_damage": 0.805,
+ "grid_count": 16,
+ "grid_start_over_shown_cap_range_varied_buff": [
+  0.0,
+  0.533
+ ],
+ "grid_half_over_shown_cap_range_varied_buff": [
+  0.4,
+  1.0
+ ],
+ "grid_start_points_range_varied_buff": [
+  0,
+  48
+ ],
+ "grid_gain_at_naive_stop_range_varied_buff": [
+  0.5,
+  0.65
+ ],
+ "grid_const_buff_start_equals_naive": true,
+ "grid_const_buff_start_over_shown_cap_range": [
+  0.58,
+  0.767
+ ]
+}

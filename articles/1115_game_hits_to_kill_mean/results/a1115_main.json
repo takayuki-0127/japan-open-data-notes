@@ -1,0 +1,96 @@
+{
+ "setting": {
+  "mean_damage": 1100.0,
+  "hp": 10000.0,
+  "spread": [
+   0.9,
+   1.1
+  ],
+  "fights": 200000,
+  "base_attack": 1000.0,
+  "base_crit": 0.2,
+  "base_mult": 1.5
+ },
+ "base": {
+  "hp": 10000.0,
+  "estimate_hp_over_mean": 9.0909,
+  "estimate_ceil": 10,
+  "mean_hits": 9.607,
+  "median_hits": 10.0,
+  "p10_hits": 9.0,
+  "p90_hits": 10.0,
+  "min_hits": 7,
+  "max_hits": 11,
+  "gap_mean_minus_estimate": 0.5161,
+  "gap_ratio_pct": 5.68,
+  "within_floor_estimate_pct": 41.27,
+  "within_ceil_estimate_pct": 94.57,
+  "more_than_ceil_pct": 5.43,
+  "mean_overkill": 570.06,
+  "mean_overkill_in_hits": 0.5182,
+  "check_mean_hits_times_mean": 10567.7,
+  "check_hp_plus_overkill": 10570.1
+ },
+ "base_dist": [
+  {
+   "hits": 7,
+   "fights": 40,
+   "share_pct": 0.02
+  },
+  {
+   "hits": 8,
+   "fights": 6829,
+   "share_pct": 3.41
+  },
+  {
+   "hits": 9,
+   "fights": 75675,
+   "share_pct": 37.84
+  },
+  {
+   "hits": 10,
+   "fights": 106604,
+   "share_pct": 53.3
+  },
+  {
+   "hits": 11,
+   "fights": 10852,
+   "share_pct": 5.43
+  }
+ ],
+ "series10": {
+  "enemies": 10,
+  "runs": 20000,
+  "total_hp": 100000.0,
+  "estimate_total_hp_over_mean": 90.9091,
+  "estimate_total_ceil": 91,
+  "mean_total_hits": 96.0784,
+  "gap": 5.1693,
+  "estimate_ceil_each_times10": 100,
+  "within_estimate_ceil_total_pct": 1.16,
+  "within_ceil_each_times10_pct": 98.76,
+  "p10": 93.0,
+  "p90": 99.0
+ },
+ "grid": {
+  "n": 20,
+  "fights_each": 50000,
+  "gap_range": [
+   0.1861,
+   0.8862
+  ],
+  "gap_ratio_pct_range": [
+   1.11,
+   48.74
+  ],
+  "mean_above_estimate_count": 20,
+  "overkill_in_hits_range": [
+   0.1856,
+   0.8912
+  ],
+  "within_floor_range": [
+   0.0,
+   47.38
+  ]
+ }
+}

@@ -1,0 +1,246 @@
+{
+ "setting": {
+  "attack": 1000.0,
+  "crit_rate": 0.2,
+  "crit_mult": 1.5,
+  "spread": [
+   0.9,
+   1.1
+  ],
+  "hits": 1000000,
+  "trial_reps": 10000
+ },
+ "builds": [
+  {
+   "build": "もと",
+   "attack": 1000.0,
+   "crit_rate_pct": 20.0,
+   "mean_formula": 1100.0,
+   "mean_sim": 1100.04,
+   "median_sim": 1025.07,
+   "p10_sim": 925.02,
+   "p90_sim": 1500.11,
+   "crit_share_sim_pct": 19.99,
+   "max_sim": 1650.0,
+   "mean_gain_formula_pct": 0.0,
+   "mean_gain_sim_pct": 0.0,
+   "median_gain_sim_pct": 0.0
+  },
+  {
+   "build": "攻撃力+10%",
+   "attack": 1100.0,
+   "crit_rate_pct": 20.0,
+   "mean_formula": 1210.0,
+   "mean_sim": 1210.04,
+   "median_sim": 1127.67,
+   "p10_sim": 1017.4,
+   "p90_sim": 1649.91,
+   "crit_share_sim_pct": 20.0,
+   "max_sim": 1815.0,
+   "mean_gain_formula_pct": 10.0,
+   "mean_gain_sim_pct": 10.0,
+   "median_gain_sim_pct": 10.01
+  },
+  {
+   "build": "会心率+10ポイント",
+   "attack": 1000.0,
+   "crit_rate_pct": 30.0,
+   "mean_formula": 1150.0,
+   "mean_sim": 1150.2,
+   "median_sim": 1042.85,
+   "p10_sim": 928.49,
+   "p90_sim": 1550.03,
+   "crit_share_sim_pct": 30.05,
+   "max_sim": 1650.0,
+   "mean_gain_formula_pct": 4.55,
+   "mean_gain_sim_pct": 4.56,
+   "median_gain_sim_pct": 1.73
+  }
+ ],
+ "median_formula": {
+  "もと": 1025.0,
+  "攻撃力+10%": 1127.5,
+  "会心率+10ポイント": 1042.86
+ },
+ "trial_pick": [
+  {
+   "crit_mult": 1.5,
+   "crit_gain_formula_pct": 4.55,
+   "better_by_formula": "攻撃力+10%",
+   "trial_hits": 10,
+   "picked_better_pct": 71.86,
+   "atk_total_mean": 1210.45,
+   "crit_total_mean": 1149.55
+  },
+  {
+   "crit_mult": 1.5,
+   "crit_gain_formula_pct": 4.55,
+   "better_by_formula": "攻撃力+10%",
+   "trial_hits": 30,
+   "picked_better_pct": 84.05,
+   "atk_total_mean": 1210.74,
+   "crit_total_mean": 1150.21
+  },
+  {
+   "crit_mult": 1.5,
+   "crit_gain_formula_pct": 4.55,
+   "better_by_formula": "攻撃力+10%",
+   "trial_hits": 100,
+   "picked_better_pct": 96.62,
+   "atk_total_mean": 1210.31,
+   "crit_total_mean": 1149.64
+  },
+  {
+   "crit_mult": 1.5,
+   "crit_gain_formula_pct": 4.55,
+   "better_by_formula": "攻撃力+10%",
+   "trial_hits": 300,
+   "picked_better_pct": 99.91,
+   "atk_total_mean": 1209.85,
+   "crit_total_mean": 1150.04
+  },
+  {
+   "crit_mult": 1.5,
+   "crit_gain_formula_pct": 4.55,
+   "better_by_formula": "攻撃力+10%",
+   "trial_hits": 1000,
+   "picked_better_pct": 100.0,
+   "atk_total_mean": 1210.1,
+   "crit_total_mean": 1150.01
+  },
+  {
+   "crit_mult": 2.0,
+   "crit_gain_formula_pct": 8.33,
+   "better_by_formula": "攻撃力+10%",
+   "trial_hits": 10,
+   "picked_better_pct": 54.38,
+   "atk_total_mean": 1321.91,
+   "crit_total_mean": 1298.53
+  },
+  {
+   "crit_mult": 2.0,
+   "crit_gain_formula_pct": 8.33,
+   "better_by_formula": "攻撃力+10%",
+   "trial_hits": 30,
+   "picked_better_pct": 55.88,
+   "atk_total_mean": 1319.63,
+   "crit_total_mean": 1300.1
+  },
+  {
+   "crit_mult": 2.0,
+   "crit_gain_formula_pct": 8.33,
+   "better_by_formula": "攻撃力+10%",
+   "trial_hits": 100,
+   "picked_better_pct": 62.67,
+   "atk_total_mean": 1320.36,
+   "crit_total_mean": 1299.06
+  },
+  {
+   "crit_mult": 2.0,
+   "crit_gain_formula_pct": 8.33,
+   "better_by_formula": "攻撃力+10%",
+   "trial_hits": 300,
+   "picked_better_pct": 70.38,
+   "atk_total_mean": 1319.94,
+   "crit_total_mean": 1299.64
+  },
+  {
+   "crit_mult": 2.0,
+   "crit_gain_formula_pct": 8.33,
+   "better_by_formula": "攻撃力+10%",
+   "trial_hits": 1000,
+   "picked_better_pct": 83.4,
+   "atk_total_mean": 1319.91,
+   "crit_total_mean": 1300.06
+  },
+  {
+   "crit_mult": 2.5,
+   "crit_gain_formula_pct": 11.54,
+   "better_by_formula": "会心率+10ポイント",
+   "trial_hits": 10,
+   "picked_better_pct": 54.21,
+   "atk_total_mean": 1430.77,
+   "crit_total_mean": 1453.46
+  },
+  {
+   "crit_mult": 2.5,
+   "crit_gain_formula_pct": 11.54,
+   "better_by_formula": "会心率+10ポイント",
+   "trial_hits": 30,
+   "picked_better_pct": 55.63,
+   "atk_total_mean": 1427.87,
+   "crit_total_mean": 1451.97
+  },
+  {
+   "crit_mult": 2.5,
+   "crit_gain_formula_pct": 11.54,
+   "better_by_formula": "会心率+10ポイント",
+   "trial_hits": 100,
+   "picked_better_pct": 58.25,
+   "atk_total_mean": 1429.72,
+   "crit_total_mean": 1449.19
+  },
+  {
+   "crit_mult": 2.5,
+   "crit_gain_formula_pct": 11.54,
+   "better_by_formula": "会心率+10ポイント",
+   "trial_hits": 300,
+   "picked_better_pct": 64.51,
+   "atk_total_mean": 1430.05,
+   "crit_total_mean": 1450.44
+  },
+  {
+   "crit_mult": 2.5,
+   "crit_gain_formula_pct": 11.54,
+   "better_by_formula": "会心率+10ポイント",
+   "trial_hits": 1000,
+   "picked_better_pct": 75.1,
+   "atk_total_mean": 1429.57,
+   "crit_total_mean": 1449.95
+  }
+ ],
+ "grid": {
+  "n": 40,
+  "crit_wins": 9,
+  "attack_wins": 29,
+  "tie": 2,
+  "crit_gain_range_pct": [
+   3.45,
+   20.0
+  ],
+  "tie_mult_by_base_crit": {
+   "0.0": 2.0,
+   "10.0": 2.1111,
+   "20.0": 2.25,
+   "30.0": 2.4286,
+   "40.0": 2.6667,
+   "50.0": 3.0,
+   "60.0": 3.5,
+   "70.0": 4.3333,
+   "80.0": 6.0,
+   "90.0": 11.0
+  },
+  "by_mult": {
+   "1.5": {
+    "crit_wins": 0,
+    "attack_wins": 10,
+    "tie": 0
+   },
+   "2.0": {
+    "crit_wins": 0,
+    "attack_wins": 9,
+    "tie": 1
+   },
+   "2.5": {
+    "crit_wins": 4,
+    "attack_wins": 6,
+    "tie": 0
+   },
+   "3.0": {
+    "crit_wins": 5,
+    "attack_wins": 4,
+    "tie": 1
+   }
+  }
+ }
+}

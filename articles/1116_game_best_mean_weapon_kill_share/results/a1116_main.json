@@ -1,0 +1,253 @@
+{
+ "hp": 900,
+ "hits": 5,
+ "sim_battles": 100000,
+ "mean_rank": [
+  "C",
+  "B",
+  "D",
+  "A"
+ ],
+ "weapons": {
+  "A": {
+   "name": "A 安定",
+   "desc": "毎回190〜210（1きざみで同じ確率）",
+   "mean": 200.0,
+   "sd": 6.06,
+   "mean_x5": 1000.0,
+   "kill_share_exact": 100.0,
+   "kill_share_sim": 100.0,
+   "hits_to_kill_mean": 5.0,
+   "hits_to_kill_median": 5,
+   "hits_to_kill_le5_sim": 100.0
+  },
+  "B": {
+   "name": "B 会心",
+   "desc": "170、25%で会心して2倍の340",
+   "mean": 212.5,
+   "sd": 73.61,
+   "mean_x5": 1062.5,
+   "kill_share_exact": 76.27,
+   "kill_share_sim": 76.07,
+   "hits_to_kill_mean": 4.959,
+   "hits_to_kill_median": 5,
+   "hits_to_kill_le5_sim": 76.41
+  },
+  "C": {
+   "name": "C 大振り",
+   "desc": "60%で当たって360、外れると0",
+   "mean": 216.0,
+   "sd": 176.36,
+   "mean_x5": 1080.0,
+   "kill_share_exact": 68.26,
+   "kill_share_sim": 68.35,
+   "hits_to_kill_mean": 4.998,
+   "hits_to_kill_median": 5,
+   "hits_to_kill_le5_sim": 68.23
+  },
+  "D": {
+   "name": "D 一撃",
+   "desc": "150、10%で会心して5倍の750",
+   "mean": 210.0,
+   "sd": 180.0,
+   "mean_x5": 1050.0,
+   "kill_share_exact": 40.95,
+   "kill_share_sim": 40.88,
+   "hits_to_kill_mean": 4.792,
+   "hits_to_kill_median": 6,
+   "hits_to_kill_le5_sim": 40.8
+  }
+ },
+ "kill_rank": [
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "pick_hp_5hits": {
+  "700": {
+   "A": 100.0,
+   "B": 100.0,
+   "C": 91.3,
+   "D": 100.0,
+   "top": "A・B・D"
+  },
+  "800": {
+   "A": 100.0,
+   "B": 100.0,
+   "C": 68.26,
+   "D": 40.95,
+   "top": "A・B"
+  },
+  "900": {
+   "A": 100.0,
+   "B": 76.27,
+   "C": 68.26,
+   "D": 40.95,
+   "top": "A"
+  },
+  "1000": {
+   "A": 51.43,
+   "B": 76.27,
+   "C": 68.26,
+   "D": 40.95,
+   "top": "B"
+  },
+  "1100": {
+   "A": 0.0,
+   "B": 36.72,
+   "C": 33.7,
+   "D": 40.95,
+   "top": "D"
+  },
+  "1200": {
+   "A": 0.0,
+   "B": 10.35,
+   "C": 33.7,
+   "D": 40.95,
+   "top": "D"
+  }
+ },
+ "hp_range_where_C_top_5hits": [
+  1025,
+  1425
+ ],
+ "hp_values_where_C_top_5hits": [
+  1025,
+  1050,
+  1075,
+  1375,
+  1400,
+  1425
+ ],
+ "hp_values_5hits": 41,
+ "hp_values_where_C_top_count": 6,
+ "hp_values_where_A_top_count": 20,
+ "hp_values_where_D_top_count": 25,
+ "hp_values_where_B_top_count": 16,
+ "grid_summary": [
+  {
+   "variant": "基本（Cは60%で360）",
+   "settings": 65,
+   "settings_not_all_same": 65,
+   "best_mean_top": 19,
+   "A_top": 26,
+   "top_counts": {
+    "A": 26,
+    "B": 24,
+    "C": 19,
+    "D": 16
+   },
+   "best_mean_top_need_le_mean": 4,
+   "settings_need_le_mean": 35,
+   "best_mean_top_need_gt_mean": 15,
+   "settings_need_gt_mean": 30,
+   "A_top_need_le_190": 25,
+   "settings_need_le_190": 25,
+   "C_or_D_top_need_ge_220": 25,
+   "settings_need_ge_220": 30
+  },
+  {
+   "variant": "Cは50%で432",
+   "settings": 65,
+   "settings_not_all_same": 65,
+   "best_mean_top": 28,
+   "A_top": 25,
+   "top_counts": {
+    "A": 25,
+    "B": 23,
+    "C": 28,
+    "D": 9
+   },
+   "best_mean_top_need_le_mean": 6,
+   "settings_need_le_mean": 35,
+   "best_mean_top_need_gt_mean": 22,
+   "settings_need_gt_mean": 30,
+   "A_top_need_le_190": 25,
+   "settings_need_le_190": 25,
+   "C_or_D_top_need_ge_220": 25,
+   "settings_need_ge_220": 30
+  },
+  {
+   "variant": "Cは70%で309",
+   "settings": 65,
+   "settings_not_all_same": 65,
+   "best_mean_top": 25,
+   "A_top": 26,
+   "top_counts": {
+    "A": 26,
+    "B": 21,
+    "C": 25,
+    "D": 13
+   },
+   "best_mean_top_need_le_mean": 4,
+   "settings_need_le_mean": 35,
+   "best_mean_top_need_gt_mean": 21,
+   "settings_need_gt_mean": 30,
+   "A_top_need_le_190": 25,
+   "settings_need_le_190": 25,
+   "C_or_D_top_need_ge_220": 29,
+   "settings_need_ge_220": 30
+  },
+  {
+   "variant": "基本＋敵の体力が±10%散らばる",
+   "settings": 65,
+   "settings_not_all_same": 65,
+   "best_mean_top": 28,
+   "A_top": 24,
+   "top_counts": {
+    "A": 24,
+    "B": 13,
+    "C": 28,
+    "D": 5
+   },
+   "best_mean_top_need_le_mean": 6,
+   "settings_need_le_mean": 35,
+   "best_mean_top_need_gt_mean": 22,
+   "settings_need_gt_mean": 30,
+   "A_top_need_le_190": 23,
+   "settings_need_le_190": 25,
+   "C_or_D_top_need_ge_220": 27,
+   "settings_need_ge_220": 30
+  }
+ ],
+ "hits12_by_need": {
+  "190": {
+   "A": 100.0,
+   "B": 84.16,
+   "C": 66.52,
+   "D": 71.76,
+   "hp": 2280
+  },
+  "200": {
+   "A": 50.94,
+   "B": 60.93,
+   "C": 66.52,
+   "D": 71.76,
+   "hp": 2400
+  },
+  "210": {
+   "A": 0.0,
+   "B": 60.93,
+   "C": 66.52,
+   "D": 34.1,
+   "hp": 2520
+  },
+  "220": {
+   "A": 0.0,
+   "B": 35.12,
+   "C": 43.82,
+   "D": 34.1,
+   "hp": 2640
+  }
+ },
+ "formula_check": {
+  "A_min_total_5hits": 950,
+  "C_hits_needed_hp900": 3,
+  "C_share_3of5_formula": 68.26,
+  "D_share_formula_1_minus_0.9pow5": 40.95,
+  "B_share_formula_1_minus_0.75pow5": 76.27
+ },
+ "max_abs_exact_minus_sim": 0.2,
+ "note": "kill_share_exact は1回のダメージの出方の組み合わせをすべて足し合わせた値（式どおり）、kill_share_sim は乱数の戦い100,000回"
+}
