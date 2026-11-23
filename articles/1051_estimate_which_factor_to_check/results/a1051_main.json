@@ -1,0 +1,200 @@
+{
+ "settings": {
+  "true": [
+   80000.0,
+   0.55,
+   1.6,
+   0.3,
+   0.08
+  ],
+  "true_total": 1689.6,
+  "sigma": [
+   0.1,
+   0.25,
+   0.2,
+   0.6,
+   0.8
+  ],
+  "people": 200000,
+  "count_n": 100
+ },
+ "strategies_base": [
+  {
+   "strategy": "確かめない",
+   "sd_log": 1.0556,
+   "median_miss_times": 2.0338,
+   "p90_miss_times": 5.6927,
+   "within2x_pct": 48.99,
+   "median_ratio": 1.0008,
+   "formula_sd_log": 1.0548,
+   "formula_median_miss_times": 2.037
+  },
+  {
+   "strategy": "①世帯数を確かめる",
+   "sd_log": 1.0502,
+   "median_miss_times": 2.0259,
+   "p90_miss_times": 5.6243,
+   "within2x_pct": 49.24,
+   "median_ratio": 1.0016,
+   "formula_sd_log": 1.05,
+   "formula_median_miss_times": 2.0304
+  },
+  {
+   "strategy": "②自転車のある世帯の割合を確かめる",
+   "sd_log": 1.0294,
+   "median_miss_times": 2.0006,
+   "p90_miss_times": 5.471,
+   "within2x_pct": 49.99,
+   "median_ratio": 0.9963,
+   "formula_sd_log": 1.0287,
+   "formula_median_miss_times": 2.0014
+  },
+  {
+   "strategy": "③自転車のある世帯の台数を確かめる",
+   "sd_log": 1.0372,
+   "median_miss_times": 2.0109,
+   "p90_miss_times": 5.5194,
+   "within2x_pct": 49.66,
+   "median_ratio": 1.0004,
+   "formula_sd_log": 1.0367,
+   "formula_median_miss_times": 2.0123
+  },
+  {
+   "strategy": "④1台が1年に修理の要る回数を確かめる",
+   "sd_log": 0.8889,
+   "median_miss_times": 1.8215,
+   "p90_miss_times": 4.3138,
+   "within2x_pct": 56.47,
+   "median_ratio": 0.9832,
+   "formula_sd_log": 0.8865,
+   "formula_median_miss_times": 1.8184
+  },
+  {
+   "strategy": "⑤修理のうち出張を頼む割合を確かめる",
+   "sd_log": 0.7862,
+   "median_miss_times": 1.6923,
+   "p90_miss_times": 3.6507,
+   "within2x_pct": 62.52,
+   "median_ratio": 0.9494,
+   "formula_sd_log": 0.7665,
+   "formula_median_miss_times": 1.677
+  }
+ ],
+ "best_factor_share_per_person_pct": {
+  "①世帯数": 9.39,
+  "②自転車のある世帯の割合": 12.98,
+  "③自転車のある世帯の台数": 11.16,
+  "④1台が1年に修理の要る回数": 28.03,
+  "⑤修理のうち出張を頼む割合": 38.44
+ },
+ "by_count_n": [
+  {
+   "n": 10,
+   "f4_sd_log": 1.0917,
+   "f4_median_miss": 2.0917,
+   "f4_formula_sd": 1.042,
+   "f5_sd_log": 0.8873,
+   "f5_median_miss": 1.8281,
+   "f5_formula_sd": 1.2738,
+   "f5_zero_found_pct": 43.44
+  },
+  {
+   "n": 15,
+   "f4_sd_log": 1.0352,
+   "f4_median_miss": 1.9918,
+   "f4_formula_sd": 0.9873,
+   "f5_sd_log": 0.9315,
+   "f5_median_miss": 1.9173,
+   "f5_formula_sd": 1.1132,
+   "f5_zero_found_pct": 28.63
+  },
+  {
+   "n": 20,
+   "f4_sd_log": 0.9927,
+   "f4_median_miss": 1.9421,
+   "f4_formula_sd": 0.9587,
+   "f5_sd_log": 0.9576,
+   "f5_median_miss": 1.9638,
+   "f5_formula_sd": 1.0235,
+   "f5_zero_found_pct": 18.87
+  },
+  {
+   "n": 30,
+   "f4_sd_log": 0.9462,
+   "f4_median_miss": 1.8921,
+   "f4_formula_sd": 0.9293,
+   "f5_sd_log": 0.9615,
+   "f5_median_miss": 1.9277,
+   "f5_formula_sd": 0.9251,
+   "f5_zero_found_pct": 8.2
+  },
+  {
+   "n": 50,
+   "f4_sd_log": 0.9095,
+   "f4_median_miss": 1.8473,
+   "f4_formula_sd": 0.9051,
+   "f5_sd_log": 0.8958,
+   "f5_median_miss": 1.7991,
+   "f5_formula_sd": 0.8382,
+   "f5_zero_found_pct": 1.55
+  },
+  {
+   "n": 100,
+   "f4_sd_log": 0.8867,
+   "f4_median_miss": 1.8197,
+   "f4_formula_sd": 0.8865,
+   "f5_sd_log": 0.7883,
+   "f5_median_miss": 1.6916,
+   "f5_formula_sd": 0.7665,
+   "f5_zero_found_pct": 0.02
+  },
+  {
+   "n": 200,
+   "f4_sd_log": 0.8771,
+   "f4_median_miss": 1.8068,
+   "f4_formula_sd": 0.877,
+   "f5_sd_log": 0.7324,
+   "f5_median_miss": 1.6367,
+   "f5_formula_sd": 0.728,
+   "f5_zero_found_pct": 0.0
+  },
+  {
+   "n": 300,
+   "f4_sd_log": 0.8739,
+   "f4_median_miss": 1.8074,
+   "f4_formula_sd": 0.8738,
+   "f5_sd_log": 0.7144,
+   "f5_median_miss": 1.6215,
+   "f5_formula_sd": 0.7147,
+   "f5_zero_found_pct": 0.0
+  }
+ ],
+ "sensitivity_summary": {
+  "n_settings": 36,
+  "best_by_sd_counts": {
+   "⑤修理のうち出張を頼む割合": 23,
+   "④1台が1年に修理の要る回数": 12,
+   "③自転車のある世帯の台数": 1
+  },
+  "best_by_median_counts": {
+   "⑤修理のうち出張を頼む割合": 21,
+   "④1台が1年に修理の要る回数": 14,
+   "①世帯数": 1
+  },
+  "n_disagree": 3,
+  "f5_best_by_sd_when_n_ge_100": 8,
+  "n_settings_n_ge_100": 12,
+  "f1_reduction_median_miss_pct_range": [
+   0.17,
+   5.88
+  ],
+  "best_median_miss_range": [
+   1.5108,
+   2.1191
+  ],
+  "none_median_miss_range": [
+   1.7686,
+   2.8651
+  ]
+ }
+}

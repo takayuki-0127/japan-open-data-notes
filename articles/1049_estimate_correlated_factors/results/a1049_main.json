@@ -1,0 +1,124 @@
+{
+ "base": {
+  "true": 2285,
+  "separate": 1950.735,
+  "weighted": 2285.0,
+  "by_type": 2096.7553,
+  "ratio_separate": 0.8537,
+  "ratio_weighted": 1.0,
+  "ratio_by_type": 0.9176,
+  "ratio_formula": 0.8537,
+  "corr_units_share": 0.1381,
+  "corr_units_p": 0.4658,
+  "mean_units": 2.1342,
+  "mean_share_household": 0.0762,
+  "share_unit_weighted": 0.0892,
+  "mean_units_by_type": {
+   "集合住宅": 1.585,
+   "戸建て": 2.788
+  },
+  "share_by_type": {
+   "集合住宅": 0.0633,
+   "戸建て": 0.1068
+  }
+ },
+ "reps100_min_mean_max": {
+  "ratio_separate": [
+   0.8289,
+   0.8581,
+   0.8791
+  ],
+  "ratio_weighted": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "ratio_by_type": [
+   0.9035,
+   0.9206,
+   0.9376
+  ]
+ },
+ "grid45": {
+  "separate_range": [
+   0.6846,
+   1.174
+  ],
+  "by_type_range": [
+   0.8398,
+   1.174
+  ],
+  "weighted_range": [
+   1.0,
+   1.0
+  ],
+  "formula_max_absdiff": 0.0,
+  "rho0_separate_range": [
+   0.7861,
+   1.0205
+  ],
+  "by_type_smaller_count": 28,
+  "by_type_shrink_median_pct": 28.8,
+  "n": 45
+ },
+ "width": [
+  {
+   "error_corr": -0.3,
+   "independent_90_times": 2.711,
+   "coverage_pct": 99.08,
+   "coverage_formula_pct": 99.07,
+   "needed_90_times": 1.878,
+   "needed_formula_times": 1.879
+  },
+  {
+   "error_corr": 0.0,
+   "independent_90_times": 2.711,
+   "coverage_pct": 89.89,
+   "coverage_formula_pct": 90.0,
+   "needed_90_times": 2.718,
+   "needed_formula_times": 2.711
+  },
+  {
+   "error_corr": 0.3,
+   "independent_90_times": 2.711,
+   "coverage_pct": 80.73,
+   "coverage_formula_pct": 80.65,
+   "needed_90_times": 3.522,
+   "needed_formula_times": 3.53
+  },
+  {
+   "error_corr": 0.5,
+   "independent_90_times": 2.711,
+   "coverage_pct": 75.5,
+   "coverage_formula_pct": 75.52,
+   "needed_90_times": 4.105,
+   "needed_formula_times": 4.097
+  },
+  {
+   "error_corr": 0.8,
+   "independent_90_times": 2.711,
+   "coverage_pct": 69.27,
+   "coverage_formula_pct": 69.23,
+   "needed_90_times": 4.989,
+   "needed_formula_times": 4.992
+  }
+ ],
+ "settings": {
+  "households": 12000,
+  "share_house": 0.45,
+  "rho": 0.4,
+  "gap": 1.0,
+  "sig_p": 0.6,
+  "units_mu": {
+   "house": 2.8,
+   "apt": 1.6
+  },
+  "p_mu": {
+   "house": 0.1,
+   "apt": 0.06
+  },
+  "sig_units": 0.35,
+  "sig_factor_error": 0.35,
+  "factor_error_times_1sd": 1.419
+ }
+}

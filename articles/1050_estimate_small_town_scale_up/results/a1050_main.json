@@ -1,0 +1,118 @@
+{
+ "settings": {
+  "beta": 1.15,
+  "sigma": 0.3,
+  "reps": 4000,
+  "n_small": 30,
+  "n_mid": 10,
+  "n_big": 20,
+  "base_per_10k_at_10k": 200
+ },
+ "methods_base": [
+  {
+   "method": "①小さな町1つの1人あたり",
+   "median_ratio": 0.5751,
+   "p10_ratio": 0.3195,
+   "p90_ratio": 1.0144,
+   "median_abs_miss_times": 1.7515,
+   "share_low_pct": 89.4
+  },
+  {
+   "method": "②小さな町30の合計の1人あたり",
+   "median_ratio": 0.6203,
+   "p10_ratio": 0.4173,
+   "p90_ratio": 0.9277,
+   "median_abs_miss_times": 1.6135,
+   "share_low_pct": 93.59
+  },
+  {
+   "method": "③中くらいの町1つの1人あたり",
+   "median_ratio": 0.7731,
+   "p10_ratio": 0.4454,
+   "p90_ratio": 1.3453,
+   "median_abs_miss_times": 1.4127,
+   "share_low_pct": 72.42
+  },
+  {
+   "method": "④小さな町30で規模の傾きを引いて延ばす",
+   "median_ratio": 1.0095,
+   "p10_ratio": 0.4859,
+   "p90_ratio": 2.096,
+   "median_abs_miss_times": 1.4615,
+   "share_low_pct": 49.34
+  },
+  {
+   "method": "⑤小さな町と中くらいの町40で傾きを引いて延ばす",
+   "median_ratio": 1.0047,
+   "p10_ratio": 0.6442,
+   "p90_ratio": 1.57,
+   "median_abs_miss_times": 1.2643,
+   "share_low_pct": 49.48
+  }
+ ],
+ "formula2_median_ratio": 0.6243,
+ "formula_per_person_ratio_10k_vs_100k": 0.7079,
+ "slope": {
+  "beta_set": 1.15,
+  "small_slope_median": 1.1527,
+  "small_slope_p10": 0.9872,
+  "small_slope_p90": 1.3231,
+  "small_mid_slope_median": 1.1531,
+  "small_mid_slope_p10": 1.0864,
+  "small_mid_slope_p90": 1.2228
+ },
+ "example": {
+  "A_pop": 3486,
+  "A_count": 79,
+  "B_pop": 285990,
+  "B_count": 8182,
+  "B_est_from_A": 6481.1,
+  "B_est_from_A_ratio": 0.7921,
+  "B_est_from_30": 5352.5,
+  "B_est_from_30_ratio": 0.6542,
+  "small30_per_10k": 187.157,
+  "big20_per_10k": 300.641
+ },
+ "sensitivity_summary": {
+  "m2_median_range_all36": [
+   0.2618,
+   2.2341
+  ],
+  "m2_median_range_by_beta": {
+   "0.85": [
+    1.4176,
+    2.2341
+   ],
+   "1.0": [
+    1.0072,
+    1.1339
+   ],
+   "1.15": [
+    0.5172,
+    0.7955
+   ],
+   "1.3": [
+    0.2618,
+    0.5831
+   ]
+  },
+  "m4_median_range_all36": [
+   0.9838,
+   1.1366
+  ],
+  "m4_p10_min_all36": 0.2447,
+  "m4_p90_max_all36": 4.6847,
+  "max_abs_formula2_minus_sim_m2": 0.0365,
+  "best_absmiss_method_counts": {
+   "①小さな町1つの1人あたり": 0,
+   "②小さな町30の合計の1人あたり": 9,
+   "③中くらいの町1つの1人あたり": 0,
+   "④小さな町30で規模の傾きを引いて延ばす": 0,
+   "⑤小さな町と中くらいの町40で傾きを引いて延ばす": 27
+  },
+  "m2_better_than_m4_absmiss_beta1": 9,
+  "m5_better_than_m2_absmiss_beta_ne1": 27,
+  "n_beta_ne1": 27,
+  "n_beta1": 9
+ }
+}

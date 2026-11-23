@@ -1,0 +1,430 @@
+{
+ "settings": {
+  "true_range": [
+   10.0,
+   1000000.0
+  ],
+  "questions": 400000,
+  "people": [
+   "よく知っている人（σ0.3）",
+   "要素に分けて概算する人（σ0.6）",
+   "ざっくり言う人（σ1.0）",
+   "あまり知らない人（σ1.5）",
+   "低めに言う癖のある人（σ0.6・0.85倍）"
+  ]
+ },
+ "hit_rates": [
+  {
+   "person": "よく知っている人（σ0.3）",
+   "sigma": 0.3,
+   "bias": 1.0,
+   "within_1.25x_pct": 54.26,
+   "within_1.25x_formula_pct": 54.3,
+   "within_1.5x_pct": 82.25,
+   "within_1.5x_formula_pct": 82.35,
+   "within_2x_pct": 97.91,
+   "within_2x_formula_pct": 97.91,
+   "within_3x_pct": 99.97,
+   "within_3x_formula_pct": 99.97,
+   "within_5x_pct": 100.0,
+   "within_5x_formula_pct": 100.0,
+   "within_10x_pct": 100.0,
+   "within_10x_formula_pct": 100.0,
+   "within_pm25pct_pct": 60.13,
+   "within_pm50pct_pct": 90.11,
+   "within_pm100pct_pct": 98.96,
+   "median_miss_times": 1.2245
+  },
+  {
+   "person": "要素に分けて概算する人（σ0.6）",
+   "sigma": 0.6,
+   "bias": 1.0,
+   "within_1.25x_pct": 29.07,
+   "within_1.25x_formula_pct": 29.0,
+   "within_1.5x_pct": 50.11,
+   "within_1.5x_formula_pct": 50.08,
+   "within_2x_pct": 75.25,
+   "within_2x_formula_pct": 75.2,
+   "within_3x_pct": 93.28,
+   "within_3x_formula_pct": 93.29,
+   "within_5x_pct": 99.27,
+   "within_5x_formula_pct": 99.27,
+   "within_10x_pct": 99.99,
+   "within_10x_formula_pct": 99.99,
+   "within_pm25pct_pct": 32.99,
+   "within_pm50pct_pct": 62.61,
+   "within_pm100pct_pct": 87.68,
+   "median_miss_times": 1.4982
+  },
+  {
+   "person": "ざっくり言う人（σ1.0）",
+   "sigma": 1.0,
+   "bias": 1.0,
+   "within_1.25x_pct": 17.75,
+   "within_1.25x_formula_pct": 17.66,
+   "within_1.5x_pct": 31.61,
+   "within_1.5x_formula_pct": 31.49,
+   "within_2x_pct": 51.31,
+   "within_2x_formula_pct": 51.18,
+   "within_3x_pct": 72.94,
+   "within_3x_formula_pct": 72.81,
+   "within_5x_pct": 89.34,
+   "within_5x_formula_pct": 89.25,
+   "within_10x_pct": 97.9,
+   "within_10x_formula_pct": 97.87,
+   "within_pm25pct_pct": 20.19,
+   "within_pm50pct_pct": 41.47,
+   "within_pm100pct_pct": 75.67,
+   "median_miss_times": 1.9581
+  },
+  {
+   "person": "あまり知らない人（σ1.5）",
+   "sigma": 1.5,
+   "bias": 1.0,
+   "within_1.25x_pct": 11.8,
+   "within_1.25x_formula_pct": 11.83,
+   "within_1.5x_pct": 21.29,
+   "within_1.5x_formula_pct": 21.31,
+   "within_2x_pct": 35.48,
+   "within_2x_formula_pct": 35.6,
+   "within_3x_pct": 53.55,
+   "within_3x_formula_pct": 53.61,
+   "within_5x_pct": 71.65,
+   "within_5x_formula_pct": 71.67,
+   "within_10x_pct": 87.45,
+   "within_10x_formula_pct": 87.52,
+   "within_pm25pct_pct": 13.47,
+   "within_pm50pct_pct": 28.37,
+   "within_pm100pct_pct": 67.75,
+   "median_miss_times": 2.7532
+  },
+  {
+   "person": "低めに言う癖のある人（σ0.6・0.85倍）",
+   "sigma": 0.6,
+   "bias": 0.85,
+   "within_1.25x_pct": 27.94,
+   "within_1.25x_formula_pct": 28.01,
+   "within_1.5x_pct": 48.48,
+   "within_1.5x_formula_pct": 48.53,
+   "within_2x_pct": 73.4,
+   "within_2x_formula_pct": 73.48,
+   "within_3x_pct": 92.23,
+   "within_3x_formula_pct": 92.29,
+   "within_5x_pct": 99.04,
+   "within_5x_formula_pct": 99.05,
+   "within_10x_pct": 99.98,
+   "within_10x_formula_pct": 99.98,
+   "within_pm25pct_pct": 32.16,
+   "within_pm50pct_pct": 63.91,
+   "within_pm100pct_pct": 92.31,
+   "median_miss_times": 1.5224
+  },
+  {
+   "person": "どの問いにも範囲の真ん中を言う",
+   "sigma": NaN,
+   "bias": NaN,
+   "within_1.25x_pct": 3.88,
+   "within_1.25x_formula_pct": 3.88,
+   "within_1.5x_pct": 7.03,
+   "within_1.5x_formula_pct": 7.04,
+   "within_2x_pct": 12.04,
+   "within_2x_formula_pct": 12.04,
+   "within_3x_pct": 19.02,
+   "within_3x_formula_pct": 19.08,
+   "within_5x_pct": 27.88,
+   "within_5x_formula_pct": 27.96,
+   "within_10x_pct": 39.97,
+   "within_10x_formula_pct": 40.0,
+   "within_pm25pct_pct": 4.43,
+   "within_pm50pct_pct": 9.49,
+   "within_pm100pct_pct": 56.05,
+   "median_miss_times": 17.8005
+  }
+ ],
+ "max_abs_sim_minus_formula_pt": 0.13,
+ "discrimination": [
+  {
+   "n_questions": 5,
+   "sigma_a": 0.3,
+   "sigma_b": 0.6,
+   "hits_1.25x": 78.84,
+   "hits_1.5x": 86.14,
+   "hits_2x": 84.75,
+   "hits_3x": 64.47,
+   "hits_5x": 52.02,
+   "hits_10x": 50.04,
+   "mean_abs_log": 91.47,
+   "best_k": 1.5
+  },
+  {
+   "n_questions": 5,
+   "sigma_a": 0.6,
+   "sigma_b": 1.0,
+   "hits_1.25x": 65.69,
+   "hits_1.5x": 72.08,
+   "hits_2x": 78.16,
+   "hits_3x": 79.44,
+   "hits_5x": 69.62,
+   "hits_10x": 55.04,
+   "mean_abs_log": 84.04,
+   "best_k": 3.0
+  },
+  {
+   "n_questions": 5,
+   "sigma_a": 1.0,
+   "sigma_b": 1.5,
+   "hits_1.25x": 59.38,
+   "hits_1.5x": 63.73,
+   "hits_2x": 68.79,
+   "hits_3x": 72.73,
+   "hits_5x": 74.59,
+   "hits_10x": 69.39,
+   "mean_abs_log": 79.12,
+   "best_k": 5.0
+  },
+  {
+   "n_questions": 10,
+   "sigma_a": 0.3,
+   "sigma_b": 0.6,
+   "hits_1.25x": 87.48,
+   "hits_1.5x": 94.21,
+   "hits_2x": 94.27,
+   "hits_3x": 74.95,
+   "hits_5x": 53.55,
+   "hits_10x": 50.06,
+   "mean_abs_log": 97.58,
+   "best_k": 2.0
+  },
+  {
+   "n_questions": 10,
+   "sigma_a": 0.6,
+   "sigma_b": 1.0,
+   "hits_1.25x": 71.84,
+   "hits_1.5x": 79.69,
+   "hits_2x": 86.96,
+   "hits_3x": 89.22,
+   "hits_5x": 81.41,
+   "hits_10x": 59.44,
+   "mean_abs_log": 92.78,
+   "best_k": 3.0
+  },
+  {
+   "n_questions": 10,
+   "sigma_a": 1.0,
+   "sigma_b": 1.5,
+   "hits_1.25x": 63.6,
+   "hits_1.5x": 69.33,
+   "hits_2x": 75.82,
+   "hits_3x": 81.58,
+   "hits_5x": 84.03,
+   "hits_10x": 80.16,
+   "mean_abs_log": 88.05,
+   "best_k": 5.0
+  },
+  {
+   "n_questions": 20,
+   "sigma_a": 0.3,
+   "sigma_b": 0.6,
+   "hits_1.25x": 95.05,
+   "hits_1.5x": 98.65,
+   "hits_2x": 99.1,
+   "hits_3x": 87.38,
+   "hits_5x": 56.91,
+   "hits_10x": 50.12,
+   "mean_abs_log": 99.69,
+   "best_k": 2.0
+  },
+  {
+   "n_questions": 20,
+   "sigma_a": 0.6,
+   "sigma_b": 1.0,
+   "hits_1.25x": 79.79,
+   "hits_1.5x": 88.38,
+   "hits_2x": 94.46,
+   "hits_3x": 96.59,
+   "hits_5x": 92.47,
+   "hits_10x": 67.68,
+   "mean_abs_log": 98.27,
+   "best_k": 3.0
+  },
+  {
+   "n_questions": 20,
+   "sigma_a": 1.0,
+   "sigma_b": 1.5,
+   "hits_1.25x": 69.47,
+   "hits_1.5x": 76.31,
+   "hits_2x": 84.45,
+   "hits_3x": 89.63,
+   "hits_5x": 92.27,
+   "hits_10x": 89.73,
+   "mean_abs_log": 95.3,
+   "best_k": 5.0
+  },
+  {
+   "n_questions": 40,
+   "sigma_a": 0.3,
+   "sigma_b": 0.6,
+   "hits_1.25x": 99.08,
+   "hits_1.5x": 99.92,
+   "hits_2x": 99.95,
+   "hits_3x": 96.77,
+   "hits_5x": 62.7,
+   "hits_10x": 50.29,
+   "mean_abs_log": 100.0,
+   "best_k": 2.0
+  },
+  {
+   "n_questions": 40,
+   "sigma_a": 0.6,
+   "sigma_b": 1.0,
+   "hits_1.25x": 88.77,
+   "hits_1.5x": 95.75,
+   "hits_2x": 98.88,
+   "hits_3x": 99.52,
+   "hits_5x": 98.39,
+   "hits_10x": 78.89,
+   "mean_abs_log": 99.84,
+   "best_k": 3.0
+  },
+  {
+   "n_questions": 40,
+   "sigma_a": 1.0,
+   "sigma_b": 1.5,
+   "hits_1.25x": 76.98,
+   "hits_1.5x": 84.8,
+   "hits_2x": 92.04,
+   "hits_3x": 96.18,
+   "hits_5x": 97.95,
+   "hits_10x": 96.92,
+   "mean_abs_log": 99.15,
+   "best_k": 5.0
+  }
+ ],
+ "discrimination_summary": {
+  "best_k_by_pair": {
+   "0.3対0.6": [
+    1.5,
+    2.0
+   ],
+   "0.6対1.0": [
+    3.0
+   ],
+   "1.0対1.5": [
+    5.0
+   ]
+  },
+  "mean_abs_beats_best_hits": 12,
+  "n_settings": 12,
+  "k10_range_pct": [
+   50.04,
+   96.92
+  ],
+  "k2_range_pct": [
+   68.79,
+   99.95
+  ]
+ },
+ "midpoint_by_range": [
+  {
+   "decades": 2,
+   "within_1.25x_pct": 9.69,
+   "within_1.5x_pct": 17.61,
+   "within_2x_pct": 30.1,
+   "within_3x_pct": 47.71,
+   "within_5x_pct": 69.9,
+   "within_10x_pct": 100.0
+  },
+  {
+   "decades": 3,
+   "within_1.25x_pct": 6.46,
+   "within_1.5x_pct": 11.74,
+   "within_2x_pct": 20.07,
+   "within_3x_pct": 31.81,
+   "within_5x_pct": 46.6,
+   "within_10x_pct": 66.67
+  },
+  {
+   "decades": 5,
+   "within_1.25x_pct": 3.88,
+   "within_1.5x_pct": 7.04,
+   "within_2x_pct": 12.04,
+   "within_3x_pct": 19.08,
+   "within_5x_pct": 27.96,
+   "within_10x_pct": 40.0
+  },
+  {
+   "decades": 7,
+   "within_1.25x_pct": 2.77,
+   "within_1.5x_pct": 5.03,
+   "within_2x_pct": 8.6,
+   "within_3x_pct": 13.63,
+   "within_5x_pct": 19.97,
+   "within_10x_pct": 28.57
+  }
+ ],
+ "by_bias_sigma06": [
+  {
+   "bias": 0.6,
+   "within_pm50pct_pct": 55.64,
+   "within_pm100pct_pct": 97.81,
+   "within_1.5x_pct": 36.83,
+   "within_2x_pct": 59.78
+  },
+  {
+   "bias": 0.7,
+   "within_pm50pct_pct": 61.23,
+   "within_pm100pct_pct": 95.99,
+   "within_1.5x_pct": 43.08,
+   "within_2x_pct": 67.34
+  },
+  {
+   "bias": 0.8,
+   "within_pm50pct_pct": 63.58,
+   "within_pm100pct_pct": 93.65,
+   "within_1.5x_pct": 47.17,
+   "within_2x_pct": 72.05
+  },
+  {
+   "bias": 0.85,
+   "within_pm50pct_pct": 64.08,
+   "within_pm100pct_pct": 92.3,
+   "within_1.5x_pct": 48.46,
+   "within_2x_pct": 73.56
+  },
+  {
+   "bias": 0.9,
+   "within_pm50pct_pct": 63.79,
+   "within_pm100pct_pct": 90.91,
+   "within_1.5x_pct": 49.42,
+   "within_2x_pct": 74.31
+  },
+  {
+   "bias": 1.0,
+   "within_pm50pct_pct": 62.66,
+   "within_pm100pct_pct": 87.71,
+   "within_1.5x_pct": 49.99,
+   "within_2x_pct": 75.33
+  },
+  {
+   "bias": 1.1,
+   "within_pm50pct_pct": 60.19,
+   "within_pm100pct_pct": 83.83,
+   "within_1.5x_pct": 49.41,
+   "within_2x_pct": 74.39
+  },
+  {
+   "bias": 1.25,
+   "within_pm50pct_pct": 55.59,
+   "within_pm100pct_pct": 78.35,
+   "within_1.5x_pct": 47.21,
+   "within_2x_pct": 71.95
+  },
+  {
+   "bias": 1.5,
+   "within_pm50pct_pct": 46.55,
+   "within_pm100pct_pct": 68.26,
+   "within_1.5x_pct": 41.0,
+   "within_2x_pct": 64.86
+  }
+ ]
+}
