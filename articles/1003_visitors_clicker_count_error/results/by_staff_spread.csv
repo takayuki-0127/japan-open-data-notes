@@ -1,0 +1,4 @@
+spread,err_total_p5_pct,err_total_p95_pct,ew_error_abs_gt2_share_pct,chk_diff_mean_pct,chk_avg_abs_err_mean_pct
+0.0,-6.589,-5.602,1.0,0.463,6.057
+0.5,-8.793,-4.154,52.0,1.939,6.131
+1.0,-11.769,-2.321,51.5,3.331,5.727

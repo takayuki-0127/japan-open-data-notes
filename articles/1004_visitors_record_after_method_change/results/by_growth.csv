@@ -1,0 +1,4 @@
+g,true_records_per_world,rec_claims_per_world,rec_precision_pct,rec_recall_pct,adj_claims_per_world,adj_precision_pct,adj_recall_pct,adj_exact_claims_per_world,adj_exact_precision_pct,adj_exact_recall_pct,newonly_claims_per_world,newonly_precision_vs_newonly_truth_pct
+0.0,0.527,2.079,21.554,84.929,0.643,49.573,60.474,0.611,55.728,64.55,1.448,73.973
+0.01,1.226,2.514,39.348,80.669,1.268,64.235,66.436,1.261,66.614,68.515,1.717,76.063
+0.03,2.534,3.168,65.735,82.166,2.38,79.786,74.906,2.38,80.252,75.36,2.255,82.967

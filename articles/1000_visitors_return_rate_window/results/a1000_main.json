@@ -1,0 +1,328 @@
+{
+ "facility_a": {
+  "q": 0.55,
+  "s": 0.4,
+  "near": 14.0,
+  "far": 150.0
+ },
+ "curve": [
+  {
+   "W": 7,
+   "observed_pct": 8.14,
+   "formula_pct": 8.31,
+   "diff_pt": -0.17
+  },
+  {
+   "W": 14,
+   "observed_pct": 13.26,
+   "formula_pct": 13.78,
+   "diff_pt": -0.52
+  },
+  {
+   "W": 30,
+   "observed_pct": 20.17,
+   "formula_pct": 20.78,
+   "diff_pt": -0.61
+  },
+  {
+   "W": 60,
+   "observed_pct": 26.32,
+   "formula_pct": 26.65,
+   "diff_pt": -0.33
+  },
+  {
+   "W": 90,
+   "observed_pct": 29.62,
+   "formula_pct": 30.15,
+   "diff_pt": -0.53
+  },
+  {
+   "W": 180,
+   "observed_pct": 36.0,
+   "formula_pct": 36.87,
+   "diff_pt": -0.87
+  },
+  {
+   "W": 365,
+   "observed_pct": 41.69,
+   "formula_pct": 42.63,
+   "diff_pt": -0.94
+  }
+ ],
+ "share30_among_return365_pct": 48.38,
+ "never_return_pct": 55.0,
+ "ever_return_pct": 45.0,
+ "censor": {
+  "truth90_pct": 30.15,
+  "truth365_pct": 42.63,
+  "naive_any_all_pct": 34.2,
+  "naive_90_all_pct": 28.46,
+  "complete_90_all_pct": 30.37,
+  "complete_90_people": 14984,
+  "naive_any_formula_pct": 34.19
+ },
+ "cohort": [
+  {
+   "month": 1,
+   "people": 1634,
+   "naive_any_pct": 39.96,
+   "naive_90_pct": 29.62,
+   "complete_90_pct": 29.62,
+   "complete_90_people": 1634
+  },
+  {
+   "month": 2,
+   "people": 1637,
+   "naive_any_pct": 43.31,
+   "naive_90_pct": 31.7,
+   "complete_90_pct": 31.7,
+   "complete_90_people": 1637
+  },
+  {
+   "month": 3,
+   "people": 1672,
+   "naive_any_pct": 40.43,
+   "naive_90_pct": 30.86,
+   "complete_90_pct": 30.86,
+   "complete_90_people": 1672
+  },
+  {
+   "month": 4,
+   "people": 1673,
+   "naive_any_pct": 39.27,
+   "naive_90_pct": 29.17,
+   "complete_90_pct": 29.17,
+   "complete_90_people": 1673
+  },
+  {
+   "month": 5,
+   "people": 1645,
+   "naive_any_pct": 38.54,
+   "naive_90_pct": 29.54,
+   "complete_90_pct": 29.54,
+   "complete_90_people": 1645
+  },
+  {
+   "month": 6,
+   "people": 1679,
+   "naive_any_pct": 38.71,
+   "naive_90_pct": 31.39,
+   "complete_90_pct": 31.39,
+   "complete_90_people": 1679
+  },
+  {
+   "month": 7,
+   "people": 1683,
+   "naive_any_pct": 36.3,
+   "naive_90_pct": 30.54,
+   "complete_90_pct": 30.54,
+   "complete_90_people": 1683
+  },
+  {
+   "month": 8,
+   "people": 1652,
+   "naive_any_pct": 33.78,
+   "naive_90_pct": 29.84,
+   "complete_90_pct": 29.84,
+   "complete_90_people": 1652
+  },
+  {
+   "month": 9,
+   "people": 1631,
+   "naive_any_pct": 32.07,
+   "naive_90_pct": 30.41,
+   "complete_90_pct": 30.41,
+   "complete_90_people": 1631
+  },
+  {
+   "month": 10,
+   "people": 1712,
+   "naive_any_pct": 29.61,
+   "naive_90_pct": 29.61,
+   "complete_90_pct": NaN,
+   "complete_90_people": 0
+  },
+  {
+   "month": 11,
+   "people": 1679,
+   "naive_any_pct": 25.19,
+   "naive_90_pct": 25.19,
+   "complete_90_pct": NaN,
+   "complete_90_people": 0
+  },
+  {
+   "month": 12,
+   "people": 1703,
+   "naive_any_pct": 13.98,
+   "naive_90_pct": 13.98,
+   "complete_90_pct": NaN,
+   "complete_90_people": 0
+  }
+ ],
+ "rank_pairs": [
+  {
+   "W_short": 7,
+   "W_long": 30,
+   "spearman_mean": 0.939,
+   "top10_mean": 8.13,
+   "same_first_pct": 61.5
+  },
+  {
+   "W_short": 30,
+   "W_long": 90,
+   "spearman_mean": 0.931,
+   "top10_mean": 8.22,
+   "same_first_pct": 54.0
+  },
+  {
+   "W_short": 30,
+   "W_long": 180,
+   "spearman_mean": 0.835,
+   "top10_mean": 7.18,
+   "same_first_pct": 39.5
+  },
+  {
+   "W_short": 30,
+   "W_long": 365,
+   "spearman_mean": 0.718,
+   "top10_mean": 6.13,
+   "same_first_pct": 26.0
+  },
+  {
+   "W_short": 90,
+   "W_long": 365,
+   "spearman_mean": 0.874,
+   "top10_mean": 7.34,
+   "same_first_pct": 46.0
+  }
+ ],
+ "rank_resample30": {
+  "spearman_mean": 0.983,
+  "top10_mean": 9.35,
+  "same_first_pct": 82.5
+ },
+ "rank_formula_30_365": {
+  "spearman_mean": 0.72,
+  "top10_mean": 6.23,
+  "same_first_pct": 28.0
+ },
+ "facilities": {
+  "n": 40,
+  "people_each": 2000,
+  "reps": 200
+ },
+ "shown_rep": {
+  "rep": 200,
+  "first30": "施設30",
+  "first30_rank365": 1,
+  "first365": "施設30",
+  "first365_rank30": 1,
+  "max_rank_move": 22,
+  "spearman": 0.717
+ },
+ "grid": [
+  {
+   "near": "3〜10日",
+   "far": "60〜150日",
+   "spearman_30_365": 0.731,
+   "top10_30_365": 6.11,
+   "same_first_pct": 26.0,
+   "spearman_resample30": 0.985,
+   "top10_resample30": 9.41
+  },
+  {
+   "near": "3〜10日",
+   "far": "90〜300日",
+   "spearman_30_365": 0.7,
+   "top10_30_365": 6.08,
+   "same_first_pct": 44.0,
+   "spearman_resample30": 0.987,
+   "top10_resample30": 9.32
+  },
+  {
+   "near": "3〜10日",
+   "far": "200〜600日",
+   "spearman_30_365": 0.795,
+   "top10_30_365": 7.31,
+   "same_first_pct": 59.0,
+   "spearman_resample30": 0.989,
+   "top10_resample30": 9.42
+  },
+  {
+   "near": "7〜30日",
+   "far": "60〜150日",
+   "spearman_30_365": 0.748,
+   "top10_30_365": 5.99,
+   "same_first_pct": 20.0,
+   "spearman_resample30": 0.983,
+   "top10_resample30": 9.2
+  },
+  {
+   "near": "7〜30日",
+   "far": "90〜300日",
+   "spearman_30_365": 0.721,
+   "top10_30_365": 6.42,
+   "same_first_pct": 23.0,
+   "spearman_resample30": 0.984,
+   "top10_resample30": 9.2
+  },
+  {
+   "near": "7〜30日",
+   "far": "200〜600日",
+   "spearman_30_365": 0.783,
+   "top10_30_365": 7.2,
+   "same_first_pct": 38.0,
+   "spearman_resample30": 0.986,
+   "top10_resample30": 9.28
+  },
+  {
+   "near": "20〜60日",
+   "far": "60〜150日",
+   "spearman_30_365": 0.793,
+   "top10_30_365": 6.26,
+   "same_first_pct": 20.0,
+   "spearman_resample30": 0.974,
+   "top10_resample30": 8.92
+  },
+  {
+   "near": "20〜60日",
+   "far": "90〜300日",
+   "spearman_30_365": 0.76,
+   "top10_30_365": 6.5,
+   "same_first_pct": 22.0,
+   "spearman_resample30": 0.975,
+   "top10_resample30": 9.02
+  },
+  {
+   "near": "20〜60日",
+   "far": "200〜600日",
+   "spearman_30_365": 0.784,
+   "top10_30_365": 6.89,
+   "same_first_pct": 25.0,
+   "spearman_resample30": 0.98,
+   "top10_resample30": 9.34
+  }
+ ],
+ "grid_range": {
+  "spearman_30_365": [
+   0.7,
+   0.795
+  ],
+  "top10_30_365": [
+   5.99,
+   7.31
+  ],
+  "same_first_pct": [
+   20.0,
+   59.0
+  ],
+  "spearman_resample30": [
+   0.974,
+   0.989
+  ],
+  "top10_resample30": [
+   8.92,
+   9.42
+  ]
+ }
+}
