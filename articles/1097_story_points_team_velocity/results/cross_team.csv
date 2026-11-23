@@ -1,0 +1,4 @@
+,rank_corr_mean,rank_corr_p10,rank_corr_p90,top1_hit
+points,0.4392,0.0,0.8095,0.309
+task_count,0.5586,0.1429,0.8571,0.382
+points_calibrated,0.7783,0.5476,0.9524,0.559

@@ -1,0 +1,183 @@
+{
+ "settings": {
+  "effect": 1.0,
+  "g_diff": 1.0,
+  "g_time": 2.0,
+  "pt_noise": 0.7,
+  "share": 0.4,
+  "med_lines": 400,
+  "size_diff": 0.5,
+  "size_noise": 0.4,
+  "bugs_per_400": 3.0,
+  "diff_bugs": 0.6,
+  "find_mean_days": 60,
+  "n_features": 300,
+  "year_days": 360,
+  "window_days": 90,
+  "reps": 1000,
+  "grid_reps": 300
+ },
+ "profile": {
+  "tf_share": 0.4,
+  "diff_mean_tf": -0.4188,
+  "diff_mean_other": 0.2791,
+  "lines_median_tf": 325.0,
+  "lines_median_other": 460.0,
+  "day_mean_tf": 233.53,
+  "day_mean_other": 144.96,
+  "found_share_now_tf": 0.6905,
+  "found_share_now_other": 0.8771,
+  "bugs_per_feature_now_tf": 1.991,
+  "bugs_per_feature_now_other": 5.586,
+  "share_window_ok": 0.7489,
+  "formula_window_found_share": 0.7769,
+  "corr_pts_diff": 0.8197
+ },
+ "ratio_by_method": [
+  {
+   "method": "raw",
+   "label": "①そのまま（1機能あたり、今までの分）",
+   "median": 0.3546,
+   "p10": 0.2765,
+   "p90": 0.4577,
+   "share_below_0_8": 1.0
+  },
+  {
+   "method": "window",
+   "label": "②公開後90日の分（1機能あたり）",
+   "median": 0.4155,
+   "p10": 0.3086,
+   "p90": 0.5619,
+   "share_below_0_8": 0.998
+  },
+  {
+   "method": "window_kloc",
+   "label": "③②を千行あたり",
+   "median": 0.6143,
+   "p10": 0.4957,
+   "p90": 0.7633,
+   "share_below_0_8": 0.945
+  },
+  {
+   "method": "window_kloc_band",
+   "label": "④③を見積もりの難しさの帯ごとにそろえる",
+   "median": 0.7931,
+   "p10": 0.6619,
+   "p90": 0.9493,
+   "share_below_0_8": 0.52
+  },
+  {
+   "method": "random",
+   "label": "⑤でたらめに選んだとき（③と同じ数え方）",
+   "median": 0.9991,
+   "p10": 0.827,
+   "p90": 1.2301,
+   "share_below_0_8": 0.069
+  }
+ ],
+ "effect_0_8_median": {
+  "raw": 0.287,
+  "window": 0.3311,
+  "window_kloc": 0.4894,
+  "window_kloc_band": 0.6337,
+  "random": 0.7965
+ },
+ "effect_0_8_p10_p90": {
+  "raw": [
+   0.2216,
+   0.366
+  ],
+  "window": [
+   0.242,
+   0.4466
+  ],
+  "window_kloc": [
+   0.3927,
+   0.6108
+  ],
+  "window_kloc_band": [
+   0.5165,
+   0.7693
+  ],
+  "random": [
+   0.6426,
+   0.9765
+  ]
+ },
+ "grid_effect1_range": {
+  "raw": [
+   0.2255,
+   1.0054
+  ],
+  "window": [
+   0.2402,
+   1.0218
+  ],
+  "window_kloc": [
+   0.4508,
+   1.0138
+  ],
+  "window_kloc_band": [
+   0.5441,
+   0.9993
+  ],
+  "random": [
+   0.969,
+   1.018
+  ]
+ },
+ "grid_effect08_range": {
+  "raw": [
+   0.1829,
+   0.8077
+  ],
+  "window": [
+   0.1949,
+   0.7958
+  ],
+  "window_kloc": [
+   0.3634,
+   0.7916
+  ],
+  "window_kloc_band": [
+   0.4339,
+   0.798
+  ],
+  "random": [
+   0.7813,
+   0.818
+  ]
+ },
+ "grid_effect1_gdiff0_band": [
+  0.9838,
+  0.9993
+ ],
+ "grid_effect1_gdiff2_band": [
+  0.5441,
+  0.7936
+ ],
+ "grid_effect1_band_by_noise": {
+  "0.35": [
+   0.7919,
+   0.9979
+  ],
+  "0.7": [
+   0.6511,
+   0.9911
+  ],
+  "1.4": [
+   0.5441,
+   0.9993
+  ]
+ },
+ "grid_effect1_raw_lt_window": 19,
+ "grid_effect1_gtime2_raw_lt_window": 12,
+ "grid_effect1_gtime2_n": 12,
+ "grid_effect1_gtime0_raw_minus_window_max": 0.0093,
+ "grid_effect08_band_below_08": 24,
+ "grid_effect1_band_below_09": 16,
+ "data_check": {
+  "raw_from_csv": 0.3705,
+  "sim_rep0": 0.3705
+ }
+}

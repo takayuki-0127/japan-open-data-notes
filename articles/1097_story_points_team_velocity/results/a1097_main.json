@@ -1,0 +1,313 @@
+{
+ "settings": {
+  "work_mean": 100.0,
+  "cv_work": 0.25,
+  "period_noise": 0.1,
+  "task_median": 4.0,
+  "task_sigma": 0.7,
+  "sigma_scale": 0.5,
+  "sigma_est": 0.35,
+  "sigma_slicing": 0.3,
+  "n_ref": 10,
+  "teams": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H"
+  ],
+  "n_periods": 20,
+  "point_scale_steps": [
+   1,
+   2,
+   3,
+   5,
+   8,
+   13,
+   21
+  ],
+  "reps": 1000,
+  "grid_sigma_scale": [
+   0.0,
+   0.25,
+   0.5,
+   0.8
+  ],
+  "grid_cv_work": [
+   0.1,
+   0.25,
+   0.5
+  ],
+  "grid_reps": 300,
+  "up_second_half": 0.1,
+  "drift_grid": [
+   0.0,
+   0.01,
+   0.02,
+   0.04
+  ],
+  "judge_ratio": 1.05,
+  "within_reps": 1000,
+  "seed": 1097
+ },
+ "cross_team_base": {
+  "points": {
+   "rank_corr_mean": 0.4392,
+   "rank_corr_p10": 0.0,
+   "rank_corr_p90": 0.8095,
+   "top1_hit": 0.309
+  },
+  "task_count": {
+   "rank_corr_mean": 0.5586,
+   "rank_corr_p10": 0.1429,
+   "rank_corr_p90": 0.8571,
+   "top1_hit": 0.382
+  },
+  "points_calibrated": {
+   "rank_corr_mean": 0.7783,
+   "rank_corr_p10": 0.5476,
+   "rank_corr_p90": 0.9524,
+   "top1_hit": 0.559
+  }
+ },
+ "cross_team_extra": {
+  "rank_corr_points_vs_scale_mean": 0.7752,
+  "max_min_ratio_points_per_true_median": 3.3434,
+  "max_min_ratio_points_per_true_p10": 2.2155,
+  "max_min_ratio_points_per_true_p90": 5.2976,
+  "top1_random": 0.125
+ },
+ "teams_one_run": {
+  "rank_corr_points": 0.381,
+  "rank_corr_calibrated": 0.9048,
+  "points_top_team": "G",
+  "true_top_team": "C",
+  "true_rank_of_points_top": 2
+ },
+ "grid_12": [
+  {
+   "sigma_scale": 0.0,
+   "cv_work": 0.1,
+   "rank_corr_points": 0.8515,
+   "rank_corr_task_count": 0.2688,
+   "rank_corr_points_calibrated": 0.5251,
+   "top1_points": 0.6567,
+   "top1_task_count": 0.2233,
+   "top1_points_calibrated": 0.41
+  },
+  {
+   "sigma_scale": 0.0,
+   "cv_work": 0.25,
+   "rank_corr_points": 0.9519,
+   "rank_corr_task_count": 0.5667,
+   "rank_corr_points_calibrated": 0.7918,
+   "top1_points": 0.87,
+   "top1_task_count": 0.3833,
+   "top1_points_calibrated": 0.6067
+  },
+  {
+   "sigma_scale": 0.0,
+   "cv_work": 0.5,
+   "rank_corr_points": 0.9767,
+   "rank_corr_task_count": 0.7791,
+   "rank_corr_points_calibrated": 0.9079,
+   "top1_points": 0.9033,
+   "top1_task_count": 0.55,
+   "top1_points_calibrated": 0.7233
+  },
+  {
+   "sigma_scale": 0.25,
+   "cv_work": 0.1,
+   "rank_corr_points": 0.3307,
+   "rank_corr_task_count": 0.2649,
+   "rank_corr_points_calibrated": 0.5302,
+   "top1_points": 0.2267,
+   "top1_task_count": 0.2167,
+   "top1_points_calibrated": 0.41
+  },
+  {
+   "sigma_scale": 0.25,
+   "cv_work": 0.25,
+   "rank_corr_points": 0.6671,
+   "rank_corr_task_count": 0.5451,
+   "rank_corr_points_calibrated": 0.7926,
+   "top1_points": 0.4533,
+   "top1_task_count": 0.4067,
+   "top1_points_calibrated": 0.6233
+  },
+  {
+   "sigma_scale": 0.25,
+   "cv_work": 0.5,
+   "rank_corr_points": 0.8404,
+   "rank_corr_task_count": 0.7774,
+   "rank_corr_points_calibrated": 0.9053,
+   "top1_points": 0.6367,
+   "top1_task_count": 0.5967,
+   "top1_points_calibrated": 0.7467
+  },
+  {
+   "sigma_scale": 0.5,
+   "cv_work": 0.1,
+   "rank_corr_points": 0.1668,
+   "rank_corr_task_count": 0.2718,
+   "rank_corr_points_calibrated": 0.4897,
+   "top1_points": 0.1767,
+   "top1_task_count": 0.2367,
+   "top1_points_calibrated": 0.35
+  },
+  {
+   "sigma_scale": 0.5,
+   "cv_work": 0.25,
+   "rank_corr_points": 0.4332,
+   "rank_corr_task_count": 0.5549,
+   "rank_corr_points_calibrated": 0.7701,
+   "top1_points": 0.3133,
+   "top1_task_count": 0.3633,
+   "top1_points_calibrated": 0.6233
+  },
+  {
+   "sigma_scale": 0.5,
+   "cv_work": 0.5,
+   "rank_corr_points": 0.6847,
+   "rank_corr_task_count": 0.7931,
+   "rank_corr_points_calibrated": 0.9084,
+   "top1_points": 0.4367,
+   "top1_task_count": 0.5867,
+   "top1_points_calibrated": 0.75
+  },
+  {
+   "sigma_scale": 0.8,
+   "cv_work": 0.1,
+   "rank_corr_points": 0.1786,
+   "rank_corr_task_count": 0.3116,
+   "rank_corr_points_calibrated": 0.4787,
+   "top1_points": 0.2067,
+   "top1_task_count": 0.2267,
+   "top1_points_calibrated": 0.3333
+  },
+  {
+   "sigma_scale": 0.8,
+   "cv_work": 0.25,
+   "rank_corr_points": 0.2766,
+   "rank_corr_task_count": 0.5446,
+   "rank_corr_points_calibrated": 0.7693,
+   "top1_points": 0.24,
+   "top1_task_count": 0.38,
+   "top1_points_calibrated": 0.5633
+  },
+  {
+   "sigma_scale": 0.8,
+   "cv_work": 0.5,
+   "rank_corr_points": 0.5259,
+   "rank_corr_task_count": 0.7774,
+   "rank_corr_points_calibrated": 0.8938,
+   "top1_points": 0.33,
+   "top1_task_count": 0.61,
+   "top1_points_calibrated": 0.7267
+  }
+ ],
+ "grid_ranges": {
+  "rank_corr_points": [
+   0.1668,
+   0.9767
+  ],
+  "rank_corr_task_count": [
+   0.2649,
+   0.7931
+  ],
+  "rank_corr_points_calibrated": [
+   0.4787,
+   0.9084
+  ],
+  "top1_points": [
+   0.1767,
+   0.9033
+  ],
+  "top1_task_count": [
+   0.2167,
+   0.61
+  ],
+  "top1_points_calibrated": [
+   0.3333,
+   0.75
+  ]
+ },
+ "grid_calibrated_above_points": 9,
+ "grid_sigma0": [
+  {
+   "sigma_scale": 0.0,
+   "cv_work": 0.1,
+   "rank_corr_points": 0.8515,
+   "rank_corr_task_count": 0.2688,
+   "rank_corr_points_calibrated": 0.5251,
+   "top1_points": 0.6567,
+   "top1_task_count": 0.2233,
+   "top1_points_calibrated": 0.41
+  },
+  {
+   "sigma_scale": 0.0,
+   "cv_work": 0.25,
+   "rank_corr_points": 0.9519,
+   "rank_corr_task_count": 0.5667,
+   "rank_corr_points_calibrated": 0.7918,
+   "top1_points": 0.87,
+   "top1_task_count": 0.3833,
+   "top1_points_calibrated": 0.6067
+  },
+  {
+   "sigma_scale": 0.0,
+   "cv_work": 0.5,
+   "rank_corr_points": 0.9767,
+   "rank_corr_task_count": 0.7791,
+   "rank_corr_points_calibrated": 0.9079,
+   "top1_points": 0.9033,
+   "top1_task_count": 0.55,
+   "top1_points_calibrated": 0.7233
+  }
+ ],
+ "within_team": [
+  {
+   "drift_max_per_period": 0.0,
+   "share_up_teams_judged_up": 0.736,
+   "share_flat_teams_judged_up": 0.2067,
+   "share_correct": 0.7646,
+   "mean_ratio_points_up": 1.0976,
+   "mean_ratio_points_flat": 0.9971,
+   "mean_ratio_true_up": 1.0957,
+   "mean_ratio_true_flat": 0.9965
+  },
+  {
+   "drift_max_per_period": 0.01,
+   "share_up_teams_judged_up": 0.8183,
+   "share_flat_teams_judged_up": 0.3315,
+   "share_correct": 0.7434,
+   "mean_ratio_points_up": 1.1232,
+   "mean_ratio_points_flat": 1.0217,
+   "mean_ratio_true_up": 1.0952,
+   "mean_ratio_true_flat": 0.9967
+  },
+  {
+   "drift_max_per_period": 0.02,
+   "share_up_teams_judged_up": 0.8975,
+   "share_flat_teams_judged_up": 0.4843,
+   "share_correct": 0.7066,
+   "mean_ratio_points_up": 1.153,
+   "mean_ratio_points_flat": 1.0476,
+   "mean_ratio_true_up": 1.0976,
+   "mean_ratio_true_flat": 0.9977
+  },
+  {
+   "drift_max_per_period": 0.04,
+   "share_up_teams_judged_up": 0.941,
+   "share_flat_teams_judged_up": 0.6655,
+   "share_correct": 0.6378,
+   "mean_ratio_points_up": 1.2081,
+   "mean_ratio_points_flat": 1.0984,
+   "mean_ratio_true_up": 1.0966,
+   "mean_ratio_true_flat": 0.9963
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+team,k,fix_per_q,lines_mean,commits_per_fix,regs_per_q,found_share,per_fix,per_commit,per_kloc,per_release,per_fix_found,per_fix_band,formula_per_fix,formula_per_commit,formula_per_kloc,formula_per_release
+A,0.05,119.95,165.38,1.827,11.377,0.767,0.0949,0.0519,0.5736,1.8962,0.0728,0.0604,0.095,0.052,0.575,1.9003
+B,0.075,269.79,41.23,3.75,14.526,0.8434,0.0538,0.0144,1.3059,0.6052,0.0454,0.0756,0.054,0.0144,1.3072,0.6076
+C,0.06,179.71,82.48,2.374,12.681,0.845,0.0706,0.0297,0.8555,1.0568,0.0596,0.066,0.0702,0.0295,0.8494,1.0528

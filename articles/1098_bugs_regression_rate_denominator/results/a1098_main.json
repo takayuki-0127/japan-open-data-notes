@@ -1,0 +1,529 @@
+{
+ "settings": {
+  "teams": {
+   "A": {
+    "k": 0.05,
+    "fix": 40,
+    "med": 120,
+    "c": 200,
+    "rel": 2,
+    "late": true
+   },
+   "B": {
+    "k": 0.075,
+    "fix": 90,
+    "med": 30,
+    "c": 15,
+    "rel": 8,
+    "late": false
+   },
+   "C": {
+    "k": 0.06,
+    "fix": 60,
+    "med": 60,
+    "c": 60,
+    "rel": 4,
+    "late": false
+   }
+  },
+  "base": {
+   "beta": 0.7,
+   "sigma": 0.8,
+   "delay": 14.0,
+   "months": 3
+  },
+  "ref_lines": 60.0,
+  "bands": "40行以下・41〜120行・121行以上",
+  "reps": 2000,
+  "grid_reps": 300,
+  "true_order": "BCA"
+ },
+ "teams": [
+  {
+   "team": "A",
+   "k": 0.05,
+   "fix_per_q": 119.95,
+   "lines_mean": 165.38,
+   "commits_per_fix": 1.827,
+   "regs_per_q": 11.377,
+   "found_share": 0.767,
+   "per_fix": 0.0949,
+   "per_commit": 0.0519,
+   "per_kloc": 0.5736,
+   "per_release": 1.8962,
+   "per_fix_found": 0.0728,
+   "per_fix_band": 0.0604,
+   "formula_per_fix": 0.095,
+   "formula_per_commit": 0.052,
+   "formula_per_kloc": 0.575,
+   "formula_per_release": 1.9003
+  },
+  {
+   "team": "B",
+   "k": 0.075,
+   "fix_per_q": 269.79,
+   "lines_mean": 41.23,
+   "commits_per_fix": 3.75,
+   "regs_per_q": 14.526,
+   "found_share": 0.8434,
+   "per_fix": 0.0538,
+   "per_commit": 0.0144,
+   "per_kloc": 1.3059,
+   "per_release": 0.6052,
+   "per_fix_found": 0.0454,
+   "per_fix_band": 0.0756,
+   "formula_per_fix": 0.054,
+   "formula_per_commit": 0.0144,
+   "formula_per_kloc": 1.3072,
+   "formula_per_release": 0.6076
+  },
+  {
+   "team": "C",
+   "k": 0.06,
+   "fix_per_q": 179.71,
+   "lines_mean": 82.48,
+   "commits_per_fix": 2.374,
+   "regs_per_q": 12.681,
+   "found_share": 0.845,
+   "per_fix": 0.0706,
+   "per_commit": 0.0297,
+   "per_kloc": 0.8555,
+   "per_release": 1.0568,
+   "per_fix_found": 0.0596,
+   "per_fix_band": 0.066,
+   "formula_per_fix": 0.0702,
+   "formula_per_commit": 0.0295,
+   "formula_per_kloc": 0.8494,
+   "formula_per_release": 1.0528
+  }
+ ],
+ "rank_accuracy": [
+  {
+   "rate": "per_fix",
+   "label": "①修正1件あたり",
+   "top_B": 0.046,
+   "full_order": 0.021
+  },
+  {
+   "rate": "per_commit",
+   "label": "②変更の登録1回あたり",
+   "top_B": 0.001,
+   "full_order": 0.0005
+  },
+  {
+   "rate": "per_kloc",
+   "label": "③変更した千行あたり",
+   "top_B": 0.844,
+   "full_order": 0.6825
+  },
+  {
+   "rate": "per_release",
+   "label": "④リリース1回あたり",
+   "top_B": 0.004,
+   "full_order": 0.002
+  },
+  {
+   "rate": "per_fix_found",
+   "label": "⑤期間内に見つかった分÷修正の件数",
+   "top_B": 0.076,
+   "full_order": 0.036
+  },
+  {
+   "rate": "per_fix_band",
+   "label": "⑥大きさの帯をそろえた修正1件あたり",
+   "top_B": 0.488,
+   "full_order": 0.327
+  }
+ ],
+ "top_team_share": [
+  {
+   "rate": "per_fix",
+   "team": "A",
+   "share_top": 0.728
+  },
+  {
+   "rate": "per_fix",
+   "team": "B",
+   "share_top": 0.046
+  },
+  {
+   "rate": "per_fix",
+   "team": "C",
+   "share_top": 0.2245
+  },
+  {
+   "rate": "per_fix",
+   "team": "tie",
+   "share_top": 0.0015
+  },
+  {
+   "rate": "per_commit",
+   "team": "A",
+   "share_top": 0.8935
+  },
+  {
+   "rate": "per_commit",
+   "team": "B",
+   "share_top": 0.001
+  },
+  {
+   "rate": "per_commit",
+   "team": "C",
+   "share_top": 0.105
+  },
+  {
+   "rate": "per_commit",
+   "team": "tie",
+   "share_top": 0.0005
+  },
+  {
+   "rate": "per_kloc",
+   "team": "A",
+   "share_top": 0.014
+  },
+  {
+   "rate": "per_kloc",
+   "team": "B",
+   "share_top": 0.844
+  },
+  {
+   "rate": "per_kloc",
+   "team": "C",
+   "share_top": 0.142
+  },
+  {
+   "rate": "per_kloc",
+   "team": "tie",
+   "share_top": 0.0
+  },
+  {
+   "rate": "per_release",
+   "team": "A",
+   "share_top": 0.8825
+  },
+  {
+   "rate": "per_release",
+   "team": "B",
+   "share_top": 0.004
+  },
+  {
+   "rate": "per_release",
+   "team": "C",
+   "share_top": 0.0925
+  },
+  {
+   "rate": "per_release",
+   "team": "tie",
+   "share_top": 0.021
+  },
+  {
+   "rate": "per_fix_found",
+   "team": "A",
+   "share_top": 0.6265
+  },
+  {
+   "rate": "per_fix_found",
+   "team": "B",
+   "share_top": 0.076
+  },
+  {
+   "rate": "per_fix_found",
+   "team": "C",
+   "share_top": 0.297
+  },
+  {
+   "rate": "per_fix_found",
+   "team": "tie",
+   "share_top": 0.0005
+  },
+  {
+   "rate": "per_fix_band",
+   "team": "A",
+   "share_top": 0.223
+  },
+  {
+   "rate": "per_fix_band",
+   "team": "B",
+   "share_top": 0.488
+  },
+  {
+   "rate": "per_fix_band",
+   "team": "C",
+   "share_top": 0.289
+  },
+  {
+   "rate": "per_fix_band",
+   "team": "tie",
+   "share_top": 0.0
+  }
+ ],
+ "by_period": [
+  {
+   "months": 1,
+   "rate": "per_fix",
+   "top_B": 0.13,
+   "full_order": 0.059
+  },
+  {
+   "months": 1,
+   "rate": "per_commit",
+   "top_B": 0.02,
+   "full_order": 0.01
+  },
+  {
+   "months": 1,
+   "rate": "per_kloc",
+   "top_B": 0.692,
+   "full_order": 0.448
+  },
+  {
+   "months": 1,
+   "rate": "per_release",
+   "top_B": 0.033,
+   "full_order": 0.017
+  },
+  {
+   "months": 1,
+   "rate": "per_fix_found",
+   "top_B": 0.254,
+   "full_order": 0.128
+  },
+  {
+   "months": 1,
+   "rate": "per_fix_band",
+   "top_B": 0.399,
+   "full_order": 0.233
+  },
+  {
+   "months": 3,
+   "rate": "per_fix",
+   "top_B": 0.049,
+   "full_order": 0.021
+  },
+  {
+   "months": 3,
+   "rate": "per_commit",
+   "top_B": 0.0,
+   "full_order": 0.0
+  },
+  {
+   "months": 3,
+   "rate": "per_kloc",
+   "top_B": 0.864,
+   "full_order": 0.689
+  },
+  {
+   "months": 3,
+   "rate": "per_release",
+   "top_B": 0.001,
+   "full_order": 0.0
+  },
+  {
+   "months": 3,
+   "rate": "per_fix_found",
+   "top_B": 0.065,
+   "full_order": 0.037
+  },
+  {
+   "months": 3,
+   "rate": "per_fix_band",
+   "top_B": 0.481,
+   "full_order": 0.315
+  },
+  {
+   "months": 12,
+   "rate": "per_fix",
+   "top_B": 0.0,
+   "full_order": 0.0
+  },
+  {
+   "months": 12,
+   "rate": "per_commit",
+   "top_B": 0.0,
+   "full_order": 0.0
+  },
+  {
+   "months": 12,
+   "rate": "per_kloc",
+   "top_B": 0.988,
+   "full_order": 0.953
+  },
+  {
+   "months": 12,
+   "rate": "per_release",
+   "top_B": 0.0,
+   "full_order": 0.0
+  },
+  {
+   "months": 12,
+   "rate": "per_fix_found",
+   "top_B": 0.0,
+   "full_order": 0.0
+  },
+  {
+   "months": 12,
+   "rate": "per_fix_band",
+   "top_B": 0.588,
+   "full_order": 0.398
+  }
+ ],
+ "grid_top_B_range": {
+  "per_fix": [
+   0.0,
+   0.74
+  ],
+  "per_commit": [
+   0.0,
+   0.11
+  ],
+  "per_kloc": [
+   0.32,
+   1.0
+  ],
+  "per_release": [
+   0.0,
+   0.2067
+  ],
+  "per_fix_found": [
+   0.0,
+   0.7667
+  ],
+  "per_fix_band": [
+   0.1667,
+   0.9533
+  ]
+ },
+ "grid_best_rate_count": {
+  "per_kloc": 35,
+  "per_fix_band": 1
+ },
+ "grid_per_kloc_top_B_by_beta": {
+  "0.4": [
+   0.9267,
+   0.9967
+  ],
+  "0.7": [
+   0.84,
+   1.0
+  ],
+  "1.0": [
+   0.6467,
+   0.99
+  ],
+  "1.3": [
+   0.32,
+   0.94
+  ]
+ },
+ "grid_per_fix_top_B_by_beta": {
+  "0.4": [
+   0.1767,
+   0.74
+  ],
+  "0.7": [
+   0.04,
+   0.36
+  ],
+  "1.0": [
+   0.0,
+   0.07
+  ],
+  "1.3": [
+   0.0,
+   0.01
+  ]
+ },
+ "grid_band_top_B_by_beta": {
+  "0.4": [
+   0.3967,
+   0.9533
+  ],
+  "0.7": [
+   0.31,
+   0.9133
+  ],
+  "1.0": [
+   0.2267,
+   0.87
+  ],
+  "1.3": [
+   0.1667,
+   0.82
+  ]
+ },
+ "grid_per_kloc_beats_band": 35,
+ "grid_formula_order_per_kloc_true": 27,
+ "grid_formula_order_per_kloc_by_beta": {
+  "0.4": [
+   "BCA"
+  ],
+  "0.7": [
+   "BCA"
+  ],
+  "1.0": [
+   "BCA"
+  ],
+  "1.3": [
+   "ABC",
+   "BAC"
+  ]
+ },
+ "grid_formula_order_per_fix_B_last": 24,
+ "grid_formula_B_first_per_fix": 6,
+ "grid_formula_B_first_per_commit": 0,
+ "grid_formula_B_first_per_release": 0,
+ "grid_formula_B_first_per_kloc": 33,
+ "by_delay": [
+  {
+   "delay": 7.0,
+   "found_share_A": 0.8521,
+   "per_fix_found_A": 0.08,
+   "found_share_B": 0.9236,
+   "per_fix_found_B": 0.05,
+   "found_share_C": 0.9205,
+   "per_fix_found_C": 0.064,
+   "uniform_formula_found_share": 0.9222,
+   "top_B_per_fix_found": 0.072,
+   "top_A_per_fix_found": 0.631
+  },
+  {
+   "delay": 14.0,
+   "found_share_A": 0.7619,
+   "per_fix_found_A": 0.0732,
+   "found_share_B": 0.8443,
+   "per_fix_found_B": 0.0457,
+   "found_share_C": 0.8464,
+   "per_fix_found_C": 0.0594,
+   "uniform_formula_found_share": 0.8447,
+   "top_B_per_fix_found": 0.068,
+   "top_A_per_fix_found": 0.64
+  },
+  {
+   "delay": 28.0,
+   "found_share_A": 0.6202,
+   "per_fix_found_A": 0.058,
+   "found_share_B": 0.7028,
+   "per_fix_found_B": 0.0378,
+   "found_share_C": 0.7036,
+   "per_fix_found_C": 0.0491,
+   "uniform_formula_found_share": 0.7014,
+   "top_B_per_fix_found": 0.09,
+   "top_A_per_fix_found": 0.575
+  }
+ ],
+ "formula_max_rel_diff": 0.0072,
+ "data_check": {
+  "A": {
+   "per_fix": 0.0909,
+   "sim_rep0": 0.0909
+  },
+  "B": {
+   "per_fix": 0.072,
+   "sim_rep0": 0.072
+  },
+  "C": {
+   "per_fix": 0.067,
+   "sim_rep0": 0.067
+  }
+ }
+}

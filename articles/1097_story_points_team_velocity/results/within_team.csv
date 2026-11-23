@@ -1,0 +1,5 @@
+drift_max_per_period,share_up_teams_judged_up,share_flat_teams_judged_up,share_correct,mean_ratio_points_up,mean_ratio_points_flat,mean_ratio_true_up,mean_ratio_true_flat
+0.0,0.736,0.2067,0.7646,1.0976,0.9971,1.0957,0.9965
+0.01,0.8183,0.3315,0.7434,1.1232,1.0217,1.0952,0.9967
+0.02,0.8975,0.4843,0.7066,1.153,1.0476,1.0976,0.9977
+0.04,0.941,0.6655,0.6378,1.2081,1.0984,1.0966,0.9963
