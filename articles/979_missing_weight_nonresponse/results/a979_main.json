@@ -1,0 +1,130 @@
+{
+ "one_draw": {
+  "truth": 62.02,
+  "respondents": 1028,
+  "est": {
+   "重みなし": 75.0,
+   "利用頻度（3区分）": 69.97,
+   "利用頻度×会員年数（9区分）": 69.28,
+   "9区分×入会した月（108区分）": 68.42
+  },
+  "neff": {
+   "重みなし": 1028.0,
+   "利用頻度（3区分）": 796.8,
+   "利用頻度×会員年数（9区分）": 765.6,
+   "9区分×入会した月（108区分）": 596.1
+  },
+  "empty_cells": {
+   "重みなし": 0,
+   "利用頻度（3区分）": 0,
+   "利用頻度×会員年数（9区分）": 0,
+   "9区分×入会した月（108区分）": 0
+  },
+  "weight_min_max_9": [
+   8.43,
+   51.28
+  ],
+  "response_rate_min_max_9": [
+   9.48,
+   57.09
+  ],
+  "truth_cells_min_max_9": [
+   42.83,
+   84.94
+  ]
+ },
+ "base_500reps": {
+  "setting": {
+   "beta": 1.0,
+   "gamma": 0.4,
+   "odds_ratio_satisfied": 1.492,
+   "response_rate": 0.25
+  },
+  "truth_mean": 61.799,
+  "n_resp_mean": 999.9,
+  "methods": {
+   "重みなし": {
+    "bias": 12.324,
+    "sd": 1.352,
+    "rmse": 12.398,
+    "neff": 999.934,
+    "empty_cells": 0.0,
+    "cover_naive": 0.0,
+    "cover_neff": 0.0,
+    "cover_strat": 0.0,
+    "recovered": 0.0
+   },
+   "利用頻度（3区分）": {
+    "bias": 7.837,
+    "sd": 1.642,
+    "rmse": 8.005,
+    "neff": 803.61,
+    "empty_cells": 0.0,
+    "cover_naive": 0.2,
+    "cover_neff": 0.4,
+    "cover_strat": 0.4,
+    "recovered": 36.406
+   },
+   "利用頻度×会員年数（9区分）": {
+    "bias": 6.753,
+    "sd": 1.734,
+    "rmse": 6.97,
+    "neff": 743.194,
+    "empty_cells": 0.0,
+    "cover_naive": 1.4,
+    "cover_neff": 2.8,
+    "cover_strat": 2.8,
+    "recovered": 45.204
+   },
+   "9区分×入会した月（108区分）": {
+    "bias": 6.809,
+    "sd": 1.845,
+    "rmse": 7.051,
+    "neff": 631.252,
+    "empty_cells": 0.188,
+    "cover_naive": 1.4,
+    "cover_neff": 5.2,
+    "cover_strat": 2.4,
+    "recovered": 44.749
+   }
+  },
+  "formula_bias": {
+   "raw": 12.245,
+   "w3": 7.759,
+   "w9": 6.666
+  }
+ },
+ "grid": {
+  "recovered_9_range_by_gamma": {
+   "0.0": [
+    94.4,
+    103.3
+   ],
+   "0.4": [
+    31.9,
+    56.2
+   ],
+   "0.8": [
+    19.4,
+    32.4
+   ],
+   "1.2": [
+    11.9,
+    19.8
+   ]
+  },
+  "bias_raw_range": [
+   3.288,
+   22.986
+  ],
+  "bias_9_range": [
+   -0.198,
+   18.551
+  ],
+  "bias_9_gamma0_range": [
+   -0.198,
+   0.614
+  ],
+  "max_abs_gap_sim_vs_formula": 0.614
+ }
+}

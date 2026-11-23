@@ -1,0 +1,161 @@
+{
+ "one_draw": {
+  "n": 2000,
+  "respondents": 1197,
+  "yes_respondents": 835,
+  "share_respondents": 69.76,
+  "bound": [
+   41.75,
+   81.9
+  ],
+  "truth_by_world": {
+   "同じ（でたらめに欠けた）": 69.05,
+   "15ポイント低い": 63.45,
+   "30ポイント低い": 57.65,
+   "10ポイント高い": 73.0
+  },
+  "tipping_nonresp_share_for_50": 20.55,
+  "tipping_gap_points": 49.21
+ },
+ "base_2000reps": {
+  "同じ（でたらめに欠けた）": {
+   "d": 0.0,
+   "truth": 70.007,
+   "naive_est": 70.005,
+   "naive_cover": 99.7,
+   "naive_width": 5.182,
+   "bound_cover": 100.0,
+   "bound_width": 39.968,
+   "bound_lo": 42.025,
+   "bound_hi": 81.993,
+   "delta0.1_cover": 100.0,
+   "delta0.1_width": 7.994,
+   "delta0.2_cover": 100.0,
+   "delta0.2_width": 15.987,
+   "delta0.3_cover": 100.0,
+   "delta0.3_width": 23.769,
+   "follow30_cover": 93.05,
+   "follow30_width": 12.6,
+   "follow30_bias": -0.012,
+   "follow100_cover": 95.05,
+   "follow100_width": 6.674,
+   "follow100_bias": 0.007,
+   "follow300_cover": 95.05,
+   "follow300_width": 3.268,
+   "follow300_bias": 0.012
+  },
+  "15ポイント低い": {
+   "d": -0.15,
+   "truth": 64.02,
+   "naive_est": 70.034,
+   "naive_cover": 0.0,
+   "naive_width": 5.181,
+   "bound_cover": 100.0,
+   "bound_width": 39.987,
+   "bound_lo": 42.029,
+   "bound_hi": 82.017,
+   "delta0.1_cover": 0.95,
+   "delta0.1_width": 7.997,
+   "delta0.2_cover": 98.7,
+   "delta0.2_width": 15.995,
+   "delta0.3_cover": 100.0,
+   "delta0.3_width": 23.774,
+   "follow30_cover": 93.85,
+   "follow30_width": 13.729,
+   "follow30_bias": -0.031,
+   "follow100_cover": 94.7,
+   "follow100_width": 7.256,
+   "follow100_bias": 0.014,
+   "follow300_cover": 94.65,
+   "follow300_width": 3.553,
+   "follow300_bias": -0.018
+  },
+  "30ポイント低い": {
+   "d": -0.3,
+   "truth": 58.002,
+   "naive_est": 70.006,
+   "naive_cover": 0.0,
+   "naive_width": 5.182,
+   "bound_cover": 100.0,
+   "bound_width": 39.976,
+   "bound_lo": 42.021,
+   "bound_hi": 81.997,
+   "delta0.1_cover": 0.0,
+   "delta0.1_width": 7.995,
+   "delta0.2_cover": 0.0,
+   "delta0.2_width": 15.991,
+   "delta0.3_cover": 49.55,
+   "delta0.3_width": 23.78,
+   "follow30_cover": 92.45,
+   "follow30_width": 13.488,
+   "follow30_bias": -0.055,
+   "follow100_cover": 94.6,
+   "follow100_width": 7.148,
+   "follow100_bias": 0.054,
+   "follow300_cover": 95.15,
+   "follow300_width": 3.498,
+   "follow300_bias": 0.034
+  },
+  "10ポイント高い": {
+   "d": 0.1,
+   "truth": 74.004,
+   "naive_est": 70.029,
+   "naive_cover": 3.6,
+   "naive_width": 5.181,
+   "bound_cover": 100.0,
+   "bound_width": 39.973,
+   "bound_lo": 42.036,
+   "bound_hi": 82.009,
+   "delta0.1_cover": 50.85,
+   "delta0.1_width": 7.995,
+   "delta0.2_cover": 100.0,
+   "delta0.2_width": 15.989,
+   "delta0.3_cover": 100.0,
+   "delta0.3_width": 23.766,
+   "follow30_cover": 92.75,
+   "follow30_width": 10.996,
+   "follow30_bias": -0.109,
+   "follow100_cover": 94.35,
+   "follow100_width": 5.81,
+   "follow100_bias": 0.026,
+   "follow300_cover": 94.25,
+   "follow300_width": 2.851,
+   "follow300_bias": 0.019
+  }
+ },
+ "two_stores": {
+  "formula": {
+   "obs_diff": 8.0,
+   "no_assumption_diff_bound": [
+    -31.6,
+    48.4
+   ],
+   "tipping_delta_points": 10.0
+  },
+  "combos": 16,
+  "combos_true_A_gt_B": 13,
+  "true_diff_range": [
+   -5.965,
+   25.995
+  ],
+  "obs_diff_range": [
+   7.967,
+   8.082
+  ]
+ },
+ "grid": {
+  "naive_cover_range": [
+   0.0,
+   100.0
+  ],
+  "follow100_cover_range": [
+   93.8,
+   95.05
+  ],
+  "bound_width_by_rate": {
+   "0.4": 60.00125,
+   "0.6": 40.011250000000004,
+   "0.8": 19.9875
+  }
+ }
+}

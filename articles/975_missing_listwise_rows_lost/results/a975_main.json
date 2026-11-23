@@ -1,0 +1,193 @@
+{
+ "setting": {
+  "N": 1000,
+  "K": 10,
+  "P": 0.05,
+  "REPS": 200,
+  "rho": 0.7,
+  "answer": "round(3.5 + 0.9×(0.7z + 0.71e)) を1〜5に収める（0.71 = √(1−0.7²)）",
+  "models": {
+   "①独立": {
+    "sigma": 0.0,
+    "b": 0.0
+   },
+   "②人ごとに欠けやすさが違う": {
+    "sigma": 1.5,
+    "b": 0.0
+   },
+   "③不満な人ほど空欄": {
+    "sigma": 0.0,
+    "b": 0.8
+   },
+   "④②と③の両方": {
+    "sigma": 1.5,
+    "b": 0.8
+   }
+  }
+ },
+ "example": {
+  "model": "④②と③の両方",
+  "complete_rows": 733,
+  "blank_cells": 467,
+  "cells": 10000,
+  "blank_share_pct": 4.67
+ },
+ "models": [
+  {
+   "model": "①独立",
+   "sigma": 0.0,
+   "b": 0.0,
+   "miss_rate_per_item": 0.0499,
+   "complete_share": 0.5997,
+   "complete_p10": 0.5819,
+   "complete_p90": 0.619,
+   "formula": 0.5987,
+   "dropped_with_one_blank": 0.7849,
+   "true_mean_q1": 3.4827,
+   "avail_bias_q1": 0.0001,
+   "comp_bias_q1": 0.0002,
+   "true_sat_q1": 49.91,
+   "avail_bias_sat_pt": -0.02,
+   "comp_bias_sat_pt": -0.03,
+   "comp_over_avail_bias": NaN,
+   "diff_vs_formula_pt": 0.1
+  },
+  {
+   "model": "②人ごとに欠けやすさが違う",
+   "sigma": 1.5,
+   "b": 0.0,
+   "miss_rate_per_item": 0.05,
+   "complete_share": 0.7108,
+   "complete_p10": 0.6929,
+   "complete_p90": 0.7301,
+   "formula": 0.7099,
+   "dropped_with_one_blank": 0.6148,
+   "true_mean_q1": 3.4879,
+   "avail_bias_q1": -0.0005,
+   "comp_bias_q1": 0.0012,
+   "true_sat_q1": 50.04,
+   "avail_bias_sat_pt": -0.01,
+   "comp_bias_sat_pt": 0.06,
+   "comp_over_avail_bias": NaN,
+   "diff_vs_formula_pt": 0.09
+  },
+  {
+   "model": "③不満な人ほど空欄",
+   "sigma": 0.0,
+   "b": 0.8,
+   "miss_rate_per_item": 0.0505,
+   "complete_share": 0.6366,
+   "complete_p10": 0.618,
+   "complete_p90": 0.653,
+   "formula": 0.6394,
+   "dropped_with_one_blank": 0.7126,
+   "true_mean_q1": 3.4871,
+   "avail_bias_q1": 0.0238,
+   "comp_bias_q1": 0.1856,
+   "true_sat_q1": 50.01,
+   "avail_bias_sat_pt": 1.02,
+   "comp_bias_sat_pt": 8.55,
+   "comp_over_avail_bias": 7.8,
+   "diff_vs_formula_pt": -0.28
+  },
+  {
+   "model": "④②と③の両方",
+   "sigma": 1.5,
+   "b": 0.8,
+   "miss_rate_per_item": 0.05,
+   "complete_share": 0.7283,
+   "complete_p10": 0.7099,
+   "complete_p90": 0.7481,
+   "formula": 0.7288,
+   "dropped_with_one_blank": 0.5945,
+   "true_mean_q1": 3.4871,
+   "avail_bias_q1": 0.0194,
+   "comp_bias_q1": 0.1014,
+   "true_sat_q1": 49.98,
+   "avail_bias_sat_pt": 0.85,
+   "comp_bias_sat_pt": 4.67,
+   "comp_over_avail_bias": 5.23,
+   "diff_vs_formula_pt": -0.05
+  }
+ ],
+ "indep_formula_0_95_pow_10": 0.5987,
+ "models_max_abs_diff_vs_formula_pt": 0.28,
+ "by_items": {
+  "1": {
+   "indep": 0.9507,
+   "person": 0.9497,
+   "formula_indep": 0.95
+  },
+  "3": {
+   "indep": 0.8582,
+   "person": 0.8728,
+   "formula_indep": 0.8574
+  },
+  "5": {
+   "indep": 0.7758,
+   "person": 0.8152,
+   "formula_indep": 0.7738
+  },
+  "10": {
+   "indep": 0.5997,
+   "person": 0.7108,
+   "formula_indep": 0.5987
+  },
+  "15": {
+   "indep": 0.4641,
+   "person": 0.6366,
+   "formula_indep": 0.4633
+  },
+  "20": {
+   "indep": 0.3585,
+   "person": 0.5796,
+   "formula_indep": 0.3585
+  }
+ },
+ "robust_count": {
+  "n_cases": 36,
+  "max_abs_diff_vs_formula": 0.0059,
+  "range": [
+   0.011,
+   0.923
+  ],
+  "min_case": {
+   "p": 0.2,
+   "k": 20.0,
+   "sigma": 0.0
+  },
+  "max_case": {
+   "p": 0.02,
+   "k": 5.0,
+   "sigma": 2.0
+  },
+  "indep_p05_k10": 0.6008,
+  "sigma2_p05_k10": 0.7565,
+  "indep_p10_k20": 0.1195,
+  "sigma2_p10_k20": 0.4906,
+  "indep_p02_k5": 0.9047
+ },
+ "robust_bias": {
+  "n_cases": 24,
+  "n_cases_b_pos": 18,
+  "n_cases_b0": 6,
+  "b_pos_comp_bias_range": [
+   0.028,
+   0.3427
+  ],
+  "b_pos_avail_bias_range": [
+   0.0034,
+   0.0632
+  ],
+  "b_pos_ratio_range": [
+   3.81,
+   12.82
+  ],
+  "b_pos_comp_sat_range": [
+   1.27,
+   16.52
+  ],
+  "b0_abs_max_comp_bias": 0.0046,
+  "all_b_pos_comp_gt_avail": true
+ }
+}

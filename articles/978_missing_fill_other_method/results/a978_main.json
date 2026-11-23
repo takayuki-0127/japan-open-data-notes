@@ -1,0 +1,158 @@
+{
+ "one_draw": {
+  "n": 6000,
+  "missing": 1617,
+  "missing_share": 26.95,
+  "missing_by_store": {
+   "A": 17.4,
+   "B": 25.4,
+   "C": 38.05
+  },
+  "fill_visits_diff_z_filled_rows": 0.374,
+  "true_diff_z_filled_rows": 1.043,
+  "true_diff_z_all": 1.036
+ },
+ "base_200reps": {
+  "truth": {
+   "mean": 6.3215,
+   "diff_z": 1.0717,
+   "diff_CA": -0.2994,
+   "sd": 1.4941,
+   "corr_x": 0.4035,
+   "share_ge8": 13.3455
+  },
+  "missing_share": {
+   "miss_share": 27.51,
+   "miss_A": 16.05,
+   "miss_C": 40.49
+  },
+  "estimate": {
+   "除く": {
+    "mean": 6.4162,
+    "diff_z": 1.0599,
+    "diff_CA": -0.2293,
+    "sd": 1.4858,
+    "corr_x": 0.3949,
+    "share_ge8": 14.6426
+   },
+   "利用回数だけの式で埋める": {
+    "mean": 6.3415,
+    "diff_z": 0.874,
+    "diff_CA": -0.1715,
+    "sd": 1.3074,
+    "corr_x": 0.4579,
+    "share_ge8": 10.6383
+   },
+   "利用回数・店・新サービスの式で埋める": {
+    "mean": 6.3212,
+    "diff_z": 1.0725,
+    "diff_CA": -0.2975,
+    "sd": 1.3313,
+    "corr_x": 0.4528,
+    "share_ge8": 10.7097
+   },
+   "同じ式＋散らばりを足して埋める": {
+    "mean": 6.3207,
+    "diff_z": 1.0699,
+    "diff_CA": -0.2979,
+    "sd": 1.4914,
+    "corr_x": 0.4038,
+    "share_ge8": 13.2907
+   },
+   "電話で聞き直して埋める": {
+    "mean": 6.4852,
+    "diff_z": 1.0396,
+    "diff_CA": -0.1532,
+    "sd": 1.4871,
+    "corr_x": 0.3683,
+    "share_ge8": 15.773
+   }
+  },
+  "bias": {
+   "除く": {
+    "mean": 0.0947,
+    "diff_z": -0.0118,
+    "diff_CA": 0.0701,
+    "sd": -0.0084,
+    "corr_x": -0.0086,
+    "share_ge8": 1.2971
+   },
+   "利用回数だけの式で埋める": {
+    "mean": 0.02,
+    "diff_z": -0.1977,
+    "diff_CA": 0.1279,
+    "sd": -0.1867,
+    "corr_x": 0.0544,
+    "share_ge8": -2.7072
+   },
+   "利用回数・店・新サービスの式で埋める": {
+    "mean": -0.0003,
+    "diff_z": 0.0008,
+    "diff_CA": 0.0018,
+    "sd": -0.1629,
+    "corr_x": 0.0493,
+    "share_ge8": -2.6357
+   },
+   "同じ式＋散らばりを足して埋める": {
+    "mean": -0.0008,
+    "diff_z": -0.0018,
+    "diff_CA": 0.0015,
+    "sd": -0.0028,
+    "corr_x": 0.0003,
+    "share_ge8": -0.0548
+   },
+   "電話で聞き直して埋める": {
+    "mean": 0.1637,
+    "diff_z": -0.0321,
+    "diff_CA": 0.1462,
+    "sd": -0.007,
+    "corr_x": -0.0352,
+    "share_ge8": 2.4275
+   }
+  },
+  "sd_over_reps": {
+   "除く": {
+    "diff_z": 0.0395,
+    "diff_CA": 0.0593
+   },
+   "利用回数だけの式で埋める": {
+    "diff_z": 0.0318,
+    "diff_CA": 0.0438
+   },
+   "利用回数・店・新サービスの式で埋める": {
+    "diff_z": 0.0388,
+    "diff_CA": 0.0578
+   },
+   "同じ式＋散らばりを足して埋める": {
+    "diff_z": 0.0452,
+    "diff_CA": 0.061
+   },
+   "電話で聞き直して埋める": {
+    "diff_z": 0.0351,
+    "diff_CA": 0.0499
+   }
+  }
+ },
+ "grid_fill_model": {
+  "bias_diff_z_range_fill_visits": [
+   -0.3221,
+   -0.1063
+  ],
+  "bias_diff_z_range_fill_noise": [
+   -0.0056,
+   0.0031
+  ],
+  "bias_sd_range_fill_full": [
+   -0.2541,
+   -0.0828
+  ]
+ },
+ "grid_phone": {
+  "max_abs_gap_mean_vs_formula": 0.0054,
+  "max_abs_gap_CA_vs_formula": 0.0021,
+  "bias_diff_CA_range": [
+   0.0,
+   0.3566
+  ]
+ }
+}

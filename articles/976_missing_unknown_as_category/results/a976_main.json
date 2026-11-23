@@ -1,0 +1,259 @@
+{
+ "setting": {
+  "channels": [
+   "通りがかり",
+   "ネット検索",
+   "SNS",
+   "紹介",
+   "チラシ"
+  ],
+  "true_share": [
+   0.35,
+   0.25,
+   0.15,
+   0.15,
+   0.1
+  ],
+  "true_repeat": [
+   0.2,
+   0.25,
+   0.3,
+   0.45,
+   0.15
+  ],
+  "odds_mult_unknown": {
+   "なし": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "弱い": [
+    1.7,
+    1.0,
+    1.0,
+    0.6,
+    1.0
+   ],
+   "強い": [
+    3.0,
+    1.0,
+    1.0,
+    0.3,
+    1.0
+   ]
+  },
+  "N_per_store": 2000,
+  "REPS": 200,
+  "base": {
+   "unk_a": 0.1,
+   "unk_b": 0.3,
+   "dep": "強い",
+   "diff": 0.0
+  }
+ },
+ "example_counts": {
+  "通りがかり": {
+   "A": 574,
+   "B": 345
+  },
+  "ネット検索": {
+   "A": 452,
+   "B": 409
+  },
+  "SNS": {
+   "A": 297,
+   "B": 215
+  },
+  "紹介": {
+   "A": 279,
+   "B": 273
+  },
+  "チラシ": {
+   "A": 172,
+   "B": 165
+  },
+  "不明": {
+   "A": 226,
+   "B": 593
+  }
+ },
+ "base_shares": [
+  {
+   "channel": "通りがかり",
+   "true": 35.0,
+   "A_incl": 28.67,
+   "B_incl": 18.09,
+   "diff_incl_pt": -10.57,
+   "A_excl": 31.86,
+   "B_excl": 25.89,
+   "diff_excl_pt": -5.97,
+   "diff_excl_p10": -8.1,
+   "diff_excl_p90": -3.9
+  },
+  {
+   "channel": "ネット検索",
+   "true": 25.0,
+   "A_incl": 23.37,
+   "B_incl": 19.12,
+   "diff_incl_pt": -4.25,
+   "A_excl": 25.97,
+   "B_excl": 27.35,
+   "diff_excl_pt": 1.38,
+   "diff_excl_p10": -0.46,
+   "diff_excl_p90": 3.57
+  },
+  {
+   "channel": "SNS",
+   "true": 15.0,
+   "A_incl": 13.93,
+   "B_incl": 11.48,
+   "diff_incl_pt": -2.46,
+   "A_excl": 15.48,
+   "B_excl": 16.42,
+   "diff_excl_pt": 0.93,
+   "diff_excl_p10": -0.78,
+   "diff_excl_p90": 2.64
+  },
+  {
+   "channel": "紹介",
+   "true": 15.0,
+   "A_incl": 14.67,
+   "B_incl": 13.65,
+   "diff_incl_pt": -1.02,
+   "A_excl": 16.3,
+   "B_excl": 19.52,
+   "diff_excl_pt": 3.22,
+   "diff_excl_p10": 1.57,
+   "diff_excl_p90": 5.06
+  },
+  {
+   "channel": "チラシ",
+   "true": 10.0,
+   "A_incl": 9.35,
+   "B_incl": 7.57,
+   "diff_incl_pt": -1.78,
+   "A_excl": 10.39,
+   "B_excl": 10.83,
+   "diff_excl_pt": 0.43,
+   "diff_excl_p10": -1.12,
+   "diff_excl_p90": 2.27
+  }
+ ],
+ "base_unknown_rate": {
+  "A": 10.02,
+  "B": 30.1
+ },
+ "base_ref_diff": {
+  "incl_pt": -1.02,
+  "excl_pt": 3.22,
+  "excl_share_runs_gt_0": 99.0,
+  "excl_share_runs_gt_1pt": 93.5,
+  "incl_share_runs_lt_0": 82.0
+ },
+ "repeat": {
+  "table": [
+   {
+    "channel": "通りがかり",
+    "A": 20.05,
+    "B": 19.98,
+    "true": 20.0
+   },
+   {
+    "channel": "ネット検索",
+    "A": 24.98,
+    "B": 25.11,
+    "true": 25.0
+   },
+   {
+    "channel": "SNS",
+    "A": 30.32,
+    "B": 30.16,
+    "true": 30.0
+   },
+   {
+    "channel": "紹介",
+    "A": 45.07,
+    "B": 44.55,
+    "true": 45.0
+   },
+   {
+    "channel": "チラシ",
+    "A": 15.14,
+    "B": 15.35,
+    "true": 15.0
+   },
+   {
+    "channel": "不明",
+    "A": 22.24,
+    "B": 22.64,
+    "true": NaN
+   }
+  ],
+  "unknown_formula": {
+   "A": 22.33,
+   "B": 22.84
+  },
+  "known_only_formula": {
+   "A": 26.41,
+   "B": 27.35
+  },
+  "overall": {
+   "A": 26.07,
+   "B": 25.93
+  },
+  "true_overall": 26.0
+ },
+ "robust": {
+  "n_cases": 24,
+  "dep_none_excl_maxabs_err": 0.31,
+  "dep_none_incl_ref_range": [
+   -4.53,
+   0.12
+  ],
+  "diff0_dep_pos_excl_ref_range": [
+   0.06,
+   5.32
+  ],
+  "diff0_dep_pos_incl_ref_range": [
+   -3.04,
+   0.06
+  ],
+  "diff0_dep_pos_unkb_gt10_excl_ref_range": [
+   0.97,
+   5.32
+  ],
+  "diff0_dep_pos_unkb_gt10_excl_maxabs_err_range": [
+   1.65,
+   8.78
+  ],
+  "diff0_unkb_gt10_incl_maxabs_err_range": [
+   3.64,
+   14.84
+  ],
+  "n_diff0_unkb_gt10": 9,
+  "n_diff0_dep_pos_unkb_gt10": 6,
+  "dep_none_excl_maxabs_err_all": 0.31,
+  "diff0_unkb10_strong": {
+   "ref_incl_pt": 0.06,
+   "ref_excl_pt": 0.1
+  },
+  "diff5_incl_ref_range": [
+   -1.46,
+   4.79
+  ],
+  "diff5_excl_ref_range": [
+   5.01,
+   12.13
+  ],
+  "diff5_strong_unkb40": {
+   "ref_incl_pt": 2.44,
+   "ref_excl_pt": 12.13
+  },
+  "diff5_none_unkb40": {
+   "ref_incl_pt": -1.46,
+   "ref_excl_pt": 5.01
+  }
+ }
+}
