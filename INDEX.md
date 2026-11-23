@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 739本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 763本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,22 +10,22 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 139 |
+| 予測・時系列 | 141 |
 | 因果推論・効果検証 | 68 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 322 |
+| 統計の考え方（検定・区間・回帰） | 326 |
 | 機械学習・モデル評価 | 104 |
 | 顧客分析・生存分析 | 72 |
-| SQL・データ処理 | 94 |
+| SQL・データ処理 | 95 |
 | Excel | 12 |
-| 集計の定義・KPI | 172 |
+| 集計の定義・KPI | 174 |
 | 可視化・報告・BI | 46 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 21 |
 | 再現性・振り返り | 95 |
-| その他（記述・要因分解など） | 435 |
+| その他（記述・要因分解など） | 451 |
 
-<details><summary><b>予測・時系列</b>（139本）</summary>
+<details><summary><b>予測・時系列</b>（141本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -168,6 +168,8 @@
 | 799 | 季節の波を月のダミー変数で表すか、フーリエ項で表すかで、予測の誤差はどれだけ違うのか？ | [799_fourier_vs_dummy_seasonality](articles/799_fourier_vs_dummy_seasonality) |
 | 819 | 移動平均の幅で、山と谷はどれだけ動くのか？ | [819_graph_moving_average_window](articles/819_graph_moving_average_window) |
 | 878 | 混雑の予測を出すと、空いている時間に人が集まって外れるのか？ | [878_queue_forecast_self_defeating](articles/878_queue_forecast_self_defeating) |
+| 1022 | 予約の多い日は、当日も多いのか？ | [1022_booking_busy_day_walkins](articles/1022_booking_busy_day_walkins) |
+| 1028 | 予約の数から当日の人数を見込むと、どれだけ外れるのか？ | [1028_booking_forecast_from_bookings](articles/1028_booking_forecast_from_bookings) |
 
 </details>
 
@@ -280,7 +282,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（322本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（326本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -606,6 +608,10 @@
 | 1009 | 項目の数を増やすと、合計点は安定するのか？ | [1009_index_more_items_stability](articles/1009_index_more_items_stability) |
 | 1010 | 平均で合わせるか、いちばん低い項目で合わせるかで、何が変わるのか？ | [1010_index_mean_vs_min_item](articles/1010_index_mean_vs_min_item) |
 | 1016 | スコアを狙って動くと、スコアと本当の良さはずれていくのか？ | [1016_index_target_score_drift](articles/1016_index_target_score_drift) |
+| 1022 | 予約の多い日は、当日も多いのか？ | [1022_booking_busy_day_walkins](articles/1022_booking_busy_day_walkins) |
+| 1036 | 移動の記録の抜け（電波が切れた区間）で、距離はどれだけずれるのか？ | [1036_travel_gps_gap_distance](articles/1036_travel_gps_gap_distance) |
+| 1039 | 移動時間の短縮は、全体の時間をどれだけ減らすのか？ | [1039_travel_time_cut_total](articles/1039_travel_time_cut_total) |
+| 1040 | 計画の時刻表どおりに動く割合は、区間の数でどう変わるのか？ | [1040_travel_timetable_sections](articles/1040_travel_timetable_sections) |
 
 </details>
 
@@ -799,7 +805,7 @@
 
 </details>
 
-<details><summary><b>SQL・データ処理</b>（94本）</summary>
+<details><summary><b>SQL・データ処理</b>（95本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -897,6 +903,7 @@
 | 791 | 0で割るのを NULLIF で避けると、その店は平均から黙って消え、全体の率はどれだけ変わるのか？ | [791_nullif_drop_from_avg](articles/791_nullif_drop_from_avg) |
 | 793 | 空の文字と NULL を区別せずに数えると、未入力の件数はどれだけずれるのか？ | [793_empty_string_vs_null](articles/793_empty_string_vs_null) |
 | 965 | 同じ文の重複（コピペ）を除かないと、何が起きるのか？ | [965_text_duplicate_copies](articles/965_text_duplicate_copies) |
+| 1024 | 同じ人の重複した予約は、埋まり具合をどれだけ押し上げるのか？ | [1024_booking_duplicate_holds_fill](articles/1024_booking_duplicate_holds_fill) |
 
 </details>
 
@@ -919,7 +926,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（172本）</summary>
+<details><summary><b>集計の定義・KPI</b>（174本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1095,6 +1102,8 @@
 | 995 | 「前年比120%」の来場は、新しい人か、来る回数が増えたのか？ | [995_visitors_growth_new_or_frequency](articles/995_visitors_growth_new_or_frequency) |
 | 999 | 会員の来場だけで、全体の傾向は読めるのか？ | [999_visitors_members_only_trend](articles/999_visitors_members_only_trend) |
 | 1007 | 基準の年を変えると、指数の伸びはどう見えるのか？ | [1007_index_base_year_growth](articles/1007_index_base_year_growth) |
+| 1018 | キャンセル率は、何を分母にするかでどう変わるのか？ | [1018_cancel_rate_denominator](articles/1018_cancel_rate_denominator) |
+| 1025 | 予約を締め切る時刻で、埋まり具合の見え方は変わるのか？ | [1025_booking_cutoff_time_fill](articles/1025_booking_cutoff_time_fill) |
 
 </details>
 
@@ -1361,7 +1370,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（435本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（451本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1800,6 +1809,22 @@
 | 1013 | 前年の項目と今年の項目が違うとき、指数はつなげるのか？ | [1013_index_items_changed_link](articles/1013_index_items_changed_link) |
 | 1014 | 合計点の差が小さいとき、順位の差は意味があるのか？ | [1014_index_small_gap_rank_meaning](articles/1014_index_small_gap_rank_meaning) |
 | 1015 | 足し算か掛け算かで、苦手な項目の効き方はどう変わるのか？ | [1015_index_add_vs_multiply_weak_item](articles/1015_index_add_vs_multiply_weak_item) |
+| 1017 | 予約の埋まり具合が9割でも、当日の席はどれだけ空くのか？ | [1017_booking_90pct_empty_seats](articles/1017_booking_90pct_empty_seats) |
+| 1019 | 予約を多めに取ると、断る人は何%出るのか？ | [1019_overbooking_turned_away_share](articles/1019_overbooking_turned_away_share) |
+| 1020 | 早く予約した人ほどキャンセルしやすいのか？ | [1020_booking_lead_time_cancel](articles/1020_booking_lead_time_cancel) |
+| 1021 | 前日のキャンセルと当日の無断の不来店は、分けて数えるべきか？ | [1021_cancel_day_before_vs_noshow](articles/1021_cancel_day_before_vs_noshow) |
+| 1023 | 予約のない枠は、本当に人気がないのか？ | [1023_booking_empty_slot_popularity](articles/1023_booking_empty_slot_popularity) |
+| 1026 | キャンセル待ちの人は、何人いればよいのか？ | [1026_booking_waitlist_how_many](articles/1026_booking_waitlist_how_many) |
+| 1027 | 前年の同じ日の予約と比べると、何を読み違えるのか？ | [1027_booking_last_year_same_date](articles/1027_booking_last_year_same_date) |
+| 1029 | 行きは時速40km、帰りは60kmなら、平均は50kmなのか？ | [1029_travel_avg_speed_harmonic](articles/1029_travel_avg_speed_harmonic) |
+| 1030 | 「平均の所要時間」で計画すると、何回に1回遅れるのか？ | [1030_travel_plan_mean_late_share](articles/1030_travel_plan_mean_late_share) |
+| 1031 | 遅れの平均と、遅れた便の遅れの平均は、どれだけ違うのか？ | [1031_travel_delay_mean_vs_delayed](articles/1031_travel_delay_mean_vs_delayed) |
+| 1032 | 乗り換え1回で、全体の遅れはどう増えるのか？ | [1032_transfer_delay_jump](articles/1032_transfer_delay_jump) |
+| 1033 | 「定時」の決め方（1分・5分）で、定時率はどう変わるのか？ | [1033_ontime_definition_threshold](articles/1033_ontime_definition_threshold) |
+| 1034 | 混む時間帯を避けると、どれだけ早く着くのか？ | [1034_offpeak_choice_selection](articles/1034_offpeak_choice_selection) |
+| 1035 | 道のりの長い日ほど、1kmあたりの時間は短いのか？ | [1035_travel_long_day_per_km](articles/1035_travel_long_day_per_km) |
+| 1037 | 待ち合わせに余裕を何分みれば、9割の確率で間に合うのか？ | [1037_travel_meeting_buffer_90pct](articles/1037_travel_meeting_buffer_90pct) |
+| 1038 | 「最短の道」は、毎日同じなのか？ | [1038_travel_shortest_route_daily](articles/1038_travel_shortest_route_daily) |
 
 </details>
 
@@ -1808,16 +1833,16 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 218 |
+| 小売・店舗 | 223 |
 | EC・会員・Web | 100 |
 | マーケティング・広告 | 27 |
 | 需要予測・在庫 | 31 |
-| 業務の集計・報告 | 137 |
+| 業務の集計・報告 | 138 |
 | 作業時間・処理件数 | 6 |
 | 保険 | 72 |
-| 公的統計・地域・人口 | 434 |
+| 公的統計・地域・人口 | 435 |
 
-<details><summary><b>小売・店舗</b>（218本）</summary>
+<details><summary><b>小売・店舗</b>（223本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2039,6 +2064,11 @@
 | 1013 | 前年の項目と今年の項目が違うとき、指数はつなげるのか？ | [1013_index_items_changed_link](articles/1013_index_items_changed_link) |
 | 1014 | 合計点の差が小さいとき、順位の差は意味があるのか？ | [1014_index_small_gap_rank_meaning](articles/1014_index_small_gap_rank_meaning) |
 | 1016 | スコアを狙って動くと、スコアと本当の良さはずれていくのか？ | [1016_index_target_score_drift](articles/1016_index_target_score_drift) |
+| 1017 | 予約の埋まり具合が9割でも、当日の席はどれだけ空くのか？ | [1017_booking_90pct_empty_seats](articles/1017_booking_90pct_empty_seats) |
+| 1021 | 前日のキャンセルと当日の無断の不来店は、分けて数えるべきか？ | [1021_cancel_day_before_vs_noshow](articles/1021_cancel_day_before_vs_noshow) |
+| 1022 | 予約の多い日は、当日も多いのか？ | [1022_booking_busy_day_walkins](articles/1022_booking_busy_day_walkins) |
+| 1025 | 予約を締め切る時刻で、埋まり具合の見え方は変わるのか？ | [1025_booking_cutoff_time_fill](articles/1025_booking_cutoff_time_fill) |
+| 1027 | 前年の同じ日の予約と比べると、何を読み違えるのか？ | [1027_booking_last_year_same_date](articles/1027_booking_last_year_same_date) |
 
 </details>
 
@@ -2221,7 +2251,7 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（137本）</summary>
+<details><summary><b>業務の集計・報告</b>（138本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2362,6 +2392,7 @@
 | 995 | 「前年比120%」の来場は、新しい人か、来る回数が増えたのか？ | [995_visitors_growth_new_or_frequency](articles/995_visitors_growth_new_or_frequency) |
 | 999 | 会員の来場だけで、全体の傾向は読めるのか？ | [999_visitors_members_only_trend](articles/999_visitors_members_only_trend) |
 | 1007 | 基準の年を変えると、指数の伸びはどう見えるのか？ | [1007_index_base_year_growth](articles/1007_index_base_year_growth) |
+| 1025 | 予約を締め切る時刻で、埋まり具合の見え方は変わるのか？ | [1025_booking_cutoff_time_fill](articles/1025_booking_cutoff_time_fill) |
 
 </details>
 
@@ -2457,7 +2488,7 @@
 
 </details>
 
-<details><summary><b>公的統計・地域・人口</b>（434本）</summary>
+<details><summary><b>公的統計・地域・人口</b>（435本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2895,6 +2926,7 @@
 | 474 | 見出しを結合セルや空欄で省いた Excel の表を読むと、何行が区分を失うのか？ | [474_blank_headings_filldown](articles/474_blank_headings_filldown) |
 | 541 | 郵便番号から都道府県・市区町村を引くと、古い番号や事業所の個別番号のせいで何件が引けないのか？ | [541_postal_code_lookup_gaps](articles/541_postal_code_lookup_gaps) |
 | 946 | 面積で割るか人口で割るかで、密度の地図はどう変わるのか？ | [946_map_density_area_vs_population](articles/946_map_density_area_vs_population) |
+| 1030 | 「平均の所要時間」で計画すると、何回に1回遅れるのか？ | [1030_travel_plan_mean_late_share](articles/1030_travel_plan_mean_late_share) |
 
 </details>
 
