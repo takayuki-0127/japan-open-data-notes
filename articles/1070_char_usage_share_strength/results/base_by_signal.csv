@@ -1,0 +1,4 @@
+signal,top3_hit_pct,first_in_true_top3_pct,first_true_rank_mean,rank_corr
+①使われる割合,52.0,71.5,3.19,0.625
+②点数の上位2割の人が使う割合,64.5,89.0,1.97,0.815
+③そのままの勝率,80.67,97.5,1.35,0.917

@@ -1,0 +1,5 @@
+group,share_players_pct,games_median,mean_abs_error,corr_rating_true,strong_players_bias,weak_players_bias,season_max_minus_end,true_mean_of_rating_1650_1750,n_rating_1650_1750,share_in_true_top20_pct,share_in_top20_end_pct,share_in_top20_max_pct,share_in_top20_end_min50_pct,true_top20_found_in_end_top20_pct
+週1回くらいまで（1日0.2試合未満）,6.19,7.0,128.8,0.718,-241.35,247.41,28.42,,2,5.0,0.0,0.0,0.0,0.0
+1日0.2〜1試合,31.72,31.0,76.53,0.899,-128.2,130.71,69.36,1763.36,657,33.75,2.0,0.0,1.75,4.44
+1日1〜10試合,54.72,149.0,45.25,0.959,-18.37,13.51,128.12,1686.3,1290,53.25,83.0,75.25,83.25,81.69
+1日10試合以上,7.38,937.0,44.71,0.966,5.25,-6.87,170.99,1684.42,185,8.0,15.0,24.75,15.0,96.88

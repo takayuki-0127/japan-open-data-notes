@@ -1,0 +1,232 @@
+{
+ "setting": {
+  "league_players": 400,
+  "true_sd": 200,
+  "warm_rounds": 300,
+  "eval_rounds": 300,
+  "settle_rounds": 100,
+  "focal_per_strategy": 20,
+  "eps": 0.1,
+  "K": 20,
+  "est_sd": 0.1,
+  "m": 5,
+  "reps": 30
+ },
+ "base": {
+  "random": {
+   "name": "①選ばない（くじ）",
+   "n_players": 600,
+   "rating_minus_1500": -1.25,
+   "rating_se": 1.05,
+   "league_percentile": 49.69,
+   "win_rate": 49.81,
+   "expected_by_points": 49.92,
+   "opp_true_strength": 0.43,
+   "opp_points_over_fair": -0.1,
+   "vs_random": 0.0
+  },
+  "low_rating": {
+   "name": "②点数のいちばん低い相手",
+   "n_players": 600,
+   "rating_minus_1500": -9.48,
+   "rating_se": 1.07,
+   "league_percentile": 47.86,
+   "win_rate": 73.36,
+   "expected_by_points": 73.46,
+   "opp_true_strength": -228.09,
+   "opp_points_over_fair": -12.76,
+   "vs_random": -8.23
+  },
+  "easy_win": {
+   "name": "③いちばん勝てそうな相手",
+   "n_players": 600,
+   "rating_minus_1500": 5.61,
+   "rating_se": 1.08,
+   "league_percentile": 51.25,
+   "win_rate": 71.87,
+   "expected_by_points": 71.87,
+   "opp_true_strength": -209.59,
+   "opp_points_over_fair": -0.86,
+   "vs_random": 6.86
+  },
+  "underrated": {
+   "name": "④点数のわりに勝てそうな相手",
+   "n_players": 600,
+   "rating_minus_1500": 21.45,
+   "rating_se": 0.99,
+   "league_percentile": 54.78,
+   "win_rate": 50.95,
+   "expected_by_points": 50.9,
+   "opp_true_strength": -9.72,
+   "opp_points_over_fair": 21.33,
+   "vs_random": 22.7
+  }
+ },
+ "max_abs_win_minus_expected_pt": 0.11,
+ "focal_total_per_rep": 80,
+ "rating_se_range": [
+  0.99,
+  1.08
+ ],
+ "league_points_per_true_point": 0.84,
+ "grid_range": {
+  "n_cases": 27,
+  "low_rating_vs_random": [
+   -26.35,
+   6.4
+  ],
+  "easy_win_vs_random": [
+   -2.92,
+   11.85
+  ],
+  "underrated_vs_random": [
+   3.66,
+   69.19
+  ],
+  "underrated_pct": [
+   50.85,
+   64.68
+  ],
+  "underrated_positive_cases": 27,
+  "easy_win_negative_cases": 2,
+  "low_rating_negative_cases": 18,
+  "easy_win_win": [
+   64.18,
+   76.07
+  ],
+  "eps0.0": {
+   "low_rating_vs_random": [
+    -26.34,
+    3.32
+   ],
+   "easy_win_vs_random": [
+    -2.92,
+    7.32
+   ],
+   "underrated_vs_random": [
+    3.66,
+    59.97
+   ]
+  },
+  "eps0.1": {
+   "low_rating_vs_random": [
+    -24.39,
+    5.47
+   ],
+   "easy_win_vs_random": [
+    1.9,
+    11.16
+   ],
+   "underrated_vs_random": [
+    7.36,
+    69.19
+   ]
+  },
+  "eps0.2": {
+   "low_rating_vs_random": [
+    -26.35,
+    6.4
+   ],
+   "easy_win_vs_random": [
+    4.64,
+    11.85
+   ],
+   "underrated_vs_random": [
+    7.29,
+    62.09
+   ]
+  },
+  "K10": {
+   "low_rating_vs_random": [
+    1.43,
+    6.4
+   ],
+   "underrated_vs_random": [
+    3.66,
+    22.74
+   ]
+  },
+  "K20": {
+   "low_rating_vs_random": [
+    -12.82,
+    -0.59
+   ],
+   "underrated_vs_random": [
+    11.95,
+    38.78
+   ]
+  },
+  "K40": {
+   "low_rating_vs_random": [
+    -26.35,
+    -18.85
+   ],
+   "underrated_vs_random": [
+    19.37,
+    69.19
+   ]
+  }
+ },
+ "by_candidates": {
+  "1": {
+   "random_vs_random": 0.0,
+   "random_pct": 49.83,
+   "low_rating_vs_random": -2.07,
+   "low_rating_pct": 49.39,
+   "easy_win_vs_random": -6.58,
+   "easy_win_pct": 48.36,
+   "underrated_vs_random": -2.69,
+   "underrated_pct": 49.25
+  },
+  "2": {
+   "random_vs_random": 0.0,
+   "random_pct": 49.55,
+   "low_rating_vs_random": -3.51,
+   "low_rating_pct": 48.81,
+   "easy_win_vs_random": 6.27,
+   "easy_win_pct": 50.95,
+   "underrated_vs_random": 11.08,
+   "underrated_pct": 52.22
+  },
+  "3": {
+   "random_vs_random": 0.0,
+   "random_pct": 50.81,
+   "low_rating_vs_random": -7.88,
+   "low_rating_pct": 49.13,
+   "easy_win_vs_random": 1.39,
+   "easy_win_pct": 50.95,
+   "underrated_vs_random": 15.2,
+   "underrated_pct": 53.97
+  },
+  "5": {
+   "random_vs_random": 0.0,
+   "random_pct": 49.92,
+   "low_rating_vs_random": -9.53,
+   "low_rating_pct": 47.88,
+   "easy_win_vs_random": 4.33,
+   "easy_win_pct": 50.92,
+   "underrated_vs_random": 25.21,
+   "underrated_pct": 55.51
+  },
+  "10": {
+   "random_vs_random": 0.0,
+   "random_pct": 49.74,
+   "low_rating_vs_random": -14.16,
+   "low_rating_pct": 46.6,
+   "easy_win_vs_random": 6.63,
+   "easy_win_pct": 51.31,
+   "underrated_vs_random": 32.22,
+   "underrated_pct": 56.86
+  },
+  "20": {
+   "random_vs_random": 0.0,
+   "random_pct": 49.95,
+   "low_rating_vs_random": -15.66,
+   "low_rating_pct": 46.76,
+   "easy_win_vs_random": 5.17,
+   "easy_win_pct": 51.08,
+   "underrated_vs_random": 35.41,
+   "underrated_pct": 57.52
+  }
+ }
+}

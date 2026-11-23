@@ -1,0 +1,1480 @@
+{
+ "base_setting": {
+  "new_mean": 1400.0,
+  "new_sd": 200.0,
+  "K": 32.0,
+  "existing_mean": 1500.0,
+  "existing_sd": 200.0,
+  "n_existing": 1000,
+  "n_new": 200,
+  "warmup_games": 300,
+  "games_after_join": 100,
+  "reps": 100,
+  "starts": [
+   1000.0,
+   1200.0,
+   1300.0,
+   1400.0,
+   1500.0,
+   1800.0
+  ]
+ },
+ "headline": {
+  "g10_abs_rank_start1500": 201.1,
+  "g10_abs_rank_start1400": 183.71,
+  "g10_abs_rank_start1000": 331.78,
+  "g10_abs_rank_start1800": 439.6,
+  "g10_rank_up_start1500": 88.14,
+  "g10_rank_up_start1800": 435.07,
+  "g10_rank_up_start1000": -327.12,
+  "g10_existing_abs_rank": 79.63,
+  "g10_start1400_over_existing": 2.403,
+  "g30_abs_rank_start1500": 117.31,
+  "g30_abs_rank_start1400": 111.27,
+  "g100_abs_rank_start1500": 70.58,
+  "g100_abs_rank_start1400": 70.08,
+  "g100_existing_abs_rank": 70.14,
+  "g10_ratio_1500_over_1400": 1.095,
+  "existing_shift_g100_start1500": 15.3,
+  "existing_shift_g100_start1800": 63.18,
+  "existing_shift_g100_start1000": -62.92,
+  "g10_new_share_top100_start1800_pct": 15.3,
+  "true_new_share_top100_pct": 7.12,
+  "games_to_catch_up": {
+   "1000": 90,
+   "1200": 80,
+   "1300": 70,
+   "1400": 70,
+   "1500": 70,
+   "1800": 90
+  }
+ },
+ "constants": {
+  "win_prob_scale": 400,
+  "catch_up_ratio": 1.1,
+  "check_games": [
+   0,
+   1,
+   2,
+   3,
+   5,
+   7,
+   10,
+   15,
+   20,
+   25,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100
+  ]
+ },
+ "conservation_check": {
+  "1000": {
+   "existing_shift": -62.92,
+   "formula": -62.92
+  },
+  "1200": {
+   "existing_shift": -32.16,
+   "formula": -32.16
+  },
+  "1300": {
+   "existing_shift": -16.456,
+   "formula": -16.456
+  },
+  "1400": {
+   "existing_shift": -0.62,
+   "formula": -0.62
+  },
+  "1500": {
+   "existing_shift": 15.301,
+   "formula": 15.301
+  },
+  "1800": {
+   "existing_shift": 63.179,
+   "formula": 63.179
+  }
+ },
+ "by_start_and_games": [
+  {
+   "games": 0,
+   "start": 1000,
+   "new_bias": -402.11,
+   "new_abs_rank": 379.93,
+   "new_rank_up": -355.14,
+   "existing_abs_rank": 97.73,
+   "existing_shift": 0.0,
+   "new_mean_rating": 1000.0,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 0,
+   "start": 1200,
+   "new_bias": -202.11,
+   "new_abs_rank": 339.42,
+   "new_rank_up": -284.45,
+   "existing_abs_rank": 88.93,
+   "existing_shift": 0.0,
+   "new_mean_rating": 1200.0,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 0,
+   "start": 1300,
+   "new_bias": -102.11,
+   "new_abs_rank": 303.08,
+   "new_rank_up": -188.21,
+   "existing_abs_rank": 83.7,
+   "existing_shift": 0.0,
+   "new_mean_rating": 1300.0,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 0,
+   "start": 1400,
+   "new_bias": -2.11,
+   "new_abs_rank": 284.5,
+   "new_rank_up": -42.3,
+   "existing_abs_rank": 82.86,
+   "existing_shift": 0.0,
+   "new_mean_rating": 1400.0,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 0,
+   "start": 1500,
+   "new_bias": 97.89,
+   "new_abs_rank": 315.49,
+   "new_rank_up": 136.88,
+   "existing_abs_rank": 88.12,
+   "existing_shift": 0.0,
+   "new_mean_rating": 1500.0,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 0,
+   "start": 1800,
+   "new_bias": 397.89,
+   "new_abs_rank": 570.03,
+   "new_rank_up": 556.86,
+   "existing_abs_rank": 122.96,
+   "existing_shift": 0.0,
+   "new_mean_rating": 1800.0,
+   "new_share_top100_pct": 20.54
+  },
+  {
+   "games": 1,
+   "start": 1000,
+   "new_bias": -393.56,
+   "new_abs_rank": 368.18,
+   "new_rank_up": -353.62,
+   "existing_abs_rank": 97.53,
+   "existing_shift": -1.71,
+   "new_mean_rating": 1008.55,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 1,
+   "start": 1200,
+   "new_bias": -196.65,
+   "new_abs_rank": 321.01,
+   "new_rank_up": -279.03,
+   "existing_abs_rank": 87.6,
+   "existing_shift": -1.09,
+   "new_mean_rating": 1205.45,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 1,
+   "start": 1300,
+   "new_bias": -98.93,
+   "new_abs_rank": 281.36,
+   "new_rank_up": -182.93,
+   "existing_abs_rank": 82.09,
+   "existing_shift": -0.63,
+   "new_mean_rating": 1303.17,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 1,
+   "start": 1400,
+   "new_bias": -1.62,
+   "new_abs_rank": 261.13,
+   "new_rank_up": -41.01,
+   "existing_abs_rank": 81.07,
+   "existing_shift": -0.1,
+   "new_mean_rating": 1400.49,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 1,
+   "start": 1500,
+   "new_bias": 95.46,
+   "new_abs_rank": 291.01,
+   "new_rank_up": 131.0,
+   "existing_abs_rank": 86.09,
+   "existing_shift": 0.49,
+   "new_mean_rating": 1497.57,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 1,
+   "start": 1800,
+   "new_bias": 387.58,
+   "new_abs_rank": 555.39,
+   "new_rank_up": 546.98,
+   "existing_abs_rank": 120.96,
+   "existing_shift": 2.06,
+   "new_mean_rating": 1789.69,
+   "new_share_top100_pct": 25.67
+  },
+  {
+   "games": 2,
+   "start": 1000,
+   "new_bias": -385.15,
+   "new_abs_rank": 362.85,
+   "new_rank_up": -351.84,
+   "existing_abs_rank": 97.22,
+   "existing_shift": -3.39,
+   "new_mean_rating": 1016.96,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 2,
+   "start": 1200,
+   "new_bias": -191.37,
+   "new_abs_rank": 310.48,
+   "new_rank_up": -273.41,
+   "existing_abs_rank": 86.58,
+   "existing_shift": -2.15,
+   "new_mean_rating": 1210.73,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 2,
+   "start": 1300,
+   "new_bias": -95.89,
+   "new_abs_rank": 268.94,
+   "new_rank_up": -177.54,
+   "existing_abs_rank": 81.17,
+   "existing_shift": -1.24,
+   "new_mean_rating": 1306.22,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 2,
+   "start": 1400,
+   "new_bias": -1.17,
+   "new_abs_rank": 247.51,
+   "new_rank_up": -39.82,
+   "existing_abs_rank": 80.18,
+   "existing_shift": -0.19,
+   "new_mean_rating": 1400.94,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 2,
+   "start": 1500,
+   "new_bias": 93.11,
+   "new_abs_rank": 276.19,
+   "new_rank_up": 125.08,
+   "existing_abs_rank": 84.93,
+   "existing_shift": 0.96,
+   "new_mean_rating": 1495.22,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 2,
+   "start": 1800,
+   "new_bias": 377.59,
+   "new_abs_rank": 543.52,
+   "new_rank_up": 536.79,
+   "existing_abs_rank": 119.3,
+   "existing_shift": 4.06,
+   "new_mean_rating": 1779.7,
+   "new_share_top100_pct": 25.3
+  },
+  {
+   "games": 3,
+   "start": 1000,
+   "new_bias": -376.98,
+   "new_abs_rank": 359.05,
+   "new_rank_up": -349.81,
+   "existing_abs_rank": 96.99,
+   "existing_shift": -5.03,
+   "new_mean_rating": 1025.13,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 3,
+   "start": 1200,
+   "new_bias": -186.34,
+   "new_abs_rank": 302.12,
+   "new_rank_up": -267.98,
+   "existing_abs_rank": 85.86,
+   "existing_shift": -3.15,
+   "new_mean_rating": 1215.76,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 3,
+   "start": 1300,
+   "new_bias": -93.05,
+   "new_abs_rank": 258.88,
+   "new_rank_up": -172.65,
+   "existing_abs_rank": 80.52,
+   "existing_shift": -1.81,
+   "new_mean_rating": 1309.05,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 3,
+   "start": 1400,
+   "new_bias": -0.86,
+   "new_abs_rank": 236.89,
+   "new_rank_up": -38.77,
+   "existing_abs_rank": 79.63,
+   "existing_shift": -0.25,
+   "new_mean_rating": 1401.25,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 3,
+   "start": 1500,
+   "new_bias": 90.72,
+   "new_abs_rank": 264.0,
+   "new_rank_up": 119.81,
+   "existing_abs_rank": 84.09,
+   "existing_shift": 1.43,
+   "new_mean_rating": 1492.83,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 3,
+   "start": 1800,
+   "new_bias": 367.71,
+   "new_abs_rank": 531.18,
+   "new_rank_up": 525.32,
+   "existing_abs_rank": 117.5,
+   "existing_shift": 6.04,
+   "new_mean_rating": 1769.82,
+   "new_share_top100_pct": 23.09
+  },
+  {
+   "games": 5,
+   "start": 1000,
+   "new_bias": -360.92,
+   "new_abs_rank": 352.0,
+   "new_rank_up": -344.89,
+   "existing_abs_rank": 96.19,
+   "existing_shift": -8.24,
+   "new_mean_rating": 1041.19,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 5,
+   "start": 1200,
+   "new_bias": -176.61,
+   "new_abs_rank": 286.66,
+   "new_rank_up": -255.89,
+   "existing_abs_rank": 84.2,
+   "existing_shift": -5.1,
+   "new_mean_rating": 1225.5,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 5,
+   "start": 1300,
+   "new_bias": -87.6,
+   "new_abs_rank": 241.72,
+   "new_rank_up": -162.35,
+   "existing_abs_rank": 79.28,
+   "existing_shift": -2.9,
+   "new_mean_rating": 1314.51,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 5,
+   "start": 1400,
+   "new_bias": -0.24,
+   "new_abs_rank": 218.49,
+   "new_rank_up": -36.31,
+   "existing_abs_rank": 78.6,
+   "existing_shift": -0.37,
+   "new_mean_rating": 1401.87,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 5,
+   "start": 1500,
+   "new_bias": 86.19,
+   "new_abs_rank": 242.46,
+   "new_rank_up": 109.53,
+   "existing_abs_rank": 82.63,
+   "existing_shift": 2.34,
+   "new_mean_rating": 1488.29,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 5,
+   "start": 1800,
+   "new_bias": 348.64,
+   "new_abs_rank": 506.42,
+   "new_rank_up": 501.26,
+   "existing_abs_rank": 113.84,
+   "existing_shift": 9.85,
+   "new_mean_rating": 1750.74,
+   "new_share_top100_pct": 20.19
+  },
+  {
+   "games": 7,
+   "start": 1000,
+   "new_bias": -345.68,
+   "new_abs_rank": 344.5,
+   "new_rank_up": -338.81,
+   "existing_abs_rank": 95.1,
+   "existing_shift": -11.29,
+   "new_mean_rating": 1056.43,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 7,
+   "start": 1200,
+   "new_bias": -167.61,
+   "new_abs_rank": 271.91,
+   "new_rank_up": -243.46,
+   "existing_abs_rank": 82.67,
+   "existing_shift": -6.9,
+   "new_mean_rating": 1234.49,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 7,
+   "start": 1300,
+   "new_bias": -82.65,
+   "new_abs_rank": 226.36,
+   "new_rank_up": -152.2,
+   "existing_abs_rank": 78.23,
+   "existing_shift": -3.89,
+   "new_mean_rating": 1319.46,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 7,
+   "start": 1400,
+   "new_bias": 0.23,
+   "new_abs_rank": 203.35,
+   "new_rank_up": -34.35,
+   "existing_abs_rank": 77.69,
+   "existing_shift": -0.47,
+   "new_mean_rating": 1402.34,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 7,
+   "start": 1500,
+   "new_bias": 81.93,
+   "new_abs_rank": 224.18,
+   "new_rank_up": 100.26,
+   "existing_abs_rank": 81.29,
+   "existing_shift": 3.19,
+   "new_mean_rating": 1484.03,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 7,
+   "start": 1800,
+   "new_bias": 330.76,
+   "new_abs_rank": 480.38,
+   "new_rank_up": 475.72,
+   "existing_abs_rank": 110.39,
+   "existing_shift": 13.43,
+   "new_mean_rating": 1732.87,
+   "new_share_top100_pct": 17.59
+  },
+  {
+   "games": 10,
+   "start": 1000,
+   "new_bias": -323.57,
+   "new_abs_rank": 331.78,
+   "new_rank_up": -327.12,
+   "existing_abs_rank": 93.02,
+   "existing_shift": -15.71,
+   "new_mean_rating": 1078.54,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 10,
+   "start": 1200,
+   "new_bias": -154.85,
+   "new_abs_rank": 250.79,
+   "new_rank_up": -224.0,
+   "existing_abs_rank": 80.58,
+   "existing_shift": -9.45,
+   "new_mean_rating": 1247.26,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 10,
+   "start": 1300,
+   "new_bias": -75.65,
+   "new_abs_rank": 205.65,
+   "new_rank_up": -137.15,
+   "existing_abs_rank": 76.82,
+   "existing_shift": -5.29,
+   "new_mean_rating": 1326.45,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 10,
+   "start": 1400,
+   "new_bias": 0.98,
+   "new_abs_rank": 183.71,
+   "new_rank_up": -30.78,
+   "existing_abs_rank": 76.45,
+   "existing_shift": -0.62,
+   "new_mean_rating": 1403.09,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 10,
+   "start": 1500,
+   "new_bias": 76.16,
+   "new_abs_rank": 201.1,
+   "new_rank_up": 88.14,
+   "existing_abs_rank": 79.63,
+   "existing_shift": 4.35,
+   "new_mean_rating": 1478.27,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 10,
+   "start": 1800,
+   "new_bias": 305.82,
+   "new_abs_rank": 439.6,
+   "new_rank_up": 435.07,
+   "existing_abs_rank": 105.05,
+   "existing_shift": 18.42,
+   "new_mean_rating": 1707.92,
+   "new_share_top100_pct": 15.3
+  },
+  {
+   "games": 15,
+   "start": 1000,
+   "new_bias": -289.84,
+   "new_abs_rank": 306.21,
+   "new_rank_up": -302.06,
+   "existing_abs_rank": 88.86,
+   "existing_shift": -22.45,
+   "new_mean_rating": 1112.26,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 15,
+   "start": 1200,
+   "new_bias": -136.14,
+   "new_abs_rank": 217.74,
+   "new_rank_up": -192.08,
+   "existing_abs_rank": 77.73,
+   "existing_shift": -13.19,
+   "new_mean_rating": 1265.97,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 15,
+   "start": 1300,
+   "new_bias": -65.57,
+   "new_abs_rank": 176.68,
+   "new_rank_up": -114.08,
+   "existing_abs_rank": 75.05,
+   "existing_shift": -7.31,
+   "new_mean_rating": 1336.54,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 15,
+   "start": 1400,
+   "new_bias": 2.02,
+   "new_abs_rank": 157.02,
+   "new_rank_up": -24.76,
+   "existing_abs_rank": 74.95,
+   "existing_shift": -0.83,
+   "new_mean_rating": 1404.13,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 15,
+   "start": 1500,
+   "new_bias": 67.91,
+   "new_abs_rank": 170.36,
+   "new_rank_up": 71.7,
+   "existing_abs_rank": 77.36,
+   "existing_shift": 6.0,
+   "new_mean_rating": 1470.01,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 15,
+   "start": 1800,
+   "new_bias": 269.48,
+   "new_abs_rank": 372.62,
+   "new_rank_up": 367.84,
+   "existing_abs_rank": 97.02,
+   "existing_shift": 25.68,
+   "new_mean_rating": 1671.59,
+   "new_share_top100_pct": 12.52
+  },
+  {
+   "games": 20,
+   "start": 1000,
+   "new_bias": -259.95,
+   "new_abs_rank": 276.56,
+   "new_rank_up": -272.55,
+   "existing_abs_rank": 84.67,
+   "existing_shift": -28.43,
+   "new_mean_rating": 1142.15,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 20,
+   "start": 1200,
+   "new_bias": -120.29,
+   "new_abs_rank": 188.58,
+   "new_rank_up": -162.94,
+   "existing_abs_rank": 75.71,
+   "existing_shift": -16.36,
+   "new_mean_rating": 1281.81,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 20,
+   "start": 1300,
+   "new_bias": -57.23,
+   "new_abs_rank": 153.23,
+   "new_rank_up": -94.47,
+   "existing_abs_rank": 73.84,
+   "existing_shift": -8.98,
+   "new_mean_rating": 1344.88,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 20,
+   "start": 1400,
+   "new_bias": 2.73,
+   "new_abs_rank": 137.51,
+   "new_rank_up": -19.85,
+   "existing_abs_rank": 73.91,
+   "existing_shift": -0.97,
+   "new_mean_rating": 1404.84,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 20,
+   "start": 1500,
+   "new_bias": 60.91,
+   "new_abs_rank": 147.76,
+   "new_rank_up": 58.95,
+   "existing_abs_rank": 75.83,
+   "existing_shift": 7.4,
+   "new_mean_rating": 1463.02,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 20,
+   "start": 1800,
+   "new_bias": 238.77,
+   "new_abs_rank": 312.49,
+   "new_rank_up": 306.95,
+   "existing_abs_rank": 90.65,
+   "existing_shift": 31.82,
+   "new_mean_rating": 1640.88,
+   "new_share_top100_pct": 10.88
+  },
+  {
+   "games": 25,
+   "start": 1000,
+   "new_bias": -233.77,
+   "new_abs_rank": 245.37,
+   "new_rank_up": -241.06,
+   "existing_abs_rank": 80.87,
+   "existing_shift": -33.67,
+   "new_mean_rating": 1168.34,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 25,
+   "start": 1200,
+   "new_bias": -106.97,
+   "new_abs_rank": 163.29,
+   "new_rank_up": -136.96,
+   "existing_abs_rank": 73.95,
+   "existing_shift": -19.03,
+   "new_mean_rating": 1295.13,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 25,
+   "start": 1300,
+   "new_bias": -50.4,
+   "new_abs_rank": 134.49,
+   "new_rank_up": -77.81,
+   "existing_abs_rank": 72.78,
+   "existing_shift": -10.34,
+   "new_mean_rating": 1351.71,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 25,
+   "start": 1400,
+   "new_bias": 3.12,
+   "new_abs_rank": 122.82,
+   "new_rank_up": -15.8,
+   "existing_abs_rank": 73.05,
+   "existing_shift": -1.04,
+   "new_mean_rating": 1405.22,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 25,
+   "start": 1500,
+   "new_bias": 54.87,
+   "new_abs_rank": 130.88,
+   "new_rank_up": 48.51,
+   "existing_abs_rank": 74.58,
+   "existing_shift": 8.6,
+   "new_mean_rating": 1456.98,
+   "new_share_top100_pct": 0.11
+  },
+  {
+   "games": 25,
+   "start": 1800,
+   "new_bias": 212.72,
+   "new_abs_rank": 260.89,
+   "new_rank_up": 253.87,
+   "existing_abs_rank": 85.67,
+   "existing_shift": 37.03,
+   "new_mean_rating": 1614.83,
+   "new_share_top100_pct": 9.99
+  },
+  {
+   "games": 30,
+   "start": 1000,
+   "new_bias": -211.33,
+   "new_abs_rank": 215.46,
+   "new_rank_up": -210.66,
+   "existing_abs_rank": 77.72,
+   "existing_shift": -38.16,
+   "new_mean_rating": 1190.78,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 30,
+   "start": 1200,
+   "new_bias": -96.08,
+   "new_abs_rank": 142.86,
+   "new_rank_up": -115.19,
+   "existing_abs_rank": 72.68,
+   "existing_shift": -21.21,
+   "new_mean_rating": 1306.03,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 30,
+   "start": 1300,
+   "new_bias": -45.07,
+   "new_abs_rank": 120.03,
+   "new_rank_up": -64.49,
+   "existing_abs_rank": 71.98,
+   "existing_shift": -11.41,
+   "new_mean_rating": 1357.04,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 30,
+   "start": 1400,
+   "new_bias": 3.04,
+   "new_abs_rank": 111.27,
+   "new_rank_up": -12.82,
+   "existing_abs_rank": 72.31,
+   "existing_shift": -1.03,
+   "new_mean_rating": 1405.14,
+   "new_share_top100_pct": 0.05
+  },
+  {
+   "games": 30,
+   "start": 1500,
+   "new_bias": 49.46,
+   "new_abs_rank": 117.31,
+   "new_rank_up": 39.83,
+   "existing_abs_rank": 73.48,
+   "existing_shift": 9.69,
+   "new_mean_rating": 1451.57,
+   "new_share_top100_pct": 0.49
+  },
+  {
+   "games": 30,
+   "start": 1800,
+   "new_bias": 190.64,
+   "new_abs_rank": 218.16,
+   "new_rank_up": 209.29,
+   "existing_abs_rank": 81.73,
+   "existing_shift": 41.45,
+   "new_mean_rating": 1592.74,
+   "new_share_top100_pct": 9.5
+  },
+  {
+   "games": 40,
+   "start": 1000,
+   "new_bias": -174.51,
+   "new_abs_rank": 164.1,
+   "new_rank_up": -156.47,
+   "existing_abs_rank": 73.45,
+   "existing_shift": -45.52,
+   "new_mean_rating": 1227.59,
+   "new_share_top100_pct": 0.0
+  },
+  {
+   "games": 40,
+   "start": 1200,
+   "new_bias": -78.6,
+   "new_abs_rank": 113.24,
+   "new_rank_up": -80.2,
+   "existing_abs_rank": 71.14,
+   "existing_shift": -24.7,
+   "new_mean_rating": 1323.51,
+   "new_share_top100_pct": 0.07
+  },
+  {
+   "games": 40,
+   "start": 1300,
+   "new_bias": -36.45,
+   "new_abs_rank": 99.92,
+   "new_rank_up": -43.54,
+   "existing_abs_rank": 71.08,
+   "existing_shift": -13.13,
+   "new_mean_rating": 1365.66,
+   "new_share_top100_pct": 0.2
+  },
+  {
+   "games": 40,
+   "start": 1400,
+   "new_bias": 3.22,
+   "new_abs_rank": 95.3,
+   "new_rank_up": -7.61,
+   "existing_abs_rank": 71.5,
+   "existing_shift": -1.07,
+   "new_mean_rating": 1405.33,
+   "new_share_top100_pct": 0.63
+  },
+  {
+   "games": 40,
+   "start": 1500,
+   "new_bias": 41.43,
+   "new_abs_rank": 99.05,
+   "new_rank_up": 28.11,
+   "existing_abs_rank": 72.28,
+   "existing_shift": 11.29,
+   "new_mean_rating": 1443.54,
+   "new_share_top100_pct": 1.52
+  },
+  {
+   "games": 40,
+   "start": 1800,
+   "new_bias": 156.89,
+   "new_abs_rank": 157.86,
+   "new_rank_up": 143.52,
+   "existing_abs_rank": 76.8,
+   "existing_shift": 48.2,
+   "new_mean_rating": 1559.0,
+   "new_share_top100_pct": 8.64
+  },
+  {
+   "games": 50,
+   "start": 1000,
+   "new_bias": -146.93,
+   "new_abs_rank": 126.17,
+   "new_rank_up": -113.36,
+   "existing_abs_rank": 70.97,
+   "existing_shift": -51.04,
+   "new_mean_rating": 1255.18,
+   "new_share_top100_pct": 0.06
+  },
+  {
+   "games": 50,
+   "start": 1200,
+   "new_bias": -65.88,
+   "new_abs_rank": 94.28,
+   "new_rank_up": -54.76,
+   "existing_abs_rank": 70.33,
+   "existing_shift": -27.25,
+   "new_mean_rating": 1336.23,
+   "new_share_top100_pct": 0.38
+  },
+  {
+   "games": 50,
+   "start": 1300,
+   "new_bias": -30.2,
+   "new_abs_rank": 87.38,
+   "new_rank_up": -28.3,
+   "existing_abs_rank": 70.58,
+   "existing_shift": -14.38,
+   "new_mean_rating": 1371.9,
+   "new_share_top100_pct": 0.93
+  },
+  {
+   "games": 50,
+   "start": 1400,
+   "new_bias": 3.44,
+   "new_abs_rank": 85.44,
+   "new_rank_up": -3.11,
+   "existing_abs_rank": 71.02,
+   "existing_shift": -1.11,
+   "new_mean_rating": 1405.54,
+   "new_share_top100_pct": 1.8
+  },
+  {
+   "games": 50,
+   "start": 1500,
+   "new_bias": 35.86,
+   "new_abs_rank": 87.7,
+   "new_rank_up": 21.53,
+   "existing_abs_rank": 71.61,
+   "existing_shift": 12.41,
+   "new_mean_rating": 1437.97,
+   "new_share_top100_pct": 2.92
+  },
+  {
+   "games": 50,
+   "start": 1800,
+   "new_bias": 133.3,
+   "new_abs_rank": 121.55,
+   "new_rank_up": 100.73,
+   "existing_abs_rank": 74.08,
+   "existing_shift": 52.92,
+   "new_mean_rating": 1535.41,
+   "new_share_top100_pct": 8.35
+  },
+  {
+   "games": 60,
+   "start": 1000,
+   "new_bias": -126.97,
+   "new_abs_rank": 101.52,
+   "new_rank_up": -81.52,
+   "existing_abs_rank": 69.63,
+   "existing_shift": -55.03,
+   "new_mean_rating": 1275.13,
+   "new_share_top100_pct": 0.41
+  },
+  {
+   "games": 60,
+   "start": 1200,
+   "new_bias": -57.23,
+   "new_abs_rank": 83.12,
+   "new_rank_up": -37.43,
+   "existing_abs_rank": 69.84,
+   "existing_shift": -28.98,
+   "new_mean_rating": 1344.88,
+   "new_share_top100_pct": 1.41
+  },
+  {
+   "games": 60,
+   "start": 1300,
+   "new_bias": -26.31,
+   "new_abs_rank": 79.8,
+   "new_rank_up": -18.32,
+   "existing_abs_rank": 70.2,
+   "existing_shift": -15.16,
+   "new_mean_rating": 1375.8,
+   "new_share_top100_pct": 2.02
+  },
+  {
+   "games": 60,
+   "start": 1400,
+   "new_bias": 2.97,
+   "new_abs_rank": 79.32,
+   "new_rank_up": -0.53,
+   "existing_abs_rank": 70.62,
+   "existing_shift": -1.01,
+   "new_mean_rating": 1405.07,
+   "new_share_top100_pct": 3.0
+  },
+  {
+   "games": 60,
+   "start": 1500,
+   "new_bias": 31.26,
+   "new_abs_rank": 81.13,
+   "new_rank_up": 16.67,
+   "existing_abs_rank": 71.04,
+   "existing_shift": 13.33,
+   "new_mean_rating": 1433.36,
+   "new_share_top100_pct": 3.92
+  },
+  {
+   "games": 60,
+   "start": 1800,
+   "new_bias": 115.9,
+   "new_abs_rank": 100.11,
+   "new_rank_up": 71.6,
+   "existing_abs_rank": 72.39,
+   "existing_shift": 56.4,
+   "new_mean_rating": 1518.0,
+   "new_share_top100_pct": 7.93
+  },
+  {
+   "games": 70,
+   "start": 1000,
+   "new_bias": -112.15,
+   "new_abs_rank": 86.6,
+   "new_rank_up": -58.0,
+   "existing_abs_rank": 69.02,
+   "existing_shift": -57.99,
+   "new_mean_rating": 1289.95,
+   "new_share_top100_pct": 1.28
+  },
+  {
+   "games": 70,
+   "start": 1200,
+   "new_bias": -50.95,
+   "new_abs_rank": 76.95,
+   "new_rank_up": -25.16,
+   "existing_abs_rank": 69.62,
+   "existing_shift": -30.23,
+   "new_mean_rating": 1351.16,
+   "new_share_top100_pct": 2.61
+  },
+  {
+   "games": 70,
+   "start": 1300,
+   "new_bias": -23.52,
+   "new_abs_rank": 75.61,
+   "new_rank_up": -11.41,
+   "existing_abs_rank": 70.01,
+   "existing_shift": -15.72,
+   "new_mean_rating": 1378.58,
+   "new_share_top100_pct": 3.42
+  },
+  {
+   "games": 70,
+   "start": 1400,
+   "new_bias": 2.59,
+   "new_abs_rank": 75.78,
+   "new_rank_up": 1.23,
+   "existing_abs_rank": 70.38,
+   "existing_shift": -0.94,
+   "new_mean_rating": 1404.7,
+   "new_share_top100_pct": 4.11
+  },
+  {
+   "games": 70,
+   "start": 1500,
+   "new_bias": 27.9,
+   "new_abs_rank": 77.01,
+   "new_rank_up": 13.37,
+   "existing_abs_rank": 70.7,
+   "existing_shift": 14.0,
+   "new_mean_rating": 1430.01,
+   "new_share_top100_pct": 4.82
+  },
+  {
+   "games": 70,
+   "start": 1800,
+   "new_bias": 103.41,
+   "new_abs_rank": 88.01,
+   "new_rank_up": 51.95,
+   "existing_abs_rank": 71.42,
+   "existing_shift": 58.9,
+   "new_mean_rating": 1505.51,
+   "new_share_top100_pct": 7.96
+  },
+  {
+   "games": 80,
+   "start": 1000,
+   "new_bias": -101.58,
+   "new_abs_rank": 77.23,
+   "new_rank_up": -41.32,
+   "existing_abs_rank": 68.62,
+   "existing_shift": -60.1,
+   "new_mean_rating": 1300.52,
+   "new_share_top100_pct": 2.34
+  },
+  {
+   "games": 80,
+   "start": 1200,
+   "new_bias": -46.82,
+   "new_abs_rank": 72.71,
+   "new_rank_up": -17.0,
+   "existing_abs_rank": 69.34,
+   "existing_shift": -31.06,
+   "new_mean_rating": 1355.29,
+   "new_share_top100_pct": 3.33
+  },
+  {
+   "games": 80,
+   "start": 1300,
+   "new_bias": -21.98,
+   "new_abs_rank": 72.39,
+   "new_rank_up": -7.02,
+   "existing_abs_rank": 69.71,
+   "existing_shift": -16.03,
+   "new_mean_rating": 1380.13,
+   "new_share_top100_pct": 4.08
+  },
+  {
+   "games": 80,
+   "start": 1400,
+   "new_bias": 1.81,
+   "new_abs_rank": 72.78,
+   "new_rank_up": 2.08,
+   "existing_abs_rank": 70.03,
+   "existing_shift": -0.78,
+   "new_mean_rating": 1403.92,
+   "new_share_top100_pct": 4.74
+  },
+  {
+   "games": 80,
+   "start": 1500,
+   "new_bias": 24.96,
+   "new_abs_rank": 73.72,
+   "new_rank_up": 10.74,
+   "existing_abs_rank": 70.28,
+   "existing_shift": 14.59,
+   "new_mean_rating": 1427.07,
+   "new_share_top100_pct": 5.42
+  },
+  {
+   "games": 80,
+   "start": 1800,
+   "new_bias": 93.88,
+   "new_abs_rank": 80.05,
+   "new_rank_up": 38.05,
+   "existing_abs_rank": 70.69,
+   "existing_shift": 60.8,
+   "new_mean_rating": 1495.98,
+   "new_share_top100_pct": 7.73
+  },
+  {
+   "games": 90,
+   "start": 1000,
+   "new_bias": -93.48,
+   "new_abs_rank": 72.31,
+   "new_rank_up": -28.79,
+   "existing_abs_rank": 68.68,
+   "existing_shift": -61.73,
+   "new_mean_rating": 1308.63,
+   "new_share_top100_pct": 3.28
+  },
+  {
+   "games": 90,
+   "start": 1200,
+   "new_bias": -43.59,
+   "new_abs_rank": 70.59,
+   "new_rank_up": -10.83,
+   "existing_abs_rank": 69.48,
+   "existing_shift": -31.7,
+   "new_mean_rating": 1358.51,
+   "new_share_top100_pct": 4.37
+  },
+  {
+   "games": 90,
+   "start": 1300,
+   "new_bias": -20.68,
+   "new_abs_rank": 70.66,
+   "new_rank_up": -3.59,
+   "existing_abs_rank": 69.84,
+   "existing_shift": -16.29,
+   "new_mean_rating": 1381.43,
+   "new_share_top100_pct": 4.96
+  },
+  {
+   "games": 90,
+   "start": 1400,
+   "new_bias": 1.4,
+   "new_abs_rank": 71.07,
+   "new_rank_up": 2.95,
+   "existing_abs_rank": 70.13,
+   "existing_shift": -0.7,
+   "new_mean_rating": 1403.51,
+   "new_share_top100_pct": 5.37
+  },
+  {
+   "games": 90,
+   "start": 1500,
+   "new_bias": 22.97,
+   "new_abs_rank": 71.74,
+   "new_rank_up": 9.14,
+   "existing_abs_rank": 70.34,
+   "existing_shift": 14.99,
+   "new_mean_rating": 1425.07,
+   "new_share_top100_pct": 5.98
+  },
+  {
+   "games": 90,
+   "start": 1800,
+   "new_bias": 87.08,
+   "new_abs_rank": 75.43,
+   "new_rank_up": 28.57,
+   "existing_abs_rank": 70.6,
+   "existing_shift": 62.16,
+   "new_mean_rating": 1489.19,
+   "new_share_top100_pct": 7.65
+  },
+  {
+   "games": 100,
+   "start": 1000,
+   "new_bias": -87.51,
+   "new_abs_rank": 69.74,
+   "new_rank_up": -19.65,
+   "existing_abs_rank": 68.62,
+   "existing_shift": -62.92,
+   "new_mean_rating": 1314.6,
+   "new_share_top100_pct": 4.21
+  },
+  {
+   "games": 100,
+   "start": 1200,
+   "new_bias": -41.3,
+   "new_abs_rank": 69.42,
+   "new_rank_up": -6.35,
+   "existing_abs_rank": 69.4,
+   "existing_shift": -32.16,
+   "new_mean_rating": 1360.8,
+   "new_share_top100_pct": 5.14
+  },
+  {
+   "games": 100,
+   "start": 1300,
+   "new_bias": -19.82,
+   "new_abs_rank": 69.69,
+   "new_rank_up": -1.08,
+   "existing_abs_rank": 69.71,
+   "existing_shift": -16.46,
+   "new_mean_rating": 1382.28,
+   "new_share_top100_pct": 5.61
+  },
+  {
+   "games": 100,
+   "start": 1400,
+   "new_bias": 0.99,
+   "new_abs_rank": 70.08,
+   "new_rank_up": 3.64,
+   "existing_abs_rank": 69.96,
+   "existing_shift": -0.62,
+   "new_mean_rating": 1403.1,
+   "new_share_top100_pct": 5.97
+  },
+  {
+   "games": 100,
+   "start": 1500,
+   "new_bias": 21.39,
+   "new_abs_rank": 70.58,
+   "new_rank_up": 8.07,
+   "existing_abs_rank": 70.14,
+   "existing_shift": 15.3,
+   "new_mean_rating": 1423.49,
+   "new_share_top100_pct": 6.41
+  },
+  {
+   "games": 100,
+   "start": 1800,
+   "new_bias": 82.0,
+   "new_abs_rank": 72.78,
+   "new_rank_up": 22.0,
+   "existing_abs_rank": 70.28,
+   "existing_shift": 63.18,
+   "new_mean_rating": 1484.11,
+   "new_share_top100_pct": 7.71
+  }
+ ],
+ "grid_summary": {
+  "n": 27,
+  "best_start_equals_new_mean": 26,
+  "best_start_by_case": [
+   {
+    "new_mean": 1300.0,
+    "K": 16.0,
+    "new_sd": 100.0,
+    "start": 1300
+   },
+   {
+    "new_mean": 1300.0,
+    "K": 16.0,
+    "new_sd": 200.0,
+    "start": 1300
+   },
+   {
+    "new_mean": 1300.0,
+    "K": 16.0,
+    "new_sd": 300.0,
+    "start": 1300
+   },
+   {
+    "new_mean": 1300.0,
+    "K": 32.0,
+    "new_sd": 100.0,
+    "start": 1300
+   },
+   {
+    "new_mean": 1300.0,
+    "K": 32.0,
+    "new_sd": 200.0,
+    "start": 1300
+   },
+   {
+    "new_mean": 1300.0,
+    "K": 32.0,
+    "new_sd": 300.0,
+    "start": 1300
+   },
+   {
+    "new_mean": 1300.0,
+    "K": 48.0,
+    "new_sd": 100.0,
+    "start": 1300
+   },
+   {
+    "new_mean": 1300.0,
+    "K": 48.0,
+    "new_sd": 200.0,
+    "start": 1300
+   },
+   {
+    "new_mean": 1300.0,
+    "K": 48.0,
+    "new_sd": 300.0,
+    "start": 1400
+   },
+   {
+    "new_mean": 1400.0,
+    "K": 16.0,
+    "new_sd": 100.0,
+    "start": 1400
+   },
+   {
+    "new_mean": 1400.0,
+    "K": 16.0,
+    "new_sd": 200.0,
+    "start": 1400
+   },
+   {
+    "new_mean": 1400.0,
+    "K": 16.0,
+    "new_sd": 300.0,
+    "start": 1400
+   },
+   {
+    "new_mean": 1400.0,
+    "K": 32.0,
+    "new_sd": 100.0,
+    "start": 1400
+   },
+   {
+    "new_mean": 1400.0,
+    "K": 32.0,
+    "new_sd": 200.0,
+    "start": 1400
+   },
+   {
+    "new_mean": 1400.0,
+    "K": 32.0,
+    "new_sd": 300.0,
+    "start": 1400
+   },
+   {
+    "new_mean": 1400.0,
+    "K": 48.0,
+    "new_sd": 100.0,
+    "start": 1400
+   },
+   {
+    "new_mean": 1400.0,
+    "K": 48.0,
+    "new_sd": 200.0,
+    "start": 1400
+   },
+   {
+    "new_mean": 1400.0,
+    "K": 48.0,
+    "new_sd": 300.0,
+    "start": 1400
+   },
+   {
+    "new_mean": 1500.0,
+    "K": 16.0,
+    "new_sd": 100.0,
+    "start": 1500
+   },
+   {
+    "new_mean": 1500.0,
+    "K": 16.0,
+    "new_sd": 200.0,
+    "start": 1500
+   },
+   {
+    "new_mean": 1500.0,
+    "K": 16.0,
+    "new_sd": 300.0,
+    "start": 1500
+   },
+   {
+    "new_mean": 1500.0,
+    "K": 32.0,
+    "new_sd": 100.0,
+    "start": 1500
+   },
+   {
+    "new_mean": 1500.0,
+    "K": 32.0,
+    "new_sd": 200.0,
+    "start": 1500
+   },
+   {
+    "new_mean": 1500.0,
+    "K": 32.0,
+    "new_sd": 300.0,
+    "start": 1500
+   },
+   {
+    "new_mean": 1500.0,
+    "K": 48.0,
+    "new_sd": 100.0,
+    "start": 1500
+   },
+   {
+    "new_mean": 1500.0,
+    "K": 48.0,
+    "new_sd": 200.0,
+    "start": 1500
+   },
+   {
+    "new_mean": 1500.0,
+    "K": 48.0,
+    "new_sd": 300.0,
+    "start": 1500
+   }
+  ],
+  "ratio_g10_start1500_over_own_mean_min": 1.0,
+  "ratio_g10_start1500_over_own_mean_max": 2.301,
+  "ratio18_g10_start1500_over_own_mean_min": 1.035,
+  "ratio18_g10_start1500_over_own_mean_max": 2.301,
+  "ratio18_newmean1400_min": 1.035,
+  "ratio18_newmean1400_max": 1.313,
+  "ratio18_newmean1300_min": 1.126,
+  "ratio18_newmean1300_max": 2.301,
+  "abs_rank_g100_K16_start1000or1800_max": 163.67,
+  "abs_rank_g100_K32_48_max": 113.46,
+  "own_over_existing_g10_min": 1.411,
+  "own_over_existing_g10_max": 3.744,
+  "abs_rank_g10_start1500_min": 152.97,
+  "abs_rank_g10_start1500_max": 280.21,
+  "abs_rank_g10_own_min": 115.2,
+  "abs_rank_g10_own_max": 258.11,
+  "abs_rank_g100_all_min": 51.3,
+  "abs_rank_g100_all_max": 163.67,
+  "g1500_newmean1500_g10_min": 152.97
+ },
+ "run_sec": null
+}

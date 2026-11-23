@@ -1,0 +1,361 @@
+{
+ "setting": {
+  "players": 6000,
+  "rounds": 50,
+  "skill_coef": 1.0,
+  "power_logit": {
+   "A": 0.15,
+   "B": 0.1,
+   "C": 0.05,
+   "D": 0.05,
+   "E": 0.0,
+   "F": 0.0,
+   "G": -0.05,
+   "H": -0.05,
+   "I": -0.1,
+   "J": -0.15
+  },
+  "difficulty": {
+   "A": -1.0,
+   "B": 1.0,
+   "C": 0.0,
+   "D": -0.5,
+   "E": 1.0,
+   "F": -1.0,
+   "G": 0.5,
+   "H": 0.0,
+   "I": 1.0,
+   "J": -0.5
+  },
+  "gamma": 1.0,
+  "noise_v": 0.5,
+  "match_jitter": 0.3,
+  "reps": 5
+ },
+ "base": {
+  "raw": {
+   "mae_pt": 3.139,
+   "max_abs_pt": 5.425,
+   "hard_mean_err_pt": 4.432,
+   "easy_mean_err_pt": -5.234,
+   "rank_corr": 0.285
+  },
+  "top20": {
+   "mae_pt": 4.667,
+   "max_abs_pt": 11.715,
+   "hard_mean_err_pt": 2.891,
+   "easy_mean_err_pt": -9.446,
+   "rank_corr": 0.152
+  },
+  "adj_points": {
+   "mae_pt": 3.144,
+   "max_abs_pt": 5.443,
+   "hard_mean_err_pt": 4.414,
+   "easy_mean_err_pt": -5.167,
+   "rank_corr": 0.285
+  },
+  "adj_true": {
+   "mae_pt": 0.095,
+   "max_abs_pt": 0.187,
+   "hard_mean_err_pt": 0.022,
+   "easy_mean_err_pt": 0.077,
+   "rank_corr": 0.976
+  }
+ },
+ "base_table": {
+  "A": {
+   "power_logit": 0.15,
+   "difficulty": -1.0,
+   "usage_pct": 11.513,
+   "users_mean_skill": -0.709,
+   "true": 54.132,
+   "raw": 48.707,
+   "top20": 42.417,
+   "adj_points": 48.689,
+   "adj_true": 54.244,
+   "games_raw": 29093.6,
+   "games_top20": 1127.2,
+   "opp_skill_gap": -0.23,
+   "rank_true": 1,
+   "rank_raw": 7,
+   "rank_adj_points": 7
+  },
+  "B": {
+   "power_logit": 0.1,
+   "difficulty": 1.0,
+   "usage_pct": 10.92,
+   "users_mean_skill": 0.676,
+   "true": 52.709,
+   "raw": 57.234,
+   "top20": 55.612,
+   "adj_points": 57.151,
+   "adj_true": 52.826,
+   "games_raw": 27949.6,
+   "games_top20": 8064.0,
+   "opp_skill_gap": 0.198,
+   "rank_true": 2,
+   "rank_raw": 1,
+   "rank_adj_points": 1
+  },
+  "C": {
+   "power_logit": 0.05,
+   "difficulty": 0.0,
+   "usage_pct": 8.08,
+   "users_mean_skill": -0.027,
+   "true": 51.27,
+   "raw": 50.694,
+   "top20": 47.448,
+   "adj_points": 50.679,
+   "adj_true": 51.136,
+   "games_raw": 22219.6,
+   "games_top20": 2860.0,
+   "opp_skill_gap": -0.015,
+   "rank_true": 4,
+   "rank_raw": 5,
+   "rank_adj_points": 5
+  },
+  "D": {
+   "power_logit": 0.05,
+   "difficulty": -0.5,
+   "usage_pct": 8.897,
+   "users_mean_skill": -0.385,
+   "true": 51.281,
+   "raw": 49.053,
+   "top20": 45.765,
+   "adj_points": 48.971,
+   "adj_true": 51.355,
+   "games_raw": 23968.4,
+   "games_top20": 1495.6,
+   "opp_skill_gap": -0.094,
+   "rank_true": 3,
+   "rank_raw": 6,
+   "rank_adj_points": 6
+  },
+  "E": {
+   "power_logit": 0.0,
+   "difficulty": 1.0,
+   "usage_pct": 11.087,
+   "users_mean_skill": 0.653,
+   "true": 49.91,
+   "raw": 54.282,
+   "top20": 52.627,
+   "adj_points": 54.255,
+   "adj_true": 49.832,
+   "games_raw": 28410.8,
+   "games_top20": 7992.0,
+   "opp_skill_gap": 0.191,
+   "rank_true": 5,
+   "rank_raw": 2,
+   "rank_adj_points": 2
+  },
+  "F": {
+   "power_logit": 0.0,
+   "difficulty": -1.0,
+   "usage_pct": 11.957,
+   "users_mean_skill": -0.72,
+   "true": 49.909,
+   "raw": 44.866,
+   "top20": 42.732,
+   "adj_points": 45.018,
+   "adj_true": 49.951,
+   "games_raw": 29796.8,
+   "games_top20": 945.8,
+   "opp_skill_gap": -0.22,
+   "rank_true": 6,
+   "rank_raw": 9,
+   "rank_adj_points": 9
+  },
+  "G": {
+   "power_logit": -0.05,
+   "difficulty": 0.5,
+   "usage_pct": 8.947,
+   "users_mean_skill": 0.34,
+   "true": 48.542,
+   "raw": 50.977,
+   "top20": 48.016,
+   "adj_points": 50.996,
+   "adj_true": 48.427,
+   "games_raw": 24237.2,
+   "games_top20": 4827.4,
+   "opp_skill_gap": 0.104,
+   "rank_true": 8,
+   "rank_raw": 4,
+   "rank_adj_points": 4
+  },
+  "H": {
+   "power_logit": -0.05,
+   "difficulty": 0.0,
+   "usage_pct": 8.277,
+   "users_mean_skill": -0.045,
+   "true": 48.553,
+   "raw": 48.269,
+   "top20": 45.458,
+   "adj_points": 48.241,
+   "adj_true": 48.366,
+   "games_raw": 22729.6,
+   "games_top20": 2561.6,
+   "opp_skill_gap": -0.012,
+   "rank_true": 7,
+   "rank_raw": 8,
+   "rank_adj_points": 8
+  },
+  "I": {
+   "power_logit": -0.1,
+   "difficulty": 1.0,
+   "usage_pct": 11.253,
+   "users_mean_skill": 0.648,
+   "true": 47.101,
+   "raw": 51.501,
+   "top20": 50.155,
+   "adj_points": 51.556,
+   "adj_true": 47.127,
+   "games_raw": 28773.6,
+   "games_top20": 8159.2,
+   "opp_skill_gap": 0.181,
+   "rank_true": 9,
+   "rank_raw": 3,
+   "rank_adj_points": 3
+  },
+  "J": {
+   "power_logit": -0.15,
+   "difficulty": -0.5,
+   "usage_pct": 9.07,
+   "users_mean_skill": -0.383,
+   "true": 45.804,
+   "raw": 43.706,
+   "top20": 39.655,
+   "adj_points": 43.61,
+   "adj_true": 45.87,
+   "games_raw": 24385.2,
+   "games_top20": 1586.8,
+   "opp_skill_gap": -0.109,
+   "rank_true": 10,
+   "rank_raw": 10,
+   "rank_adj_points": 10
+  }
+ },
+ "games_per_rep": 150000,
+ "data_games_rows": 30000,
+ "rep_sd_pt": {
+  "raw_max": 0.667,
+  "adj_points_max": 0.678
+ },
+ "grid_range": {
+  "n_cases": 27,
+  "gamma0": {
+   "raw": [
+    0.264,
+    1.031
+   ],
+   "top20": [
+    0.72,
+    2.116
+   ],
+   "adj_points": [
+    0.244,
+    0.697
+   ],
+   "adj_true": [
+    0.204,
+    0.473
+   ]
+  },
+  "gamma_pos_mae": {
+   "raw": [
+    1.757,
+    12.07
+   ],
+   "top20": [
+    1.516,
+    11.7
+   ],
+   "adj_points": [
+    1.049,
+    9.297
+   ],
+   "adj_true": [
+    0.178,
+    0.432
+   ]
+  },
+  "gamma_pos_hard_err": {
+   "raw": [
+    2.698,
+    17.383
+   ],
+   "top20": [
+    1.168,
+    7.179
+   ],
+   "adj_points": [
+    1.321,
+    13.506
+   ],
+   "adj_true": [
+    -0.218,
+    0.626
+   ]
+  },
+  "gamma_pos_rank_corr": {
+   "raw": [
+    -0.091,
+    0.685
+   ],
+   "top20": [
+    -0.152,
+    0.855
+   ],
+   "adj_points": [
+    0.006,
+    0.855
+   ],
+   "adj_true": [
+    0.964,
+    0.988
+   ]
+  },
+  "adj_points_lt_raw_cases_gamma_pos": 14,
+  "top20_lt_raw_cases_gamma_pos": 10,
+  "n_gamma_pos": 18,
+  "random_matching_raw_mae_gamma_pos": [
+   9.484,
+   12.07
+  ],
+  "close_matching_raw_mae_gamma_pos": [
+   1.757,
+   7.613
+  ],
+  "rank_raw_I_gamma_pos": [
+   3.0,
+   5.0
+  ],
+  "adj_points_mae_by_noise_gamma_pos": {
+   "0.25": [
+    1.049,
+    2.099
+   ],
+   "0.5": [
+    3.183,
+    5.142
+   ],
+   "1.0": [
+    6.216,
+    9.297
+   ]
+  },
+  "raw_mae_by_matching_gamma_pos": {
+   "近い点数どうし": [
+    1.757,
+    7.613
+   ],
+   "ゆるく近い点数どうし": [
+    5.828,
+    8.675
+   ],
+   "くじ": [
+    9.484,
+    12.07
+   ]
+  }
+ }
+}

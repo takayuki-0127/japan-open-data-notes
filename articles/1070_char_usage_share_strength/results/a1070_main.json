@@ -1,0 +1,185 @@
+{
+ "setting": {
+  "characters": 20,
+  "players": 4000,
+  "rounds": 20,
+  "power_sd_logit": 0.1,
+  "skill_coef": 1.0,
+  "points_noise": 0.5,
+  "match_jitter": 0.3,
+  "lam": 10.0,
+  "appeal_sd": 0.5,
+  "skill_tilt": 2.0,
+  "reps": 200
+ },
+ "base": {
+  "usage": {
+   "name": "①使われる割合",
+   "top3_hit_pct": 52.0,
+   "first_in_true_top3_pct": 71.5,
+   "first_true_rank_mean": 3.19,
+   "rank_corr": 0.625
+  },
+  "usage_top": {
+   "name": "②点数の上位2割の人が使う割合",
+   "top3_hit_pct": 64.5,
+   "first_in_true_top3_pct": 89.0,
+   "first_true_rank_mean": 1.97,
+   "rank_corr": 0.815
+  },
+  "raw": {
+   "name": "③そのままの勝率",
+   "top3_hit_pct": 80.67,
+   "first_in_true_top3_pct": 97.5,
+   "first_true_rank_mean": 1.35,
+   "rank_corr": 0.917
+  },
+  "chance_top3_hit_pct": 15.0,
+  "usage_vs_rawgap_corr": 0.418,
+  "usage_vs_raw_corr": 0.583,
+  "usage_vs_appeal_corr": 0.695,
+  "raw_first_usage_lt1_pct": 0.0,
+  "usage_first_true_rank_dist": [
+   84,
+   34,
+   25,
+   12,
+   10,
+   10,
+   9,
+   2,
+   1,
+   1,
+   5,
+   3,
+   1,
+   0,
+   1,
+   0,
+   1,
+   0,
+   1,
+   0
+  ],
+  "usage_first_true_rank_ge11_pct": 6.0,
+  "usage_first_true_rank1_pct": 42.0
+ },
+ "example": {
+  "most_used_char": 10,
+  "most_used_pct": 21.9,
+  "most_used_true_rank": 6,
+  "most_used_true_winrate": 50.62,
+  "most_used_raw_winrate": 51.18,
+  "most_used_appeal_rank": 1,
+  "strongest_char": 14,
+  "strongest_usage_pct": 16.35,
+  "strongest_usage_rank": 2,
+  "strongest_true_winrate": 55.86,
+  "usage_range_pct": [
+   0.4,
+   21.9
+  ],
+  "true_winrate_range": [
+   43.77,
+   55.86
+  ],
+  "rank_corr_usage_power": 0.471
+ },
+ "grid_range": {
+  "n_cases": 27,
+  "usage_top3_hit_pct": [
+   21.67,
+   91.67
+  ],
+  "usage_top_top3_hit_pct": [
+   26.67,
+   90.83
+  ],
+  "raw_top3_hit_pct": [
+   39.17,
+   91.67
+  ],
+  "usage_first_in_top3_pct": [
+   30.0,
+   100.0
+  ],
+  "usage_top_first_in_top3_pct": [
+   32.5,
+   100.0
+  ],
+  "raw_first_in_top3_pct": [
+   27.5,
+   100.0
+  ],
+  "usage_rank_corr": [
+   0.178,
+   0.974
+  ],
+  "usage_top_rank_corr": [
+   0.342,
+   0.945
+  ],
+  "raw_rank_corr": [
+   0.513,
+   0.937
+  ],
+  "usage_top_gt_usage_cases": 18,
+  "usage_top_gt_usage_cases_by_tilt": {
+   "うまさで変わらない": 0,
+   "基本": 9,
+   "強く変わる": 9
+  },
+  "usage_top3_hit_by_appeal_sd": {
+   "0.25": [
+    49.17,
+    91.67
+   ],
+   "0.5": [
+    24.17,
+    81.67
+   ],
+   "1.0": [
+    21.67,
+    71.67
+   ]
+  },
+  "usage_vs_rawgap_corr": [
+   -0.164,
+   0.698
+  ],
+  "lam20_no_tilt": [
+   {
+    "appeal_sd": 0.25,
+    "raw_top3_hit_pct": 41.67,
+    "raw_first_usage_lt1_pct": 65.0,
+    "usage_top3_hit_pct": 91.67
+   },
+   {
+    "appeal_sd": 0.5,
+    "raw_top3_hit_pct": 43.33,
+    "raw_first_usage_lt1_pct": 62.5,
+    "usage_top3_hit_pct": 81.67
+   },
+   {
+    "appeal_sd": 1.0,
+    "raw_top3_hit_pct": 39.17,
+    "raw_first_usage_lt1_pct": 72.5,
+    "usage_top3_hit_pct": 71.67
+   }
+  ],
+  "usage_vs_rawgap_corr_by_tilt": {
+   "うまさで変わらない": [
+    -0.164,
+    -0.037
+   ],
+   "基本": [
+    0.081,
+    0.698
+   ],
+   "強く変わる": [
+    0.107,
+    0.625
+   ]
+  }
+ }
+}
