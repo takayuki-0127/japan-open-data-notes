@@ -1,0 +1,374 @@
+{
+ "setup": {
+  "skill": 1.2,
+  "cut": 0.25,
+  "atk_range": [
+   5,
+   300
+  ],
+  "hits_per_atk": 4000,
+  "buffs": [
+   0.01,
+   0.03,
+   0.05,
+   0.1
+  ],
+  "spreads": [
+   0.0,
+   0.05,
+   0.1
+  ],
+  "base_buff": 0.03,
+  "base_spread": 0.05
+ },
+ "base": {
+  "each_spread0.0": {
+   "spread": 0.0,
+   "buff_pct": 3.0,
+   "rule": "each",
+   "weak_inc_pct": 0.154,
+   "weak_kept_pct": 5.1,
+   "weak_zero_share_pct": 96.2,
+   "mid_inc_pct": 2.332,
+   "mid_kept_pct": 77.7,
+   "mid_zero_share_pct": 10.0,
+   "strong_inc_pct": 2.765,
+   "strong_kept_pct": 92.2,
+   "strong_zero_share_pct": 0.0,
+   "all_inc_pct": 2.433,
+   "all_zero_share_pct": 10.8
+  },
+  "last_spread0.0": {
+   "spread": 0.0,
+   "buff_pct": 3.0,
+   "rule": "last",
+   "weak_inc_pct": 2.455,
+   "weak_kept_pct": 81.8,
+   "weak_zero_share_pct": 61.5,
+   "mid_inc_pct": 2.966,
+   "mid_kept_pct": 98.9,
+   "mid_zero_share_pct": 0.0,
+   "strong_inc_pct": 2.982,
+   "strong_kept_pct": 99.4,
+   "strong_zero_share_pct": 0.0,
+   "all_inc_pct": 2.932,
+   "all_zero_share_pct": 5.4
+  },
+  "none_spread0.0": {
+   "spread": 0.0,
+   "buff_pct": 3.0,
+   "rule": "none",
+   "weak_inc_pct": 3.0,
+   "weak_kept_pct": 100.0,
+   "weak_zero_share_pct": 0.0,
+   "mid_inc_pct": 3.0,
+   "mid_kept_pct": 100.0,
+   "mid_zero_share_pct": 0.0,
+   "strong_inc_pct": 3.0,
+   "strong_kept_pct": 100.0,
+   "strong_zero_share_pct": 0.0,
+   "all_inc_pct": 3.0,
+   "all_zero_share_pct": 0.0
+  },
+  "each_spread0.05": {
+   "spread": 0.05,
+   "buff_pct": 3.0,
+   "rule": "each",
+   "weak_inc_pct": 0.252,
+   "weak_kept_pct": 8.4,
+   "weak_zero_share_pct": 84.6,
+   "mid_inc_pct": 2.369,
+   "mid_kept_pct": 79.0,
+   "mid_zero_share_pct": 0.0,
+   "strong_inc_pct": 2.776,
+   "strong_kept_pct": 92.5,
+   "strong_zero_share_pct": 0.0,
+   "all_inc_pct": 2.458,
+   "all_zero_share_pct": 7.4
+  },
+  "last_spread0.05": {
+   "spread": 0.05,
+   "buff_pct": 3.0,
+   "rule": "last",
+   "weak_inc_pct": 2.862,
+   "weak_kept_pct": 95.4,
+   "weak_zero_share_pct": 7.7,
+   "mid_inc_pct": 3.028,
+   "mid_kept_pct": 100.9,
+   "mid_zero_share_pct": 0.0,
+   "strong_inc_pct": 3.009,
+   "strong_kept_pct": 100.3,
+   "strong_zero_share_pct": 0.0,
+   "all_inc_pct": 3.0,
+   "all_zero_share_pct": 0.7
+  },
+  "none_spread0.05": {
+   "spread": 0.05,
+   "buff_pct": 3.0,
+   "rule": "none",
+   "weak_inc_pct": 3.0,
+   "weak_kept_pct": 100.0,
+   "weak_zero_share_pct": 0.0,
+   "mid_inc_pct": 3.0,
+   "mid_kept_pct": 100.0,
+   "mid_zero_share_pct": 0.0,
+   "strong_inc_pct": 3.0,
+   "strong_kept_pct": 100.0,
+   "strong_zero_share_pct": 0.0,
+   "all_inc_pct": 3.0,
+   "all_zero_share_pct": 0.0
+  }
+ },
+ "zero_limits_each_nospread": {
+  "1": {
+   "max_atk_zero": 164,
+   "zero_count": 104,
+   "first_atk_positive": 85,
+   "formula_x1_below": 100.0
+  },
+  "3": {
+   "max_atk_zero": 54,
+   "zero_count": 32,
+   "first_atk_positive": 29,
+   "formula_x1_below": 33.33
+  },
+  "5": {
+   "max_atk_zero": 30,
+   "zero_count": 17,
+   "first_atk_positive": 18,
+   "formula_x1_below": 20.0
+  },
+  "10": {
+   "max_atk_zero": 14,
+   "zero_count": 6,
+   "first_atk_positive": 9,
+   "formula_x1_below": 10.0
+  }
+ },
+ "examples_nospread_buff3": [
+  {
+   "atk": 10,
+   "rule": "each",
+   "dmg_no_buff": 9.0,
+   "dmg_buff": 9.0,
+   "inc_pct": 0.0
+  },
+  {
+   "atk": 10,
+   "rule": "last",
+   "dmg_no_buff": 9.0,
+   "dmg_buff": 9.0,
+   "inc_pct": 0.0
+  },
+  {
+   "atk": 10,
+   "rule": "none",
+   "dmg_no_buff": 9.0,
+   "dmg_buff": 9.27,
+   "inc_pct": 3.0
+  },
+  {
+   "atk": 20,
+   "rule": "each",
+   "dmg_no_buff": 18.0,
+   "dmg_buff": 18.0,
+   "inc_pct": 0.0
+  },
+  {
+   "atk": 20,
+   "rule": "last",
+   "dmg_no_buff": 18.0,
+   "dmg_buff": 18.0,
+   "inc_pct": 0.0
+  },
+  {
+   "atk": 20,
+   "rule": "none",
+   "dmg_no_buff": 18.0,
+   "dmg_buff": 18.54,
+   "inc_pct": 3.0
+  },
+  {
+   "atk": 27,
+   "rule": "each",
+   "dmg_no_buff": 24.0,
+   "dmg_buff": 24.0,
+   "inc_pct": 0.0
+  },
+  {
+   "atk": 27,
+   "rule": "last",
+   "dmg_no_buff": 24.0,
+   "dmg_buff": 25.0,
+   "inc_pct": 4.17
+  },
+  {
+   "atk": 27,
+   "rule": "none",
+   "dmg_no_buff": 24.3,
+   "dmg_buff": 25.029,
+   "inc_pct": 3.0
+  },
+  {
+   "atk": 28,
+   "rule": "each",
+   "dmg_no_buff": 24.0,
+   "dmg_buff": 24.0,
+   "inc_pct": 0.0
+  },
+  {
+   "atk": 28,
+   "rule": "last",
+   "dmg_no_buff": 25.0,
+   "dmg_buff": 25.0,
+   "inc_pct": 0.0
+  },
+  {
+   "atk": 28,
+   "rule": "none",
+   "dmg_no_buff": 25.2,
+   "dmg_buff": 25.956,
+   "inc_pct": 3.0
+  },
+  {
+   "atk": 40,
+   "rule": "each",
+   "dmg_no_buff": 36.0,
+   "dmg_buff": 36.0,
+   "inc_pct": 0.0
+  },
+  {
+   "atk": 40,
+   "rule": "last",
+   "dmg_no_buff": 36.0,
+   "dmg_buff": 37.0,
+   "inc_pct": 2.78
+  },
+  {
+   "atk": 40,
+   "rule": "none",
+   "dmg_no_buff": 36.0,
+   "dmg_buff": 37.08,
+   "inc_pct": 3.0
+  },
+  {
+   "atk": 60,
+   "rule": "each",
+   "dmg_no_buff": 54.0,
+   "dmg_buff": 55.0,
+   "inc_pct": 1.85
+  },
+  {
+   "atk": 60,
+   "rule": "last",
+   "dmg_no_buff": 54.0,
+   "dmg_buff": 55.0,
+   "inc_pct": 1.85
+  },
+  {
+   "atk": 60,
+   "rule": "none",
+   "dmg_no_buff": 54.0,
+   "dmg_buff": 55.62,
+   "inc_pct": 3.0
+  },
+  {
+   "atk": 100,
+   "rule": "each",
+   "dmg_no_buff": 90.0,
+   "dmg_buff": 92.0,
+   "inc_pct": 2.22
+  },
+  {
+   "atk": 100,
+   "rule": "last",
+   "dmg_no_buff": 90.0,
+   "dmg_buff": 92.0,
+   "inc_pct": 2.22
+  },
+  {
+   "atk": 100,
+   "rule": "none",
+   "dmg_no_buff": 90.0,
+   "dmg_buff": 92.7,
+   "inc_pct": 3.0
+  },
+  {
+   "atk": 200,
+   "rule": "each",
+   "dmg_no_buff": 180.0,
+   "dmg_buff": 185.0,
+   "inc_pct": 2.78
+  },
+  {
+   "atk": 200,
+   "rule": "last",
+   "dmg_no_buff": 180.0,
+   "dmg_buff": 185.0,
+   "inc_pct": 2.78
+  },
+  {
+   "atk": 200,
+   "rule": "none",
+   "dmg_no_buff": 180.0,
+   "dmg_buff": 185.4,
+   "inc_pct": 3.0
+  }
+ ],
+ "range_each_weak_kept": {
+  "spread0.0": [
+   0.0,
+   70.3
+  ],
+  "spread0.05": [
+   0.0,
+   71.1
+  ],
+  "spread0.1": [
+   0.0,
+   71.6
+  ]
+ },
+ "range_each_strong_kept": {
+  "spread0.0": [
+   76.9,
+   98.1
+  ],
+  "spread0.05": [
+   78.3,
+   98.2
+  ],
+  "spread0.1": [
+   78.2,
+   98.2
+  ]
+ },
+ "range_last_weak_kept": {
+  "spread0.0": [
+   21.4,
+   85.8
+  ],
+  "spread0.05": [
+   88.7,
+   100.5
+  ],
+  "spread0.1": [
+   85.1,
+   108.9
+  ]
+ },
+ "range_last_strong_kept": {
+  "spread0.0": [
+   95.7,
+   99.9
+  ],
+  "spread0.05": [
+   100.3,
+   100.3
+  ],
+  "spread0.1": [
+   100.1,
+   100.3
+  ]
+ }
+}

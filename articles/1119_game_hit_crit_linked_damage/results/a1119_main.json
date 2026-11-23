@@ -1,0 +1,266 @@
+{
+ "settings": {
+  "base_damage": 100.0,
+  "p_hit": 0.8,
+  "p_crit": 0.2,
+  "mult": 2.0,
+  "n_attacks": 1000000,
+  "state_share": 0.3,
+  "open_state": {
+   "hit": 0.98,
+   "crit": 0.45
+  },
+  "far_state": {
+   "hit": 0.5,
+   "crit": 0.4
+  },
+  "open_other": [
+   0.7229,
+   0.0929
+  ],
+  "far_other": [
+   0.9286,
+   0.1143
+  ],
+  "log_len": 1000,
+  "log_reps": 2000,
+  "grid_p_hit": [
+   0.6,
+   0.75,
+   0.9
+  ],
+  "grid_p_crit": [
+   0.1,
+   0.25,
+   0.4
+  ],
+  "grid_mult": [
+   1.5,
+   2.5,
+   3.5
+  ],
+  "grid_lam": [
+   -1.0,
+   -0.5,
+   0.0,
+   0.5,
+   1.0
+  ],
+  "upgrade": 0.1,
+  "seed": 1119
+ },
+ "expected_indep": 96.0,
+ "kinds": [
+  {
+   "kind": "indep",
+   "label": "①命中と会心を別々の乱数で決める",
+   "hit_rate_sim": 0.7999,
+   "crit_rate_sim": 0.1997,
+   "hit_and_crit_formula": 0.16,
+   "hit_and_crit_sim": 0.1598,
+   "crit_given_hit_formula": 0.2,
+   "crit_given_hit_sim": 0.1997,
+   "expected_indep": 96.0,
+   "expected_true_formula": 96.0,
+   "mean_damage_sim": 95.97,
+   "gap_pct_formula": -0.0,
+   "true_vs_indep_pct": 0.0
+  },
+  {
+   "kind": "open",
+   "label": "②敵の隙で両方が上がる（3割の攻撃）",
+   "hit_rate_sim": 0.8003,
+   "crit_rate_sim": 0.2005,
+   "hit_and_crit_formula": 0.1793,
+   "hit_and_crit_sim": 0.1794,
+   "crit_given_hit_formula": 0.2241,
+   "crit_given_hit_sim": 0.2242,
+   "expected_indep": 96.0,
+   "expected_true_formula": 97.93,
+   "mean_damage_sim": 97.97,
+   "gap_pct_formula": -1.97,
+   "true_vs_indep_pct": 2.01
+  },
+  {
+   "kind": "far",
+   "label": "③遠い間合いで命中が下がり会心が上がる（3割）",
+   "hit_rate_sim": 0.8001,
+   "crit_rate_sim": 0.2,
+   "hit_and_crit_formula": 0.1343,
+   "hit_and_crit_sim": 0.1342,
+   "crit_given_hit_formula": 0.1679,
+   "crit_given_hit_sim": 0.1678,
+   "expected_indep": 96.0,
+   "expected_true_formula": 93.43,
+   "mean_damage_sim": 93.43,
+   "gap_pct_formula": 2.75,
+   "true_vs_indep_pct": -2.68
+  },
+  {
+   "kind": "same_low",
+   "label": "④1つの乱数の同じ側で両方を決める",
+   "hit_rate_sim": 0.8,
+   "crit_rate_sim": 0.2,
+   "hit_and_crit_formula": 0.2,
+   "hit_and_crit_sim": 0.2,
+   "crit_given_hit_formula": 0.25,
+   "crit_given_hit_sim": 0.25,
+   "expected_indep": 96.0,
+   "expected_true_formula": 100.0,
+   "mean_damage_sim": 100.0,
+   "gap_pct_formula": -4.0,
+   "true_vs_indep_pct": 4.17
+  },
+  {
+   "kind": "same_high",
+   "label": "⑤1つの乱数の逆の側で会心を決める",
+   "hit_rate_sim": 0.7998,
+   "crit_rate_sim": 0.2002,
+   "hit_and_crit_formula": 0.0,
+   "hit_and_crit_sim": 0.0,
+   "crit_given_hit_formula": 0.0,
+   "crit_given_hit_sim": 0.0,
+   "expected_indep": 96.0,
+   "expected_true_formula": 80.0,
+   "mean_damage_sim": 79.98,
+   "gap_pct_formula": 20.0,
+   "true_vs_indep_pct": -16.67
+  }
+ ],
+ "kinds_sim_maxdiff": 0.04,
+ "log_estimate": [
+  {
+   "kind": "indep",
+   "label": "①命中と会心を別々の乱数で決める",
+   "true": 96.0,
+   "est_mean": 95.94,
+   "rel_err_p05": -3.44,
+   "rel_err_p95": 3.12,
+   "indep_rel_err": -0.0
+  },
+  {
+   "kind": "open",
+   "label": "②敵の隙で両方が上がる（3割の攻撃）",
+   "true": 97.93,
+   "est_mean": 97.98,
+   "rel_err_p05": -3.3,
+   "rel_err_p95": 3.24,
+   "indep_rel_err": -1.97
+  },
+  {
+   "kind": "far",
+   "label": "③遠い間合いで命中が下がり会心が上がる（3割）",
+   "true": 93.43,
+   "est_mean": 93.48,
+   "rel_err_p05": -3.03,
+   "rel_err_p95": 3.18,
+   "indep_rel_err": 2.75
+  },
+  {
+   "kind": "same_low",
+   "label": "④1つの乱数の同じ側で両方を決める",
+   "true": 100.0,
+   "est_mean": 100.01,
+   "rel_err_p05": -3.3,
+   "rel_err_p95": 3.2,
+   "indep_rel_err": -4.0
+  },
+  {
+   "kind": "same_high",
+   "label": "⑤1つの乱数の逆の側で会心を決める",
+   "true": 80.0,
+   "est_mean": 80.03,
+   "rel_err_p05": -2.5,
+   "rel_err_p95": 2.62,
+   "indep_rel_err": 20.0
+  }
+ ],
+ "grid_by_lam": [
+  {
+   "lam": -1.0,
+   "gap_min": -50.0,
+   "gap_max": -2.78,
+   "wrong": 7,
+   "n": 27,
+   "loss_max": 10.0
+  },
+  {
+   "lam": -0.5,
+   "gap_min": -25.0,
+   "gap_max": -1.39,
+   "wrong": 7,
+   "n": 27,
+   "loss_max": 4.0
+  },
+  {
+   "lam": 0.0,
+   "gap_min": 0.0,
+   "gap_max": 0.0,
+   "wrong": 0,
+   "n": 27,
+   "loss_max": 0.0
+  },
+  {
+   "lam": 0.5,
+   "gap_min": 0.26,
+   "gap_max": 16.67,
+   "wrong": 10,
+   "n": 27,
+   "loss_max": 6.875
+  },
+  {
+   "lam": 1.0,
+   "gap_min": 0.53,
+   "gap_max": 33.33,
+   "wrong": 11,
+   "n": 27,
+   "loss_max": 15.0
+  }
+ ],
+ "grid_nonzero_gap_min": -50.0,
+ "grid_nonzero_gap_max": 33.33,
+ "grid_nonzero_wrong": 35,
+ "grid_nonzero_n": 108,
+ "grid_lam0_wrong": 0,
+ "grid_nonzero_flip": 34,
+ "grid_nonzero_tie_true": 1,
+ "grid_nonzero_tie_indep": 0,
+ "grid_flip_by_lam": {
+  "-1.0": 7,
+  "-0.5": 6,
+  "0.0": 0,
+  "0.5": 10,
+  "1.0": 11
+ },
+ "grid_nonzero_loss_max": 15.0,
+ "grid_flip_indep_hit_true_crit": 21,
+ "grid_flip_indep_crit_true_hit": 13,
+ "grid_sim_check": [
+  {
+   "lam": -1.0,
+   "formula": 75.0,
+   "sim": 74.97
+  },
+  {
+   "lam": -0.5,
+   "formula": 89.06,
+   "sim": 89.14
+  },
+  {
+   "lam": 0.0,
+   "formula": 103.12,
+   "sim": 103.03
+  },
+  {
+   "lam": 0.5,
+   "formula": 107.81,
+   "sim": 107.85
+  },
+  {
+   "lam": 1.0,
+   "formula": 112.5,
+   "sim": 112.6
+  }
+ ],
+ "grid_sim_check_maxdiff": 0.1
+}

@@ -1,0 +1,251 @@
+{
+ "setup": {
+  "p0": 0.1,
+  "k": 0.02,
+  "players": 20000,
+  "grid_p0": [
+   0.05,
+   0.1,
+   0.2
+  ],
+  "grid_k": [
+   0.01,
+   0.02,
+   0.05
+  ]
+ },
+ "matched": {
+  "scale": 0.4382,
+  "p0_pct": 4.38,
+  "k_pt": 0.88
+ },
+ "base": {
+  "fixed": {
+   "name": "決まった率10%",
+   "p0_pct": 10.0,
+   "k_pt": 0.0,
+   "formula": {
+    "mean": 10.0,
+    "sd": 9.487,
+    "p50": 7,
+    "p90": 22,
+    "p99": 44,
+    "max_possible": null,
+    "over_30": 4.24,
+    "rate_per_try_pct": 10.0
+   },
+   "sim": {
+    "mean": 10.055,
+    "sd": 9.625,
+    "p50": 7,
+    "p90": 22,
+    "p99": 45,
+    "max": 106,
+    "over_30": 4.49,
+    "rate_per_try_pct": 9.94
+   }
+  },
+  "rise": {
+   "name": "上がる率（10%から+2ポイント）",
+   "p0_pct": 10.0,
+   "k_pt": 2.0,
+   "formula": {
+    "mean": 5.823,
+    "sd": 3.698,
+    "p50": 5,
+    "p90": 11,
+    "p99": 16,
+    "max_possible": 46,
+    "over_30": 0.0,
+    "rate_per_try_pct": 17.17
+   },
+   "sim": {
+    "mean": 5.846,
+    "sd": 3.686,
+    "p50": 5,
+    "p90": 11,
+    "p99": 16,
+    "max": 27,
+    "over_30": 0.0,
+    "rate_per_try_pct": 17.11
+   },
+   "guaranteed_by": 46
+  },
+  "rise_matched": {
+   "name": "上がる率（平均10回にそろえた）",
+   "p0_pct": 4.38,
+   "k_pt": 0.88,
+   "formula": {
+    "mean": 10.0,
+    "sd": 6.18,
+    "p50": 9,
+    "p90": 19,
+    "p99": 27,
+    "max_possible": 111,
+    "over_30": 0.32,
+    "rate_per_try_pct": 10.0
+   },
+   "sim": {
+    "mean": 9.96,
+    "sd": 6.238,
+    "p50": 9,
+    "p90": 19,
+    "p99": 27,
+    "max": 41,
+    "over_30": 0.38,
+    "rate_per_try_pct": 10.04
+   },
+   "guaranteed_by": 111
+  }
+ },
+ "base_ratio": {
+  "mean_rise_over_fixed": 0.582,
+  "sd_rise_over_fixed": 0.39,
+  "sd_matched_over_fixed": 0.651,
+  "p99_fixed": 44,
+  "p99_rise": 16,
+  "p99_matched": 27
+ },
+ "after_fails": [
+  {
+   "rule": "fixed",
+   "fails_before": 0,
+   "players": 20000,
+   "next_success_pct": 9.7,
+   "set_rate_pct": 10.0
+  },
+  {
+   "rule": "fixed",
+   "fails_before": 5,
+   "players": 11834,
+   "next_success_pct": 10.01,
+   "set_rate_pct": 10.0
+  },
+  {
+   "rule": "fixed",
+   "fails_before": 10,
+   "players": 6928,
+   "next_success_pct": 9.73,
+   "set_rate_pct": 10.0
+  },
+  {
+   "rule": "fixed",
+   "fails_before": 15,
+   "players": 4160,
+   "next_success_pct": 10.53,
+   "set_rate_pct": 10.0
+  },
+  {
+   "rule": "fixed",
+   "fails_before": 20,
+   "players": 2432,
+   "next_success_pct": 11.23,
+   "set_rate_pct": 10.0
+  },
+  {
+   "rule": "fixed",
+   "fails_before": 25,
+   "players": 1473,
+   "next_success_pct": 9.16,
+   "set_rate_pct": 10.0
+  },
+  {
+   "rule": "fixed",
+   "fails_before": 30,
+   "players": 897,
+   "next_success_pct": 11.26,
+   "set_rate_pct": 10.0
+  },
+  {
+   "rule": "rise",
+   "fails_before": 0,
+   "players": 20000,
+   "next_success_pct": 9.62,
+   "set_rate_pct": 10.0
+  },
+  {
+   "rule": "rise",
+   "fails_before": 5,
+   "players": 9461,
+   "next_success_pct": 20.4,
+   "set_rate_pct": 20.0
+  },
+  {
+   "rule": "rise",
+   "fails_before": 10,
+   "players": 2340,
+   "next_success_pct": 29.91,
+   "set_rate_pct": 30.0
+  },
+  {
+   "rule": "rise",
+   "fails_before": 15,
+   "players": 288,
+   "next_success_pct": 38.89,
+   "set_rate_pct": 40.0
+  },
+  {
+   "rule": "rise",
+   "fails_before": 20,
+   "players": 22,
+   "next_success_pct": 63.64,
+   "set_rate_pct": 50.0
+  },
+  {
+   "rule": "rise",
+   "fails_before": 25,
+   "players": 2,
+   "next_success_pct": 0.0,
+   "set_rate_pct": 60.0
+  },
+  {
+   "rule": "rise",
+   "fails_before": 30,
+   "players": 0,
+   "next_success_pct": null,
+   "set_rate_pct": 70.0
+  }
+ ],
+ "grid_range": {
+  "mean_ratio": [
+   0.265,
+   0.871
+  ],
+  "sd_ratio": [
+   0.133,
+   0.744
+  ],
+  "matched_sd_ratio": [
+   0.528,
+   0.859
+  ],
+  "rise_rate_per_try_pct": [
+   10.87,
+   29.2
+  ],
+  "matched_p0_pct": [
+   0.38,
+   17.04
+  ],
+  "matched_k_pt": [
+   0.28,
+   2.88
+  ],
+  "rise_p99": [
+   9.0,
+   25.0
+  ],
+  "matched_p99": [
+   14.0,
+   52.0
+  ],
+  "fixed_p99": [
+   21.0,
+   90.0
+  ]
+ },
+ "grid_shown_over_rate_ratio": [
+  1.15,
+  3.78
+ ]
+}
