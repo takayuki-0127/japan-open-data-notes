@@ -1,0 +1,222 @@
+{
+ "base_setting": {
+  "n": 1000,
+  "sd": 200.0,
+  "drift": 30.0,
+  "k": 32.0,
+  "w": 100.0,
+  "warm": 300,
+  "games": 100,
+  "top": 50
+ },
+ "policies": [
+  {
+   "c": 1.0,
+   "label": "そのまま"
+  },
+  {
+   "c": 0.5,
+   "label": "半分戻す"
+  },
+  {
+   "c": 0.0,
+   "label": "全員1500に戻す"
+  }
+ ],
+ "headline": {
+  "top": 50,
+  "reps": 20,
+  "true_change_mean": 6.85,
+  "true_change_min": 3,
+  "true_change_max": 11,
+  "prev_vs_true1_mean": 39.7,
+  "c1.0_g10_changed": 7.7,
+  "c1.0_g10_true_hit": 38.9,
+  "c1.0_g100_changed": 14.9,
+  "c1.0_g100_true_hit": 40.35,
+  "c1.0_end_sd_ratio": 1.305,
+  "c0.5_g10_changed": 12.75,
+  "c0.5_g10_true_hit": 36.6,
+  "c0.5_g100_changed": 16.3,
+  "c0.5_g100_true_hit": 38.65,
+  "c0.5_end_sd_ratio": 1.01,
+  "c0.0_g10_changed": 28.0,
+  "c0.0_g10_true_hit": 23.3,
+  "c0.0_g100_changed": 16.55,
+  "c0.0_g100_true_hit": 37.65,
+  "c0.0_end_sd_ratio": 0.913,
+  "full_g10_changed_over_true_change": 4.09,
+  "keep_g100_changed_over_true_change": 2.18,
+  "keep_minus_full_g100_true_hit": 2.7
+ },
+ "by_policy_games": [
+  {
+   "policy": "そのまま",
+   "c": 1.0,
+   "games": 5,
+   "changed_mean": 5.7,
+   "changed_min": 2,
+   "changed_max": 7,
+   "true_hit_mean": 38.7
+  },
+  {
+   "policy": "そのまま",
+   "c": 1.0,
+   "games": 10,
+   "changed_mean": 7.7,
+   "changed_min": 4,
+   "changed_max": 10,
+   "true_hit_mean": 38.9
+  },
+  {
+   "policy": "そのまま",
+   "c": 1.0,
+   "games": 25,
+   "changed_mean": 11.6,
+   "changed_min": 9,
+   "changed_max": 15,
+   "true_hit_mean": 39.65
+  },
+  {
+   "policy": "そのまま",
+   "c": 1.0,
+   "games": 50,
+   "changed_mean": 13.65,
+   "changed_min": 11,
+   "changed_max": 17,
+   "true_hit_mean": 39.95
+  },
+  {
+   "policy": "そのまま",
+   "c": 1.0,
+   "games": 100,
+   "changed_mean": 14.9,
+   "changed_min": 10,
+   "changed_max": 22,
+   "true_hit_mean": 40.35
+  },
+  {
+   "policy": "半分戻す",
+   "c": 0.5,
+   "games": 5,
+   "changed_mean": 9.8,
+   "changed_min": 7,
+   "changed_max": 13,
+   "true_hit_mean": 36.75
+  },
+  {
+   "policy": "半分戻す",
+   "c": 0.5,
+   "games": 10,
+   "changed_mean": 12.75,
+   "changed_min": 9,
+   "changed_max": 16,
+   "true_hit_mean": 36.6
+  },
+  {
+   "policy": "半分戻す",
+   "c": 0.5,
+   "games": 25,
+   "changed_mean": 15.1,
+   "changed_min": 12,
+   "changed_max": 20,
+   "true_hit_mean": 37.55
+  },
+  {
+   "policy": "半分戻す",
+   "c": 0.5,
+   "games": 50,
+   "changed_mean": 16.1,
+   "changed_min": 12,
+   "changed_max": 19,
+   "true_hit_mean": 37.8
+  },
+  {
+   "policy": "半分戻す",
+   "c": 0.5,
+   "games": 100,
+   "changed_mean": 16.3,
+   "changed_min": 13,
+   "changed_max": 19,
+   "true_hit_mean": 38.65
+  },
+  {
+   "policy": "全員1500に戻す",
+   "c": 0.0,
+   "games": 5,
+   "changed_mean": 34.45,
+   "changed_min": 30,
+   "changed_max": 38,
+   "true_hit_mean": 16.15
+  },
+  {
+   "policy": "全員1500に戻す",
+   "c": 0.0,
+   "games": 10,
+   "changed_mean": 28.0,
+   "changed_min": 23,
+   "changed_max": 32,
+   "true_hit_mean": 23.3
+  },
+  {
+   "policy": "全員1500に戻す",
+   "c": 0.0,
+   "games": 25,
+   "changed_mean": 22.15,
+   "changed_min": 18,
+   "changed_max": 27,
+   "true_hit_mean": 31.3
+  },
+  {
+   "policy": "全員1500に戻す",
+   "c": 0.0,
+   "games": 50,
+   "changed_mean": 17.8,
+   "changed_min": 14,
+   "changed_max": 24,
+   "true_hit_mean": 35.1
+  },
+  {
+   "policy": "全員1500に戻す",
+   "c": 0.0,
+   "games": 100,
+   "changed_mean": 16.55,
+   "changed_min": 12,
+   "changed_max": 21,
+   "true_hit_mean": 37.65
+  }
+ ],
+ "grid_summary": {
+  "n": 27,
+  "c1.0_g10_changed_min": 3.8,
+  "c1.0_g10_changed_max": 11.6,
+  "c1.0_end_changed_min": 10.2,
+  "c1.0_end_changed_max": 19.6,
+  "c1.0_end_true_hit_min": 36.2,
+  "c1.0_end_true_hit_max": 43.0,
+  "c0.5_g10_changed_min": 7.6,
+  "c0.5_g10_changed_max": 17.2,
+  "c0.5_end_changed_min": 11.2,
+  "c0.5_end_changed_max": 20.6,
+  "c0.5_end_true_hit_min": 35.2,
+  "c0.5_end_true_hit_max": 42.2,
+  "c0.0_g10_changed_min": 26.0,
+  "c0.0_g10_changed_max": 32.2,
+  "c0.0_end_changed_min": 11.4,
+  "c0.0_end_changed_max": 22.0,
+  "c0.0_end_true_hit_min": 33.8,
+  "c0.0_end_true_hit_max": 41.6,
+  "true_change_min": 0.0,
+  "true_change_max": 13.4,
+  "full_reset_end_more_changed_count": 23,
+  "full_reset_g10_more_changed_count": 27,
+  "full_reset_end_better_true_count": 1,
+  "keep_end_true_hit_ge_full_count": 26,
+  "drift0_keep_end_changed_min": 10.2,
+  "drift0_keep_end_changed_max": 16.0,
+  "games50_full_end_changed_min": 15.4,
+  "games50_full_end_changed_max": 22.0,
+  "games200_full_end_changed_min": 11.4,
+  "games200_full_end_changed_max": 20.0
+ }
+}

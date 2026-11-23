@@ -1,0 +1,348 @@
+{
+ "setting": {
+  "players": 100,
+  "skill_sd": 0.3,
+  "games_per_player": [
+   10,
+   25,
+   50,
+   100,
+   200,
+   400,
+   800
+  ],
+  "team_sizes": [
+   1,
+   3,
+   5
+  ],
+  "reps": 20,
+  "ridge": 1.0
+ },
+ "by_size_games_mean_model": {
+  "1v1_G10": {
+   "winrate_spearman": 0.389,
+   "reg_spearman": 0.39,
+   "reg_top10_pct": 22.5
+  },
+  "1v1_G25": {
+   "winrate_spearman": 0.555,
+   "reg_spearman": 0.553,
+   "reg_top10_pct": 38.5
+  },
+  "1v1_G50": {
+   "winrate_spearman": 0.692,
+   "reg_spearman": 0.697,
+   "reg_top10_pct": 44.0
+  },
+  "1v1_G100": {
+   "winrate_spearman": 0.812,
+   "reg_spearman": 0.815,
+   "reg_top10_pct": 57.5
+  },
+  "1v1_G200": {
+   "winrate_spearman": 0.891,
+   "reg_spearman": 0.892,
+   "reg_top10_pct": 66.0
+  },
+  "1v1_G400": {
+   "winrate_spearman": 0.933,
+   "reg_spearman": 0.935,
+   "reg_top10_pct": 74.5
+  },
+  "1v1_G800": {
+   "winrate_spearman": 0.968,
+   "reg_spearman": 0.968,
+   "reg_top10_pct": 81.0
+  },
+  "3v3_G10": {
+   "winrate_spearman": 0.146,
+   "reg_spearman": 0.147,
+   "reg_top10_pct": 17.5
+  },
+  "3v3_G25": {
+   "winrate_spearman": 0.233,
+   "reg_spearman": 0.229,
+   "reg_top10_pct": 16.0
+  },
+  "3v3_G50": {
+   "winrate_spearman": 0.306,
+   "reg_spearman": 0.299,
+   "reg_top10_pct": 23.0
+  },
+  "3v3_G100": {
+   "winrate_spearman": 0.405,
+   "reg_spearman": 0.398,
+   "reg_top10_pct": 24.0
+  },
+  "3v3_G200": {
+   "winrate_spearman": 0.525,
+   "reg_spearman": 0.52,
+   "reg_top10_pct": 37.0
+  },
+  "3v3_G400": {
+   "winrate_spearman": 0.658,
+   "reg_spearman": 0.655,
+   "reg_top10_pct": 41.5
+  },
+  "3v3_G800": {
+   "winrate_spearman": 0.786,
+   "reg_spearman": 0.786,
+   "reg_top10_pct": 57.0
+  },
+  "5v5_G10": {
+   "winrate_spearman": 0.082,
+   "reg_spearman": 0.084,
+   "reg_top10_pct": 7.5
+  },
+  "5v5_G25": {
+   "winrate_spearman": 0.149,
+   "reg_spearman": 0.146,
+   "reg_top10_pct": 14.0
+  },
+  "5v5_G50": {
+   "winrate_spearman": 0.213,
+   "reg_spearman": 0.217,
+   "reg_top10_pct": 16.0
+  },
+  "5v5_G100": {
+   "winrate_spearman": 0.263,
+   "reg_spearman": 0.255,
+   "reg_top10_pct": 21.5
+  },
+  "5v5_G200": {
+   "winrate_spearman": 0.366,
+   "reg_spearman": 0.363,
+   "reg_top10_pct": 26.0
+  },
+  "5v5_G400": {
+   "winrate_spearman": 0.513,
+   "reg_spearman": 0.515,
+   "reg_top10_pct": 34.0
+  },
+  "5v5_G800": {
+   "winrate_spearman": 0.638,
+   "reg_spearman": 0.639,
+   "reg_top10_pct": 41.0
+  }
+ },
+ "by_size_games": {
+  "1v1_G10": {
+   "winrate_spearman": 0.389,
+   "reg_spearman": 0.39,
+   "winrate_top10_pct": 24.0,
+   "reg_top10_pct": 22.5
+  },
+  "1v1_G25": {
+   "winrate_spearman": 0.555,
+   "reg_spearman": 0.553,
+   "winrate_top10_pct": 37.5,
+   "reg_top10_pct": 38.5
+  },
+  "1v1_G50": {
+   "winrate_spearman": 0.692,
+   "reg_spearman": 0.697,
+   "winrate_top10_pct": 42.5,
+   "reg_top10_pct": 44.0
+  },
+  "1v1_G100": {
+   "winrate_spearman": 0.812,
+   "reg_spearman": 0.815,
+   "winrate_top10_pct": 57.5,
+   "reg_top10_pct": 57.5
+  },
+  "1v1_G200": {
+   "winrate_spearman": 0.891,
+   "reg_spearman": 0.892,
+   "winrate_top10_pct": 66.5,
+   "reg_top10_pct": 66.0
+  },
+  "1v1_G400": {
+   "winrate_spearman": 0.933,
+   "reg_spearman": 0.935,
+   "winrate_top10_pct": 74.0,
+   "reg_top10_pct": 74.5
+  },
+  "1v1_G800": {
+   "winrate_spearman": 0.968,
+   "reg_spearman": 0.968,
+   "winrate_top10_pct": 81.0,
+   "reg_top10_pct": 81.0
+  },
+  "3v3_G10": {
+   "winrate_spearman": 0.372,
+   "reg_spearman": 0.369,
+   "winrate_top10_pct": 22.0,
+   "reg_top10_pct": 25.0
+  },
+  "3v3_G25": {
+   "winrate_spearman": 0.535,
+   "reg_spearman": 0.535,
+   "winrate_top10_pct": 43.5,
+   "reg_top10_pct": 38.0
+  },
+  "3v3_G50": {
+   "winrate_spearman": 0.657,
+   "reg_spearman": 0.661,
+   "winrate_top10_pct": 47.0,
+   "reg_top10_pct": 46.5
+  },
+  "3v3_G100": {
+   "winrate_spearman": 0.793,
+   "reg_spearman": 0.802,
+   "winrate_top10_pct": 56.5,
+   "reg_top10_pct": 59.0
+  },
+  "3v3_G200": {
+   "winrate_spearman": 0.874,
+   "reg_spearman": 0.881,
+   "winrate_top10_pct": 69.0,
+   "reg_top10_pct": 75.5
+  },
+  "3v3_G400": {
+   "winrate_spearman": 0.924,
+   "reg_spearman": 0.928,
+   "winrate_top10_pct": 71.5,
+   "reg_top10_pct": 73.5
+  },
+  "3v3_G800": {
+   "winrate_spearman": 0.962,
+   "reg_spearman": 0.966,
+   "winrate_top10_pct": 79.5,
+   "reg_top10_pct": 81.0
+  },
+  "5v5_G10": {
+   "winrate_spearman": 0.316,
+   "reg_spearman": 0.299,
+   "winrate_top10_pct": 21.0,
+   "reg_top10_pct": 21.5
+  },
+  "5v5_G25": {
+   "winrate_spearman": 0.499,
+   "reg_spearman": 0.477,
+   "winrate_top10_pct": 32.0,
+   "reg_top10_pct": 34.5
+  },
+  "5v5_G50": {
+   "winrate_spearman": 0.652,
+   "reg_spearman": 0.651,
+   "winrate_top10_pct": 44.5,
+   "reg_top10_pct": 49.0
+  },
+  "5v5_G100": {
+   "winrate_spearman": 0.755,
+   "reg_spearman": 0.777,
+   "winrate_top10_pct": 55.5,
+   "reg_top10_pct": 55.5
+  },
+  "5v5_G200": {
+   "winrate_spearman": 0.863,
+   "reg_spearman": 0.874,
+   "winrate_top10_pct": 57.5,
+   "reg_top10_pct": 63.0
+  },
+  "5v5_G400": {
+   "winrate_spearman": 0.92,
+   "reg_spearman": 0.931,
+   "winrate_top10_pct": 73.5,
+   "reg_top10_pct": 75.0
+  },
+  "5v5_G800": {
+   "winrate_spearman": 0.957,
+   "reg_spearman": 0.961,
+   "winrate_top10_pct": 83.5,
+   "reg_top10_pct": 84.5
+  }
+ },
+ "games_needed_reg_spearman_0.8": {
+  "1v1": 100,
+  "3v3": 100,
+  "5v5": 200
+ },
+ "games_needed_reg_top10_50pct": {
+  "1v1": 100,
+  "3v3": 100,
+  "5v5": 100
+ },
+ "mean_model_games_needed_reg_spearman_0.8": {
+  "1v1": 100,
+  "3v3": null,
+  "5v5": null
+ },
+ "fixed_teams_5v5_G100": {
+  "0.0": {
+   "winrate_spearman": 0.774,
+   "reg_spearman": 0.783,
+   "winrate_top10": 58.0,
+   "reg_top10": 54.5,
+   "winrate_within_team_correct": 80.175,
+   "reg_within_team_correct": 79.625
+  },
+  "0.5": {
+   "winrate_spearman": 0.603,
+   "reg_spearman": 0.696,
+   "winrate_top10": 38.5,
+   "reg_top10": 41.5,
+   "winrate_within_team_correct": 73.162,
+   "reg_within_team_correct": 72.925
+  },
+  "0.8": {
+   "winrate_spearman": 0.463,
+   "reg_spearman": 0.478,
+   "winrate_top10": 31.5,
+   "reg_top10": 29.5,
+   "winrate_within_team_correct": 63.675,
+   "reg_within_team_correct": 65.225
+  },
+  "0.95": {
+   "winrate_spearman": 0.417,
+   "reg_spearman": 0.389,
+   "winrate_top10": 24.5,
+   "reg_top10": 25.0,
+   "winrate_within_team_correct": 58.612,
+   "reg_within_team_correct": 59.85
+  },
+  "1.0": {
+   "winrate_spearman": 0.414,
+   "reg_spearman": 0.416,
+   "winrate_top10": 28.5,
+   "reg_top10": 29.0,
+   "winrate_within_team_correct": 50.0,
+   "reg_within_team_correct": 50.0
+  }
+ },
+ "grid_5v5": {
+  "n_cases": 9,
+  "reg_spearman_G100_range": [
+   0.545,
+   0.889
+  ],
+  "winrate_spearman_G100_range": [
+   0.556,
+   0.863
+  ],
+  "games_needed_reg_spearman_0.8": {
+   "sd0.15_n50": 400,
+   "sd0.15_n100": 400,
+   "sd0.15_n200": 400,
+   "sd0.3_n50": 100,
+   "sd0.3_n100": 200,
+   "sd0.3_n200": 200,
+   "sd0.5_n50": 100,
+   "sd0.5_n100": 100,
+   "sd0.5_n200": 50
+  },
+  "reg_minus_winrate_G100_range": [
+   -0.011,
+   0.032
+  ]
+ },
+ "example_5v5_G50": {
+  "games": 500,
+  "winrate_spearman": 0.649,
+  "reg_spearman": 0.641,
+  "winrate_top10_pct": 20.0,
+  "reg_top10_pct": 30.0,
+  "true_top_player_winrate_rank": 11
+ }
+}

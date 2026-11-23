@@ -1,0 +1,122 @@
+{
+ "setting": {
+  "characters": 12,
+  "zipf": 0.8,
+  "sd": 0.2,
+  "rho": 0.5,
+  "matchup_sd": 0.15,
+  "matches_per_week": 30000,
+  "leagues": 2000,
+  "usage_base_pct": [
+   25.98,
+   14.92,
+   10.79,
+   8.57,
+   7.17,
+   6.2,
+   5.48,
+   4.92,
+   4.48,
+   4.12,
+   3.82,
+   3.56
+  ]
+ },
+ "example": {
+  "top_usage_char": "A",
+  "top_usage_pct": 25.98,
+  "A_true": 57.71,
+  "A_mirror_in": 55.71,
+  "A_per_match": 64.03,
+  "A_mirror_share_week": 26.62,
+  "true_top": "B",
+  "mirror_in_top": "B",
+  "per_match_top": "A",
+  "max_abs_week_minus_formula_pt": {
+   "true": 1.55,
+   "mirror_in": 1.55,
+   "per_match": 1.75
+  },
+  "usage_weighted_mean_mirror_in_pct": 50.0,
+  "spearman_true_vs_mirror_in": 1.0,
+  "spearman_true_vs_per_match": 0.99
+ },
+ "leagues_base": {
+  "f_mirror_in": {
+   "top_miss_pct": 8.15,
+   "pair_flip_pct": 0.85,
+   "spearman_mean": 0.996,
+   "top3_hit_pct": 98.05
+  },
+  "f_per_match": {
+   "top_miss_pct": 31.85,
+   "pair_flip_pct": 6.71,
+   "spearman_mean": 0.942,
+   "top3_hit_pct": 83.43
+  },
+  "wk_true": {
+   "top_miss_pct": 10.55,
+   "pair_flip_pct": 4.97,
+   "spearman_mean": 0.967,
+   "top3_hit_pct": 91.52
+  },
+  "wk_mirror_in": {
+   "top_miss_pct": 14.25,
+   "pair_flip_pct": 5.15,
+   "spearman_mean": 0.965,
+   "top3_hit_pct": 91.08
+  },
+  "wk_per_match": {
+   "top_miss_pct": 32.85,
+   "pair_flip_pct": 8.74,
+   "spearman_mean": 0.923,
+   "top3_hit_pct": 82.1
+  }
+ },
+ "A_mean": {
+  "true": 53.29,
+  "mirror_in": 52.44,
+  "per_match": 60.27,
+  "A_true_top_pct": 30.85
+ },
+ "when_A_true_top": {
+  "leagues": 617,
+  "mirror_in_top_miss_pct": 16.86,
+  "per_match_top_miss_pct": 0.0
+ },
+ "when_A_not_true_top": {
+  "leagues": 1383,
+  "mirror_in_top_miss_pct": 4.27,
+  "per_match_top_miss_pct": 46.06
+ },
+ "grid_range": {
+  "f_mirror_in_top_miss_pct": [
+   2.0,
+   13.8
+  ],
+  "f_per_match_top_miss_pct": [
+   7.2,
+   81.0
+  ],
+  "f_mirror_in_pair_flip_pct": [
+   0.29,
+   1.6
+  ],
+  "f_per_match_pair_flip_pct": [
+   1.49,
+   17.16
+  ],
+  "n_cases": 27,
+  "per_match_worse_than_mirror_in_cases": 27
+ },
+ "grid_by_zipf_mirror_in_top_miss_mean": {
+  "0.4": 3.62,
+  "0.8": 7.96,
+  "1.2": 11.78
+ },
+ "grid_by_sd_mirror_in_top_miss_mean": {
+  "0.1": 7.76,
+  "0.2": 7.6,
+  "0.35": 8.0
+ }
+}

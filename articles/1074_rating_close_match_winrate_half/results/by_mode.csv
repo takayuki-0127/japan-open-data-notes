@@ -1,0 +1,4 @@
+mode,label,wr_sd,binom_noise_sd,share_45_55,mean_abs_p_minus_half,spearman_wr_true,spearman_rating_true,corr_wr_gap,top10_wr_mean,bottom10_wr_mean,top10_hit_by_wr,top10_hit_by_rating,corr_opp_true,rating_err_sd,rating_slope
+random,でたらめ,0.2005,0.0325,0.1825,0.1647,0.9856,0.9664,0.0289,0.8387,0.1747,0.905,0.84,0.0317,54.2108,1.0367
+rating,点数の近い人どうし,0.0275,0.0353,0.946,0.0308,0.8251,0.9744,-0.0076,0.5398,0.46,0.55,0.84,0.9931,113.4478,1.4477
+true,本当の強さの近い人どうし（参考）,0.0378,0.0353,0.835,0.0139,0.4051,0.9197,0.3907,0.5277,0.4697,0.23,0.695,0.9996,88.1533,0.6459

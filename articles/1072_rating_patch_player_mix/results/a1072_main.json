@@ -1,0 +1,150 @@
+{
+ "setting": {
+  "mains": 1500,
+  "main_skill": 0.5,
+  "stay": 0.8,
+  "newcomers": 2500,
+  "new_skill": -0.5,
+  "delta": 0.25,
+  "rating_noise": 0.5,
+  "stay_by_wins": 0.0,
+  "beta": 0.6,
+  "games_per_player_per_period": 40,
+  "reps": 500
+ },
+ "formula": {
+  "before_rate": 56.45,
+  "after_rate": 53.06,
+  "naive": -3.39,
+  "true_after_users": 5.33,
+  "true_stayers": 5.24,
+  "mix_term": -8.71,
+  "newcomer_share_after": 67.57
+ },
+ "example_one_rep": {
+  "naive": -3.67,
+  "stayers": 5.12,
+  "band": 2.69,
+  "true_after_users": 5.31,
+  "true_stayers": 5.19,
+  "mix_term": -8.84,
+  "before_rate": 56.56,
+  "after_rate": 52.9,
+  "stayers_n": 1177,
+  "newcomer_share_after": 67.99,
+  "skill_before_mean": 0.49,
+  "skill_after_mean": -0.2
+ },
+ "base_reps": {
+  "naive": {
+   "mean": -3.38,
+   "p5_p95": [
+    -3.95,
+    -2.8
+   ]
+  },
+  "stayers": {
+   "mean": 5.24,
+   "p5_p95": [
+    4.79,
+    5.7
+   ]
+  },
+  "band": {
+   "mean": 2.88,
+   "p5_p95": [
+    2.35,
+    3.4
+   ]
+  },
+  "true_after_users": {
+   "mean": 5.33,
+   "p5_p95": [
+    5.31,
+    5.34
+   ]
+  },
+  "true_stayers": {
+   "mean": 5.24,
+   "p5_p95": [
+    5.21,
+    5.26
+   ]
+  },
+  "mix_term": {
+   "mean": -8.71,
+   "p5_p95": [
+    -9.23,
+    -8.23
+   ]
+  },
+  "before_rate": {
+   "mean": 56.44,
+   "p5_p95": [
+    55.86,
+    57.07
+   ]
+  },
+  "after_rate": {
+   "mean": 53.06,
+   "p5_p95": [
+    52.68,
+    53.44
+   ]
+  },
+  "naive_negative_pct": 100.0,
+  "stayers_negative_pct": 0.0,
+  "band_negative_pct": 0.0,
+  "max_abs_naive_minus_true_plus_mix": 0.78
+ },
+ "grid": {
+  "n_cases": 42,
+  "naive_err_range": [
+   -13.68,
+   3.44
+  ],
+  "stayers_err_range": [
+   -1.23,
+   0.07
+  ],
+  "band_err_range": [
+   -4.19,
+   0.92
+  ],
+  "stayers_err_range_random_stay": [
+   -0.05,
+   0.07
+  ],
+  "stayers_err_range_stay_by_wins": [
+   -1.23,
+   -1.11
+  ],
+  "naive_err_when_no_skill_gap": [
+   -4.69,
+   3.44
+  ],
+  "cases_delta_pos": 28,
+  "cases_naive_mean_below_zero_delta_pos": 18,
+  "naive_wrong_sign_pct_range": [
+   0.0,
+   100.0
+  ],
+  "no_newcomer_random_stay_err_range_all_methods": [
+   -0.03,
+   0.01
+  ],
+  "no_newcomer_stay_by_wins_naive_err_range": [
+   3.33,
+   3.44
+  ],
+  "with_newcomers_cases": 36,
+  "with_newcomers_stayers_abs_err_lt_naive_cases": 36,
+  "with_newcomers_band_abs_err_lt_naive_cases": 36
+ },
+ "groups_formula": {
+  "mains_no_patch": 56.45,
+  "mains_after": 61.68,
+  "newcomers_no_patch": 43.55,
+  "newcomers_after": 48.92
+ }
+}
