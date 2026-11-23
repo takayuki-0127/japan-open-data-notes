@@ -1,0 +1,501 @@
+{
+ "settings": {
+  "boxes": 300,
+  "mean_mails_per_box": 500,
+  "tpr": 0.95,
+  "fpr": 0.01,
+  "spread_beta": {
+   "なし（全員5%）": null,
+   "小": [
+    2.0,
+    38.0
+   ],
+   "基本": [
+    0.5,
+    9.5
+   ],
+   "大": [
+    0.2,
+    3.8
+   ]
+  }
+ },
+ "base_company": {
+  "mails": 149853,
+  "spam": 6884,
+  "spam_share": 4.594,
+  "accuracy": 98.804,
+  "flagged": 8000,
+  "flag_true_spam": 6546,
+  "flag_ham": 1454,
+  "missed_spam": 338,
+  "ppv_sim": 81.83,
+  "ppv_formula_at_realized_share": 82.06,
+  "ppv_formula_at_5pct": 83.33,
+  "per_10000": {
+   "spam": 459,
+   "flagged": 534,
+   "flag_true_spam": 437,
+   "flag_ham": 97,
+   "missed_spam": 23
+  },
+  "inbox_spam_share": 0.238,
+  "ham_over_spam": 20.77,
+  "box_p_set_median": 2.32,
+  "box_p_set_p10": 0.08,
+  "box_p_set_p90": 11.16,
+  "box_boxes_with_flag": 300,
+  "box_share_boxes_ppv_lt50": 33.0,
+  "box_share_boxes_all_flag_ham": 14.33,
+  "box_median_box_ppv": 68.99,
+  "box_p10_box_ppv": 0.0,
+  "box_p90_box_ppv": 94.03,
+  "box_company_ppv": 81.83,
+  "box_company_spam_share": 4.594,
+  "box_share_of_misfiled_ham_in_boxes_ppv_lt50": 36.38
+ },
+ "by_box_band": [
+  {
+   "band": "0.5%未満",
+   "boxes": 73,
+   "spam": 46,
+   "mails": 36717,
+   "flag_spam": 41,
+   "flag_ham": 354,
+   "ppv": 10.38,
+   "spam_share": 0.125
+  },
+  {
+   "band": "0.5〜1%",
+   "boxes": 28,
+   "spam": 100,
+   "mails": 13893,
+   "flag_spam": 94,
+   "flag_ham": 137,
+   "ppv": 40.69,
+   "spam_share": 0.72
+  },
+  {
+   "band": "1〜2%",
+   "boxes": 44,
+   "spam": 326,
+   "mails": 22046,
+   "flag_spam": 306,
+   "flag_ham": 212,
+   "ppv": 59.07,
+   "spam_share": 1.479
+  },
+  {
+   "band": "2〜5%",
+   "boxes": 58,
+   "spam": 951,
+   "mails": 28891,
+   "flag_spam": 902,
+   "flag_ham": 298,
+   "ppv": 75.17,
+   "spam_share": 3.292
+  },
+  {
+   "band": "5〜10%",
+   "boxes": 55,
+   "spam": 1902,
+   "mails": 27522,
+   "flag_spam": 1811,
+   "flag_ham": 279,
+   "ppv": 86.65,
+   "spam_share": 6.911
+  },
+  {
+   "band": "10〜20%",
+   "boxes": 33,
+   "spam": 2270,
+   "mails": 16340,
+   "flag_spam": 2171,
+   "flag_ham": 138,
+   "ppv": 94.02,
+   "spam_share": 13.892
+  },
+  {
+   "band": "20%以上",
+   "boxes": 9,
+   "spam": 1289,
+   "mails": 4444,
+   "flag_spam": 1221,
+   "flag_ham": 36,
+   "ppv": 97.14,
+   "spam_share": 29.005
+  }
+ ],
+ "robust_spread_fpr": [
+  {
+   "spread": "なし（全員5%）",
+   "fpr": 0.002,
+   "boxes_with_flag": 300.0,
+   "share_boxes_ppv_lt50": 0.0,
+   "share_boxes_all_flag_ham": 0.0,
+   "median_box_ppv": 96.3,
+   "p10_box_ppv": 90.76,
+   "p90_box_ppv": 100.0,
+   "company_ppv": 96.15,
+   "company_spam_share": 5.0,
+   "share_of_misfiled_ham_in_boxes_ppv_lt50": 0.0
+  },
+  {
+   "spread": "なし（全員5%）",
+   "fpr": 0.01,
+   "boxes_with_flag": 300.0,
+   "share_boxes_ppv_lt50": 0.0,
+   "share_boxes_all_flag_ham": 0.0,
+   "median_box_ppv": 83.71,
+   "p10_box_ppv": 74.0,
+   "p90_box_ppv": 92.19,
+   "company_ppv": 83.33,
+   "company_spam_share": 5.0,
+   "share_of_misfiled_ham_in_boxes_ppv_lt50": 0.0
+  },
+  {
+   "spread": "なし（全員5%）",
+   "fpr": 0.03,
+   "boxes_with_flag": 300.0,
+   "share_boxes_ppv_lt50": 5.1,
+   "share_boxes_all_flag_ham": 0.0,
+   "median_box_ppv": 62.63,
+   "p10_box_ppv": 52.29,
+   "p90_box_ppv": 72.45,
+   "company_ppv": 62.51,
+   "company_spam_share": 5.0,
+   "share_of_misfiled_ham_in_boxes_ppv_lt50": 7.06
+  },
+  {
+   "spread": "小",
+   "fpr": 0.002,
+   "boxes_with_flag": 299.28,
+   "share_boxes_ppv_lt50": 0.78,
+   "share_boxes_all_flag_ham": 0.34,
+   "median_box_ppv": 96.74,
+   "p10_box_ppv": 83.24,
+   "p90_box_ppv": 100.0,
+   "company_ppv": 96.14,
+   "company_spam_share": 5.0,
+   "share_of_misfiled_ham_in_boxes_ppv_lt50": 1.89
+  },
+  {
+   "spread": "小",
+   "fpr": 0.01,
+   "boxes_with_flag": 299.98,
+   "share_boxes_ppv_lt50": 7.39,
+   "share_boxes_all_flag_ham": 0.57,
+   "median_box_ppv": 81.67,
+   "p10_box_ppv": 53.18,
+   "p90_box_ppv": 93.6,
+   "company_ppv": 83.29,
+   "company_spam_share": 5.0,
+   "share_of_misfiled_ham_in_boxes_ppv_lt50": 9.91
+  },
+  {
+   "spread": "小",
+   "fpr": 0.03,
+   "boxes_with_flag": 300.0,
+   "share_boxes_ppv_lt50": 33.07,
+   "share_boxes_all_flag_ham": 0.58,
+   "median_box_ppv": 58.71,
+   "p10_box_ppv": 28.08,
+   "p90_box_ppv": 79.19,
+   "company_ppv": 62.46,
+   "company_spam_share": 5.0,
+   "share_of_misfiled_ham_in_boxes_ppv_lt50": 36.99
+  },
+  {
+   "spread": "基本",
+   "fpr": 0.002,
+   "boxes_with_flag": 284.06,
+   "share_boxes_ppv_lt50": 11.48,
+   "share_boxes_all_flag_ham": 9.31,
+   "median_box_ppv": 96.17,
+   "p10_box_ppv": 26.97,
+   "p90_box_ppv": 100.0,
+   "company_ppv": 96.14,
+   "company_spam_share": 5.02,
+   "share_of_misfiled_ham_in_boxes_ppv_lt50": 20.6
+  },
+  {
+   "spread": "基本",
+   "fpr": 0.01,
+   "boxes_with_flag": 299.64,
+   "share_boxes_ppv_lt50": 32.05,
+   "share_boxes_all_flag_ham": 14.03,
+   "median_box_ppv": 71.46,
+   "p10_box_ppv": 0.13,
+   "p90_box_ppv": 95.05,
+   "company_ppv": 83.31,
+   "company_spam_share": 5.02,
+   "share_of_misfiled_ham_in_boxes_ppv_lt50": 36.96
+  },
+  {
+   "spread": "基本",
+   "fpr": 0.03,
+   "boxes_with_flag": 300.0,
+   "share_boxes_ppv_lt50": 53.96,
+   "share_boxes_all_flag_ham": 14.13,
+   "median_box_ppv": 44.39,
+   "p10_box_ppv": 0.0,
+   "p90_box_ppv": 84.15,
+   "company_ppv": 62.48,
+   "company_spam_share": 5.02,
+   "share_of_misfiled_ham_in_boxes_ppv_lt50": 57.79
+  },
+  {
+   "spread": "大",
+   "fpr": 0.002,
+   "boxes_with_flag": 259.06,
+   "share_boxes_ppv_lt50": 30.17,
+   "share_boxes_all_flag_ham": 27.29,
+   "median_box_ppv": 90.25,
+   "p10_box_ppv": 0.0,
+   "p90_box_ppv": 100.0,
+   "company_ppv": 96.01,
+   "company_spam_share": 4.91,
+   "share_of_misfiled_ham_in_boxes_ppv_lt50": 45.47
+  },
+  {
+   "spread": "大",
+   "fpr": 0.01,
+   "boxes_with_flag": 299.2,
+   "share_boxes_ppv_lt50": 53.69,
+   "share_boxes_all_flag_ham": 37.03,
+   "median_box_ppv": 38.2,
+   "p10_box_ppv": 0.0,
+   "p90_box_ppv": 95.54,
+   "company_ppv": 82.8,
+   "company_spam_share": 4.91,
+   "share_of_misfiled_ham_in_boxes_ppv_lt50": 59.18
+  },
+  {
+   "spread": "大",
+   "fpr": 0.03,
+   "boxes_with_flag": 300.0,
+   "share_boxes_ppv_lt50": 67.93,
+   "share_boxes_all_flag_ham": 37.2,
+   "median_box_ppv": 16.27,
+   "p10_box_ppv": 0.0,
+   "p90_box_ppv": 85.86,
+   "company_ppv": 61.73,
+   "company_spam_share": 4.91,
+   "share_of_misfiled_ham_in_boxes_ppv_lt50": 72.02
+  }
+ ],
+ "formula_share_fpr": [
+  {
+   "spam_share": 0.005,
+   "fpr": 0.002,
+   "ppv": 70.47,
+   "accuracy": 99.78,
+   "flagged_share": 0.674
+  },
+  {
+   "spam_share": 0.005,
+   "fpr": 0.01,
+   "ppv": 32.31,
+   "accuracy": 98.98,
+   "flagged_share": 1.47
+  },
+  {
+   "spam_share": 0.005,
+   "fpr": 0.03,
+   "ppv": 13.73,
+   "accuracy": 96.99,
+   "flagged_share": 3.46
+  },
+  {
+   "spam_share": 0.01,
+   "fpr": 0.002,
+   "ppv": 82.75,
+   "accuracy": 99.75,
+   "flagged_share": 1.148
+  },
+  {
+   "spam_share": 0.01,
+   "fpr": 0.01,
+   "ppv": 48.97,
+   "accuracy": 98.96,
+   "flagged_share": 1.94
+  },
+  {
+   "spam_share": 0.01,
+   "fpr": 0.03,
+   "ppv": 24.23,
+   "accuracy": 96.98,
+   "flagged_share": 3.92
+  },
+  {
+   "spam_share": 0.02,
+   "fpr": 0.002,
+   "ppv": 90.65,
+   "accuracy": 99.7,
+   "flagged_share": 2.096
+  },
+  {
+   "spam_share": 0.02,
+   "fpr": 0.01,
+   "ppv": 65.97,
+   "accuracy": 98.92,
+   "flagged_share": 2.88
+  },
+  {
+   "spam_share": 0.02,
+   "fpr": 0.03,
+   "ppv": 39.26,
+   "accuracy": 96.96,
+   "flagged_share": 4.84
+  },
+  {
+   "spam_share": 0.05,
+   "fpr": 0.002,
+   "ppv": 96.15,
+   "accuracy": 99.56,
+   "flagged_share": 4.94
+  },
+  {
+   "spam_share": 0.05,
+   "fpr": 0.01,
+   "ppv": 83.33,
+   "accuracy": 98.8,
+   "flagged_share": 5.7
+  },
+  {
+   "spam_share": 0.05,
+   "fpr": 0.03,
+   "ppv": 62.5,
+   "accuracy": 96.9,
+   "flagged_share": 7.6
+  },
+  {
+   "spam_share": 0.1,
+   "fpr": 0.002,
+   "ppv": 98.14,
+   "accuracy": 99.32,
+   "flagged_share": 9.68
+  },
+  {
+   "spam_share": 0.1,
+   "fpr": 0.01,
+   "ppv": 91.35,
+   "accuracy": 98.6,
+   "flagged_share": 10.4
+  },
+  {
+   "spam_share": 0.1,
+   "fpr": 0.03,
+   "ppv": 77.87,
+   "accuracy": 96.8,
+   "flagged_share": 12.2
+  },
+  {
+   "spam_share": 0.2,
+   "fpr": 0.002,
+   "ppv": 99.16,
+   "accuracy": 98.84,
+   "flagged_share": 19.16
+  },
+  {
+   "spam_share": 0.2,
+   "fpr": 0.01,
+   "ppv": 95.96,
+   "accuracy": 98.2,
+   "flagged_share": 19.8
+  },
+  {
+   "spam_share": 0.2,
+   "fpr": 0.03,
+   "ppv": 88.79,
+   "accuracy": 96.6,
+   "flagged_share": 21.4
+  },
+  {
+   "spam_share": 0.5,
+   "fpr": 0.002,
+   "ppv": 99.79,
+   "accuracy": 97.4,
+   "flagged_share": 47.6
+  },
+  {
+   "spam_share": 0.5,
+   "fpr": 0.01,
+   "ppv": 98.96,
+   "accuracy": 97.0,
+   "flagged_share": 48.0
+  },
+  {
+   "spam_share": 0.5,
+   "fpr": 0.03,
+   "ppv": 96.94,
+   "accuracy": 96.0,
+   "flagged_share": 49.0
+  }
+ ],
+ "estimate_share": [
+  {
+   "true_share": 0.5,
+   "flagged_share_formula": 1.47,
+   "naive_over_true": 2.94,
+   "corrected_assume_fpr_0.005": 1.026,
+   "corrected_assume_fpr_0.01": 0.5,
+   "corrected_assume_fpr_0.02": -0.57,
+   "box500_corr_p10": -0.213,
+   "box500_corr_p90": 1.277,
+   "box500_share_negative": 13.83
+  },
+  {
+   "true_share": 1.0,
+   "flagged_share_formula": 1.94,
+   "naive_over_true": 1.94,
+   "corrected_assume_fpr_0.005": 1.524,
+   "corrected_assume_fpr_0.01": 1.0,
+   "corrected_assume_fpr_0.02": -0.065,
+   "box500_corr_p10": 0.213,
+   "box500_corr_p90": 1.915,
+   "box500_share_negative": 3.45
+  },
+  {
+   "true_share": 2.0,
+   "flagged_share_formula": 2.88,
+   "naive_over_true": 1.44,
+   "corrected_assume_fpr_0.005": 2.519,
+   "corrected_assume_fpr_0.01": 2.0,
+   "corrected_assume_fpr_0.02": 0.946,
+   "box500_corr_p10": 1.064,
+   "box500_corr_p90": 2.979,
+   "box500_share_negative": 0.16
+  },
+  {
+   "true_share": 5.0,
+   "flagged_share_formula": 5.7,
+   "naive_over_true": 1.14,
+   "corrected_assume_fpr_0.005": 5.503,
+   "corrected_assume_fpr_0.01": 5.0,
+   "corrected_assume_fpr_0.02": 3.978,
+   "box500_corr_p10": 3.617,
+   "box500_corr_p90": 6.383,
+   "box500_share_negative": 0.0
+  },
+  {
+   "true_share": 20.0,
+   "flagged_share_formula": 19.8,
+   "naive_over_true": 0.99,
+   "corrected_assume_fpr_0.005": 20.423,
+   "corrected_assume_fpr_0.01": 20.0,
+   "corrected_assume_fpr_0.02": 19.14,
+   "box500_corr_p10": 17.66,
+   "box500_corr_p90": 22.34,
+   "box500_share_negative": 0.0
+  }
+ ],
+ "range_share_boxes_ppv_lt50": [
+  0.0,
+  67.93
+ ],
+ "range_company_ppv": [
+  61.73,
+  96.15
+ ]
+}

@@ -1,0 +1,307 @@
+{
+ "n_games_per_rule": 1000000,
+ "rule_a": {
+  "stay_win": 0.3326,
+  "switch_win": 0.6674,
+  "formula": 0.6667
+ },
+ "rule_b": {
+  "stay_win": 0.5003,
+  "switch_win": 0.4997,
+  "ended_share": 0.3341,
+  "formula": 0.5
+ },
+ "rules": [
+  {
+   "rule": "A 必ず外れを開け、必ず聞く",
+   "stay_win": 0.3326,
+   "switch_win": 0.6674,
+   "switch_formula": 0.6667,
+   "note": "全部の回"
+  },
+  {
+   "rule": "B でたらめに開け、外れが出た回",
+   "stay_win": 0.5003,
+   "switch_win": 0.4997,
+   "switch_formula": 0.5,
+   "note": "当たりが開いて終わった回 0.3341 を除く"
+  },
+  {
+   "rule": "C 小さい番号を必ず開ける決まりで、小さい番号が開いた回",
+   "stay_win": 0.4996,
+   "switch_win": 0.5004,
+   "switch_formula": 0.5,
+   "note": "q=1"
+  },
+  {
+   "rule": "C 同じ決まりで、大きい番号が開いた回",
+   "stay_win": 0.0,
+   "switch_win": 1.0,
+   "switch_formula": 1.0,
+   "note": "q=1"
+  },
+  {
+   "rule": "D 当てた人にだけ聞く",
+   "stay_win": 1.0,
+   "switch_win": 0.0,
+   "switch_formula": 0.0,
+   "note": "聞かれた回"
+  },
+  {
+   "rule": "D 外した人にだけ聞く",
+   "stay_win": 0.0,
+   "switch_win": 1.0,
+   "switch_formula": 1.0,
+   "note": "聞かれた回"
+  }
+ ],
+ "host_pref_q": [
+  {
+   "q": 0.5,
+   "case": "番号の小さい扉が開いた",
+   "share_of_games": 0.5,
+   "switch_win": 0.6672,
+   "formula": 0.6667
+  },
+  {
+   "q": 0.5,
+   "case": "番号の大きい扉が開いた",
+   "share_of_games": 0.5,
+   "switch_win": 0.6664,
+   "formula": 0.6667
+  },
+  {
+   "q": 0.5,
+   "case": "全部",
+   "share_of_games": 1.0,
+   "switch_win": 0.6668,
+   "formula": 0.6667
+  },
+  {
+   "q": 0.75,
+   "case": "番号の小さい扉が開いた",
+   "share_of_games": 0.5834,
+   "switch_win": 0.5707,
+   "formula": 0.5714
+  },
+  {
+   "q": 0.75,
+   "case": "番号の大きい扉が開いた",
+   "share_of_games": 0.4166,
+   "switch_win": 0.7999,
+   "formula": 0.8
+  },
+  {
+   "q": 0.75,
+   "case": "全部",
+   "share_of_games": 1.0,
+   "switch_win": 0.6662,
+   "formula": 0.6667
+  },
+  {
+   "q": 0.9,
+   "case": "番号の小さい扉が開いた",
+   "share_of_games": 0.6329,
+   "switch_win": 0.5265,
+   "formula": 0.5263
+  },
+  {
+   "q": 0.9,
+   "case": "番号の大きい扉が開いた",
+   "share_of_games": 0.3671,
+   "switch_win": 0.909,
+   "formula": 0.9091
+  },
+  {
+   "q": 0.9,
+   "case": "全部",
+   "share_of_games": 1.0,
+   "switch_win": 0.6669,
+   "formula": 0.6667
+  },
+  {
+   "q": 1.0,
+   "case": "番号の小さい扉が開いた",
+   "share_of_games": 0.6661,
+   "switch_win": 0.5004,
+   "formula": 0.5
+  },
+  {
+   "q": 1.0,
+   "case": "番号の大きい扉が開いた",
+   "share_of_games": 0.3339,
+   "switch_win": 1.0,
+   "formula": 1.0
+  },
+  {
+   "q": 1.0,
+   "case": "全部",
+   "share_of_games": 1.0,
+   "switch_win": 0.6672,
+   "formula": 0.6667
+  }
+ ],
+ "offer_grid": {
+  "switch_win_min": 0.0,
+  "switch_win_max": 1.0,
+  "max_abs_diff_from_formula": 0.0042,
+  "n_cases": 24,
+  "n_switch_better_formula": 16,
+  "n_equal_formula": 2,
+  "n_switch_worse_formula": 6
+ },
+ "mix_w": [
+  {
+   "w_mean_host": 0.0,
+   "switch_win_if_offered": 0.6668,
+   "stay_win_if_offered": 0.3332,
+   "formula_switch": 0.6667
+  },
+  {
+   "w_mean_host": 0.1,
+   "switch_win_if_offered": 0.6425,
+   "stay_win_if_offered": 0.3575,
+   "formula_switch": 0.6429
+  },
+  {
+   "w_mean_host": 0.2,
+   "switch_win_if_offered": 0.617,
+   "stay_win_if_offered": 0.383,
+   "formula_switch": 0.6154
+  },
+  {
+   "w_mean_host": 0.3,
+   "switch_win_if_offered": 0.5831,
+   "stay_win_if_offered": 0.4169,
+   "formula_switch": 0.5833
+  },
+  {
+   "w_mean_host": 0.4,
+   "switch_win_if_offered": 0.5451,
+   "stay_win_if_offered": 0.4549,
+   "formula_switch": 0.5455
+  },
+  {
+   "w_mean_host": 0.5,
+   "switch_win_if_offered": 0.4993,
+   "stay_win_if_offered": 0.5007,
+   "formula_switch": 0.5
+  },
+  {
+   "w_mean_host": 0.6,
+   "switch_win_if_offered": 0.4445,
+   "stay_win_if_offered": 0.5555,
+   "formula_switch": 0.4444
+  },
+  {
+   "w_mean_host": 0.7,
+   "switch_win_if_offered": 0.3754,
+   "stay_win_if_offered": 0.6246,
+   "formula_switch": 0.375
+  },
+  {
+   "w_mean_host": 0.8,
+   "switch_win_if_offered": 0.286,
+   "stay_win_if_offered": 0.714,
+   "formula_switch": 0.2857
+  },
+  {
+   "w_mean_host": 0.9,
+   "switch_win_if_offered": 0.1674,
+   "stay_win_if_offered": 0.8326,
+   "formula_switch": 0.1667
+  },
+  {
+   "w_mean_host": 1.0,
+   "switch_win_if_offered": 0.0,
+   "stay_win_if_offered": 1.0,
+   "formula_switch": 0.0
+  }
+ ],
+ "n_doors": [
+  {
+   "doors": 3,
+   "stay_win": 0.3328,
+   "stay_formula": 0.3333,
+   "switch_win_open_all_but_one": 0.6672,
+   "formula_all_but_one": 0.6667,
+   "switch_win_open_one": 0.6672,
+   "formula_open_one": 0.6667
+  },
+  {
+   "doors": 4,
+   "stay_win": 0.2496,
+   "stay_formula": 0.25,
+   "switch_win_open_all_but_one": 0.7504,
+   "formula_all_but_one": 0.75,
+   "switch_win_open_one": 0.3744,
+   "formula_open_one": 0.375
+  },
+  {
+   "doors": 5,
+   "stay_win": 0.1998,
+   "stay_formula": 0.2,
+   "switch_win_open_all_but_one": 0.8002,
+   "formula_all_but_one": 0.8,
+   "switch_win_open_one": 0.2669,
+   "formula_open_one": 0.2667
+  },
+  {
+   "doors": 10,
+   "stay_win": 0.1,
+   "stay_formula": 0.1,
+   "switch_win_open_all_but_one": 0.9,
+   "formula_all_but_one": 0.9,
+   "switch_win_open_one": 0.1122,
+   "formula_open_one": 0.1125
+  }
+ ],
+ "small_record": [
+  {
+   "games": 10,
+   "records": 4000,
+   "records_with_both": 3990,
+   "share_switch_not_better": 0.1797,
+   "share_switch_lower": 0.113,
+   "switch_rate_p10": 0.4,
+   "switch_rate_p90": 1.0
+  },
+  {
+   "games": 30,
+   "records": 4000,
+   "records_with_both": 4000,
+   "share_switch_not_better": 0.0377,
+   "share_switch_lower": 0.0285,
+   "switch_rate_p10": 0.5,
+   "switch_rate_p90": 0.8182
+  },
+  {
+   "games": 100,
+   "records": 4000,
+   "records_with_both": 4000,
+   "share_switch_not_better": 0.0003,
+   "share_switch_lower": 0.0003,
+   "switch_rate_p10": 0.5778,
+   "switch_rate_p90": 0.75
+  },
+  {
+   "games": 300,
+   "records": 4000,
+   "records_with_both": 4000,
+   "share_switch_not_better": 0.0,
+   "share_switch_lower": 0.0,
+   "switch_rate_p10": 0.6174,
+   "switch_rate_p90": 0.7154
+  },
+  {
+   "games": 1000,
+   "records": 4000,
+   "records_with_both": 4000,
+   "share_switch_not_better": 0.0,
+   "share_switch_lower": 0.0,
+   "switch_rate_p10": 0.6395,
+   "switch_rate_p90": 0.6937
+  }
+ ],
+ "max_abs_diff_from_formula_all": 0.0042
+}

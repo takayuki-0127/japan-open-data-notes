@@ -1,0 +1,311 @@
+{
+ "P_per_window": 1e-06,
+ "P_per_window_fixed777": 1e-09,
+ "ratio_any_vs_fixed": 1000,
+ "abs_diff_sim_formula_pt": {
+  "1000shops_1y": 0.16,
+  "1000shops_10y": 0.93,
+  "100shops_10y": 3.43
+ },
+ "one_shop_P_same_pct": {
+  "1y": 0.0363,
+  "10y": 0.3641,
+  "30y": 1.0888
+ },
+ "simulations": {
+  "1000shops_1y": {
+   "shops": 1000,
+   "years": 1,
+   "reps": 1000,
+   "windows": 363000,
+   "P_same_atleast1_sim": 30.6,
+   "P_same_atleast1_formula": 30.44,
+   "mean_same_windows_sim": 0.369,
+   "mean_same_formula": 0.363,
+   "mean_same_runs_sim": 0.368,
+   "P_any4_atleast1_sim": 77.0,
+   "P_any4_atleast1_formula": 76.59,
+   "mean_any4_sim": 1.443,
+   "mean_by_pattern_sim": {
+    "same": 0.369,
+    "up": 0.361,
+    "down": 0.358,
+    "zoro": 0.356
+   },
+   "fixed777_total_events": 1,
+   "P_fixed777_formula": 0.0363,
+   "dist_same": {
+    "0": 694,
+    "1": 255,
+    "2": 43,
+    "3": 5,
+    "4": 2,
+    "5": 1
+   },
+   "dist_same_pct": {
+    "0": 69.4,
+    "1": 25.5,
+    "2": 4.3,
+    "3": 0.5,
+    "4": 0.2,
+    "5": 0.1
+   }
+  },
+  "1000shops_10y": {
+   "shops": 1000,
+   "years": 10,
+   "reps": 60,
+   "windows": 3648000,
+   "P_same_atleast1_sim": 98.33,
+   "P_same_atleast1_formula": 97.4,
+   "mean_same_windows_sim": 3.783,
+   "mean_same_formula": 3.648,
+   "mean_same_runs_sim": 3.767,
+   "P_any4_atleast1_sim": 100.0,
+   "P_any4_atleast1_formula": 100.0,
+   "mean_any4_sim": 14.583,
+   "mean_by_pattern_sim": {
+    "same": 3.783,
+    "up": 3.483,
+    "down": 3.7,
+    "zoro": 3.667
+   },
+   "fixed777_total_events": 0,
+   "P_fixed777_formula": 0.3641
+  },
+  "100shops_10y": {
+   "shops": 100,
+   "years": 10,
+   "reps": 300,
+   "windows": 364800,
+   "P_same_atleast1_sim": 34.0,
+   "P_same_atleast1_formula": 30.57,
+   "mean_same_windows_sim": 0.4,
+   "mean_same_formula": 0.365,
+   "mean_same_runs_sim": 0.397,
+   "P_any4_atleast1_sim": 77.33,
+   "P_any4_atleast1_formula": 76.76,
+   "mean_any4_sim": 1.46,
+   "mean_by_pattern_sim": {
+    "same": 0.4,
+    "up": 0.32,
+    "down": 0.367,
+    "zoro": 0.373
+   },
+   "fixed777_total_events": 0,
+   "P_fixed777_formula": 0.0365
+  }
+ },
+ "grid_formula": [
+  {
+   "shops": 1,
+   "years": 1,
+   "windows": 363,
+   "P_atleast1": 0.036,
+   "expected_events": 0.0004,
+   "P_atleast1_fixed777": 0.0,
+   "P_atleast1_any4": 0.145
+  },
+  {
+   "shops": 1,
+   "years": 10,
+   "windows": 3648,
+   "P_atleast1": 0.364,
+   "expected_events": 0.0036,
+   "P_atleast1_fixed777": 0.0004,
+   "P_atleast1_any4": 1.449
+  },
+  {
+   "shops": 1,
+   "years": 30,
+   "windows": 10948,
+   "P_atleast1": 1.089,
+   "expected_events": 0.0109,
+   "P_atleast1_fixed777": 0.0011,
+   "P_atleast1_any4": 4.285
+  },
+  {
+   "shops": 10,
+   "years": 1,
+   "windows": 3630,
+   "P_atleast1": 0.362,
+   "expected_events": 0.0036,
+   "P_atleast1_fixed777": 0.0004,
+   "P_atleast1_any4": 1.442
+  },
+  {
+   "shops": 10,
+   "years": 10,
+   "windows": 36480,
+   "P_atleast1": 3.582,
+   "expected_events": 0.0365,
+   "P_atleast1_fixed777": 0.0036,
+   "P_atleast1_any4": 13.577
+  },
+  {
+   "shops": 10,
+   "years": 30,
+   "windows": 109480,
+   "P_atleast1": 10.37,
+   "expected_events": 0.1095,
+   "P_atleast1_fixed777": 0.0109,
+   "P_atleast1_any4": 35.462
+  },
+  {
+   "shops": 100,
+   "years": 1,
+   "windows": 36300,
+   "P_atleast1": 3.565,
+   "expected_events": 0.0363,
+   "P_atleast1_fixed777": 0.0036,
+   "P_atleast1_any4": 13.515
+  },
+  {
+   "shops": 100,
+   "years": 10,
+   "windows": 364800,
+   "P_atleast1": 30.566,
+   "expected_events": 0.3648,
+   "P_atleast1_fixed777": 0.0365,
+   "P_atleast1_any4": 76.758
+  },
+  {
+   "shops": 100,
+   "years": 30,
+   "windows": 1094800,
+   "P_atleast1": 66.539,
+   "expected_events": 1.0948,
+   "P_atleast1_fixed777": 0.1094,
+   "P_atleast1_any4": 98.746
+  },
+  {
+   "shops": 1000,
+   "years": 1,
+   "windows": 363000,
+   "P_atleast1": 30.441,
+   "expected_events": 0.363,
+   "P_atleast1_fixed777": 0.0363,
+   "P_atleast1_any4": 76.59
+  },
+  {
+   "shops": 1000,
+   "years": 10,
+   "windows": 3648000,
+   "P_atleast1": 97.396,
+   "expected_events": 3.648,
+   "P_atleast1_fixed777": 0.3641,
+   "P_atleast1_any4": 100.0
+  },
+  {
+   "shops": 1000,
+   "years": 30,
+   "windows": 10948000,
+   "P_atleast1": 99.998,
+   "expected_events": 10.948,
+   "P_atleast1_fixed777": 1.0888,
+   "P_atleast1_any4": 100.0
+  },
+  {
+   "shops": 10000,
+   "years": 1,
+   "windows": 3630000,
+   "P_atleast1": 97.348,
+   "expected_events": 3.63,
+   "P_atleast1_fixed777": 0.3623,
+   "P_atleast1_any4": 100.0
+  },
+  {
+   "shops": 10000,
+   "years": 10,
+   "windows": 36480000,
+   "P_atleast1": 100.0,
+   "expected_events": 36.48,
+   "P_atleast1_fixed777": 3.5823,
+   "P_atleast1_any4": 100.0
+  },
+  {
+   "shops": 10000,
+   "years": 30,
+   "windows": 109480000,
+   "P_atleast1": 100.0,
+   "expected_events": 109.48,
+   "P_atleast1_fixed777": 10.37,
+   "P_atleast1_any4": 100.0
+  }
+ ],
+ "robust_bias": [
+  {
+   "sigma": 0.0,
+   "max_over_min_number": 1.0,
+   "P_per_window_in_millionths": 1.0,
+   "P_1000shops_1y": 30.44
+  },
+  {
+   "sigma": 0.3,
+   "max_over_min_number": 8.1,
+   "P_per_window_in_millionths": 1.354,
+   "P_1000shops_1y": 38.83
+  },
+  {
+   "sigma": 0.6,
+   "max_over_min_number": 64.8,
+   "P_per_window_in_millionths": 3.705,
+   "P_1000shops_1y": 73.95
+  },
+  {
+   "sigma": 1.0,
+   "max_over_min_number": 651.3,
+   "P_per_window_in_millionths": 10.41,
+   "P_1000shops_1y": 97.71
+  }
+ ],
+ "robust_shared_draws": [
+  {
+   "independent_draws": 1,
+   "P_1y": 0.036,
+   "P_10y": 0.364
+  },
+  {
+   "independent_draws": 10,
+   "P_1y": 0.362,
+   "P_10y": 3.582
+  },
+  {
+   "independent_draws": 100,
+   "P_1y": 3.565,
+   "P_10y": 30.566
+  },
+  {
+   "independent_draws": 1000,
+   "P_1y": 30.441,
+   "P_10y": 97.396
+  }
+ ],
+ "waiting_years": [
+  {
+   "shops": 1,
+   "median_years_same": 1899.03,
+   "median_years_any4": 474.76
+  },
+  {
+   "shops": 10,
+   "median_years_same": 189.9,
+   "median_years_any4": 47.48
+  },
+  {
+   "shops": 100,
+   "median_years_same": 18.99,
+   "median_years_any4": 4.75
+  },
+  {
+   "shops": 1000,
+   "median_years_same": 1.9,
+   "median_years_any4": 0.47
+  },
+  {
+   "shops": 10000,
+   "median_years_same": 0.19,
+   "median_years_any4": 0.05
+  }
+ ]
+}

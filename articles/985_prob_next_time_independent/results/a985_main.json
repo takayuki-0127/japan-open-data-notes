@@ -1,0 +1,82 @@
+{
+ "box_size": 100,
+ "p": 0.05,
+ "n_boxes_per_scenario": 1000000,
+ "next_hit_after_20": {
+  "independent": {
+   "sim": 0.0503,
+   "formula": 0.05
+  },
+  "fixed": {
+   "sim": 0.0623,
+   "formula": 0.0625
+  },
+  "binomial": {
+   "sim": 0.0507,
+   "formula": 0.05
+  },
+  "narrow": {
+   "sim": 0.0573,
+   "formula": 0.0568
+  },
+  "wide": {
+   "sim": 0.0363,
+   "formula": 0.0362
+  },
+  "empty_mix": {
+   "sim": 0.0379,
+   "formula": 0.0377
+  },
+  "wide_replace": {
+   "sim": 0.0312,
+   "formula": 0.0308
+  }
+ },
+ "next_hit_after_60": {
+  "independent": {
+   "sim": 0.049,
+   "formula": 0.05
+  },
+  "fixed": {
+   "sim": 0.1258,
+   "formula": 0.125
+  },
+  "binomial": {
+   "sim": 0.0516,
+   "formula": 0.05
+  },
+  "narrow": {
+   "sim": 0.0891,
+   "formula": 0.0891
+  },
+  "wide": {
+   "sim": 0.0167,
+   "formula": 0.0161
+  },
+  "empty_mix": {
+   "sim": 0.0021,
+   "formula": 0.0019
+  },
+  "wide_replace": {
+   "sim": 0.0112,
+   "formula": 0.0116
+  }
+ },
+ "max_abs_diff_sim_formula": 0.0016,
+ "wide_zero_box_share": {
+  "before": 0.0909,
+  "after_20": 0.2226,
+  "after_60": 0.604
+ },
+ "grid": {
+  "n_cases": 60,
+  "n_cases_var_not_binomial": 48,
+  "direction_matches_var_rule": 48,
+  "next_over_p_min": 0.0,
+  "next_over_p_max": 1.25,
+  "binomial_next_over_p_minmax": [
+   1.0,
+   1.0
+  ]
+ }
+}
