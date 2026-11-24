@@ -1,0 +1,223 @@
+{
+ "base": {
+  "A": {
+   "ideal_sec_mean": 100.064,
+   "lower_bound_ext_mean_pct": 0.0,
+   "m1_blocks": {
+    "finish_sec_mean": 114.948,
+    "ext_mean_pct": 14.86,
+    "ext_p10_pct": 8.6,
+    "ext_p90_pct": 22.03
+   },
+   "m2_alternate": {
+    "finish_sec_mean": 114.96,
+    "ext_mean_pct": 14.86,
+    "ext_p10_pct": 8.42,
+    "ext_p90_pct": 22.03
+   },
+   "m3_pull": {
+    "finish_sec_mean": 103.159,
+    "ext_mean_pct": 3.09,
+    "ext_p10_pct": 1.66,
+    "ext_p90_pct": 5.15
+   },
+   "m4_pull_largest_first": {
+    "finish_sec_mean": 101.113,
+    "ext_mean_pct": 1.05,
+    "ext_p10_pct": 1.0,
+    "ext_p90_pct": 1.1
+   },
+   "m1_minus_m3_sec_mean": 11.789,
+   "m1_minus_m3_sec_p10_p90": [
+    5.264,
+    19.148
+   ],
+   "share_m3_earlier_than_m1": 0.991,
+   "pull_cost_pct_of_ideal_if_equal_share": 1.0,
+   "one_set_finish_sec": {
+    "m1_blocks": 121.188,
+    "m2_alternate": 112.261,
+    "m3_pull": 102.934,
+    "m4_pull_largest_first": 100.006
+   },
+   "one_set_ideal_sec": 98.984,
+   "one_set_m1_block_sec": [
+    94.5,
+    121.188,
+    91.659,
+    103.526,
+    96.206,
+    77.668,
+    97.466,
+    109.66
+   ],
+   "m1_formula_guide_pct": 14.24
+  },
+  "B": {
+   "ideal_sec_mean": 99.926,
+   "lower_bound_ext_mean_pct": 0.0,
+   "m1_blocks": {
+    "finish_sec_mean": 172.244,
+    "ext_mean_pct": 72.27,
+    "ext_p10_pct": 57.73,
+    "ext_p90_pct": 88.54
+   },
+   "m2_alternate": {
+    "finish_sec_mean": 116.559,
+    "ext_mean_pct": 16.6,
+    "ext_p10_pct": 9.11,
+    "ext_p90_pct": 25.46
+   },
+   "m3_pull": {
+    "finish_sec_mean": 104.545,
+    "ext_mean_pct": 4.61,
+    "ext_p10_pct": 2.1,
+    "ext_p90_pct": 7.86
+   },
+   "m4_pull_largest_first": {
+    "finish_sec_mean": 100.953,
+    "ext_mean_pct": 1.03,
+    "ext_p10_pct": 0.98,
+    "ext_p90_pct": 1.08
+   },
+   "m1_minus_m3_sec_mean": 67.699,
+   "m1_minus_m3_sec_p10_p90": [
+    53.057,
+    84.594
+   ],
+   "share_m3_earlier_than_m1": 1.0,
+   "pull_cost_pct_of_ideal_if_equal_share": 1.0
+  },
+  "C": {
+   "ideal_sec_mean": 105.351,
+   "lower_bound_ext_mean_pct": 0.0,
+   "m1_blocks": {
+    "finish_sec_mean": 166.626,
+    "ext_mean_pct": 58.17,
+    "ext_p10_pct": 39.76,
+    "ext_p90_pct": 79.06
+   },
+   "m2_alternate": {
+    "finish_sec_mean": 167.506,
+    "ext_mean_pct": 59.0,
+    "ext_p10_pct": 41.44,
+    "ext_p90_pct": 78.61
+   },
+   "m3_pull": {
+    "finish_sec_mean": 108.691,
+    "ext_mean_pct": 3.16,
+    "ext_p10_pct": 1.66,
+    "ext_p90_pct": 5.04
+   },
+   "m4_pull_largest_first": {
+    "finish_sec_mean": 106.436,
+    "ext_mean_pct": 1.03,
+    "ext_p10_pct": 0.97,
+    "ext_p90_pct": 1.1
+   },
+   "m1_minus_m3_sec_mean": 57.934,
+   "m1_minus_m3_sec_p10_p90": [
+    37.97,
+    79.503
+   ],
+   "share_m3_earlier_than_m1": 0.999,
+   "pull_cost_pct_of_ideal_if_equal_share": 0.95
+  }
+ },
+ "by_pull_cost": [
+  {
+   "h_sec": 0,
+   "m1_ext_mean_pct": 14.86,
+   "m3_ext_mean_pct": 2.09,
+   "share_m3_earlier": 0.994
+  },
+  {
+   "h_sec": 0.01,
+   "m1_ext_mean_pct": 14.86,
+   "m3_ext_mean_pct": 3.09,
+   "share_m3_earlier": 0.991
+  },
+  {
+   "h_sec": 0.02,
+   "m1_ext_mean_pct": 14.86,
+   "m3_ext_mean_pct": 4.09,
+   "share_m3_earlier": 0.986
+  },
+  {
+   "h_sec": 0.05,
+   "m1_ext_mean_pct": 14.86,
+   "m3_ext_mean_pct": 7.08,
+   "share_m3_earlier": 0.943
+  },
+  {
+   "h_sec": 0.1,
+   "m1_ext_mean_pct": 14.86,
+   "m3_ext_mean_pct": 12.07,
+   "share_m3_earlier": 0.667
+  },
+  {
+   "h_sec": 0.2,
+   "m1_ext_mean_pct": 14.86,
+   "m3_ext_mean_pct": 22.04,
+   "share_m3_earlier": 0.104
+  }
+ ],
+ "robust": {
+  "settings": 27,
+  "m1_ext_range": [
+   1.36,
+   93.55
+  ],
+  "m3_ext_range": [
+   0.06,
+   54.96
+  ],
+  "m3_better_count": 24,
+  "m3_worse_settings": [
+   {
+    "cv": 0.3,
+    "tasks": 800,
+    "h_sec": 0.05,
+    "m1_ext_mean_pct": 4.48,
+    "m3_ext_mean_pct": 5.63
+   },
+   {
+    "cv": 0.3,
+    "tasks": 8000,
+    "h_sec": 0.05,
+    "m1_ext_mean_pct": 1.36,
+    "m3_ext_mean_pct": 5.06
+   },
+   {
+    "cv": 1.0,
+    "tasks": 8000,
+    "h_sec": 0.05,
+    "m1_ext_mean_pct": 4.68,
+    "m3_ext_mean_pct": 5.2
+   }
+  ],
+  "m1_minus_formula_guide_range": [
+   -0.49,
+   4.99
+  ],
+  "share_m3_earlier_range": [
+   0.0,
+   1.0
+  ]
+ },
+ "setup": {
+  "tasks": 800,
+  "workers": 8,
+  "task_mean_sec": 1.0,
+  "task_cv": 1.0,
+  "pull_cost_sec": 0.01,
+  "reps": 1000,
+  "order_trend_B": [
+   0.2,
+   1.8
+  ],
+  "slow_worker_speed_C": 0.6,
+  "est_error_sd_log": 0.3,
+  "grid_reps": 200
+ }
+}

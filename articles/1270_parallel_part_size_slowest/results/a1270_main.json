@@ -1,0 +1,150 @@
+{
+ "base": {
+  "lower_bound_ext_mean_pct": 0.0,
+  "largest_store_share_mean_pct": 1.04,
+  "m1_equal_records": {
+   "ext_mean_pct": 0.62,
+   "ext_p10_pct": 0.21,
+   "ext_p90_pct": 1.07,
+   "idle_share_mean_pct": 0.63,
+   "part_cv_mean": 0.004
+  },
+  "m2_cut_in_order": {
+   "ext_mean_pct": 1.25,
+   "ext_p10_pct": 0.49,
+   "ext_p90_pct": 2.34,
+   "idle_share_mean_pct": 1.22,
+   "part_cv_mean": 0.0075
+  },
+  "m3_random_stores": {
+   "ext_mean_pct": 12.45,
+   "ext_p10_pct": 7.1,
+   "ext_p90_pct": 18.55,
+   "idle_share_mean_pct": 10.91,
+   "part_cv_mean": 0.0757
+  },
+  "m4_largest_first": {
+   "ext_mean_pct": 0.61,
+   "ext_p10_pct": 0.36,
+   "ext_p90_pct": 0.87,
+   "idle_share_mean_pct": 0.61,
+   "part_cv_mean": 0.0039
+  },
+  "m5_largest_first_est": {
+   "ext_mean_pct": 4.36,
+   "ext_p10_pct": 2.42,
+   "ext_p90_pct": 6.6,
+   "idle_share_mean_pct": 4.16,
+   "part_cv_mean": 0.0281
+  },
+  "ideal_sec_mean": 12.5,
+  "total_sec_mean": 99.999,
+  "m3_formula_guide_pct": 11.99,
+  "m1_formula_pct": 0.64,
+  "one_set_ideal_sec": 12.5073,
+  "one_set_largest_store_sec": 0.7992,
+  "one_set_max_sec": {
+   "m1_equal_records": 12.5166,
+   "m2_cut_in_order": 12.5806,
+   "m3_random_stores": 15.7202,
+   "m4_largest_first": 12.559,
+   "m5_largest_first_est": 12.9145
+  }
+ },
+ "robust": {
+  "settings": 27,
+  "m1_equal_records_range": [
+   0.28,
+   1.14
+  ],
+  "m2_cut_in_order_range": [
+   0.34,
+   109.04
+  ],
+  "m3_random_stores_range": [
+   1.02,
+   190.01
+  ],
+  "m4_largest_first_range": [
+   0.31,
+   100.03
+  ],
+  "m5_largest_first_est_range": [
+   0.58,
+   107.68
+  ],
+  "m4_minus_lower_bound_max": 1.89,
+  "m5_ge_m4_count": 27,
+  "m4_lt_m3_count": 27,
+  "m2_lt_m3_count": 27,
+  "lower_bound_gt_10pct": [
+   {
+    "store_size_sd_log": 1.5,
+    "stores": 200,
+    "parts": 8,
+    "lower_bound_ext_pct": 21.6,
+    "m4_largest_first_ext_pct": 22.03
+   },
+   {
+    "store_size_sd_log": 1.5,
+    "stores": 200,
+    "parts": 16,
+    "lower_bound_ext_pct": 99.88,
+    "m4_largest_first_ext_pct": 100.03
+   }
+  ],
+  "m3_by_stores": {
+   "200": [
+    8.46,
+    190.01
+   ],
+   "2000": [
+    2.64,
+    55.06
+   ],
+   "20000": [
+    1.02,
+    15.97
+   ]
+  },
+  "m2_by_stores": {
+   "200": [
+    1.22,
+    109.04
+   ],
+   "2000": [
+    0.35,
+    11.46
+   ],
+   "20000": [
+    0.34,
+    1.66
+   ]
+  },
+  "m3_by_parts": {
+   "4": [
+    1.02,
+    41.2
+   ],
+   "8": [
+    2.05,
+    91.57
+   ],
+   "16": [
+    3.74,
+    190.01
+   ]
+  }
+ },
+ "setup": {
+  "records": 100000,
+  "stores": 2000,
+  "store_size_sd_log": 1.0,
+  "record_ms_mean": 1.0,
+  "record_cv": 0.5,
+  "parts": 8,
+  "est_error_sd_log": 0.3,
+  "reps": 200,
+  "emax8_normal": 1.4236
+ }
+}

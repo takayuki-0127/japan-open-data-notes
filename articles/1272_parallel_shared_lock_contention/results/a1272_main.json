@@ -1,0 +1,181 @@
+{
+ "setting": {
+  "tasks": 4000,
+  "compute_mean_ms": 9.0,
+  "shared_mean_ms": 1.0,
+  "sigma_log": 0.5,
+  "handoff_ms_per_waiting": 0.03,
+  "reps": 20
+ },
+ "lock_share_at_1": 0.0997,
+ "ceiling_formula": 10.028,
+ "peak_n": 12,
+ "peak_speedup": 9.041,
+ "peak_n_per_rep_range": [
+  12,
+  12
+ ],
+ "speedup_64_with_handoff": 3.626,
+ "drop_64_vs_peak": 0.5989,
+ "speedup_64_no_handoff": 9.984,
+ "row": {
+  "1": {
+   "with": 1.0,
+   "no": 1.0,
+   "formula": 1.0,
+   "busy": 0.0997,
+   "wait": 0.0,
+   "handoff_share": 0.0
+  },
+  "2": {
+   "with": 1.987,
+   "no": 1.987,
+   "formula": 1.819,
+   "busy": 0.1982,
+   "wait": 0.064,
+   "handoff_share": 0.0
+  },
+  "3": {
+   "with": 2.958,
+   "no": 2.957,
+   "formula": 2.501,
+   "busy": 0.2952,
+   "wait": 0.137,
+   "handoff_share": 0.0004
+  },
+  "4": {
+   "with": 3.906,
+   "no": 3.907,
+   "formula": 3.079,
+   "busy": 0.3901,
+   "wait": 0.234,
+   "handoff_share": 0.0013
+  },
+  "6": {
+   "with": 5.713,
+   "no": 5.718,
+   "formula": 4.003,
+   "busy": 0.5727,
+   "wait": 0.487,
+   "handoff_share": 0.0051
+  },
+  "8": {
+   "with": 7.316,
+   "no": 7.357,
+   "formula": 4.711,
+   "busy": 0.7396,
+   "wait": 0.905,
+   "handoff_share": 0.0134
+  },
+  "10": {
+   "with": 8.521,
+   "no": 8.675,
+   "formula": 5.27,
+   "busy": 0.8771,
+   "wait": 1.683,
+   "handoff_share": 0.0312
+  },
+  "12": {
+   "with": 9.041,
+   "no": 9.531,
+   "formula": 5.722,
+   "busy": 0.9641,
+   "wait": 3.179,
+   "handoff_share": 0.0649
+  },
+  "14": {
+   "with": 8.819,
+   "no": 9.885,
+   "formula": 6.096,
+   "busy": 0.9945,
+   "wait": 5.718,
+   "handoff_share": 0.1158
+  },
+  "16": {
+   "with": 8.318,
+   "no": 9.964,
+   "formula": 6.41,
+   "busy": 0.9989,
+   "wait": 9.002,
+   "handoff_share": 0.1696
+  },
+  "20": {
+   "with": 7.423,
+   "no": 9.977,
+   "formula": 6.908,
+   "busy": 0.9993,
+   "wait": 16.546,
+   "handoff_share": 0.2592
+  },
+  "24": {
+   "with": 6.73,
+   "no": 9.979,
+   "formula": 7.286,
+   "busy": 0.9995,
+   "wait": 25.103,
+   "handoff_share": 0.3285
+  },
+  "32": {
+   "with": 5.705,
+   "no": 9.982,
+   "formula": 7.82,
+   "busy": 0.9996,
+   "wait": 45.197,
+   "handoff_share": 0.4308
+  },
+  "40": {
+   "with": 4.973,
+   "no": 9.983,
+   "formula": 8.18,
+   "busy": 0.9997,
+   "wait": 69.187,
+   "handoff_share": 0.5039
+  },
+  "48": {
+   "with": 4.418,
+   "no": 9.984,
+   "formula": 8.439,
+   "busy": 0.9997,
+   "wait": 97.011,
+   "handoff_share": 0.5592
+  },
+  "64": {
+   "with": 3.626,
+   "no": 9.984,
+   "formula": 8.787,
+   "busy": 0.9998,
+   "wait": 164.022,
+   "handoff_share": 0.6383
+  }
+ },
+ "grid": {
+  "configs": 36,
+  "with_handoff_configs": 27,
+  "peak_n_range_with_handoff": [
+   6,
+   24
+  ],
+  "drop_64_range_with_handoff": [
+   0.1985,
+   0.8749
+  ],
+  "peak_over_ceiling_with_handoff": [
+   0.5287,
+   0.9859
+  ],
+  "no_handoff_64_over_ceiling": [
+   0.9889,
+   1.0
+  ],
+  "no_handoff_drop_max": 0.0,
+  "knee_n_range_no_handoff": [
+   6,
+   32
+  ],
+  "sim8_over_formula8": [
+   1.2443,
+   1.5916
+  ],
+  "configs_sim8_above_formula": 36
+ }
+}
