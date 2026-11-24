@@ -1,0 +1,165 @@
+{
+ "settings": {
+  "quarters": 12,
+  "deals_per_quarter": 180,
+  "reps": 200,
+  "win_prob_small": 0.18,
+  "win_prob_large": 0.22,
+  "lost_stage_share": [
+   0.5,
+   0.3,
+   0.2
+  ],
+  "lost_recorded_prob": {
+   "s1_small": 0.2,
+   "s1_large": 0.7,
+   "s2": 0.9,
+   "s3": 1.0
+  },
+  "lost_recorded_prob_after_change": {
+   "s1_small": 0.95,
+   "s1_large": 0.95,
+   "s2": 0.98,
+   "s3": 1.0
+  },
+  "change_from_quarter": 7,
+  "seed": 1261
+ },
+ "random_missing_max_gap_to_formula": 0.18,
+ "random_missing_p20": [
+  {
+   "true_pct": 20.0,
+   "missing_lost_pct": 0.0,
+   "observed": 20.1,
+   "formula": 20.0
+  },
+  {
+   "true_pct": 20.0,
+   "missing_lost_pct": 10.0,
+   "observed": 21.74,
+   "formula": 21.74
+  },
+  {
+   "true_pct": 20.0,
+   "missing_lost_pct": 20.0,
+   "observed": 23.73,
+   "formula": 23.81
+  },
+  {
+   "true_pct": 20.0,
+   "missing_lost_pct": 30.0,
+   "observed": 26.38,
+   "formula": 26.32
+  },
+  {
+   "true_pct": 20.0,
+   "missing_lost_pct": 40.0,
+   "observed": 29.44,
+   "formula": 29.41
+  },
+  {
+   "true_pct": 20.0,
+   "missing_lost_pct": 50.0,
+   "observed": 33.29,
+   "formula": 33.33
+  },
+  {
+   "true_pct": 20.0,
+   "missing_lost_pct": 60.0,
+   "observed": 38.31,
+   "formula": 38.46
+  }
+ ],
+ "base_by_size": [
+  {
+   "size": "小さい商談",
+   "true": 17.88,
+   "observed": 27.61,
+   "formula": 27.8,
+   "true_from_stage2": 30.32,
+   "observed_from_stage2": 31.64,
+   "lost_recorded": 57.06
+  },
+  {
+   "size": "大きい商談",
+   "true": 22.08,
+   "observed": 25.69,
+   "formula": 25.59,
+   "true_from_stage2": 36.24,
+   "observed_from_stage2": 37.71,
+   "lost_recorded": 81.95
+  },
+  {
+   "size": "全体",
+   "true": 19.98,
+   "observed": 26.52,
+   "formula": 26.54,
+   "true_from_stage2": 33.32,
+   "observed_from_stage2": 34.72,
+   "lost_recorded": 69.17
+  }
+ ],
+ "base_small_gt_large_obs_pct": 77.5,
+ "base_small_gt_large_true_pct": 0.5,
+ "base_obs_p10_p90": [
+  24.92,
+  27.99
+ ],
+ "rule_change": {
+  "before_q1_6": {
+   "true": 20.04,
+   "obs": 26.61,
+   "true_s2": 33.39,
+   "obs_s2": 34.79
+  },
+  "after_q7_12": {
+   "true": 19.98,
+   "obs": 20.48,
+   "true_s2": 33.35,
+   "obs_s2": 33.61
+  },
+  "recorded_deals_before": 135.58,
+  "recorded_deals_after": 175.62,
+  "drop5_q6_to_q7_all_pct": 59.5,
+  "drop5_q6_to_q7_from_stage2_pct": 34.5,
+  "drop5_q5_to_q6_all_pct": 12.0,
+  "drop5_q5_to_q6_from_stage2_pct": 20.0
+ },
+ "base_gap_from_stage2_by_size": {
+  "小さい商談": 1.32,
+  "大きい商談": 1.47,
+  "全体": 1.4
+ },
+ "rule_change_from_stage2_shift": 1.18,
+ "rule_change_from_stage2_quarter_p10_p90_range": [
+  27.1,
+  41.3
+ ],
+ "rule_change_all_quarter_p10_p90_range": [
+  16.37,
+  31.87
+ ],
+ "grid_range": {
+  "observed": [
+   11.38,
+   50.56
+  ],
+  "ratio": [
+   1.1,
+   2.087
+  ],
+  "gap_all": [
+   1.36,
+   20.36
+  ],
+  "gap_from_stage2": [
+   0.75,
+   1.58
+  ],
+  "true_from_stage2": [
+   13.6,
+   59.06
+  ]
+ },
+ "grid_max_gap_to_formula": 0.32
+}

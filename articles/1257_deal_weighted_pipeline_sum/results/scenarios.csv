@@ -1,0 +1,5 @@
+scenario,n_deals,pipeline_total,weighted_forecast,largest_share_of_forecast,effective_n_by_amount,mean_ratio,sd_ratio_sim,sd_ratio_formula,p10_ratio,median_ratio,p90_ratio,within10,within20,actual_ge_forecast,ratio_below_0_7
+base,40,15510.0,7307.0,0.0973,19.39,1.0002,0.214,0.2134,0.7363,0.984,1.2946,0.3505,0.6349,0.4727,0.0688
+drop_largest,39,13250.0,6629.0,0.1073,24.06,1.0001,0.1758,0.1759,0.7754,0.9986,1.2294,0.4273,0.74,0.5,0.0443
+equal_amounts,40,14614.0,7307.0,0.045,40.0,1.0005,0.1311,0.1304,0.85,1.0,1.15,0.5424,0.871,0.5766,0.0058
+add_big_3000,41,18510.0,8807.0,0.1703,16.01,1.0009,0.2449,0.2457,0.6767,1.0037,1.3285,0.2917,0.5501,0.5052,0.1236

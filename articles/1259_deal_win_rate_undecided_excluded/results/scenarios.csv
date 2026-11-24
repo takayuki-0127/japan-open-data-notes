@@ -1,0 +1,4 @@
+scenario,win_median_days,loss_median_days,m1_decided_only,m2_undecided_as_loss,m3_old_decided_only,m4_final,undecided_share,old_undecided_share,m1_p10,m1_p90,formula_m1
+base_loss_slower,40,100,0.5635,0.4336,0.5286,0.5004,0.2306,0.0576,0.5346,0.5926,0.5634
+same_speed,40,40,0.5,0.4336,0.5,0.5001,0.1329,0.005,0.4734,0.5265,0.5
+loss_faster,40,16,0.4786,0.4338,0.4995,0.5007,0.0935,0.0025,0.4514,0.5055,0.478

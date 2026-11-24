@@ -1,0 +1,174 @@
+{
+ "setting": {
+  "n_deals_per_quarter": 40,
+  "quarters": 5000,
+  "amount_median_man_yen": 300,
+  "amount_log_sd": 1.0,
+  "kakudo_levels": [
+   0.1,
+   0.3,
+   0.5,
+   0.7,
+   0.9
+  ],
+  "mix": {
+   "low": [
+    0.35,
+    0.3,
+    0.2,
+    0.1,
+    0.05
+   ],
+   "lowish": [
+    0.3,
+    0.25,
+    0.2,
+    0.15,
+    0.1
+   ],
+   "even": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+   ],
+   "highish": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+   ],
+   "high": [
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.35
+   ]
+  },
+  "calibration": {
+   "honest": "確度どおり",
+   "optimistic": "確度が高すぎる（本当は0.75倍）",
+   "cautious": "確度が低すぎる（取れない確率が0.75倍）"
+  }
+ },
+ "example_quarter": {
+  "weighted": 14774.0,
+  "cut70": 13480.0,
+  "actual": 13120.0,
+  "won_below70_amount": 1640.0,
+  "lost_70plus_amount": 2000.0,
+  "n_below70": 22,
+  "n_70plus": 18,
+  "move_one_50_to_70": {
+   "deal_id": 9,
+   "amount": 680.0,
+   "cut70_change": 680.0,
+   "weighted_change": 136.0
+  }
+ },
+ "base_even_honest": {
+  "weighted": {
+   "bias": -0.0089,
+   "share_over_actual": 0.4884,
+   "mae_rel": 0.1616
+  },
+  "cut50": {
+   "bias": 0.1893,
+   "share_over_actual": 0.797,
+   "mae_rel": 0.248
+  },
+  "cut70": {
+   "bias": -0.2082,
+   "share_over_actual": 0.1802,
+   "mae_rel": 0.2586
+  },
+  "cut90": {
+   "bias": -0.6013,
+   "share_over_actual": 0.0042,
+   "mae_rel": 0.6028
+  },
+  "actual_mean": 9987.1,
+  "weighted_mean": 9897.9,
+  "cut70_mean": 7908.1,
+  "won_below70_mean": 3620.1,
+  "lost_70plus_mean": 1541.2,
+  "formula_cut70_over_actual": 0.8
+ },
+ "grid_n": 45,
+ "cut70_bias_by_mix_cal": {
+  "honest|low": -0.5626,
+  "honest|lowish": -0.3779,
+  "honest|even": -0.2036,
+  "honest|highish": -0.0856,
+  "honest|high": -0.0126,
+  "optimistic|low": -0.4065,
+  "optimistic|lowish": -0.1547,
+  "optimistic|even": 0.0714,
+  "optimistic|highish": 0.2194,
+  "optimistic|high": 0.3093,
+  "cautious|low": -0.7049,
+  "cautious|lowish": -0.5435,
+  "cautious|even": -0.3648,
+  "cautious|highish": -0.2144,
+  "cautious|high": -0.1288
+ },
+ "weighted_bias_by_cal": {
+  "honest": [
+   -0.0043,
+   0.0022
+  ],
+  "optimistic": [
+   0.3304,
+   0.3408
+  ],
+  "cautious": [
+   -0.327,
+   -0.1134
+  ]
+ },
+ "cut70_n_over": 3,
+ "cut70_n_under": 12,
+ "cut70_closer_n": 3,
+ "cut70_n": 15,
+ "cut_closer_all_n": 7,
+ "honest_cut_closer_n": 0,
+ "honest_n": 15,
+ "cut70_closer_cases": [
+  {
+   "calibration": "optimistic",
+   "mix": "lowish",
+   "cut_bias": -0.1547,
+   "cut_mae_rel": 0.3483,
+   "weighted_bias": 0.3392,
+   "weighted_mae_rel": 0.4033
+  },
+  {
+   "calibration": "optimistic",
+   "mix": "even",
+   "cut_bias": 0.0714,
+   "cut_mae_rel": 0.2798,
+   "weighted_bias": 0.3385,
+   "weighted_mae_rel": 0.3729
+  },
+  {
+   "calibration": "optimistic",
+   "mix": "highish",
+   "cut_bias": 0.2194,
+   "cut_mae_rel": 0.3073,
+   "weighted_bias": 0.3309,
+   "weighted_mae_rel": 0.355
+  }
+ ],
+ "max_abs_bias_minus_formula": 0.012,
+ "cut_bias_range": [
+  -0.9013,
+  0.7122
+ ],
+ "weighted_mae_honest_range": [
+  0.1227,
+  0.2384
+ ]
+}

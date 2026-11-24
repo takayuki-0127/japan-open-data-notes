@@ -1,0 +1,4 @@
+scenario,scenario_name,win_rate,naive_gap,strat_gap,pause_diff,pause_diff_p10,pause_diff_p90,true_pause_effect
+S0,違いだけ,25.62,28.18,14.31,-0.05,-3.19,2.95,-0.05
+S1,長引いたせいだけ,23.58,30.04,30.03,-10.4,-13.27,-7.84,-10.35
+S2,両方,24.92,25.26,20.75,-5.12,-8.27,-1.91,-5.21

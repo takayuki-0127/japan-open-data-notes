@@ -1,0 +1,302 @@
+{
+ "settings": {
+  "deals_per_rep": 2000,
+  "reps": 200,
+  "grid_reps": 40,
+  "base_daily_decide": 0.01667,
+  "limit_days": 365,
+  "pause_days": 60,
+  "pause_share": 0.2,
+  "score_sd": 0.7,
+  "scenarios": {
+   "S0": {
+    "g_speed": 0.8,
+    "a_win": -1.35,
+    "b_win": 1.2,
+    "k_decay": 0.0
+   },
+   "S1": {
+    "g_speed": 0.0,
+    "a_win": -0.5,
+    "b_win": 0.0,
+    "k_decay": 0.9
+   },
+   "S2": {
+    "g_speed": 0.4,
+    "a_win": -0.85,
+    "b_win": 0.6,
+    "k_decay": 0.45
+   }
+  },
+  "seed": 1262
+ },
+ "scenarios": {
+  "S0": {
+   "name": "違いだけ",
+   "win_rate": {
+    "mean": 25.62,
+    "p10": 24.4,
+    "p90": 26.95
+   },
+   "median_days": {
+    "mean": 58.65,
+    "p10": 55.0,
+    "p90": 61.0
+   },
+   "naive_gap": {
+    "mean": 28.18,
+    "p10": 25.19,
+    "p90": 31.24
+   },
+   "strat_gap": {
+    "mean": 14.31,
+    "p10": 9.11,
+    "p90": 19.74
+   },
+   "pause_diff": {
+    "mean": -0.05,
+    "p10": -3.19,
+    "p90": 2.95
+   },
+   "true_pause_effect": -0.05,
+   "pause_diff_negative_pct": 47.0
+  },
+  "S1": {
+   "name": "長引いたせいだけ",
+   "win_rate": {
+    "mean": 23.58,
+    "p10": 22.55,
+    "p90": 24.6
+   },
+   "median_days": {
+    "mean": 62.49,
+    "p10": 60.45,
+    "p90": 65.0
+   },
+   "naive_gap": {
+    "mean": 30.04,
+    "p10": 27.35,
+    "p90": 33.06
+   },
+   "strat_gap": {
+    "mean": 30.03,
+    "p10": 27.26,
+    "p90": 33.13
+   },
+   "pause_diff": {
+    "mean": -10.4,
+    "p10": -13.27,
+    "p90": -7.84
+   },
+   "true_pause_effect": -10.35,
+   "pause_diff_negative_pct": 100.0
+  },
+  "S2": {
+   "name": "両方",
+   "win_rate": {
+    "mean": 24.92,
+    "p10": 23.5,
+    "p90": 26.3
+   },
+   "median_days": {
+    "mean": 59.88,
+    "p10": 57.95,
+    "p90": 62.0
+   },
+   "naive_gap": {
+    "mean": 25.26,
+    "p10": 22.1,
+    "p90": 28.72
+   },
+   "strat_gap": {
+    "mean": 20.75,
+    "p10": 16.48,
+    "p90": 24.85
+   },
+   "pause_diff": {
+    "mean": -5.12,
+    "p10": -8.27,
+    "p90": -1.91
+   },
+   "true_pause_effect": -5.21,
+   "pause_diff_negative_pct": 98.0
+  }
+ },
+ "win_by_days": [
+  {
+   "scenario": "S0",
+   "scenario_name": "違いだけ",
+   "band": "30日以内",
+   "win_rate": 35.6,
+   "share_of_deals": 35.26,
+   "paused_share": 0.0
+  },
+  {
+   "scenario": "S0",
+   "scenario_name": "違いだけ",
+   "band": "31〜60日",
+   "win_rate": 25.78,
+   "share_of_deals": 15.7,
+   "paused_share": 2.89
+  },
+  {
+   "scenario": "S0",
+   "scenario_name": "違いだけ",
+   "band": "61〜90日",
+   "win_rate": 27.52,
+   "share_of_deals": 17.0,
+   "paused_share": 49.12
+  },
+  {
+   "scenario": "S0",
+   "scenario_name": "違いだけ",
+   "band": "91〜180日",
+   "win_rate": 17.73,
+   "share_of_deals": 19.05,
+   "paused_share": 38.74
+  },
+  {
+   "scenario": "S0",
+   "scenario_name": "違いだけ",
+   "band": "181日以上",
+   "win_rate": 7.42,
+   "share_of_deals": 12.99,
+   "paused_share": 29.61
+  },
+  {
+   "scenario": "S1",
+   "scenario_name": "長引いたせいだけ",
+   "band": "30日以内",
+   "win_rate": 34.9,
+   "share_of_deals": 31.16,
+   "paused_share": 0.0
+  },
+  {
+   "scenario": "S1",
+   "scenario_name": "長引いたせいだけ",
+   "band": "31〜60日",
+   "win_rate": 28.18,
+   "share_of_deals": 17.42,
+   "paused_share": 1.62
+  },
+  {
+   "scenario": "S1",
+   "scenario_name": "長引いたせいだけ",
+   "band": "61〜90日",
+   "win_rate": 22.59,
+   "share_of_deals": 17.07,
+   "paused_share": 38.35
+  },
+  {
+   "scenario": "S1",
+   "scenario_name": "長引いたせいだけ",
+   "band": "91〜180日",
+   "win_rate": 14.79,
+   "share_of_deals": 22.85,
+   "paused_share": 38.46
+  },
+  {
+   "scenario": "S1",
+   "scenario_name": "長引いたせいだけ",
+   "band": "181日以上",
+   "win_rate": 4.86,
+   "share_of_deals": 11.5,
+   "paused_share": 38.58
+  },
+  {
+   "scenario": "S2",
+   "scenario_name": "両方",
+   "band": "30日以内",
+   "win_rate": 33.32,
+   "share_of_deals": 32.72,
+   "paused_share": 0.0
+  },
+  {
+   "scenario": "S2",
+   "scenario_name": "両方",
+   "band": "31〜60日",
+   "win_rate": 27.72,
+   "share_of_deals": 17.57,
+   "paused_share": 1.75
+  },
+  {
+   "scenario": "S2",
+   "scenario_name": "両方",
+   "band": "61〜90日",
+   "win_rate": 24.95,
+   "share_of_deals": 17.55,
+   "paused_share": 41.99
+  },
+  {
+   "scenario": "S2",
+   "scenario_name": "両方",
+   "band": "91〜180日",
+   "win_rate": 18.04,
+   "share_of_deals": 21.77,
+   "paused_share": 39.59
+  },
+  {
+   "scenario": "S2",
+   "scenario_name": "両方",
+   "band": "181日以上",
+   "win_rate": 8.06,
+   "share_of_deals": 10.39,
+   "paused_share": 35.64
+  }
+ ],
+ "score_noise_S0": [
+  {
+   "score_sd": 0.0,
+   "naive_gap": 27.52,
+   "strat_gap": 2.8
+  },
+  {
+   "score_sd": 0.35,
+   "naive_gap": 27.64,
+   "strat_gap": 5.75
+  },
+  {
+   "score_sd": 0.7,
+   "naive_gap": 27.91,
+   "strat_gap": 14.67
+  },
+  {
+   "score_sd": 1.4,
+   "naive_gap": 28.15,
+   "strat_gap": 22.63
+  }
+ ],
+ "nonrandom_pause_S0": {
+  "pause_diff": {
+   "mean": -12.28,
+   "p10": -14.79,
+   "p90": -9.72
+  },
+  "true_pause_effect": -0.03,
+  "paused_share": 20.07,
+  "paused_mean_z": -0.594
+ },
+ "grid_range": {
+  "win_rate": [
+   13.97,
+   29.06
+  ],
+  "naive_gap": [
+   11.24,
+   43.14
+  ],
+  "strat_gap": [
+   5.68,
+   30.64
+  ],
+  "pause_diff": [
+   -6.85,
+   0.56
+  ],
+  "true_pause_effect": [
+   -6.77,
+   0.2
+  ]
+ },
+ "grid_max_abs_pause_diff_minus_true": 0.8
+}

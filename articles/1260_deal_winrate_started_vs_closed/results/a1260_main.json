@@ -1,0 +1,212 @@
+{
+ "settings": {
+  "days_per_quarter": 90,
+  "quarters": 12,
+  "warmup_quarters": 4,
+  "deals_per_day": 2.0,
+  "win_prob": 0.25,
+  "win_days_mean": 45,
+  "loss_days_mean": 75,
+  "log_sd_days": 0.6,
+  "reps": 200,
+  "change_from_quarter": 6,
+  "win_prob_after": 0.35,
+  "deals_per_day_after": 4.0,
+  "seed": 1260
+ },
+ "steady_q2_12": {
+  "mean": {
+   "A": 13.15,
+   "B": 36.19,
+   "C": 25.02,
+   "true": 25.03
+  },
+  "p10_p90": {
+   "A": [
+    9.94,
+    16.47
+   ],
+   "B": [
+    28.57,
+    44.07
+   ],
+   "C": [
+    21.05,
+    29.1
+   ]
+  },
+  "formula_A": 13.13,
+  "formula_B": 36.16,
+  "C_share_started_earlier": 63.72,
+  "decided_by_end_share_of_started": 36.31,
+  "undecided_at_end_share": 63.69
+ },
+ "steady_wait_days": [
+  {
+   "wait_days": 0,
+   "A": 13.15,
+   "B": 36.19,
+   "decided_share": 36.31
+  },
+  {
+   "wait_days": 90,
+   "A": 24.45,
+   "B": 27.0,
+   "decided_share": 90.57
+  },
+  {
+   "wait_days": 180,
+   "A": 24.99,
+   "B": 25.35,
+   "decided_share": 98.56
+  },
+  {
+   "wait_days": 365,
+   "A": 25.03,
+   "B": 25.05,
+   "decided_share": 99.93
+  }
+ ],
+ "p_change": {
+  "q5": {
+   "A": 13.53,
+   "B": 37.01,
+   "C": 25.11,
+   "true": 25.43,
+   "C_from_earlier": 63.65
+  },
+  "q6": {
+   "A": 18.19,
+   "B": 47.7,
+   "C": 29.52,
+   "true": 34.98,
+   "C_from_earlier": 62.48
+  },
+  "q7": {
+   "A": 18.3,
+   "B": 47.9,
+   "C": 34.54,
+   "true": 35.06,
+   "C_from_earlier": 62.09
+  },
+  "q8": {
+   "A": 18.53,
+   "B": 47.94,
+   "C": 35.1,
+   "true": 34.98,
+   "C_from_earlier": 61.65
+  },
+  "q9": {
+   "A": 18.33,
+   "B": 47.77,
+   "C": 34.97,
+   "true": 34.82,
+   "C_from_earlier": 61.49
+  },
+  "q10": {
+   "A": 18.08,
+   "B": 47.58,
+   "C": 34.69,
+   "true": 34.93,
+   "C_from_earlier": 61.73
+  }
+ },
+ "inflow_change": {
+  "q5": {
+   "A": 13.14,
+   "B": 36.23,
+   "C": 25.0,
+   "true": 25.39,
+   "C_from_earlier": 63.51
+  },
+  "q6": {
+   "A": 13.12,
+   "B": 36.16,
+   "C": 28.19,
+   "true": 24.71,
+   "C_from_earlier": 46.77
+  },
+  "q7": {
+   "A": 13.19,
+   "B": 36.25,
+   "C": 25.73,
+   "true": 24.99,
+   "C_from_earlier": 61.87
+  },
+  "q8": {
+   "A": 13.28,
+   "B": 36.38,
+   "C": 25.21,
+   "true": 25.01,
+   "C_from_earlier": 63.2
+  },
+  "q9": {
+   "A": 13.12,
+   "B": 36.21,
+   "C": 24.93,
+   "true": 25.09,
+   "C_from_earlier": 63.65
+  },
+  "q10": {
+   "A": 13.3,
+   "B": 36.57,
+   "C": 25.21,
+   "true": 25.15,
+   "C_from_earlier": 63.68
+  }
+ },
+ "grid_max_gap_to_formula": {
+  "A": 0.2,
+  "B": 0.5
+ },
+ "grid_range": {
+  "steady_A": [
+   5.82,
+   16.84
+  ],
+  "steady_B": [
+   10.46,
+   73.01
+  ],
+  "steady_C": [
+   24.79,
+   25.17
+  ],
+  "formula_A": [
+   5.9,
+   16.78
+  ],
+  "formula_B": [
+   10.49,
+   73.01
+  ],
+  "pchange_C_q6": [
+   26.75,
+   33.16
+  ],
+  "pchange_C_q7": [
+   32.53,
+   35.46
+  ],
+  "pchange_B_q6": [
+   15.74,
+   80.85
+  ],
+  "pchange_true_q6": [
+   34.96,
+   35.88
+  ],
+  "inflow_C_q6": [
+   20.5,
+   33.99
+  ],
+  "inflow_C_q8": [
+   24.29,
+   26.86
+  ],
+  "inflow_B_q6": [
+   10.97,
+   73.08
+  ]
+ }
+}

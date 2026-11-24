@@ -1,0 +1,138 @@
+{
+ "base_setting": {
+  "n_deals": 40,
+  "amount_median_man_yen": 300,
+  "amount_log_sd": 1.0,
+  "kakudo_levels": [
+   0.1,
+   0.3,
+   0.5,
+   0.7,
+   0.9
+  ],
+  "deals_per_level": 8,
+  "outcome_draws": 20000,
+  "kakudo_equals_true_probability": true
+ },
+ "scenarios": {
+  "base": {
+   "n_deals": 40,
+   "pipeline_total": 15510.0,
+   "weighted_forecast": 7307.0,
+   "largest_share_of_forecast": 0.0973,
+   "effective_n_by_amount": 19.39,
+   "mean_ratio": 1.0002,
+   "sd_ratio_sim": 0.214,
+   "sd_ratio_formula": 0.2134,
+   "p10_ratio": 0.7363,
+   "median_ratio": 0.984,
+   "p90_ratio": 1.2946,
+   "within10": 0.3505,
+   "within20": 0.6349,
+   "actual_ge_forecast": 0.4727,
+   "ratio_below_0_7": 0.0688
+  },
+  "drop_largest": {
+   "n_deals": 39,
+   "pipeline_total": 13250.0,
+   "weighted_forecast": 6629.0,
+   "largest_share_of_forecast": 0.1073,
+   "effective_n_by_amount": 24.06,
+   "mean_ratio": 1.0001,
+   "sd_ratio_sim": 0.1758,
+   "sd_ratio_formula": 0.1759,
+   "p10_ratio": 0.7754,
+   "median_ratio": 0.9986,
+   "p90_ratio": 1.2294,
+   "within10": 0.4273,
+   "within20": 0.74,
+   "actual_ge_forecast": 0.5,
+   "ratio_below_0_7": 0.0443
+  },
+  "equal_amounts": {
+   "n_deals": 40,
+   "pipeline_total": 14614.0,
+   "weighted_forecast": 7307.0,
+   "largest_share_of_forecast": 0.045,
+   "effective_n_by_amount": 40.0,
+   "mean_ratio": 1.0005,
+   "sd_ratio_sim": 0.1311,
+   "sd_ratio_formula": 0.1304,
+   "p10_ratio": 0.85,
+   "median_ratio": 1.0,
+   "p90_ratio": 1.15,
+   "within10": 0.5424,
+   "within20": 0.871,
+   "actual_ge_forecast": 0.5766,
+   "ratio_below_0_7": 0.0058
+  },
+  "add_big_3000": {
+   "n_deals": 41,
+   "pipeline_total": 18510.0,
+   "weighted_forecast": 8807.0,
+   "largest_share_of_forecast": 0.1703,
+   "effective_n_by_amount": 16.01,
+   "mean_ratio": 1.0009,
+   "sd_ratio_sim": 0.2449,
+   "sd_ratio_formula": 0.2457,
+   "p10_ratio": 0.6767,
+   "median_ratio": 1.0037,
+   "p90_ratio": 1.3285,
+   "within10": 0.2917,
+   "within20": 0.5501,
+   "actual_ge_forecast": 0.5052,
+   "ratio_below_0_7": 0.1236
+  }
+ },
+ "base_top3_by_amount": [
+  {
+   "deal_id": 16,
+   "amount_man_yen": 2260,
+   "kakudo": 0.3,
+   "share_of_variance": 0.441
+  },
+  {
+   "deal_id": 7,
+   "amount_man_yen": 1000,
+   "kakudo": 0.5,
+   "share_of_variance": 0.1028
+  },
+  {
+   "deal_id": 20,
+   "amount_man_yen": 940,
+   "kakudo": 0.3,
+   "share_of_variance": 0.0763
+  }
+ ],
+ "base_top3_share_of_variance": 0.6201,
+ "scenarios_max_abs_sd_sim_minus_formula": 0.0008,
+ "grid_n": 45,
+ "grid_within10_range": [
+  0.1218,
+  0.9461
+ ],
+ "grid_within20_range": [
+  0.2274,
+  0.9999
+ ],
+ "grid_actual_ge_range": [
+  0.4466,
+  0.5439
+ ],
+ "grid_n_actual_ge_below_half": 23,
+ "grid_pooled_ratio_mean_range": [
+  0.9954,
+  1.0052
+ ],
+ "grid_within10_n160_sigma03": {
+  "low": 0.6817,
+  "even": 0.859,
+  "high": 0.9461
+ },
+ "grid_within10_n10_sigma15": {
+  "low": 0.1218,
+  "even": 0.1817,
+  "high": 0.2304
+ },
+ "grid_n_within10_ge_half": 15
+}
