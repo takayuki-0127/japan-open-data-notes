@@ -1,0 +1,329 @@
+{
+ "setting": {
+  "requests_per_ms": 1.0,
+  "requests_per_s": 1000.0,
+  "fetch_median_ms": 80.0,
+  "fetch_logsd": 0.5,
+  "fetch_mean_ms": 90.6519,
+  "hold_s": 60,
+  "requests_per_hold": 60000,
+  "repeats_base": 2000,
+  "repeats_cap": 500
+ },
+ "base": {
+  "origin_capacity": "無制限",
+  "repeats": 2000,
+  "in_flight_per_capacity": null,
+  "mean": 40.92,
+  "median": 40.0,
+  "p90": 55.0,
+  "p99": 64.0,
+  "max": 79,
+  "min": 14,
+  "fill_ms_mean": 40.02,
+  "fill_ms_median": 39.83,
+  "truncated": 0,
+  "hit_rate_pct": 99.932,
+  "origin_per_s_avg": 0.682,
+  "origin_per_s_first100ms": 409.2,
+  "ratio_mean_vs_unlimited": null,
+  "guide_formula_1_plus_lam_mean": 91.65,
+  "share_ge_100_pct": 0.0,
+  "share_ge_150_pct": 0.0
+ },
+ "coalesce": {
+  "origin_requests": 1,
+  "waiting_mean": 90.69,
+  "waiting_median": 81.0,
+  "wait_ms_mean": 45.23
+ },
+ "constant_fetch_check": {
+  "fetch_ms": 90.65,
+  "mean": 91.36,
+  "formula": 91.65
+ },
+ "by_capacity": [
+  {
+   "origin_capacity": "無制限",
+   "repeats": 2000,
+   "in_flight_per_capacity": NaN,
+   "mean": 40.92,
+   "median": 40.0,
+   "p90": 55.0,
+   "p99": 64.0,
+   "max": 79,
+   "min": 14,
+   "fill_ms_mean": 40.02,
+   "fill_ms_median": 39.83,
+   "truncated": 0,
+   "hit_rate_pct": 99.932,
+   "origin_per_s_avg": 0.682,
+   "origin_per_s_first100ms": 409.2,
+   "ratio_mean_vs_unlimited": 1.0
+  },
+  {
+   "origin_capacity": "60件",
+   "repeats": 500,
+   "in_flight_per_capacity": 1.51,
+   "mean": 41.16,
+   "median": 41.0,
+   "p90": 53.0,
+   "p99": 66.0,
+   "max": 74,
+   "min": 17,
+   "fill_ms_mean": 39.97,
+   "fill_ms_median": 40.03,
+   "truncated": 0,
+   "hit_rate_pct": 99.931,
+   "origin_per_s_avg": 0.686,
+   "origin_per_s_first100ms": 411.6,
+   "ratio_mean_vs_unlimited": 1.006
+  },
+  {
+   "origin_capacity": "40件",
+   "repeats": 500,
+   "in_flight_per_capacity": 2.27,
+   "mean": 42.21,
+   "median": 41.0,
+   "p90": 57.0,
+   "p99": 75.0,
+   "max": 94,
+   "min": 5,
+   "fill_ms_mean": 41.01,
+   "fill_ms_median": 41.13,
+   "truncated": 0,
+   "hit_rate_pct": 99.93,
+   "origin_per_s_avg": 0.703,
+   "origin_per_s_first100ms": 422.1,
+   "ratio_mean_vs_unlimited": 1.032
+  },
+  {
+   "origin_capacity": "20件",
+   "repeats": 500,
+   "in_flight_per_capacity": 4.53,
+   "mean": 59.19,
+   "median": 54.0,
+   "p90": 94.1,
+   "p99": 146.1,
+   "max": 181,
+   "min": 14,
+   "fill_ms_mean": 58.42,
+   "fill_ms_median": 53.37,
+   "truncated": 0,
+   "hit_rate_pct": 99.901,
+   "origin_per_s_avg": 0.987,
+   "origin_per_s_first100ms": 577.3,
+   "ratio_mean_vs_unlimited": 1.446
+  },
+  {
+   "origin_capacity": "15件",
+   "repeats": 500,
+   "in_flight_per_capacity": 6.04,
+   "mean": 98.38,
+   "median": 84.0,
+   "p90": 181.1,
+   "p99": 276.0,
+   "max": 529,
+   "min": 16,
+   "fill_ms_mean": 97.04,
+   "fill_ms_median": 80.41,
+   "truncated": 0,
+   "hit_rate_pct": 99.836,
+   "origin_per_s_avg": 1.64,
+   "origin_per_s_first100ms": 777.6,
+   "ratio_mean_vs_unlimited": 2.404
+  },
+  {
+   "origin_capacity": "10件",
+   "repeats": 500,
+   "in_flight_per_capacity": 9.07,
+   "mean": 245.34,
+   "median": 182.5,
+   "p90": 489.1,
+   "p99": 1052.3,
+   "max": 1577,
+   "min": 14,
+   "fill_ms_mean": 244.79,
+   "fill_ms_median": 184.58,
+   "truncated": 0,
+   "hit_rate_pct": 99.591,
+   "origin_per_s_avg": 4.089,
+   "origin_per_s_first100ms": 930.9,
+   "ratio_mean_vs_unlimited": 5.996
+  },
+  {
+   "origin_capacity": "7件",
+   "repeats": 500,
+   "in_flight_per_capacity": 12.95,
+   "mean": 824.0,
+   "median": 602.5,
+   "p90": 1805.3,
+   "p99": 3686.5,
+   "max": 5874,
+   "min": 10,
+   "fill_ms_mean": 821.55,
+   "fill_ms_median": 603.51,
+   "truncated": 0,
+   "hit_rate_pct": 98.627,
+   "origin_per_s_avg": 13.733,
+   "origin_per_s_first100ms": 994.6,
+   "ratio_mean_vs_unlimited": 20.137
+  },
+  {
+   "origin_capacity": "5件",
+   "repeats": 500,
+   "in_flight_per_capacity": 18.13,
+   "mean": 3533.56,
+   "median": 2531.0,
+   "p90": 7727.0,
+   "p99": 15501.9,
+   "max": 20000,
+   "min": 47,
+   "fill_ms_mean": 3530.92,
+   "fill_ms_median": 2532.01,
+   "truncated": 3,
+   "hit_rate_pct": 94.111,
+   "origin_per_s_avg": 58.893,
+   "origin_per_s_first100ms": 1009.6,
+   "ratio_mean_vs_unlimited": 86.353
+  }
+ ],
+ "peak_vs_avg_ratio": 600.0,
+ "grid": {
+  "n": 27,
+  "unlimited_ratio_range": [
+   0.273,
+   0.786
+  ],
+  "unlimited_mean_range": [
+   4.35,
+   464.48
+  ],
+  "capped_over_n": 13,
+  "capped_over_truncated_cells": 4,
+  "capped_over_ratio_min": 0.433,
+  "capped_over_list": [
+   {
+    "requests_per_s": 200,
+    "fetch_median_ms": 300.0,
+    "origin_capacity": "60件",
+    "in_flight_per_capacity": 1.13,
+    "mean": 31.23,
+    "truncated_of_40": 0
+   },
+   {
+    "requests_per_s": 200,
+    "fetch_median_ms": 300.0,
+    "origin_capacity": "20件",
+    "in_flight_per_capacity": 3.4,
+    "mean": 37.6,
+    "truncated_of_40": 0
+   },
+   {
+    "requests_per_s": 1000,
+    "fetch_median_ms": 20.0,
+    "origin_capacity": "20件",
+    "in_flight_per_capacity": 1.13,
+    "mean": 13.45,
+    "truncated_of_40": 0
+   },
+   {
+    "requests_per_s": 1000,
+    "fetch_median_ms": 80.0,
+    "origin_capacity": "60件",
+    "in_flight_per_capacity": 1.51,
+    "mean": 40.77,
+    "truncated_of_40": 0
+   },
+   {
+    "requests_per_s": 1000,
+    "fetch_median_ms": 80.0,
+    "origin_capacity": "20件",
+    "in_flight_per_capacity": 4.53,
+    "mean": 59.58,
+    "truncated_of_40": 0
+   },
+   {
+    "requests_per_s": 1000,
+    "fetch_median_ms": 300.0,
+    "origin_capacity": "60件",
+    "in_flight_per_capacity": 5.67,
+    "mean": 163.7,
+    "truncated_of_40": 0
+   },
+   {
+    "requests_per_s": 1000,
+    "fetch_median_ms": 300.0,
+    "origin_capacity": "20件",
+    "in_flight_per_capacity": 17.0,
+    "mean": 2173.15,
+    "truncated_of_40": 19
+   },
+   {
+    "requests_per_s": 5000,
+    "fetch_median_ms": 20.0,
+    "origin_capacity": "60件",
+    "in_flight_per_capacity": 1.89,
+    "mean": 49.52,
+    "truncated_of_40": 0
+   },
+   {
+    "requests_per_s": 5000,
+    "fetch_median_ms": 20.0,
+    "origin_capacity": "20件",
+    "in_flight_per_capacity": 5.67,
+    "mean": 92.25,
+    "truncated_of_40": 0
+   },
+   {
+    "requests_per_s": 5000,
+    "fetch_median_ms": 80.0,
+    "origin_capacity": "60件",
+    "in_flight_per_capacity": 7.55,
+    "mean": 316.02,
+    "truncated_of_40": 0
+   },
+   {
+    "requests_per_s": 5000,
+    "fetch_median_ms": 80.0,
+    "origin_capacity": "20件",
+    "in_flight_per_capacity": 22.66,
+    "mean": 2823.82,
+    "truncated_of_40": 36
+   },
+   {
+    "requests_per_s": 5000,
+    "fetch_median_ms": 300.0,
+    "origin_capacity": "60件",
+    "in_flight_per_capacity": 28.33,
+    "mean": 3000.0,
+    "truncated_of_40": 40
+   },
+   {
+    "requests_per_s": 5000,
+    "fetch_median_ms": 300.0,
+    "origin_capacity": "20件",
+    "in_flight_per_capacity": 84.99,
+    "mean": 3000.0,
+    "truncated_of_40": 40
+   }
+  ],
+  "capped_ratio_le10": [
+   0.433,
+   0.899
+  ],
+  "capped_le10_n": 14,
+  "capped_le10_truncated": 0,
+  "capped_gt10_n": 4,
+  "capped_gt10_mean_min": 2173.15,
+  "capped_gt10_truncated_range": [
+   19,
+   40
+  ],
+  "capped_under_n": 5,
+  "capped_under_ratio_range": [
+   0.561,
+   0.899
+  ]
+ }
+}

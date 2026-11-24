@@ -1,0 +1,5 @@
+one_time_share_pct,distinct_items,distinct_catalog,one_time_requests,used_once_items,used_once_share_of_items_pct,used_once_share_of_requests_pct,used_once_from_catalog,one_time_share_actual_pct,first_catalog_share_pct,ceiling_pct,ceiling_formula_pct,catalog_seen_2plus,ceiling_admit_second_pct,ceiling_admit_second_formula_pct
+0.0,19391,19391,0,1819,9.38,0.91,1819,0.0,9.695,90.305,90.305,17572,81.519,81.519
+20.0,58669,18867,39802,42428,72.32,21.21,2626,19.901,9.434,70.666,70.666,16241,62.545,62.545
+40.0,97861,17955,79906,83718,85.55,41.86,3812,39.953,8.977,51.069,51.07,14143,43.998,43.998
+60.0,135820,16111,119709,124878,91.94,62.44,5169,59.855,8.056,32.09,32.09,10942,26.619,26.619

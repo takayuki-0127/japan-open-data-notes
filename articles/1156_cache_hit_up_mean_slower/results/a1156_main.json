@@ -1,0 +1,180 @@
+{
+ "setting": {
+  "items": 10000,
+  "popularity_power": 0.9,
+  "fetch_median_center_ms": 80.0,
+  "fetch_median_logsd": 1.0,
+  "corr_rank_vs_fetch": 0.5,
+  "request_logsd": 0.5,
+  "hit_median_ms": 2.0,
+  "hit_logsd": 0.3,
+  "slots": 500,
+  "learn_requests": 200000,
+  "eval_requests": 1000000
+ },
+ "policy": {
+  "A": {
+   "hit_rate_pct": 58.418,
+   "mean_ms": 49.446,
+   "mean_hit_ms": 2.093,
+   "mean_miss_ms": 115.969,
+   "miss_part_ms": 48.223,
+   "p99_ms": 560.01,
+   "median_ms": 2.75,
+   "origin_per_1000": 415.82,
+   "kept_fetch_mean_ms_avg": 36.24,
+   "kept_popularity_rank_median": 250.5
+  },
+  "B": {
+   "hit_rate_pct": 38.1,
+   "mean_ms": 43.46,
+   "mean_hit_ms": 2.093,
+   "mean_miss_ms": 68.921,
+   "miss_part_ms": 42.662,
+   "p99_ms": 450.14,
+   "median_ms": 7.286,
+   "origin_per_1000": 619.0,
+   "kept_fetch_mean_ms_avg": 412.05,
+   "kept_popularity_rank_median": 1290.0
+  }
+ },
+ "policy_diff": {
+  "hit_pt_A_minus_B": 20.318,
+  "mean_ratio_A_over_B": 1.138,
+  "mean_pct_A_vs_B": 13.77,
+  "miss_mean_ratio_A_over_B": 1.683,
+  "overlap_items": 176,
+  "origin_ratio_B_over_A": 1.489
+ },
+ "break_even": [
+  {
+   "hit_from_pct": 80.0,
+   "hit_to_pct": 82.0,
+   "hit_ms_before": 2.092,
+   "miss_ms": 90.65,
+   "break_even_hit_ms": 4.25,
+   "break_even_ratio": 2.03
+  },
+  {
+   "hit_from_pct": 80.0,
+   "hit_to_pct": 85.0,
+   "hit_ms_before": 2.092,
+   "miss_ms": 90.65,
+   "break_even_hit_ms": 7.3,
+   "break_even_ratio": 3.49
+  },
+  {
+   "hit_from_pct": 90.0,
+   "hit_to_pct": 92.0,
+   "hit_ms_before": 2.092,
+   "miss_ms": 90.65,
+   "break_even_hit_ms": 4.02,
+   "break_even_ratio": 1.92
+  },
+  {
+   "hit_from_pct": 90.0,
+   "hit_to_pct": 95.0,
+   "hit_ms_before": 2.092,
+   "miss_ms": 90.65,
+   "break_even_hit_ms": 6.75,
+   "break_even_ratio": 3.23
+  },
+  {
+   "hit_from_pct": 95.0,
+   "hit_to_pct": 97.0,
+   "hit_ms_before": 2.092,
+   "miss_ms": 90.65,
+   "break_even_hit_ms": 3.92,
+   "break_even_ratio": 1.87
+  },
+  {
+   "hit_from_pct": 95.0,
+   "hit_to_pct": 100.0,
+   "hit_ms_before": 2.092,
+   "miss_ms": 90.65,
+   "break_even_hit_ms": 6.52,
+   "break_even_ratio": 3.12
+  }
+ ],
+ "slow_hit_check": [
+  {
+   "hit_rate_pct": 90.0,
+   "hit_mean_ms_set": 2.09,
+   "mean_formula_ms": 10.948,
+   "mean_sim_ms": 10.981
+  },
+  {
+   "hit_rate_pct": 95.0,
+   "hit_mean_ms_set": 6.0,
+   "mean_formula_ms": 10.233,
+   "mean_sim_ms": 10.251
+  },
+  {
+   "hit_rate_pct": 95.0,
+   "hit_mean_ms_set": 7.0,
+   "mean_formula_ms": 11.183,
+   "mean_sim_ms": 11.16
+  },
+  {
+   "hit_rate_pct": 95.0,
+   "hit_mean_ms_set": 8.0,
+   "mean_formula_ms": 12.133,
+   "mean_sim_ms": 12.172
+  }
+ ],
+ "grid": {
+  "n": 54,
+  "A_hit_higher": 54,
+  "A_hit_higher_and_slower": 54,
+  "hit_pt_range": [
+   0.373,
+   50.805
+  ],
+  "mean_pct_range": [
+   1.18,
+   79.21
+  ],
+  "by_rho_mean_pct": {
+   "-0.5": [
+    1.27,
+    69.9
+   ],
+   "0.0": [
+    1.54,
+    77.72
+   ],
+   "0.5": [
+    1.18,
+    79.21
+   ]
+  },
+  "by_sd_mean_pct": {
+   "0.5": [
+    1.18,
+    5.75
+   ],
+   "1.0": [
+    4.8,
+    27.55
+   ],
+   "1.5": [
+    14.69,
+    79.21
+   ]
+  },
+  "by_rho_hit_pt": {
+   "-0.5": [
+    0.373,
+    3.724
+   ],
+   "0.0": [
+    0.872,
+    14.405
+   ],
+   "0.5": [
+    1.552,
+    50.805
+   ]
+  }
+ }
+}

@@ -1,0 +1,405 @@
+{
+ "setting": {
+  "items": 100000,
+  "prod_alpha": 0.8,
+  "sizes_pct": [
+   1,
+   4
+  ],
+  "warm": 100000,
+  "measure": 300000,
+  "grid_alpha": [
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   1.0,
+   1.1,
+   1.2
+  ],
+  "test_items": [
+   10000,
+   20000,
+   50000
+  ],
+  "short_requests": [
+   20000,
+   50000
+  ],
+  "short_reps": 10
+ },
+ "sim": [
+  {
+   "role": "本番",
+   "alpha": 0.8,
+   "items": 100000,
+   "size_pct": 1,
+   "size_items": 1000,
+   "hit_sim_pct": 20.48,
+   "hit_formula_pct": 20.43,
+   "formula_minus_sim_pt": -0.05
+  },
+  {
+   "role": "本番",
+   "alpha": 0.8,
+   "items": 100000,
+   "size_pct": 4,
+   "size_items": 4000,
+   "hit_sim_pct": 34.13,
+   "hit_formula_pct": 34.14,
+   "formula_minus_sim_pt": 0.01
+  },
+  {
+   "role": "試験",
+   "alpha": 0.0,
+   "items": 100000,
+   "size_pct": 1,
+   "size_items": 1000,
+   "hit_sim_pct": 0.97,
+   "hit_formula_pct": 1.0,
+   "formula_minus_sim_pt": 0.03
+  },
+  {
+   "role": "試験",
+   "alpha": 0.0,
+   "items": 100000,
+   "size_pct": 4,
+   "size_items": 4000,
+   "hit_sim_pct": 3.95,
+   "hit_formula_pct": 4.0,
+   "formula_minus_sim_pt": 0.05
+  },
+  {
+   "role": "試験",
+   "alpha": 0.6,
+   "items": 100000,
+   "size_pct": 1,
+   "size_items": 1000,
+   "hit_sim_pct": 5.28,
+   "hit_formula_pct": 5.36,
+   "formula_minus_sim_pt": 0.08
+  },
+  {
+   "role": "試験",
+   "alpha": 0.6,
+   "items": 100000,
+   "size_pct": 4,
+   "size_items": 4000,
+   "hit_sim_pct": 13.84,
+   "hit_formula_pct": 13.95,
+   "formula_minus_sim_pt": 0.11
+  },
+  {
+   "role": "試験",
+   "alpha": 1.0,
+   "items": 100000,
+   "size_pct": 1,
+   "size_items": 1000,
+   "hit_sim_pct": 50.58,
+   "hit_formula_pct": 50.62,
+   "formula_minus_sim_pt": 0.04
+  },
+  {
+   "role": "試験",
+   "alpha": 1.0,
+   "items": 100000,
+   "size_pct": 4,
+   "size_items": 4000,
+   "hit_sim_pct": 64.19,
+   "hit_formula_pct": 64.27,
+   "formula_minus_sim_pt": 0.08
+  }
+ ],
+ "sim_test_vs_prod": [
+  {
+   "role": "試験",
+   "alpha": 0.0,
+   "items": 100000,
+   "size_pct": 1,
+   "size_items": 1000,
+   "hit_sim_pct": 0.97,
+   "hit_formula_pct": 1.0,
+   "formula_minus_sim_pt": 0.03,
+   "prod_hit_sim_pct": 20.48,
+   "test_minus_prod_pt": -19.51,
+   "test_miss_over_prod_miss": 1.245
+  },
+  {
+   "role": "試験",
+   "alpha": 0.0,
+   "items": 100000,
+   "size_pct": 4,
+   "size_items": 4000,
+   "hit_sim_pct": 3.95,
+   "hit_formula_pct": 4.0,
+   "formula_minus_sim_pt": 0.05,
+   "prod_hit_sim_pct": 34.13,
+   "test_minus_prod_pt": -30.18,
+   "test_miss_over_prod_miss": 1.458
+  },
+  {
+   "role": "試験",
+   "alpha": 0.6,
+   "items": 100000,
+   "size_pct": 1,
+   "size_items": 1000,
+   "hit_sim_pct": 5.28,
+   "hit_formula_pct": 5.36,
+   "formula_minus_sim_pt": 0.08,
+   "prod_hit_sim_pct": 20.48,
+   "test_minus_prod_pt": -15.2,
+   "test_miss_over_prod_miss": 1.191
+  },
+  {
+   "role": "試験",
+   "alpha": 0.6,
+   "items": 100000,
+   "size_pct": 4,
+   "size_items": 4000,
+   "hit_sim_pct": 13.84,
+   "hit_formula_pct": 13.95,
+   "formula_minus_sim_pt": 0.11,
+   "prod_hit_sim_pct": 34.13,
+   "test_minus_prod_pt": -20.29,
+   "test_miss_over_prod_miss": 1.308
+  },
+  {
+   "role": "試験",
+   "alpha": 1.0,
+   "items": 100000,
+   "size_pct": 1,
+   "size_items": 1000,
+   "hit_sim_pct": 50.58,
+   "hit_formula_pct": 50.62,
+   "formula_minus_sim_pt": 0.04,
+   "prod_hit_sim_pct": 20.48,
+   "test_minus_prod_pt": 30.1,
+   "test_miss_over_prod_miss": 0.621
+  },
+  {
+   "role": "試験",
+   "alpha": 1.0,
+   "items": 100000,
+   "size_pct": 4,
+   "size_items": 4000,
+   "hit_sim_pct": 64.19,
+   "hit_formula_pct": 64.27,
+   "formula_minus_sim_pt": 0.08,
+   "prod_hit_sim_pct": 34.13,
+   "test_minus_prod_pt": 30.06,
+   "test_miss_over_prod_miss": 0.544
+  }
+ ],
+ "formula_check_max_abs_pt": 0.11,
+ "grid_by_gap": [
+  {
+   "size_pct": 1,
+   "alpha_gap": -0.2,
+   "n": 5,
+   "min_pt": -32.42,
+   "max_pt": -15.08,
+   "miss_ratio_min": 1.189,
+   "miss_ratio_max": 2.413
+  },
+  {
+   "size_pct": 1,
+   "alpha_gap": -0.1,
+   "n": 6,
+   "min_pt": -16.41,
+   "max_pt": -5.53,
+   "miss_ratio_min": 1.062,
+   "miss_ratio_max": 1.631
+  },
+  {
+   "size_pct": 1,
+   "alpha_gap": 0.1,
+   "n": 6,
+   "min_pt": 5.53,
+   "max_pt": 16.41,
+   "miss_ratio_min": 0.613,
+   "miss_ratio_max": 0.942
+  },
+  {
+   "size_pct": 1,
+   "alpha_gap": 0.2,
+   "n": 5,
+   "min_pt": 15.08,
+   "max_pt": 32.42,
+   "miss_ratio_min": 0.414,
+   "miss_ratio_max": 0.841
+  },
+  {
+   "size_pct": 4,
+   "alpha_gap": -0.2,
+   "n": 5,
+   "min_pt": -30.13,
+   "max_pt": -20.19,
+   "miss_ratio_min": 1.307,
+   "miss_ratio_max": 2.859
+  },
+  {
+   "size_pct": 4,
+   "alpha_gap": -0.1,
+   "n": 6,
+   "min_pt": -15.43,
+   "max_pt": -8.32,
+   "miss_ratio_min": 1.107,
+   "miss_ratio_max": 1.782
+  },
+  {
+   "size_pct": 4,
+   "alpha_gap": 0.1,
+   "n": 6,
+   "min_pt": 8.32,
+   "max_pt": 15.43,
+   "miss_ratio_min": 0.561,
+   "miss_ratio_max": 0.903
+  },
+  {
+   "size_pct": 4,
+   "alpha_gap": 0.2,
+   "n": 5,
+   "min_pt": 20.19,
+   "max_pt": 30.13,
+   "miss_ratio_min": 0.35,
+   "miss_ratio_max": 0.765
+  }
+ ],
+ "grid_by_abs_gap_both_sizes": [
+  {
+   "abs_alpha_gap": 0.1,
+   "n": 24,
+   "abs_pt_min": 5.53,
+   "abs_pt_max": 16.41
+  },
+  {
+   "abs_alpha_gap": 0.2,
+   "n": 20,
+   "abs_pt_min": 15.08,
+   "abs_pt_max": 32.42
+  }
+ ],
+ "grid_abs_max_pt": 74.18,
+ "check_other_gaps": [
+  {
+   "case": "試験のデータ 10,000件",
+   "kind": "items",
+   "value": 10000,
+   "size_pct": 1,
+   "size_items": 1000,
+   "test_hit_pct": 43.66,
+   "prod_hit_pct": 20.48,
+   "test_minus_prod_pt": 23.18,
+   "p10_pct": NaN,
+   "p90_pct": NaN
+  },
+  {
+   "case": "試験のデータ 10,000件",
+   "kind": "items",
+   "value": 10000,
+   "size_pct": 4,
+   "size_items": 4000,
+   "test_hit_pct": 72.96,
+   "prod_hit_pct": 34.13,
+   "test_minus_prod_pt": 38.83,
+   "p10_pct": NaN,
+   "p90_pct": NaN
+  },
+  {
+   "case": "試験のデータ 20,000件",
+   "kind": "items",
+   "value": 20000,
+   "size_pct": 1,
+   "size_items": 1000,
+   "test_hit_pct": 34.58,
+   "prod_hit_pct": 20.48,
+   "test_minus_prod_pt": 14.1,
+   "p10_pct": NaN,
+   "p90_pct": NaN
+  },
+  {
+   "case": "試験のデータ 20,000件",
+   "kind": "items",
+   "value": 20000,
+   "size_pct": 4,
+   "size_items": 4000,
+   "test_hit_pct": 57.67,
+   "prod_hit_pct": 34.13,
+   "test_minus_prod_pt": 23.54,
+   "p10_pct": NaN,
+   "p90_pct": NaN
+  },
+  {
+   "case": "試験のデータ 50,000件",
+   "kind": "items",
+   "value": 50000,
+   "size_pct": 1,
+   "size_items": 1000,
+   "test_hit_pct": 25.65,
+   "prod_hit_pct": 20.48,
+   "test_minus_prod_pt": 5.17,
+   "p10_pct": NaN,
+   "p90_pct": NaN
+  },
+  {
+   "case": "試験のデータ 50,000件",
+   "kind": "items",
+   "value": 50000,
+   "size_pct": 4,
+   "size_items": 4000,
+   "test_hit_pct": 42.59,
+   "prod_hit_pct": 34.13,
+   "test_minus_prod_pt": 8.46,
+   "p10_pct": NaN,
+   "p90_pct": NaN
+  },
+  {
+   "case": "空から2万件だけ",
+   "kind": "short",
+   "value": 20000,
+   "size_pct": 1,
+   "size_items": 1000,
+   "test_hit_pct": 20.38,
+   "prod_hit_pct": 20.48,
+   "test_minus_prod_pt": -0.1,
+   "p10_pct": 20.12,
+   "p90_pct": 20.61
+  },
+  {
+   "case": "空から2万件だけ",
+   "kind": "short",
+   "value": 20000,
+   "size_pct": 4,
+   "size_items": 4000,
+   "test_hit_pct": 31.8,
+   "prod_hit_pct": 34.13,
+   "test_minus_prod_pt": -2.33,
+   "p10_pct": 31.24,
+   "p90_pct": 32.16
+  },
+  {
+   "case": "空から5万件だけ",
+   "kind": "short",
+   "value": 50000,
+   "size_pct": 1,
+   "size_items": 1000,
+   "test_hit_pct": 20.3,
+   "prod_hit_pct": 20.48,
+   "test_minus_prod_pt": -0.18,
+   "p10_pct": 20.15,
+   "p90_pct": 20.47
+  },
+  {
+   "case": "空から5万件だけ",
+   "kind": "short",
+   "value": 50000,
+   "size_pct": 4,
+   "size_items": 4000,
+   "test_hit_pct": 33.14,
+   "prod_hit_pct": 34.13,
+   "test_minus_prod_pt": -0.99,
+   "p10_pct": 32.88,
+   "p90_pct": 33.39
+  }
+ ]
+}

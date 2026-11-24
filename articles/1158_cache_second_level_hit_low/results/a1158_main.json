@@ -1,0 +1,135 @@
+{
+ "setting": {
+  "items": 100000,
+  "warm": 100000,
+  "measure": 300000,
+  "alphas": [
+   0.6,
+   0.8,
+   1.0,
+   1.2
+  ],
+  "l1_pct": [
+   0.25,
+   1,
+   4
+  ],
+  "l2_pct": [
+   4,
+   8,
+   16
+  ],
+  "base": {
+   "alpha": 0.8,
+   "l1_pct": 1,
+   "l2_pct": 8
+  }
+ },
+ "base": {
+  "alpha": 0.8,
+  "l1_pct": 1.0,
+  "l2_pct": 8.0,
+  "l1_hit_pct": 20.42,
+  "l2_local_hit_pct": 29.05,
+  "l2_share_of_all_pct": 23.12,
+  "total_hit_pct": 43.54,
+  "alone_hit_pct": 43.59,
+  "total_miss_pct": 56.46,
+  "miss_product_pct": 56.46,
+  "to_l2_share_pct": 79.57,
+  "total_minus_alone_pt": -0.05,
+  "alone_minus_local_pt": 14.54,
+  "l1_only_hit_pct": 20.42,
+  "gain_by_l2_pt": 23.12
+ },
+ "identity_check_max_abs_diff_pt": 0.0,
+ "bands_base": [
+  {
+   "band": "1〜100位",
+   "rank_from": 1,
+   "rank_to": 100,
+   "share_of_all_pct": 17.88,
+   "share_of_l2_requests_pct": 3.16,
+   "l1_hit_in_band_pct": 85.94,
+   "l2_local_hit_in_band_pct": 98.36
+  },
+  {
+   "band": "101〜1,000位",
+   "rank_from": 101,
+   "rank_to": 1000,
+   "share_of_all_pct": 16.16,
+   "share_of_l2_requests_pct": 15.62,
+   "l1_hit_in_band_pct": 23.11,
+   "l2_local_hit_in_band_pct": 83.78
+  },
+  {
+   "band": "1,001〜1万位",
+   "rank_from": 1001,
+   "rank_to": 10000,
+   "share_of_all_pct": 25.55,
+   "share_of_l2_requests_pct": 30.77,
+   "l1_hit_in_band_pct": 4.16,
+   "l2_local_hit_in_band_pct": 31.65
+  },
+  {
+   "band": "1万位より下",
+   "rank_from": 10001,
+   "rank_to": 100000,
+   "share_of_all_pct": 40.41,
+   "share_of_l2_requests_pct": 50.45,
+   "l1_hit_in_band_pct": 0.65,
+   "l2_local_hit_in_band_pct": 6.19
+  }
+ ],
+ "grid": {
+  "n": 36,
+  "local_below_alone_count": 36,
+  "alone_minus_local_range_pt": [
+   1.19,
+   82.44
+  ],
+  "l2_local_range_pct": [
+   0.43,
+   79.02
+  ],
+  "total_minus_alone_range_pt": [
+   -1.1,
+   0.96
+  ],
+  "total_ge_alone_count": 16,
+  "l1_bigger_local_down_count": 12,
+  "pairs": 12,
+  "l1_025_to_4_local_change_range_pt": [
+   -54.43,
+   -9.89
+  ],
+  "l1_025_to_4_total_change_range_pt": [
+   -1.1,
+   0.96
+  ],
+  "l1_025_to_4_l1_change_range_pt": [
+   12.14,
+   26.88
+  ],
+  "a08_l2_8_by_l1": [
+   {
+    "l1_pct": 0.25,
+    "l1_hit_pct": 11.23,
+    "l2_local_hit_pct": 36.46,
+    "total_hit_pct": 43.59
+   },
+   {
+    "l1_pct": 1.0,
+    "l1_hit_pct": 20.42,
+    "l2_local_hit_pct": 29.05,
+    "total_hit_pct": 43.54
+   },
+   {
+    "l1_pct": 4.0,
+    "l1_hit_pct": 34.26,
+    "l2_local_hit_pct": 12.52,
+    "total_hit_pct": 42.49
+   }
+  ]
+ }
+}
