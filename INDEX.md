@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 979本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 1003本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,8 +10,8 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 143 |
-| 因果推論・効果検証 | 70 |
+| 予測・時系列 | 145 |
+| 因果推論・効果検証 | 71 |
 | A/B テスト・実験 | 27 |
 | 統計の考え方（検定・区間・回帰） | 335 |
 | 機械学習・モデル評価 | 105 |
@@ -23,9 +23,9 @@
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 21 |
 | 再現性・振り返り | 97 |
-| その他（記述・要因分解など） | 641 |
+| その他（記述・要因分解など） | 662 |
 
-<details><summary><b>予測・時系列</b>（143本）</summary>
+<details><summary><b>予測・時系列</b>（145本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -172,10 +172,12 @@
 | 1028 | 予約の数から当日の人数を見込むと、どれだけ外れるのか？ | [1028_booking_forecast_from_bookings](articles/1028_booking_forecast_from_bookings) |
 | 1184 | 申し込む人数の見込みから枠の数を決めると、見込みの外れで倍率はどれだけ振れるのか？ | [1184_lottery_seats_from_forecast_ratio](articles/1184_lottery_seats_from_forecast_ratio) |
 | 1249 | 新しい本を出したあと、シリーズの前の本の売れ方がどれだけ押し上げられたかは分かるのか？ | [1249_ebook_series_prev_book_lift](articles/1249_ebook_series_prev_book_lift) |
+| 1267 | 見込みの良し悪しを、期の合計の外れで見るか、1件ずつの確度の当たりで見るかで、良い付け方は入れかわるのか？ | [1267_deal_forecast_total_vs_per_deal](articles/1267_deal_forecast_total_vs_per_deal) |
+| 1268 | 週ごとに見直した見込みが期の終わりほど当たって見えるのは、見込みが良くなったからか、決まった分が増えたからか？ | [1268_deal_weekly_forecast_late_accuracy](articles/1268_deal_weekly_forecast_late_accuracy) |
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（70本）</summary>
+<details><summary><b>因果推論・効果検証</b>（71本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -249,6 +251,7 @@
 | 1004 | 「過去最高の来場」は、数え方を変えた年と比べられるのか？ | [1004_visitors_record_after_method_change](articles/1004_visitors_record_after_method_change) |
 | 1155 | 同じものを大勢が同時に取りに来ると、置き場所から消えた瞬間に、元のデータへ何件の問い合わせが流れるのか？ | [1155_cache_expire_herd_origin](articles/1155_cache_expire_herd_origin) |
 | 1209 | 見つけた鳥が減ったのは、鳥が減ったからか？ | [1209_bird_count_drop_detection](articles/1209_bird_count_drop_detection) |
+| 1265 | 期の終わりに受注が集まって見えるのは、決まる日が寄るからか、記録を付ける日が寄るからか？ | [1265_deal_quarter_end_record_date](articles/1265_deal_quarter_end_record_date) |
 
 </details>
 
@@ -1396,7 +1399,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（641本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（662本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2041,6 +2044,27 @@
 | 1254 | 「売れ筋の20位以内」に入った日数で本を比べると、分野ごとの競争の違いで何がずれるのか？ | [1254_ebook_top_rank_days_genre](articles/1254_ebook_top_rank_days_genre) |
 | 1255 | 表紙を変えた前後の売れ方を比べると、発売からの日数で自然に減る分はどうまざるのか？ | [1255_ebook_cover_change_natural_decline](articles/1255_ebook_cover_change_natural_decline) |
 | 1256 | シリーズの何冊目から読み始める人が多いかで、1冊目から順に読む割合はどう見えるのか？ | [1256_ebook_series_start_book_order](articles/1256_ebook_series_start_book_order) |
+| 1257 | 確度を掛けて足した見込みの合計は、期の実績とどれだけ外れるのか？ | [1257_deal_weighted_pipeline_sum](articles/1257_deal_weighted_pipeline_sum) |
+| 1258 | 確度70%以上の商談の金額だけを足した見込みは、実績より多く出るのか少なく出るのか？ | [1258_deal_cutoff70_vs_weighted](articles/1258_deal_cutoff70_vs_weighted) |
+| 1259 | 「確度50%」と付けた商談のうち取れた割合は、まだ決まっていない商談を除くとどう見えるのか？ | [1259_deal_win_rate_undecided_excluded](articles/1259_deal_win_rate_undecided_excluded) |
+| 1260 | 受注率は、その期に始まった商談で数えるか、その期に決まった商談で数えるかで、どれだけ違うのか？ | [1260_deal_winrate_started_vs_closed](articles/1260_deal_winrate_started_vs_closed) |
+| 1261 | 失注した商談の一部が記録に残らないと、受注率はどれだけ高く出るのか？ | [1261_deal_lost_unrecorded_winrate](articles/1261_deal_lost_unrecorded_winrate) |
+| 1262 | 長引いた商談ほど受注率が低いのは、長引いたせいか、もともと決まりにくい商談だからか？ | [1262_deal_long_duration_low_winrate](articles/1262_deal_long_duration_low_winrate) |
+| 1263 | 商談の段階ごとの進んだ割合を掛けた見込みは、段階を飛ばす・戻る商談があるとどれだけずれるのか？ | [1263_deal_stage_rates_skip_back](articles/1263_deal_stage_rates_skip_back) |
+| 1264 | 件数で数えた受注率と金額で数えた受注率では、良かった月はどう入れかわるのか？ | [1264_deal_winrate_count_vs_amount](articles/1264_deal_winrate_count_vs_amount) |
+| 1266 | 新しい取引先と前からの取引先をまぜた受注率は、まざる割合が変わるとどう動くのか？ | [1266_deal_new_vs_existing_mix_winrate](articles/1266_deal_new_vs_existing_mix_winrate) |
+| 1269 | 処理を8つに分けて同時に動かしても8倍速くならないのは、分けられない部分がどれだけあるときか？ | [1269_parallel_serial_part_eight_way](articles/1269_parallel_serial_part_eight_way) |
+| 1270 | 分けた仕事の大きさがばらつくと、全体の時間はいちばん遅い1つでどれだけ延びるのか？ | [1270_parallel_part_size_slowest](articles/1270_parallel_part_size_slowest) |
+| 1271 | 仕事を初めに同じ数ずつ割り当てるか、終わった所が次を取りにいくかで、全体が終わる時刻はどれだけ違うのか？ | [1271_parallel_static_vs_pull](articles/1271_parallel_static_vs_pull) |
+| 1272 | 同時に動かす数を増やすと、1つしかない置き場所の取り合いで、速さはどこから伸びなくなるのか？ | [1272_parallel_shared_lock_contention](articles/1272_parallel_shared_lock_contention) |
+| 1273 | 仕事を細かく分けすぎると、分ける手間と渡す手間で、全体はどれだけ遅くなるのか？ | [1273_parallel_chunk_too_fine_overhead](articles/1273_parallel_chunk_too_fine_overhead) |
+| 1274 | 同時に動かして足し合わせた小数の合計は、足す順番が回ごとに変わると、どれだけ食い違うのか？ | [1274_parallel_float_sum_order](articles/1274_parallel_float_sum_order) |
+| 1275 | 「何倍速くなったか」は、1つで動かしたときの何と比べるかで、どれだけ違って見えるのか？ | [1275_parallel_speedup_baseline_choice](articles/1275_parallel_speedup_baseline_choice) |
+| 1276 | 量を変えずに数を増やす試し方と、数に合わせて量も増やす試し方では、速さの伸び方はどう違って見えるのか？ | [1276_parallel_fixed_vs_growing_size](articles/1276_parallel_fixed_vs_growing_size) |
+| 1277 | 遅れた仕事の写しを別の所でも動かすと、全体の時間はどれだけ縮み、使う手間はどれだけ増えるのか？ | [1277_parallel_backup_copy_slow_tasks](articles/1277_parallel_backup_copy_slow_tasks) |
+| 1278 | 失敗した仕事をやり直す決まりがあると、同時に動かす数を増やすほど、全体の時間のばらつきはどう変わるのか？ | [1278_parallel_retry_spread](articles/1278_parallel_retry_spread) |
+| 1279 | 同時に動かす数を増やして1秒あたりの件数が増えたとき、1件が終わるまでの時間はどう動いているのか？ | [1279_parallel_throughput_latency](articles/1279_parallel_throughput_latency) |
+| 1280 | 1つあたりの働いていた時間の割合が高いことは、全体が速いことを意味するのか？ | [1280_parallel_busy_share_speed](articles/1280_parallel_busy_share_speed) |
 
 </details>
 
@@ -2049,7 +2073,7 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 228 |
+| 小売・店舗 | 229 |
 | EC・会員・Web | 112 |
 | マーケティング・広告 | 34 |
 | 需要予測・在庫 | 31 |
@@ -2058,7 +2082,7 @@
 | 保険 | 72 |
 | 公的統計・地域・人口 | 435 |
 
-<details><summary><b>小売・店舗</b>（228本）</summary>
+<details><summary><b>小売・店舗</b>（229本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2290,6 +2314,7 @@
 | 1130 | 2枚の画像の「似ている度合い」は、画素ごとの差で測るか形で測るかで、似た組の順位がどう変わるのか？ | [1130_image_similarity_pixel_vs_shape](articles/1130_image_similarity_pixel_vs_shape) |
 | 1132 | 背景の色と照明が違うと、同じ商品の写真の色の数値はどれだけ動くのか？ | [1132_image_background_light_color](articles/1132_image_background_light_color) |
 | 1198 | 届かなかったアドレスを分母に残すか除くかで、開封率はどう変わるのか？ | [1198_mail_bounce_denominator_open_rate](articles/1198_mail_bounce_denominator_open_rate) |
+| 1270 | 分けた仕事の大きさがばらつくと、全体の時間はいちばん遅い1つでどれだけ延びるのか？ | [1270_parallel_part_size_slowest](articles/1270_parallel_part_size_slowest) |
 
 </details>
 
