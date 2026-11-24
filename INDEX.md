@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 835本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 859本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -23,7 +23,7 @@
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 21 |
 | 再現性・振り返り | 97 |
-| その他（記述・要因分解など） | 511 |
+| その他（記述・要因分解など） | 535 |
 
 <details><summary><b>予測・時系列</b>（141本）</summary>
 
@@ -1382,7 +1382,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（511本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（535本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1897,6 +1897,30 @@
 | 1110 | 2つの条件を別々に試した効き目を足して見込むと、組み合わせたときとどれだけずれるのか？ | [1110_trial_add_two_effects_gap](articles/1110_trial_add_two_effects_gap) |
 | 1111 | 条件の刻み（5度ごと・10度ごと）で、良い条件の見つかり方はどう変わるのか？ | [1111_trial_step_size_best_setting](articles/1111_trial_step_size_best_setting) |
 | 1112 | 前の試作の残りが次の結果にまざると、何がずれるのか？ | [1112_trial_carryover_previous_run](articles/1112_trial_carryover_previous_run) |
+| 1113 | 攻撃力+10%と会心率+10ポイントでは、ダメージはどちらが伸びるのか？ | [1113_game_attack_vs_crit](articles/1113_game_attack_vs_crit) |
+| 1114 | 強化の倍率を足すか掛けるかで、重ねた強さはどれだけ違うのか？ | [1114_game_buff_add_vs_multiply](articles/1114_game_buff_add_vs_multiply) |
+| 1115 | 平均のダメージで体力を割った「何回で倒せるか」は、実際とどれだけずれるのか？ | [1115_game_hits_to_kill_mean](articles/1115_game_hits_to_kill_mean) |
+| 1116 | 平均のダメージがいちばん大きい武器は、決まった回数のうちに倒せる割合もいちばん高いのか？ | [1116_game_best_mean_weapon_kill_share](articles/1116_game_best_mean_weapon_kill_share) |
+| 1117 | 防御を引き算で効かせるか割合で効かせるかで、弱い攻撃と強い攻撃の差はどう変わるのか？ | [1117_game_defense_subtract_vs_ratio](articles/1117_game_defense_subtract_vs_ratio) |
+| 1118 | 上限のある能力を上げ続けると、表に出る強さはどこで伸びなくなるのか？ | [1118_game_capped_stat_plateau](articles/1118_game_capped_stat_plateau) |
+| 1119 | 命中と会心が関係しているのに別々の確率と見て掛けると、ダメージの見込みはどれだけずれるのか？ | [1119_game_hit_crit_linked_damage](articles/1119_game_hit_crit_linked_damage) |
+| 1120 | 回復と攻撃を同じ割合で強くすると、勝負がつくまでの長さはどう変わるのか？ | [1120_game_heal_attack_same_boost_length](articles/1120_game_heal_attack_same_boost_length) |
+| 1121 | 敵の体力を1割増やすと、倒すのに要る回数はなぜ1割より大きく跳ねることがあるのか？ | [1121_game_enemy_hp_10pct_hits_jump](articles/1121_game_enemy_hp_10pct_hits_jump) |
+| 1122 | 経験値を足し算か掛け算で増やすと、時間あたりのレベルはどう変わるのか？ | [1122_game_exp_add_vs_multiply](articles/1122_game_exp_add_vs_multiply) |
+| 1123 | 失敗するたびに成功率が上がる強化では、成功までの回数の平均とばらつきはどれだけ縮むのか？ | [1123_game_upgrade_rising_rate](articles/1123_game_upgrade_rising_rate) |
+| 1124 | ダメージの小数を毎回切り捨てると、小さな強化はどれだけ消えるのか？ | [1124_game_damage_floor_small_buff](articles/1124_game_damage_floor_small_buff) |
+| 1125 | 画素の数を縦横2倍にすると、細かさは何倍になったと言えるのか？ | [1125_image_pixels_double_detail](articles/1125_image_pixels_double_detail) |
+| 1126 | 色の値をそのまま平均して混ぜた色は、なぜ暗く濁って見えるのか？ | [1126_color_average_dark_muddy](articles/1126_color_average_dark_muddy) |
+| 1127 | 画素を間引いて縮小すると、細い縞はどんな模様に化けるのか？ | [1127_image_downscale_stripes_alias](articles/1127_image_downscale_stripes_alias) |
+| 1128 | 圧縮の画質の設定を下げると、ファイルの大きさと見た目の差は同じ割合で動くのか？ | [1128_image_quality_size_vs_diff](articles/1128_image_quality_size_vs_diff) |
+| 1129 | 明るさの差を数値のまま測ると、人が見て感じる差とどこでずれるのか？ | [1129_image_brightness_diff_perceived](articles/1129_image_brightness_diff_perceived) |
+| 1130 | 2枚の画像の「似ている度合い」は、画素ごとの差で測るか形で測るかで、似た組の順位がどう変わるのか？ | [1130_image_similarity_pixel_vs_shape](articles/1130_image_similarity_pixel_vs_shape) |
+| 1131 | 圧縮して保存し直すことを10回くり返すと、元の画像との差はどれだけ積み重なるのか？ | [1131_image_resave_ten_times](articles/1131_image_resave_ten_times) |
+| 1132 | 背景の色と照明が違うと、同じ商品の写真の色の数値はどれだけ動くのか？ | [1132_image_background_light_color](articles/1132_image_background_light_color) |
+| 1133 | 色の段階を減らして保存すると、なめらかな空の明るさにどれだけ段ができるのか？ | [1133_image_fewer_levels_sky_bands](articles/1133_image_fewer_levels_sky_bands) |
+| 1134 | 1台の画面で合わせた色は、色の出方の違う別の画面でどれだけずれるのか？ | [1134_color_screen_matched_other_screen](articles/1134_color_screen_matched_other_screen) |
+| 1135 | 小さい画像を拡大して画素の数を増やすと、失われた細かさは戻るのか？ | [1135_image_upscale_lost_detail](articles/1135_image_upscale_lost_detail) |
+| 1136 | 明るい所と暗い所を1枚に収める処理で、明るさの順番は入れかわるのか？ | [1136_image_tone_compress_order_swap](articles/1136_image_tone_compress_order_swap) |
 
 </details>
 
@@ -1905,7 +1929,7 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 225 |
+| 小売・店舗 | 227 |
 | EC・会員・Web | 103 |
 | マーケティング・広告 | 28 |
 | 需要予測・在庫 | 31 |
@@ -1914,7 +1938,7 @@
 | 保険 | 72 |
 | 公的統計・地域・人口 | 435 |
 
-<details><summary><b>小売・店舗</b>（225本）</summary>
+<details><summary><b>小売・店舗</b>（227本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2143,6 +2167,8 @@
 | 1027 | 前年の同じ日の予約と比べると、何を読み違えるのか？ | [1027_booking_last_year_same_date](articles/1027_booking_last_year_same_date) |
 | 1042 | 要素ごとに平均を使うか中央値を使うかで、掛けた答えはどれだけ違うのか？ | [1042_estimate_mean_vs_median_factors](articles/1042_estimate_mean_vs_median_factors) |
 | 1044 | 全体から割合で割っていく概算と、1件ずつ積み上げる概算は、どれだけ食い違うのか？ | [1044_estimate_topdown_vs_bottomup](articles/1044_estimate_topdown_vs_bottomup) |
+| 1130 | 2枚の画像の「似ている度合い」は、画素ごとの差で測るか形で測るかで、似た組の順位がどう変わるのか？ | [1130_image_similarity_pixel_vs_shape](articles/1130_image_similarity_pixel_vs_shape) |
+| 1132 | 背景の色と照明が違うと、同じ商品の写真の色の数値はどれだけ動くのか？ | [1132_image_background_light_color](articles/1132_image_background_light_color) |
 
 </details>
 
