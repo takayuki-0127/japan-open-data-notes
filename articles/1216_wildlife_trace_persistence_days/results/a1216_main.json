@@ -1,0 +1,246 @@
+{
+ "season": {
+  "fixed30_ratio_range_pct": [
+   54.32,
+   178.08
+  ],
+  "now_ratio_range_pct": [
+   74.0,
+   139.82
+  ],
+  "max_abs_diff_formula_pt": 0.38
+ },
+ "two_plots": {
+  "count_ratio_A_over_B": 0.4,
+  "rows": [
+   {
+    "plot": "A草地（残る日数20日）",
+    "persist_days": 20.0,
+    "marked": 10,
+    "count_mean": 800.8,
+    "est_fixed30_mean": 26.69,
+    "est_measured_median": 41.74,
+    "est_measured_p10": 28.98,
+    "est_measured_p90": 63.94,
+    "measured_days_mean": 19.8
+   },
+   {
+    "plot": "A草地（残る日数20日）",
+    "persist_days": 20.0,
+    "marked": 20,
+    "count_mean": 800.8,
+    "est_fixed30_mean": 26.69,
+    "est_measured_median": 41.08,
+    "est_measured_p10": 31.68,
+    "est_measured_p90": 54.93,
+    "measured_days_mean": 19.74
+   },
+   {
+    "plot": "A草地（残る日数20日）",
+    "persist_days": 20.0,
+    "marked": 50,
+    "count_mean": 800.8,
+    "est_fixed30_mean": 26.69,
+    "est_measured_median": 40.86,
+    "est_measured_p10": 34.35,
+    "est_measured_p90": 49.29,
+    "measured_days_mean": 19.69
+   },
+   {
+    "plot": "B草地（残る日数50日）",
+    "persist_days": 50.0,
+    "marked": 10,
+    "count_mean": 2002.0,
+    "est_fixed30_mean": 66.73,
+    "est_measured_median": 48.25,
+    "est_measured_p10": 36.59,
+    "est_measured_p90": 66.79,
+    "measured_days_mean": 41.87
+   },
+   {
+    "plot": "B草地（残る日数50日）",
+    "persist_days": 50.0,
+    "marked": 20,
+    "count_mean": 2002.0,
+    "est_fixed30_mean": 66.73,
+    "est_measured_median": 47.92,
+    "est_measured_p10": 39.4,
+    "est_measured_p90": 60.76,
+    "measured_days_mean": 41.8
+   },
+   {
+    "plot": "B草地（残る日数50日）",
+    "persist_days": 50.0,
+    "marked": 50,
+    "count_mean": 2002.0,
+    "est_fixed30_mean": 66.73,
+    "est_measured_median": 47.62,
+    "est_measured_p10": 42.21,
+    "est_measured_p90": 55.12,
+    "measured_days_mean": 41.93
+   }
+  ]
+ },
+ "after_decrease": [
+  {
+   "persist_days": 15.0,
+   "days_after": 7,
+   "apparent_change_pct": -11.55,
+   "p10_pct": -15.95,
+   "p90_pct": -7.43,
+   "formula_pct": -11.49
+  },
+  {
+   "persist_days": 15.0,
+   "days_after": 14,
+   "apparent_change_pct": -18.58,
+   "p10_pct": -23.61,
+   "p90_pct": -13.78,
+   "formula_pct": -18.58
+  },
+  {
+   "persist_days": 15.0,
+   "days_after": 30,
+   "apparent_change_pct": -25.84,
+   "p10_pct": -30.88,
+   "p90_pct": -20.72,
+   "formula_pct": -26.21
+  },
+  {
+   "persist_days": 15.0,
+   "days_after": 60,
+   "apparent_change_pct": -29.25,
+   "p10_pct": -34.45,
+   "p90_pct": -23.99,
+   "formula_pct": -29.52
+  },
+  {
+   "persist_days": 15.0,
+   "days_after": 90,
+   "apparent_change_pct": -29.93,
+   "p10_pct": -35.28,
+   "p90_pct": -23.82,
+   "formula_pct": -29.94
+  },
+  {
+   "persist_days": 15.0,
+   "days_after": 120,
+   "apparent_change_pct": -29.9,
+   "p10_pct": -35.35,
+   "p90_pct": -24.21,
+   "formula_pct": -29.99
+  },
+  {
+   "persist_days": 50.0,
+   "days_after": 7,
+   "apparent_change_pct": -4.02,
+   "p10_pct": -5.26,
+   "p90_pct": -2.78,
+   "formula_pct": -3.96
+  },
+  {
+   "persist_days": 50.0,
+   "days_after": 14,
+   "apparent_change_pct": -7.39,
+   "p10_pct": -9.0,
+   "p90_pct": -5.67,
+   "formula_pct": -7.39
+  },
+  {
+   "persist_days": 50.0,
+   "days_after": 30,
+   "apparent_change_pct": -13.73,
+   "p10_pct": -16.0,
+   "p90_pct": -11.52,
+   "formula_pct": -13.64
+  },
+  {
+   "persist_days": 50.0,
+   "days_after": 60,
+   "apparent_change_pct": -21.08,
+   "p10_pct": -23.75,
+   "p90_pct": -18.42,
+   "formula_pct": -21.07
+  },
+  {
+   "persist_days": 50.0,
+   "days_after": 90,
+   "apparent_change_pct": -25.14,
+   "p10_pct": -27.7,
+   "p90_pct": -22.37,
+   "formula_pct": -25.13
+  },
+  {
+   "persist_days": 50.0,
+   "days_after": 120,
+   "apparent_change_pct": -27.39,
+   "p10_pct": -30.26,
+   "p90_pct": -24.37,
+   "formula_pct": -27.34
+  }
+ ],
+ "footprints": {
+  "rain_chance": 0.25,
+  "share_rained_last_night_pct": 24.87,
+  "mean_nights": 3.016,
+  "rows": [
+   {
+    "method": "雨のあとの晩の数で割る",
+    "ratio_mean_pct": 99.93,
+    "p10_pct": 66.67,
+    "p90_pct": 133.33
+   },
+   {
+    "method": "1晩分とみなす",
+    "ratio_mean_pct": 301.36,
+    "p10_pct": 0.0,
+    "p90_pct": 766.67
+   },
+   {
+    "method": "晩の数の平均（3晩）で割る",
+    "ratio_mean_pct": 100.45,
+    "p10_pct": 0.0,
+    "p90_pct": 255.56
+   }
+  ]
+ },
+ "robust": {
+  "n_settings": 48,
+  "median_range_pct": [
+   99.62,
+   351.66
+  ],
+  "median_range_cut_ge_4x_pct": [
+   99.62,
+   104.69
+  ],
+  "n_cut_ge_4x": 12,
+  "median_range_cut_le_D_pct": [
+   122.87,
+   351.66
+  ],
+  "n_cut_le_D": 20,
+  "median_by_D_cut60_m30": {
+   "15": 102.98,
+   "30": 115.18,
+   "60": 157.91,
+   "90": 204.79
+  },
+  "p10_p90_width_m10_mean_pt": 59.34,
+  "p10_p90_width_m30_mean_pt": 33.91,
+  "fixed30_range_pct": [
+   49.93,
+   300.15
+  ]
+ },
+ "headline": {
+  "fixed30_season_range_pct": [
+   54.32,
+   178.08
+  ],
+  "now_season_range_pct": [
+   74.0,
+   139.82
+  ]
+ }
+}

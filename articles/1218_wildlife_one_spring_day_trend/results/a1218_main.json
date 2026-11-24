@@ -1,0 +1,328 @@
+{
+ "setting": {
+  "N0": 400,
+  "Q": 0.5,
+  "width_days": 10,
+  "trend_per_year": -0.03,
+  "sd_peak_days": 7,
+  "sd_weather_log": 0.35,
+  "weather_rho": 0.6,
+  "reps": 4000,
+  "years": 10
+ },
+ "true_change_9y": -0.2398,
+ "designs_base": [
+  {
+   "design": "予定日の1日",
+   "n_days": 1,
+   "sd_log_count_year1": 0.4975,
+   "year1_p10_over_median": 0.5263,
+   "year1_p90_over_median": 1.6974,
+   "pair_correct": 0.5173,
+   "pair_wrong": 0.4784,
+   "p_slope_neg": 0.7115,
+   "p_slope_pos": 0.2885,
+   "change_median": -0.2262,
+   "change_p10": -0.5847,
+   "change_p90": 0.4276,
+   "p_change_lt_m10": 0.637,
+   "p_change_gt_p10": 0.2238
+  },
+  {
+   "design": "3日続けて（予定日と前後1日）",
+   "n_days": 3,
+   "sd_log_count_year1": 0.4427,
+   "year1_p10_over_median": 0.5563,
+   "year1_p90_over_median": 1.559,
+   "pair_correct": 0.5234,
+   "pair_wrong": 0.4748,
+   "p_slope_neg": 0.7385,
+   "p_slope_pos": 0.2615,
+   "change_median": -0.2251,
+   "change_p10": -0.557,
+   "change_p90": 0.3279,
+   "p_change_lt_m10": 0.6518,
+   "p_change_gt_p10": 0.1913
+  },
+  {
+   "design": "3日を2週おき（−14・0・+14日）",
+   "n_days": 3,
+   "sd_log_count_year1": 0.2602,
+   "year1_p10_over_median": 0.716,
+   "year1_p90_over_median": 1.3704,
+   "pair_correct": 0.531,
+   "pair_wrong": 0.4651,
+   "p_slope_neg": 0.8515,
+   "p_slope_pos": 0.1485,
+   "change_median": -0.2298,
+   "change_p10": -0.4487,
+   "change_p90": 0.0653,
+   "p_change_lt_m10": 0.7372,
+   "p_change_gt_p10": 0.08
+  },
+  {
+   "design": "5日を1週おき（−14〜+14日）",
+   "n_days": 5,
+   "sd_log_count_year1": 0.2313,
+   "year1_p10_over_median": 0.7432,
+   "year1_p90_over_median": 1.2797,
+   "pair_correct": 0.5376,
+   "pair_wrong": 0.46,
+   "p_slope_neg": 0.8855,
+   "p_slope_pos": 0.1145,
+   "change_median": -0.2346,
+   "change_p10": -0.4308,
+   "change_p90": 0.0185,
+   "p_change_lt_m10": 0.779,
+   "p_change_gt_p10": 0.048
+  }
+ ],
+ "pair_correct_approx_formula": {
+  "予定日の1日": 0.5173,
+  "3日続けて（予定日と前後1日）": 0.5194,
+  "3日を2週おき（−14・0・+14日）": 0.533,
+  "5日を1週おき（−14〜+14日）": 0.5371
+ },
+ "by_years": [
+  {
+   "n_years": 5,
+   "design": "予定日の1日",
+   "true_change": -0.1147,
+   "p_slope_neg": 0.5983,
+   "change_p10": -0.5916,
+   "change_median": -0.1378,
+   "change_p90": 0.8864
+  },
+  {
+   "n_years": 5,
+   "design": "5日を1週おき（−14〜+14日）",
+   "true_change": -0.1147,
+   "p_slope_neg": 0.68,
+   "change_p10": -0.3923,
+   "change_median": -0.1257,
+   "change_p90": 0.2456
+  },
+  {
+   "n_years": 10,
+   "design": "予定日の1日",
+   "true_change": -0.2398,
+   "p_slope_neg": 0.704,
+   "change_p10": -0.5855,
+   "change_median": -0.2347,
+   "change_p90": 0.4617
+  },
+  {
+   "n_years": 10,
+   "design": "5日を1週おき（−14〜+14日）",
+   "true_change": -0.2398,
+   "p_slope_neg": 0.8753,
+   "change_p10": -0.43,
+   "change_median": -0.2357,
+   "change_p90": 0.0345
+  },
+  {
+   "n_years": 20,
+   "design": "予定日の1日",
+   "true_change": -0.4394,
+   "p_slope_neg": 0.9453,
+   "change_p10": -0.6508,
+   "change_median": -0.443,
+   "change_p90": -0.1103
+  },
+  {
+   "n_years": 20,
+   "design": "5日を1週おき（−14〜+14日）",
+   "true_change": -0.4394,
+   "p_slope_neg": 0.999,
+   "change_p10": -0.5485,
+   "change_median": -0.4406,
+   "change_p90": -0.2976
+  }
+ ],
+ "drift": [
+  {
+   "drift_days_per_year": 0.0,
+   "design": "予定日の1日",
+   "true_change": 0.0,
+   "change_median": -0.0038,
+   "change_p10": -0.4477,
+   "change_p90": 0.8378,
+   "p_change_lt_m10": 0.423
+  },
+  {
+   "drift_days_per_year": 0.0,
+   "design": "3日続けて（予定日と前後1日）",
+   "true_change": 0.0,
+   "change_median": 0.0052,
+   "change_p10": -0.4009,
+   "change_p90": 0.7162,
+   "p_change_lt_m10": 0.3947
+  },
+  {
+   "drift_days_per_year": 0.0,
+   "design": "3日を2週おき（−14・0・+14日）",
+   "true_change": 0.0,
+   "change_median": 0.0011,
+   "change_p10": -0.2733,
+   "change_p90": 0.3718,
+   "p_change_lt_m10": 0.3353
+  },
+  {
+   "drift_days_per_year": 0.0,
+   "design": "5日を1週おき（−14〜+14日）",
+   "true_change": 0.0,
+   "change_median": 0.0049,
+   "change_p10": -0.2489,
+   "change_p90": 0.3388,
+   "p_change_lt_m10": 0.3203
+  },
+  {
+   "drift_days_per_year": -0.5,
+   "design": "予定日の1日",
+   "true_change": 0.0,
+   "change_median": -0.0924,
+   "change_p10": -0.5463,
+   "change_p90": 0.7245,
+   "p_change_lt_m10": 0.4933
+  },
+  {
+   "drift_days_per_year": -0.5,
+   "design": "3日続けて（予定日と前後1日）",
+   "true_change": 0.0,
+   "change_median": -0.0955,
+   "change_p10": -0.5138,
+   "change_p90": 0.6373,
+   "p_change_lt_m10": 0.4953
+  },
+  {
+   "drift_days_per_year": -0.5,
+   "design": "3日を2週おき（−14・0・+14日）",
+   "true_change": 0.0,
+   "change_median": -0.0218,
+   "change_p10": -0.3092,
+   "change_p90": 0.3399,
+   "p_change_lt_m10": 0.3783
+  },
+  {
+   "drift_days_per_year": -0.5,
+   "design": "5日を1週おき（−14〜+14日）",
+   "true_change": 0.0,
+   "change_median": -0.044,
+   "change_p10": -0.2985,
+   "change_p90": 0.2821,
+   "p_change_lt_m10": 0.3903
+  },
+  {
+   "drift_days_per_year": -1.0,
+   "design": "予定日の1日",
+   "true_change": 0.0,
+   "change_median": -0.3086,
+   "change_p10": -0.7035,
+   "change_p90": 0.4489,
+   "p_change_lt_m10": 0.672
+  },
+  {
+   "drift_days_per_year": -1.0,
+   "design": "3日続けて（予定日と前後1日）",
+   "true_change": 0.0,
+   "change_median": -0.3069,
+   "change_p10": -0.6906,
+   "change_p90": 0.3632,
+   "p_change_lt_m10": 0.685
+  },
+  {
+   "drift_days_per_year": -1.0,
+   "design": "3日を2週おき（−14・0・+14日）",
+   "true_change": 0.0,
+   "change_median": -0.1031,
+   "change_p10": -0.3938,
+   "change_p90": 0.291,
+   "p_change_lt_m10": 0.5037
+  },
+  {
+   "drift_days_per_year": -1.0,
+   "design": "5日を1週おき（−14〜+14日）",
+   "true_change": 0.0,
+   "change_median": -0.1333,
+   "change_p10": -0.4189,
+   "change_p90": 0.2028,
+   "p_change_lt_m10": 0.5573
+  },
+  {
+   "drift_days_per_year": 1.0,
+   "design": "予定日の1日",
+   "true_change": 0.0,
+   "change_median": -0.3119,
+   "change_p10": -0.7122,
+   "change_p90": 0.4509,
+   "p_change_lt_m10": 0.6673
+  },
+  {
+   "drift_days_per_year": 1.0,
+   "design": "3日続けて（予定日と前後1日）",
+   "true_change": 0.0,
+   "change_median": -0.3091,
+   "change_p10": -0.6995,
+   "change_p90": 0.3895,
+   "p_change_lt_m10": 0.6753
+  },
+  {
+   "drift_days_per_year": 1.0,
+   "design": "3日を2週おき（−14・0・+14日）",
+   "true_change": 0.0,
+   "change_median": -0.0916,
+   "change_p10": -0.4018,
+   "change_p90": 0.281,
+   "p_change_lt_m10": 0.4903
+  },
+  {
+   "drift_days_per_year": 1.0,
+   "design": "5日を1週おき（−14〜+14日）",
+   "true_change": 0.0,
+   "change_median": -0.1376,
+   "change_p10": -0.4332,
+   "change_p90": 0.2084,
+   "p_change_lt_m10": 0.563
+  }
+ ],
+ "drift_formula_1day_9days_earlier": -0.333,
+ "grid_range": {
+  "d1_pair_correct": [
+   0.4987,
+   0.5606
+  ],
+  "d5_pair_correct": [
+   0.5021,
+   0.6308
+  ],
+  "d1_p_slope_neg": [
+   0.5213,
+   0.9833
+  ],
+  "d5_p_slope_neg": [
+   0.5453,
+   1.0
+  ],
+  "n_d5_ge_d1_slope": 27,
+  "n_d1_slope_ge_0_9": 1,
+  "n_d5_slope_ge_0_9": 9
+ },
+ "grid_range_trend_m3": {
+  "d1_pair_correct": [
+   0.5053,
+   0.5401
+  ],
+  "d5_pair_correct": [
+   0.5124,
+   0.5764
+  ],
+  "d1_p_slope_neg": [
+   0.5813,
+   0.8987
+  ],
+  "d5_p_slope_neg": [
+   0.66,
+   0.9967
+  ]
+ }
+}

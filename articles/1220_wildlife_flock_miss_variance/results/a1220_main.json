@@ -1,0 +1,163 @@
+{
+ "setting": {
+  "N_true": 1000,
+  "flock_mean": 20,
+  "shape": 1.0,
+  "p_found": 0.8,
+  "reps": 20000
+ },
+ "base": {
+  "n_flocks_mean": 50.96,
+  "flock_size_mean": 19.624,
+  "flock_size_weighted_by_bird": 38.24,
+  "individual": {
+   "sd": 15.79,
+   "p10": 980.0,
+   "p90": 1020.0,
+   "within10": 1.0,
+   "within5": 0.9981,
+   "mean": 1000.08
+  },
+  "flock": {
+   "sd": 98.26,
+   "p10": 868.75,
+   "p90": 1120.0,
+   "within10": 0.6888,
+   "within5": 0.38,
+   "mean": 998.94,
+   "min": 506.25,
+   "max": 1250.0
+  },
+  "sd_ratio_sim": 6.2242,
+  "sd_ratio_formula": 6.1838,
+  "individual_sd_formula": 15.81,
+  "bird_weighted_over_mean_size": 1.949,
+  "surveys_needed_90pct_within10": {
+   "individual": 1,
+   "flock": 3
+  }
+ },
+ "decline_10pct": {
+  "individual": {
+   "p_down": 1.0,
+   "p_up": 0.0
+  },
+  "flock": {
+   "p_down": 0.773,
+   "p_up": 0.2243
+  },
+  "flock_mean_of_3": {
+   "p_down": 0.8972,
+   "p_up": 0.101
+  }
+ },
+ "example_survey": {
+  "n_flocks": 45,
+  "largest": 76,
+  "found_birds": 782,
+  "est": 977.5
+ },
+ "size_dependent_detection": [
+  {
+   "detect_scale": 5.0,
+   "flock_mean": 5.0,
+   "flock_found_rate": 0.7106,
+   "bird_found_rate": 0.8314,
+   "est_by_flock_rate_mean": 1170.95,
+   "bias_pct": 17.1,
+   "within10": 0.0112
+  },
+  {
+   "detect_scale": 5.0,
+   "flock_mean": 20.0,
+   "flock_found_rate": 0.8872,
+   "bird_found_rate": 0.9738,
+   "est_by_flock_rate_mean": 1099.81,
+   "bias_pct": 9.98,
+   "within10": 0.539
+  },
+  {
+   "detect_scale": 5.0,
+   "flock_mean": 50.0,
+   "flock_found_rate": 0.9494,
+   "bird_found_rate": 0.9944,
+   "est_by_flock_rate_mean": 1049.93,
+   "bias_pct": 4.99,
+   "within10": 0.8478
+  },
+  {
+   "detect_scale": 10.0,
+   "flock_mean": 5.0,
+   "flock_found_rate": 0.6379,
+   "bird_found_rate": 0.7368,
+   "est_by_flock_rate_mean": 1155.9,
+   "bias_pct": 15.59,
+   "within10": 0.0822
+  },
+  {
+   "detect_scale": 10.0,
+   "flock_mean": 20.0,
+   "flock_found_rate": 0.8239,
+   "bird_found_rate": 0.9353,
+   "est_by_flock_rate_mean": 1138.27,
+   "bias_pct": 13.83,
+   "within10": 0.2424
+  },
+  {
+   "detect_scale": 10.0,
+   "flock_mean": 50.0,
+   "flock_found_rate": 0.9121,
+   "bird_found_rate": 0.983,
+   "est_by_flock_rate_mean": 1081.83,
+   "bias_pct": 8.18,
+   "within10": 0.6608
+  },
+  {
+   "detect_scale": 20.0,
+   "flock_mean": 5.0,
+   "flock_found_rate": 0.5813,
+   "bird_found_rate": 0.6487,
+   "est_by_flock_rate_mean": 1116.47,
+   "bias_pct": 11.65,
+   "within10": 0.3694
+  },
+  {
+   "detect_scale": 20.0,
+   "flock_mean": 20.0,
+   "flock_found_rate": 0.741,
+   "bird_found_rate": 0.8632,
+   "est_by_flock_rate_mean": 1169.08,
+   "bias_pct": 16.91,
+   "within10": 0.1556
+  },
+  {
+   "detect_scale": 20.0,
+   "flock_mean": 50.0,
+   "flock_found_rate": 0.8518,
+   "bird_found_rate": 0.9531,
+   "est_by_flock_rate_mean": 1125.63,
+   "bias_pct": 12.56,
+   "within10": 0.419
+  }
+ ],
+ "grid_summary": {
+  "sd_ratio_sim_range": [
+   2.5177,
+   14.0847
+  ],
+  "max_rel_diff_sim_vs_formula": 0.0278,
+  "within10_flock_range": [
+   0.197,
+   1.0
+  ],
+  "within10_individual_range": [
+   0.9997,
+   1.0
+  ],
+  "surveys_needed_flock_range": [
+   1,
+   30
+  ],
+  "n_flock_within10_lt_individual": 26
+ }
+}

@@ -1,0 +1,463 @@
+{
+ "setting": {
+  "years": 10,
+  "people_year1": 40,
+  "people_year10": 160,
+  "visits_mean_per_person": 10,
+  "new_skill": 0.7,
+  "learn_per_year": 0.06,
+  "learn_cap": 1.5,
+  "reps": 400
+ },
+ "by_scenario": [
+  {
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "①報告の件数",
+   "key": "m1_reports",
+   "change_mean": 2.6157,
+   "change_p10": 1.8746,
+   "change_p90": 3.4396,
+   "p_up10": 1.0,
+   "p_down10": 0.0
+  },
+  {
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "②1人あたりの報告",
+   "key": "m2_per_person",
+   "change_mean": 0.0918,
+   "change_p10": -0.1405,
+   "change_p90": 0.3547,
+   "p_up10": 0.435,
+   "p_down10": 0.15
+  },
+  {
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "③観察1回あたりの報告",
+   "key": "m3_per_visit",
+   "change_mean": 0.0859,
+   "change_p10": -0.1283,
+   "change_p90": 0.3194,
+   "p_up10": 0.4525,
+   "p_down10": 0.1375
+  },
+  {
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "④種Cが見つかった回に対する種Rの割合",
+   "key": "m4_ratio_common",
+   "change_mean": 0.0644,
+   "change_p10": -0.1397,
+   "change_p90": 0.3021,
+   "p_up10": 0.375,
+   "p_down10": 0.1675
+  },
+  {
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "⑤1年目からいる人だけの1回あたり",
+   "key": "m5_founders",
+   "change_mean": 0.4825,
+   "change_p10": 0.1283,
+   "change_p90": 0.8497,
+   "p_up10": 0.9275,
+   "p_down10": 0.0025
+  },
+  {
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "①報告の件数",
+   "key": "m1_reports",
+   "change_mean": 3.4249,
+   "change_p10": 2.5344,
+   "change_p90": 4.4365,
+   "p_up10": 1.0,
+   "p_down10": 0.0
+  },
+  {
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "②1人あたりの報告",
+   "key": "m2_per_person",
+   "change_mean": 0.34,
+   "change_p10": 0.0721,
+   "change_p90": 0.6445,
+   "p_up10": 0.865,
+   "p_down10": 0.01
+  },
+  {
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "③観察1回あたりの報告",
+   "key": "m3_per_visit",
+   "change_mean": 0.3365,
+   "change_p10": 0.0866,
+   "change_p90": 0.6066,
+   "p_up10": 0.8775,
+   "p_down10": 0.0025
+  },
+  {
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "④種Cが見つかった回に対する種Rの割合",
+   "key": "m4_ratio_common",
+   "change_mean": 0.3089,
+   "change_p10": 0.0671,
+   "change_p90": 0.5742,
+   "p_up10": 0.8525,
+   "p_down10": 0.0075
+  },
+  {
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "⑤1年目からいる人だけの1回あたり",
+   "key": "m5_founders",
+   "change_mean": 0.7992,
+   "change_p10": 0.397,
+   "change_p90": 1.2581,
+   "p_up10": 1.0,
+   "p_down10": 0.0
+  },
+  {
+   "scenario": "−30%",
+   "true_change": -0.2717,
+   "measure": "①報告の件数",
+   "key": "m1_reports",
+   "change_mean": 1.6163,
+   "change_p10": 1.0877,
+   "change_p90": 2.182,
+   "p_up10": 1.0,
+   "p_down10": 0.0
+  },
+  {
+   "scenario": "−30%",
+   "true_change": -0.2717,
+   "measure": "②1人あたりの報告",
+   "key": "m2_per_person",
+   "change_mean": -0.2117,
+   "change_p10": -0.3727,
+   "change_p90": -0.0494,
+   "p_up10": 0.025,
+   "p_down10": 0.825
+  },
+  {
+   "scenario": "−30%",
+   "true_change": -0.2717,
+   "measure": "③観察1回あたりの報告",
+   "key": "m3_per_visit",
+   "change_mean": -0.2116,
+   "change_p10": -0.3644,
+   "change_p90": -0.0548,
+   "p_up10": 0.02,
+   "p_down10": 0.825
+  },
+  {
+   "scenario": "−30%",
+   "true_change": -0.2717,
+   "measure": "④種Cが見つかった回に対する種Rの割合",
+   "key": "m4_ratio_common",
+   "change_mean": -0.2278,
+   "change_p10": -0.3752,
+   "change_p90": -0.0711,
+   "p_up10": 0.0175,
+   "p_down10": 0.8575
+  },
+  {
+   "scenario": "−30%",
+   "true_change": -0.2717,
+   "measure": "⑤1年目からいる人だけの1回あたり",
+   "key": "m5_founders",
+   "change_mean": 0.074,
+   "change_p10": -0.1643,
+   "change_p90": 0.3479,
+   "p_up10": 0.4075,
+   "p_down10": 0.21
+  }
+ ],
+ "grid_flat_27": {
+  "m1_reports": {
+   "min": -0.0152,
+   "max": 3.4353,
+   "n_within_10": 3
+  },
+  "m2_per_person": {
+   "min": -0.3903,
+   "max": 0.4819,
+   "n_within_10": 11
+  },
+  "m3_per_visit": {
+   "min": -0.3889,
+   "max": 0.4834,
+   "n_within_10": 11
+  },
+  "m4_ratio_common": {
+   "min": -0.097,
+   "max": 0.1947,
+   "n_within_10": 19
+  },
+  "m5_founders": {
+   "min": -0.0165,
+   "max": 0.4997,
+   "n_within_10": 9
+  }
+ },
+ "grid_flat_growth_gt1_18": {
+  "m1_reports": {
+   "min": 0.4232,
+   "max": 3.4353
+  },
+  "m2_per_person": {
+   "min": -0.3903,
+   "max": 0.3473
+  },
+  "m3_per_visit": {
+   "min": -0.3889,
+   "max": 0.346
+  },
+  "m4_ratio_common": {
+   "min": -0.097,
+   "max": 0.1502
+  },
+  "m5_founders": {
+   "min": 0.0139,
+   "max": 0.4997
+  }
+ },
+ "grid_flat_learn0_9": {
+  "m1_reports": {
+   "min": -0.0152,
+   "max": 2.3803
+  },
+  "m2_per_person": {
+   "min": -0.3903,
+   "max": 0.0451
+  },
+  "m3_per_visit": {
+   "min": -0.3889,
+   "max": 0.0408
+  },
+  "m4_ratio_common": {
+   "min": -0.097,
+   "max": 0.0427
+  },
+  "m5_founders": {
+   "min": -0.0165,
+   "max": 0.0484
+  }
+ },
+ "grid_m4_closer_than_m3": 24,
+ "targeting": [
+  {
+   "target_share": 0.0,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "①報告の件数",
+   "change_mean": 2.5607
+  },
+  {
+   "target_share": 0.0,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "②1人あたりの報告",
+   "change_mean": 0.0769
+  },
+  {
+   "target_share": 0.0,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "③観察1回あたりの報告",
+   "change_mean": 0.0701
+  },
+  {
+   "target_share": 0.0,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "④種Cが見つかった回に対する種Rの割合",
+   "change_mean": 0.0542
+  },
+  {
+   "target_share": 0.0,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "⑤1年目からいる人だけの1回あたり",
+   "change_mean": 0.4661
+  },
+  {
+   "target_share": 0.0,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "①報告の件数",
+   "change_mean": 3.4079
+  },
+  {
+   "target_share": 0.0,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "②1人あたりの報告",
+   "change_mean": 0.3347
+  },
+  {
+   "target_share": 0.0,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "③観察1回あたりの報告",
+   "change_mean": 0.332
+  },
+  {
+   "target_share": 0.0,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "④種Cが見つかった回に対する種Rの割合",
+   "change_mean": 0.3047
+  },
+  {
+   "target_share": 0.0,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "⑤1年目からいる人だけの1回あたり",
+   "change_mean": 0.8029
+  },
+  {
+   "target_share": 0.1,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "①報告の件数",
+   "change_mean": 2.9305
+  },
+  {
+   "target_share": 0.1,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "②1人あたりの報告",
+   "change_mean": 0.1886
+  },
+  {
+   "target_share": 0.1,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "③観察1回あたりの報告",
+   "change_mean": 0.1889
+  },
+  {
+   "target_share": 0.1,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "④種Cが見つかった回に対する種Rの割合",
+   "change_mean": 0.1652
+  },
+  {
+   "target_share": 0.1,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "⑤1年目からいる人だけの1回あたり",
+   "change_mean": 0.4706
+  },
+  {
+   "target_share": 0.1,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "①報告の件数",
+   "change_mean": 3.9424
+  },
+  {
+   "target_share": 0.1,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "②1人あたりの報告",
+   "change_mean": 0.4946
+  },
+  {
+   "target_share": 0.1,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "③観察1回あたりの報告",
+   "change_mean": 0.4903
+  },
+  {
+   "target_share": 0.1,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "④種Cが見つかった回に対する種Rの割合",
+   "change_mean": 0.4643
+  },
+  {
+   "target_share": 0.1,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "⑤1年目からいる人だけの1回あたり",
+   "change_mean": 0.8319
+  },
+  {
+   "target_share": 0.2,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "①報告の件数",
+   "change_mean": 3.3633
+  },
+  {
+   "target_share": 0.2,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "②1人あたりの報告",
+   "change_mean": 0.3186
+  },
+  {
+   "target_share": 0.2,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "③観察1回あたりの報告",
+   "change_mean": 0.3141
+  },
+  {
+   "target_share": 0.2,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "④種Cが見つかった回に対する種Rの割合",
+   "change_mean": 0.2901
+  },
+  {
+   "target_share": 0.2,
+   "scenario": "横ばい",
+   "true_change": 0.0,
+   "measure": "⑤1年目からいる人だけの1回あたり",
+   "change_mean": 0.4659
+  },
+  {
+   "target_share": 0.2,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "①報告の件数",
+   "change_mean": 4.369
+  },
+  {
+   "target_share": 0.2,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "②1人あたりの報告",
+   "change_mean": 0.6264
+  },
+  {
+   "target_share": 0.2,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "③観察1回あたりの報告",
+   "change_mean": 0.6141
+  },
+  {
+   "target_share": 0.2,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "④種Cが見つかった回に対する種Rの割合",
+   "change_mean": 0.5912
+  },
+  {
+   "target_share": 0.2,
+   "scenario": "+30%",
+   "true_change": 0.2626,
+   "measure": "⑤1年目からいる人だけの1回あたり",
+   "change_mean": 0.7896
+  }
+ ]
+}
