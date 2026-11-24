@@ -1,0 +1,216 @@
+{
+ "setup": {
+  "book1_daily": "40×e^(−日/15)＋4",
+  "true_progress_one_series": 0.3,
+  "delay_mean_one_series": 30,
+  "gap_book1_to_book2_one_series": 120,
+  "wait_after_release_mean": 5.0,
+  "starter_level": 0.04
+ },
+ "one_series": [
+  {
+   "days_after_book2": 7,
+   "book1_total": 1151,
+   "book2_total": 239,
+   "ratio_book2_over_book1": 20.76,
+   "progressed_by_now_share": 19.37,
+   "will_progress_share": 29.71,
+   "starters_share_of_book2": 6.69
+  },
+  {
+   "days_after_book2": 14,
+   "book1_total": 1176,
+   "book2_total": 312,
+   "ratio_book2_over_book1": 26.53,
+   "progressed_by_now_share": 24.66,
+   "will_progress_share": 29.76,
+   "starters_share_of_book2": 7.05
+  },
+  {
+   "days_after_book2": 30,
+   "book1_total": 1220,
+   "book2_total": 363,
+   "ratio_book2_over_book1": 29.75,
+   "progressed_by_now_share": 27.21,
+   "will_progress_share": 29.51,
+   "starters_share_of_book2": 8.54
+  },
+  {
+   "days_after_book2": 60,
+   "book1_total": 1336,
+   "book2_total": 403,
+   "ratio_book2_over_book1": 30.16,
+   "progressed_by_now_share": 27.17,
+   "will_progress_share": 29.64,
+   "starters_share_of_book2": 9.93
+  },
+  {
+   "days_after_book2": 90,
+   "book1_total": 1452,
+   "book2_total": 449,
+   "ratio_book2_over_book1": 30.92,
+   "progressed_by_now_share": 27.82,
+   "will_progress_share": 29.96,
+   "starters_share_of_book2": 10.02
+  },
+  {
+   "days_after_book2": 180,
+   "book1_total": 1813,
+   "book2_total": 572,
+   "ratio_book2_over_book1": 31.55,
+   "progressed_by_now_share": 28.3,
+   "will_progress_share": 30.45,
+   "starters_share_of_book2": 10.31
+  },
+  {
+   "days_after_book2": 365,
+   "book1_total": 2548,
+   "book2_total": 807,
+   "ratio_book2_over_book1": 31.67,
+   "progressed_by_now_share": 28.41,
+   "will_progress_share": 29.71,
+   "starters_share_of_book2": 10.29
+  },
+  {
+   "days_after_book2": 730,
+   "book1_total": 3980,
+   "book2_total": 1319,
+   "ratio_book2_over_book1": 33.14,
+   "progressed_by_now_share": 29.47,
+   "will_progress_share": 30.53,
+   "starters_share_of_book2": 11.07
+  }
+ ],
+ "one_series_ratio_max": {
+  "value": 33.29,
+  "day": 713
+ },
+ "swap_example": {
+  "A": {
+   "true_progress": 0.28,
+   "days_after_book2": 600,
+   "ratio_now": 30.68,
+   "ratio_at_180_days": 27.84
+  },
+  "B": {
+   "true_progress": 0.33,
+   "days_after_book2": 14,
+   "ratio_now": 26.44,
+   "ratio_at_180_days": 32.62
+  }
+ },
+ "compare_40_series_200reps": {
+  "pair_hit_now": 89.896,
+  "pair_hit_30": 82.924,
+  "pair_hit_180": 91.832,
+  "pair_hit_now_same_books_180": 93.227,
+  "n_usable_180": 30.485,
+  "top5_overlap_now": 69.0,
+  "corr_naive_days": 0.231,
+  "corr_naive_true": 0.931,
+  "gap_by_days": [
+   {
+    "band": "7〜29日",
+    "gap_mean": -4.86,
+    "gap_p10": -9.94,
+    "gap_p90": -0.78,
+    "n": 254
+   },
+   {
+    "band": "30〜89日",
+    "gap_mean": -1.35,
+    "gap_p10": -4.64,
+    "gap_p90": 1.35,
+    "n": 653
+   },
+   {
+    "band": "90〜179日",
+    "gap_mean": 0.0,
+    "gap_p10": -2.28,
+    "gap_p90": 2.21,
+    "n": 996
+   },
+   {
+    "band": "180〜365日",
+    "gap_mean": 1.12,
+    "gap_p10": -0.67,
+    "gap_p90": 2.85,
+    "n": 2028
+   },
+   {
+    "band": "366〜720日",
+    "gap_mean": 2.01,
+    "gap_p10": 0.61,
+    "gap_p90": 3.38,
+    "n": 4069
+   }
+  ],
+  "pair_hit_by_kind": [
+   {
+    "pairs": "全部の組",
+    "true_gap": "進む割合の差が5ポイント未満",
+    "n_pairs": 67876,
+    "hit_now": 78.87,
+    "hit_30_where_both_have_30days": 69.28
+   },
+   {
+    "pairs": "全部の組",
+    "true_gap": "差が5ポイント以上",
+    "n_pairs": 88124,
+    "hit_now": 98.39,
+    "hit_30_where_both_have_30days": 93.43
+   },
+   {
+    "pairs": "片方が出して30日未満・もう片方が180日以上",
+    "true_gap": "進む割合の差が5ポイント未満",
+    "n_pairs": 3235,
+    "hit_now": 53.63,
+    "hit_30_where_both_have_30days": NaN
+   },
+   {
+    "pairs": "片方が出して30日未満・もう片方が180日以上",
+    "true_gap": "差が5ポイント以上",
+    "n_pairs": 4276,
+    "hit_now": 84.21,
+    "hit_30_where_both_have_30days": NaN
+   },
+   {
+    "pairs": "両方とも180日以上",
+    "true_gap": "進む割合の差が5ポイント未満",
+    "n_pairs": 39602,
+    "hit_now": 84.56,
+    "hit_30_where_both_have_30days": 69.47
+   },
+   {
+    "pairs": "両方とも180日以上",
+    "true_gap": "差が5ポイント以上",
+    "n_pairs": 50976,
+    "hit_now": 99.97,
+    "hit_30_where_both_have_30days": 93.5
+   }
+  ]
+ },
+ "grid_range": {
+  "gap_mean_under30d": [
+   -10.33,
+   0.04
+  ],
+  "gap_mean_366d_plus": [
+   -2.74,
+   7.78
+  ],
+  "close_hit_all": [
+   68.02,
+   85.88
+  ],
+  "close_hit_new_vs_old": [
+   52.93,
+   72.96
+  ],
+  "close_hit_both_180d": [
+   74.36,
+   88.73
+  ],
+  "new_vs_old_below_both180_count": 9
+ }
+}

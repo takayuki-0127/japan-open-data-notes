@@ -1,0 +1,299 @@
+{
+ "setting": {
+  "B": 3.0,
+  "Tdec": 250.0,
+  "U": 1.0,
+  "tau": 10.0,
+  "h": 0.0,
+  "season_end": 20,
+  "Bc": 3.0,
+  "Tc": 250.0,
+  "day_sd": 0.2
+ },
+ "window_days": 30,
+ "reps": 4000,
+ "formula": {
+  "push_30d": 29.031,
+  "base_after_30d": 84.979,
+  "base_before_30d": 95.814,
+  "natural_drop_30d": -10.835,
+  "season_extra_on_base_30d": 18.164,
+  "push_share_of_after": 0.2546
+ },
+ "example": {
+  "true_push_30d": 27,
+  "前の30日と比べる": 1.0,
+  "前の91日の減り方を延ばす": 6.635,
+  "別のシリーズの本の前後の変化で割り引く": 13.121
+ },
+ "scenarios": [
+  {
+   "scenario": "自然な減りだけ",
+   "method": "前の30日と比べる",
+   "est_mean": 18.2,
+   "est_p10": -1.0,
+   "est_p90": 38.0,
+   "true_mean": 29.1,
+   "bias_share": -0.3733,
+   "within_25pct": 0.3075,
+   "est_le_0": 0.121,
+   "est_ge_10": NaN,
+   "est_le_m10": NaN
+  },
+  {
+   "scenario": "自然な減りだけ",
+   "method": "前の91日の減り方を延ばす",
+   "est_mean": 28.1,
+   "est_p10": 6.1,
+   "est_p90": 49.6,
+   "true_mean": 29.1,
+   "bias_share": -0.0316,
+   "within_25pct": 0.3573,
+   "est_le_0": 0.051,
+   "est_ge_10": NaN,
+   "est_le_m10": NaN
+  },
+  {
+   "scenario": "自然な減りだけ",
+   "method": "別のシリーズの本の前後の変化で割り引く",
+   "est_mean": 28.6,
+   "est_p10": 4.8,
+   "est_p90": 51.1,
+   "true_mean": 29.1,
+   "bias_share": -0.0163,
+   "within_25pct": 0.33,
+   "est_le_0": 0.0622,
+   "est_ge_10": NaN,
+   "est_le_m10": NaN
+  },
+  {
+   "scenario": "季節の山（0〜20日目に+30%）",
+   "method": "前の30日と比べる",
+   "est_mean": 44.3,
+   "est_p10": 23.0,
+   "est_p90": 66.0,
+   "true_mean": 37.1,
+   "bias_share": 0.1949,
+   "within_25pct": 0.4265,
+   "est_le_0": 0.005,
+   "est_ge_10": NaN,
+   "est_le_m10": NaN
+  },
+  {
+   "scenario": "季節の山（0〜20日目に+30%）",
+   "method": "前の91日の減り方を延ばす",
+   "est_mean": 54.6,
+   "est_p10": 30.8,
+   "est_p90": 77.9,
+   "true_mean": 37.1,
+   "bias_share": 0.4711,
+   "within_25pct": 0.2432,
+   "est_le_0": 0.003,
+   "est_ge_10": NaN,
+   "est_le_m10": NaN
+  },
+  {
+   "scenario": "季節の山（0〜20日目に+30%）",
+   "method": "別のシリーズの本の前後の変化で割り引く",
+   "est_mean": 36.1,
+   "est_p10": 7.5,
+   "est_p90": 63.5,
+   "true_mean": 37.1,
+   "bias_share": -0.0266,
+   "within_25pct": 0.3405,
+   "est_le_0": 0.0578,
+   "est_ge_10": NaN,
+   "est_le_m10": NaN
+  },
+  {
+   "scenario": "押し上げなし・自然な減りだけ",
+   "method": "前の30日と比べる",
+   "est_mean": -10.9,
+   "est_p10": -29.0,
+   "est_p90": 7.0,
+   "true_mean": 0.0,
+   "bias_share": NaN,
+   "within_25pct": NaN,
+   "est_le_0": NaN,
+   "est_ge_10": 0.078,
+   "est_le_m10": 0.539
+  },
+  {
+   "scenario": "押し上げなし・自然な減りだけ",
+   "method": "前の91日の減り方を延ばす",
+   "est_mean": -0.8,
+   "est_p10": -21.9,
+   "est_p90": 20.0,
+   "true_mean": 0.0,
+   "bias_share": NaN,
+   "within_25pct": NaN,
+   "est_le_0": NaN,
+   "est_ge_10": 0.2505,
+   "est_le_m10": 0.2757
+  },
+  {
+   "scenario": "押し上げなし・自然な減りだけ",
+   "method": "別のシリーズの本の前後の変化で割り引く",
+   "est_mean": -1.2,
+   "est_p10": -25.1,
+   "est_p90": 21.0,
+   "true_mean": 0.0,
+   "bias_share": NaN,
+   "within_25pct": NaN,
+   "est_le_0": NaN,
+   "est_ge_10": 0.274,
+   "est_le_m10": 0.3005
+  },
+  {
+   "scenario": "押し上げなし・季節の山",
+   "method": "前の30日と比べる",
+   "est_mean": 7.5,
+   "est_p10": -12.0,
+   "est_p90": 27.0,
+   "true_mean": 0.0,
+   "bias_share": NaN,
+   "within_25pct": NaN,
+   "est_le_0": NaN,
+   "est_ge_10": 0.445,
+   "est_le_m10": 0.1325
+  },
+  {
+   "scenario": "押し上げなし・季節の山",
+   "method": "前の91日の減り方を延ばす",
+   "est_mean": 17.4,
+   "est_p10": -4.8,
+   "est_p90": 39.4,
+   "true_mean": 0.0,
+   "bias_share": NaN,
+   "within_25pct": NaN,
+   "est_le_0": NaN,
+   "est_ge_10": 0.6675,
+   "est_le_m10": 0.054
+  },
+  {
+   "scenario": "押し上げなし・季節の山",
+   "method": "別のシリーズの本の前後の変化で割り引く",
+   "est_mean": -1.1,
+   "est_p10": -28.9,
+   "est_p90": 25.6,
+   "true_mean": 0.0,
+   "bias_share": NaN,
+   "within_25pct": NaN,
+   "est_le_0": NaN,
+   "est_ge_10": 0.311,
+   "est_le_m10": 0.3227
+  }
+ ],
+ "robust": {
+  "m1": {
+   "ratio_range": [
+    0.1709,
+    1.5964
+   ],
+   "within25_range": [
+    0.039,
+    0.66
+   ],
+   "ghost_range": [
+    0.0,
+    0.648
+   ]
+  },
+  "m2": {
+   "ratio_range": [
+    0.8804,
+    1.7152
+   ],
+   "within25_range": [
+    0.0315,
+    0.546
+   ],
+   "ghost_range": [
+    0.056,
+    0.796
+   ]
+  },
+  "m3": {
+   "ratio_range": [
+    0.4608,
+    1.167
+   ],
+   "within25_range": [
+    0.174,
+    0.6065
+   ],
+   "ghost_range": [
+    0.0015,
+    0.3715
+   ]
+  },
+  "m3_ratio_range_sameT": [
+   0.8798,
+   1.0058
+  ],
+  "m3_ratio_range_T120": [
+   0.4608,
+   0.632
+  ],
+  "m3_ratio_range_T500": [
+   1.0554,
+   1.167
+  ],
+  "m2_ratio_range_h0": [
+   0.8804,
+   1.0099
+  ],
+  "m2_ratio_range_h05": [
+   1.6297,
+   1.7152
+  ],
+  "m1_ratio_range_h0": [
+   0.1709,
+   0.8285
+  ],
+  "within25_by_B": {
+   "1.0": {
+    "m1": [
+     0.164,
+     0.3005
+    ],
+    "m2": [
+     0.16,
+     0.2195
+    ],
+    "m3": [
+     0.174,
+     0.227
+    ]
+   },
+   "3.0": {
+    "m1": [
+     0.1175,
+     0.4465
+    ],
+    "m2": [
+     0.123,
+     0.372
+    ],
+    "m3": [
+     0.2735,
+     0.3555
+    ]
+   },
+   "10.0": {
+    "m1": [
+     0.039,
+     0.66
+    ],
+    "m2": [
+     0.0315,
+     0.546
+    ],
+    "m3": [
+     0.3175,
+     0.6065
+    ]
+   }
+  }
+ }
+}

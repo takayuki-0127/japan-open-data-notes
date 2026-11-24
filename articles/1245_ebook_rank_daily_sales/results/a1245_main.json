@@ -1,0 +1,199 @@
+{
+ "setup": {
+  "books": 20000,
+  "usual_median_per_day": 0.0498,
+  "spread_log": 1.6,
+  "half_life_days": 2.0,
+  "burn_in_days": 60,
+  "days_measured": 60
+ },
+ "bands_base": [
+  {
+   "band": "1〜10位",
+   "read_mean": 13.425,
+   "actual_mean": 13.06,
+   "share_zero_day": 0.83,
+   "actual_p10": 4.0,
+   "actual_p90": 25.0,
+   "day_within2_of_day": 73.67,
+   "day_within2_of_usual": 85.5,
+   "week_within2_of_week": 100.0,
+   "week_within2_of_usual": 95.0
+  },
+  {
+   "band": "11〜100位",
+   "read_mean": 5.184,
+   "actual_mean": 4.881,
+   "share_zero_day": 5.48,
+   "actual_p10": 1.0,
+   "actual_p90": 9.0,
+   "day_within2_of_day": 72.89,
+   "day_within2_of_usual": 80.54,
+   "week_within2_of_week": 99.72,
+   "week_within2_of_usual": 95.28
+  },
+  {
+   "band": "101〜1,000位",
+   "read_mean": 1.551,
+   "actual_mean": 1.508,
+   "share_zero_day": 23.39,
+   "actual_p10": 0.0,
+   "actual_p90": 3.0,
+   "day_within2_of_day": 63.51,
+   "day_within2_of_usual": 67.85,
+   "week_within2_of_week": 97.43,
+   "week_within2_of_usual": 85.26
+  },
+  {
+   "band": "1,001〜10,000位",
+   "read_mean": 0.168,
+   "actual_mean": 0.162,
+   "share_zero_day": 84.86,
+   "actual_p10": 0.0,
+   "actual_p90": 1.0,
+   "day_within2_of_day": 9.17,
+   "day_within2_of_usual": 13.79,
+   "week_within2_of_week": 63.93,
+   "week_within2_of_usual": 44.9
+  },
+  {
+   "band": "10,001〜20,000位",
+   "read_mean": 0.0,
+   "actual_mean": 0.0,
+   "share_zero_day": 100.0,
+   "actual_p10": 0.0,
+   "actual_p90": 0.0,
+   "day_within2_of_day": 0.0,
+   "day_within2_of_usual": 0.0,
+   "week_within2_of_week": 0.0,
+   "week_within2_of_usual": 0.0
+  }
+ ],
+ "rank_spots": [
+  {
+   "rank_around": 10,
+   "read": 9.95,
+   "share_0": 2.22,
+   "share_1": 2.22,
+   "share_2plus": 95.56,
+   "usual_p10": 4.087,
+   "usual_p90": 8.859
+  },
+  {
+   "rank_around": 100,
+   "read": 3.697,
+   "share_0": 6.83,
+   "share_1": 13.65,
+   "share_2plus": 79.52,
+   "usual_p10": 1.461,
+   "usual_p90": 4.087
+  },
+  {
+   "rank_around": 1000,
+   "read": 0.872,
+   "share_0": 34.58,
+   "share_1": 43.47,
+   "share_2plus": 21.95,
+   "usual_p10": 0.218,
+   "usual_p90": 1.077
+  },
+  {
+   "rank_around": 3000,
+   "read": 0.679,
+   "share_0": 31.84,
+   "share_1": 68.16,
+   "share_2plus": 0.0,
+   "usual_p10": 0.035,
+   "usual_p90": 0.374
+  },
+  {
+   "rank_around": 10000,
+   "read": 0.0,
+   "share_0": 100.0,
+   "share_1": 0.0,
+   "share_2plus": 0.0,
+   "usual_p10": 0.015,
+   "usual_p90": 0.156
+  }
+ ],
+ "spike": {
+  "usual": 0.3,
+  "extra_on_day": 15,
+  "rank_day_before": 1377,
+  "rank_on_day": 34,
+  "read_on_day": 5.733,
+  "sales_on_day": 15,
+  "read_day_after": 4.045,
+  "sales_day_after": 0,
+  "read_sum_days1to14": 17.77,
+  "sales_sum_days1to14": 5,
+  "read_sum_days1to14_no_extra": 5.46,
+  "sales_sum_days1to14_no_extra": 5
+ },
+ "grid_range": {
+  "11〜100位": {
+   "share_zero_day": [
+    0.32,
+    25.95
+   ],
+   "day_within2_of_day": [
+    55.52,
+    89.92
+   ],
+   "day_within2_of_usual": [
+    24.52,
+    99.92
+   ],
+   "week_within2_of_usual": [
+    70.0,
+    100.0
+   ],
+   "week_usual_better_than_day_usual_count": 9,
+   "week_usual_better_than_day_day_count": 8
+  },
+  "101〜1,000位": {
+   "share_zero_day": [
+    5.9,
+    48.97
+   ],
+   "day_within2_of_day": [
+    32.93,
+    85.86
+   ],
+   "day_within2_of_usual": [
+    28.92,
+    98.67
+   ],
+   "week_within2_of_usual": [
+    61.25,
+    99.78
+   ],
+   "week_usual_better_than_day_usual_count": 9,
+   "week_usual_better_than_day_day_count": 7
+  },
+  "1,001〜10,000位": {
+   "share_zero_day": [
+    77.8,
+    90.89
+   ],
+   "day_within2_of_day": [
+    0.0,
+    20.26
+   ],
+   "day_within2_of_usual": [
+    2.45,
+    46.64
+   ],
+   "week_within2_of_usual": [
+    40.61,
+    67.42
+   ],
+   "week_usual_better_than_day_usual_count": 9,
+   "week_usual_better_than_day_day_count": 9
+  }
+ },
+ "store_total_per_day_mean": 3381.5,
+ "books_with_sale_per_day_mean": 2147.5,
+ "last_day_books_with_sale": 2079,
+ "last_day_zero_share_below_that": 95.97
+}

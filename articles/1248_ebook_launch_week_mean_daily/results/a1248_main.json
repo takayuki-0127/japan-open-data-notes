@@ -1,0 +1,323 @@
+{
+ "setting": {
+  "S": 8.0,
+  "tau": 3.0,
+  "lam_example": 2.0,
+  "excl_days": 7,
+  "n_book": 40,
+  "max_age": 720
+ },
+ "one_book": {
+  "day1_rate_ratio": 9.0,
+  "launch_extra_total_over_lam": 28.222,
+  "launch_week_share_of_sales": {
+   "30": 0.558,
+   "90": 0.2748,
+   "365": 0.0826
+  },
+  "example_mean_90": 2.533,
+  "example_ex7_90": 1.976,
+  "example_median_90": 2.0,
+  "days_to_within_10pct_all": 283,
+  "days_to_within_10pct_ex7": 35,
+  "days_to_within_25pct_all": 113
+ },
+ "by_days": [
+  {
+   "days": 14,
+   "measure": "発売からの平均",
+   "ratio_mean": 3.001,
+   "ratio_p10": 2.571,
+   "ratio_p90": 3.429,
+   "formula": 2.997
+  },
+  {
+   "days": 14,
+   "measure": "最初の7日を除いた平均",
+   "ratio_mean": 1.354,
+   "ratio_p10": 1.0,
+   "ratio_p90": 1.714,
+   "formula": 1.353
+  },
+  {
+   "days": 14,
+   "measure": "1日の中央値",
+   "ratio_mean": 2.129,
+   "ratio_p10": 1.5,
+   "ratio_p90": 2.75,
+   "formula": NaN
+  },
+  {
+   "days": 14,
+   "measure": "直近30日の平均",
+   "ratio_mean": 3.001,
+   "ratio_p10": 2.571,
+   "ratio_p90": 3.429,
+   "formula": NaN
+  },
+  {
+   "days": 30,
+   "measure": "発売からの平均",
+   "ratio_mean": 1.94,
+   "ratio_p10": 1.717,
+   "ratio_p90": 2.168,
+   "formula": 1.941
+  },
+  {
+   "days": 30,
+   "measure": "最初の7日を除いた平均",
+   "ratio_mean": 1.121,
+   "ratio_p10": 0.913,
+   "ratio_p90": 1.326,
+   "formula": 1.119
+  },
+  {
+   "days": 30,
+   "measure": "1日の中央値",
+   "ratio_mean": 1.294,
+   "ratio_p10": 1.0,
+   "ratio_p90": 1.5,
+   "formula": NaN
+  },
+  {
+   "days": 30,
+   "measure": "直近30日の平均",
+   "ratio_mean": 1.94,
+   "ratio_p10": 1.717,
+   "ratio_p90": 2.168,
+   "formula": NaN
+  },
+  {
+   "days": 60,
+   "measure": "発売からの平均",
+   "ratio_mean": 1.471,
+   "ratio_p10": 1.325,
+   "ratio_p90": 1.617,
+   "formula": 1.47
+  },
+  {
+   "days": 60,
+   "measure": "最初の7日を除いた平均",
+   "ratio_mean": 1.052,
+   "ratio_p10": 0.925,
+   "ratio_p90": 1.179,
+   "formula": 1.052
+  },
+  {
+   "days": 60,
+   "measure": "1日の中央値",
+   "ratio_mean": 1.039,
+   "ratio_p10": 1.0,
+   "ratio_p90": 1.25,
+   "formula": NaN
+  },
+  {
+   "days": 60,
+   "measure": "直近30日の平均",
+   "ratio_mean": 0.998,
+   "ratio_p10": 0.833,
+   "ratio_p90": 1.167,
+   "formula": NaN
+  },
+  {
+   "days": 90,
+   "measure": "発売からの平均",
+   "ratio_mean": 1.314,
+   "ratio_p10": 1.206,
+   "ratio_p90": 1.422,
+   "formula": 1.314
+  },
+  {
+   "days": 90,
+   "measure": "最初の7日を除いた平均",
+   "ratio_mean": 1.033,
+   "ratio_p10": 0.934,
+   "ratio_p90": 1.133,
+   "formula": 1.033
+  },
+  {
+   "days": 90,
+   "measure": "1日の中央値",
+   "ratio_mean": 1.004,
+   "ratio_p10": 1.0,
+   "ratio_p90": 1.0,
+   "formula": NaN
+  },
+  {
+   "days": 90,
+   "measure": "直近30日の平均",
+   "ratio_mean": 0.998,
+   "ratio_p10": 0.833,
+   "ratio_p90": 1.167,
+   "formula": NaN
+  },
+  {
+   "days": 180,
+   "measure": "発売からの平均",
+   "ratio_mean": 1.155,
+   "ratio_p10": 1.083,
+   "ratio_p90": 1.228,
+   "formula": 1.157
+  },
+  {
+   "days": 180,
+   "measure": "最初の7日を除いた平均",
+   "ratio_mean": 1.014,
+   "ratio_p10": 0.945,
+   "ratio_p90": 1.084,
+   "formula": 1.016
+  },
+  {
+   "days": 180,
+   "measure": "1日の中央値",
+   "ratio_mean": 1.0,
+   "ratio_p10": 1.0,
+   "ratio_p90": 1.0,
+   "formula": NaN
+  },
+  {
+   "days": 180,
+   "measure": "直近30日の平均",
+   "ratio_mean": 0.998,
+   "ratio_p10": 0.833,
+   "ratio_p90": 1.167,
+   "formula": NaN
+  },
+  {
+   "days": 365,
+   "measure": "発売からの平均",
+   "ratio_mean": 1.078,
+   "ratio_p10": 1.027,
+   "ratio_p90": 1.127,
+   "formula": 1.077
+  },
+  {
+   "days": 365,
+   "measure": "最初の7日を除いた平均",
+   "ratio_mean": 1.008,
+   "ratio_p10": 0.961,
+   "ratio_p90": 1.056,
+   "formula": 1.008
+  },
+  {
+   "days": 365,
+   "measure": "1日の中央値",
+   "ratio_mean": 1.0,
+   "ratio_p10": 1.0,
+   "ratio_p90": 1.0,
+   "formula": NaN
+  },
+  {
+   "days": 365,
+   "measure": "直近30日の平均",
+   "ratio_mean": 0.995,
+   "ratio_p10": 0.833,
+   "ratio_p90": 1.167,
+   "formula": NaN
+  }
+ ],
+ "median_low_sales": [
+  {
+   "lam": 0.3,
+   "median_mean": 0.0,
+   "median_ratio": 0.0,
+   "share_median_0": 1.0,
+   "mean_all_ratio": 1.1562
+  },
+  {
+   "lam": 0.7,
+   "median_mean": 0.7522,
+   "median_ratio": 1.0746,
+   "share_median_0": 0.2245,
+   "mean_all_ratio": 1.1571
+  },
+  {
+   "lam": 1.0,
+   "median_mean": 1.0,
+   "median_ratio": 1.0,
+   "share_median_0": 0.0,
+   "mean_all_ratio": 1.1556
+  },
+  {
+   "lam": 1.5,
+   "median_mean": 1.1966,
+   "median_ratio": 0.7978,
+   "share_median_0": 0.0,
+   "mean_all_ratio": 1.1578
+  },
+  {
+   "lam": 3.0,
+   "median_mean": 2.9996,
+   "median_ratio": 0.9999,
+   "share_median_0": 0.0,
+   "mean_all_ratio": 1.1567
+  },
+  {
+   "lam": 6.0,
+   "median_mean": 6.0126,
+   "median_ratio": 1.0021,
+   "share_median_0": 0.0,
+   "mean_all_ratio": 1.1568
+  }
+ ],
+ "catalog_2000reps": {
+  "recent_books_mean": 3.34,
+  "recent_in_true_top10": 0.828,
+  "all": {
+   "hit10_mean": 8.415,
+   "recent_in_top10": 2.01
+  },
+  "ex7": {
+   "hit10_mean": 9.226,
+   "recent_in_top10": 1.282
+  },
+  "median": {
+   "hit10_mean": 7.906,
+   "recent_in_top10": 1.625
+  },
+  "last30": {
+   "hit10_mean": 8.363,
+   "recent_in_top10": 1.751
+  }
+ },
+ "robust": {
+  "all_ratio_D90_range": [
+   1.0913,
+   2.335
+  ],
+  "ex7_ratio_D90_range": [
+   1.0011,
+   1.534
+  ],
+  "all_ratio_D365_range": [
+   1.0233,
+   1.3281
+  ],
+  "days_within_10pct_all_range": [
+   83,
+   1202
+  ],
+  "days_within_10pct_ex7_range": [
+   8,
+   450
+  ],
+  "max_abs_sim_minus_formula_all": 0.0093,
+  "hit10_all_range": [
+   7.037,
+   9.06
+  ],
+  "hit10_ex7_range": [
+   7.883,
+   9.36
+  ],
+  "hit10_last30_range": [
+   7.97,
+   8.657
+  ],
+  "combos_ex7_beats_all": 9,
+  "recent_in_top10_all_range": [
+   1.377,
+   2.823
+  ]
+ }
+}

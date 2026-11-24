@@ -1,0 +1,92 @@
+{
+ "setup": {
+  "book_pages": 200,
+  "books": 1000,
+  "early_share": "0〜0.5の一様",
+  "stop_per_page": "0〜0.01の一様",
+  "starters": "100〜2,000人の一様",
+  "reread_part": 0.3
+ },
+ "base_1000_books": {
+  "ratio_median": 1.812,
+  "ratio_p10": 1.131,
+  "ratio_p90": 2.973,
+  "within20_share": 15.4,
+  "over_share": 100.0,
+  "close_pair_hit": 55.76,
+  "close_pair_n": 40948,
+  "finished_share_of_starters_p10": 11.49,
+  "finished_share_of_starters_p90": 62.68,
+  "band_250_300": {
+   "books": 51,
+   "finished_min": 80,
+   "finished_p10": 87.0,
+   "finished_p90": 232.0,
+   "finished_max": 269
+  }
+ },
+ "shapes_100k_pages": [
+  {
+   "shape": "はじめでやめる人が多い",
+   "early_share": 0.5,
+   "stop_per_page": 0.01,
+   "pages_per_starter": 48.57,
+   "finished_share_of_starters": 6.73,
+   "starters_for_100k_pages": 2058.8,
+   "finished_for_100k_pages": 138.6,
+   "pages_over_book": 500.0,
+   "formula_pages_per_starter": 48.55,
+   "formula_finished_share": 6.7
+  },
+  {
+   "shape": "少しずつ減る",
+   "early_share": 0.0,
+   "stop_per_page": 0.008,
+   "pages_per_starter": 99.89,
+   "finished_share_of_starters": 20.05,
+   "starters_for_100k_pages": 1001.1,
+   "finished_for_100k_pages": 200.7,
+   "pages_over_book": 500.0,
+   "formula_pages_per_starter": 99.92,
+   "formula_finished_share": 20.06
+  },
+  {
+   "shape": "ほとんど読み切る",
+   "early_share": 0.05,
+   "stop_per_page": 0.0005,
+   "pages_per_starter": 181.46,
+   "finished_share_of_starters": 85.98,
+   "starters_for_100k_pages": 551.1,
+   "finished_for_100k_pages": 473.8,
+   "pages_over_book": 500.0,
+   "formula_pages_per_starter": 181.38,
+   "formula_finished_share": 85.96
+  }
+ ],
+ "grid_range": {
+  "ratio_median": [
+   1.334,
+   3.572
+  ],
+  "ratio_p10": [
+   1.071,
+   1.363
+  ],
+  "ratio_p90": [
+   1.698,
+   11.397
+  ],
+  "within20_share": [
+   4.1,
+   32.7
+  ],
+  "over_share": [
+   100.0,
+   100.0
+  ],
+  "close_pair_hit": [
+   53.95,
+   61.45
+  ]
+ }
+}

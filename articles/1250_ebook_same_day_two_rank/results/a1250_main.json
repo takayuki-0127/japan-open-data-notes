@@ -1,0 +1,182 @@
+{
+ "setting": {
+  "F": 200,
+  "p": 0.8,
+  "c": 0.2,
+  "q": 0.3,
+  "organic": 0.5,
+  "delay_mean": 1.5,
+  "late_mean": 7.0,
+  "n_pool": 20000,
+  "gap_days": 14,
+  "look_days": 14,
+  "top": 100
+ },
+ "base": {
+  "separate": {
+   "best_rank_per_book_median": 12.0,
+   "best_rank_per_book_mean": 11.7,
+   "top100_days_per_book": 4.185,
+   "sold14_per_book": 166.627
+  },
+  "same": {
+   "best_rank_per_book_median": 17.5,
+   "best_rank_per_book_mean": 17.307,
+   "top100_days_per_book": 4.058,
+   "sold14_per_book": 151.547
+  },
+  "best_rank_ratio_same_over_sep_median": 1.4677,
+  "sold_ratio_same_over_sep": 0.9095,
+  "top_days_ratio_same_over_sep": 0.9697,
+  "share_same_best_worse": 0.98
+ },
+ "control_c0_q0": {
+  "separate": {
+   "best_rank_per_book_median": 12.0,
+   "best_rank_per_book_mean": 11.7,
+   "top100_days_per_book": 4.185,
+   "sold14_per_book": 166.627
+  },
+  "same": {
+   "best_rank_per_book_median": 12.5,
+   "best_rank_per_book_mean": 12.137,
+   "top100_days_per_book": 4.19,
+   "sold14_per_book": 166.61
+  },
+  "best_rank_ratio_same_over_sep_median": 1.0435,
+  "sold_ratio_same_over_sep": 0.9999,
+  "top_days_ratio_same_over_sep": 1.0012,
+  "share_same_best_worse": 0.56
+ },
+ "only_c": {
+  "separate": {
+   "best_rank_per_book_median": 12.0,
+   "best_rank_per_book_mean": 11.7,
+   "top100_days_per_book": 4.185,
+   "sold14_per_book": 166.627
+  },
+  "same": {
+   "best_rank_per_book_median": 14.5,
+   "best_rank_per_book_mean": 14.382,
+   "top100_days_per_book": 4.05,
+   "sold14_per_book": 154.035
+  },
+  "best_rank_ratio_same_over_sep_median": 1.2094,
+  "sold_ratio_same_over_sep": 0.9244,
+  "top_days_ratio_same_over_sep": 0.9677,
+  "share_same_best_worse": 0.8733
+ },
+ "only_q": {
+  "separate": {
+   "best_rank_per_book_median": 12.0,
+   "best_rank_per_book_mean": 11.7,
+   "top100_days_per_book": 4.185,
+   "sold14_per_book": 166.627
+  },
+  "same": {
+   "best_rank_per_book_median": 15.0,
+   "best_rank_per_book_mean": 14.937,
+   "top100_days_per_book": 4.202,
+   "sold14_per_book": 163.57
+  },
+  "best_rank_ratio_same_over_sep_median": 1.2698,
+  "sold_ratio_same_over_sep": 0.9817,
+  "top_days_ratio_same_over_sep": 1.004,
+  "share_same_best_worse": 0.91
+ },
+ "rank_score_curve_day14": [
+  {
+   "rank": 1,
+   "score_needed": 144.744
+  },
+  {
+   "rank": 5,
+   "score_needed": 112.457
+  },
+  {
+   "rank": 10,
+   "score_needed": 91.186
+  },
+  {
+   "rank": 20,
+   "score_needed": 66.247
+  },
+  {
+   "rank": 50,
+   "score_needed": 41.645
+  },
+  {
+   "rank": 100,
+   "score_needed": 29.771
+  },
+  {
+   "rank": 200,
+   "score_needed": 20.032
+  },
+  {
+   "rank": 500,
+   "score_needed": 11.495
+  },
+  {
+   "rank": 1000,
+   "score_needed": 7.395
+  }
+ ],
+ "example": {
+  "separate": [
+   {
+    "best": 13,
+    "top_days": 4,
+    "sold14": 173,
+    "rank_day1": 14
+   },
+   {
+    "best": 14,
+    "top_days": 4,
+    "sold14": 161,
+    "rank_day1": 15
+   }
+  ],
+  "same": [
+   {
+    "best": 20,
+    "top_days": 4,
+    "sold14": 141,
+    "rank_day1": 24
+   },
+   {
+    "best": 30,
+    "top_days": 4,
+    "sold14": 135,
+    "rank_day1": 54
+   }
+  ]
+ },
+ "robust": {
+  "best_ratio_range": [
+   1.0308,
+   2.0351
+  ],
+  "best_ratio_range_c0q0": [
+   1.0308,
+   1.0455
+  ],
+  "best_ratio_range_others": [
+   1.1807,
+   2.0351
+  ],
+  "sold_ratio_range": [
+   0.8225,
+   1.0099
+  ],
+  "best_ratio_q_only_range": [
+   1.2414,
+   1.6429
+  ],
+  "sold_ratio_q_only_range": [
+   0.9589,
+   0.9905
+  ],
+  "combos_best_ratio_gt_sold_inverse": 27
+ }
+}
