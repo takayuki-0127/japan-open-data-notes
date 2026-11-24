@@ -1,0 +1,239 @@
+{
+ "settings": {
+  "members": 20000,
+  "usual_open_mean": 0.22,
+  "usual_open_sd": 0.12,
+  "click_per_open_base": 0.1,
+  "rho": -0.5,
+  "sent_per_subject": 2000,
+  "subjects": 6,
+  "open_strength_sd": 0.3,
+  "click_strength_sd": 0.3,
+  "reps_main": 3000,
+  "reps_grid": 500,
+  "seed": 1197
+ },
+ "main": {
+  "mismatch_obs": 0.7633,
+  "mismatch_true": 0.7653,
+  "mismatch_obs_cpo": 0.433,
+  "mean_open": 0.2221,
+  "mean_click": 0.0224,
+  "mean_clicks_per_subject": 44.8668,
+  "hit_open": 0.2323,
+  "loss_open": 0.2133,
+  "miss_open": 0.7677,
+  "hit_click": 0.6837,
+  "loss_click": 0.0342,
+  "miss_click": 0.3163,
+  "hit_cpo": 0.4813,
+  "loss_cpo": 0.0997,
+  "miss_cpo": 0.5187,
+  "loss_true_open": 0.2131,
+  "hit_true_open": 0.2347,
+  "open_winner_q_from_top": 4.5893
+ },
+ "example": [
+  {
+   "subject": "件名1",
+   "sent": 2000,
+   "opens": 537,
+   "clicks": 58,
+   "open_rate": 0.2685,
+   "click_rate": 0.029,
+   "click_per_open": 0.108,
+   "true_open_rate": 0.2733,
+   "true_click_per_open": 0.1007,
+   "true_click_rate": 0.0275
+  },
+  {
+   "subject": "件名2",
+   "sent": 2000,
+   "opens": 427,
+   "clicks": 25,
+   "open_rate": 0.2135,
+   "click_rate": 0.0125,
+   "click_per_open": 0.0585,
+   "true_open_rate": 0.2268,
+   "true_click_per_open": 0.0752,
+   "true_click_rate": 0.0171
+  },
+  {
+   "subject": "件名3",
+   "sent": 2000,
+   "opens": 729,
+   "clicks": 61,
+   "open_rate": 0.3645,
+   "click_rate": 0.0305,
+   "click_per_open": 0.0837,
+   "true_open_rate": 0.3716,
+   "true_click_per_open": 0.0812,
+   "true_click_rate": 0.0302
+  },
+  {
+   "subject": "件名4",
+   "sent": 2000,
+   "opens": 371,
+   "clicks": 62,
+   "open_rate": 0.1855,
+   "click_rate": 0.031,
+   "click_per_open": 0.1671,
+   "true_open_rate": 0.1972,
+   "true_click_per_open": 0.1482,
+   "true_click_rate": 0.0292
+  },
+  {
+   "subject": "件名5",
+   "sent": 2000,
+   "opens": 471,
+   "clicks": 43,
+   "open_rate": 0.2355,
+   "click_rate": 0.0215,
+   "click_per_open": 0.0913,
+   "true_open_rate": 0.2325,
+   "true_click_per_open": 0.0824,
+   "true_click_rate": 0.0192
+  },
+  {
+   "subject": "件名6",
+   "sent": 2000,
+   "opens": 551,
+   "clicks": 49,
+   "open_rate": 0.2755,
+   "click_rate": 0.0245,
+   "click_per_open": 0.0889,
+   "true_open_rate": 0.2852,
+   "true_click_per_open": 0.0899,
+   "true_click_rate": 0.0256
+  }
+ ],
+ "check_person_vs_bulk_max_gap": 0.0006,
+ "robust": {
+  "n": 108,
+  "mismatch_obs_min": 0.148,
+  "mismatch_obs_max": 0.966,
+  "mismatch_true_min": 0.104,
+  "mismatch_true_max": 0.98,
+  "by_rho_base": [
+   {
+    "rho": -0.7,
+    "mismatch_obs": 0.818,
+    "mismatch_true": 0.83,
+    "loss_open": 0.2215,
+    "loss_click": 0.0428
+   },
+   {
+    "rho": -0.4,
+    "mismatch_obs": 0.688,
+    "mismatch_true": 0.72,
+    "loss_open": 0.1901,
+    "loss_click": 0.0349
+   },
+   {
+    "rho": 0.0,
+    "mismatch_obs": 0.554,
+    "mismatch_true": 0.572,
+    "loss_open": 0.1517,
+    "loss_click": 0.0232
+   },
+   {
+    "rho": 0.4,
+    "mismatch_obs": 0.448,
+    "mismatch_true": 0.428,
+    "loss_open": 0.1005,
+    "loss_click": 0.0159
+   }
+  ],
+  "rho0_mismatch_obs_min": 0.166,
+  "rho0_mismatch_obs_max": 0.768,
+  "rhoneg_mismatch_true_min": 0.138,
+  "rhoneg_mismatch_true_max": 0.98,
+  "rhopos_mismatch_true_max": 0.636,
+  "loss_open_min": 0.0096,
+  "loss_open_max": 0.5105,
+  "loss_click_min": 0.0017,
+  "loss_click_max": 0.1125,
+  "share_click_better": 78.7,
+  "share_click_better_rhoneg": 77.78,
+  "open_better_count_by_sb": [
+   {
+    "sb": 0.1,
+    "count": 23,
+    "of": 36
+   },
+   {
+    "sb": 0.3,
+    "count": 0,
+    "of": 36
+   },
+   {
+    "sb": 0.5,
+    "count": 0,
+    "of": 36
+   }
+  ],
+  "by_n_k6_s03_rhom04": [
+   {
+    "n": 500,
+    "mismatch_obs": 0.708,
+    "hit_click": 0.53,
+    "hit_open": 0.244
+   },
+   {
+    "n": 2000,
+    "mismatch_obs": 0.688,
+    "hit_click": 0.708,
+    "hit_open": 0.308
+   },
+   {
+    "n": 10000,
+    "mismatch_obs": 0.738,
+    "hit_click": 0.856,
+    "hit_open": 0.258
+   }
+  ],
+  "by_sb": [
+   {
+    "sb": 0.1,
+    "mismatch_true_min": 0.104,
+    "mismatch_true_max": 0.454,
+    "mismatch_obs_min": 0.148,
+    "mismatch_obs_max": 0.736,
+    "loss_open_min": 0.0096,
+    "loss_open_max": 0.0521,
+    "loss_click_min": 0.0048,
+    "loss_click_max": 0.1125
+   },
+   {
+    "sb": 0.3,
+    "mismatch_true_min": 0.214,
+    "mismatch_true_max": 0.898,
+    "mismatch_obs_min": 0.22,
+    "mismatch_obs_max": 0.91,
+    "loss_open_min": 0.0396,
+    "loss_open_max": 0.2764,
+    "loss_click_min": 0.0032,
+    "loss_click_max": 0.1108
+   },
+   {
+    "sb": 0.5,
+    "mismatch_true_min": 0.246,
+    "mismatch_true_max": 0.98,
+    "mismatch_obs_min": 0.252,
+    "mismatch_obs_max": 0.966,
+    "loss_open_min": 0.0701,
+    "loss_open_max": 0.5105,
+    "loss_click_min": 0.0017,
+    "loss_click_max": 0.0777
+   }
+  ],
+  "k2_mismatch_obs_range": [
+   0.148,
+   0.624
+  ],
+  "k10_mismatch_obs_range": [
+   0.348,
+   0.966
+  ]
+ }
+}

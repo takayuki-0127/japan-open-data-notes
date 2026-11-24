@@ -1,0 +1,103 @@
+{
+ "setting": {
+  "mean_open_prob": 0.25,
+  "pairs": 10000,
+  "sigma": 0.05,
+  "group": 2000,
+  "conc": 2.0
+ },
+ "base": {
+  "resh": {
+   "margin1_mean": 1.1977,
+   "margin2_mean": 0.208,
+   "true_margin_mean": 0.2,
+   "keep_ratio": 0.1736,
+   "win_again": 0.5409,
+   "winner_truly_better": 0.6235,
+   "big_share": 0.1915,
+   "big_margin1_mean": 2.6819,
+   "big_margin2_mean": 0.4882,
+   "big_true_margin_mean": 0.4499,
+   "big_win_again": 0.6355,
+   "corr_d1_d2": 0.1703,
+   "sd_d1": 1.5086,
+   "sd_true": 0.6269,
+   "formula_keep_ratio": 0.1684
+  },
+  "fixed": {
+   "margin1_mean": 1.1993,
+   "margin2_mean": 0.5369,
+   "true_margin_mean": 0.2074,
+   "keep_ratio": 0.4477,
+   "win_again": 0.6339,
+   "winner_truly_better": 0.6302,
+   "big_share": 0.1854,
+   "big_margin1_mean": 2.691,
+   "big_margin2_mean": 1.2476,
+   "big_true_margin_mean": 0.4692,
+   "big_win_again": 0.8069,
+   "corr_d1_d2": 0.4559,
+   "sd_d1": 1.5021,
+   "sd_true": 0.6269,
+   "formula_keep_ratio": 0.1751
+  }
+ },
+ "null_effect0": {
+  "resh": {
+   "margin1_mean": 1.0969,
+   "margin2_mean": 0.0203,
+   "keep_ratio": 0.0185,
+   "win_again": 0.4872,
+   "winner_truly_better": 0.0768,
+   "big_share": 0.1457,
+   "big_margin1_mean": 2.6173,
+   "big_margin2_mean": 0.0176,
+   "big_win_again": 0.4989,
+   "corr_d1_d2": 0.0055,
+   "sd_d1": 1.3754
+  },
+  "fixed": {
+   "margin1_mean": 1.0839,
+   "margin2_mean": 0.3811,
+   "keep_ratio": 0.3516,
+   "win_again": 0.5988,
+   "winner_truly_better": 0.0787,
+   "big_share": 0.1445,
+   "big_margin1_mean": 2.5907,
+   "big_margin2_mean": 0.9023,
+   "big_win_again": 0.7451,
+   "corr_d1_d2": 0.3405,
+   "sd_d1": 1.3584
+  }
+ },
+ "grid27": {
+  "n": 27,
+  "keep_ratio_resh_min": -0.045,
+  "keep_ratio_resh_max": 0.8888,
+  "win_again_resh_min": 0.46,
+  "win_again_resh_max": 0.8325,
+  "truly_better_resh_min": 0.49,
+  "truly_better_resh_max": 0.9125,
+  "keep_ratio_fixed_min": 0.1173,
+  "keep_ratio_fixed_max": 0.8917,
+  "win_again_fixed_min": 0.5,
+  "win_again_fixed_max": 0.8675,
+  "formula_gap_absmax": 0.1001,
+  "small_effect_small_group_n": 6,
+  "small_effect_small_group_keep_min": -0.045,
+  "small_effect_small_group_keep_max": 0.1075,
+  "n_keep_ratio_resh_below1": 27,
+  "n_fixed_win_again_gt_resh": 22
+ },
+ "null_grid9": {
+  "n": 9,
+  "win_again_resh_min": 0.459,
+  "win_again_resh_max": 0.534,
+  "win_again_fixed_min": 0.511,
+  "win_again_fixed_max": 0.691,
+  "corr_fixed_min": 0.068,
+  "corr_fixed_max": 0.5823,
+  "corr_resh_min": -0.01,
+  "corr_resh_max": 0.1375
+ }
+}

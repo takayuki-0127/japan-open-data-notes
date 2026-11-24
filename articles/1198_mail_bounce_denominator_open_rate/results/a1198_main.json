@@ -1,0 +1,348 @@
+{
+ "settings": {
+  "shops": [
+   "A店",
+   "B店",
+   "C店",
+   "D店",
+   "E店",
+   "F店"
+  ],
+  "list_months_max": [
+   6,
+   12,
+   24,
+   36,
+   60,
+   96
+  ],
+  "true_reader_open": [
+   0.26,
+   0.28,
+   0.3,
+   0.32,
+   0.34,
+   0.36
+  ],
+  "addresses": 5000,
+  "hard_per_month": 0.01,
+  "abandon_per_month": 0.015,
+  "soft_active": 0.02,
+  "soft_abandoned": 0.2,
+  "reader_sd": 0.15,
+  "reps_main": 200,
+  "reps_grid": 100,
+  "seed": 1198
+ },
+ "shops": [
+  {
+   "shop": "A店",
+   "sent": 5000.0,
+   "hard": 147.71,
+   "soft": 133.82,
+   "delivered": 4718.47,
+   "abandoned_delivered": 167.935,
+   "r1": 0.2363,
+   "r2": 0.2435,
+   "r3": 0.2504,
+   "r4": 0.2596,
+   "list_months_max": 6,
+   "true_reader_open": 0.26,
+   "hard_share": 0.0295,
+   "soft_share": 0.0268,
+   "abandoned_share_of_delivered": 0.0356,
+   "r1_over_r3": 0.9437,
+   "r3_over_r4": 0.9644
+  },
+  {
+   "shop": "B店",
+   "sent": 5000.0,
+   "hard": 288.765,
+   "soft": 164.44,
+   "delivered": 4546.795,
+   "abandoned_delivered": 316.325,
+   "r1": 0.2364,
+   "r2": 0.2509,
+   "r3": 0.26,
+   "r4": 0.2794,
+   "list_months_max": 12,
+   "true_reader_open": 0.28,
+   "hard_share": 0.0578,
+   "soft_share": 0.0329,
+   "abandoned_share_of_delivered": 0.0696,
+   "r1_over_r3": 0.9094,
+   "r3_over_r4": 0.9304
+  },
+  {
+   "shop": "C店",
+   "sent": 5000.0,
+   "hard": 552.035,
+   "soft": 213.145,
+   "delivered": 4234.82,
+   "abandoned_delivered": 550.925,
+   "r1": 0.2205,
+   "r2": 0.2479,
+   "r3": 0.2604,
+   "r4": 0.2993,
+   "list_months_max": 24,
+   "true_reader_open": 0.3,
+   "hard_share": 0.1104,
+   "soft_share": 0.0426,
+   "abandoned_share_of_delivered": 0.1301,
+   "r1_over_r3": 0.8469,
+   "r3_over_r4": 0.8699
+  },
+  {
+   "shop": "D店",
+   "sent": 5000.0,
+   "hard": 804.395,
+   "soft": 243.6,
+   "delivered": 3952.005,
+   "abandoned_delivered": 718.065,
+   "r1": 0.2066,
+   "r2": 0.2463,
+   "r3": 0.2614,
+   "r4": 0.3195,
+   "list_months_max": 36,
+   "true_reader_open": 0.32,
+   "hard_share": 0.1609,
+   "soft_share": 0.0487,
+   "abandoned_share_of_delivered": 0.1817,
+   "r1_over_r3": 0.7904,
+   "r3_over_r4": 0.8183
+  },
+  {
+   "shop": "E店",
+   "sent": 5000.0,
+   "hard": 1238.42,
+   "soft": 287.16,
+   "delivered": 3474.42,
+   "abandoned_delivered": 936.75,
+   "r1": 0.1726,
+   "r2": 0.2295,
+   "r3": 0.2484,
+   "r4": 0.3401,
+   "list_months_max": 60,
+   "true_reader_open": 0.34,
+   "hard_share": 0.2477,
+   "soft_share": 0.0574,
+   "abandoned_share_of_delivered": 0.2696,
+   "r1_over_r3": 0.6949,
+   "r3_over_r4": 0.7304
+  },
+  {
+   "shop": "F店",
+   "sent": 5000.0,
+   "hard": 1782.11,
+   "soft": 300.9,
+   "delivered": 2916.99,
+   "abandoned_delivered": 1057.84,
+   "r1": 0.1343,
+   "r2": 0.2087,
+   "r3": 0.2302,
+   "r4": 0.3612,
+   "list_months_max": 96,
+   "true_reader_open": 0.36,
+   "hard_share": 0.3564,
+   "soft_share": 0.0602,
+   "abandoned_share_of_delivered": 0.3626,
+   "r1_over_r3": 0.5834,
+   "r3_over_r4": 0.6373
+  }
+ ],
+ "formula_r1_over_r3": [
+  0.9436,
+  0.9094,
+  0.8466,
+  0.7905,
+  0.6948,
+  0.5825
+ ],
+ "formula_max_gap": 0.0009,
+ "pair_agree_main": {
+  "r1": 0.0403,
+  "r2": 0.223,
+  "r3": 0.337
+ },
+ "top_share_main": {
+  "r1": {
+   "A店": 0.5,
+   "B店": 0.495,
+   "C店": 0.005
+  },
+  "r2": {
+   "B店": 0.435,
+   "C店": 0.255,
+   "D店": 0.215,
+   "A店": 0.095
+  },
+  "r3": {
+   "D店": 0.4,
+   "C店": 0.29,
+   "B店": 0.26,
+   "A店": 0.03,
+   "E店": 0.02
+  },
+  "r4": {
+   "F店": 0.945,
+   "E店": 0.055
+  }
+ },
+ "mean_order": {
+  "r1": [
+   "B店",
+   "A店",
+   "C店",
+   "D店",
+   "E店",
+   "F店"
+  ],
+  "r2": [
+   "B店",
+   "C店",
+   "D店",
+   "A店",
+   "E店",
+   "F店"
+  ],
+  "r3": [
+   "D店",
+   "C店",
+   "B店",
+   "A店",
+   "E店",
+   "F店"
+  ],
+  "r4": [
+   "F店",
+   "E店",
+   "D店",
+   "C店",
+   "B店",
+   "A店"
+  ]
+ },
+ "monthly": {
+  "r1_m6": 0.2065,
+  "r1_m7": 0.1955,
+  "r1_m8": 0.2349,
+  "r3_m6": 0.2568,
+  "r3_m7": 0.2472,
+  "r3_m8": 0.2516,
+  "r1_m1": 0.2298,
+  "r1_m12": 0.2312,
+  "r3_m1": 0.2744,
+  "r3_m12": 0.2494,
+  "r4_m1": 0.3107,
+  "r4_m12": 0.3088,
+  "hard_m6": 839,
+  "hard_m7": 893,
+  "hard_m8": 46,
+  "sent_m7": 5600,
+  "sent_m8": 4807,
+  "r1_m8_minus_m7": 0.0394,
+  "r3_m8_minus_m7": 0.0044,
+  "r4_m8_minus_m7": 0.0078
+ },
+ "robust": {
+  "n": 72,
+  "agree_r1_min": 0.0,
+  "agree_r1_max": 0.8447,
+  "agree_r2_min": 0.0047,
+  "agree_r2_max": 0.9913,
+  "agree_r3_min": 0.0053,
+  "agree_r3_max": 0.992,
+  "share_r3_ge_r1": 100.0,
+  "F_r1_over_r3_min": 0.3928,
+  "F_r1_over_r3_max": 0.7792,
+  "F_r3_over_r4_min": 0.3613,
+  "F_r3_over_r4_max": 1.0,
+  "z0_F_r3_over_r4_max": 1.0,
+  "z0_F_r3_over_r4_min": 1.0,
+  "FA_r1_negative_count_old_high": 34,
+  "FA_r3_negative_count_old_high": 23,
+  "by_order": [
+   {
+    "order": "古いほど高い",
+    "agree_r1_min": 0.0,
+    "agree_r1_max": 0.81,
+    "agree_r1_median": 0.0166,
+    "agree_r2_min": 0.0047,
+    "agree_r2_max": 0.9913,
+    "agree_r2_median": 0.1253,
+    "agree_r3_min": 0.0053,
+    "agree_r3_max": 0.992,
+    "agree_r3_median": 0.1433,
+    "share_r3_gt_r1": 100.0
+   },
+   {
+    "order": "でたらめ",
+    "agree_r1_min": 0.48,
+    "agree_r1_max": 0.8447,
+    "agree_r1_median": 0.5596,
+    "agree_r2_min": 0.5107,
+    "agree_r2_max": 0.9913,
+    "agree_r2_median": 0.6526,
+    "agree_r3_min": 0.51,
+    "agree_r3_max": 0.9907,
+    "agree_r3_median": 0.6663,
+    "share_r3_gt_r1": 100.0
+   }
+  ],
+  "by_order_z0": [
+   {
+    "order": "古いほど高い",
+    "agree_r3_min": 0.9107,
+    "agree_r3_max": 0.992,
+    "agree_r1_min": 0.016,
+    "agree_r1_max": 0.81
+   },
+   {
+    "order": "でたらめ",
+    "agree_r3_min": 0.9327,
+    "agree_r3_max": 0.9907,
+    "agree_r1_min": 0.532,
+    "agree_r1_max": 0.8447
+   }
+  ],
+  "by_h": [
+   {
+    "h": 0.005,
+    "agree_r1_min": 0.0033,
+    "agree_r1_max": 0.81,
+    "agree_r3_min": 0.006,
+    "agree_r3_max": 0.992
+   },
+   {
+    "h": 0.01,
+    "agree_r1_min": 0.0,
+    "agree_r1_max": 0.3773,
+    "agree_r3_min": 0.0053,
+    "agree_r3_max": 0.99
+   },
+   {
+    "h": 0.02,
+    "agree_r1_min": 0.0,
+    "agree_r1_max": 0.0807,
+    "agree_r3_min": 0.0127,
+    "agree_r3_max": 0.9907
+   }
+  ],
+  "by_step": [
+   {
+    "step": 0.01,
+    "agree_r1_min": 0.0,
+    "agree_r1_max": 0.36,
+    "agree_r3_min": 0.0053,
+    "agree_r3_max": 0.946
+   },
+   {
+    "step": 0.02,
+    "agree_r1_min": 0.0033,
+    "agree_r1_max": 0.81,
+    "agree_r3_min": 0.0247,
+    "agree_r3_max": 0.992
+   }
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+cut_days,stopped_share,rate_before_all,rate_after_kept,rate_after_all,rise_pt,rise_from_denominator_pt,rise_from_change_pt,kept_before_rate,kept_change_pt,est_all_from_hold,est_change_pt,rec_opens_ratio,true_opens_ratio,clicks_ratio,sent_ratio,stopped_active_share,stopped_silent_share,stopped_with_true_open_after,stopped_with_click_after,silent_share_all
+90,0.4944,0.152,0.2713,0.1491,11.9282,12.2207,-0.2925,0.3007,-2.9371,0.1493,-0.2695,0.92,0.8598,0.8553,0.5056,0.2413,0.2441,0.2622,0.0609,0.1498
+180,0.3888,0.152,0.2316,0.1491,7.9619,8.2544,-0.2925,0.2487,-1.7106,0.1502,-0.1843,0.9495,0.9107,0.9045,0.6111,0.1927,0.263,0.2315,0.0516,0.1498
+365,0.2633,0.152,0.1964,0.1491,4.4369,4.7294,-0.2925,0.2064,-0.9978,0.1509,-0.1101,0.9703,0.9488,0.9459,0.7367,0.169,0.3049,0.21,0.0433,0.1498
