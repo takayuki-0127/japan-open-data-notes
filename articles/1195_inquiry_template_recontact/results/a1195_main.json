@@ -1,0 +1,282 @@
+{
+ "seed": 1195,
+ "base": {
+  "complex_share": 0.3,
+  "t_indiv_simple": 10.0,
+  "t_indiv_complex": 18.0,
+  "t_template": 4.0,
+  "t_followup": 20.0,
+  "cv_time": 0.5,
+  "p_indiv_simple": 0.92,
+  "p_indiv_complex": 0.8,
+  "p_tmpl_simple": 0.92,
+  "p_tmpl_complex": 0.45,
+  "p_followup": 0.85,
+  "use_on_complex": 0.5,
+  "q_return": 0.7,
+  "delay_mean_days": 3.0,
+  "window_days": 7,
+  "max_contacts": 6
+ },
+ "n_issues": 40000,
+ "before_after": [
+  {
+   "metric": "per_contact_min",
+   "label": "1回の対応あたりの時間（分、記録の1件の時間）",
+   "before": 12.95,
+   "after": 7.66,
+   "change_pct": -40.82,
+   "diff": -5.29
+  },
+  {
+   "metric": "first_contact_min",
+   "label": "はじめの対応の時間（分）",
+   "before": 12.33,
+   "after": 6.11,
+   "change_pct": -50.46,
+   "diff": -6.22
+  },
+  {
+   "metric": "per_issue_total_min",
+   "label": "困りごと1つあたりの対応の時間の合計（分）",
+   "before": 14.11,
+   "after": 8.65,
+   "change_pct": -38.67,
+   "diff": -5.45
+  },
+  {
+   "metric": "contacts_per_issue",
+   "label": "困りごと1つあたりの対応の回数",
+   "before": 1.09,
+   "after": 1.13,
+   "change_pct": 3.63,
+   "diff": 0.04
+  },
+  {
+   "metric": "recontact_window_pct",
+   "label": "7日以内にもう一度来た割合（%、記録）",
+   "before": 7.3,
+   "after": 10.38,
+   "change_pct": 42.21,
+   "diff": 3.08
+  },
+  {
+   "metric": "recontact_any_pct",
+   "label": "いつかもう一度来た割合（%）",
+   "before": 8.09,
+   "after": 11.47,
+   "change_pct": 41.87,
+   "diff": 3.38
+  },
+  {
+   "metric": "recontact_after_window_pct",
+   "label": "8日以後にもう一度来た割合（%）",
+   "before": 0.79,
+   "after": 1.09,
+   "change_pct": 38.73,
+   "diff": 0.31
+  },
+  {
+   "metric": "gave_up_pct",
+   "label": "解決しないまま来なくなった割合（%、記録に出ない）",
+   "before": 4.0,
+   "after": 5.8,
+   "change_pct": 45.18,
+   "diff": 1.81
+  },
+  {
+   "metric": "solved_pct",
+   "label": "解決した割合（%）",
+   "before": 96.0,
+   "after": 94.2,
+   "change_pct": -1.88,
+   "diff": -1.81
+  },
+  {
+   "metric": "contacts_total",
+   "label": "対応の回数の合計（件）",
+   "before": 43581.0,
+   "after": 45165.0,
+   "change_pct": 3.63,
+   "diff": 1584.0
+  },
+  {
+   "metric": "followup_contacts",
+   "label": "2回目以降の対応の回数（件）",
+   "before": 3581.0,
+   "after": 5165.0,
+   "change_pct": 44.23,
+   "diff": 1584.0
+  }
+ ],
+ "by_group": [
+  {
+   "group": "定型",
+   "n": 28094,
+   "first_contact_min": 3.991,
+   "recontact_window_pct": 4.86,
+   "gave_up_pct": 2.7,
+   "per_issue_total_min": 5.175
+  },
+  {
+   "group": "込み入った・文面を使った",
+   "n": 5909,
+   "first_contact_min": 4.016,
+   "recontact_window_pct": 34.81,
+   "gave_up_pct": 19.17,
+   "per_issue_total_min": 12.492
+  },
+  {
+   "group": "込み入った・個別に書いた",
+   "n": 5997,
+   "first_contact_min": 18.082,
+   "recontact_window_pct": 12.17,
+   "gave_up_pct": 7.14,
+   "per_issue_total_min": 21.161
+  },
+  {
+   "group": "定型（前）",
+   "n": 28097,
+   "first_contact_min": 9.953,
+   "recontact_window_pct": 4.98,
+   "gave_up_pct": 2.69,
+   "per_issue_total_min": 11.191
+  },
+  {
+   "group": "込み入った（前）",
+   "n": 11903,
+   "first_contact_min": 17.934,
+   "recontact_window_pct": 12.76,
+   "gave_up_pct": 7.08,
+   "per_issue_total_min": 20.992
+  }
+ ],
+ "headline": {
+  "per_contact_change_pct": -40.82,
+  "per_issue_change_pct": -38.67,
+  "recontact_window_before_pct": 7.3,
+  "recontact_window_after_pct": 10.38,
+  "recontact_ratio": 1.422,
+  "followup_ratio": 1.442,
+  "gave_up_before_pct": 4.0,
+  "gave_up_after_pct": 5.8
+ },
+ "grid_summary": {
+  "n": 81,
+  "per_contact_change_range": [
+   -53.91,
+   -23.44
+  ],
+  "per_issue_change_range": [
+   -53.55,
+   -19.71
+  ],
+  "per_issue_increase_count": 0,
+  "per_contact_decrease_count": 81,
+  "recontact_diff_range": [
+   0.19,
+   16.26
+  ],
+  "gave_up_diff_range": [
+   -0.1,
+   11.04
+  ],
+  "issue_minus_contact_range": [
+   0.14,
+   11.31
+  ]
+ },
+ "grid_issue_increase_rows": [],
+ "grid_by_share_use": [
+  {
+   "complex_share": 0.1,
+   "use_on_complex": 0.2,
+   "per_contact_min_pct": -48.05,
+   "per_contact_max_pct": -43.58,
+   "per_issue_min_pct": -47.9,
+   "per_issue_max_pct": -42.94,
+   "recontact_diff_min_pt": 0.19,
+   "recontact_diff_max_pt": 0.94
+  },
+  {
+   "complex_share": 0.1,
+   "use_on_complex": 0.5,
+   "per_contact_min_pct": -51.26,
+   "per_contact_max_pct": -45.36,
+   "per_issue_min_pct": -50.83,
+   "per_issue_max_pct": -44.09,
+   "recontact_diff_min_pt": 0.65,
+   "recontact_diff_max_pt": 2.15
+  },
+  {
+   "complex_share": 0.1,
+   "use_on_complex": 0.8,
+   "per_contact_min_pct": -53.91,
+   "per_contact_max_pct": -47.04,
+   "per_issue_min_pct": -53.55,
+   "per_issue_max_pct": -45.14,
+   "recontact_diff_min_pt": 0.61,
+   "recontact_diff_max_pt": 3.22
+  },
+  {
+   "complex_share": 0.3,
+   "use_on_complex": 0.2,
+   "per_contact_min_pct": -36.49,
+   "per_contact_max_pct": -31.43,
+   "per_issue_min_pct": -36.29,
+   "per_issue_max_pct": -29.9,
+   "recontact_diff_min_pt": 0.43,
+   "recontact_diff_max_pt": 2.32
+  },
+  {
+   "complex_share": 0.3,
+   "use_on_complex": 0.5,
+   "per_contact_min_pct": -44.14,
+   "per_contact_max_pct": -35.6,
+   "per_issue_min_pct": -43.14,
+   "per_issue_max_pct": -30.76,
+   "recontact_diff_min_pt": 1.62,
+   "recontact_diff_max_pt": 6.25
+  },
+  {
+   "complex_share": 0.3,
+   "use_on_complex": 0.8,
+   "per_contact_min_pct": -52.34,
+   "per_contact_max_pct": -41.12,
+   "per_issue_min_pct": -51.11,
+   "per_issue_max_pct": -34.58,
+   "recontact_diff_min_pt": 2.32,
+   "recontact_diff_max_pt": 9.8
+  },
+  {
+   "complex_share": 0.5,
+   "use_on_complex": 0.2,
+   "per_contact_min_pct": -27.59,
+   "per_contact_max_pct": -23.44,
+   "per_issue_min_pct": -26.96,
+   "per_issue_max_pct": -19.71,
+   "recontact_diff_min_pt": 0.81,
+   "recontact_diff_max_pt": 4.58
+  },
+  {
+   "complex_share": 0.5,
+   "use_on_complex": 0.5,
+   "per_contact_min_pct": -39.22,
+   "per_contact_max_pct": -30.94,
+   "per_issue_min_pct": -37.44,
+   "per_issue_max_pct": -22.8,
+   "recontact_diff_min_pt": 2.73,
+   "recontact_diff_max_pt": 10.41
+  },
+  {
+   "complex_share": 0.5,
+   "use_on_complex": 0.8,
+   "per_contact_min_pct": -52.63,
+   "per_contact_max_pct": -37.54,
+   "per_issue_min_pct": -50.89,
+   "per_issue_max_pct": -26.23,
+   "recontact_diff_min_pt": 3.35,
+   "recontact_diff_max_pt": 16.26
+  }
+ ]
+}

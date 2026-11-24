@@ -1,0 +1,258 @@
+{
+ "settings": {
+  "n_ticket_per_year": 4000,
+  "first_line": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H"
+  ],
+  "specialists": [
+   "I",
+   "J"
+  ],
+  "a0": 1.0,
+  "b0": 1.5,
+  "tau_center": 1.0,
+  "tau_sd": 0.6,
+  "skill_sd": 0.5,
+  "spec_skill": 1.5,
+  "q_pass": 0.5,
+  "z8": [
+   -1.53,
+   -0.89,
+   -0.49,
+   -0.16,
+   0.16,
+   0.49,
+   0.89,
+   1.53
+  ],
+  "reps": 400,
+  "reps_grid": 200,
+  "seed": 1192
+ },
+ "rules": [
+  "①最初に受けた担当（最後の結果）",
+  "②最後に持っていた担当",
+  "③回した担当と受けた担当で半分ずつ",
+  "④最初に受けた担当（自分で解決だけ）"
+ ],
+ "base_fixed_pairing": {
+  "rank_corr_fixed_mean": [
+   0.848,
+   0.876,
+   0.874,
+   0.723
+  ],
+  "true_top": "A",
+  "most_passing": "B",
+  "least_passing": "E",
+  "top_by_rule": [
+   "A",
+   "A",
+   "A",
+   "E"
+  ],
+  "top10_by_rule": [
+   "A",
+   "A",
+   "A",
+   "E"
+  ],
+  "most_passing_rank_by_rule": [
+   3,
+   3,
+   3,
+   8
+  ],
+  "true_top_rank_by_rule": [
+   1,
+   1,
+   1,
+   2
+  ],
+  "spec_rate_rule2": 82.21,
+  "first_rate_rule2_mean": 84.9,
+  "spec_rate_rule3": 82.21,
+  "first_rate_rule3_mean": 84.28,
+  "spec_true_rate": 91.99,
+  "first_true_rate_range": [
+   47.4,
+   82.67
+  ],
+  "spread_by_rule_first8": [
+   [
+    73.08,
+    90.93
+   ],
+   [
+    68.29,
+    95.49
+   ],
+   [
+    71.14,
+    92.84
+   ],
+   [
+    45.39,
+    72.4
+   ]
+  ],
+  "overall_resolved_pct": 84.17,
+  "one_year_rates": [
+   [
+    87.67,
+    90.91,
+    74.33,
+    76.13,
+    83.2,
+    81.94,
+    80.65,
+    89.52,
+    null,
+    null
+   ],
+   [
+    94.31,
+    93.53,
+    70.32,
+    74.85,
+    85.17,
+    81.82,
+    79.94,
+    93.08,
+    80.6,
+    82.92
+   ],
+   [
+    90.43,
+    91.72,
+    72.65,
+    75.61,
+    84.09,
+    81.89,
+    80.36,
+    90.94,
+    80.6,
+    82.92
+   ],
+   [
+    67.05,
+    41.97,
+    50.52,
+    51.44,
+    70.36,
+    64.29,
+    55.43,
+    61.52,
+    null,
+    null
+   ]
+  ],
+  "overall_passed_pct": 30.33
+ },
+ "random_pairing": {
+  "rank_corr_skill": [
+   0.816,
+   0.846,
+   0.843,
+   0.71
+  ],
+  "rank_corr_passing": [
+   0.408,
+   0.396,
+   0.391,
+   -0.467
+  ],
+  "top_hit_pct": [
+   71.5,
+   67.0,
+   70.5,
+   54.75
+  ],
+  "passer_rank_mean": [
+   2.57,
+   2.74,
+   2.71,
+   7.38
+  ],
+  "passer_top_pct": [
+   30.75,
+   35.75,
+   32.0,
+   0.0
+  ],
+  "spec_minus_first_rule2_pt": -2.85,
+  "spec_minus_first_rule3_pt": -2.31
+ },
+ "grid_summary": {
+  "n_settings": 27,
+  "r1_rank_corr_skill_range": [
+   0.386,
+   0.972
+  ],
+  "r1_rank_corr_passing_range": [
+   0.003,
+   0.83
+  ],
+  "r1_top_hit_range": [
+   17.5,
+   93.0
+  ],
+  "r2_rank_corr_skill_range": [
+   0.402,
+   0.983
+  ],
+  "r2_rank_corr_passing_range": [
+   0.049,
+   0.804
+  ],
+  "r2_top_hit_range": [
+   18.5,
+   95.5
+  ],
+  "r3_rank_corr_skill_range": [
+   0.413,
+   0.978
+  ],
+  "r3_rank_corr_passing_range": [
+   0.013,
+   0.818
+  ],
+  "r3_top_hit_range": [
+   19.0,
+   94.0
+  ],
+  "r4_rank_corr_skill_range": [
+   0.366,
+   0.959
+  ],
+  "r4_rank_corr_passing_range": [
+   -0.799,
+   -0.108
+  ],
+  "r4_top_hit_range": [
+   45.0,
+   77.0
+  ],
+  "n_best_rule": {
+   "①最初に受けた担当（最後の結果）": 0,
+   "②最後に持っていた担当": 17,
+   "③回した担当と受けた担当で半分ずつ": 8,
+   "④最初に受けた担当（自分で解決だけ）": 2
+  },
+  "n_r1_passing_positive": 27,
+  "n_r2_passing_positive": 27,
+  "n_r4_passing_negative": 27,
+  "n_spec_lower_rule2": 20,
+  "spec_minus_first_rule2_range": [
+   -10.75,
+   5.22
+  ]
+ }
+}

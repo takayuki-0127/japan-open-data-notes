@@ -1,0 +1,4 @@
+usual_rank_band,n,count_top1_pct,count_top3_pct,capped_top3_pct
+ふだん1〜3位,187,86.1,100.0,100.0
+4〜6位,173,45.09,80.35,1.16
+7〜12位,346,23.7,48.55,0.0

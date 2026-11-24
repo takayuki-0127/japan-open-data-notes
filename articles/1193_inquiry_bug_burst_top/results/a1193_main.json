@@ -1,0 +1,225 @@
+{
+ "settings": {
+  "categories": [
+   "ログイン",
+   "支払い",
+   "配送",
+   "使い方",
+   "会員情報",
+   "返品",
+   "通知",
+   "請求書",
+   "画面の表示",
+   "予約",
+   "解約",
+   "その他"
+  ],
+  "usual_daily": [
+   8.0,
+   7.0,
+   6.0,
+   5.0,
+   4.5,
+   4.0,
+   3.5,
+   3.0,
+   2.5,
+   2.0,
+   1.5,
+   1.0
+  ],
+  "month_days": 30,
+  "years": 100,
+  "warm_months": 3,
+  "p_bug": 0.05,
+  "bug_median": 120,
+  "bug_sd": 0.7,
+  "spread": [
+   0.6,
+   0.3,
+   0.1
+  ],
+  "cap_k": 3.0,
+  "cap_window": 90,
+  "years_grid": 40,
+  "grid_p_bug": [
+   0.02,
+   0.05,
+   0.15
+  ],
+  "grid_bug_median": [
+   40,
+   120,
+   360
+  ],
+  "grid_steep": [
+   0.5,
+   1.0,
+   1.5
+  ],
+  "seed": 1193
+ },
+ "base": {
+  "months": 1200,
+  "months_with_bug_pct": 46.92,
+  "bug_ticket_share_pct": 5.84,
+  "count": {
+   "top_is_usual_pct": 72.08,
+   "top_is_usual_bug_months_pct": 50.98,
+   "top_is_usual_nobug_months_pct": 90.74,
+   "top_has_bug_pct": 27.42,
+   "top_has_bug_bug_months_pct": 58.44,
+   "top_bug_share_when_has_bug_pct": 53.1,
+   "top_bug_share_all_months_pct": 14.56,
+   "top_half_from_bug_pct": 15.33,
+   "top3_overlap_pct": 90.14,
+   "top3_overlap_bug_months_pct": 81.17,
+   "rank_corr_mean": 0.938,
+   "rank_corr_bug_months": 0.88
+  },
+  "capped": {
+   "top_is_usual_pct": 91.17,
+   "top_is_usual_bug_months_pct": 91.65,
+   "top_is_usual_nobug_months_pct": 90.74,
+   "top_has_bug_pct": 7.25,
+   "top_has_bug_bug_months_pct": 15.45,
+   "top_bug_share_when_has_bug_pct": 32.34,
+   "top_bug_share_all_months_pct": 2.34,
+   "top_half_from_bug_pct": 1.17,
+   "top3_overlap_pct": 98.36,
+   "top3_overlap_bug_months_pct": 98.64,
+   "rank_corr_mean": 0.991,
+   "rank_corr_bug_months": 0.991
+  },
+  "bug_rank_up_median": 3.0,
+  "bug_rank_up_capped_median": 0.0,
+  "bug_rank_up_ge3_pct": 56.95,
+  "bug_rank_up_capped_ge3_pct": 0.13,
+  "count_top_categories_pct": {
+   "ログイン": 72.08,
+   "支払い": 10.58,
+   "配送": 3.92,
+   "会員情報": 2.42,
+   "使い方": 2.25,
+   "返品": 1.92,
+   "通知": 1.83,
+   "画面の表示": 1.33,
+   "解約": 1.25,
+   "予約": 0.92,
+   "その他": 0.83,
+   "請求書": 0.67
+  },
+  "capped_top_categories_pct": {
+   "ログイン": 91.17,
+   "支払い": 8.67,
+   "配送": 0.17
+  },
+  "bug_size_median": 116.0,
+  "bug_size_p90": 292.0,
+  "n_bugs": 707,
+  "usual_monthly": {
+   "ログイン": 240.0,
+   "支払い": 210.0,
+   "配送": 180.0,
+   "使い方": 150.0,
+   "会員情報": 135.0,
+   "返品": 120.0,
+   "通知": 105.0,
+   "請求書": 90.0,
+   "画面の表示": 75.0,
+   "予約": 60.0,
+   "解約": 45.0,
+   "その他": 30.0
+  },
+  "bug_by_usual_rank": [
+   {
+    "usual_rank_band": "ふだん1〜3位",
+    "n": 187,
+    "count_top1_pct": 86.1,
+    "count_top3_pct": 100.0,
+    "capped_top3_pct": 100.0
+   },
+   {
+    "usual_rank_band": "4〜6位",
+    "n": 173,
+    "count_top1_pct": 45.09,
+    "count_top3_pct": 80.35,
+    "capped_top3_pct": 1.16
+   },
+   {
+    "usual_rank_band": "7〜12位",
+    "n": 346,
+    "count_top1_pct": 23.7,
+    "count_top3_pct": 48.55,
+    "capped_top3_pct": 0.0
+   }
+  ]
+ },
+ "grid_summary": {
+  "n_settings": 27,
+  "count_top_is_usual_pct_range": [
+   17.29,
+   98.54
+  ],
+  "capped_top_is_usual_pct_range": [
+   66.25,
+   99.79
+  ],
+  "count_top_has_bug_pct_range": [
+   3.96,
+   87.71
+  ],
+  "capped_top_has_bug_pct_range": [
+   1.46,
+   22.08
+  ],
+  "count_top_half_from_bug_pct_range": [
+   0.21,
+   83.54
+  ],
+  "capped_top_half_from_bug_pct_range": [
+   0.0,
+   12.29
+  ],
+  "count_top_bug_share_all_months_pct_range": [
+   0.58,
+   68.5
+  ],
+  "capped_top_bug_share_all_months_pct_range": [
+   0.38,
+   10.08
+  ],
+  "count_top3_overlap_pct_range": [
+   55.14,
+   99.38
+  ],
+  "capped_top3_overlap_pct_range": [
+   88.4,
+   100.0
+  ],
+  "count_rank_corr_mean_range": [
+   0.714,
+   0.991
+  ],
+  "capped_rank_corr_mean_range": [
+   0.959,
+   0.997
+  ],
+  "bug_ticket_share_pct_range": [
+   0.82,
+   36.53
+  ],
+  "months_with_bug_pct_range": [
+   18.54,
+   89.79
+  ],
+  "n_capped_top_usual_ge_count": 27,
+  "n_capped_top3_ge_count": 27,
+  "n_count_top_bugshare_gt_overall": 24,
+  "n_capped_top_bugshare_lt_overall": 27,
+  "count_top_bugshare_ratio_range": [
+   0.608,
+   3.829
+  ]
+ }
+}

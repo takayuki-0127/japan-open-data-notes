@@ -1,0 +1,339 @@
+{
+ "seed": 1194,
+ "base": {
+  "staff": 4,
+  "mean_min": 15.0,
+  "cv": 0.8,
+  "util": 0.8,
+  "out_share": 0.3
+ },
+ "weeks_counted": 26,
+ "weekly_arrivals_set": 576.0,
+ "reply_9_monday_mean_cal_h": 57.661,
+ "reply_9_other_mean_cal_h": 11.113,
+ "policies": [
+  {
+   "policy": "A",
+   "label": "A 来た順",
+   "n": 14956,
+   "all_mean_cal_h": 8.145,
+   "all_mean_bus_min": 90.44,
+   "out_mean_bus_min": 121.24,
+   "in_mean_bus_min": 77.26,
+   "arrive9_mean_bus_min": 139.16,
+   "arrive15_17_mean_bus_min": 42.67,
+   "ratio_9_vs_15_17": 3.261,
+   "reply9_mean_cal_h": 20.4,
+   "reply15_17_mean_cal_h": 1.581,
+   "in_within_60bus_pct": 62.24,
+   "out_within_60bus_pct": 36.32
+  },
+  {
+   "policy": "B",
+   "label": "B 営業時間中に来た分を先に",
+   "n": 14956,
+   "all_mean_cal_h": 8.129,
+   "all_mean_bus_min": 89.28,
+   "out_mean_bus_min": 252.77,
+   "in_mean_bus_min": 19.33,
+   "arrive9_mean_bus_min": 21.19,
+   "arrive15_17_mean_bus_min": 18.0,
+   "ratio_9_vs_15_17": 1.177,
+   "reply9_mean_cal_h": 15.464,
+   "reply15_17_mean_cal_h": 4.369,
+   "in_within_60bus_pct": 98.73,
+   "out_within_60bus_pct": 21.82
+  },
+  {
+   "policy": "C",
+   "label": "C 9〜11時だけ1人増やす",
+   "n": 14956,
+   "all_mean_cal_h": 7.641,
+   "all_mean_bus_min": 71.88,
+   "out_mean_bus_min": 99.63,
+   "in_mean_bus_min": 60.0,
+   "arrive9_mean_bus_min": 110.11,
+   "arrive15_17_mean_bus_min": 33.92,
+   "ratio_9_vs_15_17": 3.246,
+   "reply9_mean_cal_h": 19.294,
+   "reply15_17_mean_cal_h": 1.203,
+   "in_within_60bus_pct": 71.88,
+   "out_within_60bus_pct": 45.14
+  }
+ ],
+ "weekly_arrivals_counted_mean": 575.2,
+ "by_arrival_A": [
+  {
+   "arrive_band": "時間外",
+   "n": 4482,
+   "mean_cal_h": 21.803,
+   "median_cal_h": 13.667,
+   "mean_bus_min": 121.24,
+   "median_bus_min": 89.86
+  },
+  {
+   "arrive_band": "9時台",
+   "n": 1212,
+   "mean_cal_h": 2.319,
+   "median_cal_h": 1.51,
+   "mean_bus_min": 139.16,
+   "median_bus_min": 90.61
+  },
+  {
+   "arrive_band": "10時台",
+   "n": 1134,
+   "mean_cal_h": 1.962,
+   "median_cal_h": 1.172,
+   "mean_bus_min": 117.7,
+   "median_bus_min": 70.29
+  },
+  {
+   "arrive_band": "11時台",
+   "n": 1098,
+   "mean_cal_h": 1.58,
+   "median_cal_h": 0.726,
+   "mean_bus_min": 94.81,
+   "median_bus_min": 43.59
+  },
+  {
+   "arrive_band": "12時台",
+   "n": 1163,
+   "mean_cal_h": 1.424,
+   "median_cal_h": 0.518,
+   "mean_bus_min": 85.34,
+   "median_bus_min": 31.1
+  },
+  {
+   "arrive_band": "13時台",
+   "n": 1158,
+   "mean_cal_h": 1.64,
+   "median_cal_h": 0.416,
+   "mean_bus_min": 72.62,
+   "median_bus_min": 24.95
+  },
+  {
+   "arrive_band": "14時台",
+   "n": 1134,
+   "mean_cal_h": 1.84,
+   "median_cal_h": 0.373,
+   "mean_bus_min": 59.2,
+   "median_bus_min": 22.38
+  },
+  {
+   "arrive_band": "15時台",
+   "n": 1155,
+   "mean_cal_h": 2.802,
+   "median_cal_h": 0.393,
+   "mean_bus_min": 53.96,
+   "median_bus_min": 23.58
+  },
+  {
+   "arrive_band": "16時台",
+   "n": 1214,
+   "mean_cal_h": 3.011,
+   "median_cal_h": 0.353,
+   "mean_bus_min": 43.27,
+   "median_bus_min": 21.17
+  },
+  {
+   "arrive_band": "17時台",
+   "n": 1206,
+   "mean_cal_h": 3.971,
+   "median_cal_h": 0.304,
+   "mean_bus_min": 31.25,
+   "median_bus_min": 14.59
+  }
+ ],
+ "by_reply_A": [
+  {
+   "reply_band": "9時台",
+   "n": 2035,
+   "mean_cal_h": 20.4,
+   "mean_bus_min": 52.94,
+   "share_out_of_hours_pct": 80.0
+  },
+  {
+   "reply_band": "10時台",
+   "n": 1985,
+   "mean_cal_h": 14.333,
+   "mean_bus_min": 82.58,
+   "share_out_of_hours_pct": 51.59
+  },
+  {
+   "reply_band": "11時台",
+   "n": 1789,
+   "mean_cal_h": 10.934,
+   "mean_bus_min": 91.39,
+   "share_out_of_hours_pct": 35.1
+  },
+  {
+   "reply_band": "12時台",
+   "n": 1543,
+   "mean_cal_h": 8.293,
+   "mean_bus_min": 104.39,
+   "share_out_of_hours_pct": 33.25
+  },
+  {
+   "reply_band": "13時台",
+   "n": 1511,
+   "mean_cal_h": 5.365,
+   "mean_bus_min": 117.03,
+   "share_out_of_hours_pct": 27.86
+  },
+  {
+   "reply_band": "14時台",
+   "n": 1426,
+   "mean_cal_h": 2.879,
+   "mean_bus_min": 114.9,
+   "share_out_of_hours_pct": 14.66
+  },
+  {
+   "reply_band": "15時台",
+   "n": 1381,
+   "mean_cal_h": 2.07,
+   "mean_bus_min": 113.28,
+   "share_out_of_hours_pct": 3.69
+  },
+  {
+   "reply_band": "16時台",
+   "n": 1498,
+   "mean_cal_h": 1.512,
+   "mean_bus_min": 89.81,
+   "share_out_of_hours_pct": 0.53
+  },
+  {
+   "reply_band": "17時台",
+   "n": 1451,
+   "mean_cal_h": 1.187,
+   "mean_bus_min": 71.22,
+   "share_out_of_hours_pct": 0.0
+  },
+  {
+   "reply_band": "18時以降",
+   "n": 337,
+   "mean_cal_h": 1.284,
+   "mean_bus_min": 63.68,
+   "share_out_of_hours_pct": 0.0
+  }
+ ],
+ "grid_summary": {
+  "A_ratio_out0_range": [
+   0.802,
+   1.041
+  ],
+  "A_ratio_outpos_range": [
+   1.893,
+   5.629
+  ],
+  "A_ratio_outpos_gt1_count": 27,
+  "outpos_count": 27,
+  "B_ratio_outpos_range": [
+   1.092,
+   1.594
+  ],
+  "A_reply9_cal_h_outpos_range": [
+   13.892,
+   25.732
+  ],
+  "A_reply9_cal_h_out0_range": [
+   0.702,
+   13.63
+  ],
+  "A_reply9_out_share_outpos_range": [
+   53.73,
+   96.06
+  ],
+  "all_bus_B_over_A_range": [
+   0.905,
+   0.997
+  ]
+ },
+ "grid_by_out_share_A_ratio": {
+  "0.0": [
+   0.802,
+   1.041
+  ],
+  "0.15": [
+   1.893,
+   3.31
+  ],
+  "0.3": [
+   2.197,
+   5.629
+  ],
+  "0.45": [
+   2.112,
+   5.162
+  ]
+ },
+ "grid_base_rows": [
+  {
+   "out_share": 0.0,
+   "util": 0.8,
+   "staff": 4,
+   "A_arrive9_bus_min": 21.55,
+   "A_arrive15_17_bus_min": 22.28,
+   "A_ratio_9_vs_15_17": 0.967,
+   "A_reply9_cal_h": 6.412,
+   "A_reply9_out_share_pct": 0.0,
+   "A_all_bus_min": 23.08,
+   "B_arrive9_bus_min": 21.55,
+   "B_arrive15_17_bus_min": 22.28,
+   "B_ratio_9_vs_15_17": 0.967,
+   "B_reply9_cal_h": 6.412,
+   "B_reply9_out_share_pct": 0.0,
+   "B_all_bus_min": 23.08
+  },
+  {
+   "out_share": 0.15,
+   "util": 0.8,
+   "staff": 4,
+   "A_arrive9_bus_min": 66.15,
+   "A_arrive15_17_bus_min": 23.2,
+   "A_ratio_9_vs_15_17": 2.851,
+   "A_reply9_cal_h": 16.514,
+   "A_reply9_out_share_pct": 75.39,
+   "A_all_bus_min": 39.85,
+   "B_arrive9_bus_min": 22.12,
+   "B_arrive15_17_bus_min": 19.08,
+   "B_ratio_9_vs_15_17": 1.159,
+   "B_reply9_cal_h": 11.734,
+   "B_reply9_out_share_pct": 50.82,
+   "B_all_bus_min": 38.19
+  },
+  {
+   "out_share": 0.3,
+   "util": 0.8,
+   "staff": 4,
+   "A_arrive9_bus_min": 127.21,
+   "A_arrive15_17_bus_min": 38.48,
+   "A_ratio_9_vs_15_17": 3.306,
+   "A_reply9_cal_h": 20.554,
+   "A_reply9_out_share_pct": 77.56,
+   "A_all_bus_min": 84.11,
+   "B_arrive9_bus_min": 20.15,
+   "B_arrive15_17_bus_min": 16.6,
+   "B_ratio_9_vs_15_17": 1.214,
+   "B_reply9_cal_h": 16.153,
+   "B_reply9_out_share_pct": 56.77,
+   "B_all_bus_min": 82.62
+  },
+  {
+   "out_share": 0.45,
+   "util": 0.8,
+   "staff": 4,
+   "A_arrive9_bus_min": 214.0,
+   "A_arrive15_17_bus_min": 64.87,
+   "A_ratio_9_vs_15_17": 3.299,
+   "A_reply9_cal_h": 24.001,
+   "A_reply9_out_share_pct": 75.45,
+   "A_all_bus_min": 149.72,
+   "B_arrive9_bus_min": 20.47,
+   "B_arrive15_17_bus_min": 15.82,
+   "B_ratio_9_vs_15_17": 1.294,
+   "B_reply9_cal_h": 20.92,
+   "B_reply9_out_share_pct": 69.0,
+   "B_all_bus_min": 147.02
+  }
+ ]
+}

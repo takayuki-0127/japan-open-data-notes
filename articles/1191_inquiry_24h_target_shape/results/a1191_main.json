@@ -1,0 +1,216 @@
+{
+ "settings": {
+  "agents": 4,
+  "per_day_median": 100,
+  "days": 2880,
+  "warm_days": 30,
+  "days_grid": 1440,
+  "rho": 0.85,
+  "day_sd": 0.25,
+  "day_ar": 0.7,
+  "svc_sd": 0.8,
+  "target_h": 24.0,
+  "buffer_h": 4.0,
+  "grid_rho": [
+   0.8,
+   0.85,
+   0.9
+  ],
+  "grid_day_sd": [
+   0.15,
+   0.25,
+   0.35
+  ],
+  "grid_svc_sd": [
+   0.5,
+   0.8,
+   1.1
+  ],
+  "grid_buffer": [
+   2.0,
+   4.0,
+   8.0
+  ],
+  "seed": 1191
+ },
+ "base": {
+  "fifo": {
+   "band_0_20_pct": 77.37,
+   "within24_pct": 79.61,
+   "mean_h": 20.51,
+   "median_h": 3.21,
+   "p90_h": 56.29,
+   "p99_h": 279.64,
+   "max_h": 314.5,
+   "band_20_24_pct": 2.24,
+   "band_24_28_pct": 1.57,
+   "band_24_48_pct": 8.7,
+   "over48_pct": 11.69,
+   "over24_mean_h": 83.28
+  },
+  "late_last": {
+   "band_0_20_pct": 87.61,
+   "within24_pct": 94.01,
+   "mean_h": 20.24,
+   "median_h": 2.51,
+   "p90_h": 22.08,
+   "p99_h": 511.52,
+   "max_h": 1662.2,
+   "band_20_24_pct": 6.4,
+   "band_24_28_pct": 4.05,
+   "band_24_48_pct": 4.09,
+   "over48_pct": 1.9,
+   "over24_mean_h": 251.7
+  },
+  "light_first": {
+   "band_0_20_pct": 83.4,
+   "within24_pct": 93.66,
+   "mean_h": 18.73,
+   "median_h": 1.02,
+   "p90_h": 22.83,
+   "p99_h": 510.22,
+   "max_h": 1661.7,
+   "band_20_24_pct": 10.27,
+   "band_24_28_pct": 4.39,
+   "band_24_48_pct": 4.45,
+   "over48_pct": 1.89,
+   "over24_mean_h": 238.93
+  },
+  "mean_svc_h": 0.818,
+  "n_tickets": 287604,
+  "fifo_late_share_within24_in_late_last_pct": 70.61,
+  "light_first_heavy_within24_pct": 89.71,
+  "light_first_light_within24_pct": 94.98,
+  "fifo_heavy_within24_pct": 79.1,
+  "light_first_heavy_band_20_24_pct": 16.91
+ },
+ "buffer": [
+  {
+   "buffer_h": 2.0,
+   "light_first_band_0_20_pct": 87.45,
+   "light_first_within24_pct": 93.25,
+   "light_first_mean_h": 7.64,
+   "light_first_median_h": 0.97,
+   "light_first_p90_h": 23.29,
+   "light_first_p99_h": 147.36,
+   "light_first_max_h": 809.5,
+   "light_first_band_20_24_pct": 5.79,
+   "light_first_band_24_28_pct": 5.37,
+   "light_first_band_24_48_pct": 5.48,
+   "light_first_over48_pct": 1.27,
+   "light_first_over24_mean_h": 72.28
+  },
+  {
+   "buffer_h": 4.0,
+   "light_first_band_0_20_pct": 84.88,
+   "light_first_within24_pct": 95.24,
+   "light_first_mean_h": 8.27,
+   "light_first_median_h": 1.0,
+   "light_first_p90_h": 22.15,
+   "light_first_p99_h": 172.24,
+   "light_first_max_h": 819.2,
+   "light_first_band_20_24_pct": 10.35,
+   "light_first_band_24_28_pct": 3.35,
+   "light_first_band_24_48_pct": 3.41,
+   "light_first_over48_pct": 1.35,
+   "light_first_over24_mean_h": 96.68
+  },
+  {
+   "buffer_h": 8.0,
+   "light_first_band_0_20_pct": 88.79,
+   "light_first_within24_pct": 95.59,
+   "light_first_mean_h": 8.8,
+   "light_first_median_h": 1.07,
+   "light_first_p90_h": 20.8,
+   "light_first_p99_h": 173.9,
+   "light_first_max_h": 817.8,
+   "light_first_band_20_24_pct": 6.8,
+   "light_first_band_24_28_pct": 2.99,
+   "light_first_band_24_48_pct": 3.03,
+   "light_first_over48_pct": 1.38,
+   "light_first_over24_mean_h": 103.5
+  }
+ ],
+ "grid_summary": {
+  "n_settings": 27,
+  "n_settings_fifo_late_over_0_5pct": 25,
+  "fifo_within24_range": [
+   43.81,
+   99.7
+  ],
+  "late_last_within24_range": [
+   81.86,
+   99.89
+  ],
+  "light_first_within24_range": [
+   81.74,
+   99.87
+  ],
+  "n_late_last_within24_ge_fifo": 27,
+  "n_light_first_band2024_gt_fifo": 27,
+  "n_act_late_last_p99_gt_fifo": 16,
+  "n_act_late_last_over24mean_gt_fifo": 25,
+  "act_p99_ratio_late_last_range": [
+   0.331,
+   5.498
+  ],
+  "act_over24mean_ratio_late_last_range": [
+   1.974,
+   4.009
+  ],
+  "mean_diff_late_last_minus_fifo_range": [
+   -1.58,
+   0.25
+  ],
+  "mean_rel_diff_late_last_vs_fifo_pct_range": [
+   -3.64,
+   2.71
+  ],
+  "n_light_first_within24_ge_fifo": 27,
+  "n_act_light_first_over24mean_gt_fifo": 25,
+  "mean_rel_diff_light_first_vs_fifo_pct_range": [
+   -36.68,
+   -2.82
+  ],
+  "within24_gain_late_last_pt_range": [
+   0.16,
+   41.45
+  ],
+  "light_first_band2024_range": [
+   0.69,
+   15.97
+  ],
+  "fifo_band2024_range": [
+   0.13,
+   4.61
+  ],
+  "act_ids": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26
+  ]
+ },
+ "run_sec_note": "所要は確かめたことに書く"
+}

@@ -1,0 +1,4 @@
+policy,label,n,all_mean_cal_h,all_mean_bus_min,out_mean_bus_min,in_mean_bus_min,arrive9_mean_bus_min,arrive15_17_mean_bus_min,ratio_9_vs_15_17,reply9_mean_cal_h,reply15_17_mean_cal_h,in_within_60bus_pct,out_within_60bus_pct
+A,A 来た順,14956,8.145,90.44,121.24,77.26,139.16,42.67,3.261,20.4,1.581,62.24,36.32
+B,B 営業時間中に来た分を先に,14956,8.129,89.28,252.77,19.33,21.19,18.0,1.177,15.464,4.369,98.73,21.82
+C,C 9〜11時だけ1人増やす,14956,7.641,71.88,99.63,60.0,110.11,33.92,3.246,19.294,1.203,71.88,45.14

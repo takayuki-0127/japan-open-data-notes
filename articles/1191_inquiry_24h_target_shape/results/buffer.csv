@@ -1,0 +1,4 @@
+buffer_h,light_first_band_0_20_pct,light_first_within24_pct,light_first_mean_h,light_first_median_h,light_first_p90_h,light_first_p99_h,light_first_max_h,light_first_band_20_24_pct,light_first_band_24_28_pct,light_first_band_24_48_pct,light_first_over48_pct,light_first_over24_mean_h
+2.0,87.45,93.25,7.64,0.97,23.29,147.36,809.5,5.79,5.37,5.48,1.27,72.28
+4.0,84.88,95.24,8.27,1.0,22.15,172.24,819.2,10.35,3.35,3.41,1.35,96.68
+8.0,88.79,95.59,8.8,1.07,20.8,173.9,817.8,6.8,2.99,3.03,1.38,103.5

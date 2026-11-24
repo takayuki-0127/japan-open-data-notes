@@ -1,0 +1,286 @@
+{
+ "seed": 1196,
+ "base": {
+  "days": 200,
+  "per_day": 60,
+  "answer_rate": 0.3,
+  "median_h": 6.0,
+  "k_diff": 0.5,
+  "sigma_day": 0.4,
+  "sigma_e": 0.5,
+  "R_cat": 0.5,
+  "gamma_day": 0.0,
+  "s0": 7.0,
+  "a_diff": 1.0,
+  "sigma_s": 1.5
+ },
+ "reps": 300,
+ "estimates_base": [
+  {
+   "b_true": 0.0,
+   "method": "m1_simple",
+   "label": "① 時間と満足度の傾き",
+   "mean": -0.0654,
+   "p10": -0.0729,
+   "p90": -0.0579,
+   "slope_true": 0.0,
+   "bias": -0.0654,
+   "share_negative_pct": 100.0
+  },
+  {
+   "b_true": 0.0,
+   "method": "m2_with_type",
+   "label": "② ①＋問い合わせの種類",
+   "mean": -0.0381,
+   "p10": -0.0441,
+   "p90": -0.032,
+   "slope_true": 0.0,
+   "bias": -0.0381,
+   "share_negative_pct": 100.0
+  },
+  {
+   "b_true": 0.0,
+   "method": "m3_with_true_difficulty",
+   "label": "③ ①＋本当の難しさ（記録に無い）",
+   "mean": 0.0,
+   "p10": -0.0045,
+   "p90": 0.0048,
+   "slope_true": 0.0,
+   "bias": 0.0,
+   "share_negative_pct": 51.33
+  },
+  {
+   "b_true": 0.0,
+   "method": "m4_day_means",
+   "label": "④ 日ごとの平均どうし",
+   "mean": -0.0155,
+   "p10": -0.0257,
+   "p90": -0.0058,
+   "slope_true": 0.0,
+   "bias": -0.0155,
+   "share_negative_pct": 96.0
+  },
+  {
+   "b_true": 0.05,
+   "method": "m1_simple",
+   "label": "① 時間と満足度の傾き",
+   "mean": -0.1153,
+   "p10": -0.1232,
+   "p90": -0.1069,
+   "slope_true": -0.05,
+   "bias": -0.0653,
+   "share_negative_pct": 100.0
+  },
+  {
+   "b_true": 0.05,
+   "method": "m2_with_type",
+   "label": "② ①＋問い合わせの種類",
+   "mean": -0.0882,
+   "p10": -0.0946,
+   "p90": -0.0815,
+   "slope_true": -0.05,
+   "bias": -0.0382,
+   "share_negative_pct": 100.0
+  },
+  {
+   "b_true": 0.05,
+   "method": "m3_with_true_difficulty",
+   "label": "③ ①＋本当の難しさ（記録に無い）",
+   "mean": -0.05,
+   "p10": -0.0543,
+   "p90": -0.0455,
+   "slope_true": -0.05,
+   "bias": 0.0,
+   "share_negative_pct": 100.0
+  },
+  {
+   "b_true": 0.05,
+   "method": "m4_day_means",
+   "label": "④ 日ごとの平均どうし",
+   "mean": -0.0653,
+   "p10": -0.0764,
+   "p90": -0.0546,
+   "slope_true": -0.05,
+   "bias": -0.0153,
+   "share_negative_pct": 100.0
+  }
+ ],
+ "bands_base": [
+  {
+   "b_true": 0.0,
+   "band": "2時間未満",
+   "n_mean": 320.3,
+   "satisfaction_mean": 8.101,
+   "difficulty_mean": -1.098
+  },
+  {
+   "b_true": 0.0,
+   "band": "2〜6時間",
+   "n_mean": 1482.8,
+   "satisfaction_mean": 7.372,
+   "difficulty_mean": -0.371
+  },
+  {
+   "b_true": 0.0,
+   "band": "6〜12時間",
+   "n_mean": 1085.3,
+   "satisfaction_mean": 6.739,
+   "difficulty_mean": 0.261
+  },
+  {
+   "b_true": 0.0,
+   "band": "12〜24時間",
+   "n_mean": 553.9,
+   "satisfaction_mean": 6.243,
+   "difficulty_mean": 0.76
+  },
+  {
+   "b_true": 0.0,
+   "band": "24時間以上",
+   "n_mean": 158.0,
+   "satisfaction_mean": 5.745,
+   "difficulty_mean": 1.258
+  },
+  {
+   "b_true": 0.05,
+   "band": "2時間未満",
+   "n_mean": 319.2,
+   "satisfaction_mean": 8.025,
+   "difficulty_mean": -1.096
+  },
+  {
+   "b_true": 0.05,
+   "band": "2〜6時間",
+   "n_mean": 1481.9,
+   "satisfaction_mean": 7.181,
+   "difficulty_mean": -0.374
+  },
+  {
+   "b_true": 0.05,
+   "band": "6〜12時間",
+   "n_mean": 1089.1,
+   "satisfaction_mean": 6.313,
+   "difficulty_mean": 0.258
+  },
+  {
+   "b_true": 0.05,
+   "band": "12〜24時間",
+   "n_mean": 554.8,
+   "satisfaction_mean": 5.422,
+   "difficulty_mean": 0.759
+  },
+  {
+   "b_true": 0.05,
+   "band": "24時間以上",
+   "n_mean": 158.1,
+   "satisfaction_mean": 3.999,
+   "difficulty_mean": 1.258
+  }
+ ],
+ "one_run_b0": {
+  "n_answered": 3659,
+  "corr_reply_satisfaction": -0.3043,
+  "corr_reply_difficulty": 0.5104,
+  "median_reply_h": 5.688,
+  "mean_reply_h": 7.983
+ },
+ "grid_summary": {
+  "gamma0.0_m1_simple_bias_range": [
+   -0.067,
+   -0.0481
+  ],
+  "gamma0.0_m2_with_type_bias_range": [
+   -0.0552,
+   -0.0114
+  ],
+  "gamma0.0_m3_with_true_difficulty_bias_range": [
+   -0.0011,
+   0.0013
+  ],
+  "gamma0.0_m4_day_means_bias_range": [
+   -0.0183,
+   -0.0072
+  ],
+  "gamma0.3_m1_simple_bias_range": [
+   -0.0716,
+   -0.0382
+  ],
+  "gamma0.3_m2_with_type_bias_range": [
+   -0.0637,
+   -0.0198
+  ],
+  "gamma0.3_m3_with_true_difficulty_bias_range": [
+   -0.0009,
+   0.0007
+  ],
+  "gamma0.3_m4_day_means_bias_range": [
+   -0.0735,
+   -0.0371
+  ],
+  "b0_m1_mean_range": [
+   -0.0716,
+   -0.0382
+  ],
+  "b0_m2_mean_range": [
+   -0.0637,
+   -0.0114
+  ],
+  "by_R_gamma0": {
+   "0.2": {
+    "m1_bias": [
+     -0.0651,
+     -0.0481
+    ],
+    "m2_bias": [
+     -0.0552,
+     -0.0415
+    ]
+   },
+   "0.5": {
+    "m1_bias": [
+     -0.0649,
+     -0.0486
+    ],
+    "m2_bias": [
+     -0.0381,
+     -0.0278
+    ]
+   },
+   "0.8": {
+    "m1_bias": [
+     -0.067,
+     -0.0534
+    ],
+    "m2_bias": [
+     -0.0182,
+     -0.0114
+    ]
+   }
+  },
+  "gamma0_m4_width_range": [
+   0.0153,
+   0.0261
+  ],
+  "gamma0_m1_more_negative_than_true_count": 27,
+  "gamma0_m2_more_negative_than_true_count": 27,
+  "gamma0_n": 27
+ },
+ "day_size_check": [
+  {
+   "per_day": 60,
+   "answers_per_day": 18.0,
+   "m4_mean": -0.0653,
+   "m4_bias": -0.0153,
+   "m4_p10": -0.0743,
+   "m4_p90": -0.055
+  },
+  {
+   "per_day": 600,
+   "answers_per_day": 180.0,
+   "m4_mean": -0.0515,
+   "m4_bias": -0.0015,
+   "m4_p10": -0.0547,
+   "m4_p90": -0.0482
+  }
+ ]
+}
