@@ -1,0 +1,258 @@
+{
+ "settings": {
+  "readers": 20000,
+  "types": [
+   "すぐ見る人",
+   "平日の昼に見る人",
+   "週末にまとめて見る人"
+  ],
+  "type_share": [
+   0.5,
+   0.3,
+   0.2
+  ],
+  "open_rate_per_seen_hour": [
+   0.5,
+   0.25,
+   0.2
+  ],
+  "open_prob": {
+   "A": [
+    0.3,
+    0.3,
+    0.1
+   ],
+   "B": [
+    0.28,
+    0.15,
+    0.55
+   ]
+  },
+  "send": {
+   "火曜10時": 34,
+   "金曜18時": 114
+  },
+  "close_days": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   14,
+   30
+  ],
+  "reps_main": 200,
+  "reps_grid": 20,
+  "seed": 1208
+ },
+ "headline": {
+  "A_true": 0.26,
+  "B_true": 0.2948,
+  "A_closed_1": 0.2305,
+  "B_closed_1": 0.1801,
+  "A_closed_2": 0.239,
+  "B_closed_2": 0.1844,
+  "A_closed_3": 0.2399,
+  "B_closed_3": 0.1849,
+  "A_closed_7": 0.2598,
+  "B_closed_7": 0.2942,
+  "A_closed_30": 0.26,
+  "B_closed_30": 0.2948,
+  "A_ratio_1": 0.8867,
+  "B_ratio_1": 0.6108,
+  "B_ratio_3": 0.6269,
+  "B_formula_ratio_1": 0.6109,
+  "flip_days": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "B_fri_ratio_1": 0.7853,
+  "A_fri_ratio_1": 0.6414,
+  "B_fri_ratio_2": 0.8428,
+  "A_fri_ratio_2": 0.6533,
+  "B_fri_ratio_3": 0.9821,
+  "A_fri_ratio_3": 0.9634,
+  "B_fri_closed_1": 0.2314,
+  "A_fri_closed_1": 0.167,
+  "B_ratio_4": 0.6949,
+  "B_ratio_5": 0.9775,
+  "A_ratio_4": 0.9371,
+  "A_ratio_5": 0.9953,
+  "A_closed_4": 0.2436,
+  "B_closed_4": 0.2049,
+  "A_closed_5": 0.2587,
+  "B_closed_5": 0.2882,
+  "A_ratio_2": 0.9195,
+  "B_ratio_2": 0.6254,
+  "A_ratio_3": 0.9229,
+  "formula_gap_max_cells": 0.0005
+ },
+ "openers_mix_by_type": {
+  "A": {
+   "すぐ見る人": 0.5769,
+   "平日の昼に見る人": 0.3462,
+   "週末にまとめて見る人": 0.0769
+  },
+  "B": {
+   "すぐ見る人": 0.4746,
+   "平日の昼に見る人": 0.1525,
+   "週末にまとめて見る人": 0.3729
+  }
+ },
+ "example_one_run_B_tue": {
+  "true": 0.2962,
+  "closed_1": 0.1821,
+  "closed_2": 0.1865,
+  "closed_3": 0.1867,
+  "closed_4": 0.2067,
+  "closed_5": 0.2888,
+  "closed_7": 0.2955,
+  "closed_14": 0.2962,
+  "closed_30": 0.2962
+ },
+ "robust": {
+  "n": 72,
+  "n_B_truly_higher": 48,
+  "B_true_over_A_true_share_pct": 66.67,
+  "B_true_over_A_true_by_weekend": {
+   "0.1": 0.0,
+   "0.2": 100.0,
+   "0.35": 100.0
+  },
+  "B_ratio_1_min": 0.428,
+  "B_ratio_1_max": 0.9562,
+  "B_looks_lower_1_share_pct": 73.61,
+  "order_flipped_1_share_pct": 40.28,
+  "order_flipped_1_share_pct_when_B_truly_higher": 60.42,
+  "formula_gap_1_max": 0.0035,
+  "B_ratio_2_min": 0.4489,
+  "B_ratio_2_max": 0.9967,
+  "B_looks_lower_2_share_pct": 63.89,
+  "order_flipped_2_share_pct": 30.56,
+  "order_flipped_2_share_pct_when_B_truly_higher": 45.83,
+  "formula_gap_2_max": 0.0034,
+  "B_ratio_3_min": 0.4568,
+  "B_ratio_3_max": 0.9996,
+  "B_looks_lower_3_share_pct": 55.56,
+  "order_flipped_3_share_pct": 22.22,
+  "order_flipped_3_share_pct_when_B_truly_higher": 33.33,
+  "formula_gap_3_max": 0.0034,
+  "B_ratio_7_min": 0.9585,
+  "B_ratio_7_max": 1.0,
+  "B_looks_lower_7_share_pct": 33.33,
+  "order_flipped_7_share_pct": 0.0,
+  "order_flipped_7_share_pct_when_B_truly_higher": 0.0,
+  "formula_gap_7_max": 0.0013,
+  "B_ratio_1_by_send": [
+   {
+    "b_send": "土曜10時",
+    "min": 0.6945,
+    "max": 0.9331
+   },
+   {
+    "b_send": "日曜10時",
+    "min": 0.7179,
+    "max": 0.9562
+   },
+   {
+    "b_send": "月曜10時",
+    "min": 0.4311,
+    "max": 0.7813
+   },
+   {
+    "b_send": "木曜10時",
+    "min": 0.4295,
+    "max": 0.7825
+   },
+   {
+    "b_send": "水曜10時",
+    "min": 0.428,
+    "max": 0.7824
+   },
+   {
+    "b_send": "火曜10時",
+    "min": 0.4313,
+    "max": 0.7815
+   },
+   {
+    "b_send": "金曜10時",
+    "min": 0.479,
+    "max": 0.8517
+   },
+   {
+    "b_send": "金曜18時",
+    "min": 0.667,
+    "max": 0.9209
+   }
+  ],
+  "order_flipped_2_by_send_pct": {
+   "土曜10時": 0.0,
+   "日曜10時": 0.0,
+   "月曜10時": 66.67,
+   "木曜10時": 44.44,
+   "水曜10時": 66.67,
+   "火曜10時": 66.67,
+   "金曜10時": 0.0,
+   "金曜18時": 0.0
+  },
+  "B_ratio_2_by_speed": [
+   {
+    "speed": 0.5,
+    "min": 0.4489,
+    "max": 0.9002
+   },
+   {
+    "speed": 1.0,
+    "min": 0.4565,
+    "max": 0.9606
+   },
+   {
+    "speed": 2.0,
+    "min": 0.457,
+    "max": 0.9967
+   }
+  ],
+  "B_ratio_7_by_speed": [
+   {
+    "speed": 0.5,
+    "min": 0.9585,
+    "max": 0.9834
+   },
+   {
+    "speed": 1.0,
+    "min": 0.9968,
+    "max": 0.999
+   },
+   {
+    "speed": 2.0,
+    "min": 1.0,
+    "max": 1.0
+   }
+  ],
+  "order_flipped_by_k_and_speed_pct": {
+   "k1": {
+    "0.5": 45.83,
+    "1.0": 37.5,
+    "2.0": 37.5
+   },
+   "k2": {
+    "0.5": 33.33,
+    "1.0": 29.17,
+    "2.0": 29.17
+   },
+   "k3": {
+    "0.5": 25.0,
+    "1.0": 20.83,
+    "2.0": 20.83
+   },
+   "k7": {
+    "0.5": 0.0,
+    "1.0": 0.0,
+    "2.0": 0.0
+   }
+  }
+ }
+}

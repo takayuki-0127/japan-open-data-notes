@@ -1,0 +1,217 @@
+{
+ "base": {
+  "share_b": 0.3,
+  "rise": 0.6,
+  "r": 0.05,
+  "base_spam": 0.02,
+  "bad_addr": 0.02,
+  "k": 3.0
+ },
+ "first_weeks": [
+  1,
+  8
+ ],
+ "last_weeks": [
+  19,
+  26
+ ],
+ "base_info": {
+  "added_folder_T": 18.0,
+  "added_folder_P": 23.38,
+  "read_drop_factor_I": 0.8257,
+  "formula_drop_T_pt": -5.13
+ },
+ "headline": {
+  "T": {
+   "delivery_rate_first": 98.01,
+   "delivery_rate_last": 98.01,
+   "open_rate_first": 29.44,
+   "open_rate_last": 24.31,
+   "open_drop_pt": -5.13,
+   "open_drop_pt_p5_p95": [
+    -5.42,
+    -4.87
+   ],
+   "click_rate_first": 5.76,
+   "click_rate_last": 4.74,
+   "click_per_open_first": 19.56,
+   "click_per_open_last": 19.51,
+   "cpo_change_pt": -0.05,
+   "cpo_change_pt_p5_p95": [
+    -0.41,
+    0.3
+   ],
+   "open_rate_by_type_first": {
+    "A": 29.45,
+    "B": 29.45,
+    "C": 29.4
+   },
+   "open_rate_by_type_last": {
+    "A": 29.45,
+    "B": 12.32,
+    "C": 29.4
+   },
+   "open_change_by_type_pt": {
+    "A": 0.0,
+    "B": -17.13,
+    "C": -0.01
+   },
+   "b_part_of_drop": 100.0,
+   "inactive8_w8": 12.77,
+   "inactive8_w26": 20.6,
+   "inbox_share_first": 98.0,
+   "inbox_share_last": 80.04,
+   "inbox_open_rate_first": 30.01,
+   "inbox_open_rate_last": 29.99
+  },
+  "P": {
+   "delivery_rate_first": 98.01,
+   "delivery_rate_last": 98.01,
+   "open_rate_first": 29.41,
+   "open_rate_last": 24.3,
+   "open_drop_pt": -5.11,
+   "open_drop_pt_p5_p95": [
+    -5.33,
+    -4.9
+   ],
+   "click_rate_first": 5.75,
+   "click_rate_last": 4.91,
+   "click_per_open_first": 19.55,
+   "click_per_open_last": 20.21,
+   "cpo_change_pt": 0.67,
+   "cpo_change_pt_p5_p95": [
+    0.23,
+    1.13
+   ],
+   "open_rate_by_type_first": {
+    "A": 29.44,
+    "B": 29.39,
+    "C": 29.39
+   },
+   "open_rate_by_type_last": {
+    "A": 24.3,
+    "B": 24.3,
+    "C": 24.3
+   },
+   "open_change_by_type_pt": {
+    "A": -5.14,
+    "B": -5.08,
+    "C": -5.1
+   },
+   "b_part_of_drop": 29.76,
+   "inactive8_w8": 12.79,
+   "inactive8_w26": 20.7,
+   "inbox_share_first": 98.0,
+   "inbox_share_last": 74.64,
+   "inbox_open_rate_first": 29.98,
+   "inbox_open_rate_last": 32.15
+  },
+  "I": {
+   "delivery_rate_first": 98.01,
+   "delivery_rate_last": 98.01,
+   "open_rate_first": 29.43,
+   "open_rate_last": 24.29,
+   "open_drop_pt": -5.14,
+   "open_drop_pt_p5_p95": [
+    -5.4,
+    -4.9
+   ],
+   "click_rate_first": 5.75,
+   "click_rate_last": 4.75,
+   "click_per_open_first": 19.54,
+   "click_per_open_last": 19.58,
+   "cpo_change_pt": 0.04,
+   "cpo_change_pt_p5_p95": [
+    -0.44,
+    0.44
+   ],
+   "open_rate_by_type_first": {
+    "A": 29.44,
+    "B": 29.4,
+    "C": 29.44
+   },
+   "open_rate_by_type_last": {
+    "A": 24.29,
+    "B": 24.3,
+    "C": 24.26
+   },
+   "open_change_by_type_pt": {
+    "A": -5.15,
+    "B": -5.1,
+    "C": -5.18
+   },
+   "b_part_of_drop": 29.73,
+   "inactive8_w8": 12.78,
+   "inactive8_w26": 17.37,
+   "inbox_share_first": 98.0,
+   "inbox_share_last": 98.0,
+   "inbox_open_rate_first": 30.0,
+   "inbox_open_rate_last": 24.76
+  }
+ },
+ "robust": {
+  "T_n": 27,
+  "T_open_drop_range": [
+   -12.04,
+   -0.47
+  ],
+  "T_formula_gap_max": 0.15,
+  "T_b_part_range": [
+   96.32,
+   108.5
+  ],
+  "T_cpo_change_range": [
+   -0.19,
+   0.18
+  ],
+  "T_delivery_change_range": [
+   0.0,
+   0.0
+  ],
+  "T_b_share10_b_part_range": [
+   96.32,
+   108.5
+  ],
+  "T_b_share10_rise20_drop": [
+   -0.61,
+   -0.47
+  ],
+  "T_inactive8_change_range": [
+   0.38,
+   26.17
+  ],
+  "P_n": 12,
+  "P_cpo_change_by_k": {
+   "0.0": [
+    -0.08,
+    -0.04
+   ],
+   "1.0": [
+    0.2,
+    0.47
+   ],
+   "3.0": [
+    0.59,
+    0.64
+   ],
+   "6.0": [
+    0.95,
+    1.04
+   ]
+  },
+  "P_b_part_range": [
+   28.8,
+   30.63
+  ],
+  "P_added_folder_by_k": {
+   "0.0": 18.0,
+   "1.0": 19.8,
+   "3.0": 23.38,
+   "6.0": 28.49
+  },
+  "P_inactive8_change_range": [
+   3.85,
+   12.51
+  ]
+ }
+}

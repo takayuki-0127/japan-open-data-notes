@@ -1,0 +1,224 @@
+{
+ "settings": {
+  "people": 20000,
+  "lists_base_prob": {
+   "2": [
+    0.5,
+    0.3
+   ],
+   "3": [
+    0.5,
+    0.3,
+    0.15
+   ],
+   "5": [
+    0.5,
+    0.3,
+    0.15,
+    0.2,
+    0.1
+   ]
+  },
+  "two_addr_share": 0.3,
+  "main_addr_prob": 0.7,
+  "variation": 0.05,
+  "eagerness_effect": 1.0,
+  "reps_main": 200,
+  "reps_grid": 20,
+  "seed": 1206
+ },
+ "headline": {
+  "double_share_1": 0.4293,
+  "double_share_2": 0.0988,
+  "double_share_3": 0.0598,
+  "extra_mail_share_1": 0.3442,
+  "extra_mail_share_3": 0.0564,
+  "reached": 13377.09,
+  "sent_1": 20396.86,
+  "sent_3": 14176.83,
+  "double3_from_two_addr": 1.0,
+  "double2_only_variation": 0.3951,
+  "robust_double3_qpos_min": 0.0144,
+  "robust_double3_qpos_max": 0.2049
+ },
+ "formula_check": {
+  "s0_double_share_1_sim": 0.3204,
+  "s0_double_share_1_formula": 0.3203,
+  "s0_double_share_3_sim": 0.042
+ },
+ "example_one_run": {
+  "people_on_lists": 13381,
+  "records": 20434,
+  "sent_1": 20434,
+  "reached_1": 13381,
+  "double_share_1": 0.4308,
+  "extra_mail_share_1": 0.3452,
+  "sent_2": 14697,
+  "reached_2": 13381,
+  "double_share_2": 0.096,
+  "extra_mail_share_2": 0.0895,
+  "sent_3": 14168,
+  "reached_3": 13381,
+  "double_share_3": 0.0588,
+  "extra_mail_share_3": 0.0555,
+  "double3_from_two_addr": 1.0,
+  "double2_only_variation": 0.3871
+ },
+ "check_example_strings": {
+  "records": 20434,
+  "sent_2_by_string": 14697,
+  "sent_2_by_code": 14697,
+  "sent_3_by_string": 14168,
+  "sent_3_by_code": 14168,
+  "people": 13381,
+  "reached_1": 13381
+ },
+ "main_address": [
+  {
+   "main_addr_prob": 0.5,
+   "double_share_1": 0.4294,
+   "double_share_2": 0.1095,
+   "double_share_3": 0.0715
+  },
+  {
+   "main_addr_prob": 0.7,
+   "double_share_1": 0.4297,
+   "double_share_2": 0.0994,
+   "double_share_3": 0.0605
+  },
+  {
+   "main_addr_prob": 0.9,
+   "double_share_1": 0.4288,
+   "double_share_2": 0.0685,
+   "double_share_3": 0.0254
+  }
+ ],
+ "robust": {
+  "n": 108,
+  "n_without_two_addr": 27,
+  "n_with_two_addr": 81,
+  "double1_min": 0.2291,
+  "double1_max": 0.6683,
+  "double3_q0_max": 0.0,
+  "double3_qpos_min": 0.0144,
+  "double3_qpos_max": 0.2049,
+  "remain3_over_1_qpos_min": 0.0624,
+  "remain3_over_1_qpos_max": 0.3081,
+  "double2_minus_3_max": 0.2596,
+  "by_lists_1": [
+   {
+    "n_lists": 2,
+    "min": 0.2291,
+    "median": 0.3258,
+    "max": 0.473
+   },
+   {
+    "n_lists": 3,
+    "min": 0.3194,
+    "median": 0.4294,
+    "max": 0.5709
+   },
+   {
+    "n_lists": 5,
+    "min": 0.4629,
+    "median": 0.5604,
+    "max": 0.6683
+   }
+  ],
+  "by_lists_3_qpos": [
+   {
+    "n_lists": 2,
+    "min": 0.0144,
+    "median": 0.0413,
+    "max": 0.0988
+   },
+   {
+    "n_lists": 3,
+    "min": 0.0208,
+    "median": 0.0599,
+    "max": 0.1455
+   },
+   {
+    "n_lists": 5,
+    "min": 0.0331,
+    "median": 0.0888,
+    "max": 0.2049
+   }
+  ],
+  "by_q2_3": [
+   {
+    "two_addr_share": 0.0,
+    "min": 0.0,
+    "median": 0.0,
+    "max": 0.0
+   },
+   {
+    "two_addr_share": 0.15,
+    "min": 0.0144,
+    "median": 0.0299,
+    "max": 0.0614
+   },
+   {
+    "two_addr_share": 0.3,
+    "min": 0.029,
+    "median": 0.0599,
+    "max": 0.1227
+   },
+   {
+    "two_addr_share": 0.5,
+    "min": 0.0482,
+    "median": 0.1003,
+    "max": 0.2049
+   }
+  ],
+  "by_s_1": [
+   {
+    "eagerness_effect": 0.0,
+    "min": 0.2291,
+    "median": 0.32,
+    "max": 0.4656
+   },
+   {
+    "eagerness_effect": 1.0,
+    "min": 0.3236,
+    "median": 0.4294,
+    "max": 0.5618
+   },
+   {
+    "eagerness_effect": 2.0,
+    "min": 0.4678,
+    "median": 0.5694,
+    "max": 0.6683
+   }
+  ],
+  "base_cell": {
+   "two_addr_share": 0.3,
+   "variation": 0.05,
+   "eagerness_effect": 1.0,
+   "n_lists": 3.0,
+   "double_share_1": 0.4278,
+   "double_share_2": 0.0982,
+   "double_share_3": 0.0591,
+   "extra_mail_share_1": 0.3438,
+   "extra_mail_share_3": 0.0558,
+   "remain3_over_1": 0.1382
+  },
+  "s0_formula_cells": [
+   {
+    "n_lists": 2,
+    "formula": 0.2308,
+    "sim_q0_v0": 0.2308
+   },
+   {
+    "n_lists": 3,
+    "formula": 0.3203,
+    "sim_q0_v0": 0.3201
+   },
+   {
+    "n_lists": 5,
+    "formula": 0.464,
+    "sim_q0_v0": 0.4645
+   }
+  ]
+ }
+}

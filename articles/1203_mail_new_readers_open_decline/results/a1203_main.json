@@ -1,0 +1,184 @@
+{
+ "base": {
+  "tau": 12.0,
+  "floor": 0.45,
+  "inflow_start": 120,
+  "inflow_end": 30,
+  "leave": 0.004,
+  "mail_drop": 0.0,
+  "cohort_drop": 0.0,
+  "mean_b": 0.35
+ },
+ "first_weeks": [
+  1,
+  13
+ ],
+ "last_weeks": [
+  92,
+  104
+ ],
+ "headline": {
+  "s1_rate_first": 20.12,
+  "s1_rate_last": 16.79,
+  "s1_change_pt": -3.33,
+  "s1_mix_share": {
+   "1週ごと": 98.55,
+   "4週ごと": 98.36,
+   "3つ（12週未満・12〜51週・52週以上）": 91.34,
+   "2つ（1年未満・1年以上）": 71.27
+  },
+  "s1_mix_share_p10_p90_w1": [
+   87.67,
+   109.26
+  ],
+  "s1_mix_share_lastweights": {
+   "1週ごと": 93.63,
+   "4週ごと": 93.57,
+   "3つ（12週未満・12〜51週・52週以上）": 91.41,
+   "2つ（1年未満・1年以上）": 85.44
+  },
+  "s2_change_pt": -5.53,
+  "s2_within_ratio": {
+   "1週ごと": 0.8642,
+   "4週ごと": 0.864,
+   "3つ（12週未満・12〜51週・52週以上）": 0.8538,
+   "2つ（1年未満・1年以上）": 0.8252
+  },
+  "s2_true_mail_ratio": 0.8663,
+  "s2_mix_share": {
+   "1週ごと": 51.07,
+   "4週ごと": 50.98,
+   "3つ（12週未満・12〜51週・52週以上）": 47.32,
+   "2つ（1年未満・1年以上）": 36.97
+  },
+  "s3_change_pt": -4.27,
+  "s3_mix_share": {
+   "1週ごと": 35.61,
+   "4週ごと": 35.51,
+   "3つ（12週未満・12〜51週・52週以上）": 31.84,
+   "2つ（1年未満・1年以上）": 20.31
+  },
+  "s3_mix_share_lastweights": {
+   "1週ごと": 72.24,
+   "4週ごと": 72.2,
+   "3つ（12週未満・12〜51週・52週以上）": 70.52,
+   "2つ（1年未満・1年以上）": 65.95
+  },
+  "s3_within_ratio_w1": 0.8631,
+  "s4_change_pt": -2.32,
+  "s1_within_ratio": {
+   "1週ごと": 0.9972,
+   "4週ごと": 0.9969,
+   "3つ（12週未満・12〜51週・52週以上）": 0.9853,
+   "2つ（1年未満・1年以上）": 0.9522
+  },
+  "s4_mix_share_w1": 101.29,
+  "example_share_lt12_first": 22.16,
+  "example_share_lt12_last": 4.84,
+  "example_open_tenure0": 34.7,
+  "example_open_tenure52plus": 15.76,
+  "example_members_total": 13835
+ },
+ "robust": {
+  "n_grid": 72,
+  "mail_same_change_pt_range": [
+   -7.72,
+   -0.49
+  ],
+  "mail_same_dropping_n": 34,
+  "mail_same_dropping_mix_share_w1_range": [
+   86.04,
+   134.32
+  ],
+  "mail_same_dropping_mix_share_w4_range": [
+   86.03,
+   132.98
+  ],
+  "mail_same_dropping_mix_share_b3_range": [
+   78.35,
+   123.45
+  ],
+  "mail_same_dropping_mix_share_b2_range": [
+   36.5,
+   119.41
+  ],
+  "mail_same_dropping_b2_median": 79.9,
+  "mail_drop_true_ratio": 0.8663,
+  "mail_drop_within_w1_range": [
+   0.845,
+   0.8811
+  ],
+  "mail_drop_within_b2_range": [
+   0.7686,
+   0.8755
+  ],
+  "mail_same_within_w1_range": [
+   0.9742,
+   1.0097
+  ],
+  "mail_same_raw_ratio_range": [
+   0.6304,
+   0.9807
+  ],
+  "mail_drop_raw_ratio_range": [
+   0.545,
+   0.8502
+  ],
+  "mail_same_within_w1_outside_2pct": 1,
+  "mail_same_within_b2_below_095": 10,
+  "mail_same_within_b2_range": [
+   0.8611,
+   1.0058
+  ]
+ },
+ "example_decompose": {
+  "1週ごと": {
+   "scheme": "1週ごと",
+   "rate_first": 0.2021846457664774,
+   "rate_last": 0.16723006248571812,
+   "change": -0.03495458328075929,
+   "same_mix_last": 0.19936550748842138,
+   "same_mix_first": 0.17580586564126116,
+   "within_ratio_f": 0.9860566153905074,
+   "within_ratio_l": 0.9512200396484932,
+   "mix_share_f": 0.919348537059865,
+   "mix_share_l": 0.7546586927768186
+  },
+  "4週ごと": {
+   "scheme": "4週ごと",
+   "rate_first": 0.2021846457664774,
+   "rate_last": 0.16723006248571812,
+   "change": -0.03495458328075929,
+   "same_mix_last": 0.19930280945268833,
+   "same_mix_first": 0.17583160095623457,
+   "within_ratio_f": 0.9857465125362804,
+   "within_ratio_l": 0.9510808158275404,
+   "mix_share_f": 0.9175548370683801,
+   "mix_share_l": 0.7539224426900504
+  },
+  "3つ（12週未満・12〜51週・52週以上）": {
+   "scheme": "3つ（12週未満・12〜51週・52週以上）",
+   "rate_first": 0.2021846457664774,
+   "rate_last": 0.16723006248571812,
+   "change": -0.03495458328075929,
+   "same_mix_last": 0.1961531958416125,
+   "same_mix_first": 0.17655799480348422,
+   "within_ratio_f": 0.9701686055239268,
+   "within_ratio_l": 0.947167884817969,
+   "mix_share_f": 0.8274489535057651,
+   "mix_share_l": 0.733141366817534
+  },
+  "2つ（1年未満・1年以上）": {
+   "scheme": "2つ（1年未満・1年以上）",
+   "rate_first": 0.2021846457664774,
+   "rate_last": 0.16723006248571812,
+   "change": -0.03495458328075929,
+   "same_mix_last": 0.19009610779331884,
+   "same_mix_first": 0.178409058835022,
+   "within_ratio_f": 0.9402104055561133,
+   "within_ratio_l": 0.9373406461403885,
+   "mix_share_f": 0.6541644374340836,
+   "mix_share_l": 0.6801851059269428
+  }
+ }
+}

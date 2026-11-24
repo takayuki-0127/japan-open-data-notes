@@ -1,0 +1,124 @@
+{
+ "settings": {
+  "readers": 20000,
+  "signup_days_max": 1094,
+  "c0": 0.3,
+  "click_c0": -1.7,
+  "click_person_sd": 1.0,
+  "z95": 1.96,
+  "signup_effect": 0.5,
+  "person_sd": 0.8,
+  "day_sd": 0.15,
+  "pilot_shares": [
+   0.02,
+   0.05,
+   0.1,
+   0.2,
+   0.5
+  ],
+  "reps_main": 250,
+  "reps_grid": 60,
+  "seed": 1207
+ },
+ "headline": {
+  "rest_open_random10": 0.2857,
+  "rest_click_random10": 0.0473,
+  "abs_err_open_random10": 3.1242,
+  "abs_relerr_open_random10": 10.95,
+  "abs_relerr_click_random10": 12.87,
+  "cover_open_random10": 38.4,
+  "cover_click_random10": 78.8,
+  "cover_open_random10_sig0": 93.6,
+  "cover_open_random50": 18.4,
+  "abs_err_open_random50": 2.9278,
+  "abs_err_open_random50_sig0": 0.4934,
+  "abs_err_open_random10_sig0": 0.889,
+  "cover_open_random50_sig0": 84.8,
+  "formula_cover_open_random50_sig0": 83.42,
+  "formula_abs_err_open_random10": 3.5571,
+  "formula_abs_err_open_random50": 3.5024,
+  "abs_err_open_random10_sig03": 6.0725,
+  "cover_open_random10_sig03": 22.8,
+  "mean_err_old10": -8.3269,
+  "mean_err_new10": 19.4858,
+  "pilot_open_old10": 0.2142,
+  "rest_open_old10": 0.2975,
+  "pilot_open_new10": 0.4626,
+  "rest_open_new10": 0.2677,
+  "cover_old10": 3.2,
+  "cover_addr10": 38.4
+ },
+ "example_one_run": {
+  "pilot_open": 0.198,
+  "rest_open": 0.2822,
+  "pilot_click": 0.0305,
+  "rest_click": 0.0444,
+  "err_open": -0.0842,
+  "err_click": -0.0139,
+  "relerr_open": -0.2983,
+  "relerr_click": -0.3129,
+  "cover_open": false,
+  "cover_click": false,
+  "all_open_prob_no_day": 0.2856
+ },
+ "robust": {
+  "n": 54,
+  "random_cover_sig0_min": 88.33,
+  "random_cover_sig0_max": 98.33,
+  "random_cover_by_sig": [
+   {
+    "day_sd": 0.0,
+    "min": 88.33,
+    "max": 98.33
+   },
+   {
+    "day_sd": 0.15,
+    "min": 18.33,
+    "max": 63.33
+   },
+   {
+    "day_sd": 0.3,
+    "min": 15.0,
+    "max": 41.67
+   }
+  ],
+  "random_abs_err_by_sig": [
+   {
+    "day_sd": 0.0,
+    "min": 0.4275,
+    "max": 1.2734
+   },
+   {
+    "day_sd": 0.15,
+    "min": 1.5947,
+    "max": 3.9289
+   },
+   {
+    "day_sd": 0.3,
+    "min": 2.6481,
+    "max": 8.6941
+   }
+  ],
+  "random_mean_err_abs_max": 2.0523,
+  "old_mean_err_by_b": [
+   {
+    "signup_effect": 0.0,
+    "min": -1.7692,
+    "max": 1.3604
+   },
+   {
+    "signup_effect": 0.5,
+    "min": -8.7714,
+    "max": -6.9273
+   },
+   {
+    "signup_effect": 1.0,
+    "min": -9.1964,
+    "max": -7.5029
+   }
+  ],
+  "old_cover_b_pos_max": 21.67,
+  "old_b0_cover_min": 11.67,
+  "old_b0_cover_max": 95.0
+ }
+}
