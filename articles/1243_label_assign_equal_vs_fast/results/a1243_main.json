@@ -1,0 +1,141 @@
+{
+ "setting": {
+  "N": 10000,
+  "raters": 10,
+  "speed_median_per_h": 120.0,
+  "speed_log_sd": 0.4,
+  "err_median": 0.05,
+  "err_logit_sd": 0.6,
+  "rho": 0.5,
+  "teams": 2000
+ },
+ "base": {
+  "errors_equal": 579.21,
+  "errors_fast": 637.35,
+  "error_rate_equal_pct": 5.792,
+  "error_rate_fast_pct": 6.374,
+  "fast_over_equal_errors": 1.1004,
+  "expected_fast_over_equal": 1.1025,
+  "share_teams_fast_more_errors": 0.8335,
+  "time_equal_h": 15.834,
+  "time_fast_h": 7.809,
+  "fast_over_equal_time": 0.4932,
+  "unweighted_mean_err_pct": 5.78,
+  "fastest_items_share_fast_pct": 17.6,
+  "fastest_items_share_equal_pct": 10.0,
+  "fastest_err_share_fast_pct": 23.53,
+  "fastest_err_share_equal_pct": 14.72,
+  "unweighted_vs_fast_actual_pct_points": 0.594
+ },
+ "base_mean_realized_corr": 0.461,
+ "by_rho": [
+  {
+   "rho": -0.5,
+   "errors_equal": 578.27,
+   "errors_fast": 525.04,
+   "error_rate_equal_pct": 5.783,
+   "error_rate_fast_pct": 5.25,
+   "fast_over_equal_errors": 0.908,
+   "expected_fast_over_equal": 0.9075,
+   "share_teams_fast_more_errors": 0.1475,
+   "time_equal_h": 15.66,
+   "time_fast_h": 7.841,
+   "fast_over_equal_time": 0.5007,
+   "unweighted_mean_err_pct": 5.784,
+   "fastest_items_share_fast_pct": 17.46,
+   "fastest_items_share_equal_pct": 10.0,
+   "fastest_err_share_fast_pct": 11.67,
+   "fastest_err_share_equal_pct": 6.37,
+   "unweighted_vs_fast_actual_pct_points": -0.534
+  },
+  {
+   "rho": 0.0,
+   "errors_equal": 581.35,
+   "errors_fast": 581.43,
+   "error_rate_equal_pct": 5.814,
+   "error_rate_fast_pct": 5.814,
+   "fast_over_equal_errors": 1.0001,
+   "expected_fast_over_equal": 0.9997,
+   "share_teams_fast_more_errors": 0.4885,
+   "time_equal_h": 15.93,
+   "time_fast_h": 7.838,
+   "fast_over_equal_time": 0.492,
+   "unweighted_mean_err_pct": 5.814,
+   "fastest_items_share_fast_pct": 17.51,
+   "fastest_items_share_equal_pct": 10.0,
+   "fastest_err_share_fast_pct": 17.08,
+   "fastest_err_share_equal_pct": 9.95,
+   "unweighted_vs_fast_actual_pct_points": 0.0
+  },
+  {
+   "rho": 0.5,
+   "errors_equal": 579.21,
+   "errors_fast": 637.35,
+   "error_rate_equal_pct": 5.792,
+   "error_rate_fast_pct": 6.374,
+   "fast_over_equal_errors": 1.1004,
+   "expected_fast_over_equal": 1.1025,
+   "share_teams_fast_more_errors": 0.8335,
+   "time_equal_h": 15.834,
+   "time_fast_h": 7.809,
+   "fast_over_equal_time": 0.4932,
+   "unweighted_mean_err_pct": 5.78,
+   "fastest_items_share_fast_pct": 17.6,
+   "fastest_items_share_equal_pct": 10.0,
+   "fastest_err_share_fast_pct": 23.53,
+   "fastest_err_share_equal_pct": 14.72,
+   "unweighted_vs_fast_actual_pct_points": 0.594
+  }
+ ],
+ "example_team": {
+  "errors_equal": 458,
+  "errors_fast": 457,
+  "time_equal_h": 19.128,
+  "time_fast_h": 9.438
+ },
+ "grid_summary": {
+  "-0.5": {
+   "fast_over_equal_errors_range": [
+    0.8185,
+    0.9581
+   ],
+   "share_teams_fast_more_errors_range": [
+    0.04,
+    0.278
+   ],
+   "fast_over_equal_time_range": [
+    0.1571,
+    0.776
+   ]
+  },
+  "0.0": {
+   "fast_over_equal_errors_range": [
+    0.9923,
+    1.0051
+   ],
+   "share_teams_fast_more_errors_range": [
+    0.435,
+    0.526
+   ],
+   "fast_over_equal_time_range": [
+    0.1573,
+    0.7796
+   ]
+  },
+  "0.5": {
+   "fast_over_equal_errors_range": [
+    1.04,
+    1.2186
+   ],
+   "share_teams_fast_more_errors_range": [
+    0.695,
+    0.941
+   ],
+   "fast_over_equal_time_range": [
+    0.1566,
+    0.7797
+   ]
+  }
+ },
+ "grid_max_rel_diff_sim_vs_expected": 0.0034
+}

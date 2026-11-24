@@ -1,0 +1,201 @@
+{
+ "headline": {
+  "weeks": 16,
+  "per_week": 800,
+  "reps": 200,
+  "kind_shares": {
+   "返品だけ": 0.126,
+   "返品に似た件": 0.054,
+   "境目の件": 0.06,
+   "交換だけ": 0.12,
+   "その他": 0.64
+  },
+  "exchange_share_formula": {
+   "week_before": 0.1269,
+   "first_week_after": 0.1634,
+   "steady": 0.1861,
+   "jump_first": 0.0364,
+   "jump_steady": 0.0591
+  },
+  "exchange_share_sim": {
+   "weeks_1_8_mean": 0.1271,
+   "week_8": 0.1272,
+   "week_9": 0.1638,
+   "weeks_12_16_mean": 0.1867,
+   "jump_first_mean": 0.0366,
+   "jump_steady_mean": 0.0596,
+   "first_over_steady": 0.6141
+  },
+  "similar_exchange_before": 0.0194,
+  "similar_exchange_after": 0.0848,
+  "train_variants": {
+   "before": {
+    "train": "before",
+    "cut_mean": 0.4712,
+    "acc_mean": 0.8353,
+    "acc_p10": 0.8214,
+    "acc_p90": 0.8485,
+    "acc_border_mean": 0.1748,
+    "acc_border_p10": 0.134,
+    "acc_border_p90": 0.2178,
+    "acc_similar_mean": 0.9833
+   },
+   "all16": {
+    "train": "all16",
+    "cut_mean": 0.2173,
+    "acc_mean": 0.8722,
+    "acc_p10": 0.8602,
+    "acc_p90": 0.8841,
+    "acc_border_mean": 0.3336,
+    "acc_border_p10": 0.2674,
+    "acc_border_p90": 0.4041,
+    "acc_similar_mean": 0.947
+   },
+   "after": {
+    "train": "after",
+    "cut_mean": -0.2651,
+    "acc_mean": 0.9084,
+    "acc_p10": 0.906,
+    "acc_p90": 0.9098,
+    "acc_border_mean": 0.6992,
+    "acc_border_p10": 0.6198,
+    "acc_border_p90": 0.7743,
+    "acc_similar_mean": 0.7454
+   },
+   "after_skip3": {
+    "train": "after_skip3",
+    "cut_mean": -0.3294,
+    "acc_mean": 0.9077,
+    "acc_p10": 0.9032,
+    "acc_p90": 0.9098,
+    "acc_border_mean": 0.7404,
+    "acc_border_p10": 0.6541,
+    "acc_border_p90": 0.8296,
+    "acc_similar_mean": 0.7018
+   },
+   "relabel": {
+    "train": "relabel",
+    "cut_mean": -0.2671,
+    "acc_mean": 0.9087,
+    "acc_p10": 0.9065,
+    "acc_p90": 0.9098,
+    "acc_border_mean": 0.7011,
+    "acc_border_p10": 0.6371,
+    "acc_border_p90": 0.7716,
+    "acc_similar_mean": 0.7447
+   },
+   "ideal_new": {
+    "train": "ideal_new",
+    "cut_mean": -0.3024,
+    "acc_mean": 0.909,
+    "acc_p10": 0.9078,
+    "acc_p90": 0.9098,
+    "acc_border_mean": 0.7253,
+    "acc_border_p10": 0.6635,
+    "acc_border_p90": 0.7863,
+    "acc_similar_mean": 0.7222
+   }
+  },
+  "mixed_test": {
+   "acc_mixed_test": 0.8895,
+   "acc_new_on_test": 0.8726,
+   "border_mixed_test": 0.517,
+   "border_new_on_test": 0.3341,
+   "all_gap_points": 1.69,
+   "border_gap_points": 18.29
+  }
+ },
+ "robust": {
+  "combos": 27,
+  "reps_each": 100,
+  "first_over_steady": [
+   0.2609,
+   1.1987
+  ],
+  "first_over_steady_by_speed": {
+   "fast": [
+    1.0384,
+    1.1987
+   ],
+   "base": [
+    0.5595,
+    0.8143
+   ],
+   "slow": [
+    0.2609,
+    0.6761
+   ]
+  },
+  "acc_border_all16_by_week": {
+   "5": [
+    0.4077,
+    0.7266
+   ],
+   "9": [
+    0.2179,
+    0.3645
+   ],
+   "13": [
+    0.1324,
+    0.28
+   ]
+  },
+  "acc_border_all16": [
+   0.1324,
+   0.7266
+  ],
+  "acc_border_relabel": [
+   0.5063,
+   0.8524
+  ],
+  "gap_ideal_points": [
+   0.17,
+   17.11
+  ],
+  "gap_test_points": [
+   -4.34,
+   17.46
+  ],
+  "combos_mixed_test_higher": 17
+ },
+ "setting": {
+  "m_share": 0.06,
+  "speed": {
+   "fast": [
+    0.98
+   ],
+   "base": [
+    0.5,
+    0.75,
+    0.9,
+    0.98
+   ],
+   "slow": [
+    0.2,
+    0.36,
+    0.52,
+    0.67,
+    0.82,
+    0.98
+   ]
+  },
+  "w_change": 9,
+  "x_center": {
+   "返品だけ": -1.5,
+   "返品に似た件": -0.6,
+   "境目の件": 0.0,
+   "交換だけ": 1.2
+  },
+  "x_sd": 0.5,
+  "spill": [
+   0.15,
+   0.12,
+   0.08,
+   0.05
+  ],
+  "random_error": 0.02,
+  "relabel_find": 0.9,
+  "relabel_over": 0.05,
+  "holdout": 0.2
+ }
+}

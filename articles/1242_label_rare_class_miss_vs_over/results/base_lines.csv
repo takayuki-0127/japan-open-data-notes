@@ -1,0 +1,4 @@
+line,misses,overs,true_count,labeled_count,labeled_share_pct,labeled_over_true,miss_rate_pct,wrong_among_labeled_pct,accuracy_pct,overs_per_miss,share_rounds_overs_gt_misses
+1.25,79.28,2560.66,600.07,3081.46,15.407,5.1352,13.21,83.1,86.8,32.301,1.0
+2.988,400.7,71.9,600.07,271.26,1.356,0.4521,66.78,26.51,97.637,0.1794,0.0
+2.4341,285.52,284.77,600.07,599.33,2.997,0.9988,47.58,47.52,97.149,0.9974,0.475

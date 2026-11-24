@@ -1,0 +1,247 @@
+{
+ "setting": {
+  "N": 20000,
+  "true_share": 0.03,
+  "d": 2.5,
+  "reader_noise": 0.5,
+  "reps": 200,
+  "seen_sd": 1.118
+ },
+ "base": {
+  "half": {
+   "name": "①2つの分類を同じ重みで見る線",
+   "line": 1.25,
+   "misses": 79.28,
+   "overs": 2560.66,
+   "true_count": 600.07,
+   "labeled_count": 3081.46,
+   "labeled_share_pct": 15.407,
+   "labeled_over_true": 5.1352,
+   "miss_rate_pct": 13.21,
+   "wrong_among_labeled_pct": 83.1,
+   "accuracy_pct": 86.8,
+   "overs_per_miss": 32.301,
+   "share_rounds_overs_gt_misses": 1.0,
+   "formula": {
+    "misses": 79.07,
+    "overs": 2556.46,
+    "labeled_share_pct": 15.387,
+    "accuracy_pct": 86.822
+   }
+  },
+  "min_err": {
+   "name": "②まちがいの数がいちばん少ない線",
+   "line": 2.988,
+   "misses": 400.7,
+   "overs": 71.9,
+   "true_count": 600.07,
+   "labeled_count": 271.26,
+   "labeled_share_pct": 1.356,
+   "labeled_over_true": 0.4521,
+   "miss_rate_pct": 66.78,
+   "wrong_among_labeled_pct": 26.51,
+   "accuracy_pct": 97.637,
+   "overs_per_miss": 0.1794,
+   "share_rounds_overs_gt_misses": 0.0,
+   "formula": {
+    "misses": 401.26,
+    "overs": 73.01,
+    "labeled_share_pct": 1.359,
+    "accuracy_pct": 97.629
+   }
+  },
+  "match": {
+   "name": "③付けた割合が本当の割合と合う線",
+   "line": 2.4341,
+   "misses": 285.52,
+   "overs": 284.77,
+   "true_count": 600.07,
+   "labeled_count": 599.33,
+   "labeled_share_pct": 2.997,
+   "labeled_over_true": 0.9988,
+   "miss_rate_pct": 47.58,
+   "wrong_among_labeled_pct": 47.52,
+   "accuracy_pct": 97.149,
+   "overs_per_miss": 0.9974,
+   "share_rounds_overs_gt_misses": 0.475,
+   "formula": {
+    "misses": 285.89,
+    "overs": 285.89,
+    "labeled_share_pct": 3.0,
+    "accuracy_pct": 97.141
+   }
+  }
+ },
+ "grid_summary": {
+  "half": {
+   "overs_per_miss_range": [
+    8.9886,
+    99.7194
+   ],
+   "labeled_over_true_range": [
+    1.47,
+    25.4545
+   ],
+   "n_overs_gt_misses": 9,
+   "miss_rate_pct_range": [
+    5.78,
+    25.27
+   ],
+   "max_rel_diff_formula": 0.014
+  },
+  "min_err": {
+   "overs_per_miss_range": [
+    0.0019,
+    0.5488
+   ],
+   "labeled_over_true_range": [
+    0.0053,
+    0.9126
+   ],
+   "n_overs_gt_misses": 0,
+   "miss_rate_pct_range": [
+    19.38,
+    99.66
+   ],
+   "max_rel_diff_formula": 0.0952
+  },
+  "match": {
+   "overs_per_miss_range": [
+    0.9871,
+    1.0185
+   ],
+   "labeled_over_true_range": [
+    0.9925,
+    1.0112
+   ],
+   "n_overs_gt_misses": 6,
+   "miss_rate_pct_range": [
+    15.39,
+    84.86
+   ],
+   "max_rel_diff_formula": 0.0185
+  }
+ },
+ "check_sample": [
+  {
+   "line": "half",
+   "n_check": 100,
+   "true_overs_minus_misses": 2433,
+   "rare_in_check_mean": 2.79,
+   "share_no_rare_in_check": 0.061,
+   "correct_direction": 1.0,
+   "tie": 0.0,
+   "reversed": 0.0
+  },
+  {
+   "line": "half",
+   "n_check": 300,
+   "true_overs_minus_misses": 2433,
+   "rare_in_check_mean": 8.49,
+   "share_no_rare_in_check": 0.0,
+   "correct_direction": 1.0,
+   "tie": 0.0,
+   "reversed": 0.0
+  },
+  {
+   "line": "half",
+   "n_check": 1000,
+   "true_overs_minus_misses": 2433,
+   "rare_in_check_mean": 28.04,
+   "share_no_rare_in_check": 0.0,
+   "correct_direction": 1.0,
+   "tie": 0.0,
+   "reversed": 0.0
+  },
+  {
+   "line": "half",
+   "n_check": 3000,
+   "true_overs_minus_misses": 2433,
+   "rare_in_check_mean": 84.63,
+   "share_no_rare_in_check": 0.0,
+   "correct_direction": 1.0,
+   "tie": 0.0,
+   "reversed": 0.0
+  },
+  {
+   "line": "min_err",
+   "n_check": 100,
+   "true_overs_minus_misses": -308,
+   "rare_in_check_mean": 2.82,
+   "share_no_rare_in_check": 0.0503,
+   "correct_direction": 0.752,
+   "tie": 0.1847,
+   "reversed": 0.0633
+  },
+  {
+   "line": "min_err",
+   "n_check": 300,
+   "true_overs_minus_misses": -308,
+   "rare_in_check_mean": 8.37,
+   "share_no_rare_in_check": 0.0003,
+   "correct_direction": 0.9567,
+   "tie": 0.028,
+   "reversed": 0.0153
+  },
+  {
+   "line": "min_err",
+   "n_check": 1000,
+   "true_overs_minus_misses": -308,
+   "rare_in_check_mean": 28.22,
+   "share_no_rare_in_check": 0.0,
+   "correct_direction": 1.0,
+   "tie": 0.0,
+   "reversed": 0.0
+  },
+  {
+   "line": "min_err",
+   "n_check": 3000,
+   "true_overs_minus_misses": -308,
+   "rare_in_check_mean": 84.88,
+   "share_no_rare_in_check": 0.0,
+   "correct_direction": 1.0,
+   "tie": 0.0,
+   "reversed": 0.0
+  },
+  {
+   "line": "match",
+   "n_check": 100,
+   "true_overs_minus_misses": 20,
+   "rare_in_check_mean": 2.8,
+   "share_no_rare_in_check": 0.054,
+   "correct_direction": 0.4113,
+   "tie": 0.24,
+   "reversed": 0.3487
+  },
+  {
+   "line": "match",
+   "n_check": 300,
+   "true_overs_minus_misses": 20,
+   "rare_in_check_mean": 8.44,
+   "share_no_rare_in_check": 0.0,
+   "correct_direction": 0.4743,
+   "tie": 0.1333,
+   "reversed": 0.3923
+  },
+  {
+   "line": "match",
+   "n_check": 1000,
+   "true_overs_minus_misses": 20,
+   "rare_in_check_mean": 28.17,
+   "share_no_rare_in_check": 0.0,
+   "correct_direction": 0.545,
+   "tie": 0.068,
+   "reversed": 0.387
+  },
+  {
+   "line": "match",
+   "n_check": 3000,
+   "true_overs_minus_misses": 20,
+   "rare_in_check_mean": 84.7,
+   "share_no_rare_in_check": 0.0,
+   "correct_direction": 0.6193,
+   "tie": 0.0453,
+   "reversed": 0.3353
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+rho,errors_equal,errors_fast,error_rate_equal_pct,error_rate_fast_pct,fast_over_equal_errors,expected_fast_over_equal,share_teams_fast_more_errors,time_equal_h,time_fast_h,fast_over_equal_time,unweighted_mean_err_pct,fastest_items_share_fast_pct,fastest_items_share_equal_pct,fastest_err_share_fast_pct,fastest_err_share_equal_pct,unweighted_vs_fast_actual_pct_points
+-0.5,578.27,525.04,5.783,5.25,0.908,0.9075,0.1475,15.66,7.841,0.5007,5.784,17.46,10.0,11.67,6.37,-0.534
+0.0,581.35,581.43,5.814,5.814,1.0001,0.9997,0.4885,15.93,7.838,0.492,5.814,17.51,10.0,17.08,9.95,0.0
+0.5,579.21,637.35,5.792,6.374,1.1004,1.1025,0.8335,15.834,7.809,0.4932,5.78,17.6,10.0,23.53,14.72,0.594

@@ -1,0 +1,371 @@
+{
+ "headline": {
+  "items_per_month": 5000,
+  "months": 200,
+  "acc_each_category": 0.88,
+  "one_month_correct_share": 0.8778,
+  "by_category": {
+   "配送": {
+    "category": "配送",
+    "true": 0.34,
+    "missed": 0.0408,
+    "incoming": 0.0223,
+    "seen_formula": 0.3215,
+    "seen_mean": 0.3214,
+    "seen_p10": 0.3134,
+    "seen_p90": 0.3296,
+    "ratio": 0.9453,
+    "share_months_over": 0.0
+   },
+   "返品": {
+    "category": "返品",
+    "true": 0.24,
+    "missed": 0.0288,
+    "incoming": 0.0295,
+    "seen_formula": 0.2407,
+    "seen_mean": 0.2403,
+    "seen_p10": 0.232,
+    "seen_p90": 0.2488,
+    "ratio": 1.0013,
+    "share_months_over": 0.53
+   },
+   "支払い": {
+    "category": "支払い",
+    "true": 0.16,
+    "missed": 0.0192,
+    "incoming": 0.0173,
+    "seen_formula": 0.1581,
+    "seen_mean": 0.1577,
+    "seen_p10": 0.1508,
+    "seen_p90": 0.1646,
+    "ratio": 0.9859,
+    "share_months_over": 0.345
+   },
+   "会員登録": {
+    "category": "会員登録",
+    "true": 0.12,
+    "missed": 0.0144,
+    "incoming": 0.0202,
+    "seen_formula": 0.1258,
+    "seen_mean": 0.1262,
+    "seen_p10": 0.1198,
+    "seen_p90": 0.1322,
+    "ratio": 1.0514,
+    "share_months_over": 0.875
+   },
+   "使い方": {
+    "category": "使い方",
+    "true": 0.09,
+    "missed": 0.0108,
+    "incoming": 0.0139,
+    "seen_formula": 0.0931,
+    "seen_mean": 0.0932,
+    "seen_p10": 0.0888,
+    "seen_p90": 0.098,
+    "ratio": 1.0359,
+    "share_months_over": 0.8
+   },
+   "その他": {
+    "category": "その他",
+    "true": 0.05,
+    "missed": 0.006,
+    "incoming": 0.0168,
+    "seen_formula": 0.0608,
+    "seen_mean": 0.0612,
+    "seen_p10": 0.0566,
+    "seen_p90": 0.0654,
+    "ratio": 1.2232,
+    "share_months_over": 1.0
+   }
+  },
+  "even_pattern_threshold_share": 0.1667,
+  "change": {
+   "使い方": {
+    "category": "使い方",
+    "true_before": 0.09,
+    "true_after": 0.135,
+    "true_ratio": 1.5,
+    "true_points": 4.5,
+    "seen_before_formula": 0.0931,
+    "seen_after_formula": 0.132,
+    "seen_ratio_formula": 1.4179,
+    "seen_points_formula": 3.891,
+    "seen_ratio_mean": 1.4277,
+    "seen_ratio_p10": 1.3147,
+    "seen_ratio_p90": 1.5398,
+    "share_pairs_seen_ratio_below_true": 0.795
+   },
+   "その他": {
+    "category": "その他",
+    "true_before": 0.05,
+    "true_after": 0.075,
+    "true_ratio": 1.5,
+    "true_points": 2.5,
+    "seen_before_formula": 0.0608,
+    "seen_after_formula": 0.0824,
+    "seen_ratio_formula": 1.3546,
+    "seen_points_formula": 2.156,
+    "seen_ratio_mean": 1.3547,
+    "seen_ratio_p10": 1.2228,
+    "seen_ratio_p90": 1.4669,
+    "share_pairs_seen_ratio_below_true": 0.95
+   },
+   "配送": {
+    "category": "配送",
+    "true_before": 0.34,
+    "true_after": 0.2267,
+    "true_ratio": 0.6667,
+    "true_points": -11.333,
+    "seen_before_formula": 0.3215,
+    "seen_after_formula": 0.2256,
+    "seen_ratio_formula": 0.7017,
+    "seen_points_formula": -9.59,
+    "seen_ratio_mean": 0.7023,
+    "seen_ratio_p10": 0.6705,
+    "seen_ratio_p90": 0.7325,
+    "share_pairs_seen_ratio_below_true": 0.08
+   }
+  },
+  "correction": [
+   {
+    "check_items": 100,
+    "method": "naive",
+    "category": "その他",
+    "true": 0.05,
+    "mean": 0.0608,
+    "p10": 0.0564,
+    "p90": 0.0652,
+    "mean_abs_error_points": 1.084,
+    "share_raw_below_zero": NaN
+   },
+   {
+    "check_items": 100,
+    "method": "fixed",
+    "category": "その他",
+    "true": 0.05,
+    "mean": 0.0484,
+    "p10": 0.0215,
+    "p90": 0.0714,
+    "mean_abs_error_points": 1.542,
+    "share_raw_below_zero": 0.03
+   },
+   {
+    "check_items": 100,
+    "method": "sample_only",
+    "category": "その他",
+    "true": 0.05,
+    "mean": 0.05,
+    "p10": 0.02,
+    "p90": 0.08,
+    "mean_abs_error_points": 1.722,
+    "share_raw_below_zero": NaN
+   },
+   {
+    "check_items": 300,
+    "method": "naive",
+    "category": "その他",
+    "true": 0.05,
+    "mean": 0.061,
+    "p10": 0.0568,
+    "p90": 0.065,
+    "mean_abs_error_points": 1.1,
+    "share_raw_below_zero": NaN
+   },
+   {
+    "check_items": 300,
+    "method": "fixed",
+    "category": "その他",
+    "true": 0.05,
+    "mean": 0.0504,
+    "p10": 0.0367,
+    "p90": 0.0632,
+    "mean_abs_error_points": 0.832,
+    "share_raw_below_zero": 0.0
+   },
+   {
+    "check_items": 300,
+    "method": "sample_only",
+    "category": "その他",
+    "true": 0.05,
+    "mean": 0.0504,
+    "p10": 0.0333,
+    "p90": 0.0667,
+    "mean_abs_error_points": 0.973,
+    "share_raw_below_zero": NaN
+   },
+   {
+    "check_items": 1000,
+    "method": "naive",
+    "category": "その他",
+    "true": 0.05,
+    "mean": 0.0609,
+    "p10": 0.0566,
+    "p90": 0.0648,
+    "mean_abs_error_points": 1.086,
+    "share_raw_below_zero": NaN
+   },
+   {
+    "check_items": 1000,
+    "method": "fixed",
+    "category": "その他",
+    "true": 0.05,
+    "mean": 0.0505,
+    "p10": 0.0424,
+    "p90": 0.0585,
+    "mean_abs_error_points": 0.497,
+    "share_raw_below_zero": 0.0
+   },
+   {
+    "check_items": 1000,
+    "method": "sample_only",
+    "category": "その他",
+    "true": 0.05,
+    "mean": 0.0499,
+    "p10": 0.042,
+    "p90": 0.058,
+    "mean_abs_error_points": 0.53,
+    "share_raw_below_zero": NaN
+   }
+  ],
+  "correction_haisou": [
+   {
+    "check_items": 100,
+    "method": "naive",
+    "category": "配送",
+    "true": 0.34,
+    "mean": 0.3215,
+    "p10": 0.3126,
+    "p90": 0.3306,
+    "mean_abs_error_points": 1.855,
+    "share_raw_below_zero": NaN
+   },
+   {
+    "check_items": 100,
+    "method": "fixed",
+    "category": "配送",
+    "true": 0.34,
+    "mean": 0.3379,
+    "p10": 0.2968,
+    "p90": 0.3769,
+    "mean_abs_error_points": 2.435,
+    "share_raw_below_zero": 0.0
+   },
+   {
+    "check_items": 100,
+    "method": "sample_only",
+    "category": "配送",
+    "true": 0.34,
+    "mean": 0.3398,
+    "p10": 0.28,
+    "p90": 0.4,
+    "mean_abs_error_points": 3.692,
+    "share_raw_below_zero": NaN
+   },
+   {
+    "check_items": 300,
+    "method": "naive",
+    "category": "配送",
+    "true": 0.34,
+    "mean": 0.322,
+    "p10": 0.3132,
+    "p90": 0.3308,
+    "mean_abs_error_points": 1.805,
+    "share_raw_below_zero": NaN
+   },
+   {
+    "check_items": 300,
+    "method": "fixed",
+    "category": "配送",
+    "true": 0.34,
+    "mean": 0.3426,
+    "p10": 0.3205,
+    "p90": 0.3656,
+    "mean_abs_error_points": 1.393,
+    "share_raw_below_zero": 0.0
+   },
+   {
+    "check_items": 300,
+    "method": "sample_only",
+    "category": "配送",
+    "true": 0.34,
+    "mean": 0.3394,
+    "p10": 0.3033,
+    "p90": 0.3733,
+    "mean_abs_error_points": 2.184,
+    "share_raw_below_zero": NaN
+   },
+   {
+    "check_items": 1000,
+    "method": "naive",
+    "category": "配送",
+    "true": 0.34,
+    "mean": 0.322,
+    "p10": 0.3138,
+    "p90": 0.3304,
+    "mean_abs_error_points": 1.801,
+    "share_raw_below_zero": NaN
+   },
+   {
+    "check_items": 1000,
+    "method": "fixed",
+    "category": "配送",
+    "true": 0.34,
+    "mean": 0.3397,
+    "p10": 0.3262,
+    "p90": 0.3534,
+    "mean_abs_error_points": 0.849,
+    "share_raw_below_zero": 0.0
+   },
+   {
+    "check_items": 1000,
+    "method": "sample_only",
+    "category": "配送",
+    "true": 0.34,
+    "mean": 0.3402,
+    "p10": 0.3209,
+    "p90": 0.361,
+    "mean_abs_error_points": 1.252,
+    "share_raw_below_zero": NaN
+   }
+  ]
+ },
+ "robust": {
+  "grid_combos": 27,
+  "smallest_ratio_min": 1.0158,
+  "smallest_ratio_max": 3.2,
+  "smallest_over_combos": 27,
+  "largest_ratio_min": 0.8262,
+  "largest_ratio_max": 0.9905,
+  "largest_under_combos": 27,
+  "categories_over_min": 1,
+  "categories_over_max": 5,
+  "even_pattern_over_iff_true_below_one_sixth": true,
+  "smallest_ratio_by_acc": {
+   "0.8": [
+    1.0633,
+    3.2
+   ],
+   "0.88": [
+    1.038,
+    2.32
+   ],
+   "0.95": [
+    1.0158,
+    1.55
+   ]
+  },
+  "other_pattern_sonota_ratio": [
+   1.1333,
+   3.2
+  ],
+  "near_pattern_sonota_ratio": [
+   1.0158,
+   1.43
+  ],
+  "even_pattern_sonota_ratio": [
+   1.0233,
+   1.76
+  ],
+  "combos_ratio_falls_with_true_share": 18
+ }
+}

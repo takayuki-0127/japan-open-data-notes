@@ -1,0 +1,4 @@
+group,share,label_correct,perfect_measured,model_measured,model_true,extra_rater_measured,pair_agreement,hard_share_in_group
+all,1.0,0.9377,0.9377,0.8924,0.926,0.8676,0.8328,0.2
+split,0.2508,0.7858,0.7858,0.7328,0.8497,0.7083,0.3333,0.5449
+unanimous,0.7492,0.9886,0.9886,0.9458,0.9515,0.9209,1.0,0.0845
