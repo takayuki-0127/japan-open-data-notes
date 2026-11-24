@@ -1,0 +1,180 @@
+{
+ "setting": {
+  "weeks": 52,
+  "open": "月〜金 9:00〜18:00",
+  "service_mean_min": 18.0,
+  "off_scale": 1.0,
+  "agents": 6,
+  "per_week_expected": 683.0,
+  "business_hours_arrival_share_pct": 65.89,
+  "load_pct": 75.9
+ },
+ "base": {
+  "inquiries": 35435,
+  "calendar_median_h": 2.63,
+  "business_median_h": 1.01,
+  "calendar_mean_h": 10.96,
+  "business_mean_h": 1.89,
+  "calendar_minus_business_min_h": 0.0,
+  "rankcorr_median_calendar_vs_business": 0.893,
+  "rankcorr_mean_calendar_vs_business": 0.786
+ },
+ "by_weekday": [
+  {
+   "day": "月",
+   "count": 6005,
+   "calendar_median_h": 14.14,
+   "calendar_mean_h": 12.34,
+   "business_median_h": 4.5,
+   "business_mean_h": 4.49,
+   "calendar_median_rank": 3,
+   "calendar_mean_rank": 3,
+   "business_median_rank": 2,
+   "business_mean_rank": 2
+  },
+  {
+   "day": "火",
+   "count": 5851,
+   "calendar_median_h": 2.14,
+   "calendar_mean_h": 4.14,
+   "business_median_h": 1.16,
+   "business_mean_h": 1.58,
+   "calendar_median_rank": 4,
+   "calendar_mean_rank": 5,
+   "business_median_rank": 4,
+   "business_mean_rank": 4
+  },
+  {
+   "day": "水",
+   "count": 5960,
+   "calendar_median_h": 0.55,
+   "calendar_mean_h": 2.86,
+   "business_median_h": 0.42,
+   "business_mean_h": 0.6,
+   "calendar_median_rank": 5,
+   "calendar_mean_rank": 6,
+   "business_median_rank": 5,
+   "business_mean_rank": 5
+  },
+  {
+   "day": "木",
+   "count": 6006,
+   "calendar_median_h": 0.49,
+   "calendar_mean_h": 2.77,
+   "business_median_h": 0.38,
+   "business_mean_h": 0.53,
+   "calendar_median_rank": 7,
+   "calendar_mean_rank": 7,
+   "business_median_rank": 7,
+   "business_mean_rank": 7
+  },
+  {
+   "day": "金",
+   "count": 5960,
+   "calendar_median_h": 0.52,
+   "calendar_mean_h": 10.48,
+   "business_median_h": 0.39,
+   "business_mean_h": 0.54,
+   "calendar_median_rank": 6,
+   "calendar_mean_rank": 4,
+   "business_median_rank": 6,
+   "business_mean_rank": 6
+  },
+  {
+   "day": "土",
+   "count": 2810,
+   "calendar_median_h": 44.79,
+   "calendar_mean_h": 44.96,
+   "business_median_h": 2.25,
+   "business_mean_h": 2.31,
+   "calendar_median_rank": 1,
+   "calendar_mean_rank": 1,
+   "business_median_rank": 3,
+   "business_mean_rank": 3
+  },
+  {
+   "day": "日",
+   "count": 2843,
+   "calendar_median_h": 23.56,
+   "calendar_mean_h": 23.77,
+   "business_median_h": 4.96,
+   "business_mean_h": 5.04,
+   "calendar_median_rank": 2,
+   "calendar_mean_rank": 2,
+   "business_median_rank": 1,
+   "business_mean_rank": 1
+  }
+ ],
+ "backlog_at_open_mean": {
+  "月": 134.6,
+  "火": 64.2,
+  "水": 26.9,
+  "木": 24.8,
+  "金": 24.6
+ },
+ "monday": {
+  "arrive_before_open_business_median_h": 6.64,
+  "arrive_in_hours_business_median_h": 4.58
+ },
+ "wednesday": {
+  "arrive_in_hours_business_median_h": 0.33
+ },
+ "grid": {
+  "settings": 18,
+  "slowest_differs": 18,
+  "slowest_calendar_counts": {
+   "土": 18
+  },
+  "slowest_business_counts": {
+   "日": 16,
+   "月": 2
+  },
+  "rankcorr_min": 0.643,
+  "rankcorr_max": 0.935,
+  "monday_rank_calendar_min": 3,
+  "monday_rank_calendar_max": 4,
+  "monday_rank_business_counts": {
+   "1": 2,
+   "2": 12,
+   "3": 4
+  },
+  "slowest_differs_median": 9,
+  "sat_rank_business_median_values": [
+   2,
+   3,
+   4
+  ],
+  "sun_rank_calendar_median_values": [
+   2
+  ],
+  "mon_rank_calendar_median_values": [
+   3
+  ],
+  "load_pct_values": [
+   47.2,
+   54.0,
+   56.9,
+   62.9,
+   65.0,
+   66.6,
+   75.9,
+   76.1,
+   88.8
+  ],
+  "bus_share_values": [
+   56.29,
+   65.89,
+   79.44
+  ]
+ },
+ "headline": {
+  "slowest_calendar_median": "土",
+  "slowest_business_median": "日",
+  "sat_calendar_median_h": 44.79,
+  "sat_business_median_h": 2.25,
+  "mon_calendar_median_h": 14.14,
+  "mon_business_median_h": 4.5,
+  "mon_calendar_rank": 3,
+  "sat_business_rank": 3
+ }
+}

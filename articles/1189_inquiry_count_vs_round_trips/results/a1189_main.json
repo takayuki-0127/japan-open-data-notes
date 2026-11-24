@@ -1,0 +1,243 @@
+{
+ "settings": {
+  "types": [
+   {
+    "type": "A",
+    "name": "使い方の質問",
+    "share": 0.3,
+    "mean_rounds": 1.4,
+    "first_min": 6
+   },
+   {
+    "type": "B",
+    "name": "請求の確認",
+    "share": 0.16,
+    "mean_rounds": 1.5,
+    "first_min": 9
+   },
+   {
+    "type": "C",
+    "name": "ログインできない",
+    "share": 0.15,
+    "mean_rounds": 3.6,
+    "first_min": 4
+   },
+   {
+    "type": "D",
+    "name": "不具合の報告",
+    "share": 0.1,
+    "mean_rounds": 3.0,
+    "first_min": 12
+   },
+   {
+    "type": "E",
+    "name": "解約の手続き",
+    "share": 0.09,
+    "mean_rounds": 1.6,
+    "first_min": 10
+   },
+   {
+    "type": "F",
+    "name": "設定の相談",
+    "share": 0.08,
+    "mean_rounds": 2.0,
+    "first_min": 30
+   },
+   {
+    "type": "G",
+    "name": "返品・交換",
+    "share": 0.07,
+    "mean_rounds": 2.6,
+    "first_min": 8
+   },
+   {
+    "type": "H",
+    "name": "その他",
+    "share": 0.05,
+    "mean_rounds": 1.3,
+    "first_min": 5
+   }
+  ],
+  "rho": 0.4,
+  "k": 1.0,
+  "cases_per_month": 3000,
+  "reply_time_sd_over_mean": 0.5,
+  "random_windows_per_setting": 1000,
+  "seed": 1189
+ },
+ "headline": {
+  "count_top": "A",
+  "rounds_top": "C",
+  "minutes_top": "F",
+  "F_count_share": 0.08,
+  "F_rounds_share": 0.078,
+  "F_minutes_share": 0.261,
+  "A_count_share": 0.3,
+  "A_minutes_share": 0.1622,
+  "C_rounds_share": 0.2633,
+  "C_minutes_share": 0.0951,
+  "F_count_rank": 6,
+  "F_rounds_rank": 6,
+  "C_minutes_rank": 5,
+  "A_minutes_rank": 3,
+  "middle_corr_m08_count_top_match": 0.567,
+  "middle_corr_m08_rounds_top_match": 0.376,
+  "middle_corr_p08_count_top_match": 0.458,
+  "middle_corr_p08_rounds_top_match": 0.706
+ },
+ "example_month": {
+  "by_type": [
+   {
+    "type": "A",
+    "count": 891,
+    "rounds": 1256,
+    "minutes": 6189.44
+   },
+   {
+    "type": "B",
+    "count": 509,
+    "rounds": 758,
+    "minutes": 5387.48
+   },
+   {
+    "type": "C",
+    "count": 422,
+    "rounds": 1389,
+    "minutes": 3232.95
+   },
+   {
+    "type": "D",
+    "count": 291,
+    "rounds": 837,
+    "minutes": 6059.91
+   },
+   {
+    "type": "E",
+    "count": 266,
+    "rounds": 457,
+    "minutes": 3405.5
+   },
+   {
+    "type": "F",
+    "count": 245,
+    "rounds": 515,
+    "minutes": 10575.25
+   },
+   {
+    "type": "G",
+    "count": 208,
+    "rounds": 526,
+    "minutes": 2704.89
+   },
+   {
+    "type": "H",
+    "count": 168,
+    "rounds": 217,
+    "minutes": 966.76
+   }
+  ],
+  "longest_cases": [
+   {
+    "case_id": 310,
+    "type": "C",
+    "rounds": 16,
+    "minutes": 27.46
+   },
+   {
+    "case_id": 181,
+    "type": "C",
+    "rounds": 13,
+    "minutes": 18.78
+   },
+   {
+    "case_id": 2948,
+    "type": "G",
+    "rounds": 12,
+    "minutes": 49.5
+   },
+   {
+    "case_id": 2628,
+    "type": "C",
+    "rounds": 12,
+    "minutes": 16.09
+   },
+   {
+    "case_id": 1625,
+    "type": "C",
+    "rounds": 12,
+    "minutes": 25.6
+   }
+  ],
+  "rounds_total": 5955,
+  "minutes_total": 38522.18
+ },
+ "robust": {
+  "n": 180,
+  "n_rounds_better_top": 111,
+  "n_count_better_top": 69,
+  "count_top_match_min": 0.301,
+  "count_top_match_max": 0.796,
+  "rounds_top_match_min": 0.193,
+  "rounds_top_match_max": 0.864,
+  "max_top_match_any": 0.864,
+  "neg_corr_n": 72,
+  "neg_corr_n_count_better": 62,
+  "pos_corr_n": 72,
+  "pos_corr_n_rounds_better": 72,
+  "zero_corr_n_rounds_better": 29,
+  "zero_corr_n": 36,
+  "rho1_zero_corr_rounds_better": 9,
+  "middle_setting": {
+   "-0.8": {
+    "count_top_match": 0.567,
+    "rounds_top_match": 0.376,
+    "count_share_gap": 0.1587,
+    "rounds_share_gap": 0.2478
+   },
+   "-0.4": {
+    "count_top_match": 0.527,
+    "rounds_top_match": 0.43,
+    "count_share_gap": 0.1935,
+    "rounds_share_gap": 0.2317
+   },
+   "0.0": {
+    "count_top_match": 0.487,
+    "rounds_top_match": 0.515,
+    "count_share_gap": 0.2172,
+    "rounds_share_gap": 0.2096
+   },
+   "0.4": {
+    "count_top_match": 0.49,
+    "rounds_top_match": 0.646,
+    "count_share_gap": 0.2481,
+    "rounds_share_gap": 0.1863
+   },
+   "0.8": {
+    "count_top_match": 0.458,
+    "rounds_top_match": 0.706,
+    "count_share_gap": 0.2657,
+    "rounds_share_gap": 0.1633
+   }
+  },
+  "by_sd_first_time": [
+   [
+    0.429,
+    0.796,
+    0.463,
+    0.864
+   ],
+   [
+    0.341,
+    0.63,
+    0.288,
+    0.749
+   ],
+   [
+    0.301,
+    0.503,
+    0.193,
+    0.696
+   ]
+  ]
+ }
+}

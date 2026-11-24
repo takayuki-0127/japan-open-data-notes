@@ -1,0 +1,167 @@
+{
+ "settings": {
+  "days": 28,
+  "business_hours": "平日9〜18時",
+  "form_share": 0.6,
+  "w_mean_min": 180,
+  "w_sd_over_mean": 0.8165,
+  "auto_reply_min": [
+   0.5,
+   3.0
+  ],
+  "offhours_weight": 1,
+  "base_n": 20000,
+  "six_month_n": 5000,
+  "six_month_reps": 50,
+  "seed": 1190
+ },
+ "headline": {
+  "offhours_share": 0.3755,
+  "a_mean_h": 15.6466,
+  "b_mean_h": 6.392,
+  "a_median_h": 8.3963,
+  "b_median_h": 0.0436,
+  "b_median_min": 2.62,
+  "a_p90_h": 46.2921,
+  "b_p90_h": 19.9807,
+  "a_within_1h": 0.1169,
+  "b_within_1h": 0.6392,
+  "a_within_24h": 0.8252,
+  "b_within_24h": 0.9291,
+  "mean_ratio": 0.4085,
+  "median_ratio": 0.0052,
+  "p90_ratio": 0.4316,
+  "m1_a_median_h": 8.5654,
+  "m6_a_median_h": 12.0119,
+  "m1_b_median_h": 1.348,
+  "m6_b_median_h": 0.0345,
+  "m6_b_median_min": 2.07,
+  "m1_a_mean_h": 15.709,
+  "m6_a_mean_h": 17.1145,
+  "m1_b_mean_h": 9.4102,
+  "m6_b_mean_h": 3.467,
+  "m1_b_within_24h": 0.8958,
+  "m6_b_within_24h": 0.9602,
+  "m1_a_within_24h": 0.825,
+  "m6_a_within_24h": 0.8024,
+  "six_month_b_median_down_reps": 1.0,
+  "six_month_a_median_up_reps": 1.0,
+  "six_month_b_mean_down_reps": 1.0
+ },
+ "base_by_channel_human": [
+  {
+   "channel": "フォーム",
+   "n": 11840,
+   "mean_h": 15.6619,
+   "median_h": 8.1425,
+   "p90_h": 46.4379,
+   "within_1h": 0.1177,
+   "within_24h": 0.8245
+  },
+  {
+   "channel": "メール",
+   "n": 8160,
+   "mean_h": 15.6243,
+   "median_h": 8.5536,
+   "p90_h": 45.9263,
+   "within_1h": 0.1158,
+   "within_24h": 0.8261
+  }
+ ],
+ "robust": {
+  "static_n": 45,
+  "mean_ratio_min": 0.1995,
+  "mean_ratio_max": 0.8098,
+  "mean_ratio_minus_formula_maxabs": 0.0175,
+  "median_ratio_by_share": [
+   {
+    "form_share": 0.2,
+    "min": 0.3693,
+    "max": 0.8214
+   },
+   {
+    "form_share": 0.4,
+    "min": 0.1363,
+    "max": 0.3158
+   },
+   {
+    "form_share": 0.5,
+    "min": 0.0022,
+    "max": 0.0411
+   },
+   {
+    "form_share": 0.6,
+    "min": 0.0019,
+    "max": 0.0368
+   },
+   {
+    "form_share": 0.8,
+    "min": 0.0015,
+    "max": 0.0288
+   }
+  ],
+  "p90_ratio_by_share": [
+   {
+    "form_share": 0.2,
+    "min": 0.6252,
+    "max": 0.9512
+   },
+   {
+    "form_share": 0.4,
+    "min": 0.4618,
+    "max": 0.9039
+   },
+   {
+    "form_share": 0.5,
+    "min": 0.4188,
+    "max": 0.8166
+   },
+   {
+    "form_share": 0.6,
+    "min": 0.3703,
+    "max": 0.6422
+   },
+   {
+    "form_share": 0.8,
+    "min": 0.0449,
+    "max": 0.3044
+   }
+  ],
+  "within24_gain_by_w": [
+   {
+    "w_mean_min": 60,
+    "min": 1.49,
+    "max": 13.3
+   },
+   {
+    "w_mean_min": 180,
+    "min": 2.68,
+    "max": 17.12
+   },
+   {
+    "w_mean_min": 480,
+    "min": 8.67,
+    "max": 38.92
+   }
+  ],
+  "offhours_share_by_m": {
+   "0.5": 0.2298,
+   "1.0": 0.3736,
+   "2.0": 0.5438
+  },
+  "a_median_range_h": [
+   1.1497,
+   23.3764
+  ],
+  "trend_n": 54,
+  "trend_slow_n": 36,
+  "trend_slow_a_mean_up_b_mean_down": 33,
+  "trend_slow_a_median_up_b_median_down": 36,
+  "trend_slow_a_p90_up_b_p90_down": 28,
+  "trend_slow_a_24h_down_b_24h_up": 32,
+  "trend_slow_b_mean_down": 33,
+  "trend_noslow_a_mean_change_maxabs": 0.1777,
+  "trend_noslow_b_mean_change_min": -13.2102,
+  "trend_noslow_b_mean_change_max": -0.9591
+ }
+}
