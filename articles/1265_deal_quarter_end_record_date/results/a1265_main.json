@@ -1,0 +1,168 @@
+{
+ "headline": {
+  "uniform_share": 0.1538,
+  "uniform_last3": 0.033,
+  "share_decided": 0.2804,
+  "share_recorded": 0.3195,
+  "share_field": 0.2999,
+  "share_recorded_p10_p90": [
+   0.3055,
+   0.332
+  ],
+  "excess_recorded": 0.1657,
+  "decision_part": 0.1266,
+  "record_part": 0.0391,
+  "record_part_share_of_excess": 0.236,
+  "last3_decided": 0.0602,
+  "last3_recorded": 0.1572,
+  "first14_decided": 0.1304,
+  "first14_recorded": 0.0973,
+  "last3_field": 0.1086,
+  "first14_field": 0.1138,
+  "moved_to_quarter_end_share": 0.103,
+  "recorded_next_quarter_share": 0.026
+ },
+ "scenarios": {
+  "A_record_only": {
+   "dec": 0.1541,
+   "dec_last3": 0.0328,
+   "dec_first14": 0.1527,
+   "rec": 0.2776,
+   "rec_last3": 0.1563,
+   "rec_first14": 0.0765,
+   "field": 0.2161,
+   "spill_share": 0.0307,
+   "fixed_share": 0.1233
+  },
+  "B_decision_only": {
+   "dec": 0.2813,
+   "dec_last3": 0.06,
+   "dec_first14": 0.131,
+   "rec": 0.2813,
+   "rec_last3": 0.06,
+   "rec_first14": 0.131,
+   "field": 0.2813,
+   "spill_share": 0.0,
+   "fixed_share": 0.0
+  },
+  "base": {
+   "dec": 0.2805,
+   "dec_last3": 0.0594,
+   "dec_first14": 0.1308,
+   "rec": 0.3203,
+   "rec_last3": 0.1575,
+   "rec_first14": 0.0969,
+   "field": 0.3006,
+   "spill_share": 0.0255,
+   "fixed_share": 0.1032
+  }
+ },
+ "one_set": {
+  "dec": 0.2993,
+  "dec_last3": 0.0591,
+  "dec_first14": 0.1215,
+  "rec": 0.3301,
+  "rec_last3": 0.1675,
+  "rec_first14": 0.0917,
+  "field": 0.3169,
+  "field_last3": 0.1113,
+  "field_first14": 0.1045,
+  "spill_share": 0.0242,
+  "fixed_share": 0.0969
+ },
+ "robust": {
+  "settings": 27,
+  "share_recorded_range": [
+   0.1539,
+   0.5156
+  ],
+  "share_decided_range": [
+   0.1527,
+   0.4111
+  ],
+  "record_part_range": [
+   -0.0373,
+   0.1538
+  ],
+  "record_part_range_L0": [
+   0.0,
+   0.0
+  ],
+  "record_part_range_L14": [
+   -0.0373,
+   0.1538
+  ],
+  "settings_record_part_larger": 7,
+  "rec_last3_range_by_L": {
+   "0": [
+    0.033,
+    0.0879
+   ],
+   "7": [
+    0.0704,
+    0.2587
+   ],
+   "14": [
+    0.1091,
+    0.3563
+   ]
+  },
+  "dec_last3_range": [
+   0.0322,
+   0.088
+  ],
+  "rec_first14_range_by_L": {
+   "0": [
+    0.1056,
+    0.1547
+   ],
+   "7": [
+    0.0619,
+    0.1399
+   ],
+   "14": [
+    0.0405,
+    0.1284
+   ]
+  }
+ },
+ "settings": {
+  "days_per_quarter": 91,
+  "quarters_made": 9,
+  "quarters_counted": "2〜8期目の7期",
+  "end_window_days": 14,
+  "base": {
+   "c": 0.15,
+   "L": 7,
+   "q": 0.8,
+   "w": 0.5,
+   "n": 300
+  },
+  "scenarios": {
+   "A_record_only": {
+    "c": 0.0,
+    "L": 14,
+    "q": 0.8,
+    "w": 0.5,
+    "n": 300
+   },
+   "B_decision_only": {
+    "c": 0.15,
+    "L": 0,
+    "q": 0.8,
+    "w": 0.5,
+    "n": 300
+   },
+   "base": {
+    "c": 0.15,
+    "L": 7,
+    "q": 0.8,
+    "w": 0.5,
+    "n": 300
+   }
+  },
+  "reps_base": 500,
+  "reps_scenarios": 200,
+  "reps_grid": 40
+ }
+}

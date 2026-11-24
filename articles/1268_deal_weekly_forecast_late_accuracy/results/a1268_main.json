@@ -1,0 +1,568 @@
+{
+ "base": {
+  "n": 120,
+  "mu": -0.75,
+  "spread": 1.2,
+  "amt_sd": 1.0,
+  "noise": 0.5,
+  "learn": 0.0,
+  "timing": "一様"
+ },
+ "weeks": 13,
+ "reps": 2000,
+ "timing_weights": {
+  "一様": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "期末に寄る": [
+   1.0,
+   4.0,
+   9.0,
+   16.0,
+   25.0,
+   36.0,
+   49.0,
+   64.0,
+   81.0,
+   100.0,
+   121.0,
+   144.0,
+   169.0
+  ],
+  "期のはじめに寄る": [
+   169.0,
+   144.0,
+   121.0,
+   100.0,
+   81.0,
+   64.0,
+   49.0,
+   36.0,
+   25.0,
+   16.0,
+   9.0,
+   4.0,
+   1.0
+  ]
+ },
+ "headline": {
+  "一様_見直し0.0": {
+   "w0": {
+    "total_err": 14.03,
+    "within10": 43.8,
+    "decided_amount_share": 0.0,
+    "decided_won_share": 0.0,
+    "open_deals": 120.0,
+    "open_err_vs_open_amt": 5.02,
+    "open_err_vs_actual": 14.03,
+    "open_bias_vs_open_amt": 0.32
+   },
+   "w3": {
+    "total_err": 12.57,
+    "within10": 48.45,
+    "decided_amount_share": 22.96,
+    "decided_won_share": 22.92,
+    "open_deals": 92.44,
+    "open_err_vs_open_amt": 5.84,
+    "open_err_vs_actual": 12.57,
+    "open_bias_vs_open_amt": 0.36
+   },
+   "w6": {
+    "total_err": 10.27,
+    "within10": 58.0,
+    "decided_amount_share": 45.84,
+    "decided_won_share": 45.69,
+    "open_deals": 64.83,
+    "open_err_vs_open_amt": 6.79,
+    "open_err_vs_actual": 10.27,
+    "open_bias_vs_open_amt": 0.23
+   },
+   "w9": {
+    "total_err": 7.71,
+    "within10": 70.35,
+    "decided_amount_share": 68.83,
+    "decided_won_share": 68.88,
+    "open_deals": 37.13,
+    "open_err_vs_open_amt": 8.86,
+    "open_err_vs_actual": 7.71,
+    "open_bias_vs_open_amt": 0.38
+   },
+   "w10": {
+    "total_err": 6.62,
+    "within10": 77.25,
+    "decided_amount_share": 76.57,
+    "decided_won_share": 76.78,
+    "open_deals": 27.87,
+    "open_err_vs_open_amt": 10.13,
+    "open_err_vs_actual": 6.62,
+    "open_bias_vs_open_amt": 0.59
+   },
+   "w12": {
+    "total_err": 3.5,
+    "within10": 94.45,
+    "decided_amount_share": 92.2,
+    "decided_won_share": 92.31,
+    "open_deals": 9.21,
+    "open_err_vs_open_amt": 16.12,
+    "open_err_vs_actual": 3.5,
+    "open_bias_vs_open_amt": 0.84
+   }
+  },
+  "一様_見直し0.5": {
+   "w0": {
+    "total_err": 14.03,
+    "within10": 43.8,
+    "decided_amount_share": 0.0,
+    "decided_won_share": 0.0,
+    "open_deals": 120.0,
+    "open_err_vs_open_amt": 5.02,
+    "open_err_vs_actual": 14.03,
+    "open_bias_vs_open_amt": 0.32
+   },
+   "w3": {
+    "total_err": 10.07,
+    "within10": 59.4,
+    "decided_amount_share": 22.96,
+    "decided_won_share": 22.92,
+    "open_deals": 92.44,
+    "open_err_vs_open_amt": 4.68,
+    "open_err_vs_actual": 10.07,
+    "open_bias_vs_open_amt": 0.29
+   },
+   "w6": {
+    "total_err": 7.09,
+    "within10": 73.15,
+    "decided_amount_share": 45.84,
+    "decided_won_share": 45.69,
+    "open_deals": 64.83,
+    "open_err_vs_open_amt": 4.69,
+    "open_err_vs_actual": 7.09,
+    "open_bias_vs_open_amt": 0.18
+   },
+   "w9": {
+    "total_err": 4.66,
+    "within10": 88.95,
+    "decided_amount_share": 68.83,
+    "decided_won_share": 68.88,
+    "open_deals": 37.13,
+    "open_err_vs_open_amt": 5.36,
+    "open_err_vs_actual": 4.66,
+    "open_bias_vs_open_amt": 0.24
+   },
+   "w10": {
+    "total_err": 3.84,
+    "within10": 93.65,
+    "decided_amount_share": 76.57,
+    "decided_won_share": 76.78,
+    "open_deals": 27.87,
+    "open_err_vs_open_amt": 5.88,
+    "open_err_vs_actual": 3.84,
+    "open_bias_vs_open_amt": 0.34
+   },
+   "w12": {
+    "total_err": 1.89,
+    "within10": 99.3,
+    "decided_amount_share": 92.2,
+    "decided_won_share": 92.31,
+    "open_deals": 9.21,
+    "open_err_vs_open_amt": 8.68,
+    "open_err_vs_actual": 1.89,
+    "open_bias_vs_open_amt": 0.45
+   }
+  },
+  "期末に寄る_見直し0.0": {
+   "w0": {
+    "total_err": 13.91,
+    "within10": 44.15,
+    "decided_amount_share": 0.0,
+    "decided_won_share": 0.0,
+    "open_deals": 120.0,
+    "open_err_vs_open_amt": 4.98,
+    "open_err_vs_actual": 13.91,
+    "open_bias_vs_open_amt": 0.37
+   },
+   "w3": {
+    "total_err": 13.83,
+    "within10": 44.05,
+    "decided_amount_share": 1.76,
+    "decided_won_share": 1.81,
+    "open_deals": 117.92,
+    "open_err_vs_open_amt": 5.04,
+    "open_err_vs_actual": 13.83,
+    "open_bias_vs_open_amt": 0.41
+   },
+   "w6": {
+    "total_err": 13.2,
+    "within10": 46.6,
+    "decided_amount_share": 11.08,
+    "decided_won_share": 11.13,
+    "open_deals": 106.67,
+    "open_err_vs_open_amt": 5.32,
+    "open_err_vs_actual": 13.2,
+    "open_bias_vs_open_amt": 0.43
+   },
+   "w9": {
+    "total_err": 11.15,
+    "within10": 53.1,
+    "decided_amount_share": 34.91,
+    "decided_won_share": 34.67,
+    "open_deals": 78.14,
+    "open_err_vs_open_amt": 6.14,
+    "open_err_vs_actual": 11.15,
+    "open_bias_vs_open_amt": 0.31
+   },
+   "w10": {
+    "total_err": 9.98,
+    "within10": 58.65,
+    "decided_amount_share": 47.19,
+    "decided_won_share": 46.98,
+    "open_deals": 63.39,
+    "open_err_vs_open_amt": 6.77,
+    "open_err_vs_actual": 9.98,
+    "open_bias_vs_open_amt": 0.33
+   },
+   "w12": {
+    "total_err": 6.24,
+    "within10": 79.15,
+    "decided_amount_share": 79.52,
+    "decided_won_share": 79.32,
+    "open_deals": 24.64,
+    "open_err_vs_open_amt": 10.91,
+    "open_err_vs_actual": 6.24,
+    "open_bias_vs_open_amt": 0.28
+   }
+  },
+  "期末に寄る_見直し0.5": {
+   "w0": {
+    "total_err": 13.91,
+    "within10": 44.15,
+    "decided_amount_share": 0.0,
+    "decided_won_share": 0.0,
+    "open_deals": 120.0,
+    "open_err_vs_open_amt": 4.98,
+    "open_err_vs_actual": 13.91,
+    "open_bias_vs_open_amt": 0.37
+   },
+   "w3": {
+    "total_err": 11.67,
+    "within10": 52.35,
+    "decided_amount_share": 1.76,
+    "decided_won_share": 1.81,
+    "open_deals": 117.92,
+    "open_err_vs_open_amt": 4.26,
+    "open_err_vs_actual": 11.67,
+    "open_bias_vs_open_amt": 0.34
+   },
+   "w6": {
+    "total_err": 9.41,
+    "within10": 61.5,
+    "decided_amount_share": 11.08,
+    "decided_won_share": 11.13,
+    "open_deals": 106.67,
+    "open_err_vs_open_amt": 3.79,
+    "open_err_vs_actual": 9.41,
+    "open_bias_vs_open_amt": 0.3
+   },
+   "w9": {
+    "total_err": 6.84,
+    "within10": 76.2,
+    "decided_amount_share": 34.91,
+    "decided_won_share": 34.67,
+    "open_deals": 78.14,
+    "open_err_vs_open_amt": 3.76,
+    "open_err_vs_actual": 6.84,
+    "open_bias_vs_open_amt": 0.19
+   },
+   "w10": {
+    "total_err": 5.85,
+    "within10": 83.1,
+    "decided_amount_share": 47.19,
+    "decided_won_share": 46.98,
+    "open_deals": 63.39,
+    "open_err_vs_open_amt": 3.97,
+    "open_err_vs_actual": 5.85,
+    "open_bias_vs_open_amt": 0.19
+   },
+   "w12": {
+    "total_err": 3.36,
+    "within10": 95.9,
+    "decided_amount_share": 79.52,
+    "decided_won_share": 79.32,
+    "open_deals": 24.64,
+    "open_err_vs_open_amt": 5.88,
+    "open_err_vs_actual": 3.36,
+    "open_bias_vs_open_amt": 0.15
+   }
+  },
+  "期のはじめに寄る_見直し0.0": {
+   "w0": {
+    "total_err": 14.19,
+    "within10": 44.0,
+    "decided_amount_share": 0.0,
+    "decided_won_share": 0.0,
+    "open_deals": 120.0,
+    "open_err_vs_open_amt": 5.07,
+    "open_err_vs_actual": 14.19,
+    "open_bias_vs_open_amt": 0.5
+   },
+   "w3": {
+    "total_err": 9.49,
+    "within10": 60.65,
+    "decided_amount_share": 53.01,
+    "decided_won_share": 52.73,
+    "open_deals": 56.28,
+    "open_err_vs_open_amt": 7.21,
+    "open_err_vs_actual": 9.49,
+    "open_bias_vs_open_amt": 0.26
+   },
+   "w6": {
+    "total_err": 5.44,
+    "within10": 85.25,
+    "decided_amount_share": 82.9,
+    "decided_won_share": 82.69,
+    "open_deals": 20.45,
+    "open_err_vs_open_amt": 11.36,
+    "open_err_vs_actual": 5.44,
+    "open_bias_vs_open_amt": 0.13
+   },
+   "w9": {
+    "total_err": 2.26,
+    "within10": 97.75,
+    "decided_amount_share": 96.38,
+    "decided_won_share": 96.31,
+    "open_deals": 4.3,
+    "open_err_vs_open_amt": 22.32,
+    "open_err_vs_actual": 2.26,
+    "open_bias_vs_open_amt": 0.32
+   },
+   "w10": {
+    "total_err": 1.25,
+    "within10": 99.25,
+    "decided_amount_share": 98.32,
+    "decided_won_share": 98.28,
+    "open_deals": 2.04,
+    "open_err_vs_open_amt": 26.66,
+    "open_err_vs_actual": 1.25,
+    "open_bias_vs_open_amt": 0.6
+   },
+   "w12": {
+    "total_err": 0.11,
+    "within10": 99.95,
+    "decided_amount_share": 99.88,
+    "decided_won_share": 99.88,
+    "open_deals": 0.15,
+    "open_err_vs_open_amt": 33.15,
+    "open_err_vs_actual": 0.11,
+    "open_bias_vs_open_amt": -1.69
+   }
+  },
+  "期のはじめに寄る_見直し0.5": {
+   "w0": {
+    "total_err": 14.19,
+    "within10": 44.0,
+    "decided_amount_share": 0.0,
+    "decided_won_share": 0.0,
+    "open_deals": 120.0,
+    "open_err_vs_open_amt": 5.07,
+    "open_err_vs_actual": 14.19,
+    "open_bias_vs_open_amt": 0.5
+   },
+   "w3": {
+    "total_err": 6.95,
+    "within10": 75.7,
+    "decided_amount_share": 53.01,
+    "decided_won_share": 52.73,
+    "open_deals": 56.28,
+    "open_err_vs_open_amt": 5.29,
+    "open_err_vs_actual": 6.95,
+    "open_bias_vs_open_amt": 0.2
+   },
+   "w6": {
+    "total_err": 3.46,
+    "within10": 95.85,
+    "decided_amount_share": 82.9,
+    "decided_won_share": 82.69,
+    "open_deals": 20.45,
+    "open_err_vs_open_amt": 7.22,
+    "open_err_vs_actual": 3.46,
+    "open_bias_vs_open_amt": 0.1
+   },
+   "w9": {
+    "total_err": 1.3,
+    "within10": 99.35,
+    "decided_amount_share": 96.38,
+    "decided_won_share": 96.31,
+    "open_deals": 4.3,
+    "open_err_vs_open_amt": 12.84,
+    "open_err_vs_actual": 1.3,
+    "open_bias_vs_open_amt": 0.18
+   },
+   "w10": {
+    "total_err": 0.7,
+    "within10": 99.95,
+    "decided_amount_share": 98.32,
+    "decided_won_share": 98.28,
+    "open_deals": 2.04,
+    "open_err_vs_open_amt": 14.96,
+    "open_err_vs_actual": 0.7,
+    "open_bias_vs_open_amt": 0.33
+   },
+   "w12": {
+    "total_err": 0.06,
+    "within10": 100.0,
+    "decided_amount_share": 99.88,
+    "decided_won_share": 99.88,
+    "open_deals": 0.15,
+    "open_err_vs_open_amt": 17.85,
+    "open_err_vs_actual": 0.06,
+    "open_bias_vs_open_amt": -0.91
+   }
+  },
+  "decompose_vs_learn05": {
+   "一様": {
+    "w3": {
+     "drop_nolearn_pt": 1.46,
+     "drop_learn_pt": 3.96,
+     "share_from_decided": 36.87
+    },
+    "w6": {
+     "drop_nolearn_pt": 3.76,
+     "drop_learn_pt": 6.94,
+     "share_from_decided": 54.18
+    },
+    "w9": {
+     "drop_nolearn_pt": 6.32,
+     "drop_learn_pt": 9.37,
+     "share_from_decided": 67.45
+    },
+    "w10": {
+     "drop_nolearn_pt": 7.41,
+     "drop_learn_pt": 10.19,
+     "share_from_decided": 72.72
+    }
+   },
+   "期末に寄る": {
+    "w3": {
+     "drop_nolearn_pt": 0.08,
+     "drop_learn_pt": 2.24,
+     "share_from_decided": 3.57
+    },
+    "w6": {
+     "drop_nolearn_pt": 0.71,
+     "drop_learn_pt": 4.5,
+     "share_from_decided": 15.78
+    },
+    "w9": {
+     "drop_nolearn_pt": 2.76,
+     "drop_learn_pt": 7.07,
+     "share_from_decided": 39.04
+    },
+    "w10": {
+     "drop_nolearn_pt": 3.93,
+     "drop_learn_pt": 8.06,
+     "share_from_decided": 48.76
+    }
+   },
+   "期のはじめに寄る": {
+    "w3": {
+     "drop_nolearn_pt": 4.7,
+     "drop_learn_pt": 7.24,
+     "share_from_decided": 64.92
+    },
+    "w6": {
+     "drop_nolearn_pt": 8.75,
+     "drop_learn_pt": 10.73,
+     "share_from_decided": 81.55
+    },
+    "w9": {
+     "drop_nolearn_pt": 11.93,
+     "drop_learn_pt": 12.89,
+     "share_from_decided": 92.55
+    },
+    "w10": {
+     "drop_nolearn_pt": 12.94,
+     "drop_learn_pt": 13.49,
+     "share_from_decided": 95.92
+    }
+   }
+  }
+ },
+ "robust": {
+  "n_grid": 54,
+  "grid_reps": 300,
+  "nolearn_ratio_total_w10_range": [
+   0.0524,
+   0.7603
+  ],
+  "nolearn_ratio_open_amt_w10_range": [
+   1.2527,
+   6.4989
+  ],
+  "learn05_ratio_total_w10_range": [
+   0.0272,
+   0.4334
+  ],
+  "learn05_ratio_open_amt_w10_range": [
+   0.7411,
+   4.3081
+  ],
+  "nolearn_ratio_total_w10_by_timing": {
+   "一様": [
+    0.4447,
+    0.4851
+   ],
+   "期末に寄る": [
+    0.6774,
+    0.7603
+   ],
+   "期のはじめに寄る": [
+    0.0524,
+    0.1073
+   ]
+  },
+  "decided_amount_share_w10_by_timing": {
+   "一様": [
+    76.37,
+    78.27
+   ],
+   "期末に寄る": [
+    45.83,
+    47.84
+   ],
+   "期のはじめに寄る": [
+    97.85,
+    98.62
+   ]
+  },
+  "nolearn_open_ratio_above1_n": 18,
+  "nolearn_n": 18,
+  "week13_all_decided": true,
+  "week13_max_abs_diff": 0.0,
+  "share_from_decided_w10_by_timing": {
+   "一様": [
+    69.08,
+    82.59
+   ],
+   "期末に寄る": [
+    39.1,
+    60.35
+   ],
+   "期のはじめに寄る": [
+    89.42,
+    116.9
+   ]
+  }
+ }
+}

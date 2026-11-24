@@ -1,0 +1,266 @@
+{
+ "base": {
+  "n": 200,
+  "p_new": 0.15,
+  "p_ex": 0.45,
+  "s_start": 0.3,
+  "s_end": 0.7,
+  "imp": 0.0
+ },
+ "quarters": 8,
+ "reps": 500,
+ "headline": {
+  "S1": {
+   "scenario": "S1 割合だけ変わる（新しい取引先3割→7割、区分ごとの率は同じ）",
+   "n": 200.0,
+   "s_start": 0.3,
+   "s_end": 0.7,
+   "imp": 0.0,
+   "exp_rate_q1": 36.0,
+   "exp_rate_q8": 24.0,
+   "exp_std_q8": 36.0,
+   "rate_q1": 35.8,
+   "rate_q8": 23.8,
+   "std_q8": 35.92,
+   "new_q1": 15.13,
+   "new_q8": 14.65,
+   "ex_q1": 44.73,
+   "ex_q8": 45.1,
+   "change_raw_pt": -12.0,
+   "change_std_pt": 0.12,
+   "change_std_p10": -6.65,
+   "change_std_p90": 6.8,
+   "change_raw_p10": -18.0,
+   "change_raw_p90": -6.0,
+   "share_raw_down": 100.0,
+   "share_std_up": 50.6,
+   "share_both_up": 24.8,
+   "share_reversal": 24.8,
+   "fc_overall_bias": 40.06,
+   "fc_overall_abs": 40.06,
+   "fc_segment_bias": 0.78,
+   "fc_segment_abs": 10.85,
+   "fc_q7_bias": 9.0,
+   "fc_q7_abs": 16.62
+  },
+  "S2": {
+   "scenario": "S2 割合が変わり、区分ごとの率がどちらも3ポイント上がる",
+   "n": 200.0,
+   "s_start": 0.3,
+   "s_end": 0.7,
+   "imp": 0.03,
+   "exp_rate_q1": 36.0,
+   "exp_rate_q8": 27.0,
+   "exp_std_q8": 39.0,
+   "rate_q1": 36.04,
+   "rate_q8": 27.09,
+   "std_q8": 38.95,
+   "new_q1": 14.74,
+   "new_q8": 18.32,
+   "ex_q1": 45.05,
+   "ex_q8": 47.7,
+   "change_raw_pt": -8.95,
+   "change_std_pt": 2.92,
+   "change_std_p10": -5.19,
+   "change_std_p90": 10.06,
+   "change_raw_p10": -15.0,
+   "change_raw_p90": -3.0,
+   "share_raw_down": 96.8,
+   "share_std_up": 71.0,
+   "share_both_up": 47.4,
+   "share_reversal": 44.2,
+   "fc_overall_bias": 25.81,
+   "fc_overall_abs": 26.09,
+   "fc_segment_bias": -8.96,
+   "fc_segment_abs": 12.56,
+   "fc_q7_bias": 4.51,
+   "fc_q7_abs": 14.05
+  },
+  "S3": {
+   "scenario": "S3 割合は3割のまま、区分ごとの率がどちらも3ポイント上がる",
+   "n": 200.0,
+   "s_start": 0.3,
+   "s_end": 0.3,
+   "imp": 0.03,
+   "exp_rate_q1": 36.0,
+   "exp_rate_q8": 39.0,
+   "exp_std_q8": 39.0,
+   "rate_q1": 35.71,
+   "rate_q8": 38.97,
+   "std_q8": 38.92,
+   "new_q1": 14.73,
+   "new_q8": 18.02,
+   "ex_q1": 44.75,
+   "ex_q8": 47.93,
+   "change_raw_pt": 3.26,
+   "change_std_pt": 3.21,
+   "change_std_p10": -2.5,
+   "change_std_p90": 8.86,
+   "change_raw_p10": -2.5,
+   "change_raw_p90": 9.0,
+   "share_raw_down": 22.2,
+   "share_std_up": 75.4,
+   "share_both_up": 47.8,
+   "share_reversal": 0.4,
+   "fc_overall_bias": -6.12,
+   "fc_overall_abs": 8.91,
+   "fc_segment_bias": -6.05,
+   "fc_segment_abs": 8.59,
+   "fc_q7_bias": -1.27,
+   "fc_q7_abs": 9.34
+  },
+  "S4": {
+   "scenario": "S4 割合が逆に動く（新しい取引先7割→3割、区分ごとの率は同じ）",
+   "n": 200.0,
+   "s_start": 0.7,
+   "s_end": 0.3,
+   "imp": 0.0,
+   "exp_rate_q1": 24.0,
+   "exp_rate_q8": 36.0,
+   "exp_std_q8": 24.0,
+   "rate_q1": 23.71,
+   "rate_q8": 35.71,
+   "std_q8": 23.91,
+   "new_q1": 14.77,
+   "new_q8": 15.2,
+   "ex_q1": 44.78,
+   "ex_q8": 44.55,
+   "change_raw_pt": 12.0,
+   "change_std_pt": 0.2,
+   "change_std_p10": -5.75,
+   "change_std_p90": 6.04,
+   "change_raw_p10": 5.95,
+   "change_raw_p90": 18.5,
+   "share_raw_down": 1.0,
+   "share_std_up": 52.4,
+   "share_both_up": 26.8,
+   "share_reversal": 0.0,
+   "fc_overall_bias": -25.64,
+   "fc_overall_abs": 25.67,
+   "fc_segment_bias": 0.65,
+   "fc_segment_abs": 8.77,
+   "fc_q7_bias": -3.3,
+   "fc_q7_abs": 10.89
+  }
+ },
+ "robust": {
+  "n_grid": 270,
+  "grid_reps": 200,
+  "same_rate_change_raw_range": [
+   -32.92,
+   11.53
+  ],
+  "same_rate_change_std_range": [
+   -1.37,
+   1.57
+  ],
+  "imp_change_std_range": [
+   1.52,
+   4.69
+  ],
+  "imp_raw_down_expected_n": 69,
+  "imp_raw_down_expected_change_range": [
+   -30.0,
+   -1.0
+  ],
+  "imp_std_up_by_n": {
+   "50": [
+    53.0,
+    67.5
+   ],
+   "200": [
+    61.5,
+    80.0
+   ],
+   "800": [
+    76.0,
+    93.5
+   ]
+  },
+  "imp_both_up_by_n": {
+   "50": [
+    22.5,
+    47.0
+   ],
+   "200": [
+    36.0,
+    54.5
+   ],
+   "800": [
+    54.5,
+    78.5
+   ]
+  },
+  "imp_reversal_max_by_n": {
+   "50": 33.5,
+   "200": 53.5,
+   "800": 75.5
+  },
+  "fc_overall_bias_range_shift_up_same": [
+   2.48,
+   164.96
+  ],
+  "fc_overall_bias_range_shift_down_same": [
+   -15.58,
+   -0.39
+  ],
+  "fc_segment_bias_range_same": [
+   -5.99,
+   4.4
+  ],
+  "fc_overall_bias_range_noshift_same": [
+   -1.97,
+   1.53
+  ],
+  "imp_raw_down_expected_median_by_n": {
+   "share_raw_down": {
+    "50": 80.0,
+    "200": 96.5,
+    "800": 100.0
+   },
+   "share_both_up": {
+    "50": 34.5,
+    "200": 47.5,
+    "800": 64.0
+   },
+   "share_std_up": {
+    "50": 59.5,
+    "200": 71.5,
+    "800": 86.0
+   },
+   "share_reversal": {
+    "50": 17.5,
+    "200": 41.0,
+    "800": 61.5
+   }
+  },
+  "imp_raw_down_expected_settings_per_n": 23
+ },
+ "example_s2": {
+  "s1_quarter1_share_new": 22.5,
+  "q1": {
+   "quarter": 1.0,
+   "deals": 200.0,
+   "new_deals": 45.0,
+   "new_wins": 3.0,
+   "ex_deals": 155.0,
+   "ex_wins": 69.0,
+   "rate": 36.0,
+   "new_rate": 6.67,
+   "ex_rate": 44.52,
+   "same_mix_rate": 36.0
+  },
+  "q8": {
+   "quarter": 8.0,
+   "deals": 200.0,
+   "new_deals": 151.0,
+   "new_wins": 27.0,
+   "ex_deals": 49.0,
+   "ex_wins": 19.0,
+   "rate": 23.0,
+   "new_rate": 17.88,
+   "ex_rate": 38.78,
+   "same_mix_rate": 34.08
+  }
+ }
+}

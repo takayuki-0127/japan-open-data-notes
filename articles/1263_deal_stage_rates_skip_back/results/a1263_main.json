@@ -1,0 +1,199 @@
+{
+ "headline": {
+  "true_win_by_stage": [
+   0.1902,
+   0.314,
+   0.4732,
+   0.6284
+  ],
+  "ratio_m1_mean": 1.2226,
+  "ratio_m1_p10_p90": [
+   1.1285,
+   1.3168
+  ],
+  "ratio_m2_mean": 0.6292,
+  "ratio_m2_p10_p90": [
+   0.5664,
+   0.6879
+  ],
+  "ratio_m3_mean": 1.0002,
+  "ratio_m3_p10_p90": [
+   0.925,
+   1.0776
+  ],
+  "share_reps_m1_over_true": 0.998,
+  "share_reps_m2_under_true": 1.0
+ },
+ "by_stage": [
+  {
+   "stage": 1,
+   "stage_name": "初回の面談",
+   "f1": 0.1903,
+   "f2": 0.0659,
+   "f3": 0.1903,
+   "true": 0.1902,
+   "f1_over_true": 1.0,
+   "f2_over_true": 0.347,
+   "f3_over_true": 1.0
+  },
+  {
+   "stage": 2,
+   "stage_name": "提案",
+   "f1": 0.4277,
+   "f2": 0.1501,
+   "f3": 0.3134,
+   "true": 0.314,
+   "f1_over_true": 1.362,
+   "f2_over_true": 0.478,
+   "f3_over_true": 0.998
+  },
+  {
+   "stage": 3,
+   "stage_name": "見積もり",
+   "f1": 0.5714,
+   "f2": 0.3126,
+   "f3": 0.4734,
+   "true": 0.4732,
+   "f1_over_true": 1.207,
+   "f2_over_true": 0.66,
+   "f3_over_true": 1.0
+  },
+  {
+   "stage": 4,
+   "stage_name": "条件の詰め",
+   "f1": 0.8181,
+   "f2": 0.6008,
+   "f3": 0.6298,
+   "true": 0.6284,
+   "f1_over_true": 1.302,
+   "f2_over_true": 0.956,
+   "f3_over_true": 1.002
+  }
+ ],
+ "controls": [
+  {
+   "case": "none",
+   "s": 0.0,
+   "b": 0.0,
+   "ratio_m1": 0.996,
+   "ratio_m2": 0.996,
+   "ratio_m3": 0.996
+  },
+  {
+   "case": "back_only",
+   "s": 0.0,
+   "b": 0.15,
+   "ratio_m1": 0.996,
+   "ratio_m2": 0.922,
+   "ratio_m3": 0.996
+  },
+  {
+   "case": "skip_only",
+   "s": 0.2,
+   "b": 0.0,
+   "ratio_m1": 1.23,
+   "ratio_m2": 0.672,
+   "ratio_m3": 0.993
+  },
+  {
+   "case": "both",
+   "s": 0.2,
+   "b": 0.15,
+   "ratio_m1": 1.228,
+   "ratio_m2": 0.629,
+   "ratio_m3": 1.004
+  }
+ ],
+ "one_set": {
+  "history_deals": 800,
+  "won": 140,
+  "deals_with_skip": 160,
+  "deals_with_back": 38,
+  "pipeline_total_man_yen": 87815,
+  "forecast_m1": 35380,
+  "forecast_m2": 18150,
+  "forecast_m3": 28381,
+  "true_expected": 29929
+ },
+ "robust": {
+  "settings": 36,
+  "ratio_m1_range": [
+   0.9935,
+   1.4117
+  ],
+  "ratio_m2_range": [
+   0.4917,
+   1.0063
+  ],
+  "ratio_m3_range": [
+   0.9796,
+   1.0217
+  ],
+  "ratio_m1_range_no_skip": [
+   0.9935,
+   1.0155
+  ],
+  "ratio_m1_range_skip_0.3": [
+   1.275,
+   1.4117
+  ],
+  "ratio_m2_range_no_skip_no_back": [
+   0.9981,
+   1.0063
+  ],
+  "ratio_m2_range_skip_0.3_back_0.3": [
+   0.4917,
+   0.4962
+  ],
+  "settings_m1_over_m2_gap_gt_0.2": 27,
+  "stage2_m1_over_true_range": [
+   0.9947,
+   1.7487
+  ]
+ },
+ "settings": {
+  "stages": [
+   "初回の面談",
+   "提案",
+   "見積もり",
+   "条件の詰め"
+  ],
+  "advance": {
+   "low": [
+    0.45,
+    0.5,
+    0.55,
+    0.5
+   ],
+   "base": [
+    0.55,
+    0.6,
+    0.65,
+    0.6
+   ],
+   "high": [
+    0.65,
+    0.7,
+    0.75,
+    0.7
+   ]
+  },
+  "base": {
+   "a": "base",
+   "s": 0.2,
+   "b": 0.15
+  },
+  "history_deals": 800,
+  "open_deals": 200,
+  "open_stage_share": [
+   0.4,
+   0.25,
+   0.2,
+   0.15
+  ],
+  "amount": "中央値300万円・対数の標準偏差0.8",
+  "reps_base": 500,
+  "reps_control": 200,
+  "reps_grid": 40
+ }
+}
