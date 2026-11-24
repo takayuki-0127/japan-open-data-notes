@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 955本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 979本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,22 +10,22 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 142 |
+| 予測・時系列 | 143 |
 | 因果推論・効果検証 | 70 |
 | A/B テスト・実験 | 27 |
 | 統計の考え方（検定・区間・回帰） | 335 |
-| 機械学習・モデル評価 | 104 |
+| 機械学習・モデル評価 | 105 |
 | 顧客分析・生存分析 | 77 |
 | SQL・データ処理 | 95 |
 | Excel | 12 |
-| 集計の定義・KPI | 176 |
+| 集計の定義・KPI | 177 |
 | 可視化・報告・BI | 48 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 21 |
 | 再現性・振り返り | 97 |
-| その他（記述・要因分解など） | 620 |
+| その他（記述・要因分解など） | 641 |
 
-<details><summary><b>予測・時系列</b>（142本）</summary>
+<details><summary><b>予測・時系列</b>（143本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -171,6 +171,7 @@
 | 1022 | 予約の多い日は、当日も多いのか？ | [1022_booking_busy_day_walkins](articles/1022_booking_busy_day_walkins) |
 | 1028 | 予約の数から当日の人数を見込むと、どれだけ外れるのか？ | [1028_booking_forecast_from_bookings](articles/1028_booking_forecast_from_bookings) |
 | 1184 | 申し込む人数の見込みから枠の数を決めると、見込みの外れで倍率はどれだけ振れるのか？ | [1184_lottery_seats_from_forecast_ratio](articles/1184_lottery_seats_from_forecast_ratio) |
+| 1249 | 新しい本を出したあと、シリーズの前の本の売れ方がどれだけ押し上げられたかは分かるのか？ | [1249_ebook_series_prev_book_lift](articles/1249_ebook_series_prev_book_lift) |
 
 </details>
 
@@ -627,7 +628,7 @@
 
 </details>
 
-<details><summary><b>機械学習・モデル評価</b>（104本）</summary>
+<details><summary><b>機械学習・モデル評価</b>（105本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -735,6 +736,7 @@
 | 789 | 学習とテストを1回だけ分けたとき、テストの成績はどれだけ振れるのか？ | [789_single_split_variance](articles/789_single_split_variance) |
 | 790 | 学習データを2倍にすると、テストの誤差はどれだけ減り、どこで頭打ちになるのか？ | [790_learning_curve](articles/790_learning_curve) |
 | 964 | 自動で分類したときの正解率は、何と比べればよいのか？ | [964_text_classifier_accuracy_baseline](articles/964_text_classifier_accuracy_baseline) |
+| 1244 | 付け手の意見が割れた件を「難しい件」として別に数えると、分類の正解率の上限はどう見えるのか？ | [1244_label_split_items_ceiling](articles/1244_label_split_items_ceiling) |
 
 </details>
 
@@ -943,7 +945,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（176本）</summary>
+<details><summary><b>集計の定義・KPI</b>（177本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1123,6 +1125,7 @@
 | 1025 | 予約を締め切る時刻で、埋まり具合の見え方は変わるのか？ | [1025_booking_cutoff_time_fill](articles/1025_booking_cutoff_time_fill) |
 | 1198 | 届かなかったアドレスを分母に残すか除くかで、開封率はどう変わるのか？ | [1198_mail_bounce_denominator_open_rate](articles/1198_mail_bounce_denominator_open_rate) |
 | 1208 | 送ってから何日目で開封率を締めるかで、遅く開く人の多い配信はどれだけ低く出るのか？ | [1208_mail_close_day_late_openers](articles/1208_mail_close_day_late_openers) |
+| 1252 | 本ごとの売れ方を出した月で比べると、月の途中で出した本はどう見えるのか？ | [1252_ebook_release_month_mid_month](articles/1252_ebook_release_month_mid_month) |
 
 </details>
 
@@ -1393,7 +1396,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（620本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（641本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2017,6 +2020,27 @@
 | 1230 | 同じ内容の文書が何件もあると、上位10件の正しい割合は高く出ても、役に立つ文書はいくつなのか？ | [1230_search_duplicate_docs_top10](articles/1230_search_duplicate_docs_top10) |
 | 1231 | 言いかえて検索し直す人が減ったのは、見つかったからか、あきらめたからか？ | [1231_search_reformulation_found_or_gave_up](articles/1231_search_reformulation_found_or_gave_up) |
 | 1232 | 上位の順番が1つ入れかわっただけで、良さの点数はどれだけ動くのか？ | [1232_search_one_swap_score_change](articles/1232_search_one_swap_score_change) |
+| 1233 | 1件を3人で見て多い方の判定に決めると、1人で見るより正しくなるのは、どんなときか？ | [1233_label_majority_of_three_when](articles/1233_label_majority_of_three_when) |
+| 1234 | 付け手ごとの甘さ・辛さのくせは、見本の件でどこまで直せるのか？ | [1234_label_rater_bias_gold_fix](articles/1234_label_rater_bias_gold_fix) |
+| 1235 | 迷った件を「分からない」として除くと、残ったデータで作った分類はどれだけ易しい問題になるのか？ | [1235_label_drop_unsure_easier](articles/1235_label_drop_unsure_easier) |
+| 1236 | 付け手が疲れて後半ほど判定がゆるむと、付けた順番で何がまざるのか？ | [1236_label_fatigue_order_mix](articles/1236_label_fatigue_order_mix) |
+| 1237 | 似た件が続く並べ方で付けると、前の件の判定にどれだけ引っぱられるのか？ | [1237_label_similar_order_pull](articles/1237_label_similar_order_pull) |
+| 1238 | 分類する仕組みが迷う件から先に付けていくと、付けたデータの中の分類の割合は実際とどれだけずれるのか？ | [1238_label_uncertain_first_share](articles/1238_label_uncertain_first_share) |
+| 1239 | 分類する仕組みで数えた「当てはまる件の割合」は、見逃しと取り違えでどちらにずれるのか？ | [1239_label_classifier_share_bias](articles/1239_label_classifier_share_bias) |
+| 1240 | 一部の件だけを2人で付けて確かめると、残りの件のまちがいの数はどこまで見込めるのか？ | [1240_label_double_check_error_estimate](articles/1240_label_double_check_error_estimate) |
+| 1241 | 分類の決まりを途中で書き直すと、前に付けた件とあとで付けた件で何がずれるのか？ | [1241_label_rule_rewrite_mixed](articles/1241_label_rule_rewrite_mixed) |
+| 1242 | 珍しい分類を付けるとき、付け手は見逃しと付けすぎのどちらに寄るのか？ | [1242_label_rare_class_miss_vs_over](articles/1242_label_rare_class_miss_vs_over) |
+| 1243 | 付ける件数を付け手に均等に配るか、早い人に多く配るかで、全体のまちがいはどう変わるのか？ | [1243_label_assign_equal_vs_fast](articles/1243_label_assign_equal_vs_fast) |
+| 1245 | 販売の順位から、1日に何冊売れたかはどこまで読めるのか？ | [1245_ebook_rank_daily_sales](articles/1245_ebook_rank_daily_sales) |
+| 1246 | 1冊目から2冊目へ進んだ割合は、出してからの日数をそろえないとどう見えるのか？ | [1246_ebook_series_next_ratio_days](articles/1246_ebook_series_next_ratio_days) |
+| 1247 | 読み放題で読まれたページ数から、最後まで読んだ人の数はどこまで分かるのか？ | [1247_ebook_pages_read_finished](articles/1247_ebook_pages_read_finished) |
+| 1248 | 発売した週の山を含めて平均すると、ふだんの1日の売れ方はどう見えるのか？ | [1248_ebook_launch_week_mean_daily](articles/1248_ebook_launch_week_mean_daily) |
+| 1250 | 同じ日に2冊出すと、1冊ずつ出したときと比べて、1冊あたりの順位はどう見えるのか？ | [1250_ebook_same_day_two_rank](articles/1250_ebook_same_day_two_rank) |
+| 1251 | 読み放題のページ数は、文字の大きさや図の多さでどれだけ変わるのか？ | [1251_ebook_unlimited_pages_font_figures](articles/1251_ebook_unlimited_pages_font_figures) |
+| 1253 | 試し読みから買った割合は、試し読みの数で割るか紹介ページを見た数で割るかで、本の順がどう変わるのか？ | [1253_ebook_sample_conversion_denominator](articles/1253_ebook_sample_conversion_denominator) |
+| 1254 | 「売れ筋の20位以内」に入った日数で本を比べると、分野ごとの競争の違いで何がずれるのか？ | [1254_ebook_top_rank_days_genre](articles/1254_ebook_top_rank_days_genre) |
+| 1255 | 表紙を変えた前後の売れ方を比べると、発売からの日数で自然に減る分はどうまざるのか？ | [1255_ebook_cover_change_natural_decline](articles/1255_ebook_cover_change_natural_decline) |
+| 1256 | シリーズの何冊目から読み始める人が多いかで、1冊目から順に読む割合はどう見えるのか？ | [1256_ebook_series_start_book_order](articles/1256_ebook_series_start_book_order) |
 
 </details>
 
@@ -2026,8 +2050,8 @@
 | 場面 | 本数 |
 |---|---|
 | 小売・店舗 | 228 |
-| EC・会員・Web | 109 |
-| マーケティング・広告 | 33 |
+| EC・会員・Web | 112 |
+| マーケティング・広告 | 34 |
 | 需要予測・在庫 | 31 |
 | 業務の集計・報告 | 143 |
 | 作業時間・処理件数 | 6 |
@@ -2269,7 +2293,7 @@
 
 </details>
 
-<details><summary><b>EC・会員・Web</b>（109本）</summary>
+<details><summary><b>EC・会員・Web</b>（112本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2382,10 +2406,13 @@
 | 1203 | 登録して間もない人ほどよく開くとき、開封率の下がり方は読者の入れかわりでどれだけ説明できるのか？ | [1203_mail_new_readers_open_decline](articles/1203_mail_new_readers_open_decline) |
 | 1205 | 1通のリンクの数を増やすと、クリックした人の割合とクリックの回数はどう動くのか？ | [1205_mail_link_count_clicks](articles/1205_mail_link_count_clicks) |
 | 1227 | クリックされた文書を正しいと見なすと、上に出ていた文書はどれだけ有利になるのか？ | [1227_search_click_as_correct_top_bias](articles/1227_search_click_as_correct_top_bias) |
+| 1247 | 読み放題で読まれたページ数から、最後まで読んだ人の数はどこまで分かるのか？ | [1247_ebook_pages_read_finished](articles/1247_ebook_pages_read_finished) |
+| 1251 | 読み放題のページ数は、文字の大きさや図の多さでどれだけ変わるのか？ | [1251_ebook_unlimited_pages_font_figures](articles/1251_ebook_unlimited_pages_font_figures) |
+| 1253 | 試し読みから買った割合は、試し読みの数で割るか紹介ページを見た数で割るかで、本の順がどう変わるのか？ | [1253_ebook_sample_conversion_denominator](articles/1253_ebook_sample_conversion_denominator) |
 
 </details>
 
-<details><summary><b>マーケティング・広告</b>（33本）</summary>
+<details><summary><b>マーケティング・広告</b>（34本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2422,6 +2449,7 @@
 | 1201 | 長く開いていない人に送るのをやめて開封率が上がったのは、メールが良くなったからか？ | [1201_email_stop_inactive_open_rate](articles/1201_email_stop_inactive_open_rate) |
 | 1203 | 登録して間もない人ほどよく開くとき、開封率の下がり方は読者の入れかわりでどれだけ説明できるのか？ | [1203_mail_new_readers_open_decline](articles/1203_mail_new_readers_open_decline) |
 | 1204 | 迷惑メールに振り分けられた分は、開封率の数字のどこに表れるのか？ | [1204_mail_spam_folder_open_rate](articles/1204_mail_spam_folder_open_rate) |
+| 1243 | 付ける件数を付け手に均等に配るか、早い人に多く配るかで、全体のまちがいはどう変わるのか？ | [1243_label_assign_equal_vs_fast](articles/1243_label_assign_equal_vs_fast) |
 
 </details>
 
