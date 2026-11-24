@@ -1,0 +1,83 @@
+{
+ "setting": {
+  "items": 20000,
+  "alpha": 0.8,
+  "median_kb": 50.0,
+  "base": {
+   "rho": 0.0,
+   "cap_pct": 3,
+   "sig": 1.2
+  },
+  "warmup": 40000,
+  "measured": 160000,
+  "big_quantile": 0.9
+ },
+ "base": [
+  {
+   "size_popularity": "関係なし",
+   "rho": 0.0,
+   "cap_pct": 3,
+   "size_logsd": 1.2,
+   "policy": "①古いものから捨てる",
+   "hit_count_pct": 28.25,
+   "hit_bytes_pct": 25.47
+  },
+  {
+   "size_popularity": "関係なし",
+   "rho": 0.0,
+   "cap_pct": 3,
+   "size_logsd": 1.2,
+   "policy": "②大きいものは置かない",
+   "hit_count_pct": 33.08,
+   "hit_bytes_pct": 20.5
+  },
+  {
+   "size_popularity": "関係なし",
+   "rho": 0.0,
+   "cap_pct": 3,
+   "size_logsd": 1.2,
+   "policy": "③大きいものから捨てる",
+   "hit_count_pct": 30.25,
+   "hit_bytes_pct": 6.32
+  }
+ ],
+ "base_rank_count": "②>③>①",
+ "base_rank_bytes": "①>②>③",
+ "base_detail": {
+  "cap_kb": 62547.9,
+  "big_limit_kb": 234.43,
+  "mean_requested_kb": 98.76,
+  "mean_item_kb": 104.25,
+  "big_share_of_requests_pct": 9.52,
+  "big_share_of_bytes_pct": 44.72
+ },
+ "grid": {
+  "n": 18,
+  "best_differs": 15,
+  "best_differs_by_relation": {
+   "人気ほど小さい": 6,
+   "関係なし": 6,
+   "人気ほど大きい": 3
+  },
+  "best_count_counts": {
+   "③大きいものから捨てる": 12,
+   "②大きいものは置かない": 3,
+   "①古いものから捨てる": 3
+  },
+  "best_bytes_counts": {
+   "①古いものから捨てる": 11,
+   "②大きいものは置かない": 7
+  },
+  "fully_reversed": 2,
+  "p3_minus_p1_count_pts_range": [
+   -23.67,
+   31.38
+  ],
+  "p3_minus_p1_bytes_pts_range": [
+   -62.93,
+   0.83
+  ],
+  "p3_count_higher_n": 12,
+  "p3_bytes_lower_n": 16
+ }
+}

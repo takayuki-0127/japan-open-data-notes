@@ -1,0 +1,363 @@
+{
+ "setting": {
+  "items": 100000,
+  "alphas": [
+   0.6,
+   0.8,
+   1.0,
+   1.2
+  ],
+  "sizes_pct": [
+   0.25,
+   0.5,
+   1,
+   2,
+   4,
+   8,
+   16
+  ],
+  "warmup_requests": 100000,
+  "measured_requests": 300000,
+  "base_alpha": 0.8
+ },
+ "hit_by_size": [
+  {
+   "items": 100000,
+   "alpha": 0.6,
+   "size_pct": 0.25,
+   "size_items": 250,
+   "hit_recent_pct": 1.81,
+   "hit_top_formula_pct": 8.39
+  },
+  {
+   "items": 100000,
+   "alpha": 0.6,
+   "size_pct": 0.5,
+   "size_items": 500,
+   "hit_recent_pct": 3.19,
+   "hit_top_formula_pct": 11.32
+  },
+  {
+   "items": 100000,
+   "alpha": 0.6,
+   "size_pct": 1.0,
+   "size_items": 1000,
+   "hit_recent_pct": 5.37,
+   "hit_top_formula_pct": 15.19
+  },
+  {
+   "items": 100000,
+   "alpha": 0.6,
+   "size_pct": 2.0,
+   "size_items": 2000,
+   "hit_recent_pct": 8.8,
+   "hit_top_formula_pct": 20.29
+  },
+  {
+   "items": 100000,
+   "alpha": 0.6,
+   "size_pct": 4.0,
+   "size_items": 4000,
+   "hit_recent_pct": 14.02,
+   "hit_top_formula_pct": 27.03
+  },
+  {
+   "items": 100000,
+   "alpha": 0.6,
+   "size_pct": 8.0,
+   "size_items": 8000,
+   "hit_recent_pct": 21.98,
+   "hit_top_formula_pct": 35.91
+  },
+  {
+   "items": 100000,
+   "alpha": 0.6,
+   "size_pct": 16.0,
+   "size_items": 16000,
+   "hit_recent_pct": 33.96,
+   "hit_top_formula_pct": 47.64
+  },
+  {
+   "items": 100000,
+   "alpha": 0.8,
+   "size_pct": 0.25,
+   "size_items": 250,
+   "hit_recent_pct": 11.13,
+   "hit_top_formula_pct": 23.38
+  },
+  {
+   "items": 100000,
+   "alpha": 0.8,
+   "size_pct": 0.5,
+   "size_items": 500,
+   "hit_recent_pct": 15.34,
+   "hit_top_formula_pct": 28.3
+  },
+  {
+   "items": 100000,
+   "alpha": 0.8,
+   "size_pct": 1.0,
+   "size_items": 1000,
+   "hit_recent_pct": 20.36,
+   "hit_top_formula_pct": 33.95
+  },
+  {
+   "items": 100000,
+   "alpha": 0.8,
+   "size_pct": 2.0,
+   "size_items": 2000,
+   "hit_recent_pct": 26.48,
+   "hit_top_formula_pct": 40.45
+  },
+  {
+   "items": 100000,
+   "alpha": 0.8,
+   "size_pct": 4.0,
+   "size_items": 4000,
+   "hit_recent_pct": 34.08,
+   "hit_top_formula_pct": 47.91
+  },
+  {
+   "items": 100000,
+   "alpha": 0.8,
+   "size_pct": 8.0,
+   "size_items": 8000,
+   "hit_recent_pct": 43.39,
+   "hit_top_formula_pct": 56.48
+  },
+  {
+   "items": 100000,
+   "alpha": 0.8,
+   "size_pct": 16.0,
+   "size_items": 16000,
+   "hit_recent_pct": 54.8,
+   "hit_top_formula_pct": 66.33
+  },
+  {
+   "items": 100000,
+   "alpha": 1.0,
+   "size_pct": 0.25,
+   "size_items": 250,
+   "hit_recent_pct": 37.33,
+   "hit_top_formula_pct": 50.46
+  },
+  {
+   "items": 100000,
+   "alpha": 1.0,
+   "size_pct": 0.5,
+   "size_items": 500,
+   "hit_recent_pct": 43.92,
+   "hit_top_formula_pct": 56.18
+  },
+  {
+   "items": 100000,
+   "alpha": 1.0,
+   "size_pct": 1.0,
+   "size_items": 1000,
+   "hit_recent_pct": 50.59,
+   "hit_top_formula_pct": 61.91
+  },
+  {
+   "items": 100000,
+   "alpha": 1.0,
+   "size_pct": 2.0,
+   "size_items": 2000,
+   "hit_recent_pct": 57.35,
+   "hit_top_formula_pct": 67.64
+  },
+  {
+   "items": 100000,
+   "alpha": 1.0,
+   "size_pct": 4.0,
+   "size_items": 4000,
+   "hit_recent_pct": 64.28,
+   "hit_top_formula_pct": 73.38
+  },
+  {
+   "items": 100000,
+   "alpha": 1.0,
+   "size_pct": 8.0,
+   "size_items": 8000,
+   "hit_recent_pct": 71.35,
+   "hit_top_formula_pct": 79.11
+  },
+  {
+   "items": 100000,
+   "alpha": 1.0,
+   "size_pct": 16.0,
+   "size_items": 16000,
+   "hit_recent_pct": 78.75,
+   "hit_top_formula_pct": 84.84
+  },
+  {
+   "items": 100000,
+   "alpha": 1.2,
+   "size_pct": 0.25,
+   "size_items": 250,
+   "hit_recent_pct": 69.36,
+   "hit_top_formula_pct": 77.28
+  },
+  {
+   "items": 100000,
+   "alpha": 1.2,
+   "size_pct": 0.5,
+   "size_items": 500,
+   "hit_recent_pct": 74.83,
+   "hit_top_formula_pct": 81.49
+  },
+  {
+   "items": 100000,
+   "alpha": 1.2,
+   "size_pct": 1.0,
+   "size_items": 1000,
+   "hit_recent_pct": 79.68,
+   "hit_top_formula_pct": 85.16
+  },
+  {
+   "items": 100000,
+   "alpha": 1.2,
+   "size_pct": 2.0,
+   "size_items": 2000,
+   "hit_recent_pct": 83.85,
+   "hit_top_formula_pct": 88.35
+  },
+  {
+   "items": 100000,
+   "alpha": 1.2,
+   "size_pct": 4.0,
+   "size_items": 4000,
+   "hit_recent_pct": 87.5,
+   "hit_top_formula_pct": 91.13
+  },
+  {
+   "items": 100000,
+   "alpha": 1.2,
+   "size_pct": 8.0,
+   "size_items": 8000,
+   "hit_recent_pct": 90.77,
+   "hit_top_formula_pct": 93.55
+  },
+  {
+   "items": 100000,
+   "alpha": 1.2,
+   "size_pct": 16.0,
+   "size_items": 16000,
+   "hit_recent_pct": 93.56,
+   "hit_top_formula_pct": 95.65
+  }
+ ],
+ "headline": {
+  "base_alpha": 0.8,
+  "from_1_to_2": {
+   "items": 100000.0,
+   "alpha": 0.8,
+   "from_pct": 1.0,
+   "to_pct": 2.0,
+   "hit_from_pct": 20.36,
+   "hit_to_pct": 26.48,
+   "gain_points": 6.12,
+   "hit_ratio": 1.301,
+   "miss_ratio": 0.923,
+   "gain_points_top_formula": 6.5
+  },
+  "base_gain_range_points": [
+   4.21,
+   11.41
+  ],
+  "all_gain_range_points": [
+   1.38,
+   11.98
+  ],
+  "all_hit_ratio_range": [
+   1.031,
+   1.762
+  ],
+  "all_miss_ratio_range": [
+   0.698,
+   0.986
+  ],
+  "n_steps": 24
+ },
+ "by_alpha": {
+  "0.6": {
+   "gains": [
+    1.38,
+    2.18,
+    3.43,
+    5.22,
+    7.96,
+    11.98
+   ],
+   "first": 1.38,
+   "last": 11.98,
+   "trend": "増える",
+   "recent_minus_top_points_range": [
+    -13.93,
+    -6.58
+   ]
+  },
+  "0.8": {
+   "gains": [
+    4.21,
+    5.02,
+    6.12,
+    7.6,
+    9.31,
+    11.41
+   ],
+   "first": 4.21,
+   "last": 11.41,
+   "trend": "増える",
+   "recent_minus_top_points_range": [
+    -13.97,
+    -11.53
+   ]
+  },
+  "1.0": {
+   "gains": [
+    6.59,
+    6.67,
+    6.76,
+    6.93,
+    7.07,
+    7.4
+   ],
+   "first": 6.59,
+   "last": 7.4,
+   "trend": "ほぼ同じ",
+   "recent_minus_top_points_range": [
+    -13.13,
+    -6.09
+   ]
+  },
+  "1.2": {
+   "gains": [
+    5.47,
+    4.85,
+    4.17,
+    3.65,
+    3.27,
+    2.79
+   ],
+   "first": 5.47,
+   "last": 2.79,
+   "trend": "減る",
+   "recent_minus_top_points_range": [
+    -7.92,
+    -2.09
+   ]
+  }
+ },
+ "hit_doubled_steps": 0,
+ "check_20000": {
+  "diff_points_range": [
+   -13.59,
+   -0.43
+  ],
+  "gain_range_points": [
+   1.22,
+   12.04
+  ],
+  "trend_same": true
+ }
+}

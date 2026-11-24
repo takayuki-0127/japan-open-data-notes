@@ -1,0 +1,460 @@
+{
+ "setup": {
+  "n_items": 2000,
+  "alpha": 0.9,
+  "rate_per_sec": 5.0,
+  "hours": 24,
+  "update_mean_sec": 3600.0,
+  "hot_n": 20,
+  "hot_update_mean_sec": 600.0,
+  "seed": 1154,
+  "n_requests": 431922
+ },
+ "by_keep": [
+  {
+   "case": "base",
+   "keep_sec": 10,
+   "keep": "10秒",
+   "hit_rate": 0.2204,
+   "stale_of_all": 0.0003,
+   "stale_of_hits": 0.0015,
+   "hit_formula": 0.2205,
+   "stale_formula": 0.0003,
+   "stale_age_median_sec": 3.0,
+   "stale_age_mean_sec": 3.5,
+   "stale_age_median_over_keep": 0.304,
+   "stale_age_p90_sec": 7.4
+  },
+  {
+   "case": "base",
+   "keep_sec": 30,
+   "keep": "30秒",
+   "hit_rate": 0.3421,
+   "stale_of_all": 0.0015,
+   "stale_of_hits": 0.0043,
+   "hit_formula": 0.3422,
+   "stale_formula": 0.0014,
+   "stale_age_median_sec": 9.1,
+   "stale_age_mean_sec": 10.5,
+   "stale_age_median_over_keep": 0.304,
+   "stale_age_p90_sec": 21.5
+  },
+  {
+   "case": "base",
+   "keep_sec": 60,
+   "keep": "1分",
+   "hit_rate": 0.4285,
+   "stale_of_all": 0.0041,
+   "stale_of_hits": 0.0095,
+   "hit_formula": 0.4282,
+   "stale_formula": 0.0035,
+   "stale_age_median_sec": 18.9,
+   "stale_age_mean_sec": 20.8,
+   "stale_age_median_over_keep": 0.315,
+   "stale_age_p90_sec": 42.5
+  },
+  {
+   "case": "base",
+   "keep_sec": 300,
+   "keep": "5分",
+   "hit_rate": 0.6436,
+   "stale_of_all": 0.0271,
+   "stale_of_hits": 0.0421,
+   "hit_formula": 0.6437,
+   "stale_formula": 0.0261,
+   "stale_age_median_sec": 87.9,
+   "stale_age_mean_sec": 100.7,
+   "stale_age_median_over_keep": 0.293,
+   "stale_age_p90_sec": 206.6
+  },
+  {
+   "case": "base",
+   "keep_sec": 900,
+   "keep": "15分",
+   "hit_rate": 0.7843,
+   "stale_of_all": 0.0906,
+   "stale_of_hits": 0.1155,
+   "hit_formula": 0.7849,
+   "stale_formula": 0.0904,
+   "stale_age_median_sec": 271.6,
+   "stale_age_mean_sec": 307.4,
+   "stale_age_median_over_keep": 0.302,
+   "stale_age_p90_sec": 627.5
+  },
+  {
+   "case": "base",
+   "keep_sec": 1800,
+   "keep": "30分",
+   "hit_rate": 0.858,
+   "stale_of_all": 0.182,
+   "stale_of_hits": 0.2121,
+   "hit_formula": 0.8589,
+   "stale_formula": 0.183,
+   "stale_age_median_sec": 555.3,
+   "stale_age_mean_sec": 622.7,
+   "stale_age_median_over_keep": 0.309,
+   "stale_age_p90_sec": 1255.4
+  },
+  {
+   "case": "base",
+   "keep_sec": 3600,
+   "keep": "1時間",
+   "hit_rate": 0.9134,
+   "stale_of_all": 0.3271,
+   "stale_of_hits": 0.3581,
+   "hit_formula": 0.9147,
+   "stale_formula": 0.3365,
+   "stale_age_median_sec": 1155.4,
+   "stale_age_mean_sec": 1276.9,
+   "stale_age_median_over_keep": 0.321,
+   "stale_age_p90_sec": 2540.9
+  },
+  {
+   "case": "base",
+   "keep_sec": 10800,
+   "keep": "3時間",
+   "hit_rate": 0.9648,
+   "stale_of_all": 0.6682,
+   "stale_of_hits": 0.6925,
+   "hit_formula": 0.9665,
+   "stale_formula": 0.6604,
+   "stale_age_median_sec": 3996.2,
+   "stale_age_mean_sec": 4240.7,
+   "stale_age_median_over_keep": 0.37,
+   "stale_age_p90_sec": 8112.0
+  },
+  {
+   "case": "base",
+   "keep_sec": 21600,
+   "keep": "6時間",
+   "hit_rate": 0.9815,
+   "stale_of_all": 0.8283,
+   "stale_of_hits": 0.8439,
+   "hit_formula": 0.9824,
+   "stale_formula": 0.8191,
+   "stale_age_median_sec": 9072.2,
+   "stale_age_mean_sec": 9299.0,
+   "stale_age_median_over_keep": 0.42,
+   "stale_age_p90_sec": 17141.6
+  },
+  {
+   "case": "hot",
+   "keep_sec": 10,
+   "keep": "10秒",
+   "hit_rate": 0.2202,
+   "stale_of_all": 0.0016,
+   "stale_of_hits": 0.0072,
+   "hit_formula": 0.2205,
+   "stale_formula": 0.0016,
+   "stale_age_median_sec": 2.9,
+   "stale_age_mean_sec": 3.3,
+   "stale_age_median_over_keep": 0.288,
+   "stale_age_p90_sec": 7.1
+  },
+  {
+   "case": "hot",
+   "keep_sec": 30,
+   "keep": "30秒",
+   "hit_rate": 0.3417,
+   "stale_of_all": 0.0072,
+   "stale_of_hits": 0.021,
+   "hit_formula": 0.3422,
+   "stale_formula": 0.0067,
+   "stale_age_median_sec": 9.3,
+   "stale_age_mean_sec": 10.4,
+   "stale_age_median_over_keep": 0.311,
+   "stale_age_p90_sec": 21.4
+  },
+  {
+   "case": "hot",
+   "keep_sec": 60,
+   "keep": "1分",
+   "hit_rate": 0.4277,
+   "stale_of_all": 0.0153,
+   "stale_of_hits": 0.0357,
+   "hit_formula": 0.4282,
+   "stale_formula": 0.0152,
+   "stale_age_median_sec": 17.5,
+   "stale_age_mean_sec": 19.8,
+   "stale_age_median_over_keep": 0.292,
+   "stale_age_p90_sec": 40.4
+  },
+  {
+   "case": "hot",
+   "keep_sec": 300,
+   "keep": "5分",
+   "hit_rate": 0.643,
+   "stale_of_all": 0.0827,
+   "stale_of_hits": 0.1286,
+   "hit_formula": 0.6437,
+   "stale_formula": 0.083,
+   "stale_age_median_sec": 91.0,
+   "stale_age_mean_sec": 102.7,
+   "stale_age_median_over_keep": 0.303,
+   "stale_age_p90_sec": 208.8
+  },
+  {
+   "case": "hot",
+   "keep_sec": 900,
+   "keep": "15分",
+   "hit_rate": 0.7843,
+   "stale_of_all": 0.2132,
+   "stale_of_hits": 0.2718,
+   "hit_formula": 0.7849,
+   "stale_formula": 0.2145,
+   "stale_age_median_sec": 297.6,
+   "stale_age_mean_sec": 326.5,
+   "stale_age_median_over_keep": 0.331,
+   "stale_age_p90_sec": 646.6
+  },
+  {
+   "case": "hot",
+   "keep_sec": 1800,
+   "keep": "30分",
+   "hit_rate": 0.8577,
+   "stale_of_all": 0.3432,
+   "stale_of_hits": 0.4001,
+   "hit_formula": 0.8589,
+   "stale_formula": 0.3431,
+   "stale_age_median_sec": 643.1,
+   "stale_age_mean_sec": 691.2,
+   "stale_age_median_over_keep": 0.357,
+   "stale_age_p90_sec": 1341.8
+  },
+  {
+   "case": "hot",
+   "keep_sec": 3600,
+   "keep": "1時間",
+   "hit_rate": 0.9133,
+   "stale_of_all": 0.495,
+   "stale_of_hits": 0.5421,
+   "hit_formula": 0.9147,
+   "stale_formula": 0.4956,
+   "stale_age_median_sec": 1364.7,
+   "stale_age_mean_sec": 1450.2,
+   "stale_age_median_over_keep": 0.379,
+   "stale_age_p90_sec": 2784.9
+  },
+  {
+   "case": "hot",
+   "keep_sec": 10800,
+   "keep": "3時間",
+   "hit_rate": 0.9648,
+   "stale_of_all": 0.7423,
+   "stale_of_hits": 0.7694,
+   "hit_formula": 0.9665,
+   "stale_formula": 0.7498,
+   "stale_age_median_sec": 4418.0,
+   "stale_age_mean_sec": 4611.7,
+   "stale_age_median_over_keep": 0.409,
+   "stale_age_p90_sec": 8705.1
+  },
+  {
+   "case": "hot",
+   "keep_sec": 21600,
+   "keep": "6時間",
+   "hit_rate": 0.9815,
+   "stale_of_all": 0.8625,
+   "stale_of_hits": 0.8787,
+   "hit_formula": 0.9824,
+   "stale_formula": 0.8665,
+   "stale_age_median_sec": 9444.7,
+   "stale_age_mean_sec": 9671.6,
+   "stale_age_median_over_keep": 0.437,
+   "stale_age_p90_sec": 17865.3
+  }
+ ],
+ "steps": [
+  {
+   "case": "base",
+   "from": "10秒",
+   "to": "30秒",
+   "hit_up_pt": 12.17,
+   "stale_up_pt": 0.12,
+   "stale_per_hit": 0.01,
+   "stale_per_hit_formula": 0.009
+  },
+  {
+   "case": "base",
+   "from": "30秒",
+   "to": "1分",
+   "hit_up_pt": 8.64,
+   "stale_up_pt": 0.26,
+   "stale_per_hit": 0.03,
+   "stale_per_hit_formula": 0.024
+  },
+  {
+   "case": "base",
+   "from": "1分",
+   "to": "5分",
+   "hit_up_pt": 21.51,
+   "stale_up_pt": 2.3,
+   "stale_per_hit": 0.107,
+   "stale_per_hit_formula": 0.105
+  },
+  {
+   "case": "base",
+   "from": "5分",
+   "to": "15分",
+   "hit_up_pt": 14.07,
+   "stale_up_pt": 6.35,
+   "stale_per_hit": 0.451,
+   "stale_per_hit_formula": 0.455
+  },
+  {
+   "case": "base",
+   "from": "15分",
+   "to": "30分",
+   "hit_up_pt": 7.37,
+   "stale_up_pt": 9.14,
+   "stale_per_hit": 1.24,
+   "stale_per_hit_formula": 1.251
+  },
+  {
+   "case": "base",
+   "from": "30分",
+   "to": "1時間",
+   "hit_up_pt": 5.54,
+   "stale_up_pt": 14.51,
+   "stale_per_hit": 2.619,
+   "stale_per_hit_formula": 2.751
+  },
+  {
+   "case": "base",
+   "from": "1時間",
+   "to": "3時間",
+   "hit_up_pt": 5.14,
+   "stale_up_pt": 34.11,
+   "stale_per_hit": 6.636,
+   "stale_per_hit_formula": 6.253
+  },
+  {
+   "case": "base",
+   "from": "3時間",
+   "to": "6時間",
+   "hit_up_pt": 1.67,
+   "stale_up_pt": 16.01,
+   "stale_per_hit": 9.587,
+   "stale_per_hit_formula": 9.981
+  },
+  {
+   "case": "hot",
+   "from": "10秒",
+   "to": "30秒",
+   "hit_up_pt": 12.15,
+   "stale_up_pt": 0.56,
+   "stale_per_hit": 0.046,
+   "stale_per_hit_formula": 0.042
+  },
+  {
+   "case": "hot",
+   "from": "30秒",
+   "to": "1分",
+   "hit_up_pt": 8.6,
+   "stale_up_pt": 0.81,
+   "stale_per_hit": 0.094,
+   "stale_per_hit_formula": 0.099
+  },
+  {
+   "case": "hot",
+   "from": "1分",
+   "to": "5分",
+   "hit_up_pt": 21.53,
+   "stale_up_pt": 6.74,
+   "stale_per_hit": 0.313,
+   "stale_per_hit_formula": 0.315
+  },
+  {
+   "case": "hot",
+   "from": "5分",
+   "to": "15分",
+   "hit_up_pt": 14.13,
+   "stale_up_pt": 13.05,
+   "stale_per_hit": 0.924,
+   "stale_per_hit_formula": 0.931
+  },
+  {
+   "case": "hot",
+   "from": "15分",
+   "to": "30分",
+   "hit_up_pt": 7.34,
+   "stale_up_pt": 13.0,
+   "stale_per_hit": 1.771,
+   "stale_per_hit_formula": 1.738
+  },
+  {
+   "case": "hot",
+   "from": "30分",
+   "to": "1時間",
+   "hit_up_pt": 5.56,
+   "stale_up_pt": 15.18,
+   "stale_per_hit": 2.73,
+   "stale_per_hit_formula": 2.733
+  },
+  {
+   "case": "hot",
+   "from": "1時間",
+   "to": "3時間",
+   "hit_up_pt": 5.15,
+   "stale_up_pt": 24.73,
+   "stale_per_hit": 4.802,
+   "stale_per_hit_formula": 4.907
+  },
+  {
+   "case": "hot",
+   "from": "3時間",
+   "to": "6時間",
+   "hit_up_pt": 1.67,
+   "stale_up_pt": 12.02,
+   "stale_per_hit": 7.198,
+   "stale_per_hit_formula": 7.34
+  }
+ ],
+ "max_abs_diff_sim_formula_pt": {
+  "hit": 0.17,
+  "stale": 0.94
+ },
+ "min1_to_hour1": {
+  "hit_1min": 0.4285,
+  "hit_1h": 0.9134,
+  "stale_1min": 0.0041,
+  "stale_1h": 0.3271,
+  "miss_ratio_1h_over_1min": 0.152,
+  "stale_ratio_1h_over_1min": 79.78
+ },
+ "top1_stale_formula": {
+  "10秒": 0.0011,
+  "30秒": 0.0038,
+  "1分": 0.008,
+  "5分": 0.0402,
+  "15分": 0.1149,
+  "30分": 0.2128,
+  "1時間": 0.3676,
+  "3時間": 0.6831,
+  "6時間": 0.8337
+ },
+ "top1_requests_per_sec": 0.418,
+ "grid_summary": {
+  "n_cases": 27,
+  "stale_per_hit_15to30min_range": [
+   0.088,
+   14.636
+  ],
+  "stale_per_hit_15to30min_over1": "17/27",
+  "first_keep_over_1pct_counts": {
+   "5分": 10,
+   "15分": 8,
+   "30秒": 4,
+   "1分": 3,
+   "30分": 2
+  },
+  "stale_30min_range": [
+   0.0167,
+   0.6705
+  ],
+  "hit_30min_range": [
+   0.4111,
+   0.9814
+  ]
+ }
+}
