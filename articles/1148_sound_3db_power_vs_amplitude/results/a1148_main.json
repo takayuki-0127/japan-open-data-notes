@@ -1,0 +1,476 @@
+{
+ "settings": {
+  "sample_rate": 8000,
+  "duration_sec": 4.0,
+  "up_db": 3.0,
+  "split_hz": 500,
+  "seed": 1148
+ },
+ "formula_table": [
+  {
+   "db": 1,
+   "power_ratio": 1.2589,
+   "amplitude_ratio": 1.122
+  },
+  {
+   "db": 3,
+   "power_ratio": 1.9953,
+   "amplitude_ratio": 1.4125
+  },
+  {
+   "db": 6,
+   "power_ratio": 3.9811,
+   "amplitude_ratio": 1.9953
+  },
+  {
+   "db": 10,
+   "power_ratio": 10.0,
+   "amplitude_ratio": 3.1623
+  },
+  {
+   "db": 20,
+   "power_ratio": 100.0,
+   "amplitude_ratio": 10.0
+  }
+ ],
+ "stack_3db": [
+  {
+   "times_3db": 1,
+   "total_db": 3,
+   "power_ratio": 1.995,
+   "two_to_k": 2,
+   "power_ratio_over_two_to_k": 0.9976
+  },
+  {
+   "times_3db": 2,
+   "total_db": 6,
+   "power_ratio": 3.981,
+   "two_to_k": 4,
+   "power_ratio_over_two_to_k": 0.9953
+  },
+  {
+   "times_3db": 5,
+   "total_db": 15,
+   "power_ratio": 31.623,
+   "two_to_k": 32,
+   "power_ratio_over_two_to_k": 0.9882
+  },
+  {
+   "times_3db": 10,
+   "total_db": 30,
+   "power_ratio": 1000.0,
+   "two_to_k": 1024,
+   "power_ratio_over_two_to_k": 0.9766
+  },
+  {
+   "times_3db": 20,
+   "total_db": 60,
+   "power_ratio": 1000000.0,
+   "two_to_k": 1048576,
+   "power_ratio_over_two_to_k": 0.9537
+  }
+ ],
+ "whole_gain": [
+  {
+   "type": "でたらめな雑音",
+   "power_ratio": 1.9953,
+   "rms_amplitude_ratio": 1.4125,
+   "peak_ratio": 1.4125,
+   "mean_abs_ratio": 1.4125,
+   "all_within_1e-12_of_formula": true
+  },
+  {
+   "type": "一定の高さの音",
+   "power_ratio": 1.9953,
+   "rms_amplitude_ratio": 1.4125,
+   "peak_ratio": 1.4125,
+   "mean_abs_ratio": 1.4125,
+   "all_within_1e-12_of_formula": true
+  },
+  {
+   "type": "架空の曲",
+   "power_ratio": 1.9953,
+   "rms_amplitude_ratio": 1.4125,
+   "peak_ratio": 1.4125,
+   "mean_abs_ratio": 1.4125,
+   "all_within_1e-12_of_formula": true
+  }
+ ],
+ "misread": {
+  "amplitude_x2_db": 6.021,
+  "amplitude_x2_power_ratio": 4,
+  "power_x1413_db": 1.5,
+  "power_x2_amplitude_ratio": 1.4142
+ },
+ "clip": {
+  "songs": 200,
+  "share_songs_clipped": 0.52,
+  "share_songs_not_clipped": 0.48,
+  "not_clipped_power_ratio_mean": 1.9953,
+  "not_clipped_power_increase_db_mean": 3.0,
+  "not_clipped_peak_ratio_mean": 1.4125,
+  "clipped_power_increase_db_mean": 2.9936,
+  "clipped_power_increase_db_min": 2.9673,
+  "clipped_power_ratio_mean": 1.9923,
+  "clipped_peak_ratio_mean": 1.1981,
+  "clipped_peak_ratio_min": 1.0125,
+  "clipped_point_share_mean": 0.000229,
+  "clipped_point_share_max": 0.001219,
+  "peak_ratio_db_clipped_mean": 1.532
+ },
+ "clip_by_type": [
+  {
+   "type": "でたらめな雑音",
+   "peak_before_db": -2.0,
+   "power_increase_db_mean": 2.999,
+   "power_ratio_mean": 1.9946,
+   "peak_ratio_mean": 1.2589,
+   "clipped_point_share_mean": 0.000202
+  },
+  {
+   "type": "でたらめな雑音",
+   "peak_before_db": -1.0,
+   "power_increase_db_mean": 2.993,
+   "power_ratio_mean": 1.9923,
+   "peak_ratio_mean": 1.122,
+   "clipped_point_share_mean": 0.00083
+  },
+  {
+   "type": "でたらめな雑音",
+   "peak_before_db": -0.1,
+   "power_increase_db_mean": 2.98,
+   "power_ratio_mean": 1.986,
+   "peak_ratio_mean": 1.0116,
+   "clipped_point_share_mean": 0.002517
+  },
+  {
+   "type": "一定の高さの音",
+   "peak_before_db": -2.0,
+   "power_increase_db_mean": 2.634,
+   "power_ratio_mean": 1.8338,
+   "peak_ratio_mean": 1.2589,
+   "clipped_point_share_mean": 0.299678
+  },
+  {
+   "type": "一定の高さの音",
+   "peak_before_db": -1.0,
+   "power_increase_db_mean": 2.04,
+   "power_ratio_mean": 1.5995,
+   "peak_ratio_mean": 1.122,
+   "clipped_point_share_mean": 0.415585
+  },
+  {
+   "type": "一定の高さの音",
+   "peak_before_db": -0.1,
+   "power_increase_db_mean": 1.416,
+   "power_ratio_mean": 1.3856,
+   "peak_ratio_mean": 1.0116,
+   "clipped_point_share_mean": 0.49182
+  },
+  {
+   "type": "架空の曲",
+   "peak_before_db": -2.0,
+   "power_increase_db_mean": 2.997,
+   "power_ratio_mean": 1.994,
+   "peak_ratio_mean": 1.2589,
+   "clipped_point_share_mean": 0.000105
+  },
+  {
+   "type": "架空の曲",
+   "peak_before_db": -1.0,
+   "power_increase_db_mean": 2.991,
+   "power_ratio_mean": 1.9913,
+   "peak_ratio_mean": 1.122,
+   "clipped_point_share_mean": 0.000267
+  },
+  {
+   "type": "架空の曲",
+   "peak_before_db": -0.1,
+   "power_increase_db_mean": 2.983,
+   "power_ratio_mean": 1.9873,
+   "peak_ratio_mean": 1.0116,
+   "clipped_point_share_mean": 0.000592
+  }
+ ],
+ "low_band": [
+  {
+   "low_share": 0.1,
+   "up_db": 1.0,
+   "power_increase_db_mean": 0.111,
+   "formula_db": 0.111,
+   "power_ratio_mean": 1.0259,
+   "peak_ratio_mean": 1.0139,
+   "peak_ratio_p05": 1.0002,
+   "peak_ratio_p95": 1.0278
+  },
+  {
+   "low_share": 0.1,
+   "up_db": 3.0,
+   "power_increase_db_mean": 0.412,
+   "formula_db": 0.412,
+   "power_ratio_mean": 1.0995,
+   "peak_ratio_mean": 1.0512,
+   "peak_ratio_p05": 1.0055,
+   "peak_ratio_p95": 1.0941
+  },
+  {
+   "low_share": 0.1,
+   "up_db": 6.0,
+   "power_increase_db_mean": 1.133,
+   "formula_db": 1.133,
+   "power_ratio_mean": 1.2981,
+   "peak_ratio_mean": 1.1451,
+   "peak_ratio_p05": 1.0585,
+   "peak_ratio_p95": 1.2446
+  },
+  {
+   "low_share": 0.2,
+   "up_db": 1.0,
+   "power_increase_db_mean": 0.219,
+   "formula_db": 0.219,
+   "power_ratio_mean": 1.0518,
+   "peak_ratio_mean": 1.0255,
+   "peak_ratio_p05": 1.0078,
+   "peak_ratio_p95": 1.0433
+  },
+  {
+   "low_share": 0.2,
+   "up_db": 3.0,
+   "power_increase_db_mean": 0.788,
+   "formula_db": 0.788,
+   "power_ratio_mean": 1.1991,
+   "peak_ratio_mean": 1.0947,
+   "peak_ratio_p05": 1.0421,
+   "peak_ratio_p95": 1.1497
+  },
+  {
+   "low_share": 0.2,
+   "up_db": 6.0,
+   "power_increase_db_mean": 2.031,
+   "formula_db": 2.031,
+   "power_ratio_mean": 1.5962,
+   "peak_ratio_mean": 1.2661,
+   "peak_ratio_p05": 1.1586,
+   "peak_ratio_p95": 1.38
+  },
+  {
+   "low_share": 0.3,
+   "up_db": 1.0,
+   "power_increase_db_mean": 0.325,
+   "formula_db": 0.325,
+   "power_ratio_mean": 1.0777,
+   "peak_ratio_mean": 1.0376,
+   "peak_ratio_p05": 1.017,
+   "peak_ratio_p95": 1.0567
+  },
+  {
+   "low_share": 0.3,
+   "up_db": 3.0,
+   "power_increase_db_mean": 1.135,
+   "formula_db": 1.135,
+   "power_ratio_mean": 1.2986,
+   "peak_ratio_mean": 1.1389,
+   "peak_ratio_p05": 1.079,
+   "peak_ratio_p95": 1.1962
+  },
+  {
+   "low_share": 0.3,
+   "up_db": 6.0,
+   "power_increase_db_mean": 2.775,
+   "formula_db": 2.775,
+   "power_ratio_mean": 1.8943,
+   "peak_ratio_mean": 1.3743,
+   "peak_ratio_p05": 1.2324,
+   "peak_ratio_p95": 1.5026
+  },
+  {
+   "low_share": 0.4,
+   "up_db": 1.0,
+   "power_increase_db_mean": 0.428,
+   "formula_db": 0.428,
+   "power_ratio_mean": 1.1036,
+   "peak_ratio_mean": 1.0513,
+   "peak_ratio_p05": 1.0321,
+   "peak_ratio_p95": 1.0755
+  },
+  {
+   "low_share": 0.4,
+   "up_db": 3.0,
+   "power_increase_db_mean": 1.455,
+   "formula_db": 1.455,
+   "power_ratio_mean": 1.3981,
+   "peak_ratio_mean": 1.1839,
+   "peak_ratio_p05": 1.1239,
+   "peak_ratio_p95": 1.2575
+  },
+  {
+   "low_share": 0.4,
+   "up_db": 6.0,
+   "power_increase_db_mean": 3.409,
+   "formula_db": 3.409,
+   "power_ratio_mean": 2.1924,
+   "peak_ratio_mean": 1.48,
+   "peak_ratio_p05": 1.3561,
+   "peak_ratio_p95": 1.6305
+  },
+  {
+   "low_share": 0.5,
+   "up_db": 1.0,
+   "power_increase_db_mean": 0.529,
+   "formula_db": 0.529,
+   "power_ratio_mean": 1.1295,
+   "peak_ratio_mean": 1.0649,
+   "peak_ratio_p05": 1.0413,
+   "peak_ratio_p95": 1.0893
+  },
+  {
+   "low_share": 0.5,
+   "up_db": 3.0,
+   "power_increase_db_mean": 1.754,
+   "formula_db": 1.754,
+   "power_ratio_mean": 1.4976,
+   "peak_ratio_mean": 1.2265,
+   "peak_ratio_p05": 1.1608,
+   "peak_ratio_p95": 1.3072
+  },
+  {
+   "low_share": 0.5,
+   "up_db": 6.0,
+   "power_increase_db_mean": 3.963,
+   "formula_db": 3.963,
+   "power_ratio_mean": 2.4905,
+   "peak_ratio_mean": 1.5738,
+   "peak_ratio_p05": 1.4414,
+   "peak_ratio_p95": 1.7425
+  },
+  {
+   "low_share": 0.6,
+   "up_db": 1.0,
+   "power_increase_db_mean": 0.627,
+   "formula_db": 0.627,
+   "power_ratio_mean": 1.1554,
+   "peak_ratio_mean": 1.0744,
+   "peak_ratio_p05": 1.0535,
+   "peak_ratio_p95": 1.0983
+  },
+  {
+   "low_share": 0.6,
+   "up_db": 3.0,
+   "power_increase_db_mean": 2.033,
+   "formula_db": 2.033,
+   "power_ratio_mean": 1.5972,
+   "peak_ratio_mean": 1.2621,
+   "peak_ratio_p05": 1.1991,
+   "peak_ratio_p95": 1.3322
+  },
+  {
+   "low_share": 0.6,
+   "up_db": 6.0,
+   "power_increase_db_mean": 4.454,
+   "formula_db": 4.454,
+   "power_ratio_mean": 2.7886,
+   "peak_ratio_mean": 1.6612,
+   "peak_ratio_p05": 1.5411,
+   "peak_ratio_p95": 1.8015
+  },
+  {
+   "low_share": 0.7,
+   "up_db": 1.0,
+   "power_increase_db_mean": 0.723,
+   "formula_db": 0.723,
+   "power_ratio_mean": 1.1812,
+   "peak_ratio_mean": 1.0859,
+   "peak_ratio_p05": 1.066,
+   "peak_ratio_p95": 1.1046
+  },
+  {
+   "low_share": 0.7,
+   "up_db": 3.0,
+   "power_increase_db_mean": 2.296,
+   "formula_db": 2.296,
+   "power_ratio_mean": 1.6967,
+   "peak_ratio_mean": 1.2975,
+   "peak_ratio_p05": 1.2337,
+   "peak_ratio_p95": 1.3593
+  },
+  {
+   "low_share": 0.7,
+   "up_db": 6.0,
+   "power_increase_db_mean": 4.895,
+   "formula_db": 4.895,
+   "power_ratio_mean": 3.0868,
+   "peak_ratio_mean": 1.7353,
+   "peak_ratio_p05": 1.5986,
+   "peak_ratio_p95": 1.875
+  },
+  {
+   "low_share": 0.8,
+   "up_db": 1.0,
+   "power_increase_db_mean": 0.818,
+   "formula_db": 0.818,
+   "power_ratio_mean": 1.2071,
+   "peak_ratio_mean": 1.0952,
+   "peak_ratio_p05": 1.0754,
+   "peak_ratio_p95": 1.1118
+  },
+  {
+   "low_share": 0.8,
+   "up_db": 3.0,
+   "power_increase_db_mean": 2.544,
+   "formula_db": 2.544,
+   "power_ratio_mean": 1.7962,
+   "peak_ratio_mean": 1.3264,
+   "peak_ratio_p05": 1.269,
+   "peak_ratio_p95": 1.3779
+  },
+  {
+   "low_share": 0.8,
+   "up_db": 6.0,
+   "power_increase_db_mean": 5.295,
+   "formula_db": 5.295,
+   "power_ratio_mean": 3.3849,
+   "peak_ratio_mean": 1.8031,
+   "peak_ratio_p05": 1.6813,
+   "peak_ratio_p95": 1.9191
+  },
+  {
+   "low_share": 0.9,
+   "up_db": 1.0,
+   "power_increase_db_mean": 0.91,
+   "formula_db": 0.91,
+   "power_ratio_mean": 1.233,
+   "peak_ratio_mean": 1.1062,
+   "peak_ratio_p05": 1.0962,
+   "peak_ratio_p95": 1.1175
+  },
+  {
+   "low_share": 0.9,
+   "up_db": 3.0,
+   "power_increase_db_mean": 2.778,
+   "formula_db": 2.778,
+   "power_ratio_mean": 1.8957,
+   "peak_ratio_mean": 1.3616,
+   "peak_ratio_p05": 1.3267,
+   "peak_ratio_p95": 1.4007
+  },
+  {
+   "low_share": 0.9,
+   "up_db": 6.0,
+   "power_increase_db_mean": 5.662,
+   "formula_db": 5.662,
+   "power_ratio_mean": 3.683,
+   "peak_ratio_mean": 1.8816,
+   "peak_ratio_p05": 1.8031,
+   "peak_ratio_p95": 1.9677
+  }
+ ],
+ "low_band_summary": {
+  "up3_power_increase_db_min": 0.412,
+  "up3_power_increase_db_max": 2.778,
+  "max_abs_diff_formula_db": 0.0,
+  "up3_peak_ratio_min": 1.0512,
+  "up3_peak_ratio_max": 1.3616,
+  "all27_power_increase_db_min": 0.111,
+  "all27_power_increase_db_max": 5.662
+ }
+}

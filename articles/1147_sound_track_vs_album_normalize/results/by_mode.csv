@@ -1,0 +1,7 @@
+case,mode,limit_peak,mean_range_retained,mean_slope_on_intended,mean_corr_with_intended,mean_abs_error_vs_intended_db,mean_within_album_sd_db,share_tracks_below_target_by_3db,share_tracks_limited,mean_played_db,shuffle_sd_in_list_db,shuffle_mean_jump_db,shuffle_share_jump_over_6db
+基本,そのまま,True,1.0,1.0,1.0,0.0,2.689,0.1693,,-13.154,3.787,4.446,0.2861
+基本,曲ごと,True,0.2594,0.1512,0.5037,2.009,0.751,0.0557,0.2397,-14.478,1.031,0.834,0.006
+基本,アルバムごと,True,1.0,1.0,1.0,0.0,2.689,0.2873,,-15.383,2.817,3.303,0.1469
+基本,そのまま,False,1.0,1.0,1.0,0.0,2.689,0.1693,,-13.154,3.838,4.541,0.2964
+基本,曲ごと,False,0.0,0.0,,2.216,0.0,0.0,0.0,-14.0,0.0,0.0,0.0
+基本,アルバムごと,False,1.0,1.0,1.0,0.0,2.689,0.221,,-14.844,2.69,3.17,0.1299

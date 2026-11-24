@@ -1,0 +1,6 @@
+soft_depth_band,n,m3_minus_sounding_median,m3_minus_loud_only_median,m3_minus_m1_median
+4〜8 dB,41,-0.06,-1.38,1.08
+8〜12 dB,33,-0.04,-0.97,1.27
+12〜16 dB,52,1.11,-0.18,2.14
+16〜20 dB,45,1.35,-0.13,2.04
+20〜24 dB,50,1.46,-0.14,2.36

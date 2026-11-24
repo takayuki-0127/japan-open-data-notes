@@ -1,0 +1,118 @@
+{
+ "headline": {
+  "diff_3_minus_1_median": 1.61,
+  "diff_3_minus_1_p5": 0.24,
+  "diff_3_minus_1_p95": 3.82,
+  "diff_3_minus_1_max": 5.89,
+  "diff_3_minus_1_min": 0.0,
+  "m3_minus_true_sounding_median": 0.48,
+  "m3_minus_true_sounding_p5": -0.1,
+  "m3_minus_true_sounding_p95": 2.55,
+  "m3_within_05_of_sounding_pct": 50.0,
+  "m3_within_05_of_loud_only_pct": 75.0,
+  "m2_minus_m1_median": 0.86,
+  "reversed_pairs_1_vs_3_pct": 10.86,
+  "n_pairs": 44850,
+  "rank_moved_30_or_more_pct": 31.3,
+  "m1_minus_sounding_vs_formula_maxabs": 0.036,
+  "formula_q30_db": -1.549,
+  "formula_q40_db": -2.218,
+  "m1_minus_true_sounding_median": -0.96,
+  "m1_minus_true_sounding_min": -2.21,
+  "jump_at_depth_from": 12.0,
+  "jump_at_depth_to": 12.25,
+  "jump_db": 1.08,
+  "m3_at_depth_from": -15.25,
+  "m3_at_depth_to": -14.17,
+  "m1_at_depth_from": -16.03,
+  "m1_at_depth_to": -16.04,
+  "m3_at_depth_10": -15.93,
+  "m3_at_depth_11": -15.99,
+  "m3_at_depth_12": -15.25,
+  "m3_at_depth_13": -13.99,
+  "m3_at_depth_14": -13.99,
+  "soft_kept_pct_at_depth_10": 100.0,
+  "soft_kept_pct_at_depth_11": 100.0,
+  "soft_kept_pct_at_depth_12": 55.0,
+  "soft_kept_pct_at_depth_13": 0.0,
+  "soft_kept_pct_at_depth_14": 0.0,
+  "formula_with_soft_at_11": -15.994,
+  "m3_change_11_to_13": 2.0,
+  "m1_change_11_to_13": -0.08,
+  "grid_n": 27,
+  "grid_diff_median_min": 0.97,
+  "grid_diff_median_max": 1.66,
+  "grid_diff_max_min": 3.77,
+  "grid_diff_max_max": 5.96,
+  "grid_reversed_min": 7.36,
+  "grid_reversed_max": 10.77,
+  "grid_within05_min": 46.7,
+  "grid_within05_max": 78.7,
+  "grid_m2_minus_m1_noise45_min": 0.0,
+  "grid_m2_minus_m1_noise45_max": 0.0,
+  "grid_m2_minus_m1_none_min": 0.71,
+  "grid_m2_minus_m1_none_max": 0.88
+ },
+ "example_song": {
+  "song_id": 7,
+  "m1_all": -17.39,
+  "m2_abs_gate": -16.13,
+  "m3_two_step": -15.87,
+  "silence_share": 0.268,
+  "soft_share": 0.245,
+  "soft_depth_db": 12.49,
+  "true_sounding": -16.04,
+  "true_loud_only": -14.42
+ },
+ "pair_same_music": [
+  {
+   "silence_share": 0.0,
+   "m1_all": -14.0,
+   "m2_abs_gate": -14.0,
+   "m3_two_step": -14.0
+  },
+  {
+   "silence_share": 0.4,
+   "m1_all": -16.22,
+   "m2_abs_gate": -14.01,
+   "m3_two_step": -14.01
+  }
+ ],
+ "by_soft_depth": [
+  {
+   "soft_depth_band": "4〜8 dB",
+   "n": 41,
+   "m3_minus_sounding_median": -0.06,
+   "m3_minus_loud_only_median": -1.38,
+   "m3_minus_m1_median": 1.08
+  },
+  {
+   "soft_depth_band": "8〜12 dB",
+   "n": 33,
+   "m3_minus_sounding_median": -0.04,
+   "m3_minus_loud_only_median": -0.97,
+   "m3_minus_m1_median": 1.27
+  },
+  {
+   "soft_depth_band": "12〜16 dB",
+   "n": 52,
+   "m3_minus_sounding_median": 1.11,
+   "m3_minus_loud_only_median": -0.18,
+   "m3_minus_m1_median": 2.14
+  },
+  {
+   "soft_depth_band": "16〜20 dB",
+   "n": 45,
+   "m3_minus_sounding_median": 1.35,
+   "m3_minus_loud_only_median": -0.13,
+   "m3_minus_m1_median": 2.04
+  },
+  {
+   "soft_depth_band": "20〜24 dB",
+   "n": 50,
+   "m3_minus_sounding_median": 1.46,
+   "m3_minus_loud_only_median": -0.14,
+   "m3_minus_m1_median": 2.36
+  }
+ ]
+}

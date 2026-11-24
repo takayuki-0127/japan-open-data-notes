@@ -1,0 +1,4 @@
+type,power_ratio,rms_amplitude_ratio,peak_ratio,mean_abs_ratio,all_within_1e-12_of_formula
+でたらめな雑音,1.9953,1.4125,1.4125,1.4125,True
+一定の高さの音,1.9953,1.4125,1.4125,1.4125,True
+架空の曲,1.9953,1.4125,1.4125,1.4125,True

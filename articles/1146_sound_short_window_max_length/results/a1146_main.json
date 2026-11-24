@@ -1,0 +1,320 @@
+{
+ "settings": {
+  "sample_rate": 2000,
+  "step_sec": 0.01,
+  "duration_sec": 120.0,
+  "whole_level_db": -20.0,
+  "windows_sec": [
+   0.05,
+   0.1,
+   0.4,
+   1.0,
+   3.0,
+   10.0,
+   30.0
+  ],
+  "songs": 200,
+  "beat_sec": 0.5,
+  "seed": 1146,
+  "burst_db_range": [
+   0,
+   12
+  ],
+  "burst_len_sec_range": [
+   0.02,
+   0.06
+  ],
+  "section_sd_db_range": [
+   0,
+   4
+  ]
+ },
+ "example_two_songs": [
+  {
+   "song": "A（部分ごとの上下が大きい）",
+   "window_sec": 0.05,
+   "max_db": -12.377,
+   "max_minus_whole_db": 7.623
+  },
+  {
+   "song": "A（部分ごとの上下が大きい）",
+   "window_sec": 0.1,
+   "max_db": -12.918,
+   "max_minus_whole_db": 7.082
+  },
+  {
+   "song": "A（部分ごとの上下が大きい）",
+   "window_sec": 0.4,
+   "max_db": -13.78,
+   "max_minus_whole_db": 6.22
+  },
+  {
+   "song": "A（部分ごとの上下が大きい）",
+   "window_sec": 1.0,
+   "max_db": -13.974,
+   "max_minus_whole_db": 6.026
+  },
+  {
+   "song": "A（部分ごとの上下が大きい）",
+   "window_sec": 3.0,
+   "max_db": -14.098,
+   "max_minus_whole_db": 5.902
+  },
+  {
+   "song": "A（部分ごとの上下が大きい）",
+   "window_sec": 10.0,
+   "max_db": -14.186,
+   "max_minus_whole_db": 5.814
+  },
+  {
+   "song": "A（部分ごとの上下が大きい）",
+   "window_sec": 30.0,
+   "max_db": -15.801,
+   "max_minus_whole_db": 4.199
+  },
+  {
+   "song": "B（短い強い音が強い）",
+   "window_sec": 0.05,
+   "max_db": -11.917,
+   "max_minus_whole_db": 8.083
+  },
+  {
+   "song": "B（短い強い音が強い）",
+   "window_sec": 0.1,
+   "max_db": -14.089,
+   "max_minus_whole_db": 5.911
+  },
+  {
+   "song": "B（短い強い音が強い）",
+   "window_sec": 0.4,
+   "max_db": -18.472,
+   "max_minus_whole_db": 1.528
+  },
+  {
+   "song": "B（短い強い音が強い）",
+   "window_sec": 1.0,
+   "max_db": -19.355,
+   "max_minus_whole_db": 0.645
+  },
+  {
+   "song": "B（短い強い音が強い）",
+   "window_sec": 3.0,
+   "max_db": -19.67,
+   "max_minus_whole_db": 0.33
+  },
+  {
+   "song": "B（短い強い音が強い）",
+   "window_sec": 10.0,
+   "max_db": -19.878,
+   "max_minus_whole_db": 0.122
+  },
+  {
+   "song": "B（短い強い音が強い）",
+   "window_sec": 30.0,
+   "max_db": -19.938,
+   "max_minus_whole_db": 0.062
+  }
+ ],
+ "by_window": [
+  {
+   "window_sec": 0.05,
+   "mean_max_minus_whole_db": 7.49,
+   "median": 7.342,
+   "p05": 4.318,
+   "p95": 10.699,
+   "min": 3.25,
+   "max": 15.216
+  },
+  {
+   "window_sec": 0.1,
+   "mean_max_minus_whole_db": 6.078,
+   "median": 5.957,
+   "p05": 3.288,
+   "p95": 9.238,
+   "min": 2.145,
+   "max": 13.067
+  },
+  {
+   "window_sec": 0.4,
+   "mean_max_minus_whole_db": 3.393,
+   "median": 3.202,
+   "p05": 1.144,
+   "p95": 6.215,
+   "min": 0.834,
+   "max": 9.831
+  },
+  {
+   "window_sec": 1.0,
+   "mean_max_minus_whole_db": 2.905,
+   "median": 2.734,
+   "p05": 0.714,
+   "p95": 5.664,
+   "min": 0.476,
+   "max": 9.368
+  },
+  {
+   "window_sec": 3.0,
+   "mean_max_minus_whole_db": 2.688,
+   "median": 2.5,
+   "p05": 0.473,
+   "p95": 5.392,
+   "min": 0.239,
+   "max": 8.997
+  },
+  {
+   "window_sec": 10.0,
+   "mean_max_minus_whole_db": 2.485,
+   "median": 2.29,
+   "p05": 0.347,
+   "p95": 5.187,
+   "min": 0.098,
+   "max": 6.868
+  },
+  {
+   "window_sec": 30.0,
+   "mean_max_minus_whole_db": 1.469,
+   "median": 1.401,
+   "p05": 0.159,
+   "p95": 3.157,
+   "min": 0.041,
+   "max": 4.465
+  }
+ ],
+ "songs200": {
+  "mean_gap_0.4s_minus_3s_db": 0.706,
+  "rank_corr_0.4s_vs_3s": 0.9891,
+  "rank_corr_0.1s_vs_10s": 0.734,
+  "pair_flip_share_0.4s_vs_3s": 0.043,
+  "pair_flip_share_0.1s_vs_10s": 0.2313,
+  "mean_gap_0.05s_minus_3s_db": 4.803,
+  "rank_corr_0.05s_vs_3s": 0.6518,
+  "pair_flip_share_0.05s_vs_3s": 0.2669,
+  "corr_burst_db_vs_max0.05": 0.65,
+  "share_songs_max0.05_above_3s_by_3db": 0.89,
+  "top10_overlap_0.4s_vs_3s": 7,
+  "corr_burst_db_vs_max0.4": 0.0275,
+  "corr_section_sd_vs_max3": 0.7927,
+  "corr_burst_db_vs_max3": -0.0736,
+  "corr_section_sd_vs_max0.4": 0.7758,
+  "nonoverlap_lower_0.4s_mean_db": 0.129,
+  "nonoverlap_lower_0.4s_max_db": 0.565,
+  "nonoverlap_lower_3s_mean_db": 0.065,
+  "nonoverlap_lower_3s_max_db": 0.198
+ },
+ "steady_noise": [
+  {
+   "duration_sec": 30.0,
+   "window_sec": 0.05,
+   "mean_max_minus_whole_db": 1.947
+  },
+  {
+   "duration_sec": 30.0,
+   "window_sec": 0.1,
+   "mean_max_minus_whole_db": 1.356
+  },
+  {
+   "duration_sec": 30.0,
+   "window_sec": 0.4,
+   "mean_max_minus_whole_db": 0.606
+  },
+  {
+   "duration_sec": 30.0,
+   "window_sec": 1.0,
+   "mean_max_minus_whole_db": 0.357
+  },
+  {
+   "duration_sec": 30.0,
+   "window_sec": 3.0,
+   "mean_max_minus_whole_db": 0.178
+  },
+  {
+   "duration_sec": 30.0,
+   "window_sec": 10.0,
+   "mean_max_minus_whole_db": 0.067
+  },
+  {
+   "duration_sec": 120.0,
+   "window_sec": 0.05,
+   "mean_max_minus_whole_db": 2.09
+  },
+  {
+   "duration_sec": 120.0,
+   "window_sec": 0.1,
+   "mean_max_minus_whole_db": 1.509
+  },
+  {
+   "duration_sec": 120.0,
+   "window_sec": 0.4,
+   "mean_max_minus_whole_db": 0.729
+  },
+  {
+   "duration_sec": 120.0,
+   "window_sec": 1.0,
+   "mean_max_minus_whole_db": 0.441
+  },
+  {
+   "duration_sec": 120.0,
+   "window_sec": 3.0,
+   "mean_max_minus_whole_db": 0.23
+  },
+  {
+   "duration_sec": 120.0,
+   "window_sec": 10.0,
+   "mean_max_minus_whole_db": 0.105
+  },
+  {
+   "duration_sec": 120.0,
+   "window_sec": 30.0,
+   "mean_max_minus_whole_db": 0.046
+  },
+  {
+   "duration_sec": 480.0,
+   "window_sec": 0.05,
+   "mean_max_minus_whole_db": 2.358
+  },
+  {
+   "duration_sec": 480.0,
+   "window_sec": 0.1,
+   "mean_max_minus_whole_db": 1.646
+  },
+  {
+   "duration_sec": 480.0,
+   "window_sec": 0.4,
+   "mean_max_minus_whole_db": 0.807
+  },
+  {
+   "duration_sec": 480.0,
+   "window_sec": 1.0,
+   "mean_max_minus_whole_db": 0.497
+  },
+  {
+   "duration_sec": 480.0,
+   "window_sec": 3.0,
+   "mean_max_minus_whole_db": 0.272
+  },
+  {
+   "duration_sec": 480.0,
+   "window_sec": 10.0,
+   "mean_max_minus_whole_db": 0.133
+  },
+  {
+   "duration_sec": 480.0,
+   "window_sec": 30.0,
+   "mean_max_minus_whole_db": 0.063
+  }
+ ],
+ "grid_summary": {
+  "n": 27,
+  "gap_min": 0.505,
+  "gap_max": 1.012,
+  "flip_min": 0.0205,
+  "flip_max": 0.2038,
+  "rank_corr_min": 0.7747,
+  "rank_corr_max": 0.9959,
+  "n_gap_positive": 27,
+  "gap005_min": 3.091,
+  "gap005_max": 6.5,
+  "flip005_min": 0.109,
+  "flip005_max": 0.4385
+ }
+}

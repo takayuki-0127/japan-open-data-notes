@@ -1,0 +1,293 @@
+{
+ "headline": {
+  "noise_1pct_gain": 4.73,
+  "noise_1pct_loud_gain": 4.63,
+  "noise_1pct_shortfall": 0.096,
+  "noise_1pct_changed": -26.2,
+  "noise_10pct_gain": 8.95,
+  "noise_10pct_shortfall": 0.911,
+  "formula_maxabs_diff": 0.0084,
+  "n_songs": 200,
+  "band_loud_from": -12.0,
+  "band_loud_to": -11.0,
+  "band_n": 11,
+  "band_clipped_min": 0.1996,
+  "band_clipped_max": 10.2646,
+  "band_ptl_min": 5.11,
+  "band_ptl_max": 11.058,
+  "corr_clipped_loud": 0.59,
+  "corr_clipped_peak_minus_loud": -0.615,
+  "band_unclipped_n": 0,
+  "band_5pct_or_more_n": 2,
+  "grid_n": 27,
+  "grid1_gain_min": 2.0,
+  "grid1_gain_max": 11.77,
+  "grid1_shortfall_min": 0.013,
+  "grid1_shortfall_max": 1.126,
+  "grid1_changed_min": -39.7,
+  "grid1_changed_max": -10.6,
+  "grid1_ptl_drop_min": 1.98,
+  "grid1_ptl_drop_max": 10.65,
+  "grid_all_shortfall_max": 3.664,
+  "grid5_shortfall_min": 0.086,
+  "grid5_shortfall_max": 3.664
+ },
+ "by_clipped_share": [
+  {
+   "material": "雑音に近い音",
+   "target_clipped_pct": 0.1,
+   "gain_db": 2.38,
+   "clipped_pct": 0.1,
+   "loud_db": -10.9,
+   "loud_gain_db": 2.37,
+   "shortfall_db": 0.009,
+   "peak_minus_loud_db": 10.9,
+   "peak_minus_loud_at_0_db": 13.27,
+   "changed_part_db": -39.4
+  },
+  {
+   "material": "雑音に近い音",
+   "target_clipped_pct": 1.0,
+   "gain_db": 4.73,
+   "clipped_pct": 1.0,
+   "loud_db": -8.64,
+   "loud_gain_db": 4.63,
+   "shortfall_db": 0.096,
+   "peak_minus_loud_db": 8.64,
+   "peak_minus_loud_at_0_db": 13.27,
+   "changed_part_db": -26.2
+  },
+  {
+   "material": "雑音に近い音",
+   "target_clipped_pct": 5.0,
+   "gain_db": 7.3,
+   "clipped_pct": 5.0,
+   "loud_db": -6.43,
+   "loud_gain_db": 6.84,
+   "shortfall_db": 0.456,
+   "peak_minus_loud_db": 6.43,
+   "peak_minus_loud_at_0_db": 13.27,
+   "changed_part_db": -17.4
+  },
+  {
+   "material": "雑音に近い音",
+   "target_clipped_pct": 10.0,
+   "gain_db": 8.95,
+   "clipped_pct": 10.0,
+   "loud_db": -5.23,
+   "loud_gain_db": 8.04,
+   "shortfall_db": 0.911,
+   "peak_minus_loud_db": 5.23,
+   "peak_minus_loud_at_0_db": 13.27,
+   "changed_part_db": -13.3
+  },
+  {
+   "material": "音程のはっきりした音",
+   "target_clipped_pct": 0.1,
+   "gain_db": 1.57,
+   "clipped_pct": 0.1,
+   "loud_db": -8.88,
+   "loud_gain_db": 1.57,
+   "shortfall_db": 0.003,
+   "peak_minus_loud_db": 8.88,
+   "peak_minus_loud_at_0_db": 10.45,
+   "changed_part_db": -46.9
+  },
+  {
+   "material": "音程のはっきりした音",
+   "target_clipped_pct": 1.0,
+   "gain_db": 2.78,
+   "clipped_pct": 1.0,
+   "loud_db": -7.7,
+   "loud_gain_db": 2.75,
+   "shortfall_db": 0.037,
+   "peak_minus_loud_db": 7.7,
+   "peak_minus_loud_at_0_db": 10.45,
+   "changed_part_db": -33.2
+  },
+  {
+   "material": "音程のはっきりした音",
+   "target_clipped_pct": 5.0,
+   "gain_db": 5.01,
+   "clipped_pct": 5.0,
+   "loud_db": -5.75,
+   "loud_gain_db": 4.69,
+   "shortfall_db": 0.313,
+   "peak_minus_loud_db": 5.75,
+   "peak_minus_loud_at_0_db": 10.45,
+   "changed_part_db": -20.5
+  },
+  {
+   "material": "音程のはっきりした音",
+   "target_clipped_pct": 10.0,
+   "gain_db": 6.48,
+   "clipped_pct": 10.0,
+   "loud_db": -4.63,
+   "loud_gain_db": 5.81,
+   "shortfall_db": 0.665,
+   "peak_minus_loud_db": 4.63,
+   "peak_minus_loud_at_0_db": 10.45,
+   "changed_part_db": -15.6
+  },
+  {
+   "material": "打つ音の多い音",
+   "target_clipped_pct": 0.1,
+   "gain_db": 5.27,
+   "clipped_pct": 0.1,
+   "loud_db": -18.23,
+   "loud_gain_db": 5.14,
+   "shortfall_db": 0.13,
+   "peak_minus_loud_db": 18.23,
+   "peak_minus_loud_at_0_db": 23.37,
+   "changed_part_db": -23.3
+  },
+  {
+   "material": "打つ音の多い音",
+   "target_clipped_pct": 1.0,
+   "gain_db": 10.34,
+   "clipped_pct": 1.0,
+   "loud_db": -13.93,
+   "loud_gain_db": 9.44,
+   "shortfall_db": 0.899,
+   "peak_minus_loud_db": 13.93,
+   "peak_minus_loud_at_0_db": 23.37,
+   "changed_part_db": -12.3
+  },
+  {
+   "material": "打つ音の多い音",
+   "target_clipped_pct": 5.0,
+   "gain_db": 17.73,
+   "clipped_pct": 5.0,
+   "loud_db": -9.06,
+   "loud_gain_db": 14.31,
+   "shortfall_db": 3.415,
+   "peak_minus_loud_db": 9.06,
+   "peak_minus_loud_at_0_db": 23.37,
+   "changed_part_db": -2.7
+  },
+  {
+   "material": "打つ音の多い音",
+   "target_clipped_pct": 10.0,
+   "gain_db": 22.29,
+   "clipped_pct": 10.0,
+   "loud_db": -6.4,
+   "loud_gain_db": 16.96,
+   "shortfall_db": 5.324,
+   "peak_minus_loud_db": 6.4,
+   "peak_minus_loud_at_0_db": 23.37,
+   "changed_part_db": 1.4
+  }
+ ],
+ "formula_check": [
+  {
+   "clipped_pct": 0.1,
+   "clip_level_in_sd": 3.295,
+   "shortfall_sim_db": 0.0083,
+   "shortfall_formula_db": 0.008
+  },
+  {
+   "clipped_pct": 1.0,
+   "clip_level_in_sd": 2.562,
+   "shortfall_sim_db": 0.0818,
+   "shortfall_formula_db": 0.0826
+  },
+  {
+   "clipped_pct": 5.0,
+   "clip_level_in_sd": 1.957,
+   "shortfall_sim_db": 0.3923,
+   "shortfall_formula_db": 0.3984
+  },
+  {
+   "clipped_pct": 10.0,
+   "clip_level_in_sd": 1.642,
+   "shortfall_sim_db": 0.7986,
+   "shortfall_formula_db": 0.807
+  }
+ ],
+ "detect_after_processing": [
+  {
+   "process": "そのまま",
+   "song": "1%切れた曲",
+   "true_clipped_pct": 1.0,
+   "count_at_limit_pct": 1.0,
+   "count_near_max_pct": 1.009,
+   "count_flat_run_pct": 0.51
+  },
+  {
+   "process": "そのまま",
+   "song": "切れていない曲",
+   "true_clipped_pct": 0.0,
+   "count_at_limit_pct": 0.0,
+   "count_near_max_pct": 0.0,
+   "count_flat_run_pct": 0.0
+  },
+  {
+   "process": "16ビットで保存",
+   "song": "1%切れた曲",
+   "true_clipped_pct": 1.0,
+   "count_at_limit_pct": 1.0,
+   "count_near_max_pct": 1.009,
+   "count_flat_run_pct": 0.51
+  },
+  {
+   "process": "16ビットで保存",
+   "song": "切れていない曲",
+   "true_clipped_pct": 0.0,
+   "count_at_limit_pct": 0.0,
+   "count_near_max_pct": 0.0,
+   "count_flat_run_pct": 0.0
+  },
+  {
+   "process": "0.5 dB 下げて16ビットで保存",
+   "song": "1%切れた曲",
+   "true_clipped_pct": 1.0,
+   "count_at_limit_pct": 0.0,
+   "count_near_max_pct": 1.009,
+   "count_flat_run_pct": 0.51
+  },
+  {
+   "process": "0.5 dB 下げて16ビットで保存",
+   "song": "切れていない曲",
+   "true_clipped_pct": 0.0,
+   "count_at_limit_pct": 0.0,
+   "count_near_max_pct": 0.0,
+   "count_flat_run_pct": 0.0
+  },
+  {
+   "process": "0.5 dB 下げ、ごく小さな雑音（−90 dB）を足して16ビットで保存",
+   "song": "1%切れた曲",
+   "true_clipped_pct": 1.0,
+   "count_at_limit_pct": 0.0,
+   "count_near_max_pct": 1.008,
+   "count_flat_run_pct": 0.054
+  },
+  {
+   "process": "0.5 dB 下げ、ごく小さな雑音（−90 dB）を足して16ビットで保存",
+   "song": "切れていない曲",
+   "true_clipped_pct": 0.0,
+   "count_at_limit_pct": 0.0,
+   "count_near_max_pct": 0.0,
+   "count_flat_run_pct": 0.0
+  }
+ ],
+ "songs_corr_by_material": [
+  {
+   "material": "音程のはっきりした音",
+   "n": 73.0,
+   "corr_clipped_peak_minus_loud": -0.889,
+   "corr_clipped_loud": 0.693
+  },
+  {
+   "material": "雑音に近い音",
+   "n": 67.0,
+   "corr_clipped_peak_minus_loud": -0.796,
+   "corr_clipped_loud": 0.703
+  },
+  {
+   "material": "打つ音の多い音",
+   "n": 60.0,
+   "corr_clipped_peak_minus_loud": -0.836,
+   "corr_clipped_loud": 0.757
+  }
+ ]
+}

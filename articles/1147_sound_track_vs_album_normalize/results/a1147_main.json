@@ -1,0 +1,260 @@
+{
+ "settings": {
+  "albums": 300,
+  "tracks_per_album": 10,
+  "target_db": -14.0,
+  "peak_ceiling_db": -1.0,
+  "master_range_db": [
+   -18,
+   -8
+  ],
+  "loudest_track_max_db": -4.0,
+  "intended_spread_sd_db": 3.0,
+  "crest_range_db": [
+   8,
+   20
+  ],
+  "duration_sec_range": [
+   150,
+   330
+  ],
+  "seed": 1147
+ },
+ "by_mode": [
+  {
+   "case": "基本",
+   "mode": "そのまま",
+   "limit_peak": true,
+   "mean_range_retained": 1.0,
+   "mean_slope_on_intended": 1.0,
+   "mean_corr_with_intended": 1.0,
+   "mean_abs_error_vs_intended_db": 0.0,
+   "mean_within_album_sd_db": 2.689,
+   "share_tracks_below_target_by_3db": 0.1693,
+   "share_tracks_limited": null,
+   "mean_played_db": -13.154,
+   "shuffle_sd_in_list_db": 3.787,
+   "shuffle_mean_jump_db": 4.446,
+   "shuffle_share_jump_over_6db": 0.2861
+  },
+  {
+   "case": "基本",
+   "mode": "曲ごと",
+   "limit_peak": true,
+   "mean_range_retained": 0.2594,
+   "mean_slope_on_intended": 0.1512,
+   "mean_corr_with_intended": 0.5037,
+   "mean_abs_error_vs_intended_db": 2.009,
+   "mean_within_album_sd_db": 0.751,
+   "share_tracks_below_target_by_3db": 0.0557,
+   "share_tracks_limited": 0.2397,
+   "mean_played_db": -14.478,
+   "shuffle_sd_in_list_db": 1.031,
+   "shuffle_mean_jump_db": 0.834,
+   "shuffle_share_jump_over_6db": 0.006
+  },
+  {
+   "case": "基本",
+   "mode": "アルバムごと",
+   "limit_peak": true,
+   "mean_range_retained": 1.0,
+   "mean_slope_on_intended": 1.0,
+   "mean_corr_with_intended": 1.0,
+   "mean_abs_error_vs_intended_db": 0.0,
+   "mean_within_album_sd_db": 2.689,
+   "share_tracks_below_target_by_3db": 0.2873,
+   "share_tracks_limited": null,
+   "mean_played_db": -15.383,
+   "shuffle_sd_in_list_db": 2.817,
+   "shuffle_mean_jump_db": 3.303,
+   "shuffle_share_jump_over_6db": 0.1469
+  },
+  {
+   "case": "基本",
+   "mode": "そのまま",
+   "limit_peak": false,
+   "mean_range_retained": 1.0,
+   "mean_slope_on_intended": 1.0,
+   "mean_corr_with_intended": 1.0,
+   "mean_abs_error_vs_intended_db": 0.0,
+   "mean_within_album_sd_db": 2.689,
+   "share_tracks_below_target_by_3db": 0.1693,
+   "share_tracks_limited": null,
+   "mean_played_db": -13.154,
+   "shuffle_sd_in_list_db": 3.838,
+   "shuffle_mean_jump_db": 4.541,
+   "shuffle_share_jump_over_6db": 0.2964
+  },
+  {
+   "case": "基本",
+   "mode": "曲ごと",
+   "limit_peak": false,
+   "mean_range_retained": 0.0,
+   "mean_slope_on_intended": 0.0,
+   "mean_corr_with_intended": null,
+   "mean_abs_error_vs_intended_db": 2.216,
+   "mean_within_album_sd_db": 0.0,
+   "share_tracks_below_target_by_3db": 0.0,
+   "share_tracks_limited": 0.0,
+   "mean_played_db": -14.0,
+   "shuffle_sd_in_list_db": 0.0,
+   "shuffle_mean_jump_db": 0.0,
+   "shuffle_share_jump_over_6db": 0.0
+  },
+  {
+   "case": "基本",
+   "mode": "アルバムごと",
+   "limit_peak": false,
+   "mean_range_retained": 1.0,
+   "mean_slope_on_intended": 1.0,
+   "mean_corr_with_intended": 1.0,
+   "mean_abs_error_vs_intended_db": 0.0,
+   "mean_within_album_sd_db": 2.689,
+   "share_tracks_below_target_by_3db": 0.221,
+   "share_tracks_limited": null,
+   "mean_played_db": -14.844,
+   "shuffle_sd_in_list_db": 2.69,
+   "shuffle_mean_jump_db": 3.17,
+   "shuffle_share_jump_over_6db": 0.1299
+  }
+ ],
+ "track_mode_detail": {
+  "share_tracks_limited": 0.2397,
+  "share_albums_with_any_limited": 0.7733,
+  "corr_played_rel_with_intended_all": 0.4027,
+  "corr_played_rel_with_headroom_all": 0.2623,
+  "limited_mean_shortfall_db": 1.996,
+  "quietest_intended_track_played_below_target_share": 0.4767
+ },
+ "album_mode_detail": {
+  "share_albums_limited": 0.3367,
+  "mean_album_shortfall_db_if_limited": 1.601,
+  "album_level_mean_db": -12.31,
+  "album_level_minus_mean_of_track_db": 0.844,
+  "album_level_minus_mean_of_track_max_db": 2.821
+ },
+ "example_album": {
+  "album": 54,
+  "album_level_db": -12.416,
+  "album_mode_gain_db": -1.584,
+  "played_album_mode_range_db": 8.923,
+  "intended_range_db": 8.923,
+  "tracks": [
+   {
+    "track": 9,
+    "intended_offset_db": -4.311,
+    "loudness_db": -17.664,
+    "peak_db": -3.984,
+    "played_none_db": -17.664,
+    "played_track_mode_db": -14.68,
+    "played_album_mode_db": -19.248,
+    "played_track_mode_no_limit_db": -14.0
+   },
+   {
+    "track": 2,
+    "intended_offset_db": -4.063,
+    "loudness_db": -17.416,
+    "peak_db": -0.1,
+    "played_none_db": -17.416,
+    "played_track_mode_db": -17.416,
+    "played_album_mode_db": -19.0,
+    "played_track_mode_no_limit_db": -14.0
+   },
+   {
+    "track": 1,
+    "intended_offset_db": -0.931,
+    "loudness_db": -14.284,
+    "peak_db": -0.1,
+    "played_none_db": -14.284,
+    "played_track_mode_db": -14.284,
+    "played_album_mode_db": -15.868,
+    "played_track_mode_no_limit_db": -14.0
+   },
+   {
+    "track": 6,
+    "intended_offset_db": -0.707,
+    "loudness_db": -14.06,
+    "peak_db": -0.1,
+    "played_none_db": -14.06,
+    "played_track_mode_db": -14.06,
+    "played_album_mode_db": -15.644,
+    "played_track_mode_no_limit_db": -14.0
+   },
+   {
+    "track": 8,
+    "intended_offset_db": 0.014,
+    "loudness_db": -13.339,
+    "peak_db": -0.1,
+    "played_none_db": -13.339,
+    "played_track_mode_db": -14.0,
+    "played_album_mode_db": -14.923,
+    "played_track_mode_no_limit_db": -14.0
+   },
+   {
+    "track": 5,
+    "intended_offset_db": 0.026,
+    "loudness_db": -13.328,
+    "peak_db": -3.644,
+    "played_none_db": -13.328,
+    "played_track_mode_db": -14.0,
+    "played_album_mode_db": -14.912,
+    "played_track_mode_no_limit_db": -14.0
+   },
+   {
+    "track": 4,
+    "intended_offset_db": 1.381,
+    "loudness_db": -11.972,
+    "peak_db": -0.1,
+    "played_none_db": -11.972,
+    "played_track_mode_db": -14.0,
+    "played_album_mode_db": -13.556,
+    "played_track_mode_no_limit_db": -14.0
+   },
+   {
+    "track": 7,
+    "intended_offset_db": 1.824,
+    "loudness_db": -11.529,
+    "peak_db": -0.1,
+    "played_none_db": -11.529,
+    "played_track_mode_db": -14.0,
+    "played_album_mode_db": -13.113,
+    "played_track_mode_no_limit_db": -14.0
+   },
+   {
+    "track": 3,
+    "intended_offset_db": 2.153,
+    "loudness_db": -11.2,
+    "peak_db": -0.1,
+    "played_none_db": -11.2,
+    "played_track_mode_db": -14.0,
+    "played_album_mode_db": -12.784,
+    "played_track_mode_no_limit_db": -14.0
+   },
+   {
+    "track": 10,
+    "intended_offset_db": 4.612,
+    "loudness_db": -8.741,
+    "peak_db": -0.1,
+    "played_none_db": -8.741,
+    "played_track_mode_db": -14.0,
+    "played_album_mode_db": -10.325,
+    "played_track_mode_no_limit_db": -14.0
+   }
+  ]
+ },
+ "grid_summary": {
+  "n": 27,
+  "track_slope_min": 0.0,
+  "track_slope_max": 0.6799,
+  "track_range_min": 0.0,
+  "track_range_max": 1.0118,
+  "track_limited_min": 0.0,
+  "track_limited_max": 0.792,
+  "album_range_min": 1.0,
+  "album_range_max": 1.0,
+  "album_limited_min": 0.0,
+  "album_limited_max": 0.7733,
+  "album_below3_min": 0.027,
+  "album_below3_max": 0.5917
+ }
+}
