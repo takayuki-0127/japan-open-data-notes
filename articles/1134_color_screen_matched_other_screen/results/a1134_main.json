@@ -1,0 +1,150 @@
+{
+ "settings": {
+  "seed": 1134,
+  "patches": 24,
+  "pairs": 4000,
+  "grid_pairs": 1500,
+  "curve_sd": 0.05,
+  "gain_sd": 0.04,
+  "mix_sd": 0.03,
+  "black_max": 0.01,
+  "near_threshold": 2.0,
+  "seen_threshold": 5.0
+ },
+ "base": {
+  "plain_b_mean": 5.29,
+  "corr_a_mean": 0.78,
+  "corr_b_mean": 6.99,
+  "plain_a_mean": 5.27,
+  "ratio_corr_b_to_plain_b": 1.321,
+  "worse_pair_share_pct": 80.08,
+  "plain_b_seen_pct": 44.08,
+  "corr_b_seen_pct": 64.37,
+  "corr_a_near_pct": 88.02,
+  "plain_b_near_pct": 8.52,
+  "corr_b_near_pct": 4.28,
+  "sqrt2": 1.414
+ },
+ "by_kind": [
+  {
+   "kind": "灰色",
+   "plain_b": 4.46,
+   "corr_a": 0.01,
+   "corr_b": 5.79,
+   "corr_b_seen_pct": 54.09
+  },
+  {
+   "kind": "淡い色",
+   "plain_b": 4.61,
+   "corr_a": 0.0,
+   "corr_b": 6.45,
+   "corr_b_seen_pct": 62.54
+  },
+  {
+   "kind": "あざやかな色",
+   "plain_b": 6.53,
+   "corr_a": 2.06,
+   "corr_b": 8.32,
+   "corr_b_seen_pct": 73.04
+  }
+ ],
+ "by_a_closeness": [
+  {
+   "a_scale": 0.0,
+   "plain_b": 5.34,
+   "corr_a": 0.0,
+   "corr_b": 5.34,
+   "ratio": 1.0,
+   "worse_pair_share_pct": 0.0
+  },
+  {
+   "a_scale": 0.25,
+   "plain_b": 5.34,
+   "corr_a": 0.12,
+   "corr_b": 5.45,
+   "ratio": 1.019,
+   "worse_pair_share_pct": 56.4
+  },
+  {
+   "a_scale": 0.5,
+   "plain_b": 5.34,
+   "corr_a": 0.31,
+   "corr_b": 5.8,
+   "ratio": 1.086,
+   "worse_pair_share_pct": 64.95
+  },
+  {
+   "a_scale": 1.0,
+   "plain_b": 5.34,
+   "corr_a": 0.78,
+   "corr_b": 7.06,
+   "ratio": 1.321,
+   "worse_pair_share_pct": 79.85
+  },
+  {
+   "a_scale": 1.5,
+   "plain_b": 5.34,
+   "corr_a": 1.32,
+   "corr_b": 8.7,
+   "ratio": 1.629,
+   "worse_pair_share_pct": 88.38
+  },
+  {
+   "a_scale": 2.0,
+   "plain_b": 5.34,
+   "corr_a": 1.88,
+   "corr_b": 10.53,
+   "ratio": 1.972,
+   "worse_pair_share_pct": 93.97
+  }
+ ],
+ "by_a_offset_quarter": [
+  {
+   "a_off_quarter": 1,
+   "a_plain_mean": 3.31,
+   "plain_b": 5.31,
+   "corr_b": 6.03,
+   "worse_pair_share_pct": 75.4
+  },
+  {
+   "a_off_quarter": 2,
+   "a_plain_mean": 4.5,
+   "plain_b": 5.31,
+   "corr_b": 6.4,
+   "worse_pair_share_pct": 76.1
+  },
+  {
+   "a_off_quarter": 3,
+   "a_plain_mean": 5.53,
+   "plain_b": 5.21,
+   "corr_b": 6.96,
+   "worse_pair_share_pct": 81.7
+  },
+  {
+   "a_off_quarter": 4,
+   "a_plain_mean": 7.73,
+   "plain_b": 5.34,
+   "corr_b": 8.57,
+   "worse_pair_share_pct": 87.1
+  }
+ ],
+ "example_pair": {
+  "index": 1800,
+  "plain_b": 4.13,
+  "corr_a": 1.45,
+  "corr_b": 6.56
+ },
+ "grid_range": {
+  "ratio_min": 1.282,
+  "ratio_max": 1.394,
+  "worse_min": 75.07,
+  "worse_max": 81.2,
+  "corr_b_min": 3.68,
+  "corr_b_max": 14.03,
+  "plain_b_min": 2.87,
+  "plain_b_max": 10.58,
+  "corr_a_min": 0.48,
+  "corr_a_max": 1.5,
+  "vivid_over_gray_count": 27
+ }
+}

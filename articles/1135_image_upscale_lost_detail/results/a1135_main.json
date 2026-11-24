@@ -1,0 +1,530 @@
+{
+ "settings": {
+  "seed": 1135,
+  "size": 256,
+  "k": 4,
+  "periods": [
+   2,
+   3,
+   4,
+   6,
+   8,
+   12,
+   16,
+   24,
+   32,
+   64
+  ],
+  "stripe_amp": 0.35,
+  "sharp": 1.0,
+  "phases": 16,
+  "grid_phases": 4,
+  "grain": 1.0,
+  "texture_sd": 0.06
+ },
+ "pixels": {
+  "orig": 65536,
+  "small": 4096,
+  "up": 65536
+ },
+ "stripes_k4": [
+  {
+   "k": 4,
+   "method": "繰り返す",
+   "period": 2,
+   "zone": "表せない",
+   "kept": 0.0,
+   "false": 0.007,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "繰り返す",
+   "period": 3,
+   "zone": "表せない",
+   "kept": 0.063,
+   "false": 0.242,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "繰り返す",
+   "period": 4,
+   "zone": "表せない",
+   "kept": 0.0,
+   "false": 0.008,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "繰り返す",
+   "period": 6,
+   "zone": "表せない",
+   "kept": 0.188,
+   "false": 0.391,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "繰り返す",
+   "period": 8,
+   "zone": "ちょうど境目",
+   "kept": 0.572,
+   "false": 0.237,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "繰り返す",
+   "period": 12,
+   "zone": "表せる",
+   "kept": 0.7,
+   "false": 0.459,
+   "down_only_formula": 0.827
+  },
+  {
+   "k": 4,
+   "method": "繰り返す",
+   "period": 16,
+   "zone": "表せる",
+   "kept": 0.821,
+   "false": 0.383,
+   "down_only_formula": 0.9
+  },
+  {
+   "k": 4,
+   "method": "繰り返す",
+   "period": 24,
+   "zone": "表せる",
+   "kept": 0.916,
+   "false": 0.276,
+   "down_only_formula": 0.955
+  },
+  {
+   "k": 4,
+   "method": "繰り返す",
+   "period": 32,
+   "zone": "表せる",
+   "kept": 0.953,
+   "false": 0.212,
+   "down_only_formula": 0.974
+  },
+  {
+   "k": 4,
+   "method": "繰り返す",
+   "period": 64,
+   "zone": "表せる",
+   "kept": 0.988,
+   "false": 0.109,
+   "down_only_formula": 0.994
+  },
+  {
+   "k": 4,
+   "method": "直線でつなぐ",
+   "period": 2,
+   "zone": "表せない",
+   "kept": 0.0,
+   "false": 0.005,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "直線でつなぐ",
+   "period": 3,
+   "zone": "表せない",
+   "kept": 0.008,
+   "false": 0.174,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "直線でつなぐ",
+   "period": 4,
+   "zone": "表せない",
+   "kept": 0.0,
+   "false": 0.006,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "直線でつなぐ",
+   "period": 6,
+   "zone": "表せない",
+   "kept": 0.07,
+   "false": 0.293,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "直線でつなぐ",
+   "period": 8,
+   "zone": "ちょうど境目",
+   "kept": 0.345,
+   "false": 0.025,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "直線でつなぐ",
+   "period": 12,
+   "zone": "表せる",
+   "kept": 0.566,
+   "false": 0.139,
+   "down_only_formula": 0.827
+  },
+  {
+   "k": 4,
+   "method": "直線でつなぐ",
+   "period": 16,
+   "zone": "表せる",
+   "kept": 0.73,
+   "false": 0.08,
+   "down_only_formula": 0.9
+  },
+  {
+   "k": 4,
+   "method": "直線でつなぐ",
+   "period": 24,
+   "zone": "表せる",
+   "kept": 0.87,
+   "false": 0.035,
+   "down_only_formula": 0.955
+  },
+  {
+   "k": 4,
+   "method": "直線でつなぐ",
+   "period": 32,
+   "zone": "表せる",
+   "kept": 0.925,
+   "false": 0.02,
+   "down_only_formula": 0.974
+  },
+  {
+   "k": 4,
+   "method": "直線でつなぐ",
+   "period": 64,
+   "zone": "表せる",
+   "kept": 0.981,
+   "false": 0.006,
+   "down_only_formula": 0.994
+  },
+  {
+   "k": 4,
+   "method": "3次の曲線でつなぐ",
+   "period": 2,
+   "zone": "表せない",
+   "kept": 0.0,
+   "false": 0.006,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "3次の曲線でつなぐ",
+   "period": 3,
+   "zone": "表せない",
+   "kept": 0.001,
+   "false": 0.213,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "3次の曲線でつなぐ",
+   "period": 4,
+   "zone": "表せない",
+   "kept": 0.0,
+   "false": 0.007,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "3次の曲線でつなぐ",
+   "period": 6,
+   "zone": "表せない",
+   "kept": 0.069,
+   "false": 0.363,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "3次の曲線でつなぐ",
+   "period": 8,
+   "zone": "ちょうど境目",
+   "kept": 0.431,
+   "false": 0.005,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "3次の曲線でつなぐ",
+   "period": 12,
+   "zone": "表せる",
+   "kept": 0.701,
+   "false": 0.133,
+   "down_only_formula": 0.827
+  },
+  {
+   "k": 4,
+   "method": "3次の曲線でつなぐ",
+   "period": 16,
+   "zone": "表せる",
+   "kept": 0.851,
+   "false": 0.057,
+   "down_only_formula": 0.9
+  },
+  {
+   "k": 4,
+   "method": "3次の曲線でつなぐ",
+   "period": 24,
+   "zone": "表せる",
+   "kept": 0.944,
+   "false": 0.016,
+   "down_only_formula": 0.955
+  },
+  {
+   "k": 4,
+   "method": "3次の曲線でつなぐ",
+   "period": 32,
+   "zone": "表せる",
+   "kept": 0.971,
+   "false": 0.007,
+   "down_only_formula": 0.974
+  },
+  {
+   "k": 4,
+   "method": "3次の曲線でつなぐ",
+   "period": 64,
+   "zone": "表せる",
+   "kept": 0.994,
+   "false": 0.003,
+   "down_only_formula": 0.994
+  },
+  {
+   "k": 4,
+   "method": "直線＋輪郭を強める",
+   "period": 2,
+   "zone": "表せない",
+   "kept": 0.0,
+   "false": 0.008,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "直線＋輪郭を強める",
+   "period": 3,
+   "zone": "表せない",
+   "kept": 0.016,
+   "false": 0.273,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "直線＋輪郭を強める",
+   "period": 4,
+   "zone": "表せない",
+   "kept": 0.0,
+   "false": 0.008,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "直線＋輪郭を強める",
+   "period": 6,
+   "zone": "表せない",
+   "kept": 0.138,
+   "false": 0.454,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "直線＋輪郭を強める",
+   "period": 8,
+   "zone": "ちょうど境目",
+   "kept": 0.632,
+   "false": 0.049,
+   "down_only_formula": NaN
+  },
+  {
+   "k": 4,
+   "method": "直線＋輪郭を強める",
+   "period": 12,
+   "zone": "表せる",
+   "kept": 0.874,
+   "false": 0.272,
+   "down_only_formula": 0.827
+  },
+  {
+   "k": 4,
+   "method": "直線＋輪郭を強める",
+   "period": 16,
+   "zone": "表せる",
+   "kept": 0.991,
+   "false": 0.158,
+   "down_only_formula": 0.9
+  },
+  {
+   "k": 4,
+   "method": "直線＋輪郭を強める",
+   "period": 24,
+   "zone": "表せる",
+   "kept": 1.026,
+   "false": 0.07,
+   "down_only_formula": 0.955
+  },
+  {
+   "k": 4,
+   "method": "直線＋輪郭を強める",
+   "period": 32,
+   "zone": "表せる",
+   "kept": 1.022,
+   "false": 0.039,
+   "down_only_formula": 0.974
+  },
+  {
+   "k": 4,
+   "method": "直線＋輪郭を強める",
+   "period": 64,
+   "zone": "表せる",
+   "kept": 1.008,
+   "false": 0.01,
+   "down_only_formula": 0.994
+  }
+ ],
+ "stripes_k4_beyond_kept_max": 0.188,
+ "detail_k4": [
+  {
+   "board": "形の板",
+   "method": "繰り返す",
+   "back": -0.526,
+   "made": 0.797,
+   "match": 0.069,
+   "sharpness": 0.744,
+   "mean_abs_diff": 0.0102
+  },
+  {
+   "board": "形の板",
+   "method": "直線でつなぐ",
+   "back": 0.127,
+   "made": 0.383,
+   "match": 0.357,
+   "sharpness": 0.344,
+   "mean_abs_diff": 0.0109
+  },
+  {
+   "board": "形の板",
+   "method": "3次の曲線でつなぐ",
+   "back": 0.13,
+   "made": 0.386,
+   "match": 0.361,
+   "sharpness": 0.379,
+   "mean_abs_diff": 0.0104
+  },
+  {
+   "board": "形の板",
+   "method": "直線＋輪郭を強める",
+   "back": 0.085,
+   "made": 0.452,
+   "match": 0.32,
+   "sharpness": 0.447,
+   "mean_abs_diff": 0.0108
+  },
+  {
+   "board": "細かい模様の板",
+   "method": "繰り返す",
+   "back": -0.025,
+   "made": 0.536,
+   "match": 0.245,
+   "sharpness": 0.624,
+   "mean_abs_diff": 0.0361
+  },
+  {
+   "board": "細かい模様の板",
+   "method": "直線でつなぐ",
+   "back": 0.078,
+   "made": 0.171,
+   "match": 0.312,
+   "sharpness": 0.241,
+   "mean_abs_diff": 0.0364
+  },
+  {
+   "board": "細かい模様の板",
+   "method": "3次の曲線でつなぐ",
+   "back": 0.091,
+   "made": 0.205,
+   "match": 0.325,
+   "sharpness": 0.307,
+   "mean_abs_diff": 0.0347
+  },
+  {
+   "board": "細かい模様の板",
+   "method": "直線＋輪郭を強める",
+   "back": 0.102,
+   "made": 0.32,
+   "match": 0.319,
+   "sharpness": 0.405,
+   "mean_abs_diff": 0.0337
+  },
+  {
+   "board": "合わせた板",
+   "method": "繰り返す",
+   "back": -0.201,
+   "made": 0.63,
+   "match": 0.156,
+   "sharpness": 0.673,
+   "mean_abs_diff": 0.0426
+  },
+  {
+   "board": "合わせた板",
+   "method": "直線でつなぐ",
+   "back": 0.088,
+   "made": 0.254,
+   "match": 0.299,
+   "sharpness": 0.287,
+   "mean_abs_diff": 0.0422
+  },
+  {
+   "board": "合わせた板",
+   "method": "3次の曲線でつなぐ",
+   "back": 0.098,
+   "made": 0.27,
+   "match": 0.316,
+   "sharpness": 0.337,
+   "mean_abs_diff": 0.04
+  },
+  {
+   "board": "合わせた板",
+   "method": "直線＋輪郭を強める",
+   "back": 0.088,
+   "made": 0.36,
+   "match": 0.302,
+   "sharpness": 0.421,
+   "mean_abs_diff": 0.0391
+  }
+ ],
+ "grid_range": {
+  "beyond_kept_max": 0.252,
+  "beyond_false_max": 0.682,
+  "within_kept_max_sharp": 1.254,
+  "texture_match_min": 0.069,
+  "texture_match_max": 0.381,
+  "shape_match_min": 0.055,
+  "shape_match_max": 0.543,
+  "texture_back_min": -1.942,
+  "texture_back_max": 0.143,
+  "shape_back_min": -0.489,
+  "shape_back_max": 0.293,
+  "texture_sharp_back_min": -0.463,
+  "texture_sharp_back_max": 0.135,
+  "texture_sharp_back_below_linear": 4,
+  "back_below_minus1_count": 3,
+  "repeat_back_negative_count": 34,
+  "shape_sharp_sharpness_min": 0.271,
+  "shape_sharp_sharpness_max": 0.853,
+  "shape_linear_sharpness_min": 0.227,
+  "shape_linear_sharpness_max": 0.518,
+  "shape_sharp_over_linear_match": 10,
+  "shape_sharp_back_over_linear": 8,
+  "texture_sharp_back_over_linear": 22,
+  "shape_sharp_sharper_than_linear": 27,
+  "within_kept_min": 0.562
+ }
+}

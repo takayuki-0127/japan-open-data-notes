@@ -1,0 +1,258 @@
+{
+ "settings": {
+  "wavelengths": "400-700nm, 10nm",
+  "products": 40,
+  "area": 0.25,
+  "spill": 0.1,
+  "lights": [
+   "昼の光",
+   "暖かい光",
+   "青白い光"
+  ],
+  "backgrounds": [
+   "灰色",
+   "白",
+   "黒",
+   "赤",
+   "青"
+  ],
+  "modes": [
+   "①自動",
+   "②固定（基準で合わせたまま）",
+   "③灰色の板で毎回合わせる"
+  ],
+  "reference": "昼の光・灰色・③",
+  "card_and_auto_level_linear": 0.3,
+  "auto_center_weight": 2.0,
+  "card_reflectance": 0.4,
+  "gamma": 2.2,
+  "grid_area": [
+   0.1,
+   0.25,
+   0.5
+  ],
+  "grid_spill": [
+   0.0,
+   0.1,
+   0.2
+  ]
+ },
+ "summary_base": [
+  {
+   "mode": "①自動",
+   "bg_only_dist": 67.72,
+   "bg_only_dist_maxcond": 82.52,
+   "bg_only_bright_abs": 29.12,
+   "bg_only_chroma": 35.3,
+   "light_only_dist": 2.23,
+   "light_only_dist_maxcond": 2.86,
+   "light_only_bright_abs": 0.59,
+   "light_only_chroma": 1.86,
+   "both_dist": 67.84,
+   "both_dist_maxcond": 83.0,
+   "all15_dist_max_product": 128.36
+  },
+  {
+   "mode": "②固定（基準で合わせたまま）",
+   "bg_only_dist": 3.73,
+   "bg_only_dist_maxcond": 5.0,
+   "bg_only_bright_abs": 1.84,
+   "bg_only_chroma": 1.46,
+   "light_only_dist": 24.61,
+   "light_only_dist_maxcond": 31.13,
+   "light_only_bright_abs": 4.15,
+   "light_only_chroma": 23.09,
+   "both_dist": 24.74,
+   "both_dist_maxcond": 33.17,
+   "all15_dist_max_product": 49.69
+  },
+  {
+   "mode": "③灰色の板で毎回合わせる",
+   "bg_only_dist": 0.15,
+   "bg_only_dist_maxcond": 0.38,
+   "bg_only_bright_abs": 0.06,
+   "bg_only_chroma": 0.11,
+   "light_only_dist": 3.23,
+   "light_only_dist_maxcond": 4.14,
+   "light_only_bright_abs": 1.06,
+   "light_only_chroma": 2.4,
+   "both_dist": 3.22,
+   "both_dist_maxcond": 4.44,
+   "all15_dist_max_product": 9.28
+  }
+ ],
+ "auto_vs_card_at_reference_condition": 20.79,
+ "grid_range_9": [
+  {
+   "mode": "①自動",
+   "bg_only_min": 22.78,
+   "bg_only_max": 116.83,
+   "light_only_min": 1.38,
+   "light_only_max": 2.85,
+   "both_min": 22.82,
+   "both_max": 117.12
+  },
+  {
+   "mode": "②固定（基準で合わせたまま）",
+   "bg_only_min": 0.0,
+   "bg_only_max": 7.2,
+   "light_only_min": 24.61,
+   "light_only_max": 24.61,
+   "both_min": 24.61,
+   "both_max": 25.28
+  },
+  {
+   "mode": "③灰色の板で毎回合わせる",
+   "bg_only_min": 0.0,
+   "bg_only_max": 0.3,
+   "light_only_min": 3.23,
+   "light_only_max": 3.23,
+   "both_min": 3.22,
+   "both_max": 3.23
+  }
+ ],
+ "no_spill_fixed_bg_only_max": 0.0,
+ "no_spill_card_bg_only_max": 0.0,
+ "example_product": "商品09",
+ "example_reference_RGB": [
+  196.2,
+  189.2,
+  152.6
+ ],
+ "auto_by_background_daylight": [
+  {
+   "background": "灰色",
+   "dist_mean": 0.0,
+   "bright_shift_mean": 0.0,
+   "chroma_dist_mean": 0.0,
+   "clipped_share": 0.0
+  },
+  {
+   "background": "白",
+   "dist_mean": 42.17,
+   "bright_shift_mean": -24.24,
+   "chroma_dist_mean": 2.82,
+   "clipped_share": 0.0
+  },
+  {
+   "background": "黒",
+   "dist_mean": 82.52,
+   "bright_shift_mean": 46.51,
+   "chroma_dist_mean": 15.79,
+   "clipped_share": 0.0
+  },
+  {
+   "background": "赤",
+   "dist_mean": 79.48,
+   "bright_shift_mean": 24.81,
+   "chroma_dist_mean": 66.72,
+   "clipped_share": 0.0
+  },
+  {
+   "background": "青",
+   "dist_mean": 66.69,
+   "bright_shift_mean": 20.9,
+   "chroma_dist_mean": 55.87,
+   "clipped_share": 0.0
+  }
+ ],
+ "card_by_light_graybg": [
+  {
+   "light": "昼の光",
+   "dist_mean": 0.0,
+   "dist_max": 0.0,
+   "chroma_dist_mean": 0.0
+  },
+  {
+   "light": "暖かい光",
+   "dist_mean": 4.14,
+   "dist_max": 8.87,
+   "chroma_dist_mean": 3.06
+  },
+  {
+   "light": "青白い光",
+   "dist_mean": 2.31,
+   "dist_max": 4.4,
+   "chroma_dist_mean": 1.75
+  }
+ ],
+ "fixed_by_light_graybg": [
+  {
+   "light": "昼の光",
+   "dist_mean": 0.0,
+   "bright_shift_mean": 0.0,
+   "chroma_dist_mean": 0.0
+  },
+  {
+   "light": "暖かい光",
+   "dist_mean": 31.13,
+   "bright_shift_mean": -3.53,
+   "chroma_dist_mean": 29.88
+  },
+  {
+   "light": "青白い光",
+   "dist_mean": 18.09,
+   "bright_shift_mean": 4.15,
+   "chroma_dist_mean": 16.29
+  }
+ ],
+ "card_by_background_daylight": [
+  {
+   "background": "灰色",
+   "dist_mean": 0.0,
+   "dist_max": 0.0
+  },
+  {
+   "background": "白",
+   "dist_mean": 0.0,
+   "dist_max": 0.0
+  },
+  {
+   "background": "黒",
+   "dist_mean": 0.0,
+   "dist_max": 0.0
+  },
+  {
+   "background": "赤",
+   "dist_mean": 0.38,
+   "dist_max": 0.92
+  },
+  {
+   "background": "青",
+   "dist_mean": 0.24,
+   "dist_max": 0.5
+  }
+ ],
+ "fixed_by_background_daylight": [
+  {
+   "background": "灰色",
+   "dist_mean": 0.0,
+   "bright_shift_mean": 0.0,
+   "chroma_dist_mean": 0.0
+  },
+  {
+   "background": "白",
+   "dist_mean": 5.0,
+   "bright_shift_mean": 2.84,
+   "chroma_dist_mean": 0.83
+  },
+  {
+   "background": "黒",
+   "dist_mean": 4.09,
+   "bright_shift_mean": -2.32,
+   "chroma_dist_mean": 0.68
+  },
+  {
+   "background": "赤",
+   "dist_mean": 2.78,
+   "bright_shift_mean": -0.97,
+   "chroma_dist_mean": 2.15
+  },
+  {
+   "background": "青",
+   "dist_mean": 3.06,
+   "bright_shift_mean": -1.24,
+   "chroma_dist_mean": 2.17
+  }
+ ]
+}

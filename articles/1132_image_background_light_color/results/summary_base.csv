@@ -1,0 +1,4 @@
+mode,bg_only_dist,bg_only_dist_maxcond,bg_only_bright_abs,bg_only_chroma,light_only_dist,light_only_dist_maxcond,light_only_bright_abs,light_only_chroma,both_dist,both_dist_maxcond,all15_dist_max_product
+①自動,67.72,82.52,29.12,35.3,2.23,2.86,0.59,1.86,67.84,83.0,128.36
+②固定（基準で合わせたまま）,3.73,5.0,1.84,1.46,24.61,31.13,4.15,23.09,24.74,33.17,49.69
+③灰色の板で毎回合わせる,0.15,0.38,0.06,0.11,3.23,4.14,1.06,2.4,3.22,4.44,9.28

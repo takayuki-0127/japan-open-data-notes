@@ -1,0 +1,306 @@
+{
+ "settings": {
+  "image_size": 256,
+  "block": 8,
+  "images_per_type": 20,
+  "image_types": [
+   "縞とグラデーション",
+   "色の板",
+   "細かい模様"
+  ],
+  "saves": 10,
+  "qualities": [
+   50,
+   75,
+   90
+  ],
+  "base_quality": 75,
+  "alt_quality_drop": 15,
+  "base_step_rule": "4+3*(u+v)",
+  "quality_scale_rule": "q<50: 50/q, q>=50: (200-2q)/100",
+  "step_table_base_quality_min": 2.0,
+  "step_table_base_quality_max": 23.0
+ },
+ "base_table": [
+  {
+   "scenario": "①同じ設定で保存し直す",
+   "first": 2.29,
+   "save2": 2.292,
+   "save3": 2.294,
+   "tenth": 2.298,
+   "ratio10": 1.002,
+   "ratio10_min": 1.0,
+   "ratio10_max": 1.008,
+   "one_save_low": 3.043,
+   "ratio10_to_one_save_low": 0.795,
+   "prev_diff_save10": 0.012,
+   "changed_share_save2": 0.0125,
+   "changed_share_save10": 0.0005,
+   "stopped_by_10_share": 0.6667
+  },
+  {
+   "scenario": "②毎回区画の位置が1画素ずれる",
+   "first": 2.29,
+   "save2": 2.945,
+   "save3": 3.417,
+   "tenth": 5.647,
+   "ratio10": 2.261,
+   "ratio10_min": 1.223,
+   "ratio10_max": 3.117,
+   "one_save_low": 3.043,
+   "ratio10_to_one_save_low": 1.714,
+   "prev_diff_save10": 2.179,
+   "changed_share_save2": 0.7132,
+   "changed_share_save10": 0.6742,
+   "stopped_by_10_share": 0.0
+  },
+  {
+   "scenario": "③画質の設定を交互に（画質と画質−15）",
+   "first": 2.29,
+   "save2": 3.621,
+   "save3": 4.638,
+   "tenth": 3.647,
+   "ratio10": 1.516,
+   "ratio10_min": 1.157,
+   "ratio10_max": 1.837,
+   "one_save_low": 3.043,
+   "ratio10_to_one_save_low": 1.174,
+   "prev_diff_save10": 1.685,
+   "changed_share_save2": 0.6903,
+   "changed_share_save10": 0.5941,
+   "stopped_by_10_share": 0.0
+  },
+  {
+   "scenario": "④画素を整数に丸めない（①の対照）",
+   "first": 2.274,
+   "save2": 2.274,
+   "save3": 2.274,
+   "tenth": 2.274,
+   "ratio10": 1.0,
+   "ratio10_min": 1.0,
+   "ratio10_max": 1.0,
+   "one_save_low": 3.043,
+   "ratio10_to_one_save_low": 0.781,
+   "prev_diff_save10": 0.0,
+   "changed_share_save2": 0.0,
+   "changed_share_save10": 0.0,
+   "stopped_by_10_share": 1.0
+  }
+ ],
+ "curve_scenario2": {
+  "1": 2.29,
+  "2": 2.945,
+  "3": 3.417,
+  "4": 3.83,
+  "5": 4.183,
+  "6": 4.514,
+  "7": 4.825,
+  "8": 5.112,
+  "9": 5.385,
+  "10": 5.647
+ },
+ "curve_scenario1": {
+  "1": 2.29,
+  "2": 2.292,
+  "3": 2.294,
+  "4": 2.295,
+  "5": 2.296,
+  "6": 2.296,
+  "7": 2.297,
+  "8": 2.298,
+  "9": 2.298,
+  "10": 2.298
+ },
+ "curve_scenario3": {
+  "1": 2.29,
+  "2": 3.621,
+  "3": 4.638,
+  "4": 3.634,
+  "5": 4.657,
+  "6": 3.64,
+  "7": 4.666,
+  "8": 3.644,
+  "9": 4.672,
+  "10": 3.647
+ },
+ "by_type_base_quality": [
+  {
+   "quality": 75,
+   "image_type": "細かい模様",
+   "scenario": "①同じ設定で保存し直す",
+   "first": 3.723,
+   "tenth": 3.748,
+   "ratio10": 1.007,
+   "one_save_low": 5.467,
+   "ratio10_low": 0.686
+  },
+  {
+   "quality": 75,
+   "image_type": "細かい模様",
+   "scenario": "②毎回区画の位置が1画素ずれる",
+   "first": 3.723,
+   "tenth": 11.504,
+   "ratio10": 3.09,
+   "one_save_low": 5.467,
+   "ratio10_low": 2.104
+  },
+  {
+   "quality": 75,
+   "image_type": "細かい模様",
+   "scenario": "③画質の設定を交互に（画質と画質−15）",
+   "first": 3.723,
+   "tenth": 6.789,
+   "ratio10": 1.824,
+   "one_save_low": 5.467,
+   "ratio10_low": 1.242
+  },
+  {
+   "quality": 75,
+   "image_type": "細かい模様",
+   "scenario": "④画素を整数に丸めない（①の対照）",
+   "first": 3.736,
+   "tenth": 3.736,
+   "ratio10": 1.0,
+   "one_save_low": 5.467,
+   "ratio10_low": 0.683
+  },
+  {
+   "quality": 75,
+   "image_type": "縞とグラデーション",
+   "scenario": "①同じ設定で保存し直す",
+   "first": 1.164,
+   "tenth": 1.164,
+   "ratio10": 1.0,
+   "one_save_low": 1.539,
+   "ratio10_low": 0.763
+  },
+  {
+   "quality": 75,
+   "image_type": "縞とグラデーション",
+   "scenario": "②毎回区画の位置が1画素ずれる",
+   "first": 1.164,
+   "tenth": 2.826,
+   "ratio10": 2.375,
+   "one_save_low": 1.539,
+   "ratio10_low": 1.808
+  },
+  {
+   "quality": 75,
+   "image_type": "縞とグラデーション",
+   "scenario": "③画質の設定を交互に（画質と画質−15）",
+   "first": 1.164,
+   "tenth": 1.812,
+   "ratio10": 1.545,
+   "one_save_low": 1.539,
+   "ratio10_low": 1.176
+  },
+  {
+   "quality": 75,
+   "image_type": "縞とグラデーション",
+   "scenario": "④画素を整数に丸めない（①の対照）",
+   "first": 1.124,
+   "tenth": 1.124,
+   "ratio10": 1.0,
+   "one_save_low": 1.539,
+   "ratio10_low": 0.734
+  },
+  {
+   "quality": 75,
+   "image_type": "色の板",
+   "scenario": "①同じ設定で保存し直す",
+   "first": 1.983,
+   "tenth": 1.984,
+   "ratio10": 1.0,
+   "one_save_low": 2.122,
+   "ratio10_low": 0.935
+  },
+  {
+   "quality": 75,
+   "image_type": "色の板",
+   "scenario": "②毎回区画の位置が1画素ずれる",
+   "first": 1.983,
+   "tenth": 2.612,
+   "ratio10": 1.317,
+   "one_save_low": 2.122,
+   "ratio10_low": 1.231
+  },
+  {
+   "quality": 75,
+   "image_type": "色の板",
+   "scenario": "③画質の設定を交互に（画質と画質−15）",
+   "first": 1.983,
+   "tenth": 2.341,
+   "ratio10": 1.18,
+   "one_save_low": 2.122,
+   "ratio10_low": 1.104
+  },
+  {
+   "quality": 75,
+   "image_type": "色の板",
+   "scenario": "④画素を整数に丸めない（①の対照）",
+   "first": 1.962,
+   "tenth": 1.962,
+   "ratio10": 1.0,
+   "one_save_low": 2.122,
+   "ratio10_low": 0.925
+  }
+ ],
+ "grid_range_9": [
+  {
+   "scenario": "①同じ設定で保存し直す",
+   "ratio10_min": 1.0,
+   "ratio10_max": 1.007,
+   "ratio10_low_min": 0.422,
+   "ratio10_low_max": 0.941,
+   "first_min": 0.681,
+   "first_max": 6.442,
+   "tenth_min": 0.683,
+   "tenth_max": 6.488
+  },
+  {
+   "scenario": "②毎回区画の位置が1画素ずれる",
+   "ratio10_min": 1.317,
+   "ratio10_max": 3.159,
+   "ratio10_low_min": 1.231,
+   "ratio10_low_max": 2.243,
+   "first_min": 0.681,
+   "first_max": 6.442,
+   "tenth_min": 1.655,
+   "tenth_max": 18.525
+  },
+  {
+   "scenario": "③画質の設定を交互に（画質と画質−15）",
+   "ratio10_min": 1.129,
+   "ratio10_max": 2.523,
+   "ratio10_low_min": 1.015,
+   "ratio10_low_max": 1.242,
+   "first_min": 0.681,
+   "first_max": 6.442,
+   "tenth_min": 1.208,
+   "tenth_max": 9.58
+  },
+  {
+   "scenario": "④画素を整数に丸めない（①の対照）",
+   "ratio10_min": 1.0,
+   "ratio10_max": 1.0,
+   "ratio10_low_min": 0.416,
+   "ratio10_low_max": 0.929,
+   "first_min": 0.619,
+   "first_max": 6.482,
+   "tenth_min": 0.619,
+   "tenth_max": 6.482
+  }
+ ],
+ "shift_tenth_over_same_tenth_9": {
+  "min": 1.317,
+  "max": 3.144
+ },
+ "no_round_exact_same_as_first": true,
+ "no_round_max_abs_ratio_minus_1": 0.0,
+ "example_board1_tenth_diff": {
+  "①同じ設定で保存し直す": 1.974,
+  "②毎回区画の位置が1画素ずれる": 2.768,
+  "③画質の設定を交互に（画質と画質−15）": 2.331,
+  "④画素を整数に丸めない（①の対照）": 1.954
+ }
+}

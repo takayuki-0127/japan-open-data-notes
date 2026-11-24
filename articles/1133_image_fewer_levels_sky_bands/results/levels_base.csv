@@ -1,0 +1,5 @@
+levels,step_255,n_bands_mean,n_bands_formula_mean,band_width_px_mean,band_width_px_min,band_width_px_max,rmse_plain_255,rmse_formula_255,rmse_dither_255,rmse_dither_formula_255,blur_max_dev_plain_255,blur_max_dev_dither_255,blur_max_dev_ratio,blur_max_dev_plain_in_steps,blur_max_dev_dither_in_steps,changes_mid_plain,changes_mid_dither
+256,1.0,77.5,77.6,13.4,9.7,19.2,0.291,0.289,0.41,0.408,0.268,0.166,0.619,0.268,0.166,76.5,340.6
+64,4.048,19.9,19.9,52.2,38.5,76.9,1.167,1.168,1.651,1.652,1.672,0.582,0.348,0.413,0.144,18.9,332.0
+32,8.226,10.2,10.3,101.3,76.9,142.9,2.366,2.375,3.353,3.358,3.703,1.133,0.306,0.45,0.138,9.2,332.0
+16,17.0,5.5,5.5,188.6,142.9,250.0,4.896,4.907,6.934,6.94,8.054,2.333,0.29,0.474,0.137,4.5,336.0

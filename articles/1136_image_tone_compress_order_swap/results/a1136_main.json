@@ -1,0 +1,423 @@
+{
+ "settings": {
+  "seed": 1136,
+  "size": [
+   192,
+   384
+  ],
+  "patches_per_side": 12,
+  "refl": [
+   0.04,
+   0.06,
+   0.09,
+   0.13,
+   0.18,
+   0.25,
+   0.35,
+   0.45,
+   0.55,
+   0.7,
+   0.8,
+   0.9
+  ],
+  "back": 0.3,
+  "noise_sd_log": 0.08,
+  "E": 1000.0,
+  "t": 0.2,
+  "sigma": 32.0,
+  "pixel_pairs": 200000,
+  "tie_threshold": 0.5
+ },
+ "dynamic_range": 36265.0,
+ "global": {
+  "pairs": 276,
+  "inverted_pct": 0.0,
+  "tied_pct": 2.9,
+  "cross_inverted_pct": 0.0,
+  "within_inverted_pct": 0.0,
+  "cross_tied_pct": 0.0,
+  "within_tied_pct": 6.06,
+  "cross_pairs": 144,
+  "within_pairs": 132
+ },
+ "local": {
+  "pairs": 276,
+  "inverted_pct": 6.16,
+  "tied_pct": 0.0,
+  "cross_inverted_pct": 4.86,
+  "within_inverted_pct": 7.58,
+  "cross_tied_pct": 0.0,
+  "within_tied_pct": 0.0,
+  "cross_pairs": 144,
+  "within_pairs": 132
+ },
+ "board_code_range": {
+  "global_room_range": 5.06,
+  "local_room_range": 43.8,
+  "global_window_range": 153.0,
+  "local_window_range": 62.33,
+  "global_room_levels": 6,
+  "local_room_levels": 12
+ },
+ "pixel_pairs": [
+  {
+   "method": "全体に同じ曲線",
+   "by": "本当の明るさの比",
+   "bin": "1〜1.1倍",
+   "pairs": 29490,
+   "inverted_pct": 0.0,
+   "tied_pct": 54.03
+  },
+  {
+   "method": "全体に同じ曲線",
+   "by": "本当の明るさの比",
+   "bin": "1.1〜2倍",
+   "pairs": 37516,
+   "inverted_pct": 0.0,
+   "tied_pct": 28.23
+  },
+  {
+   "method": "全体に同じ曲線",
+   "by": "本当の明るさの比",
+   "bin": "2〜10倍",
+   "pairs": 32025,
+   "inverted_pct": 0.0,
+   "tied_pct": 0.38
+  },
+  {
+   "method": "全体に同じ曲線",
+   "by": "本当の明るさの比",
+   "bin": "10倍以上",
+   "pairs": 100969,
+   "inverted_pct": 0.0,
+   "tied_pct": 0.0
+  },
+  {
+   "method": "全体に同じ曲線",
+   "by": "2つの画素の距離",
+   "bin": "16画素未満",
+   "pairs": 2029,
+   "inverted_pct": 0.0,
+   "tied_pct": 35.14
+  },
+  {
+   "method": "全体に同じ曲線",
+   "by": "2つの画素の距離",
+   "bin": "16〜64画素",
+   "pairs": 25854,
+   "inverted_pct": 0.0,
+   "tied_pct": 23.64
+  },
+  {
+   "method": "全体に同じ曲線",
+   "by": "2つの画素の距離",
+   "bin": "64〜192画素",
+   "pairs": 111338,
+   "inverted_pct": 0.0,
+   "tied_pct": 16.96
+  },
+  {
+   "method": "全体に同じ曲線",
+   "by": "2つの画素の距離",
+   "bin": "192画素以上",
+   "pairs": 60779,
+   "inverted_pct": 0.0,
+   "tied_pct": 1.54
+  },
+  {
+   "method": "全体に同じ曲線",
+   "by": "全体",
+   "bin": "全体",
+   "pairs": 200000,
+   "inverted_pct": 0.0,
+   "tied_pct": 13.32
+  },
+  {
+   "method": "部分ごとに合わせる",
+   "by": "本当の明るさの比",
+   "bin": "1〜1.1倍",
+   "pairs": 29490,
+   "inverted_pct": 39.21,
+   "tied_pct": 7.37
+  },
+  {
+   "method": "部分ごとに合わせる",
+   "by": "本当の明るさの比",
+   "bin": "1.1〜2倍",
+   "pairs": 37516,
+   "inverted_pct": 21.76,
+   "tied_pct": 2.76
+  },
+  {
+   "method": "部分ごとに合わせる",
+   "by": "本当の明るさの比",
+   "bin": "2〜10倍",
+   "pairs": 32025,
+   "inverted_pct": 8.86,
+   "tied_pct": 0.65
+  },
+  {
+   "method": "部分ごとに合わせる",
+   "by": "本当の明るさの比",
+   "bin": "10倍以上",
+   "pairs": 100969,
+   "inverted_pct": 0.76,
+   "tied_pct": 0.11
+  },
+  {
+   "method": "部分ごとに合わせる",
+   "by": "2つの画素の距離",
+   "bin": "16画素未満",
+   "pairs": 2029,
+   "inverted_pct": 9.61,
+   "tied_pct": 8.92
+  },
+  {
+   "method": "部分ごとに合わせる",
+   "by": "2つの画素の距離",
+   "bin": "16〜64画素",
+   "pairs": 25854,
+   "inverted_pct": 12.83,
+   "tied_pct": 4.48
+  },
+  {
+   "method": "部分ごとに合わせる",
+   "by": "2つの画素の距離",
+   "bin": "64〜192画素",
+   "pairs": 111338,
+   "inverted_pct": 16.49,
+   "tied_pct": 1.89
+  },
+  {
+   "method": "部分ごとに合わせる",
+   "by": "2つの画素の距離",
+   "bin": "192画素以上",
+   "pairs": 60779,
+   "inverted_pct": 2.41,
+   "tied_pct": 0.15
+  },
+  {
+   "method": "部分ごとに合わせる",
+   "by": "全体",
+   "bin": "全体",
+   "pairs": 200000,
+   "inverted_pct": 11.67,
+   "tied_pct": 1.77
+  }
+ ],
+ "by_t": [
+  {
+   "t": 0.1,
+   "pairs": 276,
+   "inverted_pct": 13.41,
+   "tied_pct": 1.45,
+   "cross_inverted_pct": 18.06,
+   "within_inverted_pct": 8.33,
+   "cross_tied_pct": 2.78,
+   "within_tied_pct": 0.0,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  },
+  {
+   "t": 0.2,
+   "pairs": 276,
+   "inverted_pct": 6.16,
+   "tied_pct": 0.0,
+   "cross_inverted_pct": 4.86,
+   "within_inverted_pct": 7.58,
+   "cross_tied_pct": 0.0,
+   "within_tied_pct": 0.0,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  },
+  {
+   "t": 0.3,
+   "pairs": 276,
+   "inverted_pct": 1.81,
+   "tied_pct": 1.09,
+   "cross_inverted_pct": 0.0,
+   "within_inverted_pct": 3.79,
+   "cross_tied_pct": 0.0,
+   "within_tied_pct": 2.27,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  },
+  {
+   "t": 0.4,
+   "pairs": 276,
+   "inverted_pct": 1.81,
+   "tied_pct": 0.72,
+   "cross_inverted_pct": 0.0,
+   "within_inverted_pct": 3.79,
+   "cross_tied_pct": 0.0,
+   "within_tied_pct": 1.52,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  },
+  {
+   "t": 0.5,
+   "pairs": 276,
+   "inverted_pct": 1.09,
+   "tied_pct": 0.72,
+   "cross_inverted_pct": 0.0,
+   "within_inverted_pct": 2.27,
+   "cross_tied_pct": 0.0,
+   "within_tied_pct": 1.52,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  },
+  {
+   "t": 0.7,
+   "pairs": 276,
+   "inverted_pct": 0.36,
+   "tied_pct": 0.36,
+   "cross_inverted_pct": 0.0,
+   "within_inverted_pct": 0.76,
+   "cross_tied_pct": 0.0,
+   "within_tied_pct": 0.76,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  },
+  {
+   "t": 1.0,
+   "pairs": 276,
+   "inverted_pct": 0.0,
+   "tied_pct": 0.36,
+   "cross_inverted_pct": 0.0,
+   "within_inverted_pct": 0.0,
+   "cross_tied_pct": 0.0,
+   "within_tied_pct": 0.76,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  }
+ ],
+ "by_sigma": [
+  {
+   "sigma": 4.0,
+   "pairs": 276,
+   "inverted_pct": 0.0,
+   "tied_pct": 0.0,
+   "cross_inverted_pct": 0.0,
+   "within_inverted_pct": 0.0,
+   "cross_tied_pct": 0.0,
+   "within_tied_pct": 0.0,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  },
+  {
+   "sigma": 8.0,
+   "pairs": 276,
+   "inverted_pct": 0.0,
+   "tied_pct": 0.0,
+   "cross_inverted_pct": 0.0,
+   "within_inverted_pct": 0.0,
+   "cross_tied_pct": 0.0,
+   "within_tied_pct": 0.0,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  },
+  {
+   "sigma": 16.0,
+   "pairs": 276,
+   "inverted_pct": 2.9,
+   "tied_pct": 1.81,
+   "cross_inverted_pct": 5.56,
+   "within_inverted_pct": 0.0,
+   "cross_tied_pct": 1.39,
+   "within_tied_pct": 2.27,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  },
+  {
+   "sigma": 32.0,
+   "pairs": 276,
+   "inverted_pct": 6.16,
+   "tied_pct": 0.0,
+   "cross_inverted_pct": 4.86,
+   "within_inverted_pct": 7.58,
+   "cross_tied_pct": 0.0,
+   "within_tied_pct": 0.0,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  },
+  {
+   "sigma": 48.0,
+   "pairs": 276,
+   "inverted_pct": 6.52,
+   "tied_pct": 0.36,
+   "cross_inverted_pct": 2.08,
+   "within_inverted_pct": 11.36,
+   "cross_tied_pct": 0.69,
+   "within_tied_pct": 0.0,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  },
+  {
+   "sigma": 64.0,
+   "pairs": 276,
+   "inverted_pct": 6.88,
+   "tied_pct": 0.36,
+   "cross_inverted_pct": 0.69,
+   "within_inverted_pct": 13.64,
+   "cross_tied_pct": 0.0,
+   "within_tied_pct": 0.76,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  },
+  {
+   "sigma": 96.0,
+   "pairs": 276,
+   "inverted_pct": 6.52,
+   "tied_pct": 0.36,
+   "cross_inverted_pct": 0.0,
+   "within_inverted_pct": 13.64,
+   "cross_tied_pct": 0.0,
+   "within_tied_pct": 0.76,
+   "cross_pairs": 144,
+   "within_pairs": 132
+  }
+ ],
+ "grid_range": {
+  "global_inverted_max": 0.0,
+  "global_tied_min": 0.36,
+  "global_tied_max": 10.87,
+  "local_cross_min": 0.0,
+  "local_cross_max": 26.39,
+  "local_within_min": 0.0,
+  "local_within_max": 21.21,
+  "local_cross_zero_count": 9,
+  "local_any_inverted_count": 22,
+  "local_within_zero_count": 9,
+  "by_sigma": [
+   {
+    "sigma": 8.0,
+    "cross_min": 0.0,
+    "cross_max": 15.97,
+    "within_min": 0.0,
+    "within_max": 0.0,
+    "any_inverted": 4
+   },
+   {
+    "sigma": 32.0,
+    "cross_min": 0.0,
+    "cross_max": 26.39,
+    "within_min": 4.55,
+    "within_max": 12.88,
+    "any_inverted": 9
+   },
+   {
+    "sigma": 64.0,
+    "cross_min": 0.0,
+    "cross_max": 17.36,
+    "within_min": 8.33,
+    "within_max": 21.21,
+    "any_inverted": 9
+   }
+  ],
+  "global_tied_by_E": {
+   "100": 0.36,
+   "1000": 2.9,
+   "10000": 10.87
+  }
+ }
+}
