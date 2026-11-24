@@ -1,0 +1,293 @@
+{
+ "setup": {
+  "fs": 4000,
+  "dur_sec": 24,
+  "part_sec": 6,
+  "n_base": 300,
+  "n_robust_each": 200,
+  "speeds_ms": {
+   "10ミリ秒": 10,
+   "100ミリ秒": 100,
+   "1秒": 1000,
+   "3秒": 3000
+  },
+  "ratios": [
+   1,
+   1.5,
+   2,
+   3,
+   4,
+   8,
+   20
+  ],
+  "ratio_base": 4,
+  "threshold_offset_base": 0.0,
+  "threshold_offsets": [
+   -6.0,
+   0.0,
+   6.0
+  ],
+  "contrast_sets": {
+   "狭い（2〜6 dB）": [
+    2,
+    6
+   ],
+   "基本（3〜12 dB）": [
+    3,
+    12
+   ],
+   "広い（8〜16 dB）": [
+    8,
+    16
+   ]
+  }
+ },
+ "original": {
+  "Lint": -20.34,
+  "inst": 17.96,
+  "sect": 2.39,
+  "range3s": 7.66,
+  "contrast": 7.46
+ },
+ "identity_max_abs_error_dB": 3.55e-15,
+ "ratio4": {
+  "10ミリ秒": {
+   "gain_avg": 4.86,
+   "loss_inst": 4.38,
+   "loss_sect": 0.48,
+   "loss_range3s": 2.1,
+   "loss_contrast": 2.01,
+   "gain_avg_p10_p90": [
+    3.61,
+    6.02
+   ],
+   "loss_contrast_p10_p90": [
+    1.16,
+    2.73
+   ]
+  },
+  "100ミリ秒": {
+   "gain_avg": 2.6,
+   "loss_inst": 2.09,
+   "loss_sect": 0.51,
+   "loss_range3s": 2.19,
+   "loss_contrast": 2.09,
+   "gain_avg_p10_p90": [
+    1.96,
+    3.24
+   ],
+   "loss_contrast_p10_p90": [
+    1.33,
+    2.71
+   ]
+  },
+  "1秒": {
+   "gain_avg": 0.14,
+   "loss_inst": -0.14,
+   "loss_sect": 0.29,
+   "loss_range3s": 1.49,
+   "loss_contrast": 1.42,
+   "gain_avg_p10_p90": [
+    -0.35,
+    0.62
+   ],
+   "loss_contrast_p10_p90": [
+    0.93,
+    1.87
+   ]
+  },
+  "3秒": {
+   "gain_avg": 0.08,
+   "loss_inst": -0.16,
+   "loss_sect": 0.23,
+   "loss_range3s": 1.43,
+   "loss_contrast": 1.34,
+   "gain_avg_p10_p90": [
+    -0.62,
+    0.61
+   ],
+   "loss_contrast_p10_p90": [
+    0.92,
+    1.64
+   ]
+  }
+ },
+ "ratio20": {
+  "10ミリ秒": {
+   "gain_avg": 5.84,
+   "loss_inst": 5.27,
+   "loss_contrast": 2.35,
+   "contrast_after": 5.11
+  },
+  "100ミリ秒": {
+   "gain_avg": 3.3,
+   "loss_inst": 2.68,
+   "loss_contrast": 2.51,
+   "contrast_after": 4.95
+  },
+  "1秒": {
+   "gain_avg": 0.17,
+   "loss_inst": -0.2,
+   "loss_contrast": 1.8,
+   "contrast_after": 5.66
+  },
+  "3秒": {
+   "gain_avg": 0.04,
+   "loss_inst": -0.24,
+   "loss_contrast": 1.69,
+   "contrast_after": 5.77
+  }
+ },
+ "slopes_per_dB": {
+  "10ミリ秒": {
+   "contrast_per_dB": 0.227,
+   "range3s_per_dB": 0.24,
+   "inst_per_dB": 0.941
+  },
+  "100ミリ秒": {
+   "contrast_per_dB": 0.481,
+   "range3s_per_dB": 0.506,
+   "inst_per_dB": 0.88
+  },
+  "1秒": {
+   "contrast_per_dB": 0.103,
+   "range3s_per_dB": 0.132,
+   "inst_per_dB": 0.88
+  },
+  "3秒": {
+   "contrast_per_dB": -0.15,
+   "range3s_per_dB": -0.118,
+   "inst_per_dB": 0.942
+  }
+ },
+ "gain3to5": {
+  "10ミリ秒": {
+   "n": 748,
+   "gain_avg": 4.05,
+   "loss_inst": 3.59,
+   "loss_sect": 0.46,
+   "loss_contrast": 1.88,
+   "loss_range3s": 1.96
+  },
+  "100ミリ秒": {
+   "n": 445,
+   "gain_avg": 3.54,
+   "loss_inst": 2.95,
+   "loss_sect": 0.59,
+   "loss_contrast": 2.44,
+   "loss_range3s": 2.56
+  }
+ },
+ "grid": {
+  "n_combos": 9,
+  "loss_inst": {
+   "10ミリ秒": [
+    1.5,
+    4.85
+   ],
+   "100ミリ秒": [
+    0.01,
+    2.35
+   ],
+   "1秒": [
+    -0.19,
+    0.0
+   ],
+   "3秒": [
+    -0.19,
+    0.0
+   ]
+  },
+  "loss_range3s": {
+   "10ミリ秒": [
+    0.41,
+    6.3
+   ],
+   "100ミリ秒": [
+    0.06,
+    6.57
+   ],
+   "1秒": [
+    0.0,
+    6.33
+   ],
+   "3秒": [
+    0.0,
+    5.9
+   ]
+  },
+  "gain_avg": {
+   "10ミリ秒": [
+    1.65,
+    5.86
+   ],
+   "100ミリ秒": [
+    0.04,
+    3.52
+   ],
+   "1秒": [
+    -0.0,
+    0.98
+   ],
+   "3秒": [
+    -0.07,
+    0.75
+   ]
+  },
+  "loss_contrast": {
+   "10ミリ秒": [
+    0.38,
+    6.17
+   ],
+   "100ミリ秒": [
+    0.06,
+    6.42
+   ],
+   "1秒": [
+    0.0,
+    6.1
+   ],
+   "3秒": [
+    0.0,
+    5.48
+   ]
+  },
+  "n_slow_loses_more_contrast_than_fast": 0,
+  "n_fast_loses_more_inst_than_slow": 9,
+  "n_fast_gains_more_avg_than_slow": 9,
+  "n_slow_gain_below_1dB": 9,
+  "n_slow_contrast_loss_over_1dB": 5,
+  "slow_acting": {
+   "n": 12,
+   "gain_avg": [
+    -0.07,
+    0.98
+   ],
+   "loss_contrast": [
+    0.94,
+    6.1
+   ]
+  },
+  "th_plus6_slow_all_zero": true
+ },
+ "example_song0": {
+  "before": {
+   "Lint": -20.62,
+   "inst": 17.69,
+   "sect": 2.93,
+   "contrast": 10.04
+  },
+  "10ミリ秒": {
+   "Lint": -15.79,
+   "inst": 13.4,
+   "sect": 2.39,
+   "contrast": 7.45
+  },
+  "3秒": {
+   "Lint": -20.71,
+   "inst": 18.12,
+   "sect": 2.59,
+   "contrast": 8.4
+  }
+ }
+}

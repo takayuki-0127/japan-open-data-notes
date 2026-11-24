@@ -1,0 +1,110 @@
+{
+ "settings": {
+  "albums": 2000,
+  "songs": 12,
+  "mean_level_db": -14.0,
+  "sigma_db": 3.0,
+  "song_length_sec": [
+   120,
+   300
+  ],
+  "seed": 1138
+ },
+ "base": {
+  "gap_power_minus_db_mean": 0.924,
+  "gap_p05": 0.378,
+  "gap_p95": 1.663,
+  "gap_min": 0.128,
+  "gap_max": 3.056,
+  "gap_length_weighted_mean": 0.919,
+  "gap_length_weighted_p05": 0.301,
+  "gap_length_weighted_p95": 1.738,
+  "share_db_average_lower": 1.0,
+  "formula_sigma2_ln10_over_20": 1.036,
+  "coef_ln10_over_20": 0.115,
+  "formula_with_12songs": 0.95,
+  "corr_gap_vs_song_sd": 0.938
+ },
+ "waveform_check": {
+  "albums": 100,
+  "max_abs_diff_to_length_weighted": 0.0,
+  "mean_measured_minus_db_average": 0.963
+ },
+ "example_quiet_song": {
+  "levels_db": [
+   -12.5,
+   -13.2,
+   -14.0,
+   -13.6,
+   -12.8,
+   -14.4,
+   -13.0,
+   -14.1,
+   -13.5,
+   -12.9,
+   -13.8,
+   -30.0
+  ],
+  "lengths_sec": [
+   210.0,
+   235.0,
+   198.0,
+   260.0,
+   224.0,
+   189.0,
+   247.0,
+   215.0,
+   230.0,
+   205.0,
+   240.0,
+   60.0
+  ],
+  "db_average": -14.817,
+  "power_average": -13.767,
+  "length_weighted": -13.49,
+  "db_average_without_quiet": -13.436,
+  "power_average_without_quiet": -13.398,
+  "drop_db_average": 1.38,
+  "drop_power_average": 0.369,
+  "length_weighted_without_quiet": -13.388,
+  "drop_length_weighted": 0.103
+ },
+ "within_song": {
+  "songs": 200,
+  "gap_mean": 2.875,
+  "gap_p05": 2.189,
+  "gap_p95": 3.617,
+  "gap_without_intro_mean": 1.496
+ },
+ "pairs": {
+  "album_sigma_range_db": [
+   1,
+   6
+  ],
+  "pairs": 19991,
+  "share_order_flipped": 0.2605,
+  "share_order_flipped_vs_equal_weight_power": 0.2572,
+  "share_flipped_vs_equal_weight_when_within_1db": 0.3517,
+  "share_flipped_when_db_average_within_1db": 0.3574,
+  "pairs_within_1db": 10466,
+  "gap_mean": 1.421,
+  "gap_min": -0.067,
+  "gap_max": 11.031
+ },
+ "grid": {
+  "cases": 24,
+  "gap_mean_min": 0.095,
+  "gap_mean_max": 11.08,
+  "all_positive": true,
+  "左右対称": {
+   "gap_mean_min": 0.095,
+   "gap_mean_max": 10.102
+  },
+  "静かな曲がときどき入る": {
+   "gap_mean_min": 1.023,
+   "gap_mean_max": 11.08
+  },
+  "max_abs_diff_to_formula_normal": 2.763,
+  "max_abs_diff_to_formula_sigma_le3": 0.048
+ }
+}

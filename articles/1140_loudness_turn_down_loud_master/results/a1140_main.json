@@ -1,0 +1,177 @@
+{
+ "setup": {
+  "fs": 4000,
+  "dur_sec": 24,
+  "part_sec": 6,
+  "n_base": 500,
+  "n_robust_each": 300,
+  "target_dB": -16.0,
+  "push_dB": [
+   0,
+   2,
+   4,
+   6,
+   8,
+   10,
+   12,
+   14,
+   16
+  ],
+  "contrast_sets": {
+   "狭い（2〜6 dB）": [
+    2,
+    6
+   ],
+   "基本（3〜12 dB）": [
+    3,
+    12
+   ],
+   "広い（8〜16 dB）": [
+    8,
+    16
+   ]
+  },
+  "measure": "曲全体の強さの平均（dB、上限を0とした値、重みなし）"
+ },
+ "base_k0": {
+  "Lint_mean": -20.37,
+  "Lint_p10": -22.09,
+  "Lint_p90": -18.58,
+  "share_above_T": 0.0
+ },
+ "reach_T_k": {
+  "share_reached_by_16": 100.0,
+  "median_k": 6.0,
+  "share_k0": 0.0
+ },
+ "compare_k8_vs_k0": {
+  "A": {
+   "mean_gain_overall": 4.34,
+   "share_overall_louder_0p5": 99.8,
+   "mean_gain_chorus": 4.04,
+   "share_chorus_louder_0p5": 99.8,
+   "share_chorus_quieter_0p5": 0.0,
+   "mean_gain_loudest3s": 4.0,
+   "share_already_above_T_at_k0": 0.0
+  },
+  "B": {
+   "mean_gain_overall": 0.01,
+   "share_overall_louder_0p5": 0.0,
+   "mean_gain_chorus": -0.19,
+   "share_chorus_louder_0p5": 0.0,
+   "share_chorus_quieter_0p5": 2.0,
+   "mean_gain_loudest3s": -0.23,
+   "share_already_above_T_at_k0": 0.0
+  },
+  "none": {
+   "mean_gain_overall": 6.56,
+   "share_overall_louder_0p5": 100.0,
+   "mean_gain_chorus": 6.26,
+   "share_chorus_louder_0p5": 100.0,
+   "share_chorus_quieter_0p5": 0.0,
+   "mean_gain_loudest3s": 6.21,
+   "share_already_above_T_at_k0": 0.0
+  }
+ },
+ "best_k_for_chorus_A": {
+  "median_best_k": 6.0,
+  "share_best_k_le8": 95.4,
+  "mean_loss_k16_vs_best": -1.12,
+  "corr_bestk_reachk": 0.94,
+  "mean_bestk_minus_reachk": -0.12
+ },
+ "overall_gain_bound_A": {
+  "mean_gap_T_minus_L0": 4.37,
+  "mean_gainA_k16": 4.37,
+  "max_abs_diff": 0.0
+ },
+ "max_peak_after_push_dB": 0.0,
+ "contrast_loss_k8": -1.62,
+ "compare_k16_vs_k0": {
+  "A": {
+   "mean_gain_overall": 4.37,
+   "share_overall_louder_0p5": 99.8,
+   "mean_gain_chorus": 3.08,
+   "share_chorus_louder_0p5": 94.0,
+   "share_chorus_quieter_0p5": 1.0,
+   "mean_gain_loudest3s": 3.02,
+   "share_already_above_T_at_k0": 0.0
+  },
+  "B": {
+   "mean_gain_overall": 0.01,
+   "share_overall_louder_0p5": 0.0,
+   "mean_gain_chorus": -1.17,
+   "share_chorus_louder_0p5": 0.0,
+   "share_chorus_quieter_0p5": 94.2,
+   "mean_gain_loudest3s": -1.23,
+   "share_already_above_T_at_k0": 0.0
+  }
+ },
+ "grid_ranges": {
+  "A_mean_gain_overall": [
+   0.38,
+   6.54
+  ],
+  "A_mean_gain_chorus": [
+   -0.01,
+   6.24
+  ],
+  "B_mean_gain_overall": [
+   0.0,
+   0.06
+  ],
+  "B_mean_gain_chorus": [
+   -0.39,
+   0.05
+  ],
+  "A_share_chorus_quieter": [
+   0.0,
+   10.0
+  ],
+  "B_share_chorus_quieter": [
+   0.0,
+   12.0
+  ],
+  "A_k16_mean_gain_overall": [
+   0.38,
+   8.86
+  ],
+  "A_k16_mean_gain_chorus": [
+   -0.9,
+   7.92
+  ],
+  "B_k16_mean_gain_chorus": [
+   -1.28,
+   -0.46
+  ],
+  "B_k16_mean_gain_overall": [
+   0.0,
+   0.18
+  ],
+  "A_k16_minus_k8_chorus": [
+   -0.99,
+   1.68
+  ],
+  "n_combos": 18
+ },
+ "example_song0": {
+  "A_k0": {
+   "max_3s": -18.69,
+   "min_3s": -26.04
+  },
+  "B_k0": {
+   "max_3s": -13.79,
+   "min_3s": -20.26
+  },
+  "A_k12": {
+   "max_3s": -14.16,
+   "min_3s": -19.11
+  },
+  "B_k12": {
+   "max_3s": -14.16,
+   "min_3s": -19.11
+  },
+  "Lint_k0": -21.19,
+  "Lint_k12": -11.33
+ }
+}

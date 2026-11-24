@@ -1,0 +1,411 @@
+{
+ "settings": {
+  "sample_rate": 8000,
+  "duration_sec": 2.0,
+  "single_level_db": 60.0,
+  "pairs_per_case": 1000,
+  "types": [
+   "でたらめな雑音",
+   "低い音の多い雑音",
+   "一定の高さの音"
+  ],
+  "seed": 1137
+ },
+ "same_copy": {
+  "でたらめな雑音": {
+   "mean": 6.021,
+   "median": 6.021,
+   "p05": 6.021,
+   "p95": 6.021,
+   "min": 6.021,
+   "max": 6.021
+  },
+  "低い音の多い雑音": {
+   "mean": 6.021,
+   "median": 6.021,
+   "p05": 6.021,
+   "p95": 6.021,
+   "min": 6.021,
+   "max": 6.021
+  },
+  "一定の高さの音": {
+   "mean": 6.021,
+   "median": 6.021,
+   "p05": 6.021,
+   "p95": 6.021,
+   "min": 6.021,
+   "max": 6.021
+  }
+ },
+ "independent": {
+  "でたらめな雑音": {
+   "mean": 3.011,
+   "median": 3.011,
+   "p05": 2.955,
+   "p95": 3.065,
+   "min": 2.906,
+   "max": 3.113
+  },
+  "低い音の多い雑音": {
+   "mean": 3.013,
+   "median": 3.015,
+   "p05": 2.816,
+   "p95": 3.213,
+   "min": 2.611,
+   "max": 3.387
+  },
+  "一定の高さの音": {
+   "mean": 3.01,
+   "median": 3.01,
+   "p05": 3.002,
+   "p95": 3.018,
+   "min": 2.672,
+   "max": 3.23
+  }
+ },
+ "formula": {
+  "same_copy_db": 6.021,
+  "independent_db": 3.01,
+  "phase_share_below0_formula": 0.3333
+ },
+ "same_pitch_random_phase": {
+  "mean": 0.438,
+  "median": 3.078,
+  "p05": -14.58,
+  "p95": 5.999,
+  "min": -49.612,
+  "max": 6.021,
+  "share_below_0db": 0.309,
+  "share_above_5db": 0.319,
+  "share_below_minus10db": 0.088,
+  "power_average_increase_db": 3.134,
+  "max_abs_diff_to_formula": 0.0023
+ },
+ "delay": [
+  {
+   "type": "でたらめな雑音",
+   "delay_ms": 0,
+   "delay_points": 0,
+   "mean_increase_db": 6.021,
+   "p05": 6.021,
+   "p95": 6.021
+  },
+  {
+   "type": "でたらめな雑音",
+   "delay_ms": 0.125,
+   "delay_points": 1,
+   "mean_increase_db": 3.012,
+   "p05": 2.959,
+   "p95": 3.061
+  },
+  {
+   "type": "でたらめな雑音",
+   "delay_ms": 0.25,
+   "delay_points": 2,
+   "mean_increase_db": 3.013,
+   "p05": 2.954,
+   "p95": 3.062
+  },
+  {
+   "type": "でたらめな雑音",
+   "delay_ms": 0.5,
+   "delay_points": 4,
+   "mean_increase_db": 3.01,
+   "p05": 2.955,
+   "p95": 3.059
+  },
+  {
+   "type": "でたらめな雑音",
+   "delay_ms": 1,
+   "delay_points": 8,
+   "mean_increase_db": 3.008,
+   "p05": 2.944,
+   "p95": 3.065
+  },
+  {
+   "type": "でたらめな雑音",
+   "delay_ms": 2,
+   "delay_points": 16,
+   "mean_increase_db": 3.009,
+   "p05": 2.957,
+   "p95": 3.071
+  },
+  {
+   "type": "でたらめな雑音",
+   "delay_ms": 5,
+   "delay_points": 40,
+   "mean_increase_db": 3.012,
+   "p05": 2.948,
+   "p95": 3.07
+  },
+  {
+   "type": "でたらめな雑音",
+   "delay_ms": 10,
+   "delay_points": 80,
+   "mean_increase_db": 3.013,
+   "p05": 2.961,
+   "p95": 3.061
+  },
+  {
+   "type": "でたらめな雑音",
+   "delay_ms": 20,
+   "delay_points": 160,
+   "mean_increase_db": 3.009,
+   "p05": 2.94,
+   "p95": 3.069
+  },
+  {
+   "type": "低い音の多い雑音",
+   "delay_ms": 0,
+   "delay_points": 0,
+   "mean_increase_db": 6.021,
+   "p05": 6.021,
+   "p95": 6.021
+  },
+  {
+   "type": "低い音の多い雑音",
+   "delay_ms": 0.125,
+   "delay_points": 1,
+   "mean_increase_db": 5.883,
+   "p05": 5.875,
+   "p95": 5.891
+  },
+  {
+   "type": "低い音の多い雑音",
+   "delay_ms": 0.25,
+   "delay_points": 2,
+   "mean_increase_db": 5.741,
+   "p05": 5.727,
+   "p95": 5.757
+  },
+  {
+   "type": "低い音の多い雑音",
+   "delay_ms": 0.5,
+   "delay_points": 4,
+   "mean_increase_db": 5.441,
+   "p05": 5.412,
+   "p95": 5.474
+  },
+  {
+   "type": "低い音の多い雑音",
+   "delay_ms": 1,
+   "delay_points": 8,
+   "mean_increase_db": 4.77,
+   "p05": 4.702,
+   "p95": 4.835
+  },
+  {
+   "type": "低い音の多い雑音",
+   "delay_ms": 2,
+   "delay_points": 16,
+   "mean_increase_db": 3.001,
+   "p05": 2.811,
+   "p95": 3.185
+  },
+  {
+   "type": "低い音の多い雑音",
+   "delay_ms": 5,
+   "delay_points": 40,
+   "mean_increase_db": 3.007,
+   "p05": 2.82,
+   "p95": 3.174
+  },
+  {
+   "type": "低い音の多い雑音",
+   "delay_ms": 10,
+   "delay_points": 80,
+   "mean_increase_db": 3.011,
+   "p05": 2.819,
+   "p95": 3.189
+  },
+  {
+   "type": "低い音の多い雑音",
+   "delay_ms": 20,
+   "delay_points": 160,
+   "mean_increase_db": 3.015,
+   "p05": 2.805,
+   "p95": 3.195
+  }
+ ],
+ "n_sources": [
+  {
+   "n_sources": 1,
+   "mean_increase_db": 0.0,
+   "formula_10log10n": 0.0,
+   "formula_level_db": 60.0,
+   "level_if_db_added": 60.0,
+   "measured_level_db": 60.0
+  },
+  {
+   "n_sources": 2,
+   "mean_increase_db": 3.01,
+   "formula_10log10n": 3.01,
+   "formula_level_db": 63.01,
+   "level_if_db_added": 120.0,
+   "measured_level_db": 63.01
+  },
+  {
+   "n_sources": 3,
+   "mean_increase_db": 4.774,
+   "formula_10log10n": 4.771,
+   "formula_level_db": 64.771,
+   "level_if_db_added": 180.0,
+   "measured_level_db": 64.774
+  },
+  {
+   "n_sources": 4,
+   "mean_increase_db": 6.017,
+   "formula_10log10n": 6.021,
+   "formula_level_db": 66.021,
+   "level_if_db_added": 240.0,
+   "measured_level_db": 66.017
+  },
+  {
+   "n_sources": 5,
+   "mean_increase_db": 6.991,
+   "formula_10log10n": 6.99,
+   "formula_level_db": 66.99,
+   "level_if_db_added": 300.0,
+   "measured_level_db": 66.991
+  },
+  {
+   "n_sources": 6,
+   "mean_increase_db": 7.785,
+   "formula_10log10n": 7.782,
+   "formula_level_db": 67.782,
+   "level_if_db_added": 360.0,
+   "measured_level_db": 67.785
+  },
+  {
+   "n_sources": 7,
+   "mean_increase_db": 8.45,
+   "formula_10log10n": 8.451,
+   "formula_level_db": 68.451,
+   "level_if_db_added": 420.0,
+   "measured_level_db": 68.45
+  },
+  {
+   "n_sources": 8,
+   "mean_increase_db": 9.033,
+   "formula_10log10n": 9.031,
+   "formula_level_db": 69.031,
+   "level_if_db_added": 480.0,
+   "measured_level_db": 69.033
+  },
+  {
+   "n_sources": 9,
+   "mean_increase_db": 9.54,
+   "formula_10log10n": 9.542,
+   "formula_level_db": 69.542,
+   "level_if_db_added": 540.0,
+   "measured_level_db": 69.54
+  },
+  {
+   "n_sources": 10,
+   "mean_increase_db": 9.999,
+   "formula_10log10n": 10.0,
+   "formula_level_db": 70.0,
+   "level_if_db_added": 600.0,
+   "measured_level_db": 69.999
+  }
+ ],
+ "window_check": [
+  {
+   "window_sec": 0.01,
+   "mean": 3.016,
+   "p05": 2.204,
+   "p95": 3.707,
+   "min": 1.18,
+   "max": 4.296
+  },
+  {
+   "window_sec": 0.1,
+   "mean": 3.001,
+   "p05": 2.752,
+   "p95": 3.266,
+   "min": 2.573,
+   "max": 3.537
+  },
+  {
+   "window_sec": 1.0,
+   "mean": 3.01,
+   "p05": 2.929,
+   "p95": 3.093,
+   "min": 2.864,
+   "max": 3.123
+  },
+  {
+   "window_sec": 10.0,
+   "mean": 3.009,
+   "p05": 2.985,
+   "p95": 3.033,
+   "min": 2.967,
+   "max": 3.053
+  }
+ ],
+ "shared_check": [
+  {
+   "shared_share": 0.0,
+   "mean_increase_db": 3.009,
+   "formula": 3.01,
+   "p05": 2.949,
+   "p95": 3.067
+  },
+  {
+   "shared_share": 0.25,
+   "mean_increase_db": 3.977,
+   "formula": 3.979,
+   "p05": 3.934,
+   "p95": 4.02
+  },
+  {
+   "shared_share": 0.5,
+   "mean_increase_db": 4.772,
+   "formula": 4.771,
+   "p05": 4.749,
+   "p95": 4.797
+  },
+  {
+   "shared_share": 0.75,
+   "mean_increase_db": 5.441,
+   "formula": 5.441,
+   "p05": 5.431,
+   "p95": 5.45
+  },
+  {
+   "shared_share": 1.0,
+   "mean_increase_db": 6.021,
+   "formula": 6.021,
+   "p05": 6.021,
+   "p95": 6.021
+  }
+ ],
+ "shared_check_max_abs_diff_to_formula": 0.002,
+ "gap_check": [
+  {
+   "second_quieter_by_db": 0,
+   "mean_increase_db": 3.009,
+   "formula": 3.01
+  },
+  {
+   "second_quieter_by_db": 3,
+   "mean_increase_db": 1.767,
+   "formula": 1.764
+  },
+  {
+   "second_quieter_by_db": 6,
+   "mean_increase_db": 0.974,
+   "formula": 0.973
+  },
+  {
+   "second_quieter_by_db": 10,
+   "mean_increase_db": 0.413,
+   "formula": 0.414
+  },
+  {
+   "second_quieter_by_db": 20,
+   "mean_increase_db": 0.043,
+   "formula": 0.043
+  }
+ ]
+}
