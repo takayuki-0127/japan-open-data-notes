@@ -1,0 +1,134 @@
+{
+ "headline": {
+  "equal_true_pt": 8.44,
+  "weighted_true_pt": -0.94,
+  "old_equal_pt": 29.74,
+  "new_equal_pt": 38.18,
+  "old_weighted_pt": 34.26,
+  "new_weighted_pt": 33.33,
+  "top1_weight": 0.1522,
+  "top10_weight": 0.4458,
+  "top50_weight": 0.6848,
+  "terms_improved_share": 0.9525,
+  "searches_improved_share": 0.4778,
+  "top10_terms_improvement_pt": [
+   -6.3,
+   -17.15,
+   -8.3,
+   -10.75,
+   -10.1,
+   -1.9,
+   -7.85,
+   -1.95,
+   0.1,
+   -2.65
+  ],
+  "top10_terms_contribution_pt": -3.7,
+  "rest_terms_contribution_pt": 2.76,
+  "one_run": {
+   "all_equal": {
+    "mean_pt": 8.44,
+    "p5_pt": 7.17,
+    "p95_pt": 9.88,
+    "share_positive": 1.0
+   },
+   "all_weighted": {
+    "mean_pt": -0.94,
+    "p5_pt": -5.67,
+    "p95_pt": 4.14,
+    "share_positive": 0.34
+   }
+  },
+  "eval_sets_50": {
+   "random50": {
+    "mean_pt": 8.2,
+    "p5_pt": 4.19,
+    "p95_pt": 12.41,
+    "share_positive": 1.0
+   },
+   "log50": {
+    "mean_pt": -0.69,
+    "p5_pt": -6.42,
+    "p95_pt": 5.21,
+    "share_positive": 0.385
+   },
+   "top50": {
+    "mean_pt": -0.14,
+    "p5_pt": -4.42,
+    "p95_pt": 4.01,
+    "share_positive": 0.47
+   }
+  }
+ },
+ "robust": {
+  "settings": 27,
+  "sign_flip_settings": 10,
+  "sign_flip_by_pattern": {
+   "tail": 5,
+   "flat": 0,
+   "head": 5
+  },
+  "by_pattern": {
+   "tail": {
+    "equal_pt": [
+     7.15,
+     9.27
+    ],
+    "weighted_pt": [
+     -5.34,
+     2.03
+    ]
+   },
+   "flat": {
+    "equal_pt": [
+     4.58,
+     4.88
+    ],
+    "weighted_pt": [
+     3.42,
+     4.86
+    ]
+   },
+   "head": {
+    "equal_pt": [
+     -8.12,
+     -6.82
+    ],
+    "weighted_pt": [
+     -1.91,
+     6.4
+    ]
+   }
+  },
+  "top10_weight_by_s": {
+   "0.8": [
+    0.2305,
+    0.3566
+   ],
+   "1.0": [
+    0.3913,
+    0.4983
+   ],
+   "1.2": [
+    0.5692,
+    0.6394
+   ]
+  },
+  "one_run_sd_ratio_range": [
+   1.77,
+   9.91
+  ]
+ },
+ "setup": {
+  "T": 400,
+  "s": 1.0,
+  "pattern": "tail",
+  "lo": -0.4,
+  "hi": 0.4,
+  "monthly": 100000,
+  "docs": 1000,
+  "top": 10,
+  "reps": 200,
+  "grid_reps": 50
+ }
+}

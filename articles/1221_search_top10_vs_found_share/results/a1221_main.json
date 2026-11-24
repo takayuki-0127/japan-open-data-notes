@@ -1,0 +1,149 @@
+{
+ "headline": {
+  "mean_200": {
+   "A_top_share": 0.2695,
+   "A_found_k": 0.1135,
+   "A_found_100": 0.4249,
+   "A_found_k_pooled": 0.1252,
+   "B_top_share": 0.2399,
+   "B_found_k": 0.1375,
+   "B_found_100": 0.458,
+   "B_found_k_pooled": 0.1119
+  },
+  "A_wins_share_200": {
+   "top_share": 0.89,
+   "found_k": 0.22,
+   "found_100": 0.26,
+   "found_k_pooled": 0.89
+  },
+  "flip_top_vs_found10": 0.68,
+  "flip_top_vs_found100": 0.68,
+  "pooled_found10_same_as_top": 1.0
+ },
+ "by_group_base": [
+  {
+   "group": "1〜3件",
+   "queries_per_set": 13.58,
+   "A_top_share": 0.0156,
+   "B_top_share": 0.0304,
+   "A_found10": 0.0747,
+   "B_found10": 0.1561,
+   "max_top_share": 0.3,
+   "A_minus_B_top_pt": -1.48,
+   "A_minus_B_found10_pt": -8.13
+  },
+  {
+   "group": "4〜10件",
+   "queries_per_set": 11.87,
+   "A_top_share": 0.0743,
+   "B_top_share": 0.0957,
+   "A_found10": 0.1129,
+   "B_found10": 0.1516,
+   "max_top_share": 1.0,
+   "A_minus_B_top_pt": -2.14,
+   "A_minus_B_found10_pt": -3.87
+  },
+  {
+   "group": "11〜30件",
+   "queries_per_set": 11.69,
+   "A_top_share": 0.2735,
+   "B_top_share": 0.2551,
+   "A_found10": 0.1443,
+   "B_found10": 0.1389,
+   "max_top_share": 1.0,
+   "A_minus_B_top_pt": 1.84,
+   "A_minus_B_found10_pt": 0.54
+  },
+  {
+   "group": "31〜100件",
+   "queries_per_set": 12.86,
+   "A_top_share": 0.7134,
+   "B_top_share": 0.5797,
+   "A_found10": 0.1271,
+   "B_found10": 0.1038,
+   "max_top_share": 1.0,
+   "A_minus_B_top_pt": 13.38,
+   "A_minus_B_found10_pt": 2.34
+  }
+ ],
+ "one_set": {
+  "A": {
+   "top_share": 0.268,
+   "found_k": 0.1113,
+   "found_100": 0.3982,
+   "found_k_pooled": 0.1291
+  },
+  "B": {
+   "top_share": 0.224,
+   "found_k": 0.1188,
+   "found_100": 0.439,
+   "found_k_pooled": 0.1079
+  },
+  "queries_A_more_top10": 17,
+  "queries_B_more_top10": 12,
+  "queries_tie_top10": 21,
+  "queries_n_le_3": 13
+ },
+ "robust": {
+  "settings": 108,
+  "avg_sign_flip_settings": 18,
+  "avg_sign_flip_settings_slope0": 0,
+  "avg_sign_flip_by_slope": {
+   "0.0": 0,
+   "0.25": 4,
+   "0.5": 10,
+   "1.0": 4
+  },
+  "avg_sign_flip_A_top_B_found": 18,
+  "base_setting_in_grid_flip_k": 0.8,
+  "flip_k_range": [
+   0.0,
+   0.85
+  ],
+  "flip_k_mean_by_slope": {
+   "0.0": 0.0093,
+   "0.25": 0.0963,
+   "0.5": 0.3815,
+   "1.0": 0.2333
+  },
+  "flip_k_mean_by_k": {
+   "5": 0.1722,
+   "10": 0.1806,
+   "20": 0.1875
+  },
+  "flip_k_mean_by_nmax": {
+   "30": 0.1542,
+   "100": 0.1806,
+   "300": 0.2056
+  },
+  "flip_k_max_slope0": 0.1,
+  "flip_k_min_slope0": 0.0,
+  "pooled_same_as_top_min": 1.0,
+  "flip_k_by_slope_k": {
+   "slope0.0_top5": 0.0167,
+   "slope0.0_top10": 0.0111,
+   "slope0.0_top20": 0.0,
+   "slope0.25_top5": 0.0889,
+   "slope0.25_top10": 0.1111,
+   "slope0.25_top20": 0.0889,
+   "slope0.5_top5": 0.3389,
+   "slope0.5_top10": 0.3611,
+   "slope0.5_top20": 0.4444,
+   "slope1.0_top5": 0.2444,
+   "slope1.0_top10": 0.2389,
+   "slope1.0_top20": 0.2167
+  }
+ },
+ "setup": {
+  "docs": 2000,
+  "queries": 50,
+  "nmax": 100,
+  "a0": 1.0,
+  "slope": 0.5,
+  "dB": 1.6,
+  "k": 10,
+  "deep": 100,
+  "reps": 200,
+  "grid_reps": 20
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "headline": {
+  "mean_200": {
+   "O1": {
+    "true": 0.4091,
+    "unjudged_as_wrong": 0.4091,
+    "judged_only": 0.4091,
+    "unjudged_share": 0.0,
+    "rel_unjudged": 0.0,
+    "wrong_unjudged": 0.0,
+    "rel_judged": 0.4091,
+    "wrong_judged": 0.5909,
+    "para_share_of_rel_unjudged": 0.0
+   },
+   "O2": {
+    "true": 0.4122,
+    "unjudged_as_wrong": 0.4122,
+    "judged_only": 0.4122,
+    "unjudged_share": 0.0,
+    "rel_unjudged": 0.0,
+    "wrong_unjudged": 0.0,
+    "rel_judged": 0.4122,
+    "wrong_judged": 0.5878,
+    "para_share_of_rel_unjudged": 0.0
+   },
+   "N": {
+    "true": 0.5228,
+    "unjudged_as_wrong": 0.2609,
+    "judged_only": 0.5417,
+    "unjudged_share": 0.6857,
+    "rel_unjudged": 0.2619,
+    "wrong_unjudged": 0.4238,
+    "rel_judged": 0.2609,
+    "wrong_judged": 0.0534,
+    "para_share_of_rel_unjudged": 0.7506
+   }
+  },
+  "N_minus_O1_true_pt": 11.37,
+  "N_minus_O1_measured_pt": -14.83,
+  "N_minus_O1_judged_only_pt": 13.26,
+  "N_judged_only_minus_true_pt": 1.89,
+  "N_measured_over_true": 0.499,
+  "share_true_N_better": 1.0,
+  "share_measured_N_better": 0.0,
+  "share_order_reversed": 1.0,
+  "O_measured_equals_true": true,
+  "pool_with_new": {
+   "N_true": 0.5187,
+   "N_unjudged_as_wrong": 0.5187,
+   "N_equals_true_all": true
+  }
+ },
+ "one_set": {
+  "judged_docs_per_query": 35.1,
+  "N_true": 0.48,
+  "N_unjudged_as_wrong": 0.232,
+  "O1_true": 0.366
+ },
+ "robust": {
+  "settings": 108,
+  "N_true_better_settings": 84,
+  "avg_order_reversed_settings": 74,
+  "avg_order_reversed_by_depth": {
+   "10": 21,
+   "20": 21,
+   "50": 18,
+   "100": 14
+  },
+  "ratio_range": [
+   0.2104,
+   0.865
+  ],
+  "ratio_by_depth": {
+   "10": [
+    0.2104,
+    0.6288
+   ],
+   "20": [
+    0.2624,
+    0.7155
+   ],
+   "50": [
+    0.3577,
+    0.8139
+   ],
+   "100": [
+    0.4364,
+    0.865
+   ]
+  },
+  "ratio_by_rho": {
+   "0.0": [
+    0.2104,
+    0.7304
+   ],
+   "0.5": [
+    0.2949,
+    0.8223
+   ],
+   "0.75": [
+    0.3327,
+    0.865
+   ]
+  },
+  "ratio_by_para": {
+   "0.2": [
+    0.3378,
+    0.865
+   ],
+   "0.4": [
+    0.2783,
+    0.7492
+   ],
+   "0.6": [
+    0.2104,
+    0.6251
+   ]
+  },
+  "N_true_minus_O1_pt_range": [
+   -13.0,
+   35.68
+  ],
+  "avg_order_reversed_by_new": {
+   "2.0": [
+    12,
+    12
+   ],
+   "2.4": [
+    35,
+    36
+   ],
+   "2.8": [
+    27,
+    36
+   ]
+  },
+  "not_reversed_settings": {
+   "count": 10,
+   "depths": [
+    50,
+    100
+   ],
+   "by_new": {
+    "2.0": 0,
+    "2.4": 1,
+    "2.8": 9
+   }
+  },
+  "judged_only_wrong_order_settings": 18,
+  "judged_only_wrong_order_N_truly_worse": 18,
+  "judged_only_wrong_order_new_values": [
+   2.0
+  ],
+  "N_true_better_by_depth": {
+   "10": 21,
+   "20": 21,
+   "50": 21,
+   "100": 21
+  },
+  "N_true_better_by_new": {
+   "2.0": 12,
+   "2.4": 36,
+   "2.8": 36
+  },
+  "ratio_judged_only_range": [
+   0.6259,
+   1.7677
+  ],
+  "ratio_judged_only_over1_settings": 56,
+  "by_depth_base": [
+   {
+    "depth": 10,
+    "N_true": 0.5274,
+    "N_measured": 0.211,
+    "N_judged_only": 0.5214,
+    "N_rel_judged": 0.211,
+    "N_rel_unjudged": 0.3164,
+    "N_wrong_judged": 0.028,
+    "N_wrong_unjudged": 0.4446,
+    "ratio": 0.4001
+   },
+   {
+    "depth": 20,
+    "N_true": 0.5142,
+    "N_measured": 0.2594,
+    "N_judged_only": 0.5418,
+    "N_rel_judged": 0.2594,
+    "N_rel_unjudged": 0.2548,
+    "N_wrong_judged": 0.0582,
+    "N_wrong_unjudged": 0.4276,
+    "ratio": 0.5045
+   },
+   {
+    "depth": 50,
+    "N_true": 0.5096,
+    "N_measured": 0.3208,
+    "N_judged_only": 0.5336,
+    "N_rel_judged": 0.3208,
+    "N_rel_unjudged": 0.1888,
+    "N_wrong_judged": 0.1058,
+    "N_wrong_unjudged": 0.3846,
+    "ratio": 0.6295
+   },
+   {
+    "depth": 100,
+    "N_true": 0.513,
+    "N_measured": 0.3454,
+    "N_judged_only": 0.51,
+    "N_rel_judged": 0.3454,
+    "N_rel_unjudged": 0.1676,
+    "N_wrong_judged": 0.175,
+    "N_wrong_unjudged": 0.312,
+    "ratio": 0.6733
+   }
+  ]
+ },
+ "setup": {
+  "docs": 3000,
+  "queries": 50,
+  "top": 10,
+  "depth": 20,
+  "para": 0.4,
+  "rho": 0.5,
+  "old_same": 2.5,
+  "old_para": 0.5,
+  "new": 2.4,
+  "pool_new": false,
+  "reps": 200,
+  "grid_reps": 10
+ }
+}

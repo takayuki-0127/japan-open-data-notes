@@ -1,0 +1,166 @@
+{
+ "setting": {
+  "candidates": 215,
+  "rho": 0.7,
+  "A": [
+   3.2,
+   1.6
+  ],
+  "B": [
+   2.6,
+   2.4
+  ],
+  "mix_one": 0.4,
+  "n_pop": 20000,
+  "n_set": 200,
+  "reps": 1000
+ },
+ "population": {
+  "top1": {
+   "A": 80.41,
+   "B": 75.01,
+   "diff_pt": 5.4,
+   "sd_diff_pt": 39.72,
+   "std_effect": 0.1359,
+   "outcomes": {
+    "A_better": 10.73,
+    "tie": 83.93,
+    "B_better": 5.33
+   },
+   "diff_one_pt": 17.27,
+   "diff_broad_pt": -2.44
+  },
+  "w10": {
+   "A": 72.48,
+   "B": 65.49,
+   "diff_pt": 6.99,
+   "sd_diff_pt": 23.12,
+   "std_effect": 0.3022,
+   "outcomes": {
+    "A_better": 50.4,
+    "tie": 20.84,
+    "B_better": 28.76
+   },
+   "diff_one_pt": 14.24,
+   "diff_broad_pt": 2.2
+  }
+ },
+ "population_kind_share_one_pct": 39.77,
+ "query_sets": {
+  "200": {
+   "top1": {
+    "A_sig_pct": 48.5,
+    "none_pct": 51.5,
+    "B_sig_pct": 0.0,
+    "mean_diff_p5_p95_pt": [
+     0.98,
+     10.0
+    ],
+    "sign_A_pct": 96.5
+   },
+   "w10": {
+    "A_sig_pct": 99.5,
+    "none_pct": 0.5,
+    "B_sig_pct": 0.0,
+    "mean_diff_p5_p95_pt": [
+     4.4,
+     9.64
+    ],
+    "sign_A_pct": 100.0
+   }
+  }
+ },
+ "first_set_200": {
+  "top1": {
+   "A": 74.0,
+   "B": 71.5,
+   "diff_pt": 2.5,
+   "outcomes": {
+    "A_better": 8.5,
+    "tie": 85.5,
+    "B_better": 6.0
+   }
+  },
+  "w10": {
+   "A": 69.7,
+   "B": 63.04,
+   "diff_pt": 6.66,
+   "outcomes": {
+    "A_better": 48.5,
+    "tie": 18.5,
+    "B_better": 33.0
+   }
+  }
+ },
+ "by_mix_disagree_mix_pct": [
+  0,
+  10
+ ],
+ "grid": {
+  "n": 27,
+  "disagree_n": 5,
+  "disagree_rows": [
+   {
+    "A_up2": 2.9,
+    "B_up1": 2.0,
+    "mix_one_pct": 10,
+    "top1_diff_pt": -0.43,
+    "top1_se_pt": 0.26,
+    "w10_diff_pt": 1.36,
+    "w10_se_pt": 0.11
+   },
+   {
+    "A_up2": 2.9,
+    "B_up1": 2.8,
+    "mix_one_pct": 40,
+    "top1_diff_pt": -1.23,
+    "top1_se_pt": 0.28,
+    "w10_diff_pt": 1.52,
+    "w10_se_pt": 0.17
+   },
+   {
+    "A_up2": 3.2,
+    "B_up1": 2.4,
+    "mix_one_pct": 10,
+    "top1_diff_pt": -0.44,
+    "top1_se_pt": 0.23,
+    "w10_diff_pt": 3.29,
+    "w10_se_pt": 0.11
+   },
+   {
+    "A_up2": 3.2,
+    "B_up1": 2.8,
+    "mix_one_pct": 10,
+    "top1_diff_pt": -2.42,
+    "top1_se_pt": 0.23,
+    "w10_diff_pt": 2.65,
+    "w10_se_pt": 0.12
+   },
+   {
+    "A_up2": 3.5,
+    "B_up1": 2.8,
+    "mix_one_pct": 10,
+    "top1_diff_pt": -0.27,
+    "top1_se_pt": 0.22,
+    "w10_diff_pt": 5.81,
+    "w10_se_pt": 0.12
+   }
+  ],
+  "disagree_clear_n": 2,
+  "top1_tie_pct_range": [
+   75.33,
+   90.65
+  ],
+  "w10_tie_pct_range": [
+   5.03,
+   36.7
+  ],
+  "ratio_range_same_sign": [
+   0.3477,
+   7.1857
+  ],
+  "w10_larger_std_effect_n_same_sign": 20,
+  "same_sign_n": 22
+ },
+ "run_sec_note": "run_sec は results に入れない（流すたびに変わるため）"
+}
