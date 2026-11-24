@@ -1,0 +1,229 @@
+{
+ "no_wave_check": [
+  {
+   "tau": 40,
+   "rule": "drop",
+   "effect": 0.1,
+   "window": 28,
+   "n_changed": 1986,
+   "change_day_median": 50.0,
+   "decay_days_median": 40.2,
+   "wave_sd": 0.0,
+   "m1": -0.1979,
+   "m2": 0.0868,
+   "m3": 0.712,
+   "m4": 0.1026,
+   "control_same_days": -0.262,
+   "share_books_down_m1": 0.8419
+  },
+  {
+   "tau": 40,
+   "rule": "drop",
+   "effect": 0.0,
+   "window": 28,
+   "n_changed": 1982,
+   "change_day_median": 51.0,
+   "decay_days_median": 40.34,
+   "wave_sd": 0.0,
+   "m1": -0.2722,
+   "m2": -0.0155,
+   "m3": 0.5329,
+   "m4": -0.0016,
+   "control_same_days": -0.2608,
+   "share_books_down_m1": 0.9142
+  }
+ ],
+ "setup": {
+  "n_changed": 2000,
+  "n_unchanged": 4000,
+  "days": 195,
+  "floor": 0.25,
+  "wave_sd": 0.3,
+  "wave_rho": 0.93,
+  "change_day_range": [
+   45,
+   150
+  ],
+  "drop_rule": 0.7
+ },
+ "methods": {
+  "m1": "① 前後をそのまま比べる",
+  "m2": "② 変えていない本（同じ日数）と比べる",
+  "m3": "③ 前の減り方を延ばして見込む",
+  "m4": "④ 同じ決まりで日を選んだ変えていない本と比べる"
+ },
+ "base": [
+  {
+   "tau": 40,
+   "rule": "fixed",
+   "effect": 0.0,
+   "window": 28,
+   "n_changed": 2000,
+   "change_day_median": 99.0,
+   "decay_days_median": 40.01,
+   "wave_sd": 0.3,
+   "m1": -0.1624,
+   "m2": -0.0151,
+   "m3": 0.0497,
+   "m4": -0.0063,
+   "control_same_days": -0.1495,
+   "share_books_down_m1": 0.643
+  },
+  {
+   "tau": 40,
+   "rule": "fixed",
+   "effect": 0.1,
+   "window": 28,
+   "n_changed": 2000,
+   "change_day_median": 99.0,
+   "decay_days_median": 40.12,
+   "wave_sd": 0.3,
+   "m1": -0.0685,
+   "m2": 0.1166,
+   "m3": 0.1824,
+   "m4": 0.1024,
+   "control_same_days": -0.1658,
+   "share_books_down_m1": 0.5215
+  },
+  {
+   "tau": 40,
+   "rule": "drop",
+   "effect": 0.0,
+   "window": 28,
+   "n_changed": 2000,
+   "change_day_median": 49.0,
+   "decay_days_median": 40.1,
+   "wave_sd": 0.3,
+   "m1": -0.33,
+   "m2": -0.1039,
+   "m3": 0.5691,
+   "m4": 0.0081,
+   "control_same_days": -0.2523,
+   "share_books_down_m1": 0.8695
+  },
+  {
+   "tau": 40,
+   "rule": "drop",
+   "effect": 0.1,
+   "window": 28,
+   "n_changed": 1997,
+   "change_day_median": 49.0,
+   "decay_days_median": 40.24,
+   "wave_sd": 0.3,
+   "m1": -0.2632,
+   "m2": 0.0034,
+   "m3": 0.7228,
+   "m4": 0.1066,
+   "control_same_days": -0.2657,
+   "share_books_down_m1": 0.8012
+  }
+ ],
+ "grid_summary": {
+  "fixed_eff10": {
+   "m1": [
+    -0.1766,
+    0.0381
+   ],
+   "m2": [
+    0.0822,
+    0.1166
+   ],
+   "m3": [
+    0.0915,
+    0.2858
+   ],
+   "m4": [
+    0.0795,
+    0.1157
+   ],
+   "control_same_days": [
+    -0.2451,
+    -0.0418
+   ],
+   "n_m1_below_zero": 6,
+   "n": 9
+  },
+  "fixed_eff0": {
+   "m1": [
+    -0.2364,
+    -0.0327
+   ],
+   "m2": [
+    -0.0151,
+    0.0142
+   ],
+   "m3": [
+    -0.0389,
+    0.172
+   ],
+   "m4": [
+    -0.0136,
+    0.0174
+   ],
+   "control_same_days": [
+    -0.2362,
+    -0.018
+   ],
+   "n_m1_below_zero": 9,
+   "n": 9
+  },
+  "drop_eff10": {
+   "m1": [
+    -0.3625,
+    0.037
+   ],
+   "m2": [
+    -0.0292,
+    0.1784
+   ],
+   "m3": [
+    0.3007,
+    0.8593
+   ],
+   "m4": [
+    0.0769,
+    0.1201
+   ],
+   "control_same_days": [
+    -0.3957,
+    -0.0931
+   ],
+   "n_m1_below_zero": 7,
+   "n": 9
+  },
+  "drop_eff0": {
+   "m1": [
+    -0.4214,
+    -0.0358
+   ],
+   "m2": [
+    -0.1171,
+    0.0731
+   ],
+   "m3": [
+    0.1692,
+    0.7167
+   ],
+   "m4": [
+    -0.0103,
+    0.0294
+   ],
+   "control_same_days": [
+    -0.3898,
+    -0.0955
+   ],
+   "n_m1_below_zero": 9,
+   "n": 9
+  }
+ },
+ "within_3pt_of_true": {
+  "eff10_m1_within_3pt": 0,
+  "eff10_m2_within_3pt": 10,
+  "eff10_m3_within_3pt": 3,
+  "eff10_m4_within_3pt": 18,
+  "eff0_m1_within_3pt": 0,
+  "eff0_m2_within_3pt": 9,
+  "eff0_m3_within_3pt": 1,
+  "eff0_m4_within_3pt": 18
+ }
+}

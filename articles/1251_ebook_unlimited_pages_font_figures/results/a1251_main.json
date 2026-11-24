@@ -1,0 +1,166 @@
+{
+ "headline": {
+  "pairs": 28,
+  "flips_mean": {
+   "screen": 2.68,
+   "std_w0.25": 7.96,
+   "std_w1.0": 0.0,
+   "std_w2.0": 5.5
+  },
+  "flips_range": {
+   "screen": [
+    0,
+    10
+   ],
+   "std_w0.25": [
+    2,
+    17
+   ],
+   "std_w1.0": [
+    0,
+    0
+   ],
+   "std_w2.0": [
+    1,
+    14
+   ]
+  },
+  "top1_match_share": {
+   "screen": 0.69,
+   "std_w0.25": 0.385,
+   "std_w1.0": 1.0,
+   "std_w2.0": 0.535
+  },
+  "share_reps_any_flip": {
+   "screen": 0.915,
+   "std_w0.25": 1.0,
+   "std_w1.0": 0.0,
+   "std_w2.0": 1.0
+  },
+  "screen_per_10k_bookA_p10_p90": [
+   19.91,
+   25.69
+  ],
+  "screen_per_10k_bookA_min_max": [
+   18.14,
+   28.74
+  ],
+  "corr_big_font_share_vs_screen_per_amount_mean": 0.7584,
+  "std_w1_equals_true_scaled": true
+ },
+ "full_read": {
+  "font_ratio_5_to_1_range": [
+   1.6364,
+   3.6
+  ],
+  "bookA_screen_font1_font5": [
+   100.0,
+   360.0
+  ],
+  "bookH_screen_font1_font5": [
+   158.89,
+   260.0
+  ],
+  "bookA_std": [
+   180.0,
+   180.0,
+   180.0
+  ],
+  "bookH_std": [
+   100.0,
+   190.0,
+   310.0
+  ]
+ },
+ "robust": {
+  "settings": 27,
+  "flips_range": {
+   "screen": [
+    1.04,
+    10.42
+   ],
+   "std_w0.25": [
+    1.9,
+    20.64
+   ],
+   "std_w1.0": [
+    0.0,
+    9.34
+   ],
+   "std_w2.0": [
+    0.0,
+    17.1
+   ]
+  },
+  "screen_flips_by_conc": {
+   "5": [
+    2.64,
+    10.34
+   ],
+   "20": [
+    1.5,
+    10.42
+   ],
+   "100": [
+    1.04,
+    9.44
+   ]
+  },
+  "screen_flips_by_m": {
+   "0.5-0.6": [
+    3.1,
+    10.42
+   ],
+   "0.35-0.75": [
+    1.18,
+    7.68
+   ],
+   "0.2-0.9": [
+    1.04,
+    4.78
+   ]
+  },
+  "fewest_flips_rule_by_figw": {
+   "250": [
+    "std_w0.25"
+   ],
+   "500": [
+    "std_w1.0"
+   ],
+   "1000": [
+    "std_w2.0"
+   ]
+  },
+  "std_w1_zero_when_figw500": true
+ },
+ "setup": {
+  "cpp": [
+   900,
+   700,
+   500,
+   350,
+   250
+  ],
+  "mix": [
+   0.1,
+   0.2,
+   0.35,
+   0.2,
+   0.15
+  ],
+  "std_chars": 500,
+  "ws": [
+   0.25,
+   1.0,
+   2.0
+  ],
+  "readers_per_book": 300,
+  "conc": 20.0,
+  "figw_true": 500.0,
+  "m_lo": 0.35,
+  "m_hi": 0.75,
+  "k": 4.0,
+  "reps": 200,
+  "grid_reps": 50
+ }
+}

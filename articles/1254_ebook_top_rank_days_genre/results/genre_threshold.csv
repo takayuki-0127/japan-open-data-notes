@@ -1,0 +1,5 @@
+genre,books,needed_per_day_median,true_kth_lambda,books_all_days_in_top,books_zero_days
+A,200,2.0,1.807,1,116
+B,1000,4.33,3.904,6,922
+C,3000,7.33,7.276,4,2940
+D,1000,12.0,11.699,8,947

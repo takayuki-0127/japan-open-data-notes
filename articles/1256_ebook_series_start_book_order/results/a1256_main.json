@@ -1,0 +1,83 @@
+{
+ "base": {
+  "K": 5,
+  "p": 0.6,
+  "q": 0.3,
+  "s1": 0.6,
+  "shape": "even",
+  "n_readers": 20000,
+  "start_probs": [
+   0.6,
+   0.1,
+   0.1,
+   0.1,
+   0.1
+  ]
+ },
+ "base_measures": {
+  "A_count_ratio_1to2": 0.7088,
+  "B_read1_also2": 0.608,
+  "C_started1_to2": 0.5933,
+  "A_count_ratio_1toK": 0.4127,
+  "B_read1_readall": 0.1387,
+  "C_started1_toK": 0.1245,
+  "formula_p": 0.6,
+  "formula_pK": 0.1296,
+  "share_book1_readers_started1": 0.831,
+  "readers": [
+   14259,
+   10107,
+   7957,
+   6671,
+   5885
+  ]
+ },
+ "base_went_back_share_of_midway": 0.2957,
+ "grid_range": {
+  "A_count_ratio_1to2": [
+   0.4218,
+   1.1233
+  ],
+  "B_read1_also2": [
+   0.3942,
+   0.8328
+  ],
+  "C_started1_to2": [
+   0.3932,
+   0.8072
+  ],
+  "A_over_C_1to2": [
+   1.0186,
+   1.8065
+  ],
+  "A_over_C_1toK": [
+   1.371,
+   332.7333
+  ],
+  "B_over_C_1to2": [
+   0.9996,
+   1.2108
+  ],
+  "max_step_ratio": [
+   0.7694,
+   8.6579
+  ],
+  "share_book1_readers_started1": [
+   0.7076,
+   1.0
+  ]
+ },
+ "grid_n_A_above_C_1to2": 54,
+ "grid_n_A_above_C_1toK": 54,
+ "grid_n_step_ratio_above_1": 29,
+ "grid_n": 54,
+ "grid_A_over_C_1to2_max_by_K": {
+  "3": 1.8065,
+  "5": 1.42,
+  "8": 1.2452
+ },
+ "base_A_over_C_1to2": 1.1947,
+ "base_A_over_C_1toK": 3.3155,
+ "grid_max_abs_C_minus_p": 0.0088,
+ "grid_q0_B_minus_C_max_abs": 0.0
+}

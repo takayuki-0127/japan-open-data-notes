@@ -1,0 +1,398 @@
+{
+ "base": {
+  "genres": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "sizes": [
+   200,
+   1000,
+   3000,
+   1000
+  ],
+  "medians": [
+   0.5,
+   0.5,
+   0.5,
+   1.5
+  ],
+  "k": 20,
+  "sd_log": 1.0,
+  "days": 90,
+  "window": 3,
+  "topn": 50
+ },
+ "threshold": [
+  {
+   "genre": "A",
+   "books": 200,
+   "needed_per_day_median": 2.0,
+   "true_kth_lambda": 1.807,
+   "books_all_days_in_top": 1,
+   "books_zero_days": 116
+  },
+  {
+   "genre": "B",
+   "books": 1000,
+   "needed_per_day_median": 4.33,
+   "true_kth_lambda": 3.904,
+   "books_all_days_in_top": 6,
+   "books_zero_days": 922
+  },
+  {
+   "genre": "C",
+   "books": 3000,
+   "needed_per_day_median": 7.33,
+   "true_kth_lambda": 7.276,
+   "books_all_days_in_top": 4,
+   "books_zero_days": 2940
+  },
+  {
+   "genre": "D",
+   "books": 1000,
+   "needed_per_day_median": 12.0,
+   "true_kth_lambda": 11.699,
+   "books_all_days_in_top": 8,
+   "books_zero_days": 947
+  }
+ ],
+ "all_days_example": [
+  {
+   "genre": "A",
+   "books_90days": 1,
+   "true_per_day_min": 5.306,
+   "true_per_day_median": 5.306
+  },
+  {
+   "genre": "B",
+   "books_90days": 6,
+   "true_per_day_min": 7.844,
+   "true_per_day_median": 12.053
+  },
+  {
+   "genre": "C",
+   "books_90days": 4,
+   "true_per_day_min": 11.759,
+   "true_per_day_median": 20.785
+  },
+  {
+   "genre": "D",
+   "books_90days": 8,
+   "true_per_day_min": 18.855,
+   "true_per_day_median": 23.529
+  }
+ ],
+ "threshold_D_over_A": 6.0,
+ "band_2to4_example": {
+  "A": {
+   "count": 13,
+   "mean_days": 69.15
+  },
+  "B": {
+   "count": 52,
+   "mean_days": 10.33
+  },
+  "C": {
+   "count": 163,
+   "mean_days": 0.01
+  },
+  "D": {
+   "count": 210,
+   "mean_days": 0.0
+  }
+ },
+ "probe": [
+  {
+   "genre": "A",
+   "true_per_day": 1,
+   "days_mean": 5.07,
+   "days_p10": 1.0,
+   "days_p90": 9.0
+  },
+  {
+   "genre": "A",
+   "true_per_day": 2,
+   "days_mean": 42.07,
+   "days_p10": 32.0,
+   "days_p90": 51.0
+  },
+  {
+   "genre": "A",
+   "true_per_day": 3,
+   "days_mean": 74.81,
+   "days_p10": 67.0,
+   "days_p90": 81.0
+  },
+  {
+   "genre": "A",
+   "true_per_day": 5,
+   "days_mean": 89.39,
+   "days_p10": 88.0,
+   "days_p90": 90.0
+  },
+  {
+   "genre": "A",
+   "true_per_day": 8,
+   "days_mean": 90.0,
+   "days_p10": 90.0,
+   "days_p90": 90.0
+  },
+  {
+   "genre": "A",
+   "true_per_day": 12,
+   "days_mean": 90.0,
+   "days_p10": 90.0,
+   "days_p90": 90.0
+  },
+  {
+   "genre": "A",
+   "true_per_day": 20,
+   "days_mean": 90.0,
+   "days_p10": 90.0,
+   "days_p90": 90.0
+  },
+  {
+   "genre": "B",
+   "true_per_day": 1,
+   "days_mean": 0.0,
+   "days_p10": 0.0,
+   "days_p90": 0.0
+  },
+  {
+   "genre": "B",
+   "true_per_day": 2,
+   "days_mean": 0.9,
+   "days_p10": 0.0,
+   "days_p90": 2.0
+  },
+  {
+   "genre": "B",
+   "true_per_day": 3,
+   "days_mean": 11.74,
+   "days_p10": 6.0,
+   "days_p90": 18.0
+  },
+  {
+   "genre": "B",
+   "true_per_day": 5,
+   "days_mean": 65.02,
+   "days_p10": 57.0,
+   "days_p90": 73.0
+  },
+  {
+   "genre": "B",
+   "true_per_day": 8,
+   "days_mean": 89.5,
+   "days_p10": 88.0,
+   "days_p90": 90.0
+  },
+  {
+   "genre": "B",
+   "true_per_day": 12,
+   "days_mean": 90.0,
+   "days_p10": 90.0,
+   "days_p90": 90.0
+  },
+  {
+   "genre": "B",
+   "true_per_day": 20,
+   "days_mean": 90.0,
+   "days_p10": 90.0,
+   "days_p90": 90.0
+  },
+  {
+   "genre": "C",
+   "true_per_day": 1,
+   "days_mean": 0.0,
+   "days_p10": 0.0,
+   "days_p90": 0.0
+  },
+  {
+   "genre": "C",
+   "true_per_day": 2,
+   "days_mean": 0.0,
+   "days_p10": 0.0,
+   "days_p90": 0.0
+  },
+  {
+   "genre": "C",
+   "true_per_day": 3,
+   "days_mean": 0.01,
+   "days_p10": 0.0,
+   "days_p90": 0.0
+  },
+  {
+   "genre": "C",
+   "true_per_day": 5,
+   "days_mean": 4.08,
+   "days_p10": 1.0,
+   "days_p90": 7.0
+  },
+  {
+   "genre": "C",
+   "true_per_day": 8,
+   "days_mean": 58.3,
+   "days_p10": 49.0,
+   "days_p90": 67.0
+  },
+  {
+   "genre": "C",
+   "true_per_day": 12,
+   "days_mean": 89.32,
+   "days_p10": 88.0,
+   "days_p90": 90.0
+  },
+  {
+   "genre": "C",
+   "true_per_day": 20,
+   "days_mean": 90.0,
+   "days_p10": 90.0,
+   "days_p90": 90.0
+  },
+  {
+   "genre": "D",
+   "true_per_day": 1,
+   "days_mean": 0.0,
+   "days_p10": 0.0,
+   "days_p90": 0.0
+  },
+  {
+   "genre": "D",
+   "true_per_day": 2,
+   "days_mean": 0.0,
+   "days_p10": 0.0,
+   "days_p90": 0.0
+  },
+  {
+   "genre": "D",
+   "true_per_day": 3,
+   "days_mean": 0.0,
+   "days_p10": 0.0,
+   "days_p90": 0.0
+  },
+  {
+   "genre": "D",
+   "true_per_day": 5,
+   "days_mean": 0.0,
+   "days_p10": 0.0,
+   "days_p90": 0.0
+  },
+  {
+   "genre": "D",
+   "true_per_day": 8,
+   "days_mean": 1.22,
+   "days_p10": 0.0,
+   "days_p90": 3.0
+  },
+  {
+   "genre": "D",
+   "true_per_day": 12,
+   "days_mean": 42.59,
+   "days_p10": 34.0,
+   "days_p90": 51.0
+  },
+  {
+   "genre": "D",
+   "true_per_day": 20,
+   "days_mean": 89.95,
+   "days_p10": 90.0,
+   "days_p90": 90.0
+  }
+ ],
+ "compare": [
+  {
+   "measure": "本当の売れ方（作成者が置いた値）",
+   "rank_corr": 1.0,
+   "top50_hit": 1.0,
+   "share_A": 0.0064,
+   "share_B": 0.0468,
+   "share_C": 0.13,
+   "share_D": 0.8168
+  },
+  {
+   "measure": "分野の20位以内の日数",
+   "rank_corr": 0.3333,
+   "top50_hit": 0.4888,
+   "share_A": 0.2292,
+   "share_B": 0.2264,
+   "share_C": 0.2388,
+   "share_D": 0.3056
+  },
+  {
+   "measure": "分野の上位2%以内の日数",
+   "rank_corr": 0.428,
+   "top50_hit": 0.4384,
+   "share_A": 0.0288,
+   "share_B": 0.1732,
+   "share_C": 0.5428,
+   "share_D": 0.2552
+  },
+  {
+   "measure": "全体の80位以内の日数",
+   "rank_corr": 0.3523,
+   "top50_hit": 0.958,
+   "share_A": 0.0064,
+   "share_B": 0.0464,
+   "share_C": 0.1328,
+   "share_D": 0.8144
+  }
+ ],
+ "grid_range": {
+  "genre_hit": [
+   0.226,
+   0.75
+  ],
+  "all_hit": [
+   0.498,
+   0.976
+  ],
+  "pct_hit": [
+   0.204,
+   0.942
+  ],
+  "all_hit_minus_genre_hit": [
+   -0.056,
+   0.75
+  ],
+  "probe3_days_A": [
+   1.14,
+   90.0
+  ],
+  "probe3_days_C": [
+   0.0,
+   9.46
+  ],
+  "probe3_days_D": [
+   0.0,
+   59.67
+  ],
+  "true_share_A": [
+   0.0,
+   0.17
+  ],
+  "genre_share_A": [
+   0.142,
+   0.712
+  ],
+  "n_genre_share_A_above_true": 27,
+  "n_all_beats_genre": 25,
+  "not_beats": [
+   {
+    "books_A": 200,
+    "median_D": 4.5,
+    "k": 50,
+    "genre_hit": 0.566,
+    "all_hit": 0.51
+   },
+   {
+    "books_A": 1000,
+    "median_D": 4.5,
+    "k": 50,
+    "genre_hit": 0.538,
+    "all_hit": 0.498
+   }
+  ]
+ }
+}

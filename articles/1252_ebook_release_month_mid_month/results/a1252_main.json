@@ -1,0 +1,198 @@
+{
+ "headline": {
+  "concord_mean": {
+   "m1_month": 0.7566,
+   "m2_month_per_day": 0.8268,
+   "m3_first30": 0.9383,
+   "m4_next_month": 0.8659
+  },
+  "top10_mean": {
+   "m1_month": 0.6603,
+   "m2_month_per_day": 0.6727,
+   "m3_first30": 0.9097,
+   "m4_next_month": 0.7713
+  },
+  "pairs": 1128,
+  "by_bin_vs_1to10": {
+   "m1_month": {
+    "1〜10日": 1.0,
+    "11〜20日": 0.7695,
+    "21日〜末日": 0.3849
+   },
+   "m2_month_per_day": {
+    "1〜10日": 1.0,
+    "11〜20日": 1.2697,
+    "21日〜末日": 1.8679
+   },
+   "m3_first30": {
+    "1〜10日": 1.0,
+    "11〜20日": 0.9989,
+    "21日〜末日": 1.003
+   },
+   "m4_next_month": {
+    "1〜10日": 1.0,
+    "11〜20日": 1.0895,
+    "21日〜末日": 1.4456
+   }
+  }
+ },
+ "expected_30day_month_day1_vs_day25": {
+  "m1_month": [
+   59.634,
+   23.296,
+   0.3906
+  ],
+  "m2_month_per_day": [
+   1.988,
+   3.883,
+   1.9532
+  ],
+  "m3_first30": [
+   59.634,
+   59.634,
+   1.0
+  ],
+  "m4_next_month_30": [
+   30.408,
+   42.576,
+   1.4002
+  ]
+ },
+ "robust": {
+  "settings": 36,
+  "concord_range": {
+   "m1_month": [
+    0.6065,
+    0.8554
+   ],
+   "m2_month_per_day": [
+    0.6953,
+    0.9152
+   ],
+   "m3_first30": [
+    0.8591,
+    0.9729
+   ],
+   "m4_next_month": [
+    0.7298,
+    0.9432
+   ]
+  },
+  "top10_range": {
+   "m1_month": [
+    0.41,
+    0.78
+   ],
+   "m2_month_per_day": [
+    0.415,
+    0.895
+   ],
+   "m3_first30": [
+    0.7725,
+    0.9575
+   ],
+   "m4_next_month": [
+    0.47,
+    0.9325
+   ]
+  },
+  "m3_best_settings": 33,
+  "m1_lowest_settings": 32,
+  "m3_not_best": [
+   {
+    "peak": 0.0,
+    "tau": 3.0,
+    "sigma": 0.3
+   },
+   {
+    "peak": 0.0,
+    "tau": 3.0,
+    "sigma": 0.8
+   },
+   {
+    "peak": 0.0,
+    "tau": 7.0,
+    "sigma": 0.3
+   }
+  ],
+  "m3_not_best_winner": [
+   "m4_next_month"
+  ],
+  "m3_not_best_gap_max": 0.0031,
+  "m1_not_lowest": [
+   {
+    "peak": 8.0,
+    "tau": 3.0,
+    "sigma": 0.3
+   },
+   {
+    "peak": 8.0,
+    "tau": 3.0,
+    "sigma": 0.5
+   },
+   {
+    "peak": 8.0,
+    "tau": 3.0,
+    "sigma": 0.8
+   },
+   {
+    "peak": 8.0,
+    "tau": 7.0,
+    "sigma": 0.3
+   }
+  ],
+  "m1_not_lowest_lowest_is": [
+   "concord_m2_month_per_day"
+  ],
+  "mean_concord_when_no_peak": {
+   "m1_month": 0.6864,
+   "m2_month_per_day": 0.8538,
+   "m3_first30": 0.9064,
+   "m4_next_month": 0.9052
+  },
+  "mean_top10_when_no_peak": {
+   "m1_month": 0.5375,
+   "m2_month_per_day": 0.7936,
+   "m3_first30": 0.8642,
+   "m4_next_month": 0.8578
+  },
+  "m1_concord_by_sigma": {
+   "0.3": [
+    0.6065,
+    0.7334
+   ],
+   "0.5": [
+    0.6865,
+    0.8084
+   ],
+   "0.8": [
+    0.7441,
+    0.8554
+   ]
+  },
+  "m3_concord_by_sigma": {
+   "0.3": [
+    0.8591,
+    0.9342
+   ],
+   "0.5": [
+    0.9133,
+    0.9571
+   ],
+   "0.8": [
+    0.9415,
+    0.9729
+   ]
+  }
+ },
+ "setup": {
+  "books": 48,
+  "release_range": "1月1日〜10月31日",
+  "base_daily_median": 2.0,
+  "peak": 4.0,
+  "tau": 7.0,
+  "sigma": 0.5,
+  "reps": 300,
+  "grid_reps": 40
+ }
+}
