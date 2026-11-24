@@ -1,0 +1,204 @@
+{
+ "settings": {
+  "docs_per_query": 40,
+  "correct_per_query": 10,
+  "features": [
+   "題名に合う度合い",
+   "本文に合う度合い",
+   "新しさ",
+   "よく読まれる度合い"
+  ],
+  "weights_name": [
+   2.0,
+   0.5,
+   0.0,
+   0.5
+  ],
+  "weights_content": [
+   0.5,
+   2.0,
+   0.5,
+   0.0
+  ],
+  "new_name_share": 0.3,
+  "configs": 400,
+  "list_pool_per_type": 2000,
+  "new_queries_per_type": 2000,
+  "tries": [
+   1,
+   5,
+   20,
+   50,
+   100,
+   200,
+   400
+  ],
+  "n": 50,
+  "noise": 1.0,
+  "skew": 0.3,
+  "reps_main": 300,
+  "reps_grid": 100,
+  "seed": 1229
+ },
+ "headline": {
+  "best_config_new_pct": 67.23,
+  "median_config_new_pct": 51.12,
+  "best_config_weights": [
+   0.228,
+   0.558,
+   0.139,
+   0.076
+  ],
+  "K1_list_pct": 50.07,
+  "K1_new_pct": 50.46,
+  "K1_check_list_pct": 49.96,
+  "K1_list_minus_new_pt": -0.39,
+  "K1_check_minus_new_pt": -0.5,
+  "K1_new_below_best_pt": 16.77,
+  "K1_reps_list_above_new_pct": 44.67,
+  "K5_list_pct": 61.59,
+  "K5_new_pct": 61.44,
+  "K5_check_list_pct": 61.13,
+  "K5_list_minus_new_pt": 0.15,
+  "K5_check_minus_new_pt": -0.31,
+  "K5_new_below_best_pt": 5.79,
+  "K5_reps_list_above_new_pct": 51.33,
+  "K20_list_pct": 65.79,
+  "K20_new_pct": 65.08,
+  "K20_check_list_pct": 64.95,
+  "K20_list_minus_new_pt": 0.71,
+  "K20_check_minus_new_pt": -0.13,
+  "K20_new_below_best_pt": 2.14,
+  "K20_reps_list_above_new_pct": 63.67,
+  "K50_list_pct": 66.91,
+  "K50_new_pct": 65.95,
+  "K50_check_list_pct": 65.79,
+  "K50_list_minus_new_pt": 0.96,
+  "K50_check_minus_new_pt": -0.16,
+  "K50_new_below_best_pt": 1.28,
+  "K50_reps_list_above_new_pct": 70.33,
+  "K100_list_pct": 67.42,
+  "K100_new_pct": 66.29,
+  "K100_check_list_pct": 66.09,
+  "K100_list_minus_new_pt": 1.13,
+  "K100_check_minus_new_pt": -0.21,
+  "K100_new_below_best_pt": 0.93,
+  "K100_reps_list_above_new_pct": 73.67,
+  "K200_list_pct": 67.78,
+  "K200_new_pct": 66.45,
+  "K200_check_list_pct": 66.28,
+  "K200_list_minus_new_pt": 1.32,
+  "K200_check_minus_new_pt": -0.17,
+  "K200_new_below_best_pt": 0.77,
+  "K200_reps_list_above_new_pct": 75.33,
+  "K400_list_pct": 68.09,
+  "K400_new_pct": 66.59,
+  "K400_check_list_pct": 66.39,
+  "K400_list_minus_new_pt": 1.5,
+  "K400_check_minus_new_pt": -0.19,
+  "K400_new_below_best_pt": 0.64,
+  "K400_reps_list_above_new_pct": 78.67,
+  "K400_gap_p10_pt": -0.63,
+  "K400_gap_p90_pt": 3.97
+ },
+ "robust": {
+  "settings": 18,
+  "gap_K1_range": [
+   -0.9,
+   1.19
+  ],
+  "check_gap_K1_range": [
+   -0.86,
+   1.28
+  ],
+  "gap_K20_range": [
+   -0.08,
+   12.04
+  ],
+  "check_gap_K20_range": [
+   -0.41,
+   11.75
+  ],
+  "gap_K400_range": [
+   0.28,
+   14.73
+  ],
+  "check_gap_K400_range": [
+   -0.4,
+   13.51
+  ],
+  "gap_K400_n20": [
+   2.9,
+   14.73
+  ],
+  "gap_K400_n50": [
+   1.18,
+   13.63
+  ],
+  "gap_K400_n200": [
+   0.28,
+   13.82
+  ],
+  "gap_K400_n20_skew0.3": [
+   2.9,
+   3.09
+  ],
+  "gap_K400_n20_skew0.7": [
+   7.27,
+   14.73
+  ],
+  "gap_K400_n50_skew0.3": [
+   1.18,
+   1.61
+  ],
+  "gap_K400_n50_skew0.7": [
+   5.91,
+   13.63
+  ],
+  "gap_K400_n200_skew0.3": [
+   0.28,
+   0.49
+  ],
+  "gap_K400_n200_skew0.7": [
+   5.5,
+   13.82
+  ],
+  "gap_K400_skew0.3": [
+   0.28,
+   3.09
+  ],
+  "check_gap_K400_skew0.3": [
+   -0.4,
+   0.58
+  ],
+  "new_below_best_K400_skew0.3": [
+   0.09,
+   1.83
+  ],
+  "new_change_K20_to_K400_skew0.3": [
+   0.8,
+   3.27
+  ],
+  "gap_K400_skew0.7": [
+   5.5,
+   14.73
+  ],
+  "check_gap_K400_skew0.7": [
+   4.22,
+   13.51
+  ],
+  "new_below_best_K400_skew0.7": [
+   4.9,
+   13.17
+  ],
+  "new_change_K20_to_K400_skew0.7": [
+   -0.86,
+   0.9
+  ],
+  "new_K400_skew_minus_rep_range_pt": [
+   -13.07,
+   -4.21
+  ],
+  "settings_new_dropped_K20_to_K400": 1
+ }
+}

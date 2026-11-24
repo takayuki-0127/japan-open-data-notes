@@ -1,0 +1,235 @@
+{
+ "settings": {
+  "queries": 200,
+  "docs_per_query": 1000,
+  "correct_per_query": 10,
+  "median_words": 400,
+  "topic_median_words": 150,
+  "topic_spread": 0.5,
+  "topic_rate": 0.02,
+  "cap_k": 1.2,
+  "cap_k_plus_1": 2.2,
+  "length_b": 0.75,
+  "sig": 0.8,
+  "r_bg": 0.001,
+  "topic": "part",
+  "corr": "none",
+  "reps_main": 20,
+  "seed": 1228
+ },
+ "headline": {
+  "count_p10_pct": 31.6,
+  "count_long_share_pct": 75.01,
+  "count_short_share_pct": 2.71,
+  "count_long_times": 3.75,
+  "count_median_words": 1684.8,
+  "count_band0_notcorrect_pct": 0.001,
+  "count_band0_correct_pct": 13.52,
+  "count_band2_notcorrect_pct": 0.023,
+  "count_band2_correct_pct": 32.89,
+  "count_band4_notcorrect_pct": 3.315,
+  "count_band4_correct_pct": 46.82,
+  "rate_p10_pct": 38.7,
+  "rate_long_share_pct": 0.75,
+  "rate_short_share_pct": 65.68,
+  "rate_long_times": 0.04,
+  "rate_median_words": 154.9,
+  "rate_band0_notcorrect_pct": 2.59,
+  "rate_band0_correct_pct": 71.14,
+  "rate_band2_notcorrect_pct": 0.073,
+  "rate_band2_correct_pct": 40.32,
+  "rate_band4_notcorrect_pct": 0.0,
+  "rate_band4_correct_pct": 3.67,
+  "capped_p10_pct": 50.02,
+  "capped_long_share_pct": 5.16,
+  "capped_short_share_pct": 30.29,
+  "capped_long_times": 0.26,
+  "capped_median_words": 271.4,
+  "capped_band0_notcorrect_pct": 0.885,
+  "capped_band0_correct_pct": 63.7,
+  "capped_band2_notcorrect_pct": 0.523,
+  "capped_band2_correct_pct": 57.51,
+  "capped_band4_notcorrect_pct": 0.054,
+  "capped_band4_correct_pct": 20.24,
+  "notcorrect_docs_per_query": 990
+ },
+ "robust": {
+  "settings": 36,
+  "true_long_share_correct_all": [
+   18.55,
+   40.15
+  ],
+  "count_long_share_range": [
+   25.0,
+   99.9
+  ],
+  "count_short_share_range": [
+   0.0,
+   15.9
+  ],
+  "count_p10_range": [
+   2.05,
+   93.25
+  ],
+  "count_best_count": 1,
+  "rate_long_share_range": [
+   0.0,
+   34.6
+  ],
+  "rate_short_share_range": [
+   16.9,
+   84.6
+  ],
+  "rate_p10_range": [
+   13.0,
+   95.5
+  ],
+  "rate_best_count": 0,
+  "capped_long_share_range": [
+   4.15,
+   40.25
+  ],
+  "capped_short_share_range": [
+   4.4,
+   34.45
+  ],
+  "capped_p10_range": [
+   27.9,
+   96.3
+  ],
+  "capped_best_count": 35,
+  "count_long_minus_correct_long_range_pt": [
+   3.55,
+   79.35
+  ],
+  "count_long_above_correct_long_settings": 36,
+  "rate_long_minus_correct_long_range_pt": [
+   -39.85,
+   -0.25
+  ],
+  "rate_long_above_correct_long_settings": 0,
+  "capped_long_minus_correct_long_range_pt": [
+   -33.65,
+   0.4
+  ],
+  "capped_long_above_correct_long_settings": 8,
+  "count_long_share_over20_settings": 36,
+  "rate_short_share_over20_settings": 33,
+  "true_long_share_correct_none": [
+   18.55,
+   21.75
+  ],
+  "count_best_count_none": 0,
+  "count_long_share_range_none": [
+   25.0,
+   99.85
+  ],
+  "rate_best_count_none": 0,
+  "rate_long_share_range_none": [
+   0.0,
+   20.65
+  ],
+  "capped_best_count_none": 18,
+  "capped_long_share_range_none": [
+   4.15,
+   21.75
+  ],
+  "true_long_share_correct_longer": [
+   24.6,
+   40.15
+  ],
+  "count_best_count_longer": 1,
+  "count_long_share_range_longer": [
+   28.5,
+   99.9
+  ],
+  "rate_best_count_longer": 0,
+  "rate_long_share_range_longer": [
+   0.0,
+   34.6
+  ],
+  "capped_best_count_longer": 17,
+  "capped_long_share_range_longer": [
+   5.9,
+   40.25
+  ],
+  "count_best_count_part": 1,
+  "count_long_share_range_part": [
+   32.55,
+   99.9
+  ],
+  "count_short_share_range_part": [
+   0.0,
+   13.75
+  ],
+  "count_p10_range_part": [
+   2.05,
+   60.95
+  ],
+  "rate_best_count_part": 0,
+  "rate_long_share_range_part": [
+   0.0,
+   9.7
+  ],
+  "rate_short_share_range_part": [
+   34.25,
+   84.6
+  ],
+  "rate_p10_range_part": [
+   13.0,
+   60.75
+  ],
+  "capped_best_count_part": 17,
+  "capped_long_share_range_part": [
+   4.15,
+   13.5
+  ],
+  "capped_short_share_range_part": [
+   12.75,
+   34.45
+  ],
+  "capped_p10_range_part": [
+   27.9,
+   64.2
+  ],
+  "count_best_count_whole": 0,
+  "count_long_share_range_whole": [
+   25.0,
+   91.65
+  ],
+  "count_short_share_range_whole": [
+   0.0,
+   15.9
+  ],
+  "count_p10_range_whole": [
+   29.4,
+   93.25
+  ],
+  "rate_best_count_whole": 0,
+  "rate_long_share_range_whole": [
+   12.65,
+   34.6
+  ],
+  "rate_short_share_range_whole": [
+   16.9,
+   52.85
+  ],
+  "rate_p10_range_whole": [
+   54.6,
+   95.5
+  ],
+  "capped_best_count_whole": 18,
+  "capped_long_share_range_whole": [
+   20.25,
+   40.25
+  ],
+  "capped_short_share_range_whole": [
+   4.4,
+   20.65
+  ],
+  "capped_p10_range_whole": [
+   78.4,
+   96.3
+  ]
+ }
+}

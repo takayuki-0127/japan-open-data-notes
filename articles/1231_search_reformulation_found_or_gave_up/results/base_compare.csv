@@ -1,0 +1,12 @@
+metric,A_old,B_new,B_minus_A
+reform_share,39.33,27.89,-11.4358
+mean_queries,1.5674,1.387,-0.1804
+found,72.42,67.36,-5.0606
+gave_up,27.58,32.64,5.0606
+found_at1,47.57,53.53,5.9639
+gaveup_at1,13.1,18.58,5.4719
+zero_click,24.15,27.47,3.3211
+long_click,61.24,57.26,-3.9748
+found_common,79.81,84.67,4.8532
+found_rare,55.21,27.03,-28.1835
+zero_click_found,12.11,12.18,0.0727

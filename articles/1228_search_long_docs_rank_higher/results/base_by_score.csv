@@ -1,0 +1,4 @@
+score,top10_correct_pct,top10_long20_share_pct,top10_short20_share_pct,long_share_vs_20pct_times,top10_median_words
+①出た回数そのまま,31.6,75.01,2.71,3.75,1684.8
+②回数÷語数,38.7,0.75,65.68,0.04,154.9
+③頭打ち＋長さの割り引き,50.02,5.16,30.29,0.26,271.4
