@@ -1,0 +1,6 @@
+session,seats,first_n,first_ratio,second_n,ratio_with_second,naive_second_pct,left_after_first,left_after_first_sim,second_losers_expected,rule1_first_pct,rule1_second_given_lose_pct,formula_second_pct,rule2_first_pct,rule2_second_given_lose_pct
+A,100,350,3.5,270,6.2,37.04,0,0.0,92.6,28.57,0.0,0.0,28.57,0.0
+B,100,250,2.5,247,4.97,40.49,0,0.0,124.6,40.0,0.0,0.0,35.95,7.16
+C,120,200,1.667,218,3.483,55.05,0,0.0,113.1,60.0,0.0,0.0,46.97,20.9
+D,150,120,0.8,145,1.767,100.0,30,30.0,83.5,100.0,35.9,35.92,77.06,64.22
+E,130,80,0.615,120,1.538,100.0,50,50.0,66.3,100.0,75.27,75.46,88.28,80.77

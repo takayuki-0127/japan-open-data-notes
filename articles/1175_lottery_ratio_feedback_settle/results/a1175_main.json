@@ -1,0 +1,206 @@
+{
+ "setting": {
+  "seats": 100,
+  "pool": 2000,
+  "watch_share": 0.6,
+  "no_watch_apply": 0.1,
+  "widths": {
+   "広い": [
+    0.0,
+    0.5
+   ],
+   "中": [
+    0.1,
+    0.3
+   ],
+   "狭い": [
+    0.18,
+    0.22
+   ]
+  },
+  "rounds": 80,
+  "kept_rounds": "41-80",
+  "start_ratio": 2.0,
+  "runs": 200
+ },
+ "base": [
+  {
+   "cue": "前回",
+   "width": "広い",
+   "fixed_ratio": 5.315,
+   "slope_at_fixed": -0.849,
+   "mean_ratio": 5.329,
+   "median_ratio": 5.32,
+   "sd_ratio": 0.225,
+   "mean_abs_change": 0.386,
+   "ratio_p10": 5.0,
+   "ratio_p90": 5.65,
+   "under1_pct": 0.0,
+   "empty_seats_mean": 0.0,
+   "applicants_win_pct": 18.76,
+   "win_pct_fixed": 18.81,
+   "seats_used_pct": 100.0
+  },
+  {
+   "cue": "前回",
+   "width": "中",
+   "fixed_ratio": 5.571,
+   "slope_at_fixed": -1.933,
+   "mean_ratio": 6.801,
+   "median_ratio": 6.81,
+   "sd_ratio": 6.0,
+   "mean_abs_change": 11.998,
+   "ratio_p10": 0.73,
+   "ratio_p90": 12.87,
+   "under1_pct": 49.36,
+   "empty_seats_mean": 9.92,
+   "applicants_win_pct": 13.24,
+   "win_pct_fixed": 17.95,
+   "seats_used_pct": 90.08
+  },
+  {
+   "cue": "前回",
+   "width": "狭い",
+   "fixed_ratio": 5.142,
+   "slope_at_fixed": -11.346,
+   "mean_ratio": 6.8,
+   "median_ratio": 6.82,
+   "sd_ratio": 5.999,
+   "mean_abs_change": 11.998,
+   "ratio_p10": 0.73,
+   "ratio_p90": 12.87,
+   "under1_pct": 49.45,
+   "empty_seats_mean": 9.96,
+   "applicants_win_pct": 13.24,
+   "win_pct_fixed": 19.45,
+   "seats_used_pct": 90.04
+  },
+  {
+   "cue": "前3回の平均",
+   "width": "広い",
+   "fixed_ratio": 5.315,
+   "slope_at_fixed": -0.849,
+   "mean_ratio": 5.31,
+   "median_ratio": 5.31,
+   "sd_ratio": 0.093,
+   "mean_abs_change": 0.114,
+   "ratio_p10": 5.14,
+   "ratio_p90": 5.48,
+   "under1_pct": 0.0,
+   "empty_seats_mean": 0.0,
+   "applicants_win_pct": 18.83,
+   "win_pct_fixed": 18.81,
+   "seats_used_pct": 100.0
+  },
+  {
+   "cue": "前3回の平均",
+   "width": "中",
+   "fixed_ratio": 5.571,
+   "slope_at_fixed": -1.933,
+   "mean_ratio": 5.569,
+   "median_ratio": 5.57,
+   "sd_ratio": 0.134,
+   "mean_abs_change": 0.175,
+   "ratio_p10": 5.38,
+   "ratio_p90": 5.76,
+   "under1_pct": 0.0,
+   "empty_seats_mean": 0.0,
+   "applicants_win_pct": 17.96,
+   "win_pct_fixed": 17.95,
+   "seats_used_pct": 100.0
+  },
+  {
+   "cue": "前3回の平均",
+   "width": "狭い",
+   "fixed_ratio": 5.142,
+   "slope_at_fixed": -11.346,
+   "mean_ratio": 5.922,
+   "median_ratio": 4.125,
+   "sd_ratio": 5.281,
+   "mean_abs_change": 10.199,
+   "ratio_p10": 0.73,
+   "ratio_p90": 12.82,
+   "under1_pct": 49.41,
+   "empty_seats_mean": 10.04,
+   "applicants_win_pct": 15.19,
+   "win_pct_fixed": 19.45,
+   "seats_used_pct": 89.96
+  }
+ ],
+ "headline": {
+  "前回_広い": {
+   "fixed_ratio": 5.315,
+   "mean_ratio": 5.329,
+   "sd_ratio": 0.225,
+   "ratio_p10": 5.0,
+   "ratio_p90": 5.65,
+   "under1_pct": 0.0,
+   "empty_seats_mean": 0.0
+  },
+  "前回_中": {
+   "fixed_ratio": 5.571,
+   "mean_ratio": 6.801,
+   "sd_ratio": 6.0,
+   "ratio_p10": 0.73,
+   "ratio_p90": 12.87,
+   "under1_pct": 49.36,
+   "empty_seats_mean": 9.92
+  },
+  "前回_狭い": {
+   "fixed_ratio": 5.142,
+   "mean_ratio": 6.8,
+   "sd_ratio": 5.999,
+   "ratio_p10": 0.73,
+   "ratio_p90": 12.87,
+   "under1_pct": 49.45,
+   "empty_seats_mean": 9.96
+  },
+  "前3回の平均_広い": {
+   "fixed_ratio": 5.315,
+   "mean_ratio": 5.31,
+   "sd_ratio": 0.093,
+   "ratio_p10": 5.14,
+   "ratio_p90": 5.48,
+   "under1_pct": 0.0,
+   "empty_seats_mean": 0.0
+  },
+  "前3回の平均_中": {
+   "fixed_ratio": 5.571,
+   "mean_ratio": 5.569,
+   "sd_ratio": 0.134,
+   "ratio_p10": 5.38,
+   "ratio_p90": 5.76,
+   "under1_pct": 0.0,
+   "empty_seats_mean": 0.0
+  },
+  "前3回の平均_狭い": {
+   "fixed_ratio": 5.142,
+   "mean_ratio": 5.922,
+   "sd_ratio": 5.281,
+   "ratio_p10": 0.73,
+   "ratio_p90": 12.82,
+   "under1_pct": 49.41,
+   "empty_seats_mean": 10.04
+  },
+  "all_watchers_apply_ratio": 12.8,
+  "no_watchers_apply_ratio": 0.8
+ },
+ "grid": {
+  "settings": 18,
+  "mean_minus_fixed_min": -0.531,
+  "mean_minus_fixed_max": 3.969,
+  "fixed_ratio_min": 4.234,
+  "fixed_ratio_max": 6.101,
+  "sd_prev_min": 0.153,
+  "sd_prev_max": 9.001,
+  "sd_avg3_min": 0.047,
+  "sd_avg3_max": 7.795,
+  "swing_settings_prev": 7,
+  "swing_settings_avg3": 4,
+  "under1_max_pct": 75.0,
+  "settled_rows": 7,
+  "settled_max_abs_mean_minus_fixed": 0.02,
+  "prev_settled_slope_abs_max": 0.849,
+  "prev_swing_slope_abs_min": 0.967
+ }
+}

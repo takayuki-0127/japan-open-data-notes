@@ -1,0 +1,102 @@
+{
+ "setting": {
+  "items": 300,
+  "members": 20000,
+  "mark_share_members": 0.02,
+  "marked_apply_p": 0.5,
+  "unmarked_apply_p": 0.1436,
+  "reps": 2000
+ },
+ "base_meta": {
+  "marked_members": 400,
+  "unmarked_members": 19600,
+  "marked_apply_p": 0.5,
+  "unmarked_apply_p": 0.1436,
+  "marked_applicants_mean": 200.17,
+  "unmarked_applicants_mean": 2813.67,
+  "applicants_mean": 3013.84,
+  "marked_share_members_pct": 2.0,
+  "marked_share_applicants_pct": 6.642,
+  "ratio_overall": 10.046
+ },
+ "base": {
+  "none": {
+   "name": "①印なし",
+   "p_marked_pct": 9.953,
+   "p_unmarked_pct": 9.954,
+   "p_unmarked_p05_pct": 9.581,
+   "p_unmarked_p95_pct": 10.333,
+   "p_all_pct": 9.954,
+   "ratio_unmarked": 10.046
+  },
+  "first": {
+   "name": "②印のある人を先に",
+   "p_marked_pct": 100.0,
+   "p_unmarked_pct": 3.548,
+   "p_unmarked_p05_pct": 2.955,
+   "p_unmarked_p95_pct": 4.124,
+   "p_all_pct": 9.954,
+   "ratio_unmarked": 28.184
+  },
+  "w2": {
+   "name": "③印は口が2つ",
+   "p_marked_pct": 17.919,
+   "p_unmarked_pct": 9.387,
+   "p_unmarked_p05_pct": 8.999,
+   "p_unmarked_p95_pct": 9.791,
+   "p_all_pct": 9.954,
+   "ratio_unmarked": 10.653
+  },
+  "w3": {
+   "name": "④印は口が3つ",
+   "p_marked_pct": 24.58,
+   "p_unmarked_pct": 8.914,
+   "p_unmarked_p05_pct": 8.499,
+   "p_unmarked_p95_pct": 9.336,
+   "p_all_pct": 9.954,
+   "ratio_unmarked": 11.219
+  },
+  "cap": {
+   "name": "⑤印の枠は半分まで",
+   "p_marked_pct": 76.241,
+   "p_unmarked_pct": 5.238,
+   "p_unmarked_p05_pct": 5.058,
+   "p_unmarked_p95_pct": 5.425,
+   "p_all_pct": 9.954,
+   "ratio_unmarked": 19.09
+  }
+ },
+ "formula_first_unmarked_pct": 3.548,
+ "formula_none_pct": 9.954,
+ "curve_note": "申し込む人3,000人・300個に固定",
+ "grid_summary": {
+  "first": {
+   "unmarked_vs_none_min": 0.0,
+   "unmarked_vs_none_max": 0.8806,
+   "p_unmarked_min_pct": 0.0,
+   "p_unmarked_max_pct": 9.166
+  },
+  "w2": {
+   "unmarked_vs_none_min": 0.812,
+   "unmarked_vs_none_max": 0.9883,
+   "p_unmarked_min_pct": 6.727,
+   "p_unmarked_max_pct": 10.287
+  },
+  "w3": {
+   "unmarked_vs_none_min": 0.6864,
+   "unmarked_vs_none_max": 0.977,
+   "p_unmarked_min_pct": 5.686,
+   "p_unmarked_max_pct": 10.17
+  },
+  "cap": {
+   "unmarked_vs_none_min": 0.5198,
+   "unmarked_vs_none_max": 0.8806,
+   "p_unmarked_min_pct": 4.306,
+   "p_unmarked_max_pct": 9.166
+  },
+  "marked_share_applicants_min_pct": 1.374,
+  "marked_share_applicants_max_pct": 24.8,
+  "n_cases": 9,
+  "first_zero_cases": 3
+ }
+}

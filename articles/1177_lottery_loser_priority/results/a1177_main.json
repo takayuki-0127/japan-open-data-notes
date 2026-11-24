@@ -1,0 +1,310 @@
+{
+ "setting": {
+  "seats": 20,
+  "year_rounds": 24,
+  "people": 200,
+  "ratio": 10.0,
+  "runs": 40,
+  "rounds": 300,
+  "burn": 60
+ },
+ "base": [
+  {
+   "rule": "uniform",
+   "name": "①毎回まったくのくじ",
+   "gap_mean": 9.996,
+   "gap_sd": 9.498,
+   "gap_median": 7.0,
+   "gap_p90": 22.0,
+   "gap_p99": 44.0,
+   "gap_max": 137,
+   "gap_over24_pct": 7.977,
+   "year_zero_win_pct": 8.081,
+   "year_wins_mean": 2.4,
+   "year_wins_sd": 1.473,
+   "n_gaps": 192000
+  },
+  {
+   "rule": "priority3",
+   "name": "②3回続けて落選した人を先に",
+   "gap_mean": 9.996,
+   "gap_sd": 6.49,
+   "gap_median": 8.0,
+   "gap_p90": 18.0,
+   "gap_p99": 33.0,
+   "gap_max": 100,
+   "gap_over24_pct": 3.923,
+   "year_zero_win_pct": 2.851,
+   "year_wins_mean": 2.4,
+   "year_wins_sd": 1.041,
+   "n_gaps": 192000
+  },
+  {
+   "rule": "priority5",
+   "name": "②5回続けて落選した人を先に",
+   "gap_mean": 10.001,
+   "gap_sd": 4.475,
+   "gap_median": 9.0,
+   "gap_p90": 16.0,
+   "gap_p99": 26.0,
+   "gap_max": 59,
+   "gap_over24_pct": 1.423,
+   "year_zero_win_pct": 0.729,
+   "year_wins_mean": 2.4,
+   "year_wins_sd": 0.777,
+   "n_gaps": 192000
+  },
+  {
+   "rule": "priority9",
+   "name": "②9回続けて落選した人を先に",
+   "gap_mean": 10.0,
+   "gap_sd": 0.0,
+   "gap_median": 10.0,
+   "gap_p90": 10.0,
+   "gap_p99": 10.0,
+   "gap_max": 10,
+   "gap_over24_pct": 0.0,
+   "year_zero_win_pct": 0.0,
+   "year_wins_mean": 2.4,
+   "year_wins_sd": 0.49,
+   "n_gaps": 192000
+  },
+  {
+   "rule": "weight",
+   "name": "③落選の回数だけ口を足す",
+   "gap_mean": 10.001,
+   "gap_sd": 5.226,
+   "gap_median": 9.0,
+   "gap_p90": 17.0,
+   "gap_p99": 24.0,
+   "gap_max": 43,
+   "gap_over24_pct": 0.935,
+   "year_zero_win_pct": 0.271,
+   "year_wins_mean": 2.4,
+   "year_wins_sd": 0.909,
+   "n_gaps": 192000
+  }
+ ],
+ "formula_uniform": {
+  "gap_mean": 10.0,
+  "gap_sd": 9.487,
+  "gap_over24_pct": 7.977,
+  "year_zero_win_pct": 7.977
+ },
+ "mixed": {
+  "frequent_people": 100,
+  "occasional_people": 334,
+  "occasional_apply_p": 0.3,
+  "mean_applicants": 200.2,
+  "rows": [
+   {
+    "rule": "①毎回まったくのくじ",
+    "group": "毎回申し込む人",
+    "win_per_application_pct": 10.023,
+    "applications_per_year": 24.0,
+    "gap_mean_applications": 9.983,
+    "gap_sd_applications": 9.472,
+    "year_zero_win_pct": 8.007
+   },
+   {
+    "rule": "①毎回まったくのくじ",
+    "group": "3割の回だけ申し込む人",
+    "win_per_application_pct": 9.957,
+    "applications_per_year": 7.2,
+    "gap_mean_applications": 9.819,
+    "gap_sd_applications": 8.933,
+    "year_zero_win_pct": 48.429
+   },
+   {
+    "rule": "②5回（休んでも続きから数える）",
+    "group": "毎回申し込む人",
+    "win_per_application_pct": 10.003,
+    "applications_per_year": 24.0,
+    "gap_mean_applications": 9.996,
+    "gap_sd_applications": 4.482,
+    "year_zero_win_pct": 0.768
+   },
+   {
+    "rule": "②5回（休んでも続きから数える）",
+    "group": "3割の回だけ申し込む人",
+    "win_per_application_pct": 9.973,
+    "applications_per_year": 7.203,
+    "gap_mean_applications": 10.011,
+    "gap_sd_applications": 4.43,
+    "year_zero_win_pct": 33.999
+   },
+   {
+    "rule": "②5回（休むと0に戻す）",
+    "group": "毎回申し込む人",
+    "win_per_application_pct": 17.615,
+    "applications_per_year": 24.0,
+    "gap_mean_applications": 5.677,
+    "gap_sd_applications": 1.042,
+    "year_zero_win_pct": 0.0
+   },
+   {
+    "rule": "②5回（休むと0に戻す）",
+    "group": "3割の回だけ申し込む人",
+    "win_per_application_pct": 2.381,
+    "applications_per_year": 7.197,
+    "gap_mean_applications": 1.716,
+    "gap_sd_applications": 1.349,
+    "year_zero_win_pct": 84.186
+   },
+   {
+    "rule": "③口を足す（休んでも続きから数える）",
+    "group": "毎回申し込む人",
+    "win_per_application_pct": 10.019,
+    "applications_per_year": 24.0,
+    "gap_mean_applications": 9.979,
+    "gap_sd_applications": 5.188,
+    "year_zero_win_pct": 0.237
+   },
+   {
+    "rule": "③口を足す（休んでも続きから数える）",
+    "group": "3割の回だけ申し込む人",
+    "win_per_application_pct": 9.961,
+    "applications_per_year": 7.201,
+    "gap_mean_applications": 10.027,
+    "gap_sd_applications": 5.228,
+    "year_zero_win_pct": 38.589
+   },
+   {
+    "rule": "③口を足す（休むと0に戻す）",
+    "group": "毎回申し込む人",
+    "win_per_application_pct": 15.142,
+    "applications_per_year": 24.0,
+    "gap_mean_applications": 6.605,
+    "gap_sd_applications": 3.433,
+    "year_zero_win_pct": 0.0
+   },
+   {
+    "rule": "③口を足す（休むと0に戻す）",
+    "group": "3割の回だけ申し込む人",
+    "win_per_application_pct": 4.855,
+    "applications_per_year": 7.191,
+    "gap_mean_applications": 1.76,
+    "gap_sd_applications": 0.996,
+    "year_zero_win_pct": 70.14
+   }
+  ]
+ },
+ "grid_summary": {
+  "mean_vs_ratio_min": 0.9944,
+  "mean_vs_ratio_max": 1.0005,
+  "sd_vs_uniform_min": 0.0,
+  "sd_vs_uniform_max": 0.9979,
+  "smallest_sd_rule_by_ratio": [
+   {
+    "ratio": 2,
+    "rule": "priority1",
+    "gap_sd": 0.0,
+    "sd_vs_uniform": 0.0
+   },
+   {
+    "ratio": 5,
+    "rule": "priority4",
+    "gap_sd": 0.0,
+    "sd_vs_uniform": 0.0
+   },
+   {
+    "ratio": 10,
+    "rule": "priority9",
+    "gap_sd": 0.0,
+    "sd_vs_uniform": 0.0
+   },
+   {
+    "ratio": 20,
+    "rule": "priority19",
+    "gap_sd": 0.0,
+    "sd_vs_uniform": 0.0
+   }
+  ],
+  "weight_sd_vs_uniform": [
+   {
+    "ratio": 2,
+    "sd_vs_uniform": 0.6766,
+    "gap_p99": 5.0,
+    "year_zero_win_pct": 0.0
+   },
+   {
+    "ratio": 5,
+    "sd_vs_uniform": 0.5768,
+    "gap_p99": 12.0,
+    "year_zero_win_pct": 0.0
+   },
+   {
+    "ratio": 10,
+    "sd_vs_uniform": 0.5469,
+    "gap_p99": 24.0,
+    "year_zero_win_pct": 0.234
+   },
+   {
+    "ratio": 20,
+    "sd_vs_uniform": 0.5478,
+    "gap_p99": 49.0,
+    "year_zero_win_pct": 13.247
+   }
+  ],
+  "k_ratio_minus1": [
+   {
+    "ratio": 2,
+    "rule": "priority1",
+    "gap_sd": 0.0,
+    "gap_max": 2,
+    "year_zero_win_pct": 0.0
+   },
+   {
+    "ratio": 5,
+    "rule": "priority4",
+    "gap_sd": 0.0,
+    "gap_max": 5,
+    "year_zero_win_pct": 0.0
+   },
+   {
+    "ratio": 10,
+    "rule": "priority9",
+    "gap_sd": 0.0,
+    "gap_max": 10,
+    "year_zero_win_pct": 0.0
+   },
+   {
+    "ratio": 20,
+    "rule": "priority19",
+    "gap_sd": 0.0,
+    "gap_max": 20,
+    "year_zero_win_pct": 0.0
+   }
+  ],
+  "uniform": [
+   {
+    "ratio": 2,
+    "gap_mean": 2.001,
+    "gap_sd": 1.416,
+    "gap_p99": 7.0,
+    "year_zero_win_pct": 0.0
+   },
+   {
+    "ratio": 5,
+    "gap_mean": 4.997,
+    "gap_sd": 4.475,
+    "gap_p99": 21.0,
+    "year_zero_win_pct": 0.519
+   },
+   {
+    "ratio": 10,
+    "gap_mean": 10.003,
+    "gap_sd": 9.516,
+    "gap_p99": 44.0,
+    "year_zero_win_pct": 7.897
+   },
+   {
+    "ratio": 20,
+    "gap_mean": 19.888,
+    "gap_sd": 19.116,
+    "gap_p99": 87.0,
+    "year_zero_win_pct": 29.133
+   }
+  ]
+ }
+}

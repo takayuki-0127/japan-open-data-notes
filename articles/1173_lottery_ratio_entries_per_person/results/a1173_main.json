@@ -1,0 +1,110 @@
+{
+ "setting": {
+  "people": 5000,
+  "entries": 10000,
+  "seats": 1000,
+  "ratio_entries_per_seat": 10.0,
+  "ratio_people_per_seat": 5.0,
+  "mean_entries_per_person": 2.0,
+  "dist": {
+   "1": 0.5,
+   "2": 0.25,
+   "3": 0.1,
+   "4": 0.05,
+   "5": 0.1
+  },
+  "reps": 4000
+ },
+ "by_entries": [
+  {
+   "entries": 1,
+   "people": 2500,
+   "people_share_pct": 50.0,
+   "rule1_any_win_pct": 10.01,
+   "rule1_any_win_formula_pct": 10.0,
+   "rule1_mean_seats": 0.1001,
+   "rule2_win_pct": 11.06,
+   "rule2_winner_share_pct": 27.64,
+   "rule1_seat_share_pct": 25.03
+  },
+  {
+   "entries": 2,
+   "people": 1250,
+   "people_share_pct": 25.0,
+   "rule1_any_win_pct": 19.01,
+   "rule1_any_win_formula_pct": 19.0,
+   "rule1_mean_seats": 0.2001,
+   "rule2_win_pct": 20.88,
+   "rule2_winner_share_pct": 26.1,
+   "rule1_seat_share_pct": 25.01
+  },
+  {
+   "entries": 3,
+   "people": 500,
+   "people_share_pct": 10.0,
+   "rule1_any_win_pct": 27.08,
+   "rule1_any_win_formula_pct": 27.1,
+   "rule1_mean_seats": 0.2998,
+   "rule2_win_pct": 29.59,
+   "rule2_winner_share_pct": 14.79,
+   "rule1_seat_share_pct": 14.99
+  },
+  {
+   "entries": 4,
+   "people": 250,
+   "people_share_pct": 5.0,
+   "rule1_any_win_pct": 34.38,
+   "rule1_any_win_formula_pct": 34.39,
+   "rule1_mean_seats": 0.3999,
+   "rule2_win_pct": 37.38,
+   "rule2_winner_share_pct": 9.35,
+   "rule1_seat_share_pct": 10.0
+  },
+  {
+   "entries": 5,
+   "people": 500,
+   "people_share_pct": 10.0,
+   "rule1_any_win_pct": 40.92,
+   "rule1_any_win_formula_pct": 40.96,
+   "rule1_mean_seats": 0.4994,
+   "rule2_win_pct": 44.25,
+   "rule2_winner_share_pct": 22.12,
+   "rule1_seat_share_pct": 24.97
+  }
+ ],
+ "rule1": {
+  "person_avg_any_win_pct": 18.28,
+  "winners_people_mean": 913.9,
+  "extra_seats_to_same_people_mean": 86.1
+ },
+ "rule2": {
+  "person_avg_win_pct": 20.0,
+  "person_avg_formula_pct": 20.0,
+  "ratio_people_per_winner": 5.0
+ },
+ "rule3": {
+  "seats_used_mean": 913.9,
+  "seats_used_min": 885,
+  "seats_used_max": 941,
+  "empty_seats_mean": 86.1,
+  "person_avg_win_pct": 18.28,
+  "ratio_people_per_winner": 5.47
+ },
+ "headline": {
+  "one_entry_rule1_pct": 10.01,
+  "one_entry_rule2_pct": 11.06,
+  "five_entry_rule2_pct": 44.25,
+  "person_avg_rule2_pct": 20.0,
+  "one_entry_rule2_x_ratio": 1.11,
+  "five_vs_one_rule2": 4.0
+ },
+ "grid": {
+  "settings": 12,
+  "one_entry_x_ratio_min": 1.01,
+  "one_entry_x_ratio_max": 2.23,
+  "all_one_x_ratio_min": 1.0,
+  "all_one_x_ratio_max": 1.0,
+  "person_avg_x_ratio_min": 1.4,
+  "person_avg_x_ratio_max": 2.5
+ }
+}

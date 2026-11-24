@@ -1,0 +1,159 @@
+{
+ "setting": {
+  "people": 1000,
+  "seats": [
+   100,
+   100,
+   120,
+   150,
+   130
+  ],
+  "seats_total": 600,
+  "first_share": [
+   0.35,
+   0.25,
+   0.2,
+   0.12,
+   0.08
+  ],
+  "reps": 2000
+ },
+ "by_session": [
+  {
+   "session": "A",
+   "seats": 100,
+   "first_n": 350,
+   "first_ratio": 3.5,
+   "second_n": 270,
+   "ratio_with_second": 6.2,
+   "naive_second_pct": 37.04,
+   "left_after_first": 0,
+   "left_after_first_sim": 0.0,
+   "second_losers_expected": 92.6,
+   "rule1_first_pct": 28.57,
+   "rule1_second_given_lose_pct": 0.0,
+   "formula_second_pct": 0.0,
+   "rule2_first_pct": 28.57,
+   "rule2_second_given_lose_pct": 0.0
+  },
+  {
+   "session": "B",
+   "seats": 100,
+   "first_n": 250,
+   "first_ratio": 2.5,
+   "second_n": 247,
+   "ratio_with_second": 4.97,
+   "naive_second_pct": 40.49,
+   "left_after_first": 0,
+   "left_after_first_sim": 0.0,
+   "second_losers_expected": 124.6,
+   "rule1_first_pct": 40.0,
+   "rule1_second_given_lose_pct": 0.0,
+   "formula_second_pct": 0.0,
+   "rule2_first_pct": 35.95,
+   "rule2_second_given_lose_pct": 7.16
+  },
+  {
+   "session": "C",
+   "seats": 120,
+   "first_n": 200,
+   "first_ratio": 1.667,
+   "second_n": 218,
+   "ratio_with_second": 3.483,
+   "naive_second_pct": 55.05,
+   "left_after_first": 0,
+   "left_after_first_sim": 0.0,
+   "second_losers_expected": 113.1,
+   "rule1_first_pct": 60.0,
+   "rule1_second_given_lose_pct": 0.0,
+   "formula_second_pct": 0.0,
+   "rule2_first_pct": 46.97,
+   "rule2_second_given_lose_pct": 20.9
+  },
+  {
+   "session": "D",
+   "seats": 150,
+   "first_n": 120,
+   "first_ratio": 0.8,
+   "second_n": 145,
+   "ratio_with_second": 1.767,
+   "naive_second_pct": 100.0,
+   "left_after_first": 30,
+   "left_after_first_sim": 30.0,
+   "second_losers_expected": 83.5,
+   "rule1_first_pct": 100.0,
+   "rule1_second_given_lose_pct": 35.9,
+   "formula_second_pct": 35.92,
+   "rule2_first_pct": 77.06,
+   "rule2_second_given_lose_pct": 64.22
+  },
+  {
+   "session": "E",
+   "seats": 130,
+   "first_n": 80,
+   "first_ratio": 0.615,
+   "second_n": 120,
+   "ratio_with_second": 1.538,
+   "naive_second_pct": 100.0,
+   "left_after_first": 50,
+   "left_after_first_sim": 50.0,
+   "second_losers_expected": 66.3,
+   "rule1_first_pct": 100.0,
+   "rule1_second_given_lose_pct": 75.27,
+   "formula_second_pct": 75.46,
+   "rule2_first_pct": 88.28,
+   "rule2_second_given_lose_pct": 80.77
+  }
+ ],
+ "pairs_first_A": {
+  "rule1_any_min": 28.57,
+  "rule1_any_max": 82.35,
+  "rule2_any_min": 35.96,
+  "rule2_any_max": 88.23
+ },
+ "headline": {
+  "full_sessions": [
+   "A",
+   "B",
+   "C"
+  ],
+  "full_rule1_second_max_pct": 0.0,
+  "open_sessions": [
+   "D",
+   "E"
+  ],
+  "open_rule1_second_pct": {
+   "D": 35.9,
+   "E": 75.27
+  },
+  "open_formula_pct": {
+   "D": 35.92,
+   "E": 75.46
+  },
+  "open_naive_pct": {
+   "D": 100.0,
+   "E": 100.0
+  },
+  "rule1_placed_pct": 60.0,
+  "rule2_placed_pct": 60.0,
+  "rule1_first_win_pct": 52.0,
+  "rule2_first_win_pct": 44.69,
+  "max_abs_diff_formula_rule1": 0.19
+ },
+ "grid": {
+  "settings": 9,
+  "session_rows": 45,
+  "full_rows": 31,
+  "full_rule1_second_max_pct": 0.0,
+  "full_rule2_second_min_pct": 0.0,
+  "full_rule2_second_max_pct": 60.82,
+  "open_rows": 14,
+  "open_rule1_second_min_pct": 15.18,
+  "open_rule1_second_max_pct": 100.0,
+  "max_abs_diff_formula_rule1": 3.83,
+  "corr_naive_vs_rule1": 0.758,
+  "corr_formula_vs_rule1": 1.0,
+  "rule2_first_minus_rule1_first_min": -42.86,
+  "rule2_first_minus_rule1_first_max": 0.0
+ }
+}

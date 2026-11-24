@@ -1,0 +1,103 @@
+{
+ "setting": {
+  "seats": 200,
+  "people": 2000,
+  "pair_share_people": 0.4,
+  "solo_entries": 1200,
+  "pair_entries": 400,
+  "entries": 1600,
+  "reps": 4000,
+  "ratio_by_people": 10.0,
+  "ratio_by_entries": 8.0,
+  "seats_over_people_pct": 10.0
+ },
+ "base": {
+  "entry": {
+   "p_solo_person_pct": 10.04,
+   "p_pair_person_pct": 9.941,
+   "pair_over_solo": 0.9902,
+   "two_solo_both_pct": 0.999,
+   "two_solo_any_pct": 19.08,
+   "seats_used_mean": 200.0,
+   "seats_empty_share": 0.0,
+   "pair_over_solo_p05": 0.7388,
+   "pair_over_solo_p95": 1.3302
+  },
+  "people": {
+   "p_solo_person_pct": 7.334,
+   "p_pair_person_pct": 13.998,
+   "pair_over_solo": 1.9086,
+   "two_solo_both_pct": 0.534,
+   "two_solo_any_pct": 14.135,
+   "seats_used_mean": 200.0,
+   "seats_empty_share": 0.0,
+   "pair_over_solo_p05": 1.5,
+   "pair_over_solo_p95": 2.4527
+  }
+ },
+ "formula_entry_rule_person_pct": 10.0,
+ "formula_two_solo_both_entry_pct": 1.0,
+ "formula_two_solo_any_entry_pct": 19.0,
+ "grid_summary": {
+  "entry": {
+   "pair_over_solo_min": 0.8166,
+   "pair_over_solo_max": 1.0022,
+   "n_cases": 24,
+   "n_pair_higher": 1,
+   "p_solo_over_formula_min": 1.0,
+   "p_solo_over_formula_max": 1.1511,
+   "p_pair_over_formula_min": 0.8929,
+   "p_pair_over_formula_max": 1.0021,
+   "seats10_pair_over_solo_min": 0.8166,
+   "seats10_pair_over_solo_max": 0.9497,
+   "seats200_pair_over_solo_min": 0.9881,
+   "seats200_pair_over_solo_max": 1.0022
+  },
+  "people": {
+   "pair_over_solo_min": 1.3297,
+   "pair_over_solo_max": 1.9614,
+   "n_cases": 24,
+   "n_pair_higher": 24,
+   "p_solo_over_formula_min": 0.5992,
+   "p_solo_over_formula_max": 0.9533,
+   "p_pair_over_formula_min": 1.0804,
+   "p_pair_over_formula_max": 1.787,
+   "seats10_pair_over_solo_min": 1.3297,
+   "seats10_pair_over_solo_max": 1.7879,
+   "seats200_pair_over_solo_min": 1.5296,
+   "seats200_pair_over_solo_max": 1.9614
+  },
+  "entry_worst_case": {
+   "seats": 10,
+   "ratio_by_people": 10,
+   "pair_share_people": 0.7,
+   "rule": "entry",
+   "rule_name": "①1組を1口",
+   "reps": 20000,
+   "seats_over_people_pct": 10.0,
+   "p_solo_person_pct": 11.473,
+   "p_pair_person_pct": 9.369,
+   "pair_over_solo": 0.8166,
+   "two_solo_both_pct": 1.261,
+   "two_solo_any_pct": 21.686,
+   "seats_used_mean": 10.0,
+   "seats_empty_share": 0.0
+  },
+  "people_max_case": {
+   "seats": 200,
+   "ratio_by_people": 30,
+   "pair_share_people": 0.4,
+   "rule": "people",
+   "rule_name": "②人数分の口",
+   "reps": 3000,
+   "seats_over_people_pct": 3.333,
+   "p_solo_person_pct": 2.408,
+   "p_pair_person_pct": 4.722,
+   "pair_over_solo": 1.9614,
+   "two_solo_both_pct": 0.058,
+   "two_solo_any_pct": 4.757,
+   "seats_used_mean": 200.0,
+   "seats_empty_share": 0.0
+  }
+ }
+}
