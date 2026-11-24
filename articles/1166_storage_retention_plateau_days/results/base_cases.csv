@@ -1,0 +1,5 @@
+case,R,long_share_pct,rule,growth_pct,level_day90,level_day365,level_end,day90_over_end_pct,reach95_day,last_year_growth_pct,inflow_growth_year_formula_pct,plateau_formula,last_use_mean_days,last_use_median_days,last_use_p90_days,last_use_over_180_pct,stay_mean_days,plateau_from_stay_gb
+作ってから90日,90,0.0,作ってから,0.0,1807.1,1798.1,1800.7,100.35,86,0.06,0.0,1800.0,,,,,,
+作ってから90日（1割は365日）,90,10.0,作ってから,0.0,1810.4,2351.1,2345.5,77.19,306,-0.46,0.0,2350.0,,,,,,
+最後に使ってから90日,90,0.0,最後に使ってから,0.0,1799.4,2533.5,2562.8,70.21,225,0.29,0.0,,37.55,14.95,100.19,3.446,127.98,2559.6
+作ってから90日・件数が月3%伸びる,90,0.0,作ってから,3.0,1880.5,2460.8,5003.1,37.59,1030,43.48,43.28,,,,,,,

@@ -1,0 +1,4 @@
+relation,b,total_ratio_pct,mean_ratio_pct,median_ratio_pct,weighted_mean_ratio_pct,diff_points,diff_formula_points,saved_est_over_true,saved_true_pct,saved_est_pct,not_smaller_pct
+なし,0.0,36.85,39.62,37.57,36.85,2.77,2.77,0.9561,63.15,60.38,0.41
+大きいほど縮まない,0.5,72.6,43.45,37.51,72.6,-29.15,-29.15,2.0638,27.4,56.55,3.74
+大きいほど縮む,-0.5,19.86,42.54,36.36,19.86,22.69,22.69,0.7169,80.14,57.46,5.47

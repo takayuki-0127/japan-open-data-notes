@@ -1,0 +1,99 @@
+{
+ "setting": {
+  "n_year": 1000000,
+  "normal_median_kb": 300.0,
+  "normal_mean_kb_formula": 494.62,
+  "huge_median_kb": 500000.0,
+  "huge_mean_kb_formula": 688563.9,
+  "huge_share_count_pct": 0.1,
+  "mean_kb_formula": 1182.69,
+  "true_total_gb": 1182.69,
+  "huge_share_bytes_pct_formula": 58.22
+ },
+ "actual_years": {
+  "years": 200,
+  "ratio_p5": 0.9576,
+  "ratio_p95": 1.0395,
+  "ratio_min": 0.9287,
+  "ratio_max": 1.0936,
+  "huge_bytes_pct_mean": 58.21,
+  "huge_files_mean": 1000.9
+ },
+ "base": {
+  "mean_ratio": 0.9895,
+  "median_ratio": 0.7261,
+  "p10_ratio": 0.4077,
+  "p90_ratio": 1.9606,
+  "below_0_8_pct": 54.86,
+  "above_1_25_pct": 25.52,
+  "within_20pct_pct": 17.87,
+  "below_1_pct": 64.88,
+  "no_huge_in_sample_pct": 37.2,
+  "no_huge_formula_pct": 36.77,
+  "median_times_count_ratio": 0.254,
+  "trimmed_times_count_ratio": 0.386,
+  "expected_huge_in_sample": 1.0
+ },
+ "base_by_huge_count": [
+  {
+   "huge_in_sample": "0",
+   "share_pct": 37.2,
+   "median_ratio": 0.418
+  },
+  {
+   "huge_in_sample": "1",
+   "share_pct": 37.07,
+   "median_ratio": 0.844
+  },
+  {
+   "huge_in_sample": "2",
+   "share_pct": 18.07,
+   "median_ratio": 1.3927
+  },
+  {
+   "huge_in_sample": "3",
+   "share_pct": 5.99,
+   "median_ratio": 1.9521
+  },
+  {
+   "huge_in_sample": "4以上",
+   "share_pct": 1.67,
+   "median_ratio": 2.5712
+  }
+ ],
+ "control_no_huge": {
+  "mean_ratio": 1.0008,
+  "median_ratio": 0.9999,
+  "p10_ratio": 0.9481,
+  "p90_ratio": 1.0541,
+  "below_0_8_pct": 0.0,
+  "above_1_25_pct": 0.0,
+  "within_20pct_pct": 100.0,
+  "below_1_pct": 50.06,
+  "no_huge_in_sample_pct": 100.0,
+  "no_huge_formula_pct": 100.0,
+  "median_times_count_ratio": 0.6068,
+  "trimmed_times_count_ratio": 0.9179
+ },
+ "grid": {
+  "settings": 18,
+  "median_ratio_min": 0.4242,
+  "median_ratio_max": 0.998,
+  "mean_ratio_min": 0.9245,
+  "mean_ratio_max": 1.0453,
+  "within_20_min": 0.1,
+  "within_20_max": 100.0,
+  "below_1_min": 51.3,
+  "below_1_max": 91.35,
+  "settings_below1_over_60": 9,
+  "settings_within20_over_90": 6
+ },
+ "headline": {
+  "huge_share_bytes_pct": 58.22,
+  "median_ratio": 0.7261,
+  "below_0_8_pct": 54.86,
+  "within_20pct_pct": 17.87,
+  "mean_ratio": 0.9895,
+  "ctrl_within_20pct_pct": 100.0
+ }
+}

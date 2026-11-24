@@ -1,0 +1,217 @@
+{
+ "base": {
+  "total_ratio_pct": 36.85,
+  "mean_ratio_pct": 39.62,
+  "median_ratio_pct": 37.57,
+  "weighted_mean_ratio_pct": 36.85,
+  "diff_points": 2.77,
+  "diff_formula_points": 2.77,
+  "saved_est_over_true": 0.9561,
+  "saved_true_pct": 63.15,
+  "saved_est_pct": 60.38,
+  "not_smaller_pct": 0.41,
+  "files": 50000,
+  "size_median_kb": 49.89,
+  "size_mean_kb": 152.84,
+  "small_under_10kb_count_pct": 14.16,
+  "small_under_10kb_bytes_pct": 0.51,
+  "small_under_10kb_mean_ratio_pct": 50.31,
+  "over_1mb_count_pct": 2.26,
+  "over_1mb_bytes_pct": 30.62,
+  "over_1mb_mean_ratio_pct": 36.9,
+  "total_before_gb": 7.642,
+  "total_after_gb": 2.816,
+  "saved_true_gb": 4.826,
+  "saved_est_gb": 4.614
+ },
+ "base_by_size": [
+  {
+   "size_band": "1KB未満",
+   "count_pct": 0.48,
+   "bytes_pct": 0.0,
+   "mean_ratio_pct": 97.01,
+   "total_ratio_pct": 95.93
+  },
+  {
+   "size_band": "1〜10KB",
+   "count_pct": 13.68,
+   "bytes_pct": 0.5,
+   "mean_ratio_pct": 48.65,
+   "total_ratio_pct": 45.53
+  },
+  {
+   "size_band": "10〜100KB",
+   "count_pct": 53.56,
+   "bytes_pct": 14.56,
+   "mean_ratio_pct": 38.46,
+   "total_ratio_pct": 37.84
+  },
+  {
+   "size_band": "100KB〜1MB",
+   "count_pct": 30.02,
+   "bytes_pct": 54.31,
+   "mean_ratio_pct": 36.87,
+   "total_ratio_pct": 36.79
+  },
+  {
+   "size_band": "1MB以上",
+   "count_pct": 2.26,
+   "bytes_pct": 30.62,
+   "mean_ratio_pct": 36.9,
+   "total_ratio_pct": 36.35
+  }
+ ],
+ "relation_three": [
+  {
+   "relation": "なし",
+   "b": 0.0,
+   "total_ratio_pct": 36.85,
+   "mean_ratio_pct": 39.62,
+   "median_ratio_pct": 37.57,
+   "weighted_mean_ratio_pct": 36.85,
+   "diff_points": 2.77,
+   "diff_formula_points": 2.77,
+   "saved_est_over_true": 0.9561,
+   "saved_true_pct": 63.15,
+   "saved_est_pct": 60.38,
+   "not_smaller_pct": 0.41
+  },
+  {
+   "relation": "大きいほど縮まない",
+   "b": 0.5,
+   "total_ratio_pct": 72.6,
+   "mean_ratio_pct": 43.45,
+   "median_ratio_pct": 37.51,
+   "weighted_mean_ratio_pct": 72.6,
+   "diff_points": -29.15,
+   "diff_formula_points": -29.15,
+   "saved_est_over_true": 2.0638,
+   "saved_true_pct": 27.4,
+   "saved_est_pct": 56.55,
+   "not_smaller_pct": 3.74
+  },
+  {
+   "relation": "大きいほど縮む",
+   "b": -0.5,
+   "total_ratio_pct": 19.86,
+   "mean_ratio_pct": 42.54,
+   "median_ratio_pct": 36.36,
+   "weighted_mean_ratio_pct": 19.86,
+   "diff_points": 22.69,
+   "diff_formula_points": 22.69,
+   "saved_est_over_true": 0.7169,
+   "saved_true_pct": 80.14,
+   "saved_est_pct": 57.46,
+   "not_smaller_pct": 5.47
+  }
+ ],
+ "sample_200": [
+  {
+   "relation": "なし",
+   "true_total_ratio_pct": 36.85,
+   "mean_method_median_pct": 39.61,
+   "mean_method_within_3pt_pct": 60.45,
+   "pooled_method_median_pct": 36.84,
+   "pooled_method_p10_pct": 34.4,
+   "pooled_method_p90_pct": 39.32,
+   "pooled_method_within_3pt_pct": 88.55
+  },
+  {
+   "relation": "大きいほど縮まない",
+   "true_total_ratio_pct": 72.6,
+   "mean_method_median_pct": 43.4,
+   "mean_method_within_3pt_pct": 0.0,
+   "pooled_method_median_pct": 71.69,
+   "pooled_method_p10_pct": 65.24,
+   "pooled_method_p90_pct": 78.62,
+   "pooled_method_within_3pt_pct": 42.05
+  },
+  {
+   "relation": "大きいほど縮む",
+   "true_total_ratio_pct": 19.86,
+   "mean_method_median_pct": 42.52,
+   "mean_method_within_3pt_pct": 0.0,
+   "pooled_method_median_pct": 20.29,
+   "pooled_method_p10_pct": 17.39,
+   "pooled_method_p90_pct": 22.82,
+   "pooled_method_within_3pt_pct": 83.55
+  }
+ ],
+ "grid": {
+  "settings": 36,
+  "diff_min": -41.13,
+  "diff_max": 35.44,
+  "max_abs_formula_gap": 0.0,
+  "max_abs_weighted_gap": 0.0,
+  "total_ratio_range": [
+   15.41,
+   82.49
+  ],
+  "mean_ratio_range": [
+   36.58,
+   59.34
+  ],
+  "なし": {
+   "diff_min": -0.02,
+   "diff_max": 16.34,
+   "saved_ratio_min": 0.7421,
+   "saved_ratio_max": 1.0003,
+   "positive": 11,
+   "negative": 1
+  },
+  "大きいほど縮まない": {
+   "diff_min": -41.13,
+   "diff_max": -14.41,
+   "saved_ratio_min": 1.4054,
+   "saved_ratio_max": 3.2488,
+   "positive": 0,
+   "negative": 12
+  },
+  "大きいほど縮む": {
+   "diff_min": 15.51,
+   "diff_max": 35.44,
+   "saved_ratio_min": 0.579,
+   "saved_ratio_max": 0.7931,
+   "positive": 12,
+   "negative": 0
+  },
+  "none_H0_diff_range": [
+   -0.02,
+   0.21
+  ]
+ },
+ "headline": {
+  "total_ratio_pct": 36.85,
+  "mean_ratio_pct": 39.62,
+  "diff_points": 2.77,
+  "saved_est_over_true": 0.9561,
+  "big_less": {
+   "relation": "大きいほど縮まない",
+   "b": 0.5,
+   "total_ratio_pct": 72.6,
+   "mean_ratio_pct": 43.45,
+   "median_ratio_pct": 37.51,
+   "weighted_mean_ratio_pct": 72.6,
+   "diff_points": -29.15,
+   "diff_formula_points": -29.15,
+   "saved_est_over_true": 2.0638,
+   "saved_true_pct": 27.4,
+   "saved_est_pct": 56.55,
+   "not_smaller_pct": 3.74
+  },
+  "big_more": {
+   "relation": "大きいほど縮む",
+   "b": -0.5,
+   "total_ratio_pct": 19.86,
+   "mean_ratio_pct": 42.54,
+   "median_ratio_pct": 36.36,
+   "weighted_mean_ratio_pct": 19.86,
+   "diff_points": 22.69,
+   "diff_formula_points": 22.69,
+   "saved_est_over_true": 0.7169,
+   "saved_true_pct": 80.14,
+   "saved_est_pct": 57.46,
+   "not_smaller_pct": 5.47
+  }
+ }
+}

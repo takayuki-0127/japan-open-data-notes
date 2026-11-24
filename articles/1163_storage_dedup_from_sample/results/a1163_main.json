@@ -1,0 +1,192 @@
+{
+ "base_setting": {
+  "files": 200000,
+  "folders": 2000,
+  "contents": 47573,
+  "single_content_pct": 55.42,
+  "files_in_dup_groups_pct": 86.82,
+  "max_copies": 1000,
+  "true_saving_pct": 76.25,
+  "true_saving_count_pct": 76.21
+ },
+ "base_by_fraction": [
+  {
+   "sample_pct": 0.5,
+   "true_saving_pct": 76.25,
+   "formula_random_pct": 17.67,
+   "random_median_pct": 17.38,
+   "random_p10_pct": 14.53,
+   "random_p90_pct": 21.07,
+   "random_over_true": 0.2279,
+   "folder_median_pct": 37.79,
+   "folder_p10_pct": 26.32,
+   "folder_p90_pct": 65.12,
+   "folder_over_true": 0.4955
+  },
+  {
+   "sample_pct": 1.0,
+   "true_saving_pct": 76.25,
+   "formula_random_pct": 24.84,
+   "random_median_pct": 24.78,
+   "random_p10_pct": 21.78,
+   "random_p90_pct": 27.63,
+   "random_over_true": 0.325,
+   "folder_median_pct": 40.96,
+   "folder_p10_pct": 32.37,
+   "folder_p90_pct": 53.61,
+   "folder_over_true": 0.5372
+  },
+  {
+   "sample_pct": 2.0,
+   "true_saving_pct": 76.25,
+   "formula_random_pct": 32.71,
+   "random_median_pct": 32.53,
+   "random_p10_pct": 30.38,
+   "random_p90_pct": 35.42,
+   "random_over_true": 0.4266,
+   "folder_median_pct": 48.41,
+   "folder_p10_pct": 39.6,
+   "folder_p90_pct": 59.17,
+   "folder_over_true": 0.6349
+  },
+  {
+   "sample_pct": 5.0,
+   "true_saving_pct": 76.25,
+   "formula_random_pct": 43.37,
+   "random_median_pct": 43.49,
+   "random_p10_pct": 41.69,
+   "random_p90_pct": 45.0,
+   "random_over_true": 0.5703,
+   "folder_median_pct": 55.5,
+   "folder_p10_pct": 50.26,
+   "folder_p90_pct": 62.38,
+   "folder_over_true": 0.7278
+  },
+  {
+   "sample_pct": 10.0,
+   "true_saving_pct": 76.25,
+   "formula_random_pct": 51.24,
+   "random_median_pct": 51.13,
+   "random_p10_pct": 50.11,
+   "random_p90_pct": 52.71,
+   "random_over_true": 0.6705,
+   "folder_median_pct": 60.25,
+   "folder_p10_pct": 55.85,
+   "folder_p90_pct": 64.26,
+   "folder_over_true": 0.7901
+  },
+  {
+   "sample_pct": 20.0,
+   "true_saving_pct": 76.25,
+   "formula_random_pct": 58.91,
+   "random_median_pct": 58.85,
+   "random_p10_pct": 58.04,
+   "random_p90_pct": 59.56,
+   "random_over_true": 0.7718,
+   "folder_median_pct": 65.32,
+   "folder_p10_pct": 62.77,
+   "folder_p90_pct": 67.5,
+   "folder_over_true": 0.8566
+  },
+  {
+   "sample_pct": 50.0,
+   "true_saving_pct": 76.25,
+   "formula_random_pct": 68.84,
+   "random_median_pct": 68.78,
+   "random_p10_pct": 68.52,
+   "random_p90_pct": 69.13,
+   "random_over_true": 0.902,
+   "folder_median_pct": 71.3,
+   "folder_p10_pct": 70.34,
+   "folder_p90_pct": 72.21,
+   "folder_over_true": 0.935
+  }
+ ],
+ "base_formula_max_gap_points": 0.29,
+ "grid": {
+  "settings": 18,
+  "true_range": [
+   28.18,
+   84.84
+  ],
+  "random_over_true_1pct": [
+   0.0158,
+   0.4478
+  ],
+  "random_over_true_10pct": [
+   0.1781,
+   0.7392
+  ],
+  "folder_over_true_1pct": [
+   0.0178,
+   0.9111
+  ],
+  "folder_over_true_10pct": [
+   0.1788,
+   0.929
+  ],
+  "folder_beats_random_1pct": 14,
+  "formula_max_gap_points": 1.12,
+  "右に長い_random_over_true_1pct": [
+   0.3373,
+   0.4478
+  ],
+  "右に長い_random_over_true_10pct": [
+   0.6663,
+   0.7392
+  ],
+  "短い_random_over_true_1pct": [
+   0.0158,
+   0.02
+  ],
+  "短い_random_over_true_10pct": [
+   0.1781,
+   0.1829
+  ],
+  "same0_folder_over_true_1pct": [
+   0.0178,
+   0.3534
+  ],
+  "same50_folder_over_true_1pct": [
+   0.486,
+   0.688
+  ],
+  "same90_folder_over_true_1pct": [
+   0.7574,
+   0.9111
+  ]
+ },
+ "headline": {
+  "true_saving_pct": 76.25,
+  "random_1pct": 24.78,
+  "random_10pct": 51.13,
+  "folder_1pct": 40.96,
+  "folder_10pct": 60.25
+ },
+ "base_copies": {
+  "1（写しなし）": {
+   "files_pct": 13.18,
+   "bytes_pct": 13.1
+  },
+  "2": {
+   "files_pct": 10.53,
+   "bytes_pct": 10.41
+  },
+  "3〜4": {
+   "files_pct": 8.97,
+   "bytes_pct": 9.01
+  },
+  "5〜9": {
+   "files_pct": 9.3,
+   "bytes_pct": 9.25
+  },
+  "10〜99": {
+   "files_pct": 26.79,
+   "bytes_pct": 30.58
+  },
+  "100以上": {
+   "files_pct": 24.22,
+   "bytes_pct": 22.6
+  }
+ }
+}

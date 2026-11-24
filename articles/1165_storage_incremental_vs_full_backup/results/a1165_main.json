@@ -1,0 +1,170 @@
+{
+ "base_daily_change_gb": 19.78,
+ "base_daily_change_pct": 1.978,
+ "setting": {
+  "data_gb": 1000.0,
+  "blocks": 100000,
+  "block_mb": 10,
+  "keep_days": 28,
+  "days_counted": 224,
+  "patterns": {
+   "一様": [
+    0.0,
+    0.0,
+    0.01975
+   ],
+   "基本（5%が30%）": [
+    0.05,
+    0.3,
+    0.005
+   ],
+   "偏り強（2%が50%）": [
+    0.02,
+    0.5,
+    0.00995
+   ]
+  },
+  "levels": {
+   "半分（約1%）": 0.5,
+   "基本（約2%）": 1.0,
+   "倍（約4%）": 2.0
+  },
+  "base_hot_blocks_gb": 50.0
+ },
+ "base": [
+  {
+   "pattern": "基本（5%が30%）",
+   "level": "基本（約2%）",
+   "full_every_days": 1,
+   "kind": "毎日全部",
+   "daily_change_gb": 19.78,
+   "store_mean_gb": 28000.0,
+   "store_max_gb": 28000.0,
+   "store_ratio_to_data": 28.0,
+   "read_mean_gb": 1000.0,
+   "read_max_gb": 1000.0,
+   "read_ratio_mean": 1.0,
+   "read_ratio_max": 1.0
+  },
+  {
+   "pattern": "基本（5%が30%）",
+   "level": "基本（約2%）",
+   "full_every_days": 7,
+   "kind": "前日からの分",
+   "daily_change_gb": 19.78,
+   "store_mean_gb": 5374.3,
+   "store_max_gb": 5578.5,
+   "store_ratio_to_data": 5.374,
+   "read_mean_gb": 1059.4,
+   "read_max_gb": 1120.4,
+   "read_ratio_mean": 1.059,
+   "read_ratio_max": 1.12
+  },
+  {
+   "pattern": "基本（5%が30%）",
+   "level": "基本（約2%）",
+   "full_every_days": 7,
+   "kind": "全部の控えからの分",
+   "daily_change_gb": 19.78,
+   "store_mean_gb": 6044.3,
+   "store_max_gb": 6198.9,
+   "store_ratio_to_data": 6.044,
+   "read_mean_gb": 1042.4,
+   "read_max_gb": 1073.8,
+   "read_ratio_mean": 1.042,
+   "read_ratio_max": 1.074
+  },
+  {
+   "pattern": "基本（5%が30%）",
+   "level": "基本（約2%）",
+   "full_every_days": 14,
+   "kind": "前日からの分",
+   "daily_change_gb": 19.78,
+   "store_mean_gb": 3553.0,
+   "store_max_gb": 3757.1,
+   "store_ratio_to_data": 3.553,
+   "read_mean_gb": 1128.6,
+   "read_max_gb": 1259.2,
+   "read_ratio_mean": 1.129,
+   "read_ratio_max": 1.259
+  },
+  {
+   "pattern": "基本（5%が30%）",
+   "level": "基本（約2%）",
+   "full_every_days": 14,
+   "kind": "全部の控えからの分",
+   "daily_change_gb": 19.78,
+   "store_mean_gb": 4848.4,
+   "store_max_gb": 4929.9,
+   "store_ratio_to_data": 4.848,
+   "read_mean_gb": 1068.6,
+   "read_max_gb": 1110.5,
+   "read_ratio_mean": 1.069,
+   "read_ratio_max": 1.111
+  },
+  {
+   "pattern": "基本（5%が30%）",
+   "level": "基本（約2%）",
+   "full_every_days": 28,
+   "kind": "前日からの分",
+   "daily_change_gb": 19.78,
+   "store_mean_gb": 2746.5,
+   "store_max_gb": 3053.7,
+   "store_ratio_to_data": 2.746,
+   "read_mean_gb": 1267.2,
+   "read_max_gb": 1537.8,
+   "read_ratio_mean": 1.267,
+   "read_ratio_max": 1.538
+  },
+  {
+   "pattern": "基本（5%が30%）",
+   "level": "基本（約2%）",
+   "full_every_days": 28,
+   "kind": "全部の控えからの分",
+   "daily_change_gb": 19.78,
+   "store_mean_gb": 4927.3,
+   "store_max_gb": 4977.3,
+   "store_ratio_to_data": 4.927,
+   "read_mean_gb": 1105.9,
+   "read_max_gb": 1171.6,
+   "read_ratio_mean": 1.106,
+   "read_ratio_max": 1.172
+  }
+ ],
+ "base_diff_growth": {
+  "k6_gb": 72.4,
+  "k6_naive_gb": 118.7,
+  "k6_ratio": 0.6103,
+  "k13_ratio": 0.4284,
+  "k27_gb": 170.9,
+  "k27_naive_gb": 534.0,
+  "k27_ratio": 0.3201
+ },
+ "grid": {
+  "settings": 9,
+  "diff7_over_inc7_min": 1.084,
+  "diff7_over_inc7_max": 1.352,
+  "diff28_over_inc28_min": 1.664,
+  "diff28_over_inc28_max": 3.638,
+  "inc28_read_ratio_max_min": 1.267,
+  "inc28_read_ratio_max_max": 2.071,
+  "diff28_read_ratio_max_min": 1.114,
+  "diff28_read_ratio_max_max": 1.666,
+  "store_ratio_nonfull_min": 2.354,
+  "store_ratio_nonfull_max": 12.812,
+  "full_store_ratio": 28.0,
+  "diff_le_inc_store_count": 0,
+  "diff_read_le_inc_read_count": 18
+ },
+ "headline": {
+  "full_store_gb": 28000.0,
+  "inc7_store_gb": 5374.3,
+  "inc7_read_max_gb": 1120.4,
+  "diff7_store_gb": 6044.3,
+  "diff7_read_max_gb": 1073.8,
+  "inc28_store_gb": 2746.5,
+  "inc28_read_max_gb": 1537.8,
+  "diff28_store_gb": 4927.3,
+  "diff28_read_max_gb": 1171.6
+ }
+}
