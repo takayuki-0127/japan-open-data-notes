@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 859本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 883本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -11,9 +11,9 @@
 | 手法 | 本数 |
 |---|---|
 | 予測・時系列 | 141 |
-| 因果推論・効果検証 | 68 |
+| 因果推論・効果検証 | 69 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 332 |
+| 統計の考え方（検定・区間・回帰） | 333 |
 | 機械学習・モデル評価 | 104 |
 | 顧客分析・生存分析 | 75 |
 | SQL・データ処理 | 95 |
@@ -23,7 +23,7 @@
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 21 |
 | 再現性・振り返り | 97 |
-| その他（記述・要因分解など） | 535 |
+| その他（記述・要因分解など） | 557 |
 
 <details><summary><b>予測・時系列</b>（141本）</summary>
 
@@ -173,7 +173,7 @@
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（68本）</summary>
+<details><summary><b>因果推論・効果検証</b>（69本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -245,6 +245,7 @@
 | 959 | 文章が長い人ほど、同じ言葉が多く出るのはなぜか？ | [959_text_length_word_count](articles/959_text_length_word_count) |
 | 973 | 前の値で埋めると、変化はどう見えるのか？ | [973_missing_carry_forward_change](articles/973_missing_carry_forward_change) |
 | 1004 | 「過去最高の来場」は、数え方を変えた年と比べられるのか？ | [1004_visitors_record_after_method_change](articles/1004_visitors_record_after_method_change) |
+| 1155 | 同じものを大勢が同時に取りに来ると、置き場所から消えた瞬間に、元のデータへ何件の問い合わせが流れるのか？ | [1155_cache_expire_herd_origin](articles/1155_cache_expire_herd_origin) |
 
 </details>
 
@@ -282,7 +283,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（332本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（333本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -618,6 +619,7 @@
 | 1076 | 総当たりでない対戦の記録から、順位はどこまで決められるのか？ | [1076_rating_partial_schedule_rank](articles/1076_rating_partial_schedule_rank) |
 | 1082 | 似た人どうしがつながっているのは、影響しあったからか、もとから似ていたからか？ | [1082_network_similar_influence_or_selection](articles/1082_network_similar_influence_or_selection) |
 | 1097 | ストーリーポイントで数えた「速さ」は、チームどうしで比べられるのか？ | [1097_story_points_team_velocity](articles/1097_story_points_team_velocity) |
+| 1146 | 短い区間ごとに測った大きさの最大値は、区間の長さでどう変わるのか？ | [1146_sound_short_window_max_length](articles/1146_sound_short_window_max_length) |
 
 </details>
 
@@ -1382,7 +1384,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（535本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（557本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1921,6 +1923,28 @@
 | 1134 | 1台の画面で合わせた色は、色の出方の違う別の画面でどれだけずれるのか？ | [1134_color_screen_matched_other_screen](articles/1134_color_screen_matched_other_screen) |
 | 1135 | 小さい画像を拡大して画素の数を増やすと、失われた細かさは戻るのか？ | [1135_image_upscale_lost_detail](articles/1135_image_upscale_lost_detail) |
 | 1136 | 明るい所と暗い所を1枚に収める処理で、明るさの順番は入れかわるのか？ | [1136_image_tone_compress_order_swap](articles/1136_image_tone_compress_order_swap) |
+| 1137 | 同じ大きさの音を2つ重ねると、デシベルの値は2倍になるのか？ | [1137_sound_two_equal_sources_db](articles/1137_sound_two_equal_sources_db) |
+| 1138 | 何曲かの音の大きさをデシベルのまま平均すると、音の強さで平均した値とどれだけずれるのか？ | [1138_sound_average_db_vs_power](articles/1138_sound_average_db_vs_power) |
+| 1139 | いちばん大きい瞬間の値で音量をそろえると、曲ごとの聞いた大きさはどれだけばらつくのか？ | [1139_sound_peak_normalize_loudness_spread](articles/1139_sound_peak_normalize_loudness_spread) |
+| 1140 | 配信先が決まった大きさまで音量を下げるとき、大きく作った曲は得をするのか？ | [1140_loudness_turn_down_loud_master](articles/1140_loudness_turn_down_loud_master) |
+| 1141 | 音をつぶして大きくする処理をかけると、平均の大きさと強弱の幅はどう入れかわるのか？ | [1141_sound_squash_loudness_vs_range](articles/1141_sound_squash_loudness_vs_range) |
+| 1142 | 低い音と高い音では、同じデシベルでも、測り方の重み付けしだいで大きさの数字がどれだけ違うのか？ | [1142_sound_weighting_low_vs_high](articles/1142_sound_weighting_low_vs_high) |
+| 1143 | 静かな部分を含めて測るか除いて測るかで、1曲の大きさの数字はどれだけ変わるのか？ | [1143_sound_quiet_parts_in_or_out](articles/1143_sound_quiet_parts_in_or_out) |
+| 1144 | 上限を超えて切れた部分の割合は、大きさの数字にどう表れるのか？ | [1144_sound_clipped_share_loudness](articles/1144_sound_clipped_share_loudness) |
+| 1145 | 録音全体の音量を上げると、声と雑音の差は広がるのか？ | [1145_sound_gain_voice_noise_gap](articles/1145_sound_gain_voice_noise_gap) |
+| 1147 | 曲ごとに大きさをそろえる再生と、アルバム全体でそろえる再生では、曲どうしの強弱の差はどう残るのか？ | [1147_sound_track_vs_album_normalize](articles/1147_sound_track_vs_album_normalize) |
+| 1148 | 「3dB 上げる」は、音の強さで見るか波の振れ幅で見るかで、何倍の変化になるのか？ | [1148_sound_3db_power_vs_amplitude](articles/1148_sound_3db_power_vs_amplitude) |
+| 1149 | 当たり率90%と99%の差は、平均の応答時間で何倍の差になるのか？ | [1149_cache_hit_90_vs_99_response](articles/1149_cache_hit_90_vs_99_response) |
+| 1150 | 置き場所の大きさを2倍にすると、当たり率はどれだけ上がるのか？ | [1150_cache_size_double_hit_rate](articles/1150_cache_size_double_hit_rate) |
+| 1151 | 当たり率を件数で数えるかデータの量で数えるかで、良し悪しはどう入れかわるのか？ | [1151_cache_hit_count_vs_bytes](articles/1151_cache_hit_count_vs_bytes) |
+| 1152 | よく使われるものへの偏りが大きいときと小さいときで、同じ大きさの置き場所の効き目はどれだけ違うのか？ | [1152_cache_skew_same_size_effect](articles/1152_cache_skew_same_size_effect) |
+| 1153 | 古く使われたものから捨てる決まりと、使われた回数の少ないものから捨てる決まりは、人気が移り変わるときにどちらが当たるのか？ | [1153_cache_recent_vs_frequent_shift](articles/1153_cache_recent_vs_frequent_shift) |
+| 1154 | 置いておく時間を長くすると、当たり率が上がる分と、古いデータを返す割合が増える分はどう釣り合うのか？ | [1154_cache_keep_time_hit_vs_stale](articles/1154_cache_keep_time_hit_vs_stale) |
+| 1156 | 当たり率が上がったのに、平均の応答が遅くなるのはどんなときか？ | [1156_cache_hit_up_mean_slower](articles/1156_cache_hit_up_mean_slower) |
+| 1157 | 一度しか使われないものが多いと、置き場所を大きくしても当たり率はどこで止まるのか？ | [1157_cache_one_time_items_ceiling](articles/1157_cache_one_time_items_ceiling) |
+| 1158 | 1段目で外れたものだけが2段目に来るとき、2段目の当たり率はなぜ低く見えるのか？ | [1158_cache_second_level_hit_low](articles/1158_cache_second_level_hit_low) |
+| 1159 | 問い合わせの一部を抜き出して当たり率を見積もると、置き場所を小さくして試した値はどれだけずれるのか？ | [1159_cache_sampled_trace_small_size](articles/1159_cache_sampled_trace_small_size) |
+| 1160 | 試験の環境で測った当たり率は、本番の使われ方の偏りが違うとどれだけ外れるのか？ | [1160_cache_test_env_skew_gap](articles/1160_cache_test_env_skew_gap) |
 
 </details>
 
