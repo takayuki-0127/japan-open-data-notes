@@ -1,0 +1,114 @@
+{
+ "setting": {
+  "psi": 0.4,
+  "r": 0.08,
+  "day_sd": 0.6,
+  "mean_n": 6.0
+ },
+ "ponds": 300,
+ "reps": 200,
+ "base": {
+  "true_present_share_pct": 39.83,
+  "found_share_1visit_pct": 12.43,
+  "found_share_3visits_pct": 24.18,
+  "missed_among_present_1visit_pct": 68.79,
+  "present_among_not_found_1visit_pct": 31.29,
+  "median_n_present_ponds": 4.0,
+  "mean_n_present_ponds": 5.99,
+  "median_n_found_ponds": 8.0,
+  "median_n_missed_ponds": 3.0,
+  "share_n_le3_found_pct": 17.81,
+  "share_n_le3_missed_pct": 52.67,
+  "mean_p_one_visit": 0.3429,
+  "visits_needed_5pct_sep_days": 14,
+  "visits_needed_5pct_same_day": 19,
+  "visits_needed_5pct_formula": 7
+ },
+ "example": {
+  "present": 117,
+  "found_1": 43,
+  "not_found_1": 257,
+  "present_among_not_found_1": 74,
+  "found_3_sep": 75,
+  "found_3_same": 74
+ },
+ "curve_at": {
+  "visits1": {
+   "visits": 1.0,
+   "present_among_not_found_sep_days_pct": 31.29,
+   "present_among_not_found_same_day_pct": 31.29,
+   "formula_one_p_pct": 30.46,
+   "found_share_sep_days_pct": 12.43
+  },
+  "visits2": {
+   "visits": 2.0,
+   "present_among_not_found_sep_days_pct": 25.22,
+   "present_among_not_found_same_day_pct": 25.9,
+   "formula_one_p_pct": 22.35,
+   "found_share_sep_days_pct": 19.53
+  },
+  "visits3": {
+   "visits": 3.0,
+   "present_among_not_found_sep_days_pct": 20.64,
+   "present_among_not_found_same_day_pct": 21.96,
+   "formula_one_p_pct": 15.91,
+   "found_share_sep_days_pct": 24.18
+  },
+  "visits5": {
+   "visits": 5.0,
+   "present_among_not_found_sep_days_pct": 14.53,
+   "present_among_not_found_same_day_pct": 16.78,
+   "formula_one_p_pct": 7.55,
+   "found_share_sep_days_pct": 29.6
+  },
+  "visits8": {
+   "visits": 8.0,
+   "present_among_not_found_sep_days_pct": 9.39,
+   "present_among_not_found_same_day_pct": 11.93,
+   "formula_one_p_pct": 2.26,
+   "found_share_sep_days_pct": 33.59
+  },
+  "visits10": {
+   "visits": 10.0,
+   "present_among_not_found_sep_days_pct": 7.16,
+   "present_among_not_found_same_day_pct": 9.76,
+   "formula_one_p_pct": 0.99,
+   "found_share_sep_days_pct": 35.19
+  },
+  "visits15": {
+   "visits": 15.0,
+   "present_among_not_found_sep_days_pct": 4.05,
+   "present_among_not_found_same_day_pct": 6.37,
+   "formula_one_p_pct": 0.12,
+   "found_share_sep_days_pct": 37.29
+  },
+  "visits20": {
+   "visits": 20.0,
+   "present_among_not_found_sep_days_pct": 2.43,
+   "present_among_not_found_same_day_pct": 4.53,
+   "formula_one_p_pct": 0.02,
+   "found_share_sep_days_pct": 38.33
+  }
+ },
+ "grid_summary": {
+  "present_among_nf_1_range": [
+   4.88,
+   65.26
+  ],
+  "present_among_nf_3_sep_range": [
+   2.12,
+   57.06
+  ],
+  "need_sep_range": [
+   1.0,
+   14.0
+  ],
+  "need_sep_missing_over20": 6,
+  "sim_above_formula_at3": 18,
+  "need_sep_minus_formula_range": [
+   0.0,
+   7.0
+  ],
+  "same_above_sep_at3_dayvar": 9
+ }
+}

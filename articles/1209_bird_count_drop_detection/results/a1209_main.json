@@ -1,0 +1,191 @@
+{
+ "scenarios": {
+  "A_same_birds_harder_to_see": {
+   "setting": {
+    "true_change_pct": 0.0,
+    "p_year1": 0.5,
+    "p_year2": 0.4
+   },
+   "true": {
+    "mean": 0.34,
+    "median": 0.0,
+    "q05": -12.09,
+    "q95": 14.25,
+    "share_down10": 9.0
+   },
+   "count": {
+    "mean": -19.56,
+    "median": -19.84,
+    "q05": -31.19,
+    "q95": -6.12,
+    "share_down10": 88.8
+   },
+   "max": {
+    "mean": -15.47,
+    "median": -15.73,
+    "q05": -27.01,
+    "q95": -2.64,
+    "share_down10": 77.65
+   },
+   "corr": {
+    "mean": 9.31,
+    "median": -1.05,
+    "q05": -38.49,
+    "q95": 83.46,
+    "share_down10": 37.45
+   },
+   "phat_year1_mean": 0.5001,
+   "phat_year2_mean": 0.4018
+  },
+  "B_fewer_birds_same_seeing": {
+   "setting": {
+    "true_change_pct": -20.0,
+    "p_year1": 0.5,
+    "p_year2": 0.5
+   },
+   "true": {
+    "mean": -19.83,
+    "median": -20.18,
+    "q05": -30.48,
+    "q95": -8.16,
+    "share_down10": 91.85
+   },
+   "count": {
+    "mean": -19.85,
+    "median": -20.23,
+    "q05": -32.21,
+    "q95": -6.23,
+    "share_down10": 89.45
+   },
+   "max": {
+    "mean": -17.99,
+    "median": -18.37,
+    "q05": -29.61,
+    "q95": -5.26,
+    "share_down10": 85.5
+   },
+   "corr": {
+    "mean": -17.56,
+    "median": -20.18,
+    "q05": -48.26,
+    "q95": 21.31,
+    "share_down10": 69.7
+   },
+   "phat_year1_mean": 0.4976,
+   "phat_year2_mean": 0.4991
+  },
+  "C_both": {
+   "setting": {
+    "true_change_pct": -20.0,
+    "p_year1": 0.5,
+    "p_year2": 0.4
+   },
+   "true": {
+    "mean": -19.6,
+    "median": -19.94,
+    "q05": -29.83,
+    "q95": -8.04,
+    "share_down10": 91.65
+   },
+   "count": {
+    "mean": -35.75,
+    "median": -36.15,
+    "q05": -45.53,
+    "q95": -24.59,
+    "share_down10": 99.9
+   },
+   "max": {
+    "mean": -30.43,
+    "median": -30.81,
+    "q05": -40.17,
+    "q95": -19.27,
+    "share_down10": 99.85
+   },
+   "corr": {
+    "mean": -11.13,
+    "median": -20.29,
+    "q05": -49.6,
+    "q95": 47.36,
+    "share_down10": 63.9
+   },
+   "phat_year1_mean": 0.5013,
+   "phat_year2_mean": 0.3984
+  },
+  "D_nothing_changes": {
+   "setting": {
+    "true_change_pct": 0.0,
+    "p_year1": 0.5,
+    "p_year2": 0.5
+   },
+   "true": {
+    "mean": 0.4,
+    "median": 0.0,
+    "q05": -12.09,
+    "q95": 14.29,
+    "share_down10": 8.9
+   },
+   "count": {
+    "mean": 0.45,
+    "median": 0.0,
+    "q05": -13.93,
+    "q95": 16.43,
+    "share_down10": 12.25
+   },
+   "max": {
+    "mean": 0.36,
+    "median": 0.0,
+    "q05": -12.74,
+    "q95": 14.93,
+    "share_down10": 10.75
+   },
+   "corr": {
+    "mean": 3.6,
+    "median": 0.47,
+    "q05": -34.81,
+    "q95": 52.79,
+    "share_down10": 32.2
+   },
+   "phat_year1_mean": 0.5,
+   "phat_year2_mean": 0.4997
+  }
+ },
+ "example_A": {
+  "true_year1": 307,
+  "true_year2": 319,
+  "seen_year1": 455,
+  "seen_year2": 393,
+  "count_change_pct": -13.63,
+  "true_change_pct": 3.91,
+  "corr_change_pct": 66.97,
+  "phat_year1": 0.6198,
+  "phat_year2": 0.3206
+ },
+ "grid_summary": {
+  "count_bias_range": [
+   -48.64,
+   0.68
+  ],
+  "corr_bias_range": [
+   -29.55,
+   30.19
+  ],
+  "corr_bias_range_birds_same": [
+   -0.4,
+   30.19
+  ],
+  "corr_bias_range_birds_differ": [
+   -29.55,
+   1.66
+  ],
+  "count_bias_drop20": [
+   -23.79,
+   -15.56
+  ],
+  "count_bias_drop40": [
+   -48.64,
+   -31.38
+  ],
+  "phat_year1_birds_differ_mean": 0.6658,
+  "phat_year1_birds_same_mean": 0.4973
+ }
+}
