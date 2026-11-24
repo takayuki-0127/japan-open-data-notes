@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 907本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 931本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -13,17 +13,17 @@
 | 予測・時系列 | 142 |
 | 因果推論・効果検証 | 69 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 333 |
+| 統計の考え方（検定・区間・回帰） | 335 |
 | 機械学習・モデル評価 | 104 |
 | 顧客分析・生存分析 | 77 |
 | SQL・データ処理 | 95 |
 | Excel | 12 |
-| 集計の定義・KPI | 174 |
+| 集計の定義・KPI | 176 |
 | 可視化・報告・BI | 47 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 21 |
 | 再現性・振り返り | 97 |
-| その他（記述・要因分解など） | 578 |
+| その他（記述・要因分解など） | 598 |
 
 <details><summary><b>予測・時系列</b>（142本）</summary>
 
@@ -284,7 +284,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（333本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（335本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -621,6 +621,8 @@
 | 1082 | 似た人どうしがつながっているのは、影響しあったからか、もとから似ていたからか？ | [1082_network_similar_influence_or_selection](articles/1082_network_similar_influence_or_selection) |
 | 1097 | ストーリーポイントで数えた「速さ」は、チームどうしで比べられるのか？ | [1097_story_points_team_velocity](articles/1097_story_points_team_velocity) |
 | 1146 | 短い区間ごとに測った大きさの最大値は、区間の長さでどう変わるのか？ | [1146_sound_short_window_max_length](articles/1146_sound_short_window_max_length) |
+| 1186 | 平均の対応時間が短い担当は、手早い担当なのか、易しい問い合わせを受けた担当なのか？ | [1186_inquiry_handle_time_mix](articles/1186_inquiry_handle_time_mix) |
+| 1191 | 「24時間以内に返事」の目標を置くと、返事までの時間の分布はどう形を変えるのか？ | [1191_inquiry_24h_target_shape](articles/1191_inquiry_24h_target_shape) |
 
 </details>
 
@@ -940,7 +942,7 @@
 
 </details>
 
-<details><summary><b>集計の定義・KPI</b>（174本）</summary>
+<details><summary><b>集計の定義・KPI</b>（176本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1118,6 +1120,8 @@
 | 1007 | 基準の年を変えると、指数の伸びはどう見えるのか？ | [1007_index_base_year_growth](articles/1007_index_base_year_growth) |
 | 1018 | キャンセル率は、何を分母にするかでどう変わるのか？ | [1018_cancel_rate_denominator](articles/1018_cancel_rate_denominator) |
 | 1025 | 予約を締め切る時刻で、埋まり具合の見え方は変わるのか？ | [1025_booking_cutoff_time_fill](articles/1025_booking_cutoff_time_fill) |
+| 1198 | 届かなかったアドレスを分母に残すか除くかで、開封率はどう変わるのか？ | [1198_mail_bounce_denominator_open_rate](articles/1198_mail_bounce_denominator_open_rate) |
+| 1208 | 送ってから何日目で開封率を締めるかで、遅く開く人の多い配信はどれだけ低く出るのか？ | [1208_mail_close_day_late_openers](articles/1208_mail_close_day_late_openers) |
 
 </details>
 
@@ -1387,7 +1391,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（578本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（598本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1969,6 +1973,26 @@
 | 1181 | 何口も申し込める人と1口だけの人では、1年で当たる回数の差はどれだけ開くのか？ | [1181_lottery_multi_entry_year_wins](articles/1181_lottery_multi_entry_year_wins) |
 | 1182 | 先着の枠と抽選の枠に分けると、抽選の枠の倍率はどう見えるのか？ | [1182_lottery_first_come_split_ratio](articles/1182_lottery_first_come_split_ratio) |
 | 1183 | 当選した人が来なかった割合を、申し込んだ人全体が来ない割合として読めるのか？ | [1183_lottery_winner_noshow_vs_all](articles/1183_lottery_winner_noshow_vs_all) |
+| 1185 | 1回で解決した割合は、何日以内に同じ人から再び来なければ解決と数えるかで、どれだけ変わるのか？ | [1185_inquiry_first_contact_window](articles/1185_inquiry_first_contact_window) |
+| 1187 | 返事までの時間を営業時間で数えるか暦の時間で数えるかで、遅く見える曜日はどう入れかわるのか？ | [1187_inquiry_reply_time_weekday_clock](articles/1187_inquiry_reply_time_weekday_clock) |
+| 1188 | よくある質問のページを増やして問い合わせが減ったとき、減ったのは解決した人か、あきらめた人か？ | [1188_inquiry_faq_solved_or_gave_up](articles/1188_inquiry_faq_solved_or_gave_up) |
+| 1189 | 1件が何往復もするとき、件数で数えるか往復の数で数えるかで、忙しい種類の順はどう変わるのか？ | [1189_inquiry_count_vs_round_trips](articles/1189_inquiry_count_vs_round_trips) |
+| 1190 | 自動の受付返信を「初めの返事」に数えると、初めの返事までの時間はどれだけ縮んで見えるのか？ | [1190_inquiry_auto_reply_first_response](articles/1190_inquiry_auto_reply_first_response) |
+| 1192 | 担当から担当へ回された問い合わせの解決を、どの担当に入れるかで、担当ごとの解決率はどう変わるのか？ | [1192_inquiry_transfer_credit](articles/1192_inquiry_transfer_credit) |
+| 1193 | 1つの不具合で問い合わせが一度に来ると、件数の上位の種類は何を表すのか？ | [1193_inquiry_bug_burst_top](articles/1193_inquiry_bug_burst_top) |
+| 1194 | 夜と休みの日に来た分を翌朝まとめて受けると、朝の返事までの時間はどう見えるのか？ | [1194_inquiry_morning_backlog_reply](articles/1194_inquiry_morning_backlog_reply) |
+| 1195 | 決まった文面で答えて1件の時間が縮んだとき、もう一度来る問い合わせはどれだけ増えるのか？ | [1195_inquiry_template_recontact](articles/1195_inquiry_template_recontact) |
+| 1196 | 返事が遅いほど満足度が低く見えるのは、遅さのせいか、難しい問い合わせほど遅く満足も低いからか？ | [1196_inquiry_slow_reply_satisfaction](articles/1196_inquiry_slow_reply_satisfaction) |
+| 1197 | 開封率で選ぶかクリック率で選ぶかで、良い件名は入れかわるのか？ | [1197_mail_open_vs_click_best_subject](articles/1197_mail_open_vs_click_best_subject) |
+| 1199 | 送る回数を増やすと、1通あたりの反応は下がっても、全体の反応はどう動くのか？ | [1199_mail_send_more_total_response](articles/1199_mail_send_more_total_response) |
+| 1200 | 配信停止の少ない月は、満足した月か、読まない人の多い月か？ | [1200_email_unsub_low_month_dormant](articles/1200_email_unsub_low_month_dormant) |
+| 1201 | 長く開いていない人に送るのをやめて開封率が上がったのは、メールが良くなったからか？ | [1201_email_stop_inactive_open_rate](articles/1201_email_stop_inactive_open_rate) |
+| 1202 | 件名を2つ試して勝った方は、次の配信でも同じだけ勝つか？ | [1202_email_subject_winner_next_send](articles/1202_email_subject_winner_next_send) |
+| 1203 | 登録して間もない人ほどよく開くとき、開封率の下がり方は読者の入れかわりでどれだけ説明できるのか？ | [1203_mail_new_readers_open_decline](articles/1203_mail_new_readers_open_decline) |
+| 1204 | 迷惑メールに振り分けられた分は、開封率の数字のどこに表れるのか？ | [1204_mail_spam_folder_open_rate](articles/1204_mail_spam_folder_open_rate) |
+| 1205 | 1通のリンクの数を増やすと、クリックした人の割合とクリックの回数はどう動くのか？ | [1205_mail_link_count_clicks](articles/1205_mail_link_count_clicks) |
+| 1206 | いくつかの配信リストを合わせて送ると、同じ人に2通届く割合はどれだけあるのか？ | [1206_mail_merged_lists_double_send](articles/1206_mail_merged_lists_double_send) |
+| 1207 | 一部の読者に試しに送った結果は、残りの読者に送ったときの数字にどれだけ当たるのか？ | [1207_mail_pilot_send_rest_match](articles/1207_mail_pilot_send_rest_match) |
 
 </details>
 
@@ -1977,16 +2001,16 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 227 |
-| EC・会員・Web | 104 |
-| マーケティング・広告 | 29 |
+| 小売・店舗 | 228 |
+| EC・会員・Web | 108 |
+| マーケティング・広告 | 33 |
 | 需要予測・在庫 | 31 |
-| 業務の集計・報告 | 140 |
+| 業務の集計・報告 | 142 |
 | 作業時間・処理件数 | 6 |
 | 保険 | 72 |
 | 公的統計・地域・人口 | 435 |
 
-<details><summary><b>小売・店舗</b>（227本）</summary>
+<details><summary><b>小売・店舗</b>（228本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2217,10 +2241,11 @@
 | 1044 | 全体から割合で割っていく概算と、1件ずつ積み上げる概算は、どれだけ食い違うのか？ | [1044_estimate_topdown_vs_bottomup](articles/1044_estimate_topdown_vs_bottomup) |
 | 1130 | 2枚の画像の「似ている度合い」は、画素ごとの差で測るか形で測るかで、似た組の順位がどう変わるのか？ | [1130_image_similarity_pixel_vs_shape](articles/1130_image_similarity_pixel_vs_shape) |
 | 1132 | 背景の色と照明が違うと、同じ商品の写真の色の数値はどれだけ動くのか？ | [1132_image_background_light_color](articles/1132_image_background_light_color) |
+| 1198 | 届かなかったアドレスを分母に残すか除くかで、開封率はどう変わるのか？ | [1198_mail_bounce_denominator_open_rate](articles/1198_mail_bounce_denominator_open_rate) |
 
 </details>
 
-<details><summary><b>EC・会員・Web</b>（104本）</summary>
+<details><summary><b>EC・会員・Web</b>（108本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2328,10 +2353,14 @@
 | 1084 | 少ないつながりでも、たどれば何人目で全員に届くのか？ | [1084_network_steps_reach_all](articles/1084_network_steps_reach_all) |
 | 1086 | 人数が倍になると、つながりの密度はどう変わるのか？ | [1086_network_density_size_double](articles/1086_network_density_size_double) |
 | 1178 | 優先の印を一部の人に配ると、印のない人の当たる見込みはどれだけ下がるのか？ | [1178_lottery_priority_mark](articles/1178_lottery_priority_mark) |
+| 1188 | よくある質問のページを増やして問い合わせが減ったとき、減ったのは解決した人か、あきらめた人か？ | [1188_inquiry_faq_solved_or_gave_up](articles/1188_inquiry_faq_solved_or_gave_up) |
+| 1197 | 開封率で選ぶかクリック率で選ぶかで、良い件名は入れかわるのか？ | [1197_mail_open_vs_click_best_subject](articles/1197_mail_open_vs_click_best_subject) |
+| 1203 | 登録して間もない人ほどよく開くとき、開封率の下がり方は読者の入れかわりでどれだけ説明できるのか？ | [1203_mail_new_readers_open_decline](articles/1203_mail_new_readers_open_decline) |
+| 1205 | 1通のリンクの数を増やすと、クリックした人の割合とクリックの回数はどう動くのか？ | [1205_mail_link_count_clicks](articles/1205_mail_link_count_clicks) |
 
 </details>
 
-<details><summary><b>マーケティング・広告</b>（29本）</summary>
+<details><summary><b>マーケティング・広告</b>（33本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2364,6 +2393,10 @@
 | 996 | 天気のよい日と比べた「集客の効果」は、何を読み違えるのか？ | [996_visitors_campaign_vs_sunny_days](articles/996_visitors_campaign_vs_sunny_days) |
 | 1088 | 新しい道具の使い始めは、まわりの何人が使えば広がるのか？ | [1088_network_adoption_how_many](articles/1088_network_adoption_how_many) |
 | 1178 | 優先の印を一部の人に配ると、印のない人の当たる見込みはどれだけ下がるのか？ | [1178_lottery_priority_mark](articles/1178_lottery_priority_mark) |
+| 1200 | 配信停止の少ない月は、満足した月か、読まない人の多い月か？ | [1200_email_unsub_low_month_dormant](articles/1200_email_unsub_low_month_dormant) |
+| 1201 | 長く開いていない人に送るのをやめて開封率が上がったのは、メールが良くなったからか？ | [1201_email_stop_inactive_open_rate](articles/1201_email_stop_inactive_open_rate) |
+| 1203 | 登録して間もない人ほどよく開くとき、開封率の下がり方は読者の入れかわりでどれだけ説明できるのか？ | [1203_mail_new_readers_open_decline](articles/1203_mail_new_readers_open_decline) |
+| 1204 | 迷惑メールに振り分けられた分は、開封率の数字のどこに表れるのか？ | [1204_mail_spam_folder_open_rate](articles/1204_mail_spam_folder_open_rate) |
 
 </details>
 
@@ -2405,7 +2438,7 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（140本）</summary>
+<details><summary><b>業務の集計・報告</b>（142本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2549,6 +2582,8 @@
 | 1025 | 予約を締め切る時刻で、埋まり具合の見え方は変わるのか？ | [1025_booking_cutoff_time_fill](articles/1025_booking_cutoff_time_fill) |
 | 1089 | 見つかったバグが減ったのは、品質が上がったからか、テストが減ったからか？ | [1089_bugs_fewer_found_quality_or_testing](articles/1089_bugs_fewer_found_quality_or_testing) |
 | 1184 | 申し込む人数の見込みから枠の数を決めると、見込みの外れで倍率はどれだけ振れるのか？ | [1184_lottery_seats_from_forecast_ratio](articles/1184_lottery_seats_from_forecast_ratio) |
+| 1191 | 「24時間以内に返事」の目標を置くと、返事までの時間の分布はどう形を変えるのか？ | [1191_inquiry_24h_target_shape](articles/1191_inquiry_24h_target_shape) |
+| 1208 | 送ってから何日目で開封率を締めるかで、遅く開く人の多い配信はどれだけ低く出るのか？ | [1208_mail_close_day_late_openers](articles/1208_mail_close_day_late_openers) |
 
 </details>
 
