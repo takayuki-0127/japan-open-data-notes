@@ -1,0 +1,134 @@
+{
+ "settings": {
+  "seats": 1000,
+  "want_mean": 3000,
+  "first_share": 0.4,
+  "p_lottery": 0.9,
+  "p_first": 0.6,
+  "reps_main": 2000,
+  "reps_grid": 200,
+  "seed": 1182
+ },
+ "headline": {
+  "base_overall_ratio": 2.9972,
+  "base_first_first_lottery_ratio": 3.8961,
+  "base_lottery_first_lottery_ratio": 4.4985,
+  "base_first_first_est_over_true": 1.2998,
+  "base_lottery_first_est_over_true": 1.5001,
+  "share80_lottery_first_ratio": 13.4999,
+  "share80_first_first_ratio": 9.8996,
+  "share0_lottery_ratio": 2.7006,
+  "robust_min": 0.6985,
+  "robust_max": 5.0
+ },
+ "base": {
+  "first": {
+   "overall_ratio": 2.9972,
+   "lottery_ratio": 3.8961,
+   "lottery_ratio_p10": 3.7865,
+   "lottery_ratio_p90": 4.0033,
+   "lottery_over_overall": 1.2998,
+   "est_want": 3896.1,
+   "est_over_true": 1.2998,
+   "seated_share": 0.3338,
+   "lottery_win_rate": 0.2568,
+   "first_tries": 1798.3,
+   "lottery_apps": 2337.7,
+   "empty_seats": 0.0,
+   "formula_lottery_ratio": 3.9,
+   "order": "先着が先"
+  },
+  "lottery": {
+   "overall_ratio": 2.9989,
+   "lottery_ratio": 4.4985,
+   "lottery_ratio_p10": 4.3883,
+   "lottery_ratio_p90": 4.61,
+   "lottery_over_overall": 1.5001,
+   "est_want": 4498.5,
+   "est_over_true": 1.5001,
+   "seated_share": 0.3336,
+   "lottery_win_rate": 0.2224,
+   "first_tries": 1439.4,
+   "lottery_apps": 2699.1,
+   "empty_seats": 0.0,
+   "formula_lottery_ratio": 4.5,
+   "order": "抽選が先"
+  }
+ },
+ "example_one_run": {
+  "want": 2942,
+  "got_first": 400,
+  "applied_lottery": 2305,
+  "won_lottery": 600,
+  "lottery_ratio": 3.8417
+ },
+ "robust": {
+  "n": 360,
+  "est_over_true_min": 0.6985,
+  "est_over_true_max": 5.0,
+  "est_over_true_median": 1.25,
+  "share_over_1_1": 64.44,
+  "share_under_0_9": 17.22,
+  "by_order": {
+   "先着が先": {
+    "min": 0.6985,
+    "median": 1.1673,
+    "max": 4.3341
+   },
+   "抽選が先": {
+    "min": 0.6993,
+    "median": 1.5005,
+    "max": 5.0
+   }
+  },
+  "share0_min": 0.6985,
+  "share0_max": 1.0,
+  "share_pos_lottery_first_min": 0.8738,
+  "share_pos_first_first_under1_pct": 16.67,
+  "max_gap_formula_when_full": 0.073,
+  "n_with_empty_seats": 66,
+  "n_ratio_over2_empty_over100": 26,
+  "empty_example": {
+   "order": "抽選が先",
+   "overall_ratio_set": 1.2,
+   "first_share_pct": 80,
+   "p_lottery": 0.9,
+   "p_first": 0.3,
+   "lottery_ratio": 5.3984,
+   "empty_seats": 499.34,
+   "seated_share": 0.4177
+  },
+  "by_share": [
+   {
+    "first_share_pct": 0,
+    "min": 0.6985,
+    "median": 0.9,
+    "max": 1.0
+   },
+   {
+    "first_share_pct": 20,
+    "min": 0.7286,
+    "median": 1.0686,
+    "max": 1.25
+   },
+   {
+    "first_share_pct": 40,
+    "min": 0.7761,
+    "median": 1.3171,
+    "max": 1.6667
+   },
+   {
+    "first_share_pct": 60,
+    "min": 0.8729,
+    "median": 1.7796,
+    "max": 2.5
+   },
+   {
+    "first_share_pct": 80,
+    "min": 1.1681,
+    "median": 3.502,
+    "max": 5.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "setup": {
+  "days": 5,
+  "cap_per_day": 100,
+  "shares_base": [
+   0.32,
+   0.26,
+   0.2,
+   0.13,
+   0.09
+  ],
+  "total_expected_base": 1000,
+  "noise_base": 0.15,
+  "reps": 2000
+ },
+ "base": {
+  "ratio_median": 3.151,
+  "ratio_p10": 2.616,
+  "ratio_p90": 3.8,
+  "p_hardest_mean_pct": 31.34,
+  "p_easiest_mean_pct": 97.94,
+  "overall_read_mean_pct": 50.35,
+  "actual_all_mean_pct": 48.97,
+  "hardest_vs_read_ratio": 0.622,
+  "share_rounds_some_day_under_cap_pct": 74.35,
+  "empty_seats_mean": 13.46,
+  "share_rounds_busiest_is_A_pct": 81.15,
+  "formula": {
+   "p_by_day_pct": [
+    31.25,
+    38.46,
+    50.0,
+    76.92,
+    100.0
+   ],
+   "ratio": 3.2,
+   "overall_read_pct": 50.0,
+   "all_win_pct": 49.0
+  }
+ },
+ "by_day_base": [
+  {
+   "day": "A日",
+   "expected_applicants": 320.0,
+   "applicants_mean": 319.1,
+   "win_prob_mean_pct": 32.11,
+   "win_prob_p10_pct": 25.97,
+   "win_prob_p90_pct": 38.76,
+   "win_prob_formula_pct": 31.25,
+   "under_cap_share_pct": 0.0
+  },
+  {
+   "day": "B日",
+   "expected_applicants": 260.0,
+   "applicants_mean": 259.39,
+   "win_prob_mean_pct": 39.62,
+   "win_prob_p10_pct": 31.75,
+   "win_prob_p90_pct": 48.31,
+   "win_prob_formula_pct": 38.46,
+   "under_cap_share_pct": 0.0
+  },
+  {
+   "day": "C日",
+   "expected_applicants": 200.0,
+   "applicants_mean": 200.91,
+   "win_prob_mean_pct": 51.17,
+   "win_prob_p10_pct": 40.32,
+   "win_prob_p90_pct": 62.5,
+   "win_prob_formula_pct": 50.0,
+   "under_cap_share_pct": 0.05
+  },
+  {
+   "day": "D日",
+   "expected_applicants": 130.0,
+   "applicants_mean": 130.06,
+   "win_prob_mean_pct": 78.52,
+   "win_prob_p10_pct": 62.89,
+   "win_prob_p90_pct": 98.04,
+   "win_prob_formula_pct": 76.92,
+   "under_cap_share_pct": 6.85
+  },
+  {
+   "day": "E日",
+   "expected_applicants": 90.0,
+   "applicants_mean": 90.0,
+   "win_prob_mean_pct": 97.58,
+   "win_prob_p10_pct": 90.09,
+   "win_prob_p90_pct": 100.0,
+   "win_prob_formula_pct": 100.0,
+   "under_cap_share_pct": 72.6
+  }
+ ],
+ "grid_summary": {
+  "ratio_median_range": [
+   1.11,
+   8.79
+  ],
+  "by_shares": {
+   "flat": {
+    "ratio_median_range": [
+     1.11,
+     2.006
+    ],
+    "hardest_vs_read_range": [
+     0.735,
+     0.947
+    ]
+   },
+   "base": {
+    "ratio_median_range": [
+     1.6,
+     4.048
+    ],
+    "hardest_vs_read_range": [
+     0.594,
+     0.642
+    ]
+   },
+   "strong": {
+    "ratio_median_range": [
+     2.18,
+     8.79
+    ],
+    "hardest_vs_read_range": [
+     0.444,
+     0.479
+    ]
+   }
+  },
+  "noise0_formula_max_abs_diff": 0.21,
+  "flat_noise_ratio": {
+   "0.0": [
+    1.11,
+    1.173
+   ],
+   "0.15": [
+    1.21,
+    1.456
+   ],
+   "0.3": [
+    1.366,
+    2.006
+   ]
+  }
+ }
+}

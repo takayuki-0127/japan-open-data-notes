@@ -1,0 +1,139 @@
+{
+ "setup": {
+  "people": 3000,
+  "rounds_per_year": 12,
+  "seats_base": 200,
+  "share_k_base": 0.2,
+  "k_base": 5,
+  "people_per_seat_base": 15.0,
+  "tickets_per_seat_base": 27.0,
+  "reps": 400,
+  "reps_grid": 150
+ },
+ "base": {
+  "mean_wins_1": 0.4628,
+  "mean_wins_k": 2.1489,
+  "ratio_mean": 4.644,
+  "per_round_p1_pct": 3.856,
+  "per_round_pk_pct": 17.908,
+  "zero_1_pct": 62.36,
+  "zero_k_pct": 9.43,
+  "zero_1_formula_pct": 62.38,
+  "zero_k_formula_pct": 9.37,
+  "ge3_1_pct": 0.97,
+  "ge3_k_pct": 36.61,
+  "pair_1_more_pct": 5.7,
+  "pair_same_pct": 15.37,
+  "share_people_k_pct": 20.0,
+  "share_wins_k_pct": 53.72,
+  "gap_mean": 1.6862,
+  "per_round_ratio": 4.644,
+  "ratio_of_tickets": 5
+ },
+ "by_k": [
+  {
+   "k": 1,
+   "mean_wins_1": 0.8,
+   "mean_wins_k": 0.8,
+   "ratio_mean": 1.0,
+   "zero_1_pct": 43.67,
+   "zero_k_pct": 43.67
+  },
+  {
+   "k": 2,
+   "mean_wins_1": 0.6731,
+   "mean_wins_k": 1.3078,
+   "ratio_mean": 1.943,
+   "zero_1_pct": 50.13,
+   "zero_k_pct": 25.1
+  },
+  {
+   "k": 3,
+   "mean_wins_1": 0.5836,
+   "mean_wins_k": 1.6654,
+   "ratio_mean": 2.853,
+   "zero_1_pct": 55.08,
+   "zero_k_pct": 16.63
+  },
+  {
+   "k": 5,
+   "mean_wins_1": 0.4635,
+   "mean_wins_k": 2.1462,
+   "ratio_mean": 4.631,
+   "zero_1_pct": 62.35,
+   "zero_k_pct": 9.4
+  },
+  {
+   "k": 10,
+   "mean_wins_1": 0.3101,
+   "mean_wins_k": 2.7597,
+   "ratio_mean": 8.9,
+   "zero_1_pct": 73.02,
+   "zero_k_pct": 4.41
+  }
+ ],
+ "grid_summary": {
+  "ratio_mean_range": [
+   2.655,
+   9.592
+  ],
+  "ratio_below_k_count": 27,
+  "zero_1_range": [
+   20.56,
+   91.35
+  ],
+  "zero_k_range": [
+   0.0,
+   50.66
+  ],
+  "pair_1_more_range": [
+   0.03,
+   12.14
+  ],
+  "zero_formula_max_abs_diff": 0.21,
+  "by_seats": {
+   "400": {
+    "ratio_mean_range": [
+     2.655,
+     8.65
+    ],
+    "zero_1_range": [
+     20.56,
+     67.01
+    ],
+    "zero_k_range": [
+     0.0,
+     5.28
+    ]
+   },
+   "200": {
+    "ratio_mean_range": [
+     2.826,
+     9.322
+    ],
+    "zero_1_range": [
+     47.0,
+     83.0
+    ],
+    "zero_k_range": [
+     0.17,
+     24.68
+    ]
+   },
+   "100": {
+    "ratio_mean_range": [
+     2.938,
+     9.592
+    ],
+    "zero_1_range": [
+     69.03,
+     91.35
+    ],
+    "zero_k_range": [
+     5.69,
+     50.66
+    ]
+   }
+  }
+ }
+}

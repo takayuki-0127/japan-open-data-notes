@@ -1,0 +1,214 @@
+{
+ "settings": {
+  "people": 4000,
+  "days": 4,
+  "days_applied_dist": [
+   0.5,
+   0.25,
+   0.15,
+   0.1
+  ],
+  "noshow_mean": 0.1,
+  "noshow_sd": 0.1,
+  "ratios": [
+   1.1,
+   1.5,
+   2,
+   3,
+   5,
+   10,
+   20
+  ],
+  "reps_main": 300,
+  "reps_grid": 60,
+  "seed": 1183
+ },
+ "headline": {
+  "true_person_noshow": 0.1,
+  "true_app_noshow": 0.1,
+  "winner_noshow_1_1": 0.49,
+  "winner_noshow_2": 0.3557,
+  "winner_noshow_5": 0.2163,
+  "winner_noshow_20": 0.132,
+  "extra_1_1": 0.4334,
+  "extra_20": 0.035,
+  "split_max_gap": 0.0008,
+  "over_1_1": 4.9035,
+  "over_20": 1.3201,
+  "robust_multi_min": 1.0689,
+  "robust_multi_max": 11.8585
+ },
+ "example_one_run_ratio2": {
+  "apps": 7338,
+  "seats_per_day": 917,
+  "ratio_real": 2.0005,
+  "true_person_noshow": 0.0995,
+  "true_app_noshow": 0.0993,
+  "winner_noshow": 0.3596,
+  "winner_people_noshow_own": 0.0993,
+  "multi_win_share": 0.3123,
+  "extra_win_share": 0.2833,
+  "cancelled": 0
+ },
+ "robust": {
+  "n": 144,
+  "winner_over_true_min": 0.9507,
+  "winner_over_true_max": 11.8585,
+  "one_day_slope0_min": 0.9507,
+  "one_day_slope0_max": 1.0294,
+  "one_day_all_min": 0.9507,
+  "one_day_all_max": 1.0323,
+  "multi_min": 1.0689,
+  "multi_max": 11.8585,
+  "multi_share_over_1_1": 98.96,
+  "by_ratio_multi": [
+   {
+    "ratio_set": 1.1,
+    "min": 2.1058,
+    "median": 4.7532,
+    "max": 11.8585
+   },
+   {
+    "ratio_set": 2.0,
+    "min": 1.6588,
+    "median": 3.3994,
+    "max": 8.4209
+   },
+   {
+    "ratio_set": 5.0,
+    "min": 1.2708,
+    "median": 2.111,
+    "max": 4.4511
+   },
+   {
+    "ratio_set": 20.0,
+    "min": 1.0689,
+    "median": 1.3589,
+    "max": 2.1441
+   }
+  ],
+  "by_ratio_multi_slope0": [
+   {
+    "ratio_set": 1.1,
+    "min": 2.1058,
+    "max": 11.8585
+   },
+   {
+    "ratio_set": 2.0,
+    "min": 1.6588,
+    "max": 8.4209
+   },
+   {
+    "ratio_set": 5.0,
+    "min": 1.2708,
+    "max": 4.4511
+   },
+   {
+    "ratio_set": 20.0,
+    "min": 1.0689,
+    "max": 1.8873
+   }
+  ],
+  "by_days_multi": [
+   {
+    "days_applied": "何日も多め",
+    "min": 1.1038,
+    "median": 2.6286,
+    "max": 11.8585
+   },
+   {
+    "days_applied": "基本",
+    "min": 1.0689,
+    "median": 2.1848,
+    "max": 9.229
+   }
+  ],
+  "by_noshow_multi": [
+   {
+    "noshow_set": 0.05,
+    "min": 1.3672,
+    "median": 4.3215,
+    "max": 11.8585
+   },
+   {
+    "noshow_set": 0.1,
+    "min": 1.1559,
+    "median": 2.6169,
+    "max": 6.1454
+   },
+   {
+    "noshow_set": 0.2,
+    "min": 1.0689,
+    "median": 1.7156,
+    "max": 3.2869
+   }
+  ],
+  "by_cancel_multi": [
+   {
+    "cancel": 0.0,
+    "min": 1.1286,
+    "median": 2.7386,
+    "max": 11.8585
+   },
+   {
+    "cancel": 0.5,
+    "min": 1.0689,
+    "median": 2.0672,
+    "max": 8.6028
+   }
+  ],
+  "slope_multi_true_app_over_person_min": 1.099,
+  "slope_multi_true_app_over_person_max": 1.4487,
+  "slope_ratio20_median_true_app_over_person": 1.2108,
+  "base_cancel": [
+   {
+    "ratio_set": 1.1,
+    "cancel": 0.0,
+    "winner_noshow": 0.4898,
+    "winner_over_true": 4.9061
+   },
+   {
+    "ratio_set": 1.1,
+    "cancel": 0.5,
+    "winner_noshow": 0.3483,
+    "winner_over_true": 3.481
+   },
+   {
+    "ratio_set": 2.0,
+    "cancel": 0.0,
+    "winner_noshow": 0.3549,
+    "winner_over_true": 3.5559
+   },
+   {
+    "ratio_set": 2.0,
+    "cancel": 0.5,
+    "winner_noshow": 0.2495,
+    "winner_over_true": 2.4944
+   },
+   {
+    "ratio_set": 5.0,
+    "cancel": 0.0,
+    "winner_noshow": 0.2194,
+    "winner_over_true": 2.1933
+   },
+   {
+    "ratio_set": 5.0,
+    "cancel": 0.5,
+    "winner_noshow": 0.1635,
+    "winner_over_true": 1.629
+   },
+   {
+    "ratio_set": 20.0,
+    "cancel": 0.0,
+    "winner_noshow": 0.1283,
+    "winner_over_true": 1.2844
+   },
+   {
+    "ratio_set": 20.0,
+    "cancel": 0.5,
+    "winner_noshow": 0.1154,
+    "winner_over_true": 1.1559
+   }
+  ]
+ }
+}

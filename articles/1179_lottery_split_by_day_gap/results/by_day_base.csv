@@ -1,0 +1,6 @@
+day,expected_applicants,applicants_mean,win_prob_mean_pct,win_prob_p10_pct,win_prob_p90_pct,win_prob_formula_pct,under_cap_share_pct
+A日,320.0,319.1,32.11,25.97,38.76,31.25,0.0
+B日,260.0,259.39,39.62,31.75,48.31,38.46,0.0
+C日,200.0,200.91,51.17,40.32,62.5,50.0,0.05
+D日,130.0,130.06,78.52,62.89,98.04,76.92,6.85
+E日,90.0,90.0,97.58,90.09,100.0,100.0,72.6

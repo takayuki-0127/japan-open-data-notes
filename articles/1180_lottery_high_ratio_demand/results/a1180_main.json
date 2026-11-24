@@ -1,0 +1,89 @@
+{
+ "setup": {
+  "rounds": 200,
+  "top": 20,
+  "demand_median": 300,
+  "demand_log_sd": 0.6,
+  "seat_median": 100,
+  "match_c_base": 0.7,
+  "seat_sd_base": 0.4,
+  "apply_rate_center": 0.6,
+  "apply_sd_base": 0.5,
+  "reps": 1000,
+  "reps_grid": 300
+ },
+ "one_year": {
+  "ratio_median": 1.736,
+  "ratio_max": 4.175,
+  "rounds_ratio_below1": 28,
+  "top20_ratio_overlap_pct": 15.0,
+  "top20_apply_overlap_pct": 60.0
+ },
+ "base": {
+  "top20_overlap_ratio_pct": 25.35,
+  "top20_overlap_applicants_pct": 78.08,
+  "top20_overlap_small_seats_pct": 0.01,
+  "top20_overlap_random_pct": 10.0,
+  "corr_log_ratio_demand": 0.365,
+  "corr_log_ratio_demand_formula": 0.373,
+  "corr_log_applicants_demand": 0.941,
+  "top20_ratio_demand_median_rel": 1.501,
+  "top20_ratio_small_seat_share_pct": 55.43
+ },
+ "grid_summary": {
+  "ratio_overlap_range": [
+   11.83,
+   73.2
+  ],
+  "applicants_overlap_range": [
+   65.37,
+   88.47
+  ],
+  "applicants_beats_ratio_count": 27,
+  "corr_vs_formula_max_abs_diff": 0.02,
+  "by_c": {
+   "0.0": {
+    "ratio_overlap_range": [
+     36.23,
+     73.2
+    ],
+    "applicants_overlap_range": [
+     65.37,
+     87.43
+    ],
+    "corr_ratio_range": [
+     0.54,
+     0.931
+    ]
+   },
+   "0.5": {
+    "ratio_overlap_range": [
+     23.17,
+     55.45
+    ],
+    "applicants_overlap_range": [
+     65.7,
+     87.68
+    ],
+    "corr_ratio_range": [
+     0.312,
+     0.793
+    ]
+   },
+   "0.9": {
+    "ratio_overlap_range": [
+     11.83,
+     18.83
+    ],
+    "applicants_overlap_range": [
+     65.62,
+     88.47
+    ],
+    "corr_ratio_range": [
+     0.068,
+     0.256
+    ]
+   }
+  }
+ }
+}
