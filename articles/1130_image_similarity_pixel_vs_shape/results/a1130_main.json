@@ -1,0 +1,193 @@
+{
+ "base": {
+  "win": 7,
+  "bright": 25,
+  "noise": 12.0,
+  "contrast": 0.7,
+  "shift": 2
+ },
+ "image_size": 48,
+ "n_products": 30,
+ "kinds": [
+  "元",
+  "明るさ違い",
+  "濃淡の幅違い",
+  "2画素ずれ",
+  "ぼかし",
+  "粒"
+ ],
+ "result": {
+  "n_images": 180,
+  "n_pairs": 16110,
+  "K": 450,
+  "precision_pixel": 57.6,
+  "precision_shape": 52.2,
+  "overlap_top": 187,
+  "rank_corr_all": 0.443,
+  "n_diff_in_top_pixel": 191,
+  "n_diff_in_top_shape": 215,
+  "by_kind": {
+   "明るさ違い": {
+    "n": 30,
+    "top_pixel": 33.3,
+    "top_shape": 100.0,
+    "median_rank_pixel": 469,
+    "median_rank_shape": 17
+   },
+   "濃淡の幅違い": {
+    "n": 30,
+    "top_pixel": 100.0,
+    "top_shape": 100.0,
+    "median_rank_pixel": 55,
+    "median_rank_shape": 59
+   },
+   "2画素ずれ": {
+    "n": 30,
+    "top_pixel": 40.0,
+    "top_shape": 46.7,
+    "median_rank_pixel": 707,
+    "median_rank_shape": 627
+   },
+   "ぼかし": {
+    "n": 30,
+    "top_pixel": 100.0,
+    "top_shape": 100.0,
+    "median_rank_pixel": 39,
+    "median_rank_shape": 136
+   },
+   "粒": {
+    "n": 30,
+    "top_pixel": 100.0,
+    "top_shape": 0.0,
+    "median_rank_pixel": 74,
+    "median_rank_shape": 8299
+   }
+  },
+  "bg_share_all_products": 87.2,
+  "bg_share_diff_top_pixel": 93.4,
+  "bg_share_diff_top_shape": 95.4,
+  "best_diff_pair_pixel": {
+   "rank_pixel": 96,
+   "rank_shape": 341,
+   "pixel": 12.3,
+   "shape": 0.817
+  },
+  "example_product_A": {
+   "明るさ違い": {
+    "pixel": 25.0,
+    "shape": 0.992
+   },
+   "濃淡の幅違い": {
+    "pixel": 10.92,
+    "shape": 0.978
+   },
+   "2画素ずれ": {
+    "pixel": 25.28,
+    "shape": 0.746
+   },
+   "ぼかし": {
+    "pixel": 9.17,
+    "shape": 0.921
+   },
+   "粒": {
+    "pixel": 11.91,
+    "shape": 0.512
+   },
+   "別の商品（画素の差でいちばん近い）": {
+    "pixel": 31.53,
+    "shape": 0.673
+   }
+  },
+  "self_check": {
+   "pixel": 0.0,
+   "shape": 1.0
+  }
+ },
+ "grid": {
+  "win": [
+   5,
+   7,
+   11
+  ],
+  "bright": [
+   10,
+   25,
+   40
+  ],
+  "noise": [
+   6.0,
+   12.0,
+   24.0
+  ],
+  "summary": {
+   "precision_pixel": [
+    41.3,
+    76.7
+   ],
+   "precision_shape": [
+    44.4,
+    82.7
+   ],
+   "overlap_top": [
+    180.0,
+    350.0
+   ],
+   "rank_corr_all": [
+    0.37,
+    0.644
+   ],
+   "top_pixel_明るさ違い": [
+    6.7,
+    100.0
+   ],
+   "top_shape_明るさ違い": [
+    100.0,
+    100.0
+   ],
+   "top_pixel_濃淡の幅違い": [
+    83.3,
+    100.0
+   ],
+   "top_shape_濃淡の幅違い": [
+    100.0,
+    100.0
+   ],
+   "top_pixel_2画素ずれ": [
+    16.7,
+    40.0
+   ],
+   "top_shape_2画素ずれ": [
+    23.3,
+    63.3
+   ],
+   "top_pixel_ぼかし": [
+    93.3,
+    100.0
+   ],
+   "top_shape_ぼかし": [
+    83.3,
+    100.0
+   ],
+   "top_pixel_粒": [
+    40.0,
+    100.0
+   ],
+   "top_shape_粒": [
+    0.0,
+    100.0
+   ],
+   "n_shape_better": 12,
+   "n": 27,
+   "n_shape_better_by_win": {
+    "5": 1,
+    "7": 4,
+    "11": 7
+   },
+   "n_shape_better_by_bright": {
+    "10": 2,
+    "25": 4,
+    "40": 6
+   }
+  }
+ }
+}

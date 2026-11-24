@@ -1,0 +1,146 @@
+{
+ "examples": {
+  "300": {
+   "alias_formula": 200,
+   "seen": {
+    "間引く": 200,
+    "まとめて平均": 200,
+    "ぼかしてから間引く": 200
+   },
+   "contrast": {
+    "間引く": 1.0,
+    "まとめて平均": 0.5237,
+    "ぼかしてから間引く": 0.1692
+   }
+  },
+  "480": {
+   "alias_formula": 20,
+   "seen": {
+    "間引く": 20,
+    "まとめて平均": 20,
+    "ぼかしてから間引く": 20
+   },
+   "contrast": {
+    "間引く": 1.0,
+    "まとめて平均": 0.0458,
+    "ぼかしてから間引く": 0.0106
+   }
+  },
+  "700": {
+   "alias_formula": 200,
+   "seen": {
+    "間引く": 200,
+    "まとめて平均": 200,
+    "ぼかしてから間引く": 200
+   },
+   "contrast": {
+    "間引く": 1.0,
+    "まとめて平均": 0.2668,
+    "ぼかしてから間引く": 0.0001
+   }
+  },
+  "900": {
+   "alias_formula": 100,
+   "seen": {
+    "間引く": 100,
+    "まとめて平均": 100,
+    "ぼかしてから間引く": 100
+   },
+   "contrast": {
+    "間引く": 1.0,
+    "まとめて平均": 0.1488,
+    "ぼかしてから間引く": 0.0
+   }
+  },
+  "500": {
+   "thin_mean_min": 0.0,
+   "thin_mean_max": 1.0,
+   "thin_within_sd_max": 0.0,
+   "thin_mean_outside_0.25_0.75_share": 0.6595,
+   "box_mean_min": 0.5,
+   "box_mean_max": 0.5
+  }
+ },
+ "slanted": {
+  "orig_fx": 147,
+  "orig_fy": 85,
+  "orig_freq": 169.81,
+  "orig_angle_deg": 30.0,
+  "seen_fx": 47,
+  "seen_fy": -15,
+  "seen_freq": 49.34,
+  "seen_angle_deg": -17.7
+ },
+ "grid_range": {
+  "間引く（0.0）": {
+   "false_ge10_min": 0.9545,
+   "false_ge10_max": 1.0,
+   "keep08_min": 1.0,
+   "keep08_max": 1.0
+  },
+  "まとめて平均（0.0）": {
+   "false_ge10_min": 0.5909,
+   "false_ge10_max": 0.86,
+   "keep08_min": 0.7599,
+   "keep08_max": 0.809
+  },
+  "ぼかしてから間引く（0.25）": {
+   "false_ge10_min": 0.2386,
+   "false_ge10_max": 0.98,
+   "keep08_min": 0.8165,
+   "keep08_max": 0.8209
+  },
+  "ぼかしてから間引く（0.5）": {
+   "false_ge10_min": 0.0568,
+   "false_ge10_max": 0.36,
+   "keep08_min": 0.4444,
+   "keep08_max": 0.454
+  },
+  "ぼかしてから間引く（0.75）": {
+   "false_ge10_min": 0.0,
+   "false_ge10_max": 0.0,
+   "keep08_min": 0.1612,
+   "keep08_max": 0.1692
+  }
+ },
+ "by_method": [
+  {
+   "method": "間引く",
+   "false_ge10_share": 0.9733,
+   "false_contrast_mean": 0.969,
+   "false_contrast_max": 1.0,
+   "keep_f100": 1.0,
+   "keep_f200": 1.0,
+   "keep_f240": 1.0,
+   "seen_matches_formula_share": 0.9733
+  },
+  {
+   "method": "まとめて平均",
+   "false_ge10_share": 0.7867,
+   "false_contrast_mean": 0.2185,
+   "false_contrast_max": 0.6282,
+   "keep_f100": 0.9393,
+   "keep_f200": 0.7694,
+   "keep_f240": 0.6778,
+   "seen_matches_formula_share": 0.9733
+  },
+  {
+   "method": "ぼかしてから間引く",
+   "false_ge10_share": 0.12,
+   "false_contrast_mean": 0.0289,
+   "false_contrast_max": 0.2633,
+   "keep_f100": 0.8209,
+   "keep_f200": 0.454,
+   "keep_f240": 0.3208,
+   "seen_matches_formula_share": 0.9733
+  }
+ ],
+ "settings": {
+  "N": 2000,
+  "K": 4,
+  "small_pixels": 500,
+  "limit_cycles_small": 250,
+  "threshold": 0.1,
+  "blur_sigma_px": 2.0
+ }
+}

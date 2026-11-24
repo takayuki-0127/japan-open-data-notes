@@ -1,0 +1,245 @@
+{
+ "sim_check": {
+  "max_abs_diff": 0.0006,
+  "limit_sim_step25": {
+   "1000": 475.0,
+   "2000": 650.0
+  },
+  "note": "縞の細かさは25組きざみ。画素の数の半分より細かい縞は測らない"
+ },
+ "noise_flat_gray": {
+  "1000": {
+   "pixel_sd": 0.01002,
+   "shown_1000_sd": 0.01002
+  },
+  "2000": {
+   "pixel_sd": 0.01999,
+   "shown_1000_sd": 0.00999
+  },
+  "4000": {
+   "pixel_sd": 0.04003,
+   "shown_1000_sd": 0.01001
+  }
+ },
+ "grid_side2": {
+  "limit_ratio_min": 1.0,
+  "limit_ratio_max": 2.0,
+  "n_ratio_lt_1_1": 15,
+  "n_cases": 24,
+  "n_ratio_2": 5,
+  "n_ratio_lt_1_5": 18,
+  "by_blur_th10": {
+   "0.0": 2.0,
+   "0.25": 2.0,
+   "0.5": 1.31,
+   "0.75": 1.0567,
+   "1.0": 1.0336,
+   "1.5": 1.0135,
+   "2.0": 1.0059,
+   "3.0": 1.0
+  }
+ },
+ "grid_all": {
+  "ratio_min_by_mult": {
+   "2": 1.0,
+   "3": 1.0,
+   "4": 1.0
+  },
+  "ratio_max_by_mult": {
+   "2": 2.0,
+   "3": 3.0,
+   "4": 4.0
+  }
+ },
+ "by_pixels": [
+  {
+   "blur_base_px": 0.0,
+   "pixels_wide": 1000,
+   "pixels_total": 1000000,
+   "limit_cycles": 500.0,
+   "f_mod50": 603.0,
+   "mod_at_250": 0.9003,
+   "mod_at_450": 0.6986,
+   "limit_cycles_ratio_vs_1000": 1.0,
+   "f_mod50_ratio_vs_1000": 1.0,
+   "pixels_total_ratio": 1.0
+  },
+  {
+   "blur_base_px": 0.0,
+   "pixels_wide": 2000,
+   "pixels_total": 4000000,
+   "limit_cycles": 1000.0,
+   "f_mod50": 1206.0,
+   "mod_at_250": 0.9745,
+   "mod_at_450": 0.9188,
+   "limit_cycles_ratio_vs_1000": 2.0,
+   "f_mod50_ratio_vs_1000": 2.0,
+   "pixels_total_ratio": 4.0
+  },
+  {
+   "blur_base_px": 0.0,
+   "pixels_wide": 4000,
+   "pixels_total": 16000000,
+   "limit_cycles": 2000.0,
+   "f_mod50": 2413.0,
+   "mod_at_250": 0.9936,
+   "mod_at_450": 0.9793,
+   "limit_cycles_ratio_vs_1000": 4.0,
+   "f_mod50_ratio_vs_1000": 4.0017,
+   "pixels_total_ratio": 16.0
+  },
+  {
+   "blur_base_px": 0.5,
+   "pixels_wide": 1000,
+   "pixels_total": 1000000,
+   "limit_cycles": 500.0,
+   "f_mod50": 323.0,
+   "mod_at_250": 0.6614,
+   "mod_at_450": 0.2572,
+   "limit_cycles_ratio_vs_1000": 1.0,
+   "f_mod50_ratio_vs_1000": 1.0,
+   "pixels_total_ratio": 1.0
+  },
+  {
+   "blur_base_px": 0.5,
+   "pixels_wide": 2000,
+   "pixels_total": 4000000,
+   "limit_cycles": 655.0,
+   "f_mod50": 359.0,
+   "mod_at_250": 0.7159,
+   "mod_at_450": 0.3382,
+   "limit_cycles_ratio_vs_1000": 1.31,
+   "f_mod50_ratio_vs_1000": 1.1115,
+   "pixels_total_ratio": 4.0
+  },
+  {
+   "blur_base_px": 0.5,
+   "pixels_wide": 4000,
+   "pixels_total": 16000000,
+   "limit_cycles": 676.0,
+   "f_mod50": 370.0,
+   "mod_at_250": 0.7299,
+   "mod_at_450": 0.3605,
+   "limit_cycles_ratio_vs_1000": 1.352,
+   "f_mod50_ratio_vs_1000": 1.1455,
+   "pixels_total_ratio": 16.0
+  },
+  {
+   "blur_base_px": 1.0,
+   "pixels_wide": 1000,
+   "pixels_total": 1000000,
+   "limit_cycles": 327.0,
+   "f_mod50": 179.0,
+   "mod_at_250": 0.2622,
+   "mod_at_450": 0.0128,
+   "limit_cycles_ratio_vs_1000": 1.0,
+   "f_mod50_ratio_vs_1000": 1.0,
+   "pixels_total_ratio": 1.0
+  },
+  {
+   "blur_base_px": 1.0,
+   "pixels_wide": 2000,
+   "pixels_total": 4000000,
+   "limit_cycles": 338.0,
+   "f_mod50": 185.0,
+   "mod_at_250": 0.2838,
+   "mod_at_450": 0.0169,
+   "limit_cycles_ratio_vs_1000": 1.0336,
+   "f_mod50_ratio_vs_1000": 1.0335,
+   "pixels_total_ratio": 4.0
+  },
+  {
+   "blur_base_px": 1.0,
+   "pixels_wide": 4000,
+   "pixels_total": 16000000,
+   "limit_cycles": 340.0,
+   "f_mod50": 186.0,
+   "mod_at_250": 0.2893,
+   "mod_at_450": 0.018,
+   "limit_cycles_ratio_vs_1000": 1.0398,
+   "f_mod50_ratio_vs_1000": 1.0391,
+   "pixels_total_ratio": 16.0
+  }
+ ],
+ "shown_1000": [
+  {
+   "blur_base_px": 0.0,
+   "pixels_wide": 1000,
+   "limit_shown_1000": 500.0,
+   "mod_at_250_shown_1000": 0.9003,
+   "limit_ratio_vs_1000": 1.0,
+   "mod250_ratio_vs_1000": 1.0
+  },
+  {
+   "blur_base_px": 0.0,
+   "pixels_wide": 2000,
+   "limit_shown_1000": 500.0,
+   "mod_at_250_shown_1000": 0.8774,
+   "limit_ratio_vs_1000": 1.0,
+   "mod250_ratio_vs_1000": 0.9746
+  },
+  {
+   "blur_base_px": 0.0,
+   "pixels_wide": 4000,
+   "limit_shown_1000": 500.0,
+   "mod_at_250_shown_1000": 0.8945,
+   "limit_ratio_vs_1000": 1.0,
+   "mod250_ratio_vs_1000": 0.9936
+  },
+  {
+   "blur_base_px": 0.5,
+   "pixels_wide": 1000,
+   "limit_shown_1000": 500.0,
+   "mod_at_250_shown_1000": 0.6614,
+   "limit_ratio_vs_1000": 1.0,
+   "mod250_ratio_vs_1000": 1.0
+  },
+  {
+   "blur_base_px": 0.5,
+   "pixels_wide": 2000,
+   "limit_shown_1000": 500.0,
+   "mod_at_250_shown_1000": 0.6445,
+   "limit_ratio_vs_1000": 1.0,
+   "mod250_ratio_vs_1000": 0.9744
+  },
+  {
+   "blur_base_px": 0.5,
+   "pixels_wide": 4000,
+   "limit_shown_1000": 500.0,
+   "mod_at_250_shown_1000": 0.6571,
+   "limit_ratio_vs_1000": 1.0,
+   "mod250_ratio_vs_1000": 0.9935
+  },
+  {
+   "blur_base_px": 1.0,
+   "pixels_wide": 1000,
+   "limit_shown_1000": 327.0,
+   "mod_at_250_shown_1000": 0.2622,
+   "limit_ratio_vs_1000": 1.0,
+   "mod250_ratio_vs_1000": 1.0
+  },
+  {
+   "blur_base_px": 1.0,
+   "pixels_wide": 2000,
+   "limit_shown_1000": 324.0,
+   "mod_at_250_shown_1000": 0.2555,
+   "limit_ratio_vs_1000": 0.9908,
+   "mod250_ratio_vs_1000": 0.9744
+  },
+  {
+   "blur_base_px": 1.0,
+   "pixels_wide": 4000,
+   "limit_shown_1000": 326.0,
+   "mod_at_250_shown_1000": 0.2605,
+   "limit_ratio_vs_1000": 0.9969,
+   "mod250_ratio_vs_1000": 0.9935
+  }
+ ],
+ "settings": {
+  "N0": 1000,
+  "threshold": 0.1,
+  "noise0": 0.01,
+  "band": 0.01,
+  "blur_base_px": 0.5
+ }
+}

@@ -1,0 +1,4 @@
+method,false_ge10_share,false_contrast_mean,false_contrast_max,keep_f100,keep_f200,keep_f240,seen_matches_formula_share
+間引く,0.9733,0.969,1.0,1.0,1.0,1.0,0.9733
+まとめて平均,0.7867,0.2185,0.6282,0.9393,0.7694,0.6778,0.9733
+ぼかしてから間引く,0.12,0.0289,0.2633,0.8209,0.454,0.3208,0.9733

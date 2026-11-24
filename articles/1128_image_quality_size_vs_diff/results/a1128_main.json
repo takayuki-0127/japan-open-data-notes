@@ -1,0 +1,374 @@
+{
+ "base": {
+  "alpha": 0.5,
+  "noise": 1.0,
+  "block": 8
+ },
+ "image_size": 128,
+ "n_images_per_type": 16,
+ "qualities": [
+  95,
+  90,
+  80,
+  70,
+  60,
+  50,
+  40,
+  30,
+  20,
+  10,
+  5
+ ],
+ "step_by_quality": {
+  "95": 0.66,
+  "90": 0.871,
+  "80": 1.516,
+  "70": 2.639,
+  "60": 4.595,
+  "50": 8.0,
+  "40": 13.929,
+  "30": 24.251,
+  "20": 42.224,
+  "10": 73.517,
+  "5": 97.006
+ },
+ "step_by_quality_linear": {
+  "95": 5.5,
+  "90": 10.5,
+  "80": 20.5,
+  "70": 30.5,
+  "60": 40.5,
+  "50": 50.5,
+  "40": 60.5,
+  "30": 70.5,
+  "20": 80.5,
+  "10": 90.5,
+  "5": 95.5
+ },
+ "by_type_linear_step": {
+  "なめらか": {
+   "share_size_drop_95_50": 88.5,
+   "share_rms_rise_95_50": 66.3,
+   "q_half": 69.8,
+   "rms_at_half": 2.71,
+   "size_ratio_q50": 0.329,
+   "rms_q50": 3.37
+  },
+  "色の板": {
+   "share_size_drop_95_50": 90.7,
+   "share_rms_rise_95_50": 69.5,
+   "q_half": 83.3,
+   "rms_at_half": 4.87,
+   "size_ratio_q50": 0.241,
+   "rms_q50": 7.64
+  },
+  "細かい縞": {
+   "share_size_drop_95_50": 91.2,
+   "share_rms_rise_95_50": 66.6,
+   "q_half": 87.2,
+   "rms_at_half": 7.12,
+   "size_ratio_q50": 0.147,
+   "rms_q50": 18.74
+  },
+  "ざらざら": {
+   "share_size_drop_95_50": 91.4,
+   "share_rms_rise_95_50": 86.0,
+   "q_half": 84.6,
+   "rms_at_half": 12.95,
+   "size_ratio_q50": 0.125,
+   "rms_q50": 21.6
+  }
+ },
+ "by_type": {
+  "なめらか": {
+   "bytes_q95": 4232.0,
+   "bytes_q50": 605.0,
+   "bytes_q10": 191.0,
+   "size_ratio_q50": 0.143,
+   "size_ratio_q10": 0.045,
+   "rms_q95": 0.84,
+   "rms_q90": 0.94,
+   "rms_q50": 1.33,
+   "rms_q10": 3.88,
+   "edge_q50": 1.09,
+   "edge_q10": 5.18,
+   "size_shrink_90_50": 5.07,
+   "rms_grow_90_50": 1.41,
+   "size_shrink_50_10": 3.17,
+   "rms_grow_50_10": 2.92,
+   "q_half": 83.5,
+   "rms_at_half": 1.02,
+   "share_size_drop_95_50": 89.3,
+   "share_rms_rise_95_50": 13.4
+  },
+  "色の板": {
+   "bytes_q95": 7912.0,
+   "bytes_q50": 1286.0,
+   "bytes_q10": 306.0,
+   "size_ratio_q50": 0.157,
+   "size_ratio_q10": 0.038,
+   "rms_q95": 0.95,
+   "rms_q90": 1.2,
+   "rms_q50": 3.49,
+   "rms_q10": 8.89,
+   "edge_q50": 0.65,
+   "edge_q10": 3.57,
+   "size_shrink_90_50": 5.3,
+   "rms_grow_90_50": 2.9,
+   "size_shrink_50_10": 4.21,
+   "rms_grow_50_10": 2.55,
+   "q_half": 76.9,
+   "rms_at_half": 1.87,
+   "share_size_drop_95_50": 86.5,
+   "share_rms_rise_95_50": 28.5
+  },
+  "細かい縞": {
+   "bytes_q95": 10081.0,
+   "bytes_q50": 1391.0,
+   "bytes_q10": 179.0,
+   "size_ratio_q50": 0.136,
+   "size_ratio_q10": 0.018,
+   "rms_q95": 0.95,
+   "rms_q90": 1.21,
+   "rms_q50": 5.13,
+   "rms_q10": 23.58,
+   "edge_q50": 3.04,
+   "edge_q10": 16.71,
+   "size_shrink_90_50": 6.24,
+   "rms_grow_90_50": 4.25,
+   "size_shrink_50_10": 7.76,
+   "rms_grow_50_10": 4.6,
+   "q_half": 76.6,
+   "rms_at_half": 2.08,
+   "share_size_drop_95_50": 87.2,
+   "share_rms_rise_95_50": 16.5
+  },
+  "ざらざら": {
+   "bytes_q95": 15325.0,
+   "bytes_q50": 5208.0,
+   "bytes_q10": 457.0,
+   "size_ratio_q50": 0.34,
+   "size_ratio_q10": 0.03,
+   "rms_q95": 0.95,
+   "rms_q90": 1.23,
+   "rms_q50": 8.43,
+   "rms_q10": 23.31,
+   "edge_q50": 1.78,
+   "edge_q10": 15.75,
+   "size_shrink_90_50": 2.73,
+   "rms_grow_90_50": 6.88,
+   "size_shrink_50_10": 11.39,
+   "rms_grow_50_10": 2.76,
+   "q_half": 61.6,
+   "rms_at_half": 5.17,
+   "share_size_drop_95_50": 67.2,
+   "share_rms_rise_95_50": 32.3
+  }
+ },
+ "order_q50": {
+  "size_ratio_small_to_large": [
+   "細かい縞",
+   "なめらか",
+   "色の板",
+   "ざらざら"
+  ],
+  "rms_small_to_large": [
+   "なめらか",
+   "色の板",
+   "細かい縞",
+   "ざらざら"
+  ]
+ },
+ "grid": {
+  "alpha": [
+   0.25,
+   0.5,
+   1.0
+  ],
+  "noise": [
+   0.5,
+   1.0,
+   2.0
+  ],
+  "block": [
+   4,
+   8,
+   16
+  ],
+  "n_images_per_type": 6,
+  "summary": {
+   "なめらか": {
+    "size_shrink_90_50": [
+     2.43,
+     13.11
+    ],
+    "rms_grow_90_50": [
+     1.27,
+     3.16
+    ],
+    "size_shrink_50_10": [
+     2.33,
+     4.78
+    ],
+    "rms_grow_50_10": [
+     1.7,
+     3.99
+    ],
+    "size_ratio_q50": [
+     0.066,
+     0.352
+    ],
+    "q_half": [
+     61.3,
+     84.6
+    ],
+    "n_q_half_missing": 0,
+    "share_size_drop_95_50": [
+     72.5,
+     95.3
+    ],
+    "share_rms_rise_95_50": [
+     10.0,
+     41.4
+    ],
+    "rms_at_half": [
+     0.63,
+     1.86
+    ]
+   },
+   "色の板": {
+    "size_shrink_90_50": [
+     3.2,
+     7.3
+    ],
+    "rms_grow_90_50": [
+     2.34,
+     5.5
+    ],
+    "size_shrink_50_10": [
+     3.56,
+     6.39
+    ],
+    "rms_grow_50_10": [
+     1.89,
+     4.88
+    ],
+    "size_ratio_q50": [
+     0.115,
+     0.251
+    ],
+    "q_half": [
+     67.9,
+     82.2
+    ],
+    "n_q_half_missing": 0,
+    "share_size_drop_95_50": [
+     78.8,
+     90.5
+    ],
+    "share_rms_rise_95_50": [
+     11.8,
+     44.5
+    ],
+    "rms_at_half": [
+     0.95,
+     3.76
+    ]
+   },
+   "細かい縞": {
+    "size_shrink_90_50": [
+     4.44,
+     7.53
+    ],
+    "rms_grow_90_50": [
+     3.03,
+     6.46
+    ],
+    "size_shrink_50_10": [
+     5.24,
+     13.63
+    ],
+    "rms_grow_50_10": [
+     2.98,
+     5.73
+    ],
+    "size_ratio_q50": [
+     0.114,
+     0.205
+    ],
+    "q_half": [
+     67.5,
+     80.1
+    ],
+    "n_q_half_missing": 0,
+    "share_size_drop_95_50": [
+     81.0,
+     89.4
+    ],
+    "share_rms_rise_95_50": [
+     12.6,
+     29.7
+    ],
+    "rms_at_half": [
+     1.15,
+     3.68
+    ]
+   },
+   "ざらざら": {
+    "size_shrink_90_50": [
+     1.84,
+     4.9
+    ],
+    "rms_grow_90_50": [
+     4.37,
+     8.42
+    ],
+    "size_shrink_50_10": [
+     4.72,
+     28.19
+    ],
+    "rms_grow_50_10": [
+     1.41,
+     5.44
+    ],
+    "size_ratio_q50": [
+     0.18,
+     0.519
+    ],
+    "q_half": [
+     48.4,
+     71.5
+    ],
+    "n_q_half_missing": 0,
+    "share_size_drop_95_50": [
+     52.2,
+     82.5
+    ],
+    "share_rms_rise_95_50": [
+     14.9,
+     66.4
+    ],
+    "rms_at_half": [
+     2.68,
+     11.09
+    ]
+   },
+   "n_rms_grow_gt_size_shrink_50_10": 15,
+   "n_rms_grow_gt_size_shrink_90_50": 40,
+   "n_rows": 108,
+   "n_size_share_gt_rms_share": 108,
+   "share_gap_range": [
+    16.1,
+    79.2
+   ],
+   "share_size_drop_95_50_all": [
+    52.2,
+    95.3
+   ],
+   "share_rms_rise_95_50_all": [
+    10.0,
+    66.4
+   ]
+  }
+ }
+}

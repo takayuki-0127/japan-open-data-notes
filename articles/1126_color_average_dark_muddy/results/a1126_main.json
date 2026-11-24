@@ -1,0 +1,185 @@
+{
+ "random_pairs": {
+  "pairs": 20000,
+  "darker_share": 1.0,
+  "not_lighter_share": 1.0,
+  "dL_mean": -4.687,
+  "dL_p10": -10.505,
+  "dL_min": -19.81,
+  "dC_mean": 0.968,
+  "duller_share": 0.4299,
+  "Yratio_mean": 0.8283,
+  "dL_le_minus5_share": 0.3735
+ },
+ "red_green_edge": {
+  "L_value_min": 45.2,
+  "w_at_min": 0.27,
+  "L_light_min": 53.2,
+  "L_red": 53.2,
+  "L_green": 87.7
+ },
+ "grid": {
+  "cases": 48,
+  "dL_mean_min": -13.701,
+  "dL_mean_max": -0.192,
+  "darker_or_same_min": 1.0,
+  "duller_share_min": 0.3254,
+  "duller_share_max": 0.4852,
+  "dL_mean_w50_by_curve": {
+   "一般的な式（約2.2乗）": -4.704,
+   "1.8乗": -3.089,
+   "2.2乗": -4.663,
+   "2.6乗": -6.156
+  },
+  "dL_mean_w50_by_colors": {
+   "でたらめ（0〜1）": -4.704,
+   "淡い色（0.6〜1）": -0.5,
+   "暗い色（0〜0.4）": -1.956,
+   "強い色（各色0か1寄り）": -10.952
+  }
+ },
+ "example_pairs": [
+  {
+   "pair": "白と黒",
+   "value_mix_255": "128/128/128",
+   "light_mix_255": "188/188/188",
+   "L_value_mix": 53.4,
+   "L_light_mix": 76.1,
+   "C_value_mix": 0.0,
+   "C_light_mix": 0.0,
+   "light_share_value_mix": 0.214,
+   "light_share_light_mix": 0.5
+  },
+  {
+   "pair": "赤と緑",
+   "value_mix_255": "128/128/0",
+   "light_mix_255": "188/188/0",
+   "L_value_mix": 51.7,
+   "L_light_mix": 73.8,
+   "C_value_mix": 58.0,
+   "C_light_mix": 76.9,
+   "light_share_value_mix": 0.1986,
+   "light_share_light_mix": 0.4639
+  },
+  {
+   "pair": "赤と青",
+   "value_mix_255": "128/0/128",
+   "light_mix_255": "188/0/188",
+   "L_value_mix": 29.7,
+   "L_light_mix": 44.6,
+   "C_value_mix": 69.1,
+   "C_light_mix": 91.7,
+   "light_share_value_mix": 0.061,
+   "light_share_light_mix": 0.1424
+  },
+  {
+   "pair": "黄と青",
+   "value_mix_255": "128/128/128",
+   "light_mix_255": "188/188/188",
+   "L_value_mix": 53.4,
+   "L_light_mix": 76.1,
+   "C_value_mix": 0.0,
+   "C_light_mix": 0.0,
+   "light_share_value_mix": 0.214,
+   "light_share_light_mix": 0.5
+  },
+  {
+   "pair": "橙と水色",
+   "value_mix_255": "128/153/128",
+   "light_mix_255": "188/156/188",
+   "L_value_mix": 60.7,
+   "L_light_mix": 68.0,
+   "C_value_mix": 17.6,
+   "C_light_mix": 21.1,
+   "light_share_value_mix": 0.2888,
+   "light_share_light_mix": 0.3791
+  },
+  {
+   "pair": "灰50と灰60",
+   "value_mix_255": "140/140/140",
+   "light_mix_255": "141/141/141",
+   "L_value_mix": 58.3,
+   "L_light_mix": 58.6,
+   "C_value_mix": 0.0,
+   "C_light_mix": 0.0,
+   "light_share_value_mix": 0.2633,
+   "light_share_light_mix": 0.2663
+  }
+ ],
+ "by_color_difference": [
+  {
+   "dE_bin": "0〜10",
+   "pairs": 109,
+   "dL_mean": -0.1134,
+   "dL_min": -0.5635,
+   "dC_mean": 0.2246,
+   "duller_share": 0.2661,
+   "Yratio_mean": 0.9939
+  },
+  {
+   "dE_bin": "10〜25",
+   "pairs": 853,
+   "dL_mean": -0.5467,
+   "dL_min": -3.6443,
+   "dC_mean": 0.8531,
+   "duller_share": 0.2556,
+   "Yratio_mean": 0.9749
+  },
+  {
+   "dE_bin": "25〜50",
+   "pairs": 3527,
+   "dL_mean": -1.7521,
+   "dL_min": -9.5743,
+   "dC_mean": 1.8314,
+   "duller_share": 0.3178,
+   "Yratio_mean": 0.9258
+  },
+  {
+   "dE_bin": "50〜75",
+   "pairs": 4910,
+   "dL_mean": -3.4091,
+   "dL_min": -15.2172,
+   "dC_mean": 2.0717,
+   "duller_share": 0.3978,
+   "Yratio_mean": 0.8651
+  },
+  {
+   "dE_bin": "75以上",
+   "pairs": 10601,
+   "dL_mean": -6.6359,
+   "dL_min": -19.8095,
+   "dC_mean": 0.1858,
+   "duller_share": 0.4977,
+   "Yratio_mean": 0.7653
+  }
+ ],
+ "stripe_shrink": [
+  {
+   "stripe": "白黒の1画素の縞",
+   "L_value_shrink": 53.4,
+   "L_light_shrink": 76.1,
+   "C_value_shrink": 0.0,
+   "C_light_shrink": 0.0,
+   "value_shrink_255": "128/128/128",
+   "light_shrink_255": "188/188/188"
+  },
+  {
+   "stripe": "赤緑の1画素の縞",
+   "L_value_shrink": 44.5,
+   "L_light_shrink": 57.1,
+   "C_value_shrink": 38.7,
+   "C_light_shrink": 52.1,
+   "value_shrink_255": "128/102/38",
+   "light_shrink_255": "169/132/40"
+  },
+  {
+   "stripe": "紺と黄の1画素の縞",
+   "L_value_shrink": 52.9,
+   "L_light_shrink": 66.3,
+   "C_value_shrink": 25.6,
+   "C_light_shrink": 39.3,
+   "value_shrink_255": "134/128/83",
+   "light_shrink_255": "179/161/90"
+  }
+ ]
+}
