@@ -1,0 +1,333 @@
+{
+ "scenarios_200reps": [
+  {
+   "scenario": "①同じ力・難しさの差なし",
+   "rater_acc_set": "80%・80%・80%",
+   "difficulty_sd": 0.0,
+   "single_mean": 80.0,
+   "single_best": 80.05,
+   "majority": 89.69,
+   "majority_formula": 89.6,
+   "maj_minus_mean": 9.68,
+   "maj_minus_best": 9.64,
+   "share_reps_maj_lt_best": 0.0,
+   "share_items_p_lt_half": 0.0,
+   "pos_share_true": 30.08,
+   "pos_share_single": 38.03,
+   "pos_share_majority": 34.12
+  },
+  {
+   "scenario": "②同じ力・難しさの差あり",
+   "rater_acc_set": "80%・80%・80%",
+   "difficulty_sd": 1.5,
+   "single_mean": 80.0,
+   "single_best": 80.12,
+   "majority": 84.66,
+   "majority_formula": 84.72,
+   "maj_minus_mean": 4.66,
+   "maj_minus_best": 4.54,
+   "share_reps_maj_lt_best": 0.0,
+   "share_items_p_lt_half": 10.03,
+   "pos_share_true": 30.06,
+   "pos_share_single": 38.05,
+   "pos_share_majority": 36.2
+  },
+  {
+   "scenario": "③力に差・難しさの差なし",
+   "rater_acc_set": "90%・70%・70%",
+   "difficulty_sd": 0.0,
+   "single_mean": 76.68,
+   "single_best": 90.02,
+   "majority": 86.77,
+   "majority_formula": 86.8,
+   "maj_minus_mean": 10.09,
+   "maj_minus_best": -3.25,
+   "share_reps_maj_lt_best": 99.5,
+   "share_items_p_lt_half": 0.0,
+   "pos_share_true": 29.91,
+   "pos_share_single": 39.29,
+   "pos_share_majority": 35.22
+  },
+  {
+   "scenario": "④力に差・難しさの差あり",
+   "rater_acc_set": "90%・70%・70%",
+   "difficulty_sd": 1.5,
+   "single_mean": 76.75,
+   "single_best": 90.07,
+   "majority": 81.65,
+   "majority_formula": 81.58,
+   "maj_minus_mean": 4.91,
+   "maj_minus_best": -8.41,
+   "share_reps_maj_lt_best": 100.0,
+   "share_items_p_lt_half": 12.18,
+   "pos_share_true": 30.02,
+   "pos_share_single": 39.27,
+   "pos_share_majority": 37.3
+  }
+ ],
+ "by_difficulty_scen2": [
+  {
+   "bin": "30%未満",
+   "share_items": 3.23,
+   "single": 20.36,
+   "majority": 11.71,
+   "maj_minus_single": -8.65
+  },
+  {
+   "bin": "30〜50%",
+   "share_items": 6.8,
+   "single": 41.26,
+   "majority": 36.91,
+   "maj_minus_single": -4.35
+  },
+  {
+   "bin": "50〜70%",
+   "share_items": 13.82,
+   "single": 61.04,
+   "majority": 65.79,
+   "maj_minus_single": 4.75
+  },
+  {
+   "bin": "70〜90%",
+   "share_items": 33.54,
+   "single": 81.83,
+   "majority": 90.68,
+   "maj_minus_single": 8.85
+  },
+  {
+   "bin": "90%以上",
+   "share_items": 42.61,
+   "single": 95.41,
+   "majority": 99.18,
+   "maj_minus_single": 3.77
+  }
+ ],
+ "equal_skill_line_formula": [
+  {
+   "difficulty_sd": 0.0,
+   "single": 80.0,
+   "majority_formula": 89.6
+  },
+  {
+   "difficulty_sd": 0.25,
+   "single": 80.0,
+   "majority_formula": 89.32
+  },
+  {
+   "difficulty_sd": 0.5,
+   "single": 80.0,
+   "majority_formula": 88.57
+  },
+  {
+   "difficulty_sd": 0.75,
+   "single": 80.0,
+   "majority_formula": 87.57
+  },
+  {
+   "difficulty_sd": 1.0,
+   "single": 80.0,
+   "majority_formula": 86.52
+  },
+  {
+   "difficulty_sd": 1.25,
+   "single": 80.0,
+   "majority_formula": 85.56
+  },
+  {
+   "difficulty_sd": 1.5,
+   "single": 80.0,
+   "majority_formula": 84.72
+  },
+  {
+   "difficulty_sd": 1.75,
+   "single": 80.0,
+   "majority_formula": 84.02
+  },
+  {
+   "difficulty_sd": 2.0,
+   "single": 80.0,
+   "majority_formula": 83.44
+  },
+  {
+   "difficulty_sd": 2.25,
+   "single": 80.0,
+   "majority_formula": 82.96
+  },
+  {
+   "difficulty_sd": 2.5,
+   "single": 80.0,
+   "majority_formula": 82.56
+  },
+  {
+   "difficulty_sd": 2.75,
+   "single": 80.0,
+   "majority_formula": 82.24
+  },
+  {
+   "difficulty_sd": 3.0,
+   "single": 80.0,
+   "majority_formula": 81.96
+  }
+ ],
+ "gap_line_formula": [
+  {
+   "difficulty_sd": 0.0,
+   "best": 90.0,
+   "majority_formula": 86.8
+  },
+  {
+   "difficulty_sd": 0.25,
+   "best": 90.0,
+   "majority_formula": 86.5
+  },
+  {
+   "difficulty_sd": 0.5,
+   "best": 90.0,
+   "majority_formula": 85.69
+  },
+  {
+   "difficulty_sd": 0.75,
+   "best": 90.0,
+   "majority_formula": 84.62
+  },
+  {
+   "difficulty_sd": 1.0,
+   "best": 90.0,
+   "majority_formula": 83.51
+  },
+  {
+   "difficulty_sd": 1.25,
+   "best": 90.0,
+   "majority_formula": 82.49
+  },
+  {
+   "difficulty_sd": 1.5,
+   "best": 90.0,
+   "majority_formula": 81.58
+  },
+  {
+   "difficulty_sd": 1.75,
+   "best": 90.0,
+   "majority_formula": 80.81
+  },
+  {
+   "difficulty_sd": 2.0,
+   "best": 90.0,
+   "majority_formula": 80.14
+  },
+  {
+   "difficulty_sd": 2.25,
+   "best": 90.0,
+   "majority_formula": 79.56
+  },
+  {
+   "difficulty_sd": 2.5,
+   "best": 90.0,
+   "majority_formula": 79.06
+  },
+  {
+   "difficulty_sd": 2.75,
+   "best": 90.0,
+   "majority_formula": 78.62
+  },
+  {
+   "difficulty_sd": 3.0,
+   "best": 90.0,
+   "majority_formula": 78.23
+  }
+ ],
+ "robust": {
+  "n_settings": 72,
+  "n_equal_skill": 6,
+  "equal_maj_minus_mean_range": [
+   1.97,
+   9.65
+  ],
+  "n_gap": 66,
+  "gap_n_maj_lt_best": 56,
+  "gap_maj_minus_best_range": [
+   -24.14,
+   6.12
+  ],
+  "all_n_maj_lt_mean": 1,
+  "max_abs_sim_minus_formula": 0.5,
+  "scen_max_abs_sim_minus_formula": 0.09,
+  "gap_sd0_n_maj_lt_best": 8,
+  "gap_sd0_n": 11,
+  "gap_sd3_n_maj_lt_best": 11,
+  "gap_sd3_n": 11,
+  "maj_ge_best_list": [
+   {
+    "difficulty_sd": 0.0,
+    "strong_acc": 0.8,
+    "weak_acc": 0.7,
+    "maj_minus_best": 2.41
+   },
+   {
+    "difficulty_sd": 0.0,
+    "strong_acc": 0.85,
+    "weak_acc": 0.8,
+    "maj_minus_best": 6.12
+   },
+   {
+    "difficulty_sd": 0.0,
+    "strong_acc": 0.9,
+    "weak_acc": 0.8,
+    "maj_minus_best": 2.68
+   },
+   {
+    "difficulty_sd": 0.5,
+    "strong_acc": 0.8,
+    "weak_acc": 0.7,
+    "maj_minus_best": 1.48
+   },
+   {
+    "difficulty_sd": 0.5,
+    "strong_acc": 0.85,
+    "weak_acc": 0.8,
+    "maj_minus_best": 5.09
+   },
+   {
+    "difficulty_sd": 0.5,
+    "strong_acc": 0.9,
+    "weak_acc": 0.8,
+    "maj_minus_best": 1.87
+   },
+   {
+    "difficulty_sd": 1.0,
+    "strong_acc": 0.85,
+    "weak_acc": 0.8,
+    "maj_minus_best": 3.29
+   },
+   {
+    "difficulty_sd": 1.0,
+    "strong_acc": 0.9,
+    "weak_acc": 0.8,
+    "maj_minus_best": 0.17
+   },
+   {
+    "difficulty_sd": 1.5,
+    "strong_acc": 0.85,
+    "weak_acc": 0.8,
+    "maj_minus_best": 1.66
+   },
+   {
+    "difficulty_sd": 2.0,
+    "strong_acc": 0.85,
+    "weak_acc": 0.8,
+    "maj_minus_best": 0.19
+   }
+  ]
+ },
+ "one_set_scen2": {
+  "acc_r": [
+   78.5,
+   79.3,
+   79.3
+  ],
+  "acc_majority": 83.1,
+  "share_items_all3_wrong": 4.1,
+  "share_items_all3_right": 58.1,
+  "share_items_p_lt_half": 10.1
+ }
+}

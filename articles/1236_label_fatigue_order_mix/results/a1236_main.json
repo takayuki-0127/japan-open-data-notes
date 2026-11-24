@@ -1,0 +1,134 @@
+{
+ "headline": {
+  "block": {
+   "order": "block",
+   "order_name": "① 毎日 A→B→C にまとめる",
+   "label_A_pct": 13.93,
+   "label_B_pct": 11.25,
+   "label_C_pct": 9.4,
+   "label_all_pct": 11.52,
+   "true_all_pct": 10.07,
+   "error_pct": 4.3,
+   "miss_pct": 14.15,
+   "over_pct": 3.2,
+   "label_first_half_pct": 13.2,
+   "label_second_half_pct": 9.84,
+   "C_minus_A_pt": -4.53,
+   "C_minus_A_p10_pt": -5.89,
+   "C_minus_A_p90_pt": -3.11,
+   "share_C_below_A_pct": 100.0
+  },
+  "shuffle": {
+   "order": "shuffle",
+   "order_name": "② 毎日ばらばら",
+   "label_A_pct": 11.52,
+   "label_B_pct": 11.44,
+   "label_C_pct": 11.38,
+   "label_all_pct": 11.45,
+   "true_all_pct": 9.95,
+   "error_pct": 4.33,
+   "miss_pct": 14.22,
+   "over_pct": 3.23,
+   "label_first_half_pct": 13.12,
+   "label_second_half_pct": 9.78,
+   "C_minus_A_pt": -0.13,
+   "C_minus_A_p10_pt": -1.39,
+   "C_minus_A_p90_pt": 1.17,
+   "share_C_below_A_pct": 56.5
+  },
+  "rotate": {
+   "order": "rotate",
+   "order_name": "③ 日ごとに順を回す",
+   "label_A_pct": 11.43,
+   "label_B_pct": 11.51,
+   "label_C_pct": 11.48,
+   "label_all_pct": 11.47,
+   "true_all_pct": 9.97,
+   "error_pct": 4.32,
+   "miss_pct": 14.14,
+   "over_pct": 3.23,
+   "label_first_half_pct": 13.15,
+   "label_second_half_pct": 9.79,
+   "C_minus_A_pt": 0.05,
+   "C_minus_A_p10_pt": -1.33,
+   "C_minus_A_p90_pt": 1.23,
+   "share_C_below_A_pct": 44.0
+  }
+ },
+ "formula": {
+  "block_A": 13.8,
+  "block_B": 11.26,
+  "block_C": 9.36,
+  "all": 11.48,
+  "start_rate": 15.34,
+  "end_rate": 8.56,
+  "miss_start": 6.68,
+  "miss_end": 24.11,
+  "over_start": 6.68,
+  "over_end": 1.08,
+  "no_fatigue_rate": 15.34
+ },
+ "true_diff": [
+  {
+   "order": "block",
+   "order_name": "① 毎日 A→B→C にまとめる",
+   "label_A_pct": 12.18,
+   "label_B_pct": 11.21,
+   "label_C_pct": 10.81,
+   "C_minus_A_pt": -1.37,
+   "true_C_minus_A_pt": 3.87,
+   "share_C_below_A_pct": 92.0
+  },
+  {
+   "order": "shuffle",
+   "order_name": "② 毎日ばらばら",
+   "label_A_pct": 9.86,
+   "label_B_pct": 11.53,
+   "label_C_pct": 13.1,
+   "C_minus_A_pt": 3.24,
+   "true_C_minus_A_pt": 3.91,
+   "share_C_below_A_pct": 0.0
+  },
+  {
+   "order": "rotate",
+   "order_name": "③ 日ごとに順を回す",
+   "label_A_pct": 9.78,
+   "label_B_pct": 11.55,
+   "label_C_pct": 13.13,
+   "C_minus_A_pt": 3.34,
+   "true_C_minus_A_pt": 4.04,
+   "share_C_below_A_pct": 0.5
+  }
+ ],
+ "example_one_run_block": {
+  "A": 13.39,
+  "B": 12.11,
+  "C": 9.94,
+  "true_A": 10.72,
+  "true_B": 11.5,
+  "true_C": 9.94
+ },
+ "robust": {
+  "settings": 27,
+  "block_C_minus_A_min": -13.41,
+  "block_C_minus_A_max": -1.44,
+  "block_negative_count": 27,
+  "shuffle_abs_max": 0.53,
+  "rotate_abs_max": 0.55,
+  "block_vs_formula_absdiff_max": 0.46,
+  "label_all_minus_true_min": -7.11,
+  "label_all_minus_true_max": 4.93,
+  "order_label_all_spread_max": 0.3
+ },
+ "setup": {
+  "days": 18,
+  "per_day": 300,
+  "true_rate": 0.1,
+  "signal": 3.0,
+  "start_threshold": 1.5,
+  "threshold_rise_per_300": 0.8,
+  "end_threshold": 2.2973,
+  "end_threshold_at_300": 2.3,
+  "reps": 200
+ }
+}

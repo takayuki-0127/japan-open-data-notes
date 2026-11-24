@@ -1,0 +1,127 @@
+{
+ "base_200reps": [
+  {
+   "setting": "対称（境目の上下0.4を除く）",
+   "share_unsure": 28.89,
+   "acc_kept_vs_label": 87.36,
+   "acc_kept_vs_true": 87.54,
+   "acc_all_vs_true": 81.13,
+   "acc_unsure_vs_true": 65.46,
+   "noexcl_seen": 79.27,
+   "noexcl_all_vs_true": 81.13,
+   "best_kept": 87.57,
+   "best_all": 81.15,
+   "label_err_kept": 1.38,
+   "pos_true": 40.05,
+   "pos_kept_label": 37.52,
+   "pos_pred_all": 37.81,
+   "pos_pred_noexcl": 37.76,
+   "conf_all": 84.97,
+   "conf_noexcl": 79.75,
+   "w_norm_drop": 1.842,
+   "w_norm_all": 1.257,
+   "gap_seen_minus_all": 6.23,
+   "best_kept_minus_all": 6.42,
+   "drop_minus_noexcl": 0.0
+  },
+  {
+   "setting": "片寄り（下0.4・上0.8を除く）",
+   "share_unsure": 39.99,
+   "acc_kept_vs_label": 91.9,
+   "acc_kept_vs_true": 91.64,
+   "acc_all_vs_true": 79.9,
+   "acc_unsure_vs_true": 62.2,
+   "noexcl_seen": 79.29,
+   "noexcl_all_vs_true": 81.08,
+   "best_kept": 90.74,
+   "best_all": 81.12,
+   "label_err_kept": 0.83,
+   "pos_true": 39.91,
+   "pos_kept_label": 25.97,
+   "pos_pred_all": 28.86,
+   "pos_pred_noexcl": 37.66,
+   "conf_all": 88.24,
+   "conf_noexcl": 79.9,
+   "w_norm_drop": 2.196,
+   "w_norm_all": 1.266,
+   "gap_seen_minus_all": 12.0,
+   "best_kept_minus_all": 9.62,
+   "drop_minus_noexcl": -1.18
+  }
+ ],
+ "robust": {
+  "n_settings": 30,
+  "gap_range_all": [
+   -0.5,
+   25.54
+  ],
+  "n_gap_positive": 29,
+  "gap_range_halfwidth01": [
+   -0.5,
+   2.08
+  ],
+  "share_unsure_range": [
+   7.37,
+   66.06
+  ],
+  "best_kept_minus_all_range": [
+   1.06,
+   17.46
+  ],
+  "conf_minus_acc_range": [
+   -1.15,
+   21.03
+  ],
+  "n_conf_over_acc": 28,
+  "noexcl_gap_range": [
+   -3.25,
+   -0.82
+  ],
+  "sym_drop_minus_noexcl_range": [
+   -0.11,
+   0.07
+  ],
+  "asym_drop_minus_noexcl_range": [
+   -6.44,
+   0.03
+  ],
+  "asym_n_drop_worse": 14,
+  "asym_n": 15,
+  "sym_n_drop_worse": 9,
+  "sym_n": 15,
+  "asym_pos_pred_range": [
+   13.46,
+   37.63
+  ],
+  "sym_pos_pred_range": [
+   32.86,
+   39.66
+  ],
+  "gap_by_cue": {
+   "0.5": [
+    -0.5,
+    16.59
+   ],
+   "1.0": [
+    0.36,
+    21.21
+   ],
+   "2.0": [
+    0.6,
+    25.54
+   ]
+  }
+ },
+ "setting": {
+  "prev": 0.4,
+  "boundary": 0.253347,
+  "n_train": 2000,
+  "n_test": 2000,
+  "rater_sd": 0.3,
+  "cue_sd_base": 1.0
+ },
+ "one_set": {
+  "share_unsure": 30.5,
+  "n_unsure": 610
+ }
+}

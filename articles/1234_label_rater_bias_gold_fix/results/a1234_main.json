@@ -1,0 +1,591 @@
+{
+ "base_by_gold_200reps": [
+  {
+   "gold_type": "でたらめに選ぶ",
+   "gold_n": 10,
+   "mae_raw": 8.67,
+   "mae_fixed": 14.09,
+   "bias_raw": 2.48,
+   "bias_fixed": 5.13,
+   "share_fixed_worse": 46.5,
+   "share_fixed_off_10pt": 44.1,
+   "share_not_fixable": 10.3,
+   "rankcorr_raw": 0.546,
+   "rankcorr_fixed": 0.495,
+   "miss_true": 23.27,
+   "miss_hat": 22.75,
+   "over_true": 9.43,
+   "over_hat": 9.64
+  },
+  {
+   "gold_type": "でたらめに選ぶ",
+   "gold_n": 20,
+   "mae_raw": 8.62,
+   "mae_fixed": 10.99,
+   "bias_raw": 2.57,
+   "bias_fixed": 3.76,
+   "share_fixed_worse": 46.9,
+   "share_fixed_off_10pt": 32.5,
+   "share_not_fixable": 1.2,
+   "rankcorr_raw": 0.545,
+   "rankcorr_fixed": 0.638,
+   "miss_true": 23.1,
+   "miss_hat": 23.11,
+   "over_true": 9.42,
+   "over_hat": 9.46
+  },
+  {
+   "gold_type": "でたらめに選ぶ",
+   "gold_n": 50,
+   "mae_raw": 8.66,
+   "mae_fixed": 6.76,
+   "bias_raw": 2.78,
+   "bias_fixed": 1.49,
+   "share_fixed_worse": 38.5,
+   "share_fixed_off_10pt": 19.9,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.53,
+   "rankcorr_fixed": 0.778,
+   "miss_true": 22.6,
+   "miss_hat": 22.75,
+   "over_true": 9.55,
+   "over_hat": 9.55
+  },
+  {
+   "gold_type": "でたらめに選ぶ",
+   "gold_n": 100,
+   "mae_raw": 8.45,
+   "mae_fixed": 5.08,
+   "bias_raw": 2.5,
+   "bias_fixed": 0.74,
+   "share_fixed_worse": 31.6,
+   "share_fixed_off_10pt": 11.2,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.541,
+   "rankcorr_fixed": 0.838,
+   "miss_true": 23.54,
+   "miss_hat": 23.9,
+   "over_true": 9.23,
+   "over_hat": 9.34
+  },
+  {
+   "gold_type": "でたらめに選ぶ",
+   "gold_n": 200,
+   "mae_raw": 8.63,
+   "mae_fixed": 4.17,
+   "bias_raw": 3.02,
+   "bias_fixed": 0.21,
+   "share_fixed_worse": 25.8,
+   "share_fixed_off_10pt": 6.8,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.523,
+   "rankcorr_fixed": 0.877,
+   "miss_true": 22.4,
+   "miss_hat": 22.35,
+   "over_true": 9.71,
+   "over_hat": 9.72
+  },
+  {
+   "gold_type": "でたらめに選ぶ",
+   "gold_n": 1000,
+   "mae_raw": 8.74,
+   "mae_fixed": 3.52,
+   "bias_raw": 2.93,
+   "bias_fixed": 0.35,
+   "share_fixed_worse": 22.9,
+   "share_fixed_off_10pt": 3.5,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.536,
+   "rankcorr_fixed": 0.921,
+   "miss_true": 22.73,
+   "miss_hat": 22.81,
+   "over_true": 9.78,
+   "over_hat": 9.77
+  },
+  {
+   "gold_type": "傷あり・なし半分ずつ",
+   "gold_n": 10,
+   "mae_raw": 8.74,
+   "mae_fixed": 11.53,
+   "bias_raw": 3.22,
+   "bias_fixed": 3.21,
+   "share_fixed_worse": 53.4,
+   "share_fixed_off_10pt": 44.0,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.527,
+   "rankcorr_fixed": 0.544,
+   "miss_true": 22.18,
+   "miss_hat": 22.71,
+   "over_true": 9.86,
+   "over_hat": 9.82
+  },
+  {
+   "gold_type": "傷あり・なし半分ずつ",
+   "gold_n": 20,
+   "mae_raw": 8.56,
+   "mae_fixed": 8.45,
+   "bias_raw": 2.84,
+   "bias_fixed": 1.35,
+   "share_fixed_worse": 48.3,
+   "share_fixed_off_10pt": 31.2,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.528,
+   "rankcorr_fixed": 0.66,
+   "miss_true": 22.53,
+   "miss_hat": 22.38,
+   "over_true": 9.56,
+   "over_hat": 9.43
+  },
+  {
+   "gold_type": "傷あり・なし半分ずつ",
+   "gold_n": 50,
+   "mae_raw": 8.73,
+   "mae_fixed": 6.03,
+   "bias_raw": 2.95,
+   "bias_fixed": 0.78,
+   "share_fixed_worse": 38.2,
+   "share_fixed_off_10pt": 18.5,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.55,
+   "rankcorr_fixed": 0.788,
+   "miss_true": 22.72,
+   "miss_hat": 22.69,
+   "over_true": 9.6,
+   "over_hat": 9.56
+  },
+  {
+   "gold_type": "傷あり・なし半分ずつ",
+   "gold_n": 100,
+   "mae_raw": 8.65,
+   "mae_fixed": 4.73,
+   "bias_raw": 2.89,
+   "bias_fixed": 0.19,
+   "share_fixed_worse": 29.6,
+   "share_fixed_off_10pt": 9.5,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.49,
+   "rankcorr_fixed": 0.839,
+   "miss_true": 22.61,
+   "miss_hat": 22.74,
+   "over_true": 9.65,
+   "over_hat": 9.75
+  },
+  {
+   "gold_type": "傷あり・なし半分ずつ",
+   "gold_n": 200,
+   "mae_raw": 8.35,
+   "mae_fixed": 4.14,
+   "bias_raw": 2.25,
+   "bias_fixed": 0.49,
+   "share_fixed_worse": 27.1,
+   "share_fixed_off_10pt": 6.3,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.541,
+   "rankcorr_fixed": 0.89,
+   "miss_true": 23.72,
+   "miss_hat": 23.58,
+   "over_true": 9.03,
+   "over_hat": 9.01
+  },
+  {
+   "gold_type": "傷あり・なし半分ずつ",
+   "gold_n": 1000,
+   "mae_raw": 8.71,
+   "mae_fixed": 3.43,
+   "bias_raw": 2.95,
+   "bias_fixed": 0.33,
+   "share_fixed_worse": 22.0,
+   "share_fixed_off_10pt": 3.5,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.531,
+   "rankcorr_fixed": 0.921,
+   "miss_true": 22.35,
+   "miss_hat": 22.32,
+   "over_true": 9.64,
+   "over_hat": 9.62
+  },
+  {
+   "gold_type": "はっきりした件だけ（半分ずつ）",
+   "gold_n": 10,
+   "mae_raw": 8.78,
+   "mae_fixed": 7.74,
+   "bias_raw": 3.33,
+   "bias_fixed": 2.64,
+   "share_fixed_worse": 36.7,
+   "share_fixed_off_10pt": 28.8,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.563,
+   "rankcorr_fixed": 0.621,
+   "miss_true": 22.05,
+   "miss_hat": 3.44,
+   "over_true": 9.92,
+   "over_hat": 1.82
+  },
+  {
+   "gold_type": "はっきりした件だけ（半分ずつ）",
+   "gold_n": 20,
+   "mae_raw": 8.8,
+   "mae_fixed": 7.4,
+   "bias_raw": 3.13,
+   "bias_fixed": 2.29,
+   "share_fixed_worse": 31.4,
+   "share_fixed_off_10pt": 26.2,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.539,
+   "rankcorr_fixed": 0.618,
+   "miss_true": 22.5,
+   "miss_hat": 3.48,
+   "over_true": 9.88,
+   "over_hat": 1.93
+  },
+  {
+   "gold_type": "はっきりした件だけ（半分ずつ）",
+   "gold_n": 50,
+   "mae_raw": 8.57,
+   "mae_fixed": 7.2,
+   "bias_raw": 2.8,
+   "bias_fixed": 2.19,
+   "share_fixed_worse": 24.9,
+   "share_fixed_off_10pt": 25.4,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.529,
+   "rankcorr_fixed": 0.612,
+   "miss_true": 22.78,
+   "miss_hat": 3.64,
+   "over_true": 9.44,
+   "over_hat": 1.61
+  },
+  {
+   "gold_type": "はっきりした件だけ（半分ずつ）",
+   "gold_n": 100,
+   "mae_raw": 8.53,
+   "mae_fixed": 7.06,
+   "bias_raw": 2.6,
+   "bias_fixed": 1.93,
+   "share_fixed_worse": 18.9,
+   "share_fixed_off_10pt": 25.7,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.531,
+   "rankcorr_fixed": 0.611,
+   "miss_true": 23.25,
+   "miss_hat": 3.74,
+   "over_true": 9.31,
+   "over_hat": 1.71
+  },
+  {
+   "gold_type": "はっきりした件だけ（半分ずつ）",
+   "gold_n": 200,
+   "mae_raw": 8.65,
+   "mae_fixed": 7.21,
+   "bias_raw": 2.87,
+   "bias_fixed": 2.23,
+   "share_fixed_worse": 15.1,
+   "share_fixed_off_10pt": 26.3,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.537,
+   "rankcorr_fixed": 0.623,
+   "miss_true": 22.59,
+   "miss_hat": 3.68,
+   "over_true": 9.65,
+   "over_hat": 1.71
+  },
+  {
+   "gold_type": "はっきりした件だけ（半分ずつ）",
+   "gold_n": 1000,
+   "mae_raw": 8.71,
+   "mae_fixed": 7.3,
+   "bias_raw": 3.16,
+   "bias_fixed": 2.51,
+   "share_fixed_worse": 9.1,
+   "share_fixed_off_10pt": 27.1,
+   "share_not_fixable": 0.0,
+   "rankcorr_raw": 0.555,
+   "rankcorr_fixed": 0.632,
+   "miss_true": 22.1,
+   "miss_hat": 3.49,
+   "over_true": 9.82,
+   "over_hat": 1.71
+  }
+ ],
+ "base_mae_raw_mean_18rows": 8.64,
+ "robust": {
+  "n_settings": 108,
+  "n_per_type": 36,
+  "by_type": {
+   "でたらめに選ぶ": {
+    "n": 36,
+    "n_fixed_better": 17,
+    "mae_raw_range": [
+     0.93,
+     17.39
+    ],
+    "mae_fixed_range": [
+     1.92,
+     16.7
+    ],
+    "ratio_fixed_raw_range": [
+     0.355,
+     5.215
+    ],
+    "n_fixed_better_g20": 2,
+    "n_fixed_better_g50": 6,
+    "n_fixed_better_g200": 9
+   },
+   "傷あり・なし半分ずつ": {
+    "n": 36,
+    "n_fixed_better": 20,
+    "mae_raw_range": [
+     0.95,
+     16.39
+    ],
+    "mae_fixed_range": [
+     2.05,
+     12.27
+    ],
+    "ratio_fixed_raw_range": [
+     0.34,
+     4.6
+    ],
+    "n_fixed_better_g20": 4,
+    "n_fixed_better_g50": 7,
+    "n_fixed_better_g200": 9
+   },
+   "はっきりした件だけ（半分ずつ）": {
+    "n": 36,
+    "n_fixed_better": 27,
+    "mae_raw_range": [
+     0.98,
+     17.92
+    ],
+    "mae_fixed_range": [
+     0.98,
+     12.89
+    ],
+    "ratio_fixed_raw_range": [
+     0.496,
+     1.444
+    ],
+    "n_fixed_better_g20": 8,
+    "n_fixed_better_g50": 9,
+    "n_fixed_better_g200": 10
+   }
+  },
+  "n_better_by_type_lean": {
+   "でたらめに選ぶ": {
+    "0.0": 0,
+    "0.2": 4,
+    "0.4": 5,
+    "0.8": 8
+   },
+   "傷あり・なし半分ずつ": {
+    "0.0": 0,
+    "0.2": 4,
+    "0.4": 7,
+    "0.8": 9
+   },
+   "はっきりした件だけ（半分ずつ）": {
+    "0.0": 1,
+    "0.2": 8,
+    "0.4": 9,
+    "0.8": 9
+   }
+  },
+  "ratio_range_by_type_lean": {
+   "でたらめに選ぶ": {
+    "0.0": [
+     1.082,
+     5.215
+    ],
+    "0.2": [
+     0.632,
+     2.4
+    ],
+    "0.4": [
+     0.402,
+     1.805
+    ],
+    "0.8": [
+     0.355,
+     1.039
+    ]
+   },
+   "傷あり・なし半分ずつ": {
+    "0.0": [
+     1.058,
+     4.6
+    ],
+    "0.2": [
+     0.547,
+     1.88
+    ],
+    "0.4": [
+     0.37,
+     1.28
+    ],
+    "0.8": [
+     0.34,
+     0.83
+    ]
+   },
+   "はっきりした件だけ（半分ずつ）": {
+    "0.0": [
+     0.806,
+     1.444
+    ],
+    "0.2": [
+     0.721,
+     1.13
+    ],
+    "0.4": [
+     0.588,
+     0.965
+    ],
+    "0.8": [
+     0.496,
+     0.81
+    ]
+   }
+  },
+  "half_lean08_ratio_range": [
+   0.34,
+   0.83
+  ],
+  "half_lean0_n_fixed_better": 0,
+  "half_lean0_n": 9,
+  "half_lean0_bias_raw_range": [
+   0.4,
+   5.22
+  ]
+ },
+ "one_set_lots": [
+  {
+   "lot": 1,
+   "rater_lean": -0.2,
+   "lot_mean": -0.4812,
+   "true_share": 11.33,
+   "raw_share": 15.33,
+   "fixed_share_gold20_random": 2.31,
+   "se_hat": 1.0,
+   "sp_hat": 0.867,
+   "se_true": 0.911,
+   "sp_true": 0.878
+  },
+  {
+   "lot": 2,
+   "rater_lean": 0.53,
+   "lot_mean": 0.0192,
+   "true_share": 24.33,
+   "raw_share": 14.33,
+   "fixed_share_gold20_random": 28.67,
+   "se_hat": 0.5,
+   "sp_hat": 1.0,
+   "se_true": 0.496,
+   "sp_true": 0.994
+  },
+  {
+   "lot": 3,
+   "rater_lean": -0.34,
+   "lot_mean": 0.2223,
+   "true_share": 24.67,
+   "raw_share": 38.67,
+   "fixed_share_gold20_random": 34.83,
+   "se_hat": 1.0,
+   "sp_hat": 0.941,
+   "se_true": 0.953,
+   "sp_true": 0.843
+  },
+  {
+   "lot": 4,
+   "rater_lean": 0.21,
+   "lot_mean": 0.0458,
+   "true_share": 21.67,
+   "raw_share": 18.33,
+   "fixed_share_gold20_random": 18.33,
+   "se_hat": 1.0,
+   "sp_hat": 1.0,
+   "se_true": 0.705,
+   "sp_true": 0.97
+  },
+  {
+   "lot": 5,
+   "rater_lean": -0.51,
+   "lot_mean": 0.2591,
+   "true_share": 25.33,
+   "raw_share": 43.33,
+   "fixed_share_gold20_random": 22.73,
+   "se_hat": 1.0,
+   "sp_hat": 0.733,
+   "se_true": 0.979,
+   "sp_true": 0.78
+  },
+  {
+   "lot": 6,
+   "rater_lean": -0.86,
+   "lot_mean": 0.8739,
+   "true_share": 49.33,
+   "raw_share": 74.33,
+   "fixed_share_gold20_random": 37.67,
+   "se_hat": 1.0,
+   "sp_hat": 0.412,
+   "se_true": 0.996,
+   "sp_true": 0.616
+  },
+  {
+   "lot": 7,
+   "rater_lean": 0.17,
+   "lot_mean": -0.4436,
+   "true_share": 10.67,
+   "raw_share": 9.33,
+   "fixed_share_gold20_random": 14.0,
+   "se_hat": 0.667,
+   "sp_hat": 1.0,
+   "se_true": 0.71,
+   "sp_true": 0.962
+  },
+  {
+   "lot": 8,
+   "rater_lean": 0.69,
+   "lot_mean": 0.2836,
+   "true_share": 24.0,
+   "raw_share": 13.33,
+   "fixed_share_gold20_random": 33.33,
+   "se_hat": 0.4,
+   "sp_hat": 1.0,
+   "se_true": 0.36,
+   "sp_true": 0.998
+  },
+  {
+   "lot": 9,
+   "rater_lean": 0.21,
+   "lot_mean": -0.4998,
+   "true_share": 8.33,
+   "raw_share": 6.67,
+   "fixed_share_gold20_random": 8.33,
+   "se_hat": 0.8,
+   "sp_hat": 1.0,
+   "se_true": 0.702,
+   "sp_true": 0.969
+  },
+  {
+   "lot": 10,
+   "rater_lean": -0.4,
+   "lot_mean": 0.1031,
+   "true_share": 23.0,
+   "raw_share": 38.0,
+   "fixed_share_gold20_random": 26.0,
+   "se_hat": 0.75,
+   "sp_hat": 0.75,
+   "se_true": 0.954,
+   "sp_true": 0.82
+  }
+ ],
+ "setting": {
+  "lot_n": 10,
+  "items_per_lot": 300,
+  "true_share_overall": 20,
+  "lot_sd": 0.3,
+  "lean_sd_base": 0.4,
+  "noise_base": 0.4,
+  "clear_margin": 0.75
+ }
+}

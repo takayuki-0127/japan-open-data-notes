@@ -1,0 +1,165 @@
+{
+ "headline": {
+  "uncertain": {
+   "name": "① 迷う件から",
+   "at200": {
+    "share_labeled_pct": 29.41,
+    "share_random_part_pct": 10.3,
+    "pred_mean_pct": 10.0,
+    "pred_over_half_pct": 5.39,
+    "true_pool_pct": 10.01,
+    "share_labeled_p10_pct": 22.0,
+    "share_labeled_p90_pct": 35.5,
+    "ratio_labeled_to_pool": 2.94
+   },
+   "at500": {
+    "share_labeled_pct": 41.08,
+    "share_random_part_pct": 10.3,
+    "pred_mean_pct": 9.82,
+    "pred_over_half_pct": 5.21,
+    "true_pool_pct": 10.01,
+    "share_labeled_p10_pct": 37.18,
+    "share_labeled_p90_pct": 44.64,
+    "ratio_labeled_to_pool": 4.1
+   },
+   "at1000": {
+    "share_labeled_pct": 44.59,
+    "share_random_part_pct": 10.3,
+    "pred_mean_pct": 9.81,
+    "pred_over_half_pct": 5.11,
+    "true_pool_pct": 10.01,
+    "share_labeled_p10_pct": 43.2,
+    "share_labeled_p90_pct": 45.86,
+    "ratio_labeled_to_pool": 4.45
+   },
+   "at2000": {
+    "share_labeled_pct": 43.19,
+    "share_random_part_pct": 10.3,
+    "pred_mean_pct": 10.04,
+    "pred_over_half_pct": 5.13,
+    "true_pool_pct": 10.01,
+    "share_labeled_p10_pct": 42.3,
+    "share_labeled_p90_pct": 43.9,
+    "ratio_labeled_to_pool": 4.31
+   }
+  },
+  "random": {
+   "name": "② でたらめ",
+   "at200": {
+    "share_labeled_pct": 9.43,
+    "share_random_part_pct": 9.43,
+    "pred_mean_pct": 9.4,
+    "pred_over_half_pct": 4.93,
+    "true_pool_pct": 10.01,
+    "share_labeled_p10_pct": 7.0,
+    "share_labeled_p90_pct": 12.0,
+    "ratio_labeled_to_pool": 0.94
+   },
+   "at500": {
+    "share_labeled_pct": 10.08,
+    "share_random_part_pct": 10.08,
+    "pred_mean_pct": 9.99,
+    "pred_over_half_pct": 5.05,
+    "true_pool_pct": 10.01,
+    "share_labeled_p10_pct": 8.4,
+    "share_labeled_p90_pct": 11.42,
+    "ratio_labeled_to_pool": 1.01
+   },
+   "at1000": {
+    "share_labeled_pct": 9.93,
+    "share_random_part_pct": 9.93,
+    "pred_mean_pct": 9.91,
+    "pred_over_half_pct": 5.04,
+    "true_pool_pct": 10.01,
+    "share_labeled_p10_pct": 8.99,
+    "share_labeled_p90_pct": 10.71,
+    "ratio_labeled_to_pool": 0.99
+   },
+   "at2000": {
+    "share_labeled_pct": 9.82,
+    "share_random_part_pct": 9.82,
+    "pred_mean_pct": 9.82,
+    "pred_over_half_pct": 4.96,
+    "true_pool_pct": 10.01,
+    "share_labeled_p10_pct": 8.94,
+    "share_labeled_p90_pct": 10.7,
+    "ratio_labeled_to_pool": 0.98
+   }
+  },
+  "half": {
+   "name": "③ 半分でたらめ・半分迷う件",
+   "at200": {
+    "share_labeled_pct": 19.35,
+    "share_random_part_pct": 10.25,
+    "pred_mean_pct": 10.07,
+    "pred_over_half_pct": 5.57,
+    "true_pool_pct": 10.0,
+    "share_labeled_p10_pct": 16.0,
+    "share_labeled_p90_pct": 23.6,
+    "ratio_labeled_to_pool": 1.94
+   },
+   "at500": {
+    "share_labeled_pct": 25.17,
+    "share_random_part_pct": 10.07,
+    "pred_mean_pct": 9.84,
+    "pred_over_half_pct": 5.27,
+    "true_pool_pct": 10.0,
+    "share_labeled_p10_pct": 22.98,
+    "share_labeled_p90_pct": 28.0,
+    "ratio_labeled_to_pool": 2.52
+   },
+   "at1000": {
+    "share_labeled_pct": 27.33,
+    "share_random_part_pct": 9.82,
+    "pred_mean_pct": 9.98,
+    "pred_over_half_pct": 5.23,
+    "true_pool_pct": 10.0,
+    "share_labeled_p10_pct": 25.87,
+    "share_labeled_p90_pct": 28.8,
+    "ratio_labeled_to_pool": 2.73
+   },
+   "at2000": {
+    "share_labeled_pct": 27.83,
+    "share_random_part_pct": 9.34,
+    "pred_mean_pct": 10.04,
+    "pred_over_half_pct": 5.17,
+    "true_pool_pct": 10.0,
+    "share_labeled_p10_pct": 27.15,
+    "share_labeled_p90_pct": 28.51,
+    "ratio_labeled_to_pool": 2.78
+   }
+  }
+ },
+ "example_one_run_uncertain": {
+  "labeled_share_pct": 42.8,
+  "pool_share_pct": 10.22,
+  "labeled_true_prob_mean_pct": 42.5
+ },
+ "robust": {
+  "settings": 27,
+  "uncertain_ratio_min": 1.5,
+  "uncertain_ratio_max": 12.644,
+  "uncertain_over_count": 27,
+  "uncertain_over_count_rate_le10": 18,
+  "settings_rate_le10": 18,
+  "uncertain_gap_min": 8.58,
+  "uncertain_gap_max": 35.28,
+  "random_gap_absmax": 0.9,
+  "uncertain_pred_gap_absmax": 1.92,
+  "random_pred_gap_absmax": 0.84,
+  "half_random_part_gap_absmax": 0.92
+ },
+ "setup": {
+  "pool": 20000,
+  "start_random": 100,
+  "step": 100,
+  "budget": 2000,
+  "true_rate": 0.1,
+  "separation": 1.0,
+  "weights": [
+   2.0,
+   1.0
+  ],
+  "reps": 50
+ }
+}

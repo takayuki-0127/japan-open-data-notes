@@ -1,0 +1,4 @@
+order,order_name,label_A_pct,label_B_pct,label_C_pct,label_all_pct,true_all_pct,error_pct,miss_pct,over_pct,label_first_half_pct,label_second_half_pct,C_minus_A_pt,C_minus_A_p10_pt,C_minus_A_p90_pt,share_C_below_A_pct
+block,① 毎日 A→B→C にまとめる,13.93,11.25,9.4,11.52,10.07,4.3,14.15,3.2,13.2,9.84,-4.53,-5.89,-3.11,100.0
+shuffle,② 毎日ばらばら,11.52,11.44,11.38,11.45,9.95,4.33,14.22,3.23,13.12,9.78,-0.13,-1.39,1.17,56.5
+rotate,③ 日ごとに順を回す,11.43,11.51,11.48,11.47,9.97,4.32,14.14,3.23,13.15,9.79,0.05,-1.33,1.23,44.0
