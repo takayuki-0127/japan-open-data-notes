@@ -1,0 +1,195 @@
+{
+ "setting": {
+  "capacity_gb": 15000.0,
+  "write_mean_gb_per_day": 100.0,
+  "write_cv": 0.3,
+  "retention_days": 90,
+  "archive_gb": 3000.0,
+  "hold_days": 7,
+  "cleanup_gb_per_day": 150.0,
+  "cleanup_over_delete": 1.5,
+  "observe_days": 730,
+  "runs": 500,
+  "hold_only_formula_gb": 700.0
+ },
+ "base_steady": {
+  "pending_mean_gb": 701.7,
+  "pending_p95_gb": 841.0,
+  "pending_max_gb": 1152.2,
+  "pending_days_of_writes": 7.02,
+  "naive_free_mean_gb": 3001.2,
+  "true_free_mean_gb": 2299.5,
+  "naive_over_true_mean": 1.3119,
+  "gap_pct_of_capacity": 4.68
+ },
+ "base_hold_only": {
+  "pending_mean_gb": 699.9,
+  "pending_p95_gb": 838.2,
+  "pending_max_gb": 1152.2,
+  "pending_days_of_writes": 7.0,
+  "naive_free_mean_gb": 3001.2,
+  "true_free_mean_gb": 2301.3,
+  "naive_over_true_mean": 1.3109,
+  "gap_pct_of_capacity": 4.67
+ },
+ "base_backlog_extra_gb": 1.8,
+ "base_event": {
+  "archive_freed_days_median": 26.0,
+  "archive_freed_formula": 27.0,
+  "catch_days_median": 66.0,
+  "catch_days_p10": 60.0,
+  "catch_days_p90": 72.0,
+  "catch_formula_from_mean": 67.0,
+  "spare_gb_per_day": 50.0,
+  "by_day": [
+   {
+    "days_after": 0,
+    "naive_gain_gb_mean": 3000.0,
+    "true_gain_gb_mean": 0.0,
+    "true_gain_gb_p10": 0.0,
+    "true_gain_gb_p90": 0.0,
+    "true_gain_pct_of_archive": 0.0,
+    "archive_itself_freed_pct": 0.0
+   },
+   {
+    "days_after": 7,
+    "naive_gain_gb_mean": 3000.0,
+    "true_gain_gb_mean": 49.0,
+    "true_gain_gb_p10": 4.8,
+    "true_gain_gb_p90": 81.7,
+    "true_gain_pct_of_archive": 1.63,
+    "archive_itself_freed_pct": 4.95
+   },
+   {
+    "days_after": 8,
+    "naive_gain_gb_mean": 3000.0,
+    "true_gain_gb_mean": 101.1,
+    "true_gain_gb_p10": 49.4,
+    "true_gain_gb_p90": 147.7,
+    "true_gain_pct_of_archive": 3.37,
+    "archive_itself_freed_pct": 9.95
+   },
+   {
+    "days_after": 14,
+    "naive_gain_gb_mean": 3000.0,
+    "true_gain_gb_mean": 402.4,
+    "true_gain_gb_p10": 304.6,
+    "true_gain_gb_p90": 502.5,
+    "true_gain_pct_of_archive": 13.41,
+    "archive_itself_freed_pct": 39.95
+   },
+   {
+    "days_after": 30,
+    "naive_gain_gb_mean": 3000.0,
+    "true_gain_gb_mean": 1193.8,
+    "true_gain_gb_p10": 1008.9,
+    "true_gain_gb_p90": 1373.3,
+    "true_gain_pct_of_archive": 39.79,
+    "archive_itself_freed_pct": 100.0
+   },
+   {
+    "days_after": 60,
+    "naive_gain_gb_mean": 3000.0,
+    "true_gain_gb_mean": 2686.4,
+    "true_gain_gb_p10": 2418.3,
+    "true_gain_gb_p90": 2991.2,
+    "true_gain_pct_of_archive": 89.55,
+    "archive_itself_freed_pct": 100.0
+   },
+   {
+    "days_after": 90,
+    "naive_gain_gb_mean": 3000.0,
+    "true_gain_gb_mean": 3000.0,
+    "true_gain_gb_p10": 3000.0,
+    "true_gain_gb_p90": 3000.0,
+    "true_gain_pct_of_archive": 100.0,
+    "archive_itself_freed_pct": 100.0
+   }
+  ],
+  "true_free_min_after_gb_median": 2235.9,
+  "naive_free_after_gb_median": 6012.2
+ },
+ "grid": {
+  "settings": 24,
+  "pending_mean_range": [
+   0.0,
+   1474.2
+  ],
+  "pending_p95_range": [
+   0.0,
+   1931.6
+  ],
+  "catch_days_range": [
+   14.0,
+   161.5
+  ],
+  "gap_pct_cap_range": [
+   0.0,
+   9.83
+  ],
+  "max_catch_formula_gap": 3.0,
+  "k1.2": {
+   "backlog_extra_range": [
+    12.2,
+    74.2
+   ],
+   "catch_days_range": [
+    147.0,
+    161.5
+   ],
+   "archive_freed_range": [
+    24.0,
+    39.0
+   ],
+   "true_gain_day30_pct_range": [
+    10.51,
+    20.28
+   ]
+  },
+  "k1.5": {
+   "backlog_extra_range": [
+    1.7,
+    22.5
+   ],
+   "catch_days_range": [
+    59.0,
+    73.0
+   ],
+   "archive_freed_range": [
+    19.0,
+    33.0
+   ],
+   "true_gain_day30_pct_range": [
+    26.77,
+    51.26
+   ]
+  },
+  "k3.0": {
+   "backlog_extra_range": [
+    0.0,
+    3.3
+   ],
+   "catch_days_range": [
+    14.0,
+    28.0
+   ],
+   "archive_freed_range": [
+    9.0,
+    23.0
+   ],
+   "true_gain_day30_pct_range": [
+    99.71,
+    100.0
+   ]
+  }
+ },
+ "headline": {
+  "pending_mean_gb": 701.7,
+  "hold_only_mean_gb": 699.9,
+  "catch_days_median": 66.0,
+  "catch_formula_from_mean": 67.0,
+  "day7_true_gain_gb": 49.0,
+  "day30_true_gain_gb": 1193.8,
+  "archive_freed_days_median": 26.0
+ }
+}

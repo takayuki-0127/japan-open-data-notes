@@ -1,0 +1,223 @@
+{
+ "setting": {
+  "files": 100000,
+  "median_mb": 1.0,
+  "log_sigma": 1.2,
+  "hot_share": 0.05,
+  "hot_share_of_changes": 0.8,
+  "daily_changed_count_share": 0.01,
+  "p_hot": 0.16,
+  "p_cold": 0.002105,
+  "observe_day": 400
+ },
+ "base": {
+  "one_gen_gb": 205.0,
+  "changed_gb_per_day_formula": 2.003,
+  "changed_gb_per_day_last100_mean": 2.002,
+  "changed_share_of_bytes_pct": 0.977,
+  "hot_bytes_share_pct": 4.85,
+  "hot_changed_in_30days_pct": 99.46,
+  "cold_changed_in_30days_pct": 6.13
+ },
+ "base_key": [
+  {
+   "schedule": "毎日",
+   "generations": 7,
+   "span_days": 6,
+   "volume_gb": 217.107,
+   "over_one_gen": 1.0591,
+   "no_share_over_one_gen": 7,
+   "linear_rule_over_one_gen": 1.0586,
+   "linear_rule_over_actual": 0.9996,
+   "formula_over_actual": 0.9996
+  },
+  {
+   "schedule": "毎日",
+   "generations": 14,
+   "span_days": 13,
+   "volume_gb": 231.426,
+   "over_one_gen": 1.1289,
+   "no_share_over_one_gen": 14,
+   "linear_rule_over_one_gen": 1.127,
+   "linear_rule_over_actual": 0.9983,
+   "formula_over_actual": 0.9983
+  },
+  {
+   "schedule": "毎日",
+   "generations": 23,
+   "span_days": 22,
+   "volume_gb": 249.807,
+   "over_one_gen": 1.2186,
+   "no_share_over_one_gen": 23,
+   "linear_rule_over_one_gen": 1.2149,
+   "linear_rule_over_actual": 0.997,
+   "formula_over_actual": 0.997
+  },
+  {
+   "schedule": "毎日",
+   "generations": 30,
+   "span_days": 29,
+   "volume_gb": 263.341,
+   "over_one_gen": 1.2846,
+   "no_share_over_one_gen": 30,
+   "linear_rule_over_one_gen": 1.2833,
+   "linear_rule_over_actual": 0.999,
+   "formula_over_actual": 0.999
+  },
+  {
+   "schedule": "毎日",
+   "generations": 60,
+   "span_days": 59,
+   "volume_gb": 323.279,
+   "over_one_gen": 1.577,
+   "no_share_over_one_gen": 60,
+   "linear_rule_over_one_gen": 1.5764,
+   "linear_rule_over_actual": 0.9996,
+   "formula_over_actual": 0.9996
+  },
+  {
+   "schedule": "週1回",
+   "generations": 4,
+   "span_days": 21,
+   "volume_gb": 234.988,
+   "over_one_gen": 1.1463,
+   "no_share_over_one_gen": 4,
+   "linear_rule_over_one_gen": 1.2051,
+   "linear_rule_over_actual": 1.0514,
+   "formula_over_actual": 0.9984
+  },
+  {
+   "schedule": "週1回",
+   "generations": 12,
+   "span_days": 77,
+   "volume_gb": 313.408,
+   "over_one_gen": 1.5288,
+   "no_share_over_one_gen": 12,
+   "linear_rule_over_one_gen": 1.7522,
+   "linear_rule_over_actual": 1.1461,
+   "formula_over_actual": 1.0005
+  },
+  {
+   "schedule": "月1回",
+   "generations": 6,
+   "span_days": 150,
+   "volume_gb": 314.495,
+   "over_one_gen": 1.5341,
+   "no_share_over_one_gen": 6,
+   "linear_rule_over_one_gen": 2.4653,
+   "linear_rule_over_actual": 1.607,
+   "formula_over_actual": 0.9992
+  },
+  {
+   "schedule": "月1回",
+   "generations": 12,
+   "span_days": 330,
+   "volume_gb": 446.232,
+   "over_one_gen": 2.1767,
+   "no_share_over_one_gen": 12,
+   "linear_rule_over_one_gen": 4.2237,
+   "linear_rule_over_actual": 1.9404,
+   "formula_over_actual": 0.9979
+  },
+  {
+   "schedule": "毎日7＋週4＋月12",
+   "generations": 23,
+   "span_days": 360,
+   "volume_gb": 493.376,
+   "over_one_gen": 2.4067,
+   "no_share_over_one_gen": 23,
+   "linear_rule_over_one_gen": 4.5168,
+   "linear_rule_over_actual": 1.8767,
+   "formula_over_actual": 0.9986
+  }
+ ],
+ "base_check": {
+  "formula_over_actual_range": [
+   0.997,
+   1.0005
+  ],
+  "linear_rule_range": [
+   0.997,
+   1.9404
+  ]
+ },
+ "base_daily_increment": {
+  "gen2": 0.0106,
+  "gen10": 0.0098,
+  "gen30": 0.0087,
+  "gen60": 0.0106
+ },
+ "base_monthly_increment": {
+  "gen2": 0.1067,
+  "gen12": 0.1084
+ },
+ "grid": {
+  "settings": 15,
+  "daily30": {
+   "over_one_gen_range": [
+    1.0264,
+    1.8704
+   ],
+   "linear_rule_range": [
+    0.9943,
+    1.0046
+   ],
+   "formula_range": [
+    0.9943,
+    1.0046
+   ]
+  },
+  "weekly12": {
+   "over_one_gen_range": [
+    1.0675,
+    3.0908
+   ],
+   "linear_rule_range": [
+    1.0004,
+    1.6599
+   ],
+   "formula_range": [
+    0.9943,
+    1.0098
+   ]
+  },
+  "monthly12": {
+   "over_one_gen_range": [
+    1.2477,
+    7.45
+   ],
+   "linear_rule_range": [
+    1.0196,
+    3.2672
+   ],
+   "formula_range": [
+    0.9963,
+    1.0079
+   ]
+  },
+  "mixed23": {
+   "over_one_gen_range": [
+    1.2733,
+    8.2884
+   ],
+   "linear_rule_range": [
+    1.0198,
+    3.0542
+   ],
+   "formula_range": [
+    0.9938,
+    1.0082
+   ]
+  },
+  "monthly12_vs_daily30_lower_count": 0,
+  "mixed23_vs_daily30_higher_count": 15
+ },
+ "headline": {
+  "daily30": 1.2846,
+  "daily60": 1.577,
+  "weekly12": 1.5288,
+  "monthly12": 2.1767,
+  "mixed23": 2.4067,
+  "monthly12_linear_rule": 1.9404
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "setting": {
+  "files": 1000000,
+  "median_bytes": 2000,
+  "log_sigma": 2.0,
+  "block_bytes": 4096,
+  "mean_bytes_formula": 14778.1
+ },
+ "base": {
+  "files": 1000000,
+  "size_total_gb": 14.8442,
+  "used_total_gb": 17.5206,
+  "used_over_size": 1.1803,
+  "extra_pct_of_size": 18.03,
+  "under_block_count_pct": 63.98,
+  "under_block_size_pct": 5.01,
+  "under_block_used_pct": 14.96,
+  "half_rule_over_used": 0.9641,
+  "mean_waste_per_file_over_block": 0.6534,
+  "size_median_bytes": 1998.0,
+  "size_mean_bytes": 14844.2,
+  "used_mean_bytes": 17520.6
+ },
+ "base_by_band": [
+  {
+   "size_band": "512バイト未満",
+   "count_pct": 24.81,
+   "size_pct": 0.37,
+   "used_pct": 5.8,
+   "used_over_size": 18.738
+  },
+  {
+   "size_band": "512〜4,096",
+   "count_pct": 39.17,
+   "size_pct": 4.64,
+   "used_pct": 9.16,
+   "used_over_size": 2.329
+  },
+  {
+   "size_band": "4,096〜65,536",
+   "count_pct": 31.94,
+   "size_pct": 34.73,
+   "used_pct": 33.5,
+   "used_over_size": 1.139
+  },
+  {
+   "size_band": "65,536〜約100万",
+   "count_pct": 3.99,
+   "size_pct": 47.43,
+   "used_pct": 40.65,
+   "used_over_size": 1.012
+  },
+  {
+   "size_band": "約100万以上",
+   "count_pct": 0.09,
+   "size_pct": 12.84,
+   "used_pct": 10.89,
+   "used_over_size": 1.001
+  }
+ ],
+ "base_by_block": [
+  {
+   "block_bytes": 1024,
+   "files": 1000000,
+   "size_total_gb": 14.8442,
+   "used_total_gb": 15.4161,
+   "used_over_size": 1.0385,
+   "extra_pct_of_size": 3.85,
+   "under_block_count_pct": 36.92,
+   "under_block_size_pct": 0.97,
+   "under_block_used_pct": 2.45,
+   "half_rule_over_used": 0.9961,
+   "mean_waste_per_file_over_block": 0.5585
+  },
+  {
+   "block_bytes": 4096,
+   "files": 1000000,
+   "size_total_gb": 14.8442,
+   "used_total_gb": 17.5206,
+   "used_over_size": 1.1803,
+   "extra_pct_of_size": 18.03,
+   "under_block_count_pct": 63.98,
+   "under_block_size_pct": 5.01,
+   "under_block_used_pct": 14.96,
+   "half_rule_over_used": 0.9641,
+   "mean_waste_per_file_over_block": 0.6534
+  },
+  {
+   "block_bytes": 16384,
+   "files": 1000000,
+   "size_total_gb": 14.8442,
+   "used_total_gb": 27.6402,
+   "used_over_size": 1.862,
+   "extra_pct_of_size": 86.2,
+   "under_block_count_pct": 85.34,
+   "under_block_size_pct": 17.07,
+   "under_block_used_pct": 50.59,
+   "half_rule_over_used": 0.8334,
+   "mean_waste_per_file_over_block": 0.781
+  },
+  {
+   "block_bytes": 65536,
+   "files": 1000000,
+   "size_total_gb": 14.8442,
+   "used_total_gb": 73.3739,
+   "used_over_size": 4.9429,
+   "extra_pct_of_size": 394.29,
+   "under_block_count_pct": 95.92,
+   "under_block_size_pct": 39.74,
+   "under_block_used_pct": 85.67,
+   "half_rule_over_used": 0.6489,
+   "mean_waste_per_file_over_block": 0.8931
+  }
+ ],
+ "grid": {
+  "settings": 48,
+  "used_over_size_range": [
+   1.0001,
+   79.7526
+  ],
+  "half_rule_range": [
+   0.5125,
+   1.0002
+  ],
+  "half_rule_within5_count": 32,
+  "half_rule_under_count": 29,
+  "median_under_half_block": {
+   "settings": 20,
+   "used_over_size_range": [
+    1.1806,
+    79.7526
+   ],
+   "half_rule_range": [
+    0.5125,
+    0.9642
+   ]
+  },
+  "median_half_to_4_blocks": {
+   "settings": 8,
+   "used_over_size_range": [
+    1.0377,
+    1.1557
+   ],
+   "half_rule_range": [
+    0.9961,
+    1.0002
+   ]
+  },
+  "median_over_4_blocks": {
+   "settings": 20,
+   "used_over_size_range": [
+    1.0001,
+    1.039
+   ],
+   "half_rule_range": [
+    0.9997,
+    1.0001
+   ]
+  },
+  "sigma2_lower_count": 24
+ },
+ "headline": {
+  "used_over_size": 1.1803,
+  "under_block_count_pct": 63.98,
+  "under_block_size_pct": 5.01,
+  "under_block_used_pct": 14.96,
+  "half_rule_over_used": 0.9641
+ }
+}

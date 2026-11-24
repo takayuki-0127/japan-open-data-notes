@@ -1,0 +1,6 @@
+rows,fixed_pages_before,fixed_pages_after,fixed_table_increase_ratio,memo_pages_before,memo_pages_after,memo_table_increase_ratio
+100,1,1,0.0,1,1,0.0
+1000,8,9,2.048,10,10,0.0
+10000,74,84,2.048,93,99,1.2288
+100000,736,834,2.007,918,984,1.3517
+1000000,7353,8334,2.0091,9173,9831,1.3476

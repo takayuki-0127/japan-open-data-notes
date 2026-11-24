@@ -1,0 +1,244 @@
+{
+ "setting": {
+  "types": {
+   "text": "文章",
+   "log": "記録",
+   "table": "表",
+   "image": "画像"
+  },
+  "median_kb": {
+   "text": 50.0,
+   "log": 2000.0,
+   "table": 500.0,
+   "image": 1500.0
+  },
+  "sigma_log_size": {
+   "text": 1.2,
+   "log": 1.0,
+   "table": 1.2,
+   "image": 0.8
+  },
+  "q_median": {
+   "text": 0.25,
+   "log": 0.12,
+   "table": 0.4,
+   "image": 0.97
+  },
+  "q_sigma_log": 0.15,
+  "total_orig_gb_target": 500.0,
+  "byte_share_this_year_target": {
+   "text": 0.1,
+   "log": 0.4,
+   "table": 0.3,
+   "image": 0.2
+  }
+ },
+ "this_year": {
+  "by_type": {
+   "text": {
+    "files": 486752.0,
+    "count_share": 0.6561,
+    "orig_gb": 49.8054,
+    "byte_share": 0.0997,
+    "rate": 0.2528,
+    "comp_gb": 12.5908
+   },
+   "log": {
+    "files": 60653.0,
+    "count_share": 0.0818,
+    "orig_gb": 199.4511,
+    "byte_share": 0.3991,
+    "rate": 0.1215,
+    "comp_gb": 24.2261
+   },
+   "table": {
+    "files": 146026.0,
+    "count_share": 0.1968,
+    "orig_gb": 150.8055,
+    "byte_share": 0.3017,
+    "rate": 0.4045,
+    "comp_gb": 60.9948
+   },
+   "image": {
+    "files": 48410.0,
+    "count_share": 0.0653,
+    "orig_gb": 99.7298,
+    "byte_share": 0.1995,
+    "rate": 0.9309,
+    "comp_gb": 92.8386
+   }
+  },
+  "orig_gb": 499.792,
+  "comp_gb": 190.65,
+  "overall_rate_pct": 38.15,
+  "byte_weighted_rate_pct": 38.15,
+  "count_weighted_rate_pct": 31.62,
+  "file_mean_rate_pct": 31.62
+ },
+ "next_year": {
+  "A": {
+   "name": "画像の量が40%に",
+   "orig_gb": 498.742,
+   "by_type": {
+    "text": {
+     "files": 365064.0,
+     "count_share": 0.5918,
+     "orig_gb": 37.5179,
+     "byte_share": 0.0752,
+     "rate": 0.2527,
+     "comp_gb": 9.4794
+    },
+    "log": {
+     "files": 45490.0,
+     "count_share": 0.0737,
+     "orig_gb": 149.184,
+     "byte_share": 0.2991,
+     "rate": 0.1209,
+     "comp_gb": 18.0436
+    },
+    "table": {
+     "files": 109519.0,
+     "count_share": 0.1775,
+     "orig_gb": 113.0898,
+     "byte_share": 0.2268,
+     "rate": 0.404,
+     "comp_gb": 45.6891
+    },
+    "image": {
+     "files": 96820.0,
+     "count_share": 0.1569,
+     "orig_gb": 198.9502,
+     "byte_share": 0.3989,
+     "rate": 0.9311,
+     "comp_gb": 185.2453
+    }
+   },
+   "actual_comp_gb": 258.457,
+   "actual_rate_pct": 51.82,
+   "m1_overall_rate_gb": 190.25,
+   "m1_ratio": 0.7361,
+   "m2_by_type_gb": 258.548,
+   "m2_ratio": 1.0004
+  },
+  "B": {
+   "name": "Aに加え、どの種類も縮み方が1割よくなる",
+   "orig_gb": 501.307,
+   "by_type": {
+    "text": {
+     "files": 365064.0,
+     "count_share": 0.5918,
+     "orig_gb": 37.5022,
+     "byte_share": 0.0748,
+     "rate": 0.2275,
+     "comp_gb": 8.5329
+    },
+    "log": {
+     "files": 45490.0,
+     "count_share": 0.0737,
+     "orig_gb": 150.2962,
+     "byte_share": 0.2998,
+     "rate": 0.1092,
+     "comp_gb": 16.4115
+    },
+    "table": {
+     "files": 109519.0,
+     "count_share": 0.1775,
+     "orig_gb": 113.1142,
+     "byte_share": 0.2256,
+     "rate": 0.3639,
+     "comp_gb": 41.1576
+    },
+    "image": {
+     "files": 96820.0,
+     "count_share": 0.1569,
+     "orig_gb": 200.3942,
+     "byte_share": 0.3997,
+     "rate": 0.8664,
+     "comp_gb": 173.6192
+    }
+   },
+   "actual_comp_gb": 239.721,
+   "actual_rate_pct": 47.82,
+   "m1_overall_rate_gb": 191.228,
+   "m1_ratio": 0.7977,
+   "m2_by_type_gb": 260.034,
+   "m2_ratio": 1.0847
+  },
+  "C": {
+   "name": "件数の割合は同じ、画像1件が1.5倍",
+   "orig_gb": 550.864,
+   "by_type": {
+    "text": {
+     "files": 486752.0,
+     "count_share": 0.6561,
+     "orig_gb": 49.8418,
+     "byte_share": 0.0905,
+     "rate": 0.2529,
+     "comp_gb": 12.605
+    },
+    "log": {
+     "files": 60653.0,
+     "count_share": 0.0818,
+     "orig_gb": 201.0919,
+     "byte_share": 0.365,
+     "rate": 0.1215,
+     "comp_gb": 24.4364
+    },
+    "table": {
+     "files": 146026.0,
+     "count_share": 0.1968,
+     "orig_gb": 149.4674,
+     "byte_share": 0.2713,
+     "rate": 0.4048,
+     "comp_gb": 60.5072
+    },
+    "image": {
+     "files": 48410.0,
+     "count_share": 0.0653,
+     "orig_gb": 150.4626,
+     "byte_share": 0.2731,
+     "rate": 0.9315,
+     "comp_gb": 140.1538
+    }
+   },
+   "actual_comp_gb": 237.702,
+   "actual_rate_pct": 43.15,
+   "m1_overall_rate_gb": 210.132,
+   "m1_ratio": 0.884,
+   "m2_by_type_gb": 237.545,
+   "m2_ratio": 0.9993
+  }
+ },
+ "B_each_type_better": {
+  "text": -2.53,
+  "log": -1.23,
+  "table": -4.06,
+  "image": -6.45
+ },
+ "monthly": {
+  "rate_first_pct": 37.56,
+  "rate_last_pct": 52.43,
+  "max_abs_diff_formula_pt": 0.58
+ },
+ "grid": {
+  "settings": 18,
+  "actual_rate_min": 27.02,
+  "actual_rate_max": 65.78,
+  "m1_ratio_min": 0.5819,
+  "m1_ratio_max": 1.2229,
+  "m2_ratio_min": 0.9996,
+  "m2_ratio_max": 1.0017,
+  "same_share_m1_ratio_min": 0.9976,
+  "same_share_m1_ratio_max": 1.0016
+ },
+ "headline": {
+  "this_rate_pct": 38.15,
+  "A_rate_pct": 51.82,
+  "A_m1_ratio": 0.7361,
+  "B_rate_pct": 47.82,
+  "C_rate_pct": 43.15,
+  "C_m1_ratio": 0.884,
+  "grid_m1_min": 0.5819,
+  "grid_m1_max": 1.2229
+ }
+}

@@ -1,0 +1,5 @@
+block_bytes,files,size_total_gb,used_total_gb,used_over_size,extra_pct_of_size,under_block_count_pct,under_block_size_pct,under_block_used_pct,half_rule_over_used,mean_waste_per_file_over_block
+1024,1000000,14.8442,15.4161,1.0385,3.85,36.92,0.97,2.45,0.9961,0.5585
+4096,1000000,14.8442,17.5206,1.1803,18.03,63.98,5.01,14.96,0.9641,0.6534
+16384,1000000,14.8442,27.6402,1.862,86.2,85.34,17.07,50.59,0.8334,0.781
+65536,1000000,14.8442,73.3739,4.9429,394.29,95.92,39.74,85.67,0.6489,0.8931
