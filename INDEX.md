@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 931本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 955本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -11,7 +11,7 @@
 | 手法 | 本数 |
 |---|---|
 | 予測・時系列 | 142 |
-| 因果推論・効果検証 | 69 |
+| 因果推論・効果検証 | 70 |
 | A/B テスト・実験 | 27 |
 | 統計の考え方（検定・区間・回帰） | 335 |
 | 機械学習・モデル評価 | 104 |
@@ -19,11 +19,11 @@
 | SQL・データ処理 | 95 |
 | Excel | 12 |
 | 集計の定義・KPI | 176 |
-| 可視化・報告・BI | 47 |
+| 可視化・報告・BI | 48 |
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 21 |
 | 再現性・振り返り | 97 |
-| その他（記述・要因分解など） | 598 |
+| その他（記述・要因分解など） | 620 |
 
 <details><summary><b>予測・時系列</b>（142本）</summary>
 
@@ -174,7 +174,7 @@
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（69本）</summary>
+<details><summary><b>因果推論・効果検証</b>（70本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -247,6 +247,7 @@
 | 973 | 前の値で埋めると、変化はどう見えるのか？ | [973_missing_carry_forward_change](articles/973_missing_carry_forward_change) |
 | 1004 | 「過去最高の来場」は、数え方を変えた年と比べられるのか？ | [1004_visitors_record_after_method_change](articles/1004_visitors_record_after_method_change) |
 | 1155 | 同じものを大勢が同時に取りに来ると、置き場所から消えた瞬間に、元のデータへ何件の問い合わせが流れるのか？ | [1155_cache_expire_herd_origin](articles/1155_cache_expire_herd_origin) |
+| 1209 | 見つけた鳥が減ったのは、鳥が減ったからか？ | [1209_bird_count_drop_detection](articles/1209_bird_count_drop_detection) |
 
 </details>
 
@@ -1125,7 +1126,7 @@
 
 </details>
 
-<details><summary><b>可視化・報告・BI</b>（47本）</summary>
+<details><summary><b>可視化・報告・BI</b>（48本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1176,6 +1177,7 @@
 | 816 | 累積のグラフは、伸びが止まっても右肩上がりに見えるのか？ | [816_graph_cumulative_still_rising](articles/816_graph_cumulative_still_rising) |
 | 822 | 積み上げ棒グラフで、真ん中の項目の増減は読めるのか？ | [822_graph_stacked_middle_item](articles/822_graph_stacked_middle_item) |
 | 1089 | 見つかったバグが減ったのは、品質が上がったからか、テストが減ったからか？ | [1089_bugs_fewer_found_quality_or_testing](articles/1089_bugs_fewer_found_quality_or_testing) |
+| 1219 | 珍しい種の報告が増えたのは、種が増えたからか、探す人が増えたからか？ | [1219_wildlife_rare_reports_more_searchers](articles/1219_wildlife_rare_reports_more_searchers) |
 
 </details>
 
@@ -1391,7 +1393,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（598本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（620本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1993,6 +1995,28 @@
 | 1205 | 1通のリンクの数を増やすと、クリックした人の割合とクリックの回数はどう動くのか？ | [1205_mail_link_count_clicks](articles/1205_mail_link_count_clicks) |
 | 1206 | いくつかの配信リストを合わせて送ると、同じ人に2通届く割合はどれだけあるのか？ | [1206_mail_merged_lists_double_send](articles/1206_mail_merged_lists_double_send) |
 | 1207 | 一部の読者に試しに送った結果は、残りの読者に送ったときの数字にどれだけ当たるのか？ | [1207_mail_pilot_send_rest_match](articles/1207_mail_pilot_send_rest_match) |
+| 1210 | 印を付けて放した魚がまた捕まった数で、池の魚の数は分かるのか？ | [1210_fish_mark_recapture_mixing](articles/1210_fish_mark_recapture_mixing) |
+| 1211 | 1回の調査で見つからなかった種は、いないと言えるのか？ | [1211_species_not_found_absent](articles/1211_species_not_found_absent) |
+| 1212 | 道ぞいの区画だけを数えると、道から離れた所を好む生き物はどれだけ少なく出るのか？ | [1212_wildlife_roadside_plots_far_species](articles/1212_wildlife_roadside_plots_far_species) |
+| 1213 | 調べた区画の数が違う2つの森で、見つかった種の数をそのまま比べると、何がずれるのか？ | [1213_wildlife_species_count_plot_effort](articles/1213_wildlife_species_count_plot_effort) |
+| 1214 | 見つけやすい大きな生き物と見つけにくい小さな生き物では、数の割合はどれだけゆがむのか？ | [1214_wildlife_size_detect_share_bias](articles/1214_wildlife_size_detect_share_bias) |
+| 1215 | 鳴き声で数えると、よく鳴く時期と鳴かない時期で、数はどう見えるのか？ | [1215_wildlife_call_season_count](articles/1215_wildlife_call_season_count) |
+| 1216 | 足あとやふんの数から生き物の数を見込むと、跡が残る日数の違いで何がずれるのか？ | [1216_wildlife_trace_persistence_days](articles/1216_wildlife_trace_persistence_days) |
+| 1217 | 一度罠にかかった生き物が罠を避けるようになると、数の見込みはどちらにずれるのか？ | [1217_wildlife_trap_shy_estimate](articles/1217_wildlife_trap_shy_estimate) |
+| 1218 | 春の1日だけ数えた数で、年ごとの数の増減を読めるのか？ | [1218_wildlife_one_spring_day_trend](articles/1218_wildlife_one_spring_day_trend) |
+| 1220 | 群れで動く生き物を数えるとき、群れを見落とすと全体の数のぶれはどれだけ大きくなるのか？ | [1220_wildlife_flock_miss_variance](articles/1220_wildlife_flock_miss_variance) |
+| 1221 | 上位10件の正しい割合で比べるか、正しい文書を拾えた割合で比べるかで、良い方の検索は入れかわるのか？ | [1221_search_top10_vs_found_share](articles/1221_search_top10_vs_found_share) |
+| 1222 | まだ判定していない文書を「正しくない」と見なすと、新しい検索のやり方はどれだけ不利になるのか？ | [1222_search_unjudged_as_wrong](articles/1222_search_unjudged_as_wrong) |
+| 1223 | よく検索される語に重みを付けて平均するか、語ごとに同じ重みで平均するかで、改善の大きさはどう見えるのか？ | [1223_search_weight_by_frequency](articles/1223_search_weight_by_frequency) |
+| 1224 | 1件目に正しい文書があるかだけの点と、10件を順位で重み付けした点では、2つの検索の差はどう違って見えるのか？ | [1224_search_top1_vs_weighted10](articles/1224_search_top1_vs_weighted10) |
+| 1225 | 結果が0件の検索を数から外すと、検索の良さはどう見えるのか？ | [1225_search_zero_results_excluded](articles/1225_search_zero_results_excluded) |
+| 1226 | 小さな改善の差は、検索語を何語そろえれば偶然と見分けられるのか？ | [1226_search_queries_needed_small_gain](articles/1226_search_queries_needed_small_gain) |
+| 1227 | クリックされた文書を正しいと見なすと、上に出ていた文書はどれだけ有利になるのか？ | [1227_search_click_as_correct_top_bias](articles/1227_search_click_as_correct_top_bias) |
+| 1228 | 長い文書ほど多くの言葉を含むとき、長い文書はどれだけ上に出やすくなるのか？ | [1228_search_long_docs_rank_higher](articles/1228_search_long_docs_rank_higher) |
+| 1229 | 決まった検索語の一覧で調整を重ねると、新しい検索語での良さはどれだけ下がるのか？ | [1229_search_fixed_queries_tuning_drop](articles/1229_search_fixed_queries_tuning_drop) |
+| 1230 | 同じ内容の文書が何件もあると、上位10件の正しい割合は高く出ても、役に立つ文書はいくつなのか？ | [1230_search_duplicate_docs_top10](articles/1230_search_duplicate_docs_top10) |
+| 1231 | 言いかえて検索し直す人が減ったのは、見つかったからか、あきらめたからか？ | [1231_search_reformulation_found_or_gave_up](articles/1231_search_reformulation_found_or_gave_up) |
+| 1232 | 上位の順番が1つ入れかわっただけで、良さの点数はどれだけ動くのか？ | [1232_search_one_swap_score_change](articles/1232_search_one_swap_score_change) |
 
 </details>
 
@@ -2002,10 +2026,10 @@
 | 場面 | 本数 |
 |---|---|
 | 小売・店舗 | 228 |
-| EC・会員・Web | 108 |
+| EC・会員・Web | 109 |
 | マーケティング・広告 | 33 |
 | 需要予測・在庫 | 31 |
-| 業務の集計・報告 | 142 |
+| 業務の集計・報告 | 143 |
 | 作業時間・処理件数 | 6 |
 | 保険 | 72 |
 | 公的統計・地域・人口 | 435 |
@@ -2245,7 +2269,7 @@
 
 </details>
 
-<details><summary><b>EC・会員・Web</b>（108本）</summary>
+<details><summary><b>EC・会員・Web</b>（109本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2357,6 +2381,7 @@
 | 1197 | 開封率で選ぶかクリック率で選ぶかで、良い件名は入れかわるのか？ | [1197_mail_open_vs_click_best_subject](articles/1197_mail_open_vs_click_best_subject) |
 | 1203 | 登録して間もない人ほどよく開くとき、開封率の下がり方は読者の入れかわりでどれだけ説明できるのか？ | [1203_mail_new_readers_open_decline](articles/1203_mail_new_readers_open_decline) |
 | 1205 | 1通のリンクの数を増やすと、クリックした人の割合とクリックの回数はどう動くのか？ | [1205_mail_link_count_clicks](articles/1205_mail_link_count_clicks) |
+| 1227 | クリックされた文書を正しいと見なすと、上に出ていた文書はどれだけ有利になるのか？ | [1227_search_click_as_correct_top_bias](articles/1227_search_click_as_correct_top_bias) |
 
 </details>
 
@@ -2438,7 +2463,7 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（142本）</summary>
+<details><summary><b>業務の集計・報告</b>（143本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2584,6 +2609,7 @@
 | 1184 | 申し込む人数の見込みから枠の数を決めると、見込みの外れで倍率はどれだけ振れるのか？ | [1184_lottery_seats_from_forecast_ratio](articles/1184_lottery_seats_from_forecast_ratio) |
 | 1191 | 「24時間以内に返事」の目標を置くと、返事までの時間の分布はどう形を変えるのか？ | [1191_inquiry_24h_target_shape](articles/1191_inquiry_24h_target_shape) |
 | 1208 | 送ってから何日目で開封率を締めるかで、遅く開く人の多い配信はどれだけ低く出るのか？ | [1208_mail_close_day_late_openers](articles/1208_mail_close_day_late_openers) |
+| 1219 | 珍しい種の報告が増えたのは、種が増えたからか、探す人が増えたからか？ | [1219_wildlife_rare_reports_more_searchers](articles/1219_wildlife_rare_reports_more_searchers) |
 
 </details>
 
