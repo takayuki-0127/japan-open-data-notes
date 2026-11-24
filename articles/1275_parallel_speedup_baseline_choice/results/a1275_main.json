@@ -1,0 +1,76 @@
+{
+ "settings": {
+  "n_task": 4000,
+  "mean_task_ms": 2.0,
+  "sigma_log": 0.5,
+  "read_sec": 0.4,
+  "hand_ms": 0.2,
+  "start_sec": 0.2,
+  "old_factor": 1.5,
+  "run_sd_log": 0.02,
+  "n_run": 20
+ },
+ "task_total_sec": 8.121,
+ "median_time_sec": {
+  "old": 12.5114,
+  "serial": 8.5369,
+  "par1": 9.493,
+  "par2": 5.0203,
+  "par4": 2.826,
+  "par8": 1.7199,
+  "par16": 1.1518
+ },
+ "p8": {
+  "vs_par1": 5.5196,
+  "vs_serial": 4.9637,
+  "vs_old": 7.2746,
+  "old_over_serial": 1.4656,
+  "par1_over_serial": 1.112
+ },
+ "p8_single_run_pairs_10_90": {
+  "par1": [
+   5.3611,
+   5.6834
+  ],
+  "serial": [
+   4.7817,
+   5.1131
+  ],
+  "old": [
+   7.0645,
+   7.5352
+  ]
+ },
+ "p16": {
+  "vs_par1": 8.2416,
+  "vs_serial": 7.4115,
+  "vs_old": 10.8621
+ },
+ "grid": {
+  "n": 72,
+  "vs_par1_range": [
+   4.5215,
+   7.9846
+  ],
+  "vs_serial_range": [
+   3.8427,
+   7.9832
+  ],
+  "vs_old_range": [
+   3.8427,
+   15.9664
+  ],
+  "max_over_min_per_setting": [
+   1.0,
+   2.0
+  ],
+  "n_vs_old_over_8": 33,
+  "n_vs_serial_over_8": 0,
+  "n_vs_par1_over_8": 0,
+  "no_overhead_vs_serial_range": [
+   6.0123,
+   7.9832
+  ],
+  "no_overhead_par1_eq_serial_max_gap": 0.0
+ }
+}

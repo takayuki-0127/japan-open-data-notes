@@ -1,0 +1,93 @@
+{
+ "setting": {
+  "n": 400,
+  "sigma": 0.5,
+  "p": 0.02,
+  "backoff": 3.0,
+  "ws": [
+   1,
+   2,
+   4,
+   8,
+   16,
+   32,
+   64
+  ],
+  "runs": 1000,
+  "job_mean_sec": 1.0
+ },
+ "check": {
+  "failures_per_job_mean": 0.02077,
+  "failures_per_job_formula": 0.02041,
+  "w1_retry_now_mean": 404.744,
+  "w1_retry_now_formula": 404.082,
+  "total_work_extra_pct": 1.03,
+  "runs_with_any_failure_pct": 100.0,
+  "runs_with_any_failure_formula_pct": 99.97
+ },
+ "headline": {
+  "cv_none_w1": 0.0274,
+  "cv_none_w64": 0.0941,
+  "cv_now_w1": 0.0277,
+  "cv_now_w64": 0.0989,
+  "cv_after_w1": 0.0277,
+  "cv_after_w64": 0.1334,
+  "mean_over_none_now_w1": 1.0103,
+  "mean_over_none_now_w64": 1.0194,
+  "mean_over_none_after_w1": 1.0107,
+  "mean_over_none_after_w64": 1.22
+ },
+ "grid_range": {
+  "cv_retry_ratio_w64_vs_w1": [
+   1.6676,
+   7.5248
+  ],
+  "cv_retry_over_none_w64": [
+   0.9968,
+   1.7515
+  ],
+  "cv_retry_over_none_w1": [
+   0.9968,
+   1.1546
+  ],
+  "mean_over_none_w64": [
+   1.0029,
+   1.1052
+  ],
+  "mean_over_none_w1": [
+   1.0024,
+   1.0267
+  ],
+  "n_cv_w64_gt_w1": 27,
+  "n_retry_cv_gt_none_w64": 24
+ },
+ "grid_backoff_range": {
+  "mean_over_none_after_w64": [
+   1.0012,
+   3.1567
+  ],
+  "mean_over_none_after_w1": [
+   1.0022,
+   1.0343
+  ],
+  "cv_after_w64": [
+   0.0622,
+   0.4064
+  ],
+  "cv_now_w64": [
+   0.0339,
+   0.4166
+  ],
+  "n_after_cv_gt_now_w64": 17,
+  "n_after_cv_gt_now_w1": 10,
+  "after_minus_now_pt_w1": [
+   0.0,
+   0.81
+  ],
+  "after_minus_now_pt_w64": [
+   0.03,
+   209.94
+  ]
+ },
+ "run_sec_note": "所要は環境で変わる"
+}

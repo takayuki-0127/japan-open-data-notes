@@ -1,0 +1,148 @@
+{
+ "setting": {
+  "work_sec": 1000.0,
+  "ws": [
+   2,
+   4,
+   8,
+   16,
+   32,
+   64
+  ],
+  "chunks_per_w": [
+   1,
+   4,
+   16,
+   64
+  ],
+  "overhead_base": [
+   0.01,
+   0.1,
+   0.5
+  ],
+  "shared_part": [
+   0.0,
+   0.02,
+   0.1
+  ],
+  "sigma": 0.5,
+  "n_configs": 360
+ },
+ "base": {
+  "pair_agree_all": 0.415,
+  "pairs_all": 64252,
+  "pair_agree_same_w_mean": 0.7513,
+  "pair_agree_same_w_min": 0.6555,
+  "pair_agree_same_w_max": 0.8307,
+  "rank_corr_busy_speed": -0.2616,
+  "rank_corr_useful_speed": -0.4532,
+  "share_busy_ge_95": 0.3611,
+  "speed_median_busy_ge_95": 3.8889,
+  "speed_median_busy_lt_80": 9.5174,
+  "busy_share_median_fastest10pct": 0.9038,
+  "busy_share_median_all": 0.9028
+ },
+ "examples": [
+  {
+   "label": "A 4か所・ふつうに分ける",
+   "w": 4,
+   "chunks": 256,
+   "overhead_per_chunk": 0.01,
+   "shared_part": 0.0,
+   "wait_kind": "none",
+   "total_sec": 251.5794,
+   "busy_share": 0.9963,
+   "useful_share": 0.9937,
+   "speed_vs_one": 3.9749,
+   "busy_sec": 1002.56,
+   "overhead_sec": 2.56,
+   "wait_sec": 0.0
+  },
+  {
+   "label": "B 32か所・粗く分ける",
+   "w": 32,
+   "chunks": 32,
+   "overhead_per_chunk": 0.01,
+   "shared_part": 0.0,
+   "wait_kind": "none",
+   "total_sec": 62.4559,
+   "busy_share": 0.5005,
+   "useful_share": 0.5004,
+   "speed_vs_one": 16.0113,
+   "busy_sec": 1000.32,
+   "overhead_sec": 0.32,
+   "wait_sec": 0.0
+  },
+  {
+   "label": "C 32か所・細かく分けすぎ",
+   "w": 32,
+   "chunks": 2048,
+   "overhead_per_chunk": 0.5,
+   "shared_part": 0.0,
+   "wait_kind": "none",
+   "total_sec": 63.8549,
+   "busy_share": 0.9905,
+   "useful_share": 0.4894,
+   "speed_vs_one": 15.6605,
+   "busy_sec": 2024.0,
+   "overhead_sec": 1024.0,
+   "wait_sec": 0.0
+  },
+  {
+   "label": "D 32か所・置き場所を回りながら待つ",
+   "w": 32,
+   "chunks": 128,
+   "overhead_per_chunk": 0.01,
+   "shared_part": 0.1,
+   "wait_kind": "spin",
+   "total_sec": 102.4686,
+   "busy_share": 0.8717,
+   "useful_share": 0.305,
+   "speed_vs_one": 9.7591,
+   "busy_sec": 2858.2006,
+   "overhead_sec": 1.28,
+   "wait_sec": 1856.9206
+  },
+  {
+   "label": "E 32か所・置き場所を休んで待つ",
+   "w": 32,
+   "chunks": 128,
+   "overhead_per_chunk": 0.01,
+   "shared_part": 0.1,
+   "wait_kind": "sleep",
+   "total_sec": 102.4686,
+   "busy_share": 0.3054,
+   "useful_share": 0.305,
+   "speed_vs_one": 9.7591,
+   "busy_sec": 1001.28,
+   "overhead_sec": 1.28,
+   "wait_sec": 1856.9206
+  }
+ ],
+ "grid_range": {
+  "pair_agree_all": [
+   0.3667,
+   0.4574
+  ],
+  "pair_agree_same_w_mean": [
+   0.5886,
+   0.8188
+  ],
+  "rank_corr_busy_speed": [
+   -0.4134,
+   -0.1256
+  ],
+  "rank_corr_useful_speed": [
+   -0.5722,
+   -0.3028
+  ],
+  "busy_share_median_fastest10pct": [
+   0.708,
+   0.8782
+  ],
+  "busy_share_median_all": [
+   0.7097,
+   0.9344
+  ]
+ }
+}

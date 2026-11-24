@@ -1,0 +1,106 @@
+{
+ "settings": {
+  "p_list": [
+   1,
+   2,
+   4,
+   8,
+   16,
+   32,
+   64
+  ],
+  "tasks_fixed": 4096,
+  "tasks_per_worker_grow": 64,
+  "mean_task_ms": 10.0,
+  "sigma_log": 0.5,
+  "start_sec": 0.5,
+  "merge_ms_per_worker": 2.0,
+  "grow_part_ms_per_task_caseB": 0.5,
+  "run_sd_log": 0.02,
+  "n_run": 10
+ },
+ "task_total_4096_sec": 41.1736,
+ "A_p64": {
+  "fixed_time": 1.2848,
+  "grow_time": 1.2814,
+  "fixed_speedup": 32.7717,
+  "grow_scaled_speedup": 54.071,
+  "grow_time_ratio": 1.1836
+ },
+ "B_p64": {
+  "fixed_time": 3.346,
+  "grow_time": 3.3704,
+  "fixed_speedup": 12.9723,
+  "grow_scaled_speedup": 21.1364,
+  "grow_time_ratio": 3.028
+ },
+ "A_p8": {
+  "fixed_time": 5.7052,
+  "grow_time": 1.1513,
+  "fixed_speedup": 7.3802,
+  "grow_scaled_speedup": 7.5228,
+  "grow_time_ratio": 1.0634
+ },
+ "B_p8": {
+  "fixed_time": 7.7104,
+  "grow_time": 1.3941,
+  "fixed_speedup": 5.6295,
+  "grow_scaled_speedup": 6.3876,
+  "grow_time_ratio": 1.2524
+ },
+ "A_p1": {
+  "fixed_time": 42.1055,
+  "grow_time": 1.0826,
+  "fixed_speedup": 1.0,
+  "grow_scaled_speedup": 1.0,
+  "grow_time_ratio": 1.0
+ },
+ "B_p1": {
+  "fixed_time": 43.4057,
+  "grow_time": 1.1131,
+  "fixed_speedup": 1.0,
+  "grow_scaled_speedup": 1.0,
+  "grow_time_ratio": 1.0
+ },
+ "A_implied_one_worker_4096_sec": 69.2864,
+ "B_implied_one_worker_4096_sec": 71.2384,
+ "grid": {
+  "n": 81,
+  "n_grow_over_fixed": 81,
+  "grow_over_fixed_range": [
+   1.0165,
+   11.3854
+  ],
+  "fixed_speedup_range": [
+   3.4448,
+   61.0261
+  ],
+  "grow_scaled_range": [
+   8.7724,
+   63.6193
+  ],
+  "no_grow_part_n": 27,
+  "no_grow_part_grow_scaled_range": [
+   18.8238,
+   63.6193
+  ],
+  "no_grow_part_fixed_range": [
+   4.3355,
+   61.0261
+  ],
+  "with_grow_part_grow_scaled_range": [
+   8.7724,
+   57.0137
+  ],
+  "with_grow_part_fixed_range": [
+   3.4448,
+   24.7838
+  ],
+  "max_gap_ratio_vs_formula": 0.0,
+  "n_fixed_peak_before_64": 9,
+  "fixed_peak_p_values": [
+   32,
+   64
+  ]
+ }
+}
