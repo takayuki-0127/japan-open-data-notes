@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 883本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 907本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -10,12 +10,12 @@
 
 | 手法 | 本数 |
 |---|---|
-| 予測・時系列 | 141 |
+| 予測・時系列 | 142 |
 | 因果推論・効果検証 | 69 |
 | A/B テスト・実験 | 27 |
 | 統計の考え方（検定・区間・回帰） | 333 |
 | 機械学習・モデル評価 | 104 |
-| 顧客分析・生存分析 | 75 |
+| 顧客分析・生存分析 | 77 |
 | SQL・データ処理 | 95 |
 | Excel | 12 |
 | 集計の定義・KPI | 174 |
@@ -23,9 +23,9 @@
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 21 |
 | 再現性・振り返り | 97 |
-| その他（記述・要因分解など） | 557 |
+| その他（記述・要因分解など） | 578 |
 
-<details><summary><b>予測・時系列</b>（141本）</summary>
+<details><summary><b>予測・時系列</b>（142本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -170,6 +170,7 @@
 | 878 | 混雑の予測を出すと、空いている時間に人が集まって外れるのか？ | [878_queue_forecast_self_defeating](articles/878_queue_forecast_self_defeating) |
 | 1022 | 予約の多い日は、当日も多いのか？ | [1022_booking_busy_day_walkins](articles/1022_booking_busy_day_walkins) |
 | 1028 | 予約の数から当日の人数を見込むと、どれだけ外れるのか？ | [1028_booking_forecast_from_bookings](articles/1028_booking_forecast_from_bookings) |
+| 1184 | 申し込む人数の見込みから枠の数を決めると、見込みの外れで倍率はどれだけ振れるのか？ | [1184_lottery_seats_from_forecast_ratio](articles/1184_lottery_seats_from_forecast_ratio) |
 
 </details>
 
@@ -734,7 +735,7 @@
 
 </details>
 
-<details><summary><b>顧客分析・生存分析</b>（75本）</summary>
+<details><summary><b>顧客分析・生存分析</b>（77本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -813,6 +814,8 @@
 | 1077 | 「自分の知り合いは、自分より知り合いが多い」と感じるのはなぜか？ | [1077_network_friends_have_more_friends](articles/1077_network_friends_have_more_friends) |
 | 1084 | 少ないつながりでも、たどれば何人目で全員に届くのか？ | [1084_network_steps_reach_all](articles/1084_network_steps_reach_all) |
 | 1086 | 人数が倍になると、つながりの密度はどう変わるのか？ | [1086_network_density_size_double](articles/1086_network_density_size_double) |
+| 1166 | 古いものを消す決まりを入れると、量はどこで止まり、何日かかるのか？ | [1166_storage_retention_plateau_days](articles/1166_storage_retention_plateau_days) |
+| 1178 | 優先の印を一部の人に配ると、印のない人の当たる見込みはどれだけ下がるのか？ | [1178_lottery_priority_mark](articles/1178_lottery_priority_mark) |
 
 </details>
 
@@ -1384,7 +1387,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（557本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（578本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -1945,6 +1948,27 @@
 | 1158 | 1段目で外れたものだけが2段目に来るとき、2段目の当たり率はなぜ低く見えるのか？ | [1158_cache_second_level_hit_low](articles/1158_cache_second_level_hit_low) |
 | 1159 | 問い合わせの一部を抜き出して当たり率を見積もると、置き場所を小さくして試した値はどれだけずれるのか？ | [1159_cache_sampled_trace_small_size](articles/1159_cache_sampled_trace_small_size) |
 | 1160 | 試験の環境で測った当たり率は、本番の使われ方の偏りが違うとどれだけ外れるのか？ | [1160_cache_test_env_skew_gap](articles/1160_cache_test_env_skew_gap) |
+| 1161 | 平均×件数のデータ量の見込みは、とても大きいファイルが少しまざるとどれだけ外れるのか？ | [1161_storage_mean_times_count_heavy](articles/1161_storage_mean_times_count_heavy) |
+| 1162 | ファイルごとの圧縮率の平均は、全体の縮み方とどれだけ違うのか？ | [1162_storage_compress_ratio_mean](articles/1162_storage_compress_ratio_mean) |
+| 1163 | 同じ中身をまとめて減る量は、試しに使った一部のデータから見込めるのか？ | [1163_storage_dedup_from_sample](articles/1163_storage_dedup_from_sample) |
+| 1164 | 1か月の増え方を12倍した1年の見込みは、月による偏りでどれだけ外れるのか？ | [1164_storage_month_times12_season](articles/1164_storage_month_times12_season) |
+| 1165 | 変わった分だけ残す控えと全部残す控えで、量と戻すときに読む量はどう入れかわるのか？ | [1165_storage_incremental_vs_full_backup](articles/1165_storage_incremental_vs_full_backup) |
+| 1167 | 消したはずの分が空くまで時間がかかると、空き容量の見込みはどれだけずれるのか？ | [1167_storage_delete_free_delay](articles/1167_storage_delete_free_delay) |
+| 1168 | 小さなファイルがたくさんあると、大きさの合計と実際に使う量はどれだけ違うのか？ | [1168_storage_small_files_block_waste](articles/1168_storage_small_files_block_waste) |
+| 1169 | 控えを何世代残すかで、量は世代の数に比例して増えるのか？ | [1169_storage_backup_generations_growth](articles/1169_storage_backup_generations_growth) |
+| 1170 | 空きが10%を切ったら足すと決めると、足りなくなる何日前に気づけるのか？ | [1170_storage_free_pct_alert_lead](articles/1170_storage_free_pct_alert_lead) |
+| 1171 | 中身の種類で縮み方が違うとき、種類の割合が変わると全体の圧縮率はどう動くのか？ | [1171_storage_compress_mix_shift](articles/1171_storage_compress_mix_shift) |
+| 1172 | 1行に項目を1つ足すと、表全体は足した項目の大きさの分だけ増えるのか？ | [1172_table_add_column_size](articles/1172_table_add_column_size) |
+| 1173 | 「倍率10倍」の抽選で、1人が当たる見込みは本当に10分の1なのか？ | [1173_lottery_ratio_entries_per_person](articles/1173_lottery_ratio_entries_per_person) |
+| 1174 | 第1希望と第2希望を書ける抽選では、第2希望が当たる見込みは何で決まるのか？ | [1174_lottery_second_choice_leftover](articles/1174_lottery_second_choice_leftover) |
+| 1175 | 前回の倍率を見て申し込む人が増えたり減ったりすると、倍率はどこに落ち着くのか？ | [1175_lottery_ratio_feedback_settle](articles/1175_lottery_ratio_feedback_settle) |
+| 1176 | 2人1組の申し込みは、1人より当たりやすいのか？ | [1176_lottery_pair_entry](articles/1176_lottery_pair_entry) |
+| 1177 | 落選が続いた人を優先すると、当たるまでの回数はどれだけそろうのか？ | [1177_lottery_loser_priority](articles/1177_lottery_loser_priority) |
+| 1179 | 日にちごとに分けて抽選すると、混む日と空いた日の当たりやすさは何倍開くのか？ | [1179_lottery_split_by_day_gap](articles/1179_lottery_split_by_day_gap) |
+| 1180 | 倍率の高い回は、申し込みたい人の多い回だと読んでよいのか？ | [1180_lottery_high_ratio_demand](articles/1180_lottery_high_ratio_demand) |
+| 1181 | 何口も申し込める人と1口だけの人では、1年で当たる回数の差はどれだけ開くのか？ | [1181_lottery_multi_entry_year_wins](articles/1181_lottery_multi_entry_year_wins) |
+| 1182 | 先着の枠と抽選の枠に分けると、抽選の枠の倍率はどう見えるのか？ | [1182_lottery_first_come_split_ratio](articles/1182_lottery_first_come_split_ratio) |
+| 1183 | 当選した人が来なかった割合を、申し込んだ人全体が来ない割合として読めるのか？ | [1183_lottery_winner_noshow_vs_all](articles/1183_lottery_winner_noshow_vs_all) |
 
 </details>
 
@@ -1954,10 +1978,10 @@
 | 場面 | 本数 |
 |---|---|
 | 小売・店舗 | 227 |
-| EC・会員・Web | 103 |
-| マーケティング・広告 | 28 |
+| EC・会員・Web | 104 |
+| マーケティング・広告 | 29 |
 | 需要予測・在庫 | 31 |
-| 業務の集計・報告 | 139 |
+| 業務の集計・報告 | 140 |
 | 作業時間・処理件数 | 6 |
 | 保険 | 72 |
 | 公的統計・地域・人口 | 435 |
@@ -2196,7 +2220,7 @@
 
 </details>
 
-<details><summary><b>EC・会員・Web</b>（103本）</summary>
+<details><summary><b>EC・会員・Web</b>（104本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2303,10 +2327,11 @@
 | 1077 | 「自分の知り合いは、自分より知り合いが多い」と感じるのはなぜか？ | [1077_network_friends_have_more_friends](articles/1077_network_friends_have_more_friends) |
 | 1084 | 少ないつながりでも、たどれば何人目で全員に届くのか？ | [1084_network_steps_reach_all](articles/1084_network_steps_reach_all) |
 | 1086 | 人数が倍になると、つながりの密度はどう変わるのか？ | [1086_network_density_size_double](articles/1086_network_density_size_double) |
+| 1178 | 優先の印を一部の人に配ると、印のない人の当たる見込みはどれだけ下がるのか？ | [1178_lottery_priority_mark](articles/1178_lottery_priority_mark) |
 
 </details>
 
-<details><summary><b>マーケティング・広告</b>（28本）</summary>
+<details><summary><b>マーケティング・広告</b>（29本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2338,6 +2363,7 @@
 | 983 | 振り分けで「迷惑メール」と出たとき、本当に迷惑メールの確率は？ | [983_prob_spam_filter_base_rate](articles/983_prob_spam_filter_base_rate) |
 | 996 | 天気のよい日と比べた「集客の効果」は、何を読み違えるのか？ | [996_visitors_campaign_vs_sunny_days](articles/996_visitors_campaign_vs_sunny_days) |
 | 1088 | 新しい道具の使い始めは、まわりの何人が使えば広がるのか？ | [1088_network_adoption_how_many](articles/1088_network_adoption_how_many) |
+| 1178 | 優先の印を一部の人に配ると、印のない人の当たる見込みはどれだけ下がるのか？ | [1178_lottery_priority_mark](articles/1178_lottery_priority_mark) |
 
 </details>
 
@@ -2379,7 +2405,7 @@
 
 </details>
 
-<details><summary><b>業務の集計・報告</b>（139本）</summary>
+<details><summary><b>業務の集計・報告</b>（140本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2522,6 +2548,7 @@
 | 1007 | 基準の年を変えると、指数の伸びはどう見えるのか？ | [1007_index_base_year_growth](articles/1007_index_base_year_growth) |
 | 1025 | 予約を締め切る時刻で、埋まり具合の見え方は変わるのか？ | [1025_booking_cutoff_time_fill](articles/1025_booking_cutoff_time_fill) |
 | 1089 | 見つかったバグが減ったのは、品質が上がったからか、テストが減ったからか？ | [1089_bugs_fewer_found_quality_or_testing](articles/1089_bugs_fewer_found_quality_or_testing) |
+| 1184 | 申し込む人数の見込みから枠の数を決めると、見込みの外れで倍率はどれだけ振れるのか？ | [1184_lottery_seats_from_forecast_ratio](articles/1184_lottery_seats_from_forecast_ratio) |
 
 </details>
 
