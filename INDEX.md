@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 1003本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 1027本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -13,7 +13,7 @@
 | 予測・時系列 | 145 |
 | 因果推論・効果検証 | 71 |
 | A/B テスト・実験 | 27 |
-| 統計の考え方（検定・区間・回帰） | 335 |
+| 統計の考え方（検定・区間・回帰） | 336 |
 | 機械学習・モデル評価 | 105 |
 | 顧客分析・生存分析 | 77 |
 | SQL・データ処理 | 95 |
@@ -23,7 +23,7 @@
 | 保険数理・リスク | 73 |
 | テキスト・ネットワーク・空間 | 21 |
 | 再現性・振り返り | 97 |
-| その他（記述・要因分解など） | 662 |
+| その他（記述・要因分解など） | 685 |
 
 <details><summary><b>予測・時系列</b>（145本）</summary>
 
@@ -289,7 +289,7 @@
 
 </details>
 
-<details><summary><b>統計の考え方（検定・区間・回帰）</b>（335本）</summary>
+<details><summary><b>統計の考え方（検定・区間・回帰）</b>（336本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -628,6 +628,7 @@
 | 1146 | 短い区間ごとに測った大きさの最大値は、区間の長さでどう変わるのか？ | [1146_sound_short_window_max_length](articles/1146_sound_short_window_max_length) |
 | 1186 | 平均の対応時間が短い担当は、手早い担当なのか、易しい問い合わせを受けた担当なのか？ | [1186_inquiry_handle_time_mix](articles/1186_inquiry_handle_time_mix) |
 | 1191 | 「24時間以内に返事」の目標を置くと、返事までの時間の分布はどう形を変えるのか？ | [1191_inquiry_24h_target_shape](articles/1191_inquiry_24h_target_shape) |
+| 1285 | 部品の寸法が正規分布でないとき、何段重ねると外れの割合は正規と見た見込みに近づくのか？ | [1285_stack_non_normal_parts](articles/1285_stack_non_normal_parts) |
 
 </details>
 
@@ -1399,7 +1400,7 @@
 
 </details>
 
-<details><summary><b>その他（記述・要因分解など）</b>（662本）</summary>
+<details><summary><b>その他（記述・要因分解など）</b>（685本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2065,6 +2066,29 @@
 | 1278 | 失敗した仕事をやり直す決まりがあると、同時に動かす数を増やすほど、全体の時間のばらつきはどう変わるのか？ | [1278_parallel_retry_spread](articles/1278_parallel_retry_spread) |
 | 1279 | 同時に動かす数を増やして1秒あたりの件数が増えたとき、1件が終わるまでの時間はどう動いているのか？ | [1279_parallel_throughput_latency](articles/1279_parallel_throughput_latency) |
 | 1280 | 1つあたりの働いていた時間の割合が高いことは、全体が速いことを意味するのか？ | [1280_parallel_busy_share_speed](articles/1280_parallel_busy_share_speed) |
+| 1281 | 5つの部品を重ねた棚の高さで、許容差をそのまま足した最悪の幅は、実際のばらつきよりどれだけ広いのか？ | [1281_stack_worst_vs_rss](articles/1281_stack_worst_vs_rss) |
+| 1282 | 部品の平均が許容差の中で同じ向きにずれると、二乗で足した外れの見込みは実際の何分の1か？ | [1282_stack_mean_shift_same_direction](articles/1282_stack_mean_shift_same_direction) |
+| 1283 | 組み立て品の許容差を二乗の足し算で部品に割り振ると、何倍ゆるくでき、何%外れるのか？ | [1283_stack_allocate_tolerance](articles/1283_stack_allocate_tolerance) |
+| 1284 | 同じ日に作った部品どうしで寸法のずれがそろうと、二乗で足した幅はどれだけ狭く出るのか？ | [1284_stack_same_day_correlated](articles/1284_stack_same_day_correlated) |
+| 1286 | 検査で規格外を除いた部品だけを組むと、組み立て品の幅は思ったほど狭くなるのか？ | [1286_stack_inspected_parts_width](articles/1286_stack_inspected_parts_width) |
+| 1287 | 部品の寸法の記録に測りのばらつきがまざっていると、記録から見込んだ組み立て品の幅は、本当の幅よりどれだけ広く出るのか？ | [1287_stack_gauge_noise_wider](articles/1287_stack_gauge_noise_wider) |
+| 1288 | 部品を測って大きいものどうし・小さいものどうしを組み合わせて組むと、外れる組み立て品は減っても、相手がなくて余る部品はどれだけ出るのか？ | [1288_stack_selective_fit_leftover](articles/1288_stack_selective_fit_leftover) |
+| 1289 | 中身の重さが表示よりわずかに多い小袋を10袋まとめて1箱にすると、箱の表示の重さを下回る箱の割合は、1袋で表示を下回る割合からどう変わるのか？ | [1289_stack_bag_box_label_weight](articles/1289_stack_bag_box_label_weight) |
+| 1290 | 箱の内のりと板の幅のすきまで、入らない割合は部品ごとの外れの割合から見込めるのか？ | [1290_stack_gap_fit_from_out_rates](articles/1290_stack_gap_fit_from_out_rates) |
+| 1291 | 穴の位置を縦横の許容差の四角で決めると、中心からの距離の丸で決めたときと合格と外れはどれだけ入れかわるのか？ | [1291_stack_hole_square_vs_circle](articles/1291_stack_hole_square_vs_circle) |
+| 1292 | 部品ごとに20個だけ測った標準偏差から組み立て品の幅を見込むと、本当より狭く見込む回はどれだけあるのか？ | [1292_stack_sd_from_20_samples](articles/1292_stack_sd_from_20_samples) |
+| 1293 | 荷物の体積の合計を箱の容量で割った見込みは、1つずつ詰めた本当の箱の数よりどれだけ少ないか？ | [1293_packing_volume_sum_vs_boxes](articles/1293_packing_volume_sum_vs_boxes) |
+| 1294 | 車の台数を重さか大きさの上限だけで見込むと、どれだけ少なく出るか？ | [1294_truck_weight_or_volume_limit](articles/1294_truck_weight_or_volume_limit) |
+| 1295 | 荷物を来た順に詰めるか、大きい順に並べてから詰めるかで、車の台数と積載率はどれだけ違うか？ | [1295_loading_order_sorted_vs_arrival](articles/1295_loading_order_sorted_vs_arrival) |
+| 1296 | 車の荷台の半分を超える大きな荷物がまざると、要る台数と積載率はどう動くのか？ | [1296_load_big_items_over_half](articles/1296_load_big_items_over_half) |
+| 1297 | 上に重ねられない荷物が1割まざると、体積で見た積載率はどれだけ下がり、車は何台増えるのか？ | [1297_load_no_stack_share](articles/1297_load_no_stack_share) |
+| 1298 | 箱の大きさを2種類から4種類に増やすと、箱の中のすきま（詰め物の量）はどれだけ減るのか？ | [1298_box_sizes_two_vs_four](articles/1298_box_sizes_two_vs_four) |
+| 1299 | 荷物の体積の合計は箱の容量に収まっていても、縦・横・高さで並べると入らない組み合わせはどれだけあるのか？ | [1299_packing_volume_fits_3d_not](articles/1299_packing_volume_fits_3d_not) |
+| 1300 | 配送先の方面ごとに分けて詰め、方面をまぜないと、全部をまとめて詰めるより車は何台増えるのか？ | [1300_packing_split_by_area_trucks](articles/1300_packing_split_by_area_trucks) |
+| 1301 | 決まった長さの棒から長さの違う部品を切り出すと、余りの割合は、部品の長さの組み合わせしだいでどれだけ変わるのか？ | [1301_packing_cut_rod_leftover](articles/1301_packing_cut_rod_leftover) |
+| 1302 | 切りしろを入れずに計算すると、1本の棒から取れる部品の数の見込みはどれだけ多く出るのか？ | [1302_packing_cut_kerf_ignored](articles/1302_packing_cut_kerf_ignored) |
+| 1303 | 詰め方の良さを、「体積の合計÷容量」の切り上げと比べるか、いちばん良い詰め方と比べるかで、どれだけ見え方が違うのか？ | [1303_packing_lower_bound_vs_best](articles/1303_packing_lower_bound_vs_best) |
+| 1304 | あとで届ける荷物を奥に積む決まりを入れると、積載率はどれだけ下がるのか？ | [1304_packing_delivery_order_loading](articles/1304_packing_delivery_order_loading) |
 
 </details>
 
@@ -2074,7 +2098,7 @@
 | 場面 | 本数 |
 |---|---|
 | 小売・店舗 | 229 |
-| EC・会員・Web | 112 |
+| EC・会員・Web | 115 |
 | マーケティング・広告 | 34 |
 | 需要予測・在庫 | 31 |
 | 業務の集計・報告 | 143 |
@@ -2318,7 +2342,7 @@
 
 </details>
 
-<details><summary><b>EC・会員・Web</b>（112本）</summary>
+<details><summary><b>EC・会員・Web</b>（115本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2434,6 +2458,9 @@
 | 1247 | 読み放題で読まれたページ数から、最後まで読んだ人の数はどこまで分かるのか？ | [1247_ebook_pages_read_finished](articles/1247_ebook_pages_read_finished) |
 | 1251 | 読み放題のページ数は、文字の大きさや図の多さでどれだけ変わるのか？ | [1251_ebook_unlimited_pages_font_figures](articles/1251_ebook_unlimited_pages_font_figures) |
 | 1253 | 試し読みから買った割合は、試し読みの数で割るか紹介ページを見た数で割るかで、本の順がどう変わるのか？ | [1253_ebook_sample_conversion_denominator](articles/1253_ebook_sample_conversion_denominator) |
+| 1298 | 箱の大きさを2種類から4種類に増やすと、箱の中のすきま（詰め物の量）はどれだけ減るのか？ | [1298_box_sizes_two_vs_four](articles/1298_box_sizes_two_vs_four) |
+| 1299 | 荷物の体積の合計は箱の容量に収まっていても、縦・横・高さで並べると入らない組み合わせはどれだけあるのか？ | [1299_packing_volume_fits_3d_not](articles/1299_packing_volume_fits_3d_not) |
+| 1302 | 切りしろを入れずに計算すると、1本の棒から取れる部品の数の見込みはどれだけ多く出るのか？ | [1302_packing_cut_kerf_ignored](articles/1302_packing_cut_kerf_ignored) |
 
 </details>
 
