@@ -1,0 +1,292 @@
+{
+ "setting": {
+  "box_spec": "300.0±0.5mm",
+  "board_spec": "299.0±0.5mm",
+  "nominal_gap_mm": 1.0,
+  "shift_mm": 0.2,
+  "narrow_sd_mm": 0.1,
+  "wide_sd_mm": 0.6,
+  "n_pairs_sim": 1000000
+ },
+ "main_cases": [
+  {
+   "part_out_pct": 0.1,
+   "mode": "ばらつき",
+   "gap_mean_mm": 1.0,
+   "gap_sd_mm": 0.2149,
+   "fail_per_million_formula": 1.63,
+   "fail_per_million_sim": 1.0,
+   "fail_per_million_from_gap_mean_sd": 1.63,
+   "box_out_pct_sim": 0.1008,
+   "board_out_pct_sim": 0.0979,
+   "both_out_per_million": 1.0,
+   "either_out_per_million": 1999.0,
+   "fail_both_in_per_million_sim": 0.0,
+   "box_sd_mm": 0.152,
+   "rare_share_pct": NaN
+  },
+  {
+   "part_out_pct": 0.1,
+   "mode": "狭い側へずれる",
+   "gap_mean_mm": 0.6,
+   "gap_sd_mm": 0.1373,
+   "fail_per_million_formula": 6.21,
+   "fail_per_million_sim": 2.0,
+   "fail_per_million_from_gap_mean_sd": 6.21,
+   "box_out_pct_sim": 0.1024,
+   "board_out_pct_sim": 0.094,
+   "both_out_per_million": 1.0,
+   "either_out_per_million": 1999.0,
+   "fail_both_in_per_million_sim": 0.0,
+   "box_sd_mm": 0.0971,
+   "rare_share_pct": NaN
+  },
+  {
+   "part_out_pct": 0.1,
+   "mode": "広い側へずれる",
+   "gap_mean_mm": 1.4,
+   "gap_sd_mm": 0.1373,
+   "fail_per_million_formula": 0.0,
+   "fail_per_million_sim": 0.0,
+   "fail_per_million_from_gap_mean_sd": 0.0,
+   "box_out_pct_sim": 0.095,
+   "board_out_pct_sim": 0.1066,
+   "both_out_per_million": 1.0,
+   "either_out_per_million": 1999.0,
+   "fail_both_in_per_million_sim": 0.0,
+   "box_sd_mm": 0.0971,
+   "rare_share_pct": NaN
+  },
+  {
+   "part_out_pct": 0.1,
+   "mode": "まれに大きくずれる",
+   "gap_mean_mm": 1.0,
+   "gap_sd_mm": 0.1474,
+   "fail_per_million_formula": 247.54,
+   "fail_per_million_sim": 239.0,
+   "fail_per_million_from_gap_mean_sd": 0.0,
+   "box_out_pct_sim": 0.0978,
+   "board_out_pct_sim": 0.0987,
+   "both_out_per_million": 1.0,
+   "either_out_per_million": 1999.0,
+   "fail_both_in_per_million_sim": 0.0,
+   "box_sd_mm": 0.1,
+   "rare_share_pct": 0.247
+  },
+  {
+   "part_out_pct": 1.0,
+   "mode": "ばらつき",
+   "gap_mean_mm": 1.0,
+   "gap_sd_mm": 0.2745,
+   "fail_per_million_formula": 134.86,
+   "fail_per_million_sim": 134.0,
+   "fail_per_million_from_gap_mean_sd": 134.86,
+   "box_out_pct_sim": 1.0046,
+   "board_out_pct_sim": 0.9899,
+   "both_out_per_million": 100.0,
+   "either_out_per_million": 19900.0,
+   "fail_both_in_per_million_sim": 0.0,
+   "box_sd_mm": 0.1941,
+   "rare_share_pct": NaN
+  },
+  {
+   "part_out_pct": 1.0,
+   "mode": "狭い側へずれる",
+   "gap_mean_mm": 0.6,
+   "gap_sd_mm": 0.1824,
+   "fail_per_million_formula": 501.02,
+   "fail_per_million_sim": 495.0,
+   "fail_per_million_from_gap_mean_sd": 501.02,
+   "box_out_pct_sim": 1.0041,
+   "board_out_pct_sim": 0.9734,
+   "both_out_per_million": 100.0,
+   "either_out_per_million": 19900.0,
+   "fail_both_in_per_million_sim": 0.0,
+   "box_sd_mm": 0.129,
+   "rare_share_pct": NaN
+  },
+  {
+   "part_out_pct": 1.0,
+   "mode": "広い側へずれる",
+   "gap_mean_mm": 1.4,
+   "gap_sd_mm": 0.1824,
+   "fail_per_million_formula": 0.0,
+   "fail_per_million_sim": 0.0,
+   "fail_per_million_from_gap_mean_sd": 0.0,
+   "box_out_pct_sim": 1.0042,
+   "board_out_pct_sim": 0.9941,
+   "both_out_per_million": 100.0,
+   "either_out_per_million": 19900.0,
+   "fail_both_in_per_million_sim": 0.0,
+   "box_sd_mm": 0.129,
+   "rare_share_pct": NaN
+  },
+  {
+   "part_out_pct": 1.0,
+   "mode": "まれに大きくずれる",
+   "gap_mean_mm": 1.0,
+   "gap_sd_mm": 0.1931,
+   "fail_per_million_formula": 2487.17,
+   "fail_per_million_sim": 2501.0,
+   "fail_per_million_from_gap_mean_sd": 0.11,
+   "box_out_pct_sim": 0.9922,
+   "board_out_pct_sim": 1.0103,
+   "both_out_per_million": 100.0,
+   "either_out_per_million": 19900.0,
+   "fail_both_in_per_million_sim": 0.0,
+   "box_sd_mm": 0.1,
+   "rare_share_pct": 2.4711
+  },
+  {
+   "part_out_pct": 5.0,
+   "mode": "ばらつき",
+   "gap_mean_mm": 1.0,
+   "gap_sd_mm": 0.3608,
+   "fail_per_million_formula": 2787.3,
+   "fail_per_million_sim": 2792.0,
+   "fail_per_million_from_gap_mean_sd": 2787.3,
+   "box_out_pct_sim": 4.9986,
+   "board_out_pct_sim": 5.0227,
+   "both_out_per_million": 2500.0,
+   "either_out_per_million": 97500.0,
+   "fail_both_in_per_million_sim": 0.0,
+   "box_sd_mm": 0.2551,
+   "rare_share_pct": NaN
+  },
+  {
+   "part_out_pct": 5.0,
+   "mode": "狭い側へずれる",
+   "gap_mean_mm": 0.6,
+   "gap_sd_mm": 0.2578,
+   "fail_per_million_formula": 9982.09,
+   "fail_per_million_sim": 9948.0,
+   "fail_per_million_from_gap_mean_sd": 9982.09,
+   "box_out_pct_sim": 4.9982,
+   "board_out_pct_sim": 4.9741,
+   "both_out_per_million": 2500.0,
+   "either_out_per_million": 97500.0,
+   "fail_both_in_per_million_sim": 0.0,
+   "box_sd_mm": 0.1823,
+   "rare_share_pct": NaN
+  },
+  {
+   "part_out_pct": 5.0,
+   "mode": "広い側へずれる",
+   "gap_mean_mm": 1.4,
+   "gap_sd_mm": 0.2578,
+   "fail_per_million_formula": 0.03,
+   "fail_per_million_sim": 0.0,
+   "fail_per_million_from_gap_mean_sd": 0.03,
+   "box_out_pct_sim": 4.9737,
+   "board_out_pct_sim": 5.0276,
+   "both_out_per_million": 2500.0,
+   "either_out_per_million": 97500.0,
+   "fail_both_in_per_million_sim": 0.0,
+   "box_sd_mm": 0.1823,
+   "rare_share_pct": NaN
+  },
+  {
+   "part_out_pct": 5.0,
+   "mode": "まれに大きくずれる",
+   "gap_mean_mm": 1.0,
+   "gap_sd_mm": 0.3263,
+   "fail_per_million_formula": 12669.94,
+   "fail_per_million_sim": 12608.0,
+   "fail_per_million_from_gap_mean_sd": 1090.65,
+   "box_out_pct_sim": 5.0124,
+   "board_out_pct_sim": 5.0096,
+   "both_out_per_million": 2500.0,
+   "either_out_per_million": 97500.0,
+   "fail_both_in_per_million_sim": 0.0,
+   "box_sd_mm": 0.1,
+   "rare_share_pct": 12.356
+  }
+ ],
+ "max_abs_diff_formula_sim_per_million": 61.94,
+ "grid_summary": [
+  {
+   "gap_nominal_mm": 0.6,
+   "part_out_pct": 0.1,
+   "fail_per_million_min": 0.0,
+   "fail_per_million_max": 72592.77
+  },
+  {
+   "gap_nominal_mm": 0.6,
+   "part_out_pct": 1.0,
+   "fail_per_million_min": 0.02,
+   "fail_per_million_max": 136396.9
+  },
+  {
+   "gap_nominal_mm": 0.6,
+   "part_out_pct": 5.0,
+   "fail_per_million_min": 52.58,
+   "fail_per_million_max": 218970.91
+  },
+  {
+   "gap_nominal_mm": 1.0,
+   "part_out_pct": 0.1,
+   "fail_per_million_min": 0.0,
+   "fail_per_million_max": 247.54
+  },
+  {
+   "gap_nominal_mm": 1.0,
+   "part_out_pct": 1.0,
+   "fail_per_million_min": 0.0,
+   "fail_per_million_max": 2487.17
+  },
+  {
+   "gap_nominal_mm": 1.0,
+   "part_out_pct": 5.0,
+   "fail_per_million_min": 0.03,
+   "fail_per_million_max": 12669.94
+  },
+  {
+   "gap_nominal_mm": 1.4,
+   "part_out_pct": 0.1,
+   "fail_per_million_min": 0.0,
+   "fail_per_million_max": 59.7
+  },
+  {
+   "gap_nominal_mm": 1.4,
+   "part_out_pct": 1.0,
+   "fail_per_million_min": 0.0,
+   "fail_per_million_max": 624.47
+  },
+  {
+   "gap_nominal_mm": 1.4,
+   "part_out_pct": 5.0,
+   "fail_per_million_min": 0.0,
+   "fail_per_million_max": 3439.36
+  }
+ ],
+ "gap06_both_in": [
+  {
+   "mode": "ばらつき",
+   "fail_per_million_formula": 14420.11,
+   "fail_per_million_sim": 14212.0,
+   "fail_both_in_per_million_sim": 10115.0,
+   "share_of_fail_both_in_pct": 71.17
+  },
+  {
+   "mode": "狭い側へずれる",
+   "fail_per_million_formula": 136396.9,
+   "fail_per_million_sim": 136250.0,
+   "fail_both_in_per_million_sim": 119051.0,
+   "share_of_fail_both_in_pct": 87.38
+  },
+  {
+   "mode": "広い側へずれる",
+   "fail_per_million_formula": 0.02,
+   "fail_per_million_sim": 0.0,
+   "fail_both_in_per_million_sim": 0.0,
+   "share_of_fail_both_in_pct": NaN
+  },
+  {
+   "mode": "まれに大きくずれる",
+   "fail_per_million_formula": 7963.95,
+   "fail_per_million_sim": 7973.0,
+   "fail_both_in_per_million_sim": 225.0,
+   "share_of_fail_both_in_pct": 2.82
+  }
+ ]
+}

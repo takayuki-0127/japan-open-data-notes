@@ -1,0 +1,332 @@
+{
+ "setting": {
+  "square_tol_mm": 0.1,
+  "radii_mm": {
+   "四角の中に収まる丸": 0.1,
+   "四角と同じ面積の丸": 0.1128,
+   "四角の角を通る丸": 0.1414
+  },
+  "n_holes": 1000000,
+  "base_sigma_mm": 0.05,
+  "sigmas_mm": [
+   0.03,
+   0.04,
+   0.05,
+   0.06,
+   0.07
+  ]
+ },
+ "base_sigma005": [
+  {
+   "pattern": "基本（縦横同じ・片寄りなし）",
+   "sigma_mm": 0.05,
+   "circle": "四角の中に収まる丸",
+   "radius_mm": 0.1,
+   "square_pass_pct": 91.1,
+   "circle_pass_pct": 86.45,
+   "square_only_pct": 4.65,
+   "circle_only_pct": 0.0,
+   "swap_pct": 4.65,
+   "swap_share_of_square_fail_pct": 0.0,
+   "swap_share_of_circle_fail_pct": 34.35,
+   "square_pass_pct_formula": 91.11,
+   "circle_pass_pct_formula": 86.47
+  },
+  {
+   "pattern": "基本（縦横同じ・片寄りなし）",
+   "sigma_mm": 0.05,
+   "circle": "四角と同じ面積の丸",
+   "radius_mm": 0.1128,
+   "square_pass_pct": 91.1,
+   "circle_pass_pct": 92.15,
+   "square_only_pct": 1.22,
+   "circle_only_pct": 2.27,
+   "swap_pct": 3.49,
+   "swap_share_of_square_fail_pct": 25.48,
+   "swap_share_of_circle_fail_pct": 15.58,
+   "square_pass_pct_formula": 91.11,
+   "circle_pass_pct_formula": 92.16
+  },
+  {
+   "pattern": "基本（縦横同じ・片寄りなし）",
+   "sigma_mm": 0.05,
+   "circle": "四角の角を通る丸",
+   "radius_mm": 0.1414,
+   "square_pass_pct": 91.1,
+   "circle_pass_pct": 98.17,
+   "square_only_pct": 0.0,
+   "circle_only_pct": 7.06,
+   "swap_pct": 7.06,
+   "swap_share_of_square_fail_pct": 79.38,
+   "swap_share_of_circle_fail_pct": 0.0,
+   "square_pass_pct_formula": 91.11,
+   "circle_pass_pct_formula": 98.17
+  }
+ ],
+ "base_swap_range_by_circle": {
+  "四角の中に収まる丸": [
+   0.21,
+   7.68
+  ],
+  "四角と同じ面積の丸": [
+   0.13,
+   6.19
+  ],
+  "四角の角を通る丸": [
+   0.17,
+   15.38
+  ]
+ },
+ "robust_sigma005": [
+  {
+   "pattern": "基本（縦横同じ・片寄りなし）",
+   "sigma_mm": 0.05,
+   "circle": "四角の中に収まる丸",
+   "radius_mm": 0.1,
+   "square_pass_pct": 91.1,
+   "circle_pass_pct": 86.45,
+   "square_only_pct": 4.65,
+   "circle_only_pct": 0.0,
+   "swap_pct": 4.65,
+   "swap_share_of_square_fail_pct": 0.0,
+   "swap_share_of_circle_fail_pct": 34.35,
+   "square_pass_pct_formula": 91.11,
+   "circle_pass_pct_formula": 86.47
+  },
+  {
+   "pattern": "基本（縦横同じ・片寄りなし）",
+   "sigma_mm": 0.05,
+   "circle": "四角と同じ面積の丸",
+   "radius_mm": 0.1128,
+   "square_pass_pct": 91.1,
+   "circle_pass_pct": 92.15,
+   "square_only_pct": 1.22,
+   "circle_only_pct": 2.27,
+   "swap_pct": 3.49,
+   "swap_share_of_square_fail_pct": 25.48,
+   "swap_share_of_circle_fail_pct": 15.58,
+   "square_pass_pct_formula": 91.11,
+   "circle_pass_pct_formula": 92.16
+  },
+  {
+   "pattern": "基本（縦横同じ・片寄りなし）",
+   "sigma_mm": 0.05,
+   "circle": "四角の角を通る丸",
+   "radius_mm": 0.1414,
+   "square_pass_pct": 91.1,
+   "circle_pass_pct": 98.17,
+   "square_only_pct": 0.0,
+   "circle_only_pct": 7.06,
+   "swap_pct": 7.06,
+   "swap_share_of_square_fail_pct": 79.38,
+   "swap_share_of_circle_fail_pct": 0.0,
+   "square_pass_pct_formula": 91.11,
+   "circle_pass_pct_formula": 98.17
+  },
+  {
+   "pattern": "縦と横の標準偏差が1:2",
+   "sigma_mm": 0.05,
+   "circle": "四角の中に収まる丸",
+   "radius_mm": 0.1,
+   "square_pass_pct": 88.46,
+   "circle_pass_pct": 86.02,
+   "square_only_pct": 2.44,
+   "circle_only_pct": 0.0,
+   "swap_pct": 2.44,
+   "swap_share_of_square_fail_pct": 0.0,
+   "swap_share_of_circle_fail_pct": 17.45,
+   "square_pass_pct_formula": NaN,
+   "circle_pass_pct_formula": NaN
+  },
+  {
+   "pattern": "縦と横の標準偏差が1:2",
+   "sigma_mm": 0.05,
+   "circle": "四角と同じ面積の丸",
+   "radius_mm": 0.1128,
+   "square_pass_pct": 88.46,
+   "circle_pass_pct": 90.98,
+   "square_only_pct": 0.37,
+   "circle_only_pct": 2.89,
+   "swap_pct": 3.26,
+   "swap_share_of_square_fail_pct": 25.05,
+   "swap_share_of_circle_fail_pct": 4.12,
+   "square_pass_pct_formula": NaN,
+   "circle_pass_pct_formula": NaN
+  },
+  {
+   "pattern": "縦と横の標準偏差が1:2",
+   "sigma_mm": 0.05,
+   "circle": "四角の角を通る丸",
+   "radius_mm": 0.1414,
+   "square_pass_pct": 88.46,
+   "circle_pass_pct": 96.97,
+   "square_only_pct": 0.0,
+   "circle_only_pct": 8.52,
+   "swap_pct": 8.52,
+   "swap_share_of_square_fail_pct": 73.77,
+   "swap_share_of_circle_fail_pct": 0.0,
+   "square_pass_pct_formula": NaN,
+   "circle_pass_pct_formula": NaN
+  },
+  {
+   "pattern": "横に0.03mm片寄る",
+   "sigma_mm": 0.05,
+   "circle": "四角の中に収まる丸",
+   "radius_mm": 0.1,
+   "square_pass_pct": 87.24,
+   "circle_pass_pct": 81.55,
+   "square_only_pct": 5.69,
+   "circle_only_pct": 0.0,
+   "swap_pct": 5.69,
+   "swap_share_of_square_fail_pct": 0.0,
+   "swap_share_of_circle_fail_pct": 30.84,
+   "square_pass_pct_formula": NaN,
+   "circle_pass_pct_formula": NaN
+  },
+  {
+   "pattern": "横に0.03mm片寄る",
+   "sigma_mm": 0.05,
+   "circle": "四角と同じ面積の丸",
+   "radius_mm": 0.1128,
+   "square_pass_pct": 87.24,
+   "circle_pass_pct": 88.46,
+   "square_only_pct": 1.6,
+   "circle_only_pct": 2.81,
+   "swap_pct": 4.41,
+   "swap_share_of_square_fail_pct": 22.05,
+   "swap_share_of_circle_fail_pct": 13.83,
+   "square_pass_pct_formula": NaN,
+   "circle_pass_pct_formula": NaN
+  },
+  {
+   "pattern": "横に0.03mm片寄る",
+   "sigma_mm": 0.05,
+   "circle": "四角の角を通る丸",
+   "radius_mm": 0.1414,
+   "square_pass_pct": 87.24,
+   "circle_pass_pct": 96.71,
+   "square_only_pct": 0.0,
+   "circle_only_pct": 9.47,
+   "swap_pct": 9.47,
+   "swap_share_of_square_fail_pct": 74.21,
+   "swap_share_of_circle_fail_pct": 0.0,
+   "square_pass_pct_formula": NaN,
+   "circle_pass_pct_formula": NaN
+  },
+  {
+   "pattern": "斜めに片寄る（縦横0.02mm）",
+   "sigma_mm": 0.05,
+   "circle": "四角の中に収まる丸",
+   "radius_mm": 0.1,
+   "square_pass_pct": 87.79,
+   "circle_pass_pct": 82.14,
+   "square_only_pct": 5.65,
+   "circle_only_pct": 0.0,
+   "swap_pct": 5.65,
+   "swap_share_of_square_fail_pct": 0.0,
+   "swap_share_of_circle_fail_pct": 31.65,
+   "square_pass_pct_formula": NaN,
+   "circle_pass_pct_formula": NaN
+  },
+  {
+   "pattern": "斜めに片寄る（縦横0.02mm）",
+   "sigma_mm": 0.05,
+   "circle": "四角と同じ面積の丸",
+   "radius_mm": 0.1128,
+   "square_pass_pct": 87.79,
+   "circle_pass_pct": 88.89,
+   "square_only_pct": 1.59,
+   "circle_only_pct": 2.69,
+   "swap_pct": 4.28,
+   "swap_share_of_square_fail_pct": 22.04,
+   "swap_share_of_circle_fail_pct": 14.32,
+   "square_pass_pct_formula": NaN,
+   "circle_pass_pct_formula": NaN
+  },
+  {
+   "pattern": "斜めに片寄る（縦横0.02mm）",
+   "sigma_mm": 0.05,
+   "circle": "四角の角を通る丸",
+   "radius_mm": 0.1414,
+   "square_pass_pct": 87.79,
+   "circle_pass_pct": 96.88,
+   "square_only_pct": 0.0,
+   "circle_only_pct": 9.09,
+   "swap_pct": 9.09,
+   "swap_share_of_square_fail_pct": 74.43,
+   "swap_share_of_circle_fail_pct": 0.0,
+   "square_pass_pct_formula": NaN,
+   "circle_pass_pct_formula": NaN
+  },
+  {
+   "pattern": "縦と横が一緒に動く（0.5）",
+   "sigma_mm": 0.05,
+   "circle": "四角の中に収まる丸",
+   "radius_mm": 0.1,
+   "square_pass_pct": 91.68,
+   "circle_pass_pct": 86.23,
+   "square_only_pct": 5.45,
+   "circle_only_pct": 0.0,
+   "swap_pct": 5.45,
+   "swap_share_of_square_fail_pct": 0.0,
+   "swap_share_of_circle_fail_pct": 39.58,
+   "square_pass_pct_formula": NaN,
+   "circle_pass_pct_formula": NaN
+  },
+  {
+   "pattern": "縦と横が一緒に動く（0.5）",
+   "sigma_mm": 0.05,
+   "circle": "四角と同じ面積の丸",
+   "radius_mm": 0.1128,
+   "square_pass_pct": 91.68,
+   "circle_pass_pct": 91.37,
+   "square_only_pct": 1.81,
+   "circle_only_pct": 1.5,
+   "swap_pct": 3.31,
+   "swap_share_of_square_fail_pct": 17.99,
+   "swap_share_of_circle_fail_pct": 20.98,
+   "square_pass_pct_formula": NaN,
+   "circle_pass_pct_formula": NaN
+  },
+  {
+   "pattern": "縦と横が一緒に動く（0.5）",
+   "sigma_mm": 0.05,
+   "circle": "四角の角を通る丸",
+   "radius_mm": 0.1414,
+   "square_pass_pct": 91.68,
+   "circle_pass_pct": 97.31,
+   "square_only_pct": 0.0,
+   "circle_only_pct": 5.63,
+   "swap_pct": 5.63,
+   "swap_share_of_square_fail_pct": 67.64,
+   "swap_share_of_circle_fail_pct": 0.0,
+   "square_pass_pct_formula": NaN,
+   "circle_pass_pct_formula": NaN
+  }
+ ],
+ "robust_swap_range_by_circle": {
+  "四角の中に収まる丸": [
+   2.44,
+   5.69
+  ],
+  "四角と同じ面積の丸": [
+   3.26,
+   4.41
+  ],
+  "四角の角を通る丸": [
+   5.63,
+   9.47
+  ]
+ },
+ "scatter_5000_counts": {
+  "四角と同じ面積の丸": {
+   "square_only": 60,
+   "circle_only": 115
+  },
+  "四角の角を通る丸": {
+   "square_only": 0,
+   "circle_only": 335
+  }
+ },
+ "max_abs_diff_formula_sim_pct": 0.08
+}

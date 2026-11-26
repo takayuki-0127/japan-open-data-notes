@@ -1,0 +1,5 @@
+mode,fail_per_million_formula,fail_per_million_sim,fail_both_in_per_million_sim,share_of_fail_both_in_pct
+ばらつき,14420.11,14212.0,10115.0,71.17
+狭い側へずれる,136396.9,136250.0,119051.0,87.38
+広い側へずれる,0.02,0.0,0.0,
+まれに大きくずれる,7963.95,7973.0,225.0,2.82

@@ -1,0 +1,167 @@
+{
+ "setting": {
+  "main_true_sds_mm": [
+   0.1,
+   0.08,
+   0.12,
+   0.06,
+   0.09
+  ],
+  "true_halfwidth_mm": 0.6185,
+  "reps_main": 20000,
+  "reps_grid": 4000,
+  "n_true_assemblies": 1000000,
+  "rare_share": 0.05,
+  "rare_sd_times": 3.0
+ },
+ "main_n20": {
+  "n": 20.0,
+  "narrower_pct": 52.43,
+  "narrower10_pct": 10.38,
+  "narrower20_pct": 0.51,
+  "ratio_p10": 0.8984,
+  "ratio_p50": 0.9955,
+  "ratio_p90": 1.0979,
+  "out_pct_true_width": 0.2623,
+  "out_pct_median": 0.2754,
+  "out_pct_p90": 0.6992,
+  "out_over1_pct": 3.46
+ },
+ "main_by_n": [
+  {
+   "n": 5,
+   "narrower_pct": 55.16,
+   "narrower10_pct": 31.66,
+   "narrower20_pct": 13.56,
+   "ratio_p10": 0.7717,
+   "ratio_p50": 0.9781,
+   "ratio_p90": 1.2063,
+   "out_pct_true_width": 0.2623,
+   "out_pct_median": 0.3299,
+   "out_pct_p90": 2.0548,
+   "out_over1_pct": 23.5
+  },
+  {
+   "n": 10,
+   "narrower_pct": 53.2,
+   "narrower10_pct": 20.57,
+   "narrower20_pct": 3.77,
+   "ratio_p10": 0.8515,
+   "ratio_p50": 0.9906,
+   "ratio_p90": 1.1414,
+   "out_pct_true_width": 0.2623,
+   "out_pct_median": 0.2877,
+   "out_pct_p90": 1.0627,
+   "out_over1_pct": 11.14
+  },
+  {
+   "n": 20,
+   "narrower_pct": 52.43,
+   "narrower10_pct": 10.38,
+   "narrower20_pct": 0.51,
+   "ratio_p10": 0.8984,
+   "ratio_p50": 0.9955,
+   "ratio_p90": 1.0979,
+   "out_pct_true_width": 0.2623,
+   "out_pct_median": 0.2754,
+   "out_pct_p90": 0.6992,
+   "out_over1_pct": 3.46
+  },
+  {
+   "n": 50,
+   "narrower_pct": 51.65,
+   "narrower10_pct": 2.08,
+   "narrower20_pct": 0.0,
+   "ratio_p10": 0.9358,
+   "ratio_p50": 0.9981,
+   "ratio_p90": 1.0615,
+   "out_pct_true_width": 0.2623,
+   "out_pct_median": 0.268,
+   "out_pct_p90": 0.4974,
+   "out_over1_pct": 0.16
+  },
+  {
+   "n": 100,
+   "narrower_pct": 51.09,
+   "narrower10_pct": 0.15,
+   "narrower20_pct": 0.0,
+   "ratio_p10": 0.9554,
+   "ratio_p50": 0.999,
+   "ratio_p90": 1.0444,
+   "out_pct_true_width": 0.2623,
+   "out_pct_median": 0.2656,
+   "out_pct_p90": 0.412,
+   "out_over1_pct": 0.0
+  }
+ ],
+ "grid_n20_summary": [
+  {
+   "part_shape": "まれに大きくずれる",
+   "narrower_min": 54.83,
+   "narrower_max": 65.03,
+   "narrower10_min": 13.8,
+   "narrower10_max": 44.5,
+   "out_p90_min": 1.1827,
+   "out_p90_max": 2.9594
+  },
+  {
+   "part_shape": "山が1つ",
+   "narrower_min": 51.23,
+   "narrower_max": 53.92,
+   "narrower10_min": 2.67,
+   "narrower10_max": 27.18,
+   "out_p90_min": 0.5249,
+   "out_p90_max": 1.5633
+  },
+  {
+   "part_shape": "平ら",
+   "narrower_min": 49.98,
+   "narrower_max": 51.52,
+   "narrower10_min": 0.12,
+   "narrower10_max": 16.88,
+   "out_p90_min": 0.0,
+   "out_p90_max": 0.2977
+  }
+ ],
+ "grid_n20_all_range": {
+  "n_cases": 18,
+  "narrower_min": 49.98,
+  "narrower_max": 65.03,
+  "narrower10_min": 0.12,
+  "narrower10_max": 44.5
+ },
+ "grid_n20_normal_5parts": {
+  "そろう（どれも0.1mm）": {
+   "part_shape": "山が1つ",
+   "k_parts": 5,
+   "sd_pattern": "そろう（どれも0.1mm）",
+   "n": 20,
+   "narrower_pct": 52.0,
+   "narrower10_pct": 8.82,
+   "narrower20_pct": 0.18,
+   "ratio_p10": 0.9042,
+   "ratio_p50": 0.9971,
+   "ratio_p90": 1.0937,
+   "out_pct_true_width": 0.2656,
+   "out_pct_median": 0.2733,
+   "out_pct_p90": 0.674,
+   "out_over1_pct": 2.4
+  },
+  "1つが大きい（0.3mm、ほかは0.1mm）": {
+   "part_shape": "山が1つ",
+   "k_parts": 5,
+   "sd_pattern": "1つが大きい（0.3mm、ほかは0.1mm）",
+   "n": 20,
+   "narrower_pct": 53.75,
+   "narrower10_pct": 20.62,
+   "narrower20_pct": 3.9,
+   "ratio_p10": 0.8477,
+   "ratio_p50": 0.9889,
+   "ratio_p90": 1.1438,
+   "out_pct_true_width": 0.2699,
+   "out_pct_median": 0.2976,
+   "out_pct_p90": 1.0938,
+   "out_over1_pct": 11.9
+  }
+ }
+}
