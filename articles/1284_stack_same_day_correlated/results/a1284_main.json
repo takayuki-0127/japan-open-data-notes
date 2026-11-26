@@ -1,0 +1,56 @@
+{
+ "setting": {
+  "n_parts": 5,
+  "sd_each_mm": 0.1,
+  "rho_day_share": 0.3,
+  "days": 60,
+  "shelves_per_day": 20,
+  "records_per_part_per_day": 10,
+  "factories": 500,
+  "seed": 1284
+ },
+ "example_factory": {
+  "sd_actual": 0.3106,
+  "rss_all": 0.2188,
+  "rss_day1": 0.1882,
+  "worst_all": 1.4673,
+  "out_rss_all": 0.035,
+  "out_rss_day1": 0.07,
+  "out_worst": 0.0,
+  "corr_rec": 0.2282,
+  "out_rss_all_pct": 3.5
+ },
+ "base": {
+  "ratio_all_median": 1.4781,
+  "ratio_all_p05": 1.3877,
+  "ratio_all_p95": 1.5752,
+  "ratio_day1_median": 1.7745,
+  "ratio_day1_p05": 1.4639,
+  "ratio_day1_p95": 2.1321,
+  "out_rss_all_mean_pct": 4.356,
+  "out_rss_all_p05_pct": 2.829,
+  "out_rss_all_p95_pct": 6.0,
+  "out_rss_day1_mean_pct": 9.81,
+  "out_worst_mean_pct": 0.0,
+  "share_ratio_all_over_1_1": 100.0,
+  "formula_ratio": 1.4832,
+  "formula_out_pct": 4.311,
+  "independent_out_pct": 0.27,
+  "worst_over_rss": 2.2361,
+  "sd_actual_median_mm": 0.3292,
+  "rss_all_median_mm": 0.2228,
+  "rss_day1_median_mm": 0.1857,
+  "corr_rec_median": 0.2977,
+  "rss_over_actual_median": 0.6765,
+  "rss_day1_over_actual_median": 0.5635
+ },
+ "grid_range": {
+  "ratio_all_median_min": 1.0182,
+  "ratio_all_median_max": 2.2781,
+  "out_rss_all_mean_min_pct": 0.335,
+  "out_rss_all_mean_max_pct": 19.387,
+  "ratio_day1_median_min": 1.0768,
+  "ratio_day1_median_max": 3.5885,
+  "max_abs_diff_median_vs_formula": 0.032
+ }
+}

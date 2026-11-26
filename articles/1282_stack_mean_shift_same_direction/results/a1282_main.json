@@ -1,0 +1,43 @@
+{
+ "seed": 1282,
+ "n_units": 1000000,
+ "base": {
+  "n_cases": 5,
+  "tol_part_mm": 0.4,
+  "nominal_part_mm": 80.0,
+  "tol_assembly_mm": 0.9,
+  "delta_share_of_tol": 0.2,
+  "shift_per_part_mm": 0.08,
+  "shift_sum_same_mm": 0.4,
+  "predicted_out_pct": 0.254,
+  "same_direction_out_pct": 4.697,
+  "same_direction_times_predicted": 18.5,
+  "predicted_share_of_actual": "1/18.5",
+  "random_direction_out_pct": 0.936,
+  "random_direction_times_predicted": 3.69,
+  "alternate_out_pct": 0.349,
+  "no_shift_out_pct": 0.253,
+  "part_out_of_tol_pct_with_shift": 0.837,
+  "part_out_of_tol_pct_no_shift": 0.27,
+  "part_mean_with_shift_mm": 80.08,
+  "same_direction_mean_height_mm": 400.4001,
+  "same_direction_sd_mm": 0.2983,
+  "formula_sd_mm": 0.2981,
+  "same_direction_out_high_pct": 4.696
+ },
+ "robust": {
+  "n_settings": 24,
+  "times_predicted_min_shift": 2.51,
+  "times_predicted_max_shift": 6609.81,
+  "times_predicted_sd3_min_shift": 2.51,
+  "times_predicted_sd3_max_shift": 162.54,
+  "times_predicted_sd4_min_shift": 7.46,
+  "times_predicted_sd4_max_shift": 6609.81,
+  "same_direction_out_min_pct": 0.0473,
+  "same_direction_out_max_pct": 43.8825,
+  "n_settings_shift_times_gt2": 18,
+  "n_settings_shift": 18,
+  "max_abs_diff_sim_vs_formula_pct": 0.1262,
+  "part_out_max_pct": 1.7913
+ }
+}

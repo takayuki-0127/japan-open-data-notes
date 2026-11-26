@@ -1,0 +1,5 @@
+case,label,shift_sum_mm,out_sim_pct,out_formula_pct,times_of_predicted
+no_shift,ずれなし,0.0,0.253,0.254,1.0
+same_direction,5段とも同じ向き,0.4,4.697,4.677,18.5
+random_direction,向きがでたらめ,0.15,0.936,0.932,3.69
+alternate,交互,0.08,0.349,0.348,1.37

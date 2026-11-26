@@ -1,0 +1,53 @@
+{
+ "setting": {
+  "n_parts": 5,
+  "sd_before_mm": 0.1,
+  "spec_L_mm": 0.15000000000000002,
+  "assemblies": 1000000,
+  "grid_assemblies": 400000,
+  "seed": 1286
+ },
+ "base": {
+  "n_parts": 5,
+  "spec_L_sd": 1.5,
+  "spec_L_mm": 0.15,
+  "mean_shift_sd": 0.0,
+  "meas_error_sd": 0.0,
+  "tol_rss_mm": 0.3354,
+  "tol_worst_mm": 0.75,
+  "pass_rate_pct": 86.64,
+  "pass_rate_formula_no_meas_error_pct": 86.64,
+  "part_sd_after_mm": 0.0743,
+  "part_sd_after_formula_mm": 0.0743,
+  "asm_mean_mm": -0.0,
+  "asm_sd_mm": 0.1661,
+  "pred_a_before_mm": 0.2236,
+  "pred_b_spec_div3_mm": 0.1118,
+  "pred_c_flat_mm": 0.1936,
+  "ratio_to_a": 0.743,
+  "ratio_to_b": 1.4859,
+  "ratio_to_c": 0.8579,
+  "ratio_to_hard_cut_formula": 1.0004,
+  "out_rss_pct": 4.159,
+  "out_rss_if_b_pct": 0.27,
+  "out_rss_if_a_pct": 13.361,
+  "out_worst_pct": 0.0,
+  "part_outside_spec_pct": 0.0,
+  "before_asm_sd_mm": 0.2237,
+  "before_out_rss_pct": 13.365,
+  "before_out_worst_pct": 0.082
+ },
+ "grid_range": {
+  "ratio_to_a_min": 0.502,
+  "ratio_to_a_max": 0.9855,
+  "ratio_to_b_min": 0.9359,
+  "ratio_to_b_max": 1.8806,
+  "out_rss_min_pct": 0.203,
+  "out_rss_max_pct": 41.661,
+  "out_worst_max_pct_no_meas_error": 0.0,
+  "out_worst_max_pct_with_meas_error": 1.0473,
+  "max_abs_diff_hard_cut_formula_no_meas_error": 0.0022,
+  "n_settings_ratio_to_b_over_1": 27,
+  "n_settings": 36
+ }
+}

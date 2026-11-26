@@ -1,0 +1,87 @@
+{
+ "seed": 1281,
+ "n_shelves": 200000,
+ "batch": 1000,
+ "base": {
+  "worst_width_mm": 6.4,
+  "sq_sum_width_mm": 3.0067,
+  "actual_9973_width_mm": 3.006,
+  "batch1000_range_mean_mm": 3.2352,
+  "batch1000_range_max_mm": 4.31,
+  "actual_sd_mm": 0.5028,
+  "nominal_height_mm": 980.0,
+  "tolerances_mm": {
+   "台輪": 0.5,
+   "箱A": 0.8,
+   "箱B": 0.8,
+   "箱C": 0.8,
+   "天板": 0.3
+  },
+  "ratio_worst_to_actual_9973": 2.129,
+  "ratio_worst_to_sq_sum": 2.129,
+  "ratio_sq_sum_to_actual_9973": 1.0,
+  "ratio_worst_to_batch_range": 1.978,
+  "share_beyond_sq_sum_pct": 0.269,
+  "share_beyond_half_worst_pct": 0.132,
+  "share_beyond_worst_pct": 0.0,
+  "max_abs_dev_of_200000_mm": 2.4312,
+  "part_out_of_tol_pct": 0.258,
+  "formula_sd_mm": 0.5011,
+  "worst_half_mm": 3.2,
+  "half_of_worst_half_mm": 1.6,
+  "quantile_low_high_pct": [
+   0.135,
+   99.865
+  ],
+  "sq_sum_half_mm": 1.5033,
+  "ratio_worst_to_sq_sum_equal5_formula": 2.236
+ },
+ "robust": {
+  "ratio_worst_to_actual_min": 1.04,
+  "ratio_worst_to_actual_max": 5.922,
+  "ratio_sq_sum_to_actual_min": 0.583,
+  "ratio_sq_sum_to_actual_max": 1.342,
+  "ratio_worst_to_batch_min": 1.03,
+  "ratio_worst_to_batch_max": 5.488,
+  "by_shape": {
+   "normal_sd_t3": {
+    "ratio_worst_to_actual_min": 1.183,
+    "ratio_worst_to_actual_max": 4.461,
+    "ratio_sq_sum_to_actual_min": 0.994,
+    "ratio_sq_sum_to_actual_max": 1.006
+   },
+   "normal_sd_t4": {
+    "ratio_worst_to_actual_min": 1.56,
+    "ratio_worst_to_actual_max": 5.922,
+    "ratio_sq_sum_to_actual_min": 1.324,
+    "ratio_sq_sum_to_actual_max": 1.342
+   },
+   "uniform_full": {
+    "ratio_worst_to_actual_min": 1.04,
+    "ratio_worst_to_actual_max": 2.609,
+    "ratio_sq_sum_to_actual_min": 0.583,
+    "ratio_sq_sum_to_actual_max": 0.884
+   }
+  },
+  "by_n_parts": {
+   "2": {
+    "ratio_worst_to_actual_min": 1.04,
+    "ratio_worst_to_actual_max": 1.881
+   },
+   "5": {
+    "ratio_worst_to_actual_min": 1.266,
+    "ratio_worst_to_actual_max": 2.998
+   },
+   "10": {
+    "ratio_worst_to_actual_min": 1.652,
+    "ratio_worst_to_actual_max": 4.244
+   },
+   "20": {
+    "ratio_worst_to_actual_min": 2.321,
+    "ratio_worst_to_actual_max": 5.922
+   }
+  },
+  "n_settings": 36,
+  "n_settings_worst_gt_actual": 36
+ }
+}
