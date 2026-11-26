@@ -1,0 +1,110 @@
+{
+ "setting": {
+  "cells_per_truck": 16,
+  "items_per_day": 600,
+  "height_median": 0.25,
+  "height_sigma_log": 0.5,
+  "height_range": [
+   0.05,
+   1.0
+  ],
+  "days": 300,
+  "p_list": [
+   0.0,
+   0.05,
+   0.1,
+   0.2,
+   0.3
+  ]
+ },
+ "p0": {
+  "rule": "B",
+  "p_no_stack": 0.0,
+  "no_stack_items": 0.0,
+  "trucks_mean": 11.026666666666667,
+  "extra_trucks_mean": 0.0,
+  "share_days_more_trucks": 0.0,
+  "cells_mean": 170.63,
+  "extra_cells_mean": 0.0,
+  "gap_above_mean": 0.0,
+  "load_total": 0.9568765075574367,
+  "cell_fill_total": 0.9893836525816094,
+  "load_change_pt": 0.0
+ },
+ "A_p10": {
+  "rule": "A",
+  "p_no_stack": 0.1,
+  "no_stack_items": 60.0,
+  "trucks_mean": 11.076666666666666,
+  "extra_trucks_mean": 0.05,
+  "share_days_more_trucks": 0.05,
+  "cells_mean": 171.59666666666666,
+  "extra_cells_mean": 0.9666666666666667,
+  "gap_above_mean": 43.04704797666667,
+  "load_total": 0.9525571733373459,
+  "cell_fill_total": 0.9838100932807554,
+  "load_change_pt": -0.4319334220090787
+ },
+ "B_p10": {
+  "rule": "B",
+  "p_no_stack": 0.1,
+  "no_stack_items": 60.0,
+  "trucks_mean": 13.95,
+  "extra_trucks_mean": 2.9233333333333333,
+  "share_days_more_trucks": 1.0,
+  "cells_mean": 213.58,
+  "extra_cells_mean": 42.95,
+  "gap_above_mean": 43.04704797666667,
+  "load_total": 0.7563554329749105,
+  "cell_fill_total": 0.79042294521959,
+  "load_change_pt": -20.05210745825262
+ },
+ "A_p30": {
+  "rule": "A",
+  "p_no_stack": 0.3,
+  "no_stack_items": 180.0,
+  "trucks_mean": 13.936666666666667,
+  "extra_trucks_mean": 2.91,
+  "share_days_more_trucks": 1.0,
+  "cells_mean": 215.65,
+  "extra_cells_mean": 45.02,
+  "gap_above_mean": 129.32412435,
+  "load_total": 0.7570790449653194,
+  "cell_fill_total": 0.782835764618595,
+  "load_change_pt": -19.97974625921173
+ },
+ "B_p30": {
+  "rule": "B",
+  "p_no_stack": 0.3,
+  "no_stack_items": 180.0,
+  "trucks_mean": 19.04,
+  "extra_trucks_mean": 8.013333333333334,
+  "share_days_more_trucks": 1.0,
+  "cells_mean": 299.65,
+  "extra_cells_mean": 129.02,
+  "gap_above_mean": 129.32412435,
+  "load_total": 0.5541574732142858,
+  "cell_fill_total": 0.5633857254797264,
+  "load_change_pt": -40.27190343431509
+ },
+ "B_p10_extra_cells_vs_gap_above": {
+  "extra_cells_mean": 42.95,
+  "gap_above_mean": 43.04704797666667,
+  "ratio": 0.9977455370059459,
+  "corr_days": 0.9335967024166475
+ },
+ "grid_range": {
+  "trucks_p0_min": 5.0,
+  "trucks_p0_max": 18.72,
+  "A_p10_extra_trucks_min": 0.01,
+  "A_p10_extra_trucks_max": 0.58,
+  "A_p10_load_change_min": -9.78976615640681,
+  "A_p10_load_change_max": -0.050040395134087756,
+  "B_p10_extra_trucks_min": 1.91,
+  "B_p10_extra_trucks_max": 3.75,
+  "B_p10_load_change_min": -40.364700851785706,
+  "B_p10_load_change_max": -8.677460531484405,
+  "B_p10_extra_cells_over_gap_min": 0.9742127721552318,
+  "B_p10_extra_cells_over_gap_max": 0.9993453648843598
+ }
+}

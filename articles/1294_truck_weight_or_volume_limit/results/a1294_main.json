@@ -1,0 +1,91 @@
+{
+ "settings": {
+  "items_per_day": 2000,
+  "weight_cap_kg": 1000.0,
+  "volume_cap_m3": 10.0,
+  "heavy_small": {
+   "v": 0.02,
+   "w": 8.0
+  },
+  "light_big": {
+   "v": 0.08,
+   "w": 2.0
+  },
+  "days_per_share": 150
+ },
+ "base_p50": {
+  "p_heavy": 0.5,
+  "trucks_mean": 11.0,
+  "est_weight_only_mean": 10.5333,
+  "est_volume_only_mean": 10.4267,
+  "est_both_mean": 10.76,
+  "short_weight_only_pct": 4.24,
+  "short_volume_only_pct": 5.21,
+  "short_both_pct": 2.18,
+  "short_weight_only_trucks": 0.4667,
+  "short_volume_only_trucks": 0.5733,
+  "short_both_trucks": 0.24,
+  "weight_fill_pct": 91.05,
+  "volume_fill_pct": 90.76
+ },
+ "base_p0": {
+  "p_heavy": 0.0,
+  "trucks_mean": 16.5,
+  "est_weight_only_mean": 4.48,
+  "est_volume_only_mean": 16.4667,
+  "est_both_mean": 16.4667,
+  "short_weight_only_pct": 72.88,
+  "short_volume_only_pct": 0.2,
+  "short_both_pct": 0.2,
+  "short_weight_only_trucks": 12.02,
+  "short_volume_only_trucks": 0.0333,
+  "short_both_trucks": 0.0333,
+  "weight_fill_pct": 24.23,
+  "volume_fill_pct": 96.96
+ },
+ "base_p100": {
+  "p_heavy": 1.0,
+  "trucks_mean": 16.5,
+  "est_weight_only_mean": 16.4733,
+  "est_volume_only_mean": 4.5133,
+  "est_both_mean": 16.4733,
+  "short_weight_only_pct": 0.16,
+  "short_volume_only_pct": 72.68,
+  "short_both_pct": 0.16,
+  "short_weight_only_trucks": 0.0267,
+  "short_volume_only_trucks": 11.9867,
+  "short_both_trucks": 0.0267,
+  "weight_fill_pct": 97.0,
+  "volume_fill_pct": 24.26
+ },
+ "both_short_pct_range_base": [
+  0.0,
+  2.18
+ ],
+ "worse_single_short_pct_min_base": 5.21,
+ "example_day_p50": {
+  "p_heavy": 0.5,
+  "scale": 1.0,
+  "items": 2000,
+  "weight_sum": 9760.4661,
+  "volume_sum": 98.9136,
+  "est_weight_only": 10,
+  "est_volume_only": 10,
+  "est_both": 10,
+  "trucks": 11
+ },
+ "grid_range": {
+  "short_weight_only_pct": [
+   0.0,
+   38.46
+  ],
+  "short_volume_only_pct": [
+   0.0,
+   38.33
+  ],
+  "short_both_pct": [
+   0.0,
+   3.46
+  ]
+ }
+}

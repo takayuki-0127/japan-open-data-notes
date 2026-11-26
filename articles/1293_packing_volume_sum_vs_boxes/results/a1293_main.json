@@ -1,0 +1,36 @@
+{
+ "base": {
+  "items": 200,
+  "mean_estimate": 20.4955,
+  "mean_close": 21.9855,
+  "mean_any": 20.6895,
+  "extra_close_mean": 1.49,
+  "extra_any_mean": 0.194,
+  "est_short_close_pct": 6.715,
+  "est_short_any_pct": 0.9201,
+  "share_days_close_eq_est": 0.75,
+  "share_days_any_eq_est": 80.6,
+  "fill_close_pct": 91.0402,
+  "fill_any_pct": 96.6983,
+  "item_mean_actual": 0.1,
+  "gap_sum_closed_mean": 1.5118,
+  "gap_close_mean": 0.072,
+  "gap_close_median": 0.0533
+ },
+ "base_settings": {
+  "item_mean": 0.1,
+  "item_sigma": 0.6,
+  "days": 2000,
+  "target_boxes": 20
+ },
+ "grid_range": {
+  "est_short_close_pct_min": 1.45,
+  "est_short_close_pct_max": 17.63,
+  "est_short_any_pct_min": 0.04,
+  "est_short_any_pct_max": 6.44,
+  "extra_close_min": 0.305,
+  "extra_close_max": 4.3225,
+  "extra_any_min": 0.0075,
+  "extra_any_max": 1.4275
+ }
+}

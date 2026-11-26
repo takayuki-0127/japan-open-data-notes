@@ -1,0 +1,61 @@
+{
+ "base_settings": {
+  "shape": "lognormal",
+  "item_mean": 0.2,
+  "item_sigma": 0.6,
+  "days": 1000,
+  "target_trucks": 20
+ },
+ "base": {
+  "items": 100,
+  "item_mean_actual": 0.1987,
+  "trucks_arrival_mean": 20.865,
+  "trucks_sorted_mean": 20.512,
+  "trucks_close_mean": 23.409,
+  "lower_bound_mean": 20.362,
+  "fewer_by_sorting_mean": 0.353,
+  "share_days_sorted_fewer": 35.3,
+  "share_days_sorted_more": 0.0,
+  "fill_arrival_pct": 95.2402,
+  "fill_sorted_pct": 96.8722,
+  "fill_close_pct": 85.0092,
+  "fill_gain_sorted_vs_arrival_pt": 1.632,
+  "fill_gain_arrival_vs_close_pt": 10.2309,
+  "more_trucks_close_vs_arrival_mean": 2.544,
+  "share_days_sorted_at_bound": 85.0,
+  "share_days_arrival_at_bound": 49.7
+ },
+ "example_day": {
+  "day": 1,
+  "trucks_arrival": 20,
+  "trucks_sorted": 19,
+  "volume_sum": 18.8256
+ },
+ "grid_range": {
+  "fewer_by_sorting_lognormal": [
+   0.0133,
+   0.7033
+  ],
+  "fewer_by_sorting_uniform": [
+   0.28,
+   0.96
+  ],
+  "fill_gain_sorted_vs_arrival_pt": [
+   0.06,
+   3.4
+  ],
+  "fill_gain_arrival_vs_close_pt": [
+   1.36,
+   14.48
+  ],
+  "more_trucks_close_vs_arrival": [
+   0.2933,
+   3.4567
+  ],
+  "share_days_sorted_fewer": [
+   1.33,
+   81.33
+  ],
+  "share_days_sorted_more_max": 5.0
+ }
+}
