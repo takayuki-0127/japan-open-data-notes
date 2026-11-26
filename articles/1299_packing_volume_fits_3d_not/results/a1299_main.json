@@ -1,0 +1,335 @@
+{
+ "base": {
+  "setting": "荷物の中央値12cm・箱40×30×25・6通りの向き",
+  "orders": 1200,
+  "per_bin": 300,
+  "natural_share_pct": [
+   95.44,
+   3.71,
+   0.64,
+   0.2
+  ],
+  "weighted_all": {
+   "single_pct": 3.08,
+   "no_fit_low_pct": 3.61,
+   "no_fit_high_pct": 3.77,
+   "combo_low_pct": 0.55,
+   "combo_high_pct": 0.71
+  },
+  "stratified_all": {
+   "orders": 1200,
+   "fit_cut_pct": 49.33,
+   "fit_corner_pct": 0.08,
+   "single_pct": 25.08,
+   "pair_pct": 18.25,
+   "notfound_pct": 7.25,
+   "nf_search_pct": 7.25,
+   "unknown_pct": 0.0,
+   "no_fit_low_pct": 43.33,
+   "no_fit_high_pct": 50.58,
+   "orders_each_fits": 899,
+   "combo_low_pct": 24.36,
+   "combo_high_pct": 34.04,
+   "mean_fill_pct": 61.36
+  }
+ },
+ "base_by_fill": [
+  {
+   "orders": 300,
+   "fit_cut_pct": 97.67,
+   "fit_corner_pct": 0.0,
+   "single_pct": 2.33,
+   "pair_pct": 0.0,
+   "notfound_pct": 0.0,
+   "nf_search_pct": 0.0,
+   "unknown_pct": 0.0,
+   "no_fit_low_pct": 2.33,
+   "no_fit_high_pct": 2.33,
+   "orders_each_fits": 293,
+   "combo_low_pct": 0.0,
+   "combo_high_pct": 0.0,
+   "mean_fill_pct": 21.16,
+   "fill_bin": "50%以下",
+   "natural_share_pct": 95.44
+  },
+  {
+   "orders": 300,
+   "fit_cut_pct": 77.33,
+   "fit_corner_pct": 0.0,
+   "single_pct": 14.67,
+   "pair_pct": 7.0,
+   "notfound_pct": 1.0,
+   "nf_search_pct": 1.0,
+   "unknown_pct": 0.0,
+   "no_fit_low_pct": 21.67,
+   "no_fit_high_pct": 22.67,
+   "orders_each_fits": 256,
+   "combo_low_pct": 8.2,
+   "combo_high_pct": 9.38,
+   "mean_fill_pct": 57.51,
+   "fill_bin": "50〜70%",
+   "natural_share_pct": 3.71
+  },
+  {
+   "orders": 300,
+   "fit_cut_pct": 22.0,
+   "fit_corner_pct": 0.33,
+   "single_pct": 32.33,
+   "pair_pct": 31.67,
+   "notfound_pct": 13.67,
+   "nf_search_pct": 13.67,
+   "unknown_pct": 0.0,
+   "no_fit_low_pct": 64.0,
+   "no_fit_high_pct": 77.67,
+   "orders_each_fits": 203,
+   "combo_low_pct": 46.8,
+   "combo_high_pct": 67.0,
+   "mean_fill_pct": 75.74,
+   "fill_bin": "70〜85%",
+   "natural_share_pct": 0.64
+  },
+  {
+   "orders": 300,
+   "fit_cut_pct": 0.33,
+   "fit_corner_pct": 0.0,
+   "single_pct": 51.0,
+   "pair_pct": 34.33,
+   "notfound_pct": 14.33,
+   "nf_search_pct": 14.33,
+   "unknown_pct": 0.0,
+   "no_fit_low_pct": 85.33,
+   "no_fit_high_pct": 99.67,
+   "orders_each_fits": 147,
+   "combo_low_pct": 70.07,
+   "combo_high_pct": 99.32,
+   "mean_fill_pct": 91.04,
+   "fill_bin": "85〜100%",
+   "natural_share_pct": 0.2
+  }
+ ],
+ "base_by_items_stratified": [
+  {
+   "orders": 202,
+   "fit_cut_pct": 69.8,
+   "fit_corner_pct": 0.0,
+   "single_pct": 21.29,
+   "pair_pct": 8.91,
+   "notfound_pct": 0.0,
+   "nf_search_pct": 0.0,
+   "unknown_pct": 0.0,
+   "no_fit_low_pct": 30.2,
+   "no_fit_high_pct": 30.2,
+   "orders_each_fits": 159,
+   "combo_low_pct": 11.32,
+   "combo_high_pct": 11.32,
+   "mean_fill_pct": 40.75,
+   "n_items": 2
+  },
+  {
+   "orders": 319,
+   "fit_cut_pct": 47.96,
+   "fit_corner_pct": 0.0,
+   "single_pct": 28.53,
+   "pair_pct": 19.44,
+   "notfound_pct": 4.08,
+   "nf_search_pct": 4.08,
+   "unknown_pct": 0.0,
+   "no_fit_low_pct": 47.96,
+   "no_fit_high_pct": 52.04,
+   "orders_each_fits": 228,
+   "combo_low_pct": 27.19,
+   "combo_high_pct": 32.89,
+   "mean_fill_pct": 58.36,
+   "n_items": 3
+  },
+  {
+   "orders": 679,
+   "fit_cut_pct": 43.89,
+   "fit_corner_pct": 0.15,
+   "single_pct": 24.59,
+   "pair_pct": 20.47,
+   "notfound_pct": 10.9,
+   "nf_search_pct": 10.9,
+   "unknown_pct": 0.0,
+   "no_fit_low_pct": 45.07,
+   "no_fit_high_pct": 55.96,
+   "orders_each_fits": 512,
+   "combo_low_pct": 27.15,
+   "combo_high_pct": 41.6,
+   "mean_fill_pct": 68.9,
+   "n_items": 4
+  }
+ ],
+ "example_pair_fill_le70": [
+  {
+   "order": 306,
+   "n_items": 4,
+   "items": "5x13x21;9x11x9;31x28x15;16x12x11",
+   "fill": 57.96
+  }
+ ],
+ "example_fit_only_corner": [
+  {
+   "order": 722,
+   "n_items": 4,
+   "items": "9x16x18;15x13x27;13x15x25;19x15x30",
+   "fill": 70.94
+  }
+ ],
+ "robust": {
+  "settings": 18,
+  "settings_with_70_85": 10,
+  "settings_with_85_100": 10,
+  "all_no_fit_high_pct": [
+   0.01,
+   80.74
+  ],
+  "all_single_pct": [
+   0.01,
+   80.47
+  ],
+  "all_combo_low_pct": [
+   0.0,
+   12.48
+  ],
+  "all_combo_high_pct": [
+   0.0,
+   15.06
+  ],
+  "fill70_85_combo_low_pct": [
+   33.17,
+   84.88
+  ],
+  "fill70_85_combo_high_pct": [
+   65.43,
+   96.51
+  ],
+  "fill85_100_combo_low_pct": [
+   60.94,
+   100.0
+  ],
+  "fill85_100_combo_high_pct": [
+   96.88,
+   100.0
+  ],
+  "notfound_pct_max_bin": 25.33,
+  "fit_corner_pct_max_bin": 1.27,
+  "fill85_100_combo_high_pct_by_rotation": {
+   "6通りの向き": [
+    96.88,
+    100.0
+   ],
+   "上下そのまま": [
+    98.08,
+    100.0
+   ]
+  },
+  "fill85_100_combo_high_pct_by_box": {
+   "40×30×25": [
+    98.73,
+    100.0
+   ],
+   "31×31×31": [
+    98.08,
+    100.0
+   ],
+   "50×40×15": [
+    96.88,
+    100.0
+   ]
+  },
+  "fill85_100_combo_high_pct_by_median": {
+   "9": [
+    NaN,
+    NaN
+   ],
+   "12": [
+    99.32,
+    100.0
+   ],
+   "15": [
+    96.88,
+    100.0
+   ]
+  },
+  "all_single_pct_by_rotation": {
+   "6通りの向き": [
+    0.01,
+    30.76
+   ],
+   "上下そのまま": [
+    2.03,
+    80.47
+   ]
+  },
+  "all_single_pct_by_box": {
+   "40×30×25": [
+    0.01,
+    31.72
+   ],
+   "31×31×31": [
+    2.03,
+    31.3
+   ],
+   "50×40×15": [
+    0.36,
+    80.47
+   ]
+  },
+  "all_single_pct_by_median": {
+   "9": [
+    0.01,
+    25.69
+   ],
+   "12": [
+    3.08,
+    60.67
+   ],
+   "15": [
+    11.3,
+    80.47
+   ]
+  },
+  "all_combo_high_pct_by_rotation": {
+   "6通りの向き": [
+    0.0,
+    9.55
+   ],
+   "上下そのまま": [
+    0.0,
+    15.06
+   ]
+  },
+  "all_combo_high_pct_by_box": {
+   "40×30×25": [
+    0.0,
+    11.75
+   ],
+   "31×31×31": [
+    0.0,
+    15.06
+   ],
+   "50×40×15": [
+    0.0,
+    6.03
+   ]
+  },
+  "all_combo_high_pct_by_median": {
+   "9": [
+    0.0,
+    0.01
+   ],
+   "12": [
+    0.0,
+    2.24
+   ],
+   "15": [
+    0.0,
+    15.06
+   ]
+  }
+ },
+ "corner_search_limit": 3000000,
+ "max_batches": 40,
+ "min_orders_per_bin": 50
+}

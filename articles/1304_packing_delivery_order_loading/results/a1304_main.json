@@ -1,0 +1,116 @@
+{
+ "setting": {
+  "bed_width_cm": 200,
+  "bed_depth_cm": 420,
+  "stops": 40,
+  "days": 300,
+  "grid_days": 200,
+  "sizes_cm": {
+   "小さめ（20〜60cm）": [
+    20,
+    60
+   ],
+   "基本（30〜90cm）": [
+    30,
+    90
+   ],
+   "大きめ（50〜120cm）": [
+    50,
+    120
+   ]
+  },
+  "extra_mean": {
+   "1か所1個": 0.0,
+   "基本（平均2個）": 1.0,
+   "平均4個": 3.0
+  },
+  "rules": {
+   "free": "①決まりなし",
+   "rear": "②奥に積む決まり",
+   "split": "③配送先ごとに列を分ける"
+  },
+  "seed": 1304
+ },
+ "base": {
+  "days": 300,
+  "packages_mean": 80.15,
+  "area_m2_mean": 28.724,
+  "free": {
+   "trucks_mean": 4.723,
+   "fill_pct": 72.4
+  },
+  "rear": {
+   "trucks_mean": 6.083,
+   "fill_pct": 56.21,
+   "extra_trucks_mean": 1.36,
+   "extra_trucks_pct": 28.79,
+   "fill_drop_pt": 16.19,
+   "days_more_trucks_pct": 98.0
+  },
+  "split": {
+   "trucks_mean": 8.15,
+   "fill_pct": 41.96,
+   "extra_trucks_mean": 3.427,
+   "extra_trucks_pct": 72.55,
+   "fill_drop_pt": 30.44,
+   "days_more_trucks_pct": 100.0
+  },
+  "rear_best": {
+   "trucks_mean": 5.897,
+   "fill_pct": 57.99,
+   "extra_trucks_mean": 1.173,
+   "extra_trucks_pct": 24.84,
+   "fill_drop_pt": 14.41,
+   "days_more_trucks_pct": 96.67
+  },
+  "same_load": {
+   "depth_ratio_rear_vs_free": 1.2828,
+   "loads_over_bed_with_rear_pct": 80.03
+  }
+ },
+ "base_extra_trucks_dist": [
+  {
+   "extra_trucks": 0,
+   "days_rear": 6,
+   "days_split": 0
+  },
+  {
+   "extra_trucks": 1,
+   "days_rear": 183,
+   "days_split": 0
+  },
+  {
+   "extra_trucks": 2,
+   "days_rear": 108,
+   "days_split": 5
+  },
+  {
+   "extra_trucks": 3,
+   "days_rear": 3,
+   "days_split": 165
+  },
+  {
+   "extra_trucks": 4,
+   "days_rear": 0,
+   "days_split": 127
+  },
+  {
+   "extra_trucks": 5,
+   "days_rear": 0,
+   "days_split": 3
+  }
+ ],
+ "grid_summary": {
+  "n": 9,
+  "fill_drop_rear_pt_min": 6.83,
+  "fill_drop_rear_pt_max": 36.77,
+  "extra_trucks_rear_pct_min": 13.0,
+  "extra_trucks_rear_pct_max": 96.06,
+  "fill_drop_rear_best_pt_min": 6.34,
+  "fill_drop_rear_best_pt_max": 36.28,
+  "depth_ratio_min": 1.0951,
+  "depth_ratio_max": 1.3856,
+  "fill_drop_split_pt_min": 8.5,
+  "fill_drop_split_pt_max": 57.79
+ }
+}

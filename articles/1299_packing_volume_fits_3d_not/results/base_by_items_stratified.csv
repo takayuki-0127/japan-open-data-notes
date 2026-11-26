@@ -1,0 +1,4 @@
+orders,fit_cut_pct,fit_corner_pct,single_pct,pair_pct,notfound_pct,nf_search_pct,unknown_pct,no_fit_low_pct,no_fit_high_pct,orders_each_fits,combo_low_pct,combo_high_pct,mean_fill_pct,n_items
+202,69.8,0.0,21.29,8.91,0.0,0.0,0.0,30.2,30.2,159,11.32,11.32,40.75,2
+319,47.96,0.0,28.53,19.44,4.08,4.08,0.0,47.96,52.04,228,27.19,32.89,58.36,3
+679,43.89,0.15,24.59,20.47,10.9,10.9,0.0,45.07,55.96,512,27.15,41.6,68.9,4

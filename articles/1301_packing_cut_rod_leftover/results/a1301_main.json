@@ -1,0 +1,264 @@
+{
+ "setting": {
+  "rod_cm": 400,
+  "parts_per_day": 60,
+  "kerf_cm": 0
+ },
+ "example_day_k5": {
+  "lengths_cm": [
+   50,
+   36,
+   83,
+   218,
+   160
+  ],
+  "counts": [
+   6,
+   10,
+   19,
+   15,
+   10
+  ],
+  "total_cm": 7107,
+  "rods_sorted": 19,
+  "rods_lower_bound": 18,
+  "leftover_sorted_pct": 6.49,
+  "leftover_lower_bound_pct": 1.29
+ },
+ "single_length": {
+  "range_30_400": [
+   0.0,
+   49.75
+  ],
+  "range_30_250": [
+   0.0,
+   49.75
+  ],
+  "share_over_10pct_30_250": 63.35,
+  "mean_30_250": 19.47,
+  "examples": {
+   "100": {
+    "part_cm": 100,
+    "per_rod": 4,
+    "rods": 15,
+    "leftover_pct": 0.0
+   },
+   "101": {
+    "part_cm": 101,
+    "per_rod": 3,
+    "rods": 20,
+    "leftover_pct": 24.25
+   },
+   "133": {
+    "part_cm": 133,
+    "per_rod": 3,
+    "rods": 20,
+    "leftover_pct": 0.25
+   },
+   "134": {
+    "part_cm": 134,
+    "per_rod": 2,
+    "rods": 30,
+    "leftover_pct": 33.0
+   },
+   "200": {
+    "part_cm": 200,
+    "per_rod": 2,
+    "rods": 30,
+    "leftover_pct": 0.0
+   },
+   "201": {
+    "part_cm": 201,
+    "per_rod": 1,
+    "rods": 60,
+    "leftover_pct": 49.75
+   }
+  }
+ },
+ "pair_lengths": {
+  "pairs": 253,
+  "leftover_best_pct": [
+   0.0,
+   46.25
+  ],
+  "leftover_best_median_pct": 10.0,
+  "leftover_separate_pct": [
+   0.0,
+   46.25
+  ],
+  "leftover_separate_median_pct": 19.0,
+  "best_lt_separate_share_pct": 55.73,
+  "best_over_10pct_share_pct": 43.48,
+  "sorted_eq_best_share_pct": 90.91,
+  "sorted_minus_best_max": 3,
+  "best_eq_lower_bound_share_pct": 30.43,
+  "worst3": [
+   {
+    "p1_cm": 210,
+    "p2_cm": 220,
+    "rods_best": 60,
+    "leftover_best_pct": 46.25
+   },
+   {
+    "p1_cm": 210,
+    "p2_cm": 230,
+    "rods_best": 60,
+    "leftover_best_pct": 45.0
+   },
+   {
+    "p1_cm": 210,
+    "p2_cm": 240,
+    "rods_best": 60,
+    "leftover_best_pct": 43.75
+   }
+  ],
+  "ex_130_140": {
+   "p1_cm": 130.0,
+   "p2_cm": 140.0,
+   "rods_best": 23.0,
+   "rods_separate": 25.0,
+   "rods_sorted": 25.0,
+   "leftover_best_pct": 11.957,
+   "leftover_separate_pct": 19.0,
+   "leftover_sorted_pct": 19.0,
+   "lower_bound_rods": 21.0
+  },
+  "ex_200_210": {
+   "p1_cm": 200.0,
+   "p2_cm": 210.0,
+   "rods_best": 45.0,
+   "rods_separate": 45.0,
+   "rods_sorted": 45.0,
+   "leftover_best_pct": 31.667,
+   "leftover_separate_pct": 31.667,
+   "leftover_sorted_pct": 31.667,
+   "lower_bound_rods": 31.0
+  }
+ },
+ "mixture_by_k": [
+  {
+   "k": 1,
+   "leftover_mean_pct": 20.14,
+   "leftover_p10_pct": 3.23,
+   "leftover_p90_pct": 44.25,
+   "lower_bound_leftover_mean_pct": 2.83,
+   "rods_over_lower_bound_mean": 7.92,
+   "days_at_lower_bound_pct": 25.0
+  },
+  {
+   "k": 2,
+   "leftover_mean_pct": 16.25,
+   "leftover_p10_pct": 5.0,
+   "leftover_p90_pct": 33.22,
+   "lower_bound_leftover_mean_pct": 2.59,
+   "rods_over_lower_bound_mean": 4.662,
+   "days_at_lower_bound_pct": 15.0
+  },
+  {
+   "k": 3,
+   "leftover_mean_pct": 13.5,
+   "leftover_p10_pct": 5.57,
+   "leftover_p90_pct": 27.45,
+   "lower_bound_leftover_mean_pct": 2.52,
+   "rods_over_lower_bound_mean": 3.444,
+   "days_at_lower_bound_pct": 12.0
+  },
+  {
+   "k": 5,
+   "leftover_mean_pct": 11.46,
+   "leftover_p10_pct": 4.89,
+   "leftover_p90_pct": 22.12,
+   "lower_bound_leftover_mean_pct": 2.42,
+   "rods_over_lower_bound_mean": 2.644,
+   "days_at_lower_bound_pct": 13.0
+  },
+  {
+   "k": 10,
+   "leftover_mean_pct": 8.11,
+   "leftover_p10_pct": 4.0,
+   "leftover_p90_pct": 13.4,
+   "lower_bound_leftover_mean_pct": 2.37,
+   "rods_over_lower_bound_mean": 1.522,
+   "days_at_lower_bound_pct": 19.2
+  },
+  {
+   "k": 20,
+   "leftover_mean_pct": 6.06,
+   "leftover_p10_pct": 3.38,
+   "leftover_p90_pct": 8.47,
+   "lower_bound_leftover_mean_pct": 2.44,
+   "rods_over_lower_bound_mean": 0.874,
+   "days_at_lower_bound_pct": 31.6
+  }
+ ],
+ "robust": {
+  "settings": 27,
+  "k1_leftover_mean_pct": [
+   7.74,
+   27.08
+  ],
+  "k5_leftover_mean_pct": [
+   5.85,
+   20.82
+  ],
+  "k1_p90_pct_max": 46.7,
+  "k5_p90_pct_max": 33.87,
+  "k5_lt_k1_settings": 27,
+  "k1_by_range": {
+   "30〜150": [
+    7.74,
+    14.17
+   ],
+   "30〜250": [
+    12.78,
+    22.93
+   ],
+   "100〜300": [
+    13.69,
+    27.08
+   ]
+  },
+  "k5_by_range": {
+   "30〜150": [
+    5.85,
+    12.16
+   ],
+   "30〜250": [
+    6.22,
+    17.46
+   ],
+   "100〜300": [
+    9.5,
+    20.82
+   ]
+  },
+  "k5_by_rod": {
+   "300": [
+    7.77,
+    20.82
+   ],
+   "400": [
+    6.27,
+    20.41
+   ],
+   "600": [
+    5.85,
+    12.3
+   ]
+  },
+  "k5_by_parts": {
+   "30": [
+    10.53,
+    20.46
+   ],
+   "60": [
+    7.46,
+    20.42
+   ],
+   "120": [
+    5.85,
+    20.82
+   ]
+  }
+ }
+}
