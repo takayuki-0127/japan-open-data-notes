@@ -1,0 +1,81 @@
+{
+ "base": {
+  "n": 10000,
+  "k": 10,
+  "mean_per_server": 1000.0,
+  "max_ratio_mean": 1.0488,
+  "max_ratio_p10": 1.031,
+  "max_ratio_p90": 1.07,
+  "max_ratio_p99": 1.092,
+  "min_ratio_mean": 0.9509,
+  "share_max_over_1_05": 40.0,
+  "share_max_over_1_10": 0.35,
+  "formula_ratio": 1.0462,
+  "emax_normal_10": 1.5388,
+  "second_ratio_mean": 1.0322,
+  "one_trial_max": 1047,
+  "one_trial_min": 959
+ },
+ "by_records": [
+  {
+   "n": 1000,
+   "k": 10,
+   "mean_per_server": 100.0,
+   "max_ratio_mean": 1.1572,
+   "max_ratio_p10": 1.1,
+   "max_ratio_p90": 1.23,
+   "max_ratio_p99": 1.3,
+   "min_ratio_mean": 0.8495,
+   "share_max_over_1_05": 99.8,
+   "share_max_over_1_10": 85.05,
+   "formula_ratio": 1.146,
+   "excess_pct": 15.72,
+   "gap_to_formula": 0.0112
+  },
+  {
+   "n": 10000,
+   "k": 10,
+   "mean_per_server": 1000.0,
+   "max_ratio_mean": 1.0488,
+   "max_ratio_p10": 1.031,
+   "max_ratio_p90": 1.07,
+   "max_ratio_p99": 1.092,
+   "min_ratio_mean": 0.9509,
+   "share_max_over_1_05": 40.0,
+   "share_max_over_1_10": 0.35,
+   "formula_ratio": 1.0462,
+   "excess_pct": 4.88,
+   "gap_to_formula": 0.0026
+  },
+  {
+   "n": 100000,
+   "k": 10,
+   "mean_per_server": 10000.0,
+   "max_ratio_mean": 1.0155,
+   "max_ratio_p10": 1.0096,
+   "max_ratio_p90": 1.022,
+   "max_ratio_p99": 1.0287,
+   "min_ratio_mean": 0.9848,
+   "share_max_over_1_05": 0.0,
+   "share_max_over_1_10": 0.0,
+   "formula_ratio": 1.0146,
+   "excess_pct": 1.55,
+   "gap_to_formula": 0.0009
+  },
+  {
+   "n": 1000000,
+   "k": 10,
+   "mean_per_server": 100000.0,
+   "max_ratio_mean": 1.0048,
+   "max_ratio_p10": 1.003,
+   "max_ratio_p90": 1.007,
+   "max_ratio_p99": 1.0092,
+   "min_ratio_mean": 0.9951,
+   "share_max_over_1_05": 0.0,
+   "share_max_over_1_10": 0.0,
+   "formula_ratio": 1.0046,
+   "excess_pct": 0.48,
+   "gap_to_formula": 0.0002
+  }
+ ]
+}

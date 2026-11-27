@@ -1,0 +1,5 @@
+servers_from,servers_to,hot_drop_pct,cold_drop_pct
+5,10,32.12,49.31
+10,20,23.69,48.92
+50,100,7.7,46.54
+100,200,4.12,43.44

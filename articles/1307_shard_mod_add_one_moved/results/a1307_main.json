@@ -1,0 +1,236 @@
+{
+ "base_10_to_11": {
+  "moved_pct": 90.88,
+  "need_pct": 9.08,
+  "to_new_pct": 9.08,
+  "between_existing_pct": 81.8,
+  "moved_p10": 90.47,
+  "moved_p90": 91.28,
+  "moved_over_need": 10.009,
+  "stay_pct": 9.12,
+  "formula_moved_pct": 90.91,
+  "formula_to_new_pct": 9.09,
+  "formula_between_pct": 81.82
+ },
+ "set1_10_to_11": {
+  "moved_pct": 90.4,
+  "need_pct": 8.79,
+  "to_new_pct": 8.79,
+  "between_existing_pct": 81.61
+ },
+ "sequential_ids_10_to_11": {
+  "moved_pct": 90.91,
+  "need_pct": 9.09,
+  "to_new_pct": 9.09,
+  "between_existing_pct": 81.82
+ },
+ "by_servers": [
+  {
+   "kind": "1台足す",
+   "from": 2,
+   "to": 3,
+   "moved_pct": 66.65,
+   "moved_p10": 66.05,
+   "moved_p90": 67.28,
+   "formula_moved_pct": 66.67,
+   "need_pct": 33.34,
+   "moved_over_need": 1.999
+  },
+  {
+   "kind": "1台足す",
+   "from": 3,
+   "to": 4,
+   "moved_pct": 74.99,
+   "moved_p10": 74.41,
+   "moved_p90": 75.53,
+   "formula_moved_pct": 75.0,
+   "need_pct": 25.0,
+   "moved_over_need": 2.999
+  },
+  {
+   "kind": "1台減らす",
+   "from": 3,
+   "to": 2,
+   "moved_pct": 66.65,
+   "moved_p10": 66.05,
+   "moved_p90": 67.28,
+   "formula_moved_pct": 66.67,
+   "need_pct": 33.34,
+   "moved_over_need": 1.999
+  },
+  {
+   "kind": "1台足す",
+   "from": 5,
+   "to": 6,
+   "moved_pct": 83.34,
+   "moved_p10": 82.92,
+   "moved_p90": 83.75,
+   "formula_moved_pct": 83.33,
+   "need_pct": 16.71,
+   "moved_over_need": 4.988
+  },
+  {
+   "kind": "1台減らす",
+   "from": 5,
+   "to": 4,
+   "moved_pct": 80.0,
+   "moved_p10": 79.54,
+   "moved_p90": 80.5,
+   "formula_moved_pct": 80.0,
+   "need_pct": 20.01,
+   "moved_over_need": 3.998
+  },
+  {
+   "kind": "1台足す",
+   "from": 10,
+   "to": 11,
+   "moved_pct": 90.88,
+   "moved_p10": 90.47,
+   "moved_p90": 91.28,
+   "formula_moved_pct": 90.91,
+   "need_pct": 9.08,
+   "moved_over_need": 10.009
+  },
+  {
+   "kind": "1台減らす",
+   "from": 10,
+   "to": 9,
+   "moved_pct": 90.01,
+   "moved_p10": 89.57,
+   "moved_p90": 90.46,
+   "formula_moved_pct": 90.0,
+   "need_pct": 10.01,
+   "moved_over_need": 8.996
+  },
+  {
+   "kind": "1台足す",
+   "from": 20,
+   "to": 21,
+   "moved_pct": 95.23,
+   "moved_p10": 94.94,
+   "moved_p90": 95.54,
+   "formula_moved_pct": 95.24,
+   "need_pct": 4.76,
+   "moved_over_need": 20.012
+  },
+  {
+   "kind": "1台減らす",
+   "from": 20,
+   "to": 19,
+   "moved_pct": 95.03,
+   "moved_p10": 94.74,
+   "moved_p90": 95.3,
+   "formula_moved_pct": 95.0,
+   "need_pct": 5.0,
+   "moved_over_need": 19.002
+  },
+  {
+   "kind": "1台足す",
+   "from": 50,
+   "to": 51,
+   "moved_pct": 98.05,
+   "moved_p10": 97.87,
+   "moved_p90": 98.22,
+   "formula_moved_pct": 98.04,
+   "need_pct": 1.96,
+   "moved_over_need": 49.931
+  },
+  {
+   "kind": "1台減らす",
+   "from": 50,
+   "to": 49,
+   "moved_pct": 98.02,
+   "moved_p10": 97.8,
+   "moved_p90": 98.2,
+   "formula_moved_pct": 98.0,
+   "need_pct": 1.98,
+   "moved_over_need": 49.437
+  },
+  {
+   "kind": "1台足す",
+   "from": 100,
+   "to": 101,
+   "moved_pct": 99.0,
+   "moved_p10": 98.87,
+   "moved_p90": 99.14,
+   "formula_moved_pct": 99.01,
+   "need_pct": 0.98,
+   "moved_over_need": 100.827
+  },
+  {
+   "kind": "1台減らす",
+   "from": 100,
+   "to": 99,
+   "moved_pct": 98.99,
+   "moved_p10": 98.87,
+   "moved_p90": 99.12,
+   "formula_moved_pct": 99.0,
+   "need_pct": 0.99,
+   "moved_over_need": 99.565
+  }
+ ],
+ "by_added_from_10": [
+  {
+   "from": 10,
+   "to": 11,
+   "moved_pct": 90.88,
+   "moved_p10": 90.47,
+   "moved_p90": 91.28,
+   "need_pct": 9.08,
+   "moved_over_need": 10.009
+  },
+  {
+   "from": 10,
+   "to": 12,
+   "moved_pct": 83.34,
+   "moved_p10": 82.89,
+   "moved_p90": 83.85,
+   "need_pct": 16.67,
+   "moved_over_need": 4.999
+  },
+  {
+   "from": 10,
+   "to": 15,
+   "moved_pct": 66.67,
+   "moved_p10": 66.04,
+   "moved_p90": 67.35,
+   "need_pct": 33.32,
+   "moved_over_need": 2.001
+  },
+  {
+   "from": 10,
+   "to": 20,
+   "moved_pct": 49.97,
+   "moved_p10": 49.4,
+   "moved_p90": 50.69,
+   "need_pct": 49.97,
+   "moved_over_need": 1.0
+  },
+  {
+   "from": 10,
+   "to": 30,
+   "moved_pct": 66.67,
+   "moved_p10": 66.04,
+   "moved_p90": 67.35,
+   "need_pct": 66.67,
+   "moved_over_need": 1.0
+  }
+ ],
+ "one_by_one_10_to_20": {
+  "cum_moved_pct": 933.01,
+  "cum_need_pct": 66.89,
+  "formula_cum_moved_pct": 933.12,
+  "formula_cum_need_pct": 66.88,
+  "once_10_to_20_moved_pct": 49.97,
+  "once_10_to_20_need_pct": 49.97
+ },
+ "range_add1_moved_pct": [
+  66.65,
+  99.0
+ ],
+ "range_add1_over_need": [
+  1.999,
+  100.827
+ ],
+ "max_abs_gap_formula_pt": 0.03
+}

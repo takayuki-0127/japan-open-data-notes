@@ -1,0 +1,70 @@
+{
+ "base": {
+  "n_keys": 100000,
+  "servers": 10,
+  "trials": 2000,
+  "even_moved_share_pct": 9.09,
+  "even_per_server_before": 10000,
+  "moved_share_mean_pct": 9.04,
+  "moved_share_median_pct": 6.93,
+  "moved_share_p10_pct": 1.03,
+  "moved_share_p90_pct": 20.0,
+  "moved_share_max_pct": 63.94,
+  "moved_under_half_even_pct": 36.6,
+  "moved_over_double_even_pct": 12.5,
+  "n_givers_one_pct": 100.0,
+  "max_ratio_before_mean": 2.944,
+  "max_ratio_before_p10": 2.042,
+  "max_ratio_before_p90": 4.055,
+  "formula_max_ratio_Hn": 2.929,
+  "min_ratio_before_mean": 0.099,
+  "min_ratio_before_median": 0.073,
+  "cv_before_mean": 0.879,
+  "max_ratio_after_mean": 3.029,
+  "max_ratio_after_p10": 2.1,
+  "max_ratio_after_p90": 4.174,
+  "formula_max_ratio_H11": 3.02,
+  "busiest_gave_pct": 29.5,
+  "busiest_share_mean_pct": 29.44,
+  "max_count_unchanged_pct": 70.5,
+  "max_count_drop_mean_pct": 5.67,
+  "max_count_before_mean": 29437.1,
+  "max_count_after_mean": 27534.9,
+  "example_moved": 2351,
+  "example_max_before": 46821,
+  "example_min_before": 480,
+  "example_max_after": 46821
+ },
+ "robust": {
+  "moved_mean_minus_even_pt_min": -0.419,
+  "moved_mean_minus_even_pt_max": 0.524,
+  "max_ratio_min": 2.251,
+  "max_ratio_max": 5.239,
+  "max_ratio_minus_Hn_min": -0.091,
+  "max_ratio_minus_Hn_max": 0.07,
+  "busiest_gave_pct_min": 4.5,
+  "busiest_gave_pct_max": 47.5,
+  "max_unchanged_pct_min": 52.5,
+  "max_unchanged_pct_max": 95.5,
+  "max_ratio_k5_range": [
+   2.251,
+   2.317
+  ],
+  "max_ratio_k10_range": [
+   2.913,
+   2.929
+  ],
+  "max_ratio_k20_range": [
+   3.584,
+   3.638
+  ],
+  "max_ratio_k50_range": [
+   4.408,
+   4.569
+  ],
+  "max_ratio_k100_range": [
+   5.238,
+   5.239
+  ]
+ }
+}
