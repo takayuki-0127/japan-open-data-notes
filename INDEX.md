@@ -1,6 +1,6 @@
 # 索引（手法別・業務の場面別）
 
-[README](README.md) の記事（看板記事 457本＋記事の一覧 1027本）を、手法と業務の場面で引けるようにした索引です。
+[README](README.md) の記事（看板記事 457本＋記事の一覧 1039本）を、手法と業務の場面で引けるようにした索引です。
 
 - 題名と手法の言葉で機械的に分けたものなので、1本が複数の区分に入ることも、うまく入らないこともあります
 - 「F」で始まるのは看板記事（長めの分析。多くは公開データを使う）。数字だけの番号は、短い記事（実務の型・手法の解説など。架空のデータを使うものが多い）です
@@ -11,7 +11,7 @@
 | 手法 | 本数 |
 |---|---|
 | 予測・時系列 | 145 |
-| 因果推論・効果検証 | 71 |
+| 因果推論・効果検証 | 83 |
 | A/B テスト・実験 | 27 |
 | 統計の考え方（検定・区間・回帰） | 336 |
 | 機械学習・モデル評価 | 105 |
@@ -177,7 +177,7 @@
 
 </details>
 
-<details><summary><b>因果推論・効果検証</b>（71本）</summary>
+<details><summary><b>因果推論・効果検証</b>（83本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -252,6 +252,18 @@
 | 1155 | 同じものを大勢が同時に取りに来ると、置き場所から消えた瞬間に、元のデータへ何件の問い合わせが流れるのか？ | [1155_cache_expire_herd_origin](articles/1155_cache_expire_herd_origin) |
 | 1209 | 見つけた鳥が減ったのは、鳥が減ったからか？ | [1209_bird_count_drop_detection](articles/1209_bird_count_drop_detection) |
 | 1265 | 期の終わりに受注が集まって見えるのは、決まる日が寄るからか、記録を付ける日が寄るからか？ | [1265_deal_quarter_end_record_date](articles/1265_deal_quarter_end_record_date) |
+| 1305 | 1万件のデータを乱数で10台に振り分けると、いちばん多い1台の件数は平均の何倍になるのか？ | [1305_shard_random_max_load](articles/1305_shard_random_max_load) |
+| 1306 | データの件数を変えずに、振り分ける台数を10台から100台に増やすと、いちばん多い1台と平均の比はどう広がるのか？ | [1306_shard_more_servers_max_ratio](articles/1306_shard_more_servers_max_ratio) |
+| 1307 | 「番号を台数で割った余り」で置く台を決める振り分けで1台足すと、置き場所が変わるデータは全体の何割になるのか？ | [1307_shard_mod_add_one_moved](articles/1307_shard_mod_add_one_moved) |
+| 1308 | 輪の上に並べる振り分けで1台足すと、動く量は少なくても、台ごとの受け持ちはどれだけばらつくのか？ | [1308_shard_ring_add_one_spread](articles/1308_shard_ring_add_one_spread) |
+| 1309 | 輪の上に1台を何か所に分けて置くかで、いちばん多い1台の受け持ちはどれだけ平均に近づくのか？ | [1309_shard_ring_points_per_server](articles/1309_shard_ring_points_per_server) |
+| 1310 | 一部のデータに読み書きの1割が集まると、台数を増やしても、いちばん忙しい1台の負荷はどこから下がらなくなるのか？ | [1310_shard_hot_item_busiest_floor](articles/1310_shard_hot_item_busiest_floor) |
+| 1311 | データを日付の範囲で台に分けると、新しい日付を受け持つ1台に、書き込みはどれだけ集まるのか？ | [1311_shard_date_range_newest](articles/1311_shard_date_range_newest) |
+| 1312 | 値の種類が台数の数倍しかない項目（店の番号など）で振り分けると、いちばん多い1台は平均の何倍になるのか？ | [1312_shard_few_key_values](articles/1312_shard_few_key_values) |
+| 1313 | 置く台を乱数で2つ選んで、空いている方へ入れる決まりにすると、いちばん多い1台は1つだけ選ぶときよりどれだけ減るのか？ | [1313_shard_two_choices_less](articles/1313_shard_two_choices_less) |
+| 1314 | 1台が止まって、輪の上で次の台がその分をまるごと受け持つと、受け持つ台の量は平均の何倍になるのか？ | [1314_shard_ring_failover_successor](articles/1314_shard_ring_failover_successor) |
+| 1315 | 写しを3台ずつに置いても、3台が同時に止まったときに読めなくなるデータの割合は、写しの置き方でどれだけ違うのか？ | [1315_shard_replica_placement_loss](articles/1315_shard_replica_placement_loss) |
+| 1316 | 容量の大きい台と小さい台がまざるとき、件数で均等に振り分けると、全体の何割が埋まった時点で最初の1台がいっぱいになるのか？ | [1316_shard_mixed_capacity_first_full](articles/1316_shard_mixed_capacity_first_full) |
 
 </details>
 
@@ -2097,7 +2109,7 @@
 
 | 場面 | 本数 |
 |---|---|
-| 小売・店舗 | 229 |
+| 小売・店舗 | 230 |
 | EC・会員・Web | 115 |
 | マーケティング・広告 | 34 |
 | 需要予測・在庫 | 31 |
@@ -2106,7 +2118,7 @@
 | 保険 | 72 |
 | 公的統計・地域・人口 | 435 |
 
-<details><summary><b>小売・店舗</b>（229本）</summary>
+<details><summary><b>小売・店舗</b>（230本）</summary>
 
 | # | 問い | フォルダ |
 |---|---|---|
@@ -2339,6 +2351,7 @@
 | 1132 | 背景の色と照明が違うと、同じ商品の写真の色の数値はどれだけ動くのか？ | [1132_image_background_light_color](articles/1132_image_background_light_color) |
 | 1198 | 届かなかったアドレスを分母に残すか除くかで、開封率はどう変わるのか？ | [1198_mail_bounce_denominator_open_rate](articles/1198_mail_bounce_denominator_open_rate) |
 | 1270 | 分けた仕事の大きさがばらつくと、全体の時間はいちばん遅い1つでどれだけ延びるのか？ | [1270_parallel_part_size_slowest](articles/1270_parallel_part_size_slowest) |
+| 1312 | 値の種類が台数の数倍しかない項目（店の番号など）で振り分けると、いちばん多い1台は平均の何倍になるのか？ | [1312_shard_few_key_values](articles/1312_shard_few_key_values) |
 
 </details>
 
