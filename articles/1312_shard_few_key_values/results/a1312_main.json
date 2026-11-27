@@ -1,0 +1,104 @@
+{
+ "base": {
+  "m1_shop_mixed": {
+   "label": "①店の番号を混ぜた値の余り",
+   "busiest_vs_average_mean": 2.791,
+   "p10": 1.96,
+   "p90": 3.808,
+   "share_over_1_5x_pct": 99.8,
+   "share_over_2x_pct": 88.4
+  },
+  "m2_shop_mod": {
+   "label": "②店の番号（1から順）の余り",
+   "busiest_vs_average_mean": 2.372,
+   "p10": 1.68,
+   "p90": 3.321,
+   "share_over_1_5x_pct": 97.4,
+   "share_over_2x_pct": 65.6
+  },
+  "m3_shop_largest_first": {
+   "label": "③大きい店から空いた台へ",
+   "busiest_vs_average_mean": 1.749,
+   "p10": 1.055,
+   "p90": 2.681,
+   "share_over_1_5x_pct": 53.8,
+   "share_over_2x_pct": 26.95
+  },
+  "m4_record_id": {
+   "label": "④記録の番号の余り",
+   "busiest_vs_average_mean": 1.016,
+   "p10": 1.01,
+   "p90": 1.022,
+   "share_over_1_5x_pct": 0.0,
+   "share_over_2x_pct": 0.0
+  },
+  "largest_shop_vs_average_mean": 1.74,
+  "largest_shop_over_average_pct": 93.2,
+  "m3_equals_largest_shop_pct": 91.6,
+  "m1_machines_without_shop_mean": 0.425,
+  "m1_any_machine_without_shop_pct": 37.1,
+  "m1_machines_without_shop_formula": 0.424
+ },
+ "equal_size_shops": {
+  "m1_shop_mixed": {
+   "busiest_vs_average_mean": 1.973,
+   "p10": 1.66,
+   "p90": 2.35
+  },
+  "m2_shop_mod": {
+   "busiest_vs_average_mean": 1.016,
+   "p10": 1.01,
+   "p90": 1.022
+  },
+  "m3_shop_largest_first": {
+   "busiest_vs_average_mean": 1.002,
+   "p10": 1.001,
+   "p90": 1.004
+  },
+  "m4_record_id": {
+   "busiest_vs_average_mean": 1.015,
+   "p10": 1.01,
+   "p90": 1.022
+  },
+  "m1_machines_without_shop_mean": 0.436
+ },
+ "robust": {
+  "settings": 56,
+  "m1_range": [
+   1.155,
+   12.385
+  ],
+  "m1_range_upto_5x": [
+   1.737,
+   12.385
+  ],
+  "m2_range": [
+   1.015,
+   11.475
+  ],
+  "m3_range": [
+   1.0,
+   11.475
+  ],
+  "m4_range": [
+   1.015,
+   1.052
+  ],
+  "m1_over_1_5x_count": 47,
+  "m1_over_1_5x_count_upto_5x": 32,
+  "settings_upto_5x": 32,
+  "m3_lt_m1_count": 56,
+  "m1_at_100x_range": [
+   1.155,
+   2.047
+  ]
+ },
+ "setup": {
+  "records": 100000,
+  "shops": 30,
+  "machines": 10,
+  "shop_size_sigma_log": 1.0,
+  "reps": 2000,
+  "grid_reps": 400
+ }
+}

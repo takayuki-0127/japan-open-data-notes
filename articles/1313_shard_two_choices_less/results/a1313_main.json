@@ -1,0 +1,136 @@
+{
+ "base": {
+  "d1": {
+   "label": "①1台選ぶ",
+   "reps": 1000,
+   "max_mean": 125.937,
+   "excess_mean": 25.937,
+   "excess_p10": 21.0,
+   "excess_p90": 32.0,
+   "max_vs_average": 1.2594,
+   "min_mean": 75.908
+  },
+  "d2": {
+   "label": "②2台選んで少ない方",
+   "reps": 1000,
+   "max_mean": 101.916,
+   "excess_mean": 1.916,
+   "excess_p10": 1.0,
+   "excess_p90": 2.0,
+   "max_vs_average": 1.0192,
+   "min_mean": 96.972
+  },
+  "d3": {
+   "label": "③3台選んで少ない方",
+   "reps": 1000,
+   "max_mean": 101.068,
+   "excess_mean": 1.068,
+   "excess_p10": 1.0,
+   "excess_p90": 1.0,
+   "max_vs_average": 1.0107,
+   "min_mean": 98.195
+  },
+  "all": {
+   "label": "④全部の台を見る",
+   "reps": 50,
+   "max_mean": 100.0,
+   "excess_mean": 0.0,
+   "excess_p10": 0.0,
+   "excess_p90": 0.0,
+   "max_vs_average": 1.0,
+   "min_mean": 100.0
+  },
+  "reduction_d1_to_d2_excess_pct": 92.61,
+  "reduction_d2_to_d3_excess_pct": 44.26,
+  "d1_formula_guide_excess": 30.349
+ },
+ "spread": {
+  "d1": {
+   "over_110_pct": 14.59,
+   "under_90_pct": 14.63
+  },
+  "d2": {
+   "over_110_pct": 0.0,
+   "under_90_pct": 0.0
+  }
+ },
+ "by_refresh": [
+  {
+   "refresh_every": 1,
+   "max_mean": 101.943,
+   "excess_mean": 1.943,
+   "excess_p10": 2.0,
+   "excess_p90": 2.0,
+   "max_vs_average": 1.0194,
+   "min_mean": 97.02
+  },
+  {
+   "refresh_every": 10,
+   "max_mean": 102.003,
+   "excess_mean": 2.003,
+   "excess_p10": 2.0,
+   "excess_p90": 2.0,
+   "max_vs_average": 1.02,
+   "min_mean": 96.897
+  },
+  {
+   "refresh_every": 100,
+   "max_mean": 103.18,
+   "excess_mean": 3.18,
+   "excess_p10": 2.0,
+   "excess_p90": 4.0,
+   "max_vs_average": 1.0318,
+   "min_mean": 96.563
+  },
+  {
+   "refresh_every": 1000,
+   "max_mean": 112.36,
+   "excess_mean": 12.36,
+   "excess_p10": 9.0,
+   "excess_p90": 16.0,
+   "max_vs_average": 1.1236,
+   "min_mean": 92.963
+  },
+  {
+   "refresh_every": 10000,
+   "max_mean": 126.1,
+   "excess_mean": 26.1,
+   "excess_p10": 21.0,
+   "excess_p90": 32.1,
+   "max_vs_average": 1.261,
+   "min_mean": 75.95
+  }
+ ],
+ "robust": {
+  "settings": 12,
+  "d1_excess_range": [
+   1.698,
+   109.1
+  ],
+  "d2_excess_range": [
+   1.054,
+   2.1
+  ],
+  "reduction_range_pct": [
+   37.93,
+   98.12
+  ],
+  "d2_lt_d1_count": 12,
+  "d1_max_vs_average_range": [
+   1.047,
+   5.51
+  ],
+  "d2_max_vs_average_range": [
+   1.0012,
+   3.008
+  ]
+ },
+ "setup": {
+  "records": 10000,
+  "machines": 100,
+  "average": 100.0,
+  "reps": 1000,
+  "reps_all": 50,
+  "reps_refresh": 300
+ }
+}

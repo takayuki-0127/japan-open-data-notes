@@ -1,0 +1,6 @@
+method,daily_busiest_share_mean_pct,daily_busiest_share_min_pct,daily_busiest_share_max_pct,daily_busiest_vs_average_mean,year_total_busiest_share_pct,year_total_smallest_share_pct,year_total_busiest_vs_average
+①日付の範囲（新しい日付は最後の台）,99.82,97.04,100.0,9.982,99.82,0.0,9.982
+②日付の範囲（先の日付も順に割り当て）,90.96,80.88,96.83,9.096,10.0,10.0,1.0
+③日付の番号の余り（1日ごとに替わる）,82.49,82.21,82.83,8.249,10.0,10.0,1.0
+④記録の番号の余り（日付を見ない）,10.16,10.04,10.31,1.016,10.01,9.99,1.001
+⑤日付の範囲を2台ずつで受け持つ,50.11,49.77,50.44,5.011,50.0,0.0,5.0

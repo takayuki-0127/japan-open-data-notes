@@ -1,0 +1,132 @@
+{
+ "base": {
+  "m1_range_open": {
+   "label": "①日付の範囲（新しい日付は最後の台）",
+   "daily_busiest_share_mean_pct": 99.82,
+   "daily_busiest_share_min_pct": 97.04,
+   "daily_busiest_share_max_pct": 100.0,
+   "daily_busiest_vs_average_mean": 9.982,
+   "year_total_busiest_share_pct": 99.82,
+   "year_total_smallest_share_pct": 0.0,
+   "year_total_busiest_vs_average": 9.982
+  },
+  "m2_range_rotate": {
+   "label": "②日付の範囲（先の日付も順に割り当て）",
+   "daily_busiest_share_mean_pct": 90.96,
+   "daily_busiest_share_min_pct": 80.88,
+   "daily_busiest_share_max_pct": 96.83,
+   "daily_busiest_vs_average_mean": 9.096,
+   "year_total_busiest_share_pct": 10.0,
+   "year_total_smallest_share_pct": 10.0,
+   "year_total_busiest_vs_average": 1.0
+  },
+  "m3_day_mod": {
+   "label": "③日付の番号の余り（1日ごとに替わる）",
+   "daily_busiest_share_mean_pct": 82.49,
+   "daily_busiest_share_min_pct": 82.21,
+   "daily_busiest_share_max_pct": 82.83,
+   "daily_busiest_vs_average_mean": 8.249,
+   "year_total_busiest_share_pct": 10.0,
+   "year_total_smallest_share_pct": 10.0,
+   "year_total_busiest_vs_average": 1.0
+  },
+  "m4_id_mod": {
+   "label": "④記録の番号の余り（日付を見ない）",
+   "daily_busiest_share_mean_pct": 10.16,
+   "daily_busiest_share_min_pct": 10.04,
+   "daily_busiest_share_max_pct": 10.31,
+   "daily_busiest_vs_average_mean": 1.016,
+   "year_total_busiest_share_pct": 10.01,
+   "year_total_smallest_share_pct": 9.99,
+   "year_total_busiest_vs_average": 1.001
+  },
+  "m5_range_k2": {
+   "label": "⑤日付の範囲を2台ずつで受け持つ",
+   "daily_busiest_share_mean_pct": 50.11,
+   "daily_busiest_share_min_pct": 49.77,
+   "daily_busiest_share_max_pct": 50.44,
+   "daily_busiest_vs_average_mean": 5.011,
+   "year_total_busiest_share_pct": 50.0,
+   "year_total_smallest_share_pct": 0.0,
+   "year_total_busiest_vs_average": 5.0
+  }
+ },
+ "m2_by_day_in_range": {
+  "first_day_pct": 81.05,
+  "last_day_pct": 96.71
+ },
+ "formula": {
+  "m1_day0_formula_pct": 96.69,
+  "m3_formula_pct": 82.48,
+  "m4_formula_pct": 10.0
+ },
+ "stored_busiest_share_pct_day359": {
+  "m1_range_open": 55.0,
+  "m2_range_rotate": 10.0,
+  "m3_day_mod": 10.0,
+  "m4_id_mod": 10.0,
+  "m5_range_k2": 30.0
+ },
+ "by_machines_per_range": [
+  {
+   "machines_per_range": 1,
+   "daily_busiest_share_mean_pct": 98.97,
+   "busiest_vs_average": 9.897
+  },
+  {
+   "machines_per_range": 2,
+   "daily_busiest_share_mean_pct": 50.19,
+   "busiest_vs_average": 5.019
+  },
+  {
+   "machines_per_range": 5,
+   "daily_busiest_share_mean_pct": 20.37,
+   "busiest_vs_average": 2.037
+  },
+  {
+   "machines_per_range": 10,
+   "daily_busiest_share_mean_pct": 10.38,
+   "busiest_vs_average": 1.038
+  }
+ ],
+ "robust": {
+  "settings": 27,
+  "m1_busiest_range_pct": [
+   73.02,
+   100.0
+  ],
+  "m3_busiest_range_pct": [
+   51.72,
+   96.05
+  ],
+  "m5_busiest_range_pct": [
+   38.63,
+   50.3
+  ],
+  "m4_busiest_range_pct": [
+   2.74,
+   10.36
+  ],
+  "m1_vs_average_range": [
+   8.285,
+   39.976
+  ],
+  "m3_vs_average_range": [
+   5.55,
+   38.363
+  ],
+  "m1_at_least_p_new_count": 27,
+  "m3_at_least_p_new_count": 27
+ },
+ "setup": {
+  "machines": 10,
+  "history_days": 360,
+  "days": 360,
+  "writes_per_day": 100000,
+  "p_new": 0.8,
+  "update_age_mean_days": 20.0,
+  "range_days": 36,
+  "grid_days": 60,
+  "grid_writes_per_day": 20000
+ }
+}

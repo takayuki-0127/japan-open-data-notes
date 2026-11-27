@@ -1,0 +1,173 @@
+{
+ "base_points1": {
+  "top_recv_ratio_after_mean": 1.8,
+  "top_recv_ratio_after_p90": 3.3103,
+  "top_recv_ratio_after_max": 7.1541,
+  "top_recv_gain_share_mean": 1.0,
+  "max_after_ratio_mean": 2.855,
+  "max_after_ratio_p90": 3.8795,
+  "max_before_ratio_mean": 2.9661,
+  "n_receivers_mean": 1.0,
+  "share_top_recv_ge_2x": 37.14,
+  "max_failed_top_recv_ratio_after_mean": 3.3431
+ },
+ "by_points": [
+  {
+   "points_per_node": 1,
+   "top_recv_ratio_after_mean": 1.8,
+   "top_recv_ratio_after_p90": 3.3103,
+   "top_recv_ratio_after_max": 7.1541,
+   "top_recv_gain_share_mean": 1.0,
+   "max_after_ratio_mean": 2.855,
+   "max_after_ratio_p90": 3.8795,
+   "max_before_ratio_mean": 2.9661,
+   "n_receivers_mean": 1.0,
+   "share_top_recv_ge_2x": 37.14,
+   "max_failed_top_recv_ratio_after_mean": 3.3431
+  },
+  {
+   "points_per_node": 2,
+   "top_recv_ratio_after_mean": 1.61,
+   "top_recv_ratio_after_p90": 2.5993,
+   "top_recv_ratio_after_max": 4.9741,
+   "top_recv_gain_share_mean": 0.7859,
+   "max_after_ratio_mean": 2.2598,
+   "max_after_ratio_p90": 2.9486,
+   "max_before_ratio_mean": 2.3253,
+   "n_receivers_mean": 1.851,
+   "share_top_recv_ge_2x": 27.26,
+   "max_failed_top_recv_ratio_after_mean": 2.4377
+  },
+  {
+   "points_per_node": 4,
+   "top_recv_ratio_after_mean": 1.438,
+   "top_recv_ratio_after_p90": 2.0851,
+   "top_recv_ratio_after_max": 3.7858,
+   "top_recv_gain_share_mean": 0.5938,
+   "max_after_ratio_mean": 1.8406,
+   "max_after_ratio_p90": 2.273,
+   "max_before_ratio_mean": 1.8736,
+   "n_receivers_mean": 3.261,
+   "share_top_recv_ge_2x": 12.72,
+   "max_failed_top_recv_ratio_after_mean": 1.7879
+  },
+  {
+   "points_per_node": 8,
+   "top_recv_ratio_after_mean": 1.3053,
+   "top_recv_ratio_after_p90": 1.7503,
+   "top_recv_ratio_after_max": 2.6986,
+   "top_recv_gain_share_mean": 0.4406,
+   "max_after_ratio_mean": 1.5836,
+   "max_after_ratio_p90": 1.8784,
+   "max_before_ratio_mean": 1.6042,
+   "n_receivers_mean": 5.319,
+   "share_top_recv_ge_2x": 3.26,
+   "max_failed_top_recv_ratio_after_mean": 1.4654
+  },
+  {
+   "points_per_node": 16,
+   "top_recv_ratio_after_mean": 1.2014,
+   "top_recv_ratio_after_p90": 1.5045,
+   "top_recv_ratio_after_max": 2.0745,
+   "top_recv_gain_share_mean": 0.333,
+   "max_after_ratio_mean": 1.4011,
+   "max_after_ratio_p90": 1.5972,
+   "max_before_ratio_mean": 1.4182,
+   "n_receivers_mean": 7.471,
+   "share_top_recv_ge_2x": 0.1,
+   "max_failed_top_recv_ratio_after_mean": 1.2764
+  },
+  {
+   "points_per_node": 32,
+   "top_recv_ratio_after_mean": 1.1333,
+   "top_recv_ratio_after_p90": 1.3366,
+   "top_recv_ratio_after_max": 1.9068,
+   "top_recv_gain_share_mean": 0.2617,
+   "max_after_ratio_mean": 1.2792,
+   "max_after_ratio_p90": 1.4123,
+   "max_before_ratio_mean": 1.2926,
+   "n_receivers_mean": 8.74,
+   "share_top_recv_ge_2x": 0.0,
+   "max_failed_top_recv_ratio_after_mean": 1.1758
+  },
+  {
+   "points_per_node": 64,
+   "top_recv_ratio_after_mean": 1.0918,
+   "top_recv_ratio_after_p90": 1.2366,
+   "top_recv_ratio_after_max": 1.5525,
+   "top_recv_gain_share_mean": 0.2127,
+   "max_after_ratio_mean": 1.1953,
+   "max_after_ratio_p90": 1.2885,
+   "max_before_ratio_mean": 1.2033,
+   "n_receivers_mean": 8.993,
+   "share_top_recv_ge_2x": 0.0,
+   "max_failed_top_recv_ratio_after_mean": 1.1103
+  },
+  {
+   "points_per_node": 128,
+   "top_recv_ratio_after_mean": 1.0623,
+   "top_recv_ratio_after_p90": 1.166,
+   "top_recv_ratio_after_max": 1.3506,
+   "top_recv_gain_share_mean": 0.1806,
+   "max_after_ratio_mean": 1.1363,
+   "max_after_ratio_p90": 1.2007,
+   "max_before_ratio_mean": 1.1413,
+   "n_receivers_mean": 9.0,
+   "share_top_recv_ge_2x": 0.0,
+   "max_failed_top_recv_ratio_after_mean": 1.0669
+  },
+  {
+   "points_per_node": 256,
+   "top_recv_ratio_after_mean": 1.0427,
+   "top_recv_ratio_after_p90": 1.1156,
+   "top_recv_ratio_after_max": 1.2758,
+   "top_recv_gain_share_mean": 0.1596,
+   "max_after_ratio_mean": 1.0966,
+   "max_after_ratio_p90": 1.1407,
+   "max_before_ratio_mean": 1.1004,
+   "n_receivers_mean": 9.0,
+   "share_top_recv_ge_2x": 0.0,
+   "max_failed_top_recv_ratio_after_mean": 1.0496
+  }
+ ],
+ "even_spacing": {
+  "successor_ratio_after": 1.8,
+  "successor_ratio_before": 2.0
+ },
+ "example_ring": {
+  "failed_node": 0,
+  "successor": 7,
+  "failed_keys": 7750,
+  "successor_before": 35851,
+  "successor_after": 43601,
+  "successor_after_ratio": 3.9241,
+  "max_after_ratio": 3.9241
+ },
+ "grid_summary": {
+  "p1_top_recv_mean_range": [
+   1.6,
+   1.96
+  ],
+  "p1_minus_even_range": [
+   0.0,
+   0.0
+  ],
+  "p16_top_recv_mean_range": [
+   1.1609,
+   1.2164
+  ],
+  "p128_top_recv_mean_range": [
+   1.0563,
+   1.0663
+  ],
+  "p1_max_after_mean_range": [
+   2.0839,
+   4.4555
+  ],
+  "p128_max_after_mean_range": [
+   1.0912,
+   1.2622
+  ],
+  "n_configs": 24
+ }
+}

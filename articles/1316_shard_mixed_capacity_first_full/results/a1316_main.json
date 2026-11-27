@@ -1,0 +1,111 @@
+{
+ "base": {
+  "caps_gb": [
+   200.0,
+   200.0,
+   200.0,
+   200.0,
+   200.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "formula_equal_pct": 66.67,
+  "rand_equal_minus_formula_pt": -1.23,
+  "round_minus_formula_pt": -1.02,
+  "methods": [
+   {
+    "method": "①件数で均等（でたらめ）",
+    "fill_mean_pct": 65.44,
+    "fill_p5_pct": 64.39,
+    "fill_p95_pct": 66.38,
+    "fill_min_pct": 62.81,
+    "first_full_is_small_pct": 100.0
+   },
+   {
+    "method": "②件数で均等（順番）",
+    "fill_mean_pct": 65.65,
+    "fill_p5_pct": 64.61,
+    "fill_p95_pct": 66.42,
+    "fill_min_pct": 64.1,
+    "first_full_is_small_pct": 100.0
+   },
+   {
+    "method": "③容量に比例（参考）",
+    "fill_mean_pct": 97.84,
+    "fill_p5_pct": 96.26,
+    "fill_p95_pct": 98.93,
+    "fill_min_pct": 94.7,
+    "first_full_is_small_pct": 65.0
+   }
+  ]
+ },
+ "example_rep1": {
+  "fill_pct": 65.51,
+  "first_full_node": 5,
+  "items": 98065,
+  "large_used_pct_mean": 49.39,
+  "small_used_pct_mean": 97.76
+ },
+ "grid_summary": {
+  "n_configs": 36,
+  "formula_equal_range_mixed": [
+   29.41,
+   90.91
+  ],
+  "rand_equal_mean_range_mixed": [
+   28.65,
+   90.28
+  ],
+  "round_mean_range_mixed": [
+   28.67,
+   90.52
+  ],
+  "rand_cap_mean_range_all": [
+   91.54,
+   99.32
+  ],
+  "rand_equal_minus_formula_range": [
+   -8.31,
+   -0.12
+  ],
+  "round_minus_formula_range": [
+   -6.41,
+   -0.1
+  ],
+  "by_small_gb_rand_equal_minus_formula": {
+   "10": [
+    -8.31,
+    -0.76
+   ],
+   "100": [
+    -2.67,
+    -0.26
+   ],
+   "1000": [
+    -0.81,
+    -0.12
+   ]
+  },
+  "by_small_gb_rand_cap_mean": {
+   "10": [
+    91.54,
+    94.4
+   ],
+   "100": [
+    97.34,
+    98.2
+   ],
+   "1000": [
+    99.17,
+    99.32
+   ]
+  },
+  "same_caps_rand_equal_mean_range": [
+   91.69,
+   99.27
+  ]
+ }
+}
